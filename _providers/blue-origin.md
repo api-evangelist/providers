@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Blue Origin Shop storefront exposes an anonymous Model Context Protocol endpoint at https://shop.blueorigin.com/api/mcp. A live tools/list returned five tools with full JSON Schema draft 2020-12 i
@@ -127,8 +127,8 @@ image: https://shop.blueorigin.com/cdn/shop/files/shoplogo_28118316-c90f-44eb-b7
 layout: provider
 mcp_servers:
 - description: ''
-  name: blue-origin-mcp.yml
-  slug: blue-origin-mcpyml
+  name: Blue Origin MCP Server
+  slug: blue-origin-mcp-server
 modified: '2026-08-02'
 name: Blue Origin
 nav: Providers
@@ -146,7 +146,7 @@ scopes:
 score:
   band: emerging
   composite: 19.5
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -156,13 +156,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 23.0
+  previous_composite: 19.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -184,7 +184,7 @@ tags:
 - Rocket Engines
 - Defense
 - Manufacturing
-- E-commerce
+- E-Commerce
 - MCP
 website: https://www.blueorigin.com/
 ---

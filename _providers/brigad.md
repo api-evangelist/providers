@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: First-party GraphQL router backing the Brigad talent (freelancer) app — talents, propositions/missions, onboarding, experiences, availabilities and billing. Endpoint is hardcoded in Brigad's own web S
@@ -117,8 +117,8 @@ image: https://cdn.prod.website-files.com/650bff9b13318f3181a5cfbc/658043e5f20fc
 layout: provider
 mcp_servers:
 - description: ''
-  name: brigad-mcp.yml
-  slug: brigad-mcpyml
+  name: Brigad MCP Server
+  slug: brigad-mcp-server
 modified: '2026-08-17'
 name: Brigad
 nav: Providers
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.7
-  delta: 16.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -149,7 +149,7 @@ score:
     discoverability: 92.6
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.6
+  previous_composite: 31.7
   provenance:
     mcp: derived
   regulatory:
@@ -158,9 +158,9 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brigad/refs/heads/main/screenshots/brigad-2026-07-25T203819.png
 security:
 - kind: authentication

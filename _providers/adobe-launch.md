@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -1808,18 +1808,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 74.9
-  delta: -2.7
+  composite: 75.3
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 82.0
     developer_ergonomics: 94.6
     discoverability: 75.9
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 77.6
+  previous_composite: 75.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1830,8 +1830,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/screenshots/adobe-launch-2026-06-20T164946.png
 security:

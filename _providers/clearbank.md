@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -281,13 +281,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: clearbank-mcp.yml
-  slug: clearbank-mcpyml
+  name: ClearBank MCP Server
+  slug: clearbank-mcp-server
 modified: '2026-07-23'
 name: ClearBank
 nav: Providers
 network: true
-overview: 'ClearBank publishes 11 APIs on the [APIs.io](https://apis.io/) network, including GBP Accounts API, Faster Payments API, CHAPS API, and 8 more. Tagged areas include Financial Services, Banking, Banking as a Service, Embedded Banking, and Payments.
+overview: 'ClearBank publishes 11 APIs on the [APIs.io](https://apis.io/) network, including GBP Accounts API, Faster Payments API, CHAPS API, and 8 more. Tagged areas include Financial-Services, Banking, Banking as a Service, Embedded Banking, and Payments.
 
 
   The ClearBank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -298,7 +298,7 @@ random_paper: 7
 score:
   band: developing
   composite: 48.1
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -308,7 +308,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 46.1
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,8 +325,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:
@@ -344,7 +344,7 @@ security:
   summary_line: security.txt · contact published
 slug: clearbank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Banking as a Service
 - Embedded Banking

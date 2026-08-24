@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -333,8 +333,8 @@ image: https://files.readme.io/45785f4-brandmark-blue.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: astrada-mcp.yml
-  slug: astrada-mcpyml
+  name: Astrada MCP Server
+  slug: astrada-mcp-server
 modified: '2026-07-18'
 name: Astrada
 nav: Providers
@@ -355,7 +355,7 @@ scopes:
 score:
   band: strong
   composite: 63.9
-  delta: 4.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -365,7 +365,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 59.5
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -382,8 +382,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/screenshots/astrada-2026-07-25T201455.png
 security:

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -926,7 +926,7 @@ rules:
 score:
   band: strong
   composite: 64.9
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -942,7 +942,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 69.4
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     contracts:
@@ -950,8 +950,8 @@ score:
       derived: 0
       marker_coverage: 50.0
       total: 34
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png
 security:
@@ -1000,7 +1000,7 @@ tags:
 - Automation
 - CI/CD
 - Collaboration
-- Collections
+- Collection
 - Compliance
 - Discovery
 - Environments

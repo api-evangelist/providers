@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
@@ -180,16 +180,16 @@ image: https://cdn.shopify.com/s/files/1/0951/7126/files/0126_Shopify_Social_Ima
 layout: provider
 mcp_servers:
 - description: ''
-  name: brooklinen-mcp.yml
-  slug: brooklinen-mcpyml
+  name: Brooklinen MCP Server
+  slug: brooklinen-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Brooklinen MCP Server
+  slug: brooklinen-mcp-server-2
 modified: '2026-08-02'
 name: Brooklinen
 nav: Providers
 network: true
-overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Collections API, Discovery API, and 2 more. Tagged areas include ecommerce, retail, direct-to-consumer, home-goods, and bedding.
+overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Collections API, Discovery API, and 2 more. Tagged areas include E-Commerce, Retail, Direct to Consumer, Home Goods, and Bedding.
 
 
   Brooklinen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
@@ -201,18 +201,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.9
-  delta: 1.0
+  composite: 48.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 30.3
     contract_quality: 54.7
     developer_ergonomics: 54.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 45.9
+  previous_composite: 48.0
   provenance:
     conformance: first-party
     contracts:
@@ -228,8 +228,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:
@@ -243,17 +243,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: brooklinen
 tags:
-- ecommerce
-- retail
-- direct-to-consumer
-- home-goods
-- bedding
-- shopify
-- agentic-commerce
-- universal-commerce-protocol
-- mcp
+- E-Commerce
+- Retail
+- Direct to Consumer
+- Home Goods
+- Bedding
+- Shopify
+- Agentic Commerce
+- Universal Commerce Protocol
+- MCP
 - agent-native
-- catalog
-- checkout
+- Catalog
+- Checkout
 website: https://www.brooklinen.com/
 ---

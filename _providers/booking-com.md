@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -316,7 +316,7 @@ rules:
 score:
   band: thin
   composite: 30.7
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -326,7 +326,7 @@ score:
     discoverability: 57.4
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 37.5
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -338,9 +338,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/screenshots/booking-com-2026-06-20T173602.png
 security:
 - kind: authentication

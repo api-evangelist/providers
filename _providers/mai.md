@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The one public, callable API MAI publishes. A single unauthenticated write-only endpoint, POST /api/collect, that ingests first-party commerce events from a merchant's storefront — product views, cart
@@ -154,7 +154,7 @@ modified: '2026-08-12'
 name: MAI
 nav: Providers
 network: true
-overview: 'MAI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Artificial Intelligence, Marketing, and Advertising.
+overview: 'MAI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Marketing, Advertising, and Performance Marketing.
 
 
   MAI''s developer surface includes pricing, signup flow, FAQ, support, authentication, and 21 more developer resources.'
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.8
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -180,12 +180,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.8
+  previous_composite: 23.8
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mai/refs/heads/main/screenshots/mai-2026-07-25T225907.png
 security:
 - kind: authentication
@@ -203,7 +203,6 @@ security:
 slug: mai
 tags:
 - Company
-- AI
 - Artificial Intelligence
 - Marketing
 - Advertising

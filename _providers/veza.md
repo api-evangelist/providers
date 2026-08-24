@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Publish identity, resource and authorization metadata from custom or unsupported applications into the Veza Entity Catalog, and run authorization assessment queries and reports.
@@ -143,8 +143,8 @@ image: https://veza.com/wp-content/uploads/2024/01/Veza_Stacked-1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: veza-mcp.yml
-  slug: veza-mcpyml
+  name: Veza MCP Server
+  slug: veza-mcp-server
 modified: '2026-07-21'
 name: Veza
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 18
 score:
   band: developing
   composite: 41.3
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -170,13 +170,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 42.3
+  previous_composite: 41.3
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veza/refs/heads/main/screenshots/veza-2026-08-17T082737.png
 security:
@@ -196,6 +196,5 @@ tags:
 - Authorization
 - Access Management
 - Identity Governance
-- API
 website: https://www.veza.com/
 ---

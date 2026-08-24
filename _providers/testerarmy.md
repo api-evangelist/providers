@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,10 +27,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-19'
+  score: 46.3
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Groups API from Testerarmy — 5 operation(s) for groups.
@@ -185,9 +186,9 @@ description: TesterArmy is an AI-powered QA testing platform (Y Combinator, batc
 image: https://tester.army/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: testerarmy-mcp.yml
-  slug: testerarmy-mcpyml
+- description: Official hosted MCP server for TesterArmy documentation (Claude Code, Cursor, etc.). It serves docs/search; it is not a wrapper of the REST API.
+  name: Testerarmy MCP Server
+  slug: testerarmy-mcp-server
 modified: '2026-07-21'
 name: Testerarmy
 nav: Providers
@@ -202,18 +203,18 @@ overview: 'Testerarmy publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 12
 score:
   band: developing
-  composite: 51.0
-  delta: 0.1
+  composite: 52.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
     contract_quality: 64.1
     developer_ergonomics: 85.7
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 50.9
+  previous_composite: 52.1
   provenance:
     conformance: derived
     contracts:
@@ -223,8 +224,8 @@ score:
       total: 5
     mcp: first-party
     skills: unknown
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/screenshots/testerarmy-2026-08-17T082329.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Events, Event Sessions (Dates) and registration.
@@ -201,8 +201,8 @@ image: https://cdn.prod.website-files.com/61967dbb50eec57a4e7fde97/61f1c591c10f6
 layout: provider
 mcp_servers:
 - description: ''
-  name: banzai-mcp.yml
-  slug: banzai-mcpyml
+  name: Banzai MCP Server
+  slug: banzai-mcp-server
 modified: '2026-08-06'
 name: Banzai
 nav: Providers
@@ -222,7 +222,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.4
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 45.4
+  previous_composite: 44.4
   provenance:
     conformance: derived
     contracts:
@@ -242,8 +242,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/screenshots/banzai-2026-08-07T162131.png
 security:
@@ -265,7 +265,6 @@ tags:
 - Video
 - Engagement Marketing
 - Demand Generation
-- SaaS
-- API
+- Software-as-a-Service
 website: https://www.banzai.io
 ---

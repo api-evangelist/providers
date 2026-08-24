@@ -34,7 +34,7 @@ tags:
 - Duties
 - EDI
 - Entry Summary
-- Exports
+- Export
 - Freight Forwarding
 - Imports
 - PGA

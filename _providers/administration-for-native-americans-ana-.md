@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The ANA Projects Report dataset provides results and impact analysis for ANA-funded projects in Native American communities. Available through the data.gov and healthdata.gov catalogs, the dataset inc
@@ -86,7 +86,7 @@ modified: '2026-04-19'
 name: Administration for Native Americans (ANA)
 nav: Providers
 network: true
-overview: 'Administration for Native Americans (ANA) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Indigenous, Native Americans, Grants, and Social Services.
+overview: 'Administration for Native Americans (ANA) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Indigenous, Native Americans, Grants, and Social Services.
 
 
   Administration for Native Americans (ANA)''s developer surface includes developer portal and 5 more developer resources.'
@@ -102,7 +102,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -112,15 +112,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 11.7
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/administration-for-native-americans-ana-/refs/heads/main/screenshots/administration-for-native-americans-ana--2026-06-20T164731.png
 security:
@@ -130,7 +130,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: administration-for-native-americans-ana-
 tags:
-- Federal Government
+- Federal-Government
 - Indigenous
 - Native Americans
 - Grants

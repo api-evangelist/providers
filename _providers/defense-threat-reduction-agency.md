@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Public-facing website of the Defense Threat Reduction Agency providing organizational information, leadership, news, and links to mission-area programs. The site does not expose a developer API.
@@ -102,7 +102,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.3
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -112,15 +112,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.6
+  previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/screenshots/defense-threat-reduction-agency-2026-06-20T175842.png
 security:
@@ -135,7 +135,7 @@ tags:
 - Defense
 - Department of Defense
 - DTRA
-- Federal Government
+- Federal-Government
 - National Security
 - Threat Reduction
 website: https://www.dtra.mil

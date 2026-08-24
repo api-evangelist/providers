@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-06-03'
 name: New York Public Library What's On The Menu
 nav: Providers
 network: true
-overview: 'New York Public Library What''s On The Menu publishes 2 APIs on the [APIs.io](https://apis.io/) network: Dishes API and Menus API. Tagged areas include Libraries, Menus, Restaurants, History, and Open Data.
+overview: 'New York Public Library What''s On The Menu publishes 2 APIs on the [APIs.io](https://apis.io/) network: Dishes API and Menus API. Tagged areas include Libraries, Menus, Restaurant, History, and Open Data.
 
 
   The New York Public Library What''s On The Menu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -163,7 +163,7 @@ rules:
 score:
   band: thin
   composite: 34.4
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -173,7 +173,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 38.6
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/screenshots/new-york-public-library-whats-on-the-menu-2026-06-20T190231.png
 security:
@@ -204,7 +204,7 @@ slug: new-york-public-library-whats-on-the-menu
 tags:
 - Libraries
 - Menus
-- Restaurants
+- Restaurant
 - History
 - Open Data
 - Food

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 166
   human_in_the_loop: 2
@@ -266,7 +266,7 @@ modified: '2026-08-13'
 name: Acoustic
 nav: Providers
 network: true
-overview: 'Acoustic publishes 3 APIs on the [APIs.io](https://apis.io/) network: Content API, Campaign REST API, and Campaign XML API. Tagged areas include Company, Martech, Marketing, Marketing Automation, and Customer Engagement.
+overview: 'Acoustic publishes 3 APIs on the [APIs.io](https://apis.io/) network: Content API, Campaign REST API, and Campaign XML API. Tagged areas include Company, MarTech, Marketing, Marketing Automation, and Customer Engagement.
 
 
   The Acoustic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -285,7 +285,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 67.7
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -295,7 +295,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 64.2
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,8 +312,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/screenshots/acoustic-2026-07-25T181511.png
 security:
@@ -332,7 +332,7 @@ security:
 slug: acoustic
 tags:
 - Company
-- Martech
+- MarTech
 - Marketing
 - Marketing Automation
 - Customer Engagement

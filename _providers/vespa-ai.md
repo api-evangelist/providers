@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ modified: '2026-08-08'
 name: Vespa
 nav: Providers
 network: true
-overview: 'Vespa publishes 3 APIs on the [APIs.io](https://apis.io/) network: Query API, Documents API, and Visit API. Tagged areas include AI, Search, Vector Database, Big Data, and Machine Learning.
+overview: 'Vespa publishes 3 APIs on the [APIs.io](https://apis.io/) network: Query API, Documents API, and Visit API. Tagged areas include Artificial Intelligence, Search, Vector Database, Big Data, and Machine-Learning.
 
 
   The Vespa catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -356,18 +356,18 @@ rules:
   slug: vespa-ai-rules
 score:
   band: developing
-  composite: 52.5
-  delta: -9.2
+  composite: 53.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 57.6
     developer_ergonomics: 57.1
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 61.7
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -375,9 +375,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/screenshots/vespa-ai-2026-06-20T201005.png
 security:
 - kind: authentication
@@ -394,14 +394,14 @@ security:
   summary_line: Intigriti · security.txt · contact published
 slug: vespa-ai
 tags:
-- AI
+- Artificial Intelligence
 - Search
 - Vector Database
 - Big Data
-- Machine Learning
+- Machine-Learning
 - Semantic Search
 - Retrieval Augmented Generation
-- Open Source
+- Open-Source
 - Tensor
 - Recommendations
 use_cases:

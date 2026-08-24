@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST APIs for the Carbon Black Cloud platform — Endpoint Standard, Enterprise EDR, Audit and Remediation (live query), and Workload/Container protection. Authentication uses an API Id/Secret pair in a
@@ -37,6 +37,10 @@ apis:
   slug: carbon-black-cloud-platform-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/vmware/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -93,23 +97,27 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/carbon-black-llms.txt
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/confer/
 created: '2026-07-17'
 description: Carbon Black is an endpoint security company, now part of Broadcom (formerly VMware Carbon Black), whose cloud-native platform delivers next-generation antivirus, endpoint detection and response (EDR), threat hunting, live query, and application control. The Carbon Black Cloud platform spans Endpoint Standard, Enterprise EDR, Audit and Remediation, and Workload/Container protection, alongside the on-premises Carbon Black EDR and App Control products. Its developer network at developer.carbonblack.com publishes REST APIs, a Python SDK, and integration guides for security operations, threat intelligence, and automated remediation. APIs authenticate with an API Id/Secret pair passed in an X-Auth-Token header against region-specific Carbon Black Cloud hostnames.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carbon-black.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-21'
 name: Carbon Black
 nav: Providers
 network: true
 overview: 'Carbon Black publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Endpoint Security, EDR, and Threat Detection.
 
 
-  Carbon Black''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 9 more developer resources.'
+  Carbon Black''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 11 more developer resources.'
 random_paper: 7
 score:
   band: emerging
   composite: 19.3
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -119,9 +127,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbon-black/refs/heads/main/screenshots/carbon-black-2026-07-25T204503.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -126,7 +126,7 @@ modified: '2026-08-16'
 name: Flueid
 nav: Providers
 network: true
-overview: 'Flueid publishes 1 API on the [APIs.io](https://apis.io/) network: Pro API. Tagged areas include Company, Real Estate, Title Insurance, Mortgage, and Property Data.
+overview: 'Flueid publishes 1 API on the [APIs.io](https://apis.io/) network: Pro API. Tagged areas include Company, Real-Estate, Title Insurance, Mortgage, and Property Data.
 
 
   Flueid''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.4
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -152,7 +152,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 37.8
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -169,9 +169,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Flueid Authentication
@@ -188,12 +188,12 @@ security:
 slug: flueid
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Mortgage
 - Property Data
 - Verification of Title
-- Financial Services
+- Financial-Services
 - Lending
 - PropTech
 - Settlement Services

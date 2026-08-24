@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-19'
+  score: 6.4
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,7 +101,7 @@ modified: '2026-08-13'
 name: Plixi
 nav: Providers
 network: true
-overview: 'Plixi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Instagram, Marketing, and Growth.
+overview: 'Plixi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social-Media, Instagram, Marketing, and Growth.
 
 
   Plixi''s developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
@@ -116,20 +116,20 @@ rate_limits:
   slug: plixi-rate-limits
 score:
   band: emerging
-  composite: 22.4
-  delta: 0.1
+  composite: 23.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -139,12 +139,12 @@ security:
 slug: plixi
 tags:
 - Company
-- Social Media
+- Social-Media
 - Instagram
 - Marketing
 - Growth
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Influencer
 website: https://plixi.com
 ---

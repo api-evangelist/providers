@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -336,7 +336,7 @@ jsonld:
   slug: temple-health-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Temple Health ships no MCP server. This is a CANDIDATE tool surface derived from the operations the FHIR endpoint actually exposes, so that an integrator can see what an MCP wrapper would look like. N
   name: 'Candidate tool surface only — Temple Health hosts no MCP server (deployment mode: none)'
   slug: candidate-tool-surface-only-temple-health-hosts-no-mcp-server-deployment-mode-none
 modified: '2026-08-15'
@@ -388,18 +388,18 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.3
+  composite: 59.8
   delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 61.1
     developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 5.3
-  previous_composite: 59.3
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -416,8 +416,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/screenshots/temple-health-2026-06-20T195058.png
 security:
@@ -442,7 +442,7 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- OAuth 2.0
+- Authentication
 - Patient Access
 - Price Transparency
 - R4

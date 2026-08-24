@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Agent-facing commerce API for the Beekeeper''s Naturals storefront, exposed over the Model Context Protocol as the Universal Commerce Protocol (UCP) Shopping service. The endpoint is advertised by the '
@@ -124,8 +124,8 @@ image: https://www.beekeepersnaturals.com/cdn/shop/files/BestSeller-1200x630.web
 layout: provider
 mcp_servers:
 - description: ''
-  name: beekeepers-naturals-mcp.yml
-  slug: beekeepers-naturals-mcpyml
+  name: Beekeeper's Naturals MCP Server
+  slug: beekeepers-naturals-mcp-server
 modified: '2026-08-02'
 name: Beekeeper's Naturals
 nav: Providers
@@ -142,18 +142,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.6
-  delta: 3.4
+  composite: 37.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 33.2
+  previous_composite: 37.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -164,8 +164,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/screenshots/beekeepers-naturals-2026-08-07T162251.png
 security:
@@ -188,6 +188,6 @@ tags:
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 website: https://www.beekeepersnaturals.com/
 ---

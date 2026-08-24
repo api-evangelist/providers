@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Drafts API from Sleeper — 6 operation(s) for drafts.
@@ -176,8 +176,8 @@ image: https://sleepercdn.com/images/v2/icons/app_icon_web.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sleeper-mcp.yml
-  slug: sleeper-mcpyml
+  name: Sleeper MCP Server
+  slug: sleeper-mcp-server
 modified: '2026-07-21'
 name: Sleeper
 nav: Providers
@@ -190,7 +190,7 @@ random_paper: 17
 score:
   band: thin
   composite: 29.6
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 28.8
+  previous_composite: 29.6
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

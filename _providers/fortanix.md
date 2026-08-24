@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -200,8 +200,8 @@ image: https://cdn.aglty.io/fortanix/global-header/fortanix-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: fortanix-mcp.yml
-  slug: fortanix-mcpyml
+  name: Fortanix MCP Server
+  slug: fortanix-mcp-server
 modified: '2026-08-01'
 name: Fortanix
 nav: Providers
@@ -219,7 +219,7 @@ scopes:
 score:
   band: developing
   composite: 45.8
-  delta: -8.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -229,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 54.6
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,9 +240,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/screenshots/fortanix-2026-08-07T165417.png
 security:
 - kind: authentication

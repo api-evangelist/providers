@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -44,7 +48,7 @@ created: '2026-07-17'
 description: Spiff was a sales commission and incentive compensation management (ICM) platform that automated commission calculations, gave sales reps real-time earnings visibility, and streamlined finance-side reconciliation for revenue teams. Founded in Utah and backed by Lightspeed Venture Partners and Norwest Venture Partners, Spiff was acquired by Salesforce in 2024 and folded into Sales Cloud as "Salesforce Spiff" / Incentive Compensation Management. As of this profile the standalone spiff.com and app.spiff.com properties redirect to salesforce.com, and no independent Spiff public API, developer portal, documentation, or OpenAPI surface remains discoverable — its capabilities are now delivered through the Salesforce platform.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spiff.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-21'
 name: Spiff
 nav: Providers
 network: true
@@ -64,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

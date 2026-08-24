@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: S3-compatible object storage REST API implementing Amazon S3 bucket and object operations (put/get/list/delete objects, multipart uploads, versioning, object locking, lifecycle, replication), authenti
@@ -173,14 +173,14 @@ description: MinIO is a high-performance, S3-compatible object storage system bu
 image: https://github.com/minio.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: minio-mcp.yml
-  slug: minio-mcpyml
+- description: Official Model Context Protocol server for interacting with MinIO / AIStor object stores. Ships as a container image; runs read-only by default and gates write, delete, and admin operations behind exp
+  name: MinIO MCP Server
+  slug: minio-mcp-server
 modified: '2026-07-20'
 name: MinIO
 nav: Providers
 network: true
-overview: 'MinIO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Object Storage, Storage, S3 Compatible, Cloud Native, and Kubernetes.
+overview: 'MinIO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Object Storage, Storage, S3 Compatible, Cloud-Native, and Kubernetes.
 
 
   The MinIO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -191,7 +191,7 @@ random_paper: 15
 score:
   band: developing
   composite: 49.6
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -201,13 +201,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 55.3
+  previous_composite: 49.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/screenshots/minio-2026-08-07T172955.png
 security:
 - kind: authentication
@@ -231,7 +231,7 @@ tags:
 - Object Storage
 - Storage
 - S3 Compatible
-- Cloud Native
+- Cloud-Native
 - Kubernetes
 - Data Infrastructure
 - AI Storage

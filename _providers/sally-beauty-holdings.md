@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Sally Beauty Supply's digital commerce platform powered by Salesforce Commerce Cloud, providing product catalog, shopping cart, checkout, and order management capabilities for consumer beauty supply c
@@ -109,7 +109,7 @@ modified: '2026-05-02'
 name: Sally Beauty Holdings
 nav: Providers
 network: true
-overview: 'Sally Beauty Holdings publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Beauty, Retail, Ecommerce, Professional, and Consumer.
+overview: 'Sally Beauty Holdings publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Beauty, Retail, E-Commerce, Professional, and Consumer.
 
 
   The Sally Beauty Holdings catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -155,7 +155,7 @@ rules:
 score:
   band: emerging
   composite: 13.0
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -165,10 +165,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 19.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 13.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/screenshots/sally-beauty-holdings-2026-06-20T193353.png
 security:
 - kind: domain-security
@@ -179,7 +179,7 @@ slug: sally-beauty-holdings
 tags:
 - Beauty
 - Retail
-- Ecommerce
+- E-Commerce
 - Professional
 - Consumer
 - Fortune 1000

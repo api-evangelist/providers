@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'A two-operation OpenAPI 3.0.3 document Fetch publishes in its public GitHub organization as the specification for its engineering take-home exercise: submit a receipt for processing and retrieve the p'
@@ -132,7 +132,7 @@ random_paper: 4
 score:
   band: thin
   composite: 27.5
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -142,7 +142,7 @@ score:
     discoverability: 77.8
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 27.7
+  previous_composite: 27.5
   provenance:
     conformance: derived
     contracts:
@@ -150,8 +150,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png
 security:

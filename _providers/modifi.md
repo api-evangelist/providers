@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: MODIFI's partnership API supports trade finance transaction requests, financing status evaluation, and transaction management.
@@ -61,7 +61,7 @@ modified: '2026-04-28'
 name: MODIFI
 nav: Providers
 network: true
-overview: MODIFI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Trade Finance, Financing, Partnerships, and Transactions.
+overview: MODIFI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Trade Finance, Financing, Partnerships, and Transaction.
 plans:
 - name: Modifi Plans Pricing
   plan_count: 3
@@ -85,8 +85,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 9.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modifi/refs/heads/main/screenshots/modifi-2026-06-20T185655.png
 security:
@@ -99,5 +99,5 @@ tags:
 - Trade Finance
 - Financing
 - Partnerships
-- Transactions
+- Transaction
 ---

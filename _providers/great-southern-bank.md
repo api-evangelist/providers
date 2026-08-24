@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -191,8 +191,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/great-sout
 layout: provider
 mcp_servers:
 - description: ''
-  name: great-southern-bank-mcp.yml
-  slug: great-southern-bank-mcpyml
+  name: Great Southern Bank MCP Server
+  slug: great-southern-bank-mcp-server
 modified: '2026-07-22'
 name: Great Southern Bank
 nav: Providers
@@ -210,7 +210,7 @@ scopes:
 score:
   band: developing
   composite: 47.3
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -220,7 +220,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 43.5
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     contracts:
@@ -236,8 +236,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/screenshots/great-southern-bank-2026-07-21T114729.png
 security:

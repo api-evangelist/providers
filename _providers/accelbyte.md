@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -183,7 +183,7 @@ modified: '2026-07-01'
 name: AccelByte
 nav: Providers
 network: true
-overview: 'AccelByte publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Achievement API, Basic API, Cloud Save API, and 10 more. Tagged areas include Gaming, Backend, BaaS, Live Services, and Player Accounts.
+overview: 'AccelByte publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Achievement API, Basic API, Cloud Save API, and 10 more. Tagged areas include Gaming, Backend, Backend-as-a-Service, Live Services, and Player Accounts.
 
 
   AccelByte''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -199,7 +199,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.3
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -209,7 +209,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.1
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/screenshots/accelbyte-2026-07-25T181428.png
 security:
@@ -234,7 +234,7 @@ slug: accelbyte
 tags:
 - Gaming
 - Backend
-- BaaS
+- Backend-as-a-Service
 - Live Services
 - Player Accounts
 - Commerce

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -170,13 +170,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: coutts-mcp.yml
-  slug: coutts-mcpyml
+  name: Coutts MCP Server
+  slug: coutts-mcp-server
 modified: '2026-07-23'
 name: Coutts
 nav: Providers
 network: true
-overview: 'Coutts publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API, Payment Initiation API, and Confirmation of Funds API. Tagged areas include Financial Services, Banking, Private Bank, Wealth Management, and Open Banking.
+overview: 'Coutts publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API, Payment Initiation API, and Confirmation of Funds API. Tagged areas include Financial-Services, Banking, Private Bank, Wealth Management, and Open Banking.
 
 
   Coutts'' developer surface includes authentication, documentation, sandbox, engineering blog, support, getting-started guide, and 24 more developer resources.'
@@ -189,7 +189,7 @@ scopes:
 score:
   band: developing
   composite: 41.3
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -199,7 +199,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 47.9
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,9 +216,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coutts/refs/heads/main/screenshots/coutts-2026-07-25T210525.png
 security:
 - kind: authentication
@@ -235,7 +235,7 @@ security:
   summary_line: Bugcrowd · security.txt · contact published
 slug: coutts
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Private Bank
 - Wealth Management

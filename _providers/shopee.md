@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The shop authorization flow lets a Shopee seller grant a registered partner application access to their shop. The partner receives a per-shop access token (and refresh token) used for all subsequent v
@@ -141,7 +141,7 @@ modified: '2026-05-23'
 name: Shopee
 nav: Providers
 network: true
-overview: 'Shopee publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-commerce, Marketplace, Southeast Asia, Cross-border, and Orders.
+overview: 'Shopee publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Southeast Asia, Cross-Border, and Order.
 
 
   Shopee''s developer surface includes documentation and 10 more developer resources.'
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.9
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -167,9 +167,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 20.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopee/refs/heads/main/screenshots/shopee-2026-06-20T193833.png
 security:
@@ -179,12 +179,12 @@ security:
   summary_line: TLSv1.2 · DMARC
 slug: shopee
 tags:
-- E-commerce
+- E-Commerce
 - Marketplace
 - Southeast Asia
-- Cross-border
-- Orders
-- Products
+- Cross-Border
+- Order
+- Product
 - Logistics
 - Shopee
 website: https://open.shopee.com/

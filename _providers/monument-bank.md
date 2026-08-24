@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ modified: '2026-07-23T10:00:00Z'
 name: Monument Bank
 nav: Providers
 network: true
-overview: 'Monument Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Monument Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Monument Bank''s developer surface includes authentication, engineering blog, product news, support, FAQ, and 16 more developer resources.'
@@ -163,7 +163,7 @@ scopes:
 score:
   band: developing
   composite: 39.5
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -173,7 +173,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 35.3
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,8 +188,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/screenshots/monument-bank-2026-08-07T184223.png
 security:
@@ -203,7 +203,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: monument-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

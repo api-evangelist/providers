@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Request Finance platform — accounts payable / receivable, invoices, payroll, organizations and clients — that Consola Finance's crypto accounting product is now part of. JSON over HTT
@@ -145,7 +145,7 @@ scopes:
 score:
   band: thin
   composite: 38.9
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -155,10 +155,10 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 45.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 38.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consola-finance/refs/heads/main/screenshots/consola-finance-2026-07-25T210307.png
 security:
 - kind: authentication

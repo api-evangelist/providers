@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ scopes:
 score:
   band: strong
   composite: 61.0
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -281,7 +281,7 @@ score:
     discoverability: 87.0
     governance: 26.5
     operational_transparency: 68.4
-  previous_composite: 65.3
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,8 +292,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/screenshots/google-display-video-360-2026-06-20T182156.png
 security:
@@ -319,7 +319,7 @@ tags:
 - Video Ads
 - Advertising
 - AdTech
-- Demand Side Platform
+- Demand-Side Platform
 - Media Buying
 - Audiences
 - Google Marketing Platform

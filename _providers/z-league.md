@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -169,8 +169,8 @@ image: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main
 layout: provider
 mcp_servers:
 - description: ''
-  name: z-league-mcp.yml
-  slug: z-league-mcpyml
+  name: Z League MCP Server
+  slug: z-league-mcp-server
 modified: '2026-07-21'
 name: Z League
 nav: Providers
@@ -190,7 +190,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.9
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -200,7 +200,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 46.8
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,9 +211,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/screenshots/z-league-2026-08-17T083228.png
 security:
 - kind: authentication
@@ -233,7 +233,7 @@ tags:
 - AI Agents
 - SEO
 - Advertising
-- Webhooks
+- Webhook
 - Gaming
 website: https://www.gomega.ai
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -471,7 +471,7 @@ modified: '2026-05-19'
 name: Salesforce Einstein
 nav: Providers
 network: true
-overview: 'Salesforce Einstein publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Record Insights API, API Usage API, Bot Definitions API, and 14 more. Tagged areas include Artificial Intelligence, Computer Vision, CRM, Machine Learning, and Natural Language Processing.
+overview: 'Salesforce Einstein publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Record Insights API, API Usage API, Bot Definitions API, and 14 more. Tagged areas include Artificial Intelligence, Computer-Vision, CRM, Machine-Learning, and Natural Language Processing.
 
 
   The Salesforce Einstein catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -516,18 +516,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.7
-  delta: -7.0
+  composite: 42.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.1
     developer_ergonomics: 40.5
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 48.7
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -535,9 +535,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/screenshots/salesforce-einstein-2026-06-20T193344.png
 security:
 - kind: authentication
@@ -551,9 +551,9 @@ security:
 slug: salesforce-einstein
 tags:
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - CRM
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Predictive Analytics
 - Salesforce

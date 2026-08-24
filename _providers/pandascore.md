@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 42.7
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +222,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/screenshots/pandascore-2026-08-17T083019.png
 security:

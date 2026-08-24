@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for location intelligence — location scores, neighborhood profiles, geographies, points of interest, demographics, schools, value drivers, similar neighborhoods, location snapshot, market sta
@@ -97,7 +97,7 @@ modified: '2026-07-20'
 name: Local Logic
 nav: Providers
 network: true
-overview: 'Local Logic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location Intelligence, Real Estate, Geospatial, and Neighborhoods.
+overview: 'Local Logic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location Intelligence, Real-Estate, Geospatial, and Neighborhoods.
 
 
   Local Logic''s developer surface includes documentation, support, engineering blog, pricing, signup flow, GitHub presence, authentication, and 6 more developer resources.'
@@ -105,7 +105,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 22.9
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -115,9 +115,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 22.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/local-logic/refs/heads/main/screenshots/local-logic-2026-07-25T225422.png
 security:
@@ -133,12 +133,12 @@ slug: local-logic
 tags:
 - Company
 - Location Intelligence
-- Real Estate
+- Real-Estate
 - Geospatial
 - Neighborhoods
 - Demographics
 - Points of Interest
-- Proptech
+- PropTech
 - Climate Risk
 - Location Scores
 website: https://locallogic.co

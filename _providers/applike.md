@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
@@ -242,7 +242,7 @@ modified: '2026-08-06'
 name: AppLike Group
 nav: Providers
 network: true
-overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) network, including App Partner Connection API, Appevents API, Apps API, and 4 more. Tagged areas include mobile-attribution, user-acquisition, adtech, mobile-advertising, and app-monetization.
+overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) network, including App Partner Connection API, Appevents API, Apps API, and 4 more. Tagged areas include Mobile Attribution, User Acquisition, AdTech, Mobile Advertising, and App Monetization.
 
 
   The AppLike Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -276,8 +276,8 @@ score:
       marker_coverage: 0.0
       total: 7
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/screenshots/applike-2026-08-07T161506.png
 security:
@@ -295,17 +295,17 @@ security:
   summary_line: trust center published
 slug: applike
 tags:
-- mobile-attribution
-- user-acquisition
-- adtech
-- mobile-advertising
-- app-monetization
+- Mobile Attribution
+- User Acquisition
+- AdTech
+- Mobile Advertising
+- App Monetization
 - rewarded-advertising
-- mobile-sdk
-- mobile-analytics
-- marketing-attribution
-- mobile-games
-- event-tracking
-- company
+- Mobile SDK
+- Mobile Analytics
+- Marketing Attribution
+- Mobile Games
+- Event Tracking
+- Company
 website: https://applike-group.com/
 ---

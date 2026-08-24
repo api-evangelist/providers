@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 6
@@ -452,7 +452,7 @@ rules:
 score:
   band: thin
   composite: 36.3
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -462,7 +462,7 @@ score:
     discoverability: 57.4
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 40.5
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -476,8 +476,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Weav.ai Decisioning Platform, exposing document, folder, form, agent, workflow, action, and chat services used to build agentic insurance decisioning flows. Authenticated with a Beare
@@ -99,13 +99,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weav.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: weav-mcp.yml
-  slug: weav-mcpyml
+  name: Weav MCP Server
+  slug: weav-mcp-server
 modified: '2026-07-21'
 name: Weav
 nav: Providers
 network: true
-overview: 'Weav publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Insurance, Insurtech, and Underwriting.
+overview: 'Weav publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Insurance, Insurtech, and Underwriting.
 
 
   Weav''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 9 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 16.1
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.5
+  previous_composite: 16.1
   provenance:
     mcp: derived
   regulatory:
@@ -132,8 +132,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -147,7 +147,7 @@ security:
 slug: weav
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Insurance
 - Insurtech
 - Underwriting

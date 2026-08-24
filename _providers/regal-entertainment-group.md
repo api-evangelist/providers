@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -208,18 +208,18 @@ rules:
   slug: regal-entertainment-group-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: 2.8
+  composite: 38.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 62.9
     developer_ergonomics: 21.4
     discoverability: 68.5
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 5.3
-  previous_composite: 34.7
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -227,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The ACCC-operated Consumer Data Right Register, the ecosystem's source of truth for who is allowed to participate. Unauthenticated endpoints return the energy data holder brand summary (84 brands with
@@ -286,7 +286,7 @@ scopes:
 score:
   band: strong
   composite: 63.8
-  delta: 7.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -296,7 +296,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 97.4
-  previous_composite: 56.2
+  previous_composite: 63.8
   provenance:
     conformance: first-party
     contracts:
@@ -312,9 +312,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/screenshots/cdr-energy-2026-08-07T163251.png
 security:
 - kind: authentication
@@ -336,7 +336,7 @@ tags:
 - Smart Metering
 - DER
 - Energy Markets
-- Regulation
+- Regulations
 - Government
 - Open Data
 website: https://www.cdr.gov.au/

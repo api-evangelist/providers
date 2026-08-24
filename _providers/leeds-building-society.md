@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The UK Open Banking (OBIE) Open Data API standard for public, unauthenticated reference data - ATM locations, branch locations, personal and business current accounts, unsecured SME loans, and commerc
@@ -95,7 +95,7 @@ modified: '2026-07-23'
 name: Leeds Building Society
 nav: Providers
 network: true
-overview: 'Leeds Building Society publishes 1 API on the [APIs.io](https://apis.io/) network: OBIE Open Data API (shared standard). Tagged areas include Financial Services, Banking, Building Society, Mutual, and Savings.
+overview: 'Leeds Building Society publishes 1 API on the [APIs.io](https://apis.io/) network: OBIE Open Data API (shared standard). Tagged areas include Financial-Services, Banking, Building Society, Mutual, and Savings.
 
 
   Leeds Building Society''s developer surface includes support, engineering blog, and 7 more developer resources.'
@@ -103,7 +103,7 @@ random_paper: 3
 score:
   band: thin
   composite: 28.7
-  delta: 5.6
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -113,7 +113,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 23.1
+  previous_composite: 28.7
   provenance:
     contracts:
       callable: 100.0
@@ -126,9 +126,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/screenshots/leeds-building-society-2026-07-25T224818.png
 security:
 - kind: domain-security
@@ -137,7 +137,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: leeds-building-society
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Mutual

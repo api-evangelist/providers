@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ modified: '2026-05-19'
 name: Zally
 nav: Providers
 network: true
-overview: 'Zally publishes 3 APIs on the [APIs.io](https://apis.io/) network: Api Violations API, Review Statistics API, and Supported Rules API. Tagged areas include API Design, API Linting, API Quality, Open Source, and OpenAPI.
+overview: 'Zally publishes 3 APIs on the [APIs.io](https://apis.io/) network: Api Violations API, Review Statistics API, and Supported Rules API. Tagged areas include API Design, API Linting, API Quality, Open-Source, and OpenAPI.
 
 
   The Zally catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -286,7 +286,7 @@ rules:
 score:
   band: developing
   composite: 42.6
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -296,7 +296,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 48.5
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -304,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/screenshots/zally-2026-06-20T201756.png
 security:
 - kind: authentication
@@ -322,7 +322,7 @@ tags:
 - API Design
 - API Linting
 - API Quality
-- Open Source
+- Open-Source
 - OpenAPI
 - Zalando
 use_cases:

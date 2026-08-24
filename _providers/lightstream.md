@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -247,8 +247,8 @@ image: https://raw.githubusercontent.com/golightstream/api.stream-sdk/main/build
 layout: provider
 mcp_servers:
 - description: ''
-  name: lightstream-mcp.yml
-  slug: lightstream-mcpyml
+  name: Lightstream MCP Server
+  slug: lightstream-mcp-server
 modified: '2026-07-19'
 name: Lightstream
 nav: Providers
@@ -264,7 +264,7 @@ random_paper: 12
 score:
   band: developing
   composite: 47.8
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -274,7 +274,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 51.7
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +285,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/screenshots/lightstream-2026-07-25T225138.png
 security:
@@ -308,8 +308,8 @@ tags:
 - RTMP
 - Media
 - Compositing
-- Real Time
-- Events
+- Real-Time
+- Event
 - gRPC
 - Creator Tools
 website: https://golightstream.com/

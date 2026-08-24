@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Import and query customer (sales) orders for fulfillment. Modeled from Deposco integration references - PUT /import/{businessUnit}/customerOrder/{orderNumber} to create or update an order, and GET /se
@@ -93,7 +93,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 12.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -103,9 +103,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deposco/refs/heads/main/screenshots/deposco-2026-07-25T211736.png
 security:
@@ -123,7 +123,7 @@ tags:
 - Fulfillment
 - Inventory
 - Logistics
-- Ecommerce
+- E-Commerce
 - 3PL
 website: https://deposco.com/
 ---

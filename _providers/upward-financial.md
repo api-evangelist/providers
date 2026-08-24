@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The accounts API from Upward Financial — 2 operation(s) for accounts.
@@ -258,14 +258,14 @@ description: Upward Financial (Upwardli) is a Techstars-backed embedded-finance 
 image: https://avatars.githubusercontent.com/u/87385560?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: upward-financial-mcp.yml
-  slug: upward-financial-mcpyml
+- description: Upward (Upwardli) publishes an official hosted MCP server for its developer documentation, advertised in the portal's llms.txt ("For AI client integration (Claude Code, Cursor, etc.), connect to the M
+  name: Upward Financial MCP Server
+  slug: upward-financial-mcp-server
 modified: '2026-07-21'
 name: Upward Financial
 nav: Providers
 network: true
-overview: 'Upward Financial publishes 17 APIs on the [APIs.io](https://apis.io/) network, including accounts API, auth API, billPayments API, and 14 more. Tagged areas include Company, FinTech, Credit, Credit Building, and Payments.
+overview: 'Upward Financial publishes 17 APIs on the [APIs.io](https://apis.io/) network, including accounts API, auth API, billPayments API, and 14 more. Tagged areas include Company, Fintech, Credit, Credit Building, and Payments.
 
 
   The Upward Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -281,7 +281,7 @@ scopes:
 score:
   band: developing
   composite: 51.3
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -291,7 +291,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 49.4
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     contracts:
@@ -307,8 +307,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/screenshots/upward-financial-2026-08-17T082644.png
 security:
@@ -323,7 +323,7 @@ security:
 slug: upward-financial
 tags:
 - Company
-- FinTech
+- Fintech
 - Credit
 - Credit Building
 - Payments

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Expel Workbench API is a gated REST API used by customers and technology partners to integrate with the Expel MDR platform. The API powers ingest of signals from endpoint, cloud, SIEM, identity, a
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.2
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -163,9 +163,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 24.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/screenshots/expel-2026-06-20T180936.png
 security:

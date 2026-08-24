@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The OpenMetadata REST API — a JWT-authenticated (Bearer) CRUD API over every data asset and governance entity in OpenMetadata (databases, schemas, tables, dashboards, charts, pipelines, topics, contai
@@ -170,9 +170,9 @@ description: Collate is the commercial company behind OpenMetadata, the open-sou
 image: https://avatars.githubusercontent.com/u/74767841
 layout: provider
 mcp_servers:
-- description: ''
-  name: collate-mcp.yml
-  slug: collate-mcpyml
+- description: OpenMetadata (the product Collate commercializes) ships a hosted, remote MCP (Model Context Protocol) server. The public sandbox exposes it at https://sandbox.open-metadata.org/mcp and advertises a fu
+  name: Collate MCP Server
+  slug: collate-mcp-server
 modified: '2026-07-18'
 name: Collate
 nav: Providers
@@ -188,7 +188,7 @@ random_paper: 5
 score:
   band: developing
   composite: 49.0
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -198,7 +198,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 49.2
+  previous_composite: 49.0
   provenance:
     conformance: first-party
     contracts:
@@ -207,8 +207,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collate/refs/heads/main/screenshots/collate-2026-07-25T210043.png
 security:
@@ -234,7 +234,6 @@ tags:
 - Data Discovery
 - Data Quality
 - Data Lineage
-- Open Source
-- API
+- Open-Source
 website: https://collate.com/
 ---

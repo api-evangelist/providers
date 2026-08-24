@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -154,7 +154,7 @@ modified: '2026-05-25'
 name: Bolt.new
 nav: Providers
 network: true
-overview: 'Bolt.new is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, AI App Builder, No-Code, Low-Code, and Full-Stack.
+overview: 'Bolt.new is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, AI App Builder, No-Code, Low-Code, and Full-Stack.
 
 
   Bolt.new''s developer surface includes documentation, pricing, signup flow, YouTube channel, engineering blog, and 22 more developer resources.'
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.5
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -180,9 +180,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 19.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-new/refs/heads/main/screenshots/bolt-new-2026-06-20T173557.png
 security:
@@ -196,7 +196,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: bolt-new
 tags:
-- AI
+- Artificial Intelligence
 - AI App Builder
 - No-Code
 - Low-Code
@@ -208,7 +208,7 @@ tags:
 - StackBlitz
 - Generative UI
 - Vibe Coding
-- Agent
+- Agents
 - Netlify
 - Supabase
 website: https://bolt.new/

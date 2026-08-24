@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -163,13 +163,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medigo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: medigo-mcp.yml
-  slug: medigo-mcpyml
+  name: Medigo MCP Server
+  slug: medigo-mcp-server
 modified: '2026-07-20'
 name: Medigo
 nav: Providers
 network: true
-overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including attachments API, inquiries API, search API, and 3 more. Tagged areas include Company, Consumer, Healthcare, Insurance, and Third Party Administrator.
+overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including attachments API, inquiries API, search API, and 3 more. Tagged areas include Company, Consumer, Healthcare, Insurance, and Third-Party Administrator.
 
 
   The Medigo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,7 +180,7 @@ random_paper: 20
 score:
   band: thin
   composite: 34.4
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 34.0
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,8 +207,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/screenshots/medigo-2026-08-07T172347.png
 security:
@@ -226,7 +226,7 @@ tags:
 - Consumer
 - Healthcare
 - Insurance
-- Third Party Administrator
+- Third-Party Administrator
 - Claims
 - Cost Containment
 - Second Medical Opinion

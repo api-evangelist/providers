@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -22301,7 +22301,7 @@ modified: '2026-05-30'
 name: Adyen
 nav: Providers
 network: true
-overview: 'Adyen publishes 202 APIs on the [APIs.io](https://apis.io/) network, including acceptDispute API, Account API, accountHolderBalance API, and 199 more. Tagged areas include Payments, Financial Services, and Fintech.
+overview: 'Adyen publishes 202 APIs on the [APIs.io](https://apis.io/) network, including acceptDispute API, Account API, accountHolderBalance API, and 199 more. Tagged areas include Payments, Financial-Services, and Fintech.
 
 
   The Adyen catalog on APIs.io includes 1 event-driven AsyncAPI specification, 854 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -22352,7 +22352,7 @@ rules:
 score:
   band: exemplar
   composite: 67.6
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -22362,7 +22362,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 67.0
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     contracts:
@@ -22376,8 +22376,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png
 security:
@@ -22400,7 +22400,7 @@ security:
 slug: adyen
 tags:
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 use_cases:
 - description: Accept payments on web and mobile with Drop-in or Components, supporting all major payment methods and currencies.

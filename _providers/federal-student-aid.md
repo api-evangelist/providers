@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: StudentAid.gov is the official consumer platform for U.S. federal student aid. Borrowers and students use the site to complete the FAFSA, manage federal loans, review repayment plans, and access aid r
@@ -76,7 +76,7 @@ modified: '2026-04-28'
 name: Federal Student Aid
 nav: Providers
 network: true
-overview: Federal Student Aid publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Federal Government, Financial Aid, Grants, and Loans.
+overview: Federal Student Aid publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Federal-Government, Financial Aid, Grants, and Loans.
 plans:
 - name: Federal Student Aid Plans Pricing
   plan_count: 3
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.6
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -99,15 +99,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 10.3
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-student-aid/refs/heads/main/screenshots/federal-student-aid-2026-06-20T181128.png
 security:
@@ -118,7 +118,7 @@ security:
 slug: federal-student-aid
 tags:
 - Education
-- Federal Government
+- Federal-Government
 - Financial Aid
 - Grants
 - Loans

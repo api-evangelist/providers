@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -617,7 +617,7 @@ modified: '2026-05-25'
 name: Affinda
 nav: Providers
 network: true
-overview: 'Affinda publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Document Types API, Workspaces API, and 13 more. Tagged areas include AI, Artificial Intelligence, Document Processing, Intelligent Document Processing, and IDP.
+overview: 'Affinda publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Document Types API, Workspaces API, and 13 more. Tagged areas include Artificial Intelligence, Document Processing, Intelligent Document Processing, IDP, and OCR.
 
 
   The Affinda catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -657,18 +657,18 @@ rules:
   slug: affinda-rules
 score:
   band: strong
-  composite: 64.7
-  delta: -5.2
+  composite: 65.2
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 70.0
     developer_ergonomics: 83.3
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 57.9
-  previous_composite: 69.9
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     contracts:
@@ -682,9 +682,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/screenshots/affinda-2026-06-20T165616.png
 security:
 - kind: authentication
@@ -701,7 +701,6 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: affinda
 tags:
-- AI
 - Artificial Intelligence
 - Document Processing
 - Intelligent Document Processing

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Alaris Infusion Interoperability solution connects the Alaris System (large-volume pump modules and syringe modules) to hospital EMR platforms so that physician infusion orders flow wirelessly int
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.3
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -131,15 +131,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 14.8
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carefusion/refs/heads/main/screenshots/carefusion-2026-06-20T174000.png
 security:

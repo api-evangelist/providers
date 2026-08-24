@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -381,18 +381,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.8
-  delta: -9.1
+  composite: 57.3
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 68.1
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 65.9
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     contracts:
@@ -400,9 +400,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/screenshots/allegion-2026-06-20T171528.png
 security:
 - kind: authentication
@@ -431,8 +431,8 @@ tags:
 - BLE
 - IoT
 - Security
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 - Schlage
 - Von Duprin
 - ENGAGE

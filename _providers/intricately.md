@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Cloud Dynamics API (formerly the Intricately API) provides access to cloud adoption, usage, and spend data on companies, products, applications, and domains. Requests authenticate with an X-API-KE
@@ -103,13 +103,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intricatel
 layout: provider
 mcp_servers:
 - description: ''
-  name: intricately-mcp.yml
-  slug: intricately-mcpyml
+  name: Intricately MCP Server
+  slug: intricately-mcp-server
 modified: '2026-08-14'
 name: Intricately
 nav: Providers
 network: true
-overview: 'Intricately publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API, Sales Intelligence, Cloud Intelligence, and Technographics.
+overview: 'Intricately publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Intelligence, Cloud Intelligence, Technographics, and Data Enrichment.
 
 
   Intricately''s developer surface includes documentation, support, pricing, signup flow, and 11 more developer resources.'
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.3
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -135,12 +135,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 28.7
+  previous_composite: 26.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/screenshots/intricately-2026-07-25T222720.png
 security:
@@ -159,7 +159,6 @@ security:
 slug: intricately
 tags:
 - Company
-- API
 - Sales Intelligence
 - Cloud Intelligence
 - Technographics

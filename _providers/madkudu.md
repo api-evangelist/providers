@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The current MadKudu API (MadAPI) exposes account and person lookup, full account/person details and activities, company hiring/job-posting enrichment, advanced account and person search, prospect disc
@@ -175,8 +175,8 @@ image: https://cdn.prod.website-files.com/6107b1101d4d3e748743f234/65f31ad2b4ac6
 layout: provider
 mcp_servers:
 - description: ''
-  name: madkudu-mcp.yml
-  slug: madkudu-mcpyml
+  name: MadMCP
+  slug: madmcp
 modified: '2026-08-14'
 name: MadKudu
 nav: Providers
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.9
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -207,7 +207,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 56.4
+  previous_composite: 54.9
   provenance:
     conformance: derived
     contracts:
@@ -217,8 +217,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/screenshots/madkudu-2026-07-25T225833.png
 security:
@@ -245,6 +245,6 @@ tags:
 - Data Enrichment
 - MCP
 - Agents
-- Go To Market
+- Go-To-Market
 website: https://madkudu.com/
 ---

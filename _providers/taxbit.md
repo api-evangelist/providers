@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for tax compliance and information reporting: account owners, accounts, transactions, inventory, realized gains, tax documentation (W-8/W-9), filers, form items, disposition methods, transfer'
@@ -155,8 +155,8 @@ image: https://files.readme.io/e2c1133-small-taxbit-dark.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: taxbit-mcp.yml
-  slug: taxbit-mcpyml
+  name: TaxBit MCP Server
+  slug: taxbit-mcp-server
 modified: '2026-07-21'
 name: TaxBit
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 1
 score:
   band: developing
   composite: 40.9
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -182,14 +182,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 46.2
+  previous_composite: 40.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/screenshots/taxbit-2026-08-17T082251.png
 security:
 - kind: authentication
@@ -213,6 +213,6 @@ tags:
 - Digital Assets
 - Cryptocurrency
 - Accounting
-- Regtech
+- RegTech
 website: https://taxbit.com/
 ---

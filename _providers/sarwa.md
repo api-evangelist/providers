@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,33 +88,33 @@ modified: '2026-07-21'
 name: Sarwa
 nav: Providers
 network: true
-overview: 'Sarwa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Investing, Wealth Management, and Robo-Advisor.
+overview: 'Sarwa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Wealth Management, and Robo-Advisor.
 
 
   Sarwa''s developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 12.0
-  delta: -4.3
+  composite: 13.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 16.3
+  previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -128,7 +128,7 @@ security:
 slug: sarwa
 tags:
 - Company
-- FinTech
+- Fintech
 - Investing
 - Wealth Management
 - Robo-Advisor

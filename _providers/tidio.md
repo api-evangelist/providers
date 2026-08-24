@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: 2026-06-12
 name: Tidio
 nav: Providers
 network: true
-overview: 'Tidio publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Departments API, Lyro API, and 4 more. Tagged areas include live chat, chatbot, customer service, AI, and help desk.
+overview: 'Tidio publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Departments API, Lyro API, and 4 more. Tagged areas include Live Chat, Chatbots, Customer Service, Artificial Intelligence, and Help Desk.
 
 
   The Tidio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -227,7 +227,7 @@ rules:
 score:
   band: developing
   composite: 49.2
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -237,7 +237,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 47.4
-  previous_composite: 54.3
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     contracts:
@@ -245,9 +245,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/screenshots/tidio-2026-06-20T195338.png
 security:
 - kind: authentication
@@ -264,15 +264,15 @@ security:
   summary_line: SOC 2, GDPR
 slug: tidio
 tags:
-- live chat
-- chatbot
-- customer service
-- AI
-- help desk
-- ticketing
-- conversations
-- contacts
-- webhooks
-- widget
+- Live Chat
+- Chatbots
+- Customer Service
+- Artificial Intelligence
+- Help Desk
+- Ticketing
+- Conversations
+- Contacts
+- Webhook
+- Widget
 website: https://www.tidio.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,7 +83,7 @@ modified: '2026-08-12'
 name: ShareRoot
 nav: Providers
 network: true
-overview: ShareRoot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, User Generated Content, and Digital Experience.
+overview: ShareRoot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social-Media, User Generated Content, and Digital Experience.
 plans:
 - name: Shareroot Plans Pricing
   plan_count: 0
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.2
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -106,9 +106,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -119,7 +119,7 @@ slug: shareroot
 tags:
 - Company
 - Marketing
-- Social Media
+- Social-Media
 - User Generated Content
 - Digital Experience
 - Advertising

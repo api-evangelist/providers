@@ -28,5 +28,5 @@ tags:
 - Data Protection
 - Governance
 - Privacy Standards
-- Regulation
+- Regulations
 ---

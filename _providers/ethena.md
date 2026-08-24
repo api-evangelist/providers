@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -204,13 +204,13 @@ image: https://www.goethena.com/wp-content/uploads/2025/12/Ethenas-Featured-Imag
 layout: provider
 mcp_servers:
 - description: ''
-  name: ethena-mcp.yml
-  slug: ethena-mcpyml
+  name: Ethena MCP Server
+  slug: ethena-mcp-server
 modified: '2026-07-19'
 name: Ethena
 nav: Providers
 network: true
-overview: 'Ethena publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Learner Training Campaigns API, Learner Training Modules API, Learners API, and 2 more. Tagged areas include Company, Compliance, Training, Governance, Risk and Compliance, and Human Resources.
+overview: 'Ethena publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Learner Training Campaigns API, Learner Training Modules API, Learners API, and 2 more. Tagged areas include Company, Compliance, Training, Governance Risk and Compliance, and Human Resources.
 
 
   The Ethena catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -221,7 +221,7 @@ random_paper: 20
 score:
   band: strong
   composite: 56.1
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -231,7 +231,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 54.4
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -248,8 +248,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethena/refs/heads/main/screenshots/ethena-2026-07-25T213647.png
 security:
@@ -266,10 +266,10 @@ tags:
 - Company
 - Compliance
 - Training
-- Governance, Risk and Compliance
+- Governance Risk and Compliance
 - Human Resources
 - Learning Management
-- Workflow
-- Webhooks
+- Workflows
+- Webhook
 website: https://www.goethena.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -353,8 +353,8 @@ image: https://cdn.prod.website-files.com/61027bb0bc31fc6cafefbc0c/6387709b977c7
 layout: provider
 mcp_servers:
 - description: ''
-  name: catchpoint-systems-mcp.yml
-  slug: catchpoint-systems-mcpyml
+  name: Catchpoint Systems MCP Server
+  slug: catchpoint-systems-mcp-server
 modified: '2026-07-18'
 name: Catchpoint Systems
 nav: Providers
@@ -370,7 +370,7 @@ random_paper: 16
 score:
   band: developing
   composite: 48.7
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -380,7 +380,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 50.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -391,8 +391,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catchpoint-systems/refs/heads/main/screenshots/catchpoint-systems-2026-07-25T204812.png
 security:
@@ -414,6 +414,5 @@ tags:
 - Real User Monitoring
 - Network Monitoring
 - Digital Experience Monitoring
-- APIs
 website: https://docs.catchpoint.com/
 ---

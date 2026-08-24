@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: xCBL 4.0 is a royalty-free library of XML business documents and reusable components for business-to-business e-commerce, published by Commerce One and still distributed from xcbl.org. It is a documen
@@ -108,7 +108,7 @@ modified: '2026-07-20'
 name: Commerce One
 nav: Providers
 network: true
-overview: 'Commerce One publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, eCommerce, Procurement, and Supply Chain.
+overview: 'Commerce One publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, E-Commerce, Procurement, and Supply Chain.
 
 
   Commerce One''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, code examples, changelog, and 9 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 25.8
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -126,11 +126,11 @@ score:
     discoverability: 87.0
     governance: 33.3
     operational_transparency: 15.8
-  previous_composite: 23.4
+  previous_composite: 25.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/screenshots/commerce-one-2026-07-25T210126.png
 security:
@@ -142,7 +142,7 @@ slug: commerce-one
 tags:
 - Company
 - B2B
-- eCommerce
+- E-Commerce
 - Procurement
 - Supply Chain
 - XML

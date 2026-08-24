@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -239,18 +239,18 @@ rules:
   slug: walgreens-rules
 score:
   band: developing
-  composite: 41.2
-  delta: -2.3
+  composite: 41.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 72.5
     developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 43.5
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -264,8 +264,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -119,6 +119,10 @@ collections:
   name: Oracle Health Millennium Platform FHIR R4 Capability Procedure API
   slug: open-cerner-procedure-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -306,16 +310,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cerner.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cerner-mcp.yml
-  slug: cerner-mcpyml
-modified: '2026-08-14'
+  name: Oracle Health (Cerner) MCP Server
+  slug: oracle-health-cerner-mcp-server
+modified: '2026-08-21'
 name: Oracle Health (Cerner)
 nav: Providers
 network: true
 overview: 'Oracle Health (Cerner) publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Oracle Health Millennium Platform FHIR R4 API, Oracle Health Millennium Bulk FHIR API, Cerner (Oracle Health) Capability API, and 6 more. Tagged areas include Bulk FHIR, CapabilityStatement, CareAware, Cerner Millennium, and Clinical Data.
 
 
-  Oracle Health (Cerner)''s developer surface includes authentication, API reference, sandbox, changelog, documentation, getting-started guide, support, and 35 more developer resources.'
+  Oracle Health (Cerner)''s developer surface includes authentication, API reference, sandbox, changelog, documentation, getting-started guide, support, and 36 more developer resources.'
 plans:
 - name: Cerner Plans Pricing
   plan_count: 0
@@ -349,7 +353,7 @@ scopes:
 score:
   band: strong
   composite: 61.8
-  delta: 5.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -359,7 +363,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 55.9
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -376,9 +380,9 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png
 security:
 - kind: authentication
@@ -406,12 +410,12 @@ tags:
 - FHIR
 - Fortune 1000
 - HL7
-- HL7 v2
+- HL7v2
 - Healthcare
 - Interoperability
 - Millennium Platform
 - Multi-Tenant
-- OAuth 2.0
+- Authentication
 - Oracle
 - Oracle Health
 - Patient Access

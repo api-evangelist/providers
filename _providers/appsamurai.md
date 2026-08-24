@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Campaign Spend API from Appsamurai — 1 operation(s) for campaign spend.
@@ -201,8 +201,8 @@ image: https://appsamurai.com/og-default.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: appsamurai-mcp.yml
-  slug: appsamurai-mcpyml
+  name: Appsamurai MCP Server
+  slug: appsamurai-mcp-server
 modified: '2026-08-13'
 name: Appsamurai
 nav: Providers
@@ -223,7 +223,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.1
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -233,7 +233,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 61.4
+  previous_composite: 57.1
   provenance:
     conformance: first-party
     contracts:
@@ -243,8 +243,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/screenshots/appsamurai-2026-07-25T200844.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -211,13 +211,13 @@ image: https://docs.lang.ai/images/logo-lang.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: langai-mcp.yml
-  slug: langai-mcpyml
+  name: Lang.ai MCP Server
+  slug: langai-mcp-server
 modified: '2026-08-14'
 name: Lang.ai
 nav: Providers
 network: true
-overview: 'Lang.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Natural Language Processing, and Conversation Intelligence.
+overview: 'Lang.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Natural Language Processing, and Conversation Intelligence.
 
 
   Lang.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
@@ -233,7 +233,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.5
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -243,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 60.1
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/screenshots/langai-2026-07-25T224513.png
 security:
@@ -279,10 +279,10 @@ slug: langai
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Conversation Intelligence
-- Customer Support
+- Customer-Support
 - Text Classification
 - Analytics
 - Customer Experience

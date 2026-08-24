@@ -16,21 +16,21 @@
      "slug": "beehiiv",
      "description": "beehiiv is a newsletter publishing platform offering email publishing, subscriber management, paid subscriptions, an ad network, referrals, polls, automations, segments, webhooks, and analytics for creators and media companies. Founded in 2021 by former Morning Brew operators and headquartered in New York City.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png",
-     "score": 73.5,
+     "score": 73.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 87.0,
       "contract_quality": 73.5,
-      "governance": 41.7,
-      "contract_governance": 41.7,
+      "governance": 43.9,
+      "contract_governance": 43.9,
       "operational_transparency": 55.3,
       "developer_ergonomics": 71.4,
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 49.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -71,8 +71,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 57.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -124,8 +124,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -166,8 +166,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 36.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -208,8 +208,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 42.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -249,8 +249,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -291,8 +291,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -333,8 +333,8 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 44.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -375,8 +375,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 62.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -417,8 +417,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -459,8 +459,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -501,8 +501,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -543,8 +543,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -592,8 +592,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -634,8 +634,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -676,8 +676,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 43.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -729,8 +729,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 45.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -771,8 +771,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 38.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -813,8 +813,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 38.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -855,8 +855,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 42.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -897,8 +897,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 36.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -939,8 +939,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -981,8 +981,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 44.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1023,8 +1023,8 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 44.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1065,8 +1065,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 42.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1090,109 +1090,25 @@
      "rank": 25
     },
     {
-     "name": "Famous",
-     "slug": "famous",
-     "description": "Famous (famous.co) returns a 301 to Amaze (amaze.co), the creator-commerce platform operated by Amaze Holdings, Inc. Amaze describes itself as building the operating system for creator-led businesses, bringing commerce, content, media, and live shopping into one connected ecosystem. Its products include Amaze Commerce (creator storefronts and AI-powered product creation, at amazecommerce.com), Spring (spri.ng, the creator storefront brand formerly known as Teespring), Amaze Live (shoppable livestreams), and Amaze Media (performance marketing and audience targeting for brands). The company reports 190K+ creators, 1.7B+ lifetime fan reach, and operations across 183 countries. Surfaced originally as a portfolio company of Insight Partners. A public, machine-readable API surface WAS found on the second enrichment pass: the Spring Seller API, a Swagger 2.0 contract with 24 operations served live at api.teespring.com (Spring's legacy API host), documented behind a Swagger UI at https://api.teespring.com/docs. Amaze also publishes first-party Protobuf/gRPC service contracts to npm under the @teespring scope.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/screenshots/famous-2026-07-25T214205.png",
-     "score": 45.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 37.1,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 48.2,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 31.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 26
-    },
-    {
-     "name": "CRM Bonus",
-     "slug": "crm-bonus",
-     "description": "CRM Bonus (CRMBonus) is a Brazilian retail technology platform for customer acquisition, conversion, and loyalty. Its products include Giftback cashback and rewards, the Vale Bonus consumer rewards app connecting brands to over five million shoppers, CRMBack WhatsApp-based e-commerce conversion, CRMAds retail media on WhatsApp, and Oto CRM — the physical-retail CRM platform CRMBonus acquired outright from WPP in June 2025 and now lists as a first-party retail solution. It integrates with 300+ ERP, point-of-sale, and e-commerce systems including VTEX, Shopify, Linx, TOTVS, Nuvemshop, Wake, and PagSeguro. The publicly documented machine-readable contract is the Oto Data API — an OpenAPI 3.1.0 upsert-ingestion API for customers, orders, order items, products, stores, sellers, cashback, NPS, and Oto Tags events — served at data-api.otocrm.com.br with a public ReDoc/Swagger reference. The Giftback and Vale Bonus APIs on api.crmbonus.com are partner-token gated with no public reference; that host answers HTTP 200 with an \"OK!!\" envelope for every path, including every /.well-known/* probe, so none of those 200s carry a real document.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/screenshots/crm-bonus-2026-07-25T210737.png",
-     "score": 45.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 49.7,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 63.7,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 44.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 27
-    },
-    {
      "name": "Dotdash Meredith / People Inc",
      "slug": "meredith",
      "description": "Profile for People Inc (formerly Dotdash Meredith) in the API Evangelist network. America's largest digital and print publisher, operating 40+ brands including PEOPLE, Better Homes & Gardens, Allrecipes, Investopedia, Verywell, Food & Wine, Southern Living, Real Simple, Travel + Leisure, Byrdie, InStyle, The Spruce, EatingWell, Serious Eats, Simply Recipes, Brides, Health, Shape, Parents, Entertainment Weekly, Lifewire, TreeHugger, TripSavvy, The Balance, and more. An IAC (NASDAQ: IAC) operating company since the December 2021 merger of Dotdash and Meredith Corporation ($2.7B transaction); rebranded to \"People Inc.\" on July 31, 2025 to elevate the company's flagship brand. There is no public read/write developer API surface — the addressable machine-readable surface is per-brand RSS feeds, XML sitemaps, robots.txt policy declarations, and the D/Cipher intent-based contextual advertising platform sold as a B2B media buy (no self-serve developer console). All major brand domains explicitly disallow ClaudeBot, anthropic-ai, CCBot, PerplexityBot and 70+ other AI crawlers in robots.txt — with the OpenAI crawlers (GPTBot, OAI-SearchBot, ChatGPT-User) notably exempted down to a single /thmb/ path, and sponsored-content paths (*/presented/, */integrated/) carved back OUT of the denylist so advertiser content stays crawlable while editorial does not. The policy is enforced at the Cloudflare edge as well as declared: as of 2026-08-12 every People Inc host answers a declared AI crawler with HTTP 402 Payment Required and the body \"If you wish to license content from People Inc, please contact contentlicensing@people.inc\". Discovery metadata (robots.txt, sitemap.xml, google-news-sitemap.xml and an RFC 9116 security.txt pointing at a private HackerOne program) is served at 200 to every client; article and RSS paths return 403 to every non-browser client. The map is open, the corpus is not.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/screenshots/meredith-2026-08-17T124148.png",
-     "score": 45.2,
+     "score": 45.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
       "contract_quality": 19.7,
-      "governance": 43.2,
-      "contract_governance": 43.2,
+      "governance": 47.0,
+      "contract_governance": 47.0,
       "operational_transparency": 28.9,
       "developer_ergonomics": 16.7,
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1220,6 +1136,90 @@
       "dry_run_mode": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 26
+    },
+    {
+     "name": "Famous",
+     "slug": "famous",
+     "description": "Famous (famous.co) returns a 301 to Amaze (amaze.co), the creator-commerce platform operated by Amaze Holdings, Inc. Amaze describes itself as building the operating system for creator-led businesses, bringing commerce, content, media, and live shopping into one connected ecosystem. Its products include Amaze Commerce (creator storefronts and AI-powered product creation, at amazecommerce.com), Spring (spri.ng, the creator storefront brand formerly known as Teespring), Amaze Live (shoppable livestreams), and Amaze Media (performance marketing and audience targeting for brands). The company reports 190K+ creators, 1.7B+ lifetime fan reach, and operations across 183 countries. Surfaced originally as a portfolio company of Insight Partners. A public, machine-readable API surface WAS found on the second enrichment pass: the Spring Seller API, a Swagger 2.0 contract with 24 operations served live at api.teespring.com (Spring's legacy API host), documented behind a Swagger UI at https://api.teespring.com/docs. Amaze also publishes first-party Protobuf/gRPC service contracts to npm under the @teespring scope.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/screenshots/famous-2026-07-25T214205.png",
+     "score": 45.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 37.1,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 48.2,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 31.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 27
+    },
+    {
+     "name": "CRM Bonus",
+     "slug": "crm-bonus",
+     "description": "CRM Bonus (CRMBonus) is a Brazilian retail technology platform for customer acquisition, conversion, and loyalty. Its products include Giftback cashback and rewards, the Vale Bonus consumer rewards app connecting brands to over five million shoppers, CRMBack WhatsApp-based e-commerce conversion, CRMAds retail media on WhatsApp, and Oto CRM — the physical-retail CRM platform CRMBonus acquired outright from WPP in June 2025 and now lists as a first-party retail solution. It integrates with 300+ ERP, point-of-sale, and e-commerce systems including VTEX, Shopify, Linx, TOTVS, Nuvemshop, Wake, and PagSeguro. The publicly documented machine-readable contract is the Oto Data API — an OpenAPI 3.1.0 upsert-ingestion API for customers, orders, order items, products, stores, sellers, cashback, NPS, and Oto Tags events — served at data-api.otocrm.com.br with a public ReDoc/Swagger reference. The Giftback and Vale Bonus APIs on api.crmbonus.com are partner-token gated with no public reference; that host answers HTTP 200 with an \"OK!!\" envelope for every path, including every /.well-known/* probe, so none of those 200s carry a real document.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/screenshots/crm-bonus-2026-07-25T210737.png",
+     "score": 45.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 49.7,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 63.7,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 44.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Sold to the publisher (sell side)",
      "rank": 28
     },
     {
@@ -1240,8 +1240,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 38.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1282,8 +1282,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1324,8 +1324,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1366,8 +1366,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1408,8 +1408,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 56.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1433,141 +1433,15 @@
      "rank": 33
     },
     {
-     "name": "Covatic",
-     "slug": "covatic",
-     "description": "Covatic is a UK-based, B Corp certified advertising technology company providing privacy-preserving audience intelligence and addressability for media owners, broadcasters, publishers, and advertisers. Its platform uses on-device (edge) processing to build audience segments and demographic cohorts without third-party cookies, shared user IDs, or personal data leaving the device. Products include Covatic Sense for individual-level connected TV (CTV) addressability and attribution, a next-generation audience DMP for enrichment, clean-room data sharing, retargeting and attribution, plus audio, podcast, and smart-speaker targeting. Covatic integrates via the Covatic Tag (no-code tag manager), the Covatic SDK (on-device processing), and a server-to-server Covatic API, with a Google Ad Manager publishing path and client data stored in EU, AU, or US regions to meet local requirements.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/screenshots/covatic-2026-07-25T210538.png",
-     "score": 40.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 58.7,
-      "governance": 30.3,
-      "contract_governance": 30.3,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 37.5,
-      "commercial_clarity": 35.5,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 40.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 34
-    },
-    {
-     "name": "iSpot.tv",
-     "slug": "ispottv",
-     "description": "iSpot.tv is a TV and video advertising measurement company that provides end-to-end measurement unifying creative assessment, audience measurement, and outcome attribution across linear TV and streaming. Its platform draws on data from tens of millions of smart TVs and set-top boxes to track ad occurrences, impressions, share of voice, creative effectiveness, and return on ad spend for advertisers, agencies, and networks. iSpot exposes its data programmatically through the iSpot REST API (v4), documented at a dedicated developer portal with quickstarts, an API reference, a Python sample, an interactive API demo tool, and release notes. iSpot.tv is backed by Insight Partners and was added to the API Evangelist network from that portfolio.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/screenshots/ispottv-2026-07-25T222949.png",
-     "score": 40.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 60.7,
-      "commercial_clarity": 46.1,
-      "access_clarity": 46.1
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 18.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 35
-    },
-    {
-     "name": "Stagwell",
-     "slug": "stagwell",
-     "description": "Stagwell (NASDAQ: STGW) is a digital-first global marketing services and technology company and a Fortune 1000 firm, operating a network of creative, media, communications and research agencies alongside the Stagwell Marketing Cloud (now branded The Marketing Cloud), a suite of proprietary SaaS and DaaS marketing-technology products built by its in-house engineering teams. Stagwell does not publish a unified public developer portal at the holding-company level and ships no OpenAPI, AsyncAPI or agent card of its own; developer access is exposed product by product. The most substantial public developer surface in the group belongs to IMAI / InfluencerMarketing.ai, acquired with LEADERS in July 2024 and folded into the PRophet Comms Tech suite, which publishes a credit-metered REST creator-data API (Discovery and Raw), an llms.txt, and an OAuth-protected Model Context Protocol endpoint on its own host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/screenshots/stagwell-2026-06-20T194452.png",
-     "score": 40.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 85.5,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 21.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 36
-    },
-    {
      "name": "Coactive",
      "slug": "coactive",
      "description": "Coactive is a multimodal AI platform that delivers a contextual intelligence layer for modern media, turning unstructured images and video into structured, searchable intelligence. The platform ingests visual assets at scale and provides agentic and semantic search, dynamic tagging, concept training and classification, celebrity and face detection, video narrative metadata and summarization, ad-segment context studio workflows, and analytics that plug into data warehouses and BI tools. Every capability is exposed programmatically through a versioned REST API (api.coactive.ai) with an official Python SDK, bearer-token authentication, and a hosted documentation MCP server. Coactive was founded to help enterprises search, moderate, understand, and monetize their content libraries for contextual advertising, brand safety, and content operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/screenshots/coactive-2026-07-25T205820.png",
-     "score": 39.7,
+     "score": 40.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 92.6,
       "contract_quality": 56.7,
       "governance": 16.7,
       "contract_governance": 16.7,
@@ -1576,8 +1450,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 43.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1598,6 +1472,132 @@
       "dry_run_mode": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 34
+    },
+    {
+     "name": "Covatic",
+     "slug": "covatic",
+     "description": "Covatic is a UK-based, B Corp certified advertising technology company providing privacy-preserving audience intelligence and addressability for media owners, broadcasters, publishers, and advertisers. Its platform uses on-device (edge) processing to build audience segments and demographic cohorts without third-party cookies, shared user IDs, or personal data leaving the device. Products include Covatic Sense for individual-level connected TV (CTV) addressability and attribution, a next-generation audience DMP for enrichment, clean-room data sharing, retargeting and attribution, plus audio, podcast, and smart-speaker targeting. Covatic integrates via the Covatic Tag (no-code tag manager), the Covatic SDK (on-device processing), and a server-to-server Covatic API, with a Google Ad Manager publishing path and client data stored in EU, AU, or US regions to meet local requirements.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/screenshots/covatic-2026-07-25T210538.png",
+     "score": 40.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 58.7,
+      "governance": 30.3,
+      "contract_governance": 30.3,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 37.5,
+      "commercial_clarity": 35.5,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 40.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 35
+    },
+    {
+     "name": "iSpot.tv",
+     "slug": "ispottv",
+     "description": "iSpot.tv is a TV and video advertising measurement company that provides end-to-end measurement unifying creative assessment, audience measurement, and outcome attribution across linear TV and streaming. Its platform draws on data from tens of millions of smart TVs and set-top boxes to track ad occurrences, impressions, share of voice, creative effectiveness, and return on ad spend for advertisers, agencies, and networks. iSpot exposes its data programmatically through the iSpot REST API (v4), documented at a dedicated developer portal with quickstarts, an API reference, a Python sample, an interactive API demo tool, and release notes. iSpot.tv is backed by Insight Partners and was added to the API Evangelist network from that portfolio.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/screenshots/ispottv-2026-07-25T222949.png",
+     "score": 40.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 60.7,
+      "commercial_clarity": 46.1,
+      "access_clarity": 46.1
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 18.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 36
+    },
+    {
+     "name": "Stagwell",
+     "slug": "stagwell",
+     "description": "Stagwell (NASDAQ: STGW) is a digital-first global marketing services and technology company and a Fortune 1000 firm, operating a network of creative, media, communications and research agencies alongside the Stagwell Marketing Cloud (now branded The Marketing Cloud), a suite of proprietary SaaS and DaaS marketing-technology products built by its in-house engineering teams. Stagwell does not publish a unified public developer portal at the holding-company level and ships no OpenAPI, AsyncAPI or agent card of its own; developer access is exposed product by product. The most substantial public developer surface in the group belongs to IMAI / InfluencerMarketing.ai, acquired with LEADERS in July 2024 and folded into the PRophet Comms Tech suite, which publishes a credit-metered REST creator-data API (Discovery and Raw), an llms.txt, and an OAuth-protected Model Context Protocol endpoint on its own host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/screenshots/stagwell-2026-06-20T194452.png",
+     "score": 40.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 21.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Sold to both sides",
      "rank": 37
     }
    ]
@@ -1628,8 +1628,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1669,8 +1669,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 35.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1710,8 +1710,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 35.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1752,8 +1752,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1801,8 +1801,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1843,8 +1843,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1885,8 +1885,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1926,8 +1926,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1968,8 +1968,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 37.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2010,8 +2010,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 45.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2051,8 +2051,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 19.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2076,192 +2076,25 @@
      "rank": 48
     },
     {
-     "name": "Ibotta",
-     "slug": "ibotta",
-     "description": "Ibotta is a Denver-based consumer technology company (NYSE: IBTA) that operates a cash-back rewards platform and the Ibotta Performance Network (IPN), a digital promotions and retail-media network. Consumers earn real cash back on everyday purchases in-store and online through the Ibotta mobile app, browser extension, and connected retailer loyalty accounts. For brands, agencies, and retailers, the Ibotta Performance Network distributes digital rebates and promotions to more than 200 million shoppers across Ibotta's owned properties and a network of partner retailers and publishers (including Walmart, Dollar General, Family Dollar, and others). Ibotta was surfaced in the API Evangelist network as a portfolio company of GGV Capital. Ibotta publishes exactly one machine-readable API contract: the Ibotta Product API (an OpenAPI 3.0.1 document at ibotta.com/bex-api/api-docs.json), declared by the ChatGPT plugin manifest Ibotta still serves at ibotta.com/.well-known/ai-plugin.json — a single product-search operation backing the Ibotta browser extension, gated by a service bearer token that is not self-serve. The Ibotta Performance Network APIs that partners actually integrate against are documented only inside the IPN partner portal (portal.ipn.ibotta.com), which is behind Auth0 and reached through a sales conversation; no public IPN API reference, pricing, or rate-limit documentation exists.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/screenshots/ibotta-2026-07-25T221955.png",
-     "score": 33.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 54.5,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 6.6,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 26.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 49
-    },
-    {
-     "name": "Koah Labs",
-     "slug": "koah-labs",
-     "description": "Koah Labs operates Koah, an advertising network purpose-built for AI applications. It ships two products: an Ad SDK that lets publishers monetize chat and agent experiences with native, intent-matched ad formats (action card, image card, poll, expandable, catalog, side rail) across JavaScript, React, React Native, Flutter, iOS and Android; and Conversion Tracking, a pixel that lets advertisers measure ROI across nine standard event types. A beta REST API at app.koah.ai/api lets publisher teams create and manage publishers programmatically and pull daily performance reports (queries, fill rate, impressions, clicks, CTR, eCPC, eCPM, revenue). Koah publishes agent-native developer surfaces including llms.txt on both its marketing and docs hosts and a first-party Claude Agent Skill for integration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/screenshots/koah-labs-2026-07-25T224018.png",
-     "score": 33.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 78.6,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 25.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 50
-    },
-    {
-     "name": "Substack",
-     "slug": "substack",
-     "description": "Substack is an independent newsletter and media platform that lets writers, podcasters, video creators, and other culture makers publish directly to readers and monetize through paid subscriptions. Founded in 2017 by Chris Best (CEO), Jairaj Sethi (CTO), and Hamish McKenzie (CWO) and headquartered in San Francisco with a New York City office, Substack provides built-in subscription billing, paid posts, podcasting, chat, video, Notes, and a cross-publication recommendations network. Creators keep 90 percent of subscription revenue (less credit card fees) and own their mailing lists and content. The platform reports more than five million paid subscriptions and tens of millions of weekly active readers. Substack does not offer a general-purpose public REST API for managing publications, posts, or subscribers. It does publish a narrowly scoped official Developer API (released April 2026) that allows token-authenticated lookup of public Substack profiles by LinkedIn handle, gated by an application and Terms-of-Use process. Substack also runs an official remote MCP server at https://mcp.substack.com/api/v1/mcp, documented August 2026, which gives an MCP-capable AI assistant read-only access to publication analytics under OAuth 2.1 with the mcp:read scope, gated to Admins of Bestseller publications. Read access to public content is otherwise available via per-publication RSS feeds, and the broader integration ecosystem relies on reverse-engineered, unofficial JSON endpoints used by the Substack web application. Substack publishes no OpenAPI, no AsyncAPI, no webhooks and no first-party SDK in any package registry.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/screenshots/substack-2026-06-20T194631.png",
-     "score": 33.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 65.8,
-      "access_clarity": 65.8
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 19.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 51
-    },
-    {
-     "name": "Sinclair, Inc.",
-     "slug": "sinclair-broadcast-group",
-     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
-     "score": 32.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 53.8,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 18.5,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 34.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": "na"
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 52
-    },
-    {
      "name": "TEGNA",
      "slug": "tegna",
      "description": "TEGNA Inc. is an American broadcast, digital media, and marketing services company headquartered in Tysons, Virginia, operating as a subsidiary of Nexstar Media Group following FCC approval of the $6.2 billion acquisition in March 2026. TEGNA operates 64 full-power broadcast television stations across 51 U.S. markets, reaching approximately 39 percent of all television households. Its digital marketing portfolio includes AudienceOne first-party data targeting, OTT/CTV advertising through the Premion platform, and the TEGNA Marketing Solutions full-service agency. TEGNA runs no public developer program and publishes no developer portal: those advertising products are transacted through insertion orders, programmatic deal IDs and agency contracts. The only publicly callable, machine-readable API surfaces TEGNA serves are the WordPress REST content APIs behind its corporate site and premion.com; the Premion advertising platform API at api.premion.com is live but token-gated and undocumented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png",
-     "score": 32.7,
+     "score": 33.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 15.6,
-      "governance": 41.7,
-      "contract_governance": 41.7,
+      "governance": 45.5,
+      "contract_governance": 45.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 42.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2282,28 +2115,195 @@
       "dry_run_mode": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 53
+     "rank": 49
     },
     {
-     "name": "Marin Software",
-     "slug": "marin-software",
-     "description": "Marin Software is a performance marketing and digital advertising management platform used by e-commerce brands, agencies, and enterprise marketers to plan, automate, and optimize paid media at scale across paid search, paid social, retail media, and app advertising channels. Its product line includes MarinOne (campaign management and automation), Marin Connect (marketing data collection and unification), Marin Ascend (cross-channel optimization), Marin for Agencies, and managed services. Marin publishes a POST-only REST write API — the Marin API, at https://api.marinsoftware.com/open-api version 0.1 — that pushes campaigns, groups, keywords, ads and strategies into the platform using HTTP Basic auth, documented only in the help center, plus a Marin Social API whose reference link no longer resolves. There is no OpenAPI, no SDK, no changelog and no status page, and the developer documentation portal has been decommissioned. Marin Software has been acquired by Zax Capital, which the company announces on its own homepage.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/screenshots/marin-software-2026-07-25T230152.png",
-     "score": 32.1,
+     "name": "Ibotta",
+     "slug": "ibotta",
+     "description": "Ibotta is a Denver-based consumer technology company (NYSE: IBTA) that operates a cash-back rewards platform and the Ibotta Performance Network (IPN), a digital promotions and retail-media network. Consumers earn real cash back on everyday purchases in-store and online through the Ibotta mobile app, browser extension, and connected retailer loyalty accounts. For brands, agencies, and retailers, the Ibotta Performance Network distributes digital rebates and promotions to more than 200 million shoppers across Ibotta's owned properties and a network of partner retailers and publishers (including Walmart, Dollar General, Family Dollar, and others). Ibotta was surfaced in the API Evangelist network as a portfolio company of GGV Capital. Ibotta publishes exactly one machine-readable API contract: the Ibotta Product API (an OpenAPI 3.0.1 document at ibotta.com/bex-api/api-docs.json), declared by the ChatGPT plugin manifest Ibotta still serves at ibotta.com/.well-known/ai-plugin.json — a single product-search operation backing the Ibotta browser extension, gated by a service bearer token that is not self-serve. The Ibotta Performance Network APIs that partners actually integrate against are documented only inside the IPN partner portal (portal.ipn.ibotta.com), which is behind Auth0 and reached through a sales conversation; no public IPN API reference, pricing, or rate-limit documentation exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/screenshots/ibotta-2026-07-25T221955.png",
+     "score": 33.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 54.5,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 6.6,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 26.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 50
+    },
+    {
+     "name": "Koah Labs",
+     "slug": "koah-labs",
+     "description": "Koah Labs operates Koah, an advertising network purpose-built for AI applications. It ships two products: an Ad SDK that lets publishers monetize chat and agent experiences with native, intent-matched ad formats (action card, image card, poll, expandable, catalog, side rail) across JavaScript, React, React Native, Flutter, iOS and Android; and Conversion Tracking, a pixel that lets advertisers measure ROI across nine standard event types. A beta REST API at app.koah.ai/api lets publisher teams create and manage publishers programmatically and pull daily performance reports (queries, fill rate, impressions, clicks, CTR, eCPC, eCPM, revenue). Koah publishes agent-native developer surfaces including llms.txt on both its marketing and docs hosts and a first-party Claude Agent Skill for integration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/screenshots/koah-labs-2026-07-25T224018.png",
+     "score": 33.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 0.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 78.6,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 25.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 51
+    },
+    {
+     "name": "Substack",
+     "slug": "substack",
+     "description": "Substack is an independent newsletter and media platform that lets writers, podcasters, video creators, and other culture makers publish directly to readers and monetize through paid subscriptions. Founded in 2017 by Chris Best (CEO), Jairaj Sethi (CTO), and Hamish McKenzie (CWO) and headquartered in San Francisco with a New York City office, Substack provides built-in subscription billing, paid posts, podcasting, chat, video, Notes, and a cross-publication recommendations network. Creators keep 90 percent of subscription revenue (less credit card fees) and own their mailing lists and content. The platform reports more than five million paid subscriptions and tens of millions of weekly active readers. Substack does not offer a general-purpose public REST API for managing publications, posts, or subscribers. It does publish a narrowly scoped official Developer API (released April 2026) that allows token-authenticated lookup of public Substack profiles by LinkedIn handle, gated by an application and Terms-of-Use process. Substack also runs an official remote MCP server at https://mcp.substack.com/api/v1/mcp, documented August 2026, which gives an MCP-capable AI assistant read-only access to publication analytics under OAuth 2.1 with the mcp:read scope, gated to Admins of Bestseller publications. Read access to public content is otherwise available via per-publication RSS feeds, and the broader integration ecosystem relies on reverse-engineered, unofficial JSON endpoints used by the Substack web application. Substack publishes no OpenAPI, no AsyncAPI, no webhooks and no first-party SDK in any package registry.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/screenshots/substack-2026-06-20T194631.png",
+     "score": 33.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 65.8,
+      "access_clarity": 65.8
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 19.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 52
+    },
+    {
+     "name": "Sinclair, Inc.",
+     "slug": "sinclair-broadcast-group",
+     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
+     "score": 32.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 53.8,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 18.5,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 34.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": "na"
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 53
+    },
+    {
+     "name": "Sharethrough",
+     "slug": "sharethrough",
+     "description": "Sharethrough is an omnichannel programmatic advertising exchange (SSP) for native, display, video and CTV inventory, and one of the largest independent ad marketplaces. Publishers monetise through the Prebid.js header-bidding adapter and server-to-server OpenRTB; demand partners buy through the exchange. Two API surfaces exist: a bearer-token Publisher Reporting API at publisher-api.sharethrough.com/v2 whose public reference is now behind a support-site sign-in, and the unauthenticated OpenRTB bid endpoint at btlr.sharethrough.com/universal/v1 used by the Prebid adapter. The company's richest machine-readable artifact is its IAB sellers.json (5,189 sellers). Sharethrough merged with Equativ in 2024 and has operated under the Equativ brand since June 2025; the Sharethrough exchange and its endpoints continue to run.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png",
+     "score": 32.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 15.5,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 57.9,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2327,25 +2327,25 @@
      "rank": 54
     },
     {
-     "name": "Sharethrough",
-     "slug": "sharethrough",
-     "description": "Sharethrough is an omnichannel programmatic advertising exchange (SSP) for native, display, video and CTV inventory, and one of the largest independent ad marketplaces. Publishers monetise through the Prebid.js header-bidding adapter and server-to-server OpenRTB; demand partners buy through the exchange. Two API surfaces exist: a bearer-token Publisher Reporting API at publisher-api.sharethrough.com/v2 whose public reference is now behind a support-site sign-in, and the unauthenticated OpenRTB bid endpoint at btlr.sharethrough.com/universal/v1 used by the Prebid adapter. The company's richest machine-readable artifact is its IAB sellers.json (5,189 sellers). Sharethrough merged with Equativ in 2024 and has operated under the Equativ brand since June 2025; the Sharethrough exchange and its endpoints continue to run.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png",
-     "score": 31.3,
+     "name": "Marin Software",
+     "slug": "marin-software",
+     "description": "Marin Software is a performance marketing and digital advertising management platform used by e-commerce brands, agencies, and enterprise marketers to plan, automate, and optimize paid media at scale across paid search, paid social, retail media, and app advertising channels. Its product line includes MarinOne (campaign management and automation), Marin Connect (marketing data collection and unification), Marin Ascend (cross-channel optimization), Marin for Agencies, and managed services. Marin publishes a POST-only REST write API — the Marin API, at https://api.marinsoftware.com/open-api version 0.1 — that pushes campaigns, groups, keywords, ads and strategies into the platform using HTTP Basic auth, documented only in the help center, plus a Marin Social API whose reference link no longer resolves. There is no OpenAPI, no SDK, no changelog and no status page, and the developer documentation portal has been decommissioned. Marin Software has been acquired by Zax Capital, which the company announces on its own homepage.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/screenshots/marin-software-2026-07-25T230152.png",
+     "score": 32.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 15.5,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 57.9,
-      "access_clarity": 57.9
+      "contract_quality": 0.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2372,21 +2372,21 @@
      "name": "Albertsons",
      "slug": "albertsons",
      "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
-     "score": 29.6,
+     "score": 30.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.6,
       "contract_quality": 30.1,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 0.0,
       "developer_ergonomics": 20.2,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2426,8 +2426,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2467,8 +2467,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2508,8 +2508,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2550,8 +2550,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 18.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2592,8 +2592,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2634,8 +2634,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2693,8 +2693,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 23.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2735,8 +2735,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2776,8 +2776,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2817,8 +2817,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2859,8 +2859,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2901,8 +2901,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2942,8 +2942,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2984,8 +2984,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3025,8 +3025,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.4,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3067,8 +3067,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3108,8 +3108,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3149,8 +3149,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 19.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3191,8 +3191,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 5.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3232,8 +3232,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3274,8 +3274,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3315,8 +3315,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3357,8 +3357,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3398,8 +3398,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 5.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3440,8 +3440,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3481,8 +3481,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3522,8 +3522,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 6.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3563,8 +3563,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3604,8 +3604,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3646,8 +3646,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3688,8 +3688,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3730,8 +3730,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 6.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3772,8 +3772,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3822,8 +3822,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3864,8 +3864,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 5.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3906,8 +3906,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3947,8 +3947,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3988,8 +3988,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4029,8 +4029,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4071,8 +4071,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4112,8 +4112,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4154,8 +4154,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4195,8 +4195,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4236,8 +4236,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.4,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4278,8 +4278,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4320,8 +4320,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4361,8 +4361,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4402,8 +4402,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

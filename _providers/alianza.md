@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 417
   human_in_the_loop: 14
@@ -525,8 +525,8 @@ image: https://www.alianza.com/wp-content/uploads/2025/03/Alianza-Basic-Images-N
 layout: provider
 mcp_servers:
 - description: ''
-  name: alianza-mcp.yml
-  slug: alianza-mcpyml
+  name: Alianza MCP Server
+  slug: alianza-mcp-server
 modified: '2026-08-02'
 name: Alianza
 nav: Providers
@@ -539,7 +539,7 @@ random_paper: 1
 score:
   band: thin
   composite: 35.4
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -549,7 +549,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 43.0
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -566,9 +566,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,12 +52,12 @@ modified: '2026-04-28'
 name: LICENSE.md
 nav: Providers
 network: true
-overview: LICENSE.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Legal, Licensing, Open Source, and SPDX.
+overview: LICENSE.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Legal, Licensing, Open-Source, and SPDX.
 random_paper: 6
 score:
   band: minimal
   composite: 6.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -73,9 +73,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 6.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/license-md/refs/heads/main/screenshots/license-md-2026-06-20T184504.png
 security:
@@ -88,7 +88,7 @@ tags:
 - Compliance
 - Legal
 - Licensing
-- Open Source
+- Open-Source
 - SPDX
 - License
 website: https://choosealicense.com/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -438,8 +438,8 @@ image: https://www.workday.com/content/dam/web/en-us/images/social/workday-og-im
 layout: provider
 mcp_servers:
 - description: ''
-  name: scoutrfp-mcp.yml
-  slug: scoutrfp-mcpyml
+  name: Scout RFP (Workday Strategic Sourcing) MCP Server
+  slug: scout-rfp-workday-strategic-sourcing-mcp-server
 modified: '2026-07-21'
 name: Scout RFP (Workday Strategic Sourcing)
 nav: Providers
@@ -456,7 +456,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.5
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -466,7 +466,7 @@ score:
     discoverability: 63.0
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 41.8
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -477,8 +477,8 @@ score:
       total: 46
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

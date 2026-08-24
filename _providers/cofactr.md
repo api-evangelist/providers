@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -199,13 +199,13 @@ image: https://cdn.sanity.io/images/fdrwu6gi/production/4ecf7716c98de655cbae16fe
 layout: provider
 mcp_servers:
 - description: ''
-  name: cofactr-mcp.yml
-  slug: cofactr-mcpyml
+  name: Cofactr MCP Server
+  slug: cofactr-mcp-server
 modified: '2026-07-18'
 name: Cofactr
 nav: Providers
 network: true
-overview: 'Cofactr publishes 2 APIs on the [APIs.io](https://apis.io/) network: batch API and products API. Tagged areas include Company, Physical Ai, Component Intelligence, Electronics, and Supply Chain.
+overview: 'Cofactr publishes 2 APIs on the [APIs.io](https://apis.io/) network: batch API and products API. Tagged areas include Company, Physical AI, Component Intelligence, Electronics, and Supply Chain.
 
 
   The Cofactr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -220,7 +220,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.6
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 50.7
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +241,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/screenshots/cofactr-2026-07-25T205951.png
 security:
@@ -261,13 +261,13 @@ security:
 slug: cofactr
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Component Intelligence
 - Electronics
 - Supply Chain
 - Procurement
 - Manufacturing
 - Hardware
-- Bill Of Materials
+- Bill of Materials
 website: https://www.cofactr.com/
 ---

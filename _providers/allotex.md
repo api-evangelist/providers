@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Pages, posts, reusable blocks and navigation.
@@ -208,13 +208,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: allotex-mcp.yml
-  slug: allotex-mcpyml
+  name: Allotex MCP Server
+  slug: allotex-mcp-server
 modified: '2026-08-06'
 name: Allotex
 nav: Providers
 network: true
-overview: 'Allotex publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Identity API, and 3 more. Tagged areas include Company, medical-devices, ophthalmology, biologics, and vision-correction.
+overview: 'Allotex publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Identity API, and 3 more. Tagged areas include Company, Medical Devices, Ophthalmology, Biologics, and vision-correction.
 
 
   The Allotex catalog on APIs.io includes 1 JSON-LD context.
@@ -225,7 +225,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 21.5
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 22.2
+  previous_composite: 21.5
   provenance:
     conformance: derived
     contracts:
@@ -251,8 +251,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allotex/refs/heads/main/screenshots/allotex-2026-08-07T161228.png
 security:
@@ -267,17 +267,17 @@ security:
 slug: allotex
 tags:
 - Company
-- medical-devices
-- ophthalmology
-- biologics
+- Medical Devices
+- Ophthalmology
+- Biologics
 - vision-correction
 - corneal-allograft
 - presbyopia
 - hyperopia
 - refractive-surgery
 - tissue-processing
-- life-sciences
-- clinical-trials
+- Life Sciences
+- Clinical Trials
 - content-api
 website: https://us.allotex.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -282,9 +282,9 @@ description: watchTowr is a Preemptive Exposure Management (PEM) and External At
 image: https://watchtowr.com/wp-content/uploads/Feature-Image-.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: watchtowr-mcp.yml
-  slug: watchtowr-mcpyml
+- description: watchTowr publishes an official open-source MCP server (watchtowr/watchtowr-mcp, v0.1.2) that connects AI assistants to the watchTowr Platform Client API — attack surface assets, findings, hunts, cert
+  name: watchTowr MCP Server
+  slug: watchtowr-mcp-server
 modified: '2026-07-21'
 name: watchTowr
 nav: Providers
@@ -296,18 +296,18 @@ overview: 'watchTowr publishes 20 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 8
 score:
   band: thin
-  composite: 36.6
-  delta: -6.3
+  composite: 37.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
     contract_quality: 53.1
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 42.9
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,9 +318,9 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/watchtowr/refs/heads/main/screenshots/watchtowr-2026-08-17T082853.png
 security:
 - kind: authentication

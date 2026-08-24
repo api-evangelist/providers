@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -247,9 +247,9 @@ description: Knownwell is an AI-powered commercial intelligence platform for B2B
 image: https://knownwell.com/wp-content/uploads/2023/08/favicon21.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: knownwell-mcp.yml
-  slug: knownwell-mcpyml
+- description: Knownwell publishes no hosted or remote MCP server (no MCP reference in the developer docs, no /.well-known/ai-plugin.json, no npm or registry listing). This is a candidate server derived one-to-one f
+  name: Knownwell MCP Server
+  slug: knownwell-mcp-server
 modified: '2026-08-13'
 name: Knownwell
 nav: Providers
@@ -270,7 +270,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.5
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -280,7 +280,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 56.0
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -291,8 +291,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/screenshots/knownwell-2026-07-25T224012.png
 security:

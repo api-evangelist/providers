@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ modified: '2026-08-08'
 name: chucknorris.io
 nav: Providers
 network: true
-overview: 'chucknorris.io publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Jokes API, and Search API. Tagged areas include Entertainment, Jokes, Chuck Norris, Open Source, and Public APIs.
+overview: 'chucknorris.io publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Jokes API, and Search API. Tagged areas include Entertainment, Jokes, Chuck Norris, Open-Source, and Public APIs.
 
 
   The chucknorris.io catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -305,18 +305,18 @@ rules:
   slug: chucknorris-io-rules
 score:
   band: developing
-  composite: 40.8
-  delta: -8.5
+  composite: 41.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.4
     developer_ergonomics: 19.0
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 49.3
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -324,9 +324,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/screenshots/chucknorris-io-2026-06-20T174333.png
 security:
 - kind: domain-security
@@ -338,7 +338,7 @@ tags:
 - Entertainment
 - Jokes
 - Chuck Norris
-- Open Source
+- Open-Source
 - Public APIs
 use_cases:
 - description: Tutorial-friendly free public API for learning HTTP clients, SDKs, and AI tool patterns.

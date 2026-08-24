@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -291,18 +291,18 @@ rules:
   slug: login-gov-rules
 score:
   band: strong
-  composite: 56.0
-  delta: -0.9
+  composite: 56.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.5
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 56.9
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -316,8 +316,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/screenshots/login-gov-2026-06-20T184653.png
 security:

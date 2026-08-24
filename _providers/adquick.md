@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for planning and launching guaranteed and auction out-of-home (OOH) campaigns, placing insertion orders, submitting and scheduling creatives, and gathering in-flight delivery reporting. Authe
@@ -146,14 +146,14 @@ description: AdQuick is an intelligence and marketplace platform for out-of-home
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adquick.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Search OOH inventory, manage campaigns, analyze markets, and generate reports across US out-of-home advertising through natural language. Distributed in the Claude Connectors Directory.
   name: AdQuick MCP Server
   slug: adquick-mcp-server
 modified: '2026-08-13'
 name: AdQuick
 nav: Providers
 network: true
-overview: 'AdQuick publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Advertising, Out Of Home Advertising, and DOOH.
+overview: 'AdQuick publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Advertising, Out-of-Home Advertising, and DOOH.
 
 
   AdQuick''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 20 more developer resources.'
@@ -172,25 +172,25 @@ scopes:
   slug: adquick-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.6
-  delta: -1.3
+  band: thin
+  composite: 26.7
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.9
+  previous_composite: 26.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adquick/refs/heads/main/screenshots/adquick-2026-07-25T181659.png
 security:
@@ -211,7 +211,7 @@ tags:
 - Company
 - Enterprise Saas
 - Advertising
-- Out Of Home Advertising
+- Out-of-Home Advertising
 - DOOH
 - Programmatic Advertising
 - Media Buying

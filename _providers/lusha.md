@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -321,9 +321,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lusha.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: lusha-mcp.yml
-  slug: lusha-mcpyml
+- description: Lusha ships a first-party hosted MCP server at https://mcp.lusha.com plus a local stdio package on npm (@lusha-org/mcp) and a Gemini CLI extension. The hosted endpoint accepts either an OAuth authoriz
+  name: Lusha MCP Server
+  slug: lusha-mcp-server
 modified: '2026-08-13'
 name: Lusha
 nav: Providers
@@ -352,7 +352,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.2
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -362,7 +362,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 86.8
-  previous_composite: 69.4
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,8 +373,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/screenshots/lusha-2026-06-20T184813.png
 security:
@@ -404,7 +404,7 @@ tags:
 - Intent
 - Signals
 - Lookalikes
-- Webhooks
+- Webhook
 - MCP
 website: https://www.lusha.com/
 ---

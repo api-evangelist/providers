@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ modified: '2026-05-19'
 name: Apache Flume
 nav: Providers
 network: true
-overview: 'Apache Flume publishes 1 API on the [APIs.io](https://apis.io/) network: Monitoring API. Tagged areas include Apache, Data Collection, ETL, Log Aggregation, and Open Source.
+overview: 'Apache Flume publishes 1 API on the [APIs.io](https://apis.io/) network: Monitoring API. Tagged areas include Apache, Data Collection, ETL, Log Aggregation, and Open-Source.
 
 
   The Apache Flume catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -217,18 +217,18 @@ rules:
   slug: apache-flume-spectral-rules
 score:
   band: thin
-  composite: 28.7
-  delta: -9.4
+  composite: 29.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 56.6
     developer_ergonomics: 21.4
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 38.1
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -236,9 +236,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/screenshots/apache-flume-2026-06-20T172058.png
 security:
 - kind: domain-security
@@ -255,7 +255,7 @@ tags:
 - Data Collection
 - ETL
 - Log Aggregation
-- Open Source
+- Open-Source
 - Streaming
 use_cases:
 - description: Collect application logs from hundreds of servers and aggregate them into HDFS, Kafka, or Elasticsearch.

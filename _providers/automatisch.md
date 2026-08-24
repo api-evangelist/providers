@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Automatisch exposes a REST API used by its web application for managing flows (automated workflows), connections (service credentials), users, and integrations. The API supports webhook trigger endpoi
@@ -111,7 +111,7 @@ modified: '2026-04-19'
 name: Automatisch
 nav: Providers
 network: true
-overview: 'Automatisch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Workflow Automation, Self-Hosted, Open Source, Zapier Alternative, and No-Code.
+overview: 'Automatisch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Workflow-Automation, Self-Hosted, Open-Source, Zapier Alternative, and No-Code.
 
 
   Automatisch''s developer surface includes documentation, getting-started guide, release notes, and 6 more developer resources.'
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.4
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -137,9 +137,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 16.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automatisch/refs/heads/main/screenshots/automatisch-2026-06-20T172657.png
 security:
@@ -149,9 +149,9 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: automatisch
 tags:
-- Workflow Automation
+- Workflow-Automation
 - Self-Hosted
-- Open Source
+- Open-Source
 - Zapier Alternative
 - No-Code
 - JavaScript

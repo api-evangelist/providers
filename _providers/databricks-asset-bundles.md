@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Databricks Asset Bundles API provides CLI-driven endpoints for initializing, validating, deploying, running, and destroying bundles of Databricks resources. Bundles define infrastructure and works
@@ -282,21 +282,21 @@ rules:
   slug: databricks-asset-bundles-rules
 score:
   band: developing
-  composite: 43.5
-  delta: -6.5
+  composite: 44.0
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 15.5
     developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 44.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/screenshots/databricks-asset-bundles-2026-06-20T175631.png
 security:
 - kind: domain-security
@@ -314,8 +314,8 @@ tags:
 - Databricks
 - Deployment
 - Infrastructure as Code
-- Jobs
-- Machine Learning
+- Job
+- Machine-Learning
 - MLOps
 - Pipelines
 - Workflows

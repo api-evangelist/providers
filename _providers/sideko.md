@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ modified: '2026-05-22'
 name: Sideko
 nav: Providers
 network: true
-overview: 'Sideko publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Projects API, API Versions API, Authentication API, and 5 more. Tagged areas include CLI, Documentation, Mock Servers, Platform, and SDKs.
+overview: 'Sideko publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Projects API, API Versions API, Authentication API, and 5 more. Tagged areas include CLI, Documentation, Mock Servers, Platform, and SDK.
 
 
   The Sideko catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -291,18 +291,18 @@ rules:
   slug: sideko-rules
 score:
   band: developing
-  composite: 41.9
-  delta: -11.9
+  composite: 42.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 76.9
     developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 53.8
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -310,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/screenshots/sideko-2026-06-20T193853.png
 security:
 - kind: authentication
@@ -329,11 +329,11 @@ tags:
 - Documentation
 - Mock Servers
 - Platform
-- SDKs
+- SDK
 - API Tooling
 - SDK Generation
 - MCP Generation
-- AI
+- Artificial Intelligence
 - Hybrid Codegen
 - OpenAPI Linting
 website: https://www.sideko.dev/

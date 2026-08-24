@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -233,8 +233,8 @@ image: https://api.backmarket.dev/statics/backmarket-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: back-market-mcp.yml
-  slug: back-market-mcpyml
+  name: Back Market MCP Server
+  slug: back-market-mcp-server
 modified: '2026-08-02'
 name: Back Market
 nav: Providers
@@ -266,7 +266,7 @@ rules:
 score:
   band: strong
   composite: 57.2
-  delta: 3.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -276,7 +276,7 @@ score:
     discoverability: 92.6
     governance: 62.1
     operational_transparency: 44.7
-  previous_composite: 53.9
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +287,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/screenshots/back-market-2026-08-07T162100.png
 security:
@@ -312,10 +312,10 @@ tags:
 - Retail
 - Refurbished Electronics
 - Circular Economy
-- Orders
+- Order
 - Listings
 - Product Catalog
 - Logistics
-- Customer Support
+- Customer-Support
 website: https://www.backmarket.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-21'
 name: Royco
 nav: Providers
 network: true
-overview: 'Royco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Yield, Vaults, and Ethereum.
+overview: 'Royco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Yield, Vault, and Ethereum.
 
 
   Royco''s developer surface includes documentation, support, and 11 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 16.5
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -110,9 +110,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -122,9 +122,9 @@ security:
 slug: royco
 tags:
 - Company
-- Defi
+- DeFi
 - Yield
-- Vaults
+- Vault
 - Ethereum
 - Avalanche
 - Blockchain

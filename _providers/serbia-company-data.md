@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-08-14'
 name: Serbia Company Data
 nav: Providers
 network: true
-overview: 'Serbia Company Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Company API and Search API. Tagged areas include serbia, company-data, business-registry, open-data, and x402.
+overview: 'Serbia Company Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Company API and Search API. Tagged areas include Serbia, Company Data, Business Registry, Open Data, and x402.
 
 
   Serbia Company Data''s developer surface includes authentication, sandbox, code examples, pricing, and 17 more developer resources.'
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.9
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -189,7 +189,7 @@ score:
     discoverability: 70.4
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 29.2
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +206,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -220,14 +220,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: serbia-company-data
 tags:
-- serbia
-- company-data
-- business-registry
-- open-data
+- Serbia
+- Company Data
+- Business Registry
+- Open Data
 - x402
 - base-usdc
-- openapi
-- financial-statements
+- OpenAPI
+- Financial Statements
 - pay-per-call
 - agent-native
 ---

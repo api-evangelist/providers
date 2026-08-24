@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: SOAP API (XML and JSON encodings) for Zimbra Collaboration — account, mail, and admin operations, POSTed to /service/soap on a Zimbra deployment. Self-hosted, so the base host is per-deployment; the r
@@ -121,7 +121,7 @@ modified: '2026-07-21'
 name: Zimbra
 nav: Providers
 network: true
-overview: 'Zimbra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email, Collaboration, Calendar, Messaging, and Open Source.
+overview: 'Zimbra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email, Collaboration, Calendar, Messaging, and Open-Source.
 
 
   Zimbra''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 25.3
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -139,11 +139,11 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 24.9
+  previous_composite: 25.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -164,7 +164,7 @@ tags:
 - Collaboration
 - Calendar
 - Messaging
-- Open Source
+- Open-Source
 - SOAP
 - GraphQL
 - Productivity

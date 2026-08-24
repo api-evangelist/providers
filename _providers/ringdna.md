@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Programmatic entry points into the Guided Selling managed package for completing participant actions, skipping (deferring) participant actions, and creating sequence-independent quick actions. These a
@@ -181,9 +181,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ringdna.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ringdna-mcp.yml
-  slug: ringdna-mcpyml
+- description: 'Revenue.io (formerly RingDNA) operates a live, remotely-hosted Model Context Protocol server at https://app.ringdna.com/mcp. It is a real agent surface: an MCP client can POST to it today without any '
+  name: RingDNA / Revenue.io MCP Server
+  slug: ringdna-revenueio-mcp-server
 modified: '2026-08-14'
 name: RingDNA
 nav: Providers
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 40.1
-  delta: -9.4
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -219,13 +219,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 49.5
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/screenshots/ringdna-2026-06-20T193122.png
 security:
 - kind: authentication

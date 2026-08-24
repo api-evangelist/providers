@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the KACE Systems Management Appliance. Authenticated KACE SMA users can manage appliance data across the Asset, Inventory, Managed Install, Scripting, User, and Service Desk modules. Requ
@@ -97,7 +97,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 9.6
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -107,12 +107,12 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 9.6
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kace/refs/heads/main/screenshots/kace-2026-08-07T171122.png
 security:
 - kind: authentication

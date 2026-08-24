@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-17'
 name: Aladdin B2B
 nav: Providers
 network: true
-overview: 'Aladdin B2B is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Matchmaking, Meetings, and Events.
+overview: 'Aladdin B2B is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Matchmaking, Meetings, and Event.
 
 
   Aladdin B2B''s developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 6.3
-  delta: -8.9
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -94,10 +94,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 6.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aladdin-b2b/refs/heads/main/screenshots/aladdin-b2b-2026-07-25T195546.png
 security:
 - kind: domain-security
@@ -110,7 +110,7 @@ tags:
 - B2B
 - Matchmaking
 - Meetings
-- Events
+- Event
 - Trade Shows
 - Networking
 - Middle East

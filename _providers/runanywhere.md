@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted control plane the RunAnywhere SDKs talk to for model delivery, extraction, versioning, and configuration. Authenticated with an API key supplied at SDK initialization. No public OpenAPI is publ
@@ -96,7 +96,7 @@ modified: '2026-07-21'
 name: RunAnywhere
 nav: Providers
 network: true
-overview: 'RunAnywhere publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, On-Device AI, Inference, Machine Learning, and SDK.
+overview: 'RunAnywhere publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, On-Device AI, Inference, Machine-Learning, and SDK.
 
 
   RunAnywhere''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 8 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 19.7
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -114,9 +114,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -128,7 +128,7 @@ tags:
 - Company
 - On-Device AI
 - Inference
-- Machine Learning
+- Machine-Learning
 - SDK
 - Mobile
 - Edge AI

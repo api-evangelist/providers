@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -475,18 +475,18 @@ rules:
   slug: socure-rules
 score:
   band: strong
-  composite: 64.5
-  delta: -3.9
+  composite: 64.8
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 72.2
     developer_ergonomics: 66.7
     discoverability: 63.0
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 60.5
-  previous_composite: 68.4
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     contracts:
@@ -498,8 +498,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/screenshots/socure-2026-06-20T194123.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for businesses to collect payments, send single and mass transfers, check balance, manage sub-companies, and receive HMAC-signed webhooks.
@@ -83,13 +83,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/djamo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: djamo-mcp.yml
-  slug: djamo-mcpyml
+  name: Djamo MCP Server
+  slug: djamo-mcp-server
 modified: '2026-07-18'
 name: Djamo
 nav: Providers
 network: true
-overview: 'Djamo publishes 1 API on the [APIs.io](https://apis.io/) network: Business API. Tagged areas include Company, Financial Services, Fintech, Payments, and Banking.
+overview: 'Djamo publishes 1 API on the [APIs.io](https://apis.io/) network: Business API. Tagged areas include Company, Financial-Services, Fintech, Payments, and Banking.
 
 
   The Djamo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -100,7 +100,7 @@ random_paper: 19
 score:
   band: thin
   composite: 30.4
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -110,7 +110,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 30.4
   provenance:
     conformance: derived
     mcp: derived
@@ -121,8 +121,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/djamo/refs/heads/main/screenshots/djamo-2026-07-25T212138.png
 security:
@@ -137,7 +137,7 @@ security:
 slug: djamo
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - Banking

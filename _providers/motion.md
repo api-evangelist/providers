@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Motion's official hosted remote MCP server. Read-only, OAuth 2.0 gated, and documented with 13 tools across six categories — auth context, creative performance (ranked creatives, AI creative summaries
@@ -156,9 +156,9 @@ description: Motion is a creative analytics platform for performance marketing a
 image: https://cdn.prod.website-files.com/61ba3b439a672312697272c7/68e427f46591f0bafce36ab7_motion_meta_2025.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: motion-mcp.yml
-  slug: motion-mcpyml
+- description: Motion's official hosted, remote MCP server. It exposes Motion Creative Analytics — ad creative performance, AI-generated creative summaries and video transcripts, demographic breakdowns, workspace br
+  name: Motion MCP
+  slug: motion-mcp
 modified: '2026-08-12'
 name: Motion
 nav: Providers
@@ -184,7 +184,7 @@ scopes:
 score:
   band: thin
   composite: 35.3
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -194,13 +194,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 38.0
+  previous_composite: 35.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/screenshots/motion-2026-08-07T184326.png
 security:
@@ -221,7 +221,7 @@ tags:
 - Performance Marketing
 - Ad Reporting
 - Creative Strategy
-- SaaS
+- Software-as-a-Service
 - MCP
 - Agent Surface
 website: https://motionapp.com

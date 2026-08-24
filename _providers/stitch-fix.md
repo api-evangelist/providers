@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-21'
 name: Stitch Fix
 nav: Providers
 network: true
-overview: 'Stitch Fix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, Ecommerce, and Fashion.
+overview: 'Stitch Fix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-Commerce, and Fashion.
 
 
   Stitch Fix''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 11.3
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -86,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 11.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -100,7 +100,7 @@ tags:
 - Company
 - Consumer
 - Retail
-- Ecommerce
+- E-Commerce
 - Fashion
 - Apparel
 - Personalization

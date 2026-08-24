@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Soundtrack's public GraphQL API for building display, control and monitoring apps on top of the Soundtrack business music service. Query now-playing and schedule state, control playback on sound zones
@@ -151,8 +151,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soundtrack
 layout: provider
 mcp_servers:
 - description: ''
-  name: soundtrackyourbrand-mcp.yml
-  slug: soundtrackyourbrand-mcpyml
+  name: Soundtrack Your Brand MCP Server
+  slug: soundtrack-your-brand-mcp-server
 modified: '2026-07-21'
 name: Soundtrack Your Brand
 nav: Providers
@@ -168,7 +168,7 @@ random_paper: 10
 score:
   band: thin
   composite: 38.5
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -178,12 +178,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 43.4
+  previous_composite: 38.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundtrackyourbrand/refs/heads/main/screenshots/soundtrackyourbrand-2026-08-17T082007.png
 security:

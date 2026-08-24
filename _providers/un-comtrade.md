@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ rules:
 score:
   band: emerging
   composite: 24.2
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -123,7 +123,7 @@ score:
     discoverability: 63.0
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 31.3
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -131,9 +131,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/screenshots/un-comtrade-2026-06-20T200015.png
 security:
 - kind: authentication

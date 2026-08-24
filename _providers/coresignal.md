@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -428,8 +428,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: coresignal-mcp.yml
-  slug: coresignal-mcpyml
+  name: Coresignal MCP Server
+  slug: coresignal-mcp-server
 modified: '2026-08-13'
 name: Coresignal
 nav: Providers
@@ -501,18 +501,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 71.4
-  delta: -3.8
+  composite: 71.9
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 71.3
     developer_ergonomics: 58.9
     discoverability: 92.6
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 57.9
-  previous_composite: 75.2
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -523,8 +523,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/screenshots/coresignal-2026-06-20T175026.png
 security:
@@ -549,7 +549,7 @@ tags:
 - Enrichment
 - Firmographics
 - Job Postings
-- Jobs
+- Job
 - Lead Generation
 - People Data
 - Sales Intelligence

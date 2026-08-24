@@ -27,7 +27,7 @@ tags:
 - Community
 - Documentation
 - GitHub
-- Open Source
+- Open-Source
 - Repository
 - Support
 ---

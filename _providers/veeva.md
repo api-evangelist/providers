@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -460,13 +460,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: veeva-mcp.yml
-  slug: veeva-mcpyml
+  name: veeva MCP Server
+  slug: veeva-mcp-server
 modified: '2026-08-15'
 name: veeva
 nav: Providers
 network: true
-overview: 'veeva publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Objects API, and 3 more. Tagged areas include Life Sciences, Pharmaceutical, Clinical Trials, Regulatory, and Quality Management.
+overview: 'veeva publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Objects API, and 3 more. Tagged areas include Life Sciences, Pharmaceuticals, Clinical Trials, Regulatory, and Quality Management.
 
 
   The veeva catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -506,18 +506,18 @@ rules:
   slug: veeva-spectral-rules
 score:
   band: exemplar
-  composite: 75.0
-  delta: 7.2
+  composite: 75.5
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 80.7
     developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 76.3
-  previous_composite: 67.8
+  previous_composite: 75.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -534,9 +534,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png
 security:
 - kind: authentication
@@ -554,14 +554,14 @@ security:
 slug: veeva
 tags:
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Clinical Trials
 - Regulatory
 - Quality Management
-- Document Management
+- Document-Management
 - Content Management
 - Healthcare
-- SaaS
+- Software-as-a-Service
 - Enterprise
 - MCP
 - Agents

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -925,7 +925,7 @@ modified: '2026-05-19'
 name: NGINX
 nav: Providers
 network: true
-overview: 'NGINX publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Connections API, General Info API, HTTP API, and 25 more. Tagged areas include API Gateway, Caching, Cloud Native, Load Balancer, and Open Source.
+overview: 'NGINX publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Connections API, General Info API, HTTP API, and 25 more. Tagged areas include API Gateway, Caching, Cloud-Native, Load Balancer, and Open-Source.
 
 
   The NGINX catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -965,18 +965,18 @@ rules:
   slug: nginx-spectral-rules
 score:
   band: thin
-  composite: 30.7
-  delta: -6.9
+  composite: 31.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 17.9
     developer_ergonomics: 42.9
     discoverability: 66.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 37.6
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -984,9 +984,9 @@ score:
       derived: 28
       marker_coverage: 100.0
       total: 28
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
 security:
 - kind: domain-security
@@ -997,9 +997,9 @@ slug: nginx
 tags:
 - API Gateway
 - Caching
-- Cloud Native
+- Cloud-Native
 - Load Balancer
-- Open Source
+- Open-Source
 - Reverse Proxy
 - Web Server
 use_cases:

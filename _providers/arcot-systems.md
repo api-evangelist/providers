@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ca/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -48,16 +52,16 @@ created: '2026-07-17'
 description: Arcot Systems is a payment security and advanced authentication company founded in 1997 that co-invented the 3-D Secure protocol with Visa. Its TransFort and ArcotID products delivered card-not-present fraud prevention, risk-based authentication, and cardholder authentication for online card payments. Accel was an early venture investor. CA Technologies acquired Arcot in 2010 in a $200 million all-cash transaction, and the technology now ships as the "Arcot by Broadcom" payment security and fraud prevention product line at arcot.broadcom.com. It is no longer an independent company and publishes no public developer API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arcot-systems.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-21'
 name: Arcot Systems
 nav: Providers
 network: true
-overview: Arcot Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payment Security, Fraud Prevention, Authentication, and 3-D Secure.
+overview: Arcot Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payment Security, Fraud Prevention, Authentication, and 3D Secure.
 random_paper: 9
 score:
   band: minimal
   composite: 1.5
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,15 +71,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.7
+  previous_composite: 1.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcot-systems/refs/heads/main/screenshots/arcot-systems-2026-07-25T201054.png
 security:
@@ -89,7 +93,7 @@ tags:
 - Payment Security
 - Fraud Prevention
 - Authentication
-- 3-D Secure
+- 3D Secure
 - Cardholder Authentication
 - Risk-Based Authentication
 - Payments

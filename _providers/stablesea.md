@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Liquidity Providers API from Stablesea — 2 operation(s) for liquidity providers.
@@ -112,8 +112,8 @@ image: https://framerusercontent.com/images/Z7eNpaGMVcjn2gmGRb3QxFnqnE.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: stablesea-mcp.yml
-  slug: stablesea-mcpyml
+  name: Stablesea MCP Server
+  slug: stablesea-mcp-server
 modified: '2026-07-21'
 name: Stablesea
 nav: Providers
@@ -126,7 +126,7 @@ random_paper: 3
 score:
   band: thin
   composite: 32.4
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -136,7 +136,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 34.0
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
@@ -152,8 +152,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

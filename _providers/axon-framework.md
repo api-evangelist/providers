@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -348,18 +348,18 @@ rules:
   slug: axon-framework-spectral-rules
 score:
   band: thin
-  composite: 34.4
-  delta: -12.3
+  composite: 34.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 53.1
     developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 46.7
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -367,9 +367,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/screenshots/axon-framework-2026-06-20T172816.png
 security:
 - kind: domain-security

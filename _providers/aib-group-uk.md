@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-07-23'
 name: AIB Group (UK)
 nav: Providers
 network: true
-overview: 'AIB Group (UK) publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'AIB Group (UK) publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   AIB Group (UK)''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, and 17 more developer resources.'
@@ -184,7 +184,7 @@ random_paper: 16
 score:
   band: developing
   composite: 44.9
-  delta: 6.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 38.4
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -210,9 +210,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/screenshots/aib-group-uk-2026-07-25T195342.png
 security:
 - kind: authentication
@@ -225,7 +225,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: aib-group-uk
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

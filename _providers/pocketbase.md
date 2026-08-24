@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: CRUD operations for collection records including list, view, create, update, delete, and batch operations. Supports filtering, sorting, pagination, relation expansion, field selection, and multipart f
@@ -118,7 +118,7 @@ modified: '2026-06-12'
 name: PocketBase
 nav: Providers
 network: true
-overview: 'PocketBase publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Backend-as-a-Service, Open Source, SQLite, Realtime, and Authentication.
+overview: 'PocketBase publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Backend-as-a-Service, Open-Source, SQLite, Real-Time, and Authentication.
 
 
   The PocketBase catalog on APIs.io includes 1 JSON-LD context.
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.0
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -147,9 +147,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 35.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocketbase/refs/heads/main/screenshots/pocketbase-2026-06-20T191826.png
 security:
@@ -160,9 +160,9 @@ security:
 slug: pocketbase
 tags:
 - Backend-as-a-Service
-- Open Source
+- Open-Source
 - SQLite
-- Realtime
+- Real-Time
 - Authentication
 - File Storage
 - REST API

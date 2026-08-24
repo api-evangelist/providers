@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: REST API for Pabbly Subscription Billing — 95 documented operations across customers, subscriptions, products, plans, multiplans, coupons, invoices, payment methods, transactions and refunds, add-ons,
@@ -233,9 +233,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pabbly.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: pabbly-mcp.yml
-  slug: pabbly-mcpyml
+- description: Pabbly Connect exposes the action steps of a user's own automation workflows as MCP tools. Inside Pabbly Connect the user marks an action step "Add to MCP Server", names the tool (camelCase, no spaces
+  name: Pabbly Connect MCP Server
+  slug: pabbly-connect-mcp-server
 modified: '2026-08-13'
 name: Pabbly
 nav: Providers
@@ -259,7 +259,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.9
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -269,7 +269,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 56.3
+  previous_composite: 57.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -280,8 +280,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/screenshots/pabbly-2026-06-20T191303.png
 security:
@@ -308,12 +308,12 @@ tags:
 - Subscription Billing
 - Billing
 - Payments
-- Webhooks
+- Webhook
 - Messaging
 - WhatsApp
 - Email Verification
 - Forms
 - No-Code
-- SaaS
+- Software-as-a-Service
 website: https://www.pabbly.com/
 ---

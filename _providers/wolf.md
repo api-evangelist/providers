@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Multi-tenant REST API for building client- and job-seeker-facing staffing interfaces on the Wolf platform: authentication, jobs/shifts, tenders, availability, timesheets, notifications, job-seeker and'
@@ -82,14 +82,14 @@ description: Wolf (fromwolf.com) is a white-label, multi-tenant staffing and gig
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wolf.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: wolf-mcp.yml
-  slug: wolf-mcpyml
+- description: Candidate MCP (Model Context Protocol) server tool surface for the Wolf staffing-platform API, derived from the documented operations. No official hosted/remote Wolf MCP server was found. This is a pr
+  name: Wolf MCP Server
+  slug: wolf-mcp-server
 modified: '2026-07-21'
 name: Wolf
 nav: Providers
 network: true
-overview: 'Wolf publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Gig Economy, Workforce Management, and Jobs.
+overview: 'Wolf publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Gig Economy, Workforce Management, and Job.
 
 
   Wolf''s developer surface includes documentation, API reference, getting-started guide, authentication, and 6 more developer resources.'
@@ -97,7 +97,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 18.0
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -107,12 +107,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 18.0
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -129,7 +129,7 @@ tags:
 - Staffing
 - Gig Economy
 - Workforce Management
-- Jobs
+- Job
 - Scheduling
 - On-Demand Staffing
 - Chat

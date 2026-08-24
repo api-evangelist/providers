@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for public Twitter/X data with X-API-Key auth, JSON responses, and 76 documented endpoints across users, tweets, posting, interactions, lists, profiles, communities, Spaces, search, auth, X C
@@ -156,8 +156,8 @@ image: https://tweetapi.com/api/og?type=landing
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: TweetAPI MCP Server
+  slug: tweetapi-mcp-server
 - description: ''
   name: MCP server manifest
   slug: mcp-server-manifest
@@ -165,7 +165,7 @@ modified: '2026-08-11'
 name: TweetAPI
 nav: Providers
 network: true
-overview: 'TweetAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include twitter, x, social-media, social-data, and search.
+overview: 'TweetAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Twitter, X, Social-Media, Social Data, and Search.
 
 
   TweetAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
@@ -186,7 +186,7 @@ scopes:
 score:
   band: developing
   composite: 48.3
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -196,13 +196,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 48.5
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tweetapi/refs/heads/main/screenshots/tweetapi-2026-08-17T082504.png
 security:
@@ -220,17 +220,17 @@ security:
   summary_line: security.txt · contact published
 slug: tweetapi
 tags:
-- twitter
-- x
-- social-media
-- social-data
-- search
-- analytics
-- research
-- developer-tools
-- mcp
+- Twitter
+- X
+- Social-Media
+- Social Data
+- Search
+- Analytics
+- Research
+- Developer Tools
+- MCP
 - agent-native
 - llms-txt
-- rest-api
+- REST API
 website: https://tweetapi.com/docs
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The Cardless partner API surface used by brands to embed a co-branded credit card program: partner authentication (Basic-auth exchange of a partner-signed JWT for a bearer access token), application s'
@@ -116,13 +116,13 @@ image: https://framerusercontent.com/images/hm4RTByVdin3oyQTHY2rMm9doQ.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: cardless-mcp.yml
-  slug: cardless-mcpyml
+  name: Cardless Docs
+  slug: cardless-docs
 modified: '2026-08-01'
 name: Cardless
 nav: Providers
 network: true
-overview: 'Cardless publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Credit Cards, and Card Issuing.
+overview: 'Cardless publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Credit Cards, and Card Issuing.
 
 
   Cardless'' developer surface includes documentation, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
@@ -135,7 +135,7 @@ scopes:
 score:
   band: emerging
   composite: 23.2
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -145,7 +145,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.1
+  previous_composite: 23.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -155,9 +155,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/screenshots/cardless-2026-08-07T162953.png
 security:
 - kind: authentication
@@ -171,7 +171,7 @@ security:
 slug: cardless
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Credit Cards
 - Card Issuing

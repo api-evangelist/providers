@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: The Create API from Lilt — 2 operation(s) for create.
@@ -262,14 +262,14 @@ description: 'LILT is an AI translation and localization platform that pairs con
 image: https://lilt.com/favicon-32x32.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: lilt-mcp.yml
-  slug: lilt-mcpyml
+- description: LILT publishes a hosted remote MCP server that exposes its translation platform to Claude and other MCP hosts. It is a separate, self-service product from the enterprise LILT platform — MCP app accoun
+  name: LILT
+  slug: lilt
 modified: '2026-07-19'
 name: Lilt
 nav: Providers
 network: true
-overview: 'Lilt publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Create API, Documents API, Domains API, and 10 more. Tagged areas include Company, Ai, Translation, Localization, and Machine Translation.
+overview: 'Lilt publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Create API, Documents API, Domains API, and 10 more. Tagged areas include Company, Artificial Intelligence, Translation, Localization, and Machine Translation.
 
 
   The Lilt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -289,7 +289,7 @@ scopes:
 score:
   band: strong
   composite: 62.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -299,7 +299,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 62.8
+  previous_composite: 62.4
   provenance:
     conformance: derived
     contracts:
@@ -309,8 +309,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/screenshots/lilt-2026-07-25T225154.png
 security:
@@ -333,7 +333,7 @@ security:
 slug: lilt
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Translation
 - Localization
 - Machine Translation

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Industrial edge data platform for device connectivity, industrial DataOps, edge intelligence, and analytics. Around 871 endpoints in the 4.0.x line; most endpoints are REST while newer areas (DeviceHu
@@ -156,9 +156,9 @@ description: Litmus Automation (Litmus) is an industrial data platform company t
 image: https://litmus.io/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: litmus-automation-mcp.yml
-  slug: litmus-automation-mcpyml
+- description: Official open-source Model Context Protocol server for Litmus Edge — turns natural-language prompts into real edge operations across devices, telemetry, containers, and data models. Also exposes the f
+  name: Litmus MCP Server
+  slug: litmus-mcp-server
 modified: '2026-07-20'
 name: Litmus Automation
 nav: Providers
@@ -171,7 +171,7 @@ random_paper: 19
 score:
   band: developing
   composite: 41.2
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -181,12 +181,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 42.3
+  previous_composite: 41.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/screenshots/litmus-automation-2026-07-25T225339.png
 security:

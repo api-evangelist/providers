@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Come Bien
 nav: Providers
 network: true
-overview: 'Come Bien is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, FoodTech, Meal Delivery, and Corporate Catering.
+overview: 'Come Bien is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Food Tech, Meal Delivery, and Corporate Catering.
 
 
   Come Bien''s developer surface includes signup flow, support, and 7 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 18
 score:
   band: minimal
   composite: 10.7
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -94,9 +94,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/come-bien/refs/heads/main/screenshots/come-bien-2026-07-25T210112.png
 security:
@@ -108,7 +108,7 @@ slug: come-bien
 tags:
 - Company
 - Food
-- FoodTech
+- Food Tech
 - Meal Delivery
 - Corporate Catering
 - Employee Benefits

@@ -11,26 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-19'
+  score: 5.1
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -38,42 +38,12 @@ agentic_access:
   operation_count: 157
   slug: rmit-agentic-access
   summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 11
+api_count: 1
 apis:
 - description: The RMIT Research Repository is RMIT University's open access research portal, powered by Clarivate's Esploro research information management platform. It provides public web-based discovery of RMIT p
   name: RMIT Research Repository (Esploro)
   slug: research-repository
-- description: The altmetric API from RMIT University — 1 operation(s) for altmetric.
-  name: RMIT University altmetric API
-  slug: rmit-altmetric-api
-- description: The articles API from RMIT University — 34 operation(s) for articles.
-  name: RMIT University articles API
-  slug: rmit-articles-api
-- description: The authors API from RMIT University — 2 operation(s) for authors.
-  name: RMIT University authors API
-  slug: rmit-authors-api
-- description: The collections API from RMIT University — 21 operation(s) for collections.
-  name: RMIT University collections API
-  slug: rmit-collections-api
-- description: The institutions API from RMIT University — 20 operation(s) for institutions.
-  name: RMIT University institutions API
-  slug: rmit-institutions-api
-- description: The oauth API from RMIT University — 1 operation(s) for oauth.
-  name: RMIT University oauth API
-  slug: rmit-oauth-api
-- description: The other API from RMIT University — 7 operation(s) for other.
-  name: RMIT University other API
-  slug: rmit-other-api
-- description: The profiles API from RMIT University — 2 operation(s) for profiles.
-  name: RMIT University profiles API
-  slug: rmit-profiles-api
-- description: The projects API from RMIT University — 17 operation(s) for projects.
-  name: RMIT University projects API
-  slug: rmit-projects-api
-- description: The symplectic API from RMIT University — 5 operation(s) for symplectic.
-  name: RMIT University symplectic API
-  slug: rmit-symplectic-api
-artifact_total: 39
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -121,14 +91,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/rmit-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/rmit-authentication.yml
-- group: auth
-  title: ''
-  type: OAuthScopes
-  url: scopes/rmit-scopes.yml
 - group: company
   title: ''
   type: Website
@@ -171,49 +133,20 @@ coverage:
   state: none
 created: '2026-06-03'
 description: 'RMIT University is a public research university in Melbourne, Australia, specializing in technology, design and enterprise, and ranked #123 in the QS World University Rankings 2025. RMIT does not operate a centralized, publicly documented developer portal. Its most accessible programmatic surface is its research output: the RMIT Research Repository runs on Clarivate''s Esploro platform, and RMIT''s research data is published via a Figshare-hosted repository whose records are exposed through the public Figshare REST API (api.figshare.com) and syndicated to Research Data Australia. Student-facing systems such as timetables, the curriculum catalogue, and identity/SSO sit behind authentication and are not offered as public APIs.'
-examples:
-- key_count: 3
-  name: Rmit Article Detail Example
-  slug: rmit-article-detail-example
-- key_count: 3
-  name: Rmit Articles Search Example
-  slug: rmit-articles-search-example
 finops:
 - name: Rmit Finops
   service_category: Education
   slug: rmit-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rmit.png
-json_schemas:
-- name: Figshare Article
-  property_count: 15
-  slug: rmit-article
-- name: Figshare Author
-  property_count: 7
-  slug: rmit-author
-json_structures:
-- name: Rmit Article Structure
-  property_count: 11
-  slug: rmit-article-structure
-- name: Rmit Author Structure
-  property_count: 7
-  slug: rmit-author-structure
-jsonld:
-- class_count: 25
-  name: Rmit Context
-  property_count: 7
-  slug: rmit-context
 layout: provider
 modified: '2026-06-03'
 name: RMIT University
 nav: Providers
 network: true
-overview: 'RMIT University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, Research Data, and Open Access.
+overview: 'RMIT University publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research Data, and Open Access.
 
 
-  The RMIT University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  RMIT University''s developer surface includes authentication, GitHub presence, engineering blog, and 11 more developer resources.'
+  RMIT University''s developer surface includes GitHub presence, engineering blog, and 10 more developer resources.'
 plans:
 - name: Rmit Plans Pricing
   plan_count: 2
@@ -223,68 +156,33 @@ rate_limits:
 - limit_count: 1
   name: Rmit Rate Limits
   slug: rmit-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: RMIT University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: rmit-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: RMIT University API Rules
-  rule_count: 6
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 2
-    warn: 3
-  slug: rmit-rules
-scopes:
-- name: Rmit Scopes
-  scope_count: 1
-  slug: rmit-scopes
-  summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 43.0
-  delta: -0.9
+  band: emerging
+  composite: 15.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 73.0
-    developer_ergonomics: 14.3
-    discoverability: 64.8
-    governance: 9.8
+    contract_governance: 0.0
+    contract_quality: 4.0
+    developer_ergonomics: 2.4
+    discoverability: 59.3
+    governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 43.9
+  previous_composite: 15.8
   provenance:
     agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 61.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 22.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/screenshots/rmit-2026-06-20T193137.png
 security:
-- kind: authentication
-  name: Rmit Authentication
-  slug: rmit-authentication
-  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Rmit Domain Security
   slug: rmit-domain-security

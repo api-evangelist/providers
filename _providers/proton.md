@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: AI REST API returning product recommendations and performing actions in the Proton.ai distributor platform. Authenticated with a static API key in the request header. Documented as a public Postman co
@@ -125,7 +125,7 @@ random_paper: 2
 score:
   band: thin
   composite: 27.0
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -135,9 +135,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 26.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -162,6 +162,6 @@ tags:
 - Sales
 - Recommendations
 - CRM
-- e-Commerce
+- E-Commerce
 website: https://www.proton.ai/
 ---

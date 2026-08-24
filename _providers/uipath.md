@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -1524,18 +1524,18 @@ rules:
   slug: uipath-spectral-rules
 score:
   band: strong
-  composite: 62.0
-  delta: -9.2
+  composite: 62.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 89.0
     developer_ergonomics: 59.5
     discoverability: 75.9
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 71.2
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1543,9 +1543,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/screenshots/uipath-2026-06-20T200001.png
 security:
 - kind: authentication

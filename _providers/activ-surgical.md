@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-08-02'
 name: Activ Surgical
 nav: Providers
 network: true
-overview: 'Activ Surgical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Medical Devices, Surgery, and Surgical Robotics.
+overview: 'Activ Surgical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Surgery, and Surgical Robotics.
 
 
   Activ Surgical''s developer surface includes engineering blog, support, and 13 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 14.0
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -110,7 +110,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 14.1
+  previous_composite: 14.0
   provenance:
     conformance: first-party
   regulatory:
@@ -119,8 +119,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activ-surgical/refs/heads/main/screenshots/activ-surgical-2026-08-07T160853.png
 security:
@@ -131,13 +131,13 @@ security:
 slug: activ-surgical
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medical Devices
 - Surgery
 - Surgical Robotics
 - Medical Imaging
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Augmented Reality
 - Digital Health
 website: https://www.activsurgical.com/

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Ematic Solutions Core API is a RESTful, JSON-only web service (labelled "beta" by Ematic) that lets an e-commerce site record product events — browse, cart, checkout and conversion — plus batch ev
@@ -143,13 +143,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ematic-sol
 layout: provider
 mcp_servers:
 - description: ''
-  name: ematic-solutions-mcp.yml
-  slug: ematic-solutions-mcpyml
+  name: Ematic Solutions MCP Server
+  slug: ematic-solutions-mcp-server
 modified: '2026-08-13'
 name: Ematic Solutions
 nav: Providers
 network: true
-overview: 'Ematic Solutions publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Digital Marketing, Marketing Technology, and Martech.
+overview: 'Ematic Solutions publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Digital Marketing, Marketing Technology, and MarTech.
 
 
   Ematic Solutions'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 19 more developer resources.'
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.8
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -175,13 +175,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 28.6
+  previous_composite: 24.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/screenshots/ematic-solutions-2026-07-25T213225.png
 security:
@@ -199,7 +199,7 @@ tags:
 - Marketing
 - Digital Marketing
 - Marketing Technology
-- Martech
+- MarTech
 - Email Marketing
 - CRM
 - E-Commerce

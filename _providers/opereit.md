@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Contracts API from Opereit — 3 operation(s) for contracts.
@@ -112,8 +112,8 @@ image: https://www.opereit.ai/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: opereit-mcp.yml
-  slug: opereit-mcpyml
+  name: Opereit MCP Server
+  slug: opereit-mcp-server
 modified: '2026-07-20'
 name: Opereit
 nav: Providers
@@ -126,7 +126,7 @@ random_paper: 4
 score:
   band: thin
   composite: 35.8
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -136,7 +136,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 36.4
+  previous_composite: 35.8
   provenance:
     conformance: derived
     contracts:
@@ -146,8 +146,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/screenshots/opereit-2026-08-07T190714.png
 security:

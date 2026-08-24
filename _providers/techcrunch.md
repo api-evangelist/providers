@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -238,19 +238,19 @@ rules:
     warn: 5
   slug: techcrunch-wordpress-rules
 score:
-  band: thin
-  composite: 39.1
-  delta: -2.6
+  band: developing
+  composite: 39.6
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 63.6
     developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 41.7
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -258,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/screenshots/techcrunch-2026-06-20T195006.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ modified: '2026-05-19'
 name: SS&C Geneva
 nav: Providers
 network: true
-overview: 'SS&C Geneva publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Investors API, NAV API, Portfolios API, and 2 more. Tagged areas include Fund Accounting, Asset Management, Portfolio Management, Financial Services, and Hedge Funds.
+overview: 'SS&C Geneva publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Investors API, NAV API, Portfolios API, and 2 more. Tagged areas include Fund Accounting, Asset Management, Portfolio-Management, Financial-Services, and Hedge Funds.
 
 
   The SS&C Geneva catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -234,18 +234,18 @@ rules:
   slug: ssc-geneva-rules
 score:
   band: developing
-  composite: 42.1
-  delta: -5.6
+  composite: 42.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.4
     developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 47.7
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -253,9 +253,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/screenshots/ssc-geneva-2026-06-20T194436.png
 security:
 - kind: authentication
@@ -270,8 +270,8 @@ slug: ssc-geneva
 tags:
 - Fund Accounting
 - Asset Management
-- Portfolio Management
-- Financial Services
+- Portfolio-Management
+- Financial-Services
 - Hedge Funds
 - NAV Calculation
 website: https://www.ssctech.com/

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 15
 apis:
 - description: The AccountVerifications API from CertifID — 4 operation(s) for accountverifications.
@@ -238,14 +238,14 @@ description: CertifID is a wire fraud prevention, identity verification and fund
 image: https://cdn.prod.website-files.com/60a41ae959fbb36bd6808d6e/688ce259fd22b6b6905c812d_thumbnail-homepage.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: certifid-mcp.yml
-  slug: certifid-mcpyml
+- description: CertifID operates NO Model Context Protocol server. This artifact is a CANDIDATE tool list that API Evangelist derived from the 57 operations in the live CertifID V2 APIs OpenAPI definition. It is a d
+  name: CertifID MCP Server
+  slug: certifid-mcp-server
 modified: '2026-08-09'
 name: CertifID
 nav: Providers
 network: true
-overview: 'CertifID publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account Verifications API, Bank Lookup API, Collect Request API, and 12 more. Tagged areas include Company, Wire Fraud Prevention, Real Estate, Title Insurance, and Identity Verification.
+overview: 'CertifID publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account Verifications API, Bank Lookup API, Collect Request API, and 12 more. Tagged areas include Company, Wire Fraud Prevention, Real-Estate, Title Insurance, and Identity Verification.
 
 
   CertifID''s developer surface includes API reference, authentication, changelog, signup flow, support, engineering blog, and 22 more developer resources.'
@@ -258,7 +258,7 @@ scopes:
 score:
   band: developing
   composite: 43.7
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -268,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 44.5
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     contracts:
@@ -284,8 +284,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/screenshots/certifid-2026-08-17T080816.png
 security:
@@ -301,14 +301,14 @@ slug: certifid
 tags:
 - Company
 - Wire Fraud Prevention
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Identity Verification
 - Business Verification
 - Payments
 - Fraud Prevention
 - Escrow and Settlement
-- Financial Services
+- Financial-Services
 - Security
 website: https://www.certifid.com/
 ---

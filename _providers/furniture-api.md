@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ modified: '2026-05-19'
 name: Furniture API
 nav: Providers
 network: true
-overview: 'Furniture API publishes 1 API on the [APIs.io](https://apis.io/) network: Products API. Tagged areas include Furniture, Products, and E-Commerce.
+overview: 'Furniture API publishes 1 API on the [APIs.io](https://apis.io/) network: Products API. Tagged areas include Furniture, Product, and E-Commerce.
 
 
   Furniture API''s developer surface includes documentation and 2 more developer resources.'
@@ -94,7 +94,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.2
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -104,7 +104,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.9
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -112,14 +112,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/furniture-api/refs/heads/main/screenshots/furniture-api-2026-06-20T181622.png
 slug: furniture-api
 tags:
 - Furniture
-- Products
+- Product
 - E-Commerce
 website: https://furniture-api.fly.dev/
 ---

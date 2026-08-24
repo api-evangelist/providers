@@ -17,10 +17,10 @@ agent_readiness:
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 63.7
-  scored_at: '2026-08-19'
+  score: 67.1
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -193,8 +193,8 @@ description: Primitive is a company surfaced as a portfolio company of y-combina
 layout: provider
 mcp_servers:
 - description: ''
-  name: primitive-mcp.yml
-  slug: primitive-mcpyml
+  name: Primitive MCP Server
+  slug: primitive-mcp-server
 modified: '2026-07-17'
 name: Primitive
 nav: Providers
@@ -206,15 +206,15 @@ overview: 'Primitive publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 19
 score:
   band: thin
-  composite: 27.4
-  delta: -0.9
+  composite: 28.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 30.3
     contract_quality: 73.0
     developer_ergonomics: 7.1
-    discoverability: 40.7
+    discoverability: 51.9
     governance: 30.3
     operational_transparency: 0.0
   needs_work:
@@ -223,7 +223,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 28.3
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -234,8 +234,8 @@ score:
       total: 22
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

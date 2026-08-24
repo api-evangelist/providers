@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-05-29'
 name: Azure OpenAI Service
 nav: Providers
 network: true
-overview: 'Azure OpenAI Service publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Azure OpenAI Inference REST API, Audio API, Chat Completions API, and 3 more. Tagged areas include AI, LLM, Generative AI, Azure, and OpenAI.
+overview: 'Azure OpenAI Service publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Azure OpenAI Inference REST API, Audio API, Chat Completions API, and 3 more. Tagged areas include Artificial Intelligence, LLM, Generative AI, Azure, and OpenAI.
 
 
   The Azure OpenAI Service catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -191,7 +191,7 @@ scopes:
 score:
   band: thin
   composite: 38.9
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 11.4
     operational_transparency: 0.0
-  previous_composite: 42.6
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/screenshots/azure-openai-2026-06-20T172911.png
 security:
@@ -228,7 +228,7 @@ security:
   summary_line: security.txt · contact published
 slug: azure-openai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Generative AI
 - Azure

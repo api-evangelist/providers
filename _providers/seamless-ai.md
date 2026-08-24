@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -336,8 +336,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: seamless-ai-mcp.yml
-  slug: seamless-ai-mcpyml
+  name: Seamless.AI MCP Server
+  slug: seamlessai-mcp-server
 modified: '2026-08-14'
 name: Seamless.AI
 nav: Providers
@@ -387,18 +387,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.1
-  delta: 1.1
+  composite: 69.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 68.5
     developer_ergonomics: 69.0
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 34.2
-  previous_composite: 68.0
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,8 +409,8 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/screenshots/seamless-ai-2026-06-20T193614.png
 security:

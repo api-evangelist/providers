@@ -15,21 +15,21 @@
      "name": "BJ's Wholesale Club",
      "slug": "bjs-wholesale-club",
      "description": "BJ's Wholesale Club is a leading operator of membership warehouse clubs concentrated primarily on the eastern half of the United States. BJ's offers its members significant savings on a wide assortment of merchandise, including fresh foods, groceries, household essentials, and general merchandise. The company operates over 230 clubs and is focused on digital transformation, offering APIs to partners for product data, inventory, pricing, and order management integrations.",
-     "score": 42.6,
+     "score": 45.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 55.6,
       "contract_quality": 68.8,
-      "governance": 45.5,
-      "contract_governance": 45.5,
+      "governance": 69.7,
+      "contract_governance": 69.7,
       "operational_transparency": 7.9,
       "developer_ergonomics": 16.7,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 29.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -56,21 +56,21 @@
      "slug": "walgreens",
      "description": "Walgreens is one of the largest pharmacy-led health and wellbeing companies in the United States, operating over 8,000 locations nationwide. The Walgreens Developer Program provides APIs enabling third-party applications to integrate pharmacy prescription management, vaccine scheduling, retail shopping, store locations, and product inventory. The APIs support seamless healthcare delivery, prescription refills, immunization appointments, and retail e-commerce integrations for mobile and web applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png",
-     "score": 41.2,
+     "score": 41.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 72.5,
-      "governance": 9.8,
-      "contract_governance": 9.8,
+      "governance": 13.6,
+      "contract_governance": 13.6,
       "operational_transparency": 7.9,
       "developer_ergonomics": 33.3,
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -104,21 +104,21 @@
      "slug": "wayfair",
      "description": "Wayfair Inc. is one of the world's largest online destinations for home goods and furniture, serving over 20 million customers and 10,000+ suppliers. Wayfair's Developer Portal provides GraphQL-based APIs enabling suppliers to manage purchase orders, inventory updates, product catalog management, advanced shipment notifications, and returns. The platform is built on federated GraphQL architecture using domain-oriented microservices, allowing suppliers to request only the data they need.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/screenshots/wayfair-2026-06-20T201300.png",
-     "score": 39.4,
+     "score": 39.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 75.2,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 31.0,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -156,21 +156,21 @@
      "slug": "advance-auto-parts",
      "description": "Advance Auto Parts is a leading automotive aftermarket parts retailer offering a comprehensive catalog of automotive parts, accessories, batteries, and maintenance items. The company serves both professional automotive technicians and do-it-yourself customers across North America through retail stores, online, and commercial delivery programs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png",
-     "score": 38.3,
+     "score": 38.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 70.5,
-      "governance": 9.8,
-      "contract_governance": 9.8,
+      "governance": 13.6,
+      "contract_governance": 13.6,
       "operational_transparency": 7.9,
       "developer_ergonomics": 25.0,
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -197,21 +197,21 @@
      "slug": "walmart",
      "description": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers from all walks of life. Walmart also provides various convenience services, such as pharmacy, optical, and financial services, making it a one-stop shop for many consumers. The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory, pricing, fulfillment, and reporting on Walmart.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png",
-     "score": 37.3,
+     "score": 37.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 62.8,
-      "governance": 9.8,
-      "contract_governance": 9.8,
+      "governance": 13.6,
+      "contract_governance": 13.6,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -238,21 +238,21 @@
      "slug": "target",
      "description": "Target Corporation is one of the largest retailers in the United States, offering a wide assortment of general merchandise and food through more than 1,900 stores and digital channels. Target's technology platform powers partner integrations, internal services, and open-source tooling across their retail operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/screenshots/target-2026-08-17T082249.png",
-     "score": 34.5,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 64.9,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 18.4,
       "developer_ergonomics": 14.3,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -278,21 +278,21 @@
      "name": "Albertsons",
      "slug": "albertsons",
      "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
-     "score": 29.6,
+     "score": 30.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.6,
       "contract_quality": 30.1,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 0.0,
       "developer_ergonomics": 20.2,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -332,8 +332,8 @@
       "commercial_clarity": 19.7,
       "access_clarity": 19.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -359,21 +359,21 @@
      "name": "IKEA",
      "slug": "ikea",
      "description": "A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping experience. IKEA does not publish an official public developer API or developer portal; the surfaces profiled here are community reverse-engineered specs of the IKEA storefront (Product Catalog, Search, Sales Item availability, After Purchase Ordering / spare parts) plus the local-network API of the DIRIGERA smart home hub. All artifacts are community-built and unofficial — they may change at any time and are not affiliated with, endorsed by, or supported by IKEA.",
-     "score": 28.6,
+     "score": 29.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 65.5,
-      "governance": 9.8,
-      "contract_governance": 9.8,
+      "governance": 13.6,
+      "contract_governance": 13.6,
       "operational_transparency": 2.6,
       "developer_ergonomics": 21.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -413,8 +413,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -441,21 +441,21 @@
      "slug": "urban-outfitters",
      "description": "Urban Outfitters is a multi-channel lifestyle retailer offering an eclectic mix of women's, men's, and kids apparel, footwear, accessories, beauty, and home goods. Part of URBN, Inc. (which also owns Anthropologie, Free People, Bhldn, and Nuuly), Urban Outfitters operates stores in the US, Europe, and Canada alongside a robust ecommerce platform. The brand provides affiliate marketing integration through the Rakuten Advertising network and a third-party seller marketplace program (UO MRKT) that accepts independent brands selling through EDI and third-party integration platforms. Urban Outfitters uses Stripe for payment processing, Stripe Connect for marketplace seller payouts, and Stripe Terminal for in-store payments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/screenshots/urban-outfitters-2026-06-20T200530.png",
-     "score": 26.7,
+     "score": 27.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 29.9,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -506,8 +506,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -547,8 +547,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -588,8 +588,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -628,8 +628,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -669,8 +669,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 15.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -710,8 +710,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -751,8 +751,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -799,8 +799,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -840,8 +840,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -881,8 +881,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -922,8 +922,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -970,8 +970,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1011,8 +1011,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1052,8 +1052,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1103,8 +1103,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1144,8 +1144,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1185,8 +1185,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1226,8 +1226,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1267,8 +1267,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1308,8 +1308,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1349,8 +1349,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1390,8 +1390,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1431,8 +1431,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1479,8 +1479,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1520,8 +1520,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1561,8 +1561,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1609,8 +1609,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1650,8 +1650,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1691,8 +1691,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1732,8 +1732,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1773,8 +1773,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1814,8 +1814,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1855,8 +1855,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1896,8 +1896,8 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1937,8 +1937,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1985,8 +1985,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2026,8 +2026,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2067,8 +2067,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2108,8 +2108,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2148,8 +2148,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2189,8 +2189,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2229,8 +2229,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2270,8 +2270,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2311,8 +2311,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2352,8 +2352,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2393,8 +2393,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2434,8 +2434,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2475,8 +2475,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2516,8 +2516,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2557,8 +2557,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2598,8 +2598,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2638,8 +2638,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2678,8 +2678,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2719,8 +2719,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2760,8 +2760,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2801,8 +2801,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2842,8 +2842,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2883,8 +2883,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2924,8 +2924,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2965,8 +2965,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3006,8 +3006,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3047,8 +3047,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3087,8 +3087,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3128,8 +3128,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3175,8 +3175,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3216,8 +3216,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3264,8 +3264,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3310,8 +3310,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3356,8 +3356,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3402,8 +3402,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3448,8 +3448,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3494,8 +3494,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3539,8 +3539,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3585,8 +3585,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3631,8 +3631,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3672,8 +3672,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3718,8 +3718,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3764,8 +3764,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3810,8 +3810,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,

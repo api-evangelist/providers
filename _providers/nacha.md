@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -283,8 +283,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: nacha-mcp.yml
-  slug: nacha-mcpyml
+  name: Nacha MCP Server
+  slug: nacha-mcp-server
 modified: '2026-07-24'
 name: Nacha
 nav: Providers
@@ -297,7 +297,7 @@ random_paper: 3
 score:
   band: thin
   composite: 38.7
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -307,7 +307,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 38.3
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,8 +319,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png
 security:

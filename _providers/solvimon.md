@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 52.2
-  scored_at: '2026-08-19'
+  score: 55.6
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 287
   human_in_the_loop: 4
@@ -571,8 +571,8 @@ image: https://framerusercontent.com/images/7tUuus9NQ4rez9L2CYG3YjWDk.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: solvimon-mcp.yml
-  slug: solvimon-mcpyml
+  name: Solvimon MCP Server
+  slug: solvimon-mcp-server
 modified: '2026-07-21'
 name: Solvimon
 nav: Providers
@@ -583,19 +583,19 @@ overview: 'Solvimon publishes 64 APIs on the [APIs.io](https://apis.io/) network
   Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 27 more developer resources.'
 random_paper: 5
 score:
-  band: developing
-  composite: 53.6
-  delta: 2.4
+  band: strong
+  composite: 54.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 16.7
     contract_quality: 54.8
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 51.2
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -612,8 +612,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/screenshots/solvimon-2026-08-17T082000.png
 security:
@@ -637,7 +637,7 @@ tags:
 - Payments
 - Monetization
 - Usage-Based Pricing
-- Subscriptions
+- Subscription
 - Invoicing
 - Metering
 - Revenue Recognition

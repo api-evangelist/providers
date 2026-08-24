@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ modified: '2026-07-19'
 name: Elementor
 nav: Providers
 network: true
-overview: 'Elementor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, WordPress, Page Builder, and No Code.
+overview: 'Elementor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, WordPress, Page Builder, and No-Code.
 
 
   Elementor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
@@ -124,7 +124,7 @@ random_paper: 5
 score:
   band: thin
   composite: 26.4
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -134,9 +134,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 27.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elementor/refs/heads/main/screenshots/elementor-2026-07-25T213125.png
 security:
@@ -150,7 +150,7 @@ tags:
 - Website Builder
 - WordPress
 - Page Builder
-- No Code
+- No-Code
 - Web Design
 - CMS
 - Developer Tools

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,12 +54,12 @@ modified: '2026-08-06'
 name: AI Bank
 nav: Providers
 network: true
-overview: AI Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Digital Banking, Financial Services, and Consumer Finance.
+overview: AI Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Digital Banking, Financial-Services, and Consumer Finance.
 random_paper: 8
 score:
   band: minimal
   composite: 1.8
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -69,15 +69,15 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.7
+  previous_composite: 1.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-bank/refs/heads/main/screenshots/ai-bank-2026-08-07T161057.png
 security:
@@ -90,11 +90,11 @@ tags:
 - Company
 - Banking
 - Digital Banking
-- Financial Services
+- Financial-Services
 - Consumer Finance
 - SME Lending
 - Wealth Management
-- FinTech
+- Fintech
 - China
 website: https://www.aibank.com/
 ---

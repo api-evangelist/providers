@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 9
 common:
@@ -131,7 +131,7 @@ rules:
 score:
   band: minimal
   composite: 10.2
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -141,16 +141,16 @@ score:
     discoverability: 44.4
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 16.2
+  previous_composite: 10.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regeneron-pharmaceuticals/refs/heads/main/screenshots/regeneron-pharmaceuticals-2026-06-20T192815.png
 security:
 - kind: domain-security

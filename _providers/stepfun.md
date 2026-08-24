@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: OpenAI-compatible chat completions for the Step model family (e.g. step-3.7-flash, step-3.5-flash, stepaudio-2.5-chat), with multimodal image/video/audio message parts, tool calling, JSON mode, stream
@@ -179,14 +179,14 @@ description: StepFun (阶跃星辰) is a Shanghai-based AI foundation-model comp
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stepfun.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: stepfun-mcp.yml
-  slug: stepfun-mcpyml
+- description: StepFun operates an official hosted remote MCP server, StepSearch — a search service built on the Model Context Protocol that gives Claude Code, Cline, OpenCode, Goose, and other MCP-compatible client
+  name: StepFun MCP Server
+  slug: stepfun-mcp-server
 modified: '2026-07-21'
 name: StepFun
 nav: Providers
 network: true
-overview: 'StepFun publishes 1 API on the [APIs.io](https://apis.io/) network: Realtime API. Tagged areas include AI, Artificial Intelligence, LLM, Multimodal, and Chat Completion.
+overview: 'StepFun publishes 1 API on the [APIs.io](https://apis.io/) network: Realtime API. Tagged areas include Artificial Intelligence, LLM, Multi-Modal, Chat Completion, and Audio.
 
 
   The StepFun catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -201,7 +201,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.2
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -211,12 +211,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 49.8
+  previous_composite: 48.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/screenshots/stepfun-2026-08-17T082149.png
 security:
@@ -230,17 +230,16 @@ security:
   summary_line: TLSv1.3 · DNSSEC
 slug: stepfun
 tags:
-- AI
 - Artificial Intelligence
 - LLM
-- Multimodal
+- Multi-Modal
 - Chat Completion
 - Audio
 - Speech
-- Text to Speech
+- Text-to-Speech
 - Speech Recognition
-- Images
-- Realtime
+- Image
+- Real-Time
 - Vector Stores
 - China
 website: https://www.stepfun.com

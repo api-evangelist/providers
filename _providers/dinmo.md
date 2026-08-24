@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Real-time read API for retrieving an activated model record (customer profile and its mapped activation attributes) by lookup key, for personalization use cases in apps and websites. Authenticated wit
@@ -169,8 +169,8 @@ image: https://www.dinmo.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: dinmo-mcp.yml
-  slug: dinmo-mcpyml
+  name: DinMo MCP Server
+  slug: dinmo-mcp-server
 modified: '2026-08-13'
 name: DinMo
 nav: Providers
@@ -194,7 +194,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.1
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -204,12 +204,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 55.5
+  previous_composite: 55.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/screenshots/dinmo-2026-07-25T212055.png
 security:

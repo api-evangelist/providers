@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Qwil's private, authenticated production REST API (Django REST Framework). Requires a bearer token; no public OpenAPI specification is published.
@@ -65,7 +65,7 @@ modified: '2026-07-20'
 name: Qwil
 nav: Providers
 network: true
-overview: 'Qwil publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Payments, and Banking.
+overview: 'Qwil publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial-Services, Payments, and Banking.
 
 
   Qwil''s developer surface includes authentication and 4 more developer resources.'
@@ -73,7 +73,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 8.9
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -83,15 +83,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.8
+  previous_composite: 8.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -106,7 +106,7 @@ slug: qwil
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Payments
 - Banking
 - Plaid

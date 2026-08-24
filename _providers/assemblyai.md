@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-05-19'
 name: AssemblyAI
 nav: Providers
 network: true
-overview: 'AssemblyAI publishes 3 APIs on the [APIs.io](https://apis.io/) network: LeMUR API, Streaming API, and Transcript API. Tagged areas include AI, Artificial Intelligence, Audio, Speech, and Transcription.
+overview: 'AssemblyAI publishes 3 APIs on the [APIs.io](https://apis.io/) network: LeMUR API, Streaming API, and Transcript API. Tagged areas include Artificial Intelligence, Audio, Speech, Transcription, and Speech-to-Text.
 
 
   The AssemblyAI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -186,7 +186,7 @@ rules:
 score:
   band: developing
   composite: 42.7
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -196,7 +196,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 49.7
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -204,9 +204,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/screenshots/assemblyai-2026-06-20T172502.png
 security:
 - kind: domain-security
@@ -223,12 +223,11 @@ skills:
   slug: assemblyai
 slug: assemblyai
 tags:
-- AI
 - Artificial Intelligence
 - Audio
 - Speech
 - Transcription
-- Speech to Text
+- Speech-to-Text
 use_cases:
 - description: Customer service teams transcribe and analyze customer calls for quality assurance, compliance, agent coaching, and sentiment analysis.
   name: Call Center Analytics

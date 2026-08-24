@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ modified: '2026-05-25'
 name: ACI.dev
 nav: Providers
 network: true
-overview: 'ACI.dev publishes 4 APIs on the [APIs.io](https://apis.io/) network, including app-configurations API, apps API, functions API, and 1 more. Tagged areas include Agent Infrastructure, Agents, AI, Artificial Intelligence, and Function Calling.
+overview: 'ACI.dev publishes 4 APIs on the [APIs.io](https://apis.io/) network, including app-configurations API, apps API, functions API, and 1 more. Tagged areas include Agent Infrastructure, Agents, Artificial Intelligence, Function Calling, and MCP.
 
 
   The ACI.dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -306,18 +306,18 @@ rules:
   slug: aci-dev-rules
 score:
   band: thin
-  composite: 38.1
-  delta: -4.7
+  composite: 38.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.3
     developer_ergonomics: 50.0
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 42.8
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -325,8 +325,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/screenshots/aci-dev-2026-06-20T163831.png
 security:
@@ -342,13 +342,11 @@ slug: aci-dev
 tags:
 - Agent Infrastructure
 - Agents
-- AI
 - Artificial Intelligence
 - Function Calling
 - MCP
-- Model Context Protocol
-- OAuth
-- Open Source
+- Authentication
+- Open-Source
 - Tool Calling
 - VibeOps
 website: https://aci.dev

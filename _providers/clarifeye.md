@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -245,14 +245,14 @@ description: Clarifeye is an AI-native knowledge infrastructure platform that ca
 image: https://www.clarifeye.ai/_astro/og-default.BHhQt8Bo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: clarifeye-mcp.yml
-  slug: clarifeye-mcpyml
+- description: Clarifeye publishes a hosted, per-knowledge-store MCP server that exposes an organization's captured knowledge (briefs, playbooks, mental maps, tags, objects) to AI clients (Claude, ChatGPT, Microsoft
+  name: Clarifeye MCP Server
+  slug: clarifeye-mcp-server
 modified: '2026-07-18'
 name: Clarifeye
 nav: Providers
 network: true
-overview: 'Clarifeye publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agent Settings API, Conversations API, Documents API, and 10 more. Tagged areas include Company, Artificial Intelligence, Knowledge Management, Model Context Protocol, and Document Intelligence.
+overview: 'Clarifeye publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agent Settings API, Conversations API, Documents API, and 10 more. Tagged areas include Company, Artificial Intelligence, Knowledge-Management, MCP, and Document Intelligence.
 
 
   Clarifeye''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 22 more developer resources.'
@@ -265,7 +265,7 @@ scopes:
 score:
   band: developing
   composite: 47.7
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -275,7 +275,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 50.5
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,8 +286,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/screenshots/clarifeye-2026-07-25T205502.png
 security:
@@ -303,8 +303,8 @@ slug: clarifeye
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge Management
-- Model Context Protocol
+- Knowledge-Management
+- MCP
 - Document Intelligence
 - Agents
 - Enterprise AI

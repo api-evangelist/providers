@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ modified: '2026-06-13'
 name: Yr
 nav: Providers
 network: true
-overview: 'Yr publishes 3 APIs on the [APIs.io](https://apis.io/) network: alerts API, data API, and metadata API. Tagged areas include Weather, Forecasts, Meteorology, Climate, and Norway.
+overview: 'Yr publishes 3 APIs on the [APIs.io](https://apis.io/) network: alerts API, data API, and metadata API. Tagged areas include Weather, Forecast, Meteorology, Climate, and Norway.
 
 
   The Yr catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -208,7 +208,7 @@ rules:
 score:
   band: developing
   composite: 43.3
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -218,7 +218,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 45.9
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -232,8 +232,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/screenshots/yr-no-2026-06-20T201749.png
 security:
@@ -248,7 +248,7 @@ security:
 slug: yr-no
 tags:
 - Weather
-- Forecasts
+- Forecast
 - Meteorology
 - Climate
 - Norway

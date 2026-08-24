@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -245,13 +245,13 @@ image: https://framerusercontent.com/assets/cyASyHEg6g3WK5dCwQoOyyVbFZU.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: anam-mcp.yml
-  slug: anam-mcpyml
+  name: Anam MCP Server
+  slug: anam-mcp-server
 modified: '2026-07-17'
 name: Anam
 nav: Providers
 network: true
-overview: 'Anam publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Avatars API, Knowledge API, and 6 more. Tagged areas include Company, Ai, Avatars, Conversational AI, and Video.
+overview: 'Anam publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Avatars API, Knowledge API, and 6 more. Tagged areas include Company, Artificial Intelligence, Avatars, Conversational AI, and Video.
 
 
   Anam''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 28 more developer resources.'
@@ -259,7 +259,7 @@ random_paper: 14
 score:
   band: strong
   composite: 55.8
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -269,7 +269,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 57.5
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +280,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/screenshots/anam-2026-07-25T200152.png
 security:
@@ -304,7 +304,7 @@ security:
 slug: anam
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Avatars
 - Conversational AI
 - Video

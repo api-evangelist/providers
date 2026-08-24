@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: REST API for managing organizations, contacts, items, invoices, estimates, credit notes, recurring invoices, expenses, projects, time entries, and customer payments. Authentication is OAuth 2.0 with O
@@ -139,8 +139,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-invoice/refs/heads/main/screenshots/zoho-invoice-2026-06-20T201940.png
 security:
@@ -159,6 +159,6 @@ tags:
 - Small Business
 - Billing
 - Expense Tracking
-- SaaS
+- Software-as-a-Service
 website: https://www.zoho.com/invoice
 ---

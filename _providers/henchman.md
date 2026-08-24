@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Searches a firm's extracted clauses and definitions across its connected contract database, with intelligent ranking by frequency, document type, and metadata, surfaced inside Microsoft Word and Outlo
@@ -90,7 +90,7 @@ modified: '2026-06-21'
 name: Henchman
 nav: Providers
 network: true
-overview: 'Henchman publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clause and Definition Search, Knowledge Base, and Integrations. Tagged areas include Legal, Legal Tech, Contract Drafting, Clause Search, and Knowledge Management.
+overview: 'Henchman publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clause and Definition Search, Knowledge Base, and Integrations. Tagged areas include Legal, Legal Tech, Contract Drafting, Clause Search, and Knowledge-Management.
 
 
   Henchman''s developer surface includes documentation and 6 more developer resources.'
@@ -106,7 +106,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.2
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -116,9 +116,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/screenshots/henchman-2026-07-25T220957.png
 security:
@@ -132,7 +132,7 @@ tags:
 - Legal Tech
 - Contract Drafting
 - Clause Search
-- Knowledge Management
-- AI
+- Knowledge-Management
+- Artificial Intelligence
 website: https://www.henchman.io
 ---

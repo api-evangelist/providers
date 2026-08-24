@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The stable REST surface of the Opal marketing planning platform — 66 paths and 97 operations across stories, moments, content, placements, assets, asset references, labels, label sets, stamps, brands,
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 50.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -214,7 +214,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 51.7
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -224,8 +224,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/screenshots/opal-2026-08-07T190443.png
 security:
@@ -250,14 +250,14 @@ tags:
 - Marketing Calendar
 - Campaign Management
 - Collaboration
-- SaaS
+- Software-as-a-Service
 - Content Marketing
 - Editorial Calendar
-- Workflow
+- Workflows
 - Approvals
 - Digital Asset Management
 - JSON:API
-- OAuth 2.0
+- Authentication
 - OpenAPI
 website: https://www.workwithopal.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Shippingbo''s primary REST/JSON API for managing the full e-commerce logistics lifecycle: orders, order items, products, stocks, customers, shipments, sources, and warehouse pickings. Documentation is '
@@ -153,7 +153,7 @@ modified: '2026-05-25'
 name: Shippingbo
 nav: Providers
 network: true
-overview: 'Shippingbo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Logistics, Ecommerce, Order Management, and Warehouse Management.
+overview: 'Shippingbo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Logistics, E-Commerce, Order Management, and Warehouse Management.
 
 
   Shippingbo''s developer surface includes documentation, pricing, engineering blog, YouTube channel, and 18 more developer resources.'
@@ -161,7 +161,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 6.6
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -171,15 +171,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.4
+  previous_composite: 6.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippingbo/refs/heads/main/screenshots/shippingbo-2026-06-20T193820.png
 security:
@@ -191,7 +191,7 @@ slug: shippingbo
 tags:
 - Shipping
 - Logistics
-- Ecommerce
+- E-Commerce
 - Order Management
 - Warehouse Management
 - Transport Management
@@ -202,9 +202,9 @@ tags:
 - Fulfillment
 - 3PL
 - Marketplaces
-- Webhooks
-- OAuth2
-- SaaS
+- Webhook
+- Authentication
+- Software-as-a-Service
 - France
 - French Tech
 website: https://www.shippingbo.com

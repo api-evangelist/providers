@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The authoritative protocol definition for the Model Context Protocol, maintained at modelcontextprotocol.io and in the modelcontextprotocol/ specification GitHub repository. The TypeScript schema (sch
@@ -242,7 +242,7 @@ modified: '2026-05-22'
 name: Model Context Protocol (MCP)
 nav: Providers
 network: true
-overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Model Context Protocol, MCP, AI Agents, Tools, and Resources.
+overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, AI Agents, Tools, Resources, and Prompts.
 
 
   The Model Context Protocol (MCP) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -264,7 +264,7 @@ rules:
 score:
   band: emerging
   composite: 23.1
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -274,10 +274,10 @@ score:
     discoverability: 61.1
     governance: 25.0
     operational_transparency: 28.9
-  previous_composite: 29.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 23.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/screenshots/mcp-2026-06-20T185104.png
 security:
 - kind: domain-security
@@ -299,7 +299,6 @@ solutions:
 - description: Claude, ChatGPT, Cursor, VS Code Copilot, Continue, Cline, Zed, Windsurf, and many other assistants act as MCP hosts.
   name: Vendor Hosts
 tags:
-- Model Context Protocol
 - MCP
 - AI Agents
 - Tools

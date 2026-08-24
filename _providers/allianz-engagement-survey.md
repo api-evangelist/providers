@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -300,8 +300,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: allianz-engagement-survey-mcp.yml
-  slug: allianz-engagement-survey-mcpyml
+  name: Allianz Engagement Survey MCP Server
+  slug: allianz-engagement-survey-mcp-server
 modified: '2026-06-20'
 name: Allianz Engagement Survey
 nav: Providers
@@ -343,18 +343,18 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 27.1
-  delta: -5.0
+  composite: 27.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 27.0
     developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 5.3
-  previous_composite: 32.1
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -370,9 +370,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/screenshots/allianz-engagement-survey-2026-07-25T195701.png
 security:
 - kind: authentication

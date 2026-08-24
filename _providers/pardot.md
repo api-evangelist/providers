@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -61,6 +61,10 @@ collections:
   name: Salesforce Account Engagement (Pardot) API v5
   slug: open-pardot
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -227,16 +231,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pardot.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: pardot-mcp.yml
-  slug: pardot-mcpyml
-modified: '2026-08-13'
+  name: Salesforce Marketing Cloud Account Engagement (Pardot) MCP Server
+  slug: salesforce-marketing-cloud-account-engagement-pardot-mcp-server
+modified: '2026-08-21'
 name: Salesforce Marketing Cloud Account Engagement (Pardot)
 nav: Providers
 network: true
 overview: 'Salesforce Marketing Cloud Account Engagement (Pardot) publishes 1 API on the [APIs.io](https://apis.io/) network: Objects API. Tagged areas include Marketing Automation, B2B Marketing, Lead Generation, Email Marketing, and Salesforce.
 
 
-  Salesforce Marketing Cloud Account Engagement (Pardot)''s developer surface includes authentication, documentation, pricing, signup flow, sandbox, API reference, getting-started guide, and 33 more developer resources.'
+  Salesforce Marketing Cloud Account Engagement (Pardot)''s developer surface includes authentication, documentation, pricing, signup flow, sandbox, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Pardot Plans Pricing
   plan_count: 4
@@ -253,18 +257,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 56.6
-  delta: -11.7
+  composite: 57.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 30.3
     contract_quality: 15.7
     developer_ergonomics: 78.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 68.3
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,9 +279,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/screenshots/pardot-2026-06-20T191406.png
 security:
 - kind: authentication

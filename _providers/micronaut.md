@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -164,7 +164,7 @@ modified: '2026-05-19'
 name: Micronaut
 nav: Providers
 network: true
-overview: 'Micronaut publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Configuration API, Environment API, and 7 more. Tagged areas include Cloud Native, Frameworks, Java, JVM, and Microservices.
+overview: 'Micronaut publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Configuration API, Environment API, and 7 more. Tagged areas include Cloud-Native, Frameworks, Java, JVM, and Microservices.
 
 
   The Micronaut catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -194,7 +194,7 @@ rules:
 score:
   band: thin
   composite: 27.9
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -204,7 +204,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 36.2
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -212,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/screenshots/micronaut-2026-06-20T185335.png
 security:
 - kind: domain-security
@@ -223,7 +223,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: micronaut
 tags:
-- Cloud Native
+- Cloud-Native
 - Frameworks
 - Java
 - JVM

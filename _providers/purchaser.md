@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) covering the sourcing lifecycle — RFQs, vendors, conversations, quotes, files, and webhooks. API-key authentication with team and environment scoping; the full reference and int
@@ -122,14 +122,14 @@ description: Purchaser is an AI-powered RFQ (Request for Quotation) intelligence
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/purchaser.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: purchaser-mcp.yml
-  slug: purchaser-mcpyml
+- description: A candidate MCP tool surface mapped from Purchaser's publicly listed REST resources. Not an official Purchaser MCP server; endpoints/operationIds are defined in the customer-gated OpenAPI 3.1 spec, so
+  name: Purchaser MCP (candidate)
+  slug: purchaser-mcp-candidate
 modified: '2026-07-20'
 name: Purchaser
 nav: Providers
 network: true
-overview: 'Purchaser publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Procurement, Sourcing, and RFQ.
+overview: 'Purchaser publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Procurement, Sourcing, and RFQ.
 
 
   The Purchaser catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -140,7 +140,7 @@ random_paper: 7
 score:
   band: thin
   composite: 28.8
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -150,13 +150,13 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 35.8
+  previous_composite: 28.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Purchaser Authentication
@@ -173,7 +173,7 @@ security:
 slug: purchaser
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Procurement
 - Sourcing
 - RFQ

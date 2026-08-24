@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: cloud9.gg runs on WordPress (WP Cloud / Automattic Atomic hosting) and serves the standard WordPress REST API anonymously at https://cloud9.gg/wp-json/. The discovery index enumerates 277 routes acros
@@ -154,9 +154,9 @@ json_schemas:
   slug: cloud9-wp-rest-schemas
 layout: provider
 mcp_servers:
-- description: ''
-  name: cloud9-mcp.yml
-  slug: cloud9-mcpyml
+- description: Cloud9 publishes a remote Model Context Protocol server on its primary marketing host, cloud9.gg. It is not listed in any MCP registry, is not mentioned anywhere on the Cloud9 site, and Cloud9 operate
+  name: Cloud9 MCP Server
+  slug: cloud9-mcp-server
 modified: '2026-08-09'
 name: Cloud9
 nav: Providers
@@ -174,7 +174,7 @@ scopes:
 score:
   band: emerging
   composite: 24.9
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -184,13 +184,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.3
+  previous_composite: 24.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

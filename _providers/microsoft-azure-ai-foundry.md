@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-05-19'
 name: Microsoft Azure AI Foundry
 nav: Providers
 network: true
-overview: 'Microsoft Azure AI Foundry publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Workspaces API. Tagged areas include AI, AI Services, Generative AI, Microsoft Azure, and Model Catalog.
+overview: 'Microsoft Azure AI Foundry publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Workspaces API. Tagged areas include Artificial Intelligence, AI Services, Generative AI, Microsoft Azure, and Model Catalog.
 
 
   Microsoft Azure AI Foundry''s developer surface includes authentication, developer portal, documentation, pricing, support, and 9 more developer resources.'
@@ -154,7 +154,7 @@ scopes:
 score:
   band: developing
   composite: 39.5
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -164,7 +164,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 42.5
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +172,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-ai-foundry/refs/heads/main/screenshots/microsoft-azure-ai-foundry-2026-06-20T185353.png
 security:
@@ -187,7 +187,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: microsoft-azure-ai-foundry
 tags:
-- AI
+- Artificial Intelligence
 - AI Services
 - Generative AI
 - Microsoft Azure

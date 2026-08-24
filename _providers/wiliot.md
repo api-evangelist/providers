@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Manage traceability entities - Pixels (tags), assets, categories, asset types, locations, zones, metadata and events - scoped per owner.
@@ -129,8 +129,8 @@ image: https://platform.wiliot.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: wiliot-mcp.yml
-  slug: wiliot-mcpyml
+  name: Wiliot MCP Server
+  slug: wiliot-mcp-server
 modified: '2026-07-21'
 name: Wiliot
 nav: Providers
@@ -143,7 +143,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 23.7
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -153,12 +153,12 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 26.8
+  previous_composite: 23.7
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

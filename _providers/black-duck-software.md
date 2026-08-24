@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -150,9 +150,9 @@ description: Black Duck Software is an independent application security company 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/black-duck-software.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: black-duck-software-mcp.yml
-  slug: black-duck-software-mcpyml
+- description: Black Duck Signal connects with popular AI coding assistants (Claude Code, Google Gemini, GitHub Copilot) via the Model Context Protocol so developers can run Black Duck security scans and query SCA/K
+  name: Black Duck Signal
+  slug: black-duck-signal
 modified: '2026-07-18'
 name: Black Duck Software
 nav: Providers
@@ -165,7 +165,7 @@ random_paper: 7
 score:
   band: thin
   composite: 36.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -175,12 +175,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 36.6
+  previous_composite: 36.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-duck-software/refs/heads/main/screenshots/black-duck-software-2026-07-25T203232.png
 security:

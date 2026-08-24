@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 6
 common:
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.7
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -140,11 +140,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 22.0
+  previous_composite: 21.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adelphic-mobile/refs/heads/main/screenshots/adelphic-mobile-2026-07-25T181622.png
 security:
@@ -171,7 +171,7 @@ tags:
 - Advertising
 - AdTech
 - Programmatic Advertising
-- Demand Side Platform
+- Demand-Side Platform
 - DSP
 - Marketing
 - Connected TV

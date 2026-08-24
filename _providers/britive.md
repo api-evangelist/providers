@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 79
 apis:
 - description: The Britive Secret Manager API covers the Britive vault and secrets lifecycle — vault initialization, static and file secrets, secret versions, secret metadata, password policies, secret templates and
@@ -632,9 +632,9 @@ description: 'Britive is a runtime privileged access management (PAM) platform t
 image: https://images.prismic.io/britive/ajXRGI1P9HI4UwTa_BritiveRuntimePrivilegedAccessManagementforforAgenticAI%2CNHI%26Humans.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: britive-mcp.yml
-  slug: britive-mcpyml
+- description: 'Britive ships a first-party Model Context Protocol server that lets AI agents and MCP clients (Claude Desktop, VS Code Copilot) drive the Britive platform: request just-in-time privileged access, chec'
+  name: Britive MCP Server
+  slug: britive-mcp-server
 modified: '2026-08-08'
 name: Britive
 nav: Providers
@@ -654,18 +654,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.3
-  delta: 1.7
+  composite: 49.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
     contract_quality: 58.8
     developer_ergonomics: 73.2
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 45.6
+  previous_composite: 49.1
   provenance:
     conformance: derived
     contracts:
@@ -675,8 +675,8 @@ score:
       total: 78
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/screenshots/britive-2026-08-17T080708.png
 security:
@@ -695,7 +695,7 @@ tags:
 - Identity and Access Management
 - Cloud Security
 - Zero Standing Privileges
-- Just-in-Time Access
+- Just-In-Time Access
 - Non-Human Identity
 - Secrets Management
 - Agentic AI

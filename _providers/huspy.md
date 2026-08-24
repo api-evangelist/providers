@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-19'
 name: huspy
 nav: Providers
 network: true
-overview: 'huspy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Real Estate, PropTech, and FinTech.
+overview: 'huspy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Real-Estate, PropTech, and Fintech.
 
 
   huspy''s developer surface includes engineering blog and 4 more developer resources.'
@@ -79,8 +79,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huspy/refs/heads/main/screenshots/huspy-2026-07-25T221744.png
 security:
@@ -92,9 +92,9 @@ slug: huspy
 tags:
 - Company
 - Mortgage
-- Real Estate
+- Real-Estate
 - PropTech
-- FinTech
+- Fintech
 - Lending
 - UAE
 - Dubai

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -203,13 +203,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: UNS-MCP
-  slug: uns-mcp
+  name: Unstructured MCP Server
+  slug: unstructured-mcp-server
 modified: '2026-06-12'
 name: Unstructured
 nav: Providers
 network: true
-overview: 'Unstructured publishes 9 APIs on the [APIs.io](https://apis.io/) network, including channels API, destinations API, general API, and 6 more. Tagged areas include document-processing, ETL, RAG, LLM, and PDF.
+overview: 'Unstructured publishes 9 APIs on the [APIs.io](https://apis.io/) network, including channels API, destinations API, general API, and 6 more. Tagged areas include Document Processing, ETL, RAG, LLM, and PDF.
 
 
   The Unstructured catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -239,7 +239,7 @@ rules:
 score:
   band: developing
   composite: 46.1
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -249,7 +249,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 54.6
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -257,9 +257,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/screenshots/unstructured-2026-06-20T200434.png
 security:
 - kind: authentication
@@ -276,15 +276,15 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: unstructured
 tags:
-- document-processing
+- Document Processing
 - ETL
 - RAG
 - LLM
 - PDF
 - OCR
-- data-ingestion
-- chunking
-- embeddings
-- AI
+- Data Ingestion
+- Chunking
+- Embeddings
+- Artificial Intelligence
 website: https://unstructured.io
 ---

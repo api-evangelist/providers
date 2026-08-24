@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -3744,18 +3744,18 @@ rules:
   slug: amazon-healthomics-spectral-rules
 score:
   band: strong
-  composite: 59.8
-  delta: 1.5
+  composite: 60.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 72.1
     developer_ergonomics: 61.9
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 58.3
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     contracts:
@@ -3769,8 +3769,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/screenshots/amazon-healthomics-2026-07-25T200010.png
 security:

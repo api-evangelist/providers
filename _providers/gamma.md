@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic creation and management of gammas (presentations, documents, websites, and social posts). Asynchronous generate-and-poll workflow plus template, export, management, and analytics endpoint
@@ -107,11 +107,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gamma.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: gamma-mcp.yml
-  slug: gamma-mcpyml
+  name: Gamma MCP Server
+  slug: gamma-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Gamma MCP Server
+  slug: gamma-mcp-server-2
 modified: '2026-07-19'
 name: Gamma
 nav: Providers
@@ -133,7 +133,7 @@ scopes:
 score:
   band: thin
   composite: 30.8
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -143,12 +143,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 33.5
+  previous_composite: 30.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/screenshots/gamma-2026-07-25T215428.png
 security:

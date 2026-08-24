@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -434,13 +434,13 @@ image: https://www.soldo.com/wp-content/uploads/2023/11/home-page-soldo-hero-sma
 layout: provider
 mcp_servers:
 - description: ''
-  name: soldo-mcp.yml
-  slug: soldo-mcpyml
+  name: Soldo MCP Server
+  slug: soldo-mcp-server
 modified: '2026-07-21'
 name: Soldo
 nav: Providers
 network: true
-overview: 'Soldo publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Accounting Classification API, Addresses API, Authentication API, and 43 more. Tagged areas include Company, Consumer, Fintech, Financial Services, and Spend Management.
+overview: 'Soldo publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Accounting Classification API, Addresses API, Authentication API, and 43 more. Tagged areas include Company, Consumer, Fintech, Financial-Services, and Spend Management.
 
 
   The Soldo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -456,7 +456,7 @@ scopes:
 score:
   band: developing
   composite: 52.3
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -466,7 +466,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 51.8
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -483,8 +483,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/screenshots/soldo-2026-08-17T081954.png
 security:
@@ -501,7 +501,7 @@ tags:
 - Company
 - Consumer
 - Fintech
-- Financial Services
+- Financial-Services
 - Spend Management
 - Expense Management
 - Business Cards

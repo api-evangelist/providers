@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Fashion Style Classification API detects and categorizes clothing items from images, including shirts, pants, dresses, and accessories, and produces stylistic labels suitable for personal styling,
@@ -70,7 +70,7 @@ modified: '2026-04-23'
 name: Classif.io
 nav: Providers
 network: true
-overview: 'Classif.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Classification, Computer Vision, Fashion, and Image Recognition.
+overview: 'Classif.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Classification, Computer-Vision, Fashion, and Image Recognition.
 
 
   The Classif.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -101,7 +101,7 @@ rules:
 score:
   band: emerging
   composite: 19.4
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -111,18 +111,18 @@ score:
     discoverability: 59.3
     governance: 45.5
     operational_transparency: 7.9
-  previous_composite: 17.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: classif-io
 tags:
 - Apparel
 - Classification
-- Computer Vision
+- Computer-Vision
 - Fashion
 - Image Recognition
-- Machine Learning
+- Machine-Learning
 - Recommendation
 website: https://www.classif.io/
 ---

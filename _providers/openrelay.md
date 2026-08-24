@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 19
 apis:
 - description: 'OpenAI-compatible chat completions API (POST /v1/chat/completions) and, for supporting models, an Anthropic-compatible Messages API (POST /v1/messages). Drop-in: point the official OpenAI SDKs at the '
@@ -282,14 +282,14 @@ description: 'OpenRelay is a Y Combinator-backed distributed GPU cloud for produ
 image: https://openrelay.inc/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: openrelay-mcp.yml
-  slug: openrelay-mcpyml
+- description: 'Official Model Context Protocol server shipped inside the OpenRelay CLI (orl). It exposes the entire OpenRelay control-plane REST API to Claude and other MCP clients as tools, executing "as you" with '
+  name: OpenRelay MCP Server
+  slug: openrelay-mcp-server
 modified: '2026-07-20'
 name: OpenRelay
 nav: Providers
 network: true
-overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Batches API, and 15 more. Tagged areas include Company, GPU, Inference, AI, and Machine Learning.
+overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Batches API, and 15 more. Tagged areas include Company, GPU, Inference, Artificial Intelligence, and Machine-Learning.
 
 
   The OpenRelay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -300,7 +300,7 @@ random_paper: 9
 score:
   band: developing
   composite: 51.2
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -310,7 +310,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 56.7
+  previous_composite: 51.2
   provenance:
     conformance: derived
     contracts:
@@ -320,9 +320,9 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/screenshots/openrelay-2026-08-07T190635.png
 security:
 - kind: authentication
@@ -342,8 +342,8 @@ tags:
 - Company
 - GPU
 - Inference
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Cloud Compute
 - Infrastructure
 - OpenAI-Compatible

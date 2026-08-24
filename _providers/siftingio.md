@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -284,11 +284,11 @@ image: https://sifting.io/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: siftingio-mcp.yml
-  slug: siftingio-mcpyml
+  name: SiftingIO MCP Server
+  slug: siftingio-mcp-server
+- description: 'SiftingIO market data: live crypto/forex/metals prices, OHLCV bars, SEC fundamentals, 13F data. Returns the same normalized shapes as the REST API, with structuredContent alongside the text on the sna'
+  name: SiftingIO MCP Server
+  slug: siftingio-mcp-server-2
 modified: '2026-08-17'
 name: SiftingIO
 nav: Providers
@@ -312,6 +312,7 @@ rate_limits:
 score:
   band: strong
   composite: 66.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -321,6 +322,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 57.9
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,8 +339,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Siftingio Authentication
@@ -356,25 +359,21 @@ tags:
 - Cryptocurrency
 - DeFi/on-chain
 - Commodities
-- SEC filings
+- SEC Filings
 - XBRL
 - Fundamentals
 - Fintech
 - Quant/trading infrastructure
-- Real-time streaming
+- Real-Time Streaming
 - WebSocket
 - FIX
-- financial data
-- market data
-- stocks
-- forex
-- cryptocurrency
+- Financial Data
+- Market Data
+- Stocks
 - DeFi
-- commodities
-- real-time
-- websocket
+- Real-Time
 - REST API
-- MCP server
+- MCP Server
 - agent-native
 website: https://sifting.io
 ---

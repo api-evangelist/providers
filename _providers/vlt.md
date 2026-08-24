@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: npm-compatible package registry API implemented by vsr, vlt's serverless registry. Exposes package publish/install endpoints (packuments, tarballs, dist-tags), user and token management, granular acce
@@ -186,7 +186,7 @@ random_paper: 6
 score:
   band: developing
   composite: 44.1
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -196,11 +196,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 42.8
+  previous_composite: 44.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/screenshots/vlt-2026-08-17T082814.png
 security:
@@ -227,6 +227,6 @@ tags:
 - Serverless
 - npm
 - Dependency Management
-- Open Source
+- Open-Source
 website: https://www.vlt.io/
 ---

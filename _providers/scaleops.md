@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The ScaleOps Platform API provides programmatic access to Kubernetes cost optimization features including workload resource recommendations, real-time optimization controls, cost monitoring dashboards
@@ -136,7 +136,7 @@ rules:
 score:
   band: emerging
   composite: 20.2
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -146,10 +146,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 20.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scaleops/refs/heads/main/screenshots/scaleops-2026-06-20T193510.png
 security:
 - kind: domain-security

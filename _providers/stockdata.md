@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -249,8 +249,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: stockdata-mcp.yml
-  slug: stockdata-mcpyml
+  name: StockData MCP Server
+  slug: stockdata-mcp-server
 modified: '2026-07-22'
 name: StockData
 nav: Providers
@@ -295,18 +295,18 @@ rules:
   slug: stockdata-rules
 score:
   band: strong
-  composite: 63.4
-  delta: -1.0
+  composite: 63.9
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 63.6
     developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 31.6
-  previous_composite: 64.4
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,8 +323,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
 security:

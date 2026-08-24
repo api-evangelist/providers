@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: Discussion entries on projects, tasks, and goals.
@@ -226,8 +226,8 @@ image: https://cdn.prod.website-files.com/639cbe2ae16424db11366965/68c4925a9be35
 layout: provider
 mcp_servers:
 - description: ''
-  name: coordinate-mcp.yml
-  slug: coordinate-mcpyml
+  name: Coordinate MCP Server
+  slug: coordinate-mcp-server
 modified: '2026-07-18'
 name: Coordinate
 nav: Providers
@@ -243,7 +243,7 @@ random_paper: 14
 score:
   band: developing
   composite: 45.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -253,7 +253,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 45.3
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -263,8 +263,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png
 security:
@@ -284,8 +284,8 @@ tags:
 - Client Portal
 - Client Onboarding
 - Professional Services
-- Workflow Automation
+- Workflow-Automation
 - Collaboration
-- Webhooks
+- Webhook
 website: https://coordinatehq.com/
 ---

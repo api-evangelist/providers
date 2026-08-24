@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 16.5
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -106,15 +106,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.4
+  previous_composite: 16.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eola/refs/heads/main/screenshots/eola-2026-07-25T213500.png
 security:
@@ -129,10 +129,10 @@ tags:
 - Reservations
 - Activities
 - Leisure
-- Experiences
+- Experience
 - Tours
 - Watersports
 - Payments
-- SaaS
+- Software-as-a-Service
 website: https://eola.co/
 ---

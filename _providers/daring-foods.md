@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -248,13 +248,13 @@ image: https://daring.com/wp-content/uploads/2023/06/cropped-favicon-6oi8ii-5-19
 layout: provider
 mcp_servers:
 - description: ''
-  name: daring-foods-mcp.yml
-  slug: daring-foods-mcpyml
+  name: Daring Foods MCP Server
+  slug: daring-foods-mcp-server
 modified: '2026-08-04'
 name: Daring Foods
 nav: Providers
 network: true
-overview: 'Daring Foods publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Recipes API, Retail Products API, Foodservice Products API, and 11 more. Tagged areas include Company, Food, Consumer Packaged Goods, Plant Based, and Alternative Protein.
+overview: 'Daring Foods publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Recipes API, Retail Products API, Foodservice Products API, and 11 more. Tagged areas include Company, Food, Consumer Packaged Goods, Plant-Based, and Alternative Protein.
 
 
   Daring Foods'' developer surface includes support, FAQ, authentication, code examples, and 24 more developer resources.'
@@ -262,7 +262,7 @@ random_paper: 16
 score:
   band: developing
   composite: 39.4
-  delta: 6.8
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -272,7 +272,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 32.6
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,9 +283,9 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png
 security:
 - kind: authentication
@@ -301,11 +301,11 @@ tags:
 - Company
 - Food
 - Consumer Packaged Goods
-- Plant Based
+- Plant-Based
 - Alternative Protein
 - Food and Beverage
 - Recipes
-- Foodservice
+- Food Service
 - Grocery
 - Content
 website: https://daring.com/

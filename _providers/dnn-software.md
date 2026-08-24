@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-18'
 name: DNN Software
 nav: Providers
 network: true
-overview: 'DNN Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, CMS, Content Management, and Open Source.
+overview: 'DNN Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, CMS, Content Management, and Open-Source.
 
 
   DNN Software''s developer surface includes documentation and 12 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 11.1
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,9 +110,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 11.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnn-software/refs/heads/main/screenshots/dnn-software-2026-07-25T212155.png
 security:
@@ -123,10 +123,10 @@ security:
 slug: dnn-software
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - CMS
 - Content Management
-- Open Source
+- Open-Source
 - ASP.NET
 - .NET
 - Web Framework

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-19'
 name: Finrep
 nav: Providers
 network: true
-overview: 'Finrep is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Financial Reporting, SEC Filings, and Accounting.
+overview: 'Finrep is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Reporting, SEC Filings, and Accounting.
 
 
   Finrep''s developer surface includes documentation, engineering blog, pricing, signup flow, and 9 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 17.1
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -110,15 +110,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 17.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 31.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finrep/refs/heads/main/screenshots/finrep-2026-07-25T214541.png
 security:
@@ -133,7 +133,7 @@ security:
 slug: finrep
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Financial Reporting
 - SEC Filings
 - Accounting

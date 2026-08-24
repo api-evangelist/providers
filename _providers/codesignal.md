@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Primary GraphQL API for companies, tests, test sessions, live interviews, and interview templates. Authenticated with an API key.
@@ -179,9 +179,9 @@ description: CodeSignal is a technical interview and skills-assessment platform 
 image: https://codesignal.com/wp-content/uploads/2022/12/codesignal-fallbck.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: codesignal-mcp.yml
-  slug: codesignal-mcpyml
+- description: Official remote MCP server that lets AI agents work with CodeSignal assessments, candidate test sessions, and live interviews.
+  name: Codesignal MCP Server
+  slug: codesignal-mcp-server
 modified: '2026-07-18'
 name: Codesignal
 nav: Providers
@@ -201,18 +201,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 54.9
-  delta: 4.5
+  composite: 56.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 16.7
     contract_quality: 55.9
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 50.4
+  previous_composite: 56.0
   provenance:
     conformance: derived
     contracts:
@@ -228,8 +228,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/screenshots/codesignal-2026-07-25T205933.png
 security:
@@ -260,6 +260,6 @@ tags:
 - Assessment
 - Education
 - GraphQL
-- Webhooks
+- Webhook
 website: https://codesignal.com
 ---

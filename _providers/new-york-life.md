@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,12 +56,12 @@ modified: '2026-05-16'
 name: New York Life
 nav: Providers
 network: true
-overview: New York Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, Life Insurance, Wealth Management, and Fortune 100.
+overview: New York Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial-Services, Life Insurance, Wealth Management, and Fortune 100.
 random_paper: 8
 score:
   band: minimal
   composite: 2.3
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -71,15 +71,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.6
+  previous_composite: 2.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-life/refs/heads/main/screenshots/new-york-life-2026-06-20T190227.png
 security:
@@ -90,7 +90,7 @@ security:
 slug: new-york-life
 tags:
 - Insurance
-- Financial Services
+- Financial-Services
 - Life Insurance
 - Wealth Management
 - Fortune 100

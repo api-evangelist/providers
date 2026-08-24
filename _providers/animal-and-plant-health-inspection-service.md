@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The APHIS Public Search Tool provides public access to search APHIS program data, permits, and regulatory information related to animal and plant health programs.
@@ -114,7 +114,7 @@ modified: '2026-04-19'
 name: Animal and Plant Health Inspection Service
 nav: Providers
 network: true
-overview: 'Animal and Plant Health Inspection Service publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Animal Health, Animal Welfare, Biotechnology, and Federal Government.
+overview: 'Animal and Plant Health Inspection Service publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Animal Health, Animal Welfare, Biotechnology, and Federal-Government.
 
 
   Animal and Plant Health Inspection Service''s developer surface includes developer portal and 13 more developer resources.'
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -146,15 +146,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 15.9
+  previous_composite: 15.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/animal-and-plant-health-inspection-service/refs/heads/main/screenshots/animal-and-plant-health-inspection-service-2026-06-20T172003.png
 security:
@@ -168,7 +168,7 @@ tags:
 - Animal Health
 - Animal Welfare
 - Biotechnology
-- Federal Government
+- Federal-Government
 - Import Export
 - Permits
 - Pest Control

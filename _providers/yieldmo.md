@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: JavaScript SDK providing publisher-side API methods for managing ad placements and requesting page views in single-page applications and infinite scroll implementations. Enables dynamic ad loading wit
@@ -184,8 +184,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: yieldmo-mcp.yml
-  slug: yieldmo-mcpyml
+  name: Yieldmo MCP Server
+  slug: yieldmo-mcp-server
 modified: '2026-08-12'
 name: Yieldmo
 nav: Providers
@@ -214,7 +214,7 @@ scopes:
 score:
   band: thin
   composite: 34.6
-  delta: -14.3
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -224,14 +224,14 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 48.9
+  previous_composite: 34.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/screenshots/yieldmo-2026-06-20T201742.png
 security:
 - kind: authentication
@@ -252,7 +252,7 @@ tags:
 - Header Bidding
 - Contextual Targeting
 - Ad Formats
-- Supply-Side Platform
+- Supply Side Platform
 - SSP
 - Campaign Reporting
 - Attention Analytics

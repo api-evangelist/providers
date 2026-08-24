@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,9 +85,9 @@ description: Beep (Just Beep It!) is a visual feedback and web collaboration pla
 image: https://static.wixstatic.com/media/40f9cb_6f4f76340b2b4f9d93a0e87d1d6913d6~mv2.png/v1/fill/w_1152,h_648,al_c/40f9cb_6f4f76340b2b4f9d93a0e87d1d6913d6~mv2.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: beep-mcp.yml
-  slug: beep-mcpyml
+- description: Wix Site MCP endpoint for justbeepit.com. A hosted, unauthenticated Model Context Protocol server exposing this Wix-powered site's live business details, search, and Wix business-solution APIs to AI a
+  name: Beep MCP Server
+  slug: beep-mcp-server
 modified: '2026-07-18'
 name: Beep
 nav: Providers
@@ -100,7 +100,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 15.5
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -110,11 +110,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.4
+  previous_composite: 15.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beep/refs/heads/main/screenshots/beep-2026-07-25T202635.png
 security:

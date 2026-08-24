@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the Universal Commerce Protocol (UCP) on the Nara Organics Shopify storefront — catalog search, cart, and buyer-approved checkout via a published MCP endpoint, plus an unaut
@@ -99,8 +99,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nara-organ
 layout: provider
 mcp_servers:
 - description: ''
-  name: nara-organics-mcp.yml
-  slug: nara-organics-mcpyml
+  name: Nara Organics MCP Server
+  slug: nara-organics-mcp-server
 modified: '2026-07-20'
 name: Nara Organics
 nav: Providers
@@ -117,24 +117,24 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 18.1
-  delta: -1.0
+  composite: 19.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 19.1
+  previous_composite: 19.2
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/screenshots/nara-organics-2026-08-07T184631.png
 security:

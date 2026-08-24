@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The SoftwareOne Marketplace Platform API provides programmatic access to the marketplace catalog, enabling clients and partners to browse products, manage subscriptions, track orders, and access billi
@@ -152,7 +152,7 @@ modified: '2026-05-02'
 name: SoftwareOne
 nav: Providers
 network: true
-overview: 'SoftwareOne publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Items API, Listings API, Media API, and 2 more. Tagged areas include Marketplace, Software Procurement, Cloud Management, License Management, and SaaS.
+overview: 'SoftwareOne publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Items API, Listings API, Media API, and 2 more. Tagged areas include Marketplace, Software Procurement, Cloud Management, License Management, and Software-as-a-Service.
 
 
   The SoftwareOne catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -182,7 +182,7 @@ rules:
 score:
   band: thin
   composite: 31.4
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -192,16 +192,16 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 37.5
+  previous_composite: 31.4
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/screenshots/softwareone-2026-06-20T194144.png
 security:
 - kind: domain-security
@@ -214,6 +214,6 @@ tags:
 - Software Procurement
 - Cloud Management
 - License Management
-- SaaS
+- Software-as-a-Service
 website: https://www.softwareone.com/
 ---

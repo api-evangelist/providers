@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Public REST API on appws.picpay.com that lets merchants charge a PicPay user's wallet from an ecommerce checkout. Creates a payment with a referenceId, returns a payment URL plus a QR code for the buy
@@ -186,7 +186,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 14.5
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -196,16 +196,16 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 19.6
+  previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picpay/refs/heads/main/screenshots/picpay-2026-06-20T191659.png
 security:
 - kind: domain-security
@@ -219,8 +219,8 @@ tags:
 - Digital Bank
 - Neobank
 - Fintech
-- PIX
-- Ecommerce
+- Pix
+- E-Commerce
 - Checkout
 - Credit Card
 - Loans

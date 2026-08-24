@@ -26,7 +26,7 @@ slug: authors-md
 tags:
 - Attribution
 - Documentation
-- Open Source
+- Open-Source
 - Repository
 - File Format
 - Contributor Management

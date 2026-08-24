@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,7 +97,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 11.3
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -107,7 +107,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 12.3
+  previous_composite: 11.3
   provenance:
     conformance: first-party
   regulatory:
@@ -116,8 +116,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autogrid/refs/heads/main/screenshots/autogrid-2026-08-07T161954.png
 security:

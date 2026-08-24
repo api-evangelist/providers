@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Card-linking REST API — programs, cards, transactions, brands, locations, offers and webhooks. Enroll Visa/Mastercard/Amex cards via PCI-compliant SDKs and receive enriched real-time transactions over
@@ -153,7 +153,7 @@ modified: '2026-07-19'
 name: Fidel
 nav: Providers
 network: true
-overview: 'Fidel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Card Linking, Transactions, and Fintech.
+overview: 'Fidel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Card Linking, Transaction, and Fintech.
 
 
   The Fidel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -164,7 +164,7 @@ random_paper: 12
 score:
   band: developing
   composite: 43.1
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -174,7 +174,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 48.9
+  previous_composite: 43.1
   provenance:
     conformance: first-party
   regulatory:
@@ -183,9 +183,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/screenshots/fidel-2026-07-25T214420.png
 security:
 - kind: authentication
@@ -201,12 +201,12 @@ tags:
 - Company
 - Payments
 - Card Linking
-- Transactions
+- Transaction
 - Fintech
 - Embedded Finance
 - Loyalty
 - Rewards
-- Webhooks
-- SDKs
+- Webhook
+- SDK
 website: https://fidelapi.com
 ---

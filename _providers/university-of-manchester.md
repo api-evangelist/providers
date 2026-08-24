@@ -1,13 +1,13 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · No registration (institution-operated surfaces)
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
   - authentication
+  - probe
   trial: false
   try_now: true
 agent_readiness:
@@ -19,258 +19,140 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.9
-  scored_at: '2026-08-19'
+  score: 35.0
+  scored_at: '2026-08-24'
 agentic_access:
-- acting_count: 271
-  human_in_the_loop: 1
+- acting_count: 0
+  human_in_the_loop: 0
   name: University Of Manchester Agentic Access
-  operation_count: 951
+  operation_count: 4
   slug: university-of-manchester-agentic-access
-  summary_line: 951 operations · 271 acting · 1 human-in-the-loop
-api_count: 40
+  summary_line: 4 operations
+api_count: 5
 apis:
-- description: Live OAI-PMH 2.0 metadata harvesting endpoint for the University of Manchester's Pure-based institutional repository / Current Research Information System (CRIS). The Identify response confirms a "Pur
-  name: Research Explorer OAI-PMH (Pure)
-  slug: pure-oai-pmh
-- description: Public Pure portal exposing the University of Manchester's researcher profiles, research outputs, projects, research units, impacts and theses. It is a discovery front end over the Pure CRIS rather th
-  name: Research Explorer Portal
-  slug: research-explorer
-- description: The University of Manchester uses Figshare as its institutional research data repository for depositing and openly publishing research datasets. Figshare exposes a public, documented REST API; Manches
-  name: Research Data Repository (Figshare)
-  slug: figshare
-- description: The University of Manchester provides federated authentication via a Shibboleth SAML2 Identity Provider at shib.manchester.ac.uk, participating in the Jisc UK Access Management Federation. This is ins
-  name: Shibboleth SAML Identity (SSO)
-  slug: shibboleth-sso
-- description: The activity API from University of Manchester — 39 operation(s) for activity.
-  name: University of Manchester activity API
-  slug: university-of-manchester-activity-api
-- description: The application API from University of Manchester — 36 operation(s) for application.
-  name: University of Manchester application API
-  slug: university-of-manchester-application-api
-- description: The authorCollaboration API from University of Manchester — 9 operation(s) for authorcollaboration.
-  name: University of Manchester authorCollaboration API
-  slug: university-of-manchester-authorcollaboration-api
-- description: The award API from University of Manchester — 37 operation(s) for award.
-  name: University of Manchester award API
-  slug: university-of-manchester-award-api
-- description: The classificationScheme API from University of Manchester — 7 operation(s) for classificationscheme.
-  name: University of Manchester classificationScheme API
-  slug: university-of-manchester-classificationscheme-api
-- description: The concept API from University of Manchester — 4 operation(s) for concept.
-  name: University of Manchester concept API
-  slug: university-of-manchester-concept-api
-- description: The contract API from University of Manchester — 26 operation(s) for contract.
-  name: University of Manchester contract API
-  slug: university-of-manchester-contract-api
-- description: The course API from University of Manchester — 27 operation(s) for course.
-  name: University of Manchester course API
-  slug: university-of-manchester-course-api
-- description: The dataSet API from University of Manchester — 30 operation(s) for dataset.
-  name: University of Manchester dataSet API
-  slug: university-of-manchester-dataset-api
-- description: The education API from University of Manchester — 14 operation(s) for education.
-  name: University of Manchester education API
-  slug: university-of-manchester-education-api
-- description: The equipment API from University of Manchester — 28 operation(s) for equipment.
-  name: University of Manchester equipment API
-  slug: university-of-manchester-equipment-api
-- description: The ethicalReview API from University of Manchester — 22 operation(s) for ethicalreview.
-  name: University of Manchester ethicalReview API
-  slug: university-of-manchester-ethicalreview-api
-- description: The event API from University of Manchester — 22 operation(s) for event.
-  name: University of Manchester event API
-  slug: university-of-manchester-event-api
-- description: The externalOrganization API from University of Manchester — 29 operation(s) for externalorganization.
-  name: University of Manchester externalOrganization API
-  slug: university-of-manchester-externalorganization-api
-- description: The externalPerson API from University of Manchester — 22 operation(s) for externalperson.
-  name: University of Manchester externalPerson API
-  slug: university-of-manchester-externalperson-api
-- description: The fingerprint API from University of Manchester — 3 operation(s) for fingerprint.
-  name: University of Manchester fingerprint API
-  slug: university-of-manchester-fingerprint-api
-- description: The fundingOpportunity API from University of Manchester — 21 operation(s) for fundingopportunity.
-  name: University of Manchester fundingOpportunity API
-  slug: university-of-manchester-fundingopportunity-api
-- description: The impact API from University of Manchester — 31 operation(s) for impact.
-  name: University of Manchester impact API
-  slug: university-of-manchester-impact-api
-- description: The journal API from University of Manchester — 22 operation(s) for journal.
-  name: University of Manchester journal API
-  slug: university-of-manchester-journal-api
-- description: The keywordGroupConfiguration API from University of Manchester — 7 operation(s) for keywordgroupconfiguration.
-  name: University of Manchester keywordGroupConfiguration API
-  slug: university-of-manchester-keywordgroupconfiguration-api
-- description: The milestone API from University of Manchester — 24 operation(s) for milestone.
-  name: University of Manchester milestone API
-  slug: university-of-manchester-milestone-api
-- description: The organization API from University of Manchester — 34 operation(s) for organization.
-  name: University of Manchester organization API
-  slug: university-of-manchester-organization-api
-- description: The person API from University of Manchester — 58 operation(s) for person.
-  name: University of Manchester person API
-  slug: university-of-manchester-person-api
-- description: The personExpertise API from University of Manchester — 7 operation(s) for personexpertise.
-  name: University of Manchester personExpertise API
-  slug: university-of-manchester-personexpertise-api
-- description: The pressMedia API from University of Manchester — 24 operation(s) for pressmedia.
-  name: University of Manchester pressMedia API
-  slug: university-of-manchester-pressmedia-api
-- description: The prize API from University of Manchester — 29 operation(s) for prize.
-  name: University of Manchester prize API
-  slug: university-of-manchester-prize-api
-- description: The project API from University of Manchester — 33 operation(s) for project.
-  name: University of Manchester project API
-  slug: university-of-manchester-project-api
-- description: The publisher API from University of Manchester — 18 operation(s) for publisher.
-  name: University of Manchester publisher API
-  slug: university-of-manchester-publisher-api
-- description: The researchOutput API from University of Manchester — 67 operation(s) for researchoutput.
-  name: University of Manchester researchOutput API
-  slug: university-of-manchester-researchoutput-api
-- description: The role API from University of Manchester — 2 operation(s) for role.
-  name: University of Manchester role API
-  slug: university-of-manchester-role-api
-- description: The semester API from University of Manchester — 8 operation(s) for semester.
-  name: University of Manchester semester API
-  slug: university-of-manchester-semester-api
-- description: The specialization API from University of Manchester — 8 operation(s) for specialization.
-  name: University of Manchester specialization API
-  slug: university-of-manchester-specialization-api
-- description: The studentProject API from University of Manchester — 26 operation(s) for studentproject.
-  name: University of Manchester studentProject API
-  slug: university-of-manchester-studentproject-api
-- description: The studentThesis API from University of Manchester — 26 operation(s) for studentthesis.
-  name: University of Manchester studentThesis API
-  slug: university-of-manchester-studentthesis-api
-- description: The thesaurus API from University of Manchester — 5 operation(s) for thesaurus.
-  name: University of Manchester thesaurus API
-  slug: university-of-manchester-thesaurus-api
-- description: The user API from University of Manchester — 7 operation(s) for user.
-  name: University of Manchester user API
-  slug: university-of-manchester-user-api
-artifact_total: 97
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure activity API
-  slug: open-university-of-manchester-activity-api
-- collection_type: open
-  name: Pure activity application API
-  slug: open-university-of-manchester-application-api
-- collection_type: open
-  name: Pure activity authorCollaboration API
-  slug: open-university-of-manchester-authorcollaboration-api
-- collection_type: open
-  name: Pure activity award API
-  slug: open-university-of-manchester-award-api
-- collection_type: open
-  name: Pure activity classificationScheme API
-  slug: open-university-of-manchester-classificationscheme-api
-- collection_type: open
-  name: Pure activity concept API
-  slug: open-university-of-manchester-concept-api
-- collection_type: open
-  name: Pure activity contract API
-  slug: open-university-of-manchester-contract-api
-- collection_type: open
-  name: Pure activity course API
-  slug: open-university-of-manchester-course-api
-- collection_type: open
-  name: Pure activity dataSet API
-  slug: open-university-of-manchester-dataset-api
-- collection_type: open
-  name: Pure activity education API
-  slug: open-university-of-manchester-education-api
-- collection_type: open
-  name: Pure activity equipment API
-  slug: open-university-of-manchester-equipment-api
-- collection_type: open
-  name: Pure activity event API
-  slug: open-university-of-manchester-event-api
-- collection_type: open
-  name: Pure activity externalOrganization API
-  slug: open-university-of-manchester-externalorganization-api
-- collection_type: open
-  name: Pure activity externalPerson API
-  slug: open-university-of-manchester-externalperson-api
-- collection_type: open
-  name: Pure activity fingerprint API
-  slug: open-university-of-manchester-fingerprint-api
-- collection_type: open
-  name: Pure activity fundingOpportunity API
-  slug: open-university-of-manchester-fundingopportunity-api
-- collection_type: open
-  name: Pure activity impact API
-  slug: open-university-of-manchester-impact-api
-- collection_type: open
-  name: Pure activity journal API
-  slug: open-university-of-manchester-journal-api
-- collection_type: open
-  name: Pure activity keywordGroupConfiguration API
-  slug: open-university-of-manchester-keywordgroupconfiguration-api
-- collection_type: open
-  name: Pure activity milestone API
-  slug: open-university-of-manchester-milestone-api
-- collection_type: open
-  name: Pure activity organization API
-  slug: open-university-of-manchester-organization-api
-- collection_type: open
-  name: Pure activity person API
-  slug: open-university-of-manchester-person-api
-- collection_type: open
-  name: Pure activity personExpertise API
-  slug: open-university-of-manchester-personexpertise-api
-- collection_type: open
-  name: Pure activity pressMedia API
-  slug: open-university-of-manchester-pressmedia-api
-- collection_type: open
-  name: Pure activity prize API
-  slug: open-university-of-manchester-prize-api
-- collection_type: open
-  name: Pure activity project API
-  slug: open-university-of-manchester-project-api
-- collection_type: open
-  name: Pure activity publisher API
-  slug: open-university-of-manchester-publisher-api
-- collection_type: open
-  name: Pure activity researchOutput API
-  slug: open-university-of-manchester-researchoutput-api
-- collection_type: open
-  name: Pure activity role API
-  slug: open-university-of-manchester-role-api
-- collection_type: open
-  name: Pure activity semester API
-  slug: open-university-of-manchester-semester-api
-- collection_type: open
-  name: Pure activity specialization API
-  slug: open-university-of-manchester-specialization-api
-- collection_type: open
-  name: Pure activity studentProject API
-  slug: open-university-of-manchester-studentproject-api
-- collection_type: open
-  name: Pure activity studentThesis API
-  slug: open-university-of-manchester-studentthesis-api
-- collection_type: open
-  name: Pure activity thesaurus API
-  slug: open-university-of-manchester-thesaurus-api
-- collection_type: open
-  name: Pure activity user API
-  slug: open-university-of-manchester-user-api
+- description: 'IIIF Presentation API 2.1 over the University of Manchester Library''s digitised manuscripts, archives and rare books. Serves sc:Manifest documents at /iiif/{documentId} and sc:Collection documents at '
+  name: Manchester Digital Collections — IIIF Presentation API
+  slug: iiif-presentation-api
+- description: 'IIIF Image API 2.0 at compliance level 1, serving regions, scaled derivatives, rotations and quality variants of the Library''s digitised page images. Self-describes through info.json: formats [jpg]; q'
+  name: Manchester Digital Collections — IIIF Image API
+  slug: iiif-image-api
+- description: The University's own Shibboleth Identity Provider, entityID https://shib.manchester.ac.uk/shibboleth, asserting the scope manchester.ac.uk. Its entity descriptor is published as signed, machine-readab
+  name: Shibboleth SAML Identity Provider (UK Access Management Federation)
+  slug: shibboleth-saml-idp
+- description: The University's tenancy of Elsevier Pure, its Current Research Information System, reached at pure.manchester.ac.uk and surfaced publicly as Research Explorer at research.manchester.ac.uk. Both hostn
+  name: Elsevier Pure CRIS tenancy (REST + OAI-PMH)
+  slug: pure-cris-tenancy
+- description: The University's institutional research data repository, presented at figshare.manchester.ac.uk, which CNAMEs to figshare.com. Manchester's researchers deposit here and the deposits carry Manchester's
+  name: Figshare research data repository tenancy
+  slug: figshare-tenancy
+artifact_total: 18
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.manchester.ac.uk/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.manchester.ac.uk/rss
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.manchester.ac.uk/connect/contact-us/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.manchester.ac.uk/disclaimer/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.manchester.ac.uk/about/privacy-information/data-protection/
+- group: other
+  title: ''
+  type: Copyright
+  url: https://www.manchester.ac.uk/copyright/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/the-university-of-manchester/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/University-of-Manchester
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/UoMResearchIT
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.library.manchester.ac.uk/
+- group: build
+  title: ''
+  type: DigitalCollections
+  url: https://www.digitalcollections.manchester.ac.uk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research.manchester.ac.uk/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.manchester.ac.uk/study/undergraduate/courses/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://research-it.manchester.ac.uk/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.staffnet.manchester.ac.uk/ai-hub/ai-guidelines-and-policies/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.staffnet.manchester.ac.uk/ai-hub/tools-and-resources/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/university-of-manchester-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-manchester-conformance.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/university-of-manchester-errors.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/university-of-manchester-lifecycle.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/university-of-manchester-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/university-of-manchester-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/university-of-manchester-context.jsonld
 - group: agent
   title: ''
   type: AgenticAccess
@@ -279,30 +161,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/university-of-manchester-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/university-of-manchester-authentication.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.manchester.ac.uk/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/University-of-Manchester
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/the-university-of-manchester/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://pure.manchester.ac.uk/ws/api/
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://shib.manchester.ac.uk/
 - group: commercial
   title: ''
   type: Plans
@@ -319,73 +177,48 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.manchester.ac.uk/rss
 created: '2026-06-03'
-description: 'The University of Manchester is a public research university in Manchester, England, ranked #31 in the QS World University Rankings 2025. Its public developer/API footprint is research-led rather than a centrally branded developer portal: the institution runs an Elsevier Pure CRIS that exposes a live OAI-PMH 2.0 metadata feed and a documented Pure REST API, surfaces its outputs through the public Research Explorer portal, federates identity via Shibboleth/SAML in the UK Access Management Federation, publishes open research data through Figshare, and maintains a small public GitHub organization. No unified, self-service developer portal with general-purpose open data or course/timetable APIs was found to be publicly documented.'
+description: 'The University of Manchester is a public research university in Manchester, England, a founding member of the Russell Group and, on the QS World University Rankings, a consistent global top-40 institution. Its programmable footprint is small, real, and almost entirely mis-stated by its own domain names. The University operates exactly three machine-readable surfaces of its own: a IIIF Presentation API and a IIIF Image API serving the John Rylands Library''s digitised manuscripts from the University''s own hosts and its own JANET address space, and a Shibboleth SAML 2.0 Identity Provider registered in the Jisc UK Access Management Federation under entityID https://shib.manchester.ac.uk/shibboleth. Everything else that looks like a Manchester API is a tenancy: pure.manchester.ac.uk and research.manchester.ac.uk both CNAME to uom-aws.elsevierpure.com and serve Elsevier''s Pure product API and OAI-PMH implementation; figshare.manchester.ac.uk CNAMEs to figshare.com. Those are Manchester''s
+  records on a supplier''s platform, under a supplier''s contract, and they are recorded here as tenant relationships rather than credited as the University''s engineering. There is no central developer portal, no self-service API keys, no open data portal at data.manchester.ac.uk, and no public course, timetable or SIS API. Thirty-six OpenAPI documents previously held in this repository were Elsevier''s Pure 5.35.2-2 specification split by tag and re-titled; they have been quarantined, not counted.'
 examples:
-- key_count: 13
-  name: University Of Manchester Activity Example
-  slug: university-of-manchester-activity-example
-- key_count: 17
-  name: University Of Manchester Person Example
-  slug: university-of-manchester-person-example
-- key_count: 15
-  name: University Of Manchester Project Example
-  slug: university-of-manchester-project-example
-- key_count: 4
-  name: University Of Manchester Research Outputs List Example
-  slug: university-of-manchester-research-outputs-list-example
+- key_count: 2
+  name: University Of Manchester Iiif Collection Example
+  slug: university-of-manchester-iiif-collection-example
+- key_count: 2
+  name: University Of Manchester Iiif Image Info Example
+  slug: university-of-manchester-iiif-image-info-example
+- key_count: 2
+  name: University Of Manchester Iiif Manifest Example
+  slug: university-of-manchester-iiif-manifest-example
 finops:
 - name: University Of Manchester Finops
   service_category: Education
   slug: university-of-manchester-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-manchester.png
 json_schemas:
-- name: Activity
-  property_count: 39
-  slug: university-of-manchester-activity
-- name: Person
-  property_count: 51
-  slug: university-of-manchester-person
-- name: Project
-  property_count: 47
-  slug: university-of-manchester-project
-- name: ResearchOutput
-  property_count: 53
-  slug: university-of-manchester-researchoutput
-json_structures:
-- name: University Of Manchester Activity Structure
-  property_count: 39
-  slug: university-of-manchester-activity-structure
-- name: University Of Manchester Person Structure
-  property_count: 51
-  slug: university-of-manchester-person-structure
-- name: University Of Manchester Project Structure
-  property_count: 47
-  slug: university-of-manchester-project-structure
-- name: University Of Manchester Researchoutput Structure
-  property_count: 53
-  slug: university-of-manchester-researchoutput-structure
+- name: University of Manchester IIIF Image API information document
+  property_count: 8
+  slug: university-of-manchester-iiif-image-info
+- name: University of Manchester IIIF Presentation manifest
+  property_count: 8
+  slug: university-of-manchester-iiif-manifest
 jsonld:
-- class_count: 10
+- class_count: 15
   name: University Of Manchester Context
-  property_count: 22
+  property_count: 14
   slug: university-of-manchester-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: University of Manchester
 nav: Providers
 network: true
-overview: 'University of Manchester publishes 36 APIs on the [APIs.io](https://apis.io/) network, including activity API, application API, authorCollaboration API, and 33 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'University of Manchester publishes 2 APIs on the [APIs.io](https://apis.io/) network: Manchester Digital Collections — IIIF Presentation API and Manchester Digital Collections — IIIF Image API. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
-  The University of Manchester catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The University of Manchester catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Manchester''s developer surface includes authentication, GitHub presence, engineering blog, and 10 more developer resources.'
+  University of Manchester''s developer surface includes engineering blog, support, GitHub presence, authentication, and 26 more developer resources.'
 plans:
 - name: University Of Manchester Plans Pricing
   plan_count: 2
@@ -396,73 +229,70 @@ rate_limits:
   name: University Of Manchester Rate Limits
   slug: university-of-manchester-rate-limits
 rules:
-- effective_rule_count: 5
+- effective_rule_count: 10
   extends: []
   name: University of Manchester API Rules
-  rule_count: 5
+  rule_count: 10
   severity_counts:
-    error: 0
+    error: 5
     hint: 0
-    info: 2
-    warn: 3
-  slug: university-of-manchester-jsonschema-spectral-rules
-- effective_rule_count: 7
-  extends: []
-  name: University of Manchester API Rules
-  rule_count: 7
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 2
-    warn: 3
+    info: 0
+    warn: 5
   slug: university-of-manchester-rules
 score:
-  band: thin
-  composite: 36.6
-  delta: -3.7
+  band: developing
+  composite: 48.2
+  delta: -0.4
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 59.6
-    developer_ergonomics: 23.8
-    discoverability: 59.3
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 40.3
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 34.1
+    contract_quality: 68.2
+    developer_ergonomics: 19.0
+    discoverability: 74.1
+    governance: 34.1
+    operational_transparency: 23.7
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 36
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 46.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/screenshots/university-of-manchester-2026-06-20T200205.png
 security:
 - kind: authentication
   name: University Of Manchester Authentication
   slug: university-of-manchester-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: saml2/none · 2 schemes
 - kind: domain-security
   name: University Of Manchester Domain Security
   slug: university-of-manchester-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: university-of-manchester
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Data
 - United Kingdom
+- Russell Group
+- Library
+- Digital Collections
+- IIIF
+- Identity Federation
+- Research Data
+- Research Computing
 website: https://www.manchester.ac.uk/
 ---

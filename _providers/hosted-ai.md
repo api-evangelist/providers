@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for the Hosted·ai neocloud platform, split into an Admin Panel API (GPUaaS infrastructure: GPU pools, nodes, GPU/NPU hardware discovery, high availability, floating IPs, regions) and a User P'
@@ -127,13 +127,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hosted-ai.
 layout: provider
 mcp_servers:
 - description: ''
-  name: hosted-ai-mcp.yml
-  slug: hosted-ai-mcpyml
+  name: Hosted·ai MCP Server
+  slug: hostedai-mcp-server
 modified: '2026-07-19'
 name: Hosted·ai
 nav: Providers
 network: true
-overview: 'Hosted·ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, GPU, GPUaaS, and Cloud Infrastructure.
+overview: 'Hosted·ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, GPU, GPUaaS, and Cloud Infrastructure.
 
 
   Hosted·ai''s developer surface includes documentation, API reference, pricing, support, authentication, changelog, and 15 more developer resources.'
@@ -141,7 +141,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 24.7
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -151,13 +151,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 24.5
+  previous_composite: 24.7
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hosted-ai/refs/heads/main/screenshots/hosted-ai-2026-07-25T221443.png
 security:
@@ -172,12 +172,12 @@ security:
 slug: hosted-ai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - GPU
 - GPUaaS
 - Cloud Infrastructure
 - Neocloud
-- Machine Learning
+- Machine-Learning
 - AI Infrastructure
 - Multi-Tenancy
 - Service Providers

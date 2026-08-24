@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 195
   human_in_the_loop: 8
@@ -461,8 +461,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quadrillio
 layout: provider
 mcp_servers:
 - description: ''
-  name: quadrillion-mcp.yml
-  slug: quadrillion-mcpyml
+  name: Quadrillion MCP Server
+  slug: quadrillion-mcp-server
 modified: '2026-07-20'
 name: Quadrillion
 nav: Providers
@@ -475,7 +475,7 @@ random_paper: 12
 score:
   band: developing
   composite: 46.0
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -485,7 +485,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 48.0
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -496,8 +496,8 @@ score:
       total: 51
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/screenshots/quadrillion-2026-08-17T081425.png
 security:
@@ -523,6 +523,6 @@ tags:
 - Notebooks
 - LLM
 - Developer Tools
-- Machine Learning
+- Machine-Learning
 website: https://quadrillion.io/
 ---

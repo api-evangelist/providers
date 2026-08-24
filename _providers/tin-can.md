@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -95,8 +95,8 @@ image: https://tincan.kids/cdn/shop/files/tinothy-icon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: tin-can-mcp.yml
-  slug: tin-can-mcpyml
+  name: Tin Can MCP Server
+  slug: tin-can-mcp-server
 modified: '2026-07-21'
 name: Tin Can
 nav: Providers
@@ -113,18 +113,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.7
-  delta: -3.2
+  composite: 24.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.9
+  previous_composite: 24.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -134,8 +134,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

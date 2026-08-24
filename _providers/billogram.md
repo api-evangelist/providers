@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'RESTful JSON API for managing invoices (billograms), customers, items, credit invoices, payment sources, offers, billing tabs, reports, and webhooks. Authenticated with HTTP Basic Auth (API User ID + '
@@ -116,7 +116,7 @@ random_paper: 8
 score:
   band: thin
   composite: 32.6
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -126,7 +126,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 34.1
+  previous_composite: 32.6
   provenance:
     conformance: derived
   regulatory:
@@ -135,8 +135,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/billogram/refs/heads/main/screenshots/billogram-2026-07-25T202950.png
 security:
@@ -160,8 +160,8 @@ tags:
 - Billing
 - Payments
 - Invoice-to-Cash
-- E-invoicing
+- E-Invoicing
 - Fintech
-- Webhooks
+- Webhook
 website: https://billogram.com/
 ---

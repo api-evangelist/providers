@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -550,13 +550,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: apache-kafka-mcp.yml
-  slug: apache-kafka-mcpyml
+  name: Apache Kafka MCP Server
+  slug: apache-kafka-mcp-server
 modified: '2026-06-20'
 name: Apache Kafka
 nav: Providers
 network: true
-overview: 'Apache Kafka publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, ACL API, Broker API, and 9 more. Tagged areas include Distributed Systems, Event Streaming, Messaging, Open Source, and Pub-Sub.
+overview: 'Apache Kafka publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, ACL API, Broker API, and 9 more. Tagged areas include Distributed Systems, Event Streaming, Messaging, Open-Source, and Pub-Sub.
 
 
   The Apache Kafka catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -608,7 +608,7 @@ rules:
 score:
   band: developing
   composite: 44.7
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -618,7 +618,7 @@ score:
     discoverability: 83.3
     governance: 45.5
     operational_transparency: 36.8
-  previous_composite: 51.3
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -628,9 +628,9 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
 security:
 - kind: domain-security
@@ -646,7 +646,7 @@ tags:
 - Distributed Systems
 - Event Streaming
 - Messaging
-- Open Source
+- Open-Source
 - Pub-Sub
 use_cases:
 - description: Build event-driven microservices with reliable message delivery.

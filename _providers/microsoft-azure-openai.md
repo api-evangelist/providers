@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-05-19'
 name: Azure OpenAI Service
 nav: Providers
 network: true
-overview: 'Azure OpenAI Service publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 1 more. Tagged areas include AI, Embeddings, GPT, Generative AI, and Large Language Models.
+overview: 'Azure OpenAI Service publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 1 more. Tagged areas include Artificial Intelligence, Embeddings, GPT, Generative AI, and Large Language Models.
 
 
   Azure OpenAI Service''s developer surface includes authentication, developer portal, pricing, documentation, signup flow, support, and 9 more developer resources.'
@@ -166,7 +166,7 @@ scopes:
 score:
   band: developing
   composite: 40.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -176,7 +176,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 41.9
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/screenshots/microsoft-azure-openai-2026-06-20T185429.png
 security:
@@ -199,7 +199,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: microsoft-azure-openai
 tags:
-- AI
+- Artificial Intelligence
 - Embeddings
 - GPT
 - Generative AI

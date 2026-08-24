@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Boosted.ai (Alfa) API delivers personalized, autonomous market insights and conversational investment research to platforms via API, SDK, or embedded UI. Documented endpoints let a client execute '
@@ -123,13 +123,13 @@ image: https://cdn.prod.website-files.com/67ad5f417c605912a4a03b1b/691e1dfb82353
 layout: provider
 mcp_servers:
 - description: ''
-  name: boosted-mcp.yml
-  slug: boosted-mcpyml
+  name: Boosted.ai MCP Server
+  slug: boostedai-mcp-server
 modified: '2026-07-18'
 name: Boosted.ai
 nav: Providers
 network: true
-overview: 'Boosted.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Finance, Investment Management, and Financial Services.
+overview: 'Boosted.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Finance, Investment Management, and Financial-Services.
 
 
   Boosted.ai''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 17
 score:
   band: thin
   composite: 29.3
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -147,12 +147,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 29.6
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boosted/refs/heads/main/screenshots/boosted-2026-07-25T203622.png
 security:
@@ -178,9 +178,9 @@ tags:
 - Artificial Intelligence
 - Finance
 - Investment Management
-- Financial Services
+- Financial-Services
 - Agents
-- Machine Learning
+- Machine-Learning
 - Research
 - Fintech
 website: https://www.boosted.ai/api

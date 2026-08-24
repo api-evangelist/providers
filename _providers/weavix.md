@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -212,13 +212,13 @@ image: https://weavix.com/wp-content/uploads/2023/03/weavix-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: weavix-mcp.yml
-  slug: weavix-mcpyml
+  name: Weavix MCP Server
+  slug: weavix-mcp-server
 modified: '2026-07-21'
 name: Weavix
 nav: Providers
 network: true
-overview: 'Weavix publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Channels & Messaging API, Crafts API, Forms API, and 5 more. Tagged areas include Communication, Frontline Workers, Workforce Management, Messaging, and Push To Talk.
+overview: 'Weavix publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Channels & Messaging API, Crafts API, Forms API, and 5 more. Tagged areas include Communications, Frontline Workers, Workforce Management, Messaging, and Push To Talk.
 
 
   The Weavix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,8 +250,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/screenshots/weavix-2026-08-17T082852.png
 security:
@@ -269,7 +269,7 @@ security:
   summary_line: SOC 2
 slug: weavix
 tags:
-- Communication
+- Communications
 - Frontline Workers
 - Workforce Management
 - Messaging

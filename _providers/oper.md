@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 52
 apis:
 - description: The Agent Documents API from Oper — 2 operation(s) for agent documents.
@@ -439,9 +439,9 @@ description: Oper (Oper Credits) is a Belgium-based fintech that provides digita
 image: https://developers.opercredits.com/assets/logo-white.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: oper-mcp.yml
-  slug: oper-mcpyml
+- description: 'Candidate MCP tool surface derived from the Oper Connect OpenAPI. No official hosted/remote Oper MCP server was found during search; this is a proposed mapping of marquee operations to MCP tools, not '
+  name: Oper MCP Server
+  slug: oper-mcp-server
 modified: '2026-07-20'
 name: Oper
 nav: Providers
@@ -454,7 +454,7 @@ random_paper: 18
 score:
   band: thin
   composite: 35.3
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -464,7 +464,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 39.7
+  previous_composite: 35.3
   provenance:
     conformance: derived
     contracts:
@@ -480,8 +480,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/screenshots/oper-2026-08-07T190659.png
 security:
@@ -511,6 +511,6 @@ tags:
 - Loan Origination
 - Digital Mortgage
 - Underwriting
-- Financial Services
+- Financial-Services
 website: https://www.opercredits.com/
 ---

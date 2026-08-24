@@ -4,9 +4,9 @@ access_model:
   label: Free
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probed
   trial: false
   try_now: false
 agent_readiness:
@@ -22,14 +22,14 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.5
-  scored_at: '2026-08-19'
+  score: 23.5
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -37,36 +37,27 @@ agentic_access:
   operation_count: 19
   slug: tum-agentic-access
   summary_line: 19 operations · 4 acting
-api_count: 9
+api_count: 6
 apis:
-- description: 'Backend for the TUM Campus App, written in Go and exposing a gRPC API interface used by the official cross-platform (Flutter/Dart) campus clients. Source is public; the production endpoint is used by '
-  name: TUM Campus App Backend (gRPC)
+- description: REST and gRPC backend behind the official TUM Campus App. 19 operations across campus news and alerts, student clubs, cinema listings, canteen and dish ratings, device registration and feedback. The c
+  name: TUM Campus App Backend API
   slug: campus-backend
-- description: APIs to access calendar-data
-  name: Technical University of Munich calendar API
-  slug: tum-calendar-api
-- description: APIs to give feedback
-  name: Technical University of Munich feedback API
-  slug: tum-feedback-api
-- description: API to access/search for location information
-  name: Technical University of Munich locations API
-  slug: tum-locations-api
-- description: API to access for map-data
-  name: Technical University of Munich maps API
-  slug: tum-maps-api
-- description: Get information about dish plans
-  name: Technical University of Munich menu API
-  slug: tum-menu-api
-- description: The Openapi.json API from Technical University of Munich — 1 operation(s) for openapi.json.
-  name: Technical University of Munich Openapi.json API
-  slug: tum-openapi-json-api
-- description: Static information regarding canteens, labels and languages
-  name: Technical University of Munich static API
-  slug: tum-static-api
-- description: The Status API from Technical University of Munich — 1 operation(s) for status.
-  name: Technical University of Munich Status API
-  slug: tum-status-api
-artifact_total: 34
+- description: Search and navigation API for TUM rooms, buildings and places — a Rust service over MeiliSearch, fully unauthenticated, documented with an OpenAPI 3 contract served live at https://nav.tum.de/api/open
+  name: NavigaTUM
+  slug: navigatum
+- description: 'OAI-PMH 2.0 harvesting interface over TUM''s institutional repository. Verified verbs Identify, ListMetadataFormats and ListSets all answer 200. Metadata prefixes: oai_dc, epicur and xMetaDissPlus (the'
+  name: mediaTUM OAI-PMH Repository Interface
+  slug: mediatum-oai-pmh
+- description: Machine-readable SAML 2.0 identity provider metadata — an EntityDescriptor with an IDPSSODescriptor supporting urn:oasis:names:tc:SAML:2.0:protocol, registered in DFN-AAI since 2009-05-26 and reachabl
+  name: TUM Shibboleth Identity Provider (SAML 2.0 Metadata)
+  slug: identity-federation
+- description: 'TUM''s student information system of record, running CAMPUSonline. Two machine-readable surfaces were verified live and unauthenticated on 2026-08-19: a hypermedia course catalog REST endpoint at /tumo'
+  name: TUMonline (CAMPUSonline) — Course Catalog and Identity
+  slug: tumonline
+- description: 'Static JSON API for Munich student canteen menus, prices, dish labels and opening hours, regenerated on a schedule and served as flat files from GitHub Pages. Two OpenAPI files below are one contract '
+  name: eat-api — Munich Student Canteen Menus
+  slug: eat-api
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -96,6 +87,82 @@ collections:
   name: eat-api calendar Status API
   slug: open-tum-status-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tum.de/en/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tum.de/en/news-and-events/all-news
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/TUM-Dev
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/technische-universitat-munchen/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.tum.de/ueber-die-tum/kontakt-und-anfahrt/impressum
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.tum.de/en/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.it.tum.de/en/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://mediatum.ub.tum.de/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.ub.tum.de/en
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://login.tum.de/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.researchdata.tum.de/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-issues-a-comprehensive-ai-strategy
+- group: other
+  title: ''
+  type: Accessibility
+  url: https://www.tum.de/en/spezialseiten/accessibility
+- group: design
+  title: ''
+  type: x-conformance
+  url: conformance/tum-education-standards-conformance.yml
+- group: auth
+  title: ''
+  type: x-authentication
+  url: authentication/tum-authentication.yml
+- group: auth
+  title: ''
+  type: x-scopes
+  url: scopes/tum-scopes.yml
+- group: design
+  title: ''
+  type: x-errors
+  url: errors/tum-errors.yml
+- group: design
+  title: ''
+  type: x-lifecycle
+  url: lifecycle/tum-lifecycle.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -108,26 +175,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/tum-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.tum.de/en/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/TUM-Dev
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://www.tum.dev/
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/technische-universitat-munchen/
-- group: build
-  title: ''
-  type: SourceCode
-  url: https://github.com/TUM-Dev
 - group: commercial
   title: ''
   type: Plans
@@ -157,7 +204,8 @@ common:
   type: x-json-ld
   url: json-ld/tum-context.jsonld
 created: '2026-06-03'
-description: 'The Technical University of Munich (TUM) is a public research university in Munich, Germany, ranked #47 in the QS World University Rankings 2025. TUM does not operate a single centralized, commercial developer portal; instead its most visible public API footprint is community- and student-driven through the TUM-Dev open-source organization on GitHub, which builds and operates the Campus App ecosystem. Confirmed public, unauthenticated APIs include NavigaTUM (a Rust/MeiliSearch service to search rooms, buildings, and places, documented with an OpenAPI 3.0 spec) and eat-api (a static JSON API for Munich student canteen menus and prices). The institution''s central research information system, TUMFIS, runs on Elsevier Pure but exposes no documented public API.'
+description: 'The Technical University of Munich (TUM) is a public technical research university in Munich, Germany, and one of Germany''s eleven Universities of Excellence. Its programmable footprint is real but small, and almost none of it comes from a central IT developer program: TUM operates no public developer portal, publishes no API terms of service, and lists no API on www.tum.de. What it does operate, verified live on 2026-08-19, is four machine-readable surfaces. Two are OpenAPI contracts built and run by Open Source @ TUM e.V. (TUM-Dev), a TUM-affiliated association: the TUM Campus App backend at api.tum.app (19 operations, Swagger 2.0 generated from tumdev/campus_backend.proto, also served over gRPC at api-grpc.tum.app, listed by TUM IT as an official TUM mobile app), and NavigaTUM at nav.tum.de (room, building and campus navigation, taken into productive operation by TUM as the official room finder). The other two are the surfaces a university operates by definition and rarely
+  catalogues: a SAML 2.0 / Shibboleth identity provider publishing DFN-AAI-registered metadata at login.tum.de with SIRTFI2 assurance, and an OAI-PMH 2.0 endpoint on mediaTUM, TUM''s own institutional repository, harvestable back to 1959. Everything else is a tenant relationship on someone else''s platform: the student information system TUMonline runs CAMPUSonline on campus.tum.de (live unauthenticated course REST plus a full OIDC discovery document with 108 scopes), the research information system TUMFIS runs Elsevier Pure, and the canteen menu API eat-api is static JSON on GitHub Pages carrying Studierendenwerk data. No open data portal exists: data.tum.de and opendata.tum.de do not resolve.'
 examples:
 - key_count: 2
   name: Tum Canteen Menu Example
@@ -193,17 +241,17 @@ jsonld:
   property_count: 0
   slug: tum-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: Technical University of Munich
 nav: Providers
 network: true
-overview: 'Technical University of Munich publishes 8 APIs on the [APIs.io](https://apis.io/) network, including calendar API, feedback API, locations API, and 5 more. Tagged areas include Education, Higher Education, University, Germany, and Open Source.
+overview: 'Technical University of Munich publishes 3 APIs on the [APIs.io](https://apis.io/) network: TUM Campus App Backend API, NavigaTUM, and eat-api — Munich Student Canteen Menus. Tagged areas include University, Higher Education, Education, Germany, and Technical University.
 
 
   The Technical University of Munich catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Technical University of Munich''s developer surface includes GitHub presence and 14 more developer resources.'
+  Technical University of Munich''s developer surface includes engineering blog, support, and 27 more developer resources.'
 plans:
 - name: Tum Plans Pricing
   plan_count: 2
@@ -234,38 +282,48 @@ rules:
     info: 0
     warn: 4
   slug: tum-rules
+scopes:
+- name: Tum Scopes
+  scope_count: 108
+  slug: tum-scopes
+  summary_line: 108 scopes
 score:
   band: thin
-  composite: 33.3
-  delta: -4.4
+  composite: 36.1
+  delta: -0.4
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 55.7
-    developer_ergonomics: 9.5
-    discoverability: 64.8
+    contract_quality: 29.8
+    developer_ergonomics: 7.1
+    discoverability: 74.1
     governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 37.7
+    operational_transparency: 23.7
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 8
+      derived: 6
+      marker_coverage: 77.8
+      total: 9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 64.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/screenshots/tum-2026-06-20T195827.png
 security:
+- kind: authentication
+  name: Tum Authentication
+  slug: tum-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Tum Domain Security
   slug: tum-domain-security
@@ -276,12 +334,17 @@ security:
   summary_line: security.txt · contact published
 slug: tum
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Germany
-- Open Source
+- Technical University
+- Universities of Excellence
 - Campus
-- Open Data
+- Course Catalog
+- Identity Federation
+- Research Repository
+- Open-Source
+- Student Information System
 website: https://www.tum.de/en/
 ---

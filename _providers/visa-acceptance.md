@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -226,18 +226,18 @@ rules:
   slug: visa-acceptance-rules
 score:
   band: thin
-  composite: 36.8
-  delta: -4.5
+  composite: 37.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.9
     developer_ergonomics: 33.3
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 41.3
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -251,8 +251,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/screenshots/visa-acceptance-2026-06-20T201047.png
 security:
@@ -272,6 +272,6 @@ tags:
 - Credit Cards
 - Invoicing
 - Payment Links
-- Digital Wallets
+- Digital Wallet
 website: https://developer.visaacceptance.com/
 ---

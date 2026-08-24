@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 14.7
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,9 +110,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntopology/refs/heads/main/screenshots/ntopology-2026-08-07T185708.png
 security:

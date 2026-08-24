@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Foodvisor Vision API performs food detection and nutritional analysis from images. It is provisioned under a commercial agreement; endpoint and authentication details are shared with customers and
@@ -73,7 +73,7 @@ modified: '2026-04-28'
 name: Foodvisor
 nav: Providers
 network: true
-overview: 'Foodvisor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Computer Vision, Food, Health, and Nutrition.
+overview: 'Foodvisor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Computer-Vision, Food, Health, and Nutrition.
 
 
   Foodvisor''s developer surface includes documentation and 5 more developer resources.'
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.8
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -99,15 +99,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 11.8
+  previous_composite: 8.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foodvisor/refs/heads/main/screenshots/foodvisor-2026-06-20T181405.png
 security:
@@ -117,8 +117,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: foodvisor
 tags:
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Food
 - Health
 - Nutrition

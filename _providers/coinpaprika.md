@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ rules:
 score:
   band: emerging
   composite: 23.7
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -190,7 +190,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 30.4
+  previous_composite: 23.7
   provenance:
     agentic_access: derived
     contracts:
@@ -204,9 +204,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/screenshots/coinpaprika-2026-06-20T174741.png
 security:
 - kind: domain-security

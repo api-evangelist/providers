@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-07-05'
 name: Phraseanet
 nav: Providers
 network: true
-overview: 'Phraseanet publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Baskets API, Databoxes API, and 6 more. Tagged areas include Digital Asset Management, DAM, Media, Metadata, and Open Source.
+overview: 'Phraseanet publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Baskets API, Databoxes API, and 6 more. Tagged areas include Digital Asset Management, DAM, Media, Metadata, and Open-Source.
 
 
   Phraseanet''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -184,7 +184,7 @@ scopes:
 score:
   band: thin
   composite: 35.7
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -194,7 +194,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.5
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -220,7 +220,7 @@ tags:
 - DAM
 - Media
 - Metadata
-- Open Source
+- Open-Source
 - Search
 website: https://www.phraseanet.com/
 ---

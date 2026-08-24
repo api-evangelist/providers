@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: AVAP BRUNIX is an AI copilot integrated into the AVAP framework, providing intelligent assistance for API development, code generation, testing automation, and API lifecycle management.
@@ -69,7 +69,7 @@ modified: '2026-04-19'
 name: AVAP BRUNIX
 nav: Providers
 network: true
-overview: 'AVAP BRUNIX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, API Development, Developer Tools, Low Code, and Automation.
+overview: 'AVAP BRUNIX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, API Development, Developer Tools, Low-Code, and Automation.
 
 
   AVAP BRUNIX''s developer surface includes developer portal and 4 more developer resources.'
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.8
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -95,9 +95,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avap-brunix/refs/heads/main/screenshots/avap-brunix-2026-06-20T172724.png
 security:
@@ -107,10 +107,10 @@ security:
   summary_line: TLSv1.2
 slug: avap-brunix
 tags:
-- AI
+- Artificial Intelligence
 - API Development
 - Developer Tools
-- Low Code
+- Low-Code
 - Automation
 website: https://www.avapframework.com/
 ---

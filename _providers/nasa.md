@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -318,8 +318,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: nasa-mcp.yml
-  slug: nasa-mcpyml
+  name: NASA MCP Server
+  slug: nasa-mcp-server
 modified: '2026-06-20'
 name: NASA
 nav: Providers
@@ -354,7 +354,7 @@ rules:
 score:
   band: thin
   composite: 36.2
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -364,7 +364,7 @@ score:
     discoverability: 63.0
     governance: 26.5
     operational_transparency: 13.2
-  previous_composite: 42.0
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -380,9 +380,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png
 security:
 - kind: authentication

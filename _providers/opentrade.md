@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Read-only REST API to query platform data, vaults, accounts, and transactions (current and historical) for building UIs, reporting, and reconciliation with middle/back-office systems. Full endpoint an
@@ -116,7 +116,7 @@ modified: '2026-07-20'
 name: Opentrade
 nav: Providers
 network: true
-overview: 'Opentrade publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stablecoin, Yield, Lending, and Treasury Management.
+overview: 'Opentrade publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stablecoins, Yield, Lending, and Treasury Management.
 
 
   Opentrade''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 12 more developer resources.'
@@ -124,7 +124,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 26.0
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -134,11 +134,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.9
+  previous_composite: 26.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentrade/refs/heads/main/screenshots/opentrade-2026-08-07T190653.png
 security:
@@ -149,7 +149,7 @@ security:
 slug: opentrade
 tags:
 - Company
-- Stablecoin
+- Stablecoins
 - Yield
 - Lending
 - Treasury Management

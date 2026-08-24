@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -360,8 +360,8 @@ image: https://lawvu.com/wp-content/uploads/2023/09/cropped-fav-icon-192x192.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lawvu-mcp.yml
-  slug: lawvu-mcpyml
+  name: LawVu MCP Server
+  slug: lawvu-mcp-server
 modified: '2026-07-19'
 name: LawVu
 nav: Providers
@@ -377,7 +377,7 @@ random_paper: 13
 score:
   band: strong
   composite: 57.4
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -387,7 +387,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 55.3
-  previous_composite: 60.7
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -398,8 +398,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/screenshots/lawvu-2026-07-25T224645.png
 security:
@@ -427,9 +427,9 @@ tags:
 - Legal Operations
 - Contract Lifecycle Management
 - Matter Management
-- Document Management
+- Document-Management
 - Spend Management
-- SaaS
-- Workflow
+- Software-as-a-Service
+- Workflows
 website: https://lawvu.com/
 ---

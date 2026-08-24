@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A private, account-scoped REST API reached with an API key generated under Settings > Integration > Zapier, used to power Contractor Foreman's official Zapier app rather than published for general dev
@@ -82,7 +82,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 13.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -92,9 +92,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contractorforeman/refs/heads/main/screenshots/contractorforeman-2026-07-25T210341.png
 security:

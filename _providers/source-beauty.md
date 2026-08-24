@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 1
@@ -96,7 +96,7 @@ modified: '2026-07-21'
 name: Source Beauty
 nav: Providers
 network: true
-overview: 'Source Beauty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Cosmetics, E-commerce, and Retail.
+overview: 'Source Beauty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Cosmetics, E-Commerce, and Retail.
 
 
   Source Beauty''s developer surface includes signup flow, authentication, and 9 more developer resources.'
@@ -108,23 +108,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 15.0
-  delta: -1.5
+  composite: 16.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.5
+  previous_composite: 16.1
   provenance:
     agentic_access: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -140,7 +140,7 @@ tags:
 - Company
 - Beauty
 - Cosmetics
-- E-commerce
+- E-Commerce
 - Retail
 - Marketplace
 - Wellness

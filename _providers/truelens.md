@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ modified: '2026-07-21'
 name: TrueLens
 nav: Providers
 network: true
-overview: TrueLens is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Social Media, Analytics, and Marketing.
+overview: TrueLens is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Social-Media, Analytics, and Marketing.
 random_paper: 0
 score:
   band: minimal
@@ -66,14 +66,14 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: truelens
 tags:
 - Company
 - Enterprise
-- Social Media
+- Social-Media
 - Analytics
 - Marketing
 - Customer Intelligence

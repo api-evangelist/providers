@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-05-23'
 name: Gaming and Leisure Properties
 nav: Providers
 network: true
-overview: Gaming and Leisure Properties is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Casinos, Gaming, Hospitality, Real Estate, and REIT.
+overview: Gaming and Leisure Properties is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Casinos, Gaming, Hospitality, Real-Estate, and REIT.
 random_paper: 12
 score:
   band: minimal
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gaming-and-leisure-properties/refs/heads/main/screenshots/gaming-and-leisure-properties-2026-06-20T181644.png
 security:
@@ -94,7 +94,7 @@ tags:
 - Casinos
 - Gaming
 - Hospitality
-- Real Estate
+- Real-Estate
 - REIT
 - Triple-Net Lease
 website: https://www.glpropinc.com/

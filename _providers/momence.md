@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 46
@@ -170,7 +170,7 @@ scopes:
 score:
   band: thin
   composite: 34.3
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -180,7 +180,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.8
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/screenshots/momence-2026-08-07T184120.png
 security:

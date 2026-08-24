@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 15.4
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -102,9 +102,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsus/refs/heads/main/screenshots/ellipsus-2026-07-25T213152.png
 security:
@@ -120,6 +120,6 @@ tags:
 - Content Creation
 - Version Control
 - Productivity
-- SaaS
+- Software-as-a-Service
 website: https://ellipsus.com
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API served from the Bulletproof store host. Anonymous introspection succeeded on 2026-08-08 (424 types, QueryRoot + Mutation), and anonymous queries against shop, produc
@@ -140,8 +140,8 @@ image: https://cdn.shopify.com/s/files/1/0004/3470/0319/files/bp-logo-large.png?
 layout: provider
 mcp_servers:
 - description: ''
-  name: bulletproof-mcp.yml
-  slug: bulletproof-mcpyml
+  name: BulletProof MCP Server
+  slug: bulletproof-mcp-server
 modified: '2026-08-08'
 name: BulletProof
 nav: Providers
@@ -159,7 +159,7 @@ scopes:
 score:
   band: thin
   composite: 37.9
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -169,7 +169,7 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 36.4
+  previous_composite: 37.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -180,8 +180,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -199,7 +199,7 @@ tags:
 - Food and Beverage
 - Health and Wellness
 - Supplements
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Agentic Commerce

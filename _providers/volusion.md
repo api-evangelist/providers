@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Volusion API allows merchants on Business and Prime plans to connect third-party applications with their Volusion store, enabling import and export of products, orders, customers, categories, ship
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: Volusion
 nav: Providers
 network: true
-overview: 'Volusion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Online Store, Products, Orders, and Customers.
+overview: 'Volusion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Online Store, Product, Order, and Customers.
 
 
   Volusion''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -123,9 +123,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volusion/refs/heads/main/screenshots/volusion-2026-06-20T201133.png
 security:
@@ -137,8 +137,8 @@ slug: volusion
 tags:
 - E-Commerce
 - Online Store
-- Products
-- Orders
+- Product
+- Order
 - Customers
 - Inventory
 - Shopping Cart

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -191,31 +191,31 @@ rules:
     info: 2
     warn: 4
   slug: google-nest-jsonschema-spectral-rules
-- effective_rule_count: 58
+- effective_rule_count: 57
   extends:
   - spectral:oas
   name: Google Nest Smart Device Management API Rules
-  rule_count: 17
+  rule_count: 16
   severity_counts:
-    error: 11
+    error: 10
     hint: 0
     info: 2
     warn: 4
   slug: google-nest-spectral-rules
 score:
   band: developing
-  composite: 43.4
-  delta: -8.3
+  composite: 43.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 61.7
     developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 51.7
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -223,9 +223,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/screenshots/google-nest-2026-06-20T182217.png
 security:
 - kind: domain-security

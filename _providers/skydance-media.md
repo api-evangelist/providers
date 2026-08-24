@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 21.8
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -258,7 +258,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 20.3
+  previous_composite: 21.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +268,8 @@ score:
       marker_coverage: 100.0
       total: 12
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: A WebSocket streaming API that delivers live May Mobility vehicle data in two modes. Telemetry mode streams JSON messages for a comma-separated list of per-vehicle topics (GPS, POSE, DRIVE_STATUS, RUN
@@ -183,7 +183,7 @@ scopes:
 score:
   band: developing
   composite: 46.5
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -193,11 +193,11 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 48.3
+  previous_composite: 46.5
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/may-mobility/refs/heads/main/screenshots/may-mobility-2026-08-07T172133.png
 security:

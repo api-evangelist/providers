@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -426,18 +426,18 @@ rules:
   slug: spacex-rules
 score:
   band: thin
-  composite: 34.3
-  delta: -2.9
+  composite: 34.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 26.2
     developer_ergonomics: 33.3
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 37.2
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -451,8 +451,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png
 security:
@@ -474,7 +474,7 @@ tags:
 - Falcon Heavy
 - Dragon
 - Rockets
-- Open Source
+- Open-Source
 - Community
 - REST
 - GraphQL

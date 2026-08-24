@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Invoca's date-versioned REST developer platform covering call transactions, signal reporting, call ingestion, RingPool trackable-number allocation, network integration, and pre-call (PreSense) insight
@@ -179,13 +179,13 @@ image: https://www.invoca.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: invoca-mcp.yml
-  slug: invoca-mcpyml
+  name: Invoca MCP Server
+  slug: invoca-mcp-server
 modified: '2026-08-13'
 name: Invoca
 nav: Providers
 network: true
-overview: 'Invoca publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Call Tracking, Conversation Intelligence, and Marketing.
+overview: 'Invoca publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Call Tracking, Conversation Intelligence, and Marketing.
 
 
   Invoca''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
@@ -201,7 +201,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.1
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -211,13 +211,13 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 54.8
+  previous_composite: 51.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/screenshots/invoca-2026-07-25T222753.png
 security:
@@ -236,7 +236,7 @@ security:
 slug: invoca
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Call Tracking
 - Conversation Intelligence
 - Marketing

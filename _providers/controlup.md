@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 61
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
@@ -615,13 +615,13 @@ image: https://www.controlup.com/wp-content/uploads/controlup_prev.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: controlup-mcp.yml
-  slug: controlup-mcpyml
+  name: ControlUp MCP Server
+  slug: controlup-mcp-server
 modified: '2026-08-04'
 name: ControlUp
 nav: Providers
 network: true
-overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Alerts - Devices API, Applications API, and 57 more. Tagged areas include digital-employee-experience, endpoint-management, vdi, daas, and virtual-desktop.
+overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Alerts - Devices API, Applications API, and 57 more. Tagged areas include Digital Employee Experience, Endpoint Management, VDI, DaaS, and Virtual Desktop.
 
 
   The ControlUp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -636,7 +636,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.3
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -646,7 +646,7 @@ score:
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 97.4
-  previous_composite: 65.4
+  previous_composite: 62.3
   provenance:
     conformance: derived
     contracts:
@@ -656,8 +656,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/screenshots/controlup-2026-08-07T163802.png
 security:
@@ -679,21 +679,21 @@ security:
   summary_line: ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701:2019, SOC 2 Type 2, SOC 3, FIPS 140-2 Level 1, CSA STAR Level 1, GDPR
 slug: controlup
 tags:
-- digital-employee-experience
-- endpoint-management
-- vdi
-- daas
-- virtual-desktop
-- observability
-- monitoring
-- synthetic-monitoring
-- device-management
-- compliance
-- vulnerability-management
-- workflow-automation
-- citrix
-- azure-virtual-desktop
-- mcp
+- Digital Employee Experience
+- Endpoint Management
+- VDI
+- DaaS
+- Virtual Desktop
+- Observability
+- Monitoring
+- Synthetic Monitoring
+- Device Management
+- Compliance
+- Vulnerability Management
+- Workflow-Automation
+- Citrix
+- Azure Virtual Desktop
+- MCP
 - agent-native
 website: https://www.controlup.com/
 ---

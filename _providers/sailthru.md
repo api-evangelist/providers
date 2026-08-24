@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The core Sailthru HTTPS API. All requests are GET, POST or DELETE calls to https://api.sailthru.com/<endpointName>, authenticated with api_key, an MD5 sig over the sorted parameter values, and a forma
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.8
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -196,7 +196,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 53.6
+  previous_composite: 55.8
   provenance:
     conformance: derived
   regulatory:
@@ -205,8 +205,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/screenshots/sailthru-2026-08-17T081714.png
 security:

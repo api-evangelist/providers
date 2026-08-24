@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Common security vulnerabilities in REST APIs include Cross-Site Request Forgery (CSRF), Injection attacks, and insecure direct object references. Pynt helps identify and fix these issues through autom
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.1
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -101,9 +101,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 10.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pynt/refs/heads/main/screenshots/pynt-2026-06-20T192329.png
 security:

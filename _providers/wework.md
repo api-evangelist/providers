@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The WeWork Partner API exposes the company''s global workspace inventory to integrators so that Supply Partners (third-party operators contributing spaces to WeWork) and Demand Partners (resellers and '
@@ -131,7 +131,7 @@ modified: '2026-05-23'
 name: WeWork
 nav: Providers
 network: true
-overview: 'WeWork publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Coworking, Flexible Workspace, Real Estate, Workspace Booking, and Workplace Management.
+overview: 'WeWork publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Co-Working, Flexible Workspace, Real-Estate, Workspace Booking, and Workplace Management.
 
 
   WeWork''s developer surface includes developer portal, documentation, API reference, getting-started guide, release notes, authentication, signup flow, and 14 more developer resources.'
@@ -139,7 +139,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 20.7
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -149,9 +149,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 25.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wework/refs/heads/main/screenshots/wework-2026-06-20T201418.png
 security:
@@ -161,9 +161,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: wework
 tags:
-- Coworking
+- Co-Working
 - Flexible Workspace
-- Real Estate
+- Real-Estate
 - Workspace Booking
 - Workplace Management
 - Bookings

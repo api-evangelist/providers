@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'REST API for the Crypto.com Exchange covering public reference and market data (instruments, order book, candlesticks, trades, tickers, valuations, settlement prices, insurance fund, risk parameters) '
@@ -229,13 +229,13 @@ image: https://crypto.com/images/meta-og/listing.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: crypto-com-mcp.yml
-  slug: crypto-com-mcpyml
+  name: Crypto.com MCP Server
+  slug: cryptocom-mcp-server
 modified: '2026-08-11'
 name: Crypto.com
 nav: Providers
 network: true
-overview: 'Crypto.com publishes 1 API on the [APIs.io](https://apis.io/) network: Exchange REST API v1. Tagged areas include cryptocurrency, crypto-exchange, trading, derivatives, and market-data.
+overview: 'Crypto.com publishes 1 API on the [APIs.io](https://apis.io/) network: Exchange REST API v1. Tagged areas include Cryptocurrency, Crypto Exchange, Trading, Derivatives, and Market Data.
 
 
   The Crypto.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,7 +254,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 72.1
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -264,7 +264,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 92.1
-  previous_composite: 67.3
+  previous_composite: 72.1
   provenance:
     conformance: first-party
     contracts:
@@ -280,8 +280,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 70.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/screenshots/crypto-com-2026-08-17T080411.png
 security:
@@ -303,20 +303,20 @@ security:
   summary_line: ISO 27001, PCI DSS
 slug: crypto-com
 tags:
-- cryptocurrency
-- crypto-exchange
-- trading
-- derivatives
-- market-data
-- digital-assets
-- payments
-- merchant-payments
-- blockchain
+- Cryptocurrency
+- Crypto Exchange
+- Trading
+- Derivatives
+- Market Data
+- Digital Assets
+- Payments
+- Merchant Payments
+- Blockchain
 - cronos
-- defi
-- staking
-- fintech
-- mcp
+- DeFi
+- Staking
+- Fintech
+- MCP
 - agent-native
 website: https://crypto.com/
 ---

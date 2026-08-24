@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint for deploying and managing StackMachine apps, custom domains and DNS, managed databases and volumes, cron jobs, secrets, transactional email, cloud storage, package publishing,
@@ -151,8 +151,8 @@ image: https://www.stackmachine.com/opengraph-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: stack-machine-mcp.yml
-  slug: stack-machine-mcpyml
+  name: Stack Machine MCP Server
+  slug: stack-machine-mcp-server
 modified: '2026-07-21'
 name: Stack Machine
 nav: Providers
@@ -165,7 +165,7 @@ random_paper: 2
 score:
   band: developing
   composite: 40.2
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -175,13 +175,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 45.0
+  previous_composite: 40.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-machine/refs/heads/main/screenshots/stack-machine-2026-08-17T082055.png
 security:
@@ -202,7 +202,7 @@ tags:
 - Edge Compute
 - AI Applications
 - GraphQL
-- Platform as a Service
+- Platform-as-a-Service
 - Deployment
 - Hosting
 - DNS

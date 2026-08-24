@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ modified: '2026-05-11'
 name: Ecwid by Lightspeed
 nav: Providers
 network: true
-overview: 'Ecwid by Lightspeed publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Discount Coupons API, and 3 more. Tagged areas include E-Commerce, Online Store, Storefront, Retail, and Point of Sale.
+overview: 'Ecwid by Lightspeed publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Discount Coupons API, and 3 more. Tagged areas include E-Commerce, Online Store, Storefront, Retail, and Point-of-Sale.
 
 
   Ecwid by Lightspeed''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
@@ -155,7 +155,7 @@ random_paper: 20
 score:
   band: thin
   composite: 35.3
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -165,7 +165,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 35.1
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/screenshots/ecwid-2026-06-20T180440.png
 security:
@@ -192,7 +192,7 @@ tags:
 - Online Store
 - Storefront
 - Retail
-- Point of Sale
+- Point-of-Sale
 - Multi-Channel Commerce
 website: https://www.ecwid.com
 ---

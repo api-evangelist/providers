@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -239,8 +239,8 @@ image: https://avatars.githubusercontent.com/u/136030139?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: s2-dev-mcp.yml
-  slug: s2-dev-mcpyml
+  name: S2 Dev MCP Server
+  slug: s2-dev-mcp-server
 modified: '2026-07-21'
 name: S2 Dev
 nav: Providers
@@ -257,7 +257,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.6
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -267,7 +267,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 76.3
-  previous_composite: 61.9
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -278,8 +278,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/screenshots/s2-dev-2026-08-17T081704.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 12
@@ -275,7 +275,7 @@ modified: '2026-07-02'
 name: Kinde
 nav: Providers
 network: true
-overview: 'Kinde publishes 27 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, APIs API, Applications API, and 24 more. Tagged areas include Authentication, User Management, Identity, Authorization, and SaaS.
+overview: 'Kinde publishes 27 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, APIs API, Applications API, and 24 more. Tagged areas include Authentication, User Management, Identity, Authorization, and Software-as-a-Service.
 
 
   Kinde''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -289,8 +289,8 @@ rate_limits:
   name: Kinde So Rate Limits
   slug: kinde-so-rate-limits
 score:
-  band: developing
-  composite: 39.8
+  band: thin
+  composite: 38.9
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -298,10 +298,10 @@ score:
     contract_governance: 0.0
     contract_quality: 60.8
     developer_ergonomics: 23.8
-    discoverability: 59.3
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.8
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -309,8 +309,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinde-so/refs/heads/main/screenshots/kinde-so-2026-07-25T223804.png
 security:
@@ -336,7 +336,7 @@ tags:
 - User Management
 - Identity
 - Authorization
-- SaaS
+- Software-as-a-Service
 - CIAM
 website: https://kinde.com
 ---

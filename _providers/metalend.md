@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -220,8 +220,8 @@ image: https://d26nkljutfj8pz.cloudfront.net/images/metalend-share.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: metalend-mcp.yml
-  slug: metalend-mcpyml
+  name: MetaLend MCP Server
+  slug: metalend-mcp-server
 modified: '2026-07-20'
 name: MetaLend
 nav: Providers
@@ -234,7 +234,7 @@ random_paper: 2
 score:
   band: strong
   composite: 54.6
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 50.5
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,8 +261,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/screenshots/metalend-2026-08-07T172645.png
 security:
@@ -285,7 +285,7 @@ tags:
 - Web3
 - Stablecoins
 - Payments
-- Agent Native
+- agent-native
 - Blockchain
 website: https://metalend.tech/
 ---

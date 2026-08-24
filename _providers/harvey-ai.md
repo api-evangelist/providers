@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Harvey does not currently publish a public, self-serve developer API. Integrations with document management systems, research tools, and firm workflows are delivered through Harvey's Ecosystem program
@@ -89,7 +89,7 @@ modified: '2026-05-23'
 name: Harvey
 nav: Providers
 network: true
-overview: 'Harvey publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LegalTech, Law Firms, Legal Research, and Contract Analysis.
+overview: 'Harvey publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Legal Tech, Law Firms, Legal Research, and Contract Analysis.
 
 
   Harvey''s developer surface includes engineering blog and 8 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.3
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -115,10 +115,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 28.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvey-ai/refs/heads/main/screenshots/harvey-ai-2026-06-20T182535.png
 security:
 - kind: domain-security
@@ -136,7 +136,7 @@ security:
 slug: harvey-ai
 tags:
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 - Law Firms
 - Legal Research
 - Contract Analysis

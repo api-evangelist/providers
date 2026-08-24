@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Omni Commerce Connect (OCC) REST API exposes a broad set of commerce and data services, enabling integration of SAP Commerce functionality anywhere in the application landscape. OCC v2 is the defa
@@ -40,6 +40,10 @@ apis:
   slug: sap-commerce-cloud-portal-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -100,14 +104,14 @@ finops:
   slug: sap-commerce-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sap-commerce.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-21'
 name: SAP Commerce Cloud
 nav: Providers
 network: true
 overview: 'SAP Commerce Cloud publishes 1 API on the [APIs.io](https://apis.io/) network: OCC API. Tagged areas include E-Commerce, Commerce, Retail, B2B, and B2C.
 
 
-  SAP Commerce Cloud''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  SAP Commerce Cloud''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Sap Commerce Plans Pricing
   plan_count: 3
@@ -120,7 +124,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.1
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -130,9 +134,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce/refs/heads/main/screenshots/sap-commerce-2026-06-20T193423.png
 security:
@@ -154,8 +158,8 @@ tags:
 - SAP
 - Enterprise
 - Omnichannel
-- Products
-- Orders
-- Carts
+- Product
+- Order
+- Cart
 website: https://www.sap.com/products/crm/commerce-cloud.html
 ---

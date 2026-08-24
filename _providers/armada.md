@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -329,8 +329,8 @@ image: https://docs.armada.ai/img/logo-black.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: armada-mcp.yml
-  slug: armada-mcpyml
+  name: Armada MCP Server
+  slug: armada-mcp-server
 modified: '2026-07-18'
 name: Armada
 nav: Providers
@@ -343,7 +343,7 @@ random_paper: 5
 score:
   band: thin
   composite: 34.3
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -353,7 +353,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 37.2
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -364,8 +364,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/screenshots/armada-2026-07-25T201219.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-21'
 name: Roofstock
 nav: Providers
 network: true
-overview: 'Roofstock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Investing, and Single-Family Rentals.
+overview: 'Roofstock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Investing, and Single-Family Rentals.
 
 
   Roofstock''s developer surface includes getting-started guide, engineering blog, signup flow, support, and 7 more developer resources.'
@@ -103,8 +103,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 16.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -114,11 +114,11 @@ security:
 slug: roofstock
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Investing
 - Single-Family Rentals
 - Marketplace
-- FinTech
+- Fintech
 website: https://www.roofstock.com
 ---

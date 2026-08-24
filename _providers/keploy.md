@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for Keploy Cloud providing test generation and execution capabilities, app/test-suite management, recordings/mocks, test reports, schema coverage, API keys, clusters, and account/subscription
@@ -77,11 +77,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keploy.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Keploy MCP Server
+  slug: keploy-mcp-server
 - description: ''
-  name: keploy-mcp.yml
-  slug: keploy-mcpyml
+  name: Keploy MCP Server
+  slug: keploy-mcp-server-2
 modified: '2026-06-20'
 name: Keploy
 nav: Providers
@@ -94,7 +94,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 8.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -104,12 +104,12 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 7.9
+  previous_composite: 8.1
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keploy/refs/heads/main/screenshots/keploy-2026-07-25T223630.png
 security:

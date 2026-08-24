@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Live Shopify-hosted storefront MCP endpoint for the Yeeps store, exposing catalog search, cart management, product details, and shop policy/FAQ tools over JSON-RPC (streamable HTTP). Probed live 2026-
@@ -93,9 +93,9 @@ description: Trass Games is an a16z-backed independent VR game studio best known
 image: https://yeeps.com/cdn/shop/files/yeeps-head-full-color.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: trass-games-mcp.yml
-  slug: trass-games-mcpyml
+- description: Trass Games publishes no first-party MCP server, but both of its Shopify storefronts expose the live Shopify-hosted storefront MCP endpoint. The tool list below was captured verbatim from a tools/list
+  name: Trass Games MCP Server
+  slug: trass-games-mcp-server
 modified: '2026-07-21'
 name: Trass Games
 nav: Providers
@@ -108,7 +108,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 16.8
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -124,12 +124,12 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 17.7
+  previous_composite: 16.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -143,7 +143,7 @@ tags:
 - VR Games
 - Meta Quest
 - Social Games
-- Ecommerce
+- E-Commerce
 - Entertainment
 website: https://trass.games
 ---

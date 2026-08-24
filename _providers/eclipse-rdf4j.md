@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-05-19'
 name: Eclipse RDF4J
 nav: Providers
 network: true
-overview: 'Eclipse RDF4J publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Contexts API, Namespaces API, Protocol API, and 4 more. Tagged areas include Eclipse Foundation, Java, Linked Data, Open Source, and RDF.
+overview: 'Eclipse RDF4J publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Contexts API, Namespaces API, Protocol API, and 4 more. Tagged areas include Eclipse Foundation, Java, Linked Data, Open-Source, and RDF.
 
 
   Eclipse RDF4J''s developer surface includes getting-started guide, documentation, changelog, support, engineering blog, and 10 more developer resources.'
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.0
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -188,7 +188,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.0
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -196,8 +196,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/screenshots/eclipse-rdf4j-2026-06-20T180427.png
 security:
@@ -210,7 +210,7 @@ tags:
 - Eclipse Foundation
 - Java
 - Linked Data
-- Open Source
+- Open-Source
 - RDF
 - Semantic Web
 - SPARQL

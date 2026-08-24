@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The FAA NOTAM API provides access to Notices to Air Missions (NOTAMs), which are time-critical aeronautical information that could affect a pilot's decision to make a flight. The API allows developers
@@ -84,7 +84,7 @@ modified: '2026-04-28'
 name: Federal Aviation Administration
 nav: Providers
 network: true
-overview: 'Federal Aviation Administration publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation and Federal Government.
+overview: 'Federal Aviation Administration publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation and Federal-Government.
 
 
   Federal Aviation Administration''s developer surface includes documentation and 4 more developer resources.'
@@ -100,7 +100,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.4
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -110,15 +110,15 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.0
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-aviation-administration/refs/heads/main/screenshots/federal-aviation-administration-2026-06-20T181109.png
 security:
@@ -129,6 +129,6 @@ security:
 slug: federal-aviation-administration
 tags:
 - Aviation
-- Federal Government
+- Federal-Government
 website: https://www.faa.gov/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ scopes:
 score:
   band: strong
   composite: 66.2
-  delta: 7.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -267,7 +267,7 @@ score:
     discoverability: 77.8
     governance: 34.1
     operational_transparency: 18.4
-  previous_composite: 58.5
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -284,9 +284,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 53.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/screenshots/openadr-alliance-2026-08-07T190522.png
 security:
 - kind: authentication

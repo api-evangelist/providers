@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Manage programmatic access keys for the authenticated user.
@@ -193,8 +193,8 @@ image: https://www.totalis.trade/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: totalis-mcp.yml
-  slug: totalis-mcpyml
+  name: Totalis MCP Server
+  slug: totalis-mcp-server
 modified: '2026-07-21'
 name: Totalis
 nav: Providers
@@ -214,7 +214,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.5
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -224,7 +224,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 48.9
+  previous_composite: 51.5
   provenance:
     conformance: derived
     contracts:
@@ -240,8 +240,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/screenshots/totalis-2026-08-17T082410.png
 security:
@@ -264,6 +264,6 @@ tags:
 - Solana
 - Crypto Web3
 - Market Data
-- Webhooks
+- Webhook
 website: https://www.totalis.trade
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public REST API for Arga's testing infrastructure — provision digital twins, deploy branches/PRs into sandboxes, run browser-agent validations, save and replay tests, manage scenarios (seed data), and
@@ -139,8 +139,8 @@ image: https://www.argalabs.com/logo_black.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: arga-labs-mcp.yml
-  slug: arga-labs-mcpyml
+  name: Arga Labs MCP Server
+  slug: arga-labs-mcp-server
 modified: '2026-07-18'
 name: Arga Labs
 nav: Providers
@@ -153,7 +153,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 17.3
-  delta: -11.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -163,13 +163,13 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 29.1
+  previous_composite: 17.3
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/screenshots/arga-labs-2026-07-25T201136.png
 security:
 - kind: authentication

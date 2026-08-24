@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -584,18 +584,18 @@ rules:
   slug: acronis-spectral-rules
 score:
   band: thin
-  composite: 34.0
-  delta: -4.8
+  composite: 34.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 24.0
     developer_ergonomics: 45.2
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 38.8
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -603,8 +603,8 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/screenshots/acronis-2026-06-20T164007.png
 security:

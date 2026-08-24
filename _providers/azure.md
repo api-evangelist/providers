@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-05-19'
 name: Microsoft Azure
 nav: Providers
 network: true
-overview: 'Microsoft Azure publishes 3 APIs on the [APIs.io](https://apis.io/) network: Resource Groups API, Resources API, and Subscriptions API. Tagged areas include Cloud Computing, Databases, Infrastructure, Machine Learning, and Networking.
+overview: 'Microsoft Azure publishes 3 APIs on the [APIs.io](https://apis.io/) network: Resource Groups API, Resources API, and Subscriptions API. Tagged areas include Cloud Computing, Databases, Infrastructure, Machine-Learning, and Networking.
 
 
   The Microsoft Azure catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -275,19 +275,19 @@ scopes:
   slug: azure-scopes
   summary_line: 1 scope · implicit
 score:
-  band: thin
-  composite: 39.0
-  delta: -6.8
+  band: developing
+  composite: 39.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 20.6
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 45.8
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -295,9 +295,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/screenshots/azure-2026-06-20T172833.png
 security:
 - kind: authentication
@@ -335,9 +335,9 @@ tags:
 - Cloud Computing
 - Databases
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Networking
-- Platform as a Service
+- Platform-as-a-Service
 - Storage
 website: https://portal.azure.com
 ---

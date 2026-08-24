@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The MediaBeacon REST API provides programmatic access to the MediaBeacon Digital Asset Management platform, enabling integration with other products and automated data transfer between services.
@@ -65,7 +65,7 @@ modified: '2026-07-25'
 name: MediaBeacon
 nav: Providers
 network: true
-overview: 'MediaBeacon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DAM, Digital Asset Management, Integrations, and Media.
+overview: 'MediaBeacon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DAM, Digital Asset Management, Integration, and Media.
 
 
   MediaBeacon''s developer surface includes documentation and 3 more developer resources.'
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -91,9 +91,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 10.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediabeacon/refs/heads/main/screenshots/mediabeacon-2026-06-20T185117.png
 security:
@@ -105,7 +105,7 @@ slug: mediabeacon
 tags:
 - DAM
 - Digital Asset Management
-- Integrations
+- Integration
 - Media
 website: https://www.esko.com/en/products/mediabeacon
 ---

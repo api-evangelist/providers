@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: Context.ai *
 nav: Providers
 network: true
-overview: 'Context.ai * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, AI Agents, Enterprise AI, and Agent Platform.
+overview: 'Context.ai * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Enterprise AI, and Agent Platform.
 
 
   Context.ai *''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 11.4
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -90,9 +90,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextai/refs/heads/main/screenshots/contextai-2026-07-25T210323.png
 security:
@@ -103,7 +103,7 @@ security:
 slug: contextai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Enterprise AI
 - Agent Platform

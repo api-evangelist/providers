@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Comprehensive financial planning and advisory services from Thrivent Financial, offering personalized advice across investments, insurance, estate planning, and retirement. Services include free Money
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.1
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -152,15 +152,15 @@ score:
     discoverability: 64.8
     governance: 15.2
     operational_transparency: 7.9
-  previous_composite: 18.6
+  previous_composite: 16.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/screenshots/thrivent-financial-for-lutherans-2026-06-20T195319.png
 security:
@@ -180,6 +180,6 @@ tags:
 - Insurance
 - Investments
 - Mutual Funds
-- Non Profit
+- Non-Profit
 website: https://www.thrivent.com/
 ---

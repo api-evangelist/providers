@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API for loading schemas, querying business views, extracting data to external tables, scheduling dashboard reports, and administration. Authenticated with a bearer Personal Access T
@@ -147,8 +147,8 @@ image: https://cdn.prod.website-files.com/67b7abfbb037e687d0a415ec/67ec5981d1278
 layout: provider
 mcp_servers:
 - description: ''
-  name: incorta-mcp.yml
-  slug: incorta-mcpyml
+  name: Incorta MCP Server
+  slug: incorta-mcp-server
 modified: '2026-07-19'
 name: Incorta
 nav: Providers
@@ -161,7 +161,7 @@ random_paper: 17
 score:
   band: thin
   composite: 33.7
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -171,12 +171,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 33.0
+  previous_composite: 33.7
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incorta/refs/heads/main/screenshots/incorta-2026-07-25T222238.png
 security:

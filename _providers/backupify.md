@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ modified: '2026-05-19'
 name: Backupify
 nav: Providers
 network: true
-overview: 'Backupify publishes 2 APIs on the [APIs.io](https://apis.io/) network: Domains API and Seats API. Tagged areas include SaaS Backup, Data Protection, Cloud Backup, Microsoft 365, and Google Workspace.
+overview: 'Backupify publishes 2 APIs on the [APIs.io](https://apis.io/) network: Domains API and Seats API. Tagged areas include SaaS Backup, Data Protection, Cloud Backup, Microsoft-365, and Google Workspace.
 
 
   The Backupify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -282,18 +282,18 @@ rules:
   slug: backupify-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: -7.3
+  composite: 32.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 23.0
     developer_ergonomics: 42.9
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 39.3
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -301,9 +301,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/screenshots/backupify-2026-06-20T172919.png
 security:
 - kind: authentication
@@ -319,7 +319,7 @@ tags:
 - SaaS Backup
 - Data Protection
 - Cloud Backup
-- Microsoft 365
+- Microsoft-365
 - Google Workspace
 use_cases:
 - description: Protect Microsoft 365 and Google Workspace data from accidental deletion, ransomware, and insider threats.

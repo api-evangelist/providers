@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 3
@@ -449,8 +449,8 @@ image: https://api-docs.mend.io/assets/mend-io-logo.06cad8388af3f063d8c0af6ef038
 layout: provider
 mcp_servers:
 - description: ''
-  name: mend-mcp.yml
-  slug: mend-mcpyml
+  name: Mend MCP Server
+  slug: mend-mcp-server
 modified: '2026-07-20'
 name: Mend
 nav: Providers
@@ -463,7 +463,7 @@ random_paper: 0
 score:
   band: developing
   composite: 50.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -473,7 +473,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 50.7
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -484,8 +484,8 @@ score:
       total: 47
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/screenshots/mend-2026-08-07T172510.png
 security:

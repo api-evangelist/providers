@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Southwestern Energy investor relations portal provides financial data, shareholder information, earnings summaries, SEC filings, and corporate governance information. The investor relations infras
@@ -105,7 +105,7 @@ modified: '2026-05-02'
 name: Southwestern Energy
 nav: Providers
 network: true
-overview: 'Southwestern Energy publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Natural Gas, Energy, and Oil And Gas.
+overview: 'Southwestern Energy publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Natural Gas, Energy, and Oil and Gas.
 
 
   The Southwestern Energy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -151,7 +151,7 @@ rules:
 score:
   band: emerging
   composite: 17.1
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -161,16 +161,16 @@ score:
     discoverability: 50.0
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 22.5
+  previous_composite: 17.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwestern-energy/refs/heads/main/screenshots/southwestern-energy-2026-06-20T194233.png
 security:
 - kind: domain-security
@@ -182,6 +182,6 @@ tags:
 - Fortune 500
 - Natural Gas
 - Energy
-- Oil And Gas
+- Oil and Gas
 website: https://www.swn.com
 ---

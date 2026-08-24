@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -335,7 +335,7 @@ modified: '2026-06-13'
 name: Openverse
 nav: Providers
 network: true
-overview: 'Openverse publishes 3 APIs on the [APIs.io](https://apis.io/) network: audio API, auth API, and images API. Tagged areas include Images, Audio, Creative Commons, Open Media, and Search.
+overview: 'Openverse publishes 3 APIs on the [APIs.io](https://apis.io/) network: audio API, auth API, and images API. Tagged areas include Image, Audio, Creative Commons, Open Media, and Search.
 
 
   The Openverse catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -365,7 +365,7 @@ rules:
 score:
   band: thin
   composite: 35.3
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -375,7 +375,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 38.5
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -389,8 +389,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/screenshots/openverse-2026-06-20T191047.png
 security:
@@ -404,7 +404,7 @@ security:
   summary_line: TLSv1.3
 slug: openverse
 tags:
-- Images
+- Image
 - Audio
 - Creative Commons
 - Open Media

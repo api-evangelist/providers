@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ modified: '2026-05-19'
 name: Apache Tika
 nav: Providers
 network: true
-overview: 'Apache Tika publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Apache Tika Server REST API API, Detect API, Detectors API, and 9 more. Tagged areas include Content Extraction, Document Processing, Metadata, Text Extraction, and Open Source.
+overview: 'Apache Tika publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Apache Tika Server REST API API, Detect API, Detectors API, and 9 more. Tagged areas include Content Extraction, Document Processing, Metadata, Text Extraction, and Open-Source.
 
 
   Apache Tika''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
@@ -237,7 +237,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.4
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -247,7 +247,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 33.5
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -255,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/screenshots/apache-tika-2026-06-20T172153.png
 security:
@@ -274,7 +274,7 @@ tags:
 - Document Processing
 - Metadata
 - Text Extraction
-- Open Source
+- Open-Source
 use_cases:
 - description: Extract text from documents for indexing in Apache Solr or Elasticsearch.
   name: Search Indexing

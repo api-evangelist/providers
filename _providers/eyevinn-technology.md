@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Eyevinn Open Source Cloud (OSC) REST API is the management plane for provisioning and operating service instances on the OSC platform. The API uses Personal Access Tokens (PATs) issued from app.os
@@ -242,8 +242,8 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp-server
-  slug: mcp-server
+  name: Eyevinn Technology MCP Server
+  slug: eyevinn-technology-mcp-server
 modified: '2026-05-25'
 name: Eyevinn Technology
 nav: Providers
@@ -256,7 +256,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 25.4
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -266,9 +266,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 28.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eyevinn-technology/refs/heads/main/screenshots/eyevinn-technology-2026-06-20T180953.png
 security:
@@ -295,7 +295,7 @@ tags:
 - HLS
 - Live Streaming
 - Media Over QUIC
-- Open Source
+- Open-Source
 - Open Source Cloud
 - OSC
 - Player Analytics

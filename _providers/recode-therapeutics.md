@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Press releases, publications, corporate pages and site-specific custom post types.
@@ -216,7 +216,7 @@ modified: '2026-08-05'
 name: ReCode Therapeutics
 nav: Providers
 network: true
-overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 4 more. Tagged areas include Company, genetic-medicines, biotechnology, biopharmaceuticals, and mrna.
+overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 4 more. Tagged areas include Company, Genetic Medicines, Biotechnology, biopharmaceuticals, and mRNA.
 
 
   The ReCode Therapeutics catalog on APIs.io includes 1 JSON-LD context.
@@ -227,7 +227,7 @@ random_paper: 15
 score:
   band: developing
   composite: 39.8
-  delta: 9.1
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -237,7 +237,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 30.7
+  previous_composite: 39.8
   provenance:
     conformance: derived
     contracts:
@@ -252,9 +252,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Recode Therapeutics Authentication
@@ -267,18 +267,18 @@ security:
 slug: recode-therapeutics
 tags:
 - Company
-- genetic-medicines
-- biotechnology
+- Genetic Medicines
+- Biotechnology
 - biopharmaceuticals
-- mrna
+- mRNA
 - gene-correction
-- lipid-nanoparticles
-- drug-delivery
-- rare-disease
+- Lipid Nanoparticles
+- Drug Delivery
+- Rare Disease
 - cystic-fibrosis
 - primary-ciliary-dyskinesia
-- clinical-trials
-- life-sciences
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://recodetx.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Mirage JS is a JavaScript library for mocking APIs. It enables frontend developers to build complete features, write realistic tests, and share working prototypes without a real backend. Mirage runs i
@@ -69,7 +69,7 @@ modified: '2026-04-28'
 name: Mirage JS
 nav: Providers
 network: true
-overview: 'Mirage JS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, Testing, JavaScript, and Open Source.
+overview: 'Mirage JS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, Testing, JavaScript, and Open-Source.
 
 
   Mirage JS''s developer surface includes GitHub presence and 4 more developer resources.'
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.8
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -95,9 +95,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 10.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirage-js/refs/heads/main/screenshots/mirage-js-2026-06-20T185607.png
 security:
@@ -110,6 +110,6 @@ tags:
 - API Mocking
 - Testing
 - JavaScript
-- Open Source
+- Open-Source
 website: https://miragejs.com/
 ---

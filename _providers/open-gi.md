@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The API layer of Open GI's cloud Mobius broking platform. Open GI's public Mobius release notes document real API capability — a Client Checks API whose sanctions-check endpoints include a POST to ini
@@ -128,7 +128,7 @@ modified: '2026-07-25'
 name: Open GI
 nav: Providers
 network: true
-overview: 'Open GI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Ireland, Broker, and Agency Management.
+overview: 'Open GI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Ireland, Brokers, and Agency Management.
 
 
   Open GI''s developer surface includes engineering blog, changelog, release notes, documentation, FAQ, support, and 17 more developer resources.'
@@ -136,7 +136,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 21.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -146,7 +146,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 21.6
+  previous_composite: 21.4
   provenance:
     conformance: first-party
   regulatory:
@@ -155,8 +155,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/screenshots/open-gi-2026-08-07T190454.png
 security:
@@ -169,7 +169,7 @@ tags:
 - Insurance
 - United Kingdom
 - Ireland
-- Broker
+- Brokers
 - Agency Management
 - Policy Administration
 - Underwriting

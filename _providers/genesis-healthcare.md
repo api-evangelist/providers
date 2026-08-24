@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ modified: '2026-05-23'
 name: Genesis Healthcare
 nav: Providers
 network: true
-overview: 'Genesis Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Skilled Nursing, Rehabilitation, Senior Living, and Long Term Care.
+overview: 'Genesis Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Skilled Nursing, Rehabilitation, Senior Living, and Long-Term Care.
 
 
   Genesis Healthcare''s developer surface includes privacy policy, legal docs, and 9 more developer resources.'
@@ -93,7 +93,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 6.2
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -103,15 +103,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.2
+  previous_composite: 6.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genesis-healthcare/refs/heads/main/screenshots/genesis-healthcare-2026-06-20T181733.png
 security:
@@ -125,7 +125,7 @@ tags:
 - Skilled Nursing
 - Rehabilitation
 - Senior Living
-- Long Term Care
+- Long-Term Care
 - Chapter 11
 - Restructuring
 - Distressed

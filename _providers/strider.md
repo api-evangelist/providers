@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Strider's hosted Model Context Protocol server, published at app.striderintel.com/app-api/mcp. It advertises itself by name ("Strider MCP") in an RFC 9728 protected-resource metadata document and is p
@@ -124,8 +124,8 @@ image: https://content.striderintel.com/wp-content/uploads/2025/03/1600x900-Site
 layout: provider
 mcp_servers:
 - description: ''
-  name: strider-mcp.yml
-  slug: strider-mcpyml
+  name: Strider MCP
+  slug: strider-mcp
 modified: '2026-08-05'
 name: Strider
 nav: Providers
@@ -138,7 +138,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 25.0
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -148,12 +148,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 28.9
+  previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Following the Fiserv merger, legacy First Data API products are now hosted on the Fiserv developer portal. These include Commerce Hub, Payeezy, and Bolt for merchant payment acceptance, tokenization, '
@@ -69,7 +69,7 @@ modified: '2026-04-28'
 name: First Data (Fiserv)
 nav: Providers
 network: true
-overview: First Data (Fiserv) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Merchant Services, Financial Services, Transaction Processing, and Fortune 500.
+overview: First Data (Fiserv) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Merchant Services, Financial-Services, Transaction Processing, and Fortune 500.
 plans:
 - name: First Data Plans Pricing
   plan_count: 2
@@ -98,7 +98,7 @@ rate_limits:
 score:
   band: minimal
   composite: 6.1
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -108,16 +108,16 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 11.3
+  previous_composite: 6.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/screenshots/first-data-2026-06-20T181236.png
 security:
 - kind: domain-security
@@ -128,7 +128,7 @@ slug: first-data
 tags:
 - Payments
 - Merchant Services
-- Financial Services
+- Financial-Services
 - Transaction Processing
 - Fortune 500
 website: https://www.fiserv.com

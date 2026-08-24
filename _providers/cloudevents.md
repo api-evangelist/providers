@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ modified: '2026-05-19'
 name: CloudEvents
 nav: Providers
 network: true
-overview: 'CloudEvents publishes 2 APIs on the [APIs.io](https://apis.io/) network: Specification and Subscriptions API. Tagged areas include Cloud Native, Events, Graduated, Interoperability, and Messaging.
+overview: 'CloudEvents publishes 2 APIs on the [APIs.io](https://apis.io/) network: Specification and Subscriptions API. Tagged areas include Cloud-Native, Event, Graduated, Interoperability, and Messaging.
 
 
   The CloudEvents catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -250,18 +250,18 @@ rules:
   slug: cloudevents-rules
 score:
   band: thin
-  composite: 38.7
-  delta: -3.2
+  composite: 39.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 72.8
     developer_ergonomics: 31.0
     discoverability: 72.2
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 41.9
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -269,8 +269,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/screenshots/cloudevents-2026-06-20T174548.png
 security:
@@ -280,8 +280,8 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: cloudevents
 tags:
-- Cloud Native
-- Events
+- Cloud-Native
+- Event
 - Graduated
 - Interoperability
 - Messaging

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -368,14 +368,14 @@ jsonld:
   slug: usergems-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: usergems-mcp.yml
-  slug: usergems-mcpyml
+- description: 'UserGems ships a hosted, remote MCP server — "UserGems MCP" — that lets an agent build and run GTM campaigns against the customer''s own UserGems workspace and CRM from Claude or ChatGPT. The endpoint '
+  name: UserGems MCP
+  slug: usergems-mcp
 modified: '2026-08-13'
 name: UserGems
 nav: Providers
 network: true
-overview: 'UserGems publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Contacts API, and Privacy API. Tagged areas include Sales Intelligence, Outbound, ABM, Champion Tracking, and Job Changes.
+overview: 'UserGems publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Contacts API, and Privacy API. Tagged areas include Sales Intelligence, Outbound, Account Based Marketing, Champion Tracking, and Job Changes.
 
 
   The UserGems catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -421,18 +421,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 71.7
-  delta: -7.9
+  composite: 72.1
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_governance: 40.2
+    contract_governance: 43.9
     contract_quality: 80.4
     developer_ergonomics: 63.7
     discoverability: 92.6
-    governance: 40.2
+    governance: 43.9
     operational_transparency: 52.6
-  previous_composite: 79.6
+  previous_composite: 72.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -443,9 +443,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/screenshots/usergems-2026-06-20T200715.png
 security:
 - kind: authentication
@@ -468,7 +468,7 @@ slug: usergems
 tags:
 - Sales Intelligence
 - Outbound
-- ABM
+- Account Based Marketing
 - Champion Tracking
 - Job Changes
 - Buying Signals
@@ -476,7 +476,7 @@ tags:
 - Sales Engagement
 - CRM
 - Revenue Operations
-- GTM
+- Go-To-Market
 - MCP
 - AI Agents
 website: https://www.usergems.com

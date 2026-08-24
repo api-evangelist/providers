@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-07-26'
 name: View.com.au
 nav: Providers
 network: true
-overview: 'View.com.au publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Australia, Property Listings, Property Portal, and PropTech.
+overview: 'View.com.au publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Australia, Property Listings, Property Portal, and PropTech.
 
 
   View.com.au''s developer surface includes authentication, engineering blog, support, signup flow, and 18 more developer resources.'
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -167,14 +167,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 22.0
+  previous_composite: 22.2
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -187,14 +187,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: view-com-au
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Listings
 - Property Portal
 - PropTech
 - Rentals
 - Off-Market Property Data
-- Model Context Protocol
-- Agent-Native
+- MCP
+- agent-native
 website: https://view.com.au/
 ---

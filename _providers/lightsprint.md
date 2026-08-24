@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API over the Lightsprint workspace board — tasks, comments, projects, stacks, and cloud coding agents. Authenticated with OAuth 2.0 authorization-code tokens bound to a single workspace; the repo
@@ -168,8 +168,8 @@ image: https://lightsprint.ai/favicon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: lightsprint-mcp.yml
-  slug: lightsprint-mcpyml
+  name: Lightsprint MCP Server
+  slug: lightsprint-mcp-server
 modified: '2026-07-19'
 name: Lightsprint
 nav: Providers
@@ -191,7 +191,7 @@ scopes:
 score:
   band: developing
   composite: 39.9
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -207,13 +207,13 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 39.0
+  previous_composite: 39.9
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/screenshots/lightsprint-2026-07-25T225137.png
 security:

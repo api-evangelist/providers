@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -171,13 +171,13 @@ image: https://avatars.githubusercontent.com/u/252118542?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: strand-ai-mcp.yml
-  slug: strand-ai-mcpyml
+  name: Strand AI MCP Server
+  slug: strand-ai-mcp-server
 modified: '2026-07-21'
 name: Strand AI
 nav: Providers
 network: true
-overview: 'Strand AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Predict API, Samples API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Life Sciences, and Spatial Biology.
+overview: 'Strand AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Predict API, Samples API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Life Sciences, and Spatial Biology.
 
 
   Strand AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, changelog, and 17 more developer resources.'
@@ -185,7 +185,7 @@ random_paper: 17
 score:
   band: developing
   composite: 41.0
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -195,7 +195,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 40.0
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,8 +212,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -228,7 +228,7 @@ slug: strand-ai
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Spatial Biology
 - Bioinformatics

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,18 +176,18 @@ rules:
   slug: unpaywall-rules
 score:
   band: thin
-  composite: 26.9
-  delta: -14.3
+  composite: 27.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.1
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 41.2
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -201,9 +201,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/screenshots/unpaywall-2026-06-20T200345.png
 security:
 - kind: domain-security

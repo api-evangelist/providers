@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public-facing presence of the U.S. Election Assistance Commission. The EAC publishes Election Administration and Voting Survey (EAVS) datasets, codebooks, voluntary voting system guidelines, voter lis
@@ -81,7 +81,7 @@ modified: '2026-04-28'
 name: Election Assistance Commission
 nav: Providers
 network: true
-overview: Election Assistance Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Elections, Voting, and Open Data.
+overview: Election Assistance Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Elections, Voting, and Open Data.
 plans:
 - name: Election Assistance Commission Plans Pricing
   plan_count: 3
@@ -94,7 +94,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -104,15 +104,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 9.5
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/screenshots/election-assistance-commission-2026-06-20T180552.png
 security:
@@ -122,7 +122,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: election-assistance-commission
 tags:
-- Federal Government
+- Federal-Government
 - Elections
 - Voting
 - Open Data

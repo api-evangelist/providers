@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -149,7 +149,7 @@ modified: '2026-05-25'
 name: AppFolio
 nav: Providers
 network: true
-overview: 'AppFolio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real Estate, Residential, Commercial, and Community Associations.
+overview: 'AppFolio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real-Estate, Residential, Commercial, and Community Associations.
 
 
   AppFolio''s developer surface includes Stack Overflow tag, GitHub presence, engineering blog, pricing, YouTube channel, and 21 more developer resources.'
@@ -157,7 +157,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 17.4
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -167,15 +167,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.6
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfolio/refs/heads/main/screenshots/appfolio-2026-06-20T172316.png
 security:
@@ -186,18 +186,18 @@ security:
 slug: appfolio
 tags:
 - Property Management
-- Real Estate
+- Real-Estate
 - Residential
 - Commercial
 - Community Associations
 - HOA
 - Multifamily
-- Single Family Rentals
+- Single-Family Rentals
 - Student Housing
 - Affordable Housing
 - Investment Management
 - PropTech
-- SaaS
+- Software-as-a-Service
 - Accounting
 - Leasing
 - Maintenance

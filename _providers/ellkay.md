@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Single-endpoint healthcare interoperability API exposing proprietary LK* operations (appointments, patient bridge/search, documents, charges, patient balance, master lists) that bi-directionally conne
@@ -126,8 +126,8 @@ image: https://cdn.prod.website-files.com/68470d9028f4a074323fde70/689b3ac60177b
 layout: provider
 mcp_servers:
 - description: ''
-  name: ellkay-mcp.yml
-  slug: ellkay-mcpyml
+  name: ELLKAY MCP Server
+  slug: ellkay-mcp-server
 modified: '2026-07-19'
 name: ELLKAY
 nav: Providers
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.6
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -154,7 +154,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 29.2
+  previous_composite: 29.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -164,8 +164,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/screenshots/ellkay-2026-07-25T213153.png
 security:
@@ -186,6 +186,5 @@ tags:
 - HL7
 - EHR Integration
 - Health Data
-- API
 website: https://www.ellkay.com/
 ---

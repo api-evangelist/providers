@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,10 +27,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 43.6
-  scored_at: '2026-08-19'
+  score: 47.0
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -229,9 +230,9 @@ description: Sponge builds financial infrastructure for the agent economy — wa
 image: https://paysponge.com/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sponge-mcp.yml
-  slug: sponge-mcpyml
+- description: Sponge publishes official, hosted (remote) MCP servers for both the agent Wallet and the merchant Gateway. Wallet servers authenticate with an agent API key (sponge_live_...) for CLI clients, or OAuth
+  name: Sponge MCP Server
+  slug: sponge-mcp-server
 modified: '2026-07-21'
 name: Sponge
 nav: Providers
@@ -248,18 +249,18 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 50.9
-  delta: 2.0
+  composite: 52.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 30.3
     contract_quality: 53.6
     developer_ergonomics: 76.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 48.9
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,8 +277,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/screenshots/sponge-2026-08-17T082030.png
 security:
@@ -304,6 +305,6 @@ tags:
 - MCP
 - Fintech
 - Cards
-- Onramp
+- On-Ramp
 website: https://paysponge.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 9
 common:
@@ -75,12 +75,12 @@ modified: '2026-05-16'
 name: Sanofi
 nav: Providers
 network: true
-overview: Sanofi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Healthcare, Vaccines, and Biotechnology.
+overview: Sanofi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Healthcare, Vaccines, and Biotechnology.
 random_paper: 10
 score:
   band: minimal
   composite: 5.8
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,15 +90,15 @@ score:
     discoverability: 40.7
     governance: 15.2
     operational_transparency: 5.3
-  previous_composite: 7.2
+  previous_composite: 5.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanofi/refs/heads/main/screenshots/sanofi-2026-06-20T193409.png
 security:
@@ -108,7 +108,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: sanofi
 tags:
-- Pharmaceutical
+- Pharmaceuticals
 - Healthcare
 - Vaccines
 - Biotechnology

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.7
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -131,9 +131,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 22.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/admagica-ai/refs/heads/main/screenshots/admagica-ai-2026-07-25T181639.png
 security:
@@ -149,6 +149,6 @@ tags:
 - Artificial Intelligence
 - Creative
 - AdTech
-- SaaS
+- Software-as-a-Service
 website: https://admagica.ai
 ---

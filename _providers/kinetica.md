@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'POST-only JSON REST API exposed by every Kinetica deployment on port 9191. Endpoints cover SQL execution (/execute/sql), record ingest and egress (/insert/records/json, /get/records/json), schema and '
@@ -176,16 +176,16 @@ image: https://kinetica-web-assets.s3.us-east-1.amazonaws.com/assets/og-image.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: kinetica-mcp.yml
-  slug: kinetica-mcpyml
+  name: Kinetica MCP Server
+  slug: kinetica-mcp-server
 - description: ''
-  name: kinetica-docs-mcp.yml
-  slug: kinetica-docs-mcpyml
+  name: Kinetica Docs
+  slug: kinetica-docs
 modified: '2026-08-04'
 name: Kinetica
 nav: Providers
 network: true
-overview: 'Kinetica publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include database, analytics, gpu-acceleration, real-time-analytics, and vector-search.
+overview: 'Kinetica publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Analytics, gpu-acceleration, Real-Time Analytics, and Vector Search.
 
 
   Kinetica''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
@@ -198,7 +198,7 @@ scopes:
 score:
   band: thin
   composite: 38.7
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -208,13 +208,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 41.2
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/screenshots/kinetica-2026-08-07T171232.png
 security:
@@ -232,19 +232,19 @@ security:
   summary_line: security.txt · contact published
 slug: kinetica
 tags:
-- database
-- analytics
+- Database
+- Analytics
 - gpu-acceleration
-- real-time-analytics
-- vector-search
-- graph-analytics
-- geospatial
-- time-series
-- sql
-- streaming
-- data-infrastructure
-- mcp
+- Real-Time Analytics
+- Vector Search
+- Graph Analytics
+- Geospatial
+- Time Series
+- SQL
+- Streaming
+- Data Infrastructure
+- MCP
 - agent-native
-- rag
+- RAG
 website: https://www.kinetica.com/
 ---

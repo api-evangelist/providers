@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ modified: '2026-08-02'
 name: Trumid
 nav: Providers
 network: true
-overview: 'Trumid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, Fixed Income, and Bond Trading.
+overview: 'Trumid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Capital Markets, Fixed Income, and Bond Trading.
 
 
   Trumid''s developer surface includes support, signup flow, engineering blog, and 13 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 20.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -114,7 +114,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 21.0
+  previous_composite: 20.8
   provenance:
     conformance: first-party
   regulatory:
@@ -123,8 +123,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 53.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -134,7 +134,7 @@ security:
 slug: trumid
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Fixed Income
 - Bond Trading
@@ -142,6 +142,6 @@ tags:
 - Market Data
 - Analytics
 - FIX Protocol
-- Broker Dealer
+- Broker-Dealer
 website: https://www.trumid.com/
 ---

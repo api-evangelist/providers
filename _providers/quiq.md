@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Quiq's REST API and webhooks for building native chat and messaging applications on any platform, with event notifications delivered via webhooks. The API is tenant-scoped to each customer organizatio
@@ -131,22 +131,22 @@ overview: 'Quiq publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 7
 score:
   band: thin
-  composite: 29.7
-  delta: 0.8
+  composite: 30.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 68.5
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 28.9
+  previous_composite: 30.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -168,7 +168,7 @@ tags:
 - Conversational AI
 - Contact Center
 - Messaging
-- Customer Support
+- Customer-Support
 - AI Agents
 - Chatbots
 - Voice AI

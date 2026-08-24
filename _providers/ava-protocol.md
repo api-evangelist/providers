@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -239,8 +239,8 @@ image: https://avaprotocol.org/image/open-graph/index.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: ava-protocol-mcp.yml
-  slug: ava-protocol-mcpyml
+  name: Ava Protocol MCP Server
+  slug: ava-protocol-mcp-server
 modified: '2026-07-18'
 name: Ava Protocol
 nav: Providers
@@ -253,7 +253,7 @@ random_paper: 0
 score:
   band: developing
   composite: 47.3
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -263,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 44.5
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,8 +280,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/screenshots/ava-protocol-2026-07-25T201902.png
 security:

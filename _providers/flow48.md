@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: Flow48
 nav: Providers
 network: true
-overview: 'Flow48 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Embedded Finance, and SME Lending.
+overview: 'Flow48 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial-Services, Embedded Finance, and SME Lending.
 
 
   Flow48''s developer surface includes signup flow, support, and 4 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 10.2
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -82,9 +82,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow48/refs/heads/main/screenshots/flow48-2026-07-25T214829.png
 security:
@@ -96,7 +96,7 @@ slug: flow48
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - SME Lending
 - Revenue-Based Financing

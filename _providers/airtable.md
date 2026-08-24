@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -779,7 +779,7 @@ modified: '2026-05-19'
 name: Airtable
 nav: Providers
 network: true
-overview: 'Airtable publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Enterprise API, Audit Logs API, Shares API, and 9 more. Tagged areas include Applications, Collaboration, Data, Databases, and Low-Code.
+overview: 'Airtable publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Enterprise API, Audit Logs API, Shares API, and 9 more. Tagged areas include Application, Collaboration, Data, Databases, and Low-Code.
 
 
   The Airtable catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -831,7 +831,7 @@ rules:
 score:
   band: strong
   composite: 62.7
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -841,7 +841,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 66.3
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     contracts:
@@ -849,8 +849,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png
 security:
@@ -876,7 +876,7 @@ skills:
   slug: airtable-overview
 slug: airtable
 tags:
-- Applications
+- Application
 - Collaboration
 - Data
 - Databases

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Viva Connections provides a personalized employee experience gateway built on SharePoint. Developers can create custom dashboard cards using Adaptive Card Extensions (ACEs) in the SharePoint Framework
@@ -91,7 +91,7 @@ modified: '2026-04-28'
 name: Microsoft Viva
 nav: Providers
 network: true
-overview: 'Microsoft Viva publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employee Experience, Insights, Learning, Microsoft, and Microsoft 365.
+overview: 'Microsoft Viva publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employee Experience, Insights, Learning, Microsoft, and Microsoft-365.
 
 
   Microsoft Viva''s developer surface includes developer portal, documentation, support, and 6 more developer resources.'
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.0
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -117,9 +117,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 19.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-viva/refs/heads/main/screenshots/microsoft-viva-2026-06-20T185542.png
 security:
@@ -133,6 +133,6 @@ tags:
 - Insights
 - Learning
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 website: https://www.microsoft.com/en-us/microsoft-viva
 ---

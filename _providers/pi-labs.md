@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'OpenAPI-compatible REST API for scoring, calibrating, and optimizing LLM outputs against rubrics of natural-language questions. Authenticated with an API key (WITHPI_API_KEY) sent as an Authorization '
@@ -93,7 +93,7 @@ modified: '2026-07-20'
 name: Pi Labs
 nav: Providers
 network: true
-overview: 'Pi Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Evaluation, LLM, and Scoring.
+overview: 'Pi Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Evaluation, LLM, and Scoring.
 
 
   Pi Labs'' developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 7 more developer resources.'
@@ -101,7 +101,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 16.9
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -111,11 +111,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 21.1
+  previous_composite: 16.9
   provenance:
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -125,11 +125,11 @@ security:
 slug: pi-labs
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Evaluation
 - LLM
 - Scoring
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 website: https://withpi.ai
 ---

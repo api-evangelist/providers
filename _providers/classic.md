@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Affiliate API from Classic — 5 operation(s) for affiliate.
@@ -170,8 +170,8 @@ image: https://github.com/shapeshift.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: classic-mcp.yml
-  slug: classic-mcpyml
+  name: Classic MCP Server
+  slug: classic-mcp-server
 modified: '2026-07-18'
 name: Classic
 nav: Providers
@@ -184,7 +184,7 @@ random_paper: 3
 score:
   band: developing
   composite: 39.3
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 38.3
+  previous_composite: 39.3
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +210,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/screenshots/classic-2026-07-25T205521.png
 security:
@@ -231,7 +231,7 @@ tags:
 - DEX Aggregator
 - Swaps
 - Blockchain
-- Wallet
+- Wallets
 - Self-Custody
 website: https://og.shapeshift.com/
 ---

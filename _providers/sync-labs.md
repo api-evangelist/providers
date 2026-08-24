@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -208,18 +208,18 @@ rules:
   slug: sync-labs-rules
 score:
   band: developing
-  composite: 40.7
-  delta: -6.5
+  composite: 41.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 63.5
     developer_ergonomics: 35.7
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 47.2
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -227,9 +227,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/screenshots/sync-labs-2026-06-20T194835.png
 security:
 - kind: authentication

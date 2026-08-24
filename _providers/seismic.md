@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -440,18 +440,18 @@ rules:
   slug: seismic-rules
 score:
   band: developing
-  composite: 48.4
-  delta: -13.1
+  composite: 48.9
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 76.9
     developer_ergonomics: 31.0
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 35.5
-  previous_composite: 61.5
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -463,9 +463,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/screenshots/seismic-2026-06-20T193646.png
 security:
 - kind: authentication

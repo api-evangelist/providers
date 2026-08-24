@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for Promethium's agentic data platform — tenant-scoped OAuth2 authentication, datamap search and creation, bulk metadata import, audit logs, and federated SQL execution via the Trino Stream U
@@ -115,8 +115,8 @@ image: https://promethium.ai/wp-content/themes/promethium/assets/images/src/favi
 layout: provider
 mcp_servers:
 - description: ''
-  name: promethium-mcp.yml
-  slug: promethium-mcpyml
+  name: Promethium MCP Server
+  slug: promethium-mcp-server
 modified: '2026-07-20'
 name: Promethium
 nav: Providers
@@ -129,7 +129,7 @@ random_paper: 6
 score:
   band: thin
   composite: 29.2
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -139,13 +139,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 28.4
+  previous_composite: 29.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -163,7 +163,7 @@ tags:
 - Agentic Analytics
 - Semantic Layer
 - Enterprise Data
-- Model Context Protocol
+- MCP
 - Federated Query
 - Data Governance
 website: https://promethium.ai/

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,12 +56,12 @@ modified: '2026-05-04'
 name: Mutual of Omaha
 nav: Providers
 network: true
-overview: Mutual of Omaha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Insurance, Financial Services, Life Insurance, and Medicare.
+overview: Mutual of Omaha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Insurance, Financial-Services, Life Insurance, and Medicare.
 random_paper: 15
 score:
   band: minimal
   composite: 2.1
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -71,15 +71,15 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 5.7
+  previous_composite: 2.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutual-of-omaha/refs/heads/main/screenshots/mutual-of-omaha-2026-06-20T185910.png
 security:
@@ -91,7 +91,7 @@ slug: mutual-of-omaha
 tags:
 - Fortune 500
 - Insurance
-- Financial Services
+- Financial-Services
 - Life Insurance
 - Medicare
 website: https://www.mutualofomaha.com

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ modified: '2026-05-19'
 name: Amazon Timestream
 nav: Providers
 network: true
-overview: 'Amazon Timestream publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Databases API, Query API, Tables API, and 1 more. Tagged areas include Database, Iot, and Time Series.
+overview: 'Amazon Timestream publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Databases API, Query API, Tables API, and 1 more. Tagged areas include Database, IoT, and Time Series.
 
 
   The Amazon Timestream catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -234,18 +234,18 @@ rules:
   slug: amazon-timestream-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: -7.2
+  composite: 44.8
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 53.1
     developer_ergonomics: 35.7
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 51.5
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -253,9 +253,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/screenshots/amazon-timestream-2026-06-20T171834.png
 security:
 - kind: domain-security
@@ -273,7 +273,7 @@ security:
 slug: amazon-timestream
 tags:
 - Database
-- Iot
+- IoT
 - Time Series
 use_cases:
 - description: Use Amazon Timestream to manage and automate cloud operations.

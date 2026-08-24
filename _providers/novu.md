@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -677,7 +677,7 @@ modified: '2026-05-29'
 name: Novu
 nav: Providers
 network: true
-overview: 'Novu publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Inbox / In-App API, Activity API, Channel Connections API, and 14 more. Tagged areas include Notifications, Messaging, In App, Email, and SMS.
+overview: 'Novu publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Inbox / In-App API, Activity API, Channel Connections API, and 14 more. Tagged areas include Notification, Messaging, In-App, Email, and SMS.
 
 
   The Novu catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -729,7 +729,7 @@ rules:
 score:
   band: exemplar
   composite: 67.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -739,7 +739,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 66.4
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     contracts:
@@ -753,8 +753,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/screenshots/novu-2026-06-20T190442.png
 security:
@@ -777,20 +777,20 @@ solutions:
 - description: HIPAA BAA, custom SSO, SCIM directory sync, and custom data-residency regions (US, EU, UK, Singapore, Australia, Japan, South Korea).
   name: Enterprise (HIPAA, SSO, SCIM)
 tags:
-- Notifications
+- Notification
 - Messaging
-- In App
+- In-App
 - Email
 - SMS
 - Push
 - Chat
 - Workflows
-- Open Source
+- Open-Source
 - Subscribers
 - Topics
 - Inbox
 - Workflow Orchestration
-- Multi Channel
+- Multi-Channel
 - Digest
 - MCP
 - Framework

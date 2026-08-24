@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 1
@@ -212,13 +212,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lucidchart
 layout: provider
 mcp_servers:
 - description: ''
-  name: lucid-mcp.yml
-  slug: lucid-mcpyml
+  name: Lucid MCP Server
+  slug: lucid-mcp-server
 modified: '2026-08-01'
 name: Lucid
 nav: Providers
 network: true
-overview: 'Lucid publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API, Data API, SCIM API, and 1 more. Tagged areas include Visual Collaboration, Diagramming, Whiteboarding, Productivity, and SaaS.
+overview: 'Lucid publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API, Data API, SCIM API, and 1 more. Tagged areas include Visual Collaboration, Diagramming, Whiteboarding, Productivity, and Software-as-a-Service.
 
 
   Lucid''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
@@ -235,7 +235,7 @@ scopes:
 score:
   band: strong
   composite: 62.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -245,7 +245,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 76.3
-  previous_composite: 62.7
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,8 +256,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/screenshots/lucid-2026-08-07T171817.png
 security:
@@ -283,7 +283,7 @@ tags:
 - Diagramming
 - Whiteboarding
 - Productivity
-- SaaS
+- Software-as-a-Service
 - Cloud Visualization
 - SCIM
 - Identity

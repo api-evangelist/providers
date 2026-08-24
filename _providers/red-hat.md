@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -460,6 +460,10 @@ collections:
   name: Red Hat Ansible Automation Platform Add-Ons Workflow Job Templates API
   slug: open-red-hat-workflow-job-templates-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1302,10 +1306,10 @@ jsonld:
   slug: red-hat-satellite-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: red-hat-mcp.yml
-  slug: red-hat-mcpyml
-modified: '2026-08-08'
+- description: Red Hat ships official Model Context Protocol servers as part of its AI portfolio rather than a single company-wide hosted endpoint. The primary one is the MCP server for Red Hat OpenShift (technology
+  name: Red Hat MCP Server
+  slug: red-hat-mcp-server
+modified: '2026-08-21'
 name: Red Hat
 nav: Providers
 network: true
@@ -1315,7 +1319,7 @@ overview: 'Red Hat publishes 36 APIs on the [APIs.io](https://apis.io/) network,
   The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 74 more developer resources.'
+  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 75 more developer resources.'
 plans:
 - name: Red Hat Plans Pricing
   plan_count: 1
@@ -1360,18 +1364,18 @@ rules:
   slug: red-hat-spectral-rules
 score:
   band: strong
-  composite: 59.3
-  delta: -10.0
+  composite: 59.5
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 28.0
+    contract_governance: 30.3
     contract_quality: 73.8
     developer_ergonomics: 76.2
     discoverability: 59.3
-    governance: 28.0
+    governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 69.3
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1381,9 +1385,9 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192726.png
 security:
 - kind: authentication
@@ -1410,6 +1414,6 @@ tags:
 - Hybrid Cloud
 - Kubernetes
 - Linux
-- Open Source
+- Open-Source
 website: https://www.redhat.com
 ---

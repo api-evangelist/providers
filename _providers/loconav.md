@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: <p>With our Alert subscription APIs, you can manage the alerts effectively on a platform</p>
@@ -215,8 +215,8 @@ image: https://loconav.com/marketing_pages/assets/images/loconav-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: loconav-mcp.yml
-  slug: loconav-mcpyml
+  name: LocoNav MCP Server
+  slug: loconav-mcp-server
 modified: '2026-07-20'
 name: LocoNav
 nav: Providers
@@ -236,7 +236,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.3
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -246,7 +246,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 50.3
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     contracts:
@@ -256,8 +256,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png
 security:
@@ -280,6 +280,6 @@ tags:
 - Logistics
 - IoT
 - Video Telematics
-- Webhooks
+- Webhook
 website: https://loconav.com/
 ---

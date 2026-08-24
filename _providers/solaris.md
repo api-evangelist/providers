@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Solaris REST API for embedded banking, cards, payments (SEPA), KYC/KYB identity, and lending. OAuth2 client-credentials auth; HMAC-signed webhooks.
@@ -147,8 +147,8 @@ image: https://docs.solarisgroup.com/static/solaris-signet-e6f33da6ebaffa690232d
 layout: provider
 mcp_servers:
 - description: ''
-  name: solaris-mcp.yml
-  slug: solaris-mcpyml
+  name: Solaris MCP Server
+  slug: solaris-mcp-server
 modified: '2026-07-21'
 name: Solaris
 nav: Providers
@@ -169,7 +169,7 @@ scopes:
 score:
   band: developing
   composite: 50.4
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -179,7 +179,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 46.1
+  previous_composite: 50.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -189,8 +189,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/screenshots/solaris-2026-08-17T081954.png
 security:
@@ -215,8 +215,8 @@ tags:
 - KYC
 - Lending
 - Compliance
-- OAuth2
-- Webhooks
+- Authentication
+- Webhook
 - Germany
 website: https://www.solarisgroup.com/
 ---

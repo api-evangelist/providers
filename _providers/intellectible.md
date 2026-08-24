@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Intellectible projects - list and run workflows synchronously, and manage Library files (create signed upload URLs, upload bytes, finalize, retrieve, list, and d
@@ -94,9 +94,9 @@ description: Intellectible is an AI build platform for enterprise service provid
 image: https://intellectible.com/
 layout: provider
 mcp_servers:
-- description: ''
-  name: intellectible-mcp.yml
-  slug: intellectible-mcpyml
+- description: No official hosted or remote MCP server was found for Intellectible (no entry in the public MCP registries and none referenced in the provider's developer documentation as of 2026-07-19). The tool lis
+  name: Intellectible MCP Server
+  slug: intellectible-mcp-server
 modified: '2026-07-19'
 name: Intellectible
 nav: Providers
@@ -109,7 +109,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 20.9
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -119,7 +119,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.6
+  previous_composite: 20.9
   provenance:
     mcp: derived
   regulatory:
@@ -128,8 +128,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intellectible/refs/heads/main/screenshots/intellectible-2026-07-25T222643.png
 security:
@@ -149,9 +149,9 @@ tags:
 - GovCon
 - Proposals
 - CRM
-- Workflow Automation
+- Workflow-Automation
 - Pricing
-- Knowledge Management
+- Knowledge-Management
 - Enterprise Software
 - Professional Services
 website: https://intellectible.com/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 235
   human_in_the_loop: 25
@@ -354,9 +354,9 @@ jsonld:
   slug: treasure-data-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: treasure-data-mcp.yml
-  slug: treasure-data-mcpyml
+- description: 'Treasure Data ships two distinct Model Context Protocol servers. The official product server, @treasuredata/mcp-server, is a local stdio server run with npx that exposes 23 tools over the TD API, the '
+  name: Treasure Data MCP Servers
+  slug: treasure-data-mcp-servers
 modified: '2026-08-13'
 name: Treasure Data
 nav: Providers
@@ -396,7 +396,7 @@ scopes:
 score:
   band: exemplar
   composite: 77.2
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -406,7 +406,7 @@ score:
     discoverability: 81.5
     governance: 55.3
     operational_transparency: 73.7
-  previous_composite: 83.4
+  previous_composite: 77.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -417,9 +417,9 @@ score:
       total: 17
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/screenshots/treasure-data-2026-06-20T195643.png
 security:
 - kind: authentication
@@ -443,7 +443,7 @@ tags:
 - Hive
 - Presto
 - Enterprise
-- AI
+- Artificial Intelligence
 - Marketing
 - Analytics
 website: https://www.treasure.ai/

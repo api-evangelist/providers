@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: Configurable cancel flow with retention offers
@@ -223,14 +223,14 @@ description: ZeroSettle is a Y Combinator-backed subscription revenue platform t
 image: https://zerosettle.io/images/favicon/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: zerosettle-mcp.yml
-  slug: zerosettle-mcpyml
+- description: No official hosted ZeroSettle MCP server was found. This is a CANDIDATE tool surface derived from the 25 operations of the ZeroSettle IAP API (https://api.zerosettle.io/v1, X-ZeroSettle-Key auth) — on
+  name: ZeroSettle MCP Server
+  slug: zerosettle-mcp-server
 modified: '2026-07-21'
 name: ZeroSettle
 nav: Providers
 network: true
-overview: 'ZeroSettle publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Cancel Flow API, Checkout API, Entitlements API, and 9 more. Tagged areas include Company, Payments, In-App Purchase, Subscriptions, and Merchant of Record.
+overview: 'ZeroSettle publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Cancel Flow API, Checkout API, Entitlements API, and 9 more. Tagged areas include Company, Payments, In-App Purchase, Subscription, and Merchant of Record.
 
 
   ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 20 more developer resources.'
@@ -238,7 +238,7 @@ random_paper: 13
 score:
   band: developing
   composite: 51.1
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -248,7 +248,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 49.4
+  previous_composite: 51.1
   provenance:
     conformance: derived
     contracts:
@@ -264,8 +264,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/screenshots/zerosettle-2026-08-17T083101.png
 security:
@@ -282,7 +282,7 @@ tags:
 - Company
 - Payments
 - In-App Purchase
-- Subscriptions
+- Subscription
 - Merchant of Record
 - Billing
 - Mobile

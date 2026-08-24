@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Data Import API allows you to import mentions from external sources into YouScan topics. This feature enables you to bring historical data or mentions from sources not natively supported by YouSca
@@ -229,8 +229,8 @@ image: https://youscan.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: youscan-mcp.yml
-  slug: youscan-mcpyml
+  name: YouScan MCP Server
+  slug: youscan-mcp-server
 modified: '2026-08-13'
 name: YouScan
 nav: Providers
@@ -254,7 +254,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.4
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -264,7 +264,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 66.1
+  previous_composite: 61.4
   provenance:
     conformance: first-party
     contracts:
@@ -274,8 +274,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/screenshots/youscan-2026-08-17T080440.png
 security:

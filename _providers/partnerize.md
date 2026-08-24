@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 2
@@ -859,9 +859,9 @@ jsonld:
   slug: partnerize-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: partnerize-mcp.yml
-  slug: partnerize-mcpyml
+- description: Partnerize publishes no Model Context Protocol server. This is a DERIVED candidate tool set, mapped one-to-one onto real operationIds in the 104 OpenAPI documents in openapi/, offered as a design star
+  name: Partnerize MCP Server (candidate)
+  slug: partnerize-mcp-server-candidate
 modified: '2026-08-13'
 name: Partnerize
 nav: Providers
@@ -896,7 +896,7 @@ rules:
 score:
   band: strong
   composite: 62.2
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -906,7 +906,7 @@ score:
     discoverability: 75.9
     governance: 41.7
     operational_transparency: 47.4
-  previous_composite: 70.4
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -917,9 +917,9 @@ score:
       total: 104
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/screenshots/partnerize-2026-06-20T191430.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A REST API that resolves IPv4/IPv6 addresses and Autonomous System Numbers to rich intelligence including geolocation, ISP/carrier details, company data, currency and time zone, and threat classificat
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -147,15 +147,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 36.9
+  previous_composite: 37.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipregistry/refs/heads/main/screenshots/ipregistry-2026-06-20T183556.png
 security:

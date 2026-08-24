@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -604,7 +604,7 @@ modified: '2026-05-19'
 name: Indeed
 nav: Providers
 network: true
-overview: 'Indeed publishes 3 APIs on the [APIs.io](https://apis.io/) network: Candidates API, Employers API, and Jobs API. Tagged areas include Careers, Employment, Hiring, Job Search, and Jobs.
+overview: 'Indeed publishes 3 APIs on the [APIs.io](https://apis.io/) network: Candidates API, Employers API, and Jobs API. Tagged areas include Careers, Employment, Hiring, Job Search, and Job.
 
 
   The Indeed catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -649,18 +649,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 42.8
-  delta: -12.1
+  composite: 43.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 75.5
     developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 54.9
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -668,9 +668,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/screenshots/indeed-2026-06-20T183344.png
 security:
 - kind: authentication
@@ -687,7 +687,7 @@ tags:
 - Employment
 - Hiring
 - Job Search
-- Jobs
+- Job
 - Recruiting
 use_cases:
 - description: Automatically distribute job postings from applicant tracking systems to Indeed's marketplace with real-time synchronization.

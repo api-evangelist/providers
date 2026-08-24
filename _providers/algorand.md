@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -373,7 +373,7 @@ modified: '2026-06-13'
 name: Algorand
 nav: Providers
 network: true
-overview: 'Algorand publishes 18 APIs on the [APIs.io](https://apis.io/) network, including common API, data API, experimental API, and 15 more. Tagged areas include Blockchain, Cryptocurrency, Proof-of-Stake, DeFi, and Smart Contracts.
+overview: 'Algorand publishes 18 APIs on the [APIs.io](https://apis.io/) network, including common API, data API, experimental API, and 15 more. Tagged areas include Blockchain, Cryptocurrency, Proof of Stake, DeFi, and Smart Contracts.
 
 
   The Algorand catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -403,7 +403,7 @@ rules:
 score:
   band: developing
   composite: 50.7
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -413,7 +413,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 58.1
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -421,9 +421,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/screenshots/algorand-2026-06-20T171519.png
 security:
 - kind: authentication
@@ -438,7 +438,7 @@ slug: algorand
 tags:
 - Blockchain
 - Cryptocurrency
-- Proof-of-Stake
+- Proof of Stake
 - DeFi
 - Smart Contracts
 use_cases:

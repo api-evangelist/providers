@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Predictive price-assurance API that optimizes fares across EDIFACT, NDC, GDS, aggregators, and low-cost carriers, applying margin protection at both the search and post-booking stages.
@@ -89,8 +89,8 @@ image: https://www.wenrix.com/wp-content/themes/wenrixTheme/assets/img/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: wenrix-mcp.yml
-  slug: wenrix-mcpyml
+  name: Wenrix MCP Server
+  slug: wenrix-mcp-server
 modified: '2026-07-21'
 name: Wenrix
 nav: Providers
@@ -103,7 +103,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 15.3
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -113,11 +113,11 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.9
+  previous_composite: 15.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -134,6 +134,5 @@ tags:
 - Automation
 - Pricing
 - MCP
-- Model Context Protocol
 website: https://www.wenrix.com/
 ---

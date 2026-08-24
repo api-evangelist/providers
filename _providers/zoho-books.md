@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Contacts API from Zoho Books — 4 operation(s) for contacts.
@@ -137,7 +137,7 @@ random_paper: 6
 score:
   band: thin
   composite: 34.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -147,7 +147,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 34.8
+  previous_composite: 34.4
   provenance:
     contracts:
       callable: 100.0
@@ -160,8 +160,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/screenshots/zoho-books-2026-06-20T201932.png
 security:

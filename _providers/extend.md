@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Extend''s REST API for product and shipping protection: manage offers, contracts, orders and line items, refunds, claims, service orders, and leads. Header-based date versioning; OAuth2 client-credenti'
@@ -155,8 +155,8 @@ image: https://avatars.githubusercontent.com/u/46018312?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: extend-mcp.yml
-  slug: extend-mcpyml
+  name: Extend MCP Server
+  slug: extend-mcp-server
 modified: '2026-07-19'
 name: Extend
 nav: Providers
@@ -171,18 +171,18 @@ overview: 'Extend publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 18
 score:
   band: developing
-  composite: 43.1
-  delta: -3.5
+  composite: 44.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 52.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 46.6
+  previous_composite: 44.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -192,8 +192,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png
 security:
@@ -212,7 +212,7 @@ tags:
 - Product Protection
 - Extended Warranty
 - Shipping Protection
-- Ecommerce
+- E-Commerce
 - Warranty
 - Claims
 - Contracts

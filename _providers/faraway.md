@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Faraway Platform API surfaces the developer platform behind Faraway''s interoperable gaming ecosystem. Its API reference (login-gated) and llms.txt index are published at docs.faraway.com; the API '
@@ -96,7 +96,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 18.0
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -106,9 +106,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faraway/refs/heads/main/screenshots/faraway-2026-07-25T214245.png
 security:

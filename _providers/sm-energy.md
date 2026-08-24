@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'SM Energy Company (NYSE: SM) financial and operational data is accessible through investor relations resources, SEC EDGAR filings, and third-party financial data providers. The company reports quarter'
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.2
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -153,15 +153,15 @@ score:
     discoverability: 59.3
     governance: 15.2
     operational_transparency: 5.3
-  previous_composite: 12.9
+  previous_composite: 12.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sm-energy/refs/heads/main/screenshots/sm-energy-2026-06-20T194032.png
 security:

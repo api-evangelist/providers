@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ modified: '2026-05-19'
 name: Apache HTTP Server
 nav: Providers
 network: true
-overview: 'Apache HTTP Server publishes 2 APIs on the [APIs.io](https://apis.io/) network: Balancer API and Status API. Tagged areas include Apache, Load Balancer, Open Source, Proxy, and Reverse Proxy.
+overview: 'Apache HTTP Server publishes 2 APIs on the [APIs.io](https://apis.io/) network: Balancer API and Status API. Tagged areas include Apache, Load Balancer, Open-Source, Proxy, and Reverse Proxy.
 
 
   The Apache HTTP Server catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -235,18 +235,18 @@ rules:
   slug: apache-httpd-spectral-rules
 score:
   band: thin
-  composite: 33.1
-  delta: -6.2
+  composite: 33.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 53.8
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 21.1
-  previous_composite: 39.3
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -254,9 +254,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/screenshots/apache-httpd-2026-06-20T172105.png
 security:
 - kind: domain-security
@@ -271,7 +271,7 @@ slug: apache-httpd
 tags:
 - Apache
 - Load Balancer
-- Open Source
+- Open-Source
 - Proxy
 - Reverse Proxy
 - Web Server

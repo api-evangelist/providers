@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: OLM extends Kubernetes with CRDs for operator lifecycle management including ClusterServiceVersion for describing operator capabilities and requirements, Subscription for tracking update channels, Ins
@@ -64,7 +64,7 @@ modified: '2026-04-28'
 name: Operator Framework
 nav: Providers
 network: true
-overview: 'Operator Framework publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, Cloud Native, Incubating, Kubernetes, and Lifecycle Management.
+overview: 'Operator Framework publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, Cloud-Native, Incubating, Kubernetes, and Lifecycle Management.
 
 
   Operator Framework''s developer surface includes documentation and 2 more developer resources.'
@@ -80,7 +80,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -90,9 +90,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 13.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/operator-framework/refs/heads/main/screenshots/operator-framework-2026-06-20T191058.png
 security:
@@ -103,7 +103,7 @@ security:
 slug: operator-framework
 tags:
 - Automation
-- Cloud Native
+- Cloud-Native
 - Incubating
 - Kubernetes
 - Lifecycle Management

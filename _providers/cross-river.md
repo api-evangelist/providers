@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-07-12'
 name: Cross River
 nav: Providers
 network: true
-overview: 'Cross River publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Cards API, and 4 more. Tagged areas include Embedded Finance, Banking as a Service, BaaS, Payments, and ACH.
+overview: 'Cross River publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Cards API, and 4 more. Tagged areas include Embedded Finance, Banking as a Service, Backend-as-a-Service, Payments, and ACH.
 
 
   Cross River''s developer surface includes engineering blog, support, getting-started guide, authentication, documentation, signup flow, and 9 more developer resources.'
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.3
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -189,7 +189,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 43.2
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/screenshots/cross-river-2026-07-25T210751.png
 security:
@@ -220,13 +220,13 @@ slug: cross-river
 tags:
 - Embedded Finance
 - Banking as a Service
-- BaaS
+- Backend-as-a-Service
 - Payments
 - ACH
 - Wire
-- Push-to-Card
+- Push to Card
 - Lending
-- Accounts
+- Account
 - Cards
 - Fintech
 - RTP

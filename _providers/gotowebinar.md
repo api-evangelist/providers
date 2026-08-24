@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -308,7 +308,7 @@ modified: '2026-05-23'
 name: GoToWebinar
 nav: Providers
 network: true
-overview: 'GoToWebinar publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Co-Organizers API, Panelists API, and 9 more. Tagged areas include Attendees, Collaboration, Communications, Events, and Meetings.
+overview: 'GoToWebinar publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Co-Organizers API, Panelists API, and 9 more. Tagged areas include Attendees, Collaboration, Communications, Event, and Meetings.
 
 
   The GoToWebinar catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -365,7 +365,7 @@ scopes:
 score:
   band: developing
   composite: 51.7
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -375,7 +375,7 @@ score:
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 57.0
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -383,9 +383,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/screenshots/gotowebinar-2026-06-20T182257.png
 security:
 - kind: authentication
@@ -401,14 +401,14 @@ tags:
 - Attendees
 - Collaboration
 - Communications
-- Events
+- Event
 - Meetings
 - Registrants
 - Sessions
 - Surveys
 - Video Conferencing
 - Virtual Events
-- Webhooks
+- Webhook
 - Webinars
 use_cases:
 - description: Marketing teams capture qualified leads via registration forms and sync attendee data into their CRM through the GoToWebinar REST API.

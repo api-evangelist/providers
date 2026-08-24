@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The STOP-HAE trial-site (clinic) registry.
@@ -222,7 +222,7 @@ modified: '2026-08-06'
 name: ADARx Pharmaceuticals
 nav: Providers
 network: true
-overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clinics API, Content API, Embed API, and 5 more. Tagged areas include Company, biotechnology, biopharmaceuticals, rna-therapeutics, and sirna.
+overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clinics API, Content API, Embed API, and 5 more. Tagged areas include Company, Biotechnology, biopharmaceuticals, RNA Therapeutics, and siRNA.
 
 
   The ADARx Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context.
@@ -233,7 +233,7 @@ random_paper: 0
 score:
   band: thin
   composite: 34.2
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 32.1
+  previous_composite: 34.2
   provenance:
     conformance: derived
     contracts:
@@ -258,8 +258,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/screenshots/adarx-pharmaceuticals-2026-08-07T160902.png
 security:
@@ -274,16 +274,16 @@ security:
 slug: adarx-pharmaceuticals
 tags:
 - Company
-- biotechnology
+- Biotechnology
 - biopharmaceuticals
-- rna-therapeutics
-- sirna
-- rna-editing
-- clinical-trials
-- rare-disease
-- drug-development
-- life-sciences
-- san-diego
+- RNA Therapeutics
+- siRNA
+- RNA Editing
+- Clinical Trials
+- Rare Disease
+- Drug Development
+- Life Sciences
+- San Diego
 - content-api
 website: https://www.adarx.com/
 ---

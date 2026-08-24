@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -535,9 +535,9 @@ jsonld:
   slug: dun-and-bradstreet-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: dun-and-bradstreet-mcp.yml
-  slug: dun-and-bradstreet-mcpyml
+- description: Dun & Bradstreet ships production Model Context Protocol servers as part of the D&B.AI suite. Two distinct servers were confirmed. The D&B Risk Analytics server is a remote, OAuth-protected Streamable
+  name: Dun & Bradstreet MCP Server
+  slug: dun-bradstreet-mcp-server
 modified: '2026-08-13'
 name: Dun & Bradstreet
 nav: Providers
@@ -588,7 +588,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.5
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -598,7 +598,7 @@ score:
     discoverability: 87.0
     governance: 100.0
     operational_transparency: 34.2
-  previous_composite: 75.2
+  previous_composite: 68.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -609,9 +609,9 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/screenshots/dun-and-bradstreet-2026-06-20T180319.png
 security:
 - kind: authentication

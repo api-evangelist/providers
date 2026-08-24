@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful JSON API grouping five sentiment services (Reddit Stocks, X.com Stocks, Stock News, Polymarket Stocks, Reddit Crypto) with 41 base endpoints plus PRO raw-mention endpoints. Authenticated via X
@@ -33,12 +33,12 @@ modified: '2026-07-17'
 name: Adanos Market Sentiment API
 nav: Providers
 network: true
-overview: 'Adanos Market Sentiment API publishes 1 API on the [APIs.io](https://apis.io/) network: Adanos Market Sentiment API. Tagged areas include market, sentiment, stocks, crypto, and finance.'
+overview: 'Adanos Market Sentiment API publishes 1 API on the [APIs.io](https://apis.io/) network: Adanos Market Sentiment API. Tagged areas include Market, Sentiment, Stocks, Crypto, and Finance.'
 random_paper: 18
 score:
   band: minimal
   composite: 7.7
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -54,34 +54,34 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 11.9
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/screenshots/adanos-market-sentiment-api-2026-07-25T181547.png
 slug: adanos-market-sentiment-api
 tags:
-- market
-- sentiment
-- stocks
-- crypto
-- finance
-- trading
-- social-data
-- news
-- prediction-markets
-- reddit
-- x-twitter
-- polymarket
-- ai-agents
-- rest-api
-- openapi
+- Market
+- Sentiment
+- Stocks
+- Crypto
+- Finance
+- Trading
+- Social Data
+- News
+- Prediction Markets
+- Reddit
+- X / Twitter
+- Polymarket
+- AI Agents
+- REST API
+- OpenAPI
 - llms-txt
-- agent-skills
+- Agent Skills
 ---

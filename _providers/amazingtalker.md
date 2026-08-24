@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Pages API from AmazingTalker — 1 operation(s) for pages.
@@ -102,8 +102,8 @@ image: https://en.amazingtalker.com/.well-known/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazingtalker-mcp.yml
-  slug: amazingtalker-mcpyml
+  name: AmazingTalker MCP Server
+  slug: amazingtalker-mcp-server
 modified: '2026-07-17'
 name: AmazingTalker
 nav: Providers
@@ -116,7 +116,7 @@ random_paper: 0
 score:
   band: thin
   composite: 38.1
-  delta: 9.5
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -126,7 +126,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 28.6
+  previous_composite: 38.1
   provenance:
     conformance: derived
     contracts:
@@ -142,9 +142,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/screenshots/amazingtalker-2026-07-25T195910.png
 security:
 - kind: authentication

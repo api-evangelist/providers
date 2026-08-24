@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The ION Factory OS GraphQL API. A single GraphQL endpoint for reading and writing manufacturing data in ION: Runs, Procedures, Parts, mBOM/aBOM, inventory, notifications, and webhook subscriptions. Au'
@@ -162,9 +162,9 @@ description: First Resonance builds ION, a modern Factory Operating System (MES)
 image: https://www.firstresonance.io/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: first-resonance-mcp.yml
-  slug: first-resonance-mcpyml
+- description: First Resonance publishes an official hosted MCP (Model Context Protocol) server that lets AI agents operate ION Factory OS. It is currently in beta and available on staging only; production is not ye
+  name: First Resonance MCP Server
+  slug: first-resonance-mcp-server
 modified: '2026-07-19'
 name: First Resonance
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 1
 score:
   band: developing
   composite: 48.1
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -190,14 +190,14 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 54.7
+  previous_composite: 48.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/screenshots/first-resonance-2026-07-25T214610.png
 security:
 - kind: authentication

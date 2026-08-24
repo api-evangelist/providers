@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Low-latency Solana trading API (gRPC, HTTP/REST with per-region Swagger UI, WebSocket, and QUIC) for transaction submission, batching, sniping, bundle execution, DEX quoting/swaps (Jupiter, Raydium, P
@@ -150,9 +150,9 @@ description: bloXroute operates the Blockchain Distribution Network (BDN), a hig
 image: https://avatars.githubusercontent.com/u/36855910?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: bloxroute-mcp.yml
-  slug: bloxroute-mcpyml
+- description: Official bloXroute hosted MCP server. Provides read-only access to bloXroute's public documentation and integration knowledge so agents can find endpoints, understand services, and generate integratio
+  name: bloXroute MCP Server
+  slug: bloxroute-mcp-server
 modified: '2026-07-18'
 name: bloXroute
 nav: Providers
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.9
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -182,7 +182,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 43.8
+  previous_composite: 40.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -193,8 +193,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/screenshots/bloxroute-2026-07-25T203421.png
 security:

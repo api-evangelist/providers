@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ modified: '2026-05-11'
 name: Redmine
 nav: Providers
 network: true
-overview: 'Redmine publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Custom Fields.json API, Groups.json API, and 14 more. Tagged areas include Project Management, Issue Tracking, Open Source, Ruby on Rails, and Bug Tracking.
+overview: 'Redmine publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Custom Fields.json API, Groups.json API, and 14 more. Tagged areas include Project Management, Issue Tracking, Open-Source, Ruby on Rails, and Bug Tracking.
 
 
   Redmine''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
@@ -225,7 +225,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 25.6
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -235,7 +235,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 24.8
+  previous_composite: 25.6
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +243,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/screenshots/redmine-2026-06-20T192728.png
 security:
@@ -260,7 +260,7 @@ slug: redmine
 tags:
 - Project Management
 - Issue Tracking
-- Open Source
+- Open-Source
 - Ruby on Rails
 - Bug Tracking
 - Time Tracking

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -211,7 +211,7 @@ modified: '2026-05-19'
 name: Lago
 nav: Providers
 network: true
-overview: 'Lago publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Add_ons API, Analytics API, Billable_metrics API, and 14 more. Tagged areas include Billing, Metering, Open Source, and Usage-Based.
+overview: 'Lago publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Add_ons API, Analytics API, Billable_metrics API, and 14 more. Tagged areas include Billing, Metering, Open-Source, and Usage-Based.
 
 
   Lago''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -227,7 +227,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.8
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -237,7 +237,7 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.2
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -245,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/screenshots/lago-2026-06-20T184248.png
 security:
@@ -270,7 +270,7 @@ slug: lago
 tags:
 - Billing
 - Metering
-- Open Source
+- Open-Source
 - Usage-Based
 website: https://getlago.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ modified: '2026-05-19'
 name: NodePing
 nav: Providers
 network: true
-overview: 'NodePing publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Checks API, Contactgroups API, and 5 more. Tagged areas include Monitoring, Uptime, Notifications, and SaaS.
+overview: 'NodePing publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Checks API, Contactgroups API, and 5 more. Tagged areas include Monitoring, Uptime, Notification, and Software-as-a-Service.
 
 
   The NodePing catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -188,7 +188,7 @@ rules:
 score:
   band: thin
   composite: 32.2
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -198,7 +198,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 38.1
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -206,9 +206,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/screenshots/nodeping-2026-06-20T190350.png
 security:
 - kind: authentication
@@ -223,7 +223,7 @@ slug: nodeping
 tags:
 - Monitoring
 - Uptime
-- Notifications
-- SaaS
+- Notification
+- Software-as-a-Service
 website: https://nodeping.com/
 ---

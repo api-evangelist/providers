@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -213,14 +213,14 @@ description: 'Spekit is an AI-powered revenue enablement platform for B2B sales 
 image: https://cdn.prod.website-files.com/67928cf7ed419b596caac76b/6a307193f0dd93f6607b0971_OpenGraphImage_2026.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: spekit-mcp.yml
-  slug: spekit-mcpyml
+- description: The Spekit MCP connector exposes governed Spekit GTM content — Speks, topics, templates, companies and Deal Rooms — to any AI tool that supports a custom MCP connector by URL with dynamic client regis
+  name: Spekit MCP Server
+  slug: spekit-mcp-server
 modified: '2026-08-14'
 name: Spekit
 nav: Providers
 network: true
-overview: 'Spekit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Sales Enablement, Revenue Enablement, and Digital Adoption.
+overview: 'Spekit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Sales Enablement, Revenue Enablement, and Digital Adoption.
 
 
   Spekit''s developer surface includes authentication, engineering blog, pricing, signup flow, documentation, API reference, getting-started guide, and 34 more developer resources.'
@@ -241,7 +241,7 @@ scopes:
 score:
   band: strong
   composite: 54.8
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -251,7 +251,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 56.5
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -262,8 +262,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/screenshots/spekit-2026-08-17T082023.png
 security:
@@ -286,17 +286,17 @@ security:
 slug: spekit
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Sales Enablement
 - Revenue Enablement
 - Digital Adoption
-- Knowledge Management
+- Knowledge-Management
 - MCP
 - Artificial Intelligence
 - Analytics
 - Sales
 - Content Management
 - Agents
-- OAuth
+- Authentication
 website: https://spekit.com
 ---

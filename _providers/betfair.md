@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ rules:
 score:
   band: developing
   composite: 39.9
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -178,7 +178,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 44.0
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +192,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/screenshots/betfair-2026-08-17T122904.png
 security:

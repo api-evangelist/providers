@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The comments API from Splitwise — 3 operation(s) for comments.
@@ -190,8 +190,8 @@ image: https://www.splitwise.com/assets/press/logos/sw.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: splitwise-mcp.yml
-  slug: splitwise-mcpyml
+  name: Splitwise MCP Server
+  slug: splitwise-mcp-server
 modified: '2026-07-21'
 name: Splitwise
 nav: Providers
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 45.0
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -219,7 +219,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 45.2
+  previous_composite: 45.0
   provenance:
     conformance: derived
     contracts:
@@ -235,8 +235,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitwise/refs/heads/main/screenshots/splitwise-2026-08-17T082029.png
 security:
@@ -261,6 +261,6 @@ tags:
 - Bill Splitting
 - Payments
 - REST API
-- OAuth
+- Authentication
 website: https://www.splitwise.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 7
 common:
@@ -91,7 +91,7 @@ modified: '2026-05-02'
 name: Ryland Group
 nav: Providers
 network: true
-overview: 'Ryland Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Homebuilder, Mortgage, and Real Estate.
+overview: 'Ryland Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Homebuilder, Mortgage, and Real-Estate.
 
 
   The Ryland Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -126,7 +126,7 @@ rules:
 score:
   band: minimal
   composite: 9.9
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -136,15 +136,15 @@ score:
     discoverability: 40.7
     governance: 25.0
     operational_transparency: 0.0
-  previous_composite: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 9.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 slug: ryland-group
 tags:
-- Financial Services
+- Financial-Services
 - Homebuilder
 - Mortgage
-- Real Estate
+- Real-Estate
 website: https://www.ryland-group.com
 ---

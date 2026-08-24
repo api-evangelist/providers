@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: JWT-authenticated API for partner vendors (drop-off locations, scan events) to exchange an API key for a 24-hour access token and query shipment tracking status and event history.
@@ -180,13 +180,13 @@ image: https://mintcdn.com/uniexpressinc/YvoYth8Wg7rezp7U/logo/light.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: uniuni-mcp.yml
-  slug: uniuni-mcpyml
+  name: UniUni MCP Server
+  slug: uniuni-mcp-server
 modified: '2026-07-21'
 name: UniUni
 nav: Providers
 network: true
-overview: 'UniUni publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Labels API, Shipments API, and 2 more. Tagged areas include Company, Logistics, Shipping, Last-Mile Delivery, and Ecommerce.
+overview: 'UniUni publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Labels API, Shipments API, and 2 more. Tagged areas include Company, Logistics, Shipping, Last Mile Delivery, and E-Commerce.
 
 
   The UniUni catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -197,7 +197,7 @@ random_paper: 13
 score:
   band: developing
   composite: 49.3
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 48.7
+  previous_composite: 49.3
   provenance:
     conformance: derived
     contracts:
@@ -217,8 +217,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/screenshots/uniuni-2026-08-17T082619.png
 security:
@@ -235,8 +235,8 @@ tags:
 - Company
 - Logistics
 - Shipping
-- Last-Mile Delivery
-- Ecommerce
+- Last Mile Delivery
+- E-Commerce
 - Tracking
 - Delivery
 website: https://www.uniuni.com/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Operations on accounts
@@ -204,8 +204,8 @@ image: https://www.datto.com/wp-content/uploads/datto-opengraph.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: datto-mcp.yml
-  slug: datto-mcpyml
+  name: Datto MCP Server
+  slug: datto-mcp-server
 modified: '2026-07-18'
 name: Datto
 nav: Providers
@@ -222,7 +222,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.2
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 48.0
+  previous_composite: 46.2
   provenance:
     conformance: derived
     contracts:
@@ -242,8 +242,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/screenshots/datto-2026-07-25T211420.png
 security:

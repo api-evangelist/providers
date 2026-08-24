@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The public WordPress REST API served by endeavorbiomedicines.com. Content read operations — posts, pages, media, taxonomies and types — answer anonymously, which makes the company's press releases, pi
@@ -109,8 +109,8 @@ image: https://endeavorbiomedicines.com/wp-content/uploads/2024/04/OG_Lungs.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: endeavor-biomedicines-mcp.yml
-  slug: endeavor-biomedicines-mcpyml
+  name: Endeavor BioMedicines MCP Server
+  slug: endeavor-biomedicines-mcp-server
 modified: '2026-08-12'
 name: Endeavor BioMedicines
 nav: Providers
@@ -136,7 +136,7 @@ scopes:
 score:
   band: thin
   composite: 38.7
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -146,7 +146,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 35.2
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     contracts:
@@ -162,8 +162,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

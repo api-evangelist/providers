@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Financing configuration and limits
@@ -207,13 +207,13 @@ image: https://apurata.com/app/logo512.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: apurata-mcp.yml
-  slug: apurata-mcpyml
+  name: Apurata MCP Server
+  slug: apurata-mcp-server
 modified: '2026-07-18'
 name: Apurata
 nav: Providers
 network: true
-overview: 'Apurata publishes 4 APIs on the [APIs.io](https://apis.io/) network, including config API, orders API, refunds API, and 1 more. Tagged areas include Company, Financial Services, Fintech, Lending, and Buy Now Pay Later.
+overview: 'Apurata publishes 4 APIs on the [APIs.io](https://apis.io/) network, including config API, orders API, refunds API, and 1 more. Tagged areas include Company, Financial-Services, Fintech, Lending, and Buy Now Pay Later.
 
 
   The Apurata catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -223,18 +223,18 @@ overview: 'Apurata publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 15
 score:
   band: developing
-  composite: 53.1
-  delta: 2.8
+  composite: 54.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
     contract_quality: 65.2
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 50.3
+  previous_composite: 54.2
   provenance:
     conformance: derived
     contracts:
@@ -250,8 +250,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/screenshots/apurata-2026-07-25T200944.png
 security:
@@ -270,14 +270,14 @@ security:
 slug: apurata
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Buy Now Pay Later
 - Installment Payments
 - Consumer Credit
 - Payments
-- E-commerce
+- E-Commerce
 - Peru
 - Latin America
 website: https://apurata.com

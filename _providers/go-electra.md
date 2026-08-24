@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Electra's Open Charge Point Interface implementation in the Charge Point Operator role — the roaming interface an e-mobility service provider calls to read Electra's locations and tariffs, authorise i
@@ -160,9 +160,9 @@ examples:
 image: https://www.go-electra.com/favicons/apple-touch-icon-1024x1024.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: go-electra-mcp.yml
-  slug: go-electra-mcpyml
+- description: 'Electra publishes NO MCP server. This file is a candidate design, not a provider claim. Every search and probe missed: no mcp subdomain resolves, no MCP endpoint is documented, no npm or PyPI package '
+  name: Electra MCP Server
+  slug: electra-mcp-server
 modified: '2026-08-17'
 name: Electra
 nav: Providers
@@ -183,6 +183,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.7
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -192,6 +193,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -201,8 +203,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Go Electra Authentication

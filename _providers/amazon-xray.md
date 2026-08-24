@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -2243,18 +2243,18 @@ rules:
   slug: amazon-xray-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: -6.8
+  composite: 52.6
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 74.5
     developer_ergonomics: 50.0
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 59.0
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -2262,9 +2262,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/screenshots/amazon-xray-2026-06-20T171851.png
 security:
 - kind: authentication

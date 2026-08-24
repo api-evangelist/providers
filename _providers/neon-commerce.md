@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -270,8 +270,8 @@ image: https://www.neonpay.com/api/media/file/meta-image-1200x630.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: neon-commerce-mcp.yml
-  slug: neon-commerce-mcpyml
+  name: Neon Commerce MCP Server
+  slug: neon-commerce-mcp-server
 modified: '2026-07-20'
 name: Neon Commerce
 nav: Providers
@@ -287,7 +287,7 @@ random_paper: 18
 score:
   band: strong
   composite: 55.8
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -297,7 +297,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 51.8
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,8 +314,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/screenshots/neon-commerce-2026-08-17T082605.png
 security:
@@ -334,8 +334,8 @@ tags:
 - Gaming
 - Checkout
 - Storefront
-- Direct-to-Consumer
-- Subscriptions
+- Direct to Consumer
+- Subscription
 - Merchant of Record
 - Game Monetization
 - Company

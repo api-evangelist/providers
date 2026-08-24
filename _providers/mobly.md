@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-08-13'
 name: Mob.ly
 nav: Providers
 network: true
-overview: 'Mob.ly publishes 1 API on the [APIs.io](https://apis.io/) network: Mobly REST API v0. Tagged areas include Company, Events, Event Marketing, Lead Capture, and Lead Enrichment.
+overview: 'Mob.ly publishes 1 API on the [APIs.io](https://apis.io/) network: Mobly REST API v0. Tagged areas include Company, Event, Event Marketing, Lead Capture, and Lead Enrichment.
 
 
   The Mob.ly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -182,7 +182,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.7
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -192,7 +192,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 50.1
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,8 +203,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/screenshots/mobly-2026-08-07T183858.png
 security:
@@ -219,7 +219,7 @@ security:
 slug: mobly
 tags:
 - Company
-- Events
+- Event
 - Event Marketing
 - Lead Capture
 - Lead Enrichment

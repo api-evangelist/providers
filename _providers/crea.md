@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -232,14 +232,14 @@ description: 'The Canadian Real Estate Association (CREA) is the national indust
 image: https://www.crea.ca/dist/favicons/apple-touch-icon.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: CREA publishes no official MCP server for any REALTOR.ca API. Searches of the DDF and Board API documentation, the MCP registries and npm turned up no CREA-operated hosted or stdio server, and there i
   name: Candidate MCP tool surface derived from the OpenAPI, plus the third-party crea-ddf-mcp server
   slug: candidate-mcp-tool-surface-derived-from-the-openapi-plus-the-third-party-crea-ddf-mcp-server
 modified: '2026-07-26'
 name: CREA (REALTOR.ca)
 nav: Providers
 network: true
-overview: 'CREA (REALTOR.ca) publishes 3 APIs on the [APIs.io](https://apis.io/) network: REALTOR.ca DDF Web API, REALTOR.ca DDF Lead API, and REALTOR.ca Board API. Tagged areas include Real Estate, Canada, Property Listings, MLS, and IDX.
+overview: 'CREA (REALTOR.ca) publishes 3 APIs on the [APIs.io](https://apis.io/) network: REALTOR.ca DDF Web API, REALTOR.ca DDF Lead API, and REALTOR.ca Board API. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and IDX.
 
 
   CREA (REALTOR.ca)''s developer surface includes authentication, changelog, getting-started guide, documentation, support, engineering blog, and 37 more developer resources.'
@@ -252,7 +252,7 @@ scopes:
 score:
   band: developing
   composite: 43.2
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -262,7 +262,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 42.8
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,8 +273,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/screenshots/crea-2026-08-07T163831.png
 security:
@@ -292,7 +292,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: crea
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

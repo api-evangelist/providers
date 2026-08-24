@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 339
   human_in_the_loop: 15
@@ -428,13 +428,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dokploy.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Dokploy MCP Server
+  slug: dokploy-mcp-server
 modified: '2026-05-25'
 name: Dokploy
 nav: Providers
 network: true
-overview: 'Dokploy publishes 48 APIs on the [APIs.io](https://apis.io/) network, including admin API, ai API, application API, and 45 more. Tagged areas include PaaS, Self-Hosted, Open Source, Docker, and Docker Swarm.
+overview: 'Dokploy publishes 48 APIs on the [APIs.io](https://apis.io/) network, including admin API, ai API, application API, and 45 more. Tagged areas include Platform-as-a-Service, Self-Hosted, Open-Source, Docker, and Docker Swarm.
 
 
   Dokploy''s developer surface includes authentication, documentation, API reference, pricing, CLI, code examples, engineering blog, and 14 more developer resources.'
@@ -450,7 +450,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -460,7 +460,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 63.2
-  previous_composite: 49.4
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -468,8 +468,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/screenshots/dokploy-2026-06-20T180131.png
 security:
@@ -483,9 +483,9 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: dokploy
 tags:
-- PaaS
+- Platform-as-a-Service
 - Self-Hosted
-- Open Source
+- Open-Source
 - Docker
 - Docker Swarm
 - Deployment

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-19'
 name: Jumo
 nav: Providers
 network: true
-overview: 'Jumo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking as a Service, Financial Services, and Lending.
+overview: 'Jumo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking as a Service, Financial-Services, and Lending.
 
 
   Jumo''s developer surface includes support and 8 more developer resources.'
@@ -85,7 +85,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 1.9
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -95,16 +95,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.4
+  previous_composite: 1.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumo/refs/heads/main/screenshots/jumo-2026-07-25T223314.png
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ tags:
 - Company
 - Fintech
 - Banking as a Service
-- Financial Services
+- Financial-Services
 - Lending
 - Credit
 - Mobile Money

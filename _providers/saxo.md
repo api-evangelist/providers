@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -580,7 +580,7 @@ scopes:
 score:
   band: thin
   composite: 34.4
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -590,7 +590,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.2
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -604,8 +604,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/screenshots/saxo-2026-06-20T193446.png
 security:
@@ -626,7 +626,7 @@ tags:
 - Options
 - Futures
 - Market Data
-- Portfolio Management
-- Orders
+- Portfolio-Management
+- Order
 - Financial
 ---

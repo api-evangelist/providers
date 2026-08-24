@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 20
 common:
@@ -130,7 +130,7 @@ modified: '2026-08-12'
 name: OUTFRONT Media
 nav: Providers
 network: true
-overview: 'OUTFRONT Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Out Of Home Advertising, Digital Out Of Home, Billboards, Transit Advertising, and Programmatic Advertising.
+overview: 'OUTFRONT Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Out-of-Home Advertising, Digital Out Of Home, Billboards, Transit Advertising, and Programmatic Advertising.
 
 
   OUTFRONT Media''s developer surface includes engineering blog and 12 more developer resources.'
@@ -146,7 +146,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.9
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -156,9 +156,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outfront-media/refs/heads/main/screenshots/outfront-media-2026-06-20T191230.png
 security:
@@ -173,7 +173,7 @@ solutions:
 - description: Long-running advertising rights across New York's Metropolitan Transportation Authority covering subway, bus, and commuter rail surfaces.
   name: MTA Advertising Network
 tags:
-- Out Of Home Advertising
+- Out-of-Home Advertising
 - Digital Out Of Home
 - Billboards
 - Transit Advertising

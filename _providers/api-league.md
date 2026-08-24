@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The API League Platform provides access to 60+ APIs spanning books, news, humor, food, knowledge, art, web, text processing, and media categories. Authentication uses API keys with free signup. SDKs a
@@ -98,7 +98,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -108,9 +108,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/screenshots/api-league-2026-06-20T172214.png
 security:
@@ -126,7 +126,7 @@ tags:
 - Food
 - Humor
 - News
-- SDKs
+- SDK
 - Text Processing
 use_cases:
 - description: Build news aggregators, book discovery apps, and article readers using News and Books APIs.

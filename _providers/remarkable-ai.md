@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -125,7 +125,7 @@ modified: '2026-08-13'
 name: Remarkable AI
 nav: Providers
 network: true
-overview: 'Remarkable AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Customer Engagement, Personalization, and Ecommerce.
+overview: 'Remarkable AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Customer Engagement, Personalization, and E-Commerce.
 
 
   Remarkable AI''s developer surface includes engineering blog, support, pricing, and 13 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.6
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -151,9 +151,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 26.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -170,9 +170,9 @@ tags:
 - Applicative Saas
 - Customer Engagement
 - Personalization
-- Ecommerce
+- E-Commerce
 - Artificial Intelligence
-- Customer Support
+- Customer-Support
 - Marketing
 website: https://www.beremarkable.ai/
 ---

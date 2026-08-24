@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -582,8 +582,8 @@ image: https://cdn.prod.website-files.com/66f4642913b966635efd9666/675750501cfd3
 layout: provider
 mcp_servers:
 - description: ''
-  name: madhive-mcp.yml
-  slug: madhive-mcpyml
+  name: MadHive MCP Server
+  slug: madhive-mcp-server
 modified: '2026-08-04'
 name: MadHive
 nav: Providers
@@ -605,7 +605,7 @@ scopes:
 score:
   band: developing
   composite: 40.9
-  delta: -12.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -615,7 +615,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 53.5
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -626,9 +626,9 @@ score:
       total: 66
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/screenshots/madhive-2026-08-07T171916.png
 security:
 - kind: authentication
@@ -653,6 +653,6 @@ tags:
 - Marketing
 - Audiences
 - Campaign Management
-- Model Context Protocol
+- MCP
 website: https://www.madhive.com/
 ---

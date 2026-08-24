@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Bookings API from GetYourGuide — 2 operation(s) for bookings.
@@ -201,8 +201,8 @@ image: https://cdn.getyourguide.com/tf/assets/static/logos/gyg-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: getyourguide-mcp.yml
-  slug: getyourguide-mcpyml
+  name: GetYourGuide MCP Server
+  slug: getyourguide-mcp-server
 modified: '2026-07-19'
 name: GetYourGuide
 nav: Providers
@@ -215,7 +215,7 @@ random_paper: 7
 score:
   band: developing
   composite: 43.8
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 43.2
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -235,8 +235,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/screenshots/getyourguide-2026-07-25T215748.png
 security:
@@ -260,9 +260,9 @@ tags:
 - Tours and Activities
 - Marketplace
 - Booking
-- Experiences
-- Affiliate
+- Experience
+- Affiliates
 - Partner API
-- Ecommerce
+- E-Commerce
 website: https://code.getyourguide.com/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -164,7 +164,7 @@ modified: '2026-08-17'
 name: Naftiko
 nav: Providers
 network: true
-overview: 'Naftiko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, API Integration, API Governance, and Model Context Protocol.
+overview: 'Naftiko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, API Integration, API Governance, and MCP.
 
 
   The Naftiko catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -194,6 +194,7 @@ rules:
 score:
   band: developing
   composite: 42.3
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -203,12 +204,14 @@ score:
     discoverability: 68.5
     governance: 72.7
     operational_transparency: 31.6
+  previous_composite: 42.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Naftiko Domain Security
@@ -220,11 +223,11 @@ tags:
 - Ai Data
 - API Integration
 - API Governance
-- Model Context Protocol
+- MCP
 - Agent Skills
-- Open Source
+- Open-Source
 - Developer Tools
-- API Specifications
+- API Specification
 - Spec-Driven Integration
 - Capability Engine
 - API Linting

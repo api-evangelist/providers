@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -215,9 +215,9 @@ description: Millimetric is API-first, privacy-respecting web and product analyt
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/millimetric.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: millimetric-mcp.yml
-  slug: millimetric-mcpyml
+- description: Millimetric ships a first-class, hosted Model Context Protocol server. Any MCP client (Claude Code, Claude Desktop, MCP Inspector, custom agents) connects with a server-side key and uses the same oper
+  name: Millimetric MCP Server
+  slug: millimetric-mcp-server
 modified: '2026-08-13'
 name: Millimetric
 nav: Providers
@@ -238,7 +238,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.8
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -248,7 +248,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 58.8
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,8 +259,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/screenshots/millimetric-2026-08-07T172916.png
 security:
@@ -282,7 +282,7 @@ tags:
 - Privacy
 - MCP
 - AI Agents
-- Events
+- Event
 - Developer Tools
 website: https://millimetric.ai
 ---

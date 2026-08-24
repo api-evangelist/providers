@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: OAuth access keys are created in Merchant Dashboard and can be exchanged for bearer tokens. Use the `/access-keys/token` endpoint to mint a bearer token from a valid `client_id` and `client_secret`.
@@ -291,9 +291,9 @@ description: 'Resolve is a B2B commerce and payments platform that lets business
 image: https://resolvepay.com/favicon-32x32.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: resolve-mcp.yml
-  slug: resolve-mcpyml
+- description: Official Resolve MCP server with full parity to the Merchant API. Manage a Resolve account (customers, credit checks, invoices, orders, charges, shipments, payments, payouts) from AI assistants like C
+  name: Resolve MCP Server
+  slug: resolve-mcp-server
 modified: '2026-07-20'
 name: Resolve
 nav: Providers
@@ -318,7 +318,7 @@ scopes:
 score:
   band: strong
   composite: 58.6
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -328,7 +328,7 @@ score:
     discoverability: 63.0
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 57.9
+  previous_composite: 58.6
   provenance:
     conformance: derived
     contracts:
@@ -344,8 +344,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/screenshots/resolve-2026-08-17T081532.png
 security:

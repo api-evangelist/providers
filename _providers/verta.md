@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 0
@@ -189,13 +189,13 @@ image: https://github.com/VertaAI.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: verta-mcp.yml
-  slug: verta-mcpyml
+  name: Verta MCP Server
+  slug: verta-mcp-server
 modified: '2026-07-21'
 name: Verta
 nav: Providers
 network: true
-overview: 'Verta publishes 11 APIs on the [APIs.io](https://apis.io/) network, including AuthzService API, DatasetService API, ExperimentRunService API, and 8 more. Tagged areas include MLOps, Machine Learning, Model Management, Experiment Tracking, and Model Registry.
+overview: 'Verta publishes 11 APIs on the [APIs.io](https://apis.io/) network, including AuthzService API, DatasetService API, ExperimentRunService API, and 8 more. Tagged areas include MLOps, Machine-Learning, Model Management, Experiment Tracking, and Model Registry.
 
 
   Verta''s developer surface includes authentication, changelog, documentation, and 15 more developer resources.'
@@ -203,7 +203,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 25.0
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -213,7 +213,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 26.6
+  previous_composite: 25.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,8 +224,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -235,12 +235,12 @@ security:
 slug: verta
 tags:
 - MLOps
-- Machine Learning
+- Machine-Learning
 - Model Management
 - Experiment Tracking
 - Model Registry
 - Model Versioning
 - Metadata
-- Open Source
+- Open-Source
 - Company
 ---

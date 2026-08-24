@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -196,8 +196,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/suncorp-ba
 layout: provider
 mcp_servers:
 - description: ''
-  name: suncorp-bank-mcp.yml
-  slug: suncorp-bank-mcpyml
+  name: Suncorp Bank MCP Server
+  slug: suncorp-bank-mcp-server
 modified: '2026-07-21'
 name: Suncorp Bank
 nav: Providers
@@ -215,7 +215,7 @@ scopes:
 score:
   band: developing
   composite: 47.0
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 44.3
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,8 +242,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/screenshots/suncorp-bank-2026-07-21T114752.png
 security:

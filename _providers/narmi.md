@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 2
@@ -601,9 +601,9 @@ description: Narmi is a digital banking platform for community banks and credit 
 image: https://cdn.prod.website-files.com/6155dc277c0e6923df412e1b/6192c6364208f389eb6285e2_Narmi_OG-image-main.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: narmi-mcp.yml
-  slug: narmi-mcpyml
+- description: Narmi launched the first Model Context Protocol (MCP) server deployed by a U.S. bank — in partnership with Grasshopper Bank in August 2025 — enabling business banking customers to query their financia
+  name: Narmi MCP Server
+  slug: narmi-mcp-server
 modified: '2026-07-20'
 name: Narmi
 nav: Providers
@@ -624,7 +624,7 @@ scopes:
 score:
   band: strong
   composite: 59.6
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -634,7 +634,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 56.4
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -651,8 +651,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/screenshots/narmi-2026-08-07T184633.png
 security:
@@ -679,6 +679,6 @@ tags:
 - Wires
 - FedNow
 - Cards
-- Financial Services
+- Financial-Services
 website: https://www.narmi.com
 ---

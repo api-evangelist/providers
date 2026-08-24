@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Wallet and bank account registration Every wallet address that interacts with Iron must be registered (linked) to a customer **before** it can be used in any flow — onramp, offramp, or swap. This is a
@@ -257,13 +257,13 @@ image: https://framerusercontent.com/images/HAx7iVFXocaeIm27aAOhEsYTyfE.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: unstoppable-finance-mcp.yml
-  slug: unstoppable-finance-mcpyml
+  name: Unstoppable Finance (Iron) MCP Server
+  slug: unstoppable-finance-iron-mcp-server
 modified: '2026-07-21'
 name: Unstoppable Finance (Iron)
 nav: Providers
 network: true
-overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Autoramp API, Currencies API, and 6 more. Tagged areas include Company, Stablecoins, Payments, Onramp, and Offramp.
+overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Autoramp API, Currencies API, and 6 more. Tagged areas include Company, Stablecoins, Payments, On-Ramp, and Off-Ramp.
 
 
   The Unstoppable Finance (Iron) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -274,7 +274,7 @@ random_paper: 13
 score:
   band: strong
   composite: 57.6
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -284,7 +284,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 55.4
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     contracts:
@@ -300,8 +300,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/screenshots/unstoppable-finance-2026-08-17T082634.png
 security:
@@ -326,8 +326,8 @@ tags:
 - Company
 - Stablecoins
 - Payments
-- Onramp
-- Offramp
+- On-Ramp
+- Off-Ramp
 - Cryptocurrency
 - Banking
 - Fintech

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -190,9 +190,9 @@ description: 'Wideo is an online video creation and automation platform that let
 image: https://wideo.co/wp-content/uploads/2017/12/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: wideo-mcp.yml
-  slug: wideo-mcpyml
+- description: No official Wideo MCP server exists. Searched the Wideo documentation, the npm registry (including the first-party @wideo scope) and the public MCP server listings on 2026-08-13 and found nothing publ
+  name: Wideo MCP Server
+  slug: wideo-mcp-server
 modified: '2026-08-13'
 name: Wideo
 nav: Providers
@@ -216,7 +216,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.4
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -226,7 +226,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 57.9
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,8 +237,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/screenshots/wideo-2026-08-17T082920.png
 security:

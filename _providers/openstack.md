@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -241,7 +241,7 @@ modified: '2026-05-19'
 name: OpenStack
 nav: Providers
 network: true
-overview: 'OpenStack publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Endpoints API, Flavors API, and 11 more. Tagged areas include Cloud Platform, Infrastructure as a Service, Open Source, Virtualization, and Linux Foundation.
+overview: 'OpenStack publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Endpoints API, Flavors API, and 11 more. Tagged areas include Cloud Platform, Infrastructure-as-a-Service, Open-Source, Virtualization, and Linux Foundation.
 
 
   The OpenStack catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -271,7 +271,7 @@ rules:
 score:
   band: developing
   composite: 40.1
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -281,7 +281,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 45.2
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -289,9 +289,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/screenshots/openstack-2026-06-20T191039.png
 security:
 - kind: authentication
@@ -305,8 +305,8 @@ security:
 slug: openstack
 tags:
 - Cloud Platform
-- Infrastructure as a Service
-- Open Source
+- Infrastructure-as-a-Service
+- Open-Source
 - Virtualization
 - Linux Foundation
 website: https://www.openstack.org/

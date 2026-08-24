@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -252,8 +252,8 @@ image: https://www.kongregate.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kongregate-mcp.yml
-  slug: kongregate-mcpyml
+  name: Kongregate MCP Server
+  slug: kongregate-mcp-server
 modified: '2026-07-19'
 name: Kongregate
 nav: Providers
@@ -269,7 +269,7 @@ random_paper: 13
 score:
   band: developing
   composite: 47.5
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -279,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 50.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,8 +290,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/screenshots/kongregate-2026-07-25T224157.png
 security:

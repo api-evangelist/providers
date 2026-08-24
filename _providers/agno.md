@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 1
@@ -298,7 +298,7 @@ modified: '2026-06-12'
 name: Agno
 nav: Providers
 network: true
-overview: 'Agno publishes 21 APIs on the [APIs.io](https://apis.io/) network, including A2A API, Agents API, AGUI API, and 18 more. Tagged areas include AI Agents, Multi-Agent Systems, Python Framework, LLM, and Machine Learning.
+overview: 'Agno publishes 21 APIs on the [APIs.io](https://apis.io/) network, including A2A API, Agents API, AGUI API, and 18 more. Tagged areas include AI Agents, Multi-Agent Systems, Python Framework, LLM, and Machine-Learning.
 
 
   The Agno catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -328,7 +328,7 @@ rules:
 score:
   band: developing
   composite: 48.5
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -338,7 +338,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 53.4
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -346,8 +346,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/screenshots/agno-2026-06-20T170338.png
 security:
@@ -365,9 +365,9 @@ tags:
 - Multi-Agent Systems
 - Python Framework
 - LLM
-- Machine Learning
+- Machine-Learning
 - Agentic AI
-- Open Source
+- Open-Source
 - Agent Runtime
 website: https://www.agno.com/
 ---

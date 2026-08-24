@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: A live Cantaloupe Image Server exposing the International Image Interoperability Framework (IIIF) Image API 2.x over the scanned NSW land record images behind the Historical Land Records Viewer. Verif
@@ -223,7 +223,7 @@ modified: '2026-07-26'
 name: NSW Land Registry Services
 nav: Providers
 network: true
-overview: 'NSW Land Registry Services publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Australia, Land Registry, Title, and Conveyancing.
+overview: 'NSW Land Registry Services publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Australia, Land Registry, Title, and Conveyancing.
 
 
   The NSW Land Registry Services catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -234,7 +234,7 @@ random_paper: 16
 score:
   band: developing
   composite: 48.5
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 39.5
-  previous_composite: 45.1
+  previous_composite: 48.5
   provenance:
     conformance: first-party
   regulatory:
@@ -253,8 +253,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nsw-land-registry/refs/heads/main/screenshots/nsw-land-registry-2026-07-27T125345.png
 security:
@@ -268,7 +268,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: nsw-land-registry
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Land Registry
 - Title

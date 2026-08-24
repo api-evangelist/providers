@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 430
   human_in_the_loop: 11
@@ -702,9 +702,9 @@ description: ChartHop is an AI-powered people-analytics and workforce-planning p
 image: https://cdn.prod.website-files.com/660705f9180be6a0b53d847b/667b5ad31adfa64d1e3b27e3_ChartHop-favicon-violet-01%20(1).png
 layout: provider
 mcp_servers:
-- description: ''
-  name: charthop-mcp.yml
-  slug: charthop-mcpyml
+- description: ChartHop ships a first-party MCP server built into its REST API. The MCP message endpoint speaks JSON-RPC 2.0 over Streamable HTTP and is authorized with OAuth 2.1 (authorization_code + PKCE S256, dyn
+  name: Charthop MCP Server
+  slug: charthop-mcp-server
 modified: '2026-07-18'
 name: Charthop
 nav: Providers
@@ -719,18 +719,18 @@ overview: 'Charthop publishes 87 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 17
 score:
   band: developing
-  composite: 45.6
-  delta: -3.7
+  composite: 46.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 16.7
     contract_quality: 47.9
     developer_ergonomics: 58.9
-    discoverability: 63.0
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 49.3
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -741,8 +741,8 @@ score:
       total: 87
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/screenshots/charthop-2026-07-25T205113.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -266,8 +266,8 @@ image: https://avatars.githubusercontent.com/u/153253056?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: general-translation-mcp.yml
-  slug: general-translation-mcpyml
+  name: General Translation MCP Server
+  slug: general-translation-mcp-server
 modified: '2026-07-19'
 name: General Translation
 nav: Providers
@@ -287,7 +287,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.1
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -297,7 +297,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 64.3
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -308,8 +308,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/screenshots/general-translation-2026-07-25T215549.png
 security:
@@ -330,7 +330,7 @@ tags:
 - Developer Tools
 - Artificial Intelligence
 - i18n
-- SDKs
+- SDK
 - Machine Translation
 website: https://generaltranslation.com
 ---

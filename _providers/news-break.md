@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.5
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -194,7 +194,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 49.6
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/screenshots/news-break-2026-08-07T185122.png
 security:

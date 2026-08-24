@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ modified: '2026-06-13'
 name: PayFast
 nav: Providers
 network: true
-overview: 'PayFast publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Subscriptions API, Tokenization API, Transaction History API, and 10 more. Tagged areas include Payments, Payment Gateway, South Africa, Subscriptions, and Recurring Billing.
+overview: 'PayFast publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Subscriptions API, Tokenization API, Transaction History API, and 10 more. Tagged areas include Payments, Payment Gateway, South Africa, Subscription, and Recurring Billing.
 
 
   The PayFast catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -245,7 +245,7 @@ rules:
 score:
   band: thin
   composite: 35.4
-  delta: -9.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -255,7 +255,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 44.9
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -269,9 +269,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/screenshots/payfast-2026-06-20T191452.png
 security:
 - kind: authentication
@@ -287,7 +287,7 @@ tags:
 - Payments
 - Payment Gateway
 - South Africa
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Tokenization
 - Instant EFT

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -433,8 +433,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: dtn-mcp.yml
-  slug: dtn-mcpyml
+  name: DTN MCP Server
+  slug: dtn-mcp-server
 modified: '2026-07-22'
 name: DTN
 nav: Providers
@@ -474,7 +474,7 @@ scopes:
 score:
   band: strong
   composite: 57.5
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -484,7 +484,7 @@ score:
     discoverability: 75.9
     governance: 26.5
     operational_transparency: 36.8
-  previous_composite: 55.8
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -501,8 +501,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
 security:

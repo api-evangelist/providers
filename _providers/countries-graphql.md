@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A public, free GraphQL endpoint that exposes queryable fields for countries, continents, and languages. Countries can be filtered by code, currency, or continent, and each country record includes fiel
@@ -92,7 +92,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 19.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -108,15 +108,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 19.8
+  previous_composite: 19.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/countries-graphql/refs/heads/main/screenshots/countries-graphql-2026-06-20T175102.png
 security:
@@ -131,7 +131,7 @@ tags:
 - Geography
 - Open Data
 - Free
-- Languages
+- Language
 - Continents
 website: https://countries.trevorblades.com
 ---

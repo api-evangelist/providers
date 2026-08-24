@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -248,8 +248,8 @@ image: https://github.com/usersnap.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: usersnap-mcp.yml
-  slug: usersnap-mcpyml
+  name: Usersnap MCP Server
+  slug: usersnap-mcp-server
 modified: '2026-07-21'
 name: Usersnap
 nav: Providers
@@ -270,7 +270,7 @@ scopes:
 score:
   band: strong
   composite: 55.7
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -280,7 +280,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 62.0
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,9 +291,9 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/screenshots/usersnap-2026-08-17T082655.png
 security:
 - kind: authentication
@@ -320,6 +320,6 @@ tags:
 - Customer Experience
 - Product Management
 - Surveys
-- SaaS
+- Software-as-a-Service
 website: https://usersnap.com
 ---

@@ -31,9 +31,9 @@ tags:
 - Early Stage
 - Artificial Intelligence
 - Data
-- SaaS
+- Software-as-a-Service
 - Climate Tech
-- Open Source
+- Open-Source
 - Fintech
 - Infrastructure
 - Impact

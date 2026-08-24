@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Read-only REST API for exporting Cast.app campaign performance data — per-campaign engagement summaries, paged engagement events (delivered / view / play / action / feedback) with contact and device d
@@ -189,7 +189,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.0
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -199,12 +199,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 49.7
+  previous_composite: 49.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/screenshots/cast-corporation-2026-07-25T204732.png
 security:
@@ -227,11 +227,11 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Revenue Operations
-- SaaS
+- Software-as-a-Service
 - Automation
 - Post-Sales
 - Analytics
-- Webhooks
+- Webhook
 - Embeddable
 website: https://cast.app/
 ---

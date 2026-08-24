@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: API-key-authenticated REST API returning de-vigged consensus sports probabilities, fixtures, outrights, line movement, and webhook alerts across 13 sports. Public OpenAPI 3.0.3 contract with 11 operat
@@ -149,16 +149,16 @@ image: https://skipodds.com/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: SkipOdds MCP Server
+  slug: skipodds-mcp-server
 - description: ''
-  name: skipodds-mcp.yml
-  slug: skipodds-mcpyml
+  name: SkipOdds MCP Server
+  slug: skipodds-mcp-server-2
 modified: '2026-08-11'
 name: SkipOdds
 nav: Providers
 network: true
-overview: 'SkipOdds publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include sports, odds, probabilities, betting-data, and de-vig.
+overview: 'SkipOdds publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Sports, Odds, probabilities, Betting Data, and de-vig.
 
 
   The SkipOdds catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.2
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -187,7 +187,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 57.2
+  previous_composite: 58.2
   provenance:
     conformance: derived
     contracts:
@@ -203,8 +203,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/screenshots/skipodds-2026-08-17T081914.png
 security:
@@ -218,17 +218,17 @@ security:
   summary_line: TLSv1.3
 slug: skipodds
 tags:
-- sports
-- odds
+- Sports
+- Odds
 - probabilities
-- betting-data
+- Betting Data
 - de-vig
-- sports-data
-- real-time
-- webhooks
-- sports-betting
-- mcp
-- agent-ready
-- market-data
+- Sports Data
+- Real-Time
+- Webhook
+- Sports Betting
+- MCP
+- Agent Ready
+- Market Data
 website: https://skipodds.com/docs
 ---

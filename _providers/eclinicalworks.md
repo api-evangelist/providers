@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Provider-centric, backend and bulk FHIR R4 APIs for integrating with the eClinicalWorks EHR. Supports SMART on FHIR EHR Launch, Standalone Launch, Backend Services (private_key_jwt, RS384) and CDS Hoo
@@ -215,8 +215,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: eclinicalworks-mcp.yml
-  slug: eclinicalworks-mcpyml
+  name: eClinicalWorks MCP Server
+  slug: eclinicalworks-mcp-server
 modified: '2026-08-14'
 name: eClinicalWorks
 nav: Providers
@@ -245,7 +245,7 @@ scopes:
 score:
   band: exemplar
   composite: 76.3
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -255,7 +255,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 70.0
+  previous_composite: 76.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -266,9 +266,9 @@ score:
     regime: Health
     regime_id: health
     score: 83.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/screenshots/eclinicalworks-2026-06-20T180425.png
 security:
 - kind: authentication

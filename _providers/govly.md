@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -230,8 +230,8 @@ image: https://cdn.prod.website-files.com/65f9f755792648d187d6d0dd/69e7b31d3d986
 layout: provider
 mcp_servers:
 - description: ''
-  name: govly-mcp.yml
-  slug: govly-mcpyml
+  name: Govly MCP Server
+  slug: govly-mcp-server
 modified: '2026-07-19'
 name: Govly
 nav: Providers
@@ -247,7 +247,7 @@ random_paper: 15
 score:
   band: strong
   composite: 55.3
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -257,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 52.6
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -274,8 +274,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/screenshots/govly-2026-07-25T220138.png
 security:

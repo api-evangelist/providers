@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Marketing Offers API
@@ -181,9 +181,9 @@ description: 'Upgrade is a San Francisco-based consumer fintech offering persona
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upgrade.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: upgrade-mcp.yml
-  slug: upgrade-mcpyml
+- description: 'Upgrade publishes no official MCP server for the Flex Pay APIs (none found in the Flex Pay documentation, the MCP registry, or npm). This is a candidate tool list derived from the documented Flex Pay '
+  name: Upgrade MCP Server
+  slug: upgrade-mcp-server
 modified: '2026-07-21'
 name: Upgrade
 nav: Providers
@@ -196,7 +196,7 @@ random_paper: 9
 score:
   band: strong
   composite: 54.8
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 52.2
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     contracts:
@@ -222,8 +222,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/screenshots/upgrade-2026-08-17T082636.png
 security:

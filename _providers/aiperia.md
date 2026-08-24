@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-17'
 name: Aiperia
 nav: Providers
 network: true
-overview: 'Aiperia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Demand Forecasting, and Supply Chain.
+overview: 'Aiperia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Demand Forecasting, and Supply Chain.
 
 
   Aiperia''s developer surface includes engineering blog, support, and 3 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 17
 score:
   band: minimal
   composite: 8.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -78,9 +78,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiperia/refs/heads/main/screenshots/aiperia-2026-07-25T195401.png
 security:
@@ -92,7 +92,7 @@ slug: aiperia
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Demand Forecasting
 - Supply Chain
 - Retail

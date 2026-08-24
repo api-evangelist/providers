@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -199,8 +199,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sofi.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sofi-mcp.yml
-  slug: sofi-mcpyml
+  name: SoFi MCP Server
+  slug: sofi-mcp-server
 modified: '2026-07-23'
 name: SoFi
 nav: Providers
@@ -221,7 +221,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.0
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -231,7 +231,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 47.8
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +248,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/screenshots/sofi-2026-06-20T194126.png
 security:
@@ -273,7 +273,7 @@ tags:
 - Fintech
 - Open Banking
 - Digital Banking
-- Banking-as-a-Service
+- Banking as a Service
 - Partner API
 - Business Banking
 - United States

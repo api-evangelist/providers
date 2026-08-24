@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The next generation of JUnit for Java 8 and beyond, providing an expressive API for writing tests and extensions.
@@ -115,7 +115,7 @@ rules:
 score:
   band: emerging
   composite: 17.5
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -125,10 +125,10 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 24.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 17.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/junit/refs/heads/main/screenshots/junit-2026-06-20T183830.png
 security:
 - kind: domain-security

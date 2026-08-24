@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/nvidia/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -44,11 +48,11 @@ created: '2026-07-17'
 description: Icera Semiconductor (icerasemi.com) was a British fabless semiconductor company known for soft-modem and baseband processor chipsets for wireless devices, and was acquired by NVIDIA in 2011. It was surfaced as a portfolio lead of balderton-capital and added to the API Evangelist network as a stub for enrichment. The company no longer operates independently; as of this enrichment pass the domain www.icerasemi.com returns a shared-hosting error page with no live product, developer, API, or documentation surface, so there is nothing beyond domain-level metadata to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icerasemi.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-21'
 name: icerasemi
 nav: Providers
 network: true
-overview: icerasemi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Modem, Wireless, and Fabless.
+overview: icerasemi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Modem, Wireless, and Fabless.
 random_paper: 1
 score:
   band: minimal
@@ -64,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icerasemi/refs/heads/main/screenshots/icerasemi-2026-07-25T222009.png
 security:
@@ -76,7 +80,7 @@ security:
 slug: icerasemi
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Modem
 - Wireless
 - Fabless

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -145,7 +145,7 @@ modified: '2026-05-19'
 name: Microcks
 nav: Providers
 network: true
-overview: 'Microcks publishes 6 APIs on the [APIs.io](https://apis.io/) network, including config API, job API, metrics API, and 3 more. Tagged areas include API Testing, Cloud Native, DevOps, Mocking, and Open Source.
+overview: 'Microcks publishes 6 APIs on the [APIs.io](https://apis.io/) network, including config API, job API, metrics API, and 3 more. Tagged areas include API Testing, Cloud-Native, DevOps, Mocking, and Open-Source.
 
 
   Microcks'' developer surface includes authentication, developer portal, documentation, engineering blog, and 7 more developer resources.'
@@ -166,7 +166,7 @@ scopes:
 score:
   band: thin
   composite: 31.3
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -176,7 +176,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.8
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/screenshots/microcks-2026-06-20T185332.png
 security:
@@ -200,9 +200,9 @@ security:
 slug: microcks
 tags:
 - API Testing
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Mocking
-- Open Source
+- Open-Source
 website: https://microcks.io/
 ---

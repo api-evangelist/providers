@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -239,8 +239,8 @@ image: https://datanomik.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: datanomik-mcp.yml
-  slug: datanomik-mcpyml
+  name: Datanomik MCP Server
+  slug: datanomik-mcp-server
 modified: '2026-07-18'
 name: Datanomik
 nav: Providers
@@ -253,7 +253,7 @@ random_paper: 7
 score:
   band: developing
   composite: 46.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -263,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 47.9
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +280,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/screenshots/datanomik-2026-07-25T211349.png
 security:
@@ -301,7 +301,7 @@ tags:
 - Treasury Management
 - Cash Management
 - Payments
-- PIX
+- Pix
 - Financial Data
 - Bank Connectivity
 - Brazil

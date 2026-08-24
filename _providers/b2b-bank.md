@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-23'
 name: B2B Bank
 nav: Providers
 network: true
-overview: 'B2B Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Schedule I Bank, and Broker Bank.
+overview: 'B2B Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Schedule I Bank, and Broker Bank.
 
 
   B2B Bank''s developer surface includes support and 6 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 1.5
-  delta: -9.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -78,16 +78,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 1.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b2b-bank/refs/heads/main/screenshots/b2b-bank-2026-07-25T202139.png
 security:
 - kind: domain-security
@@ -96,7 +96,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: b2b-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Schedule I Bank

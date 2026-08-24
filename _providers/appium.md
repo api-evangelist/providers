@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -318,7 +318,7 @@ modified: '2026-05-19'
 name: Appium
 nav: Providers
 network: true
-overview: 'Appium publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Appium Device API, and 7 more. Tagged areas include Android, Cross-Platform, iOS, Mobile Testing, and Open Source.
+overview: 'Appium publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Appium Device API, and 7 more. Tagged areas include Android, Cross-Platform, iOS, Mobile Testing, and Open-Source.
 
 
   The Appium catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -358,18 +358,18 @@ rules:
   slug: appium-spectral-rules
 score:
   band: thin
-  composite: 32.6
-  delta: -6.8
+  composite: 33.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 26.5
     developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 39.4
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -377,9 +377,9 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/screenshots/appium-2026-06-20T172316.png
 security:
 - kind: domain-security
@@ -414,7 +414,7 @@ tags:
 - Cross-Platform
 - iOS
 - Mobile Testing
-- Open Source
+- Open-Source
 - OpenJS Foundation
 - Test Automation
 - WebDriver

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The USITC DataWeb provides interactive access to U.S. international trade statistics and U.S. tariff data, including imports, exports, and production by commodity and country.
@@ -61,7 +61,7 @@ modified: '2026-04-28'
 name: International Trade Commission
 nav: Providers
 network: true
-overview: 'International Trade Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Government Data, Intellectual Property, Trade, and Tariffs.
+overview: 'International Trade Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Government Data, Intellectual Property, Trade, and Tariffs.
 
 
   The International Trade Commission catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -88,7 +88,7 @@ rules:
 score:
   band: minimal
   composite: 9.4
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -98,15 +98,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.1
+  previous_composite: 9.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-trade-commission/refs/heads/main/screenshots/international-trade-commission-2026-06-20T183500.png
 security:
@@ -116,7 +116,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: international-trade-commission
 tags:
-- Federal Government
+- Federal-Government
 - Government Data
 - Intellectual Property
 - Trade

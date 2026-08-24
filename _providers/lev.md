@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -349,13 +349,13 @@ image: https://www.lev.com/api/og?title=Lev&eyebrow=LEV&accent=commercial+real+e
 layout: provider
 mcp_servers:
 - description: ''
-  name: lev-mcp.yml
-  slug: lev-mcpyml
+  name: Lev
+  slug: lev
 modified: '2026-07-19'
 name: Lev
 nav: Providers
 network: true
-overview: 'Lev publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account & Team API, API Keys API, Billing API, and 13 more. Tagged areas include Company, Commercial Real Estate, Real Estate, Proptech, and CRE Financing.
+overview: 'Lev publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account & Team API, API Keys API, Billing API, and 13 more. Tagged areas include Company, Commercial Real Estate, Real-Estate, PropTech, and CRE Financing.
 
 
   Lev''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
@@ -376,7 +376,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.8
-  delta: 3.3
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -386,7 +386,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 69.5
+  previous_composite: 72.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -403,8 +403,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png
 security:
@@ -424,8 +424,8 @@ slug: lev
 tags:
 - Company
 - Commercial Real Estate
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - CRE Financing
 - Lending
 - CRM

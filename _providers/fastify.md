@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Fastify is a fast and low-overhead web framework for Node.js, designed for building high-performance APIs and microservices. It features a powerful plugin architecture, JSON Schema-based request and r
@@ -124,7 +124,7 @@ modified: '2026-04-28'
 name: Fastify
 nav: Providers
 network: true
-overview: 'Fastify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Frameworks, High Performance, JavaScript, JSON Schema, and Node.js.
+overview: 'Fastify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Frameworks, High Performance, JavaScript, JSON-Schema, and Node.js.
 
 
   The Fastify catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -154,7 +154,7 @@ rules:
 score:
   band: emerging
   composite: 24.1
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -164,10 +164,10 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 30.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 24.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastify/refs/heads/main/screenshots/fastify-2026-06-20T181051.png
 security:
 - kind: domain-security
@@ -179,7 +179,7 @@ tags:
 - Frameworks
 - High Performance
 - JavaScript
-- JSON Schema
+- JSON-Schema
 - Node.js
 - TypeScript
 website: https://fastify.dev/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -547,9 +547,9 @@ jsonld:
   slug: buildkite-com-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: buildkite-com-mcp.yml
-  slug: buildkite-com-mcpyml
+- description: Buildkite operates an official Model Context Protocol server that exposes the REST API (organizations, clusters, agents, pipelines, builds, jobs, artifacts, annotations, logs, Test Engine) as MCP tool
+  name: Buildkite MCP Server
+  slug: buildkite-mcp-server
 modified: '2026-06-20'
 name: Buildkite
 nav: Providers
@@ -599,18 +599,18 @@ scopes:
   summary_line: 42 scopes
 score:
   band: exemplar
-  composite: 66.5
-  delta: -6.2
+  composite: 66.9
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 63.4
     developer_ergonomics: 69.0
     discoverability: 72.2
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 47.4
-  previous_composite: 72.7
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -620,9 +620,9 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:
 - kind: authentication
@@ -652,6 +652,6 @@ tags:
 - GraphQL
 - REST
 - MCP
-- Webhooks
+- Webhook
 website: https://buildkite.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Generates a Lovable application from a shareable URL or prompt. Programmatic entry point for creating apps and sharing links without revealing implementation details. Early release; more endpoints pla
@@ -100,7 +100,7 @@ modified: '2026-05-08'
 name: Lovable
 nav: Providers
 network: true
-overview: 'Lovable publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, No-Code, App Builder, Web Development, and Generative.
+overview: 'Lovable publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, No-Code, App Builder, Web Development, and Generative.
 
 
   Lovable''s developer surface includes documentation, pricing, and 10 more developer resources.'
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -126,9 +126,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 17.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/screenshots/lovable-2026-06-20T184733.png
 security:
@@ -146,7 +146,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: lovable
 tags:
-- AI
+- Artificial Intelligence
 - No-Code
 - App Builder
 - Web Development

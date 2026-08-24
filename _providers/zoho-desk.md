@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Agents API from Zoho Desk — 2 operation(s) for agents.
@@ -111,7 +111,7 @@ modified: '2026-05-11'
 name: Zoho Desk
 nav: Providers
 network: true
-overview: 'Zoho Desk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agents API, Contacts API, and Tickets API. Tagged areas include Customer Support, Help Desk, Ticketing, Knowledge Base, and Customer Service.
+overview: 'Zoho Desk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agents API, Contacts API, and Tickets API. Tagged areas include Customer-Support, Help Desk, Ticketing, Knowledge Base, and Customer Service.
 
 
   Zoho Desk''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
@@ -119,7 +119,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 25.3
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -129,15 +129,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 29.8
+  previous_composite: 25.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/screenshots/zoho-desk-2026-06-20T201938.png
 security:
@@ -151,7 +151,7 @@ security:
   summary_line: security.txt · contact published
 slug: zoho-desk
 tags:
-- Customer Support
+- Customer-Support
 - Help Desk
 - Ticketing
 - Knowledge Base

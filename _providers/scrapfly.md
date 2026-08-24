@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ modified: '2026-05-19'
 name: Scrapfly
 nav: Providers
 network: true
-overview: 'Scrapfly publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scraping API and Screenshots API. Tagged areas include AI, Data Extraction, Screenshots, Web Scraping, and Proxies.
+overview: 'Scrapfly publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scraping API and Screenshots API. Tagged areas include Artificial Intelligence, Data Extraction, Screenshots, Web Scraping, and Proxies.
 
 
   The Scrapfly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -175,18 +175,18 @@ rules:
   slug: scrapfly-rules
 score:
   band: thin
-  composite: 33.3
-  delta: -6.6
+  composite: 33.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.0
     developer_ergonomics: 14.3
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 39.9
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -194,9 +194,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/screenshots/scrapfly-2026-06-20T193556.png
 security:
 - kind: authentication
@@ -213,7 +213,7 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: scrapfly
 tags:
-- AI
+- Artificial Intelligence
 - Data Extraction
 - Screenshots
 - Web Scraping

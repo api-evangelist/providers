@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: RESTful entry point to the Monetate decision engine. A client POSTs a batch of context events, page events and record events for a session and receives back the actions (experiences) the engine decide
@@ -191,16 +191,16 @@ image: https://images.archbee.com/ceIfEvQHzQk1IVxoRWUh7/48dIncdY24xPwZLOvfSEr_ho
 layout: provider
 mcp_servers:
 - description: ''
-  name: monetate-mcp.yml
-  slug: monetate-mcpyml
+  name: Monetate MCP Server
+  slug: monetate-mcp-server
 - description: ''
-  name: http
-  slug: http
+  name: Monetate MCP Server
+  slug: monetate-mcp-server-2
 modified: '2026-08-12'
 name: Monetate
 nav: Providers
 network: true
-overview: 'Monetate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Engine API, Data API, Metadata API, and 1 more. Tagged areas include Company, Personalization, Experience Optimization, A/B Testing, and Ecommerce.
+overview: 'Monetate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Engine API, Data API, Metadata API, and 1 more. Tagged areas include Company, Personalization, Experience Optimization, A/B Testing, and E-Commerce.
 
 
   Monetate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
@@ -216,7 +216,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.0
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -226,7 +226,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 53.1
+  previous_composite: 53.0
   provenance:
     conformance: derived
     contracts:
@@ -236,8 +236,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/screenshots/monetate-2026-08-17T081059.png
 security:
@@ -263,7 +263,7 @@ tags:
 - Personalization
 - Experience Optimization
 - A/B Testing
-- Ecommerce
+- E-Commerce
 - Product Recommendations
 - Personalized Search
 - Marketing

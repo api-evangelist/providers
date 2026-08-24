@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Auto-generated GraphQL API exposing indexed smart contract events from any EVM-compatible chain. HyperIndex processes on-chain events into queryable databases, supports multichain indexing from a sing
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.5
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -141,9 +141,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 35.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 34.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envio/refs/heads/main/screenshots/envio-2026-06-20T180740.png
 security:
@@ -162,6 +162,6 @@ tags:
 - Data
 - HyperSync
 - HyperIndex
-- Multichain
+- Multi-Chain
 website: https://envio.dev
 ---

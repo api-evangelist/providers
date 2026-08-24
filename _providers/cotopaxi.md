@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -89,7 +89,7 @@ modified: '2026-07-18'
 name: Cotopaxi
 nav: Providers
 network: true
-overview: 'Cotopaxi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Outdoor, Apparel, and Ecommerce.
+overview: 'Cotopaxi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Outdoor, Apparel, and E-Commerce.
 
 
   Cotopaxi''s developer surface includes authentication, support, signup flow, and 8 more developer resources.'
@@ -101,23 +101,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.4
-  delta: -0.7
+  composite: 18.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.1
+  previous_composite: 18.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/screenshots/cotopaxi-2026-07-25T210504.png
 security:
@@ -135,7 +135,7 @@ tags:
 - Consumer
 - Outdoor
 - Apparel
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopify
 - MCP

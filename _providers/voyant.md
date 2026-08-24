@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 4
@@ -169,13 +169,13 @@ image: https://www.voyant.io/img/logo/voyant-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: voyant-mcp.yml
-  slug: voyant-mcpyml
+  name: Voyant.io MCP Server
+  slug: voyantio-mcp-server
 modified: '2026-08-13'
 name: Voyant.io
 nav: Providers
 network: true
-overview: 'Voyant.io publishes 2 APIs on the [APIs.io](https://apis.io/) network: VoyantIO API and Gypsum Context API. Tagged areas include artificial-intelligence, context-management, brand-governance, product-marketing, and gtm-operations.
+overview: 'Voyant.io publishes 2 APIs on the [APIs.io](https://apis.io/) network: VoyantIO API and Gypsum Context API. Tagged areas include Artificial Intelligence, Context Management, Brand Governance, Product Marketing, and gtm-operations.
 
 
   The Voyant.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -194,7 +194,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.0
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -204,7 +204,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 51.7
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,9 +215,9 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/screenshots/voyant-2026-08-17T082904.png
 security:
 - kind: authentication
@@ -230,19 +230,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: voyant
 tags:
-- artificial-intelligence
-- context-management
-- brand-governance
-- product-marketing
+- Artificial Intelligence
+- Context Management
+- Brand Governance
+- Product Marketing
 - gtm-operations
-- marketing-automation
-- content-generation
-- competitive-intelligence
-- semantic-search
-- rag
-- mcp
+- Marketing Automation
+- Content Generation
+- Competitive Intelligence
+- Semantic Search
+- RAG
+- MCP
 - agent-native
-- signals
-- telemetry
+- Signals
+- Telemetry
 website: https://www.voyant.io/
 ---

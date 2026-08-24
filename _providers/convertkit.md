@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -1147,8 +1147,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: convertkit-mcp.yml
-  slug: convertkit-mcpyml
+  name: Kit MCP Server
+  slug: kit-mcp-server
 modified: '2026-08-13'
 name: Kit
 nav: Providers
@@ -1188,7 +1188,7 @@ scopes:
 score:
   band: exemplar
   composite: 85.4
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1198,7 +1198,7 @@ score:
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 92.1
-  previous_composite: 82.6
+  previous_composite: 85.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1215,8 +1215,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/screenshots/convertkit-2026-06-20T175000.png
 security:
@@ -1246,15 +1246,15 @@ tags:
 - Sequences
 - Forms
 - Broadcasts
-- Webhooks
+- Webhook
 - MCP
 - Agents
-- OAuth
+- Authentication
 - Marketing Automation
 - Landing Pages
 - Segmentation
 - Email Campaigns
-- SaaS
+- Software-as-a-Service
 - Commerce
 website: https://kit.com
 ---

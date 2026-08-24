@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -264,18 +264,18 @@ rules:
   slug: cyberark-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.0
-  delta: -7.6
+  composite: 38.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 57.3
     developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 26.3
-  previous_composite: 44.6
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -283,9 +283,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/screenshots/cyberark-2026-06-20T175406.png
 security:
 - kind: authentication

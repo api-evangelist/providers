@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -590,7 +590,7 @@ modified: '2026-05-19'
 name: Zuora
 nav: Providers
 network: true
-overview: 'Zuora publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Accounting Codes API, Accounting Periods API, Accounts API, and 76 more. Tagged areas include Billing, Finance, Payments, and Subscriptions.
+overview: 'Zuora publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Accounting Codes API, Accounting Periods API, Accounts API, and 76 more. Tagged areas include Billing, Finance, Payments, and Subscription.
 
 
   Zuora''s developer surface includes support, changelog, getting-started guide, developer portal, documentation, engineering blog, and 8 more developer resources.'
@@ -606,7 +606,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.4
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -616,7 +616,7 @@ score:
     discoverability: 48.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.5
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -630,8 +630,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/screenshots/zuora-2026-06-20T202000.png
 security:
@@ -644,6 +644,6 @@ tags:
 - Billing
 - Finance
 - Payments
-- Subscriptions
+- Subscription
 website: https://www.zuora.com/
 ---

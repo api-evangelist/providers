@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Techmate
 nav: Providers
 network: true
-overview: 'Techmate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Services, Field Services, IT Support, and Managed Services.
+overview: 'Techmate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Services, Field Services, IT Support, and Managed Service.
 
 
   Techmate''s developer surface includes engineering blog, support, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 8.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -80,9 +80,9 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 8.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: techmate
 tags:
@@ -90,7 +90,7 @@ tags:
 - IT Services
 - Field Services
 - IT Support
-- Managed Services
+- Managed Service
 - On-Demand
 - Staff Augmentation
 website: https://techmate.com

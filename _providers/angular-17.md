@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Core Angular 17 framework APIs featuring stable Signals for reactive state management, deferrable views (@defer blocks) for lazy loading template dependencies, new built-in control flow syntax (@if, @
@@ -123,7 +123,7 @@ modified: '2026-04-19'
 name: Angular 17
 nav: Providers
 network: true
-overview: 'Angular 17 publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Deferrable Views, Framework, Frontend, JavaScript, and Open Source.
+overview: 'Angular 17 publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Deferrable Views, Framework, Frontend, JavaScript, and Open-Source.
 
 
   Angular 17''s developer surface includes documentation, GitHub presence, changelog, engineering blog, Stack Overflow tag, and 9 more developer resources.'
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.1
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -155,9 +155,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 16.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-17/refs/heads/main/screenshots/angular-17-2026-06-20T171956.png
 security:
@@ -171,7 +171,7 @@ tags:
 - Framework
 - Frontend
 - JavaScript
-- Open Source
+- Open-Source
 - Signals
 - Single Page Application
 - TypeScript

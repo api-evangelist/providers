@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Search and retrieve calls, meetings, emails and engagement metadata. A capability area of the single published Chorus API contract, served at /v3/engagements and /api/v1/conversations.
@@ -200,7 +200,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 49.5
+  previous_composite: 49.0
   provenance:
     conformance: first-party
     contracts:
@@ -220,8 +220,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/screenshots/chorus-ai-2026-08-17T082957.png
 security:

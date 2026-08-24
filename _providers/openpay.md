@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ modified: '2026-06-21'
 name: Openpay
 nav: Providers
 network: true
-overview: 'Openpay publishes 11 APIs on the [APIs.io](https://apis.io/) network, including BankAccounts API, Cards API, Charges API, and 8 more. Tagged areas include Payments, Fintech, Cards, SPEI, and Subscriptions.
+overview: 'Openpay publishes 11 APIs on the [APIs.io](https://apis.io/) network, including BankAccounts API, Cards API, Charges API, and 8 more. Tagged areas include Payments, Fintech, Cards, SPEI, and Subscription.
 
 
   Openpay''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -183,7 +183,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.6
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -193,7 +193,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 32.8
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +207,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/screenshots/openpay-2026-08-07T190624.png
 security:
@@ -226,6 +226,6 @@ tags:
 - Fintech
 - Cards
 - SPEI
-- Subscriptions
+- Subscription
 website: https://www.openpay.mx
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ modified: '2026-05-19'
 name: LogMeal
 nav: Providers
 network: true
-overview: 'LogMeal publishes 3 APIs on the [APIs.io](https://apis.io/) network: History API, Image Recognition API, and Nutrition API. Tagged areas include Computer Vision, Food, Image Recognition, Nutrition, and Semantic Tagging.
+overview: 'LogMeal publishes 3 APIs on the [APIs.io](https://apis.io/) network: History API, Image Recognition API, and Nutrition API. Tagged areas include Computer-Vision, Food, Image Recognition, Nutrition, and Semantic Tagging.
 
 
   LogMeal''s developer surface includes authentication, documentation, developer portal, engineering blog, and 5 more developer resources.'
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.7
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -141,7 +141,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 34.1
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logmeal/refs/heads/main/screenshots/logmeal-2026-06-20T184658.png
 security:
@@ -164,7 +164,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: logmeal
 tags:
-- Computer Vision
+- Computer-Vision
 - Food
 - Image Recognition
 - Nutrition

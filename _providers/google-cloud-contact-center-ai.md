@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-05-19'
 name: Google Cloud Contact Center AI
 nav: Providers
 network: true
-overview: 'Google Cloud Contact Center AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analyses API, Conversations API, and Insights API. Tagged areas include AI, Contact Center, Conversations, Customer Service, and Google Cloud.
+overview: 'Google Cloud Contact Center AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analyses API, Conversations API, and Insights API. Tagged areas include Artificial Intelligence, Contact Center, Conversations, Customer Service, and Google Cloud.
 
 
   The Google Cloud Contact Center AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 40.0
-  delta: -13.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -210,7 +210,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 53.6
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -218,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/screenshots/google-cloud-contact-center-ai-2026-06-20T182101.png
 security:
 - kind: authentication
@@ -237,7 +237,7 @@ security:
   summary_line: security.txt · contact published
 slug: google-cloud-contact-center-ai
 tags:
-- AI
+- Artificial Intelligence
 - Contact Center
 - Conversations
 - Customer Service

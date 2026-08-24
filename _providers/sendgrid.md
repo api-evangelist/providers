@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -1016,9 +1016,9 @@ graphqls:
 image: https://sendgrid.com/brand/sg-logo-300.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sendgrid-mcp.yml
-  slug: sendgrid-mcpyml
+- description: SendGrid's Model Context Protocol coverage is served by Twilio, its parent company. On 2026-08-13 the API Evangelist pipeline PROBED https://mcp.twilio.com/docs and got a live, UNAUTHENTICATED MCP ser
+  name: SendGrid MCP Server
+  slug: sendgrid-mcp-server
 modified: '2026-08-13'
 name: SendGrid
 nav: Providers
@@ -1070,7 +1070,7 @@ scopes:
 score:
   band: exemplar
   composite: 77.4
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1080,7 +1080,7 @@ score:
     discoverability: 75.9
     governance: 41.7
     operational_transparency: 60.5
-  previous_composite: 73.2
+  previous_composite: 77.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1091,8 +1091,8 @@ score:
       total: 63
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:

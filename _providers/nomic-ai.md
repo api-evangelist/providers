@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ modified: '2026-05-23'
 name: Nomic AI
 nav: Providers
 network: true
-overview: 'Nomic AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Embeddings API, Files API, and Tasks API. Tagged areas include Embeddings, Vector Database, Data Exploration, LLM, and Open Source.
+overview: 'Nomic AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Embeddings API, Files API, and Tasks API. Tagged areas include Embeddings, Vector Database, Data Exploration, LLM, and Open-Source.
 
 
   Nomic AI''s developer surface includes authentication, documentation, GitHub presence, and 12 more developer resources.'
@@ -182,7 +182,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.4
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -192,7 +192,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 40.1
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +200,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/screenshots/nomic-ai-2026-06-20T190456.png
 security:
@@ -227,7 +227,7 @@ tags:
 - Vector Database
 - Data Exploration
 - LLM
-- Open Source
+- Open-Source
 - RAG
 - Atlas
 website: https://www.nomic.ai/

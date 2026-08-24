@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ modified: '2026-06-13'
 name: Duda
 nav: Providers
 network: true
-overview: 'Duda publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Blog API, and 7 more. Tagged areas include Website Builder, Agencies, White Label, SaaS, and eCommerce.
+overview: 'Duda publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Blog API, and 7 more. Tagged areas include Website Builder, Agencies, White Label, Software-as-a-Service, and E-Commerce.
 
 
   Duda''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.4
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -212,7 +212,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 44.9
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/screenshots/duda-2026-06-20T180313.png
 security:
@@ -238,8 +238,8 @@ tags:
 - Website Builder
 - Agencies
 - White Label
-- SaaS
-- eCommerce
+- Software-as-a-Service
+- E-Commerce
 - CMS
 website: https://www.duda.co
 ---

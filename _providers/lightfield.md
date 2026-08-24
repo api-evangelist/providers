@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -345,13 +345,13 @@ image: https://cdn.sanity.io/images/3ccg9tet/production/ab2fd80ee036fa9627f507d7
 layout: provider
 mcp_servers:
 - description: ''
-  name: lightfield-mcp.yml
-  slug: lightfield-mcpyml
+  name: Lightfield MCP Server
+  slug: lightfield-mcp-server
 modified: '2026-08-13'
 name: Lightfield
 nav: Providers
 network: true
-overview: 'Lightfield publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Contacts API, and 10 more. Tagged areas include Company, Applications, CRM, Sales, and Artificial Intelligence.
+overview: 'Lightfield publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Contacts API, and 10 more. Tagged areas include Company, Application, CRM, Sales, and Artificial Intelligence.
 
 
   The Lightfield catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -375,7 +375,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.1
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -385,7 +385,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 72.6
+  previous_composite: 72.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -396,8 +396,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png
 security:
@@ -420,14 +420,13 @@ security:
 slug: lightfield
 tags:
 - Company
-- Applications
+- Application
 - CRM
 - Sales
 - Artificial Intelligence
 - Agents
-- Customer Relationship Management
-- Go To Market
+- Go-To-Market
 - Productivity
-- SaaS
+- Software-as-a-Service
 website: https://lightfield.app/
 ---

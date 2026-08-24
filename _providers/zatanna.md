@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Zatanna's hosted, remote Model Context Protocol (MCP) server — the agent-facing surface of its reverse-engineered portal integrations. Live at https://api.zatanna.ai/mcp over Streamable HTTP (JSON-RPC
@@ -66,14 +66,14 @@ description: Zatanna is a Y Combinator (W2026) startup based in San Francisco th
 image: https://raw.githubusercontent.com/api-evangelist/zatanna/refs/heads/main/apis.yml
 layout: provider
 mcp_servers:
-- description: ''
-  name: zatanna-mcp.yml
-  slug: zatanna-mcpyml
+- description: 'Zatanna operates a hosted, remote MCP server at https://api.zatanna.ai/mcp. The endpoint is live: an unauthenticated POST returns HTTP 401 with a WWW-Authenticate Bearer challenge pointing at the RFC '
+  name: Zatanna MCP Server
+  slug: zatanna-mcp-server
 modified: '2026-07-21'
 name: Zatanna
 nav: Providers
 network: true
-overview: Zatanna publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API, MCP, AI Agents, and Integration.
+overview: Zatanna publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Integration, and Reverse Engineering.
 random_paper: 14
 scopes:
 - name: Zatanna Scopes
@@ -83,7 +83,7 @@ scopes:
 score:
   band: emerging
   composite: 15.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -93,12 +93,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 14.4
+  previous_composite: 15.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -112,13 +112,12 @@ security:
 slug: zatanna
 tags:
 - Company
-- API
 - MCP
 - AI Agents
 - Integration
 - Reverse Engineering
 - Automation
-- OAuth
+- Authentication
 - Y Combinator
 website: https://www.zatanna.ai/
 ---

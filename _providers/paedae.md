@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Applications API from Paedae — 5 operation(s) for applications.
@@ -178,8 +178,8 @@ image: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/a
 layout: provider
 mcp_servers:
 - description: ''
-  name: paedae-mcp.yml
-  slug: paedae-mcpyml
+  name: Paedae MCP Server
+  slug: paedae-mcp-server
 modified: '2026-08-13'
 name: Paedae
 nav: Providers
@@ -207,18 +207,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.0
-  delta: 0.8
+  composite: 47.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 30.3
     contract_quality: 63.1
     developer_ergonomics: 42.3
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 45.2
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     contracts:
@@ -228,8 +228,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/screenshots/paedae-2026-08-07T191301.png
 security:

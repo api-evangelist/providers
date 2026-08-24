@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: 2026-06-12
 name: ToolJet
 nav: Providers
 network: true
-overview: 'ToolJet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Groups API, Users API, and 1 more. Tagged areas include low-code, internal tools, open-source, application builder, and workflow automation.
+overview: 'ToolJet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Groups API, Users API, and 1 more. Tagged areas include Low-Code, Internal Tools, Open-Source, Application Builder, and Workflow-Automation.
 
 
   The ToolJet catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -206,7 +206,7 @@ rules:
 score:
   band: developing
   composite: 45.8
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -216,7 +216,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 54.2
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -224,9 +224,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/screenshots/tooljet-2026-06-20T195448.png
 security:
 - kind: authentication
@@ -243,13 +243,13 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: tooljet
 tags:
-- low-code
-- internal tools
-- open-source
-- application builder
-- workflow automation
-- no-code
-- dashboards
-- AI agents
+- Low-Code
+- Internal Tools
+- Open-Source
+- Application Builder
+- Workflow-Automation
+- No-Code
+- Dashboards
+- AI Agents
 website: https://tooljet.com/
 ---

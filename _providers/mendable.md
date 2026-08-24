@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-06-20'
 name: Mendable
 nav: Providers
 network: true
-overview: 'Mendable publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Conversations API, Ingestion API, and 1 more. Tagged areas include AI, Answers, Enterprise Search, RAG, and Support.
+overview: 'Mendable publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Conversations API, Ingestion API, and 1 more. Tagged areas include Artificial Intelligence, Answers, Enterprise Search, RAG, and Support.
 
 
   Mendable''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.1
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -159,7 +159,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/screenshots/mendable-2026-06-20T185156.png
 security:
@@ -186,7 +186,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: mendable
 tags:
-- AI
+- Artificial Intelligence
 - Answers
 - Enterprise Search
 - RAG

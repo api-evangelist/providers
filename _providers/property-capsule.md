@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Property Capsule''s Developer API, announced live on 2020-06-18 in the company''s public release notes: "Our robust API is now live! Now your developers can access PropertyCapsule data outside of our pl'
@@ -112,7 +112,7 @@ modified: '2026-08-13'
 name: Property Capsule
 nav: Providers
 network: true
-overview: 'Property Capsule publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Commercial Real Estate, and Retail.
+overview: 'Property Capsule publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Commercial Real Estate, and Retail.
 
 
   Property Capsule''s developer surface includes documentation, support, changelog, signup flow, and 9 more developer resources.'
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.3
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -144,9 +144,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 16.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -156,7 +156,7 @@ security:
 slug: property-capsule
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Commercial Real Estate
 - Retail

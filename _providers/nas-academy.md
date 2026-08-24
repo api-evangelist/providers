@@ -16,10 +16,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-19'
+  score: 54.1
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,9 +67,9 @@ created: '2026-07-17'
 description: Nas Academy is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
 mcp_servers:
-- description: ''
-  name: nas-academy-mcp.yml
-  slug: nas-academy-mcpyml
+- description: Official authenticated hosted MCP server for Nas.com business, member, product, and order context.
+  name: Nas Academy MCP Server
+  slug: nas-academy-mcp-server
 modified: '2026-07-17'
 name: Nas Academy
 nav: Providers
@@ -83,18 +83,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.3
-  delta: -1.3
+  composite: 21.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 30.3
     contract_quality: 47.0
     developer_ergonomics: 7.1
-    discoverability: 35.2
+    discoverability: 46.3
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 21.6
+  previous_composite: 21.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -105,8 +105,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/screenshots/nas-academy-2026-08-07T184637.png
 security:

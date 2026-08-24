@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -1224,7 +1224,7 @@ modified: '2026-06-03'
 name: Toast
 nav: Providers
 network: true
-overview: 'Toast publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, ConnectedRestaurants API, Discounts API, and 11 more. Tagged areas include Food Service, Point of Sale, Restaurants, and Hospitality.
+overview: 'Toast publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, ConnectedRestaurants API, Discounts API, and 11 more. Tagged areas include Food Service, Point-of-Sale, Restaurant, and Hospitality.
 
 
   The Toast catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1269,18 +1269,18 @@ scopes:
   summary_line: 22 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.6
-  delta: -5.2
+  composite: 38.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.3
     developer_ergonomics: 31.0
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 42.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1288,9 +1288,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png
 security:
 - kind: authentication
@@ -1308,8 +1308,8 @@ security:
 slug: toast
 tags:
 - Food Service
-- Point of Sale
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - Hospitality
 use_cases:
 - description: Connect third-party online ordering platforms to Toast POS for order injection and menu sync.

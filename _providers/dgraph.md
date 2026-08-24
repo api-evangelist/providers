@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Native GraphQL API layer that auto-generates queries, mutations, and real-time subscriptions from a user-defined schema, backed by Dgraph's distributed graph engine.
@@ -96,7 +96,7 @@ modified: '2026-06-14'
 name: Dgraph
 nav: Providers
 network: true
-overview: 'Dgraph publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Graph Database, Distributed Database, Real-Time, and Open Source.
+overview: 'Dgraph publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Graph Database, Distributed Database, Real-Time, and Open-Source.
 
 
   Dgraph''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 19.4
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 5.3
     commercial_clarity: 5.3
@@ -114,9 +114,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dgraph/refs/heads/main/screenshots/dgraph-2026-06-20T175958.png
 security:
@@ -130,7 +130,7 @@ tags:
 - Graph Database
 - Distributed Database
 - Real-Time
-- Open Source
+- Open-Source
 - Knowledge Graph
 website: https://site.dgraph.io/
 ---

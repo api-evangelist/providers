@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Raise Commerce API (business/v2) — browse gift card brands and categories, purchase fixed- and variable-load gift cards, retrieve and act on individual cards (balance check, mark redeemed, update '
@@ -82,9 +82,9 @@ description: Raise is a digital gift card marketplace and commerce platform. Rai
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raise.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: raise-mcp.yml
-  slug: raise-mcpyml
+- description: Candidate MCP tool surface derived from the documented Raise Commerce API operations. No official hosted/remote Raise MCP server was found. These tools are a proposal, one per documented operation.
+  name: Raise MCP Server
+  slug: raise-mcp-server
 modified: '2026-07-20'
 name: Raise
 nav: Providers
@@ -97,7 +97,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 11.3
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -107,7 +107,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 17.5
+  previous_composite: 11.3
   provenance:
     conformance: derived
     mcp: derived
@@ -117,9 +117,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Raise Authentication
@@ -138,6 +138,5 @@ tags:
 - Payments
 - Rewards
 - Marketplace
-- API
 website: http://www.raise.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Cogent Communications API provides access to platform services and data for enterprise integration and automation.
@@ -61,7 +61,7 @@ modified: '2026-04-19'
 name: Cogent Communications
 nav: Providers
 network: true
-overview: Cogent Communications publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Internet, Network, and Data Center.
+overview: Cogent Communications publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Internet, Network, and Data-Center.
 plans:
 - name: Cogent Communications Plans Pricing
   plan_count: 1
@@ -85,8 +85,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 9.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cogent-communications/refs/heads/main/screenshots/cogent-communications-2026-06-20T174711.png
 security:
@@ -98,6 +98,6 @@ slug: cogent-communications
 tags:
 - Internet
 - Network
-- Data Center
+- Data-Center
 website: https://www.cogentco.com
 ---

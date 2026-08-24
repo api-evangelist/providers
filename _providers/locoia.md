@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Low-code iPaaS for connecting enterprise applications, automating workflows, and unifying data warehouses. Offers 200+ pre-built connectors and a drag-and-drop workflow editor.
@@ -93,7 +93,7 @@ modified: '2026-04-28'
 name: Locoia
 nav: Providers
 network: true
-overview: 'Locoia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Integration, iPaaS, Low-Code, Workflow Automation, and Connectors.
+overview: 'Locoia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Integration, iPaaS, Low-Code, Workflow-Automation, and Connectors.
 
 
   Locoia''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.0
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -119,9 +119,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 21.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locoia/refs/heads/main/screenshots/locoia-2026-06-20T184640.png
 security:
@@ -134,7 +134,7 @@ tags:
 - Integration
 - iPaaS
 - Low-Code
-- Workflow Automation
+- Workflow-Automation
 - Connectors
 website: https://www.locoia.com
 ---

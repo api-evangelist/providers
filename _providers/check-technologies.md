@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Check's REST API for embedding full-service payroll — companies, employees, contractors, pay schedules, payrolls, payments, tax filings, documents, bank accounts, and webhooks — into a platform produc
@@ -162,9 +162,9 @@ description: Check Technologies (Check) is a Stripe-incubated embedded-payroll i
 image: https://cdn.prod.website-files.com/671a2c705660d0119de1cc9f/671ac14172962caffbc11039_OG-IMAGE-1.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: check-technologies-mcp.yml
-  slug: check-technologies-mcpyml
+- description: Official Check MCP server exposing the Check Payroll API as Model Context Protocol tools for AI agents and operator copilots. Available hosted (remote, run by Check) and self-hosted.
+  name: Check Technologies MCP Server
+  slug: check-technologies-mcp-server
 modified: '2026-07-18'
 name: Check Technologies
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 12
 score:
   band: developing
   composite: 49.6
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -190,7 +190,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 53.8
+  previous_composite: 49.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -200,8 +200,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/check-technologies/refs/heads/main/screenshots/check-technologies-2026-07-25T205128.png
 security:
@@ -228,6 +228,5 @@ tags:
 - Tax
 - Compliance
 - Developer Tools
-- API
 website: https://docs.checkhq.com/
 ---

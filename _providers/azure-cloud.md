@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -227,7 +227,7 @@ modified: '2026-04-19'
 name: Microsoft Azure Cloud
 nav: Providers
 network: true
-overview: 'Microsoft Azure Cloud publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Availability Sets API, Disks API, Snapshots API, and 2 more. Tagged areas include AI, Cloud Computing, Databases, IaaS, and Infrastructure.
+overview: 'Microsoft Azure Cloud publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Availability Sets API, Disks API, Snapshots API, and 2 more. Tagged areas include Artificial Intelligence, Cloud Computing, Databases, Infrastructure-as-a-Service, and Infrastructure.
 
 
   Microsoft Azure Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, engineering blog, support, and 13 more developer resources.'
@@ -266,8 +266,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/screenshots/azure-cloud-2026-06-20T172840.png
 security:
@@ -281,17 +281,16 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: azure-cloud
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - Databases
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Microsoft
 - Networking
-- PaaS
-- Platform as a Service
-- SaaS
+- Platform-as-a-Service
+- Software-as-a-Service
 - Storage
 use_cases:
 - description: Migrate on-premises workloads to Azure using IaaS VMs or PaaS services with hybrid connectivity.

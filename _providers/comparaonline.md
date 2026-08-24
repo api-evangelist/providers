@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 3.1
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -94,16 +94,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 10.0
+  previous_composite: 3.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comparaonline/refs/heads/main/screenshots/comparaonline-2026-07-25T210144.png
 security:
 - kind: domain-security
@@ -118,7 +118,7 @@ tags:
 - Insurtech
 - Comparison Marketplace
 - Insurance Broker
-- Financial Services
+- Financial-Services
 - Latin America
 - Chile
 website: https://www.comparaonline.com

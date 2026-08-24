@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -2355,7 +2355,7 @@ modified: '2026-05-30'
 name: PayPal
 nav: Providers
 network: true
-overview: 'PayPal publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Activate API, Authorizations API, Balances API, and 34 more. Tagged areas include Billing, Commerce, Disputes, Invoices, and Orders.
+overview: 'PayPal publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Activate API, Authorizations API, Balances API, and 34 more. Tagged areas include Billing, Commerce, Disputes, Invoices, and Order.
 
 
   The PayPal catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -2390,7 +2390,7 @@ scopes:
 score:
   band: strong
   composite: 55.0
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -2400,7 +2400,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 59.0
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -2414,8 +2414,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 70.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png
 security:
@@ -2441,11 +2441,11 @@ tags:
 - Commerce
 - Disputes
 - Invoices
-- Orders
+- Order
 - Payments
 - Payouts
-- Subscriptions
+- Subscription
 - Tokens
-- Webhooks
+- Webhook
 website: https://www.paypal.com
 ---

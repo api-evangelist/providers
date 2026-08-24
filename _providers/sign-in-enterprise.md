@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -263,8 +263,8 @@ image: https://signinsolutions.com/hubfs/Creatives/Logos/Sign%20In%20Solutions%2
 layout: provider
 mcp_servers:
 - description: ''
-  name: sign-in-enterprise-mcp.yml
-  slug: sign-in-enterprise-mcpyml
+  name: Sign In Enterprise MCP Server
+  slug: sign-in-enterprise-mcp-server
 modified: '2026-07-21'
 name: Sign In Enterprise
 nav: Providers
@@ -284,18 +284,18 @@ scopes:
   summary_line: 48 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.8
-  delta: -0.2
+  composite: 52.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 30.3
     contract_quality: 68.0
     developer_ergonomics: 54.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 52.0
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,8 +306,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/screenshots/sign-in-enterprise-2026-08-17T081851.png
 security:

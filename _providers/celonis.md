@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 5
@@ -357,8 +357,8 @@ image: https://delivery-p141552-e1488202.adobeaemcloud.com/adobe/assets/urn:aaid
 layout: provider
 mcp_servers:
 - description: ''
-  name: celonis-mcp.yml
-  slug: celonis-mcpyml
+  name: Celonis Agent Tools (MCP) Asset
+  slug: celonis-agent-tools-mcp-asset
 modified: '2026-07-18'
 name: Celonis
 nav: Providers
@@ -379,7 +379,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.7
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -389,7 +389,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 65.4
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -400,8 +400,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/screenshots/celonis-2026-07-25T204910.png
 security:
@@ -425,7 +425,7 @@ tags:
 - Process Intelligence
 - Data
 - Analytics
-- Machine Learning
+- Machine-Learning
 - AI Agents
 - Enterprise
 website: https://www.celonis.com

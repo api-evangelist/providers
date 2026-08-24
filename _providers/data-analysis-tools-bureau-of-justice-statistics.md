@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ modified: '2026-05-19'
 name: Bureau of Justice Statistics Data Analysis Tools
 nav: Providers
 network: true
-overview: 'Bureau of Justice Statistics Data Analysis Tools publishes 2 APIs on the [APIs.io](https://apis.io/) network: NCVS API and NIBRS API. Tagged areas include Crime Statistics, Federal Government, NCVS, NIBRS, and Open Data.
+overview: 'Bureau of Justice Statistics Data Analysis Tools publishes 2 APIs on the [APIs.io](https://apis.io/) network: NCVS API and NIBRS API. Tagged areas include Crime Statistics, Federal-Government, NCVS, NIBRS, and Open Data.
 
 
   The Bureau of Justice Statistics Data Analysis Tools catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -169,18 +169,18 @@ rules:
   slug: data-analysis-tools-bureau-of-justice-statistics-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.0
-  delta: 4.4
+  composite: 38.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 59.4
     developer_ergonomics: 11.9
     discoverability: 68.5
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 7.9
-  previous_composite: 32.6
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +194,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/screenshots/data-analysis-tools-bureau-of-justice-statistics-2026-06-20T175505.png
 security:
@@ -210,7 +210,7 @@ security:
 slug: data-analysis-tools-bureau-of-justice-statistics
 tags:
 - Crime Statistics
-- Federal Government
+- Federal-Government
 - NCVS
 - NIBRS
 - Open Data

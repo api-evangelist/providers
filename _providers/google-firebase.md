@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ modified: '2026-05-19'
 name: Google Firebase
 nav: Providers
 network: true
-overview: 'Google Firebase publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data API and Messages API. Tagged areas include Analytics, Authentication, Backend as a Service, Cloud Messaging, and Google Cloud.
+overview: 'Google Firebase publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data API and Messages API. Tagged areas include Analytics, Authentication, Backend-as-a-Service, Cloud Messaging, and Google Cloud.
 
 
   The Google Firebase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -223,13 +223,13 @@ rules:
     info: 1
     warn: 5
   slug: google-firebase-jsonschema-spectral-rules
-- effective_rule_count: 60
+- effective_rule_count: 59
   extends:
   - spectral:oas
   name: Google Firebase API Rules
-  rule_count: 19
+  rule_count: 18
   severity_counts:
-    error: 11
+    error: 10
     hint: 0
     info: 1
     warn: 7
@@ -241,18 +241,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 44.3
-  delta: -6.2
+  composite: 44.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 70.3
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 50.5
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -260,9 +260,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/screenshots/google-firebase-2026-06-20T182200.png
 security:
 - kind: authentication
@@ -281,7 +281,7 @@ slug: google-firebase
 tags:
 - Analytics
 - Authentication
-- Backend as a Service
+- Backend-as-a-Service
 - Cloud Messaging
 - Google Cloud
 - Hosting

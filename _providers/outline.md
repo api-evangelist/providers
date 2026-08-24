@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -695,7 +695,7 @@ modified: '2026-06-13'
 name: Outline
 nav: Providers
 network: true
-overview: 'Outline publishes 18 APIs on the [APIs.io](https://apis.io/) network, including AccessRequests API, Attachments API, Auth API, and 15 more. Tagged areas include Knowledge Base, Wiki, Documents, Collaboration, and Open Source.
+overview: 'Outline publishes 18 APIs on the [APIs.io](https://apis.io/) network, including AccessRequests API, Attachments API, Auth API, and 15 more. Tagged areas include Knowledge Base, Wiki, Documents, Collaboration, and Open-Source.
 
 
   The Outline catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -730,7 +730,7 @@ scopes:
 score:
   band: developing
   composite: 43.2
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -740,7 +740,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 49.5
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -748,9 +748,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/screenshots/outline-2026-08-17T082817.png
 security:
 - kind: authentication
@@ -767,6 +767,6 @@ tags:
 - Wiki
 - Documents
 - Collaboration
-- Open Source
+- Open-Source
 - Team
 ---

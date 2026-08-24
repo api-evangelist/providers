@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ modified: '2026-05-19'
 name: Amazon Personalize
 nav: Providers
 network: true
-overview: 'Amazon Personalize publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include AI, Customer Experience, Machine Learning, ML, and Personalization.
+overview: 'Amazon Personalize publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include Artificial Intelligence, Customer Experience, Machine-Learning, ML, and Personalization.
 
 
   The Amazon Personalize catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -307,18 +307,18 @@ rules:
   slug: amazon-personalize-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: -8.1
+  composite: 53.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 68.5
     developer_ergonomics: 47.6
     discoverability: 66.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 61.0
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -326,9 +326,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/screenshots/amazon-personalize-2026-06-20T171758.png
 security:
 - kind: authentication
@@ -349,9 +349,9 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-personalize
 tags:
-- AI
+- Artificial Intelligence
 - Customer Experience
-- Machine Learning
+- Machine-Learning
 - ML
 - Personalization
 - Recommendations

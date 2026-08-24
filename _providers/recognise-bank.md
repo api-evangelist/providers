@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Shared UK Open Banking Open Data standard for public, unauthenticated reference data (ATMs, branches, personal and business current accounts, unsecured SME loans, commercial credit cards). Included as
@@ -123,7 +123,7 @@ modified: '2026-07-23'
 name: Recognise Bank
 nav: Providers
 network: true
-overview: 'Recognise Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including UK Open Banking Open Data API (OBIE Standard), UK Open Banking Account & Transaction Information API (OBIE Standard), UK Open Banking Payment Initiation API (OBIE Standard), and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Recognise Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including UK Open Banking Open Data API (OBIE Standard), UK Open Banking Account & Transaction Information API (OBIE Standard), UK Open Banking Payment Initiation API (OBIE Standard), and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Recognise Bank''s developer surface includes authentication, engineering blog, and 14 more developer resources.'
@@ -136,7 +136,7 @@ scopes:
 score:
   band: thin
   composite: 38.6
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -146,7 +146,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 34.6
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -160,8 +160,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 88.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -178,7 +178,7 @@ security:
   summary_line: contact published
 slug: recognise-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

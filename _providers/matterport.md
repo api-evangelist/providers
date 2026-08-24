@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Matterport's public GraphQL API family. The Model API reads and manages 3D models (spaces, meshes, assets, labels/tags, sweeps); the Account API manages account, folders and users; the Import API inge
@@ -157,7 +157,7 @@ modified: '2026-07-20'
 name: MatterPort
 nav: Providers
 network: true
-overview: 'MatterPort publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D, Digital Twin, Spatial Data, and Real Estate.
+overview: 'MatterPort publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D, Digital Twin, Spatial Data, and Real-Estate.
 
 
   MatterPort''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -165,7 +165,7 @@ random_paper: 14
 score:
   band: thin
   composite: 37.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -175,11 +175,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 38.7
+  previous_composite: 37.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matterport/refs/heads/main/screenshots/matterport-2026-07-25T230424.png
 security:
@@ -201,11 +201,11 @@ tags:
 - 3D
 - Digital Twin
 - Spatial Data
-- Real Estate
+- Real-Estate
 - Construction
 - GraphQL
 - SDK
-- Computer Vision
+- Computer-Vision
 - Property Intelligence
 website: https://matterport.com/developers
 ---

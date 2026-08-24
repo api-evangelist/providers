@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The core NUnit testing framework programming API for writing and executing unit tests in .NET applications. Provides assertions, attributes, and lifecycle hooks consumed via the NUnit NuGet package.
@@ -90,7 +90,7 @@ modified: '2026-04-28'
 name: NUnit
 nav: Providers
 network: true
-overview: 'NUnit publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, C#, Framework, Open Source, and TDD.
+overview: 'NUnit publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, C#, Framework, Open-Source, and TDD.
 
 
   NUnit''s developer surface includes documentation, engineering blog, changelog, and 5 more developer resources.'
@@ -106,7 +106,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.9
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -116,9 +116,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 16.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nunit/refs/heads/main/screenshots/nunit-2026-06-20T190523.png
 security:
@@ -131,7 +131,7 @@ tags:
 - .NET
 - C#
 - Framework
-- Open Source
+- Open-Source
 - TDD
 - Testing
 - Unit Testing

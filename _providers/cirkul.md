@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface Cirkul serves from its own drinkcirkul.com host. It comprises an anonymous Model Context Protocol (MCP) server at /api/mcp exposing five tools with real JSON Schema i
@@ -146,13 +146,13 @@ image: https://drinkcirkul.com/cdn/shop/files/MRKTG_0108_25_Meta_Data_Image_Upda
 layout: provider
 mcp_servers:
 - description: ''
-  name: cirkul-mcp.yml
-  slug: cirkul-mcpyml
+  name: Cirkul MCP Server
+  slug: cirkul-mcp-server
 modified: '2026-08-02'
 name: Cirkul
 nav: Providers
 network: true
-overview: 'Cirkul publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Consumer Packaged Goods, Direct to Consumer, and Ecommerce.
+overview: 'Cirkul publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Consumer Packaged Goods, Direct to Consumer, and E-Commerce.
 
 
   Cirkul''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
@@ -164,24 +164,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.5
-  delta: -0.7
+  composite: 28.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 28.2
+  previous_composite: 28.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/screenshots/cirkul-2026-08-07T163427.png
 security:
@@ -199,11 +199,11 @@ tags:
 - Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Retail
 - Subscription Commerce
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Shopify
 - Hydration

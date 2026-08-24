@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 2
@@ -242,9 +242,9 @@ description: Campfire is an AI-native ERP built for high-growth startups and mid
 image: https://cdn.sanity.io/images/zu7n19wi/production/97e3241f607c6a5bfab50ffb0bcdb75b63fd5071-9781x5136.png?rect=0,13,9781,5111&w=1200&h=627&fit=crop&auto=format
 layout: provider
 mcp_servers:
-- description: ''
-  name: campfire-mcp.yml
-  slug: campfire-mcpyml
+- description: 'Campfire exposes an official hosted (remote HTTP) MCP server that maps 12 tools directly onto its accounting, company-data, financial-reporting, and revenue/budget API endpoints, so AI tools (Cursor, '
+  name: Campfire
+  slug: campfire
 modified: '2026-07-18'
 name: Campfire
 nav: Providers
@@ -264,18 +264,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.8
-  delta: 0.7
+  composite: 51.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
     contract_quality: 62.9
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 50.1
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,8 +286,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/screenshots/campfire-2026-07-25T204311.png
 security:
@@ -308,6 +308,6 @@ tags:
 - Revenue Recognition
 - Accounts Payable
 - Accounts Receivable
-- AI
+- Artificial Intelligence
 website: https://docs.campfire.ai
 ---

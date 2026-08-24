@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-08-02'
 name: Smalls
 nav: Providers
 network: true
-overview: 'Smalls is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Care, Pet Food, Ecommerce, and Direct to Consumer.
+overview: 'Smalls is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Care, Pet Food, E-Commerce, and Direct to Consumer.
 
 
   Smalls'' developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 11.4
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -90,9 +90,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -104,7 +104,7 @@ tags:
 - Company
 - Pet Care
 - Pet Food
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Subscription
 - Consumer Packaged Goods

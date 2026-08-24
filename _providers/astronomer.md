@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 2
@@ -260,14 +260,14 @@ description: Astronomer is the company behind Astro, a fully managed data operat
 image: https://www.astronomer.io/img/logos/astronomer-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: astronomer-mcp.yml
-  slug: astronomer-mcpyml
+- description: Official documentation MCP server for https://www.astronomer.io/docs (Fern-hosted). Provides AI-powered search over the Astronomer documentation. Referenced from the Astronomer docs llms.txt for AI cl
+  name: Astronomer MCP Server
+  slug: astronomer-mcp-server
 modified: '2026-07-18'
 name: Astronomer
 nav: Providers
 network: true
-overview: 'Astronomer publishes 15 APIs on the [APIs.io](https://apis.io/) network, including AgentToken API, AllowedIpAddressRange API, ApiToken API, and 12 more. Tagged areas include Company, Data Orchestration, Apache Airflow, Data Pipelines, and Data Engineering.
+overview: 'Astronomer publishes 15 APIs on the [APIs.io](https://apis.io/) network, including AgentToken API, AllowedIpAddressRange API, ApiToken API, and 12 more. Tagged areas include Company, Data Orchestration, Apache Airflow, Data Pipeline, and Data Engineering.
 
 
   Astronomer''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 23 more developer resources.'
@@ -275,7 +275,7 @@ random_paper: 6
 score:
   band: developing
   composite: 53.5
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -285,7 +285,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 56.2
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +296,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astronomer/refs/heads/main/screenshots/astronomer-2026-07-25T201511.png
 security:
@@ -322,9 +322,9 @@ tags:
 - Company
 - Data Orchestration
 - Apache Airflow
-- Data Pipelines
+- Data Pipeline
 - Data Engineering
-- Workflow Automation
+- Workflow-Automation
 - MLOps
 - Managed Platform
 website: https://astronomer.io

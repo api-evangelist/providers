@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public Builder API and TypeScript/Python SDK surface for reading Ostium market data (pairs, prices, OHLC candles), streaming live prices and account/position updates over WebSocket, and building/submi
@@ -183,8 +183,8 @@ image: https://www.ostium.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: ostium-labs-mcp.yml
-  slug: ostium-labs-mcpyml
+  name: Ostium Labs MCP Server
+  slug: ostium-labs-mcp-server
 modified: '2026-07-20'
 name: Ostium Labs
 nav: Providers
@@ -200,7 +200,7 @@ random_paper: 2
 score:
   band: developing
   composite: 51.9
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -210,7 +210,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 50.4
+  previous_composite: 51.9
   provenance:
     conformance: derived
     mcp: derived
@@ -221,8 +221,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/screenshots/ostium-labs-2026-08-07T191021.png
 security:

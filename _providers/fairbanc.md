@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Fairbanc
 nav: Providers
 network: true
-overview: 'Fairbanc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Lending, and Buy Now Pay Later.
+overview: 'Fairbanc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Lending, and Buy Now Pay Later.
 
 
   Fairbanc''s developer surface includes getting-started guide, support, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 7.1
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,9 +90,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fairbanc/refs/heads/main/screenshots/fairbanc-2026-07-25T214153.png
 security:
@@ -103,7 +103,7 @@ security:
 slug: fairbanc
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Buy Now Pay Later

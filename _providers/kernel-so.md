@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 13
@@ -293,7 +293,7 @@ modified: '2026-05-25'
 name: Kernel
 nav: Providers
 network: true
-overview: 'Kernel publishes 21 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, Auth Connections API, and 18 more. Tagged areas include Agents, AI, Artificial Intelligence, Browser Automation, and Browsers.
+overview: 'Kernel publishes 21 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, Auth Connections API, and 18 more. Tagged areas include Agents, Artificial Intelligence, Browser Automation, Browsers, and Computer Use.
 
 
   Kernel''s developer surface includes authentication, developer portal, documentation, pricing, changelog, support, CLI, and 19 more developer resources.'
@@ -301,7 +301,7 @@ random_paper: 9
 score:
   band: developing
   composite: 41.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -311,7 +311,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 41.7
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +319,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kernel-so/refs/heads/main/screenshots/kernel-so-2026-06-20T183954.png
 security:
@@ -339,7 +339,6 @@ security:
 slug: kernel-so
 tags:
 - Agents
-- AI
 - Artificial Intelligence
 - Browser Automation
 - Browsers

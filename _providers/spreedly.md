@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -242,8 +242,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: spreedly-mcp.yml
-  slug: spreedly-mcpyml
+  name: Spreedly MCP Server
+  slug: spreedly-mcp-server
 modified: '2026-07-24'
 name: Spreedly
 nav: Providers
@@ -259,7 +259,7 @@ random_paper: 11
 score:
   band: strong
   composite: 60.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -269,7 +269,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 48.7
-  previous_composite: 61.0
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -281,8 +281,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/screenshots/spreedly-2026-08-17T082042.png
 security:
@@ -309,6 +309,6 @@ tags:
 - Tokenization
 - Network Tokenization
 - PCI Compliance
-- Subscriptions
+- Subscription
 website: https://www.spreedly.com/
 ---

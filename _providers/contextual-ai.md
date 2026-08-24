@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-06-20'
 name: Contextual AI
 nav: Providers
 network: true
-overview: 'Contextual AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents Query API, Datastores API, and 6 more. Tagged areas include AI, RAG, LLM, Grounded Language Model, and Enterprise.
+overview: 'Contextual AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents Query API, Datastores API, and 6 more. Tagged areas include Artificial Intelligence, RAG, LLM, Grounded Language Model, and Enterprise.
 
 
   The Contextual AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -202,7 +202,7 @@ rules:
 score:
   band: developing
   composite: 41.9
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -212,7 +212,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 45.8
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/screenshots/contextual-ai-2026-06-20T174932.png
 security:
@@ -243,7 +243,7 @@ security:
   summary_line: SOC 2, ISO 27017, PCI DSS, CSA STAR
 slug: contextual-ai
 tags:
-- AI
+- Artificial Intelligence
 - RAG
 - LLM
 - Grounded Language Model

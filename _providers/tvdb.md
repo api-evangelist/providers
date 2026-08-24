@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -923,18 +923,18 @@ rules:
   slug: tvdb-rules
 score:
   band: developing
-  composite: 48.1
-  delta: -10.7
+  composite: 48.6
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.3
     developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 58.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -942,9 +942,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvdb/refs/heads/main/screenshots/tvdb-2026-06-20T195840.png
 security:
 - kind: authentication

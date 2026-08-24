@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Authenticate against an Orange Logic instance and obtain tokens for subsequent calls. Supports OAuth 2.0 (client ID and secret), non-expiring bearer tokens, and basic username/password login. The OAut
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.8
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -125,9 +125,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 20.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/screenshots/orangelogic-2026-08-07T190828.png
 security:

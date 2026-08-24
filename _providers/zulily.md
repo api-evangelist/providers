@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Zulily's agent-facing commerce API implementing the Universal Commerce Protocol (UCP) over a JSON-RPC MCP endpoint — search the catalog, build a cart, and run a buyer-approved checkout.
@@ -94,13 +94,13 @@ image: https://www.zulily.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: zulily-mcp.yml
-  slug: zulily-mcpyml
+  name: Zulily MCP Server
+  slug: zulily-mcp-server
 modified: '2026-07-21'
 name: Zulily
 nav: Providers
 network: true
-overview: 'Zulily publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Retail, Shopping, and Commerce.
+overview: 'Zulily publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Shopping, and Commerce.
 
 
   Zulily''s developer surface includes authentication and 11 more developer resources.'
@@ -112,24 +112,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.8
-  delta: -0.7
+  composite: 18.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 18.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -139,7 +139,7 @@ security:
 slug: zulily
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopping
 - Commerce

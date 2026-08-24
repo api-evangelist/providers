@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 38.9
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +226,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/screenshots/kpmg-2026-06-20T184147.png
 security:
@@ -248,12 +248,12 @@ tags:
 - Professional Services
 - Big Four
 - Advisory
-- AI
+- Artificial Intelligence
 - Trusted AI
 - ESG
 - Sustainability
 - Risk
-- Regulation
+- Regulations
 - Cybersecurity
 - Strategy
 - Technology

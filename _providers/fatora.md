@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Fatora's REST API for hosted-checkout payment collection, card tokenization, refunds and payment verification, plus CRUD over invoices, clients and products and AI content helpers. Payment endpoints a
@@ -149,7 +149,7 @@ modified: '2026-07-19'
 name: Fatora
 nav: Providers
 network: true
-overview: 'Fatora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Invoicing, Payment Gateway, E-commerce, and Billing.
+overview: 'Fatora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Invoicing, Payment Gateway, E-Commerce, and Billing.
 
 
   Fatora''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, pricing, signup flow, and 19 more developer resources.'
@@ -157,7 +157,7 @@ random_paper: 7
 score:
   band: thin
   composite: 35.3
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -167,15 +167,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 34.3
+  previous_composite: 35.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fatora/refs/heads/main/screenshots/fatora-2026-07-25T214251.png
 security:
@@ -196,12 +196,12 @@ tags:
 - Payments
 - Invoicing
 - Payment Gateway
-- E-commerce
+- E-Commerce
 - Billing
 - Fintech
 - Checkout
 - MENA
 - Qatar
-- SaaS
+- Software-as-a-Service
 website: https://fatora.io
 ---

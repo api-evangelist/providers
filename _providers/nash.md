@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 16
@@ -362,13 +362,13 @@ image: https://www.nash.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: nash-mcp.yml
-  slug: nash-mcpyml
+  name: Nash MCP Server
+  slug: nash-mcp-server
 modified: '2026-07-20'
 name: Nash
 nav: Providers
 network: true
-overview: 'Nash publishes 30 APIs on the [APIs.io](https://apis.io/) network, including AI Functions API, Annotate API, Batch Job API, and 27 more. Tagged areas include Company, Delivery, Last-Mile Delivery, Logistics, and Dispatch.
+overview: 'Nash publishes 30 APIs on the [APIs.io](https://apis.io/) network, including AI Functions API, Annotate API, Batch Job API, and 27 more. Tagged areas include Company, Delivery, Last Mile Delivery, Logistics, and Dispatch.
 
 
   The Nash catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -383,7 +383,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.6
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -393,7 +393,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 54.6
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -404,8 +404,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/screenshots/nash-2026-08-07T184639.png
 security:
@@ -429,15 +429,15 @@ slug: nash
 tags:
 - Company
 - Delivery
-- Last-Mile Delivery
+- Last Mile Delivery
 - Logistics
 - Dispatch
 - Route Optimization
 - Fleet Management
-- Courier
+- Couriers
 - Shipping
-- Orders
-- Webhooks
+- Order
+- Webhook
 - AI Agents
 website: https://www.nash.ai
 ---

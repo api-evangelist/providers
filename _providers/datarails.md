@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,8 +196,8 @@ image: https://www.datarails.com/wp-content/uploads/2024/10/datarails-logo-1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: datarails-mcp.yml
-  slug: datarails-mcpyml
+  name: Datarails MCP Server
+  slug: datarails-mcp-server
 modified: '2026-08-01'
 name: Datarails
 nav: Providers
@@ -222,25 +222,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 56.8
-  delta: -0.1
+  composite: 57.9
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 30.3
     contract_quality: 35.7
     developer_ergonomics: 61.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 55.3
-  previous_composite: 56.9
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/screenshots/datarails-2026-08-07T164205.png
 security:
@@ -268,9 +268,9 @@ tags:
 - Business Intelligence
 - Reporting
 - Data Integration
-- Model Context Protocol
+- MCP
 - Artificial Intelligence
 - Excel
-- SaaS
+- Software-as-a-Service
 website: https://www.datarails.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-native commerce surface for the Ketone-IQ (HVMN) Shopify store: a Universal Commerce Protocol (UCP) merchant profile and live MCP endpoint for catalog search, cart, and buyer-approved checkout, '
@@ -95,8 +95,8 @@ image: https://ketone.com/cdn/shop/files/OG_Home_Page_1200x1200.jpg?v=1781009088
 layout: provider
 mcp_servers:
 - description: ''
-  name: hvmn-mcp.yml
-  slug: hvmn-mcpyml
+  name: HVMN MCP Server
+  slug: hvmn-mcp-server
 modified: '2026-07-19'
 name: HVMN
 nav: Providers
@@ -112,19 +112,19 @@ scopes:
   slug: hvmn-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.1
-  delta: -2.0
+  band: thin
+  composite: 26.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 27.1
+  previous_composite: 26.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -134,8 +134,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/screenshots/hvmn-2026-08-07T170422.png
 security:

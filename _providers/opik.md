@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 39
 apis:
 - description: Agent configuration management
@@ -401,7 +401,7 @@ modified: '2026-06-13'
 name: Opik
 nav: Providers
 network: true
-overview: 'Opik publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Agent Configs API, AI Spend API, Alerts API, and 36 more. Tagged areas include LLM, Evaluation, Observability, Tracing, and Open Source.
+overview: 'Opik publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Agent Configs API, AI Spend API, Alerts API, and 36 more. Tagged areas include LLM, Evaluation, Observability, Tracing, and Open-Source.
 
 
   The Opik catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -431,7 +431,7 @@ rules:
 score:
   band: developing
   composite: 48.6
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -441,16 +441,16 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 68.4
-  previous_composite: 53.9
+  previous_composite: 48.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:
 - kind: domain-security
@@ -467,11 +467,11 @@ tags:
 - Evaluation
 - Observability
 - Tracing
-- Open Source
+- Open-Source
 - LLMOps
 - RAG
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Monitoring
 website: https://www.comet.com/site/products/opik/
 ---

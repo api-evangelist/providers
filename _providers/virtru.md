@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -270,9 +270,9 @@ description: Virtru is a data-centric security company whose Data Security Platf
 image: https://www.virtru.com/hubfs/assets/images/logos/virtru/logomark/blue/virtru_LOGOMARKMASTER_BLUE_FINAL.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: virtru-mcp.yml
-  slug: virtru-mcpyml
+- description: No official hosted/remote MCP server was found for Virtru / OpenTDF as of this pass. This is a DERIVED candidate tool list mapping marquee Data Security Platform operations to MCP tools, as a starting
+  name: Virtru MCP Server
+  slug: virtru-mcp-server
 modified: '2026-07-21'
 name: Virtru
 nav: Providers
@@ -285,7 +285,7 @@ random_paper: 12
 score:
   band: developing
   composite: 49.9
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -295,7 +295,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 48.5
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,8 +306,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/screenshots/virtru-2026-08-17T082758.png
 security:

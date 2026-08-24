@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -149,8 +149,8 @@ image: https://cdn.prod.website-files.com/6146543ab50f167ae088b201/61701898ec275
 layout: provider
 mcp_servers:
 - description: ''
-  name: capchase-mcp.yml
-  slug: capchase-mcpyml
+  name: Capchase MCP Server
+  slug: capchase-mcp-server
 modified: '2026-07-18'
 name: Capchase
 nav: Providers
@@ -163,7 +163,7 @@ random_paper: 5
 score:
   band: developing
   composite: 43.5
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -173,7 +173,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 6.6
-  previous_composite: 45.6
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -190,8 +190,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/screenshots/capchase-2026-07-25T204424.png
 security:

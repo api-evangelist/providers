@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,8 +165,8 @@ image: https://www.empiricalsecurity.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: empirical-security-mcp.yml
-  slug: empirical-security-mcpyml
+  name: Empirical Security MCP Server
+  slug: empirical-security-mcp-server
 modified: '2026-07-19'
 name: Empirical Security
 nav: Providers
@@ -184,7 +184,7 @@ scopes:
 score:
   band: thin
   composite: 32.7
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -194,7 +194,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 31.7
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/screenshots/empirical-security-2026-07-25T213247.png
 security:

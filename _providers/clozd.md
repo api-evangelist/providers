@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -238,16 +238,16 @@ image: https://cdn.prod.website-files.com/602c29edc35660e6c913f956/65a18029f28b3
 layout: provider
 mcp_servers:
 - description: ''
-  name: clozd-mcp.yml
-  slug: clozd-mcpyml
+  name: Clozd MCP Server
+  slug: clozd-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Clozd MCP Server
+  slug: clozd-mcp-server-2
 modified: '2026-08-14'
 name: Clozd
 nav: Providers
 network: true
-overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 4 more. Tagged areas include win-loss-analysis, customer-feedback, decision-intelligence, sales-intelligence, and market-research.
+overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 4 more. Tagged areas include Win-Loss Analysis, Customer Feedback, Decision Intelligence, Sales Intelligence, and Market Research.
 
 
   Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 31 more developer resources.'
@@ -268,7 +268,7 @@ scopes:
 score:
   band: developing
   composite: 50.3
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -278,7 +278,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 51.0
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -289,8 +289,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
 security:
@@ -312,16 +312,16 @@ security:
   summary_line: ISO 27001, ISO 27701, SOC 2 Type II
 slug: clozd
 tags:
-- win-loss-analysis
-- customer-feedback
-- decision-intelligence
-- sales-intelligence
-- market-research
-- competitive-intelligence
-- voice-of-customer
-- revenue-intelligence
-- saas
-- mcp
+- Win-Loss Analysis
+- Customer Feedback
+- Decision Intelligence
+- Sales Intelligence
+- Market Research
+- Competitive Intelligence
+- Voice of Customer
+- Revenue Intelligence
+- Software-as-a-Service
+- MCP
 - agent-native
 website: https://www.clozd.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Brevian's hosted (remote) Model Context Protocol server, exposing revenue-execution context (knowledge, deals, conversations, pipeline) to MCP-capable agents. Access is gated by OAuth 2.1 (authorizati
@@ -122,9 +122,9 @@ description: Brevian is a Revenue Execution AI platform for enterprise sales tea
 image: https://cdn.prod.website-files.com/68ae7d3f5a3cc059a9f4e2bb/695d011141b1c3f8e8de87eb_opengraph.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: brevian-mcp.yml
-  slug: brevian-mcpyml
+- description: Brevian's hosted (remote) Model Context Protocol server for its Revenue Execution AI platform. Exposes Brevian knowledge, deals, and pipeline context to MCP-capable agents. Access is gated by OAuth 2.
+  name: Brevian MCP Server
+  slug: brevian-mcp-server
 modified: '2026-07-18'
 name: Brevian
 nav: Providers
@@ -141,22 +141,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 23.4
-  delta: -4.1
+  composite: 24.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 27.5
+  previous_composite: 24.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevian/refs/heads/main/screenshots/brevian-2026-07-25T203755.png
 security:
@@ -180,7 +180,7 @@ tags:
 - Revenue Execution
 - AI Agents
 - CRM
-- Model Context Protocol
+- MCP
 - Enterprise
 website: https://brevian.ai
 ---

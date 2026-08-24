@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Universal Commerce Protocol shopping service exposed over MCP by the tnuck.com Shopify storefront - catalog search, cart, checkout, fulfillment, discounts, and orders, with buyer-approved payment. Dis
@@ -103,13 +103,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uscoop.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: uscoop-mcp.yml
-  slug: uscoop-mcpyml
+  name: uScoop MCP Server
+  slug: uscoop-mcp-server
 modified: '2026-07-21'
 name: uScoop
 nav: Providers
 network: true
-overview: 'uScoop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Fashion, eCommerce, and Agentic Commerce.
+overview: 'uScoop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Fashion, E-Commerce, and Agentic Commerce.
 
 
   uScoop''s developer surface includes documentation, authentication, support, engineering blog, and 11 more developer resources.'
@@ -121,24 +121,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.4
-  delta: -1.8
+  composite: 22.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.2
+  previous_composite: 22.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -154,7 +154,7 @@ tags:
 - Company
 - Retail
 - Fashion
-- eCommerce
+- E-Commerce
 - Agentic Commerce
 - Shopping
 website: https://tnuck.com

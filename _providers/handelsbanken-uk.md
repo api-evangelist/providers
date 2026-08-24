@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Great Britain market Account Information Service (AIS) API - retrieve account details, balances, and transactions for consenting Handelsbanken UK customers. Published to the Berlin Group NextGenPS
@@ -152,7 +152,7 @@ modified: '2026-07-24'
 name: Handelsbanken UK
 nav: Providers
 network: true
-overview: 'Handelsbanken UK publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Open Banking, Financial Services, PSD2, and Berlin Group.
+overview: 'Handelsbanken UK publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Open Banking, Financial-Services, PSD2, and Berlin Group.
 
 
   Handelsbanken UK''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, changelog, sandbox, and 15 more developer resources.'
@@ -160,7 +160,7 @@ random_paper: 10
 score:
   band: thin
   composite: 36.5
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -170,7 +170,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 32.2
+  previous_composite: 36.5
   provenance:
     conformance: first-party
   regulatory:
@@ -179,8 +179,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/screenshots/handelsbanken-uk-2026-07-25T220612.png
 security:
@@ -196,7 +196,7 @@ slug: handelsbanken-uk
 tags:
 - Banking
 - Open Banking
-- Financial Services
+- Financial-Services
 - PSD2
 - Berlin Group
 - NextGenPSD2

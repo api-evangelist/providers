@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'RESTful API for managing B2B events including conferences, speakers, ticketing, attendee registration, contacts, sessions, and event analytics. Enables third-party developers and Bizzabo customers to '
@@ -90,7 +90,7 @@ modified: '2026-06-13'
 name: Bizzabo
 nav: Providers
 network: true
-overview: 'Bizzabo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Events, Event Management, B2B Events, Conference Management, and Ticketing.
+overview: 'Bizzabo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event Management, B2B Events, Conference Management, and Ticketing.
 
 
   The Bizzabo catalog on APIs.io includes 1 JSON-LD context.
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.6
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -119,9 +119,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 24.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/screenshots/bizzabo-2026-06-20T173329.png
 security:
@@ -131,7 +131,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bizzabo
 tags:
-- Events
+- Event
 - Event Management
 - B2B Events
 - Conference Management

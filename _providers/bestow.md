@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,7 +125,7 @@ modified: '2026-05-25'
 name: Bestow
 nav: Providers
 network: true
-overview: 'Bestow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, InsurTech, Embedded Insurance, and Insurance As A Service.
+overview: 'Bestow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Insurtech, Embedded Insurance, and Insurance As A Service.
 
 
   Bestow''s developer surface includes FAQ, terms of service, privacy policy, YouTube channel, and 16 more developer resources.'
@@ -133,7 +133,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 15.0
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -143,15 +143,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.5
+  previous_composite: 15.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bestow/refs/heads/main/screenshots/bestow-2026-06-20T173210.png
 security:
@@ -163,7 +163,7 @@ slug: bestow
 tags:
 - Insurance
 - Life Insurance
-- InsurTech
+- Insurtech
 - Embedded Insurance
 - Insurance As A Service
 - Underwriting
@@ -174,6 +174,6 @@ tags:
 - Protect API
 - SDK
 - ACORD
-- Financial Services
+- Financial-Services
 website: https://www.bestow.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The complete OneSignal REST API as OneSignal publishes it — OpenAPI 3.1.0, info.version 11.6, 39 paths and 59 operations covering messaging, users, subscriptions, segments, templates, custom events, i
@@ -273,14 +273,14 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onesignal.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: onesignal-mcp.yml
-  slug: onesignal-mcpyml
+- description: OneSignal ships two distinct remote MCP servers. The product server at api.onesignal.com/mcp/oauth is the one Cursor, Claude, Copilot and ChatGPT connect to; it is OAuth-gated, so its tool schemas req
+  name: OneSignal MCP
+  slug: onesignal-mcp
 modified: '2026-08-13'
 name: OneSignal
 nav: Providers
 network: true
-overview: 'OneSignal publishes 5 APIs on the [APIs.io](https://apis.io/) network, including REST API, Apps API, Notifications API, and 2 more. Tagged areas include Notifications, Push, Email, SMS, and Mobile.
+overview: 'OneSignal publishes 5 APIs on the [APIs.io](https://apis.io/) network, including REST API, Apps API, Notifications API, and 2 more. Tagged areas include Notification, Push, Email, SMS, and Mobile.
 
 
   The OneSignal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -298,18 +298,18 @@ rate_limits:
   slug: onesignal-rate-limits
 score:
   band: exemplar
-  composite: 77.7
-  delta: 10.6
+  composite: 78.8
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 16.7
     contract_quality: 76.5
     developer_ergonomics: 78.6
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 67.1
+  previous_composite: 78.8
   provenance:
     conformance: derived
     contracts:
@@ -325,9 +325,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png
 security:
 - kind: authentication
@@ -348,7 +348,7 @@ security:
   summary_line: SOC 2 Type II, ISO 27001, ISO 27701, EU-U.S. Data Privacy Framework
 slug: onesignal
 tags:
-- Notifications
+- Notification
 - Push
 - Email
 - SMS

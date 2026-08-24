@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -241,8 +241,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: enphase-mcp.yml
-  slug: enphase-mcpyml
+  name: Enphase Energy MCP Server
+  slug: enphase-energy-mcp-server
 modified: '2026-07-27'
 name: Enphase Energy
 nav: Providers
@@ -271,7 +271,7 @@ scopes:
 score:
   band: exemplar
   composite: 70.0
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -281,7 +281,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 62.1
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -293,9 +293,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png
 security:
 - kind: authentication

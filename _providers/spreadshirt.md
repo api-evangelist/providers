@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Spreadshirt Public Shop API — REST API for building custom e-commerce storefronts against the Spreadshirt EU (spreadshirt.net) and North American (spreadshirt.com) marketplaces, using SprdAuth API-key
@@ -206,13 +206,13 @@ image: https://www.spreadshirt.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: spreadshirt-mcp.yml
-  slug: spreadshirt-mcpyml
+  name: Spreadshirt MCP Server
+  slug: spreadshirt-mcp-server
 modified: '2026-07-21'
 name: Spreadshirt
 nav: Providers
 network: true
-overview: 'Spreadshirt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Authentication API, Designs API, and 4 more. Tagged areas include Company, Consumer, Print on Demand, E-commerce, and Apparel.
+overview: 'Spreadshirt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Authentication API, Designs API, and 4 more. Tagged areas include Company, Consumer, Print on Demand, E-Commerce, and Apparel.
 
 
   The Spreadshirt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,7 +227,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.6
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -237,7 +237,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 48.2
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -247,8 +247,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spreadshirt/refs/heads/main/screenshots/spreadshirt-2026-08-17T082038.png
 security:
@@ -269,11 +269,11 @@ tags:
 - Company
 - Consumer
 - Print on Demand
-- E-commerce
+- E-Commerce
 - Apparel
 - Custom Merchandise
 - Fulfillment
 - Dropshipping
-- Webhooks
+- Webhook
 website: https://www.spreadshirt.com/
 ---

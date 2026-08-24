@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'The Nebius Compute API provisions and manages virtual machines and GPU clusters with NVIDIA GPUs and InfiniBand interconnect for ML and AI workloads. Exposed over gRPC and accessed through the nebius '
@@ -170,7 +170,7 @@ modified: '2026-05-23'
 name: Nebius
 nav: Providers
 network: true
-overview: 'Nebius publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Cloud, Compute, GPU, and HPC.
+overview: 'Nebius publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Cloud, Compute, GPU, and HPC.
 
 
   Nebius'' developer surface includes documentation, developer portal, pricing, engineering blog, support, and 14 more developer resources.'
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.3
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -196,9 +196,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 28.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 24.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nebius/refs/heads/main/screenshots/nebius-2026-06-20T190119.png
 security:
@@ -212,14 +212,14 @@ security:
   summary_line: security.txt · contact published
 slug: nebius
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - Compute
 - GPU
 - HPC
 - Inference
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - Storage
 website: https://nebius.com
 ---

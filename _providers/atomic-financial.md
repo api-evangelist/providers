@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: 'Deposit (formerly Direct Deposit Switching) lets users redirect all or part of their paycheck to a new account. Atomic connects to thousands of payroll providers and employers, signs in on the user''s '
@@ -172,7 +172,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 23.8
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -182,16 +182,16 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 28.8
+  previous_composite: 23.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomic-financial/refs/heads/main/screenshots/atomic-financial-2026-06-20T172532.png
 security:
 - kind: domain-security
@@ -215,7 +215,7 @@ tags:
 - Employment Verification
 - Open Banking
 - Financial
-- Subscriptions
+- Subscription
 - Bill Pay
 use_cases:
 - description: Banks and credit unions use Deposit to move new account holders' paychecks into their institution.

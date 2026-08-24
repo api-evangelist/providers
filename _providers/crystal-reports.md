@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -409,31 +409,31 @@ rules:
     info: 2
     warn: 3
   slug: crystal-reports-jsonschema-spectral-rules
-- effective_rule_count: 63
+- effective_rule_count: 62
   extends:
   - spectral:oas
   name: Crystal Reports API Rules
-  rule_count: 22
+  rule_count: 21
   severity_counts:
-    error: 14
+    error: 13
     hint: 0
     info: 2
     warn: 6
   slug: crystal-reports-spectral-rules
 score:
   band: emerging
-  composite: 24.1
-  delta: -7.8
+  composite: 24.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 24.3
     developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 31.9
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     contracts:
@@ -441,9 +441,9 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/screenshots/crystal-reports-2026-06-20T175319.png
 security:
 - kind: authentication

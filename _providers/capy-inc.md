@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Server-side CAPTCHA answer verification.
@@ -158,9 +158,9 @@ description: 'Capy Inc. operates Lemin Captcha, a gamified bot-prevention and CA
 image: https://leminnow.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: capy-inc-mcp.yml
-  slug: capy-inc-mcpyml
+- description: Candidate MCP server tool surface derived from the Lemin Captcha Verification API. Lemin/Capy Inc. does not publish an official hosted or packaged MCP server (none found on the MCP registry, npm @mode
+  name: Capy Inc. MCP Server
+  slug: capy-inc-mcp-server
 modified: '2026-07-18'
 name: Capy Inc.
 nav: Providers
@@ -177,7 +177,7 @@ random_paper: 11
 score:
   band: developing
   composite: 48.0
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
@@ -187,7 +187,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 49.3
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/screenshots/capy-inc-2026-08-17T083008.png
 security:

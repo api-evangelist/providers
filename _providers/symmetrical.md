@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Symmetrical
 nav: Providers
 network: true
-overview: 'Symmetrical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payroll, Human Resources, and Fintech.
+overview: 'Symmetrical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Payroll, Human Resources, and Fintech.
 
 
   Symmetrical''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 18.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -98,11 +98,11 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 19.2
+  previous_composite: 18.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -112,7 +112,7 @@ security:
 slug: symmetrical
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payroll
 - Human Resources
 - Fintech

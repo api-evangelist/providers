@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,13 +111,13 @@ image: https://uxmagic.ai/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ux-magic-ai-mcp.yml
-  slug: ux-magic-ai-mcpyml
+  name: UX Magic AI MCP Server
+  slug: ux-magic-ai-mcp-server
 modified: '2026-07-21'
 name: UX Magic AI
 nav: Providers
 network: true
-overview: 'UX Magic AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Design, ArtificialIntelligence, UIDesign, and UXDesign.
+overview: 'UX Magic AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Design, Artificial Intelligence, UI Design, and UX Design.
 
 
   UX Magic AI''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, pricing, authentication, and 11 more developer resources.'
@@ -125,7 +125,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 23.2
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -135,11 +135,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 25.8
+  previous_composite: 23.2
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -154,11 +154,11 @@ slug: ux-magic-ai
 tags:
 - Company
 - Design
-- ArtificialIntelligence
-- UIDesign
-- UXDesign
+- Artificial Intelligence
+- UI Design
+- UX Design
 - Figma
-- DesignToCode
+- Design to Code
 - MCP
 - Wireframes
 website: https://uxmagic.ai

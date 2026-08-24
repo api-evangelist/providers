@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'REST API giving partner developers and shipper TMS platforms access to the core Emerge shipper workflow: create and manage opportunities, post them to the Emerge Marketplace or to network partners, re'
@@ -193,13 +193,13 @@ image: https://cdn.prod.website-files.com/66ad43d7385c00622859db37/66b8fd0eb48da
 layout: provider
 mcp_servers:
 - description: ''
-  name: emerge-mcp.yml
-  slug: emerge-mcpyml
+  name: Emerge MCP Server
+  slug: emerge-mcp-server
 modified: '2026-08-12'
 name: Emerge
 nav: Providers
 network: true
-overview: 'Emerge publishes 2 APIs on the [APIs.io](https://apis.io/) network: Public API (Shipper API) and Carrier API. Tagged areas include freight, logistics, transportation, supply-chain, and procurement.
+overview: 'Emerge publishes 2 APIs on the [APIs.io](https://apis.io/) network: Public API (Shipper API) and Carrier API. Tagged areas include Freight, Logistics, Transportation, Supply Chain, and Procurement.
 
 
   The Emerge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -218,7 +218,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.6
-  delta: -11.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -228,7 +228,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 60.9
+  previous_composite: 49.6
   provenance:
     conformance: derived
     contracts:
@@ -238,9 +238,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/screenshots/emerge-2026-08-17T080921.png
 security:
 - kind: authentication
@@ -261,17 +261,17 @@ security:
   summary_line: trust center published
 slug: emerge
 tags:
-- freight
-- logistics
-- transportation
-- supply-chain
-- procurement
-- trucking
-- freight-marketplace
-- transportation-management
-- shipping
+- Freight
+- Logistics
+- Transportation
+- Supply Chain
+- Procurement
+- Trucking
+- Freight Marketplace
+- Transportation Management
+- Shipping
 - rate-benchmarking
-- webhooks
-- b2b-marketplace
+- Webhook
+- B2B Marketplace
 website: https://www.emergemarket.com/
 ---

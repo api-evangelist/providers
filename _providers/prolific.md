@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: The aiTaskBuilder API from Prolific — 24 operation(s) for aitaskbuilder.
@@ -284,13 +284,13 @@ image: https://www.prolific.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: prolific-mcp.yml
-  slug: prolific-mcpyml
+  name: Prolific MCP Server
+  slug: prolific-mcp-server
 modified: '2026-07-20'
 name: Prolific
 nav: Providers
 network: true
-overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network, including aiTaskBuilder API, bonuses API, credentials API, and 15 more. Tagged areas include Company, Ai/Ml, Human Data, Research, and Participant Recruitment.
+overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network, including aiTaskBuilder API, bonuses API, credentials API, and 15 more. Tagged areas include Company, Ai Ml, Human Data, Research, and Participant Recruitment.
 
 
   The Prolific catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -301,7 +301,7 @@ random_paper: 16
 score:
   band: developing
   composite: 49.7
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -311,7 +311,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 54.4
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -321,8 +321,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/screenshots/prolific-2026-08-17T081352.png
 security:
@@ -337,7 +337,7 @@ security:
 slug: prolific
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - Human Data
 - Research
 - Participant Recruitment
@@ -345,6 +345,5 @@ tags:
 - Human Feedback
 - RLHF
 - Data Collection
-- API
 website: https://www.prolific.com/
 ---

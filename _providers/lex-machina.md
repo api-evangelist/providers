@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -325,7 +325,7 @@ random_paper: 3
 score:
   band: thin
   composite: 34.6
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -335,7 +335,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 42.8
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -349,9 +349,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 40.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/screenshots/lex-machina-2026-06-20T184441.png
 security:
 - kind: authentication

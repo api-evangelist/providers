@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 66
 apis:
 - description: The Absences requests API from Buk — 4 operation(s) for absences requests.
@@ -644,7 +644,7 @@ random_paper: 7
 score:
   band: developing
   composite: 51.8
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -654,7 +654,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 51.3
+  previous_composite: 51.8
   provenance:
     conformance: first-party
     contracts:
@@ -664,8 +664,8 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/screenshots/buk-2026-08-17T080728.png
 security:
@@ -693,7 +693,7 @@ tags:
 - Employee Records
 - Latin America
 - Chile
-- SaaS
-- Webhooks
+- Software-as-a-Service
+- Webhook
 website: https://www.buk.cl/
 ---

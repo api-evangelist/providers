@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: First American developer APIs include Find an Office (locate offices by city, state, or ZIP), Order Management (open new orders), Document Exchange (send and receive order-related documents), Messagin
@@ -73,7 +73,7 @@ modified: '2026-04-28'
 name: First American Financial
 nav: Providers
 network: true
-overview: 'First American Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Real Estate, Settlement Services, Financial Services, and Fortune 1000.
+overview: 'First American Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Real-Estate, Settlement Services, Financial-Services, and Fortune 1000.
 
 
   First American Financial''s developer surface includes engineering blog and 5 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.8
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -115,15 +115,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.4
+  previous_composite: 9.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/screenshots/first-american-financial-2026-06-20T181235.png
 security:
@@ -134,9 +134,9 @@ security:
 slug: first-american-financial
 tags:
 - Title Insurance
-- Real Estate
+- Real-Estate
 - Settlement Services
-- Financial Services
+- Financial-Services
 - Fortune 1000
 website: https://www.firstam.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 2
@@ -383,9 +383,9 @@ jsonld:
   slug: dotdigital-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: dotdigital-mcp.yml
-  slug: dotdigital-mcpyml
+- description: 'Dotdigital hosts a remote MCP server for the Marketing Developer Hub. It is a documentation-and-specification discovery server, not a data-plane server: the seven tools read the published OpenAPI desc'
+  name: Dotdigital MCP Server
+  slug: dotdigital-mcp-server
 modified: '2026-08-13'
 name: Dotdigital
 nav: Providers
@@ -409,7 +409,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.9
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
@@ -419,7 +419,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 62.2
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -436,8 +436,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/screenshots/dotdigital-2026-06-20T180203.png
 security:
@@ -476,8 +476,8 @@ tags:
 - Consent Management
 - Personalization
 - Loyalty
-- Ecommerce
-- Events
-- Webhooks
+- E-Commerce
+- Event
+- Webhook
 website: https://dotdigital.com
 ---

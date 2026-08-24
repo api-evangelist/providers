@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Mooncard
 nav: Providers
 network: true
-overview: 'Mooncard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Expense Management, Corporate Cards, and Fintech.
+overview: 'Mooncard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Expense Management, Corporate Cards, and Fintech.
 
 
   Mooncard''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 10.5
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -86,15 +86,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.2
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mooncard/refs/heads/main/screenshots/mooncard-2026-08-07T184234.png
 security:
@@ -105,7 +105,7 @@ security:
 slug: mooncard
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Expense Management
 - Corporate Cards
 - Fintech

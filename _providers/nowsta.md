@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ modified: '2026-08-01'
 name: Nowsta
 nav: Providers
 network: true
-overview: 'Nowsta publishes 1 API on the [APIs.io](https://apis.io/) network: Integration API. Tagged areas include workforce-management, staff-scheduling, shift-scheduling, time-and-attendance, and hourly-workforce.
+overview: 'Nowsta publishes 1 API on the [APIs.io](https://apis.io/) network: Integration API. Tagged areas include Workforce Management, staff-scheduling, shift-scheduling, Time and Attendance, and Hourly Workforce.
 
 
   Nowsta''s developer surface includes API reference, support, engineering blog, and 24 more developer resources.'
@@ -167,7 +167,7 @@ random_paper: 17
 score:
   band: thin
   composite: 32.9
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -177,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 38.0
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,9 +188,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/screenshots/nowsta-2026-08-07T185642.png
 security:
 - kind: authentication
@@ -203,17 +203,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: nowsta
 tags:
-- workforce-management
+- Workforce Management
 - staff-scheduling
 - shift-scheduling
-- time-and-attendance
-- hourly-workforce
+- Time and Attendance
+- Hourly Workforce
 - gig-work
 - event-staffing
-- hospitality
+- Hospitality
 - staffing-agency
-- vendor-management
-- payroll
-- human-resources
+- Vendor Management
+- Payroll
+- Human Resources
 website: https://www.nowsta.com/
 ---

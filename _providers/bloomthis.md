@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-facing commerce surface of the BloomThis Shopify store — a hosted UCP MCP endpoint for search-to-buyer-approved-checkout, the Shopify Customer Account OIDC/OAuth API, and the read-only storefron
@@ -95,13 +95,13 @@ image: https://bloomthis.co/cdn/shop/files/bloomthis-home-desktop_72fd684e-14fb-
 layout: provider
 mcp_servers:
 - description: ''
-  name: bloomthis-mcp.yml
-  slug: bloomthis-mcpyml
+  name: BloomThis MCP Server
+  slug: bloomthis-mcp-server
 modified: '2026-07-18'
 name: BloomThis
 nav: Providers
 network: true
-overview: 'BloomThis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Flowers, Gifting, Ecommerce, and Retail.
+overview: 'BloomThis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Flowers, Gifting, E-Commerce, and Retail.
 
 
   BloomThis'' developer surface includes engineering blog, authentication, and 11 more developer resources.'
@@ -113,24 +113,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.2
-  delta: -0.8
+  composite: 18.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.0
+  previous_composite: 18.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/screenshots/bloomthis-2026-08-07T162638.png
 security:
@@ -147,7 +147,7 @@ tags:
 - Company
 - Flowers
 - Gifting
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopify
 - Agent Commerce

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The routes API from Walrus Protocol — 9 operation(s) for routes.
@@ -182,8 +182,8 @@ image: https://walrus.xyz/images/open-graph/og-home.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: walrus-protocol-mcp.yml
-  slug: walrus-protocol-mcpyml
+  name: Walrus Protocol MCP Server
+  slug: walrus-protocol-mcp-server
 modified: '2026-07-21'
 name: Walrus Protocol
 nav: Providers
@@ -196,7 +196,7 @@ random_paper: 1
 score:
   band: developing
   composite: 48.2
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -206,7 +206,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 48.6
+  previous_composite: 48.2
   provenance:
     conformance: derived
     contracts:
@@ -216,8 +216,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/screenshots/walrus-protocol-2026-08-17T082844.png
 security:
@@ -238,7 +238,7 @@ tags:
 - Blockchain
 - Web3
 - Data
-- AI
+- Artificial Intelligence
 - Sui
 website: https://www.walrus.xyz/
 ---

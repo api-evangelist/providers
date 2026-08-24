@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing Jimdo website content, blog posts, online store products, orders, and customer data for small business websites built on the Jimdo platform.
@@ -101,7 +101,7 @@ modified: '2026-06-13'
 name: Jimdo
 nav: Providers
 network: true
-overview: 'Jimdo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Website Builder, Ecommerce, CMS, Small Business, and Online Store.
+overview: 'Jimdo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Website Builder, E-Commerce, CMS, Small Business, and Online Store.
 
 
   Jimdo''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.0
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -127,9 +127,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 29.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/screenshots/jimdo-2026-06-20T183734.png
 security:
@@ -144,7 +144,7 @@ security:
 slug: jimdo
 tags:
 - Website Builder
-- Ecommerce
+- E-Commerce
 - CMS
 - Small Business
 - Online Store

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -515,18 +515,18 @@ rules:
   slug: moov-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.4
+  composite: 58.7
   delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 86.9
     developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 58.4
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
@@ -540,8 +540,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-08-07T184251.png
 security:

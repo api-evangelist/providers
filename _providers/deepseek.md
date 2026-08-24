@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ modified: '2026-05-29'
 name: DeepSeek
 nav: Providers
 network: true
-overview: 'DeepSeek publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Models API, and 1 more. Tagged areas include AI, Artificial Intelligence, Chat, Chat Completion, and LLM.
+overview: 'DeepSeek publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Models API, and 1 more. Tagged areas include Artificial Intelligence, Chat, Chat Completion, LLM, and Large Language Models.
 
 
   The DeepSeek catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 5 Spectral governance rulesets.
@@ -250,7 +250,7 @@ rules:
 score:
   band: developing
   composite: 42.7
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -260,7 +260,7 @@ score:
     discoverability: 74.1
     governance: 26.5
     operational_transparency: 23.7
-  previous_composite: 48.9
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -268,9 +268,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/screenshots/deepseek-2026-06-20T175812.png
 security:
 - kind: authentication
@@ -283,7 +283,6 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: deepseek
 tags:
-- AI
 - Artificial Intelligence
 - Chat
 - Chat Completion

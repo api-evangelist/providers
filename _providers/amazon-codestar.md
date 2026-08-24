@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -990,8 +990,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-codestar-mcp.yml
-  slug: amazon-codestar-mcpyml
+  name: Amazon CodeStar MCP Server
+  slug: amazon-codestar-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeStar
 nav: Providers
@@ -1028,18 +1028,18 @@ rules:
   slug: amazon-codestar-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: -8.7
+  composite: 47.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 69.8
     developer_ergonomics: 26.2
     discoverability: 83.3
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 18.4
-  previous_composite: 55.5
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1049,9 +1049,9 @@ score:
       marker_coverage: 0.0
       total: 18
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/screenshots/amazon-codestar-2026-07-25T200001.png
 security:
 - kind: authentication

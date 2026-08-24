@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Ionic provides a platform and APIs for building and deploying modern mobile applications and micro frontend experiences with cross-platform support.
@@ -81,7 +81,7 @@ modified: '2026-04-28'
 name: Ionic
 nav: Providers
 network: true
-overview: 'Ionic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apps, Cross-Platform, Frontend, and Mobile Development.
+overview: 'Ionic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Application, Cross-Platform, Frontend, and Mobile Development.
 
 
   Ionic''s developer surface includes engineering blog, documentation, support, and 5 more developer resources.'
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 12.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ionic/refs/heads/main/screenshots/ionic-2026-06-20T183530.png
 security:
@@ -123,7 +123,7 @@ security:
   summary_line: security.txt · contact published
 slug: ionic
 tags:
-- Apps
+- Application
 - Cross-Platform
 - Frontend
 - Mobile Development

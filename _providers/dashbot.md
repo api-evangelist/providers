@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Read API for enriched conversational data. GET /export returns a zipFile handle for all dimension data across a set of bot IDs over a date range, optionally filtered to named prompts; GET /index is th
@@ -175,9 +175,9 @@ description: Dashbot is a conversational-data analytics platform (now operating 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dashbot.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: dashbot-mcp.yml
-  slug: dashbot-mcpyml
+- description: Dimension Labs serves a Model Context Protocol endpoint from its own documentation host, https://docs.dimensionlabs.io/mcp. It is the MCP server that ships with their ReadMe documentation hub (the res
+  name: Dashbot MCP Server
+  slug: dashbot-mcp-server
 modified: '2026-08-14'
 name: Dashbot
 nav: Providers
@@ -198,7 +198,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.5
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -208,7 +208,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 54.1
+  previous_composite: 51.5
   provenance:
     conformance: first-party
     contracts:
@@ -218,8 +218,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/screenshots/dashbot-2026-07-25T211226.png
 security:

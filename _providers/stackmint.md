@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ modified: '2026-05-15'
 name: Stackmint
 nav: Providers
 network: true
-overview: 'Stackmint publishes 2 APIs on the [APIs.io](https://apis.io/) network: Admin API and Clients API. Tagged areas include AI Governance, AI Agents, Workflow Automation, Enterprise AI, and MCP.
+overview: 'Stackmint publishes 2 APIs on the [APIs.io](https://apis.io/) network: Admin API and Clients API. Tagged areas include AI Governance, AI Agents, Workflow-Automation, Enterprise AI, and MCP.
 
 
   Stackmint''s developer surface includes authentication, documentation, API reference, engineering blog, signup flow, support, and 8 more developer resources.'
@@ -135,7 +135,7 @@ random_paper: 8
 score:
   band: thin
   composite: 31.0
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -145,7 +145,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 31.2
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/screenshots/stackmint-2026-06-20T194447.png
 security:
@@ -178,7 +178,7 @@ slug: stackmint
 tags:
 - AI Governance
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Enterprise AI
 - MCP
 - Semantic Layer

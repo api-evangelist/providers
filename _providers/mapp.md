@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'The Mapp Engage REST API (REST 2.0, incremental version v19) exchanges data between external systems and Mapp Engage: create and update contacts, manage group memberships and attributes, send single, '
@@ -220,8 +220,8 @@ image: https://mapp.com/wp-content/uploads/2026/05/mapp-default-open-graph-image
 layout: provider
 mcp_servers:
 - description: ''
-  name: mapp-mcp.yml
-  slug: mapp-mcpyml
+  name: Mapp Marketing Cloud MCP Server
+  slug: mapp-marketing-cloud-mcp-server
 modified: '2026-08-12'
 name: Mapp Marketing Cloud
 nav: Providers
@@ -250,7 +250,7 @@ scopes:
 score:
   band: exemplar
   composite: 75.1
-  delta: 6.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -260,7 +260,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 69.0
+  previous_composite: 75.1
   provenance:
     conformance: first-party
     contracts:
@@ -276,9 +276,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 72.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/screenshots/mapp-2026-08-17T080404.png
 security:
 - kind: authentication

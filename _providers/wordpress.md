@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -532,7 +532,7 @@ modified: '2026-05-19'
 name: WordPress
 nav: Providers
 network: true
-overview: 'WordPress publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Block Types API, Blocks API, Categories API, and 11 more. Tagged areas include CMS, Content Management, Open Source, and WordPress.
+overview: 'WordPress publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Block Types API, Blocks API, Categories API, and 11 more. Tagged areas include CMS, Content Management, Open-Source, and WordPress.
 
 
   The WordPress catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -572,18 +572,18 @@ rules:
   slug: wordpress-spectral-rules
 score:
   band: developing
-  composite: 44.5
-  delta: -8.2
+  composite: 45.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 39.4
     developer_ergonomics: 69.0
     discoverability: 57.4
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 52.7
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -591,9 +591,9 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/screenshots/wordpress-2026-06-20T201546.png
 security:
 - kind: authentication
@@ -648,7 +648,7 @@ slug: wordpress
 tags:
 - CMS
 - Content Management
-- Open Source
+- Open-Source
 - WordPress
 use_cases:
 - description: Use WordPress as a headless CMS with the REST API to deliver content to any frontend framework like Next.js, Nuxt, or React

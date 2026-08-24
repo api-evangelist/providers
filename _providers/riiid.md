@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Riiid's adaptive learning engine analyzes learner interaction data in real time to recommend personalized study paths and content. It is delivered inside Riiid/Socra products (Santa) and to partners v
@@ -97,7 +97,7 @@ modified: '2026-06-21'
 name: Riiid
 nav: Providers
 network: true
-overview: 'Riiid publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Adaptive Learning, Knowledge Tracing, Santa, and 1 more. Tagged areas include AI, Education, Adaptive Learning, Knowledge Tracing, and EdTech.
+overview: 'Riiid publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Adaptive Learning, Knowledge Tracing, Santa, and 1 more. Tagged areas include Artificial Intelligence, Education, Adaptive Learning, Knowledge Tracing, and EdTech.
 
 
   Riiid''s developer surface includes documentation and 7 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.9
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -123,15 +123,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 25.1
+  previous_composite: 21.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -140,7 +140,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: riiid
 tags:
-- AI
+- Artificial Intelligence
 - Education
 - Adaptive Learning
 - Knowledge Tracing

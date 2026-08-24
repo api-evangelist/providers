@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'JSON-based REST API for the Act! CRM database exposing contacts, companies, groups, opportunities, tasks, activity series, calendar, notes, history, documents, attachments, users, teams, preferences, '
@@ -263,14 +263,14 @@ description: Act! is a CRM and marketing automation platform built for small and
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/act.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: act-mcp.yml
-  slug: act-mcpyml
+- description: Act! operates no MCP server. This file is a CANDIDATE tool surface derived from the Act! Web API's own operations so the shape of an Act! MCP server can be reasoned about — it is not something Act! sh
+  name: Act! CRM MCP Server
+  slug: act-crm-mcp-server
 modified: '2026-08-13'
 name: Act! CRM
 nav: Providers
 network: true
-overview: 'Act! CRM publishes 1 API on the [APIs.io](https://apis.io/) network: Act! Web API. Tagged areas include CRM, Customer Relationship Management, Marketing Automation, Contact Management, and Sales.
+overview: 'Act! CRM publishes 1 API on the [APIs.io](https://apis.io/) network: Act! Web API. Tagged areas include CRM, Marketing Automation, Contact Management, Sales, and Opportunity Management.
 
 
   The Act! CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -289,7 +289,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.1
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -299,7 +299,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 60.3
+  previous_composite: 63.1
   provenance:
     conformance: first-party
     contracts:
@@ -309,8 +309,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/screenshots/act-2026-08-17T121405.png
 security:
@@ -333,7 +333,6 @@ security:
 slug: act
 tags:
 - CRM
-- Customer Relationship Management
 - Marketing Automation
 - Contact Management
 - Sales

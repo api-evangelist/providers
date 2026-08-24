@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 6
@@ -467,8 +467,8 @@ image: https://www.c1.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: conductorone-mcp.yml
-  slug: conductorone-mcpyml
+  name: ConductorOne MCP Server
+  slug: conductorone-mcp-server
 modified: '2026-07-18'
 name: ConductorOne
 nav: Providers
@@ -489,7 +489,7 @@ scopes:
 score:
   band: developing
   composite: 50.8
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -499,7 +499,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 56.2
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -510,9 +510,9 @@ score:
       total: 46
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/screenshots/conductorone-2026-07-25T210248.png
 security:
 - kind: authentication

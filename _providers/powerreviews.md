@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -189,8 +189,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/powerrevie
 layout: provider
 mcp_servers:
 - description: ''
-  name: powerreviews-mcp.yml
-  slug: powerreviews-mcpyml
+  name: PowerReviews MCP Server
+  slug: powerreviews-mcp-server
 modified: '2026-08-13'
 name: PowerReviews
 nav: Providers
@@ -211,7 +211,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.2
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -221,7 +221,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 49.7
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +232,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/screenshots/powerreviews-2026-06-20T192030.png
 security:

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST API for sending multi-channel campaigns (rich push notifications, email, SMS, web push), creating smart deep links, managing a media library, and logging user events/purchases into the Appgain CD
@@ -213,7 +213,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.2
-  delta: -8.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -223,7 +223,7 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 49.0
+  previous_composite: 40.2
   provenance:
     conformance: derived
     mcp: derived
@@ -234,9 +234,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/screenshots/appgain-2026-07-25T200731.png
 security:
 - kind: authentication

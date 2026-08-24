@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-19'
 name: Kitchensurfing
 nav: Providers
 network: true
-overview: 'Kitchensurfing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Food and Beverage, Marketplace, and On Demand.
+overview: 'Kitchensurfing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Food and Beverage, Marketplace, and On-Demand.
 
 
   Kitchensurfing''s developer surface includes product news and 5 more developer resources.'
@@ -92,8 +92,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitchensurfing/refs/heads/main/screenshots/kitchensurfing-2026-07-25T223903.png
 slug: kitchensurfing
@@ -102,7 +102,7 @@ tags:
 - Defunct
 - Food and Beverage
 - Marketplace
-- On Demand
+- On-Demand
 - Hospitality
 - Local Services
 - Consumer

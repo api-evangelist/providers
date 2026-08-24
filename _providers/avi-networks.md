@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/vmware/
 - group: company
   title: ''
   type: Website
@@ -60,7 +64,7 @@ created: '2026-07-17'
 description: AVI Networks builds a software-defined application delivery platform - the Avi Vantage Platform / Avi Load Balancer - providing multi-cloud load balancing, web application firewall (WAF), GSLB, container ingress, and analytics driven by a central Avi Controller with a fully programmable REST API. Founded in 2012 and headquartered in Santa Clara, California, AVI Networks was acquired by VMware in 2019 and the product is now offered by Broadcom as the VMware Avi Load Balancer. The controller exposes a comprehensive REST API with first-party Python, Go, and Java SDKs, a Terraform provider, and Ansible automation for intent-based, self-service application services across VMware, AWS, Azure, GCP, OpenStack, and bare-metal environments.
 image: https://avinetworks.com/wp-content/uploads/2018/03/avi-networks-logo.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-21'
 name: AVI Networks
 nav: Providers
 network: true
@@ -80,8 +84,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 8.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avi-networks/refs/heads/main/screenshots/avi-networks-2026-07-25T201928.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -264,7 +264,7 @@ rules:
 score:
   band: developing
   composite: 41.2
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -274,7 +274,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 42.6
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -282,8 +282,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/screenshots/bunny-net-2026-06-20T173805.png
 security:

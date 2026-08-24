@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.0
-  delta: -8.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 56.9
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,9 +246,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/screenshots/disconetwork-2026-07-25T212103.png
 security:
 - kind: authentication
@@ -266,7 +266,7 @@ tags:
 - Retail Media
 - Post-Purchase
 - Advertising
-- Ecommerce
+- E-Commerce
 - AdTech
 - Marketing
 - Analytics

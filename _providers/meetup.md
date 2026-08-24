@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A single-endpoint GraphQL API for accessing and managing Meetup community data including groups, events, members, tickets (RSVPs), venues, and photos. Supports querying, mutations for event creation a
@@ -85,7 +85,7 @@ modified: '2026-06-13'
 name: Meetup
 nav: Providers
 network: true
-overview: 'Meetup publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Events, Community, Groups, Meetups, and Social.
+overview: 'Meetup publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Community, Group, Meetups, and Social.
 
 
   Meetup''s developer surface includes engineering blog, terms of service, privacy policy, and 5 more developer resources.'
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.6
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -111,9 +111,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meetup/refs/heads/main/screenshots/meetup-2026-06-20T185133.png
 security:
@@ -127,9 +127,9 @@ security:
   summary_line: disclosure policy published
 slug: meetup
 tags:
-- Events
+- Event
 - Community
-- Groups
+- Group
 - Meetups
 - Social
 - GraphQL

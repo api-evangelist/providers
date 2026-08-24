@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -231,8 +231,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: thriva-mcp.yml
-  slug: thriva-mcpyml
+  name: Thriva MCP Server
+  slug: thriva-mcp-server
 modified: '2026-07-21'
 name: Thriva
 nav: Providers
@@ -248,7 +248,7 @@ random_paper: 3
 score:
   band: developing
   composite: 46.5
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -258,7 +258,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 45.2
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,8 +275,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/screenshots/thriva-2026-08-17T082348.png
 security:
@@ -297,7 +297,7 @@ tags:
 - At-Home Testing
 - Digital Health
 - Lab Testing
-- Webhooks
+- Webhook
 - United Kingdom
 website: https://thriva.co
 ---

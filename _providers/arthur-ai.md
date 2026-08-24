@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 30
 apis:
 - description: The Agents V1 API from Arthur AI — 12 operation(s) for agents v1.
@@ -344,13 +344,13 @@ image: https://platform.arthur.ai/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: arthur-ai-mcp.yml
-  slug: arthur-ai-mcpyml
+  name: Arthur AI MCP Server
+  slug: arthur-ai-mcp-server
 modified: '2026-07-18'
 name: Arthur AI
 nav: Providers
 network: true
-overview: 'Arthur AI publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Agents V1 API, Alert Rules V1 API, Alerts V1 API, and 27 more. Tagged areas include Company, AI, AI Governance, AI Observability, and Machine Learning.
+overview: 'Arthur AI publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Agents V1 API, Alert Rules V1 API, Alerts V1 API, and 27 more. Tagged areas include Company, Artificial Intelligence, AI Governance, AI Observability, and Machine-Learning.
 
 
   The Arthur AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -366,7 +366,7 @@ scopes:
 score:
   band: developing
   composite: 45.5
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -376,7 +376,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.2
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -386,8 +386,8 @@ score:
       total: 30
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png
 security:
@@ -402,10 +402,10 @@ security:
 slug: arthur-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Governance
 - AI Observability
-- Machine Learning
+- Machine-Learning
 - LLM Evaluation
 - Model Monitoring
 - MLOps

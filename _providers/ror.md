@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The ROR REST API provides programmatic access to the Research Organization Registry, enabling users to retrieve, search, filter, and match organization records by name, identifier, affiliation text, o
@@ -110,7 +110,7 @@ modified: '2026-06-12'
 name: ROR
 nav: Providers
 network: true
-overview: 'ROR publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Research, Organizations, Identifiers, Registry, and Scholarly.
+overview: 'ROR publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Research, Organization, Identifiers, Registry, and Scholarly.
 
 
   The ROR catalog on APIs.io includes 1 JSON-LD context.
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.5
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -139,15 +139,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 33.9
+  previous_composite: 32.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ror/refs/heads/main/screenshots/ror-2026-06-20T193222.png
 security:
@@ -158,7 +158,7 @@ security:
 slug: ror
 tags:
 - Research
-- Organizations
+- Organization
 - Identifiers
 - Registry
 - Scholarly

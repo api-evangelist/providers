@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Auto-discovery of available feeds and cities
@@ -178,8 +178,8 @@ image: https://avatars.githubusercontent.com/u/45282822?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: dott-mcp.yml
-  slug: dott-mcpyml
+  name: Dott MCP Server
+  slug: dott-mcp-server
 modified: '2026-07-18'
 name: Dott
 nav: Providers
@@ -192,7 +192,7 @@ random_paper: 2
 score:
   band: developing
   composite: 45.0
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -202,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 38.6
+  previous_composite: 45.0
   provenance:
     conformance: first-party
     contracts:
@@ -212,9 +212,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/screenshots/dott-2026-07-25T212315.png
 security:
 - kind: authentication

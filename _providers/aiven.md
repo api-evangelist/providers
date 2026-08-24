@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 14
@@ -424,7 +424,7 @@ scopes:
 score:
   band: developing
   composite: 45.0
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -434,7 +434,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 21.1
-  previous_composite: 51.6
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -442,9 +442,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/screenshots/aiven-2026-06-20T171443.png
 security:
 - kind: authentication
@@ -468,9 +468,9 @@ tags:
 - ClickHouse
 - Redis
 - MySQL
-- Open Source
+- Open-Source
 - Cloud Database
-- DBaaS
+- Database-as-a-Service
 - Data Streaming
 - Data Platform
 website: https://aiven.io

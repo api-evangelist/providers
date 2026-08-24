@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,7 +60,7 @@ modified: '2026-04-28'
 name: Diebold Nixdorf
 nav: Providers
 network: true
-overview: 'Diebold Nixdorf is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Retail, ATM, Self-Service, and Point of Sale.
+overview: 'Diebold Nixdorf is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Retail, ATM, Self-Service, and Point-of-Sale.
 
 
   Diebold Nixdorf''s developer surface includes support and 4 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 3.6
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -94,15 +94,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.3
+  previous_composite: 3.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/screenshots/diebold-2026-06-20T180010.png
 security:
@@ -120,7 +120,7 @@ tags:
 - Retail
 - ATM
 - Self-Service
-- Point of Sale
+- Point-of-Sale
 - Fortune 1000
 website: https://www.dieboldnixdorf.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -183,13 +183,13 @@ image: https://tana.inc/opengraph-image/default
 layout: provider
 mcp_servers:
 - description: ''
-  name: tana-mcp.yml
-  slug: tana-mcpyml
+  name: Tana MCP Server
+  slug: tana-mcp-server
 modified: '2026-07-21'
 name: Tana
 nav: Providers
 network: true
-overview: 'Tana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documentation API and AddToNodeV2 API. Tagged areas include Company, Note Taking, Knowledge Management, Productivity, and Artificial Intelligence.
+overview: 'Tana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documentation API and AddToNodeV2 API. Tagged areas include Company, Note Taking, Knowledge-Management, Productivity, and Artificial Intelligence.
 
 
   Tana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 24 more developer resources.'
@@ -222,8 +222,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/screenshots/tana-2026-08-17T082245.png
 security:
@@ -243,7 +243,7 @@ slug: tana
 tags:
 - Company
 - Note Taking
-- Knowledge Management
+- Knowledge-Management
 - Productivity
 - Artificial Intelligence
 - Meetings

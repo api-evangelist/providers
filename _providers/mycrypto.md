@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-20'
 name: MyCrypto
 nav: Providers
 network: true
-overview: 'MyCrypto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wallet, Ethereum, Blockchain, and Cryptocurrency.
+overview: 'MyCrypto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wallets, Ethereum, Blockchain, and Cryptocurrency.
 
 
   MyCrypto''s developer surface includes documentation, support, and 9 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 8.2
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -102,15 +102,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 11.4
+  previous_composite: 8.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mycrypto/refs/heads/main/screenshots/mycrypto-2026-08-07T184516.png
 security:
@@ -121,12 +121,12 @@ security:
 slug: mycrypto
 tags:
 - Company
-- Wallet
+- Wallets
 - Ethereum
 - Blockchain
 - Cryptocurrency
 - Web3
-- Open Source
+- Open-Source
 - Non-Custodial
 website: https://mycrypto.com
 ---

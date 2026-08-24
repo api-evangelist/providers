@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -201,8 +201,8 @@ image: https://connecteam.com/wp-content/uploads/2024/03/Share-image-homepage.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: connecteam-mcp.yml
-  slug: connecteam-mcpyml
+  name: Connecteam MCP Server
+  slug: connecteam-mcp-server
 modified: '2026-08-01'
 name: Connecteam
 nav: Providers
@@ -231,7 +231,7 @@ scopes:
 score:
   band: strong
   composite: 63.7
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -241,14 +241,14 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 67.5
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/screenshots/connecteam-2026-08-07T163740.png
 security:
@@ -275,6 +275,6 @@ tags:
 - Task Management
 - Forms
 - Deskless
-- SaaS
+- Software-as-a-Service
 website: https://connecteam.com/
 ---

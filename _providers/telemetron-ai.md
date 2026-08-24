@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -170,14 +170,14 @@ description: Telemetron is an AI-powered customer support platform for hardware 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telemetron-ai.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: telemetron-ai-mcp.yml
-  slug: telemetron-ai-mcpyml
+- description: 'Telemetron operates an official hosted MCP server at https://admin.telemetron.ai/api/mcp over HTTP transport, authenticated with the organization''s API key sent as an Authorization: Bearer token. The '
+  name: Telemetron MCP Server
+  slug: telemetron-mcp-server
 modified: '2026-07-21'
 name: Telemetron
 nav: Providers
 network: true
-overview: 'Telemetron publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customer API, Device API, Device Assignment API, and 1 more. Tagged areas include Company, Artificial Intelligence, Customer Support, Internet of Things, and Hardware.
+overview: 'Telemetron publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customer API, Device API, Device Assignment API, and 1 more. Tagged areas include Company, Artificial Intelligence, Customer-Support, Internet of Things, and Hardware.
 
 
   Telemetron''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
@@ -185,7 +185,7 @@ random_paper: 11
 score:
   band: developing
   composite: 42.3
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -195,7 +195,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 44.7
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +206,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/screenshots/telemetron-ai-2026-08-17T082304.png
 security:
@@ -223,7 +223,7 @@ slug: telemetron-ai
 tags:
 - Company
 - Artificial Intelligence
-- Customer Support
+- Customer-Support
 - Internet of Things
 - Hardware
 - Telemetry

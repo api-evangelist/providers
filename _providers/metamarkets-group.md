@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HTTPS event-stream ingestion API for programmatic advertising data. Customers continuously POST newline-delimited, OpenRTB-based JSON event records (gzip-compressed) to a per-customer HTTPS endpoint u
@@ -101,7 +101,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 15.3
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -111,9 +111,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamarkets-group/refs/heads/main/screenshots/metamarkets-group-2026-08-07T172649.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-18'
 name: d-Matrix
 nav: Providers
 network: true
-overview: 'd-Matrix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compute, AI, Inference, and Hardware.
+overview: 'd-Matrix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compute, Artificial Intelligence, Inference, and Hardware.
 
 
   d-Matrix''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 15.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -102,9 +102,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-matrix/refs/heads/main/screenshots/d-matrix-2026-07-25T211108.png
 security:
@@ -116,11 +116,11 @@ slug: d-matrix
 tags:
 - Company
 - Compute
-- AI
+- Artificial Intelligence
 - Inference
 - Hardware
 - Accelerator
-- Machine Learning
+- Machine-Learning
 - Semiconductors
 website: https://www.d-matrix.ai/
 ---

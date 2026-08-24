@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The HRSA Health Center Data Service enables users to query for health centers by state, county, or ZIP Code, providing access to federally qualified health center location and service information.
@@ -80,7 +80,7 @@ modified: '2026-04-28'
 name: Health Resources and Services Administration
 nav: Providers
 network: true
-overview: 'Health Resources and Services Administration publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Healthcare, Open Data, and Public Health.
+overview: 'Health Resources and Services Administration publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Healthcare, Open Data, and Public Health.
 
 
   Health Resources and Services Administration''s developer surface includes developer portal, support, and 5 more developer resources.'
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.7
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -106,15 +106,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.1
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/health-resources-and-services-administration/refs/heads/main/screenshots/health-resources-and-services-administration-2026-06-20T182556.png
 security:
@@ -124,7 +124,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: health-resources-and-services-administration
 tags:
-- Federal Government
+- Federal-Government
 - Healthcare
 - Open Data
 - Public Health

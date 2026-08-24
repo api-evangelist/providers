@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: gRPC/Connect API for managing Polar Signals Cloud organizations, projects, service accounts, tokens, roles/RBAC, rate limits, and billing, plus a Parca-compatible profiling data plane for uploading an
@@ -166,9 +166,9 @@ description: Polar Signals is a continuous profiling company built by the team b
 image: https://avatars.githubusercontent.com/u/71665167?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: polar-signals-mcp.yml
-  slug: polar-signals-mcpyml
+- description: Official Model Context Protocol server that lets AI assistants (Claude, Cursor, Copilot, Gemini) query Polar Signals continuous-profiling data using natural language, discover projects and profile typ
+  name: Polar Signals MCP Server
+  slug: polar-signals-mcp-server
 modified: '2026-07-20'
 name: Polar Signals
 nav: Providers
@@ -186,7 +186,7 @@ scopes:
 score:
   band: developing
   composite: 42.9
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -196,13 +196,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 39.4
+  previous_composite: 42.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

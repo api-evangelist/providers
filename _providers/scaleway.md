@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -1901,7 +1901,7 @@ modified: '2026-05-19'
 name: Scaleway
 nav: Providers
 network: true
-overview: 'Scaleway publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Access Control List API, ACLs API, Alert Subscribers API, and 70 more. Tagged areas include AI, Cloud Computing, Containers, Database, and European Cloud.
+overview: 'Scaleway publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Access Control List API, ACLs API, Alert Subscribers API, and 70 more. Tagged areas include Artificial Intelligence, Cloud Computing, Containers, Database, and European Cloud.
 
 
   The Scaleway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1941,7 +1941,7 @@ rules:
 score:
   band: developing
   composite: 48.0
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -1951,7 +1951,7 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 52.0
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1959,8 +1959,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/screenshots/scaleway-2026-08-17T125218.png
 security:
@@ -1982,7 +1982,7 @@ security:
   summary_line: ISO 27001, GDPR, CSA STAR
 slug: scaleway
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - Containers
 - Database

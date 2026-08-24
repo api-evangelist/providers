@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ modified: '2026-05-19'
 name: Camunda
 nav: Providers
 network: true
-overview: 'Camunda publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Decisions API, Deployments API, and 7 more. Tagged areas include BPMN, Business Process Management, Process Automation, and Workflow.
+overview: 'Camunda publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Decisions API, Deployments API, and 7 more. Tagged areas include BPMN, Business Process Management, Process Automation, and Workflows.
 
 
   Camunda''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 11 more developer resources.'
@@ -201,7 +201,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -211,7 +211,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 40.1
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -219,8 +219,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/screenshots/camunda-2026-06-20T173920.png
 security:
@@ -245,6 +245,6 @@ tags:
 - BPMN
 - Business Process Management
 - Process Automation
-- Workflow
+- Workflows
 website: https://camunda.com/
 ---

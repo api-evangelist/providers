@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: JSON REST API for backlink/referring-domain lookups with authority scoring, indexed Common Crawl release listing, async competitor gap analysis, and cross-release change comparison. Six operations und
@@ -168,13 +168,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crawlgraph
 layout: provider
 mcp_servers:
 - description: ''
-  name: crawlgraph-mcp.yml
-  slug: crawlgraph-mcpyml
+  name: CrawlGraph MCP Server
+  slug: crawlgraph-mcp-server
 modified: '2026-08-13'
 name: CrawlGraph
 nav: Providers
 network: true
-overview: 'CrawlGraph publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v1. Tagged areas include SEO, backlink-intelligence, martech, competitive-intelligence, and web-data.
+overview: 'CrawlGraph publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v1. Tagged areas include SEO, backlink-intelligence, MarTech, Competitive Intelligence, and Web Data.
 
 
   CrawlGraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 24 more developer resources.'
@@ -190,7 +190,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.7
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
@@ -200,7 +200,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 57.2
+  previous_composite: 55.7
   provenance:
     conformance: first-party
     contracts:
@@ -210,8 +210,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/screenshots/crawlgraph-2026-07-25T210652.png
 security:
@@ -231,13 +231,12 @@ slug: crawlgraph
 tags:
 - SEO
 - backlink-intelligence
-- martech
-- competitive-intelligence
-- web-data
+- MarTech
+- Competitive Intelligence
+- Web Data
 - Common-Crawl
 - link-building
-- developer-tools
-- API
+- Developer Tools
 - MCP
 website: https://crawlgraph.com/docs/api
 ---

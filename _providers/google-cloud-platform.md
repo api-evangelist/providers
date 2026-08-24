@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -855,13 +855,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: google-cloud-platform-mcp.yml
-  slug: google-cloud-platform-mcpyml
+  name: Google Cloud Platform MCP Server
+  slug: google-cloud-platform-mcp-server
 modified: '2026-06-20'
 name: Google Cloud Platform
 nav: Providers
 network: true
-overview: 'Google Cloud Platform publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Folders API, Operations API, Organizations API, and 4 more. Tagged areas include API Management, Cloud Computing, Infrastructure, and Platform as a Service.
+overview: 'Google Cloud Platform publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Folders API, Operations API, Organizations API, and 4 more. Tagged areas include API Management, Cloud Computing, Infrastructure, and Platform-as-a-Service.
 
 
   The Google Cloud Platform catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -906,18 +906,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.2
-  delta: -9.4
+  composite: 63.6
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 73.6
     developer_ergonomics: 72.6
     discoverability: 75.9
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 72.6
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -927,9 +927,9 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/screenshots/google-cloud-platform-2026-06-20T182128.png
 security:
 - kind: authentication
@@ -953,7 +953,7 @@ tags:
 - API Management
 - Cloud Computing
 - Infrastructure
-- Platform as a Service
+- Platform-as-a-Service
 use_cases:
 - description: Migrate and modernize legacy applications to cloud-native architectures using containers and serverless.
   name: Application Modernization

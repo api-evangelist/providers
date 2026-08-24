@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Hosted Payment Pages (HPP) integration. The merchant's browser POSTs a URL-encoded request to the Gateway, which collects and processes the cardholder's payment details on a Cardstream-hosted page (li
@@ -176,7 +176,7 @@ random_paper: 12
 score:
   band: developing
   composite: 50.9
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -186,7 +186,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 46.7
+  previous_composite: 50.9
   provenance:
     conformance: first-party
   regulatory:
@@ -195,8 +195,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/screenshots/cardstream-2026-07-25T204520.png
 security:
@@ -219,8 +219,8 @@ tags:
 - Acquiring
 - Hosted Payment Pages
 - Tokenization
-- 3-D Secure
+- 3D Secure
 - Alternative Payment Methods
-- Subscriptions
+- Subscription
 website: https://cardstream.com/
 ---

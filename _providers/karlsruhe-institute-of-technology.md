@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'KITopen is KIT''s central open-access institutional repository for bibliographic data, full texts, images, research data, and AV media of KIT scientists. It is built on the KIT Library dbkit framework '
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -128,15 +128,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.8
+  previous_composite: 19.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karlsruhe-institute-of-technology/refs/heads/main/screenshots/karlsruhe-institute-of-technology-2026-06-20T183922.png
 security:

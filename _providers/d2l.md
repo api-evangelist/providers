@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The core Learning Platform API provides access to organizational units, user accounts, enrollments, roles, permissions, and configuration variables. Manage courses, departments, semesters, and the ful
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.9
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -155,15 +155,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 38.4
+  previous_composite: 33.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d2l/refs/heads/main/screenshots/d2l-2026-06-20T175420.png
 security:
@@ -180,7 +180,7 @@ tags:
 - E-Learning
 - Courses
 - Grades
-- Users
+- User
 - Enrollments
 - Quizzes
 - Discussions

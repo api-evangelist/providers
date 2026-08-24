@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The CyberConnect GraphQL Indexer API provides precise and flexible queries for social graph data. Developers can query address identities, follower and following lists, social connections between addr
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.5
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -150,10 +150,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 31.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberconnect/refs/heads/main/screenshots/cyberconnect-2026-06-20T175407.png
 security:
 - kind: domain-security

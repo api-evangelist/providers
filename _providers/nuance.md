@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'Automatic Speech Recognition as a Service — convert speech to text in real time over a gRPC streaming API (Recognizer service), with wordsets, training and ForgetMe operations. Secured with OAuth 2.0 '
@@ -118,14 +118,14 @@ description: 'Nuance Communications (NASDAQ: NUAN) is a conversational-AI and sp
 image: https://github.com/nuance-communications.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: nuance-mcp.yml
-  slug: nuance-mcpyml
+- description: No official hosted/remote MCP server was found for Nuance Mix (searched npm @modelcontextprotocol, the nuance-communications GitHub org, and MCP registries). The tool list below is a CANDIDATE mapping
+  name: Nuance MCP Server
+  slug: nuance-mcp-server
 modified: '2026-07-20'
 name: Nuance
 nav: Providers
 network: true
-overview: 'Nuance publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Speech Recognition, Conversational AI, Natural Language Understanding, and Text to Speech.
+overview: 'Nuance publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Speech Recognition, Conversational AI, Natural Language Understanding, and Text-to-Speech.
 
 
   Nuance''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 10 more developer resources.'
@@ -133,7 +133,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 24.9
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -143,7 +143,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 23.6
+  previous_composite: 24.9
   provenance:
     conformance: derived
     mcp: derived
@@ -153,8 +153,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/screenshots/nuance-2026-08-07T185712.png
 security:
@@ -172,7 +172,7 @@ tags:
 - Speech Recognition
 - Conversational AI
 - Natural Language Understanding
-- Text to Speech
+- Text-to-Speech
 - Speech Synthesis
 - Voice
 - Dialog

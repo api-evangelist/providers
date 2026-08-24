@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.8
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -182,7 +182,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 42.2
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +190,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/screenshots/baremetrics-2026-06-20T173000.png
 security:
@@ -213,6 +213,6 @@ tags:
 - Revenue
 - Stripe
 - Financial Metrics
-- SaaS
+- Software-as-a-Service
 website: https://baremetrics.com
 ---

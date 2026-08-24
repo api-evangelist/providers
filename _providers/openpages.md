@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Data-centric GRC REST API for IBM OpenPages, specified in terms of resources, their URIs, and the actions that can be performed on those URIs. Available as v1 and v2. The API is hosted per service ins
@@ -41,6 +41,10 @@ asyncapis:
   name: Openpages Events Webhooks
   slug: openpages-events-webhooks
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -133,7 +137,7 @@ created: '2026-07-17'
 description: IBM OpenPages is an AI-driven, unified governance, risk, and compliance (GRC) platform delivered as a managed service on IBM Cloud. Originally founded as OpenPages Inc. (a Matrix Partners portfolio company) and acquired by IBM in 2010, it consolidates operational risk, regulatory compliance, financial controls, policy, IT governance, third-party risk, and model/AI governance (watsonx.governance) into one system of record. OpenPages exposes a data-centric GRC REST API (v1 and v2), an ObjectManager CLI (ibmcloud openpages), IBM Cloud IAM authentication, and event notifications (CloudEvents v1.0) so teams can automate configuration, integrate risk data, and drive event-driven workflows.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openpages.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-21'
 name: OpenPages
 nav: Providers
 network: true
@@ -143,12 +147,12 @@ overview: 'OpenPages publishes 1 API on the [APIs.io](https://apis.io/) network.
   The OpenPages catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OpenPages'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 15 more developer resources.'
+  OpenPages'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 16 more developer resources.'
 random_paper: 17
 score:
   band: developing
   composite: 47.2
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -158,11 +162,11 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 47.1
+  previous_composite: 47.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/screenshots/openpages-2026-08-07T190623.png
 security:
@@ -189,7 +193,7 @@ tags:
 - Regulatory Compliance
 - Risk Management
 - Enterprise Software
-- watsonx
+- Watsonx
 - Audit
 website: https://www.ibm.com/products/openpages
 ---

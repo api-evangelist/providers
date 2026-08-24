@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -274,13 +274,13 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: blockchain.com-mcp.yml
-  slug: blockchaincom-mcpyml
+  name: Blockchain.com MCP Server
+  slug: blockchaincom-mcp-server
 modified: '2026-08-02'
 name: Blockchain.com
 nav: Providers
 network: true
-overview: 'Blockchain.com publishes 10 APIs on the [APIs.io](https://apis.io/) network, including NFT Market API, Eligibility API, Nft API, and 7 more. Tagged areas include cryptocurrency, bitcoin, blockchain, exchange, and trading.
+overview: 'Blockchain.com publishes 10 APIs on the [APIs.io](https://apis.io/) network, including NFT Market API, Eligibility API, Nft API, and 7 more. Tagged areas include Cryptocurrency, Bitcoin, Blockchain, Exchange, and Trading.
 
 
   The Blockchain.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -300,7 +300,7 @@ scopes:
 score:
   band: strong
   composite: 60.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -310,7 +310,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 59.4
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,8 +327,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/screenshots/blockchain.com-2026-08-07T162627.png
 security:
@@ -346,17 +346,17 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: blockchain.com
 tags:
-- cryptocurrency
-- bitcoin
-- blockchain
-- exchange
-- trading
-- market-data
-- payments
-- on-ramp
-- wallet
-- block-explorer
-- fintech
-- webhooks
+- Cryptocurrency
+- Bitcoin
+- Blockchain
+- Exchange
+- Trading
+- Market Data
+- Payments
+- On-Ramp
+- Wallets
+- Block Explorer
+- Fintech
+- Webhook
 website: https://www.blockchain.com/
 ---

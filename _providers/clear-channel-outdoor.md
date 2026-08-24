@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'REST API for the CCO.IO Automated Direct platform at direct.cco.io. Supports search, retrieval and management of displays, networks, markets, products, orders, bookings, campaigns, creatives, photos, '
@@ -210,7 +210,7 @@ modified: '2026-05-23'
 name: Clear Channel Outdoor
 nav: Providers
 network: true
-overview: 'Clear Channel Outdoor publishes 1 API on the [APIs.io](https://apis.io/) network: Automated Direct API. Tagged areas include Advertising, Out Of Home, OOH, Programmatic, and Digital Out Of Home.
+overview: 'Clear Channel Outdoor publishes 1 API on the [APIs.io](https://apis.io/) network: Automated Direct API. Tagged areas include Advertising, Out-of-Home, OOH, Programmatic, and Digital Out Of Home.
 
 
   The Clear Channel Outdoor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -250,26 +250,26 @@ rules:
   slug: clear-channel-outdoor-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.8
-  delta: -2.8
+  composite: 41.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 45.5
+    contract_governance: 54.5
     contract_quality: 64.8
     developer_ergonomics: 19.0
     discoverability: 64.8
-    governance: 45.5
+    governance: 54.5
     operational_transparency: 23.7
-  previous_composite: 43.6
+  previous_composite: 41.9
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/screenshots/clear-channel-outdoor-2026-06-20T174453.png
 security:
@@ -280,7 +280,7 @@ security:
 slug: clear-channel-outdoor
 tags:
 - Advertising
-- Out Of Home
+- Out-of-Home
 - OOH
 - Programmatic
 - Digital Out Of Home

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'All-in-one REST API for digital investing: onboarding, accounts (GIA/ISA/JISA/SIPP), funding, custody, trading, portfolio management, transfers, cash savings, valuations, performance and reporting. OA'
@@ -161,7 +161,7 @@ random_paper: 5
 score:
   band: developing
   composite: 47.9
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -171,7 +171,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 45.7
+  previous_composite: 47.9
   provenance:
     conformance: first-party
   regulatory:
@@ -180,8 +180,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/screenshots/wealthkernel-2026-08-17T082848.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 44
 apis:
 - description: 'Structured real-time and historical financial news from the Benzinga newsroom, with channel filters, removed-news deltas, and Why Is It Moving (WIIM) one-line explanations of price action, queried by '
@@ -455,8 +455,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/benzinga.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: benzinga-mcp.yml
-  slug: benzinga-mcpyml
+  name: Benzinga MCP Server
+  slug: benzinga-mcp-server
 modified: '2026-07-22'
 name: Benzinga
 nav: Providers
@@ -472,7 +472,7 @@ random_paper: 6
 score:
   band: strong
   composite: 55.2
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -482,7 +482,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 52.4
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -498,8 +498,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png
 security:

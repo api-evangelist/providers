@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,18 +18,18 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     dry_run_mode: na
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-19'
+  score: 36.2
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,33 +37,48 @@ agentic_access:
   operation_count: 6
   slug: yale-agentic-access
   summary_line: 6 operations
-api_count: 8
+api_count: 13
 apis:
-- description: Returns public information for course offerings (course sections) for a given termCode and subjectCode, including titles, descriptions, instructors, meeting times, prerequisites and distributional des
-  name: Courses Web Service v3
-  slug: courses
-- description: The Yale API Portal is the discovery hub for Yale's enterprise (SOA), portal and vendor/third-party APIs. Portal APIs include Buildings (name and location of Yale campus buildings), Courses, Course Su
-  name: Yale API Portal (Enterprise & Portal APIs)
-  slug: portal
-- description: Yale University Library publishes International Image Interoperability Framework (IIIF) manifests for objects in its digital collections, enabling interoperable viewing and reuse of digitized images a
-  name: Yale Digital Collections IIIF
-  slug: iiif
-- description: Search configuration metadata
-  name: Yale University Configuration API
-  slug: yale-configuration-api
-- description: Linked Art JSON-LD document retrieval
-  name: Yale University Documents API
-  slug: yale-documents-api
-- description: Faceted aggregation over search results
-  name: Yale University Facets API
-  slug: yale-facets-api
-- description: Related entity discovery
-  name: Yale University Related API
-  slug: yale-related-api
-- description: Search and discovery across LUX scopes
-  name: Yale University Search API
+- description: 'Search and discovery across LUX scopes, returning Linked Art OrderedCollectionPage documents in JSON-LD. LUX is Yale''s own platform: the frontend, middle tier, Varnish cache, MarkLogic backend and dat'
+  name: LUX Collections Discovery — Search API
   slug: yale-search-api
-artifact_total: 30
+- description: Retrieves a single entity from LUX as a Linked Art JSON-LD document by type and identifier. Institution-operated on lux.collections.yale.edu.
+  name: LUX Collections Discovery — Documents API
+  slug: yale-documents-api
+- description: Faceted aggregation over LUX search results, returning an OrderedCollectionPage of facet values and occurrence counts. Institution-operated on lux.collections.yale.edu.
+  name: LUX Collections Discovery — Facets API
+  slug: yale-facets-api
+- description: Related-entity discovery across LUX, returning an OrderedCollectionPage of documents connected to a given URI. Institution-operated on lux.collections.yale.edu.
+  name: LUX Collections Discovery — Related API
+  slug: yale-related-api
+- description: Advanced-search configuration metadata for LUX, describing searchable terms by scope, search options and stop words. Verified 200 returning 43,502 bytes of JSON on 2026-08-19.
+  name: LUX Collections Discovery — Configuration API
+  slug: yale-configuration-api
+- description: Yale University's institutional research-data repository, self-hosted on Yale's own AWS infrastructure under Yale's registrable domain, running open-source Dataverse 6.10.1 with 279 published datasets
+  name: Yale Dataverse Repository API
+  slug: dataverse
+- description: IIIF Presentation 3.0 manifests for Yale University Library's digitized collections. The service is institution-operated — the host resolves to an AWS load balancer in Yale's own account (alb-yul-dc-p
+  name: Yale University Library Digital Collections IIIF
+  slug: iiif
+- description: Yale operates a Shibboleth Identity Provider at auth.yale.edu and publishes a signed SAML 2.0 EntityDescriptor for entityID https://auth.yale.edu/idp/shibboleth, unauthenticated, declaring Organizatio
+  name: Yale University Identity Federation Metadata
+  slug: identity-federation
+- description: Yale's institution-operated developer portal documents four Portal APIs — Buildings (name and location of Yale campus buildings), Courses, Course Subjects and GatewayServiceMetrics. Yale's own page ca
+  name: Yale API Portal — Portal APIs
+  slug: portal
+- description: Returns course-offering information for a given termCode and subjectCode — titles, descriptions, instructors, meeting times, prerequisites and distributional designations — in JSON or XML. Live and ga
+  name: Yale Courses Web Service v3
+  slug: courses
+- description: Eleven services delivered by Yale's Integration Competency Center covering Yale identities (People Hub — PeopleService, GetPeopleService, LimitedPeopleService, SearchByIndividual, GetAppointmentServic
+  name: Yale Enterprise (SOA) Services
+  slug: enterprise-soa
+- description: EliScholar is Yale's digital platform for scholarly publishing, and its OAI-PMH endpoint is live — Identify returned protocol version 2.0 with repositoryName "EliScholar – A Digital Platform for Schol
+  name: EliScholar OAI-PMH (bepress Digital Commons tenancy)
+  slug: elischolar
+- description: Yale Course Search (courses.yale.edu) and the Yale University Publications bulletin (catalog.yale.edu) are the institution's public course-catalog surfaces. Both are Leepfrog CourseLeaf tenancies — co
+  name: Yale Course Search and University Publications (CourseLeaf tenancy)
+  slug: course-catalog
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -84,14 +99,6 @@ collections:
   name: LUX Yale Collections Discovery Configuration Search API
   slug: open-yale-search-api
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/yale-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/yale-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -100,6 +107,30 @@ common:
   title: ''
   type: DeveloperPortal
   url: https://developers.yale.edu/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.yale.edu/api-documentation
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.yale.edu/api-documentation/portal-apis
+- group: operate
+  title: ''
+  type: Support
+  url: https://developers.yale.edu/frequently-asked-questions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.yale.edu/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://your.yale.edu/policies-procedures
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/yalelibrary
 - group: build
   title: ''
   type: GitHub
@@ -108,10 +139,50 @@ common:
   title: ''
   type: SourceCode
   url: https://github.com/project-lux
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://dataverse.yale.edu/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://collections.library.yale.edu/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://courses.yale.edu/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://auth.yale.edu/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://research.computing.yale.edu/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://ai.yale.edu/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://poorvucenter.yale.edu/AIguidance
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/yale-university/
+- group: company
+  title: ''
+  type: Blog
+  url: https://news.yale.edu/news-rss
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/yale-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/yale-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -128,16 +199,46 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
+- group: auth
   title: ''
-  type: Blog
-  url: https://news.yale.edu/news-rss
+  type: x-authentication
+  url: authentication/yale-authentication.yml
+- group: auth
+  title: ''
+  type: x-scopes
+  url: scopes/yale-scopes.yml
+- group: design
+  title: ''
+  type: x-errors
+  url: errors/yale-errors.yml
+- group: design
+  title: ''
+  type: x-lifecycle
+  url: lifecycle/yale-lifecycle.yml
+- group: design
+  title: ''
+  type: x-conformance
+  url: conformance/yale-domain-standards.yml
 created: '2026-06-03'
-description: 'Yale University is a private Ivy League research university in New Haven, Connecticut, United States, ranked #17 in the QS World University Rankings 2025. Its public developer footprint centers on the Yale API Portal (developers.yale.edu), which exposes enterprise (SOA) and portal APIs such as the Courses Web Service and Buildings service behind an API key gated to holders of a valid Yale netid. Yale also operates LUX, a large public cross-collection discovery platform built on Linked Art / IIIF that serves JSON-LD data and a search API across more than 41 million cultural-heritage records, and publishes IIIF manifests for its digital library collections. Source code for LUX and many library systems is openly available on GitHub.'
+description: 'Yale University is a private Ivy League research university in New Haven, Connecticut, United States, ranked #16 in the QS World University Rankings. Its programmable footprint is real but sharply bifurcated, and it is one of the few institutions in this cohort that operates its own contracts rather than only buying them. On the open side Yale runs LUX (lux.collections.yale.edu), a cross-collection discovery platform serving Linked Art JSON-LD over more than 41 million cultural-heritage records, built and published openly by Yale''s own project-lux engineering organization; Yale Dataverse (dataverse.yale.edu), a self-hosted research-data repository on Yale''s own AWS infrastructure minting DOIs under Yale''s own DataCite prefix 10.60600; IIIF Presentation 3.0 manifests from Yale University Library Digital Collections; and a signed SAML 2.0 Shibboleth identity-provider metadata document registered in InCommon. All four were probed live and answer anonymously. On the closed side,
+  developers.yale.edu is a genuine institution-operated developer portal documenting eleven Enterprise (SOA) services and four Portal APIs — Buildings, Courses, Course Subjects, GatewayServiceMetrics — but Yale''s own pages describe these as internal and private: the SOA tier uses basic authentication via a provisioned service account, and a Portal API key can only be requested by someone holding a valid Yale NetID. The gateway at gw.its.yale.edu is live and answers an anonymous call with "Invalid API Key", so the surface exists and is simply not open. An earlier profile of this repository described the Courses Web Service as returning "public information"; that is corrected here. Two further surfaces carry Yale''s name but not Yale''s engineering and are recorded as tenant relationships rather than as Yale contracts: EliScholar (elischolar.library.yale.edu), whose OAI-PMH endpoint is live but whose Identify response gives an Elsevier bepress Digital Commons admin contact, and the course
+  catalog at courses.yale.edu / catalog.yale.edu, which is a Leepfrog CourseLeaf tenancy. Yale publishes no open-data portal, no llms.txt and no security.txt.'
 examples:
+- key_count: 2
+  name: Yale Dataverse Info Version Example
+  slug: yale-dataverse-info-version-example
+- key_count: 2
+  name: Yale Dataverse Metrics Datasets Example
+  slug: yale-dataverse-metrics-datasets-example
+- key_count: 2
+  name: Yale Dataverse Search Example
+  slug: yale-dataverse-search-example
 - key_count: 2
   name: Yale Getdocument Example
   slug: yale-getDocument-example
+- key_count: 15
+  name: Yale Iiif Manifest Example
+  slug: yale-iiif-manifest-example
 - key_count: 2
   name: Yale Search Example
   slug: yale-search-example
@@ -172,17 +273,17 @@ jsonld:
   property_count: 17
   slug: yale-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: Yale University
 nav: Providers
 network: true
-overview: 'Yale University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Documents API, Facets API, and 2 more. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'Yale University publishes 8 APIs on the [APIs.io](https://apis.io/) network, including LUX Collections Discovery — Search API, LUX Collections Discovery — Documents API, LUX Collections Discovery — Facets API, and 5 more. Tagged areas include University, Higher Education, Education, United States, and Ivy League.
 
 
   The Yale University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yale University''s developer surface includes GitHub presence, engineering blog, and 10 more developer resources.'
+  Yale University''s developer surface includes documentation, API reference, support, GitHub presence, engineering blog, and 25 more developer resources.'
 plans:
 - name: Yale Plans Pricing
   plan_count: 2
@@ -213,51 +314,67 @@ rules:
     info: 1
     warn: 3
   slug: yale-rules
+scopes:
+- name: Yale Scopes
+  scope_count: 0
+  slug: yale-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 33.1
-  delta: -7.4
+  band: developing
+  composite: 46.2
+  delta: -0.4
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 59.7
-    developer_ergonomics: 11.9
+    developer_ergonomics: 33.3
     discoverability: 64.8
     governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 40.5
+    operational_transparency: 23.7
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 37.5
+      total: 8
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+    score: 53.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/screenshots/yale-2026-06-20T201720.png
 security:
+- kind: authentication
+  name: Yale Authentication
+  slug: yale-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Yale Domain Security
   slug: yale-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: yale
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- United States
+- Ivy League
 - Research
+- Research Data
+- Research Repository
+- Identity Federation
 - Library
 - Cultural Heritage
 - Linked Data
-- United States
+- IIIF
+- Course Catalog
 website: https://www.yale.edu/
 ---

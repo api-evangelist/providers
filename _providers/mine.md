@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -284,8 +284,8 @@ image: https://cdn.prod.website-files.com/699ac7647b64bcef08a8aeaa/69c298d5668a7
 layout: provider
 mcp_servers:
 - description: ''
-  name: mine-mcp.yml
-  slug: mine-mcpyml
+  name: MINE MCP Server
+  slug: mine-mcp-server
 modified: '2026-07-20'
 name: MINE
 nav: Providers
@@ -305,7 +305,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -315,7 +315,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 53.6
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,8 +326,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/screenshots/mine-2026-08-07T172945.png
 security:

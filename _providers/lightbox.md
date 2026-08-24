@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Power your digital workflows using comprehensive property and location intelligence data from LightBox.
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: LightBox
 nav: Providers
 network: true
-overview: LightBox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Location Intelligence, Property Data, and Real Estate.
+overview: LightBox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Location Intelligence, Property Data, and Real-Estate.
 plans:
 - name: Lightbox Plans Pricing
   plan_count: 3
@@ -81,8 +81,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/screenshots/lightbox-2026-06-20T184513.png
 security:
@@ -94,5 +94,5 @@ slug: lightbox
 tags:
 - Location Intelligence
 - Property Data
-- Real Estate
+- Real-Estate
 ---

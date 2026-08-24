@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Listed issue master, daily and morning-session OHLCV, minute bars and tick trades (add-on), earnings calendar, and weekly trading by investor type for Tokyo Stock Exchange equities, under /v2/equities
@@ -189,8 +189,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jpx.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: jpx-mcp.yml
-  slug: jpx-mcpyml
+  name: JPX (Japan Exchange Group) MCP Server
+  slug: jpx-japan-exchange-group-mcp-server
 modified: '2026-07-22'
 name: JPX (Japan Exchange Group)
 nav: Providers
@@ -211,7 +211,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.4
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 51.0
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -232,8 +232,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/screenshots/jpx-2026-07-22T202441.png
 security:

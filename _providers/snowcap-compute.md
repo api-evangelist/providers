@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Snowcap Compute
 nav: Providers
 network: true
-overview: Snowcap Compute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compute, Superconducting, Semiconductor, and Hardware.
+overview: Snowcap Compute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compute, Superconducting, Semiconductors, and Hardware.
 random_paper: 19
 score:
   band: minimal
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -85,10 +85,10 @@ tags:
 - Company
 - Compute
 - Superconducting
-- Semiconductor
+- Semiconductors
 - Hardware
 - Artificial Intelligence
-- Data Center
+- Data-Center
 - Deep Tech
 website: https://www.snowcapcompute.com/
 ---

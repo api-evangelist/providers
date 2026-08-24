@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 58
 apis:
 - description: The Approvals API from ZenHR Inc — 2 operation(s) for approvals.
@@ -519,8 +519,8 @@ image: https://content.pstmn.io/b1a76fa7-5d05-4725-b15e-0c4e97606ed9/WmVuSFIgTG9
 layout: provider
 mcp_servers:
 - description: ''
-  name: zenhr-inc-mcp.yml
-  slug: zenhr-inc-mcpyml
+  name: ZenHR Inc MCP Server
+  slug: zenhr-inc-mcp-server
 modified: '2026-07-21'
 name: ZenHR Inc
 nav: Providers
@@ -537,18 +537,18 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.3
-  delta: -0.6
+  composite: 50.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
     contract_quality: 54.7
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 49.9
+  previous_composite: 50.5
   provenance:
     conformance: first-party
     contracts:
@@ -558,8 +558,8 @@ score:
       total: 58
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/screenshots/zenhr-inc-2026-08-17T083041.png
 security:
@@ -590,6 +590,6 @@ tags:
 - MENA
 - Attendance
 - Time Off
-- SaaS
+- Software-as-a-Service
 website: https://zenhr.com
 ---

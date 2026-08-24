@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The canonical RISC-V Instruction Set Architecture specifications including the Unprivileged ISA (RV32I/RV64I base integer instructions) and Privileged Architecture specification. Freely available as r
@@ -160,7 +160,7 @@ rules:
 score:
   band: emerging
   composite: 21.7
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -170,10 +170,10 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 27.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 21.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/risc-v/refs/heads/main/screenshots/risc-v-2026-06-20T193125.png
 security:
 - kind: domain-security
@@ -188,7 +188,7 @@ tags:
 - Instruction Set Architecture
 - Linux Foundation
 - Open Hardware
-- Open Source
+- Open-Source
 - Processor
 - RISC-V
 - Simulator

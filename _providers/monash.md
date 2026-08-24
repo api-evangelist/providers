@@ -1,36 +1,36 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · Institutional affiliation or federation membership required
+  onboarding: unknown
   pricing: free
   public: false
   source:
+  - identity-federation
   - plans
-  - authentication
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-19'
+  score: 5.1
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -38,42 +38,33 @@ agentic_access:
   operation_count: 157
   slug: monash-agentic-access
   summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 11
+api_count: 8
 apis:
-- description: Monash eResearch operates the Cloud Resource Allocation and Management System (CRAMS), which exposes an API portal used to manage research cloud resource allocations. Access is institutional/gated; no
+- description: Monash's federated login, published as a signed SAML 2.0 EntityDescriptor at https://idp.monash.edu.au/idp/shibboleth (HTTP 200, application/xml). Declares HTTP-POST and HTTP-Redirect SSO bindings, se
+  name: Monash University Identity Provider (AAF Rapid IdP tenant)
+  slug: idp
+- description: A second Monash-operated SAML service provider, entityID https://hpc.erc.monash.edu.au/shibboleth, registered in the Australian Access Federation under Organization "Monash University". The entityID d
+  name: Monash eResearch Center HPC ID (SAML Service Provider)
+  slug: eresearch-hpc-sp
+- description: 'Monash eResearch operates the Cloud Resource Allocation and Management System (CRAMS), an institutional portal for managing research cloud resource allocations. The host responds HTTP 200 with a real '
   name: CRAMS API (Cloud Resource Allocation and Management System)
   slug: crams
-- description: The altmetric API from Monash University — 1 operation(s) for altmetric.
-  name: Monash University altmetric API
-  slug: monash-altmetric-api
-- description: The articles API from Monash University — 34 operation(s) for articles.
-  name: Monash University articles API
-  slug: monash-articles-api
-- description: The authors API from Monash University — 2 operation(s) for authors.
-  name: Monash University authors API
-  slug: monash-authors-api
-- description: The collections API from Monash University — 21 operation(s) for collections.
-  name: Monash University collections API
-  slug: monash-collections-api
-- description: The institutions API from Monash University — 20 operation(s) for institutions.
-  name: Monash University institutions API
-  slug: monash-institutions-api
-- description: The oauth API from Monash University — 1 operation(s) for oauth.
-  name: Monash University oauth API
-  slug: monash-oauth-api
-- description: The other API from Monash University — 7 operation(s) for other.
-  name: Monash University other API
-  slug: monash-other-api
-- description: The profiles API from Monash University — 2 operation(s) for profiles.
-  name: Monash University profiles API
-  slug: monash-profiles-api
-- description: The projects API from Monash University — 17 operation(s) for projects.
-  name: Monash University projects API
-  slug: monash-projects-api
-- description: The symplectic API from Monash University — 5 operation(s) for symplectic.
-  name: Monash University symplectic API
-  slug: monash-symplectic-api
-artifact_total: 40
+- description: Public documentation for the compute, storage, application and training services Monash eResearch runs, including the M3 and MonARCH HPC clusters. massive.org.au, www.massive.org.au and docs.massive.o
+  name: Monash eResearch Documentation (M3 / MASSIVE)
+  slug: eresearch-docs
+- description: Monash's institutional research data repository, "Bridges", operating on the Figshare platform. bridges.monash.edu and monash.figshare.com both resolve as CNAMEs to figshare.com. The data, the collect
+  name: Bridges — Monash Research Repository (Figshare tenant)
+  slug: bridges
+- description: Monash's research outputs, profiles and publication metadata portal, running on Elsevier Pure. research.monash.edu resolves as a CNAME chain to monash.elsevierpure.com and then to apac.prod.elsevierpu
+  name: Monash Research Portal (Elsevier Pure tenant)
+  slug: pure
+- description: The official Monash course, unit and area-of-study catalog. The site is a Next.js application on Monash's own hostname, but its runtime configuration (window.__SITE_ENV_CONFIG__) points every data cal
+  name: Monash University Handbook (CourseLoop tenant)
+  slug: handbook
+- description: 'Monash Library''s discovery layer. search.lib.monash.edu redirects to monash.primo.exlibrisgroup.com/discovery/search?vid=61MONASH_AU:MONUI — a Monash-specific view code on Ex Libris''s Primo platform. '
+  name: Monash Library Discovery (Ex Libris Primo tenant)
+  slug: library-discovery
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -109,30 +100,38 @@ collections:
   name: Figshare altmetric symplectic API
   slug: open-monash-symplectic-api
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/monash-agentic-access.yml
-- group: auth
-  title: ''
-  type: TrustCenter
-  url: security/monash-trust-center.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/monash-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/monash-authentication.yml
-- group: auth
-  title: ''
-  type: OAuthScopes
-  url: scopes/monash-scopes.yml
 - group: company
   title: ''
   type: Website
   url: https://www.monash.edu/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: identity-federation/monash-identity-federation.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/monash-conformance.yml
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://docs.erc.monash.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://bridges.monash.edu/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://search.lib.monash.edu/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://handbook.monash.edu/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.monash.edu/ai/tools-training-and-resources/ai-policies-and-guidelines
 - group: other
   title: ''
   type: Research
@@ -149,6 +148,14 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/monash-university/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/monash-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/monash-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -165,58 +172,23 @@ common:
   title: ''
   type: Review
   url: review.yml
-coverage:
-  detail: 1 institution-operated surface(s) remain, none of which publishes a machine-readable contract.
-  reason: no_published_contract
-  state: none
 created: '2026-06-03'
-description: 'Monash University is a public research university based in Melbourne, Australia, and a member of the Group of Eight. It ranked #42 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is modest and largely indirect: research data is published through monash.figshare on the figshare platform (which exposes a versioned REST API and an OAI-PMH endpoint), and Monash eResearch operates a Cloud Resource Allocation and Management System (CRAMS) API portal. Monash maintains a GitHub organization (currently with no public repositories) alongside team and student-innovation orgs. No central, openly documented institutional developer portal for course, catalog, timetable, or SIS APIs was found to be publicly available.'
-examples:
-- key_count: 4
-  name: Monash Article Detail Example
-  slug: monash-article-detail-example
-- key_count: 4
-  name: Monash Articles List Example
-  slug: monash-articles-list-example
+description: 'Monash University is a public research university in Melbourne, Australia, and a member of the Group of Eight. Its genuinely institution-operated programmable footprint is small but real, and it is not where a company''s would be. Its three institution-operated surfaces all belong to Monash eResearch and all resolve into Monash''s own APNIC address space: the Cloud Resource Allocation and Management System (CRAMS) portal, a public documentation site for the M3/MASSIVE HPC estate, and a Shibboleth service provider federated through the Australian Access Federation. None of the three publishes an open specification, so Monash''s only evidenced domain-standard conformance (SAML, Shibboleth) rests on that one federation entry. The Monash-branded identity provider at idp.monash.edu.au looks like the strongest contract here and is not Monash''s: it CNAMEs to idp-cname.aaf.edu.au on Amazon address space, making it a tenant of AAF''s fully managed Rapid IdP. Everything else that looks
+  like a Monash API is a vendor platform running under a Monash hostname: the Bridges research repository is Figshare (bridges.monash.edu is a CNAME to figshare.com), research.monash.edu is Elsevier Pure, the Handbook course catalog runs on CourseLoop, and library discovery is Ex Libris Primo. Those are recorded here as tenant relationships, not as Monash contracts. No central institutional developer portal, no open data portal, and no institution-operated OAI-PMH endpoint were found.'
 finops:
 - name: Monash Finops
   service_category: Education
   slug: monash-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monash.png
-json_schemas:
-- name: Figshare Article
-  property_count: 20
-  slug: monash-article
-- name: Figshare Author
-  property_count: 7
-  slug: monash-author
-- name: Figshare Collection
-  property_count: 6
-  slug: monash-collection
-json_structures:
-- name: Monash Article Structure
-  property_count: 15
-  slug: monash-article-structure
-- name: Monash Collection Structure
-  property_count: 6
-  slug: monash-collection-structure
-jsonld:
-- class_count: 22
-  name: Monash Context
-  property_count: 3
-  slug: monash-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: Monash University
 nav: Providers
 network: true
-overview: 'Monash University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'Monash University publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Australia.
 
 
-  The Monash University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Monash University''s developer surface includes authentication, GitHub presence, and 12 more developer resources.'
+  Monash University''s developer surface includes GitHub presence and 17 more developer resources.'
 plans:
 - name: Monash Plans Pricing
   plan_count: 2
@@ -226,68 +198,34 @@ rate_limits:
 - limit_count: 1
   name: Monash Rate Limits
   slug: monash-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Monash University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: monash-jsonschema-spectral-rules
-- effective_rule_count: 7
-  extends: []
-  name: Monash University API Rules
-  rule_count: 7
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 2
-    warn: 4
-  slug: monash-rules
-scopes:
-- name: Monash Scopes
-  scope_count: 1
-  slug: monash-scopes
-  summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 44.1
-  delta: -3.3
+  band: emerging
+  composite: 19.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
-    contract_quality: 70.2
-    developer_ergonomics: 11.9
+    contract_governance: 0.0
+    contract_quality: 4.0
+    developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 9.8
+    governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 47.4
+  previous_composite: 19.5
   provenance:
     agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 59.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 29.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/screenshots/monash-2026-06-20T185718.png
 security:
-- kind: authentication
-  name: Monash Authentication
-  slug: monash-authentication
-  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Monash Domain Security
   slug: monash-domain-security
@@ -302,7 +240,11 @@ tags:
 - Higher Education
 - University
 - Research
-- Open Data
 - Australia
+- Group of Eight
+- Identity Federation
+- Research Computing
+- Research Repository
+- Course Catalog
 website: https://www.monash.edu/
 ---

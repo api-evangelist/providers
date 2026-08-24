@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Mambu's REST API v2 for core banking — clients, loan accounts, deposit accounts, transactions, and related resources. Tenant-scoped host, HTTPS Basic or apikey auth, Idempotency-Key supported for writ
@@ -131,8 +131,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mambu.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mambu-mcp.yml
-  slug: mambu-mcpyml
+  name: Mambu MCP Server
+  slug: mambu-mcp-server
 modified: '2026-07-20'
 name: Mambu
 nav: Providers
@@ -148,7 +148,7 @@ random_paper: 5
 score:
   band: thin
   composite: 38.0
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -158,7 +158,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 40.5
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -168,8 +168,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mambu/refs/heads/main/screenshots/mambu-2026-07-25T230014.png
 security:
@@ -190,7 +190,7 @@ tags:
 - Lending
 - Deposits
 - Payments
-- SaaS
+- Software-as-a-Service
 - Embedded Finance
 - Banking as a Service
 website: https://www.mambu.com/

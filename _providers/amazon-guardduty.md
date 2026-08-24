@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -3748,7 +3748,7 @@ modified: '2026-05-19'
 name: Amazon GuardDuty
 nav: Providers
 network: true
-overview: 'Amazon GuardDuty publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Detector API, Invitation API, and 1 more. Tagged areas include Anomaly Detection, Compliance, Machine Learning, Monitoring, and Security.
+overview: 'Amazon GuardDuty publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Detector API, Invitation API, and 1 more. Tagged areas include Anomaly Detection, Compliance, Machine-Learning, Monitoring, and Security.
 
 
   The Amazon GuardDuty catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -3788,18 +3788,18 @@ rules:
   slug: amazon-guardduty-spectral-rules
 score:
   band: developing
-  composite: 53.1
-  delta: -6.3
+  composite: 53.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 13.6
+    contract_governance: 17.4
     contract_quality: 76.2
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 13.6
+    governance: 17.4
     operational_transparency: 26.3
-  previous_composite: 59.4
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     contracts:
@@ -3807,9 +3807,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/screenshots/amazon-guardduty-2026-06-20T171659.png
 security:
 - kind: authentication
@@ -3832,7 +3832,7 @@ slug: amazon-guardduty
 tags:
 - Anomaly Detection
 - Compliance
-- Machine Learning
+- Machine-Learning
 - Monitoring
 - Security
 - Threat Detection

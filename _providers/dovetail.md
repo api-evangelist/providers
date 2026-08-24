@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Dovetail Public API for building custom integrations against a Dovetail workspace: manage projects, folders, docs, insights, data (notes), highlights, tags, themes, channels, topics, contacts, users, '
@@ -147,8 +147,8 @@ image: https://dovetail.com/media/Social_Meta1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: dovetail-mcp.yml
-  slug: dovetail-mcpyml
+  name: Dovetail MCP Server
+  slug: dovetail-mcp-server
 modified: '2026-07-18'
 name: Dovetail
 nav: Providers
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.5
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -175,12 +175,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.1
+  previous_composite: 30.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/screenshots/dovetail-2026-07-25T212327.png
 security:
 - kind: authentication
@@ -201,7 +201,7 @@ tags:
 - Customer Feedback
 - Research Repository
 - Analytics
-- AI
+- Artificial Intelligence
 - Product Management
 website: https://dovetail.com/
 ---

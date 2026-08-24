@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Hosted MCP server (https://mcp.rindler.ai) that exposes mapped websites as deterministic, typed agent tools over HTTP with OAuth 2.0 PKCE. Core tools: start_session, dispatch_action, extract_content, '
@@ -106,14 +106,14 @@ description: Rindler is a Y Combinator (Summer 2026) company that operates a hos
 image: https://rindler.ai/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rindler-mcp.yml
-  slug: rindler-mcpyml
+- description: Hosted MCP server that turns any pre-onboarded website, including sites without an API, into a deterministic, typed set of agent tools. Agents open a session on a mapped site, dispatch a semantic acti
+  name: Rindler MCP Server
+  slug: rindler-mcp-server
 modified: '2026-07-21'
 name: Rindler
 nav: Providers
 network: true
-overview: 'Rindler publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Model Context Protocol, AI Agents, and Web Automation.
+overview: 'Rindler publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Web Automation, and Browser Automation.
 
 
   Rindler''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, and 10 more developer resources.'
@@ -126,7 +126,7 @@ scopes:
 score:
   band: thin
   composite: 27.5
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -136,12 +136,12 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 28.4
+  previous_composite: 27.5
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -156,7 +156,6 @@ slug: rindler
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Web Automation
 - Browser Automation

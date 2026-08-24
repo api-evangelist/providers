@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -258,8 +258,8 @@ image: https://cabify.com/static/head/cover.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cabify-mcp.yml
-  slug: cabify-mcpyml
+  name: Cabify MCP Server
+  slug: cabify-mcp-server
 modified: '2026-07-18'
 name: Cabify
 nav: Providers
@@ -273,19 +273,19 @@ overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
   Cabify''s developer surface includes documentation, getting-started guide, API reference, authentication, sandbox, changelog, support, and 24 more developer resources.'
 random_paper: 13
 score:
-  band: developing
-  composite: 53.4
-  delta: 0.2
+  band: strong
+  composite: 54.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
     contract_quality: 67.2
     developer_ergonomics: 63.7
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 53.2
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +296,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/screenshots/cabify-2026-07-25T204159.png
 security:
@@ -322,7 +322,7 @@ tags:
 - Logistics
 - Delivery
 - Last Mile Delivery
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 website: https://cabify.com
 ---

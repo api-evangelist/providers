@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ modified: '2026-05-19'
 name: TikTok
 nav: Providers
 network: true
-overview: 'TikTok publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Ads API, Audiences API, and 7 more. Tagged areas include Advertising, Commerce, Content, E-Commerce, and Social Media.
+overview: 'TikTok publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Ads API, Audiences API, and 7 more. Tagged areas include Advertising, Commerce, Content, E-Commerce, and Social-Media.
 
 
   The TikTok catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -312,18 +312,18 @@ rules:
   slug: tiktok-rules
 score:
   band: developing
-  composite: 46.3
-  delta: -12.8
+  composite: 46.7
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 67.5
     developer_ergonomics: 59.5
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 59.1
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -331,9 +331,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/screenshots/tiktok-2026-06-20T195349.png
 security:
 - kind: authentication
@@ -350,7 +350,7 @@ tags:
 - Commerce
 - Content
 - E-Commerce
-- Social Media
+- Social-Media
 - Video
 website: https://www.tiktok.com/
 ---

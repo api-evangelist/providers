@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HappyCo's gRPC API for property inspections, reports, templates, accounts, users, partner account provisioning, assets, folders, and streaming events.
@@ -163,13 +163,13 @@ image: https://cdn.prod.website-files.com/6414ce4dcbfbc386d105ceb9/69a0a5421dfd0
 layout: provider
 mcp_servers:
 - description: ''
-  name: happyco-mcp.yml
-  slug: happyco-mcpyml
+  name: HappyCo MCP Server
+  slug: happyco-mcp-server
 modified: '2026-07-19'
 name: HappyCo
 nav: Providers
 network: true
-overview: 'HappyCo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real Estate, Property Management, and Inspections.
+overview: 'HappyCo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real-Estate, Property Management, and Inspections.
 
 
   The HappyCo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,7 +180,7 @@ random_paper: 0
 score:
   band: developing
   composite: 45.8
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -190,13 +190,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 45.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/screenshots/happyco-2026-07-25T220650.png
 security:
@@ -216,7 +216,7 @@ slug: happyco
 tags:
 - Company
 - PropTech
-- Real Estate
+- Real-Estate
 - Property Management
 - Inspections
 - Maintenance

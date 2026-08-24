@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,7 +97,7 @@ description: Mito (Saga, Inc. / Sagacollab) is a suite of Jupyter and JupyterLab
 image: https://avatars.githubusercontent.com/u/55325926?v=4
 layout: provider
 mcp_servers:
-- description: ''
+- description: Official Mito AI MCP server. Enables LLMs to perform better data analysis and visualization, including best-in-class Excel-to-Python workflows, by connecting the Mito Agent into an MCP-capable client.
   name: Mito AI MCP server
   slug: mito-ai-mcp-server
 modified: '2026-07-20'
@@ -112,7 +112,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 21.9
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -122,11 +122,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 23.2
+  previous_composite: 21.9
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mito-ai/refs/heads/main/screenshots/mito-ai-2026-08-07T183814.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-20'
 name: Concord Systems
 nav: Providers
 network: true
-overview: 'Concord Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stream Processing, Real Time, Data Processing, and Big Data.
+overview: 'Concord Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stream Processing, Real-Time, Data Processing, and Big Data.
 
 
   Concord Systems'' developer surface includes CLI and 5 more developer resources.'
@@ -73,7 +73,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 9.3
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -89,21 +89,21 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 9.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/concord-systems/refs/heads/main/screenshots/concord-systems-2026-07-25T210233.png
 slug: concord-systems
 tags:
 - Company
 - Stream Processing
-- Real Time
+- Real-Time
 - Data Processing
 - Big Data
 - Distributed Systems
 - Apache Mesos
 - Kafka
-- Open Source
+- Open-Source
 - Discontinued
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The bitdrift Capture public API — schema-first protobuf service definitions exposed over gRPC, Connect, and gRPC-over-JSON at api-public.bitdrift.io. Services under the bitdrift.public.unary.* package
@@ -159,8 +159,8 @@ image: https://bitdrift.io/v/7280840156499158247/images/hero-block-poster-previe
 layout: provider
 mcp_servers:
 - description: ''
-  name: bitdrift-mcp.yml
-  slug: bitdrift-mcpyml
+  name: bitdrift MCP Server
+  slug: bitdrift-mcp-server
 modified: '2026-07-18'
 name: bitdrift
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 16
 score:
   band: developing
   composite: 50.4
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -186,13 +186,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 52.3
+  previous_composite: 50.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/screenshots/bitdrift-2026-07-25T203143.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ modified: '2026-08-06'
 name: Albo
 nav: Providers
 network: true
-overview: 'Albo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial Services, Fintech, and Neobank.
+overview: 'Albo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial-Services, Fintech, and Neobank.
 
 
   Albo''s developer surface includes support, pricing, signup flow, YouTube channel, and 7 more developer resources.'
@@ -99,7 +99,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 12.1
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -109,15 +109,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 12.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albo/refs/heads/main/screenshots/albo-2026-08-07T161145.png
 security:
@@ -129,7 +129,7 @@ slug: albo
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Fintech
 - Neobank
 - Digital Banking

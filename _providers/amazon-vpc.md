@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -359,18 +359,18 @@ rules:
   slug: amazon-vpc-spectral-rules
 score:
   band: strong
-  composite: 55.0
-  delta: -7.2
+  composite: 55.5
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.0
     developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 62.2
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -378,9 +378,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/screenshots/amazon-vpc-2026-06-20T171843.png
 security:
 - kind: authentication

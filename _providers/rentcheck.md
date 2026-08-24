@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 31
 apis:
 - description: The Account Settings API from RentCheck — 9 operation(s) for account settings.
@@ -338,13 +338,13 @@ image: https://cdn.prod.website-files.com/64c252917dda086383e12e96/6945920e3577a
 layout: provider
 mcp_servers:
 - description: ''
-  name: rentcheck-mcp.yml
-  slug: rentcheck-mcpyml
+  name: RentCheck MCP Server
+  slug: rentcheck-mcp-server
 modified: '2026-07-20'
 name: RentCheck
 nav: Providers
 network: true
-overview: 'RentCheck publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Automations API, Buildings API, and 28 more. Tagged areas include Company, Property Management, Property Inspection, Real Estate, and PropTech.
+overview: 'RentCheck publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Automations API, Buildings API, and 28 more. Tagged areas include Company, Property Management, Property Inspection, Real-Estate, and PropTech.
 
 
   RentCheck''s developer surface includes authentication, changelog, documentation, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
@@ -352,7 +352,7 @@ random_paper: 6
 score:
   band: developing
   composite: 44.7
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -362,7 +362,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 47.7
+  previous_composite: 44.7
   provenance:
     conformance: derived
     contracts:
@@ -372,8 +372,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/screenshots/rentcheck-2026-08-17T081520.png
 security:
@@ -390,10 +390,10 @@ tags:
 - Company
 - Property Management
 - Property Inspection
-- Real Estate
+- Real-Estate
 - PropTech
 - Inspections
 - Maintenance
-- Rental
+- Rentals
 website: https://getrentcheck.com/
 ---

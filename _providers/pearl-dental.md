@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Partner/OEM-gated cloud AI surface behind Second Opinion. When an imaging partner uploads a bitewing, periapical, panoramic, or CBCT radiograph, Pearl's cloud computer-vision service analyzes it and r
@@ -79,7 +79,7 @@ modified: '2026-07-05'
 name: Pearl
 nav: Providers
 network: true
-overview: 'Pearl publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Dental, Computer Vision, Radiology, and Medical Imaging.
+overview: 'Pearl publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Dental, Computer-Vision, Radiology, and Medical Imaging.
 
 
   Pearl''s developer surface includes documentation, developer portal, engineering blog, and 4 more developer resources.'
@@ -91,7 +91,7 @@ random_paper: 12
 score:
   band: minimal
   composite: 9.1
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -101,15 +101,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.0
+  previous_composite: 9.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pearl-dental/refs/heads/main/screenshots/pearl-dental-2026-08-07T191728.png
 security:
@@ -119,9 +119,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: pearl-dental
 tags:
-- AI
+- Artificial Intelligence
 - Dental
-- Computer Vision
+- Computer-Vision
 - Radiology
 - Medical Imaging
 - Pathology Detection

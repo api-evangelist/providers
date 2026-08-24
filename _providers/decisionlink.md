@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The largest of the Xfactor.io platform services — 88 paths and 109 operations covering value propositions, companies, accounts, solutions and products, benefits and value drivers, workflows, discovery
@@ -184,7 +184,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.7
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 39.9
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     contracts:
@@ -204,9 +204,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/screenshots/decisionlink-2026-07-25T211527.png
 security:
 - kind: authentication
@@ -228,7 +228,7 @@ tags:
 - Revenue Operations
 - Customer Value Management
 - Artificial Intelligence
-- Go To Market
+- Go-To-Market
 - Sales
 - Analytics
 - Value Selling

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -206,13 +206,13 @@ image: https://backend.73strings.com/wp-content/uploads/73-Intelligence_image-1.
 layout: provider
 mcp_servers:
 - description: ''
-  name: 73-strings-mcp.yml
-  slug: 73-strings-mcpyml
+  name: 73 Strings MCP Server
+  slug: 73-strings-mcp-server
 modified: '2026-08-05'
 name: 73 Strings
 nav: Providers
 network: true
-overview: '73 Strings publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Asset Info API, Captable API, Documents API, and 3 more. Tagged areas include private-markets, valuation, portfolio-monitoring, private-equity, and private-credit.
+overview: '73 Strings publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Asset Info API, Captable API, Documents API, and 3 more. Tagged areas include Private Markets, Valuation, Portfolio Monitoring, Private Equity, and Private Credit.
 
 
   73 Strings'' developer surface includes authentication, documentation, API reference, signup flow, support, engineering blog, and 26 more developer resources.'
@@ -228,7 +228,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.8
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -238,7 +238,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 53.5
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +249,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:
@@ -264,17 +264,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: 73-strings
 tags:
-- private-markets
-- valuation
-- portfolio-monitoring
-- private-equity
-- private-credit
-- venture-capital
-- alternative-assets
-- financial-data
-- data-extraction
-- fintech
-- asset-management
-- azure-api-management
+- Private Markets
+- Valuation
+- Portfolio Monitoring
+- Private Equity
+- Private Credit
+- Venture Capital
+- Alternative Assets
+- Financial Data
+- Data Extraction
+- Fintech
+- Asset Management
+- Azure API Management
 website: https://www.73strings.com/
 ---

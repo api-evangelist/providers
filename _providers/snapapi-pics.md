@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: AI-powered web analysis with your own LLM key (BYOK)
@@ -167,7 +167,7 @@ random_paper: 6
 score:
   band: thin
   composite: 34.8
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -177,15 +177,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.3
+  previous_composite: 34.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: snapapi-pics
 tags:
@@ -199,7 +199,7 @@ tags:
 - Headless Chromium
 - Anti-Bot
 - Proxies
-- AI
+- Artificial Intelligence
 - Web Capture
 - REST
 - Developer Tools

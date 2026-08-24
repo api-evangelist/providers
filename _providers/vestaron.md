@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -235,8 +235,8 @@ image: https://vestaron.com/wp-content/uploads/Logo_sep_23.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: vestaron-mcp.yml
-  slug: vestaron-mcpyml
+  name: Vestaron MCP Server
+  slug: vestaron-mcp-server
 modified: '2026-08-05'
 name: Vestaron
 nav: Providers
@@ -254,7 +254,7 @@ scopes:
 score:
   band: thin
   composite: 29.1
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -264,7 +264,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 27.9
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -281,8 +281,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

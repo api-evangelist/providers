@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Activity API from Gray Swan — 1 operation(s) for activity.
@@ -174,13 +174,13 @@ image: https://cdn.prod.website-files.com/6614467b00e631b0f073e2b7/66886e33ca0b8
 layout: provider
 mcp_servers:
 - description: ''
-  name: gray-swan-mcp.yml
-  slug: gray-swan-mcpyml
+  name: Gray Swan MCP Server
+  slug: gray-swan-mcp-server
 modified: '2026-07-19'
 name: Gray Swan
 nav: Providers
 network: true
-overview: 'Gray Swan publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activity API, Cygnal API, and Policies API. Tagged areas include Company, Ai, AI Security, LLM Security, and Guardrails.
+overview: 'Gray Swan publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activity API, Cygnal API, and Policies API. Tagged areas include Company, Artificial Intelligence, AI Security, LLM Security, and Guardrails.
 
 
   Gray Swan''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, authentication, and 22 more developer resources.'
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.0
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -202,7 +202,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 46.8
+  previous_composite: 45.0
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gray-swan/refs/heads/main/screenshots/gray-swan-2026-07-25T220255.png
 security:
@@ -236,7 +236,7 @@ security:
 slug: gray-swan
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Security
 - LLM Security
 - Guardrails

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for retrieving, aggregating, and delivering structured patient medical records. Covers patient management, record-retrieval requests, previous-provider retrievals, record uploads, granular cl
@@ -159,8 +159,8 @@ image: https://cdn.prod.website-files.com/6827c1994862c627993a82d8/688c883a300cc
 layout: provider
 mcp_servers:
 - description: ''
-  name: predoc-mcp.yml
-  slug: predoc-mcpyml
+  name: Predoc MCP Server
+  slug: predoc-mcp-server
 modified: '2026-07-20'
 name: Predoc
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 7
 score:
   band: developing
   composite: 49.8
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -186,7 +186,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 48.7
+  previous_composite: 49.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -197,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/screenshots/predoc-2026-08-17T081335.png
 security:
@@ -222,10 +222,10 @@ tags:
 - Health Information Exchange
 - FHIR
 - Clinical Data
-- AI
+- Artificial Intelligence
 - Interoperability
 - EHR Integration
-- Webhooks
+- Webhook
 - Clinical Research
 website: https://www.predoc.ai
 ---

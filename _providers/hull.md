@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Flat REST API for Hull's Customer Data Platform, addressing objects by ID under the /api/v1 prefix on a per-organization hullapp.io subdomain. Covers Users, Accounts, Events, Segments, organization/co
@@ -181,8 +181,8 @@ image: https://www.hull.io/assets/images/logo/logo_dark@2x.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: hull-mcp.yml
-  slug: hull-mcpyml
+  name: Hull MCP Server
+  slug: hull-mcp-server
 modified: '2026-08-13'
 name: Hull
 nav: Providers
@@ -206,7 +206,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.0
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -216,13 +216,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 72.4
-  previous_composite: 59.0
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hull/refs/heads/main/screenshots/hull-2026-07-25T221636.png
 security:
 - kind: authentication
@@ -250,7 +250,7 @@ tags:
 - Data Integration
 - Customer Data
 - Marketing
-- Real-time
+- Real-Time
 - iPaaS
 - Analytics
 website: https://www.hull.io

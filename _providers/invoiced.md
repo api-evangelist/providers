@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ modified: '2026-06-21'
 name: Invoiced
 nav: Providers
 network: true
-overview: 'Invoiced publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Credit Notes API, Customers API, Estimates API, and 6 more. Tagged areas include Accounts Receivable, Billing, Invoicing, Payments, and Subscriptions.
+overview: 'Invoiced publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Credit Notes API, Customers API, Estimates API, and 6 more. Tagged areas include Accounts Receivable, Billing, Invoicing, Payments, and Subscription.
 
 
   Invoiced''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
@@ -175,7 +175,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -185,7 +185,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 32.0
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/screenshots/invoiced-2026-07-25T222800.png
 security:
@@ -218,6 +218,6 @@ tags:
 - Billing
 - Invoicing
 - Payments
-- Subscriptions
+- Subscription
 website: https://www.invoiced.com
 ---

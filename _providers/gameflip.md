@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Account and wallet service.
@@ -156,8 +156,8 @@ image: https://gameflip.com/img/app/gf_logo_280x150.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: gameflip-mcp.yml
-  slug: gameflip-mcpyml
+  name: Gameflip MCP Server
+  slug: gameflip-mcp-server
 modified: '2026-07-19'
 name: Gameflip
 nav: Providers
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.7
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 43.0
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -200,8 +200,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png
 security:
@@ -221,7 +221,7 @@ tags:
 - Digital Goods
 - E-Commerce
 - Payments
-- Wallet
+- Wallets
 - Listings
 - Steam
 - Gift Cards

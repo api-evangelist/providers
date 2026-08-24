@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 42
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
@@ -578,13 +578,13 @@ image: https://laravel.com/images/og/laravel-home.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: laravel-mcp.yml
-  slug: laravel-mcpyml
+  name: Laravel MCP Server
+  slug: laravel-mcp-server
 modified: '2026-07-19'
 name: Laravel
 nav: Providers
 network: true
-overview: 'Laravel publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Background Processes API, Backups API, and 37 more. Tagged areas include Company, Cloud Saas, PHP, Developer Tools, and Platform as a Service.
+overview: 'Laravel publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Background Processes API, Backups API, and 37 more. Tagged areas include Company, Cloud Saas, PHP, Developer Tools, and Platform-as-a-Service.
 
 
   The Laravel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -600,7 +600,7 @@ scopes:
 score:
   band: strong
   composite: 62.9
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -610,7 +610,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 64.2
+  previous_composite: 62.9
   provenance:
     conformance: derived
     contracts:
@@ -620,8 +620,8 @@ score:
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/screenshots/laravel-2026-07-25T224538.png
 security:
@@ -647,7 +647,7 @@ tags:
 - Cloud Saas
 - PHP
 - Developer Tools
-- Platform as a Service
+- Platform-as-a-Service
 - Deployment
 - Server Management
 - Application Hosting

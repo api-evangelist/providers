@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -221,8 +221,8 @@ image: https://framerusercontent.com/assets/GUqkPx2LWkYnIeiiO2bjRIzJfo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: biolevate-mcp.yml
-  slug: biolevate-mcpyml
+  name: Biolevate MCP Server
+  slug: biolevate-mcp-server
 modified: '2026-07-18'
 name: Biolevate
 nav: Providers
@@ -235,7 +235,7 @@ random_paper: 10
 score:
   band: developing
   composite: 45.4
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -245,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 40.9
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,8 +262,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/screenshots/biolevate-2026-07-25T203041.png
 security:
@@ -282,8 +282,8 @@ tags:
 - Life Sciences
 - Regulatory Affairs
 - Document Intelligence
-- Knowledge Management
+- Knowledge-Management
 - Pharmaceuticals
-- Machine Learning
+- Machine-Learning
 website: https://www.biolevate.com/
 ---

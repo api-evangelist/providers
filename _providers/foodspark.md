@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Foodspark provides a restaurant data API, food and grocery pricing API, restaurant menu API, and aggregated food-delivery data sourced from 100+ platforms. Endpoint and authentication details are prov
@@ -93,7 +93,7 @@ modified: '2026-06-02'
 name: Foodspark
 nav: Providers
 network: true
-overview: 'Foodspark publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Food, Groceries, Menus, and Restaurants.
+overview: 'Foodspark publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Food, Groceries, Menus, and Restaurant.
 
 
   Foodspark''s developer surface includes documentation, pricing, engineering blog, and 8 more developer resources.'
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.5
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -119,9 +119,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foodspark/refs/heads/main/screenshots/foodspark-2026-06-20T181412.png
 security:
@@ -135,7 +135,7 @@ tags:
 - Food
 - Groceries
 - Menus
-- Restaurants
+- Restaurant
 - Food Delivery
 - Web Scraping
 website: https://www.foodspark.io/

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -155,9 +155,9 @@ examples:
 image: https://www.n3rgy.com/wp-content/uploads/2023/03/Group.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: n3rgy-mcp.yml
-  slug: n3rgy-mcpyml
+- description: n3rgy operates no MCP server. This is a CANDIDATE tool surface derived mechanically from the 26 operations of the Customer Service API V2 so an agent builder can stand one up without guessing. Every t
+  name: n3rgy MCP Server
+  slug: n3rgy-mcp-server
 modified: '2026-07-27'
 name: n3rgy
 nav: Providers
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.0
-  delta: 5.6
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -187,7 +187,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 46.4
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,9 +204,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/screenshots/n3rgy-2026-08-07T184554.png
 security:
 - kind: authentication

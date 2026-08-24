@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -245,18 +245,18 @@ rules:
   slug: thought-industries-rules
 score:
   band: developing
-  composite: 44.2
-  delta: -5.5
+  composite: 44.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 71.8
     developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 18.4
-  previous_composite: 49.7
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -270,9 +270,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/screenshots/thought-industries-2026-06-20T195312.png
 security:
 - kind: authentication

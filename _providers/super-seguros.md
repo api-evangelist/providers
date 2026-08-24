@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Quotes API from Super Seguros — 1 operation(s) for quotes.
@@ -118,8 +118,8 @@ image: https://www.super.mx/src/assets/super_midoconline_fav.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: super-seguros-mcp.yml
-  slug: super-seguros-mcpyml
+  name: Super Seguros MCP Server
+  slug: super-seguros-mcp-server
 modified: '2026-07-21'
 name: Super Seguros
 nav: Providers
@@ -132,7 +132,7 @@ random_paper: 15
 score:
   band: thin
   composite: 31.2
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -142,7 +142,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 33.1
+  previous_composite: 31.2
   provenance:
     conformance: derived
     contracts:
@@ -158,8 +158,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -178,7 +178,7 @@ tags:
 - Life Insurance
 - Quotes
 - Mexico
-- Financial Services
+- Financial-Services
 - Super Studio
 website: https://www.super.mx/
 ---

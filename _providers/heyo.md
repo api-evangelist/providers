@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ modified: '2026-08-13'
 name: Heyo
 nav: Providers
 network: true
-overview: 'Heyo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, Promotions, and Contests.
+overview: 'Heyo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social-Media, Promotions, and Contests.
 
 
   Heyo''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -130,9 +130,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heyo/refs/heads/main/screenshots/heyo-2026-07-25T221123.png
 security:
@@ -144,7 +144,7 @@ slug: heyo
 tags:
 - Company
 - Marketing
-- Social Media
+- Social-Media
 - Promotions
 - Contests
 - Sweepstakes

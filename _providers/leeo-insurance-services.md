@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,8 +179,8 @@ image: https://framerusercontent.com/images/YggCBRfzpd8IYRlJTG6UlpdiYQ.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: leeo-insurance-services-mcp.yml
-  slug: leeo-insurance-services-mcpyml
+  name: LEEO Insurance Services MCP Server
+  slug: leeo-insurance-services-mcp-server
 modified: '2026-07-19'
 name: LEEO Insurance Services
 nav: Providers
@@ -193,7 +193,7 @@ random_paper: 16
 score:
   band: developing
   composite: 48.5
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 46.5
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,8 +220,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/screenshots/leeo-insurance-services-2026-07-25T224822.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,27 +60,27 @@ modified: '2026-04-28'
 name: mod_perl
 nav: Providers
 network: true
-overview: 'mod_perl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, mod_perl, Perl, Web Server, and CGI.
+overview: 'mod_perl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Perl, Web Server, and CGI.
 
 
   mod_perl''s developer surface includes documentation and 4 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 6.0
-  delta: 0.2
+  composite: 5.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 40.7
+    discoverability: 31.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mod_perl/refs/heads/main/screenshots/mod_perl-2026-06-20T185643.png
 security:
@@ -95,7 +95,6 @@ security:
 slug: mod_perl
 tags:
 - Apache
-- mod_perl
 - Perl
 - Web Server
 - CGI

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Trust3 API server is the public AI Governance API edge of the Trust3 control plane. AI Assets Collectors running in the customer data plane authenticate every request with a Trust3 API key (AI_GOV
@@ -131,8 +131,8 @@ image: https://trust3.ai/wp-content/uploads/2026/05/cropped-T3-mark_indigo-1-192
 layout: provider
 mcp_servers:
 - description: ''
-  name: trust3-ai-mcp.yml
-  slug: trust3-ai-mcpyml
+  name: Trust3 AI MCP Server
+  slug: trust3-ai-mcp-server
 modified: '2026-07-21'
 name: Trust3 AI
 nav: Providers
@@ -145,7 +145,7 @@ random_paper: 15
 score:
   band: thin
   composite: 30.4
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -155,12 +155,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 32.3
+  previous_composite: 30.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

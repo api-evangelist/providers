@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Read (and timeline-write) access to Crossbeam Ecosystem Intelligence — partners, populations, reports/overlaps, and real-time signals — via a versioned REST API secured with OAuth 2.0. Requires an Aut
@@ -211,8 +211,8 @@ image: https://cdn.prod.website-files.com/66955639e4d4a6eebd7168b9/67659cb901d6d
 layout: provider
 mcp_servers:
 - description: ''
-  name: crossbeam-mcp.yml
-  slug: crossbeam-mcpyml
+  name: Crossbeam MCP Server
+  slug: crossbeam-mcp-server
 modified: '2026-08-14'
 name: Crossbeam
 nav: Providers
@@ -241,7 +241,7 @@ scopes:
 score:
   band: strong
   composite: 61.3
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -251,13 +251,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 64.4
+  previous_composite: 61.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossbeam/refs/heads/main/screenshots/crossbeam-2026-07-25T210753.png
 security:
@@ -287,7 +287,7 @@ tags:
 - Data Collaboration
 - Sales Intelligence
 - CRM
-- Webhooks
+- Webhook
 - MCP
 website: http://www.crossbeam.com/
 ---

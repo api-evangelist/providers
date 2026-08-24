@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: SpaceIQ's (SiQ) GraphQL API. A single endpoint at https://api.spaceiq.com/queries accepts POST requests with a JSON query body and an access-token bearer header. Read operations cover companies, build
@@ -147,8 +147,8 @@ image: https://eptura.com/spaceiq/
 layout: provider
 mcp_servers:
 - description: ''
-  name: spaceiq-mcp.yml
-  slug: spaceiq-mcpyml
+  name: SpaceIQ MCP Server
+  slug: spaceiq-mcp-server
 modified: '2026-07-21'
 name: SpaceIQ
 nav: Providers
@@ -161,7 +161,7 @@ random_paper: 7
 score:
   band: thin
   composite: 32.8
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -171,13 +171,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 32.1
+  previous_composite: 32.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -206,8 +206,8 @@ tags:
 - Hoteling
 - Meeting Rooms
 - Occupancy Analytics
-- Real Estate
-- Floorplans
+- Real-Estate
+- Floor Plans
 - GraphQL
 - IWMS
 - Eptura

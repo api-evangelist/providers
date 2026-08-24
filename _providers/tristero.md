@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Assets API from Tristero — 1 operation(s) for assets.
@@ -185,9 +185,9 @@ description: Tristero is a trustless, cross-chain trading protocol backed by Gen
 image: https://docs.tristero.com/tristero.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: tristero-mcp.yml
-  slug: tristero-mcpyml
+- description: 'No official Tristero MCP server was found (no MCP mention in docs.tristero.com, no @tristero/* or tristero MCP package on npm, none of the tristeroresearch GitHub repos ship one). This is a CANDIDATE '
+  name: Tristero MCP Server
+  slug: tristero-mcp-server
 modified: '2026-07-21'
 name: Tristero
 nav: Providers
@@ -200,7 +200,7 @@ random_paper: 10
 score:
   band: developing
   composite: 42.1
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 5.3
-  previous_composite: 40.3
+  previous_composite: 42.1
   provenance:
     conformance: derived
     contracts:
@@ -226,8 +226,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

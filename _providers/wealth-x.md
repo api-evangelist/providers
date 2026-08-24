@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Retrieve individual and company wealth-intelligence dossiers.
@@ -201,9 +201,9 @@ description: Wealth-X, an Altrata company founded in 2010, provides curated weal
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wealth-x.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: wealth-x-mcp.yml
-  slug: wealth-x-mcpyml
+- description: 'A real, reachable remote MCP server is operated by Altrata — Wealth-X''s parent — at https://mcp.altrata.com/mcp. It is OAuth-protected: an anonymous GET or POST returns HTTP 401 with `WWW-Authenticate'
+  name: Altrata MCP
+  slug: altrata-mcp
 modified: '2026-08-14'
 name: Wealth-X
 nav: Providers
@@ -229,7 +229,7 @@ scopes:
 score:
   band: developing
   composite: 51.4
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -239,7 +239,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 55.3
-  previous_composite: 50.0
+  previous_composite: 51.4
   provenance:
     conformance: first-party
     contracts:
@@ -249,8 +249,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/screenshots/wealth-x-2026-08-17T082844.png
 security:
@@ -273,7 +273,7 @@ tags:
 - Data
 - UHNW
 - Prospecting
-- Financial Services
+- Financial-Services
 - CRM
 - People Data
 - Altrata

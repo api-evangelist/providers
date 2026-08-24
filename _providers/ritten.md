@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Ritten External API is the public REST contract for Ritten integrating partners. It covers patients (create, read, patch, vitals, forms, relationships, attachments, external-id lookup), contacts, '
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.6
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -181,7 +181,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 48.0
+  previous_composite: 52.6
   provenance:
     conformance: first-party
     contracts:
@@ -197,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/screenshots/ritten-2026-08-17T081615.png
 security:
@@ -222,9 +222,8 @@ tags:
 - Revenue Cycle Management
 - Clinical Documentation
 - Telehealth
-- API
 - OpenAPI
-- Webhooks
+- Webhook
 - Behavioral Health API
 - Substance Use Treatment
 - 42 CFR Part 2

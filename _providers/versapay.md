@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -175,13 +175,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: versapay-mcp.yml
-  slug: versapay-mcpyml
+  name: Versapay MCP Server
+  slug: versapay-mcp-server
 modified: '2026-07-24'
 name: Versapay
 nav: Providers
 network: true
-overview: 'Versapay publishes 2 APIs on the [APIs.io](https://apis.io/) network: API Reference and Ecommerce API. Tagged areas include Payments, Canada, Accounts Receivable, AR Automation, and Order to Cash.
+overview: 'Versapay publishes 2 APIs on the [APIs.io](https://apis.io/) network: API Reference and Ecommerce API. Tagged areas include Payments, Canada, Accounts Receivable, AR Automation, and Order-to-Cash.
 
 
   The Versapay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -196,18 +196,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/password
 score:
   band: strong
-  composite: 55.4
-  delta: 5.3
+  composite: 56.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
     contract_quality: 56.2
     developer_ergonomics: 49.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 50.1
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -219,9 +219,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/screenshots/versapay-2026-08-17T082740.png
 security:
 - kind: authentication
@@ -238,13 +238,13 @@ tags:
 - Canada
 - Accounts Receivable
 - AR Automation
-- Order to Cash
+- Order-to-Cash
 - Payment Acceptance
 - Payment Processing
 - B2B Payments
 - Invoicing
-- Ecommerce
+- E-Commerce
 - Card Present
-- Webhooks
+- Webhook
 website: https://versapay.com
 ---

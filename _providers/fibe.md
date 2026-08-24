@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'OAuth-protected Model Context Protocol (JSON-RPC 2.0) server exposing Fibe''s consumer lending platform to AI agents. Advertised scopes: loan.read (read loan/eligibility information) and loan.apply (su'
@@ -103,8 +103,8 @@ image: https://www.fibe.in/Fibe-og-img.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fibe-mcp.yml
-  slug: fibe-mcpyml
+  name: Fibe MCP Server
+  slug: fibe-mcp-server
 modified: '2026-07-19'
 name: Fibe
 nav: Providers
@@ -121,23 +121,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.0
-  delta: -2.5
+  composite: 23.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.5
+  previous_composite: 23.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/screenshots/fibe-2026-07-25T214400.png
 security:
@@ -159,6 +159,6 @@ tags:
 - India
 - Credit
 - MCP
-- Agent
+- Agents
 website: https://fibe.in
 ---

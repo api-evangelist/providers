@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Istio is the leading open-source service mesh providing traffic management, security (mTLS), and observability for microservices. The Istio API includes VirtualService, DestinationRule, Gateway, and S
@@ -124,7 +124,7 @@ modified: '2026-05-02'
 name: Scalable Architecture
 nav: Providers
 network: true
-overview: 'Scalable Architecture publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Istio Service Mesh API, Envoy Proxy Admin API, Apache Kafka REST Proxy API, and 3 more. Tagged areas include Cloud Architecture, Cloud Native, Distributed Systems, High Availability, and Infrastructure.
+overview: 'Scalable Architecture publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Istio Service Mesh API, Envoy Proxy Admin API, Apache Kafka REST Proxy API, and 3 more. Tagged areas include Cloud Architecture, Cloud-Native, Distributed Systems, High Availability, and Infrastructure.
 
 
   The Scalable Architecture catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -154,7 +154,7 @@ rules:
 score:
   band: emerging
   composite: 23.4
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -164,15 +164,15 @@ score:
     discoverability: 55.6
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 30.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 23.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-architecture/refs/heads/main/screenshots/scalable-architecture-2026-06-20T193459.png
 slug: scalable-architecture
 tags:
 - Cloud Architecture
-- Cloud Native
+- Cloud-Native
 - Distributed Systems
 - High Availability
 - Infrastructure

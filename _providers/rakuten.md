@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ modified: '2026-05-23'
 name: Rakuten
 nav: Providers
 network: true
-overview: 'Rakuten publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ichibagt API, Ichibams API, and Ichibaranking API. Tagged areas include E-commerce, Travel, Books, Recipes, and Golf.
+overview: 'Rakuten publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ichibagt API, Ichibams API, and Ichibaranking API. Tagged areas include E-Commerce, Travel, Books, Recipes, and Golf.
 
 
   Rakuten''s developer surface includes authentication, documentation, signup flow, product news, GitHub presence, and 13 more developer resources.'
@@ -257,7 +257,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.0
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -267,7 +267,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 35.9
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -281,8 +281,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/screenshots/rakuten-2026-06-20T192542.png
 security:
@@ -296,7 +296,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: rakuten
 tags:
-- E-commerce
+- E-Commerce
 - Travel
 - Books
 - Recipes

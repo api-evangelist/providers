@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 62
 apis:
 - description: Access Keys allow users to authenticate and interact programmatically with the NVIDIA Run:ai API. Each access key consists of a client ID and secret that can be used to obtain authentication tokens. A
@@ -410,6 +410,10 @@ collections:
   name: NVIDIA Run:ai Access Keys Workspaces API
   slug: open-runai-workspaces-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/nvidia/
 - group: company
   title: ''
   type: Website
@@ -520,16 +524,16 @@ image: https://avatars.githubusercontent.com/u/37841801?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: runai-mcp.yml
-  slug: runai-mcpyml
-modified: '2026-07-21'
+  name: NVIDIA Run:ai MCP Server
+  slug: nvidia-runai-mcp-server
+modified: '2026-08-21'
 name: NVIDIA Run:ai
 nav: Providers
 network: true
-overview: 'NVIDIA Run:ai publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Access rules API, Administrator Command Line Interface API, and 59 more. Tagged areas include Company, Artificial Intelligence, GPU, Machine Learning, and Kubernetes.
+overview: 'NVIDIA Run:ai publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Access rules API, Administrator Command Line Interface API, and 59 more. Tagged areas include Company, Artificial Intelligence, GPU, Machine-Learning, and Kubernetes.
 
 
-  NVIDIA Run:ai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 20 more developer resources.'
+  NVIDIA Run:ai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 21 more developer resources.'
 random_paper: 18
 score:
   band: developing
@@ -554,8 +558,8 @@ score:
       total: 62
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/screenshots/runai-2026-08-17T081650.png
 security:
@@ -572,7 +576,7 @@ tags:
 - Company
 - Artificial Intelligence
 - GPU
-- Machine Learning
+- Machine-Learning
 - Kubernetes
 - Orchestration
 - MLOps

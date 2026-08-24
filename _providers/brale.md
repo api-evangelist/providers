@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Accounts API from Brale — 4 operation(s) for accounts.
@@ -262,8 +262,8 @@ image: https://brale.xyz/assets/site/global-og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: brale-mcp.yml
-  slug: brale-mcpyml
+  name: Brale MCP Server
+  slug: brale-mcp-server
 modified: '2026-07-18'
 name: Brale
 nav: Providers
@@ -284,7 +284,7 @@ scopes:
 score:
   band: strong
   composite: 63.7
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -294,7 +294,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 61.1
+  previous_composite: 63.7
   provenance:
     conformance: derived
     contracts:
@@ -310,8 +310,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png
 security:
@@ -336,7 +336,7 @@ tags:
 - Blockchain
 - Cryptocurrency
 - Fintech
-- Financial Services
+- Financial-Services
 - Custody
 - Tokenization
 - On-Ramp

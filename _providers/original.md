@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API to generate accurate body measurements and a 3D avatar from a person's stats, and (with two photos) body composition and posture data. Requests use a secret API key in the Authorization heade
@@ -102,14 +102,14 @@ description: Bodygram is an AI-powered body measurement company whose technology
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/original.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: original-mcp.yml
-  slug: original-mcpyml
+- description: No official hosted or remote MCP server was found for Bodygram. This is a candidate tool list derived from the two documented Platform API operations.
+  name: Bodygram MCP Server
+  slug: bodygram-mcp-server
 modified: '2026-07-20'
 name: Bodygram
 nav: Providers
 network: true
-overview: 'Bodygram publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Measurement, Computer Vision, Artificial Intelligence, and Sizing.
+overview: 'Bodygram publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Measurement, Computer-Vision, Artificial Intelligence, and Sizing.
 
 
   Bodygram''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, and 9 more developer resources.'
@@ -122,7 +122,7 @@ scopes:
 score:
   band: emerging
   composite: 24.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -132,7 +132,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 25.7
+  previous_composite: 24.9
   provenance:
     conformance: derived
     mcp: derived
@@ -142,8 +142,8 @@ score:
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/original/refs/heads/main/screenshots/original-2026-08-07T190948.png
 security:
@@ -159,7 +159,7 @@ slug: original
 tags:
 - Company
 - Body Measurement
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Sizing
 - Retail

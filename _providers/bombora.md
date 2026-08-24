@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: 'OAuth 2.0 token endpoint that issues bearer access tokens used to authenticate calls to the rest of Bombora''s developer APIs. Clients exchange credentials for a short-lived access token via a POST to '
@@ -253,8 +253,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bombora.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: bombora-mcp.yml
-  slug: bombora-mcpyml
+  name: Bombora MCP Server
+  slug: bombora-mcp-server
 modified: '2026-08-13'
 name: Bombora
 nav: Providers
@@ -278,7 +278,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.7
-  delta: -10.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -288,7 +288,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 55.6
+  previous_composite: 44.7
   provenance:
     conformance: derived
     contracts:
@@ -298,9 +298,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/screenshots/bombora-2026-06-20T173557.png
 security:
 - kind: authentication
@@ -322,10 +322,10 @@ tags:
 - Identity Resolution
 - Audience Activation
 - Data Cooperative
-- Webhooks
+- Webhook
 - Reference Data
-- Adtech
-- Martech
+- AdTech
+- MarTech
 - B2B
 - Account Lists
 - Digital Audience Builder

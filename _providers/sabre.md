@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -359,18 +359,18 @@ rules:
   slug: sabre-rules
 score:
   band: thin
-  composite: 38.2
-  delta: -9.7
+  composite: 38.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 72.1
     developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 47.9
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -378,9 +378,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/screenshots/sabre-2026-06-20T193316.png
 security:
 - kind: authentication

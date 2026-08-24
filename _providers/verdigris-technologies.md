@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Endpoints that return control data from building management systems (BMS)
@@ -200,8 +200,8 @@ image: https://verdigris.co/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: verdigris-technologies-mcp.yml
-  slug: verdigris-technologies-mcpyml
+  name: Verdigris Technologies MCP Server
+  slug: verdigris-technologies-mcp-server
 modified: '2026-07-21'
 name: Verdigris Technologies
 nav: Providers
@@ -219,7 +219,7 @@ scopes:
 score:
   band: developing
   composite: 43.9
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -229,7 +229,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 47.3
+  previous_composite: 43.9
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +245,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/screenshots/verdigris-technologies-2026-08-17T082727.png
 security:

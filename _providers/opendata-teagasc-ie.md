@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: CKAN Action API for Teagasc Open Data, ~18 datasets. Base URL https://opendata.teagasc.ie/api/3/action/.
@@ -92,7 +92,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.8
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -102,15 +102,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.5
+  previous_composite: 7.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-teagasc-ie/refs/heads/main/screenshots/opendata-teagasc-ie-2026-06-20T190948.png
 security:

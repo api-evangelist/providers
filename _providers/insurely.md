@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Create end users, capture consent, run data collections (including PSD2 banking data), and retrieve structured wealth data. Dual auth (backend API key + per-user JWT), date-based versioning, and colle
@@ -135,8 +135,8 @@ image: https://assets.insurely.com/images/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: insurely-mcp.yml
-  slug: insurely-mcpyml
+  name: Insurely MCP Server
+  slug: insurely-mcp-server
 modified: '2026-07-19'
 name: Insurely
 nav: Providers
@@ -152,7 +152,7 @@ random_paper: 9
 score:
   band: thin
   composite: 34.7
-  delta: -7.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -162,7 +162,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 41.9
+  previous_composite: 34.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -172,9 +172,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/screenshots/insurely-2026-07-25T222626.png
 security:
 - kind: authentication

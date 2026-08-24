@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -290,7 +290,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.7
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -300,7 +300,7 @@ score:
     discoverability: 81.5
     governance: 45.5
     operational_transparency: 34.2
-  previous_composite: 66.1
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -317,9 +317,9 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/screenshots/pverify-2026-08-17T080414.png
 security:
 - kind: authentication

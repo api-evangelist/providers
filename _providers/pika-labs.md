@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-05-08'
 name: Pika Labs
 nav: Providers
 network: true
-overview: 'Pika Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cancel API, Result API, Status API, and 1 more. Tagged areas include AI, Video Generation, Text-to-Video, Multimodal, and Generative.
+overview: 'Pika Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cancel API, Result API, Status API, and 1 more. Tagged areas include Artificial Intelligence, Video Generation, Text-to-Video, Multi-Modal, and Generative.
 
 
   Pika Labs'' developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.1
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -154,7 +154,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 30.0
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/screenshots/pika-labs-2026-06-20T191707.png
 security:
@@ -177,10 +177,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: pika-labs
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Text-to-Video
-- Multimodal
+- Multi-Modal
 - Generative
 website: https://pika.art/
 ---

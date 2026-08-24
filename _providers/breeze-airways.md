@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Breeze Airways NDC gateway is the airline's direct-connect distribution API for accredited travel partners. It speaks IATA Offers and Orders (NDC) 21.3 XML over HTTPS on a Navitaire-hosted gateway
@@ -137,8 +137,8 @@ image: https://ndc.flybreeze.com/img/breeze-b2b-social-card.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: breeze-airways-mcp.yml
-  slug: breeze-airways-mcpyml
+  name: Breeze Airways MCP Server
+  slug: breeze-airways-mcp-server
 modified: '2026-08-01'
 name: Breeze Airways
 nav: Providers
@@ -156,7 +156,7 @@ scopes:
 score:
   band: emerging
   composite: 19.1
-  delta: -13.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -166,14 +166,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 32.5
+  previous_composite: 19.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/screenshots/breeze-airways-2026-08-07T162755.png
 security:
 - kind: authentication

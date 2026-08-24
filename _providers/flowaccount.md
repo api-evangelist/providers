@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -272,14 +272,14 @@ description: FlowAccount is a Thai cloud accounting platform serving 130,000+ SM
 image: https://flowaccountcdn.com/favicon/landing/FlowAccount.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: flowaccount-mcp.yml
-  slug: flowaccount-mcpyml
+- description: Candidate MCP tool surface derived one-to-one from FlowAccount Open API operations. No official hosted MCP server was found; this is a governance starting point, not a published server.
+  name: FlowAccount MCP Server
+  slug: flowaccount-mcp-server
 modified: '2026-07-19'
 name: FlowAccount
 nav: Providers
 network: true
-overview: 'FlowAccount publishes 19 APIs on the [APIs.io](https://apis.io/) network, including BatchImport API, BillingNote API, CashInvoice API, and 16 more. Tagged areas include Company, Accounting, Invoicing, Payroll, and Point of Sale.
+overview: 'FlowAccount publishes 19 APIs on the [APIs.io](https://apis.io/) network, including BatchImport API, BillingNote API, CashInvoice API, and 16 more. Tagged areas include Company, Accounting, Invoicing, Payroll, and Point-of-Sale.
 
 
   The FlowAccount catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -295,7 +295,7 @@ scopes:
 score:
   band: developing
   composite: 51.7
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -305,7 +305,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 50.4
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,8 +316,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/screenshots/flowaccount-2026-07-25T214832.png
 security:
@@ -339,7 +339,7 @@ tags:
 - Accounting
 - Invoicing
 - Payroll
-- Point of Sale
+- Point-of-Sale
 - SME
 - Finance
 - Tax

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ modified: '2026-05-30'
 name: SoundCloud
 nav: Providers
 network: true
-overview: 'SoundCloud publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Playlists API, Search API, Social API, and 2 more. Tagged areas include Music, Streaming, Audio, OAuth, and Tracks.
+overview: 'SoundCloud publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Playlists API, Search API, Social API, and 2 more. Tagged areas include Music, Streaming, Audio, Authentication, and Tracks.
 
 
   SoundCloud''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
@@ -171,7 +171,7 @@ scopes:
 score:
   band: thin
   composite: 30.4
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -181,7 +181,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.1
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/screenshots/soundcloud-2026-06-20T194220.png
 security:
@@ -211,7 +211,7 @@ tags:
 - Music
 - Streaming
 - Audio
-- OAuth
+- Authentication
 - Tracks
 - Playlists
 website: https://soundcloud.com/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-06-13'
 name: FDC3
 nav: Providers
 network: true
-overview: 'FDC3 publishes 2 APIs on the [APIs.io](https://apis.io/) network: App Directory API and Application API. Tagged areas include Financial Services, Fintech, Desktop Interoperability, Open Standard, and FINOS.
+overview: 'FDC3 publishes 2 APIs on the [APIs.io](https://apis.io/) network: App Directory API and Application API. Tagged areas include Financial-Services, Fintech, Desktop Interoperability, Open Standard, and FINOS.
 
 
   The FDC3 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -198,7 +198,7 @@ rules:
 score:
   band: developing
   composite: 46.8
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -208,7 +208,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 63.2
-  previous_composite: 53.1
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -216,9 +216,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/screenshots/fdc3-2026-06-20T181104.png
 security:
 - kind: authentication
@@ -231,7 +231,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: fdc3
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Desktop Interoperability
 - Open Standard

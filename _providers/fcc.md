@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 19
 apis:
 - description: Provides information about FCC-issued licenses for use of the nation's airwaves, including snapshots of license counts across different radio services such as 700 MHz, 800 MHz Cellular, AWS, PCS, BRS,
@@ -199,7 +199,7 @@ modified: '2026-06-13'
 name: FCC (Federal Communications Commission)
 nav: Providers
 network: true
-overview: 'FCC (Federal Communications Commission) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Am Pattern API, Antenna API, Area API, and 9 more. Tagged areas include Federal Government, Telecommunications, Radio, Broadband, and Spectrum.
+overview: 'FCC (Federal Communications Commission) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Am Pattern API, Antenna API, Area API, and 9 more. Tagged areas include Federal-Government, Telecommunications, Radio, Broadband, and Spectrum.
 
 
   FCC (Federal Communications Commission)''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
@@ -215,7 +215,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -225,7 +225,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.3
+  previous_composite: 32.6
   provenance:
     contracts:
       callable: 100.0
@@ -238,8 +238,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/screenshots/fcc-2026-06-20T181103.png
 security:
@@ -249,7 +249,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: fcc
 tags:
-- Federal Government
+- Federal-Government
 - Telecommunications
 - Radio
 - Broadband

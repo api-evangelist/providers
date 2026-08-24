@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The nine partner APIs Flash publishes for Flash PARCS and Flash Valet: eParking (inject and manage parking reservations), Locations (real-time occupancy, garage status and active pricing), Monthly (mo'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.6
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -163,7 +163,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 30.4
+  previous_composite: 32.6
   provenance:
     conformance: first-party
   regulatory:
@@ -172,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -188,8 +188,8 @@ tags:
 - Transportation
 - Payments
 - Internet of Things
-- Computer Vision
-- Real Estate
+- Computer-Vision
+- Real-Estate
 - Electric Vehicle Charging
 - Reservations
 website: https://www.flashparking.com/

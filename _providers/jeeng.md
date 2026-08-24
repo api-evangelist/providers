@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Advertiser-side campaign management and reporting for the Jeeng / OpenWeb Email Monetization platform. Update campaign lines (daily spend goal and CPC/CPM/CPA pricing), transition campaign line and cr
@@ -162,8 +162,8 @@ image: https://www.jeeng.com/wp-content/uploads/2022/04/Jeeng_w_OW.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: jeeng-mcp.yml
-  slug: jeeng-mcpyml
+  name: Jeeng MCP Server
+  slug: jeeng-mcp-server
 modified: '2026-08-12'
 name: Jeeng
 nav: Providers
@@ -189,7 +189,7 @@ scopes:
 score:
   band: thin
   composite: 38.0
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 44.6
+  previous_composite: 38.0
   provenance:
     conformance: derived
     contracts:
@@ -209,9 +209,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/screenshots/jeeng-2026-07-25T223120.png
 security:
 - kind: authentication
@@ -236,6 +236,6 @@ tags:
 - Reporting
 - Analytics
 - OData
-- OAuth
+- Authentication
 website: https://jeeng.com
 ---

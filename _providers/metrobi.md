@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -169,13 +169,13 @@ image: https://metrobi.com/wp-content/uploads/2023/06/website-thumbnail.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: metrobi-mcp.yml
-  slug: metrobi-mcpyml
+  name: Metrobi MCP Server
+  slug: metrobi-mcp-server
 modified: '2026-07-20'
 name: Metrobi
 nav: Providers
 network: true
-overview: 'Metrobi publishes 1 API on the [APIs.io](https://apis.io/) network: Deliveries API. Tagged areas include Company, Delivery, Logistics, Courier, and Last Mile Delivery.
+overview: 'Metrobi publishes 1 API on the [APIs.io](https://apis.io/) network: Deliveries API. Tagged areas include Company, Delivery, Logistics, Couriers, and Last Mile Delivery.
 
 
   The Metrobi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -186,7 +186,7 @@ random_paper: 19
 score:
   band: developing
   composite: 44.9
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -196,7 +196,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 47.7
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,8 +207,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/screenshots/metrobi-2026-08-07T172751.png
 security:
@@ -225,11 +225,11 @@ tags:
 - Company
 - Delivery
 - Logistics
-- Courier
+- Couriers
 - Last Mile Delivery
 - Route Optimization
 - Fulfillment
 - Local Delivery
-- Webhooks
+- Webhook
 website: https://metrobi.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -205,8 +205,8 @@ image: https://brellium.com/og-image.png?v=3
 layout: provider
 mcp_servers:
 - description: ''
-  name: brellium-mcp.yml
-  slug: brellium-mcpyml
+  name: Brellium MCP Server
+  slug: brellium-mcp-server
 modified: '2026-07-18'
 name: Brellium
 nav: Providers
@@ -222,7 +222,7 @@ random_paper: 20
 score:
   band: developing
   composite: 46.6
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 45.1
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,8 +249,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/screenshots/brellium-2026-07-25T203751.png
 security:
@@ -276,6 +276,5 @@ tags:
 - Audit
 - Behavioral Health
 - Digital Health
-- API
 website: https://brellium-ai.readme.io/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -341,7 +341,7 @@ scopes:
 score:
   band: developing
   composite: 52.9
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -351,7 +351,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 13.2
-  previous_composite: 54.6
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -365,8 +365,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/screenshots/openstreetmap-2026-06-20T191043.png
 security:

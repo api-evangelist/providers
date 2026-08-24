@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.5
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -131,11 +131,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 15.0
+  previous_composite: 15.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -149,7 +149,7 @@ tags:
 - Online Gaming
 - Skill Gaming
 - Fantasy Sports
-- Real Money Gaming
+- Real-Money Gaming
 - Consumer Applications
 - Entertainment
 - Mobile Games

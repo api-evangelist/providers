@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ modified: '2026-05-19'
 name: Codehooks
 nav: Providers
 network: true
-overview: 'Codehooks publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events (AsyncAPI), Documents API, Key-Value Store API, and 1 more. Tagged areas include Backend, Database, Events, Hooks, and JavaScript.
+overview: 'Codehooks publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events (AsyncAPI), Documents API, Key-Value Store API, and 1 more. Tagged areas include Backend, Database, Event, Hooks, and JavaScript.
 
 
   The Codehooks catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -229,7 +229,7 @@ rules:
 score:
   band: developing
   composite: 44.6
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -239,7 +239,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 49.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -247,8 +247,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/screenshots/codehooks-2026-06-20T174700.png
 security:
@@ -264,13 +264,13 @@ slug: codehooks
 tags:
 - Backend
 - Database
-- Events
+- Event
 - Hooks
 - JavaScript
 - NoSQL
 - Queues
 - Serverless
-- Webhooks
+- Webhook
 - Workers
 - Workflows
 website: https://codehooks.io/

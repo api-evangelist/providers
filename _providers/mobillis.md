@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Partner-facing REST API for distributing prepaid vehicle access. Documented resources include wallet creation and management, PSP-orchestrated top-ups, ledger / transaction history, and webhook regist
@@ -86,8 +86,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mobillis.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: mobillis-mcp.yml
-  slug: mobillis-mcpyml
+  name: Mobillis MCP Server
+  slug: mobillis-mcp-server
 modified: '2026-07-20'
 name: Mobillis
 nav: Providers
@@ -103,7 +103,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 24.2
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -113,7 +113,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.0
+  previous_composite: 24.2
   provenance:
     mcp: derived
   regulatory:
@@ -122,8 +122,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobillis/refs/heads/main/screenshots/mobillis-2026-08-07T183851.png
 security:
@@ -140,7 +140,7 @@ tags:
 - Wallets
 - Fleet Management
 - Prepaid
-- Webhooks
+- Webhook
 - Ledger
 website: https://mobillis.com/
 ---

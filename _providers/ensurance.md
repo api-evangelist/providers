@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,7 +70,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 4.2
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -80,7 +80,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.4
+  previous_composite: 4.2
   provenance:
     conformance: derived
   regulatory:
@@ -89,8 +89,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ensurance/refs/heads/main/screenshots/ensurance-2026-07-25T213422.png
 security:
@@ -106,7 +106,7 @@ tags:
 - Property and Casualty
 - Construction Insurance
 - Managing General Agent
-- Broker
+- Brokers
 - Wholesale Insurance
 - Insurtech
 - Partner Gated

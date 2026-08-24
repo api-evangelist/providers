@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -161,7 +161,7 @@ scopes:
 score:
   band: thin
   composite: 29.2
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -171,11 +171,11 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 29.7
+  previous_composite: 29.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auditoria/refs/heads/main/screenshots/auditoria-2026-08-07T161929.png
 security:
@@ -206,7 +206,7 @@ tags:
 - Automation
 - ERP
 - Agents
-- SaaS
+- Software-as-a-Service
 - Invoicing
 - Procurement
 website: https://www.auditoria.ai/

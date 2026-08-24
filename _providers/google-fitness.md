@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -135,13 +135,13 @@ rules:
     info: 2
     warn: 3
   slug: google-fitness-jsonschema-spectral-rules
-- effective_rule_count: 60
+- effective_rule_count: 59
   extends:
   - spectral:oas
   name: Google Fit REST API Rules
-  rule_count: 19
+  rule_count: 18
   severity_counts:
-    error: 11
+    error: 10
     hint: 0
     info: 2
     warn: 6
@@ -153,16 +153,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.7
-  delta: -2.5
+  composite: 41.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 67.8
     developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -170,7 +170,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 43.2
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/screenshots/google-fitness-2026-06-20T182201.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ modified: '2026-05-30'
 name: Todoist
 nav: Providers
 network: true
-overview: 'Todoist publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Sync API v9, Comments API, Labels API, and 7 more. Tagged areas include Productivity, Tasks, To-Do, Task Management, and Collaboration.
+overview: 'Todoist publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Sync API v9, Comments API, Labels API, and 7 more. Tagged areas include Productivity, Task, To-Do, Task Management, and Collaboration.
 
 
   The Todoist catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -313,18 +313,18 @@ rules:
   slug: todoist-rules
 score:
   band: developing
-  composite: 48.5
-  delta: -9.0
+  composite: 48.9
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 72.7
     developer_ergonomics: 45.2
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 18.4
-  previous_composite: 57.5
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -332,9 +332,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/screenshots/todoist-2026-06-20T195429.png
 security:
 - kind: authentication
@@ -356,7 +356,7 @@ security:
 slug: todoist
 tags:
 - Productivity
-- Tasks
+- Task
 - To-Do
 - Task Management
 - Collaboration

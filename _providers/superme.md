@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Official hosted, OAuth-protected Model Context Protocol server that exposes the SuperMe professional network to AI clients (Claude, ChatGPT, Cursor) over SSE / Streamable HTTP.
@@ -87,8 +87,8 @@ image: https://superme.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: superme-mcp.yml
-  slug: superme-mcpyml
+  name: SuperMe MCP Server
+  slug: superme-mcp-server
 modified: '2026-07-21'
 name: SuperMe
 nav: Providers
@@ -101,7 +101,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 18.9
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -111,11 +111,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.3
+  previous_composite: 18.9
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -133,7 +133,6 @@ tags:
 - AI Agents
 - Professional Network
 - Expert Knowledge
-- Model Context Protocol
 - MCP
 website: https://superme.ai
 ---

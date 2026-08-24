@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -474,7 +474,7 @@ modified: '2026-05-19'
 name: Deepgram
 nav: Providers
 network: true
-overview: 'Deepgram publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Voice Agent API, Balances API, Invitations API, and 9 more. Tagged areas include Artificial Intelligence, Speech-To-Text, Text-To-Speech, Transcription, and Voice AI.
+overview: 'Deepgram publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Voice Agent API, Balances API, Invitations API, and 9 more. Tagged areas include Artificial Intelligence, Speech-to-Text, Text-to-Speech, Transcription, and Voice AI.
 
 
   The Deepgram catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 5 Spectral governance rulesets.
@@ -547,18 +547,18 @@ rules:
   slug: deepgram-text-to-speech-api-rules
 score:
   band: developing
-  composite: 49.3
-  delta: -3.4
+  composite: 49.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 75.0
     developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 52.7
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -566,8 +566,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/screenshots/deepgram-2026-06-20T175821.png
 security:
@@ -582,8 +582,8 @@ security:
 slug: deepgram
 tags:
 - Artificial Intelligence
-- Speech-To-Text
-- Text-To-Speech
+- Speech-to-Text
+- Text-to-Speech
 - Transcription
 - Voice AI
 website: https://deepgram.com/

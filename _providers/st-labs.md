@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-21'
 name: ST Labs
 nav: Providers
 network: true
-overview: 'ST Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Service Management, ITSM, IT Operations, and AI Agents.
+overview: 'ST Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ITSM, IT Operations, AI Agents, and Workflow-Automation.
 
 
   ST Labs'' developer surface includes pricing, signup flow, engineering blog, and 8 more developer resources.'
@@ -103,8 +103,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 18.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -122,11 +122,10 @@ security:
 slug: st-labs
 tags:
 - Company
-- IT Service Management
 - ITSM
 - IT Operations
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Service Desk
 - Digital Twin
 - Enterprise Software

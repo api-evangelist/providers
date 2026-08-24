@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Self-serve informational API on the RBC External Developer Portal that accepts a postal code or keyword search and returns the address and hours of operation of the closest RBC branch, or a list of ne
@@ -123,7 +123,7 @@ modified: '2026-07-23'
 name: Royal Bank of Canada
 nav: Providers
 network: true
-overview: 'Royal Bank of Canada publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Big Six, and Payments.
+overview: 'Royal Bank of Canada publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Big Six, and Payments.
 
 
   Royal Bank of Canada''s developer surface includes documentation, engineering blog, getting-started guide, signup flow, API reference, and 8 more developer resources.'
@@ -131,7 +131,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 20.5
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -141,15 +141,15 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.5
+  previous_composite: 20.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -158,7 +158,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: rbc
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Big Six

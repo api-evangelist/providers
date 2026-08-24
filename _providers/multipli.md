@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-20'
 name: Multipli
 nav: Providers
 network: true
-overview: 'Multipli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, DeFi, Stablecoin, and Yield.
+overview: 'Multipli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, DeFi, Stablecoins, and Yield.
 
 
   Multipli''s developer surface includes documentation, getting-started guide, engineering blog, sandbox, signup flow, and 9 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 19.0
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -114,9 +114,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 22.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/multipli/refs/heads/main/screenshots/multipli-2026-08-07T184437.png
 security:
@@ -129,7 +129,7 @@ tags:
 - Company
 - Crypto
 - DeFi
-- Stablecoin
+- Stablecoins
 - Yield
 - Real World Assets
 - Tokenization

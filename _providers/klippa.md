@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Flagship REST API for end-to-end document AI — OCR, classification, extraction, conversion (JSON/XML/PDF/CSV/XLSX/UBL), verification, fraud detection, anonymization. API-key auth.
@@ -95,7 +95,7 @@ modified: '2026-05-08'
 name: Klippa
 nav: Providers
 network: true
-overview: 'Klippa publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Document AI, IDP, OCR, and Verification.
+overview: 'Klippa publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Document AI, IDP, OCR, and Verification.
 
 
   Klippa''s developer surface includes pricing, GitHub presence, engineering blog, and 7 more developer resources.'
@@ -111,7 +111,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.4
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -121,9 +121,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klippa/refs/heads/main/screenshots/klippa-2026-06-20T184105.png
 security:
@@ -137,7 +137,7 @@ security:
   summary_line: security.txt · contact published
 slug: klippa
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - IDP
 - OCR

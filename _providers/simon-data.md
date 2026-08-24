@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -295,8 +295,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: simon-data-mcp.yml
-  slug: simon-data-mcpyml
+  name: Simon Data MCP Server
+  slug: simon-data-mcp-server
 modified: '2026-08-13'
 name: Simon Data
 nav: Providers
@@ -336,7 +336,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.8
-  delta: -15.3
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -346,7 +346,7 @@ score:
     discoverability: 87.0
     governance: 41.7
     operational_transparency: 65.8
-  previous_composite: 82.1
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,9 +357,9 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/screenshots/simon-data-2026-06-20T193927.png
 security:
 - kind: authentication

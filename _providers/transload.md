@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 22
 apis:
 - description: The Admin API from Transload — 36 operation(s) for admin.
@@ -240,13 +240,13 @@ image: https://bookface-images.s3.amazonaws.com/small_logos/1bddf9622d95fa25a8b1
 layout: provider
 mcp_servers:
 - description: ''
-  name: transload-mcp.yml
-  slug: transload-mcpyml
+  name: Transload MCP Server
+  slug: transload-mcp-server
 modified: '2026-07-21'
 name: Transload
 nav: Providers
 network: true
-overview: 'Transload publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Ai Results API, Artifacts API, and 19 more. Tagged areas include Company, Logistics, Freight, Computer Vision, and Warehouses.
+overview: 'Transload publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Ai Results API, Artifacts API, and 19 more. Tagged areas include Company, Logistics, Freight, Computer-Vision, and Warehouses.
 
 
   Transload''s developer surface includes authentication, support, documentation, API reference, and 12 more developer resources.'
@@ -254,7 +254,7 @@ random_paper: 2
 score:
   band: thin
   composite: 29.8
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -264,7 +264,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 29.4
+  previous_composite: 29.8
   provenance:
     conformance: derived
     contracts:
@@ -274,8 +274,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -291,11 +291,11 @@ tags:
 - Company
 - Logistics
 - Freight
-- Computer Vision
+- Computer-Vision
 - Warehouses
 - Supply Chain
-- Measurement
-- Cameras
+- Measurements
+- Camera
 - Trucking
 website: https://transload.io
 ---

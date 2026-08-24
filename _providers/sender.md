@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -105,7 +105,7 @@ modified: '2026-07-21'
 name: Sender
 nav: Providers
 network: true
-overview: 'Sender is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Wallet, Web3, and Blockchain.
+overview: 'Sender is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Wallets, Web3, and Blockchain.
 
 
   Sender''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 10 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 20.3
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 21.0
+  previous_composite: 20.3
   provenance:
     conformance: first-party
   regulatory:
@@ -132,8 +132,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -152,7 +152,7 @@ slug: sender
 tags:
 - Company
 - Crypto
-- Wallet
+- Wallets
 - Web3
 - Blockchain
 - Ethereum

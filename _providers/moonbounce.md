@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -199,13 +199,13 @@ image: https://framerusercontent.com/assets/qhocdI2pyd7eqIyEeG1ZxNPvsgw.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: moonbounce-mcp.yml
-  slug: moonbounce-mcpyml
+  name: Moonbounce MCP Server
+  slug: moonbounce-mcp-server
 modified: '2026-07-20'
 name: Moonbounce
 nav: Providers
 network: true
-overview: 'Moonbounce publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch Processing API, Create Jobs API, Get Jobs API, and 1 more. Tagged areas include Company, Ai Ml, Content Moderation, Trust And Safety, and AI Governance.
+overview: 'Moonbounce publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch Processing API, Create Jobs API, Get Jobs API, and 1 more. Tagged areas include Company, Ai Ml, Content Moderation, Trust and Safety, and AI Governance.
 
 
   The Moonbounce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -216,7 +216,7 @@ random_paper: 6
 score:
   band: developing
   composite: 49.4
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.8
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,8 +243,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/screenshots/moonbounce-2026-08-07T184233.png
 security:
@@ -261,7 +261,7 @@ tags:
 - Company
 - Ai Ml
 - Content Moderation
-- Trust And Safety
+- Trust and Safety
 - AI Governance
 - Policy Enforcement
 - Content Evaluation

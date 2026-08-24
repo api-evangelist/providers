@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API v3 for the Eagle Eye Networks cloud VMS: devices (bridges, cameras, speakers, switches, multi-cameras), live and recorded media streaming, archiving/exports/downloads, locations/floors/layout'
@@ -162,9 +162,9 @@ description: Eagle Eye Networks is a cloud video surveillance and video manageme
 image: https://www.een.com/wp-content/uploads/2017/08/Eagle-Eye-Devices-4.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: eagle-eye-networks-mcp.yml
-  slug: eagle-eye-networks-mcpyml
+- description: Candidate MCP server surfacing the Eagle Eye Video API Platform (v3) operations as tools. No official hosted Eagle Eye MCP server was found at capture time; this tool list is derived from documented A
+  name: Eagle Eye Networks MCP Server
+  slug: eagle-eye-networks-mcp-server
 modified: '2026-07-18'
 name: Eagle Eye Networks
 nav: Providers
@@ -185,7 +185,7 @@ scopes:
 score:
   band: thin
   composite: 39.1
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -195,14 +195,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 38.2
-  previous_composite: 45.0
+  previous_composite: 39.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eagle-eye-networks/refs/heads/main/screenshots/eagle-eye-networks-2026-07-25T212634.png
 security:
 - kind: authentication
@@ -220,12 +220,12 @@ tags:
 - Video Surveillance
 - Video Management
 - Cloud Video
-- Cameras
+- Camera
 - Physical Security
 - Video Analytics
 - License Plate Recognition
 - Streaming
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 website: https://www.een.com/
 ---

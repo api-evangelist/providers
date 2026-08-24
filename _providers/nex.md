@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -254,9 +254,9 @@ description: 'Nex is the workflow execution and context layer for AI-native busi
 image: https://raw.githubusercontent.com/nex-crm/docs/main/logo/nex-logo-light.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: nex-mcp.yml
-  slug: nex-mcpyml
+- description: Nex ships its context/memory surface to AI agents as a Model Context Protocol (MCP) server delivered through the `nex` CLI ("organizational context & memory for AI agents via MCP"). It connects email,
+  name: Nex MCP Server
+  slug: nex-mcp-server
 modified: '2026-07-20'
 name: Nex
 nav: Providers
@@ -295,8 +295,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/screenshots/nex-2026-08-07T185140.png
 security:
@@ -316,9 +316,8 @@ tags:
 - Context
 - Memory
 - MCP
-- Model Context Protocol
-- Workflow Automation
-- Integrations
+- Workflow-Automation
+- Integration
 - Developer API
 website: https://nex.ai
 ---

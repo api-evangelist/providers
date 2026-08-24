@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Interac Hub is an HTTP API that simplifies digital identity verification. Relying parties obtain verified identity data through financial-institution authentication (Interac Verification Service, '
@@ -120,7 +120,7 @@ modified: '2026-07-23'
 name: Interac
 nav: Providers
 network: true
-overview: 'Interac publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Payments, Canada, Interac, and Digital Identity.
+overview: 'Interac publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Payments, Canada, Interac, and Digital Identity.
 
 
   Interac''s developer surface includes documentation, engineering blog, getting-started guide, support, authentication, sandbox, and 15 more developer resources.'
@@ -132,18 +132,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.4
-  delta: -0.6
+  composite: 29.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 48.2
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 29.0
+  previous_composite: 29.5
   provenance:
     conformance: first-party
     skills: derived
@@ -153,8 +153,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/screenshots/interac-2026-07-25T222655.png
 security:
@@ -168,7 +168,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: interac
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - Canada
 - Interac

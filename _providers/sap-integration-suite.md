@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -176,6 +176,10 @@ collections:
   name: SAP API Management API Products Variables API
   slug: open-sap-integration-suite-variables-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -389,7 +393,7 @@ jsonld:
   property_count: 6
   slug: sap-integration-suite-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: SAP Integration Suite
 nav: Providers
 network: true
@@ -399,7 +403,7 @@ overview: 'SAP Integration Suite publishes 11 APIs on the [APIs.io](https://apis
   The SAP Integration Suite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP Integration Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 28 more developer resources.'
+  SAP Integration Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 29 more developer resources.'
 plans:
 - name: Sap Integration Suite Plans Pricing
   plan_count: 1
@@ -438,18 +442,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.8
-  delta: -8.6
+  composite: 47.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.0
     developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 55.4
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -457,9 +461,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/screenshots/sap-integration-suite-2026-06-20T193428.png
 security:
 - kind: authentication

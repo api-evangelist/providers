@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Catena's banking and governance API for AI agents - agent identity, custodial and non-custodial accounts, fiat and stablecoin payments, yield, and policy-enforced spending controls. Currently in Priva
@@ -118,8 +118,8 @@ image: https://catena.com/images/og/pages/home.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: catena-mcp.yml
-  slug: catena-mcpyml
+  name: Catena MCP Server
+  slug: catena-mcp-server
 modified: '2026-07-18'
 name: Catena
 nav: Providers
@@ -131,18 +131,18 @@ overview: 'Catena publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 11
 score:
   band: emerging
-  composite: 16.9
-  delta: -5.7
+  composite: 18.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 22.6
+  previous_composite: 18.0
   provenance:
     mcp: first-party
   regulatory:
@@ -151,9 +151,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catena/refs/heads/main/screenshots/catena-2026-07-25T204808.png
 security:
 - kind: domain-security

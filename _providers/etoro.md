@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -1255,16 +1255,16 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: eToro MCP Server
+  slug: etoro-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp-2
+  name: eToro MCP Server
+  slug: etoro-mcp-server-2
 modified: '2026-06-13'
 name: eToro
 nav: Providers
 network: true
-overview: 'eToro publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agent Portfolios API, Asset Explorer API, Attachments API, and 19 more. Tagged areas include Social Trading, Copy Trading, Investing, Market Data, and Portfolio Management.
+overview: 'eToro publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agent Portfolios API, Asset Explorer API, Attachments API, and 19 more. Tagged areas include Social Trading, Copy Trading, Investing, Market Data, and Portfolio-Management.
 
 
   The eToro catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1294,7 +1294,7 @@ rules:
 score:
   band: thin
   composite: 33.7
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -1310,7 +1310,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 39.3
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1324,9 +1324,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/screenshots/etoro-2026-06-20T180841.png
 security:
 - kind: domain-security
@@ -1339,7 +1339,7 @@ tags:
 - Copy Trading
 - Investing
 - Market Data
-- Portfolio Management
+- Portfolio-Management
 - Fintech
 - Trading
 - Stocks

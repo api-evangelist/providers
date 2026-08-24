@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -414,7 +414,7 @@ modified: '2026-05-30'
 name: E2B
 nav: Providers
 network: true
-overview: 'E2B publishes 12 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, admin API, api-keys API, and 9 more. Tagged areas include AI, Agents, Code Execution, Code Interpreter, and Sandboxes.
+overview: 'E2B publishes 12 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, admin API, api-keys API, and 9 more. Tagged areas include Artificial Intelligence, Agents, Code Execution, Code Interpreter, and Sandboxes.
 
 
   The E2B catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -444,7 +444,7 @@ rules:
 score:
   band: strong
   composite: 65.5
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -454,7 +454,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 69.6
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     contracts:
@@ -462,8 +462,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/screenshots/e2b-dev-2026-06-20T180353.png
 security:
@@ -481,17 +481,17 @@ security:
   summary_line: security.txt · contact published
 slug: e2b-dev
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Code Execution
 - Code Interpreter
 - Sandboxes
 - Firecracker
-- microVMs
+- MicroVMs
 - Computer Use
 - Desktop Sandbox
 - Templates
 - MCP
-- Open Source
+- Open-Source
 website: https://e2b.dev
 ---

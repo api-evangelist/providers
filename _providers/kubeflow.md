@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-08-15'
 name: Kubeflow
 nav: Providers
 network: true
-overview: 'Kubeflow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Experiments API, Health API, Pipelines API, and 1 more. Tagged areas include AI, Deep Learning, Kubernetes, Machine Learning, and MLOps.
+overview: 'Kubeflow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Experiments API, Health API, Pipelines API, and 1 more. Tagged areas include Artificial Intelligence, Deep Learning, Kubernetes, Machine-Learning, and MLOps.
 
 
   Kubeflow''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 13 more developer resources.'
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.3
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -195,7 +195,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 35.6
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +203,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/screenshots/kubeflow-2026-06-20T184203.png
 security:
@@ -218,13 +218,13 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: kubeflow
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Serving
 - Model Training
-- Open Source
+- Open-Source
 website: https://www.kubeflow.org
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Hotel search, live availability, prebook, payment, booking and static content.
@@ -154,9 +154,9 @@ description: 'Despegar.com (NYSE: DESP) is the leading online travel company in 
 image: https://files.readme.io/45785f4-brandmark-blue.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: despegarcom-mcp.yml
-  slug: despegarcom-mcpyml
+- description: Despegar publishes official hosted MCP (Model Context Protocol) servers for its B2B travel API, exposing flight and hotel search/cart tools over JSON-RPC HTTP. Authentication is handled server-side vi
+  name: Despegar.com MCP Server
+  slug: despegarcom-mcp-server
 modified: '2026-07-18'
 name: Despegar.com
 nav: Providers
@@ -171,25 +171,25 @@ overview: 'Despegar.com publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 7
 score:
   band: thin
-  composite: 33.3
-  delta: -5.7
+  composite: 34.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 44.6
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 39.0
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/despegarcom/refs/heads/main/screenshots/despegarcom-2026-07-25T211800.png
 security:
 - kind: authentication
@@ -216,6 +216,6 @@ tags:
 - Latin America
 - B2B
 - MCP
-- Webhooks
+- Webhook
 website: http://www.despegar.com/
 ---

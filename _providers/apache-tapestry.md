@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Tapestry Component API provides Java annotations and interfaces for building reusable web components. Components are defined by a Java class and an HTML template file. The API includes @Component,
@@ -117,7 +117,7 @@ modified: '2026-04-19'
 name: Apache Tapestry
 nav: Providers
 network: true
-overview: 'Apache Tapestry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Java, Web Applications, Web Framework, and Open Source.
+overview: 'Apache Tapestry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Java, Web Applications, Web Framework, and Open-Source.
 
 
   Apache Tapestry''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 7 more developer resources.'
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.8
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -143,9 +143,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tapestry/refs/heads/main/screenshots/apache-tapestry-2026-06-20T172151.png
 security:
@@ -163,8 +163,8 @@ tags:
 - Java
 - Web Applications
 - Web Framework
-- Open Source
-- Ajax
+- Open-Source
+- AJAX
 use_cases:
 - description: Large-scale enterprise applications with reusable component libraries.
   name: Enterprise Java Web Applications

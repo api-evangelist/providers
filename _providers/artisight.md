@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The public WordPress REST API served from artisight.com. It is the marketing/content API for the corporate website — posts, pages, media, taxonomies, case studies and the site route index — not a clin
@@ -128,13 +128,13 @@ image: https://artisight.com/wp-content/uploads/2026/01/Artisight-Fallback-Homep
 layout: provider
 mcp_servers:
 - description: ''
-  name: artisight-mcp.yml
-  slug: artisight-mcpyml
+  name: Artisight MCP Server
+  slug: artisight-mcp-server
 modified: '2026-08-02'
 name: Artisight
 nav: Providers
 network: true
-overview: 'Artisight publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Computer Vision, and Hospitals.
+overview: 'Artisight publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Computer-Vision, and Hospitals.
 
 
   Artisight''s developer surface includes engineering blog, support, signup flow, authentication, and 19 more developer resources.'
@@ -146,18 +146,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 26.6
-  delta: 0.4
+  composite: 27.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.2
+  previous_composite: 27.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -167,8 +167,8 @@ score:
     regime: Health
     regime_id: health
     score: 61.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artisight/refs/heads/main/screenshots/artisight-2026-08-07T161741.png
 security:
@@ -185,11 +185,11 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Hospitals
 - Ambient Intelligence
 - Electronic Health Records
-- Machine Learning
+- Machine-Learning
 - Patient Monitoring
 - Internet of Things
 website: https://artisight.com/

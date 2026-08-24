@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Visualforce is the Salesforce framework for building custom user interfaces using tag-based markup and Apex server-side controllers. Developers use it to create pages, email templates, and PDF documen
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.3
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -143,9 +143,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 21.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/screenshots/visualforce-2026-06-20T201104.png
 security:

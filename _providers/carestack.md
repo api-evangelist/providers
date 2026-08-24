@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API surface for CareStack dental practice management, covering patient resources (patient information, health conditions, payment summaries, communications, treatment codes, documents) and pra
@@ -111,7 +111,7 @@ random_paper: 0
 score:
   band: thin
   composite: 37.6
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -121,7 +121,7 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 35.5
+  previous_composite: 37.6
   provenance:
     conformance: first-party
   regulatory:
@@ -130,8 +130,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carestack/refs/heads/main/screenshots/carestack-2026-07-25T204559.png
 security:
@@ -153,6 +153,6 @@ tags:
 - Revenue Cycle Management
 - Patient Engagement
 - Payments
-- SaaS
+- Software-as-a-Service
 website: https://www.carestack.com
 ---

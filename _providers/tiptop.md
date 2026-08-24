@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Server-side order-management endpoints for the Tiptop Direct integration: request capture, void (full or partial), and refund (full or partial) of orders created through the tiptop.js checkout, addres'
@@ -114,14 +114,14 @@ description: 'Tiptop (Tiptop Labs) is the payments company founded by Postmates 
 image: https://raw.githubusercontent.com/tiptopxyz/magento/master/view/adminhtml/web/images/tiptop-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: tiptop-mcp.yml
-  slug: tiptop-mcpyml
+- description: No official Tiptop MCP server was found (none in the docs, the tiptopxyz GitHub org, npm, or the MCP registries). This is a candidate tool list derived from the three documented Direct Order Managemen
+  name: Tiptop MCP Server
+  slug: tiptop-mcp-server
 modified: '2026-07-21'
 name: Tiptop
 nav: Providers
 network: true
-overview: 'Tiptop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, FinTech, Trade-In, and Checkout.
+overview: 'Tiptop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Trade-In, and Checkout.
 
 
   Tiptop''s developer surface includes documentation, getting-started guide, API reference, engineering blog, authentication, sandbox, and 12 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 19.0
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -139,7 +139,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 20.6
+  previous_composite: 19.0
   provenance:
     conformance: derived
     mcp: derived
@@ -149,8 +149,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -165,7 +165,7 @@ slug: tiptop
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Trade-In
 - Checkout
 - Commerce

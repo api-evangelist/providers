@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -174,13 +174,13 @@ rules:
     info: 2
     warn: 3
   slug: google-earth-engine-jsonschema-spectral-rules
-- effective_rule_count: 59
+- effective_rule_count: 58
   extends:
   - spectral:oas
   name: Google Earth Engine REST API Rules
-  rule_count: 18
+  rule_count: 17
   severity_counts:
-    error: 11
+    error: 10
     hint: 0
     info: 2
     warn: 5
@@ -192,18 +192,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.7
-  delta: -8.5
+  composite: 46.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.7
     developer_ergonomics: 52.4
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 54.2
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -211,9 +211,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/screenshots/google-earth-engine-2026-06-20T182158.png
 security:
 - kind: authentication

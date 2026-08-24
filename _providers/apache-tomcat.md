@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-04-19'
 name: Apache Tomcat
 nav: Providers
 network: true
-overview: 'Apache Tomcat publishes 3 APIs on the [APIs.io](https://apis.io/) network: applications API, server API, and sessions API. Tagged areas include Application Server, Java, JSP, Open Source, and Servlet.
+overview: 'Apache Tomcat publishes 3 APIs on the [APIs.io](https://apis.io/) network: applications API, server API, and sessions API. Tagged areas include Application Server, Java, JSP, Open-Source, and Servlet.
 
 
   Apache Tomcat''s developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, and 9 more developer resources.'
@@ -205,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/screenshots/apache-tomcat-2026-06-20T172155.png
 security:
@@ -227,7 +227,7 @@ tags:
 - Application Server
 - Java
 - JSP
-- Open Source
+- Open-Source
 - Servlet
 - Web Server
 use_cases:

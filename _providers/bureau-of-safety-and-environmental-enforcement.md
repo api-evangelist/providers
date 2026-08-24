@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The BSEE Well API provides multiregional offshore well information retrieval across Alaska, Atlantic, Gulf of America, and Pacific regions. Query by API well number, company name, well status, field n
@@ -87,7 +87,7 @@ modified: '2026-04-23'
 name: Bureau of Safety and Environmental Enforcement
 nav: Providers
 network: true
-overview: 'Bureau of Safety and Environmental Enforcement publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enforcement, Environment, Federal Government, Safety, and Offshore.
+overview: 'Bureau of Safety and Environmental Enforcement publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enforcement, Environment, Federal-Government, Safety, and Offshore.
 
 
   Bureau of Safety and Environmental Enforcement''s developer surface includes developer portal, engineering blog, and 6 more developer resources.'
@@ -103,7 +103,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.4
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -113,15 +113,15 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 16.4
+  previous_composite: 15.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-safety-and-environmental-enforcement/refs/heads/main/screenshots/bureau-of-safety-and-environmental-enforcement-2026-06-20T173818.png
 security:
@@ -137,7 +137,7 @@ slug: bureau-of-safety-and-environmental-enforcement
 tags:
 - Enforcement
 - Environment
-- Federal Government
+- Federal-Government
 - Safety
 - Offshore
 - Oil and Gas

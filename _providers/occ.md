@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Search for Community Reinvestment Act (CRA), enforcement, and institution data for OCC-regulated national banks, federal savings associations, and federal branches and agencies of foreign banking orga
@@ -112,7 +112,7 @@ modified: '2026-07-25'
 name: Office of the Comptroller of the Currency (OCC)
 nav: Providers
 network: true
-overview: 'Office of the Comptroller of the Currency (OCC) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Federal, Regulation, National Banks, and Financial Institutions.
+overview: 'Office of the Comptroller of the Currency (OCC) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Federal, Regulations, National Banks, and Financial Institutions.
 
 
   The Office of the Comptroller of the Currency (OCC) catalog on APIs.io includes 1 JSON-LD context.
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.2
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -141,15 +141,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.0
+  previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/screenshots/occ-2026-06-20T190555.png
 security:
@@ -161,7 +161,7 @@ slug: occ
 tags:
 - Banking
 - Federal
-- Regulation
+- Regulations
 - National Banks
 - Financial Institutions
 - CRA

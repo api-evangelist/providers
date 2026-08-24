@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 3
@@ -209,7 +209,7 @@ modified: '2026-04-19'
 name: Apache NiFi
 nav: Providers
 network: true
-overview: 'Apache NiFi publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Access API, Connections API, Controller Services API, and 1 more. Tagged areas include Data Integration, Dataflow, ETL, IoT, and Streaming.
+overview: 'Apache NiFi publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Access API, Connections API, Controller Services API, and 1 more. Tagged areas include Data Integration, Dataflows, ETL, IoT, and Streaming.
 
 
   Apache NiFi''s developer surface includes authentication, developer portal, engineering blog, and 17 more developer resources.'
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.8
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -235,7 +235,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 35.0
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +243,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/screenshots/apache-nifi-2026-06-20T172124.png
 security:
@@ -263,7 +263,7 @@ security:
 slug: apache-nifi
 tags:
 - Data Integration
-- Dataflow
+- Dataflows
 - ETL
 - IoT
 - Streaming

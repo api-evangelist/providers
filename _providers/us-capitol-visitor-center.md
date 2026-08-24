@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The US Capitol Visitor Center provides visitor information, guided tours, educational programs, and specialty tours of the United States Capitol building. While no public developer API is available, t
@@ -62,7 +62,7 @@ modified: '2026-05-03'
 name: US Capitol Visitor Center
 nav: Providers
 network: true
-overview: 'US Capitol Visitor Center publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Legislative Branch, Tourism, Education, and US Capitol.
+overview: 'US Capitol Visitor Center publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Legislative Branch, Tourism, Education, and US Capitol.
 
 
   The US Capitol Visitor Center catalog on APIs.io includes 1 JSON-LD context.'
@@ -78,7 +78,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.9
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -88,15 +88,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 14.4
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-capitol-visitor-center/refs/heads/main/screenshots/us-capitol-visitor-center-2026-06-20T200616.png
 security:
@@ -106,7 +106,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: us-capitol-visitor-center
 tags:
-- Federal Government
+- Federal-Government
 - Legislative Branch
 - Tourism
 - Education

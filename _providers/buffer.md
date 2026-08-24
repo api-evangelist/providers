@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API for scheduling and publishing posts, managing social media channels, handling content ideas and idea groups, post templates, and accessing normalized post metrics across 11 major social me
@@ -228,13 +228,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buffer.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: buffer-mcp.yml
-  slug: buffer-mcpyml
+  name: Buffer MCP Server
+  slug: buffer-mcp-server
 modified: '2026-08-13'
 name: Buffer
 nav: Providers
 network: true
-overview: 'Buffer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Scheduling, Analytics, Publishing, and Content Management.
+overview: 'Buffer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social-Media, Scheduling, Analytics, Publishing, and Content Management.
 
 
   Buffer''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 36 more developer resources.'
@@ -255,7 +255,7 @@ scopes:
 score:
   band: strong
   composite: 64.8
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -265,13 +265,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 65.9
+  previous_composite: 64.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/screenshots/buffer-2026-08-17T123104.png
 security:
@@ -289,7 +289,7 @@ security:
   summary_line: Hackerone · contact published
 slug: buffer
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Analytics
 - Publishing

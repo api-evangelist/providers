@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ modified: '2026-05-19'
 name: United States Fire Administration
 nav: Providers
 network: true
-overview: 'United States Fire Administration publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Disaster Declarations API. Tagged areas include Federal Government, Fire Safety, Emergency Management, Public Safety, and FEMA.
+overview: 'United States Fire Administration publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Disaster Declarations API. Tagged areas include Federal-Government, Fire Safety, Emergency Management, Public Safety, and FEMA.
 
 
   The United States Fire Administration catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -142,19 +142,19 @@ rules:
     warn: 3
   slug: united-states-fire-administration-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.8
-  delta: -1.9
+  band: thin
+  composite: 26.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
+    contract_governance: 39.4
     contract_quality: 58.0
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 30.3
+    governance: 39.4
     operational_transparency: 7.9
-  previous_composite: 27.7
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +168,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-fire-administration/refs/heads/main/screenshots/united-states-fire-administration-2026-06-20T200055.png
 security:
@@ -179,7 +179,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: united-states-fire-administration
 tags:
-- Federal Government
+- Federal-Government
 - Fire Safety
 - Emergency Management
 - Public Safety

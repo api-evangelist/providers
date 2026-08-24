@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ modified: '2026-05-19'
 name: Qiwi
 nav: Providers
 network: true
-overview: 'Qiwi publishes 1 API on the [APIs.io](https://apis.io/) network: Partner API. Tagged areas include Payments, Wallet, Payouts, Fintech, and Banking.
+overview: 'Qiwi publishes 1 API on the [APIs.io](https://apis.io/) network: Partner API. Tagged areas include Payments, Wallets, Payouts, Fintech, and Banking.
 
 
   Qiwi''s developer surface includes authentication, developer portal, support, and 6 more developer resources.'
@@ -146,7 +146,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.5
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -156,7 +156,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 29.6
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     contracts:
@@ -170,8 +170,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/screenshots/qiwi-2026-06-20T192337.png
 security:
@@ -186,7 +186,7 @@ security:
 slug: qiwi
 tags:
 - Payments
-- Wallet
+- Wallets
 - Payouts
 - Fintech
 - Banking

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 22
 apis:
 - description: Job applications management
@@ -296,13 +296,13 @@ image: https://d2dgum4gsvdsrq.cloudfront.net/assets/og_images/og-image-4d63c7488
 layout: provider
 mcp_servers:
 - description: ''
-  name: get-on-board-mcp.yml
-  slug: get-on-board-mcpyml
+  name: Get On Board MCP Server
+  slug: get-on-board-mcp-server
 modified: '2026-07-19'
 name: Get On Board
 nav: Providers
 network: true
-overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Board+ API, and 19 more. Tagged areas include Company, Recruitment, Jobs, Hiring, and ATS.
+overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Board+ API, and 19 more. Tagged areas include Company, Recruitment, Job, Hiring, and ATS.
 
 
   The Get On Board catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -312,18 +312,18 @@ overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 17
 score:
   band: developing
-  composite: 47.2
-  delta: -0.1
+  composite: 48.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 62.7
     developer_ergonomics: 51.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 47.3
+  previous_composite: 48.3
   provenance:
     conformance: derived
     contracts:
@@ -333,8 +333,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/get-on-board/refs/heads/main/screenshots/get-on-board-2026-07-25T215711.png
 security:
@@ -354,7 +354,7 @@ slug: get-on-board
 tags:
 - Company
 - Recruitment
-- Jobs
+- Job
 - Hiring
 - ATS
 - Talent

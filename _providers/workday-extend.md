@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -573,18 +573,18 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.4
-  delta: -18.7
+  composite: 44.8
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.6
     developer_ergonomics: 28.6
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 63.1
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -592,9 +592,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/screenshots/workday-extend-2026-06-20T201559.png
 security:
 - kind: authentication
@@ -616,9 +616,8 @@ tags:
 - Enterprise
 - Extensions
 - HCM
-- Human Capital Management
 - Integration
 - Orchestration
-- PaaS
+- Platform-as-a-Service
 website: https://www.workday.com/en-us/products/platform-product-extensions/app-development.html
 ---

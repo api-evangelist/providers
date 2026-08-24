@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Open dataset of global address points and ranges, released as cloud-native GeoParquet alongside the other Overture themes.
@@ -123,7 +123,7 @@ modified: '2026-05-23'
 name: Overture Maps Foundation
 nav: Providers
 network: true
-overview: 'Overture Maps Foundation publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Maps, Geospatial, Open Data, GeoParquet, and Open Source.
+overview: 'Overture Maps Foundation publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Maps, Geospatial, Open Data, GeoParquet, and Open-Source.
 
 
   Overture Maps Foundation''s developer surface includes documentation, GitHub presence, engineering blog, and 8 more developer resources.'
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.1
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -149,15 +149,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 18.3
+  previous_composite: 18.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overture-maps/refs/heads/main/screenshots/overture-maps-2026-06-20T191239.png
 security:
@@ -171,7 +171,7 @@ tags:
 - Geospatial
 - Open Data
 - GeoParquet
-- Open Source
+- Open-Source
 - Linux Foundation
 website: https://overturemaps.org/
 ---

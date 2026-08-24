@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ random_paper: 3
 score:
   band: thin
   composite: 31.0
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -137,7 +137,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 34.7
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -145,8 +145,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/screenshots/f5-distributed-cloud-services-2026-06-20T180955.png
 security:

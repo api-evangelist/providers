@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: Sainapse
 nav: Providers
 network: true
-overview: 'Sainapse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Customer Support, Customer Experience, and Support Automation.
+overview: 'Sainapse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Customer-Support, Customer Experience, and Support Automation.
 
 
   Sainapse''s developer surface includes support and 7 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 12
 score:
   band: minimal
   composite: 9.7
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -90,11 +90,11 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 8.9
+  previous_composite: 9.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -104,14 +104,14 @@ security:
 slug: sainapse
 tags:
 - Company
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - Customer Experience
 - Support Automation
 - Explainable AI
 - AI Agents
 - Enterprise AI
-- Machine Learning
+- Machine-Learning
 - Automation
 website: https://www.sainapse.ai/
 ---

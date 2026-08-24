@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-06-13'
 name: Cognito Forms
 nav: Providers
 network: true
-overview: 'Cognito Forms publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Files API, Forms API, and 2 more. Tagged areas include Forms, Form Builder, Form Entries, Workflow Automation, and Data Collection.
+overview: 'Cognito Forms publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Files API, Forms API, and 2 more. Tagged areas include Forms, Form Builder, Form Entries, Workflow-Automation, and Data Collection.
 
 
   The Cognito Forms catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -214,7 +214,7 @@ scopes:
 score:
   band: developing
   composite: 46.4
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -224,7 +224,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 52.9
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -232,9 +232,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/screenshots/cognito-forms-2026-06-20T174716.png
 security:
 - kind: authentication
@@ -250,7 +250,7 @@ tags:
 - Forms
 - Form Builder
 - Form Entries
-- Workflow Automation
+- Workflow-Automation
 - Data Collection
 - OData
 website: https://www.cognitoforms.com

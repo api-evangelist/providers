@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ modified: '2026-05-23'
 name: Luma AI
 nav: Providers
 network: true
-overview: 'Luma AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Concepts API, Credits API, Generations API, and 3 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Image, and Text To Video.
+overview: 'Luma AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Concepts API, Credits API, Generations API, and 3 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Image, and Text-to-Video.
 
 
   Luma AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 42.7
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +190,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/screenshots/luma-labs-2026-06-20T184752.png
 security:
@@ -209,8 +209,8 @@ tags:
 - Generative AI
 - Video
 - Image
-- Text To Video
-- Image To Video
+- Text-to-Video
+- Image-to-Video
 - Upscaling
 - Reframing
 - Dream Machine

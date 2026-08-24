@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -238,8 +238,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/webscrapin
 layout: provider
 mcp_servers:
 - description: ''
-  name: webscraping-ai-mcp.yml
-  slug: webscraping-ai-mcpyml
+  name: WebScraping.AI MCP Server
+  slug: webscrapingai-mcp-server
 modified: '2026-08-09'
 name: WebScraping.AI
 nav: Providers
@@ -260,7 +260,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.7
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -270,7 +270,7 @@ score:
     discoverability: 100.0
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 64.7
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,8 +281,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/screenshots/webscraping-ai-2026-06-20T201335.png
 security:
@@ -301,15 +301,13 @@ tags:
 - Proxies
 - Artificial Intelligence
 - Browser Automation
-- Model Context Protocol
+- MCP
 - Development
 - Public APIs
-- ai
-- html
-- mcp
-- llm-tools
-- structured-data
-- headless-browser
-- captcha
+- HTML
+- LLM Tools
+- Structured Data
+- Headless Browser
+- CAPTCHA
 website: https://webscraping.ai/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -81,7 +81,7 @@ modified: '2026-07-25'
 name: Character.AI
 nav: Providers
 network: true
-overview: 'Character.AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, Chatbots, Personas, and Generative AI.
+overview: 'Character.AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Chatbots, Personas, and Generative AI.
 
 
   Character.AI''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.9
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -107,9 +107,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/character-ai/refs/heads/main/screenshots/character-ai-2026-06-20T174219.png
 security:
@@ -119,7 +119,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: character-ai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Chatbots
 - Personas

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -195,8 +195,8 @@ image: https://www.nutrical.co/common/OpenGraph.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: nutrical-solution-ltd-mcp.yml
-  slug: nutrical-solution-ltd-mcpyml
+  name: Nutrical Solution Ltd MCP Server
+  slug: nutrical-solution-ltd-mcp-server
 modified: '2026-07-20'
 name: Nutrical Solution Ltd
 nav: Providers
@@ -209,7 +209,7 @@ random_paper: 10
 score:
   band: thin
   composite: 34.5
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -219,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 32.3
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +236,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png
 security:
@@ -259,7 +259,7 @@ tags:
 - Meal Plans
 - Food Labeling
 - Compliance
-- Restaurants
+- Restaurant
 - GCC
 website: https://www.nutrical.co
 ---

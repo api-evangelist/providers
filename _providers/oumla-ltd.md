@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The addresses API from Oumla Ltd — 5 operation(s) for addresses.
@@ -220,8 +220,8 @@ image: https://oumla.com/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: oumla-ltd-mcp.yml
-  slug: oumla-ltd-mcpyml
+  name: Oumla Ltd MCP Server
+  slug: oumla-ltd-mcp-server
 modified: '2026-07-20'
 name: Oumla Ltd
 nav: Providers
@@ -234,7 +234,7 @@ random_paper: 8
 score:
   band: developing
   composite: 51.0
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 47.5
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     contracts:
@@ -260,8 +260,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/screenshots/oumla-ltd-2026-08-07T191043.png
 security:

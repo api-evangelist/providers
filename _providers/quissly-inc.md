@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Quissly's REST API powers AI product search (QSearch) and the conversational shopping assistant (QChat) for any e-commerce platform, alongside native Shopify, WooCommerce and CS-Cart plugins.
@@ -125,7 +125,7 @@ modified: '2026-07-20'
 name: Quissly Inc.
 nav: Providers
 network: true
-overview: 'Quissly Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Search, Artificial Intelligence, and Conversational Commerce.
+overview: 'Quissly Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Search, Artificial Intelligence, and Conversational Commerce.
 
 
   Quissly Inc.''s developer surface includes documentation, pricing, signup flow, engineering blog, changelog, and 15 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 19
 score:
   band: thin
   composite: 27.5
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -147,9 +147,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 30.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -163,7 +163,7 @@ security:
 slug: quissly-inc
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Search
 - Artificial Intelligence
 - Conversational Commerce

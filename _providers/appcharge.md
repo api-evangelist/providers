@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -364,9 +364,9 @@ description: Appcharge is a monetization and payments platform (merchant of reco
 image: https://appcharge.com/sharing-whatsapp.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: appcharge-mcp.yml
-  slug: appcharge-mcpyml
+- description: Appcharge ships an official hosted MCP server. It is declared in the public appcharge-skills repo (.mcp.json) and advertised by the Claude/Cursor plugin manifests. The endpoint is live (returns 401 "M
+  name: Appcharge MCP Server
+  slug: appcharge-mcp-server
 modified: '2026-07-18'
 name: Appcharge
 nav: Providers
@@ -391,7 +391,7 @@ scopes:
 score:
   band: strong
   composite: 65.6
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -401,7 +401,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 65.1
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -418,8 +418,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/screenshots/appcharge-2026-07-25T200716.png
 security:
@@ -450,6 +450,6 @@ tags:
 - Checkout
 - In-Game Purchases
 - Web Store
-- eCommerce
+- E-Commerce
 website: https://appcharge.com/
 ---

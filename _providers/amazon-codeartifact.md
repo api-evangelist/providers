@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -1606,8 +1606,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-codeartifact-mcp.yml
-  slug: amazon-codeartifact-mcpyml
+  name: Amazon CodeArtifact MCP Server
+  slug: amazon-codeartifact-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeArtifact
 nav: Providers
@@ -1644,18 +1644,18 @@ rules:
   slug: amazon-codeartifact-spectral-rules
 score:
   band: strong
-  composite: 58.0
-  delta: -5.0
+  composite: 58.4
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 77.5
     developer_ergonomics: 57.1
     discoverability: 92.6
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 18.4
-  previous_composite: 63.0
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1665,9 +1665,9 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/screenshots/amazon-codeartifact-2026-07-25T195952.png
 security:
 - kind: authentication

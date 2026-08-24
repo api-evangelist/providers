@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -342,7 +342,7 @@ rules:
 score:
   band: developing
   composite: 45.9
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -352,7 +352,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 68.4
-  previous_composite: 50.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -366,8 +366,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/screenshots/oso-2026-06-20T191220.png
 security:

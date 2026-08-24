@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Symetra's Benefits Administration API enables HR platforms, benefits administrators, and technology partners to integrate with Symetra's group benefits products. The API supports automated data exchan
@@ -108,7 +108,7 @@ modified: '2026-05-03'
 name: Symetra Financial
 nav: Providers
 network: true
-overview: 'Symetra Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Benefits, Employee Benefits, Financial Services, and Insurance.
+overview: 'Symetra Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Benefits, Employee Benefits, Financial-Services, and Insurance.
 
 
   The Symetra Financial catalog on APIs.io includes 1 JSON-LD context.
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.4
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -153,15 +153,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 22.9
+  previous_composite: 20.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -177,7 +177,7 @@ tags:
 - Annuities
 - Benefits
 - Employee Benefits
-- Financial Services
+- Financial-Services
 - Insurance
 - Life Insurance
 - Stop Loss

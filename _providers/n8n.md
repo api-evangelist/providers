@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -38,7 +38,7 @@ agentic_access:
   operation_count: 73
   slug: n8n-agentic-access
   summary_line: 73 operations · 50 acting · 3 human-in-the-loop
-api_count: 15
+api_count: 16
 apis:
 - description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps tha
   name: N8n
@@ -85,7 +85,10 @@ apis:
 - description: Operations about workflows
   name: N8n Workflow API
   slug: n8n-workflow-api
-artifact_total: 58
+- description: Instance-scoped REST API (path /api/v1) for managing workflows, executions, credentials, users, tags, variables, source control, security audit, and data tables. API-key auth via X-N8N-API-KEY header.
+  name: n8n Public API
+  slug: n8n-public-api
+artifact_total: 59
 collections:
 - collection_type: open
   name: API Collection
@@ -217,7 +220,7 @@ common:
   type: MCPServer
   url: https://blog.n8n.io/n8n-mcp-server/
 created: '2025-06-06'
-description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps than any other tool.
+description: n8n is a fair-code workflow automation and iPaaS platform with AI-agent tooling. It exposes an instance-scoped REST API (public OpenAPI 3.0 contract), MCP server/client capabilities via built-in nodes, and an llms.txt documentation index.
 features:
 - 'Starter €20/mo: 2,500 executions, unlimited users, 1 project'
 - 'Pro €50/mo: 10K executions, 3 projects, admin roles, 7-day insights'
@@ -253,14 +256,14 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
-name: N8n
+modified: '2026-08-21'
+name: n8n
 nav: Providers
 network: true
-overview: 'N8n publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Audit API, CommunityPackage API, Credential API, and 11 more. Tagged areas include Agents, Artificial Intelligence, and Integrations.
+overview: 'n8n publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audit API, CommunityPackage API, Credential API, and 12 more. Tagged areas include Agents, Artificial Intelligence, Integration, Workflow Automation, and iPaaS.
 
 
-  N8n''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 13 more developer resources.'
+  n8n''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: N8N Plans Pricing
   plan_count: 4
@@ -272,15 +275,15 @@ rate_limits:
   slug: n8n-rate-limits
 score:
   band: developing
-  composite: 49.3
-  delta: -0.9
+  composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 0.0
     contract_quality: 59.7
     developer_ergonomics: 50.0
-    discoverability: 55.6
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 50.2
@@ -291,8 +294,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/screenshots/n8n-2026-06-20T185922.png
 security:
@@ -316,6 +319,14 @@ slug: n8n
 tags:
 - Agents
 - Artificial Intelligence
-- Integrations
+- Integration
+- Workflow Automation
+- iPaaS
+- No-Code
+- Low-Code
+- AI Agents
+- Orchestration
+- DevOps
+- MCP
 website: https://n8n.io/
 ---

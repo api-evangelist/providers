@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Country-by-country travel advisories (Levels 1-4) issued by the Bureau of Consular Affairs, with RSS distribution.
@@ -102,7 +102,7 @@ modified: '2026-04-28'
 name: Department of State
 nav: Providers
 network: true
-overview: 'Department of State publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Foreign Affairs, Travel, Consular, and Visas.
+overview: 'Department of State publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Foreign Affairs, Travel, Consular, and Visas.
 
 
   The Department of State catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -132,7 +132,7 @@ rules:
 score:
   band: emerging
   composite: 15.9
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -142,15 +142,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 18.1
+  previous_composite: 15.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -159,7 +159,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: department-of-state
 tags:
-- Federal Government
+- Federal-Government
 - Foreign Affairs
 - Travel
 - Consular

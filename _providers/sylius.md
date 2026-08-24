@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Sylius REST API is built on API Platform and provides endpoints for all core eCommerce operations including product catalog management, order processing, customer management, payment handling, shi
@@ -98,7 +98,7 @@ modified: 2026-06-13
 name: Sylius
 nav: Providers
 network: true
-overview: 'Sylius publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include eCommerce, Open Source, Headless Commerce, REST API, and Symfony.
+overview: 'Sylius publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include E-Commerce, Open-Source, Headless Commerce, REST API, and Symfony.
 
 
   The Sylius catalog on APIs.io includes 1 JSON-LD context.
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.4
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -127,15 +127,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 27.9
+  previous_composite: 26.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sylius/refs/heads/main/screenshots/sylius-2026-06-20T194814.png
 security:
@@ -145,14 +145,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: sylius
 tags:
-- eCommerce
-- Open Source
+- E-Commerce
+- Open-Source
 - Headless Commerce
 - REST API
 - Symfony
 - PHP
-- Products
-- Orders
+- Product
+- Order
 - Payments
 - Shipments
 - Customers

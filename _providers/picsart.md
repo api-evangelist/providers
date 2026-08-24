@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -325,14 +325,14 @@ description: Picsart is a creative-technology company whose Picsart Enterprise /
 image: https://files.readme.io/cf02155-Enterprise.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: picsart-mcp.yml
-  slug: picsart-mcpyml
+- description: Official Picsart Creative APIs Model Context Protocol (MCP) server. Exposes the same functionality as the REST APIs through MCP so AI editors (Cursor, Windsurf, Claude Desktop, GitHub Copilot) and age
+  name: Picsart MCP Server
+  slug: picsart-mcp-server
 modified: '2026-07-20'
 name: Picsart
 nav: Providers
 network: true
-overview: 'Picsart publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Audio API, Classification API, and 20 more. Tagged areas include Company, Consumer, Images, Image Processing, and Video.
+overview: 'Picsart publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Audio API, Classification API, and 20 more. Tagged areas include Company, Consumer, Image, Image Processing, and Video.
 
 
   Picsart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
@@ -344,7 +344,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.4
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -354,7 +354,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 59.0
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,8 +365,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/screenshots/picsart-2026-08-17T081220.png
 security:
@@ -382,11 +382,11 @@ slug: picsart
 tags:
 - Company
 - Consumer
-- Images
+- Image
 - Image Processing
 - Video
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - Media
 - Content Creation
 - Developer Tools

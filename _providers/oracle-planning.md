@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: RESTful API for Oracle Planning and Budgeting Cloud Service providing access to planning applications, data, and metadata. Use the Planning REST APIs to manage and execute jobs, work with members, app
@@ -85,6 +85,10 @@ apis:
   slug: oracle-epm-groovy-scripting-api
 artifact_total: 21
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -169,14 +173,14 @@ finops:
   slug: oracle-planning-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-planning.png
 layout: provider
-modified: '2026-03-16'
+modified: '2026-08-21'
 name: Oracle Planning
 nav: Providers
 network: true
 overview: 'Oracle Planning publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Budgeting, Cloud, Consolidation, Enterprise, and EPM.
 
 
-  Oracle Planning''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, training material, support, and 12 more developer resources.'
+  Oracle Planning''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, training material, support, and 13 more developer resources.'
 plans:
 - name: Oracle Planning Plans Pricing
   plan_count: 3
@@ -189,7 +193,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.3
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -199,9 +203,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 37.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-planning/refs/heads/main/screenshots/oracle-planning-2026-06-20T191139.png
 security:

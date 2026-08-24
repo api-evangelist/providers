@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -893,14 +893,14 @@ jsonld:
   slug: knock-app-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: knock-app-mcp.yml
-  slug: knock-app-mcpyml
+- description: Knock ships an official remote (hosted) MCP server plus a local MCP server bundled with the Agent Toolkit. The remote server exposes tools to interact with all Knock resources through the Management A
+  name: Knock MCP Server
+  slug: knock-mcp-server
 modified: '2026-06-20'
 name: Knock
 nav: Providers
 network: true
-overview: 'Knock publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Outbound Webhooks, Accounts API, API keys API, and 32 more. Tagged areas include Notifications, Messaging, Infrastructure, Workflows, and Cross-Channel.
+overview: 'Knock publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Outbound Webhooks, Accounts API, API keys API, and 32 more. Tagged areas include Notification, Messaging, Infrastructure, Workflows, and Cross-Channel.
 
 
   The Knock catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -951,18 +951,18 @@ rules:
   slug: knock-app-rules
 score:
   band: exemplar
-  composite: 71.5
-  delta: -3.2
+  composite: 71.8
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 75.0
     developer_ergonomics: 85.7
     discoverability: 77.8
-    governance: 43.2
+    governance: 45.5
     operational_transparency: 73.7
-  previous_composite: 74.7
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -978,8 +978,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/screenshots/knock-app-2026-06-20T184113.png
 security:
@@ -993,7 +993,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: knock-app
 tags:
-- Notifications
+- Notification
 - Messaging
 - Infrastructure
 - Workflows
@@ -1004,7 +1004,7 @@ tags:
 - In-App
 - Chat
 - Slack
-- Webhooks
+- Webhook
 - MCP
 - AI Agents
 - Developer Platform

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'Enigma''s primary programmatic surface: a Relay-style GraphQL API over the business knowledge graph. Query Brand, LegalEntity, OperatingLocation, Address, Person, and Industry entities via connection-b'
@@ -196,9 +196,9 @@ description: Enigma Analytics (Enigma Technologies) operates a knowledge graph o
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enigma-analytics.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: enigma-analytics-mcp.yml
-  slug: enigma-analytics-mcpyml
+- description: 'Remote MCP server for U.S. business intelligence: entity resolution, KYB verification, sanctions and negative-news screening, card-transaction analytics, and public-records search.'
+  name: Enigma Analytics MCP Server
+  slug: enigma-analytics-mcp-server
 modified: '2026-08-14'
 name: Enigma Analytics
 nav: Providers
@@ -224,7 +224,7 @@ scopes:
 score:
   band: developing
   composite: 48.7
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -234,13 +234,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 51.2
+  previous_composite: 48.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/screenshots/enigma-analytics-2026-07-25T213359.png
 security:

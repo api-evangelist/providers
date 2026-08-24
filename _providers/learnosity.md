@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: Server-side JSON API for the Learnosity platform. Endpoint families cover Item bank content (Items, Questions, Features, Activities, Tags, Pools, Templates, Workflows), learner sessions and responses,
@@ -241,8 +241,8 @@ image: https://learnosity.com/images/learnosity_logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: learnosity-mcp.yml
-  slug: learnosity-mcpyml
+  name: Learnosity MCP Server
+  slug: learnosity-mcp-server
 modified: '2026-07-19'
 name: Learnosity
 nav: Providers
@@ -259,7 +259,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.9
-  delta: 7.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -269,7 +269,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 46.5
+  previous_composite: 53.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -279,9 +279,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/screenshots/learnosity-2026-07-25T224755.png
 security:
 - kind: authentication

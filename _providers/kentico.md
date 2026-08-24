@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Auto-generated GraphQL API endpoint for each headless channel in Xperience by Kentico. Supports querying content items with filtering, sorting, pagination, linked items, language variants, taxonomy ta
@@ -239,8 +239,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kentico.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: kentico-mcp.yml
-  slug: kentico-mcpyml
+  name: Kentico MCP Server
+  slug: kentico-mcp-server
 modified: '2026-08-13'
 name: Kentico
 nav: Providers
@@ -261,7 +261,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.5
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -271,13 +271,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 63.9
+  previous_composite: 61.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png
 security:
@@ -306,7 +306,7 @@ tags:
 - REST
 - .NET
 - Headless
-- E-commerce
+- E-Commerce
 - Digital Marketing
 - Personalization
 website: https://www.kentico.com

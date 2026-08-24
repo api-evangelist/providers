@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -411,7 +411,7 @@ modified: '2026-06-03'
 name: Olo
 nav: Providers
 network: true
-overview: 'Olo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Accounts API, Accruals API, and 4 more. Tagged areas include Food Service, Restaurants, Online Ordering, Delivery, and Point of Sale.
+overview: 'Olo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Accounts API, Accruals API, and 4 more. Tagged areas include Food Service, Restaurant, Online Ordering, Delivery, and Point-of-Sale.
 
 
   The Olo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -463,7 +463,7 @@ rules:
 score:
   band: strong
   composite: 64.8
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -473,7 +473,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 65.5
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     contracts:
@@ -487,8 +487,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/screenshots/olo-2026-06-20T190700.png
 security:
@@ -514,10 +514,10 @@ solutions:
   name: Improve Guest Experiences
 tags:
 - Food Service
-- Restaurants
+- Restaurant
 - Online Ordering
 - Delivery
-- Point of Sale
+- Point-of-Sale
 - Hospitality
 - Payments
 - Loyalty

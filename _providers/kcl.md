@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: KCL constraint-based record and functional programming language for configuration and policy scenarios in cloud-native environments.
@@ -69,7 +69,7 @@ modified: '2026-03-16'
 name: KCL
 nav: Providers
 network: true
-overview: 'KCL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Configuration Language, Infrastructure as Code, and Policy as Code.
+overview: 'KCL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Configuration Language, Infrastructure as Code, and Policy as Code.
 
 
   KCL''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -95,15 +95,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 11.6
+  previous_composite: 9.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kcl/refs/heads/main/screenshots/kcl-2026-06-20T183930.png
 security:
@@ -113,7 +113,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: kcl
 tags:
-- Cloud Native
+- Cloud-Native
 - Configuration Language
 - Infrastructure as Code
 - Policy as Code

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Multi-chain REST API providing NFT metadata, ownership, transfers, floor prices, listings, bids, spam scores, and fungible token market prices across 80+ blockchains and testnets. Supports bulk lookup
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.7
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -135,9 +135,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplehash/refs/heads/main/screenshots/simplehash-2026-06-20T193931.png
 security:
@@ -157,7 +157,7 @@ tags:
 - Cryptocurrency
 - Token
 - Metadata
-- Multi-chain
+- Multi-Chain
 - Ethereum
 - Solana
 - Base

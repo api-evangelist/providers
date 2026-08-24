@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ modified: '2026-05-30'
 name: Formstack
 nav: Providers
 network: true
-overview: 'Formstack publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Confirmations API, Fields API, and 6 more. Tagged areas include Forms, Documents, eSignature, Workflow Automation, and No-Code.
+overview: 'Formstack publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Confirmations API, Fields API, and 6 more. Tagged areas include Forms, Documents, E-Signature, Workflow-Automation, and No-Code.
 
 
   Formstack''s developer surface includes authentication, documentation, changelog, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -216,7 +216,7 @@ scopes:
 score:
   band: developing
   composite: 39.3
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.9
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/screenshots/formstack-2026-06-20T181438.png
 security:
@@ -259,9 +259,9 @@ slug: formstack
 tags:
 - Forms
 - Documents
-- eSignature
-- Workflow Automation
+- E-Signature
+- Workflow-Automation
 - No-Code
-- OAuth2
+- Authentication
 website: https://www.formstack.com/
 ---

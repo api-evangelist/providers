@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Nymbus Connect is the integration layer of the Nymbus platform — a modern RESTful API for direct product and data access, a client/partner developer portal with a secure compliant sandbox, real-time K
@@ -64,7 +64,7 @@ modified: '2026-07-20'
 name: Nymbus
 nav: Providers
 network: true
-overview: 'Nymbus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Core Banking, FinTech, and Financial Services.
+overview: 'Nymbus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Core Banking, Fintech, and Financial-Services.
 
 
   Nymbus'' developer surface includes engineering blog, support, and 3 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 3.4
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -82,16 +82,16 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.8
+  previous_composite: 3.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nymbus/refs/heads/main/screenshots/nymbus-2026-08-07T185832.png
 security:
 - kind: domain-security
@@ -103,10 +103,9 @@ tags:
 - Company
 - Banking
 - Core Banking
-- FinTech
-- Financial Services
+- Fintech
+- Financial-Services
 - Banking as a Service
 - Digital Banking
-- APIs
 website: https://nymbus.com/
 ---

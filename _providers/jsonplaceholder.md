@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -283,7 +283,7 @@ modified: '2026-08-08'
 name: JSONPlaceholder
 nav: Providers
 network: true
-overview: 'JSONPlaceholder publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Albums API, Comments API, Photos API, and 3 more. Tagged areas include Development, Testing, Prototyping, Fake API, and Open Source.
+overview: 'JSONPlaceholder publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Albums API, Comments API, Photos API, and 3 more. Tagged areas include Development, Testing, Prototyping, Fake API, and Open-Source.
 
 
   The JSONPlaceholder catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -323,18 +323,18 @@ rules:
   slug: jsonplaceholder-rules
 score:
   band: thin
-  composite: 34.6
-  delta: -4.7
+  composite: 35.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 30.8
     developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 39.3
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -342,8 +342,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/screenshots/jsonplaceholder-2026-06-20T183819.png
 security:
@@ -362,7 +362,7 @@ tags:
 - Testing
 - Prototyping
 - Fake API
-- Open Source
+- Open-Source
 - REST
 use_cases:
 - description: Wire up React, Vue, Angular, or Svelte tutorials against a real HTTP endpoint without standing up a backend.

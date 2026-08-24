@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -415,13 +415,13 @@ image: https://static.pingcap.com/files/2024/09/11005522/Homepage-Ad.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: pingcap-mcp.yml
-  slug: pingcap-mcpyml
+  name: PingCAP MCP Server
+  slug: pingcap-mcp-server
 modified: '2026-08-02'
 name: PingCAP
 nav: Providers
 network: true
-overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 28 more. Tagged areas include distributed-sql, database, tidb, htap, and mysql-compatible.
+overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 28 more. Tagged areas include Distributed SQL, Database, tidb, htap, and mysql-compatible.
 
 
   PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
@@ -432,18 +432,18 @@ rate_limits:
   slug: pingcap-rate-limits
 score:
   band: strong
-  composite: 60.8
-  delta: -0.4
+  composite: 61.7
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 30.3
     contract_quality: 51.6
     developer_ergonomics: 85.7
-    discoverability: 77.8
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 61.2
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -454,8 +454,8 @@ score:
       total: 31
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/screenshots/pingcap-2026-08-17T081238.png
 security:
@@ -477,17 +477,17 @@ security:
   summary_line: ISO 27001, ISO 27701, SOC 2, PCI DSS, GDPR, HIPAA, EU-US Data Privacy Framework
 slug: pingcap
 tags:
-- distributed-sql
-- database
+- Distributed SQL
+- Database
 - tidb
 - htap
 - mysql-compatible
-- cloud-database
-- dbaas
-- vector-search
-- data-migration
-- change-data-capture
-- open-source
-- infrastructure
+- Cloud Database
+- Database-as-a-Service
+- Vector Search
+- Data Migration
+- Change Data Capture
+- Open-Source
+- Infrastructure
 website: https://www.pingcap.com/
 ---

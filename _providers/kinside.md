@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Kinside
 nav: Providers
 network: true
-overview: 'Kinside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Child Care, Family Benefits, and Employee Benefits.
+overview: 'Kinside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Childcare, Family Benefits, and Employee Benefits.
 
 
   Kinside''s developer surface includes engineering blog and 6 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 13.4
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -86,15 +86,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.9
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinside/refs/heads/main/screenshots/kinside-2026-07-25T223840.png
 security:
@@ -110,7 +110,7 @@ slug: kinside
 tags:
 - Company
 - Marketplaces
-- Child Care
+- Childcare
 - Family Benefits
 - Employee Benefits
 - Care Marketplace

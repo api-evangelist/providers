@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API to sync users, jobs, candidacies, projects, learning items, and the Skills Foundation job architecture into Gloat, plus RBAC authorization and company settings.
@@ -139,13 +139,13 @@ image: https://www.gloat.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: gloat-mcp.yml
-  slug: gloat-mcpyml
+  name: Gloat MCP Server
+  slug: gloat-mcp-server
 modified: '2026-07-19'
 name: Gloat
 nav: Providers
 network: true
-overview: 'Gloat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Human Resources, Talent Marketplace, and Skills.
+overview: 'Gloat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Human Resources, Talent Marketplace, and Skills.
 
 
   The Gloat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -156,7 +156,7 @@ random_paper: 10
 score:
   band: developing
   composite: 40.0
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -166,13 +166,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 44.1
+  previous_composite: 40.0
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gloat/refs/heads/main/screenshots/gloat-2026-07-25T215912.png
 security:
@@ -191,7 +191,7 @@ security:
 slug: gloat
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Human Resources
 - Talent Marketplace
 - Skills

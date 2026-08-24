@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Agent Controller
@@ -154,13 +154,13 @@ image: https://www.apriori.com/wp-content/uploads/2021/08/manufacturing-simulati
 layout: provider
 mcp_servers:
 - description: ''
-  name: apriori-mcp.yml
-  slug: apriori-mcpyml
+  name: aPriori MCP Server
+  slug: apriori-mcp-server
 modified: '2026-08-06'
 name: aPriori
 nav: Providers
 network: true
-overview: 'aPriori publishes 2 APIs on the [APIs.io](https://apis.io/) network: Agent API and Workflow API. Tagged areas include Company, manufacturing, product-cost-management, design-for-manufacturability, and should-cost.
+overview: 'aPriori publishes 2 APIs on the [APIs.io](https://apis.io/) network: Agent API and Workflow API. Tagged areas include Company, Manufacturing, product-cost-management, design-for-manufacturability, and should-cost.
 
 
   aPriori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
@@ -168,7 +168,7 @@ random_paper: 2
 score:
   band: developing
   composite: 42.3
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -178,7 +178,7 @@ score:
     discoverability: 66.7
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 43.8
+  previous_composite: 42.3
   provenance:
     conformance: derived
     contracts:
@@ -188,8 +188,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/screenshots/apriori-2026-08-07T161510.png
 security:
@@ -208,15 +208,15 @@ security:
 slug: apriori
 tags:
 - Company
-- manufacturing
+- Manufacturing
 - product-cost-management
 - design-for-manufacturability
 - should-cost
 - plm-integration
 - cost-engineering
-- digital-manufacturing
-- sustainability
-- workflow-automation
-- cad
+- Digital Manufacturing
+- Sustainability
+- Workflow-Automation
+- CAD
 website: https://www.apriori.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -355,9 +355,9 @@ description: 'Coperniq is an AI-powered operating system for residential and com
 image: https://framerusercontent.com/assets/f2W0W5l9aLIr0KH47O4tLLBZnE.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: coperniq-mcp.yml
-  slug: coperniq-mcpyml
+- description: Coperniq publishes an official documentation MCP server (via Fern) so AI clients such as Claude Code and Cursor can query the Coperniq API documentation, endpoints, and schemas directly. This is a doc
+  name: Coperniq MCP Server
+  slug: coperniq-mcp-server
 modified: '2026-07-18'
 name: Coperniq
 nav: Providers
@@ -377,7 +377,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.5
-  delta: 4.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -387,7 +387,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 54.1
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -404,8 +404,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/screenshots/coperniq-2026-07-25T210410.png
 security:

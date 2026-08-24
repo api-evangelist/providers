@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ modified: '2026-07-27T12:00:00Z'
 name: REA Group
 nav: Providers
 network: true
-overview: 'REA Group publishes 9 APIs on the [APIs.io](https://apis.io/) network, including PropTrack OAuth 2.0 Token API, PropTrack Address API, PropTrack Properties API, and 6 more. Tagged areas include Real Estate, Property Data, Valuations, AVM, and Market Insights.
+overview: 'REA Group publishes 9 APIs on the [APIs.io](https://apis.io/) network, including PropTrack OAuth 2.0 Token API, PropTrack Address API, PropTrack Properties API, and 6 more. Tagged areas include Real-Estate, Property Data, Valuations, AVM, and Market Insights.
 
 
   REA Group''s developer surface includes documentation, API reference, getting-started guide, YouTube channel, engineering blog, support, FAQ, and 31 more developer resources.'
@@ -282,7 +282,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -292,7 +292,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 55.5
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,8 +303,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png
 security:
@@ -322,13 +322,13 @@ security:
   summary_line: security.txt · contact published
 slug: rea-group
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Valuations
 - AVM
 - Market Insights
 - Listings
-- Transactions
+- Transaction
 - Address Matching
 - REAXML
 - Partner Portal

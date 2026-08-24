@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -305,8 +305,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ntropy.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ntropy-mcp.yml
-  slug: ntropy-mcpyml
+  name: Ntropy MCP Server
+  slug: ntropy-mcp-server
 modified: '2026-08-14'
 name: Ntropy
 nav: Providers
@@ -330,7 +330,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.5
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -340,7 +340,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 59.3
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -357,8 +357,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/screenshots/ntropy-2026-08-07T185714.png
 security:

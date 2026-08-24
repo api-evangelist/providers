@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The TypeScript Compiler API provides programmatic access to the TypeScript compiler for parsing, analyzing, and transforming TypeScript and JavaScript code. Developers can create custom linters, code '
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.2
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -122,9 +122,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-typescript/refs/heads/main/screenshots/microsoft-typescript-2026-06-20T185539.png
 security:

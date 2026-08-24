@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for Qiniu Kodo object storage — bucket administration, object upload/download, stat/copy/move/delete, lifecycle and CORS rules, async fetch, and CDN prefetch/refresh. S3-compatible surface av
@@ -141,9 +141,9 @@ description: Qiniu Cloud (七牛云) is a data-centric cloud infrastructure plat
 image: https://www.qiniu.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: qiniu-mcp.yml
-  slug: qiniu-mcpyml
+- description: Official Qiniu Cloud MCP server exposing Kodo object storage, intelligent media processing (Dora), CDN, and live-streaming operations to MCP-capable AI clients through a unified interface.
+  name: Qiniu Cloud MCP Server
+  slug: qiniu-cloud-mcp-server
 modified: '2026-07-20'
 name: Qiniu Cloud
 nav: Providers
@@ -156,7 +156,7 @@ random_paper: 4
 score:
   band: thin
   composite: 30.3
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -166,13 +166,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 32.3
+  previous_composite: 30.3
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -193,7 +193,7 @@ tags:
 - Live Streaming
 - IAM
 - SDK
-- AI
+- Artificial Intelligence
 - China
 website: https://qiniu.com
 ---

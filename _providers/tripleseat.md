@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -348,7 +348,7 @@ modified: '2026-06-03'
 name: Tripleseat
 nav: Providers
 network: true
-overview: 'Tripleseat publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Events API, and 4 more. Tagged areas include Restaurant, Events, Catering, Leads, and Webhooks.
+overview: 'Tripleseat publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Events API, and 4 more. Tagged areas include Restaurant, Event, Catering, Leads, and Webhook.
 
 
   The Tripleseat catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -404,18 +404,18 @@ scopes:
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 51.3
-  delta: -6.6
+  composite: 51.6
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 81.8
     developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 57.9
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -423,9 +423,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/screenshots/tripleseat-2026-06-20T195730.png
 security:
 - kind: authentication
@@ -443,10 +443,10 @@ security:
 slug: tripleseat
 tags:
 - Restaurant
-- Events
+- Event
 - Catering
 - Leads
-- Webhooks
+- Webhook
 - Sales
 use_cases:
 - description: Embed a public lead form on a website to push inquiries directly into Tripleseat via the lead form API.

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -1462,7 +1462,7 @@ rules:
 score:
   band: thin
   composite: 31.6
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -1472,7 +1472,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 36.2
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1486,8 +1486,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/screenshots/envestnet-2026-06-20T180737.png
 security:

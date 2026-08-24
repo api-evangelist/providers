@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Distroless images by Google contain only the application and its runtime dependencies, stripping out package managers, shells, and other OS-level utilities to minimize attack surface and image size.
@@ -77,7 +77,7 @@ modified: '2026-04-28'
 name: Distroless
 nav: Providers
 network: true
-overview: Distroless publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Container Images, Containers, Google, and Security.
+overview: Distroless publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Container Images, Containers, Google, and Security.
 plans:
 - name: Distroless Plans Pricing
   plan_count: 3
@@ -90,7 +90,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -100,14 +100,14 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 12.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/distroless/refs/heads/main/screenshots/distroless-2026-06-20T180057.png
 slug: distroless
 tags:
-- Cloud Native
+- Cloud-Native
 - Container Images
 - Containers
 - Google

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The Discovery API from TwinStrand Biosciences — 5 operation(s) for discovery.
@@ -217,7 +217,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 22.9
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -227,7 +227,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 22.3
+  previous_composite: 22.9
   provenance:
     conformance: derived
     contracts:
@@ -242,8 +242,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -261,7 +261,7 @@ tags:
 - Biotechnology
 - Life Sciences
 - DNA Sequencing
-- Next Generation Sequencing
+- Next-Generation Sequencing
 - Oncology
 - Genetic Toxicology
 - Diagnostics

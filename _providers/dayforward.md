@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A live GraphQL endpoint at api.dayforward.com/graphql that backs the Dayforward consumer application. Observed responding to GraphQL over HTTP POST (an empty operation returns a GRAPHQL_VALIDATION_FAI
@@ -91,7 +91,7 @@ modified: '2026-08-04'
 name: Dayforward
 nav: Providers
 network: true
-overview: 'Dayforward publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Life Insurance, Insurtech, and Financial Services.
+overview: 'Dayforward publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Life Insurance, Insurtech, and Financial-Services.
 
 
   Dayforward''s developer surface includes signup flow, support, FAQ, and 11 more developer resources.'
@@ -99,7 +99,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 8.0
-  delta: -11.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -109,7 +109,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 19.2
+  previous_composite: 8.0
   provenance:
     conformance: derived
   regulatory:
@@ -118,9 +118,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dayforward/refs/heads/main/screenshots/dayforward-2026-08-07T164205.png
 security:
 - kind: domain-security
@@ -133,10 +133,10 @@ tags:
 - Insurance
 - Life Insurance
 - Insurtech
-- Financial Services
+- Financial-Services
 - Underwriting
 - Policy Administration
-- SaaS
+- Software-as-a-Service
 - GraphQL
 website: https://dayforward.io/
 ---

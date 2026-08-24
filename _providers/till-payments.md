@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -167,8 +167,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: till-payments-mcp.yml
-  slug: till-payments-mcpyml
+  name: Till Payments MCP Server
+  slug: till-payments-mcp-server
 modified: '2026-07-24'
 name: Till Payments
 nav: Providers
@@ -184,7 +184,7 @@ random_paper: 19
 score:
   band: thin
   composite: 38.2
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -194,7 +194,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 42.3
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +211,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/screenshots/till-payments-2026-08-17T082354.png
 security:

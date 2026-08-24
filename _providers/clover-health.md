@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The fhir-r4-formulary-api API from Clover Health — 5 operation(s) for fhir-r4-formulary-api.
@@ -152,8 +152,8 @@ image: https://cdn.cloverhealth.com/filer_cloudrun_public/img/live-tile-large-31
 layout: provider
 mcp_servers:
 - description: ''
-  name: clover-health-mcp.yml
-  slug: clover-health-mcpyml
+  name: Clover Health MCP Server
+  slug: clover-health-mcp-server
 modified: '2026-07-18'
 name: Clover Health
 nav: Providers
@@ -166,7 +166,7 @@ random_paper: 3
 score:
   band: developing
   composite: 45.7
-  delta: 5.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -176,7 +176,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 40.3
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -192,9 +192,9 @@ score:
     regime: Health
     regime_id: health
     score: 55.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/screenshots/clover-health-2026-07-25T205721.png
 security:
 - kind: authentication

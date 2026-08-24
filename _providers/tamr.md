@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Tamr Core REST API allows programmatic access to Tamr's on-premise master data management application. It supports dataset management, project workflows, machine learning model training, classific
@@ -87,7 +87,7 @@ modified: '2026-05-16'
 name: Tamr
 nav: Providers
 network: true
-overview: 'Tamr publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data Management, Machine Learning, Enterprise Software, and Master Data Management.
+overview: 'Tamr publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data Management, Machine-Learning, Enterprise Software, and Master Data Management.
 
 
   Tamr''s developer surface includes documentation, GitHub presence, engineering blog, pricing, and 6 more developer resources.'
@@ -95,7 +95,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 11.7
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -105,9 +105,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamr/refs/heads/main/screenshots/tamr-2026-06-20T194913.png
 security:
@@ -122,7 +122,7 @@ security:
 slug: tamr
 tags:
 - Data Management
-- Machine Learning
+- Machine-Learning
 - Enterprise Software
 - Master Data Management
 website: https://www.tamr.com/

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-19'
 name: Liquidly
 nav: Providers
 network: true
-overview: 'Liquidly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Private Markets, and Secondary Market.
+overview: 'Liquidly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Private Markets, and Secondary Market.
 
 
   Liquidly''s developer surface includes support and 8 more developer resources.'
@@ -85,7 +85,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 14.8
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -95,7 +95,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 20.0
+  previous_composite: 14.8
   provenance:
     conformance: first-party
   regulatory:
@@ -104,9 +104,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 35.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquidly/refs/heads/main/screenshots/liquidly-2026-07-25T225314.png
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ security:
 slug: liquidly
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Private Markets
 - Secondary Market

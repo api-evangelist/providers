@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -465,14 +465,14 @@ jsonld:
   slug: solana-rpc-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: solana-mcp.yml
-  slug: solana-mcpyml
+- description: 'The Solana Foundation publishes solana-dev-mcp, an official reference/demo Model Context Protocol server (stdio transport) that exposes core Solana RPC methods as tools for LLM clients such as Claude '
+  name: Solana MCP Server
+  slug: solana-mcp-server
 modified: '2026-06-20'
 name: Solana
 nav: Providers
 network: true
-overview: 'Solana publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Cluster API, and 3 more. Tagged areas include Blockchain, Cryptocurrency, Web3, DeFi, and Transactions.
+overview: 'Solana publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Cluster API, and 3 more. Tagged areas include Blockchain, Cryptocurrency, Web3, DeFi, and Transaction.
 
 
   The Solana catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -502,7 +502,7 @@ rules:
 score:
   band: strong
   composite: 65.6
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -512,7 +512,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 65.8
-  previous_composite: 70.0
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -522,8 +522,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/screenshots/solana-2026-06-20T194144.png
 security:
@@ -541,7 +541,7 @@ tags:
 - Cryptocurrency
 - Web3
 - DeFi
-- Transactions
+- Transaction
 - Tokens
 use_cases:
 - description: Query token balances, account states, and submit transactions for decentralized finance apps

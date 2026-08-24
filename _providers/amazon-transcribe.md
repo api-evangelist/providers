@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ modified: '2026-05-19'
 name: Amazon Transcribe
 nav: Providers
 network: true
-overview: 'Amazon Transcribe publishes 2 APIs on the [APIs.io](https://apis.io/) network: Transcription Jobs API and Vocabularies API. Tagged areas include Audio Processing, Machine Learning, Speech Recognition, Speech-To-Text, and Transcription.
+overview: 'Amazon Transcribe publishes 2 APIs on the [APIs.io](https://apis.io/) network: Transcription Jobs API and Vocabularies API. Tagged areas include Audio Processing, Machine-Learning, Speech Recognition, Speech-to-Text, and Transcription.
 
 
   The Amazon Transcribe catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -249,18 +249,18 @@ rules:
   slug: amazon-transcribe-spectral-rules
 score:
   band: developing
-  composite: 50.7
-  delta: -7.1
+  composite: 51.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.7
     developer_ergonomics: 50.0
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.8
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     contracts:
@@ -268,9 +268,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/screenshots/amazon-transcribe-2026-06-20T171840.png
 security:
 - kind: authentication
@@ -292,9 +292,9 @@ security:
 slug: amazon-transcribe
 tags:
 - Audio Processing
-- Machine Learning
+- Machine-Learning
 - Speech Recognition
-- Speech-To-Text
+- Speech-to-Text
 - Transcription
 use_cases:
 - description: Use Amazon Transcribe to manage and automate cloud operations.

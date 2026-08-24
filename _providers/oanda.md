@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -783,7 +783,7 @@ modified: '2026-06-13'
 name: OANDA
 nav: Providers
 network: true
-overview: 'OANDA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Pricing API, Accounts API, Instruments API, and 2 more. Tagged areas include Forex, FX Trading, CFD Trading, Financial Services, and Trading APIs.
+overview: 'OANDA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Pricing API, Accounts API, Instruments API, and 2 more. Tagged areas include Forex, FX Trading, CFD Trading, Financial-Services, and Trading APIs.
 
 
   The OANDA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -813,7 +813,7 @@ rules:
 score:
   band: developing
   composite: 47.3
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -829,7 +829,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 50.3
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -843,8 +843,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/screenshots/oanda-2026-06-20T190546.png
 security:
@@ -857,7 +857,7 @@ tags:
 - Forex
 - FX Trading
 - CFD Trading
-- Financial Services
+- Financial-Services
 - Trading APIs
 website: https://www.oanda.com/
 ---

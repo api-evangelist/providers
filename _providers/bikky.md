@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Bikky provides push-button API integrations with leading POS, online ordering, loyalty, and marketing providers, sending data in real time for most POS and ordering sources and nightly for reservation
@@ -118,7 +118,7 @@ modified: '2026-08-13'
 name: Bikky
 nav: Providers
 network: true
-overview: 'Bikky publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Customer Data Platform, Guest Analytics, Integrations, and Marketing.
+overview: 'Bikky publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Customer Data Platform, Guest Analytics, Integration, and Marketing.
 
 
   Bikky''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.9
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -144,11 +144,11 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 20.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bikky/refs/heads/main/screenshots/bikky-2026-06-20T173237.png
 security:
@@ -165,7 +165,7 @@ tags:
 - Restaurant
 - Customer Data Platform
 - Guest Analytics
-- Integrations
+- Integration
 - Marketing
 - Loyalty
 website: https://bikky.com/

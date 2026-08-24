@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: The ChargeService API from Cedarai — 3 operation(s) for chargeservice.
@@ -190,8 +190,8 @@ image: https://arms.cedarai.com/cedar-icon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: cedarai-mcp.yml
-  slug: cedarai-mcpyml
+  name: Cedarai MCP Server
+  slug: cedarai-mcp-server
 modified: '2026-07-18'
 name: Cedarai
 nav: Providers
@@ -207,7 +207,7 @@ random_paper: 20
 score:
   band: developing
   composite: 43.1
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -217,7 +217,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 45.9
+  previous_composite: 43.1
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +227,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/screenshots/cedarai-2026-07-25T204839.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -138,13 +138,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: cynergy-bank-mcp.yml
-  slug: cynergy-bank-mcpyml
+  name: Cynergy Bank MCP Server
+  slug: cynergy-bank-mcp-server
 modified: '2026-07-24'
 name: Cynergy Bank
 nav: Providers
 network: true
-overview: 'Cynergy Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account & Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Cynergy Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account & Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Cynergy Bank''s developer surface includes authentication, documentation, support, and 20 more developer resources.'
@@ -157,7 +157,7 @@ scopes:
 score:
   band: thin
   composite: 38.8
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -167,7 +167,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 38.4
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,8 +184,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cynergy-bank/refs/heads/main/screenshots/cynergy-bank-2026-07-25T211048.png
 security:
@@ -199,7 +199,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cynergy-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

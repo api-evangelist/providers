@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the TrustLogix platform — manage data source accounts, data access policies (create / impact-preview / review / publish), data-source tags and associations, monitoring policies (v1 and v2
@@ -134,9 +134,9 @@ description: TrustLogix is a data security and access governance platform that u
 image: https://cdn.prod.website-files.com/689aca9a00606d8ac05c62da/69004670671ad7cf11b7e5f3_TrustLogix-OpenGraph.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: trustlogix-mcp.yml
-  slug: trustlogix-mcpyml
+- description: 'TrustLogix exposes the TrustAI Policy Engine to registered AI agents over the Model Context Protocol. The MCP URL is custom per agent (scoped to tenant and agent id). Securing a custom agent requires '
+  name: TrustAI MCP Server
+  slug: trustai-mcp-server
 modified: '2026-07-21'
 name: Trustlogix
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 12
 score:
   band: thin
   composite: 33.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -159,13 +159,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 34.0
+  previous_composite: 33.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

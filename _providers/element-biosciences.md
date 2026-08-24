@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -204,8 +204,8 @@ image: https://www.elementbiosciences.com/hubfs/Element%20Biosciences%202025/Ima
 layout: provider
 mcp_servers:
 - description: ''
-  name: element-biosciences-mcp.yml
-  slug: element-biosciences-mcpyml
+  name: Element Biosciences MCP Server
+  slug: element-biosciences-mcp-server
 modified: '2026-08-04'
 name: Element Biosciences
 nav: Providers
@@ -223,7 +223,7 @@ scopes:
 score:
   band: developing
   composite: 54.2
-  delta: 5.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -233,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 49.2
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,9 +250,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/screenshots/element-biosciences-2026-08-07T164822.png
 security:
 - kind: authentication

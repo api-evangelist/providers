@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST and SOAP object API (v1) for reading and writing Impartner platform records (accounts, partners, deals, and tenant-defined custom objects) using the THQL query language with skip/take paging, fie
@@ -139,13 +139,13 @@ image: https://impartner.com/wp-content/uploads/2023/01/impartner-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: impartner-mcp.yml
-  slug: impartner-mcpyml
+  name: Impartner MCP Server
+  slug: impartner-mcp-server
 modified: '2026-07-19'
 name: Impartner
 nav: Providers
 network: true
-overview: 'Impartner publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Partner Relationship Management, PRM, and Channel Management.
+overview: 'Impartner publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Partner Relationship Management, PRM, and Channel Management.
 
 
   The Impartner catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -161,7 +161,7 @@ scopes:
 score:
   band: thin
   composite: 38.1
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -171,13 +171,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 44.3
+  previous_composite: 38.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/screenshots/impartner-2026-08-17T123914.png
 security:
 - kind: authentication
@@ -191,7 +191,7 @@ security:
 slug: impartner
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Partner Relationship Management
 - PRM
 - Channel Management

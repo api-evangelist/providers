@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -207,8 +207,8 @@ image: https://colossal.com/wp-content/uploads/Colossal_BrandingRegistered_Logo_
 layout: provider
 mcp_servers:
 - description: ''
-  name: colossal-laboratories--biosciences-mcp.yml
-  slug: colossal-laboratories-biosciences-mcpyml
+  name: Colossal Laboratories & Biosciences MCP Server
+  slug: colossal-laboratories-biosciences-mcp-server
 modified: '2026-08-09'
 name: Colossal Laboratories & Biosciences
 nav: Providers
@@ -221,7 +221,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 23.7
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 21.9
+  previous_composite: 23.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +248,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -267,7 +267,7 @@ tags:
 - Genomics
 - Genetic Engineering
 - Synthetic Biology
-- De-extinction
+- De-Extinction
 - Conservation
 - Wildlife
 - Life Sciences

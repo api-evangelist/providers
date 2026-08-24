@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 3
@@ -219,7 +219,7 @@ modified: '2026-05-29'
 name: Knock
 nav: Providers
 network: true
-overview: 'Knock publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Bulk operations API, Channel data API, and 16 more. Tagged areas include Notifications, Email, SMS, Push, and Workflows.
+overview: 'Knock publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Bulk operations API, Channel data API, and 16 more. Tagged areas include Notification, Email, SMS, Push, and Workflows.
 
 
   The Knock catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -250,7 +250,7 @@ rules:
 score:
   band: thin
   composite: 29.6
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -260,7 +260,7 @@ score:
     discoverability: 81.5
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 32.9
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -274,8 +274,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/screenshots/knock-2026-06-20T184119.png
 security:
@@ -289,7 +289,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: knock
 tags:
-- Notifications
+- Notification
 - Email
 - SMS
 - Push

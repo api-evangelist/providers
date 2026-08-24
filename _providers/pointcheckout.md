@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: API endpoints for branch management.
@@ -188,13 +188,13 @@ image: https://docs.pointcheckout.com/img/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: pointcheckout-mcp.yml
-  slug: pointcheckout-mcpyml
+  name: PointCheckout MCP Server
+  slug: pointcheckout-mcp-server
 modified: '2026-07-20'
 name: PointCheckout
 nav: Providers
 network: true
-overview: 'PointCheckout publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Checkout API, Customer subscription API, and 1 more. Tagged areas include Company, Payments, Checkout, Subscriptions, and Rewards.
+overview: 'PointCheckout publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Checkout API, Customer subscription API, and 1 more. Tagged areas include Company, Payments, Checkout, Subscription, and Rewards.
 
 
   The PointCheckout catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -205,7 +205,7 @@ random_paper: 1
 score:
   band: strong
   composite: 55.1
-  delta: 5.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -215,7 +215,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 49.5
+  previous_composite: 55.1
   provenance:
     conformance: first-party
     contracts:
@@ -231,9 +231,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/screenshots/pointcheckout-2026-08-17T081313.png
 security:
 - kind: authentication
@@ -253,10 +253,10 @@ tags:
 - Company
 - Payments
 - Checkout
-- Subscriptions
+- Subscription
 - Rewards
 - Loyalty
-- Webhooks
+- Webhook
 - MENA
 - E-Commerce
 website: https://pointcheckout.com

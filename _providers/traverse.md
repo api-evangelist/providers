@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Traverse
 nav: Providers
 network: true
-overview: 'Traverse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Training Data, and Data Labeling.
+overview: 'Traverse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Training Data, and Data Labeling.
 
 
   Traverse''s developer surface includes engineering blog and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 5.8
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,9 +74,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 6.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -87,7 +87,7 @@ slug: traverse
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Training Data
 - Data Labeling
 - Research Lab

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-06-21'
 name: Sarvam AI
 nav: Providers
 network: true
-overview: 'Sarvam AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Language Identification API, Speech to Text API, and 3 more. Tagged areas include AI, LLM, Speech to Text, Text to Speech, and Translation.
+overview: 'Sarvam AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Language Identification API, Speech to Text API, and 3 more. Tagged areas include Artificial Intelligence, LLM, Speech-to-Text, Text-to-Speech, and Translation.
 
 
   The Sarvam AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -176,7 +176,7 @@ rules:
 score:
   band: developing
   composite: 42.3
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -186,7 +186,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 47.0
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +194,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/screenshots/sarvam-ai-2026-08-17T081724.png
 security:
@@ -209,10 +209,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: sarvam-ai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Translation
 - Indian Languages
 website: https://www.sarvam.ai

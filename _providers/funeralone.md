@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ modified: '2026-07-03'
 name: funeralOne
 nav: Providers
 network: true
-overview: 'funeralOne publishes 1 API on the [APIs.io](https://apis.io/) network: Cases API. Tagged areas include Funeral Homes, Deathcare, Obituaries, Tribute Videos, and Memorial Websites.
+overview: 'funeralOne publishes 1 API on the [APIs.io](https://apis.io/) network: Cases API. Tagged areas include Funeral Homes, Death Care, Obituaries, Tribute Videos, and Memorial Websites.
 
 
   funeralOne''s developer surface includes authentication, documentation, support, and 7 more developer resources.'
@@ -138,8 +138,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/funeralone/refs/heads/main/screenshots/funeralone-2026-07-25T215318.png
 security:
@@ -154,7 +154,7 @@ security:
 slug: funeralone
 tags:
 - Funeral Homes
-- Deathcare
+- Death Care
 - Obituaries
 - Tribute Videos
 - Memorial Websites

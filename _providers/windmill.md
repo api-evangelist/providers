@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -858,7 +858,7 @@ modified: '2026-05-19'
 name: Windmill
 nav: Providers
 network: true
-overview: 'Windmill publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin API, agent_workers API, app API, and 56 more. Tagged areas include Automation, Internal Tools, Open Source, ProCode API Composition, and Scripts.
+overview: 'Windmill publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin API, agent_workers API, app API, and 56 more. Tagged areas include Automation, Internal Tools, Open-Source, Pro-Code-API-Composition, and Scripts.
 
 
   The Windmill catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -898,18 +898,18 @@ rules:
   slug: windmill-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: -2.6
+  composite: 51.0
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 54.5
     contract_quality: 52.9
     developer_ergonomics: 54.8
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 54.5
     operational_transparency: 34.2
-  previous_composite: 55.4
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -917,8 +917,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:
@@ -934,10 +934,10 @@ slug: windmill
 tags:
 - Automation
 - Internal Tools
-- Open Source
-- ProCode API Composition
+- Open-Source
+- Pro-Code-API-Composition
 - Scripts
-- Webhooks
+- Webhook
 - Workflow Engine
 - Workflows
 website: https://www.windmill.dev

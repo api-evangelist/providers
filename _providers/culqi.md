@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 7
@@ -335,14 +335,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/culqi.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: culqi-mcp.yml
-  slug: culqi-mcpyml
+- description: Culqi publishes no official hosted or packaged MCP server (no entry in the MCP registry, npm @modelcontextprotocol, or the Culqi docs/GitHub org as of July 2026). This is a DERIVED candidate tool list
+  name: Culqi MCP Server
+  slug: culqi-mcp-server
 modified: '2026-07-17'
 name: Culqi
 nav: Providers
 network: true
-overview: 'Culqi publishes 12 APIs on the [APIs.io](https://apis.io/) network, including 3DS API, Cards API, Charges API, and 9 more. Tagged areas include Payments, Payment Gateway, FinTech, Peru, and LatAm.
+overview: 'Culqi publishes 12 APIs on the [APIs.io](https://apis.io/) network, including 3DS API, Cards API, Charges API, and 9 more. Tagged areas include Payments, Payment Gateway, Fintech, Peru, and LatAm.
 
 
   The Culqi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -361,7 +361,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.5
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -371,7 +371,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 66.6
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,9 +388,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/screenshots/culqi-2026-07-25T210916.png
 security:
 - kind: authentication
@@ -413,7 +413,7 @@ slug: culqi
 tags:
 - Payments
 - Payment Gateway
-- FinTech
+- Fintech
 - Peru
 - LatAm
 - Cards

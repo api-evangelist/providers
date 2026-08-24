@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -200,7 +200,7 @@ modified: '2026-06-12'
 name: Turso
 nav: Providers
 network: true
-overview: 'Turso publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Locations API, Organizations API, and 1 more. Tagged areas include Database, Edge Computing, SQLite, Developer Tools, and Multi-tenant.
+overview: 'Turso publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Locations API, Organizations API, and 1 more. Tagged areas include Database, Edge Computing, SQLite, Developer Tools, and Multi-Tenant.
 
 
   The Turso catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -230,7 +230,7 @@ rules:
 score:
   band: developing
   composite: 46.2
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -240,7 +240,7 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 34.2
-  previous_composite: 54.1
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -248,9 +248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/screenshots/turso-2026-06-20T195837.png
 security:
 - kind: authentication
@@ -271,7 +271,7 @@ tags:
 - Edge Computing
 - SQLite
 - Developer Tools
-- Multi-tenant
+- Multi-Tenant
 - AI Agents
 website: https://turso.tech
 ---

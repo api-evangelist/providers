@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'An OAuth 2.1-protected Model Context Protocol (MCP) server exposed on DispatchHealth''s own host by the WordPress MCP adapter running on www.dispatchhealth.com. Discovery is fully machine-readable: RFC'
@@ -138,8 +138,8 @@ image: https://www.dispatchhealth.com/wp-content/uploads/2025/07/dispatchhealth-
 layout: provider
 mcp_servers:
 - description: ''
-  name: dispatchhealth-mcp.yml
-  slug: dispatchhealth-mcpyml
+  name: DispatchHealth MCP Server
+  slug: dispatchhealth-mcp-server
 modified: '2026-07-31'
 name: DispatchHealth
 nav: Providers
@@ -157,7 +157,7 @@ scopes:
 score:
   band: thin
   composite: 30.7
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -167,7 +167,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 31.9
+  previous_composite: 30.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -177,8 +177,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/screenshots/dispatchhealth-2026-08-07T164356.png
 security:

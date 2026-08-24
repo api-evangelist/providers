@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: The Classes API from Landing.ai — 1 operation(s) for classes.
@@ -306,14 +306,14 @@ description: 'LandingAI, founded by Andrew Ng, builds production AI for visual a
 image: https://landing.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: landingai-mcp.yml
-  slug: landingai-mcpyml
+- description: LandingAI publishes a hosted, remote MCP server for the ADE documentation surface. It is a streamable-HTTP MCP endpoint — a plain GET returns HTTP 405, which is the expected behavior for a POST-only M
+  name: Landing.ai MCP Server
+  slug: landingai-mcp-server
 modified: '2026-07-19'
 name: Landing.ai
 nav: Providers
 network: true
-overview: 'Landing.ai publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Classes API, Deployment API, Extract API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Document Extraction, and Document Processing.
+overview: 'Landing.ai publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Classes API, Deployment API, Extract API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Document Extraction, and Document Processing.
 
 
   Landing.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
@@ -329,7 +329,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.6
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -339,7 +339,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 68.4
-  previous_composite: 69.7
+  previous_composite: 64.6
   provenance:
     conformance: derived
     contracts:
@@ -349,9 +349,9 @@ score:
       total: 13
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/screenshots/landingai-2026-07-25T224504.png
 security:
 - kind: authentication
@@ -374,10 +374,10 @@ slug: landingai
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Document Extraction
 - Document Processing
-- Computer Vision
+- Computer-Vision
 - OCR
 - Data Extraction
 - Agents

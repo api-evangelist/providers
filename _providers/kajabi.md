@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -365,7 +365,7 @@ rules:
 score:
   band: developing
   composite: 43.7
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -375,7 +375,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 18.4
-  previous_composite: 46.7
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -389,8 +389,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kajabi/refs/heads/main/screenshots/kajabi-2026-06-20T183859.png
 security:
@@ -410,7 +410,7 @@ tags:
 - E-Commerce
 - Digital Products
 - Contacts
-- Webhooks
+- Webhook
 - Payments
 website: https://www.kajabi.com
 ---

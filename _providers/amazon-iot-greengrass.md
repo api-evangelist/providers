@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1440,7 +1440,7 @@ modified: '2026-05-19'
 name: Amazon IoT Greengrass
 nav: Providers
 network: true
-overview: 'Amazon IoT Greengrass publishes 2 APIs on the [APIs.io](https://apis.io/) network: Greengrass API and Tags API. Tagged areas include Edge Computing, IoT, Lambda, Machine Learning, and Real-Time Processing.
+overview: 'Amazon IoT Greengrass publishes 2 APIs on the [APIs.io](https://apis.io/) network: Greengrass API and Tags API. Tagged areas include Edge Computing, IoT, Lambda, Machine-Learning, and Real-Time Processing.
 
 
   The Amazon IoT Greengrass catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1480,18 +1480,18 @@ rules:
   slug: amazon-iot-greengrass-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: -6.7
+  composite: 50.8
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.2
     developer_ergonomics: 50.0
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.0
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1499,9 +1499,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/screenshots/amazon-iot-greengrass-2026-06-20T171714.png
 security:
 - kind: authentication
@@ -1525,7 +1525,7 @@ tags:
 - Edge Computing
 - IoT
 - Lambda
-- Machine Learning
+- Machine-Learning
 - Real-Time Processing
 use_cases:
 - description: Process sensor data locally to reduce latency and bandwidth.

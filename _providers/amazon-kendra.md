@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -354,7 +354,7 @@ modified: '2026-05-19'
 name: Amazon Kendra
 nav: Providers
 network: true
-overview: 'Amazon Kendra publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Documents API, Experience API, and 5 more. Tagged areas include AI, Enterprise Search, Knowledge Management, Machine Learning, and Natural Language.
+overview: 'Amazon Kendra publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Documents API, Experience API, and 5 more. Tagged areas include Artificial Intelligence, Enterprise Search, Knowledge-Management, Machine-Learning, and Natural-Language.
 
 
   The Amazon Kendra catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -394,18 +394,18 @@ rules:
   slug: amazon-kendra-spectral-rules
 score:
   band: strong
-  composite: 61.7
-  delta: -7.0
+  composite: 62.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 76.1
     developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 68.7
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     contracts:
@@ -413,9 +413,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/screenshots/amazon-kendra-2026-06-20T171715.png
 security:
 - kind: authentication
@@ -436,11 +436,11 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-kendra
 tags:
-- AI
+- Artificial Intelligence
 - Enterprise Search
-- Knowledge Management
-- Machine Learning
-- Natural Language
+- Knowledge-Management
+- Machine-Learning
+- Natural-Language
 use_cases:
 - description: Help employees find accurate answers and data-driven insights across internal knowledge bases and document repositories.
   name: Employee Productivity

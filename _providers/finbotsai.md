@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-19'
 name: Finbots.AI
 nav: Providers
 network: true
-overview: 'Finbots.AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Credit Risk, Credit Scoring, and Fintech.
+overview: 'Finbots.AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Credit Risk, Credit Scoring, and Fintech.
 
 
   Finbots.AI''s developer surface includes support and 8 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 14
 score:
   band: minimal
   composite: 2.2
-  delta: -9.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -94,16 +94,16 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.9
+  previous_composite: 2.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finbotsai/refs/heads/main/screenshots/finbotsai-2026-07-25T214511.png
 security:
 - kind: domain-security
@@ -113,13 +113,13 @@ security:
 slug: finbotsai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Credit Risk
 - Credit Scoring
 - Fintech
 - Lending
 - Banking
-- Machine Learning
+- Machine-Learning
 - Risk Management
 - Singapore
 website: https://www.finbots.ai/

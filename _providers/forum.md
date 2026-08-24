@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -224,9 +224,9 @@ description: 'Forum is a centralized exchange offering exposure to engagement-ba
 image: https://mintcdn.com/forum-f20ab882/NO88uiJ9um9e-WSg/images/dark.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: forum-mcp.yml
-  slug: forum-mcpyml
+- description: Search and retrieve Forum documentation (docs knowledge base + OpenAPI specs).
+  name: Forum Docs Docs MCP
+  slug: forum-docs-docs-mcp
 modified: '2026-07-20'
 name: Forum
 nav: Providers
@@ -246,7 +246,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.0
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -256,7 +256,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 49.9
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,9 +273,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 35.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/screenshots/forum-2026-07-25T215019.png
 security:
 - kind: authentication
@@ -296,6 +296,6 @@ tags:
 - Attention Economy
 - Fintech
 - WebSocket
-- Real Time
+- Real-Time
 website: https://docs.forum.market/
 ---

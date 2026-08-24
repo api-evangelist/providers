@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Instore API from Scalapay — 6 operation(s) for instore.
@@ -188,8 +188,8 @@ image: https://cdn.prod.website-files.com/614b9948e0cc06785c60efe7/67c9cc48ae95d
 layout: provider
 mcp_servers:
 - description: ''
-  name: scalapay-mcp.yml
-  slug: scalapay-mcpyml
+  name: Scalapay MCP Server
+  slug: scalapay-mcp-server
 modified: '2026-08-02'
 name: Scalapay
 nav: Providers
@@ -205,7 +205,7 @@ random_paper: 6
 score:
   band: developing
   composite: 50.8
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -215,7 +215,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 52.3
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +231,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalapay/refs/heads/main/screenshots/scalapay-2026-08-17T081726.png
 security:
@@ -252,8 +252,8 @@ tags:
 - Instalments
 - E-Commerce
 - Checkout
-- Financial Services
-- Point of Sale
+- Financial-Services
+- Point-of-Sale
 - Reconciliation
 - Europe
 - Company

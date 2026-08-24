@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Payment gateway API for accepting credit card and eCheck.Net payments, storing customer payment profiles (CIM), recurring billing (ARB), hosted/tokenized card capture (Accept.js / Accept Hosted), tran
@@ -156,13 +156,13 @@ image: https://www.authorize.net/content/dam/authorize/images/logos/anet-logo.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: authorizenet-mcp.yml
-  slug: authorizenet-mcpyml
+  name: Authorize.net MCP Server
+  slug: authorizenet-mcp-server
 modified: '2026-07-18'
 name: Authorize.net
 nav: Providers
 network: true
-overview: 'Authorize.net publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Credit Cards, and eCommerce.
+overview: 'Authorize.net publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Credit Cards, and E-Commerce.
 
 
   The Authorize.net catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -173,7 +173,7 @@ random_paper: 12
 score:
   band: developing
   composite: 48.6
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -183,7 +183,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 45.6
+  previous_composite: 48.6
   provenance:
     conformance: derived
     mcp: derived
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/screenshots/authorizenet-2026-07-25T201810.png
 security:
@@ -212,10 +212,10 @@ tags:
 - Payments
 - Payment Gateway
 - Credit Cards
-- eCommerce
+- E-Commerce
 - Recurring Billing
 - Fraud Detection
-- Webhooks
-- Financial Services
+- Webhook
+- Financial-Services
 website: https://www.authorize.net/
 ---

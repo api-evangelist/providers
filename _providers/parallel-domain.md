@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,7 +113,7 @@ modified: '2026-07-20'
 name: Parallel Domain
 nav: Providers
 network: true
-overview: 'Parallel Domain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Synthetic Data, Simulation, and Autonomous Vehicles.
+overview: 'Parallel Domain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Synthetic Data, Simulation, and Autonomous Vehicles.
 
 
   Parallel Domain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 25.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -131,9 +131,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-domain/refs/heads/main/screenshots/parallel-domain-2026-08-07T191422.png
 security:
@@ -148,12 +148,12 @@ security:
 slug: parallel-domain
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Synthetic Data
 - Simulation
 - Autonomous Vehicles
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Robotics
 - SDK
 website: https://paralleldomain.com

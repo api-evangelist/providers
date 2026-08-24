@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Anonymous Model Context Protocol endpoint served from the Cooler Heads web host. It is the Wix Site MCP surface (platform-provided, not a first-party Cooler Heads API): nine tools that let an agent re'
@@ -85,13 +85,13 @@ image: https://static.wixstatic.com/media/6583f1_f14833176fd248229e8238fdeb4af31
 layout: provider
 mcp_servers:
 - description: ''
-  name: cooler-heads-mcp.yml
-  slug: cooler-heads-mcpyml
+  name: Site Visitor Assistant for site "Cooler Heads Care, Inc."
+  slug: site-visitor-assistant-for-site-cooler-heads-care-inc
 modified: '2026-08-09'
 name: Cooler Heads
 nav: Providers
 network: true
-overview: 'Cooler Heads publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health Care, Oncology, and Scalp Cooling.
+overview: 'Cooler Heads publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Oncology, and Scalp Cooling.
 
 
   Cooler Heads'' developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
@@ -99,7 +99,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 12.3
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -109,7 +109,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 14.4
+  previous_composite: 12.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -119,8 +119,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -135,7 +135,7 @@ slug: cooler-heads
 tags:
 - Company
 - Medical Devices
-- Health Care
+- Healthcare
 - Oncology
 - Scalp Cooling
 - Patient Care

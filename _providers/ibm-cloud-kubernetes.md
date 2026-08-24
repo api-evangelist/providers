@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'IBM Cloud Kubernetes Service is a managed Kubernetes offering that delivers powerful tools, an intuitive user experience, and built-in security for rapid delivery of applications that can be bound to '
@@ -37,6 +37,10 @@ apis:
   slug: ibm-cloud-kubernetes
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -89,7 +93,7 @@ finops:
   slug: ibm-cloud-kubernetes-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibm-cloud-kubernetes.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-21'
 name: IBM Cloud Kubernetes
 nav: Providers
 network: true
@@ -99,7 +103,7 @@ overview: 'IBM Cloud Kubernetes publishes 1 API on the [APIs.io](https://apis.io
   The IBM Cloud Kubernetes catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  IBM Cloud Kubernetes'' developer surface includes documentation, getting-started guide, pricing, engineering blog, signup flow, and 6 more developer resources.'
+  IBM Cloud Kubernetes'' developer surface includes documentation, getting-started guide, pricing, engineering blog, signup flow, and 7 more developer resources.'
 plans:
 - name: Ibm Cloud Kubernetes Plans Pricing
   plan_count: 3
@@ -123,7 +127,7 @@ rules:
 score:
   band: emerging
   composite: 22.0
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -133,9 +137,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 23.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/screenshots/ibm-cloud-kubernetes-2026-06-20T183124.png
 security:

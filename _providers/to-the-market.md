@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the TO THE MARKET store, implementing the Universal Commerce Protocol over a hosted MCP endpoint. Agents can search the catalog, create carts, and run buyer-approved '
@@ -99,13 +99,13 @@ image: https://tothemarket.com/cdn/shop/files/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: to-the-market-mcp.yml
-  slug: to-the-market-mcpyml
+  name: TO THE MARKET MCP Server
+  slug: to-the-market-mcp-server
 modified: '2026-07-21'
 name: TO THE MARKET
 nav: Providers
 network: true
-overview: 'TO THE MARKET publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Ecommerce, Sustainability, and Supply Chain.
+overview: 'TO THE MARKET publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Sustainability, and Supply Chain.
 
 
   TO THE MARKET''s developer surface includes authentication, signup flow, support, and 11 more developer resources.'
@@ -117,23 +117,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.0
-  delta: -0.7
+  composite: 21.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 20.7
+  previous_composite: 21.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -148,7 +148,7 @@ slug: to-the-market
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Sustainability
 - Supply Chain
 - Agent Commerce

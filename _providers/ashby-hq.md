@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -894,14 +894,14 @@ jsonld:
   slug: ashby-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: ashby-hq-mcp.yml
-  slug: ashby-hq-mcpyml
+- description: Ashby's official hosted/remote MCP server connects MCP-compatible AI clients directly to live recruiting data. Tool list below is transcribed from Ashby's MCP docs (Open Beta), grouped by capability a
+  name: Ashby MCP Server
+  slug: ashby-mcp-server
 modified: '2026-06-20'
 name: Ashby
 nav: Providers
 network: true
-overview: 'Ashby publishes 51 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Application API, Application Feedback API, and 48 more. Tagged areas include ATS, Applicant Tracking System, Recruiting, Talent Acquisition, and Sourcing.
+overview: 'Ashby publishes 51 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Application API, Application Feedback API, and 48 more. Tagged areas include ATS, Recruiting, Talent Acquisition, Sourcing, and CRM.
 
 
   The Ashby catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -931,7 +931,7 @@ rules:
 score:
   band: exemplar
   composite: 66.7
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -941,7 +941,7 @@ score:
     discoverability: 66.7
     governance: 26.5
     operational_transparency: 78.9
-  previous_composite: 73.6
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -951,9 +951,9 @@ score:
       marker_coverage: 0.0
       total: 51
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/screenshots/ashby-hq-2026-06-20T172500.png
 security:
 - kind: authentication
@@ -975,7 +975,6 @@ security:
 slug: ashby-hq
 tags:
 - ATS
-- Applicant Tracking System
 - Recruiting
 - Talent Acquisition
 - Sourcing
@@ -984,6 +983,6 @@ tags:
 - Analytics
 - Hiring
 - HR Tech
-- AI
+- Artificial Intelligence
 website: https://www.ashbyhq.com
 ---

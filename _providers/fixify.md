@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-19'
 name: Fixify
 nav: Providers
 network: true
-overview: 'Fixify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, IT Service Management, Help Desk, and IT Automation.
+overview: 'Fixify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, ITSM, Help Desk, and IT Automation.
 
 
   Fixify''s developer surface includes pricing, engineering blog, and 12 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 21.9
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -114,11 +114,11 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 22.5
+  previous_composite: 21.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixify/refs/heads/main/screenshots/fixify-2026-07-25T214654.png
 security:
@@ -138,12 +138,11 @@ slug: fixify
 tags:
 - Company
 - Infrastructure
-- IT Service Management
+- ITSM
 - Help Desk
 - IT Automation
 - Artificial Intelligence
-- ITSM
 - Support
-- SaaS
+- Software-as-a-Service
 website: https://www.fixify.com/
 ---

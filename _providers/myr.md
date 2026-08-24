@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: MYR
 nav: Providers
 network: true
-overview: 'MYR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Point of Sale, Restaurants, Quick Service Restaurants, and Food Service Technology.
+overview: 'MYR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Point-of-Sale, Restaurant, Quick Service Restaurants, and Food Service Technology.
 
 
   MYR''s developer surface includes pricing, engineering blog, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 12.5
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.2
+  previous_composite: 12.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myr/refs/heads/main/screenshots/myr-2026-08-07T184536.png
 security:
@@ -109,13 +109,13 @@ security:
 slug: myr
 tags:
 - Company
-- Point of Sale
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - Quick Service Restaurants
 - Food Service Technology
 - Payments
 - Loyalty
 - Restaurant Management
-- Integrations
+- Integration
 website: https://myr.io/
 ---

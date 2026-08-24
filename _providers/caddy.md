@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -161,7 +161,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -171,7 +171,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 26.9
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/screenshots/caddy-2026-06-20T173835.png
 security:

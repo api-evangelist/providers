@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API for managing and accessing operation support equipment data, inventory, maintenance records, and deployment information for operational logistics and equipment lifecycle management.
@@ -77,8 +77,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 9.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/operation-support-equipment/refs/heads/main/screenshots/operation-support-equipment-2026-06-20T191100.png
 security:

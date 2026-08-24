@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-21'
 name: webAI
 nav: Providers
 network: true
-overview: 'webAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, On-Device AI, Edge AI, and Sovereign AI.
+overview: 'webAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, On-Device AI, Edge AI, and Sovereign AI.
 
 
   webAI''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, and 8 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 22.8
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -110,9 +110,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 22.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -126,11 +126,11 @@ security:
 slug: webai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - On-Device AI
 - Edge AI
 - Sovereign AI
-- Machine Learning
+- Machine-Learning
 - Privacy
 - Local Inference
 - macOS

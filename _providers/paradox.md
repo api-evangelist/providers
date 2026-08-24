@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ modified: '2026-05-19'
 name: Paradox
 nav: Providers
 network: true
-overview: 'Paradox publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Candidate Attributes API, Candidates API, and 8 more. Tagged areas include Artificial Intelligence, Candidate Screening, Chatbot, Conversational AI, and Hiring Automation.
+overview: 'Paradox publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Candidate Attributes API, Candidates API, and 8 more. Tagged areas include Artificial Intelligence, Candidate Screening, Chatbots, Conversational AI, and Hiring Automation.
 
 
   The Paradox catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -369,7 +369,7 @@ scopes:
 score:
   band: developing
   composite: 48.7
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -379,7 +379,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 55.2
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -393,9 +393,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/screenshots/paradox-2026-06-20T191353.png
 security:
 - kind: authentication
@@ -410,7 +410,7 @@ slug: paradox
 tags:
 - Artificial Intelligence
 - Candidate Screening
-- Chatbot
+- Chatbots
 - Conversational AI
 - Hiring Automation
 - HR Technology

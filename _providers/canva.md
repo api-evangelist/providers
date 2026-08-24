@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -974,14 +974,14 @@ jsonld:
   slug: canva-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: canva-mcp.yml
-  slug: canva-mcpyml
+- description: 'Canva ships TWO distinct MCP surfaces and they are not interchangeable. (1) A hosted, remote MCP server at https://mcp.canva.com/mcp — the "Canva AI Connector" — which an MCP client POSTs to directly '
+  name: Canva MCP Server
+  slug: canva-mcp-server
 modified: '2026-08-13'
 name: Canva
 nav: Providers
 network: true
-overview: 'Canva publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Autofills API, Brand Templates API, and 7 more. Tagged areas include Apps, Automation, Brand Management, Collaboration, and Design.
+overview: 'Canva publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Autofills API, Brand Templates API, and 7 more. Tagged areas include Application, Automation, Brand Management, Collaboration, and Design.
 
 
   The Canva catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -1026,18 +1026,18 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.1
-  delta: -6.1
+  composite: 69.6
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 40.2
+    contract_governance: 43.9
     contract_quality: 81.5
     developer_ergonomics: 83.3
     discoverability: 83.3
-    governance: 40.2
+    governance: 43.9
     operational_transparency: 60.5
-  previous_composite: 75.2
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1048,9 +1048,9 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png
 security:
 - kind: authentication
@@ -1087,7 +1087,7 @@ skills:
   slug: canva-translate-design
 slug: canva
 tags:
-- Apps
+- Application
 - Automation
 - Brand Management
 - Collaboration

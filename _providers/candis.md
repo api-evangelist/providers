@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'Import/update master data: general ledger accounts, cost dimensions, additional delivery costs.'
@@ -200,8 +200,8 @@ image: https://assets.my.candis.io/open_graph/CANDIS-UI.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: candis-mcp.yml
-  slug: candis-mcpyml
+  name: Candis MCP Server
+  slug: candis-mcp-server
 modified: '2026-07-18'
 name: Candis
 nav: Providers
@@ -223,7 +223,7 @@ scopes:
 score:
   band: developing
   composite: 42.9
-  delta: -9.1
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -233,7 +233,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 52.0
+  previous_composite: 42.9
   provenance:
     conformance: first-party
     contracts:
@@ -243,9 +243,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/screenshots/candis-2026-07-25T204341.png
 security:
 - kind: authentication

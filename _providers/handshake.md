@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Read-only, institution-scoped EDU API for career-services data: applications, appointments, career fairs, jobs, postings, qualifications, and meetings. Authenticates via x-api-key header; supports pag'
@@ -129,7 +129,7 @@ modified: '2026-07-19'
 name: Handshake
 nav: Providers
 network: true
-overview: 'Handshake publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Careers, Recruiting, and Higher Education.
+overview: 'Handshake publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, Careers, Recruiting, and Higher Education.
 
 
   Handshake''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 14 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 11
 score:
   band: thin
   composite: 39.0
-  delta: 5.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -147,16 +147,16 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 33.5
+  previous_composite: 39.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/screenshots/handshake-2026-07-25T220619.png
 security:
 - kind: authentication
@@ -178,12 +178,12 @@ security:
 slug: handshake
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Careers
 - Recruiting
 - Higher Education
 - Talent
 - Students
-- Jobs
+- Job
 website: https://www.joinhandshake.com/
 ---

@@ -27,7 +27,7 @@ tags:
 - Arrow Electronics
 - Availability
 - Bill of Materials
-- BoM
+- BOM
 - Component Data
 - Datasheets
 - Digi-Key

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: First-party R package for importing, transforming, and visualizing PicnicHealth real-world research data (cohorts, medications, labs, clinical codes). Distributed via PicnicHealth's Posit/RStudio Pack
@@ -88,7 +88,7 @@ modified: '2026-07-20'
 name: Picnicai
 nav: Providers
 network: true
-overview: 'Picnicai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare Data, Clinical Research, and Real World Data.
+overview: 'Picnicai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare Data, Clinical Research, and Real-World Data.
 
 
   Picnicai''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 7 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 14.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -106,15 +106,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.9
+  previous_composite: 14.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -127,8 +127,8 @@ tags:
 - Health
 - Healthcare Data
 - Clinical Research
-- Real World Data
-- Machine Learning
+- Real-World Data
+- Machine-Learning
 - Medical Records
 - Life Sciences
 website: https://picnic.ai/

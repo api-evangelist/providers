@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,8 +72,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 4.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: celestial-ai
 tags:
@@ -82,7 +82,7 @@ tags:
 - Silicon Photonics
 - Optical Interconnect
 - AI Infrastructure
-- Data Center
+- Data-Center
 - Hardware
 - Chiplets
 website: https://www.celestial.ai/

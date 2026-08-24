@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -81,36 +81,36 @@ description: Cabal is an AI-powered relationship-intelligence and warm-introduct
 image: https://getcabal.com/cabal-og-v6.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cabal-mcp.yml
-  slug: cabal-mcpyml
+- description: 'Cabal publicly advertises a Model Context Protocol (MCP) integration as one of its access channels: "Query through chat, Claude, ChatGPT, Slack, or API." Agents (Claude, ChatGPT) can query Cabal''s rel'
+  name: Cabal MCP Server
+  slug: cabal-mcp-server
 modified: '2026-07-18'
 name: Cabal
 nav: Providers
 network: true
-overview: 'Cabal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Relationship Intelligence, Warm Introductions, and Venture Capital.
+overview: 'Cabal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Relationship Intelligence, Warm Introductions, and Venture Capital.
 
 
   Cabal''s developer surface includes engineering blog, pricing, and 9 more developer resources.'
 random_paper: 16
 score:
   band: minimal
-  composite: 7.6
-  delta: -3.8
+  composite: 8.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 11.4
+  previous_composite: 8.7
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabal/refs/heads/main/screenshots/cabal-2026-07-25T204200.png
 security:
@@ -125,7 +125,7 @@ security:
 slug: cabal
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Relationship Intelligence
 - Warm Introductions
 - Venture Capital

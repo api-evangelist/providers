@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -185,7 +185,7 @@ modified: '2026-05-19'
 name: Windstream Holdings
 nav: Providers
 network: true
-overview: 'Windstream Holdings publishes 9 APIs on the [APIs.io](https://apis.io/) network, including agents API, auto-attendants API, calls API, and 6 more. Tagged areas include Broadband, Contact Center, Managed Services, Network Communications, and SD-WAN.
+overview: 'Windstream Holdings publishes 9 APIs on the [APIs.io](https://apis.io/) network, including agents API, auto-attendants API, calls API, and 6 more. Tagged areas include Broadband, Contact Center, Managed Service, Network Communications, and SD-WAN.
 
 
   The Windstream Holdings catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -241,18 +241,18 @@ rules:
   slug: windstream-holdings-rules
 score:
   band: thin
-  composite: 35.2
-  delta: -3.0
+  composite: 35.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 61.2
     developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 38.2
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -266,8 +266,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/screenshots/windstream-holdings-2026-06-20T201507.png
 security:
@@ -283,7 +283,7 @@ slug: windstream-holdings
 tags:
 - Broadband
 - Contact Center
-- Managed Services
+- Managed Service
 - Network Communications
 - SD-WAN
 - Telecom

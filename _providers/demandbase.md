@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -304,13 +304,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/demandbase
 layout: provider
 mcp_servers:
 - description: ''
-  name: demandbase-mcp.yml
-  slug: demandbase-mcpyml
+  name: Demandbase MCP Server
+  slug: demandbase-mcp-server
 modified: '2026-08-13'
 name: Demandbase
 nav: Providers
 network: true
-overview: 'Demandbase publishes 8 APIs on the [APIs.io](https://apis.io/) network, including B2B API, Data Export API, Data Import API, and 5 more. Tagged areas include Account-Based Marketing, Advertising, AI Agents, B2B Marketing, and Company Data.
+overview: 'Demandbase publishes 8 APIs on the [APIs.io](https://apis.io/) network, including B2B API, Data Export API, Data Import API, and 5 more. Tagged areas include Account Based Marketing, Advertising, AI Agents, B2B Marketing, and Company Data.
 
 
   The Demandbase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -334,7 +334,7 @@ scopes:
 score:
   band: strong
   composite: 63.8
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -344,7 +344,7 @@ score:
     discoverability: 92.6
     governance: 34.1
     operational_transparency: 69.7
-  previous_composite: 66.2
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -355,8 +355,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png
 security:
@@ -374,7 +374,7 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: demandbase
 tags:
-- Account-Based Marketing
+- Account Based Marketing
 - Advertising
 - AI Agents
 - B2B Marketing

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Amica Mutual Insurance provides a full range of personal insurance products including auto, home, life, condo, renters, marine, motorcycle, umbrella, and flood insurance. The company does not currentl
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.7
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -145,16 +145,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.2
+  previous_composite: 9.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/screenshots/amica-mutual-insurance-2026-06-20T171928.png
 security:
 - kind: domain-security
@@ -169,7 +169,7 @@ tags:
 - Life Insurance
 - Mutual Insurance
 - Personal Insurance
-- Financial Services
+- Financial-Services
 use_cases:
 - description: Protect against vehicle damage, accidents, theft, and liability with comprehensive auto insurance and roadside assistance.
   name: Auto Coverage

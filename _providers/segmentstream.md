@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing SegmentStream's marketing measurement, attribution, budget-optimization, and BigQuery query capabilities as agent-callable tools (read-only reporting by d
@@ -166,9 +166,9 @@ description: SegmentStream is a marketing measurement platform that gives AI age
 image: https://segmentstream.com/images/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: segmentstream-mcp.yml
-  slug: segmentstream-mcpyml
+- description: 'Hosted remote MCP server that gives AI tools secure, read-only access to a SegmentStream workspace via the Model Context Protocol. Exposes marketing measurement, attribution, budget optimization, and '
+  name: SegmentStream MCP Server
+  slug: segmentstream-mcp-server
 modified: '2026-08-13'
 name: SegmentStream
 nav: Providers
@@ -189,7 +189,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.4
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -199,13 +199,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 46.3
+  previous_composite: 42.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/screenshots/segmentstream-2026-08-17T081754.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Unified commercial insurance API connecting to 40+ carriers and MGAs through a single integration. Documented endpoint families include Applications (create and submit in a unified JSON schema), Quote
@@ -118,8 +118,8 @@ image: https://cdn.prod.website-files.com/62fb0fee9797e7c02c446c87/63f67f2011a08
 layout: provider
 mcp_servers:
 - description: ''
-  name: coverforce-mcp.yml
-  slug: coverforce-mcpyml
+  name: Coverforce MCP Server
+  slug: coverforce-mcp-server
 modified: '2026-07-18'
 name: Coverforce
 nav: Providers
@@ -132,7 +132,7 @@ random_paper: 20
 score:
   band: thin
   composite: 28.7
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -142,7 +142,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.4
+  previous_composite: 28.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -152,8 +152,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/screenshots/coverforce-2026-07-25T210552.png
 security:
@@ -172,7 +172,6 @@ tags:
 - Insurtech
 - Commercial Insurance
 - Insurance Distribution
-- API
 - Embedded Insurance
 - Underwriting
 - Document AI

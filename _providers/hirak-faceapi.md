@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: Hirak FaceAPI
 nav: Providers
 network: true
-overview: Hirak FaceAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
+overview: Hirak FaceAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine-Learning and Public APIs.
 random_paper: 4
 score:
   band: minimal
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hirak-faceapi/refs/heads/main/screenshots/hirak-faceapi-2026-06-20T182753.png
 security:
@@ -83,7 +83,7 @@ security:
   summary_line: TLSv1.3
 slug: hirak-faceapi
 tags:
-- Machine Learning
+- Machine-Learning
 - Public APIs
 website: https://faceapi.hirak.site/
 ---

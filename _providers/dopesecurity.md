@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -210,9 +210,9 @@ description: dope.security is a cybersecurity company that builds the first fly-
 image: https://fly.dope.security/DS_192x192.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: dopesecurity-mcp.yml
-  slug: dopesecurity-mcpyml
+- description: Official open-source local MCP server for dope.security. Lets an AI assistant talk to your dope.security tenant — inspect endpoints, read and modify web policies, and curate custom URL categories. Wra
+  name: dope.security MCP Server
+  slug: dopesecurity-mcp-server
 modified: '2026-07-18'
 name: dope.security
 nav: Providers
@@ -225,7 +225,7 @@ random_paper: 10
 score:
   band: strong
   composite: 55.1
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 59.1
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,8 +246,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/screenshots/dopesecurity-2026-07-25T212307.png
 security:
@@ -279,6 +279,5 @@ tags:
 - Data Loss Prevention
 - CASB
 - Endpoint Security
-- API
 website: https://dope.security
 ---

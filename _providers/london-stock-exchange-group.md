@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -278,8 +278,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/london-sto
 layout: provider
 mcp_servers:
 - description: ''
-  name: london-stock-exchange-group-mcp.yml
-  slug: london-stock-exchange-group-mcpyml
+  name: London Stock Exchange Group MCP Server
+  slug: london-stock-exchange-group-mcp-server
 modified: '2026-07-22'
 name: London Stock Exchange Group
 nav: Providers
@@ -300,7 +300,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.8
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -310,7 +310,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 51.6
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,8 +327,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/screenshots/london-stock-exchange-group-2026-06-20T184706.png
 security:

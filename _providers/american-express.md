@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: 'The American Express Token Service (AETS) API allows developers to securely tokenize cardholder data, providing a layer of security for online transactions. By generating unique tokens that represent '
@@ -223,7 +223,7 @@ modified: '2026-07-23'
 name: American Express
 nav: Providers
 network: true
-overview: 'American Express publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Cards, Financial Services, Payments, Card Network, and Tokenization.
+overview: 'American Express publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Cards, Financial-Services, Payments, Card Network, and Tokenization.
 
 
   American Express'' developer surface includes developer portal, documentation, engineering blog, support, signup flow, getting-started guide, authentication, and 21 more developer resources.'
@@ -255,7 +255,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.7
-  delta: -12.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -265,7 +265,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 32.0
+  previous_composite: 19.7
   provenance:
     conformance: first-party
   regulatory:
@@ -274,9 +274,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png
 security:
 - kind: authentication
@@ -290,7 +290,7 @@ security:
 slug: american-express
 tags:
 - Credit Cards
-- Financial Services
+- Financial-Services
 - Payments
 - Card Network
 - Tokenization

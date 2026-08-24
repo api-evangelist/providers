@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'On-demand last-mile delivery: generate binding shipment promises (price + ETA), create deliveries, calculate venueless delivery fees, cancel before courier acceptance, retrieve handshake PINs, and rec'
@@ -158,8 +158,8 @@ image: https://wolt.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: wolt-mcp.yml
-  slug: wolt-mcpyml
+  name: Wolt MCP Server
+  slug: wolt-mcp-server
 modified: '2026-07-21'
 name: Wolt
 nav: Providers
@@ -180,7 +180,7 @@ scopes:
 score:
   band: thin
   composite: 38.3
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -190,13 +190,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 40.3
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -218,8 +218,8 @@ tags:
 - Food Delivery
 - Last Mile Delivery
 - Logistics
-- Webhooks
-- OAuth
-- Point of Sale
+- Webhook
+- Authentication
+- Point-of-Sale
 website: https://wolt.com
 ---

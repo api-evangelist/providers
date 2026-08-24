@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -276,8 +276,8 @@ image: https://teams.prezent.ai/prezent_favicon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: prezent-mcp.yml
-  slug: prezent-mcpyml
+  name: Prezent MCP Server
+  slug: prezent-mcp-server
 modified: '2026-07-20'
 name: Prezent
 nav: Providers
@@ -297,7 +297,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.5
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -307,7 +307,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 58.1
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,9 +324,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/screenshots/prezent-2026-08-17T081335.png
 security:
 - kind: authentication

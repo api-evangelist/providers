@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -181,8 +181,8 @@ image: https://cdn.prod.website-files.com/606ca67e54e3f68fa1be1f6b/652df95bec0aa
 layout: provider
 mcp_servers:
 - description: ''
-  name: bitfinder-mcp.yml
-  slug: bitfinder-mcpyml
+  name: Bitfinder MCP Server
+  slug: bitfinder-mcp-server
 modified: '2026-07-18'
 name: Bitfinder
 nav: Providers
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 42.5
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 39.1
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png
 security:

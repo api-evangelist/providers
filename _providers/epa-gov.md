@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-04-28'
 name: EPA.gov
 nav: Providers
 network: true
-overview: 'EPA.gov is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Alias, Environment, Federal Government, and Open Data.
+overview: 'EPA.gov is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Alias, Environment, Federal-Government, and Open Data.
 
 
   EPA.gov''s developer surface includes developer portal and 5 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 5.5
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -82,15 +82,15 @@ score:
     discoverability: 48.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.8
+  previous_composite: 5.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa-gov/refs/heads/main/screenshots/epa-gov-2026-06-20T180750.png
 security:
@@ -102,7 +102,7 @@ slug: epa-gov
 tags:
 - Alias
 - Environment
-- Federal Government
+- Federal-Government
 - Open Data
 website: https://www.epa.gov/
 ---

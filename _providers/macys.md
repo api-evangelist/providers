@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-04-28'
 name: Macy's
 nav: Providers
 network: true
-overview: Macy's is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Department Store, Ecommerce, and Fortune 500.
+overview: Macy's is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Department Store, E-Commerce, and Fortune 500.
 press:
 - date: '2026-05-25'
   title: Macy's AI-powered shopping assistant underscores ...
@@ -81,7 +81,7 @@ random_paper: 16
 score:
   band: minimal
   composite: 4.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -91,9 +91,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 4.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 4.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macys/refs/heads/main/screenshots/macys-2026-07-25T225826.png
 security:
@@ -105,7 +105,7 @@ slug: macys
 tags:
 - Retail
 - Department Store
-- Ecommerce
+- E-Commerce
 - Fortune 500
 website: https://www.macys.com
 ---

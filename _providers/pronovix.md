@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Developer portals with multiple api gateways. No vendor lock-in. Enjoy the freedom of an open source developer portal that can connect to many API gateways.
@@ -61,7 +61,7 @@ modified: '2026-04-28'
 name: Pronovix
 nav: Providers
 network: true
-overview: Pronovix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Platform and Portals.
+overview: Pronovix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Platform and Portal.
 plans:
 - name: Pronovix Plans Pricing
   plan_count: 3
@@ -74,7 +74,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.6
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -90,9 +90,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 8.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pronovix/refs/heads/main/screenshots/pronovix-2026-06-20T192203.png
 security:
@@ -103,5 +103,5 @@ security:
 slug: pronovix
 tags:
 - Platform
-- Portals
+- Portal
 ---

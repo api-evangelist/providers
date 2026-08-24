@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -216,14 +216,14 @@ description: Vooma builds AI agents for the freight industry, automating the bac
 image: https://cdn.prod.website-files.com/68ed090d0998c3c224a59e7c/69125b78bbe508e2ec38f42d_vooma-webclip.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: vooma-mcp.yml
-  slug: vooma-mcpyml
+- description: No official Vooma MCP server was found (docs, npm, GitHub org vooma-ai, MCP registries searched 2026-07-21). This is a candidate tool list derived from the Vooma Public API OpenAPI operations — one to
+  name: Vooma MCP Server
+  slug: vooma-mcp-server
 modified: '2026-07-21'
 name: Vooma
 nav: Providers
 network: true
-overview: 'Vooma publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Customers API, and 6 more. Tagged areas include Company, AI, Freight, Logistics, and Transportation.
+overview: 'Vooma publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Customers API, and 6 more. Tagged areas include Company, Artificial Intelligence, Freight, Logistics, and Transportation.
 
 
   The Vooma catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -234,7 +234,7 @@ random_paper: 0
 score:
   band: developing
   composite: 48.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 48.9
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,8 +261,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/screenshots/vooma-2026-08-17T082822.png
 security:
@@ -281,7 +281,7 @@ security:
 slug: vooma
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Freight
 - Logistics
 - Transportation

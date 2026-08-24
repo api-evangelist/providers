@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The account API from Origin Protocol — 2 operation(s) for account.
@@ -202,8 +202,8 @@ image: https://docs.originprotocol.com/~gitbook/image
 layout: provider
 mcp_servers:
 - description: ''
-  name: origin-protocol-mcp.yml
-  slug: origin-protocol-mcpyml
+  name: Origin Protocol MCP Server
+  slug: origin-protocol-mcp-server
 modified: '2026-07-20'
 name: Origin Protocol
 nav: Providers
@@ -216,7 +216,7 @@ random_paper: 0
 score:
   band: thin
   composite: 31.8
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 31.1
+  previous_composite: 31.8
   provenance:
     conformance: derived
     contracts:
@@ -236,8 +236,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/screenshots/origin-protocol-2026-08-07T190935.png
 security:
@@ -260,7 +260,7 @@ tags:
 - DeFi
 - Analytics
 - Ethereum
-- Stablecoin
+- Stablecoins
 - Liquid Staking
 - Yield
 - Blockchain

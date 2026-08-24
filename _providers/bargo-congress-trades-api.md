@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,17 +188,17 @@ examples:
 image: https://www.bargo.ai/favicon.png
 layout: provider
 mcp_servers:
+- description: Bargo hosts a focused Streamable HTTP MCP server for the Congress Trades dataset at https://www.bargo.ai/free-apis/congress/mcp, exposing exactly three narrowly scoped read-only tools. The tool list b
+  name: Bargo Congress Trades API MCP Server
+  slug: bargo-congress-trades-api-mcp-server
 - description: ''
-  name: bargo-congress-trades-api-mcp.yml
-  slug: bargo-congress-trades-api-mcpyml
-- description: ''
-  name: mcp
-  slug: mcp
+  name: Bargo Congress Trades API MCP Server
+  slug: bargo-congress-trades-api-mcp-server-2
 modified: '2026-08-09'
 name: Bargo Congress Trades API
 nav: Providers
 network: true
-overview: 'Bargo Congress Trades API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Members API, Statistics API, and Trades API. Tagged areas include congress, finance, stocks, government, and stock-act.
+overview: 'Bargo Congress Trades API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Members API, Statistics API, and Trades API. Tagged areas include Congress, Finance, Stocks, Government, and stock-act.
 
 
   Bargo Congress Trades API''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 22 more developer resources.'
@@ -210,7 +210,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.4
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -220,7 +220,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 49.7
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,8 +237,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/screenshots/bargo-congress-trades-api-2026-08-17T080629.png
 security:
@@ -252,17 +252,17 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: bargo-congress-trades-api
 tags:
-- congress
-- finance
-- stocks
-- government
+- Congress
+- Finance
+- Stocks
+- Government
 - stock-act
-- mcp
-- congressional-trading
+- MCP
+- Congressional Trading
 - financial-disclosure
-- market-data
-- public-data
-- free-api
-- open-data
+- Market Data
+- Public Data
+- Free API
+- Open Data
 website: https://www.bargo.ai/free-apis/congress
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 4
@@ -544,14 +544,14 @@ description: 'Dream Sports is India''s largest sports technology company, founde
 image: https://www.dreamsports.group/images/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: dream-sports-mcp.yml
-  slug: dream-sports-mcpyml
+- description: 'First-party Model Context Protocol server that exposes Odin — Dream Sports'' internal developer platform — to agents. It is a thin adapter: business logic stays in the Java services, and the server cal'
+  name: Dream Sports MCP Server
+  slug: dream-sports-mcp-server
 modified: '2026-08-04'
 name: Dream Sports
 nav: Providers
 network: true
-overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Account API, and 59 more. Tagged areas include Company, sports-technology, fantasy-sports, open-source, and developer-tools.
+overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Account API, and 59 more. Tagged areas include Company, Sports Technology, Fantasy Sports, Open-Source, and Developer Tools.
 
 
   The Dream Sports catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -567,7 +567,7 @@ scopes:
 score:
   band: developing
   composite: 48.6
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -577,7 +577,7 @@ score:
     discoverability: 77.8
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 49.3
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -588,8 +588,8 @@ score:
       total: 61
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/screenshots/dream-sports-2026-08-07T164521.png
 security:
@@ -608,23 +608,22 @@ security:
 slug: dream-sports
 tags:
 - Company
-- sports-technology
-- fantasy-sports
-- open-source
-- developer-tools
-- platform-engineering
-- authentication
-- openid-connect
-- oauth2
-- mobile
-- react-native
-- devops
-- observability
-- test-management
-- ota-updates
-- feature-flags
-- india
-- mcp
+- Sports Technology
+- Fantasy Sports
+- Open-Source
+- Developer Tools
+- Platform Engineering
+- Authentication
+- OpenID Connect
+- Mobile
+- React Native
+- DevOps
+- Observability
+- Test Management
+- OTA Updates
+- Feature Flags
+- India
+- MCP
 - agent-native
 website: https://www.dreamsports.group/
 ---

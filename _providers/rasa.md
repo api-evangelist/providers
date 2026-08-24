@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -189,13 +189,13 @@ image: https://rasa.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: rasa-mcp.yml
-  slug: rasa-mcpyml
+  name: Rasa MCP Server
+  slug: rasa-mcp-server
 modified: '2026-07-20'
 name: Rasa
 nav: Providers
 network: true
-overview: 'Rasa publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Domain API, Model API, Rasa SDK Action Server Endpoint API, and 2 more. Tagged areas include Company, Ai, Conversational AI, Chatbots, and Voice Assistants.
+overview: 'Rasa publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Domain API, Model API, Rasa SDK Action Server Endpoint API, and 2 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Chatbots, and Voice Assistants.
 
 
   Rasa''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, quickstart, and 20 more developer resources.'
@@ -203,7 +203,7 @@ random_paper: 3
 score:
   band: developing
   composite: 46.4
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -213,7 +213,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 45.5
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,8 +224,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/screenshots/rasa-2026-08-17T081447.png
 security:
@@ -240,13 +240,13 @@ security:
 slug: rasa
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Conversational AI
 - Chatbots
 - Voice Assistants
 - NLU
 - LLM
-- Machine Learning
+- Machine-Learning
 - Agents
 website: https://rasa.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ modified: '2026-05-19'
 name: US AbilityOne Commission
 nav: Providers
 network: true
-overview: 'US AbilityOne Commission publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Products API, Reports API, and 1 more. Tagged areas include Federal Government, Disability Employment, Procurement, Nonprofit, and Accessibility.
+overview: 'US AbilityOne Commission publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Products API, Reports API, and 1 more. Tagged areas include Federal-Government, Disability Employment, Procurement, Non-Profit, and Accessibility.
 
 
   The US AbilityOne Commission catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -257,18 +257,18 @@ rules:
   slug: us-abilityone-commission-spectral-rules
 score:
   band: emerging
-  composite: 22.2
-  delta: -7.2
+  composite: 22.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 28.5
     developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 29.4
+  previous_composite: 22.6
   provenance:
     agentic_access: derived
     contracts:
@@ -282,9 +282,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/screenshots/us-abilityone-commission-2026-06-20T200541.png
 security:
 - kind: domain-security
@@ -293,10 +293,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: us-abilityone-commission
 tags:
-- Federal Government
+- Federal-Government
 - Disability Employment
 - Procurement
-- Nonprofit
+- Non-Profit
 - Accessibility
 use_cases:
 - description: Federal contracting officers verifying mandatory source requirements for AbilityOne products and services before placing orders.

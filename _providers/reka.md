@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ modified: '2026-05-23'
 name: Reka
 nav: Providers
 network: true
-overview: 'Reka publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Clips API, Models API, and 6 more. Tagged areas include AI, Multimodal, Large Language Models, Vision, and Speech.
+overview: 'Reka publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Clips API, Models API, and 6 more. Tagged areas include Artificial Intelligence, Multi-Modal, Large Language Models, Vision, and Speech.
 
 
   Reka''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.3
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 40.8
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/screenshots/reka-2026-06-20T192942.png
 security:
@@ -228,13 +228,13 @@ security:
   summary_line: SOC 2
 slug: reka
 tags:
-- AI
-- Multimodal
+- Artificial Intelligence
+- Multi-Modal
 - Large Language Models
 - Vision
 - Speech
 - Foundation Models
-- OpenAI Compatible
+- OpenAI-Compatible
 - SDK
 - Enterprise
 - On-Premises

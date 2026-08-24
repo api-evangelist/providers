@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ modified: '2026-08-08'
 name: Cadence Solutions
 nav: Providers
 network: true
-overview: 'Cadence Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Digital Health, Remote Patient Monitoring, and Chronic Care Management.
+overview: 'Cadence Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Remote Patient Monitoring, and Chronic Care Management.
 
 
   Cadence Solutions'' developer surface includes support, signup flow, and 11 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 16.2
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -118,15 +118,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 16.9
+  previous_composite: 16.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -140,7 +140,7 @@ security:
 slug: cadence-solutions
 tags:
 - Company
-- Health Care
+- Healthcare
 - Digital Health
 - Remote Patient Monitoring
 - Chronic Care Management

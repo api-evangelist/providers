@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Concentriq REST API exposes whole-slide images, annotations, regions of interest, users, and clinical/case data on Proscia's open, API-first digital pathology platform. Authentication is via a Con
@@ -118,8 +118,8 @@ image: https://avatars.githubusercontent.com/u/6182466?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: proscia-mcp.yml
-  slug: proscia-mcpyml
+  name: Proscia MCP Server
+  slug: proscia-mcp-server
 modified: '2026-07-20'
 name: Proscia
 nav: Providers
@@ -132,7 +132,7 @@ random_paper: 18
 score:
   band: thin
   composite: 27.3
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -142,7 +142,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 26.3
+  previous_composite: 27.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -152,8 +152,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

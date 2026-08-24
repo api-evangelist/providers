@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A Model Context Protocol server served from FundGuard's own corporate web host via the WordPress MCP adapter, advertised through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-res
@@ -134,13 +134,13 @@ image: https://www.fundguard.com/wp-content/uploads/2020/08/fundguard-logo-cropp
 layout: provider
 mcp_servers:
 - description: ''
-  name: fundguard-mcp.yml
-  slug: fundguard-mcpyml
+  name: FundGuard MCP Server
+  slug: fundguard-mcp-server
 modified: '2026-08-01'
 name: FundGuard
 nav: Providers
 network: true
-overview: 'FundGuard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include investment-accounting, fund-accounting, ibor, abor, and nav.
+overview: 'FundGuard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include investment-accounting, Fund Accounting, ibor, abor, and NAV.
 
 
   FundGuard''s developer surface includes documentation, support, engineering blog, signup flow, YouTube channel, authentication, and 19 more developer resources.'
@@ -152,23 +152,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 24.3
-  delta: -0.9
+  composite: 25.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 25.2
+  previous_composite: 25.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundguard/refs/heads/main/screenshots/fundguard-2026-08-07T165522.png
 security:
@@ -183,17 +183,17 @@ security:
 slug: fundguard
 tags:
 - investment-accounting
-- fund-accounting
+- Fund Accounting
 - ibor
 - abor
-- nav
-- asset-management
+- NAV
+- Asset Management
 - portfolio-accounting
-- private-markets
-- financial-services
-- fintech
-- saas
-- artificial-intelligence
-- mcp
+- Private Markets
+- Financial-Services
+- Fintech
+- Software-as-a-Service
+- Artificial Intelligence
+- MCP
 website: https://www.fundguard.com/
 ---

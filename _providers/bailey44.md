@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,14 +64,14 @@ modified: '2026-07-18'
 name: Bailey44
 nav: Providers
 network: true
-overview: 'Bailey44 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Apparel, Womenswear, and Ecommerce.
+overview: 'Bailey44 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Apparel, Womenswear, and E-Commerce.
 
 
   Bailey44''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 20
 score:
   band: minimal
-  composite: 9.7
+  composite: 10.8
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -79,12 +79,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bailey44/refs/heads/main/screenshots/bailey44-2026-08-07T162106.png
 security:
@@ -98,9 +98,9 @@ tags:
 - Fashion
 - Apparel
 - Womenswear
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopify
-- Direct-to-Consumer
+- Direct to Consumer
 website: https://bailey44.com
 ---

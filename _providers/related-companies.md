@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 18
 common:
@@ -100,7 +100,7 @@ modified: '2026-05-23'
 name: Related Companies
 nav: Providers
 network: true
-overview: 'Related Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Real Estate Development, Residential, Affordable Housing, and Mixed Use Development.
+overview: 'Related Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Real Estate Development, Residential, Affordable Housing, and Mixed-Use Development.
 
 
   Related Companies'' developer surface includes engineering blog, product news, and 6 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 5.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -118,9 +118,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/related-companies/refs/heads/main/screenshots/related-companies-2026-06-20T192815.png
 security:
@@ -130,11 +130,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: related-companies
 tags:
-- Real Estate
+- Real-Estate
 - Real Estate Development
 - Residential
 - Affordable Housing
-- Mixed Use Development
+- Mixed-Use Development
 - Commercial Real Estate
 - Retail
 - Hospitality

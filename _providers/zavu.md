@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 3
@@ -309,8 +309,8 @@ image: https://zavu.dev/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: zavu-mcp.yml
-  slug: zavu-mcpyml
+  name: Zavu MCP Server
+  slug: zavu-mcp-server
 modified: '2026-07-21'
 name: Zavu
 nav: Providers
@@ -330,7 +330,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.7
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -340,7 +340,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 54.7
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,8 +357,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/screenshots/zavu-2026-08-17T083039.png
 security:
@@ -380,7 +380,7 @@ tags:
 - Voice
 - Communications
 - CPaaS
-- Webhooks
+- Webhook
 - AI Agents
 website: https://zavu.dev
 ---

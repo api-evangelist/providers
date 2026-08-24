@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -257,8 +257,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/facebook-l
 layout: provider
 mcp_servers:
 - description: ''
-  name: facebook-lead-ads-mcp.yml
-  slug: facebook-lead-ads-mcpyml
+  name: Meta Ads MCP Server
+  slug: meta-ads-mcp-server
 modified: '2026-08-14'
 name: Facebook Lead Ads
 nav: Providers
@@ -287,7 +287,7 @@ scopes:
 score:
   band: strong
   composite: 56.3
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -297,7 +297,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 76.3
-  previous_composite: 64.4
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,9 +308,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/screenshots/facebook-lead-ads-2026-06-20T181004.png
 security:
 - kind: authentication
@@ -334,6 +334,6 @@ tags:
 - Facebook
 - Instagram
 - Meta
-- Webhooks
+- Webhook
 website: https://www.facebook.com/business/ads/lead-ads
 ---

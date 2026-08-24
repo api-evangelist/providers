@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Aladdin Developer program provides APIs that enable clients to access BlackRock's Aladdin platform capabilities programmatically. Aladdin APIs support portfolio analytics, risk reporting, data acc
@@ -137,7 +137,7 @@ modified: '2026-04-21'
 name: BlackRock
 nav: Providers
 network: true
-overview: 'BlackRock publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Finance, FinTech, Investment Management, and Portfolio Management.
+overview: 'BlackRock publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Finance, Fintech, Investment Management, and Portfolio-Management.
 
 
   The BlackRock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -193,7 +193,7 @@ rules:
 score:
   band: emerging
   composite: 19.4
-  delta: -12.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -203,10 +203,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 31.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 19.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Blackrock Domain Security
@@ -216,9 +216,9 @@ slug: blackrock
 tags:
 - Asset Management
 - Finance
-- FinTech
+- Fintech
 - Investment Management
-- Portfolio Management
+- Portfolio-Management
 - Risk Analytics
 - Fortune 500
 use_cases:

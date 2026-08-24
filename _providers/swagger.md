@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Swagger UI renders OpenAPI specifications as interactive API documentation, allowing developers to explore and test API endpoints directly in the browser. It generates a rich HTML interface with try-i
@@ -129,7 +129,7 @@ modified: '2026-05-02'
 name: Swagger
 nav: Providers
 network: true
-overview: 'Swagger publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Documentation, Open Source, OpenAPI, and REST.
+overview: 'Swagger publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Documentation, Open-Source, OpenAPI, and REST.
 
 
   The Swagger catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -169,21 +169,21 @@ rules:
   slug: swagger-rules
 score:
   band: emerging
-  composite: 17.9
-  delta: -6.7
+  composite: 18.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 11.3
     developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 24.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 18.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger/refs/heads/main/screenshots/swagger-2026-06-20T194753.png
 security:
 - kind: domain-security
@@ -194,7 +194,7 @@ slug: swagger
 tags:
 - API Design
 - Documentation
-- Open Source
+- Open-Source
 - OpenAPI
 - REST
 - Standard

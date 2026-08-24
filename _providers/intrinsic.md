@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Unified Trust & Safety API exposing ML classifiers, enrichments, account graph lineage, and real-time rule evaluation for anti-abuse workflows. Access is gated behind an issued API key; developer docu
@@ -83,20 +83,20 @@ overview: 'Intrinsic publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 13
 score:
   band: minimal
-  composite: 8.2
-  delta: -3.5
+  composite: 9.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 68.5
+    discoverability: 79.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 11.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intrinsic/refs/heads/main/screenshots/intrinsic-2026-07-25T222730.png
 security:
@@ -115,8 +115,7 @@ tags:
 - Content Moderation
 - Anti-Abuse
 - Fraud Detection
-- Machine Learning
+- Machine-Learning
 - Risk Intelligence
-- API
 website: https://withintrinsic.com
 ---

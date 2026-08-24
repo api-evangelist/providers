@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -1968,9 +1968,9 @@ jsonld:
   slug: figma-teams-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: figma-mcp.yml
-  slug: figma-mcpyml
+- description: Figma's official remote (Dev Mode) MCP server. Provides live Figma design context to AI coding agents. Works on all seats and plans; only clients in the Figma MCP catalog (VS Code, Cursor, Claude Code
+  name: Figma MCP Server
+  slug: figma-mcp-server
 modified: '2026-06-20'
 name: Figma
 nav: Providers
@@ -2031,18 +2031,18 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.0
-  delta: -5.6
+  composite: 64.3
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 79.9
     developer_ergonomics: 59.5
     discoverability: 77.8
-    governance: 43.2
+    governance: 45.5
     operational_transparency: 52.6
-  previous_composite: 69.6
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2052,9 +2052,9 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ modified: '2026-05-19'
 name: Gender API
 nav: Providers
 network: true
-overview: 'Gender API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Get API, Get Country Of Origin API, and Get Stats API. Tagged areas include AI, Demographics, Gender, Identity, and Names.
+overview: 'Gender API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Get API, Get Country Of Origin API, and Get Stats API. Tagged areas include Artificial Intelligence, Demographics, Gender, Identity, and Name.
 
 
   Gender API''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.2
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -165,7 +165,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 40.6
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -173,9 +173,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/screenshots/gender-api-2026-06-20T181719.png
 security:
 - kind: authentication
@@ -188,11 +188,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: gender-api
 tags:
-- AI
+- Artificial Intelligence
 - Demographics
 - Gender
 - Identity
-- Names
+- Name
 - Personal Data
 website: https://gender-api.com/
 ---

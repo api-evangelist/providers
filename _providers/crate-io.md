@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The CrateDB Cloud REST API manages CrateDB Cloud resources — organizations, regions, projects, clusters, products, users, roles, subscriptions, and audit logs. Authentication uses HTTP Basic auth with
@@ -161,9 +161,9 @@ description: Crate.io is the company behind CrateDB, a distributed SQL database 
 image: https://cratedb.com/hubfs/cr-featured-image-23.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: crate-io-mcp.yml
-  slug: crate-io-mcpyml
+- description: Official CrateDB MCP Server providing natural-language Text-to-SQL query execution against a CrateDB cluster and retrieval over CrateDB documentation.
+  name: Crate Io MCP Server
+  slug: crate-io-mcp-server
 modified: '2026-07-18'
 name: Crate Io
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 11
 score:
   band: thin
   composite: 37.4
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -186,12 +186,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 42.1
+  previous_composite: 37.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/screenshots/crate-io-2026-07-25T210645.png
 security:

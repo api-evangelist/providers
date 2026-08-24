@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Match external users to Zego customers.
@@ -122,8 +122,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zego.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: zego-mcp.yml
-  slug: zego-mcpyml
+  name: Zego MCP Server
+  slug: zego-mcp-server
 modified: '2026-07-21'
 name: Zego
 nav: Providers
@@ -139,7 +139,7 @@ random_paper: 17
 score:
   band: thin
   composite: 33.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -149,7 +149,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.4
+  previous_composite: 33.3
   provenance:
     contracts:
       callable: 100.0
@@ -164,8 +164,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

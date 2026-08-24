@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,12 +48,12 @@ modified: '2026-07-20'
 name: Nse-india
 nav: Providers
 network: true
-overview: Nse-india is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stock Exchange, Financial Services, Market Data, and Capital Markets.
+overview: Nse-india is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stock Exchange, Financial-Services, Market Data, and Capital Markets.
 random_paper: 6
 score:
   band: minimal
   composite: 1.2
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -63,15 +63,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.8
+  previous_composite: 1.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nse-india/refs/heads/main/screenshots/nse-india-2026-08-07T185704.png
 security:
@@ -83,7 +83,7 @@ slug: nse-india
 tags:
 - Company
 - Stock Exchange
-- Financial Services
+- Financial-Services
 - Market Data
 - Capital Markets
 - Trading

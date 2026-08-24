@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Automate on-demand deliveries with GoGet — create, update, and cancel jobs, estimate fees, check coverage and availability, track GoGetters live, and receive job-status webhooks. Authenticated with an
@@ -131,8 +131,8 @@ image: https://web.goget.my/assets/images/og/logo_1200_630.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: goget-mcp.yml
-  slug: goget-mcpyml
+  name: GoGet MCP Server
+  slug: goget-mcp-server
 modified: '2026-07-19'
 name: GoGet
 nav: Providers
@@ -148,7 +148,7 @@ random_paper: 9
 score:
   band: thin
   composite: 37.6
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -158,12 +158,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 43.4
+  previous_composite: 37.6
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goget/refs/heads/main/screenshots/goget-2026-07-25T220015.png
 security:
 - kind: authentication
@@ -184,6 +184,6 @@ tags:
 - Workforce
 - Dispatch
 - Malaysia
-- Webhooks
+- Webhook
 website: https://goget.my
 ---

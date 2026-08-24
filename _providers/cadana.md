@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -370,8 +370,8 @@ image: https://framerusercontent.com/images/ikikrpQNMIduf7aphtBIOOee650.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cadana-mcp.yml
-  slug: cadana-mcpyml
+  name: Cadana MCP Server
+  slug: cadana-mcp-server
 modified: '2026-07-18'
 name: Cadana
 nav: Providers
@@ -387,7 +387,7 @@ random_paper: 12
 score:
   band: developing
   composite: 50.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -397,7 +397,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 50.0
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,8 +414,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/screenshots/cadana-2026-07-25T204209.png
 security:

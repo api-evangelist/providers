@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-05-19'
 name: Spring Framework
 nav: Providers
 network: true
-overview: 'Spring Framework publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generation API, Management API, and Metadata API. Tagged areas include AOP, Dependency Injection, Enterprise, Framework, and IoC.
+overview: 'Spring Framework publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generation API, Management API, and Metadata API. Tagged areas include AOP, Dependency Injection, Enterprise, Framework, and IOC.
 
 
   The Spring Framework catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -208,18 +208,18 @@ rules:
   slug: spring-framework-rules
 score:
   band: thin
-  composite: 30.9
-  delta: -9.9
+  composite: 31.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 57.3
     developer_ergonomics: 23.8
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 40.8
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -227,9 +227,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-framework/refs/heads/main/screenshots/spring-framework-2026-06-20T194413.png
 security:
 - kind: domain-security
@@ -246,7 +246,7 @@ tags:
 - Dependency Injection
 - Enterprise
 - Framework
-- IoC
+- IOC
 - Java
 - Microservices
 - MVC

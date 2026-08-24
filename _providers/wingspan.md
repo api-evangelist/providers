@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -326,8 +326,8 @@ image: https://www.wingspan.app/images/wingspan-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: wingspan-mcp.yml
-  slug: wingspan-mcpyml
+  name: Wingspan MCP Server
+  slug: wingspan-mcp-server
 modified: '2026-07-21'
 name: Wingspan
 nav: Providers
@@ -347,7 +347,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.3
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -357,7 +357,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 58.3
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -374,8 +374,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/screenshots/wingspan-2026-08-17T082930.png
 security:

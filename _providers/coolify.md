@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -292,7 +292,7 @@ modified: '2026-05-25'
 name: Coolify
 nav: Providers
 network: true
-overview: 'Coolify publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Cloud Tokens API, Databases API, and 15 more. Tagged areas include Platform as a Service, Self-Hosting, Deployment, Open Source, and Containers.
+overview: 'Coolify publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Cloud Tokens API, Databases API, and 15 more. Tagged areas include Platform-as-a-Service, Self-Hosting, Deployment, Open-Source, and Containers.
 
 
   Coolify''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 19 more developer resources.'
@@ -300,7 +300,7 @@ random_paper: 1
 score:
   band: developing
   composite: 44.7
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -310,7 +310,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 43.9
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -318,8 +318,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/screenshots/coolify-2026-06-20T175004.png
 security:
@@ -333,10 +333,10 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: coolify
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Self-Hosting
 - Deployment
-- Open Source
+- Open-Source
 - Containers
 - Docker
 website: https://coolify.io/

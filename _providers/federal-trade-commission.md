@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The FTC Developer Portal is the central hub for developer documentation, data dictionaries, and access program details for FTC-managed datasets and services.
@@ -94,7 +94,7 @@ modified: '2026-04-28'
 name: Federal Trade Commission
 nav: Providers
 network: true
-overview: 'Federal Trade Commission publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Antitrust, Consumer Protection, Do Not Call, Federal Government, and Law Enforcement.
+overview: 'Federal Trade Commission publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Antitrust, Consumer Protection, Do Not Call, Federal-Government, and Law Enforcement.
 
 
   Federal Trade Commission''s developer surface includes documentation, product news, engineering blog, and 6 more developer resources.'
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.8
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -120,15 +120,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.2
+  previous_composite: 11.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-trade-commission/refs/heads/main/screenshots/federal-trade-commission-2026-06-20T181129.png
 security:
@@ -141,7 +141,7 @@ tags:
 - Antitrust
 - Consumer Protection
 - Do Not Call
-- Federal Government
+- Federal-Government
 - Law Enforcement
 - Open Data
 website: https://www.ftc.gov/

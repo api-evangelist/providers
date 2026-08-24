@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Hosted Model Context Protocol server exposing a customer''s curated Crayon competitive intelligence — battlecards, win/loss stories, competitor profiles, objection handling and customer proof points — '
@@ -127,9 +127,9 @@ description: 'Crayon is a Boston-based competitive intelligence platform that au
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crayon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: crayon-mcp.yml
-  slug: crayon-mcpyml
+- description: Crayon's hosted Model Context Protocol server, announced 2026-09-04 as the first competitive-intelligence MCP server. It exposes the competitive content a customer already manages in Crayon — battleca
+  name: Crayon Competitive Intelligence MCP Server
+  slug: crayon-competitive-intelligence-mcp-server
 modified: '2026-08-14'
 name: Crayon
 nav: Providers
@@ -155,7 +155,7 @@ scopes:
 score:
   band: emerging
   composite: 20.5
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -165,12 +165,12 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.6
+  previous_composite: 20.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/screenshots/crayon-2026-06-20T175221.png
 security:
@@ -190,7 +190,7 @@ tags:
 - Battlecards
 - Win-Loss Analysis
 - Product Marketing
-- AI
+- Artificial Intelligence
 - MCP
 website: https://www.crayon.co
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful Open API for managing TikTok Shop seller accounts, products, orders, fulfillment, returns and refunds, logistics, finance, and promotions. Authentication uses OAuth 2.0 with App ID and app sec
@@ -76,7 +76,7 @@ modified: '2026-05-11'
 name: TikTok Shop API
 nav: Providers
 network: true
-overview: 'TikTok Shop API publishes 1 API on the [APIs.io](https://apis.io/) network: TikTok Shop Open API. Tagged areas include E-commerce, Marketplace, Social Commerce, Order Management, and Product Catalog.
+overview: 'TikTok Shop API publishes 1 API on the [APIs.io](https://apis.io/) network: TikTok Shop Open API. Tagged areas include E-Commerce, Marketplace, Social Commerce, Order Management, and Product Catalog.
 
 
   TikTok Shop API''s developer surface includes documentation, signup flow, support, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 14.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -94,9 +94,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-shop/refs/heads/main/screenshots/tiktok-shop-2026-06-20T195350.png
 security:
@@ -106,7 +106,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: tiktok-shop
 tags:
-- E-commerce
+- E-Commerce
 - Marketplace
 - Social Commerce
 - Order Management

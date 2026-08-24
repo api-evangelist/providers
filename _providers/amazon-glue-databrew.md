@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -2297,7 +2297,7 @@ modified: '2026-05-19'
 name: Amazon Glue DataBrew
 nav: Providers
 network: true
-overview: 'Amazon Glue DataBrew publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Jobs API, ProfileJobs API, and 7 more. Tagged areas include Data Analytics, Data Preparation, ETL, and Machine Learning.
+overview: 'Amazon Glue DataBrew publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Jobs API, ProfileJobs API, and 7 more. Tagged areas include Data Analytics, Data Preparation, ETL, and Machine-Learning.
 
 
   The Amazon Glue DataBrew catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2337,18 +2337,18 @@ rules:
   slug: amazon-glue-databrew-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: -5.0
+  composite: 53.9
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 77.6
     developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 58.4
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -2356,9 +2356,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/screenshots/amazon-glue-databrew-2026-06-20T171658.png
 security:
 - kind: authentication
@@ -2382,7 +2382,7 @@ tags:
 - Data Analytics
 - Data Preparation
 - ETL
-- Machine Learning
+- Machine-Learning
 use_cases:
 - description: Clean, normalize, and transform raw data for business analytics dashboards and reports.
   name: Analytics Data Preparation

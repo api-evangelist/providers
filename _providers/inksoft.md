@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Retrieve a web store's product catalog for building custom catalog and product-detail pages. Documented API 2 methods include GetProductCategoryList (all categories and subcategories in a store with c
@@ -98,7 +98,7 @@ modified: '2026-07-11'
 name: InkSoft
 nav: Providers
 network: true
-overview: 'InkSoft publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Custom Apparel, E-commerce, Online Stores, Print Shop, and Design Studio.
+overview: 'InkSoft publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Custom Apparel, E-Commerce, Online Stores, Print Shop, and Design Studio.
 
 
   InkSoft''s developer surface includes documentation, API reference, engineering blog, and 7 more developer resources.'
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -124,9 +124,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inksoft/refs/heads/main/screenshots/inksoft-2026-07-25T222447.png
 security:
@@ -137,7 +137,7 @@ security:
 slug: inksoft
 tags:
 - Custom Apparel
-- E-commerce
+- E-Commerce
 - Online Stores
 - Print Shop
 - Design Studio

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-08-08'
 name: Fifth Dimension
 nav: Providers
 network: true
-overview: 'Fifth Dimension is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Real Estate, PropTech, and Decision Intelligence.
+overview: 'Fifth Dimension is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Real-Estate, PropTech, and Decision Intelligence.
 
 
   Fifth Dimension''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 18.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -106,11 +106,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.0
+  previous_composite: 18.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-dimension/refs/heads/main/screenshots/fifth-dimension-2026-07-25T214432.png
 security:
@@ -126,7 +126,7 @@ slug: fifth-dimension
 tags:
 - Company
 - Artificial Intelligence
-- Real Estate
+- Real-Estate
 - PropTech
 - Decision Intelligence
 - Document Processing

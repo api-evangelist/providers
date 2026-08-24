@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol (MCP) server that lets AI assistants (Claude Code, Claude Desktop, Cursor, Windsurf, Gemini Enterprise) run natural-language analyses, list and execute metrics, trigger w
@@ -127,8 +127,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orion-by-g
 layout: provider
 mcp_servers:
 - description: ''
-  name: orion-by-gravity-mcp.yml
-  slug: orion-by-gravity-mcpyml
+  name: Orion by Gravity MCP Server
+  slug: orion-by-gravity-mcp-server
 modified: '2026-07-20'
 name: Orion by Gravity
 nav: Providers
@@ -141,7 +141,7 @@ random_paper: 17
 score:
   band: thin
   composite: 34.8
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -151,12 +151,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 34.9
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orion-by-gravity/refs/heads/main/screenshots/orion-by-gravity-2026-08-07T190940.png
 security:
@@ -185,6 +185,6 @@ tags:
 - Data
 - MCP
 - Data Warehouse
-- SaaS
+- Software-as-a-Service
 website: https://www.bygravity.com
 ---

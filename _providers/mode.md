@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -217,8 +217,8 @@ image: https://avatars.githubusercontent.com/u/5306870?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: mode-mcp.yml
-  slug: mode-mcpyml
+  name: Mode MCP Server
+  slug: mode-mcp-server
 modified: '2026-07-20'
 name: Mode
 nav: Providers
@@ -231,7 +231,7 @@ random_paper: 1
 score:
   band: developing
   composite: 46.1
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 47.1
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +252,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/screenshots/mode-2026-08-07T183917.png
 security:

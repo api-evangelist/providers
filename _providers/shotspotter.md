@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST data APIs for ShotSpotter gunfire detection — incident data, CAD incident ID lookup, and ILS (Investigative Lead Summary) retrieval.
@@ -101,8 +101,8 @@ image: https://www.soundthinking.com/wp-content/themes/soundthinking/assets/imag
 layout: provider
 mcp_servers:
 - description: ''
-  name: shotspotter-mcp.yml
-  slug: shotspotter-mcpyml
+  name: ShotSpotter (SoundThinking) MCP Server
+  slug: shotspotter-soundthinking-mcp-server
 modified: '2026-07-21'
 name: ShotSpotter (SoundThinking)
 nav: Providers
@@ -118,7 +118,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 23.7
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -128,7 +128,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.1
+  previous_composite: 23.7
   provenance:
     mcp: derived
   regulatory:
@@ -137,9 +137,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Shotspotter Domain Security
@@ -155,6 +155,6 @@ tags:
 - Acoustic Sensors
 - Government
 - Security
-- Webhooks
+- Webhook
 website: https://www.soundthinking.com
 ---

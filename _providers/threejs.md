@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'The Three.js core library provides the scene graph, cameras, lights, geometries, materials, textures, loaders, and animation primitives used to build interactive 3D applications in the browser and on '
@@ -239,7 +239,7 @@ rules:
 score:
   band: emerging
   composite: 24.7
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -255,10 +255,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 30.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 24.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threejs/refs/heads/main/screenshots/threejs-2026-06-20T195317.png
 security:
 - kind: domain-security
@@ -273,7 +273,7 @@ tags:
 - WebGPU
 - JavaScript
 - Rendering
-- Open Source
+- Open-Source
 - Game Development
 - Visualization
 website: https://threejs.org

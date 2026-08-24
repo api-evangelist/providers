@@ -29,8 +29,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 24.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -70,8 +70,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -97,21 +97,21 @@
      "name": "Union Pacific",
      "slug": "union-pacific",
      "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states in the western two-thirds of the country. The company transports a diverse range of commodities including agricultural products, automotive goods, chemicals, energy resources, and industrial materials. Union Pacific's API platform gives businesses programmatic access to real-time shipment tracking, equipment management, intermodal planning, and supply chain exception handling, enabling seamless integration with logistics and supply chain management systems.",
-     "score": 17.9,
+     "score": 18.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 26.2,
-      "governance": 9.8,
-      "contract_governance": 9.8,
+      "governance": 13.6,
+      "contract_governance": 13.6,
       "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -162,8 +162,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -203,8 +203,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -244,8 +244,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -284,8 +284,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -325,8 +325,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

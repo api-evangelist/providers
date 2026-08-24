@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: Boxbee
 nav: Providers
 network: true
-overview: 'Boxbee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, On-Demand Storage, Self-Storage, and Moving.
+overview: 'Boxbee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, On-Demand Storage, Self Storage, and Moving.
 
 
   Boxbee''s developer surface includes engineering blog, support, pricing, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 14.1
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -90,9 +90,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxbee/refs/heads/main/screenshots/boxbee-2026-07-25T203652.png
 security:
@@ -105,7 +105,7 @@ tags:
 - Company
 - Storage
 - On-Demand Storage
-- Self-Storage
+- Self Storage
 - Moving
 - Moving Boxes
 - Logistics

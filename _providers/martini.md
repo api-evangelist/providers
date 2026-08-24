@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Hosted, OAuth-secured Model Context Protocol server that lets supported AI assistants work inside Martini projects using the signed-in user''s account permissions — browse projects, canvases, subjects '
@@ -115,8 +115,8 @@ image: https://www.martini.film/marketing/uisample-3.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: martini-mcp.yml
-  slug: martini-mcpyml
+  name: Martini MCP Server
+  slug: martini-mcp-server
 modified: '2026-07-20'
 name: Martini
 nav: Providers
@@ -129,7 +129,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 13.6
-  delta: -14.5
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -139,14 +139,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 28.1
+  previous_composite: 13.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/screenshots/martini-2026-07-25T230407.png
 security:
 - kind: authentication
@@ -169,7 +169,7 @@ tags:
 - Filmmaking
 - Generative AI
 - Creative Tools
-- Model Context Protocol
+- MCP
 - Agents
 - Collaboration
 - Media Production

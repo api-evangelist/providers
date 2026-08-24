@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 19
 apis:
 - description: The Unified Customer Database. Upsert user profiles, attributes and behavioural events, read profiles back with a sparse fieldset, manage identifiers, export raw data, and run the GDPR delete/anonymiz
@@ -307,8 +307,8 @@ image: https://logo.clearbit.com/useinsider.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: insider-mcp.yml
-  slug: insider-mcpyml
+  name: Insider MCP Server
+  slug: insider-mcp-server
 modified: '2026-08-13'
 name: Insider
 nav: Providers
@@ -337,7 +337,7 @@ scopes:
 score:
   band: strong
   composite: 66.0
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -347,7 +347,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 64.1
+  previous_composite: 66.0
   provenance:
     conformance: first-party
     contracts:
@@ -363,8 +363,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/screenshots/insider-2026-07-25T222527.png
 security:

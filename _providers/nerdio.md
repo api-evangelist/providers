@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -179,8 +179,8 @@ image: https://getnerdio.com/wp-content/themes/nrd/assets/images/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: nerdio-mcp.yml
-  slug: nerdio-mcpyml
+  name: Nerdio MCP Server
+  slug: nerdio-mcp-server
 modified: '2026-08-01'
 name: Nerdio
 nav: Providers
@@ -196,7 +196,7 @@ random_paper: 11
 score:
   band: developing
   composite: 50.8
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 51.3
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/screenshots/nerdio-2026-08-07T184907.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -143,7 +143,7 @@ modified: '2026-06-20'
 name: Notte
 nav: Providers
 network: true
-overview: 'Notte publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Health API, Page API, and 4 more. Tagged areas include AI, Web Agents, Browser Automation, Sessions, and Scraping.
+overview: 'Notte publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Health API, Page API, and 4 more. Tagged areas include Artificial Intelligence, Web Agents, Browser Automation, Sessions, and Scraping.
 
 
   Notte''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.0
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -169,7 +169,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.7
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/screenshots/notte-2026-06-20T190427.png
 security:
@@ -192,7 +192,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: notte
 tags:
-- AI
+- Artificial Intelligence
 - Web Agents
 - Browser Automation
 - Sessions

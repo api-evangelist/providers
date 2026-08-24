@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Kudobuzz Developer API lets merchants and integration developers create customer reviews and sync customers and orders into the After Purchase Mail (APM) product for segmentation and post-purchase
@@ -216,13 +216,13 @@ image: https://kudobuzz.com/assets/kudobuzz-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: kudobuzz-mcp.yml
-  slug: kudobuzz-mcpyml
+  name: Kudobuzz MCP Server
+  slug: kudobuzz-mcp-server
 modified: '2026-08-13'
 name: Kudobuzz
 nav: Providers
 network: true
-overview: 'Kudobuzz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reviews, User Generated Content, Ecommerce, and Social Proof.
+overview: 'Kudobuzz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reviews, User Generated Content, E-Commerce, and Social Proof.
 
 
   Kudobuzz''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 36 more developer resources.'
@@ -238,7 +238,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.2
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -248,13 +248,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 35.6
+  previous_composite: 36.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png
 security:
@@ -279,12 +279,12 @@ tags:
 - Company
 - Reviews
 - User Generated Content
-- Ecommerce
+- E-Commerce
 - Social Proof
 - Conversion Rate Optimization
 - Marketing
 - Shopify
 - Customer Feedback
-- SaaS
+- Software-as-a-Service
 website: https://kudobuzz.com
 ---

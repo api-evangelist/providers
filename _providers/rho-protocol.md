@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -187,8 +187,8 @@ image: https://github.com/RhoLabs.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: rho-protocol-mcp.yml
-  slug: rho-protocol-mcpyml
+  name: Rho Protocol MCP Server
+  slug: rho-protocol-mcp-server
 modified: '2026-07-21'
 name: Rho Protocol
 nav: Providers
@@ -208,7 +208,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.7
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 40.4
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

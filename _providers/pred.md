@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -217,8 +217,8 @@ image: https://public-assets.pred.app/banners/image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: pred-mcp.yml
-  slug: pred-mcpyml
+  name: Pred MCP Server
+  slug: pred-mcp-server
 modified: '2026-07-20'
 name: Pred
 nav: Providers
@@ -234,7 +234,7 @@ random_paper: 7
 score:
   band: developing
   composite: 47.2
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 45.1
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,8 +261,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/screenshots/pred-2026-08-17T081353.png
 security:

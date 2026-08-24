@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 7
@@ -469,8 +469,8 @@ image: https://www.chef.io/hubfs/chef-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: chef-software-mcp.yml
-  slug: chef-software-mcpyml
+  name: Chef Software MCP Server
+  slug: chef-software-mcp-server
 modified: '2026-07-18'
 name: Chef Software
 nav: Providers
@@ -486,7 +486,7 @@ random_paper: 3
 score:
   band: strong
   composite: 57.9
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -496,7 +496,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 56.6
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -507,8 +507,8 @@ score:
       total: 30
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/screenshots/chef-software-2026-07-25T205137.png
 security:
@@ -539,6 +539,5 @@ tags:
 - Infrastructure as Code
 - Cloud
 - Continuous Compliance
-- Node Management
 website: https://docs.chef.io/
 ---

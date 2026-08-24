@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Form-encoded REST API for phone verification and OTP: issue a session token, normalize a phone number, send a pincode over SMS or voice, and verify the user-entered code. Responses carry status plus p'
@@ -135,8 +135,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thrivecom.
 layout: provider
 mcp_servers:
 - description: ''
-  name: thrivecom-mcp.yml
-  slug: thrivecom-mcpyml
+  name: RingCaptcha (ThriveCom) MCP Server
+  slug: ringcaptcha-thrivecom-mcp-server
 modified: '2026-07-21'
 name: RingCaptcha (ThriveCom)
 nav: Providers
@@ -169,8 +169,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

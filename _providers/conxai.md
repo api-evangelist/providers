@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -258,8 +258,8 @@ image: https://cdn.prod.website-files.com/6768048a3496e563be715576/676ffd7357fd1
 layout: provider
 mcp_servers:
 - description: ''
-  name: conxai-mcp.yml
-  slug: conxai-mcpyml
+  name: Conxai MCP Server
+  slug: conxai-mcp-server
 modified: '2026-07-18'
 name: Conxai
 nav: Providers
@@ -272,7 +272,7 @@ random_paper: 12
 score:
   band: developing
   composite: 39.4
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -282,7 +282,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 45.2
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,9 +293,9 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/screenshots/conxai-2026-07-25T210354.png
 security:
 - kind: authentication
@@ -317,8 +317,8 @@ tags:
 - AEC
 - Artificial Intelligence
 - Document Processing
-- Computer Vision
+- Computer-Vision
 - Agentic AI
-- Machine Learning
+- Machine-Learning
 website: https://www.conxai.com/
 ---

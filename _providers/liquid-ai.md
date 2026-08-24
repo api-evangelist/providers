@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted inference and customization API for the LFM family. Includes Liquid Playground and LEAP customization/deployment platform. LFM models also distributed on Hugging Face and via OpenRouter for hos
@@ -89,7 +89,7 @@ modified: '2026-05-08'
 name: Liquid AI
 nav: Providers
 network: true
-overview: 'Liquid AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, Inference, Foundation Models, and Liquid Networks.
+overview: 'Liquid AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Inference, Foundation Models, and Liquid Networks.
 
 
   Liquid AI''s developer surface includes documentation and 9 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.2
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -115,9 +115,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-ai/refs/heads/main/screenshots/liquid-ai-2026-06-20T184556.png
 security:
@@ -127,7 +127,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: liquid-ai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Foundation Models

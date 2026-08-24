@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -114,7 +114,7 @@ modified: '2026-08-13'
 name: SetSail
 nav: Providers
 network: true
-overview: 'SetSail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Revenue Operations, RevOps, and Sales Intelligence.
+overview: 'SetSail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Revenue Operations, Sales Intelligence, and Artificial Intelligence.
 
 
   SetSail''s developer surface includes engineering blog, support, and 13 more developer resources.'
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.5
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -140,11 +140,11 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 21.0
+  previous_composite: 20.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -160,7 +160,6 @@ tags:
 - Company
 - Sales
 - Revenue Operations
-- RevOps
 - Sales Intelligence
 - Artificial Intelligence
 - CRM

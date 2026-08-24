@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -1260,19 +1260,19 @@ scopes:
   slug: microsoft-azure-api-management-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 53.4
-  delta: -6.0
+  band: strong
+  composite: 57.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 25.0
-    contract_quality: 16.1
+    contract_governance: 28.8
+    contract_quality: 23.1
     developer_ergonomics: 92.9
-    discoverability: 57.4
-    governance: 25.0
+    discoverability: 75.9
+    governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 59.4
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1280,9 +1280,9 @@ score:
       derived: 70
       marker_coverage: 100.0
       total: 70
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:
 - kind: authentication

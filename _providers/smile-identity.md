@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -251,8 +251,8 @@ image: https://cdn.prod.website-files.com/69cecfcd51ce55fce000c092/6a198a55c9d40
 layout: provider
 mcp_servers:
 - description: ''
-  name: smile-identity-mcp.yml
-  slug: smile-identity-mcpyml
+  name: Smile Identity MCP Server
+  slug: smile-identity-mcp-server
 modified: '2026-07-21'
 name: Smile Identity
 nav: Providers
@@ -268,7 +268,7 @@ random_paper: 8
 score:
   band: developing
   composite: 46.9
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -278,7 +278,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 54.7
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,9 +289,9 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/screenshots/smile-identity-2026-08-17T081942.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -366,7 +366,7 @@ modified: 2026-06-12
 name: Seldon
 nav: Providers
 network: true
-overview: 'Seldon publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Inference API, AlertingService API, ApplicationLogs API, and 26 more. Tagged areas include MLOps, Machine Learning, Model Serving, Inference, and Kubernetes.
+overview: 'Seldon publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Inference API, AlertingService API, ApplicationLogs API, and 26 more. Tagged areas include MLOps, Machine-Learning, Model Serving, Inference, and Kubernetes.
 
 
   The Seldon catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -401,7 +401,7 @@ scopes:
 score:
   band: thin
   composite: 38.3
-  delta: -8.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -411,7 +411,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 47.0
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -419,9 +419,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/screenshots/seldon-2026-06-20T193641.png
 security:
 - kind: authentication
@@ -435,7 +435,7 @@ security:
 slug: seldon
 tags:
 - MLOps
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - Inference
 - Kubernetes

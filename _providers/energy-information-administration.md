@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-05-19'
 name: Energy Information Administration
 nav: Providers
 network: true
-overview: 'Energy Information Administration publishes 10 APIs on the [APIs.io](https://apis.io/) network, including CO2 Emissions API, Coal API, Discovery API, and 7 more. Tagged areas include Energy, Federal Government, and Open Data.
+overview: 'Energy Information Administration publishes 10 APIs on the [APIs.io](https://apis.io/) network, including CO2 Emissions API, Coal API, Discovery API, and 7 more. Tagged areas include Energy, Federal-Government, and Open Data.
 
 
   Energy Information Administration''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.9
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -195,7 +195,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.1
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/screenshots/energy-information-administration-2026-06-20T180702.png
 security:
@@ -225,7 +225,7 @@ security:
 slug: energy-information-administration
 tags:
 - Energy
-- Federal Government
+- Federal-Government
 - Open Data
 website: https://www.eia.gov
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -197,13 +197,13 @@ image: https://console.aito.ai/aito-favicon-128.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: aito-technologies-mcp.yml
-  slug: aito-technologies-mcpyml
+  name: Aito Technologies MCP Server
+  slug: aito-technologies-mcp-server
 modified: '2026-07-17'
 name: Aito Technologies
 nav: Providers
 network: true
-overview: 'Aito Technologies publishes 3 APIs on the [APIs.io](https://apis.io/) network: data API, query API, and schema API. Tagged areas include Company, Predictive Database, Machine Learning, Artificial Intelligence, and Recommendations.
+overview: 'Aito Technologies publishes 3 APIs on the [APIs.io](https://apis.io/) network: data API, query API, and schema API. Tagged areas include Company, Predictive Database, Machine-Learning, Artificial Intelligence, and Recommendations.
 
 
   Aito Technologies'' developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 25 more developer resources.'
@@ -211,7 +211,7 @@ random_paper: 15
 score:
   band: developing
   composite: 50.6
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 53.7
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -232,8 +232,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/screenshots/aito-technologies-2026-07-25T195452.png
 security:
@@ -249,7 +249,7 @@ slug: aito-technologies
 tags:
 - Company
 - Predictive Database
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Recommendations
 - Search

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 14.0
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -94,9 +94,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/back/refs/heads/main/screenshots/back-2026-08-07T174748.png
 security:
@@ -115,7 +115,7 @@ tags:
 - HR
 - Help Desk
 - Internal Support
-- Workflow Automation
+- Workflow-Automation
 - Knowledge Base
 - Onboarding
 website: https://backhq.com

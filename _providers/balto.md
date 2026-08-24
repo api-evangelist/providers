@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Balto's Call Data API gives customers programmatic access to their historical call records so they can transfer, analyse and activate that data in a CRM, data warehouse or any system that accepts API-
@@ -135,7 +135,7 @@ modified: '2026-08-14'
 name: Balto
 nav: Providers
 network: true
-overview: 'Balto publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Contact Center, Conversation Intelligence, and Agent Assist.
+overview: 'Balto publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Contact Center, Conversation Intelligence, and Agent Assist.
 
 
   Balto''s developer surface includes documentation, support, engineering blog, signup flow, and 15 more developer resources.'
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -161,11 +161,11 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 25.7
+  previous_composite: 24.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/screenshots/balto-2026-07-25T202318.png
 security:
@@ -180,7 +180,7 @@ security:
 slug: balto
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Contact Center
 - Conversation Intelligence
 - Agent Assist

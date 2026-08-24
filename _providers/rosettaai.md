@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -129,7 +129,7 @@ modified: '2026-08-13'
 name: Rosetta.ai
 nav: Providers
 network: true
-overview: 'Rosetta.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Personalization, Recommendations, and Marketing Automation.
+overview: 'Rosetta.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Personalization, Recommendations, and Marketing Automation.
 
 
   Rosetta.ai''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.8
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -155,11 +155,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 29.0
+  previous_composite: 24.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -173,14 +173,14 @@ security:
 slug: rosettaai
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Personalization
 - Recommendations
 - Marketing Automation
 - Artificial Intelligence
 - Retail
 - Shopify
-- Machine Learning
+- Machine-Learning
 - Conversion Optimization
 website: https://rosetta.ai
 ---

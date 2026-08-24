@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Cobre's REST API (v1) for local and cross-border money movements, accounts and balances, counterparties, Bre-B keys, FX quotes, stablecoin payouts, reports/reconciliation and webhook subscriptions.
@@ -142,8 +142,8 @@ image: https://cdn.prod.website-files.com/67e310fc26a7ea5ef01f179f/68517f7389959
 layout: provider
 mcp_servers:
 - description: ''
-  name: cobre-mcp.yml
-  slug: cobre-mcpyml
+  name: Cobre API Documentation
+  slug: cobre-api-documentation
 modified: '2026-07-18'
 name: Cobre
 nav: Providers
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.9
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -173,7 +173,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 40.4
+  previous_composite: 40.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -183,8 +183,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/screenshots/cobre-2026-07-25T205845.png
 security:
@@ -203,7 +203,7 @@ tags:
 - Payments
 - Treasury
 - Money Movement
-- Cross Border Payments
+- Cross-Border Payments
 - FX
 - Stablecoins
 - Banking

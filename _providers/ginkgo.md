@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Async, job-polling REST API for running inference on public and Ginkgo-proprietary biological foundation models — protein/DNA masked language modeling and mean-embedding generation. Authenticated with
@@ -107,13 +107,13 @@ image: https://www.ginkgobioworks.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: ginkgo-mcp.yml
-  slug: ginkgo-mcpyml
+  name: Ginkgo Bioworks MCP Server
+  slug: ginkgo-bioworks-mcp-server
 modified: '2026-07-19'
 name: Ginkgo Bioworks
 nav: Providers
 network: true
-overview: 'Ginkgo Bioworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Artificial Intelligence, and Machine Learning.
+overview: 'Ginkgo Bioworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Artificial Intelligence, and Machine-Learning.
 
 
   Ginkgo Bioworks'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 11 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 19.2
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -131,11 +131,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.8
+  previous_composite: 19.2
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ginkgo/refs/heads/main/screenshots/ginkgo-2026-07-25T215827.png
 security:
@@ -153,7 +153,7 @@ tags:
 - Synthetic Biology
 - Biotechnology
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Protein Models
 - Bioinformatics
 - Inference API

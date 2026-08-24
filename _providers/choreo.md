@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -369,7 +369,7 @@ modified: '2026-05-19'
 name: Choreo
 nav: Providers
 network: true
-overview: 'Choreo publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Apis API, Application Keys API, and 13 more. Tagged areas include AI Apps, API Management, CI/CD, Cloud Native, and DevOps.
+overview: 'Choreo publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Apis API, Application Keys API, and 13 more. Tagged areas include Ai Apps, API Management, CI/CD, Cloud-Native, and DevOps.
 
 
   The Choreo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -404,7 +404,7 @@ scopes:
 score:
   band: developing
   composite: 49.6
-  delta: -7.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -414,7 +414,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 56.9
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -422,9 +422,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/screenshots/choreo-2026-06-20T174326.png
 security:
 - kind: authentication
@@ -445,10 +445,10 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: choreo
 tags:
-- AI Apps
+- Ai Apps
 - API Management
 - CI/CD
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Developer Portal
 - FinOps
@@ -459,7 +459,7 @@ tags:
 - Observability
 - Orchestration
 - Platform Engineering
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 - Unified
 - WSO2
 - Workflows

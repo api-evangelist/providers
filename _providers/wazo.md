@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 540
   human_in_the_loop: 26
@@ -333,7 +333,7 @@ modified: '2026-08-17'
 name: Wazo
 nav: Providers
 network: true
-overview: 'Wazo publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API (wazo-auth), Configuration API (wazo-confd), Call Control / Application API (wazo-calld), and 11 more. Tagged areas include telephony, voip, unified-communications, ucaas, and contact-center.
+overview: 'Wazo publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API (wazo-auth), Configuration API (wazo-confd), Call Control / Application API (wazo-calld), and 11 more. Tagged areas include Telephony, VoIP, Unified Communications, UCaaS, and Contact Center.
 
 
   The Wazo catalog on APIs.io includes 13 event-driven AsyncAPI specifications.
@@ -352,6 +352,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -361,6 +362,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -377,8 +379,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Wazo Authentication
@@ -390,25 +393,25 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: wazo
 tags:
-- telephony
-- voip
-- unified-communications
-- ucaas
-- contact-center
-- sip
+- Telephony
+- VoIP
+- Unified Communications
+- UCaaS
+- Contact Center
+- SIP
 - asterisk
-- webrtc
-- open-source
-- self-hosted
-- white-label
-- pbx
-- msp
-- call-center
-- provisioning
-- webhooks
-- event-driven
-- chat
-- presence
-- cdr
+- WebRTC
+- Open-Source
+- Self-Hosted
+- White Label
+- PBX
+- MSP
+- Call Center
+- Provisioning
+- Webhook
+- Event-Driven
+- Chat
+- Presence
+- CDR
 website: https://wazo.io/
 ---

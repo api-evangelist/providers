@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Partner-gated API surface exposing Ethos's underwriting and interview engines. Partners can retrieve customized quotes, conduct interviews and instant underwriting, collect required policy and billing
@@ -105,7 +105,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 18.1
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -115,7 +115,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 23.5
+  previous_composite: 18.1
   provenance:
     conformance: first-party
   regulatory:
@@ -124,9 +124,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethos/refs/heads/main/screenshots/ethos-2026-07-25T213654.png
 security:
 - kind: authentication
@@ -144,7 +144,7 @@ tags:
 - Life Insurance
 - Insurtech
 - Underwriting
-- Financial Services
+- Financial-Services
 - Estate Planning
 - Partnership API
 website: https://www.ethos.com

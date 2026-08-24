@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -299,8 +299,8 @@ image: https://www.ongoody.com/assets/frontend/assets/goody-logo-jy0bt7ba.digest
 layout: provider
 mcp_servers:
 - description: ''
-  name: goody-mcp.yml
-  slug: goody-mcpyml
+  name: Goody MCP Server
+  slug: goody-mcp-server
 modified: '2026-07-19'
 name: Goody
 nav: Providers
@@ -320,18 +320,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.6
-  delta: 3.2
+  composite: 61.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 58.6
     developer_ergonomics: 70.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 57.4
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -348,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/screenshots/goody-2026-07-25T220106.png
 security:
@@ -375,7 +375,7 @@ tags:
 - Commerce
 - Payments
 - MCP
-- Webhooks
+- Webhook
 - Rewards
 website: https://www.ongoody.com/
 ---

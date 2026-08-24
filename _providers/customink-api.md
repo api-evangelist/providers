@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-25'
 name: Custom Ink
 nav: Providers
 network: true
-overview: 'Custom Ink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Custom Apparel, T-Shirts, Print on Demand, Promotional Products, and eCommerce.
+overview: 'Custom Ink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Custom Apparel, T-Shirts, Print on Demand, Promotional Products, and E-Commerce.
 
 
   Custom Ink''s developer surface includes documentation, pricing, engineering blog, and 6 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 9.6
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -94,9 +94,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customink-api/refs/heads/main/screenshots/customink-api-2026-07-25T211011.png
 security:
@@ -114,7 +114,7 @@ tags:
 - T-Shirts
 - Print on Demand
 - Promotional Products
-- eCommerce
+- E-Commerce
 - Design
 - No Public API
 website: https://www.customink.com/

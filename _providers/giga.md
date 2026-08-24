@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-19'
 name: Giga
 nav: Providers
 network: true
-overview: 'Giga is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, AI Agents, and Voice AI.
+overview: 'Giga is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Voice AI, and Customer-Support.
 
 
   Giga''s developer surface includes documentation, signup flow, engineering blog, support, and 13 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 18.5
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -126,12 +126,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 24.0
+  previous_composite: 18.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giga/refs/heads/main/screenshots/giga-2026-07-25T215808.png
 security:
 - kind: domain-security
@@ -145,11 +145,10 @@ security:
 slug: giga
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Agents
 - Voice AI
-- Customer Support
+- Customer-Support
 - Conversational AI
 - Contact Center
 - Agentic AI

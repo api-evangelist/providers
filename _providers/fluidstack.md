@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ modified: '2026-05-25'
 name: Fluidstack
 nav: Providers
 network: true
-overview: 'Fluidstack publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Instances API, Invitations API, and 4 more. Tagged areas include AI, Artificial Intelligence, GPU, Cloud, and Compute.
+overview: 'Fluidstack publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Instances API, Invitations API, and 4 more. Tagged areas include Artificial Intelligence, GPU, Cloud, Compute, and Infrastructure.
 
 
   Fluidstack''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 14 more developer resources.'
@@ -197,7 +197,7 @@ random_paper: 16
 score:
   band: thin
   composite: 30.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -207,7 +207,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 31.4
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/screenshots/fluidstack-2026-06-20T181337.png
 security:
@@ -230,13 +230,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: fluidstack
 tags:
-- AI
 - Artificial Intelligence
 - GPU
 - Cloud
 - Compute
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Training
 - Inference

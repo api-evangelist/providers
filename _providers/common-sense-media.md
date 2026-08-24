@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ modified: '2026-05-19'
 name: Common Sense Media
 nav: Providers
 network: true
-overview: 'Common Sense Media publishes 2 APIs on the [APIs.io](https://apis.io/) network: Reviews API and system API. Tagged areas include Apps, Books, Media, Movies, and Non-Profit.
+overview: 'Common Sense Media publishes 2 APIs on the [APIs.io](https://apis.io/) network: Reviews API and system API. Tagged areas include Application, Books, Media, Movies, and Non-Profit.
 
 
   The Common Sense Media catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -180,18 +180,18 @@ rules:
   slug: common-sense-media-rules
 score:
   band: thin
-  composite: 30.4
-  delta: -8.8
+  composite: 30.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 61.9
     developer_ergonomics: 11.9
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 39.2
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -199,9 +199,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/screenshots/common-sense-media-2026-06-20T174819.png
 security:
 - kind: authentication
@@ -214,7 +214,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: common-sense-media
 tags:
-- Apps
+- Application
 - Books
 - Media
 - Movies

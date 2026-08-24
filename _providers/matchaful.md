@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The store's Shopify-provided Universal Commerce Protocol agent-commerce surface — a live MCP shopping endpoint (search_catalog, create_cart, create_checkout, update_checkout, complete_checkout) docume
@@ -82,8 +82,8 @@ image: https://www.matchaful.com/cdn/shop/files/matchaful-organic-matcha-website
 layout: provider
 mcp_servers:
 - description: ''
-  name: matchaful-mcp.yml
-  slug: matchaful-mcpyml
+  name: Matchaful MCP Server
+  slug: matchaful-mcp-server
 modified: '2026-07-20'
 name: Matchaful
 nav: Providers
@@ -95,23 +95,23 @@ overview: 'Matchaful publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 4
 score:
   band: emerging
-  composite: 17.3
-  delta: -1.5
+  composite: 18.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.8
+  previous_composite: 18.4
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matchaful/refs/heads/main/screenshots/matchaful-2026-08-07T172128.png
 slug: matchaful
@@ -122,7 +122,7 @@ tags:
 - Food and Beverage
 - CPG
 - E-Commerce
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 - Agent Commerce
 - UCP

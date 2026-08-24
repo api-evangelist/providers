@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ modified: '2026-05-19'
 name: CargoDocs
 nav: Providers
 network: true
-overview: 'CargoDocs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Common API, Documents API, Exchange API, and 4 more. Tagged areas include Bills of Lading, Documentation, eBoL, EssDocs, and MLETR.
+overview: 'CargoDocs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Common API, Documents API, Exchange API, and 4 more. Tagged areas include Bills of Lading, Documentation, eBOL, EssDocs, and MLETR.
 
 
   The CargoDocs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -216,7 +216,7 @@ rules:
 score:
   band: thin
   composite: 32.2
-  delta: -10.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -226,7 +226,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 43.0
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -234,9 +234,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/screenshots/cargodocs-2026-08-17T123110.png
 security:
 - kind: authentication
@@ -251,7 +251,7 @@ slug: cargodocs
 tags:
 - Bills of Lading
 - Documentation
-- eBoL
+- eBOL
 - EssDocs
 - MLETR
 - Shipping

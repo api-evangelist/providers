@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -201,13 +201,13 @@ image: https://framerusercontent.com/images/WwfBR1oRs750Jqr5sx6xqvIOc.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: hubilo-mcp.yml
-  slug: hubilo-mcpyml
+  name: hubilo MCP Server
+  slug: hubilo-mcp-server
 modified: '2026-07-19'
 name: hubilo
 nav: Providers
 network: true
-overview: 'hubilo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Event API, Exhibitor API, Organiser API, and 4 more. Tagged areas include Company, Events, Virtual Events, Webinars, and Event Management.
+overview: 'hubilo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Event API, Exhibitor API, Organiser API, and 4 more. Tagged areas include Company, Event, Virtual Events, Webinars, and Event Management.
 
 
   The hubilo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -243,8 +243,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/screenshots/hubilo-2026-07-25T221615.png
 security:
@@ -259,7 +259,7 @@ security:
 slug: hubilo
 tags:
 - Company
-- Events
+- Event
 - Virtual Events
 - Webinars
 - Event Management

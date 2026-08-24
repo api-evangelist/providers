@@ -32,7 +32,7 @@ tags:
 - Crypto
 - Artificial Intelligence
 - Insurtech
-- Financial Services
+- Financial-Services
 - Global
 - Palo Alto
 - North America

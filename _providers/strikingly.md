@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Internal REST API for managing Strikingly website content, sections, blog posts, store products, form submissions, and membership settings. Access is provided through the Strikingly platform using OAu
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: Strikingly
 nav: Providers
 network: true
-overview: 'Strikingly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Website Builder, CMS, Blogging, eCommerce, and Membership.
+overview: 'Strikingly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Website Builder, CMS, Blogging, E-Commerce, and Membership.
 
 
   Strikingly''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -123,9 +123,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 25.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strikingly/refs/heads/main/screenshots/strikingly-2026-06-20T194620.png
 security:
@@ -138,7 +138,7 @@ tags:
 - Website Builder
 - CMS
 - Blogging
-- eCommerce
+- E-Commerce
 - Membership
 - No-Code
 website: https://www.strikingly.com

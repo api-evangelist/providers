@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for merchants to originate Aplazo installment loans at checkout, retrieve loan status, and process refunds and cancellations. Credentials (apiToken + merchantId) are exchanged at POST /api/au
@@ -135,8 +135,8 @@ image: https://aplazoassets.s3.us-west-2.amazonaws.com/icons/aplazo/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: aplazo-mcp.yml
-  slug: aplazo-mcpyml
+  name: Aplazo MCP Server
+  slug: aplazo-mcp-server
 modified: '2026-07-17'
 name: Aplazo
 nav: Providers
@@ -152,7 +152,7 @@ random_paper: 17
 score:
   band: thin
   composite: 26.8
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -162,7 +162,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.3
+  previous_composite: 26.8
   provenance:
     mcp: derived
     skills: derived
@@ -172,9 +172,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/screenshots/aplazo-2026-07-25T200637.png
 security:
 - kind: authentication
@@ -196,6 +196,6 @@ tags:
 - Lending
 - Mexico
 - Checkout
-- E-commerce
+- E-Commerce
 website: https://aplazo.mx/pages/home
 ---

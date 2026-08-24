@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ modified: '2026-07-19'
 name: Lateral
 nav: Providers
 network: true
-overview: 'Lateral is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Recommendations, and Search.
+overview: 'Lateral is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Recommendations, and Search.
 
 
   Lateral''s developer surface includes engineering blog, pricing, YouTube channel, and 16 more developer resources.'
@@ -135,8 +135,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lateral/refs/heads/main/screenshots/lateral-2026-07-25T224557.png
 security:
@@ -148,12 +148,12 @@ slug: lateral
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Recommendations
 - Search
 - Research
 - Natural Language Processing
-- Document Management
+- Document-Management
 - Sunset
 website: https://www.lateral.io
 ---

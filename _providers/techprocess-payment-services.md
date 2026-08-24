@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Merchant payment-gateway and checkout API for the TechProcess / Worldline India (Paynimo) platform — card, Net-banking, NACH, UPI, IMPS and e-wallet payment collection via hosted/embeddable checkout a
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: TechProcess Payment Services
 nav: Providers
 network: true
-overview: 'TechProcess Payment Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Financial Services, and India.
+overview: 'TechProcess Payment Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Financial-Services, and India.
 
 
   TechProcess Payment Services'' developer surface includes documentation and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 9.0
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,15 +90,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 11.9
+  previous_composite: 9.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -110,10 +110,10 @@ tags:
 - Company
 - Payments
 - Payment Gateway
-- Financial Services
+- Financial-Services
 - India
 - Checkout
-- E-commerce
+- E-Commerce
 - NACH
 website: https://worldline.com/en-in/home/top-navigation/developers
 ---

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 10
@@ -607,13 +607,13 @@ image: https://altr.com/wp-content/uploads/2025/05/Home-1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: altr-mcp.yml
-  slug: altr-mcpyml
+  name: ALTR MCP Server
+  slug: altr-mcp-server
 modified: '2026-08-06'
 name: ALTR
 nav: Providers
 network: true
-overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Access Request API, Administrators API, Agent API, and 63 more. Tagged areas include data-security, data-governance, data-masking, tokenization, and data-classification.
+overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Access Request API, Administrators API, Agent API, and 63 more. Tagged areas include Data Security, Data Governance, Data Masking, Tokenization, and Data Classification.
 
 
   The ALTR catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -624,7 +624,7 @@ random_paper: 15
 score:
   band: strong
   composite: 57.5
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -634,7 +634,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 59.1
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -645,8 +645,8 @@ score:
       total: 66
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/screenshots/altr-2026-08-07T161253.png
 security:
@@ -668,21 +668,21 @@ security:
   summary_line: SOC 2, PCI DSS, HIPAA
 slug: altr
 tags:
-- data-security
-- data-governance
-- data-masking
-- tokenization
-- data-classification
-- access-control
-- snowflake
-- databricks
+- Data Security
+- Data Governance
+- Data Masking
+- Tokenization
+- Data Classification
+- Access Control
+- Snowflake
+- Databricks
 - format-preserving-encryption
-- database-activity-monitoring
-- rbac
-- pii
-- compliance
-- data-privacy
-- mcp
+- Database Activity Monitoring
+- RBAC
+- PII
+- Compliance
+- Data Privacy
+- MCP
 - agent-native
 website: https://altr.com/
 ---

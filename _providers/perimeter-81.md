@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -221,8 +221,8 @@ image: https://www.perimeter81.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: perimeter-81-mcp.yml
-  slug: perimeter-81-mcpyml
+  name: Perimeter 81 MCP Server
+  slug: perimeter-81-mcp-server
 modified: '2026-07-20'
 name: Perimeter 81
 nav: Providers
@@ -235,7 +235,7 @@ random_paper: 10
 score:
   band: thin
   composite: 32.0
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -245,7 +245,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 40.5
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,9 +256,9 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Perimeter 81 Authentication

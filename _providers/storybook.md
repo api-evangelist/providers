@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Storybook is an open-source frontend workshop for building UI components and pages in isolation. Supports React, Vue, Angular, Svelte, Web Components, Ember, Preact, and more. Core features include co
@@ -123,7 +123,7 @@ modified: '2026-05-02'
 name: Storybook
 nav: Providers
 network: true
-overview: 'Storybook publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Accessibility Testing, Component Documentation, Component Testing, Design Systems, and Frontend Development.
+overview: 'Storybook publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Accessibility Testing, Component Documentation, Component Testing, Design Systems, and Front-End Development.
 
 
   The Storybook catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -153,7 +153,7 @@ rules:
 score:
   band: emerging
   composite: 20.2
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -163,10 +163,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 28.9
-  previous_composite: 26.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 20.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storybook/refs/heads/main/screenshots/storybook-2026-06-20T194609.png
 security:
 - kind: domain-security
@@ -179,8 +179,8 @@ tags:
 - Component Documentation
 - Component Testing
 - Design Systems
-- Frontend Development
-- Open Source
+- Front-End Development
+- Open-Source
 - React
 - UI Components
 - Visual Testing

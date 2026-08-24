@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'JSON over HTTPS Web API for the NSE Request-for-Quote (RFQ) platform for corporate bonds and debt securities. Documented in the "RFQ - Protocol for Web API" PDF published on the NSE trading protocols '
@@ -133,7 +133,7 @@ random_paper: 18
 score:
   band: thin
   composite: 32.8
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -143,7 +143,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 39.7
+  previous_composite: 32.8
   provenance:
     conformance: first-party
   regulatory:
@@ -152,9 +152,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 35.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-stock-exchange-of-india/refs/heads/main/screenshots/national-stock-exchange-of-india-2026-08-07T184648.png
 security:
 - kind: authentication
@@ -172,7 +172,7 @@ tags:
 - Capital Markets
 - Market Data
 - Trading
-- Financial Services
+- Financial-Services
 - Securities
 - India
 - FIX Protocol

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: New Story
 nav: Providers
 network: true
-overview: 'New Story is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nonprofit, Housing, Real Estate, and Homeownership.
+overview: 'New Story is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Non-Profit, Housing, Real-Estate, and Homeownership.
 
 
   New Story''s developer surface includes engineering blog, support, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 7
 score:
   band: minimal
   composite: 8.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -80,17 +80,17 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 8.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-story/refs/heads/main/screenshots/new-story-2026-08-07T185057.png
 slug: new-story
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Housing
-- Real Estate
+- Real-Estate
 - Homeownership
 - Land
 - Social Impact

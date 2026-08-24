@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ modified: '2026-04-19'
 name: AmeriCorps
 nav: Providers
 network: true
-overview: 'AmeriCorps publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Datasets API, and Metadata API. Tagged areas include Federal Government, National Service, Volunteerism, Community Development, and Civic Engagement.
+overview: 'AmeriCorps publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Datasets API, and Metadata API. Tagged areas include Federal-Government, National Service, Volunteerism, Community Development, and Civic Engagement.
 
 
   AmeriCorps'' developer surface includes authentication, developer portal, getting-started guide, and 6 more developer resources.'
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -164,7 +164,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.1
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +178,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/screenshots/americorps-2026-06-20T171928.png
 security:
@@ -193,7 +193,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: americorps
 tags:
-- Federal Government
+- Federal-Government
 - National Service
 - Volunteerism
 - Community Development

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -2235,14 +2235,14 @@ jsonld:
   slug: amazon-compute-optimizer-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: amazon-compute-optimizer-mcp.yml
-  slug: amazon-compute-optimizer-mcpyml
+- description: 'AWS does not publish a dedicated Compute Optimizer MCP server. The official AWS Labs "Billing and Cost Management" MCP server surfaces Compute Optimizer rightsizing recommendations (EC2, Auto Scaling '
+  name: Amazon Compute Optimizer MCP Server
+  slug: amazon-compute-optimizer-mcp-server
 modified: '2026-06-20'
 name: Amazon Compute Optimizer
 nav: Providers
 network: true
-overview: 'Amazon Compute Optimizer publishes 21 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API, #X Amz Target=ComputeOptimizerService.DescribeRecommendationExportJobs API, #X Amz Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations API, and 18 more. Tagged areas include Cost Optimization, FinOps, Machine Learning, and Resource Recommendations.
+overview: 'Amazon Compute Optimizer publishes 21 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API, #X Amz Target=ComputeOptimizerService.DescribeRecommendationExportJobs API, #X Amz Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations API, and 18 more. Tagged areas include Cost Optimization, FinOps, Machine-Learning, and Resource Recommendations.
 
 
   The Amazon Compute Optimizer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2274,18 +2274,18 @@ rules:
   slug: amazon-compute-optimizer-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: -6.5
+  composite: 51.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 41.7
-    contract_quality: 69.9
+    contract_governance: 45.5
+    contract_quality: 74.1
     developer_ergonomics: 45.2
-    discoverability: 59.3
-    governance: 41.7
+    discoverability: 77.8
+    governance: 45.5
     operational_transparency: 18.4
-  previous_composite: 54.8
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2295,9 +2295,9 @@ score:
       marker_coverage: 0.0
       total: 21
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/screenshots/amazon-compute-optimizer-2026-07-25T200002.png
 security:
 - kind: authentication
@@ -2320,7 +2320,7 @@ slug: amazon-compute-optimizer
 tags:
 - Cost Optimization
 - FinOps
-- Machine Learning
+- Machine-Learning
 - Resource Recommendations
 use_cases:
 - description: Identify and eliminate over-provisioned AWS resources to reduce monthly cloud spending.

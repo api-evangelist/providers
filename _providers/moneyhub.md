@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -207,8 +207,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: moneyhub-mcp.yml
-  slug: moneyhub-mcpyml
+  name: Moneyhub MCP Server
+  slug: moneyhub-mcp-server
 modified: '2026-07-24'
 name: Moneyhub
 nav: Providers
@@ -229,7 +229,7 @@ scopes:
 score:
   band: strong
   composite: 61.9
-  delta: 4.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -239,7 +239,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 48.7
-  previous_composite: 57.5
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,8 +250,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png
 security:

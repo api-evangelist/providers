@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ modified: '2026-05-19'
 name: NATS
 nav: Providers
 network: true
-overview: 'NATS publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Monitoring API, Messaging API, JetStream Management API, and 10 more. Tagged areas include Cloud Native, IoT, Message Broker, Microservices, and Pub Sub.
+overview: 'NATS publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Monitoring API, Messaging API, JetStream Management API, and 10 more. Tagged areas include Cloud-Native, IoT, Message Broker, Microservices, and Pub-Sub.
 
 
   The NATS catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -282,16 +282,16 @@ rules:
   slug: nats-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.3
-  delta: -4.3
+  composite: 41.5
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 58.5
     developer_ergonomics: 42.9
     discoverability: 72.2
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 28.9
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -299,7 +299,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 45.6
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -307,8 +307,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/screenshots/nats-2026-06-20T190052.png
 security:
@@ -318,10 +318,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: nats
 tags:
-- Cloud Native
+- Cloud-Native
 - IoT
 - Message Broker
 - Microservices
-- Pub Sub
+- Pub-Sub
 website: https://nats.io
 ---

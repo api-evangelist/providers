@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public SpatioTemporal Asset Catalog (STAC 1.0.0) for Wyvern's Open Data Program, serving free hyperspectral imagery (L2A surface reflectance and L1B radiance) as machine-readable JSON catalogs, collec
@@ -104,7 +104,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 22.8
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -114,7 +114,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 21.9
+  previous_composite: 22.8
   provenance:
     conformance: first-party
   regulatory:
@@ -123,8 +123,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

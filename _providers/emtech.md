@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,7 +125,7 @@ modified: '2026-07-19'
 name: EMTECH
 nav: Providers
 network: true
-overview: 'EMTECH is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Regtech, Central Banking, and CBDC.
+overview: 'EMTECH is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, RegTech, Central Banking, and CBDC.
 
 
   EMTECH''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
@@ -152,8 +152,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/screenshots/emtech-2026-07-25T213255.png
 security:
@@ -168,8 +168,8 @@ security:
 slug: emtech
 tags:
 - Company
-- Financial Services
-- Regtech
+- Financial-Services
+- RegTech
 - Central Banking
 - CBDC
 - Digital Currency

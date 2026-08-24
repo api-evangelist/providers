@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The QORTEX DTC API is the integration surface of Quanergy's detect-track-classify perception server. A gRPC service on port 17177 (Protocol Buffers 3) covers zone, counter-line, rule, PTZ camera, sett
@@ -174,7 +174,7 @@ random_paper: 15
 score:
   band: developing
   composite: 39.5
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -184,11 +184,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 39.8
+  previous_composite: 39.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

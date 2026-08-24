@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Vector ships with a local gRPC API that lets you interact with a running Vector instance — inspect component topology, read internal metrics and health, and tap live events flowing through the pipelin
@@ -139,8 +139,8 @@ image: https://vector.dev/img/open-graph.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: timber-mcp.yml
-  slug: timber-mcpyml
+  name: Timber MCP Server
+  slug: timber-mcp-server
 modified: '2026-07-21'
 name: Timber
 nav: Providers
@@ -153,7 +153,7 @@ random_paper: 13
 score:
   band: thin
   composite: 32.8
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -163,13 +163,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 25.3
+  previous_composite: 32.8
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Timber Authentication
@@ -193,7 +193,7 @@ tags:
 - Data Pipeline
 - Logging
 - Monitoring
-- Open Source
+- Open-Source
 - gRPC
 - Rust
 - Datadog

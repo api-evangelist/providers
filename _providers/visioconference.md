@@ -28,7 +28,7 @@ tags:
 - Audio
 - Chat
 - Collaboration
-- Communication
+- Communications
 - Conferencing
 - Live Streaming
 - Real-Time

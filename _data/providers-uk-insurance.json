@@ -29,8 +29,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -78,8 +78,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -127,8 +127,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -175,8 +175,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -235,8 +235,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -284,8 +284,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -333,8 +333,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -382,8 +382,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -430,8 +430,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -479,8 +479,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -528,8 +528,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -577,8 +577,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -612,21 +612,21 @@
      "name": "Towers Watson",
      "slug": "towers-watson",
      "description": "Towers Watson was a global professional services company that provided risk management, actuarial, human capital, and investment consulting services before merging with Willis Group to form Willis Towers Watson (now WTW) in 2016. WTW provides data-driven, insight-led solutions in risk, broking, HR consulting, and benefits administration across 140+ countries. WTW's software products include the HR Portal for employee benefits communication, benefits administration systems, compensation management tools, and actuarial modeling platforms.",
-     "score": 32.0,
+     "score": 32.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 63.2,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 11.9,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -674,8 +674,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -723,8 +723,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -772,8 +772,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -831,8 +831,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -879,8 +879,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -928,8 +928,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -977,8 +977,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1026,8 +1026,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1074,8 +1074,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1123,8 +1123,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1172,8 +1172,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1221,8 +1221,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1269,8 +1269,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1304,11 +1304,11 @@
      "name": "Yulife",
      "slug": "yulife",
      "description": "YuLife is a London-founded (2016) technology-driven insurtech and employee benefits platform offering group life insurance, group health insurance, income protection and a gamified wellbeing app. Employees complete everyday wellness activities to earn YuCoin rewards, with access to an EAP, telemedicine and wellbeing apps such as Meditopia. A certified B Corp, YuLife insures 400k+ lives across the UK and US and sells to employers and brokers. It publishes no public developer API or portal; api.yulife.com is the internal app backend (issuer api.uk.yulife.com), and a Vanta Trust Center is at trust.yulife.com.",
-     "score": 14.6,
+     "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 61.1,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1317,8 +1317,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1366,8 +1366,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1415,8 +1415,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1464,8 +1464,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1523,8 +1523,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1571,8 +1571,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1619,8 +1619,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1668,8 +1668,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1717,8 +1717,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

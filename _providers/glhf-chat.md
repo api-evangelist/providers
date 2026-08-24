@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ modified: '2026-06-21'
 name: glhf
 nav: Providers
 network: true
-overview: 'glhf publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include AI, LLM, Inference, Open Source Models, and Hugging Face.
+overview: 'glhf publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include Artificial Intelligence, LLM, Inference, Open Source Models, and Hugging Face.
 
 
   The glhf catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -144,7 +144,7 @@ rules:
 score:
   band: thin
   composite: 38.5
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -154,7 +154,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 31.6
-  previous_composite: 41.1
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -176,7 +176,7 @@ security:
   summary_line: TLSv1.3
 slug: glhf-chat
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Open Source Models

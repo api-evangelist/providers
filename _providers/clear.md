@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -189,8 +189,8 @@ image: https://static-verified.clearme.com/CLEAR1_Logo_Horizontal_2Color_RGB.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: clear-mcp.yml
-  slug: clear-mcpyml
+  name: CLEAR MCP Server
+  slug: clear-mcp-server
 modified: '2026-07-18'
 name: CLEAR
 nav: Providers
@@ -209,19 +209,19 @@ scopes:
   slug: clear-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.4
-  delta: 1.1
+  band: strong
+  composite: 54.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 30.3
     contract_quality: 62.2
     developer_ergonomics: 47.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 52.3
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -238,8 +238,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/screenshots/clear-2026-07-25T205532.png
 security:
@@ -263,9 +263,8 @@ tags:
 - Authentication
 - KYC
 - Biometrics
-- OAuth
 - OpenID Connect
 - Healthcare
-- Financial Services
+- Financial-Services
 website: https://clearme.com
 ---

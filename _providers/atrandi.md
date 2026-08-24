@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-18'
 name: Atrandi
 nav: Providers
 network: true
-overview: 'Atrandi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Life Sciences, Single-Cell Analysis, and Genomics.
+overview: 'Atrandi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Life Sciences, Single Cell Analysis, and Genomics.
 
 
   Atrandi''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 13.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -98,15 +98,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.8
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atrandi/refs/heads/main/screenshots/atrandi-2026-07-25T201623.png
 security:
@@ -119,7 +119,7 @@ tags:
 - Company
 - Biotech
 - Life Sciences
-- Single-Cell Analysis
+- Single Cell Analysis
 - Genomics
 - Microfluidics
 - Multiomics

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: In-page JavaScript API exposed by the embedded Sayduck 3D viewer/configurator Web Component. Accessed via DOM CustomEvents (sayduck.api-ready) once the viewer loads, with namespaces for variants, conf
@@ -120,7 +120,7 @@ modified: '2026-07-21'
 name: SayDuck
 nav: Providers
 network: true
-overview: 'SayDuck publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D, Augmented Reality, Ecommerce, and Product Visualization.
+overview: 'SayDuck publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D, Augmented Reality, E-Commerce, and Product Visualization.
 
 
   SayDuck''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 12 more developer resources.'
@@ -128,7 +128,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 25.3
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -138,9 +138,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 27.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -152,7 +152,7 @@ tags:
 - Company
 - 3D
 - Augmented Reality
-- Ecommerce
+- E-Commerce
 - Product Visualization
 - WebAR
 - 3D Configurator

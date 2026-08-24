@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol server served from the Feastables origin. Answers initialize and tools/list with no credential (probed 2026-08-01, HTTP 200) and returns five tools with full JSON Sche
@@ -126,14 +126,14 @@ description: 'Feastables is the consumer snack brand founded by Jimmy Donaldson 
 image: https://feastables.com/cdn/shop/files/Feastables_Logo_2024.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: feastables-mcp.yml
-  slug: feastables-mcpyml
+- description: Feastables runs its direct-to-consumer store on Shopify and exposes two live Model Context Protocol servers on its own feastables.com origin. The Storefront MCP server at /api/mcp answers tools/list a
+  name: Feastables MCP Server
+  slug: feastables-mcp-server
 modified: '2026-08-01'
 name: Feastables
 nav: Providers
 network: true
-overview: 'Feastables publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Food and Beverage, Chocolate, and Ecommerce.
+overview: 'Feastables publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Food and Beverage, Chocolate, and E-Commerce.
 
 
   Feastables'' developer surface includes documentation, authentication, support, and 19 more developer resources.'
@@ -146,7 +146,7 @@ scopes:
 score:
   band: emerging
   composite: 22.7
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -156,13 +156,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 23.5
+  previous_composite: 22.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feastables/refs/heads/main/screenshots/feastables-2026-08-07T165236.png
 security:
@@ -180,10 +180,10 @@ tags:
 - Consumer Packaged Goods
 - Food and Beverage
 - Chocolate
-- Ecommerce
+- E-Commerce
 - Retail
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Shopify
 website: https://feastables.com

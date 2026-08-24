@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -617,7 +617,7 @@ modified: '2026-05-19'
 name: SAP Commerce Cloud
 nav: Providers
 network: true
-overview: 'SAP Commerce Cloud publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Agents API, Cache API, and 21 more. Tagged areas include B2B, B2C, Commerce, Customer Experience, and Ecommerce.
+overview: 'SAP Commerce Cloud publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Agents API, Cache API, and 21 more. Tagged areas include B2B, B2C, Commerce, Customer Experience, and E-Commerce.
 
 
   The SAP Commerce Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -662,18 +662,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 40.5
-  delta: -9.5
+  composite: 41.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 68.7
     developer_ergonomics: 14.3
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 50.0
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -681,9 +681,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/screenshots/sap-commerce-cloud-2026-06-20T193424.png
 security:
 - kind: authentication
@@ -704,7 +704,7 @@ tags:
 - B2C
 - Commerce
 - Customer Experience
-- Ecommerce
+- E-Commerce
 - Omnichannel
 - Retail
 website: https://api.sap.com/

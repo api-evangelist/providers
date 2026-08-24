@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -198,14 +198,14 @@ description: Syndicate is a web3 Transaction Cloud that abstracts blockchain tra
 image: https://avatars.githubusercontent.com/u/76978866?s=200&v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: syndicate-mcp.yml
-  slug: syndicate-mcpyml
+- description: Official hosted MCP server published by Syndicate for AI client integration (Claude Code, Cursor, etc.). Serves the Syndicate documentation surface — including the Transaction Cloud API reference — to
+  name: Syndicate MCP Server
+  slug: syndicate-mcp-server
 modified: '2026-07-21'
 name: Syndicate
 nav: Providers
 network: true
-overview: 'Syndicate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including api-key-manager > admin API, call API, transact API, and 1 more. Tagged areas include Blockchain, Web3, Ethereum, Transactions, and Wallets.
+overview: 'Syndicate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including api-key-manager > admin API, call API, transact API, and 1 more. Tagged areas include Blockchain, Web3, Ethereum, Transaction, and Wallets.
 
 
   The Syndicate catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -243,8 +243,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/screenshots/syndicate-2026-08-17T082233.png
 security:
@@ -261,12 +261,12 @@ tags:
 - Blockchain
 - Web3
 - Ethereum
-- Transactions
+- Transaction
 - Wallets
 - EVM
 - Infrastructure
 - Signing
-- Webhooks
+- Webhook
 - Cryptography
 website: https://syndicate.io
 ---

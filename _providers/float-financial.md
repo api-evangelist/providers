@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1.0, 71 operations across 47 paths) for automating accounting and reporting against Float. Read card transactions, account transactions, bills, bill attachments, payments, reimburs
@@ -171,7 +171,7 @@ modified: '2026-08-16'
 name: Float Financial
 nav: Providers
 network: true
-overview: 'Float Financial publishes 1 API on the [APIs.io](https://apis.io/) network: Float Public API. Tagged areas include spend-management, corporate-cards, expense-management, accounts-payable, and bill-pay.
+overview: 'Float Financial publishes 1 API on the [APIs.io](https://apis.io/) network: Float Public API. Tagged areas include Spend Management, Corporate Cards, Expense Management, Accounts Payable, and Bill Pay.
 
 
   The Float Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,7 +190,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.4
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -200,7 +200,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 59.9
+  previous_composite: 61.4
   provenance:
     conformance: first-party
     contracts:
@@ -216,8 +216,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/screenshots/float-financial-2026-08-17T080932.png
 security:
@@ -239,17 +239,17 @@ security:
   summary_line: SOC 2 Type 2, PCI DSS
 slug: float-financial
 tags:
-- spend-management
-- corporate-cards
-- expense-management
-- accounts-payable
-- bill-pay
-- reimbursements
-- business-banking
-- accounting-integration
-- fintech
-- canada
-- payments
-- erp-integration
+- Spend Management
+- Corporate Cards
+- Expense Management
+- Accounts Payable
+- Bill Pay
+- Reimbursement
+- Business Banking
+- Accounting Integration
+- Fintech
+- Canada
+- Payments
+- ERP Integration
 website: https://floatfinancial.com/
 ---

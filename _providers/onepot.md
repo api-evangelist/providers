@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to onepot CORE for make-on-demand molecule discovery and synthesis. Run similarity (Tanimoto) and substructure (SMILES/SMARTS) search, optional retrosynthetic decomposition with bu
@@ -103,8 +103,8 @@ image: https://www.onepot.ai/onepot_logo_color.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: onepot-mcp.yml
-  slug: onepot-mcpyml
+  name: Onepot MCP Server
+  slug: onepot-mcp-server
 modified: '2026-07-20'
 name: Onepot
 nav: Providers
@@ -117,7 +117,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 19.3
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -127,7 +127,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.6
+  previous_composite: 19.3
   provenance:
     mcp: derived
     skills: derived
@@ -137,8 +137,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onepot/refs/heads/main/screenshots/onepot-2026-08-07T190333.png
 security:
@@ -159,9 +159,8 @@ tags:
 - Small Molecule Synthesis
 - Contract Research Organization
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Lab Automation
 - Life Sciences
-- API
 website: https://www.onepot.ai
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -183,13 +183,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resistant-
 layout: provider
 mcp_servers:
 - description: ''
-  name: resistant-ai-mcp.yml
-  slug: resistant-ai-mcpyml
+  name: Resistant AI MCP Server
+  slug: resistant-ai-mcp-server
 modified: '2026-07-20'
 name: Resistant AI
 nav: Providers
 network: true
-overview: 'Resistant AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Submission API and Tenants API. Tagged areas include Company, Ai, Fraud Detection, Financial Crime, and Document Verification.
+overview: 'Resistant AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Submission API and Tenants API. Tagged areas include Company, Artificial Intelligence, Fraud Detection, Financial Crime, and Document Verification.
 
 
   The Resistant AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 45.4
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -219,7 +219,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 46.2
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,8 +230,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/screenshots/resistant-ai-2026-08-17T081532.png
 security:
@@ -250,7 +250,7 @@ security:
 slug: resistant-ai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Fraud Detection
 - Financial Crime
 - Document Verification
@@ -258,6 +258,6 @@ tags:
 - AML
 - Identity Verification
 - Fintech
-- Machine Learning
+- Machine-Learning
 website: https://resistant.ai
 ---

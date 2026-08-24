@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ modified: '2026-05-19'
 name: dbt
 nav: Providers
 network: true
-overview: 'dbt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Environments API, Jobs API, and 4 more. Tagged areas include Analytics Engineering, Data, ELT, Metrics, and Projects.
+overview: 'dbt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Environments API, Jobs API, and 4 more. Tagged areas include Analytics Engineering, Data, ELT, Metrics, and Project.
 
 
   The dbt catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -334,18 +334,18 @@ rules:
   slug: dbt-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.6
-  delta: 0.6
+  composite: 53.7
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 66.4
     developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 13.2
-  previous_composite: 52.0
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -353,8 +353,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/screenshots/dbt-2026-06-20T175739.png
 security:
@@ -376,7 +376,7 @@ tags:
 - Data
 - ELT
 - Metrics
-- Projects
+- Project
 - SQL
 - Transformation
 website: https://www.getdbt.com/

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Paysend Enterprise's single Payout API disburses funds worldwide to cards and bank accounts through the Paysend payments network. A multi-task POST /processing endpoint carries operations including pa
@@ -122,8 +122,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: paysend-mcp.yml
-  slug: paysend-mcpyml
+  name: Paysend MCP Server
+  slug: paysend-mcp-server
 modified: '2026-07-24'
 name: Paysend
 nav: Providers
@@ -139,7 +139,7 @@ random_paper: 0
 score:
   band: developing
   composite: 41.1
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -149,7 +149,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 38.9
+  previous_composite: 41.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paysend/refs/heads/main/screenshots/paysend-2026-08-07T191655.png
 security:

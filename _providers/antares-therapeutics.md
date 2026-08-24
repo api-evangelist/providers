@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The public WordPress REST API behind antaresrx.com. This is the content management surface for the corporate marketing site and its press-release / in-the-media newsroom -- it is NOT a first-party pro
@@ -112,8 +112,8 @@ image: https://antaresrx.com/wp-content/uploads/2025/06/logo-antaresrx-2x.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: antares-therapeutics-mcp.yml
-  slug: antares-therapeutics-mcpyml
+  name: Antares Therapeutics MCP Server
+  slug: antares-therapeutics-mcp-server
 modified: '2026-07-19'
 name: Antares Therapeutics
 nav: Providers
@@ -126,7 +126,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 16.7
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -136,7 +136,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.6
+  previous_composite: 16.7
   provenance:
     mcp: first-party
   regulatory:
@@ -145,8 +145,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antares-therapeutics/refs/heads/main/screenshots/antares-therapeutics-2026-07-25T200338.png
 security:
@@ -171,6 +171,6 @@ tags:
 - Oncology
 - Drug Discovery
 - Life Sciences
-- Machine Learning
+- Machine-Learning
 website: https://antaresrx.com
 ---

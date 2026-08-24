@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 16
 apis:
 - description: The Attribute Worksheets API from CaptivateIQ — 5 operation(s) for attribute worksheets.
@@ -273,8 +273,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/captivatei
 layout: provider
 mcp_servers:
 - description: ''
-  name: captivateiq-mcp.yml
-  slug: captivateiq-mcpyml
+  name: CaptivateIQ MCP Server
+  slug: captivateiq-mcp-server
 modified: '2026-08-13'
 name: CaptivateIQ
 nav: Providers
@@ -300,7 +300,7 @@ scopes:
 score:
   band: developing
   composite: 51.4
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
@@ -310,7 +310,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 55.7
+  previous_composite: 51.4
   provenance:
     conformance: first-party
     contracts:
@@ -320,8 +320,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
 security:

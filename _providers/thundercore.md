@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API for the ThunderCore mainnet (chain ID 108, TT gas token). Supports the standard eth_/net_/web3_ method surface over HTTPS, with WebSocket endpoints for subscriptio
@@ -155,9 +155,9 @@ description: ThunderCore is an EVM-compatible layer-1 public blockchain with rou
 image: https://www.thundercore.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: thundercore-mcp.yml
-  slug: thundercore-mcpyml
+- description: 'No official ThunderCore MCP server was found (npm, the modelcontextprotocol registry, and the docs were searched). This is a CANDIDATE tool list derived from the documented public API surface: the Eth'
+  name: ThunderCore MCP Server
+  slug: thundercore-mcp-server
 modified: '2026-07-21'
 name: ThunderCore
 nav: Providers
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.9
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -187,12 +187,12 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 45.9
+  previous_composite: 42.9
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/screenshots/thundercore-2026-08-17T082355.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ modified: '2026-05-30'
 name: Checkiday - National Holiday and Event API
 nav: Providers
 network: true
-overview: 'Checkiday - National Holiday and Event API publishes 1 API on the [APIs.io](https://apis.io/) network: Events API. Tagged areas include Calendar, Holidays, Events, Observances, and Dates.
+overview: 'Checkiday - National Holiday and Event API publishes 1 API on the [APIs.io](https://apis.io/) network: Events API. Tagged areas include Calendar, Holidays, Event, Observances, and Dates.
 
 
   The Checkiday - National Holiday and Event API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -252,18 +252,18 @@ rules:
   slug: checkiday-rules
 score:
   band: developing
-  composite: 51.1
-  delta: -13.9
+  composite: 51.5
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 72.0
     developer_ergonomics: 27.4
     discoverability: 75.9
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 57.9
-  previous_composite: 65.0
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -271,9 +271,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/screenshots/checkiday-national-holiday-api-2026-06-20T174241.png
 security:
 - kind: authentication
@@ -288,7 +288,7 @@ slug: checkiday-national-holiday-api
 tags:
 - Calendar
 - Holidays
-- Events
+- Event
 - Observances
 - Dates
 - Time

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Responses-compatible inference REST API fronting many model families through opaque routing, with unauthenticated public catalog/status endpoints and authenticated model-list and Responses endpoints. '
@@ -125,13 +125,13 @@ image: https://infer.flow7.org/assets/og-infer.png?v=20260811
 layout: provider
 mcp_servers:
 - description: ''
-  name: infer-by-flow7-mcp.yml
-  slug: infer-by-flow7-mcpyml
+  name: Infer by Flow7 MCP Server
+  slug: infer-by-flow7-mcp-server
 modified: '2026-08-11'
 name: Infer by Flow7
 nav: Providers
 network: true
-overview: 'Infer by Flow7 publishes 1 API on the [APIs.io](https://apis.io/) network: Infer Responses API. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer tools.
+overview: 'Infer by Flow7 publishes 1 API on the [APIs.io](https://apis.io/) network: Infer Responses API. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer Tools.
 
 
   Infer by Flow7''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 15 more developer resources.'
@@ -152,7 +152,7 @@ scopes:
 score:
   band: developing
   composite: 50.4
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -162,7 +162,7 @@ score:
     discoverability: 70.4
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 49.5
+  previous_composite: 50.4
   provenance:
     conformance: first-party
     contracts:
@@ -172,8 +172,8 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/screenshots/infer-by-flow7-2026-08-17T080956.png
 security:
@@ -199,11 +199,11 @@ tags:
 - LLM API gateway
 - Responses-compatible API
 - Coding-agent tooling
-- Developer tools
-- Usage-based billing
+- Developer Tools
+- Usage-Based Billing
 - Prepaid billing
-- Agent-native
+- agent-native
 - Agent Skills
-- Model routing
+- Model Routing
 website: https://infer.flow7.org/
 ---

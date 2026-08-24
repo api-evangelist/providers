@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: Zowe is an open source software framework that delivers modern interfaces to interact with z/OS, including a CLI, a web UI (Application Framework), and REST APIs (API Mediation Layer) for jobs, datase
@@ -126,7 +126,7 @@ modified: '2026-04-28'
 name: Open Mainframe Project
 nav: Providers
 network: true
-overview: 'Open Mainframe Project publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Education, Enterprise, IBM Z, and Linux Foundation.
+overview: 'Open Mainframe Project publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Education, Enterprise, IBM Z, and Linux Foundation.
 
 
   Open Mainframe Project''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.9
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -152,15 +152,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.5
+  previous_composite: 10.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-mainframe-project/refs/heads/main/screenshots/open-mainframe-project-2026-06-20T190840.png
 security:
@@ -170,14 +170,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: open-mainframe-project
 tags:
-- Cloud Native
+- Cloud-Native
 - Education
 - Enterprise
 - IBM Z
 - Linux Foundation
 - Linux on Z
 - Mainframe
-- Open Source
+- Open-Source
 - z/OS
 - z/VM
 website: https://www.openmainframeproject.org/

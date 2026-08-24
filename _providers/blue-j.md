@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-18'
 name: Blue J
 nav: Providers
 network: true
-overview: 'Blue J is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Tax, Legal, and Research.
+overview: 'Blue J is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Tax, Legal, and Research.
 
 
   Blue J''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 18.6
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -106,9 +106,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 19.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-j/refs/heads/main/screenshots/blue-j-2026-07-25T203430.png
 security:
@@ -127,12 +127,12 @@ security:
 slug: blue-j
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Tax
 - Legal
 - Research
 - Compliance
-- SaaS
+- Software-as-a-Service
 - Professional Services
 website: https://www.bluej.com/
 ---

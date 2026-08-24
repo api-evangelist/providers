@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service Athletic Brewing's Shopify storefront serves at https://athleticbrewing.com/api/ucp/mcp. An anonymous MCP (JSON-RPC 2.0) endpoint exposing thirteen too
@@ -120,9 +120,9 @@ description: 'Athletic Brewing Company is a Milford, Connecticut brewer of craft
 image: https://athleticbrewing.com/cdn/shop/files/Athletic-Brewing-Company-Non-Alcoholic-Beer.png?v=1667574176
 layout: provider
 mcp_servers:
-- description: ''
-  name: athletic-brewing-mcp.yml
-  slug: athletic-brewing-mcpyml
+- description: 'Athletic Brewing''s Shopify storefront serves a live, anonymous Model Context Protocol endpoint implementing the Universal Commerce Protocol (UCP) dev.ucp.shopping service. Discovered from the store''s '
+  name: Athletic Brewing UCP Commerce MCP Server
+  slug: athletic-brewing-ucp-commerce-mcp-server
 modified: '2026-08-06'
 name: Athletic Brewing
 nav: Providers
@@ -144,7 +144,7 @@ scopes:
 score:
   band: emerging
   composite: 21.4
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -154,13 +154,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.2
+  previous_composite: 21.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athletic-brewing/refs/heads/main/screenshots/athletic-brewing-2026-08-07T161840.png
 security:

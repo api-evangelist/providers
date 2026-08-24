@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/appneta/
 - group: company
   title: ''
   type: Website
@@ -60,7 +64,7 @@ created: '2026-07-17'
 description: Tracelytics was a Boston/Providence application-tracing (APM) startup, backed by investors including Google Ventures, that built full-stack distributed tracing for web applications. AppNeta acquired Tracelytics in 2012 and the product became AppNeta TraceView; SolarWinds acquired TraceView in 2016, and AppNeta itself was acquired by Broadcom in 2021. The company no longer operates independently — the tracelytics.com domain no longer resolves and its TraceView Data API (api.tracelytics.com) is defunct — but its verified GitHub organization and first-party TraceView instrumentation packages remain published on RubyGems and npm.
 image: https://avatars.githubusercontent.com/u/371101?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-21'
 name: Tracelytics
 nav: Providers
 network: true
@@ -69,7 +73,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 7.5
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -79,9 +83,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

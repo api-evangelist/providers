@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -307,14 +307,14 @@ description: Dropbox Sign (formerly HelloSign) is an eSignature platform whose v
 image: https://github.com/hellosign.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: hellosign-mcp.yml
-  slug: hellosign-mcpyml
+- description: Official hosted MCP server published by Dropbox Sign (formerly HelloSign) for AI client integration (Claude Code, Cursor, etc.), advertised in the docs llms.txt. Serves the Dropbox Sign developer docu
+  name: Dropbox Sign (HelloSign) MCP Server
+  slug: dropbox-sign-hellosign-mcp-server
 modified: '2026-07-19'
 name: Dropbox Sign (HelloSign)
 nav: Providers
 network: true
-overview: 'Dropbox Sign (HelloSign) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Bulk Send Job API, and 9 more. Tagged areas include Company, eSignature, Electronic Signatures, Documents, and Digital Agreements.
+overview: 'Dropbox Sign (HelloSign) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Bulk Send Job API, and 9 more. Tagged areas include Company, E-Signature, Electronic Signatures, Documents, and Digital Agreements.
 
 
   The Dropbox Sign (HelloSign) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -330,7 +330,7 @@ scopes:
 score:
   band: strong
   composite: 61.2
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -340,7 +340,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 64.0
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -351,8 +351,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/screenshots/hellosign-2026-07-25T220935.png
 security:
@@ -375,7 +375,7 @@ security:
 slug: hellosign
 tags:
 - Company
-- eSignature
+- E-Signature
 - Electronic Signatures
 - Documents
 - Digital Agreements

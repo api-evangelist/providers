@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Booking, tracking, and listing shipment orders
@@ -87,14 +87,14 @@ description: PostEx is a Pakistani e-commerce logistics, courier, and fintech pl
 image: https://postex.pk/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: postex-mcp.yml
-  slug: postex-mcpyml
+- description: Candidate MCP server for the PostEx merchant Order Integration API. No official hosted or remote MCP server was found for PostEx; this tool list is derived one-tool-per-operation from the OpenAPI defi
+  name: PostEx MCP Server
+  slug: postex-mcp-server
 modified: '2026-07-20'
 name: PostEx
 nav: Providers
 network: true
-overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Reference API. Tagged areas include Company, Logistics, Courier, Shipping, and E-commerce.
+overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Reference API. Tagged areas include Company, Logistics, Couriers, Shipping, and E-Commerce.
 
 
   PostEx''s developer surface includes authentication and 7 more developer resources.'
@@ -102,7 +102,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 24.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -112,7 +112,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 25.9
+  previous_composite: 24.6
   provenance:
     conformance: derived
     contracts:
@@ -128,8 +128,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -144,9 +144,9 @@ slug: postex
 tags:
 - Company
 - Logistics
-- Courier
+- Couriers
 - Shipping
-- E-commerce
+- E-Commerce
 - Fulfillment
 - Cash on Delivery
 - Payments

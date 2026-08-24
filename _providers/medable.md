@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Schema-driven object API for building clinical applications on Medable: custom objects and typed properties, querying and aggregation, server-side scripting, accounts, connections, notifications, and '
@@ -171,8 +171,8 @@ image: https://cdn.prod.website-files.com/63da4ae4359b4b2bffd2a3b6/64677a1c8fad4
 layout: provider
 mcp_servers:
 - description: ''
-  name: medable-mcp.yml
-  slug: medable-mcpyml
+  name: Medable MCP Server
+  slug: medable-mcp-server
 modified: '2026-08-15'
 name: Medable
 nav: Providers
@@ -193,7 +193,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.3
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -203,7 +203,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 41.5
+  previous_composite: 45.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,8 +213,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/screenshots/medable-2026-08-07T172312.png
 security:
@@ -235,7 +235,7 @@ tags:
 - eCOA
 - Healthcare
 - Decentralized Clinical Trials
-- Backend as a Service
+- Backend-as-a-Service
 - Agentic AI
 website: https://medable.com
 ---

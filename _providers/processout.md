@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -274,9 +274,9 @@ description: ProcessOut is a payments technical layer and orchestration platform
 image: https://cdn.prod.website-files.com/65688bb5be2a2261a634aa71/65d8bb4c124d1591e814f499_o%20grid.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: processout-mcp.yml
-  slug: processout-mcpyml
+- description: ProcessOut publishes an official, hosted (remote) Model Context Protocol server that gives AI code editors (Cursor, Windsurf) and assistants (Claude Desktop) direct access to the ProcessOut API and do
+  name: ProcessOut MCP Server
+  slug: processout-mcp-server
 modified: '2026-07-20'
 name: ProcessOut
 nav: Providers
@@ -323,8 +323,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/screenshots/processout-2026-08-17T081342.png
 security:
@@ -349,7 +349,7 @@ tags:
 - Checkout
 - Reconciliation
 - Fraud
-- 3-D Secure
+- 3D Secure
 - Company
 website: https://www.processout.com/
 ---

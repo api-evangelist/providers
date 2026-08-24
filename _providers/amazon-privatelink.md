@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -613,18 +613,18 @@ rules:
   slug: amazon-privatelink-spectral-rules
 score:
   band: developing
-  composite: 40.9
-  delta: -4.9
+  composite: 41.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 21.8
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 45.8
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -632,8 +632,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/screenshots/amazon-privatelink-2026-06-20T171800.png
 security:

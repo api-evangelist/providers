@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,12 +62,12 @@ modified: '2026-08-13'
 name: GTM Release
 nav: Providers
 network: true
-overview: GTM Release is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Conferences, Events, Developer Communities, Directories, and GTM.
+overview: GTM Release is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Conferences, Event, Developer Communities, Directories, and Go-To-Market.
 random_paper: 18
 score:
   band: minimal
   composite: 6.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -83,17 +83,17 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 6.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: gtm-release
 tags:
 - Conferences
-- Events
+- Event
 - Developer Communities
 - Directories
-- GTM
+- Go-To-Market
 - Marketing
 - Press
 - Release

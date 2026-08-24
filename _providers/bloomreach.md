@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -419,7 +419,7 @@ jsonld:
   slug: bloomreach-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Bloomreach ships MCP as a first-class agent surface under the Loomi Connect brand. Three distinct remote MCP servers were found and probed: (1) the regional Loomi Connect production servers, OAuth-gat'
   name: Loomi Connect MCP
   slug: loomi-connect-mcp
 modified: 2026-08-13
@@ -461,7 +461,7 @@ scopes:
 score:
   band: exemplar
   composite: 74.2
-  delta: -13.2
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -471,7 +471,7 @@ score:
     discoverability: 87.0
     governance: 55.3
     operational_transparency: 81.6
-  previous_composite: 87.4
+  previous_composite: 74.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -482,9 +482,9 @@ score:
       total: 21
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png
 security:
 - kind: authentication
@@ -512,6 +512,6 @@ tags:
 - Marketing Automation
 - Headless CMS
 - Personalization
-- E-commerce
+- E-Commerce
 website: https://www.bloomreach.com
 ---

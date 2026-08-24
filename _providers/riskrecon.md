@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RiskRecon REST API for programmatic access to security ratings, portfolio and toe (target-of-evaluation) analyses, findings, and evidence. Authenticated with a JWT bearer token. Multiple version prefi
@@ -113,7 +113,7 @@ modified: '2026-07-21'
 name: RiskRecon
 nav: Providers
 network: true
-overview: 'RiskRecon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security Ratings, Third Party Risk, and Supply Chain Risk.
+overview: 'RiskRecon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security Ratings, Third-Party Risk, and Supply Chain Risk.
 
 
   RiskRecon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 11 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 21.3
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -131,9 +131,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 24.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -149,7 +149,7 @@ tags:
 - Company
 - Cybersecurity
 - Security Ratings
-- Third Party Risk
+- Third-Party Risk
 - Supply Chain Risk
 - Risk Management
 - GRC

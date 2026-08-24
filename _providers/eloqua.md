@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -187,6 +187,10 @@ collections:
   name: Oracle Eloqua Bulk Account Exports Users API
   slug: open-eloqua-users-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -326,7 +330,7 @@ jsonld:
   property_count: 10
   slug: eloqua-context
 layout: provider
-modified: '2026-08-13'
+modified: '2026-08-21'
 name: Oracle Eloqua
 nav: Providers
 network: true
@@ -336,7 +340,7 @@ overview: 'Oracle Eloqua publishes 23 APIs on the [APIs.io](https://apis.io/) ne
   The Oracle Eloqua catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Eloqua''s developer surface includes documentation, signup flow, authentication, getting-started guide, support, API reference, changelog, and 22 more developer resources.'
+  Oracle Eloqua''s developer surface includes documentation, signup flow, authentication, getting-started guide, support, API reference, changelog, and 23 more developer resources.'
 plans:
 - name: Eloqua Plans Pricing
   plan_count: 0
@@ -365,7 +369,7 @@ scopes:
 score:
   band: strong
   composite: 56.1
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -375,7 +379,7 @@ score:
     discoverability: 88.9
     governance: 26.5
     operational_transparency: 57.9
-  previous_composite: 60.9
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -386,8 +390,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/screenshots/eloqua-2026-06-20T180617.png
 security:

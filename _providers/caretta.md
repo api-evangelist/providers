@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol server that gives compatible AI clients OAuth-scoped access to the Caretta calls, transcripts and todos the signed-in user can already see. Seven documented tools cover l
@@ -164,8 +164,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caretta.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: caretta-mcp.yml
-  slug: caretta-mcpyml
+  name: Caretta MCP Server
+  slug: caretta-mcp-server
 modified: '2026-08-13'
 name: Caretta
 nav: Providers
@@ -194,7 +194,7 @@ scopes:
 score:
   band: developing
   composite: 42.1
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -204,13 +204,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 45.4
+  previous_composite: 42.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/screenshots/caretta-2026-07-25T204603.png
 security:
@@ -236,8 +236,8 @@ tags:
 - Conversation Intelligence
 - Revenue Operations
 - Y Combinator
-- Model Context Protocol
-- Webhooks
+- MCP
+- Webhook
 - Agents
 website: https://www.caretta.so
 ---

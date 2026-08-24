@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The my.anydesk I REST API automates retrieval and management of AnyDesk account data from the my.anydesk management console: license and account details, registered clients and their aliases/online st'
@@ -122,9 +122,9 @@ description: AnyDesk is a German remote desktop and remote access software compa
 image: https://anydesk.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: anydesk-mcp.yml
-  slug: anydesk-mcpyml
+- description: Candidate MCP server tool list derived from the documented my.anydesk I REST API command set. AnyDesk publishes no official hosted or remote MCP server; these tools are a proposed one-tool-per-documen
+  name: AnyDesk MCP Server
+  slug: anydesk-mcp-server
 modified: '2026-07-17'
 name: AnyDesk
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 16
 score:
   band: thin
   composite: 30.9
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -147,12 +147,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 29.9
+  previous_composite: 30.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anydesk/refs/heads/main/screenshots/anydesk-2026-07-25T200502.png
 security:

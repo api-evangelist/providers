@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ modified: '2026-07-23'
 name: Live Oak Bank
 nav: Providers
 network: true
-overview: 'Live Oak Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Small Business Lending, and SBA.
+overview: 'Live Oak Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Small Business Lending, and SBA.
 
 
   Live Oak Bank''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
@@ -87,7 +87,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 9.5
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -97,15 +97,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.5
+  previous_composite: 9.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/live-oak-bank/refs/heads/main/screenshots/live-oak-bank-2026-07-25T225349.png
 security:
@@ -115,13 +115,13 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: live-oak-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Small Business Lending
 - SBA
 - Embedded Banking
-- Banking-as-a-Service
+- Banking as a Service
 - Digital Bank
 - Open Finance
 website: https://www.liveoak.bank/

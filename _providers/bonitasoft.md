@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Bonita Web REST API exposes every Bonita Runtime feature reachable over HTTP — BPM (processes, cases, tasks, activities, flow nodes, timers, messages, signals), identity (users, groups, roles, mem
@@ -174,13 +174,13 @@ image: https://cdn.prod.website-files.com/69babab287a7d4136d9c544a/69babbfcdec6f
 layout: provider
 mcp_servers:
 - description: ''
-  name: bonitasoft-mcp.yml
-  slug: bonitasoft-mcpyml
+  name: Bonitasoft MCP Server
+  slug: bonitasoft-mcp-server
 modified: '2026-08-17'
 name: Bonitasoft
 nav: Providers
 network: true
-overview: 'Bonitasoft publishes 1 API on the [APIs.io](https://apis.io/) network: Bonita Web REST API. Tagged areas include Company, Saas, Business Process Management, Process Automation, and Workflow.
+overview: 'Bonitasoft publishes 1 API on the [APIs.io](https://apis.io/) network: Bonita Web REST API. Tagged areas include Company, Software-as-a-Service, Business Process Management, Process Automation, and Workflows.
 
 
   Bonitasoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -196,6 +196,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -205,6 +206,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 50.0
+  previous_composite: 65.2
   provenance:
     conformance: first-party
     contracts:
@@ -214,8 +216,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Bonitasoft Authentication
@@ -232,13 +235,13 @@ security:
 slug: bonitasoft
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Business Process Management
 - Process Automation
-- Workflow
+- Workflows
 - BPMN
-- Low Code
-- Open Source
+- Low-Code
+- Open-Source
 - Orchestration
 - Agentic AI
 - Case Management

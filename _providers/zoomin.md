@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: company
   title: ''
   type: Website
@@ -60,19 +64,19 @@ created: '2026-07-17'
 description: Zoomin is a content and knowledge orchestration platform that unifies unstructured product content — documentation, in-product help, knowledge base and community answers — into personalized self-service and in-app experiences across customer support, success and experience teams. Founded in Tel Aviv, Zoomin was acquired by Salesforce on November 1, 2024 and now powers the Unified Knowledge and Agentforce/Data Cloud offerings. Its products include the Content Delivery Platform, Documentation Portal, In-Product Help, Zoomin for ServiceNow, Unified Knowledge and Zoomin Analytics. Zoomin does not publish a public, self-serve developer API surface; its integrations are delivered through customer implementations and the Salesforce platform. This profile was surfaced as a Bessemer Venture Partners portfolio company.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoomin.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-21'
 name: Zoomin
 nav: Providers
 network: true
-overview: 'Zoomin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Content, Documentation, and Knowledge Management.
+overview: 'Zoomin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Content, Documentation, and Knowledge-Management.
 
 
-  Zoomin''s developer surface includes documentation, support, and 4 more developer resources.'
+  Zoomin''s developer surface includes documentation, support, and 5 more developer resources.'
 random_paper: 17
 score:
   band: emerging
   composite: 12.1
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -82,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -97,8 +101,8 @@ tags:
 - Cloud
 - Content
 - Documentation
-- Knowledge Management
-- Customer Support
+- Knowledge-Management
+- Customer-Support
 - Customer Experience
 - Analytics
 - Salesforce

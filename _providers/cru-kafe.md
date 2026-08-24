@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Shopify-native Universal Commerce Protocol surface served on crukafe.com: a hosted MCP endpoint for agent-driven catalog search, cart, and buyer-approved checkout, backed by Shopify Customer Account O'
@@ -66,14 +66,14 @@ description: 'CRU Kafe is a London-founded organic coffee brand selling Fairtrad
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cru-kafe.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cru-kafe-mcp.yml
-  slug: cru-kafe-mcpyml
+- description: Hosted agent-commerce MCP server exposed natively by CRU Kafe's Shopify storefront via the Universal Commerce Protocol (UCP). Lets agents search the catalog, build a cart, and drive a buyer-approved c
+  name: CRU Kafe Shopping (UCP)
+  slug: cru-kafe-shopping-ucp
 modified: '2026-07-18'
 name: CRU Kafe
 nav: Providers
 network: true
-overview: CRU Kafe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coffee, Ecommerce, Retail, and Consumer Goods.
+overview: CRU Kafe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coffee, E-Commerce, Retail, and Consumer Goods.
 random_paper: 5
 scopes:
 - name: Cru Kafe Scopes
@@ -82,23 +82,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 14.0
-  delta: 0.7
+  composite: 15.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 13.3
+  previous_composite: 15.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cru-kafe/refs/heads/main/screenshots/cru-kafe-2026-08-07T163930.png
 security:
@@ -114,7 +114,7 @@ slug: cru-kafe
 tags:
 - Company
 - Coffee
-- Ecommerce
+- E-Commerce
 - Retail
 - Consumer Goods
 - Food and Beverage

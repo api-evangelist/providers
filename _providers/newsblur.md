@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Login, logout and signup.
@@ -173,9 +173,9 @@ description: NewsBlur is a personal news reader that brings people together to t
 image: https://www.newsblur.com/media/img/logo_512.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: newsblur-mcp.yml
-  slug: newsblur-mcpyml
+- description: 'NewsBlur ships an official hosted Model Context Protocol (MCP) server that lets AI agents (Claude Desktop, Claude Code, Cursor, or any MCP-compatible client) interact with a user''s feeds, stories and '
+  name: NewsBlur MCP Server
+  slug: newsblur-mcp-server
 modified: '2026-07-20'
 name: NewsBlur
 nav: Providers
@@ -188,7 +188,7 @@ random_paper: 0
 score:
   band: developing
   composite: 39.8
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.3
+  previous_composite: 39.8
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +208,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/screenshots/newsblur-2026-08-07T185129.png
 security:
@@ -231,7 +231,7 @@ tags:
 - Social
 - Content
 - Media
-- Open Source
+- Open-Source
 - MCP
 website: https://www.newsblur.com/api
 ---

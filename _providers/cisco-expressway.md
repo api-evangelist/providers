@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -441,18 +441,18 @@ rules:
   slug: cisco-expressway-rules
 score:
   band: developing
-  composite: 40.6
-  delta: -16.3
+  composite: 41.5
+  delta: 0.4
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 29.9
-    developer_ergonomics: 52.4
+    developer_ergonomics: 54.8
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 56.9
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -460,9 +460,9 @@ score:
       derived: 16
       marker_coverage: 100.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/screenshots/cisco-expressway-2026-06-20T174356.png
 security:
 - kind: authentication

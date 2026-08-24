@@ -26,7 +26,7 @@ slug: schema-validation
 tags:
 - API Governance
 - Contract Testing
-- JSON Schema
+- JSON-Schema
 - OpenAPI
 - Schema Validation
 ---

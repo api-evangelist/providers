@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Phone.com v4 ("Phoenix") JSON REST API for managing accounts, extensions, devices, phone numbers, call routing, media, messaging (SMS/fax), and event webhooks. OAuth 2.0 secured.
@@ -162,9 +162,9 @@ description: Phone.com is a cloud business phone and unified communications prov
 image: https://github.com/phonedotcom.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: phone-com-mcp.yml
-  slug: phone-com-mcpyml
+- description: No official hosted/remote Phone.com MCP server was found. This is a CANDIDATE tool surface derived from the published Phone.com v4 operation catalog (llms.txt), grouped by resource. It is a design pro
+  name: Phone Com MCP Server
+  slug: phone-com-mcp-server
 modified: '2026-07-20'
 name: Phone Com
 nav: Providers
@@ -185,7 +185,7 @@ scopes:
 score:
   band: developing
   composite: 51.3
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -195,7 +195,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 52.6
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -206,8 +206,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phone-com/refs/heads/main/screenshots/phone-com-2026-08-17T081209.png
 security:
@@ -232,6 +232,5 @@ tags:
 - SMS
 - Video Conferencing
 - Communications
-- API
 website: https://apidocs.phone.com/
 ---

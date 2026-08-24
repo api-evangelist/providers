@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Embed Loom's recording experience directly into your web app. The recordSDK lets users record screen, mic, and camera, and uploads the resulting video to a Loom-hosted account. Authenticated via OAuth
@@ -113,7 +113,7 @@ modified: '2026-05-30'
 name: Loom
 nav: Providers
 network: true
-overview: 'Loom publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Productivity, Video, Async, Communication, and SaaS.
+overview: 'Loom publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Productivity, Video, Async, Communications, and Software-as-a-Service.
 
 
   Loom''s developer surface includes pricing, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -139,9 +139,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 28.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loom/refs/heads/main/screenshots/loom-2026-06-20T184719.png
 security:
@@ -158,7 +158,7 @@ tags:
 - Productivity
 - Video
 - Async
-- Communication
-- SaaS
+- Communications
+- Software-as-a-Service
 website: https://www.loom.com/
 ---

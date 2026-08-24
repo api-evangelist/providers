@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the CipherTrust Manager control plane. Manages encryption keys, secrets, certificates, tokenization, users, connections, and policies. Base path /api/v1 with JWT bearer authentication obt
@@ -120,22 +120,22 @@ overview: 'CipherTrust publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 16
 score:
   band: emerging
-  composite: 22.2
-  delta: 1.3
+  composite: 23.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 66.7
+    discoverability: 77.8
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 20.9
+  previous_composite: 23.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/screenshots/ciphertrust-2026-07-25T205401.png
 security:

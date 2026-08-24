@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 72
 apis:
 - description: GoFundMe Pro's single sign-on service, implemented against OpenID Connect, letting third-party apps register and log people in with their Classy/GoFundMe Pro account. Authorization endpoint at login.c
@@ -604,13 +604,13 @@ image: https://pro.gofundme.com/wp-content/uploads/2025/04/social-share-gfm-pro.
 layout: provider
 mcp_servers:
 - description: ''
-  name: gofundme-mcp.yml
-  slug: gofundme-mcpyml
+  name: GoFundMe MCP Server
+  slug: gofundme-mcp-server
 modified: '2026-08-04'
 name: GoFundMe
 nav: Providers
 network: true
-overview: 'GoFundMe publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgement API, Activity API, Annual Summary API, and 67 more. Tagged areas include Fundraising, Nonprofit, Crowdfunding, Donations, and Payments.
+overview: 'GoFundMe publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgement API, Activity API, Annual Summary API, and 67 more. Tagged areas include Fundraising, Non-Profit, Crowdfunding, Donations, and Payments.
 
 
   The GoFundMe catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -630,7 +630,7 @@ scopes:
 score:
   band: strong
   composite: 60.0
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -640,7 +640,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 61.5
+  previous_composite: 60.0
   provenance:
     conformance: derived
     contracts:
@@ -656,8 +656,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/screenshots/gofundme-2026-08-07T165756.png
 security:
@@ -680,16 +680,16 @@ security:
 slug: gofundme
 tags:
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Crowdfunding
 - Donations
 - Payments
 - Peer-to-Peer Fundraising
 - Recurring Giving
-- Events
+- Event
 - Philanthropy
 - Social Impact
 - CRM
-- Webhooks
+- Webhook
 website: https://www.gofundme.com
 ---

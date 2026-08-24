@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 23
 apis:
 - description: The Account API from Kumospace — 6 operation(s) for account.
@@ -270,8 +270,8 @@ image: https://content.kumospace.com/hubfs/LinkPreviewImage@2x-1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kumospace-mcp.yml
-  slug: kumospace-mcpyml
+  name: Kumospace MCP Server
+  slug: kumospace-mcp-server
 modified: '2026-07-19'
 name: Kumospace
 nav: Providers
@@ -284,7 +284,7 @@ random_paper: 2
 score:
   band: developing
   composite: 44.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -294,7 +294,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 45.9
+  previous_composite: 44.6
   provenance:
     conformance: first-party
     contracts:
@@ -304,8 +304,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kumospace/refs/heads/main/screenshots/kumospace-2026-07-25T224329.png
 security:
@@ -329,7 +329,7 @@ tags:
 - Collaboration
 - Video Conferencing
 - Communications
-- Real Time
+- Real-Time
 - Productivity
 - Meetings
 - Spatial Audio

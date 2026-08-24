@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: The Aramex API from Mile — 3 operation(s) for aramex.
@@ -236,8 +236,8 @@ image: https://www.milenow.com/wp-content/uploads/2025/09/Mile-Logo-high-res-102
 layout: provider
 mcp_servers:
 - description: ''
-  name: mile-mcp.yml
-  slug: mile-mcpyml
+  name: Mile MCP Server
+  slug: mile-mcp-server
 modified: '2026-07-20'
 name: Mile
 nav: Providers
@@ -273,8 +273,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/screenshots/mile-2026-08-07T172910.png
 security:
@@ -297,7 +297,7 @@ tags:
 - Transportation Management
 - Fulfillment
 - Shipping
-- Webhooks
+- Webhook
 - Route Optimization
 website: https://milenow.com
 ---

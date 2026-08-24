@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: Outverse
 nav: Providers
 network: true
-overview: 'Outverse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Support, and Customer Service.
+overview: 'Outverse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer-Support, and Customer Service.
 
 
   Outverse''s developer surface includes support and 8 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 12.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -94,9 +94,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 14.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outverse/refs/heads/main/screenshots/outverse-2026-08-07T191119.png
 security:
@@ -113,7 +113,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Customer Support
+- Customer-Support
 - Customer Service
 - Support Automation
 - Voice

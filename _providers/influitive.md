@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Events API from Influitive — 1 operation(s) for events.
@@ -146,8 +146,8 @@ image: https://influitive.com/wp-content/uploads/2021/05/influitive-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: influitive-mcp.yml
-  slug: influitive-mcpyml
+  name: Influitive MCP Server
+  slug: influitive-mcp-server
 modified: '2026-07-19'
 name: Influitive
 nav: Providers
@@ -163,7 +163,7 @@ random_paper: 16
 score:
   band: developing
   composite: 43.1
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -173,7 +173,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 45.9
+  previous_composite: 43.1
   provenance:
     conformance: derived
     contracts:
@@ -183,8 +183,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/screenshots/influitive-2026-07-25T222413.png
 security:
@@ -206,7 +206,7 @@ tags:
 - Referral Marketing
 - Customer Loyalty
 - Gamification
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://influitive.com
 ---

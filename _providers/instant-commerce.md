@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets external AI clients — Claude Desktop, Cursor and other MCP clients — work with an Instant project. Documented tools list, create, edit, publish a
@@ -180,17 +180,17 @@ description: 'Instant Commerce (product: Instant, instant.so) is an Amsterdam- a
 image: https://instantcommerce.io/og-image.jpg
 layout: provider
 mcp_servers:
+- description: Instant operates a hosted, remote Model Context Protocol (MCP) server that lets external AI clients such as Claude Desktop and Cursor work with an Instant project. It was announced in the product chan
+  name: Instant Commerce MCP Server
+  slug: instant-commerce-mcp-server
 - description: ''
-  name: instant-commerce-mcp.yml
-  slug: instant-commerce-mcpyml
-- description: ''
-  name: mcp
-  slug: mcp
+  name: Instant Commerce MCP Server
+  slug: instant-commerce-mcp-server-2
 modified: '2026-08-13'
 name: Instant Commerce
 nav: Providers
 network: true
-overview: 'Instant Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Ecommerce, Shopify, and No Code.
+overview: 'Instant Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, E-Commerce, Shopify, and No-Code.
 
 
   Instant Commerce''s developer surface includes documentation, pricing, signup flow, engineering blog, support, changelog, getting-started guide, and 27 more developer resources.'
@@ -206,7 +206,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -216,12 +216,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 45.7
+  previous_composite: 45.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/screenshots/instant-commerce-2026-07-25T222609.png
 security:
@@ -237,15 +237,15 @@ slug: instant-commerce
 tags:
 - Company
 - Ai Enterprise Software
-- Ecommerce
+- E-Commerce
 - Shopify
-- No Code
+- No-Code
 - Page Builder
 - Artificial Intelligence
 - AI Agents
 - Conversion Rate Optimization
 - Developer Tools
 - MCP
-- Agent Native
+- agent-native
 website: https://instant.so/
 ---

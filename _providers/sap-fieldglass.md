@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -109,6 +109,10 @@ collections:
   name: Approval Results API
   slug: open-sap-fieldglass-results-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -289,17 +293,17 @@ json_schemas:
   property_count: 3
   slug: sap-fieldglass-odata-status
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-21'
 name: SAP Fieldglass
 nav: Providers
 network: true
-overview: 'SAP Fieldglass publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Approval API, Audit Trail API, Get Data API, and 6 more. Tagged areas include Contingent Workforce, External Talent, Human Capital Management, Services Procurement, and Statements of Work.
+overview: 'SAP Fieldglass publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Approval API, Audit Trail API, Get Data API, and 6 more. Tagged areas include Contingent Workforce, External Talent, HCM, Services Procurement, and Statements of Work.
 
 
   The SAP Fieldglass catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  SAP Fieldglass'' developer surface includes authentication, documentation, engineering blog, pricing, support, and 18 more developer resources.'
+  SAP Fieldglass'' developer surface includes authentication, documentation, engineering blog, pricing, support, and 19 more developer resources.'
 plans:
 - name: Sap Fieldglass Plans Pricing
   plan_count: 1
@@ -327,18 +331,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 40.5
-  delta: -10.2
+  composite: 42.4
+  delta: 1.9
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 9.8
     contract_quality: 53.6
-    developer_ergonomics: 4.8
+    developer_ergonomics: 14.3
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 50.7
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -346,9 +350,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/screenshots/sap-fieldglass-2026-06-20T193426.png
 security:
 - kind: authentication
@@ -367,7 +371,7 @@ slug: sap-fieldglass
 tags:
 - Contingent Workforce
 - External Talent
-- Human Capital Management
+- HCM
 - Services Procurement
 - Statements of Work
 - Vendor Management

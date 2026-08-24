@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -164,9 +164,9 @@ description: Canada Health Infoway is an independent, federally funded not-for-p
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: canada-health-infoway-mcp.yml
-  slug: canada-health-infoway-mcpyml
+- description: 'Candidate MCP server derived from the Terminology Gateway OpenAPI operations. Canada Health Infoway does not publish an official hosted MCP server; this is a proposed tool surface an integrator could '
+  name: Canada Health Infoway MCP Server
+  slug: canada-health-infoway-mcp-server
 modified: '2026-07-24'
 name: Canada Health Infoway
 nav: Providers
@@ -182,7 +182,7 @@ random_paper: 6
 score:
   band: developing
   composite: 43.8
-  delta: 5.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -192,7 +192,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 38.3
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -209,9 +209,9 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png
 security:
 - kind: authentication

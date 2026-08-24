@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Coro Public API enables service providers and developers to build applications that integrate with the Coro Cybersecurity platform. Organized around workspaces (regular, channel, child), it covers
@@ -143,8 +143,8 @@ image: https://www.coro.net/wp-content/uploads/coro-opengraph.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: coronet-mcp.yml
-  slug: coronet-mcpyml
+  name: CoroNet MCP Server
+  slug: coronet-mcp-server
 modified: '2026-07-18'
 name: CoroNet
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 6
 score:
   band: developing
   composite: 42.1
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -170,12 +170,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 45.2
+  previous_composite: 42.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coronet/refs/heads/main/screenshots/coronet-2026-07-25T210438.png
 security:
@@ -199,7 +199,6 @@ tags:
 - Cloud Security
 - Managed Service Providers
 - Compliance
-- Webhooks
-- API
+- Webhook
 website: https://www.coro.net
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -10743,7 +10743,7 @@ modified: '2026-05-29'
 name: Censys
 nav: Providers
 network: true
-overview: 'Censys publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Adversary Investigation API, Asset Graphs API, and 11 more. Tagged areas include Security, Internet Intelligence, Attack Surface Management, Threat Hunting, and Cyber Threat Intelligence.
+overview: 'Censys publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Adversary Investigation API, Asset Graphs API, and 11 more. Tagged areas include Security, Internet Intelligence, Attack Surface Management, Threat Hunting, and cyber-threat-intelligence.
 
 
   The Censys catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -10783,18 +10783,18 @@ rules:
   slug: censys-spectral-rules
 score:
   band: strong
-  composite: 60.1
-  delta: -5.1
+  composite: 60.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.1
     developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 65.2
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     contracts:
@@ -10802,9 +10802,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/screenshots/censys-2026-06-20T174122.png
 security:
 - kind: authentication
@@ -10834,7 +10834,7 @@ tags:
 - Internet Intelligence
 - Attack Surface Management
 - Threat Hunting
-- Cyber Threat Intelligence
+- cyber-threat-intelligence
 - OSINT
 - Internet Scanning
 - Certificates

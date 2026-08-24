@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Check budget allocations and remaining GPU hours
@@ -176,13 +176,13 @@ image: https://usechamber.io/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: chamber-mcp.yml
-  slug: chamber-mcpyml
+  name: Chamber MCP Server
+  slug: chamber-mcp-server
 modified: '2026-07-18'
 name: Chamber
 nav: Providers
 network: true
-overview: 'Chamber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Capacity API, Health API, Metrics API, and 1 more. Tagged areas include GPU, AIOps, Machine Learning, MLOps, and Infrastructure.
+overview: 'Chamber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Capacity API, Health API, Metrics API, and 1 more. Tagged areas include GPU, AIOps, Machine-Learning, MLOps, and Infrastructure.
 
 
   Chamber''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
@@ -190,7 +190,7 @@ random_paper: 8
 score:
   band: developing
   composite: 46.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 46.5
+  previous_composite: 46.6
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/screenshots/chamber-2026-07-25T205029.png
 security:
@@ -227,7 +227,7 @@ slug: chamber
 tags:
 - GPU
 - AIOps
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Infrastructure
 - Cloud

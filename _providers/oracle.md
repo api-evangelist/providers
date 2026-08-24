@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -2387,6 +2387,106 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/oracle/skills
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/agile-software/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/amberpoint/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cerner/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/conjectag/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/datafox/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/datalogix/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/eloqua/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/greenbytes/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-container-engine/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-database/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-essbase/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-fusion/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-general-ledger/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-hospitality/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-planning/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-primavera/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-retail/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-siebel/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-transportation-management/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/oracle-weblogic/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/palerra/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/peoplesoft/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/responsys/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/timesten/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/weblogic/
 created: '2024-01-01'
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.
 examples:
@@ -2740,17 +2840,17 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Oracle
 nav: Providers
 network: true
-overview: 'Oracle publishes 322 APIs on the [APIs.io](https://apis.io/) network, including Access Governance CP API, Access Request API, Access Requests API, and 319 more. Tagged areas include Cloud, Database, Enterprise, Infrastructure, and SaaS.
+overview: 'Oracle publishes 322 APIs on the [APIs.io](https://apis.io/) network, including Access Governance CP API, Access Request API, Access Requests API, and 319 more. Tagged areas include Cloud, Database, Enterprise, Infrastructure, and Software-as-a-Service.
 
 
   The Oracle catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle''s developer surface includes authentication, developer portal, documentation, engineering blog, support, getting-started guide, signup flow, and 40 more developer resources.'
+  Oracle''s developer surface includes authentication, developer portal, documentation, engineering blog, support, getting-started guide, signup flow, and 65 more developer resources.'
 plans:
 - name: Oracle Plans Pricing
   plan_count: 3
@@ -2800,18 +2900,18 @@ rules:
   slug: oracle-spectral-rules
 score:
   band: developing
-  composite: 53.8
-  delta: -7.6
+  composite: 53.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 58.5
     developer_ergonomics: 76.2
-    discoverability: 50.0
-    governance: 25.0
+    discoverability: 40.7
+    governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 61.4
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -2819,9 +2919,9 @@ score:
       derived: 0
       marker_coverage: 95.0
       total: 322
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png
 security:
 - kind: authentication
@@ -2848,7 +2948,7 @@ tags:
 - Database
 - Enterprise
 - Infrastructure
-- SaaS
+- Software-as-a-Service
 - Fortune 100
 use_cases:
 - Migrating enterprise workloads to Oracle Cloud Infrastructure

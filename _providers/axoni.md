@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Axoni
 nav: Providers
 network: true
-overview: 'Axoni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, Post-Trade, and Data Infrastructure.
+overview: 'Axoni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Capital Markets, Post-Trade, and Data Infrastructure.
 
 
   Axoni''s developer surface includes support and 6 more developer resources.'
@@ -89,8 +89,8 @@ score:
   previous_composite: 9.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axoni/refs/heads/main/screenshots/axoni-2026-07-25T202100.png
 security:
@@ -101,7 +101,7 @@ security:
 slug: axoni
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Post-Trade
 - Data Infrastructure

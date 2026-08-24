@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Marine Mammal Commission provides science-based oversight of federal agency actions and domestic and international policies affecting the conservation of marine mammals and their ecosystems. The M
@@ -69,7 +69,7 @@ modified: '2026-04-28'
 name: Marine Mammal Commission
 nav: Providers
 network: true
-overview: 'Marine Mammal Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Conservation, Federal Government, Marine Mammals, and Wildlife.
+overview: 'Marine Mammal Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Conservation, Federal-Government, Marine Mammals, and Wildlife.
 
 
   Marine Mammal Commission''s developer surface includes documentation and 4 more developer resources.'
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.2
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -95,15 +95,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.6
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marine-mammal-commission/refs/heads/main/screenshots/marine-mammal-commission-2026-06-20T184947.png
 security:
@@ -118,7 +118,7 @@ security:
 slug: marine-mammal-commission
 tags:
 - Conservation
-- Federal Government
+- Federal-Government
 - Marine Mammals
 - Wildlife
 website: https://www.mmc.gov

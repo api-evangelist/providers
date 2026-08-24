@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Functional annotations and term lookup
@@ -170,7 +170,7 @@ rules:
 score:
   band: thin
   composite: 35.6
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -180,7 +180,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 38.7
+  previous_composite: 35.6
   provenance:
     contracts:
       callable: 100.0
@@ -193,8 +193,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ modified: '2026-05-24'
 name: Flowise
 nav: Providers
 network: true
-overview: 'Flowise publishes 13 APIs on the [APIs.io](https://apis.io/) network, including assistants API, attachments API, chatflows API, and 10 more. Tagged areas include Agents, Agent Workflows, Artificial Intelligence, Large Language Models, and Low Code.
+overview: 'Flowise publishes 13 APIs on the [APIs.io](https://apis.io/) network, including assistants API, attachments API, chatflows API, and 10 more. Tagged areas include Agents, Agent Workflows, Artificial Intelligence, Large Language Models, and Low-Code.
 
 
   The Flowise catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -322,18 +322,18 @@ rules:
   slug: flowise-rules
 score:
   band: developing
-  composite: 47.5
-  delta: -7.5
+  composite: 48.0
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.0
     developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 55.0
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -341,9 +341,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/screenshots/flowise-2026-06-20T181334.png
 security:
 - kind: authentication
@@ -360,13 +360,13 @@ tags:
 - Agent Workflows
 - Artificial Intelligence
 - Large Language Models
-- Low Code
+- Low-Code
 - Visual Builder
 - LangChain
 - RAG
 - Retrieval Augmented Generation
 - Chatbots
-- Open Source
+- Open-Source
 - Node.js
 - TypeScript
 website: https://flowiseai.com/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: provides endpoints to access to commands sent to the submission API
@@ -188,8 +188,8 @@ image: https://developer.ehyphome.de/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: interhyp-mcp.yml
-  slug: interhyp-mcpyml
+  name: Interhyp MCP Server
+  slug: interhyp-mcp-server
 modified: '2026-07-19'
 name: Interhyp
 nav: Providers
@@ -202,7 +202,7 @@ random_paper: 1
 score:
   band: developing
   composite: 46.7
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 44.1
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -228,8 +228,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/screenshots/interhyp-2026-07-25T222702.png
 security:
@@ -248,9 +248,9 @@ tags:
 - Mortgage
 - Lending
 - Baufinanzierung
-- Real Estate
+- Real-Estate
 - Banking
 - Germany
-- API First
+- API-First
 website: https://developer.ehyphome.de/
 ---

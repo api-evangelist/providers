@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: The core REST API to process payments from customers across multiple payment methods including credit and debit cards, bank transfers (BLIK, EPS, iDEAL, Interac e-Transfer, ACH, SEPA), cash vouchers (
@@ -160,7 +160,7 @@ modified: '2026-06-13'
 name: Paysafe
 nav: Providers
 network: true
-overview: 'Paysafe publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Digital Wallets, Prepaid Cards, Financial Services, and Fintech.
+overview: 'Paysafe publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Digital Wallet, Prepaid Cards, Financial-Services, and Fintech.
 
 
   Paysafe''s developer surface includes developer portal, documentation, changelog, authentication, sandbox, and 12 more developer resources.'
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.7
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -192,15 +192,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 30.3
+  previous_composite: 30.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paysafe/refs/heads/main/screenshots/paysafe-2026-06-20T191509.png
 security:
@@ -211,9 +211,9 @@ security:
 slug: paysafe
 tags:
 - Payments
-- Digital Wallets
+- Digital Wallet
 - Prepaid Cards
-- Financial Services
+- Financial-Services
 - Fintech
 - High-Risk Payments
 use_cases:

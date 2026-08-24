@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Stream Load is a synchronous HTTP-based ingestion API. Clients PUT a CSV or JSON payload to /api/{db}/{table}/_stream_load with HTTP Basic authentication and headers like `label`, `column_separator`, '
@@ -103,7 +103,7 @@ modified: '2026-05-08'
 name: StarRocks
 nav: Providers
 network: true
-overview: 'StarRocks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include OLAP, Lakehouse, SQL, Open Source, and Real-Time Analytics.
+overview: 'StarRocks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include OLAP, Lakehouse, SQL, Open-Source, and Real-Time Analytics.
 
 
   StarRocks'' developer surface includes developer portal, engineering blog, and 10 more developer resources.'
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.7
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -129,9 +129,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 14.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starrocks/refs/heads/main/screenshots/starrocks-2026-06-20T194511.png
 security:
@@ -144,7 +144,7 @@ tags:
 - OLAP
 - Lakehouse
 - SQL
-- Open Source
+- Open-Source
 - Real-Time Analytics
 website: https://www.starrocks.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Mural Public API supports OAuth 2.0 with scopes, image and file uploads to murals, and CRUD on workspaces, rooms, murals, widgets, and members. Includes published rate limits, pagination, and erro
@@ -100,7 +100,7 @@ modified: '2026-05-08'
 name: Mural
 nav: Providers
 network: true
-overview: 'Mural publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Collaboration, Whiteboard, Workshops, Enterprise, and OAuth.
+overview: 'Mural publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Collaboration, Whiteboard, Workshops, Enterprise, and Authentication.
 
 
   Mural''s developer surface includes developer portal, pricing, engineering blog, and 9 more developer resources.'
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -126,9 +126,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mural/refs/heads/main/screenshots/mural-2026-06-20T185858.png
 security:
@@ -146,6 +146,6 @@ tags:
 - Whiteboard
 - Workshops
 - Enterprise
-- OAuth
+- Authentication
 website: https://www.mural.co/
 ---

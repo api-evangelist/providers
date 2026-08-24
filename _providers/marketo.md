@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -626,8 +626,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketo.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: marketo-mcp.yml
-  slug: marketo-mcpyml
+  name: Marketo MCP Server
+  slug: marketo-mcp-server
 modified: '2026-08-13'
 name: Marketo
 nav: Providers
@@ -667,18 +667,18 @@ scopes:
   summary_line: 24 scopes
 score:
   band: strong
-  composite: 55.0
-  delta: -5.3
+  composite: 56.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 30.3
     contract_quality: 64.1
     developer_ergonomics: 63.7
-    discoverability: 68.5
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 60.3
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -689,9 +689,9 @@ score:
       total: 69
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/screenshots/marketo-2026-06-20T184954.png
 security:
 - kind: authentication

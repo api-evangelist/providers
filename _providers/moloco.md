@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 2
@@ -254,13 +254,13 @@ image: https://cdn.prod.website-files.com/6237fca0466ffd9274a1dbdd/6a4b55676ce1b
 layout: provider
 mcp_servers:
 - description: ''
-  name: moloco-mcp.yml
-  slug: moloco-mcpyml
+  name: MOLOCO MCP Server
+  slug: moloco-mcp-server
 modified: '2026-08-13'
 name: MOLOCO
 nav: Providers
 network: true
-overview: 'MOLOCO publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Ads Campaign Management API, Cloud Auth API, Commerce Media Management API, and 3 more. Tagged areas include advertising, adtech, demand-side-platform, retail-media, and commerce-media.
+overview: 'MOLOCO publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Ads Campaign Management API, Cloud Auth API, Commerce Media Management API, and 3 more. Tagged areas include Advertising, AdTech, Demand-Side Platform, Retail Media, and Commerce Media.
 
 
   The MOLOCO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -284,7 +284,7 @@ scopes:
 score:
   band: strong
   composite: 59.1
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -294,7 +294,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 72.4
-  previous_composite: 66.5
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,9 +305,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/screenshots/moloco-2026-08-07T184114.png
 security:
 - kind: authentication
@@ -324,17 +324,17 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: moloco
 tags:
-- advertising
-- adtech
-- demand-side-platform
-- retail-media
-- commerce-media
-- programmatic-advertising
-- campaign-management
-- ad-serving
-- machine-learning
-- mobile-marketing
-- reporting
+- Advertising
+- AdTech
+- Demand-Side Platform
+- Retail Media
+- Commerce Media
+- Programmatic Advertising
+- Campaign Management
+- Ad Serving
+- Machine-Learning
+- Mobile Marketing
+- Reporting
 - user-events
 website: https://www.moloco.com/
 ---

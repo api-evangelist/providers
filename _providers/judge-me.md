@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ modified: '2026-06-25'
 name: Judge.me
 nav: Providers
 network: true
-overview: 'Judge.me publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Products API, Review Requests API, Reviews API, and 1 more. Tagged areas include Reviews, E-commerce, Shopify, Ratings, and Social Proof.
+overview: 'Judge.me publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Products API, Review Requests API, Reviews API, and 1 more. Tagged areas include Reviews, E-Commerce, Shopify, Ratings, and Social Proof.
 
 
   Judge.me''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.8
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -141,7 +141,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.4
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -164,7 +164,7 @@ security:
 slug: judge-me
 tags:
 - Reviews
-- E-commerce
+- E-Commerce
 - Shopify
 - Ratings
 - Social Proof

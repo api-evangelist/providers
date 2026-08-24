@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -269,8 +269,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: captions-mcp.yml
-  slug: captions-mcpyml
+  name: Captions MCP Server
+  slug: captions-mcp-server
 modified: '2026-08-08'
 name: Captions
 nav: Providers
@@ -308,7 +308,7 @@ rules:
 score:
   band: exemplar
   composite: 66.6
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -318,7 +318,7 @@ score:
     discoverability: 81.5
     governance: 55.3
     operational_transparency: 65.8
-  previous_composite: 70.8
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -329,8 +329,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:
@@ -351,7 +351,7 @@ tags:
 - Video Generation
 - Captions
 - Subtitles
-- Text to Speech
+- Text-to-Speech
 - AI Avatars
 - Content Creation
 - Media

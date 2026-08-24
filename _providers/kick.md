@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Kick's programmatic surface — a hosted MCP server and CLI executing against the Kick REST API under the same auth, workspace, permission, and audit checks as the web app. No public OpenAPI is publishe
@@ -147,13 +147,13 @@ image: https://use.kick.co/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kick-mcp.yml
-  slug: kick-mcpyml
+  name: Kick
+  slug: kick
 modified: '2026-07-19'
 name: Kick
 nav: Providers
 network: true
-overview: 'Kick publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bookkeeping, Accounting, Finance, and FinTech.
+overview: 'Kick publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bookkeeping, Accounting, Finance, and Fintech.
 
 
   Kick''s developer surface includes documentation, API reference, quickstart, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
@@ -165,23 +165,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.4
-  delta: -1.2
+  composite: 35.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 35.6
+  previous_composite: 35.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kick/refs/heads/main/screenshots/kick-2026-07-25T223718.png
 security:
@@ -199,7 +199,7 @@ tags:
 - Bookkeeping
 - Accounting
 - Finance
-- FinTech
+- Fintech
 - MCP
 - AI Agents
 - Small Business

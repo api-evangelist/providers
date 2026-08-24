@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: 2026-06-12
 name: LMNT
 nav: Providers
 network: true
-overview: 'LMNT publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ai API, Health Check API, and Speech API. Tagged areas include text-to-speech, voice synthesis, voice cloning, audio streaming, and conversational AI.
+overview: 'LMNT publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ai API, Health Check API, and Speech API. Tagged areas include Text-to-Speech, Voice Synthesis, Voice Cloning, Audio Streaming, and Conversational AI.
 
 
   The LMNT catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -204,7 +204,7 @@ rules:
 score:
   band: developing
   composite: 46.5
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -214,7 +214,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 39.5
-  previous_composite: 52.1
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -222,9 +222,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/screenshots/lmnt-2026-06-20T184626.png
 security:
 - kind: authentication
@@ -241,12 +241,12 @@ security:
   summary_line: SOC 2
 slug: lmnt
 tags:
-- text-to-speech
-- voice synthesis
-- voice cloning
-- audio streaming
-- conversational AI
-- low latency
-- real-time audio
+- Text-to-Speech
+- Voice Synthesis
+- Voice Cloning
+- Audio Streaming
+- Conversational AI
+- Low Latency
+- Real-Time Audio
 website: https://www.lmnt.com/
 ---

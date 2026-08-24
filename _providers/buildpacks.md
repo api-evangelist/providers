@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Buildpack API defines the contract between a buildpack and the lifecycle that executes it. It specifies detect, build, and export phases, layer contribution formats, environment variable handling,
@@ -163,7 +163,7 @@ modified: '2026-04-21'
 name: Cloud Native Buildpacks
 nav: Providers
 network: true
-overview: 'Cloud Native Buildpacks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, CI/CD, Cloud Native, CNCF, and Container Images.
+overview: 'Cloud Native Buildpacks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, CI/CD, Cloud-Native, CNCF, and Container Images.
 
 
   Cloud Native Buildpacks'' developer surface includes documentation, engineering blog, and 16 more developer resources.'
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -189,9 +189,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 16.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/screenshots/buildpacks-2026-06-20T173752.png
 security:
@@ -203,12 +203,12 @@ slug: buildpacks
 tags:
 - Build Tools
 - CI/CD
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Container Images
 - Containers
 - OCI
-- Open Source
+- Open-Source
 use_cases:
 - features:
   - No Dockerfile Required

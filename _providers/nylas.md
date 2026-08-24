@@ -11,26 +11,26 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: flavored
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: partial
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-19'
+  score: 67.8
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -38,42 +38,51 @@ agentic_access:
   operation_count: 22
   slug: nylas-agentic-access
   summary_line: 22 operations · 8 acting
-api_count: 11
+api_count: 14
 apis:
-- description: The Nylas v3 REST API provides programmatic access to email, calendar, contacts, scheduling, authentication, and administration features across every major email and calendar provider.
+- description: The Nylas v3 REST API provides programmatic access to email, calendar, contacts, meeting notetaking, scheduling, authentication and administration across Google, Microsoft, Exchange, iCloud, Yahoo and
   name: Nylas API
   slug: nylas-api
-- description: The Admin API from Nylas — 3 operation(s) for admin.
+- description: 'Application-level administration: Nylas applications, API keys, custom domains, connectors and connector credentials, workspaces, and the rules, policies and lists that govern them.'
   name: Nylas Admin API
   slug: nylas-admin-api
-- description: The Auth API from Nylas — 3 operation(s) for auth.
+- description: Authentication. Hosted OAuth 2.1 authorization and token exchange, custom (non-OAuth) grant creation for Agent Accounts, token refresh and revocation, and ID token validation.
   name: Nylas Auth API
   slug: nylas-auth-api
-- description: The Calendars API from Nylas — 1 operation(s) for calendars.
+- description: Calendars. List and manage a grant's calendars, query free/busy availability across participants, and read room and resource calendars.
   name: Nylas Calendars API
   slug: nylas-calendars-api
-- description: The Contacts API from Nylas — 1 operation(s) for contacts.
+- description: Contacts. Read, create, update and delete a grant's contacts and contact groups.
   name: Nylas Contacts API
   slug: nylas-contacts-api
-- description: The Drafts API from Nylas — 1 operation(s) for drafts.
+- description: Drafts. Compose, update, send and delete drafts, manage attachments, and generate draft bodies and replies with Smart Compose.
   name: Nylas Drafts API
   slug: nylas-drafts-api
-- description: The Events API from Nylas — 1 operation(s) for events.
+- description: Events. Create, update, delete and list calendar events, including recurring events, group events and RSVP handling.
   name: Nylas Events API
   slug: nylas-events-api
-- description: The Grants API from Nylas — 2 operation(s) for grants.
+- description: Grants. A grant represents one authenticated mailbox and calendar. List, retrieve and delete grants, and inspect grant state and scopes.
   name: Nylas Grants API
   slug: nylas-grants-api
-- description: The Messages API from Nylas — 1 operation(s) for messages.
+- description: Messages. List, search, read, update and delete email messages. Send immediately, schedule a send and cancel a scheduled send, with folders, signatures and attachments alongside.
   name: Nylas Messages API
   slug: nylas-messages-api
-- description: The Scheduling API from Nylas — 3 operation(s) for scheduling.
+- description: Scheduler. Booking configurations, scheduling sessions, availability lookups and booking lifecycle management for hosted and component-based booking flows.
   name: Nylas Scheduling API
   slug: nylas-scheduling-api
-- description: The Threads API from Nylas — 1 operation(s) for threads.
+- description: Threads. List, search, read and update email threads, and manage thread-level folders and state.
   name: Nylas Threads API
   slug: nylas-threads-api
-artifact_total: 31
+- description: 'Change notifications. Nylas pushes events for messages, threads, calendars, events, grants and Notetaker over three interchangeable transports carrying the same payloads: HTTPS webhooks, Google Cloud '
+  name: Nylas Notifications API
+  slug: nylas-notifications-api
+- description: Meeting notetaker. Send a notetaker to a Google Meet, Microsoft Teams or Zoom call, then retrieve the recording, transcript, summary and action items. Available grant-scoped, or standalone with no con
+  name: Nylas Notetaker API
+  slug: nylas-notetaker-api
+- description: Reusable email templates and automation workflows, at both application and grant scope. Define a template once and send against it, or trigger a workflow on an inbound event.
+  name: Nylas Templates and Workflows API
+  slug: nylas-templates-workflows-api
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -168,61 +177,202 @@ common:
   title: ''
   type: LlmsText
   url: https://developer.nylas.com/llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.nylas.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.nylas.com/docs/reference/api/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.nylas.com/docs/reference/notifications/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.nylas.com/docs/reference/ui/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.nylas.com/docs/v3/getting-started/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/nylas/nylas-nodejs
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/nylas/nylas-python
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/nylas/nylas-ruby
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/nylas/nylas-java
+- group: build
+  title: ''
+  type: CLI
+  url: https://cli.nylas.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://developer.nylas.com/docs/v3/api-references/postman/
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/trynylas/workspace/nylas-api/overview
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://developer.nylas.com/.well-known/agent-skills/index.json
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.nylas.com/docs/support/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.nylas.com/docs/changelogs/
+- group: operate
+  title: ''
+  type: DeprecationPolicy
+  url: https://developer.nylas.com/docs/support/product-lifecycle/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.nylas.com/security/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.nylas.com/public
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://developer.nylas.com/docs/v3/notifications/
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: https://developer.nylas.com/docs/api/errors/
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://developer.nylas.com/docs/dev-guide/platform/rate-limits/
+- group: design
+  title: ''
+  type: Idempotency
+  url: https://developer.nylas.com/docs/v3/email/idempotent-send/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.nylas.com/pricing/
+- group: start
+  title: ''
+  type: Signup
+  url: https://dashboard-v3.nylas.com/register
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.us.nylas.com
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/nylas-mcp.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/nylas-vocabulary.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/nylas-conformance.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/nylas-a2a.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://developer.nylas.com/.well-known/security.txt
+- group: other
+  title: ''
+  type: ContentSignal
+  url: https://developer.nylas.com/robots.txt
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://developer.nylas.com/.well-known/api-catalog
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/nylas-well-known.yml
 created: '2025-02-06'
-description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, authentication, and administration with official SDKs for Node.js, Python, Ruby, and Kotlin/Java.
+description: Nylas connects your application to every email inbox and calendar in the world. The Nylas v3 platform provides REST APIs for email, calendar, contacts, scheduling, meeting notetaking, authentication, and administration across Google, Microsoft, Exchange, iCloud, Yahoo and any IMAP provider. Official SDKs cover Node.js, Python, Ruby and Kotlin/Java, alongside a CLI, a hosted MCP server, and Agent Accounts that provision a Nylas-hosted mailbox and calendar for autonomous agents without requiring an OAuth flow.
 finops:
 - name: Nylas Finops
   service_category: API
   slug: nylas-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nylas.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: Nylas MCP Server
+  slug: nylas-mcp-server
+- description: Nylas operates an official remote MCP server fronting the Nylas v3 email, calendar and contacts APIs, deployed per region at https://mcp.us.nylas.com and https://mcp.eu.nylas.com. Transport is streama
+  name: Nylas MCP Server manifest
+  slug: nylas-mcp-server-manifest
 modified: '2026-04-28'
 name: Nylas
 nav: Providers
 network: true
-overview: 'Nylas publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, Calendars API, and 7 more. Tagged areas include Calendar, Communication, Contacts, Email, and Messaging.
+overview: 'Nylas publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, and 12 more. Tagged areas include Calendar, Communications, Contacts, Email, and Messaging.
 
 
-  Nylas'' developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Nylas'' developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, CLI, support, and 40 more developer resources.'
 plans:
 - name: Nylas Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: nylas-plans-pricing
 random_paper: 5
 rate_limits:
-- limit_count: 5
+- limit_count: 10
   name: Nylas Rate Limits
   slug: nylas-rate-limits
 score:
-  band: thin
-  composite: 35.7
-  delta: -2.5
+  band: exemplar
+  composite: 76.6
+  delta: 0.0
   facets:
-    access_clarity: 44.7
-    commercial_clarity: 44.7
-    contract_governance: 0.0
-    contract_quality: 48.6
-    developer_ergonomics: 23.8
-    discoverability: 81.5
-    governance: 0.0
-    operational_transparency: 13.2
-  previous_composite: 38.2
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 33.3
+    contract_quality: 58.1
+    developer_ergonomics: 92.9
+    discoverability: 92.6
+    governance: 33.3
+    operational_transparency: 78.9
+  previous_composite: 76.6
   provenance:
     agentic_access: derived
+    conformance: unknown
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+      marker_coverage: 100.0
+      total: 13
+    mcp: first-party
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/screenshots/nylas-2026-06-20T190645.png
 security:
 - kind: authentication
   name: Nylas Authentication
   slug: nylas-authentication
-  summary_line: http · 1 scheme
+  summary_line: http · 3 schemes
 - kind: domain-security
   name: Nylas Domain Security
   slug: nylas-domain-security
@@ -230,15 +380,15 @@ security:
 - kind: vulnerability-disclosure
   name: Nylas Vulnerability Disclosure
   slug: nylas-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: contact published
 - kind: trust-center
   name: Nylas Trust Center
   slug: nylas-trust-center
-  summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR, CSA STAR
+  summary_line: SOC 2 Type II, ISO 27001, ISO 27701, HIPAA, GDPR, CCPA, CPRA, CSA STAR Level 1, PCI-DSS SAQ A, Data Privacy Framework, GLBA Privacy Rule, ADA Tier 2 CASA Verified
 slug: nylas
 tags:
 - Calendar
-- Communication
+- Communications
 - Contacts
 - Email
 - Messaging

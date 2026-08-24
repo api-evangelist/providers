@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Redocly Realm is the comprehensive API lifecycle management platform that unifies Redoc, Revel, and Reef into a single integrated product. Realm includes API documentation, mock servers, linting, cata
@@ -223,7 +223,7 @@ modified: '2026-05-22'
 name: Redocly
 nav: Providers
 network: true
-overview: 'Redocly publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, API Catalog, API Documentation, Arazzo, and Developer Portal.
+overview: 'Redocly publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, API Catalog, API Documentation, Arazzo, and Developer Portal.
 
 
   The Redocly catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -253,7 +253,7 @@ rules:
 score:
   band: thin
   composite: 39.2
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -263,10 +263,10 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 55.3
-  previous_composite: 45.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 39.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/screenshots/redocly-2026-06-20T192731.png
 security:
 - kind: domain-security
@@ -275,7 +275,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: redocly
 tags:
-- AI
+- Artificial Intelligence
 - API Catalog
 - API Documentation
 - Arazzo

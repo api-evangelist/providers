@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-native commerce surface for the IM8 Health (Prenetics) Shopify storefront, implemented with the Universal Commerce Protocol (UCP, 2026-04-08) over MCP. Agents discover capabilities at /.well-kno
@@ -94,8 +94,8 @@ image: https://cdn.prod.website-files.com/635b81308992081d90756acb/69439a3fcfe67
 layout: provider
 mcp_servers:
 - description: ''
-  name: prenetics-mcp.yml
-  slug: prenetics-mcpyml
+  name: Prenetics MCP Server
+  slug: prenetics-mcp-server
 modified: '2026-07-20'
 name: Prenetics
 nav: Providers
@@ -108,7 +108,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 15.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -118,7 +118,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 16.7
+  previous_composite: 15.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -128,8 +128,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -143,7 +143,7 @@ tags:
 - Longevity
 - Nutrition
 - Supplements
-- Ecommerce
+- E-Commerce
 - Agent Commerce
 - MCP
 - UCP

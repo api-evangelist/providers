@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol (UCP) shopping service that Super Coffee's storefront implements over MCP transport. An anonymous tools/list returns 13 tools covering catalog search and lookup, produc
@@ -109,8 +109,8 @@ image: https://www.drinksupercoffee.com/cdn/shop/files/super_coffee_logo_49f6a15
 layout: provider
 mcp_servers:
 - description: ''
-  name: super-coffee-mcp.yml
-  slug: super-coffee-mcpyml
+  name: Super Coffee MCP Server
+  slug: super-coffee-mcp-server
 modified: '2026-08-05'
 name: Super Coffee
 nav: Providers
@@ -127,24 +127,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.8
-  delta: -1.5
+  composite: 24.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 25.6
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 25.3
+  previous_composite: 24.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -164,7 +164,7 @@ tags:
 - E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 website: https://www.drinksupercoffee.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -907,8 +907,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-codeguru-security-mcp.yml
-  slug: amazon-codeguru-security-mcpyml
+  name: Amazon CodeGuru Security MCP Server
+  slug: amazon-codeguru-security-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeGuru Security
 nav: Providers
@@ -945,18 +945,18 @@ rules:
   slug: amazon-codeguru-security-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: -12.8
+  composite: 47.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 69.9
     developer_ergonomics: 28.6
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 18.4
-  previous_composite: 60.0
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -966,9 +966,9 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/screenshots/amazon-codeguru-security-2026-07-25T200005.png
 security:
 - kind: authentication

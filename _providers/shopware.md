@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-06-12'
 name: Shopware
 nav: Providers
 network: true
-overview: 'Shopware publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Bulk API, Cart API, and 7 more. Tagged areas include E-Commerce, Open Source, Headless Commerce, B2B, and B2C.
+overview: 'Shopware publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Bulk API, Cart API, and 7 more. Tagged areas include E-Commerce, Open-Source, Headless Commerce, B2B, and B2C.
 
 
   The Shopware catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -266,7 +266,7 @@ scopes:
 score:
   band: developing
   composite: 44.9
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -276,7 +276,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 34.2
-  previous_composite: 52.6
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -284,9 +284,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopware/refs/heads/main/screenshots/shopware-2026-06-20T193839.png
 security:
 - kind: authentication
@@ -304,11 +304,11 @@ security:
 slug: shopware
 tags:
 - E-Commerce
-- Open Source
+- Open-Source
 - Headless Commerce
 - B2B
 - B2C
 - REST
-- OAuth2
+- Authentication
 website: https://www.shopware.com
 ---

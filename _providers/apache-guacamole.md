@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ modified: '2026-05-19'
 name: Apache Guacamole
 nav: Providers
 network: true
-overview: 'Apache Guacamole publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Active Connections API, Authentication API, Connections API, and 3 more. Tagged areas include Apache, Open Source, RDP, Remote Access, and Remote Desktop.
+overview: 'Apache Guacamole publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Active Connections API, Authentication API, Connections API, and 3 more. Tagged areas include Apache, Open-Source, RDP, Remote Access, and Remote Desktop.
 
 
   The Apache Guacamole catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -291,18 +291,18 @@ rules:
   slug: apache-guacamole-spectral-rules
 score:
   band: thin
-  composite: 33.3
-  delta: -8.4
+  composite: 33.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 60.1
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 41.7
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -310,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/screenshots/apache-guacamole-2026-06-20T172106.png
 security:
 - kind: authentication
@@ -330,7 +330,7 @@ security:
 slug: apache-guacamole
 tags:
 - Apache
-- Open Source
+- Open-Source
 - RDP
 - Remote Access
 - Remote Desktop

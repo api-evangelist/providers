@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -145,7 +145,7 @@ random_paper: 12
 score:
   band: minimal
   composite: 1.2
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -155,16 +155,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.5
+  previous_composite: 1.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plan-a-earth/refs/heads/main/screenshots/plan-a-earth-2026-06-20T191750.png
 security:
 - kind: domain-security
@@ -189,7 +189,7 @@ tags:
 - Science Based Targets
 - ESG
 - Climate Tech
-- Enterprise SaaS
+- Enterprise Saas
 - B Corp
 - Berlin
 website: https://plana.earth

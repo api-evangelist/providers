@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -109,7 +109,7 @@ modified: '2026-05-02'
 name: Rent-A-Center
 nav: Providers
 network: true
-overview: 'Rent-A-Center is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Lease-To-Own, Consumer Finance, Electronics, and Furniture.
+overview: 'Rent-A-Center is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Lease-to-Own, Consumer Finance, Electronics, and Furniture.
 
 
   The Rent-A-Center catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -147,7 +147,7 @@ rules:
 score:
   band: emerging
   composite: 14.1
-  delta: -7.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -157,10 +157,10 @@ score:
     discoverability: 50.0
     governance: 25.0
     operational_transparency: 2.6
-  previous_composite: 21.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 14.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rent-a-center/refs/heads/main/screenshots/rent-a-center-2026-06-20T192849.png
 security:
 - kind: domain-security
@@ -170,7 +170,7 @@ security:
 slug: rent-a-center
 tags:
 - Retail
-- Lease-To-Own
+- Lease-to-Own
 - Consumer Finance
 - Electronics
 - Furniture

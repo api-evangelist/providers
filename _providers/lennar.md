@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Azure API Management developer portal for Lennar Corporation. Allows developers to discover Lennar APIs, sign up for an API key, read the auto-generated reference, and exercise endpoints from the API '
@@ -80,7 +80,7 @@ modified: '2026-04-28'
 name: Lennar
 nav: Providers
 network: true
-overview: Lennar publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilder, Real Estate, Fortune 500, and Mortgage.
+overview: Lennar publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilder, Real-Estate, Fortune 500, and Mortgage.
 plans:
 - name: Lennar Plans Pricing
   plan_count: 1
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.3
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -125,9 +125,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 12.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/screenshots/lennar-2026-06-20T184422.png
 security:
@@ -138,7 +138,7 @@ security:
 slug: lennar
 tags:
 - Homebuilder
-- Real Estate
+- Real-Estate
 - Fortune 500
 - Mortgage
 website: https://www.lennar.com

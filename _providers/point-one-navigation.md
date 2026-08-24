@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Standards-based NTRIP interface to the Point One Polaris RTK corrections network. Clients connect over NTRIP 1.0 or 2.0 to a regional caster, authenticate with Basic auth using a unique per-connection
@@ -181,7 +181,7 @@ random_paper: 1
 score:
   band: thin
   composite: 35.4
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -191,12 +191,12 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 37.8
+  previous_composite: 35.4
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

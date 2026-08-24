@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: OpenAI-compatible REST API gateway aggregating GPT, Claude, Gemini, DeepSeek, plus image, video, and audio model providers behind a single key and routing/failover layer. Model marketplace, usage logs
@@ -156,7 +156,7 @@ modified: '2026-05-27'
 name: WanAPIs
 nav: Providers
 network: true
-overview: 'WanAPIs publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 5 more. Tagged areas include LLM Gateway, AI API Gateway, OpenAI Compatible, Model Marketplace, and LLM.
+overview: 'WanAPIs publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 5 more. Tagged areas include LLM Gateway, AI API Gateway, OpenAI-Compatible, Model Marketplace, and LLM.
 
 
   The WanAPIs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -196,27 +196,27 @@ rules:
   slug: wanapis-rules
 score:
   band: developing
-  composite: 42.2
-  delta: -6.7
+  composite: 42.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.3
     developer_ergonomics: 9.5
     discoverability: 81.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 48.9
+  previous_composite: 42.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/screenshots/wanapis-2026-06-20T201218.png
 security:
 - kind: domain-security
@@ -227,17 +227,17 @@ slug: wanapis
 tags:
 - LLM Gateway
 - AI API Gateway
-- OpenAI Compatible
+- OpenAI-Compatible
 - Model Marketplace
 - LLM
 - GPT
 - Claude
 - Gemini
 - DeepSeek
-- Image Generation
+- Image-Generation
 - Video Generation
 - Audio
-- Multimodal
+- Multi-Modal
 - Routing
 - Failover
 website: https://wanapis.com/

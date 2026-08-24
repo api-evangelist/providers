@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The pricing surface behind @touchmark/sdk - open a session per scope, emit events fire-and-forget with an idempotent event_id, and consume quality-adjusted valuations (absolute fair_price_usd per even
@@ -130,9 +130,9 @@ description: Touchmark is solving AI pricing - instead of AI being priced per to
 image: https://touchmark.ai/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: touchmark-mcp.yml
-  slug: touchmark-mcpyml
+- description: 'No official hosted or remote MCP server was found for Touchmark (checked docs.touchmark.ai and the touchmark.ai site; the product is a private-beta TypeScript SDK over HTTP/gRPC). This candidate tool '
+  name: Touchmark MCP Server (candidate)
+  slug: touchmark-mcp-server-candidate
 modified: '2026-07-21'
 name: Touchmark
 nav: Providers
@@ -145,7 +145,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 20.4
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -155,12 +155,12 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 21.5
+  previous_composite: 20.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

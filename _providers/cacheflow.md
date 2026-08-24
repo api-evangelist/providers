@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for the full Cacheflow quote-to-cash surface: proposals (quotes) and proposal items, product catalog and versioning, customers and contacts, subscriptions and change/renewal proposals, billin'
@@ -142,13 +142,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cacheflow.
 layout: provider
 mcp_servers:
 - description: ''
-  name: cacheflow-mcp.yml
-  slug: cacheflow-mcpyml
+  name: Cacheflow MCP Server
+  slug: cacheflow-mcp-server
 modified: '2026-08-13'
 name: Cacheflow
 nav: Providers
 network: true
-overview: 'Cacheflow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Billing, Subscriptions, and CPQ.
+overview: 'Cacheflow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Billing, Subscription, and CPQ.
 
 
   The Cacheflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -167,7 +167,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.2
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -177,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 31.2
   provenance:
     conformance: derived
     contracts:
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cacheflow/refs/heads/main/screenshots/cacheflow-2026-07-25T204205.png
 security:
@@ -211,11 +211,11 @@ tags:
 - Company
 - Fintech
 - Billing
-- Subscriptions
+- Subscription
 - CPQ
 - Quote-to-Cash
 - Payments
-- SaaS
+- Software-as-a-Service
 - Invoicing
 - Revenue Operations
 - E-Signature

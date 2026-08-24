@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -280,13 +280,13 @@ image: https://cdn.prod.website-files.com/6388604483b03a9ecb34d695/6435197bfb1d6
 layout: provider
 mcp_servers:
 - description: ''
-  name: opus-mcp.yml
-  slug: opus-mcpyml
+  name: Opus MCP Server
+  slug: opus-mcp-server
 modified: '2026-07-20'
 name: Opus
 nav: Providers
 network: true
-overview: 'Opus publishes 11 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 8 more. Tagged areas include Company, Frontier Tech, Video, AI, and Video Editing.
+overview: 'Opus publishes 11 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 8 more. Tagged areas include Company, Frontier Tech, Video, Artificial Intelligence, and Video Editing.
 
 
   Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -294,7 +294,7 @@ random_paper: 14
 score:
   band: developing
   composite: 47.2
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -304,7 +304,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 51.8
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,8 +315,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/screenshots/opus-2026-08-07T190821.png
 security:
@@ -341,11 +341,11 @@ tags:
 - Company
 - Frontier Tech
 - Video
-- AI
+- Artificial Intelligence
 - Video Editing
 - Short-Form Video
 - Content Creation
-- Social Media
+- Social-Media
 - Media
 - Agents
 website: https://www.opus.pro/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -445,7 +445,7 @@ modified: '2026-05-25'
 name: Hyperbolic
 nav: Providers
 network: true
-overview: 'Hyperbolic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audio Generation API, Chat Completions API, Completions API, and 2 more. Tagged areas include AI, Artificial Intelligence, Compute, Decentralized, and DePIN.
+overview: 'Hyperbolic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audio Generation API, Chat Completions API, Completions API, and 2 more. Tagged areas include Artificial Intelligence, Compute, Decentralized, DePIN, and GPU.
 
 
   The Hyperbolic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -485,18 +485,18 @@ rules:
   slug: hyperbolic-ai-rules
 score:
   band: strong
-  composite: 64.1
-  delta: -4.9
+  composite: 64.5
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.1
     developer_ergonomics: 78.6
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 69.0
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     contracts:
@@ -504,8 +504,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/screenshots/hyperbolic-ai-2026-06-20T183118.png
 security:
@@ -519,16 +519,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: hyperbolic-ai
 tags:
-- AI
 - Artificial Intelligence
 - Compute
 - Decentralized
 - DePIN
 - GPU
-- Image Generation
+- Image-Generation
 - Inference
 - LLM
 - Marketplace
-- Open Source
+- Open-Source
 website: https://www.hyperbolic.ai/
 ---

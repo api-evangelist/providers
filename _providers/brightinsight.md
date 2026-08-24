@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: BrightInsight
 nav: Providers
 network: true
-overview: 'BrightInsight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Medtech, and Biopharma.
+overview: 'BrightInsight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, MedTech, and Biopharma.
 
 
   BrightInsight''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 14.8
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -90,7 +90,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 14.9
+  previous_composite: 14.8
   provenance:
     conformance: first-party
   regulatory:
@@ -99,8 +99,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightinsight/refs/heads/main/screenshots/brightinsight-2026-07-25T203847.png
 security:
@@ -117,7 +117,7 @@ tags:
 - Company
 - Healthcare
 - Digital Health
-- Medtech
+- MedTech
 - Biopharma
 - Software as a Medical Device
 - Medical Devices

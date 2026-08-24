@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-21'
 name: Tugende
 nav: Providers
 network: true
-overview: 'Tugende is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Asset Finance, Lease To Own, and Fintech.
+overview: 'Tugende is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Asset Finance, Lease-to-Own, and Fintech.
 
 
   Tugende''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 9.3
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -86,9 +86,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -98,9 +98,9 @@ security:
 slug: tugende
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Asset Finance
-- Lease To Own
+- Lease-to-Own
 - Fintech
 - MSME Lending
 - Uganda

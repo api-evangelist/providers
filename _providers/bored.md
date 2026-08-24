@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -277,18 +277,18 @@ rules:
   slug: bored-rules
 score:
   band: thin
-  composite: 32.5
-  delta: -6.6
+  composite: 32.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 61.3
     developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 39.1
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -302,9 +302,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/screenshots/bored-2026-06-20T173607.png
 security:
 - kind: domain-security
@@ -323,7 +323,7 @@ tags:
 - Free
 - MEVN
 - No Auth
-- Open Source
+- Open-Source
 - Public APIs
 - Recreation
 - Riddles

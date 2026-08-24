@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Derby provides a standard JDBC API for database operations in both embedded (org.apache.derby.jdbc.EmbeddedDriver) and client/server (org.apache.derby.jdbc.ClientDriver) modes, supporting full SQL, st
@@ -173,7 +173,7 @@ rules:
 score:
   band: emerging
   composite: 24.2
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -183,10 +183,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 32.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 24.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-derby/refs/heads/main/screenshots/apache-derby-2026-06-20T172052.png
 security:
 - kind: domain-security
@@ -204,7 +204,7 @@ tags:
 - Embedded
 - Java
 - JDBC
-- Open Source
+- Open-Source
 - Relational
 - SQL
 use_cases:

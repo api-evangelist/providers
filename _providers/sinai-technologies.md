@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Baseline forecasts API from Sinai Technologies — 7 operation(s) for baseline forecasts.
@@ -158,8 +158,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sinai-tech
 layout: provider
 mcp_servers:
 - description: ''
-  name: sinai-technologies-mcp.yml
-  slug: sinai-technologies-mcpyml
+  name: Sinai Technologies MCP Server
+  slug: sinai-technologies-mcp-server
 modified: '2026-07-21'
 name: Sinai Technologies
 nav: Providers
@@ -177,7 +177,7 @@ scopes:
 score:
   band: developing
   composite: 43.9
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -187,7 +187,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 46.0
+  previous_composite: 43.9
   provenance:
     conformance: first-party
     contracts:
@@ -197,8 +197,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/screenshots/sinai-technologies-2026-08-17T081904.png
 security:

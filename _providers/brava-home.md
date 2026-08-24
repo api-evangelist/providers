@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agentic-commerce surface for Brava's Shopify storefront. The store publishes a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp and a native Model Context Protocol (MCP) endpoint
@@ -89,9 +89,9 @@ description: Brava Home, Inc. is a Redwood City, California consumer-hardware co
 image: https://shop.brava.com/cdn/shop/files/favicon180x180_180x180.png?v=1622467377
 layout: provider
 mcp_servers:
-- description: ''
-  name: brava-home-mcp.yml
-  slug: brava-home-mcpyml
+- description: Brava's storefront (shop.brava.com) is a Shopify store that exposes a native Model Context Protocol (MCP) endpoint via the Universal Commerce Protocol (UCP, https://ucp.dev). Agents call MCP tools/lis
+  name: Brava Home MCP Server
+  slug: brava-home-mcp-server
 modified: '2026-07-18'
 name: Brava Home
 nav: Providers
@@ -104,7 +104,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 18.0
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -114,11 +114,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.6
+  previous_composite: 18.0
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brava-home/refs/heads/main/screenshots/brava-home-2026-08-07T162746.png
 security:
@@ -136,7 +136,7 @@ tags:
 - Appliances
 - Connected Devices
 - IoT
-- E-commerce
+- E-Commerce
 - Agentic Commerce
 website: https://www.brava.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ modified: '2026-06-13'
 name: NOAA ERDDAP
 nav: Providers
 network: true
-overview: 'NOAA ERDDAP publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data Access API, Discovery API, Files API, and 1 more. Tagged areas include oceanography, meteorology, climate, environmental data, and gridded data.
+overview: 'NOAA ERDDAP publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data Access API, Discovery API, Files API, and 1 more. Tagged areas include Oceanography, Meteorology, Climate, Environmental Data, and gridded data.
 
 
   The NOAA ERDDAP catalog on APIs.io includes 1 JSON-LD context.'
@@ -150,8 +150,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/screenshots/noaa-erddap-2026-06-20T190341.png
 security:
@@ -161,14 +161,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: noaa-erddap
 tags:
-- oceanography
-- meteorology
-- climate
-- environmental data
+- Oceanography
+- Meteorology
+- Climate
+- Environmental Data
 - gridded data
-- tabular data
-- scientific data
-- government
+- Tabular Data
+- Scientific Data
+- Government
 - NOAA
-- open data
+- Open Data
 ---

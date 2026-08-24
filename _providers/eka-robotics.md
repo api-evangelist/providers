@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-19'
 name: Eka Robotics
 nav: Providers
 network: true
-overview: Eka Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Machine Learning, and Reinforcement Learning.
+overview: Eka Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Machine-Learning, and Reinforcement Learning.
 random_paper: 1
 score:
   band: minimal
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eka-robotics/refs/heads/main/screenshots/eka-robotics-2026-07-25T213032.png
 security:
@@ -90,7 +90,7 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Reinforcement Learning
 - Robot Learning
 - Hardware

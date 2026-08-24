@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -183,8 +183,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/holvi.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: holvi-mcp.yml
-  slug: holvi-mcpyml
+  name: Holvi MCP Server
+  slug: holvi-mcp-server
 modified: '2026-07-19'
 name: Holvi
 nav: Providers
@@ -197,7 +197,7 @@ random_paper: 0
 score:
   band: developing
   composite: 47.5
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 46.2
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,8 +224,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png
 security:

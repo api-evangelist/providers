@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'Xact via SWIFT delivers settlement, custody, asset servicing and reporting messages over the SWIFTNet FIN network. The interface uses ISO 15022 MT messages today and is being migrated to ISO 20022 MX '
@@ -109,7 +109,7 @@ modified: '2026-04-23'
 name: Clearstream
 nav: Providers
 network: true
-overview: 'Clearstream publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, Collateral Management, Custody, Financial Services, and ISO 15022.
+overview: 'Clearstream publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, Collateral Management, Custody, Financial-Services, and ISO 15022.
 
 
   The Clearstream catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -140,7 +140,7 @@ rules:
 score:
   band: emerging
   composite: 21.0
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -150,15 +150,15 @@ score:
     discoverability: 64.8
     governance: 45.5
     operational_transparency: 10.5
-  previous_composite: 24.2
+  previous_composite: 21.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/screenshots/clearstream-2026-06-20T174506.png
 security:
@@ -171,12 +171,12 @@ tags:
 - Capital Markets
 - Collateral Management
 - Custody
-- Financial Services
+- Financial-Services
 - ISO 15022
 - ISO 20022
 - Post-Trade Infrastructure
 - Securities
 - Settlement
-- SWIFT
+- Swift
 website: https://www.clearstream.com/
 ---

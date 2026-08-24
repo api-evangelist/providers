@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ rules:
 score:
   band: developing
   composite: 45.0
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -229,7 +229,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 50.0
-  previous_composite: 52.0
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -243,9 +243,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/screenshots/semantic-scholar-2026-06-20T193645.png
 security:
 - kind: domain-security
@@ -264,7 +264,7 @@ tags:
 - Citations
 - Authors
 - Scientific Literature
-- AI
+- Artificial Intelligence
 - Recommendations
 website: https://www.semanticscholar.org
 ---

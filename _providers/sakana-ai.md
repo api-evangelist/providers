@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Multi-agent orchestration system that routes tasks across frontier foundation models (OpenAI, Anthropic, Google). OpenAI-compatible API surface. Two variants - Fugu Mini (low-latency) and Fugu Ultra (
@@ -85,7 +85,7 @@ modified: '2026-05-08'
 name: Sakana AI
 nav: Providers
 network: true
-overview: 'Sakana AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, Research, Foundation Models, and Multi-Agent.
+overview: 'Sakana AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Research, Foundation Models, and Multi-Agent.
 
 
   Sakana AI''s developer surface includes GitHub presence and 8 more developer resources.'
@@ -112,8 +112,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 10.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sakana-ai/refs/heads/main/screenshots/sakana-ai-2026-06-20T193337.png
 security:
@@ -127,7 +127,7 @@ security:
   summary_line: security.txt · contact published
 slug: sakana-ai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Research
 - Foundation Models

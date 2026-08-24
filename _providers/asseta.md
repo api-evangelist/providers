@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Asseta
 nav: Providers
 network: true
-overview: 'Asseta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Semiconductor, Equipment, and Secondary Market.
+overview: 'Asseta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Semiconductors, Equipment, and Secondary Market.
 
 
   Asseta''s developer surface includes signup flow, support, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 12.8
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -86,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asseta/refs/heads/main/screenshots/asseta-2026-07-25T201437.png
 security:
@@ -100,7 +100,7 @@ slug: asseta
 tags:
 - Company
 - Marketplace
-- Semiconductor
+- Semiconductors
 - Equipment
 - Secondary Market
 - Procurement

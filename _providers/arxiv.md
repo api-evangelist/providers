@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -302,18 +302,18 @@ rules:
   slug: arxiv-rules
 score:
   band: developing
-  composite: 47.4
-  delta: -4.9
+  composite: 47.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.2
     developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 52.3
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -327,8 +327,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/screenshots/arxiv-2026-06-20T172448.png
 security:
@@ -352,7 +352,7 @@ tags:
 - Preprints
 - Open Access
 - Research
-- Open Source
+- Open-Source
 - Public APIs
 use_cases:
 - description: Build search and recommendation interfaces over the arXiv corpus.

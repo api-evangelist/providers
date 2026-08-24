@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -1883,18 +1883,18 @@ rules:
   slug: amazon-private-ca-spectral-rules
 score:
   band: developing
-  composite: 51.3
-  delta: -5.6
+  composite: 51.8
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.8
     developer_ergonomics: 47.6
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 56.9
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1902,9 +1902,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/screenshots/amazon-private-ca-2026-06-20T171803.png
 security:
 - kind: authentication

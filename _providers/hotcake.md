@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 22.0
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -106,9 +106,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotcake/refs/heads/main/screenshots/hotcake-2026-07-25T221501.png
 security:
@@ -125,10 +125,10 @@ tags:
 - Booking
 - Scheduling
 - Membership
-- POS
-- SaaS
+- Point-of-Sale
+- Software-as-a-Service
 - Taiwan
-- LINE
+- Line
 - SMB
 website: https://hotcake.app
 ---

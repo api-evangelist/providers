@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Suunto Cloud API (also called the Integration API) gives approved partners OAuth2-authorized access to a Suunto App user's workout and daily-activity data. Workouts are delivered as FIT files carr
@@ -154,8 +154,8 @@ image: https://liesheng.cc/phone/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: liesheng-mcp.yml
-  slug: liesheng-mcpyml
+  name: Liesheng Group MCP Server
+  slug: liesheng-group-mcp-server
 modified: '2026-07-19'
 name: Liesheng Group
 nav: Providers
@@ -176,7 +176,7 @@ scopes:
 score:
   band: developing
   composite: 47.5
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -186,7 +186,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 45.3
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -196,8 +196,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/screenshots/liesheng-2026-07-25T225031.png
 security:

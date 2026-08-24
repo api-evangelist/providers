@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,8 +201,8 @@ image: https://www.adaptivesecurity.com/og-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: adaptive-security-mcp.yml
-  slug: adaptive-security-mcpyml
+  name: Adaptive Security MCP Server
+  slug: adaptive-security-mcp-server
 modified: '2026-07-17'
 name: Adaptive Security
 nav: Providers
@@ -219,7 +219,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.9
-  delta: -12.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -229,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 45.6
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,9 +240,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/screenshots/adaptive-security-2026-07-25T181557.png
 security:
 - kind: authentication

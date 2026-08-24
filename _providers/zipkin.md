@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-05-19'
 name: Zipkin
 nav: Providers
 network: true
-overview: 'Zipkin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Dependencies API, Health API, and 3 more. Tagged areas include Distributed Tracing, Observability, Open Source, and Microservices.
+overview: 'Zipkin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Dependencies API, Health API, and 3 more. Tagged areas include Distributed Tracing, Observability, Open-Source, and Microservices.
 
 
   The Zipkin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -256,18 +256,18 @@ rules:
   slug: zipkin-spectral
 score:
   band: thin
-  composite: 33.3
-  delta: -6.1
+  composite: 33.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 59.9
     developer_ergonomics: 26.2
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 39.4
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -275,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/screenshots/zipkin-2026-06-20T201916.png
 security:
 - kind: domain-security
@@ -288,7 +288,7 @@ slug: zipkin
 tags:
 - Distributed Tracing
 - Observability
-- Open Source
+- Open-Source
 - Microservices
 use_cases:
 - description: Identify slow services and operations in a microservice architecture.

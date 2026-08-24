@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -40,8 +40,8 @@ description: Tigris is a company surfaced as a portfolio company of a16z, genera
 layout: provider
 mcp_servers:
 - description: ''
-  name: tigris-mcp.yml
-  slug: tigris-mcpyml
+  name: Tigris MCP Server
+  slug: tigris-mcp-server
 modified: '2026-07-17'
 name: Tigris
 nav: Providers
@@ -51,7 +51,7 @@ random_paper: 7
 score:
   band: minimal
   composite: 7.0
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,13 +67,13 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 8.0
+  previous_composite: 7.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

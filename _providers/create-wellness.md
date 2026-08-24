@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol endpoint served from the Create Wellness storefront, exposed over the Model Context Protocol. Thirteen tools cover catalog search and lookup, cart create/read/update/ca
@@ -109,8 +109,8 @@ image: https://cdn.shopify.com/s/files/1/0611/9204/4732/files/Create_Wellness_Lo
 layout: provider
 mcp_servers:
 - description: ''
-  name: create-wellness-mcp.yml
-  slug: create-wellness-mcpyml
+  name: Create Wellness UCP Commerce MCP
+  slug: create-wellness-ucp-commerce-mcp
 modified: '2026-08-11'
 name: Create Wellness
 nav: Providers
@@ -136,7 +136,7 @@ scopes:
 score:
   band: emerging
   composite: 26.0
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -146,7 +146,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 28.1
+  previous_composite: 26.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -157,8 +157,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

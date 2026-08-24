@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Starknet full-node JSON-RPC API (OpenRPC), covering read methods (blocks, transactions, state, classes, events, fees), write methods (add invoke/declare/deploy-account transactions), trace methods
@@ -155,9 +155,9 @@ description: StarkWare Industries builds STARK-proof (Scalable Transparent ARgum
 image: https://github.com/starkware-libs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: starkware-mcp.yml
-  slug: starkware-mcpyml
+- description: Official StarkWare MCP (Model Context Protocol) server that exposes all Starknet JSON-RPC v0.10.2+ read and trace methods as agent tools, letting an assistant read blocks, transactions, state, classes
+  name: Starkware MCP Server
+  slug: starkware-mcp-server
 modified: '2026-07-21'
 name: Starkware
 nav: Providers
@@ -173,7 +173,7 @@ random_paper: 14
 score:
   band: developing
   composite: 39.5
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -183,13 +183,13 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 41.7
+  previous_composite: 39.5
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API serving balloon observations, soundings, WeatherMesh point and gridded forecasts, constellation/flight metadata, tropical cyclones, and population-weighted degree-day insights. Bearer API-key
@@ -83,8 +83,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/windbornes
 layout: provider
 mcp_servers:
 - description: ''
-  name: windbornesystems-mcp.yml
-  slug: windbornesystems-mcpyml
+  name: WindBorne Systems MCP Server
+  slug: windborne-systems-mcp-server
 modified: '2026-07-21'
 name: WindBorne Systems
 nav: Providers
@@ -97,7 +97,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 16.8
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -107,12 +107,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 18.3
+  previous_composite: 16.8
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -132,7 +132,7 @@ tags:
 - Atmospheric Data
 - Geospatial
 - Climate
-- Machine Learning
+- Machine-Learning
 - MCP
 website: https://windbornesystems.com/
 ---

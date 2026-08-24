@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ modified: '2026-07-01'
 name: ByteArk
 nav: Providers
 network: true
-overview: 'ByteArk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Live API, Uploads API, and Videos API. Tagged areas include Video, Streaming, Video on Demand, Live Streaming, and CDN.
+overview: 'ByteArk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Live API, Uploads API, and Videos API. Tagged areas include Video, Streaming, Video-on-Demand, Live Streaming, and CDN.
 
 
   ByteArk''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.7
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -145,7 +145,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.6
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/screenshots/bytark-2026-07-25T204141.png
 security:
@@ -170,7 +170,7 @@ slug: bytark
 tags:
 - Video
 - Streaming
-- Video on Demand
+- Video-on-Demand
 - Live Streaming
 - CDN
 - Object Storage

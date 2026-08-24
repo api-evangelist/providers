@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -377,8 +377,8 @@ image: https://developer.quinyx.com/static/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: quinyx-mcp.yml
-  slug: quinyx-mcpyml
+  name: Quinyx MCP Server
+  slug: quinyx-mcp-server
 modified: '2026-07-20'
 name: Quinyx
 nav: Providers
@@ -396,7 +396,7 @@ scopes:
 score:
   band: developing
   composite: 48.6
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -406,7 +406,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 47.3
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -417,8 +417,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quinyx/refs/heads/main/screenshots/quinyx-2026-08-17T081427.png
 security:

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -2674,13 +2674,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: airbyte-mcp.yml
-  slug: airbyte-mcpyml
+  name: Airbyte MCP Server
+  slug: airbyte-mcp-server
 modified: '2026-06-20'
 name: Airbyte
 nav: Providers
 network: true
-overview: 'Airbyte publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Connections API, ConnectorDefinitions API, and 41 more. Tagged areas include Data Integration, ETL, ELT, Open Source, and Data Pipeline.
+overview: 'Airbyte publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Connections API, ConnectorDefinitions API, and 41 more. Tagged areas include Data Integration, ETL, ELT, Open-Source, and Data Pipeline.
 
 
   The Airbyte catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2725,18 +2725,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 66.5
-  delta: -4.8
+  composite: 67.0
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 63.9
     developer_ergonomics: 83.3
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 50.0
-  previous_composite: 71.3
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2746,8 +2746,8 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png
 security:
@@ -2772,7 +2772,7 @@ tags:
 - Data Integration
 - ETL
 - ELT
-- Open Source
+- Open-Source
 - Data Pipeline
 - Connectors
 - Data

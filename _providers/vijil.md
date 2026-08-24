@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 2
@@ -346,14 +346,14 @@ description: 'Vijil is an AI agent trust platform (Mayfield-backed, ~$23M raised
 image: https://cdn.prod.website-files.com/691dbb7207c690a0037cbb28/69bd58689ec57361822b8672_VIJIL-OG.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: vijil-mcp.yml
-  slug: vijil-mcpyml
+- description: 'Official MCP server for the Vijil AI trust platform. Distributed as the `vijil-mcp` PyPI package, it exposes the Vijil Console CLI surface as MCP tools (stdio transport) for Claude Code and other MCP '
+  name: Vijil MCP Server
+  slug: vijil-mcp-server
 modified: '2026-07-21'
 name: Vijil
 nav: Providers
 network: true
-overview: 'Vijil publishes 28 APIs on the [APIs.io](https://apis.io/) network, including agent-configurations API, Agent Environment API, agent-import API, and 25 more. Tagged areas include Company, AI, AI Agents, Agent Security, and AI Safety.
+overview: 'Vijil publishes 28 APIs on the [APIs.io](https://apis.io/) network, including agent-configurations API, Agent Environment API, agent-import API, and 25 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Security, and AI Safety.
 
 
   Vijil''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, support, and 25 more developer resources.'
@@ -361,7 +361,7 @@ random_paper: 17
 score:
   band: developing
   composite: 47.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -371,7 +371,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 47.7
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -382,8 +382,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/screenshots/vijil-2026-08-17T082750.png
 security:
@@ -402,7 +402,7 @@ security:
 slug: vijil
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Agent Security
 - AI Safety

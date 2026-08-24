@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -221,8 +221,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: luma-health-mcp.yml
-  slug: luma-health-mcpyml
+  name: Luma Health MCP Server
+  slug: luma-health-mcp-server
 modified: '2026-08-15'
 name: Luma Health
 nav: Providers
@@ -243,7 +243,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.2
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -253,7 +253,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 45.3
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,8 +270,8 @@ score:
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Gated, enterprise real-time de-identification API named on the HealthVerity Identity Manager product page. Under the "sync on demand" modality, customers write records to the HealthVerity Identity API
@@ -162,7 +162,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.4
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -172,7 +172,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 22.6
+  previous_composite: 24.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -182,8 +182,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthverity/refs/heads/main/screenshots/healthverity-2026-07-25T220843.png
 security:

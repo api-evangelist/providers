@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ modified: '2026-07-01'
 name: Gradient Labs
 nav: Providers
 network: true
-overview: 'Gradient Labs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Actions & Tools API, Conversations API, Hand-off API, and 2 more. Tagged areas include AI, Customer Support, AI Agent, Conversations, and Financial Services.
+overview: 'Gradient Labs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Actions & Tools API, Conversations API, Hand-off API, and 2 more. Tagged areas include Artificial Intelligence, Customer-Support, AI Agent, Conversations, and Financial-Services.
 
 
   Gradient Labs'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -161,7 +161,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 36.6
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -169,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/screenshots/gradient-labs-2026-07-25T220209.png
 security:
@@ -184,11 +184,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: gradient-labs
 tags:
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - AI Agent
 - Conversations
-- Financial Services
+- Financial-Services
 - Regulated
 website: https://www.gradient-labs.ai
 ---

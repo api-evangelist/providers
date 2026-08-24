@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -384,18 +384,18 @@ rules:
   slug: trino-rules
 score:
   band: thin
-  composite: 38.6
-  delta: -5.3
+  composite: 39.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 57.0
     developer_ergonomics: 35.7
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 43.9
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -403,9 +403,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/screenshots/trino-2026-06-20T195720.png
 security:
 - kind: domain-security
@@ -419,7 +419,7 @@ tags:
 - Distributed SQL
 - MySQL
 - NoSQL
-- Queries
+- Query
 - SQL
 website: https://trino.io/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -237,13 +237,13 @@ image: https://platform-assets.apollocover.com/apollo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: apollo-insurance-mcp.yml
-  slug: apollo-insurance-mcpyml
+  name: APOLLO Insurance MCP Server
+  slug: apollo-insurance-mcp-server
 modified: '2026-07-25'
 name: APOLLO Insurance
 nav: Providers
 network: true
-overview: 'APOLLO Insurance publishes 3 APIs on the [APIs.io](https://apis.io/) network: APOLLO Affiliates API, APOLLO Public API - Affiliates, and APOLLO CoverTrack API. Tagged areas include Insurance, Canada, Insurtech, Broker, and Embedded Insurance.
+overview: 'APOLLO Insurance publishes 3 APIs on the [APIs.io](https://apis.io/) network: APOLLO Affiliates API, APOLLO Public API - Affiliates, and APOLLO CoverTrack API. Tagged areas include Insurance, Canada, Insurtech, Brokers, and Embedded Insurance.
 
 
   The APOLLO Insurance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,7 +254,7 @@ random_paper: 1
 score:
   band: developing
   composite: 53.3
-  delta: 3.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -264,7 +264,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 50.0
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -281,8 +281,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/screenshots/apollo-insurance-2026-07-25T200828.png
 security:
@@ -303,7 +303,7 @@ tags:
 - Insurance
 - Canada
 - Insurtech
-- Broker
+- Brokers
 - Embedded Insurance
 - Property and Casualty
 - Tenant Insurance

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -275,8 +275,8 @@ image: https://www.getaccept.com/hubfs/logotype.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: getaccept-mcp.yml
-  slug: getaccept-mcpyml
+  name: GetAccept MCP Server
+  slug: getaccept-mcp-server
 modified: '2026-08-14'
 name: GetAccept
 nav: Providers
@@ -305,7 +305,7 @@ scopes:
 score:
   band: strong
   composite: 62.3
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -315,7 +315,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 62.6
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,8 +326,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/screenshots/getaccept-2026-07-25T215711.png
 security:
@@ -351,9 +351,9 @@ tags:
 - Electronic Signature
 - E-Signature
 - Digital Sales Room
-- Document Management
+- Document-Management
 - Contract Management
 - Proposals
-- SaaS
+- Software-as-a-Service
 website: https://www.getaccept.com/
 ---

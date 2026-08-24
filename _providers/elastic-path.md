@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 3
@@ -775,7 +775,7 @@ modified: 2026-06-13
 name: Elastic Path
 nav: Providers
 network: true
-overview: 'Elastic Path publishes 99 APIs on the [APIs.io](https://apis.io/) network, including Account Addresses API, Account Authentication Settings API, Account Cart Associations API, and 96 more. Tagged areas include Commerce, Headless Commerce, Composable Commerce, eCommerce, and B2B.
+overview: 'Elastic Path publishes 99 APIs on the [APIs.io](https://apis.io/) network, including Account Addresses API, Account Authentication Settings API, Account Cart Associations API, and 96 more. Tagged areas include Commerce, Headless Commerce, Composable Commerce, E-Commerce, and B2B.
 
 
   The Elastic Path catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -804,18 +804,18 @@ rules:
   slug: elastic-path-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.5
-  delta: -3.2
+  composite: 42.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 67.6
     developer_ergonomics: 33.3
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 43.7
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -829,8 +829,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/screenshots/elastic-path-2026-06-20T180529.png
 security:
@@ -851,13 +851,13 @@ tags:
 - Commerce
 - Headless Commerce
 - Composable Commerce
-- eCommerce
+- E-Commerce
 - B2B
-- Products
+- Product
 - Catalogs
-- Orders
+- Order
 - Promotions
-- Subscriptions
+- Subscription
 - Payments
 website: https://www.elasticpath.com
 ---

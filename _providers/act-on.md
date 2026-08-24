@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: OAuth 2.0 REST API for Act-On marketing automation — contacts and lists, segments, email messages and campaigns, media and creative assets, landing pages and forms, subscriptions, imports, custom even
@@ -190,8 +190,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/act-on.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: act-on-mcp.yml
-  slug: act-on-mcpyml
+  name: Act-On MCP Server
+  slug: act-on-mcp-server
 modified: '2026-08-13'
 name: Act-On
 nav: Providers
@@ -220,7 +220,7 @@ scopes:
 score:
   band: developing
   composite: 53.2
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -230,7 +230,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 71.1
-  previous_composite: 60.2
+  previous_composite: 53.2
   provenance:
     conformance: derived
     contracts:
@@ -240,9 +240,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/screenshots/act-on-2026-07-25T181520.png
 security:
 - kind: authentication
@@ -268,7 +268,6 @@ tags:
 - Lead Generation
 - Campaign Management
 - Customer Data
-- Webhooks
-- API
+- Webhook
 website: https://act-on.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The core smolagents Python library providing CodeAgent and ToolCallingAgent classes for building AI agents that write Python code or structured JSON to call tools and orchestrate multi-agent systems. '
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.6
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -163,9 +163,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 31.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smolagents/refs/heads/main/screenshots/smolagents-2026-06-20T194059.png
 security:
@@ -185,7 +185,7 @@ tags:
 - Code Generation
 - LLM
 - Hugging Face
-- Open Source
-- Machine Learning
+- Open-Source
+- Machine-Learning
 website: https://huggingface.co/smolagents
 ---

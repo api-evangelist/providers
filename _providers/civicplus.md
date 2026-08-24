@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Request API from CivicPlus — 1 operation(s) for request.
@@ -166,8 +166,8 @@ image: https://www.civicplus.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: civicplus-mcp.yml
-  slug: civicplus-mcpyml
+  name: CivicPlus MCP Server
+  slug: civicplus-mcp-server
 modified: '2026-07-18'
 name: CivicPlus
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 12
 score:
   band: thin
   composite: 32.4
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 37.8
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
@@ -205,9 +205,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/screenshots/civicplus-2026-07-25T205443.png
 security:
 - kind: authentication

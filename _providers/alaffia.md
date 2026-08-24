@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,7 +101,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 19.9
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -111,7 +111,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 20.6
+  previous_composite: 19.9
   provenance:
     conformance: first-party
   regulatory:
@@ -120,8 +120,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaffia/refs/heads/main/screenshots/alaffia-2026-07-25T195531.png
 security:
@@ -142,9 +142,9 @@ tags:
 - Claims
 - Utilization Management
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Insurtech
-- Healthtech
+- Health Tech
 - United States
 website: https://alaffiahealth.com/
 ---

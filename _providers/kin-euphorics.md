@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Kin Euphorics Shopify storefront agent-commerce surface. Its UCP discovery document (/.well-known/ucp) advertises a Universal Commerce Protocol shopping service over MCP transport, supporting cata
@@ -117,15 +117,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 18.7
-  delta: -1.4
+  composite: 19.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   needs_work:
@@ -134,11 +134,11 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 20.1
+  previous_composite: 19.8
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kin-euphorics/refs/heads/main/screenshots/kin-euphorics-2026-08-07T171224.png
 security:
@@ -159,7 +159,7 @@ tags:
 - Adaptogens
 - Nootropics
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Shopify
 - Direct to Consumer
 - Agentic Commerce

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,12 +53,12 @@ modified: '2026-08-12'
 name: Epic Sciences
 nav: Providers
 network: true
-overview: Epic Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Diagnostics, Oncology, and Life Sciences.
+overview: Epic Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Diagnostics, Oncology, and Life Sciences.
 random_paper: 5
 score:
   band: minimal
   composite: 2.9
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,15 +74,15 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  previous_composite: 5.1
+  previous_composite: 2.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -92,7 +92,7 @@ security:
 slug: epic-sciences
 tags:
 - Company
-- Health Care
+- Healthcare
 - Diagnostics
 - Oncology
 - Life Sciences

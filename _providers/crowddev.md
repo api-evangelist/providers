@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -292,8 +292,8 @@ image: https://avatars.githubusercontent.com/u/85551972?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: crowddev-mcp.yml
-  slug: crowddev-mcpyml
+  name: Crowd.dev MCP Server
+  slug: crowddev-mcp-server
 modified: '2026-08-14'
 name: Crowd.dev
 nav: Providers
@@ -319,7 +319,7 @@ scopes:
 score:
   band: strong
   composite: 55.7
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -329,7 +329,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 58.4
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,8 +340,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/screenshots/crowddev-2026-07-25T210805.png
 security:
@@ -360,7 +360,7 @@ tags:
 - Developer Relations
 - Developer Data Platform
 - Identity Resolution
-- Open Source
+- Open-Source
 - Community Data Platform
 - Open Source Intelligence
 website: https://crowd.dev

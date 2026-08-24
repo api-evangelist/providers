@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Unreal Engine C++ API is the primary programmatic surface of the engine. It is shipped as engine source on GitHub (under the Unreal Engine EULA) and documented as a per-module class reference cove
@@ -144,7 +144,7 @@ modified: '2026-05-23'
 name: Unreal Engine
 nav: Providers
 network: true
-overview: 'Unreal Engine publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Blueprint, C++, Game Development, and Game Engine.
+overview: 'Unreal Engine publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Blueprints, C++, Game Development, and Game Engine.
 
 
   Unreal Engine''s developer surface includes documentation, engineering blog, release notes, support, YouTube channel, and 15 more developer resources.'
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.7
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -170,9 +170,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 22.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -186,7 +186,7 @@ security:
 slug: unreal-engine
 tags:
 - 3D
-- Blueprint
+- Blueprints
 - C++
 - Game Development
 - Game Engine

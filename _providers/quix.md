@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -157,7 +157,7 @@ modified: '2026-06-21'
 name: Quix
 nav: Providers
 network: true
-overview: 'Quix publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Streaming Reader API (Real-time), Definitions API, Deployments API, and 5 more. Tagged areas include Stream Processing, Real Time, Kafka, Python, and Streaming Data.
+overview: 'Quix publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Streaming Reader API (Real-time), Definitions API, Deployments API, and 5 more. Tagged areas include Stream Processing, Real-Time, Kafka, Python, and Streaming Data.
 
 
   The Quix catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -188,7 +188,7 @@ rules:
 score:
   band: developing
   composite: 42.5
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -198,7 +198,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 47.5
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -206,9 +206,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/screenshots/quix-2026-08-17T081431.png
 security:
 - kind: authentication
@@ -222,7 +222,7 @@ security:
 slug: quix
 tags:
 - Stream Processing
-- Real Time
+- Real-Time
 - Kafka
 - Python
 - Streaming Data

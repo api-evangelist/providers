@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,12 +64,12 @@ modified: '2026-07-21'
 name: ThriveHive
 nav: Providers
 network: true
-overview: ThriveHive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Small Business, Advertising, and SaaS.
+overview: ThriveHive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Small Business, Advertising, and Software-as-a-Service.
 random_paper: 15
 score:
   band: minimal
   composite: 6.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -79,9 +79,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 6.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -94,7 +94,7 @@ tags:
 - Marketing
 - Small Business
 - Advertising
-- SaaS
+- Software-as-a-Service
 - Acquired
 website: https://thrivehive.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Spredfast-lineage Khoros Marketing API surface covering Conversations, Publishing, Analytics Reporting and Notification. Uses a 3-legged OAuth 2.0 flow (/authorize, /grant, /token) and Bearer acce
@@ -185,7 +185,7 @@ random_paper: 14
 score:
   band: developing
   composite: 45.6
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -195,11 +195,11 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 49.9
+  previous_composite: 45.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium-technologies/refs/heads/main/screenshots/lithium-technologies-2026-07-25T225336.png
 security:
@@ -222,9 +222,9 @@ tags:
 - Online Community
 - Social Media Management
 - Customer Engagement
-- Customer Support
+- Customer-Support
 - Marketing
 - Conversational AI
-- Martech
+- MarTech
 website: https://khoros.ai/
 ---

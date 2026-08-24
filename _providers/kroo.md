@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -161,13 +161,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: kroo-mcp.yml
-  slug: kroo-mcpyml
+  name: Kroo MCP Server
+  slug: kroo-mcp-server
 modified: '2026-07-23'
 name: Kroo
 nav: Providers
 network: true
-overview: 'Kroo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API, Payment Initiation API, and Confirmation of Funds API. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Kroo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API, Payment Initiation API, and Confirmation of Funds API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Kroo''s developer surface includes authentication, documentation, engineering blog, support, and 22 more developer resources.'
@@ -180,7 +180,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -190,7 +190,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 43.4
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,8 +207,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroo/refs/heads/main/screenshots/kroo-2026-07-25T224303.png
 security:
@@ -226,7 +226,7 @@ security:
   summary_line: security.txt · contact published
 slug: kroo
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

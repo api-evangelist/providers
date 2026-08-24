@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 2
@@ -267,13 +267,13 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: asapp-mcp.yml
-  slug: asapp-mcpyml
+  name: ASAPP MCP Server
+  slug: asapp-mcp-server
 modified: '2026-07-18'
 name: ASAPP
 nav: Providers
 network: true
-overview: 'ASAPP publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AutoCompose API, AutoSummary API, AutoTranscribe API, and 11 more. Tagged areas include Company, AI, Conversational AI, Contact Center, and Customer Experience.
+overview: 'ASAPP publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AutoCompose API, AutoSummary API, AutoTranscribe API, and 11 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Contact Center, and Customer Experience.
 
 
   The ASAPP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -284,7 +284,7 @@ random_paper: 8
 score:
   band: strong
   composite: 56.0
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -294,7 +294,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 55.0
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,8 +305,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/screenshots/asapp-2026-07-25T201402.png
 security:
@@ -325,7 +325,7 @@ security:
 slug: asapp
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Conversational AI
 - Contact Center
 - Customer Experience

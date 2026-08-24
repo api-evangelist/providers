@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The first-party HTTP API behind the Vidjet embed and the Vidjet platform plugins, served from https://app-api.vidjet.io (Express). Vidjet publishes no developer documentation, reference, or machine-re
@@ -121,7 +121,7 @@ modified: '2026-08-13'
 name: Vidjet
 nav: Providers
 network: true
-overview: 'Vidjet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Video, Shoppable Video, and Shopify.
+overview: 'Vidjet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Video, Shoppable Video, and Shopify.
 
 
   Vidjet''s developer surface includes documentation, pricing, engineering blog, signup flow, getting-started guide, support, and 13 more developer resources.'
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.9
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -147,11 +147,11 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.7
+  previous_composite: 28.9
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -165,13 +165,13 @@ security:
 slug: vidjet
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Video
 - Shoppable Video
 - Shopify
 - Conversion
 - Marketing
-- No-code
+- No-Code
 - Widgets
 - Embed
 website: https://www.vidjet.io

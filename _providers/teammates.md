@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -166,8 +166,8 @@ image: https://cdn.prod.website-files.com/66f1c713e9cce059a0faaf67/683bb044870f2
 layout: provider
 mcp_servers:
 - description: ''
-  name: teammates-mcp.yml
-  slug: teammates-mcpyml
+  name: Teammates MCP Server
+  slug: teammates-mcp-server
 modified: '2026-07-21'
 name: Teammates
 nav: Providers
@@ -183,7 +183,7 @@ random_paper: 16
 score:
   band: thin
   composite: 38.6
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -193,7 +193,7 @@ score:
     discoverability: 75.9
     governance: 12.1
     operational_transparency: 26.3
-  previous_composite: 44.6
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -203,9 +203,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/screenshots/teammates-2026-08-17T082257.png
 security:
 - kind: domain-security
@@ -221,7 +221,7 @@ tags:
 - Virtual Workforce
 - Automation
 - Productivity
-- SaaS
+- Software-as-a-Service
 - MCP
 website: https://teammates.work
 ---

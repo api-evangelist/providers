@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Ocient HTTP Query API API from Ocient — 10 operation(s) for ocient http query api.
@@ -191,8 +191,8 @@ image: https://ocient.com/wp-content/uploads/2024/03/logo_adjust-2r.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ocient-mcp.yml
-  slug: ocient-mcpyml
+  name: Ocient Documentation
+  slug: ocient-documentation
 modified: '2026-08-02'
 name: Ocient
 nav: Providers
@@ -205,7 +205,7 @@ random_paper: 12
 score:
   band: developing
   composite: 50.7
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -215,7 +215,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 51.1
+  previous_composite: 50.7
   provenance:
     conformance: first-party
     contracts:
@@ -225,8 +225,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/screenshots/ocient-2026-08-07T185927.png
 security:
@@ -251,7 +251,7 @@ tags:
 - Database
 - SQL
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Big Data
 - Geospatial
 website: https://ocient.com/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -517,9 +517,9 @@ description: Coda Project, Inc. is the maker of Coda (now branded Superhuman Doc
 image: https://sanity-images.imgix.net/production/6b46953798756d87bc1ad579a32d2af427ba6d3d-1200x628.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: coda-project-mcp.yml
-  slug: coda-project-mcpyml
+- description: Official Coda (Superhuman Docs) remote MCP server. Lets AI clients (Claude, Cursor, and other MCP hosts) read and write Coda docs using natural-language prompts. In beta — tools and behavior are subje
+  name: Coda Project MCP Server
+  slug: coda-project-mcp-server
 modified: '2026-07-18'
 name: Coda Project
 nav: Providers
@@ -544,7 +544,7 @@ scopes:
 score:
   band: strong
   composite: 64.6
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -554,7 +554,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 68.4
-  previous_composite: 65.5
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -565,8 +565,8 @@ score:
       total: 32
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/screenshots/coda-project-2026-07-25T205859.png
 security:
@@ -595,8 +595,8 @@ tags:
 - Collaboration
 - No-Code
 - Workspace
-- AI
+- Artificial Intelligence
 - Content Management
-- SaaS
+- Software-as-a-Service
 website: https://coda.io/developers
 ---

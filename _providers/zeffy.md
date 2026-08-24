@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ modified: '2026-07-05'
 name: Zeffy
 nav: Providers
 network: true
-overview: 'Zeffy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Campaigns API, Contacts API, and Payments API. Tagged areas include Fundraising, Nonprofit, Donations, Payments, and Donor Management.
+overview: 'Zeffy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Campaigns API, Contacts API, and Payments API. Tagged areas include Fundraising, Non-Profit, Donations, Payments, and Donor Management.
 
 
   Zeffy''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.5
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -145,7 +145,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.1
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -174,11 +174,11 @@ security:
 slug: zeffy
 tags:
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Donations
 - Payments
 - Donor Management
 - Free
-- Webhooks
+- Webhook
 website: https://www.zeffy.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -325,7 +325,7 @@ modified: '2026-05-30'
 name: Heroku
 nav: Providers
 network: true
-overview: 'Heroku publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Add-ons API, Apps API, and 11 more. Tagged areas include Application Deployment, Cloud Platform, DevOps, and PaaS.
+overview: 'Heroku publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Add-ons API, Apps API, and 11 more. Tagged areas include Application Deployment, Cloud Platform, DevOps, and Platform-as-a-Service.
 
 
   The Heroku catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -355,7 +355,7 @@ rules:
 score:
   band: developing
   composite: 46.7
-  delta: -8.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -365,7 +365,7 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 55.3
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -373,9 +373,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/screenshots/heroku-2026-06-20T182649.png
 security:
 - kind: authentication
@@ -391,6 +391,6 @@ tags:
 - Application Deployment
 - Cloud Platform
 - DevOps
-- PaaS
+- Platform-as-a-Service
 website: https://www.heroku.com/
 ---

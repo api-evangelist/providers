@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 50
 apis:
 - description: Actor operations
@@ -378,11 +378,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cisco-xdr-mcp.yml
-  slug: cisco-xdr-mcpyml
+  name: Cisco XDR MCP Server
+  slug: cisco-xdr-mcp-server
 - description: ''
-  name: xdr-mcp-community
-  slug: xdr-mcp-community
+  name: Cisco XDR MCP Server
+  slug: cisco-xdr-mcp-server-2
 modified: '2026-08-19'
 name: Cisco XDR
 nav: Providers
@@ -410,16 +410,18 @@ scopes:
   summary_line: 41 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 65.6
+  composite: 61.9
+  delta: -3.7
   facets:
-    access_clarity: 81.6
-    commercial_clarity: 81.6
+    access_clarity: 75.0
+    commercial_clarity: 75.0
     contract_governance: 16.7
     contract_quality: 58.4
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 16.7
-    operational_transparency: 86.8
+    operational_transparency: 68.4
+  previous_composite: 65.6
   provenance:
     conformance: derived
     contracts:
@@ -429,8 +431,9 @@ score:
       total: 51
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Cisco Xdr Authentication
@@ -457,8 +460,8 @@ tags:
 - SOC
 - Threat Intelligence
 - Extended Detection and Response
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 - Automation
 - MCP
 website: https://www.cisco.com/site/us/en/products/security/xdr/index.html

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Insert, retrieve, tokenize/detokenize, query, and manage records and files in a Skyflow data privacy vault. Authenticated with a JWT bearer token or API key (RFC 6750). Base URLs are per-vault under t
@@ -169,9 +169,9 @@ description: Skyflow is a data privacy vault platform that lets companies isolat
 image: https://avatars.githubusercontent.com/u/72233674?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: skyflow-mcp.yml
-  slug: skyflow-mcpyml
+- description: Skyflow's documentation MCP server for AI clients (Claude Code, Cursor, etc.). Exposes Skyflow's docs and API reference over the Model Context Protocol so agents can retrieve accurate build guidance.
+  name: Skyflow MCP Server
+  slug: skyflow-mcp-server
 modified: '2026-07-21'
 name: Skyflow
 nav: Providers
@@ -184,7 +184,7 @@ random_paper: 6
 score:
   band: developing
   composite: 42.2
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -194,7 +194,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 44.1
+  previous_composite: 42.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -204,8 +204,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/screenshots/skyflow-2026-08-17T081918.png
 security:

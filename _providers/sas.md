@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ modified: '2026-05-19'
 name: SAS Institute
 nav: Providers
 network: true
-overview: 'SAS Institute publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BusinessRules API, CAS API, Decisions API, and 7 more. Tagged areas include Analytics, Data Management, Artificial Intelligence, Machine Learning, and Software.
+overview: 'SAS Institute publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BusinessRules API, CAS API, Decisions API, and 7 more. Tagged areas include Analytics, Data Management, Artificial Intelligence, Machine-Learning, and Software.
 
 
   The SAS Institute catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -292,18 +292,18 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: developing
-  composite: 43.8
-  delta: -8.0
+  composite: 44.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 56.6
     developer_ergonomics: 40.5
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 51.8
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -311,9 +311,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/screenshots/sas-2026-06-20T193436.png
 security:
 - kind: authentication
@@ -329,7 +329,7 @@ tags:
 - Analytics
 - Data Management
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Software
 use_cases:
 - description: Operationalize SAS Fraud and Compliance rules to score transactions in real time

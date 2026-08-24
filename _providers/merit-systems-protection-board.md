@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Merit Systems Protection Board protects federal merit systems and safeguards the rights of federal employees against prohibited personnel practices under 5 U.S.C. 2301(b).
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: Merit Systems Protection Board
 nav: Providers
 network: true
-overview: Merit Systems Protection Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Civil Service, Employment, Federal Government, and Government.
+overview: Merit Systems Protection Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Civil Service, Employment, Federal-Government, and Government.
 plans:
 - name: Merit Systems Protection Board Plans Pricing
   plan_count: 3
@@ -70,7 +70,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.3
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -86,15 +86,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 11.1
+  previous_composite: 9.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merit-systems-protection-board/refs/heads/main/screenshots/merit-systems-protection-board-2026-06-20T185222.png
 security:
@@ -110,6 +110,6 @@ slug: merit-systems-protection-board
 tags:
 - Civil Service
 - Employment
-- Federal Government
+- Federal-Government
 - Government
 ---

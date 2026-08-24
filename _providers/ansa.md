@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -225,8 +225,8 @@ image: https://cdn.prod.website-files.com/64de31babb6dd82d228e90ab/66281fc1b9e68
 layout: provider
 mcp_servers:
 - description: ''
-  name: ansa-mcp.yml
-  slug: ansa-mcpyml
+  name: Ansa MCP Server
+  slug: ansa-mcp-server
 modified: '2026-07-17'
 name: Ansa
 nav: Providers
@@ -242,7 +242,7 @@ random_paper: 20
 score:
   band: strong
   composite: 54.4
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -252,7 +252,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 53.2
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -269,8 +269,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/screenshots/ansa-2026-07-25T200309.png
 security:
@@ -295,6 +295,5 @@ tags:
 - Digital Wallet
 - Loyalty
 - Incentives
-- API
 website: https://www.ansa.dev/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Sprout Social Public API provides programmatic access to publishing, analytics, messaging, listening, and social care case data across major social networks. Requires Advanced plan or higher.
@@ -202,7 +202,7 @@ modified: '2026-08-13'
 name: Sprout Social
 nav: Providers
 network: true
-overview: 'Sprout Social publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Social Media Management, Publishing, Analytics, and Reporting.
+overview: 'Sprout Social publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social-Media, Social Media Management, Publishing, Analytics, and Reporting.
 
 
   The Sprout Social catalog on APIs.io includes 1 JSON-LD context.
@@ -226,7 +226,7 @@ scopes:
 score:
   band: strong
   composite: 61.8
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -236,12 +236,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 63.1
+  previous_composite: 61.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/screenshots/sprout-social-2026-08-17T082048.png
 security:
@@ -263,7 +263,7 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 slug: sprout-social
 tags:
-- Social Media
+- Social-Media
 - Social Media Management
 - Publishing
 - Analytics

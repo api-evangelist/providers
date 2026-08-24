@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 25
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
@@ -359,13 +359,13 @@ image: https://cdn.prod.website-files.com/65116a8935747aeda81c6865/65a8ffa13ea10
 layout: provider
 mcp_servers:
 - description: ''
-  name: uphold-mcp.yml
-  slug: uphold-mcpyml
+  name: Uphold
+  slug: uphold
 modified: '2026-08-05'
 name: Uphold
 nav: Providers
 network: true
-overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Authentication API, and 20 more. Tagged areas include Company, cryptocurrency, digital-assets, payments, and banking.
+overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Authentication API, and 20 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Payments, and Banking.
 
 
   The Uphold catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -380,18 +380,18 @@ scopes:
   summary_line: 64 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 70.5
-  delta: 3.7
+  composite: 69.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 68.8
     developer_ergonomics: 78.6
-    discoverability: 77.8
+    discoverability: 68.5
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 66.8
+  previous_composite: 69.6
   provenance:
     conformance: first-party
     contracts:
@@ -407,8 +407,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/screenshots/uphold-2026-08-17T081941.png
 security:
@@ -431,18 +431,18 @@ security:
 slug: uphold
 tags:
 - Company
-- cryptocurrency
-- digital-assets
-- payments
-- banking
-- fintech
-- kyc
-- compliance
-- crypto-exchange
-- market-data
-- embedded-finance
-- travel-rule
-- webhooks
+- Cryptocurrency
+- Digital Assets
+- Payments
+- Banking
+- Fintech
+- KYC
+- Compliance
+- Crypto Exchange
+- Market Data
+- Embedded Finance
+- Travel Rule
+- Webhook
 - agent-native
 website: https://uphold.com/
 ---

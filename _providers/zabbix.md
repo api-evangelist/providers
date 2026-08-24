@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ modified: '2026-05-19'
 name: Zabbix
 nav: Providers
 network: true
-overview: 'Zabbix publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Authentication API, Events API, and 7 more. Tagged areas include Monitoring, Infrastructure, Networks, Alerting, and Open Source.
+overview: 'Zabbix publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Authentication API, Events API, and 7 more. Tagged areas include Monitoring, Infrastructure, Networks, Alerting, and Open-Source.
 
 
   The Zabbix catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -230,7 +230,7 @@ rules:
 score:
   band: thin
   composite: 36.1
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -240,7 +240,7 @@ score:
     discoverability: 74.1
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 37.5
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -248,8 +248,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/screenshots/zabbix-2026-06-20T201756.png
 security:
@@ -267,7 +267,7 @@ tags:
 - Infrastructure
 - Networks
 - Alerting
-- Open Source
+- Open-Source
 - Observability
 website: https://www.zabbix.com
 ---

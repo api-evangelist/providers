@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ scopes:
 score:
   band: strong
   composite: 57.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -275,7 +275,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 55.3
-  previous_composite: 58.9
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -289,8 +289,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 63.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/screenshots/loop-returns-2026-06-20T184717.png
 security:

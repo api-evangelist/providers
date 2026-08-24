@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -291,7 +291,7 @@ modified: '2026-05-19'
 name: US African Development Foundation
 nav: Providers
 network: true
-overview: 'US African Development Foundation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Awards API, Opportunities API, and 2 more. Tagged areas include Federal Government, International Development, Africa, Grants, and Nonprofit.
+overview: 'US African Development Foundation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Awards API, Opportunities API, and 2 more. Tagged areas include Federal-Government, International Development, Africa, Grants, and Non-Profit.
 
 
   The US African Development Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -331,18 +331,18 @@ rules:
   slug: us-african-development-foundation-spectral-rules
 score:
   band: emerging
-  composite: 23.8
-  delta: -4.7
+  composite: 24.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 28.6
     developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 28.5
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -356,8 +356,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/screenshots/us-african-development-foundation-2026-06-20T200541.png
 security:
@@ -367,11 +367,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: us-african-development-foundation
 tags:
-- Federal Government
+- Federal-Government
 - International Development
 - Africa
 - Grants
-- Nonprofit
+- Non-Profit
 - Economic Development
 use_cases:
 - description: Researchers and journalists accessing USADF grant award data through USASpending API to analyze funding patterns across African countries.

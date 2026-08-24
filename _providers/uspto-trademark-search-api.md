@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -240,18 +240,18 @@ rules:
   slug: uspto-trademark-search-api-rules
 score:
   band: developing
-  composite: 48.2
-  delta: -1.8
+  composite: 48.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 72.3
     developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 50.0
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +265,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/screenshots/uspto-trademark-search-api-2026-06-20T200727.png
 security:

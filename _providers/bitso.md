@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ rules:
 score:
   band: thin
   composite: 38.2
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -175,7 +175,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 41.3
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png
 security:
@@ -213,7 +213,7 @@ tags:
 - Trading
 - Stablecoins
 - Payouts
-- Cross Border
+- Cross-Border
 - Latin America
 - Mexico
 - Fintech

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -252,7 +252,7 @@ modified: '2026-06-03'
 name: Restaurant365
 nav: Providers
 network: true
-overview: 'Restaurant365 publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AP Invoices API, Audit API, Authentication API, and 6 more. Tagged areas include Restaurant, Accounting, Inventory, Operations, and Invoices.
+overview: 'Restaurant365 publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AP Invoices API, Audit API, Authentication API, and 6 more. Tagged areas include Restaurant, Accounting, Inventory, Invoices, and Reporting.
 
 
   The Restaurant365 catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -291,18 +291,18 @@ rules:
   slug: restaurant365-rules
 score:
   band: developing
-  composite: 49.0
-  delta: -5.6
+  composite: 49.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 74.4
     developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 54.6
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -310,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/screenshots/restaurant365-2026-06-20T193014.png
 security:
 - kind: authentication
@@ -328,7 +328,6 @@ tags:
 - Restaurant
 - Accounting
 - Inventory
-- Operations
 - Invoices
 - Reporting
 - OData

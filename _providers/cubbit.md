@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The AWS S3-compatible object storage API for Cubbit DS3. Supports bucket create/delete/list, object upload/download/copy/delete, multipart upload, object versioning, object lock (COMPLIANCE and GOVERN
@@ -165,7 +165,7 @@ random_paper: 3
 score:
   band: thin
   composite: 35.3
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -175,11 +175,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 38.3
+  previous_composite: 35.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/screenshots/cubbit-2026-07-25T210852.png
 security:

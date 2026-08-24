@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST APIs for embedded insurance distribution — lookups/master data, quotes, proposals and payments — built to OpenAPI 3.0 (Swagger), secured with Bearer access tokens, and testable in a sandbox "Deve
@@ -127,8 +127,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turtlemint
 layout: provider
 mcp_servers:
 - description: ''
-  name: turtlemint-mcp.yml
-  slug: turtlemint-mcpyml
+  name: Turtlemint MCP Server
+  slug: turtlemint-mcp-server
 modified: '2026-07-21'
 name: Turtlemint
 nav: Providers
@@ -141,7 +141,7 @@ random_paper: 20
 score:
   band: thin
   composite: 30.0
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -151,7 +151,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 31.6
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -161,8 +161,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -181,7 +181,6 @@ tags:
 - Embedded Insurance
 - Insurance Distribution
 - Fintech
-- API
 - Payments
 website: https://www.turtlemint.com/
 ---

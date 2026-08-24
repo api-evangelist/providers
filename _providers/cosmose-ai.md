@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Registration, onboarding, invitation and account-lifecycle service behind Cosmose AI's KaiKai / Deal Hunter consumer app, plus the merchant, school, newsletter and contact lead-capture forms on kaikai
@@ -104,7 +104,7 @@ modified: '2026-08-11'
 name: Cosmose AI
 nav: Providers
 network: true
-overview: 'Cosmose AI publishes 1 API on the [APIs.io](https://apis.io/) network: Deal Hunter Registration API. Tagged areas include retail-intelligence, offline-analytics, location-intelligence, adtech, and consumer-behavior.
+overview: 'Cosmose AI publishes 1 API on the [APIs.io](https://apis.io/) network: Deal Hunter Registration API. Tagged areas include Retail Intelligence, offline-analytics, Location Intelligence, AdTech, and consumer-behavior.
 
 
   Cosmose AI''s developer surface includes engineering blog, support, and 14 more developer resources.'
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.7
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -130,7 +130,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 28.2
+  previous_composite: 24.7
   provenance:
     conformance: derived
     contracts:
@@ -140,8 +140,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -154,15 +154,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: cosmose-ai
 tags:
-- retail-intelligence
+- Retail Intelligence
 - offline-analytics
-- location-intelligence
-- adtech
+- Location Intelligence
+- AdTech
 - consumer-behavior
-- shopper-analytics
-- mobile-sdk
-- advertising
-- artificial-intelligence
-- singapore
+- Shopper Analytics
+- Mobile SDK
+- Advertising
+- Artificial Intelligence
+- Singapore
 website: https://cosmose.ai/
 ---

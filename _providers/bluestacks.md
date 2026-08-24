@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: OAuth 2.0 identity API for now.gg Login. Publishers exchange an authorization code for a token and refresh_token, verify id_token/token server-side, and read user profile and session information for t
@@ -190,7 +190,7 @@ scopes:
 score:
   band: developing
   composite: 50.7
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -200,7 +200,7 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 48.9
+  previous_composite: 50.7
   provenance:
     conformance: first-party
   regulatory:
@@ -209,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluestacks/refs/heads/main/screenshots/bluestacks-2026-08-17T080648.png
 security:
@@ -235,10 +235,10 @@ tags:
 - Mobile
 - Payments
 - In-App Purchases
-- Subscriptions
+- Subscription
 - Developer Platform
 - App Distribution
 - Advertising
-- OAuth
+- Authentication
 website: https://www.bluestacks.com/
 ---

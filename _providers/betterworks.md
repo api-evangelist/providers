@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The BetterWorks REST API enables programmatic access to goals, milestones, employee data, feedback, recognition, calibration data, and performance ratings. Developers can retrieve complete goal detail
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.0
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -143,9 +143,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 36.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 33.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betterworks/refs/heads/main/screenshots/betterworks-2026-06-20T173210.png
 security:

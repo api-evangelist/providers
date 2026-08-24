@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Tour Amigo''s bookable two-way partner API powers its API-powered channel manager. Operators expose tours, availability, and bookings either directly to their own distribution partners or through Tour '
@@ -100,7 +100,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 14.9
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -110,9 +110,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -128,6 +128,6 @@ tags:
 - Cruises
 - Destination Management
 - Channel Manager
-- SaaS
+- Software-as-a-Service
 website: https://touramigo.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 0
@@ -426,18 +426,18 @@ rules:
   slug: amerihealth-caritas-rules
 score:
   band: developing
-  composite: 44.3
-  delta: -2.4
+  composite: 40.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 58.9
+    contract_quality: 51.9
     developer_ergonomics: 33.3
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 46.7
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -451,8 +451,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/screenshots/amerihealth-caritas-2026-06-20T171925.png
 security:
@@ -496,7 +496,7 @@ tags:
 - Interoperability
 - FHIR
 - CMS
-- SMART On FHIR
+- SMART on FHIR
 - Patient Access
 - Provider Directory
 use_cases:

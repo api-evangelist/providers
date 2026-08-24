@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 225
   human_in_the_loop: 9
@@ -407,13 +407,13 @@ image: https://cdn.prod.website-files.com/63643fff1bf707ba2678d088/63643fff1bf70
 layout: provider
 mcp_servers:
 - description: ''
-  name: laurel-mcp.yml
-  slug: laurel-mcpyml
+  name: Laurel MCP Server
+  slug: laurel-mcp-server
 modified: '2026-07-19'
 name: Laurel
 nav: Providers
 network: true
-overview: 'Laurel publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Ably API, Activities API, Clients API, and 37 more. Tagged areas include Company, Ai, Timekeeping, Time Tracking, and Legal.
+overview: 'Laurel publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Ably API, Activities API, Clients API, and 37 more. Tagged areas include Company, Artificial Intelligence, Timekeeping, Time Tracking, and Legal.
 
 
   Laurel''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
@@ -421,7 +421,7 @@ random_paper: 15
 score:
   band: developing
   composite: 46.6
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -431,7 +431,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 44.6
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -442,8 +442,8 @@ score:
       total: 40
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/screenshots/laurel-2026-07-25T224622.png
 security:
@@ -466,7 +466,7 @@ security:
 slug: laurel
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Timekeeping
 - Time Tracking
 - Legal

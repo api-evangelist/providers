@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ modified: '2026-07-19'
 name: Kovzy Co.
 nav: Providers
 network: true
-overview: 'Kovzy Co. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Point of Sale, Hospitality, and Online Ordering.
+overview: 'Kovzy Co. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Point-of-Sale, Hospitality, and Online Ordering.
 
 
   Kovzy Co.''s developer surface includes signup flow, pricing, and 6 more developer resources.'
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kovzy-co/refs/heads/main/screenshots/kovzy-co-2026-07-25T224251.png
 security:
@@ -104,14 +104,14 @@ security:
 slug: kovzy-co
 tags:
 - Company
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Hospitality
 - Online Ordering
 - QR Menu
 - Website Builder
 - Food Delivery
-- SaaS
+- Software-as-a-Service
 - Georgia
 - Armenia
 website: https://kovzy.com

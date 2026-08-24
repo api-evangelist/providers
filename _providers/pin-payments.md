@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ modified: '2026-05-19'
 name: Pin Payments
 nav: Providers
 network: true
-overview: 'Pin Payments publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cards API, Charges API, Customers API, and 1 more. Tagged areas include Payments, Cards, Subscriptions, and Refunds.
+overview: 'Pin Payments publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cards API, Charges API, Customers API, and 1 more. Tagged areas include Payments, Cards, Subscription, and Refunds.
 
 
   Pin Payments'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.9
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -160,7 +160,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 36.4
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -174,9 +174,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/screenshots/pin-payments-2026-06-20T191711.png
 security:
 - kind: authentication
@@ -191,7 +191,7 @@ slug: pin-payments
 tags:
 - Payments
 - Cards
-- Subscriptions
+- Subscription
 - Refunds
 website: https://pinpayments.com/
 ---

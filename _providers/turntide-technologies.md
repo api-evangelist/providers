@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 0
@@ -259,8 +259,8 @@ image: https://turntide.com/wp-content/uploads/2024/03/Logo-color.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: turntide-technologies-mcp.yml
-  slug: turntide-technologies-mcpyml
+  name: Turntide Technologies MCP Server
+  slug: turntide-technologies-mcp-server
 modified: '2026-08-02'
 name: Turntide Technologies
 nav: Providers
@@ -277,18 +277,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 34.2
-  delta: -1.4
+  composite: 35.3
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
     contract_governance: 30.3
     contract_quality: 16.5
     developer_ergonomics: 30.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 35.6
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,8 +305,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

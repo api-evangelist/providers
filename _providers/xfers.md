@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 20
 apis:
 - description: API to manage Bank Account
@@ -208,13 +208,13 @@ image: https://docs.xfers.io/Xfers_X_Blue_Small.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: xfers-mcp.yml
-  slug: xfers-mcpyml
+  name: Xfers MCP Server
+  slug: xfers-mcp-server
 modified: '2026-07-21'
 name: Xfers
 nav: Providers
 network: true
-overview: 'Xfers publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Bank Account API, Charge API, Convenience Store Transfers API, and 17 more. Tagged areas include Payments, Fintech, Bank Transfers, Digital Wallets, and Lending.
+overview: 'Xfers publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Bank Account API, Charge API, Convenience Store Transfers API, and 17 more. Tagged areas include Payments, Fintech, Bank Transfers, Digital Wallet, and Lending.
 
 
   Xfers'' developer surface includes authentication, documentation, API reference, support, and 7 more developer resources.'
@@ -222,7 +222,7 @@ random_paper: 6
 score:
   band: thin
   composite: 28.6
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -232,7 +232,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 31.9
+  previous_composite: 28.6
   provenance:
     contracts:
       callable: 100.0
@@ -246,8 +246,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -263,7 +263,7 @@ tags:
 - Payments
 - Fintech
 - Bank Transfers
-- Digital Wallets
+- Digital Wallet
 - Lending
 - Singapore
 - Indonesia

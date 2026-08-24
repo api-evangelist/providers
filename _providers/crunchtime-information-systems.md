@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST data-integration API for Crunchtime's Inventory Management, Labor & Scheduling, and Cruise products. GET and POST operations move employees, locations, budgets, categories, products, recipes, sal
@@ -118,9 +118,9 @@ description: Crunchtime (Crunchtime Information Systems) is a Boston-based provi
 image: https://logo.clearbit.com/crunchtime.com
 layout: provider
 mcp_servers:
-- description: ''
-  name: crunchtime-information-systems-mcp.yml
-  slug: crunchtime-information-systems-mcpyml
+- description: 'Candidate MCP server mapping representative Crunchtime Inventory & Labor API operations to tools. Not published by Crunchtime; a proposed surface an integrator could stand up over the documented REST '
+  name: Crunchtime Information Systems MCP Server
+  slug: crunchtime-information-systems-mcp-server
 modified: '2026-07-18'
 name: Crunchtime Information Systems
 nav: Providers
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -147,12 +147,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 30.7
+  previous_composite: 28.8
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/screenshots/crunchtime-information-systems-2026-07-25T210822.png
 security:
@@ -179,6 +179,5 @@ tags:
 - Operations Management
 - Back Office
 - Supply Chain
-- API
 website: https://developer.crunchtime.com/
 ---

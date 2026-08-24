@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -184,13 +184,13 @@ image: https://asset.zcache.com/assets/graphics/z5/global/zazzle_white.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: zazzle-mcp.yml
-  slug: zazzle-mcpyml
+  name: Zazzle MCP Server
+  slug: zazzle-mcp-server
 modified: '2026-08-05'
 name: Zazzle
 nav: Providers
 network: true
-overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Create a Product API, Real View API, and Vendor API. Tagged areas include Company, E-Commerce, Marketplace, Print On Demand, and Manufacturing.
+overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Create a Product API, Real View API, and Vendor API. Tagged areas include Company, E-Commerce, Marketplace, Print on Demand, and Manufacturing.
 
 
   Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 24 more developer resources.'
@@ -198,7 +198,7 @@ random_paper: 0
 score:
   band: thin
   composite: 29.2
-  delta: -10.9
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 40.1
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,9 +219,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Zazzle Authentication
@@ -240,10 +240,10 @@ tags:
 - Company
 - E-Commerce
 - Marketplace
-- Print On Demand
+- Print on Demand
 - Manufacturing
 - Retail
-- Affiliate
+- Affiliates
 - Custom Products
 - Order Management
 - Shipping

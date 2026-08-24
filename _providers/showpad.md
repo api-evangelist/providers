@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Manage assets, query content with ShowQL, get content recommendations, and handle buyer engagement through shares, sharing themes, and digital shared spaces.
@@ -247,8 +247,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/showpad.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: showpad-mcp.yml
-  slug: showpad-mcpyml
+  name: Showpad MCP Server
+  slug: showpad-mcp-server
 modified: '2026-08-14'
 name: Showpad
 nav: Providers
@@ -277,7 +277,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.7
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -287,7 +287,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 71.2
+  previous_composite: 66.7
   provenance:
     conformance: first-party
     contracts:
@@ -297,8 +297,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/screenshots/showpad-2026-06-20T193845.png
 security:
@@ -328,7 +328,7 @@ tags:
 - Training
 - CRM Integration
 - Digital Sales Rooms
-- Model Context Protocol
+- MCP
 - SCIM
 website: https://developer.showpad.com/
 ---

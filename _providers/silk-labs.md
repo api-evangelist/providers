@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Silk Labs
 nav: Providers
 network: true
-overview: 'Silk Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Internet of Things, and On-Device AI.
+overview: 'Silk Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Internet of Things, and On-Device AI.
 
 
   Silk Labs'' developer surface includes documentation, CLI, and 8 more developer resources.'
@@ -99,8 +99,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 10.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -111,12 +111,12 @@ slug: silk-labs
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Internet of Things
 - On-Device AI
 - JavaScript
-- Open Source
+- Open-Source
 - SDK
-- Computer Vision
+- Computer-Vision
 website: https://silklabs.com
 ---

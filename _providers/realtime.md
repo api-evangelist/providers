@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 26
 apis:
 - description: A full-duplex communication protocol over a single TCP connection, standardized by the IETF as RFC 6455 and defined in the WHATWG WebSocket API on the client side. WebSocket is the most widely deploye
@@ -209,7 +209,7 @@ modified: '2026-05-22'
 name: Realtime
 nav: Providers
 network: true
-overview: 'Realtime publishes 26 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Realtime, WebSocket, WebRTC, Server-Sent Events, and MQTT.
+overview: 'Realtime publishes 26 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Time, WebSocket, WebRTC, Server-Sent Events, and MQTT.
 
 
   The Realtime catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -231,7 +231,7 @@ rules:
 score:
   band: emerging
   composite: 15.9
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -241,10 +241,10 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 2.6
-  previous_composite: 21.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 15.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtime/refs/heads/main/screenshots/realtime-2026-06-20T192649.png
 security:
 - kind: domain-security
@@ -253,13 +253,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: realtime
 tags:
-- Realtime
+- Real-Time
 - WebSocket
 - WebRTC
 - Server-Sent Events
 - MQTT
 - Push Notifications
-- Pub Sub
+- Pub-Sub
 - Presence
 - Signaling
 - Topic

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Ross Stores operates a sophisticated supply chain technology stack including AI-driven inventory allocation, distribution center automation, and merchandise analytics. The company is investing approxi
@@ -149,7 +149,7 @@ rules:
 score:
   band: emerging
   composite: 14.0
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -159,10 +159,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 19.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 14.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ross-stores/refs/heads/main/screenshots/ross-stores-2026-06-20T193222.png
 security:
 - kind: domain-security

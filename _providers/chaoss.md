@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Augur is a CHAOSS reference implementation that collects data from GitHub, GitLab, mailing lists, and other community sources, and exposes a REST API for querying CHAOSS-aligned metrics on repositorie
@@ -183,7 +183,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.1
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -193,15 +193,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 15.2
+  previous_composite: 12.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/screenshots/chaoss-2026-06-20T174222.png
 security:
@@ -217,7 +217,7 @@ tags:
 - Linux Foundation
 - Metrics
 - Observability
-- Open Source
+- Open-Source
 - Risk
 - Sustainability
 use_cases:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Browser SDK exposing window.blinkSDK. Provides Login with Blink (getAuthorizationCode), subscription entitlement checks (isSubscribed, getSubscription, onSubscriptionChange), single-article charging (
@@ -180,8 +180,8 @@ image: https://blink.net/resources/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: blink-ledger-systems-mcp.yml
-  slug: blink-ledger-systems-mcpyml
+  name: Blink Ledger Systems MCP Server
+  slug: blink-ledger-systems-mcp-server
 modified: '2026-07-20'
 name: Blink Ledger Systems
 nav: Providers
@@ -197,7 +197,7 @@ random_paper: 0
 score:
   band: thin
   composite: 31.2
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -207,7 +207,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 39.6
+  previous_composite: 31.2
   provenance:
     conformance: derived
     contracts:
@@ -223,9 +223,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/screenshots/blink-ledger-systems-2026-07-25T203322.png
 security:
 - kind: authentication
@@ -243,13 +243,12 @@ tags:
 - Payments
 - Identity
 - Authentication
-- OAuth
 - Publishing
 - Media
-- Subscriptions
+- Subscription
 - Donations
 - Micropayments
 - Paywall
-- Webhooks
+- Webhook
 website: https://blink.net
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Nominal Core REST API (Conjure-generated) for test data storage, ingest, streaming, compute, and asset/run/checklist management.
@@ -134,9 +134,9 @@ description: Nominal is the unified software suite for testing and operating adv
 image: https://nominal.io/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: nominal-mcp.yml
-  slug: nominal-mcpyml
+- description: Nominal's hosted documentation MCP server for AI clients (Claude Code, Cursor, etc.). Serves the Nominal docs corpus over MCP so agents can retrieve product, SDK, and API-reference guidance. This is a
+  name: Nominal MCP Server
+  slug: nominal-mcp-server
 modified: '2026-07-20'
 name: Nominal
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 15
 score:
   band: thin
   composite: 33.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -159,12 +159,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 34.7
+  previous_composite: 33.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nominal/refs/heads/main/screenshots/nominal-2026-08-07T185449.png
 security:
@@ -191,6 +191,6 @@ tags:
 - Observability
 - Industrial Data
 - Data Platform
-- SDKs
+- SDK
 website: https://www.nominal.io
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -672,7 +672,7 @@ modified: '2026-05-19'
 name: Claude
 nav: Providers
 network: true
-overview: 'Claude publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Message Batches API, Models API, and 3 more. Tagged areas include Artificial Intelligence, Chatbot, Conversational AI, Generative AI, and Large Language Models.
+overview: 'Claude publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Message Batches API, Models API, and 3 more. Tagged areas include Artificial Intelligence, Chatbots, Conversational AI, Generative AI, and Large Language Models.
 
 
   The Claude catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -712,18 +712,18 @@ rules:
   slug: claude-spectral-rules
 score:
   band: strong
-  composite: 54.4
-  delta: -7.3
+  composite: 54.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.2
     developer_ergonomics: 54.8
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 61.7
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     contracts:
@@ -731,9 +731,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/screenshots/claude-2026-06-20T174448.png
 security:
 - kind: authentication
@@ -751,11 +751,11 @@ security:
 slug: claude
 tags:
 - Artificial Intelligence
-- Chatbot
+- Chatbots
 - Conversational AI
 - Generative AI
 - Large Language Models
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 use_cases:
 - description: Build conversational interfaces with context-aware responses and tool integration.

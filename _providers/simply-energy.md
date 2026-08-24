@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -178,8 +178,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: simply-energy-mcp.yml
-  slug: simply-energy-mcpyml
+  name: Simply Energy MCP Server
+  slug: simply-energy-mcp-server
 modified: '2026-07-27'
 name: Simply Energy
 nav: Providers
@@ -201,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 52.8
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -211,7 +211,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 48.8
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -228,8 +228,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/screenshots/simply-energy-2026-08-17T125320.png
 security:

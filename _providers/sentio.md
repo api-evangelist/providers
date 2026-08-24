@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -253,8 +253,8 @@ image: https://www.sentio.xyz/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: sentio-mcp.yml
-  slug: sentio-mcpyml
+  name: Sentio MCP Server
+  slug: sentio-mcp-server
 modified: '2026-07-21'
 name: Sentio
 nav: Providers
@@ -270,7 +270,7 @@ random_paper: 7
 score:
   band: developing
   composite: 48.1
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -280,7 +280,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 54.0
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,9 +291,9 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentio/refs/heads/main/screenshots/sentio-2026-08-17T081807.png
 security:
 - kind: authentication
@@ -315,6 +315,5 @@ tags:
 - Monitoring
 - Developer Tools
 - Crypto
-- API
 website: https://docs.sentio.xyz
 ---

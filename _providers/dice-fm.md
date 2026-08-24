@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Query a partner's events through the DICE Ticket Holders GraphQL API - event name, state, start/end datetimes, currency, URL, artists, genres, ticket types, price tiers, and total ticket allocation. E
@@ -105,7 +105,7 @@ modified: '2026-07-05'
 name: DICE
 nav: Providers
 network: true
-overview: 'DICE publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ticketing, Live Music, Events, Tickets, and GraphQL.
+overview: 'DICE publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ticketing, Live Music, Event, Tickets, and GraphQL.
 
 
   DICE''s developer surface includes documentation, developer portal, signup flow, and 8 more developer resources.'
@@ -132,8 +132,8 @@ score:
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 24.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dice-fm/refs/heads/main/screenshots/dice-fm-2026-07-25T211936.png
 security:
@@ -149,7 +149,7 @@ slug: dice-fm
 tags:
 - Ticketing
 - Live Music
-- Events
+- Event
 - Tickets
 - GraphQL
 - Entertainment

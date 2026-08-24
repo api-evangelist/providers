@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Orval generates TypeScript API clients, TanStack Query/SWR hooks, Angular services, SolidStart primitives, Hono server handlers, Zod and Effect schemas, MSW mocks, and MCP servers from OpenAPI v3 or S
@@ -155,7 +155,7 @@ modified: '2026-08-06'
 name: Orval
 nav: Providers
 network: true
-overview: 'Orval publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, OpenAPI, Swagger, SDKs, and TypeScript.
+overview: 'Orval publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, OpenAPI, Swagger, SDK, and TypeScript.
 
 
   Orval''s developer surface includes documentation, API reference, getting-started guide, support, CLI, changelog, sandbox, and 19 more developer resources.'
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.3
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -181,12 +181,12 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 29.2
+  previous_composite: 30.3
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orval/refs/heads/main/screenshots/orval-2026-06-20T191211.png
 security:
@@ -203,11 +203,11 @@ tags:
 - Code Generation
 - OpenAPI
 - Swagger
-- SDKs
+- SDK
 - TypeScript
 - Developer Tools
 - CLI
-- Open Source
+- Open-Source
 - Mocking
 - Schema Validation
 website: https://orval.dev

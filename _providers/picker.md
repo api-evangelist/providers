@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 2
@@ -519,14 +519,14 @@ description: Picker (Picker Express) is a Latin American last-mile delivery orch
 image: https://www.pickerexpress.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: picker-mcp.yml
-  slug: picker-mcpyml
+- description: Candidate MCP server for the Picker delivery API. No official hosted/remote MCP server was found; this is a derived candidate tool list mapping the merchant delivery flow (quote, create, track, cancel
+  name: Picker MCP Server
+  slug: picker-mcp-server
 modified: '2026-07-20'
 name: Picker
 nav: Providers
 network: true
-overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, including accounting API, Admin API, antiFraud API, and 61 more. Tagged areas include Company, Logistics, Delivery, Last Mile, and Courier.
+overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, including accounting API, Admin API, antiFraud API, and 61 more. Tagged areas include Company, Logistics, Delivery, Last Mile, and Couriers.
 
 
   The Picker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -537,7 +537,7 @@ random_paper: 8
 score:
   band: thin
   composite: 32.1
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -547,7 +547,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 39.0
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -558,9 +558,9 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Picker Authentication
@@ -576,8 +576,8 @@ tags:
 - Logistics
 - Delivery
 - Last Mile
-- Courier
-- E-commerce
+- Couriers
+- E-Commerce
 - Shipping
 - Tracking
 - Latin America

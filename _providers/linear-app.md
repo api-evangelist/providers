@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'Single GraphQL endpoint exposing Linear''s full data model - issues, projects, initiatives, cycles, teams, users, comments, documents, customers, customer requests, and more. Auth via OAuth 2.0 Bearer '
@@ -204,7 +204,7 @@ modified: '2026-05-23'
 name: Linear
 nav: Providers
 network: true
-overview: 'Linear publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Issue Tracking, Productivity, SaaS, and GraphQL.
+overview: 'Linear publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Issue Tracking, Productivity, Software-as-a-Service, and GraphQL.
 
 
   Linear''s developer surface includes signup flow, documentation, API reference, authentication, pricing, changelog, engineering blog, and 25 more developer resources.'
@@ -220,7 +220,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -236,9 +236,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 40.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 41.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/screenshots/linear-app-2026-06-20T184548.png
 security:
@@ -259,7 +259,7 @@ tags:
 - Project Management
 - Issue Tracking
 - Productivity
-- SaaS
+- Software-as-a-Service
 - GraphQL
 - Developer Tools
 - Agents

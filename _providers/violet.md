@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,7 +113,7 @@ random_paper: 8
 score:
   band: thin
   composite: 26.2
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -123,11 +123,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.1
+  previous_composite: 26.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -150,6 +150,6 @@ tags:
 - Web3
 - Decentralized Identity
 - Sanctions Screening
-- OAuth
+- Authentication
 website: https://www.violet.co/
 ---

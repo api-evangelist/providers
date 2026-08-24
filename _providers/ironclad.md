@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -494,18 +494,18 @@ scopes:
   summary_line: 60 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.8
-  delta: -11.2
+  composite: 54.8
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
-    contract_quality: 77.1
+    contract_governance: 28.8
+    contract_quality: 70.9
     developer_ergonomics: 47.6
-    discoverability: 68.5
-    governance: 25.0
+    discoverability: 50.0
+    governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 69.0
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     contracts:
@@ -513,9 +513,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/screenshots/ironclad-2026-06-20T183610.png
 security:
 - kind: authentication
@@ -550,12 +550,12 @@ tags:
 - LegalOps
 - Enterprise
 - Workflows
-- eSignature
+- E-Signature
 - Clickwrap
-- AI
-- OAuth
+- Artificial Intelligence
+- Authentication
 - SCIM
-- Webhooks
+- Webhook
 use_cases:
 - description: Salesforce-triggered NDA, MSA, and order-form workflows that fan out for legal approval, counterparty signature, and CRM record update.
   name: Sales Contract Automation

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The Auth API from Wayflyer — 2 operation(s) for auth.
@@ -239,14 +239,14 @@ description: Wayflyer provides revenue-based financing and growth capital for e-
 image: https://avatars.githubusercontent.com/u/56260407
 layout: provider
 mcp_servers:
-- description: ''
-  name: wayflyer-mcp.yml
-  slug: wayflyer-mcpyml
+- description: Wayflyer publishes no official MCP server (none found in the docs portal, the wayflyer GitHub org, npm @wf-financing/@wayflyer scopes, or the MCP registries at probe time). This is a CANDIDATE tool li
+  name: Wayflyer MCP Server
+  slug: wayflyer-mcp-server
 modified: '2026-07-21'
 name: Wayflyer
 nav: Providers
 network: true
-overview: 'Wayflyer publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Company Details API, Company Search API, and 9 more. Tagged areas include Company, Ecommerce, Fintech, Embedded Finance, and Lending.
+overview: 'Wayflyer publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Company Details API, Company Search API, and 9 more. Tagged areas include Company, E-Commerce, Fintech, Embedded Finance, and Lending.
 
 
   Wayflyer''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 24 more developer resources.'
@@ -254,7 +254,7 @@ random_paper: 1
 score:
   band: developing
   composite: 50.8
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -264,7 +264,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 52.3
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -274,8 +274,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/screenshots/wayflyer-2026-08-17T082841.png
 security:
@@ -294,7 +294,7 @@ security:
 slug: wayflyer
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Fintech
 - Embedded Finance
 - Lending

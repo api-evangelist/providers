@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 54.2
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -216,7 +216,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 58.2
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +227,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/screenshots/sitefire-2026-08-17T081906.png
 security:
@@ -251,6 +251,6 @@ tags:
 - Artificial Intelligence
 - Content Generation
 - MCP
-- Agent
+- Agents
 website: https://sitefire.ai
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -254,9 +254,9 @@ description: Veem is a global payments network that lets businesses send, receiv
 image: https://logo.clearbit.com/veem.com
 layout: provider
 mcp_servers:
-- description: ''
-  name: veem-mcp.yml
-  slug: veem-mcpyml
+- description: No official Veem-hosted MCP server was found — the developer portal and llms.txt make no mention of MCP, and no veeminc MCP package exists on npm. This is a candidate tool surface derived one-tool-per
+  name: Veem MCP Server
+  slug: veem-mcp-server
 modified: '2026-07-21'
 name: Veem
 nav: Providers
@@ -277,7 +277,7 @@ scopes:
 score:
   band: developing
   composite: 40.3
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -287,7 +287,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 44.0
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,8 +304,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/screenshots/veem-2026-08-17T082715.png
 security:

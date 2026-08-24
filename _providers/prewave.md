@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 2
@@ -312,13 +312,13 @@ image: https://www.prewave.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: prewave-mcp.yml
-  slug: prewave-mcpyml
+  name: Prewave MCP Server
+  slug: prewave-mcp-server
 modified: '2026-07-20'
 name: Prewave
 nav: Providers
 network: true
-overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Collections - Management API, and 22 more. Tagged areas include Company, Saas, Supply Chain, Risk Intelligence, and Sustainability.
+overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Collections - Management API, and 22 more. Tagged areas include Company, Software-as-a-Service, Supply Chain, Risk Intelligence, and Sustainability.
 
 
   Prewave''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 21 more developer resources.'
@@ -326,7 +326,7 @@ random_paper: 6
 score:
   band: developing
   composite: 42.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -336,7 +336,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 44.6
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,8 +347,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/screenshots/prewave-2026-08-17T081335.png
 security:
@@ -367,7 +367,7 @@ security:
 slug: prewave
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Supply Chain
 - Risk Intelligence
 - Sustainability

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -165,13 +165,13 @@ image: https://framerusercontent.com/images/3uXQTaKpkGh6gD7qAWsAwPMhk.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: bespoke-labs-mcp.yml
-  slug: bespoke-labs-mcpyml
+  name: Bespoke Labs MCP Server
+  slug: bespoke-labs-mcp-server
 modified: '2026-07-18'
 name: Bespoke Labs
 nav: Providers
 network: true
-overview: 'Bespoke Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Minicheck API. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Synthetic Data.
+overview: 'Bespoke Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Minicheck API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Synthetic Data.
 
 
   Bespoke Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 20 more developer resources.'
@@ -179,7 +179,7 @@ random_paper: 11
 score:
   band: developing
   composite: 41.5
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -189,7 +189,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.3
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -200,8 +200,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/screenshots/bespoke-labs-2026-07-25T202750.png
 security:
@@ -217,7 +217,7 @@ slug: bespoke-labs
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Synthetic Data
 - Data Curation

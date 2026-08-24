@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -375,8 +375,8 @@ image: https://static.wixstatic.com/media/7a0600_6dd50be2bc40458f9398c57c7c238c1
 layout: provider
 mcp_servers:
 - description: ''
-  name: wincl-mcp.yml
-  slug: wincl-mcpyml
+  name: WinCL MCP Server
+  slug: wincl-mcp-server
 modified: '2026-07-21'
 name: WinCL
 nav: Providers
@@ -389,7 +389,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 25.9
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -399,7 +399,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 28.5
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -416,8 +416,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

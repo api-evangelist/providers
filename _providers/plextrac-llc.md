@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: PlexTrac's JWT-authenticated REST API (v1 and v2) for managing clients, reports, findings, assets, and content-library writeups, along with tenant/RBAC administration and outbound webhooks. The base U
@@ -103,8 +103,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plextrac-l
 layout: provider
 mcp_servers:
 - description: ''
-  name: plextrac-llc-mcp.yml
-  slug: plextrac-llc-mcpyml
+  name: PlexTrac, LLC MCP Server
+  slug: plextrac-llc-mcp-server
 modified: '2026-07-20'
 name: PlexTrac, LLC
 nav: Providers
@@ -120,7 +120,7 @@ random_paper: 9
 score:
   band: thin
   composite: 36.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -130,12 +130,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 37.2
+  previous_composite: 36.7
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

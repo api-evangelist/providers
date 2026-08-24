@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -244,9 +244,9 @@ description: FullContact is a privacy-safe identity resolution platform that hel
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fullcontact.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: fullcontact-mcp.yml
-  slug: fullcontact-mcpyml
+- description: 'FullContact publishes a first-party hosted (remote) Model Context Protocol server that wraps the person.enrich API. It is authenticated with the same FullContact API key used for the REST API — there '
+  name: FullContact MCP Server
+  slug: fullcontact-mcp-server
 modified: '2026-08-14'
 name: FullContact
 nav: Providers
@@ -270,7 +270,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.6
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -280,7 +280,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 60.2
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -291,9 +291,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/screenshots/fullcontact-2026-06-20T181608.png
 security:
 - kind: authentication

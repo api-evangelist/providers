@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ modified: '2026-04-28'
 name: KAITO
 nav: Providers
 network: true
-overview: 'KAITO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Index Management API, Persistence API, and 1 more. Tagged areas include AI, GPU, Inference, Kubernetes, and LLM.
+overview: 'KAITO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Index Management API, Persistence API, and 1 more. Tagged areas include Artificial Intelligence, GPU, Inference, Kubernetes, and LLM.
 
 
   KAITO''s developer surface includes documentation, getting-started guide, and 5 more developer resources.'
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -141,7 +141,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 27.4
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     contracts:
@@ -149,19 +149,19 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/screenshots/kaito-2026-06-20T183901.png
 slug: kaito
 tags:
-- AI
+- Artificial Intelligence
 - GPU
 - Inference
 - Kubernetes
 - LLM
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Operator
 - RAG
 website: https://kaito-project.github.io/kaito/

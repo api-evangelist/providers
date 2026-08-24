@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -492,8 +492,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nationgrap
 layout: provider
 mcp_servers:
 - description: ''
-  name: nationgraph-mcp.yml
-  slug: nationgraph-mcpyml
+  name: NationGraph
+  slug: nationgraph
 modified: '2026-08-14'
 name: NationGraph
 nav: Providers
@@ -519,7 +519,7 @@ scopes:
 score:
   band: developing
   composite: 46.7
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -529,7 +529,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 43.8
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -546,8 +546,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 74.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/screenshots/nationgraph-2026-08-07T184651.png
 security:

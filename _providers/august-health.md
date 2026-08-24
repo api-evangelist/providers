@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful v1 API for the August Health EHR platform covering organizations, facilities, rooms, census, residents, contacts, assessments, incidents & notes, medications (orders and administrations), vita
@@ -159,13 +159,13 @@ image: https://files.readme.io/1aa624066285820f9957c79e0fe44d8330186bc54681b372c
 layout: provider
 mcp_servers:
 - description: ''
-  name: august-health-mcp.yml
-  slug: august-health-mcpyml
+  name: August Health MCP Server
+  slug: august-health-mcp-server
 modified: '2026-07-18'
 name: August Health
 nav: Providers
 network: true
-overview: 'August Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, EHR, Senior Living, and Eldercare.
+overview: 'August Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, EHR, Senior Living, and Elder Care.
 
 
   The August Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.7
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -190,7 +190,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 48.8
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -201,9 +201,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/screenshots/august-health-2026-07-25T201720.png
 security:
 - kind: authentication
@@ -224,11 +224,10 @@ tags:
 - Healthcare
 - EHR
 - Senior Living
-- Eldercare
+- Elder Care
 - Electronic Health Records
 - eMAR
 - Billing
-- Webhooks
-- API
+- Webhook
 website: https://augusthealth.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -261,13 +261,13 @@ image: https://www.stubhub.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: stubhub-mcp.yml
-  slug: stubhub-mcpyml
+  name: StubHub MCP Server
+  slug: stubhub-mcp-server
 modified: '2026-07-21'
 name: StubHub
 nav: Providers
 network: true
-overview: 'StubHub publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Addressess API, Categories API, E-Tickets API, and 12 more. Tagged areas include Company, Marketplaces, Tickets, Events, and Ticketing.
+overview: 'StubHub publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Addressess API, Categories API, E-Tickets API, and 12 more. Tagged areas include Company, Marketplaces, Tickets, Event, and Ticketing.
 
 
   The StubHub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -283,7 +283,7 @@ scopes:
 score:
   band: developing
   composite: 48.6
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -293,7 +293,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 47.7
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,8 +304,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/screenshots/stubhub-2026-08-17T082143.png
 security:
@@ -322,11 +322,11 @@ tags:
 - Company
 - Marketplaces
 - Tickets
-- Events
+- Event
 - Ticketing
 - Live Events
 - Secondary Market
-- E-commerce
+- E-Commerce
 - Sports
 - Concerts
 website: https://www.stubhub.com/

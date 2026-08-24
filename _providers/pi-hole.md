@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-05-11'
 name: Pi-hole
 nav: Providers
 network: true
-overview: 'Pi-hole publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, DNS API, Groups API, and 1 more. Tagged areas include DNS, Ad Blocking, Network Security, Privacy, and Open Source.
+overview: 'Pi-hole publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, DNS API, Groups API, and 1 more. Tagged areas include DNS, Ad Blocking, Network Security, Privacy, and Open-Source.
 
 
   Pi-hole''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -136,7 +136,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 24.8
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -146,7 +146,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 25.5
+  previous_composite: 24.8
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/screenshots/pi-hole-2026-06-20T191657.png
 security:
@@ -173,7 +173,7 @@ tags:
 - Ad Blocking
 - Network Security
 - Privacy
-- Open Source
+- Open-Source
 - Self-Hosted
 website: https://pi-hole.net
 ---

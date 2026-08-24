@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -1412,8 +1412,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: autodesk-mcp.yml
-  slug: autodesk-mcpyml
+  name: Autodesk MCP Server
+  slug: autodesk-mcp-server
 modified: '2026-06-20'
 name: Autodesk
 nav: Providers
@@ -1479,18 +1479,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 59.6
-  delta: -8.4
+  composite: 60.7
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 30.3
     contract_quality: 75.3
     developer_ergonomics: 69.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 68.0
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1500,9 +1500,9 @@ score:
       marker_coverage: 0.0
       total: 48
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:
 - kind: authentication

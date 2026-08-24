@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -225,8 +225,8 @@ image: https://thelivekindlyco.com/wp-content/uploads/2021/10/cropped-lkc-favico
 layout: provider
 mcp_servers:
 - description: ''
-  name: livekindly-mcp.yml
-  slug: livekindly-mcpyml
+  name: LIVEKINDLY MCP Server
+  slug: livekindly-mcp-server
 modified: '2026-08-04'
 name: LIVEKINDLY
 nav: Providers
@@ -243,18 +243,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 22.8
-  delta: 1.6
+  composite: 23.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
     contract_quality: 17.0
     developer_ergonomics: 20.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 23.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,8 +265,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekindly/refs/heads/main/screenshots/livekindly-2026-08-07T171739.png
 security:

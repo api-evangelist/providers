@@ -16,10 +16,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-19'
+  score: 3.4
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -110,22 +110,22 @@ overview: 'GirnarSoft is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 16
 score:
   band: emerging
-  composite: 15.1
-  delta: 0.8
+  composite: 16.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 14.3
+  previous_composite: 16.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/screenshots/girnarsoft-2026-08-07T165725.png
 security:
@@ -142,7 +142,7 @@ tags:
 - Staff Augmentation
 - Quality Assurance
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Cloud
 - DevOps
 - Data Science

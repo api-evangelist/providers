@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 247
   human_in_the_loop: 6
@@ -220,7 +220,7 @@ modified: '2026-06-13'
 name: Clarifai
 nav: Providers
 network: true
-overview: 'Clarifai publishes 1 API on the [APIs.io](https://apis.io/) network: V2 API. Tagged areas include AI, Computer Vision, NLP, Image Recognition, and Object Detection.
+overview: 'Clarifai publishes 1 API on the [APIs.io](https://apis.io/) network: V2 API. Tagged areas include Artificial Intelligence, Computer-Vision, NLP, Image Recognition, and Object Detection.
 
 
   The Clarifai catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -250,7 +250,7 @@ rules:
 score:
   band: thin
   composite: 33.3
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -260,7 +260,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 41.2
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -268,9 +268,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/screenshots/clarifai-2026-06-20T174436.png
 security:
 - kind: domain-security
@@ -283,14 +283,14 @@ security:
   summary_line: disclosure policy published
 slug: clarifai
 tags:
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - NLP
 - Image Recognition
 - Object Detection
 - Text Analysis
 - Visual Search
-- Machine Learning
+- Machine-Learning
 - Custom Model Training
 - gRPC
 website: https://www.clarifai.com

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to trigger AI-driven incident investigations, poll investigation status and results, and read/update hierarchical team configuration. Authenticated with team or admin bearer tokens
@@ -155,8 +155,8 @@ image: https://incidentfox.ai/public/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: brownie-mcp.yml
-  slug: brownie-mcpyml
+  name: IncidentFox (Brownie) MCP Server
+  slug: incidentfox-brownie-mcp-server
 modified: '2026-07-18'
 name: IncidentFox (Brownie)
 nav: Providers
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.9
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -186,13 +186,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 49.9
+  previous_composite: 47.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/screenshots/brownie-2026-07-25T203958.png
 security:
@@ -223,6 +223,6 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - Automation
-- Open Source
+- Open-Source
 website: https://docs.incidentfox.ai/
 ---

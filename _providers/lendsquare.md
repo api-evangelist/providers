@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -49,12 +49,12 @@ modified: '2026-07-20'
 name: Lendsquare
 nav: Providers
 network: true
-overview: Lendsquare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Lending, Peer to Peer Lending, and Financial Services.
+overview: Lendsquare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Lending, Peer-to-Peer Lending, and Financial-Services.
 random_paper: 5
 score:
   band: minimal
   composite: 0.5
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -70,15 +70,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 4.8
+  previous_composite: 0.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendsquare/refs/heads/main/screenshots/lendsquare-2026-07-25T224908.png
 slug: lendsquare
@@ -86,8 +86,8 @@ tags:
 - Company
 - Defunct
 - Lending
-- Peer to Peer Lending
-- Financial Services
+- Peer-to-Peer Lending
+- Financial-Services
 - Fintech
 - Payments
 website: https://lendsquare.com

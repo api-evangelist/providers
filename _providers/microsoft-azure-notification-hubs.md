@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ modified: '2026-05-19'
 name: Azure Notification Hubs
 nav: Providers
 network: true
-overview: 'Azure Notification Hubs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Installations API, Notifications API, and Registrations API. Tagged areas include Cross-Platform, Messaging, Mobile, Notifications, and Push Notifications.
+overview: 'Azure Notification Hubs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Installations API, Notifications API, and Registrations API. Tagged areas include Cross-Platform, Messaging, Mobile, Notification, and Push Notifications.
 
 
   Azure Notification Hubs'' developer surface includes authentication, developer portal, pricing, documentation, signup flow, support, and 7 more developer resources.'
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.9
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -157,7 +157,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 41.9
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/screenshots/microsoft-azure-notification-hubs-2026-06-20T185428.png
 security:
@@ -183,7 +183,7 @@ tags:
 - Cross-Platform
 - Messaging
 - Mobile
-- Notifications
+- Notification
 - Push Notifications
 website: https://azure.microsoft.com/en-us/products/notification-hubs
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: DNS Coffee collects, analyzes, and archives changes to root zone files provided by various top-level domains (TLDs), offering one of the most comprehensive views of the current state of the Domain Nam
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -101,9 +101,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 10.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/screenshots/dns-coffee-2026-06-20T180101.png
 security:

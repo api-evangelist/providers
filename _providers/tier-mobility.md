@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,18 +236,18 @@ rules:
   slug: tier-mobility-rules
 score:
   band: thin
-  composite: 35.7
-  delta: -4.7
+  composite: 36.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 62.2
     developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 0.0
-  previous_composite: 40.4
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -261,8 +261,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/screenshots/tier-mobility-2026-06-20T195343.png
 security:

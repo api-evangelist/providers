@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,7 +123,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 11.2
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -133,15 +133,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 13.3
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -156,7 +156,7 @@ tags:
 - Digital Assets
 - Risk Management
 - Underwriting
-- Financial Services
+- Financial-Services
 - Blockchain
 website: https://evertas.com/
 ---

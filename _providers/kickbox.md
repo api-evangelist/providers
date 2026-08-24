@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.3
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -272,7 +272,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 68.2
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,9 +283,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/screenshots/kickbox-2026-06-20T184032.png
 security:
 - kind: authentication

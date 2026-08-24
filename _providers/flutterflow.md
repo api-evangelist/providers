@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for programmatically managing FlutterFlow projects: list projects, list and export partitioned project YAML files, validate YAML before applying, and update a project by YAML. Used to automat'
@@ -162,9 +162,9 @@ description: FlutterFlow is a visual, low-code development platform for building
 image: https://docs.flutterflow.io/img/social-card-docs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: flutterflow-mcp.yml
-  slug: flutterflow-mcpyml
+- description: Official FlutterFlow AI MCP server. Exposes FlutterFlow's Project APIs to an MCP-compatible agent (Claude Code, Gemini CLI, Codex) so it can read and modify a FlutterFlow project using real project co
+  name: FlutterFlow MCP Server
+  slug: flutterflow-mcp-server
 modified: '2026-07-19'
 name: FlutterFlow
 nav: Providers
@@ -177,7 +177,7 @@ random_paper: 17
 score:
   band: thin
   composite: 36.1
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -187,13 +187,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 41.4
+  previous_composite: 36.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flutterflow/refs/heads/main/screenshots/flutterflow-2026-07-25T214849.png
 security:
 - kind: authentication
@@ -218,7 +218,6 @@ tags:
 - Flutter
 - Mobile Development
 - Visual Development
-- API
 - CLI
 - MCP
 website: https://www.flutterflow.io/

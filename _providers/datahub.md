@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -386,7 +386,7 @@ rules:
 score:
   band: developing
   composite: 48.6
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -396,7 +396,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 47.4
-  previous_composite: 53.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -404,9 +404,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/screenshots/datahub-2026-06-20T175643.png
 security:
 - kind: authentication

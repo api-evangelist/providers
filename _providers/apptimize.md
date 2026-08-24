@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Track user events used as experiment and feature-flag goals.
@@ -128,8 +128,8 @@ image: https://apptimize.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: apptimize-mcp.yml
-  slug: apptimize-mcpyml
+  name: Apptimize MCP Server
+  slug: apptimize-mcp-server
 modified: '2026-07-18'
 name: Apptimize
 nav: Providers
@@ -142,7 +142,7 @@ random_paper: 13
 score:
   band: thin
   composite: 34.9
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -152,7 +152,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 34.5
+  previous_composite: 34.9
   provenance:
     conformance: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/screenshots/apptimize-2026-07-25T200851.png
 security:

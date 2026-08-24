@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -123,13 +123,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mollybox.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: mollybox-mcp.yml
-  slug: mollybox-mcpyml
+  name: MollyBox MCP Server
+  slug: mollybox-mcp-server
 modified: '2026-07-20'
 name: MollyBox
 nav: Providers
 network: true
-overview: 'MollyBox publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Health API, Me API, and 1 more. Tagged areas include Company, Consumer, API, Bookmarking, and Resource Capture.
+overview: 'MollyBox publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Health API, Me API, and 1 more. Tagged areas include Company, Consumer, Bookmarking, Resource Capture, and Read It Later.
 
 
   MollyBox''s developer surface includes authentication and 11 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 25.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -147,7 +147,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 25.4
+  previous_composite: 25.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -158,8 +158,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -174,7 +174,6 @@ slug: mollybox
 tags:
 - Company
 - Consumer
-- API
 - Bookmarking
 - Resource Capture
 - Read It Later

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -794,7 +794,7 @@ modified: '2026-05-19'
 name: Appmixer
 nav: Providers
 network: true
-overview: 'Appmixer publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Apps API, Authentication API, and 9 more. Tagged areas include Agentic, Automation, Embedded iPaaS, Integrations, and Low-Code.
+overview: 'Appmixer publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Apps API, Authentication API, and 9 more. Tagged areas include Agentic, Automation, Embedded iPaaS, Integration, and Low-Code.
 
 
   The Appmixer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -834,18 +834,18 @@ rules:
   slug: appmixer-spectral-rules
 score:
   band: developing
-  composite: 50.4
-  delta: -5.9
+  composite: 50.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 73.2
     developer_ergonomics: 54.8
     discoverability: 57.4
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 56.3
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -853,9 +853,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/screenshots/appmixer-2026-06-20T172329.png
 security:
 - kind: authentication
@@ -871,7 +871,7 @@ tags:
 - Agentic
 - Automation
 - Embedded iPaaS
-- Integrations
+- Integration
 - Low-Code
 - Workflows
 ---

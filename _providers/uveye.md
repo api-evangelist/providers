@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -216,13 +216,13 @@ image: https://uveye.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: uveye-mcp.yml
-  slug: uveye-mcpyml
+  name: UVeye MCP Server
+  slug: uveye-mcp-server
 modified: '2026-08-02'
 name: UVeye
 nav: Providers
 network: true
-overview: 'UVeye publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Appraisal API, Inspections API, Media API, and 2 more. Tagged areas include Automotive, Vehicle Inspection, Artificial Intelligence, Computer Vision, and Dealerships.
+overview: 'UVeye publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Appraisal API, Inspections API, Media API, and 2 more. Tagged areas include Automotive, Vehicle Inspection, Artificial Intelligence, Computer-Vision, and Dealerships.
 
 
   The UVeye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -237,7 +237,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.6
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -247,7 +247,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 61.8
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,8 +258,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/screenshots/uveye-2026-08-17T082702.png
 security:
@@ -284,7 +284,7 @@ tags:
 - Automotive
 - Vehicle Inspection
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Dealerships
 - Fleet Management
 - Auctions and Remarketing

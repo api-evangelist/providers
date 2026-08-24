@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -177,8 +177,8 @@ image: https://1worldsync.com/wp-content/uploads/2024/10/Untitled-design-49.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: 1worldsync-mcp.yml
-  slug: 1worldsync-mcpyml
+  name: 1WorldSync MCP Server
+  slug: 1worldsync-mcp-server
 modified: '2026-07-17'
 name: 1WorldSync
 nav: Providers
@@ -191,7 +191,7 @@ random_paper: 17
 score:
   band: developing
   composite: 52.4
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -201,7 +201,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 50.9
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -212,8 +212,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/screenshots/1worldsync-2026-07-25T181115.png
 security:

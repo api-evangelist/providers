@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ scopes:
 score:
   band: developing
   composite: 39.4
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -192,7 +192,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.0
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -206,8 +206,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/screenshots/formance-2026-07-25T214946.png
 security:
@@ -231,7 +231,7 @@ tags:
 - Payments
 - Orchestration
 - Money Movement
-- Open Source
+- Open-Source
 - Fintech
 website: https://www.formance.com
 ---

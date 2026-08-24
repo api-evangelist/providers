@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-25'
 name: Rabbit
 nav: Providers
 network: true
-overview: Rabbit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Hardware, Handheld, Large Action Model, and LAM.
+overview: Rabbit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Hardware, Handheld, Large Action Model, and LAM.
 plans:
 - name: Rabbit R1 Plans Pricing
   plan_count: 1
@@ -101,8 +101,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 13.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabbit-r1/refs/heads/main/screenshots/rabbit-r1-2026-06-20T192503.png
 security:
@@ -112,7 +112,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: rabbit-r1
 tags:
-- AI
+- Artificial Intelligence
 - Hardware
 - Handheld
 - Large Action Model

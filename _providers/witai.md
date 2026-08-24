@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Wit.ai HTTP API extracts structured meaning (intents, entities, traits) from text and audio, transcribes speech (speech / dictation), synthesizes speech (text-to-speech), and manages an app''s NLP '
@@ -107,13 +107,13 @@ image: https://avatars.githubusercontent.com/u/4723433?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: witai-mcp.yml
-  slug: witai-mcpyml
+  name: Wit.AI MCP Server
+  slug: witai-mcp-server
 modified: '2026-07-21'
 name: Wit.AI
 nav: Providers
 network: true
-overview: 'Wit.AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Natural Language Processing, NLP, Speech Recognition, and Speech to Text.
+overview: 'Wit.AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Natural Language Processing, NLP, Speech Recognition, and Speech-to-Text.
 
 
   Wit.AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 11 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 23.6
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -131,11 +131,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 26.0
+  previous_composite: 23.6
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -152,13 +152,13 @@ tags:
 - Natural Language Processing
 - NLP
 - Speech Recognition
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Intents
 - Entities
 - Voice
 - Conversational AI
-- Machine Learning
+- Machine-Learning
 - Meta
 website: https://wit.ai
 ---

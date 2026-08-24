@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -233,13 +233,13 @@ image: https://bookface-images.s3.amazonaws.com/small_logos/034b1bab6d92bd99439a
 layout: provider
 mcp_servers:
 - description: ''
-  name: understudy-labs-mcp.yml
-  slug: understudy-labs-mcpyml
+  name: Understudy Labs MCP Server
+  slug: understudy-labs-mcp-server
 modified: '2026-07-21'
 name: Understudy Labs
 nav: Providers
 network: true
-overview: 'Understudy Labs publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Capabilities API, Conversations API, Downloads API, and 7 more. Tagged areas include Artificial Intelligence, LLM Gateway, Machine Learning, Open Source, and Model Routing.
+overview: 'Understudy Labs publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Capabilities API, Conversations API, Downloads API, and 7 more. Tagged areas include Artificial Intelligence, LLM Gateway, Machine-Learning, Open-Source, and Model Routing.
 
 
   Understudy Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 21 more developer resources.'
@@ -247,7 +247,7 @@ random_paper: 20
 score:
   band: developing
   composite: 47.4
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -257,7 +257,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 49.0
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,8 +268,8 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/screenshots/understudy-labs-2026-08-17T082556.png
 security:
@@ -285,8 +285,8 @@ slug: understudy-labs
 tags:
 - Artificial Intelligence
 - LLM Gateway
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Model Routing
 - Evaluations
 - Fine-Tuning

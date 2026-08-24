@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -235,8 +235,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nimble.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: nimble-mcp.yml
-  slug: nimble-mcpyml
+  name: Nimble MCP Server
+  slug: nimble-mcp-server
 modified: '2026-08-13'
 name: Nimble
 nav: Providers
@@ -262,7 +262,7 @@ scopes:
 score:
   band: developing
   composite: 51.6
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -272,7 +272,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 53.3
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,8 +283,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/screenshots/nimble-2026-08-17T124228.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'RESTful API for remotely configuring and controlling a Corelight Sensor and Fleet Manager. Device-local and account-gated (no public OpenAPI); driven by the official open-source corelight-client CLI. '
@@ -133,7 +133,7 @@ random_paper: 16
 score:
   band: thin
   composite: 31.5
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -143,11 +143,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 30.2
+  previous_composite: 31.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/screenshots/corelight-2026-07-25T210426.png
 security:

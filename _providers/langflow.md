@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -407,7 +407,7 @@ modified: '2026-05-24'
 name: Langflow
 nav: Providers
 network: true
-overview: 'Langflow publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Base API, Chat API, Files API, and 12 more. Tagged areas include AI, Artificial Intelligence, Agents, Workflows, and Low-Code.
+overview: 'Langflow publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Base API, Chat API, Files API, and 12 more. Tagged areas include Artificial Intelligence, Agents, Workflows, Low-Code, and Visual Builder.
 
 
   The Langflow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -444,18 +444,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.1
-  delta: -4.3
+  composite: 37.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 61.1
     developer_ergonomics: 57.1
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 41.4
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -463,8 +463,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/screenshots/langflow-2026-06-20T184304.png
 security:
@@ -478,7 +478,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: langflow
 tags:
-- AI
 - Artificial Intelligence
 - Agents
 - Workflows
@@ -487,7 +486,7 @@ tags:
 - LangChain
 - RAG
 - MCP
-- Open Source
+- Open-Source
 - FastAPI
 website: https://www.langflow.org
 ---

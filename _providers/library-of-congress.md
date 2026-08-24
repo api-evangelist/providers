@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-05-19'
 name: Library of Congress
 nav: Providers
 network: true
-overview: 'Library of Congress publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Collections API, Committees API, and 9 more. Tagged areas include Cultural Heritage, Federal Government, Library, Legislative, and Newspapers.
+overview: 'Library of Congress publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Collections API, Committees API, and 9 more. Tagged areas include Cultural Heritage, Federal-Government, Library, Legislative, and Newspapers.
 
 
   Library of Congress'' developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -205,7 +205,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.4
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -219,8 +219,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/screenshots/library-of-congress-2026-06-20T184501.png
 security:
@@ -239,7 +239,7 @@ security:
 slug: library-of-congress
 tags:
 - Cultural Heritage
-- Federal Government
+- Federal-Government
 - Library
 - Legislative
 - Newspapers

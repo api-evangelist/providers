@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -100,7 +100,7 @@ modified: '2026-08-16'
 name: Flossy
 nav: Providers
 network: true
-overview: 'Flossy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Health Care, and Dental.
+overview: 'Flossy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Healthcare, and Dental.
 
 
   Flossy''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.6
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -126,15 +126,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.4
+  previous_composite: 13.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -146,7 +146,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Health Care
+- Healthcare
 - Dental
 - Veterinary
 - Scheduling

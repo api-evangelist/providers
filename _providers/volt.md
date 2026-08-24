@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Authenticated remote MCP server that lets AI models and agents access a user's Volt (WhatsApp) data — contacts, chats, messages, groups, and lists.
@@ -83,8 +83,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/volt.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: volt-mcp.yml
-  slug: volt-mcpyml
+  name: Volt MCP Server
+  slug: volt-mcp-server
 modified: '2026-07-21'
 name: Volt
 nav: Providers
@@ -97,7 +97,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 16.9
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -107,12 +107,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 18.2
+  previous_composite: 16.9
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -132,6 +132,6 @@ tags:
 - MCP
 - AI Agents
 - Sales
-- Communication
+- Communications
 website: https://voltchat.com
 ---

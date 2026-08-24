@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: JSON REST API for authentication, users/KYC, balances, beneficiaries, collections, collection requests, conversions, currencies, deductions, funding, internal transfers, payments, and webhook notifica
@@ -123,8 +123,8 @@ image: https://docs.wallex.asia/img/wallex-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: wallex-mcp.yml
-  slug: wallex-mcpyml
+  name: Wallex MCP Server
+  slug: wallex-mcp-server
 modified: '2026-07-21'
 name: Wallex
 nav: Providers
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.5
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -154,7 +154,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 36.1
+  previous_composite: 28.5
   provenance:
     conformance: derived
     mcp: derived
@@ -165,9 +165,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Wallex Authentication
@@ -184,7 +184,7 @@ tags:
 - Cross-Border Payments
 - Foreign Exchange
 - Fintech
-- Collections
+- Collection
 - B2B Payments
 - Embedded Finance
 - Southeast Asia

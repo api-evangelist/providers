@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -193,13 +193,13 @@ image: https://fundrise.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: fundrise-mcp.yml
-  slug: fundrise-mcpyml
+  name: Fundrise MCP Server
+  slug: fundrise-mcp-server
 modified: '2026-08-04'
 name: Fundrise
 nav: Providers
 network: true
-overview: 'Fundrise publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgments API, Authentication API, Clients API, and 6 more. Tagged areas include Company, Financial Services, Investing, Real Estate, and Private Credit.
+overview: 'Fundrise publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgments API, Authentication API, Clients API, and 6 more. Tagged areas include Company, Financial-Services, Investing, Real-Estate, and Private Credit.
 
 
   Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 17 more developer resources.'
@@ -216,7 +216,7 @@ scopes:
 score:
   band: developing
   composite: 39.3
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -226,7 +226,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 45.0
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,9 +237,9 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/screenshots/fundrise-2026-08-17T123444.png
 security:
 - kind: authentication
@@ -257,9 +257,9 @@ security:
 slug: fundrise
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investing
-- Real Estate
+- Real-Estate
 - Private Credit
 - Venture Capital
 - Alternative Assets

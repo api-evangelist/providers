@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: 'Report-pull endpoints that export AppsFlyer attribution and analytics data as CSV/JSON: raw-data installs, in-app events, re-engagements, retargeting, uninstalls, ad-revenue and protect360 reports (V1'
@@ -350,8 +350,8 @@ image: https://www.appsflyer.com/wp-content/uploads/2020/08/appsflyer-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: appsflyer-mcp.yml
-  slug: appsflyer-mcpyml
+  name: AppsFlyer MCP Server
+  slug: appsflyer-mcp-server
 modified: '2026-08-13'
 name: AppsFlyer
 nav: Providers
@@ -375,7 +375,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 67.3
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -385,7 +385,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 71.0
+  previous_composite: 67.3
   provenance:
     conformance: derived
     contracts:
@@ -395,8 +395,8 @@ score:
       total: 39
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png
 security:

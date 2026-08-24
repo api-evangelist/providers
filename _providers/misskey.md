@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 412
   human_in_the_loop: 6
@@ -734,7 +734,7 @@ rules:
 score:
   band: developing
   composite: 48.2
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -744,7 +744,7 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 60.5
-  previous_composite: 54.4
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -752,9 +752,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/screenshots/misskey-2026-06-20T185633.png
 security:
 - kind: authentication

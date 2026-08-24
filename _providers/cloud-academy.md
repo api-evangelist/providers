@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 39.5
-  scored_at: '2026-08-19'
+  score: 42.9
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -181,8 +181,8 @@ image: https://assets.platform.qa.com/hanami/static/favicon-platform/apple-touch
 layout: provider
 mcp_servers:
 - description: ''
-  name: cloud-academy-mcp.yml
-  slug: cloud-academy-mcpyml
+  name: Cloud Academy MCP Server
+  slug: cloud-academy-mcp-server
 modified: '2026-07-18'
 name: Cloud Academy
 nav: Providers
@@ -203,18 +203,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 54.6
-  delta: 3.1
+  composite: 55.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
     contract_quality: 52.8
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 51.5
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png
 security:
@@ -253,6 +253,6 @@ tags:
 - Cloud Computing
 - Skills
 - Reporting
-- eLearning
+- E-Learning
 website: https://cloudacademy.com
 ---

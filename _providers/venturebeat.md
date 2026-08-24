@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -121,7 +121,7 @@ modified: '2026-05-03'
 name: VentureBeat
 nav: Providers
 network: true
-overview: 'VentureBeat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Enterprise, Media, Technology News, and Content.
+overview: 'VentureBeat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Enterprise, Media, Technology News, and Content.
 
 
   The VentureBeat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -140,7 +140,7 @@ rules:
 score:
   band: emerging
   composite: 13.6
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -156,10 +156,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 20.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 13.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Venturebeat Domain Security
@@ -167,7 +167,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: venturebeat
 tags:
-- AI
+- Artificial Intelligence
 - Enterprise
 - Media
 - Technology News

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Standardized medical data services from DXY's Open Platform (开放平台) — newly-approved drugs, drug SKU data, drug search, disease search, and hospital/institution search — delivered as REST/JSON endpoint
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: DXY
 nav: Providers
 network: true
-overview: 'DXY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Healthcare, Medical, and Pharmaceutical.
+overview: 'DXY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Healthcare, Medical, and Pharmaceuticals.
 
 
   DXY''s developer surface includes documentation, API reference, support, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 11.4
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -94,16 +94,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 11.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxy/refs/heads/main/screenshots/dxy-2026-07-25T212552.png
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ tags:
 - Enterprise
 - Healthcare
 - Medical
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - Data
 - China

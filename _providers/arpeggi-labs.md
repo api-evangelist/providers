@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Split an audio track into vocal and instrument stems.
@@ -173,9 +173,9 @@ description: 'Arpeggi Labs is the company behind Kits AI, a studio-quality AI mu
 image: https://kits.ai/opengraph-image
 layout: provider
 mcp_servers:
-- description: ''
-  name: arpeggi-labs-mcp.yml
-  slug: arpeggi-labs-mcpyml
+- description: Candidate MCP server for the Kits AI API. No official hosted/remote MCP server was found published by Arpeggi Labs at enrichment time; this is a derived candidate tool list, one tool per OpenAPI opera
+  name: Arpeggi Labs MCP Server
+  slug: arpeggi-labs-mcp-server
 modified: '2026-07-18'
 name: Arpeggi Labs
 nav: Providers
@@ -212,8 +212,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/screenshots/arpeggi-labs-2026-07-25T201241.png
 security:
@@ -232,7 +232,7 @@ tags:
 - Audio
 - Artificial Intelligence
 - Voice
-- Machine Learning
+- Machine-Learning
 - Generative AI
 - Media
 website: https://kits.ai

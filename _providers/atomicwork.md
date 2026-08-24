@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 34.6
-  scored_at: '2026-08-19'
+  score: 38.0
+  scored_at: '2026-08-24'
 api_count: 16
 apis:
 - description: The accessManagement API from Atomicwork — 8 operation(s) for accessmanagement.
@@ -260,8 +260,8 @@ image: https://cdn.prod.website-files.com/64f08da4e7effe6dcb06d456/6a101caaa06c4
 layout: provider
 mcp_servers:
 - description: ''
-  name: server
-  slug: server
+  name: Atomicwork MCP Server
+  slug: atomicwork-mcp-server
 modified: '2026-07-18'
 name: Atomicwork
 nav: Providers
@@ -273,18 +273,18 @@ overview: 'Atomicwork publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 17
 score:
   band: developing
-  composite: 48.8
-  delta: -1.7
+  composite: 50.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 51.0
     developer_ergonomics: 54.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 50.5
+  previous_composite: 50.0
   provenance:
     conformance: first-party
     contracts:
@@ -294,8 +294,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/screenshots/atomicwork-2026-07-25T201615.png
 security:

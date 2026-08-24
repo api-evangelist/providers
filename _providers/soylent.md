@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Soylent storefront implementing the Universal Commerce Protocol over MCP: catalog search, cart, checkout, and fulfillment with a buyer-approval invariant on payme'
@@ -103,8 +103,8 @@ image: https://soylent.com/cdn/shop/files/soylent_logo-01.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: soylent-mcp.yml
-  slug: soylent-mcpyml
+  name: Soylent MCP Server
+  slug: soylent-mcp-server
 modified: '2026-07-21'
 name: Soylent
 nav: Providers
@@ -122,7 +122,7 @@ scopes:
 score:
   band: emerging
   composite: 22.3
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -132,12 +132,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.9
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -155,9 +155,9 @@ tags:
 - Nutrition
 - Food and Beverage
 - Meal Replacement
-- Ecommerce
+- E-Commerce
 - Retail
-- Direct-to-Consumer
+- Direct to Consumer
 - Agent Commerce
 - Universal Commerce Protocol
 - Shopify

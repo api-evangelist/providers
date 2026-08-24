@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for generating collections (cobros), disbursing funds (dispersiones), managing teams and administered accounts, reconciliation and webhooks. Two-step bearer-token authentication; JSON over HT
@@ -145,7 +145,7 @@ modified: '2026-07-20'
 name: Qentaz
 nav: Providers
 network: true
-overview: 'Qentaz publishes 1 API on the [APIs.io](https://apis.io/) network: Trazo API. Tagged areas include Company, Payments, Collections, Disbursements, and Reconciliation.
+overview: 'Qentaz publishes 1 API on the [APIs.io](https://apis.io/) network: Trazo API. Tagged areas include Company, Payments, Collection, Disbursements, and Reconciliation.
 
 
   The Qentaz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -156,7 +156,7 @@ random_paper: 8
 score:
   band: developing
   composite: 42.6
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -166,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 43.5
+  previous_composite: 42.6
   provenance:
     conformance: derived
   regulatory:
@@ -175,8 +175,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qentaz/refs/heads/main/screenshots/qentaz-2026-08-17T081414.png
 security:
@@ -196,12 +196,12 @@ slug: qentaz
 tags:
 - Company
 - Payments
-- Collections
+- Collection
 - Disbursements
 - Reconciliation
 - Fintech
 - Colombia
-- Webhooks
+- Webhook
 - Fraud Prevention
 - WhatsApp Payments
 website: https://www.trazo.co

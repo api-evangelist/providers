@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: MANTL
 nav: Providers
 network: true
-overview: 'MANTL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Banking, Credit Unions, and Account Opening.
+overview: 'MANTL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Banking, Credit Unions, and Account Opening.
 
 
   MANTL''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 12.2
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -96,21 +96,21 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 14.4
+  previous_composite: 12.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 10.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantl/refs/heads/main/screenshots/mantl-2026-07-25T230105.png
 slug: mantl
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Banking
 - Credit Unions
 - Account Opening

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -144,7 +144,7 @@ modified: '2026-05-19'
 name: Apache Zeppelin
 nav: Providers
 network: true
-overview: 'Apache Zeppelin publishes 1 API on the [APIs.io](https://apis.io/) network: Notebook API. Tagged areas include Data Analytics, Interactive Computing, Notebook, Visualization, and Open Source.
+overview: 'Apache Zeppelin publishes 1 API on the [APIs.io](https://apis.io/) network: Notebook API. Tagged areas include Data Analytics, Interactive Computing, Notebook, Visualization, and Open-Source.
 
 
   Apache Zeppelin''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 8 more developer resources.'
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.6
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -170,7 +170,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 31.7
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zeppelin/refs/heads/main/screenshots/apache-zeppelin-2026-06-20T172200.png
 security:
@@ -197,7 +197,7 @@ tags:
 - Interactive Computing
 - Notebook
 - Visualization
-- Open Source
+- Open-Source
 use_cases:
 - description: Exploratory data analysis with Spark SQL, Python, and R in a collaborative notebook.
   name: Interactive Data Exploration

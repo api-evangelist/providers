@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ modified: '2026-05-30'
 name: Crisp
 nav: Providers
 network: true
-overview: 'Crisp publishes 3 APIs on the [APIs.io](https://apis.io/) network: Realtime (Webhooks + RTM) v1, Conversations API, and Website API. Tagged areas include Customer Service, Live Chat, Helpdesk, Messaging, and Chatbots.
+overview: 'Crisp publishes 3 APIs on the [APIs.io](https://apis.io/) network: Realtime (Webhooks + RTM) v1, Conversations API, and Website API. Tagged areas include Customer Service, Live Chat, Help Desk, Messaging, and Chatbots.
 
 
   The Crisp catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -155,7 +155,7 @@ rules:
 score:
   band: thin
   composite: 31.4
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -165,7 +165,7 @@ score:
     discoverability: 64.8
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 35.9
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/screenshots/crisp-2026-06-20T175235.png
 security:
@@ -190,7 +190,7 @@ slug: crisp
 tags:
 - Customer Service
 - Live Chat
-- Helpdesk
+- Help Desk
 - Messaging
 - Chatbots
 website: https://crisp.chat/

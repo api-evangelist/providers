@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: PayTo's public developer surface, published by Australian Payments Plus (AP+) and NPP Australia. Rather than a self-serve API hosted by the scheme, this covers the AP+ Developer Portal (login-gated AP
@@ -96,7 +96,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 18.6
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -106,7 +106,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 20.1
+  previous_composite: 18.6
   provenance:
     conformance: derived
   regulatory:
@@ -115,8 +115,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payto/refs/heads/main/screenshots/payto-2026-08-07T191702.png
 security:

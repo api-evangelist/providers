@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: 'Seller authorization flow: a Lazada seller grants a registered Lazada Open Platform app permission to call Lazada APIs on their shop''s behalf, issuing access and refresh tokens scoped per region.'
@@ -126,7 +126,7 @@ modified: '2026-05-23'
 name: Lazada
 nav: Providers
 network: true
-overview: 'Lazada publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-commerce, Marketplace, Southeast Asia, Alibaba, and Orders.
+overview: 'Lazada publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Southeast Asia, Alibaba, and Order.
 
 
   Lazada''s developer surface includes documentation and 10 more developer resources.'
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.7
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -152,9 +152,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 19.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/screenshots/lazada-2026-06-20T184341.png
 security:
@@ -168,12 +168,12 @@ security:
   summary_line: security.txt · contact published
 slug: lazada
 tags:
-- E-commerce
+- E-Commerce
 - Marketplace
 - Southeast Asia
 - Alibaba
-- Orders
-- Products
+- Order
+- Product
 - Logistics
 - Lazada
 website: https://open.lazada.com/

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API for creating and managing CloudHSM clusters and HSM instances for dedicated hardware-based cryptographic key management.
@@ -176,8 +176,8 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-cloudhsm-mcp.yml
-  slug: amazon-cloudhsm-mcpyml
+  name: Amazon CloudHSM MCP Server
+  slug: amazon-cloudhsm-mcp-server
 modified: '2026-06-20'
 name: Amazon CloudHSM
 nav: Providers
@@ -204,7 +204,7 @@ rules:
 score:
   band: thin
   composite: 34.8
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -214,12 +214,12 @@ score:
     discoverability: 87.0
     governance: 59.1
     operational_transparency: 18.4
-  previous_composite: 32.8
+  previous_composite: 34.8
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/screenshots/amazon-cloudhsm-2026-07-25T195946.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: FREE NOW's partner and business integration API, documented through a password-gated ReadMe developer portal and served from the api.free-now.com gateway. Access is granted to approved FREE NOW for Bu
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: FREE NOW
 nav: Providers
 network: true
-overview: 'FREE NOW publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mobility, Ride Hailing, Transportation, Taxi, and Mobility as a Service.
+overview: 'FREE NOW publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mobility, Ride Hailing, Transportation, Taxi, and Mobility As A Service.
 
 
   FREE NOW''s developer surface includes documentation and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 9.1
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -86,9 +86,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 11.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/free-now/refs/heads/main/screenshots/free-now-2026-07-25T215134.png
 security:
@@ -102,7 +102,7 @@ tags:
 - Ride Hailing
 - Transportation
 - Taxi
-- Mobility as a Service
+- Mobility As A Service
 - Travel
 - Business
 - Company

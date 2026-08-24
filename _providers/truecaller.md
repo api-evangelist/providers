@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The backend half of the Truecaller OAuth SDK flow. After the mobile SDK returns an authorization code, partners exchange it at POST /v1/token (authorization_code grant with PKCE code_verifier; refresh
@@ -198,7 +198,7 @@ scopes:
 score:
   band: developing
   composite: 48.6
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -214,11 +214,11 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 48.4
+  previous_composite: 48.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/screenshots/truecaller-2026-08-17T082447.png
 security:
@@ -241,7 +241,7 @@ tags:
 - Caller ID
 - Phone Verification
 - Identity
-- OAuth
+- Authentication
 - Spam Detection
 - Communications
 - Mobile SDK

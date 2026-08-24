@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -270,9 +270,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ortto.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ortto-mcp.yml
-  slug: ortto-mcpyml
+- description: Ortto ships a first-party hosted MCP server, announced in the 1.27 release (19 December 2025) and documented in its own help-center category (help.ortto.com/c-332-ortto-mcp). It is a remote HTTP MCP e
+  name: Ortto MCP
+  slug: ortto-mcp
 modified: '2026-08-13'
 name: Ortto
 nav: Providers
@@ -296,7 +296,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 73.1
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -306,7 +306,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 89.5
-  previous_composite: 68.6
+  previous_composite: 73.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -323,8 +323,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/screenshots/ortto-2026-08-07T190955.png
 security:
@@ -353,7 +353,7 @@ tags:
 - Email
 - SMS
 - Transactional Email
-- Webhooks
+- Webhook
 - MCP
 - Push Notifications
 website: https://ortto.com/

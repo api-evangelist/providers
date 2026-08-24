@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-06-21'
 name: Hamming AI
 nav: Providers
 network: true
-overview: 'Hamming AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Experiments API, Monitoring API, and 3 more. Tagged areas include AI, Voice Agents, LLM, Testing, and Evaluation.
+overview: 'Hamming AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Experiments API, Monitoring API, and 3 more. Tagged areas include Artificial Intelligence, Voice Agents, LLM, Testing, and Evaluation.
 
 
   Hamming AI''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.6
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.2
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/screenshots/hamming-ai-2026-07-25T220600.png
 security:
@@ -186,7 +186,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: hamming-ai
 tags:
-- AI
+- Artificial Intelligence
 - Voice Agents
 - LLM
 - Testing

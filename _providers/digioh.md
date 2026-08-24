@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Client-side browser API exposed by the Digioh widget runtime once the Digioh JavaScript tag is installed on a site. Documented calls include DIGIOH_API.LIGHTBOX.loadLightbox(guid) to manually trigger '
@@ -159,7 +159,7 @@ modified: '2026-08-12'
 name: Digioh
 nav: Providers
 network: true
-overview: 'Digioh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Ecommerce, Personalization, and Zero-Party Data.
+overview: 'Digioh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, E-Commerce, Personalization, and Zero-Party Data.
 
 
   The Digioh catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.7
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -188,11 +188,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 55.9
+  previous_composite: 55.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/screenshots/digioh-2026-08-17T080859.png
 security:
@@ -208,7 +208,7 @@ slug: digioh
 tags:
 - Company
 - Marketing
-- Ecommerce
+- E-Commerce
 - Personalization
 - Zero-Party Data
 - Forms

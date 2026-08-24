@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -328,8 +328,8 @@ image: https://www.duvo.ai/logo/duvo-logo-icon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: duvoai-mcp.yml
-  slug: duvoai-mcpyml
+  name: Duvo MCP
+  slug: duvo-mcp
 modified: '2026-07-18'
 name: duvo.ai
 nav: Providers
@@ -350,7 +350,7 @@ scopes:
 score:
   band: developing
   composite: 49.5
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -360,7 +360,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 50.1
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -371,8 +371,8 @@ score:
       total: 26
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvoai/refs/heads/main/screenshots/duvoai-2026-07-25T212701.png
 security:
@@ -394,6 +394,6 @@ tags:
 - MCP
 - Enterprise Operations
 - SAP Migration
-- Workflow
+- Workflows
 website: https://www.duvo.ai
 ---

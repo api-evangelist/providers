@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-07-03'
 name: Breeze ChMS
 nav: Providers
 network: true
-overview: 'Breeze ChMS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Attendance API, Events API, and 7 more. Tagged areas include Church Management, ChMS, Nonprofit, Giving, and Membership.
+overview: 'Breeze ChMS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Attendance API, Events API, and 7 more. Tagged areas include Church Management, ChMS, Non-Profit, Giving, and Membership.
 
 
   Breeze ChMS''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -187,7 +187,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.4
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/screenshots/breeze-chms-2026-07-25T203746.png
 security:
@@ -212,10 +212,10 @@ slug: breeze-chms
 tags:
 - Church Management
 - ChMS
-- Nonprofit
+- Non-Profit
 - Giving
 - Membership
-- Events
+- Event
 - Faith
 website: https://www.breezechms.com
 ---

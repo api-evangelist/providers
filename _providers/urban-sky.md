@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Real-time balloon telemetry feed delivered over WebSocket via the Urban Sky SDK (JavaScript and Python, distributed by CDN loader from sdk.atmosys.com), with balloon and unassigned-device location upd
@@ -152,7 +152,7 @@ random_paper: 0
 score:
   band: thin
   composite: 34.4
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -162,11 +162,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 38.9
+  previous_composite: 34.4
   provenance:
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

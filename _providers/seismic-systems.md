@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,9 +140,9 @@ description: Seismic Systems Inc. is a fintech company building a privacy-enable
 image: https://github.com/SeismicSystems.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: seismic-systems-mcp.yml
-  slug: seismic-systems-mcpyml
+- description: No official hosted/remote MCP server was found for Seismic (the docs publish Claude Code workflow skills and CLAUDE.md templates instead — see skills/_index.yml). This is a CANDIDATE tool list derived
+  name: Seismic Systems MCP Server
+  slug: seismic-systems-mcp-server
 modified: '2026-07-21'
 name: Seismic Systems
 nav: Providers
@@ -155,7 +155,7 @@ random_paper: 11
 score:
   band: developing
   composite: 41.2
-  delta: 8.3
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -165,7 +165,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 32.9
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -176,9 +176,9 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Seismic Systems Authentication

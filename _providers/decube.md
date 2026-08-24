@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Decube Public API (BETA, v1) exposes a Data API (assets, glossary, lineage, monitors, ACL, reports, recon, custom attributes, virtual sources) and a Control API (users) for automating data catalog
@@ -159,8 +159,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/decube.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: decube-mcp.yml
-  slug: decube-mcpyml
+  name: Decube MCP Server
+  slug: decube-mcp-server
 modified: '2026-07-18'
 name: Decube
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 7
 score:
   band: developing
   composite: 50.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -186,12 +186,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 51.7
+  previous_composite: 50.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decube/refs/heads/main/screenshots/decube-2026-07-25T211531.png
 security:
@@ -222,6 +222,6 @@ tags:
 - Metadata Management
 - Data Trust
 - Data Products
-- Model Context Protocol
+- MCP
 website: https://decube.io
 ---

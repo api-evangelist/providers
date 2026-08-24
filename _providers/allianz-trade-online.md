@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -398,9 +398,9 @@ jsonld:
   slug: allianz-trade-policy-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: allianz-trade-online-mcp.yml
-  slug: allianz-trade-online-mcpyml
+- description: Candidate MCP surface derived from the Allianz Trade Trade Credit Insurance API operations. Not published by the provider.
+  name: Allianz Trade MCP Server
+  slug: allianz-trade-mcp-server
 modified: '2026-06-20'
 name: Allianz Trade
 nav: Providers
@@ -442,18 +442,18 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: thin
-  composite: 35.4
-  delta: -3.2
+  composite: 35.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 28.1
     developer_ergonomics: 47.6
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 15.8
-  previous_composite: 38.6
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -469,8 +469,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/screenshots/allianz-trade-online-2026-07-25T195702.png
 security:

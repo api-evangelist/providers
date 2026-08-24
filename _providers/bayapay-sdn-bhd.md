@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 9.3
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -94,7 +94,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.0
+  previous_composite: 9.3
   provenance:
     mcp: first-party
   regulatory:
@@ -103,8 +103,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bayapay-sdn-bhd/refs/heads/main/screenshots/bayapay-sdn-bhd-2026-07-25T202442.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public v0.1 API for browsing MCP servers, server versions, and ecosystem metadata in the PulseMCP Registry. Implements the Generic MCP Registry API specification with PulseMCP enrichments (popularity,
@@ -165,14 +165,14 @@ description: PulseMCP is a community platform and directory dedicated to the Mod
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pulsemcp.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: pulsemcp-mcp.yml
-  slug: pulsemcp-mcpyml
+- description: 'PulseMCP authors and maintains 32 MCP servers — 4 "productionized" under the @pulsemcp/ npm scope and 28 "experimental" under unscoped npm names. EVERY ONE OF THEM IS A LOCAL STDIO SERVER distributed '
+  name: PulseMCP MCP Server
+  slug: pulsemcp-mcp-server
 modified: '2026-08-13'
 name: PulseMCP
 nav: Providers
 network: true
-overview: 'PulseMCP publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, Model Context Protocol, AI Agents, Agentic Engineering, and Directory.
+overview: 'PulseMCP publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, AI Agents, Agentic Engineering, Directory, and Registry.
 
 
   PulseMCP''s developer surface includes CLI, changelog, engineering blog, documentation, support, GitHub presence, and 25 more developer resources.'
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.5
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -198,13 +198,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 28.8
+  previous_composite: 26.5
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/screenshots/pulsemcp-2026-06-20T192300.png
 security:
@@ -219,7 +219,6 @@ security:
 slug: pulsemcp
 tags:
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agentic Engineering
 - Directory

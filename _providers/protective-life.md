@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-04-28'
 name: Protective Life
 nav: Providers
 network: true
-overview: Protective Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Asset Protection, Financial Services, Insurance, and Life Insurance.
+overview: Protective Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Asset Protection, Financial-Services, Insurance, and Life Insurance.
 press:
 - date: '2026-05-25'
   title: Protective Life Corp. Ratings Affirmed On Announc
@@ -81,7 +81,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 2.3
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -91,15 +91,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.6
+  previous_composite: 2.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protective-life/refs/heads/main/screenshots/protective-life-2026-06-20T192218.png
 security:
@@ -111,7 +111,7 @@ slug: protective-life
 tags:
 - Annuities
 - Asset Protection
-- Financial Services
+- Financial-Services
 - Insurance
 - Life Insurance
 - Protective Life

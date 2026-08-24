@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Hostfully Property Management Platform REST API v3.x covering properties (single and multi-unit), leads (inquiries, booking requests, bookings, group bookings, holds, cancellations, rebooking), orders
@@ -185,7 +185,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 18.9
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -195,9 +195,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/screenshots/hostfully-2026-06-20T182842.png
 security:
@@ -214,13 +214,13 @@ tags:
 - Hospitality
 - Channel Manager
 - Direct Booking
-- Real Estate
+- Real-Estate
 - Travel
 - Booking
 - Reservations
 - Guest Communication
-- Webhooks
+- Webhook
 - GraphQL
-- OAuth 2.0
+- Authentication
 website: https://www.hostfully.com
 ---

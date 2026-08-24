@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The Agents API from Unitrends — 1 operation(s) for agents.
@@ -206,8 +206,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unitrends.
 layout: provider
 mcp_servers:
 - description: ''
-  name: unitrends-mcp.yml
-  slug: unitrends-mcpyml
+  name: Unitrends MCP Server
+  slug: unitrends-mcp-server
 modified: '2026-07-21'
 name: Unitrends
 nav: Providers
@@ -225,7 +225,7 @@ scopes:
 score:
   band: developing
   composite: 39.8
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 41.3
+  previous_composite: 39.8
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +245,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Device Faults API from Moxion Power Co — 1 operation(s) for device faults.
@@ -184,8 +184,8 @@ image: https://files.readme.io/6ee0605-small-Moxion_Icon_Logo_PNG.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: moxion-power-co-mcp.yml
-  slug: moxion-power-co-mcpyml
+  name: Moxion Power Co MCP Server
+  slug: moxion-power-co-mcp-server
 modified: '2026-08-08'
 name: Moxion Power Co
 nav: Providers
@@ -198,7 +198,7 @@ random_paper: 11
 score:
   band: thin
   composite: 37.5
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 45.5
     operational_transparency: 5.3
-  previous_composite: 38.2
+  previous_composite: 37.5
   provenance:
     conformance: first-party
     contracts:
@@ -224,8 +224,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
 security:

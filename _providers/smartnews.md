@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -288,8 +288,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartnews.
 layout: provider
 mcp_servers:
 - description: ''
-  name: smartnews-mcp.yml
-  slug: smartnews-mcpyml
+  name: SmartNews MCP Server
+  slug: smartnews-mcp-server
 modified: '2026-08-13'
 name: SmartNews
 nav: Providers
@@ -310,7 +310,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.7
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -320,7 +320,7 @@ score:
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 52.6
-  previous_composite: 53.8
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,8 +331,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/screenshots/smartnews-2026-08-17T081937.png
 security:

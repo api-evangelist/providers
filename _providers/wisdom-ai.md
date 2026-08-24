@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Single GraphQL endpoint for programmatic access to WisdomAI domains, tables, users, dashboards, and analytics data. Supports queries, mutations, and real-time WebSocket subscriptions. Tenant-scoped: r'
@@ -159,13 +159,13 @@ image: https://framerusercontent.com/assets/43nPV2DraEOsNMFDaMIdigVzUU.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: wisdom-ai-mcp.yml
-  slug: wisdom-ai-mcpyml
+  name: Wisdom AI MCP Server
+  slug: wisdom-ai-mcp-server
 modified: '2026-07-21'
 name: Wisdom AI
 nav: Providers
 network: true
-overview: 'Wisdom AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Analytics, Business Intelligence, and GraphQL.
+overview: 'Wisdom AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Analytics, Business Intelligence, and GraphQL.
 
 
   Wisdom AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
@@ -173,7 +173,7 @@ random_paper: 3
 score:
   band: thin
   composite: 33.6
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -183,13 +183,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 37.0
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -211,7 +211,7 @@ security:
 slug: wisdom-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Analytics
 - Business Intelligence
 - GraphQL

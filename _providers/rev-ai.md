@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Batch transcription API for pre-recorded audio files supporting uploads up to 2 GB (multipart) or 5 TB (source URL), with results typically available within 15 minutes.
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -157,9 +157,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 31.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 30.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/screenshots/rev-ai-2026-06-20T193043.png
 security:

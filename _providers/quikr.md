@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The App API from Quikr — 1 operation(s) for app.
@@ -96,7 +96,7 @@ modified: '2026-07-20'
 name: Quikr
 nav: Providers
 network: true
-overview: 'Quikr publishes 3 APIs on the [APIs.io](https://apis.io/) network: App API, Platform API, and Public API. Tagged areas include Company, Classifieds, Marketplace, Real Estate, and Automotive.
+overview: 'Quikr publishes 3 APIs on the [APIs.io](https://apis.io/) network: App API, Platform API, and Public API. Tagged areas include Company, Classifieds, Marketplace, Real-Estate, and Automotive.
 
 
   Quikr''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 10
 score:
   band: thin
   composite: 26.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -114,15 +114,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 27.2
+  previous_composite: 26.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -138,10 +138,10 @@ tags:
 - Company
 - Classifieds
 - Marketplace
-- Real Estate
+- Real-Estate
 - Automotive
-- Jobs
-- Ecommerce
+- Job
+- E-Commerce
 - India
 - Developer Platform
 website: https://quikr.com

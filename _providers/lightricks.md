@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -229,8 +229,8 @@ image: https://avatars.githubusercontent.com/u/3170348?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: lightricks-mcp.yml
-  slug: lightricks-mcpyml
+  name: Lightricks MCP Server
+  slug: lightricks-mcp-server
 modified: '2026-07-19'
 name: Lightricks
 nav: Providers
@@ -247,7 +247,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.0
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -257,7 +257,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 59.5
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +268,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/screenshots/lightricks-2026-07-25T225127.png
 security:
@@ -294,7 +294,7 @@ tags:
 - Video
 - Video Generation
 - Media
-- Machine Learning
+- Machine-Learning
 - Creative Tools
 website: https://www.lightricks.com/
 ---

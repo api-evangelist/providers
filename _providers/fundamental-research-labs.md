@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -215,13 +215,13 @@ image: https://shortcut.ai/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fundamental-research-labs-mcp.yml
-  slug: fundamental-research-labs-mcpyml
+  name: Fundamental Research Labs MCP Server
+  slug: fundamental-research-labs-mcp-server
 modified: '2026-07-19'
 name: Fundamental Research Labs
 nav: Providers
 network: true
-overview: 'Fundamental Research Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Spreadsheets API, and Usage API. Tagged areas include Company, Ai, Artificial Intelligence, Spreadsheets, and Excel.
+overview: 'Fundamental Research Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Spreadsheets API, and Usage API. Tagged areas include Company, Artificial Intelligence, Spreadsheets, Excel, and Financial Modeling.
 
 
   The Fundamental Research Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -240,7 +240,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.4
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -250,7 +250,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 62.7
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,8 +261,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:
@@ -277,7 +277,6 @@ security:
 slug: fundamental-research-labs
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Spreadsheets
 - Excel

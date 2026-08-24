@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,7 +105,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 22.4
-  delta: 3.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -115,7 +115,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 19.1
+  previous_composite: 22.4
   provenance:
     conformance: first-party
   regulatory:
@@ -124,8 +124,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 44.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kodable/refs/heads/main/screenshots/kodable-2026-07-25T224040.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: ModusToolbox is Infineon's modern embedded development ecosystem and the successor to Cypress' PSoC Creator. It is a collection of GUI and non-GUI tools, libraries, configurators, board support packag
@@ -235,21 +235,21 @@ rules:
   slug: cypress-semiconductor-rules
 score:
   band: thin
-  composite: 27.9
-  delta: -9.1
+  composite: 28.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 15.5
     developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 37.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 28.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/screenshots/cypress-semiconductor-2026-06-20T175414.png
 security:
 - kind: domain-security
@@ -272,8 +272,8 @@ tags:
 - Microcontrollers
 - NOR Flash
 - PSoC
-- Semiconductor
-- WiFi
+- Semiconductors
+- Wi-Fi
 use_cases:
 - description: Building Wi-Fi and Bluetooth-connected IoT endpoints on PSoC 6 + AIROC silicon using ModusToolbox middleware.
   name: Connected IoT Devices

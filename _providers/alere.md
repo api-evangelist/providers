@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The RALS (Remote Automated Laboratory Systems) platform provides point-of-care device management and data integration capabilities. RALS connects point-of-care testing devices to laboratory informatio
@@ -71,12 +71,12 @@ modified: '2026-06-20'
 name: alere
 nav: Providers
 network: true
-overview: alere publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Diagnostics, Point Of Care, Healthcare, Laboratory, and Medical Devices.
+overview: alere publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Diagnostics, Point of Care, Healthcare, Laboratory, and Medical Devices.
 random_paper: 17
 score:
   band: minimal
   composite: 6.8
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -86,7 +86,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 8.4
+  previous_composite: 6.8
   provenance:
     conformance: derived
   regulatory:
@@ -95,8 +95,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alere/refs/heads/main/screenshots/alere-2026-07-25T195556.png
 security:
@@ -107,7 +107,7 @@ security:
 slug: alere
 tags:
 - Diagnostics
-- Point Of Care
+- Point of Care
 - Healthcare
 - Laboratory
 - Medical Devices

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-04-28'
 name: Dick's Sporting Goods
 nav: Providers
 network: true
-overview: Dick's Sporting Goods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Sporting Goods, Fortune 500, and eCommerce.
+overview: Dick's Sporting Goods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Sporting Goods, Fortune 500, and E-Commerce.
 press:
 - date: '2026-05-25'
   title: DICK'S Sporting Goods Partners with Adobe to Transform ...
@@ -77,7 +77,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 4.4
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -87,9 +87,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 5.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 4.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dicks-sporting-goods/refs/heads/main/screenshots/dicks-sporting-goods-2026-06-20T180011.png
 security:
@@ -102,6 +102,6 @@ tags:
 - Retail
 - Sporting Goods
 - Fortune 500
-- eCommerce
+- E-Commerce
 website: https://www.dickssportinggoods.com
 ---

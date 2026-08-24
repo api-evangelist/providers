@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful bank-aggregation API for accessing consumer banking data — accounts, balances, and categorized transaction history — plus customer, connection token, and login lifecycle management, with webho
@@ -103,13 +103,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finsify.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: finsify-mcp.yml
-  slug: finsify-mcpyml
+  name: Finsify MCP Server
+  slug: finsify-mcp-server
 modified: '2026-07-19'
 name: Finsify
 nav: Providers
 network: true
-overview: 'Finsify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Open Banking, Bank Aggregation, and Financial Data.
+overview: 'Finsify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Open Banking, Bank Aggregation, and Financial Data.
 
 
   The Finsify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -120,7 +120,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 25.1
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -130,7 +130,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.9
+  previous_composite: 25.1
   provenance:
     mcp: derived
   regulatory:
@@ -139,8 +139,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finsify/refs/heads/main/screenshots/finsify-2026-07-25T214546.png
 security:
@@ -155,11 +155,11 @@ security:
 slug: finsify
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Open Banking
 - Bank Aggregation
 - Financial Data
-- Transactions
+- Transaction
 - Fintech
 - Southeast Asia
 website: https://hub.finsify.com

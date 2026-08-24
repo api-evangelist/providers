@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'REST API for importing and querying event data used to train prediction engines. Authenticated with a per-app access key passed as the accessKey query parameter; JSON request/response with .json path '
@@ -96,7 +96,7 @@ modified: '2026-07-20'
 name: PredictionIO
 nav: Providers
 network: true
-overview: 'PredictionIO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine Learning, Artificial Intelligence, Predictive Analytics, and Recommendation Engine.
+overview: 'PredictionIO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine-Learning, Artificial Intelligence, Predictive Analytics, and Recommendation Engine.
 
 
   PredictionIO''s developer surface includes documentation, API reference, getting-started guide, authentication, and 8 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 16.8
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -114,9 +114,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 16.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -126,11 +126,11 @@ security:
 slug: predictionio
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Predictive Analytics
 - Recommendation Engine
-- Open Source
+- Open-Source
 - Apache
 - Event Server
 - Retired

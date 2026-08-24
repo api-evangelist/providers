@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: The 11labs API from KugelAudio — 6 operation(s) for 11labs.
@@ -245,13 +245,13 @@ image: https://www.kugelaudio.com/icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kugelaudio-mcp.yml
-  slug: kugelaudio-mcpyml
+  name: KugelAudio MCP Server
+  slug: kugelaudio-mcp-server
 modified: '2026-07-19'
 name: KugelAudio
 nav: Providers
 network: true
-overview: 'KugelAudio publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 11labs API, Audio API, billing API, and 11 more. Tagged areas include Voice, Text to Speech, Speech Synthesis, Voice AI, and Voice Cloning.
+overview: 'KugelAudio publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 11labs API, Audio API, billing API, and 11 more. Tagged areas include Voice, Text-to-Speech, Speech Synthesis, Voice AI, and Voice Cloning.
 
 
   The KugelAudio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -262,7 +262,7 @@ random_paper: 16
 score:
   band: developing
   composite: 51.1
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -272,7 +272,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 50.3
+  previous_composite: 51.1
   provenance:
     conformance: derived
     contracts:
@@ -282,8 +282,8 @@ score:
       total: 14
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/screenshots/kugelaudio-2026-07-25T224326.png
 security:
@@ -298,15 +298,15 @@ security:
 slug: kugelaudio
 tags:
 - Voice
-- Text to Speech
+- Text-to-Speech
 - Speech Synthesis
 - Voice AI
 - Voice Cloning
 - Audio
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Streaming
-- Real Time
+- Real-Time
 - Conversational AI
 - Europe
 - Data Sovereignty

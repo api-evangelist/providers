@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -116,8 +116,8 @@ image: https://static.wixstatic.com/media/953c5a_7e5f56c496714d66967a49d669bbef2
 layout: provider
 mcp_servers:
 - description: ''
-  name: seurat-mcp.yml
-  slug: seurat-mcpyml
+  name: Seurat Technologies MCP Server
+  slug: seurat-technologies-mcp-server
 modified: '2026-08-05'
 name: Seurat Technologies
 nav: Providers
@@ -130,7 +130,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 10.4
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -140,11 +140,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.1
+  previous_composite: 10.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

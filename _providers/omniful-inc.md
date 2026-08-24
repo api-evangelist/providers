@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 34
 apis:
 - description: The Background Jobs API from Omniful, Inc. — 1 operation(s) for background jobs.
@@ -336,8 +336,8 @@ image: https://www.omniful.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: omniful-inc-mcp.yml
-  slug: omniful-inc-mcpyml
+  name: Omniful, Inc. MCP Server
+  slug: omniful-inc-mcp-server
 modified: '2026-07-20'
 name: Omniful, Inc.
 nav: Providers
@@ -353,7 +353,7 @@ random_paper: 8
 score:
   band: developing
   composite: 40.6
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -363,7 +363,7 @@ score:
     discoverability: 81.5
     governance: 12.1
     operational_transparency: 18.4
-  previous_composite: 46.2
+  previous_composite: 40.6
   provenance:
     contracts:
       callable: 100.0
@@ -371,9 +371,9 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png
 security:
 - kind: authentication
@@ -394,7 +394,7 @@ tags:
 - Transportation Management
 - Inventory
 - Returns
-- E-commerce
+- E-Commerce
 - Logistics
 website: https://www.omniful.ai
 ---

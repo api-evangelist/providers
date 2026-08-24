@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Swan''s Partner API is a GraphQL API for embedding banking: accounts and account holders, memberships, cards, SEPA credit transfers and direct debits, standing orders, merchant payments, onboarding, an'
@@ -178,9 +178,9 @@ description: Swan is a European banking-as-a-service (BaaS) and embedded-finance
 image: https://avatars.githubusercontent.com/u/47886602?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: swan-mcp.yml
-  slug: swan-mcpyml
+- description: 'Swan does not (as of this pass) publish a hosted, remote MCP server for its Partner API. It does maintain an open-source library, swan-io/mcp-graphql-tools, for building MCP tools over a GraphQL API. '
+  name: Swan MCP Server
+  slug: swan-mcp-server
 modified: '2026-07-21'
 name: Swan
 nav: Providers
@@ -201,7 +201,7 @@ scopes:
 score:
   band: strong
   composite: 56.1
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -211,7 +211,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 56.6
+  previous_composite: 56.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -221,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swan/refs/heads/main/screenshots/swan-2026-08-17T082209.png
 security:
@@ -245,6 +245,6 @@ tags:
 - SEPA
 - GraphQL
 - Europe
-- Accounts
+- Account
 website: https://docs.swan.io/
 ---

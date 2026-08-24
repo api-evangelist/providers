@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,9 +167,9 @@ examples:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chargy.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: chargy-mcp.yml
-  slug: chargy-mcpyml
+- description: char.gy operates NO Model Context Protocol server. mcp.char.gy does not resolve, https://char.gy/mcp returns 404, and a search of the public MCP registry (registry.modelcontextprotocol.io) for "char.g
+  name: char.gy MCP Server
+  slug: chargy-mcp-server
 modified: '2026-07-27'
 name: char.gy
 nav: Providers
@@ -182,7 +182,7 @@ random_paper: 8
 score:
   band: developing
   composite: 47.9
-  delta: 6.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -192,7 +192,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 41.1
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -209,9 +209,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 58.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/screenshots/chargy-2026-08-07T163259.png
 security:
 - kind: authentication

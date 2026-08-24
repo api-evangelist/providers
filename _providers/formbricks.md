@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ modified: '2026-06-20'
 name: Formbricks
 nav: Providers
 network: true
-overview: 'Formbricks publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Action Classes API, Client API, Contacts API, and 4 more. Tagged areas include Surveys, Experience Management, Feedback, Forms, and Open Source.
+overview: 'Formbricks publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Action Classes API, Client API, Contacts API, and 4 more. Tagged areas include Surveys, Experience Management, Feedback, Forms, and Open-Source.
 
 
   Formbricks'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -173,7 +173,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.5
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/screenshots/formbricks-2026-06-20T181436.png
 security:
@@ -200,6 +200,6 @@ tags:
 - Experience Management
 - Feedback
 - Forms
-- Open Source
+- Open-Source
 website: https://www.formbricks.com
 ---

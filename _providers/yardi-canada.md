@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,13 +199,13 @@ image: https://www.yardi.com/wp-content/themes/cmw-standard-v2-theme/images/icon
 layout: provider
 mcp_servers:
 - description: ''
-  name: yardi-canada-mcp.yml
-  slug: yardi-canada-mcpyml
+  name: Yardi Virtuoso
+  slug: yardi-virtuoso
 modified: '2026-07-26'
 name: Yardi Canada
 nav: Providers
 network: true
-overview: 'Yardi Canada publishes 1 API on the [APIs.io](https://apis.io/) network: Yardi Systems Status API. Tagged areas include Real Estate, Canada, Property Management, Rentals, and Commercial Real Estate.
+overview: 'Yardi Canada publishes 1 API on the [APIs.io](https://apis.io/) network: Yardi Systems Status API. Tagged areas include Real-Estate, Canada, Property Management, Rentals, and Commercial Real Estate.
 
 
   Yardi Canada''s developer surface includes documentation, authentication, changelog, support, legal docs, engineering blog, product news, and 29 more developer resources.'
@@ -218,7 +218,7 @@ scopes:
 score:
   band: strong
   composite: 62.3
-  delta: 13.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -228,7 +228,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 49.1
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -245,9 +245,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/screenshots/yardi-canada-2026-08-17T083014.png
 security:
 - kind: authentication
@@ -264,7 +264,7 @@ security:
   summary_line: SOC 2 (annual), SOC 1 (biannual), SSAE 18, PCI, HIPAA, Sarbanes-Oxley, CSA STAR Level 2, FIPS 140-2 (key management)
 slug: yardi-canada
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Management
 - Rentals
@@ -277,6 +277,6 @@ tags:
 - Tenancy
 - Payments
 - MCP
-- AI
+- Artificial Intelligence
 website: https://www.yardibreeze.ca/
 ---

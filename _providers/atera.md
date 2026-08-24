@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Atera's REST API. Twelve data domains — Agents, Alerts, Billing, Contacts, Contracts, Customers, CustomValues, Departments, Devices, KnowledgeBase, Rates and Tickets — reachable over HTTPS only at htt
@@ -148,7 +148,7 @@ modified: '2026-08-06'
 name: Atera
 nav: Providers
 network: true
-overview: 'Atera publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IT Management, RMM, PSA, Helpdesk, and Ticketing.
+overview: 'Atera publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IT Management, RMM, PSA, Help Desk, and Ticketing.
 
 
   The Atera catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -159,7 +159,7 @@ random_paper: 0
 score:
   band: developing
   composite: 44.9
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -169,11 +169,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 49.7
+  previous_composite: 44.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/screenshots/atera-2026-08-07T161850.png
 security:
@@ -194,7 +194,7 @@ tags:
 - IT Management
 - RMM
 - PSA
-- Helpdesk
+- Help Desk
 - Ticketing
 - Patch Management
 - Remote Monitoring
@@ -204,7 +204,7 @@ tags:
 - Alerts
 - Devices
 - Billing
-- Webhooks
-- AI
+- Webhook
+- Artificial Intelligence
 website: https://www.atera.com/
 ---

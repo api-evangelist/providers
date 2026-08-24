@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Appwrite GraphQL API provides a unified GraphQL endpoint at /v1/graphql that exposes all Appwrite platform resources including databases, users, storage buckets, and cloud functions. It supports s
@@ -88,7 +88,7 @@ modified: 2026-06-14
 name: Appwrite GraphQL
 nav: Providers
 network: true
-overview: 'Appwrite GraphQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Backend as a Service, BaaS, Database, and Authentication.
+overview: 'Appwrite GraphQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Backend-as-a-Service, Database, Authentication, and Storage.
 
 
   Appwrite GraphQL''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 23.6
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -112,9 +112,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 24.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appwrite-graphql/refs/heads/main/screenshots/appwrite-graphql-2026-06-20T172339.png
 security:
@@ -125,11 +125,10 @@ security:
 slug: appwrite-graphql
 tags:
 - GraphQL
-- Backend as a Service
-- BaaS
+- Backend-as-a-Service
 - Database
 - Authentication
 - Storage
-- Open Source
+- Open-Source
 website: https://appwrite.io
 ---

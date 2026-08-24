@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -277,7 +277,7 @@ rules:
 score:
   band: developing
   composite: 43.6
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -287,7 +287,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 48.9
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -295,9 +295,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom/refs/heads/main/screenshots/axiom-2026-06-20T172818.png
 security:
 - kind: domain-security

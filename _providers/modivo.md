@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The public REST surface of the MODIVO storefront, served by its Adobe Commerce / Magento 2.4 deployment at https://modivo.pl/rest/all and self-described by a Swagger 2.0 document the platform generate
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 37.5
+  previous_composite: 37.6
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +212,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png
 security:

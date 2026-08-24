@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Posts, pages and cross-content search.
@@ -158,7 +158,7 @@ modified: '2026-08-07'
 name: Bluejay Therapeutics
 nav: Providers
 network: true
-overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 3 more. Tagged areas include Company, biopharmaceuticals, pharmaceuticals, life-sciences, and hepatology.
+overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 3 more. Tagged areas include Company, biopharmaceuticals, Pharmaceuticals, Life Sciences, and hepatology.
 
 
   The Bluejay Therapeutics catalog on APIs.io includes 1 JSON-LD context.
@@ -169,7 +169,7 @@ random_paper: 11
 score:
   band: thin
   composite: 27.5
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -179,7 +179,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 26.1
+  previous_composite: 27.5
   provenance:
     conformance: derived
     contracts:
@@ -194,8 +194,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/screenshots/bluejay-therapeutics-2026-08-07T162648.png
 security:
@@ -211,13 +211,13 @@ slug: bluejay-therapeutics
 tags:
 - Company
 - biopharmaceuticals
-- pharmaceuticals
-- life-sciences
+- Pharmaceuticals
+- Life Sciences
 - hepatology
-- infectious-disease
-- clinical-trials
-- drug-development
-- monoclonal-antibodies
+- Infectious Disease
+- Clinical Trials
+- Drug Development
+- Monoclonal Antibodies
 - content-api
 website: https://bluejaytx.com/
 ---

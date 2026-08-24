@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HTTP interface for triggering Liberate workflows. A workflow is started with a PUT request carrying a bearer token, a flow slug, and a JSON context object. Every customer receives their own unique end
@@ -149,7 +149,7 @@ modified: '2026-07-19'
 name: Liberate
 nav: Providers
 network: true
-overview: 'Liberate publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Insurance, InsurTech, and Voice AI.
+overview: 'Liberate publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Insurance, Insurtech, and Voice AI.
 
 
   Liberate''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, product news, changelog, and 19 more developer resources.'
@@ -157,7 +157,7 @@ random_paper: 0
 score:
   band: thin
   composite: 33.5
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -167,7 +167,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 33.7
+  previous_composite: 33.5
   provenance:
     conformance: first-party
   regulatory:
@@ -176,8 +176,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberate/refs/heads/main/screenshots/liberate-2026-07-25T225016.png
 security:
@@ -196,9 +196,9 @@ security:
 slug: liberate
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Insurance
-- InsurTech
+- Insurtech
 - Voice AI
 - AI Agents
 - Workflow Orchestration

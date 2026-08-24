@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -544,18 +544,18 @@ rules:
   slug: fieldwire-rules
 score:
   band: strong
-  composite: 58.6
-  delta: -5.2
+  composite: 59.6
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 13.6
-    contract_quality: 71.7
+    contract_quality: 75.4
     developer_ergonomics: 59.5
     discoverability: 40.7
     governance: 13.6
     operational_transparency: 68.4
-  previous_composite: 63.8
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -563,9 +563,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/screenshots/fieldwire-2026-06-20T181155.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -679,7 +679,7 @@ modified: '2026-05-19'
 name: Juniper Networks
 nav: Providers
 network: true
-overview: 'Juniper Networks publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Allowlists and Blocklists API, Analytics API, Audit Logs API, and 43 more. Tagged areas include AI, Automation, Cloud, Enterprise, and Networking.
+overview: 'Juniper Networks publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Allowlists and Blocklists API, Analytics API, Audit Logs API, and 43 more. Tagged areas include Artificial Intelligence, Automation, Cloud, Enterprise, and Networking.
 
 
   The Juniper Networks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -709,7 +709,7 @@ rules:
 score:
   band: thin
   composite: 37.5
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -719,7 +719,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 45.5
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -727,9 +727,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/screenshots/juniper-2026-06-20T183833.png
 security:
 - kind: authentication
@@ -742,7 +742,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: juniper
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Cloud
 - Enterprise

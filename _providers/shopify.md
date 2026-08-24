@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -1697,7 +1697,7 @@ modified: '2026-05-19'
 name: Shopify
 nav: Providers
 network: true
-overview: 'Shopify publishes 197 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Multipass API, About API, and 194 more. Tagged areas include Commerce, Ecommerce, Payments, Retail, and Shopping Cart.
+overview: 'Shopify publishes 197 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Multipass API, About API, and 194 more. Tagged areas include Commerce, E-Commerce, Payments, Retail, and Shopping Cart.
 
 
   The Shopify catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -1748,18 +1748,18 @@ rules:
   slug: shopify-spectral-rules
 score:
   band: strong
-  composite: 57.7
-  delta: -1.0
+  composite: 60.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 9.8
-    contract_quality: 70.3
+    contract_governance: 13.6
+    contract_quality: 77.3
     developer_ergonomics: 78.6
-    discoverability: 40.7
-    governance: 9.8
+    discoverability: 50.0
+    governance: 13.6
     operational_transparency: 63.2
-  previous_composite: 58.7
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1773,8 +1773,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:
@@ -1789,7 +1789,7 @@ security:
 slug: shopify
 tags:
 - Commerce
-- Ecommerce
+- E-Commerce
 - Payments
 - Retail
 - Shopping Cart

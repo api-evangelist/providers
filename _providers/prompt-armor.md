@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ modified: '2026-06-20'
 name: PromptArmor
 nav: Providers
 network: true
-overview: 'PromptArmor publishes 2 APIs on the [APIs.io](https://apis.io/) network: Analyze API and Content Check API. Tagged areas include AI, LLM, Security, Prompt Injection, and Threat Detection.
+overview: 'PromptArmor publishes 2 APIs on the [APIs.io](https://apis.io/) network: Analyze API and Content Check API. Tagged areas include Artificial Intelligence, LLM, Security, Prompt Injection, and Threat Detection.
 
 
   PromptArmor''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.0
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -139,7 +139,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.6
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -147,8 +147,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/screenshots/prompt-armor-2026-06-20T192253.png
 security:
@@ -166,7 +166,7 @@ security:
   summary_line: disclosure policy published
 slug: prompt-armor
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Security
 - Prompt Injection

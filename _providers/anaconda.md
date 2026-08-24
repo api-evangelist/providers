@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 7
@@ -371,13 +371,13 @@ image: https://www.anaconda.com/wp-content/uploads/2024/07/anaconda-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: anaconda-mcp.yml
-  slug: anaconda-mcpyml
+  name: Anaconda MCP Server
+  slug: anaconda-mcp-server
 modified: '2026-08-02'
 name: Anaconda
 nav: Providers
 network: true
-overview: 'Anaconda publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI Navigator API API, Artifacts API, and 19 more. Tagged areas include Company, Data Science, Machine Learning, Artificial Intelligence, and Package Management.
+overview: 'Anaconda publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI Navigator API API, Artifacts API, and 19 more. Tagged areas include Company, Data Science, Machine-Learning, Artificial Intelligence, and Package Management.
 
 
   The Anaconda catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -393,7 +393,7 @@ scopes:
 score:
   band: strong
   composite: 55.4
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -403,7 +403,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 58.8
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,8 +414,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/screenshots/anaconda-2026-08-07T161352.png
 security:
@@ -439,7 +439,7 @@ slug: anaconda
 tags:
 - Company
 - Data Science
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Package Management
 - Python

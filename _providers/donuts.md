@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'HTTP Reports API for accredited registrars: retrieves weekly domain and billing report files (CSV, gzip-compressed) from the Identity Digital registry. Authenticated with registrar login credentials o'
@@ -88,7 +88,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 16.9
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -98,15 +98,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.0
+  previous_composite: 16.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 25.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donuts/refs/heads/main/screenshots/donuts-2026-07-25T212257.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -309,8 +309,8 @@ image: https://raw.githubusercontent.com/api-evangelist/kamino/refs/heads/main/a
 layout: provider
 mcp_servers:
 - description: ''
-  name: kamino-mcp.yml
-  slug: kamino-mcpyml
+  name: Kamino MCP Server
+  slug: kamino-mcp-server
 modified: '2026-07-19'
 name: Kamino
 nav: Providers
@@ -323,7 +323,7 @@ random_paper: 9
 score:
   band: developing
   composite: 42.4
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -333,7 +333,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 46.4
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,8 +344,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kamino/refs/heads/main/screenshots/kamino-2026-07-25T223446.png
 security:
@@ -376,6 +376,6 @@ tags:
 - Yield
 - Blockchain
 - Oracle
-- Vaults
+- Vault
 website: https://kamino.finance
 ---

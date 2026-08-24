@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The official React component package for embedding the Excalidraw canvas. Provides programmatic control over scene state, libraries, and serialized JSON. There is no Excalidraw REST API; integrations '
@@ -105,7 +105,7 @@ modified: '2026-05-08'
 name: Excalidraw
 nav: Providers
 network: true
-overview: 'Excalidraw publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Whiteboard, Diagramming, Open Source, and Drawing.
+overview: 'Excalidraw publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Whiteboard, Diagramming, Open-Source, and Drawing.
 
 
   Excalidraw''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.6
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -131,9 +131,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 14.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/screenshots/excalidraw-2026-06-20T180922.png
 security:
@@ -146,7 +146,7 @@ tags:
 - Collaboration
 - Whiteboard
 - Diagramming
-- Open Source
+- Open-Source
 - Drawing
 website: https://excalidraw.com/
 ---

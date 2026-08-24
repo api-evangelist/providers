@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Versioned REST API (v1 / v3) for programmatic access to Cyera's data discovery, classification, access-exposure, and risk findings. Secured with OAuth 2.0 client_credentials (Client ID + Client Secret
@@ -142,9 +142,9 @@ description: Cyera is an AI-native data security company whose Data Security Pos
 image: https://cdn.prod.website-files.com/69443372754a5005a10559a5/6992ed2b1e335ac321854654_Cyera-Protect-your-data-Secure%20AI.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cyera-mcp.yml
-  slug: cyera-mcpyml
+- description: Cyera MCP is an official Model Context Protocol server that lets any MCP-compatible AI client (Claude, Cursor, Microsoft Copilot, ChatGPT, custom agents) query Cyera's data-security intelligence in na
+  name: Cyera MCP (DataPort)
+  slug: cyera-mcp-dataport
 modified: '2026-07-18'
 name: Cyera
 nav: Providers
@@ -162,7 +162,7 @@ scopes:
 score:
   band: thin
   composite: 36.2
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -172,12 +172,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 37.8
+  previous_composite: 36.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/screenshots/cyera-2026-07-25T211042.png
 security:

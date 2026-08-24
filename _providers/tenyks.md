@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -178,13 +178,13 @@ image: https://cdn.prod.website-files.com/63a0220866f41638081f4fce/63d07b4812f0f
 layout: provider
 mcp_servers:
 - description: ''
-  name: tenyks-mcp.yml
-  slug: tenyks-mcpyml
+  name: Tenyks MCP Server
+  slug: tenyks-mcp-server
 modified: '2026-07-21'
 name: Tenyks
 nav: Providers
 network: true
-overview: 'Tenyks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Data Upload API, and Datasets API. Tagged areas include Company, Computer Vision, Machine Learning, MLOps, and Data Quality.
+overview: 'Tenyks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Data Upload API, and Datasets API. Tagged areas include Company, Computer-Vision, Machine-Learning, MLOps, and Data Quality.
 
 
   Tenyks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
@@ -192,7 +192,7 @@ random_paper: 19
 score:
   band: developing
   composite: 43.7
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -202,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 47.6
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -213,8 +213,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/screenshots/tenyks-2026-08-17T082314.png
 security:
@@ -233,8 +233,8 @@ security:
 slug: tenyks
 tags:
 - Company
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - MLOps
 - Data Quality
 - Model Validation

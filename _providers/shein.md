@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Merchant-integration API for SHEIN sellers and logistics partners — OpenAPI and Webhook capabilities covering product publishing, order fulfillment, logistics/shipping, and stock-preparation order man
@@ -97,7 +97,7 @@ modified: '2026-07-21'
 name: SHEIN
 nav: Providers
 network: true
-overview: 'SHEIN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Retail, and Fashion.
+overview: 'SHEIN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Retail, and Fashion.
 
 
   The SHEIN catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -108,7 +108,7 @@ random_paper: 10
 score:
   band: thin
   composite: 33.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -118,9 +118,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 34.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 33.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -135,7 +135,7 @@ slug: shein
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Retail
 - Fashion
 - Marketplace

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: US Central Command (CENTCOM) does not offer a public developer API. Public information resources include press releases, news articles, official statements, and media content accessible through the of
@@ -62,7 +62,7 @@ modified: '2026-05-03'
 name: US Central Command
 nav: Providers
 network: true
-overview: 'US Central Command publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Military, Department of Defense, and National Security.
+overview: 'US Central Command publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Military, Department of Defense, and National Security.
 
 
   The US Central Command catalog on APIs.io includes 1 JSON-LD context.'
@@ -78,7 +78,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -88,15 +88,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.6
+  previous_composite: 11.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-central-command/refs/heads/main/screenshots/us-central-command-2026-06-20T200558.png
 security:
@@ -106,7 +106,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: us-central-command
 tags:
-- Federal Government
+- Federal-Government
 - Military
 - Department of Defense
 - National Security

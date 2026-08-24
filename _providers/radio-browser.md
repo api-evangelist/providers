@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ modified: '2026-05-28'
 name: Radio Browser
 nav: Providers
 network: true
-overview: 'Radio Browser publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Interactions API, Service API, and 1 more. Tagged areas include Music, Radio, Streaming, Open Source, and Open Data.
+overview: 'Radio Browser publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Interactions API, Service API, and 1 more. Tagged areas include Music, Radio, Streaming, Open-Source, and Open Data.
 
 
   The Radio Browser catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -266,18 +266,18 @@ rules:
   slug: radio-browser-rules
 score:
   band: developing
-  composite: 40.3
-  delta: -2.3
+  composite: 40.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 59.1
     developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 42.6
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -291,8 +291,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/screenshots/radio-browser-2026-06-20T192514.png
 security:
@@ -310,7 +310,7 @@ tags:
 - Music
 - Radio
 - Streaming
-- Open Source
+- Open-Source
 - Open Data
 - Community
 - Public APIs

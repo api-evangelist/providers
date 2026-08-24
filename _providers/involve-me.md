@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'A live, OAuth-protected Model Context Protocol server that involve.me serves from its own infrastructure and advertises through RFC 9728 protected-resource metadata on www.involve.me. SCOPE: it expose'
@@ -156,9 +156,9 @@ description: 'involve.me is an AI quiz, form and funnel builder with built-in em
 image: https://www.involve.me/favicons/favicon-32x32.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: involve-me-mcp.yml
-  slug: involve-me-mcpyml
+- description: involve.me serves a live, OAuth-protected Model Context Protocol server. It is advertised by RFC 9728 protected-resource metadata on the public marketing host and it answers. IMPORTANT SCOPE NOTE — th
+  name: involve.me Statamic Content MCP
+  slug: involveme-statamic-content-mcp
 modified: '2026-08-12'
 name: involve.me
 nav: Providers
@@ -187,7 +187,7 @@ scopes:
 score:
   band: developing
   composite: 50.0
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -197,12 +197,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 52.5
+  previous_composite: 50.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/involve-me/refs/heads/main/screenshots/involve-me-2026-08-17T081000.png
 security:
@@ -233,8 +233,8 @@ tags:
 - No-Code
 - Email Marketing
 - CRM
-- Webhooks
-- Model Context Protocol
+- Webhook
+- MCP
 - Austria
 website: https://www.involve.me/
 ---

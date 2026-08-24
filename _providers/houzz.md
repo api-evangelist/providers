@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Official Houzz commerce API for third-party marketplace partners. Lets sellers and vendors sync product catalog/listings, update inventory levels and pricing, and retrieve and manage orders. Access is
@@ -89,7 +89,7 @@ modified: '2026-07-19'
 name: Houzz
 nav: Providers
 network: true
-overview: 'Houzz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Marketplace, Home Improvement, and Interior Design.
+overview: 'Houzz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Home Improvement, and Interior Design.
 
 
   Houzz''s developer surface includes API reference, support, engineering blog, pricing, signup flow, authentication, and 5 more developer resources.'
@@ -97,7 +97,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 21.0
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -107,9 +107,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/houzz/refs/heads/main/screenshots/houzz-2026-07-25T221720.png
 security:
@@ -124,12 +124,12 @@ security:
 slug: houzz
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Home Improvement
 - Interior Design
 - Home Renovation
 - Furniture
-- SaaS
+- Software-as-a-Service
 website: https://houzz.com
 ---

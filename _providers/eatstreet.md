@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The live EatStreet API, served under https://eatstreet.com/api/v2 and protected by OAuth 2.0 authorization code with PKCE. EatStreet publishes no reference, no OpenAPI and no developer portal for it; '
@@ -111,7 +111,7 @@ modified: '2026-08-12'
 name: EatStreet
 nav: Providers
 network: true
-overview: 'EatStreet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Restaurants, Online Ordering, and Marketplace.
+overview: 'EatStreet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Restaurant, Online Ordering, and Marketplace.
 
 
   EatStreet''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
@@ -132,7 +132,7 @@ scopes:
 score:
   band: emerging
   composite: 17.2
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -142,11 +142,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 17.5
+  previous_composite: 17.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -161,12 +161,12 @@ slug: eatstreet
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Online Ordering
 - Marketplace
 - Local Commerce
 - Consumer
-- Point of Sale
-- OAuth
+- Point-of-Sale
+- Authentication
 website: https://eatstreet.com/
 ---

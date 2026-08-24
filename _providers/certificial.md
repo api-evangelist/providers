@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Bi-directional API for technology platforms to request insurance coverage for their customers' suppliers and receive real-time, source-verified policy data, PDF certificates of insurance and endorseme
@@ -96,7 +96,7 @@ modified: '2026-08-09'
 name: Certificial
 nav: Providers
 network: true
-overview: 'Certificial publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Certificate of Insurance, Risk Management, and Compliance.
+overview: 'Certificial publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Certificate of Insurance, Risk Management, and Compliance.
 
 
   Certificial''s developer surface includes pricing, signup flow, support, engineering blog, authentication, and 6 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 22.6
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -114,7 +114,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.9
+  previous_composite: 22.6
   provenance:
     conformance: first-party
   regulatory:
@@ -123,8 +123,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -138,7 +138,7 @@ security:
 slug: certificial
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Certificate of Insurance
 - Risk Management
 - Compliance

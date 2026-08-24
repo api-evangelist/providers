@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -1603,7 +1603,7 @@ modified: '2026-05-19'
 name: Amazon Step Functions
 nav: Providers
 network: true
-overview: 'Amazon Step Functions publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Executions API, History API, State Machines API, and 34 more. Tagged areas include Orchestration, Serverless, State Machine, and Workflow.
+overview: 'Amazon Step Functions publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Executions API, History API, State Machines API, and 34 more. Tagged areas include Orchestration, Serverless, State Machine, and Workflows.
 
 
   The Amazon Step Functions catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1643,18 +1643,18 @@ rules:
   slug: amazon-step-functions-spectral-rules
 score:
   band: developing
-  composite: 49.8
-  delta: -6.7
+  composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.1
     developer_ergonomics: 50.0
     discoverability: 48.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 56.5
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1662,9 +1662,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/screenshots/amazon-step-functions-2026-06-20T171830.png
 security:
 - kind: authentication
@@ -1688,7 +1688,7 @@ tags:
 - Orchestration
 - Serverless
 - State Machine
-- Workflow
+- Workflows
 use_cases:
 - description: Coordinate multiple microservices into cohesive workflows.
   name: Microservice Orchestration

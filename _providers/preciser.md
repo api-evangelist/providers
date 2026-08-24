@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Chart Data API from Preciser — 1 operation(s) for chart data.
@@ -127,13 +127,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/preciser.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: preciser-mcp.yml
-  slug: preciser-mcpyml
+  name: Preciser MCP Server
+  slug: preciser-mcp-server
 modified: '2026-07-20'
 name: Preciser
 nav: Providers
 network: true
-overview: 'Preciser publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chart Data API and Opp Team Data API. Tagged areas include Company, Sports, Sports Analytics, Computer Vision, and Artificial Intelligence.
+overview: 'Preciser publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chart Data API and Opp Team Data API. Tagged areas include Company, Sports, Sports Analytics, Computer-Vision, and Artificial Intelligence.
 
 
   Preciser''s developer surface includes API reference, engineering blog, signup flow, support, and 14 more developer resources.'
@@ -141,7 +141,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 22.3
-  delta: -10.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -151,7 +151,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 32.5
+  previous_composite: 22.3
   provenance:
     conformance: derived
     contracts:
@@ -160,9 +160,9 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Preciser Domain Security
@@ -173,7 +173,7 @@ tags:
 - Company
 - Sports
 - Sports Analytics
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Video Analysis
 - Statistics

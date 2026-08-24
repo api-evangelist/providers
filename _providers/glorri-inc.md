@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-19'
 name: GLORRI, INC.
 nav: Providers
 network: true
-overview: 'GLORRI, INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruitment, Applicant Tracking System, and ATS.
+overview: 'GLORRI, INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruitment, ATS, and Talent Acquisition.
 
 
   GLORRI, INC.''s developer surface includes pricing, signup flow, support, YouTube channel, and 9 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 13.6
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -116,9 +116,9 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 14.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glorri-inc/refs/heads/main/screenshots/glorri-inc-2026-07-25T215924.png
 slug: glorri-inc
@@ -126,12 +126,11 @@ tags:
 - Company
 - Human Resources
 - Recruitment
-- Applicant Tracking System
 - ATS
 - Talent Acquisition
 - Hiring
 - HR Tech
 - Recruiting Automation
-- SaaS
+- Software-as-a-Service
 website: https://glorri.com
 ---

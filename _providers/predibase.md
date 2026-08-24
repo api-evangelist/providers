@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ modified: '2026-06-20'
 name: Predibase
 nav: Providers
 network: true
-overview: 'Predibase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Batch Inference API, Datasets API, and 4 more. Tagged areas include AI, LLM, Fine-Tuning, Inference, and LoRA.
+overview: 'Predibase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Batch Inference API, Datasets API, and 4 more. Tagged areas include Artificial Intelligence, LLM, Fine-Tuning, Inference, and LoRA.
 
 
   The Predibase catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -178,7 +178,7 @@ rules:
 score:
   band: developing
   composite: 40.3
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -188,7 +188,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 44.8
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -196,8 +196,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/screenshots/predibase-2026-06-20T192044.png
 security:
@@ -211,7 +211,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: predibase
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Fine-Tuning
 - Inference

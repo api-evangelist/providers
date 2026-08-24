@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -431,7 +431,7 @@ modified: '2026-05-19'
 name: Apache APISIX
 nav: Providers
 network: true
-overview: 'Apache APISIX publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Consumer Groups API, Consumers API, Diagnostics API, and 14 more. Tagged areas include Apache, API Gateway, Cloud Native, Kubernetes, and Lua.
+overview: 'Apache APISIX publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Consumer Groups API, Consumers API, Diagnostics API, and 14 more. Tagged areas include Apache, API Gateway, Cloud-Native, Kubernetes, and Lua.
 
 
   The Apache APISIX catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -471,18 +471,18 @@ rules:
   slug: apache-apisix-spectral-rules
 score:
   band: developing
-  composite: 42.2
-  delta: -4.9
+  composite: 42.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 63.8
     developer_ergonomics: 40.5
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 47.1
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -490,8 +490,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/screenshots/apache-apisix-2026-06-20T172044.png
 security:
@@ -511,11 +511,11 @@ slug: apache-apisix
 tags:
 - Apache
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Kubernetes
 - Lua
 - NGINX
-- Open Source
+- Open-Source
 - Traffic Management
 use_cases:
 - description: Route and manage traffic to microservices with dynamic configuration and plugin-based policies.

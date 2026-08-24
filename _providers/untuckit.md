@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Live MCP endpoint implementing the Universal Commerce Protocol shopping service for the UNTUCKit store: catalog search, cart, checkout, fulfillment, discounts, and orders, with Shop Pay / Google Pay /'
@@ -109,14 +109,14 @@ description: 'UNTUCKit is a US apparel brand and omnichannel retailer best known
 image: https://avatars.githubusercontent.com/u/48734252?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: untuckit-mcp.yml
-  slug: untuckit-mcpyml
+- description: UNTUCKit's Shopify storefront operates a live, first-party-hosted MCP endpoint as the transport for the Universal Commerce Protocol (UCP) shopping service. The endpoint, its OpenRPC schema, and the ag
+  name: UNTUCKit MCP Server
+  slug: untuckit-mcp-server
 modified: '2026-07-21'
 name: UNTUCKit
 nav: Providers
 network: true
-overview: 'UNTUCKit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apparel, Retail, eCommerce, and Shopify.
+overview: 'UNTUCKit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apparel, Retail, E-Commerce, and Shopify.
 
 
   UNTUCKit''s developer surface includes authentication, support, engineering blog, and 13 more developer resources.'
@@ -129,7 +129,7 @@ scopes:
 score:
   band: emerging
   composite: 21.6
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -139,13 +139,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.6
+  previous_composite: 21.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -161,7 +161,7 @@ tags:
 - Company
 - Apparel
 - Retail
-- eCommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 - MCP

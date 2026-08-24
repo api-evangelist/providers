@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ modified: '2026-05-30'
 name: DeepL
 nav: Providers
 network: true
-overview: 'DeepL publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Voice API, Documents API, Glossaries API, and 4 more. Tagged areas include Artificial Intelligence, Deep Learning, Glossaries, Localization, and Machine Learning.
+overview: 'DeepL publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Voice API, Documents API, Glossaries API, and 4 more. Tagged areas include Artificial Intelligence, Deep Learning, Glossary, Localization, and Machine-Learning.
 
 
   The DeepL catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -271,18 +271,18 @@ rules:
   slug: deepl-translation-api-rules
 score:
   band: developing
-  composite: 50.1
-  delta: -3.5
+  composite: 50.4
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 70.6
     developer_ergonomics: 45.2
     discoverability: 81.5
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 53.6
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -290,8 +290,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/screenshots/deepl-2026-06-20T175808.png
 security:
@@ -315,9 +315,9 @@ slug: deepl
 tags:
 - Artificial Intelligence
 - Deep Learning
-- Glossaries
+- Glossary
 - Localization
-- Machine Learning
+- Machine-Learning
 - Machine Translation
 - Translation
 website: https://www.deepl.com/

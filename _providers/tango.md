@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -358,18 +358,18 @@ rules:
   slug: tango-rules
 score:
   band: developing
-  composite: 43.4
-  delta: -8.9
+  composite: 43.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.4
     developer_ergonomics: 28.6
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 15.8
-  previous_composite: 52.3
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -383,9 +383,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/screenshots/tango-2026-06-20T194913.png
 security:
 - kind: authentication

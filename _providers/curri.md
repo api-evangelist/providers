@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API for requesting delivery quotes, booking on-demand and scheduled deliveries, managing and canceling deliveries, and tracking drivers in real time via webhooks or long polling.
@@ -139,8 +139,8 @@ image: https://www.curri.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: curri-mcp.yml
-  slug: curri-mcpyml
+  name: Curri MCP Server
+  slug: curri-mcp-server
 modified: '2026-07-18'
 name: Curri
 nav: Providers
@@ -156,7 +156,7 @@ random_paper: 3
 score:
   band: developing
   composite: 42.1
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -166,13 +166,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 44.9
+  previous_composite: 42.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/screenshots/curri-2026-07-25T210950.png
 security:

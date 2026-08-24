@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -228,7 +228,7 @@ modified: '2026-06-13'
 name: RingCentral Events
 nav: Providers
 network: true
-overview: 'RingCentral Events publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Bank Questions API, Booths API, Data Subscriptions API, and 11 more. Tagged areas include Events, Virtual Events, Hybrid Events, Webinars, and Event Management.
+overview: 'RingCentral Events publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Bank Questions API, Booths API, Data Subscriptions API, and 11 more. Tagged areas include Event, Virtual Events, Hybrid Events, Webinars, and Event Management.
 
 
   The RingCentral Events catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -263,7 +263,7 @@ scopes:
 score:
   band: developing
   composite: 41.7
-  delta: -12.9
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -273,7 +273,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 54.6
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -281,9 +281,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/screenshots/hopin-2026-06-20T182829.png
 security:
 - kind: authentication
@@ -300,7 +300,7 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR
 slug: hopin
 tags:
-- Events
+- Event
 - Virtual Events
 - Hybrid Events
 - Webinars

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The modern Salesforce Commerce API (SCAPI) — Shopper APIs (products, search, baskets, orders, customers), Admin APIs, and the Shopper Login and API Access Service (SLAS). Published as OpenAPI, secured
@@ -40,6 +40,10 @@ apis:
   slug: open-commerce-api-ocapi
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -168,22 +172,26 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/demandware-llms.txt
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cquotient/
 created: '2026-07-17'
 description: 'Demandware is the cloud commerce platform now sold by Salesforce as Salesforce B2C Commerce Cloud. Founded in 2004 and taken public on the NYSE (DWRE) in 2012, Demandware was acquired by Salesforce in 2016 for roughly $2.8B and rebranded as Salesforce Commerce Cloud. Its developer surface centers on two REST API families: the modern B2C Commerce API (SCAPI) — Shopper APIs, Admin APIs, and the Shopper Login and API Access Service (SLAS) — published as OpenAPI, and the older Open Commerce API (OCAPI, now deprecated) with its Shop, Data, and Meta APIs. The platform ships first-party SDKs (commerce-sdk, commerce-sdk-isomorphic, PWA Kit), a B2C CLI (sfcc-ci and the newer @salesforce/b2c-cli), a developer-experience MCP server, packaged Agent Skills, and Account Manager / SLAS OAuth2 authentication.'
 image: https://developer.salesforce.com/resources2/logos/salesforce-developers-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: demandware-mcp.yml
-  slug: demandware-mcpyml
-modified: '2026-07-18'
+- description: Salesforce publishes a first-party developer-experience MCP server for B2C Commerce (Demandware) as part of the B2C Developer Tooling monorepo. Distributed on npm as @salesforce/b2c-dx-mcp and intende
+  name: Demandware MCP Server
+  slug: demandware-mcp-server
+modified: '2026-08-21'
 name: Demandware
 nav: Providers
 network: true
-overview: 'Demandware publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-commerce, Retail, and Commerce Cloud.
+overview: 'Demandware publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Retail, and Commerce Cloud.
 
 
-  Demandware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+  Demandware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
 random_paper: 19
 scopes:
 - name: Demandware Scopes
@@ -193,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 40.3
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -203,14 +211,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 45.3
+  previous_composite: 40.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/screenshots/demandware-2026-07-25T211712.png
 security:
 - kind: authentication
@@ -229,14 +237,14 @@ slug: demandware
 tags:
 - Company
 - Commerce
-- E-commerce
+- E-Commerce
 - Retail
 - Commerce Cloud
 - Storefront
 - Shopper
 - Catalog
-- Orders
-- SaaS
+- Order
+- Software-as-a-Service
 - Salesforce
 website: https://www.salesforce.com/products/commerce/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
@@ -264,8 +264,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bendigo-an
 layout: provider
 mcp_servers:
 - description: ''
-  name: bendigo-and-adelaide-bank-mcp.yml
-  slug: bendigo-and-adelaide-bank-mcpyml
+  name: Bendigo and Adelaide Bank MCP Server
+  slug: bendigo-and-adelaide-bank-mcp-server
 modified: '2026-07-21'
 name: Bendigo and Adelaide Bank
 nav: Providers
@@ -286,7 +286,7 @@ scopes:
 score:
   band: developing
   composite: 41.2
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -296,7 +296,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 44.6
+  previous_composite: 41.2
   provenance:
     conformance: first-party
     contracts:
@@ -312,8 +312,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png
 security:

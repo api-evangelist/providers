@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: Forecastr
 nav: Providers
 network: true
-overview: 'Forecastr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Forecasting, Financial Modeling, FinTech, and Startups.
+overview: 'Forecastr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Forecasting, Financial Modeling, Fintech, and Startups.
 
 
   Forecastr''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 15.4
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -98,9 +98,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forecastr/refs/heads/main/screenshots/forecastr-2026-07-25T214931.png
 security:
@@ -113,12 +113,12 @@ tags:
 - Company
 - Financial Forecasting
 - Financial Modeling
-- FinTech
+- Fintech
 - Startups
 - Fundraising
 - CFO Services
 - Budgeting
 - Cash Flow
-- SaaS
+- Software-as-a-Service
 website: https://www.forecastr.co/
 ---

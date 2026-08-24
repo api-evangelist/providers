@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Kubit's hosted Model Context Protocol server. Exposes five tools — getUserContext, getSchema, createReport, getRawData, and searchKubit — that let an MCP-compatible IDE or assistant explore schemas, e
@@ -171,8 +171,8 @@ image: https://kubit.ai/wp-content/uploads/2024/04/cropped-Kubit-Social-Profile-
 layout: provider
 mcp_servers:
 - description: ''
-  name: kubit-ai-inc-mcp.yml
-  slug: kubit-ai-inc-mcpyml
+  name: KubitMCP
+  slug: kubitmcp
 modified: '2026-07-19'
 name: Kubit AI, Inc.
 nav: Providers
@@ -190,7 +190,7 @@ scopes:
 score:
   band: thin
   composite: 35.3
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -200,13 +200,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 39.8
+  previous_composite: 35.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/screenshots/kubit-ai-inc-2026-07-25T224318.png
 security:
@@ -229,9 +229,9 @@ tags:
 - Product Analytics
 - Data Warehouse
 - LLM Observability
-- Model Context Protocol
+- MCP
 - Agent Analytics
 - OpenTelemetry
-- Devops
+- DevOps
 website: https://www.kubit.ai/
 ---

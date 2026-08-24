@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The VNPAY-QR payment gateway (vpcpay) processes card, QR, ATM/bank-account and international-card payments via a browser redirect plus server-to-server IPN callback. Requests carry vnp_ parameters sig
@@ -123,8 +123,8 @@ image: https://vnpay.vn/assets/images/logo-vnpay-qr.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: vnlife-mcp.yml
-  slug: vnlife-mcpyml
+  name: VNLIFE MCP Server
+  slug: vnlife-mcp-server
 modified: '2026-07-21'
 name: VNLIFE
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 22.3
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -147,7 +147,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 26.3
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -157,8 +157,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -178,6 +178,6 @@ tags:
 - QR Payments
 - E-Commerce
 - Vietnam
-- Financial Services
+- Financial-Services
 website: https://vnpay.vn
 ---

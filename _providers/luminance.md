@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: The Accounts API from Luminance — 6 operation(s) for accounts.
@@ -262,8 +262,8 @@ image: https://api.luminance.com/img/general_resources/luminance_logos/Luminance
 layout: provider
 mcp_servers:
 - description: ''
-  name: luminance-mcp.yml
-  slug: luminance-mcpyml
+  name: Luminance MCP Server
+  slug: luminance-mcp-server
 modified: '2026-08-04'
 name: Luminance
 nav: Providers
@@ -285,7 +285,7 @@ scopes:
 score:
   band: developing
   composite: 46.2
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -295,7 +295,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 45.4
+  previous_composite: 46.2
   provenance:
     conformance: first-party
     contracts:
@@ -305,8 +305,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/screenshots/luminance-2026-08-07T171838.png
 security:

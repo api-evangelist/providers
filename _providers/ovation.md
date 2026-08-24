@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.6
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -166,11 +166,11 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 38.6
+  previous_composite: 37.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovation/refs/heads/main/screenshots/ovation-2026-06-20T191237.png
 security:

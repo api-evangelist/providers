@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: U.S. Department of Health & Human Services; Administration for Children & Families; Select an ACF Office. Administration for Native Americans (ANA) Administration on Children, Youth, and Families (ACY
@@ -53,7 +53,7 @@ modified: '2026-04-28'
 name: Office of Child Support Services
 nav: Providers
 network: true
-overview: Office of Child Support Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government.
+overview: Office of Child Support Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government.
 plans:
 - name: Office Of Child Support Services Plans Pricing
   plan_count: 3
@@ -66,7 +66,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -82,15 +82,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 9.5
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-child-support-services/refs/heads/main/screenshots/office-of-child-support-services-2026-06-20T190631.png
 security:
@@ -100,5 +100,5 @@ security:
   summary_line: TLSv1.2 · DNSSEC · DMARC
 slug: office-of-child-support-services
 tags:
-- Federal Government
+- Federal-Government
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API delivering airspace data and services for UAS applications — B4UFLY airspace briefings, LAANC SDSP operations and authorizations, ASL and ephemeral operations, surface/risk/routing, elevation
@@ -151,8 +151,8 @@ image: https://airspacelink.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: airspace-link-mcp.yml
-  slug: airspace-link-mcpyml
+  name: Airspace Link MCP Server
+  slug: airspace-link-mcp-server
 modified: '2026-07-18'
 name: Airspace Link
 nav: Providers
@@ -170,7 +170,7 @@ scopes:
 score:
   band: thin
   composite: 29.7
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -180,13 +180,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 33.3
+  previous_composite: 29.7
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/screenshots/airspace-link-2026-07-25T195436.png
 security:

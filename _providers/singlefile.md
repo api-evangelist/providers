@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -217,8 +217,8 @@ image: https://www.singlefile.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: singlefile-mcp.yml
-  slug: singlefile-mcpyml
+  name: SingleFile MCP Server
+  slug: singlefile-mcp-server
 modified: '2026-07-21'
 name: SingleFile
 nav: Providers
@@ -243,7 +243,7 @@ scopes:
 score:
   band: developing
   composite: 49.5
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -253,7 +253,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 52.3
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -264,8 +264,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/screenshots/singlefile-2026-08-17T081903.png
 security:
@@ -291,8 +291,7 @@ tags:
 - Registered Agent
 - Business Filings
 - Regulatory
-- API
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 website: https://www.singlefile.ai
 ---

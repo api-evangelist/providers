@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -1575,7 +1575,7 @@ modified: '2026-05-30'
 name: Apache Airflow
 nav: Providers
 network: true
-overview: 'Apache Airflow publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Backfill API, Config API, and 23 more. Tagged areas include Workflow Orchestration, Data Pipeline, Open Source, Apache, and DAG.
+overview: 'Apache Airflow publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Backfill API, Config API, and 23 more. Tagged areas include Workflow Orchestration, Data Pipeline, Open-Source, Apache, and DAG.
 
 
   The Apache Airflow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1619,19 +1619,19 @@ scopes:
   slug: airflow-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 39.1
-  delta: -4.1
+  band: developing
+  composite: 39.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 56.5
     developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 43.2
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1639,8 +1639,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/screenshots/airflow-2026-06-20T171427.png
 security:
@@ -1660,7 +1660,7 @@ slug: airflow
 tags:
 - Workflow Orchestration
 - Data Pipeline
-- Open Source
+- Open-Source
 - Apache
 - DAG
 - Scheduling

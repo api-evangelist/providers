@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -904,7 +904,7 @@ rules:
 score:
   band: thin
   composite: 35.9
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -914,7 +914,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 39.1
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -928,8 +928,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain/refs/heads/main/screenshots/blockchain-2026-06-20T173356.png
 security:

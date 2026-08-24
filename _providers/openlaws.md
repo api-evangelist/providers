@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.2
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -169,7 +169,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 38.0
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +183,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/screenshots/openlaws-2026-06-20T191009.png
 security:
@@ -207,7 +207,7 @@ tags:
 - Citations
 - Search
 - RAG
-- LegalTech
+- Legal Tech
 - RegTech
 - Compliance
 - GRC

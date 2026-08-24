@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -230,19 +230,19 @@ rules:
     warn: 6
   slug: postalcodes-info-rules
 score:
-  band: thin
-  composite: 39.1
-  delta: -3.4
+  band: developing
+  composite: 39.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 63.6
     developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 42.5
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -256,8 +256,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/screenshots/postalcodes-info-2026-06-20T191947.png
 security:

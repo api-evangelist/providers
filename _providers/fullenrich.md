@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 67.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -250,9 +250,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fullenrich.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: fullenrich-mcp.yml
-  slug: fullenrich-mcpyml
+- description: FullEnrich operates a first-party remote MCP server that exposes B2B contact and company search, waterfall enrichment, and CSV/JSON export to MCP-capable agents. Transport is Streamable HTTP; authenti
+  name: FullEnrich MCP Server
+  slug: fullenrich-mcp-server
 modified: '2026-08-14'
 name: FullEnrich
 nav: Providers
@@ -281,7 +281,7 @@ scopes:
 score:
   band: strong
   composite: 63.1
-  delta: -10.9
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -291,7 +291,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 74.0
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,9 +302,9 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/screenshots/fullenrich-2026-07-25T215257.png
 security:
 - kind: authentication

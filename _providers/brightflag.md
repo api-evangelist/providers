@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth 2.0 secured REST API (OpenAPI 3.1) for Brightflag's enterprise legal management platform. Includes a Reporting API to extract key datasets and a Matter Budget API, plus operations to search invo
@@ -123,8 +123,8 @@ image: https://brightflag.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: brightflag-mcp.yml
-  slug: brightflag-mcpyml
+  name: Brightflag MCP Server
+  slug: brightflag-mcp-server
 modified: '2026-07-18'
 name: Brightflag
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 0
 score:
   band: thin
   composite: 26.9
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -147,12 +147,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 29.4
+  previous_composite: 26.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightflag/refs/heads/main/screenshots/brightflag-2026-07-25T203843.png
 security:
@@ -183,6 +183,6 @@ tags:
 - Matter Management
 - Reporting
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 website: https://brightflag.com
 ---

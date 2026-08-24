@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -605,9 +605,9 @@ finops:
 image: https://framerusercontent.com/assets/ZHgWyxIoZ4u3muxNTrEuOhP9o.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: methodfi-mcp.yml
-  slug: methodfi-mcpyml
+- description: No official hosted/remote Method MCP server was found (no @methodfi MCP package, no documented MCP endpoint). This is a DERIVED candidate tool surface mapping marquee Method operations to MCP tools, o
+  name: MethodFi MCP Server
+  slug: methodfi-mcp-server
 modified: '2026-08-08'
 name: MethodFi
 nav: Providers
@@ -631,7 +631,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 71.9
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -641,7 +641,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 66.7
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -658,9 +658,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/screenshots/methodfi-2026-08-07T172708.png
 security:
 - kind: authentication

@@ -29,18 +29,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
-api_count: 1
+  scored_at: '2026-08-24'
+api_count: 2
 apis:
 - description: RESTful API for AppNeta Performance Manager, covering monitoring policies and policy groups, web paths, web applications (locations, targets, user flows), monitoring points, alarm connectors (v4), and
   name: AppNeta Performance Manager API
   slug: appneta-performance-manager-api
-artifact_total: 3
+- description: Token-authenticated REST API for the AppNeta SaaS platform. v4 (Intelligent Alarms) and v3 (Classic) expose monitoring data, monitoring policies, Monitoring Point provisioning, web-application and net
+  name: AppNeta REST API
+  slug: appneta-rest-api
+artifact_total: 4
 common:
-- group: company
+- group: other
   title: ''
-  type: Website
-  url: https://www.broadcom.com/products/software/network-management/appneta
+  type: ParentCompany
+  url: https://apis.io/providers/broadcom/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -73,23 +76,39 @@ common:
   title: ''
   type: DomainSecurity
   url: security/appneta-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.appneta.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://techdocs.broadcom.com/appneta
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.appneta.com/blog/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/tracelytics/
 created: '2026-07-17'
 description: AppNeta is a network performance monitoring (NPM) platform for the distributed, cloud-connected enterprise, now delivered as a Broadcom product under its IT Operations Management / Network Management portfolio. AppNeta Performance Manager continuously measures network paths, delivery quality, usage, and end-user application experience across SaaS, cloud, and internet paths using a combination of active (synthetic) and passive monitoring from distributed monitoring points. It exposes a RESTful API (v3 for AppNeta Classic and v4 for AppNeta with Intelligent Alarms) for programmatic access to monitoring policies, web paths, web applications, alarm connectors, and event/observer integrations, authenticated with API access tokens. As of February 2026 the API interface and documentation were upgraded from Swagger to OpenAPI 3.0. AppNeta was originally an independent, Battery Ventures-backed company before joining Broadcom.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appneta.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-21'
 name: AppNeta
 nav: Providers
 network: true
-overview: 'AppNeta publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Network Monitoring, Network Performance Monitoring, Observability, and Application Performance Monitoring.
+overview: 'AppNeta publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Network Monitoring, Network Performance Monitoring, Observability, and Application Performance Monitoring.
 
 
-  AppNeta''s developer surface includes documentation, API reference, authentication, support, and 5 more developer resources.'
+  AppNeta''s developer surface includes documentation, API reference, authentication, support, engineering blog, and 8 more developer resources.'
 random_paper: 10
 score:
   band: emerging
   composite: 12.5
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -99,9 +118,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 14.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appneta/refs/heads/main/screenshots/appneta-2026-07-25T200818.png
 security:
@@ -123,5 +142,5 @@ tags:
 - Synthetic Monitoring
 - Monitoring
 - Broadcom
-website: https://www.broadcom.com/products/software/network-management/appneta
+website: https://www.appneta.com/
 ---

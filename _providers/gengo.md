@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Account information, stats, balance and preferred translators.
@@ -192,8 +192,8 @@ image: https://gengo.com/wp-content/themes/gengo_theme/images/common/apple-touch
 layout: provider
 mcp_servers:
 - description: ''
-  name: gengo-mcp.yml
-  slug: gengo-mcpyml
+  name: Gengo MCP Server
+  slug: gengo-mcp-server
 modified: '2026-07-19'
 name: Gengo
 nav: Providers
@@ -209,7 +209,7 @@ random_paper: 3
 score:
   band: developing
   composite: 47.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -219,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 47.0
+  previous_composite: 47.1
   provenance:
     conformance: derived
     contracts:
@@ -229,8 +229,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/screenshots/gengo-2026-07-25T215611.png
 security:

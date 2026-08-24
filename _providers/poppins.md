@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -119,7 +119,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 20.9
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -129,7 +129,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.4
+  previous_composite: 20.9
   provenance:
     mcp: first-party
   regulatory:
@@ -138,9 +138,9 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Poppins Domain Security

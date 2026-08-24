@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Reprise MCP server is a remote Model Context Protocol endpoint that lets any MCP-compatible AI assistant — Claude, ChatGPT, Codex, Microsoft Copilot, Gemini, Cursor — drive the whole Reprise platf
@@ -194,8 +194,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: reprise-mcp.yml
-  slug: reprise-mcpyml
+  name: Reprise MCP Server
+  slug: reprise-mcp-server
 modified: 2026-08-13
 name: Reprise
 nav: Providers
@@ -224,7 +224,7 @@ scopes:
 score:
   band: developing
   composite: 43.0
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -234,13 +234,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 43.7
+  previous_composite: 43.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/screenshots/reprise-2026-06-20T192911.png
 security:
@@ -266,7 +266,7 @@ tags:
 - Enterprise Sales
 - Marketing Technology
 - Sales Enablement
-- Model Context Protocol
+- MCP
 - Agent Tooling
 - Demo Analytics
 website: https://www.reprise.com/

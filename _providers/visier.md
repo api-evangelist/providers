@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -505,8 +505,8 @@ image: https://www.visier.com/static/visier-og-image-289b36a6392a307b7342ffcf69b
 layout: provider
 mcp_servers:
 - description: ''
-  name: visier-mcp.yml
-  slug: visier-mcpyml
+  name: Visier Query MCP Server
+  slug: visier-query-mcp-server
 modified: '2026-08-02'
 name: Visier
 nav: Providers
@@ -531,7 +531,7 @@ scopes:
 score:
   band: strong
   composite: 57.5
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -541,7 +541,7 @@ score:
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 68.4
-  previous_composite: 56.5
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -552,8 +552,8 @@ score:
       total: 50
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visier/refs/heads/main/screenshots/visier-2026-08-17T082801.png
 security:
@@ -586,6 +586,6 @@ tags:
 - Compensation
 - Skills
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 website: https://www.visier.com/
 ---

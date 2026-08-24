@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-17'
 name: Appbrew
 nav: Providers
 network: true
-overview: 'Appbrew is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Shopify, Mobile Apps, and Mobile Commerce.
+overview: 'Appbrew is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Shopify, Mobile Apps, and Mobile Commerce.
 
 
   Appbrew''s developer surface includes documentation, support, pricing, engineering blog, signup flow, changelog, and 5 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 20.1
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -102,9 +102,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 19.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appbrew/refs/heads/main/screenshots/appbrew-2026-07-25T200721.png
 security:
@@ -115,12 +115,12 @@ security:
 slug: appbrew
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Shopify
 - Mobile Apps
 - Mobile Commerce
 - App Builder
-- DTC
+- Direct to Consumer
 - React Native
 - Push Notifications
 website: https://appbrew.com/

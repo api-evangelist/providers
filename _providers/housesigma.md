@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,13 +182,13 @@ image: https://housesigma.com/apple-touch-icon.png?v=2
 layout: provider
 mcp_servers:
 - description: ''
-  name: housesigma-mcp.yml
-  slug: housesigma-mcpyml
+  name: HouseSigma MCP Server
+  slug: housesigma-mcp-server
 modified: '2026-07-26'
 name: HouseSigma
 nav: Providers
 network: true
-overview: 'HouseSigma publishes 1 API on the [APIs.io](https://apis.io/) network: Blog Content API. Tagged areas include Real Estate, Canada, Property Listings, MLS, and Valuation.
+overview: 'HouseSigma publishes 1 API on the [APIs.io](https://apis.io/) network: Blog Content API. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and Valuation.
 
 
   HouseSigma''s developer surface includes authentication, engineering blog, code examples, support, FAQ, and 25 more developer resources.'
@@ -196,7 +196,7 @@ random_paper: 6
 score:
   band: thin
   composite: 33.2
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -206,7 +206,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 33.8
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/screenshots/housesigma-2026-08-07T170335.png
 security:
@@ -232,7 +232,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: housesigma
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

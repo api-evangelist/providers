@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for managing email campaigns, mailing lists, subscribers, templates, and analytics in Zoho Campaigns. Supports campaign creation, scheduling, sending, cloning, and reporting as well as contac
@@ -240,7 +240,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.1
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -250,7 +250,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 66.9
+  previous_composite: 71.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -260,8 +260,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-campaigns/refs/heads/main/screenshots/zoho-campaigns-2026-06-20T201934.png
 security:
@@ -292,6 +292,6 @@ tags:
 - Campaign Analytics
 - Marketing Automation
 - Transactional Email
-- Webhooks
+- Webhook
 website: https://www.zoho.com/campaigns/
 ---

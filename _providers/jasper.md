@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -214,9 +214,9 @@ description: Jasper is an AI platform purpose-built for marketing teams that orc
 image: https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/681e121f9445a06741087852_Webclip.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: jasper-mcp.yml
-  slug: jasper-mcpyml
+- description: Jasper's hosted, remote Model Context Protocol server. Lets AI agents in Claude (Web and Desktop), ChatGPT, Microsoft Copilot Studio, OpenAI Agent Builder, and n8n create on-brand content using the cu
+  name: Jasper MCP Server
+  slug: jasper-mcp-server
 modified: '2026-08-13'
 name: Jasper
 nav: Providers
@@ -242,7 +242,7 @@ scopes:
 score:
   band: strong
   composite: 57.4
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -252,7 +252,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 62.2
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,8 +263,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/screenshots/jasper-2026-07-25T223101.png
 security:

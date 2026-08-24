@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Upload and manage application builds under test.
@@ -163,9 +163,9 @@ description: 'SOFY is an AI-powered software testing platform that autonomously 
 image: https://web.sofy.ai/assets/icons/sofy-icon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: sofy-mcp.yml
-  slug: sofy-mcpyml
+- description: Candidate MCP server for the SOFY Public API, derived one-tool-per-operation from the captured OpenAPI. SOFY publishes no official hosted/remote MCP server as of this capture; this is a governance sta
+  name: SOFY MCP Server
+  slug: sofy-mcp-server
 modified: '2026-07-21'
 name: SOFY
 nav: Providers
@@ -181,7 +181,7 @@ random_paper: 8
 score:
   band: developing
   composite: 47.7
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -191,7 +191,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 50.3
+  previous_composite: 47.7
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/screenshots/sofy-2026-08-17T081948.png
 security:

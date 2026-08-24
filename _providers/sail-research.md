@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Submit and manage batches of requests.
@@ -193,9 +193,9 @@ description: 'Sail Research provides infrastructure for long-horizon agents: cos
 image: https://www.sailresearch.com/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sail-research-mcp.yml
-  slug: sail-research-mcpyml
+- description: Sail's hosted documentation MCP server. Connects agents/IDEs to Sail's docs so they can answer questions about models, pricing, completion windows, Sailbox setup and execution, and the platform in gen
+  name: Sail Research MCP Server
+  slug: sail-research-mcp-server
 modified: '2026-07-21'
 name: Sail Research
 nav: Providers
@@ -211,7 +211,7 @@ random_paper: 13
 score:
   band: developing
   composite: 50.6
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 55.2
+  previous_composite: 50.6
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +231,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/screenshots/sail-research-2026-08-17T081712.png
 security:
@@ -251,7 +251,7 @@ tags:
 - LLM
 - Inference
 - Agents
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 website: https://docs.sailresearch.com
 ---

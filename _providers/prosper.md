@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API for Prosper investors and third-party agents to view account information, search active loan listings, place orders to purchase Notes, and retrieve owned Notes, invested loans, and loan pa
@@ -123,8 +123,8 @@ image: https://www.prosper.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: prosper-mcp.yml
-  slug: prosper-mcpyml
+  name: Prosper MCP Server
+  slug: prosper-mcp-server
 modified: '2026-07-20'
 name: Prosper
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 2
 score:
   band: thin
   composite: 27.7
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -147,13 +147,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.0
+  previous_composite: 27.7
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -174,6 +174,6 @@ tags:
 - Investing
 - Personal Loans
 - Consumer Credit
-- Financial Services
+- Financial-Services
 website: https://www.prosper.com
 ---

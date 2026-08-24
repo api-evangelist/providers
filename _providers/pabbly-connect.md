@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Pabbly Connect is a workflow automation platform for connecting cloud applications and automating business processes.
@@ -81,7 +81,7 @@ modified: 2026-04-28
 name: Pabbly Connect
 nav: Providers
 network: true
-overview: 'Pabbly Connect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include No-Code and Workflow Automation.
+overview: 'Pabbly Connect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include No-Code and Workflow-Automation.
 
 
   Pabbly Connect''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.6
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -107,9 +107,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pabbly-connect/refs/heads/main/screenshots/pabbly-connect-2026-06-20T191305.png
 security:
@@ -128,6 +128,6 @@ security:
 slug: pabbly-connect
 tags:
 - No-Code
-- Workflow Automation
+- Workflow-Automation
 website: https://www.pabbly.com/connect/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for text-to-3D, image-to-3D, multi-image-to-3D, mesh refinement, retexturing, animation, and rigging. Async task-based pattern (POST /v2/openapi/task to submit, GET to poll) at https://api.tr
@@ -81,7 +81,7 @@ modified: '2026-05-08'
 name: Tripo3D
 nav: Providers
 network: true
-overview: 'Tripo3D publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, 3D, Generation, API, and Mesh.
+overview: 'Tripo3D publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, 3D, Generation, Mesh, and Texturing.
 
 
   Tripo3D''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.5
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -107,9 +107,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripo3d/refs/heads/main/screenshots/tripo3d-2026-06-20T195747.png
 security:
@@ -119,10 +119,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: tripo3d
 tags:
-- AI
+- Artificial Intelligence
 - 3D
 - Generation
-- API
 - Mesh
 - Texturing
 website: https://www.tripo3d.ai/

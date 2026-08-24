@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Bearer-auth REST API and multiplexed WebSocket streaming surface for the Sequence Markets trading OS — credentials & wallets, market data, orders & execution graphs, positions & balances, prediction m
@@ -159,8 +159,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sequence-m
 layout: provider
 mcp_servers:
 - description: ''
-  name: sequence-markets-mcp.yml
-  slug: sequence-markets-mcpyml
+  name: Sequence Markets MCP Server
+  slug: sequence-markets-mcp-server
 modified: '2026-07-21'
 name: Sequence Markets
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 2
 score:
   band: developing
   composite: 43.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -186,7 +186,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 43.0
+  previous_composite: 43.2
   provenance:
     conformance: derived
     mcp: derived
@@ -197,8 +197,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/screenshots/sequence-markets-2026-08-17T081812.png
 security:
@@ -222,7 +222,7 @@ tags:
 - Algorithmic Trading
 - DeFi
 - Market Data
-- FinTech
+- Fintech
 - Developer Tools
 website: https://sequencemkts.com/
 ---

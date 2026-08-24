@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Workspace-scoped REST API (the "luminork" server) for automating System Initiative: create and apply change sets, model/discover/import components, run functions, and manage actions and secrets. Beare'
@@ -123,8 +123,8 @@ image: https://github.com/systeminit.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: system-initiative-mcp.yml
-  slug: system-initiative-mcpyml
+  name: System Initiative MCP Server
+  slug: system-initiative-mcp-server
 modified: '2026-07-21'
 name: System Initiative
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 24.2
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -147,13 +147,13 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.3
+  previous_composite: 24.2
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: System Initiative Authentication

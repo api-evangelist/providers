@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for Faire brands to manage products, inventory, orders, shipments, and returns.
@@ -88,7 +88,7 @@ modified: '2026-05-08'
 name: Faire
 nav: Providers
 network: true
-overview: Faire publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Marketplace, Wholesale, Retail, and Ecommerce.
+overview: Faire publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Marketplace, Wholesale, Retail, and E-Commerce.
 plans:
 - name: Faire Plans Pricing
   plan_count: 2
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.7
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -111,9 +111,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 9.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -129,6 +129,6 @@ tags:
 - Marketplace
 - Wholesale
 - Retail
-- Ecommerce
+- E-Commerce
 website: https://www.faire.com/
 ---

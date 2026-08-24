@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ modified: '2026-07-12'
 name: Kora
 nav: Providers
 network: true
-overview: 'Kora publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Balances API, Charges API, Currency Conversion API, and 4 more. Tagged areas include Payments, Payment Gateway, Africa, Nigeria, and Collections.
+overview: 'Kora publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Balances API, Charges API, Currency Conversion API, and 4 more. Tagged areas include Payments, Payment Gateway, Africa, Nigeria, and Collection.
 
 
   Kora''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.5
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -169,7 +169,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.2
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +183,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/screenshots/korapay-2026-07-25T224217.png
 security:
@@ -202,7 +202,7 @@ tags:
 - Payment Gateway
 - Africa
 - Nigeria
-- Collections
+- Collection
 - Payouts
 - Disbursements
 - Virtual Bank Account

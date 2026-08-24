@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public GraphQL API for the Glue workspace — send messages (sendMessage), read workspaces, threads, and groups, with Relay cursor-connection pagination and OAuth2 bearer auth.
@@ -154,14 +154,14 @@ description: Glue is a team communication platform that replaces channel-based c
 image: https://glue.ai/images/opengraph.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: glue-mcp.yml
-  slug: glue-mcpyml
+- description: Glue's hosted remote MCP server for its team-communication workspace. The /mcp endpoint on api.glue.ai returns HTTP 401 with a WWW-Authenticate challenge whose resource_metadata points at https://mcp.
+  name: Glue MCP Server
+  slug: glue-mcp-server
 modified: '2026-07-19'
 name: Glue
 nav: Providers
 network: true
-overview: 'Glue publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Team Communication, Messaging, and Collaboration.
+overview: 'Glue publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Team Communication, Messaging, and Collaboration.
 
 
   The Glue catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -177,7 +177,7 @@ scopes:
 score:
   band: developing
   composite: 46.2
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -187,13 +187,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 49.2
+  previous_composite: 46.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/screenshots/glue-2026-07-25T215936.png
 security:
@@ -208,12 +208,12 @@ security:
 slug: glue
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Team Communication
 - Messaging
 - Collaboration
 - GraphQL
-- Webhooks
+- Webhook
 - MCP
 - Productivity
 - AI Agents

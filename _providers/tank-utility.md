@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Exchange account credentials for a short-lived API token.
@@ -140,8 +140,8 @@ image: https://tankutility.com/wp-content/uploads/2025/06/logo_merge.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: tank-utility-mcp.yml
-  slug: tank-utility-mcpyml
+  name: Tank Utility MCP Server
+  slug: tank-utility-mcp-server
 modified: '2026-07-21'
 name: Tank Utility
 nav: Providers
@@ -154,7 +154,7 @@ random_paper: 3
 score:
   band: thin
   composite: 37.5
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -164,7 +164,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 36.2
+  previous_composite: 37.5
   provenance:
     conformance: derived
     contracts:
@@ -180,8 +180,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

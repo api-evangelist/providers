@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the 99 Counties Shopify store via the Universal Commerce Protocol over MCP — catalog search, cart, checkout, fulfillment, and buyer-approved order completion.
@@ -111,8 +111,8 @@ image: https://cdn.shopify.com/s/files/1/0350/7175/4378/files/Beef_Sub_Nav_f7d12
 layout: provider
 mcp_servers:
 - description: ''
-  name: 99-counties-mcp.yml
-  slug: 99-counties-mcpyml
+  name: 99 Counties MCP Server
+  slug: 99-counties-mcp-server
 modified: '2026-07-17'
 name: 99 Counties
 nav: Providers
@@ -129,24 +129,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.7
-  delta: -0.7
+  composite: 22.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 25.6
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.4
+  previous_composite: 22.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/screenshots/99-counties-2026-08-07T160727.png
 security:
@@ -166,7 +166,7 @@ tags:
 - Regenerative Agriculture
 - Food and Beverage
 - Shopify
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 website: https://99counties.com
 ---

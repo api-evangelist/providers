@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-05-19'
 name: Google Cloud Data Fusion
 nav: Providers
 network: true
-overview: 'Google Cloud Data Fusion publishes 3 APIs on the [APIs.io](https://apis.io/) network: Instances API, Locations API, and Operations API. Tagged areas include Data Integration, Data Pipelines, ETL, and Google Cloud.
+overview: 'Google Cloud Data Fusion publishes 3 APIs on the [APIs.io](https://apis.io/) network: Instances API, Locations API, and Operations API. Tagged areas include Data Integration, Data Pipeline, ETL, and Google Cloud.
 
 
   The Google Cloud Data Fusion catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 42.7
-  delta: -11.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -210,7 +210,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 53.8
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -218,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/screenshots/google-cloud-data-fusion-2026-06-20T182058.png
 security:
 - kind: authentication
@@ -238,7 +238,7 @@ security:
 slug: google-cloud-data-fusion
 tags:
 - Data Integration
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Google Cloud
 website: https://cloud.google.com/data-fusion

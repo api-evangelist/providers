@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: '2026-08-08'
 name: SimpleLegal
 nav: Providers
 network: true
-overview: 'SimpleLegal publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cost Codes API, Invoices API, Matters API, and 3 more. Tagged areas include eBilling, Enterprise Legal Management, Legal Operations, Legal Spend Management, and Matter Management.
+overview: 'SimpleLegal publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cost Codes API, Invoices API, Matters API, and 3 more. Tagged areas include E-Billing, Enterprise Legal Management, Legal Operations, Legal Spend Management, and Matter Management.
 
 
   The SimpleLegal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -237,18 +237,18 @@ rules:
   slug: simplelegal-rules
 score:
   band: thin
-  composite: 36.5
-  delta: -8.2
+  composite: 38.1
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 60.6
     developer_ergonomics: 26.2
-    discoverability: 74.1
-    governance: 9.8
+    discoverability: 85.2
+    governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 44.7
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -256,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/screenshots/simplelegal-2026-06-20T193933.png
 security:
 - kind: authentication
@@ -275,7 +275,7 @@ security:
   summary_line: security.txt · contact published
 slug: simplelegal
 tags:
-- eBilling
+- E-Billing
 - Enterprise Legal Management
 - Legal Operations
 - Legal Spend Management

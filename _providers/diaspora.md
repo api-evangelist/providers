@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: The Aspects API from Diaspora — 2 operation(s) for aspects.
@@ -267,9 +267,9 @@ description: diaspora* is a privacy-aware, decentralized, open source social net
 image: https://diasporafoundation.org/assets/logo-e280790b46ace035cde8657c606b7b8cf6d925c7313a48f3d53a6340f59d5dfd.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: diaspora-mcp.yml
-  slug: diaspora-mcpyml
+- description: 'A candidate Model Context Protocol tool surface for the diaspora* API. The decentralized design shapes the whole server: a pod host is not configuration that can be baked in once, it is a required par'
+  name: Diaspora MCP Server
+  slug: diaspora-mcp-server
 modified: '2026-07-20'
 name: Diaspora
 nav: Providers
@@ -287,7 +287,7 @@ scopes:
 score:
   band: developing
   composite: 44.4
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -297,7 +297,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 43.3
+  previous_composite: 44.4
   provenance:
     conformance: derived
     contracts:
@@ -307,8 +307,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/screenshots/diaspora-2026-07-25T211929.png
 security:
@@ -331,7 +331,7 @@ tags:
 - Social Networking
 - Decentralized
 - Federated
-- Open Source
+- Open-Source
 - Privacy
 - Fediverse
 - Messaging

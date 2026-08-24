@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -244,16 +244,16 @@ rules:
   slug: reolink-rules
 score:
   band: thin
-  composite: 31.8
-  delta: -6.5
+  composite: 32.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 61.7
     developer_ergonomics: 19.0
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 13.2
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -261,7 +261,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 38.3
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -269,9 +269,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/screenshots/reolink-2026-06-20T192902.png
 security:
 - kind: authentication

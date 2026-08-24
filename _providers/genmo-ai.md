@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Third-party hosted access to Genmo''s Mochi 1 via Replicate''s predictions API (model identifier genmoai/mochi-1). Runs on Nvidia H100 hardware, ~$0.42 per run, typically completing within 5 minutes at '
@@ -79,7 +79,7 @@ modified: '2026-07-25'
 name: Genmo
 nav: Providers
 network: true
-overview: 'Genmo publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video Generation, AI Video, Generative AI, Text-to-Video, and Open Source.
+overview: 'Genmo publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video Generation, AI Video, Generative AI, Text-to-Video, and Open-Source.
 
 
   Genmo''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
@@ -91,7 +91,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 16.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -101,9 +101,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genmo-ai/refs/heads/main/screenshots/genmo-ai-2026-07-25T215625.png
 slug: genmo-ai
@@ -112,7 +112,7 @@ tags:
 - AI Video
 - Generative AI
 - Text-to-Video
-- Open Source
+- Open-Source
 - Mochi
 - Diffusion Model
 website: https://www.genmo.ai

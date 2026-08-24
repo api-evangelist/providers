@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Auth API from Altinity — 8 operation(s) for auth.
@@ -145,9 +145,9 @@ description: Altinity is the enterprise provider for open-source ClickHouse, the
 image: https://altinity.com/wp-content/uploads/2025/06/sharing-icon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: altinity-mcp.yml
-  slug: altinity-mcpyml
+- description: Official Altinity Model Context Protocol (MCP) server for using ClickHouse databases in AI agents. Written in Go, Apache-2.0. Exposes SQL query execution and dynamically generates tools and resource t
+  name: Altinity MCP Server
+  slug: altinity-mcp-server
 modified: '2026-07-17'
 name: Altinity
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 17
 score:
   band: developing
   composite: 43.6
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 47.3
+  previous_composite: 43.6
   provenance:
     conformance: derived
     contracts:
@@ -180,8 +180,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/screenshots/altinity-2026-07-25T195834.png
 security:
@@ -203,6 +203,6 @@ tags:
 - Managed Cloud
 - Kubernetes
 - Real-Time Analytics
-- Open Source
+- Open-Source
 website: https://altinity.com/
 ---

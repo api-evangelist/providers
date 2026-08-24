@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-20'
 name: MyTime
 nav: Providers
 network: true
-overview: 'MyTime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Scheduling, Appointments, Booking, and Point of Sale.
+overview: 'MyTime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Scheduling, Appointments, Booking, and Point-of-Sale.
 
 
   MyTime''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 14.5
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -98,15 +98,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 18.0
+  previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mytime/refs/heads/main/screenshots/mytime-2026-08-07T184548.png
 security:
@@ -120,7 +120,7 @@ tags:
 - Scheduling
 - Appointments
 - Booking
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Retail
 - Franchise

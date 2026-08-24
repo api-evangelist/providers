@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -370,18 +370,18 @@ rules:
   slug: uwa-rules
 score:
   band: thin
-  composite: 37.8
-  delta: -5.3
+  composite: 38.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 60.4
     developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 43.1
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -395,9 +395,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/screenshots/uwa-2026-06-20T200736.png
 security:
 - kind: authentication

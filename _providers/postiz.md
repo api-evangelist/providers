@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 122
@@ -282,13 +282,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postiz.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: postiz-mcp.yml
-  slug: postiz-mcpyml
+  name: Postiz MCP Server
+  slug: postiz-mcp-server
 modified: '2026-08-13'
 name: Postiz
 nav: Providers
 network: true
-overview: 'Postiz publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Integrations API, Notifications API, and 4 more. Tagged areas include Social Media, Scheduling, Open Source, Content, and Marketing.
+overview: 'Postiz publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Integrations API, Notifications API, and 4 more. Tagged areas include Social-Media, Scheduling, Open-Source, Content, and Marketing.
 
 
   The Postiz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -312,7 +312,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.9
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -322,7 +322,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 89.5
-  previous_composite: 74.2
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,8 +333,8 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png
 security:
@@ -352,9 +352,9 @@ security:
   summary_line: contact published
 slug: postiz
 tags:
-- Social Media
+- Social-Media
 - Scheduling
-- Open Source
+- Open-Source
 - Content
 - Marketing
 - Agents

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -191,9 +191,9 @@ description: Bucket (rebranded to Reflag in 2026, reflag.com) is a TypeScript-fi
 image: https://cdn.prod.website-files.com/68a872edf3df6064de547670/68b8414134c540f12c2928bc_reflag-dynamic-favicon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: bucket-mcp.yml
-  slug: bucket-mcpyml
+- description: 'Official hosted/remote MCP server that connects an AI coding agent in the editor to a Reflag account, letting it interpret and manage feature flags and understand their state and relationships within '
+  name: Bucket MCP Server
+  slug: bucket-mcp-server
 modified: '2026-07-18'
 name: Bucket
 nav: Providers
@@ -206,7 +206,7 @@ random_paper: 8
 score:
   band: strong
   composite: 55.1
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -216,7 +216,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 58.6
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,8 +227,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/screenshots/bucket-2026-07-25T204024.png
 security:
@@ -255,7 +255,7 @@ tags:
 - Feature Management
 - Feature Flagging
 - Developer Tools
-- SaaS
+- Software-as-a-Service
 - Entitlements
 - Experimentation
 - MCP

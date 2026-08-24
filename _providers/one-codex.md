@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -337,8 +337,8 @@ image: https://www.onecodex.com/wp-content/uploads/2019/03/one-codex-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: one-codex-mcp.yml
-  slug: one-codex-mcpyml
+  name: One Codex MCP Server
+  slug: one-codex-mcp-server
 modified: '2026-07-20'
 name: One Codex
 nav: Providers
@@ -354,7 +354,7 @@ random_paper: 16
 score:
   band: strong
   composite: 59.4
-  delta: 6.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -364,7 +364,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 53.3
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -381,9 +381,9 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/screenshots/one-codex-2026-08-07T190241.png
 security:
 - kind: authentication
@@ -409,6 +409,5 @@ tags:
 - Sequencing
 - Healthcare
 - Data Platform
-- API
 website: https://www.onecodex.com/
 ---

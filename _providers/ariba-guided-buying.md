@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -86,6 +86,10 @@ collections:
   name: Ariba Guided Buying - Asset Management Requisitions Shops API
   slug: open-ariba-guided-buying-shops-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -349,7 +353,7 @@ jsonld:
   property_count: 15
   slug: ariba-guided-buying-catalog-shop-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Ariba Guided Buying
 nav: Providers
 network: true
@@ -359,7 +363,7 @@ overview: 'Ariba Guided Buying publishes 2 APIs on the [APIs.io](https://apis.io
   The Ariba Guided Buying catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Ariba Guided Buying''s developer surface includes authentication, documentation, getting-started guide, developer portal, support, code examples, and 20 more developer resources.'
+  Ariba Guided Buying''s developer surface includes authentication, documentation, getting-started guide, developer portal, support, code examples, and 21 more developer resources.'
 plans:
 - name: Ariba Guided Buying Plans Pricing
   plan_count: 3
@@ -398,18 +402,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.8
-  delta: -13.4
+  composite: 31.2
+  delta: 1.9
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.5
-    developer_ergonomics: 14.3
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 42.2
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     contracts:
@@ -417,9 +421,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/screenshots/ariba-guided-buying-2026-07-25T201151.png
 security:
 - kind: authentication

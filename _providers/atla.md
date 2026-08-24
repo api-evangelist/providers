@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The SDK API from Atla — 3 operation(s) for sdk.
@@ -133,14 +133,14 @@ description: 'Atla builds frontier AI evaluation models (Selene) and Atla Insigh
 image: https://avatars.githubusercontent.com/atla-ai
 layout: provider
 mcp_servers:
-- description: ''
-  name: atla-mcp.yml
-  slug: atla-mcpyml
+- description: Official MCP server providing a standardized interface for LLMs to interact with the Atla API (Selene evaluation). Repository archived by the provider.
+  name: Atla MCP Server
+  slug: atla-mcp-server
 modified: '2026-07-18'
 name: Atla
 nav: Providers
 network: true
-overview: 'Atla publishes 1 API on the [APIs.io](https://apis.io/) network: SDK API. Tagged areas include Company, SaaS, Artificial Intelligence, LLM Evaluation, and AI Agents.
+overview: 'Atla publishes 1 API on the [APIs.io](https://apis.io/) network: SDK API. Tagged areas include Company, Software-as-a-Service, Artificial Intelligence, LLM Evaluation, and AI Agents.
 
 
   Atla''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
@@ -148,7 +148,7 @@ random_paper: 19
 score:
   band: thin
   composite: 36.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -158,7 +158,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 37.9
+  previous_composite: 36.6
   provenance:
     conformance: derived
     contracts:
@@ -168,8 +168,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/screenshots/atla-2026-07-25T201538.png
 security:
@@ -184,7 +184,7 @@ security:
 slug: atla
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - LLM Evaluation
 - AI Agents

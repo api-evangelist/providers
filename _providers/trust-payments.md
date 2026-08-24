@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Server-to-server JSON API (the Secure Trading Payment Platform / STPP) for card processing and management on the TRU Connect gateway. Supports request types including AUTH, ACCOUNTCHECK, REFUND, SUBSC
@@ -166,7 +166,7 @@ random_paper: 13
 score:
   band: developing
   composite: 53.4
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -176,7 +176,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 48.9
+  previous_composite: 53.4
   provenance:
     conformance: first-party
   regulatory:
@@ -185,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/screenshots/trust-payments-2026-08-17T082454.png
 security:
@@ -207,10 +207,10 @@ tags:
 - Acquiring
 - Card Payments
 - Tokenization
-- Subscriptions
-- 3-D Secure
-- Point of Sale
-- Webhooks
+- Subscription
+- 3D Secure
+- Point-of-Sale
+- Webhook
 - Payouts
 website: https://www.trustpayments.com/
 ---

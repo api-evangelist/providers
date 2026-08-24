@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -393,18 +393,18 @@ rules:
   slug: alation-spectral-rules
 score:
   band: thin
-  composite: 38.0
-  delta: -6.7
+  composite: 38.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.2
     developer_ergonomics: 26.2
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 44.7
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -412,9 +412,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/screenshots/alation-2026-06-20T171502.png
 security:
 - kind: authentication
@@ -442,7 +442,7 @@ tags:
 - Data Quality
 - Business Glossary
 - Metadata Management
-- AI
+- Artificial Intelligence
 use_cases:
 - description: Enable data teams to search and find trusted data assets across all data sources using metadata-enriched catalog browsing and search.
   name: Enterprise Data Discovery

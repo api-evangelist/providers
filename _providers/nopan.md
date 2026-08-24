@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -207,14 +207,14 @@ description: Nopan is a specialized Payment Service Provider (PSP), built by for
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nopan.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: nopan-mcp.yml
-  slug: nopan-mcpyml
+- description: Candidate MCP tool surface derived one-to-one from the Nopan OpenAPI operations. Nopan publishes an "AI Skills" guide (https://docs.nopan.com/guides/ai-skills) but no hosted/remote MCP server was foun
+  name: Nopan MCP Server
+  slug: nopan-mcp-server
 modified: '2026-07-20'
 name: Nopan
 nav: Providers
 network: true
-overview: 'Nopan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication APIs API, Payment Processing APIs API, Reporting APIs API, and 2 more. Tagged areas include Payments, Payment Service Provider, Account to Account, Wallet Payments, and Open Banking.
+overview: 'Nopan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication APIs API, Payment Processing APIs API, Reporting APIs API, and 2 more. Tagged areas include Payments, Payment Service Provider, Account-to-Account, Wallet Payments, and Open Banking.
 
 
   The Nopan catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -230,7 +230,7 @@ scopes:
 score:
   band: developing
   composite: 52.2
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -240,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 48.5
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +257,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/screenshots/nopan-2026-08-07T185510.png
 security:
@@ -274,7 +274,7 @@ slug: nopan
 tags:
 - Payments
 - Payment Service Provider
-- Account to Account
+- Account-to-Account
 - Wallet Payments
 - Open Banking
 - PSD2

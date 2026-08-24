@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -186,16 +186,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sybilion.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: sybilion-mcp.yml
-  slug: sybilion-mcpyml
+  name: Sybilion MCP Server
+  slug: sybilion-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Sybilion MCP Server
+  slug: sybilion-mcp-server-2
 modified: '2026-08-11'
 name: Sybilion
 nav: Providers
 network: true
-overview: 'Sybilion publishes 1 API on the [APIs.io](https://apis.io/) network: Operational API. Tagged areas include Industrial market intelligence, Commodity price forecasting, Economic forecasting, Time-series forecasting, and Procurement.
+overview: 'Sybilion publishes 1 API on the [APIs.io](https://apis.io/) network: Operational API. Tagged areas include Industrial market intelligence, Commodity price forecasting, Economic Forecasting, Time-series forecasting, and Procurement.
 
 
   Sybilion''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
@@ -216,7 +216,7 @@ scopes:
 score:
   band: developing
   composite: 47.3
-  delta: -7.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -226,7 +226,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 54.5
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,9 +237,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/screenshots/sybilion-2026-08-17T082216.png
 security:
 - kind: authentication
@@ -254,15 +254,15 @@ slug: sybilion
 tags:
 - Industrial market intelligence
 - Commodity price forecasting
-- Economic forecasting
+- Economic Forecasting
 - Time-series forecasting
 - Procurement
-- Supply-chain risk
+- Supply Chain Risk
 - Trading analytics
 - AI decision support
 - MCP
-- Agent-native
-- Causal inference
-- Anomaly detection
+- agent-native
+- Causal Inference
+- Anomaly Detection
 website: https://www.sybilion.com/
 ---

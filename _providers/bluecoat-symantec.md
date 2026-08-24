@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/symantec/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -72,19 +76,19 @@ created: '2026-07-17'
 description: Blue Coat Systems was a web-security and network-forensics vendor best known for its ProxySG secure web gateway appliances, SSL Visibility, WebPulse/Global Intelligence Network threat intelligence, and cloud web security (the Web Security Service). Bain Capital led a consortium that took Blue Coat private in 2015; Symantec acquired the company in 2016, and Broadcom acquired Symantec's enterprise security business in 2019. Blue Coat's technology now ships inside Broadcom's Symantec Enterprise Cloud portfolio as Cloud Secure Web Gateway (Cloud SWG), Secure Web Gateway (ProxySG/ASG), SSL Visibility, CASB (CloudSOC), and DLP. Product documentation and REST APIs are published on the Broadcom TechDocs portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluecoat-symantec.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-21'
 name: Bluecoat (Symantec)
 nav: Providers
 network: true
 overview: 'Bluecoat (Symantec) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Web Security, Secure Web Gateway, and Network Security.
 
 
-  Bluecoat (Symantec)''s developer surface includes developer portal, documentation, support, engineering blog, and 5 more developer resources.'
+  Bluecoat (Symantec)''s developer surface includes developer portal, documentation, support, engineering blog, and 6 more developer resources.'
 random_paper: 17
 score:
   band: emerging
   composite: 14.5
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -94,9 +98,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecoat-symantec/refs/heads/main/screenshots/bluecoat-symantec-2026-07-25T203444.png
 security:

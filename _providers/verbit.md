@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Programmatic access to Verbit''s transcription and captioning platform: live booking / real-time captioning, post-production transcription jobs, caption control, search, and AI insights.'
@@ -175,8 +175,8 @@ image: https://verbit.ai/wp-content/themes/verbit/images/logo-final2.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: verbit-mcp.yml
-  slug: verbit-mcpyml
+  name: VerbIT MCP Server
+  slug: verbit-mcp-server
 modified: '2026-07-21'
 name: VerbIT
 nav: Providers
@@ -192,7 +192,7 @@ random_paper: 1
 score:
   band: developing
   composite: 47.5
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -202,13 +202,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 54.4
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/screenshots/verbit-2026-08-17T082729.png
 security:
 - kind: authentication

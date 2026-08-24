@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -243,8 +243,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketdata
 layout: provider
 mcp_servers:
 - description: ''
-  name: marketdata-app-mcp.yml
-  slug: marketdata-app-mcpyml
+  name: Market Data MCP Server
+  slug: market-data-mcp-server
 modified: '2026-07-22'
 name: Market Data
 nav: Providers
@@ -265,7 +265,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 68.0
-  delta: 4.7
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -275,7 +275,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 71.1
-  previous_composite: 63.3
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,8 +292,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:

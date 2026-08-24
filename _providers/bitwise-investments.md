@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Bitwise index, ETF, and fund data API — crypto asset prices, index values, and index methodologies. Authentication uses an Authorization header; API keys are issued on request via api@bitwiseinvestmen
@@ -105,7 +105,7 @@ modified: '2026-07-18'
 name: Bitwise Investments
 nav: Providers
 network: true
-overview: 'Bitwise Investments publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Asset Management, ETF, and Index Funds.
+overview: 'Bitwise Investments publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Asset Management, ETFs, and Index Funds.
 
 
   Bitwise Investments'' developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 10 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 24.8
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -123,15 +123,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 26.0
+  previous_composite: 24.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwise-investments/refs/heads/main/screenshots/bitwise-investments-2026-07-25T203216.png
 security:
@@ -148,10 +148,10 @@ tags:
 - Company
 - Crypto
 - Asset Management
-- ETF
+- ETFs
 - Index Funds
 - Market Data
-- Financial Services
+- Financial-Services
 - Investment Management
 website: https://bitwiseinvestments.com
 ---

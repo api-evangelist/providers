@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
@@ -191,7 +191,7 @@ modified: '2026-08-05'
 name: Star Therapeutics
 nav: Providers
 network: true
-overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, hematology, and immunology.
+overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Hematology, and Immunology.
 
 
   Star Therapeutics'' developer surface includes product news, authentication, and 23 more developer resources.'
@@ -199,7 +199,7 @@ random_paper: 20
 score:
   band: developing
   composite: 39.8
-  delta: 8.9
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 39.8
   provenance:
     conformance: derived
     contracts:
@@ -224,9 +224,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Star Therapeutics Authentication
@@ -239,14 +239,14 @@ security:
 slug: star-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- hematology
-- immunology
-- rare-disease
-- antibody-therapeutics
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Hematology
+- Immunology
+- Rare Disease
+- Antibody Therapeutics
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://star-therapeutics.com/
 ---

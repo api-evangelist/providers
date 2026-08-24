@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Buyers API from Kriya — 6 operation(s) for buyers.
@@ -192,8 +192,8 @@ image: https://cdn.kriya.co/images/KriyaPaymentsAPI-API-Integration-Sequence-Flo
 layout: provider
 mcp_servers:
 - description: ''
-  name: kriya-mcp.yml
-  slug: kriya-mcpyml
+  name: Kriya MCP Server
+  slug: kriya-mcp-server
 modified: '2026-07-19'
 name: Kriya
 nav: Providers
@@ -209,7 +209,7 @@ random_paper: 19
 score:
   band: developing
   composite: 42.3
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -219,7 +219,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 48.2
+  previous_composite: 42.3
   provenance:
     conformance: derived
     contracts:
@@ -235,9 +235,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/screenshots/kriya-2026-07-25T224301.png
 security:
 - kind: authentication

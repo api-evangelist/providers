@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -147,7 +147,7 @@ modified: '2026-08-14'
 name: Jeeva AI
 nav: Providers
 network: true
-overview: 'Jeeva AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, AI Agents, Digital Workers, and Sales Automation.
+overview: 'Jeeva AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Digital Workers, and Sales Automation.
 
 
   Jeeva AI''s developer surface includes signup flow, pricing, engineering blog, documentation, getting-started guide, support, and 17 more developer resources.'
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -173,11 +173,11 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 35.4
+  previous_composite: 34.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jeeva-ai/refs/heads/main/screenshots/jeeva-ai-2026-07-25T223125.png
 security:
@@ -192,7 +192,7 @@ security:
 slug: jeeva-ai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Digital Workers
 - Sales Automation

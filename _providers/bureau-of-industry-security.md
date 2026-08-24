@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ modified: '2026-04-21'
 name: Bureau of Industry Security
 nav: Providers
 network: true
-overview: 'Bureau of Industry Security publishes 1 API on the [APIs.io](https://apis.io/) network: Search API. Tagged areas include Compliance, Export Controls, Federal Government, Industries, and National Security.
+overview: 'Bureau of Industry Security publishes 1 API on the [APIs.io](https://apis.io/) network: Search API. Tagged areas include Compliance, Export Controls, Federal-Government, Industries, and National Security.
 
 
   Bureau of Industry Security''s developer surface includes authentication and 8 more developer resources.'
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.0
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -135,7 +135,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 30.5
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-security/refs/heads/main/screenshots/bureau-of-industry-security-2026-06-20T173808.png
 security:
@@ -166,7 +166,7 @@ slug: bureau-of-industry-security
 tags:
 - Compliance
 - Export Controls
-- Federal Government
+- Federal-Government
 - Industries
 - National Security
 - Screening Lists

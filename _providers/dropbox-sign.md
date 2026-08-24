@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ modified: '2026-05-30'
 name: Dropbox Sign
 nav: Providers
 network: true
-overview: 'Dropbox Sign publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Events and Callbacks API, Account API, API App API, and 3 more. Tagged areas include eSignature, Electronic Signature, Document Signing, Workflow Automation, and Documents.
+overview: 'Dropbox Sign publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Events and Callbacks API, Account API, API App API, and 3 more. Tagged areas include E-Signature, Electronic Signature, Document Signing, Workflow-Automation, and Documents.
 
 
   The Dropbox Sign catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -181,7 +181,7 @@ scopes:
 score:
   band: thin
   composite: 35.5
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -191,7 +191,7 @@ score:
     discoverability: 72.2
     governance: 11.4
     operational_transparency: 2.6
-  previous_composite: 38.8
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/screenshots/dropbox-sign-2026-06-20T180245.png
 security:
@@ -218,10 +218,10 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR, CSA STAR
 slug: dropbox-sign
 tags:
-- eSignature
+- E-Signature
 - Electronic Signature
 - Document Signing
-- Workflow Automation
+- Workflow-Automation
 - Documents
 website: https://sign.dropbox.com
 ---

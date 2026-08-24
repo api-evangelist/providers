@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -224,9 +224,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/badger-maps.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: badger-maps-mcp.yml
-  slug: badger-maps-mcpyml
+- description: Badger Maps ships no Model Context Protocol server. A search of the provider docs, the company GitHub organization (github.com/BadgerMaps), npm and the public MCP registries on 2026-08-13 found no fir
+  name: Badger Maps MCP Server
+  slug: badger-maps-mcp-server
 modified: '2026-08-13'
 name: Badger Maps
 nav: Providers
@@ -250,7 +250,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.3
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -260,7 +260,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 67.7
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,9 +271,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png
 security:
 - kind: authentication

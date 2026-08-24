@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Ellipsis coding-agent platform. Start and manage agent sessions, read back typed results and transcripts, manage agent configs, defaults and templates, set sandbox variables, list int
@@ -127,8 +127,8 @@ image: https://www.ellipsis.dev/brand/lockup-dark-transparent.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ellipsis-mcp.yml
-  slug: ellipsis-mcpyml
+  name: Ellipsis MCP Server
+  slug: ellipsis-mcp-server
 modified: '2026-07-19'
 name: Ellipsis
 nav: Providers
@@ -141,7 +141,7 @@ random_paper: 8
 score:
   band: thin
   composite: 35.5
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -151,12 +151,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 34.1
+  previous_composite: 35.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsis/refs/heads/main/screenshots/ellipsis-2026-07-25T213149.png
 security:

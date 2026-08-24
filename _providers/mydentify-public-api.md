@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -16,10 +16,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-19'
+  score: 35.5
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -190,31 +190,31 @@ image: https://mydentify.com/favicon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: mydentify-public-api-mcp.yml
-  slug: mydentify-public-api-mcpyml
+  name: Mydentify Public API MCP Server
+  slug: mydentify-public-api-mcp-server
 modified: '2026-08-09'
 name: Mydentify Public API
 nav: Providers
 network: true
-overview: 'Mydentify Public API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Directories API, Directories.json API, Imports API, and 3 more. Tagged areas include product discovery, startup directories, leaderboards, research, and SaaS.
+overview: 'Mydentify Public API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Directories API, Directories.json API, Imports API, and 3 more. Tagged areas include Product Discovery, startup directories, Leaderboards, Research, and Software-as-a-Service.
 
 
   Mydentify Public API''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 19 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 40.2
-  delta: -1.1
+  composite: 41.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 43.0
     developer_ergonomics: 45.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 41.3
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +225,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -239,15 +239,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: mydentify-public-api
 tags:
-- product discovery
+- Product Discovery
 - startup directories
-- leaderboards
-- research
-- SaaS
-- developer tools
+- Leaderboards
+- Research
+- Software-as-a-Service
+- Developer Tools
 - agent-native
-- llms.txt
-- agent skills
-- directories
+- llms-txt
+- Agent Skills
+- Directories
 website: https://mydentify.com
 ---

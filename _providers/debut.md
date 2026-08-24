@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The agent-facing commerce API for Debut's direct-to-consumer skincare brand DEINDE. It is a Shopify-hosted Universal Commerce Protocol (UCP) service exposed over MCP at https://www.deinde.com/api/ucp/
@@ -138,8 +138,8 @@ image: https://cdn.prod.website-files.com/697a5ef4d9ca0a3187500d0b/697a5ef4d9ca0
 layout: provider
 mcp_servers:
 - description: ''
-  name: debut-mcp.yml
-  slug: debut-mcpyml
+  name: DEINDE Commerce (UCP MCP)
+  slug: deinde-commerce-ucp-mcp
 modified: '2026-08-12'
 name: Debut
 nav: Providers
@@ -165,7 +165,7 @@ scopes:
 score:
   band: emerging
   composite: 20.1
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -175,13 +175,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.6
+  previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -203,7 +203,7 @@ tags:
 - Synthetic Biology
 - Artificial Intelligence
 - Manufacturing
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 website: https://www.debutbiotech.com/
 ---

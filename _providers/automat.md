@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -124,9 +124,9 @@ description: Automat builds AI agents that operate computers the way people do, 
 image: https://cdn.prod.website-files.com/690942210854e5c7d0b74b4e/690fc6fc0297c12536ccca4b_ab7962bb06ce21cd863411aefecd6599_Frame%20427322741.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: automat-mcp.yml
-  slug: automat-mcpyml
+- description: Hosted MCP server published by Automat for AI client integration (Claude Code, Cursor, and other MCP clients). Advertised in the Automat documentation and llms.txt. Exposes the Automat documentation a
+  name: Automat MCP Server
+  slug: automat-mcp-server
 modified: '2026-07-18'
 name: Automat
 nav: Providers
@@ -139,7 +139,7 @@ random_paper: 7
 score:
   band: thin
   composite: 37.9
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -149,7 +149,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 42.2
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -160,8 +160,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/screenshots/automat-2026-07-25T201833.png
 security:

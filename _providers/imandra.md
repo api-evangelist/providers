@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The ImandraX cloud-native automated reasoning engine, exposed as a protobuf-defined gRPC API. Services include Eval (evaluate code snippets, parse terms/types, manage artifacts), Simple (verify, test,
@@ -126,14 +126,14 @@ description: Imandra Inc. delivers Reasoning as a Service — combining artifici
 image: https://www.imandra.ai/images/og-image-default.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: imandra-mcp.yml
-  slug: imandra-mcpyml
+- description: The CodeLogician MCP server exposes Imandra's CodeLogician Agent and Server workflows as structured tool calls, letting MCP-compatible agents (Claude, Cursor, Gemini, Codex) build formal models of sou
+  name: Imandra MCP Server
+  slug: imandra-mcp-server
 modified: '2026-07-19'
 name: Imandra
 nav: Providers
 network: true
-overview: 'Imandra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Automated Reasoning, Formal Verification, and Theorem Proving.
+overview: 'Imandra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Automated Reasoning, Formal Verification, and Theorem Proving.
 
 
   Imandra''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 14 more developer resources.'
@@ -141,7 +141,7 @@ random_paper: 18
 score:
   band: thin
   composite: 34.3
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -151,11 +151,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 31.6
+  previous_composite: 34.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/screenshots/imandra-2026-07-25T222120.png
 security:
@@ -170,13 +170,13 @@ security:
 slug: imandra
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Automated Reasoning
 - Formal Verification
 - Theorem Proving
 - Developer Tools
 - Code Analysis
-- Financial Services
+- Financial-Services
 - gRPC
 - MCP
 website: https://www.imandra.ai

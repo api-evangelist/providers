@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,14 +97,14 @@ description: Aside is an AI-powered browser from a Y Combinator (Fall 2025) star
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aside.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Aside ships a first-party Model Context Protocol server exposed through its CLI (`aside mcp`). Any MCP-capable agent or coding tool can connect to it to drive the Aside AI browser as a browser-automat
   name: Aside MCP server
   slug: aside-mcp-server
 modified: '2026-07-18'
 name: Aside
 nav: Providers
 network: true
-overview: 'Aside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Browser, Browser Agent, Automation, and Model Context Protocol.
+overview: 'Aside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Browser, Browser Agent, Automation, and MCP.
 
 
   Aside''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, changelog, CLI, and 8 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 21.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -122,11 +122,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 22.4
+  previous_composite: 21.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aside/refs/heads/main/screenshots/aside-2026-07-25T201426.png
 security:
@@ -140,7 +140,6 @@ tags:
 - AI Browser
 - Browser Agent
 - Automation
-- Model Context Protocol
 - MCP
 - CLI
 - Password Manager

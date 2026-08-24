@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Application Policy Infrastructure Controller REST API is the single programmatic interface into the ACI Management Information Tree. GET, POST and DELETE against /api/mo/<distinguished-name>.json '
@@ -204,14 +204,14 @@ description: 'Cisco Application Centric Infrastructure (ACI) is Cisco''s data-ce
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cisco-aci-mcp.yml
-  slug: cisco-aci-mcpyml
+- description: A stand-alone FastMCP server that sits between an MCP client and a customer's Cisco APIC controller, exposing ACI policy and fabric operations as MCP tools. It authenticates to the APIC with cookie-ba
+  name: Community MCP Server for Cisco ACI
+  slug: community-mcp-server-for-cisco-aci
 modified: '2026-08-19'
 name: Cisco ACI
 nav: Providers
 network: true
-overview: 'Cisco ACI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SDN, Data Center, Networking, Fabric, and Automation.
+overview: 'Cisco ACI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SDN, Data-Center, Networking, Fabric, and Automation.
 
 
   The Cisco ACI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -228,23 +228,26 @@ rate_limits:
   name: Cisco Aci Rate Limits
   slug: cisco-aci-rate-limits
 score:
-  band: strong
-  composite: 55.4
+  band: developing
+  composite: 54.1
+  delta: -1.3
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 45.1
-    developer_ergonomics: 90.5
+    developer_ergonomics: 85.7
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 68.4
+    operational_transparency: 65.8
+  previous_composite: 55.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Cisco Aci Authentication
@@ -265,7 +268,7 @@ security:
 slug: cisco-aci
 tags:
 - SDN
-- Data Center
+- Data-Center
 - Networking
 - Fabric
 - Automation

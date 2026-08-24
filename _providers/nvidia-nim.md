@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -515,13 +515,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: nvidia-nim-mcp.yml
-  slug: nvidia-nim-mcpyml
+  name: NVIDIA NIM MCP Server
+  slug: nvidia-nim-mcp-server
 modified: '2026-06-20'
 name: NVIDIA NIM
 nav: Providers
 network: true
-overview: 'NVIDIA NIM publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Completions API, Embeddings API, Reranking API, and 8 more. Tagged areas include AI, Artificial Intelligence, Inference, Microservices, and LLM.
+overview: 'NVIDIA NIM publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Completions API, Embeddings API, Reranking API, and 8 more. Tagged areas include Artificial Intelligence, Inference, Microservices, LLM, and Foundation Models.
 
 
   The NVIDIA NIM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -551,7 +551,7 @@ rules:
 score:
   band: exemplar
   composite: 71.0
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -561,7 +561,7 @@ score:
     discoverability: 72.2
     governance: 26.5
     operational_transparency: 57.9
-  previous_composite: 78.7
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -571,9 +571,9 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:
 - kind: authentication
@@ -640,7 +640,6 @@ skills:
   slug: cupynumeric-parallel-data-load
 slug: nvidia-nim
 tags:
-- AI
 - Artificial Intelligence
 - Inference
 - Microservices
@@ -649,6 +648,6 @@ tags:
 - GPU
 - Kubernetes
 - NVIDIA
-- OpenAI Compatible
+- OpenAI-Compatible
 website: https://build.nvidia.com
 ---

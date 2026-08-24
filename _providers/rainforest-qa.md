@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -287,8 +287,8 @@ image: https://files.readme.io/b4c4a73843894a94128b97dfacf7cd0936025ad438ac2bcff
 layout: provider
 mcp_servers:
 - description: ''
-  name: rainforest-qa-mcp.yml
-  slug: rainforest-qa-mcpyml
+  name: Rainforest QA MCP Server
+  slug: rainforest-qa-mcp-server
 modified: '2026-07-20'
 name: Rainforest QA
 nav: Providers
@@ -304,7 +304,7 @@ random_paper: 17
 score:
   band: developing
   composite: 52.2
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -314,7 +314,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 57.7
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,9 +325,9 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/screenshots/rainforest-qa-2026-08-17T124920.png
 security:
 - kind: authentication

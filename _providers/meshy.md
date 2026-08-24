@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST API at https://api.meshy.ai for Text-to-3D (v2 with preview + refine workflow), Image-to-3D, Multi Image-to-3D, Remesh, Rigging, Animation, Retexture, Text-to-Image, Image-to-Image, Multi-Color P
@@ -109,7 +109,7 @@ modified: '2026-05-08'
 name: Meshy
 nav: Providers
 network: true
-overview: 'Meshy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Image to 3D API and Text to 3D API. Tagged areas include AI, 3D, Generation, Texturing, and Animation.
+overview: 'Meshy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Image to 3D API and Text to 3D API. Tagged areas include Artificial Intelligence, 3D, Generation, Texturing, and Animation.
 
 
   Meshy''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.3
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -135,15 +135,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 28.3
+  previous_composite: 27.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meshy/refs/heads/main/screenshots/meshy-2026-06-20T185245.png
 security:
@@ -157,7 +157,7 @@ security:
   summary_line: security.txt · contact published
 slug: meshy
 tags:
-- AI
+- Artificial Intelligence
 - 3D
 - Generation
 - Texturing

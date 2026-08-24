@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,12 +64,12 @@ modified: '2026-07-18'
 name: Beisen
 nav: Providers
 network: true
-overview: Beisen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, HR, Human Resources, and Human Capital Management.
+overview: Beisen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, HR, Human Resources, and HCM.
 random_paper: 0
 score:
   band: minimal
   composite: 9.1
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -79,9 +79,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beisen/refs/heads/main/screenshots/beisen-2026-07-25T202708.png
 security:
@@ -95,11 +95,10 @@ tags:
 - Enterprise
 - HR
 - Human Resources
-- Human Capital Management
 - HCM
 - Talent Management
 - Recruiting
-- SaaS
+- Software-as-a-Service
 - China
 website: https://www.beisen.com/
 ---

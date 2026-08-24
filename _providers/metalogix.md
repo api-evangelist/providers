@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Metalogix
 nav: Providers
 network: true
-overview: 'Metalogix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SharePoint, Microsoft 365, Content Migration, and Content Management.
+overview: 'Metalogix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SharePoint, Microsoft-365, Content Migration, and Content Management.
 
 
   Metalogix''s developer surface includes documentation, support, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 5.0
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -80,15 +80,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: metalogix
 tags:
 - Company
 - SharePoint
-- Microsoft 365
+- Microsoft-365
 - Content Migration
 - Content Management
 - Enterprise Software

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 10
@@ -237,8 +237,8 @@ image: https://plansource.com/wp-content/uploads/2026/01/ps_social-share-img.web
 layout: provider
 mcp_servers:
 - description: ''
-  name: plansource-mcp.yml
-  slug: plansource-mcpyml
+  name: PlanSource MCP Server
+  slug: plansource-mcp-server
 modified: '2026-08-06'
 name: PlanSource
 nav: Providers
@@ -256,7 +256,7 @@ scopes:
 score:
   band: developing
   composite: 51.8
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -266,7 +266,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 53.7
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -283,8 +283,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/screenshots/plansource-2026-08-17T081304.png
 security:

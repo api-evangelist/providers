@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ modified: '2026-08-13'
 name: Pixc
 nav: Providers
 network: true
-overview: 'Pixc publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Shopify, Ecommerce, Photo Editing, and Image Optimization.
+overview: 'Pixc publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Shopify, E-Commerce, Photo Editing, and Image Optimization.
 
 
   The Pixc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -215,7 +215,7 @@ scopes:
 score:
   band: strong
   composite: 55.7
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -225,7 +225,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 54.3
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +236,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/screenshots/pixc-2026-08-17T081244.png
 security:
@@ -253,7 +253,7 @@ slug: pixc
 tags:
 - Company
 - Shopify
-- Ecommerce
+- E-Commerce
 - Photo Editing
 - Image Optimization
 - Image Processing
@@ -261,8 +261,8 @@ tags:
 - Background Removal
 - SEO
 - Automation
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 - Digital Asset Management
 website: https://pixc.com
 ---

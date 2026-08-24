@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The AimDK protocol is AgiBot's first-party Protocol Buffers definition of its robots' interfaces, published as the aimrt_protocol repository of Link-U OS. It defines 33 gRPC services and 175 RPCs acro
@@ -176,8 +176,8 @@ image: https://www.agibot.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: agibot-mcp.yml
-  slug: agibot-mcpyml
+  name: AgiBot MCP Server
+  slug: agibot-mcp-server
 modified: '2026-08-06'
 name: AgiBot
 nav: Providers
@@ -199,7 +199,7 @@ scopes:
 score:
   band: developing
   composite: 44.4
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -209,14 +209,14 @@ score:
     discoverability: 83.3
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 39.2
+  previous_composite: 44.4
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/screenshots/agibot-2026-08-07T161032.png
 security:
 - kind: authentication
@@ -245,9 +245,9 @@ tags:
 - gRPC
 - Protocol Buffers
 - Simulation
-- Machine Learning
-- Open Source
-- Model Context Protocol
+- Machine-Learning
+- Open-Source
+- MCP
 - Agentic Commerce
 - China
 website: https://www.agibot.com/

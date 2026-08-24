@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Allbirds's agent-facing commerce API, implemented via the Shopify Universal Commerce Protocol (UCP) over MCP. Agents can search the catalog, manage a cart, read store policies/FAQs, and drive a buyer-
@@ -91,13 +91,13 @@ image: https://www.allbirds.com/cdn/shop/files/Allbirds_Logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: allbirds-mcp.yml
-  slug: allbirds-mcpyml
+  name: Allbirds MCP Server
+  slug: allbirds-mcp-server
 modified: '2026-07-17'
 name: Allbirds
 nav: Providers
 network: true
-overview: 'Allbirds publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-commerce, and Footwear.
+overview: 'Allbirds publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-Commerce, and Footwear.
 
 
   Allbirds'' developer surface includes authentication, support, engineering blog, and 9 more developer resources.'
@@ -110,7 +110,7 @@ scopes:
 score:
   band: emerging
   composite: 17.8
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -120,12 +120,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 17.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/screenshots/allbirds-2026-08-07T161217.png
 security:
@@ -142,11 +142,11 @@ tags:
 - Company
 - Consumer
 - Retail
-- E-commerce
+- E-Commerce
 - Footwear
 - Apparel
 - Sustainability
-- Direct-to-Consumer
+- Direct to Consumer
 - Agent Commerce
 - Shopify
 website: https://www.allbirds.com

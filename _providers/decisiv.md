@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ modified: '2026-08-12'
 name: Decisiv
 nav: Providers
 network: true
-overview: 'Decisiv publishes 6 APIs on the [APIs.io](https://apis.io/) network, including SRM Gateway - Account Management, SRM Gateway - Asset Management, SRM Gateway - Service Management, and 3 more. Tagged areas include Company, commercial-vehicle, fleet-management, service-relationship-management, and telematics.
+overview: 'Decisiv publishes 6 APIs on the [APIs.io](https://apis.io/) network, including SRM Gateway - Account Management, SRM Gateway - Asset Management, SRM Gateway - Service Management, and 3 more. Tagged areas include Company, commercial-vehicle, Fleet Management, service-relationship-management, and Telematics.
 
 
   The Decisiv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -256,7 +256,7 @@ scopes:
 score:
   band: developing
   composite: 51.9
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -266,7 +266,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 53.4
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,8 +276,8 @@ score:
       marker_coverage: 0.0
       total: 6
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/screenshots/decisiv-2026-08-17T080849.png
 security:
@@ -297,15 +297,15 @@ slug: decisiv
 tags:
 - Company
 - commercial-vehicle
-- fleet-management
+- Fleet Management
 - service-relationship-management
-- telematics
-- asset-management
+- Telematics
+- Asset Management
 - maintenance-and-repair
-- heavy-duty-trucking
-- transportation
-- dealer-management
-- json-api
-- webhooks
+- Heavy Duty Trucking
+- Transportation
+- Dealer Management
+- JSON:API
+- Webhook
 website: https://www.decisiv.com/
 ---

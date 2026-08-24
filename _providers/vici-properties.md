@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-05-04'
 name: VICI Properties
 nav: Providers
 network: true
-overview: 'VICI Properties is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Casinos, Experiential Real Estate, Gaming, Hospitality, and Real Estate.
+overview: 'VICI Properties is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Casinos, Experiential Real Estate, Gaming, Hospitality, and Real-Estate.
 
 
   VICI Properties'' developer surface includes engineering blog and 7 more developer resources.'
@@ -91,8 +91,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vici-properties/refs/heads/main/screenshots/vici-properties-2026-06-20T201013.png
 security:
@@ -106,7 +106,7 @@ tags:
 - Experiential Real Estate
 - Gaming
 - Hospitality
-- Real Estate
+- Real-Estate
 - REIT
 website: https://www.viciproperties.com/
 ---

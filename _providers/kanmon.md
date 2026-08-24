@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -248,8 +248,8 @@ image: https://files.readme.io/c09d869-small-kanmon_logoicon_bw_black.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kanmon-mcp.yml
-  slug: kanmon-mcpyml
+  name: Kanmon MCP Server
+  slug: kanmon-mcp-server
 modified: '2026-07-19'
 name: Kanmon
 nav: Providers
@@ -265,7 +265,7 @@ random_paper: 14
 score:
   band: developing
   composite: 40.8
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -275,7 +275,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 43.0
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,8 +286,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/screenshots/kanmon-2026-07-25T223455.png
 security:
@@ -308,6 +308,5 @@ tags:
 - Lending
 - Working Capital
 - Invoice Financing
-- API
 website: https://www.kanmon.com
 ---

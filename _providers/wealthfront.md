@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Internal REST API powering Wealthfront's automated portfolio management service. Supports account creation, portfolio configuration, risk assessment, automated rebalancing, and tax-loss harvesting for
@@ -125,7 +125,7 @@ modified: 2026-06-13
 name: Wealthfront
 nav: Providers
 network: true
-overview: 'Wealthfront publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Investment, Portfolio Management, Tax Optimization, and Robo-Advisor.
+overview: 'Wealthfront publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Investment, Portfolio-Management, Tax Optimization, and Robo-Advisor.
 
 
   Wealthfront''s developer surface includes GitHub presence, pricing, engineering blog, support, and 12 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.1
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -151,9 +151,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 29.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/screenshots/wealthfront-2026-06-20T201308.png
 security:
@@ -169,13 +169,13 @@ slug: wealthfront
 tags:
 - Finance
 - Investment
-- Portfolio Management
+- Portfolio-Management
 - Tax Optimization
 - Robo-Advisor
 - Wealth Management
 - Cash Management
 - Direct Indexing
 - Financial Planning
-- FinTech
+- Fintech
 website: https://www.wealthfront.com
 ---

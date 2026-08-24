@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -73,7 +73,7 @@ description: AgroStar (Ulink Agritech Private Ltd) is a leading Indian agri-tech
 image: https://static.wixstatic.com/media/97db43_dc476728cd6b43c69a97301defb926f3~mv2.png/v1/fill/w_192,h_192,lg_1,usm_0.66_1.00_0.01/97db43_dc476728cd6b43c69a97301defb926f3~mv2.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: AgroStar's public corporate site (corporate.agrostar.in) is Wix-powered and exposes a hosted Model Context Protocol (MCP) endpoint for agentic AI access to live, public site content and business solut
   name: AgroStar Site MCP
   slug: agrostar-site-mcp
 modified: '2026-07-17'
@@ -88,7 +88,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 7.5
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -98,11 +98,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 9.5
+  previous_composite: 7.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agrostar/refs/heads/main/screenshots/agrostar-2026-07-25T195325.png
 security:

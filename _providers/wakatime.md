@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -756,18 +756,18 @@ scopes:
   summary_line: 8 scopes · authorizationCode/implicit
 score:
   band: developing
-  composite: 47.4
-  delta: -8.6
+  composite: 47.9
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 26.0
     developer_ergonomics: 47.6
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 56.0
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -775,9 +775,9 @@ score:
       derived: 20
       marker_coverage: 100.0
       total: 20
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
 security:
 - kind: authentication
@@ -804,7 +804,7 @@ tags:
 - Coding Analytics
 - Leaderboards
 - IDE Plugins
-- Open Source
+- Open-Source
 - Public APIs
 website: https://wakatime.com
 ---

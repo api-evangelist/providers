@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -209,7 +209,7 @@ modified: '2026-05-19'
 name: APIGen
 nav: Providers
 network: true
-overview: 'APIGen publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, Deployments API, Endpoints API, and 5 more. Tagged areas include Code, Documentation, Generation, Open Source, and PHP.
+overview: 'APIGen publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, Deployments API, Endpoints API, and 5 more. Tagged areas include Code, Documentation, Generation, Open-Source, and PHP.
 
 
   The APIGen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -249,16 +249,16 @@ rules:
   slug: apigen-spectral-rules
 score:
   band: thin
-  composite: 38.7
-  delta: -5.7
+  composite: 39.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 77.4
     developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 28.9
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -266,7 +266,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 44.4
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -274,9 +274,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/screenshots/apigen-2026-06-20T172236.png
 security:
 - kind: authentication
@@ -292,7 +292,7 @@ tags:
 - Code
 - Documentation
 - Generation
-- Open Source
+- Open-Source
 - PHP
 use_cases:
 - description: Generate comprehensive API reference documentation for PHP libraries and packages.

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for quoting and binding small business commercial insurance policies across multiple carriers including Liberty Mutual, CNA, Chubb, Travelers, Hiscox, and others. Supports real-time estimates
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.7
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -123,16 +123,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 25.0
+  previous_composite: 18.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coverwallet/refs/heads/main/screenshots/coverwallet-2026-06-20T175118.png
 security:
 - kind: domain-security
@@ -147,7 +147,7 @@ tags:
 - General Liability
 - BOP
 - Professional Liability
-- InsurTech
+- Insurtech
 - Aon
 website: https://www.coverwallet.com/
 ---

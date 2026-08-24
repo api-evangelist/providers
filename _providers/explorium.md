@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -324,11 +324,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/explorium.
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Explorium MCP Server
+  slug: explorium-mcp-server
 - description: ''
-  name: explorium-mcp.yml
-  slug: explorium-mcpyml
+  name: Explorium MCP Server
+  slug: explorium-mcp-server-2
 modified: '2026-08-14'
 name: Explorium
 nav: Providers
@@ -352,7 +352,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 70.3
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -362,7 +362,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 70.6
+  previous_composite: 70.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,8 +373,8 @@ score:
       total: 21
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/screenshots/explorium-2026-07-25T213931.png
 security:
@@ -409,7 +409,7 @@ tags:
 - Agent Readiness
 - Sales Intelligence
 - Business Events
-- Webhooks
+- Webhook
 - Market Intelligence
 website: https://www.explorium.ai
 ---

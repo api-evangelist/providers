@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The FOSSA REST API lets you build integrations and automate open source management workflows — manage projects, revisions, issues, users and teams, release groups, and reports; initiate binary scans; '
@@ -163,13 +163,13 @@ image: https://fossa.com/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fossa-mcp.yml
-  slug: fossa-mcpyml
+  name: Fossa MCP Server
+  slug: fossa-mcp-server
 modified: '2026-07-19'
 name: Fossa
 nav: Providers
 network: true
-overview: 'Fossa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Software Supply Chain, Open Source, and License Compliance.
+overview: 'Fossa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Software Supply Chain, Open-Source, and License Compliance.
 
 
   The Fossa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,7 +180,7 @@ random_paper: 15
 score:
   band: developing
   composite: 49.3
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -190,12 +190,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 53.4
+  previous_composite: 49.3
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/screenshots/fossa-2026-07-25T215032.png
 security:
@@ -216,7 +216,7 @@ tags:
 - Company
 - Security
 - Software Supply Chain
-- Open Source
+- Open-Source
 - License Compliance
 - Vulnerability Management
 - SBOM

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The footway.com storefront''s agent-facing commerce surface. Built on Shopify, it implements the Universal Commerce Protocol (UCP) for agent-driven commerce: a UCP merchant profile at /.well-known/ucp '
@@ -110,14 +110,14 @@ description: 'Footway is a Nordic, data-driven e-commerce group (Nasdaq First No
 image: https://footway.com/cdn/shop/files/Namnlos_presentation_4_245a932a-42a0-441f-bdd5-b609ade84b97.svg?v=1744815789
 layout: provider
 mcp_servers:
-- description: ''
-  name: footway-mcp.yml
-  slug: footway-mcpyml
+- description: 'Universal Commerce Protocol (UCP) MCP endpoint for the footway.com Shopify storefront. Agents use it for buyer-approved, agent-driven commerce: catalog search, cart creation, and checkout. Checkout re'
+  name: Footway MCP Server
+  slug: footway-mcp-server
 modified: '2026-07-19'
 name: Footway
 nav: Providers
 network: true
-overview: 'Footway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Marketplace, and Retail.
+overview: 'Footway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Marketplace, and Retail.
 
 
   Footway''s developer surface includes documentation, authentication, support, signup flow, engineering blog, and 12 more developer resources.'
@@ -129,24 +129,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.1
-  delta: -0.9
+  composite: 25.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 37.5
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 25.0
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/screenshots/footway-2026-07-25T214920.png
 security:
@@ -162,7 +162,7 @@ slug: footway
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Marketplace
 - Retail
 - Footwear

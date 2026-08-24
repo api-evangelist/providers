@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Server-side Twirp API for managing rooms, participants, tracks, mute/unmute, and metadata.
@@ -124,7 +124,7 @@ modified: '2026-05-29'
 name: LiveKit
 nav: Providers
 network: true
-overview: 'LiveKit publishes 1 API on the [APIs.io](https://apis.io/) network: Signaling Protocol (WebSocket). Tagged areas include Realtime, WebRTC, Audio, Video, and Open Source.
+overview: 'LiveKit publishes 1 API on the [APIs.io](https://apis.io/) network: Signaling Protocol (WebSocket). Tagged areas include Real-Time, WebRTC, Audio, Video, and Open-Source.
 
 
   The LiveKit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -155,7 +155,7 @@ rules:
 score:
   band: thin
   composite: 32.9
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -165,10 +165,10 @@ score:
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 39.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 32.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/screenshots/livekit-2026-06-20T184644.png
 security:
 - kind: domain-security
@@ -185,11 +185,11 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27018, PCI DSS, HIPAA, GDPR
 slug: livekit
 tags:
-- Realtime
+- Real-Time
 - WebRTC
 - Audio
 - Video
-- Open Source
+- Open-Source
 - AI Agents
 - Voice
 - Cloud

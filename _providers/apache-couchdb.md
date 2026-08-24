@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -529,7 +529,7 @@ rules:
 score:
   band: thin
   composite: 34.2
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -539,7 +539,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 39.5
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -547,9 +547,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/screenshots/apache-couchdb-2026-06-20T172052.png
 security:
 - kind: authentication
@@ -571,7 +571,7 @@ tags:
 - Document Store
 - JSON
 - NoSQL
-- Open Source
+- Open-Source
 - Replication
 - REST
 use_cases:

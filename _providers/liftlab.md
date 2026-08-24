@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol endpoint served from LiftLab's own hostname connect.liftlab.com, discovered by certificate-transparency enumeration rather than from documentation. An anonymo
@@ -118,9 +118,9 @@ description: 'LiftLab (LiftLab Analytics, Inc.) is a marketing measurement and c
 image: https://liftlab.com/assets/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: liftlab-mcp.yml
-  slug: liftlab-mcpyml
+- description: A live, OAuth-protected Model Context Protocol server served from LiftLab's own hostname connect.liftlab.com. Discovered through certificate-transparency enumeration of *.liftlab.com, not from any Lif
+  name: LiftLab Connect MCP Server
+  slug: liftlab-connect-mcp-server
 modified: '2026-08-13'
 name: LiftLab
 nav: Providers
@@ -146,7 +146,7 @@ scopes:
 score:
   band: thin
   composite: 29.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -156,12 +156,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 29.3
+  previous_composite: 29.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/screenshots/liftlab-2026-07-25T225100.png
 security:
@@ -186,10 +186,10 @@ tags:
 - Marketing Mix Modeling
 - Incrementality
 - Analytics
-- Martech
+- MarTech
 - Attribution
 - Budget Optimization
 - Data Science
-- SaaS
+- Software-as-a-Service
 website: https://liftlab.com/
 ---

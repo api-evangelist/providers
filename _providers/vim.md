@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -260,8 +260,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: vim-mcp.yml
-  slug: vim-mcpyml
+  name: Vim MCP Server
+  slug: vim-mcp-server
 modified: '2026-08-15'
 name: Vim
 nav: Providers
@@ -290,7 +290,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.6
-  delta: 6.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -300,7 +300,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 84.2
-  previous_composite: 62.5
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -317,9 +317,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/screenshots/vim-2026-08-17T082750.png
 security:
 - kind: authentication
@@ -344,6 +344,6 @@ tags:
 - Interoperability
 - Value-Based Care
 - Care Gaps
-- OAuth
+- Authentication
 website: https://getvim.com/
 ---

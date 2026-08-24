@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Serves active branded campaigns/missions to games and lets a game reset campaign progress and claim rewards. Consumed by the official Monetizr Unity SDK with a per-game HTTP Bearer API key.
@@ -103,8 +103,8 @@ image: https://avatars.githubusercontent.com/u/19929995?s=400
 layout: provider
 mcp_servers:
 - description: ''
-  name: themonetizr-mcp.yml
-  slug: themonetizr-mcpyml
+  name: TheMonetizr MCP Server
+  slug: themonetizr-mcp-server
 modified: '2026-07-21'
 name: TheMonetizr
 nav: Providers
@@ -117,7 +117,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 23.5
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -127,12 +127,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 23.0
+  previous_composite: 23.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -152,7 +152,7 @@ tags:
 - Monetization
 - Mobile
 - Rewards
-- Ad Tech
+- AdTech
 - Programmatic
 - Unity
 website: https://monetizr.com/

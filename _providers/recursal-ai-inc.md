@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -185,13 +185,13 @@ image: https://cdn.prod.website-files.com/6979c6c70c21b50639123793/69a171cf1a874
 layout: provider
 mcp_servers:
 - description: ''
-  name: recursal-ai-inc-mcp.yml
-  slug: recursal-ai-inc-mcpyml
+  name: Recursal AI, Inc. MCP Server
+  slug: recursal-ai-inc-mcp-server
 modified: '2026-07-21'
 name: Recursal AI, Inc.
 nav: Providers
 network: true
-overview: 'Recursal AI, Inc. publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Chat API, and Models API. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Inference.
+overview: 'Recursal AI, Inc. publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Chat API, and Models API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
 
 
   Recursal AI, Inc.''s developer surface includes documentation, API reference, getting-started guide, quickstart, pricing, signup flow, engineering blog, and 22 more developer resources.'
@@ -203,7 +203,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -213,7 +213,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 47.3
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,8 +224,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/screenshots/recursal-ai-inc-2026-08-17T081505.png
 security:
@@ -241,13 +241,13 @@ slug: recursal-ai-inc
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Inference
 - Serverless
 - Generative AI
 - Developer Tools
-- OpenAI Compatible
+- OpenAI-Compatible
 - RWKV
 website: https://featherless.ai
 ---

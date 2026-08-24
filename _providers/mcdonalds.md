@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: McDonald's does not expose a public, self-service API. Ordering, delivery integration, menu data, loyalty, and restaurant information flow through bilateral partner integrations rather than open devel
@@ -120,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcdonalds/refs/heads/main/screenshots/mcdonalds-2026-06-20T185057.png
 security:
@@ -136,7 +136,7 @@ tags:
 - Loyalty
 - Mobile Ordering
 - Ordering
-- Restaurants
+- Restaurant
 - Fortune 500
 website: https://www.mcdonalds.com
 ---

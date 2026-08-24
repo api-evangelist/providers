@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -345,11 +345,11 @@ jsonld:
   property_count: 0
   slug: flowdock-context
 layout: provider
-modified: '2026-05-22'
+modified: '2026-08-21'
 name: Flowdock (Discontinued)
 nav: Providers
 network: true
-overview: 'Flowdock (Discontinued) publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Flowdock Streaming API, Flowdock SCIM Provisioning API, Authentication API, and 12 more. Tagged areas include Team Chat, Team Inbox, Collaboration, Real-Time Messaging, and Integrations.
+overview: 'Flowdock (Discontinued) publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Flowdock Streaming API, Flowdock SCIM Provisioning API, Authentication API, and 12 more. Tagged areas include Team Chat, Team Inbox, Collaboration, Real-Time Messaging, and Integration.
 
 
   The Flowdock (Discontinued) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -397,18 +397,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.4
-  delta: -4.4
+  composite: 35.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 63.7
     developer_ergonomics: 44.0
     discoverability: 68.5
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 39.8
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -416,8 +416,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/screenshots/flowdock-2026-06-20T181333.png
 security:
@@ -439,7 +439,7 @@ tags:
 - Team Inbox
 - Collaboration
 - Real-Time Messaging
-- Integrations
+- Integration
 - Discontinued
 website: https://web.archive.org/web/2022/https://www.flowdock.com/
 ---

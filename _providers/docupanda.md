@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Submit, retrieve, list, search, split, merge, bulk-download, and delete documents. DocuPanda parses files into searchable PDFs and structured page-level text, tables, and bounding boxes. Supports hand
@@ -192,7 +192,7 @@ modified: '2026-05-25'
 name: DocuPanda
 nav: Providers
 network: true
-overview: 'DocuPanda publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Artificial Intelligence, Document Extraction, Document Intelligence, and IDP.
+overview: 'DocuPanda publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Document Extraction, Document Intelligence, IDP, and OCR.
 
 
   DocuPanda''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, signup flow, developer console, and 16 more developer resources.'
@@ -200,7 +200,7 @@ random_paper: 19
 score:
   band: thin
   composite: 26.2
-  delta: -9.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -210,10 +210,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 35.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 26.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/screenshots/docupanda-2026-06-20T180119.png
 security:
 - kind: domain-security
@@ -226,7 +226,6 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: docupanda
 tags:
-- AI
 - Artificial Intelligence
 - Document Extraction
 - Document Intelligence

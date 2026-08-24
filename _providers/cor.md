@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 27
 apis:
 - description: The Attachments API from COR — 1 operation(s) for attachments.
@@ -297,9 +297,9 @@ description: COR (COR Global Ltd., projectcor.com) is an AI-powered management p
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cor.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cor-mcp.yml
-  slug: cor-mcpyml
+- description: Official hosted Model Context Protocol server that connects any MCP-compatible AI client to a COR workspace using natural language.
+  name: COR MCP Server
+  slug: cor-mcp-server
 modified: '2026-07-18'
 name: COR
 nav: Providers
@@ -312,7 +312,7 @@ random_paper: 9
 score:
   band: thin
   composite: 35.1
-  delta: -9.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -322,7 +322,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 44.4
+  previous_composite: 35.1
   provenance:
     conformance: derived
     contracts:
@@ -332,9 +332,9 @@ score:
       total: 27
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/screenshots/cor-2026-07-25T210412.png
 security:
 - kind: authentication

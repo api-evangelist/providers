@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -486,8 +486,8 @@ image: https://www.brightedge.com/themes/custom/brightedge/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: brightedge-mcp.yml
-  slug: brightedge-mcpyml
+  name: BrightEdge MCP Server
+  slug: brightedge-mcp-server
 - description: ''
   name: BrightEdge MCP product page
   slug: brightedge-mcp-product-page
@@ -515,18 +515,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.8
-  delta: 2.1
+  composite: 50.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 48.0
     developer_ergonomics: 58.9
-    discoverability: 68.5
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 46.7
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -537,8 +537,8 @@ score:
       total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/screenshots/brightedge-2026-07-25T203837.png
 security:

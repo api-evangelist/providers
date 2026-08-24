@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-05-23'
 name: Mercoa
 nav: Providers
 network: true
-overview: 'Mercoa publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Groups API, Invoice Templates API, and 6 more. Tagged areas include Mercoa, Embedded Finance, Accounts Payable, Accounts Receivable, and BillPay.
+overview: 'Mercoa publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Groups API, Invoice Templates API, and 6 more. Tagged areas include Mercoa, Embedded Finance, Accounts Payable, Accounts Receivable, and Bill Pay.
 
 
   Mercoa''s developer surface includes authentication, documentation, signup flow, engineering blog, and 5 more developer resources.'
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.1
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -180,7 +180,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.0
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/screenshots/mercoa-2026-06-20T185210.png
 security:
@@ -213,7 +213,7 @@ tags:
 - Embedded Finance
 - Accounts Payable
 - Accounts Receivable
-- BillPay
+- Bill Pay
 - Invoicing
 - Payments
 - Vertical SaaS

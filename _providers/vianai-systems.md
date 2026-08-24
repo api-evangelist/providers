@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The hila REST APIs provide CRUD operations to deploy, manage, and monitor machine-learning models — drift detection, explainability, model performance, alerts, data profiling, inference tracking, pipe
@@ -123,13 +123,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vianai-sys
 layout: provider
 mcp_servers:
 - description: ''
-  name: vianai-systems-mcp.yml
-  slug: vianai-systems-mcpyml
+  name: Vianai Systems MCP Server
+  slug: vianai-systems-mcp-server
 modified: '2026-07-21'
 name: Vianai Systems
 nav: Providers
 network: true
-overview: 'Vianai Systems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Machine Learning, and MLOps.
+overview: 'Vianai Systems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Machine-Learning, and MLOps.
 
 
   Vianai Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, CLI, and 13 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 22.2
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -147,13 +147,13 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.9
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -169,7 +169,7 @@ tags:
 - Company
 - Enterprise
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Monitoring
 - Analytics

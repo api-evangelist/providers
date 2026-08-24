@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: gRPC management API for Dex covering OAuth2 client lifecycle (Create, Get, Update, Delete, List), password management (Create, Update, Delete, List, Verify), identity provider connector management (Cr
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -119,9 +119,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 17.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dex/refs/heads/main/screenshots/dex-2026-06-20T175953.png
 security:
@@ -137,7 +137,6 @@ tags:
 - gRPC
 - Identity Provider
 - LDAP
-- OAuth 2.0
 - OIDC
 - OpenID Connect
 - SAML

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Receive vehicle data and send commands to the vehicle. Vehicle data covers status, diagnostics, statistics, and metadata — including odometer, fuel amount, tyre pressures, brake status, engine status,
@@ -203,7 +203,7 @@ random_paper: 7
 score:
   band: thin
   composite: 28.8
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -219,9 +219,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 28.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volvo-cars/refs/heads/main/screenshots/volvo-cars-2026-06-20T201139.png
 security:

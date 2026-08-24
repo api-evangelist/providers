@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: Cove
 nav: Providers
 network: true
-overview: 'Cove is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, AI Agents, and Productivity.
+overview: 'Cove is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Productivity, and Workspace.
 
 
   Cove''s developer surface includes engineering blog and 2 more developer resources.'
@@ -60,7 +60,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 5.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -70,9 +70,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cove/refs/heads/main/screenshots/cove-2026-07-25T210612.png
 security:
@@ -83,7 +83,6 @@ security:
 slug: cove
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Agents
 - Productivity

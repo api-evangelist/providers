@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API providing 140+ endpoints for payment processing, customer management, invoicing, subscriptions, marketplace split payments, Pix, boleto bancário, credit card tokenization, webhooks, and fi
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: Iugu
 nav: Providers
 network: true
-overview: 'Iugu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Brazil, Invoicing, Subscriptions, and Boleto.
+overview: 'Iugu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Brazil, Invoicing, Subscription, and Boleto.
 
 
   Iugu''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.3
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -123,15 +123,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 29.1
+  previous_composite: 28.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/screenshots/iugu-2026-06-20T183637.png
 security:
@@ -144,13 +144,13 @@ tags:
 - Payments
 - Brazil
 - Invoicing
-- Subscriptions
+- Subscription
 - Boleto
 - Pix
 - Credit Card
 - Marketplace
 - Split Payments
 - Financial Infrastructure
-- FinTech
+- Fintech
 website: https://www.iugu.com
 ---

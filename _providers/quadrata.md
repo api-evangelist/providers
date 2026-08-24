@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Server-side REST API for Quadrata Passport: login/access-token authentication, ECDSA-signed privacy data requests, on-chain AML wallet screening, and passport attribute queries. Distributed as the @qu'
@@ -151,8 +151,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quadrata.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: quadrata-mcp.yml
-  slug: quadrata-mcpyml
+  name: Quadrata MCP Server
+  slug: quadrata-mcp-server
 modified: '2026-07-20'
 name: Quadrata
 nav: Providers
@@ -168,7 +168,7 @@ random_paper: 11
 score:
   band: developing
   composite: 40.8
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -178,7 +178,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 40.3
+  previous_composite: 40.8
   provenance:
     mcp: derived
   regulatory:
@@ -187,8 +187,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

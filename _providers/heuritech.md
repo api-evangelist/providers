@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,14 +199,14 @@ description: 'Heuritech is a Paris-based artificial-intelligence company (Heurit
 image: https://heuritech.com/wp-content/uploads/2020/06/20200526_image_partage.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: heuritech-mcp.yml
-  slug: heuritech-mcpyml
+- description: Heuritech serves a live remote Model Context Protocol server on its primary marketing host. It is advertised nowhere in Heuritech's documentation and appears in no MCP registry — it was found by probi
+  name: Heuritech MCP Server
+  slug: heuritech-mcp-server
 modified: '2026-08-17'
 name: Heuritech
 nav: Providers
 network: true
-overview: 'Heuritech publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 5 more. Tagged areas include Company, Artificial Intelligence, Computer Vision, Machine Learning, and Fashion.
+overview: 'Heuritech publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 5 more. Tagged areas include Company, Artificial Intelligence, Computer-Vision, Machine-Learning, and Fashion.
 
 
   Heuritech''s developer surface includes engineering blog, FAQ, pricing, signup flow, authentication, and 28 more developer resources.'
@@ -227,6 +227,7 @@ scopes:
 score:
   band: thin
   composite: 31.5
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -236,6 +237,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 2.6
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +248,9 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Heuritech Authentication
@@ -261,8 +264,8 @@ slug: heuritech
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Fashion
 - Trend Forecasting
 - Demand Forecasting

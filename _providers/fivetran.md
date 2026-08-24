@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ modified: '2026-05-19'
 name: Fivetran
 nav: Providers
 network: true
-overview: 'Fivetran publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Destinations API, Groups API, and 5 more. Tagged areas include Connectors, Data Integration, Data Pipeline, ETL, and SaaS.
+overview: 'Fivetran publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Destinations API, Groups API, and 5 more. Tagged areas include Connectors, Data Integration, Data Pipeline, ETL, and Software-as-a-Service.
 
 
   Fivetran''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -205,7 +205,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -215,7 +215,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 37.2
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/screenshots/fivetran-2026-06-20T181255.png
 security:
@@ -246,7 +246,7 @@ tags:
 - Data Integration
 - Data Pipeline
 - ETL
-- SaaS
-- Unified API
+- Software-as-a-Service
+- Unified-API
 website: https://www.fivetran.com/
 ---

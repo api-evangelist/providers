@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -381,18 +381,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.8
-  delta: -4.2
+  composite: 34.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 64.8
     developer_ergonomics: 14.3
     discoverability: 59.3
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 38.0
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -406,8 +406,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/screenshots/appyway-2026-06-20T172339.png
 security:

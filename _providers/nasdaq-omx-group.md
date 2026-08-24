@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ modified: '2026-05-19'
 name: Nasdaq
 nav: Providers
 network: true
-overview: 'Nasdaq publishes 2 APIs on the [APIs.io](https://apis.io/) network: Databases API and Datasets API. Tagged areas include Financial Services, Capital Markets, Stock Exchange, Market Data, and Economics.
+overview: 'Nasdaq publishes 2 APIs on the [APIs.io](https://apis.io/) network: Databases API and Datasets API. Tagged areas include Financial-Services, Capital Markets, Stock Exchange, Market Data, and Economics.
 
 
   Nasdaq''s developer surface includes authentication, developer portal, documentation, and 5 more developer resources.'
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -153,7 +153,7 @@ score:
     discoverability: 88.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.7
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-omx-group/refs/heads/main/screenshots/nasdaq-omx-group-2026-06-20T185958.png
 security:
@@ -182,7 +182,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: nasdaq-omx-group
 tags:
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Stock Exchange
 - Market Data

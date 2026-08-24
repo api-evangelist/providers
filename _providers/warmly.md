@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for Warmly's agent-tools surface — discover available tools, execute read tools (warm visitors, warm accounts, third-party intent signals, credit balance) and async write tools (push contacts
@@ -194,8 +194,8 @@ image: https://logo.clearbit.com/warmly.ai
 layout: provider
 mcp_servers:
 - description: ''
-  name: warmly-mcp.yml
-  slug: warmly-mcpyml
+  name: Warmly MCP Server
+  slug: warmly-mcp-server
 modified: '2026-08-13'
 name: Warmly
 nav: Providers
@@ -224,7 +224,7 @@ scopes:
 score:
   band: strong
   composite: 56.0
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -234,14 +234,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 63.1
+  previous_composite: 56.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warmly/refs/heads/main/screenshots/warmly-2026-08-17T082842.png
 security:
 - kind: authentication
@@ -269,7 +269,7 @@ tags:
 - Revenue Orchestration
 - Website Visitor Identification
 - AI Agents
-- Go To Market
+- Go-To-Market
 - MCP
 - Lead Generation
 - CRM

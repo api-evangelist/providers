@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Customer Due Diligence
@@ -221,7 +221,7 @@ random_paper: 8
 score:
   band: developing
   composite: 48.6
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 52.2
+  previous_composite: 48.6
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +241,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/screenshots/diligent-2026-07-25T212039.png
 security:
@@ -272,6 +272,6 @@ tags:
 - Monitoring
 - Artificial Intelligence
 - Fintech
-- Webhooks
+- Webhook
 website: https://www.godiligent.ai
 ---

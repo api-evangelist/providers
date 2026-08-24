@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for launching basic and advanced Enboarder workflows, updating and cancelling running workflows, managing employee profiles and photos, and exporting workflow and form reporting data. Paths a
@@ -178,7 +178,7 @@ scopes:
 score:
   band: developing
   composite: 44.7
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -188,11 +188,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 45.0
+  previous_composite: 44.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/screenshots/enboarder-2026-08-17T080919.png
 security:
@@ -219,10 +219,10 @@ tags:
 - Employee Onboarding
 - Employee Experience
 - HR Technology
-- Workflow Automation
+- Workflow-Automation
 - SCIM
 - Identity Provisioning
-- Webhooks
+- Webhook
 - Offboarding
 website: https://enboarder.com/
 ---

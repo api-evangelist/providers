@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ modified: '2026-07-01'
 name: Argil
 nav: Providers
 network: true
-overview: 'Argil publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Avatars API, Videos API, and 2 more. Tagged areas include AI, Video Generation, Avatars, Voice Cloning, and Content Automation.
+overview: 'Argil publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Avatars API, Videos API, and 2 more. Tagged areas include Artificial Intelligence, Video Generation, Avatars, Voice Cloning, and Content Automation.
 
 
   Argil''s developer surface includes authentication, engineering blog, documentation, and 7 more developer resources.'
@@ -165,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/screenshots/argil-2026-07-25T201139.png
 security:
@@ -180,7 +180,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: argil
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Avatars
 - Voice Cloning

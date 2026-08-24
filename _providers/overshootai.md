@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -159,13 +159,13 @@ image: https://overshoot.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: overshootai-mcp.yml
-  slug: overshootai-mcpyml
+  name: overshoot.ai MCP Server
+  slug: overshootai-mcp-server
 modified: '2026-07-20'
 name: overshoot.ai
 nav: Providers
 network: true
-overview: 'overshoot.ai publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Chat API, Healthz API, and 5 more. Tagged areas include Company, Artificial Intelligence, Computer Vision, Video, and Real Time.
+overview: 'overshoot.ai publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Chat API, Healthz API, and 5 more. Tagged areas include Company, Artificial Intelligence, Computer-Vision, Video, and Real-Time.
 
 
   overshoot.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 9 more developer resources.'
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.7
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -187,7 +187,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 38.1
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -198,8 +198,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/screenshots/overshootai-2026-08-07T191137.png
 security:
@@ -215,11 +215,11 @@ slug: overshootai
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Video
-- Real Time
+- Real-Time
 - Streaming
-- Machine Learning
+- Machine-Learning
 - Vision Language Models
 - Inference
 - Developer Tools

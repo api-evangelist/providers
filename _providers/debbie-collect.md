@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ modified: '2026-05-19'
 name: Debbie Collect
 nav: Providers
 network: true
-overview: 'Debbie Collect publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Case Vouchers API, Cases API, and 7 more. Tagged areas include Accounts Receivable, Collections, Debt Collection, FinTech, and Payments.
+overview: 'Debbie Collect publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Case Vouchers API, Cases API, and 7 more. Tagged areas include Accounts Receivable, Collection, Debt Collection, Fintech, and Payments.
 
 
   The Debbie Collect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -224,18 +224,18 @@ rules:
   slug: debbie-platform-api-rules
 score:
   band: thin
-  composite: 37.6
-  delta: -4.1
+  composite: 38.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.4
     developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 41.7
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -249,8 +249,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/screenshots/debbie-collect-2026-06-20T175744.png
 security:
@@ -265,10 +265,10 @@ security:
 slug: debbie-collect
 tags:
 - Accounts Receivable
-- Collections
+- Collection
 - Debt Collection
-- FinTech
+- Fintech
 - Payments
-- SaaS
+- Software-as-a-Service
 website: https://debbiecollect.com/
 ---

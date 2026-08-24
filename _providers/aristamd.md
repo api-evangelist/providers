@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -212,9 +212,9 @@ description: AristaMD is a San Diego based specialty care company whose eConsult
 image: https://www.aristamd.com/wp-content/uploads/AristaMD-SM.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: aristamd-mcp.yml
-  slug: aristamd-mcpyml
+- description: A CANDIDATE tool surface derived by API Evangelist from AristaMD's published Swagger 2.0 document. This is NOT an AristaMD product and no such server is running. It exists to show what an MCP server o
+  name: AristaMD MCP Server
+  slug: aristamd-mcp-server
 modified: '2026-08-06'
 name: AristaMD
 nav: Providers
@@ -227,7 +227,7 @@ random_paper: 13
 score:
   band: developing
   composite: 40.6
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -237,7 +237,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 37.9
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/screenshots/aristamd-2026-08-07T161715.png
 security:

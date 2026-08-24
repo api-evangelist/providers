@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Read-only enterprise engineering-metrics API exposed as a hosted Model Context Protocol (MCP) server over Streamable HTTP. AI assistants and agents query contributor metrics, identity groups, and tren
@@ -146,14 +146,14 @@ description: Software (software.com) is the developer-productivity company behin
 image: https://antenna.dev/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: software-mcp.yml
-  slug: software-mcpyml
+- description: Hosted Model Context Protocol server that lets AI assistants and agents query an enterprise's engineering metrics directly with natural-language prompts (contributor productivity, AI-tool adoption, te
+  name: Antenna MCP
+  slug: antenna-mcp
 modified: '2026-07-21'
 name: Software
 nav: Providers
 network: true
-overview: 'Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Productivity, Engineering Intelligence, AI, and Software Development.
+overview: 'Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Productivity, Engineering Intelligence, Artificial Intelligence, and Software Development.
 
 
   Software''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, pricing, and 19 more developer resources.'
@@ -161,7 +161,7 @@ random_paper: 14
 score:
   band: thin
   composite: 36.6
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -171,12 +171,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 39.1
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,7 +200,7 @@ tags:
 - Company
 - Developer Productivity
 - Engineering Intelligence
-- AI
+- Artificial Intelligence
 - Software Development
 - Analytics
 - Metrics

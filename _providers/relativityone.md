@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ modified: '2026-05-19'
 name: RelativityOne
 nav: Providers
 network: true
-overview: 'RelativityOne publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Communications API, Custodians API, Entities API, and 3 more. Tagged areas include eDiscovery, Legal, Legal Hold, Document Management, and Compliance.
+overview: 'RelativityOne publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Communications API, Custodians API, Entities API, and 3 more. Tagged areas include eDiscovery, Legal, Legal Hold, Document-Management, and Compliance.
 
 
   The RelativityOne catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -290,18 +290,18 @@ rules:
   slug: relativityone-rules
 score:
   band: developing
-  composite: 41.2
-  delta: -6.2
+  composite: 41.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.3
     developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 47.4
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -309,9 +309,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/screenshots/relativityone-2026-06-20T192820.png
 security:
 - kind: authentication
@@ -335,7 +335,7 @@ tags:
 - eDiscovery
 - Legal
 - Legal Hold
-- Document Management
+- Document-Management
 - Compliance
 - Litigation
 website: https://www.relativity.com

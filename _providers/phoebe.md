@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -138,13 +138,13 @@ image: https://withcoral.com/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: phoebe-mcp.yml
-  slug: phoebe-mcpyml
+  name: Coral MCP Server
+  slug: coral-mcp-server
 modified: '2026-07-20'
 name: Coral
 nav: Providers
 network: true
-overview: 'Coral is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Agents, Model Context Protocol, and SQL.
+overview: 'Coral is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and SQL.
 
 
   Coral''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, CLI, changelog, and 18 more developer resources.'
@@ -152,7 +152,7 @@ random_paper: 18
 score:
   band: thin
   composite: 30.1
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -162,13 +162,13 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 30.5
+  previous_composite: 30.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -182,13 +182,13 @@ security:
 slug: phoebe
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agents
-- Model Context Protocol
+- MCP
 - SQL
 - Data Access
 - Data Integration
 - Developer Tools
-- Open Source
+- Open-Source
 website: https://withcoral.com
 ---

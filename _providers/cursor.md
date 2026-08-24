@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ modified: '2026-05-19'
 name: Cursor
 nav: Providers
 network: true
-overview: 'Cursor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, Groups API, Members API, and 3 more. Tagged areas include AI, Developer Tools, Code Editor, Agent, and IDE.
+overview: 'Cursor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, Groups API, Members API, and 3 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Editor, Agents, and IDE.
 
 
   The Cursor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -220,18 +220,18 @@ rules:
   slug: cursor-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.2
-  delta: -1.6
+  composite: 36.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 45.5
+    contract_governance: 54.5
     contract_quality: 60.3
     developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 45.5
+    governance: 54.5
     operational_transparency: 7.9
-  previous_composite: 36.8
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -239,8 +239,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/screenshots/cursor-2026-06-20T175349.png
 security:
@@ -258,10 +258,10 @@ security:
   summary_line: security.txt · contact published
 slug: cursor
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Editor
-- Agent
+- Agents
 - IDE
 - Cloud Agents
 website: https://cursor.com/

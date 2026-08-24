@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -169,13 +169,13 @@ image: https://notyfi.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: notyfi-mcp.yml
-  slug: notyfi-mcpyml
+  name: Notyfi
+  slug: notyfi
 modified: '2026-07-20'
 name: Notyfi
 nav: Providers
 network: true
-overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including account API, billing API, keys API, and 2 more. Tagged areas include Company, Notifications, Monitoring, Webhooks, and Real Time.
+overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including account API, billing API, keys API, and 2 more. Tagged areas include Company, Notification, Monitoring, Webhook, and Real-Time.
 
 
   The Notyfi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -186,7 +186,7 @@ random_paper: 14
 score:
   band: thin
   composite: 30.1
-  delta: -14.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 44.8
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,9 +207,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/screenshots/notyfi-2026-08-07T185550.png
 security:
 - kind: authentication
@@ -223,10 +223,10 @@ security:
 slug: notyfi
 tags:
 - Company
-- Notifications
+- Notification
 - Monitoring
-- Webhooks
-- Real Time
+- Webhook
+- Real-Time
 - Agents
 - MCP
 - Alerts

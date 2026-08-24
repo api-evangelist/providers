@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Lura Framework is an open-source Go library for building ultra-high-performance API gateways with middleware support. It provides core packages for configuration, routing, proxying, logging, plugi
@@ -93,7 +93,7 @@ modified: '2026-03-18'
 name: Lura Project
 nav: Providers
 network: true
-overview: 'Lura Project publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Go, Linux Foundation, Microservices, and Open Source.
+overview: 'Lura Project publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Go, Linux Foundation, Microservices, and Open-Source.
 
 
   Lura Project''s developer surface includes documentation, changelog, and 9 more developer resources.'
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.2
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -119,9 +119,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lura-project/refs/heads/main/screenshots/lura-project-2026-06-20T184802.png
 security:
@@ -135,6 +135,6 @@ tags:
 - Go
 - Linux Foundation
 - Microservices
-- Open Source
+- Open-Source
 website: https://luraproject.org/
 ---

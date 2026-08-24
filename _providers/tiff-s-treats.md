@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -118,7 +118,7 @@ modified: '2026-08-05'
 name: Tiff's Treats
 nav: Providers
 network: true
-overview: 'Tiff''s Treats is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Restaurants, Delivery, and E-Commerce.
+overview: 'Tiff''s Treats is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Restaurant, Delivery, and E-Commerce.
 
 
   Tiff''s Treats'' developer surface includes FAQ, support, engineering blog, and 14 more developer resources.'
@@ -126,7 +126,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 11.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -136,9 +136,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -149,13 +149,13 @@ slug: tiff-s-treats
 tags:
 - Company
 - Food and Beverage
-- Restaurants
+- Restaurant
 - Delivery
 - E-Commerce
 - Retail
 - Gifting
 - Consumer
-- Subscriptions
+- Subscription
 - Loyalty
 - Austin
 - Texas

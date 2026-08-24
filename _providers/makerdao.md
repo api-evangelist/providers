@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-20'
 name: MakerDAO
 nav: Providers
 network: true
-overview: 'MakerDAO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Defi, DeFi, Stablecoin, and Ethereum.
+overview: 'MakerDAO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Defi, DeFi, Stablecoins, and Ethereum.
 
 
   MakerDAO''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 12 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 17
 score:
   band: minimal
   composite: 10.9
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -126,10 +126,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 18.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 10.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makerdao/refs/heads/main/screenshots/makerdao-2026-07-25T225943.png
 security:
 - kind: domain-security
@@ -145,7 +145,7 @@ tags:
 - Company
 - Crypto Defi
 - DeFi
-- Stablecoin
+- Stablecoins
 - Ethereum
 - Smart Contracts
 - Blockchain

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tinyproxy is a lightweight HTTP/HTTPS proxy daemon for POSIX operating systems with minimal system resource requirements. Provides forward proxying, HTTPS CONNECT tunneling, domain filtering, access c
@@ -102,7 +102,7 @@ modified: '2026-05-03'
 name: Tinyproxy
 nav: Providers
 network: true
-overview: 'Tinyproxy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forward Proxy, Proxy, HTTP, Networking, and Open Source.
+overview: 'Tinyproxy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forward Proxy, Proxy, HTTP, Networking, and Open-Source.
 
 
   The Tinyproxy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -132,7 +132,7 @@ rules:
 score:
   band: emerging
   composite: 20.3
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -142,10 +142,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 26.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 20.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinyproxy/refs/heads/main/screenshots/tinyproxy-2026-06-20T195408.png
 slug: tinyproxy
 tags:
@@ -153,6 +153,6 @@ tags:
 - Proxy
 - HTTP
 - Networking
-- Open Source
+- Open-Source
 website: https://tinyproxy.github.io/
 ---

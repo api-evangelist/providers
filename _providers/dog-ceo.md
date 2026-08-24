@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-06-13'
 name: Dog CEO
 nav: Providers
 network: true
-overview: 'Dog CEO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Breed API, Breeds API, Random API, and 1 more. Tagged areas include Dogs, Images, Animals, Open Source, and Free API.
+overview: 'Dog CEO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Breed API, Breeds API, Random API, and 1 more. Tagged areas include Dogs, Image, Animals, Open-Source, and Free API.
 
 
   The Dog CEO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -198,7 +198,7 @@ rules:
 score:
   band: thin
   composite: 36.1
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -208,7 +208,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 43.7
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -222,9 +222,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/heads/main/screenshots/dog-ceo-2026-06-20T180123.png
 security:
 - kind: domain-security
@@ -234,11 +234,11 @@ security:
 slug: dog-ceo
 tags:
 - Dogs
-- Images
+- Image
 - Animals
-- Open Source
+- Open-Source
 - Free API
-- Machine Learning
+- Machine-Learning
 - Education
 website: https://dog.ceo/dog-api/
 ---

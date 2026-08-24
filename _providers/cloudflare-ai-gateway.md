@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -215,8 +215,8 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Cloudflare AI Gateway MCP Server
+  slug: cloudflare-ai-gateway-mcp-server
 modified: '2026-05-23'
 name: Cloudflare AI Gateway
 nav: Providers
@@ -237,7 +237,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.8
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -247,7 +247,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 57.3
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     contracts:
@@ -255,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/screenshots/cloudflare-ai-gateway-2026-06-20T174550.png
 security:

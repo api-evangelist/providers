@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -211,16 +211,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: customers-bank-mcp.yml
-  slug: customers-bank-mcpyml
+  name: Customers Bank MCP Server
+  slug: customers-bank-mcp-server
+- description: Customers Bank hosts a remote Model Context Protocol server (the ReadMe generic MCP) that lets AI editors (Cursor, Windsurf, Claude Desktop) browse the API/documentation and execute requests against t
+  name: Customers Bank MCP Server
+  slug: customers-bank-mcp-server-2
 modified: '2026-07-23'
 name: Customers Bank
 nav: Providers
 network: true
-overview: 'Customers Bank publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Consumer Lending API, and 7 more. Tagged areas include Financial Services, Banking, United States, Banking-as-a-Service, and Embedded Finance.
+overview: 'Customers Bank publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Consumer Lending API, and 7 more. Tagged areas include Financial-Services, Banking, United States, Banking as a Service, and Embedded Finance.
 
 
   The Customers Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -231,7 +231,7 @@ random_paper: 5
 score:
   band: developing
   composite: 42.0
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 42.9
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +253,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/screenshots/customers-bank-2026-07-25T211012.png
 security:
@@ -268,10 +268,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: customers-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Finance
 - Payments
 - Commercial Banking

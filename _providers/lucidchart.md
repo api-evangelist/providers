@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ modified: '2026-05-08'
 name: Lucidchart
 nav: Providers
 network: true
-overview: 'Lucidchart publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Folders API. Tagged areas include Productivity, Diagramming, Visualization, Visual Workspace, and SaaS.
+overview: 'Lucidchart publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Folders API. Tagged areas include Productivity, Diagramming, Visualization, Visual Workspace, and Software-as-a-Service.
 
 
   Lucidchart''s developer surface includes authentication, pricing, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -162,7 +162,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.8
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -172,7 +172,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 33.3
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -180,8 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/screenshots/lucidchart-2026-06-20T184747.png
 security:
@@ -199,6 +199,6 @@ tags:
 - Diagramming
 - Visualization
 - Visual Workspace
-- SaaS
+- Software-as-a-Service
 website: https://www.lucidchart.com/
 ---

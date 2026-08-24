@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -156,9 +156,9 @@ description: Runautomat (dba Automat) builds AI agents that operate computers th
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/runautomat.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: runautomat-mcp.yml
-  slug: runautomat-mcpyml
+- description: Official hosted MCP server for the Automat documentation (Mintlify), for AI clients (Claude Code, Cursor, etc.) to query the docs. This is a documentation MCP server, not an execution wrapper over the
+  name: Runautomat MCP Server
+  slug: runautomat-mcp-server
 modified: '2026-07-21'
 name: Runautomat
 nav: Providers
@@ -171,7 +171,7 @@ random_paper: 12
 score:
   band: developing
   composite: 46.3
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -181,7 +181,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 49.5
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -192,8 +192,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/screenshots/runautomat-2026-08-17T081652.png
 security:
@@ -212,7 +212,7 @@ tags:
 - Robotic Process Automation
 - Document Processing
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Data Extraction
 - iPaaS
 - Agents

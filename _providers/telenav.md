@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Location-based semantic search for the connected car - onebox search with category, brand, corridor, polygon, and bounding-box filters, reverse geocoding, EV charge-station search, auto-suggest and wo
@@ -143,8 +143,8 @@ image: https://avatars.githubusercontent.com/u/3743554?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: telenav-mcp.yml
-  slug: telenav-mcpyml
+  name: Telenav MCP Server
+  slug: telenav-mcp-server
 modified: '2026-07-21'
 name: Telenav
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 16
 score:
   band: developing
   composite: 42.6
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -170,7 +170,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 40.3
+  previous_composite: 42.6
   provenance:
     conformance: derived
     mcp: derived
@@ -180,8 +180,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ modified: '2026-04-28'
 name: Cvent Platform
 nav: Providers
 network: true
-overview: 'Cvent Platform publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 4 more. Tagged areas include Attendee Hub, Conferences, Event Management, Event Marketing, and Events.
+overview: 'Cvent Platform publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 4 more. Tagged areas include Attendee Hub, Conferences, Event Management, Event Marketing, and Event.
 
 
   Cvent Platform''s developer surface includes authentication, API reference, pricing, engineering blog, and 15 more developer resources.'
@@ -206,7 +206,7 @@ scopes:
 score:
   band: thin
   composite: 34.8
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -216,7 +216,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 41.2
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -224,9 +224,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-platform/refs/heads/main/screenshots/cvent-platform-2026-06-20T175402.png
 security:
 - kind: authentication
@@ -247,12 +247,12 @@ tags:
 - Conferences
 - Event Management
 - Event Marketing
-- Events
+- Event
 - Hospitality
 - Hospitality Cloud
 - Hybrid Events
 - Meetings
-- OAuth 2.0
+- Authentication
 - Passkey
 - Registration
 - REST API

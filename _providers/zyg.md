@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Zyg
 nav: Providers
 network: true
-overview: 'Zyg is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, eCommerce, DTC, and AI Agents.
+overview: 'Zyg is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, E-Commerce, Direct to Consumer, and AI Agents.
 
 
   Zyg''s developer surface includes engineering blog and 3 more developer resources.'
@@ -81,15 +81,15 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: zyg
 tags:
 - Company
-- Ai
-- eCommerce
-- DTC
+- Artificial Intelligence
+- E-Commerce
+- Direct to Consumer
 - AI Agents
 - Brand Growth
 - Financing

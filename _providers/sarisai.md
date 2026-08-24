@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 10.3
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -90,7 +90,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 12.5
+  previous_composite: 10.3
   provenance:
     conformance: first-party
   regulatory:
@@ -99,8 +99,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 20.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -114,7 +114,7 @@ tags:
 - Banking
 - Credit Unions
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Lending
 - Compliance
 website: https://www.saris.ai

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for transaction management, payment authorization, agents, spending rules, analytics, and phone verification. Bearer-token authenticated; JSON envelope with cursor pagination.
@@ -155,13 +155,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sapiom.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sapiom-mcp.yml
-  slug: sapiom-mcpyml
+  name: Sapiom MCP Server
+  slug: sapiom-mcp-server
 modified: '2026-07-21'
 name: Sapiom
 nav: Providers
 network: true
-overview: 'Sapiom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, AI Agents, Agent Infrastructure, and Model Context Protocol.
+overview: 'Sapiom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Infrastructure, and MCP.
 
 
   Sapiom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, CLI, and 21 more developer resources.'
@@ -172,7 +172,7 @@ rate_limits:
   slug: sapiom-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 38.2
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -180,10 +180,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 82.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 37.1
+  previous_composite: 38.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -194,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -209,10 +209,10 @@ security:
 slug: sapiom
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Agent Infrastructure
-- Model Context Protocol
+- MCP
 - API Gateway
 - Payments
 - Agentic Commerce

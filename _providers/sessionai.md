@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Public REST API for the Session AI (ZineOne) platform. Documented operations cover sending events into the platform from any channel, retrieving hosted content, calling customer-authored microservices
@@ -168,13 +168,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sessionai.
 layout: provider
 mcp_servers:
 - description: ''
-  name: sessionai-mcp.yml
-  slug: sessionai-mcpyml
+  name: Session AI
+  slug: session-ai
 modified: '2026-08-13'
 name: Session AI
 nav: Providers
 network: true
-overview: 'Session AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Ecommerce, Retail, and Personalization.
+overview: 'Session AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, E-Commerce, Retail, and Personalization.
 
 
   The Session AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -198,7 +198,7 @@ scopes:
 score:
   band: developing
   composite: 42.8
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -208,13 +208,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 49.4
+  previous_composite: 42.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/screenshots/sessionai-2026-08-17T081818.png
 security:
 - kind: authentication
@@ -229,15 +229,15 @@ slug: sessionai
 tags:
 - Company
 - Artificial Intelligence
-- Ecommerce
+- E-Commerce
 - Retail
 - Personalization
 - Marketing
 - Agentic AI
 - Decisioning
 - Customer Data
-- Events
-- Real Time
+- Event
+- Real-Time
 - MCP
 website: https://sessionai.com
 ---

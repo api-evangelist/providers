@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Maisa''s developer REST API. Key-authenticated (X-API-Key), base URL https://api.maisa.ai, all operations under /v1. Surfaces: capabilities (compare/extract/summarize over text and media), models (embe'
@@ -115,14 +115,14 @@ description: Maisa is an enterprise agentic-AI company whose platform, Maisa Stu
 image: https://maisa.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: maisa-mcp.yml
-  slug: maisa-mcpyml
+- description: No official hosted or published Maisa MCP server was found (searched the docs, the maisaai GitHub org, and the MCP servers registry as of 2026-07-20). This is a DERIVED candidate tool list, one tool p
+  name: Maisa MCP Server
+  slug: maisa-mcp-server
 modified: '2026-07-20T12:00:00Z'
 name: Maisa
 nav: Providers
 network: true
-overview: 'Maisa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Agentic AI, AI Agents, and Digital Workers.
+overview: 'Maisa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, AI Agents, and Digital Workers.
 
 
   Maisa''s developer surface includes authentication, API reference, documentation, engineering blog, support, and 13 more developer resources.'
@@ -130,7 +130,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 17.9
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -140,7 +140,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 22.2
+  previous_composite: 17.9
   provenance:
     mcp: derived
   regulatory:
@@ -149,8 +149,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/screenshots/maisa-2026-07-25T225927.png
 security:
@@ -165,7 +165,7 @@ security:
 slug: maisa
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agentic AI
 - AI Agents
 - Digital Workers

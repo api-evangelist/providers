@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ modified: '2026-06-20'
 name: Terminal
 nav: Providers
 network: true
-overview: 'Terminal publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Address API, App API, Card API, and 8 more. Tagged areas include Coffee, E-Commerce, Developer, SSH, and Ordering.
+overview: 'Terminal publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Address API, App API, Card API, and 8 more. Tagged areas include Coffee, E-Commerce, Developers, SSH, and Ordering.
 
 
   Terminal''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -183,7 +183,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -193,7 +193,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 37.2
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/screenshots/terminal-shop-2026-06-20T195128.png
 security:
@@ -218,7 +218,7 @@ slug: terminal-shop
 tags:
 - Coffee
 - E-Commerce
-- Developer
+- Developers
 - SSH
 - Ordering
 website: https://www.terminal.shop

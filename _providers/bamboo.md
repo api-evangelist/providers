@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 22
@@ -459,7 +459,7 @@ rules:
 score:
   band: thin
   composite: 31.5
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -469,7 +469,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 13.2
-  previous_composite: 39.4
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -483,9 +483,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboo/refs/heads/main/screenshots/bamboo-2026-06-20T172931.png
 security:
 - kind: domain-security
@@ -499,7 +499,7 @@ tags:
 - Fractional Shares
 - Africa
 - Nigeria
-- Portfolio Management
+- Portfolio-Management
 - Brokerage
 - Fintech
 website: https://investbamboo.com/

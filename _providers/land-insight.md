@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: Endpoint to get details of sites from Homes England Land Hub
@@ -224,13 +224,13 @@ image: https://land.tech/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: land-insight-mcp.yml
-  slug: land-insight-mcpyml
+  name: Land Insight MCP Server
+  slug: land-insight-mcp-server
 modified: '2026-07-19'
 name: Land Insight
 nav: Providers
 network: true
-overview: 'Land Insight publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Additional Opportunities API, Development Constraints API, Development Opportunities API, and 9 more. Tagged areas include Company, Real Estate, Property, Land, and Planning.
+overview: 'Land Insight publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Additional Opportunities API, Development Constraints API, Development Opportunities API, and 9 more. Tagged areas include Company, Real-Estate, Property, Land, and Planning.
 
 
   Land Insight''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
@@ -238,7 +238,7 @@ random_paper: 0
 score:
   band: developing
   composite: 50.1
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -248,7 +248,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 49.7
+  previous_composite: 50.1
   provenance:
     conformance: derived
     contracts:
@@ -258,8 +258,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/screenshots/land-insight-2026-07-25T224458.png
 security:
@@ -278,7 +278,7 @@ security:
 slug: land-insight
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Property
 - Land
 - Planning

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ rules:
 score:
   band: emerging
   composite: 21.9
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -292,7 +292,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 28.3
+  previous_composite: 21.9
   provenance:
     agentic_access: derived
     contracts:
@@ -300,9 +300,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/screenshots/lit-protocol-2026-06-20T184559.png
 security:
 - kind: domain-security

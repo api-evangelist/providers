@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Cutover Core API is a RESTful, JSON:API-style interface for programmatically managing workspaces, runbooks, tasks, teams, and users in the Cutover collaborative automation platform. It uses predic
@@ -155,8 +155,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cutover.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: cutover-mcp.yml
-  slug: cutover-mcpyml
+  name: Cutover MCP Server
+  slug: cutover-mcp-server
 modified: '2026-07-18'
 name: Cutover
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 20
 score:
   band: developing
   composite: 46.7
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -182,12 +182,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 48.8
+  previous_composite: 46.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/screenshots/cutover-2026-07-25T211011.png
 security:
@@ -212,7 +212,7 @@ tags:
 - Incident Management
 - Runbook Automation
 - Orchestration
-- Workflow Automation
+- Workflow-Automation
 - DevOps
 website: https://cutover.com
 ---

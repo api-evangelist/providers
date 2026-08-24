@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-05-08'
 name: Travis CI
 nav: Providers
 network: true
-overview: 'Travis CI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Jobs API, Logs API, and 3 more. Tagged areas include DevOps, CI/CD, Build, Open Source, and Hosted.
+overview: 'Travis CI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Jobs API, Logs API, and 3 more. Tagged areas include DevOps, CI/CD, Builds, Open-Source, and Hosted.
 
 
   Travis CI''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 8 more developer resources.'
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -181,7 +181,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 33.8
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/screenshots/travis-ci-2026-06-20T195637.png
 security:
@@ -206,8 +206,8 @@ slug: travis-ci
 tags:
 - DevOps
 - CI/CD
-- Build
-- Open Source
+- Builds
+- Open-Source
 - Hosted
 - GitHub
 website: https://www.travis-ci.com/

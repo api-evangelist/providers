@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -321,8 +321,8 @@ image: https://www.cint.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: cint-mcp.yml
-  slug: cint-mcpyml
+  name: Cint MCP Server
+  slug: cint-mcp-server
 modified: '2026-07-18'
 name: Cint
 nav: Providers
@@ -338,7 +338,7 @@ random_paper: 10
 score:
   band: developing
   composite: 53.7
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -348,7 +348,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 53.1
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,8 +359,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/screenshots/cint-2026-07-25T205351.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: On-device HTTP/JSON control API for Insta360 consumer 360 cameras (ONE X/X2/X3/X4/X5, ONE R/RS), implemented on Google's Open Spherical Camera (OSC) standard. The camera runs a built-in HTTP server re
@@ -91,7 +91,7 @@ modified: '2026-07-19'
 name: Insta360
 nav: Providers
 network: true
-overview: 'Insta360 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Technology, Cameras, Imaging, and 360 Video.
+overview: 'Insta360 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Technology, Camera, Imaging, and 360 Video.
 
 
   Insta360''s developer surface includes documentation, API reference, and 9 more developer resources.'
@@ -99,7 +99,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 15.9
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -109,11 +109,11 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 14.9
+  previous_composite: 15.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/screenshots/insta360-2026-07-25T222554.png
 security:
@@ -125,7 +125,7 @@ slug: insta360
 tags:
 - Company
 - Consumer Technology
-- Cameras
+- Camera
 - Imaging
 - 360 Video
 - Action Cameras

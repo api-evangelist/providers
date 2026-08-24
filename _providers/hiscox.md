@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Partner-facing eligibility lookup that returns the list of US states and the Hiscox products offered by profession, used to determine whether a risk can be quoted before a quote is requested. Listed a
@@ -142,7 +142,7 @@ random_paper: 3
 score:
   band: thin
   composite: 33.8
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -152,7 +152,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.0
+  previous_composite: 33.8
   provenance:
     conformance: first-party
   regulatory:
@@ -161,8 +161,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/screenshots/hiscox-2026-07-25T221253.png
 security:
@@ -185,7 +185,7 @@ tags:
 - Reinsurance
 - Lloyd's of London
 - Small Business Insurance
-- Quote
+- Quotes
 - ACORD
 - Carrier
 - Cargo

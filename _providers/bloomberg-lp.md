@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -286,7 +286,7 @@ modified: '2026-05-23'
 name: Bloomberg L.P.
 nav: Providers
 network: true
-overview: 'Bloomberg L.P. publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Filter API, Mapping API, Reference API, and 1 more. Tagged areas include Financial Services, Market Data, News, Reference Data, and Symbology.
+overview: 'Bloomberg L.P. publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Filter API, Mapping API, Reference API, and 1 more. Tagged areas include Financial-Services, Market Data, News, Reference Data, and Symbology.
 
 
   The Bloomberg L.P. catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -326,18 +326,18 @@ rules:
   slug: openfigi-rules
 score:
   band: strong
-  composite: 57.5
-  delta: -3.2
+  composite: 57.9
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.8
     developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 60.7
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     contracts:
@@ -351,8 +351,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/screenshots/bloomberg-lp-2026-06-20T173441.png
 security:
@@ -366,7 +366,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bloomberg-lp
 tags:
-- Financial Services
+- Financial-Services
 - Market Data
 - News
 - Reference Data

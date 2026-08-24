@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-17'
 name: Apna
 nav: Providers
 network: true
-overview: 'Apna is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Jobs, Recruiting, Professional Networking, and Hiring.
+overview: 'Apna is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Recruiting, Professional Networking, and Hiring.
 
 
   Apna''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 13.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -86,9 +86,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -98,7 +98,7 @@ security:
 slug: apna
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Professional Networking
 - Hiring

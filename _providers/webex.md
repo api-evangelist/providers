@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 989
   human_in_the_loop: 84
@@ -14053,7 +14053,7 @@ modified: '2026-08-19'
 name: Webex
 nav: Providers
 network: true
-overview: 'Webex publishes 193 APIs on the [APIs.io](https://apis.io/) network, including Address Book API, Admin Audit Events API, Agent Personal Greeting Files API, and 190 more. Tagged areas include Calling, Collaboration, Communication, Enterprise, and Messaging.
+overview: 'Webex publishes 193 APIs on the [APIs.io](https://apis.io/) network, including Address Book API, Admin Audit Events API, Agent Personal Greeting Files API, and 190 more. Tagged areas include Calling, Collaboration, Communications, Enterprise, and Messaging.
 
 
   The Webex catalog on APIs.io includes 1 event-driven AsyncAPI specification, 9 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -14098,18 +14098,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 48.2
-  delta: -3.4
+  composite: 48.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 68.2
     developer_ergonomics: 61.9
     discoverability: 50.0
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 51.6
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -14117,8 +14117,8 @@ score:
       derived: 0
       marker_coverage: 100.0
       total: 193
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/screenshots/webex-2026-06-20T201328.png
 security:
@@ -14134,7 +14134,7 @@ slug: webex
 tags:
 - Calling
 - Collaboration
-- Communication
+- Communications
 - Enterprise
 - Messaging
 - Video Conferencing

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -115,18 +115,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 15.1
-  delta: -0.9
+  composite: 16.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 16.0
+  previous_composite: 16.2
   provenance:
     conformance: derived
   regulatory:
@@ -135,8 +135,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oncoc4/refs/heads/main/screenshots/oncoc4-2026-08-07T190225.png
 security:

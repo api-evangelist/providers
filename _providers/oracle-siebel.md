@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 16
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -120,6 +120,10 @@ collections:
   name: Oracle Siebel REST Service Requests API
   slug: open-oracle-siebel-service-requests-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: auth
   title: ''
   type: OAuthScopes
@@ -309,9 +313,9 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: oracle-siebel-mcp.yml
-  slug: oracle-siebel-mcpyml
-modified: '2026-08-13'
+  name: Siebel AI Connectors — MCP Servers
+  slug: siebel-ai-connectors-mcp-servers
+modified: '2026-08-21'
 name: Oracle Siebel
 nav: Providers
 network: true
@@ -321,7 +325,7 @@ overview: 'Oracle Siebel publishes 11 APIs on the [APIs.io](https://apis.io/) ne
   The Oracle Siebel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Oracle Siebel''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, changelog, and 36 more developer resources.'
+  Oracle Siebel''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, changelog, and 37 more developer resources.'
 plans:
 - name: Oracle Siebel Plans Pricing
   plan_count: 3
@@ -360,18 +364,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.0
-  delta: -4.3
+  composite: 68.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 28.0
+    contract_governance: 30.3
     contract_quality: 68.1
     developer_ergonomics: 70.8
     discoverability: 72.2
-    governance: 28.0
+    governance: 30.3
     operational_transparency: 84.2
-  previous_composite: 72.3
+  previous_composite: 68.2
   provenance:
     conformance: derived
     contracts:
@@ -381,8 +385,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:

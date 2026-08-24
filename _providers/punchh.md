@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -499,8 +499,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: punchh-mcp.yml
-  slug: punchh-mcpyml
+  name: Punchh MCP Server
+  slug: punchh-mcp-server
 modified: '2026-08-13'
 name: Punchh
 nav: Providers
@@ -545,18 +545,18 @@ rules:
   slug: punchh-spectral-rules
 score:
   band: exemplar
-  composite: 67.2
-  delta: 3.3
+  composite: 67.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 59.3
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 92.1
-  previous_composite: 63.9
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -573,8 +573,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:
@@ -600,9 +600,9 @@ tags:
 - Offers
 - Online Ordering
 - PAR Technology
-- Point Of Sale
+- Point-of-Sale
 - Restaurant
 - Restaurant Technology
-- Webhooks
+- Webhook
 website: https://punchh.com/
 ---

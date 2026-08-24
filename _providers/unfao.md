@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ modified: '2026-06-13'
 name: FAO FAOSTAT
 nav: Providers
 network: true
-overview: 'FAO FAOSTAT publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Data API, Dimensions API, and 3 more. Tagged areas include agriculture, food security, statistics, trade, and land use.
+overview: 'FAO FAOSTAT publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Data API, Dimensions API, and 3 more. Tagged areas include Agriculture, food security, Statistics, Trade, and Land Use.
 
 
   The FAO FAOSTAT catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.'
@@ -154,7 +154,7 @@ rules:
 score:
   band: thin
   composite: 30.3
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -164,7 +164,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 34.6
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +178,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/screenshots/unfao-2026-06-20T200026.png
 security:
@@ -189,13 +189,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: unfao
 tags:
-- agriculture
+- Agriculture
 - food security
-- statistics
-- trade
-- land use
-- environment
+- Statistics
+- Trade
+- Land Use
+- Environment
 - UN
-- open data
+- Open Data
 website: https://www.fao.org/faostat/en/
 ---

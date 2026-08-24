@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -649,7 +649,7 @@ modified: '2026-05-25'
 name: Vital
 nav: Providers
 network: true
-overview: 'Vital publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Aggregate API, compendium API, insurance API, and 14 more. Tagged areas include Health Data, Wearables, Lab Testing, Digital Health, and Healthtech.
+overview: 'Vital publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Aggregate API, compendium API, insurance API, and 14 more. Tagged areas include Health Data, Wearables, Lab Testing, Digital Health, and Health Tech.
 
 
   The Vital catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -689,18 +689,18 @@ rules:
   slug: vital-rules
 score:
   band: exemplar
-  composite: 74.8
-  delta: 3.2
+  composite: 75.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 43.2
+    contract_governance: 47.0
     contract_quality: 70.5
     developer_ergonomics: 85.7
     discoverability: 68.5
-    governance: 43.2
+    governance: 47.0
     operational_transparency: 39.5
-  previous_composite: 71.6
+  previous_composite: 75.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -715,8 +715,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/screenshots/vital-io-2026-06-20T201103.png
 security:
@@ -747,7 +747,7 @@ tags:
 - Wearables
 - Lab Testing
 - Digital Health
-- Healthtech
+- Health Tech
 - Healthcare
 - HIPAA
 - HealthKit
@@ -760,7 +760,7 @@ tags:
 - Sleep
 - Activity
 - Heart Rate
-- Webhooks
+- Webhook
 - Phlebotomy
 - Lab Orders
 use_cases:

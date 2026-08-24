@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 27
 apis:
 - description: AP bill payment management operations. Bill payments record payments made to carriers and vendors.
@@ -326,8 +326,8 @@ image: https://assets.mvmnt.io/xlarge_TMS_Mailer_5d2683a118.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: mvmnt-mcp.yml
-  slug: mvmnt-mcpyml
+  name: MVMNT MCP Server
+  slug: mvmnt-mcp-server
 modified: '2026-07-20'
 name: MVMNT
 nav: Providers
@@ -348,7 +348,7 @@ scopes:
 score:
   band: strong
   composite: 57.8
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -358,7 +358,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 53.2
+  previous_composite: 57.8
   provenance:
     conformance: derived
     contracts:
@@ -374,8 +374,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mvmnt/refs/heads/main/screenshots/mvmnt-2026-08-07T184459.png
 security:

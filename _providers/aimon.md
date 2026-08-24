@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for AIMon LLM monitoring and evaluation — manage users, models, applications, evaluations and evaluation runs, retrieve evaluation and production metrics, and manage datasets, records, and da
@@ -127,8 +127,8 @@ image: https://www.aimon.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: aimon-mcp.yml
-  slug: aimon-mcpyml
+  name: AIMon MCP Server
+  slug: aimon-mcp-server
 modified: '2026-07-17'
 name: AIMon
 nav: Providers
@@ -141,7 +141,7 @@ random_paper: 7
 score:
   band: thin
   composite: 28.5
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -151,11 +151,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 31.8
+  previous_composite: 28.5
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aimon/refs/heads/main/screenshots/aimon-2026-07-25T195355.png
 security:

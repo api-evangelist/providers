@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -197,9 +197,9 @@ description: RentAHuman.ai is the marketplace where AI agents hire humans for ph
 image: https://rentahuman.ai/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rentahuman-mcp.yml
-  slug: rentahuman-mcpyml
+- description: Official RentAHuman MCP server. AI agents search for humans, post bounties, manage conversations, fund escrow, and hire people for physical-world tasks.
+  name: Rentahuman MCP Server
+  slug: rentahuman-mcp-server
 modified: '2026-07-20'
 name: Rentahuman
 nav: Providers
@@ -218,18 +218,18 @@ rate_limits:
   slug: rentahuman-rate-limits
 score:
   band: developing
-  composite: 52.2
-  delta: 2.0
+  composite: 53.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
     contract_quality: 59.0
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 50.2
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +246,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/screenshots/rentahuman-2026-08-17T081515.png
 security:

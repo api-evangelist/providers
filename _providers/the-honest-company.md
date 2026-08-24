@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -81,7 +81,7 @@ modified: '2026-07-21'
 name: The Honest Company
 nav: Providers
 network: true
-overview: 'The Honest Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Consumer Goods, Ecommerce, and Retail.
+overview: 'The Honest Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Consumer Goods, E-Commerce, and Retail.
 
 
   The Honest Company''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
@@ -93,22 +93,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 15.6
-  delta: -0.3
+  composite: 16.7
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 16.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -124,7 +124,7 @@ tags:
 - Company
 - Consumer
 - Consumer Goods
-- Ecommerce
+- E-Commerce
 - Retail
 - Baby
 - Personal Care

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -1944,7 +1944,7 @@ modified: '2026-05-30'
 name: eBay
 nav: Providers
 network: true
-overview: 'eBay publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Advertising_eligibility API, Bidding API, Category_tree API, and 61 more. Tagged areas include Auctions, Commerce, Products, Marketplace, and Fortune 500.
+overview: 'eBay publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Advertising_eligibility API, Bidding API, Category_tree API, and 61 more. Tagged areas include Auctions, Commerce, Product, Marketplace, and Fortune 500.
 
 
   The eBay catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1995,7 +1995,7 @@ scopes:
 score:
   band: thin
   composite: 38.3
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -2005,7 +2005,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 43.6
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -2013,9 +2013,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 71
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png
 security:
 - kind: authentication
@@ -2030,7 +2030,7 @@ slug: ebay
 tags:
 - Auctions
 - Commerce
-- Products
+- Product
 - Marketplace
 - Fortune 500
 website: https://developer.ebay.com/

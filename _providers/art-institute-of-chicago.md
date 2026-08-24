@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -418,18 +418,18 @@ rules:
   slug: art-institute-of-chicago-rules
 score:
   band: thin
-  composite: 27.8
-  delta: -4.5
+  composite: 28.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.7
     developer_ergonomics: 2.4
     discoverability: 57.4
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 0.0
-  previous_composite: 32.3
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
@@ -443,8 +443,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/screenshots/art-institute-of-chicago-2026-06-20T172440.png
 security:
@@ -460,6 +460,6 @@ tags:
 - Cultural Heritage
 - IIIF
 - Public APIs
-- Open Source
+- Open-Source
 website: https://api.artic.edu/docs/
 ---

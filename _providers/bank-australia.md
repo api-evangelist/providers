@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,8 +181,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-austr
 layout: provider
 mcp_servers:
 - description: ''
-  name: bank-australia-mcp.yml
-  slug: bank-australia-mcpyml
+  name: Bank Australia MCP Server
+  slug: bank-australia-mcp-server
 modified: '2026-07-21T12:30:00Z'
 name: Bank Australia
 nav: Providers
@@ -195,7 +195,7 @@ random_paper: 16
 score:
   band: developing
   composite: 41.0
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 37.6
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,8 +222,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/screenshots/bank-australia-2026-07-21T114657.png
 security:

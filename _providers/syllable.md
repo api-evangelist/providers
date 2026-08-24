@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -448,8 +448,8 @@ image: https://syllable.ai/figma/assets/syllable-social-share.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: syllable-mcp.yml
-  slug: syllable-mcpyml
+  name: Syllable MCP Server
+  slug: syllable-mcp-server
 modified: '2026-08-05'
 name: Syllable
 nav: Providers
@@ -465,7 +465,7 @@ random_paper: 16
 score:
   band: strong
   composite: 65.3
-  delta: 5.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -475,7 +475,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 59.5
+  previous_composite: 65.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -492,9 +492,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syllable/refs/heads/main/screenshots/syllable-2026-08-17T082225.png
 security:
 - kind: authentication

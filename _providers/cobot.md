@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 44
 apis:
 - description: The original Cobot REST API, still available and still the only surface that carries the webhook subscription API. Documented per-resource on dev.cobot.me/api-docs; Cobot directs new integrations to A
@@ -431,13 +431,13 @@ image: https://dev.cobot.me/api2_logo.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: cobot-mcp.yml
-  slug: cobot-mcpyml
+  name: Cobot MCP
+  slug: cobot-mcp
 modified: '2026-08-09'
 name: Cobot
 nav: Providers
 network: true
-overview: 'Cobot publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Allocation API, Approval API, Article API, and 39 more. Tagged areas include Company, Coworking, Workspace Management, Space Management, and Real Estate.
+overview: 'Cobot publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Allocation API, Approval API, Article API, and 39 more. Tagged areas include Company, Co-Working, Workspace Management, Space Management, and Real-Estate.
 
 
   The Cobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -453,7 +453,7 @@ scopes:
 score:
   band: strong
   composite: 59.3
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -463,7 +463,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 57.8
+  previous_composite: 59.3
   provenance:
     conformance: first-party
     contracts:
@@ -479,8 +479,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/screenshots/cobot-2026-08-17T080822.png
 security:
@@ -495,20 +495,20 @@ security:
 slug: cobot
 tags:
 - Company
-- Coworking
+- Co-Working
 - Workspace Management
 - Space Management
-- Real Estate
+- Real-Estate
 - Bookings
 - Reservations
 - Memberships
 - Invoicing
 - Payments
-- Events
+- Event
 - Access Control
-- SaaS
+- Software-as-a-Service
 - Germany
 - JSON:API
-- OAuth
+- Authentication
 website: https://www.cobot.me/
 ---

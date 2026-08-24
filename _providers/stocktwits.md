@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -221,8 +221,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stocktwits
 layout: provider
 mcp_servers:
 - description: ''
-  name: stocktwits-mcp.yml
-  slug: stocktwits-mcpyml
+  name: StockTwits MCP Server
+  slug: stocktwits-mcp-server
 modified: '2026-07-21'
 name: StockTwits
 nav: Providers
@@ -240,7 +240,7 @@ scopes:
 score:
   band: developing
   composite: 42.6
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -250,7 +250,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 44.9
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,8 +267,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/screenshots/stocktwits-2026-08-17T082118.png
 security:
@@ -290,7 +290,7 @@ tags:
 - Investing
 - Market Data
 - Social Finance
-- Watchlists
+- Watchlist
 - Messaging
 website: https://stocktwits.com
 ---

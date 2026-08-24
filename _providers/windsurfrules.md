@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ rules:
 score:
   band: developing
   composite: 42.8
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 42.1
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +226,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windsurfrules/refs/heads/main/screenshots/windsurfrules-2026-06-20T201512.png
 security:

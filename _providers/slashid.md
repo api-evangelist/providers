@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 6
@@ -343,7 +343,7 @@ rules:
 score:
   band: developing
   composite: 48.8
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -353,7 +353,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 34.2
-  previous_composite: 55.7
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -361,9 +361,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/screenshots/slashid-2026-06-20T194022.png
 security:
 - kind: authentication
@@ -387,7 +387,6 @@ tags:
 - Passkeys
 - User Management
 - CIAM
-- OAuth2
 - OIDC
 - SSO
 - RBAC

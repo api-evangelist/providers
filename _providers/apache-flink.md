@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -1408,7 +1408,7 @@ modified: '2026-05-19'
 name: Apache Flink
 nav: Providers
 network: true
-overview: 'Apache Flink publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Config API, Datasets API, and 6 more. Tagged areas include Apache, Batch Processing, Big Data, Open Source, and Real-Time Analytics.
+overview: 'Apache Flink publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Config API, Datasets API, and 6 more. Tagged areas include Apache, Batch Processing, Big Data, Open-Source, and Real-Time Analytics.
 
 
   The Apache Flink catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1448,18 +1448,18 @@ rules:
   slug: apache-flink-spectral-rules
 score:
   band: thin
-  composite: 29.1
-  delta: -8.2
+  composite: 29.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 54.5
     developer_ergonomics: 7.1
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 37.3
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1467,9 +1467,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/screenshots/apache-flink-2026-06-20T172057.png
 security:
 - kind: domain-security
@@ -1485,7 +1485,7 @@ tags:
 - Apache
 - Batch Processing
 - Big Data
-- Open Source
+- Open-Source
 - Real-Time Analytics
 - Stateful Computing
 - Stream Processing

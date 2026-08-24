@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-17'
 name: AegisAI
 nav: Providers
 network: true
-overview: 'AegisAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Email Security, Cybersecurity, and Anti-Phishing.
+overview: 'AegisAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Email Security, Cybersecurity, and Anti-Phishing.
 
 
   AegisAI''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
@@ -99,8 +99,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aegisai/refs/heads/main/screenshots/aegisai-2026-07-25T181713.png
 security:
@@ -115,13 +115,13 @@ security:
 slug: aegisai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Email Security
 - Cybersecurity
 - Anti-Phishing
 - Threat Detection
 - Agentic AI
-- Microsoft 365
+- Microsoft-365
 - Google Workspace
 - Email
 website: https://www.aegisai.ai/

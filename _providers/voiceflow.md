@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ modified: '2026-05-08'
 name: Voiceflow
 nav: Providers
 network: true
-overview: 'Voiceflow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Interact API, Session API, State API, and 1 more. Tagged areas include AI, Conversational, Chat, Voice, and Agent Builder.
+overview: 'Voiceflow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Interact API, Session API, State API, and 1 more. Tagged areas include Artificial Intelligence, Conversational, Chat, Voice, and Agent Builder.
 
 
   Voiceflow''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -174,8 +174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/screenshots/voiceflow-2026-06-20T201125.png
 security:
@@ -197,7 +197,7 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: voiceflow
 tags:
-- AI
+- Artificial Intelligence
 - Conversational
 - Chat
 - Voice

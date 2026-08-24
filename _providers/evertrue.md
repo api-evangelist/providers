@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: EverTrue
 nav: Providers
 network: true
-overview: 'EverTrue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Fundraising, Nonprofit, and Donor Management.
+overview: 'EverTrue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Fundraising, Non-Profit, and Donor Management.
 
 
   EverTrue''s developer surface includes support, engineering blog, and 8 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 12.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -98,15 +98,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 14.6
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 25.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evertrue/refs/heads/main/screenshots/evertrue-2026-08-07T165040.png
 security:
@@ -119,7 +119,7 @@ tags:
 - Company
 - Ai Apps
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Donor Management
 - Higher Education
 - Advancement

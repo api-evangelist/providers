@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Apps API from SideQuest — 1 operation(s) for apps.
@@ -138,8 +138,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sidequest.
 layout: provider
 mcp_servers:
 - description: ''
-  name: sidequest-mcp.yml
-  slug: sidequest-mcpyml
+  name: SideQuest MCP Server
+  slug: sidequest-mcp-server
 modified: '2026-07-21'
 name: SideQuest
 nav: Providers
@@ -157,7 +157,7 @@ scopes:
 score:
   band: thin
   composite: 27.2
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -167,7 +167,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 29.1
+  previous_composite: 27.2
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

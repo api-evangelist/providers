@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -8251,18 +8251,18 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 79.6
-  delta: 0.3
+  composite: 82.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 43.9
-    contract_quality: 77.4
+    contract_quality: 83.0
     developer_ergonomics: 94.6
-    discoverability: 68.5
+    discoverability: 87.0
     governance: 43.9
     operational_transparency: 71.1
-  previous_composite: 79.3
+  previous_composite: 82.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -8273,8 +8273,8 @@ score:
       total: 56
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:
@@ -8304,7 +8304,6 @@ tags:
 - Email Marketing
 - Marketing
 - Marketing Automation
-- Operations
 - Sales
 use_cases:
 - description: Use AI to generate blog posts, social media content, and marketing copy at scale.

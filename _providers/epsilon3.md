@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'REST API for the Epsilon3 operations platform, organized into roughly twenty API families: Builds (work orders, parts, inventory, purchase and sale orders, vendors, tooling, shipments), Chat, Commandi'
@@ -172,13 +172,13 @@ image: https://static1.squarespace.com/static/602ec1c9965913605a250907/t/666747f
 layout: provider
 mcp_servers:
 - description: ''
-  name: epsilon3-mcp.yml
-  slug: epsilon3-mcpyml
+  name: Epsilon3 MCP Server
+  slug: epsilon3-mcp-server
 modified: '2026-08-12'
 name: Epsilon3
 nav: Providers
 network: true
-overview: 'Epsilon3 publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Operations, Aerospace, Space, and Defense.
+overview: 'Epsilon3 publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space, Defense, and Manufacturing.
 
 
   The Epsilon3 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -202,7 +202,7 @@ scopes:
 score:
   band: strong
   composite: 59.1
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -212,12 +212,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 78.9
-  previous_composite: 63.4
+  previous_composite: 59.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/screenshots/epsilon3-2026-08-17T080928.png
 security:
@@ -236,13 +236,12 @@ security:
 slug: epsilon3
 tags:
 - Company
-- Operations
 - Aerospace
 - Space
 - Defense
 - Manufacturing
 - Procedures
-- Workflow
+- Workflows
 - Inventory
 - Telemetry
 - Test Management

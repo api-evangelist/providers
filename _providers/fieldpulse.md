@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -335,9 +335,9 @@ description: FieldPulse is an all-in-one field service management (FSM) platform
 image: https://www.fieldpulse.com/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: fieldpulse-mcp.yml
-  slug: fieldpulse-mcpyml
+- description: FieldPulse serves a live, anonymous Model Context Protocol server from its documentation host. It is a documentation-retrieval server (search + a read-only virtual filesystem over the docs pages and t
+  name: FieldPulse Docs
+  slug: fieldpulse-docs
 modified: '2026-08-04'
 name: FieldPulse
 nav: Providers
@@ -361,7 +361,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.1
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -371,7 +371,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 59.3
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,8 +388,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png
 security:
@@ -417,6 +417,6 @@ tags:
 - Electrical
 - Work Order Management
 - CRM
-- SaaS
+- Software-as-a-Service
 website: https://www.fieldpulse.com/
 ---

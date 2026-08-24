@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Core Yuno Payments API — customers, checkout sessions, payments, refunds, captures, subscriptions, payouts, disputes, reports, banking connectivity and PCI Proxy. Header API-key auth with X-Idempotenc
@@ -195,8 +195,8 @@ image: https://y.uno/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: yuno-mcp.yml
-  slug: yuno-mcpyml
+  name: Yuno MCP Server
+  slug: yuno-mcp-server
 modified: '2026-07-21'
 name: Yuno
 nav: Providers
@@ -212,7 +212,7 @@ random_paper: 18
 score:
   band: strong
   composite: 55.4
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -222,7 +222,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 54.7
+  previous_composite: 55.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -233,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/screenshots/yuno-2026-08-17T083027.png
 security:
@@ -262,7 +262,6 @@ tags:
 - Fintech
 - Checkout
 - Payouts
-- Subscriptions
-- API
+- Subscription
 website: https://y.uno
 ---

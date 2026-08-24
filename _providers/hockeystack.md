@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Version 1 of the HockeyStack Revenue Agents API. Attaches AI agents to companies and deals from the connected CRM, holds conversations with those agents, manages the tasks they generate, and reads the
@@ -176,8 +176,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hockeystac
 layout: provider
 mcp_servers:
 - description: ''
-  name: hockeystack-mcp.yml
-  slug: hockeystack-mcpyml
+  name: HockeyStack MCP Server
+  slug: hockeystack-mcp-server
 modified: '2026-08-13'
 name: HockeyStack
 nav: Providers
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 42.4
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -216,12 +216,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 46.7
+  previous_composite: 42.4
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/screenshots/hockeystack-2026-07-25T221312.png
 security:

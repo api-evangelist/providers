@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,27 +96,27 @@ modified: '2026-07-21'
 name: Strawberry
 nav: Providers
 network: true
-overview: 'Strawberry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Agentic Browser, AI Agents, and Browser.
+overview: 'Strawberry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic Browser, AI Agents, and Browser.
 
 
   Strawberry''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, and 9 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 19.1
-  delta: 0.5
+  composite: 20.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 18.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -130,7 +130,7 @@ security:
 slug: strawberry
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agentic Browser
 - AI Agents
 - Browser

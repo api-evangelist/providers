@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 25
@@ -459,8 +459,8 @@ image: https://getkisi.com/favicon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: kisi-mcp.yml
-  slug: kisi-mcpyml
+  name: KISI MCP Server
+  slug: kisi-mcp-server
 modified: '2026-07-20'
 name: KISI
 nav: Providers
@@ -481,18 +481,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.6
-  delta: -1.1
+  composite: 49.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
     contract_quality: 56.1
     developer_ergonomics: 49.4
-    discoverability: 72.2
+    discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 49.7
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -503,8 +503,8 @@ score:
       total: 48
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/screenshots/kisi-2026-07-25T223853.png
 security:
@@ -529,6 +529,6 @@ tags:
 - IoT
 - Building Management
 - Access Control
-- SaaS
+- Software-as-a-Service
 website: https://getkisi.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Recall.ai REST API provides programmatic access to meeting bot management, recording retrieval, transcript extraction, calendar integration, and real-time media streaming across Zoom, Google Meet,
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.0
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -139,9 +139,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 38.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 36.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/screenshots/recall-ai-2026-06-20T192655.png
 security:
@@ -159,7 +159,7 @@ tags:
 - Google Meet
 - Microsoft Teams
 - Real-Time
-- AI
+- Artificial Intelligence
 - Infrastructure
 website: https://www.recall.ai/
 ---

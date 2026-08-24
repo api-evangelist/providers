@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -400,13 +400,13 @@ image: https://friendli.ai/opengraph-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: friendliai-mcp.yml
-  slug: friendliai-mcpyml
+  name: FriendliAI MCP Server
+  slug: friendliai-mcp-server
 modified: '2026-07-19'
 name: FriendliAI
 nav: Providers
 network: true
-overview: 'FriendliAI publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Container.Audio API, Container.Chat API, Container.Classification API, and 30 more. Tagged areas include Company, Infrastructure, Artificial Intelligence, Machine Learning, and LLM.
+overview: 'FriendliAI publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Container.Audio API, Container.Chat API, Container.Classification API, and 30 more. Tagged areas include Company, Infrastructure, Artificial Intelligence, Machine-Learning, and LLM.
 
 
   FriendliAI''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
@@ -418,7 +418,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.3
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -428,7 +428,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 57.1
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -439,9 +439,9 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/screenshots/friendliai-2026-07-25T215224.png
 security:
 - kind: authentication
@@ -461,11 +461,11 @@ tags:
 - Company
 - Infrastructure
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Inference
 - Generative AI
 - GPU
-- OpenAI Compatible
+- OpenAI-Compatible
 website: https://friendli.ai/
 ---

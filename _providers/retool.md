@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ modified: '2026-05-19'
 name: Retool
 nav: Providers
 network: true
-overview: 'Retool publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Folders API, Groups API, and 2 more. Tagged areas include Admin Panel, Dashboard, Internal Tools, Low Code, and No Code.
+overview: 'Retool publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Folders API, Groups API, and 2 more. Tagged areas include Admin Panel, Dashboard, Internal Tools, Low-Code, and No-Code.
 
 
   The Retool catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -269,18 +269,18 @@ rules:
   slug: retool-management-api-rules
 score:
   band: developing
-  composite: 49.8
-  delta: -6.3
+  composite: 50.3
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 72.1
     developer_ergonomics: 38.1
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 56.1
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -288,9 +288,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/screenshots/retool-2026-06-20T193043.png
 security:
 - kind: authentication
@@ -310,7 +310,7 @@ tags:
 - Admin Panel
 - Dashboard
 - Internal Tools
-- Low Code
-- No Code
+- Low-Code
+- No-Code
 website: https://retool.com/
 ---

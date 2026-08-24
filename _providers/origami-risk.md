@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Token issuance and session verification for the Origami Risk platform APIs. Two documented token formats — a simple JSON payload (Account, User, Password, ClientName) and an OAuth-style client_credent
@@ -240,7 +240,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -250,7 +250,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 53.3
+  previous_composite: 53.4
   provenance:
     conformance: derived
     mcp: derived
@@ -261,8 +261,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/screenshots/origami-risk-2026-08-07T190927.png
 security:

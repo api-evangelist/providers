@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Microsoft Graph Forms API provides programmatic access to Microsoft Forms for creating and managing forms, surveys, and quizzes. Developers can retrieve form definitions, access response data, and
@@ -85,7 +85,7 @@ modified: '2026-04-28'
 name: Microsoft Forms
 nav: Providers
 network: true
-overview: 'Microsoft Forms publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Microsoft, Microsoft 365, Quizzes, and Surveys.
+overview: 'Microsoft Forms publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Microsoft, Microsoft-365, Quizzes, and Surveys.
 
 
   Microsoft Forms'' developer surface includes developer portal, authentication, support, and 6 more developer resources.'
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -111,9 +111,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-forms/refs/heads/main/screenshots/microsoft-forms-2026-06-20T185503.png
 security:
@@ -125,7 +125,7 @@ slug: microsoft-forms
 tags:
 - Forms
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Quizzes
 - Surveys
 website: https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes

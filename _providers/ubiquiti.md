@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ modified: '2026-05-25'
 name: Ubiquiti
 nav: Providers
 network: true
-overview: 'Ubiquiti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Hosts API, ISP Metrics API, and 2 more. Tagged areas include Networking, WiFi, Switching, Routing, and Surveillance.
+overview: 'Ubiquiti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Hosts API, ISP Metrics API, and 2 more. Tagged areas include Networking, Wi-Fi, Switching, Routing, and Surveillance.
 
 
   Ubiquiti''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, support, and 26 more developer resources.'
@@ -257,7 +257,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.6
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -267,7 +267,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 65.8
-  previous_composite: 56.4
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -275,8 +275,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/screenshots/ubiquiti-2026-06-20T195930.png
 security:
@@ -295,7 +295,7 @@ security:
 slug: ubiquiti
 tags:
 - Networking
-- WiFi
+- Wi-Fi
 - Switching
 - Routing
 - Surveillance

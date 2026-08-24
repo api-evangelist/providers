@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -470,8 +470,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: moodys-mcp.yml
-  slug: moodys-mcpyml
+  name: Moody's MCP Server
+  slug: moodys-mcp-server
 modified: '2026-07-25'
 name: Moody's
 nav: Providers
@@ -537,16 +537,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.4
-  delta: 0.8
+  composite: 58.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 53.7
     developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 34.2
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -554,7 +554,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 57.6
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -571,8 +571,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:

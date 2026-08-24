@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The original CybelAngel Platform API. Retrieves incident reports (v2 search plus per-report detail, mirror listings in JSON/CSV/archive, PDF export, attachments and comments), the leaked-credential wa
@@ -198,7 +198,7 @@ modified: '2026-08-17'
 name: CybelAngel
 nav: Providers
 network: true
-overview: 'CybelAngel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Reports API, Alerts API, ADM Inventory API, and 4 more. Tagged areas include Company, cybersecurity, threat-intelligence, external-attack-surface-management, and data-breach-prevention.
+overview: 'CybelAngel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Reports API, Alerts API, ADM Inventory API, and 4 more. Tagged areas include Company, Cybersecurity, Threat Intelligence, external-attack-surface-management, and data-breach-prevention.
 
 
   CybelAngel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 29 more developer resources.'
@@ -219,6 +219,7 @@ scopes:
 score:
   band: strong
   composite: 57.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -228,6 +229,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 60.5
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     contracts:
@@ -237,8 +239,9 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Cybelangel Authentication
@@ -255,17 +258,17 @@ security:
 slug: cybelangel
 tags:
 - Company
-- cybersecurity
-- threat-intelligence
+- Cybersecurity
+- Threat Intelligence
 - external-attack-surface-management
 - data-breach-prevention
-- credential-intelligence
-- brand-protection
-- dark-web-monitoring
-- digital-risk-protection
-- stix
+- Credential Intelligence
+- Brand Protection
+- Dark Web Monitoring
+- Digital Risk Protection
+- STIX
 - security-alerts
-- asset-inventory
-- audit-logs
+- Asset Inventory
+- Audit Logs
 website: https://www.cybelangel.com/
 ---

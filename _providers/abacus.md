@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -275,18 +275,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 27.2
-  delta: -8.1
+  composite: 27.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.9
     developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 35.3
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -294,9 +294,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/screenshots/abacus-2026-06-20T163056.png
 security:
 - kind: authentication

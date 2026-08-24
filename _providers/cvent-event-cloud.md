@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 0
@@ -506,9 +506,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cvent-event-cloud.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cvent-event-cloud-mcp.yml
-  slug: cvent-event-cloud-mcpyml
+- description: 'Cvent runs a hosted, remote MCP server at https://mcp.cvent.com/mcp. It is protected by OAuth 2.1 with PKCE and advertises its own authorization requirements per RFC 9728: an unauthenticated tools/lis'
+  name: Cvent MCP Server
+  slug: cvent-mcp-server
 modified: '2026-08-13'
 name: Cvent Event Cloud
 nav: Providers
@@ -536,18 +536,18 @@ scopes:
   summary_line: 235 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 71.9
-  delta: 6.3
+  composite: 70.1
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 16.7
     contract_quality: 74.1
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 16.7
     operational_transparency: 81.6
-  previous_composite: 65.6
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -558,9 +558,9 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/screenshots/cvent-event-cloud-2026-06-20T175402.png
 security:
 - kind: authentication
@@ -584,23 +584,23 @@ tags:
 - Event Cloud
 - Event Management
 - Event Marketing
-- Events
+- Event
 - Exhibitors
 - Hybrid Events
 - MCP
-- OAuth 2.0
-- Onsite
+- Authentication
+- OnSite
 - OpenAPI
 - Overlay
 - Registration
 - REST
 - SCIM
-- SDKs
+- SDK
 - Sessions
 - Speakers
 - Surveys
 - Virtual Events
 - Webcasts
-- Webhooks
+- Webhook
 website: https://www.cvent.com/en/event-management-software
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -221,13 +221,13 @@ image: https://www.iru.com/hubfs/assets/favicons/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kandji-mcp.yml
-  slug: kandji-mcpyml
+  name: Iru MCP Server
+  slug: iru-mcp-server
 modified: '2026-08-01'
 name: Iru
 nav: Providers
 network: true
-overview: 'Iru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Endpoint Management API and Library Item Upload API. Tagged areas include Company, device-management, mobile-device-management, apple-management, and endpoint-security.
+overview: 'Iru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Endpoint Management API and Library Item Upload API. Tagged areas include Company, Device Management, Mobile Device Management, apple-management, and Endpoint Security.
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
@@ -239,7 +239,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.9
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -249,7 +249,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 58.5
+  previous_composite: 58.9
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -260,8 +260,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/screenshots/kandji-2026-08-07T171059.png
 security:
@@ -284,16 +284,16 @@ security:
 slug: kandji
 tags:
 - Company
-- device-management
-- mobile-device-management
+- Device Management
+- Mobile Device Management
 - apple-management
-- endpoint-security
+- Endpoint Security
 - endpoint-detection-response
-- vulnerability-management
-- compliance-automation
-- workforce-identity
-- it-operations
-- mcp
+- Vulnerability Management
+- Compliance Automation
+- Workforce Identity
+- IT Operations
+- MCP
 - agent-native
 website: https://www.iru.com/
 ---

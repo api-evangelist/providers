@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-26'
 name: Ray White
 nav: Providers
 network: true
-overview: 'Ray White is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Australia, Brokerage, Property Listings, and Property Management.
+overview: 'Ray White is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Australia, Brokerage, Property Listings, and Property Management.
 
 
   Ray White''s developer surface includes engineering blog, support, and 15 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 13.9
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -118,15 +118,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 17.3
+  previous_composite: 13.9
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -139,7 +139,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: ray-white
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Brokerage
 - Property Listings

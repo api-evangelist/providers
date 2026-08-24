@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,7 +107,7 @@ modified: '2026-08-06'
 name: AiFi
 nav: Providers
 network: true
-overview: 'AiFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer Vision, Retail, Autonomous Checkout, and Spatial Intelligence.
+overview: 'AiFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer-Vision, Retail, Autonomous Checkout, and Spatial Intelligence.
 
 
   AiFi''s developer surface includes engineering blog, authentication, and 13 more developer resources.'
@@ -120,7 +120,7 @@ scopes:
 score:
   band: emerging
   composite: 16.4
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -130,7 +130,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.4
+  previous_composite: 16.4
   provenance:
     conformance: first-party
   regulatory:
@@ -139,8 +139,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aifi/refs/heads/main/screenshots/aifi-2026-08-07T161053.png
 security:
@@ -155,7 +155,7 @@ security:
 slug: aifi
 tags:
 - Company
-- Computer Vision
+- Computer-Vision
 - Retail
 - Autonomous Checkout
 - Spatial Intelligence
@@ -163,6 +163,6 @@ tags:
 - Analytics
 - Identity
 - Fraud Prevention
-- Point of Sale
+- Point-of-Sale
 website: https://www.aifi.com/
 ---

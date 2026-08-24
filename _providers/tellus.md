@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-21'
 name: Tellus
 nav: Providers
 network: true
-overview: 'Tellus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Savings, Real Estate, and Lending.
+overview: 'Tellus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Savings, Real-Estate, and Lending.
 
 
   Tellus'' developer surface includes signup flow, support, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 11.5
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -86,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -100,7 +100,7 @@ tags:
 - Company
 - Fintech
 - Savings
-- Real Estate
+- Real-Estate
 - Lending
 - Property Management
 - Mobile App

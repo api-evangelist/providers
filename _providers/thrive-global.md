@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Ambient soundscapes and narrated bedtime stories — audio for focus, relaxation, and sleep
@@ -196,9 +196,9 @@ description: 'Thrive Global is the behavior-change technology company founded by
 image: https://developers.thriveglobal.com/brand-team-leaf-2.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: thrive-global-mcp.yml
-  slug: thrive-global-mcpyml
+- description: Thrive Global operates an official remote MCP server at https://mcp.thriveglobal.com/mcp (Streamable HTTP with SSE fallback), documented on the Thrive Global Partner API Portal. Each user authenticate
+  name: Thrive Global MCP Server
+  slug: thrive-global-mcp-server
 modified: '2026-07-21'
 name: Thrive Global
 nav: Providers
@@ -211,7 +211,7 @@ random_paper: 5
 score:
   band: developing
   composite: 44.5
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 49.4
+  previous_composite: 44.5
   provenance:
     conformance: derived
     contracts:
@@ -237,8 +237,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/screenshots/thrive-global-2026-08-17T082348.png
 security:

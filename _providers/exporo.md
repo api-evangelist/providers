@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Exporo
 nav: Providers
 network: true
-overview: 'Exporo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Real Estate, Investing, and Crowdfunding.
+overview: 'Exporo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Real-Estate, Investing, and Crowdfunding.
 
 
   Exporo''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 11.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -86,15 +86,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.4
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exporo/refs/heads/main/screenshots/exporo-2026-07-25T213938.png
 security:
@@ -105,8 +105,8 @@ security:
 slug: exporo
 tags:
 - Company
-- Financial Services
-- Real Estate
+- Financial-Services
+- Real-Estate
 - Investing
 - Crowdfunding
 - Fintech

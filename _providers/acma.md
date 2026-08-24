@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -197,8 +197,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: acma-mcp.yml
-  slug: acma-mcpyml
+  name: ACMA MCP Server
+  slug: acma-mcp-server
 modified: '2026-07-25'
 name: ACMA
 nav: Providers
@@ -219,7 +219,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -229,7 +229,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 56.1
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +246,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/screenshots/acma-2026-08-17T082235.png
 security:
@@ -272,7 +272,7 @@ tags:
 - Broadcasting
 - Numbering
 - Do Not Call Register
-- Radiocommunications
+- Radio Communications
 - Licensing
 - Open Data
 - Government

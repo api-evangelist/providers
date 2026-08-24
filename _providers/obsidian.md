@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-07-25'
 name: Obsidian
 nav: Providers
 network: true
-overview: 'Obsidian publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Active File API, Commands API, Open API, and 6 more. Tagged areas include Productivity, Knowledge Management, Markdown, Notes, and Local-First.
+overview: 'Obsidian publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Active File API, Commands API, Open API, and 6 more. Tagged areas include Productivity, Knowledge-Management, Markdown, Notes, and Local-First.
 
 
   Obsidian''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 11 more developer resources.'
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -205,7 +205,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.0
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +213,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/screenshots/obsidian-2026-06-20T190555.png
 security:
@@ -233,7 +233,7 @@ security:
 slug: obsidian
 tags:
 - Productivity
-- Knowledge Management
+- Knowledge-Management
 - Markdown
 - Notes
 - Local-First

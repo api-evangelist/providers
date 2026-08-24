@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Modeled matter and contact/client management surface that third-party Marketplace apps integrate against - matters (number, title, practice area, status, responsible attorney), contacts/clients (indiv
@@ -81,7 +81,7 @@ modified: '2026-07-04'
 name: LEAP
 nav: Providers
 network: true
-overview: 'LEAP publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, LegalTech, Practice Management, Legal Accounting, and Trust Accounting.
+overview: 'LEAP publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Tech, Practice Management, Legal Accounting, and Trust Accounting.
 
 
   LEAP''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
@@ -93,7 +93,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 11.2
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -103,9 +103,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap-legal/refs/heads/main/screenshots/leap-legal-2026-07-25T224746.png
 security:
@@ -116,7 +116,7 @@ security:
 slug: leap-legal
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Practice Management
 - Legal Accounting
 - Trust Accounting

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ modified: '2026-05-19'
 name: Freedom of Information Act
 nav: Providers
 network: true
-overview: 'Freedom of Information Act publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agency Components API, Agency Submission API, and Annual Reports API. Tagged areas include Federal Government, FOIA, and Transparency.
+overview: 'Freedom of Information Act publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agency Components API, Agency Submission API, and Annual Reports API. Tagged areas include Federal-Government, FOIA, and Transparency.
 
 
   Freedom of Information Act''s developer surface includes authentication, developer portal, and 3 more developer resources.'
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.0
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -125,7 +125,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.5
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -139,8 +139,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/screenshots/freedom-of-information-act-2026-06-20T181524.png
 security:
@@ -154,7 +154,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: freedom-of-information-act
 tags:
-- Federal Government
+- Federal-Government
 - FOIA
 - Transparency
 website: https://www.foia.gov/

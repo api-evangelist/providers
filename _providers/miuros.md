@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-20'
 name: Miuros
 nav: Providers
 network: true
-overview: 'Miuros is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Customer Support, Analytics, and Quality Assurance.
+overview: 'Miuros is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Customer-Support, Analytics, and Quality Assurance.
 
 
   Miuros'' developer surface includes support and 5 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 9.3
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -82,9 +82,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 10.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miuros/refs/heads/main/screenshots/miuros-2026-08-07T183816.png
 security:
@@ -96,11 +96,11 @@ slug: miuros
 tags:
 - Company
 - Customer Service
-- Customer Support
+- Customer-Support
 - Analytics
 - Quality Assurance
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Techstars
 website: https://miuros.com/
 ---

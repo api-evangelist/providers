@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-06-20'
 name: Mage
 nav: Providers
 network: true
-overview: 'Mage publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Pipeline Runs API, Pipeline Schedules API, and 1 more. Tagged areas include Data Pipelines, Orchestration, ETL, Data Engineering, and Open Source.
+overview: 'Mage publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Pipeline Runs API, Pipeline Schedules API, and 1 more. Tagged areas include Data Pipeline, Orchestration, ETL, Data Engineering, and Open-Source.
 
 
   Mage''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.5
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -159,7 +159,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 35.0
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/screenshots/mage-ai-2026-06-20T184836.png
 security:
@@ -186,10 +186,10 @@ security:
   summary_line: security.txt · contact published
 slug: mage-ai
 tags:
-- Data Pipelines
+- Data Pipeline
 - Orchestration
 - ETL
 - Data Engineering
-- Open Source
+- Open-Source
 website: https://www.mage.ai
 ---

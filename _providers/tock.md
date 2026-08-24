@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Reservation data model and delivery surface published at api.exploretock.com. Reservation records (bookings, ticketed experiences, takeout/delivery orders, parties, pricing, payments, refunds, notes, '
@@ -590,7 +590,7 @@ modified: '2026-06-03'
 name: Tock
 nav: Providers
 network: true
-overview: 'Tock publishes 2 APIs on the [APIs.io](https://apis.io/) network: Reservation API and Guest API. Tagged areas include Hospitality, Reservations, Restaurants, Wineries, and Ticketed Events.
+overview: 'Tock publishes 2 APIs on the [APIs.io](https://apis.io/) network: Reservation API and Guest API. Tagged areas include Hospitality, Reservations, Restaurant, Wineries, and Ticketed Events.
 
 
   The Tock catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -620,7 +620,7 @@ rules:
 score:
   band: thin
   composite: 35.1
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -630,10 +630,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 35.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/screenshots/tock-2026-06-20T195428.png
 security:
 - kind: authentication
@@ -657,12 +657,12 @@ solutions:
 tags:
 - Hospitality
 - Reservations
-- Restaurants
+- Restaurant
 - Wineries
 - Ticketed Events
 - Takeout
 - Delivery
-- Experiences
+- Experience
 - Dining
 - American Express
 use_cases:

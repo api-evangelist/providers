@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API-delivered battery simulation service for predicting performance and degradation with validated physics-based cell models, and for retrieving and designing battery cell formats. Accessed through th
@@ -125,7 +125,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 19.9
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 5.3
     commercial_clarity: 5.3
@@ -135,16 +135,16 @@ score:
     discoverability: 77.8
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 28.2
+  previous_composite: 19.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/screenshots/breathe-battery-technologies-2026-07-25T203734.png
 security:
 - kind: authentication

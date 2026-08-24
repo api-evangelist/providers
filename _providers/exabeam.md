@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: Manage users, roles, and permissions within the Exabeam platform.
@@ -188,8 +188,8 @@ image: https://files.readme.io/e4416f6-small-Exabeam-2024-Logo-Color-Dark-Large-
 layout: provider
 mcp_servers:
 - description: ''
-  name: exabeam-mcp.yml
-  slug: exabeam-mcpyml
+  name: Exabeam MCP Server
+  slug: exabeam-mcp-server
 modified: '2026-07-19'
 name: Exabeam
 nav: Providers
@@ -206,24 +206,24 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.2
-  delta: -7.8
+  composite: 31.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 32.1
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 38.0
+  previous_composite: 31.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exabeam/refs/heads/main/screenshots/exabeam-2026-07-25T213833.png
 security:
 - kind: authentication

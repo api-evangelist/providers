@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API for poolside's Laguna agentic-coding models. Send chat-completion and model-listing requests from your own tools, scripts, and applications using the OpenAI SDK by swit
@@ -161,7 +161,7 @@ modified: '2026-07-20'
 name: poolside
 nav: Providers
 network: true
-overview: 'poolside publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Machine Learning, and Foundation Models.
+overview: 'poolside publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Machine-Learning, and Foundation Models.
 
 
   poolside''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 22 more developer resources.'
@@ -169,7 +169,7 @@ random_paper: 2
 score:
   band: thin
   composite: 33.7
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -179,12 +179,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 35.1
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -208,7 +208,7 @@ tags:
 - Company
 - Enterprise
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Coding Assistant
 - Developer Tools
@@ -216,6 +216,6 @@ tags:
 - Agents
 - Code Generation
 - Inference
-- OpenAI Compatible
+- OpenAI-Compatible
 website: https://platform.poolside.ai
 ---

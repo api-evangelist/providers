@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The partner-facing read-only Lokki API — seven GET operations over rental providers (stores), their store items with date-range pricing and stock, and the two-level verticale / category taxonomy. Docu
@@ -172,14 +172,14 @@ description: Lokki is a Grenoble, France rental-management SaaS (getlokki.com) u
 image: https://cdn.prod.website-files.com/5e287889fb7cee1c505303f4/66d86a1b9b17225aee5db549_logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: lokki-mcp.yml
-  slug: lokki-mcpyml
+- description: 'Lokki operates ONE remote MCP server, at https://docs.getlokki.com/mcp. It is the documentation MCP server that ships with the Mintlify docs platform, it answers tools/list anonymously, and its three '
+  name: Lokki MCP Server
+  slug: lokki-mcp-server
 modified: '2026-08-17'
 name: Lokki
 nav: Providers
 network: true
-overview: 'Lokki publishes 2 APIs on the [APIs.io](https://apis.io/) network: External API and Dashboard API. Tagged areas include Company, Climate Tech, Circular Economy, Rental, and Equipment Rental.
+overview: 'Lokki publishes 2 APIs on the [APIs.io](https://apis.io/) network: External API and Dashboard API. Tagged areas include Company, Climate Tech, Circular Economy, Rentals, and Equipment Rental.
 
 
   Lokki''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, engineering blog, pricing, and 24 more developer resources.'
@@ -195,6 +195,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -204,6 +205,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 47.4
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -213,8 +215,9 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Lokki Authentication
@@ -229,7 +232,7 @@ tags:
 - Company
 - Climate Tech
 - Circular Economy
-- Rental
+- Rentals
 - Equipment Rental
 - Bike Rental
 - Marketplace
@@ -241,8 +244,8 @@ tags:
 - Availability
 - Mobility
 - Outdoor Recreation
-- Point of Sale
-- SaaS
+- Point-of-Sale
+- Software-as-a-Service
 - France
 - MCP
 - Agents

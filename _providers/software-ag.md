@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 2
@@ -79,6 +79,10 @@ collections:
   name: webMethods API Gateway Service Management API
   slug: open-webmethods-api-gateway
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: commercial
   title: ''
   type: License
@@ -143,6 +147,10 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/vocabulary/software-ag-vocabulary.yml
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/web-methods/
 created: '2026-03-16'
 description: Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native integration services. Software AG was acquired by IBM in 2024.
 examples:
@@ -171,7 +179,7 @@ jsonld:
   property_count: 18
   slug: software-ag-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Software AG
 nav: Providers
 network: true
@@ -181,7 +189,7 @@ overview: 'Software AG publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
   The Software AG catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Software AG''s developer surface includes support, signup flow, authentication, developer portal, documentation, engineering blog, and 10 more developer resources.'
+  Software AG''s developer surface includes support, signup flow, authentication, developer portal, documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Software Ag Plans Pricing
   plan_count: 1
@@ -215,7 +223,7 @@ rules:
 score:
   band: developing
   composite: 39.6
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -225,7 +233,7 @@ score:
     discoverability: 72.2
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 47.6
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -233,9 +241,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png
 security:
 - kind: authentication

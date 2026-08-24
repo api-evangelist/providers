@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -121,8 +121,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mirrortab.
 layout: provider
 mcp_servers:
 - description: ''
-  name: mirrortab-mcp.yml
-  slug: mirrortab-mcpyml
+  name: MirrorTab MCP Server
+  slug: mirrortab-mcp-server
 modified: '2026-07-20'
 name: MirrorTab
 nav: Providers
@@ -135,7 +135,7 @@ random_paper: 12
 score:
   band: thin
   composite: 35.9
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -145,7 +145,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 37.2
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -156,8 +156,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/screenshots/mirrortab-2026-08-07T183736.png
 security:

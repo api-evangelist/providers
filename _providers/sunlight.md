@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Sunlight''s REST/JSON:API for managing education-spending groups: create groups, invite registered and unregistered users, edit individual member budgets (credits/transactions), list orders, and read t'
@@ -101,7 +101,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 18.0
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -111,7 +111,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 18.0
   provenance:
     conformance: first-party
   regulatory:
@@ -120,8 +120,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -142,7 +142,7 @@ tags:
 - Spending
 - Fintech
 - JSON:API
-- Groups
-- Orders
+- Group
+- Order
 website: https://sunlight.is
 ---

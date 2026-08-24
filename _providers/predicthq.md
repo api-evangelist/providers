@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ modified: '2026-05-19'
 name: PredictHQ
 nav: Providers
 network: true
-overview: 'PredictHQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Features API, Places API, and 1 more. Tagged areas include Demand Intelligence, Events, Forecasting, Machine Learning, and Real-World Events.
+overview: 'PredictHQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Features API, Places API, and 1 more. Tagged areas include Demand Intelligence, Event, Forecasting, Machine-Learning, and Real-World Events.
 
 
   PredictHQ''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, support, and 10 more developer resources.'
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -179,7 +179,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 45.6
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -187,9 +187,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/screenshots/predicthq-2026-06-20T192049.png
 security:
 - kind: authentication
@@ -203,9 +203,9 @@ security:
 slug: predicthq
 tags:
 - Demand Intelligence
-- Events
+- Event
 - Forecasting
-- Machine Learning
+- Machine-Learning
 - Real-World Events
 website: https://www.predicthq.com/
 ---

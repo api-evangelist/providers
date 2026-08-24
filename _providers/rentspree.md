@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -157,7 +157,7 @@ modified: '2026-05-25'
 name: RentSpree
 nav: Providers
 network: true
-overview: 'RentSpree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Rentals, Rental Applications, Tenant Screening, and Credit Check.
+overview: 'RentSpree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Rentals, Rental Applications, Tenant Screening, and Credit Check.
 
 
   RentSpree''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 25 more developer resources.'
@@ -165,7 +165,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 12.5
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -175,15 +175,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.7
+  previous_composite: 12.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentspree/refs/heads/main/screenshots/rentspree-2026-06-20T192855.png
 security:
@@ -193,7 +193,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: rentspree
 tags:
-- Real Estate
+- Real-Estate
 - Rentals
 - Rental Applications
 - Tenant Screening
@@ -203,7 +203,7 @@ tags:
 - Income Verification
 - Renters Insurance
 - Rent Payments
-- E-Sign
+- eSign
 - Leasing
 - Listings
 - MLS

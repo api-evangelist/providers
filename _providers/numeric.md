@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Numeric's close-automation toolkit to AI agents. Streamable-HTTP MCP endpoint at api.numeric.io/mcp, guarded by OAuth 2.0 / OIDC (auth.numeric.io
@@ -107,8 +107,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/numeric.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: numeric-mcp.yml
-  slug: numeric-mcpyml
+  name: Numeric MCP Server
+  slug: numeric-mcp-server
 modified: '2026-07-20'
 name: Numeric
 nav: Providers
@@ -126,7 +126,7 @@ scopes:
 score:
   band: emerging
   composite: 25.1
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -136,13 +136,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 27.2
+  previous_composite: 25.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/screenshots/numeric-2026-08-07T185732.png
 security:
@@ -163,6 +163,6 @@ tags:
 - Reconciliation
 - MCP
 - Agent Skills
-- OAuth
+- Authentication
 website: https://www.numeric.io
 ---

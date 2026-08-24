@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-18'
 name: Britesemi
 nav: Providers
 network: true
-overview: Britesemi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, ASIC, Silicon IP, and Chip Design.
+overview: Britesemi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, ASIC, Silicon IP, and Chip Design.
 random_paper: 19
 score:
   band: minimal
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/britesemi/refs/heads/main/screenshots/britesemi-2026-07-25T203931.png
 security:
@@ -76,11 +76,11 @@ security:
 slug: britesemi
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - ASIC
 - Silicon IP
 - Chip Design
-- SoC
+- SOC
 - Hardware
 website: https://www.britesemi.com
 ---

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 1
@@ -318,8 +318,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Lone Wolf Technologies MCP Server
+  slug: lone-wolf-technologies-mcp-server
 - description: ''
   name: MCP server manifest and captured tools/list
   slug: mcp-server-manifest-and-captured-toolslist
@@ -327,7 +327,7 @@ modified: '2026-08-13'
 name: Lone Wolf Technologies
 nav: Providers
 network: true
-overview: 'Lone Wolf Technologies publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Lone Wolf Transact API, Lone Wolf Deals API, Lone Wolf Back Office API, and 4 more. Tagged areas include Real Estate, United States, PropTech, Transactions, and Transaction Management.
+overview: 'Lone Wolf Technologies publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Lone Wolf Transact API, Lone Wolf Deals API, Lone Wolf Back Office API, and 4 more. Tagged areas include Real-Estate, United States, PropTech, Transaction, and Transaction Management.
 
 
   The Lone Wolf Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -351,7 +351,7 @@ scopes:
 score:
   band: developing
   composite: 53.8
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -361,7 +361,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 52.7
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -378,8 +378,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/screenshots/lone-wolf-2026-08-07T171753.png
 security:
@@ -393,10 +393,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: lone-wolf
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - PropTech
-- Transactions
+- Transaction
 - Transaction Management
 - Brokerage Back Office
 - Real Estate Accounting

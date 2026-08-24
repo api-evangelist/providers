@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: Whip Media Group
 nav: Providers
 network: true
-overview: 'Whip Media Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Content Licensing, and SaaS.
+overview: 'Whip Media Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Content Licensing, and Software-as-a-Service.
 
 
   Whip Media Group''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 13.0
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -90,11 +90,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 12.2
+  previous_composite: 13.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -107,7 +107,7 @@ tags:
 - Media
 - Entertainment
 - Content Licensing
-- SaaS
+- Software-as-a-Service
 - Metadata
 - Royalties
 - Rights Management

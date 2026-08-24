@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -183,13 +183,13 @@ image: https://raw.githubusercontent.com/blowfishxyz/blowfish-openapi-specs/HEAD
 layout: provider
 mcp_servers:
 - description: ''
-  name: blowfish-mcp.yml
-  slug: blowfish-mcpyml
+  name: Blowfish MCP Server
+  slug: blowfish-mcp-server
 modified: '2026-07-18'
 name: Blowfish
 nav: Providers
 network: true
-overview: 'Blowfish publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Download blocklist API, Scan domain API, Scan message API, and 1 more. Tagged areas include Company, Security, Web3, Blockchain, and Wallet.
+overview: 'Blowfish publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Download blocklist API, Scan domain API, Scan message API, and 1 more. Tagged areas include Company, Security, Web3, Blockchain, and Wallets.
 
 
   Blowfish''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, support, and 20 more developer resources.'
@@ -197,7 +197,7 @@ random_paper: 1
 score:
   band: thin
   composite: 38.4
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 20.5
     operational_transparency: 2.6
-  previous_composite: 43.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,9 +224,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/screenshots/blowfish-2026-07-25T203426.png
 security:
 - kind: authentication
@@ -243,7 +243,7 @@ tags:
 - Security
 - Web3
 - Blockchain
-- Wallet
+- Wallets
 - Transaction Scanning
 - Fraud Prevention
 - Cryptocurrency

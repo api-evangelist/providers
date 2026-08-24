@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Authorities API from Democracy Works — 3 operation(s) for authorities.
@@ -120,7 +120,7 @@ modified: '2026-04-28'
 name: Democracy Works
 nav: Providers
 network: true
-overview: 'Democracy Works publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorities API, Elections API, and Exports API. Tagged areas include Civic Tech, Elections, Government, Nonprofit, and Voter Information.
+overview: 'Democracy Works publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorities API, Elections API, and Exports API. Tagged areas include Civic Tech, Elections, Government, Non-Profit, and Voter Information.
 
 
   The Democracy Works catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -160,18 +160,18 @@ rules:
   slug: democracy-works-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 2.6
+  composite: 38.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 67.6
     developer_ergonomics: 7.1
     discoverability: 74.1
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 13.2
-  previous_composite: 35.1
+  previous_composite: 38.8
   provenance:
     contracts:
       callable: 100.0
@@ -184,8 +184,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/screenshots/democracy-works-2026-06-20T175910.png
 security:
@@ -198,7 +198,7 @@ tags:
 - Civic Tech
 - Elections
 - Government
-- Nonprofit
+- Non-Profit
 - Voter Information
 - Voting
 website: https://www.democracy.works

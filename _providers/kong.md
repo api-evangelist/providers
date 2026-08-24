@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -5527,18 +5527,18 @@ rules:
   slug: kong-spectral-rules
 score:
   band: developing
-  composite: 50.2
-  delta: -8.8
+  composite: 51.7
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 9.8
-    contract_quality: 63.3
+    contract_governance: 13.6
+    contract_quality: 67.5
     developer_ergonomics: 47.6
     discoverability: 57.4
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 59.0
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -5546,9 +5546,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 132
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:
 - kind: authentication
@@ -5571,7 +5571,7 @@ tags:
 - LLM
 - Kafka
 - Konnect
-- Open Source
+- Open-Source
 use_cases:
 - description: Route, secure, and observe traffic to microservices with authentication, rate limiting, and request transformations.
   name: API Gateway for Microservices

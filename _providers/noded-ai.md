@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Noded (Apollo) GraphQL API behind the Customer Context Graph. One POST endpoint serving people and accounts (both modelled as tags), the unified activity timeline (blocks: notes, emails, tasks, me'
@@ -181,8 +181,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noded-ai.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: noded-ai-mcp.yml
-  slug: noded-ai-mcpyml
+  name: Noded MCP layer
+  slug: noded-mcp-layer
 modified: '2026-08-13'
 name: Noded AI
 nav: Providers
@@ -208,7 +208,7 @@ scopes:
 score:
   band: developing
   composite: 40.6
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -218,13 +218,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 45.0
+  previous_composite: 40.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/screenshots/noded-ai-2026-08-07T185418.png
 security:
@@ -249,11 +249,11 @@ tags:
 - Churn
 - Retention
 - Revenue Operations
-- SaaS
+- Software-as-a-Service
 - AI Agents
 - GraphQL
 - MCP
-- Agent Native
+- agent-native
 - Customer Context Graph
 website: https://www.getnoded.ai/
 ---

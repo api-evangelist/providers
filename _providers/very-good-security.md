@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Unique IDs that retain all the essential information about the data without compromising its security.
@@ -209,8 +209,8 @@ image: https://www.verygoodsecurity.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: very-good-security-mcp.yml
-  slug: very-good-security-mcpyml
+  name: Very Good Security MCP Server
+  slug: very-good-security-mcp-server
 modified: '2026-07-21'
 name: Very Good Security
 nav: Providers
@@ -231,7 +231,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.8
-  delta: 5.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -241,7 +241,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 62.4
+  previous_composite: 67.8
   provenance:
     conformance: derived
     contracts:
@@ -257,9 +257,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/very-good-security/refs/heads/main/screenshots/very-good-security-2026-08-17T082738.png
 security:
 - kind: authentication

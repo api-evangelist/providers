@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 collections:
@@ -69,7 +69,7 @@ modified: '2026-04-28'
 name: Defense Information System for Security
 nav: Providers
 network: true
-overview: 'Defense Information System for Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Defense, Department of Defense, DCSA, and Personnel Security.
+overview: 'Defense Information System for Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Defense, Department of Defense, DCSA, and Personnel Security.
 
 
   Defense Information System for Security''s developer surface includes documentation, product news, and 3 more developer resources.'
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.8
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -95,15 +95,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 14.6
+  previous_composite: 13.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-information-system-for-security/refs/heads/main/screenshots/defense-information-system-for-security-2026-06-20T175833.png
 security:
@@ -113,7 +113,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: defense-information-system-for-security
 tags:
-- Federal Government
+- Federal-Government
 - Defense
 - Department of Defense
 - DCSA

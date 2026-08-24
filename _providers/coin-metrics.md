@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -295,9 +295,9 @@ description: 'Coin Metrics is a Boston-based crypto financial intelligence provi
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coin-metrics.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: coin-metrics-mcp.yml
-  slug: coin-metrics-mcpyml
+- description: No official Coin Metrics MCP server was found (official MCP registry, npm, and docs searched 2026-07-22). This is a candidate tool list derived one-per-operationId from the published OpenAPI 3.0.2 def
+  name: Coin Metrics MCP Server
+  slug: coin-metrics-mcp-server
 modified: '2026-07-22'
 name: Coin Metrics
 nav: Providers
@@ -317,7 +317,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.4
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -327,7 +327,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 53.5
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,9 +344,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/screenshots/coin-metrics-2026-07-22T202257.png
 security:
 - kind: authentication

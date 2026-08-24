@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Codex is Defined''s unified GraphQL API for real-time blockchain data: token prices, OHLCV bars, trades, liquidity pools, holders, wallet analytics, prediction markets and launchpad data across 100+ EV'
@@ -150,9 +150,9 @@ description: 'Defined (defined.fi) is a real-time, multi-chain crypto trading te
 image: https://docs.codex.io/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: defined-mcp.yml
-  slug: defined-mcpyml
+- description: Codex (Defined's developer API) operates an official remote, hosted MCP server that lets AI coding tools search and reference the Codex GraphQL API documentation — queries, subscriptions, types and gu
+  name: Defined MCP Server
+  slug: defined-mcp-server
 modified: '2026-07-18'
 name: Defined
 nav: Providers
@@ -168,7 +168,7 @@ random_paper: 5
 score:
   band: developing
   composite: 51.7
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -178,7 +178,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 50.9
+  previous_composite: 51.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -189,8 +189,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/screenshots/defined-2026-07-25T211823.png
 security:
@@ -213,6 +213,5 @@ tags:
 - GraphQL
 - Web3
 - Prediction Markets
-- API
 website: https://www.codex.io/
 ---

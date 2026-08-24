@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'A live first-party Model Context Protocol server that lets a Valid managed-service client query their whole advertising account — spend, channels, creative performance, attribution — in plain English '
@@ -101,8 +101,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valid.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: valid-mcp.yml
-  slug: valid-mcpyml
+  name: Chat With Your Ads MCP Server
+  slug: chat-with-your-ads-mcp-server
 modified: '2026-08-12'
 name: Valid
 nav: Providers
@@ -128,7 +128,7 @@ scopes:
 score:
   band: emerging
   composite: 17.4
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -138,12 +138,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 17.9
+  previous_composite: 17.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Server-side conversion event ingestion. Accepts batches of up to 100 events over HTTPS with Bearer authentication, so conversions that happen off-site (CRM milestones such as ClosedWon, BecameSQL or R
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -186,7 +186,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 41.3
+  previous_composite: 41.6
   provenance:
     conformance: derived
     contracts:
@@ -196,8 +196,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/screenshots/knotch-2026-07-25T224004.png
 security:

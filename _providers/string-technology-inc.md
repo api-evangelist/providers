@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for String's fiat-for-Web3-gaming platform — quotes and transactions (fiat on/off ramp, NFT purchase, cross-chain), plus management of API keys, contracts, platforms (games), members, organiz
@@ -126,9 +126,9 @@ description: String (string.xyz) is a fiat interoperability platform for Web3 ga
 image: https://avatars.githubusercontent.com/u/104804397?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: string-technology-inc-mcp.yml
-  slug: string-technology-inc-mcpyml
+- description: Candidate MCP server tool list DERIVED from String's documented API operations (the ReadMe reference / llms.txt endpoint surface). String does not publish an official hosted/remote MCP server; this is
+  name: String Technology Inc MCP Server
+  slug: string-technology-inc-mcp-server
 modified: '2026-07-21'
 name: String Technology Inc
 nav: Providers
@@ -141,7 +141,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 18.3
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -151,7 +151,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 24.2
+  previous_composite: 18.3
   provenance:
     conformance: derived
     mcp: derived
@@ -162,9 +162,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: String Technology Inc Authentication

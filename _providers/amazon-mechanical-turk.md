@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -1798,7 +1798,7 @@ modified: '2026-05-19'
 name: Amazon Mechanical Turk
 nav: Providers
 network: true
-overview: 'Amazon Mechanical Turk publishes 39 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest API, #X Amz Target=MTurkRequesterServiceV20170117.ApproveAssignment API, #X Amz Target=MTurkRequesterServiceV20170117.AssociateQualificationWithWorker API, and 36 more. Tagged areas include Crowdsourcing, Human Intelligence, Labor, Machine Learning, and Tasks.
+overview: 'Amazon Mechanical Turk publishes 39 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest API, #X Amz Target=MTurkRequesterServiceV20170117.ApproveAssignment API, #X Amz Target=MTurkRequesterServiceV20170117.AssociateQualificationWithWorker API, and 36 more. Tagged areas include Crowdsourcing, Human Intelligence, Labor, Machine-Learning, and Task.
 
 
   The Amazon Mechanical Turk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1838,18 +1838,18 @@ rules:
   slug: amazon-mechanical-turk-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: -8.0
+  composite: 47.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 71.3
     developer_ergonomics: 36.9
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 55.2
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1857,9 +1857,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/screenshots/amazon-mechanical-turk-2026-06-20T171734.png
 security:
 - kind: authentication
@@ -1875,8 +1875,8 @@ tags:
 - Crowdsourcing
 - Human Intelligence
 - Labor
-- Machine Learning
-- Tasks
+- Machine-Learning
+- Task
 use_cases:
 - description: Label images, text, audio, and video to create training datasets for machine learning models.
   name: Machine Learning Data Labeling

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -289,8 +289,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xignite.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: xignite-mcp.yml
-  slug: xignite-mcpyml
+  name: Xignite MCP Server
+  slug: xignite-mcp-server
 modified: '2026-07-22'
 name: Xignite
 nav: Providers
@@ -303,7 +303,7 @@ random_paper: 4
 score:
   band: developing
   composite: 41.8
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -313,7 +313,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 40.2
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -330,8 +330,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/screenshots/xignite-2026-07-22T202705.png
 security:

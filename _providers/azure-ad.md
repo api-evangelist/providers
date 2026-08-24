@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-04-19'
 name: Azure Active Directory
 nav: Providers
 network: true
-overview: 'Azure Active Directory publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Directory API, Groups API, and 2 more. Tagged areas include Authentication, Authorization, Identity, OAuth, and OpenID Connect.
+overview: 'Azure Active Directory publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Directory API, Groups API, and 2 more. Tagged areas include Authentication, Authorization, Identity, OpenID Connect, and Single Sign-On.
 
 
   Azure Active Directory''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, getting-started guide, and 7 more developer resources.'
@@ -197,7 +197,7 @@ scopes:
 score:
   band: developing
   composite: 43.1
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -207,7 +207,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 42.7
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/screenshots/azure-ad-2026-06-20T172836.png
 security:
@@ -233,7 +233,6 @@ tags:
 - Authentication
 - Authorization
 - Identity
-- OAuth
 - OpenID Connect
 - Single Sign-On
 use_cases:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ modified: '2026-05-19'
 name: Federal Motor Carrier Safety Administration
 nav: Providers
 network: true
-overview: 'Federal Motor Carrier Safety Administration publishes 1 API on the [APIs.io](https://apis.io/) network: Carriers API. Tagged areas include Federal Government, Safety, and Transportation.
+overview: 'Federal Motor Carrier Safety Administration publishes 1 API on the [APIs.io](https://apis.io/) network: Carriers API. Tagged areas include Federal-Government, Safety, and Transportation.
 
 
   Federal Motor Carrier Safety Administration''s developer surface includes authentication, documentation, and 4 more developer resources.'
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.5
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -117,7 +117,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.2
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -131,8 +131,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/screenshots/federal-motor-carrier-safety-administration-2026-06-20T181123.png
 security:
@@ -146,7 +146,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: federal-motor-carrier-safety-administration
 tags:
-- Federal Government
+- Federal-Government
 - Safety
 - Transportation
 website: https://www.fmcsa.dot.gov/

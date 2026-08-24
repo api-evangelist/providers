@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ modified: '2026-05-19'
 name: Vineyard
 nav: Providers
 network: true
-overview: 'Vineyard publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Connection API, Metadata API, and 3 more. Tagged areas include Big Data, CNCF, Cloud Native, Data Engineering, and Distributed Systems.
+overview: 'Vineyard publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Connection API, Metadata API, and 3 more. Tagged areas include Big Data, CNCF, Cloud-Native, Data Engineering, and Distributed Systems.
 
 
   The Vineyard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -241,18 +241,18 @@ rules:
   slug: vineyard-rules
 score:
   band: thin
-  composite: 33.4
-  delta: -5.8
+  composite: 33.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 55.9
     developer_ergonomics: 21.4
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 39.2
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -260,9 +260,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/screenshots/vineyard-2026-06-20T201035.png
 security:
 - kind: domain-security
@@ -273,12 +273,12 @@ slug: vineyard
 tags:
 - Big Data
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Data Engineering
 - Distributed Systems
 - In-Memory Storage
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - Metadata Management
 - Python
 - Zero-Copy

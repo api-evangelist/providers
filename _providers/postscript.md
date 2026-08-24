@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -249,13 +249,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postscript
 layout: provider
 mcp_servers:
 - description: ''
-  name: postscript-mcp.yml
-  slug: postscript-mcpyml
+  name: Postscript MCP Server
+  slug: postscript-mcp-server
 modified: '2026-08-13'
 name: Postscript
 nav: Providers
 network: true
-overview: 'Postscript publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Partner API, Subscribers API, Events API, and 5 more. Tagged areas include SMS, Marketing, Messaging, E-commerce, and Shopify.
+overview: 'Postscript publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Partner API, Subscribers API, Events API, and 5 more. Tagged areas include SMS, Marketing, Messaging, E-Commerce, and Shopify.
 
 
   The Postscript catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -274,7 +274,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.5
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 96.1
     commercial_clarity: 96.1
@@ -284,7 +284,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 59.2
-  previous_composite: 63.6
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,8 +301,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 46.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/screenshots/postscript-2026-06-20T192017.png
 security:
@@ -327,11 +327,11 @@ tags:
 - SMS
 - Marketing
 - Messaging
-- E-commerce
+- E-Commerce
 - Shopify
 - RCS
 - Subscribers
-- Webhooks
+- Webhook
 - Compliance
 website: https://postscript.io
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The App.net Stream API — a RESTful, OAuth 2.0-secured social API covering posts, users, follows, channels/messages, files, filters, and a real-time streaming surface. Responses use a uniform {data, me
@@ -97,7 +97,7 @@ modified: '2026-07-18'
 name: App.net
 nav: Providers
 network: true
-overview: 'App.net publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Microblogging, Messaging, and Real Time.
+overview: 'App.net publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Microblogging, Messaging, and Real-Time.
 
 
   App.net''s developer surface includes documentation, authentication, and 11 more developer resources.'
@@ -114,7 +114,7 @@ scopes:
 score:
   band: emerging
   composite: 22.0
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -124,11 +124,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 21.2
+  previous_composite: 22.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/screenshots/appnet-2026-07-25T200825.png
 security:
@@ -142,9 +142,9 @@ tags:
 - Social
 - Microblogging
 - Messaging
-- Real Time
+- Real-Time
 - Streaming
 - Developer Platform
-- OAuth
+- Authentication
 - Defunct
 ---

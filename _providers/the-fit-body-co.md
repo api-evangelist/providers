@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-21'
 name: The Fit Body Co
 nav: Providers
 network: true
-overview: 'The Fit Body Co is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports Nutrition, Dietary Supplements, E-commerce, and Health and Wellness.
+overview: 'The Fit Body Co is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports Nutrition, Dietary Supplements, E-Commerce, and Health and Wellness.
 
 
   The Fit Body Co''s developer surface includes authentication and 4 more developer resources.'
@@ -74,7 +74,7 @@ scopes:
 score:
   band: emerging
   composite: 11.1
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -84,15 +84,15 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.5
+  previous_composite: 11.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -108,7 +108,7 @@ tags:
 - Company
 - Sports Nutrition
 - Dietary Supplements
-- E-commerce
+- E-Commerce
 - Health and Wellness
 - Consumer Products
 - Mexico

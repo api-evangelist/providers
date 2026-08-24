@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -129,9 +129,9 @@ description: Baz Technologies (Baz) is a Tel Aviv-based engineering review platf
 image: https://baz.ai/seo.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: baz-technologies-mcp.yml
-  slug: baz-technologies-mcpyml
+- description: Baz exposes a hosted, remote MCP server that delivers context-aware, org-configured code reviews directly inside any MCP-enabled IDE, CLI, or agent (Cursor, Claude Code / Desktop, VS Code). Review pri
+  name: Baz Technologies MCP Server
+  slug: baz-technologies-mcp-server
 modified: '2026-07-18'
 name: Baz Technologies
 nav: Providers
@@ -144,7 +144,7 @@ random_paper: 8
 score:
   band: thin
   composite: 32.1
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -154,12 +154,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 33.2
+  previous_composite: 32.1
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baz-technologies/refs/heads/main/screenshots/baz-technologies-2026-07-25T202451.png
 security:
@@ -184,7 +184,7 @@ tags:
 - Application Security
 - Agentic Coding
 - DevOps
-- Model Context Protocol
+- MCP
 - Software Engineering
 website: https://baz.ai
 ---

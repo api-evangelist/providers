@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: The Access groups API from ButterflyMX — 6 operation(s) for access groups.
@@ -259,13 +259,13 @@ image: https://butterflymx.com/wp-content/uploads/2023/10/gated-community-interc
 layout: provider
 mcp_servers:
 - description: ''
-  name: butterflymx-mcp.yml
-  slug: butterflymx-mcpyml
+  name: ButterflyMX MCP Server
+  slug: butterflymx-mcp-server
 modified: '2026-08-08'
 name: ButterflyMX
 nav: Providers
 network: true
-overview: 'ButterflyMX publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Access groups API, Access Logs API, Access Points API, and 11 more. Tagged areas include access-control, physical-access, smart-intercom, proptech, and property-management.
+overview: 'ButterflyMX publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Access groups API, Access Logs API, Access Points API, and 11 more. Tagged areas include Access Control, physical-access, smart-intercom, PropTech, and Property Management.
 
 
   The ButterflyMX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -281,7 +281,7 @@ scopes:
 score:
   band: developing
   composite: 41.9
-  delta: -14.6
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -291,7 +291,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 56.5
+  previous_composite: 41.9
   provenance:
     conformance: derived
     contracts:
@@ -301,9 +301,9 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/screenshots/butterflymx-2026-08-17T080748.png
 security:
 - kind: authentication
@@ -320,17 +320,17 @@ security:
   summary_line: trust center published
 slug: butterflymx
 tags:
-- access-control
+- Access Control
 - physical-access
 - smart-intercom
-- proptech
-- property-management
-- multifamily
-- building-automation
-- visitor-management
-- iot
+- PropTech
+- Property Management
+- Multifamily
+- Building Automation
+- Visitor Management
+- IoT
 - smart-locks
-- oauth2
-- webhooks
+- Authentication
+- Webhook
 website: https://butterflymx.com/
 ---

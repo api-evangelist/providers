@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: BerryKitchen
 nav: Providers
 network: true
-overview: BerryKitchen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Catering, Food Delivery, and Ecommerce.
+overview: BerryKitchen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Catering, Food Delivery, and E-Commerce.
 random_paper: 9
 score:
   band: minimal
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/berrykitchen/refs/heads/main/screenshots/berrykitchen-2026-07-25T202748.png
 security:
@@ -91,7 +91,7 @@ tags:
 - Food and Beverage
 - Catering
 - Food Delivery
-- Ecommerce
+- E-Commerce
 - Indonesia
 - Southeast Asia
 - Acquired

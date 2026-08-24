@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ modified: '2026-05-29'
 name: Appwrite
 nav: Providers
 network: true
-overview: 'Appwrite publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Databases API, Storage API, and 1 more. Tagged areas include Applications, Backends, Mobile, and Open Source.
+overview: 'Appwrite publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Databases API, Storage API, and 1 more. Tagged areas include Application, Backend, Mobile, and Open-Source.
 
 
   The Appwrite catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -267,7 +267,7 @@ rules:
 score:
   band: developing
   composite: 46.5
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -277,7 +277,7 @@ score:
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 57.0
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -285,9 +285,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/screenshots/appwrite-2026-06-20T172338.png
 security:
 - kind: authentication
@@ -324,9 +324,9 @@ skills:
   slug: appwrite-typescript
 slug: appwrite
 tags:
-- Applications
-- Backends
+- Application
+- Backend
 - Mobile
-- Open Source
+- Open-Source
 website: https://appwrite.io/
 ---

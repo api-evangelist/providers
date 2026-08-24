@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ modified: '2026-07-25'
 name: Aligned News
 nav: Providers
 network: true
-overview: 'Aligned News publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bundles API, News Feed API, Reports API, and 4 more. Tagged areas include AI, News, Intelligence, MCP, and Signals.
+overview: 'Aligned News publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bundles API, News Feed API, Reports API, and 4 more. Tagged areas include Artificial Intelligence, News, Intelligence, MCP, and Signals.
 
 
   The Aligned News catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -298,7 +298,7 @@ rules:
 score:
   band: developing
   composite: 47.6
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -308,7 +308,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 53.8
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -316,9 +316,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/screenshots/aligned-news-2026-06-20T171522.png
 security:
 - kind: authentication
@@ -331,7 +331,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: aligned-news
 tags:
-- AI
+- Artificial Intelligence
 - News
 - Intelligence
 - MCP

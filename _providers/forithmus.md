@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -285,13 +285,13 @@ image: https://forithmus.com/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: forithmus-mcp.yml
-  slug: forithmus-mcpyml
+  name: Forithmus MCP Server
+  slug: forithmus-mcp-server
 modified: '2026-07-19'
 name: Forithmus
 nav: Providers
 network: true
-overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) network, including 2fa API, admin API, auth API, and 22 more. Tagged areas include Medical Imaging, Radiology, Machine Learning, Foundation Models, and Healthcare AI.
+overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) network, including 2fa API, admin API, auth API, and 22 more. Tagged areas include Medical Imaging, Radiology, Machine-Learning, Foundation Models, and Healthcare AI.
 
 
   Forithmus'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, CLI, and 14 more developer resources.'
@@ -299,7 +299,7 @@ random_paper: 6
 score:
   band: thin
   composite: 28.5
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -309,7 +309,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 33.7
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,9 +326,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/screenshots/forithmus-2026-07-25T214941.png
 security:
 - kind: authentication
@@ -343,13 +343,12 @@ slug: forithmus
 tags:
 - Medical Imaging
 - Radiology
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Healthcare AI
 - Challenge Platform
 - Benchmarks
 - Research
 - Developer Tools
-- API
 website: https://forithmus.com
 ---

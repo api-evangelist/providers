@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 16
 apis:
 - description: Authorization operations for OAuth 2.0 Grants
@@ -328,8 +328,8 @@ image: https://www.bokio.se/media/38801/open-graph.png?width=1200
 layout: provider
 mcp_servers:
 - description: ''
-  name: bokio-mcp.yml
-  slug: bokio-mcpyml
+  name: Bokio MCP Server
+  slug: bokio-mcp-server
 modified: '2026-07-18'
 name: Bokio
 nav: Providers
@@ -347,7 +347,7 @@ scopes:
 score:
   band: strong
   composite: 55.0
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -357,7 +357,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 32.9
-  previous_composite: 58.0
+  previous_composite: 55.0
   provenance:
     conformance: derived
     contracts:
@@ -373,8 +373,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png
 security:
@@ -404,6 +404,6 @@ tags:
 - Payments
 - Sweden
 - SMB
-- OAuth
+- Authentication
 website: https://bokio.se/
 ---

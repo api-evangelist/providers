@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -282,14 +282,14 @@ description: Coinflow is a stablecoin-native payments platform (backed by Panter
 image: https://coinflow.cash/coinflow-og-image.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: coinflow-mcp.yml
-  slug: coinflow-mcpyml
+- description: Coinflow publishes a hosted, remote MCP server for its documentation (a Fern "fern-docs-mcp-server"), advertised in the docs llms.txt for AI-client integration (Claude Code, Cursor, etc.). Its scope i
+  name: Coinflow MCP Server
+  slug: coinflow-mcp-server
 modified: '2026-07-18'
 name: Coinflow
 nav: Providers
 network: true
-overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authentication API, cardTokenization API, checkout API, and 11 more. Tagged areas include Company, Crypto, Payments, Stablecoin, and USDC.
+overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authentication API, cardTokenization API, checkout API, and 11 more. Tagged areas include Company, Crypto, Payments, Stablecoins, and USDC.
 
 
   The Coinflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -300,7 +300,7 @@ random_paper: 4
 score:
   band: strong
   composite: 59.2
-  delta: 3.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -310,7 +310,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 55.6
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,8 +327,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/screenshots/coinflow-2026-07-25T210028.png
 security:
@@ -349,7 +349,7 @@ tags:
 - Company
 - Crypto
 - Payments
-- Stablecoin
+- Stablecoins
 - USDC
 - Checkout
 - Payouts

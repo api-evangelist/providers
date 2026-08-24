@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ modified: '2026-08-04'
 name: Essential AI
 nav: Providers
 network: true
-overview: 'Essential AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include artificial-intelligence, machine-learning, large-language-models, open-weight-models, and ai-research.
+overview: 'Essential AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, Large Language Models, open-weight-models, and AI Research.
 
 
   Essential AI''s developer surface includes product news and 17 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 18
 score:
   band: minimal
   composite: 6.6
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -122,9 +122,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/essential-ai/refs/heads/main/screenshots/essential-ai-2026-08-07T165012.png
 security:
@@ -134,15 +134,15 @@ security:
   summary_line: TLSv1.3
 slug: essential-ai
 tags:
-- artificial-intelligence
-- machine-learning
-- large-language-models
+- Artificial Intelligence
+- Machine-Learning
+- Large Language Models
 - open-weight-models
-- ai-research
-- foundation-models
+- AI Research
+- Foundation Models
 - training-datasets
-- open-source
-- generative-ai
-- agentic-ai
+- Open-Source
+- Generative AI
+- Agentic AI
 website: https://www.essential.ai/
 ---

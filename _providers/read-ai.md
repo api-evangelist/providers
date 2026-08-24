@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Open-beta public REST API for programmatic access to a user's Read AI meeting data. Three documented meeting endpoints — list meetings with cursor pagination and epoch-millisecond time filters, retrie
@@ -168,9 +168,9 @@ description: Read AI is an AI-powered meeting intelligence platform that joins Z
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: read-ai-mcp.yml
-  slug: read-ai-mcpyml
+- description: Read AI operates a first-party remote MCP server that exposes a user's meeting reports — metadata, participants, summaries, chapter summaries, action items, key questions, topics, full transcripts, en
+  name: Read AI MCP Server
+  slug: read-ai-mcp-server
 modified: '2026-08-05'
 name: Read AI
 nav: Providers
@@ -199,7 +199,7 @@ scopes:
 score:
   band: strong
   composite: 57.0
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -209,13 +209,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 61.5
+  previous_composite: 57.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/screenshots/read-ai-2026-08-17T081449.png
 security:
@@ -243,9 +243,9 @@ tags:
 - Transcription
 - Productivity
 - Collaboration
-- Model Context Protocol
+- MCP
 - Agents
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://www.read.ai/
 ---

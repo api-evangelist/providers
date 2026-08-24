@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -145,13 +145,13 @@ image: https://avatars.githubusercontent.com/u/7168861?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: nar-mcp.yml
-  slug: nar-mcpyml
+  name: National Association of REALTORS MCP Server
+  slug: national-association-of-realtors-mcp-server
 modified: '2026-07-26'
 name: National Association of REALTORS
 nav: Providers
 network: true
-overview: 'National Association of REALTORS publishes 1 API on the [APIs.io](https://apis.io/) network: REALTORS M1 Gateway External API. Tagged areas include Real Estate, United States, Industry Body, MLS, and RESO.
+overview: 'National Association of REALTORS publishes 1 API on the [APIs.io](https://apis.io/) network: REALTORS M1 Gateway External API. Tagged areas include Real-Estate, United States, Industry Body, MLS, and RESO.
 
 
   National Association of REALTORS''s developer surface includes authentication, engineering blog, documentation, support, and 21 more developer resources.'
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.7
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -173,7 +173,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 31.4
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,8 +184,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/screenshots/nar-2026-08-07T184628.png
 security:
@@ -199,7 +199,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: nar
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Industry Body
 - MLS

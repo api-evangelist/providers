@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The anonymously readable WordPress REST API behind circlepharma.com. It exposes Circle Pharma press releases, publications and in-the-news items (posts), site pages, the media library, the leadership '
@@ -140,7 +140,7 @@ modified: '2026-08-01'
 name: Circle Pharma
 nav: Providers
 network: true
-overview: 'Circle Pharma publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and drug-discovery.
+overview: 'Circle Pharma publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Drug Discovery.
 
 
   Circle Pharma''s developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
@@ -148,7 +148,7 @@ random_paper: 2
 score:
   band: thin
   composite: 34.0
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -158,7 +158,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 31.5
+  previous_composite: 34.0
   provenance:
     conformance: derived
     contracts:
@@ -173,8 +173,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/screenshots/circle-pharma-2026-08-07T163423.png
 security:
@@ -189,13 +189,13 @@ security:
 slug: circle-pharma
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- drug-discovery
-- macrocycles
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Drug Discovery
+- Macrocycles
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://circlepharma.com/
 ---

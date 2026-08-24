@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 created: '2024-12-03'
@@ -39,12 +39,12 @@ modified: '2026-04-28'
 name: Office of Career, Technical, and Adult Education
 nav: Providers
 network: true
-overview: Office of Career, Technical, and Adult Education is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government.
+overview: Office of Career, Technical, and Adult Education is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government.
 random_paper: 17
 score:
   band: minimal
   composite: 0.8
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -62,17 +62,17 @@ score:
       reason: no_resolvable_host
     - owner: catalog
       reason: never_enriched
-  previous_composite: 3.5
+  previous_composite: 0.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: office-of-career-technical-and-adult-education
 tags:
-- Federal Government
+- Federal-Government
 ---

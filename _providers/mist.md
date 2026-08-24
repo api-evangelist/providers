@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -1437,8 +1437,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mist.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mist-mcp.yml
-  slug: mist-mcpyml
+  name: Mist MCP Server
+  slug: mist-mcp-server
 modified: '2026-07-20'
 name: Mist
 nav: Providers
@@ -1457,18 +1457,18 @@ rate_limits:
   slug: mist-rate-limits
 score:
   band: developing
-  composite: 52.1
-  delta: -2.2
+  composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 16.7
     contract_quality: 72.1
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 16.7
     operational_transparency: 71.1
-  previous_composite: 54.3
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1479,8 +1479,8 @@ score:
       total: 211
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/screenshots/mist-2026-08-07T183800.png
 security:
@@ -1502,7 +1502,7 @@ tags:
 - Artificial Intelligence
 - Network Automation
 - Location Services
-- Webhooks
+- Webhook
 - Juniper
 website: https://www.juniper.net/documentation/us/en/software/mist/automation-integration/
 ---

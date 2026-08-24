@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ modified: '2026-05-08'
 name: Airship
 nav: Providers
 network: true
-overview: 'Airship publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Push API, Segments API, Reports API, and 10 more. Tagged areas include Notifications, Push, Email, Mobile, and CDP.
+overview: 'Airship publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Push API, Segments API, Reports API, and 10 more. Tagged areas include Notification, Push, Email, Mobile, and CDP.
 
 
   Airship''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
@@ -204,7 +204,7 @@ scopes:
 score:
   band: emerging
   composite: 25.9
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -214,7 +214,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.2
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +222,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/screenshots/airship-2026-06-20T171434.png
 security:
@@ -241,7 +241,7 @@ security:
   summary_line: security.txt · contact published
 slug: airship
 tags:
-- Notifications
+- Notification
 - Push
 - Email
 - Mobile

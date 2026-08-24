@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-06-20'
 name: Openlayer
 nav: Providers
 network: true
-overview: 'Openlayer publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Commits API, Data Stream API, Inference Pipelines API, and 3 more. Tagged areas include AI, Evaluation, Testing, Observability, and LLM.
+overview: 'Openlayer publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Commits API, Data Stream API, Inference Pipelines API, and 3 more. Tagged areas include Artificial Intelligence, Evaluation, Testing, Observability, and LLM.
 
 
   Openlayer''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -161,7 +161,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.4
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -171,7 +171,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.0
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/screenshots/openlayer-2026-06-20T191012.png
 security:
@@ -198,7 +198,7 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: openlayer
 tags:
-- AI
+- Artificial Intelligence
 - Evaluation
 - Testing
 - Observability

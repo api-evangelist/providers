@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ rules:
 score:
   band: thin
   composite: 33.9
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 21.1
-  previous_composite: 38.5
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/screenshots/starknet-2026-06-20T194515.png
 security:

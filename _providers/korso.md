@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -154,14 +154,14 @@ description: 'Korso is a Los Angeles based company (Y Combinator Spring 2026) bu
 image: https://korsoai.com/docs/favicon.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Shepherd is a coordination layer for AI coding agents. The MCP server is a thin stdio client that forwards agent tool calls to a Shepherd hub (Fastify + Postgres), letting a fleet of agents across ses
   name: Shepherd MCP server
   slug: shepherd-mcp-server
 modified: '2026-07-19'
 name: Korso
 nav: Providers
 network: true
-overview: 'Korso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, Model Context Protocol, and Developer Tools.
+overview: 'Korso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and Developer Tools.
 
 
   Korso''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, signup flow, and 22 more developer resources.'
@@ -169,7 +169,7 @@ random_paper: 12
 score:
   band: thin
   composite: 28.6
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -179,13 +179,13 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 31.5
+  previous_composite: 28.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/screenshots/korso-2026-07-25T224225.png
 security:
@@ -206,9 +206,9 @@ tags:
 - Company
 - Artificial Intelligence
 - Agents
-- Model Context Protocol
+- MCP
 - Developer Tools
-- Open Source
+- Open-Source
 - Agent Coordination
 - Y Combinator
 website: https://korsoai.com/

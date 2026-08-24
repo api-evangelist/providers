@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-06-21'
 name: Pagar.me
 nav: Providers
 network: true
-overview: 'Pagar.me publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Anticipations API, Cards API, Charges API, and 7 more. Tagged areas include Payments, Payment Gateway, PIX, Boleto, and Brazil.
+overview: 'Pagar.me publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Anticipations API, Cards API, Charges API, and 7 more. Tagged areas include Payments, Payment Gateway, Pix, Boleto, and Brazil.
 
 
   Pagar.me''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.1
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -187,7 +187,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 33.5
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/screenshots/pagarme-2026-08-07T191256.png
 security:
@@ -218,7 +218,7 @@ slug: pagarme
 tags:
 - Payments
 - Payment Gateway
-- PIX
+- Pix
 - Boleto
 - Brazil
 website: https://pagar.me

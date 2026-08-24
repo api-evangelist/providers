@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 15
 apis:
 - description: API key management endpoints
@@ -462,9 +462,9 @@ jsonld:
   slug: solo-io-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: solo-io-mcp.yml
-  slug: solo-io-mcpyml
+- description: First-party Solo.io MCP server that analyzes `istioctl bug-report` archives, identifies common Istio problems, and suggests remediation steps. It ships with a packaged agent skill (`/istio-report-asse
+  name: Solo.io MCP Server
+  slug: soloio-mcp-server
 modified: '2026-08-08'
 name: Solo.io
 nav: Providers
@@ -499,7 +499,7 @@ rules:
 score:
   band: exemplar
   composite: 68.2
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -509,7 +509,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 73.7
+  previous_composite: 68.2
   provenance:
     conformance: derived
     contracts:
@@ -519,9 +519,9 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:
 - kind: authentication
@@ -550,10 +550,10 @@ tags:
 - Envoy
 - AI Gateway
 - Agentic AI
-- Model Context Protocol
+- MCP
 - Developer Portal
-- Cloud Native
-- Open Source
+- Cloud-Native
+- Open-Source
 use_cases:
 - description: Replace legacy API gateways with a Kubernetes-native, Envoy-based gateway.
   name: API Gateway Modernization

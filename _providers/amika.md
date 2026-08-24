@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The API keys API from Amika — 2 operation(s) for api keys.
@@ -244,8 +244,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amika.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: amika-mcp.yml
-  slug: amika-mcpyml
+  name: Amika MCP Server
+  slug: amika-mcp-server
 modified: '2026-07-17'
 name: Amika
 nav: Providers
@@ -258,7 +258,7 @@ random_paper: 11
 score:
   band: developing
   composite: 45.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -268,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 46.1
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -278,8 +278,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/screenshots/amika-2026-07-25T200103.png
 security:
@@ -302,6 +302,5 @@ tags:
 - CI/CD
 - Automation
 - Software Factory
-- API
 website: https://www.amika.dev
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -328,7 +328,7 @@ modified: '2026-07-26'
 name: Purplebricks
 nav: Providers
 network: true
-overview: 'Purplebricks publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Property API, Account API, Valuations API, and 10 more. Tagged areas include Real Estate, United Kingdom, Property Listings, Online Estate Agency, and Rentals.
+overview: 'Purplebricks publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Property API, Account API, Valuations API, and 10 more. Tagged areas include Real-Estate, United Kingdom, Property Listings, Online Estate Agency, and Rentals.
 
 
   The Purplebricks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -339,7 +339,7 @@ random_paper: 0
 score:
   band: thin
   composite: 38.0
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -349,7 +349,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 37.7
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -360,8 +360,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -374,7 +374,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: purplebricks
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Online Estate Agency

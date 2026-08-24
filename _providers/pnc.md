@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Account Verification Services API from PNC's developer portal for confirming the ownership and status of bank accounts before disbursing or collecting funds, helping corporate and institutional client
@@ -122,7 +122,7 @@ modified: '2026-07-23'
 name: PNC
 nav: Providers
 network: true
-overview: 'PNC publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, United States, Treasury Management, and Payments.
+overview: 'PNC publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, United States, Treasury Management, and Payments.
 
 
   PNC''s developer surface includes documentation, engineering blog, support, and 12 more developer resources.'
@@ -130,7 +130,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 11.2
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -140,16 +140,16 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 19.6
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pnc/refs/heads/main/screenshots/pnc-2026-06-20T191824.png
 security:
 - kind: domain-security
@@ -163,7 +163,7 @@ security:
 slug: pnc
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - United States
 - Treasury Management
 - Payments

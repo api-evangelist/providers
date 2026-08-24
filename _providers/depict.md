@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -385,13 +385,13 @@ image: https://depict.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: depict-mcp.yml
-  slug: depict-mcpyml
+  name: Depict MCP Server
+  slug: depict-mcp-server
 modified: '2026-07-18'
 name: Depict
 nav: Providers
 network: true
-overview: 'Depict publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Ab Test API, Analytics API, Boost Bury API, and 32 more. Tagged areas include Company, E-commerce, Merchandising, Product Recommendations, and Search.
+overview: 'Depict publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Ab Test API, Analytics API, Boost Bury API, and 32 more. Tagged areas include Company, E-Commerce, Merchandising, Product Recommendations, and Search.
 
 
   Depict''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
@@ -404,7 +404,7 @@ scopes:
 score:
   band: developing
   composite: 43.8
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -414,7 +414,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 47.9
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -425,8 +425,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/screenshots/depict-2026-07-25T211731.png
 security:
@@ -441,7 +441,7 @@ security:
 slug: depict
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Merchandising
 - Product Recommendations
 - Search

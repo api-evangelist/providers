@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API for integrating Covalent's workforce, skills, capability and production data with enterprise systems. Authenticated via AWS Cognito; access is provisioned per tenant (request a demo). No p
@@ -105,7 +105,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 17.7
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -115,11 +115,11 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 18.3
+  previous_composite: 17.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covalentnetworks/refs/heads/main/screenshots/covalentnetworks-2026-07-25T210534.png
 security:

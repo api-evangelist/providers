@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 2
@@ -399,8 +399,8 @@ image: https://www.netter.ai/assets/netter-symbol.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: netter-mcp.yml
-  slug: netter-mcpyml
+  name: Netter MCP Server
+  slug: netter-mcp-server
 modified: '2026-07-20'
 name: Netter
 nav: Providers
@@ -413,7 +413,7 @@ random_paper: 7
 score:
   band: thin
   composite: 36.7
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -423,7 +423,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 35.9
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -434,8 +434,8 @@ score:
       total: 44
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/screenshots/netter-2026-08-07T184948.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,33 +80,33 @@ modified: '2026-07-19'
 name: Jaipur Robotics
 nav: Providers
 network: true
-overview: 'Jaipur Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer Vision, Robotics, Waste-to-Energy, and Artificial Intelligence.
+overview: 'Jaipur Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer-Vision, Robotics, Waste-to-Energy, and Artificial Intelligence.
 
 
   Jaipur Robotics'' developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 11
 score:
-  band: minimal
-  composite: 10.9
-  delta: -2.9
+  band: emerging
+  composite: 12.0
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 13.8
+  previous_composite: 12.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaipur-robotics/refs/heads/main/screenshots/jaipur-robotics-2026-08-07T170949.png
 security:
@@ -121,7 +121,7 @@ security:
 slug: jaipur-robotics
 tags:
 - Company
-- Computer Vision
+- Computer-Vision
 - Robotics
 - Waste-to-Energy
 - Artificial Intelligence

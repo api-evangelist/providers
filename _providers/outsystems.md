@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -417,13 +417,13 @@ image: https://www.outsystems.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: outsystems-mcp.yml
-  slug: outsystems-mcpyml
+  name: OutSystems MCP Server
+  slug: outsystems-mcp-server
 modified: '2026-08-02'
 name: OutSystems
 nav: Providers
 network: true
-overview: 'OutSystems publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Analysis Status API, Application Roles API, Assets API, and 33 more. Tagged areas include Company, Low-Code, Application Development, Platform as a Service, and DevOps.
+overview: 'OutSystems publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Analysis Status API, Application Roles API, Assets API, and 33 more. Tagged areas include Company, Low-Code, Application Development, Platform-as-a-Service, and DevOps.
 
 
   OutSystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -440,7 +440,7 @@ scopes:
 score:
   band: strong
   composite: 61.6
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -450,7 +450,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 60.9
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -461,8 +461,8 @@ score:
       total: 36
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/screenshots/outsystems-2026-08-17T124448.png
 security:
@@ -487,7 +487,7 @@ tags:
 - Company
 - Low-Code
 - Application Development
-- Platform as a Service
+- Platform-as-a-Service
 - DevOps
 - Deployment
 - Identity and Access Management

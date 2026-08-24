@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-21'
 name: Ukio
 nav: Providers
 network: true
-overview: 'Ukio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Real Estate, PropTech, and Housing.
+overview: 'Ukio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Real-Estate, PropTech, and Housing.
 
 
   Ukio''s developer surface includes support, engineering blog, and 9 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 9.1
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -102,9 +102,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 11.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -115,7 +115,7 @@ slug: ukio
 tags:
 - Company
 - Consumer
-- Real Estate
+- Real-Estate
 - PropTech
 - Housing
 - Rentals

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -945,18 +945,18 @@ rules:
   slug: amazon-healthlake-spectral-rules
 score:
   band: strong
-  composite: 59.0
-  delta: 0.7
+  composite: 59.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.2
     developer_ergonomics: 61.9
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 58.3
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     contracts:
@@ -970,8 +970,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/screenshots/amazon-healthlake-2026-07-25T200010.png
 security:

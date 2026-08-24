@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ modified: '2026-05-19'
 name: Nected
 nav: Providers
 network: true
-overview: 'Nected publishes 2 APIs on the [APIs.io](https://apis.io/) network: Dev API and Nected API. Tagged areas include Low-Code, Workflow Automation, Decision Engine, and Business Rules.
+overview: 'Nected publishes 2 APIs on the [APIs.io](https://apis.io/) network: Dev API and Nected API. Tagged areas include Low-Code, Workflow-Automation, Decision Engine, and Business Rules.
 
 
   Nected''s developer surface includes authentication, documentation, engineering blog, and 5 more developer resources.'
@@ -139,8 +139,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/screenshots/nected-2026-06-20T190119.png
 security:
@@ -155,7 +155,7 @@ security:
 slug: nected
 tags:
 - Low-Code
-- Workflow Automation
+- Workflow-Automation
 - Decision Engine
 - Business Rules
 website: https://www.nected.ai

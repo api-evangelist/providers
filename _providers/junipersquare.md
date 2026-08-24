@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Developer API with broad read and write coverage across the GPX platform — investor data, fund accounting, payments, compliance, and reporting. Used to sync investor and fund data into CRMs (Salesforc
@@ -110,8 +110,8 @@ image: https://assets.junipersquare.com/images/_1200x630_crop_center-center_82_n
 layout: provider
 mcp_servers:
 - description: ''
-  name: junipersquare-mcp.yml
-  slug: junipersquare-mcpyml
+  name: Headless GPX
+  slug: headless-gpx
 modified: '2026-08-08'
 name: Juniper Square
 nav: Providers
@@ -124,7 +124,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 25.1
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -134,12 +134,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 28.4
+  previous_composite: 25.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/screenshots/junipersquare-2026-07-25T223322.png
 security:
@@ -161,7 +161,6 @@ tags:
 - Commercial Real Estate
 - Private Equity
 - Investor Relations
-- API
 - MCP
 - Agentic AI
 website: https://junipersquare.com

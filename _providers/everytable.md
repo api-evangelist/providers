@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,13 +138,13 @@ image: https://everytable.com/cdn/shop/files/Favicon.png?v=1750436309
 layout: provider
 mcp_servers:
 - description: ''
-  name: everytable-mcp.yml
-  slug: everytable-mcpyml
+  name: Everytable MCP Server
+  slug: everytable-mcp-server
 modified: '2026-08-04'
 name: Everytable
 nav: Providers
 network: true
-overview: 'Everytable publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Restaurants, Meal Delivery, and Ecommerce.
+overview: 'Everytable publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Restaurant, Meal Delivery, and E-Commerce.
 
 
   Everytable''s developer surface includes documentation, engineering blog, support, pricing, authentication, and 18 more developer resources.'
@@ -161,7 +161,7 @@ scopes:
 score:
   band: emerging
   composite: 25.1
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -171,14 +171,14 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.9
+  previous_composite: 25.1
   provenance:
     agentic_access: first-party
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/screenshots/everytable-2026-08-07T165045.png
 security:
@@ -194,13 +194,13 @@ slug: everytable
 tags:
 - Company
 - Food
-- Restaurants
+- Restaurant
 - Meal Delivery
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Shopify
 - Social Enterprise
 - Nutrition
-- Subscriptions
+- Subscription
 website: https://everytable.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Beamer REST API provides programmatic access to changelog posts, user management, segmentation, and notification feeds. Key endpoints include unread count retrieval, post creation and management, '
@@ -105,7 +105,7 @@ modified: '2026-04-19'
 name: Beamer
 nav: Providers
 network: true
-overview: 'Beamer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Deprecation, Notifications, Product Updates, and User Engagement.
+overview: 'Beamer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Deprecation, Notification, Product Updates, and User Engagement.
 
 
   Beamer''s developer surface includes engineering blog, documentation, getting-started guide, and 5 more developer resources.'
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.5
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -131,9 +131,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 18.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beamer/refs/heads/main/screenshots/beamer-2026-06-20T173106.png
 security:
@@ -149,7 +149,7 @@ slug: beamer
 tags:
 - Changelog
 - Deprecation
-- Notifications
+- Notification
 - Product Updates
 - User Engagement
 use_cases:

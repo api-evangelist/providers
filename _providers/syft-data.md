@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Export API from Syft Data — 1 operation(s) for export.
@@ -198,9 +198,9 @@ description: Syft Data, Inc. is a B2B lead-intelligence platform that identifies
 image: https://www.syftdata.com/logo_180.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: syft-data-mcp.yml
-  slug: syft-data-mcpyml
+- description: Official hosted MCP (Model Context Protocol) server that lets AI assistants query Syft visitor data, enqueue leads into motions, and build GTM automations from chat. Available on Pro plans.
+  name: Syft MCP Server
+  slug: syft-mcp-server
 modified: '2026-08-13'
 name: Syft Data
 nav: Providers
@@ -228,18 +228,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.1
-  delta: -3.3
+  composite: 61.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 16.7
     contract_quality: 73.7
     developer_ergonomics: 51.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 63.4
+  previous_composite: 61.2
   provenance:
     conformance: derived
     contracts:
@@ -249,8 +249,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/screenshots/syft-data-2026-08-17T082227.png
 security:

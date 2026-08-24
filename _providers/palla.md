@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -213,8 +213,8 @@ image: https://www.palla.com/page-preview.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: palla-mcp.yml
-  slug: palla-mcpyml
+  name: Palla MCP Server
+  slug: palla-mcp-server
 modified: '2026-07-20'
 name: Palla
 nav: Providers
@@ -230,7 +230,7 @@ random_paper: 18
 score:
   band: developing
   composite: 51.6
-  delta: 4.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -240,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 46.9
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/screenshots/palla-2026-08-07T191320.png
 security:

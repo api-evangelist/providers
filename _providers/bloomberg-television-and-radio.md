@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Access Bloomberg TV and Radio content including video clips, interview segments, market coverage segments, and audio content for licensed distribution to enterprise clients and media partners.
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.0
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -115,9 +115,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 19.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-television-and-radio/refs/heads/main/screenshots/bloomberg-television-and-radio-2026-07-25T203405.png
 security:

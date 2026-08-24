@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful JSON API for triggering and monitoring pipelines and tasks, managing users/groups, parameters, audit logs, SCM migration, and GitCustodian, authenticated with scoped JWT Personal Access Tokens
@@ -135,8 +135,8 @@ image: https://opsera.ai/wp-content/uploads/2025/07/opsera-generic-social.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: opsera-mcp.yml
-  slug: opsera-mcpyml
+  name: Opsera MCP Server
+  slug: opsera-mcp-server
 modified: '2026-07-20'
 name: Opsera
 nav: Providers
@@ -154,7 +154,7 @@ scopes:
 score:
   band: thin
   composite: 30.6
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -164,12 +164,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 33.0
+  previous_composite: 30.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/screenshots/opsera-2026-08-07T190746.png
 security:

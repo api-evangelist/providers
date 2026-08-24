@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -545,13 +545,13 @@ image: https://thorchain.org/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: thorchain-mcp.yml
-  slug: thorchain-mcpyml
+  name: THORChain MCP Server
+  slug: thorchain-mcp-server
 modified: '2026-07-21'
 name: THORChain
 nav: Providers
 network: true
-overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Actions API, AGENTS.md API, Auth API, and 62 more. Tagged areas include Company, Crypto Web3, Blockchain, DeFi, and Cross-chain.
+overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Actions API, AGENTS.md API, Auth API, and 62 more. Tagged areas include Company, Crypto Web3, Blockchain, DeFi, and Cross-Chain.
 
 
   THORChain''s developer surface includes documentation, API reference, support, authentication, and 22 more developer resources.'
@@ -559,7 +559,7 @@ random_paper: 15
 score:
   band: thin
   composite: 36.2
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -569,7 +569,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 40.2
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -586,8 +586,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -608,7 +608,7 @@ tags:
 - Crypto Web3
 - Blockchain
 - DeFi
-- Cross-chain
+- Cross-Chain
 - Liquidity
 - Decentralized Exchange
 - Cosmos

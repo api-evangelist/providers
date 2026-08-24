@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -121,7 +121,7 @@ modified: '2026-07-12'
 name: Paragon
 nav: Providers
 network: true
-overview: 'Paragon publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ActionKit API, Connect API, Proxy API, and 1 more. Tagged areas include Embedded iPaaS, Integrations, Embedded Integrations, Native Integrations, and Workflow Automation.
+overview: 'Paragon publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ActionKit API, Connect API, Proxy API, and 1 more. Tagged areas include Embedded iPaaS, Integration, Embedded Integrations, Native Integrations, and Workflow-Automation.
 
 
   Paragon''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.0
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -147,7 +147,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.6
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -155,8 +155,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/screenshots/paragon-api-2026-08-07T191416.png
 security:
@@ -171,10 +171,10 @@ security:
 slug: paragon-api
 tags:
 - Embedded iPaaS
-- Integrations
+- Integration
 - Embedded Integrations
 - Native Integrations
-- Workflow Automation
+- Workflow-Automation
 - Integration Platform
 - API Integration
 - SaaS Integrations

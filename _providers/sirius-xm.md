@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports personalized playback, search, user feedbac
@@ -165,7 +165,7 @@ rules:
 score:
   band: emerging
   composite: 23.9
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -175,10 +175,10 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 29.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 23.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/screenshots/sirius-xm-2026-06-20T193948.png
 security:
 - kind: domain-security

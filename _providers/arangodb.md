@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 5
@@ -307,8 +307,8 @@ image: https://arango.ai/wp-content/uploads/2026/03/arango-home-social-horz-2026
 layout: provider
 mcp_servers:
 - description: ''
-  name: arangodb-mcp.yml
-  slug: arangodb-mcpyml
+  name: ArangoDB MCP Server
+  slug: arangodb-mcp-server
 modified: '2026-08-02'
 name: ArangoDB
 nav: Providers
@@ -321,7 +321,7 @@ random_paper: 11
 score:
   band: developing
   composite: 50.3
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -331,7 +331,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 51.3
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,8 +342,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/screenshots/arangodb-2026-08-07T161603.png
 security:

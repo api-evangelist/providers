@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for ingesting entities, instruments, and transaction events into the Unit21 risk and compliance platform. Enables creation and management of alerts, cases, rules, and suspicious activity repo
@@ -118,7 +118,7 @@ modified: '2026-06-13'
 name: Unit21
 nav: Providers
 network: true
-overview: 'Unit21 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Detection, AML, Anti-Money Laundering, Compliance, and FinTech.
+overview: 'Unit21 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Detection, AML, Anti-Money Laundering, Compliance, and Fintech.
 
 
   The Unit21 catalog on APIs.io includes 1 JSON-LD context.
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.5
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -147,9 +147,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 25.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit21/refs/heads/main/screenshots/unit21-2026-06-20T200036.png
 security:
@@ -171,7 +171,7 @@ tags:
 - AML
 - Anti-Money Laundering
 - Compliance
-- FinTech
+- Fintech
 - Transaction Monitoring
 - Risk
 - SAR

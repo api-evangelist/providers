@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -169,13 +169,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: novita-mcp-server
-  slug: novita-mcp-server
+  name: Novita AI MCP Server
+  slug: novita-ai-mcp-server
 modified: '2026-05-30'
 name: Novita AI
 nav: Providers
 network: true
-overview: 'Novita AI publishes 1 API on the [APIs.io](https://apis.io/) network: Openai API. Tagged areas include AI, LLM, Inference, GPU, and OpenAI Compatible.
+overview: 'Novita AI publishes 1 API on the [APIs.io](https://apis.io/) network: Openai API. Tagged areas include Artificial Intelligence, LLM, Inference, GPU, and OpenAI-Compatible.
 
 
   The Novita AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -206,7 +206,7 @@ rules:
 score:
   band: developing
   composite: 44.5
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -216,7 +216,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 52.4
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -224,9 +224,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/screenshots/novita-ai-2026-06-20T190520.png
 security:
 - kind: domain-security
@@ -235,12 +235,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: novita-ai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - GPU
-- OpenAI Compatible
-- Image Generation
+- OpenAI-Compatible
+- Image-Generation
 - Video Generation
 - Audio
 - Embeddings

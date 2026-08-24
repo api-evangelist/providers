@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Prediko''s public REST API for inventory operations: manage orders and deliveries, read SKUs and procurement suggestions, manage bill-of-materials and production consumption, and sync suppliers and war'
@@ -143,36 +143,36 @@ image: https://cdn.prod.website-files.com/68ceeb4f2c25c399d42f4726/696653966c56e
 layout: provider
 mcp_servers:
 - description: ''
-  name: prediko-mcp.yml
-  slug: prediko-mcpyml
+  name: Prediko MCP Server
+  slug: prediko-mcp-server
 modified: '2026-07-20'
 name: Prediko
 nav: Providers
 network: true
-overview: 'Prediko publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Inventory Management, Demand Forecasting, Supply Chain, and Ecommerce.
+overview: 'Prediko publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Inventory Management, Demand Forecasting, Supply Chain, and E-Commerce.
 
 
   Prediko''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, changelog, and 18 more developer resources.'
 random_paper: 15
 score:
   band: thin
-  composite: 29.2
-  delta: 0.7
+  composite: 30.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 28.5
+  previous_composite: 30.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -193,10 +193,10 @@ tags:
 - Inventory Management
 - Demand Forecasting
 - Supply Chain
-- Ecommerce
+- E-Commerce
 - Shopify
 - Purchase Orders
 - Retail
-- AI
+- Artificial Intelligence
 website: https://prediko.io/
 ---

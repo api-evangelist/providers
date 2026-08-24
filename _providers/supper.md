@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -106,9 +106,9 @@ description: Supper is an AI data agent for high-growth companies that connects 
 image: https://cdn.prod.website-files.com/6878f348cb0839fd6dc7599d/6892361798f9bef9d3c1a4a1_supper-open-graph%20(1).jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: supper-mcp.yml
-  slug: supper-mcpyml
+- description: Supper exposes a hosted, remote MCP server so any MCP-compatible AI assistant (Claude, Claude Code, etc.) can query a company's connected data in natural language, grounded in Supper's semantic model.
+  name: Supper MCP Server
+  slug: supper-mcp-server
 modified: '2026-07-21'
 name: Supper
 nav: Providers
@@ -121,7 +121,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 21.4
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -131,13 +131,13 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 27.9
+  previous_composite: 21.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Supper Authentication

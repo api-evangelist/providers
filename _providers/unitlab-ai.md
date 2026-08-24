@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Dataset releases
@@ -156,13 +156,13 @@ image: https://unitlab-storage.s3.us-east-2.amazonaws.com/Logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: unitlab-ai-mcp.yml
-  slug: unitlab-ai-mcpyml
+  name: Unitlab AI MCP Server
+  slug: unitlab-ai-mcp-server
 modified: '2026-07-21'
 name: Unitlab AI
 nav: Providers
 network: true
-overview: 'Unitlab AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Projects API. Tagged areas include Company, Data Annotation, Machine Learning, Computer Vision, and Datasets.
+overview: 'Unitlab AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Projects API. Tagged areas include Company, Data Annotation, Machine-Learning, Computer-Vision, and Datasets.
 
 
   Unitlab AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
@@ -170,7 +170,7 @@ random_paper: 11
 score:
   band: developing
   composite: 43.7
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -180,7 +180,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 45.1
+  previous_composite: 43.7
   provenance:
     conformance: derived
     contracts:
@@ -190,8 +190,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/screenshots/unitlab-ai-2026-08-17T082617.png
 security:
@@ -207,8 +207,8 @@ slug: unitlab-ai
 tags:
 - Company
 - Data Annotation
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Datasets
 - Artificial Intelligence
 - Labeling

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -232,7 +232,7 @@ modified: '2026-05-08'
 name: Audius
 nav: Providers
 network: true
-overview: 'Audius publishes 20 APIs on the [APIs.io](https://apis.io/) network, including challenges API, cid_data API, coins API, and 17 more. Tagged areas include Music, Streaming, Decentralized, Web3, and Open Source.
+overview: 'Audius publishes 20 APIs on the [APIs.io](https://apis.io/) network, including challenges API, cid_data API, coins API, and 17 more. Tagged areas include Music, Streaming, Decentralized, Web3, and Open-Source.
 
 
   Audius'' developer surface includes authentication and 10 more developer resources.'
@@ -253,7 +253,7 @@ scopes:
 score:
   band: thin
   composite: 28.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -263,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.9
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -271,8 +271,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/screenshots/audius-2026-06-20T172554.png
 security:
@@ -290,7 +290,7 @@ tags:
 - Streaming
 - Decentralized
 - Web3
-- Open Source
+- Open-Source
 - Blockchain
 website: https://audius.co/
 ---

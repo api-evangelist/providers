@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-08-11'
 name: Rugspull Read API
 nav: Providers
 network: true
-overview: 'Rugspull Read API publishes 1 API on the [APIs.io](https://apis.io/) network: Rugspull Read API. Tagged areas include bnb-smart-chain, bsc, wbnb, read-only, and openapi.
+overview: 'Rugspull Read API publishes 1 API on the [APIs.io](https://apis.io/) network: Rugspull Read API. Tagged areas include BNB Smart Chain, BSC, wbnb, Read Only, and OpenAPI.
 
 
   Rugspull Read API''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, code examples, and 22 more developer resources.'
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -188,7 +188,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 35.6
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -199,8 +199,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -217,15 +217,15 @@ security:
   summary_line: security.txt · contact published
 slug: rugspull-read-api
 tags:
-- bnb-smart-chain
-- bsc
+- BNB Smart Chain
+- BSC
 - wbnb
-- read-only
-- openapi
+- Read Only
+- OpenAPI
 - high-risk
 - discovery-cache
-- defi
-- web3
+- DeFi
+- Web3
 - crypto-market-data
-- indexer
+- Indexer
 ---

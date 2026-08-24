@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 521
   human_in_the_loop: 15
@@ -1502,7 +1502,7 @@ modified: '2026-05-25'
 name: Juniper Mist AI
 nav: Providers
 network: true
-overview: 'Juniper Mist AI publishes 209 APIs on the [APIs.io](https://apis.io/) network, including Admins API, Admins Login API, Admins Login - OAuth2 API, and 206 more. Tagged areas include AI, AIOps, Artificial Intelligence, Networking, and Wi-Fi.
+overview: 'Juniper Mist AI publishes 209 APIs on the [APIs.io](https://apis.io/) network, including Admins API, Admins Login API, Admins Login - OAuth2 API, and 206 more. Tagged areas include Artificial Intelligence, AIOps, Networking, Wi-Fi, and Wireless LAN.
 
 
   Juniper Mist AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, training material, tooling, and 33 more developer resources.'
@@ -1510,7 +1510,7 @@ random_paper: 20
 score:
   band: developing
   composite: 44.2
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -1520,7 +1520,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.9
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1528,8 +1528,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 209
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist-ai/refs/heads/main/screenshots/mist-ai-2026-06-20T185612.png
 security:
@@ -1543,9 +1543,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: mist-ai
 tags:
-- AI
-- AIOps
 - Artificial Intelligence
+- AIOps
 - Networking
 - Wi-Fi
 - Wireless LAN
@@ -1555,7 +1554,7 @@ tags:
 - LAN
 - Access Points
 - Switches
-- Routers
+- Router
 - Marvis
 - NAC
 - Access Assurance

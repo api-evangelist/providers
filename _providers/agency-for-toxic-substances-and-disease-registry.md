@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ modified: '2026-05-19'
 name: Agency for Toxic Substances and Disease Registry
 nav: Providers
 network: true
-overview: 'Agency for Toxic Substances and Disease Registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Exposure Investigations API, Minimum Risk Levels API, Substance Priority List API, and 1 more. Tagged areas include Diseases, Federal Government, Public Health, Toxic Substances, and Environmental Health.
+overview: 'Agency for Toxic Substances and Disease Registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Exposure Investigations API, Minimum Risk Levels API, Substance Priority List API, and 1 more. Tagged areas include Diseases, Federal-Government, Public Health, Toxic Substances, and Environmental Health.
 
 
   The Agency for Toxic Substances and Disease Registry catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -228,18 +228,18 @@ rules:
   slug: agency-for-toxic-substances-and-disease-registry-spectral-rules
 score:
   band: thin
-  composite: 29.9
-  delta: -8.3
+  composite: 30.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 59.4
     developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 38.2
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -253,9 +253,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/screenshots/agency-for-toxic-substances-and-disease-registry-2026-06-20T165830.png
 security:
 - kind: domain-security
@@ -265,7 +265,7 @@ security:
 slug: agency-for-toxic-substances-and-disease-registry
 tags:
 - Diseases
-- Federal Government
+- Federal-Government
 - Public Health
 - Toxic Substances
 - Environmental Health

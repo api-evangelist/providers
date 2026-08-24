@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ modified: '2026-06-12'
 name: Unify
 nav: Providers
 network: true
-overview: 'Unify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Assistants API, Contexts API, and 5 more. Tagged areas include LLM, AI, Large Language Models, LLM Routing, and Model Gateway.
+overview: 'Unify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Assistants API, Contexts API, and 5 more. Tagged areas include LLM, Artificial Intelligence, Large Language Models, LLM Routing, and Model Gateway.
 
 
   The Unify catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -255,7 +255,7 @@ rules:
 score:
   band: developing
   composite: 52.5
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -265,7 +265,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 52.6
-  previous_composite: 58.0
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     contracts:
@@ -273,9 +273,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/screenshots/unify-ai-2026-06-20T200030.png
 security:
 - kind: authentication
@@ -297,7 +297,7 @@ security:
 slug: unify-ai
 tags:
 - LLM
-- AI
+- Artificial Intelligence
 - Large Language Models
 - LLM Routing
 - Model Gateway
@@ -308,6 +308,6 @@ tags:
 - Benchmarking
 - Model Comparison
 - AI Infrastructure
-- Machine Learning
+- Machine-Learning
 website: https://unify.ai
 ---

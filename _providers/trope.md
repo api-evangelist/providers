@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,9 +101,9 @@ description: Trope is an AI-native platform that helps ERP implementation partne
 image: https://trope.ai/images/og-image-trope-preview.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: trope-mcp.yml
-  slug: trope-mcpyml
+- description: 'Trope publishes Trope CUA, an open-source (MIT) MCP-native computer-use agent for background desktop automation on Windows and macOS. It exposes target-window screenshots, accessibility trees, action '
+  name: Trope MCP Server
+  slug: trope-mcp-server
 modified: '2026-07-21'
 name: Trope
 nav: Providers
@@ -116,7 +116,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 18.1
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -126,11 +126,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 21.2
+  previous_composite: 18.1
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

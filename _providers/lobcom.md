@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -415,8 +415,8 @@ image: https://www.lob.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: lobcom-mcp.yml
-  slug: lobcom-mcpyml
+  name: Lob.com MCP Server
+  slug: lobcom-mcp-server
 modified: '2026-08-13'
 name: Lob.com
 nav: Providers
@@ -440,7 +440,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 69.1
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -450,7 +450,7 @@ score:
     discoverability: 68.5
     governance: 16.7
     operational_transparency: 81.6
-  previous_composite: 69.2
+  previous_composite: 69.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -461,8 +461,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/screenshots/lobcom-2026-07-25T225441.png
 security:

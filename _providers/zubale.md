@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -135,13 +135,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zubale.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: zubale-mcp.yml
-  slug: zubale-mcpyml
+  name: Zubale MCP Server
+  slug: zubale-mcp-server
 modified: '2026-07-17'
 name: Zubale
 nav: Providers
 network: true
-overview: 'Zubale publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Documentation for External Notification Handler API, Cancel tasks API, Delivery API API, and 5 more. Tagged areas include Company and Ecommerce.
+overview: 'Zubale publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Documentation for External Notification Handler API, Cancel tasks API, Delivery API API, and 5 more. Tagged areas include Company and E-Commerce.
 
 
   The Zubale catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -157,7 +157,7 @@ scopes:
 score:
   band: thin
   composite: 26.6
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -167,7 +167,7 @@ score:
     discoverability: 53.7
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 27.3
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -177,8 +177,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,6 +200,6 @@ security:
 slug: zubale
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 website: https://zubale.com
 ---

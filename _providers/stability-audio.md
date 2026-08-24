@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for generating music and SFX clips with Stable Audio 2.5. Hosted on the Stability Developer Platform at https://api.stability.ai. Authentication via API key; credit-based billing.
@@ -85,7 +85,7 @@ modified: '2026-05-08'
 name: Stability Audio
 nav: Providers
 network: true
-overview: 'Stability Audio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Audio, Music Generation, SFX, and Stability.
+overview: 'Stability Audio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Audio, Music Generation, SFX, and Stability.
 
 
   Stability Audio''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.5
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -111,9 +111,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stability-audio/refs/heads/main/screenshots/stability-audio-2026-06-20T194441.png
 security:
@@ -123,7 +123,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: stability-audio
 tags:
-- AI
+- Artificial Intelligence
 - Audio
 - Music Generation
 - SFX

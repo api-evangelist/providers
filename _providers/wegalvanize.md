@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 69
 apis:
 - description: An action is a specific follow-up measure that is associated with an identified issue. You can add actions and assign action owners. You can also set up reminders for yourself to retest issues or trac
@@ -558,8 +558,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wegalvaniz
 layout: provider
 mcp_servers:
 - description: ''
-  name: wegalvanize-mcp.yml
-  slug: wegalvanize-mcpyml
+  name: Wegalvanize MCP Server
+  slug: wegalvanize-mcp-server
 modified: '2026-07-21'
 name: Wegalvanize
 nav: Providers
@@ -577,7 +577,7 @@ scopes:
 score:
   band: developing
   composite: 45.8
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -587,7 +587,7 @@ score:
     discoverability: 79.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 46.8
+  previous_composite: 45.8
   provenance:
     conformance: derived
     contracts:
@@ -597,8 +597,8 @@ score:
       total: 69
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/screenshots/wegalvanize-2026-08-17T082923.png
 security:

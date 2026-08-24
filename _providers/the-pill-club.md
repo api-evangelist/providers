@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,12 +48,12 @@ modified: '2026-07-21'
 name: The Pill Club
 nav: Providers
 network: true
-overview: The Pill Club is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Healthcare, Telehealth, and Womens Health.
+overview: The Pill Club is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Healthcare, Telehealth, and Women's Health.
 random_paper: 6
 score:
   band: minimal
   composite: 2.2
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -69,15 +69,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 4.3
+  previous_composite: 2.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: the-pill-club
 tags:
@@ -85,7 +85,7 @@ tags:
 - Consumer
 - Healthcare
 - Telehealth
-- Womens Health
+- Women's Health
 - Birth Control
 - Pharmacy
 - Acquired

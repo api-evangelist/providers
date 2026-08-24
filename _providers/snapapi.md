@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -209,18 +209,18 @@ rules:
   slug: snapapi-rules
 score:
   band: developing
-  composite: 43.6
-  delta: -6.4
+  composite: 44.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 59.4
     developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 50.0
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -228,9 +228,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/screenshots/snapapi-2026-06-20T194100.png
 security:
 - kind: authentication

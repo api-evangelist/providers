@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -149,8 +149,8 @@ image: https://cdn-fe.ecoflow.com/ef-open-platform/logo192.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ecoflow-mcp.yml
-  slug: ecoflow-mcpyml
+  name: EcoFlow MCP Server
+  slug: ecoflow-mcp-server
 modified: '2026-07-19'
 name: EcoFlow
 nav: Providers
@@ -166,7 +166,7 @@ random_paper: 16
 score:
   band: thin
   composite: 31.1
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 35.4
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,8 +193,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/screenshots/ecoflow-2026-07-25T212755.png
 security:

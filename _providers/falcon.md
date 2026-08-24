@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Falcon's RESTful embedded-finance API for card issuance, lending, and program management. All responses are JSON; authentication is a JWT bearer token obtained from a client-id/client-secret login, wi
@@ -121,7 +121,7 @@ modified: '2026-07-19'
 name: Falcon
 nav: Providers
 network: true
-overview: 'Falcon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Financial Services, Banking, and Payments.
+overview: 'Falcon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Financial-Services, Banking, and Payments.
 
 
   Falcon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 12 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 19.6
-  delta: -10.9
+  delta: 0.0
   facets:
     access_clarity: 3.9
     commercial_clarity: 3.9
@@ -139,7 +139,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 30.5
+  previous_composite: 19.6
   provenance:
     conformance: first-party
   regulatory:
@@ -148,9 +148,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/screenshots/falcon-2026-07-25T214200.png
 security:
 - kind: authentication
@@ -165,7 +165,7 @@ slug: falcon
 tags:
 - Company
 - Infrastructure
-- Financial Services
+- Financial-Services
 - Banking
 - Payments
 - Credit Cards

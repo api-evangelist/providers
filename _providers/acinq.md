@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The HTTP API of phoenixd, ACINQ's self-custodial Lightning server daemon. 27 documented endpoints covering Bolt11 invoices, Bolt12 offers, Lightning addresses, on-chain sends and swap-in, payment hist
@@ -177,6 +177,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -186,6 +187,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
+  previous_composite: 49.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -195,8 +197,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Acinq Authentication
@@ -217,7 +220,7 @@ tags:
 - Bitcoin
 - Lightning Network
 - Payments
-- Open Source
+- Open-Source
 - Self-Custody
 - Node Software
 - Cryptocurrency

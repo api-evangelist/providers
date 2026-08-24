@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ modified: '2026-07-19'
 name: Lamudi
 nav: Providers
 network: true
-overview: 'Lamudi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Real Estate, Property, and Classifieds.
+overview: 'Lamudi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Real-Estate, Property, and Classifieds.
 
 
   Lamudi''s developer surface includes engineering blog, signup flow, support, and 10 more developer resources.'
@@ -101,7 +101,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 15.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -117,9 +117,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lamudi/refs/heads/main/screenshots/lamudi-2026-07-25T224449.png
 security:
@@ -131,7 +131,7 @@ slug: lamudi
 tags:
 - Company
 - Marketplace
-- Real Estate
+- Real-Estate
 - Property
 - Classifieds
 - Emerging Markets

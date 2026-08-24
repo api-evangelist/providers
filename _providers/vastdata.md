@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 126
 apis:
 - description: Active Directory is supported as an external authorization and authentication provider. Active Directory may store and provide user and group attributes used by both NFS and SMB protocols. Active Dire
@@ -896,14 +896,14 @@ description: VAST Data is an enterprise AI infrastructure company building a uni
 image: https://github.com/vast-data.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: vastdata-mcp.yml
-  slug: vastdata-mcpyml
+- description: 'Official VAST Admin MCP Server — a Model Context Protocol server for VAST Data cluster administration. Gives AI assistants tools to monitor, list, and manage VAST clusters (views, tenants, snapshots, '
+  name: VAST Data MCP Server
+  slug: vast-data-mcp-server
 modified: '2026-07-21'
 name: VAST Data
 nav: Providers
 network: true
-overview: 'VAST Data publishes 126 APIs on the [APIs.io](https://apis.io/) network, including activedirectory API, alarms API, apitokens API, and 123 more. Tagged areas include Company, Infrastructure, Storage, Data, and AI.
+overview: 'VAST Data publishes 126 APIs on the [APIs.io](https://apis.io/) network, including activedirectory API, alarms API, apitokens API, and 123 more. Tagged areas include Company, Infrastructure, Storage, Data, and Artificial Intelligence.
 
 
   VAST Data''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, CLI, and 18 more developer resources.'
@@ -931,8 +931,8 @@ score:
       total: 126
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -949,7 +949,7 @@ tags:
 - Infrastructure
 - Storage
 - Data
-- AI
+- Artificial Intelligence
 - Database
 - Kubernetes
 - HPC

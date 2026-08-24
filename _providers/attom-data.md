@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ modified: '2026-07-03'
 name: ATTOM
 nav: Providers
 network: true
-overview: 'ATTOM publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Area API, Assessment API, Community API, and 9 more. Tagged areas include Property Data, Real Estate, Location Data, Valuation, and AVM.
+overview: 'ATTOM publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Area API, Assessment API, Community API, and 9 more. Tagged areas include Property Data, Real-Estate, Location Data, Valuation, and AVM.
 
 
   ATTOM''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -189,7 +189,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -199,7 +199,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.1
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +207,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/screenshots/attom-data-2026-07-25T201637.png
 security:
@@ -223,7 +223,7 @@ security:
 slug: attom-data
 tags:
 - Property Data
-- Real Estate
+- Real-Estate
 - Location Data
 - Valuation
 - AVM

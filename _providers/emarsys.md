@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -412,7 +412,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.8
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -422,7 +422,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 65.5
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -439,8 +439,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 80.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/screenshots/emarsys-2026-06-20T180628.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -201,7 +201,7 @@ modified: '2026-05-19'
 name: Firecrawl
 nav: Providers
 network: true
-overview: 'Firecrawl publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent API, Billing API, and 7 more. Tagged areas include Crawling, Data Extraction, Scraping, URLs, and AI.
+overview: 'Firecrawl publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent API, Billing API, and 7 more. Tagged areas include Crawling, Data Extraction, Scraping, URLs, and Artificial Intelligence.
 
 
   Firecrawl''s developer surface includes authentication, documentation, API reference, pricing, changelog, engineering blog, support, and 13 more developer resources.'
@@ -217,7 +217,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.5
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -227,7 +227,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 44.5
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -235,8 +235,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/screenshots/firecrawl-2026-06-20T181259.png
 security:
@@ -258,7 +258,7 @@ tags:
 - Data Extraction
 - Scraping
 - URLs
-- AI
+- Artificial Intelligence
 - Markdown
 website: https://www.firecrawl.dev
 ---

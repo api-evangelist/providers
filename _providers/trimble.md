@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -318,18 +318,18 @@ rules:
   slug: trimble-rules
 score:
   band: thin
-  composite: 38.8
-  delta: -6.2
+  composite: 39.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.9
     developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 45.0
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -337,9 +337,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/screenshots/trimble-2026-06-20T195713.png
 security:
 - kind: authentication

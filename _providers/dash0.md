@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -323,8 +323,8 @@ image: https://www.dash0.com/images/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: dash0-mcp.yml
-  slug: dash0-mcpyml
+  name: Dash0 MCP Server
+  slug: dash0-mcp-server
 modified: '2026-07-18'
 name: Dash0
 nav: Providers
@@ -345,7 +345,7 @@ scopes:
 score:
   band: strong
   composite: 61.0
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -355,7 +355,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 60.9
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -366,8 +366,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/screenshots/dash0-2026-07-25T211225.png
 security:
@@ -399,6 +399,5 @@ tags:
 - Prometheus
 - DevOps
 - Company
-- Apis
 website: https://www.dash0.com/
 ---

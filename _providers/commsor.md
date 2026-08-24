@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.1
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -158,11 +158,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 22.6
+  previous_composite: 21.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/screenshots/commsor-2026-08-07T163708.png
 security:

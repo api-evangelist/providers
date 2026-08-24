@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -182,14 +182,14 @@ description: Moondream is a fast, efficient open vision language model (VLM) fro
 image: https://moondream.ai/apple-touch-icon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: moondream-mcp.yml
-  slug: moondream-mcpyml
+- description: Candidate MCP server derived from the documented Moondream Cloud Skill operations. No official Moondream-hosted MCP server was found as of the probe date; this is a proposed tool surface, not a publis
+  name: Moondream MCP Server
+  slug: moondream-mcp-server
 modified: '2026-07-20'
 name: Moondream
 nav: Providers
 network: true
-overview: 'Moondream publishes 2 APIs on the [APIs.io](https://apis.io/) network: OpenAI Compatibility API and Skills API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Computer Vision, and Vision Language Model.
+overview: 'Moondream publishes 2 APIs on the [APIs.io](https://apis.io/) network: OpenAI Compatibility API and Skills API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Computer-Vision, and Vision Language Model.
 
 
   Moondream''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
@@ -197,7 +197,7 @@ random_paper: 17
 score:
   band: developing
   composite: 53.0
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -207,7 +207,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 52.8
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -218,8 +218,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/screenshots/moondream-2026-08-07T184237.png
 security:
@@ -235,8 +235,8 @@ slug: moondream
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Vision Language Model
 - Object Detection
 - Image Captioning

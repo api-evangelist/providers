@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -205,8 +205,8 @@ image: https://cdn.prod.website-files.com/60ec127477c1e52acb31ae8c/60ffd44f1211b
 layout: provider
 mcp_servers:
 - description: ''
-  name: ostrom-mcp.yml
-  slug: ostrom-mcpyml
+  name: Ostrom MCP Server
+  slug: ostrom-mcp-server
 modified: '2026-07-20'
 name: Ostrom
 nav: Providers
@@ -222,7 +222,7 @@ random_paper: 4
 score:
   band: developing
   composite: 51.5
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 48.0
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +249,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/screenshots/ostrom-2026-08-07T191022.png
 security:
@@ -272,7 +272,6 @@ tags:
 - Dynamic Pricing
 - Germany
 - Sustainability
-- Webhooks
-- API
+- Webhook
 website: https://ostrom.de
 ---

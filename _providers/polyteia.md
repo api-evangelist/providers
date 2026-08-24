@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-19'
+  score: 40.0
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -183,8 +183,8 @@ image: https://cdn.prod.website-files.com/64f07393c02984e046baf5f8/6833060d76c3b
 layout: provider
 mcp_servers:
 - description: ''
-  name: polyteia-mcp.yml
-  slug: polyteia-mcpyml
+  name: Polyteia MCP Server
+  slug: polyteia-mcp-server
 modified: '2026-07-20'
 name: Polyteia
 nav: Providers
@@ -196,18 +196,18 @@ overview: 'Polyteia publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 10
 score:
   band: strong
-  composite: 55.6
-  delta: -0.1
+  composite: 56.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 30.3
     contract_quality: 61.5
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 55.7
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,8 +224,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/screenshots/polyteia-2026-08-17T081321.png
 security:

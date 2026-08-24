@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -324,7 +324,7 @@ modified: '2026-06-12'
 name: PydanticAI
 nav: Providers
 network: true
-overview: 'PydanticAI publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, API Keys API, Audit Logs API, and 14 more. Tagged areas include AI, Agents, Python, LLM, and Type Safety.
+overview: 'PydanticAI publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, API Keys API, Audit Logs API, and 14 more. Tagged areas include Artificial Intelligence, Agents, Python, LLM, and Type Safety.
 
 
   The PydanticAI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -359,7 +359,7 @@ scopes:
 score:
   band: developing
   composite: 51.7
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -369,7 +369,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 65.8
-  previous_composite: 57.0
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -377,9 +377,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/screenshots/pydantic-ai-2026-06-20T192356.png
 security:
 - kind: authentication
@@ -400,7 +400,7 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: pydantic-ai
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Python
 - LLM

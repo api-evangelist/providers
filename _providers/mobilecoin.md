@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: JSON-RPC 2.0 wallet backend for the MobileCoin network - manage accounts and addresses, build and submit transactions, read balances, and query the ledger and network status. Self-hosted; runs locally
@@ -167,8 +167,8 @@ image: https://cdn.prod.website-files.com/652eb795295cf0f25eb7ab84/654e61ed43588
 layout: provider
 mcp_servers:
 - description: ''
-  name: mobilecoin-mcp.yml
-  slug: mobilecoin-mcpyml
+  name: Mobilecoin MCP Server
+  slug: mobilecoin-mcp-server
 modified: '2026-07-20'
 name: Mobilecoin
 nav: Providers
@@ -181,7 +181,7 @@ random_paper: 7
 score:
   band: thin
   composite: 36.7
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -191,7 +191,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 35.8
+  previous_composite: 36.7
   provenance:
     conformance: derived
     mcp: derived
@@ -202,8 +202,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/screenshots/mobilecoin-2026-08-07T183847.png
 security:

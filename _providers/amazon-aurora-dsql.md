@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -296,8 +296,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-aurora-dsql-mcp.yml
-  slug: amazon-aurora-dsql-mcpyml
+  name: Amazon Aurora DSQL MCP Server
+  slug: amazon-aurora-dsql-mcp-server
 modified: '2026-06-20'
 name: Amazon Aurora DSQL
 nav: Providers
@@ -334,16 +334,16 @@ rules:
   slug: amazon-aurora-dsql-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: -6.6
+  composite: 32.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 74.8
     developer_ergonomics: 11.9
     discoverability: 77.8
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -351,7 +351,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 38.6
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,9 +361,9 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/screenshots/amazon-aurora-dsql-2026-07-25T195931.png
 security:
 - kind: authentication

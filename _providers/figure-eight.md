@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: Manage account info.
@@ -190,13 +190,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/figure-eig
 layout: provider
 mcp_servers:
 - description: ''
-  name: figure-eight-mcp.yml
-  slug: figure-eight-mcpyml
+  name: Figure Eight MCP Server
+  slug: figure-eight-mcp-server
 modified: '2026-07-19'
 name: Figure Eight
 nav: Providers
 network: true
-overview: 'Figure Eight publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account Info API, Job Create/Update API, Job Ontology API, and 10 more. Tagged areas include Company, Ai, Machine Learning, Data Labeling, and Data Annotation.
+overview: 'Figure Eight publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account Info API, Job Create/Update API, Job Ontology API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Data Labeling, and Data Annotation.
 
 
   The Figure Eight catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -207,7 +207,7 @@ random_paper: 19
 score:
   band: thin
   composite: 32.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -217,7 +217,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 32.3
+  previous_composite: 32.0
   provenance:
     conformance: derived
     contracts:
@@ -226,8 +226,8 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/screenshots/figure-eight-2026-07-25T214447.png
 security:
@@ -242,8 +242,8 @@ security:
 slug: figure-eight
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Data Labeling
 - Data Annotation
 - Training Data

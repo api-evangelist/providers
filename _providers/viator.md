@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -250,13 +250,13 @@ image: https://partnerresources.viator.com/wp-content/uploads/2023/08/V-logo_Gre
 layout: provider
 mcp_servers:
 - description: ''
-  name: viator-mcp.yml
-  slug: viator-mcpyml
+  name: Viator MCP Server
+  slug: viator-mcp-server
 modified: '2026-07-28'
 name: Viator
 nav: Providers
 network: true
-overview: 'Viator publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Partner Products API, Partner Availability API, Partner Bookings API, and 6 more. Tagged areas include Travel, United States, Tours and Activities, Experiences, and OTA.
+overview: 'Viator publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Partner Products API, Partner Availability API, Partner Bookings API, and 6 more. Tagged areas include Travel, United States, Tours and Activities, Experience, and OTA.
 
 
   The Viator catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -271,7 +271,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -281,7 +281,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 51.4
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,8 +292,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/screenshots/viator-2026-08-17T082742.png
 security:
@@ -310,12 +310,12 @@ tags:
 - Travel
 - United States
 - Tours and Activities
-- Experiences
+- Experience
 - OTA
 - Booking
 - Distribution
 - Marketplace
-- Affiliate
+- Affiliates
 - Hospitality
 website: https://www.viator.com/
 ---

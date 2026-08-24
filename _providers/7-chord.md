@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-17'
 name: 7 Chord
 nav: Providers
 network: true
-overview: '7 Chord is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fixed Income, Bond Pricing, and Artificial Intelligence.
+overview: '7 Chord is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fixed Income, Bond Pricing, and Artificial Intelligence.
 
 
   7 Chord''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 2.2
-  delta: -13.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -94,16 +94,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 2.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7-chord/refs/heads/main/screenshots/7-chord-2026-07-25T181227.png
 security:
 - kind: domain-security
@@ -113,12 +113,12 @@ security:
 slug: 7-chord
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fixed Income
 - Bond Pricing
 - Artificial Intelligence
 - Market Data
-- FinTech
+- Fintech
 - Credit Trading
 - Analytics
 website: https://www.7-chord.com/

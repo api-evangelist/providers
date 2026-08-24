@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -438,18 +438,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 37.3
-  delta: -13.4
+  composite: 37.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 74.1
     developer_ergonomics: 14.3
     discoverability: 48.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 50.7
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -457,9 +457,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/screenshots/sap-s4hana-2026-06-20T193430.png
 security:
 - kind: authentication

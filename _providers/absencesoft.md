@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API-first REST API powering leave and accommodations case management, employee data, employer configuration, and communications. OpenAPI 3.1, OAuth2 (password and client credentials flows), HTTPS-only
@@ -128,7 +128,7 @@ random_paper: 10
 score:
   band: thin
   composite: 39.0
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -138,11 +138,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 39.2
+  previous_composite: 39.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/absencesoft/refs/heads/main/screenshots/absencesoft-2026-07-25T181408.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Cboe LiveVol All Access API is a REST API suite offering quote and trade details for equities and options via live, delayed, and historical endpoints. Endpoint groups cover Market at a Glance (opt
@@ -154,9 +154,9 @@ description: Cboe Global Markets is one of the world's largest exchange holding 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cboe.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cboe-mcp.yml
-  slug: cboe-mcpyml
+- description: No official Cboe or LiveVol MCP server was found (docs, npm, MCP registries). This is a candidate tool list derived from documented Cboe LiveVol All Access API endpoints — one tool per documented endp
+  name: Cboe Global Markets MCP Server
+  slug: cboe-global-markets-mcp-server
 modified: '2026-07-22'
 name: Cboe Global Markets
 nav: Providers
@@ -182,7 +182,7 @@ scopes:
 score:
   band: developing
   composite: 52.2
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -192,7 +192,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 49.2
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -202,8 +202,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/screenshots/cboe-2026-06-20T174055.png
 security:

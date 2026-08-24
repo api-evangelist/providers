@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST data API exposing Grips Intelligence e-commerce analytics. Requests are HTTPS POSTs carrying a GraphQL-style query envelope (query + variables), scoped by domain, date range, and country. Endpoin
@@ -123,8 +123,8 @@ image: https://gripsintelligence.com/favicon/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: grips-intelligence-mcp.yml
-  slug: grips-intelligence-mcpyml
+  name: Peekd Data MCP
+  slug: peekd-data-mcp
 modified: '2026-07-19'
 name: Grips Intelligence
 nav: Providers
@@ -142,7 +142,7 @@ scopes:
 score:
   band: thin
   composite: 27.0
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -152,11 +152,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 28.3
+  previous_composite: 27.0
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/screenshots/grips-intelligence-2026-07-25T220333.png
 security:

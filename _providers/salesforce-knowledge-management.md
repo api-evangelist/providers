@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ modified: '2026-05-19'
 name: Salesforce Knowledge Management
 nav: Providers
 network: true
-overview: 'Salesforce Knowledge Management publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Categories API, Search API, and 1 more. Tagged areas include Articles, CRM, Customer Service, Documentation, and Knowledge Management.
+overview: 'Salesforce Knowledge Management publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Categories API, Search API, and 1 more. Tagged areas include Articles, CRM, Customer Service, Documentation, and Knowledge-Management.
 
 
   The Salesforce Knowledge Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -248,7 +248,7 @@ scopes:
 score:
   band: developing
   composite: 43.4
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -264,7 +264,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 51.3
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -272,9 +272,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/screenshots/salesforce-knowledge-management-2026-06-20T193346.png
 security:
 - kind: authentication
@@ -291,7 +291,7 @@ tags:
 - CRM
 - Customer Service
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Support
 website: https://developer.salesforce.com/docs/atlas.en-us.knowledge_dev.meta/knowledge_dev/
 ---

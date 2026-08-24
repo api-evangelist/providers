@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ modified: '2026-07-04'
 name: Fulfil
 nav: Providers
 network: true
-overview: 'Fulfil publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, Inventory & Stock API, and 7 more. Tagged areas include ERP, E-commerce, Order Management, Inventory, and Warehouse Management.
+overview: 'Fulfil publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, Inventory & Stock API, and 7 more. Tagged areas include ERP, E-Commerce, Order Management, Inventory, and Warehouse Management.
 
 
   Fulfil''s developer surface includes authentication, documentation, and 11 more developer resources.'
@@ -194,7 +194,7 @@ scopes:
 score:
   band: thin
   composite: 39.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -204,7 +204,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 40.1
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/screenshots/fulfil-io-2026-07-25T215253.png
 security:
@@ -236,11 +236,10 @@ security:
 slug: fulfil-io
 tags:
 - ERP
-- E-commerce
+- E-Commerce
 - Order Management
 - Inventory
 - Warehouse Management
 - Manufacturing
-- Operations
 website: https://www.fulfil.io
 ---

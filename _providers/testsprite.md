@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -154,14 +154,14 @@ description: 'TestSprite is an AI-powered software testing platform (a Techstars
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/testsprite.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: testsprite-mcp.yml
-  slug: testsprite-mcpyml
+- description: TestSprite operates an official Model Context Protocol server that puts its autonomous testing agent inside an AI coding assistant (Cursor, Claude Code, VS Code, Copilot). It runs locally over stdio v
+  name: TestSprite
+  slug: testsprite
 modified: '2026-07-21'
 name: TestSprite
 nav: Providers
 network: true
-overview: 'TestSprite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Testing, API Testing, Test Automation, and AI.
+overview: 'TestSprite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Testing, API Testing, Test Automation, and Artificial Intelligence.
 
 
   TestSprite''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, changelog, support, and 22 more developer resources.'
@@ -174,7 +174,7 @@ scopes:
 score:
   band: thin
   composite: 31.5
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -184,13 +184,13 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 32.3
+  previous_composite: 31.5
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -207,9 +207,9 @@ tags:
 - Software Testing
 - API Testing
 - Test Automation
-- AI
+- Artificial Intelligence
 - Developer Tools
-- Model Context Protocol
+- MCP
 - Quality Assurance
 - CI/CD
 - Agentic

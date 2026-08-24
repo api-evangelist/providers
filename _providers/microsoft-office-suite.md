@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ modified: '2026-04-28'
 name: Microsoft Office Suite
 nav: Providers
 network: true
-overview: 'Microsoft Office Suite publishes 3 APIs on the [APIs.io](https://apis.io/) network: Drive API, Mail API, and Teams API. Tagged areas include Cloud, Collaboration, Documents, Microsoft 365, and Office.
+overview: 'Microsoft Office Suite publishes 3 APIs on the [APIs.io](https://apis.io/) network: Drive API, Mail API, and Teams API. Tagged areas include Cloud, Collaboration, Documents, Microsoft-365, and Office.
 
 
   Microsoft Office Suite''s developer surface includes authentication, support, engineering blog, and 8 more developer resources.'
@@ -165,7 +165,7 @@ scopes:
 score:
   band: thin
   composite: 34.3
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -175,7 +175,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 35.9
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-suite/refs/heads/main/screenshots/microsoft-office-suite-2026-06-20T185516.png
 security:
@@ -205,7 +205,7 @@ tags:
 - Cloud
 - Collaboration
 - Documents
-- Microsoft 365
+- Microsoft-365
 - Office
 - Productivity
 website: https://developer.microsoft.com/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The agent-callable surface of Parsley Health's direct-to-consumer supplement store. A live, anonymous Universal Commerce Protocol MCP endpoint exposes thirteen tools for catalog search, product lookup
@@ -189,8 +189,8 @@ image: https://cdn-builder.parsleyhealth.com/api/v1/image/assets%2F996895949aaa4
 layout: provider
 mcp_servers:
 - description: ''
-  name: parsley-health-mcp.yml
-  slug: parsley-health-mcpyml
+  name: Parsley Health Store — UCP / MCP commerce endpoint
+  slug: parsley-health-store-ucp-mcp-commerce-endpoint
 modified: '2026-08-15'
 name: Parsley Health
 nav: Providers
@@ -216,7 +216,7 @@ scopes:
 score:
   band: thin
   composite: 31.9
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -226,7 +226,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.6
+  previous_composite: 31.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -237,8 +237,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/screenshots/parsley-health-2026-08-07T191503.png
 security:
@@ -266,7 +266,7 @@ tags:
 - Membership
 - Digital Health
 - Consumer Health
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - MCP
 - Supplements

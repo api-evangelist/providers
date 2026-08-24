@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public HTTPS/JSON API that gives retailers programmatic access to the structured circular ("publication") data that powers the Flipp platform - publications by merchant and store/postal code, publicat
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.7
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -180,7 +180,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 37.2
+  previous_composite: 34.7
   provenance:
     conformance: derived
     contracts:
@@ -190,8 +190,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/screenshots/flipp-wishabi-2026-07-25T214802.png
 security:
@@ -211,7 +211,7 @@ tags:
 - Advertising
 - Flyers
 - Coupons
-- E-commerce
+- E-Commerce
 - Shopping
 - Marketing
 - Digital Circulars

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 15
 apis:
 - description: The Accounts API from Arch Labs — 2 operation(s) for accounts.
@@ -226,8 +226,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arch-labs.
 layout: provider
 mcp_servers:
 - description: ''
-  name: arch-labs-mcp.yml
-  slug: arch-labs-mcpyml
+  name: Arch Labs MCP Server
+  slug: arch-labs-mcp-server
 modified: '2026-07-18'
 name: Arch Labs
 nav: Providers
@@ -240,7 +240,7 @@ random_paper: 16
 score:
   band: developing
   composite: 48.2
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -250,7 +250,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 48.2
   provenance:
     conformance: first-party
     contracts:
@@ -260,8 +260,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch-labs/refs/heads/main/screenshots/arch-labs-2026-07-25T201015.png
 security:
@@ -289,7 +289,7 @@ tags:
 - Private Markets
 - Wealth Management
 - Investment Management
-- Financial Services
+- Financial-Services
 - Data Aggregation
 website: https://arch.co
 ---

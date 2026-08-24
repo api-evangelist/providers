@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: INBOTIQA
 nav: Providers
 network: true
-overview: 'INBOTIQA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Shared Inbox, Workflow, and Fintech.
+overview: 'INBOTIQA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Shared Inbox, Workflows, and Fintech.
 
 
   INBOTIQA''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 11.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -86,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inbotiqa/refs/heads/main/screenshots/inbotiqa-2026-07-25T222222.png
 security:
@@ -101,12 +101,12 @@ tags:
 - Company
 - Email
 - Shared Inbox
-- Workflow
+- Workflows
 - Fintech
-- Financial Services
-- Machine Learning
+- Financial-Services
+- Machine-Learning
 - Productivity
 - Collaboration
-- SaaS
+- Software-as-a-Service
 website: https://inbotiqa.com/
 ---

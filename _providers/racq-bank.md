@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -173,8 +173,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/racq-bank.
 layout: provider
 mcp_servers:
 - description: ''
-  name: racq-bank-mcp.yml
-  slug: racq-bank-mcpyml
+  name: RACQ Bank MCP Server
+  slug: racq-bank-mcp-server
 modified: '2026-07-21T13:00:00Z'
 name: RACQ Bank
 nav: Providers
@@ -187,7 +187,7 @@ random_paper: 19
 score:
   band: thin
   composite: 38.2
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 35.6
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +214,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/screenshots/racq-bank-2026-07-21T114746.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -220,9 +220,9 @@ description: Archera is a cloud financial operations (FinOps) platform that help
 image: https://cdn.prod.website-files.com/66df18fcc90988b3a2c38285/677d4bc397e85ea0e180addb_1654705931-website-link-preview.avif
 layout: provider
 mcp_servers:
-- description: ''
-  name: archera-mcp.yml
-  slug: archera-mcpyml
+- description: Archera operates and hosts a remote MCP (Model Context Protocol) server that connects an AI assistant to a user's Archera account — cloud commitments, cost data, and optimization recommendations. Stre
+  name: Archera MCP Server
+  slug: archera-mcp-server
 modified: '2026-07-18'
 name: Archera
 nav: Providers
@@ -240,7 +240,7 @@ scopes:
 score:
   band: developing
   composite: 45.1
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -250,7 +250,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 47.4
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,8 +261,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/screenshots/archera-2026-07-25T201044.png
 security:

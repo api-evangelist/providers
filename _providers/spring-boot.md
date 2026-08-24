@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -226,7 +226,7 @@ modified: '2026-05-19'
 name: Spring Boot
 nav: Providers
 network: true
-overview: 'Spring Boot publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Application API, Caches API, Configuration API, and 7 more. Tagged areas include Auto Configuration, Embedded Server, Framework, Java, and Microservices.
+overview: 'Spring Boot publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Application API, Caches API, Configuration API, and 7 more. Tagged areas include Auto-Configuration, Embedded Server, Framework, Java, and Microservices.
 
 
   The Spring Boot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -266,18 +266,18 @@ rules:
   slug: spring-boot-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.1
-  delta: 2.0
+  composite: 38.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 56.5
     developer_ergonomics: 9.5
     discoverability: 72.2
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 26.3
-  previous_composite: 35.1
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -285,8 +285,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/screenshots/spring-boot-2026-06-20T194406.png
 security:
@@ -300,7 +300,7 @@ security:
   summary_line: security.txt · contact published
 slug: spring-boot
 tags:
-- Auto Configuration
+- Auto-Configuration
 - Embedded Server
 - Framework
 - Java

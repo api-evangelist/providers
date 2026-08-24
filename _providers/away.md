@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the Away storefront implementing the Universal Commerce Protocol (dev.ucp.shopping) over an MCP endpoint, with catalog search, cart, checkout, fulfillment, discount, '
@@ -94,14 +94,14 @@ description: 'Away (Away: Built for modern travel) is a direct-to-consumer trave
 image: http://www.awaytravel.com/cdn/shop/files/12EVER25_Ecomm-HPH-Desktop-1_9936be52-b9e2-4e19-985f-78aa1d091f3a.jpg?v=1771448528
 layout: provider
 mcp_servers:
-- description: ''
-  name: away-mcp.yml
-  slug: away-mcpyml
+- description: Away's storefront exposes an agent-commerce MCP endpoint implementing the Universal Commerce Protocol (UCP, ucp.dev) service dev.ucp.shopping. Agents discover it via /.well-known/ucp and /llms.txt. Ch
+  name: Away MCP Server
+  slug: away-mcp-server
 modified: '2026-07-18'
 name: Away
 nav: Providers
 network: true
-overview: 'Away publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Travel, Retail, and E-commerce.
+overview: 'Away publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Travel, Retail, and E-Commerce.
 
 
   Away''s developer surface includes authentication and 12 more developer resources.'
@@ -113,24 +113,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.1
-  delta: -2.1
+  composite: 20.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 20.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/away/refs/heads/main/screenshots/away-2026-08-07T162033.png
 security:
@@ -148,7 +148,7 @@ tags:
 - Consumer
 - Travel
 - Retail
-- E-commerce
+- E-Commerce
 - Luggage
 - Agent Commerce
 - Shopify

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'WordPress core content API (posts, pages, media, taxonomies, users, settings) plus the site''s custom post types — products, careers, events, partners, team members and FAQs — and the optical hardware '
@@ -204,8 +204,8 @@ image: https://effectphotonics.com/wp-content/uploads/2026/05/EFFECT-Photonics_l
 layout: provider
 mcp_servers:
 - description: ''
-  name: effect-photonics-mcp.yml
-  slug: effect-photonics-mcpyml
+  name: EFFECT Photonics MCP Server
+  slug: effect-photonics-mcp-server
 modified: '2026-08-12'
 name: EFFECT Photonics
 nav: Providers
@@ -230,18 +230,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 39.9
-  delta: -0.9
+  composite: 41.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 16.7
     contract_quality: 57.7
     developer_ergonomics: 20.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 40.8
+  previous_composite: 41.0
   provenance:
     conformance: derived
     contracts:
@@ -257,8 +257,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -280,7 +280,7 @@ tags:
 - Telecommunications
 - Data Center Interconnect
 - Hardware
-- Model Context Protocol
+- MCP
 - WordPress
 - Netherlands
 website: https://effectphotonics.com/

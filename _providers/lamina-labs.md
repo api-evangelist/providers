@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -126,13 +126,13 @@ image: https://www.laminalabs.ai/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lamina-labs-mcp.yml
-  slug: lamina-labs-mcpyml
+  name: Lamina Labs MCP Server
+  slug: lamina-labs-mcp-server
 modified: '2026-07-19'
 name: Lamina Labs
 nav: Providers
 network: true
-overview: 'Lamina Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Machine Learning.
+overview: 'Lamina Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Machine-Learning.
 
 
   Lamina Labs'' developer surface includes documentation, signup flow, support, authentication, and 15 more developer resources.'
@@ -149,7 +149,7 @@ scopes:
 score:
   band: emerging
   composite: 20.7
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -159,7 +159,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 22.4
+  previous_composite: 20.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -171,8 +171,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lamina-labs/refs/heads/main/screenshots/lamina-labs-2026-08-07T171605.png
 security:
@@ -190,10 +190,10 @@ tags:
 - Artificial Intelligence
 - Video
 - Video Generation
-- Machine Learning
+- Machine-Learning
 - Education
 - Media
-- Model Context Protocol
+- MCP
 - Content Generation
 website: https://www.laminalabs.ai/
 ---

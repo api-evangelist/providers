@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Mosyle Business Apple device management platform. Requests are POSTed to operation endpoints under https://businessapi.mosyle.com/v1 (e.g. listdevices, listusers) with a JSON body and
@@ -121,7 +121,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 21.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -131,11 +131,11 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 23.5
+  previous_composite: 21.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/screenshots/mosyle-2026-08-07T184321.png
 security:

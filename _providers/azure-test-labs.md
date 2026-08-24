@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -670,18 +670,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 46.6
-  delta: -4.8
+  composite: 47.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 59.2
     developer_ergonomics: 54.8
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 51.4
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -689,8 +689,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/screenshots/azure-test-labs-2026-06-20T172912.png
 security:

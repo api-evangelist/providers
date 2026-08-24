@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -439,9 +439,9 @@ description: 'ModMed (Modernizing Medicine, Inc., Boca Raton FL) builds specialt
 image: https://www.modmed.com/wp-content/uploads/2024/12/cropped-mm-favicon_512-270x270.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: modernizing-medicine-mcp.yml
-  slug: modernizing-medicine-mcpyml
+- description: ModMed serves an MCP endpoint on its API portal host as part of the ReadMe documentation platform. It is a DOCUMENTATION-plane server — its tools search the ModMed API docs and can proxy requests to t
+  name: ModMed MCP Server
+  slug: modmed-mcp-server
 modified: '2026-08-04'
 name: ModMed
 nav: Providers
@@ -463,7 +463,7 @@ scopes:
 score:
   band: strong
   composite: 57.5
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -473,7 +473,7 @@ score:
     discoverability: 68.5
     governance: 30.3
     operational_transparency: 35.5
-  previous_composite: 54.5
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -490,8 +490,8 @@ score:
     regime: Health
     regime_id: health
     score: 100.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/screenshots/modernizing-medicine-2026-08-07T184015.png
 security:

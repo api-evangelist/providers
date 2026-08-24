@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HeadSpin's v0 REST API for authentication, real-device management, capture sessions, app (APK/IPA) instrumentation, biometrics, and audio/video capture. Authenticates with a HeadSpin API token as an H
@@ -123,8 +123,8 @@ image: https://cdn.prod.website-files.com/619e15d781b212391a206fb2/67c6baa984aae
 layout: provider
 mcp_servers:
 - description: ''
-  name: headspin-mcp.yml
-  slug: headspin-mcpyml
+  name: HeadSpin MCP Server
+  slug: headspin-mcp-server
 modified: '2026-07-19'
 name: HeadSpin
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 21.8
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -147,13 +147,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 28.0
+  previous_composite: 21.8
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/screenshots/headspin-2026-07-25T220825.png
 security:
 - kind: authentication

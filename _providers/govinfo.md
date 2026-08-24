@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ modified: '2026-05-19'
 name: GovInfo
 nav: Providers
 network: true
-overview: 'GovInfo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Packages API, Published API, and 2 more. Tagged areas include Federal Government, Government Publishing, Documents, and Open Data.
+overview: 'GovInfo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Packages API, Published API, and 2 more. Tagged areas include Federal-Government, Government Publishing, Documents, and Open Data.
 
 
   GovInfo''s developer surface includes authentication, developer portal, documentation, signup flow, GitHub presence, and 7 more developer resources.'
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.6
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -165,7 +165,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 37.0
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/screenshots/govinfo-2026-06-20T182303.png
 security:
@@ -194,7 +194,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: govinfo
 tags:
-- Federal Government
+- Federal-Government
 - Government Publishing
 - Documents
 - Open Data

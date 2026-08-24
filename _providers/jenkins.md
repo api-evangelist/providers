@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -236,8 +236,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jenkins.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: jenkins-mcp.yml
-  slug: jenkins-mcpyml
+  name: Jenkins MCP Server
+  slug: jenkins-mcp-server
 modified: '2026-06-20'
 name: Jenkins
 nav: Providers
@@ -257,18 +257,18 @@ rate_limits:
   slug: jenkins-rate-limits
 score:
   band: developing
-  composite: 39.7
-  delta: -4.0
+  composite: 40.8
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 16.7
     contract_quality: 48.3
     developer_ergonomics: 45.2
-    discoverability: 72.2
+    discoverability: 83.3
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 43.7
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -278,8 +278,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/screenshots/jenkins-2026-06-20T183720.png
 security:
@@ -303,7 +303,7 @@ tags:
 - Continuous Delivery
 - Continuous Integration
 - DevOps
-- Open Source
+- Open-Source
 - Remote Access API
 website: https://www.jenkins.io/
 ---

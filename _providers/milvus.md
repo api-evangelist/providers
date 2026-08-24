@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ modified: '2026-05-08'
 name: Milvus
 nav: Providers
 network: true
-overview: 'Milvus publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Entities API, Indexes API, and 3 more. Tagged areas include Vector Database, AI, Embeddings, Open Source, and Cloud-Native.
+overview: 'Milvus publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Entities API, Indexes API, and 3 more. Tagged areas include Vector Database, Artificial Intelligence, Embeddings, Open-Source, and Cloud-Native.
 
 
   Milvus'' developer surface includes authentication, developer portal, engineering blog, and 16 more developer resources.'
@@ -199,7 +199,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.1
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/screenshots/milvus-2026-06-20T185554.png
 security:
@@ -233,9 +233,9 @@ security:
 slug: milvus
 tags:
 - Vector Database
-- AI
+- Artificial Intelligence
 - Embeddings
-- Open Source
+- Open-Source
 - Cloud-Native
 website: https://milvus.io/
 ---

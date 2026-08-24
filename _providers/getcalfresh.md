@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,12 +52,12 @@ modified: '2026-07-03'
 name: GetCalFresh
 nav: Providers
 network: true
-overview: GetCalFresh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Civic Tech, Nonprofit, Government, Public Benefits, and SNAP.
+overview: GetCalFresh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Civic Tech, Non-Profit, Government, Public Benefits, and SNAP.
 random_paper: 5
 score:
   band: minimal
   composite: 3.7
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,15 +67,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 6.5
+  previous_composite: 3.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getcalfresh/refs/heads/main/screenshots/getcalfresh-2026-07-25T215723.png
 security:
@@ -86,7 +86,7 @@ security:
 slug: getcalfresh
 tags:
 - Civic Tech
-- Nonprofit
+- Non-Profit
 - Government
 - Public Benefits
 - SNAP

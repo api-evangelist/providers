@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol (UCP) shopping service boAt Lifestyle serves from its own storefront host over MCP. An anonymous JSON-RPC tools/list returns 13 tools covering catalog search and lookup
@@ -105,13 +105,13 @@ image: https://www.boat-lifestyle.com/cdn/shop/files/profile-1_2e1d2124-ba4c-43f
 layout: provider
 mcp_servers:
 - description: ''
-  name: boat-lifestyle-mcp.yml
-  slug: boat-lifestyle-mcpyml
+  name: Boat Lifestyle MCP Server
+  slug: boat-lifestyle-mcp-server
 modified: '2026-08-08'
 name: Boat Lifestyle
 nav: Providers
 network: true
-overview: 'Boat Lifestyle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, Ecommerce, Retail, and Audio.
+overview: 'Boat Lifestyle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, E-Commerce, Retail, and Audio.
 
 
   Boat Lifestyle''s developer surface includes engineering blog, support, authentication, and 15 more developer resources.'
@@ -124,7 +124,7 @@ scopes:
 score:
   band: emerging
   composite: 17.6
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -134,13 +134,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 18.7
+  previous_composite: 17.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -155,7 +155,7 @@ slug: boat-lifestyle
 tags:
 - Company
 - Consumer Electronics
-- Ecommerce
+- E-Commerce
 - Retail
 - Audio
 - Wearables

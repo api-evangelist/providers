@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-06-13'
 name: Brave
 nav: Providers
 network: true
-overview: 'Brave publishes 9 APIs on the [APIs.io](https://apis.io/) network, including campaigns API, images API, local API, and 6 more. Tagged areas include Search, Advertising, Privacy, Browser, and AI.
+overview: 'Brave publishes 9 APIs on the [APIs.io](https://apis.io/) network, including campaigns API, images API, local API, and 6 more. Tagged areas include Search, Advertising, Privacy, Browser, and Artificial Intelligence.
 
 
   The Brave catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -246,7 +246,7 @@ rules:
 score:
   band: developing
   composite: 42.1
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -256,7 +256,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 50.5
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -264,9 +264,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/screenshots/brave-2026-06-20T173636.png
 security:
 - kind: authentication
@@ -287,7 +287,7 @@ tags:
 - Advertising
 - Privacy
 - Browser
-- AI
+- Artificial Intelligence
 - LLM
 website: https://brave.com
 ---

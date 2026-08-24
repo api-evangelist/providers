@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 556
 apis:
 - description: The account API from Chaitin Tech — 22 operation(s) for account.
@@ -3472,8 +3472,8 @@ image: https://avatars.githubusercontent.com/u/7302766?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: chaitin-mcp.yml
-  slug: chaitin-mcpyml
+  name: Chaitin Tech MCP Server
+  slug: chaitin-tech-mcp-server
 modified: '2026-07-18'
 name: Chaitin Tech
 nav: Providers
@@ -3486,7 +3486,7 @@ random_paper: 1
 score:
   band: thin
   composite: 35.5
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -3496,7 +3496,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 36.3
+  previous_composite: 35.5
   provenance:
     conformance: derived
     contracts:
@@ -3506,8 +3506,8 @@ score:
       total: 556
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/screenshots/chaitin-2026-07-25T205025.png
 security:

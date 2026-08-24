@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -210,8 +210,8 @@ image: https://www.knostic.ai/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: knostic-mcp.yml
-  slug: knostic-mcpyml
+  name: Knostic MCP Server
+  slug: knostic-mcp-server
 modified: '2026-07-19'
 name: Knostic
 nav: Providers
@@ -228,7 +228,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.3
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -238,7 +238,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 57.9
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,9 +249,9 @@ score:
       total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/screenshots/knostic-2026-07-25T224003.png
 security:
 - kind: authentication
@@ -274,7 +274,7 @@ tags:
 - AI Agents
 - Agent Security
 - Supply Chain Security
-- Model Context Protocol
+- MCP
 - Threat Intelligence
 - Developer Tools
 - Shadow AI

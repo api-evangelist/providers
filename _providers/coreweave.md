@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ modified: '2026-05-23'
 name: CoreWeave
 nav: Providers
 network: true
-overview: 'CoreWeave publishes 1 API on the [APIs.io](https://apis.io/) network: Clusters API. Tagged areas include AI, Cloud, GPU, HPC, and Inference.
+overview: 'CoreWeave publishes 1 API on the [APIs.io](https://apis.io/) network: Clusters API. Tagged areas include Artificial Intelligence, Cloud, GPU, HPC, and Inference.
 
 
   CoreWeave''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, support, and 14 more developer resources.'
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.9
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -212,7 +212,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 48.4
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/screenshots/coreweave-2026-06-20T175029.png
 security:
@@ -239,13 +239,13 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: coreweave
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - GPU
 - HPC
 - Inference
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - Storage
 website: https://www.coreweave.com
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: One is the current successor brand to IntegrationOS and Pica. It provides agent infrastructure with a unified CLI for 250+ platforms and 50,000+ tools, managed OAuth (AuthKit), multi-step Flows, memor
@@ -95,7 +95,7 @@ modified: '2026-04-28'
 name: IntegrationOS
 nav: Providers
 network: true
-overview: 'IntegrationOS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agent Infrastructure, AI Agents, Connectors, Historical, and Integrations.
+overview: 'IntegrationOS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agent Infrastructure, AI Agents, Connectors, Historical, and Integration.
 
 
   The IntegrationOS catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -125,7 +125,7 @@ rules:
 score:
   band: emerging
   composite: 18.6
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -135,9 +135,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 19.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-os/refs/heads/main/screenshots/integration-os-2026-06-20T183438.png
 security:
@@ -151,10 +151,10 @@ tags:
 - AI Agents
 - Connectors
 - Historical
-- Integrations
+- Integration
 - iPaaS
 - MCP
 - Rebrand
-- Unified API
+- Unified-API
 website: https://withone.ai
 ---

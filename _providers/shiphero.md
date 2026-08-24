@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: ShipHero's primary public API built on GraphQL, providing programmatic access to warehouse management data and operations including inventory, orders, shipments, purchase orders, returns, wholesale or
@@ -110,7 +110,7 @@ modified: '2026-06-12'
 name: ShipHero
 nav: Providers
 network: true
-overview: 'ShipHero publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, Fulfillment, eCommerce, GraphQL, and Inventory.
+overview: 'ShipHero publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, Fulfillment, E-Commerce, GraphQL, and Inventory.
 
 
   The ShipHero catalog on APIs.io includes 1 JSON-LD context.
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -139,9 +139,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 40.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shiphero/refs/heads/main/screenshots/shiphero-2026-06-20T193816.png
 security:
@@ -157,10 +157,10 @@ slug: shiphero
 tags:
 - Warehouse Management
 - Fulfillment
-- eCommerce
+- E-Commerce
 - GraphQL
 - Inventory
-- Orders
+- Order
 - Shipments
 - 3PL
 - Logistics

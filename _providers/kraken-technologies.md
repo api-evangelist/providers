@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Open Kraken is the integration layer of the Kraken utility operating system. Kraken publicly describes it as "APIs, events and MCP" for building apps and experiences against data and capabilities insi
@@ -173,8 +173,8 @@ image: https://www.kraken.tech/favicon-96x96.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kraken-technologies-mcp.yml
-  slug: kraken-technologies-mcpyml
+  name: Kraken Technologies MCP Server
+  slug: kraken-technologies-mcp-server
 modified: '2026-07-27'
 name: Kraken Technologies
 nav: Providers
@@ -187,7 +187,7 @@ random_paper: 12
 score:
   band: thin
   composite: 31.7
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -197,7 +197,7 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 31.9
+  previous_composite: 31.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -207,8 +207,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken-technologies/refs/heads/main/screenshots/kraken-technologies-2026-08-07T171335.png
 security:

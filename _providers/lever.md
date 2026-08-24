@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -343,7 +343,7 @@ modified: '2026-05-19'
 name: Lever
 nav: Providers
 network: true
-overview: 'Lever publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Postings API, Applications API, and 31 more. Tagged areas include HR, ATS, Recruiting, Talent Acquisition, and SaaS.
+overview: 'Lever publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Postings API, Applications API, and 31 more. Tagged areas include HR, ATS, Recruiting, Talent Acquisition, and Software-as-a-Service.
 
 
   Lever''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 16 more developer resources.'
@@ -359,7 +359,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -369,7 +369,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 45.1
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -377,9 +377,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/screenshots/lever-2026-06-20T184437.png
 security:
 - kind: authentication
@@ -404,6 +404,6 @@ tags:
 - ATS
 - Recruiting
 - Talent Acquisition
-- SaaS
+- Software-as-a-Service
 website: https://www.lever.co/
 ---

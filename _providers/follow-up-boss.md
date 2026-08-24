@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-05-11'
 name: Follow Up Boss
 nav: Providers
 network: true
-overview: 'Follow Up Boss publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Deals API, Events API, and 5 more. Tagged areas include Real Estate, CRM, Lead Management, Sales Automation, and Follow Up.
+overview: 'Follow Up Boss publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Deals API, Events API, and 5 more. Tagged areas include Real-Estate, CRM, Lead Management, Sales Automation, and Follow Up.
 
 
   Follow Up Boss'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
@@ -171,7 +171,7 @@ random_paper: 10
 score:
   band: thin
   composite: 30.9
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.9
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/screenshots/follow-up-boss-2026-06-20T181354.png
 security:
@@ -208,7 +208,7 @@ security:
   summary_line: security.txt · contact published
 slug: follow-up-boss
 tags:
-- Real Estate
+- Real-Estate
 - CRM
 - Lead Management
 - Sales Automation

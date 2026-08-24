@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-05-19'
 name: Containerd
 nav: Providers
 network: true
-overview: 'Containerd publishes 1 API on the [APIs.io](https://apis.io/) network: Metrics API. Tagged areas include Cloud Native, Container Runtime, CRI, Docker, and gRPC.
+overview: 'Containerd publishes 1 API on the [APIs.io](https://apis.io/) network: Metrics API. Tagged areas include Cloud-Native, Container Runtime, CRI, Docker, and gRPC.
 
 
   The Containerd catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -195,18 +195,18 @@ rules:
   slug: containerd-rules
 score:
   band: thin
-  composite: 30.9
-  delta: -9.8
+  composite: 31.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 60.8
     developer_ergonomics: 23.8
     discoverability: 63.0
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 40.7
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -214,9 +214,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/screenshots/containerd-2026-06-20T174921.png
 security:
 - kind: domain-security
@@ -225,7 +225,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: containerd
 tags:
-- Cloud Native
+- Cloud-Native
 - Container Runtime
 - CRI
 - Docker

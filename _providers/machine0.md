@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The machine0 control plane for creating, managing, snapshotting and connecting to persistent cloud VMs. Exposed as a CLI (npm @machine0/cli) and a remote MCP server (Streamable HTTP, OAuth 2.0 + API k
@@ -106,9 +106,9 @@ description: Machine0 is a Y Combinator (S26)-backed infrastructure company, ope
 image: https://machine0.io/opengraph-image?d0b124732c7005de
 layout: provider
 mcp_servers:
-- description: ''
-  name: machine0-mcp.yml
-  slug: machine0-mcpyml
+- description: Machine0 operates an official remote MCP server at https://app.machine0.io/mcp (Streamable HTTP transport, stateless, JSON responses) that gives AI agents the same infrastructure control as the CLI. A
+  name: Machine0 MCP Server
+  slug: machine0-mcp-server
 modified: '2026-07-20'
 name: Machine0
 nav: Providers
@@ -126,7 +126,7 @@ scopes:
 score:
   band: thin
   composite: 28.7
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -136,13 +136,13 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 31.1
+  previous_composite: 28.7
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/machine0/refs/heads/main/screenshots/machine0-2026-07-25T225816.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST API behind Gist Answers. Creates chats against a publisher's licensed corpus, streams the answer back over Server-Sent Events, and returns the citations and the per-source attribution credit dist
@@ -185,8 +185,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: gist-mcp.yml
-  slug: gist-mcpyml
+  name: Gist MCP Server
+  slug: gist-mcp-server
 modified: '2026-08-12'
 name: Gist
 nav: Providers
@@ -207,7 +207,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.9
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -217,7 +217,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 49.6
+  previous_composite: 43.9
   provenance:
     conformance: derived
     contracts:
@@ -227,9 +227,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/screenshots/gist-2026-07-25T215832.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -167,7 +167,7 @@ modified: '2026-06-21'
 name: Sana
 nav: Providers
 network: true
-overview: 'Sana publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Authentication API, Courses API, and 8 more. Tagged areas include AI, Knowledge, Learning, LMS, and Agents.
+overview: 'Sana publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Authentication API, Courses API, and 8 more. Tagged areas include Artificial Intelligence, Knowledge, Learning, LMS, and Agents.
 
 
   Sana''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -183,7 +183,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.6
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -193,7 +193,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 35.3
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +207,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -221,7 +221,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: sana-labs
 tags:
-- AI
+- Artificial Intelligence
 - Knowledge
 - Learning
 - LMS

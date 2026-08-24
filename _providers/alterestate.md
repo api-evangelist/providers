@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Company agents
@@ -173,14 +173,14 @@ description: AlterEstate is the leading real-estate CRM SaaS for agents across L
 image: https://alterestate.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: alterestate-mcp.yml
-  slug: alterestate-mcpyml
+- description: Official AlterEstate hosted MCP server (branded "Brik"/alterai). Discovered via the RFC 9728 protected-resource document. Requires an OAuth 2.0 bearer token (scope "mcp"); an unauthenticated POST retu
+  name: AlterEstate MCP Server
+  slug: alterestate-mcp-server
 modified: '2026-07-17'
 name: AlterEstate
 nav: Providers
 network: true
-overview: 'AlterEstate publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Developments API, Leads API, and 2 more. Tagged areas include Company, Real Estate, CRM, Property Management, and Lead Management.
+overview: 'AlterEstate publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Developments API, Leads API, and 2 more. Tagged areas include Company, Real-Estate, CRM, Property Management, and Lead Management.
 
 
   AlterEstate''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
@@ -193,7 +193,7 @@ scopes:
 score:
   band: developing
   composite: 42.6
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -203,7 +203,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 45.2
+  previous_composite: 42.6
   provenance:
     conformance: derived
     contracts:
@@ -213,8 +213,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/screenshots/alterestate-2026-07-25T195823.png
 security:
@@ -229,12 +229,12 @@ security:
 slug: alterestate
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - CRM
 - Property Management
 - Lead Management
 - Latin America
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - MCP
 website: https://alterestate.com

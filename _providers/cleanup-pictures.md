@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ modified: '2026-05-08'
 name: Cleanup.pictures
 nav: Providers
 network: true
-overview: 'Cleanup.pictures publishes 1 API on the [APIs.io](https://apis.io/) network: Cleanup API. Tagged areas include AI, Image Editing, Object Removal, Inpainting, and Visual.
+overview: 'Cleanup.pictures publishes 1 API on the [APIs.io](https://apis.io/) network: Cleanup API. Tagged areas include Artificial Intelligence, Image Editing, Object Removal, Inpainting, and Visual.
 
 
   Cleanup.pictures'' developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -126,7 +126,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.3
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -136,7 +136,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.1
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -144,8 +144,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/screenshots/cleanup-pictures-2026-06-20T174452.png
 security:
@@ -159,7 +159,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: cleanup-pictures
 tags:
-- AI
+- Artificial Intelligence
 - Image Editing
 - Object Removal
 - Inpainting

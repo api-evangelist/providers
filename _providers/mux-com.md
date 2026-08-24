@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -755,18 +755,18 @@ rules:
   slug: mux-com-rules
 score:
   band: exemplar
-  composite: 77.7
-  delta: 1.1
+  composite: 75.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 60.6
     contract_quality: 70.0
     developer_ergonomics: 83.3
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 60.6
     operational_transparency: 78.9
-  previous_composite: 76.6
+  previous_composite: 75.8
   provenance:
     agentic_access: derived
     contracts:
@@ -774,8 +774,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/screenshots/mux-com-2026-08-07T184502.png
 security:

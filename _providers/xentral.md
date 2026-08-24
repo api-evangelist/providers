@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 90
 apis:
 - description: Account configurations
@@ -709,13 +709,13 @@ image: https://eu-central-1-enterprise-euc1.graphassets.com/AwA5KcKRdQcurP6TExnr
 layout: provider
 mcp_servers:
 - description: ''
-  name: xentral-mcp.yml
-  slug: xentral-mcpyml
+  name: Xentral MCP Server
+  slug: xentral-mcp-server
 modified: '2026-07-21'
 name: Xentral
 nav: Providers
 network: true
-overview: 'Xentral publishes 90 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounting Export API, AuthPlatform API, and 87 more. Tagged areas include Company, ERP, eCommerce, Fulfillment, and Warehousing.
+overview: 'Xentral publishes 90 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounting Export API, AuthPlatform API, and 87 more. Tagged areas include Company, ERP, E-Commerce, Fulfillment, and Warehousing.
 
 
   Xentral''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
@@ -731,18 +731,18 @@ scopes:
   summary_line: 100 scopes
 score:
   band: developing
-  composite: 49.2
-  delta: -5.2
+  composite: 48.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 64.3
     developer_ergonomics: 52.4
-    discoverability: 75.9
+    discoverability: 66.7
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 54.4
+  previous_composite: 48.3
   provenance:
     conformance: derived
     contracts:
@@ -752,9 +752,9 @@ score:
       total: 90
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/screenshots/xentral-2026-08-17T083012.png
 security:
 - kind: authentication
@@ -769,13 +769,13 @@ slug: xentral
 tags:
 - Company
 - ERP
-- eCommerce
+- E-Commerce
 - Fulfillment
 - Warehousing
 - Invoicing
 - Accounting
-- Orders
-- Products
+- Order
+- Product
 - Germany
 website: https://developer.xentral.com
 ---

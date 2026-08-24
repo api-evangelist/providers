@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Games API from Unrivaled Basketball — 5 operation(s) for games.
@@ -174,8 +174,8 @@ image: https://www.unrivaled.basketball/images/icon-mask.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: unrivaled-basketball-mcp.yml
-  slug: unrivaled-basketball-mcpyml
+  name: Unrivaled Basketball MCP Server
+  slug: unrivaled-basketball-mcp-server
 modified: '2026-07-21'
 name: Unrivaled Basketball
 nav: Providers
@@ -188,7 +188,7 @@ random_paper: 2
 score:
   band: developing
   composite: 42.4
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 42.1
+  previous_composite: 42.4
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +208,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/screenshots/unrivaled-basketball-2026-08-17T082632.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -698,7 +698,7 @@ modified: '2026-05-19'
 name: Ampersand
 nav: Providers
 network: true
-overview: 'Ampersand publishes 18 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Billing Account API, Connection API, and 15 more. Tagged areas include Developer Tools, Integrations, Platform, SaaS, and OAuth.
+overview: 'Ampersand publishes 18 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Billing Account API, Connection API, and 15 more. Tagged areas include Developer Tools, Integration, Platform, Software-as-a-Service, and Authentication.
 
 
   The Ampersand catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -738,18 +738,18 @@ rules:
   slug: ampersand-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: -9.6
+  composite: 38.2
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.0
     developer_ergonomics: 26.2
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 47.3
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -757,9 +757,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/screenshots/ampersand-2026-06-20T171937.png
 security:
 - kind: authentication
@@ -773,12 +773,12 @@ security:
 slug: ampersand
 tags:
 - Developer Tools
-- Integrations
+- Integration
 - Platform
-- SaaS
-- OAuth
+- Software-as-a-Service
+- Authentication
 - Data Sync
-- Webhooks
+- Webhook
 use_cases:
 - description: Build native Salesforce, HubSpot, and Dynamics 365 integrations to sync customer data bidirectionally with your SaaS product.
   name: CRM Integration

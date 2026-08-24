@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -169,14 +169,14 @@ description: 'Fever is a global live-entertainment discovery and ticketing platf
 image: https://feverup.com/_astro/og-image-fever.PfP_3GVw.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: fever-mcp.yml
-  slug: fever-mcpyml
+- description: Official Fever MCP server exposing Fever's global live-entertainment event catalog to MCP-compatible clients (Claude Desktop, Cursor, Windsurf, Claude Code). Data is real-time, updated at the same rat
+  name: Fever MCP Server
+  slug: fever-mcp-server
 modified: '2026-07-19'
 name: Fever
 nav: Providers
 network: true
-overview: 'Fever publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, FeverZone API, Order Items API, and 2 more. Tagged areas include Company, Consumer, Live Entertainment, Events, and Ticketing.
+overview: 'Fever publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, FeverZone API, Order Items API, and 2 more. Tagged areas include Company, Consumer, Live Entertainment, Event, and Ticketing.
 
 
   Fever''s developer surface includes documentation, API reference, authentication, support, and 18 more developer resources.'
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.4
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -198,7 +198,7 @@ score:
     discoverability: 74.1
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 41.0
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,9 +209,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/screenshots/fever-2026-07-25T214354.png
 security:
 - kind: authentication
@@ -227,9 +227,9 @@ tags:
 - Company
 - Consumer
 - Live Entertainment
-- Events
+- Event
 - Ticketing
-- Experiences
+- Experience
 - Reporting
 - MCP
 website: https://www.feverup.com

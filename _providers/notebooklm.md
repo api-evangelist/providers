@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-05-11'
 name: Google NotebookLM
 nav: Providers
 network: true
-overview: 'Google NotebookLM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Research, Knowledge Management, Document Analysis, and Generative AI.
+overview: 'Google NotebookLM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Research, Knowledge-Management, Document Analysis, and Generative AI.
 
 
   Google NotebookLM''s developer surface includes documentation, signup flow, engineering blog, and 3 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 8.1
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -82,9 +82,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notebooklm/refs/heads/main/screenshots/notebooklm-2026-06-20T190424.png
 security:
@@ -94,9 +94,9 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: notebooklm
 tags:
-- AI
+- Artificial Intelligence
 - Research
-- Knowledge Management
+- Knowledge-Management
 - Document Analysis
 - Generative AI
 - Google

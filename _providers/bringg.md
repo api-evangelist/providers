@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -557,7 +557,7 @@ modified: '2026-05-25'
 name: Bringg
 nav: Providers
 network: true
-overview: 'Bringg publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Analytics API, Authentication API, and 27 more. Tagged areas include Last-Mile Delivery, Delivery Orchestration, Fulfillment, Logistics, and Retail.
+overview: 'Bringg publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Analytics API, Authentication API, and 27 more. Tagged areas include Last Mile Delivery, Delivery Orchestration, Fulfillment, Logistics, and Retail.
 
 
   The Bringg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -613,18 +613,18 @@ scopes:
   summary_line: 25 scopes · clientCredentials
 score:
   band: strong
-  composite: 58.5
-  delta: -6.2
+  composite: 58.7
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 75.8
     developer_ergonomics: 40.5
     discoverability: 68.5
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 61.8
-  previous_composite: 64.7
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
@@ -638,9 +638,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png
 security:
 - kind: authentication
@@ -666,7 +666,7 @@ solutions:
 - description: Equip drivers with the Bringg Driver App, optimized routes, and geofence-aware workflows.
   name: Driver Productivity
 tags:
-- Last-Mile Delivery
+- Last Mile Delivery
 - Delivery Orchestration
 - Fulfillment
 - Logistics
@@ -677,7 +677,7 @@ tags:
 - Carrier Network
 - Fleet Management
 - Supply Chain
-- E-commerce
+- E-Commerce
 - Same-Day Delivery
 - Curbside Pickup
 - Returns

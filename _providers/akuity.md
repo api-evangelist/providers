@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
@@ -237,14 +237,14 @@ description: 'Akuity is the enterprise software delivery company founded by the 
 image: https://framerusercontent.com/images/GquIfu25ll0uHAbX9oobc0UUUE.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: akuity-mcp.yml
-  slug: akuity-mcpyml
+- description: 'Akuity does NOT publish an MCP server for the Akuity Platform API. It is an MCP *client*: Akuity Intelligence connects to customer-supplied MCP servers and folds their tools into its own tool-calling '
+  name: Akuity MCP Server
+  slug: akuity-mcp-server
 modified: '2026-08-06'
 name: Akuity
 nav: Providers
 network: true
-overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Key Service API, Argo CD Service API, Auth Service API, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, Argo CD, and Kargo.
+overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Key Service API, Argo CD Service API, Auth Service API, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, ArgoCD, and Kargo.
 
 
   The Akuity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -259,7 +259,7 @@ random_paper: 12
 score:
   band: exemplar
   composite: 68.3
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -269,7 +269,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 66.5
+  previous_composite: 68.3
   provenance:
     conformance: first-party
     contracts:
@@ -279,8 +279,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:
@@ -305,12 +305,12 @@ tags:
 - GitOps
 - Continuous Delivery
 - Kubernetes
-- Argo CD
+- ArgoCD
 - Kargo
 - Platform Engineering
 - DevOps
 - Progressive Delivery
-- Cloud Native
+- Cloud-Native
 - AIOps
 - Developer Tools
 website: https://akuity.io

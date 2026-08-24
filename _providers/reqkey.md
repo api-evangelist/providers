@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for API key management, usage credits/metering, rate limiting, and traffic analytics. POST/JSON endpoints authenticated with a project root key via Bearer token; single unauthenticated GET /h
@@ -140,14 +140,14 @@ description: 'ReqKey is out-of-band API key authentication, usage credits, rate 
 image: https://www.reqkey.com/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: reqkey-mcp.yml
-  slug: reqkey-mcpyml
+- description: A CANDIDATE tool surface — what an official ReqKey MCP server would expose if ReqKey shipped one. This is an API Evangelist proposal grounded in real, documented endpoints, NOT a server that exists. B
+  name: ReqKey MCP Server
+  slug: reqkey-mcp-server
 modified: '2026-08-09'
 name: ReqKey
 nav: Providers
 network: true
-overview: 'ReqKey publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include api-keys, authentication, authorization, rate-limiting, and usage-metering.
+overview: 'ReqKey publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include APIKeys, Authentication, Authorization, Rate Limiting, and Usage Metering.
 
 
   ReqKey''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.8
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -173,12 +173,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 38.4
+  previous_composite: 38.8
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -195,15 +195,15 @@ security:
   summary_line: security.txt · contact published
 slug: reqkey
 tags:
-- api-keys
-- authentication
-- authorization
-- rate-limiting
-- usage-metering
-- api-analytics
-- api-management
-- developer-tools
-- middleware
-- observability
+- APIKeys
+- Authentication
+- Authorization
+- Rate Limiting
+- Usage Metering
+- API Analytics
+- API Management
+- Developer Tools
+- Middleware
+- Observability
 website: https://www.reqkey.com
 ---

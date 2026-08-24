@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST API for institutional custody (Taurus-PROTECT) and tokenization / digital asset issuance (Taurus-CAPITAL). Bearer + HMAC request signing, versioned under /api/rest/v1/, cursor-based pagination, g
@@ -158,7 +158,7 @@ random_paper: 4
 score:
   band: thin
   composite: 36.3
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -168,7 +168,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 40.4
+  previous_composite: 36.3
   provenance:
     conformance: first-party
   regulatory:
@@ -177,8 +177,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -206,8 +206,8 @@ tags:
 - Tokenization
 - Blockchain
 - Trading
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Institutional
 website: https://docs.taurushq.com/
 ---

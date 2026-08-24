@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ modified: '2026-06-21'
 name: Midpage
 nav: Providers
 network: true
-overview: 'Midpage publishes 3 APIs on the [APIs.io](https://apis.io/) network: Opinions API, Search API, and User API. Tagged areas include Legal, Case Law, Legal Research, Search, and AI.
+overview: 'Midpage publishes 3 APIs on the [APIs.io](https://apis.io/) network: Opinions API, Search API, and User API. Tagged areas include Legal, Case Law, Legal Research, Search, and Artificial Intelligence.
 
 
   Midpage''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -144,7 +144,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.4
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/screenshots/midpage-2026-08-07T172856.png
 security:
@@ -171,6 +171,6 @@ tags:
 - Case Law
 - Legal Research
 - Search
-- AI
+- Artificial Intelligence
 website: https://www.midpage.ai/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: The IESO's open market and system data surface. A flat HTTPS file repository publishing 139 report directories — hourly Ontario and market demand, HOEP and nodal/zonal prices, day-ahead and pre-dispat
@@ -198,8 +198,8 @@ image: https://www.ieso.ca/-/media/Images/IESO/Logo/ieso-logo-lrg.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ieso-mcp.yml
-  slug: ieso-mcpyml
+  name: IESO MCP Server
+  slug: ieso-mcp-server
 modified: '2026-07-27'
 name: IESO
 nav: Providers
@@ -220,7 +220,7 @@ scopes:
 score:
   band: developing
   composite: 51.8
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -230,7 +230,7 @@ score:
     discoverability: 83.3
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 49.0
+  previous_composite: 51.8
   provenance:
     conformance: derived
     mcp: derived
@@ -241,8 +241,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/screenshots/ieso-2026-08-07T170612.png
 security:

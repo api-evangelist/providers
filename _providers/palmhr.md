@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Palm HR REST API surface (api.palm.hr). Customers create API keys with granular permissions to push HR, attendance, and payroll data to ERPs and external tools. No public OpenAPI specification or deve
@@ -97,7 +97,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 16.1
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -107,9 +107,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palmhr/refs/heads/main/screenshots/palmhr-2026-08-07T191324.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 21
@@ -245,8 +245,8 @@ image: https://framerusercontent.com/assets/JDrpQK9QXlyYCuykjUrR228U2M.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: hopae-inc-mcp.yml
-  slug: hopae-inc-mcpyml
+  name: Hopae, Inc. MCP Server
+  slug: hopae-inc-mcp-server
 modified: '2026-07-19'
 name: Hopae, Inc.
 nav: Providers
@@ -267,7 +267,7 @@ scopes:
 score:
   band: developing
   composite: 50.3
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -277,7 +277,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 53.7
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,8 +288,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/screenshots/hopae-inc-2026-07-25T221528.png
 security:

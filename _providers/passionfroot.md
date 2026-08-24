@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -143,7 +143,7 @@ modified: '2026-08-13'
 name: Passionfroot
 nav: Providers
 network: true
-overview: 'Passionfroot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Creator Economy, Marketplace, and Sponsorships.
+overview: 'Passionfroot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Creator Economy, Marketplace, and Sponsorships.
 
 
   Passionfroot''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.8
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -169,7 +169,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 33.0
+  previous_composite: 31.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -180,8 +180,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/screenshots/passionfroot-2026-08-07T191536.png
 security:
@@ -192,7 +192,7 @@ security:
 slug: passionfroot
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Creator Economy
 - Marketplace
 - Sponsorships

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Auquan
 nav: Providers
 network: true
-overview: 'Auquan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, Financial Services, and Fintech.
+overview: 'Auquan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, Financial-Services, and Fintech.
 
 
   Auquan''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 10.6
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -94,9 +94,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auquan/refs/heads/main/screenshots/auquan-2026-07-25T201731.png
 security:
@@ -109,9 +109,9 @@ tags:
 - Company
 - Artificial Intelligence
 - Agentic AI
-- Financial Services
+- Financial-Services
 - Fintech
 - Data Analytics
-- Machine Learning
+- Machine-Learning
 website: https://www.auquan.com/
 ---

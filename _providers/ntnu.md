@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 7
@@ -406,7 +406,7 @@ rules:
 score:
   band: thin
   composite: 36.8
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -416,7 +416,7 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 40.8
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -430,8 +430,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: AI email knowledge-recovery service. Captured company email is optimized and stored in an isolated per-tenant vector database, then exposed to AI agents through an official MCP server (email_search to
@@ -102,9 +102,9 @@ description: 'mxHERO Inc. is the pioneer of email-to-cloud content management, b
 image: https://mxhero.com/wp-content/uploads/2021/03/mxhero-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: mxhero-mcp.yml
-  slug: mxhero-mcpyml
+- description: Official mxHERO Mail2Cloud Advanced MCP server. Provides AI agents with secure, multi-account email search and knowledge recovery over a company's captured email data, stored in an isolated per-tenant
+  name: mxHero MCP Server
+  slug: mxhero-mcp-server
 modified: '2026-07-20'
 name: mxHero
 nav: Providers
@@ -117,7 +117,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 15.9
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -127,13 +127,13 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.9
+  previous_composite: 15.9
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/screenshots/mxhero-2026-08-07T184502.png
 security:
 - kind: authentication

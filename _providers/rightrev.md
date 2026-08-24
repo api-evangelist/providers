@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RightRev's REST (and GraphQL) API for revenue recognition — transaction ingestion (orders, invoices, events, bulk uploads), policy-set and company configuration, Revenue Desk 360 contract search and d
@@ -106,9 +106,9 @@ description: RightRev is an AI-powered revenue recognition platform that automat
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rightrev.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rightrev-mcp.yml
-  slug: rightrev-mcpyml
+- description: Candidate Model Context Protocol tool surface mapped from RightRev's documented revenue-recognition REST APIs (transaction ingestion, revenue contract search, period close, error remediation). Grounde
+  name: Rightrev MCP Server
+  slug: rightrev-mcp-server
 modified: '2026-07-21'
 name: Rightrev
 nav: Providers
@@ -126,7 +126,7 @@ scopes:
 score:
   band: emerging
   composite: 20.9
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -136,12 +136,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 19.9
+  previous_composite: 20.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

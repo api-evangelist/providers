@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -171,13 +171,13 @@ image: https://avatars.githubusercontent.com/u/61609417?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: songtradr-mcp.yml
-  slug: songtradr-mcpyml
+  name: Songtradr MCP Server
+  slug: songtradr-mcp-server
 modified: '2026-08-02'
 name: Songtradr
 nav: Providers
 network: true
-overview: 'Songtradr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Allowed Values API, Similarity Vector Controller API, and User API. Tagged areas include music, music-licensing, sync-licensing, music-metadata, and audio-tagging.
+overview: 'Songtradr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Allowed Values API, Similarity Vector Controller API, and User API. Tagged areas include Music, Music Licensing, Sync Licensing, Music Metadata, and audio-tagging.
 
 
   Songtradr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -189,7 +189,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.2
-  delta: -9.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -199,7 +199,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 49.2
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,9 +210,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/screenshots/songtradr-2026-08-17T082014.png
 security:
 - kind: authentication
@@ -225,16 +225,16 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: songtradr
 tags:
-- music
-- music-licensing
-- sync-licensing
-- music-metadata
+- Music
+- Music Licensing
+- Sync Licensing
+- Music Metadata
 - audio-tagging
-- semantic-search
-- machine-learning
-- media
-- entertainment
-- rights-management
-- audio
+- Semantic Search
+- Machine-Learning
+- Media
+- Entertainment
+- Rights Management
+- Audio
 website: https://www.songtradr.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Coupa Core API is a UTF-8, RESTful interface (XML and JSON) for creating, updating, and acting on individual records within a Coupa instance — including purchase orders, requisitions, invoices, su
@@ -109,7 +109,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 20.9
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -125,7 +125,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 21.1
+  previous_composite: 20.9
   provenance:
     conformance: first-party
   regulatory:
@@ -134,8 +134,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coupa-software/refs/heads/main/screenshots/coupa-software-2026-07-25T210511.png
 security:

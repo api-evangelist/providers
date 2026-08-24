@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic trading and market-data API for global markets, options, futures, crypto and event contracts. Proprietary Protocol Buffers protocol spoken over TCP to a locally run OpenD gateway (default
@@ -101,14 +101,14 @@ description: 'Futu Holdings Limited (NASDAQ: FUTU), operator of the Futubull and
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/futu.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: futu-mcp.yml
-  slug: futu-mcpyml
+- description: Futu does not publish a hosted/remote MCP server. Instead it ships the official "Futu Agent Hub", an MCP-compatible Agent Skill center that connects AI tools (Claude Code, Cursor, Claude Desktop, VS C
+  name: Futu MCP Server
+  slug: futu-mcp-server
 modified: '2026-07-19'
 name: Futu
 nav: Providers
 network: true
-overview: 'Futu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, FinTech, Brokerage, and Trading.
+overview: 'Futu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Fintech, Brokerage, and Trading.
 
 
   Futu''s developer surface includes documentation, API reference, getting-started guide, and 12 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 21.7
-  delta: 3.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -126,7 +126,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 18.1
+  previous_composite: 21.7
   provenance:
     mcp: first-party
     skills: first-party
@@ -136,8 +136,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/futu/refs/heads/main/screenshots/futu-2026-07-25T215329.png
 security:
@@ -149,13 +149,13 @@ slug: futu
 tags:
 - Company
 - Technology
-- FinTech
+- Fintech
 - Brokerage
 - Trading
 - Market Data
 - Stocks
 - Options
 - Investing
-- Financial Services
+- Financial-Services
 website: https://futuholdings.com
 ---

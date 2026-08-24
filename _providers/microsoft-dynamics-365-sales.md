@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -308,13 +308,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-
 layout: provider
 mcp_servers:
 - description: ''
-  name: microsoft-dynamics-365-sales-mcp.yml
-  slug: microsoft-dynamics-365-sales-mcpyml
+  name: Microsoft Dynamics 365 Sales MCP Server
+  slug: microsoft-dynamics-365-sales-mcp-server
 modified: '2026-08-13'
 name: Microsoft Dynamics 365 Sales
 nav: Providers
 network: true
-overview: 'Microsoft Dynamics 365 Sales publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, $batch API, Contacts API, and 7 more. Tagged areas include CRM, Sales, Customer Relationship Management, Dynamics 365, and Microsoft.
+overview: 'Microsoft Dynamics 365 Sales publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, $batch API, Contacts API, and 7 more. Tagged areas include CRM, Sales, Dynamics 365, Microsoft, and Dataverse.
 
 
   The Microsoft Dynamics 365 Sales catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -338,7 +338,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.1
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -348,7 +348,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 76.6
+  previous_composite: 71.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,9 +359,9 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/screenshots/microsoft-dynamics-365-sales-2026-06-20T185455.png
 security:
 - kind: authentication
@@ -384,7 +384,6 @@ slug: microsoft-dynamics-365-sales
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Dynamics 365
 - Microsoft
 - Dataverse

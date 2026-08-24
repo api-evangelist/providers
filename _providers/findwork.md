@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Job board
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: Findwork
 nav: Providers
 network: true
-overview: Findwork publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
+overview: Findwork publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job and Public APIs.
 random_paper: 7
 score:
   band: minimal
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/findwork/refs/heads/main/screenshots/findwork-2026-06-20T181217.png
 security:
@@ -83,7 +83,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: findwork
 tags:
-- Jobs
+- Job
 - Public APIs
 website: https://findwork.dev/developers/
 ---

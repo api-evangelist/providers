@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -751,8 +751,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-application-discovery-service-mcp.yml
-  slug: amazon-application-discovery-service-mcpyml
+  name: Amazon Application Discovery Service MCP Server
+  slug: amazon-application-discovery-service-mcp-server
 modified: '2026-06-20'
 name: Amazon Application Discovery Service
 nav: Providers
@@ -789,16 +789,16 @@ rules:
   slug: amazon-application-discovery-service-spectral-rules
 score:
   band: emerging
-  composite: 21.5
-  delta: -5.8
+  composite: 22.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 30.6
     developer_ergonomics: 11.9
     discoverability: 83.3
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -806,7 +806,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 27.3
+  previous_composite: 22.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -816,9 +816,9 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/screenshots/amazon-application-discovery-service-2026-07-25T195925.png
 security:
 - kind: authentication

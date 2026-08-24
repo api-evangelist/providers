@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -919,7 +919,7 @@ modified: '2026-05-19'
 name: OpenShift
 nav: Providers
 network: true
-overview: 'OpenShift publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Routes API, BuildConfigs API, Builds API, and 4 more. Tagged areas include CI/CD, Cloud Native, Containers, DevOps, and Enterprise.
+overview: 'OpenShift publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Routes API, BuildConfigs API, Builds API, and 4 more. Tagged areas include CI/CD, Cloud-Native, Containers, DevOps, and Enterprise.
 
 
   The OpenShift catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -959,18 +959,18 @@ rules:
   slug: openshift-spectral-rules
 score:
   band: developing
-  composite: 40.2
-  delta: -9.9
+  composite: 40.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 66.4
     developer_ergonomics: 19.0
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 50.1
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -978,9 +978,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/screenshots/openshift-2026-06-20T191034.png
 security:
 - kind: authentication
@@ -994,12 +994,12 @@ security:
 slug: openshift
 tags:
 - CI/CD
-- Cloud Native
+- Cloud-Native
 - Containers
 - DevOps
 - Enterprise
 - Kubernetes
-- PaaS
+- Platform-as-a-Service
 use_cases:
 - description: Migrate monolithic applications to containerized microservices on Kubernetes.
   name: Application Modernization

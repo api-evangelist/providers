@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -502,18 +502,18 @@ rules:
   slug: amazon-redshift-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: -5.4
+  composite: 48.8
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 64.3
     developer_ergonomics: 52.4
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 53.8
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -521,9 +521,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/screenshots/amazon-redshift-2026-06-20T171811.png
 security:
 - kind: authentication
@@ -550,7 +550,7 @@ tags:
 - Data Lake
 - Data Warehouse
 - ETL
-- Machine Learning
+- Machine-Learning
 - Serverless
 - SQL
 use_cases:

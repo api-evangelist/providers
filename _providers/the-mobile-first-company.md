@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-19'
+  score: 54.3
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: Pre-computed call metrics, team performance, and outbound dial funnel
@@ -245,17 +245,17 @@ description: The Mobile-First Company is a French / US (Miami HQ) startup buildi
 image: https://cdn.prod.website-files.com/678d02bf3966a86060a3c142/6a461aa199bb23ab1e5eb686_Allo_Logo_Allo_0.svg
 layout: provider
 mcp_servers:
+- description: Official hosted (remote) Model Context Protocol server for Allo, the AI phone system by The Mobile-First Company. Exposes Allo's call/SMS/CRM surface to AI agents with the same permissions the connect
+  name: Allo MCP Server
+  slug: allo-mcp-server
 - description: ''
-  name: the-mobile-first-company-mcp.yml
-  slug: the-mobile-first-company-mcpyml
-- description: ''
-  name: mcp
-  slug: mcp
+  name: The Mobile First Company MCP Server
+  slug: the-mobile-first-company-mcp-server
 modified: '2026-07-21'
 name: The Mobile First Company
 nav: Providers
 network: true
-overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Calls API, Contacts API, and 10 more. Tagged areas include Company, Communication, Telephony, Voice, and SMS.
+overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Calls API, Contacts API, and 10 more. Tagged areas include Company, Communications, Telephony, Voice, and SMS.
 
 
   The The Mobile First Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -270,18 +270,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.5
-  delta: 2.7
+  composite: 59.6
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 30.3
     contract_quality: 71.4
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 55.8
+  previous_composite: 59.6
   provenance:
     conformance: first-party
     contracts:
@@ -297,8 +297,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/screenshots/the-mobile-first-company-2026-08-17T082339.png
 security:
@@ -313,14 +313,14 @@ security:
 slug: the-mobile-first-company
 tags:
 - Company
-- Communication
+- Communications
 - Telephony
 - Voice
 - SMS
 - CRM
 - Artificial Intelligence
 - MCP
-- Webhooks
+- Webhook
 - Small Business
 website: https://www.withallo.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,12 +60,12 @@ modified: '2026-07-18'
 name: Datalot
 nav: Providers
 network: true
-overview: Datalot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Lead Generation, and Customer Acquisition.
+overview: Datalot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Lead Generation, and Customer Acquisition.
 random_paper: 10
 score:
   band: minimal
   composite: 9.6
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -75,15 +75,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.2
+  previous_composite: 9.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datalot/refs/heads/main/screenshots/datalot-2026-07-25T211336.png
 security:
@@ -95,7 +95,7 @@ slug: datalot
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Lead Generation
 - Customer Acquisition
 - Marketing

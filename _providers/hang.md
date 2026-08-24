@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: The Activities API from Hang — 2 operation(s) for activities.
@@ -268,8 +268,8 @@ image: https://hang.com/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: hang-mcp.yml
-  slug: hang-mcpyml
+  name: Hang MCP Server
+  slug: hang-mcp-server
 modified: '2026-07-19'
 name: Hang
 nav: Providers
@@ -305,8 +305,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/screenshots/hang-2026-07-25T220618.png
 security:
@@ -335,8 +335,8 @@ tags:
 - Membership
 - Customer Engagement
 - Marketing
-- Restaurants
-- Point of Sale
-- Webhooks
+- Restaurant
+- Point-of-Sale
+- Webhook
 website: https://www.hang.com
 ---

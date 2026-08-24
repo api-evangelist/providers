@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Ola Ride Booking API enables affiliates and partners to let users find, book, and manage Ola rides directly within their applications. It covers ride availability checks, fare estimates, booking c
@@ -130,7 +130,7 @@ modified: '2026-06-13'
 name: Ola
 nav: Providers
 network: true
-overview: 'Ola publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ride-Sharing, Transportation, Maps, Geocoding, and Routing.
+overview: 'Ola publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ridesharing, Transportation, Maps, Geocoding, and Routing.
 
 
   The Ola catalog on APIs.io includes 1 JSON-LD context.
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.8
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -159,9 +159,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 35.5
-  previous_composite: 35.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 33.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -170,7 +170,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: ola
 tags:
-- Ride-Sharing
+- Ridesharing
 - Transportation
 - Maps
 - Geocoding

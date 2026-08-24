@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -290,9 +290,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metriport.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: metriport-mcp.yml
-  slug: metriport-mcpyml
+- description: Metriport serves a remote MCP endpoint from its documentation host. A tools/list POST returns HTTP 200 anonymously with three real tools and their inputSchemas — captured verbatim in metriport-mcp-too
+  name: Metriport MCP Server
+  slug: metriport-mcp-server
 modified: '2026-08-14'
 name: Metriport
 nav: Providers
@@ -316,7 +316,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 68.6
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -326,7 +326,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 68.9
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,8 +343,8 @@ score:
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/screenshots/metriport-2026-08-07T172739.png
 security:
@@ -371,6 +371,6 @@ tags:
 - FHIR
 - Health Data
 - Wearables
-- Open Source
+- Open-Source
 website: https://www.metriport.com
 ---

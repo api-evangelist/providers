@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Requires API key. No credit cost. Browse categories, cuisines, and dietary options.
@@ -112,9 +112,9 @@ description: Recipe API is a B2B recipe and nutrition API providing structured r
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/recipe-api.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: recipe-api-mcp.yml
-  slug: recipe-api-mcpyml
+- description: An official Recipe API MCP server, documented for Claude and any MCP client. The JSON-RPC endpoint answers 401 rather than 404, so it exists and is auth-gated — the tool list could not be enumerated a
+  name: Recipe API MCP Server
+  slug: recipe-api-mcp-server
 modified: '2026-08-03'
 name: Recipe API
 nav: Providers
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.6
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -145,7 +145,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 48.0
+  previous_composite: 44.6
   provenance:
     contracts:
       callable: 100.0
@@ -153,8 +153,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/screenshots/recipe-api-2026-08-17T081456.png
 security:

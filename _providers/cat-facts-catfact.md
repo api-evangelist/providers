@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -208,18 +208,18 @@ rules:
   slug: cat-facts-catfact-rules
 score:
   band: emerging
-  composite: 18.3
-  delta: -5.4
+  composite: 18.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 21.2
     developer_ergonomics: 11.9
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 0.0
-  previous_composite: 23.7
+  previous_composite: 18.7
   provenance:
     agentic_access: derived
     contracts:
@@ -227,9 +227,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/screenshots/cat-facts-catfact-2026-06-20T174040.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -268,8 +268,8 @@ image: https://www.context.dev/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: contextdev-mcp.yml
-  slug: contextdev-mcpyml
+  name: Context.dev MCP Server
+  slug: contextdev-mcp-server
 modified: '2026-08-14'
 name: Context.dev
 nav: Providers
@@ -298,7 +298,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.5
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -308,7 +308,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 69.5
+  previous_composite: 68.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,8 +319,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/screenshots/contextdev-2026-07-25T210330.png
 security:
@@ -347,6 +347,5 @@ tags:
 - Website Monitoring
 - Company Data
 - Developer Tools
-- APIs
 website: https://docs.context.dev
 ---

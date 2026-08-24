@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: CAIS operates a remote Model Context Protocol server at https://mcp.caisgroup.com/mcp, announced 2026-05-19 as the first surface of the company's "Alts Engine" strategy and initially available to a se
@@ -137,14 +137,14 @@ description: CAIS (Capital Integration Systems LLC) is a New York-headquartered 
 image: https://www.caisgroup.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: cais-mcp.yml
-  slug: cais-mcpyml
+- description: 'CAIS runs an official remote MCP server at https://mcp.caisgroup.com/mcp, announced 2026-05-19 alongside an integration with Anthropic''s Claude. Per the announcement, "By launching as a Model Context '
+  name: CAIS MCP Server
+  slug: cais-mcp-server
 modified: '2026-08-01'
 name: CAIS
 nav: Providers
 network: true
-overview: 'CAIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Alternative Investments, Wealth Management, Financial Services, and Fintech.
+overview: 'CAIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Alternative Investments, Wealth Management, Financial-Services, and Fintech.
 
 
   CAIS''s developer surface includes authentication, documentation, support, engineering blog, signup flow, and 21 more developer resources.'
@@ -157,7 +157,7 @@ scopes:
 score:
   band: emerging
   composite: 25.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -167,12 +167,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 25.7
+  previous_composite: 25.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/screenshots/cais-2026-08-07T162901.png
 security:
@@ -189,7 +189,7 @@ tags:
 - Company
 - Alternative Investments
 - Wealth Management
-- Financial Services
+- Financial-Services
 - Fintech
 - Private Markets
 - Asset Management

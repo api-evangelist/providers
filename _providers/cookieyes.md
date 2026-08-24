@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -122,9 +122,9 @@ description: CookieYes is a Google-certified consent management platform (CMP) t
 image: https://www.cookieyes.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: cookieyes-mcp.yml
-  slug: cookieyes-mcpyml
+- description: CookieYes hosts a remote Model Context Protocol server at https://app.cookieyes.com/mcp. The endpoint is live (HTTP 401 without a token) and advertises RFC 9728 protected-resource metadata via WWW-Aut
+  name: Cookieyes MCP Server
+  slug: cookieyes-mcp-server
 modified: '2026-07-18'
 name: Cookieyes
 nav: Providers
@@ -142,7 +142,7 @@ scopes:
 score:
   band: thin
   composite: 31.2
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -152,12 +152,12 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 32.6
+  previous_composite: 31.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/screenshots/cookieyes-2026-07-25T210357.png
 security:

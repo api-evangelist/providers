@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The docs API from Soda Health — 10 operation(s) for docs.
@@ -128,8 +128,8 @@ image: https://docs.evermoreoutcomes.com/favicon-192.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: soda-health-mcp.yml
-  slug: soda-health-mcpyml
+  name: Soda Health MCP Server
+  slug: soda-health-mcp-server
 modified: '2026-07-21'
 name: Soda Health
 nav: Providers
@@ -142,7 +142,7 @@ random_paper: 6
 score:
   band: thin
   composite: 26.7
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -152,7 +152,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 28.6
+  previous_composite: 26.7
   provenance:
     conformance: derived
     contracts:
@@ -168,8 +168,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

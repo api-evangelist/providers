@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -144,13 +144,13 @@ image: https://www.intelycare.com/wp-content/uploads/2023/08/ic-logo-2-1.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: intelycare-mcp.yml
-  slug: intelycare-mcpyml
+  name: IntelyCare MCP Server
+  slug: intelycare-mcp-server
 modified: '2026-08-01'
 name: IntelyCare
 nav: Providers
 network: true
-overview: 'IntelyCare publishes 1 API on the [APIs.io](https://apis.io/) network: External Scheduling API. Tagged areas include healthcare, healthcare-staffing, nursing, workforce-management, and scheduling.
+overview: 'IntelyCare publishes 1 API on the [APIs.io](https://apis.io/) network: External Scheduling API. Tagged areas include Healthcare, Healthcare Staffing, Nursing, Workforce Management, and Scheduling.
 
 
   The IntelyCare catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -161,7 +161,7 @@ random_paper: 1
 score:
   band: developing
   composite: 48.9
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -171,7 +171,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 44.6
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/screenshots/intelycare-2026-08-07T170739.png
 security:
@@ -203,17 +203,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: intelycare
 tags:
-- healthcare
-- healthcare-staffing
-- nursing
-- workforce-management
-- scheduling
-- shift-management
-- timekeeping
-- marketplace
-- webhooks
-- per-diem
-- credentialing
-- post-acute-care
+- Healthcare
+- Healthcare Staffing
+- Nursing
+- Workforce Management
+- Scheduling
+- Shift Management
+- Timekeeping
+- Marketplace
+- Webhook
+- Per Diem
+- Credentialing
+- Post-Acute Care
 website: https://www.intelycare.com/
 ---

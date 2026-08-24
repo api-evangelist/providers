@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -295,9 +295,9 @@ description: Frame.io is a cloud-based video review and collaboration platform, 
 image: https://github.com/Frameio.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: frameio-mcp.yml
-  slug: frameio-mcpyml
+- description: Official Frame.io documentation/platform MCP server, advertised in the provider's llms.txt for AI client integration (Claude Code, Cursor, etc.). Responds 200 to GET at the endpoint above.
+  name: Frame.io MCP Server
+  slug: frameio-mcp-server
 modified: '2026-07-19'
 name: Frame.io
 nav: Providers
@@ -318,7 +318,7 @@ scopes:
 score:
   band: strong
   composite: 54.5
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -328,7 +328,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 58.1
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -339,8 +339,8 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frameio/refs/heads/main/screenshots/frameio-2026-07-25T215109.png
 security:

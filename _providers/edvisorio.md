@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single GraphQL API for the Edvisor.io education-recruitment platform, covering students, quotes, school offerings, enrollments, invoices, and agency/school company management. Bearer API-key authentic
@@ -163,8 +163,8 @@ image: https://www.edvisor.io/images/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: edvisorio-mcp.yml
-  slug: edvisorio-mcpyml
+  name: Edvisor.io MCP Server
+  slug: edvisorio-mcp-server
 modified: '2026-07-19'
 name: Edvisor.io
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 14
 score:
   band: developing
   composite: 50.5
-  delta: 3.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -190,7 +190,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 47.2
+  previous_composite: 50.5
   provenance:
     conformance: derived
     mcp: derived
@@ -201,8 +201,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/screenshots/edvisorio-2026-07-25T212910.png
 security:
@@ -223,6 +223,6 @@ tags:
 - EdTech
 - GraphQL
 - Marketplace
-- Webhooks
+- Webhook
 website: https://edvisor.io/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ modified: '2026-06-02'
 name: Aloha POS
 nav: Providers
 network: true
-overview: 'Aloha POS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Menu API, Order API, and 1 more. Tagged areas include POS, Restaurant, Hospitality, and NCR.
+overview: 'Aloha POS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Menu API, Order API, and 1 more. Tagged areas include Point-of-Sale, Restaurant, Hospitality, and NCR.
 
 
   The Aloha POS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -240,18 +240,18 @@ rules:
   slug: ncr-voyix-platform-rules
 score:
   band: thin
-  composite: 30.5
-  delta: -7.7
+  composite: 31.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 61.7
     developer_ergonomics: 14.3
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 38.2
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -259,9 +259,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/screenshots/aloha-pos-2026-06-20T171543.png
 security:
 - kind: authentication
@@ -274,7 +274,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: aloha-pos
 tags:
-- POS
+- Point-of-Sale
 - Restaurant
 - Hospitality
 - NCR

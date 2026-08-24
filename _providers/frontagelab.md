@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: Frontage Laboratories
 nav: Providers
 network: true
-overview: 'Frontage Laboratories is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contract Research Organization, Pharmaceutical, Biotechnology, and Drug Discovery.
+overview: 'Frontage Laboratories is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contract Research Organization, Pharmaceuticals, Biotechnology, and Drug Discovery.
 
 
   Frontage Laboratories'' developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 10.5
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -82,15 +82,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.6
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontagelab/refs/heads/main/screenshots/frontagelab-2026-07-25T215228.png
 security:
@@ -102,7 +102,7 @@ slug: frontagelab
 tags:
 - Company
 - Contract Research Organization
-- Pharmaceutical
+- Pharmaceuticals
 - Biotechnology
 - Drug Discovery
 - Drug Development

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ random_paper: 0
 score:
   band: thin
   composite: 34.4
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -252,7 +252,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 41.3
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -266,9 +266,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/screenshots/opay-2026-06-20T190727.png
 security:
 - kind: authentication
@@ -300,14 +300,14 @@ tags:
 - Super App
 - Nigeria
 - Africa
-- Wallet
+- Wallets
 - Savings
 - BNPL
 - Bank Transfer
 - Card Payments
 - USSD
 - Agent Banking
-- POS
+- Point-of-Sale
 - Bill Payments
 - Airtime
 - Cashier

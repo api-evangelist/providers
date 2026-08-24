@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 0
@@ -216,13 +216,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vaultre.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: vaultre-mcp.yml
-  slug: vaultre-mcpyml
+  name: VaultRE MCP Server
+  slug: vaultre-mcp-server
 modified: '2026-07-26'
 name: VaultRE
 nav: Providers
 network: true
-overview: 'VaultRE publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Integrator API, Aggregator API, and 1 more. Tagged areas include Real Estate, Australia, New Zealand, PropTech, and CRM.
+overview: 'VaultRE publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Integrator API, Aggregator API, and 1 more. Tagged areas include Real-Estate, Australia, New Zealand, PropTech, and CRM.
 
 
   The VaultRE catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -238,7 +238,7 @@ scopes:
 score:
   band: developing
   composite: 53.3
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -248,7 +248,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 52.3
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,8 +259,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/screenshots/vaultre-2026-07-27T125402.png
 security:
@@ -274,7 +274,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: vaultre
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - New Zealand
 - PropTech
@@ -283,6 +283,6 @@ tags:
 - Property Management
 - Rentals
 - Commercial Real Estate
-- Webhooks
+- Webhook
 website: https://www.mrisoftware.com/au/products/vault/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 5
@@ -226,13 +226,13 @@ image: https://www.go1.com/opengraph-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: go1-mcp.yml
-  slug: go1-mcpyml
+  name: Go1 MCP Server
+  slug: go1-mcp-server
 modified: '2026-07-19'
 name: Go1
 nav: Providers
 network: true
-overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrollments API, Learning objects API, Portals API, and 1 more. Tagged areas include Company, Edtech, Learning, E-Learning, and Corporate Training.
+overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrollments API, Learning objects API, Portals API, and 1 more. Tagged areas include Company, EdTech, Learning, E-Learning, and Corporate Training.
 
 
   The Go1 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -248,7 +248,7 @@ scopes:
 score:
   band: strong
   composite: 63.4
-  delta: 7.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -258,7 +258,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 55.8
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,9 +275,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 74.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/screenshots/go1-2026-07-25T220000.png
 security:
 - kind: authentication
@@ -295,7 +295,7 @@ security:
 slug: go1
 tags:
 - Company
-- Edtech
+- EdTech
 - Learning
 - E-Learning
 - Corporate Training
@@ -303,6 +303,6 @@ tags:
 - Learning Management
 - LMS
 - Education
-- Webhooks
+- Webhook
 website: https://www.go1.com/
 ---

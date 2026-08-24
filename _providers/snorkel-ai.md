@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Snorkel Flow Python SDK (snorkelflow) drives the platform programmatically, connecting to a customer's Snorkel Flow instance via SnorkelFlowContext and an API key. The snorkelflow.client module wr
@@ -114,7 +114,7 @@ modified: '2026-06-21'
 name: Snorkel AI
 nav: Providers
 network: true
-overview: 'Snorkel AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Snorkel Flow SDK / Platform, Programmatic Labeling, and Evaluation. Tagged areas include AI, Data Development, Programmatic Labeling, Weak Supervision, and Evaluation.
+overview: 'Snorkel AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Snorkel Flow SDK / Platform, Programmatic Labeling, and Evaluation. Tagged areas include Artificial Intelligence, Data Development, Programmatic Labeling, Weak Supervision, and Evaluation.
 
 
   Snorkel AI''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.6
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -140,9 +140,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 34.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 33.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -163,7 +163,7 @@ security:
   summary_line: SOC 2, HIPAA
 slug: snorkel-ai
 tags:
-- AI
+- Artificial Intelligence
 - Data Development
 - Programmatic Labeling
 - Weak Supervision

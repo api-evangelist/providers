@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -1054,18 +1054,18 @@ rules:
   slug: workato-spectral-rules
 score:
   band: strong
-  composite: 61.6
-  delta: -2.4
+  composite: 61.9
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 86.6
     developer_ergonomics: 50.0
     discoverability: 59.3
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 64.0
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1073,8 +1073,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/screenshots/workato-2026-06-20T201551.png
 security:
@@ -1097,7 +1097,7 @@ tags:
 - Integration
 - iPaaS
 - Orchestration
-- Workflow
+- Workflows
 use_cases:
 - features:
   - Order To Cash

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -110,9 +110,9 @@ description: 'Axena Health, Inc. is a Waltham, Massachusetts women''s health med
 image: https://axenahealth.com/wp-content/uploads/cropped-AxenaSquare-e1713986234486.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: axena-health-mcp.yml
-  slug: axena-health-mcpyml
+- description: levacares.com — the Leva Pelvic Health System product site operated by Axena Health — runs the WordPress MCP Adapter and exposes two live Model Context Protocol endpoints under the `mcp` REST namespac
+  name: Leva Pelvic Health System — WordPress MCP Adapter
+  slug: leva-pelvic-health-system-wordpress-mcp-adapter
 modified: '2026-08-06'
 name: Axena Health
 nav: Providers
@@ -130,7 +130,7 @@ scopes:
 score:
   band: emerging
   composite: 21.0
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -140,7 +140,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.1
+  previous_composite: 21.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -150,8 +150,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/screenshots/axena-health-2026-08-07T162030.png
 security:

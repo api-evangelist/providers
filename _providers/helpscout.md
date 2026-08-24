@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -309,7 +309,7 @@ modified: '2026-05-30'
 name: Help Scout
 nav: Providers
 network: true
-overview: 'Help Scout publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Threads API, Customers API, Mailboxes API, and 14 more. Tagged areas include Customer Support, Help Desk, Email, Live Chat, and Knowledge Base.
+overview: 'Help Scout publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Threads API, Customers API, Mailboxes API, and 14 more. Tagged areas include Customer-Support, Help Desk, Email, Live Chat, and Knowledge Base.
 
 
   The Help Scout catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -345,7 +345,7 @@ scopes:
 score:
   band: developing
   composite: 48.7
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -355,7 +355,7 @@ score:
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 54.4
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -363,9 +363,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/screenshots/helpscout-2026-06-20T182635.png
 security:
 - kind: authentication
@@ -382,11 +382,11 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: helpscout
 tags:
-- Customer Support
+- Customer-Support
 - Help Desk
 - Email
 - Live Chat
 - Knowledge Base
-- SaaS
+- Software-as-a-Service
 website: https://www.helpscout.com/
 ---

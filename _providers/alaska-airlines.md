@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 18
 common:
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.7
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -133,9 +133,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 20.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-airlines/refs/heads/main/screenshots/alaska-airlines-2026-06-20T171509.png
 security:

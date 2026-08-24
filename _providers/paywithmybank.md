@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -252,9 +252,9 @@ description: PayWithMyBank is the U.S. "Pay by Bank" brand of Trustly, a global 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paywithmybank.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: paywithmybank-mcp.yml
-  slug: paywithmybank-mcpyml
+- description: Official hosted MCP server published by Trustly (PayWithMyBank) for AI client integration (Claude Code, Cursor, etc.), advertised in the developer docs llms.txt. Serves the AMER Trustly Payments API d
+  name: PayWithMyBank (Trustly) MCP Server
+  slug: paywithmybank-trustly-mcp-server
 modified: '2026-07-20'
 name: PayWithMyBank (Trustly)
 nav: Providers
@@ -270,7 +270,7 @@ random_paper: 9
 score:
   band: developing
   composite: 50.1
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -280,7 +280,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 47.9
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,8 +297,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/screenshots/paywithmybank-2026-08-07T191723.png
 security:
@@ -320,6 +320,6 @@ tags:
 - Bank Transfers
 - Fintech
 - Identity Verification
-- Webhooks
+- Webhook
 website: https://www.trustly.com/us
 ---

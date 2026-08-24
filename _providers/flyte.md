@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -188,7 +188,7 @@ modified: '2026-05-19'
 name: Flyte
 nav: Providers
 network: true
-overview: 'Flyte publishes 12 APIs on the [APIs.io](https://apis.io/) network, including DataProxy API, Events API, Executions API, and 9 more. Tagged areas include CNCF, Data Orchestration, Kubernetes, Machine Learning, and Workflow Automation.
+overview: 'Flyte publishes 12 APIs on the [APIs.io](https://apis.io/) network, including DataProxy API, Events API, Executions API, and 9 more. Tagged areas include CNCF, Data Orchestration, Kubernetes, Machine-Learning, and Workflow-Automation.
 
 
   Flyte''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
@@ -204,7 +204,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.8
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -214,7 +214,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 27.4
+  previous_composite: 25.8
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +222,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/screenshots/flyte-2026-06-20T181349.png
 security:
@@ -236,7 +236,7 @@ tags:
 - CNCF
 - Data Orchestration
 - Kubernetes
-- Machine Learning
-- Workflow Automation
+- Machine-Learning
+- Workflow-Automation
 website: https://flyte.org
 ---

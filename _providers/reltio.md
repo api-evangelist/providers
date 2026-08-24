@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Tenant-scoped REST API for the Reltio Context Intelligence Platform: entities, relations, interactions, reference data, load/export, data integration, workflow, hierarchy, statistics, and validation. '
@@ -173,7 +173,7 @@ random_paper: 4
 score:
   band: thin
   composite: 37.5
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -183,13 +183,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 38.8
+  previous_composite: 37.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

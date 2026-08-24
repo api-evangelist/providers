@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -160,7 +160,7 @@ modified: '2026-08-17'
 name: Emmi Ai
 nav: Providers
 network: true
-overview: 'Emmi Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engineering AI, Physics Simulation, Machine Learning, and Deep Learning.
+overview: 'Emmi Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engineering AI, Physics Simulation, Machine-Learning, and Deep Learning.
 
 
   Emmi Ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 19 more developer resources.'
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.0
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -186,12 +186,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 26.7
+  previous_composite: 31.0
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emmi-ai/refs/heads/main/screenshots/emmi-ai-2026-07-25T213243.png
 security:
@@ -208,12 +208,12 @@ tags:
 - Company
 - Engineering AI
 - Physics Simulation
-- Machine Learning
+- Machine-Learning
 - Deep Learning
 - Scientific Computing
 - CAE
 - CFD
 - Manufacturing
-- Open Source
+- Open-Source
 website: https://emmi.ai
 ---

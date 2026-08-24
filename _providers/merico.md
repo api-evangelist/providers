@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -116,7 +116,7 @@ modified: '2026-07-20'
 name: Merico
 nav: Providers
 network: true
-overview: 'Merico is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dev Tools, Engineering Intelligence, DevOps, and DORA Metrics.
+overview: 'Merico is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevTools, Engineering Intelligence, DevOps, and DORA Metrics.
 
 
   The Merico catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -127,7 +127,7 @@ random_paper: 9
 score:
   band: developing
   composite: 39.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -137,11 +137,11 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 41.5
+  previous_composite: 39.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merico/refs/heads/main/screenshots/merico-2026-08-07T172554.png
 security:
@@ -156,12 +156,12 @@ security:
 slug: merico
 tags:
 - Company
-- Dev Tools
+- DevTools
 - Engineering Intelligence
 - DevOps
 - DORA Metrics
 - Software Analytics
-- Open Source
+- Open-Source
 - Data Platform
 website: https://www.devinsight.ai
 ---

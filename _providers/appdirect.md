@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 75
 apis:
 - description: The AI Embed API from AppDirect — 2 operation(s) for ai embed.
@@ -643,8 +643,8 @@ image: https://www.appdirect.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: appdirect-mcp.yml
-  slug: appdirect-mcpyml
+  name: AppDirect MCP Server
+  slug: appdirect-mcp-server
 modified: '2026-07-17'
 name: AppDirect
 nav: Providers
@@ -665,7 +665,7 @@ scopes:
 score:
   band: developing
   composite: 53.7
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -675,7 +675,7 @@ score:
     discoverability: 74.1
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 55.6
+  previous_composite: 53.7
   provenance:
     conformance: derived
     contracts:
@@ -685,8 +685,8 @@ score:
       total: 75
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/screenshots/appdirect-2026-07-25T200730.png
 security:
@@ -711,7 +711,7 @@ tags:
 - Billing
 - Reseller
 - Cloud Distribution
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 website: https://www.appdirect.com
 ---

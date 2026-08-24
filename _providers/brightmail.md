@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/symantec/
 - group: company
   title: ''
   type: Website
@@ -40,7 +44,7 @@ created: '2026-07-17'
 description: Brightmail was an email anti-spam software company founded in 1998 by Sunil Paul, best known for its network of "spam probe" honeypot email addresses that fed real-time anti-spam filtering rules to enterprise mail servers. Symantec acquired Brightmail in 2004 for roughly $370 million, and the technology shipped for years as Symantec Brightmail AntiSpam and later Symantec Mail Security; Symantec's enterprise security business was subsequently acquired by Broadcom in 2019. Brightmail today is a defunct brand with no independent developer program or public API surface — www.brightmail.com redirects to broadcom.com and the brightmail.com apex domain no longer resolves. This profile is retained for historical/network completeness rather than active API enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brightmail.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-21'
 name: Brightmail
 nav: Providers
 network: true
@@ -66,8 +70,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightmail/refs/heads/main/screenshots/brightmail-2026-07-25T203848.png
 slug: brightmail

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -191,13 +191,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luminary.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: luminary-mcp.yml
-  slug: luminary-mcpyml
+  name: Luminary MCP Server
+  slug: luminary-mcp-server
 modified: '2026-07-20'
 name: Luminary
 nav: Providers
 network: true
-overview: 'Luminary publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Entities API, Households API, and 3 more. Tagged areas include Company, Estate Planning, Wealth Management, Financial Services, and Legal Tech.
+overview: 'Luminary publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Entities API, Households API, and 3 more. Tagged areas include Company, Estate Planning, Wealth Management, Financial-Services, and Legal Tech.
 
 
   Luminary''s developer surface includes engineering blog, pricing, support, authentication, and 22 more developer resources.'
@@ -209,18 +209,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 40.5
-  delta: -0.4
+  composite: 41.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 16.7
     contract_quality: 54.5
     developer_ergonomics: 28.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 40.9
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/screenshots/luminary-2026-07-25T225714.png
 security:
@@ -253,10 +253,10 @@ tags:
 - Company
 - Estate Planning
 - Wealth Management
-- Financial Services
+- Financial-Services
 - Legal Tech
 - Document AI
 - Family Office
-- OAuth2
+- Authentication
 website: https://withluminary.com
 ---

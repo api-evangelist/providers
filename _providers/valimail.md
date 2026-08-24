@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -311,8 +311,8 @@ image: https://api.valimail.com/images/sites/valimail/favicon_64.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: valimail-mcp.yml
-  slug: valimail-mcpyml
+  name: Valimail MCP Server
+  slug: valimail-mcp-server
 modified: '2026-08-14'
 name: Valimail
 nav: Providers
@@ -336,7 +336,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.0
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -346,7 +346,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 63.9
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,8 +357,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/screenshots/valimail-2026-08-17T082710.png
 security:

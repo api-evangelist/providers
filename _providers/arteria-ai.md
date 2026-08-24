@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-18'
 name: Arteria AI
 nav: Providers
 network: true
-overview: 'Arteria AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Financial Services, Document Automation, and Contract Lifecycle Management.
+overview: 'Arteria AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Financial-Services, Document Automation, and Contract Lifecycle Management.
 
 
   Arteria AI''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 8.9
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -82,7 +82,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 12.0
+  previous_composite: 8.9
   provenance:
     conformance: first-party
   regulatory:
@@ -91,8 +91,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arteria-ai/refs/heads/main/screenshots/arteria-ai-2026-07-25T201322.png
 security:
@@ -104,7 +104,7 @@ slug: arteria-ai
 tags:
 - Company
 - Legal Tech
-- Financial Services
+- Financial-Services
 - Document Automation
 - Contract Lifecycle Management
 - Artificial Intelligence

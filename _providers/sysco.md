@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ modified: '2026-06-03'
 name: Sysco
 nav: Providers
 network: true
-overview: 'Sysco publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Deliveries API, Orders API, and 2 more. Tagged areas include Fortune 100, Food Distribution, Food Service, Supply Chain, and Fortune 100.
+overview: 'Sysco publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Deliveries API, Orders API, and 2 more. Tagged areas include Fortune 100, Food Distribution, Food Service, Supply Chain, and Wholesale.
 
 
   The Sysco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -215,18 +215,18 @@ rules:
   slug: sysco-rules
 score:
   band: thin
-  composite: 32.9
-  delta: -5.9
+  composite: 33.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.7
     developer_ergonomics: 21.4
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 38.8
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -234,9 +234,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Sysco Authentication
@@ -256,7 +256,6 @@ tags:
 - Food Distribution
 - Food Service
 - Supply Chain
-- Fortune 100
 - Wholesale
 website: https://www.sysco.com
 ---

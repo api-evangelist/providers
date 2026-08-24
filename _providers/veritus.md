@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Calls API from Veritus — 2 operation(s) for calls.
@@ -148,13 +148,13 @@ image: https://veritus.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: veritus-mcp.yml
-  slug: veritus-mcpyml
+  name: Veritus MCP Server
+  slug: veritus-mcp-server
 modified: '2026-07-21'
 name: Veritus
 nav: Providers
 network: true
-overview: 'Veritus publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Clients API, Customers API, and 1 more. Tagged areas include Company, Fintech, Consumer Lending, Collections, and AI Agents.
+overview: 'Veritus publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Clients API, Customers API, and 1 more. Tagged areas include Company, Fintech, Consumer Lending, Collection, and AI Agents.
 
 
   The Veritus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -165,7 +165,7 @@ random_paper: 9
 score:
   band: developing
   composite: 42.5
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -175,7 +175,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 44.7
+  previous_composite: 42.5
   provenance:
     conformance: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/screenshots/veritus-2026-08-17T082732.png
 security:
@@ -207,7 +207,7 @@ tags:
 - Company
 - Fintech
 - Consumer Lending
-- Collections
+- Collection
 - AI Agents
 - Voice AI
 - Communications

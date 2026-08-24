@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -650,8 +650,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/close.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: close-mcp.yml
-  slug: close-mcpyml
+  name: Close MCP Server
+  slug: close-mcp-server
 modified: '2026-08-13'
 name: Close
 nav: Providers
@@ -680,7 +680,7 @@ scopes:
 score:
   band: exemplar
   composite: 79.5
-  delta: 11.6
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -690,7 +690,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 97.4
-  previous_composite: 67.9
+  previous_composite: 79.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -707,9 +707,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/screenshots/close-2026-06-20T174533.png
 security:
 - kind: authentication
@@ -740,7 +740,7 @@ tags:
 - Pipeline Management
 - AI Agents
 - MCP
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://www.close.com/
 ---

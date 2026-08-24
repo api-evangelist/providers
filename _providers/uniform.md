@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 41
 apis:
 - description: The Aggregates API from Uniform — 1 operation(s) for aggregates.
@@ -419,14 +419,14 @@ description: Uniform (Uniform Systems, Inc.) is a visual workspace and composabl
 image: https://img.uniform.global/p/1kLJoPtETHS1Jn1953sDkQ/gPgKkuoLSbSOJ2EzIojJWg-Uniform_OGimage.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: uniform-mcp.yml
-  slug: uniform-mcpyml
+- description: 'Uniform publishes an official, hosted (remote HTTP) MCP server that lets any MCP client — Cursor, Claude Code, GitHub Copilot, Windsurf, Claude Desktop, v0.dev, n8n — manage a Uniform project: composi'
+  name: Uniform MCP Server
+  slug: uniform-mcp-server
 modified: '2026-07-21'
 name: Uniform
 nav: Providers
 network: true
-overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Aggregates API, AI Agents API, Assets API, and 38 more. Tagged areas include Company, Digital Experience Platform, Content Management, Personalization, and AB Testing.
+overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Aggregates API, AI Agents API, Assets API, and 38 more. Tagged areas include Company, Digital Experience Platform, Content Management, Personalization, and A/B Testing.
 
 
   The Uniform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -437,7 +437,7 @@ random_paper: 12
 score:
   band: developing
   composite: 52.1
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -447,7 +447,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 55.4
+  previous_composite: 52.1
   provenance:
     conformance: derived
     contracts:
@@ -457,8 +457,8 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/screenshots/uniform-2026-08-17T082601.png
 security:
@@ -480,10 +480,10 @@ tags:
 - Digital Experience Platform
 - Content Management
 - Personalization
-- AB Testing
+- A/B Testing
 - Composable
 - Headless CMS
 - AI Agents
-- Webhooks
+- Webhook
 website: https://uniform.dev/
 ---

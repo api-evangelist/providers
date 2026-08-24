@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The auth API from Platzi — 3 operation(s) for auth.
@@ -172,13 +172,13 @@ image: https://static.platzi.com/media/og/platzi.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: platzi-mcp.yml
-  slug: platzi-mcpyml
+  name: Platzi MCP Server
+  slug: platzi-mcp-server
 modified: '2026-07-20'
 name: Platzi
 nav: Providers
 network: true
-overview: 'Platzi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including auth API, categories API, files API, and 3 more. Tagged areas include Company, Education, E-Commerce, Products, and Mock API.
+overview: 'Platzi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including auth API, categories API, files API, and 3 more. Tagged areas include Company, Education, E-Commerce, Product, and Mock API.
 
 
   Platzi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, sandbox, and 16 more developer resources.'
@@ -186,7 +186,7 @@ random_paper: 9
 score:
   band: developing
   composite: 43.0
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 39.0
+  previous_composite: 43.0
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +212,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -229,7 +229,7 @@ tags:
 - Company
 - Education
 - E-Commerce
-- Products
+- Product
 - Mock API
 - Prototyping
 - REST

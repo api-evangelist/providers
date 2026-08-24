@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -6256,7 +6256,7 @@ modified: '2026-05-19'
 name: Mastercard
 nav: Providers
 network: true
-overview: 'Mastercard publishes 178 APIs on the [APIs.io](https://apis.io/) network, including Universal Specification Submission API, Bill Pay API, Business Payment Controls, and 175 more. Tagged areas include Credit Cards, Digital Identity, Financial Services, Fraud Detection, and Open Banking.
+overview: 'Mastercard publishes 178 APIs on the [APIs.io](https://apis.io/) network, including Universal Specification Submission API, Bill Pay API, Business Payment Controls, and 175 more. Tagged areas include Credit Cards, Digital Identity, Financial-Services, Fraud Detection, and Open Banking.
 
 
   The Mastercard catalog on APIs.io includes 20 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -6312,18 +6312,18 @@ rules:
   slug: mastercard-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: -2.5
+  composite: 45.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 63.1
     developer_ergonomics: 45.2
     discoverability: 57.4
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 48.0
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -6337,8 +6337,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png
 security:
@@ -6354,7 +6354,7 @@ slug: mastercard
 tags:
 - Credit Cards
 - Digital Identity
-- Financial Services
+- Financial-Services
 - Fraud Detection
 - Open Banking
 - Payments

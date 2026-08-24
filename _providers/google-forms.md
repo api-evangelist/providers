@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -326,8 +326,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: google-forms-mcp.yml
-  slug: google-forms-mcpyml
+  name: Google Forms MCP Server
+  slug: google-forms-mcp-server
 modified: '2026-06-20'
 name: Google Forms
 nav: Providers
@@ -377,18 +377,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.6
-  delta: -5.8
+  composite: 43.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 29.5
     developer_ergonomics: 36.9
     discoverability: 100.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 42.1
-  previous_composite: 48.4
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -398,9 +398,9 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/screenshots/google-forms-2026-06-20T182203.png
 security:
 - kind: authentication

@@ -7,20 +7,20 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: partial
-    rate_limit_signal: documented
+    openapi_examples: verified
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-19'
+  score: 58.8
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -28,7 +28,7 @@ agentic_access:
   operation_count: 92
   slug: api-evangelist-agentic-access
   summary_line: 92 operations · 22 acting · 1 human-in-the-loop
-api_count: 20
+api_count: 17
 apis:
 - description: The whole network behind one REST API — unified search, 5,100+ posts, 77 topic areas, 2,400+ governance building blocks, conversations, papers, services, vocabulary, and newsletters from a single base
   name: API Evangelist Network API
@@ -57,9 +57,6 @@ apis:
 - description: Modular guidance for teams producing and consuming APIs — snackable real-time guidance for keeping API operations moving forward.
   name: API Evangelist Guidance
   slug: api-evangelist-guidance
-- description: Information about API Evangelist partners and collaboration opportunities supporting API operations.
-  name: API Evangelist Partners
-  slug: api-evangelist-partners
 - description: The business reasons behind why we govern API operations — aligning the engineering side of operations with the business side of things.
   name: API Evangelist Policies
   slug: api-evangelist-policies
@@ -78,19 +75,13 @@ apis:
 - description: High-level approaches to shifting the direction of API operations — aligning policies and experiences across the platform.
   name: API Evangelist Strategies
   slug: api-evangelist-strategies
-- description: Utility APIs for managing API Evangelist operations — a catch-all collection of internal tools used to manage the platform.
-  name: API Evangelist Utilities
-  slug: api-evangelist-utilities
 - description: Video content covering API topics, interviews, and walkthroughs of API concepts and technologies.
   name: API Evangelist Videos
   slug: api-evangelist-videos
 - description: Organizing the words we use to describe API resources and capabilities — controlled vocabularies that help us get on the same page.
   name: API Evangelist Vocabularies
   slug: api-evangelist-vocabularies
-- description: Standalone spotlight on API governance rules — guardrails for API operations delivered as a curated ruleset alongside the rules collection.
-  name: Spotlight Rules
-  slug: spotlight-rules
-artifact_total: 29
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Evangelist Governance & Discovery API
@@ -220,28 +211,60 @@ common:
   title: ''
   type: RateLimits
   url: rate-limits/api-evangelist-rate-limits.yml
+- group: build
+  title: ''
+  type: Postman
+  url: collections/apievangelist-v1.postman_collection.json
+- group: build
+  title: ''
+  type: Postman
+  url: collections/apievangelist-governance.postman_collection.json
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/apievangelist-governance.opencollection.json
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.apievangelist.com/changelog
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.apievangelist.com/deprecation
+- group: auth
+  title: ''
+  type: Security
+  url: https://developer.apievangelist.com/security
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://developer.apievangelist.com/.well-known/security.txt
+- group: operate
+  title: ''
+  type: RoadMap
+  url: https://developer.apievangelist.com/roadmap
 created: '2024-10-14'
 description: The index of everything available via the API Evangelist developer portal at developer.apievangelist.com — sixteen years of API research served as one REST API, an MCP server for agents, and the static JSON feeds behind each network collection.
 image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: api-evangelist-mcp.yml
-  slug: api-evangelist-mcpyml
+  name: API Evangelist MCP Server
+  slug: api-evangelist-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: API Evangelist MCP Server
+  slug: api-evangelist-mcp-server-2
 modified: '2026-08-10'
 name: API Evangelist
 nav: Providers
 network: true
-overview: 'API Evangelist publishes 2 APIs on the [APIs.io](https://apis.io/) network: Network API and Governance & Discovery API. Tagged areas include APIs, API Evangelist, Developer Portal, API Research, and API Governance.
+overview: 'API Evangelist publishes 2 APIs on the [APIs.io](https://apis.io/) network: Network API and Governance & Discovery API. Tagged areas include API Evangelist, Developer Portal, API Research, API Governance, and API Discovery.
 
 
   The API Evangelist catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  API Evangelist''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 24 more developer resources.'
+  API Evangelist''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 32 more developer resources.'
 plans:
 - name: Api Evangelist Plans Pricing
   plan_count: 4
@@ -252,31 +275,31 @@ rate_limits:
   name: Api Evangelist Rate Limits
   slug: api-evangelist-rate-limits
 rules:
-- effective_rule_count: 51
+- effective_rule_count: 88
   extends:
   - spectral:oas
   name: API Evangelist API Rules
-  rule_count: 10
+  rule_count: 47
   severity_counts:
-    error: 1
+    error: 8
     hint: 0
-    info: 0
-    warn: 9
+    info: 8
+    warn: 31
   slug: api-evangelist-spectral-rules
 score:
-  band: strong
-  composite: 60.5
-  delta: -3.6
+  band: exemplar
+  composite: 70.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 56.8
-    contract_quality: 55.4
-    developer_ergonomics: 58.9
-    discoverability: 83.3
-    governance: 56.8
-    operational_transparency: 34.2
-  previous_composite: 64.1
+    contract_governance: 59.1
+    contract_quality: 65.1
+    developer_ergonomics: 63.7
+    discoverability: 92.6
+    governance: 59.1
+    operational_transparency: 73.7
+  previous_composite: 70.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,8 +310,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/screenshots/api-evangelist-2026-08-17T080558.png
 security:
@@ -302,7 +325,6 @@ security:
   summary_line: TLSv1.3
 slug: api-evangelist
 tags:
-- APIs
 - API Evangelist
 - Developer Portal
 - API Research

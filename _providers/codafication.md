@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Unity Cloud (Unity Platform) developer surface, documented publicly at docs.unitycloud.io as the Unity Platform SDK reference. A single GraphQL endpoint collates the schemas of every installed ext
@@ -160,7 +160,7 @@ random_paper: 13
 score:
   band: thin
   composite: 38.9
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -170,7 +170,7 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 42.8
+  previous_composite: 38.9
   provenance:
     conformance: first-party
   regulatory:
@@ -179,8 +179,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/screenshots/codafication-2026-07-25T205858.png
 security:
@@ -203,10 +203,10 @@ tags:
 - FNOL
 - Supply Chain
 - GraphQL
-- Webhooks
+- Webhook
 - SDK
 - Extensions
-- Multi Tenant
+- Multi-Tenant
 - Partner Gated
 website: https://codafication.com/
 ---

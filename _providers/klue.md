@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Klue Content API returns an organization's published Klue cards and battlecards to external tools and agents, filterable by competitor, battlecard, tag and date range. Access is authenticated with
@@ -166,13 +166,13 @@ image: https://avatars.githubusercontent.com/u/5720878?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: klue-mcp.yml
-  slug: klue-mcpyml
+  name: Klue MCP Server
+  slug: klue-mcp-server
 modified: '2026-08-14'
 name: Klue
 nav: Providers
 network: true
-overview: 'Klue publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Competitive Intelligence, Competitive Enablement, and Sales Enablement.
+overview: 'Klue publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Competitive Intelligence, Competitive Enablement, and Sales Enablement.
 
 
   Klue''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
@@ -193,7 +193,7 @@ scopes:
 score:
   band: thin
   composite: 31.6
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -203,13 +203,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 36.5
+  previous_composite: 31.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klue/refs/heads/main/screenshots/klue-2026-07-25T223952.png
 security:
@@ -232,7 +232,7 @@ security:
 slug: klue
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Competitive Intelligence
 - Competitive Enablement
 - Sales Enablement

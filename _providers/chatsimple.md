@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The only publicly documented HTTP endpoints Chatsimple (now Expertise AI) publishes. Documented on the Zapier integration page of docs.expertise.ai as four operations under the base URL https://api.ex
@@ -166,13 +166,13 @@ image: https://www.expertise.ai/images/og-home-page.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: chatsimple-mcp.yml
-  slug: chatsimple-mcpyml
+  name: Chatsimple MCP Server
+  slug: chatsimple-mcp-server
 modified: '2026-08-13'
 name: Chatsimple
 nav: Providers
 network: true
-overview: 'Chatsimple publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Conversational AI, Chatbot, and Lead Generation.
+overview: 'Chatsimple publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Conversational AI, Chatbots, and Lead Generation.
 
 
   The Chatsimple catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.8
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -201,12 +201,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 58.1
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/screenshots/chatsimple-2026-07-25T205118.png
 security:
@@ -227,7 +227,7 @@ tags:
 - Company
 - AI Agents
 - Conversational AI
-- Chatbot
+- Chatbots
 - Lead Generation
 - Sales Automation
 - CRM Integration

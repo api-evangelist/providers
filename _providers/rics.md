@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ modified: '2026-07-26'
 name: RICS (Royal Institution of Chartered Surveyors)
 nav: Providers
 network: true
-overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 1 API on the [APIs.io](https://apis.io/) network: RICS DigitalCommunity API. Tagged areas include Real Estate, United Kingdom, Industry Body, Valuation, and Standards.
+overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 1 API on the [APIs.io](https://apis.io/) network: RICS DigitalCommunity API. Tagged areas include Real-Estate, United Kingdom, Industry Body, Valuation, and Standards.
 
 
   RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 40 more developer resources.'
@@ -270,7 +270,7 @@ scopes:
 score:
   band: thin
   composite: 36.3
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -280,7 +280,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 36.1
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,8 +291,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -305,14 +305,14 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: rics
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Industry Body
 - Valuation
 - Standards
 - Surveying
 - Property Measurement
-- Regulation
+- Regulations
 - Construction
 - PropTech
 website: https://www.rics.org/

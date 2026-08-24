@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Managed training/fine-tuning and sampling API for open-weight language models, consumed through the official Tinker Python SDK and CLI. Supports SFT, RL, and distillation workflows, checkpoint managem
@@ -161,14 +161,14 @@ modified: '2026-07-21'
 name: Thinking Machines
 nav: Providers
 network: true
-overview: 'Thinking Machines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Machine Learning, and Fine-Tuning.
+overview: 'Thinking Machines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Fine-Tuning, and LLM.
 
 
   Thinking Machines'' developer surface includes documentation, API reference, quickstart, signup flow, support, engineering blog, CLI, and 22 more developer resources.'
 random_paper: 2
 score:
   band: thin
-  composite: 32.6
+  composite: 33.7
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -176,14 +176,14 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 32.6
+  previous_composite: 33.7
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -201,9 +201,8 @@ security:
 slug: thinking-machines
 tags:
 - Company
-- Ai
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Fine-Tuning
 - LLM
 - Model Training

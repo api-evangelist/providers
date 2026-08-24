@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Last-mile express parcel API covering pincode serviceability, bulk and single waybill generation, order creation/manifestation, shipment tracking, order edit and cancel, shipping-charge invoicing, pac
@@ -142,7 +142,7 @@ random_paper: 6
 score:
   band: thin
   composite: 31.0
-  delta: -11.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -152,10 +152,10 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 42.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 31.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/screenshots/delhivery-2026-07-25T211645.png
 security:
 - kind: authentication
@@ -173,7 +173,7 @@ tags:
 - Shipping
 - Supply Chain
 - Freight
-- Ecommerce
+- E-Commerce
 - Tracking
 - Fulfillment
 - India

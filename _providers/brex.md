@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ modified: '2026-05-30'
 name: Brex
 nav: Providers
 network: true
-overview: 'Brex publishes 3 APIs on the [APIs.io](https://apis.io/) network: Budget Programs API, Budgets API, and Spend Limits API. Tagged areas include Bill Pay, Corporate Cards, Expenses, Reimbursements, and Spending.
+overview: 'Brex publishes 3 APIs on the [APIs.io](https://apis.io/) network: Budget Programs API, Budgets API, and Spend Limits API. Tagged areas include Bill Pay, Corporate Cards, Expenses, Reimbursement, and Spending.
 
 
   The Brex catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -142,7 +142,7 @@ rules:
 score:
   band: thin
   composite: 28.4
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -158,7 +158,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 32.7
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/screenshots/brex-2026-06-20T173653.png
 security:
@@ -190,6 +190,6 @@ tags:
 - Bill Pay
 - Corporate Cards
 - Expenses
-- Reimbursements
+- Reimbursement
 - Spending
 ---

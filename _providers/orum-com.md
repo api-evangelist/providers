@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 7
 asyncapis:
@@ -198,7 +198,7 @@ modified: '2026-08-13'
 name: Orum
 nav: Providers
 network: true
-overview: 'Orum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Sales, Sales Engagement, and Sales Dialer.
+overview: 'Orum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales, Sales Engagement, and Sales Dialer.
 
 
   The Orum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -217,7 +217,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.3
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -227,11 +227,11 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 50.8
+  previous_composite: 50.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/screenshots/orum-com-2026-08-07T190956.png
 security:
@@ -254,7 +254,7 @@ security:
 slug: orum-com
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sales
 - Sales Engagement
 - Sales Dialer
@@ -263,7 +263,7 @@ tags:
 - Conversation Intelligence
 - Telephony
 - Revenue Operations
-- Webhooks
+- Webhook
 - Parallel Dialing
 - Sales Automation
 website: https://www.orum.com/

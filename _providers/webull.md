@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Order management across stocks, options, futures, crypto, and event contracts — place, preview, replace, cancel, batch (combo OTO/OCO/OTOCO), and algo (TWAP/VWAP/POV) orders, plus accounts, balances, '
@@ -149,13 +149,13 @@ image: https://www.webull.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: webull-mcp.yml
-  slug: webull-mcpyml
+  name: Webull MCP Server
+  slug: webull-mcp-server
 modified: '2026-07-21'
 name: Webull
 nav: Providers
 network: true
-overview: 'Webull publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Financial Services, Brokerage, and Trading.
+overview: 'Webull publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Financial-Services, Brokerage, and Trading.
 
 
   The Webull catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -166,7 +166,7 @@ random_paper: 0
 score:
   band: thin
   composite: 38.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 39.3
+  previous_composite: 38.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -187,8 +187,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -203,7 +203,7 @@ slug: webull
 tags:
 - Company
 - Technology
-- Financial Services
+- Financial-Services
 - Brokerage
 - Trading
 - Stock Market

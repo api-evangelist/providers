@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -184,14 +184,14 @@ description: 'CloudWalk, Inc. is a Sunnyvale- and São Paulo-based payments and 
 image: https://cdn.prod.website-files.com/6654b3697a9d140e0ca14dcc/6a0bb9e1bb37dcd08e538cc1_Cover-Profile%2044.webp
 layout: provider
 mcp_servers:
-- description: ''
-  name: cloudwalk-mcp.yml
-  slug: cloudwalk-mcpyml
+- description: CloudWalk publishes NO MCP server. Searches of the MCP registries, npm (@modelcontextprotocol and CloudWalk/InfinitePay scopes), the CloudWalk GitHub organization and the InfinitePay developer pages a
+  name: CloudWalk MCP Server
+  slug: cloudwalk-mcp-server
 modified: '2026-08-01'
 name: CloudWalk
 nav: Providers
 network: true
-overview: 'CloudWalk publishes 1 API on the [APIs.io](https://apis.io/) network: InfinitePay Checkout API. Tagged areas include Company, Payments, Financial Services, Fintech, and Checkout.
+overview: 'CloudWalk publishes 1 API on the [APIs.io](https://apis.io/) network: InfinitePay Checkout API. Tagged areas include Company, Payments, Financial-Services, Fintech, and Checkout.
 
 
   The CloudWalk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -202,7 +202,7 @@ random_paper: 0
 score:
   band: strong
   composite: 56.2
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -212,7 +212,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 55.1
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +229,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/screenshots/cloudwalk-2026-08-07T163513.png
 security:
@@ -250,15 +250,15 @@ slug: cloudwalk
 tags:
 - Company
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - Checkout
-- Point of Sale
+- Point-of-Sale
 - Acquiring
 - Pix
 - Brazil
 - Banking
-- Webhooks
+- Webhook
 - Tap to Pay
 website: https://www.cloudwalk.io/
 ---

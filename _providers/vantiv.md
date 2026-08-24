@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ modified: '2026-05-19'
 name: Vantiv
 nav: Providers
 network: true
-overview: 'Vantiv publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Captures API, Chargebacks API, and 7 more. Tagged areas include Payments, Payment Processing, eCommerce, Finance, and FinTech.
+overview: 'Vantiv publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Captures API, Chargebacks API, and 7 more. Tagged areas include Payments, Payment Processing, E-Commerce, Finance, and Fintech.
 
 
   The Vantiv catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -264,18 +264,18 @@ rules:
   slug: vantiv-rules
 score:
   band: thin
-  composite: 37.9
-  delta: -4.7
+  composite: 38.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 67.5
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 42.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -289,8 +289,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -305,9 +305,9 @@ slug: vantiv
 tags:
 - Payments
 - Payment Processing
-- eCommerce
+- E-Commerce
 - Finance
-- FinTech
+- Fintech
 - Fortune 1000
 website: https://www.vantiv.com
 ---

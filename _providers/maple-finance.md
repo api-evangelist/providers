@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,7 +105,7 @@ description: Maple Finance is an onchain asset management and institutional DeFi
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maple-finance.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Maple''s documentation MCP server (GitBook-hosted). Gives AI agents and MCP-enabled tools (Cursor, Claude Code, etc.) access to the full Maple protocol and integration context for syrupUSD integration '
   name: Maple Docs MCP Server
   slug: maple-docs-mcp-server
 modified: '2026-07-20'
@@ -120,7 +120,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 25.1
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -130,12 +130,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 25.6
+  previous_composite: 25.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maple-finance/refs/heads/main/screenshots/maple-finance-2026-07-25T230119.png
 security:

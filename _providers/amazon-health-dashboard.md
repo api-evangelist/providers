@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -993,7 +993,7 @@ modified: '2026-05-19'
 name: Amazon Health Dashboard
 nav: Providers
 network: true
-overview: 'Amazon Health Dashboard publishes 13 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization API, #X Amz Target=AWSHealth 20160804.DescribeAffectedEntities API, #X Amz Target=AWSHealth 20160804.DescribeAffectedEntitiesForOrganization API, and 10 more. Tagged areas include Health Monitoring, Notifications, Operations, and Service Status.
+overview: 'Amazon Health Dashboard publishes 13 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization API, #X Amz Target=AWSHealth 20160804.DescribeAffectedEntities API, #X Amz Target=AWSHealth 20160804.DescribeAffectedEntitiesForOrganization API, and 10 more. Tagged areas include Health Monitoring, Notification, and Service Status.
 
 
   The Amazon Health Dashboard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1032,19 +1032,19 @@ rules:
     warn: 8
   slug: amazon-health-dashboard-spectral-rules
 score:
-  band: developing
-  composite: 54.2
-  delta: 0.2
+  band: strong
+  composite: 54.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.2
     developer_ergonomics: 50.0
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 54.0
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1058,8 +1058,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/screenshots/amazon-health-dashboard-2026-06-20T171659.png
 security:
@@ -1078,8 +1078,7 @@ security:
 slug: amazon-health-dashboard
 tags:
 - Health Monitoring
-- Notifications
-- Operations
+- Notification
 - Service Status
 use_cases:
 - description: Monitor AWS service health in real-time to detect and respond to events affecting workloads.

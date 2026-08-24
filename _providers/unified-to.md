@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -4918,7 +4918,7 @@ modified: '2026-05-19'
 name: Unified.to
 nav: Providers
 network: true
-overview: 'Unified.to publishes 138 APIs on the [APIs.io](https://apis.io/) network, including account API, accounting API, activity API, and 135 more. Tagged areas include Integrations and Unified API.
+overview: 'Unified.to publishes 138 APIs on the [APIs.io](https://apis.io/) network, including account API, accounting API, activity API, and 135 more. Tagged areas include Integration and Unified-API.
 
 
   The Unified.to catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -4958,18 +4958,18 @@ rules:
   slug: unified-to-spectral-rules
 score:
   band: strong
-  composite: 60.4
-  delta: -4.9
+  composite: 60.8
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.8
     developer_ergonomics: 69.0
     discoverability: 57.4
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 65.3
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     contracts:
@@ -4977,8 +4977,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 138
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:
@@ -5000,8 +5000,8 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: unified-to
 tags:
-- Integrations
-- Unified API
+- Integration
+- Unified-API
 use_cases:
 - description: Sync contacts, companies, and deals across 47 CRM platforms with a single API integration.
   name: CRM Integration

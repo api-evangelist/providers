@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The core toolkit for building reactive, event-driven applications on the JVM. Provides the event loop, verticle deployment, event bus, HTTP server and client, TCP/UDP networking, and the fundamental a
@@ -244,21 +244,21 @@ rules:
   slug: vert-x-spectral-rules
 score:
   band: thin
-  composite: 31.3
-  delta: -8.2
+  composite: 31.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.6
     developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 39.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 31.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vert-x/refs/heads/main/screenshots/vert-x-2026-06-20T200945.png
 security:
 - kind: domain-security
@@ -279,7 +279,7 @@ tags:
 - Polyglot
 - Reactive
 - Eclipse Foundation
-- Open Source
+- Open-Source
 use_cases:
 - description: Build lightweight, high-concurrency microservices with Vert.x Web routing, service proxy patterns, and event bus communication.
   name: Microservices Backend

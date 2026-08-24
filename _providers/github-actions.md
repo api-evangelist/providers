@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -738,9 +738,9 @@ jsonld:
   slug: github-actions-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: github-actions-mcp.yml
-  slug: github-actions-mcpyml
+- description: GitHub operates an official remote MCP server at https://api.githubcopilot.com/mcp/ (HTTP transport, OAuth / PAT authenticated) and ships the same server for local use via a Docker image and the VS Co
+  name: GitHub Actions MCP Server
+  slug: github-actions-mcp-server
 modified: '2026-06-20'
 name: GitHub Actions
 nav: Providers
@@ -790,18 +790,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.2
-  delta: -8.6
+  composite: 62.6
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 68.5
     developer_ergonomics: 76.2
     discoverability: 74.1
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 70.8
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -815,9 +815,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/screenshots/github-actions-2026-06-20T181837.png
 security:
 - kind: authentication

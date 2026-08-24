@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -252,8 +252,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: tribe-payments-mcp.yml
-  slug: tribe-payments-mcpyml
+  name: Tribe Payments MCP Server
+  slug: tribe-payments-mcp-server
 modified: '2026-07-24'
 name: Tribe Payments
 nav: Providers
@@ -269,7 +269,7 @@ random_paper: 11
 score:
   band: developing
   composite: 46.1
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -279,7 +279,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 46.7
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,8 +296,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/screenshots/tribe-payments-2026-08-17T082436.png
 security:
@@ -320,8 +320,8 @@ tags:
 - Payment Processing
 - Open Banking
 - Account-to-Account
-- Banking-as-a-Service
+- Banking as a Service
 - Fraud
-- Point of Sale
+- Point-of-Sale
 website: https://www.tribepayments.com/
 ---

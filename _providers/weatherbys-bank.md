@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,13 +182,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: weatherbys-bank-mcp.yml
-  slug: weatherbys-bank-mcpyml
+  name: Weatherbys Bank MCP Server
+  slug: weatherbys-bank-mcp-server
 modified: '2026-07-23'
 name: Weatherbys Bank
 nav: Providers
 network: true
-overview: 'Weatherbys Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data ATM Locator API, Open Data Branch Locator API, Open Data Personal Current Accounts API, and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Weatherbys Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data ATM Locator API, Open Data Branch Locator API, Open Data Personal Current Accounts API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Weatherbys Bank''s developer surface includes authentication, documentation, engineering blog, support, and 21 more developer resources.'
@@ -201,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 51.7
-  delta: 13.6
+  delta: 0.0
   facets:
     access_clarity: 78.6
     commercial_clarity: 78.6
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 38.1
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,9 +227,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Weatherbys Bank Authentication
@@ -241,7 +241,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: weatherbys-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

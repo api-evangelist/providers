@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A live Model Context Protocol endpoint served from the Cardiosense corporate host. It is a WordPress MCP Adapter deployment over the website's content and abilities rather than a product API for the C
@@ -108,9 +108,9 @@ description: Cardiosense, Inc. is a Chicago-based medical technology company dev
 image: https://cardiosense.com/wp-content/themes/hello-elementor-child/assets/images/social_1200.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cardiosense-mcp.yml
-  slug: cardiosense-mcpyml
+- description: 'Cardiosense serves a live Model Context Protocol server from its own primary host. It is not a product API: Cardiosense sells an FDA-cleared Class II cardiac monitoring device, not a developer platfor'
+  name: Cardiosense MCP Server
+  slug: cardiosense-mcp-server
 modified: '2026-08-09'
 name: Cardiosense
 nav: Providers
@@ -128,7 +128,7 @@ scopes:
 score:
   band: emerging
   composite: 20.2
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -138,7 +138,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 23.2
+  previous_composite: 20.2
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -149,8 +149,8 @@ score:
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -172,7 +172,7 @@ tags:
 - Remote Patient Monitoring
 - Wearables
 - Artificial Intelligence
-- Machine Learning
-- Model Context Protocol
+- Machine-Learning
+- MCP
 website: https://cardiosense.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-06-13'
 name: BscScan
 nav: Providers
 network: true
-overview: 'BscScan publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include blockchain, block-explorer, BNB Smart Chain, BSC, and BEP-20.
+overview: 'BscScan publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include Blockchain, Block Explorer, BNB Smart Chain, BSC, and BEP-20.
 
 
   The BscScan catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -192,7 +192,7 @@ rules:
 score:
   band: thin
   composite: 34.2
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -202,7 +202,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 40.3
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -210,9 +210,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Bscscan Authentication
@@ -228,13 +228,13 @@ security:
   summary_line: disclosure policy published
 slug: bscscan
 tags:
-- blockchain
-- block-explorer
+- Blockchain
+- Block Explorer
 - BNB Smart Chain
 - BSC
 - BEP-20
-- transactions
-- smart-contracts
+- Transaction
+- Smart Contracts
 - DeFi
 - EVM
 ---

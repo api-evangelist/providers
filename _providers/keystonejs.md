@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Auto-generated GraphQL API served at /api/graphql that provides full CRUD operations for every list in the schema. Includes single-item queries, list queries with filtering and pagination, count queri
@@ -93,7 +93,7 @@ modified: '2026-06-13'
 name: KeystoneJS
 nav: Providers
 network: true
-overview: 'KeystoneJS publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Headless CMS, GraphQL, Node.js, Content Management, and Open Source.
+overview: 'KeystoneJS publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Headless CMS, GraphQL, Node.js, Content Management, and Open-Source.
 
 
   KeystoneJS''s developer surface includes documentation, engineering blog, pricing, and 7 more developer resources.'
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.6
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -119,9 +119,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 29.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keystonejs/refs/heads/main/screenshots/keystonejs-2026-06-20T184013.png
 security:
@@ -135,7 +135,7 @@ tags:
 - GraphQL
 - Node.js
 - Content Management
-- Open Source
+- Open-Source
 - TypeScript
 - Prisma
 website: https://keystonejs.com

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -261,13 +261,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: swagger-codegen-mcp.yml
-  slug: swagger-codegen-mcpyml
+  name: Swagger Codegen MCP Server
+  slug: swagger-codegen-mcp-server
 modified: '2026-08-06'
 name: Swagger Codegen
 nav: Providers
 network: true
-overview: 'Swagger Codegen publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 1 more. Tagged areas include Client Libraries, Code Generation, Open Source, OpenAPI, and SDK.
+overview: 'Swagger Codegen publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 1 more. Tagged areas include Client Libraries, Code Generation, Open-Source, OpenAPI, and SDK.
 
 
   The Swagger Codegen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -307,18 +307,18 @@ rules:
   slug: swagger-codegen-rules
 score:
   band: strong
-  composite: 58.7
-  delta: -7.1
+  composite: 59.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 40.2
+    contract_governance: 43.9
     contract_quality: 57.1
     developer_ergonomics: 80.4
     discoverability: 72.2
-    governance: 40.2
+    governance: 43.9
     operational_transparency: 44.7
-  previous_composite: 65.8
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -329,9 +329,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/screenshots/swagger-codegen-2026-06-20T194753.png
 security:
 - kind: authentication
@@ -354,7 +354,7 @@ slug: swagger-codegen
 tags:
 - Client Libraries
 - Code Generation
-- Open Source
+- Open-Source
 - OpenAPI
 - SDK
 website: https://swagger.io/

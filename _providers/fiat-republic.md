@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API for crypto and stablecoin platforms to onboard end users (KYC/AML), open named and virtual fiat accounts, receive pay-ins and send payouts across GBP, EUR and USD schemes, run FX conversio
@@ -183,8 +183,8 @@ image: https://fiatrepublic.com/images/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fiat-republic-mcp.yml
-  slug: fiat-republic-mcpyml
+  name: Fiat Republic MCP Server
+  slug: fiat-republic-mcp-server
 modified: '2026-07-19'
 name: Fiat Republic
 nav: Providers
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 51.2
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -219,7 +219,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 55.3
+  previous_composite: 51.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -229,8 +229,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/screenshots/fiat-republic-2026-07-25T214357.png
 security:
@@ -254,7 +254,7 @@ tags:
 - Fintech
 - Cryptocurrency
 - Stablecoins
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Finance
 - Compliance
 - KYC

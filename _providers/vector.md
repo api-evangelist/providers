@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ modified: '2026-05-19'
 name: Vector
 nav: Providers
 network: true
-overview: 'Vector publishes 1 API on the [APIs.io](https://apis.io/) network: Health API. Tagged areas include Data Pipeline, Logs, Metrics, Observability, and Open Source.
+overview: 'Vector publishes 1 API on the [APIs.io](https://apis.io/) network: Health API. Tagged areas include Data Pipeline, Logs, Metrics, Observability, and Open-Source.
 
 
   The Vector catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -215,18 +215,18 @@ rules:
   slug: vector-spectral-rules
 score:
   band: emerging
-  composite: 21.1
-  delta: -8.8
+  composite: 21.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 19.6
     developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 29.9
+  previous_composite: 21.6
   provenance:
     agentic_access: derived
     contracts:
@@ -234,9 +234,9 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/screenshots/vector-2026-06-20T200848.png
 security:
 - kind: domain-security
@@ -249,7 +249,7 @@ tags:
 - Logs
 - Metrics
 - Observability
-- Open Source
+- Open-Source
 - Rust
 - Traces
 use_cases:

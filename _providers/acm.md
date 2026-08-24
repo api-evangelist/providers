@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The ACM Digital Library search endpoint allows programmatic querying of computing literature across ACM's full publication corpus. Queries are issued against the doSearch action endpoint with paramete
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: 3.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -149,15 +149,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 28.8
+  previous_composite: 32.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 48.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acm/refs/heads/main/screenshots/acm-2026-06-20T171406.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: '2026-06-13'
 name: Feathery
 nav: Providers
 network: true
-overview: 'Feathery publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Data Hubs API, Document Intelligence API, and 6 more. Tagged areas include Forms, Form Builder, Multi-Step Forms, Document Intelligence, and AI.
+overview: 'Feathery publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Data Hubs API, Document Intelligence API, and 6 more. Tagged areas include Forms, Form Builder, Multi-Step Forms, Document Intelligence, and Artificial Intelligence.
 
 
   The Feathery catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -227,7 +227,7 @@ rules:
 score:
   band: developing
   composite: 43.0
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -237,7 +237,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 47.1
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -251,8 +251,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/screenshots/feathery-2026-06-20T181109.png
 security:
@@ -270,11 +270,11 @@ tags:
 - Form Builder
 - Multi-Step Forms
 - Document Intelligence
-- AI
-- Financial Services
+- Artificial Intelligence
+- Financial-Services
 - Insurance
 - Wealth Management
-- eSignature
+- E-Signature
 - Workflows
 - Data Intake
 - Submissions

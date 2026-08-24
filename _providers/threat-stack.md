@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 13.9
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -101,9 +101,9 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 13.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

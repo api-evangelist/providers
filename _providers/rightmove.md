@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -184,13 +184,13 @@ image: https://media.rightmove.co.uk/assets/shared-assets/favicons/light/favicon
 layout: provider
 mcp_servers:
 - description: ''
-  name: rightmove-mcp.yml
-  slug: rightmove-mcpyml
+  name: Rightmove MCP Server
+  slug: rightmove-mcp-server
 modified: '2026-07-26'
 name: Rightmove
 nav: Providers
 network: true
-overview: 'Rightmove publishes 1 API on the [APIs.io](https://apis.io/) network: Commercial Listings API. Tagged areas include Real Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
+overview: 'Rightmove publishes 1 API on the [APIs.io](https://apis.io/) network: Commercial Listings API. Tagged areas include Real-Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
 
 
   Rightmove''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 27 more developer resources.'
@@ -207,7 +207,7 @@ scopes:
 score:
   band: thin
   composite: 31.6
-  delta: -14.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -217,7 +217,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 45.6
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,9 +228,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/screenshots/rightmove-2026-08-17T081601.png
 security:
 - kind: authentication
@@ -243,7 +243,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: rightmove
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Property Portal

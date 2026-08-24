@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-05-02'
 name: Smart & Final Stores
 nav: Providers
 network: true
-overview: Smart & Final Stores is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Grocery, Retail, Food And Beverage, Warehouse, and Brick And Mortar.
+overview: Smart & Final Stores is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Grocery, Retail, Food and Beverage, Warehouse, and Brick And Mortar.
 press:
 - date: '2026-05-25'
   title: Smart & Final Switches to a Single Line
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smart-and-final-stores/refs/heads/main/screenshots/smart-and-final-stores-2026-06-20T194041.png
 security:
@@ -109,7 +109,7 @@ slug: smart-and-final-stores
 tags:
 - Grocery
 - Retail
-- Food And Beverage
+- Food and Beverage
 - Warehouse
 - Brick And Mortar
 website: https://www.smartandfinal.com

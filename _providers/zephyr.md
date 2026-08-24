@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Zephyr kernel C API exposes scheduling, threading, synchronization, memory management, and timer services for real-time embedded applications. It is the foundation that device drivers and applicat
@@ -140,7 +140,7 @@ modified: '2026-05-03'
 name: Zephyr Project
 nav: Providers
 network: true
-overview: 'Zephyr Project publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded, IoT, Linux Foundation, RTOS, and Open Source.
+overview: 'Zephyr Project publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded, IoT, Linux Foundation, RTOS, and Open-Source.
 
 
   The Zephyr Project catalog on APIs.io includes 1 JSON-LD context.
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.0
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -169,9 +169,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 32.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 33.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zephyr/refs/heads/main/screenshots/zephyr-2026-06-20T201826.png
 security:
@@ -185,7 +185,7 @@ tags:
 - IoT
 - Linux Foundation
 - RTOS
-- Open Source
+- Open-Source
 - Edge
 website: https://www.zephyrproject.org/
 ---

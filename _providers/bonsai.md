@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -110,9 +110,9 @@ description: Bonsai (hellobonsai.com) is an all-in-one business management platf
 image: https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/673f6d94d320621186b12534_Social%20Meta%20Image%20(1).png
 layout: provider
 mcp_servers:
-- description: ''
-  name: bonsai-mcp.yml
-  slug: bonsai-mcpyml
+- description: Bonsai operates an official hosted/remote MCP (Model Context Protocol) server at https://mcp.hellobonsai.com/mcp, letting AI clients (Claude, Claude Code, Cursor, Codex, ChatGPT, Gemini, Microsoft Cop
+  name: Bonsai MCP Server
+  slug: bonsai-mcp-server
 modified: '2026-07-18'
 name: Bonsai
 nav: Providers
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.0
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -139,11 +139,11 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.3
+  previous_composite: 24.0
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonsai/refs/heads/main/screenshots/bonsai-2026-07-25T203600.png
 security:

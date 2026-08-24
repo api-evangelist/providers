@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -200,9 +200,9 @@ description: Cariqa provides backend-to-backend payment and access infrastructur
 image: https://cdn.prod.website-files.com/665b067716979bea8b47153d/698ef2f263134d677dd448fd_cariqa-og-home-1200x630-v1.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cariqa-mcp.yml
-  slug: cariqa-mcpyml
+- description: Official hosted MCP server for the Cariqa Connect API. Gives AI coding agents native access to the entire Connect API knowledge base — documentation, code examples, API reference, and guides. Agents c
+  name: Cariqa MCP Server
+  slug: cariqa-mcp-server
 modified: '2026-07-18'
 name: Cariqa
 nav: Providers
@@ -215,7 +215,7 @@ random_paper: 16
 score:
   band: developing
   composite: 48.0
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 43.2
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,8 +242,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/screenshots/cariqa-2026-07-25T204619.png
 security:
@@ -262,7 +262,7 @@ tags:
 - Electric Vehicles
 - Payments
 - Mobility
-- e-Mobility
+- E-Mobility
 - Charge Point Operator
 - Energy
 website: https://cariqa.com/

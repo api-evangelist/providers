@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Company profiles, funding rounds, SEC filings and fund formations, keyed to real-time business events.
@@ -212,14 +212,14 @@ description: 'Fundz is an event-first business intelligence platform, founded 20
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fundz.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: fundz-mcp.yml
-  slug: fundz-mcpyml
+- description: 'FundzWatch MCP server, listed on the OFFICIAL Model Context Protocol registry — not only a third-party directory. It is distributed as an npm package over stdio: an agent operator installs and runs it'
+  name: io.github.Fund-z/fundzwatch
+  slug: iogithubfund-zfundzwatch
 modified: '2026-08-14'
 name: Fundz
 nav: Providers
 network: true
-overview: 'Fundz publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Acquisitions API, Agreements API, Crowdfundings API, and 3 more. Tagged areas include Business Intelligence, Funding, Private Markets, Mergers And Acquisitions, and SEC Filings.
+overview: 'Fundz publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Acquisitions API, Agreements API, Crowdfundings API, and 3 more. Tagged areas include Business Intelligence, Funding, Private Markets, Mergers and Acquisitions, and SEC Filings.
 
 
   The Fundz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -241,7 +241,7 @@ rate_limits:
 score:
   band: strong
   composite: 66.0
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -257,7 +257,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 63.1
+  previous_composite: 66.0
   provenance:
     conformance: derived
     contracts:
@@ -273,8 +273,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png
 security:
@@ -291,7 +291,7 @@ tags:
 - Business Intelligence
 - Funding
 - Private Markets
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 - SEC Filings
 - Signals
 - Sales Intelligence

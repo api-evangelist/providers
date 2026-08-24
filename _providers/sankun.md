@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to Sankun's construction big-data platform — company, site, construction, bid, contract, reputation and news databases. Marketed at data.sankun.com; developer documentation is gate
@@ -64,7 +64,7 @@ modified: '2026-07-21'
 name: Sankun
 nav: Providers
 network: true
-overview: 'Sankun publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Big Data, Data, and Real Estate.
+overview: 'Sankun publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Big Data, Data, and Real-Estate.
 
 
   Sankun''s developer surface includes pricing, engineering blog, signup flow, and 2 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 12.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -82,9 +82,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -97,7 +97,7 @@ tags:
 - Construction
 - Big Data
 - Data
-- Real Estate
+- Real-Estate
 - Analytics
 - CRM
 - South Korea

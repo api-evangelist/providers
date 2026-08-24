@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ modified: '2026-06-21'
 name: Nscale
 nav: Providers
 network: true
-overview: 'Nscale publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 2 more. Tagged areas include AI, GPU, Inference, Serverless, and Cloud Compute.
+overview: 'Nscale publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 2 more. Tagged areas include Artificial Intelligence, GPU, Inference, Serverless, and Cloud Compute.
 
 
   The Nscale catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -166,7 +166,7 @@ rules:
 score:
   band: developing
   composite: 42.1
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -176,7 +176,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 31.6
-  previous_composite: 46.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/screenshots/nscale-2026-08-07T185704.png
 security:
@@ -199,7 +199,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: nscale
 tags:
-- AI
+- Artificial Intelligence
 - GPU
 - Inference
 - Serverless

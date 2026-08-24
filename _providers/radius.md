@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ modified: '2026-05-19'
 name: Radius
 nav: Providers
 network: true
-overview: 'Radius publishes 27 APIs on the [APIs.io](https://apis.io/) network, including ApiVersions API, Applications API, AwsCredentials API, and 24 more. Tagged areas include Application Platform, Cloud Native, Infrastructure, and Multi Cloud.
+overview: 'Radius publishes 27 APIs on the [APIs.io](https://apis.io/) network, including ApiVersions API, Applications API, AwsCredentials API, and 24 more. Tagged areas include Application Platform, Cloud-Native, Infrastructure, and Multi-Cloud.
 
 
   Radius'' developer surface includes authentication, documentation, getting-started guide, signup flow, and 5 more developer resources.'
@@ -292,7 +292,7 @@ scopes:
 score:
   band: thin
   composite: 28.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -302,7 +302,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.8
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -310,8 +310,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/screenshots/radius-2026-06-20T192521.png
 security:
@@ -326,7 +326,7 @@ security:
 slug: radius
 tags:
 - Application Platform
-- Cloud Native
+- Cloud-Native
 - Infrastructure
-- Multi Cloud
+- Multi-Cloud
 ---

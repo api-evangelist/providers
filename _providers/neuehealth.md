@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-05-04'
 name: NeueHealth
 nav: Providers
 network: true
-overview: 'NeueHealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Value Based Care, Health Insurance, Population Health, and ACO.
+overview: 'NeueHealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Value-Based Care, Health Insurance, Population Health, and ACO.
 
 
   NeueHealth''s developer surface includes developer portal and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 3.6
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,15 +74,15 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.6
+  previous_composite: 3.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuehealth/refs/heads/main/screenshots/neuehealth-2026-06-20T190219.png
 security:
@@ -93,7 +93,7 @@ security:
 slug: neuehealth
 tags:
 - Healthcare
-- Value Based Care
+- Value-Based Care
 - Health Insurance
 - Population Health
 - ACO

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: WeLab Bank's Open API programme, published under the Hong Kong Monetary Authority Open API Framework and linked as "Open API" from the welab.bank site footer. The developer portal at portal-sandbox.we
@@ -120,7 +120,7 @@ modified: '2026-08-05'
 name: WeLab
 nav: Providers
 network: true
-overview: 'WeLab publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include fintech, digital-banking, virtual-bank, open-banking, and hong-kong.
+overview: 'WeLab publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Digital Banking, virtual-bank, Open Banking, and Hong Kong.
 
 
   WeLab''s developer surface includes support, engineering blog, authentication, and 15 more developer resources.'
@@ -128,7 +128,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 20.9
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -138,7 +138,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 20.5
+  previous_composite: 20.9
   provenance:
     conformance: first-party
   regulatory:
@@ -147,8 +147,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -161,15 +161,15 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: welab
 tags:
-- fintech
-- digital-banking
+- Fintech
+- Digital Banking
 - virtual-bank
-- open-banking
-- hong-kong
-- indonesia
-- consumer-lending
-- payments
+- Open Banking
+- Hong Kong
+- Indonesia
+- Consumer Lending
+- Payments
 - hkma-open-api
-- financial-services
+- Financial-Services
 website: https://www.welab.co/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -781,13 +781,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-appflow-mcp.yml
-  slug: amazon-appflow-mcpyml
+  name: Amazon AppFlow MCP Server
+  slug: amazon-appflow-mcp-server
 modified: '2026-06-20'
 name: Amazon AppFlow
 nav: Providers
 network: true
-overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connectors API, Flows API, and Tags API. Tagged areas include Connectors, Data Flow, Data Integration, ETL, and Integration.
+overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connectors API, Flows API, and Tags API. Tagged areas include Connectors, Dataflows, Data Integration, ETL, and Integration.
 
 
   The Amazon AppFlow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -819,18 +819,18 @@ rules:
   slug: amazon-appflow-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: -4.9
+  composite: 43.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 30.4
     developer_ergonomics: 50.0
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 28.9
-  previous_composite: 48.4
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -840,8 +840,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:
@@ -860,11 +860,11 @@ security:
 slug: amazon-appflow
 tags:
 - Connectors
-- Data Flow
+- Dataflows
 - Data Integration
 - ETL
 - Integration
-- SaaS
+- Software-as-a-Service
 - Data Transfer
 use_cases:
 - description: Consolidate marketing, sales, and support data from Salesforce, Marketo, and ServiceNow into Amazon Redshift or S3 for unified customer analytics.

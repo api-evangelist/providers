@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The authenticated REST API behind the Ecorobotix cloud portal at portal.ecorobotix.cloud, which customers use to manage ARA sprayer fleets, treatment jobs and field data. The service is a Django REST '
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -130,9 +130,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -151,8 +151,8 @@ tags:
 - Precision Agriculture
 - Robotics
 - Artificial Intelligence
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Sustainability
 - Farm Equipment
 - Switzerland

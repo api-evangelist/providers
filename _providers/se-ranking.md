@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -294,8 +294,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: se-ranking-mcp.yml
-  slug: se-ranking-mcpyml
+  name: SE Ranking MCP Server
+  slug: se-ranking-mcp-server
 modified: '2026-08-13'
 name: SE Ranking
 nav: Providers
@@ -335,7 +335,7 @@ scopes:
 score:
   band: strong
   composite: 62.7
-  delta: -11.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -345,7 +345,7 @@ score:
     discoverability: 81.5
     governance: 26.5
     operational_transparency: 50.0
-  previous_composite: 74.0
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -356,9 +356,9 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/screenshots/se-ranking-2026-06-20T193611.png
 security:
 - kind: authentication
@@ -378,7 +378,7 @@ tags:
 - Competitor Analysis
 - Website Audit
 - AI Search
-- GEO
+- Geo
 - Digital Marketing
 - MCP
 - AI Agents

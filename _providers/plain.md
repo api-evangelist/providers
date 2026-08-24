@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Plain's Core GraphQL API — the same API the Plain product is built on. Manage customers, companies, tenants, threads, messaging, help center, labels, tiers/SLAs, snippets, tasks, events, and webhook t
@@ -172,13 +172,13 @@ image: https://framerusercontent.com/assets/8LkFDsA5X0pauVd2p3tTSJ4AF4s.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: plain-mcp.yml
-  slug: plain-mcpyml
+  name: Plain MCP Server
+  slug: plain-mcp-server
 modified: '2026-07-20'
 name: Plain
 nav: Providers
 network: true
-overview: 'Plain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Support, Customer Service, Help Desk, and Support.
+overview: 'Plain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer-Support, Customer Service, Help Desk, and Support.
 
 
   The Plain catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -189,7 +189,7 @@ random_paper: 7
 score:
   band: developing
   composite: 52.7
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -199,13 +199,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 56.1
+  previous_composite: 52.7
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/screenshots/plain-2026-08-17T081255.png
 security:
@@ -224,13 +224,13 @@ security:
 slug: plain
 tags:
 - Company
-- Customer Support
+- Customer-Support
 - Customer Service
 - Help Desk
 - Support
-- SaaS
+- Software-as-a-Service
 - GraphQL
-- Webhooks
+- Webhook
 - MCP
 - Developer Tools
 website: https://www.plain.com/docs

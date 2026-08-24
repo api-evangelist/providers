@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-06-20'
 name: Respond.io
 nav: Providers
 network: true
-overview: 'Respond.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Contacts API, Conversations API, and 3 more. Tagged areas include Messaging, Omnichannel, Customer Conversations, WhatsApp, and AI.
+overview: 'Respond.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Contacts API, Conversations API, and 3 more. Tagged areas include Messaging, Omnichannel, Customer Conversations, WhatsApp, and Artificial Intelligence.
 
 
   Respond.io''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.1
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -167,7 +167,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 40.8
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/screenshots/respond-2026-06-20T192954.png
 security:
@@ -198,6 +198,6 @@ tags:
 - Omnichannel
 - Customer Conversations
 - WhatsApp
-- AI
+- Artificial Intelligence
 website: https://respond.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: DFC publishes transaction-level data on its development finance activities including loans, political risk insurance, and equity investments. Data is released as downloadable CSV/Excel datasets rather
@@ -69,7 +69,7 @@ modified: '2026-04-28'
 name: International Development Finance Corporation
 nav: Providers
 network: true
-overview: International Development Finance Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development Finance, Emerging Markets, Federal Government, Investment, and Open Data.
+overview: International Development Finance Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development Finance, Emerging Markets, Federal-Government, Investment, and Open Data.
 plans:
 - name: International Development Finance Corporation Plans Pricing
   plan_count: 3
@@ -82,7 +82,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.5
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -92,15 +92,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 10.3
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-development-finance-corporation/refs/heads/main/screenshots/international-development-finance-corporation-2026-06-20T183455.png
 security:
@@ -112,7 +112,7 @@ slug: international-development-finance-corporation
 tags:
 - Development Finance
 - Emerging Markets
-- Federal Government
+- Federal-Government
 - Investment
 - Open Data
 website: https://www.dfc.gov

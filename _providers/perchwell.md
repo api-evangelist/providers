@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -199,14 +199,14 @@ description: 'Perchwell is a modern, unified MLS (Multiple Listing Service) tech
 image: https://perchwell.com/_media/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: perchwell-mcp.yml
-  slug: perchwell-mcpyml
+- description: Candidate MCP tool list derived from Perchwell's documented API operations. Perchwell does not publish an official hosted MCP server; this is a proposed surface (one tool per operation) for making the
+  name: Perchwell MCP Server
+  slug: perchwell-mcp-server
 modified: '2026-07-20'
 name: Perchwell
 nav: Providers
 network: true
-overview: 'Perchwell publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Listings API, Media API, Member API, and 4 more. Tagged areas include Company, Real Estate, MLS, Listings, and Property Data.
+overview: 'Perchwell publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Listings API, Media API, Member API, and 4 more. Tagged areas include Company, Real-Estate, MLS, Listings, and Property Data.
 
 
   Perchwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 20 more developer resources.'
@@ -214,7 +214,7 @@ random_paper: 0
 score:
   band: thin
   composite: 37.2
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -224,7 +224,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 44.9
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -235,9 +235,9 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/screenshots/perchwell-2026-08-17T081157.png
 security:
 - kind: authentication
@@ -251,7 +251,7 @@ security:
 slug: perchwell
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - MLS
 - Listings
 - Property Data

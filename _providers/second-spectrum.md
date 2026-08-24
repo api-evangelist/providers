@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Customer-facing platform delivering Second Spectrum tracking data, visualizations, and clips to club analysts and coaching staff. Access is gated by Auth0-backed login under the Genius Sports Performa
@@ -79,7 +79,7 @@ modified: '2026-05-25'
 name: Second Spectrum (Genius Sports)
 nav: Providers
 network: true
-overview: 'Second Spectrum (Genius Sports) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sports Tracking, Computer Vision, AI, Broadcast, and NBA.
+overview: 'Second Spectrum (Genius Sports) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sports Tracking, Computer-Vision, Artificial Intelligence, Broadcast, and NBA.
 
 
   Second Spectrum (Genius Sports)''s developer surface includes developer portal and 7 more developer resources.'
@@ -87,7 +87,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 8.8
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -97,9 +97,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/second-spectrum/refs/heads/main/screenshots/second-spectrum-2026-06-20T193622.png
 security:
@@ -110,8 +110,8 @@ security:
 slug: second-spectrum
 tags:
 - Sports Tracking
-- Computer Vision
-- AI
+- Computer-Vision
+- Artificial Intelligence
 - Broadcast
 - NBA
 - Premier League

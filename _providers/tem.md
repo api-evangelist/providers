@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Private platform API powering the Tem RED utility application. Served from an AWS API Gateway at api.tem.energy and gated behind OIDC authentication; no public OpenAPI, SDK, or developer documentation
@@ -84,7 +84,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 14.3
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -94,15 +94,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 15.3
+  previous_composite: 14.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

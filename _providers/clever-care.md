@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -225,8 +225,8 @@ image: https://fhir-portal.clevercarehealthplan.com/api-docs/images/cc_logo_H.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: clever-care-mcp.yml
-  slug: clever-care-mcpyml
+  name: Clever Care MCP Server
+  slug: clever-care-mcp-server
 modified: '2026-07-18'
 name: Clever Care
 nav: Providers
@@ -244,7 +244,7 @@ scopes:
 score:
   band: developing
   composite: 39.5
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -254,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 45.4
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,9 +271,9 @@ score:
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/screenshots/clever-care-2026-07-25T205602.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Generate merchant-specific and one-time use credit card numbers that link back to your bank
@@ -83,8 +83,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/privacy-com/refs/heads/main/screenshots/privacy-com-2026-06-20T192119.png
 security:

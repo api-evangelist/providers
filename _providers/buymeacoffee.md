@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ modified: '2026-07-05'
 name: Buy Me a Coffee
 nav: Providers
 network: true
-overview: 'Buy Me a Coffee publishes 3 APIs on the [APIs.io](https://apis.io/) network: Extras API, Subscriptions API, and Supporters API. Tagged areas include Creator Economy, Memberships, Subscriptions, Tips, and Payments.
+overview: 'Buy Me a Coffee publishes 3 APIs on the [APIs.io](https://apis.io/) network: Extras API, Subscriptions API, and Supporters API. Tagged areas include Creator Economy, Memberships, Subscription, Tips, and Payments.
 
 
   Buy Me a Coffee''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.8
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -144,7 +144,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.9
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +158,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/screenshots/buymeacoffee-2026-07-25T204126.png
 security:
@@ -175,7 +175,7 @@ slug: buymeacoffee
 tags:
 - Creator Economy
 - Memberships
-- Subscriptions
+- Subscription
 - Tips
 - Payments
 - Donations

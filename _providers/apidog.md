@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -308,10 +308,10 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: apidog-mcp-server
+  name: Apidog MCP Server
   slug: apidog-mcp-server
 - description: ''
-  name: apidog-mcp-server
+  name: Apidog MCP Server
   slug: apidog-mcp-server-2
 modified: '2026-05-22'
 name: Apidog
@@ -357,18 +357,18 @@ rules:
   slug: apidog-rules
 score:
   band: developing
-  composite: 51.5
-  delta: -11.7
+  composite: 52.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 74.1
     developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 60.5
-  previous_composite: 63.2
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -376,9 +376,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/screenshots/apidog-2026-06-20T172233.png
 security:
 - kind: authentication

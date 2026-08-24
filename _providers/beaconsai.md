@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A live, first-party Model Context Protocol server exposing a Beacons creator's own data to an agent. Discovered through the RFC 9728 Protected Resource Metadata document Beacons serves at https://beac
@@ -134,11 +134,11 @@ image: https://beacons.ai/_framerusercontent/assets/xYEVVu9ePuRZMJOTTdnZi0MEUEM.
 layout: provider
 mcp_servers:
 - description: ''
-  name: beaconsai-mcp.yml
-  slug: beaconsai-mcpyml
+  name: Beacons Creator MCP
+  slug: beacons-creator-mcp
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Beacons.ai MCP Server
+  slug: beaconsai-mcp-server
 modified: '2026-08-13'
 name: Beacons.ai
 nav: Providers
@@ -164,7 +164,7 @@ scopes:
 score:
   band: thin
   composite: 32.0
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -174,12 +174,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 31.5
+  previous_composite: 32.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconsai/refs/heads/main/screenshots/beaconsai-2026-07-25T202526.png
 security:
@@ -204,6 +204,6 @@ tags:
 - Creator Monetization
 - Influencer Software
 - MCP
-- Agent Native
+- agent-native
 website: https://beacons.ai
 ---

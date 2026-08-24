@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -285,18 +285,18 @@ rules:
   slug: jobber-rules
 score:
   band: developing
-  composite: 52.1
-  delta: -5.7
+  composite: 52.6
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.6
     developer_ergonomics: 42.9
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.8
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -304,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobber/refs/heads/main/screenshots/jobber-2026-06-20T183746.png
 security:
 - kind: authentication
@@ -350,7 +350,7 @@ tags:
 - Dispatching
 - Mobile Workforce
 - CRM
-- SaaS
+- Software-as-a-Service
 - GraphQL
 use_cases:
 - description: Mirror Jobber clients into a marketing or CRM platform and push outreach events back into Jobber as Requests or Notes.

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -222,8 +222,8 @@ image: https://api.involve.asia/docs/assets/f4c704c9-e5f3-4fea-8ccd-89209c3f2451
 layout: provider
 mcp_servers:
 - description: ''
-  name: involve-asia-mcp.yml
-  slug: involve-asia-mcpyml
+  name: Involve Asia MCP Server
+  slug: involve-asia-mcp-server
 modified: '2026-08-13'
 name: Involve Asia
 nav: Providers
@@ -247,7 +247,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.7
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -257,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 52.4
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +268,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/screenshots/involve-asia-2026-07-25T222801.png
 security:
@@ -289,9 +289,9 @@ tags:
 - Publishers
 - Creators
 - Conversions
-- Deeplinks
+- Deep Links
 - Commissions
-- Ecommerce
+- E-Commerce
 - Southeast Asia
 - Shopee
 - Company

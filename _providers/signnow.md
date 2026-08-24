@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ modified: '2026-05-19'
 name: SignNow
 nav: Providers
 network: true
-overview: 'SignNow publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Envelopes API, and 4 more. Tagged areas include E-Signature, Document Management, Electronic Signature, and Workflow Automation.
+overview: 'SignNow publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Envelopes API, and 4 more. Tagged areas include E-Signature, Document-Management, Electronic Signature, and Workflow-Automation.
 
 
   The SignNow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -248,18 +248,18 @@ rules:
   slug: signnow-rules
 score:
   band: developing
-  composite: 42.8
-  delta: -10.5
+  composite: 43.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 61.7
     developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 53.3
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -267,9 +267,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/screenshots/signnow-2026-06-20T193914.png
 security:
 - kind: authentication
@@ -283,8 +283,8 @@ security:
 slug: signnow
 tags:
 - E-Signature
-- Document Management
+- Document-Management
 - Electronic Signature
-- Workflow Automation
+- Workflow-Automation
 website: https://www.signnow.com/developers
 ---

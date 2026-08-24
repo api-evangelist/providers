@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ modified: '2026-05-19'
 name: Public APIs
 nav: Providers
 network: true
-overview: 'Public APIs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Entries API, and Health API. Tagged areas include API Aggregation, API Directory, API Discovery, Free APIs, and Open Source.'
+overview: 'Public APIs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Entries API, and Health API. Tagged areas include API Aggregation, API Directory, API Discovery, Free APIs, and Open-Source.'
 plans:
 - name: Public Apis Plans Pricing
   plan_count: 3
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -124,7 +124,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.6
+  previous_composite: 20.3
   provenance:
     agentic_access: derived
     contracts:
@@ -132,8 +132,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/screenshots/public-apis-2026-06-20T192252.png
 slug: public-apis
@@ -142,5 +142,5 @@ tags:
 - API Directory
 - API Discovery
 - Free APIs
-- Open Source
+- Open-Source
 ---

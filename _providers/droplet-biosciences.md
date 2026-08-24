@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The WordPress core REST API served from the company''s marketing site. It is live, anonymous for published content, and self-describing: the discovery document at /wp-json/ lists 472 routes across 19 n'
@@ -114,8 +114,8 @@ image: https://dropletbiosci.com/wp-content/uploads/2022/10/cropped-Droplet-Favi
 layout: provider
 mcp_servers:
 - description: ''
-  name: droplet-biosciences-mcp.yml
-  slug: droplet-biosciences-mcpyml
+  name: Droplet Biosciences MCP Server
+  slug: droplet-biosciences-mcp-server
 modified: '2026-08-12'
 name: Droplet Biosciences
 nav: Providers
@@ -141,7 +141,7 @@ scopes:
 score:
   band: emerging
   composite: 23.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -151,7 +151,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.8
+  previous_composite: 23.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -161,8 +161,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

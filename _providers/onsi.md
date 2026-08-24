@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -167,8 +167,8 @@ image: https://framerusercontent.com/assets/Kgx16PhdTJfIAzqiv0XeASdgeZU.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: onsi-mcp.yml
-  slug: onsi-mcpyml
+  name: Onsi MCP Server
+  slug: onsi-mcp-server
 modified: '2026-07-20'
 name: Onsi
 nav: Providers
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.1
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -195,7 +195,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 42.4
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,8 +212,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/screenshots/onsi-2026-08-07T190412.png
 security:

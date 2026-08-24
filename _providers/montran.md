@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -650,7 +650,7 @@ modified: '2026-05-19'
 name: Montran
 nav: Providers
 network: true
-overview: 'Montran publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Structures API, Accounts API, and 26 more. Tagged areas include Banking, Central Banking, Financial Services, ISO 20022, and Market Infrastructure.
+overview: 'Montran publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Structures API, Accounts API, and 26 more. Tagged areas include Banking, Central Banking, Financial-Services, ISO 20022, and Market Infrastructure.
 
 
   The Montran catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -685,7 +685,7 @@ scopes:
 score:
   band: developing
   composite: 44.7
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -695,7 +695,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 48.4
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -709,8 +709,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/screenshots/montran-2026-06-20T185750.png
 security:
@@ -726,12 +726,12 @@ slug: montran
 tags:
 - Banking
 - Central Banking
-- Financial Services
+- Financial-Services
 - ISO 20022
 - Market Infrastructure
 - Messaging
 - Payments
 - Real-Time Payments
-- SWIFT
+- Swift
 website: https://www.montran.com/
 ---

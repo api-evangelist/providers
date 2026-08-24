@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Once you followed above steps from [Getting started](#section/Getting-Started) and that you have your signed JWT token, you can request the access token.
@@ -182,8 +182,8 @@ image: images/delivery-hero-on-demand-rider-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: delivery-hero-mcp.yml
-  slug: delivery-hero-mcpyml
+  name: Delivery Hero MCP Server
+  slug: delivery-hero-mcp-server
 modified: '2026-07-18'
 name: Delivery Hero
 nav: Providers
@@ -204,7 +204,7 @@ scopes:
 score:
   band: thin
   composite: 32.8
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 38.7
+  previous_composite: 32.8
   provenance:
     conformance: derived
     contracts:
@@ -224,9 +224,9 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png
 security:
 - kind: authentication
@@ -245,7 +245,7 @@ tags:
 - Logistics
 - Quick Commerce
 - Last Mile Delivery
-- On Demand
-- Orders
+- On-Demand
+- Order
 website: https://deliveryhero.com
 ---

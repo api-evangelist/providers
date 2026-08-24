@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API for creating and managing CloudShell environments — browser-based terminal sessions for AWS resource management.
@@ -170,8 +170,8 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-cloudshell-mcp.yml
-  slug: amazon-cloudshell-mcpyml
+  name: Amazon CloudShell MCP Server
+  slug: amazon-cloudshell-mcp-server
 modified: '2026-06-20'
 name: Amazon CloudShell
 nav: Providers
@@ -198,7 +198,7 @@ rules:
 score:
   band: thin
   composite: 33.9
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -208,12 +208,12 @@ score:
     discoverability: 77.8
     governance: 59.1
     operational_transparency: 18.4
-  previous_composite: 31.9
+  previous_composite: 33.9
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/screenshots/amazon-cloudshell-2026-07-25T195948.png
 security:

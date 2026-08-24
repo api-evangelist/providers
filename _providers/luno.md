@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for Luno market data, accounts, trading, transfers and withdrawals, plus a WebSocket market-data stream. Legacy API under /api/1/ and the newer Exchange API under /api/exchange/{1,2,3}/.
@@ -162,9 +162,9 @@ description: Luno is a cryptocurrency exchange founded in 2013 and operating acr
 image: https://github.com/luno.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: luno-mcp.yml
-  slug: luno-mcpyml
+- description: Official MCP server for the Luno Cryptocurrency API.
+  name: Luno MCP Server
+  slug: luno-mcp-server
 modified: '2026-07-20'
 name: Luno
 nav: Providers
@@ -184,7 +184,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.2
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -194,7 +194,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 51.9
+  previous_composite: 53.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -205,8 +205,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/screenshots/luno-2026-07-25T225732.png
 security:
@@ -235,8 +235,8 @@ tags:
 - Ethereum
 - Trading
 - Fintech
-- Wallet
+- Wallets
 - Blockchain
-- Financial Services
+- Financial-Services
 website: https://www.luno.com/
 ---

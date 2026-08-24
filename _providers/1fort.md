@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 2
@@ -723,13 +723,13 @@ image: https://1fort.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: 1fort-mcp.yml
-  slug: 1fort-mcpyml
+  name: 1Fort MCP Server
+  slug: 1fort-mcp-server
 modified: '2026-08-05'
 name: 1Fort
 nav: Providers
 network: true
-overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, including agent_runtime (v2) API, Analytics API, application: applications API, and 86 more. Tagged areas include insurance, insurtech, commercial-insurance, cyber-insurance, and insurance-broker.
+overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, including agent_runtime (v2) API, Analytics API, application: applications API, and 86 more. Tagged areas include Insurance, Insurtech, Commercial Insurance, Cyber Insurance, and Insurance Broker.
 
 
   The 1Fort catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -743,18 +743,18 @@ rate_limits:
   slug: 1fort-rate-limits
 score:
   band: strong
-  composite: 56.2
-  delta: 5.1
+  composite: 58.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 64.2
     developer_ergonomics: 37.5
-    discoverability: 63.0
+    discoverability: 81.5
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 51.1
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -771,9 +771,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/screenshots/1fort-2026-08-07T160647.png
 security:
 - kind: authentication
@@ -794,17 +794,17 @@ security:
   summary_line: SOC 2 Type II, HIPAA, CCPA
 slug: 1fort
 tags:
-- insurance
-- insurtech
-- commercial-insurance
-- cyber-insurance
-- insurance-broker
-- quoting
-- policy-management
+- Insurance
+- Insurtech
+- Commercial Insurance
+- Cyber Insurance
+- Insurance Broker
+- Quoting
+- Policy Management
 - premium-finance
-- payments
-- workflow-automation
-- artificial-intelligence
-- agentic-ai
+- Payments
+- Workflow-Automation
+- Artificial Intelligence
+- Agentic AI
 website: https://1fort.ai/
 ---

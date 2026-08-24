@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: BrewDog's Universal Commerce Protocol shopping service, exposed over MCP at https://brewdog.com/api/ucp/mcp and advertised by the store's own /.well-known/ucp merchant profile and /agents.md. Supports
@@ -152,8 +152,8 @@ image: https://cdn.shopify.com/s/files/1/0822/7281/3382/files/BrewDogLogo.png?v=
 layout: provider
 mcp_servers:
 - description: ''
-  name: brewdog-mcp.yml
-  slug: brewdog-mcpyml
+  name: BrewDog MCP Server
+  slug: brewdog-mcp-server
 modified: '2026-08-02'
 name: BrewDog
 nav: Providers
@@ -171,7 +171,7 @@ scopes:
 score:
   band: emerging
   composite: 23.0
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -181,13 +181,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.2
+  previous_composite: 23.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/screenshots/brewdog-2026-08-07T162802.png
 security:
@@ -206,7 +206,7 @@ tags:
 - Beer
 - Brewing
 - Retail
-- eCommerce
+- E-Commerce
 - Consumer Packaged Goods
 - Hospitality
 - Agentic Commerce

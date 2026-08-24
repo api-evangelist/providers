@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 16
 apis:
 - description: The ApiKeys API from Voltair — 2 operation(s) for apikeys.
@@ -227,9 +227,9 @@ description: Voltair (Y Combinator W26, San Francisco) is building a globally di
 image: https://avatars.githubusercontent.com/u/203074429
 layout: provider
 mcp_servers:
-- description: ''
-  name: voltair-mcp.yml
-  slug: voltair-mcpyml
+- description: No official Voltair MCP server was found (no public MCP docs, npm packages, or registry entries as of 2026-07-21). This is a candidate tool surface derived from the published OpenAPI at https://api.vo
+  name: Voltair MCP Server
+  slug: voltair-mcp-server
 modified: '2026-07-21'
 name: Voltair
 nav: Providers
@@ -249,7 +249,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.6
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -259,7 +259,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 31.0
+  previous_composite: 33.6
   provenance:
     conformance: derived
     contracts:
@@ -275,8 +275,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

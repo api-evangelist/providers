@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-21'
 name: Useful Sensors
 nav: Providers
 network: true
-overview: 'Useful Sensors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Speech To Text, Text To Speech, and Voice.
+overview: 'Useful Sensors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Speech-to-Text, Text-to-Speech, and Voice.
 
 
   Useful Sensors'' developer surface includes documentation, getting-started guide, support, CLI, changelog, and 8 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 18.1
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,9 +110,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 17.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -123,12 +123,12 @@ slug: useful-sensors
 tags:
 - Company
 - Ai Ml
-- Speech To Text
-- Text To Speech
+- Speech-to-Text
+- Text-to-Speech
 - Voice
 - Edge AI
 - On-Device AI
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 website: https://usefulsensors.com
 ---

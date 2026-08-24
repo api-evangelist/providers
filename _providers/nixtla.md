@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -218,14 +218,14 @@ description: Nixtla is an enterprise time-series intelligence platform built aro
 image: https://www.nixtla.io/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: nixtla-mcp.yml
-  slug: nixtla-mcpyml
+- description: Nixtla ships MCP tools that expose TimeGPT time-series forecasting and anomaly detection to AI agents. Announced 2025-12-18 as part of Nixtla Enterprise's foundation-models + MCP + agentic release. Di
+  name: Nixtla MCP Server
+  slug: nixtla-mcp-server
 modified: '2026-07-20'
 name: Nixtla
 nav: Providers
 network: true
-overview: 'Nixtla publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Anomaly Detection API, Cross Validation API, excluded API, and 5 more. Tagged areas include Company, Time Series, Forecasting, Anomaly Detection, and Machine Learning.
+overview: 'Nixtla publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Anomaly Detection API, Cross Validation API, excluded API, and 5 more. Tagged areas include Company, Time Series, Forecasting, Anomaly Detection, and Machine-Learning.
 
 
   Nixtla''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 23 more developer resources.'
@@ -233,7 +233,7 @@ random_paper: 5
 score:
   band: developing
   composite: 52.7
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 55.2
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/screenshots/nixtla-2026-08-07T185350.png
 security:
@@ -277,7 +277,7 @@ tags:
 - Time Series
 - Forecasting
 - Anomaly Detection
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Foundation Model
 - Predictive Analytics

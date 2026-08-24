@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ rules:
 score:
   band: developing
   composite: 46.8
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -195,7 +195,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 52.4
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -209,9 +209,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 46.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/screenshots/narvar-2026-06-20T185948.png
 security:
 - kind: authentication
@@ -233,7 +233,7 @@ tags:
 - Delivery Notifications
 - Returns
 - Exchanges
-- Ecommerce
+- E-Commerce
 - Shipments
 - Customer Experience
 website: https://corp.narvar.com/

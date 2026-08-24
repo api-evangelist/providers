@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Latenode''s low-code automation platform for building AI workflows with prebuilt SaaS integrations and access to multiple AI models. Latenode provides webhook trigger and action nodes and a JavaScript '
@@ -85,7 +85,7 @@ modified: '2026-04-28'
 name: Latenode
 nav: Providers
 network: true
-overview: 'Latenode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, AI Workflows, Automation, Integration, and Low-Code.
+overview: 'Latenode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, AI Workflows, Automation, Integration, and Low-Code.
 
 
   Latenode''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.3
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -111,9 +111,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 18.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/latenode/refs/heads/main/screenshots/latenode-2026-06-20T184324.png
 security:
@@ -123,12 +123,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: latenode
 tags:
-- AI
+- Artificial Intelligence
 - AI Workflows
 - Automation
 - Integration
 - Low-Code
 - No-Code
-- Webhooks
+- Webhook
 website: https://latenode.com
 ---

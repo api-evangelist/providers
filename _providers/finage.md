@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Read-only REST API for real-time and historical market data: last quotes/trades, OHLCV aggregates, and snapshots for US and global stocks, forex, crypto, CFD indices and ETFs, plus fundamentals (finan'
@@ -174,9 +174,9 @@ description: Finage is a London-based real-time and historical market data provi
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finage.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: finage-mcp.yml
-  slug: finage-mcpyml
+- description: Finage publishes no official MCP server (searched the official MCP registry, npm, and the Finage docs/GitHub org on 2026-07-22 — no hits). This is an API Evangelist candidate tool list derived one-too
+  name: Finage MCP Server
+  slug: finage-mcp-server
 modified: '2026-07-22'
 name: Finage
 nav: Providers
@@ -200,7 +200,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.8
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -210,7 +210,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 54.6
+  previous_composite: 57.8
   provenance:
     conformance: derived
     contracts:
@@ -226,8 +226,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/screenshots/finage-2026-06-20T181209.png
 security:

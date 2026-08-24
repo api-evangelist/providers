@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: GraphQL API for clients (property owners and managers) to create and track reactive and recurrent work orders, residents, locations, service requests, invoices, proposals, Turn/Reno projects, ratings,
@@ -158,8 +158,8 @@ image: https://assets-global.website-files.com/650de1047e0c5de5860e054c/656a1bd2
 layout: provider
 mcp_servers:
 - description: ''
-  name: sms-assist-mcp.yml
-  slug: sms-assist-mcpyml
+  name: SMS Assist MCP Server
+  slug: sms-assist-mcp-server
 modified: '2026-07-21'
 name: SMS Assist
 nav: Providers
@@ -175,7 +175,7 @@ random_paper: 18
 score:
   band: developing
   composite: 44.3
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -185,13 +185,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 46.6
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/screenshots/sms-assist-2026-08-17T081935.png
 security:
@@ -211,9 +211,9 @@ tags:
 - Work Orders
 - Field Service
 - Maintenance
-- Real Estate
+- Real-Estate
 - GraphQL
-- Webhooks
+- Webhook
 - Vendor Network
 website: https://www.lessen.com/
 ---

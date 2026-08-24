@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Programmatic access to the TypeScript compiler. The Compiler API allows developers to parse TypeScript files into ASTs, perform type checking, emit JavaScript, and transform code programmatically.
@@ -177,7 +177,7 @@ rules:
 score:
   band: emerging
   composite: 25.9
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -187,10 +187,10 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 32.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 25.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/screenshots/typescript-2026-06-20T195902.png
 security:
 - kind: domain-security

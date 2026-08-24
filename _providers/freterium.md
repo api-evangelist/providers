@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 12.7
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -94,9 +94,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freterium/refs/heads/main/screenshots/freterium-2026-07-25T215213.png
 security:
@@ -113,6 +113,6 @@ tags:
 - Freight
 - Fleet Management
 - TMS
-- SaaS
+- Software-as-a-Service
 website: https://freterium.ai/
 ---

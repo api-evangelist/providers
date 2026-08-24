@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: '2026-05-19'
 name: Apache HttpComponents
 nav: Providers
 network: true
-overview: 'Apache HttpComponents publishes 2 APIs on the [APIs.io](https://apis.io/) network: Configuration API and Requests API. Tagged areas include Apache, HTTP Client, Java, Open Source, and SDK.
+overview: 'Apache HttpComponents publishes 2 APIs on the [APIs.io](https://apis.io/) network: Configuration API and Requests API. Tagged areas include Apache, HTTP Client, Java, Open-Source, and SDK.
 
 
   The Apache HttpComponents catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -237,18 +237,18 @@ rules:
   slug: apache-http-spectral-rules
 score:
   band: thin
-  composite: 34.1
-  delta: -6.1
+  composite: 34.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 55.9
     developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 21.1
-  previous_composite: 40.2
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -256,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-http/refs/heads/main/screenshots/apache-http-2026-06-20T172105.png
 security:
 - kind: domain-security
@@ -274,7 +274,7 @@ tags:
 - Apache
 - HTTP Client
 - Java
-- Open Source
+- Open-Source
 - SDK
 use_cases:
 - description: Consume REST APIs from Java applications with connection pooling and retry logic.

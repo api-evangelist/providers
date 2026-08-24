@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Framework-agnostic HTTP API behind the AI Autocomplete SDKs. A single POST /api/suggest endpoint drives keystroke-by-keystroke guided autocomplete over a placeholder-based query model, with a POST /ap
@@ -127,13 +127,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/magicx.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: magicx-mcp.yml
-  slug: magicx-mcpyml
+  name: MagicX MCP Server
+  slug: magicx-mcp-server
 modified: '2026-07-20'
 name: MagicX
 nav: Providers
 network: true
-overview: 'MagicX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Autocomplete, Developer Tools, and SDK.
+overview: 'MagicX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Autocomplete, Developer Tools, and SDK.
 
 
   MagicX''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, and 16 more developer resources.'
@@ -141,7 +141,7 @@ random_paper: 3
 score:
   band: thin
   composite: 32.8
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -151,13 +151,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 32.7
+  previous_composite: 32.8
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicx/refs/heads/main/screenshots/magicx-2026-07-25T225856.png
 security:
@@ -172,12 +172,12 @@ security:
 slug: magicx
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Autocomplete
 - Developer Tools
 - SDK
-- Natural Language
+- Natural-Language
 - Productivity
-- Machine Learning
+- Machine-Learning
 website: https://magicx.ai
 ---

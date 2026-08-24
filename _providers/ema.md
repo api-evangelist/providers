@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to Ema AI Employees. REST (HTTP/JSON) quickstart plus a gRPC-Web path for advanced endpoints, covering Chat, Workflows, Dashboards, Document Generation, Templates, Triggers and ten
@@ -121,7 +121,7 @@ modified: '2026-07-19'
 name: Ema
 nav: Providers
 network: true
-overview: 'Ema publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Agents, AI Employees, and Automation.
+overview: 'Ema publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, AI Employees, and Automation.
 
 
   Ema''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 13 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 25.8
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -139,9 +139,9 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ema/refs/heads/main/screenshots/ema-2026-07-25T213219.png
 security:
@@ -164,12 +164,12 @@ security:
 slug: ema
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - AI Employees
 - Automation
 - Enterprise
-- Workflow Automation
+- Workflow-Automation
 - Conversational AI
 website: https://www.ema.ai
 ---

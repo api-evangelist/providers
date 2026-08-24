@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -133,7 +133,7 @@ modified: '2026-05-23'
 name: Saxbys Coffee
 nav: Providers
 network: true
-overview: 'Saxbys Coffee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Coffee, Cafe, Hospitality, Food And Beverage, and Quick Service Restaurant.
+overview: 'Saxbys Coffee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Coffee, Cafe, Hospitality, Food and Beverage, and Quick Service Restaurant.
 
 
   Saxbys Coffee''s developer surface includes developer portal, engineering blog, and 21 more developer resources.'
@@ -141,7 +141,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 8.5
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -151,15 +151,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 10.0
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saxbys-coffee/refs/heads/main/screenshots/saxbys-coffee-2026-06-20T193447.png
 security:
@@ -172,7 +172,7 @@ tags:
 - Coffee
 - Cafe
 - Hospitality
-- Food And Beverage
+- Food and Beverage
 - Quick Service Restaurant
 - Education
 - Experiential Learning

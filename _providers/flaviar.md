@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Flaviar''s Shopify storefront exposes an agent-driven commerce surface built on the Universal Commerce Protocol (ucp.dev): a discovery document at /.well-known/ucp and a hosted MCP endpoint for catalog'
@@ -111,13 +111,13 @@ image: https://flaviar.com/cdn/shop/files/image_29.png?v=1694778656
 layout: provider
 mcp_servers:
 - description: ''
-  name: flaviar-mcp.yml
-  slug: flaviar-mcpyml
+  name: Flaviar MCP Server
+  slug: flaviar-mcp-server
 modified: '2026-07-19'
 name: Flaviar
 nav: Providers
 network: true
-overview: 'Flaviar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spirits, Whiskey, Ecommerce, and Retail.
+overview: 'Flaviar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spirits, Whiskey, E-Commerce, and Retail.
 
 
   Flaviar''s developer surface includes documentation, signup flow, pricing, authentication, and 13 more developer resources.'
@@ -129,15 +129,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.0
-  delta: -0.7
+  composite: 24.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
   needs_work:
@@ -146,12 +146,12 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 23.7
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flaviar/refs/heads/main/screenshots/flaviar-2026-08-07T165347.png
 security:
@@ -168,7 +168,7 @@ tags:
 - Company
 - Spirits
 - Whiskey
-- Ecommerce
+- E-Commerce
 - Retail
 - Beverages
 - Subscription

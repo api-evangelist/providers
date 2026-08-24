@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Agents API from Beyond Presence — 2 operation(s) for agents.
@@ -243,8 +243,8 @@ image: https://beyondpresence.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: beyond-presence-mcp.yml
-  slug: beyond-presence-mcpyml
+  name: Beyond Presence MCP Server
+  slug: beyond-presence-mcp-server
 modified: '2026-07-18'
 name: Beyond Presence
 nav: Providers
@@ -260,7 +260,7 @@ random_paper: 6
 score:
   band: strong
   composite: 56.6
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -270,7 +270,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 59.8
+  previous_composite: 56.6
   provenance:
     conformance: first-party
     contracts:
@@ -280,8 +280,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-presence/refs/heads/main/screenshots/beyond-presence-2026-07-25T202842.png
 security:
@@ -307,6 +307,6 @@ tags:
 - Conversational AI
 - Agents
 - Speech To Video
-- Real Time Communication
+- Real-Time Communication
 website: https://docs.bey.dev
 ---

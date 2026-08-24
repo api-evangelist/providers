@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The CommunicationRequest API from Lifen — 3 operation(s) for communicationrequest.
@@ -252,8 +252,8 @@ image: https://files.readme.io/ea56e58-small-Logo_couleur.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lifen-mcp.yml
-  slug: lifen-mcpyml
+  name: Lifen MCP Server
+  slug: lifen-mcp-server
 modified: '2026-07-19'
 name: Lifen
 nav: Providers
@@ -278,7 +278,7 @@ scopes:
 score:
   band: strong
   composite: 59.8
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -288,7 +288,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 59.5
+  previous_composite: 59.8
   provenance:
     conformance: first-party
     contracts:
@@ -304,8 +304,8 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png
 security:

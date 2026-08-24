@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: 'Create and update user profiles, track events, manage devices, merge and delete users, run bulk imports and file imports, and submit GDPR/CCPA data subject requests. The primary ingestion surface for '
@@ -316,13 +316,13 @@ image: https://www.moengage.com/wp-content/uploads/2023/03/MoEngage-Logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: moengage-mcp.yml
-  slug: moengage-mcpyml
+  name: MoEngage MCP Server
+  slug: moengage-mcp-server
 modified: '2026-08-14'
 name: MoEngage
 nav: Providers
 network: true
-overview: 'MoEngage publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Data API, Campaigns API, Push API, and 7 more. Tagged areas include customer-engagement, marketing-automation, customer-data-platform, push-notifications, and email.
+overview: 'MoEngage publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Data API, Campaigns API, Push API, and 7 more. Tagged areas include Customer Engagement, Marketing Automation, Customer Data Platform, Push Notifications, and Email.
 
 
   The MoEngage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -346,7 +346,7 @@ scopes:
 score:
   band: exemplar
   composite: 76.3
-  delta: 5.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -356,7 +356,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 71.2
+  previous_composite: 76.3
   provenance:
     conformance: first-party
     contracts:
@@ -372,9 +372,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/screenshots/moengage-2026-08-07T184040.png
 security:
 - kind: authentication
@@ -395,20 +395,20 @@ security:
   summary_line: SOC 2 Type 2, CSA STAR Level 2, ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO 22301:2019, HIPAA, GDPR, CCPA
 slug: moengage
 tags:
-- customer-engagement
-- marketing-automation
-- customer-data-platform
-- push-notifications
-- email
-- sms
-- whatsapp
-- in-app-messaging
-- segmentation
-- personalization
-- campaign-management
-- analytics
-- mobile-sdk
-- mcp
-- martech
+- Customer Engagement
+- Marketing Automation
+- Customer Data Platform
+- Push Notifications
+- Email
+- SMS
+- WhatsApp
+- In-App Messaging
+- Segmentation
+- Personalization
+- Campaign Management
+- Analytics
+- Mobile SDK
+- MCP
+- MarTech
 website: https://www.moengage.com/
 ---

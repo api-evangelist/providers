@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -465,7 +465,7 @@ modified: '2026-05-23'
 name: Jack Henry & Associates
 nav: Providers
 network: true
-overview: 'Jack Henry & Associates publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Enterprise Event System, Abilities API, Accounts API, and 35 more. Tagged areas include Financial Services, Banking, Core Banking, Digital Banking, and Payments.
+overview: 'Jack Henry & Associates publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Enterprise Event System, Abilities API, Accounts API, and 35 more. Tagged areas include Financial-Services, Banking, Core Banking, Digital Banking, and Payments.
 
 
   The Jack Henry & Associates catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 6 Spectral governance rulesets.
@@ -549,18 +549,18 @@ rules:
   slug: jxchange-rest-rules
 score:
   band: developing
-  composite: 39.7
-  delta: -2.1
+  composite: 40.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 45.5
+    contract_governance: 54.5
     contract_quality: 62.7
     developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 45.5
+    governance: 54.5
     operational_transparency: 5.3
-  previous_composite: 41.8
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -574,8 +574,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/screenshots/jack-henry-2026-06-20T183648.png
 security:
@@ -589,7 +589,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: jack-henry
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Core Banking
 - Digital Banking
@@ -600,7 +600,7 @@ tags:
 - Community Banks
 - Credit Unions
 - Fintech
-- OAuth
+- Authentication
 - OpenID Connect
 website: https://www.jackhenry.com/
 ---

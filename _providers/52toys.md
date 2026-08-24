@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the official 52TOYS Shopify storefront via the Universal Commerce Protocol MCP endpoint — catalog search, cart, and buyer-approved checkout. Read-only catalog browsing is un
@@ -103,8 +103,8 @@ image: https://hi52toys.com/cdn/shop/files/52Toys_Logo.png?v=1763377030&width=20
 layout: provider
 mcp_servers:
 - description: ''
-  name: 52toys-mcp.yml
-  slug: 52toys-mcpyml
+  name: 52TOYS MCP Server
+  slug: 52toys-mcp-server
 modified: '2026-07-17'
 name: 52TOYS
 nav: Providers
@@ -121,23 +121,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 20.0
-  delta: -1.3
+  composite: 21.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.3
+  previous_composite: 21.1
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/screenshots/52toys-2026-07-25T181212.png
 security:
@@ -156,7 +156,7 @@ tags:
 - Collectibles
 - Toys
 - Retail
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 website: https://52toys.com

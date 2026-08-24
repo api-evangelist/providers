@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -214,8 +214,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siro.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: siro-mcp.yml
-  slug: siro-mcpyml
+  name: Starter Kit
+  slug: starter-kit
 modified: '2026-08-13'
 name: Siro
 nav: Providers
@@ -236,7 +236,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.1
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -246,7 +246,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 49.7
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -257,8 +257,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/screenshots/siro-2026-08-17T081908.png
 security:
@@ -282,9 +282,9 @@ tags:
 - Conversation Intelligence
 - Field Sales
 - CRM
-- AI
-- Speech to Text
-- Webhooks
-- Integrations
+- Artificial Intelligence
+- Speech-to-Text
+- Webhook
+- Integration
 website: https://siro.ai/
 ---

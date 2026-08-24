@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Per-tenant REST API for the Chariot AI operations platform, organized as versioned microservice paths under /api/{service}/{version}/ — identity, training, evaluation, notification, catalog, serve and
@@ -112,7 +112,7 @@ modified: '2026-08-05'
 name: Striveworks
 nav: Providers
 network: true
-overview: 'Striveworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, artificial-intelligence, machine-learning, mlops, and aiops.
+overview: 'Striveworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, MLOps, and AIOps.
 
 
   Striveworks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 12 more developer resources.'
@@ -120,7 +120,7 @@ random_paper: 17
 score:
   band: thin
   composite: 27.0
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -130,7 +130,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 25.1
+  previous_composite: 27.0
   provenance:
     conformance: first-party
   regulatory:
@@ -139,8 +139,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -154,18 +154,18 @@ security:
 slug: striveworks
 tags:
 - Company
-- artificial-intelligence
-- machine-learning
-- mlops
-- aiops
-- model-deployment
-- model-monitoring
-- inference
-- data-annotation
-- computer-vision
-- agentic-workflows
-- defense
-- govtech
-- edge-computing
+- Artificial Intelligence
+- Machine-Learning
+- MLOps
+- AIOps
+- Model Deployment
+- Model Monitoring
+- Inference
+- Data Annotation
+- Computer-Vision
+- Agentic Workflows
+- Defense
+- GovTech
+- Edge Computing
 website: https://www.striveworks.com/
 ---

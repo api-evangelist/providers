@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: King Abdulaziz University operates an institutional single sign-on portal (sso.kau.edu.sa) and an Oracle Access Manager federation login endpoint (iam.kau.edu.sa/oamsso-bin/login-fed.pl). These provid
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.0
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -123,15 +123,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.6
+  previous_composite: 21.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kau/refs/heads/main/screenshots/kau-2026-06-20T183925.png
 security:

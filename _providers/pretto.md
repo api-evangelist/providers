@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -126,7 +126,7 @@ modified: '2026-08-17'
 name: Pretto
 nav: Providers
 network: true
-overview: 'Pretto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech Insurtech, Mortgage, Lending, and Real Estate.
+overview: 'Pretto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech Insurtech, Mortgage, Lending, and Real-Estate.
 
 
   Pretto''s developer surface includes support, engineering blog, pricing, and 16 more developer resources.'
@@ -142,6 +142,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -151,6 +152,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
+  previous_composite: 16.8
   provenance:
     conformance: first-party
   regulatory:
@@ -159,8 +161,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Pretto Domain Security
@@ -172,10 +175,10 @@ tags:
 - Fintech Insurtech
 - Mortgage
 - Lending
-- Real Estate
+- Real-Estate
 - Brokerage
 - France
 - Consumer Finance
-- Financial Services
+- Financial-Services
 website: https://www.pretto.fr/
 ---

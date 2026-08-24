@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -890,18 +890,18 @@ scopes:
   summary_line: 10 scopes
 score:
   band: exemplar
-  composite: 76.2
-  delta: 8.6
+  composite: 76.7
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 72.9
     developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 52.6
-  previous_composite: 67.6
+  previous_composite: 76.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -918,9 +918,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/screenshots/availity-2026-06-20T172716.png
 security:
 - kind: authentication

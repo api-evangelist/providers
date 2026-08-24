@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,12 +39,12 @@ modified: '2026-07-20'
 name: Advanced Computer Communications
 nav: Providers
 network: true
-overview: Advanced Computer Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Routers, Wide Area Networking, and Remote Access.
+overview: Advanced Computer Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Router, Wide Area Networking, and Remote Access.
 random_paper: 7
 score:
   band: minimal
   composite: 0.6
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -62,21 +62,21 @@ score:
       reason: no_resolvable_host
     - owner: catalog
       reason: never_enriched
-  previous_composite: 4.3
+  previous_composite: 0.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: advanced-computer-communications
 tags:
 - Company
 - Networking
-- Routers
+- Router
 - Wide Area Networking
 - Remote Access
 - Telecommunications

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: API for managing general ledger operations including journals, budgets, and financial reporting.
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.7
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -128,9 +128,9 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 27.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-financials-12/refs/heads/main/screenshots/oracle-financials-12-2026-06-20T191134.png
 security:

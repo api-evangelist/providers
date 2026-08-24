@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Submit orders to Riskified for fraud and chargeback risk evaluation, in either a pre-authorization (Decide / Decision) or post-authorization (Submit / Decide) flow. Returns an APPROVED, DECLINED, or S
@@ -282,7 +282,7 @@ modified: '2026-05-25'
 name: Riskified
 nav: Providers
 network: true
-overview: 'Riskified publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud, Fraud Prevention, Chargebacks, Ecommerce, and Payments.
+overview: 'Riskified publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud, Fraud Prevention, Chargebacks, E-Commerce, and Payments.
 
 
   Riskified''s developer surface includes developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, pricing, and 41 more developer resources.'
@@ -290,7 +290,7 @@ random_paper: 9
 score:
   band: thin
   composite: 33.4
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -306,15 +306,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 31.7
+  previous_composite: 33.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/screenshots/riskified-2026-06-20T193133.png
 security:
@@ -337,10 +337,10 @@ tags:
 - Fraud
 - Fraud Prevention
 - Chargebacks
-- Ecommerce
+- E-Commerce
 - Payments
 - Risk
-- Machine Learning
+- Machine-Learning
 - Account Takeover
 - Policy Abuse
 - 3DS

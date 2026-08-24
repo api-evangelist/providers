@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,7 +108,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 20.6
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -118,11 +118,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 19.6
+  previous_composite: 20.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atmosphere/refs/heads/main/screenshots/atmosphere-2026-08-07T161852.png
 security:
@@ -138,7 +138,7 @@ tags:
 - Television
 - Advertising
 - Digital Signage
-- Out Of Home
+- Out-of-Home
 - Entertainment
 - Hospitality
 - Connected TV

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +27,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 45.4
-  scored_at: '2026-08-19'
+  score: 48.8
+  scored_at: '2026-08-24'
 api_count: 37
 apis:
 - description: Administrative reporting routes.
@@ -394,13 +395,13 @@ image: https://openworklabs.com/og-image-clean.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: openwork-mcp.yml
-  slug: openwork-mcpyml
+  name: OpenWork MCP
+  slug: openwork-mcp
 modified: '2026-07-20'
 name: Openwork
 nav: Providers
 network: true
-overview: 'Openwork publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Auth API, and 34 more. Tagged areas include Company, AI Agents, Open Source, Desktop, and Agent Runtime.
+overview: 'Openwork publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Auth API, and 34 more. Tagged areas include Company, AI Agents, Open-Source, Desktop, and Agent Runtime.
 
 
   The Openwork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -415,15 +416,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.0
-  delta: -1.1
+  composite: 50.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
     contract_quality: 63.3
     developer_ergonomics: 37.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
   previous_composite: 50.1
@@ -436,8 +437,8 @@ score:
       total: 37
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/screenshots/openwork-2026-08-17T124245.png
 security:
@@ -457,7 +458,7 @@ slug: openwork
 tags:
 - Company
 - AI Agents
-- Open Source
+- Open-Source
 - Desktop
 - Agent Runtime
 - MCP

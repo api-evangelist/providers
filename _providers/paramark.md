@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Paramark's production API, offered as a feature of the Advanced and Enterprise tiers. The service is live and answers anonymously at GET /healthz (HTTP 200 {"status":"ok"}) and is a FastAPI applicatio
@@ -115,7 +115,7 @@ modified: '2026-08-12'
 name: Paramark
 nav: Providers
 network: true
-overview: 'Paramark publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Marketing, Analytics, and Measurement.
+overview: 'Paramark publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application, Marketing, Analytics, and Measurements.
 
 
   Paramark''s developer surface includes pricing, engineering blog, authentication, and 14 more developer resources.'
@@ -136,7 +136,7 @@ scopes:
 score:
   band: thin
   composite: 26.4
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -146,11 +146,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 27.1
+  previous_composite: 26.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/screenshots/paramark-2026-08-07T191427.png
 security:
@@ -169,13 +169,13 @@ security:
 slug: paramark
 tags:
 - Company
-- Applications
+- Application
 - Marketing
 - Analytics
-- Measurement
+- Measurements
 - Marketing Mix Modeling
 - Incrementality
 - Advertising
-- AI
+- Artificial Intelligence
 website: https://paramark.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -372,18 +372,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.4
-  delta: -9.0
+  composite: 47.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 76.9
     developer_ergonomics: 50.0
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 56.4
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -391,9 +391,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/screenshots/adobe-premiere-2026-06-20T165010.png
 security:
 - kind: authentication

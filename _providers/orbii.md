@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -225,13 +225,13 @@ image: https://cdn.prod.website-files.com/6894ac031d066c1f144fb082/68bdc4495f740
 layout: provider
 mcp_servers:
 - description: ''
-  name: orbii-mcp.yml
-  slug: orbii-mcpyml
+  name: Orbii MCP Server
+  slug: orbii-mcp-server
 modified: '2026-07-20'
 name: Orbii
 nav: Providers
 network: true
-overview: 'Orbii publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Business Category Assignment API, Categories API, Clients API, and 12 more. Tagged areas include Company, Ai, Lending, Credit, and Fintech.
+overview: 'Orbii publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Business Category Assignment API, Categories API, Clients API, and 12 more. Tagged areas include Company, Artificial Intelligence, Lending, Credit, and Fintech.
 
 
   Orbii''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
@@ -239,7 +239,7 @@ random_paper: 8
 score:
   band: thin
   composite: 30.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -249,7 +249,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 30.0
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,8 +266,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/screenshots/orbii-2026-08-07T190850.png
 security:
@@ -282,7 +282,7 @@ security:
 slug: orbii
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Lending
 - Credit
 - Fintech

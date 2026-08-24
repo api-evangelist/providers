@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -143,8 +143,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flow-ai.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: flow-ai-mcp.yml
-  slug: flow-ai-mcpyml
+  name: Flow AI MCP Server
+  slug: flow-ai-mcp-server
 modified: '2026-07-19'
 name: Flow AI
 nav: Providers
@@ -172,8 +172,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/screenshots/flow-ai-2026-07-25T214827.png
 security:
@@ -195,7 +195,7 @@ tags:
 - Data
 - Runtime
 - SDK
-- Model Context Protocol
+- MCP
 - Analytics
 website: https://flow-ai.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The termscout-data API turns a commercial agreement into structured contract intelligence. Callers upload a contract (or point at a hosted public contract URL), poll processing status, then read back '
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.6
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -129,7 +129,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 42.5
+  previous_composite: 41.6
   provenance:
     conformance: derived
     contracts:
@@ -139,8 +139,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/screenshots/termscout-2026-08-17T082319.png
 security:
@@ -170,7 +170,7 @@ tags:
 - Procurement
 - Legal Operations
 - Sales Enablement
-- AI
+- Artificial Intelligence
 - Contract Data
 - Document Analysis
 website: https://termscout.com/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ random_paper: 8
 score:
   band: thin
   composite: 31.4
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -139,7 +139,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 33.6
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -147,8 +147,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/screenshots/userback-2026-06-20T200723.png
 security:
@@ -167,6 +167,6 @@ tags:
 - Visual Feedback
 - Session Replay
 - Product Management
-- SaaS
+- Software-as-a-Service
 website: https://www.userback.io
 ---

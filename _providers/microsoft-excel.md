@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -432,13 +432,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: microsoft-excel-mcp.yml
-  slug: microsoft-excel-mcpyml
+  name: Microsoft Excel MCP Server
+  slug: microsoft-excel-mcp-server
 modified: '2026-06-20'
 name: Microsoft Excel
 nav: Providers
 network: true
-overview: 'Microsoft Excel publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Functions API, Named Items API, and 6 more. Tagged areas include Automation, Data Analysis, Microsoft, Microsoft 365, and Office.
+overview: 'Microsoft Excel publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Functions API, Named Items API, and 6 more. Tagged areas include Automation, Data Analysis, Microsoft, Microsoft-365, and Office.
 
 
   The Microsoft Excel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -483,18 +483,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.7
-  delta: -6.1
+  composite: 44.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 29.6
     developer_ergonomics: 47.6
     discoverability: 83.3
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 26.3
-  previous_composite: 49.8
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -504,9 +504,9 @@ score:
       marker_coverage: 100.0
       total: 9
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png
 security:
 - kind: authentication
@@ -530,7 +530,7 @@ tags:
 - Automation
 - Data Analysis
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Office
 - Spreadsheets
 use_cases:

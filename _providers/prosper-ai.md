@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The API Keys API from Prosper AI — 1 operation(s) for api keys.
@@ -156,8 +156,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prosper-ai
 layout: provider
 mcp_servers:
 - description: ''
-  name: prosper-ai-mcp.yml
-  slug: prosper-ai-mcpyml
+  name: Prosper AI MCP Server
+  slug: prosper-ai-mcp-server
 modified: '2026-07-20'
 name: Prosper AI
 nav: Providers
@@ -175,7 +175,7 @@ scopes:
 score:
   band: developing
   composite: 49.1
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -185,7 +185,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 45.4
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     contracts:
@@ -201,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/screenshots/prosper-ai-2026-08-17T081402.png
 security:

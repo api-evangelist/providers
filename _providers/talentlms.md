@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -233,7 +233,7 @@ modified: '2026-06-13'
 name: TalentLMS
 nav: Providers
 network: true
-overview: 'TalentLMS publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Batch Actions API, Branch API, and 10 more. Tagged areas include Learning Management System, LMS, eLearning, Training, and Courses.
+overview: 'TalentLMS publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Batch Actions API, Branch API, and 10 more. Tagged areas include Learning Management System, LMS, E-Learning, Training, and Courses.
 
 
   The TalentLMS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -263,7 +263,7 @@ rules:
 score:
   band: developing
   composite: 46.9
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
@@ -273,7 +273,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 53.3
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -287,9 +287,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/screenshots/talentlms-2026-06-20T194902.png
 security:
 - kind: authentication
@@ -304,10 +304,10 @@ slug: talentlms
 tags:
 - Learning Management System
 - LMS
-- eLearning
+- E-Learning
 - Training
 - Courses
-- Users
+- User
 - Enrollments
 - Education
 - HR Tech

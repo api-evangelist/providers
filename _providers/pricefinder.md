@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Property record retrieval for Australian properties — core and extended property detail, images, floorplans, street view, maps, schools, radial searches for nearby sales, rentals, listings, properties
@@ -161,13 +161,13 @@ image: https://www.pricefinder.com.au/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: pricefinder-mcp.yml
-  slug: pricefinder-mcpyml
+  name: Pricefinder MCP Server
+  slug: pricefinder-mcp-server
 modified: '2026-07-26'
 name: Pricefinder
 nav: Providers
 network: true
-overview: 'Pricefinder publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Property API, AVM & Valuation API, Sales, Rentals & Listings API, and 7 more. Tagged areas include Real Estate, Australia, PropTech, Property Data, and Valuation.
+overview: 'Pricefinder publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Property API, AVM & Valuation API, Sales, Rentals & Listings API, and 7 more. Tagged areas include Real-Estate, Australia, PropTech, Property Data, and Valuation.
 
 
   Pricefinder''s developer surface includes API reference, signup flow, support, documentation, authentication, and 19 more developer resources.'
@@ -175,7 +175,7 @@ random_paper: 8
 score:
   band: thin
   composite: 36.9
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -185,7 +185,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 35.4
+  previous_composite: 36.9
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +201,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/screenshots/pricefinder-2026-07-27T125408.png
 security:
@@ -216,7 +216,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: pricefinder
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - PropTech
 - Property Data

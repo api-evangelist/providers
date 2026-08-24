@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The live, anonymous REST API behind the SP Energy Networks Open Data Portal — ScottishPower's regulated distribution and transmission arm publishing its network data under Ofgem's Data Best Practice "
@@ -203,7 +203,7 @@ examples:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: A candidate MCP tool surface for the SP Energy Networks Open Data Explore API. ScottishPower operates no MCP server; this is the tool set an agent host would get by wrapping the provider's own OpenAPI
   name: Candidate MCP tool surface derived from the OpenAPI (no provider-operated server)
   slug: candidate-mcp-tool-surface-derived-from-the-openapi-no-provider-operated-server
 modified: '2026-07-27'
@@ -222,7 +222,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.7
-  delta: 5.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -232,7 +232,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 39.1
+  previous_composite: 44.7
   provenance:
     conformance: derived
     contracts:
@@ -248,9 +248,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Scottishpower Authentication

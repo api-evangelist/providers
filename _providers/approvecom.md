@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Procurement REST API (Tipalti Procurement, formerly Approve.com) for syncing purchase orders between an external system and Tipalti. Exposes GET purchase-order and Update purchase-order operations. JS
@@ -85,7 +85,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 14.0
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -95,9 +95,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/approvecom/refs/heads/main/screenshots/approvecom-2026-07-25T200843.png
 security:

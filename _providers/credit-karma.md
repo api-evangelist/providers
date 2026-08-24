@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -105,9 +105,9 @@ description: Credit Karma is an AI-powered personal finance platform founded in 
 image: https://logo.clearbit.com/creditkarma.com
 layout: provider
 mcp_servers:
-- description: ''
-  name: credit-karma-mcp.yml
-  slug: credit-karma-mcpyml
+- description: Community MCP server for Credit Karma — natural-language access to transactions, spending, and accounts. Unofficial.
+  name: Credit Karma MCP Server
+  slug: credit-karma-mcp-server
 modified: '2026-08-08'
 name: Credit Karma
 nav: Providers
@@ -119,18 +119,18 @@ overview: 'Credit Karma is profiled on the [APIs.io](https://apis.io/) network. 
 random_paper: 7
 score:
   band: minimal
-  composite: 9.8
-  delta: -11.3
+  composite: 10.9
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.1
+  previous_composite: 10.9
   provenance:
     mcp: first-party
   regulatory:
@@ -139,9 +139,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credit-karma/refs/heads/main/screenshots/credit-karma-2026-07-25T210719.png
 security:
 - kind: domain-security

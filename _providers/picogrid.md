@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Legion Platform HTTP API (v3, OpenAPI 3.1.0) for controlling and integrating data from unmanned and mission systems: entities and entity locations, feeds (message and file data) and feed definitio'
@@ -171,8 +171,8 @@ image: https://picogrid.com/
 layout: provider
 mcp_servers:
 - description: ''
-  name: picogrid-mcp.yml
-  slug: picogrid-mcpyml
+  name: Picogrid MCP Server
+  slug: picogrid-mcp-server
 modified: '2026-07-20'
 name: Picogrid
 nav: Providers
@@ -193,7 +193,7 @@ scopes:
 score:
   band: thin
   composite: 34.6
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -203,14 +203,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 42.8
+  previous_composite: 34.6
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/screenshots/picogrid-2026-08-17T081219.png
 security:
 - kind: authentication
@@ -237,7 +237,7 @@ tags:
 - Command and Control
 - Geospatial
 - Situational Awareness
-- OAuth
+- Authentication
 - Video Streaming
 website: https://picogrid.com/
 ---

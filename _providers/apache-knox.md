@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ modified: '2026-05-19'
 name: Apache Knox
 nav: Providers
 network: true
-overview: 'Apache Knox publishes 3 APIs on the [APIs.io](https://apis.io/) network: Descriptors API, Providers API, and Topologies API. Tagged areas include API Gateway, Authentication, Hadoop, Open Source, and Security.
+overview: 'Apache Knox publishes 3 APIs on the [APIs.io](https://apis.io/) network: Descriptors API, Providers API, and Topologies API. Tagged areas include API Gateway, Authentication, Hadoop, Open-Source, and Security.
 
 
   The Apache Knox catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -270,18 +270,18 @@ rules:
   slug: apache-knox-spectral-rules
 score:
   band: developing
-  composite: 39.9
-  delta: -5.9
+  composite: 40.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 54.8
     developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 45.8
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -289,9 +289,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/screenshots/apache-knox-2026-06-20T172116.png
 security:
 - kind: authentication
@@ -311,7 +311,7 @@ tags:
 - API Gateway
 - Authentication
 - Hadoop
-- Open Source
+- Open-Source
 - Security
 - SSO
 use_cases:

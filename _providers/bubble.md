@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -433,7 +433,7 @@ modified: '2026-05-19'
 name: Bubble
 nav: Providers
 network: true
-overview: 'Bubble publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Data API, Workflow API, Action API, and 3 more. Tagged areas include No-Code, Application Platform, Database, Workflow Automation, and Plugins.
+overview: 'Bubble publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Data API, Workflow API, Action API, and 3 more. Tagged areas include No-Code, Application Platform, Database, Workflow-Automation, and Plugins.
 
 
   The Bubble catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -473,18 +473,18 @@ rules:
   slug: bubble-rules
 score:
   band: strong
-  composite: 62.9
-  delta: -12.5
+  composite: 63.3
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.1
     developer_ergonomics: 61.9
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 76.3
-  previous_composite: 75.4
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     contracts:
@@ -492,9 +492,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
 security:
 - kind: authentication
@@ -523,7 +523,7 @@ tags:
 - No-Code
 - Application Platform
 - Database
-- Workflow Automation
+- Workflow-Automation
 - Plugins
 use_cases:
 - description: Build admin dashboards, CRM panels, and operations consoles without engineering headcount.

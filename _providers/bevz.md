@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Bevz Integrator Service is a partner REST API that lets POS vendors and third-party integrators provision and manage stores on the Bevz platform programmatically. It covers store creation, provisi
@@ -125,13 +125,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bevz.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: bevz-mcp.yml
-  slug: bevz-mcpyml
+  name: Bevz MCP Server
+  slug: bevz-mcp-server
 modified: '2026-08-13'
 name: Bevz
 nav: Providers
 network: true
-overview: 'Bevz publishes 1 API on the [APIs.io](https://apis.io/) network: Integrator Service. Tagged areas include Company, Delivery Management, Liquor Retail, Convenience Store, and Point of Sale.
+overview: 'Bevz publishes 1 API on the [APIs.io](https://apis.io/) network: Integrator Service. Tagged areas include Company, Delivery Management, Liquor Retail, Convenience Store, and Point-of-Sale.
 
 
   The Bevz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.7
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -160,7 +160,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 54.7
+  previous_composite: 52.7
   provenance:
     conformance: derived
     contracts:
@@ -170,8 +170,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/screenshots/bevz-2026-07-25T202827.png
 security:
@@ -189,13 +189,13 @@ tags:
 - Delivery Management
 - Liquor Retail
 - Convenience Store
-- Point of Sale
+- Point-of-Sale
 - Food Delivery
 - Retail Technology
 - Marketing
 - Menu Management
 - Order Management
-- Webhooks
+- Webhook
 - Integrator API
 website: https://bevz.com/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Fabric interconnect, Ethernet and Fibre Channel port, VLAN/VSAN, link aggregation and network policy operations for Cisco UCS domains managed by Intersight. 629 operations across 369 paths and 8 resou
@@ -213,7 +213,7 @@ modified: '2026-08-19'
 name: Cisco Intersight
 nav: Providers
 network: true
-overview: 'Cisco Intersight publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Fabric API, HyperFlex API, Kubernetes API, and 8 more. Tagged areas include Infrastructure, Cloud Operations, Data Center, Compute, and Networking.
+overview: 'Cisco Intersight publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Fabric API, HyperFlex API, Kubernetes API, and 8 more. Tagged areas include Infrastructure, Cloud Operations, Data-Center, Compute, and Networking.
 
 
   Cisco Intersight''s developer surface includes developer portal, documentation, API reference, changelog, pricing, sandbox, authentication, and 30 more developer resources.'
@@ -233,7 +233,8 @@ scopes:
   summary_line: 3317 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.1
+  composite: 59.8
+  delta: -0.3
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -242,7 +243,8 @@ score:
     developer_ergonomics: 75.6
     discoverability: 81.5
     governance: 16.7
-    operational_transparency: 55.3
+    operational_transparency: 52.6
+  previous_composite: 60.1
   provenance:
     conformance: derived
     contracts:
@@ -252,8 +254,9 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Intersight Authentication
@@ -275,7 +278,7 @@ slug: intersight
 tags:
 - Infrastructure
 - Cloud Operations
-- Data Center
+- Data-Center
 - Compute
 - Networking
 - Enterprise

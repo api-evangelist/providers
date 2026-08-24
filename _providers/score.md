@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Score Specification (score.yaml) is a declarative, platform-agnostic workload definition format that captures containers, service ports, and resource dependencies in a single file. Reference CLI i
@@ -103,7 +103,7 @@ modified: '2026-05-02'
 name: Score
 nav: Providers
 network: true
-overview: 'Score publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Platform Engineering, Cloud Native, CNCF, Workload Specification, and Kubernetes.
+overview: 'Score publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Platform Engineering, Cloud-Native, CNCF, Workload Specification, and Kubernetes.
 
 
   The Score catalog on APIs.io includes 1 JSON-LD context.
@@ -133,8 +133,8 @@ score:
     governance: 15.2
     operational_transparency: 10.5
   previous_composite: 18.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/score/refs/heads/main/screenshots/score-2026-06-20T193541.png
 security:
@@ -145,12 +145,12 @@ security:
 slug: score
 tags:
 - Platform Engineering
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Workload Specification
 - Kubernetes
 - Docker
 - Developer Experience
-- Open Source
+- Open-Source
 website: https://score.dev/
 ---

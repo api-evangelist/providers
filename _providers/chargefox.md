@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Chargefox's documented REST API for fleet customers, described by an OpenAPI 3.0.1 contract titled "Fleets API" version 1.0 that the company renders publicly with Redoc at https://app.chargefox.com/de
@@ -187,8 +187,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chargefox.
 layout: provider
 mcp_servers:
 - description: ''
-  name: chargefox-mcp.yml
-  slug: chargefox-mcpyml
+  name: Chargefox MCP Server
+  slug: chargefox-mcp-server
 modified: '2026-07-27'
 name: Chargefox
 nav: Providers
@@ -205,7 +205,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.0
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -215,7 +215,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 48.2
+  previous_composite: 52.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -226,8 +226,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/screenshots/chargefox-2026-08-07T163259.png
 security:

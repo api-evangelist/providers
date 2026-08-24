@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Real-time generative video platform. A REST token endpoint mints session-scoped JWTs; a WebRTC data channel carries the command/event interface that controls model generation and streams video frames '
@@ -159,8 +159,8 @@ image: https://www.reactor.inc/icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: reactor-mcp.yml
-  slug: reactor-mcpyml
+  name: Reactor MCP Server
+  slug: reactor-mcp-server
 modified: '2026-07-20'
 name: Reactor
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 17
 score:
   band: developing
   composite: 46.7
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -186,13 +186,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 48.0
+  previous_composite: 46.7
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/screenshots/reactor-2026-08-17T081450.png
 security:

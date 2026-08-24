@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: Nomad Homes
 nav: Providers
 network: true
-overview: 'Nomad Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Real Estate, PropTech, and Artificial Intelligence.
+overview: 'Nomad Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Real-Estate, PropTech, and Artificial Intelligence.
 
 
   Nomad Homes'' developer surface includes support and 8 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 12.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -94,9 +94,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad-homes/refs/heads/main/screenshots/nomad-homes-2026-08-07T185443.png
 security:
@@ -108,7 +108,7 @@ slug: nomad-homes
 tags:
 - Company
 - Marketplace
-- Real Estate
+- Real-Estate
 - PropTech
 - Artificial Intelligence
 - AI Assistant

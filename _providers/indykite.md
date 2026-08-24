@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -321,8 +321,8 @@ image: https://docs.indykite.com/img/indykite.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: indykite-mcp.yml
-  slug: indykite-mcpyml
+  name: Indykite MCP Server
+  slug: indykite-mcp-server
 modified: '2026-07-19'
 name: Indykite
 nav: Providers
@@ -338,7 +338,7 @@ random_paper: 4
 score:
   band: developing
   composite: 49.7
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -348,7 +348,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 57.9
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,9 +359,9 @@ score:
       total: 21
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/screenshots/indykite-2026-07-25T222343.png
 security:
 - kind: authentication

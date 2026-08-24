@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -245,14 +245,14 @@ description: Vitally is an AI-powered Customer Success platform (CSP) that unifi
 image: https://cdn.prod.website-files.com/63d3e5f547ca0a274b2e07e1/65456c4b07c63e23bfaedbea_logo-vitally.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: vitally-mcp.yml
-  slug: vitally-mcpyml
+- description: Vitally operates an official remote MCP (Model Context Protocol) server (Beta) that connects any MCP-compatible AI client (Claude, ChatGPT, Cursor) to a Vitally workspace. Authentication is a standard
+  name: Vitally MCP Server
+  slug: vitally-mcp-server
 modified: '2026-07-21'
 name: Vitally
 nav: Providers
 network: true
-overview: 'Vitally publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Admins API, Conversations API, and 6 more. Tagged areas include Company, Customer Success, SaaS, CRM, and NPS.
+overview: 'Vitally publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Admins API, Conversations API, and 6 more. Tagged areas include Company, Customer Success, Software-as-a-Service, CRM, and NPS.
 
 
   The Vitally catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -267,7 +267,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.3
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -277,7 +277,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 71.1
-  previous_composite: 60.8
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,8 +288,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/screenshots/vitally-2026-08-17T082804.png
 security:
@@ -313,7 +313,7 @@ slug: vitally
 tags:
 - Company
 - Customer Success
-- SaaS
+- Software-as-a-Service
 - CRM
 - NPS
 - Surveys

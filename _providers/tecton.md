@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Low-latency online feature serving for model inference — read single or batched feature vectors, wildcard queries, and feature-service metadata. Authenticated with an Authorization Tecton-key header b
@@ -127,13 +127,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tecton.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: tecton-mcp.yml
-  slug: tecton-mcpyml
+  name: Tecton MCP Server
+  slug: tecton-mcp-server
 modified: '2026-07-21'
 name: Tecton
 nav: Providers
 network: true
-overview: 'Tecton publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine Learning, Feature Store, Feature Platform, and MLOps.
+overview: 'Tecton publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine-Learning, Feature Store, Feature Platform, and MLOps.
 
 
   Tecton''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 16 more developer resources.'
@@ -141,7 +141,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 26.1
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -151,12 +151,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 27.1
+  previous_composite: 26.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -174,7 +174,7 @@ security:
 slug: tecton
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Feature Store
 - Feature Platform
 - MLOps

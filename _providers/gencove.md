@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 7
@@ -307,8 +307,8 @@ image: https://www.google.com/s2/favicons?domain=gencove.com&sz=128
 layout: provider
 mcp_servers:
 - description: ''
-  name: gencove-mcp.yml
-  slug: gencove-mcpyml
+  name: Gencove MCP Server
+  slug: gencove-mcp-server
 modified: '2026-07-19'
 name: Gencove
 nav: Providers
@@ -324,7 +324,7 @@ random_paper: 8
 score:
   band: strong
   composite: 54.5
-  delta: 5.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -334,7 +334,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 49.0
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,9 +351,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/screenshots/gencove-2026-07-25T215527.png
 security:
 - kind: authentication

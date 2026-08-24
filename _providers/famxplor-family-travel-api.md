@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The First API 100% Dedicated to Family Travel. Designed for developers, travel apps, and businesses, the Famxplor API delivers personalized, family-focused recommendations tested and loved by real fam
@@ -81,7 +81,7 @@ modified: '2026-04-28'
 name: Famxplor Family Travel API
 nav: Providers
 network: true
-overview: 'Famxplor Family Travel API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Activities, Family, Travel, AI, and MCP.
+overview: 'Famxplor Family Travel API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Activities, Family, Travel, Artificial Intelligence, and MCP.
 
 
   Famxplor Family Travel API''s developer surface includes documentation, pricing, signup flow, engineering blog, and 4 more developer resources.'
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.4
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -107,9 +107,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/screenshots/famxplor-family-travel-api-2026-06-20T181032.png
 security:
@@ -122,7 +122,7 @@ tags:
 - Activities
 - Family
 - Travel
-- AI
+- Artificial Intelligence
 - MCP
 website: https://famxplor.com/
 ---

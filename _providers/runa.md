@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -213,18 +213,18 @@ rules:
   slug: runa-spectral-rules
 score:
   band: developing
-  composite: 42.4
-  delta: -9.2
+  composite: 42.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 69.1
     developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 51.6
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -238,9 +238,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/screenshots/runa-2026-06-20T193249.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -250,9 +250,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/surfe.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: surfe-mcp.yml
-  slug: surfe-mcpyml
+- description: Surfe publishes a hosted, remote MCP server (labelled Beta in its own docs) at https://mcp.eu.surfe.com/mcp. It is a URL an MCP client POSTs to — there is no npx/stdio package to install — and it expo
+  name: Surfe MCP Server
+  slug: surfe-mcp-server
 modified: '2026-08-13'
 name: Surfe
 nav: Providers
@@ -281,7 +281,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.8
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -291,7 +291,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 75.3
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,8 +302,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/screenshots/surfe-2026-08-17T080426.png
 security:

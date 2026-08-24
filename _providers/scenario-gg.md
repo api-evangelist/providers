@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: List, inspect, and manage custom and base AI models available to a Scenario account. Returns training status, training progress, model type (image, video, audio, 3D), and metadata for the 500+ base mo
@@ -173,7 +173,7 @@ modified: '2026-05-25'
 name: Scenario
 nav: Providers
 network: true
-overview: 'Scenario publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Artificial Intelligence, Game Assets, Game Development, and Generative AI.
+overview: 'Scenario publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Game Assets, Game Development, Generative AI, and Image-Generation.
 
 
   Scenario''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, tooling, code examples, and 18 more developer resources.'
@@ -181,7 +181,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 24.6
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -191,9 +191,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 24.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scenario-gg/refs/heads/main/screenshots/scenario-gg-2026-06-20T193511.png
 security:
@@ -207,12 +207,11 @@ security:
   summary_line: SOC 2
 slug: scenario-gg
 tags:
-- AI
 - Artificial Intelligence
 - Game Assets
 - Game Development
 - Generative AI
-- Image Generation
+- Image-Generation
 - Video Generation
 - Audio Generation
 - 3D Assets

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -446,8 +446,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpaca.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: alpaca-mcp.yml
-  slug: alpaca-mcpyml
+  name: Alpaca MCP Server
+  slug: alpaca-mcp-server
 modified: '2026-07-22'
 name: Alpaca
 nav: Providers
@@ -488,7 +488,7 @@ scopes:
 score:
   band: strong
   composite: 63.2
-  delta: -14.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -498,7 +498,7 @@ score:
     discoverability: 92.6
     governance: 43.9
     operational_transparency: 63.2
-  previous_composite: 77.9
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -515,9 +515,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 73.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Core API for AutoCAD automation, drawing manipulation, and entity management.
@@ -223,8 +223,8 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: autocad-mcp.yml
-  slug: autocad-mcpyml
+  name: AutoCAD MCP Server
+  slug: autocad-mcp-server
 modified: '2026-06-20'
 name: AutoCAD
 nav: Providers
@@ -250,7 +250,7 @@ scopes:
 score:
   band: developing
   composite: 42.3
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -260,12 +260,12 @@ score:
     discoverability: 100.0
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 44.5
+  previous_composite: 42.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/screenshots/autocad-2026-06-20T172619.png
 security:

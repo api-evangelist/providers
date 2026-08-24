@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: API to retrieve or manipulate ASN related information.
@@ -218,13 +218,13 @@ image: https://erp.vineretail.com/swagger/Vinculum-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: vinculum-mcp.yml
-  slug: vinculum-mcpyml
+  name: Vinculum MCP Server
+  slug: vinculum-mcp-server
 modified: '2026-07-21'
 name: Vinculum
 nav: Providers
 network: true
-overview: 'Vinculum publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Advance Shipping Notice API, Authentication Process API, Common API, and 14 more. Tagged areas include Company, Ecommerce, Omnichannel, Order Management, and Warehouse Management.
+overview: 'Vinculum publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Advance Shipping Notice API, Authentication Process API, Common API, and 14 more. Tagged areas include Company, E-Commerce, Omnichannel, Order Management, and Warehouse Management.
 
 
   Vinculum''s developer surface includes documentation, engineering blog, support, authentication, and 14 more developer resources.'
@@ -236,7 +236,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.2
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -246,7 +246,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 28.7
+  previous_composite: 29.2
   provenance:
     conformance: derived
     contracts:
@@ -256,8 +256,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -271,7 +271,7 @@ security:
 slug: vinculum
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Omnichannel
 - Order Management
 - Warehouse Management

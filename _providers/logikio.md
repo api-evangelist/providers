@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -212,13 +212,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/logikio.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: logikio-mcp.yml
-  slug: logikio-mcpyml
+  name: Logik.io MCP Server
+  slug: logikio-mcp-server
 modified: '2026-08-13'
 name: Logik.io
 nav: Providers
 network: true
-overview: 'Logik.io publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blueprint > Export API, Blueprint > Import API, BOM API, and 8 more. Tagged areas include Company, Sales Tech, CPQ, Configure Price Quote, and Product Configuration.
+overview: 'Logik.io publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blueprint > Export API, Blueprint > Import API, BOM API, and 8 more. Tagged areas include Company, Sales Tech, CPQ, Product Configuration, and Bill of Materials.
 
 
   Logik.io''s developer surface includes documentation, API reference, authentication, sandbox, support, and 18 more developer resources.'
@@ -234,7 +234,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 35.9
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,8 +255,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/screenshots/logikio-2026-07-25T225503.png
 security:
@@ -273,10 +273,9 @@ tags:
 - Company
 - Sales Tech
 - CPQ
-- Configure Price Quote
 - Product Configuration
 - Bill of Materials
-- Ecommerce
+- E-Commerce
 - Salesforce
 - API-First
 website: https://www.logik.io

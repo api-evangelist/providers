@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -242,14 +242,14 @@ description: Flint (Flint Technologies Inc., tryflint.com / flint.com) is an AI 
 image: https://www.flint.com/images/favicon-144x144.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: flint-mcp.yml
-  slug: flint-mcpyml
+- description: Flint's official hosted remote MCP server (HTTP). Add it as a custom connector in Claude (claude.ai/settings/connectors), with `claude mcp add flint --transport http https://mcp.tryflint.com/mcp` in C
+  name: Flint MCP Server
+  slug: flint-mcp-server
 modified: '2026-08-13'
 name: Flint
 nav: Providers
 network: true
-overview: 'Flint publishes 1 API on the [APIs.io](https://apis.io/) network: Agent Tasks API. Tagged areas include Company, AI, Marketing, Landing Pages, and Agents.
+overview: 'Flint publishes 1 API on the [APIs.io](https://apis.io/) network: Agent Tasks API. Tagged areas include Company, Artificial Intelligence, Marketing, Landing Pages, and Agents.
 
 
   The Flint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -273,7 +273,7 @@ scopes:
 score:
   band: strong
   composite: 65.9
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -283,7 +283,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 66.1
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -294,8 +294,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/screenshots/flint-2026-07-25T214758.png
 security:
@@ -318,7 +318,7 @@ security:
 slug: flint
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketing
 - Landing Pages
 - Agents

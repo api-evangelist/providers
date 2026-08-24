@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The HTTP API behind Accenta's effiPilot building-energy platform. It is an RPC-style JSON surface — requests take the form /api/method/<methodName> — served per customer tenant from the wildcard accen
@@ -169,6 +169,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.8
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -178,6 +179,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -186,8 +188,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Accenta Authentication
@@ -210,7 +213,7 @@ tags:
 - Sustainability
 - Energy Management
 - Artificial Intelligence
-- Real Estate
+- Real-Estate
 - IoT
 - France
 website: https://www.accenta.ai/

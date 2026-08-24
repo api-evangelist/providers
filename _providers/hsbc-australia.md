@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -201,8 +201,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hsbc-austr
 layout: provider
 mcp_servers:
 - description: ''
-  name: hsbc-australia-mcp.yml
-  slug: hsbc-australia-mcpyml
+  name: HSBC Bank Australia MCP Server
+  slug: hsbc-bank-australia-mcp-server
 modified: '2026-07-21'
 name: HSBC Bank Australia
 nav: Providers
@@ -219,18 +219,18 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.9
-  delta: 4.6
+  composite: 46.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
     contract_quality: 51.0
     developer_ergonomics: 49.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 40.3
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -247,8 +247,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png
 security:

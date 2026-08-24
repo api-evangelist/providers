@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The primary developer interface - the @raycast/api npm package. A strongly typed TypeScript/Node SDK (installed via `npm i @raycast/api`) providing React UI components (List, Detail, Form, Grid, Actio
@@ -98,7 +98,7 @@ modified: '2026-06-20'
 name: Raycast
 nav: Providers
 network: true
-overview: 'Raycast publishes 2 APIs on the [APIs.io](https://apis.io/) network: Extension API (SDK) and AI API. Tagged areas include Productivity, Launcher, Extensions, SDK, and AI.
+overview: 'Raycast publishes 2 APIs on the [APIs.io](https://apis.io/) network: Extension API (SDK) and AI API. Tagged areas include Productivity, Launcher, Extensions, SDK, and Artificial Intelligence.
 
 
   Raycast''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.3
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -124,9 +124,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 29.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 29.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/screenshots/raycast-2026-06-20T192715.png
 security:
@@ -140,7 +140,7 @@ tags:
 - Launcher
 - Extensions
 - SDK
-- AI
+- Artificial Intelligence
 - macOS
 website: https://www.raycast.com
 ---

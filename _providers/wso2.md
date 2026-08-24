@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 6
@@ -3690,7 +3690,7 @@ modified: '2026-05-19'
 name: WSO2
 nav: Providers
 network: true
-overview: 'WSO2 publishes 90 APIs on the [APIs.io](https://apis.io/) network, including Advanced Policy (Collection) API, Advanced Policy (Individual) API, AIServiceProvider API, and 87 more. Tagged areas include API Management, Gateways, Open Source, API Lifecycle, and GraphQL.
+overview: 'WSO2 publishes 90 APIs on the [APIs.io](https://apis.io/) network, including Advanced Policy (Collection) API, Advanced Policy (Individual) API, AIServiceProvider API, and 87 more. Tagged areas include API Management, Gateways, Open-Source, API Lifecycle, and GraphQL.
 
 
   The WSO2 catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -3725,7 +3725,7 @@ scopes:
 score:
   band: strong
   composite: 54.4
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -3735,7 +3735,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 55.3
-  previous_composite: 59.0
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -3743,8 +3743,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 91
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png
 security:
@@ -3768,7 +3768,7 @@ slug: wso2
 tags:
 - API Management
 - Gateways
-- Open Source
+- Open-Source
 - API Lifecycle
 - GraphQL
 - SOAP

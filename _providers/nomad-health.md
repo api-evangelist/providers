@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Default namespace
@@ -133,13 +133,13 @@ image: https://marketing.nomadhealth.com/favicon/apple-icon-114x114.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: nomad-health-mcp.yml
-  slug: nomad-health-mcpyml
+  name: Nomad Health MCP Server
+  slug: nomad-health-mcp-server
 modified: '2026-08-04'
 name: Nomad Health
 nav: Providers
 network: true
-overview: 'Nomad Health publishes 1 API on the [APIs.io](https://apis.io/) network: Default API. Tagged areas include Company, Healthcare, Staffing, Jobs, and Marketplace.
+overview: 'Nomad Health publishes 1 API on the [APIs.io](https://apis.io/) network: Default API. Tagged areas include Company, Healthcare, Staffing, Job, and Marketplace.
 
 
   Nomad Health''s developer surface includes API reference, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
@@ -147,7 +147,7 @@ random_paper: 5
 score:
   band: thin
   composite: 32.8
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -157,7 +157,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 31.0
+  previous_composite: 32.8
   provenance:
     conformance: derived
     contracts:
@@ -173,8 +173,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/screenshots/nomad-health-2026-08-07T185440.png
 security:
@@ -191,7 +191,7 @@ tags:
 - Company
 - Healthcare
 - Staffing
-- Jobs
+- Job
 - Marketplace
 - Travel Nursing
 - Allied Health

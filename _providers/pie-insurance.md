@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ random_paper: 8
 score:
   band: thin
   composite: 28.7
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -239,7 +239,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 32.1
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -253,8 +253,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/screenshots/pie-insurance-2026-06-20T191702.png
 security:
@@ -280,6 +280,6 @@ tags:
 - Agency Portal
 - Partner API
 - Quoting
-- Binding
+- Bindings
 website: https://www.pieinsurance.com
 ---

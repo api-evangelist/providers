@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -169,13 +169,13 @@ image: https://interfaze.ai/banner.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: interfaze-mcp.yml
-  slug: interfaze-mcpyml
+  name: Interfaze MCP Server
+  slug: interfaze-mcp-server
 modified: '2026-07-19'
 name: Interfaze
 nav: Providers
 network: true
-overview: 'Interfaze publishes 1 API on the [APIs.io](https://apis.io/) network: Chat API. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and OCR.
+overview: 'Interfaze publishes 1 API on the [APIs.io](https://apis.io/) network: Chat API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and OCR.
 
 
   Interfaze''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 21 more developer resources.'
@@ -183,7 +183,7 @@ random_paper: 2
 score:
   band: developing
   composite: 48.3
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -193,7 +193,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 49.8
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,8 +204,8 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/screenshots/interfaze-2026-07-25T222700.png
 security:
@@ -221,15 +221,15 @@ slug: interfaze
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - OCR
-- Speech to Text
+- Speech-to-Text
 - Structured Output
 - Object Detection
 - Web Scraping
 - Web Search
-- Multimodal
+- Multi-Modal
 - Developer Tools
 website: https://interfaze.ai/docs
 ---

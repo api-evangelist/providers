@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — p
@@ -544,7 +544,7 @@ rules:
 score:
   band: thin
   composite: 37.4
-  delta: -8.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -554,10 +554,10 @@ score:
     discoverability: 72.2
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 46.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 37.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/screenshots/schema-stitching-2026-06-20T193517.png
 security:
 - kind: domain-security
@@ -617,10 +617,10 @@ tags:
 - Microservices
 - Middleware
 - Mocking
-- Open Source
+- Open-Source
 - Plugins
 - REST
-- SDKs
+- SDK
 - Scalars
 - Schema
 - Schema Composition
@@ -630,7 +630,7 @@ tags:
 - Schema Transformation
 - Schema Validation
 - Server
-- Subscriptions
+- Subscription
 - The Guild
 - Type Merging
 - Type Safety

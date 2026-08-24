@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,12 +68,12 @@ modified: '2026-05-04'
 name: Western Alliance Bancorp.
 nav: Providers
 network: true
-overview: Western Alliance Bancorp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Commercial Banking, and Fortune 500.
+overview: Western Alliance Bancorp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Commercial Banking, and Fortune 500.
 random_paper: 17
 score:
   band: minimal
   composite: 2.9
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -83,16 +83,16 @@ score:
     discoverability: 35.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.2
+  previous_composite: 2.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-alliance-bancorp/refs/heads/main/screenshots/western-alliance-bancorp-2026-06-20T201400.png
 security:
 - kind: domain-security
@@ -102,7 +102,7 @@ security:
 slug: western-alliance-bancorp
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Commercial Banking
 - Fortune 500
 website: https://www.westernalliancebancorporation.com

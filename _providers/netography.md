@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 14
@@ -311,8 +311,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netography
 layout: provider
 mcp_servers:
 - description: ''
-  name: netography-mcp.yml
-  slug: netography-mcpyml
+  name: Netography MCP Server
+  slug: netography-mcp-server
 modified: '2026-07-20'
 name: Netography
 nav: Providers
@@ -328,7 +328,7 @@ random_paper: 18
 score:
   band: thin
   composite: 38.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -338,7 +338,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 39.2
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -349,8 +349,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/screenshots/netography-2026-08-07T184939.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 4
@@ -338,7 +338,7 @@ modified: '2026-05-19'
 name: Nuclei
 nav: Providers
 network: true
-overview: 'Nuclei publishes 35 APIs on the [APIs.io](https://apis.io/) network, including agents API, Asset API, assets API, and 32 more. Tagged areas include Security Testing, Testing, Vulnerability Scanner, DAST, and Open Source.
+overview: 'Nuclei publishes 35 APIs on the [APIs.io](https://apis.io/) network, including agents API, Asset API, assets API, and 32 more. Tagged areas include Security Testing, Testing, Vulnerability Scanner, DAST, and Open-Source.
 
 
   Nuclei''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
@@ -354,7 +354,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -364,7 +364,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.2
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -372,8 +372,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/screenshots/nuclei-2026-06-20T190508.png
 security:
@@ -399,6 +399,6 @@ tags:
 - Testing
 - Vulnerability Scanner
 - DAST
-- Open Source
+- Open-Source
 website: https://nuclei.projectdiscovery.io
 ---

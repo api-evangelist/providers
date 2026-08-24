@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -241,8 +241,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: fr24api-mcp
-  slug: fr24api-mcp
+  name: Flightradar24 MCP Server
+  slug: flightradar24-mcp-server
 modified: '2026-06-13'
 name: Flightradar24
 nav: Providers
@@ -277,7 +277,7 @@ rules:
 score:
   band: developing
   composite: 47.3
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -287,7 +287,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 55.0
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -295,9 +295,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/screenshots/flightradar24-2026-06-20T181313.png
 security:
 - kind: authentication

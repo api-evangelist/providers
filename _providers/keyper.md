@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Retrieve the permission whitelist / blacklist for an Access Control System.
@@ -144,13 +144,13 @@ image: https://www.keyper.com/wp-content/uploads/keyper-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: keyper-mcp.yml
-  slug: keyper-mcpyml
+  name: Keyper MCP Server
+  slug: keyper-mcp-server
 modified: '2026-07-19'
 name: Keyper
 nav: Providers
 network: true
-overview: 'Keyper publishes 2 APIs on the [APIs.io](https://apis.io/) network: Permissions API and Transactions API. Tagged areas include Company, Ticketing, Access Control, Events, and Developer Platform.
+overview: 'Keyper publishes 2 APIs on the [APIs.io](https://apis.io/) network: Permissions API and Transactions API. Tagged areas include Company, Ticketing, Access Control, Event, and Developer Platform.
 
 
   Keyper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 16 more developer resources.'
@@ -158,7 +158,7 @@ random_paper: 5
 score:
   band: developing
   composite: 42.6
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -168,7 +168,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 43.4
+  previous_composite: 42.6
   provenance:
     conformance: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/screenshots/keyper-2026-07-25T223658.png
 security:
@@ -196,7 +196,7 @@ tags:
 - Company
 - Ticketing
 - Access Control
-- Events
+- Event
 - Developer Platform
 - SDK
 - Sports

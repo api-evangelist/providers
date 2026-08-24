@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ modified: '2026-05-19'
 name: Best Buy
 nav: Providers
 network: true
-overview: 'Best Buy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Products API, Recommendations API, and Stores API. Tagged areas include Fortune 100, Retail, Consumer Electronics, E-Commerce, and Products.
+overview: 'Best Buy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Products API, Recommendations API, and Stores API. Tagged areas include Fortune 100, Retail, Consumer Electronics, E-Commerce, and Product.
 
 
   The Best Buy catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -341,18 +341,18 @@ rules:
   slug: best-buy-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: -5.3
+  composite: 32.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 28.9
     developer_ergonomics: 45.2
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 37.3
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -360,9 +360,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png
 security:
 - kind: authentication
@@ -379,7 +379,7 @@ tags:
 - Retail
 - Consumer Electronics
 - E-Commerce
-- Products
+- Product
 - Stores
 use_cases:
 - description: Full-text search and filtering across product descriptions, specifications, and reviews.

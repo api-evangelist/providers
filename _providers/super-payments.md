@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Checkout Session management
@@ -268,9 +268,9 @@ description: Super Payments is a UK payments provider offering free card and ope
 image: https://framerusercontent.com/images/eAdDRGD6sLo1NlXEu8bPS71k.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: super-payments-mcp.yml
-  slug: super-payments-mcpyml
+- description: No official hosted/remote MCP server was found for Super Payments (no mcp.superpayments.com, no @superpayments MCP package in npm, not in the MCP registry). This is a CANDIDATE tool surface derived on
+  name: Super Payments MCP Server
+  slug: super-payments-mcp-server
 modified: '2026-07-21'
 name: Super Payments
 nav: Providers
@@ -290,7 +290,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.9
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -300,7 +300,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 59.2
-  previous_composite: 58.6
+  previous_composite: 60.9
   provenance:
     conformance: first-party
     contracts:
@@ -316,8 +316,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/screenshots/super-payments-2026-08-17T082158.png
 security:

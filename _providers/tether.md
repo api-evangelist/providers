@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The API Keys API from Tether — 2 operation(s) for api keys.
@@ -200,8 +200,8 @@ image: https://tether.io/wp-content/themes/tether-io-theme/assets/images/logo.sv
 layout: provider
 mcp_servers:
 - description: ''
-  name: tether-mcp.yml
-  slug: tether-mcpyml
+  name: Tether MCP Server
+  slug: tether-mcp-server
 modified: '2026-08-05'
 name: Tether
 nav: Providers
@@ -218,7 +218,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.7
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -228,7 +228,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 54.0
+  previous_composite: 56.7
   provenance:
     conformance: derived
     contracts:
@@ -244,8 +244,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/screenshots/tether-2026-08-17T082328.png
 security:
@@ -274,6 +274,6 @@ tags:
 - Multi-Chain
 - Agents
 - MCP
-- Open Source
+- Open-Source
 website: https://tether.io/
 ---

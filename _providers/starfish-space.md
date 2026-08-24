@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -381,9 +381,9 @@ json_schemas:
   slug: starfish-space-users.schema
 layout: provider
 mcp_servers:
-- description: ''
-  name: starfish-space-mcp.yml
-  slug: starfish-space-mcpyml
+- description: Starfish Space serves a live Model Context Protocol server from its own host, via the WordPress MCP adapter. The MCP namespace, the OAuth 2.1 authorization-server metadata and the protected-resource m
+  name: Starfish Space MCP Server
+  slug: starfish-space-mcp-server
 modified: '2026-08-02'
 name: Starfish Space
 nav: Providers
@@ -400,18 +400,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 32.8
-  delta: -1.0
+  composite: 33.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
     contract_quality: 65.7
     developer_ergonomics: 20.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 33.8
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -422,8 +422,8 @@ score:
       total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -445,6 +445,6 @@ tags:
 - Space Robotics
 - Defense
 - Content Management
-- Model Context Protocol
+- MCP
 website: https://www.starfishspace.com/
 ---

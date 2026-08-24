@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Everlane storefront, hosted on Shopify: a Model Context Protocol (MCP) server for catalog search, cart, product details, and store-policy lookup, plus a Universal'
@@ -95,8 +95,8 @@ image: https://www.everlane.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: everlane-mcp.yml
-  slug: everlane-mcpyml
+  name: everlane MCP Server
+  slug: everlane-mcp-server
 modified: '2026-07-19'
 name: everlane
 nav: Providers
@@ -113,22 +113,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 18.1
-  delta: -1.8
+  composite: 19.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 19.9
+  previous_composite: 19.2
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everlane/refs/heads/main/screenshots/everlane-2026-08-07T165037.png
 security:
@@ -147,7 +147,7 @@ tags:
 - E-Commerce
 - Apparel
 - Fashion
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 - Agentic Commerce
 website: https://everlane.com

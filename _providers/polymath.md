@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 4
@@ -203,13 +203,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/polymath.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: polymath-mcp.yml
-  slug: polymath-mcpyml
+  name: Polymath Robotics MCP Server
+  slug: polymath-robotics-mcp-server
 modified: '2026-07-20'
 name: Polymath Robotics
 nav: Providers
 network: true
-overview: 'Polymath Robotics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including CANBus API, filesystem API, Health Check API, and 7 more. Tagged areas include Robotics, Autonomy, Industrial Vehicles, Off-Highway, and Machine Learning.
+overview: 'Polymath Robotics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including CANBus API, filesystem API, Health Check API, and 7 more. Tagged areas include Robotics, Autonomy, Industrial Vehicles, Off-Highway, and Machine-Learning.
 
 
   Polymath Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
@@ -217,7 +217,7 @@ random_paper: 17
 score:
   band: developing
   composite: 40.3
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -227,7 +227,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 39.9
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +238,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -256,7 +256,7 @@ tags:
 - Autonomy
 - Industrial Vehicles
 - Off-Highway
-- Machine Learning
+- Machine-Learning
 - Simulation
 - Teleoperation
 - Automation

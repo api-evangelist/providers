@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Ameriprise Financial is a diversified financial services company providing financial planning, products, and services including wealth management, asset management, insurance, and annuities. The compa
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.4
-  delta: -8.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -164,16 +164,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.0
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/screenshots/ameriprise-financial-2026-06-20T171926.png
 security:
 - kind: domain-security
@@ -188,7 +188,7 @@ tags:
 - Insurance
 - Annuities
 - Investment Management
-- Financial Services
+- Financial-Services
 - Fortune 500
 use_cases:
 - description: Plan sustainable retirement income from investments, Social Security, annuities, and other sources to last throughout retirement.

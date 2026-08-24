@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 368
   human_in_the_loop: 9
@@ -551,8 +551,8 @@ image: https://www.servicechannel.com/wp-content/uploads/2022/09/ServiceChannel-
 layout: provider
 mcp_servers:
 - description: ''
-  name: servicechannel-mcp.yml
-  slug: servicechannel-mcpyml
+  name: ServiceChannel MCP Server
+  slug: servicechannel-mcp-server
 modified: '2026-07-21'
 name: ServiceChannel
 nav: Providers
@@ -573,7 +573,7 @@ scopes:
 score:
   band: developing
   composite: 45.9
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -583,7 +583,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 45.5
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -594,8 +594,8 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/screenshots/servicechannel-2026-08-17T081815.png
 security:

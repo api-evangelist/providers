@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 2
@@ -190,7 +190,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.5
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.9
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -214,8 +214,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/screenshots/godaddy-2026-06-20T181947.png
 security:

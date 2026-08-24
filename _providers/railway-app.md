@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: GraphQL operations for creating, reading, updating, and deleting Railway projects - the top-level container for services and environments. Queries include project and projects; mutations include proje
@@ -137,7 +137,7 @@ modified: '2026-07-02'
 name: Railway
 nav: Providers
 network: true
-overview: 'Railway publishes 1 API on the [APIs.io](https://apis.io/) network: Logs API. Tagged areas include Deployment, PaaS, Cloud, Infrastructure, and GraphQL.
+overview: 'Railway publishes 1 API on the [APIs.io](https://apis.io/) network: Logs API. Tagged areas include Deployment, Platform-as-a-Service, Cloud, Infrastructure, and GraphQL.
 
 
   The Railway catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -168,7 +168,7 @@ rules:
 score:
   band: thin
   composite: 38.6
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -178,10 +178,10 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 38.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/railway-app/refs/heads/main/screenshots/railway-app-2026-08-17T081443.png
 security:
 - kind: domain-security
@@ -195,7 +195,7 @@ security:
 slug: railway-app
 tags:
 - Deployment
-- PaaS
+- Platform-as-a-Service
 - Cloud
 - Infrastructure
 - GraphQL

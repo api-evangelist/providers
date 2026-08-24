@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Anonymous, read-mostly public REST API for syndicating Bungalow's residential rental inventory. Covers markets (23 active US metros with geo bounds, timezone and rent premiums), marketable property li
@@ -154,13 +154,13 @@ image: https://assets.bungalow.com/home-page/header/header-hero-min.png?h=630&w=
 layout: provider
 mcp_servers:
 - description: ''
-  name: bungalow-mcp.yml
-  slug: bungalow-mcpyml
+  name: Bungalow MCP Server
+  slug: bungalow-mcp-server
 modified: '2026-08-01'
 name: Bungalow
 nav: Providers
 network: true
-overview: 'Bungalow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, real-estate, residential-real-estate, rental-listings, and property-management.
+overview: 'Bungalow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Residential Real Estate, Rental Listings, and Property Management.
 
 
   The Bungalow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -171,7 +171,7 @@ random_paper: 2
 score:
   band: developing
   composite: 41.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -181,7 +181,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 42.1
+  previous_composite: 41.2
   provenance:
     conformance: derived
     contracts:
@@ -191,8 +191,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/screenshots/bungalow-2026-08-07T162850.png
 security:
@@ -207,15 +207,15 @@ security:
 slug: bungalow
 tags:
 - Company
-- real-estate
-- residential-real-estate
-- rental-listings
-- property-management
-- co-living
-- single-family-rental
-- listings-syndication
-- housing
-- proptech
-- marketplace
+- Real-Estate
+- Residential Real Estate
+- Rental Listings
+- Property Management
+- Co-Living
+- Single-Family Rental
+- Listings Syndication
+- Housing
+- PropTech
+- Marketplace
 website: https://bungalow.com/
 ---

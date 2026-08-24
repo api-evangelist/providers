@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -273,11 +273,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synthflow.
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: synthflow-mcp.yml
-  slug: synthflow-mcpyml
+  name: Synthflow MCP Server
+  slug: synthflow-mcp-server
+- description: Synthflow publishes a first-party hosted MCP server that lets an MCP client (Claude, Claude Code, ChatGPT, Codex, Cursor) manage a Synthflow workspace — agents, calls, actions, knowledge bases, simula
+  name: Synthflow MCP Server
+  slug: synthflow-mcp-server-2
 modified: '2026-08-13'
 name: Synthflow
 nav: Providers
@@ -306,7 +306,7 @@ scopes:
 score:
   band: strong
   composite: 62.2
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -316,7 +316,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 68.5
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -327,9 +327,9 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/screenshots/synthflow-2026-06-20T194834.png
 security:
 - kind: authentication
@@ -354,7 +354,7 @@ tags:
 - Outbound
 - Inbound
 - CRM
-- Webhooks
+- Webhook
 - Custom Actions
 - HIPAA
 - SOC 2

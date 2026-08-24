@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -281,8 +281,8 @@ image: https://www.inthegame.io/assets/images/6756948bfd57e173d3fa6e19_favicon_i
 layout: provider
 mcp_servers:
 - description: ''
-  name: inthegame-mcp.yml
-  slug: inthegame-mcpyml
+  name: Inthegame MCP Server
+  slug: inthegame-mcp-server
 modified: '2026-07-19'
 name: Inthegame
 nav: Providers
@@ -298,7 +298,7 @@ random_paper: 1
 score:
   band: thin
   composite: 38.0
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -308,7 +308,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 42.3
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,8 +319,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inthegame/refs/heads/main/screenshots/inthegame-2026-07-25T222719.png
 security:
@@ -343,6 +343,6 @@ tags:
 - Interactive
 - Gamification
 - Sports
-- Real-time
+- Real-Time
 website: https://www.inthegame.io/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Kiota generates strongly-typed, lightweight API clients from OpenAPI descriptions in C#, Dart, Go, Java, PHP, Python, Ruby and TypeScript, with minimal dependencies and idiomatic code patterns, plus a
@@ -191,7 +191,7 @@ modified: '2026-08-06'
 name: Kiota
 nav: Providers
 network: true
-overview: 'Kiota publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Microsoft, OpenAPI, SDKs, and Developer Tools.
+overview: 'Kiota publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Microsoft, OpenAPI, SDK, and Developer Tools.
 
 
   The Kiota catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -221,7 +221,7 @@ rules:
 score:
   band: thin
   composite: 39.2
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -231,11 +231,11 @@ score:
     discoverability: 77.8
     governance: 33.3
     operational_transparency: 44.7
-  previous_composite: 38.3
+  previous_composite: 39.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/screenshots/kiota-2026-06-20T184046.png
 security:
@@ -256,11 +256,11 @@ tags:
 - Code Generation
 - Microsoft
 - OpenAPI
-- SDKs
+- SDK
 - Developer Tools
 - API Clients
-- Open Source
+- Open-Source
 - CLI
-- JSON Schema
+- JSON-Schema
 website: https://learn.microsoft.com/en-us/openapi/kiota/
 ---

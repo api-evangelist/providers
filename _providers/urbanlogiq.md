@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The signed-request platform API behind the UrbanLogiq community intelligence platform — data catalog objects, aggregate queries, and streams served in Apache Arrow, Parquet, CSV, XLSX, JSON, text, and
@@ -143,8 +143,8 @@ image: https://storage.googleapis.com/gpt-engineer-file-uploads/iMsRxc6pmShB43YL
 layout: provider
 mcp_servers:
 - description: ''
-  name: urbanlogiq-mcp.yml
-  slug: urbanlogiq-mcpyml
+  name: UrbanLogiq MCP Server
+  slug: urbanlogiq-mcp-server
 modified: '2026-07-21'
 name: UrbanLogiq
 nav: Providers
@@ -156,18 +156,18 @@ overview: 'UrbanLogiq publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 5
 score:
   band: emerging
-  composite: 24.1
-  delta: -9.8
+  composite: 25.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 33.9
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -177,9 +177,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Urbanlogiq Authentication

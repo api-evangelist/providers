@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 343
   human_in_the_loop: 6
@@ -653,7 +653,7 @@ modified: '2026-06-13'
 name: Spree Commerce
 nav: Providers
 network: true
-overview: 'Spree Commerce publishes 86 APIs on the [APIs.io](https://apis.io/) network, including Account / Address API, Account API, Account / Credit Cards API, and 83 more. Tagged areas include E-Commerce, Headless Commerce, Products, Orders, and Inventory.
+overview: 'Spree Commerce publishes 86 APIs on the [APIs.io](https://apis.io/) network, including Account / Address API, Account API, Account / Credit Cards API, and 83 more. Tagged areas include E-Commerce, Headless Commerce, Product, Order, and Inventory.
 
 
   The Spree Commerce catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -682,18 +682,18 @@ rules:
   slug: spree-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.0
-  delta: -2.6
+  composite: 41.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 65.1
     developer_ergonomics: 31.0
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 45.6
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -707,8 +707,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree/refs/heads/main/screenshots/spree-2026-06-20T194402.png
 security:
@@ -774,12 +774,12 @@ slug: spree
 tags:
 - E-Commerce
 - Headless Commerce
-- Products
-- Orders
+- Product
+- Order
 - Inventory
 - Payments
 - Promotions
-- Open Source
+- Open-Source
 - Ruby on Rails
 website: https://spreecommerce.org/
 ---

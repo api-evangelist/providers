@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 9
@@ -567,7 +567,7 @@ modified: '2026-05-19'
 name: Label Studio
 nav: Providers
 network: true
-overview: 'Label Studio publishes 74 APIs on the [APIs.io](https://apis.io/) network, including subpackage_actions API, subpackage_activityLogs API, subpackage_annotationHistory API, and 71 more. Tagged areas include AI, Annotation, Artificial Intelligence, Data Labeling, and LLM.
+overview: 'Label Studio publishes 74 APIs on the [APIs.io](https://apis.io/) network, including subpackage_actions API, subpackage_activityLogs API, subpackage_annotationHistory API, and 71 more. Tagged areas include Artificial Intelligence, Annotation, Data Labeling, LLM, and Machine-Learning.
 
 
   Label Studio''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
@@ -582,18 +582,18 @@ rate_limits:
   slug: label-studio-rate-limits
 score:
   band: thin
-  composite: 34.0
-  delta: 0.4
+  composite: 35.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 50.5
     developer_ergonomics: 26.2
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 33.6
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -601,8 +601,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 74
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/screenshots/label-studio-2026-06-20T184236.png
 security:
@@ -616,12 +616,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: label-studio
 tags:
-- AI
-- Annotation
 - Artificial Intelligence
+- Annotation
 - Data Labeling
 - LLM
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 website: https://labelstud.io/
 ---

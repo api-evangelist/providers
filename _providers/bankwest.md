@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,8 +181,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bankwest.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: bankwest-mcp.yml
-  slug: bankwest-mcpyml
+  name: Bankwest MCP Server
+  slug: bankwest-mcp-server
 modified: '2026-07-21T12:00:00Z'
 name: Bankwest
 nav: Providers
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 41.4
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 39.8
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +227,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/screenshots/bankwest-2026-07-21T114718.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -579,9 +579,9 @@ jsonld:
   slug: amadeus-travel-recommendations-warning-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: amadeus-traveler-media-mcp.yml
-  slug: amadeus-traveler-media-mcpyml
+- description: Candidate MCP surface exposing the Amadeus Traveler Media destination-content APIs (Points of Interest, Hotel Ratings, Travel Recommendations, Location Score) as one tool per OpenAPI operation. Requir
+  name: Amadeus Traveler Media MCP Server
+  slug: amadeus-traveler-media-mcp-server
 modified: '2026-06-20'
 name: Amadeus Traveler Media
 nav: Providers
@@ -618,18 +618,18 @@ rules:
   slug: amadeus-traveler-media-spectral-rules
 score:
   band: thin
-  composite: 33.9
-  delta: -22.0
+  composite: 34.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 56.4
     developer_ergonomics: 26.2
     discoverability: 92.6
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 2.6
-  previous_composite: 55.9
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -639,9 +639,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/screenshots/amadeus-traveler-media-2026-07-25T195907.png
 security:
 - kind: domain-security

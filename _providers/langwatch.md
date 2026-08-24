@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 3
@@ -428,7 +428,7 @@ modified: '2026-05-25'
 name: LangWatch
 nav: Providers
 network: true
-overview: 'LangWatch publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Annotations API, and 25 more. Tagged areas include AI, Artificial Intelligence, LLM, LLM Observability, and LLM Evaluation.
+overview: 'LangWatch publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Annotations API, and 25 more. Tagged areas include Artificial Intelligence, LLM, LLM Observability, LLM Evaluation, and Agent Testing.
 
 
   The LangWatch catalog on APIs.io includes 1 JSON-LD context.
@@ -447,7 +447,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.6
-  delta: -10.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -457,7 +457,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 58.3
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -465,9 +465,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/screenshots/langwatch-2026-06-20T184318.png
 security:
 - kind: authentication
@@ -484,7 +484,6 @@ security:
   summary_line: ISO 27001, GDPR
 slug: langwatch
 tags:
-- AI
 - Artificial Intelligence
 - LLM
 - LLM Observability
@@ -498,7 +497,7 @@ tags:
 - AI Gateway
 - DSPy
 - LangChain
-- Open Source
+- Open-Source
 - MCP
 - FinOps
 website: https://langwatch.ai

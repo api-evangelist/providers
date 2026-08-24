@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Modeled loan-file exchange surface - create, read, and update mortgage loan files, submit loan data to lenders/investors, and import/export loan data (LendingPad describes MISMO-style 3.2/3.4 loan-dat
@@ -91,7 +91,7 @@ modified: '2026-07-04'
 name: LendingPad
 nav: Providers
 network: true
-overview: 'LendingPad publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Mortgage, Loan Origination System, LOS, Lending, and FinTech.
+overview: 'LendingPad publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Mortgage, Loan Origination System, LOS, Lending, and Fintech.
 
 
   LendingPad''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -103,7 +103,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 16.8
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -113,9 +113,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendingpad/refs/heads/main/screenshots/lendingpad-2026-07-25T224859.png
 security:
@@ -133,9 +133,9 @@ tags:
 - Loan Origination System
 - LOS
 - Lending
-- FinTech
-- Financial Services
-- Real Estate
+- Fintech
+- Financial-Services
+- Real-Estate
 - Partner API
 - Gated API
 website: https://lendingpad.com

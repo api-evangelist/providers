@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ modified: '2026-05-08'
 name: Tatum
 nav: Providers
 network: true
-overview: 'Tatum publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data API and Rates API. Tagged areas include Web3, Blockchain, RPC, Multi-chain, and Wallet.
+overview: 'Tatum publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data API and Rates API. Tagged areas include Web3, Blockchain, RPC, Multi-Chain, and Wallets.
 
 
   Tatum''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.2
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -168,7 +168,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.3
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +182,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/screenshots/tatum-2026-06-20T194929.png
 security:
@@ -204,8 +204,8 @@ tags:
 - Web3
 - Blockchain
 - RPC
-- Multi-chain
-- Wallet
+- Multi-Chain
+- Wallets
 - NFT
 website: https://tatum.io/
 ---

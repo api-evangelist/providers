@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Demostack webhooks push real-time demo engagement events to any CRM, data warehouse, BI tool, or custom HTTP endpoint. Events are fired when prospects view, interact with, or complete a demo, enabling
@@ -178,14 +178,14 @@ jsonld:
   slug: demostack-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: demostack-mcp.yml
-  slug: demostack-mcpyml
+- description: Demostack ships a first-party remote MCP server. It is a live, reachable HTTPS endpoint that an MCP client POSTs JSON-RPC to — not a package a human has to install — and it is protected by OAuth 2.1 w
+  name: Demostack MCP Server
+  slug: demostack-mcp-server
 modified: '2026-08-14'
 name: Demostack
 nav: Providers
 network: true
-overview: 'Demostack publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Demo, Demo Automation, Product Simulation, Webhooks, and CRM Integration.
+overview: 'Demostack publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Demo, Demo Automation, Product Simulation, Webhook, and CRM Integration.
 
 
   The Demostack catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 48.6
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -219,13 +219,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 54.7
+  previous_composite: 48.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/screenshots/demostack-2026-06-20T175910.png
 security:
 - kind: authentication
@@ -249,13 +249,13 @@ tags:
 - Sales Demo
 - Demo Automation
 - Product Simulation
-- Webhooks
+- Webhook
 - CRM Integration
 - Sales Enablement
 - Presales
 - Sales Engineering
 - Analytics
-- AI
+- Artificial Intelligence
 - MCP
 website: https://www.demostack.com
 ---

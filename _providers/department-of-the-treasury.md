@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-05-19'
 name: Department of the Treasury
 nav: Providers
 network: true
-overview: 'Department of the Treasury publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auctions API, Debt API, Exchange Rates API, and 5 more. Tagged areas include Federal Government, Finance, Debt, and Sanctions.
+overview: 'Department of the Treasury publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auctions API, Debt API, Exchange Rates API, and 5 more. Tagged areas include Federal-Government, Finance, Debt, and Sanctions.
 
 
   The Department of the Treasury catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -211,7 +211,7 @@ rules:
 score:
   band: thin
   composite: 30.7
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -221,7 +221,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 35.0
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -235,8 +235,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/screenshots/department-of-the-treasury-2026-06-20T175925.png
 security:
@@ -246,7 +246,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: department-of-the-treasury
 tags:
-- Federal Government
+- Federal-Government
 - Finance
 - Debt
 - Sanctions

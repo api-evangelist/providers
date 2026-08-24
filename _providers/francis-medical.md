@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -140,7 +140,7 @@ modified: '2026-08-16'
 name: Francis Medical
 nav: Providers
 network: true
-overview: 'Francis Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Medical Devices, Oncology, and Urology.
+overview: 'Francis Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Oncology, and Urology.
 
 
   Francis Medical''s developer surface includes engineering blog, support, FAQ, and 18 more developer resources.'
@@ -148,7 +148,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 13.7
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -158,15 +158,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.5
+  previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -180,7 +180,7 @@ security:
 slug: francis-medical
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medical Devices
 - Oncology
 - Urology

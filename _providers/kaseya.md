@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Kaseya BMS (Business Management Solution) V2 REST API exposes the professional services automation surface of BMS — tickets, accounts, contacts, contracts, opportunities, projects, timesheets, exp
@@ -213,8 +213,8 @@ image: https://www.kaseya.com/wp-content/uploads/2023/04/kaseya-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: kaseya-mcp.yml
-  slug: kaseya-mcpyml
+  name: Kaseya MCP Server
+  slug: kaseya-mcp-server
 modified: '2026-08-01'
 name: Kaseya
 nav: Providers
@@ -234,7 +234,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.9
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 57.1
+  previous_composite: 51.9
   provenance:
     conformance: derived
     contracts:
@@ -254,9 +254,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaseya/refs/heads/main/screenshots/kaseya-2026-08-07T171103.png
 security:
 - kind: authentication

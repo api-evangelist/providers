@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Clanbeat
 nav: Providers
 network: true
-overview: 'Clanbeat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Well-being, and Social Emotional Learning.
+overview: 'Clanbeat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Wellbeing, and Social Emotional Learning.
 
 
   Clanbeat''s developer surface includes signup flow, pricing, support, engineering blog, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 13.8
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -94,15 +94,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
+  previous_composite: 13.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 25.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clanbeat/refs/heads/main/screenshots/clanbeat-2026-07-25T205457.png
 security:
@@ -115,7 +115,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Well-being
+- Wellbeing
 - Social Emotional Learning
 - Student Engagement
 - Schools

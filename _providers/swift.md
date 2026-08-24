@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ modified: '2026-05-19'
 name: SWIFT
 nav: Providers
 network: true
-overview: 'SWIFT publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account Numbers API, BBANs API, BICs API, and 5 more. Tagged areas include Banking, Cross-Border Payments, Financial Messaging, Financial Services, and GPI.
+overview: 'SWIFT publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account Numbers API, BBANs API, BICs API, and 5 more. Tagged areas include Banking, Cross-Border Payments, Financial Messaging, Financial-Services, and GPI.
 
 
   The SWIFT catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -290,18 +290,18 @@ scopes:
   summary_line: 2 scopes · password
 score:
   band: thin
-  composite: 38.0
-  delta: -11.5
+  composite: 38.4
+  delta: 0.0
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 60.8
     developer_ergonomics: 27.4
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 49.5
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -315,9 +315,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/screenshots/swift-2026-06-20T194804.png
 security:
 - kind: authentication
@@ -333,7 +333,7 @@ tags:
 - Banking
 - Cross-Border Payments
 - Financial Messaging
-- Financial Services
+- Financial-Services
 - GPI
 - ISO 20022
 - Payments

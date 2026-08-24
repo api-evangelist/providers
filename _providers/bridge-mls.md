@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -330,7 +330,7 @@ modified: '2026-05-25'
 name: Bridge
 nav: Providers
 network: true
-overview: 'Bridge publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Listings API, Media API, and 8 more. Tagged areas include Real Estate, MLS, RESO, Listings, and Property Data.
+overview: 'Bridge publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Listings API, Media API, and 8 more. Tagged areas include Real-Estate, MLS, RESO, Listings, and Property Data.
 
 
   The Bridge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -360,7 +360,7 @@ rules:
 score:
   band: strong
   composite: 58.8
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -370,7 +370,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 47.4
-  previous_composite: 61.6
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -384,8 +384,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/screenshots/bridge-mls-2026-06-20T173655.png
 security:
@@ -399,7 +399,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bridge-mls
 tags:
-- Real Estate
+- Real-Estate
 - MLS
 - RESO
 - Listings

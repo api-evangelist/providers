@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Rowy's primary inbound API surface. Each table can generate an HTTPS webhook endpoint running on Google Cloud Run (the rowy-hooks service) that receives POST requests from external systems. Built-in t
@@ -94,7 +94,7 @@ modified: '2026-06-20'
 name: Rowy
 nav: Providers
 network: true
-overview: 'Rowy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Webhooks, Run / Cloud Functions, and Firestore Data. Tagged areas include Low-Code, Backend, Firestore, Firebase, and Webhooks.
+overview: 'Rowy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Webhooks, Run / Cloud Functions, and Firestore Data. Tagged areas include Low-Code, Backend, Firestore, Firebase, and Webhook.
 
 
   Rowy''s developer surface includes documentation and 7 more developer resources.'
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.9
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -120,9 +120,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 28.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/screenshots/rowy-2026-06-20T193228.png
 security:
@@ -136,7 +136,7 @@ tags:
 - Backend
 - Firestore
 - Firebase
-- Webhooks
+- Webhook
 - Cloud Functions
 website: https://www.rowy.io
 ---

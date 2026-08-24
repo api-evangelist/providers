@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The AnnounceKit API provides GraphQL and REST endpoints for programmatically creating and updating posts, syncing user data, managing widgets, and automating product changelog workflows. Supports 11 w
@@ -101,7 +101,7 @@ modified: '2026-04-19'
 name: AnnounceKit
 nav: Providers
 network: true
-overview: 'AnnounceKit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Feature Requests, NPS, Notifications, and Product Communication.
+overview: 'AnnounceKit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Feature Requests, NPS, Notification, and Product Communication.
 
 
   AnnounceKit''s developer surface includes documentation, pricing, changelog, code examples, engineering blog, and 7 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.4
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -127,9 +127,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 24.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/screenshots/announcekit-2026-06-20T172011.png
 security:
@@ -146,10 +146,10 @@ tags:
 - Changelog
 - Feature Requests
 - NPS
-- Notifications
+- Notification
 - Product Communication
-- Roadmap
-- SaaS
+- Roadmaps
+- Software-as-a-Service
 - Widgets
 website: https://announcekit.app/
 ---

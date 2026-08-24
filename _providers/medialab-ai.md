@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The Genius API exposes the music knowledge community behind genius.com: annotations (crowd-sourced explanations attached to a fragment of a document), referents (the fragments annotations attach to), '
@@ -193,8 +193,8 @@ image: https://cdn.prod.website-files.com/6434b7d63112666081bedeb0/643591619f8e2
 layout: provider
 mcp_servers:
 - description: ''
-  name: medialab-ai-mcp.yml
-  slug: medialab-ai-mcpyml
+  name: MediaLab.AI MCP Server
+  slug: medialabai-mcp-server
 modified: '2026-08-01'
 name: MediaLab.AI
 nav: Providers
@@ -216,7 +216,7 @@ scopes:
 score:
   band: developing
   composite: 41.1
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -226,13 +226,13 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 40.2
+  previous_composite: 41.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/screenshots/medialab-ai-2026-08-07T172332.png
 security:
@@ -255,7 +255,7 @@ tags:
 - Social
 - Advertising
 - Content
-- Images
+- Image
 - Music
 - Messaging
 - Communities

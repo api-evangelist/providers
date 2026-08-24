@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 12
 common:
@@ -141,7 +141,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 14.2
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -151,15 +151,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.3
+  previous_composite: 14.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openevidence/refs/heads/main/screenshots/openevidence-2026-06-20T190957.png
 security:

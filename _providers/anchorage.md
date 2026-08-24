@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -362,8 +362,8 @@ image: https://cdn.prod.website-files.com/649e7e19aca422fdfb636e26/64de142d90faa
 layout: provider
 mcp_servers:
 - description: ''
-  name: anchorage-mcp.yml
-  slug: anchorage-mcpyml
+  name: Anchorage Digital MCP Server
+  slug: anchorage-digital-mcp-server
 modified: '2026-07-17'
 name: Anchorage Digital
 nav: Providers
@@ -382,18 +382,18 @@ rate_limits:
   slug: anchorage-rate-limits
 score:
   band: developing
-  composite: 48.8
-  delta: -5.7
+  composite: 46.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
     contract_quality: 68.0
     developer_ergonomics: 23.2
-    discoverability: 81.5
+    discoverability: 63.0
     governance: 16.7
     operational_transparency: 78.9
-  previous_composite: 54.5
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -410,9 +410,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/screenshots/anchorage-2026-07-25T200219.png
 security:
 - kind: authentication

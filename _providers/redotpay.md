@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Production RedotPay HTTP API surface behind the redotpay CLI and the redotpay-payment MCP server. Provides OAuth2 device-flow authentication and the agentic Machine Payments Protocol (MPP) endpoint th
@@ -122,14 +122,14 @@ description: 'RedotPay is a global stablecoin-based payment fintech that integra
 image: https://www.redotpay.com/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: redotpay-mcp.yml
-  slug: redotpay-mcpyml
+- description: First-party local MCP server (redotpay-payment) that lets AI agents settle MPP HTTP 402 payments on the user's behalf. Installed via the redotpay-payment-skill install.sh, which registers the MCP serv
+  name: Redotpay MCP Server
+  slug: redotpay-mcp-server
 modified: '2026-07-21'
 name: Redotpay
 nav: Providers
 network: true
-overview: 'Redotpay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Stablecoin, and Cryptocurrency.
+overview: 'Redotpay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Stablecoins, and Cryptocurrency.
 
 
   Redotpay''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, and 14 more developer resources.'
@@ -142,7 +142,7 @@ scopes:
 score:
   band: emerging
   composite: 19.2
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -152,7 +152,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 24.1
+  previous_composite: 19.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -163,8 +163,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -180,12 +180,12 @@ tags:
 - Company
 - Payments
 - Fintech
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
-- Wallet
+- Wallets
 - Agentic Payments
 - Machine Payments Protocol
 - x402
-- OAuth
+- Authentication
 website: https://www.redotpay.com
 ---

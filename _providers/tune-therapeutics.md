@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Two Model Context Protocol servers exposed from the Tune Therapeutics corporate WordPress site via the WordPress MCP Adapter plugin, backed by the WordPress Abilities API. Both endpoints are live and '
@@ -84,9 +84,9 @@ description: Tune Therapeutics is a clinical-stage epigenetic editing biotechnol
 image: https://tunetx.com/wp-content/uploads/2022/10/TuneTx_Meta.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: tune-therapeutics-mcp.yml
-  slug: tune-therapeutics-mcpyml
+- description: 'Tune Therapeutics does not market or document a Model Context Protocol server. Its corporate WordPress site nevertheless runs the WordPress MCP Adapter plugin, which registers an `mcp` REST namespace '
+  name: Tune Therapeutics Website MCP Servers
+  slug: tune-therapeutics-website-mcp-servers
 modified: '2026-08-05'
 name: Tune Therapeutics
 nav: Providers
@@ -104,7 +104,7 @@ scopes:
 score:
   band: emerging
   composite: 22.9
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -114,7 +114,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.6
+  previous_composite: 22.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -124,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

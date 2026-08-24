@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Audio API from RightNow AI — 2 operation(s) for audio.
@@ -214,31 +214,31 @@ image: https://runinfra.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: rightnow-mcp.yml
-  slug: rightnow-mcpyml
+  name: RightNow AI MCP Server
+  slug: rightnow-ai-mcp-server
 modified: '2026-07-21'
 name: RightNow AI
 nav: Providers
 network: true
-overview: 'RightNow AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Embeddings API, and 4 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM Inference, and GPU.
+overview: 'RightNow AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Embeddings API, and 4 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM Inference, and GPU.
 
 
   RightNow AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 25 more developer resources.'
 random_paper: 0
 score:
   band: developing
-  composite: 52.8
-  delta: -2.0
+  composite: 53.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
     contract_quality: 59.6
     developer_ergonomics: 54.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 54.8
+  previous_composite: 53.9
   provenance:
     conformance: derived
     contracts:
@@ -248,8 +248,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/screenshots/rightnow-2026-08-17T081603.png
 security:
@@ -273,12 +273,12 @@ slug: rightnow
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM Inference
 - GPU
 - Model Deployment
 - Serverless
-- OpenAI Compatible
+- OpenAI-Compatible
 - Embeddings
 - MLOps
 website: https://runinfra.ai/docs

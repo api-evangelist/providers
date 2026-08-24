@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: The Activity API from Velaris — 4 operation(s) for activity.
@@ -236,13 +236,13 @@ image: https://cdn.prod.website-files.com/6082c882cae3781954fcc067/68907364a5c04
 layout: provider
 mcp_servers:
 - description: ''
-  name: velaris-mcp.yml
-  slug: velaris-mcpyml
+  name: Velaris MCP Server
+  slug: velaris-mcp-server
 modified: '2026-07-21'
 name: Velaris
 nav: Providers
 network: true
-overview: 'Velaris publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Attribute Change Log API, Currencies API, and 11 more. Tagged areas include Customer Success, AI, SaaS, Customer Data, and CRM.
+overview: 'Velaris publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Attribute Change Log API, Currencies API, and 11 more. Tagged areas include Customer Success, Artificial Intelligence, Software-as-a-Service, Customer Data, and CRM.
 
 
   Velaris'' developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, authentication, and 20 more developer resources.'
@@ -250,7 +250,7 @@ random_paper: 2
 score:
   band: developing
   composite: 49.3
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -260,7 +260,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 49.9
+  previous_composite: 49.3
   provenance:
     conformance: first-party
     contracts:
@@ -270,8 +270,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/screenshots/velaris-2026-08-17T082724.png
 security:
@@ -294,8 +294,8 @@ security:
 slug: velaris
 tags:
 - Customer Success
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Customer Data
 - CRM
 - Analytics

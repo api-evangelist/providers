@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-06-13'
 name: NASA Mars Rovers
 nav: Providers
 network: true
-overview: 'NASA Mars Rovers publishes 3 APIs on the [APIs.io](https://apis.io/) network: Manifests API, Photos API, and Rovers API. Tagged areas include NASA, Mars, Rovers, Photos, and Images.
+overview: 'NASA Mars Rovers publishes 3 APIs on the [APIs.io](https://apis.io/) network: Manifests API, Photos API, and Rovers API. Tagged areas include NASA, Mars, Rovers, Photos, and Image.
 
 
   The NASA Mars Rovers catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -184,7 +184,7 @@ rules:
 score:
   band: developing
   composite: 44.8
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -194,7 +194,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 44.7
-  previous_composite: 47.8
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -208,8 +208,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-mars/refs/heads/main/screenshots/nasa-mars-2026-06-20T185952.png
 security:
@@ -227,7 +227,7 @@ tags:
 - Mars
 - Rovers
 - Photos
-- Images
+- Image
 - Space
 - Planetary Science
 - Open Data

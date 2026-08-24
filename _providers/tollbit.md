@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The Auth Tokens API from Tollbit — 3 operation(s) for auth tokens.
@@ -218,9 +218,9 @@ description: TollBit is the web stack for the agentic internet, giving publisher
 image: https://avatars.githubusercontent.com/u/159727288?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: tollbit-mcp.yml
-  slug: tollbit-mcpyml
+- description: TollBit ships an official Model Context Protocol server ("MCP Toolbox") that connects AI agents to TollBit's dynamic toolbox — licensed search and authorized content access across TollBit publisher pr
+  name: TollBit MCP Toolbox
+  slug: tollbit-mcp-toolbox
 modified: '2026-07-21'
 name: Tollbit
 nav: Providers
@@ -236,7 +236,7 @@ random_paper: 6
 score:
   band: developing
   composite: 43.9
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -246,7 +246,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 48.6
+  previous_composite: 43.9
   provenance:
     conformance: derived
     contracts:
@@ -256,8 +256,8 @@ score:
       total: 11
     mcp: first-party
     skills: unknown
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/screenshots/tollbit-2026-08-17T082402.png
 security:

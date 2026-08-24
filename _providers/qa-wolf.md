@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Continuous integration triggers and pipeline gating
@@ -184,13 +184,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qa-wolf.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: qa-wolf-mcp.yml
-  slug: qa-wolf-mcpyml
+  name: QA Wolf MCP Server
+  slug: qa-wolf-mcp-server
 modified: '2026-07-20'
 name: QA Wolf
 nav: Providers
 network: true
-overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: CI API and Webhooks API. Tagged areas include Company, Devtools, Testing, Test Automation, and QA.
+overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: CI API and Webhooks API. Tagged areas include Company, DevTools, Testing, Test Automation, and QA.
 
 
   The QA Wolf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -201,7 +201,7 @@ random_paper: 2
 score:
   band: developing
   composite: 43.5
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -211,7 +211,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 44.8
+  previous_composite: 43.5
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +221,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/screenshots/qa-wolf-2026-08-17T081412.png
 security:
@@ -241,7 +241,7 @@ security:
 slug: qa-wolf
 tags:
 - Company
-- Devtools
+- DevTools
 - Testing
 - Test Automation
 - QA

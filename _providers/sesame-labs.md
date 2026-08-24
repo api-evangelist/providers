@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets an AI assistant create finished video and image ads from a plain-language brief. Streamable HTTP transport with browser-based OAuth 2.0 (PKCE + d
@@ -122,9 +122,9 @@ description: 'Sesame Labs is the San Francisco company behind Notch (usenotch.ai
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sesame-labs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sesame-labs-mcp.yml
-  slug: sesame-labs-mcpyml
+- description: Notch turns a product page and plain-language brief into a finished video or image ad. Connect it over MCP to create, review, and edit ads from your AI chat. Ads created over MCP land in the user's No
+  name: Sesame Labs MCP Server
+  slug: sesame-labs-mcp-server
 modified: '2026-08-13'
 name: Sesame Labs
 nav: Providers
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.3
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -155,12 +155,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 34.6
+  previous_composite: 33.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

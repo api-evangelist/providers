@@ -29,5 +29,5 @@ tags:
 - Developer Workflow
 - Google Jules
 - Agent Configuration
-- Coding Agent
+- Coding Agents
 ---

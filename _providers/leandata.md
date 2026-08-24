@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -375,7 +375,7 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leandata.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: LeanData ships a hosted, remote BookIt MCP server, announced in the Q2 2026 release. It exposes BookIt scheduling and operational data to any MCP client (Claude, ChatGPT, Agentforce, Cursor) and is au
   name: LeanData BookIt MCP (remote, https://mcp.leandata.com/mcp)
   slug: leandata-bookit-mcp-remote-httpsmcpleandatacommcp
 modified: '2026-08-13'
@@ -403,7 +403,7 @@ scopes:
 score:
   band: strong
   composite: 61.0
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -413,7 +413,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 67.2
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -424,9 +424,9 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/screenshots/leandata-2026-06-20T184358.png
 security:
 - kind: authentication
@@ -459,9 +459,7 @@ tags:
 - Account Based Marketing
 - Buying Groups
 - Signal Orchestration
-- Go to Market
-- RevOps
-- GTM
+- Go-To-Market
 - CRM
 - AppExchange
 website: https://www.leandata.com

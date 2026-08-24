@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The only public HTTP endpoint Ploy documents. An authenticated inbound ingest endpoint that accepts any well-formed JSON object (up to 1 MB) from an external system — Clay, Stripe, Zapier, or a custom
@@ -213,23 +213,23 @@ rate_limits:
   slug: ploy-rate-limits
 score:
   band: strong
-  composite: 60.7
-  delta: -2.7
+  composite: 61.8
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 63.4
+  previous_composite: 61.8
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ploy/refs/heads/main/screenshots/ploy-2026-08-17T081308.png
 security:
@@ -260,7 +260,7 @@ tags:
 - Website Builder
 - Growth
 - Advertising
-- Webhooks
+- Webhook
 - CLI
 - Agent Skills
 website: https://ploy.ai

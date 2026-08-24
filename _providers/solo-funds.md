@@ -25,10 +25,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-19'
+  score: 3.4
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,11 +56,11 @@ modified: '2026-07-21'
 name: SoLo Funds
 nav: Providers
 network: true
-overview: SoLo Funds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Lending, and Peer-to-Peer.
+overview: SoLo Funds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Lending, and Peer-to-Peer.
 random_paper: 5
 score:
   band: minimal
-  composite: 7.1
+  composite: 8.2
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -68,12 +68,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -83,7 +83,7 @@ security:
 slug: solo-funds
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Peer-to-Peer

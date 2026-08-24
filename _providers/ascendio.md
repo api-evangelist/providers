@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API (/api/v1) for managing Ascend workspaces, deployments, environments, projects, profiles, flows, flow runs, and Otto. Service-account Bearer authentication.
@@ -126,14 +126,14 @@ description: Ascend.io is a data engineering platform for building declarative, 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ascendio.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ascendio-mcp.yml
-  slug: ascendio-mcpyml
+- description: Official MCP server for the Ascend Instance web API. Exposes 25 tools for managing workspaces, deployments, environments, projects, profiles, flows, flow runs, and Otto (Ascend's agentic AI assistant)
+  name: Ascend.io MCP Server
+  slug: ascendio-mcp-server
 modified: '2026-07-18'
 name: Ascend.io
 nav: Providers
 network: true
-overview: 'Ascend.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Engineering, Data Pipelines, and ETL.
+overview: 'Ascend.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Engineering, Data Pipeline, and ETL.
 
 
   Ascend.io''s developer surface includes documentation, API reference, quickstart, signup flow, support, CLI, authentication, and 14 more developer resources.'
@@ -141,7 +141,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 22.6
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -151,13 +151,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 27.0
+  previous_composite: 22.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/screenshots/ascendio-2026-07-25T201409.png
 security:
@@ -174,7 +174,7 @@ tags:
 - Company
 - Big Data
 - Data Engineering
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Orchestration
 - Data Automation

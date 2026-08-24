@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -141,7 +141,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 2.0
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -151,15 +151,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.0
+  previous_composite: 2.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uala/refs/heads/main/screenshots/uala-2026-06-20T195921.png
 security:
@@ -180,7 +180,7 @@ tags:
 - Investing
 - Brokerage
 - Insurance
-- Point Of Sale
+- Point-of-Sale
 - Merchant Acquiring
 - Payment Links
 - Latin America

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 0
@@ -4905,18 +4905,18 @@ rules:
   slug: tm-forum-spectral-rules
 score:
   band: thin
-  composite: 28.9
-  delta: -4.3
+  composite: 29.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 56.6
     developer_ergonomics: 21.4
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 33.2
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -4930,8 +4930,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/screenshots/tm-forum-2026-06-20T195425.png
 security:

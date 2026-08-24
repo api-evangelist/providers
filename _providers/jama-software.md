@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Jama Connect REST API (v1) provides programmatic access to items, projects, relationships, item types, baselines, test plans, test cycles, test runs, users, user groups, tags, attachments, comment
@@ -161,7 +161,7 @@ random_paper: 6
 score:
   band: thin
   composite: 38.1
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -171,11 +171,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 36.6
+  previous_composite: 38.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jama-software/refs/heads/main/screenshots/jama-software-2026-07-25T223048.png
 security:

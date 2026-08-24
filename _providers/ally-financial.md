@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'A conceptual, API-Evangelist-derived domain model of Ally Financial''s consumer platform spanning deposit accounts (checking, savings, money market, CDs, IRAs), lending (auto, personal, mortgage, home '
@@ -115,7 +115,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 17.4
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -125,15 +125,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.3
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ally-financial/refs/heads/main/screenshots/ally-financial-2026-06-20T171548.png
 security:

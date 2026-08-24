@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-07-10'
 name: Stay AI
 nav: Providers
 network: true
-overview: 'Stay AI publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Catalog API, Customer Portal API, and 5 more. Tagged areas include Subscriptions, Retention, Churn, Shopify, and Ecommerce.
+overview: 'Stay AI publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Catalog API, Customer Portal API, and 5 more. Tagged areas include Subscription, Retention, Churn, Shopify, and E-Commerce.
 
 
   Stay AI''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.5
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -180,7 +180,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.9
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -188,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -206,11 +206,11 @@ security:
   summary_line: SOC 2
 slug: stay-ai
 tags:
-- Subscriptions
+- Subscription
 - Retention
 - Churn
 - Shopify
-- Ecommerce
-- DTC
+- E-Commerce
+- Direct to Consumer
 website: https://stay.ai
 ---

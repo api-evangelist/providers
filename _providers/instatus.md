@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Post to and update maintenance and incidents on your status page through an HTTP REST API
@@ -68,7 +68,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 17.6
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -78,9 +78,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instatus/refs/heads/main/screenshots/instatus-2026-06-20T183418.png
 security:

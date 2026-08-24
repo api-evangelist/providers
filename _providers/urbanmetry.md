@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,14 +77,14 @@ description: UrbanMetry is a Malaysia-based big data analytics firm specialising
 image: https://static.wixstatic.com/media/75e2c0_25abd595c7e74e5f8ad96ef4a06774c4~mv2.png/v1/fit/w_2500,h_1330,al_c/75e2c0_25abd595c7e74e5f8ad96ef4a06774c4~mv2.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: urbanmetry-mcp.yml
-  slug: urbanmetry-mcpyml
+- description: 'Wix Site MCP endpoint for the UrbanMetry website ("Site Visitor Assistant"). Documented by the provider in /llms.txt; verified live via a JSON-RPC initialize handshake on 2026-07-21 (serverInfo "Site '
+  name: UrbanMetry MCP Server
+  slug: urbanmetry-mcp-server
 modified: '2026-07-21'
 name: UrbanMetry
 nav: Providers
 network: true
-overview: 'UrbanMetry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Property, Geospatial Analytics, and Urban Planning.
+overview: 'UrbanMetry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Property, Geospatial Analytics, and Urban Planning.
 
 
   UrbanMetry''s developer surface includes engineering blog and 9 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 10.4
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -102,11 +102,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.1
+  previous_composite: 10.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ security:
 slug: urbanmetry
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Property
 - Geospatial Analytics
 - Urban Planning

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -891,9 +891,9 @@ jsonld:
   slug: oracle-enterprise-manager-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: oracle-enterprise-manager-mcp.yml
-  slug: oracle-enterprise-manager-mcpyml
+- description: Candidate MCP server tool list derived one-to-one from the Oracle Enterprise Manager Cloud Control REST API OpenAPI operations. Oracle publishes MCP servers for several products (Oracle Database, MySQ
+  name: Oracle Enterprise Manager MCP Server
+  slug: oracle-enterprise-manager-mcp-server
 modified: '2026-06-20'
 name: Oracle Enterprise Manager
 nav: Providers
@@ -938,18 +938,18 @@ rules:
   slug: oracle-enterprise-manager-spectral-rules
 score:
   band: strong
-  composite: 54.6
-  delta: -6.9
+  composite: 55.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 75.1
     developer_ergonomics: 61.9
     discoverability: 81.5
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 61.5
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -959,9 +959,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
 security:
 - kind: authentication

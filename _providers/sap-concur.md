@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -728,7 +728,7 @@ modified: '2026-05-19'
 name: SAP Concur
 nav: Providers
 network: true
-overview: 'SAP Concur publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Comments API, Expenses API, and 2 more. Tagged areas include Business Travel, Expense Management, Financial Services, Invoice Management, and Travel Management.
+overview: 'SAP Concur publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Comments API, Expenses API, and 2 more. Tagged areas include Business Travel, Expense Management, Financial-Services, Invoice Management, and Travel Management.
 
 
   The SAP Concur catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -768,18 +768,18 @@ rules:
   slug: sap-concur-spectral-rules
 score:
   band: developing
-  composite: 42.5
-  delta: -11.3
+  composite: 43.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 75.6
     developer_ergonomics: 23.8
     discoverability: 75.9
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 53.8
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -787,9 +787,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur/refs/heads/main/screenshots/sap-concur-2026-06-20T193423.png
 security:
 - kind: authentication
@@ -808,7 +808,7 @@ slug: sap-concur
 tags:
 - Business Travel
 - Expense Management
-- Financial Services
+- Financial-Services
 - Invoice Management
 - Travel Management
 use_cases:

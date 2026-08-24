@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Open Banking API in the Truist Developer Center covering personal and small-business accounts - account information, balances, and transaction data. Documented in a registration-gated sandbox that ret
@@ -99,7 +99,7 @@ modified: '2026-07-23'
 name: Truist
 nav: Providers
 network: true
-overview: 'Truist publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Open Finance, and FDX.
+overview: 'Truist publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Open Finance, and FDX.
 
 
   Truist''s developer surface includes developer portal, documentation, getting-started guide, API reference, signup flow, support, and 9 more developer resources.'
@@ -107,7 +107,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 15.2
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -117,7 +117,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.0
+  previous_composite: 15.2
   provenance:
     conformance: first-party
   regulatory:
@@ -126,9 +126,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Truist Domain Security
@@ -136,7 +136,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: truist
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Open Finance

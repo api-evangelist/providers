@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The Care Plans API from Mon Ami — 4 operation(s) for care plans.
@@ -214,8 +214,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mon-ami.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: mon-ami-mcp.yml
-  slug: mon-ami-mcpyml
+  name: Mon Ami MCP Server
+  slug: mon-ami-mcp-server
 modified: '2026-07-20'
 name: Mon Ami
 nav: Providers
@@ -231,7 +231,7 @@ random_paper: 14
 score:
   band: developing
   composite: 42.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 43.2
+  previous_composite: 42.2
   provenance:
     conformance: first-party
     contracts:
@@ -257,8 +257,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/screenshots/mon-ami-2026-08-07T184127.png
 security:

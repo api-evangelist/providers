@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-17'
 name: Alude
 nav: Providers
 network: true
-overview: 'Alude is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, SaaS, and Property Management.
+overview: 'Alude is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Software-as-a-Service, and Property Management.
 
 
   Alude''s developer surface includes signup flow, pricing, engineering blog, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 10.4
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -90,16 +90,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.4
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alude/refs/heads/main/screenshots/alude-2026-07-25T195855.png
 security:
 - kind: domain-security
@@ -109,9 +109,9 @@ security:
 slug: alude
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
-- SaaS
+- Software-as-a-Service
 - Property Management
 - Rental Management
 - Electronic Signature

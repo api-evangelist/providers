@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Create and manage the loan records that appraisal orders are placed against - sync loan data from the LOS, retrieve loan detail, update loan fields, and receive a webhook when a loan is deleted. Endpo
@@ -106,7 +106,7 @@ modified: '2026-07-04'
 name: Reggora
 nav: Providers
 network: true
-overview: 'Reggora publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Appraisal Management, Mortgage, Lending, Real Estate, and Valuation.
+overview: 'Reggora publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Appraisal Management, Mortgage, Lending, Real-Estate, and Valuation.
 
 
   Reggora''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -122,7 +122,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.8
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -132,9 +132,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 21.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -150,7 +150,7 @@ tags:
 - Appraisal Management
 - Mortgage
 - Lending
-- Real Estate
+- Real-Estate
 - Valuation
 - Loan Origination
 - LOS Integration

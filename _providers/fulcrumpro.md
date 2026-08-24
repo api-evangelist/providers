@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 340
   human_in_the_loop: 5
@@ -809,8 +809,8 @@ image: https://cdn.prod.website-files.com/609461470d1c3e052bc814ee/62ec3c5217fa6
 layout: provider
 mcp_servers:
 - description: ''
-  name: fulcrumpro-mcp.yml
-  slug: fulcrumpro-mcpyml
+  name: Fulcrumpro MCP Server
+  slug: fulcrumpro-mcp-server
 modified: '2026-07-19'
 name: Fulcrumpro
 nav: Providers
@@ -823,7 +823,7 @@ random_paper: 11
 score:
   band: developing
   composite: 45.5
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -833,7 +833,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 46.3
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -844,8 +844,8 @@ score:
       total: 109
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/screenshots/fulcrumpro-2026-07-25T215252.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ modified: '2026-04-19'
 name: Apache Struts
 nav: Providers
 network: true
-overview: 'Apache Struts publishes 1 API on the [APIs.io](https://apis.io/) network: resource API. Tagged areas include Java, MVC, Web Applications, Web Framework, and Open Source.
+overview: 'Apache Struts publishes 1 API on the [APIs.io](https://apis.io/) network: resource API. Tagged areas include Java, MVC, Web Applications, Web Framework, and Open-Source.
 
 
   Apache Struts'' developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, FAQ, and 10 more developer resources.'
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.8
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -190,7 +190,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.7
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +198,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-struts/refs/heads/main/screenshots/apache-struts-2026-06-20T172148.png
 security:
@@ -221,7 +221,7 @@ tags:
 - MVC
 - Web Applications
 - Web Framework
-- Open Source
+- Open-Source
 use_cases:
 - description: Build large-scale Java web applications with clean MVC separation.
   name: Enterprise Java Web Applications

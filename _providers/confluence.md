@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -1098,9 +1098,9 @@ jsonld:
   slug: confluence-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: confluence-mcp.yml
-  slug: confluence-mcpyml
+- description: Official Atlassian Rovo MCP Server — a cloud-hosted (Cloudflare) remote MCP server that bridges Atlassian Cloud (Confluence, Jira, Jira Service Management, Bitbucket, Compass) to AI clients. Confluenc
+  name: Confluence MCP Server
+  slug: confluence-mcp-server
 modified: '2026-06-20'
 name: Confluence
 nav: Providers
@@ -1161,18 +1161,18 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.4
-  delta: -6.3
+  composite: 63.5
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 30.3
     contract_quality: 78.4
     developer_ergonomics: 85.7
-    discoverability: 85.2
+    discoverability: 66.7
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 71.7
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1182,9 +1182,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:
 - kind: authentication

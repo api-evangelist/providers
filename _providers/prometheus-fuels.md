@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The news-articles API from Prometheus Fuels — 10 operation(s) over the site's `news-articles` custom post type, the company's published press and news coverage. Read operations respond anonymously; wr
@@ -183,8 +183,8 @@ image: https://prometheusfuels.ai/wp-content/uploads/2026/03/logo_favicon-300x30
 layout: provider
 mcp_servers:
 - description: ''
-  name: prometheus-fuels-mcp.yml
-  slug: prometheus-fuels-mcpyml
+  name: Prometheus Fuels MCP Server
+  slug: prometheus-fuels-mcp-server
 modified: '2026-08-05'
 name: Prometheus Fuels
 nav: Providers
@@ -197,7 +197,7 @@ random_paper: 8
 score:
   band: thin
   composite: 28.1
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 26.9
+  previous_composite: 28.1
   provenance:
     conformance: derived
     contracts:
@@ -223,8 +223,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -244,7 +244,7 @@ tags:
 - Synthetic Fuels
 - Direct Air Capture
 - Energy Storage
-- Content API
+- content-api
 - WordPress
 website: https://prometheusfuels.ai/
 ---

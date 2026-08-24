@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -223,8 +223,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: zai-mcp.yml
-  slug: zai-mcpyml
+  name: Zai MCP Server
+  slug: zai-mcp-server
 modified: '2026-07-24'
 name: Zai
 nav: Providers
@@ -245,7 +245,7 @@ scopes:
 score:
   band: strong
   composite: 59.2
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -255,7 +255,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 22.4
-  previous_composite: 58.8
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 81.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/screenshots/zai-2026-08-17T083031.png
 security:
@@ -295,7 +295,7 @@ tags:
 - PayID
 - NPP
 - Direct Debit
-- Digital Wallets
+- Digital Wallet
 - Payouts
 website: https://www.hellozai.com/
 ---

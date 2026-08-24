@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 4
@@ -164,13 +164,13 @@ image: https://kardinal.ai/wp-content/uploads/2020/01/cropped-Icon-blue-270x270.
 layout: provider
 mcp_servers:
 - description: ''
-  name: kardinal-mcp.yml
-  slug: kardinal-mcpyml
+  name: Kardinal MCP Server
+  slug: kardinal-mcp-server
 modified: '2026-08-17'
 name: Kardinal
 nav: Providers
 network: true
-overview: 'Kardinal publishes 1 API on the [APIs.io](https://apis.io/) network: ARO API. Tagged areas include Company, SaaS, Route Optimization, Vehicle Routing, and Last Mile Delivery.
+overview: 'Kardinal publishes 1 API on the [APIs.io](https://apis.io/) network: ARO API. Tagged areas include Company, Software-as-a-Service, Route Optimization, Vehicle Routing, and Last Mile Delivery.
 
 
   Kardinal''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, FAQ, and 24 more developer resources.'
@@ -186,6 +186,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -195,6 +196,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +207,9 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Kardinal Authentication
@@ -219,7 +222,7 @@ security:
 slug: kardinal
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Route Optimization
 - Vehicle Routing
 - Last Mile Delivery

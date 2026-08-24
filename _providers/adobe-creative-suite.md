@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -1275,31 +1275,31 @@ rules:
     info: 2
     warn: 3
   slug: adobe-creative-suite-jsonschema-spectral-rules
-- effective_rule_count: 64
+- effective_rule_count: 63
   extends:
   - spectral:oas
   name: Adobe Creative Suite API Rules
-  rule_count: 23
+  rule_count: 22
   severity_counts:
-    error: 14
+    error: 13
     hint: 0
     info: 2
     warn: 7
   slug: adobe-creative-suite-spectral-rules
 score:
   band: developing
-  composite: 48.7
-  delta: -10.2
+  composite: 49.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 75.0
     developer_ergonomics: 61.9
     discoverability: 59.3
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 58.9
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1307,9 +1307,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/screenshots/adobe-creative-suite-2026-06-20T164857.png
 security:
 - kind: authentication

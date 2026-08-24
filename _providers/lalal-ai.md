@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -297,7 +297,7 @@ modified: '2026-08-13'
 name: LALAL.AI
 nav: Providers
 network: true
-overview: 'LALAL.AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch Stem Separation API, Common API, Stem Separation API, and 1 more. Tagged areas include AI, Artificial Intelligence, Audio, Audio Processing, and Stem Separation.
+overview: 'LALAL.AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch Stem Separation API, Common API, Stem Separation API, and 1 more. Tagged areas include Artificial Intelligence, Audio, Audio Processing, Stem Separation, and Vocal Removal.
 
 
   The LALAL.AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -337,18 +337,18 @@ rules:
   slug: lalal-ai-rules
 score:
   band: strong
-  composite: 62.0
-  delta: -8.6
+  composite: 62.5
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 69.7
     developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 70.6
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,9 +359,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/screenshots/lalal-ai-2026-06-20T184249.png
 security:
 - kind: authentication
@@ -374,7 +374,6 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: lalal-ai
 tags:
-- AI
 - Artificial Intelligence
 - Audio
 - Audio Processing
@@ -384,7 +383,7 @@ tags:
 - Voice Cloning
 - Voice Changer
 - Music
-- Machine Learning
+- Machine-Learning
 - DSP
 website: https://www.lalal.ai
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -803,18 +803,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.9
-  delta: 1.7
+  composite: 53.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 45.5
+    contract_governance: 69.7
     contract_quality: 67.8
     developer_ergonomics: 33.3
     discoverability: 72.2
-    governance: 45.5
+    governance: 69.7
     operational_transparency: 39.5
-  previous_composite: 49.2
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     contracts:
@@ -822,8 +822,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/screenshots/microsoft-azure-key-vault-2026-06-20T185418.png
 security:

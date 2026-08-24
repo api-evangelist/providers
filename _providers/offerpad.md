@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-07-26'
 name: Offerpad
 nav: Providers
 network: true
-overview: 'Offerpad publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Real Estate, United States, iBuyer, PropTech, and Property Listings.
+overview: 'Offerpad publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Real-Estate, United States, iBuyer, PropTech, and Property Listings.
 
 
   Offerpad''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 35 more developer resources.'
@@ -244,7 +244,7 @@ scopes:
 score:
   band: developing
   composite: 45.4
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -260,7 +260,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 43.6
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -277,8 +277,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png
 security:
@@ -292,7 +292,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: offerpad
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - iBuyer
 - PropTech

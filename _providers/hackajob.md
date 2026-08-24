@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-19'
 name: Hackajob
 nav: Providers
 network: true
-overview: 'Hackajob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Hiring, Talent, and Jobs.
+overview: 'Hackajob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Hiring, Talent, and Job.
 
 
   Hackajob''s developer surface includes engineering blog, signup flow, support, and 9 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 17.5
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -106,9 +106,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hackajob/refs/heads/main/screenshots/hackajob-2026-07-25T220519.png
 security:
@@ -126,7 +126,7 @@ tags:
 - Recruitment
 - Hiring
 - Talent
-- Jobs
+- Job
 - HR Tech
 - AI Agents
 - Contract Hiring

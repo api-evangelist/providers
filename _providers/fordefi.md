@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -281,13 +281,13 @@ image: https://cdn.prod.website-files.com/634ff29071ccb50e6fb7f68e/6368e19b27284
 layout: provider
 mcp_servers:
 - description: ''
-  name: fordefi-mcp.yml
-  slug: fordefi-mcpyml
+  name: Fordefi MCP Server
+  slug: fordefi-mcp-server
 modified: '2026-07-19'
 name: Fordefi
 nav: Providers
 network: true
-overview: 'Fordefi publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Address Book API, Assets API, Audit Log API, and 14 more. Tagged areas include Company, Security, Cryptocurrency, Digital Assets, and Wallet.
+overview: 'Fordefi publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Address Book API, Assets API, Audit Log API, and 14 more. Tagged areas include Company, Security, Cryptocurrency, Digital Assets, and Wallets.
 
 
   The Fordefi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -298,7 +298,7 @@ random_paper: 0
 score:
   band: strong
   composite: 56.7
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -308,7 +308,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 54.9
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -325,8 +325,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/screenshots/fordefi-2026-07-25T214929.png
 security:
@@ -348,7 +348,7 @@ tags:
 - Security
 - Cryptocurrency
 - Digital Assets
-- Wallet
+- Wallets
 - Custody
 - Blockchain
 - DeFi

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -286,7 +286,7 @@ modified: '2026-05-19'
 name: Bifrost
 nav: Providers
 network: true
-overview: 'Bifrost publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Health API. Tagged areas include AI Gateway, LLM, Load Balancing, Open Source, and OpenAI Compatible.
+overview: 'Bifrost publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Health API. Tagged areas include AI Gateway, LLM, Load Balancing, Open-Source, and OpenAI-Compatible.
 
 
   The Bifrost catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -326,18 +326,18 @@ rules:
   slug: bifrost-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: -7.3
+  composite: 47.3
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 21.0
     developer_ergonomics: 61.9
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 54.1
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -345,9 +345,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/screenshots/bifrost-2026-06-20T173231.png
 security:
 - kind: authentication
@@ -367,8 +367,8 @@ tags:
 - AI Gateway
 - LLM
 - Load Balancing
-- Open Source
-- OpenAI Compatible
+- Open-Source
+- OpenAI-Compatible
 - MCP
 use_cases:
 - description: Build applications that can seamlessly switch between OpenAI, Anthropic, and other providers.

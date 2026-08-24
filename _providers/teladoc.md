@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Teladoc Health Solo virtual-care platform. Manages patients, appointments, waiting rooms, appointment slots, visit notes, attachments, patient documents, episodes of care, encounter r
@@ -165,7 +165,7 @@ modified: '2026-08-15'
 name: Teladoc
 nav: Providers
 network: true
-overview: 'Teladoc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Telehealth, Telemedicine, and Virtual Care.
+overview: 'Teladoc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Telehealth, Telemedicine, and Virtual Care.
 
 
   The Teladoc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -184,7 +184,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.2
-  delta: 5.0
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -194,7 +194,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 46.2
+  previous_composite: 51.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -204,9 +204,9 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/screenshots/teladoc-2026-08-17T082301.png
 security:
 - kind: authentication
@@ -224,13 +224,12 @@ security:
 slug: teladoc
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Telehealth
 - Telemedicine
 - Virtual Care
 - Healthcare
 - Behavioral Health
-- Webhooks
-- API
+- Webhook
 website: https://www.teladochealth.com
 ---

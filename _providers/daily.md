@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: The batch/rooms API from Daily — 1 operation(s) for batch/rooms.
@@ -250,8 +250,8 @@ image: https://www.daily.co/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: daily-mcp.yml
-  slug: daily-mcpyml
+  name: Daily MCP Server
+  slug: daily-mcp-server
 modified: '2026-07-18'
 name: Daily
 nav: Providers
@@ -287,8 +287,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/screenshots/daily-2026-07-25T211132.png
 security:

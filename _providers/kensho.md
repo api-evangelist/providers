@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Asynchronous speech-to-text transcription API that turns audio and video into text with high accuracy. Supports batch, real-time, and human-in-the-loop transcription, multipart and remote-URL submissi
@@ -169,16 +169,16 @@ image: https://services.kensho.com/icons/favicon-32x32.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: kensho-mcp.yml
-  slug: kensho-mcpyml
+  name: Kensho MCP Server
+  slug: kensho-mcp-server
+- description: Official hosted Model Context Protocol (MCP) server for the Kensho / S&P Global LLM-ready API (kfinance). Exposes S&P Global's trusted financial data to LLMs and agents. Verified via RFC 9728 protecte
+  name: Kensho MCP Server
+  slug: kensho-mcp-server-2
 modified: '2026-07-19'
 name: Kensho
 nav: Providers
 network: true
-overview: 'Kensho publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Financial Data, and Speech to Text.
+overview: 'Kensho publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Financial Data, and Speech-to-Text.
 
 
   The Kensho catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -194,7 +194,7 @@ scopes:
 score:
   band: developing
   composite: 45.2
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -204,13 +204,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 49.6
+  previous_composite: 45.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/screenshots/kensho-2026-07-25T223619.png
 security:
@@ -230,15 +230,15 @@ slug: kensho
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Financial Data
-- Speech to Text
+- Speech-to-Text
 - Transcription
 - Document Extraction
 - Named Entity Recognition
 - Natural Language Processing
 - LLM
-- Model Context Protocol
+- MCP
 - Retrieval
 - S&P Global
 website: https://kensho.com/

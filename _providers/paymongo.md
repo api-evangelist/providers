@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -317,14 +317,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paymongo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: paymongo-mcp.yml
-  slug: paymongo-mcpyml
+- description: 'PayMongo does not operate an official hosted or local MCP server at probe time (no server documented on docs.paymongo.com; nothing in the paymongo GitHub org or the MCP registries). This is a DERIVED '
+  name: PayMongo MCP Server
+  slug: paymongo-mcp-server
 modified: '2026-07-17'
 name: PayMongo
 nav: Providers
 network: true
-overview: 'PayMongo publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Checkout Sessions API, Customers API, Payment Intents API, and 7 more. Tagged areas include Payments, FinTech, Philippines, Southeast Asia, and GCash.
+overview: 'PayMongo publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Checkout Sessions API, Customers API, Payment Intents API, and 7 more. Tagged areas include Payments, Fintech, Philippines, Southeast Asia, and GCash.
 
 
   The PayMongo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -343,7 +343,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 73.8
-  delta: 4.4
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -353,7 +353,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 56.6
-  previous_composite: 69.4
+  previous_composite: 73.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -370,8 +370,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/screenshots/paymongo-2026-08-07T191645.png
 security:
@@ -394,7 +394,7 @@ security:
 slug: paymongo
 tags:
 - Payments
-- FinTech
+- Fintech
 - Philippines
 - Southeast Asia
 - GCash

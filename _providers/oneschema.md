@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 0
@@ -458,9 +458,9 @@ description: OneSchema is an embeddable data onboarding and file-import platform
 image: https://cdn.prod.website-files.com/62902d243ad8aef519be0d3e/62902d243ad8ae4014be0e97_oneschema-256.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: oneschema-mcp.yml
-  slug: oneschema-mcpyml
+- description: Hosted, read-only MCP server that gives AI coding assistants direct access to OneSchema API specifications and product guides.
+  name: Oneschema MCP Server
+  slug: oneschema-mcp-server
 modified: '2026-07-20'
 name: Oneschema
 nav: Providers
@@ -475,18 +475,18 @@ overview: 'Oneschema publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 2
 score:
   band: strong
-  composite: 63.0
-  delta: -0.9
+  composite: 64.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 30.3
     contract_quality: 72.1
     developer_ergonomics: 78.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 63.9
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -497,8 +497,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/screenshots/oneschema-2026-08-07T190340.png
 security:

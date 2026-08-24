@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -465,8 +465,8 @@ image: https://cdn.prod.website-files.com/64b205c9041f2a26ac7cb23f/69135c34ecede
 layout: provider
 mcp_servers:
 - description: ''
-  name: bigeye-mcp.yml
-  slug: bigeye-mcpyml
+  name: Bigeye MCP Server
+  slug: bigeye-mcp-server
 modified: '2026-08-02'
 name: Bigeye
 nav: Providers
@@ -482,7 +482,7 @@ random_paper: 20
 score:
   band: developing
   composite: 49.5
-  delta: -7.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -492,7 +492,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 56.7
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -503,9 +503,9 @@ score:
       total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/screenshots/bigeye-2026-08-07T162422.png
 security:
 - kind: authentication

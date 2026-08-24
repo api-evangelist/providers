@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The OTLP gRPC API defines Protocol Buffers service definitions for exporting traces, metrics, and logs over gRPC. It is the primary transport for OpenTelemetry data between SDK instrumentation, the Op
@@ -145,7 +145,7 @@ modified: '2026-04-28'
 name: OpenTelemetry
 nav: Providers
 network: true
-overview: 'OpenTelemetry publishes 3 APIs on the [APIs.io](https://apis.io/) network: Logs API, Metrics API, and Traces API. Tagged areas include Cloud Native, Logging, Metrics, Monitoring, and Observability.
+overview: 'OpenTelemetry publishes 3 APIs on the [APIs.io](https://apis.io/) network: Logs API, Metrics API, and Traces API. Tagged areas include Cloud-Native, Logging, Metrics, Monitoring, and Observability.
 
 
   The OpenTelemetry catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -176,7 +176,7 @@ rules:
 score:
   band: developing
   composite: 40.7
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -186,16 +186,16 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 46.0
+  previous_composite: 40.7
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/screenshots/opentelemetry-2026-06-20T191044.png
 security:
 - kind: domain-security
@@ -204,12 +204,12 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: opentelemetry
 tags:
-- Cloud Native
+- Cloud-Native
 - Logging
 - Metrics
 - Monitoring
 - Observability
-- Open Source
+- Open-Source
 - Tracing
 website: https://opentelemetry.io/
 ---

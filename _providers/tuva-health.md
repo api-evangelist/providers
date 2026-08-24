@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.3
-  delta: 4.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -187,7 +187,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 42.4
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     contracts:
@@ -203,8 +203,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/screenshots/tuva-health-2026-08-17T082502.png
 security:
@@ -226,7 +226,7 @@ tags:
 - Data Analytics
 - Data Transformation
 - Claims
-- Open Source
+- Open-Source
 - dbt
 - EMPI
 - Patient Matching

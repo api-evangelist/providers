@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Microsoft Stream (on SharePoint) provides video management capabilities through Microsoft Graph and SharePoint APIs. Videos are stored in OneDrive and SharePoint, enabling developers to upload, manage
@@ -85,7 +85,7 @@ modified: '2026-04-28'
 name: Microsoft Stream
 nav: Providers
 network: true
-overview: 'Microsoft Stream publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Microsoft, Microsoft 365, Streaming, and Video.
+overview: 'Microsoft Stream publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Microsoft, Microsoft-365, Streaming, and Video.
 
 
   Microsoft Stream''s developer surface includes developer portal, documentation, authentication, support, and 5 more developer resources.'
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.8
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -111,9 +111,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-stream/refs/heads/main/screenshots/microsoft-stream-2026-06-20T185535.png
 security:
@@ -124,7 +124,7 @@ security:
 slug: microsoft-stream
 tags:
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Streaming
 - Video
 website: https://www.microsoft.com/en-us/microsoft-365/microsoft-stream

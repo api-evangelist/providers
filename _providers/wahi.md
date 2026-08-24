@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,13 +129,13 @@ image: https://wahi.com/wp-content/uploads/2022/10/wahi-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: wahi-mcp.yml
-  slug: wahi-mcpyml
+  name: Wahi MCP Server
+  slug: wahi-mcp-server
 modified: '2026-07-26'
 name: Wahi
 nav: Providers
 network: true
-overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: Listing Search API. Tagged areas include Real Estate, Canada, Property Listings, MLS, and Valuation.
+overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: Listing Search API. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and Valuation.
 
 
   Wahi''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
@@ -143,7 +143,7 @@ random_paper: 5
 score:
   band: thin
   composite: 37.2
-  delta: 5.9
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -153,7 +153,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 31.3
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -170,9 +170,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Wahi Authentication
@@ -184,7 +184,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: wahi
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

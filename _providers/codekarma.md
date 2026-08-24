@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,14 +74,14 @@ description: CodeKarma is a production intelligence platform that maps 100% of p
 image: https://codekarma.ai/og-default.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: codekarma-mcp.yml
-  slug: codekarma-mcpyml
+- description: KarmaIQ is CodeKarma's MCP (Model Context Protocol) server that provides production context to AI coding agents for deterministic debugging and root cause analysis. It exposes a blended, production-gr
+  name: KarmaIQ
+  slug: karmaiq
 modified: '2026-07-18'
 name: CodeKarma
 nav: Providers
 network: true
-overview: 'CodeKarma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Production Intelligence, Observability, and AI Agents.
+overview: 'CodeKarma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Production Intelligence, Observability, and AI Agents.
 
 
   CodeKarma''s developer surface includes engineering blog and 8 more developer resources.'
@@ -89,7 +89,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 14.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -99,12 +99,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 15.2
+  previous_composite: 14.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codekarma/refs/heads/main/screenshots/codekarma-2026-07-25T205918.png
 security:
@@ -115,7 +115,7 @@ security:
 slug: codekarma
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Production Intelligence
 - Observability
 - AI Agents

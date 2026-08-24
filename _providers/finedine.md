@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: FineDine
 nav: Providers
 network: true
-overview: 'FineDine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Hospitality, Digital Menu, and Ordering.
+overview: 'FineDine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Hospitality, Digital Menu, and Ordering.
 
 
   FineDine''s developer surface includes pricing, signup flow, engineering blog, support, and 6 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 14.8
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -98,9 +98,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finedine/refs/heads/main/screenshots/finedine-2026-07-25T214517.png
 security:
@@ -111,13 +111,13 @@ security:
 slug: finedine
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Hospitality
 - Digital Menu
 - Ordering
-- Point of Sale
+- Point-of-Sale
 - Reservations
 - Food and Beverage
-- SaaS
+- Software-as-a-Service
 website: https://finedinemenu.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: 'Unified task API for all Tripo generative 3D operations. A single POST creates an asynchronous task keyed by task_type (text_to_model, image_to_model, multiview_to_model, texture_model, refine_model, '
@@ -113,7 +113,7 @@ modified: '2026-05-23'
 name: Tripo AI
 nav: Providers
 network: true
-overview: 'Tripo AI publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Generative AI, 3D Modeling, Text to 3D, and Image to 3D.
+overview: 'Tripo AI publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Generative AI, 3D Modeling, Text-to-3D, and Image-to-3D.
 
 
   Tripo AI''s developer surface includes documentation, signup flow, pricing, GitHub presence, engineering blog, and 5 more developer resources.'
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.2
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -139,9 +139,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripo-ai/refs/heads/main/screenshots/tripo-ai-2026-06-20T195733.png
 security:
@@ -154,8 +154,8 @@ tags:
 - 3D
 - Generative AI
 - 3D Modeling
-- Text to 3D
-- Image to 3D
+- Text-to-3D
+- Image-to-3D
 - Rigging
 - Animation
 - Texturing

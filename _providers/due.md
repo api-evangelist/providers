@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -290,8 +290,8 @@ image: https://cdn.prod.website-files.com/65035c417fe69396bd8c0d5c/6551dcd772904
 layout: provider
 mcp_servers:
 - description: ''
-  name: due-mcp.yml
-  slug: due-mcpyml
+  name: Due MCP Server
+  slug: due-mcp-server
 modified: '2026-07-18'
 name: Due
 nav: Providers
@@ -307,7 +307,7 @@ random_paper: 3
 score:
   band: developing
   composite: 44.4
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -317,7 +317,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 47.3
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,8 +334,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/screenshots/due-2026-07-25T212452.png
 security:
@@ -357,6 +357,5 @@ tags:
 - Foreign Exchange
 - KYC
 - Wallets
-- API
 website: https://www.opendue.com/api
 ---

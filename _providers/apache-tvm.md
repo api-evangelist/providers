@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The TVM Python API provides a comprehensive interface for model compilation, optimization, and deployment. Key modules include tvm.relay for defining and optimizing computational graphs, tvm.auto_sche
@@ -128,7 +128,7 @@ modified: '2026-04-19'
 name: Apache TVM
 nav: Providers
 network: true
-overview: 'Apache TVM publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Compiler, Deep Learning, Edge Computing, and Model Optimization.
+overview: 'Apache TVM publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Compiler, Deep Learning, Edge Computing, and Model Optimization.
 
 
   Apache TVM''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 7 more developer resources.'
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.9
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -154,9 +154,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tvm/refs/heads/main/screenshots/apache-tvm-2026-06-20T172156.png
 security:
@@ -170,12 +170,12 @@ security:
   summary_line: security.txt · contact published
 slug: apache-tvm
 tags:
-- AI
+- Artificial Intelligence
 - Compiler
 - Deep Learning
 - Edge Computing
 - Model Optimization
-- Open Source
+- Open-Source
 use_cases:
 - description: Deploy optimized deep learning models on edge devices and microcontrollers.
   name: Edge AI Deployment

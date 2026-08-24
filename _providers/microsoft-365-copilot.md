@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ modified: '2026-05-19'
 name: Microsoft 365 Copilot
 nav: Providers
 network: true
-overview: 'Microsoft 365 Copilot publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, External Items API, Search API, and 1 more. Tagged areas include Artificial Intelligence, Copilot, Enterprise, LLM, and Microsoft 365.
+overview: 'Microsoft 365 Copilot publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, External Items API, Search API, and 1 more. Tagged areas include Artificial Intelligence, Copilot, Enterprise, LLM, and Microsoft-365.
 
 
   Microsoft 365 Copilot''s developer surface includes authentication, developer portal, support, engineering blog, and 10 more developer resources.'
@@ -171,7 +171,7 @@ scopes:
 score:
   band: thin
   composite: 38.3
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.8
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/screenshots/microsoft-365-copilot-2026-06-20T185342.png
 security:
@@ -258,7 +258,7 @@ tags:
 - Copilot
 - Enterprise
 - LLM
-- Microsoft 365
+- Microsoft-365
 - Natural Language Processing
 - Productivity
 website: https://developer.microsoft.com/

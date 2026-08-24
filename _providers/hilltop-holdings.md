@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Hilltop Holdings API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ modified: '2026-04-19'
 name: Hilltop Holdings
 nav: Providers
 network: true
-overview: 'Hilltop Holdings publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Insurance, and Financial Services.
+overview: 'Hilltop Holdings publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Insurance, and Financial-Services.
 
 
   Hilltop Holdings'' developer surface includes engineering blog and 3 more developer resources.'
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.0
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -91,15 +91,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.6
+  previous_composite: 7.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -110,6 +110,6 @@ slug: hilltop-holdings
 tags:
 - Banking
 - Insurance
-- Financial Services
+- Financial-Services
 website: https://www.hilltop-holdings.com
 ---

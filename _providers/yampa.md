@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-21'
 name: Yampa
 nav: Providers
 network: true
-overview: 'Yampa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai/Ml, AI Agents, Customer Service, and Contact Centers.
+overview: 'Yampa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, AI Agents, Customer Service, and Contact Centers.
 
 
   Yampa''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 15.7
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -114,10 +114,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 20.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 15.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Yampa Domain Security
@@ -130,14 +130,14 @@ security:
 slug: yampa
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - AI Agents
 - Customer Service
 - Contact Centers
 - Voice
 - Chat
 - Email
-- SaaS
+- Software-as-a-Service
 - France
 website: https://www.yampa.ai/
 ---

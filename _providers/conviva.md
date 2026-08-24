@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Programmatic access to historical and real-time Conviva experience metrics by metric name, with optional group-by dimensions, saved or dimensional filters, KPI thresholds and sorting. Historical reque
@@ -186,9 +186,9 @@ description: Conviva is the streaming-media and digital-experience analytics com
 image: https://www.conviva.ai/wp-content/uploads/2025/10/conviva-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: conviva-mcp.yml
-  slug: conviva-mcpyml
+- description: Conviva operates TWO hosted, remote-only Model Context Protocol servers. Neither can be run locally. Both are OAuth 2.1 protected resources implementing RFC 8414 + RFC 9728 discovery with dynamic clie
+  name: Conviva MCP Server
+  slug: conviva-mcp-server
 modified: '2026-08-01'
 name: Conviva
 nav: Providers
@@ -228,8 +228,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/screenshots/conviva-2026-08-07T163806.png
 security:
@@ -254,7 +254,7 @@ tags:
 - Monitoring
 - Media
 - Quality of Experience
-- Real Time
+- Real-Time
 - Telemetry
 - Agents
 - MCP

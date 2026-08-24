@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -359,13 +359,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vts.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: vts-mcp.yml
-  slug: vts-mcpyml
+  name: VTS MCP Server
+  slug: vts-mcp-server
 modified: '2026-07-21'
 name: VTS
 nav: Providers
 network: true
-overview: 'VTS publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Account Admin API, Appraisals API, Approvals API, and 29 more. Tagged areas include Company, Commercial Real Estate, PropTech, Real Estate, and Leasing.
+overview: 'VTS publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Account Admin API, Appraisals API, Approvals API, and 29 more. Tagged areas include Company, Commercial Real Estate, PropTech, Real-Estate, and Leasing.
 
 
   VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 22 more developer resources.'
@@ -378,7 +378,7 @@ scopes:
 score:
   band: developing
   composite: 45.0
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -388,7 +388,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 49.4
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -399,8 +399,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/screenshots/vts-2026-08-17T082832.png
 security:
@@ -417,7 +417,7 @@ tags:
 - Company
 - Commercial Real Estate
 - PropTech
-- Real Estate
+- Real-Estate
 - Leasing
 - Asset Management
 - Property Management

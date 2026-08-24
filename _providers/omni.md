@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 38
 apis:
 - description: AI-powered query generation
@@ -405,13 +405,13 @@ image: https://omni.co/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: omni-mcp.yml
-  slug: omni-mcpyml
+  name: Omni MCP Server
+  slug: omni-mcp-server
 modified: '2026-07-20'
 name: Omni
 nav: Providers
 network: true
-overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, including AI API, AI Credit Controls API, AI Eval API, and 35 more. Tagged areas include Company, Ai, Analytics, Business Intelligence, and Data.
+overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, including AI API, AI Credit Controls API, AI Eval API, and 35 more. Tagged areas include Company, Artificial Intelligence, Analytics, Business Intelligence, and Data.
 
 
   Omni''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 26 more developer resources.'
@@ -419,7 +419,7 @@ random_paper: 15
 score:
   band: strong
   composite: 58.8
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -429,7 +429,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 58.2
+  previous_composite: 58.8
   provenance:
     conformance: derived
     contracts:
@@ -439,8 +439,8 @@ score:
       total: 38
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/screenshots/omni-2026-08-07T190144.png
 security:
@@ -463,7 +463,7 @@ security:
 slug: omni
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Analytics
 - Business Intelligence
 - Data

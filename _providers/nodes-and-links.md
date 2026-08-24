@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Production API for the Nodes & Links project-controls platform, served from AWS API Gateway with OAuth bearer-token authentication. The full API reference is served inside the authenticated developer '
@@ -117,7 +117,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 25.0
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -127,11 +127,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 27.9
+  previous_composite: 25.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nodes-and-links/refs/heads/main/screenshots/nodes-and-links-2026-08-07T185424.png
 security:

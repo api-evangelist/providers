@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ modified: '2026-06-20'
 name: Pieces
 nav: Providers
 network: true
-overview: 'Pieces publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Assets API, Conversations API, and 5 more. Tagged areas include AI, Developer Tools, On-Device, Local API, and Long-Term Memory.
+overview: 'Pieces publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Assets API, Conversations API, and 5 more. Tagged areas include Artificial Intelligence, Developer Tools, On-Device, Local API, and Long-Term Memory.
 
 
   The Pieces catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -183,7 +183,7 @@ rules:
 score:
   band: thin
   composite: 34.8
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -193,7 +193,7 @@ score:
     discoverability: 64.8
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 40.5
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -201,9 +201,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/screenshots/pieces-2026-06-20T191813.png
 security:
 - kind: domain-security
@@ -212,7 +212,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: pieces
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - On-Device
 - Local API

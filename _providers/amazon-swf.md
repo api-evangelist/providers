@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -1851,7 +1851,7 @@ modified: '2026-05-19'
 name: Amazon Simple Workflow Service
 nav: Providers
 network: true
-overview: 'Amazon Simple Workflow Service publishes 37 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions API, #X Amz Target=SimpleWorkflowService.CountOpenWorkflowExecutions API, #X Amz Target=SimpleWorkflowService.CountPendingActivityTasks API, and 34 more. Tagged areas include Automation, Task Coordination, and Workflow.
+overview: 'Amazon Simple Workflow Service publishes 37 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions API, #X Amz Target=SimpleWorkflowService.CountOpenWorkflowExecutions API, #X Amz Target=SimpleWorkflowService.CountPendingActivityTasks API, and 34 more. Tagged areas include Automation, Task Coordination, and Workflows.
 
 
   The Amazon Simple Workflow Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1891,18 +1891,18 @@ rules:
   slug: amazon-swf-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: -8.0
+  composite: 46.3
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.8
     developer_ergonomics: 40.5
-    discoverability: 59.3
-    governance: 25.0
+    discoverability: 40.7
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 55.7
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1910,9 +1910,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/screenshots/amazon-swf-2026-06-20T171832.png
 security:
 - kind: authentication
@@ -1935,7 +1935,7 @@ slug: amazon-swf
 tags:
 - Automation
 - Task Coordination
-- Workflow
+- Workflows
 use_cases:
 - description: Coordinate multi-step media encoding, transcoding, and publishing workflows.
   name: Media Processing Pipelines

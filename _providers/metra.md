@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Metra GTFS API provides both raw data and JSON for Metra commuter rail schedules, trips, stops, and real-time transit information. Developers must redistribute data through their own host and not '
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.9
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -91,9 +91,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

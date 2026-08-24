@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -441,8 +441,8 @@ image: https://framerusercontent.com/assets/vwdNglaGheOU0cQGcNuxFH2LUHQ.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: paxos-mcp.yml
-  slug: paxos-mcpyml
+  name: Paxos MCP Server
+  slug: paxos-mcp-server
 modified: '2026-07-20'
 name: Paxos
 nav: Providers
@@ -463,7 +463,7 @@ scopes:
 score:
   band: strong
   composite: 54.8
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -473,7 +473,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 53.5
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -490,8 +490,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/screenshots/paxos-2026-08-07T191628.png
 security:
@@ -513,7 +513,7 @@ tags:
 - Trading
 - Custody
 - Blockchain
-- Financial Services
+- Financial-Services
 - Digital Assets
 website: https://paxos.com
 ---

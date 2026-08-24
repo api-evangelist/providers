@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -553,7 +553,7 @@ modified: '2026-05-19'
 name: Coinbase
 nav: Providers
 network: true
-overview: 'Coinbase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Address Book API, and 23 more. Tagged areas include Blockchain, Cryptocurrency, Custody, Exchange, and Onramp.
+overview: 'Coinbase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Address Book API, and 23 more. Tagged areas include Blockchain, Cryptocurrency, Custody, Exchange, and On-Ramp.
 
 
   The Coinbase catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -604,18 +604,18 @@ rules:
   slug: coinbase-rules
 score:
   band: developing
-  composite: 45.7
-  delta: -5.3
+  composite: 46.0
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 73.7
     developer_ergonomics: 42.9
     discoverability: 66.7
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 51.0
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -629,9 +629,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png
 security:
 - kind: authentication
@@ -652,10 +652,10 @@ tags:
 - Cryptocurrency
 - Custody
 - Exchange
-- Onramp
+- On-Ramp
 - Payments
 - Trading
-- Wallet
+- Wallets
 - Web3
 website: https://www.coinbase.com/
 ---

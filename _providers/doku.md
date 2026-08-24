@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -265,9 +265,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/doku.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: doku-mcp.yml
-  slug: doku-mcpyml
+- description: DOKU's official hosted Model Context Protocol server. It exposes DOKU's payment operations as MCP tools so AI agents can create payments on demand (checkout links, Virtual Account numbers, QRIS codes)
+  name: DOKU MCP Server
+  slug: doku-mcp-server
 modified: '2026-07-17'
 name: DOKU
 nav: Providers
@@ -291,7 +291,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 71.3
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -301,7 +301,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 68.4
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -318,8 +318,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ modified: '2026-05-19'
 name: Prudential Financial
 nav: Providers
 network: true
-overview: 'Prudential Financial publishes 2 APIs on the [APIs.io](https://apis.io/) network: Accounts API and Retirement API. Tagged areas include Annuities, Financial Services, Insurance, Retirement, and Fortune 100.'
+overview: 'Prudential Financial publishes 2 APIs on the [APIs.io](https://apis.io/) network: Accounts API and Retirement API. Tagged areas include Annuities, Financial-Services, Insurance, Retirement, and Fortune 100.'
 plans:
 - name: Prudential Financial Plans Pricing
   plan_count: 1
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.7
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -131,7 +131,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 22.5
+  previous_composite: 18.7
   provenance:
     agentic_access: derived
     contracts:
@@ -145,8 +145,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -156,7 +156,7 @@ security:
 slug: prudential-financial
 tags:
 - Annuities
-- Financial Services
+- Financial-Services
 - Insurance
 - Retirement
 - Fortune 100

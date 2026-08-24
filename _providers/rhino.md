@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -202,13 +202,13 @@ image: https://www.sayrhino.com/assets/rhino_favicon_website_144x144-b7265da417b
 layout: provider
 mcp_servers:
 - description: ''
-  name: rhino-mcp.yml
-  slug: rhino-mcpyml
+  name: Rhino MCP Server
+  slug: rhino-mcp-server
 modified: '2026-08-02'
 name: Rhino
 nav: Providers
 network: true
-overview: 'Rhino publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Partner Api::V2::Test::Resident API, Partner Api::V2::Test::Sayrhino User API, and 2 more. Tagged areas include Insurance, Insurtech, Real Estate, Property Management, and Rentals.
+overview: 'Rhino publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Partner Api::V2::Test::Resident API, Partner Api::V2::Test::Sayrhino User API, and 2 more. Tagged areas include Insurance, Insurtech, Real-Estate, Property Management, and Rentals.
 
 
   The Rhino catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -219,7 +219,7 @@ random_paper: 19
 score:
   band: developing
   composite: 45.0
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -229,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 43.0
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +246,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/screenshots/rhino-2026-08-17T081558.png
 security:
@@ -267,12 +267,12 @@ slug: rhino
 tags:
 - Insurance
 - Insurtech
-- Real Estate
+- Real-Estate
 - Property Management
 - Rentals
 - Security Deposits
 - Renters Insurance
-- Webhooks
+- Webhook
 - Partner API
 website: https://www.sayrhino.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-19'
 name: Linker Finance
 nav: Providers
 network: true
-overview: 'Linker Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Banking, Digital Banking, and Community Banking.
+overview: 'Linker Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Banking, Digital Banking, and Community Banking.
 
 
   Linker Finance''s developer surface includes engineering blog, product news, support, and 11 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 16.6
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -114,7 +114,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.1
+  previous_composite: 16.6
   provenance:
     conformance: first-party
   regulatory:
@@ -123,8 +123,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linker-finance/refs/heads/main/screenshots/linker-finance-2026-07-25T225253.png
 security:
@@ -139,7 +139,7 @@ security:
 slug: linker-finance
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Banking
 - Digital Banking
 - Community Banking
@@ -153,6 +153,6 @@ tags:
 - Treasury Management
 - CRM
 - Fintech
-- SaaS
+- Software-as-a-Service
 website: https://linkerfinance.com/
 ---

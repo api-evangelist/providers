@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ modified: '2026-04-21'
 name: Ballerina
 nav: Providers
 network: true
-overview: 'Ballerina publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connectors API, Organizations API, and Packages API. Tagged areas include Integrations, Orchestrations, Open Source, and Programming Language.
+overview: 'Ballerina publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connectors API, Organizations API, and Packages API. Tagged areas include Integration, Orchestrations, Open-Source, and Programming Language.
 
 
   The Ballerina catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -328,16 +328,16 @@ rules:
   slug: ballerina-spectral-rules
 score:
   band: thin
-  composite: 37.8
-  delta: -2.4
+  composite: 38.3
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.2
     developer_ergonomics: 2.4
     discoverability: 46.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 21.1
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -345,7 +345,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 40.2
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -353,8 +353,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/screenshots/ballerina-2026-06-20T172929.png
 security:
@@ -364,9 +364,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: ballerina
 tags:
-- Integrations
+- Integration
 - Orchestrations
-- Open Source
+- Open-Source
 - Programming Language
 use_cases:
 - name: Integration

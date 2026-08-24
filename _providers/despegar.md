@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 20
 apis:
 - description: The Availability API from Despegar — 2 operation(s) for availability.
@@ -257,8 +257,8 @@ image: https://github.com/despegar.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: despegar-mcp.yml
-  slug: despegar-mcpyml
+  name: Despegar MCP Server
+  slug: despegar-mcp-server
 modified: '2026-07-18'
 name: Despegar
 nav: Providers
@@ -271,7 +271,7 @@ random_paper: 3
 score:
   band: thin
   composite: 32.8
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -281,7 +281,7 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 39.0
+  previous_composite: 32.8
   provenance:
     conformance: derived
     contracts:
@@ -291,9 +291,9 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/screenshots/despegar-2026-07-25T211758.png
 security:
 - kind: authentication

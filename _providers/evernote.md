@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Evernote Cloud API (EDAM) is a Thrift-based service exposing UserStore and NoteStore operations to create, read, update, search, share, and synchronize notes, notebooks, tags, and resources in a u
@@ -178,14 +178,14 @@ description: Evernote is a cross-platform note-taking, organization, and task-ma
 image: https://evernote.com/img/evernote-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: evernote-mcp.yml
-  slug: evernote-mcpyml
+- description: Evernote is building an official Model Context Protocol (MCP) server that acts as a gateway between a user's Evernote account and MCP-compatible AI tools (Claude, Claude Code, and others). It is curre
+  name: evernote MCP Server
+  slug: evernote-mcp-server
 modified: '2026-07-19'
 name: evernote
 nav: Providers
 network: true
-overview: 'evernote publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Note Taking, Productivity, Knowledge Management, and Notes.
+overview: 'evernote publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Note Taking, Productivity, Knowledge-Management, and Notes.
 
 
   The evernote catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -196,7 +196,7 @@ random_paper: 11
 score:
   band: developing
   composite: 50.6
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -206,12 +206,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 55.0
+  previous_composite: 50.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evernote/refs/heads/main/screenshots/evernote-2026-07-25T213733.png
 security:
@@ -236,10 +236,10 @@ tags:
 - Company
 - Note Taking
 - Productivity
-- Knowledge Management
+- Knowledge-Management
 - Notes
 - Content
-- SaaS
+- Software-as-a-Service
 - Sync
 website: https://evernote.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Create, list, run, evaluate, download, and publish adaptive datasets.
@@ -101,7 +101,7 @@ modified: '2026-07-17'
 name: Adaption
 nav: Providers
 network: true
-overview: 'Adaption publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Upload API. Tagged areas include Company, Ai, Artificial Intelligence, Machine Learning, and Training Data.
+overview: 'Adaption publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Upload API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Training Data, and Datasets.
 
 
   Adaption''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 5 more developer resources.'
@@ -109,7 +109,7 @@ random_paper: 8
 score:
   band: thin
   composite: 36.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -119,15 +119,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 36.5
+  previous_composite: 36.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/screenshots/adaption-2026-07-25T181551.png
 security:
@@ -138,9 +138,8 @@ security:
 slug: adaption
 tags:
 - Company
-- Ai
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Training Data
 - Datasets
 - Data Augmentation

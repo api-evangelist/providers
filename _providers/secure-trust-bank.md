@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -150,13 +150,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: secure-trust-bank-mcp.yml
-  slug: secure-trust-bank-mcpyml
+  name: Secure Trust Bank MCP Server
+  slug: secure-trust-bank-mcp-server
 modified: '2026-07-23'
 name: Secure Trust Bank
 nav: Providers
 network: true
-overview: 'Secure Trust Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API (OBIE Standard), Account & Transaction Information API (OBIE Read/Write, AIS), Payment Initiation API (OBIE Read/Write, PIS), and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Secure Trust Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API (OBIE Standard), Account & Transaction Information API (OBIE Read/Write, AIS), Payment Initiation API (OBIE Read/Write, PIS), and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Secure Trust Bank''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
@@ -169,7 +169,7 @@ scopes:
 score:
   band: developing
   composite: 40.3
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -179,7 +179,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 35.8
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,8 +196,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 81.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -210,7 +210,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: secure-trust-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

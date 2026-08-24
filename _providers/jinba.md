@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -251,14 +251,14 @@ description: Jinba is an enterprise-grade platform for building, running, and de
 image: https://jinba.io/favicon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: jinba-mcp.yml
-  slug: jinba-mcpyml
+- description: 'Jinba Toolbox provides native Model Context Protocol (MCP) endpoints that expose any toolset as an MCP-compatible server. Each MCP-enabled toolset becomes an MCP server reachable over streamable HTTP '
+  name: Jinba MCP Server
+  slug: jinba-mcp-server
 modified: '2026-07-19'
 name: Jinba
 nav: Providers
 network: true
-overview: 'Jinba publishes 14 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Credits API, Execution API, and 11 more. Tagged areas include Company, AI, Agents, Workflow Automation, and Enterprise.
+overview: 'Jinba publishes 14 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Credits API, Execution API, and 11 more. Tagged areas include Company, Artificial Intelligence, Agents, Workflow-Automation, and Enterprise.
 
 
   The Jinba catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -269,7 +269,7 @@ random_paper: 12
 score:
   band: developing
   composite: 53.7
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -279,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 53.4
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,8 +290,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/screenshots/jinba-2026-07-25T223154.png
 security:
@@ -306,9 +306,9 @@ security:
 slug: jinba
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
-- Workflow Automation
+- Workflow-Automation
 - Enterprise
 - MCP
 - Low-Code

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Single REST surface for publish, subscribe (long-poll), presence, history, signal, and App Context. Pub/Sub key authentication. SDKs available for 50+ languages and platforms.
@@ -104,7 +104,7 @@ modified: '2026-05-29'
 name: PubNub
 nav: Providers
 network: true
-overview: 'PubNub publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Realtime, WebSockets, Pub/Sub, IoT, and Messaging.
+overview: 'PubNub publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Real-Time, WebSockets, Pub-Sub, IoT, and Messaging.
 
 
   The PubNub catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -135,7 +135,7 @@ rules:
 score:
   band: thin
   composite: 34.6
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -145,9 +145,9 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 39.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 34.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubnub/refs/heads/main/screenshots/pubnub-2026-06-20T192250.png
 security:
@@ -203,9 +203,9 @@ skills:
   slug: pubnub-telemedicine
 slug: pubnub
 tags:
-- Realtime
+- Real-Time
 - WebSockets
-- Pub/Sub
+- Pub-Sub
 - IoT
 - Messaging
 - Chat

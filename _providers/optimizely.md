@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -903,8 +903,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: optimizely-mcp.yml
-  slug: optimizely-mcpyml
+  name: Optimizely MCP Server
+  slug: optimizely-mcp-server
 modified: '2026-08-13'
 name: Optimizely
 nav: Providers
@@ -954,18 +954,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 75.4
-  delta: -2.8
+  composite: 75.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 56.8
+    contract_governance: 59.1
     contract_quality: 82.2
     developer_ergonomics: 76.2
     discoverability: 75.9
-    governance: 56.8
+    governance: 59.1
     operational_transparency: 76.3
-  previous_composite: 78.2
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -976,8 +976,8 @@ score:
       total: 34
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png
 security:

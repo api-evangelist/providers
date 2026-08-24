@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Mixed — open library data, gated administrative and AI surfaces
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
   - plans
+  - authentication/stanford-authentication.yml
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,45 +19,67 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.5
-  scored_at: '2026-08-19'
-api_count: 5
+  score: 36.8
+  scored_at: '2026-08-24'
+api_count: 15
 apis:
-- description: IIIF Presentation (v2 stable, v3 alpha) and Image v2 APIs for digital image interoperability across the Stanford Digital Repository. Presentation manifests served from purl.stanford.edu; image tiles f
-  name: Stanford Libraries IIIF API
-  slug: library-iiif
-- description: Persistent URLs to Stanford Digital Repository (SDR) content. GET /{id} returns HTML; /{id}.xml returns public XML metadata; /{id}.mods returns MODS XML. Public and open.
+- description: Persistent URLs into the Stanford Digital Repository. GET /{druid} returns HTML, /{druid}.xml returns the cocina publicObject document, /{druid}.mods returns MODS 3.7. Open, no credential. Verified li
   name: Stanford Libraries PURL API
   slug: library-purl
-- description: Public API returning operating hours for Stanford library locations.
+- description: IIIF Presentation (v2.1 stable, v3 alpha) and Image v2 APIs over the Stanford Digital Repository. Manifests served from purl.stanford.edu, image tiles from stacks.stanford.edu. Open, no credential. Ma
+  name: Stanford Libraries IIIF API
+  slug: library-iiif
+- description: Operating hours for 24 Stanford library locations, answered as a JSON:API document at library-hours.stanford.edu/libraries.json. Open, no credential. Verified live 2026-08-19.
   name: Stanford Libraries Library Hours API
   slug: library-hours
-- description: API over the Community Academic Profiles directory (18,000+ faculty, students, postdocs, and staff profiles). Interactive console available; access requires credentials issued via HelpSU.
-  name: CAP / Stanford Profiles API
-  slug: cap-profiles
-- description: 'University IT MaIS Registry REST APIs — Account, Person, Student, CourseClass, Privilege, and Workgroup — documented publicly but gated: access requires an x509 client certificate signed by the MaIS t'
+- description: File and image delivery for Stanford Digital Repository content, served from stacks.stanford.edu. Documentation verified live 2026-08-19; access to individual files follows each object's rights statem
+  name: Stanford Libraries Digital Stacks API
+  slug: library-digital-stacks
+- description: oEmbed-style service returning an embeddable viewer for a Stanford Digital Repository object. Documentation verified live 2026-08-19.
+  name: Stanford Libraries Embed API
+  slug: library-embed
+- description: Stanford Digital Repository deposit API. First-party OpenAPI 3.0.0 published by SUL-DLSS under Apache 2.0; 7 paths, 8 operations, bearer auth. Servers are sdr-api-{env}.stanford.edu — the production h
+  name: SDR API
+  slug: sdr-api
+- description: 'The backend API for the Stanford Digital Repository, and the largest contract Stanford publishes — OpenAPI 3.1.2, 40 paths, 53 operations, Apache 2.0, bearer auth. Validates writes against Stanford''s '
+  name: DOR Services API
+  slug: dor-services-api
+- description: Tracks the preservation state of Stanford Digital Repository objects (moab layout). First-party OpenAPI 3.0.0, Apache 2.0, 7 paths, 8 operations, bearer auth. Servers are preservation-catalog-{env}-01
+  name: Preservation Catalog HTTP API
+  slug: preservation-catalog-api
+- description: Technical (format, characterization) metadata for Stanford Digital Repository files. First-party OpenAPI 3.0.0, Apache 2.0, 3 paths, 3 operations, 14 component schemas. Declares no security scheme; se
+  name: Technical Metadata API
+  slug: technical-metadata-api
+- description: Stanford Uniform Resource Identifier service — mints the druids every other SDR surface keys on. First-party OpenAPI 3.0.0, Apache 2.0, 3 paths, 4 operations, and an in-contract `legacy` tag alongside
+  name: SURI API
+  slug: suri-api
+- description: The Registrar's course catalog, queryable as XML by appending view=xml-20140630 to a search. Open, no credential, and the largest genuinely public dataset Stanford serves — a single department query r
+  name: ExploreCourses course-data XML query interface
+  slug: explorecourses
+- description: Signed Shibboleth SAML 2.0 identity-provider metadata, entityID https://idp.stanford.edu/, valid until 2027-08-16. Declares an IDPSSODescriptor, three SSO bindings (HTTP-POST, HTTP-POST-SimpleSign, HT
+  name: Stanford Identity Provider — SAML 2.0 metadata
+  slug: idp-saml
+- description: Direct API access to the large language models hosted in Stanford's own cloud infrastructure behind the AI Playground, for faculty, staff and students building their own AI applications. Keyed per API
+  name: Stanford AI API Gateway
+  slug: ai-api-gateway
+- description: 'University IT''s Registry web services — Account, Person, Student, CourseClass, Privilege and Workgroup — over Stanford''s consolidated system of record. Documented publicly but gated: access requires a'
   name: MaIS Registry APIs
   slug: mais-registry
-artifact_total: 11
+- description: API over the Community Academic Profiles directory (18,000+ faculty, students, postdocs and staff). The interactive console at cap.stanford.edu/cap-api/console redirects to authentication; credentials
+  name: CAP / Stanford Profiles API
+  slug: cap-profiles
+artifact_total: 32
 common:
-- group: auth
-  title: ''
-  type: TrustCenter
-  url: security/stanford-trust-center.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/stanford-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -65,13 +88,45 @@ common:
   title: ''
   type: DeveloperPortal
   url: https://uit.stanford.edu/developers
-- group: start
+- group: docs
   title: ''
-  type: DeveloperPortal
+  type: APIReference
   url: https://api.library.stanford.edu/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://uit.stanford.edu/developers/apis
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://explorecourses.stanford.edu/about
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://purl.stanford.edu/
 - group: build
   title: ''
-  type: GitHub
+  type: LibraryCatalog
+  url: https://searchworks.stanford.edu/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.stanford.edu/metadata.xml
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://srcc.stanford.edu/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://uit.stanford.edu/security/responsibleai
+- group: build
+  title: ''
+  type: AITooling
+  url: https://uit.stanford.edu/ai
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/sul-dlss
 - group: build
   title: ''
@@ -81,14 +136,78 @@ common:
   title: ''
   type: Authentication
   url: https://login.stanford.edu/
-- group: company
+- group: operate
   title: ''
-  type: Twitter
-  url: https://twitter.com/Stanford
+  type: Status
+  url: https://library-status.stanford.edu/
+- group: operate
+  title: ''
+  type: Support
+  url: https://stanford.service-now.com/it_services?id=get_help
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.stanford.edu/site/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.stanford.edu/site/privacy/
+- group: auth
+  title: ''
+  type: SecurityContact
+  url: https://uit.stanford.edu/security/report-incident
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/stanford-university/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/Stanford
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/stanford-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/stanford-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/stanford-authentication.yml
+- group: auth
+  title: ''
+  type: Scopes
+  url: scopes/stanford-scopes.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/stanford-errors.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/stanford-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/stanford-lifecycle.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/stanford-vocabulary.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/stanford-rules.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/stanford-context.jsonld
+- group: build
+  title: ''
+  type: Examples
+  url: examples/index.yml
 - group: commercial
   title: ''
   type: Plans
@@ -105,34 +224,57 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: About
-  url: https://explorecourses.stanford.edu/about
 created: '2026-06-03'
-description: 'Stanford University is a private research university in Stanford, California (QS World 2025 #6) with a substantial, multi-pronged developer footprint. University IT (UIT) runs a developer hub at uit.stanford.edu/developers exposing certificate-secured MaIS Registry REST APIs (Account, Person, Student, CourseClass, Privilege, Workgroup) plus an AI API Gateway. Stanford Libraries (DLSS) publishes a public API documentation site at api.library.stanford.edu (IIIF, PURL, Embed, Digital Stacks, Library Hours) backing the Stanford Digital Repository, and the Registrar''s ExploreCourses offers a course-data XML query interface.'
+description: 'Stanford University is a private research university in Stanford, California. Unusually for a higher-education institution, essentially its entire programmable footprint is genuinely institution-operated rather than a vendor tenancy: every surface listed here runs on a stanford.edu host. Stanford Libraries (SUL-DLSS) publishes five first-party OpenAPI contracts for the Stanford Digital Repository — SDR, DOR Services, Technical Metadata, Preservation Catalog and SURI, 76 operations, Apache 2.0, on its own GitHub org — though the services themselves sit on the internal network. Public and open without credentials are PURL (XML/MODS/IIIF Presentation 2.1 off purl.stanford.edu), the Library Hours JSON:API, and the Registrar''s ExploreCourses XML query interface, which reports its own deprecation in every response body. University IT runs the certificate-gated MaIS Registry web services (Account, Person, Student, CourseClass, Privilege, Workgroup) and a metered AI API Gateway keyed
+  to a Stanford billing account. Stanford also publishes signed Shibboleth SAML 2.0 identity-provider metadata at idp.stanford.edu — machine-readable identity federation that most universities never get catalogued. What is missing is equally clear: no OAI-PMH provider was found on any Stanford host, no institution-operated open-data portal, no OAuth scopes, no contact or terms in any contract, no examples on any of the 76 operations, and no unified developer portal spanning the Libraries and University IT surfaces.'
+examples:
+- key_count: 7
+  name: Stanford Embed Oembed Example
+  slug: stanford-embed-oembed-example
+- key_count: 7
+  name: Stanford Iiif Manifest Example
+  slug: stanford-iiif-manifest-example
+- key_count: 7
+  name: Stanford Library Hours Example
+  slug: stanford-library-hours-example
 finops:
 - name: Stanford Finops
   service_category: Education
   slug: stanford-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stanford.png
+json_schemas:
+- name: DOR Services API — component schemas
+  property_count: 0
+  slug: stanford-dor-services-api-schemas
+- name: Preservation Catalog HTTP API — component schemas
+  property_count: 0
+  slug: stanford-preservation-catalog-api-schemas
+- name: SDR API — component schemas
+  property_count: 0
+  slug: stanford-sdr-api-schemas
+- name: SURI API — component schemas
+  property_count: 0
+  slug: stanford-suri-api-schemas
+- name: Technical Metadata API — component schemas
+  property_count: 0
+  slug: stanford-technical-metadata-api-schemas
 jsonld:
-- class_count: 25
+- class_count: 30
   name: Stanford Context
-  property_count: 2
+  property_count: 5
   slug: stanford-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-19'
 name: Stanford University
 nav: Providers
 network: true
-overview: 'Stanford University publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'Stanford University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including SDR API, DOR Services API, Preservation Catalog HTTP API, and 2 more. Tagged areas include University, Higher Education, Education, Research, and United States.
 
 
-  The Stanford University catalog on APIs.io includes 1 JSON-LD context.
+  The Stanford University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stanford University''s developer surface includes GitHub presence, authentication, and 13 more developer resources.'
+  Stanford University''s developer surface includes API reference, documentation, GitHub presence, authentication, status page, support, code examples, and 29 more developer resources.'
 plans:
 - name: Stanford Plans Pricing
   plan_count: 2
@@ -142,31 +284,58 @@ rate_limits:
 - limit_count: 1
   name: Stanford Rate Limits
   slug: stanford-rate-limits
+rules:
+- effective_rule_count: 0
+  extends: []
+  name: Stanford University API Rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: stanford-rules
+scopes:
+- name: Stanford Scopes
+  scope_count: 0
+  slug: stanford-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 25.1
-  delta: 0.7
+  band: developing
+  composite: 50.2
+  delta: -0.4
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
-    contract_governance: 0.0
-    contract_quality: 11.3
-    developer_ergonomics: 15.5
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 3.8
+    contract_quality: 57.1
+    developer_ergonomics: 36.9
     discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 24.4
+    governance: 3.8
+    operational_transparency: 23.7
+  previous_composite: 50.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 40.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 74.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/screenshots/stanford-2026-06-20T194502.png
 security:
+- kind: authentication
+  name: Stanford Authentication
+  slug: stanford-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Stanford Domain Security
   slug: stanford-domain-security
@@ -177,13 +346,20 @@ security:
   summary_line: HIPAA, GDPR
 slug: stanford
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- United States
+- California
+- Private Research University
+- Association of American Universities
+- Research Repository
+- Course Catalog
+- Identity Federation
 - Library
 - Digital Repository
+- Artificial Intelligence
 - IIIF
-- Courses
 website: https://www.stanford.edu/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 29
 apis:
 - description: Two remote Model Context Protocol servers. A public read-only documentation server at https://leadping.ai/docs/mcp answers anonymous tools/list with search, virtual-filesystem and feedback tools. An a
@@ -297,19 +297,19 @@ image: https://leadping.ai/img/favicon/leadpinglogo1024x1024.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: leadping-mcp.yml
-  slug: leadping-mcpyml
+  name: Leadping MCP Server
+  slug: leadping-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Leadping MCP Server
+  slug: leadping-mcp-server-2
 - description: ''
-  name: mcp
-  slug: mcp-2
+  name: Leadping MCP Server
+  slug: leadping-mcp-server-3
 modified: '2026-08-18'
 name: Leadping
 nav: Providers
 network: true
-overview: 'Leadping publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Automations API, Call Events API, and 24 more. Tagged areas include Lead management, Sales & marketing automation, SMS/messaging, A2P 10DLC, and CPaaS.
+overview: 'Leadping publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Automations API, Call Events API, and 24 more. Tagged areas include Lead Management, Sales & marketing automation, SMS Messaging, A2P 10DLC, and CPaaS.
 
 
   The Leadping catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -328,6 +328,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 72.6
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -337,6 +338,7 @@ score:
     discoverability: 75.9
     governance: 45.5
     operational_transparency: 68.4
+  previous_composite: 72.6
   provenance:
     conformance: first-party
     contracts:
@@ -352,8 +354,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Leadping Authentication
@@ -373,20 +376,20 @@ security:
   summary_line: trust center published
 slug: leadping
 tags:
-- Lead management
+- Lead Management
 - Sales & marketing automation
-- SMS/messaging
+- SMS Messaging
 - A2P 10DLC
 - CPaaS
 - Communications
 - Voice/calling
 - Compliance & consent
-- Agent-native
+- agent-native
 - MCP
 - Lead intake
 - Conversations
 - Automations
 - Suppression & opt-out
-- Webhooks
+- Webhook
 website: https://leadping.ai/
 ---

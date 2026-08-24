@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,14 +101,14 @@ description: Buddy (iambuddy.com, now buddy.insure) is a digital insurance comme
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iambuddycom.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Buddy MCP is built on the Model Context Protocol and gives any MCP-compatible AI assistant (e.g. Claude) access to indexed insurance products. The AI handles the conversation; Buddy's ION Engine handl
   name: Buddy MCP
   slug: buddy-mcp
 modified: '2026-07-19'
 name: iambuddy.com
 nav: Providers
 network: true
-overview: 'iambuddy.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Embedded Insurance, and Insurance Commerce.
+overview: 'iambuddy.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Embedded Insurance, and Insurance Commerce.
 
 
   iambuddy.com''s developer surface includes support, engineering blog, and 14 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 21.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -126,7 +126,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.8
+  previous_composite: 21.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -136,8 +136,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/screenshots/iambuddycom-2026-07-25T221948.png
 security:
@@ -149,7 +149,7 @@ slug: iambuddycom
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Embedded Insurance
 - Insurance Commerce
 - P&C Insurance

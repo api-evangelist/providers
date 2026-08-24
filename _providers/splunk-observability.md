@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 49
 apis:
 - description: 'APIs to retrieve the upstream and downstream dependencies for a given service, as well as to retrieve the complete graph-based topology of all services in a given environment and time window. You can '
@@ -259,10 +259,6 @@ common:
   title: ''
   type: Support
   url: https://www.splunk.com/en_us/support-and-services.html
-- group: operate
-  title: ''
-  type: Community
-  url: https://community.splunk.com/t5/Splunk-Observability-Cloud/ct-p/observability
 - group: company
   title: ''
   type: Blog
@@ -335,10 +331,6 @@ common:
   title: ''
   type: CLI
   url: cli/splunk-observability-cli.yml
-- group: start
-  title: ''
-  type: Sandbox
-  url: sandbox/splunk-observability-sandbox.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -363,14 +355,18 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/splunk-observability-llms.txt
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.splunk.com/en/splunk-observability-cloud
 created: '2026-08-19'
 description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk operates — 48 OpenAPI documents and 242 operations covering charts, dashboards, detectors, incidents and muting rules, metrics and dimension metadata, SignalFlow, SLOs, org and session tokens, teams, integrations and twenty distinct Synthetics services — alongside a SignalFlow WebSocket/SSE streaming interface and a hosted MCP server for agents. Authentication is a single X-SF-TOKEN header, the realm is part of the hostname, and Splunk publishes no downloadable spec file: the contract is embedded in its own reference pages.'
 image: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: splunk-observability-mcp.yml
-  slug: splunk-observability-mcpyml
+  name: Splunk MCP server (Splunk AI Assistant in Observability Cloud)
+  slug: splunk-mcp-server-splunk-ai-assistant-in-observability-cloud
 modified: '2026-08-19'
 name: Splunk Observability Cloud
 nav: Providers
@@ -381,7 +377,7 @@ overview: 'Splunk Observability Cloud publishes 48 APIs on the [APIs.io](https:/
   The Splunk Observability Cloud catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Splunk Observability Cloud''s developer surface includes developer portal, documentation, API reference, getting-started guide, pricing, signup flow, support, and 39 more developer resources.'
+  Splunk Observability Cloud''s developer surface includes developer portal, documentation, API reference, getting-started guide, pricing, signup flow, support, and 38 more developer resources.'
 plans:
 - name: Splunk Observability Plans Pricing
   plan_count: 10
@@ -393,16 +389,18 @@ rate_limits:
   slug: splunk-observability-rate-limits
 score:
   band: strong
-  composite: 63.2
+  composite: 61.5
+  delta: -0.3
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 30.3
     contract_quality: 21.8
-    developer_ergonomics: 80.4
+    developer_ergonomics: 73.2
     discoverability: 87.0
     governance: 30.3
-    operational_transparency: 84.2
+    operational_transparency: 81.6
+  previous_composite: 61.8
   provenance:
     conformance: first-party
     contracts:
@@ -412,8 +410,9 @@ score:
       total: 48
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Splunk Observability Authentication

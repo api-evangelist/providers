@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-19'
 name: Kitch
 nav: Providers
 network: true
-overview: Kitch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Food Delivery, Order Management, and Point of Sale.
+overview: Kitch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Food Delivery, Order Management, and Point-of-Sale.
 random_paper: 6
 score:
   band: minimal
@@ -77,18 +77,18 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitch/refs/heads/main/screenshots/kitch-2026-07-25T223859.png
 slug: kitch
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Food Delivery
 - Order Management
-- Point of Sale
-- SaaS
+- Point-of-Sale
+- Software-as-a-Service
 - Portugal
 - Acquired
 - Defunct

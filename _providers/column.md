@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-05-30'
 name: Column
 nav: Providers
 network: true
-overview: 'Column publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 15 more. Tagged areas include Fintech, Banking, BaaS, ACH, and Wires.
+overview: 'Column publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 15 more. Tagged areas include Fintech, Banking, Backend-as-a-Service, ACH, and Wires.
 
 
   Column''s developer surface includes sandbox, API reference, changelog, getting-started guide, authentication, engineering blog, and 11 more developer resources.'
@@ -247,7 +247,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 19.7
     commercial_clarity: 19.7
@@ -257,7 +257,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 37.2
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -271,8 +271,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -287,7 +287,7 @@ slug: column
 tags:
 - Fintech
 - Banking
-- BaaS
+- Backend-as-a-Service
 - ACH
 - Wires
 website: https://column.com/

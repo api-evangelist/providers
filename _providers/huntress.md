@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -292,9 +292,9 @@ description: Huntress is a managed cybersecurity platform built for small and mi
 image: https://huntresscdn.com/portal/assets/huntress_logo_wide_teal_small-34bc9ba6.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: huntress-mcp.yml
-  slug: huntress-mcpyml
+- description: Huntress operates an official remote MCP server fronting the Huntress API, discoverable via RFC 8414 OAuth Authorization Server metadata and RFC 9728 OAuth Protected Resource metadata at api.huntress.
+  name: Huntress MCP Server
+  slug: huntress-mcp-server
 modified: '2026-07-19'
 name: Huntress
 nav: Providers
@@ -314,18 +314,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 52.7
-  delta: -2.6
+  composite: 53.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
     contract_quality: 64.9
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 55.3
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -336,8 +336,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/screenshots/huntress-2026-07-25T221735.png
 security:
@@ -368,6 +368,6 @@ tags:
 - SIEM
 - Identity Threat Detection
 - MSP
-- Webhooks
+- Webhook
 website: https://www.huntress.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ modified: '2026-06-21'
 name: Colossyan
 nav: Providers
 network: true
-overview: 'Colossyan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Experimental API, Generated Videos API, and 2 more. Tagged areas include AI, Video Generation, Avatars, Text to Video, and Learning and Development.
+overview: 'Colossyan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Experimental API, Generated Videos API, and 2 more. Tagged areas include Artificial Intelligence, Video Generation, Avatars, Text-to-Video, and Learning and Development.
 
 
   Colossyan''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.8
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -165,7 +165,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 40.6
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/screenshots/colossyan-2026-07-25T210058.png
 security:
@@ -192,10 +192,10 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: colossyan
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Avatars
-- Text to Video
+- Text-to-Video
 - Learning and Development
 website: https://www.colossyan.com
 ---

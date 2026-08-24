@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: A data-feed API that returns every field in the FEVO Sales Report — orders and order adjustments — so a customer can pull FEVO transaction data directly into their own data warehouse. Queries run by O
@@ -146,7 +146,7 @@ modified: '2026-08-12'
 name: Fevo
 nav: Providers
 network: true
-overview: 'Fevo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Events, Group Sales, and Social Commerce.
+overview: 'Fevo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Event, Group Sales, and Social Commerce.
 
 
   Fevo''s developer surface includes documentation, support, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
@@ -162,7 +162,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.7
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -172,7 +172,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 32.9
+  previous_composite: 34.7
   provenance:
     conformance: first-party
   regulatory:
@@ -181,8 +181,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -205,7 +205,7 @@ slug: fevo
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Group Sales
 - Social Commerce
 - E-Commerce

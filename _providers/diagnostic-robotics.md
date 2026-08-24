@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'REST API for the Proactive Patient Risk Feed: upload FHIR R4 US Core / CCLF / custom claims and EHR datasets, then retrieve ranked actionable risk lists, per-patient risk profiles with contributing fa'
@@ -167,7 +167,7 @@ modified: '2026-08-12'
 name: Diagnostic Robotics
 nav: Providers
 network: true
-overview: 'Diagnostic Robotics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Precision Population Health API, Patient Questionnaire API, and Symptom Search Service. Tagged areas include health, healthcare, clinical-ai, population-health, and risk-adjustment.
+overview: 'Diagnostic Robotics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Precision Population Health API, Patient Questionnaire API, and Symptom Search Service. Tagged areas include Health, Healthcare, Clinical AI, Population Health, and Risk Adjustment.
 
 
   Diagnostic Robotics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
@@ -188,7 +188,7 @@ scopes:
 score:
   band: strong
   composite: 55.9
-  delta: 7.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -198,7 +198,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 48.8
+  previous_composite: 55.9
   provenance:
     conformance: first-party
     contracts:
@@ -214,9 +214,9 @@ score:
     regime: Health
     regime_id: health
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/screenshots/diagnostic-robotics-2026-08-17T080902.png
 security:
 - kind: authentication
@@ -233,17 +233,17 @@ security:
   summary_line: HIPAA, ISO 27001, ISO 27799, SOC 2 Type II
 slug: diagnostic-robotics
 tags:
-- health
-- healthcare
-- clinical-ai
-- population-health
-- risk-adjustment
-- predictive-analytics
+- Health
+- Healthcare
+- Clinical AI
+- Population Health
+- Risk Adjustment
+- Predictive Analytics
 - triage
-- fhir
-- claims-data
-- care-management
-- payers
-- medical-coding
+- FHIR
+- Claims Data
+- Care Management
+- Payers
+- Medical Coding
 website: https://diagnosticrobotics.com/
 ---

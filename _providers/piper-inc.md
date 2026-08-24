@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the Piper storefront over the Universal Commerce Protocol (UCP), exposed as an MCP endpoint on the store's Shopify platform (store id 9256256). Catalog search/lookup, cart, c
@@ -91,8 +91,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/piper-inc.
 layout: provider
 mcp_servers:
 - description: ''
-  name: piper-inc-mcp.yml
-  slug: piper-inc-mcpyml
+  name: Piper Inc. MCP Server
+  slug: piper-inc-mcp-server
 modified: '2026-07-20'
 name: Piper Inc.
 nav: Providers
@@ -109,18 +109,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.4
-  delta: 4.9
+  composite: 24.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 24.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -130,8 +130,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -184,13 +184,13 @@ description: 'Appfire is a global software company that builds, acquires, and op
 layout: provider
 mcp_servers:
 - description: ''
-  name: appfire-mcp.yml
-  slug: appfire-mcpyml
+  name: Appfire MCP Server
+  slug: appfire-mcp-server
 modified: '2026-08-06'
 name: Appfire
 nav: Providers
 network: true
-overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API query methods API, API update methods API, Settings API, and 1 more. Tagged areas include atlassian, jira, confluence, project-portfolio-management, and work-management.
+overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API query methods API, API update methods API, Settings API, and 1 more. Tagged areas include Atlassian, Jira, Confluence, Project Portfolio Management, and Work Management.
 
 
   Appfire''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 22 more developer resources.'
@@ -198,7 +198,7 @@ random_paper: 8
 score:
   band: developing
   composite: 45.3
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -208,7 +208,7 @@ score:
     discoverability: 88.9
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 48.7
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,8 +219,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/screenshots/appfire-2026-08-07T161502.png
 security:
@@ -238,17 +238,17 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, HIPAA, GDPR
 slug: appfire
 tags:
-- atlassian
-- jira
-- confluence
-- project-portfolio-management
-- work-management
-- time-tracking
-- okr
-- workflow-automation
-- azure-devops
+- Atlassian
+- Jira
+- Confluence
+- Project Portfolio Management
+- Work Management
+- Time Tracking
+- OKR
+- Workflow-Automation
+- Azure DevOps
 - marketplace-apps
-- document-workflow
-- enterprise-software
+- Document Workflow
+- Enterprise Software
 website: https://appfire.com
 ---

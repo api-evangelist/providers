@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: Applicants represent people who have applied for positions within your company.
@@ -182,7 +182,7 @@ modified: '2026-07-21'
 name: Workstream
 nav: Providers
 network: true
-overview: 'Workstream publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Authorization API, Company Roles API, and 9 more. Tagged areas include Company, Hr Tech, Hiring, Payroll, and Onboarding.
+overview: 'Workstream publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Authorization API, Company Roles API, and 9 more. Tagged areas include Company, HR Tech, Hiring, Payroll, and Onboarding.
 
 
   Workstream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
@@ -195,7 +195,7 @@ scopes:
 score:
   band: developing
   composite: 42.2
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -205,15 +205,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 43.3
+  previous_composite: 42.2
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/screenshots/workstream-2026-08-17T082948.png
 security:
@@ -228,12 +228,12 @@ security:
 slug: workstream
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Hiring
 - Payroll
 - Onboarding
 - Applicant Tracking
 - Hourly Workforce
-- Restaurants
+- Restaurant
 website: https://workstream.us
 ---

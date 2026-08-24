@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -384,7 +384,7 @@ modified: '2026-05-28'
 name: 123FormBuilder
 nav: Providers
 network: true
-overview: '123FormBuilder publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Forms API, Groups API, and 2 more. Tagged areas include Online Forms, Form Builder, Surveys, Workflow, and Data Collection.
+overview: '123FormBuilder publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Forms API, Groups API, and 2 more. Tagged areas include Online Forms, Form Builder, Surveys, Workflows, and Data Collection.
 
 
   The 123FormBuilder catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -423,18 +423,18 @@ rules:
   slug: 123formbuilder-rules
 score:
   band: strong
-  composite: 61.7
-  delta: -2.9
+  composite: 62.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 74.2
     developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 64.6
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     contracts:
@@ -448,8 +448,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/screenshots/123formbuilder-2026-06-20T162300.png
 security:
@@ -481,10 +481,10 @@ tags:
 - Online Forms
 - Form Builder
 - Surveys
-- Workflow
+- Workflows
 - Data Collection
 - Submissions
-- Webhooks
+- Webhook
 - HIPAA
 - GDPR
 - Payments

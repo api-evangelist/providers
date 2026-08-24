@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -179,8 +179,8 @@ image: https://hourone.ai/
 layout: provider
 mcp_servers:
 - description: ''
-  name: hourone-mcp.yml
-  slug: hourone-mcpyml
+  name: Hourone MCP Server
+  slug: hourone-mcp-server
 modified: '2026-08-08'
 name: Hourone
 nav: Providers
@@ -196,7 +196,7 @@ random_paper: 12
 score:
   band: developing
   composite: 39.6
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 40.7
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/screenshots/hourone-2026-07-25T221530.png
 security:
@@ -234,9 +234,9 @@ tags:
 - Video Generation
 - Generative AI
 - AI Avatars
-- Text to Speech
+- Text-to-Speech
 - Media
 - Content Creation
-- Webhooks
+- Webhook
 website: https://hourone.ai/
 ---

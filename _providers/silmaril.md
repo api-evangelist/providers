@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: AI application firewall classify API. A Firewall client sends each sanitized classification input (user input, tool response, model output, or system prompt) with a hook label and optional tool name t
@@ -134,9 +134,9 @@ description: Silmaril is a Y Combinator-backed runtime security company that bui
 image: https://www.silmaril.dev/icon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: silmaril-mcp.yml
-  slug: silmaril-mcpyml
+- description: 'Hosted, read-only, tenant-scoped MCP server that lets an agent read Silmaril Firewall security evidence (findings, metrics, suspicious users, investigation packets, traces) from an authorized tenant. '
+  name: Silmaril MCP Server
+  slug: silmaril-mcp-server
 modified: '2026-07-21'
 name: Silmaril
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 0
 score:
   band: thin
   composite: 32.2
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -159,12 +159,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 32.5
+  previous_composite: 32.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

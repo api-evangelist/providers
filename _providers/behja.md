@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-18'
 name: Behja
 nav: Providers
 network: true
-overview: Behja is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Proptech, Rent-to-Own, and Housing.
+overview: Behja is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Rent-to-Own, and Housing.
 random_paper: 2
 score:
   band: minimal
@@ -70,15 +70,15 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/behja/refs/heads/main/screenshots/behja-2026-07-25T202657.png
 slug: behja
 tags:
 - Company
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - Rent-to-Own
 - Housing
 - Saudi Arabia

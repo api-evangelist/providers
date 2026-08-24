@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The Analytics API from Base Operations — 2 operation(s) for analytics.
@@ -212,8 +212,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/base-opera
 layout: provider
 mcp_servers:
 - description: ''
-  name: base-operations-mcp.yml
-  slug: base-operations-mcpyml
+  name: Base Operations MCP Server
+  slug: base-operations-mcp-server
 modified: '2026-07-18'
 name: Base Operations
 nav: Providers
@@ -226,7 +226,7 @@ random_paper: 15
 score:
   band: developing
   composite: 44.8
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -236,7 +236,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 43.8
+  previous_composite: 44.8
   provenance:
     conformance: derived
     contracts:
@@ -246,8 +246,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/screenshots/base-operations-2026-07-25T202413.png
 security:

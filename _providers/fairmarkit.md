@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -275,8 +275,8 @@ image: https://cdn.prod.website-files.com/6974c3dfc9de89aed672a42c/69df9b1468ca1
 layout: provider
 mcp_servers:
 - description: ''
-  name: fairmarkit-mcp.yml
-  slug: fairmarkit-mcpyml
+  name: Fairmarkit MCP Server
+  slug: fairmarkit-mcp-server
 modified: '2026-07-19'
 name: Fairmarkit
 nav: Providers
@@ -292,7 +292,7 @@ random_paper: 16
 score:
   band: developing
   composite: 50.2
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -302,7 +302,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 49.1
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -313,8 +313,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/screenshots/fairmarkit-2026-07-25T214156.png
 security:
@@ -337,6 +337,6 @@ tags:
 - RFQ
 - RFP
 - Spend Management
-- Webhooks
+- Webhook
 website: https://www.fairmarkit.com/
 ---

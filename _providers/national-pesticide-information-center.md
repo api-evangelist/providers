@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: NPIC provides objective, science-based information about pesticides and pesticide-related topics to enable people to make informed decisions. NPIC does not currently publish a public web API; data and
@@ -65,7 +65,7 @@ modified: '2026-04-28'
 name: National Pesticide Information Center
 nav: Providers
 network: true
-overview: National Pesticide Information Center publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment, Federal Government, Pesticides, and Public Health.
+overview: National Pesticide Information Center publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment, Federal-Government, Pesticides, and Public Health.
 plans:
 - name: National Pesticide Information Center Plans Pricing
   plan_count: 3
@@ -78,7 +78,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -88,15 +88,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 9.5
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-pesticide-information-center/refs/heads/main/screenshots/national-pesticide-information-center-2026-06-20T190038.png
 security:
@@ -107,7 +107,7 @@ security:
 slug: national-pesticide-information-center
 tags:
 - Environment
-- Federal Government
+- Federal-Government
 - Pesticides
 - Public Health
 website: https://npic.orst.edu/

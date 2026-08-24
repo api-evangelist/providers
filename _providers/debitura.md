@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: For creditors. Uploading B2B and B2C invoices to collection, then tracking cases, contracts, payments and tasks through recovery. 53 operations across 44 paths, OpenAPI 3.0.4 with 81 component schemas
@@ -49,12 +49,12 @@ modified: '2026-08-01'
 name: Debitura
 nav: Providers
 network: true
-overview: 'Debitura publishes 3 APIs on the [APIs.io](https://apis.io/) network: Customer API, Referral Partner API, and Collection Partner API. Tagged areas include Debt Collection, Accounts Receivable, Debt Recovery, FinTech, and Payments.'
+overview: 'Debitura publishes 3 APIs on the [APIs.io](https://apis.io/) network: Customer API, Referral Partner API, and Collection Partner API. Tagged areas include Debt Collection, Accounts Receivable, Debt Recovery, Fintech, and Payments.'
 random_paper: 8
 score:
   band: emerging
   composite: 17.0
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -64,7 +64,7 @@ score:
     discoverability: 70.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.4
+  previous_composite: 17.0
   provenance:
     contracts:
       callable: 100.0
@@ -77,8 +77,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debitura/refs/heads/main/screenshots/debitura-2026-08-07T164217.png
 slug: debitura
@@ -86,8 +86,8 @@ tags:
 - Debt Collection
 - Accounts Receivable
 - Debt Recovery
-- FinTech
+- Fintech
 - Payments
 - Invoicing
-- Webhooks
+- Webhook
 ---

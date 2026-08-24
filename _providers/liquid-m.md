@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -194,8 +194,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: liquid-m-mcp.yml
-  slug: liquid-m-mcpyml
+  name: Liquid M MCP Server
+  slug: liquid-m-mcp-server
 modified: '2026-08-13'
 name: Liquid M
 nav: Providers
@@ -216,7 +216,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.3
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -226,7 +226,7 @@ score:
     discoverability: 92.6
     governance: 31.8
     operational_transparency: 2.6
-  previous_composite: 36.7
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,8 +237,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/screenshots/liquid-m-2026-07-25T225318.png
 security:

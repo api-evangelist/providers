@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -424,7 +424,7 @@ modified: '2026-06-02'
 name: Deliveroo
 nav: Providers
 network: true
-overview: 'Deliveroo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Catalogue API, Picking API, Deliveries API, and 6 more. Tagged areas include Food Delivery, Grocery, Marketplace, Logistics, and Restaurants.
+overview: 'Deliveroo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Catalogue API, Picking API, Deliveries API, and 6 more. Tagged areas include Food Delivery, Grocery, Marketplace, Logistics, and Restaurant.
 
 
   The Deliveroo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -475,18 +475,18 @@ rules:
   slug: deliveroo-spectral-rules
 score:
   band: developing
-  composite: 40.2
-  delta: -6.6
+  composite: 40.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 29.0
     developer_ergonomics: 32.1
     discoverability: 68.5
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 46.8
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -494,9 +494,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/screenshots/deliveroo-2026-06-20T175902.png
 security:
 - kind: authentication
@@ -517,6 +517,6 @@ tags:
 - Grocery
 - Marketplace
 - Logistics
-- Restaurants
+- Restaurant
 website: https://deliveroo.co.uk/
 ---

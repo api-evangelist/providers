@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Briza
 nav: Providers
 network: true
-overview: 'Briza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Commercial Insurance, InsurTech, and API Reliability.
+overview: 'Briza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Commercial Insurance, Insurtech, and API Reliability.
 
 
   Briza''s developer surface includes engineering blog and 8 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 11.3
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -94,15 +94,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 13.8
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/briza/refs/heads/main/screenshots/briza-2026-07-25T203936.png
 security:
@@ -115,10 +115,10 @@ tags:
 - Company
 - Insurance
 - Commercial Insurance
-- InsurTech
+- Insurtech
 - API Reliability
 - Integration
-- Open Source
+- Open-Source
 - 500 Global
 website: https://briza.com
 ---

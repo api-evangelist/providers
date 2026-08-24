@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -316,32 +316,32 @@ description: Authlete is an API-first OAuth 2.0 and OpenID Connect backend servi
 image: https://avatars.githubusercontent.com/u/8684109?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: authlete-mcp.yml
-  slug: authlete-mcpyml
+- description: No official hosted/remote Authlete MCP server was found (no @authlete MCP package, no registry listing, no docs reference as of this pass). This is a DERIVED candidate tool list mapping the highest-va
+  name: Authlete MCP Server
+  slug: authlete-mcp-server
 modified: '2026-07-18'
 name: Authlete
 nav: Providers
 network: true
-overview: 'Authlete publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Authorization Endpoint API, CIBA API, Client Management API, and 18 more. Tagged areas include Company, OAuth 2.0, OpenID Connect, Authentication, and Authorization.
+overview: 'Authlete publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Authorization Endpoint API, CIBA API, Client Management API, and 18 more. Tagged areas include Company, Authentication, OpenID Connect, Authorization, and Identity.
 
 
   Authlete''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 51.4
-  delta: -3.0
+  composite: 52.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
     contract_quality: 57.4
     developer_ergonomics: 68.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 54.4
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,8 +352,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/screenshots/authlete-2026-07-25T201804.png
 security:
@@ -372,9 +372,8 @@ security:
 slug: authlete
 tags:
 - Company
-- OAuth 2.0
-- OpenID Connect
 - Authentication
+- OpenID Connect
 - Authorization
 - Identity
 - API Security

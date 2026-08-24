@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-05-19'
 name: SPIFFE
 nav: Providers
 network: true
-overview: 'SPIFFE publishes 2 APIs on the [APIs.io](https://apis.io/) network: Workload API and Bundle API. Tagged areas include Authentication, Cloud Native, Graduated, Identity, and Security.
+overview: 'SPIFFE publishes 2 APIs on the [APIs.io](https://apis.io/) network: Workload API and Bundle API. Tagged areas include Authentication, Cloud-Native, Graduated, Identity, and Security.
 
 
   The SPIFFE catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -219,18 +219,18 @@ rules:
   slug: spiffe-rules
 score:
   band: thin
-  composite: 32.1
-  delta: -10.1
+  composite: 32.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 60.5
     developer_ergonomics: 26.2
     discoverability: 72.2
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 42.2
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -238,9 +238,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/screenshots/spiffe-2026-06-20T194311.png
 security:
 - kind: domain-security
@@ -250,7 +250,7 @@ security:
 slug: spiffe
 tags:
 - Authentication
-- Cloud Native
+- Cloud-Native
 - Graduated
 - Identity
 - Security

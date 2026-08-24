@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ modified: '2026-07-01'
 name: NotificationAPI
 nav: Providers
 network: true
-overview: 'NotificationAPI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including In-App Inbox API, Logs API, Notifications API, and 4 more. Tagged areas include Notifications, Messaging, Email, SMS, and Push.
+overview: 'NotificationAPI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including In-App Inbox API, Logs API, Notifications API, and 4 more. Tagged areas include Notification, Messaging, Email, SMS, and Push.
 
 
   NotificationAPI''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -173,7 +173,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.4
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/screenshots/notificationapi-2026-08-07T185548.png
 security:
@@ -202,7 +202,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: notificationapi
 tags:
-- Notifications
+- Notification
 - Messaging
 - Email
 - SMS

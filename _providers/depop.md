@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -271,13 +271,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/depop.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: depop-mcp.yml
-  slug: depop-mcpyml
+  name: depop MCP Server
+  slug: depop-mcp-server
 modified: '2026-07-18'
 name: depop
 nav: Providers
 network: true
-overview: 'depop publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API status API, Authentication API, Docs API, and 9 more. Tagged areas include Company, Fashion, Marketplace, E-commerce, and Resale.
+overview: 'depop publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API status API, Authentication API, Docs API, and 9 more. Tagged areas include Company, Fashion, Marketplace, E-Commerce, and Resale.
 
 
   The depop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -297,7 +297,7 @@ scopes:
 score:
   band: strong
   composite: 57.2
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -307,7 +307,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 81.6
-  previous_composite: 56.0
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,8 +318,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png
 security:
@@ -340,11 +340,11 @@ tags:
 - Company
 - Fashion
 - Marketplace
-- E-commerce
+- E-Commerce
 - Resale
 - Retail
 - Inventory Management
-- Orders
+- Order
 - Sustainability
 website: https://www.depop.com/
 ---

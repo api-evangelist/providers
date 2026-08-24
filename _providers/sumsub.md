@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Sumsub's REST API provides programmatic access to a full-stack verification platform spanning identity verification (KYC), business verification (KYB), AML screening, transaction monitoring, Travel Ru
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.8
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -241,9 +241,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 46.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 47.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumsub/refs/heads/main/screenshots/sumsub-2026-06-20T194718.png
 security:

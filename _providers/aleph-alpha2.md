@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The PhariaInference HTTP API provides access to Aleph Alpha's specialized language models for text completion, chat completions, embeddings, semantic (symmetric and asymmetric) search, tokenization/de
@@ -113,7 +113,7 @@ modified: '2026-07-17'
 name: Aleph Alpha2
 nav: Providers
 network: true
-overview: 'Aleph Alpha2 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Large Language Models, Machine Learning, and Generative AI.
+overview: 'Aleph Alpha2 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Large Language Models, Machine-Learning, and Generative AI.
 
 
   Aleph Alpha2''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 10 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 25.3
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -131,9 +131,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 26.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleph-alpha2/refs/heads/main/screenshots/aleph-alpha2-2026-07-25T195554.png
 security:
@@ -150,7 +150,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Large Language Models
-- Machine Learning
+- Machine-Learning
 - Generative AI
 - Sovereign AI
 - Inference API

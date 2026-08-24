@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -314,9 +314,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apollo-io.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: apollo-io-mcp.yml
-  slug: apollo-io-mcpyml
+- description: Prospect, enrich leads, and manage outreach sequences with Apollo.io. Connects Apollo's contact database, real-time enrichment engine, and sales engagement surface to an MCP client.
+  name: Apollo.io MCP Server
+  slug: apolloio-mcp-server
 modified: '2026-08-13'
 name: Apollo.io
 nav: Providers
@@ -345,7 +345,7 @@ scopes:
 score:
   band: strong
   composite: 64.7
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -355,7 +355,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 66.5
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -366,8 +366,8 @@ score:
       total: 13
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/screenshots/apollo-io-2026-06-20T172312.png
 security:
@@ -394,6 +394,6 @@ tags:
 - Sales Engagement
 - Conversation Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 website: https://www.apollo.io/
 ---

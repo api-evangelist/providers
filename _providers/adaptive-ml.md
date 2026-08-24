@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -221,8 +221,8 @@ image: https://www.adaptive-ml.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: adaptive-ml-mcp.yml
-  slug: adaptive-ml-mcpyml
+  name: Adaptive ML MCP Server
+  slug: adaptive-ml-mcp-server
 modified: '2026-07-17'
 name: Adaptive ML
 nav: Providers
@@ -238,7 +238,7 @@ random_paper: 16
 score:
   band: developing
   composite: 43.9
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -248,7 +248,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 45.7
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,8 +259,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/screenshots/adaptive-ml-2026-07-25T181557.png
 security:

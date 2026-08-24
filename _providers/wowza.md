@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 10
@@ -524,25 +524,25 @@ modified: '2026-05-25'
 name: Wowza
 nav: Providers
 network: true
-overview: 'Wowza publishes 44 APIs on the [APIs.io](https://apis.io/) network, including advanced_token_authentication API, analytics_engagement API, analytics_ingest API, and 41 more. Tagged areas include Video, Streaming, Live Streaming, Video On Demand, and Transcoding.
+overview: 'Wowza publishes 44 APIs on the [APIs.io](https://apis.io/) network, including advanced_token_authentication API, analytics_engagement API, analytics_ingest API, and 41 more. Tagged areas include Video, Streaming, Live Streaming, Video-on-Demand, and Transcoding.
 
 
   Wowza''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, pricing, and 26 more developer resources.'
 random_paper: 1
 score:
   band: developing
-  composite: 46.7
-  delta: 1.5
+  composite: 48.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 56.8
     developer_ergonomics: 69.0
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 45.2
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -550,8 +550,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 44
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/screenshots/wowza-2026-06-20T201630.png
 security:
@@ -581,7 +581,7 @@ tags:
 - Video
 - Streaming
 - Live Streaming
-- Video On Demand
+- Video-on-Demand
 - Transcoding
 - Media Server
 - RTMP
@@ -598,7 +598,7 @@ tags:
 - CDN
 - Video Analytics
 - QoE
-- Webhooks
+- Webhook
 - Edge
 - Surveillance
 - OTT

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ modified: '2026-05-19'
 name: Google Cloud Vision
 nav: Providers
 network: true
-overview: 'Google Cloud Vision publishes 3 APIs on the [APIs.io](https://apis.io/) network: Files API, Images API, and ProductSearch API. Tagged areas include Computer Vision, Google Cloud, Image Analysis, Machine Learning, and OCR.
+overview: 'Google Cloud Vision publishes 3 APIs on the [APIs.io](https://apis.io/) network: Files API, Images API, and ProductSearch API. Tagged areas include Computer-Vision, Google Cloud, Image Analysis, Machine-Learning, and OCR.
 
 
   The Google Cloud Vision catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -195,7 +195,7 @@ scopes:
 score:
   band: developing
   composite: 47.6
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -205,7 +205,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 53.7
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -213,9 +213,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/screenshots/google-cloud-vision-2026-06-20T182154.png
 security:
 - kind: authentication
@@ -232,10 +232,10 @@ security:
   summary_line: security.txt · contact published
 slug: google-cloud-vision
 tags:
-- Computer Vision
+- Computer-Vision
 - Google Cloud
 - Image Analysis
-- Machine Learning
+- Machine-Learning
 - OCR
 website: https://cloud.google.com/vision
 ---

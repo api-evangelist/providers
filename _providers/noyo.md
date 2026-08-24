@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 64
 apis:
 - description: The Carrier Mapped Field API from Noyo — 1 operation(s) for carrier mapped field.
@@ -524,8 +524,8 @@ image: https://static.noyo.com/img/noyo-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: noyo-mcp.yml
-  slug: noyo-mcpyml
+  name: Noyo MCP Server
+  slug: noyo-mcp-server
 modified: '2026-07-20'
 name: Noyo
 nav: Providers
@@ -541,7 +541,7 @@ random_paper: 12
 score:
   band: developing
   composite: 44.5
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -551,7 +551,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 43.9
+  previous_composite: 44.5
   provenance:
     conformance: derived
     contracts:
@@ -567,8 +567,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/screenshots/noyo-2026-08-07T185645.png
 security:
@@ -590,7 +590,7 @@ tags:
 - Benefits Administration
 - Insurance Carriers
 - Data Exchange
-- Webhooks
+- Webhook
 - Health Insurance
 website: https://www.noyo.com
 ---

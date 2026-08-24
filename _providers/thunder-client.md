@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Thunder Client is the flagship VS Code REST API client extension offering a lightweight GUI for sending HTTP requests, managing collections with environment variables, and running scriptless tests. Fe
@@ -135,7 +135,7 @@ modified: '2026-05-03'
 name: Thunder Client
 nav: Providers
 network: true
-overview: 'Thunder Client publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, API Testing, CI/CD, CLI, and Collections.
+overview: 'Thunder Client publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, API Testing, CI/CD, CLI, and Collection.
 
 
   The Thunder Client catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -165,7 +165,7 @@ rules:
 score:
   band: emerging
   composite: 24.6
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -175,10 +175,10 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 28.9
-  previous_composite: 30.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 24.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thunder-client/refs/heads/main/screenshots/thunder-client-2026-06-20T195320.png
 security:
 - kind: domain-security
@@ -191,7 +191,7 @@ tags:
 - API Testing
 - CI/CD
 - CLI
-- Collections
+- Collection
 - GraphQL
 - REST Client
 - VS Code

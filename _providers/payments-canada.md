@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -201,13 +201,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: payments-canada-mcp.yml
-  slug: payments-canada-mcpyml
+  name: Payments Canada MCP Server
+  slug: payments-canada-mcp-server
 modified: '2026-07-23'
 name: Payments Canada
 nav: Providers
 network: true
-overview: 'Payments Canada publishes 8 APIs on the [APIs.io](https://apis.io/) network, including RTR Sandbox - Inbound Participant Payment API, RTR Sandbox - Inbound Exchange Heartbeat API, RTR Sandbox - Interest Report API, and 5 more. Tagged areas include Financial Services, Payments, Canada, Payment Infrastructure, and Clearing and Settlement.
+overview: 'Payments Canada publishes 8 APIs on the [APIs.io](https://apis.io/) network, including RTR Sandbox - Inbound Participant Payment API, RTR Sandbox - Inbound Exchange Heartbeat API, RTR Sandbox - Interest Report API, and 5 more. Tagged areas include Financial-Services, Payments, Canada, Payment Infrastructure, and Clearing and Settlement.
 
 
   Payments Canada''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 22 more developer resources.'
@@ -220,7 +220,7 @@ scopes:
 score:
   band: developing
   composite: 44.9
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -230,7 +230,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 41.2
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -247,8 +247,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 67.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/screenshots/payments-canada-2026-08-07T191642.png
 security:
@@ -262,7 +262,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: payments-canada
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - Canada
 - Payment Infrastructure

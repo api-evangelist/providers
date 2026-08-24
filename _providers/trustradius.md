@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -389,18 +389,18 @@ rules:
   slug: trustradius-rules
 score:
   band: strong
-  composite: 61.2
-  delta: -1.0
+  composite: 61.6
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 62.8
     developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 26.3
-  previous_composite: 62.2
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -411,8 +411,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/screenshots/trustradius-2026-06-20T195813.png
 security:

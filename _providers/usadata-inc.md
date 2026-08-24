@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Publicly served SOAP 1.1 / 1.2 web service behind the USADATA Leads Portal and Leads Module. The WSDL is served anonymously from the production API host and declares 24 operations covering the full li
@@ -138,7 +138,7 @@ description: USADATA is a data and marketing intelligence company founded in 199
 image: https://static1.squarespace.com/static/69dd1686c455113b9719b22c/t/69dd16cec455113b9719c333/1723120623587/USD_logo_1C_NEBULON.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: USADATA ships no MCP server. Searched the docs, npm, and the MCP registries on 2026-08-13 and found nothing first-party. What follows is a CANDIDATE tool set derived one-for-one from the 24 operations
   name: MCP Server (candidate, derived from the Leads Engine WSDL)
   slug: mcp-server-candidate-derived-from-the-leads-engine-wsdl
 modified: '2026-08-13'
@@ -161,7 +161,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.4
-  delta: 5.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -177,14 +177,14 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 25.8
+  previous_composite: 31.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Usadata Inc Authentication

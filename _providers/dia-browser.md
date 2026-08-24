@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: AI-native browser for macOS (Apple Silicon) that turns browsing into a working surface for an embedded assistant. Surfaces contextual chat, Morning Brief, Reports, Better Meetings, Live Work, and spli
@@ -83,7 +83,7 @@ modified: '2026-05-23'
 name: Dia (The Browser Company)
 nav: Providers
 network: true
-overview: Dia (The Browser Company) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser, AI Browser, Agent, Consumer, and The Browser Company.
+overview: Dia (The Browser Company) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser, AI Browser, Agents, Consumer, and The Browser Company.
 plans:
 - name: Dia Browser Plans Pricing
   plan_count: 1
@@ -107,8 +107,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dia-browser/refs/heads/main/screenshots/dia-browser-2026-06-20T180005.png
 security:
@@ -128,7 +128,7 @@ slug: dia-browser
 tags:
 - Browser
 - AI Browser
-- Agent
+- Agents
 - Consumer
 - The Browser Company
 website: https://www.diabrowser.com/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
@@ -208,8 +208,8 @@ image: https://www.practicefusion.com/assets/img/practice-fusion-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: practice-fusion-mcp.yml
-  slug: practice-fusion-mcpyml
+  name: Practice Fusion MCP Server
+  slug: practice-fusion-mcp-server
 modified: '2026-08-14'
 name: Practice Fusion
 nav: Providers
@@ -234,18 +234,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.8
-  delta: 2.8
+  composite: 62.9
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 36.0
     developer_ergonomics: 56.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 59.0
+  previous_composite: 62.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -256,8 +256,8 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/screenshots/practice-fusion-2026-08-17T081329.png
 security:

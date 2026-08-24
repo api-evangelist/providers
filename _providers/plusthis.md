@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.2
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -143,15 +143,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 35.3
+  previous_composite: 35.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -165,10 +165,10 @@ tags:
 - Marketing
 - CRM
 - Sales
-- No Code
+- No-Code
 - Automation
 - Integration
-- Webhooks
+- Webhook
 - Email Marketing
 - SMS
 - Small Business

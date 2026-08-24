@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: The Accounts API from Tesser — 5 operation(s) for accounts.
@@ -248,9 +248,9 @@ description: Tesser is a New York-based stablecoin payments infrastructure compa
 image: https://raw.githubusercontent.com/tesser-payments/public/8ec11667adbdf3ba7ea626044483a24ba1a504f1/tesser-logo-Blue.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: tesser-mcp.yml
-  slug: tesser-mcpyml
+- description: The Tesser MCP server exposes every public Tesser API endpoint as a tool that AI agents can discover and invoke over Streamable HTTP. It is also modeled in the OpenAPI as the POST /v1/mcp operation (o
+  name: Tesser MCP Server
+  slug: tesser-mcp-server
 modified: '2026-07-21'
 name: Tesser
 nav: Providers
@@ -266,7 +266,7 @@ random_paper: 11
 score:
   band: developing
   composite: 49.7
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -276,7 +276,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 47.6
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -292,8 +292,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/screenshots/tesser-2026-08-17T082322.png
 security:

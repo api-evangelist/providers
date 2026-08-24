@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 11
 common:
@@ -205,7 +205,7 @@ rules:
 score:
   band: emerging
   composite: 14.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -221,9 +221,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/screenshots/customer-database-2026-06-20T175347.png
 slug: customer-database

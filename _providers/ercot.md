@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: RESTful access to ERCOT Market Information List (EMIL) public data products — 106 documented endpoints spanning real-time and day-ahead locational marginal prices, settlement point prices, SCED system
@@ -212,9 +212,9 @@ description: 'The Electric Reliability Council of Texas (ERCOT) is the independe
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ercot-mcp.yml
-  slug: ercot-mcpyml
+- description: 'ERCOT publishes no first-party MCP server. Searching the developer portal, the ERCOT GitHub organization and the npm registry turns up no ERCOT-operated hosted or stdio MCP endpoint, and no agent/LLM '
+  name: ERCOT MCP Server
+  slug: ercot-mcp-server
 modified: '2026-07-27'
 name: ERCOT
 nav: Providers
@@ -239,7 +239,7 @@ scopes:
 score:
   band: strong
   composite: 59.3
-  delta: 6.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -249,7 +249,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 52.6
+  previous_composite: 59.3
   provenance:
     conformance: derived
     contracts:
@@ -265,9 +265,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 67.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/screenshots/ercot-2026-08-07T164957.png
 security:
 - kind: authentication

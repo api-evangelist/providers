@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-18'
 name: Chingona Ventures
 nav: Providers
 network: true
-overview: 'Chingona Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Pre-Seed, Fintech, and Future of Work.
+overview: 'Chingona Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Pre-Seed, Fintech, and Future Of Work.
 
 
   Chingona Ventures'' developer surface includes support, signup flow, and 4 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 12
 score:
   band: minimal
   composite: 6.9
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -82,15 +82,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.4
+  previous_composite: 6.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chingona-ventures/refs/heads/main/screenshots/chingona-ventures-2026-07-25T205228.png
 security:
@@ -104,7 +104,7 @@ tags:
 - Venture Capital
 - Pre-Seed
 - Fintech
-- Future of Work
+- Future Of Work
 - Future of Learning
 - Health Technology
 - Early Stage Investing

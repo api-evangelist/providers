@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-05-19'
 name: agrio
 nav: Providers
 network: true
-overview: 'agrio publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Credit API, Crops API, and 2 more. Tagged areas include Agriculture, Plant Disease, Pest Detection, AI, and Crop Advisory.
+overview: 'agrio publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Credit API, Crops API, and 2 more. Tagged areas include Agriculture, Plant Disease, Pest Detection, Artificial Intelligence, and Crop Advisory.
 
 
   The agrio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -256,18 +256,18 @@ rules:
   slug: agrio-spectral-rules
 score:
   band: developing
-  composite: 39.4
-  delta: -6.0
+  composite: 39.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 76.2
     developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 45.4
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -275,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/screenshots/agrio-2026-06-20T170436.png
 security:
 - kind: authentication
@@ -293,7 +293,7 @@ tags:
 - Agriculture
 - Plant Disease
 - Pest Detection
-- AI
+- Artificial Intelligence
 - Crop Advisory
 use_cases:
 - description: Embed AI plant disease diagnosis into existing crop advisory and farm management applications.

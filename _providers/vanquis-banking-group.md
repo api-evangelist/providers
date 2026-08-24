@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -173,13 +173,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: vanquis-banking-group-mcp.yml
-  slug: vanquis-banking-group-mcpyml
+  name: Vanquis Banking Group MCP Server
+  slug: vanquis-banking-group-mcp-server
 modified: '2026-07-23'
 name: Vanquis Banking Group
 nav: Providers
 network: true
-overview: 'Vanquis Banking Group publishes 3 APIs on the [APIs.io](https://apis.io/) network: Vanquis Bank Account and Transaction API (AIS), Vanquis Bank Payment Initiation API (PIS), and Vanquis Bank Confirmation of Funds API (CBPII). Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Vanquis Banking Group publishes 3 APIs on the [APIs.io](https://apis.io/) network: Vanquis Bank Account and Transaction API (AIS), Vanquis Bank Payment Initiation API (PIS), and Vanquis Bank Confirmation of Funds API (CBPII). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Vanquis Banking Group''s developer surface includes authentication, documentation, signup flow, support, and 24 more developer resources.'
@@ -192,7 +192,7 @@ scopes:
 score:
   band: developing
   composite: 44.2
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -202,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 40.0
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,8 +219,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -233,7 +233,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: vanquis-banking-group
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

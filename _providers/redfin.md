@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ rules:
 score:
   band: thin
   composite: 37.8
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -247,7 +247,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 42.4
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -255,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/screenshots/redfin-2026-08-17T125152.png
 security:
@@ -272,6 +272,6 @@ tags:
 - Housing Market
 - Listings
 - Property Data
-- Real Estate
+- Real-Estate
 website: https://www.redfin.com
 ---

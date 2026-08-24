@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -1026,7 +1026,7 @@ rules:
 score:
   band: strong
   composite: 62.9
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -1036,7 +1036,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 55.3
-  previous_composite: 66.7
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1044,8 +1044,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/screenshots/boomi-2026-06-20T173607.png
 security:
@@ -1064,7 +1064,7 @@ tags:
 - B2B
 - Data Integration
 - EDI
-- Integrations
+- Integration
 - Management
 - MFT
 - Platform

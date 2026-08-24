@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -222,8 +222,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: form3-mcp.yml
-  slug: form3-mcpyml
+  name: Form3 MCP Server
+  slug: form3-mcp-server
 modified: '2026-07-24'
 name: Form3
 nav: Providers
@@ -244,7 +244,7 @@ scopes:
 score:
   band: developing
   composite: 47.9
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -254,7 +254,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 53.6
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,9 +271,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:
 - kind: authentication
@@ -305,7 +305,7 @@ tags:
 - Direct Debit
 - Confirmation of Payee
 - Cross-Border
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Payments
 website: https://www.form3.tech/
 ---

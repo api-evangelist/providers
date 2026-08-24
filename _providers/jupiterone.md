@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: JupiterOne's public GraphQL API for querying the security asset graph with J1QL, managing entities and relationships, running alert rules, ingesting data via sync jobs, and administering integrations,
@@ -162,9 +162,9 @@ description: JupiterOne is a cyber asset attack surface management (CAASM) and s
 image: https://avatars.githubusercontent.com/u/44646512?s=200&v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: jupiterone-mcp.yml
-  slug: jupiterone-mcpyml
+- description: Official Model Context Protocol server for JupiterOne. Exposes JupiterOne account rules and rule details to MCP-compatible agents and clients.
+  name: JupiterOne MCP Server
+  slug: jupiterone-mcp-server
 modified: '2026-07-19'
 name: JupiterOne
 nav: Providers
@@ -184,7 +184,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.8
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -194,12 +194,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 57.5
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/screenshots/jupiterone-2026-07-25T223332.png
 security:

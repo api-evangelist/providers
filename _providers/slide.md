@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: Everything about [accounts](#model/account)
@@ -231,9 +231,9 @@ description: Slide is a modern, security-first Business Continuity and Disaster 
 image: https://images.prismic.io/slide/aiG5lQeQX7-eWv32_image-3-.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: slide-mcp.yml
-  slug: slide-mcpyml
+- description: Candidate MCP server for the Slide API. No official hosted MCP server was found; this tool list is derived one-to-one from the OpenAPI operations so it can seed an MCP wrapper. Not an official Slide p
+  name: Slide MCP Server
+  slug: slide-mcp-server
 modified: '2026-07-21'
 name: Slide
 nav: Providers
@@ -246,7 +246,7 @@ random_paper: 4
 score:
   band: developing
   composite: 50.2
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -256,7 +256,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 49.9
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -266,8 +266,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slide/refs/heads/main/screenshots/slide-2026-08-17T081918.png
 security:

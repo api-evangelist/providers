@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,14 +150,14 @@ json_schemas:
   slug: nutrientsdb-food
 layout: provider
 mcp_servers:
-- description: ''
-  name: nutrientsdb-mcp.yml
-  slug: nutrientsdb-mcpyml
+- description: NutrientsDB publishes NO MCP server. This file is a CANDIDATE tool design derived from the one public OpenAPI operation — it is what an MCP server over this API would look like, not something the prov
+  name: NutrientsDB MCP Server
+  slug: nutrientsdb-mcp-server
 modified: '2026-08-09'
 name: NutrientsDB
 nav: Providers
 network: true
-overview: 'NutrientsDB publishes 1 API on the [APIs.io](https://apis.io/) network: Foods API. Tagged areas include nutrition, food, nutrients, food-composition, and data.
+overview: 'NutrientsDB publishes 1 API on the [APIs.io](https://apis.io/) network: Foods API. Tagged areas include Nutrition, Food, Nutrients, Food Composition, and Data.
 
 
   NutrientsDB''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, and 14 more developer resources.'
@@ -165,7 +165,7 @@ random_paper: 5
 score:
   band: thin
   composite: 34.7
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -175,7 +175,7 @@ score:
     discoverability: 70.4
     governance: 31.8
     operational_transparency: 2.6
-  previous_composite: 41.2
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,9 +192,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Nutrientsdb Authentication
@@ -206,16 +206,16 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: nutrientsdb
 tags:
-- nutrition
-- food
-- nutrients
-- food-composition
-- data
-- search
-- sample-data
-- dataset
+- Nutrition
+- Food
+- Nutrients
+- Food Composition
+- Data
+- Search
+- Sample Data
+- Dataset
 - ai-builders
-- reference-data
-- open-data
+- Reference Data
+- Open Data
 - keyless-api
 ---

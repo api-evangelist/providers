@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,12 +44,12 @@ modified: '2026-07-20'
 name: Giftcard Zen
 nav: Providers
 network: true
-overview: Giftcard Zen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gift Cards, Marketplace, Secondary Market, and E-commerce.
+overview: Giftcard Zen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gift Cards, Marketplace, Secondary Market, and E-Commerce.
 random_paper: 17
 score:
   band: minimal
   composite: 0.1
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -65,15 +65,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 4.3
+  previous_composite: 0.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: giftcard-zen
 tags:
@@ -81,7 +81,7 @@ tags:
 - Gift Cards
 - Marketplace
 - Secondary Market
-- E-commerce
+- E-Commerce
 - Retail
 - Payments
 - Acquired

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -540,14 +540,14 @@ jsonld:
   slug: konbiniapi-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: konbiniapi-mcp.yml
-  slug: konbiniapi-mcpyml
+- description: KonbiniAPI gives AI agents direct access to social media data — profiles, posts, videos, comments, and search results across Instagram, TikTok, X, Reddit and LinkedIn, normalized to ActivityStreams 2.
+  name: KonbiniAPI MCP
+  slug: konbiniapi-mcp
 modified: '2026-08-13'
 name: KonbiniAPI
 nav: Providers
 network: true
-overview: 'KonbiniAPI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Instagram API, TikTok API, X API, and 2 more. Tagged areas include API, Social Media, Instagram, TikTok, and X.
+overview: 'KonbiniAPI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Instagram API, TikTok API, X API, and 2 more. Tagged areas include Social-Media, Instagram, TikTok, X, and Reddit.
 
 
   The KonbiniAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -592,18 +592,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.7
-  delta: 0.9
+  composite: 74.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 74.1
     developer_ergonomics: 66.7
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 28.9
-  previous_composite: 72.8
+  previous_composite: 74.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -620,8 +620,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/screenshots/konbiniapi-2026-06-20T184125.png
 security:
@@ -639,8 +639,7 @@ security:
   summary_line: security.txt · contact published
 slug: konbiniapi
 tags:
-- API
-- Social Media
+- Social-Media
 - Instagram
 - TikTok
 - X
@@ -654,7 +653,6 @@ tags:
 - Social Listening
 - Creator Tools
 - MCP
-- Model Context Protocol
 - Agent Skills
 - Agents
 website: https://docs.konbiniapi.com

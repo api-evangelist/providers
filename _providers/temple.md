@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -54,8 +54,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/temple.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: temple-mcp.yml
-  slug: temple-mcpyml
+  name: Temple MCP Server
+  slug: temple-mcp-server
 modified: '2026-07-21'
 name: Temple
 nav: Providers
@@ -65,7 +65,7 @@ random_paper: 17
 score:
   band: minimal
   composite: 2.0
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -75,7 +75,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.9
+  previous_composite: 2.0
   provenance:
     mcp: first-party
   regulatory:
@@ -84,9 +84,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Temple Domain Security
@@ -101,7 +101,7 @@ tags:
 - Hedge Fund
 - Algorithmic Trading
 - Quantitative Trading
-- Machine Learning
+- Machine-Learning
 - Asset Management
 - Investment
 website: https://www.temple.capital/

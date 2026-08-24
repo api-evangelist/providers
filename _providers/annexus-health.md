@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The production OpenID Connect / OAuth 2.0 authorization server for the AssistPoint platform, served from Annexus Health's own custom domain. Its discovery document is published anonymously at /.well-k
@@ -133,7 +133,7 @@ scopes:
 score:
   band: thin
   composite: 26.3
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -143,7 +143,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.9
+  previous_composite: 26.3
   provenance:
     conformance: first-party
   regulatory:
@@ -152,8 +152,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/annexus-health/refs/heads/main/screenshots/annexus-health-2026-08-07T161419.png
 security:

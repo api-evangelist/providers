@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth 2.0-authorized REST API that lets registered third-party applications read a consenting iHealth user's connected-device data (blood pressure and user-profile resources confirmed live). Developer
@@ -99,8 +99,8 @@ image: https://ihealthlabs.com/cdn/shop/files/iHealth_logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: andon-health-mcp.yml
-  slug: andon-health-mcpyml
+  name: Andon Health MCP Server
+  slug: andon-health-mcp-server
 modified: '2026-07-17'
 name: Andon Health
 nav: Providers
@@ -118,7 +118,7 @@ scopes:
 score:
   band: emerging
   composite: 22.4
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -128,7 +128,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 28.4
+  previous_composite: 22.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -138,9 +138,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andon-health/refs/heads/main/screenshots/andon-health-2026-07-25T200224.png
 security:
 - kind: authentication

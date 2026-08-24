@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Unified ERC-4337 JSON-RPC endpoint exposing both the Pimlico bundler (eth_sendUserOperation, eth_estimateUserOperationGas, eth_getUserOperationReceipt, pimlico_getUserOperationGasPrice, pimlico_getUse
@@ -195,8 +195,8 @@ image: https://avatars.githubusercontent.com/u/125581500?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: pimlico-mcp.yml
-  slug: pimlico-mcpyml
+  name: Pimlico MCP Server
+  slug: pimlico-mcp-server
 modified: '2026-07-20'
 name: Pimlico
 nav: Providers
@@ -217,7 +217,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.4
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -227,7 +227,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 50.4
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -238,8 +238,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pimlico/refs/heads/main/screenshots/pimlico-2026-08-17T081231.png
 security:

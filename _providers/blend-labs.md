@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Blend's platform API for home lending, consumer lending, deposit account opening, documents and disclosures, e-signature packages, electronic and remote online notary (RON) closings, verification of i
@@ -115,13 +115,13 @@ image: https://cdn.readme.io/og-image/create?type=home&title=Blend%20API%20Docs&
 layout: provider
 mcp_servers:
 - description: ''
-  name: blend-labs-mcp.yml
-  slug: blend-labs-mcpyml
+  name: Blend Labs MCP Server
+  slug: blend-labs-mcp-server
 modified: '2026-07-18'
 name: Blend Labs
 nav: Providers
 network: true
-overview: 'Blend Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Blend API. Tagged areas include Company, Financial Services, Mortgage, Lending, and Banking.
+overview: 'Blend Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Blend API. Tagged areas include Company, Financial-Services, Mortgage, Lending, and Banking.
 
 
   The Blend Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -132,7 +132,7 @@ random_paper: 14
 score:
   band: thin
   composite: 34.1
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -142,7 +142,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 43.4
-  previous_composite: 36.9
+  previous_composite: 34.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -152,8 +152,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-labs/refs/heads/main/screenshots/blend-labs-2026-07-25T203310.png
 security:
@@ -168,7 +168,7 @@ security:
 slug: blend-labs
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Mortgage
 - Lending
 - Banking

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -674,14 +674,14 @@ jsonld:
   slug: chatgpt-responses-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: chatgpt-mcp.yml
-  slug: chatgpt-mcpyml
+- description: OpenAI publishes an official hosted MCP server that exposes its developer documentation (search + page retrieval) over Streamable HTTP with no authentication. It is documentation-only and does not cal
+  name: openaiDeveloperDocs
+  slug: openaideveloperdocs
 modified: '2026-06-20'
 name: ChatGPT
 nav: Providers
 network: true
-overview: 'ChatGPT publishes 2 APIs on the [APIs.io](https://apis.io/) network, including OpenAI Responses API, and 1 more. Tagged areas include Agents, AI, ChatGPT, Embeddings, and Fine-Tuning.
+overview: 'ChatGPT publishes 2 APIs on the [APIs.io](https://apis.io/) network, including OpenAI Responses API, and 1 more. Tagged areas include Agents, Artificial Intelligence, ChatGPT, Embeddings, and Fine-Tuning.
 
 
   The ChatGPT catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -721,18 +721,18 @@ rules:
   slug: chatgpt-spectral-rules
 score:
   band: strong
-  composite: 58.8
-  delta: -9.0
+  composite: 59.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 56.3
     developer_ergonomics: 69.0
     discoverability: 85.2
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 67.8
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -742,9 +742,9 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/screenshots/chatgpt-2026-08-17T082057.png
 security:
 - kind: authentication
@@ -766,7 +766,7 @@ security:
 slug: chatgpt
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - ChatGPT
 - Embeddings
 - Fine-Tuning
@@ -774,7 +774,7 @@ tags:
 - GPT-5
 - Language Model
 - OpenAI
-- Realtime
+- Real-Time
 use_cases:
 - description: Build AI-powered chatbots and support agents that handle customer inquiries, troubleshoot issues, and escalate complex cases.
   name: Customer Support Automation

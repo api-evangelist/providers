@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -335,8 +335,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: yoast-mcp.yml
-  slug: yoast-mcpyml
+  name: Yoast MCP Server
+  slug: yoast-mcp-server
 modified: '2026-08-13'
 name: Yoast
 nav: Providers
@@ -386,18 +386,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.0
-  delta: -5.9
+  composite: 64.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 58.0
     developer_ergonomics: 73.2
     discoverability: 92.6
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 52.6
-  previous_composite: 69.9
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -408,9 +408,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/screenshots/yoast-2026-06-20T201746.png
 security:
 - kind: authentication

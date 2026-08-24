@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -237,8 +237,8 @@ image: https://framerusercontent.com/images/CaZExN3h34OiuPCO41bzrgwhVc.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: 1kosmos-mcp.yml
-  slug: 1kosmos-mcpyml
+  name: 1Kosmos MCP Server
+  slug: 1kosmos-mcp-server
 modified: '2026-08-05'
 name: 1Kosmos
 nav: Providers
@@ -259,7 +259,7 @@ scopes:
 score:
   band: developing
   composite: 54.0
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -269,7 +269,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 54.6
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +280,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/screenshots/1kosmos-2026-08-07T160649.png
 security:

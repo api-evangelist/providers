@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.5
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -254,7 +254,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 44.2
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -268,8 +268,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/screenshots/datacite-2026-06-20T175634.png
 security:

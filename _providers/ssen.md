@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -193,9 +193,9 @@ description: Scottish and Southern Electricity Networks (SSEN) is the SSE plc el
 image: https://www.ssen.co.uk/apple-touch-icon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ssen-mcp.yml
-  slug: ssen-mcpyml
+- description: SSEN publishes no MCP server. No hosted or remote MCP endpoint was found on any SSEN host, no @modelcontextprotocol package references SSEN, and neither the Opendatasoft nor the CKAN portal advertises
+  name: Scottish and Southern Electricity Networks MCP Server
+  slug: scottish-and-southern-electricity-networks-mcp-server
 modified: '2026-07-27'
 name: Scottish and Southern Electricity Networks
 nav: Providers
@@ -212,7 +212,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.7
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -222,7 +222,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 45.7
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +234,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/screenshots/ssen-2026-08-17T082055.png
 security:

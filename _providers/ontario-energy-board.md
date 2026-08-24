@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Ontario Energy Board's Open Data programme, launched September 2022 under Ontario's Digital and Data Directive (2021) and expanded in October 2023 ("Open Data 2.0") and August 2024. A crawl of bot
@@ -171,8 +171,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: ontario-energy-board-mcp.yml
-  slug: ontario-energy-board-mcpyml
+  name: Ontario Energy Board MCP Server
+  slug: ontario-energy-board-mcp-server
 modified: '2026-07-27'
 name: Ontario Energy Board
 nav: Providers
@@ -185,7 +185,7 @@ random_paper: 8
 score:
   band: developing
   composite: 47.1
-  delta: 9.6
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -195,7 +195,7 @@ score:
     discoverability: 75.9
     governance: 45.5
     operational_transparency: 15.8
-  previous_composite: 37.5
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     contracts:
@@ -211,9 +211,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png
 security:
 - kind: authentication

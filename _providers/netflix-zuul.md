@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Netflix Zuul is an L7 application gateway built on Netty that provides dynamic routing, load balancing, authentication, monitoring, and resiliency for edge services. Zuul 3.x is the current release, s
@@ -95,7 +95,7 @@ modified: '2026-04-28'
 name: Netflix Zuul
 nav: Providers
 network: true
-overview: 'Netflix Zuul publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Edge Service, Netflix, and Open Source.
+overview: 'Netflix Zuul publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Edge Service, Netflix, and Open-Source.
 
 
   Netflix Zuul''s developer surface includes documentation, getting-started guide, changelog, engineering blog, Stack Overflow tag, and 5 more developer resources.'
@@ -111,7 +111,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.9
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -121,9 +121,9 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 16.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-zuul/refs/heads/main/screenshots/netflix-zuul-2026-06-20T190156.png
 slug: netflix-zuul
@@ -131,5 +131,5 @@ tags:
 - API Gateway
 - Edge Service
 - Netflix
-- Open Source
+- Open-Source
 ---

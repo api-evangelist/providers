@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Create and manage pre-authorization orders.
@@ -158,8 +158,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/preauth-in
 layout: provider
 mcp_servers:
 - description: ''
-  name: preauth-instacash-mcp.yml
-  slug: preauth-instacash-mcpyml
+  name: PreAuth (Instacash) MCP Server
+  slug: preauth-instacash-mcp-server
 modified: '2026-07-20'
 name: PreAuth (Instacash)
 nav: Providers
@@ -175,7 +175,7 @@ random_paper: 0
 score:
   band: developing
   composite: 52.2
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -185,7 +185,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 45.8
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     contracts:
@@ -201,9 +201,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/screenshots/preauth-instacash-2026-08-17T124847.png
 security:
 - kind: authentication

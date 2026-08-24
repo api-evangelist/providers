@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -209,8 +209,8 @@ image: https://cdn.prod.website-files.com/643faaa7da666b82bfd92bfd/6980cdfb5017b
 layout: provider
 mcp_servers:
 - description: ''
-  name: brandtrack-mcp.yml
-  slug: brandtrack-mcpyml
+  name: Brandtrack MCP Server
+  slug: brandtrack-mcp-server
 modified: '2026-07-18'
 name: Brandtrack
 nav: Providers
@@ -227,18 +227,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 42.3
-  delta: -0.3
+  composite: 43.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
     contract_quality: 56.7
     developer_ergonomics: 51.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 42.6
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +249,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/screenshots/brandtrack-2026-07-25T203725.png
 security:

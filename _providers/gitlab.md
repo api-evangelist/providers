@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -1196,8 +1196,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: gitlab-mcp.yml
-  slug: gitlab-mcpyml
+  name: GitLab MCP Server
+  slug: gitlab-mcp-server
 modified: '2026-06-20'
 name: GitLab
 nav: Providers
@@ -1240,13 +1240,13 @@ rules:
     info: 1
     warn: 5
   slug: gitlab-jsonschema-spectral-rules
-- effective_rule_count: 68
+- effective_rule_count: 67
   extends:
   - spectral:oas
   name: GitLab API Rules
-  rule_count: 27
+  rule_count: 26
   severity_counts:
-    error: 15
+    error: 14
     hint: 0
     info: 3
     warn: 9
@@ -1258,18 +1258,18 @@ scopes:
   summary_line: 25 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: strong
-  composite: 64.4
-  delta: -3.9
+  composite: 65.8
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 41.7
+    contract_governance: 43.9
     contract_quality: 73.7
     developer_ergonomics: 69.0
-    discoverability: 66.7
-    governance: 41.7
+    discoverability: 77.8
+    governance: 43.9
     operational_transparency: 52.6
-  previous_composite: 68.3
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1279,8 +1279,8 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/screenshots/gitlab-2026-06-20T181844.png
 security:

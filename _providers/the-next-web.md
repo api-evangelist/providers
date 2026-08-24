@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Next Web provides an RSS 2.0 feed updated hourly with the latest technology news, analysis, and articles published on thenextweb.com. The feed covers topics including artificial intelligence, star
@@ -142,7 +142,7 @@ modified: '2026-05-03'
 name: The Next Web
 nav: Providers
 network: true
-overview: 'The Next Web publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Technology News, Innovation, Media, Events, and Startups.
+overview: 'The Next Web publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Technology News, Innovation, Media, Event, and Startups.
 
 
   The The Next Web catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -172,7 +172,7 @@ rules:
 score:
   band: emerging
   composite: 21.8
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -188,10 +188,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 27.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 21.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/screenshots/the-next-web-2026-06-20T195230.png
 security:
 - kind: domain-security
@@ -203,7 +203,7 @@ tags:
 - Technology News
 - Innovation
 - Media
-- Events
+- Event
 - Startups
 - Artificial Intelligence
 website: https://thenextweb.com/

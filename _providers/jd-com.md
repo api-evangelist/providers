@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: JOS authorization is JD's OAuth 2.0 flow for shop owners and JD enterprise accounts to grant a partner ISV application access. The platform issues an access token and refresh token scoped per shop / p
@@ -157,7 +157,7 @@ modified: '2026-05-23'
 name: JD.com (Jingdong)
 nav: Providers
 network: true
-overview: 'JD.com (Jingdong) publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-commerce, Marketplace, China, Cloud Platform, and Logistics.
+overview: 'JD.com (Jingdong) publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, China, Cloud Platform, and Logistics.
 
 
   JD.com (Jingdong)''s developer surface includes documentation, API reference, GitHub presence, and 12 more developer resources.'
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.6
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -183,9 +183,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 21.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jd-com/refs/heads/main/screenshots/jd-com-2026-06-20T183726.png
 security:
@@ -195,7 +195,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: jd-com
 tags:
-- E-commerce
+- E-Commerce
 - Marketplace
 - China
 - Cloud Platform

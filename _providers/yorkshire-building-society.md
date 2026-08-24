@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -176,13 +176,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: yorkshire-building-society-mcp.yml
-  slug: yorkshire-building-society-mcpyml
+  name: Yorkshire Building Society MCP Server
+  slug: yorkshire-building-society-mcp-server
 modified: '2026-07-23'
 name: Yorkshire Building Society
 nav: Providers
 network: true
-overview: 'Yorkshire Building Society publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Payment Initiation API, Confirmation of Funds API, and 1 more. Tagged areas include Financial Services, Banking, Building Society, Open Banking, and PSD2.
+overview: 'Yorkshire Building Society publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Payment Initiation API, Confirmation of Funds API, and 1 more. Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
 
 
   The Yorkshire Building Society catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -198,7 +198,7 @@ scopes:
 score:
   band: developing
   composite: 48.4
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -208,7 +208,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 44.1
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -225,8 +225,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/screenshots/yorkshire-building-society-2026-08-17T083019.png
 security:
@@ -240,7 +240,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: yorkshire-building-society
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Open Banking

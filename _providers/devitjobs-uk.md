@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Jobs with GraphQL
@@ -60,7 +60,7 @@ modified: '2026-05-28'
 name: DevITjobs UK
 nav: Providers
 network: true
-overview: DevITjobs UK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
+overview: DevITjobs UK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job and Public APIs.
 random_paper: 0
 score:
   band: minimal
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -86,7 +86,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: devitjobs-uk
 tags:
-- Jobs
+- Job
 - Public APIs
 website: https://devitjobs.uk/job_feed.xml
 ---

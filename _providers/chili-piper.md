@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -291,8 +291,8 @@ image: https://cdn.prod.website-files.com/61c9fe00acd90d7271f7014e/63d787acdbdc8
 layout: provider
 mcp_servers:
 - description: ''
-  name: chili-piper-mcp.yml
-  slug: chili-piper-mcpyml
+  name: Chili Piper MCP Server
+  slug: chili-piper-mcp-server
 modified: '2026-08-13'
 name: Chili Piper
 nav: Providers
@@ -321,7 +321,7 @@ scopes:
 score:
   band: strong
   composite: 66.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -331,7 +331,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 66.5
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,8 +342,8 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/screenshots/chili-piper-2026-08-17T080410.png
 security:

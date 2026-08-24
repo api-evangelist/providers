@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -1610,18 +1610,18 @@ rules:
   slug: amazon-iam-access-analyzer-spectral-rules
 score:
   band: strong
-  composite: 55.0
-  delta: -2.1
+  composite: 55.4
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.2
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.1
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1635,8 +1635,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/screenshots/amazon-iam-access-analyzer-2026-06-20T171702.png
 security:

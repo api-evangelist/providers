@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 68.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -289,9 +289,9 @@ jsonld:
   slug: debounce-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: debounce-mcp.yml
-  slug: debounce-mcpyml
+- description: DeBounce serves two Model Context Protocol endpoints from its own hosts. The developer-portal server is anonymous and answers tools/list live — its three tools are documentation-retrieval tools, not e
+  name: DeBounce MCP Server
+  slug: debounce-mcp-server
 modified: '2026-08-14'
 name: DeBounce
 nav: Providers
@@ -331,7 +331,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.3
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -341,7 +341,7 @@ score:
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 55.3
-  previous_composite: 80.5
+  previous_composite: 72.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -352,9 +352,9 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/screenshots/debounce-2026-06-20T175751.png
 security:
 - kind: authentication

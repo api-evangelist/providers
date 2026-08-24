@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ rules:
 score:
   band: developing
   composite: 51.1
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -267,7 +267,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 50.0
-  previous_composite: 57.8
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -275,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/screenshots/openexchangerates-2026-08-07T190554.png
 security:
 - kind: authentication

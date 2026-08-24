@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 16
 apis:
 - description: OpenAI-style Chat/Research API. POST /responses with a surf-2.0 or surf-2.0-instant model and a natural-language crypto question; returns synthesized answers with inline citations drawn from live mark
@@ -225,8 +225,8 @@ image: https://asksurf.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: surf-mcp.yml
-  slug: surf-mcpyml
+  name: Surf MCP Server
+  slug: surf-mcp-server
 modified: '2026-07-21'
 name: Surf
 nav: Providers
@@ -239,7 +239,7 @@ random_paper: 7
 score:
   band: developing
   composite: 42.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -249,7 +249,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.4
+  previous_composite: 42.1
   provenance:
     conformance: derived
     contracts:
@@ -265,8 +265,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -285,7 +285,7 @@ tags:
 - Market Data
 - On-Chain Analytics
 - Wallet Intelligence
-- AI
+- Artificial Intelligence
 - DeFi
 - Prediction Markets
 - Developer API

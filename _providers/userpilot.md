@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ rules:
 score:
   band: thin
   composite: 29.4
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -254,7 +254,7 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 36.2
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -262,9 +262,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/screenshots/userpilot-2026-06-20T200701.png
 security:
 - kind: domain-security

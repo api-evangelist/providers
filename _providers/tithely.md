@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-07-03'
 name: Tithe.ly
 nav: Providers
 network: true
-overview: 'Tithe.ly publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Mail API, Organizations API, and 3 more. Tagged areas include Church Giving, Donations, Fundraising, Payments, and Nonprofit.
+overview: 'Tithe.ly publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Mail API, Organizations API, and 3 more. Tagged areas include Church Giving, Donations, Fundraising, Payments, and Non-Profit.
 
 
   Tithe.ly''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -167,7 +167,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.4
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -199,7 +199,7 @@ tags:
 - Donations
 - Fundraising
 - Payments
-- Nonprofit
+- Non-Profit
 - ChMS
 - Faith
 website: https://get.tithe.ly/

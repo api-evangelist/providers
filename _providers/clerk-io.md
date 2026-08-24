@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The Clerk.io API provides REST endpoints for managing products, categories, orders, customers, recommendations, and search. The API uses a dual-key authentication model: a public key identifies the st'
@@ -225,13 +225,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: clerk-io-mcp.yml
-  slug: clerk-io-mcpyml
+  name: Clerk.io MCP Server
+  slug: clerkio-mcp-server
 modified: '2026-08-13'
 name: Clerk.io
 nav: Providers
 network: true
-overview: 'Clerk.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Commerce, E-Commerce, Email Marketing, and Personalization.
+overview: 'Clerk.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Commerce, E-Commerce, Email Marketing, and Personalization.
 
 
   The Clerk.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -262,7 +262,7 @@ rules:
 score:
   band: strong
   composite: 60.3
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -272,7 +272,7 @@ score:
     discoverability: 75.9
     governance: 62.1
     operational_transparency: 2.6
-  previous_composite: 61.1
+  previous_composite: 60.3
   provenance:
     conformance: derived
     contracts:
@@ -282,8 +282,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/screenshots/clerk-io-2026-06-20T174507.png
 security:
@@ -301,7 +301,7 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: clerk-io
 tags:
-- AI
+- Artificial Intelligence
 - Commerce
 - E-Commerce
 - Email Marketing

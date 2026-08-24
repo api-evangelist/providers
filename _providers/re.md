@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Health, APY, NAV, and price series
@@ -169,9 +169,9 @@ description: Re (Re Protocol) is an onchain reinsurance platform that channels s
 image: https://re.xyz/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: re-mcp.yml
-  slug: re-mcpyml
+- description: Official hosted Re Protocol MCP server. Exposes all data served by the public Re Protocol API (https://api.re.xyz) as MCP tools. Installable in Claude Code, Gemini CLI, Codex CLI, Cursor, VS Code, and
+  name: Re MCP Server
+  slug: re-mcp-server
 modified: '2026-07-20'
 name: Re
 nav: Providers
@@ -184,7 +184,7 @@ random_paper: 5
 score:
   band: developing
   composite: 40.9
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 40.3
+  previous_composite: 40.9
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +210,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -231,7 +231,7 @@ tags:
 - DeFi
 - Blockchain
 - Real World Assets
-- Stablecoin
+- Stablecoins
 - Yield
 - Onchain
 website: https://re.xyz/

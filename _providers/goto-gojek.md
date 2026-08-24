@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-05-23'
 name: GoTo Group (Gojek + Tokopedia)
 nav: Providers
 network: true
-overview: 'GoTo Group (Gojek + Tokopedia) publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tokenization API and Transactions API. Tagged areas include Superapp, Ride Hailing, Food Delivery, Last-Mile Logistics, and E-commerce.
+overview: 'GoTo Group (Gojek + Tokopedia) publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tokenization API and Transactions API. Tagged areas include Super App, Ride Hailing, Food Delivery, Last-Mile Logistics, and E-Commerce.
 
 
   GoTo Group (Gojek + Tokopedia)''s developer surface includes authentication and 20 more developer resources.'
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.5
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -202,7 +202,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.3
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +216,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/screenshots/goto-gojek-2026-06-20T182257.png
 security:
@@ -231,11 +231,11 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: goto-gojek
 tags:
-- Superapp
+- Super App
 - Ride Hailing
 - Food Delivery
 - Last-Mile Logistics
-- E-commerce
+- E-Commerce
 - Digital Payments
 - Indonesia
 - Southeast Asia

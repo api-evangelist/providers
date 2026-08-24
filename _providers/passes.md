@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-20'
 name: Passes
 nav: Providers
 network: true
-overview: 'Passes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator, Creator Economy, Monetization, and Subscriptions.
+overview: 'Passes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator, Creator Economy, Monetization, and Subscription.
 
 
   Passes'' developer surface includes support, signup flow, and 10 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 11.7
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -106,16 +106,16 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 17.3
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passes/refs/heads/main/screenshots/passes-2026-08-07T191536.png
 security:
 - kind: domain-security
@@ -132,9 +132,9 @@ tags:
 - Creator
 - Creator Economy
 - Monetization
-- Subscriptions
+- Subscription
 - Payments
 - Content
-- Social Media
+- Social-Media
 website: https://passes.com
 ---

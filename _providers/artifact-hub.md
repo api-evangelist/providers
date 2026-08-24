@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -200,7 +200,7 @@ modified: '2026-04-19'
 name: Artifact Hub
 nav: Providers
 network: true
-overview: 'Artifact Hub publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Organizations API, Packages API, Repositories API, and 6 more. Tagged areas include Cloud Native, CNCF, Helm Charts, Package Registry, and Discovery.
+overview: 'Artifact Hub publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Organizations API, Packages API, Repositories API, and 6 more. Tagged areas include Cloud-Native, CNCF, Helm Charts, Package Registry, and Discovery.
 
 
   Artifact Hub''s developer surface includes authentication, documentation, developer portal, release notes, and 11 more developer resources.'
@@ -216,7 +216,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -226,7 +226,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.3
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png
 security:
@@ -249,12 +249,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: artifact-hub
 tags:
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Helm Charts
 - Package Registry
 - Discovery
-- Open Source
+- Open-Source
 use_cases:
 - description: Platform engineers discover and evaluate Helm charts across multiple repositories from a single searchable interface with version history and security report data.
   name: Helm Chart Discovery

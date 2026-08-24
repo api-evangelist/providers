@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -150,13 +150,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: paragon-bank-mcp.yml
-  slug: paragon-bank-mcpyml
+  name: Paragon Bank MCP Server
+  slug: paragon-bank-mcp-server
 modified: '2026-07-23'
 name: Paragon Bank
 nav: Providers
 network: true
-overview: 'Paragon Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API (OBIE standard, unverified), Account and Transaction Information API (OBIE standard, unverified), Payment Initiation API (OBIE standard, unverified), and 1 more. Tagged areas include Financial Services, Banking, Savings, Mortgages, and Specialist Lender.
+overview: 'Paragon Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API (OBIE standard, unverified), Account and Transaction Information API (OBIE standard, unverified), Payment Initiation API (OBIE standard, unverified), and 1 more. Tagged areas include Financial-Services, Banking, Savings, Mortgages, and Specialist Lender.
 
 
   Paragon Bank''s developer surface includes authentication, support, pricing, and 21 more developer resources.'
@@ -169,7 +169,7 @@ scopes:
 score:
   band: thin
   composite: 35.1
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -179,7 +179,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 32.6
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,8 +196,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -210,7 +210,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: paragon-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Savings
 - Mortgages

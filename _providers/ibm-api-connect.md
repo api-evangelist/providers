@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'The IBM API Connect Management API provides programmatic access to manage APIs, products, catalogs, organizations, and other platform resources in the API Connect platform. It is used to automate API '
@@ -43,6 +43,10 @@ apis:
   slug: ibm-api-connect-v1-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: start
   title: ''
   type: Signup
@@ -139,7 +143,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: IBM API Connect
 nav: Providers
 network: true
@@ -149,7 +153,7 @@ overview: 'IBM API Connect publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The IBM API Connect catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  IBM API Connect''s developer surface includes signup flow, documentation, getting-started guide, support, pricing, engineering blog, changelog, and 13 more developer resources.'
+  IBM API Connect''s developer surface includes signup flow, documentation, getting-started guide, support, pricing, engineering blog, changelog, and 14 more developer resources.'
 plans:
 - name: Ibm Api Connect Plans Pricing
   plan_count: 3
@@ -173,7 +177,7 @@ rules:
 score:
   band: developing
   composite: 39.6
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -183,10 +187,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 44.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 39.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-api-connect/refs/heads/main/screenshots/ibm-api-connect-2026-06-20T183145.png
 security:
 - kind: domain-security

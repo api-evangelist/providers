@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -270,13 +270,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: tensorflow-mcp.yml
-  slug: tensorflow-mcpyml
+  name: TensorFlow MCP Server
+  slug: tensorflow-mcp-server
 modified: '2026-06-20'
 name: TensorFlow
 nav: Providers
 network: true
-overview: 'TensorFlow publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inference API and Models API. Tagged areas include AI, Deep Learning, JavaScript, Machine Learning, and Model Serving.
+overview: 'TensorFlow publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inference API and Models API. Tagged areas include Artificial Intelligence, Deep Learning, JavaScript, Machine-Learning, and Model Serving.
 
 
   The TensorFlow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -316,19 +316,19 @@ rules:
     false: 1
   slug: tensorflow-serving-rules
 score:
-  band: thin
-  composite: 38.8
-  delta: -5.2
+  band: developing
+  composite: 39.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 55.6
     developer_ergonomics: 33.3
     discoverability: 72.2
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 26.3
-  previous_composite: 44.0
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,9 +338,9 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/screenshots/tensorflow-2026-06-20T195120.png
 security:
 - kind: authentication
@@ -353,12 +353,12 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: tensorflow
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - JavaScript
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - Neural Networks
-- Open Source
+- Open-Source
 - Python
 ---

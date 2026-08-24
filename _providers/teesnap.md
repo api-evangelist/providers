@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,7 +70,7 @@ modified: '2026-07-25'
 name: Teesnap
 nav: Providers
 network: true
-overview: 'Teesnap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Golf, Point of Sale, POS, Tee Times, and Golf Course Management.
+overview: 'Teesnap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Golf, Point-of-Sale, Tee Times, Golf Course Management, and Booking.
 
 
   Teesnap''s developer surface includes documentation and 6 more developer resources.'
@@ -82,7 +82,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 11.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -92,9 +92,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -104,8 +104,7 @@ security:
 slug: teesnap
 tags:
 - Golf
-- Point of Sale
-- POS
+- Point-of-Sale
 - Tee Times
 - Golf Course Management
 - Booking

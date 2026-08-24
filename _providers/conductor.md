@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -337,7 +337,7 @@ modified: '2026-05-19'
 name: Conductor
 nav: Providers
 network: true
-overview: 'Conductor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Event API, Metadata - Task API, and 3 more. Tagged areas include Automation, Orchestration, State, Tasks, and Workflows.
+overview: 'Conductor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Event API, Metadata - Task API, and 3 more. Tagged areas include Automation, Orchestration, States, Task, and Workflows.
 
 
   The Conductor catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -389,7 +389,7 @@ rules:
 score:
   band: thin
   composite: 38.2
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -399,7 +399,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 43.2
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -407,9 +407,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/screenshots/conductor-2026-06-20T174854.png
 security:
 - kind: domain-security
@@ -420,8 +420,8 @@ slug: conductor
 tags:
 - Automation
 - Orchestration
-- State
-- Tasks
+- States
+- Task
 - Workflows
 use_cases:
 - description: Coordinate complex business processes across distributed microservices without tight coupling.

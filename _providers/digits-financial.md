@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -42,8 +42,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digits-com
 layout: provider
 mcp_servers:
 - description: ''
-  name: server.json
-  slug: serverjson
+  name: Digits MCP Server
+  slug: digits-mcp-server
 modified: '2026-08-04'
 name: Digits
 nav: Providers
@@ -70,8 +70,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digits-financial/refs/heads/main/screenshots/digits-financial-2026-08-07T164347.png
 slug: digits-financial
@@ -81,7 +81,7 @@ tags:
 - Bookkeeping
 - General Ledger
 - Financial Reporting
-- FinTech
+- Fintech
 - Artificial Intelligence
 - Secondary Market
 website: https://digits.com/

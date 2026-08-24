@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -298,7 +298,7 @@ modified: '2026-04-19'
 name: Airwallex
 nav: Providers
 network: true
-overview: 'Airwallex publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balances API, Beneficiaries API, and 5 more. Tagged areas include Cross-Border Payments, FinTech, Foreign Exchange, Payments, and Global.
+overview: 'Airwallex publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balances API, Beneficiaries API, and 5 more. Tagged areas include Cross-Border Payments, Fintech, Foreign Exchange, Payments, and Global.
 
 
   The Airwallex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -338,16 +338,16 @@ rules:
   slug: airwallex-spectral-rules
 score:
   band: strong
-  composite: 55.5
-  delta: -1.6
+  composite: 56.0
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 60.0
     developer_ergonomics: 64.3
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 13.2
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -355,7 +355,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 57.1
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -369,8 +369,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png
 security:
@@ -393,7 +393,7 @@ security:
 slug: airwallex
 tags:
 - Cross-Border Payments
-- FinTech
+- Fintech
 - Foreign Exchange
 - Payments
 - Global

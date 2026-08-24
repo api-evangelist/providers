@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The HTTP server started by `furiosa-llm serve <ARTIFACT_PATH>`. It hosts a single model on RNGD NPUs and exposes an OpenAI-compatible surface - /v1/completions, /v1/chat/completions, /v1/responses (Op
@@ -165,7 +165,7 @@ modified: '2026-08-16'
 name: FuriosaAI
 nav: Providers
 network: true
-overview: 'FuriosaAI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Furiosa Model Server - Predict API (KServe v2) and Furiosa Model Server - Model Repository API. Tagged areas include Artificial Intelligence, Machine Learning, Inference, Semiconductors, and NPU.
+overview: 'FuriosaAI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Furiosa Model Server - Predict API (KServe v2) and Furiosa Model Server - Model Repository API. Tagged areas include Artificial Intelligence, Machine-Learning, Inference, Semiconductors, and NPU.
 
 
   FuriosaAI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 24 more developer resources.'
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.5
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 44.6
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     contracts:
@@ -201,8 +201,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/screenshots/furiosa-2026-08-17T080944.png
 security:
@@ -217,7 +217,7 @@ security:
 slug: furiosa
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - Semiconductors
 - NPU

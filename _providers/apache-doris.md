@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Apache Doris provides a MySQL-compatible protocol for SQL queries, a REST API for cluster management and monitoring, Stream Load HTTP API for real-time bulk data ingestion, Routine Load for continuous
@@ -212,7 +212,7 @@ rules:
 score:
   band: thin
   composite: 28.8
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -222,10 +222,10 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 36.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 28.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-doris/refs/heads/main/screenshots/apache-doris-2026-06-20T172056.png
 security:
 - kind: domain-security
@@ -244,7 +244,7 @@ tags:
 - Lakehouse
 - MPP
 - OLAP
-- Open Source
+- Open-Source
 - Real-Time
 - SQL
 use_cases:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Clockwise AI calendar optimization platform, providing programmatic access to focus time management, meeting preferences, scheduling links, and team calendar coordination features.
@@ -37,6 +37,10 @@ apis:
   slug: clockwise-rest-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -98,17 +102,17 @@ jsonld:
   property_count: 0
   slug: clockwise-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-21'
 name: Clockwise
 nav: Providers
 network: true
-overview: 'Clockwise publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Calendar, AI, Scheduling, Focus Time, and Productivity.
+overview: 'Clockwise publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Calendar, Artificial Intelligence, Scheduling, Focus Time, and Productivity.
 
 
   The Clockwise catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Clockwise''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Clockwise''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
 plans:
 - name: Clockwise Plans Pricing
   plan_count: 4
@@ -121,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.0
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -131,10 +135,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 35.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 30.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/screenshots/clockwise-2026-06-20T174529.png
 security:
 - kind: domain-security
@@ -144,7 +148,7 @@ security:
 slug: clockwise
 tags:
 - Calendar
-- AI
+- Artificial Intelligence
 - Scheduling
 - Focus Time
 - Productivity

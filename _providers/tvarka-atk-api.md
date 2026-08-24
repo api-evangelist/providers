@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -273,8 +273,8 @@ image: https://tvarka.pro/static/img/tvarka-logo-closer.53b2d1b2a9b0.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: tvarka-atk-api-mcp.yml
-  slug: tvarka-atk-api-mcpyml
+  name: Tvarka ATK API MCP Server
+  slug: tvarka-atk-api-mcp-server
 modified: '2026-08-09'
 name: Tvarka ATK API
 nav: Providers
@@ -298,7 +298,7 @@ rate_limits:
 score:
   band: strong
   composite: 66.3
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -308,7 +308,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 64.7
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,8 +319,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvarka-atk-api/refs/heads/main/screenshots/tvarka-atk-api-2026-08-17T082503.png
 security:
@@ -350,7 +350,7 @@ tags:
 - NFC
 - Timestamping
 - LTV
-- Webhooks
+- Webhook
 - Identity
 - Trust Services
 - GDPR

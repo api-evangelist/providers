@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,13 +206,13 @@ image: https://www.connellsgroup.co.uk/Assets/images/favicons/apple-icon-180x180
 layout: provider
 mcp_servers:
 - description: ''
-  name: connells-mcp.yml
-  slug: connells-mcpyml
+  name: Connells Group MCP Server
+  slug: connells-group-mcp-server
 modified: '2026-07-26'
 name: Connells Group
 nav: Providers
 network: true
-overview: 'Connells Group publishes 1 API on the [APIs.io](https://apis.io/) network: Connells Website JSON API (undocumented). Tagged areas include Real Estate, United Kingdom, Property Listings, Brokerage, and Estate Agency.
+overview: 'Connells Group publishes 1 API on the [APIs.io](https://apis.io/) network: Connells Website JSON API (undocumented). Tagged areas include Real-Estate, United Kingdom, Property Listings, Brokerage, and Estate Agency.
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 30 more developer resources.'
@@ -224,7 +224,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.1
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -234,7 +234,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 25.7
+  previous_composite: 24.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,8 +251,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/screenshots/connells-2026-08-07T163756.png
 security:
@@ -266,7 +266,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: connells
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Brokerage

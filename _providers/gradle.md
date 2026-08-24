@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Endpoints related to Develocity authentication and authorization. The permissions required for these endpoints vary. Consult the endpoint descriptions.
@@ -245,9 +245,9 @@ description: Gradle Inc. (Gradle Technologies) is the company behind the open-so
 image: https://assets.gradle.com/logo/develocity-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: gradle-mcp.yml
-  slug: gradle-mcpyml
+- description: Develocity ships official Model Context Protocol servers that give AI agents access to Develocity build data and analytics. Because Develocity is self-hosted, the MCP server is exposed on the customer
+  name: Gradle MCP Server
+  slug: gradle-mcp-server
 modified: '2026-07-19'
 name: Gradle
 nav: Providers
@@ -260,7 +260,7 @@ random_paper: 14
 score:
   band: strong
   composite: 57.9
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -270,7 +270,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 57.8
+  previous_composite: 57.9
   provenance:
     conformance: derived
     contracts:
@@ -280,8 +280,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/screenshots/gradle-2026-07-25T220203.png
 security:

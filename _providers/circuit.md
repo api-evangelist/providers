@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Endpoints to operate on [Depots](/docs/models/depot) resources. This resource is currently read-only on the API.
@@ -234,8 +234,8 @@ image: https://spoke.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: circuit-mcp.yml
-  slug: circuit-mcpyml
+  name: Circuit MCP Server
+  slug: circuit-mcp-server
 modified: '2026-07-18'
 name: Circuit
 nav: Providers
@@ -255,7 +255,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.8
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -265,7 +265,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 78.9
-  previous_composite: 53.5
+  previous_composite: 52.8
   provenance:
     conformance: derived
     contracts:
@@ -275,8 +275,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/screenshots/circuit-2026-07-25T205411.png
 security:
@@ -296,7 +296,7 @@ tags:
 - Last Mile
 - Route Optimization
 - Dispatch
-- Courier
+- Couriers
 - Fleet
 - Proof of Delivery
 - Field Service

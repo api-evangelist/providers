@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-18'
 name: Deeploi
 nav: Providers
 network: true
-overview: 'Deeploi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, IT Management, ITSM, and Device Management.
+overview: 'Deeploi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, IT Management, ITSM, and Device Management.
 
 
   Deeploi''s developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 17.7
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -106,11 +106,11 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 20.9
+  previous_composite: 17.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deeploi/refs/heads/main/screenshots/deeploi-2026-07-25T211554.png
 security:
@@ -125,7 +125,7 @@ security:
 slug: deeploi
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - IT Management
 - ITSM
 - Device Management

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'Public Gateway API for the Agentic Storefront product: conversational discovery and chat, catalog/collection browsing, cart and checkout sessions, virtual try-on, orders and shipments, user profile an'
@@ -182,13 +182,13 @@ image: https://cdn.sanity.io/images/yqjhv3kv/production/8a30678bcf375982957978b1
 layout: provider
 mcp_servers:
 - description: ''
-  name: swap-mcp.yml
-  slug: swap-mcpyml
+  name: Swap MCP Server
+  slug: swap-mcp-server
 modified: '2026-07-21'
 name: Swap
 nav: Providers
 network: true
-overview: 'Swap publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Cross-Border, Customs, and Shipping.
+overview: 'Swap publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Cross-Border, Customs, and Shipping.
 
 
   The Swap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -199,7 +199,7 @@ random_paper: 2
 score:
   band: developing
   composite: 50.4
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 48.5
+  previous_composite: 50.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -220,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/screenshots/swap-2026-08-17T082210.png
 security:
@@ -240,7 +240,7 @@ security:
 slug: swap
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Cross-Border
 - Customs
 - Shipping

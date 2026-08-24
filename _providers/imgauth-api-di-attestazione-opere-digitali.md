@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Attestation/proof-of-existence REST API. Client-side SHA-256 hashing, signed PDF certificates, RFC 3161 timestamps, OpenTimestamps/Bitcoin anchoring, verifiable certificate pages, and status telemetry
@@ -182,16 +182,16 @@ image: https://attestazione.spaziogenesi.org/og.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: imgauth — API di attestazione opere digitali MCP Server
+  slug: imgauth-api-di-attestazione-opere-digitali-mcp-server
 - description: ''
-  name: imgauth-api-di-attestazione-opere-digitali-mcp.yml
-  slug: imgauth-api-di-attestazione-opere-digitali-mcpyml
+  name: imgauth — API di attestazione opere digitali MCP Server
+  slug: imgauth-api-di-attestazione-opere-digitali-mcp-server-2
 modified: '2026-08-11'
 name: imgauth — API di attestazione opere digitali
 nav: Providers
 network: true
-overview: 'imgauth — API di attestazione opere digitali publishes 1 API on the [APIs.io](https://apis.io/) network: imgauth REST API. Tagged areas include digital notarization, timestamping, proof-of-existence, content authenticity, and provenance.
+overview: 'imgauth — API di attestazione opere digitali publishes 1 API on the [APIs.io](https://apis.io/) network: imgauth REST API. Tagged areas include digital notarization, Timestamping, proof-of-existence, content authenticity, and Provenance.
 
 
   imgauth — API di attestazione opere digitali''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 28 more developer resources.'
@@ -207,7 +207,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 66.8
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -217,7 +217,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 65.7
+  previous_composite: 66.8
   provenance:
     conformance: first-party
     contracts:
@@ -227,8 +227,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/screenshots/imgauth-api-di-attestazione-opere-digitali-2026-08-17T080953.png
 security:
@@ -251,18 +251,18 @@ security:
 slug: imgauth-api-di-attestazione-opere-digitali
 tags:
 - digital notarization
-- timestamping
+- Timestamping
 - proof-of-existence
 - content authenticity
-- provenance
-- copyright
+- Provenance
+- Copyright
 - IP protection
-- blockchain
+- Blockchain
 - Bitcoin
 - OpenTimestamps
-- security
-- document
-- e-signature
+- Security
+- Document
+- E-Signature
 - MCP
 website: https://attestazione.spaziogenesi.org/en/developer/
 ---

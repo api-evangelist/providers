@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -491,7 +491,7 @@ modified: '2026-05-19'
 name: Amazon DevOps Guru
 nav: Providers
 network: true
-overview: 'Amazon DevOps Guru publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Anomalies API, Channels API, and 11 more. Tagged areas include Anomaly Detection, DevOps, Machine Learning, and Operational Intelligence.
+overview: 'Amazon DevOps Guru publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Anomalies API, Channels API, and 11 more. Tagged areas include Anomaly Detection, DevOps, Machine-Learning, and Operational Intelligence.
 
 
   The Amazon DevOps Guru catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -531,18 +531,18 @@ rules:
   slug: amazon-devops-guru-spectral-rules
 score:
   band: developing
-  composite: 51.4
-  delta: -6.7
+  composite: 51.9
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.1
     developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 58.1
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -550,9 +550,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/screenshots/amazon-devops-guru-2026-06-20T171630.png
 security:
 - kind: authentication
@@ -575,7 +575,7 @@ slug: amazon-devops-guru
 tags:
 - Anomaly Detection
 - DevOps
-- Machine Learning
+- Machine-Learning
 - Operational Intelligence
 use_cases:
 - description: Detect potential issues in application behavior before they impact end users using ML-powered proactive insights.

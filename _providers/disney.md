@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-05-29'
 name: Disney API
 nav: Providers
 network: true
-overview: 'Disney API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Characters API and Index API. Tagged areas include Entertainment, Characters, Disney, Open Source, and Fan API.
+overview: 'Disney API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Characters API and Index API. Tagged areas include Entertainment, Characters, Disney, Open-Source, and Fan API.
 
 
   The Disney API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -267,18 +267,18 @@ rules:
   slug: disney-rules
 score:
   band: emerging
-  composite: 25.1
-  delta: -7.4
+  composite: 25.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 21.1
     developer_ergonomics: 9.5
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 32.5
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     contracts:
@@ -286,9 +286,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png
 security:
 - kind: domain-security
@@ -300,7 +300,7 @@ tags:
 - Entertainment
 - Characters
 - Disney
-- Open Source
+- Open-Source
 - Fan API
 - REST
 - GraphQL

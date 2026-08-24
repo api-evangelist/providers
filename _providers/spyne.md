@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Spyne Unified API accepts vehicle images and video (by SKU / VIN / stock number) and returns AI-transformed studio images, background replacement, 360-degree spins, and feature videos, plus image '
@@ -151,13 +151,13 @@ image: https://d20uiuzezo3er4.cloudfront.net/AI-tools/ai-tools-landing-360/logo+
 layout: provider
 mcp_servers:
 - description: ''
-  name: spyne-mcp.yml
-  slug: spyne-mcpyml
+  name: Spyne MCP Server
+  slug: spyne-mcp-server
 modified: '2026-07-21'
 name: Spyne
 nav: Providers
 network: true
-overview: 'Spyne publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Automotive, Images, and Video.
+overview: 'Spyne publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Automotive, Image, and Video.
 
 
   The Spyne catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -168,7 +168,7 @@ random_paper: 13
 score:
   band: developing
   composite: 41.1
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -178,13 +178,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 44.9
+  previous_composite: 41.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/screenshots/spyne-2026-08-17T082052.png
 security:
@@ -199,14 +199,14 @@ security:
 slug: spyne
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Automotive
-- Images
+- Image
 - Video
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Dealerships
 - Media Processing
-- Webhooks
+- Webhook
 website: https://www.spyne.ai/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Shopify-hosted Universal Commerce Protocol shopping service exposed over MCP for agent-driven catalog search, cart, and buyer-approved checkout on the Pair Eyewear storefront.
@@ -107,13 +107,13 @@ image: https://paireyewear.com/cdn/shop/files/PAIR_SEO-Image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: pair-eyewear-mcp.yml
-  slug: pair-eyewear-mcpyml
+  name: Pair Eyewear MCP Server
+  slug: pair-eyewear-mcp-server
 modified: '2026-07-20'
 name: Pair Eyewear
 nav: Providers
 network: true
-overview: 'Pair Eyewear publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Eyewear, Ecommerce, and Retail.
+overview: 'Pair Eyewear publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Eyewear, E-Commerce, and Retail.
 
 
   Pair Eyewear''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 11 more developer resources.'
@@ -125,24 +125,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.8
-  delta: -0.4
+  composite: 24.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.2
+  previous_composite: 24.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/screenshots/pair-eyewear-2026-08-07T191314.png
 security:
@@ -159,10 +159,10 @@ tags:
 - Company
 - Consumer
 - Eyewear
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopify
-- Direct-to-Consumer
+- Direct to Consumer
 - Agent Commerce
 - MCP
 - UCP

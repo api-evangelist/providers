@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API to connect any external platform to Melonn's logistics operations — order management, inventory queries, shipment tracking, and returns — with real-time webhooks for order and inventory statu
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Melonn
 nav: Providers
 network: true
-overview: 'Melonn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fulfillment, Logistics, Ecommerce, and Supply Chain.
+overview: 'Melonn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fulfillment, Logistics, E-Commerce, and Supply Chain.
 
 
   Melonn''s developer surface includes documentation, engineering blog, signup flow, and 3 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 12.8
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -86,9 +86,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/melonn/refs/heads/main/screenshots/melonn-2026-08-07T172453.png
 security:
@@ -101,7 +101,7 @@ tags:
 - Company
 - Fulfillment
 - Logistics
-- Ecommerce
+- E-Commerce
 - Supply Chain
 - Shipping
 - Latin America

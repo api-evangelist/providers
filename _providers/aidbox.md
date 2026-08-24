@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Aidbox's HL7 FHIR REST API for creating, reading, updating, deleting, and searching clinical and administrative resources. Supports FHIR R4 (4.0.1), R5, and R6, with standard FHIR interactions, transa
@@ -216,8 +216,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: aidbox-mcp.yml
-  slug: aidbox-mcpyml
+  name: Aidbox MCP Server
+  slug: aidbox-mcp-server
 modified: '2026-08-14'
 name: Aidbox
 nav: Providers
@@ -245,18 +245,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials/implicit/password
 score:
   band: strong
-  composite: 62.6
-  delta: 6.5
+  composite: 63.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 49.4
     developer_ergonomics: 78.6
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 56.1
+  previous_composite: 63.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -267,9 +267,9 @@ score:
     regime: Health
     regime_id: health
     score: 71.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/screenshots/aidbox-2026-07-25T195346.png
 security:
 - kind: authentication

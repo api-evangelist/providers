@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -338,8 +338,8 @@ image: https://shop-ware.com/wp-content/uploads/Motor-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: shop-ware-mcp.yml
-  slug: shop-ware-mcpyml
+  name: Shop-Ware MCP Server
+  slug: shop-ware-mcp-server
 modified: '2026-07-21'
 name: Shop-Ware
 nav: Providers
@@ -355,7 +355,7 @@ random_paper: 15
 score:
   band: developing
   composite: 44.3
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -365,7 +365,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 42.1
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -382,8 +382,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shop-ware/refs/heads/main/screenshots/shop-ware-2026-08-17T081834.png
 security:
@@ -403,8 +403,8 @@ tags:
 - Shop Management
 - Repair Orders
 - Field Service
-- SaaS
-- Webhooks
+- Software-as-a-Service
+- Webhook
 - Payments
 website: https://www.shop-ware.com/
 ---

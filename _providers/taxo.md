@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'White-label REST API for electronic invoicing integrated with Ecuador''s SRI: issue invoices, credit notes and retentions as JSON, with OAuth 2.0 auth, asynchronous webhooks for authorization status, a'
@@ -119,8 +119,8 @@ image: https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-i
 layout: provider
 mcp_servers:
 - description: ''
-  name: taxo-mcp.yml
-  slug: taxo-mcpyml
+  name: TAXO MCP Server
+  slug: taxo-mcp-server
 modified: '2026-07-21'
 name: TAXO
 nav: Providers
@@ -136,7 +136,7 @@ random_paper: 3
 score:
   band: thin
   composite: 34.7
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -146,13 +146,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 40.7
+  previous_composite: 34.7
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Taxo Authentication
@@ -176,6 +176,5 @@ tags:
 - Artificial Intelligence
 - Ecuador
 - Mexico
-- API
 website: https://taxo.co
 ---

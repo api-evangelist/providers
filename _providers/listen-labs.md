@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Public API from Listen Labs — 9 operation(s) for public.
@@ -167,31 +167,31 @@ image: https://framerusercontent.com/images/RGXJ1tjBzZi8qrkze1vrTFOQw.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: listen-labs-mcp.yml
-  slug: listen-labs-mcpyml
+  name: Listen Labs
+  slug: listen-labs
 modified: '2026-07-19'
 name: Listen Labs
 nav: Providers
 network: true
-overview: 'Listen Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Ai, Market Research, Customer Research, and User Interviews.
+overview: 'Listen Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Artificial Intelligence, Market Research, Customer Research, and User Interviews.
 
 
   Listen Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, YouTube channel, and 22 more developer resources.'
 random_paper: 5
 score:
   band: developing
-  composite: 49.2
-  delta: -0.2
+  composite: 50.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 30.3
     contract_quality: 55.1
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 49.4
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     contracts:
@@ -201,8 +201,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/screenshots/listen-labs-2026-07-25T225342.png
 security:
@@ -221,7 +221,7 @@ security:
 slug: listen-labs
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Market Research
 - Customer Research
 - User Interviews

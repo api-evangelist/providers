@@ -27,7 +27,7 @@ slug: oauth
 tags:
 - Access Control
 - Authorization
-- OAuth
+- Authentication
 - Security
 - Tokens
 ---

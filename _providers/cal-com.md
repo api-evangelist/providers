@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 66
@@ -248,7 +248,7 @@ modified: '2026-05-30'
 name: Cal.com
 nav: Providers
 network: true
-overview: 'Cal.com publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Bookings API, Bookings / Attendees API, and 19 more. Tagged areas include Productivity, Scheduling, Calendar, Open Source, and Booking.
+overview: 'Cal.com publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Bookings API, Bookings / Attendees API, and 19 more. Tagged areas include Productivity, Scheduling, Calendar, Open-Source, and Booking.
 
 
   The Cal.com catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -279,7 +279,7 @@ rules:
 score:
   band: thin
   composite: 32.6
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -289,7 +289,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 36.1
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -297,8 +297,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/screenshots/cal-com-2026-06-20T173857.png
 security:
@@ -319,7 +319,7 @@ tags:
 - Productivity
 - Scheduling
 - Calendar
-- Open Source
+- Open-Source
 - Booking
 website: https://cal.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for accepting bKash payments — token-based auth (Grant/Refresh Token), Checkout and Tokenized Checkout (create/execute/query payment, create/execute agreement), Refund, Instant Payout (B2C), '
@@ -138,9 +138,9 @@ description: bKash is Bangladesh's largest mobile financial services (MFS) provi
 image: https://developer.bka.sh/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: bkash-mcp.yml
-  slug: bkash-mcpyml
+- description: Candidate MCP server tool surface derived from bKash Payment Gateway documented operations. bKash publishes no official hosted/remote MCP server; this is a starting point (not authoritative), one tool
+  name: bKash MCP Server
+  slug: bkash-mcp-server
 modified: '2026-07-18'
 name: bKash
 nav: Providers
@@ -156,7 +156,7 @@ random_paper: 17
 score:
   band: thin
   composite: 33.5
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -166,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 39.4
+  previous_composite: 33.5
   provenance:
     conformance: derived
     mcp: derived
@@ -176,9 +176,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/screenshots/bkash-2026-07-25T203226.png
 security:
 - kind: authentication
@@ -199,6 +199,6 @@ tags:
 - Digital Wallet
 - Bangladesh
 - Checkout
-- Webhooks
+- Webhook
 website: https://developer.bka.sh/
 ---

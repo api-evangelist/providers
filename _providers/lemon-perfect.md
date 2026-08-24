@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The Shopify Storefront GraphQL API served on lemonperfect.com. Introspection is open anonymously: 428 types, 35 query fields and 41 mutations covering products, collections, search, carts, customer ac'
@@ -136,13 +136,13 @@ image: https://cdn.shopify.com/s/files/1/0032/0520/2020/files/Product_Lineup_52.
 layout: provider
 mcp_servers:
 - description: ''
-  name: lemon-perfect-mcp.yml
-  slug: lemon-perfect-mcpyml
+  name: Lemon Perfect MCP Server
+  slug: lemon-perfect-mcp-server
 modified: '2026-08-04'
 name: Lemon Perfect
 nav: Providers
 network: true
-overview: 'Lemon Perfect publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Consumer Packaged Goods, Ecommerce, and Retail.
+overview: 'Lemon Perfect publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Consumer Packaged Goods, E-Commerce, and Retail.
 
 
   Lemon Perfect''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
@@ -158,24 +158,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken/jwtBearer
 score:
   band: developing
-  composite: 41.4
-  delta: 0.3
+  composite: 42.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 43.3
     developer_ergonomics: 49.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 41.1
+  previous_composite: 42.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/screenshots/lemon-perfect-2026-08-07T171544.png
 security:
@@ -192,11 +192,11 @@ tags:
 - Company
 - Beverages
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Retail
 - Direct to Consumer
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - GraphQL
 - Universal Commerce Protocol
 - Shopify

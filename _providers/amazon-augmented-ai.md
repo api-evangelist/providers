@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -231,13 +231,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-augmented-ai-mcp.yml
-  slug: amazon-augmented-ai-mcpyml
+  name: Amazon Augmented AI MCP Server
+  slug: amazon-augmented-ai-mcp-server
 modified: '2026-06-20'
 name: Amazon Augmented AI
 nav: Providers
 network: true
-overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/) network: Human Loops API. Tagged areas include Amazon Augmented AI, Human In The Loop, Machine Learning, and AI Review.
+overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/) network: Human Loops API. Tagged areas include Amazon Augmented AI, Human-in-the-Loop, Machine-Learning, and AI Review.
 
 
   The Amazon Augmented AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -269,16 +269,16 @@ rules:
   slug: amazon-augmented-ai-spectral-rules
 score:
   band: thin
-  composite: 30.1
-  delta: -6.0
+  composite: 30.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 71.3
     developer_ergonomics: 11.9
     discoverability: 66.7
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -286,7 +286,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 36.1
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,9 +296,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/screenshots/amazon-augmented-ai-2026-07-25T195931.png
 security:
 - kind: authentication
@@ -316,8 +316,8 @@ security:
 slug: amazon-augmented-ai
 tags:
 - Amazon Augmented AI
-- Human In The Loop
-- Machine Learning
+- Human-in-the-Loop
+- Machine-Learning
 - AI Review
 use_cases:
 - Review low-confidence document text extraction results

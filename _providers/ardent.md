@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 2
@@ -195,8 +195,8 @@ image: https://tryardent.com/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ardent-mcp.yml
-  slug: ardent-mcpyml
+  name: Ardent MCP Server
+  slug: ardent-mcp-server
 modified: '2026-07-18'
 name: Ardent
 nav: Providers
@@ -209,7 +209,7 @@ random_paper: 8
 score:
   band: developing
   composite: 46.3
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -219,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 45.7
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,8 +230,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/screenshots/ardent-2026-07-25T201116.png
 security:

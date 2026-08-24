@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Create, read, update, move, complete, and delete outline nodes.
@@ -167,14 +167,14 @@ description: Workflowy is a minimalist infinite outliner for organizing notes, t
 image: https://workflowy.com/media/webflow/open-graph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: workflowy-mcp.yml
-  slug: workflowy-mcpyml
+- description: Workflowy MCP is a desktop app that lets you connect your Workflowy account to external AI agents over the Model Context Protocol. Documented on Workflowy's official help site; releases are distribute
+  name: Workflowy MCP
+  slug: workflowy-mcp
 modified: '2026-07-21'
 name: Workflowy
 nav: Providers
 network: true
-overview: 'Workflowy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Nodes API and Targets API. Tagged areas include Productivity, Notes, Outliner, Task Management, and Lists.
+overview: 'Workflowy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Nodes API and Targets API. Tagged areas include Productivity, Notes, Outliner, Task Management, and List.
 
 
   Workflowy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -182,7 +182,7 @@ random_paper: 4
 score:
   band: developing
   composite: 47.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -192,7 +192,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 48.1
+  previous_composite: 47.6
   provenance:
     conformance: derived
     contracts:
@@ -202,8 +202,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/screenshots/workflowy-2026-08-17T083141.png
 security:
@@ -221,9 +221,9 @@ tags:
 - Notes
 - Outliner
 - Task Management
-- Lists
+- List
 - Collaboration
-- Knowledge Management
+- Knowledge-Management
 - AI Assistant
 website: https://workflowy.com/
 ---

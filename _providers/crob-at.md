@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public REST API to create and retrieve Pokémon Showdown team links, generate random teams, and access sample teams and authenticated Showdown helpers.
@@ -55,8 +55,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/screenshots/crob-at-2026-07-25T210738.png
 slug: crob-at

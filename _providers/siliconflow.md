@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
@@ -153,7 +153,7 @@ modified: '2026-05-08'
 name: SiliconFlow
 nav: Providers
 network: true
-overview: 'SiliconFlow publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 7 more. Tagged areas include AI, LLM, Inference, Open Source, and OpenAI Compatible.
+overview: 'SiliconFlow publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 7 more. Tagged areas include Artificial Intelligence, LLM, Inference, Open-Source, and OpenAI-Compatible.
 
 
   SiliconFlow''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.2
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -179,15 +179,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.3
+  previous_composite: 28.2
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/screenshots/siliconflow-2026-06-20T193920.png
 security:
@@ -197,13 +197,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: siliconflow
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
-- Open Source
-- OpenAI Compatible
+- Open-Source
+- OpenAI-Compatible
 - Anthropic Compatible
-- Image Generation
+- Image-Generation
 - Audio
 - Video
 website: https://siliconflow.com/

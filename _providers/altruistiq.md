@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 25
@@ -331,18 +331,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.0
-  delta: -10.3
+  composite: 47.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 71.8
     developer_ergonomics: 31.0
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 2.6
-  previous_composite: 57.3
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -356,9 +356,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/screenshots/altruistiq-2026-06-20T171616.png
 security:
 - kind: authentication

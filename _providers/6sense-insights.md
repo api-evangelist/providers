@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 7
 common:
@@ -181,14 +181,14 @@ description: 6Sense Insights, Inc. (6sense) is a San Francisco-based revenue AI 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/6sense-insights.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: '6sense operates an official REMOTE MCP server at https://api.6sense.com/mcp, currently in Beta. It is an RFC 9728 OAuth 2.0 protected resource: an unauthenticated tools/list POST returns 401 and the W'
   name: 6sense MCP Server (Beta)
   slug: 6sense-mcp-server-beta
 modified: '2026-08-13'
 name: 6Sense Insights
 nav: Providers
 network: true
-overview: '6Sense Insights is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ABM, Account-Based Marketing, Intent Data, and B2B.
+overview: '6Sense Insights is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Account Based Marketing, Intent Data, B2B, and Predictive Analytics.
 
 
   6Sense Insights'' developer surface includes authentication, changelog, API reference, documentation, support, engineering blog, pricing, and 29 more developer resources.'
@@ -209,7 +209,7 @@ scopes:
 score:
   band: thin
   composite: 36.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -225,12 +225,12 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 36.4
+  previous_composite: 36.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6sense-insights/refs/heads/main/screenshots/6sense-insights-2026-07-25T181227.png
 security:
@@ -249,15 +249,14 @@ security:
 slug: 6sense-insights
 tags:
 - Company
-- ABM
-- Account-Based Marketing
+- Account Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics
 - Revenue
 - Sales Intelligence
 - Marketing Technology
-- AI
+- Artificial Intelligence
 - Data Enrichment
 website: https://6sense.com
 ---

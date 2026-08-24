@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Publicly reachable GraphQL endpoint served by the Craft CMS instance behind level.co. Introspection is enabled anonymously, but the published public schema scope is deliberately narrow — a `ping` quer
@@ -139,7 +139,7 @@ modified: '2026-08-04'
 name: Level Home
 nav: Providers
 network: true
-overview: 'Level Home publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include smart-lock, smart-home, home-automation, iot, and access-control.
+overview: 'Level Home publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Smart Lock, Smart Home, Home Automation, IoT, and Access Control.
 
 
   Level Home''s developer surface includes documentation, support, engineering blog, pricing, signup flow, legal docs, and 19 more developer resources.'
@@ -147,7 +147,7 @@ random_paper: 19
 score:
   band: thin
   composite: 30.5
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -157,11 +157,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 31.4
+  previous_composite: 30.5
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level-home/refs/heads/main/screenshots/level-home-2026-08-07T171558.png
 security:
@@ -175,18 +175,18 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: level-home
 tags:
-- smart-lock
-- smart-home
-- home-automation
-- iot
-- access-control
-- matter
-- thread
-- bluetooth-le
+- Smart Lock
+- Smart Home
+- Home Automation
+- IoT
+- Access Control
+- Matter
+- Thread
+- Bluetooth LE
 - apple-home-key
-- consumer-hardware
-- multifamily
-- proptech
-- graphql
+- Consumer Hardware
+- Multifamily
+- PropTech
+- GraphQL
 website: https://level.co/
 ---

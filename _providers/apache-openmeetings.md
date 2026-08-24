@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -524,18 +524,18 @@ rules:
   slug: apache-openmeetings-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: -5.9
+  composite: 32.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 54.8
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 37.9
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -543,9 +543,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/screenshots/apache-openmeetings-2026-06-20T172128.png
 security:
 - kind: domain-security
@@ -563,7 +563,7 @@ tags:
 - Web Conferencing
 - Whiteboard
 - Apache
-- Open Source
+- Open-Source
 - Conferencing
 use_cases:
 - description: Integrate OpenMeetings with Moodle, Sakai, and other LMS platforms

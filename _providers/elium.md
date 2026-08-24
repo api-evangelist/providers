@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Elium's single GraphQL endpoint, served per tenant at https://{platform}.elium.com/graphql. 17 queries, 206 mutations and 18 subscriptions over 1128 type definitions, covering stories (content), space
@@ -173,13 +173,13 @@ image: https://elium.com/logos/elium-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: elium-mcp.yml
-  slug: elium-mcpyml
+  name: Elium MCP Server
+  slug: elium-mcp-server
 modified: '2026-08-17'
 name: Elium
 nav: Providers
 network: true
-overview: 'Elium publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Knowledge Management, Knowledge Base, and Enterprise Search.
+overview: 'Elium publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Knowledge-Management, Knowledge Base, and Enterprise Search.
 
 
   The Elium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -203,6 +203,7 @@ scopes:
 score:
   band: developing
   composite: 52.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -212,12 +213,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 42.1
+  previous_composite: 52.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Elium Authentication
@@ -238,8 +241,8 @@ security:
 slug: elium
 tags:
 - Company
-- SaaS
-- Knowledge Management
+- Software-as-a-Service
+- Knowledge-Management
 - Knowledge Base
 - Enterprise Search
 - AI Search

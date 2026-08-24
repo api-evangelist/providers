@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -171,13 +171,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: c-hoare-and-co-mcp.yml
-  slug: c-hoare-and-co-mcpyml
+  name: C. Hoare & Co. MCP Server
+  slug: c-hoare-co-mcp-server
 modified: '2026-07-23'
 name: C. Hoare & Co.
 nav: Providers
 network: true
-overview: 'C. Hoare & Co. publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API, Payment Initiation API, and Dynamic Client Registration API. Tagged areas include Financial Services, Banking, Private Bank, Open Banking, and PSD2.
+overview: 'C. Hoare & Co. publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API, Payment Initiation API, and Dynamic Client Registration API. Tagged areas include Financial-Services, Banking, Private Bank, Open Banking, and PSD2.
 
 
   C. Hoare & Co.''s developer surface includes authentication, documentation, support, legal docs, and 22 more developer resources.'
@@ -190,7 +190,7 @@ scopes:
 score:
   band: developing
   composite: 44.1
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -200,7 +200,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 41.3
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png
 security:
@@ -232,7 +232,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: c-hoare-and-co
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Private Bank
 - Open Banking

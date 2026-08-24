@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-21'
 name: Wonder Brands
 nav: Providers
 network: true
-overview: Wonder Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, E-Commerce, Consumer Goods, and Retail.
+overview: Wonder Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Consumer Goods, Retail, and Brand Aggregator.
 random_paper: 11
 score:
   band: minimal
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -75,12 +75,11 @@ security:
 slug: wonder-brands
 tags:
 - Company
-- Ecommerce
 - E-Commerce
 - Consumer Goods
 - Retail
 - Brand Aggregator
 - Latin America
-- Direct To Consumer
+- Direct to Consumer
 website: https://wonderbrands.co/
 ---

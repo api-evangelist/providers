@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Job board aggregator
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: Adzuna
 nav: Providers
 network: true
-overview: Adzuna publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
+overview: Adzuna publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job and Public APIs.
 random_paper: 13
 score:
   band: minimal
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adzuna/refs/heads/main/screenshots/adzuna-2026-06-20T165421.png
 security:
@@ -83,7 +83,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: adzuna
 tags:
-- Jobs
+- Job
 - Public APIs
 website: https://developer.adzuna.com/overview
 ---

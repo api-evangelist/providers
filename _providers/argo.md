@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 2
@@ -720,7 +720,7 @@ modified: '2026-05-19'
 name: Argo
 nav: Providers
 network: true
-overview: 'Argo publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Events API, Applications API, Clusters API, and 10 more. Tagged areas include CNCF, CI/CD, GitOps, Kubernetes, and Open Source.
+overview: 'Argo publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Events API, Applications API, Clusters API, and 10 more. Tagged areas include CNCF, CI/CD, GitOps, Kubernetes, and Open-Source.
 
 
   The Argo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -771,18 +771,18 @@ rules:
   slug: argo-spectral-rules
 score:
   band: developing
-  composite: 40.8
-  delta: -4.5
+  composite: 41.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 69.9
     developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 45.3
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -790,8 +790,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/screenshots/argo-2026-06-20T172416.png
 security:
@@ -809,7 +809,7 @@ tags:
 - CI/CD
 - GitOps
 - Kubernetes
-- Open Source
+- Open-Source
 - Progressive Delivery
 - Workflow Engine
 use_cases:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-05-19'
 name: The Bureau of Economic Analysis
 nav: Providers
 network: true
-overview: 'The Bureau of Economic Analysis publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Industry API, International API, Metadata API, and 2 more. Tagged areas include Economics, Federal Government, GDP, National Accounts, and Open Data.
+overview: 'The Bureau of Economic Analysis publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Industry API, International API, Metadata API, and 2 more. Tagged areas include Economics, Federal-Government, GDP, National Accounts, and Open Data.
 
 
   The The Bureau of Economic Analysis catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -205,18 +205,18 @@ rules:
   slug: the-bureau-of-economic-analysis-rules
 score:
   band: developing
-  composite: 39.7
-  delta: -3.1
+  composite: 40.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 63.4
     developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 42.8
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +230,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/screenshots/the-bureau-of-economic-analysis-2026-06-20T195214.png
 security:
@@ -246,7 +246,7 @@ security:
 slug: the-bureau-of-economic-analysis
 tags:
 - Economics
-- Federal Government
+- Federal-Government
 - GDP
 - National Accounts
 - Open Data

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -521,7 +521,7 @@ modified: '2026-05-25'
 name: Nanonets
 nav: Providers
 network: true
-overview: 'Nanonets publishes 10 APIs on the [APIs.io](https://apis.io/) network, including External Integrations API, File Assignment API, File Delete API, and 7 more. Tagged areas include AI, Artificial Intelligence, OCR, Document AI, and Intelligent Document Processing.
+overview: 'Nanonets publishes 10 APIs on the [APIs.io](https://apis.io/) network, including External Integrations API, File Assignment API, File Delete API, and 7 more. Tagged areas include Artificial Intelligence, OCR, Document AI, Intelligent Document Processing, and Data Extraction.
 
 
   The Nanonets catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -561,18 +561,18 @@ rules:
   slug: nanonets-rules
 score:
   band: strong
-  composite: 59.6
-  delta: -5.8
+  composite: 60.0
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.2
     developer_ergonomics: 69.0
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 65.4
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     contracts:
@@ -580,9 +580,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/screenshots/nanonets-2026-06-20T185940.png
 security:
 - kind: authentication
@@ -602,14 +602,13 @@ solutions:
 - description: Tailored pricing with SAML SSO, SCIM, RBAC, HIPAA and SOC 2 compliance, private cloud or on-prem deployment, data residency, enterprise connectors (Salesforce, SAP, Oracle), dedicated support and SLAs, audit logs, SIEM integration, and whitelabel UI.
   name: Enterprise
 tags:
-- AI
 - Artificial Intelligence
 - OCR
 - Document AI
 - Intelligent Document Processing
 - Data Extraction
-- Workflow Automation
-- Computer Vision
+- Workflow-Automation
+- Computer-Vision
 - No-Code
 use_cases:
 - description: Multi-format invoice capture, 3-way matching, approval routing, and ERP posting (claimed 80% cost reduction).

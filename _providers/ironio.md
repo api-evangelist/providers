@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: IronMQ is a high-performance hosted message queue that lets you pass messages and events between processes and systems. The v3 REST API supports pull and push queues, subscribers, message reservations
@@ -158,8 +158,8 @@ image: https://www.iron.io/images/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: ironio-mcp.yml
-  slug: ironio-mcpyml
+  name: Iron.io MCP Server
+  slug: ironio-mcp-server
 modified: '2026-07-19'
 name: Iron.io
 nav: Providers
@@ -175,7 +175,7 @@ random_paper: 5
 score:
   band: developing
   composite: 45.7
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -185,12 +185,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.3
+  previous_composite: 45.7
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/screenshots/ironio-2026-07-25T222916.png
 security:

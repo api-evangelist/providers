@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -56,12 +56,12 @@ modified: '2026-05-05'
 name: Trumark Financial
 nav: Providers
 network: true
-overview: Trumark Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Union, Banking, Financial Services, and Philadelphia.
+overview: Trumark Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Union, Banking, Financial-Services, and Philadelphia.
 random_paper: 9
 score:
   band: minimal
   composite: 0.2
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -71,15 +71,15 @@ score:
     discoverability: 25.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 4.5
+  previous_composite: 0.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trumark-financial/refs/heads/main/screenshots/trumark-financial-2026-06-20T195800.png
 security:
@@ -95,7 +95,7 @@ slug: trumark-financial
 tags:
 - Credit Union
 - Banking
-- Financial Services
+- Financial-Services
 - Philadelphia
 website: https://www.trumarkfinancial.org/
 ---

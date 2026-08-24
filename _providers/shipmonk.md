@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -252,14 +252,14 @@ description: ShipMonk is a Florida-headquartered third-party logistics (3PL) and
 image: https://files.readme.io/742121760e9d1bfa2dd7dd9dc8fb20dba2f79207e8c192facb4681cdb2bb5c23-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: shipmonk-mcp.yml
-  slug: shipmonk-mcpyml
+- description: ShipMonk serves a live MCP endpoint from its own developer-docs host. tools/list responds anonymously over streamable HTTP (SSE) with five spec-driven tools. These are ReadMe's documentation-MCP tools
+  name: ShipMonk MCP Server
+  slug: shipmonk-mcp-server
 modified: '2026-08-02'
 name: ShipMonk
 nav: Providers
 network: true
-overview: 'ShipMonk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Orders API, Products API, and 3 more. Tagged areas include Logistics, Fulfillment, 3PL, Ecommerce, and Warehousing.
+overview: 'ShipMonk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Orders API, Products API, and 3 more. Tagged areas include Logistics, Fulfillment, 3PL, E-Commerce, and Warehousing.
 
 
   The ShipMonk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -274,7 +274,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.5
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -284,7 +284,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 56.6
-  previous_composite: 61.5
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,9 +295,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/screenshots/shipmonk-2026-08-17T081833.png
 security:
 - kind: authentication
@@ -321,13 +321,13 @@ tags:
 - Logistics
 - Fulfillment
 - 3PL
-- Ecommerce
+- E-Commerce
 - Warehousing
 - Inventory
 - Shipping
 - Returns
 - Supply Chain
-- Direct-to-Consumer
+- Direct to Consumer
 - Order Management
 website: https://www.shipmonk.com/
 ---

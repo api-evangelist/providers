@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -134,9 +134,9 @@ description: Yunqi (云器科技, English brands ClickZetta and Singdata) is a c
 image: https://www.yunqi.tech/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: yunqi-mcp.yml
-  slug: yunqi-mcpyml
+- description: Model Context Protocol server for ClickZetta Lakehouse. Lets AI assistants (Claude Desktop, Trae) run SQL queries against a ClickZetta Lakehouse and manage a memo of data insights exposed as an MCP re
+  name: Yunqi (ClickZetta / Singdata Lakehouse) MCP Server
+  slug: yunqi-clickzetta-singdata-lakehouse-mcp-server
 modified: '2026-07-21'
 name: Yunqi (ClickZetta / Singdata Lakehouse)
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 20
 score:
   band: thin
   composite: 31.1
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -159,13 +159,13 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 33.0
+  previous_composite: 31.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -185,7 +185,7 @@ tags:
 - SQL
 - Cloud
 - Data Engineering
-- AI
+- Artificial Intelligence
 - Apache Iceberg
 - Database
 website: https://www.yunqi.tech

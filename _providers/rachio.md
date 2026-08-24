@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for Rachio smart irrigation controllers, Smart Hose Timers and lighting controllers: read people, devices and zones; start/stop watering; manage schedules and rain delays; subscribe to webhoo'
@@ -138,9 +138,9 @@ description: Rachio makes smart, WiFi-connected irrigation controllers, Smart Ho
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rachio.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rachio-mcp.yml
-  slug: rachio-mcpyml
+- description: Candidate MCP server tool surface derived from the documented Rachio Public API operations. Rachio does not publish an official hosted/remote MCP server; this is a governance starting point, not a shi
+  name: Rachio MCP Server
+  slug: rachio-mcp-server
 modified: '2026-07-20'
 name: Rachio
 nav: Providers
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.3
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -170,13 +170,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 42.1
+  previous_composite: 41.3
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/screenshots/rachio-2026-08-17T081438.png
 security:
@@ -196,6 +196,6 @@ tags:
 - Irrigation
 - Home Automation
 - Water Management
-- Webhooks
+- Webhook
 website: https://rachio.com
 ---

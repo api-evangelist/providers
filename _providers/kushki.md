@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -360,7 +360,7 @@ modified: '2026-05-24'
 name: Kushki
 nav: Providers
 network: true
-overview: 'Kushki publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Subscriptions API, Payouts API, Branches API, and 8 more. Tagged areas include Payments, LatAm, Andean Region, Card Payments, and Subscriptions.
+overview: 'Kushki publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Subscriptions API, Payouts API, Branches API, and 8 more. Tagged areas include Payments, LatAm, Andean Region, Card Payments, and Subscription.
 
 
   The Kushki catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -400,18 +400,18 @@ rules:
   slug: kushki-rules
 score:
   band: developing
-  composite: 51.1
-  delta: -2.5
+  composite: 51.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.8
     developer_ergonomics: 73.8
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 53.6
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -425,8 +425,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/screenshots/kushki-2026-06-20T184217.png
 security:
@@ -444,14 +444,14 @@ tags:
 - LatAm
 - Andean Region
 - Card Payments
-- Subscriptions
+- Subscription
 - Cash
 - Bank Transfers
 - Payouts
 - PSE
 - Webpay
 - SPEI
-- PIX
+- Pix
 - OXXO
 - PagoEfectivo
 - Fintech

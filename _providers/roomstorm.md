@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Roomstorm's B2B hotel-room marketplace REST API (Django REST framework backend). Documented in API Blueprint, it covers a bootstrap discovery endpoint, JWT username/password authentication, hotel sear
@@ -74,7 +74,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 7.9
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -84,9 +84,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

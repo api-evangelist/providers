@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-19'
 name: GlamSt
 nav: Providers
 network: true
-overview: GlamSt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Augmented Reality, Artificial Intelligence, and Machine Learning.
+overview: GlamSt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Augmented Reality, Artificial Intelligence, and Machine-Learning.
 random_paper: 18
 score:
   band: minimal
@@ -68,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glamst/refs/heads/main/screenshots/glamst-2026-07-25T215851.png
 security:
@@ -83,7 +83,7 @@ tags:
 - Beauty
 - Augmented Reality
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Virtual Try-On
 - Cosmetics
 - Retail

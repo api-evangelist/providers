@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for AI-agent identity and payments. Buyer agents create kya, pay, and kya-pay tokens; seller agents introspect and charge tokens and manage seller services; enterprises manage users. Authenti
@@ -151,8 +151,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skyfire.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: skyfire-mcp.yml
-  slug: skyfire-mcpyml
+  name: Skyfire MCP Server
+  slug: skyfire-mcp-server
 modified: '2026-07-21'
 name: Skyfire
 nav: Providers
@@ -165,7 +165,7 @@ random_paper: 9
 score:
   band: thin
   composite: 27.2
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -175,7 +175,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 33.7
+  previous_composite: 27.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -186,9 +186,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Skyfire Authentication
@@ -206,7 +206,7 @@ tags:
 - Identity
 - Payments
 - Authentication
-- Stablecoin
+- Stablecoins
 - MCP
 - Agentic Commerce
 - Know Your Agent

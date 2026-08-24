@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 239
   human_in_the_loop: 9
@@ -356,7 +356,7 @@ modified: '2026-05-25'
 name: FusionAuth
 nav: Providers
 network: true
-overview: 'FusionAuth publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Api Key API, Application API, Connector API, and 34 more. Tagged areas include Authentication, Authorization, Identity, CIAM, and OAuth.
+overview: 'FusionAuth publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Api Key API, Application API, Connector API, and 34 more. Tagged areas include Authentication, Authorization, Identity, CIAM, and OpenID Connect.
 
 
   FusionAuth''s developer surface includes authentication, getting-started guide, changelog, engineering blog, signup flow, pricing, and 12 more developer resources.'
@@ -372,7 +372,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.5
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -382,7 +382,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 44.8
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -390,8 +390,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/screenshots/fusionauth-2026-06-20T181624.png
 security:
@@ -447,7 +447,6 @@ tags:
 - Authorization
 - Identity
 - CIAM
-- OAuth
 - OpenID Connect
 - Single Sign-On
 - Multi-Factor Authentication

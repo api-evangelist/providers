@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for creating and managing notarization, eSign, Identify, and real-estate transactions, documents, signers, notaries, templates, and Webhooks V2 subscriptions.
@@ -159,13 +159,13 @@ image: https://github.com/notarize.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: notarize-mcp.yml
-  slug: notarize-mcpyml
+  name: Notarize MCP Server
+  slug: notarize-mcp-server
 modified: '2026-07-20'
 name: Notarize
 nav: Providers
 network: true
-overview: 'Notarize publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Notarization, Remote Online Notarization, and Identity Verification.
+overview: 'Notarize publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Notarization, Remote Online Notarization, and Identity Verification.
 
 
   The Notarize catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -181,7 +181,7 @@ scopes:
 score:
   band: developing
   composite: 40.8
-  delta: -8.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -191,14 +191,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 49.4
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/screenshots/notarize-2026-08-07T185539.png
 security:
 - kind: authentication
@@ -216,13 +216,13 @@ security:
 slug: notarize
 tags:
 - Company
-- Proptech
+- PropTech
 - Notarization
 - Remote Online Notarization
 - Identity Verification
-- eSignature
+- E-Signature
 - Digital Credentials
-- Real Estate
+- Real-Estate
 - Mortgage
 - Legal Tech
 website: https://www.proof.com/

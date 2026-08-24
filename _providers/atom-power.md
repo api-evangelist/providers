@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,8 +83,8 @@ image: https://static.wixstatic.com/media/9b626a_6de3d6548956428a831983d5b6c5ef1
 layout: provider
 mcp_servers:
 - description: ''
-  name: atom-power-mcp.yml
-  slug: atom-power-mcpyml
+  name: Atom Power MCP Server
+  slug: atom-power-mcp-server
 modified: '2026-08-06'
 name: Atom Power
 nav: Providers
@@ -97,7 +97,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 11.3
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -107,7 +107,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.9
+  previous_composite: 11.3
   provenance:
     mcp: first-party
   regulatory:
@@ -116,8 +116,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atom-power/refs/heads/main/screenshots/atom-power-2026-08-07T161854.png
 security:

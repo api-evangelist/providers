@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Chat API provides a programmatic chat-style text generation interface. It accepts a sequence of messages and returns model responses. Intended for assistant-like interactions and evaluation. Strea
@@ -234,8 +234,8 @@ image: https://assets.parallel.ai/dark-parallel-avatar-540.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: parallel-web-systems-mcp.yml
-  slug: parallel-web-systems-mcpyml
+  name: Parallel Web Search MCP Server
+  slug: parallel-web-search-mcp-server
 modified: '2026-08-14'
 name: Parallel Web Systems
 nav: Providers
@@ -263,18 +263,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.2
-  delta: -5.2
+  composite: 65.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 16.7
     contract_quality: 68.0
     developer_ergonomics: 69.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 69.4
+  previous_composite: 65.3
   provenance:
     conformance: derived
     contracts:
@@ -284,9 +284,9 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/screenshots/parallel-web-systems-2026-08-07T191528.png
 security:
 - kind: authentication

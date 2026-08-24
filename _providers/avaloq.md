@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -329,7 +329,7 @@ modified: '2026-05-19'
 name: Avaloq
 nav: Providers
 network: true
-overview: 'Avaloq publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Customers API, Payment Status API, and 2 more. Tagged areas include Banking, Digital Banking, Financial Services, Fintech, and Payments.
+overview: 'Avaloq publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Customers API, Payment Status API, and 2 more. Tagged areas include Banking, Digital Banking, Financial-Services, Fintech, and Payments.
 
 
   The Avaloq catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -369,18 +369,18 @@ rules:
   slug: avaloq-spectral-rules
 score:
   band: thin
-  composite: 35.5
-  delta: -5.3
+  composite: 36.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.9
     developer_ergonomics: 32.1
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 40.8
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -394,9 +394,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/screenshots/avaloq-2026-06-20T172720.png
 security:
 - kind: authentication
@@ -411,7 +411,7 @@ slug: avaloq
 tags:
 - Banking
 - Digital Banking
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - Wealth Management

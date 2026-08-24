@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Core API from Neurable — 2 operation(s) for core.
@@ -158,13 +158,13 @@ image: https://cdn.prod.website-files.com/65773cb2354a620eb230d1e4/657b30529e7a3
 layout: provider
 mcp_servers:
 - description: ''
-  name: neurable-mcp.yml
-  slug: neurable-mcpyml
+  name: Neurable MCP Server
+  slug: neurable-mcp-server
 modified: '2026-08-04'
 name: Neurable
 nav: Providers
 network: true
-overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, O Auth API, OIDC API, and 2 more. Tagged areas include neurotechnology, brain-computer-interface, eeg, neuroscience, and wearables.
+overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, O Auth API, OIDC API, and 2 more. Tagged areas include Neurotechnology, Brain-Computer Interface, EEG, Neuroscience, and Wearables.
 
 
   Neurable''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
@@ -177,7 +177,7 @@ scopes:
 score:
   band: thin
   composite: 38.0
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -187,7 +187,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 35.7
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     contracts:
@@ -203,8 +203,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -217,18 +217,18 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: neurable
 tags:
-- neurotechnology
-- brain-computer-interface
-- eeg
-- neuroscience
-- wearables
+- Neurotechnology
+- Brain-Computer Interface
+- EEG
+- Neuroscience
+- Wearables
 - biosignals
-- hardware
-- consumer-electronics
-- research-tools
+- Hardware
+- Consumer Electronics
+- Research Tools
 - cognitive-analytics
-- health-data
-- oauth
-- openid-connect
+- Health Data
+- Authentication
+- OpenID Connect
 website: https://www.neurable.com/
 ---

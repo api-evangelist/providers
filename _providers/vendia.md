@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Every Vendia project (Uni) is provisioned with an auto-generated GraphQL API derived from its JSON Schema data model — get_X / list_XItems / list_XVersions queries and add_X / create_X / put_X / updat
@@ -193,13 +193,13 @@ image: https://www.vendia.com/wp-content/uploads/2025/09/Power_genai_with_enterp
 layout: provider
 mcp_servers:
 - description: ''
-  name: vendia-mcp.yml
-  slug: vendia-mcpyml
+  name: Vendia MCP Gateway
+  slug: vendia-mcp-gateway
 modified: '2026-08-05'
 name: Vendia
 nav: Providers
 network: true
-overview: 'Vendia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Model Context Protocol, Artificial Intelligence, and Data Sharing.
+overview: 'Vendia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Artificial Intelligence, Data Sharing, and Data Platform.
 
 
   The Vendia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -223,7 +223,7 @@ scopes:
 score:
   band: strong
   composite: 64.3
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -233,12 +233,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 67.3
+  previous_composite: 64.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/screenshots/vendia-2026-08-17T080436.png
 security:
@@ -254,7 +254,6 @@ slug: vendia
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - Artificial Intelligence
 - Data Sharing
 - Data Platform

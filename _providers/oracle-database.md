@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 3
@@ -290,6 +290,10 @@ collections:
   name: Oracle Database Oracle SODA (Simple Oracle Document Access) REST API
   slug: open-oracle-database-soda
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -795,7 +799,7 @@ jsonld:
   property_count: 30
   slug: oracle-database-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Oracle Database
 nav: Providers
 network: true
@@ -805,7 +809,7 @@ overview: 'Oracle Database publishes 25 APIs on the [APIs.io](https://apis.io/) 
   The Oracle Database catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Oracle Database''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, developer console, and 15 more developer resources.'
+  Oracle Database''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, developer console, and 16 more developer resources.'
 plans:
 - name: Oracle Database Plans Pricing
   plan_count: 6
@@ -845,7 +849,7 @@ scopes:
 score:
   band: developing
   composite: 48.3
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -855,7 +859,7 @@ score:
     discoverability: 40.7
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 58.8
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -863,9 +867,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/screenshots/oracle-database-2026-06-20T191126.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -303,18 +303,18 @@ rules:
   slug: aviationweather-rules
 score:
   band: thin
-  composite: 36.6
-  delta: -2.9
+  composite: 37.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.8
     developer_ergonomics: 9.5
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 39.5
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -328,8 +328,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/screenshots/aviationweather-2026-06-20T172725.png
 security:

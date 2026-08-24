@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Accounts Payable and Receivable REST API for issuing invoices, accepting crypto and fiat payments, running payroll, and managing organizations and clients. JSON request and response bodies, Bearer
@@ -155,8 +155,8 @@ image: https://www.request.finance/
 layout: provider
 mcp_servers:
 - description: ''
-  name: request-mcp.yml
-  slug: request-mcpyml
+  name: Request Finance MCP Server
+  slug: request-finance-mcp-server
 modified: '2026-07-20'
 name: Request Finance
 nav: Providers
@@ -181,7 +181,7 @@ scopes:
 score:
   band: developing
   composite: 46.2
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -191,7 +191,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 49.7
+  previous_composite: 46.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -202,8 +202,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/screenshots/request-2026-08-17T081526.png
 security:

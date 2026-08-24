@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -261,8 +261,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gospotchec
 layout: provider
 mcp_servers:
 - description: ''
-  name: gospotcheck-mcp.yml
-  slug: gospotcheck-mcpyml
+  name: GoSpotCheck MCP Server
+  slug: gospotcheck-mcp-server
 modified: '2026-07-19'
 name: GoSpotCheck
 nav: Providers
@@ -278,18 +278,18 @@ rate_limits:
   slug: gospotcheck-rate-limits
 score:
   band: developing
-  composite: 49.1
-  delta: -3.1
+  composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 16.7
     contract_quality: 56.5
     developer_ergonomics: 33.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 52.2
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,8 +300,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/screenshots/gospotcheck-2026-07-25T220116.png
 security:

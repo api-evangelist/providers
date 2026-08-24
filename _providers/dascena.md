@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,12 +50,12 @@ modified: '2026-08-11'
 name: Dascena
 nav: Providers
 network: true
-overview: Dascena is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Artificial Intelligence, Machine Learning, and Diagnostics.
+overview: Dascena is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Machine-Learning, and Diagnostics.
 random_paper: 5
 score:
   band: minimal
   composite: 1.8
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -71,22 +71,22 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  previous_composite: 3.9
+  previous_composite: 1.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: dascena
 tags:
 - Company
-- Health Care
+- Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Diagnostics
 - Clinical Decision Support
 - Sepsis

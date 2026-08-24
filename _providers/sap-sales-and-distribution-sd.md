@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -476,6 +476,10 @@ collections:
   name: SAP Sales and Distribution (SD) SAP Sales Scheduling Agreement API
   slug: open-sap-sd-sales-scheduling-agreement
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -965,7 +969,7 @@ jsonld:
   property_count: 65
   slug: sap-sd-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: SAP Sales and Distribution (SD)
 nav: Providers
 network: true
@@ -975,7 +979,7 @@ overview: 'SAP Sales and Distribution (SD) publishes 46 APIs on the [APIs.io](ht
   The SAP Sales and Distribution (SD) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP Sales and Distribution (SD)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 34 more developer resources.'
+  SAP Sales and Distribution (SD)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 35 more developer resources.'
 plans:
 - name: Sap Sales And Distribution Sd Plans Pricing
   plan_count: 1
@@ -1014,18 +1018,18 @@ scopes:
   summary_line: 17 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.6
-  delta: -11.0
+  composite: 44.0
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.9
     developer_ergonomics: 40.5
     discoverability: 50.0
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 54.6
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1033,9 +1037,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/screenshots/sap-sales-and-distribution-sd-2026-06-20T193430.png
 security:
 - kind: authentication

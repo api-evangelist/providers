@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-21'
 name: Science On Call
 nav: Providers
 network: true
-overview: Science On Call is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Technology Support, Point of Sale, and Artificial Intelligence.
+overview: Science On Call is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Technology Support, Point-of-Sale, and Artificial Intelligence.
 random_paper: 4
 score:
   band: minimal
@@ -68,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -79,11 +79,11 @@ security:
 slug: science-on-call
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Technology Support
-- Point of Sale
+- Point-of-Sale
 - Artificial Intelligence
 - Hospitality
-- Managed Services
+- Managed Service
 website: https://scienceoncall.com/
 ---

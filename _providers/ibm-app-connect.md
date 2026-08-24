@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The IBM App Connect API provides programmatic access to manage integration flows, connectors, accounts, and other integration platform resources.
@@ -37,6 +37,10 @@ apis:
   slug: ibm-app-connect-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -73,7 +77,7 @@ finops:
   slug: ibm-app-connect-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibm-app-connect.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-21'
 name: IBM App Connect
 nav: Providers
 network: true
@@ -83,7 +87,7 @@ overview: 'IBM App Connect publishes 1 API on the [APIs.io](https://apis.io/) ne
   The IBM App Connect catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  IBM App Connect''s developer surface includes documentation, support, and 5 more developer resources.'
+  IBM App Connect''s developer surface includes documentation, support, and 6 more developer resources.'
 plans:
 - name: Ibm App Connect Plans Pricing
   plan_count: 3
@@ -107,7 +111,7 @@ rules:
 score:
   band: emerging
   composite: 12.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -117,9 +121,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-app-connect/refs/heads/main/screenshots/ibm-app-connect-2026-06-20T183128.png
 security:

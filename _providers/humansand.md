@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-08-08'
 name: Humansand
 nav: Providers
 network: true
-overview: 'Humansand is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Reinforcement Learning, and Frontier AI.
+overview: 'Humansand is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Reinforcement Learning, and Frontier AI.
 
 
   Humansand''s developer surface includes engineering blog and 5 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 14
 score:
   band: minimal
   composite: 6.2
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -82,9 +82,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humansand/refs/heads/main/screenshots/humansand-2026-07-25T221721.png
 security:
@@ -96,7 +96,7 @@ slug: humansand
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Reinforcement Learning
 - Frontier AI
 - AI Research Lab

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ modified: '2026-07-11'
 name: Gooten
 nav: Providers
 network: true
-overview: 'Gooten publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Print Assets API, Products API, and 1 more. Tagged areas include Print on Demand, Fulfillment, Manufacturing, Ecommerce, and Dropshipping.
+overview: 'Gooten publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Print Assets API, Products API, and 1 more. Tagged areas include Print on Demand, Fulfillment, Manufacturing, E-Commerce, and Dropshipping.
 
 
   Gooten''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -155,7 +155,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.4
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/screenshots/gooten-2026-07-25T220114.png
 security:
@@ -181,7 +181,7 @@ tags:
 - Print on Demand
 - Fulfillment
 - Manufacturing
-- Ecommerce
+- E-Commerce
 - Dropshipping
 - Custom Products
 website: https://www.gooten.com

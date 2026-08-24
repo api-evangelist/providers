@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -248,13 +248,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: hometrack-mcp.yml
-  slug: hometrack-mcpyml
+  name: Hometrack MCP Server
+  slug: hometrack-mcp-server
 modified: '2026-07-26'
 name: Hometrack
 nav: Providers
 network: true
-overview: 'Hometrack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Broker AVM API, Climate GraphQL API, API Public, and 3 more. Tagged areas include Real Estate, United Kingdom, PropTech, Valuation, and AVM.
+overview: 'Hometrack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Broker AVM API, Climate GraphQL API, API Public, and 3 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Valuation, and AVM.
 
 
   Hometrack''s developer surface includes API reference, changelog, developer console, sandbox, authentication, documentation, signup flow, and 33 more developer resources.'
@@ -267,7 +267,7 @@ scopes:
 score:
   band: developing
   composite: 47.1
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -277,7 +277,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 46.3
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,8 +288,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/screenshots/hometrack-2026-08-07T170250.png
 security:
@@ -303,7 +303,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: hometrack
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Valuation

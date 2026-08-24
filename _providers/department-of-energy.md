@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ modified: '2026-05-19'
 name: Department of Energy
 nav: Providers
 network: true
-overview: 'Department of Energy publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Aeo API, Co2 Emissions API, Coal API, and 10 more. Tagged areas include Buildings, Electricity, Energy, Federal Government, and Open Data.
+overview: 'Department of Energy publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Aeo API, Co2 Emissions API, Coal API, and 10 more. Tagged areas include Buildings, Electricity, Energy, Federal-Government, and Open Data.
 
 
   The Department of Energy catalog on APIs.io includes 1 JSON-LD context.
@@ -254,7 +254,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -264,7 +264,7 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 10.5
-  previous_composite: 33.6
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -278,8 +278,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/screenshots/department-of-energy-2026-06-20T175917.png
 security:
@@ -296,7 +296,7 @@ tags:
 - Buildings
 - Electricity
 - Energy
-- Federal Government
+- Federal-Government
 - Open Data
 - Renewables
 - Research

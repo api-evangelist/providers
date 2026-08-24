@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: GraphQL API for managing Git repositories, branches, commits, tags, artifacts, access control lists, and repository webhooks on SourceHut.
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.4
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -143,9 +143,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 37.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 36.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/screenshots/sourcehut-2026-06-20T194223.png
 security:
@@ -162,7 +162,7 @@ tags:
 - Mailing Lists
 - Issue Tracking
 - Developer Tools
-- Open Source
+- Open-Source
 - Privacy
 - GraphQL
 website: https://sourcehut.org

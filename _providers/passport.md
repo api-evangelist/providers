@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Cart API from Passport — 1 operation(s) for cart.
@@ -190,13 +190,13 @@ image: https://passportglobal.com/wp-content/uploads/2024/12/passport-internatio
 layout: provider
 mcp_servers:
 - description: ''
-  name: passport-mcp.yml
-  slug: passport-mcpyml
+  name: Passport MCP Server
+  slug: passport-mcp-server
 modified: '2026-08-04'
 name: Passport
 nav: Providers
 network: true
-overview: 'Passport publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Healthcheck API, Order API, and 5 more. Tagged areas include Company, shipping, logistics, cross-border-ecommerce, and international-shipping.
+overview: 'Passport publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Healthcheck API, Order API, and 5 more. Tagged areas include Company, Shipping, Logistics, Cross-border eCommerce, and International Shipping.
 
 
   Passport''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
@@ -204,7 +204,7 @@ random_paper: 10
 score:
   band: developing
   composite: 46.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 46.4
+  previous_composite: 46.5
   provenance:
     conformance: first-party
     contracts:
@@ -230,8 +230,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/screenshots/passport-2026-08-07T191541.png
 security:
@@ -246,16 +246,16 @@ security:
 slug: passport
 tags:
 - Company
-- shipping
-- logistics
-- cross-border-ecommerce
-- international-shipping
-- customs-compliance
-- landed-cost
+- Shipping
+- Logistics
+- Cross-border eCommerce
+- International Shipping
+- Customs Compliance
+- Landed Cost
 - duties-and-taxes
-- parcel-delivery
-- ecommerce
-- merchant-of-record
-- trade-compliance
+- Parcel Delivery
+- E-Commerce
+- Merchant of Record
+- Trade Compliance
 website: https://passportglobal.com/
 ---

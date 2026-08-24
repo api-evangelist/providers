@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: REST API for Google Flow (Veo 3.1 video, Gemini Omni Flash audio-native video, Imagen 4 and Nano Banana image generation) driven through one or more linked Google accounts, with a captcha-solver pipel
@@ -261,13 +261,13 @@ image: https://useapi.net/assets/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: useapi-mcp.yml
-  slug: useapi-mcpyml
+  name: useapi.net MCP Server
+  slug: useapinet-mcp-server
 modified: '2026-07-27'
 name: useapi.net
 nav: Providers
 network: true
-overview: 'useapi.net publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Google Flow API v1, Flow Music API v1, Dreamina API v1, and 8 more. Tagged areas include Company, AI, Generative AI, Video Generation, and Image Generation.
+overview: 'useapi.net publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Google Flow API v1, Flow Music API v1, Dreamina API v1, and 8 more. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image-Generation.
 
 
   The useapi.net catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -278,7 +278,7 @@ random_paper: 17
 score:
   band: strong
   composite: 55.8
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -288,7 +288,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 56.6
+  previous_composite: 55.8
   provenance:
     conformance: derived
     contracts:
@@ -298,8 +298,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/screenshots/useapi-2026-08-17T082646.png
 security:
@@ -314,16 +314,16 @@ security:
 slug: useapi
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Generative AI
 - Video Generation
-- Image Generation
+- Image-Generation
 - Music Generation
-- Text to Speech
+- Text-to-Speech
 - Face Swap
 - API Aggregator
-- Machine Learning
+- Machine-Learning
 - Media
-- Webhooks
+- Webhook
 website: https://useapi.net/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -243,7 +243,7 @@ modified: '2026-05-19'
 name: Apollo
 nav: Providers
 network: true
-overview: 'Apollo publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Email Accounts API, and 11 more. Tagged areas include AI, B2B Sales, CRM, Data Enrichment, and Lead Generation.
+overview: 'Apollo publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Email Accounts API, and 11 more. Tagged areas include Artificial Intelligence, B2B Sales, CRM, Data Enrichment, and Lead Generation.
 
 
   Apollo''s developer surface includes documentation, getting-started guide, pricing, engineering blog, support, training material, and 8 more developer resources.'
@@ -259,7 +259,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.9
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -269,7 +269,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 40.2
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -277,9 +277,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo/refs/heads/main/screenshots/apollo-2026-06-20T172305.png
 security:
 - kind: domain-security
@@ -292,7 +292,7 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: apollo
 tags:
-- AI
+- Artificial Intelligence
 - B2B Sales
 - CRM
 - Data Enrichment

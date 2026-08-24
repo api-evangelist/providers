@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-05-08'
 name: Lunary
 nav: Providers
 network: true
-overview: 'Lunary publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, AuditLogs API, Checklists API, and 10 more. Tagged areas include AI Evaluation, Observability, Open Source, LLM, and Tracing.
+overview: 'Lunary publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, AuditLogs API, Checklists API, and 10 more. Tagged areas include AI Evaluation, Observability, Open-Source, LLM, and Tracing.
 
 
   Lunary''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
@@ -206,7 +206,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.6
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.1
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -224,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/screenshots/lunary-2026-06-20T184802.png
 security:
@@ -241,7 +241,7 @@ slug: lunary
 tags:
 - AI Evaluation
 - Observability
-- Open Source
+- Open-Source
 - LLM
 - Tracing
 - Prompts

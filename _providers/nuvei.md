@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -315,7 +315,7 @@ rules:
 score:
   band: thin
   composite: 32.0
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -325,7 +325,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 0.0
-  previous_composite: 36.7
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -339,8 +339,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png
 security:
@@ -360,6 +360,6 @@ tags:
 - Risk
 - Currency Conversion
 - iGaming
-- eCommerce
-- FinTech
+- E-Commerce
+- Fintech
 ---

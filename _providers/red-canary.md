@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API over the Red Canary portal. Documented resources include detections, threats, events, endpoints, endpoint_users, identities, investigations and audit_logs. Requests carry a per-
@@ -171,7 +171,7 @@ random_paper: 11
 score:
   band: developing
   composite: 39.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -181,11 +181,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 40.4
+  previous_composite: 39.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

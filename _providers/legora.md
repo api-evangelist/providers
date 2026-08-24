@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Legora aOS is the company''s agentic operating system for legal work, connecting information, communication, and execution across Agent, Monitors, Lists, Legal Research, Tabular Review, Workflows, and '
@@ -92,7 +92,7 @@ modified: '2026-05-24'
 name: Legora
 nav: Providers
 network: true
-overview: 'Legora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LegalTech, Law Firms, Legal Research, and Collaborative AI.
+overview: 'Legora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Legal Tech, Law Firms, Legal Research, and Collaborative AI.
 
 
   Legora''s developer surface includes YouTube channel, engineering blog, and 10 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 7.3
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,9 +110,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legora/refs/heads/main/screenshots/legora-2026-06-20T184410.png
 security:
@@ -123,7 +123,7 @@ security:
 slug: legora
 tags:
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 - Law Firms
 - Legal Research
 - Collaborative AI
@@ -131,7 +131,7 @@ tags:
 - Document Review
 - Drafting
 - Workflows
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 - Litigation
 - Enterprise
 - Stockholm

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ modified: '2026-06-21'
 name: AirDNA
 nav: Providers
 network: true
-overview: 'AirDNA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Market Data API, Rentalizer API, Rentalizer Lead Gen API, and 2 more. Tagged areas include Short-Term Rental, Vacation Rental, Market Data, Real Estate, and Analytics.
+overview: 'AirDNA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Market Data API, Rentalizer API, Rentalizer Lead Gen API, and 2 more. Tagged areas include Short-Term Rental, Vacation Rental, Market Data, Real-Estate, and Analytics.
 
 
   AirDNA''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.0
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -153,7 +153,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.4
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/screenshots/airdna-2026-07-25T195414.png
 security:
@@ -185,7 +185,7 @@ tags:
 - Short-Term Rental
 - Vacation Rental
 - Market Data
-- Real Estate
+- Real-Estate
 - Analytics
 website: https://www.airdna.co
 ---

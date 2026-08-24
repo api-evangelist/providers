@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the ConstructionOnline platform that lets approved Business and Enterprise customers programmatically read and write projects, contacts, schedules, daily logs, change orders, budgets, and
@@ -97,7 +97,7 @@ modified: '2026-04-29'
 name: ConstructionOnline
 nav: Providers
 network: true
-overview: 'ConstructionOnline publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Estimating, Project Management, Projects, and Scheduling.
+overview: 'ConstructionOnline publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Estimating, Project Management, Project, and Scheduling.
 
 
   ConstructionOnline''s developer surface includes FAQ, pricing, support, engineering blog, and 8 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.6
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -123,9 +123,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructiononline/refs/heads/main/screenshots/constructiononline-2026-06-20T174916.png
 security:
@@ -138,7 +138,7 @@ tags:
 - Construction
 - Estimating
 - Project Management
-- Projects
+- Project
 - Scheduling
 - Subcontractors
 - Time Tracking

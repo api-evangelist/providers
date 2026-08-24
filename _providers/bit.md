@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Bit is API-first: every aspect exposes a programmatic API that also composes into a GraphQL API used by the CLI, web UI, and Bit Cloud. The hosted GraphQL endpoint is served from api.v2.bit.cloud/grap'
@@ -142,14 +142,14 @@ description: 'Bit (teambit) is the platform for the modular web — a build syst
 image: https://avatars.githubusercontent.com/u/24789812?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: bit-mcp.yml
-  slug: bit-mcpyml
+- description: Bit ships a built-in Model Context Protocol server as part of the Bit CLI, enabling AI agents (Cursor, GitHub Copilot, Claude Code, Windsurf) to create and reuse components, inspect component/workspac
+  name: Bit MCP Server
+  slug: bit-mcp-server
 modified: '2026-07-18'
 name: Bit
 nav: Providers
 network: true
-overview: 'Bit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, Component Development, Frontend, and Monorepo.
+overview: 'Bit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Component Development, Frontend, and Monorepo.
 
 
   Bit''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, changelog, and 18 more developer resources.'
@@ -157,7 +157,7 @@ random_paper: 4
 score:
   band: thin
   composite: 28.9
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -167,14 +167,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 36.7
+  previous_composite: 28.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bit/refs/heads/main/screenshots/bit-2026-07-25T203125.png
 security:
 - kind: authentication
@@ -188,7 +188,7 @@ security:
 slug: bit
 tags:
 - Company
-- Devops
+- DevOps
 - Component Development
 - Frontend
 - Monorepo

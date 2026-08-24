@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Lalamove Delivery API (v3) is a REST API for on-demand and scheduled courier delivery. Partners request a quotation for a route of stops, place an order against that quotation, retrieve order and '
@@ -154,9 +154,9 @@ description: Lalamove is a Hong Kong-founded on-demand logistics and same-day de
 image: https://avatars.githubusercontent.com/u/20277126?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: lalamove-mcp.yml
-  slug: lalamove-mcpyml
+- description: Candidate MCP tool surface for the Lalamove Delivery API v3, mapped one tool per documented operation. Every tool below corresponds to a real, documented method+path; none are invented. An implementer
+  name: Lalamove MCP Server
+  slug: lalamove-mcp-server
 modified: '2026-07-19'
 name: Lalamove
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 9
 score:
   band: developing
   composite: 44.8
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -182,13 +182,13 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 48.4
+  previous_composite: 44.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/screenshots/lalamove-2026-07-25T224438.png
 security:
@@ -207,9 +207,9 @@ tags:
 - Logistics
 - Delivery
 - Last Mile Delivery
-- Courier
+- Couriers
 - Transportation
-- On Demand
+- On-Demand
 - Fleet
 - Shipping
 website: https://lalamove.com

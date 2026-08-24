@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Core Spark functionality including RDDs, SparkContext, and basic operations.
@@ -109,7 +109,7 @@ modified: '2026-04-28'
 name: Apache PySpark
 nav: Providers
 network: true
-overview: 'Apache PySpark publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Big Data, Data Processing, Distributed Computing, Machine Learning, and Python.
+overview: 'Apache PySpark publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Big Data, Data Processing, Distributed Computing, Machine-Learning, and Python.
 
 
   Apache PySpark''s developer surface includes getting-started guide, release notes, and 10 more developer resources.'
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.8
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -135,9 +135,9 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 16.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pyspark/refs/heads/main/screenshots/pyspark-2026-06-20T192331.png
 security:
@@ -154,7 +154,7 @@ tags:
 - Big Data
 - Data Processing
 - Distributed Computing
-- Machine Learning
+- Machine-Learning
 - Python
 - Streaming
 website: https://spark.apache.org/

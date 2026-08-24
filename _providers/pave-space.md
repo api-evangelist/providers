@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-20'
 name: PAVE Space
 nav: Providers
 network: true
-overview: PAVE Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Other.
+overview: PAVE Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 10
 score:
   band: minimal
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pave-space/refs/heads/main/screenshots/pave-space-2026-08-07T191612.png
 security:
@@ -76,6 +76,5 @@ security:
 slug: pave-space
 tags:
 - Company
-- Other
 website: https://pave.space/
 ---

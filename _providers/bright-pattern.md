@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 2
@@ -265,8 +265,8 @@ image: https://www.brightpattern.com/wp-content/uploads/2025/02/Brightpattern-Ho
 layout: provider
 mcp_servers:
 - description: ''
-  name: bright-pattern-mcp.yml
-  slug: bright-pattern-mcpyml
+  name: Bright Pattern MCP Server
+  slug: bright-pattern-mcp-server
 modified: '2026-08-08'
 name: Bright Pattern
 nav: Providers
@@ -279,7 +279,7 @@ random_paper: 2
 score:
   band: strong
   composite: 56.1
-  delta: 5.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -289,7 +289,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 50.8
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,9 +306,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/screenshots/bright-pattern-2026-08-17T080703.png
 security:
 - kind: authentication

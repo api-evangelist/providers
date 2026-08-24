@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Spellbook is delivered primarily as a Microsoft Word add-in and a multi-document Associate agent rather than a public REST API. This entry documents the Spellbook product surface for discoverability; '
@@ -89,7 +89,7 @@ modified: '2026-05-23'
 name: Spellbook
 nav: Providers
 network: true
-overview: 'Spellbook publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LegalTech, Contracts, Contract Drafting, and Contract Review.
+overview: 'Spellbook publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Legal Tech, Contracts, Contract Drafting, and Contract Review.
 
 
   Spellbook''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -115,9 +115,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 24.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spellbook/refs/heads/main/screenshots/spellbook-2026-06-20T194305.png
 security:
@@ -132,7 +132,7 @@ security:
 slug: spellbook
 tags:
 - Artificial Intelligence
-- LegalTech
+- Legal Tech
 - Contracts
 - Contract Drafting
 - Contract Review

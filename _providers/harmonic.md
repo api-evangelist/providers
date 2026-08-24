@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to Aristotle, Harmonic's formal reasoning agent. Over HTTPS with an API key, submit Lean 4 proofs with `sorry` placeholders, natural-language math problems, or LaTeX papers; Aristo
@@ -114,14 +114,14 @@ description: 'Harmonic is a Palo Alto AI lab building Mathematical Superintellig
 image: https://www.harmonic.fun/images/harmonic-blue.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: harmonic-mcp.yml
-  slug: harmonic-mcpyml
+- description: Harmonic does not (as of this pass) publish an official MCP server for the Aristotle API. A working community MCP server, lean-aristotle-mcp (maintained by GitHub user septract), wraps the Aristotle c
+  name: Harmonic MCP Server
+  slug: harmonic-mcp-server
 modified: '2026-07-19'
 name: Harmonic
 nav: Providers
 network: true
-overview: 'Harmonic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Mathematics, Formal Verification, and Theorem Proving.
+overview: 'Harmonic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Mathematics, Formal Verification, and Theorem Proving.
 
 
   Harmonic''s developer surface includes signup flow, engineering blog, authentication, CLI, changelog, and 13 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 23.1
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -139,11 +139,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 25.9
+  previous_composite: 23.1
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic/refs/heads/main/screenshots/harmonic-2026-07-25T220710.png
 security:
@@ -158,7 +158,7 @@ security:
 slug: harmonic
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Mathematics
 - Formal Verification
 - Theorem Proving

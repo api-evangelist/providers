@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-05-04'
 name: Compass
 nav: Providers
 network: true
-overview: 'Compass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Brokerage, PropTech, and Fortune 500.
+overview: 'Compass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Brokerage, PropTech, and Fortune 500.
 
 
   Compass'' developer surface includes engineering blog and 9 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 5.2
-  delta: -7.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -98,16 +98,16 @@ score:
     discoverability: 35.2
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.5
+  previous_composite: 5.2
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Compass Domain Security
@@ -119,7 +119,7 @@ security:
   summary_line: security.txt · contact published
 slug: compass
 tags:
-- Real Estate
+- Real-Estate
 - Brokerage
 - PropTech
 - Fortune 500

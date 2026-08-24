@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Comprehensive REST API for Unit4 ERPx cloud ERP platform covering time and expenses, personnel, payroll, procurement, project management, customers and sales, inventory management, planning, commitmen
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.9
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -130,15 +130,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 20.1
+  previous_composite: 19.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit4/refs/heads/main/screenshots/unit4-2026-06-20T200042.png
 security:

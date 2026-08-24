@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Hosted Universal Commerce Protocol (UCP) shopping MCP server exposed natively by the Shopify-hosted Vivoo storefront: agent-driven catalog search, cart, and buyer-approved checkout. Checkout requires '
@@ -87,8 +87,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vivoo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: vivoo-mcp.yml
-  slug: vivoo-mcpyml
+  name: Vivoo MCP Server
+  slug: vivoo-mcp-server
 modified: '2026-07-21'
 name: Vivoo
 nav: Providers
@@ -105,18 +105,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.3
-  delta: -1.7
+  composite: 20.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.0
+  previous_composite: 20.4
   provenance:
     mcp: first-party
   regulatory:
@@ -125,8 +125,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

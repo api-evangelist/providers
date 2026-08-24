@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -255,7 +255,7 @@ scopes:
 score:
   band: thin
   composite: 34.9
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -265,7 +265,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.8
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -273,8 +273,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/screenshots/cvent-social-tables-2026-06-20T175404.png
 security:
@@ -293,7 +293,7 @@ tags:
 - Diagramming
 - Event Design
 - Event Management
-- Events
+- Event
 - Floor Plans
 - Hospitality
 - Hotel

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ modified: '2026-05-19'
 name: Apache Jena
 nav: Providers
 network: true
-overview: 'Apache Jena publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Dataset Management API, Graph Store Protocol API, SPARQL Query API, and 1 more. Tagged areas include Java, Linked Data, OWL, Ontology, and Open Source.
+overview: 'Apache Jena publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Dataset Management API, Graph Store Protocol API, SPARQL Query API, and 1 more. Tagged areas include Java, Linked Data, OWL, Ontology, and Open-Source.
 
 
   The Apache Jena catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -272,18 +272,18 @@ rules:
   slug: apache-jena-spectral-rules
 score:
   band: thin
-  composite: 37.8
-  delta: -6.2
+  composite: 38.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 55.9
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 44.0
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -291,9 +291,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/screenshots/apache-jena-2026-06-20T172111.png
 security:
 - kind: domain-security
@@ -310,7 +310,7 @@ tags:
 - Linked Data
 - OWL
 - Ontology
-- Open Source
+- Open-Source
 - RDF
 - Semantic Web
 - SPARQL

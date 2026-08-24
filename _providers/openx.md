@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: JSON REST API (v4) for the OpenX ad server. Sixteen CRUD objects (account, ad, adunit, adunitgroup, comment, creative, deal, floorrule, lineitem, optimization, order, package, paymenthistory, site, si
@@ -303,8 +303,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openx.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: openx-mcp.yml
-  slug: openx-mcpyml
+  name: OpenX MCP Server
+  slug: openx-mcp-server
 modified: '2026-08-13'
 name: OpenX
 nav: Providers
@@ -330,7 +330,7 @@ scopes:
 score:
   band: thin
   composite: 35.9
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -340,12 +340,12 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 31.6
+  previous_composite: 35.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/screenshots/openx-2026-06-20T191054.png
 security:
@@ -364,7 +364,7 @@ tags:
 - Ad Exchange
 - Supply Side Platform
 - SSP
-- Real Time Bidding
+- Real-Time Bidding
 - OpenRTB
 - Header Bidding
 - Prebid

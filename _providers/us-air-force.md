@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Air Force OPEN Data Program provides public access to Department of the Air Force datasets, covering military installations, personnel data, research findings, and operational information. The pro
@@ -77,7 +77,7 @@ modified: '2026-05-03'
 name: US Air Force
 nav: Providers
 network: true
-overview: 'US Air Force publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Air Force, Federal Government, Military, Defense, and Open Data.
+overview: 'US Air Force publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Air Force, Federal-Government, Military, Defense, and Open Data.
 
 
   The US Air Force catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -104,7 +104,7 @@ rules:
 score:
   band: emerging
   composite: 16.0
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -120,16 +120,16 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 22.4
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/screenshots/us-air-force-2026-06-20T200539.png
 security:
 - kind: domain-security
@@ -139,7 +139,7 @@ security:
 slug: us-air-force
 tags:
 - Air Force
-- Federal Government
+- Federal-Government
 - Military
 - Defense
 - Open Data

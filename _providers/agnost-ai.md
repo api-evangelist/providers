@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: Alert configuration and monitoring
@@ -258,9 +258,9 @@ mcp_servers:
 - description: Hosted, OAuth 2.1-protected MCP server (streamable-HTTP) for querying your Agnost dashboard from Claude Desktop, Cursor, and any MCP client.
   name: Agnost MCP Server
   slug: agnost-mcp-server
-- description: ''
-  name: agnost-ai-mcp.yml
-  slug: agnost-ai-mcpyml
+- description: 'Hosted, OAuth-protected MCP server that lets any MCP-aware client (Claude Desktop, Cursor, streamable-HTTP + OAuth 2.1 clients) query an Agnost dashboard in natural language: errors, intents, conversa'
+  name: Agnost AI MCP Server
+  slug: agnost-ai-mcp-server
 modified: '2026-07-18'
 name: Agnost AI
 nav: Providers
@@ -278,7 +278,7 @@ scopes:
 score:
   band: developing
   composite: 52.5
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -288,7 +288,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 52.6
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     contracts:
@@ -298,8 +298,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/screenshots/agnost-ai-2026-07-25T195316.png
 security:
@@ -322,7 +322,7 @@ tags:
 - Agent Analytics
 - Observability
 - OpenTelemetry
-- Model Context Protocol
+- MCP
 - Conversational AI
 - Monitoring
 - Developer Tools

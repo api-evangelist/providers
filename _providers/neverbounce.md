@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -230,8 +230,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neverbounc
 layout: provider
 mcp_servers:
 - description: ''
-  name: neverbounce-mcp.yml
-  slug: neverbounce-mcpyml
+  name: NeverBounce Developer Docs MCP
+  slug: neverbounce-developer-docs-mcp
 modified: '2026-08-13'
 name: NeverBounce
 nav: Providers
@@ -255,7 +255,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.6
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -265,7 +265,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 81.6
-  previous_composite: 69.7
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,9 +276,9 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/screenshots/neverbounce-2026-06-20T190221.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ modified: '2026-05-19'
 name: Consumer Product Safety Commission
 nav: Providers
 network: true
-overview: 'Consumer Product Safety Commission publishes 1 API on the [APIs.io](https://apis.io/) network: Recalls API. Tagged areas include Consumer Protection, Federal Government, Hazards, Open Data, and Product Safety.
+overview: 'Consumer Product Safety Commission publishes 1 API on the [APIs.io](https://apis.io/) network: Recalls API. Tagged areas include Consumer Protection, Federal-Government, Hazards, Open Data, and Product Safety.
 
 
   The Consumer Product Safety Commission catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -167,18 +167,18 @@ rules:
   slug: consumer-product-safety-commission-rules
 score:
   band: emerging
-  composite: 22.5
-  delta: -14.0
+  composite: 22.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 54.5
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 36.5
+  previous_composite: 22.9
   provenance:
     agentic_access: derived
     contracts:
@@ -192,9 +192,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/screenshots/consumer-product-safety-commission-2026-06-20T174919.png
 security:
 - kind: domain-security
@@ -204,7 +204,7 @@ security:
 slug: consumer-product-safety-commission
 tags:
 - Consumer Protection
-- Federal Government
+- Federal-Government
 - Hazards
 - Open Data
 - Product Safety

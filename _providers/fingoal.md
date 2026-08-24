@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Insights API's transaction enrichment endpoints enable developers to clean and enhance their transaction data. This process includes standardizing merchant names, categorizing transactions, and ad
@@ -192,13 +192,13 @@ image: https://cdn.prod.website-files.com/61d89a2cbc85dcbc83bb0f7c/637402586ca49
 layout: provider
 mcp_servers:
 - description: ''
-  name: fingoal-mcp.yml
-  slug: fingoal-mcpyml
+  name: FinGoal MCP Server
+  slug: fingoal-mcp-server
 modified: '2026-08-14'
 name: FinGoal
 nav: Providers
 network: true
-overview: 'FinGoal publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrichment API, User Tagging API, Webhook Configurations API, and 1 more. Tagged areas include Financial Services, Fintech, Transaction Enrichment, Data Enrichment, and Personal Financial Management.
+overview: 'FinGoal publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrichment API, User Tagging API, Webhook Configurations API, and 1 more. Tagged areas include Financial-Services, Fintech, Transaction Enrichment, Data Enrichment, and Personal Financial Management.
 
 
   The FinGoal catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -222,7 +222,7 @@ scopes:
 score:
   band: strong
   composite: 58.2
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 57.7
+  previous_composite: 58.2
   provenance:
     conformance: first-party
     contracts:
@@ -248,8 +248,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 69.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/screenshots/fingoal-2026-07-25T214520.png
 security:
@@ -267,13 +267,13 @@ security:
   summary_line: SOC 2 Type II, GDPR
 slug: fingoal
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Transaction Enrichment
 - Data Enrichment
 - Personal Financial Management
 - Banking
 - Categorization
-- Webhooks
+- Webhook
 website: https://fingoal.com/
 ---

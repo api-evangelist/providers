@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Sugar REST API is hosted on each Sugar deployment at https://<site_url>/rest/v{version}/ (v10 through v11.27). SugarCloud instances are hosted on Sugar's own sugarondemand.com domain, so a cloud t
@@ -191,7 +191,7 @@ modified: '2026-08-13'
 name: SugarCRM
 nav: Providers
 network: true
-overview: 'SugarCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, CRM, Sales, and Marketing.
+overview: 'SugarCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, CRM, Sales, and Marketing.
 
 
   The SugarCRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -210,7 +210,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.9
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -220,12 +220,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 66.8
+  previous_composite: 63.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/screenshots/sugarcrm-2026-08-17T080426.png
 security:
@@ -248,14 +248,14 @@ security:
 slug: sugarcrm
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - CRM
 - Sales
 - Marketing
 - Customer Service
 - Sales Automation
 - REST API
-- Webhooks
+- Webhook
 - Sales Intelligence
 website: https://www.sugarai.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: 'tekton.dev/v1 kind=Task — defines a series of steps that launch specific build or delivery tools, ingest specific inputs (params, workspaces, resources), and produce specific outputs (results). Tasks '
@@ -232,7 +232,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.6
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -242,9 +242,9 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 26.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/screenshots/tekton-2026-06-20T195017.png
 security:
@@ -259,7 +259,7 @@ tags:
 - Kubernetes
 - CNCF
 - Pipelines
-- Open Source
+- Open-Source
 - CRD
 - Operator
 website: https://tekton.dev/

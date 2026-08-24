@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 0
@@ -536,18 +536,18 @@ rules:
   slug: iit-kanpur-rules
 score:
   band: thin
-  composite: 28.2
-  delta: -6.8
+  composite: 30.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 58.2
     developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 9.8
+    discoverability: 68.5
+    governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 35.0
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -561,9 +561,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png
 security:
 - kind: domain-security

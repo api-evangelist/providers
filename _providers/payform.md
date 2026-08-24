@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 17.5
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -106,15 +106,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 19.2
+  previous_composite: 17.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payform/refs/heads/main/screenshots/payform-2026-08-07T191633.png
 security:
@@ -129,9 +129,9 @@ tags:
 - Payment Forms
 - No-Code
 - Recurring Billing
-- Subscriptions
+- Subscription
 - Checkout
 - Digital Content
-- SaaS
+- Software-as-a-Service
 website: https://payform.me
 ---

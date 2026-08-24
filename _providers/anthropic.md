@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -835,13 +835,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: anthropic-mcp.yml
-  slug: anthropic-mcpyml
+  name: Anthropic MCP Server
+  slug: anthropic-mcp-server
 modified: '2026-06-20'
 name: Anthropic
 nav: Providers
 network: true
-overview: 'Anthropic publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Models API, Message Batches API, and 21 more. Tagged areas include AI, Artificial Intelligence, Claude, Foundation Models, and Large Language Models.
+overview: 'Anthropic publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Models API, Message Batches API, and 21 more. Tagged areas include Artificial Intelligence, Claude, Foundation Models, Large Language Models, and Machine-Learning.
 
 
   The Anthropic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -881,18 +881,18 @@ rules:
   slug: anthropic-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 66.5
-  delta: -2.6
+  composite: 69.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 28.0
-    contract_quality: 78.5
+    contract_governance: 30.3
+    contract_quality: 84.7
     developer_ergonomics: 85.7
-    discoverability: 68.5
-    governance: 28.0
+    discoverability: 77.8
+    governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 69.1
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -902,8 +902,8 @@ score:
       marker_coverage: 0.0
       total: 24
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:
@@ -925,12 +925,11 @@ security:
   summary_line: SOC 2 Type I, SOC 2 Type II, ISO 27001:2022, ISO/IEC 42001:2023, HIPAA
 slug: anthropic
 tags:
-- AI
 - Artificial Intelligence
 - Claude
 - Foundation Models
 - Large Language Models
-- Machine Learning
+- Machine-Learning
 - MCP
 - Agents
 website: https://platform.claude.com/docs/en/home

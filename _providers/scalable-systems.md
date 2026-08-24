@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -165,7 +165,7 @@ modified: '2026-05-02'
 name: Scalable Systems
 nav: Providers
 network: true
-overview: 'Scalable Systems publishes 1 API on the [APIs.io](https://apis.io/) network: ApplicationAutoScaling API. Tagged areas include Auto Scaling, Caching, Cloud Infrastructure, Distributed Systems, and High Availability.
+overview: 'Scalable Systems publishes 1 API on the [APIs.io](https://apis.io/) network: ApplicationAutoScaling API. Tagged areas include Auto-Scaling, Caching, Cloud Infrastructure, Distributed Systems, and High Availability.
 
 
   The Scalable Systems catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -195,7 +195,7 @@ rules:
 score:
   band: thin
   composite: 32.3
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -205,7 +205,7 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 38.3
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -213,9 +213,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-systems/refs/heads/main/screenshots/scalable-systems-2026-06-20T193500.png
 security:
 - kind: authentication
@@ -232,7 +232,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: scalable-systems
 tags:
-- Auto Scaling
+- Auto-Scaling
 - Caching
 - Cloud Infrastructure
 - Distributed Systems

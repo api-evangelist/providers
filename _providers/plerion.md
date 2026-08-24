@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: The Plerion Risk Score (PRS) Engine has calculated Alerts that are the highest priority items based on the available information across Identity, Configuration, and Vulnerability Management. Alerts of
@@ -242,8 +242,8 @@ image: https://www.plerion.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: plerion-mcp.yml
-  slug: plerion-mcpyml
+  name: Plerion MCP Server
+  slug: plerion-mcp-server
 modified: '2026-07-20'
 name: Plerion
 nav: Providers
@@ -256,7 +256,7 @@ random_paper: 5
 score:
   band: developing
   composite: 49.5
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -266,7 +266,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 52.9
+  previous_composite: 49.5
   provenance:
     conformance: derived
     contracts:
@@ -276,8 +276,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/screenshots/plerion-2026-08-17T081306.png
 security:
@@ -308,6 +308,5 @@ tags:
 - Compliance
 - AI Security
 - DevSecOps
-- API
 website: https://plerion.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 19
 apis:
 - description: Authentication operations for user authentication, authorization, and session management. Authentication endpoints handle user identity verification, token generation, and access control throughout th
@@ -283,8 +283,8 @@ image: https://super.ai/superai-logo.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: superai-mcp.yml
-  slug: superai-mcpyml
+  name: Super.ai MCP Server
+  slug: superai-mcp-server
 modified: '2026-07-21'
 name: Super.ai
 nav: Providers
@@ -300,7 +300,7 @@ random_paper: 5
 score:
   band: developing
   composite: 51.6
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -310,7 +310,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 54.8
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -320,8 +320,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/screenshots/superai-2026-08-17T082158.png
 security:
@@ -349,7 +349,7 @@ tags:
 - Document Processing
 - Workflow Orchestration
 - Automation
-- Human In The Loop
+- Human-in-the-Loop
 - Artificial Intelligence
 - REST API
 website: https://docs.flows.super.ai

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -170,13 +170,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: allica-bank-mcp.yml
-  slug: allica-bank-mcpyml
+  name: Allica Bank MCP Server
+  slug: allica-bank-mcp-server
 modified: '2026-07-24'
 name: Allica Bank
 nav: Providers
 network: true
-overview: 'Allica Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API and Payment Initiation API. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Allica Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API and Payment Initiation API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Allica Bank''s developer surface includes authentication, sandbox, getting-started guide, documentation, engineering blog, support, and 24 more developer resources.'
@@ -189,7 +189,7 @@ scopes:
 score:
   band: developing
   composite: 49.0
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -199,7 +199,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 44.2
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +216,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png
 security:
@@ -235,7 +235,7 @@ security:
   summary_line: security.txt · contact published
 slug: allica-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

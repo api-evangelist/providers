@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -201,8 +201,8 @@ image: https://content.pstmn.io/b2851088-5dea-4fb1-9fc8-ba83d3c33bc2/RUFSTFktV09
 layout: provider
 mcp_servers:
 - description: ''
-  name: timeular-mcp.yml
-  slug: timeular-mcpyml
+  name: Timeular MCP Server
+  slug: timeular-mcp-server
 modified: '2026-07-21'
 name: Timeular
 nav: Providers
@@ -218,7 +218,7 @@ random_paper: 6
 score:
   band: developing
   composite: 43.6
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -228,7 +228,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 44.7
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +239,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/screenshots/timeular-2026-08-17T082357.png
 security:
@@ -260,7 +260,7 @@ tags:
 - Time Management
 - Reporting
 - Team Management
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://early.app/
 ---

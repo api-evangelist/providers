@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 31
 apis:
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
@@ -382,13 +382,13 @@ image: https://cdn.prod.website-files.com/68c59605946d2fed8ac8bcbd/6a0c76136695e
 layout: provider
 mcp_servers:
 - description: ''
-  name: zero-hash-mcp.yml
-  slug: zero-hash-mcpyml
+  name: Zero Hash MCP Server
+  slug: zero-hash-mcp-server
 modified: '2026-08-05'
 name: Zero Hash
 nav: Providers
 network: true
-overview: 'Zero Hash publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Awards API, and 27 more. Tagged areas include Company, crypto-infrastructure, digital-assets, stablecoins, and payments.
+overview: 'Zero Hash publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Awards API, and 27 more. Tagged areas include Company, Crypto Infrastructure, Digital Assets, Stablecoins, and Payments.
 
 
   The Zero Hash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -403,18 +403,18 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 59.7
-  delta: -1.7
+  composite: 61.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 30.3
     contract_quality: 66.1
     developer_ergonomics: 54.2
-    discoverability: 68.5
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 61.4
+  previous_composite: 61.5
   provenance:
     conformance: first-party
     contracts:
@@ -430,8 +430,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/screenshots/zero-hash-2026-08-17T083054.png
 security:
@@ -454,24 +454,24 @@ security:
 slug: zero-hash
 tags:
 - Company
-- crypto-infrastructure
-- digital-assets
-- stablecoins
-- payments
-- payouts
-- tokenization
-- custody
-- staking
-- settlement
-- embedded-finance
-- on-off-ramp
-- liquidity
-- fix-protocol
-- webhooks
-- websockets
-- kyc
-- compliance
-- remittances
-- agentic-finance
+- Crypto Infrastructure
+- Digital Assets
+- Stablecoins
+- Payments
+- Payouts
+- Tokenization
+- Custody
+- Staking
+- Settlement
+- Embedded Finance
+- On-Off Ramp
+- Liquidity
+- FIX Protocol
+- Webhook
+- WebSockets
+- KYC
+- Compliance
+- Remittances
+- Agentic Finance
 website: https://zerohash.com/
 ---

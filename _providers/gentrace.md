@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -147,13 +147,13 @@ image: https://mintcdn.com/gentrace/9dIPysEl4JbHm2X9/logo/dark.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: gentrace-mcp.yml
-  slug: gentrace-mcpyml
+  name: Gentrace MCP Server
+  slug: gentrace-mcp-server
 modified: '2026-07-19'
 name: Gentrace
 nav: Providers
 network: true
-overview: 'Gentrace publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Experiments API, Pipelines API, and 1 more. Tagged areas include Company, Ai, LLM, Evaluation, and Testing.
+overview: 'Gentrace publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Experiments API, Pipelines API, and 1 more. Tagged areas include Company, Artificial Intelligence, LLM, Evaluation, and Testing.
 
 
   Gentrace''s developer surface includes authentication, documentation, API reference, and 15 more developer resources.'
@@ -161,7 +161,7 @@ random_paper: 1
 score:
   band: thin
   composite: 29.2
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -171,7 +171,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 32.4
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -182,8 +182,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/screenshots/gentrace-2026-07-25T215644.png
 security:
@@ -198,12 +198,12 @@ security:
 slug: gentrace
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - LLM
 - Evaluation
 - Testing
 - Observability
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 website: https://gentrace.ai
 ---

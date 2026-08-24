@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Tulip REST API gives programmatic access to the Tulip manufacturing operations platform, organized into namespaces covering apps, tables, table records, connectors, stations, and automations. Each
@@ -104,7 +104,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 16.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -114,9 +114,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tulip-interfaces/refs/heads/main/screenshots/tulip-interfaces-2026-06-20T195824.png
 security:

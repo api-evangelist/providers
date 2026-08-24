@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ modified: '2026-05-23'
 name: Children's Hospital of Philadelphia
 nav: Providers
 network: true
-overview: 'Children''s Hospital of Philadelphia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Pediatrics, FHIR, SMART On FHIR, and Patient Access.
+overview: 'Children''s Hospital of Philadelphia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Pediatrics, FHIR, SMART on FHIR, and Patient Access.
 
 
   The Children''s Hospital of Philadelphia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -256,18 +256,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 37.6
-  delta: -8.7
+  composite: 38.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.4
     developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 46.3
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -281,9 +281,9 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/screenshots/childrens-hospital-of-philadelphia-2026-06-20T174310.png
 security:
 - kind: authentication
@@ -308,7 +308,7 @@ tags:
 - Healthcare
 - Pediatrics
 - FHIR
-- SMART On FHIR
+- SMART on FHIR
 - Patient Access
 - Provider Directory
 - CMS Interoperability

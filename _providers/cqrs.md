@@ -29,8 +29,8 @@ tags:
 - CQRS
 - Domain-Driven Design
 - Event Sourcing
-- Events
+- Event
 - Patterns
-- Queries
+- Query
 - Read Models
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ rules:
 score:
   band: thin
   composite: 35.8
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -306,7 +306,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 41.6
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -314,9 +314,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/screenshots/jaeger-io-2026-06-20T183651.png
 security:
 - kind: domain-security
@@ -330,8 +330,8 @@ tags:
 - APM
 - OpenTelemetry
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Microservices
-- Open Source
+- Open-Source
 website: https://www.jaegertracing.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agentic-commerce API for the Winc storefront, implemented via the Shopify-native Universal Commerce Protocol (UCP). Agents discover capabilities at /.well-known/ucp and call commerce tools over the MC
@@ -86,14 +86,14 @@ description: 'Winc is a direct-to-consumer online wine club and retailer (winc.c
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/winc.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: winc-mcp.yml
-  slug: winc-mcpyml
+- description: Winc (winc.com) exposes a hosted, remote Model Context Protocol (MCP) server for agent-driven commerce, implemented via the Shopify-native Universal Commerce Protocol (UCP). Agents discover capabiliti
+  name: Winc UCP Commerce MCP Server
+  slug: winc-ucp-commerce-mcp-server
 modified: '2026-07-21'
 name: Winc
 nav: Providers
 network: true
-overview: 'Winc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wine, Ecommerce, Retail, and Subscription.
+overview: 'Winc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wine, E-Commerce, Retail, and Subscription.
 
 
   Winc''s developer surface includes authentication and 10 more developer resources.'
@@ -105,24 +105,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 16.7
-  delta: -0.9
+  composite: 17.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 13.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 17.6
+  previous_composite: 17.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -133,7 +133,7 @@ slug: winc
 tags:
 - Company
 - Wine
-- Ecommerce
+- E-Commerce
 - Retail
 - Subscription
 - Agentic Commerce

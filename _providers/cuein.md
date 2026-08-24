@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -175,13 +175,13 @@ image: https://files.readme.io/083b62d-Logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: cuein-mcp.yml
-  slug: cuein-mcpyml
+  name: Cuein MCP Server
+  slug: cuein-mcp-server
 modified: '2026-08-14'
 name: Cuein
 nav: Providers
 network: true
-overview: 'Cuein publishes 2 APIs on the [APIs.io](https://apis.io/) network: answers API and conversations API. Tagged areas include Company, Customer Experience, Customer Support, Conversation Intelligence, and Generative AI.
+overview: 'Cuein publishes 2 APIs on the [APIs.io](https://apis.io/) network: answers API and conversations API. Tagged areas include Company, Customer Experience, Customer-Support, Conversation Intelligence, and Generative AI.
 
 
   Cuein''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 23 more developer resources.'
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.5
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -207,7 +207,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 39.0
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,8 +218,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/screenshots/cuein-2026-07-25T210908.png
 security:
@@ -239,7 +239,7 @@ slug: cuein
 tags:
 - Company
 - Customer Experience
-- Customer Support
+- Customer-Support
 - Conversation Intelligence
 - Generative AI
 - Insights

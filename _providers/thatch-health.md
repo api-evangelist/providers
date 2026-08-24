@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Payroll deductions track the costs of plan premiums to employees.
@@ -206,8 +206,8 @@ image: https://docs.thatch.com/img/thatch.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: thatch-health-mcp.yml
-  slug: thatch-health-mcpyml
+  name: Thatch Health MCP Server
+  slug: thatch-health-mcp-server
 modified: '2026-07-21'
 name: Thatch Health
 nav: Providers
@@ -220,7 +220,7 @@ random_paper: 9
 score:
   band: strong
   composite: 55.2
-  delta: 5.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -230,7 +230,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 49.8
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -246,9 +246,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/screenshots/thatch-health-2026-08-17T082333.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server that pipes a Jam's recording, console logs, network requests, user events, transcript, and metadata into AI coding tools (Claude, Cursor, VS Code). OAuth2 (PKCE) o
@@ -175,8 +175,8 @@ image: https://storage.googleapis.com/jam-assets/jam-og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: jam-mcp.yml
-  slug: jam-mcpyml
+  name: Jam
+  slug: jam
 modified: '2026-07-19'
 name: Jam
 nav: Providers
@@ -197,7 +197,7 @@ scopes:
 score:
   band: developing
   composite: 50.3
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -207,14 +207,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 55.4
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/screenshots/jam-2026-07-25T223045.png
 security:
 - kind: authentication
@@ -242,6 +242,6 @@ tags:
 - Quality Assurance
 - Observability
 - Screen Recording
-- Model Context Protocol
+- MCP
 website: https://jam.dev/
 ---

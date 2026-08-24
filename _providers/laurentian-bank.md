@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-23'
 name: Laurentian Bank of Canada
 nav: Providers
 network: true
-overview: 'Laurentian Bank of Canada is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Schedule I Bank, and Retail Banking.
+overview: 'Laurentian Bank of Canada is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Schedule I Bank, and Retail Banking.
 
 
   Laurentian Bank of Canada''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 2.0
-  delta: -10.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -86,16 +86,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.8
+  previous_composite: 2.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurentian-bank/refs/heads/main/screenshots/laurentian-bank-2026-07-25T224628.png
 security:
 - kind: domain-security
@@ -104,7 +104,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: laurentian-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Schedule I Bank

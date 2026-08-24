@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -136,7 +136,7 @@ modified: '2026-07-21'
 name: Stonly
 nav: Providers
 network: true
-overview: 'Stonly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Knowledge Base, Knowledge Management, and Customer Service.
+overview: 'Stonly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Knowledge Base, Knowledge-Management, and Customer Service.
 
 
   Stonly''s developer surface includes documentation, support, engineering blog, pricing, signup flow, CLI, changelog, and 17 more developer resources.'
@@ -144,7 +144,7 @@ random_paper: 9
 score:
   band: thin
   composite: 30.3
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -154,11 +154,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 31.5
+  previous_composite: 30.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -174,9 +174,9 @@ tags:
 - Company
 - Cloud Saas
 - Knowledge Base
-- Knowledge Management
+- Knowledge-Management
 - Customer Service
-- Customer Support
+- Customer-Support
 - Self-Service
 - Help Center
 - AI Chatbot

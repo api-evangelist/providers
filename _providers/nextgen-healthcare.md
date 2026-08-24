@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -282,9 +282,9 @@ jsonld:
   slug: nextgen-healthcare-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: nextgen-healthcare-mcp.yml
-  slug: nextgen-healthcare-mcpyml
+- description: Candidate MCP tool surface DERIVED from the NextGen Office FHIR OpenAPI/Swagger. NextGen publishes no official hosted/remote MCP server. Tools map one-to-one onto real Bulk FHIR operationIds and the r
+  name: NextGen Healthcare MCP Server
+  slug: nextgen-healthcare-mcp-server
 modified: '2026-08-14'
 name: NextGen Healthcare
 nav: Providers
@@ -313,7 +313,7 @@ scopes:
 score:
   band: exemplar
   composite: 76.1
-  delta: 9.0
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -323,7 +323,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 67.1
+  previous_composite: 76.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,9 +340,9 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/screenshots/nextgen-healthcare-2026-08-07T185204.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -647,7 +647,7 @@ modified: '2026-05-24'
 name: Efí Pay (Gerencianet)
 nav: Providers
 network: true
-overview: 'Efí Pay (Gerencianet) publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Authorization API, and 33 more. Tagged areas include Payments, Pix, Boleto, Subscriptions, and Recurring Billing.
+overview: 'Efí Pay (Gerencianet) publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Authorization API, and 33 more. Tagged areas include Payments, Pix, Boleto, Subscription, and Recurring Billing.
 
 
   The Efí Pay (Gerencianet) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -693,7 +693,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.0
-  delta: 8.8
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -703,7 +703,7 @@ score:
     discoverability: 55.6
     governance: 69.7
     operational_transparency: 52.6
-  previous_composite: 62.2
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     contracts:
@@ -717,9 +717,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png
 security:
 - kind: authentication
@@ -742,14 +742,14 @@ tags:
 - Payments
 - Pix
 - Boleto
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Marketplace
 - Split Payments
 - Open Finance
 - Banking as a Service
 - Account Opening
-- Bill Payment
+- Bill Payments
 - CNAB
 - Brazil
 - Fintech

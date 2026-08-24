@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-04-28'
 name: DST Systems
 nav: Providers
 network: true
-overview: DST Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Healthcare, Outsourcing, and Legacy.
+overview: DST Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Healthcare, Outsourcing, and Legacy.
 press:
 - date: '2026-05-25'
   title: SS&C Technologies to acquire DST Systems for $5.4bn
@@ -77,7 +77,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 1.3
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -93,20 +93,20 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 3.5
+  previous_composite: 1.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dst-systems/refs/heads/main/screenshots/dst-systems-2026-06-20T180257.png
 slug: dst-systems
 tags:
-- Financial Services
+- Financial-Services
 - Healthcare
 - Outsourcing
 - Legacy

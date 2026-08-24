@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,12 +60,12 @@ modified: '2026-07-19'
 name: Engrail
 nav: Providers
 network: true
-overview: Engrail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceutical, Biotechnology, Neuroscience, and Drug Development.
+overview: Engrail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Neuroscience, and Drug Development.
 random_paper: 3
 score:
   band: minimal
   composite: 9.0
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -75,15 +75,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.5
+  previous_composite: 9.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engrail/refs/heads/main/screenshots/engrail-2026-07-25T213354.png
 security:
@@ -94,7 +94,7 @@ security:
 slug: engrail
 tags:
 - Company
-- Pharmaceutical
+- Pharmaceuticals
 - Biotechnology
 - Neuroscience
 - Drug Development

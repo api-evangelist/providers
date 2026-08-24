@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -172,7 +172,7 @@ modified: '2026-05-08'
 name: Galileo Financial Technologies
 nav: Providers
 network: true
-overview: 'Galileo Financial Technologies publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Dispute API, Events API, and 5 more. Tagged areas include FinTech, BaaS, Card Issuing, Banking, and Payments.
+overview: 'Galileo Financial Technologies publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Dispute API, Events API, and 5 more. Tagged areas include Fintech, Backend-as-a-Service, Card Issuing, Banking, and Payments.
 
 
   Galileo Financial Technologies'' developer surface includes authentication and 8 more developer resources.'
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.0
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.5
+  previous_composite: 24.0
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/screenshots/galileo-fs-2026-06-20T181643.png
 security:
@@ -227,8 +227,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: galileo-fs
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Card Issuing
 - Banking
 - Payments

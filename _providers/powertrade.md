@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Public and private REST endpoints for market-data summaries, public trade history, positions, holdings, balances, reporting, and MFA. Private endpoints require an ES256 JWT access token. Versioned by '
@@ -153,8 +153,8 @@ image: https://power.trade/assets/power-trade-og.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: powertrade-mcp.yml
-  slug: powertrade-mcpyml
+  name: PowerTrade MCP Server
+  slug: powertrade-mcp-server
 modified: '2026-07-20'
 name: PowerTrade
 nav: Providers
@@ -167,7 +167,7 @@ random_paper: 14
 score:
   band: thin
   composite: 34.6
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -177,7 +177,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 36.4
+  previous_composite: 34.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -187,8 +187,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -213,7 +213,7 @@ tags:
 - Perpetual Futures
 - Trading
 - Exchange
-- Financial Services
+- Financial-Services
 - WebSocket
 - FIX
 - Market Data

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -232,18 +232,18 @@ rules:
   slug: utilityapi-rules
 score:
   band: developing
-  composite: 43.8
-  delta: -1.0
+  composite: 44.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 75.5
     developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 44.8
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -257,8 +257,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/screenshots/utilityapi-2026-06-20T200729.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 31
 apis:
 - description: Admission Control
@@ -264,7 +264,7 @@ modified: '2026-04-28'
 name: NeuVector
 nav: Providers
 network: true
-overview: 'NeuVector publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Admission API, Apikey API, Authentication API, and 28 more. Tagged areas include Compliance, Containers, Kubernetes, Open Source, and Runtime Protection.
+overview: 'NeuVector publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Admission API, Apikey API, Authentication API, and 28 more. Tagged areas include Compliance, Containers, Kubernetes, Open-Source, and Runtime Protection.
 
 
   NeuVector''s developer surface includes documentation and 6 more developer resources.'
@@ -280,7 +280,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -290,15 +290,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 23.7
+  previous_composite: 23.9
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/screenshots/neuvector-2026-06-20T190220.png
 security:
@@ -311,7 +311,7 @@ tags:
 - Compliance
 - Containers
 - Kubernetes
-- Open Source
+- Open-Source
 - Runtime Protection
 - Security
 - Vulnerability Scanning

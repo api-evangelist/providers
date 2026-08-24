@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API on Autodesk Platform Services (APS) exposing BuildingConnected preconstruction data — opportunities, bid packages, and users — versioned under /v2 and secured with Autodesk OAuth 2.0.
@@ -133,22 +133,22 @@ scopes:
   summary_line: 16 scopes
 score:
   band: thin
-  composite: 27.4
-  delta: -2.4
+  composite: 28.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 29.8
+  previous_composite: 28.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildingconnected/refs/heads/main/screenshots/buildingconnected-2026-07-25T204053.png
 security:

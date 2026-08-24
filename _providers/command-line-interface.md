@@ -33,5 +33,5 @@ tags:
 - Shell
 - Terminal
 - Tooling
-- UNIX
+- Unix
 ---

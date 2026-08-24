@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Aria API is the REST control surface for the Aria Networks Deep Networking platform. Its unauthenticated root index at https://api.arianetworks.com/ advertises version 1.0.0 and sixteen resource g
@@ -100,7 +100,7 @@ modified: '2026-08-06'
 name: Aria Networks
 nav: Providers
 network: true
-overview: 'Aria Networks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Data Center, Artificial Intelligence, and Infrastructure.
+overview: 'Aria Networks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Data-Center, Artificial Intelligence, and Infrastructure.
 
 
   Aria Networks'' developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 16.7
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -118,11 +118,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 19.0
+  previous_composite: 16.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -137,7 +137,7 @@ slug: aria-networks
 tags:
 - Company
 - Networking
-- Data Center
+- Data-Center
 - Artificial Intelligence
 - Infrastructure
 - Telemetry

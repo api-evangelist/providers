@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-20'
 name: Opensesame
 nav: Providers
 network: true
-overview: 'Opensesame is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, eLearning, Learning Management, Online Training, and Course Marketplace.
+overview: 'Opensesame is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Learning, Learning Management, Online Training, and Course Marketplace.
 
 
   Opensesame''s developer surface includes engineering blog, pricing, support, and 8 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 19.1
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -102,15 +102,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 17.8
+  previous_composite: 19.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 35.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensesame/refs/heads/main/screenshots/opensesame-2026-08-07T190641.png
 security:
@@ -125,7 +125,7 @@ security:
 slug: opensesame
 tags:
 - Company
-- eLearning
+- E-Learning
 - Learning Management
 - Online Training
 - Course Marketplace

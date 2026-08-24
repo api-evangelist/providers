@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -593,8 +593,8 @@ image: https://leantech.me/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: lean-technologies-mcp.yml
-  slug: lean-technologies-mcpyml
+  name: Lean Technologies MCP Server
+  slug: lean-technologies-mcp-server
 modified: '2026-07-20'
 name: Lean Technologies
 nav: Providers
@@ -613,19 +613,19 @@ scopes:
   slug: lean-technologies-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 54.1
-  delta: -3.1
+  band: strong
+  composite: 55.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 68.7
     developer_ergonomics: 62.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 57.2
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -642,8 +642,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/screenshots/lean-technologies-2026-07-25T224735.png
 security:

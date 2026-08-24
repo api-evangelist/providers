@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -229,13 +229,13 @@ image: https://intelligems.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: intelligems-mcp.yml
-  slug: intelligems-mcpyml
+  name: Intelligems MCP Server
+  slug: intelligems-mcp-server
 modified: '2026-08-13'
 name: Intelligems
 nav: Providers
 network: true
-overview: 'Intelligems publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Experiences API, Holiday Benchmark API, and 1 more. Tagged areas include Company, A/B Testing, Ecommerce, Pricing, and Personalization.
+overview: 'Intelligems publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Experiences API, Holiday Benchmark API, and 1 more. Tagged areas include Company, A/B Testing, E-Commerce, Pricing, and Personalization.
 
 
   The Intelligems catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -259,7 +259,7 @@ scopes:
 score:
   band: strong
   composite: 63.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -269,7 +269,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 64.2
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,8 +280,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/screenshots/intelligems-2026-07-25T222646.png
 security:
@@ -297,7 +297,7 @@ slug: intelligems
 tags:
 - Company
 - A/B Testing
-- Ecommerce
+- E-Commerce
 - Pricing
 - Personalization
 - Conversion Rate Optimization
@@ -305,7 +305,7 @@ tags:
 - Analytics
 - Experimentation
 - MCP
-- Webhooks
+- Webhook
 - Profit Optimization
 website: https://intelligems.io/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Almanac API V1 (private beta) for programmatic access to an Almanac workspace — import and move files and folders, view users and groups, read and update document properties, manage document access, a
@@ -112,7 +112,7 @@ modified: '2026-07-17'
 name: Almanac Labs
 nav: Providers
 network: true
-overview: 'Almanac Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Documentation, Knowledge Management, and Collaboration.
+overview: 'Almanac Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Documentation, Knowledge-Management, and Collaboration.
 
 
   Almanac Labs'' developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 10 more developer resources.'
@@ -120,7 +120,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 16.1
-  delta: -12.6
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -130,10 +130,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 28.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 16.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/almanac-labs/refs/heads/main/screenshots/almanac-labs-2026-07-25T195738.png
 security:
 - kind: domain-security
@@ -149,10 +149,10 @@ tags:
 - Company
 - Enterprise
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Collaboration
 - Wiki
 - Productivity
-- Workflow
+- Workflows
 website: https://almanac.io
 ---

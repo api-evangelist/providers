@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The HAProxy Data Plane API is a REST API for managing HAProxy configuration dynamically. It allows runtime configuration of frontends, backends, servers, ACLs, and other HAProxy objects without requir
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.6
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -133,9 +133,9 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 23.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haproxy/refs/heads/main/screenshots/haproxy-2026-06-20T182509.png
 security:

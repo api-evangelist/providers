@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Machine-to-machine REST API for ingesting Product Detail Pages (by Amazon ASIN or by caller-supplied id), submitting standalone images for asynchronous Visual AI scoring, retrieving PDP and image scor
@@ -161,13 +161,13 @@ image: https://www.vizit.com/img/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: vizit-mcp.yml
-  slug: vizit-mcpyml
+  name: Vizit MCP Server
+  slug: vizit-mcp-server
 modified: '2026-08-02'
 name: Vizit
 nav: Providers
 network: true
-overview: 'Vizit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Visual AI, Ecommerce, Digital Shelf, and Image Analytics.
+overview: 'Vizit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Visual AI, E-Commerce, Digital Shelf, and Image Analytics.
 
 
   Vizit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.9
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -189,13 +189,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 34.6
+  previous_composite: 33.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -210,13 +210,13 @@ slug: vizit
 tags:
 - Company
 - Visual AI
-- Ecommerce
+- E-Commerce
 - Digital Shelf
 - Image Analytics
 - Content Effectiveness
 - Retail Media
 - Product Detail Pages
-- Machine Learning
+- Machine-Learning
 - Generative AI
 website: https://www.vizit.com/
 ---

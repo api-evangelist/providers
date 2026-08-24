@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-07-04'
 name: SmartMoving
 nav: Providers
 network: true
-overview: 'SmartMoving publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Jobs API, Lead Provider API, and 3 more. Tagged areas include Moving Software, CRM, Field Service, Moving Company, and Operations.
+overview: 'SmartMoving publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Jobs API, Lead Provider API, and 3 more. Tagged areas include Moving Software, CRM, Field Service, Moving Company, and Lead Management.
 
 
   SmartMoving''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -167,7 +167,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 40.8
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -193,7 +193,6 @@ tags:
 - CRM
 - Field Service
 - Moving Company
-- Operations
 - Lead Management
 - Dispatch
 website: https://www.smartmoving.com

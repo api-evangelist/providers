@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Advanced routes for customisation
@@ -206,8 +206,8 @@ image: https://www.typingdna.com/assets/images/default-meta-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: typingdna-mcp.yml
-  slug: typingdna-mcpyml
+  name: TypingDNA MCP Server
+  slug: typingdna-mcp-server
 modified: '2026-07-21'
 name: TypingDNA
 nav: Providers
@@ -225,7 +225,7 @@ scopes:
 score:
   band: strong
   composite: 56.8
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 55.5
+  previous_composite: 56.8
   provenance:
     conformance: first-party
     contracts:
@@ -245,8 +245,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/screenshots/typingdna-2026-08-17T082510.png
 security:

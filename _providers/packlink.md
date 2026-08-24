@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -183,13 +183,13 @@ image: http://www.packlink.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: packlink-mcp.yml
-  slug: packlink-mcpyml
+  name: Packlink MCP Server
+  slug: packlink-mcp-server
 modified: '2026-07-20'
 name: Packlink
 nav: Providers
 network: true
-overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Customs API, Integrations API, and 3 more. Tagged areas include Company, Ecommerce, Shipping, Logistics, and Parcel Delivery.
+overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Customs API, Integrations API, and 3 more. Tagged areas include Company, E-Commerce, Shipping, Logistics, and Parcel Delivery.
 
 
   The Packlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -200,7 +200,7 @@ random_paper: 5
 score:
   band: developing
   composite: 39.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 40.7
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +227,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png
 security:
@@ -243,7 +243,7 @@ security:
 slug: packlink
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Shipping
 - Logistics
 - Parcel Delivery

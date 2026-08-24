@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -492,18 +492,18 @@ rules:
   slug: pocket-network-rules
 score:
   band: strong
-  composite: 62.3
-  delta: -5.1
+  composite: 62.8
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 61.8
     developer_ergonomics: 71.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 67.4
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     contracts:
@@ -511,9 +511,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/screenshots/pocket-network-2026-06-20T191825.png
 security:
 - kind: authentication
@@ -532,7 +532,7 @@ tags:
 - Decentralized Infrastructure
 - Pocket Network
 - Grove
-- PATH
+- Path
 - Shannon
 - Cosmos
 - POKT

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -511,14 +511,14 @@ jsonld:
   slug: firstpromoter-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: firstpromoter-mcp.yml
-  slug: firstpromoter-mcpyml
+- description: FirstPromoter ships a first-party remote MCP server at https://mcp.firstpromoter.com. It is an HTTP-transport server behind OAuth 2.1 (authorization code + PKCE S256, RFC 7591 dynamic client registrat
+  name: FirstPromoter MCP Server
+  slug: firstpromoter-mcp-server
 modified: '2026-08-13'
 name: FirstPromoter
 nav: Providers
 network: true
-overview: 'FirstPromoter publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Admin Payout Methods API, Products API, Affiliate Assets API, and 34 more. Tagged areas include Affiliate Marketing, Referral Tracking, SaaS, Commission Management, and Reward Distribution.
+overview: 'FirstPromoter publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Admin Payout Methods API, Products API, Affiliate Assets API, and 34 more. Tagged areas include Affiliate Marketing, Referral Tracking, Software-as-a-Service, Commission Management, and Reward Distribution.
 
 
   The FirstPromoter catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -552,18 +552,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.6
-  delta: -11.6
+  composite: 61.7
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 30.3
     contract_quality: 67.5
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 75.2
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -574,9 +574,9 @@ score:
       total: 50
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/screenshots/firstpromoter-2026-06-20T181244.png
 security:
 - kind: authentication
@@ -591,7 +591,7 @@ slug: firstpromoter
 tags:
 - Affiliate Marketing
 - Referral Tracking
-- SaaS
+- Software-as-a-Service
 - Commission Management
 - Reward Distribution
 - Promoters
@@ -599,7 +599,7 @@ tags:
 - Influencer Marketing
 - Payouts
 - Attribution
-- Webhooks
+- Webhook
 - MCP
 website: https://firstpromoter.com/
 ---

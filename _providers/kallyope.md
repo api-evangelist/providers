@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Anonymous, read-only REST surface behind kallyope.com. Kallyope runs WordPress and exposes the WordPress REST API publicly at https://kallyope.com/wp-json with 326 registered routes across 14 namespac
@@ -95,8 +95,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: kallyope-mcp.yml
-  slug: kallyope-mcpyml
+  name: Kallyope MCP Server
+  slug: kallyope-mcp-server
 modified: '2026-08-01'
 name: Kallyope
 nav: Providers
@@ -144,8 +144,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/screenshots/kallyope-2026-08-07T171056.png
 security:

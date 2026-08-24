@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Blackstone provides institutional and individual investors with access to portfolio information, capital account statements, fund documents, and reporting through its Investor Portal, which is served '
@@ -205,7 +205,7 @@ modified: '2026-08-10'
 name: Blackstone
 nav: Providers
 network: true
-overview: 'Blackstone publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Assets, Finance, Investment Management, Private Equity, and Real Estate.
+overview: 'Blackstone publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Assets, Finance, Investment Management, Private Equity, and Real-Estate.
 
 
   The Blackstone catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -275,7 +275,7 @@ scopes:
 score:
   band: thin
   composite: 34.8
-  delta: -11.7
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -285,12 +285,12 @@ score:
     discoverability: 87.0
     governance: 29.5
     operational_transparency: 31.6
-  previous_composite: 46.5
+  previous_composite: 34.8
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/screenshots/blackstone-2026-06-20T173341.png
 security:
 - kind: authentication
@@ -311,7 +311,7 @@ tags:
 - Finance
 - Investment Management
 - Private Equity
-- Real Estate
+- Real-Estate
 - Fortune 500
 use_cases:
 - description: Institutional LPs access fund reporting, capital call and distribution notices, and tax documents through the investor portal or via data integrations.

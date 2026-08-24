@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -329,7 +329,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.3
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -339,7 +339,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 92.1
-  previous_composite: 71.6
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,8 +350,8 @@ score:
       total: 7
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/screenshots/hubble-network-2026-08-17T075400.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-08-06'
 name: Aquabyte
 nav: Providers
 network: true
-overview: 'Aquabyte publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Behaviour API, Biomass API, Environmental API, and 4 more. Tagged areas include Aquaculture, Fish Farming, Computer Vision, Machine Learning, and Biomass Estimation.
+overview: 'Aquabyte publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Behaviour API, Biomass API, Environmental API, and 4 more. Tagged areas include Aquaculture, Fish Farming, Computer-Vision, Machine-Learning, and Biomass Estimation.
 
 
   Aquabyte''s developer surface includes documentation, API reference, support, authentication, and 11 more developer resources.'
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -167,7 +167,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 40.0
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -177,8 +177,8 @@ score:
       marker_coverage: 0.0
       total: 7
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png
 security:
@@ -194,8 +194,8 @@ slug: aquabyte
 tags:
 - Aquaculture
 - Fish Farming
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Biomass Estimation
 - Sea Lice
 - Fish Welfare

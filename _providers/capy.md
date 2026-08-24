@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -231,13 +231,13 @@ image: https://capy.ai/_marketing/opengraph-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: capy-mcp.yml
-  slug: capy-mcpyml
+  name: Capy MCP Server
+  slug: capy-mcp-server
 modified: '2026-07-18'
 name: Capy
 nav: Providers
 network: true
-overview: 'Capy publishes 12 APIs on the [APIs.io](https://apis.io/) network, including automations API, browser-snapshots API, environment-variables API, and 9 more. Tagged areas include Company, Ai, AI Coding Agent, Software Engineering, and Developer Tools.
+overview: 'Capy publishes 12 APIs on the [APIs.io](https://apis.io/) network, including automations API, browser-snapshots API, environment-variables API, and 9 more. Tagged areas include Company, Artificial Intelligence, AI Coding Agent, Software Engineering, and Developer Tools.
 
 
   Capy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
@@ -245,7 +245,7 @@ random_paper: 9
 score:
   band: developing
   composite: 50.1
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -255,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 50.8
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,8 +266,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/screenshots/capy-2026-07-25T204458.png
 security:
@@ -290,7 +290,7 @@ security:
 slug: capy
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Coding Agent
 - Software Engineering
 - Developer Tools

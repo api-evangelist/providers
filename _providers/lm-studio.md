@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Anthropic-compatible messages endpoint.
@@ -172,13 +172,13 @@ image: https://files.lmstudio.ai/bionic/lm-studio-bionic-og.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: lm-studio-mcp.yml
-  slug: lm-studio-mcpyml
+  name: LM Studio MCP Server
+  slug: lm-studio-mcp-server
 modified: '2026-07-20'
 name: LM Studio
 nav: Providers
 network: true
-overview: 'LM Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Anthropic Compatibility API, Chat API, Models API, and 1 more. Tagged areas include Company, Ai, Local LLM, Machine Learning, and Inference.
+overview: 'LM Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Anthropic Compatibility API, Chat API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Local LLM, Machine-Learning, and Inference.
 
 
   LM Studio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 19 more developer resources.'
@@ -186,7 +186,7 @@ random_paper: 2
 score:
   band: thin
   composite: 29.6
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -196,7 +196,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 31.8
+  previous_composite: 29.6
   provenance:
     conformance: derived
     contracts:
@@ -206,8 +206,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/screenshots/lm-studio-2026-07-25T225416.png
 security:
@@ -226,9 +226,9 @@ security:
 slug: lm-studio
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Local LLM
-- Machine Learning
+- Machine-Learning
 - Inference
 - Developer Tools
 - LLM

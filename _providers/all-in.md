@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-native commerce surface on the All In Food Shopify storefront: a UCP merchant profile, a hosted MCP endpoint for catalog/cart/checkout, Customer Account OIDC, and a canonical agents.md instructi'
@@ -78,9 +78,9 @@ description: 'All In Food makes organic, gluten-free nut & seed snack bars on a 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/all-in.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: all-in-mcp.yml
-  slug: all-in-mcpyml
+- description: All In Food's Shopify storefront implements the Universal Commerce Protocol (UCP) for agent-driven commerce and exposes a live, hosted MCP endpoint. Agents discover capabilities at /.well-known/ucp, t
+  name: All In Food Agent Commerce (UCP)
+  slug: all-in-food-agent-commerce-ucp
 modified: '2026-07-17'
 name: All In
 nav: Providers
@@ -97,24 +97,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 16.9
-  delta: 1.0
+  composite: 18.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 18.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/all-in/refs/heads/main/screenshots/all-in-2026-08-07T161209.png
 security:

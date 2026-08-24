@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: PSD2-compliant account information service (AIS) API for Spain. Allows authorized third parties to access customer payment account information including account lists, balances, transaction history, a
@@ -145,7 +145,7 @@ modified: '2026-07-25'
 name: BBVA
 nav: Providers
 network: true
-overview: 'BBVA publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Open Banking, PSD2, and Spain.
+overview: 'BBVA publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Open Banking, PSD2, and Spain.
 
 
   The BBVA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -175,7 +175,7 @@ rules:
 score:
   band: thin
   composite: 28.8
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -185,15 +185,15 @@ score:
     discoverability: 64.8
     governance: 54.5
     operational_transparency: 10.5
-  previous_composite: 29.7
+  previous_composite: 28.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/screenshots/bbva-2026-06-20T173058.png
 security:
@@ -204,7 +204,7 @@ security:
 slug: bbva
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Open Banking
 - PSD2
 - Spain

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -418,14 +418,14 @@ description: Ripple (legally Ripple Labs Inc.) is a blockchain and crypto-enable
 image: https://ripple.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: ripple-labs-mcp.yml
-  slug: ripple-labs-mcpyml
+- description: Ripple's product documentation (docs.ripple.com) is served on the Redocly platform, which exposes a hosted, OAuth-protected Model Context Protocol server over the docs and API references. An MCP clien
+  name: Ripple Labs MCP Server
+  slug: ripple-labs-mcp-server
 modified: '2026-07-21'
 name: Ripple Labs
 nav: Providers
 network: true
-overview: 'Ripple Labs publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, API Credentials API, Auditing API, and 33 more. Tagged areas include Company, Financial Services, Payments, Cross-Border Payments, and Blockchain.
+overview: 'Ripple Labs publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, API Credentials API, Auditing API, and 33 more. Tagged areas include Company, Financial-Services, Payments, Cross-Border Payments, and Blockchain.
 
 
   The Ripple Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -441,7 +441,7 @@ scopes:
 score:
   band: strong
   composite: 60.8
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -451,7 +451,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 57.1
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -468,8 +468,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/screenshots/ripple-labs-2026-08-17T081609.png
 security:
@@ -488,15 +488,15 @@ security:
 slug: ripple-labs
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Cross-Border Payments
 - Blockchain
 - Cryptocurrency
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Custody
-- Wallet
+- Wallets
 - Fintech
 website: https://ripple.com
 ---

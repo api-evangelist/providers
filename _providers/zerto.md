@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API exposed by the Zerto Virtual Manager / Zerto Cloud Appliance for programmatic disaster-recovery management — VPGs, failover, checkpoints, VRAs, peer sites, alerts, events, tasks, and long-ter
@@ -135,8 +135,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zerto.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: zerto-mcp.yml
-  slug: zerto-mcpyml
+  name: Zerto MCP Server
+  slug: zerto-mcp-server
 modified: '2026-07-21'
 name: Zerto
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 18
 score:
   band: thin
   composite: 26.8
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 11.8
     commercial_clarity: 11.8
@@ -159,13 +159,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 28.8
+  previous_composite: 26.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

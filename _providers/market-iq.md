@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Market IQ
 nav: Providers
 network: true
-overview: 'Market IQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Predictive Analytics, Financial Services, and Banking.
+overview: 'Market IQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Predictive Analytics, Financial-Services, and Banking.
 
 
   Market IQ''s developer surface includes support and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 3.8
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -74,15 +74,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.4
+  previous_composite: 3.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/market-iq/refs/heads/main/screenshots/market-iq-2026-07-25T230217.png
 security:
@@ -95,10 +95,10 @@ tags:
 - Company
 - Analytics
 - Predictive Analytics
-- Financial Services
+- Financial-Services
 - Banking
 - Capital Markets
 - Natural Language Processing
-- Machine Learning
+- Machine-Learning
 website: https://themarketiq.com/
 ---

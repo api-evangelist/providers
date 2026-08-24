@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ modified: '2026-05-19'
 name: Federal Railroad Administration
 nav: Providers
 network: true
-overview: 'Federal Railroad Administration publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accidents API, Crossings API, Incidents API, and 2 more. Tagged areas include Federal Government, Railroads, Safety, and Transportation.
+overview: 'Federal Railroad Administration publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accidents API, Crossings API, Incidents API, and 2 more. Tagged areas include Federal-Government, Railroads, Safety, and Transportation.
 
 
   Federal Railroad Administration''s developer surface includes documentation and 4 more developer resources.'
@@ -126,7 +126,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.3
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -136,7 +136,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.7
+  previous_composite: 18.3
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/screenshots/federal-railroad-administration-2026-06-20T181126.png
 security:
@@ -161,7 +161,7 @@ security:
   summary_line: DNSSEC · DMARC
 slug: federal-railroad-administration
 tags:
-- Federal Government
+- Federal-Government
 - Railroads
 - Safety
 - Transportation

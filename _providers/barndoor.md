@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -605,7 +605,7 @@ modified: '2026-05-19'
 name: Barndoor
 nav: Providers
 network: true
-overview: 'Barndoor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Connections API, MCP Proxy API, and 3 more. Tagged areas include AI Agents, AI Governance, Agentic AI, MCP, and Model Context Protocol.
+overview: 'Barndoor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Connections API, MCP Proxy API, and 3 more. Tagged areas include AI Agents, AI Governance, Agentic AI, MCP, and Policy Enforcement.
 
 
   The Barndoor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -645,18 +645,18 @@ rules:
   slug: barndoor-spectral-rules
 score:
   band: strong
-  composite: 64.7
-  delta: 1.5
+  composite: 65.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.2
     developer_ergonomics: 52.4
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 63.2
-  previous_composite: 63.2
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     contracts:
@@ -670,8 +670,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/screenshots/barndoor-2026-08-17T083336.png
 security:
@@ -698,9 +698,8 @@ tags:
 - AI Governance
 - Agentic AI
 - MCP
-- Model Context Protocol
 - Policy Enforcement
-- OAuth
+- Authentication
 - Identity
 - Security
 - Audit

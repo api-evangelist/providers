@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ modified: '2026-07-01'
 name: Fourthwall
 nav: Providers
 network: true
-overview: 'Fourthwall publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Gifting API, Giveaways API, and 9 more. Tagged areas include Creator Commerce, Ecommerce, Merch, Storefront, and Memberships.
+overview: 'Fourthwall publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Gifting API, Giveaways API, and 9 more. Tagged areas include Creator Commerce, E-Commerce, Merch, Storefront, and Memberships.
 
 
   Fourthwall''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -202,7 +202,7 @@ scopes:
 score:
   band: thin
   composite: 34.7
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -212,7 +212,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 35.1
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/screenshots/fourthwall-2026-07-25T215052.png
 security:
@@ -240,7 +240,7 @@ security:
 slug: fourthwall
 tags:
 - Creator Commerce
-- Ecommerce
+- E-Commerce
 - Merch
 - Storefront
 - Memberships

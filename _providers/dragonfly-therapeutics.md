@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Model Context Protocol endpoint served from the Dragonfly Therapeutics website host. This is a platform-provided surface automatically provisioned by Wix for every site it builds — not a first-party D
@@ -99,8 +99,8 @@ description: 'Dragonfly Therapeutics is a clinical-stage biotechnology company b
 layout: provider
 mcp_servers:
 - description: ''
-  name: dragonfly-therapeutics-mcp.yml
-  slug: dragonfly-therapeutics-mcpyml
+  name: Dragonfly Therapeutics MCP Server
+  slug: dragonfly-therapeutics-mcp-server
 modified: '2026-08-12'
 name: Dragonfly Therapeutics
 nav: Providers
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.5
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -131,7 +131,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 15.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -141,8 +141,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

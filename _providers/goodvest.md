@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ modified: '2026-08-17'
 name: Goodvest
 nav: Providers
 network: true
-overview: 'Goodvest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate Tech, Fintech, Financial Services, and Investing.
+overview: 'Goodvest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate Tech, Fintech, Financial-Services, and Investing.
 
 
   Goodvest''s developer surface includes engineering blog, support, pricing, signup flow, and 10 more developer resources.'
@@ -120,6 +120,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.0
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -129,6 +130,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
+  previous_composite: 29.0
   provenance:
     conformance: first-party
   regulatory:
@@ -137,8 +139,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Goodvest Domain Security
@@ -149,7 +152,7 @@ tags:
 - Company
 - Climate Tech
 - Fintech
-- Financial Services
+- Financial-Services
 - Investing
 - Wealth Management
 - Sustainable Finance

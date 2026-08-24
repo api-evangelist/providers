@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to the Lumigo observability platform, authenticated with an API token (x-api-key header) generated in Lumigo Settings. Host confirmed live (returns 401 without credentials); no pub
@@ -150,9 +150,9 @@ description: Lumigo is an observability and troubleshooting platform for microse
 image: https://avatars.githubusercontent.com/u/38886022?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: lumigo-mcp.yml
-  slug: lumigo-mcpyml
+- description: Lumigo Copilot MCP server for IDE integration. Lets agents in VS Code (GitHub Copilot), Cursor, JetBrains, Eclipse, and Xcode investigate and resolve production issues from the editor via natural-lang
+  name: Lumigo MCP Server
+  slug: lumigo-mcp-server
 modified: '2026-07-20'
 name: Lumigo
 nav: Providers
@@ -168,7 +168,7 @@ random_paper: 2
 score:
   band: developing
   composite: 47.2
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -178,13 +178,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 52.6
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/screenshots/lumigo-2026-07-25T225711.png
 security:
 - kind: authentication

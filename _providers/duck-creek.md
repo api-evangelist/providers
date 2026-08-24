@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -299,7 +299,7 @@ scopes:
 score:
   band: developing
   composite: 43.6
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -309,7 +309,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 49.2
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -321,9 +321,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/screenshots/duck-creek-2026-06-20T180408.png
 security:
 - kind: authentication

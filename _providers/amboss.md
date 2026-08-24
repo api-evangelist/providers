@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,26 +99,26 @@ overview: 'AMBOSS is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 15
 score:
   band: emerging
-  composite: 17.6
-  delta: -0.5
+  composite: 18.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 18.1
+  previous_composite: 18.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amboss/refs/heads/main/screenshots/amboss-2026-07-25T200032.png
 security:

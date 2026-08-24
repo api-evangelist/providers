@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -44,11 +48,11 @@ created: '2026-07-17'
 description: ExactTarget was a digital marketing and email-marketing automation SaaS company founded in 2000 in Indianapolis, Indiana. It built the Fuel developer platform and Interactive Marketing Hub for email, mobile, and social campaign automation, went public on the NYSE (ticker ET) in March 2012, and was acquired by Salesforce in December 2013 for approximately 2.5 billion dollars. ExactTarget became the foundation of Salesforce Marketing Cloud; the exacttarget.com domain now redirects to the Salesforce Marketing Cloud email-marketing product and the former developer.exacttarget.com Fuel/Code@ API platform (REST and SOAP APIs) has been retired and folded into the Salesforce Marketing Cloud developer surface. This profile is retained in the API Evangelist network as a historical/acquired-company record.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exact-target.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-21'
 name: Exact Target
 nav: Providers
 network: true
-overview: Exact Target is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email Marketing, Marketing Automation, Digital Marketing, and SaaS.
+overview: Exact Target is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email Marketing, Marketing Automation, Digital Marketing, and Software-as-a-Service.
 random_paper: 7
 score:
   band: minimal
@@ -64,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exact-target/refs/heads/main/screenshots/exact-target-2026-07-25T213835.png
 security:
@@ -79,7 +83,7 @@ tags:
 - Email Marketing
 - Marketing Automation
 - Digital Marketing
-- SaaS
+- Software-as-a-Service
 - Acquired
 - Salesforce Marketing Cloud
 website: http://www.exacttarget.com/

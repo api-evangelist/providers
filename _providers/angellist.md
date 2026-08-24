@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The AngelList Investor Management API is a GraphQL API that enables programmatic access to the AngelList investor portal, supporting fund managers and investors in managing transactions, documents, an
@@ -129,7 +129,7 @@ modified: '2026-04-19'
 name: AngelList
 nav: Providers
 network: true
-overview: 'AngelList publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents, Funds, Investing, Jobs, and Startups.
+overview: 'AngelList publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents, Funds, Investing, Job, and Startups.
 
 
   AngelList''s developer surface includes documentation, engineering blog, support, developer portal, and 15 more developer resources.'
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -161,9 +161,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 22.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/screenshots/angellist-2026-06-20T171953.png
 security:
@@ -180,9 +180,9 @@ tags:
 - Documents
 - Funds
 - Investing
-- Jobs
+- Job
 - Startups
-- Transactions
+- Transaction
 - Venture Capital
 website: https://www.angellist.com/
 ---

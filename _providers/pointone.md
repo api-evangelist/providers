@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: Pointone
 nav: Providers
 network: true
-overview: 'Pointone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legaltech, Practice Management, and Time Tracking.
+overview: 'Pointone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Practice Management, and Time Tracking.
 
 
   Pointone''s developer surface includes engineering blog and 8 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 16.1
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -94,11 +94,11 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 16.7
+  previous_composite: 16.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -109,7 +109,7 @@ slug: pointone
 tags:
 - Company
 - Legal
-- Legaltech
+- Legal Tech
 - Practice Management
 - Time Tracking
 - Billing

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The ad-request surface Doceree publisher partners call to fetch an HCP-targeted advertisement. It is the endpoint behind the Doceree Publisher Tag, the first-party Prebid.js header-bidding adapter (bi
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -196,7 +196,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 34.8
+  previous_composite: 38.6
   provenance:
     conformance: first-party
   regulatory:
@@ -205,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/screenshots/doceree-2026-08-07T164451.png
 security:
@@ -231,7 +231,7 @@ tags:
 - Programmatic
 - Header Bidding
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Point of Care
 - Identity Resolution
 - Electronic Health Records

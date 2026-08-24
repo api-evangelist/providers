@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: Records customer interactions from e-commerce, POS, websites, and mobile apps as loyalty events (for example point_add, checkout_accept), driving the rules and workflows of the loyalty program. Suppor
@@ -338,7 +338,7 @@ scopes:
 score:
   band: strong
   composite: 63.6
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -348,7 +348,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 77.6
-  previous_composite: 66.4
+  previous_composite: 63.6
   provenance:
     conformance: first-party
     contracts:
@@ -358,8 +358,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/screenshots/antavo-2026-07-25T200404.png
 security:
@@ -391,8 +391,8 @@ tags:
 - Engagement
 - Promotions
 - Gamification
-- Events
-- eCommerce
+- Event
+- E-Commerce
 - Coupons
 - Points
 - Membership

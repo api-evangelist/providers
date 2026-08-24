@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-06-25'
 name: Gelato
 nav: Providers
 network: true
-overview: 'Gelato publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Ecommerce API, Orders API, Prices API, and 3 more. Tagged areas include Print on Demand, Ecommerce, Fulfillment, Distributed Production, and Orders.
+overview: 'Gelato publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Ecommerce API, Orders API, Prices API, and 3 more. Tagged areas include Print on Demand, E-Commerce, Fulfillment, Distributed Production, and Order.
 
 
   Gelato''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.4
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.9
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/screenshots/gelato-2026-07-25T215522.png
 security:
@@ -191,9 +191,9 @@ security:
 slug: gelato
 tags:
 - Print on Demand
-- Ecommerce
+- E-Commerce
 - Fulfillment
 - Distributed Production
-- Orders
+- Order
 website: https://www.gelato.com
 ---

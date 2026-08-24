@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'RESTful API providing access to all Rentvine property management data including properties, units, leases, tenants, maintenance requests, work orders, financials, owner accounts, and portals. Enables '
@@ -101,7 +101,7 @@ modified: 2026-06-13
 name: Rentvine
 nav: Providers
 network: true
-overview: 'Rentvine publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Property Management, Real Estate, Leasing, Tenant Management, and Maintenance.
+overview: 'Rentvine publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Property Management, Real-Estate, Leasing, Tenant Management, and Maintenance.
 
 
   Rentvine''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.6
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -127,9 +127,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 28.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentvine/refs/heads/main/screenshots/rentvine-2026-06-20T192858.png
 security:
@@ -140,7 +140,7 @@ security:
 slug: rentvine
 tags:
 - Property Management
-- Real Estate
+- Real-Estate
 - Leasing
 - Tenant Management
 - Maintenance

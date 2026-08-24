@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1601
   human_in_the_loop: 29
@@ -432,13 +432,13 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: adobe-suite-mcp.yml
-  slug: adobe-suite-mcpyml
+  name: Adobe Suite MCP Server
+  slug: adobe-suite-mcp-server
 modified: '2026-08-13'
 name: Adobe Suite
 nav: Providers
 network: true
-overview: 'Adobe Suite publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Adobe Photoshop API, Adobe Lightroom API, Adobe Illustrator API, and 19 more. Tagged areas include Ai, Analytics, Automation, Commerce, and Creative.
+overview: 'Adobe Suite publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Adobe Photoshop API, Adobe Lightroom API, Adobe Illustrator API, and 19 more. Tagged areas include Artificial Intelligence, Analytics, Automation, Commerce, and Creative.
 
 
   The Adobe Suite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -462,7 +462,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.6
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -472,7 +472,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 71.1
-  previous_composite: 67.5
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -483,8 +483,8 @@ score:
       total: 70
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/screenshots/adobe-suite-2026-06-20T165033.png
 security:
@@ -506,7 +506,7 @@ security:
   summary_line: SOC 2 Type 2, SOC 3, ISO 27001:2022, ISO 27017:2015, ISO 27018:2019, ISO 22301:2019, ISO 9001:2015, PCI DSS, HIPAA ready, FedRAMP Tailored, CSA STAR Level 2, C5 (Germany), IRAP Assessed (Australia), ISMAP Registered (Japan), TISAX, CMMC Level 1, GDPR, CCPA, FERPA ready, GLBA ready
 slug: adobe-suite
 tags:
-- Ai
+- Artificial Intelligence
 - Analytics
 - Automation
 - Commerce

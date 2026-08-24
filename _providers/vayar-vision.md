@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ modified: '2026-07-21'
 name: Vayar Vision
 nav: Providers
 network: true
-overview: Vayar Vision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Visual Search, Image Recognition, Search Engines, and Computer Vision.
+overview: Vayar Vision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Visual Search, Image Recognition, Search Engines, and Computer-Vision.
 random_paper: 17
 score:
   band: minimal
@@ -63,8 +63,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: vayar-vision
 tags:
@@ -72,7 +72,7 @@ tags:
 - Visual Search
 - Image Recognition
 - Search Engines
-- Computer Vision
+- Computer-Vision
 - Israel
 - Defunct
 ---

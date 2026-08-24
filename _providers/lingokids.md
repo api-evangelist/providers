@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -134,19 +134,19 @@ overview: 'Lingokids is profiled on the [APIs.io](https://apis.io/) network. Tag
   Lingokids'' developer surface includes support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 19
 score:
-  band: emerging
-  composite: 25.1
-  delta: 4.0
+  band: thin
+  composite: 26.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 21.1
+  previous_composite: 26.2
   provenance:
     conformance: first-party
   regulatory:
@@ -155,8 +155,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingokids/refs/heads/main/screenshots/lingokids-2026-07-25T225243.png
 security:

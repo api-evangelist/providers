@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: Niramai
 nav: Providers
 network: true
-overview: 'Niramai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Machine Learning, and Medical Imaging.
+overview: 'Niramai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Machine-Learning, and Medical Imaging.
 
 
   Niramai''s developer surface includes support and 4 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 10.0
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -78,15 +78,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 10.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/niramai/refs/heads/main/screenshots/niramai-2026-08-07T185335.png
 security:
@@ -99,10 +99,10 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Medical Imaging
 - Breast Cancer Screening
 - Diagnostics
-- HealthTech
+- Health Tech
 website: https://niramai.com
 ---

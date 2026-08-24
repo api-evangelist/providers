@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-18'
 name: Complyance
 nav: Providers
 network: true
-overview: 'Complyance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Governance Risk Compliance, GRC, and Compliance.
+overview: 'Complyance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Governance Risk Compliance, GRC, and Compliance.
 
 
   Complyance''s developer surface includes engineering blog, signup flow, support, and 10 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 13.4
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -110,16 +110,16 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 18.4
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 22.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/complyance/refs/heads/main/screenshots/complyance-2026-07-25T210204.png
 security:
 - kind: domain-security
@@ -133,7 +133,7 @@ security:
 slug: complyance
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance Risk Compliance
 - GRC
 - Compliance

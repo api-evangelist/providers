@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Allows payers to submit Taxpayer Identification Number (TIN) and name combinations to be matched against IRS records before filing information returns. Supports interactive matching of up to 25 combin
@@ -113,7 +113,7 @@ modified: '2026-06-13'
 name: IRS
 nav: Providers
 network: true
-overview: 'IRS publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IRS, Tax, Federal Government, TIN Matching, and Income Verification.
+overview: 'IRS publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IRS, Tax, Federal-Government, TIN Matching, and Income Verification.
 
 
   IRS''s developer surface includes documentation, getting-started guide, engineering blog, and 10 more developer resources.'
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.0
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -139,15 +139,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 25.0
+  previous_composite: 23.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/irs/refs/heads/main/screenshots/irs-2026-06-20T183613.png
 security:
@@ -159,11 +159,11 @@ slug: irs
 tags:
 - IRS
 - Tax
-- Federal Government
+- Federal-Government
 - TIN Matching
 - Income Verification
 - Information Returns
-- e-File
+- E-File
 - Identity Verification
 - Taxpayer
 website: https://www.irs.gov/

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -282,13 +282,13 @@ image: https://files.readme.io/e7477e0-small-authenticx-logo-black.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: authenticx-mcp.yml
-  slug: authenticx-mcpyml
+  name: Authenticx MCP Server
+  slug: authenticx-mcp-server
 modified: '2026-08-14'
 name: Authenticx
 nav: Providers
 network: true
-overview: 'Authenticx publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 15 more. Tagged areas include conversation-intelligence, healthcare, speech-analytics, contact-center, and customer-experience.
+overview: 'Authenticx publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 15 more. Tagged areas include Conversation Intelligence, Healthcare, Speech Analytics, Contact Center, and Customer Experience.
 
 
   The Authenticx catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -312,7 +312,7 @@ scopes:
 score:
   band: strong
   composite: 54.4
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -322,7 +322,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 52.2
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -339,8 +339,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/screenshots/authenticx-2026-08-07T161942.png
 security:
@@ -358,17 +358,17 @@ security:
   summary_line: SOC 2 Type I & II, HIPAA, GDPR, CCPA
 slug: authenticx
 tags:
-- conversation-intelligence
-- healthcare
-- speech-analytics
-- contact-center
-- customer-experience
-- quality-assurance
-- pharmacovigilance
-- patient-experience
-- transcription
-- life-sciences
-- scim
-- oauth2
+- Conversation Intelligence
+- Healthcare
+- Speech Analytics
+- Contact Center
+- Customer Experience
+- Quality Assurance
+- Pharmacovigilance
+- Patient Experience
+- Transcription
+- Life Sciences
+- SCIM
+- Authentication
 website: https://authenticx.com/
 ---

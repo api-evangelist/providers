@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 8
@@ -394,9 +394,9 @@ description: Wherobots is a managed cloud platform for geospatial analytics and 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wherobots.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: wherobots-mcp.yml
-  slug: wherobots-mcpyml
+- description: Hosted Wherobots Cloud MCP Server for geospatial data exploration and Spatial SQL query generation. Enables intelligent catalog exploration, natural-language query generation, and query execution from
+  name: Wherobots MCP Server
+  slug: wherobots-mcp-server
 modified: '2026-07-21'
 name: Wherobots
 nav: Providers
@@ -409,7 +409,7 @@ random_paper: 2
 score:
   band: developing
   composite: 53.9
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -419,7 +419,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 59.0
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -430,9 +430,9 @@ score:
       total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/screenshots/wherobots-2026-08-17T082916.png
 security:
 - kind: authentication

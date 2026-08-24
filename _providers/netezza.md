@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -100,31 +104,31 @@ created: '2026-07-17'
 description: IBM Netezza Performance Server is a cloud-native data warehouse and analytics appliance for running large-scale SQL analytics and in-database machine learning on structured data. Originally a standalone data-warehouse appliance vendor acquired by IBM, Netezza is now delivered as Netezza Performance Server on IBM Cloud, AWS, and Microsoft Azure and as part of IBM Cloud Pak for Data. It is consumed primarily through SQL over standard database connectivity — the pure-Python nzpy DB-API 2.0 driver, JDBC (nzjdbc) and ODBC drivers, and the nzpyida in-database analytics library — rather than as a public REST API, with a REST interface for backup/restore administration and a web console for monitoring and administration.
 image: https://www.ibm.com/products/netezza
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-21'
 name: Netezza
 nav: Providers
 network: true
 overview: 'Netezza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Warehouse, Analytics, Database, and SQL.
 
 
-  Netezza''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, and 11 more developer resources.'
+  Netezza''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, and 12 more developer resources.'
 random_paper: 13
 score:
   band: emerging
-  composite: 18.6
-  delta: 0.4
+  composite: 19.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 18.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netezza/refs/heads/main/screenshots/netezza-2026-08-07T184931.png
 security:
@@ -143,7 +147,7 @@ tags:
 - Analytics
 - Database
 - SQL
-- Machine Learning
+- Machine-Learning
 - Big Data
 - Cloud Data Platform
 - IBM

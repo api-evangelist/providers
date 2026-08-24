@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -208,8 +208,8 @@ image: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/m
 layout: provider
 mcp_servers:
 - description: ''
-  name: exponential-mcp.yml
-  slug: exponential-mcpyml
+  name: Exponential MCP Server
+  slug: exponential-mcp-server
 modified: '2026-07-19'
 name: Exponential
 nav: Providers
@@ -222,7 +222,7 @@ random_paper: 15
 score:
   band: developing
   composite: 43.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 43.3
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -243,8 +243,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/screenshots/exponential-2026-07-25T213934.png
 security:
@@ -263,9 +263,9 @@ tags:
 - Decentralized Finance
 - Yield
 - Yield Optimizer
-- Vaults
+- Vault
 - ERC-4626
-- Cross-chain
+- Cross-Chain
 - Blockchain
 - Crypto
 - Risk

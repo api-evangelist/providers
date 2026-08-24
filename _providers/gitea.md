@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -732,8 +732,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: gitea-mcp.yml
-  slug: gitea-mcpyml
+  name: Gitea MCP Server
+  slug: gitea-mcp-server
 modified: '2026-06-20'
 name: Gitea
 nav: Providers
@@ -783,18 +783,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.4
-  delta: -10.1
+  composite: 65.9
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 62.0
     developer_ergonomics: 64.3
-    discoverability: 66.7
-    governance: 41.7
+    discoverability: 77.8
+    governance: 45.5
     operational_transparency: 65.8
-  previous_composite: 74.5
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -804,9 +804,9 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/screenshots/gitea-2026-06-20T181832.png
 security:
 - kind: authentication
@@ -841,8 +841,8 @@ tags:
 - DevOps
 - CI/CD
 - Code Hosting
-- Open Source
-- Self Hosted
+- Open-Source
+- Self-Hosted
 - Package Registry
 - Issue Tracking
 - Pull Requests

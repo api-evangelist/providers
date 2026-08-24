@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Silverfin''s public v4 REST API and SyncAPI for accountancy automation: companies, periods, accounts, reconciliations, reports, adjustments, budgets, workflows, users, permanent documents, exports, and'
@@ -147,8 +147,8 @@ image: https://github.com/silverfin.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: silverfin-mcp.yml
-  slug: silverfin-mcpyml
+  name: Silverfin MCP Server
+  slug: silverfin-mcp-server
 modified: '2026-07-21'
 name: Silverfin
 nav: Providers
@@ -169,7 +169,7 @@ scopes:
 score:
   band: thin
   composite: 32.7
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -179,14 +179,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 30.3
-  previous_composite: 40.6
+  previous_composite: 32.7
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Silverfin Authentication
@@ -206,7 +206,7 @@ tags:
 - Reporting
 - Compliance
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Belgium
 website: https://silverfin.com
 ---

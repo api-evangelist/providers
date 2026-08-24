@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -389,18 +389,18 @@ rules:
   slug: amazon-memorydb-spectral-rules
 score:
   band: developing
-  composite: 40.9
-  delta: -4.2
+  composite: 41.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 25.5
     developer_ergonomics: 50.0
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 45.1
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -408,8 +408,8 @@ score:
       derived: 12
       marker_coverage: 100.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/screenshots/amazon-memorydb-2026-06-20T171744.png
 security:

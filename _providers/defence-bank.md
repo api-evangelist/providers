@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -180,9 +180,9 @@ description: Defence Bank Limited is an Australian customer-owned (mutual) bank 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defence-bank.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: defence-bank-mcp.yml
-  slug: defence-bank-mcpyml
+- description: Candidate MCP server surface derived from the publicly reachable Consumer Data Standards Product Reference Data operations. Defence Bank publishes no official hosted MCP server; these tools map one-to
+  name: Defence Bank MCP Server
+  slug: defence-bank-mcp-server
 modified: '2026-07-21'
 name: Defence Bank
 nav: Providers
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 42.3
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 39.2
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,8 +227,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 62.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png
 security:

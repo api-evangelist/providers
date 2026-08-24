@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -284,8 +284,8 @@ image: https://www.bioflyte.com/wp-content/uploads/2023/07/cropped-favicon-512.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: bioflyte-mcp.yml
-  slug: bioflyte-mcpyml
+  name: BioFlyte MCP Server
+  slug: bioflyte-mcp-server
 modified: '2026-08-07'
 name: BioFlyte
 nav: Providers
@@ -301,7 +301,7 @@ random_paper: 1
 score:
   band: thin
   composite: 27.2
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -311,7 +311,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 26.6
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,8 +322,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/screenshots/bioflyte-2026-08-07T162453.png
 security:

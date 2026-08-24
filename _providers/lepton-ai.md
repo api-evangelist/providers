@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Managed AI platform API exposing model endpoints (HTTP server with OpenAI-compatible chat surface), dev sessions with managed GPUs, distributed training jobs, and batch processing. Endpoints are deplo
@@ -37,6 +37,10 @@ apis:
   slug: dgx-cloud-lepton
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/nvidia/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -81,14 +85,14 @@ finops:
   slug: lepton-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lepton-ai.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-08-21'
 name: Lepton AI
 nav: Providers
 network: true
-overview: 'Lepton AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, ML, Inference, Cloud, and GPU.
+overview: 'Lepton AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, ML, Inference, Cloud, and GPU.
 
 
-  Lepton AI''s developer surface includes documentation and 8 more developer resources.'
+  Lepton AI''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Lepton Ai Plans Pricing
   plan_count: 1
@@ -101,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -111,9 +115,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lepton-ai/refs/heads/main/screenshots/lepton-ai-2026-06-20T184428.png
 security:
@@ -123,7 +127,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: lepton-ai
 tags:
-- AI
+- Artificial Intelligence
 - ML
 - Inference
 - Cloud

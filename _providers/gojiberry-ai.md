@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 9
@@ -240,9 +240,9 @@ description: Gojiberry AI is a Y Combinator-backed (P26), EU-hosted AI sales dev
 image: https://framerusercontent.com/images/0PsnqRXKIijGaB8ooIkfAThxHs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: gojiberry-ai-mcp.yml
-  slug: gojiberry-ai-mcpyml
+- description: Hosted MCP server that lets an AI client (e.g. Claude) run multichannel outbound, find and score warm leads, draft personalized messages, and pull pipeline insights from Gojiberry conversationally.
+  name: Gojiberry AI
+  slug: gojiberry-ai
 modified: '2026-08-13'
 name: Gojiberry AI
 nav: Providers
@@ -271,7 +271,7 @@ scopes:
 score:
   band: developing
   composite: 50.0
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
@@ -281,7 +281,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 54.8
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,8 +292,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/screenshots/gojiberry-ai-2026-07-25T220016.png
 security:

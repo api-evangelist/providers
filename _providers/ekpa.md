@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,12 +44,12 @@ modified: '2026-07-19'
 name: Ekpa
 nav: Providers
 network: true
-overview: Ekpa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Portfolio Management, and Trading.
+overview: Ekpa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Portfolio-Management, and Trading.
 random_paper: 18
 score:
   band: minimal
   composite: 0.0
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -65,15 +65,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 4.3
+  previous_composite: 0.0
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ekpa/refs/heads/main/screenshots/ekpa-2026-07-25T213037.png
 slug: ekpa
@@ -81,7 +81,7 @@ tags:
 - Company
 - Fintech
 - Investing
-- Portfolio Management
+- Portfolio-Management
 - Trading
 - AI Agents
 - Consumer Finance

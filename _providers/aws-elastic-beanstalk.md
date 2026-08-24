@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ modified: '2026-05-11'
 name: AWS Elastic Beanstalk
 nav: Providers
 network: true
-overview: 'AWS Elastic Beanstalk publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Elastic Beanstalk API API. Tagged areas include Platform as a Service, Application Deployment, Auto Scaling, Cloud, and DevOps.
+overview: 'AWS Elastic Beanstalk publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Elastic Beanstalk API API. Tagged areas include Platform-as-a-Service, Application Deployment, Auto-Scaling, Cloud, and DevOps.
 
 
   AWS Elastic Beanstalk''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 11
 score:
   band: thin
   composite: 31.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -123,7 +123,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 32.4
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -131,8 +131,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/screenshots/aws-elastic-beanstalk-2026-06-20T172748.png
 security:
@@ -154,9 +154,9 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: aws-elastic-beanstalk
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Application Deployment
-- Auto Scaling
+- Auto-Scaling
 - Cloud
 - DevOps
 website: https://aws.amazon.com/elasticbeanstalk/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -251,18 +251,18 @@ rules:
   slug: the-new-york-times-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.7
-  delta: 2.6
+  composite: 44.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 48.9
     developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 10.5
-  previous_composite: 41.1
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -270,8 +270,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/screenshots/the-new-york-times-2026-06-20T195228.png
 security:

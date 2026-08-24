@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The v1 REST API behind Cloutdesk''s Agent Platform — the programmatic surface agencies, brands, and talent representatives use to run influencer marketing through AI agents. Cursor-paginated, URI-path '
@@ -143,8 +143,8 @@ image: https://cdn.prod.website-files.com/684989b6fb9b11bb4d485104/68cd29a469d19
 layout: provider
 mcp_servers:
 - description: ''
-  name: cloutjam-mcp.yml
-  slug: cloutjam-mcpyml
+  name: CloutJam MCP Server
+  slug: cloutjam-mcp-server
 modified: '2026-08-13'
 name: CloutJam
 nav: Providers
@@ -170,7 +170,7 @@ scopes:
 score:
   band: thin
   composite: 27.0
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -180,13 +180,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 30.8
+  previous_composite: 27.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/screenshots/cloutjam-2026-07-25T205717.png
 security:

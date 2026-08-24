@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: GraphQL API for MSPs covering clients, tickets, assets, users, invoices, knowledge base, and service catalog. US and EU data centers.
@@ -153,9 +153,9 @@ description: SuperOps is a unified PSA (Professional Services Automation) and RM
 image: https://us-west-2.graphassets.com/AsRMKMrtKTFW6TGbr4KgUz/cmo8lbrrc1xga07n3l58jhure
 layout: provider
 mcp_servers:
-- description: ''
-  name: superops-mcp.yml
-  slug: superops-mcpyml
+- description: No official hosted/remote SuperOps MCP server was found (no @superops or @modelcontextprotocol package, no entry in public MCP registries, only a single unrelated repo in the github.com/superopsai org
+  name: SuperOps MCP Server
+  slug: superops-mcp-server
 modified: '2026-07-21'
 name: SuperOps
 nav: Providers
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.7
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -182,13 +182,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 40.0
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

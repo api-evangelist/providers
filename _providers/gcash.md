@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Merchant-facing payment API for GCash mini programs — cashier payment, payment inquiry, refund and refund inquiry, plus OAuth2 user authorization (authCode -> applyToken). Signed requests (Client-Id +
@@ -135,8 +135,8 @@ image: https://logo.clearbit.com/gcash.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: gcash-mcp.yml
-  slug: gcash-mcpyml
+  name: GCash MCP Server
+  slug: gcash-mcp-server
 modified: '2026-07-19'
 name: GCash
 nav: Providers
@@ -152,7 +152,7 @@ random_paper: 14
 score:
   band: developing
   composite: 39.3
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -162,7 +162,7 @@ score:
     discoverability: 79.6
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 40.9
+  previous_composite: 39.3
   provenance:
     conformance: derived
     mcp: derived
@@ -172,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/screenshots/gcash-2026-07-25T215519.png
 security:

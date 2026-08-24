@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 0
@@ -197,8 +197,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freewheel-
 layout: provider
 mcp_servers:
 - description: ''
-  name: freewheel-media-mcp.yml
-  slug: freewheel-media-mcpyml
+  name: FreeWheel Media MCP Server
+  slug: freewheel-media-mcp-server
 modified: '2026-08-12'
 name: FreeWheel Media
 nav: Providers
@@ -219,7 +219,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.2
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -229,7 +229,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 50.9
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,9 +240,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/screenshots/freewheel-media-2026-07-25T215145.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The LatticaAI platform API for deploying and operating encrypted workloads. An RPC-style HTTPS surface rooted at https://api.lattica.ai/api/, authenticated with a Bearer token, covering account and fi
@@ -142,9 +142,9 @@ description: LatticaAI is an Israeli privacy-technology company building Fully H
 image: https://www.lattica.ai/assets/logo/White%20logo%20-%20no%20background.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: lattica-mcp.yml
-  slug: lattica-mcpyml
+- description: Lattica operates NO official MCP server. A search of the docs, the Lattica-ai GitHub organization, and the npm/PyPI namespaces found no hosted remote MCP endpoint, no stdio server package, and no mcp.
+  name: Lattica MCP Server
+  slug: lattica-mcp-server
 modified: '2026-07-19'
 name: Lattica
 nav: Providers
@@ -157,7 +157,7 @@ random_paper: 3
 score:
   band: thin
   composite: 29.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -167,12 +167,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 30.7
+  previous_composite: 29.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lattica/refs/heads/main/screenshots/lattica-2026-07-25T224607.png
 security:
@@ -192,7 +192,7 @@ tags:
 - Encryption
 - Confidential Computing
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - Vector Search
 - Security

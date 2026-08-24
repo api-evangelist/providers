@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
@@ -383,8 +383,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: cisco-mcp.yml
-  slug: cisco-mcpyml
+  name: Cisco MCP Server
+  slug: cisco-mcp-server
 modified: '2026-08-19'
 name: Cisco
 nav: Providers
@@ -429,24 +429,24 @@ rules:
   slug: cisco-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: -7.5
+  composite: 47.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 47.8
     developer_ergonomics: 61.9
     discoverability: 92.6
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 54.7
+  previous_composite: 47.7
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png
 security:
 - kind: authentication

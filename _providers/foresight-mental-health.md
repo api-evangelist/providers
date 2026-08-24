@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -110,7 +110,7 @@ modified: '2026-08-16'
 name: Foresight Mental Health
 nav: Providers
 network: true
-overview: 'Foresight Mental Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Mental Health, Behavioral Health, and Telehealth.
+overview: 'Foresight Mental Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Mental Health, Behavioral Health, and Telehealth.
 
 
   Foresight Mental Health''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -118,7 +118,7 @@ random_paper: 1
 score:
   band: minimal
   composite: 10.0
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -128,15 +128,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.5
+  previous_composite: 10.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -146,7 +146,7 @@ security:
 slug: foresight-mental-health
 tags:
 - Company
-- Health Care
+- Healthcare
 - Mental Health
 - Behavioral Health
 - Telehealth

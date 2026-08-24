@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ modified: '2026-04-19'
 name: Apache Zipkin
 nav: Providers
 network: true
-overview: 'Apache Zipkin publishes 4 APIs on the [APIs.io](https://apis.io/) network, including autocomplete API, services API, spans API, and 1 more. Tagged areas include Distributed Tracing, Microservices, Monitoring, Observability, and Open Source.
+overview: 'Apache Zipkin publishes 4 APIs on the [APIs.io](https://apis.io/) network, including autocomplete API, services API, spans API, and 1 more. Tagged areas include Distributed Tracing, Microservices, Monitoring, Observability, and Open-Source.
 
 
   Apache Zipkin''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -196,7 +196,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 35.8
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/screenshots/apache-zipkin-2026-06-20T172158.png
 security:
@@ -219,7 +219,7 @@ tags:
 - Microservices
 - Monitoring
 - Observability
-- Open Source
+- Open-Source
 use_cases:
 - description: Identify bottlenecks and slow service calls in distributed architectures.
   name: Microservices Latency Troubleshooting

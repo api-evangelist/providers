@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: End-to-end UPI product suite for merchants and aggregators - collect requests, deep-link / intent flows, UPI AutoPay mandates, payment verification, and settlement reporting on India's Unified Payment
@@ -102,7 +102,7 @@ modified: '2026-05-23'
 name: Setu
 nav: Providers
 network: true
-overview: 'Setu publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Finance, APIs, UPI, BBPS, and Account Aggregator.
+overview: 'Setu publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Finance, UPI, BBPS, Account Aggregator, and KYC.
 
 
   Setu''s developer surface includes documentation, developer console, GitHub presence, engineering blog, and 4 more developer resources.'
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -128,9 +128,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/setu/refs/heads/main/screenshots/setu-2026-06-20T193740.png
 security:
@@ -141,7 +141,6 @@ security:
 slug: setu
 tags:
 - Embedded Finance
-- APIs
 - UPI
 - BBPS
 - Account Aggregator

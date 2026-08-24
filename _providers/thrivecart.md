@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for a ThriveCart account. Reads products, bump offers, upsells, downsells and their pricing options; searches transactions and affiliates; reads customer records; refunds transactions; cancel
@@ -184,13 +184,13 @@ image: https://thrivecart.com/wp-content/uploads/2025/07/TC-logo-on-White.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: thrivecart-mcp.yml
-  slug: thrivecart-mcpyml
+  name: ThriveCart MCP Server
+  slug: thrivecart-mcp-server
 modified: '2026-08-12'
 name: ThriveCart
 nav: Providers
 network: true
-overview: 'ThriveCart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Checkout, Shopping Cart, Payments, and eCommerce.
+overview: 'ThriveCart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Checkout, Shopping Cart, Payments, and E-Commerce.
 
 
   The ThriveCart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -214,7 +214,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.3
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -224,7 +224,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 71.1
-  previous_composite: 63.1
+  previous_composite: 68.3
   provenance:
     conformance: first-party
     contracts:
@@ -240,9 +240,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/screenshots/thrivecart-2026-08-17T082349.png
 security:
 - kind: authentication
@@ -267,11 +267,11 @@ tags:
 - Checkout
 - Shopping Cart
 - Payments
-- eCommerce
-- Subscriptions
+- E-Commerce
+- Subscription
 - Affiliate Marketing
 - Learning Management
 - Creator Economy
-- Webhooks
+- Webhook
 website: https://thrivecart.com/
 ---

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: 'The core Foundations REST API over the Reapit agency CRM data platform. It is documented as a hypermedia REST API with date-based versioning (the `api-version: 2020-01-31` header is required), optimis'
@@ -248,14 +248,14 @@ description: 'Reapit is a United Kingdom-headquartered supplier of agency CRM an
 image: https://cdn.prod.website-files.com/65cc1dfdc4913d1034befe43/65f4ec800a019f1d78665d75_webclip-reapit.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: reapit-mcp.yml
-  slug: reapit-mcpyml
+- description: The Reapit Foundations MCP server is a real, hosted, first-party Model Context Protocol server that exposes the agency CRM platform to agents over a single Streamable HTTP endpoint. It is in alpha and
+  name: Reapit MCP Server
+  slug: reapit-mcp-server
 modified: '2026-07-26'
 name: Reapit
 nav: Providers
 network: true
-overview: 'Reapit publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United Kingdom, PropTech, CRM, and Estate Agents.
+overview: 'Reapit publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United Kingdom, PropTech, CRM, and Estate Agents.
 
 
   The Reapit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -275,7 +275,7 @@ scopes:
 score:
   band: strong
   composite: 54.5
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -285,14 +285,14 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 59.9
+  previous_composite: 54.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/screenshots/reapit-2026-08-17T081459.png
 security:
 - kind: authentication
@@ -309,7 +309,7 @@ security:
   summary_line: ISO 27001
 slug: reapit
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - CRM

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The public CKAN 2.9.8 Action API behind National Grid Electricity Distribution's Connected Data Portal, documented by NGED on its own API Guidance page. Exposes the DNO's open data catalogue — 91 data
@@ -182,8 +182,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: national-grid-electricity-distribution-mcp.yml
-  slug: national-grid-electricity-distribution-mcpyml
+  name: National Grid Electricity Distribution MCP Server
+  slug: national-grid-electricity-distribution-mcp-server
 modified: '2026-07-27'
 name: National Grid Electricity Distribution
 nav: Providers
@@ -199,7 +199,7 @@ random_paper: 2
 score:
   band: thin
   composite: 31.9
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -209,7 +209,7 @@ score:
     discoverability: 75.9
     governance: 22.0
     operational_transparency: 0.0
-  previous_composite: 29.5
+  previous_composite: 31.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -219,8 +219,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/screenshots/national-grid-electricity-distribution-2026-08-07T184646.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL subgraph for Fraxswap on Ethereum, exposing pairs, tokens, swaps, liquidity positions, TWAMM long-term orders, and protocol-level analytics via The Graph.
@@ -52,12 +52,12 @@ modified: '2026-06-14'
 name: Frax Finance
 nav: Providers
 network: true
-overview: Frax Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Stablecoin, AMM, TWAMM, and GraphQL.
+overview: Frax Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Stablecoins, AMM, TWAMM, and GraphQL.
 random_paper: 5
 score:
   band: emerging
   composite: 17.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -73,9 +73,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 18.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -85,7 +85,7 @@ security:
 slug: frax-finance
 tags:
 - DeFi
-- Stablecoin
+- Stablecoins
 - AMM
 - TWAMM
 - GraphQL

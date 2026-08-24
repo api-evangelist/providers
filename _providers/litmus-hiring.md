@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Candidate invitations
@@ -145,9 +145,9 @@ description: Litmus is a Y Combinator-backed technical hiring platform that turn
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/litmus-hiring.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: litmus-hiring-mcp.yml
-  slug: litmus-hiring-mcpyml
+- description: Official hosted Model Context Protocol server for the Litmus hiring platform. Connects Claude Desktop, Claude Code, or Cursor (via Clerk OAuth) and headless/automation clients (via a `litmus_sk_...` A
+  name: Litmus Hiring MCP Server
+  slug: litmus-hiring-mcp-server
 modified: '2026-07-20'
 name: Litmus Hiring
 nav: Providers
@@ -164,15 +164,15 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.3
-  delta: -1.2
+  composite: 41.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
     contract_quality: 58.7
     developer_ergonomics: 56.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
   previous_composite: 41.5
@@ -185,8 +185,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/screenshots/litmus-hiring-2026-07-25T225341.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -1119,7 +1119,7 @@ modified: '2026-06-13'
 name: Rarible
 nav: Providers
 network: true
-overview: 'Rarible publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Collection Leader Board API, Collection Statistics API, and 15 more. Tagged areas include NFT, Non-Fungible Tokens, Marketplace, Aggregator, and Multichain.
+overview: 'Rarible publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Collection Leader Board API, Collection Statistics API, and 15 more. Tagged areas include NFT, Non-Fungible Tokens, Marketplace, Aggregator, and Multi-Chain.
 
 
   The Rarible catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -1149,7 +1149,7 @@ rules:
 score:
   band: developing
   composite: 47.3
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -1159,7 +1159,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 31.6
-  previous_composite: 52.4
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1173,9 +1173,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/screenshots/rarible-2026-06-20T192606.png
 security:
 - kind: authentication
@@ -1192,14 +1192,14 @@ tags:
 - Non-Fungible Tokens
 - Marketplace
 - Aggregator
-- Multichain
+- Multi-Chain
 - Ethereum
 - Polygon
 - Arbitrum
 - Flow
 - Web3
 - Blockchain
-- Collections
+- Collection
 - Order Book
 - Trading
 - Indexer

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ modified: '2026-05-30'
 name: Wix
 nav: Providers
 network: true
-overview: 'Wix publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Cart API, Checkout API, and 3 more. Tagged areas include CMS, eCommerce, Headless, and Website Builder.
+overview: 'Wix publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Cart API, Checkout API, and 3 more. Tagged areas include CMS, E-Commerce, Headless, and Website Builder.
 
 
   The Wix catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -244,7 +244,7 @@ scopes:
 score:
   band: thin
   composite: 35.2
-  delta: -11.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -254,7 +254,7 @@ score:
     discoverability: 55.6
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 46.4
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -262,9 +262,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/screenshots/wix-2026-06-20T201529.png
 security:
 - kind: authentication
@@ -300,7 +300,7 @@ skills:
 slug: wix
 tags:
 - CMS
-- eCommerce
+- E-Commerce
 - Headless
 - Website Builder
 use_cases:

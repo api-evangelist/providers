@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Server-to-server REST API for managing businesses, channels, videos, livestreams, playlists, products, business stores, and insights, plus HMAC-signed webhooks. Secured with OAuth 2.0 (client credenti
@@ -168,22 +168,22 @@ scopes:
   summary_line: 12 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 48.3
-  delta: -0.2
+  composite: 49.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 48.5
+  previous_composite: 49.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/screenshots/firework-2026-07-25T214557.png
 security:
@@ -202,10 +202,10 @@ tags:
 - Video Commerce
 - Shoppable Video
 - Livestream Shopping
-- Ecommerce
+- E-Commerce
 - Retail
 - Video
 - SDK
-- Webhooks
+- Webhook
 website: https://docs.firework.com/firework-for-developers
 ---

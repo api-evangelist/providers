@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 4
@@ -742,7 +742,7 @@ modified: '2026-08-08'
 name: Unkey
 nav: Providers
 network: true
-overview: 'Unkey publishes 8 APIs on the [APIs.io](https://apis.io/) network, including analytics API, apis API, deploy API, and 5 more. Tagged areas include API Keys, Rate Limiting, Authentication, Developer Platform, and Access Control.
+overview: 'Unkey publishes 8 APIs on the [APIs.io](https://apis.io/) network, including analytics API, apis API, deploy API, and 5 more. Tagged areas include APIKeys, Rate Limiting, Authentication, Developer Platform, and Access Control.
 
 
   The Unkey catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -782,18 +782,18 @@ rules:
   slug: unkey-rules
 score:
   band: developing
-  composite: 43.3
-  delta: -5.8
+  composite: 43.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.9
     developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -801,9 +801,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/screenshots/unkey-2026-06-20T200401.png
 security:
 - kind: authentication
@@ -816,7 +816,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: unkey
 tags:
-- API Keys
+- APIKeys
 - Rate Limiting
 - Authentication
 - Developer Platform

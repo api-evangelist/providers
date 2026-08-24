@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Asset metadata lookup
@@ -191,9 +191,9 @@ description: Bitpanda is a European retail investment platform, founded in Vienn
 image: https://logo.clearbit.com/bitpanda.com
 layout: provider
 mcp_servers:
-- description: ''
-  name: bitpanda-mcp.yml
-  slug: bitpanda-mcpyml
+- description: Official Bitpanda MCP server maintained by Bitpanda Labs. Connects MCP-compatible AI clients (Claude, Cursor, VS Code Copilot, Windsurf) to the Bitpanda Platform API for secure, read-only access to po
+  name: Bitpanda MCP Server
+  slug: bitpanda-mcp-server
 modified: '2026-07-18'
 name: Bitpanda
 nav: Providers
@@ -206,7 +206,7 @@ random_paper: 16
 score:
   band: developing
   composite: 50.9
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 55.9
+  previous_composite: 50.9
   provenance:
     conformance: first-party
     contracts:
@@ -232,9 +232,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/screenshots/bitpanda-2026-07-25T203204.png
 security:
 - kind: authentication

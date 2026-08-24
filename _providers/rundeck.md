@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Manage Access Control List (ACL) policies for fine-grained permission control.
@@ -162,7 +162,7 @@ modified: '2026-05-02'
 name: Rundeck
 nav: Providers
 network: true
-overview: 'Rundeck publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ACL Policies API, Executions API, Jobs API, and 5 more. Tagged areas include Automation, DevOps, Job Scheduling, Orchestration, and Workflow.
+overview: 'Rundeck publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ACL Policies API, Executions API, Jobs API, and 5 more. Tagged areas include Automation, DevOps, Job Scheduling, Orchestration, and Workflows.
 
 
   The Rundeck catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -202,27 +202,27 @@ rules:
   slug: rundeck-rules
 score:
   band: thin
-  composite: 30.9
-  delta: -8.8
+  composite: 31.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 61.6
     developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 39.7
+  previous_composite: 31.4
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/screenshots/rundeck-2026-06-20T193250.png
 security:
 - kind: domain-security
@@ -235,9 +235,9 @@ tags:
 - DevOps
 - Job Scheduling
 - Orchestration
-- Workflow
+- Workflows
 - Runbook
-- Open Source
+- Open-Source
 - IT Operations
 website: https://www.rundeck.com
 ---

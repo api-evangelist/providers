@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,8 +94,8 @@ image: https://cdn.prod.website-files.com/6778d1207e03199a243dafef/67a195074ba21
 layout: provider
 mcp_servers:
 - description: ''
-  name: getaleph-mcp.yml
-  slug: getaleph-mcpyml
+  name: Aleph Agent MCP
+  slug: aleph-agent-mcp
 modified: '2026-07-19'
 name: Getaleph
 nav: Providers
@@ -108,7 +108,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 18.1
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -118,12 +118,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 21.1
+  previous_composite: 18.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getaleph/refs/heads/main/screenshots/getaleph-2026-07-25T215715.png
 security:
@@ -141,7 +141,7 @@ tags:
 - Spreadsheets
 - Dashboards
 - Analytics
-- AI
+- Artificial Intelligence
 - MCP
 - Agents
 website: https://www.getaleph.com/

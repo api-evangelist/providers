@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Whirlpool connected appliances cloud API enables control and monitoring of Whirlpool, Maytag, KitchenAid, and Consul smart appliances including washers, dryers, ovens, refrigerators, and air condi
@@ -158,7 +158,7 @@ rules:
 score:
   band: emerging
   composite: 17.1
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -168,10 +168,10 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 23.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 17.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/screenshots/whirlpool-2026-06-20T201441.png
 security:
 - kind: domain-security

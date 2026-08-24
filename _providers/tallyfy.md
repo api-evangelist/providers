@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for Tallyfy workflow automation. Organization-scoped resources (/organizations/{org_id}/checklists, /runs, /tasks, ...) with Bearer-token auth (personal, application, or OAuth 2.0 access toke
@@ -163,14 +163,14 @@ description: Tallyfy is workflow and business process management software that l
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tallyfy.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: tallyfy-mcp.yml
-  slug: tallyfy-mcpyml
+- description: 'Official public, hosted Tallyfy MCP server. Every tool calls the public Tallyfy REST API on behalf of the authenticated user, so an assistant only ever sees data the signed-in user is allowed to see. '
+  name: Tallyfy MCP Server
+  slug: tallyfy-mcp-server
 modified: '2026-07-21'
 name: Tallyfy
 nav: Providers
 network: true
-overview: 'Tallyfy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workflow Automation, Business Process Management, SOPs, and Tasks.
+overview: 'Tallyfy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workflow-Automation, Business Process Management, SOPs, and Task.
 
 
   The Tallyfy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -184,23 +184,23 @@ rate_limits:
   slug: tallyfy-rate-limits
 score:
   band: developing
-  composite: 46.1
-  delta: -4.3
+  composite: 47.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 4.5
     contract_quality: 45.1
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 50.4
+  previous_composite: 47.2
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/screenshots/tallyfy-2026-08-17T082246.png
 security:
@@ -219,10 +219,10 @@ security:
 slug: tallyfy
 tags:
 - Company
-- Workflow Automation
+- Workflow-Automation
 - Business Process Management
 - SOPs
-- Tasks
+- Task
 - Approvals
 - Forms
 - Process Management

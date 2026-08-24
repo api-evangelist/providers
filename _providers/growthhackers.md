@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.2
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -156,15 +156,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 15.7
+  previous_composite: 15.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 25.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/growthhackers/refs/heads/main/screenshots/growthhackers-2026-06-20T182419.png
 security:
@@ -180,7 +180,7 @@ tags:
 - Growth Marketing
 - Experimentation
 - Content Marketing
-- Events
+- Event
 - Education
 - Agency Services
 - AI Marketing

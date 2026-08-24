@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,12 +64,12 @@ modified: '2026-04-28'
 name: Lululemon Athletica
 nav: Providers
 network: true
-overview: Lululemon Athletica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Athletic Wear, Retail, Ecommerce, and Fortune 500.
+overview: Lululemon Athletica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Athletic Wear, Retail, E-Commerce, and Fortune 500.
 random_paper: 3
 score:
   band: minimal
   composite: 5.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -79,9 +79,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lululemon-athletica/refs/heads/main/screenshots/lululemon-athletica-2026-06-20T184755.png
 security:
@@ -94,7 +94,7 @@ tags:
 - Apparel
 - Athletic Wear
 - Retail
-- Ecommerce
+- E-Commerce
 - Fortune 500
 website: https://shop.lululemon.com
 ---

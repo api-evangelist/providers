@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-07-03'
 name: Qgiv
 nav: Providers
 network: true
-overview: 'Qgiv publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Custom Amounts API, Custom Fields API, and 7 more. Tagged areas include Nonprofit, Fundraising, Donations, Payments, and Peer to Peer.
+overview: 'Qgiv publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Custom Amounts API, Custom Fields API, and 7 more. Tagged areas include Non-Profit, Fundraising, Donations, Payments, and Peer-to-Peer.
 
 
   Qgiv''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.6
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -191,7 +191,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.1
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -205,8 +205,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -223,12 +223,12 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: qgiv
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
 - Payments
-- Peer to Peer
-- Events
+- Peer-to-Peer
+- Event
 - Bloomerang
 website: https://www.qgiv.com/
 ---

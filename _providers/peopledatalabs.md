@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -312,8 +312,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peopledata
 layout: provider
 mcp_servers:
 - description: ''
-  name: peopledatalabs-mcp.yml
-  slug: peopledatalabs-mcpyml
+  name: People Data Labs Documentation
+  slug: people-data-labs-documentation
 modified: '2026-08-14'
 name: People Data Labs
 nav: Providers
@@ -337,7 +337,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 68.3
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -347,7 +347,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 72.8
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -358,8 +358,8 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/screenshots/peopledatalabs-2026-06-20T191552.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Marketing-partner REST API for MyRealTrip. Search flights (domestic and international, lowest-fare calendars), accommodations, and tours/tickets; generate trackable MyLink short URLs; and retrieve rev
@@ -122,9 +122,9 @@ description: My Real Trip (마이리얼트립) is South Korea's largest online t
 image: https://dffoxz5he03rp.cloudfront.net/logos/mrt_main_og_image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: my-real-trip-mcp.yml
-  slug: my-real-trip-mcpyml
+- description: Official MyRealTrip (마이리얼트립) MCP server. Exposes real-time flight, stay, and tour/activity search over the Model Context Protocol for AI clients (Claude Desktop/Code, Cursor, Codex CLI, Gemini CLI, Wi
+  name: My Real Trip MCP Server
+  slug: my-real-trip-mcp-server
 modified: '2026-07-20'
 name: My Real Trip
 nav: Providers
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.2
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -151,13 +151,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 31.6
+  previous_composite: 27.2
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/my-real-trip/refs/heads/main/screenshots/my-real-trip-2026-08-07T184503.png
 security:
@@ -178,7 +178,7 @@ tags:
 - Flights
 - Accommodation
 - Tours and Activities
-- Affiliate
+- Affiliates
 - MCP
 - South Korea
 website: https://www.myrealtrip.com/

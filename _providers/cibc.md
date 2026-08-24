@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-23'
 name: CIBC
 nav: Providers
 network: true
-overview: 'CIBC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Big Six, and Schedule I Bank.
+overview: 'CIBC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Big Six, and Schedule I Bank.
 
 
   CIBC''s developer surface includes documentation and 9 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 10.2
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -90,15 +90,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 13.2
+  previous_composite: 10.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cibc/refs/heads/main/screenshots/cibc-2026-07-25T205336.png
 security:
@@ -108,7 +108,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cibc
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Big Six

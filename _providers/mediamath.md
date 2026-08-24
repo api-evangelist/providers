@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -1484,13 +1484,13 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mediamath-mcp.yml
-  slug: mediamath-mcpyml
+  name: MediaMath MCP Server
+  slug: mediamath-mcp-server
 modified: '2026-08-13'
 name: MediaMath
 nav: Providers
 network: true
-overview: 'MediaMath publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Marketplaces API V2.0, Bring Your Own Algorithm (BYOA) API, Ad Servers API, and 41 more. Tagged areas include Programmatic Advertising, DSP, Demand-Side Platform, Campaign Management, and Ad Tech.
+overview: 'MediaMath publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Marketplaces API V2.0, Bring Your Own Algorithm (BYOA) API, Ad Servers API, and 41 more. Tagged areas include Programmatic Advertising, DSP, Demand-Side Platform, Campaign Management, and AdTech.
 
 
   The MediaMath catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -1525,7 +1525,7 @@ scopes:
 score:
   band: strong
   composite: 63.0
-  delta: -9.4
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
@@ -1535,7 +1535,7 @@ score:
     discoverability: 87.0
     governance: 26.5
     operational_transparency: 60.5
-  previous_composite: 72.4
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1546,9 +1546,9 @@ score:
       total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png
 security:
 - kind: authentication
@@ -1569,7 +1569,7 @@ tags:
 - DSP
 - Demand-Side Platform
 - Campaign Management
-- Ad Tech
+- AdTech
 - Bidding
 - Audience Segments
 - Creative Management

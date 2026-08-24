@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -239,13 +239,13 @@ image: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/op
 layout: provider
 mcp_servers:
 - description: ''
-  name: fixie-mcp.yml
-  slug: fixie-mcpyml
+  name: Fixie MCP Server
+  slug: fixie-mcp-server
 modified: '2026-07-19'
 name: Fixie
 nav: Providers
 network: true
-overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, including accounts API, agents API, api_keys API, and 11 more. Tagged areas include Company, Voice AI, Conversational AI, Real-time, and Speech.
+overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, including accounts API, agents API, api_keys API, and 11 more. Tagged areas include Company, Voice AI, Conversational AI, Real-Time, and Speech.
 
 
   The Fixie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -256,7 +256,7 @@ random_paper: 8
 score:
   band: developing
   composite: 50.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -266,7 +266,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 51.1
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,8 +277,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/screenshots/fixie-2026-07-25T214652.png
 security:
@@ -299,12 +299,12 @@ tags:
 - Company
 - Voice AI
 - Conversational AI
-- Real-time
+- Real-Time
 - Speech
 - Agents
 - Telephony
-- Machine Learning
+- Machine-Learning
 - SIP
-- Webhooks
+- Webhook
 website: https://ultravox.ai/
 ---

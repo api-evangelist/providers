@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -546,18 +546,18 @@ rules:
   slug: elevenlabs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: -4.5
+  composite: 34.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 77.1
     developer_ergonomics: 14.3
     discoverability: 57.4
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 38.3
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -569,8 +569,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

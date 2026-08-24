@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -585,7 +585,7 @@ rules:
 score:
   band: thin
   composite: 35.4
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -595,7 +595,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 40.4
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -609,9 +609,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/screenshots/gmx-2026-06-20T181934.png
 security:
 - kind: domain-security

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ modified: '2026-05-02'
 name: ScanSource
 nav: Providers
 network: true
-overview: 'ScanSource publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Invoices API, Orders API, and 4 more. Tagged areas include ScanSource, Distribution, Barcode, Point Of Sale, and AIDC.
+overview: 'ScanSource publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Invoices API, Orders API, and 4 more. Tagged areas include ScanSource, Distribution, Barcodes, Point-of-Sale, and AIDC.
 
 
   The ScanSource catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -240,7 +240,7 @@ rules:
 score:
   band: developing
   composite: 40.4
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -250,7 +250,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 46.0
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -258,9 +258,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png
 security:
 - kind: authentication
@@ -275,8 +275,8 @@ slug: scansource
 tags:
 - ScanSource
 - Distribution
-- Barcode
-- Point Of Sale
+- Barcodes
+- Point-of-Sale
 - AIDC
 - Inventory
 - Order Management

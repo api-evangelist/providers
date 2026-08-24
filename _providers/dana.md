@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ modified: '2026-05-19'
 name: Dana
 nav: Providers
 network: true
-overview: 'Dana publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Orders API, Parts API, and 2 more. Tagged areas include Aftermarket, Auto Parts, Drivetrain, eCommerce, and Supply Chain.
+overview: 'Dana publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Orders API, Parts API, and 2 more. Tagged areas include Aftermarket, Auto Parts, Drivetrain, E-Commerce, and Supply Chain.
 
 
   The Dana catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -190,19 +190,19 @@ rules:
     warn: 3
   slug: dana-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.2
-  delta: 0.3
+  band: developing
+  composite: 39.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 63.6
     developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 5.3
-  previous_composite: 37.9
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/screenshots/dana-2026-06-20T175459.png
 security:
@@ -228,7 +228,7 @@ tags:
 - Aftermarket
 - Auto Parts
 - Drivetrain
-- eCommerce
+- E-Commerce
 - Supply Chain
 - Fortune 500
 website: https://www.dana.com/

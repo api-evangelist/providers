@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ modified: '2026-06-12'
 name: Fyno
 nav: Providers
 network: true
-overview: 'Fyno publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fire an Event API, Fyno Verify API, Manage User Profiles API, and 3 more. Tagged areas include Notifications, Messaging, Communication, Push Notifications, and Email.
+overview: 'Fyno publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fire an Event API, Fyno Verify API, Manage User Profiles API, and 3 more. Tagged areas include Notification, Messaging, Communications, Push Notifications, and Email.
 
 
   The Fyno catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -259,7 +259,7 @@ rules:
 score:
   band: developing
   composite: 50.8
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -269,7 +269,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 56.1
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -283,9 +283,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/screenshots/fyno-2026-06-20T181627.png
 security:
 - kind: authentication
@@ -302,9 +302,9 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: fyno
 tags:
-- Notifications
+- Notification
 - Messaging
-- Communication
+- Communications
 - Push Notifications
 - Email
 - SMS

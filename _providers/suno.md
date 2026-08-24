@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ modified: '2026-08-08'
 name: Suno
 nav: Providers
 network: true
-overview: 'Suno publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lyrics API and Music API. Tagged areas include AI, Music Generation, Audio, Generative, and TTS.
+overview: 'Suno publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lyrics API and Music API. Tagged areas include Artificial Intelligence, Music Generation, Audio, Generative, and TTS.
 
 
   Suno''s developer surface includes authentication, engineering blog, pricing, GitHub presence, YouTube channel, and 22 more developer resources.'
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.1
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -207,7 +207,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 36.3
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -215,9 +215,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/screenshots/suno-2026-06-20T194658.png
 security:
 - kind: authentication
@@ -230,7 +230,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: suno
 tags:
-- AI
+- Artificial Intelligence
 - Music Generation
 - Audio
 - Generative

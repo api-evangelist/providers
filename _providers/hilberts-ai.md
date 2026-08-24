@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The backend API of the Hilbert growth-infrastructure application. Its OpenAPI 3.0.0 document is published unauthenticated through a Swagger UI at https://app-api.hilberts.ai/api-docs. The document dec
@@ -128,8 +128,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/screenshots/hilberts-ai-2026-07-25T221242.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -172,9 +172,9 @@ examples:
 image: https://docs.wattwatchers.com.au/assets/images/favicon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: wattwatchers-mcp.yml
-  slug: wattwatchers-mcpyml
+- description: 'Candidate MCP tool surface for the Wattwatchers REST API v3 (Mercury). All 14 operations map cleanly to tools. Note the safety profile: 13 of 14 are safe reads, and exactly one — update_device — is a '
+  name: Wattwatchers MCP Server
+  slug: wattwatchers-mcp-server
 modified: '2026-07-27'
 name: Wattwatchers
 nav: Providers
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.8
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -201,7 +201,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 39.4
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,9 +218,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Wattwatchers Authentication

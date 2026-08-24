@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -350,9 +350,9 @@ description: Rillet is an AI-native, cloud enterprise resource planning (ERP) an
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rillet.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rillet-mcp.yml
-  slug: rillet-mcpyml
+- description: Rillet's official remote MCP server exposes the same features as the Rillet Public API, letting AI assistants (Claude Desktop, Claude Code, Cursor) operate on a Rillet account. Tool access is scoped t
+  name: Rillet MCP Server
+  slug: rillet-mcp-server
 modified: '2026-07-21'
 name: Rillet
 nav: Providers
@@ -372,18 +372,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.8
-  delta: -4.5
+  composite: 49.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
     contract_quality: 66.4
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 19.7
-  previous_composite: 53.3
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -394,8 +394,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/screenshots/rillet-2026-08-17T081608.png
 security:
@@ -418,6 +418,6 @@ tags:
 - Accounts Receivable
 - Accounts Payable
 - Invoicing
-- SaaS
+- Software-as-a-Service
 website: https://rillet.com/
 ---

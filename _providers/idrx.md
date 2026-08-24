@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -155,13 +155,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/idrx.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: idrx-mcp.yml
-  slug: idrx-mcpyml
+  name: IDRX MCP Server
+  slug: idrx-mcp-server
 modified: '2026-07-19'
 name: IDRX
 nav: Providers
 network: true
-overview: 'IDRX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Onboarding API and Transaction API. Tagged areas include Stablecoin, Cryptocurrency, Payments, Blockchain, and Fintech.
+overview: 'IDRX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Onboarding API and Transaction API. Tagged areas include Stablecoins, Cryptocurrency, Payments, Blockchain, and Fintech.
 
 
   The IDRX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -172,7 +172,7 @@ random_paper: 19
 score:
   band: developing
   composite: 40.4
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -182,7 +182,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 41.6
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,8 +199,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/screenshots/idrx-2026-07-25T222044.png
 security:
@@ -214,7 +214,7 @@ security:
   summary_line: TLSv1.3
 slug: idrx
 tags:
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Blockchain

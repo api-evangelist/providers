@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -159,8 +159,8 @@ image: https://www.ketryx.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: ketryx-mcp.yml
-  slug: ketryx-mcpyml
+  name: Ketryx MCP Server
+  slug: ketryx-mcp-server
 modified: '2026-07-19'
 name: Ketryx
 nav: Providers
@@ -173,7 +173,7 @@ random_paper: 7
 score:
   band: thin
   composite: 36.7
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -183,7 +183,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 38.9
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -200,8 +200,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/screenshots/ketryx-2026-07-25T223638.png
 security:

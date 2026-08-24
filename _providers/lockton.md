@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ modified: '2026-07-25'
 name: Lockton
 nav: Providers
 network: true
-overview: 'Lockton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United States, Broker, Insurance Brokerage, and Property and Casualty.
+overview: 'Lockton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United States, Brokers, Insurance Brokerage, and Property and Casualty.
 
 
   Lockton''s developer surface includes engineering blog, support, YouTube channel, and 12 more developer resources.'
@@ -101,7 +101,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 13.2
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -111,15 +111,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.5
+  previous_composite: 13.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lockton/refs/heads/main/screenshots/lockton-2026-07-25T225435.png
 security:
@@ -131,7 +131,7 @@ slug: lockton
 tags:
 - Insurance
 - United States
-- Broker
+- Brokers
 - Insurance Brokerage
 - Property and Casualty
 - Employee Benefits

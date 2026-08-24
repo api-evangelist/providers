@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The HealthEquity API provides access to platform services and data for enterprise integration and automation.
@@ -78,7 +78,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.7
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -88,15 +88,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 10.1
+  previous_composite: 8.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthequity/refs/heads/main/screenshots/healthequity-2026-07-25T220836.png
 security:

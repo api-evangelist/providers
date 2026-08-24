@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Budbee's public REST API for e-commerce merchants and integration partners to create delivery orders, book home and locker delivery intervals, validate serviceable postal codes, discover parcel locker
@@ -126,14 +126,14 @@ description: Instabee is a European last-mile logistics technology company forme
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instabee.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: instabee-mcp.yml
-  slug: instabee-mcpyml
+- description: No official hosted/remote MCP server was found for Instabee/Budbee. This is a candidate tool list derived from the documented Budbee Delivery API operations, for a future MCP wrapper.
+  name: Instabee MCP Server
+  slug: instabee-mcp-server
 modified: '2026-07-19'
 name: Instabee
 nav: Providers
 network: true
-overview: 'Instabee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Logistics, Last-Mile Delivery, and Shipping.
+overview: 'Instabee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Logistics, Last Mile Delivery, and Shipping.
 
 
   The Instabee catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.1
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -158,11 +158,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 42.6
+  previous_composite: 40.1
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabee/refs/heads/main/screenshots/instabee-2026-07-25T222557.png
 security:
@@ -179,9 +179,9 @@ tags:
 - Company
 - Retail
 - Logistics
-- Last-Mile Delivery
+- Last Mile Delivery
 - Shipping
-- E-commerce
+- E-Commerce
 - Parcel Lockers
 - Returns
 - Nordics

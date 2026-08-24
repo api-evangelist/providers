@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -139,7 +139,7 @@ rules:
 score:
   band: emerging
   composite: 12.4
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -155,10 +155,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 18.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valmont-industries/refs/heads/main/screenshots/valmont-industries-2026-06-20T200803.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The F6S API provides programmatic access to the F6S platform, the world's largest startup and founder community. It enables developers to integrate with F6S's core capabilities including application m
@@ -113,7 +113,7 @@ modified: '2026-04-28'
 name: F6S
 nav: Providers
 network: true
-overview: 'F6S publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accelerators, Funding, Jobs, and Startups.
+overview: 'F6S publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accelerators, Funding, Job, and Startups.
 
 
   F6S''s developer surface includes documentation, developer portal, signup flow, engineering blog, and 12 more developer resources.'
@@ -146,8 +146,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 19.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f6s/refs/heads/main/screenshots/f6s-2026-06-20T181009.png
 security:
@@ -159,7 +159,7 @@ slug: f6s
 tags:
 - Accelerators
 - Funding
-- Jobs
+- Job
 - Startups
 website: https://www.f6s.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -183,13 +183,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/primis.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: primis-mcp.yml
-  slug: primis-mcpyml
+  name: PRIMIS MCP Server
+  slug: primis-mcp-server
 modified: '2026-07-20'
 name: PRIMIS
 nav: Providers
 network: true
-overview: 'PRIMIS publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Billing API, Campaign API, and 9 more. Tagged areas include Company, eCommerce, Logistics, Shipping, and Returns.
+overview: 'PRIMIS publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Billing API, Campaign API, and 9 more. Tagged areas include Company, E-Commerce, Logistics, Shipping, and Returns.
 
 
   PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 9 more developer resources.'
@@ -197,7 +197,7 @@ random_paper: 9
 score:
   band: thin
   composite: 36.6
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 36.1
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
       marker_coverage: 0.0
       total: 12
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -232,7 +232,7 @@ security:
 slug: primis
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Logistics
 - Shipping
 - Returns

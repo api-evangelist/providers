@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ modified: '2026-04-28'
 name: OpenKruise
 nav: Providers
 network: true
-overview: 'OpenKruise publishes 1 API on the [APIs.io](https://apis.io/) network: Apis API. Tagged areas include Cloud Native, Controllers, Deployment, Incubating, and Kubernetes.
+overview: 'OpenKruise publishes 1 API on the [APIs.io](https://apis.io/) network: Apis API. Tagged areas include Cloud-Native, Controllers, Deployment, Incubating, and Kubernetes.
 
 
   OpenKruise''s developer surface includes authentication, documentation, engineering blog, and 4 more developer resources.'
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.7
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -124,7 +124,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 28.9
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     contracts:
@@ -132,8 +132,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/screenshots/openkruise-2026-06-20T191009.png
 security:
@@ -147,7 +147,7 @@ security:
   summary_line: TLSv1.3
 slug: openkruise
 tags:
-- Cloud Native
+- Cloud-Native
 - Controllers
 - Deployment
 - Incubating

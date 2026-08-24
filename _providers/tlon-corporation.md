@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Urbit ship HTTP API (Eyre channels) that powers Tlon Messenger. Clients authenticate to a ship with its +code access code, then poke and subscribe over a channel to send/read messages, manage grou
@@ -140,7 +140,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 25.0
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -150,12 +150,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 28.8
+  previous_composite: 25.0
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

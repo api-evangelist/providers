@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Account-to-account payments over open banking — create payment sessions (checkout), payouts, refunds, and webhooks. The Partner API onboards businesses on behalf of platforms. OAuth 2.0 client-credent
@@ -155,8 +155,8 @@ image: https://images.prismic.io/banked/dc1e104e-b397-4f26-ba16-0b64aee7daea_pag
 layout: provider
 mcp_servers:
 - description: ''
-  name: banked-mcp.yml
-  slug: banked-mcpyml
+  name: Banked MCP Server
+  slug: banked-mcp-server
 modified: '2026-07-18'
 name: Banked
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 4
 score:
   band: developing
   composite: 40.9
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -182,7 +182,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 46.2
+  previous_composite: 40.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -192,9 +192,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banked/refs/heads/main/screenshots/banked-2026-07-25T202342.png
 security:
 - kind: authentication

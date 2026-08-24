@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ modified: '2026-05-19'
 name: Chatwork
 nav: Providers
 network: true
-overview: 'Chatwork publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Files API, Incoming Requests API, and 6 more. Tagged areas include Messaging, Chat, Collaboration, Productivity, and Tasks.
+overview: 'Chatwork publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Files API, Incoming Requests API, and 6 more. Tagged areas include Messaging, Chat, Collaboration, Productivity, and Task.
 
 
   Chatwork''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 12 more developer resources.'
@@ -194,7 +194,7 @@ random_paper: 6
 score:
   band: thin
   composite: 28.3
-  delta: -9.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -204,7 +204,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 37.3
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
@@ -212,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/screenshots/chatwork-2026-06-20T174238.png
 security:
 - kind: authentication
@@ -235,6 +235,6 @@ tags:
 - Chat
 - Collaboration
 - Productivity
-- Tasks
+- Task
 website: https://go.chatwork.com
 ---

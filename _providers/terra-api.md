@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-07-03'
 name: Terra
 nav: Providers
 network: true
-overview: 'Terra publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Athlete API, Authentication API, and 7 more. Tagged areas include Wearables, Health Data, Fitness, Aggregator, and Webhooks.
+overview: 'Terra publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Athlete API, Authentication API, and 7 more. Tagged areas include Wearables, Health Data, Fitness, Aggregator, and Webhook.
 
 
   Terra''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -184,7 +184,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.3
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -194,7 +194,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.0
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -208,8 +208,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -226,7 +226,7 @@ tags:
 - Health Data
 - Fitness
 - Aggregator
-- Webhooks
+- Webhook
 - Digital Health
 website: https://tryterra.co
 ---

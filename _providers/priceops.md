@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing customer information and usage records within the PriceOps pricing infrastructure platform. Supports retrieval of subscribed customers and their active plans, posting usage recor
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: PriceOps
 nav: Providers
 network: true
-overview: 'PriceOps publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Pricing, Packaging, SaaS, Monetization, and Plans.
+overview: 'PriceOps publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Pricing, Packaging, Software-as-a-Service, Monetization, and Plans.
 
 
   PriceOps'' developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -123,9 +123,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/priceops/refs/heads/main/screenshots/priceops-2026-06-20T192101.png
 security:
@@ -137,7 +137,7 @@ slug: priceops
 tags:
 - Pricing
 - Packaging
-- SaaS
+- Software-as-a-Service
 - Monetization
 - Plans
 - Entitlements

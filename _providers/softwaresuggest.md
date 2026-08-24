@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'The SoftwareSuggest software catalog is a browsable and searchable index of over 50,000 B2B software products across 800+ categories. Users can filter by category, features, pricing model, deployment '
@@ -130,7 +130,7 @@ modified: '2026-07-25'
 name: SoftwareSuggest
 nav: Providers
 network: true
-overview: 'SoftwareSuggest publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Software Discovery, Business Software, SaaS, Software Reviews, and B2B.
+overview: 'SoftwareSuggest publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Software Discovery, Business Software, Software-as-a-Service, Software Reviews, and B2B.
 
 
   The SoftwareSuggest catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -160,7 +160,7 @@ rules:
 score:
   band: emerging
   composite: 24.1
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -170,10 +170,10 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 29.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 24.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Softwaresuggest Domain Security
@@ -183,7 +183,7 @@ slug: softwaresuggest
 tags:
 - Software Discovery
 - Business Software
-- SaaS
+- Software-as-a-Service
 - Software Reviews
 - B2B
 website: https://www.softwaresuggest.com/

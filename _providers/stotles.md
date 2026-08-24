@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'REST API giving programmatic access to UK and Ireland public sector procurement data — notices, buyers, suppliers and framework agreements — as JSON over HTTPS. Eight read-only operations across four '
@@ -133,11 +133,11 @@ image: https://cdn.prod.website-files.com/67caf809eabcc3eb572f7bc7/68149b136c8bc
 layout: provider
 mcp_servers:
 - description: ''
-  name: stotles-mcp.yml
-  slug: stotles-mcpyml
+  name: Stotles MCP server
+  slug: stotles-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Stotles MCP Server
+  slug: stotles-mcp-server-2
 modified: '2026-08-14'
 name: Stotles
 nav: Providers
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.3
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -168,7 +168,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 51.4
+  previous_composite: 52.3
   provenance:
     conformance: first-party
     contracts:
@@ -184,8 +184,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/screenshots/stotles-2026-08-17T082131.png
 security:
@@ -211,10 +211,9 @@ tags:
 - Sales Intelligence
 - B2G
 - Market Intelligence
-- API
 - OpenAPI
 - MCP
-- Agent Native
+- agent-native
 - Contract Awards
 - Framework Agreements
 - CPV

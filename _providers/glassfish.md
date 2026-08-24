@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Built-in REST administration API exposed by the GlassFish Domain Administration Server (DAS) for managing domains, applications, JDBC and JMS resources, clusters, monitoring data, and configuration. S
@@ -92,7 +92,7 @@ modified: '2026-05-11'
 name: Eclipse GlassFish
 nav: Providers
 network: true
-overview: 'Eclipse GlassFish publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Application Server, Jakarta EE, Java EE, Open Source, and Eclipse Foundation.
+overview: 'Eclipse GlassFish publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Application Server, Jakarta EE, Java EE, Open-Source, and Eclipse Foundation.
 
 
   Eclipse GlassFish''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 11.6
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,9 +110,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 11.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glassfish/refs/heads/main/screenshots/glassfish-2026-06-20T181901.png
 security:
@@ -125,7 +125,7 @@ tags:
 - Application Server
 - Jakarta EE
 - Java EE
-- Open Source
+- Open-Source
 - Eclipse Foundation
 - Servlet Container
 - Reference Implementation

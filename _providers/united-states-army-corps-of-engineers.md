@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ modified: '2026-05-19'
 name: United States Army Corps of Engineers
 nav: Providers
 network: true
-overview: 'United States Army Corps of Engineers publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Basins API, Catalog API, Forecasts API, and 7 more. Tagged areas include Engineering, Federal Government, Water Resources, Hydrology, and Civil Engineering.
+overview: 'United States Army Corps of Engineers publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Basins API, Catalog API, Forecasts API, and 7 more. Tagged areas include Engineering, Federal-Government, Water Resources, Hydrology, and Civil Engineering.
 
 
   The United States Army Corps of Engineers catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -239,7 +239,7 @@ rules:
 score:
   band: thin
   composite: 38.7
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -249,7 +249,7 @@ score:
     discoverability: 74.1
     governance: 54.5
     operational_transparency: 13.2
-  previous_composite: 35.6
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -263,8 +263,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/screenshots/united-states-army-corps-of-engineers-2026-06-20T200046.png
 security:
@@ -279,7 +279,7 @@ security:
 slug: united-states-army-corps-of-engineers
 tags:
 - Engineering
-- Federal Government
+- Federal-Government
 - Water Resources
 - Hydrology
 - Civil Engineering

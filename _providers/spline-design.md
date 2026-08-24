@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -153,7 +153,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 13.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -163,9 +163,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 13.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spline-design/refs/heads/main/screenshots/spline-design-2026-06-20T194406.png
 security:
@@ -198,9 +198,9 @@ tags:
 - Kotlin
 - React
 - React Three Fiber
-- GLTF
+- glTF
 - USDZ
-- Webhooks
+- Webhook
 - Real-time API
 - AI 3D Generation
 - Design Tools

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Smithy Interface Definition Language (IDL) is a specification for defining API models using shapes and traits. Models can be written in the Smithy IDL syntax or the JSON AST representation. Smithy
@@ -120,7 +120,7 @@ modified: '2026-05-02'
 name: Smithy
 nav: Providers
 network: true
-overview: 'Smithy publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, IDL, SDKs, API Design, and Interface Definition Language.
+overview: 'Smithy publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, IDL, SDK, API Design, and Interface Definition Language.
 
 
   The Smithy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -160,21 +160,21 @@ rules:
   slug: smithy-rules
 score:
   band: emerging
-  composite: 19.6
-  delta: -5.8
+  composite: 20.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 12.7
     developer_ergonomics: 23.8
     discoverability: 59.3
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 25.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 20.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithy/refs/heads/main/screenshots/smithy-2026-06-20T194054.png
 security:
 - kind: domain-security
@@ -185,7 +185,7 @@ slug: smithy
 tags:
 - Code Generation
 - IDL
-- SDKs
+- SDK
 - API Design
 - Interface Definition Language
 - Toolchain

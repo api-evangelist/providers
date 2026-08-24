@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -481,13 +481,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: fal-ai-mcp.yml
-  slug: fal-ai-mcpyml
+  name: fal MCP Server
+  slug: fal-mcp-server
 modified: '2026-06-20'
 name: fal
 nav: Providers
 network: true
-overview: 'fal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Streaming API, Apps API, and 5 more. Tagged areas include AI, Artificial Intelligence, Generative AI, Generative Media, and Image Generation.
+overview: 'fal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Streaming API, Apps API, and 5 more. Tagged areas include Artificial Intelligence, Generative AI, Generative Media, Image-Generation, and Video Generation.
 
 
   The fal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -538,18 +538,18 @@ rules:
   slug: fal-ai-rules
 score:
   band: exemplar
-  composite: 69.3
-  delta: -6.7
+  composite: 69.6
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 28.0
+    contract_governance: 30.3
     contract_quality: 77.0
     developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 28.0
+    governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 76.0
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -559,9 +559,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/screenshots/fal-ai-2026-06-20T181030.png
 security:
 - kind: authentication
@@ -578,11 +578,10 @@ security:
   summary_line: SOC 2 Type II
 slug: fal-ai
 tags:
-- AI
 - Artificial Intelligence
 - Generative AI
 - Generative Media
-- Image Generation
+- Image-Generation
 - Video Generation
 - Audio Generation
 - Inference

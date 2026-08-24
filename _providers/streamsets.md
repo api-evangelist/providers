@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for IBM StreamSets Control Hub — the cloud-native control plane for designing, deploying, orchestrating, and monitoring StreamSets data pipelines and jobs across engines. Programmatic access '
@@ -36,6 +36,10 @@ apis:
   slug: streamsets-control-hub-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -92,19 +96,19 @@ created: '2026-07-17'
 description: StreamSets, now part of IBM, is a DataOps platform for building, running, and operating smart data pipelines for streaming, batch, and change-data-capture workloads across hybrid and multi-cloud environments. Its flagship products — Control Hub (the cloud-native control plane), Data Collector, and Transformer — let data engineers design pipelines once and run them anywhere, with drift detection that keeps pipelines resilient as schemas and infrastructure change. StreamSets exposes a Control Hub REST API and an official Python SDK so teams can automate pipeline design, deployment, job orchestration, and monitoring as code. Originally founded in 2014 and backed by Battery Ventures and DCVC, StreamSets was acquired by Software AG and is now delivered as IBM StreamSets.
 image: https://www.ibm.com/products/streamsets
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-21'
 name: StreamSets
 nav: Providers
 network: true
-overview: 'StreamSets publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Integration, DataOps, Data Pipelines, and ETL.
+overview: 'StreamSets publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Integration, DataOps, Data Pipeline, and ETL.
 
 
-  StreamSets'' developer surface includes documentation, pricing, support, signup flow, and 9 more developer resources.'
+  StreamSets'' developer surface includes documentation, pricing, support, signup flow, and 10 more developer resources.'
 random_paper: 7
 score:
   band: emerging
   composite: 21.2
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -114,9 +118,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -132,7 +136,7 @@ tags:
 - Company
 - Data Integration
 - DataOps
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Streaming Data
 - Change Data Capture

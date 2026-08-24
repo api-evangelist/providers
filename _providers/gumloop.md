@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 5
@@ -268,13 +268,13 @@ image: https://gumloop.com/images/link-preview.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: gumloop-mcp.yml
-  slug: gumloop-mcpyml
+  name: Gumloop MCP Server
+  slug: gumloop-mcp-server
 modified: '2026-07-19'
 name: Gumloop
 nav: Providers
 network: true
-overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Artifacts API, Brain API, and 11 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Workflow Automation.
+overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Artifacts API, Brain API, and 11 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Workflow-Automation.
 
 
   The Gumloop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -289,18 +289,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.2
-  delta: -2.3
+  composite: 56.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 65.2
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 57.5
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,8 +311,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/screenshots/gumloop-2026-07-25T220434.png
 security:
@@ -334,7 +334,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Automation
-- Workflow Automation
+- Workflow-Automation
 - Agent Platform
 - MCP
 - LLM

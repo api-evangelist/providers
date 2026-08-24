@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Packhelp''s "first-ever API for packaging" — a sales-gated set of web services for building packaging workflows into your own application: sell and quote packaging, access a curated EU-producer catalog'
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: Packhelp
 nav: Providers
 network: true
-overview: 'Packhelp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Packaging, Custom Packaging, E-commerce, and Fulfillment.
+overview: 'Packhelp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Packaging, Custom Packaging, E-Commerce, and Fulfillment.
 
 
   Packhelp''s developer surface includes support, engineering blog, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 11.9
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -90,9 +90,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packhelp/refs/heads/main/screenshots/packhelp-2026-08-07T191245.png
 security:
@@ -105,7 +105,7 @@ tags:
 - Company
 - Packaging
 - Custom Packaging
-- E-commerce
+- E-Commerce
 - Fulfillment
 - Logistics
 - Procurement

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -90,13 +90,13 @@ image: http://static1.squarespace.com/static/64a501cd597afc605cffd0ee/t/69b62cac
 layout: provider
 mcp_servers:
 - description: ''
-  name: artian-mcp.yml
-  slug: artian-mcpyml
+  name: Artian MCP Server
+  slug: artian-mcp-server
 modified: '2026-07-19'
 name: Artian
 nav: Providers
 network: true
-overview: 'Artian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic AI, and Financial Services.
+overview: 'Artian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic AI, and Financial-Services.
 
 
   Artian''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 19.5
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -114,7 +114,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 20.4
+  previous_composite: 19.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -124,8 +124,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/screenshots/artian-2026-07-25T201333.png
 security:
@@ -143,9 +143,9 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Agentic AI
-- Financial Services
+- Financial-Services
 - Enterprise Software
-- Workflow Automation
+- Workflow-Automation
 - AI Governance
 - Model Risk Management
 - Insurance

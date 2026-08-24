@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ modified: '2026-08-08'
 name: Pecan
 nav: Providers
 network: true
-overview: 'Pecan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Predictive Analytics, Machine Learning, and Data Science.
+overview: 'Pecan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Predictive Analytics, Machine-Learning, and Data Science.
 
 
   Pecan''s developer surface includes documentation, engineering blog, getting-started guide, pricing, support, and 11 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 24.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -122,11 +122,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 25.2
+  previous_composite: 24.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -140,9 +140,9 @@ security:
 slug: pecan
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Predictive Analytics
-- Machine Learning
+- Machine-Learning
 - Data Science
 - Forecasting
 - Business Intelligence

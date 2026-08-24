@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Organization-level REST API (v2) spanning business units, events, members, attendees, session attendance, check-ins, partners, and contact lists. Authenticated with HMAC-SHA1 request signing (APIAuth)
@@ -174,13 +174,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/attendease
 layout: provider
 mcp_servers:
 - description: ''
-  name: attendease-mcp.yml
-  slug: attendease-mcpyml
+  name: Attendease MCP Server
+  slug: attendease-mcp-server
 modified: '2026-08-13'
 name: Attendease
 nav: Providers
 network: true
-overview: 'Attendease publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Events, Event Management, Event Marketing, and Conferences.
+overview: 'Attendease publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Event, Event Management, Event Marketing, and Conferences.
 
 
   Attendease''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, pricing, and 25 more developer resources.'
@@ -196,7 +196,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.0
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -206,13 +206,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 40.6
+  previous_composite: 36.0
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/screenshots/attendease-2026-07-25T201628.png
 security:
@@ -227,13 +227,13 @@ security:
 slug: attendease
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Event Marketing
 - Conferences
 - Webinars
 - Attendees
 - Registration
-- SaaS
+- Software-as-a-Service
 website: https://eventupplanner.com
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -440,31 +440,31 @@ image: https://aleph-alpha.com/og-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: aleph-alpha-mcp.yml
-  slug: aleph-alpha-mcpyml
+  name: Aleph Alpha MCP Server
+  slug: aleph-alpha-mcp-server
 modified: '2026-08-02'
 name: Aleph Alpha
 nav: Providers
 network: true
-overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) network, including API description API, Application Traces API, Benchmark Executions API, and 34 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Large Language Models, and Generative AI.
+overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) network, including API description API, Application Traces API, Benchmark Executions API, and 34 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Generative AI.
 
 
   Aleph Alpha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 37 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 50.9
-  delta: 2.4
+  composite: 49.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 16.7
     contract_quality: 57.0
     developer_ergonomics: 72.0
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.5
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -481,8 +481,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/screenshots/aleph-alpha-2026-08-07T161154.png
 security:
@@ -502,7 +502,7 @@ slug: aleph-alpha
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Generative AI
 - Sovereign AI
@@ -511,7 +511,7 @@ tags:
 - Semantic Search
 - Vector Search
 - Agents
-- Model Context Protocol
+- MCP
 - Germany
 - Enterprise Software
 - Government

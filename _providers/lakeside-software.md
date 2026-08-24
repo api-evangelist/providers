@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The SysTrack API provides programmatic REST access to SysTrack data on a cloud tenant or on-premises installation — enumerating groups, listing the systems within a group, retrieving sensor data for a
@@ -141,9 +141,9 @@ description: Lakeside Software builds SysTrack, a digital employee experience (D
 image: https://www.lakesidesoftware.com/wp-content/uploads/2025/09/16x9_Lakeside_Logo_Newsroom.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: lakeside-software-mcp.yml
-  slug: lakeside-software-mcpyml
+- description: Lakeside publishes an MCP server as part of the SysTrack AI add-on package — referred to in the documentation as the SysTrack DEX Analytics MCP Server and the SysTrack AI MCP Server. It exposes SysTra
+  name: SysTrack DEX Analytics MCP Server
+  slug: systrack-dex-analytics-mcp-server
 modified: '2026-07-19'
 name: Lakeside Software
 nav: Providers
@@ -159,7 +159,7 @@ random_paper: 11
 score:
   band: developing
   composite: 46.6
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -169,12 +169,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 48.3
+  previous_composite: 46.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/screenshots/lakeside-software-2026-07-25T224431.png
 security:

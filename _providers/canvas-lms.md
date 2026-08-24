@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -627,9 +627,9 @@ jsonld:
   slug: canvas-lms-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: canvas-lms-mcp.yml
-  slug: canvas-lms-mcpyml
+- description: 'Instructure does not publish an official hosted or remote MCP server for Canvas (searched: docs, npm @modelcontextprotocol, MCP registries — July 2026). A healthy community ecosystem of Canvas MCP ser'
+  name: Canvas LMS MCP Server
+  slug: canvas-lms-mcp-server
 modified: '2026-06-20'
 name: Canvas LMS
 nav: Providers
@@ -668,18 +668,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 78.3
-  delta: 3.7
+  composite: 76.0
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 26.5
-    contract_quality: 71.8
+    contract_quality: 66.3
     developer_ergonomics: 85.7
-    discoverability: 77.8
+    discoverability: 68.5
     governance: 26.5
     operational_transparency: 68.4
-  previous_composite: 74.6
+  previous_composite: 76.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -695,8 +695,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/screenshots/canvas-lms-2026-06-20T173931.png
 security:
@@ -725,7 +725,7 @@ tags:
 - LTI
 - Higher Education
 - K-12
-- Open Source
+- Open-Source
 - AGPL
 - Canvas
 website: https://www.instructure.com

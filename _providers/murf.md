@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ modified: '2026-05-19'
 name: Murf
 nav: Providers
 network: true
-overview: 'Murf publishes 7 APIs on the [APIs.io](https://apis.io/) network, including subpackage_auth API, subpackage_dubbing.subpackage_dubbing/jobs API, subpackage_dubbing.subpackage_dubbing/languages API, and 4 more. Tagged areas include AI, Voice, TTS, Voiceover, and Dubbing.
+overview: 'Murf publishes 7 APIs on the [APIs.io](https://apis.io/) network, including subpackage_auth API, subpackage_dubbing.subpackage_dubbing/jobs API, subpackage_dubbing.subpackage_dubbing/languages API, and 4 more. Tagged areas include Artificial Intelligence, Voice, TTS, Voiceover, and Dubbing.
 
 
   Murf''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.1
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/screenshots/murf-2026-06-20T185902.png
 security:
@@ -199,12 +199,12 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR, FIPS 140
 slug: murf
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - TTS
 - Voiceover
 - Dubbing
 - Audio
-- Realtime
+- Real-Time
 website: https://murf.ai/
 ---

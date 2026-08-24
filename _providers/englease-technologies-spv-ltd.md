@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,7 +68,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 5.6
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -84,16 +84,16 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 12.3
+  previous_composite: 5.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 7.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/englease-technologies-spv-ltd/refs/heads/main/screenshots/englease-technologies-spv-ltd-2026-07-25T213352.png
 slug: englease-technologies-spv-ltd
 tags:

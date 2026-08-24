@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing Swiftype search engines, indexing documents, controlling the web crawler and domains, running search and autocomplete queries, and retrieving query/click analytics. Authenticated
@@ -107,13 +107,13 @@ image: https://swiftype.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: swiftype-mcp.yml
-  slug: swiftype-mcpyml
+  name: Swiftype MCP Server
+  slug: swiftype-mcp-server
 modified: '2026-07-21'
 name: Swiftype
 nav: Providers
 network: true
-overview: 'Swiftype publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Site Search, App Search, Full Text Search, and Autocomplete.
+overview: 'Swiftype publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Site Search, App Search, Full-Text Search, and Autocomplete.
 
 
   Swiftype''s developer surface includes documentation, API reference, support, authentication, and 12 more developer resources.'
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.5
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -135,12 +135,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 20.3
+  previous_composite: 20.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -156,7 +156,7 @@ tags:
 - Search
 - Site Search
 - App Search
-- Full Text Search
+- Full-Text Search
 - Autocomplete
 - Web Crawler
 - Analytics

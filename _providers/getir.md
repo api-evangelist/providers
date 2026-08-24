@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -152,9 +152,9 @@ description: 'Getir is an Istanbul-based on-demand delivery company, founded in 
 image: https://developers.getir.com/assets/getir-developers-logo-BbJf7m5Z.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: getir-mcp.yml
-  slug: getir-mcpyml
+- description: Getir publishes NO official MCP server. Searched the developer portal, the docs content API, the GitHub org (0 public repos), npm under @modelcontextprotocol and the MCP registries — no first-party ho
+  name: Getir MCP Server
+  slug: getir-mcp-server
 modified: '2026-07-31'
 name: Getir
 nav: Providers
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.2
-  delta: -10.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -184,7 +184,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 46.5
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,9 +195,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/screenshots/getir-2026-08-07T165703.png
 security:
 - kind: authentication
@@ -215,8 +215,8 @@ tags:
 - Grocery Delivery
 - On-Demand Delivery
 - Logistics
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Marketplace
 - Turkey
 - Partner Integration

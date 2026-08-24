@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: In-game rewarded-video ad API. A game server exchanges client credentials for a Bearer token, then requests ad opportunities for a player and reports the playback lifecycle (start, progress, complete,
@@ -95,8 +95,8 @@ image: https://logo.clearbit.com/simulmedia.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: simulmedia-mcp.yml
-  slug: simulmedia-mcpyml
+  name: Simulmedia MCP Server
+  slug: simulmedia-mcp-server
 modified: '2026-08-13'
 name: Simulmedia
 nav: Providers
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.1
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -127,13 +127,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 21.7
+  previous_composite: 22.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

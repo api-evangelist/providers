@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Logstash Monitoring API exposes node info, plugin info, node stats, hot threads, and a health report endpoint over HTTP on port 9600 by default. There is no published OpenAPI specification; see El
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -111,9 +111,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 14.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logstash/refs/heads/main/screenshots/logstash-2026-06-20T184700.png
 security:

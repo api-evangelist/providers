@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ rules:
 score:
   band: thin
   composite: 32.8
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -196,7 +196,7 @@ score:
     discoverability: 64.8
     governance: 45.5
     operational_transparency: 5.3
-  previous_composite: 32.9
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/screenshots/cloudera-2026-06-20T174548.png
 security:
@@ -230,7 +230,7 @@ tags:
 - Data Warehouse
 - Hadoop
 - Hybrid Cloud
-- Machine Learning
+- Machine-Learning
 - Streaming
 website: https://www.cloudera.com/
 ---

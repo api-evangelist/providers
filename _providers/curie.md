@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Catalog API from Curie — 1 operation(s) for catalog.
@@ -135,9 +135,9 @@ description: Curie (Curie Vision, Inc.) is the commerce layer for AI — it conn
 image: https://cdn.prod.website-files.com/631a7e6c04b8fc3228d60317/631a7e6c04b8fc759ad60333_App%20Icon%20Main%20-%2032x32.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: curie-mcp.yml
-  slug: curie-mcpyml
+- description: AI commerce layer for Shopify — search, compare, view 3D models, and buy products from 5.6M+ stores. Free public tier (matches Shopify Storefront MCP behaviour); Pro Bearer required only for premium t
+  name: Curie Commerce
+  slug: curie-commerce
 modified: '2026-07-18'
 name: Curie
 nav: Providers
@@ -155,7 +155,7 @@ scopes:
 score:
   band: thin
   composite: 38.9
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -165,7 +165,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 40.0
+  previous_composite: 38.9
   provenance:
     conformance: first-party
     contracts:
@@ -175,8 +175,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/screenshots/curie-2026-07-25T210955.png
 security:
@@ -195,7 +195,7 @@ tags:
 - E-Commerce
 - Shopify
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 - Agentic Commerce
 - Product Discovery
 - 3D

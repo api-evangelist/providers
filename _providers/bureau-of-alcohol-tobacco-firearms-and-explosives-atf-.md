@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: ATF publishes annual firearms trace data reports covering the source and age of crime guns traced by law enforcement agencies across the United States. Data includes state-level statistics on firearms
@@ -84,7 +84,7 @@ modified: '2026-04-21'
 name: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)
 nav: Providers
 network: true
-overview: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alcohol, Explosives, Federal Government, Firearms, and Law Enforcement.
+overview: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alcohol, Explosives, Federal-Government, Firearms, and Law Enforcement.
 plans:
 - name: Bureau Of Alcohol Tobacco Firearms And Explosives Atf  Plans Pricing
   plan_count: 3
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.1
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -107,15 +107,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.7
+  previous_composite: 12.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/screenshots/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--2026-06-20T173802.png
 security:
@@ -127,7 +127,7 @@ slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf-
 tags:
 - Alcohol
 - Explosives
-- Federal Government
+- Federal-Government
 - Firearms
 - Law Enforcement
 - Public Safety

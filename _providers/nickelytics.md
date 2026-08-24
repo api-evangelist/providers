@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The authentication, session, organization and admin API behind the Nickelytics / R-Ads Ad Manager. It is a Better Auth instance whose auto-generated OpenAPI 3.1.1 document is served publicly at /api/a
@@ -107,8 +107,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nickelytic
 layout: provider
 mcp_servers:
 - description: ''
-  name: nickelytics-mcp.yml
-  slug: nickelytics-mcpyml
+  name: Nickelytics MCP Server
+  slug: nickelytics-mcp-server
 modified: '2026-08-12'
 name: Nickelytics
 nav: Providers
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.6
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -139,13 +139,13 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 20.2
+  previous_composite: 18.6
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/screenshots/nickelytics-2026-08-07T185252.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 0
@@ -435,8 +435,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: harbinger-health-mcp.yml
-  slug: harbinger-health-mcpyml
+  name: Harbinger Health MCP Server
+  slug: harbinger-health-mcp-server
 modified: '2026-08-04'
 name: Harbinger Health
 nav: Providers
@@ -453,18 +453,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 44.3
-  delta: 4.9
+  composite: 45.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 30.3
     contract_quality: 56.6
     developer_ergonomics: 20.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 39.4
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -481,8 +481,8 @@ score:
     regime: Health
     regime_id: health
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/screenshots/harbinger-health-2026-08-07T165948.png
 security:
@@ -503,7 +503,7 @@ tags:
 - Diagnostics
 - Genomics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Clinical Laboratory
 - Precision Medicine

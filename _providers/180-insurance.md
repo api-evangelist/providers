@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single embedded-insurance API covering the full lifecycle — quotation, proposal, sale/policy issuance, endorsement, renewal, claims and webhooks.
@@ -147,8 +147,8 @@ image: https://files.readme.io/21b0f8e-small-180_seguros_logo.jpeg
 layout: provider
 mcp_servers:
 - description: ''
-  name: 180-insurance-mcp.yml
-  slug: 180-insurance-mcpyml
+  name: 180 Insurance MCP Server
+  slug: 180-insurance-mcp-server
 modified: '2026-07-17'
 name: 180 Insurance
 nav: Providers
@@ -164,7 +164,7 @@ random_paper: 11
 score:
   band: developing
   composite: 42.3
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -174,7 +174,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 45.7
+  previous_composite: 42.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -185,8 +185,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 38.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/screenshots/180-insurance-2026-07-25T181107.png
 security:
@@ -206,7 +206,6 @@ tags:
 - Embedded Insurance
 - Brazil
 - Fintech
-- API
-- Webhooks
+- Webhook
 website: https://180s.com.br
 ---

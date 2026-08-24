@@ -26,7 +26,7 @@ slug: acid
 tags:
 - ACID
 - Database
-- Transactions
+- Transaction
 - Atomicity
 - Consistency
 - Isolation

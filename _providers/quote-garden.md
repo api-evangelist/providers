@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ modified: '2026-05-30'
 name: Quote Garden
 nav: Providers
 network: true
-overview: 'Quote Garden publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authors API, Genres API, and Quotes API. Tagged areas include Quotes, Inspiration, Open Source, Free API, and Node.js.
+overview: 'Quote Garden publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authors API, Genres API, and Quotes API. Tagged areas include Quotes, Inspiration, Open-Source, Free API, and Node.js.
 
 
   The Quote Garden catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -223,18 +223,18 @@ rules:
   slug: quote-garden-rules
 score:
   band: thin
-  composite: 29.1
-  delta: -6.3
+  composite: 29.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.7
     developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 35.4
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -242,9 +242,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Quote Garden Domain Security
@@ -261,7 +261,7 @@ solutions:
 tags:
 - Quotes
 - Inspiration
-- Open Source
+- Open-Source
 - Free API
 - Node.js
 - MongoDB

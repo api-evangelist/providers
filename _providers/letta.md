@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 346
   human_in_the_loop: 8
@@ -1614,7 +1614,7 @@ modified: '2026-08-08'
 name: Letta
 nav: Providers
 network: true
-overview: 'Letta publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agents API, Archives API, and 37 more. Tagged areas include AI, Agents, Stateful Agents, Memory, and MemGPT.
+overview: 'Letta publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agents API, Archives API, and 37 more. Tagged areas include Artificial Intelligence, Agents, Stateful Agents, Memory, and MemGPT.
 
 
   The Letta catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -1654,18 +1654,18 @@ rules:
   slug: letta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: -3.2
+  composite: 45.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 83.5
     developer_ergonomics: 23.8
     discoverability: 75.9
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 48.5
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1673,8 +1673,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/screenshots/letta-2026-07-25T224937.png
 security:
@@ -1688,7 +1688,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: letta
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Stateful Agents
 - Memory
@@ -1697,6 +1697,6 @@ tags:
 - MCP
 - Multi-Agent
 - RAG
-- Open Source
+- Open-Source
 website: https://www.letta.com/
 ---

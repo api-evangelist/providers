@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 15
 common:
@@ -121,7 +121,7 @@ modified: '2026-05-23'
 name: Comet
 nav: Providers
 network: true
-overview: 'Comet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Browser, Consumer, Agent, and Chromium.
+overview: 'Comet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Browser, Consumer, Agents, and Chromium.
 
 
   Comet''s developer surface includes engineering blog, FAQ, support, pricing, and 11 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 13.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -145,9 +145,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 13.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -160,10 +160,10 @@ security:
   summary_line: security.txt · contact published
 slug: comet-browser
 tags:
-- AI
+- Artificial Intelligence
 - Browser
 - Consumer
-- Agent
+- Agents
 - Chromium
 - Search
 - Perplexity

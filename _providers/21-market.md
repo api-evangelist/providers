@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-17'
 name: 21 Market
 nav: Providers
 network: true
-overview: 21 Market is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, Ecommerce, Resale, and Secondhand.
+overview: 21 Market is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, E-Commerce, Resale, and Secondhand.
 random_paper: 11
 score:
   band: minimal
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/21-market/refs/heads/main/screenshots/21-market-2026-07-25T181126.png
 security:
@@ -89,7 +89,7 @@ slug: 21-market
 tags:
 - Company
 - Consumer Electronics
-- Ecommerce
+- E-Commerce
 - Resale
 - Secondhand
 - Mobile Devices

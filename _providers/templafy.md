@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The DataSourceFields API from Templafy — 2 operation(s) for datasourcefields.
@@ -254,8 +254,8 @@ image: https://www.templafy.com/wp-content/uploads/2024/06/Logo_black.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: templafy-mcp.yml
-  slug: templafy-mcpyml
+  name: Templafy MCP Server
+  slug: templafy-mcp-server
 modified: '2026-07-21'
 name: Templafy
 nav: Providers
@@ -268,7 +268,7 @@ random_paper: 5
 score:
   band: developing
   composite: 50.2
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -278,7 +278,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.8
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -287,8 +287,8 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/screenshots/templafy-2026-08-17T082310.png
 security:
@@ -314,6 +314,6 @@ tags:
 - Document Automation
 - Productivity
 - Enterprise
-- SaaS
+- Software-as-a-Service
 website: https://www.templafy.com/
 ---

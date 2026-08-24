@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 45
 apis:
 - description: The AD Base Entities API from SpecterOps — 3 operation(s) for ad base entities.
@@ -434,8 +434,8 @@ image: https://specterops.io/wp-content/uploads/sites/3/2022/04/SO-Icon-Color.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: specterops-mcp.yml
-  slug: specterops-mcpyml
+  name: SpecterOps MCP Server
+  slug: specterops-mcp-server
 modified: '2026-07-21'
 name: SpecterOps
 nav: Providers
@@ -448,7 +448,7 @@ random_paper: 4
 score:
   band: developing
   composite: 52.7
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -458,7 +458,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 51.5
+  previous_composite: 52.7
   provenance:
     conformance: derived
     contracts:
@@ -468,8 +468,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/screenshots/specterops-2026-08-17T082020.png
 security:

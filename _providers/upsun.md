@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 50
 apis:
 - description: The Add-ons API from Upsun — 1 operation(s) for add-ons.
@@ -651,13 +651,13 @@ image: https://avatars.githubusercontent.com/u/151578842?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: upsun-mcp.yml
-  slug: upsun-mcpyml
+  name: Upsun MCP Server
+  slug: upsun-mcp-server
 modified: '2026-07-21'
 name: Upsun
 nav: Providers
 network: true
-overview: 'Upsun publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Alerts API, API Tokens API, and 47 more. Tagged areas include Company, Infrastructure Saas, Cloud, PaaS, and Hosting.
+overview: 'Upsun publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Alerts API, API Tokens API, and 47 more. Tagged areas include Company, Infrastructure Saas, Cloud, Platform-as-a-Service, and Hosting.
 
 
   The Upsun catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -673,7 +673,7 @@ scopes:
 score:
   band: strong
   composite: 54.7
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -683,7 +683,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 61.5
+  previous_composite: 54.7
   provenance:
     conformance: derived
     contracts:
@@ -693,9 +693,9 @@ score:
       total: 50
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/screenshots/upsun-2026-08-17T082640.png
 security:
 - kind: authentication
@@ -719,7 +719,7 @@ tags:
 - Company
 - Infrastructure Saas
 - Cloud
-- PaaS
+- Platform-as-a-Service
 - Hosting
 - Deployment
 - DevOps

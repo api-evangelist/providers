@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tezbor's integration API lets e-commerce platforms and custom applications create and track delivery orders for documents, parcels, and cargo across Uzbekistan. Documented integration paths include re
@@ -64,7 +64,7 @@ modified: '2026-07-21'
 name: Tezbor, Inc.
 nav: Providers
 network: true
-overview: 'Tezbor, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Delivery, Courier, and Shipping.
+overview: 'Tezbor, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Delivery, Couriers, and Shipping.
 
 
   Tezbor, Inc.''s developer surface includes documentation, signup flow, and 3 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 6.9
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -82,9 +82,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -96,10 +96,10 @@ tags:
 - Company
 - Logistics
 - Delivery
-- Courier
+- Couriers
 - Shipping
 - Last Mile
-- E-commerce
+- E-Commerce
 - Uzbekistan
 website: https://tezbor.uz
 ---

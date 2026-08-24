@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The UK Open Banking Implementation Entity (OBIE) Open Data API standard - public, unauthenticated reference data covering Branches, ATMs, Personal Current Accounts, Business Current Accounts, Unsecure
@@ -97,7 +97,7 @@ modified: '2026-07-23'
 name: Principality Building Society
 nav: Providers
 network: true
-overview: 'Principality Building Society publishes 1 API on the [APIs.io](https://apis.io/) network: OBIE Open Data API (Shared Standard - Unverified for Principality). Tagged areas include Financial Services, Banking, Building Society, Savings, and Mortgages.
+overview: 'Principality Building Society publishes 1 API on the [APIs.io](https://apis.io/) network: OBIE Open Data API (Shared Standard - Unverified for Principality). Tagged areas include Financial-Services, Banking, Building Society, Savings, and Mortgages.
 
 
   Principality Building Society''s developer surface includes authentication, product news, support, and 9 more developer resources.'
@@ -105,7 +105,7 @@ random_paper: 5
 score:
   band: thin
   composite: 33.4
-  delta: 7.6
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -115,7 +115,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 25.8
+  previous_composite: 33.4
   provenance:
     conformance: derived
     contracts:
@@ -129,9 +129,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Principality Building Society Authentication
@@ -143,7 +143,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: principality-building-society
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Savings

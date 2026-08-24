@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -93,22 +93,25 @@ rate_limits:
   name: Vekia Rate Limits
   slug: vekia-rate-limits
 score:
-  band: minimal
-  composite: 10.5
+  band: emerging
+  composite: 11.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 11.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Vekia Domain Security
@@ -122,7 +125,7 @@ tags:
 - Inventory Optimization
 - Replenishment
 - Retail
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Logistics
 - France

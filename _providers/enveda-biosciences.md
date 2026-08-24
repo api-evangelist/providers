@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -231,8 +231,8 @@ image: https://enveda.com/wp-content/uploads/2026/06/cropped-enveda-favicon.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: enveda-biosciences-mcp.yml
-  slug: enveda-biosciences-mcpyml
+  name: Enveda MCP Server
+  slug: enveda-mcp-server
 modified: '2026-08-04'
 name: Enveda
 nav: Providers
@@ -245,7 +245,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 25.0
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -255,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 23.3
+  previous_composite: 25.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,8 +272,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png
 security:
@@ -292,7 +292,7 @@ tags:
 - Drug Discovery
 - Life Sciences
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Metabolomics
 - Natural Products
 - Pharmaceuticals

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -284,9 +284,9 @@ description: Edge Delta is an AI-powered observability platform that pairs enter
 image: https://edgedelta.com/images/edge-delta-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: edge-delta-mcp.yml
-  slug: edge-delta-mcpyml
+- description: Official first-party Edge Delta MCP server. Self-hosted (Docker container or stdio transport) — no vendor-hosted remote URL is published. Exposes Edge Delta pipeline management, live-capture, and proc
+  name: Edge Delta MCP Server
+  slug: edge-delta-mcp-server
 modified: '2026-07-19'
 name: Edge Delta
 nav: Providers
@@ -299,7 +299,7 @@ random_paper: 6
 score:
   band: developing
   composite: 54.2
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -309,7 +309,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 54.4
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -320,8 +320,8 @@ score:
       total: 19
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-delta/refs/heads/main/screenshots/edge-delta-2026-07-25T212824.png
 security:
@@ -348,6 +348,6 @@ tags:
 - Monitoring
 - DevOps
 - SRE
-- AI
+- Artificial Intelligence
 website: https://edgedelta.com
 ---

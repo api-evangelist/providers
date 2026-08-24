@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Call analytics, transcripts, keywords, and reports
@@ -139,9 +139,9 @@ description: Tenfold (a LivePerson company) is a computer-telephony integration 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenfold.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: tenfold-mcp.yml
-  slug: tenfold-mcpyml
+- description: Candidate MCP server tool surface derived from the Tenfold documented API. No official hosted/remote MCP server was found for Tenfold. Tools map one-to-one to documented v2 operationIds.
+  name: Tenfold MCP Server
+  slug: tenfold-mcp-server
 modified: '2026-07-21'
 name: Tenfold
 nav: Providers
@@ -157,7 +157,7 @@ random_paper: 13
 score:
   band: thin
   composite: 34.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -167,7 +167,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 34.0
+  previous_composite: 34.1
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ modified: '2026-06-20'
 name: Plain
 nav: Providers
 network: true
-overview: 'Plain publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Customer Support, Help Desk, GraphQL, Threads, and Customer Communication.
+overview: 'Plain publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Customer-Support, Help Desk, GraphQL, Threads, and Customer Communication.
 
 
   Plain''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.5
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -141,7 +141,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 40.4
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/screenshots/plain-support-2026-06-20T191749.png
 security:
@@ -164,11 +164,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: plain-support
 tags:
-- Customer Support
+- Customer-Support
 - Help Desk
 - GraphQL
 - Threads
 - Customer Communication
-- API First
+- API-First
 website: https://www.plain.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Auth-gated partner integration API for programmatic disbursement (mobile money and bank transfers) and collection (cash and mobile money) across the UEMOA zone. Access is provisioned for enterprise/pa
@@ -88,7 +88,7 @@ modified: '2026-07-19'
 name: Julaya
 nav: Providers
 network: true
-overview: 'Julaya publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile Money, Disbursements, and Collections.
+overview: 'Julaya publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile Money, Disbursements, and Collection.
 
 
   Julaya''s developer surface includes signup flow, pricing, engineering blog, support, and 7 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 13.3
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -106,16 +106,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.6
+  previous_composite: 13.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julaya/refs/heads/main/screenshots/julaya-2026-07-25T223259.png
 security:
 - kind: domain-security
@@ -128,12 +128,12 @@ tags:
 - Payments
 - Mobile Money
 - Disbursements
-- Collections
+- Collection
 - Payroll
 - Fintech
 - West Africa
 - UEMOA
 - B2B Payments
-- Financial Services
+- Financial-Services
 website: https://julaya.co
 ---

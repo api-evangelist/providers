@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -889,9 +889,9 @@ jsonld:
   slug: google-campaign-manager-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: google-campaign-manager-mcp.yml
-  slug: google-campaign-manager-mcpyml
+- description: CANDIDATE tool surface derived from the Campaign Manager 360 OpenAPI operations in this repo. Google publishes NO Model Context Protocol server for Campaign Manager 360. Nothing below is deployed by t
+  name: Google Campaign Manager MCP Server
+  slug: google-campaign-manager-mcp-server
 modified: '2026-08-13'
 name: Google Campaign Manager
 nav: Providers
@@ -941,18 +941,18 @@ scopes:
   summary_line: 3 scopes
 score:
   band: exemplar
-  composite: 66.7
-  delta: -5.8
+  composite: 67.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 71.8
     developer_ergonomics: 74.4
     discoverability: 74.1
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 84.2
-  previous_composite: 72.5
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -963,9 +963,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/screenshots/google-campaign-manager-2026-06-20T182032.png
 security:
 - kind: authentication

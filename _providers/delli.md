@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,27 +80,27 @@ modified: '2026-07-18'
 name: DELLI
 nav: Providers
 network: true
-overview: 'DELLI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Food and Drink, E-commerce, and Consumer.
+overview: 'DELLI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Food And Drink, E-Commerce, and Consumer.
 
 
   DELLI''s developer surface includes support, engineering blog, signup flow, and 7 more developer resources.'
 random_paper: 18
 score:
   band: emerging
-  composite: 14.0
-  delta: 0.1
+  composite: 15.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delli/refs/heads/main/screenshots/delli-2026-08-07T164300.png
 security:
@@ -112,11 +112,11 @@ slug: delli
 tags:
 - Company
 - Marketplace
-- Food and Drink
-- E-commerce
+- Food And Drink
+- E-Commerce
 - Consumer
 - Independent Makers
-- Foodtech
+- Food Tech
 - Shopify
 website: https://delli.market/
 ---

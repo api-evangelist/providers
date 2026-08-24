@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The APIs.json specification defines a machine-readable JSON or YAML format for describing API operations. Unlike OpenAPI which describes the technical interface of a single API, APIs.json describes th
@@ -209,21 +209,21 @@ rules:
   slug: apis-json-spectral-rules
 score:
   band: emerging
-  composite: 22.3
-  delta: -6.5
+  composite: 22.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.6
     developer_ergonomics: 7.1
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 28.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 22.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-json/refs/heads/main/screenshots/apis-json-2026-06-20T172256.png
 security:
 - kind: domain-security
@@ -238,7 +238,7 @@ tags:
 - API Discovery
 - API Governance
 - API Operations
-- Machine Readable
+- Machine-Readable
 - Specification
 - Standard
 use_cases:

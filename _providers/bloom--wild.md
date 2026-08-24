@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -106,7 +106,7 @@ modified: '2026-08-07'
 name: Bloom & Wild
 nav: Providers
 network: true
-overview: 'Bloom & Wild is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Retail, Flowers, and Gifting.
+overview: 'Bloom & Wild is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Flowers, and Gifting.
 
 
   Bloom & Wild''s developer surface includes support, engineering blog, and 12 more developer resources.'
@@ -114,7 +114,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 10.8
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -124,12 +124,12 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 15.9
+  previous_composite: 10.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloom--wild/refs/heads/main/screenshots/bloom--wild-2026-08-07T162636.png
 security:
 - kind: domain-security
@@ -143,12 +143,12 @@ security:
 slug: bloom--wild
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Flowers
 - Gifting
 - Direct to Consumer
-- Subscriptions
+- Subscription
 - Consumer Goods
 - Logistics
 - United Kingdom

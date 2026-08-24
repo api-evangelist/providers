@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Source-agnostic payment-event ingestion API for payment recovery. Merchants POST standardized successful and failed payment events and payment-method updates; Recover optimizes retry timing and report
@@ -139,13 +139,13 @@ image: https://cdn.prod.website-files.com/6570760e6e7b5aa59f8f2452/657b7105d992d
 layout: provider
 mcp_servers:
 - description: ''
-  name: butterpayments-mcp.yml
-  slug: butterpayments-mcpyml
+  name: Butterpayments MCP Server
+  slug: butterpayments-mcp-server
 modified: '2026-07-18'
 name: Butterpayments
 nav: Providers
 network: true
-overview: 'Butterpayments publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Recovery, Subscriptions, and Dunning.
+overview: 'Butterpayments publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Recovery, Subscription, and Dunning.
 
 
   The Butterpayments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -156,7 +156,7 @@ random_paper: 10
 score:
   band: developing
   composite: 46.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -166,7 +166,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 46.0
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -176,8 +176,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/screenshots/butterpayments-2026-07-25T204125.png
 security:
@@ -198,13 +198,13 @@ tags:
 - Company
 - Payments
 - Payment Recovery
-- Subscriptions
+- Subscription
 - Dunning
 - Involuntary Churn
 - Dispute Prevention
 - Chargebacks
 - Card Vault
 - Fintech
-- Machine Learning
+- Machine-Learning
 website: https://butterpayments.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -231,8 +231,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nomos.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: nomos-mcp.yml
-  slug: nomos-mcpyml
+  name: Nomos MCP Server
+  slug: nomos-mcp-server
 modified: '2026-07-20'
 name: Nomos
 nav: Providers
@@ -253,7 +253,7 @@ scopes:
 score:
   band: developing
   composite: 49.9
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -263,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 47.3
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +280,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/screenshots/nomos-2026-08-07T185448.png
 security:
@@ -305,7 +305,7 @@ tags:
 - Metering
 - Smart Meter
 - Germany
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 website: https://www.nomos.energy/en/
 ---

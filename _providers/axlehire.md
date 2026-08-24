@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Assignment specific calls
@@ -231,7 +231,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.4
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -241,7 +241,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 55.3
-  previous_composite: 59.8
+  previous_composite: 52.4
   provenance:
     conformance: first-party
     contracts:
@@ -250,9 +250,9 @@ score:
       marker_coverage: 0.0
       total: 5
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/screenshots/axlehire-2026-08-07T162043.png
 security:
 - kind: authentication
@@ -280,8 +280,8 @@ tags:
 - Parcel
 - Transportation
 - Supply Chain
-- Ecommerce
+- E-Commerce
 - Tracking
-- Webhooks
+- Webhook
 website: https://gojitsu.com/
 ---

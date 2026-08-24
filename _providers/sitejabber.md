@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The SmartCustomer Business API (published under the pre-rebrand Sitejabber name at api.sitejabber.com) is the review-management API behind SmartCustomer''s business product. It covers business profile '
@@ -129,8 +129,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sitejabber
 layout: provider
 mcp_servers:
 - description: ''
-  name: sitejabber-mcp.yml
-  slug: sitejabber-mcpyml
+  name: SiteJabber MCP Server
+  slug: sitejabber-mcp-server
 modified: '2026-08-13'
 name: SiteJabber
 nav: Providers
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.4
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -161,7 +161,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 49.9
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/screenshots/sitejabber-2026-08-17T081908.png
 security:
@@ -192,7 +192,7 @@ tags:
 - Product Reviews
 - Reputation Management
 - Reviews Management
-- E-commerce
+- E-Commerce
 - Trust and Safety
 - Google Seller Ratings
 - Customer Feedback

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -124,7 +124,7 @@ modified: '2026-05-11'
 name: Ray
 nav: Providers
 network: true
-overview: 'Ray publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs API and Version API. Tagged areas include Distributed Computing, Machine Learning, AI Infrastructure, Python, and Model Serving.
+overview: 'Ray publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs API and Version API. Tagged areas include Distributed Computing, Machine-Learning, AI Infrastructure, Python, and Model Serving.
 
 
   Ray''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -132,7 +132,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 21.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -142,7 +142,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 22.7
+  previous_composite: 21.9
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/screenshots/ray-2026-06-20T192611.png
 security:
@@ -162,11 +162,11 @@ security:
 slug: ray
 tags:
 - Distributed Computing
-- Machine Learning
+- Machine-Learning
 - AI Infrastructure
 - Python
 - Model Serving
-- Open Source
+- Open-Source
 - Compute
 website: https://www.ray.io
 ---

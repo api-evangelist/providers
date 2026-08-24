@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ modified: '2026-04-28'
 name: Environmental Protection Agency
 nav: Providers
 network: true
-overview: 'Environmental Protection Agency publishes 2 APIs on the [APIs.io](https://apis.io/) network: Envirofacts API and UVIndex API. Tagged areas include Environment, Federal Government, Air Quality, and Open Data.'
+overview: 'Environmental Protection Agency publishes 2 APIs on the [APIs.io](https://apis.io/) network: Envirofacts API and UVIndex API. Tagged areas include Environment, Federal-Government, Air Quality, and Open Data.'
 plans:
 - name: Environmental Protection Agency Plans Pricing
   plan_count: 3
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -139,7 +139,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 21.9
+  previous_composite: 21.1
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/screenshots/environmental-protection-agency-2026-06-20T180737.png
 security:
@@ -165,7 +165,7 @@ security:
 slug: environmental-protection-agency
 tags:
 - Environment
-- Federal Government
+- Federal-Government
 - Air Quality
 - Open Data
 website: https://www.epa.gov/

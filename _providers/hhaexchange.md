@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: 2026-06-13
 name: HHAeXchange
 nav: Providers
 network: true
-overview: 'HHAeXchange publishes 3 APIs on the [APIs.io](https://apis.io/) network: Configuration API, Internal API, and Onboarding API. Tagged areas include Homecare, EVV, Electronic Visit Verification, Medicaid, and Scheduling.
+overview: 'HHAeXchange publishes 3 APIs on the [APIs.io](https://apis.io/) network: Configuration API, Internal API, and Onboarding API. Tagged areas include Home Care, EVV, Electronic Visit Verification, Medicaid, and Scheduling.
 
 
   The HHAeXchange catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -168,7 +168,7 @@ scopes:
 score:
   band: developing
   composite: 41.9
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -178,7 +178,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 31.6
-  previous_composite: 44.1
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +192,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/screenshots/hhaexchange-2026-06-20T182722.png
 security:
@@ -207,7 +207,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: hhaexchange
 tags:
-- Homecare
+- Home Care
 - EVV
 - Electronic Visit Verification
 - Medicaid

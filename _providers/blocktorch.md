@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -145,8 +145,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blocktorch
 layout: provider
 mcp_servers:
 - description: ''
-  name: blocktorch-mcp.yml
-  slug: blocktorch-mcpyml
+  name: Blocktorch MCP Server
+  slug: blocktorch-mcp-server
 modified: '2026-07-18'
 name: Blocktorch
 nav: Providers
@@ -159,7 +159,7 @@ random_paper: 17
 score:
   band: thin
   composite: 38.8
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 40.1
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -180,8 +180,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/screenshots/blocktorch-2026-07-25T203347.png
 security:
@@ -201,7 +201,7 @@ tags:
 - Monitoring
 - Blockchain
 - Smart Contracts
-- dApps
+- DApps
 - Developer Tools
 website: https://blocktorch.xyz
 ---

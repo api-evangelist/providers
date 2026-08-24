@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public REST API for programmatically accessing AlphaGeo climate risk scoring data for global locations and portfolios. Location-Level Data APIs (Scores/CRRI, Physical Risk, Resilience-adjusted Risk, G
@@ -138,9 +138,9 @@ description: AlphaGeo is an AI-powered geospatial predictive analytics company t
 image: https://app.alphageo.ai/assets/img/svg/alphaGeo-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: alphageo-mcp.yml
-  slug: alphageo-mcpyml
+- description: Candidate MCP tool surface derived from AlphaGeo's documented public Data API operations. AlphaGeo publishes no official hosted MCP server as of this pass; these tools map one-to-one to real, document
+  name: Alphageo MCP Server
+  slug: alphageo-mcp-server
 modified: '2026-07-17'
 name: Alphageo
 nav: Providers
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.3
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -167,11 +167,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 36.0
+  previous_composite: 35.3
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/screenshots/alphageo-2026-07-25T195759.png
 security:
@@ -195,9 +195,9 @@ tags:
 - Geospatial
 - Analytics
 - Risk
-- Real Estate
+- Real-Estate
 - ESG
 - Data
-- Machine Learning
+- Machine-Learning
 website: https://alphageo.ai/
 ---

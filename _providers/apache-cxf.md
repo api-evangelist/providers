@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: CXF provides Java APIs for building SOAP (JAX-WS) and REST (JAX-RS) web services with WSDL-first and code-first approaches, WS-* standards support, multiple data bindings (JAXB, Aegis, XMLBeans), plug
@@ -166,7 +166,7 @@ modified: '2026-04-19'
 name: Apache CXF
 nav: Providers
 network: true
-overview: 'Apache CXF publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, JAX-RS, JAX-WS, Java, and Open Source.
+overview: 'Apache CXF publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, JAX-RS, JAX-WS, Java, and Open-Source.
 
 
   The Apache CXF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -196,7 +196,7 @@ rules:
 score:
   band: thin
   composite: 27.6
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -206,10 +206,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 35.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 27.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cxf/refs/heads/main/screenshots/apache-cxf-2026-06-20T172051.png
 security:
 - kind: domain-security
@@ -226,7 +226,7 @@ tags:
 - JAX-RS
 - JAX-WS
 - Java
-- Open Source
+- Open-Source
 - REST
 - SOAP
 - WS-Security

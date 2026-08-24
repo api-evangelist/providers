@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -275,7 +275,7 @@ modified: '2026-05-30'
 name: FakerAPI
 nav: Providers
 network: true
-overview: 'FakerAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Books API, Companies API, and 7 more. Tagged areas include Test Data, Fake Data, Mocking, Developer Tools, and Open Source.
+overview: 'FakerAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Books API, Companies API, and 7 more. Tagged areas include Test Data, Fake Data, Mocking, Developer Tools, and Open-Source.
 
 
   The FakerAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -303,19 +303,19 @@ rules:
     warn: 14
   slug: fakerapi-rules
 score:
-  band: emerging
-  composite: 26.0
-  delta: -6.3
+  band: thin
+  composite: 26.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.2
     developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 0.0
-  previous_composite: 32.3
+  previous_composite: 26.4
   provenance:
     agentic_access: derived
     contracts:
@@ -323,9 +323,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fakerapi/refs/heads/main/screenshots/fakerapi-2026-06-20T181022.png
 security:
 - kind: domain-security
@@ -338,7 +338,7 @@ tags:
 - Fake Data
 - Mocking
 - Developer Tools
-- Open Source
+- Open-Source
 - Public APIs
 use_cases:
 - description: Populate React, Vue, or Svelte mockups with realistic data without standing up a backend.

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -291,13 +291,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: allianz-future-cloud-platform-mcp.yml
-  slug: allianz-future-cloud-platform-mcpyml
+  name: Allianz Future Cloud Platform MCP Server
+  slug: allianz-future-cloud-platform-mcp-server
 modified: '2026-06-20'
 name: Allianz Future Cloud Platform
 nav: Providers
 network: true
-overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, Infrastructure API, Namespaces API, and 2 more. Tagged areas include Cloud Platform, Enterprise, Financial Services, Insurance, and Platform Engineering.
+overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, Infrastructure API, Namespaces API, and 2 more. Tagged areas include Cloud Platform, Enterprise, Financial-Services, Insurance, and Platform Engineering.
 
 
   The Allianz Future Cloud Platform catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -334,18 +334,18 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.1
-  delta: -4.5
+  composite: 31.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 29.8
     developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 5.3
-  previous_composite: 35.6
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,8 +361,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 60.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/screenshots/allianz-future-cloud-platform-2026-07-25T195701.png
 security:
@@ -382,7 +382,7 @@ slug: allianz-future-cloud-platform
 tags:
 - Cloud Platform
 - Enterprise
-- Financial Services
+- Financial-Services
 - Insurance
 - Platform Engineering
 - Kubernetes

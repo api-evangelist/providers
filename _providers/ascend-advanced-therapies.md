@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Job openings custom post type.
@@ -157,8 +157,8 @@ image: https://www.ascend-adv.com/wp-content/uploads/2025/02/cropped-favicon-192
 layout: provider
 mcp_servers:
 - description: ''
-  name: ascend-advanced-therapies-mcp.yml
-  slug: ascend-advanced-therapies-mcpyml
+  name: Ascend Advanced Therapies MCP Server
+  slug: ascend-advanced-therapies-mcp-server
 modified: '2026-07-19'
 name: Ascend Advanced Therapies
 nav: Providers
@@ -171,7 +171,7 @@ random_paper: 0
 score:
   band: thin
   composite: 29.2
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 27.3
+  previous_composite: 29.2
   provenance:
     conformance: derived
     contracts:
@@ -197,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/screenshots/ascend-advanced-therapies-2026-07-25T201402.png
 security:

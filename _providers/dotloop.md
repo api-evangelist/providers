@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ modified: '2026-07-04'
 name: dotloop
 nav: Providers
 network: true
-overview: 'dotloop publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activities API, Contacts API, and 10 more. Tagged areas include Real Estate, Transaction Management, Loops, Documents, and E-Signature.
+overview: 'dotloop publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activities API, Contacts API, and 10 more. Tagged areas include Real-Estate, Transaction Management, Loops, Documents, and E-Signature.
 
 
   dotloop''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -222,8 +222,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/screenshots/dotloop-2026-07-25T212314.png
 security:
@@ -237,7 +237,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: dotloop
 tags:
-- Real Estate
+- Real-Estate
 - Transaction Management
 - Loops
 - Documents

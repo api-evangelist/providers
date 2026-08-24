@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-05-04'
 name: Nango
 nav: Providers
 network: true
-overview: 'Nango publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Connections API, Integrations API, and 2 more. Tagged areas include AI Agents, Integrations, OAuth, Syncing, and Unified API.
+overview: 'Nango publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Connections API, Integrations API, and 2 more. Tagged areas include AI Agents, Integration, Authentication, Syncing, and Unified-API.
 
 
   Nango''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, changelog, developer portal, and 8 more developer resources.'
@@ -187,7 +187,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.2
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -203,7 +203,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 42.4
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/screenshots/nango-2026-08-17T083516.png
 security:
@@ -231,10 +231,10 @@ security:
 slug: nango
 tags:
 - AI Agents
-- Integrations
-- OAuth
+- Integration
+- Authentication
 - Syncing
-- Unified API
-- Webhooks
+- Unified-API
+- Webhook
 website: https://app.nango.dev
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -325,8 +325,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/liveramp.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: liveramp-mcp.yml
-  slug: liveramp-mcpyml
+  name: LiveRamp MCP Server
+  slug: liveramp-mcp-server
 modified: '2026-08-13'
 name: LiveRamp
 nav: Providers
@@ -352,7 +352,7 @@ scopes:
 score:
   band: strong
   composite: 59.5
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -362,7 +362,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 64.4
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,8 +373,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/screenshots/liveramp-2026-06-20T184618.png
 security:

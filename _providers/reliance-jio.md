@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -220,9 +220,9 @@ description: Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: reliance-jio-mcp.yml
-  slug: reliance-jio-mcpyml
+- description: 'Reliance Jio publishes no hosted or remote MCP server - searches of the Jio developer surfaces, the JioMeet GitHub organization, npm and the public MCP registries found none. This is a CANDIDATE tool '
+  name: Reliance Jio MCP Server
+  slug: reliance-jio-mcp-server
 modified: '2026-07-25'
 name: Reliance Jio
 nav: Providers
@@ -240,7 +240,7 @@ scopes:
 score:
   band: strong
   composite: 58.8
-  delta: 6.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -250,7 +250,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 52.1
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,9 +267,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 100.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/screenshots/reliance-jio-2026-08-17T081508.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Avify's primary developer API. A GraphQL endpoint covering products, inventory, store locations, carts, orders and payment methods. Authenticated with the api-key header. A public GraphQL sandbox is a
@@ -166,13 +166,13 @@ image: https://avify.com/images/og.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: avify-mcp.yml
-  slug: avify-mcpyml
+  name: Avify MCP Server
+  slug: avify-mcp-server
 modified: '2026-07-18'
 name: Avify
 nav: Providers
 network: true
-overview: 'Avify publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, eCommerce, CRM, and WhatsApp.
+overview: 'Avify publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, CRM, and WhatsApp.
 
 
   The Avify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -183,7 +183,7 @@ random_paper: 18
 score:
   band: developing
   composite: 43.9
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -193,7 +193,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 43.3
+  previous_composite: 43.9
   provenance:
     conformance: derived
     mcp: derived
@@ -204,8 +204,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avify/refs/heads/main/screenshots/avify-2026-07-25T201935.png
 security:
@@ -221,14 +221,14 @@ slug: avify
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - CRM
 - WhatsApp
 - Conversational Commerce
 - Inventory
-- Point of Sale
+- Point-of-Sale
 - Payments
-- Orders
+- Order
 - GraphQL
 - Latin America
 - SMB

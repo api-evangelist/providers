@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Client SDK for embedding and interacting with Spline scenes from JavaScript.
@@ -105,7 +105,7 @@ modified: '2026-05-08'
 name: Spline
 nav: Providers
 network: true
-overview: 'Spline publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Design, AI, Collaboration, and Web.
+overview: 'Spline publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Design, Artificial Intelligence, Collaboration, and Web.
 
 
   Spline''s developer surface includes documentation and 10 more developer resources.'
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -131,9 +131,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 16.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spline/refs/heads/main/screenshots/spline-2026-06-20T194404.png
 security:
@@ -153,7 +153,7 @@ slug: spline
 tags:
 - 3D
 - Design
-- AI
+- Artificial Intelligence
 - Collaboration
 - Web
 - SDK

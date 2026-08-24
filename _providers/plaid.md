@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -576,9 +576,9 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plaid.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: plaid-mcp.yml
-  slug: plaid-mcpyml
+- description: 'Plaid does not publish an official hosted/remote MCP server as of this round (no server advertised in Plaid docs, the plaid GitHub org, or the public MCP registries). This is a CANDIDATE tool surface '
+  name: Plaid MCP Server
+  slug: plaid-mcp-server
 modified: '2026-07-23'
 name: Plaid
 nav: Providers
@@ -625,7 +625,7 @@ rules:
 score:
   band: exemplar
   composite: 68.6
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -635,7 +635,7 @@ score:
     discoverability: 75.9
     governance: 41.7
     operational_transparency: 57.9
-  previous_composite: 64.1
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -652,8 +652,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:

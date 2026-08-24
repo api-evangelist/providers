@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -197,13 +197,13 @@ image: https://www.gonitro.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: nitro-software-mcp.yml
-  slug: nitro-software-mcpyml
+  name: Nitro Software MCP Server
+  slug: nitro-software-mcp-server
 modified: '2026-07-20'
 name: Nitro Software
 nav: Providers
 network: true
-overview: 'Nitro Software publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Platform API, and Sign API. Tagged areas include Company, PDF, Documents, eSignature, and Electronic Signature.
+overview: 'Nitro Software publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Platform API, and Sign API. Tagged areas include Company, PDF, Documents, E-Signature, and Electronic Signature.
 
 
   The Nitro Software catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -235,8 +235,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/screenshots/nitro-software-2026-08-07T185343.png
 security:
@@ -261,9 +261,9 @@ tags:
 - Company
 - PDF
 - Documents
-- eSignature
+- E-Signature
 - Electronic Signature
-- Document Management
+- Document-Management
 - Document Intelligence
 - OCR
 - Data Extraction

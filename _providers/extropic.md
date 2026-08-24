@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,7 +113,7 @@ modified: '2026-07-19'
 name: Extropic
 nav: Providers
 network: true
-overview: 'Extropic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Hardware, Semiconductors, and Thermodynamic Computing.
+overview: 'Extropic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Hardware, Semiconductors, and Thermodynamic Computing.
 
 
   Extropic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 14 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 17.5
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -131,7 +131,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 20.7
+  previous_composite: 17.5
   provenance:
     skills: first-party
   regulatory:
@@ -140,8 +140,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extropic/refs/heads/main/screenshots/extropic-2026-08-07T165150.png
 security:
@@ -152,13 +152,13 @@ security:
 slug: extropic
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Hardware
 - Semiconductors
 - Thermodynamic Computing
 - Probabilistic Computing
 - Energy-Based Models
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 website: https://extropic.ai/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-05-19'
 name: Synchrony Financial
 nav: Providers
 network: true
-overview: 'Synchrony Financial publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Decisions API, Payments API, and 5 more. Tagged areas include Financial Services, Credit, Payments, Consumer Finance, and Retail Finance.
+overview: 'Synchrony Financial publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Decisions API, Payments API, and 5 more. Tagged areas include Financial-Services, Credit, Payments, Consumer Finance, and Retail Finance.
 
 
   The Synchrony Financial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -242,18 +242,18 @@ rules:
   slug: synchrony-financial-rules
 score:
   band: developing
-  composite: 44.3
-  delta: -3.5
+  composite: 44.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.3
     developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 15.8
-  previous_composite: 47.8
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -267,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/screenshots/synchrony-financial-2026-06-20T194826.png
 security:
@@ -286,7 +286,7 @@ security:
   summary_line: Bugcrowd
 slug: synchrony-financial
 tags:
-- Financial Services
+- Financial-Services
 - Credit
 - Payments
 - Consumer Finance

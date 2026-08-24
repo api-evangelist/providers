@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -239,14 +239,14 @@ description: 'Landmark Information Group is a United Kingdom property and land d
 image: https://www.landmarkcloudservices.com/assets/favicon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: landmark-information-mcp.yml
-  slug: landmark-information-mcpyml
+- description: Landmark publishes no MCP server. No hosted or remote MCP endpoint appears in the documentation portal, the corporate site, the GitHub organisation or the public MCP registries, and no agent-facing su
+  name: Landmark Information Group MCP Server
+  slug: landmark-information-group-mcp-server
 modified: '2026-07-26'
 name: Landmark Information Group
 nav: Providers
 network: true
-overview: 'Landmark Information Group publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Landmark Order Experience API, Landmark Conveyancing Experience API, Landmark Intelliworks APIs, and 2 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Data, and Conveyancing.
+overview: 'Landmark Information Group publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Landmark Order Experience API, Landmark Conveyancing Experience API, Landmark Intelliworks APIs, and 2 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Data, and Conveyancing.
 
 
   The Landmark Information Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -266,7 +266,7 @@ scopes:
 score:
   band: developing
   composite: 53.6
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -276,7 +276,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 52.8
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +287,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/screenshots/landmark-information-2026-08-07T171441.png
 security:
@@ -302,7 +302,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: landmark-information
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Data

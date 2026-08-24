@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: United Dwelling
 nav: Providers
 network: true
-overview: United Dwelling is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Housing, Accessory Dwelling Units, and Construction.
+overview: United Dwelling is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Housing, Accessory Dwelling Units, and Construction.
 random_paper: 15
 score:
   band: minimal
@@ -78,8 +78,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -89,7 +89,7 @@ security:
 slug: united-dwelling
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Housing
 - Accessory Dwelling Units
 - Construction

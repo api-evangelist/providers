@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API for the "Arbeitsamt", which is a german Job board aggregator
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: Arbeitsamt
 nav: Providers
 network: true
-overview: Arbeitsamt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
+overview: Arbeitsamt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job and Public APIs.
 random_paper: 18
 score:
   band: minimal
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbeitsamt/refs/heads/main/screenshots/arbeitsamt-2026-06-20T172349.png
 security:
@@ -83,7 +83,7 @@ security:
   summary_line: TLSv1.3
 slug: arbeitsamt
 tags:
-- Jobs
+- Job
 - Public APIs
 website: https://jobsuche.api.bund.dev/
 ---

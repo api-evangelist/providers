@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for cryptocurrency market data. JSON responses with Laravel-style pagination, HTTP Bearer auth, quota-based Free/Starter/Pro plans, and signed webhook deliveries. OpenAPI 3.0.3 contract.
@@ -43,12 +43,12 @@ modified: '2026-07-05'
 name: Bitculator
 nav: Providers
 network: true
-overview: 'Bitculator publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include cryptocurrency, crypto market data, blockchain, finance, and fintech.'
+overview: 'Bitculator publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include Cryptocurrency, crypto-market-data, Blockchain, Finance, and Fintech.'
 random_paper: 10
 score:
   band: minimal
   composite: 8.5
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -64,28 +64,28 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 12.2
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/screenshots/bitculator-2026-07-25T203141.png
 slug: bitculator
 tags:
-- cryptocurrency
-- crypto market data
-- blockchain
-- finance
-- fintech
-- web3
-- trading
-- exchange data
-- wallets
-- sentiment
-- indicators
+- Cryptocurrency
+- crypto-market-data
+- Blockchain
+- Finance
+- Fintech
+- Web3
+- Trading
+- Exchange Data
+- Wallets
+- Sentiment
+- Indicators
 ---

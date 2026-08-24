@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-08-08'
 name: LibreTranslate
 nav: Providers
 network: true
-overview: 'LibreTranslate publishes 2 APIs on the [APIs.io](https://apis.io/) network: misc API and translate API. Tagged areas include Translation, Machine Translation, Natural Language Processing, Open Source, and Self-Hosted.
+overview: 'LibreTranslate publishes 2 APIs on the [APIs.io](https://apis.io/) network: misc API and translate API. Tagged areas include Translation, Machine Translation, Natural Language Processing, Open-Source, and Self-Hosted.
 
 
   The LibreTranslate catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -184,7 +184,7 @@ rules:
 score:
   band: thin
   composite: 33.5
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -194,7 +194,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 39.6
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -202,9 +202,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/screenshots/libre-translate-2026-06-20T184504.png
 security:
 - kind: domain-security
@@ -216,7 +216,7 @@ tags:
 - Translation
 - Machine Translation
 - Natural Language Processing
-- Open Source
+- Open-Source
 - Self-Hosted
 website: https://libretranslate.com
 ---

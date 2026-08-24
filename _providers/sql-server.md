@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: Native database engine APIs for connecting and executing queries against SQL Server.
@@ -256,9 +256,9 @@ graphqls:
 image: /assets/icons/sql-server.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sql-server-mcp.yml
-  slug: sql-server-mcpyml
+- description: Microsoft's official open-source MCP server for SQL Server, Azure SQL and other databases. Built into Data API builder (DAB) 1.7+ (latest capabilities in DAB 2.0). Self-hosted; exposes tables, views a
+  name: SQL MCP Server
+  slug: sql-mcp-server
 modified: '2026-06-20'
 name: Microsoft SQL Server APIs
 nav: Providers
@@ -279,7 +279,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.0
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -289,12 +289,12 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 43.2
+  previous_composite: 41.0
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sql-server/refs/heads/main/screenshots/sql-server-2026-06-20T194427.png
 security:

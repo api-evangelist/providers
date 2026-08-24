@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 27
 apis:
 - description: Frictionless mobile-number verification that confirms ownership of the MSISDN currently in use on the device, using the operator network rather than SMS one-time-passcodes. Implements the CAMARA Numbe
@@ -215,7 +215,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 8.7
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -225,15 +225,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.9
+  previous_composite: 8.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vodafone/refs/heads/main/screenshots/vodafone-2026-06-20T201126.png
 security:

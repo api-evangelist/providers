@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -228,9 +228,9 @@ jsonld:
   slug: context
 layout: provider
 mcp_servers:
-- description: ''
-  name: event-registry-mcp.yml
-  slug: event-registry-mcpyml
+- description: 'Event Registry publishes a first-party Model Context Protocol server, newsapi-mcp, that wraps the Event Registry REST API for LLM clients. It is a LOCAL STDIO server: there is no hosted endpoint an ag'
+  name: NewsAPI.ai MCP Server
+  slug: newsapiai-mcp-server
 modified: 2026-08-13
 name: Event Registry
 nav: Providers
@@ -265,7 +265,7 @@ rules:
 score:
   band: developing
   composite: 52.9
-  delta: -13.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -275,7 +275,7 @@ score:
     discoverability: 81.5
     governance: 26.5
     operational_transparency: 42.1
-  previous_composite: 66.3
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,9 +286,9 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/screenshots/event-registry-2026-06-20T180857.png
 security:
 - kind: authentication

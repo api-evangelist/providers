@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -280,7 +280,7 @@ modified: '2026-05-19'
 name: Cerbos
 nav: Providers
 network: true
-overview: 'Cerbos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AuthZEN API, Admin Audit API, Admin Policies API, and 6 more. Tagged areas include ABAC, Access Control, Authorization, AuthZEN, and Open Source.
+overview: 'Cerbos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AuthZEN API, Admin Audit API, Admin Policies API, and 6 more. Tagged areas include ABAC, Access Control, Authorization, AuthZEN, and Open-Source.
 
 
   Cerbos'' developer surface includes authentication, documentation, getting-started guide, GitHub presence, release notes, engineering blog, pricing, and 25 more developer resources.'
@@ -296,7 +296,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.3
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -306,7 +306,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.6
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -320,8 +320,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/screenshots/cerbos-2026-06-20T174139.png
 security:
@@ -343,7 +343,7 @@ tags:
 - Access Control
 - Authorization
 - AuthZEN
-- Open Source
+- Open-Source
 - PBAC
 - PDP
 - Permissions

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-19'
 name: Green Canopy NODE
 nav: Providers
 network: true
-overview: 'Green Canopy NODE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Construction Technology, Sustainability, and Prefab Housing.
+overview: 'Green Canopy NODE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Construction Technology, Sustainability, and Prefab Housing.
 
 
   Green Canopy NODE''s developer surface includes engineering blog, support, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 4.7
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,15 +74,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.6
+  previous_composite: 4.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-canopy-node/refs/heads/main/screenshots/green-canopy-node-2026-07-25T220311.png
 security:
@@ -93,7 +93,7 @@ security:
 slug: green-canopy-node
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Construction Technology
 - Sustainability
 - Prefab Housing

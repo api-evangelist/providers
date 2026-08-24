@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Decagon AI Agents Studio is the enterprise platform for authoring, deploying, testing, and operating AI agents using Agent Operating Procedures (AOPs) - natural-language workflows that drive agent beh
@@ -232,7 +232,7 @@ modified: '2026-08-08'
 name: Decagon
 nav: Providers
 network: true
-overview: 'Decagon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, AI, Chat, Conversational AI, and Customer Experience.
+overview: 'Decagon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Artificial Intelligence, Chat, Conversational AI, and Customer Experience.
 
 
   Decagon''s developer surface includes documentation, engineering blog, support, training material, privacy policy, and 36 more developer resources.'
@@ -248,7 +248,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.8
-  delta: -9.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -258,10 +258,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 29.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 19.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/screenshots/decagon-2026-06-20T175849.png
 security:
 - kind: domain-security
@@ -275,7 +275,7 @@ security:
 slug: decagon
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - Chat
 - Conversational AI
 - Customer Experience

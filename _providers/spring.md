@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ modified: '2026-08-08'
 name: Spring Framework
 nav: Providers
 network: true
-overview: 'Spring Framework publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Environment API, Health API, and 7 more. Tagged areas include AI, Cloud Native, Enterprise, Framework, and Java.
+overview: 'Spring Framework publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Environment API, Health API, and 7 more. Tagged areas include Artificial Intelligence, Cloud-Native, Enterprise, Framework, and Java.
 
 
   The Spring Framework catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -301,18 +301,18 @@ rules:
   slug: spring-rules
 score:
   band: developing
-  composite: 41.9
-  delta: 3.0
+  composite: 43.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 69.4
     developer_ergonomics: 26.2
     discoverability: 63.0
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 23.7
-  previous_composite: 38.9
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -320,8 +320,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/screenshots/spring-2026-06-20T194408.png
 security:
@@ -339,13 +339,13 @@ security:
   summary_line: security.txt · contact published
 slug: spring
 tags:
-- AI
-- Cloud Native
+- Artificial Intelligence
+- Cloud-Native
 - Enterprise
 - Framework
 - Java
 - Microservices
-- Open Source
+- Open-Source
 - REST
 - Spring Boot
 website: https://spring.io

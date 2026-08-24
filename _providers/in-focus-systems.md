@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: In Focus Systems
 nav: Providers
 network: true
-overview: 'In Focus Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audiovisual, Projectors, Displays, and Hardware.
+overview: 'In Focus Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio Visual, Projectors, Displays, and Hardware.
 
 
   In Focus Systems'' developer surface includes support, engineering blog, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 2.5
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -86,16 +86,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.5
+  previous_composite: 2.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-focus-systems/refs/heads/main/screenshots/in-focus-systems-2026-07-25T222213.png
 security:
 - kind: domain-security
@@ -105,7 +105,7 @@ security:
 slug: in-focus-systems
 tags:
 - Company
-- Audiovisual
+- Audio Visual
 - Projectors
 - Displays
 - Hardware

@@ -16,11 +16,11 @@
      "slug": "avito",
      "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where individuals and businesses buy and sell across goods, vehicles, real estate, jobs and services. For business sellers and integrators Avito publishes a public Developer Portal (developers.avito.ru) exposing 25 OpenAPI 3.0.0 REST APIs on api.avito.ru covering item/listing management, autoload feed ingestion, the buyer-seller messenger, delivery, order and stock management, ratings and reviews, advertising and CPA/promotion campaigns, short-term rental, jobs (Avito.Rabota), and Autoteka vehicle history. All APIs use OAuth 2.0 (authorization_code for acting on behalf of users, client_credentials for a business's own account) with scoped access and per-minute rate limiting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png",
-     "score": 48.4,
+     "score": 50.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 63.0,
+      "discoverability": 81.5,
       "contract_quality": 56.6,
       "governance": 30.3,
       "contract_governance": 30.3,
@@ -29,8 +29,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 50.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -64,54 +64,14 @@
    "shown": 2,
    "providers": [
     {
-     "name": "KupiVIP",
-     "slug": "kupivip",
-     "description": "KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling women's and men's apparel, footwear, bags, accessories and home goods from more than 250 international designer brands at discounts of up to 90% on previous-season collections. The 1C-Bitrix storefront ships across Russia, publishes a 100% authenticity guarantee backed by expert verification, offers free delivery on orders over 30,000 RUB, and runs telephone, email, WhatsApp and Telegram customer support. The company was originally surfaced in the API Evangelist network as an Accel portfolio company. As of the 2026-07-19 enrichment probe KupiVIP publishes no public API, developer portal, SDK, or machine-readable interface of any kind.",
-     "score": 12.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 2
-    },
-    {
      "name": "OZON.ru",
      "slug": "ozonru",
      "description": "OZON is one of Russia's largest e-commerce marketplaces, offering retail across electronics, apparel, groceries, and more, plus its own logistics and fulfillment network (FBO/FBS). For developers, OZON exposes the OZON Seller API, a POST-based RPC-over-HTTP JSON API at https://api-seller.ozon.ru that lets marketplace sellers manage products, prices, stock, warehouses, orders, returns, analytics, and finances programmatically. Authentication uses two headers, a numeric Client-Id and a secret Api-Key issued in the seller cabinet. OZON was surfaced as a portfolio company of Index Ventures and enriched by the API Evangelist pipeline from live probes of its API host and public developer documentation.",
-     "score": 12.4,
+     "score": 13.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 87.0,
       "contract_quality": 0.0,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -120,8 +80,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 2.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -141,6 +101,46 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 2
+    },
+    {
+     "name": "KupiVIP",
+     "slug": "kupivip",
+     "description": "KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling women's and men's apparel, footwear, bags, accessories and home goods from more than 250 international designer brands at discounts of up to 90% on previous-season collections. The 1C-Bitrix storefront ships across Russia, publishes a 100% authenticity guarantee backed by expert verification, offers free delivery on orders over 30,000 RUB, and runs telephone, email, WhatsApp and Telegram customer support. The company was originally surfaced in the API Evangelist network as an Accel portfolio company. As of the 2026-07-19 enrichment probe KupiVIP publishes no public API, developer portal, SDK, or machine-readable interface of any kind.",
+     "score": 12.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 3
     }
    ],
@@ -151,8 +151,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "B2B-Center",
@@ -172,8 +172,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -201,21 +201,52 @@
       "dry_run_mode": false
      },
      "rank": 4
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
      "name": "Lomonosov Moscow State University",
      "slug": "lomonosov-moscow-state-university",
      "description": "Lomonosov Moscow State University is a higher-education institution in Russian Federation. This profile is a STUB: it records the institution's identity only. No claim is made about its programmable surface -- what it operates, what a vendor operates on its behalf, and what it publishes have not yet been established. Run the university pipeline (all/0-working/pipeline-university.md) to profile it.",
+     "score": 0.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 46.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 5
     }
    ]

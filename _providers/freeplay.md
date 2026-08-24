@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-06-20'
 name: Freeplay
 nav: Providers
 network: true
-overview: 'Freeplay publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Completions API, Datasets API, and 7 more. Tagged areas include AI, LLM, Evaluation, Observability, and Prompt Management.
+overview: 'Freeplay publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Completions API, Datasets API, and 7 more. Tagged areas include Artificial Intelligence, LLM, Evaluation, Observability, and Prompt Management.
 
 
   Freeplay''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.4
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -191,7 +191,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.0
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/screenshots/freeplay-2026-06-20T181534.png
 security:
@@ -218,7 +218,7 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: freeplay
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Evaluation
 - Observability

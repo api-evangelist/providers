@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -98,7 +98,7 @@ description: SeedLegals is a legal-technology platform that helps startups, foun
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seedlegals.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Hosted Model Context Protocol server operated by SeedLegals at https://api.seedlegals.com/mcp. Discovered via RFC 8414 OAuth Authorization Server Metadata and RFC 9728 OAuth Protected Resource Metadat
   name: SeedLegals MCP Server
   slug: seedlegals-mcp-server
 modified: '2026-07-21'
@@ -118,7 +118,7 @@ scopes:
 score:
   band: emerging
   composite: 20.5
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -128,12 +128,12 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.5
+  previous_composite: 20.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

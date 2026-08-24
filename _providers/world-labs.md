@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The credits API from World Labs — 1 operation(s) for credits.
@@ -83,14 +83,14 @@ description: 'World Labs is a company surfaced as a portfolio company of sv-ange
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/world-labs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: world-labs-mcp.yml
-  slug: world-labs-mcpyml
+- description: World Labs publishes no official MCP server as of this pass (none referenced in docs.worldlabs.ai, the worldlabsai GitHub org, or the official marble-developer-api-skill — the skill targets coding age
+  name: World Labs MCP Server
+  slug: world-labs-mcp-server
 modified: '2026-07-17'
 name: World Labs
 nav: Providers
 network: true
-overview: 'World Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: credits API and Marble API. Tagged areas include Company and Ai.
+overview: 'World Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: credits API and Marble API. Tagged areas include Company and Artificial Intelligence.
 
 
   World Labs'' developer surface includes authentication and 6 more developer resources.'
@@ -98,7 +98,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 24.6
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -108,7 +108,7 @@ score:
     discoverability: 48.1
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 24.8
+  previous_composite: 24.6
   provenance:
     conformance: derived
     contracts:
@@ -117,8 +117,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -136,6 +136,6 @@ security:
 slug: world-labs
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 website: https://worldlabs.ai
 ---

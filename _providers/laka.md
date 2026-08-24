@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: The accounts API from Laka — 6 operation(s) for accounts.
@@ -203,13 +203,13 @@ image: https://laka.co/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: laka-mcp.yml
-  slug: laka-mcpyml
+  name: Laka MCP Server
+  slug: laka-mcp-server
 modified: '2026-07-19'
 name: Laka
 nav: Providers
 network: true
-overview: 'Laka publishes 9 APIs on the [APIs.io](https://apis.io/) network, including accounts API, claims API, deeplinks API, and 6 more. Tagged areas include Company, Insurance, InsurTech, Cycling, and Micro Mobility.
+overview: 'Laka publishes 9 APIs on the [APIs.io](https://apis.io/) network, including accounts API, claims API, deeplinks API, and 6 more. Tagged areas include Company, Insurance, Insurtech, Cycling, and Micromobility.
 
 
   Laka''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 19 more developer resources.'
@@ -217,7 +217,7 @@ random_paper: 10
 score:
   band: developing
   composite: 41.5
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -227,7 +227,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 43.7
+  previous_composite: 41.5
   provenance:
     conformance: derived
     contracts:
@@ -243,8 +243,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/screenshots/laka-2026-07-25T224431.png
 security:
@@ -260,9 +260,9 @@ slug: laka
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Cycling
-- Micro Mobility
+- Micromobility
 - Bicycle Insurance
 - Claims
 - Policies

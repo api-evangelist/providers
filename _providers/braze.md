@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 24
 apis:
 - description: The Catalogs > Catalog Items > Asynchronous API from Braze — 1 operation(s) for catalogs > catalog items > asynchronous.
@@ -418,8 +418,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/braze.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: braze-mcp.yml
-  slug: braze-mcpyml
+  name: Braze MCP Server
+  slug: braze-mcp-server
 modified: '2026-08-13'
 name: Braze
 nav: Providers
@@ -448,7 +448,7 @@ scopes:
 score:
   band: exemplar
   composite: 81.6
-  delta: 11.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -458,7 +458,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 92.1
-  previous_composite: 70.3
+  previous_composite: 81.6
   provenance:
     conformance: derived
     contracts:
@@ -474,9 +474,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 80.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/screenshots/braze-2026-06-20T173643.png
 security:
 - kind: authentication

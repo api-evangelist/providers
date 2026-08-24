@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -543,18 +543,18 @@ rules:
   slug: tomorrow-spectral-rules
 score:
   band: developing
-  composite: 39.6
-  delta: -8.3
+  composite: 40.0
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 25.7
     developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 47.9
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -562,9 +562,9 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/screenshots/tomorrow-2026-06-20T195446.png
 security:
 - kind: authentication

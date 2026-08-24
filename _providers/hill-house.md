@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -89,7 +89,7 @@ modified: '2026-07-19'
 name: Hill House
 nav: Providers
 network: true
-overview: 'Hill House is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Retail, Home Goods, and Apparel.
+overview: 'Hill House is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Home Goods, and Apparel.
 
 
   Hill House''s developer surface includes authentication, support, engineering blog, and 8 more developer resources.'
@@ -101,22 +101,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 14.3
-  delta: -2.8
+  composite: 15.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 15.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hill-house/refs/heads/main/screenshots/hill-house-2026-08-07T170218.png
 security:
@@ -131,7 +131,7 @@ security:
 slug: hill-house
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Home Goods
 - Apparel

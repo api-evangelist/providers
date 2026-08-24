@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -301,7 +301,7 @@ modified: '2026-08-13'
 name: Encharge
 nav: Providers
 network: true
-overview: 'Encharge publishes 16 APIs on the [APIs.io](https://apis.io/) network, including REST API, Transactional Email API, Ingest API, and 13 more. Tagged areas include Email Marketing, Marketing Automation, Transactional Email, SaaS, and Behavioral Email.
+overview: 'Encharge publishes 16 APIs on the [APIs.io](https://apis.io/) network, including REST API, Transactional Email API, Ingest API, and 13 more. Tagged areas include Email Marketing, Marketing Automation, Transactional Email, Software-as-a-Service, and Behavioral Email.
 
 
   The Encharge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -325,7 +325,7 @@ scopes:
 score:
   band: strong
   composite: 57.6
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -335,7 +335,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 61.5
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -346,8 +346,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/screenshots/encharge-2026-06-20T180652.png
 security:
@@ -372,10 +372,10 @@ tags:
 - Email Marketing
 - Marketing Automation
 - Transactional Email
-- SaaS
+- Software-as-a-Service
 - Behavioral Email
 - Customer Engagement
 - Customer Data
-- Webhooks
+- Webhook
 website: https://encharge.io
 ---

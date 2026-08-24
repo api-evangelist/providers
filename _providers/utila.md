@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Address Book API from Utila — 5 operation(s) for address book.
@@ -251,8 +251,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/utila.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: utila-mcp.yml
-  slug: utila-mcpyml
+  name: Utila MCP Server
+  slug: utila-mcp-server
 modified: '2026-07-21'
 name: Utila
 nav: Providers
@@ -268,7 +268,7 @@ random_paper: 18
 score:
   band: strong
   composite: 56.8
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -278,7 +278,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 57.4
+  previous_composite: 56.8
   provenance:
     conformance: derived
     contracts:
@@ -294,8 +294,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utila/refs/heads/main/screenshots/utila-2026-08-17T082701.png
 security:

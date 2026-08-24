@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ modified: '2026-05-19'
 name: Pixelixe
 nav: Providers
 network: true
-overview: 'Pixelixe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Document API, and Graphic API. Tagged areas include Graphics and Images.
+overview: 'Pixelixe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Document API, and Graphic API. Tagged areas include Graphics and Image.
 
 
   Pixelixe''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -129,7 +129,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 28.9
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -137,8 +137,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/screenshots/pixelixe-2026-06-20T191739.png
 security:
@@ -153,5 +153,5 @@ security:
 slug: pixelixe
 tags:
 - Graphics
-- Images
+- Image
 ---

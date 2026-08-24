@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -161,13 +161,13 @@ image: https://static.wixstatic.com/media/b5277c_f5fd0014edb2463184acc145d446cc2
 layout: provider
 mcp_servers:
 - description: ''
-  name: lightning-social-ventures-mcp.yml
-  slug: lightning-social-ventures-mcpyml
+  name: Lightning Social Ventures MCP Server
+  slug: lightning-social-ventures-mcp-server
 modified: '2026-07-19'
 name: Lightning Social Ventures
 nav: Providers
 network: true
-overview: 'Lightning Social Ventures publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Support Schemes API, and Webhooks API. Tagged areas include Company, Financial Inclusion, Grants, Social Impact, and Nonprofit.
+overview: 'Lightning Social Ventures publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Support Schemes API, and Webhooks API. Tagged areas include Company, Financial Inclusion, Grants, Social Impact, and Non-Profit.
 
 
   The Lightning Social Ventures catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -178,7 +178,7 @@ random_paper: 19
 score:
   band: thin
   composite: 33.4
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 34.3
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/screenshots/lightning-social-ventures-2026-07-25T225125.png
 security:
@@ -224,7 +224,7 @@ tags:
 - Financial Inclusion
 - Grants
 - Social Impact
-- Nonprofit
+- Non-Profit
 - Housing
 - Government
 - Welfare Benefits

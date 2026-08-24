@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'SAP NS2 is an independent US subsidiary of SAP SE that operates SAP cloud and software workloads for the US federal government, the Department of Defense, the Intelligence Community, and commercially '
@@ -117,7 +117,7 @@ description: SAP America, Inc. is the US subsidiary of SAP SE, headquartered in 
   (CRE) for federal, defense, and intelligence community customers. No tier-1 API artifacts (OpenAPI, AsyncAPI, JSON Schema, capabilities, plans, rate limits, FinOps) are generated in this repo per the api-evangelist no-empty-artifact rule — they are maintained under the parent `sap` repo and the per-product child repos (`sap-business-technology-platform`, `sap-successfactors`, `sap-ariba`, `sap-concur`, `sap-fieldglass`, `sap-api-management`, `sap-integration-suite`).
 image: https://www.sap.com/dam/application/shared/logos/sap-logo.svg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-21'
 name: SAP America
 nav: Providers
 network: true
@@ -129,7 +129,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 15.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -139,15 +139,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 16.3
+  previous_composite: 15.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/screenshots/sap-america-2026-06-20T193418.png
 security:

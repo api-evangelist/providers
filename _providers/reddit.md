@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -321,7 +321,7 @@ modified: '2026-05-19'
 name: Reddit
 nav: Providers
 network: true
-overview: 'Reddit publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Account API, Accounts API, and 17 more. Tagged areas include Advertising, Communities, Content, Social Media, and Social News.
+overview: 'Reddit publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Account API, Accounts API, and 17 more. Tagged areas include Advertising, Communities, Content, Social-Media, and Social News.
 
 
   The Reddit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -366,18 +366,18 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.2
-  delta: -7.9
+  composite: 44.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.8
     developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 52.1
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -385,9 +385,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/screenshots/reddit-2026-08-17T081506.png
 security:
 - kind: authentication
@@ -407,7 +407,7 @@ tags:
 - Advertising
 - Communities
 - Content
-- Social Media
+- Social-Media
 - Social News
 website: https://www.reddit.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'High-level gRPC (proto3) API to directly control the Clone Robot — muscle actuation (impulses/pulses/pressures), pinch/hydra valve control, water-pump pressure source, telemetry streaming, and camera '
@@ -128,7 +128,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 19.7
-  delta: 6.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -138,10 +138,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  previous_composite: 19.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clone/refs/heads/main/screenshots/clone-2026-07-25T205641.png
 security:
 - kind: domain-security

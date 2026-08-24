@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Submitting, tracking, and downloading analysis jobs
@@ -148,13 +148,13 @@ image: https://cdn.prod.website-files.com/63213d26df394911486f698e/637bb41c1cac3
 layout: provider
 mcp_servers:
 - description: ''
-  name: biodock-mcp.yml
-  slug: biodock-mcpyml
+  name: Biodock MCP Server
+  slug: biodock-mcp-server
 modified: '2026-07-18'
 name: Biodock
 nav: Providers
 network: true
-overview: 'Biodock publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analysis Jobs API, Auth API, Files API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Image Analysis, and Microscopy.
+overview: 'Biodock publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analysis Jobs API, Auth API, Files API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Image Analysis, and Microscopy.
 
 
   Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 16 more developer resources.'
@@ -162,7 +162,7 @@ random_paper: 17
 score:
   band: developing
   composite: 46.5
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -172,7 +172,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 43.3
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -188,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/screenshots/biodock-2026-07-25T203036.png
 security:
@@ -213,12 +213,12 @@ slug: biodock
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Image Analysis
 - Microscopy
 - Life Sciences
 - Biotechnology
-- Computer Vision
+- Computer-Vision
 - Cell Analysis
 - Research
 website: https://docs.biodock.ai/

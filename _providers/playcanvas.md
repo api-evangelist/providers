@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Published applications and self-hostable app downloads.
@@ -214,8 +214,8 @@ image: https://playcanvas.com/static-assets/images/social/playcanvas.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: playcanvas-mcp.yml
-  slug: playcanvas-mcpyml
+  name: PlayCanvas MCP Server
+  slug: playcanvas-mcp-server
 modified: '2026-07-20'
 name: PlayCanvas
 nav: Providers
@@ -232,7 +232,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.0
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -242,7 +242,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 53.5
+  previous_composite: 54.0
   provenance:
     conformance: derived
     contracts:
@@ -252,8 +252,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/screenshots/playcanvas-2026-08-17T081259.png
 security:

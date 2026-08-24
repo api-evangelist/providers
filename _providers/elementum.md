@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -254,14 +254,14 @@ description: Elementum is an AI-native process automation and orchestration plat
 image: https://www.elementum.ai/opengraph-image-12jlf3?57ba9092a8cf43dd
 layout: provider
 mcp_servers:
-- description: ''
-  name: elementum-mcp.yml
-  slug: elementum-mcpyml
+- description: 'Official Elementum documentation MCP server. Gives MCP-compatible AI tools (Cursor, Claude Desktop, Claude Code, ChatGPT, and any Streamable HTTP client) real-time, cited access to the live Elementum '
+  name: Elementum MCP Server
+  slug: elementum-mcp-server
 modified: '2026-07-19'
 name: Elementum
 nav: Providers
 network: true
-overview: 'Elementum publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Agents API, Apps API, and 15 more. Tagged areas include Company, AI, Automation, Workflow, and Orchestration.
+overview: 'Elementum publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Agents API, Apps API, and 15 more. Tagged areas include Company, Artificial Intelligence, Automation, Workflows, and Orchestration.
 
 
   Elementum''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
@@ -269,7 +269,7 @@ random_paper: 6
 score:
   band: developing
   composite: 42.5
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -279,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 45.4
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,8 +290,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/screenshots/elementum-2026-07-25T213131.png
 security:
@@ -306,9 +306,9 @@ security:
 slug: elementum
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- Workflow
+- Workflows
 - Orchestration
 - Agents
 - Supply Chain

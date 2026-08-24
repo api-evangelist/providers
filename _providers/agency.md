@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-17'
 name: Agency
 nav: Providers
 network: true
-overview: 'Agency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Success, and SaaS.
+overview: 'Agency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Success, and Software-as-a-Service.
 
 
   Agency''s developer surface includes engineering blog and 9 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 14.6
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -98,9 +98,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 14.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agency/refs/heads/main/screenshots/agency-2026-07-25T181758.png
 security:
@@ -122,7 +122,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Customer Success
-- SaaS
+- Software-as-a-Service
 - Revenue Operations
 website: https://agency.inc
 ---

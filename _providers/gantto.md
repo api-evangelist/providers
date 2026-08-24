@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-19'
 name: Gantto
 nav: Providers
 network: true
-overview: Gantto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Project Management, Gantt Chart, Project Scheduling, and SaaS.
+overview: Gantto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Project Management, Gantt Chart, Project Scheduling, and Software-as-a-Service.
 random_paper: 2
 score:
   band: minimal
@@ -74,8 +74,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gantto/refs/heads/main/screenshots/gantto-2026-07-25T215437.png
 slug: gantto
@@ -84,7 +84,7 @@ tags:
 - Project Management
 - Gantt Chart
 - Project Scheduling
-- SaaS
+- Software-as-a-Service
 - Defunct
 - Acquired
 website: https://gantto.com

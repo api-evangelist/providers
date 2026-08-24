@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-17'
 name: Altana AI
 nav: Providers
 network: true
-overview: 'Altana AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Supply Chain, Trade Compliance, and Supply Chain Intelligence.
+overview: 'Altana AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Supply Chain, Trade Compliance, and Supply Chain Intelligence.
 
 
   Altana AI''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 18.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -106,15 +106,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.0
+  previous_composite: 18.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altana-ai/refs/heads/main/screenshots/altana-ai-2026-07-25T195831.png
 security:
@@ -129,7 +129,7 @@ security:
 slug: altana-ai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Supply Chain
 - Trade Compliance
 - Supply Chain Intelligence

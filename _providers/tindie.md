@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: A seller's orders (authenticated).
@@ -137,8 +137,8 @@ image: https://avatars.githubusercontent.com/u/2267159
 layout: provider
 mcp_servers:
 - description: ''
-  name: tindie-mcp.yml
-  slug: tindie-mcpyml
+  name: Tindie MCP Server
+  slug: tindie-mcp-server
 modified: '2026-07-21'
 name: Tindie
 nav: Providers
@@ -150,18 +150,18 @@ overview: 'Tindie publishes 3 APIs on the [APIs.io](https://apis.io/) network: o
 random_paper: 7
 score:
   band: thin
-  composite: 31.1
-  delta: -1.3
+  composite: 32.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
     contract_quality: 54.5
     developer_ergonomics: 24.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 32.4
+  previous_composite: 32.2
   provenance:
     conformance: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -190,8 +190,8 @@ tags:
 - Hardware
 - Electronics
 - Maker
-- eCommerce
+- E-Commerce
 - Open Source Hardware
-- Orders
+- Order
 website: https://www.tindie.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-07-11'
 name: Uberduck
 nav: Providers
 network: true
-overview: 'Uberduck publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversational API, Models API, Text-to-Speech API, and 1 more. Tagged areas include AI, Text to Speech, TTS, Voice, and Voice Cloning.
+overview: 'Uberduck publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversational API, Models API, Text-to-Speech API, and 1 more. Tagged areas include Artificial Intelligence, Text-to-Speech, TTS, Voice, and Voice Cloning.
 
 
   Uberduck''s developer surface includes authentication, documentation, API reference, and 7 more developer resources.'
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -173,8 +173,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: uberduck
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - TTS
 - Voice
 - Voice Cloning

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Branddu is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 1
 score:
   band: emerging
-  composite: 12.3
+  composite: 13.4
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -99,12 +99,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/branddu/refs/heads/main/screenshots/branddu-2026-08-07T162745.png
 security:

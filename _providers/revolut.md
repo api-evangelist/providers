@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 69.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -455,8 +455,8 @@ image: https://assets.revolut.com/assets/revolut-app-icons/Developer.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: revolut-mcp.yml
-  slug: revolut-mcpyml
+  name: Revolut MCP Server
+  slug: revolut-mcp-server
 modified: '2026-07-21'
 name: Revolut
 nav: Providers
@@ -472,7 +472,7 @@ random_paper: 8
 score:
   band: developing
   composite: 53.2
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -482,7 +482,7 @@ score:
     discoverability: 74.1
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 48.6
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -499,8 +499,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/screenshots/revolut-2026-08-17T081548.png
 security:

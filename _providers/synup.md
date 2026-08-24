@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API v4 for managing business locations, syndicating listings to 80+ directories, aggregating and responding to reviews, running review campaigns, tracking local search rankings with grid-rank hea
@@ -235,9 +235,9 @@ jsonld:
   slug: synup-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: synup-mcp.yml
-  slug: synup-mcpyml
+- description: 'Synup ships a first-party remote MCP server that exposes the same surface area as the Synup dashboard as agent tools: locations, listings, reviews, rankings, local and social posts, flows, account and'
+  name: Synup MCP Server
+  slug: synup-mcp-server
 modified: '2026-08-13'
 name: Synup
 nav: Providers
@@ -266,7 +266,7 @@ scopes:
 score:
   band: strong
   composite: 61.3
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -276,7 +276,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 26.3
-  previous_composite: 64.6
+  previous_composite: 61.3
   provenance:
     conformance: derived
     contracts:
@@ -286,8 +286,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/screenshots/synup-2026-06-20T194835.png
 security:
@@ -306,7 +306,7 @@ tags:
 - Reputation Management
 - Local SEO
 - Reviews
-- Social Media
+- Social-Media
 - Analytics
 - Business Listings
 - Review Management

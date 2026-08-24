@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 0
@@ -181,8 +181,8 @@ image: https://www.leaflink.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: leaflink-mcp.yml
-  slug: leaflink-mcpyml
+  name: LeafLink MCP Server
+  slug: leaflink-mcp-server
 modified: '2026-08-01'
 name: LeafLink
 nav: Providers
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.5
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -212,7 +212,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 53.7
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +229,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/screenshots/leaflink-2026-08-07T171512.png
 security:
@@ -257,7 +257,7 @@ tags:
 - Inventory
 - Compliance
 - Traceability
-- eCommerce
+- E-Commerce
 - Distribution
 - Retail
 website: https://www.leaflink.com/

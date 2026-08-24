@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Genspark's hosted (remote) Model Context Protocol server, exposing Genspark's AI agent tools, resources, and prompts to MCP-capable clients over HTTP under OAuth 2.1.
@@ -94,14 +94,14 @@ description: Genspark is an all-in-one AI workspace and autonomous "Super Agent"
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genspark.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: genspark-mcp.yml
-  slug: genspark-mcpyml
+- description: Genspark's hosted (remote) Model Context Protocol server, exposing Genspark's AI agent tools, resources, and prompts to MCP-capable clients over HTTP, gated by OAuth 2.1 with PKCE and dynamic client r
+  name: Genspark MCP Server
+  slug: genspark-mcp-server
 modified: '2026-07-19'
 name: Genspark
 nav: Providers
 network: true
-overview: 'Genspark publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, AI Agents, and MCP.
+overview: 'Genspark publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, MCP, and Productivity.
 
 
   Genspark''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
@@ -113,23 +113,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.8
-  delta: -0.7
+  composite: 18.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 18.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/screenshots/genspark-2026-07-25T215631.png
 security:
@@ -144,11 +144,9 @@ security:
 slug: genspark
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Agents
 - MCP
-- Model Context Protocol
 - Productivity
 - Automation
 - Search

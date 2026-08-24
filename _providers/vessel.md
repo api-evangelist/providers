@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 304
   human_in_the_loop: 0
@@ -335,7 +335,7 @@ modified: '2026-08-13'
 name: Vessel
 nav: Providers
 network: true
-overview: 'Vessel publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Platform API, CRM Unified API, Sales Engagement Unified API, and 17 more. Tagged areas include CRM, Chat, Dialer, Embedded Integrations, and GTM.
+overview: 'Vessel publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Platform API, CRM Unified API, Sales Engagement Unified API, and 17 more. Tagged areas include CRM, Chat, Dialer, Embedded Integrations, and Go-To-Market.
 
 
   The Vessel catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -375,18 +375,18 @@ rules:
   slug: vessel-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.5
-  delta: 11.9
+  composite: 72.6
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 90.9
+    contract_governance: 100.0
     contract_quality: 62.0
     developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 90.9
+    governance: 100.0
     operational_transparency: 50.0
-  previous_composite: 59.6
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -397,9 +397,9 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/screenshots/vessel-2026-06-20T200959.png
 security:
 - kind: authentication
@@ -416,12 +416,12 @@ tags:
 - Chat
 - Dialer
 - Embedded Integrations
-- GTM
-- Integrations
+- Go-To-Market
+- Integration
 - iPaaS
 - Marketing Automation
 - Sales Engagement
-- Unified API
-- Webhooks
+- Unified-API
+- Webhook
 website: https://www.vessel.dev/
 ---

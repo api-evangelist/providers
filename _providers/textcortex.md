@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -167,8 +167,8 @@ image: https://docs.textcortex.com/logo192.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: textcortex-mcp.yml
-  slug: textcortex-mcpyml
+  name: Textcortex MCP Server
+  slug: textcortex-mcp-server
 modified: '2026-07-21'
 name: Textcortex
 nav: Providers
@@ -181,7 +181,7 @@ random_paper: 1
 score:
   band: thin
   composite: 35.2
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -191,7 +191,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 42.9
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,9 +202,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/screenshots/textcortex-2026-08-17T082329.png
 security:
 - kind: authentication

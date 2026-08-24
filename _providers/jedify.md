@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Asynchronous REST API for asking natural-language analytics questions against connected data. Create a session, submit an inquiry, then poll or long-poll for a grounded answer with generated SQL, stru
@@ -123,8 +123,8 @@ image: https://jedify.com/wp-content/uploads/logo01-1-1.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: jedify-mcp.yml
-  slug: jedify-mcpyml
+  name: Jedify MCP Server
+  slug: jedify-mcp-server
 modified: '2026-07-19'
 name: Jedify
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 22.6
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -147,12 +147,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 26.0
+  previous_composite: 22.6
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/screenshots/jedify-2026-07-25T223116.png
 security:

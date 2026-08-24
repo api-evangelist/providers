@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The RE/MAX Europe Datahub API is the franchise-operations API behind the RE/MAX EU Datahub application. It exposes offices, persons, RE/MAX Titles (the agent/broker role records), teams, regions and m
@@ -152,13 +152,13 @@ image: https://remax.eu/wp-content/uploads/2026/03/REMAX-Balloon-RGB.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: re-max-mcp.yml
-  slug: re-max-mcpyml
+  name: RE/MAX MCP Server
+  slug: remax-mcp-server
 modified: '2026-07-26'
 name: RE/MAX
 nav: Providers
 network: true
-overview: 'RE/MAX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Europe Datahub API and Europe Listings API. Tagged areas include Real Estate, United States, Brokerage, Property Listings, and MLS.
+overview: 'RE/MAX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Europe Datahub API and Europe Listings API. Tagged areas include Real-Estate, United States, Brokerage, Property Listings, and MLS.
 
 
   RE/MAX''s developer surface includes authentication, sandbox, engineering blog, documentation, and 21 more developer resources.'
@@ -166,7 +166,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 19.8
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -176,7 +176,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 25.0
+  previous_composite: 19.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -187,9 +187,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Re Max Authentication
@@ -201,7 +201,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: re-max
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Brokerage
 - Property Listings

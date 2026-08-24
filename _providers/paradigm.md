@@ -29,7 +29,7 @@ tags:
 - Blockchain
 - Web3
 - DeFi
-- AI
+- Artificial Intelligence
 - Robotics
 - Frontier Technology
 - Infrastructure

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 86
 apis:
 - description: Two hosted, remote Model Context Protocol servers for the nCino Mortgage platform — an LO server for loan officers and an Admin server for organization administrators. Both use OAuth 2.1 authorization
@@ -688,13 +688,13 @@ image: https://files.readme.io/38d104d-nCino_Logo-Full_color-Dark_bgWEB.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ncino-mcp.yml
-  slug: ncino-mcpyml
+  name: nCino MCP Server
+  slug: ncino-mcp-server
 modified: '2026-08-04'
 name: nCino
 nav: Providers
 network: true
-overview: 'nCino publishes 85 APIs on the [APIs.io](https://apis.io/) network, including Account Assignment Webhooks API, Audit Logs API, Authentication API, and 82 more. Tagged areas include Company, Banking, Financial Services, Lending, and Mortgage.
+overview: 'nCino publishes 85 APIs on the [APIs.io](https://apis.io/) network, including Account Assignment Webhooks API, Audit Logs API, Authentication API, and 82 more. Tagged areas include Company, Banking, Financial-Services, Lending, and Mortgage.
 
 
   The nCino catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -710,7 +710,7 @@ scopes:
 score:
   band: developing
   composite: 40.8
-  delta: -14.7
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -720,7 +720,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 55.5
+  previous_composite: 40.8
   provenance:
     conformance: derived
     contracts:
@@ -736,9 +736,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 51.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/screenshots/ncino-2026-08-07T184748.png
 security:
 - kind: authentication
@@ -757,7 +757,7 @@ slug: ncino
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Lending
 - Mortgage
 - Loan Origination
@@ -766,7 +766,7 @@ tags:
 - Salesforce
 - eVault
 - eNote
-- Webhooks
+- Webhook
 - MCP
 website: https://www.ncino.com/
 ---

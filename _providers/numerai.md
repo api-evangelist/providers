@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint (Elixir/Absinthe, introspection enabled) covering datasets, submissions, models, leaderboards, staking, and Compute webhooks for Numerai Classic, Signals, and Crypto Signals. A
@@ -175,13 +175,13 @@ image: https://numer.ai/img/social-card.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: numerai-mcp.yml
-  slug: numerai-mcpyml
+  name: Numerai MCP Server
+  slug: numerai-mcp-server
 modified: '2026-07-20'
 name: Numerai
 nav: Providers
 network: true
-overview: 'Numerai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Machine Learning, Data Science, and Hedge Fund.
+overview: 'Numerai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Machine-Learning, Data Science, and Hedge Fund.
 
 
   The Numerai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -200,24 +200,24 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 47.9
-  delta: -2.4
+  composite: 49.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 45.1
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 50.3
+  previous_composite: 49.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numerai/refs/heads/main/screenshots/numerai-2026-08-07T185729.png
 security:
@@ -237,13 +237,12 @@ slug: numerai
 tags:
 - Company
 - Fintech
-- Machine Learning
+- Machine-Learning
 - Data Science
 - Hedge Fund
 - GraphQL
 - Crypto
 - Quantitative Finance
 - Tournament
-- API
 website: https://numer.ai
 ---

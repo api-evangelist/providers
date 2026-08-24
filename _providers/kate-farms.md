@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Shopify Storefront GraphQL API as deployed on Kate Farms' own host. Anonymous introspection succeeded on 2026-08-04, returning 424 types, 35 root query fields and 41 mutations covering products, c
@@ -144,8 +144,8 @@ image: https://cdn.shopify.com/s/files/1/0205/6802/files/KF_Logo_Navy_TM.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kate-farms-mcp.yml
-  slug: kate-farms-mcpyml
+  name: Kate Farms MCP Server
+  slug: kate-farms-mcp-server
 modified: '2026-08-04'
 name: Kate Farms
 nav: Providers
@@ -167,7 +167,7 @@ scopes:
 score:
   band: developing
   composite: 40.5
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -177,7 +177,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 37.7
+  previous_composite: 40.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -188,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kate-farms/refs/heads/main/screenshots/kate-farms-2026-08-07T171111.png
 security:

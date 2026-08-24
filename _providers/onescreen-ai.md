@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'OneScreen''s only API surface: a remote Model Context Protocol server over Streamable HTTP that exposes OOH audience personas, market and inventory rankings, geospatial points of interest, media-owner '
@@ -124,8 +124,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onescreen-
 layout: provider
 mcp_servers:
 - description: ''
-  name: onescreen-ai-mcp.yml
-  slug: onescreen-ai-mcpyml
+  name: OneScreen MCP Server
+  slug: onescreen-mcp-server
 modified: '2026-08-13'
 name: OneScreen AI
 nav: Providers
@@ -151,7 +151,7 @@ scopes:
 score:
   band: thin
   composite: 26.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -161,12 +161,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 27.1
+  previous_composite: 26.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onescreen-ai/refs/heads/main/screenshots/onescreen-ai-2026-08-07T190340.png
 security:
@@ -189,7 +189,7 @@ tags:
 - Media
 - AI Agents
 - MCP
-- OAuth
+- Authentication
 - Agent Readiness
 website: https://onescreen.ai/
 ---

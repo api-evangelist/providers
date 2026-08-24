@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The WorldFirst Enterprise Solution (World Account) API — a RESTful, JSON, signed-request interface covering customer onboarding, account and beneficiary management, statements, foreign exchange, trans
@@ -145,7 +145,7 @@ random_paper: 12
 score:
   band: developing
   composite: 41.5
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -155,7 +155,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 42.5
+  previous_composite: 41.5
   provenance:
     conformance: derived
   regulatory:
@@ -164,8 +164,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/screenshots/worldfirst-2026-08-17T083002.png
 security:
@@ -186,7 +186,7 @@ tags:
 - Foreign Exchange
 - Payouts
 - Payment Gateway
-- E-commerce
+- E-Commerce
 - Multi-Currency
 - Card Issuing
 website: https://www.worldfirst.com/

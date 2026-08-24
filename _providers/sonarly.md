@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Read triaged, deduplicated bugs and their analysis runs.
@@ -146,9 +146,9 @@ description: Sonarly is an AI production-reliability platform (Y Combinator W202
 image: https://sonarly.com/logo_sonarly.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sonarly-mcp.yml
-  slug: sonarly-mcpyml
+- description: Candidate MCP tool list derived from Sonarly's read-only public REST API operations. Sonarly publishes no hosted/remote MCP server (its agent-native surface is the llms.txt onboarding guide, not MCP),
+  name: Sonarly MCP Server
+  slug: sonarly-mcp-server
 modified: '2026-07-21'
 name: Sonarly
 nav: Providers
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.7
-  delta: -10.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 48.3
+  previous_composite: 37.7
   provenance:
     conformance: derived
     contracts:
@@ -192,9 +192,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/screenshots/sonarly-2026-08-17T081959.png
 security:
 - kind: authentication

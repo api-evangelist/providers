@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 4
@@ -196,8 +196,8 @@ image: https://www.hildebrand.co.uk/images/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: hildebrand-mcp.yml
-  slug: hildebrand-mcpyml
+  name: Hildebrand MCP Server
+  slug: hildebrand-mcp-server
 modified: '2026-07-27'
 name: Hildebrand
 nav: Providers
@@ -217,7 +217,7 @@ random_paper: 8
 score:
   band: strong
   composite: 58.8
-  delta: 8.6
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -227,7 +227,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 50.2
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -244,9 +244,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/screenshots/hildebrand-2026-08-07T170207.png
 security:
 - kind: authentication

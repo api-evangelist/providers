@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-18'
 name: Bitfusion
 nav: Providers
 network: true
-overview: 'Bitfusion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU Virtualization, Machine Learning, Artificial Intelligence, and Infrastructure.
+overview: 'Bitfusion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU Virtualization, Machine-Learning, Artificial Intelligence, and Infrastructure.
 
 
   Bitfusion''s developer surface includes documentation and 1 more developer resources.'
@@ -56,7 +56,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 6.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -72,19 +72,19 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 6.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfusion/refs/heads/main/screenshots/bitfusion-2026-07-25T203155.png
 slug: bitfusion
 tags:
 - Company
 - GPU Virtualization
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Infrastructure
-- Data Center
+- Data-Center
 - Acquired
 - Defunct
 website: https://bitfusion.io/

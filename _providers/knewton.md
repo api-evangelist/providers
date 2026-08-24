@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Knewton Enterprise Platform REST API (v0) that partner learning applications integrate with to deliver continuously adaptive learning. Partners create anonymized user accounts, establish learning '
@@ -143,8 +143,8 @@ image: https://dev.knewton.com/knewton-theme/assets/images/layout/logo-kw.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: knewton-mcp.yml
-  slug: knewton-mcpyml
+  name: Knewton MCP Server
+  slug: knewton-mcp-server
 modified: '2026-07-19'
 name: Knewton
 nav: Providers
@@ -166,7 +166,7 @@ scopes:
 score:
   band: thin
   composite: 32.1
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -176,7 +176,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 27.3
+  previous_composite: 32.1
   provenance:
     conformance: derived
     mcp: derived
@@ -187,8 +187,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knewton/refs/heads/main/screenshots/knewton-2026-07-25T223953.png
 security:
@@ -208,7 +208,7 @@ tags:
 - EdTech
 - Adaptive Learning
 - Learning Analytics
-- Machine Learning
+- Machine-Learning
 - Recommendations
 - Courseware
 - Higher Education

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -403,7 +403,7 @@ modified: '2026-04-21'
 name: Backstage
 nav: Providers
 network: true
-overview: 'Backstage publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Events System, Actions API, Authentication API, and 10 more. Tagged areas include Developer Portal, Internal Developer Platform, Software Catalog, and Open Source.
+overview: 'Backstage publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Events System, Actions API, Authentication API, and 10 more. Tagged areas include Developer Portal, Internal Developer Platform, Software Catalog, and Open-Source.
 
 
   The Backstage catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -455,7 +455,7 @@ rules:
 score:
   band: developing
   composite: 40.4
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -465,7 +465,7 @@ score:
     discoverability: 55.6
     governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 45.5
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -473,9 +473,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/screenshots/backstage-2026-06-20T172918.png
 security:
 - kind: authentication
@@ -491,7 +491,7 @@ tags:
 - Developer Portal
 - Internal Developer Platform
 - Software Catalog
-- Open Source
+- Open-Source
 use_cases:
 - description: Build a unified portal for developers to discover services, read docs, and scaffold projects.
   name: Internal Developer Portal

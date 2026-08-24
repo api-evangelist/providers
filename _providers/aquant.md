@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -216,8 +216,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: aquant-mcp.yml
-  slug: aquant-mcpyml
+  name: Aquant MCP Server (Authenticated)
+  slug: aquant-mcp-server-authenticated
 modified: '2026-07-31'
 name: Aquant
 nav: Providers
@@ -235,7 +235,7 @@ scopes:
 score:
   band: developing
   composite: 50.9
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -245,7 +245,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 48.8
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +257,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/screenshots/aquant-2026-08-07T161534.png
 security:
@@ -284,9 +284,9 @@ tags:
 - Manufacturing
 - Medical Devices
 - Industrial Equipment
-- Knowledge Management
+- Knowledge-Management
 - Voice AI
-- Model Context Protocol
+- MCP
 - Predictive Maintenance
 website: https://www.aquant.ai/
 ---

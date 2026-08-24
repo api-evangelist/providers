@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Discover mock SaaS providers granted to your organization
@@ -140,8 +140,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ressl-ai.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: ressl-ai-mcp.yml
-  slug: ressl-ai-mcpyml
+  name: Ressl MCP Server
+  slug: ressl-mcp-server
 modified: '2026-07-20'
 name: Ressl
 nav: Providers
@@ -154,7 +154,7 @@ random_paper: 2
 score:
   band: developing
   composite: 40.3
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -164,7 +164,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 40.5
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -174,8 +174,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -195,6 +195,6 @@ tags:
 - Sandbox
 - Developer Tools
 - Synthetic Data
-- SaaS
+- Software-as-a-Service
 website: https://simulation.ressl.ai
 ---

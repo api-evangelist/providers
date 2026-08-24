@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public GraphQL API for Parabol. Authenticated with scoped Personal Access Tokens passed as a Bearer token. A single root `viewer` query returns the authenticated user and their teams, meetings, tasks,
@@ -171,8 +171,8 @@ image: https://action-files.parabol.co/production/build/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: parabol-mcp.yml
-  slug: parabol-mcpyml
+  name: Parabol MCP Server
+  slug: parabol-mcp-server
 modified: '2026-07-20'
 name: Parabol
 nav: Providers
@@ -193,7 +193,7 @@ scopes:
 score:
   band: developing
   composite: 47.1
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -203,14 +203,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 52.2
+  previous_composite: 47.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parabol/refs/heads/main/screenshots/parabol-2026-08-07T191355.png
 security:
 - kind: authentication
@@ -239,6 +239,6 @@ tags:
 - Collaboration
 - GraphQL
 - Team Productivity
-- Open Source
+- Open-Source
 website: https://www.parabol.co/
 ---

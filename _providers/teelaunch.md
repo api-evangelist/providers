@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-07-11'
 name: Teelaunch
 nav: Providers
 network: true
-overview: 'Teelaunch publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Payment API, Account Settings API, and 8 more. Tagged areas include Print on Demand, POD, Ecommerce, Fulfillment, and Dropshipping.
+overview: 'Teelaunch publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Payment API, Account Settings API, and 8 more. Tagged areas include Print on Demand, POD, E-Commerce, Fulfillment, and Dropshipping.
 
 
   Teelaunch''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -184,7 +184,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -194,7 +194,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.1
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -218,10 +218,10 @@ slug: teelaunch
 tags:
 - Print on Demand
 - POD
-- Ecommerce
+- E-Commerce
 - Fulfillment
 - Dropshipping
-- Orders
+- Order
 - Shipping
 website: https://teelaunch.com
 ---

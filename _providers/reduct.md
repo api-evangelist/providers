@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'RESTful API (version 3) providing broad access across a Reduct workspace: projects, recordings, media, redactions and redaction motions, highlights, comments, and reels, plus transcript retrieval, tra'
@@ -137,7 +137,7 @@ modified: '2026-07-21'
 name: Reduct
 nav: Providers
 network: true
-overview: 'Reduct publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Video, Transcription, and Translation.
+overview: 'Reduct publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application, Video, Transcription, and Translation.
 
 
   Reduct''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
@@ -158,8 +158,8 @@ score:
   previous_composite: 34.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -177,7 +177,7 @@ security:
 slug: reduct
 tags:
 - Company
-- Applications
+- Application
 - Video
 - Transcription
 - Translation

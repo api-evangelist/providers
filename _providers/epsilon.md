@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The core Epsilon Retail Media (CitrusAd) REST API. Retailers use it to sync product catalogs, catalog products, customers and order data into the platform, and to request product ads, static banner ad
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.0
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 40.5
+  previous_composite: 35.0
   provenance:
     conformance: first-party
     contracts:
@@ -186,9 +186,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Epsilon Authentication

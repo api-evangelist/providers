@@ -25,7 +25,7 @@ random_paper: 7
 slug: context-engineering
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - Anthropic
 - Compaction
 - Context Window

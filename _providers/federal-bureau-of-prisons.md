@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-25'
 name: Federal Bureau of Prisons
 nav: Providers
 network: true
-overview: Federal Bureau of Prisons is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Corrections, Federal Government, and Prisons.
+overview: Federal Bureau of Prisons is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Corrections, Federal-Government, and Prisons.
 plans:
 - name: Federal Bureau Of Prisons Plans Pricing
   plan_count: 3
@@ -74,7 +74,7 @@ rate_limits:
 score:
   band: minimal
   composite: 6.7
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -84,15 +84,15 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 8.7
+  previous_composite: 6.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-prisons/refs/heads/main/screenshots/federal-bureau-of-prisons-2026-06-20T181111.png
 security:
@@ -103,7 +103,7 @@ security:
 slug: federal-bureau-of-prisons
 tags:
 - Corrections
-- Federal Government
+- Federal-Government
 - Prisons
 website: https://www.bop.gov
 ---

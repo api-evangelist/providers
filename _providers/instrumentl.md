@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Instrumentl's authenticated remote Model Context Protocol (MCP) server, exposing the grant-management platform to AI agents. Access is gated by OAuth 2.0 (authorization code + PKCE, dynamic client reg
@@ -127,13 +127,13 @@ image: https://static-assets.instrumentl.com/assets/open-graph-image-7aeb77fce8b
 layout: provider
 mcp_servers:
 - description: ''
-  name: instrumentl-mcp.yml
-  slug: instrumentl-mcpyml
+  name: Instrumentl MCP Server
+  slug: instrumentl-mcp-server
 modified: '2026-07-19'
 name: Instrumentl
 nav: Providers
 network: true
-overview: 'Instrumentl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Grants, Nonprofit, Fundraising, and Grant Management.
+overview: 'Instrumentl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Grants, Non-Profit, Fundraising, and Grant Management.
 
 
   Instrumentl''s developer surface includes authentication, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
@@ -146,7 +146,7 @@ scopes:
 score:
   band: emerging
   composite: 22.5
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -156,11 +156,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.0
+  previous_composite: 22.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instrumentl/refs/heads/main/screenshots/instrumentl-2026-07-25T222622.png
 security:
@@ -180,7 +180,7 @@ slug: instrumentl
 tags:
 - Company
 - Grants
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Grant Management
 - Foundation Data

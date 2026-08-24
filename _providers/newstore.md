@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -427,13 +427,13 @@ image: https://developer.newstore.com/static/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: newstore-mcp.yml
-  slug: newstore-mcpyml
+  name: Newstore MCP Server
+  slug: newstore-mcp-server
 modified: '2026-07-20'
 name: Newstore
 nav: Providers
 network: true
-overview: 'Newstore publishes 42 APIs on the [APIs.io](https://apis.io/) network, including address API, audit-events API, cart API, and 39 more. Tagged areas include Company, Retail, Omnichannel, Order Management, and Point of Sale.
+overview: 'Newstore publishes 42 APIs on the [APIs.io](https://apis.io/) network, including address API, audit-events API, cart API, and 39 more. Tagged areas include Company, Retail, Omnichannel, Order Management, and Point-of-Sale.
 
 
   The Newstore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -449,7 +449,7 @@ scopes:
 score:
   band: developing
   composite: 44.4
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -459,7 +459,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 50.5
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -470,9 +470,9 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/screenshots/newstore-2026-08-07T185135.png
 security:
 - kind: authentication
@@ -489,8 +489,8 @@ tags:
 - Retail
 - Omnichannel
 - Order Management
-- Point of Sale
-- Ecommerce
+- Point-of-Sale
+- E-Commerce
 - Fulfillment
 - Inventory
 - Store Operations

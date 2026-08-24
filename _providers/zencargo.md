@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: 'Query bookings by Zencargo reference and retrieve booking details: cargo, consignor/consignee, forwarder, incoterms, load type, mode of transport, bills of lading, required delivery date, and attached'
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -138,9 +138,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 32.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 31.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -161,7 +161,7 @@ tags:
 - Bookings
 - Supply Chain Visibility
 - Freight
-- SaaS
+- Software-as-a-Service
 - GraphQL
 website: https://www.zencargo.com/
 ---

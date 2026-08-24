@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -162,8 +162,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/auswide-ba
 layout: provider
 mcp_servers:
 - description: ''
-  name: auswide-bank-mcp.yml
-  slug: auswide-bank-mcpyml
+  name: Auswide Bank MCP Server
+  slug: auswide-bank-mcp-server
 modified: '2026-07-21'
 name: Auswide Bank
 nav: Providers
@@ -181,7 +181,7 @@ scopes:
 score:
   band: thin
   composite: 38.2
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 36.3
+  previous_composite: 38.2
   provenance:
     conformance: derived
     contracts:
@@ -207,8 +207,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/screenshots/auswide-bank-2026-07-21T114702.png
 security:

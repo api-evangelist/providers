@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'MXNet provides APIs in Python, Scala, Java, C++, R, Julia, and Perl for deep learning model development, with the Gluon high-level API for imperative model building, Symbol/NDArray low-level APIs for '
@@ -141,7 +141,7 @@ modified: '2026-04-19'
 name: Apache MXNet
 nav: Providers
 network: true
-overview: 'Apache MXNet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Deep Learning, Machine Learning, Neural Networks, and Python.
+overview: 'Apache MXNet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Deep Learning, Machine-Learning, Neural Networks, and Python.
 
 
   Apache MXNet''s developer surface includes developer portal and 14 more developer resources.'
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.9
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -167,9 +167,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 18.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mxnet/refs/heads/main/screenshots/apache-mxnet-2026-06-20T172124.png
 security:
@@ -183,9 +183,9 @@ security:
   summary_line: security.txt · contact published
 slug: apache-mxnet
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
-- Machine Learning
+- Machine-Learning
 - Neural Networks
 - Python
 - Retired

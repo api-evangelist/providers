@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -239,18 +239,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.2
-  delta: -1.0
+  composite: 44.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 68.5
     developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 45.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -264,8 +264,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/screenshots/under-armour-2026-06-20T200017.png
 security:

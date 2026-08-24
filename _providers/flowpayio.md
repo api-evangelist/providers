@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Flowpay's REST partner API for the Fully Embedded (Native) lending flow - customer onboarding and service activation, open-banking account and transaction ingestion, offer request/recalculation/retrie
@@ -158,8 +158,8 @@ image: https://cdn.prod.website-files.com/67f67c483b46bf33a3c28b20/688a66eddaf45
 layout: provider
 mcp_servers:
 - description: ''
-  name: flowpayio-mcp.yml
-  slug: flowpayio-mcpyml
+  name: flowpay.io MCP Server
+  slug: flowpayio-mcp-server
 modified: '2026-07-19'
 name: flowpay.io
 nav: Providers
@@ -175,7 +175,7 @@ random_paper: 20
 score:
   band: developing
   composite: 41.8
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -185,7 +185,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 42.1
+  previous_composite: 41.8
   provenance:
     conformance: derived
     mcp: derived
@@ -195,8 +195,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/screenshots/flowpayio-2026-07-25T214838.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Bulk (1-to-many) SMS. Small batches dispatch inline; >30 recipients queue asynchronously.
@@ -183,9 +183,9 @@ description: Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel custom
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crescendo-lab.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: crescendo-lab-mcp.yml
-  slug: crescendo-lab-mcpyml
+- description: Official hosted + local MCP server for MAAC Go (Crescendo Lab's self-serve Taiwan SMS platform). Lets Claude / Cursor / Windsurf / Codex send SMS, run broadcasts, pull logs, and check wallet balance o
+  name: MAAC Go MCP
+  slug: maac-go-mcp
 modified: '2026-08-13'
 name: Crescendo Lab
 nav: Providers
@@ -209,7 +209,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.5
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -219,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 55.8
+  previous_composite: 59.5
   provenance:
     conformance: derived
     contracts:
@@ -235,8 +235,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
 security:

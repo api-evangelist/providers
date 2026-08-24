@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -189,13 +189,13 @@ image: https://hibachi.xyz/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: hibachi-mcp.yml
-  slug: hibachi-mcpyml
+  name: Hibachi MCP Server
+  slug: hibachi-mcp-server
 modified: '2026-07-19'
 name: Hibachi
 nav: Providers
 network: true
-overview: 'Hibachi publishes 3 APIs on the [APIs.io](https://apis.io/) network: Capital API, Market API, and Trade API. Tagged areas include Company, Defi, Cryptocurrency, Exchange, and Perpetual Futures.
+overview: 'Hibachi publishes 3 APIs on the [APIs.io](https://apis.io/) network: Capital API, Market API, and Trade API. Tagged areas include Company, DeFi, Cryptocurrency, Exchange, and Perpetual Futures.
 
 
   The Hibachi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -206,7 +206,7 @@ random_paper: 19
 score:
   band: developing
   composite: 53.3
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 50.9
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,8 +233,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/screenshots/hibachi-2026-07-25T221135.png
 security:
@@ -249,13 +249,13 @@ security:
 slug: hibachi
 tags:
 - Company
-- Defi
+- DeFi
 - Cryptocurrency
 - Exchange
 - Perpetual Futures
 - Trading
 - Derivatives
-- Stablecoin
+- Stablecoins
 - WebSocket
 - Blockchain
 website: https://hibachi.xyz/

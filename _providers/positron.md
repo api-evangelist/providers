@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -198,13 +198,13 @@ image: https://www.positron.ai/opengraph-image-pwu6ef.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: positron-mcp.yml
-  slug: positron-mcpyml
+  name: Positron MCP Server
+  slug: positron-mcp-server
 modified: '2026-08-02'
 name: Positron
 nav: Providers
 network: true
-overview: 'Positron publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Completion API, Models API, and 2 more. Tagged areas include artificial-intelligence, ai-inference, inference-hardware, ai-accelerators, and large-language-models.
+overview: 'Positron publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Completion API, Models API, and 2 more. Tagged areas include Artificial Intelligence, AI Inference, inference-hardware, AI Accelerators, and Large Language Models.
 
 
   Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 24 more developer resources.'
@@ -212,7 +212,7 @@ random_paper: 12
 score:
   band: thin
   composite: 36.6
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 36.2
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,8 +233,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -247,17 +247,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: positron
 tags:
-- artificial-intelligence
-- ai-inference
+- Artificial Intelligence
+- AI Inference
 - inference-hardware
-- ai-accelerators
-- large-language-models
-- transformers
-- openai-compatible
-- machine-learning
-- semiconductors
-- data-center
+- AI Accelerators
+- Large Language Models
+- Transformers
+- OpenAI-Compatible
+- Machine-Learning
+- Semiconductors
+- Data-Center
 - llm-serving
-- model-hosting
+- Model Hosting
 website: https://www.positron.ai/
 ---

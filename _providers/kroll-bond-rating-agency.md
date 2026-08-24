@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -117,7 +117,7 @@ modified: '2026-07-19'
 name: Kroll Bond Rating Agency
 nav: Providers
 network: true
-overview: 'Kroll Bond Rating Agency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit Ratings, Financial Services, Financial Data, and Structured Finance.
+overview: 'Kroll Bond Rating Agency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit Ratings, Financial-Services, Financial Data, and Structured Finance.
 
 
   Kroll Bond Rating Agency''s developer surface includes documentation, support, engineering blog, signup flow, and 15 more developer resources.'
@@ -125,7 +125,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 18.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -135,7 +135,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.6
+  previous_composite: 18.2
   provenance:
     conformance: first-party
   regulatory:
@@ -144,8 +144,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 40.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroll-bond-rating-agency/refs/heads/main/screenshots/kroll-bond-rating-agency-2026-07-25T224301.png
 security:
@@ -157,7 +157,7 @@ slug: kroll-bond-rating-agency
 tags:
 - Company
 - Credit Ratings
-- Financial Services
+- Financial-Services
 - Financial Data
 - Structured Finance
 - Fixed Income

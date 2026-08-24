@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'REST API over Daloopa''s fundamental dataset — company discovery, fundamental series and values, calendar/fiscal period handling, taxonomy metrics and industry templates, SEC document lookup, document '
@@ -152,16 +152,16 @@ image: https://avatars.githubusercontent.com/u/42851514?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: daloopa-mcp.yml
-  slug: daloopa-mcpyml
+  name: Daloopa MCP Server
+  slug: daloopa-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Daloopa MCP Server
+  slug: daloopa-mcp-server-2
 modified: '2026-08-11'
 name: Daloopa
 nav: Providers
 network: true
-overview: 'Daloopa publishes 2 APIs on the [APIs.io](https://apis.io/) network: API v3 and MCP Server. Tagged areas include financial-data, fundamental-data, market-data, investment-research, and equity-research.
+overview: 'Daloopa publishes 2 APIs on the [APIs.io](https://apis.io/) network: API v3 and MCP Server. Tagged areas include Financial Data, Fundamental Data, Market Data, Investment Research, and Equity Research.
 
 
   The Daloopa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.9
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -190,7 +190,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 50.4
+  previous_composite: 46.9
   provenance:
     conformance: derived
     contracts:
@@ -206,8 +206,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/screenshots/daloopa-2026-08-17T080848.png
 security:
@@ -225,18 +225,18 @@ security:
   summary_line: trust center published
 slug: daloopa
 tags:
-- financial-data
-- fundamental-data
-- market-data
-- investment-research
-- equity-research
-- sec-filings
-- earnings
-- fintech
-- mcp
+- Financial Data
+- Fundamental Data
+- Market Data
+- Investment Research
+- Equity Research
+- SEC Filings
+- Earnings
+- Fintech
+- MCP
 - agent-native
-- agent-skills
-- webhooks
-- data-warehouse
+- Agent Skills
+- Webhook
+- Data Warehouse
 website: https://daloopa.com/
 ---

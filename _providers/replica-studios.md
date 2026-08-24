@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Replica API v2 (OpenAPI 3.0.0) — REST API for AI text-to-speech, speech-to-speech, and voice-library operations. Historical; the service was sunset on 2025-06-30.
@@ -85,7 +85,7 @@ modified: '2026-07-20'
 name: Replica Studios
 nav: Providers
 network: true
-overview: 'Replica Studios publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice, Text to Speech, Speech to Speech, and AI.
+overview: 'Replica Studios publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice, Text-to-Speech, Speech to Speech, and Artificial Intelligence.
 
 
   Replica Studios'' developer surface includes documentation, API reference, getting-started guide, support, authentication, and 5 more developer resources.'
@@ -93,7 +93,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 14.7
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -103,9 +103,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -120,9 +120,9 @@ slug: replica-studios
 tags:
 - Company
 - Voice
-- Text to Speech
+- Text-to-Speech
 - Speech to Speech
-- AI
+- Artificial Intelligence
 - Audio
 - Voice AI
 - Generative AI

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -185,8 +185,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/st-george-
 layout: provider
 mcp_servers:
 - description: ''
-  name: st-george-bank-mcp.yml
-  slug: st-george-bank-mcpyml
+  name: St.George Bank MCP Server
+  slug: stgeorge-bank-mcp-server
 modified: '2026-07-21'
 name: St.George Bank
 nav: Providers
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 48.3
-  delta: 5.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 43.3
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -231,9 +231,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/screenshots/st-george-bank-2026-07-21T114749.png
 security:
 - kind: authentication

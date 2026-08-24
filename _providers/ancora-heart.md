@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,7 +97,7 @@ modified: '2026-08-06'
 name: Ancora Heart
 nav: Providers
 network: true
-overview: 'Ancora Heart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health Care, Cardiology, and Heart Failure.
+overview: 'Ancora Heart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Heart Failure.
 
 
   Ancora Heart''s developer surface includes support, engineering blog, YouTube channel, and 9 more developer resources.'
@@ -105,7 +105,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 6.2
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -115,16 +115,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.6
+  previous_composite: 6.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ancora-heart/refs/heads/main/screenshots/ancora-heart-2026-08-07T161356.png
 security:
 - kind: domain-security
@@ -135,7 +135,7 @@ slug: ancora-heart
 tags:
 - Company
 - Medical Devices
-- Health Care
+- Healthcare
 - Cardiology
 - Heart Failure
 - Clinical Trials

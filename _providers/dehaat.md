@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-18'
 name: DeHaat
 nav: Providers
 network: true
-overview: 'DeHaat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agtech, Agriculture, Marketplace, and Rural.
+overview: 'DeHaat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgTech, Agriculture, Marketplace, and Rural.
 
 
   DeHaat''s developer surface includes support, engineering blog, and 8 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 12.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -98,9 +98,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 12.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dehaat/refs/heads/main/screenshots/dehaat-2026-07-25T211629.png
 security:
@@ -115,12 +115,12 @@ security:
 slug: dehaat
 tags:
 - Company
-- Agtech
+- AgTech
 - Agriculture
 - Marketplace
 - Rural
 - Supply Chain
 - India
-- AI
+- Artificial Intelligence
 website: https://agrevolution.in
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -592,7 +592,7 @@ modified: '2026-05-19'
 name: Microsoft Windows Server
 nav: Providers
 network: true
-overview: 'Microsoft Windows Server publishes 3 APIs on the [APIs.io](https://apis.io/) network: Application Pools API, Applications API, and Web Sites API. Tagged areas include Datacenter, Enterprise, Infrastructure, Microsoft, and Operating System.
+overview: 'Microsoft Windows Server publishes 3 APIs on the [APIs.io](https://apis.io/) network: Application Pools API, Applications API, and Web Sites API. Tagged areas include Data-Center, Enterprise, Infrastructure, Microsoft, and Operating System.
 
 
   The Microsoft Windows Server catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -632,18 +632,18 @@ rules:
   slug: microsoft-windows-server-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: -4.6
+  composite: 44.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 62.2
     developer_ergonomics: 42.9
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 48.9
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -651,8 +651,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/screenshots/microsoft-windows-server-2026-06-20T185546.png
 security:
@@ -666,7 +666,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: microsoft-windows-server
 tags:
-- Datacenter
+- Data-Center
 - Enterprise
 - Infrastructure
 - Microsoft

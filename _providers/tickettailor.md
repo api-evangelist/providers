@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ modified: '2026-07-05'
 name: Ticket Tailor
 nav: Providers
 network: true
-overview: 'Ticket Tailor publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Check-ins API, Event Series API, Events API, and 5 more. Tagged areas include Event Ticketing, Events, Ticketing, Box Office, and Payments.
+overview: 'Ticket Tailor publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Check-ins API, Event Series API, Events API, and 5 more. Tagged areas include Event Ticketing, Event, Ticketing, Box Office, and Payments.
 
 
   Ticket Tailor''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -175,7 +175,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.4
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -208,7 +208,7 @@ security:
 slug: tickettailor
 tags:
 - Event Ticketing
-- Events
+- Event
 - Ticketing
 - Box Office
 - Payments

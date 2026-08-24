@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Free, lower-rate-limit public API exposing basic account, transaction, and token endpoints used by the Solscan UI.
@@ -122,7 +122,7 @@ modified: '2026-05-08'
 name: Solscan
 nav: Providers
 network: true
-overview: 'Solscan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Block API, NFT API, and 2 more. Tagged areas include Web3, Solana, Explorer, On-Chain, and Tokens.
+overview: 'Solscan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Block API, NFT API, and 2 more. Tagged areas include Web3, Solana, Explorer, Onchain, and Tokens.
 
 
   Solscan''s developer surface includes developer portal, documentation, pricing, and 6 more developer resources.'
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.5
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -148,15 +148,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.4
+  previous_composite: 31.5
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/screenshots/solscan-2026-06-20T194154.png
 security:
@@ -169,8 +169,8 @@ tags:
 - Web3
 - Solana
 - Explorer
-- On-Chain
+- Onchain
 - Tokens
-- NFTs
+- NFT
 website: https://solscan.io/
 ---

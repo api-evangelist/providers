@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The EoX API returns Cisco end-of-life and end-of-support milestones for hardware and software, queried by product ID, serial number, software release string, or a date range across all products. It is
@@ -207,7 +207,8 @@ rate_limits:
   slug: cisco-support-apis-rate-limits
 score:
   band: thin
-  composite: 36.3
+  composite: 33.9
+  delta: -2.4
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -216,12 +217,14 @@ score:
     developer_ergonomics: 59.5
     discoverability: 92.6
     governance: 4.5
-    operational_transparency: 47.4
+    operational_transparency: 28.9
+  previous_composite: 36.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Cisco Support Apis Authentication

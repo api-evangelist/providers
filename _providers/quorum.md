@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ modified: '2026-05-19'
 name: Quorum Software
 nav: Providers
 network: true
-overview: 'Quorum Software publishes 5 APIs on the [APIs.io](https://apis.io/) network, including DivisionOrders API, Leases API, Owners API, and 2 more. Tagged areas include Energy, Oil & Gas, Upstream, Land Management, and Royalty Accounting.
+overview: 'Quorum Software publishes 5 APIs on the [APIs.io](https://apis.io/) network, including DivisionOrders API, Leases API, Owners API, and 2 more. Tagged areas include Energy, Oil and Gas, Upstream, Land Management, and Royalty Accounting.
 
 
   The Quorum Software catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -193,7 +193,7 @@ scopes:
 score:
   band: developing
   composite: 46.3
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -203,7 +203,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 48.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +217,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/screenshots/quorum-2026-06-20T192444.png
 security:
@@ -237,7 +237,7 @@ security:
 slug: quorum
 tags:
 - Energy
-- Oil & Gas
+- Oil and Gas
 - Upstream
 - Land Management
 - Royalty Accounting

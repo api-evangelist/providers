@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -237,8 +237,8 @@ image: https://www.shipfinder.com/Content/images/newlogo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: shipfinder-ais-data-api-mcp.yml
-  slug: shipfinder-ais-data-api-mcpyml
+  name: ShipFinder AIS Data API MCP Server
+  slug: shipfinder-ais-data-api-mcp-server
 modified: '2026-08-09'
 name: ShipFinder AIS Data API
 nav: Providers
@@ -262,7 +262,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.3
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -272,7 +272,7 @@ score:
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 7.9
-  previous_composite: 55.6
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,8 +283,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/screenshots/shipfinder-ais-data-api-2026-08-17T081834.png
 security:
@@ -315,6 +315,6 @@ tags:
 - Compliance
 - Risk
 - Event Streaming
-- Webhooks
+- Webhook
 website: https://open.shipfinder.com/
 ---

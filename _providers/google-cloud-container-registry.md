@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ modified: '2026-05-19'
 name: Google Cloud Container Registry
 nav: Providers
 network: true
-overview: 'Google Cloud Container Registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Catalog API, Manifests API, and 1 more. Tagged areas include CI/CD, Containers, Docker, Google Cloud, and Images.
+overview: 'Google Cloud Container Registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Catalog API, Manifests API, and 1 more. Tagged areas include CI/CD, Containers, Docker, Google Cloud, and Image.
 
 
   The Google Cloud Container Registry catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -186,7 +186,7 @@ rules:
 score:
   band: developing
   composite: 41.3
-  delta: -10.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -196,7 +196,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 52.0
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -204,9 +204,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/screenshots/google-cloud-container-registry-2026-06-20T182053.png
 security:
 - kind: domain-security
@@ -223,7 +223,7 @@ tags:
 - Containers
 - Docker
 - Google Cloud
-- Images
+- Image
 - Registries
 - Storage
 website: https://cloud.google.com/container-registry

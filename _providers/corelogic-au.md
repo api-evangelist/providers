@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 26
 apis:
 - description: OAuth 2.0 token service for every Cotality Australia and New Zealand API. Issues JWT access tokens via client_credentials, authorization_code and refresh_token grants. The developer portal documents P
@@ -313,13 +313,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/corelogic-
 layout: provider
 mcp_servers:
 - description: ''
-  name: corelogic-au-mcp.yml
-  slug: corelogic-au-mcpyml
+  name: Cotality MCP Server
+  slug: cotality-mcp-server
 modified: '2026-07-26'
 name: CoreLogic Australia
 nav: Providers
 network: true
-overview: 'CoreLogic Australia publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access API, Property Details API, Property Services API, and 7 more. Tagged areas include Real Estate, Australia, Property Data, Valuation, and AVM.
+overview: 'CoreLogic Australia publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access API, Property Details API, Property Services API, and 7 more. Tagged areas include Real-Estate, Australia, Property Data, Valuation, and AVM.
 
 
   The CoreLogic Australia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -339,7 +339,7 @@ scopes:
 score:
   band: thin
   composite: 28.1
-  delta: -18.5
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -349,14 +349,14 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 46.6
+  previous_composite: 28.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/screenshots/corelogic-au-2026-07-27T125335.png
 security:
 - kind: authentication
@@ -373,7 +373,7 @@ security:
   summary_line: Hackerone
 slug: corelogic-au
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Data
 - Valuation

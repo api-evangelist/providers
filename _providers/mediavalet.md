@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 1
@@ -406,9 +406,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mediavalet.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: mediavalet-mcp.yml
-  slug: mediavalet-mcpyml
+- description: MediaValet does not publish a Model Context Protocol server. This is a CANDIDATE tool surface derived from MediaValet's real REST operations, offered as a design starting point — nothing here is calla
+  name: MediaValet DAM (candidate MCP server)
+  slug: mediavalet-dam-candidate-mcp-server
 modified: '2026-08-13'
 name: MediaValet
 nav: Providers
@@ -437,7 +437,7 @@ scopes:
 score:
   band: strong
   composite: 63.4
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -447,7 +447,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 66.1
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -458,8 +458,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/screenshots/mediavalet-2026-08-07T172338.png
 security:
@@ -487,8 +487,8 @@ tags:
 - Cloud Storage
 - Metadata
 - Video
-- Images
-- Webhooks
+- Image
+- Webhook
 - Azure
 website: https://www.mediavalet.com
 ---

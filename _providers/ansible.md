@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -330,7 +330,7 @@ modified: '2026-05-19'
 name: Ansible
 nav: Providers
 network: true
-overview: 'Ansible publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Credentials API, Hosts API, and 9 more. Tagged areas include Ansible, Automation, Configuration Management, DevOps, and Infrastructure As Code.
+overview: 'Ansible publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Credentials API, Hosts API, and 9 more. Tagged areas include Ansible, Automation, Configuration Management, DevOps, and Infrastructure as Code.
 
 
   The Ansible catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -360,7 +360,7 @@ rules:
 score:
   band: developing
   composite: 48.3
-  delta: -7.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -370,7 +370,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 55.6
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -378,9 +378,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/screenshots/ansible-2026-06-20T172015.png
 security:
 - kind: authentication
@@ -401,8 +401,8 @@ tags:
 - Automation
 - Configuration Management
 - DevOps
-- Infrastructure As Code
-- Open Source
+- Infrastructure as Code
+- Open-Source
 - Orchestration
 - Red Hat
 use_cases:

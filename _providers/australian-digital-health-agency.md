@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The business-to-business FHIR Gateway for connecting conformant clinical software to the My Health Record national shared health record. Exposes FHIR-based read and upload interactions for clinical do
@@ -156,8 +156,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: australian-digital-health-agency-mcp.yml
-  slug: australian-digital-health-agency-mcpyml
+  name: Australian Digital Health Agency MCP Server
+  slug: australian-digital-health-agency-mcp-server
 modified: '2026-07-24'
 name: Australian Digital Health Agency
 nav: Providers
@@ -175,7 +175,7 @@ scopes:
 score:
   band: thin
   composite: 34.3
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -185,7 +185,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 34.2
+  previous_composite: 34.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -196,8 +196,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

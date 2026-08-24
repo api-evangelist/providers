@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -385,7 +385,7 @@ modified: '2026-05-25'
 name: Sift
 nav: Providers
 network: true
-overview: 'Sift publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Decisions API, Events API, Labels API, and 3 more. Tagged areas include Fraud Prevention, Trust And Safety, Risk Scoring, Identity Verification, and Chargebacks.
+overview: 'Sift publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Decisions API, Events API, Labels API, and 3 more. Tagged areas include Fraud Prevention, Trust and Safety, Risk Scoring, Identity Verification, and Chargebacks.
 
 
   The Sift catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -425,18 +425,18 @@ rules:
   slug: sift-com-rules
 score:
   band: exemplar
-  composite: 67.0
-  delta: -4.9
+  composite: 67.4
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.9
     developer_ergonomics: 85.7
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 71.9
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     contracts:
@@ -444,8 +444,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sift-com/refs/heads/main/screenshots/sift-com-2026-06-20T193904.png
 security:
@@ -467,7 +467,7 @@ solutions:
 - name: Food And Delivery
 tags:
 - Fraud Prevention
-- Trust And Safety
+- Trust and Safety
 - Risk Scoring
 - Identity Verification
 - Chargebacks

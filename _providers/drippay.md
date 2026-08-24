@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 2
@@ -369,9 +369,9 @@ description: 'Drippay, Inc. is a Y Combinator company (YC P26) that operates two
 image: https://dreach.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: drippay-mcp.yml
-  slug: drippay-mcpyml
+- description: Hosted MCP server that connects AI agents to drip's outbound sales automation — lead sourcing, contact enrichment, and personalized message drafting. Research and drafting run server-side; message sen
+  name: Drippay MCP Server
+  slug: drippay-mcp-server
 modified: '2026-08-13'
 name: Drippay
 nav: Providers
@@ -400,7 +400,7 @@ scopes:
 score:
   band: exemplar
   composite: 77.3
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -410,7 +410,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 69.8
+  previous_composite: 77.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -427,9 +427,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/screenshots/drippay-2026-07-25T212410.png
 security:
 - kind: authentication
@@ -458,7 +458,7 @@ tags:
 - Payments
 - AI Agents
 - Developer Tools
-- Webhooks
+- Webhook
 - MCP
 - CRM
 - Sales Automation

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -380,7 +380,7 @@ modified: '2026-05-19'
 name: ZenML
 nav: Providers
 network: true
-overview: 'ZenML publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Auth API, Deployments API, and 10 more. Tagged areas include AI, Machine Learning, MLOps, LLMOps, and Pipelines.
+overview: 'ZenML publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Auth API, Deployments API, and 10 more. Tagged areas include Artificial Intelligence, Machine-Learning, MLOps, LLMOps, and Pipelines.
 
 
   The ZenML catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -420,18 +420,18 @@ rules:
   slug: zenml-rules
 score:
   band: developing
-  composite: 51.5
-  delta: -7.4
+  composite: 52.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 59.8
     developer_ergonomics: 64.3
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 58.9
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -439,9 +439,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/screenshots/zenml-2026-06-20T201813.png
 security:
 - kind: authentication
@@ -454,12 +454,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: zenml
 tags:
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - MLOps
 - LLMOps
 - Pipelines
-- Open Source
+- Open-Source
 - Python
 website: https://www.zenml.io/
 ---

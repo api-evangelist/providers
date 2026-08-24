@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Token-authenticated JSON API for the Parsable Connected Worker platform. All calls are HTTP POSTs to https://api.parsable.net/api/<MODULE> carrying a `{ "method", "arguments" }` envelope and an Author
@@ -153,7 +153,7 @@ random_paper: 2
 score:
   band: thin
   composite: 32.0
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -163,11 +163,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 30.6
+  previous_composite: 32.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsable/refs/heads/main/screenshots/parsable-2026-08-07T191451.png
 security:
@@ -191,7 +191,7 @@ tags:
 - Industrial
 - Digital Work Instructions
 - Frontline Operations
-- Workflow
+- Workflows
 - Analytics
 website: https://parsable.com
 ---

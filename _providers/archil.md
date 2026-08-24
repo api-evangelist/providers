@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Manage API keys (also called API tokens) used to authenticate Control Plane API requests. Distinct from disk tokens.
@@ -201,8 +201,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/archil.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: archil-mcp.yml
-  slug: archil-mcpyml
+  name: Archil MCP Server
+  slug: archil-mcp-server
 modified: '2026-07-18'
 name: Archil
 nav: Providers
@@ -215,7 +215,7 @@ random_paper: 18
 score:
   band: strong
   composite: 58.4
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 59.3
+  previous_composite: 58.4
   provenance:
     conformance: first-party
     contracts:
@@ -235,8 +235,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/screenshots/archil-2026-07-25T201028.png
 security:

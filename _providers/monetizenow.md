@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: MonetizeNow's REST API for the full quote-to-cash lifecycle — accounts, contacts, addresses, bill groups, quotes, opportunities, contracts, subscriptions, invoices, payments, payment methods, credits,
@@ -200,14 +200,14 @@ description: 'MonetizeNow is an enterprise monetization platform that unifies qu
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monetizenow.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: monetizenow-mcp.yml
-  slug: monetizenow-mcpyml
+- description: MonetizeNow operates a REAL, first-party, hosted remote MCP server at https://mcp.monetizeplatform.com/mcp. It is not advertised anywhere in the public documentation, the marketing site, or any MCP re
+  name: MonetizeNow MCP Server
+  slug: monetizenow-mcp-server
 modified: '2026-08-13'
 name: MonetizeNow
 nav: Providers
 network: true
-overview: 'MonetizeNow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Monetization, Billing, Subscriptions, and Usage-Based Pricing.
+overview: 'MonetizeNow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Monetization, Billing, Subscription, and Usage-Based Pricing.
 
 
   The MonetizeNow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -231,7 +231,7 @@ scopes:
 score:
   band: strong
   composite: 58.4
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -241,7 +241,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 75.0
-  previous_composite: 57.0
+  previous_composite: 58.4
   provenance:
     conformance: first-party
     contracts:
@@ -257,8 +257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/screenshots/monetizenow-2026-08-07T184153.png
 security:
@@ -283,14 +283,14 @@ tags:
 - Company
 - Monetization
 - Billing
-- Subscriptions
+- Subscription
 - Usage-Based Pricing
 - Quote-to-Cash
 - CPQ
 - Payments
 - Invoicing
 - Revenue
-- SaaS
-- FinTech
+- Software-as-a-Service
+- Fintech
 website: https://www.monetizenow.ai/
 ---

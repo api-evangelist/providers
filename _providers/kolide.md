@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The Admin Users API from Kolide — 2 operation(s) for admin users.
@@ -279,8 +279,8 @@ image: https://www.kolide.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kolide-mcp.yml
-  slug: kolide-mcpyml
+  name: Kolide MCP Server
+  slug: kolide-mcp-server
 modified: '2026-07-19'
 name: Kolide
 nav: Providers
@@ -296,7 +296,7 @@ random_paper: 2
 score:
   band: strong
   composite: 57.5
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -306,7 +306,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 58.1
+  previous_composite: 57.5
   provenance:
     conformance: first-party
     contracts:
@@ -316,8 +316,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolide/refs/heads/main/screenshots/kolide-2026-07-25T224129.png
 security:

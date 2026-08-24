@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -198,9 +198,9 @@ description: 'Hotmart is a Brazilian creator-economy platform for producing, sel
 image: https://hotmart.com/static/app-hotmart-next/images/share--general.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: hotmart-mcp.yml
-  slug: hotmart-mcpyml
+- description: Hotmart operates NO MCP server. No hosted endpoint, no published package, no entry in the official MCP registry, and nothing in the Hotmart-Org GitHub organization. Two community projects wrap the Hot
+  name: Hotmart MCP Server
+  slug: hotmart-mcp-server
 modified: '2026-08-04'
 name: Hotmart
 nav: Providers
@@ -220,7 +220,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.4
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 52.1
+  previous_composite: 51.4
   provenance:
     conformance: derived
     mcp: derived
@@ -241,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/screenshots/hotmart-2026-08-07T170326.png
 security:
@@ -266,9 +266,9 @@ tags:
 - Online Courses
 - E-Commerce
 - Payments
-- Subscriptions
+- Subscription
 - Affiliate Marketing
-- Webhooks
+- Webhook
 - Learning Management
 - Brazil
 website: https://hotmart.com/en

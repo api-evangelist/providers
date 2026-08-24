@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 22
 apis:
 - description: Operations related to access rules
@@ -296,9 +296,9 @@ description: 'Opal Security (legal entity Perma Security, Inc.) is a next-genera
 image: https://framerusercontent.com/images/HHjnsz66kJwSMAe0rpzp3eREB2k.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: opal-security-mcp.yml
-  slug: opal-security-mcpyml
+- description: Opal Security hosts three specialized, self-hosted Model Context Protocol (MCP) servers that let AI agents interact with the Opal access-management platform through its REST API. All servers use strea
+  name: Opal Security MCP Server
+  slug: opal-security-mcp-server
 modified: '2026-07-20'
 name: Opal Security
 nav: Providers
@@ -314,7 +314,7 @@ random_paper: 17
 score:
   band: developing
   composite: 50.9
-  delta: -8.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -324,7 +324,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 59.8
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -334,9 +334,9 @@ score:
       total: 22
     mcp: first-party
     skills: unknown
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opal-security/refs/heads/main/screenshots/opal-security-2026-08-07T190441.png
 security:
 - kind: authentication

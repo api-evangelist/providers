@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: OpenAPI 3.1 platform API for MNTN Performance TV. Covers advertisers and organizations, campaign and flight lifecycle (create, update, launch, pause, archive), creatives, audiences including geo lists
@@ -214,7 +214,7 @@ modified: '2026-08-12'
 name: MNTN
 nav: Providers
 network: true
-overview: 'MNTN publishes 3 APIs on the [APIs.io](https://apis.io/) network: Performance TV (PTV) API, Reporting API 3.0, and Async Batch Export API. Tagged areas include connected-tv, ctv-advertising, advertising, performance-marketing, and streaming-tv.
+overview: 'MNTN publishes 3 APIs on the [APIs.io](https://apis.io/) network: Performance TV (PTV) API, Reporting API 3.0, and Async Batch Export API. Tagged areas include Connected TV, ctv-advertising, Advertising, Performance Marketing, and Streaming TV.
 
 
   MNTN''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 23 more developer resources.'
@@ -230,7 +230,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.2
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -240,7 +240,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 50.7
+  previous_composite: 51.2
   provenance:
     conformance: derived
     contracts:
@@ -250,8 +250,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/screenshots/mntn-2026-08-17T081059.png
 security:
@@ -273,18 +273,18 @@ security:
   summary_line: SOC 2 Type II
 slug: mntn
 tags:
-- connected-tv
+- Connected TV
 - ctv-advertising
-- advertising
-- performance-marketing
-- streaming-tv
-- media-buying
-- attribution
-- audience-targeting
-- conversion-tracking
-- programmatic-advertising
+- Advertising
+- Performance Marketing
+- Streaming TV
+- Media Buying
+- Attribution
+- Audience Targeting
+- Conversion Tracking
+- Programmatic Advertising
 - private-marketplace
 - marketing-reporting
-- adtech
+- AdTech
 website: https://mountain.com/
 ---

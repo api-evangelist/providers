@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,7 +109,7 @@ modified: '2026-05-24'
 name: Amprius Technologies
 nav: Providers
 network: true
-overview: 'Amprius Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Batteries, Lithium Ion, Silicon Anode, Energy Density, and Energy Storage.
+overview: 'Amprius Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Batteries, Lithium-Ion, Silicon Anode, Energy Density, and Energy Storage.
 
 
   Amprius Technologies'' developer surface includes product news, YouTube channel, engineering blog, and 14 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 3.8
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -127,15 +127,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.8
+  previous_composite: 3.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amprius/refs/heads/main/screenshots/amprius-2026-06-20T171944.png
 security:
@@ -146,7 +146,7 @@ security:
 slug: amprius
 tags:
 - Batteries
-- Lithium Ion
+- Lithium-Ion
 - Silicon Anode
 - Energy Density
 - Energy Storage

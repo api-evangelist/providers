@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Scheduled times at which an assigned technician performs work for a job.
@@ -222,8 +222,8 @@ image: https://dispatch.me/wp-content/uploads/2019/11/cropped-favicon-1-300x300.
 layout: provider
 mcp_servers:
 - description: ''
-  name: dispatch-mcp.yml
-  slug: dispatch-mcpyml
+  name: Dispatch MCP Server
+  slug: dispatch-mcp-server
 modified: '2026-07-20'
 name: Dispatch
 nav: Providers
@@ -239,7 +239,7 @@ random_paper: 8
 score:
   band: developing
   composite: 48.7
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -249,7 +249,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -259,8 +259,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/screenshots/dispatch-2026-07-25T212107.png
 security:

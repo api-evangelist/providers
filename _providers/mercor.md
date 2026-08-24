@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: 'The core Mercor platform that matches expert humans to AI lab and enterprise demand for RLHF, SFT, evals, agent training, and frontier research projects. Domains covered include software engineering, '
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.4
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -161,9 +161,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 25.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercor/refs/heads/main/screenshots/mercor-2026-06-20T185214.png
 security:
@@ -178,7 +178,7 @@ tags:
 - RLHF
 - SFT
 - AI Evals
-- Data Pipelines
+- Data Pipeline
 - APEX Benchmarks
 use_cases:
 - description: Source preference and reward data from domain experts for RLHF.

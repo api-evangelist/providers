@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: The authentication-check API from NetBox Labs — 1 operation(s) for authentication-check.
@@ -230,8 +230,8 @@ image: https://netboxlabs.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: netbox-labs-mcp.yml
-  slug: netbox-labs-mcpyml
+  name: NetBox Labs MCP Server
+  slug: netbox-labs-mcp-server
 modified: '2026-07-20'
 name: NetBox Labs
 nav: Providers
@@ -264,8 +264,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbox-labs/refs/heads/main/screenshots/netbox-labs-2026-08-07T184929.png
 security:

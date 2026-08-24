@@ -28,9 +28,9 @@ tags:
 - Cloud Computing
 - Compute
 - Hyperscaler
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
-- PaaS
+- Platform-as-a-Service
 - Public Cloud
-- SaaS
+- Software-as-a-Service
 ---

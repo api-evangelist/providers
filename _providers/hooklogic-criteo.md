@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 2
@@ -268,13 +268,13 @@ image: https://avatars.githubusercontent.com/u/1713646?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: hooklogic-criteo-mcp.yml
-  slug: hooklogic-criteo-mcpyml
+  name: Criteo Docs
+  slug: criteo-docs
 modified: '2026-08-13'
 name: HookLogic (Criteo)
 nav: Providers
 network: true
-overview: 'HookLogic (Criteo) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Audience API, and 5 more. Tagged areas include Company, Commerce, Retail Media, Advertising, and E-commerce.
+overview: 'HookLogic (Criteo) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Audience API, and 5 more. Tagged areas include Company, Commerce, Retail Media, Advertising, and E-Commerce.
 
 
   HookLogic (Criteo)''s developer surface includes quickstart, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 35 more developer resources.'
@@ -295,7 +295,7 @@ scopes:
 score:
   band: strong
   composite: 60.1
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -305,7 +305,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 78.9
-  previous_composite: 58.4
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,8 +316,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/screenshots/hooklogic-criteo-2026-07-25T221415.png
 security:
@@ -343,9 +343,8 @@ tags:
 - Commerce
 - Retail Media
 - Advertising
-- E-commerce
+- E-Commerce
 - Marketing
 - Retail
-- APIs
 website: https://developers.criteo.com
 ---

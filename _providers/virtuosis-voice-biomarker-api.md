@@ -19,8 +19,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-08-19'
-api_count: 4
+  scored_at: '2026-08-24'
+api_count: 5
 apis:
 - description: The accounts API from Virtuosis Voice Biomarker API — 1 operation(s) for accounts.
   name: Virtuosis Voice Biomarker API Accounts API
@@ -34,7 +34,10 @@ apis:
 - description: The usage API from Virtuosis Voice Biomarker API — 1 operation(s) for usage.
   name: Virtuosis Voice Biomarker API Usage API
   slug: virtuosis-voice-biomarker-api-usage-api
-artifact_total: 10
+- description: REST API to upload speech recordings and retrieve health, wellbeing, and communication insights via voice biomarker analysis. Bearer token authentication; access gated to approved organizations.
+  name: Virtuosis Voice Biomarker API
+  slug: virtuosis-voice-biomarker-api
+artifact_total: 11
 common:
 - group: agent
   title: ''
@@ -161,21 +164,21 @@ common:
   type: Website
   url: https://www.virtuosis.ai/
 created: '2026-08-18'
-description: REST API from Virtuosis AI (an EPFL spinoff) providing AI-based voice biomarker analysis that detects health disorders from short audio recordings. Analysis families include Wellbeing (stress, anxiety, depression), Parkinson's, Alzheimer's/MCI, and Communication Coach. Delivered as CE-marked software as a medical device with Bearer-token authentication.
+description: Virtuosis exposes a REST API for acoustic/voice-biomarker analysis of speech recordings, delivering health, wellbeing, and communication insights. Applications upload Base64-encoded audio and poll for analysis results across types such as wellbeing, parkinsons, alzheimers, and communication_coach. Access to live API calls requires an approved organization and API key, while documentation, OpenAPI specs, llms.txt, and a hosted MCP server are publicly reachable.
 image: https://cdn.prod.website-files.com/6655f0e4b329b0c698166458/66aaae517c99095814345e2e_Virtuosis256.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: server
-  slug: server
+  name: Virtuosis Voice Biomarker API MCP Server
+  slug: virtuosis-voice-biomarker-api-mcp-server
 - description: ''
-  name: virtuosis-voice-biomarker-api-mcp.yml
-  slug: virtuosis-voice-biomarker-api-mcpyml
-modified: '2026-08-18'
+  name: Virtuosis AI Docs MCP Server
+  slug: virtuosis-ai-docs-mcp-server
+modified: '2026-08-19'
 name: Virtuosis Voice Biomarker API
 nav: Providers
 network: true
-overview: 'Virtuosis Voice Biomarker API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 1 more. Tagged areas include digital health, voice biomarkers, speech analysis, acoustic analysis, and medical device.
+overview: 'Virtuosis Voice Biomarker API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 2 more. Tagged areas include Digital Health, voice biomarkers, speech analysis, acoustic analysis, and Medical Device.
 
 
   Virtuosis Voice Biomarker API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
@@ -191,6 +194,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -200,6 +204,7 @@ score:
     discoverability: 92.6
     governance: 12.1
     operational_transparency: 2.6
+  previous_composite: 49.7
   provenance:
     conformance: first-party
     contracts:
@@ -215,8 +220,9 @@ score:
     regime: Health
     regime_id: health
     score: 53.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Virtuosis Voice Biomarker Api Authentication
@@ -228,17 +234,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: virtuosis-voice-biomarker-api
 tags:
-- digital health
+- Digital Health
 - voice biomarkers
 - speech analysis
 - acoustic analysis
-- medical device
-- mental health
-- wellbeing
+- Medical Device
+- Mental Health
+- Wellbeing
 - neurodegenerative screening
-- telehealth
-- remote monitoring
+- Telehealth
+- Remote Monitoring
 - communication coaching
-- clinical research
+- Clinical Research
+- Health AI
+- Clinical Decision Support
 website: https://www.virtuosis.ai/
 ---

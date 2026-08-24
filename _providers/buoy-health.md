@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Auth0-backed OAuth 2.0 / OpenID Connect authorization server that issues the bearer tokens the Buoy Symptom Checker API requires. Publishes anonymous RFC 8414 authorization-server metadata and OIDC di
@@ -185,13 +185,13 @@ image: https://www.buoyhealth.com/cms/images/buoy_logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: buoy-health-mcp.yml
-  slug: buoy-health-mcpyml
+  name: Buoy Health MCP Server
+  slug: buoy-health-mcp-server
 modified: '2026-08-08'
 name: Buoy Health
 nav: Providers
 network: true
-overview: 'Buoy Health publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Complaints API, Intents API, Interviews API, and 3 more. Tagged areas include symptom-checker, medical-triage, digital-health, healthcare, and clinical-ai.
+overview: 'Buoy Health publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Complaints API, Intents API, Interviews API, and 3 more. Tagged areas include Symptom Checker, medical-triage, Digital Health, Healthcare, and Clinical AI.
 
 
   Buoy Health''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
@@ -204,7 +204,7 @@ scopes:
 score:
   band: strong
   composite: 54.5
-  delta: 6.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -214,7 +214,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 47.8
+  previous_composite: 54.5
   provenance:
     conformance: first-party
     contracts:
@@ -230,9 +230,9 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/screenshots/buoy-health-2026-08-17T080742.png
 security:
 - kind: authentication
@@ -249,15 +249,15 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: buoy-health
 tags:
-- symptom-checker
+- Symptom Checker
 - medical-triage
-- digital-health
-- healthcare
-- clinical-ai
-- care-navigation
-- patient-engagement
-- diagnosis
-- telehealth
-- oauth2
+- Digital Health
+- Healthcare
+- Clinical AI
+- Care Navigation
+- Patient Engagement
+- Diagnosis
+- Telehealth
+- Authentication
 website: https://www.buoyhealth.com/
 ---

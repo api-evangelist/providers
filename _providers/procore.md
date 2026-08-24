@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Procore API provides programmatic access to Procore's construction management platform, enabling developers to build custom applications and integrations. The API exposes endpoints for projects, c
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.2
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -99,9 +99,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/procore/refs/heads/main/screenshots/procore-2026-06-20T192130.png
 security:

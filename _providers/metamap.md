@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 6
@@ -643,18 +643,18 @@ rules:
   slug: metamap-rules
 score:
   band: strong
-  composite: 57.7
-  delta: -8.6
+  composite: 58.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.5
     developer_ergonomics: 71.4
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 66.3
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -662,9 +662,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/screenshots/metamap-2026-06-20T185250.png
 security:
 - kind: authentication
@@ -684,7 +684,7 @@ tags:
 - Compliance
 - Biometrics
 - Document Verification
-- Facematch
+- Face Match
 - Liveness
 - GovCheck
 - Watchlist

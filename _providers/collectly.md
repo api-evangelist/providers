@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: JWT-authenticated, practice-scoped REST API for integrating patient billing and payment workflows — practices, patients, appointments, providers, locations, insurance companies and policies, statement
@@ -99,13 +99,13 @@ image: https://cdn.prod.website-files.com/69ba35b83a30189f9f939f89/69c40b30d5c35
 layout: provider
 mcp_servers:
 - description: ''
-  name: collectly-mcp.yml
-  slug: collectly-mcpyml
+  name: Collectly MCP Server
+  slug: collectly-mcp-server
 modified: '2026-07-18'
 name: Collectly
 nav: Providers
 network: true
-overview: 'Collectly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Revenue Cycle Management, Patient Payments, and Medical Billing.
+overview: 'Collectly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Revenue Cycle Management, Patient Payments, and Medical Billing.
 
 
   The Collectly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -116,7 +116,7 @@ random_paper: 5
 score:
   band: thin
   composite: 36.0
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -126,7 +126,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 37.1
+  previous_composite: 36.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -136,8 +136,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collectly/refs/heads/main/screenshots/collectly-2026-07-25T210051.png
 security:
@@ -156,7 +156,7 @@ security:
 slug: collectly
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Revenue Cycle Management
 - Patient Payments
 - Medical Billing

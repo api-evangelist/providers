@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Quotes V1 API from Eco — 2 operation(s) for quotes v1.
@@ -163,13 +163,13 @@ image: https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69c2cc38e52fc
 layout: provider
 mcp_servers:
 - description: ''
-  name: eco-mcp.yml
-  slug: eco-mcpyml
+  name: Eco MCP Server
+  slug: eco-mcp-server
 modified: '2026-07-19'
 name: Eco
 nav: Providers
 network: true
-overview: 'Eco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Quotes V1 API, Quotes V2 API, and Quotes V3 API. Tagged areas include Company, Stablecoin, Cryptocurrency, Payments, and Blockchain.
+overview: 'Eco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Quotes V1 API, Quotes V2 API, and Quotes V3 API. Tagged areas include Company, Stablecoins, Cryptocurrency, Payments, and Blockchain.
 
 
   Eco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 18 more developer resources.'
@@ -177,7 +177,7 @@ random_paper: 17
 score:
   band: developing
   composite: 42.9
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -187,7 +187,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 40.5
+  previous_composite: 42.9
   provenance:
     conformance: derived
     contracts:
@@ -203,8 +203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/screenshots/eco-2026-07-25T212742.png
 security:
@@ -219,7 +219,7 @@ security:
 slug: eco
 tags:
 - Company
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Blockchain
@@ -227,6 +227,6 @@ tags:
 - DeFi
 - Web3
 - Infrastructure
-- Financial Services
+- Financial-Services
 website: https://www.eco.com/
 ---

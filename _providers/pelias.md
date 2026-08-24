@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ modified: '2026-06-13'
 name: Pelias
 nav: Providers
 network: true
-overview: 'Pelias publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Forward Geocoding API, Place Lookup API, and 1 more. Tagged areas include geocoding, reverse geocoding, geospatial, open source, and elasticsearch.
+overview: 'Pelias publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Forward Geocoding API, Place Lookup API, and 1 more. Tagged areas include Geocoding, Reverse Geocoding, Geospatial, Open-Source, and Elasticsearch.
 
 
   The Pelias catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -164,7 +164,7 @@ rules:
 score:
   band: thin
   composite: 32.3
-  delta: -7.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -174,7 +174,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 39.6
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -182,9 +182,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/screenshots/pelias-2026-06-20T191527.png
 security:
 - kind: domain-security
@@ -193,14 +193,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: pelias
 tags:
-- geocoding
-- reverse geocoding
-- geospatial
-- open source
-- elasticsearch
-- openstreetmap
-- addresses
-- places
-- autocomplete
+- Geocoding
+- Reverse Geocoding
+- Geospatial
+- Open-Source
+- Elasticsearch
+- OpenStreetMap
+- Addresses
+- Places
+- Autocomplete
 website: https://pelias.io
 ---

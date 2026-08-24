@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-07-12'
 name: Nuvemshop / Tiendanube
 nav: Providers
 network: true
-overview: 'Nuvemshop / Tiendanube publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Coupons API, Customers API, and 7 more. Tagged areas include E-commerce, Online Store, Latin America, Brazil, and Argentina.
+overview: 'Nuvemshop / Tiendanube publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Coupons API, Customers API, and 7 more. Tagged areas include E-Commerce, Online Store, Latin America, Brazil, and Argentina.
 
 
   Nuvemshop / Tiendanube''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.3
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -187,7 +187,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.2
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/screenshots/nuvemshop-2026-08-07T185802.png
 security:
@@ -216,16 +216,16 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: nuvemshop
 tags:
-- E-commerce
+- E-Commerce
 - Online Store
 - Latin America
 - Brazil
 - Argentina
 - Storefront
-- Products
-- Orders
+- Product
+- Order
 - Merchants
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://www.tiendanube.com
 ---

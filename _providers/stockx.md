@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -187,8 +187,8 @@ image: https://developer.stockx.com/icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: stockx-mcp.yml
-  slug: stockx-mcpyml
+  name: StockX MCP Server
+  slug: stockx-mcp-server
 modified: '2026-07-21'
 name: StockX
 nav: Providers
@@ -210,7 +210,7 @@ scopes:
 score:
   band: developing
   composite: 51.6
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -220,7 +220,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 50.1
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -231,8 +231,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/screenshots/stockx-2026-08-17T082124.png
 security:
@@ -255,6 +255,6 @@ tags:
 - Collectibles
 - Catalog
 - Selling
-- Orders
+- Order
 website: https://stockx.com
 ---

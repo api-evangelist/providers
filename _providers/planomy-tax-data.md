@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,14 +140,14 @@ json_schemas:
   slug: planomy-tax-data-tax-year-dataset
 layout: provider
 mcp_servers:
-- description: ''
-  name: planomy-tax-data-mcp.yml
-  slug: planomy-tax-data-mcpyml
+- description: Planomy ships no MCP server. Probed for one on 2026-08-09 — https://planomy.net/mcp and /.well-known/mcp.json both 404, no server is referenced from https://planomy.net/data/, from llms.txt, or from a
+  name: Planomy Tax Data MCP Server
+  slug: planomy-tax-data-mcp-server
 modified: '2026-08-09'
 name: Planomy Tax Data
 nav: Providers
 network: true
-overview: 'Planomy Tax Data publishes 1 API on the [APIs.io](https://apis.io/) network: Tax Data API. Tagged areas include tax, finance, open-data, retirement, and government.
+overview: 'Planomy Tax Data publishes 1 API on the [APIs.io](https://apis.io/) network: Tax Data API. Tagged areas include Tax, Finance, Open Data, Retirement, and Government.
 
 
   Planomy Tax Data''s developer surface includes support, pricing, signup flow, authentication, and 16 more developer resources.'
@@ -159,7 +159,7 @@ random_paper: 5
 score:
   band: thin
   composite: 38.1
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 20.5
     operational_transparency: 0.0
-  previous_composite: 35.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -186,8 +186,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,15 +200,15 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: planomy-tax-data
 tags:
-- tax
-- finance
-- open-data
-- retirement
-- government
-- personal-finance
-- irs
-- social-security
-- medicare
-- json
+- Tax
+- Finance
+- Open Data
+- Retirement
+- Government
+- Personal Finance
+- IRS
+- Social Security
+- Medicare
+- JSON
 website: https://planomy.net/
 ---

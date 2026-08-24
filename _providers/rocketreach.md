@@ -27,10 +27,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 48.5
-  scored_at: '2026-08-19'
+  score: 52.0
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -318,9 +318,9 @@ features:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rocketreach.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rocketreach-mcp.yml
-  slug: rocketreach-mcpyml
+- description: RocketReach ships a first-party, hosted Model Context Protocol server that exposes its people and company search and lookup surface as MCP tools. The agent authenticates once via OAuth 2.1 with PKCE a
+  name: RocketReach MCP Server
+  slug: rocketreach-mcp-server
 modified: '2026-08-13'
 name: RocketReach
 nav: Providers
@@ -348,18 +348,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.7
-  delta: -3.6
+  composite: 63.8
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 30.3
     contract_quality: 69.2
     developer_ergonomics: 57.1
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 40.8
-  previous_composite: 66.3
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -370,8 +370,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/screenshots/rocketreach-2026-06-20T193159.png
 security:
@@ -404,6 +404,6 @@ tags:
 - Data Enrichment
 - Prospecting
 - Recruiting
-- Webhooks
+- Webhook
 website: https://rocketreach.co
 ---

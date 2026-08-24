@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The REST API behind the Lifebit Platform (CloudOS): manage workspace projects, job queues, workflows/pipelines, Nextflow and Cromwell/WDL job submission and monitoring, interactive analysis sessions, '
@@ -188,8 +188,8 @@ image: https://lifebit.ai/wp-content/uploads/2025/04/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lifebit-biotech-mcp.yml
-  slug: lifebit-biotech-mcpyml
+  name: Lifebit Biotech MCP Server
+  slug: lifebit-biotech-mcp-server
 modified: '2026-07-19'
 name: Lifebit Biotech
 nav: Providers
@@ -202,7 +202,7 @@ random_paper: 2
 score:
   band: thin
   composite: 36.1
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -212,7 +212,7 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 34.6
+  previous_composite: 36.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -222,8 +222,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifebit-biotech/refs/heads/main/screenshots/lifebit-biotech-2026-07-25T225038.png
 security:

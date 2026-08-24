@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The South State Corporation API provides access to platform services and data for enterprise integration and automation.
@@ -61,7 +61,7 @@ modified: '2026-04-19'
 name: South State Corporation
 nav: Providers
 network: true
-overview: South State Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking and Financial Services.
+overview: South State Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking and Financial-Services.
 plans:
 - name: South State Corporation Plans Pricing
   plan_count: 1
@@ -74,7 +74,7 @@ rate_limits:
 score:
   band: minimal
   composite: 5.7
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -84,15 +84,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.0
+  previous_composite: 5.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/south-state-corporation/refs/heads/main/screenshots/south-state-corporation-2026-06-20T194228.png
 security:
@@ -103,6 +103,6 @@ security:
 slug: south-state-corporation
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 website: https://www.southstatebank.com
 ---

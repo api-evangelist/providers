@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: Beme
 nav: Providers
 network: true
-overview: Beme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social Media, Mobile Applications, and Media.
+overview: Beme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social-Media, Mobile Applications, and Media.
 random_paper: 10
 score:
   band: minimal
@@ -94,15 +94,15 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 8.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/screenshots/beme-2026-07-25T202726.png
 slug: beme
 tags:
 - Company
 - Video
-- Social Media
+- Social-Media
 - Mobile Applications
 - Media
 - Consumer

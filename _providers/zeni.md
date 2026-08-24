@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -106,9 +106,9 @@ description: Zeni is an AI-powered bookkeeping and finance platform for startups
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeni.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: zeni-mcp.yml
-  slug: zeni-mcpyml
+- description: 'Zeni MCP is a hosted, remote Model Context Protocol server that lets AI assistants (Claude, OpenAI Codex, Google Antigravity) read a company''s live Zeni financials. It exposes ~20 read-only tools and '
+  name: Zeni MCP Server
+  slug: zeni-mcp-server
 modified: '2026-07-21'
 name: Zeni
 nav: Providers
@@ -121,7 +121,7 @@ random_paper: 18
 score:
   band: thin
   composite: 27.3
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -131,12 +131,12 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 27.9
+  previous_composite: 27.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,7 +109,7 @@ modified: '2026-07-20'
 name: Openprose
 nav: Providers
 network: true
-overview: 'Openprose is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agent Orchestration, Developer Tools, and Open Source.
+overview: 'Openprose is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agent Orchestration, Developer Tools, and Open-Source.
 
 
   Openprose''s developer surface includes documentation, API reference, getting-started guide, support, changelog, CLI, and 11 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 21.0
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -127,11 +127,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 20.2
+  previous_composite: 21.0
   provenance:
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/screenshots/openprose-2026-08-07T190631.png
 security:
@@ -145,10 +145,10 @@ tags:
 - AI Agents
 - Agent Orchestration
 - Developer Tools
-- Open Source
+- Open-Source
 - Programming Language
 - LLM
-- Workflow Automation
+- Workflow-Automation
 - Y Combinator
 website: https://prose.md/
 ---

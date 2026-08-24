@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Qogita's REST API for retailers and integration partners on api.qogita.com, covering catalog, ordering, and fulfilment workflows. Documented via the developer portal (hosted on Notion).
@@ -115,13 +115,13 @@ image: https://www.qogita.com/
 layout: provider
 mcp_servers:
 - description: ''
-  name: qogita-mcp.yml
-  slug: qogita-mcpyml
+  name: Qogita Staff MCP - Production
+  slug: qogita-staff-mcp-production
 modified: '2026-07-20'
 name: Qogita
 nav: Providers
 network: true
-overview: 'Qogita publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Wholesale, Marketplace, and Health and Beauty.
+overview: 'Qogita publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Wholesale, Marketplace, and Health and Beauty.
 
 
   Qogita''s developer surface includes documentation, engineering blog, support, authentication, and 14 more developer resources.'
@@ -134,7 +134,7 @@ scopes:
 score:
   band: emerging
   composite: 24.8
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -144,7 +144,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 29.6
+  previous_composite: 24.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -154,8 +154,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -169,7 +169,7 @@ security:
 slug: qogita
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Wholesale
 - Marketplace
 - Health and Beauty

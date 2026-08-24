@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ modified: '2026-05-19'
 name: US House of Representatives
 nav: Providers
 network: true
-overview: 'US House of Representatives publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Committees API, Members API, and 2 more. Tagged areas include Federal Government, Legislation, Congress, Legislative Data, and Bills.
+overview: 'US House of Representatives publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Committees API, Members API, and 2 more. Tagged areas include Federal-Government, Legislation, Congress, Legislative Data, and Bills.
 
 
   The US House of Representatives catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -175,7 +175,7 @@ rules:
 score:
   band: thin
   composite: 37.4
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -185,7 +185,7 @@ score:
     discoverability: 64.8
     governance: 54.5
     operational_transparency: 7.9
-  previous_composite: 35.3
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/screenshots/us-house-of-representatives-2026-06-20T200622.png
 security:
@@ -218,7 +218,7 @@ security:
   summary_line: security.txt · contact published
 slug: us-house-of-representatives
 tags:
-- Federal Government
+- Federal-Government
 - Legislation
 - Congress
 - Legislative Data

@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 56.4
-  scored_at: '2026-08-19'
+  score: 59.8
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -358,14 +358,14 @@ description: 'AgentMail is an API-first email platform that gives AI agents thei
 image: https://www.agentmail.to/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: agentmail-mcp.yml
-  slug: agentmail-mcpyml
+- description: 'Email inboxes for AI agents: send, receive, reply, search, and manage threaded email over MCP.'
+  name: AgentMail
+  slug: agentmail
 modified: '2026-07-17'
 name: AgentMail
 nav: Providers
 network: true
-overview: 'AgentMail publishes 28 APIs on the [APIs.io](https://apis.io/) network, including agent API, api-keys API, auth API, and 25 more. Tagged areas include Company, Ai, Email, API, and AI Agents.
+overview: 'AgentMail publishes 28 APIs on the [APIs.io](https://apis.io/) network, including agent API, api-keys API, auth API, and 25 more. Tagged areas include Company, Artificial Intelligence, Email, AI Agents, and Inbox.
 
 
   The AgentMail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -374,19 +374,19 @@ overview: 'AgentMail publishes 28 APIs on the [APIs.io](https://apis.io/) networ
   AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
 random_paper: 1
 score:
-  band: developing
-  composite: 54.1
-  delta: 0.3
+  band: strong
+  composite: 55.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 16.7
     contract_quality: 67.5
     developer_ergonomics: 78.6
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 53.8
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,8 +397,8 @@ score:
       total: 28
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/screenshots/agentmail-2026-07-25T195240.png
 security:
@@ -417,13 +417,12 @@ security:
 slug: agentmail
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Email
-- API
 - AI Agents
 - Inbox
 - Messaging
-- Webhooks
+- Webhook
 - WebSockets
 - SMTP
 - IMAP

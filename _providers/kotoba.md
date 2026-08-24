@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -207,13 +207,13 @@ image: https://framerusercontent.com/images/7OW09ZoQn6c3oPwAHQgP3DCXI.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kotoba-mcp.yml
-  slug: kotoba-mcpyml
+  name: Kotoba MCP Server
+  slug: kotoba-mcp-server
 modified: '2026-07-19'
 name: Kotoba
 nav: Providers
 network: true
-overview: 'Kotoba publishes 1 API on the [APIs.io](https://apis.io/) network: transcriptionApi API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Voice, and Speech Recognition.
+overview: 'Kotoba publishes 1 API on the [APIs.io](https://apis.io/) network: transcriptionApi API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Voice, and Speech Recognition.
 
 
   The Kotoba catalog on APIs.io includes 3 event-driven AsyncAPI specifications.
@@ -224,7 +224,7 @@ random_paper: 10
 score:
   band: developing
   composite: 46.8
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -234,7 +234,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 47.5
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,8 +245,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/screenshots/kotoba-2026-07-25T224316.png
 security:
@@ -262,13 +262,13 @@ slug: kotoba
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Voice
 - Speech Recognition
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Translation
-- Real Time
+- Real-Time
 - WebSockets
 - Audio
 - Transcription

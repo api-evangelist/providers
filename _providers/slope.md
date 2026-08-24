@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -271,8 +271,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slope.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: slope-mcp.yml
-  slug: slope-mcpyml
+  name: Slope MCP Server
+  slug: slope-mcp-server
 modified: '2026-07-21'
 name: Slope
 nav: Providers
@@ -292,7 +292,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.3
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -302,7 +302,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 43.4
-  previous_composite: 50.3
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,8 +319,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/screenshots/slope-2026-08-17T081924.png
 security:

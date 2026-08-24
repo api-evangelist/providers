@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-06-13'
 name: Upbit
 nav: Providers
 network: true
-overview: 'Upbit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Exchange - Account API, Exchange - Deposits API, Exchange - Orders API, and 4 more. Tagged areas include Cryptocurrency, Exchange, Market Data, Orders, and Trading.
+overview: 'Upbit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Exchange - Account API, Exchange - Deposits API, Exchange - Orders API, and 4 more. Tagged areas include Cryptocurrency, Exchange, Market Data, Order, and Trading.
 
 
   The Upbit catalog on APIs.io includes 1 JSON-LD context.
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.0
-  delta: -9.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 51.0
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -219,9 +219,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/screenshots/upbit-2026-06-20T200501.png
 security:
 - kind: authentication
@@ -241,7 +241,7 @@ tags:
 - Cryptocurrency
 - Exchange
 - Market Data
-- Orders
+- Order
 - Trading
 - WebSocket
 website: https://upbit.com

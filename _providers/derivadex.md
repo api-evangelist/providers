@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Order book, tickers, mark prices, and order updates
@@ -146,8 +146,8 @@ image: https://exchange.derivadex.com/icons/512.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: derivadex-mcp.yml
-  slug: derivadex-mcpyml
+  name: DerivaDEX MCP Server
+  slug: derivadex-mcp-server
 modified: '2026-07-18'
 name: DerivaDEX
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 11
 score:
   band: thin
   composite: 37.2
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -170,7 +170,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 39.0
+  previous_composite: 37.2
   provenance:
     conformance: derived
     contracts:
@@ -186,8 +186,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/screenshots/derivadex-2026-07-25T211741.png
 security:

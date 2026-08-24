@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Token-authenticated HTTPS query API for financial market tick data. Twelve operations across three base paths: /quote-stock-b-api for Hong Kong, US and A-share equities, /quote-b-api for forex, crypto'
@@ -156,13 +156,13 @@ image: https://alltick.co/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: alltick-api-mcp.yml
-  slug: alltick-api-mcpyml
+  name: AllTick API MCP Server
+  slug: alltick-api-mcp-server
 modified: '2026-08-18'
 name: AllTick API
 nav: Providers
 network: true
-overview: 'AllTick API publishes 1 API on the [APIs.io](https://apis.io/) network: AllTick REST/HTTP Query API. Tagged areas include financial-market-data, real-time-data, stock-market-data, forex-data, and cryptocurrency-data.
+overview: 'AllTick API publishes 1 API on the [APIs.io](https://apis.io/) network: AllTick REST/HTTP Query API. Tagged areas include Financial market data, Real-Time Data, stock-market-data, forex-data, and cryptocurrency-data.
 
 
   The AllTick API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -181,6 +181,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -190,6 +191,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 50.0
+  previous_composite: 59.2
   provenance:
     conformance: derived
     contracts:
@@ -199,8 +201,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Alltick Api Authentication
@@ -212,16 +215,16 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: alltick-api
 tags:
-- financial-market-data
-- real-time-data
+- Financial market data
+- Real-Time Data
 - stock-market-data
 - forex-data
 - cryptocurrency-data
 - commodities-data
-- tick-data
+- Tick Data
 - websocket-streaming
-- fintech
-- quantitative-trading
+- Fintech
+- Quantitative Trading
 - market-data-api
 - trading-halts
 website: https://apis.alltick.co/en

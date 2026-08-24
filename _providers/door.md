@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -211,13 +211,13 @@ image: https://cdn.prod.website-files.com/6838ad705264e74df1653563/683f3efb46862
 layout: provider
 mcp_servers:
 - description: ''
-  name: door-mcp.yml
-  slug: door-mcpyml
+  name: Door MCP Server
+  slug: door-mcp-server
 modified: '2026-07-18'
 name: Door
 nav: Providers
 network: true
-overview: 'Door publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Access Management API, Buildings API, Doors and Keys API, and 3 more. Tagged areas include Company, Access Control, Smart Building, Proptech, and Physical Security.
+overview: 'Door publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Access Management API, Buildings API, Doors and Keys API, and 3 more. Tagged areas include Company, Access Control, Smart Building, PropTech, and Physical Security.
 
 
   Door''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
@@ -225,7 +225,7 @@ random_paper: 16
 score:
   band: developing
   composite: 44.7
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 50.0
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,9 +246,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/screenshots/door-2026-07-25T212301.png
 security:
 - kind: authentication
@@ -264,11 +264,11 @@ tags:
 - Company
 - Access Control
 - Smart Building
-- Proptech
+- PropTech
 - Physical Security
 - IoT
 - Multifamily
-- Real Estate
+- Real-Estate
 - Smart Lock
 - Building Automation
 website: https://door.com/

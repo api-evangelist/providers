@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -583,7 +583,7 @@ modified: '2026-05-19'
 name: Webflow
 nav: Providers
 network: true
-overview: 'Webflow publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 19 more. Tagged areas include CMS, Ecommerce, No-Code, and Web Development.
+overview: 'Webflow publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 19 more. Tagged areas include CMS, E-Commerce, No-Code, and Web Development.
 
 
   The Webflow catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -639,7 +639,7 @@ scopes:
 score:
   band: strong
   composite: 60.3
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -649,7 +649,7 @@ score:
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 65.5
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     contracts:
@@ -657,9 +657,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:
 - kind: authentication
@@ -731,7 +731,7 @@ skills:
 slug: webflow
 tags:
 - CMS
-- Ecommerce
+- E-Commerce
 - No-Code
 - Web Development
 use_cases:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,8 +174,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avenue-ban
 layout: provider
 mcp_servers:
 - description: ''
-  name: avenue-bank-mcp.yml
-  slug: avenue-bank-mcpyml
+  name: Avenue Bank MCP Server
+  slug: avenue-bank-mcp-server
 modified: '2026-07-21'
 name: Avenue Bank
 nav: Providers
@@ -193,7 +193,7 @@ scopes:
 score:
   band: emerging
   composite: 20.5
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 28.3
+  previous_composite: 20.5
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -220,9 +220,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/screenshots/avenue-bank-2026-07-21T114700.png
 security:
 - kind: authentication

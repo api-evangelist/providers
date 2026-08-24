@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 7
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-18'
 name: Blue River Technology
 nav: Providers
 network: true
-overview: 'Blue River Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Robotics, Computer Vision, and Machine Learning.
+overview: 'Blue River Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Robotics, Computer-Vision, and Machine-Learning.
 
 
   Blue River Technology''s developer surface includes engineering blog and 8 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 7.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -102,9 +102,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-river-technology/refs/heads/main/screenshots/blue-river-technology-2026-07-25T203501.png
 security:
@@ -117,10 +117,10 @@ tags:
 - Company
 - Agriculture
 - Robotics
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Artificial Intelligence
-- Agtech
+- AgTech
 - Autonomy
 - Precision Agriculture
 - North America

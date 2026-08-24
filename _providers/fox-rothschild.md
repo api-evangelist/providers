@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: Attorney-authored LexBlog covering advertising, trademark, and copyright law.
@@ -160,7 +160,7 @@ modified: '2026-05-23'
 name: Fox Rothschild LLP
 nav: Providers
 network: true
-overview: 'Fox Rothschild LLP publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Law Firm, Legal, Professional Services, Blogs, and RSS.
+overview: 'Fox Rothschild LLP publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Law Firm, Legal, Professional Services, Blog, and RSS.
 
 
   Fox Rothschild LLP''s developer surface includes engineering blog, product news, and 12 more developer resources.'
@@ -179,8 +179,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fox-rothschild/refs/heads/main/screenshots/fox-rothschild-2026-06-20T181502.png
 security:
@@ -193,7 +193,7 @@ tags:
 - Law Firm
 - Legal
 - Professional Services
-- Blogs
+- Blog
 - RSS
 - LexBlog
 - Publications

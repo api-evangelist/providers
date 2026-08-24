@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API for programmatically querying and mutating content in BaseHub repositories. Authenticated via x-basehub-token header, with a TypeScript-native SDK that generates type-safe clients from the
@@ -96,7 +96,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 22.7
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -112,9 +112,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 23.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basehub/refs/heads/main/screenshots/basehub-2026-06-20T173048.png
 security:

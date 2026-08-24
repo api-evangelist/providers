@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API exposed by the Linera node service (run via the linera CLI) that lets web frontends read and mutate the state of the microchains held by a wallet, including GraphQL subscriptions for chain
@@ -116,7 +116,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 21.0
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -126,11 +126,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 20.3
+  previous_composite: 21.0
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

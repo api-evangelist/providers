@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 23
 apis:
 - description: The API Status API from Nym Technologies — 3 operation(s) for api status.
@@ -322,8 +322,8 @@ image: https://nym.com/docs/images/Nym_meta_Image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: nym-technologies-mcp.yml
-  slug: nym-technologies-mcpyml
+  name: Nym Technologies MCP Server
+  slug: nym-technologies-mcp-server
 modified: '2026-07-20'
 name: Nym Technologies
 nav: Providers
@@ -336,7 +336,7 @@ random_paper: 10
 score:
   band: developing
   composite: 51.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -346,7 +346,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 51.3
+  previous_composite: 51.4
   provenance:
     conformance: derived
     contracts:
@@ -356,8 +356,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/screenshots/nym-technologies-2026-08-07T185831.png
 security:

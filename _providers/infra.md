@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Authentication API from Infra — 9 operation(s) for authentication.
@@ -207,8 +207,8 @@ image: https://avatars.githubusercontent.com/u/85984819
 layout: provider
 mcp_servers:
 - description: ''
-  name: infra-mcp.yml
-  slug: infra-mcpyml
+  name: Infra MCP Server
+  slug: infra-mcp-server
 modified: '2026-07-19'
 name: Infra
 nav: Providers
@@ -221,7 +221,7 @@ random_paper: 3
 score:
   band: thin
   composite: 36.8
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 35.7
+  previous_composite: 36.8
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +241,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
 security:
@@ -265,6 +265,6 @@ tags:
 - Kubernetes
 - OIDC
 - Security
-- Open Source
+- Open-Source
 website: https://infrahq.com
 ---

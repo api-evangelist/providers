@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for managing corporate cards, expense claims, vendor invoices, wallet summaries, settlements, bank fees, members, suppliers, cost centers, analytical fields, and webhook subscriptions within '
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.8
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -143,15 +143,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 29.7
+  previous_composite: 27.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/screenshots/spendesk-2026-06-20T194306.png
 security:
@@ -170,7 +170,7 @@ tags:
 - Expense Management
 - Invoices
 - Procurement
-- FinTech
+- Fintech
 - Accounting
 - Payments
 website: https://www.spendesk.com/

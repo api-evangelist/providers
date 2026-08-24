@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ modified: '2026-06-20'
 name: LLMWhisperer
 nav: Providers
 network: true
-overview: 'LLMWhisperer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Extraction API, Highlights API, Retrieve API, and 2 more. Tagged areas include AI, LLM, Document Extraction, OCR, and Text Extraction.
+overview: 'LLMWhisperer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Extraction API, Highlights API, Retrieve API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Document Extraction, OCR, and Text Extraction.
 
 
   LLMWhisperer''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.2
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -161,7 +161,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.1
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -169,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/screenshots/llmwhisperer-2026-06-20T184627.png
 security:
@@ -184,7 +184,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: llmwhisperer
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Document Extraction
 - OCR

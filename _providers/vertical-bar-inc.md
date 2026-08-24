@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Authenticated JSON API backing the CrossCheck NetSuite DevOps platform (server: uvicorn / FastAPI-style). Requires a bearer Authorization header; no public OpenAPI specification or developer documenta'
@@ -97,7 +97,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 14.7
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -107,9 +107,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

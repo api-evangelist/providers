@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Lexius
 nav: Providers
 network: true
-overview: 'Lexius is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loss Prevention, Retail, Physical Security, and Computer Vision.
+overview: 'Lexius is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loss Prevention, Retail, Physical Security, and Computer-Vision.
 
 
   Lexius'' developer surface includes pricing, signup flow, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 7.1
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -90,10 +90,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 7.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexius/refs/heads/main/screenshots/lexius-2026-07-25T224959.png
 security:
 - kind: domain-security
@@ -106,7 +106,7 @@ tags:
 - Loss Prevention
 - Retail
 - Physical Security
-- Computer Vision
+- Computer-Vision
 - Video Analytics
 - Theft Detection
 - Artificial Intelligence

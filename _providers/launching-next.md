@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Launching Next provides an RSS feed for the latest startup listings published on the platform. The feed allows developers, aggregators, and readers to programmatically consume new startup entries as t
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.0
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -95,9 +95,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 11.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launching-next/refs/heads/main/screenshots/launching-next-2026-06-20T184328.png
 security:

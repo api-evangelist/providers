@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,13 +94,13 @@ image: https://static.wixstatic.com/media/f95461_58b762df582a4769ac134f3de7a902a
 layout: provider
 mcp_servers:
 - description: ''
-  name: lastro-mcp.yml
-  slug: lastro-mcpyml
+  name: Lastro MCP Server
+  slug: lastro-mcp-server
 modified: '2026-07-19'
 name: Lastro
 nav: Providers
 network: true
-overview: 'Lastro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, Artificial Intelligence, and Brazil.
+overview: 'Lastro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real-Estate, Artificial Intelligence, and Brazil.
 
 
   Lastro''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 14.7
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -118,11 +118,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 17.7
+  previous_composite: 14.7
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastro/refs/heads/main/screenshots/lastro-2026-07-25T224549.png
 security:
@@ -133,8 +133,8 @@ security:
 slug: lastro
 tags:
 - Company
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Artificial Intelligence
 - Brazil
 - Lead Management

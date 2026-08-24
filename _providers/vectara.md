@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -337,7 +337,7 @@ modified: '2026-05-25'
 name: Vectara
 nav: Providers
 network: true
-overview: 'Vectara publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Authentication API, Corpora API, and 4 more. Tagged areas include AI, Agents, Corpora, Embeddings, and Enterprise Search.
+overview: 'Vectara publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Authentication API, Corpora API, and 4 more. Tagged areas include Artificial Intelligence, Agents, Corpora, Embeddings, and Enterprise Search.
 
 
   The Vectara catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -382,18 +382,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.5
-  delta: -7.8
+  composite: 56.0
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.0
     developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 63.3
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -401,9 +401,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/screenshots/vectara-2026-06-20T200838.png
 security:
 - kind: authentication
@@ -420,7 +420,7 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: vectara
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Corpora
 - Embeddings

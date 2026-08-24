@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -841,8 +841,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-appsync-mcp.yml
-  slug: amazon-appsync-mcpyml
+  name: Amazon AppSync MCP Server
+  slug: amazon-appsync-mcp-server
 modified: '2026-06-20'
 name: Amazon AppSync
 nav: Providers
@@ -879,16 +879,16 @@ rules:
   slug: amazon-appsync-spectral-rules
 score:
   band: thin
-  composite: 32.1
-  delta: -6.6
+  composite: 32.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 76.7
     developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -896,7 +896,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 38.7
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -906,9 +906,9 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/screenshots/amazon-appsync-2026-07-25T195928.png
 security:
 - kind: authentication

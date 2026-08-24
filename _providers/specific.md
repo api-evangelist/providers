@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Specific control plane and CLI that builds, deploys and runs agent-defined infrastructure from a single specific.hcl file, spanning local development and production on Specific Cloud.
@@ -130,14 +130,14 @@ description: Specific is an infrastructure-as-code platform built for coding age
 image: https://specific.dev/opengraph-image?2b9073564a4e0222
 layout: provider
 mcp_servers:
-- description: ''
-  name: specific-mcp.yml
-  slug: specific-mcpyml
+- description: Official hosted MCP server that lets coding agents search and read the Specific documentation directly. Install commands are published for Claude Code, Cursor, Codex, and VS Code.
+  name: Specific MCP Server
+  slug: specific-mcp-server
 modified: '2026-07-21'
 name: Specific
 nav: Providers
 network: true
-overview: 'Specific publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Infrastructure as Code, Platform as a Service, and Backend as a Service.
+overview: 'Specific publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Infrastructure as Code, Platform-as-a-Service, and Backend-as-a-Service.
 
 
   Specific''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 15 more developer resources.'
@@ -145,7 +145,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 25.4
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -155,12 +155,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 29.0
+  previous_composite: 25.4
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -176,8 +176,8 @@ tags:
 - Company
 - Infrastructure
 - Infrastructure as Code
-- Platform as a Service
-- Backend as a Service
+- Platform-as-a-Service
+- Backend-as-a-Service
 - Coding Agents
 - Deployment
 - PostgreSQL

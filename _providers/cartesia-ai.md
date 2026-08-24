@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ modified: '2026-08-08'
 name: Cartesia
 nav: Providers
 network: true
-overview: 'Cartesia publishes 21 APIs on the [APIs.io](https://apis.io/) network, including TTS WebSocket API, STT WebSocket API, Agents API, and 18 more. Tagged areas include AI, Voice AI, Text to Speech, Speech to Text, and Realtime.
+overview: 'Cartesia publishes 21 APIs on the [APIs.io](https://apis.io/) network, including TTS WebSocket API, STT WebSocket API, Agents API, and 18 more. Tagged areas include Artificial Intelligence, Voice AI, Text-to-Speech, Speech-to-Text, and Real-Time.
 
 
   The Cartesia catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -296,18 +296,18 @@ rules:
   slug: cartesia-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.2
-  delta: -7.9
+  composite: 43.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 11.4
     contract_quality: 64.2
     developer_ergonomics: 28.6
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 53.1
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -315,9 +315,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/screenshots/cartesia-ai-2026-07-25T204650.png
 security:
 - kind: authentication
@@ -330,11 +330,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cartesia-ai
 tags:
-- AI
+- Artificial Intelligence
 - Voice AI
-- Text to Speech
-- Speech to Text
-- Realtime
+- Text-to-Speech
+- Speech-to-Text
+- Real-Time
 - WebSocket
 - Voice Cloning
 - Voice Agents

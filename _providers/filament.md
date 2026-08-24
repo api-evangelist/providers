@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Signature-authenticated REST + WebSocket order-book API for the Filament perpetual DEX on Sei. Place limit/market orders, cancel orders, manage isolated collateral, set TP/SL, read tradable assets wit
@@ -123,8 +123,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/filament.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: filament-mcp.yml
-  slug: filament-mcpyml
+  name: Filament MCP Server
+  slug: filament-mcp-server
 modified: '2026-07-19'
 name: Filament
 nav: Providers
@@ -140,7 +140,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 24.9
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -150,7 +150,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 29.8
+  previous_composite: 24.9
   provenance:
     mcp: derived
     skills: derived
@@ -160,8 +160,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/screenshots/filament-2026-07-25T214446.png
 security:
@@ -183,7 +183,7 @@ tags:
 - DEX
 - Trading
 - Blockchain
-- Sei
+- SEI
 - Web3
 website: https://filament.finance/
 ---

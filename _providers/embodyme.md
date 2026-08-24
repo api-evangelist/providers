@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST + WebSocket API for driving real-time photorealistic AI avatars. Create meeting bots that join Google Meet or LiveKit rooms and stream a talking avatar rendered from an avatar_id, wiring audio in
@@ -107,8 +107,8 @@ image: https://digiself.tech/assets/images/logo/logo_text.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: embodyme-mcp.yml
-  slug: embodyme-mcpyml
+  name: EmbodyMe MCP Server
+  slug: embodyme-mcp-server
 modified: '2026-07-19'
 name: EmbodyMe
 nav: Providers
@@ -121,7 +121,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 23.1
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -131,11 +131,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 24.5
+  previous_composite: 23.1
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embodyme/refs/heads/main/screenshots/embodyme-2026-07-25T213233.png
 security:

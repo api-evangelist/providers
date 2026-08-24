@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The Authentication API from TruVideo — 2 operation(s) for authentication.
@@ -202,8 +202,8 @@ image: https://truvideo.com/wp-content/uploads/2026/04/Line-6.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: truvideo-mcp.yml
-  slug: truvideo-mcpyml
+  name: TruVideo MCP Server
+  slug: truvideo-mcp-server
 modified: '2026-07-21'
 name: TruVideo
 nav: Providers
@@ -216,7 +216,7 @@ random_paper: 0
 score:
   band: developing
   composite: 40.4
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 41.8
+  previous_composite: 40.4
   provenance:
     conformance: derived
     contracts:
@@ -236,8 +236,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

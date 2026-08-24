@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -360,13 +360,13 @@ image: https://www.talkable.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: talkable-mcp.yml
-  slug: talkable-mcpyml
+  name: Talkable
+  slug: talkable
 modified: '2026-08-13'
 name: Talkable
 nav: Providers
 network: true
-overview: 'Talkable publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Advocate Offers API, Advocate Signup API, Assets API, and 23 more. Tagged areas include Company, Referral Marketing, Loyalty, Marketing, and E-commerce.
+overview: 'Talkable publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Advocate Offers API, Advocate Signup API, Assets API, and 23 more. Tagged areas include Company, Referral Marketing, Loyalty, Marketing, and E-Commerce.
 
 
   The Talkable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -389,18 +389,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.5
-  delta: -2.9
+  composite: 61.7
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 30.3
     contract_quality: 60.7
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 63.4
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -411,8 +411,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/screenshots/talkable-2026-08-17T082242.png
 security:
@@ -430,11 +430,11 @@ tags:
 - Referral Marketing
 - Loyalty
 - Marketing
-- E-commerce
+- E-Commerce
 - Advocacy
 - Rewards
 - Customer Acquisition
-- Webhooks
+- Webhook
 - MCP
 website: https://talkable.com
 ---

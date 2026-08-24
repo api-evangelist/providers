@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ modified: '2026-07-19'
 name: Headnote
 nav: Providers
 network: true
-overview: 'Headnote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, LegalTech, Payments, and Accounts Receivable.
+overview: 'Headnote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Payments, and Accounts Receivable.
 
 
   Headnote''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
@@ -89,7 +89,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 13.9
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -99,15 +99,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.5
+  previous_composite: 13.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/headnote/refs/heads/main/screenshots/headnote-2026-07-25T220819.png
 security:
@@ -119,7 +119,7 @@ slug: headnote
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Payments
 - Accounts Receivable
 - Law Firms

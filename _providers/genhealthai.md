@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -135,8 +135,8 @@ image: https://genhealth.ai/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: genhealthai-mcp.yml
-  slug: genhealthai-mcpyml
+  name: GenHealth.ai MCP Server
+  slug: genhealthai-mcp-server
 modified: '2026-07-19'
 name: GenHealth.ai
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 12
 score:
   band: thin
   composite: 28.2
-  delta: -8.7
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -159,7 +159,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 36.9
+  previous_composite: 28.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -170,9 +170,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/screenshots/genhealthai-2026-07-25T215613.png
 security:
 - kind: authentication

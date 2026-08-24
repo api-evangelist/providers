@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -38,7 +38,7 @@ agentic_access:
   operation_count: 10
   slug: cloudhealth-agentic-access
   summary_line: 10 operations · 4 acting
-api_count: 7
+api_count: 8
 apis:
 - description: GraphQL API exposed in the CloudHealth UI under Setup > Admin > GraphQL Explorer for programmatic interaction with the platform's reporting and asset data model.
   name: CloudHealth GraphQL API
@@ -61,7 +61,10 @@ apis:
 - description: Single sign-on configuration.
   name: CloudHealth SSO API
   slug: cloudhealth-sso-api
-artifact_total: 23
+- description: The CloudHealth Platform REST API programmatically retrieves and manages data from the CloudHealth Platform — AWS/Azure/GCP accounts, assets, perspectives, billing rules, metrics, OLAP reports, polici
+  name: CloudHealth Platform API
+  slug: cloudhealth-platform-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -85,6 +88,10 @@ collections:
   name: CloudHealth REST API
   slug: open-cloudhealth
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/vmware/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,7 +161,7 @@ jsonld:
   property_count: 5
   slug: cloudhealth-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: CloudHealth
 nav: Providers
 network: true
@@ -164,7 +171,7 @@ overview: 'CloudHealth publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The CloudHealth catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CloudHealth''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  CloudHealth''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Cloudhealth Plans Pricing
   plan_count: 3
@@ -189,7 +196,7 @@ rules:
 score:
   band: thin
   composite: 39.1
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -199,7 +206,7 @@ score:
     discoverability: 64.8
     governance: 45.5
     operational_transparency: 10.5
-  previous_composite: 36.1
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/screenshots/cloudhealth-2026-06-20T174608.png
 security:

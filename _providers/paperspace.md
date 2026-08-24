@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -509,7 +509,7 @@ modified: '2026-05-25'
 name: Paperspace
 nav: Providers
 network: true
-overview: 'Paperspace publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Machines API, Deployments API, Projects API, and 22 more. Tagged areas include GPU, Cloud, AI, Machine Learning, and Deep Learning.
+overview: 'Paperspace publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Machines API, Deployments API, Projects API, and 22 more. Tagged areas include GPU, Cloud, Artificial Intelligence, Machine-Learning, and Deep Learning.
 
 
   The Paperspace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -549,18 +549,18 @@ rules:
   slug: paperspace-rules
 score:
   band: strong
-  composite: 58.6
-  delta: -5.7
+  composite: 60.0
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.9
     developer_ergonomics: 66.7
-    discoverability: 50.0
-    governance: 25.0
+    discoverability: 59.3
+    governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 64.3
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     contracts:
@@ -568,9 +568,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png
 security:
 - kind: authentication
@@ -589,8 +589,8 @@ slug: paperspace
 tags:
 - GPU
 - Cloud
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Deep Learning
 - Compute
 - DigitalOcean

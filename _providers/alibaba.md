@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Alibaba Cloud provides a comprehensive API ecosystem covering all major cloud services including Elastic Compute Service (ECS), Object Storage Service (OSS), Container Service for Kubernetes (ACK), Re
@@ -116,14 +116,14 @@ description: Alibaba is a multinational technology conglomerate founded in 1999 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alibaba.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: alibaba-mcp.yml
-  slug: alibaba-mcpyml
+- description: 'Official Alibaba Cloud MCP server (aliyun GitHub org) that fronts tens of thousands of Alibaba Cloud OpenAPIs through a small set of core tools plus a catalog of system MCP services. Supports SSE and '
+  name: Alibaba Cloud OpenAPI MCP Server
+  slug: alibaba-cloud-openapi-mcp-server
 modified: '2026-06-20'
 name: Alibaba
 nav: Providers
 network: true
-overview: 'Alibaba publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud API. Tagged areas include Cloud, Cloud Computing, E-Commerce, Commerce, and AI.
+overview: 'Alibaba publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud API. Tagged areas include Cloud, Cloud Computing, E-Commerce, Commerce, and Artificial Intelligence.
 
 
   Alibaba''s developer surface includes documentation, developer portal, GitHub presence, SDKs, signup flow, pricing, engineering blog, and 11 more developer resources.'
@@ -131,7 +131,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 26.1
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -141,12 +141,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 29.6
+  previous_composite: 26.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/screenshots/alibaba-2026-07-25T195614.png
 security:
@@ -160,8 +160,8 @@ tags:
 - Cloud Computing
 - E-Commerce
 - Commerce
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Big Data
 - Storage
 - Networking

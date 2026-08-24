@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-07-25'
 name: The Administration for Children and Families
 nav: Providers
 network: true
-overview: 'The Administration for Children and Families publishes 2 APIs on the [APIs.io](https://apis.io/) network: plg_auth_check API and v1 API. Tagged areas include Children, Families, Federal Government, Health And Human Services, and Human Services.
+overview: 'The Administration for Children and Families publishes 2 APIs on the [APIs.io](https://apis.io/) network: plg_auth_check API and v1 API. Tagged areas include Children, Families, Federal-Government, Health And Human Services, and Human Services.
 
 
   The The Administration for Children and Families catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -184,7 +184,7 @@ rules:
 score:
   band: thin
   composite: 34.6
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -194,7 +194,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -208,8 +208,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/screenshots/the-administration-for-children-and-families-2026-06-20T195211.png
 security:
@@ -225,7 +225,7 @@ slug: the-administration-for-children-and-families
 tags:
 - Children
 - Families
-- Federal Government
+- Federal-Government
 - Health And Human Services
 - Human Services
 - Social Safety Net

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: ThetaRay publishes an API developer portal at api.thetaray.com, hosted on Redocly Cloud. The portal root redirects to /openapi and then to an OIDC login at auth.cloud.redocly.com, so the API reference
@@ -104,13 +104,13 @@ image: https://thetaray.com/wp-content/themes/thetaray/images/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: thetaray-mcp.yml
-  slug: thetaray-mcpyml
+  name: ThetaRay MCP Server
+  slug: thetaray-mcp-server
 modified: '2026-08-05'
 name: ThetaRay
 nav: Providers
 network: true
-overview: 'ThetaRay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include anti-money-laundering, financial-crime, transaction-monitoring, sanctions-screening, and kyc.
+overview: 'ThetaRay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti-Money Laundering, Financial Crime, Transaction Monitoring, Sanctions Screening, and KYC.
 
 
   ThetaRay''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -123,7 +123,7 @@ scopes:
 score:
   band: emerging
   composite: 20.5
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -133,7 +133,7 @@ score:
     discoverability: 87.0
     governance: 33.3
     operational_transparency: 0.0
-  previous_composite: 21.3
+  previous_composite: 20.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -143,8 +143,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -157,18 +157,18 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: thetaray
 tags:
-- anti-money-laundering
-- financial-crime
-- transaction-monitoring
-- sanctions-screening
-- kyc
-- regtech
-- risk-assessment
-- artificial-intelligence
-- banking
-- fintech
-- payments
-- compliance
-- mcp
+- Anti-Money Laundering
+- Financial Crime
+- Transaction Monitoring
+- Sanctions Screening
+- KYC
+- RegTech
+- Risk Assessment
+- Artificial Intelligence
+- Banking
+- Fintech
+- Payments
+- Compliance
+- MCP
 website: https://thetaray.com/
 ---

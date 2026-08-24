@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.0
-  delta: 7.6
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -257,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 55.4
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -274,9 +274,9 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/screenshots/truepill-2026-08-17T082448.png
 security:
 - kind: authentication
@@ -299,7 +299,7 @@ tags:
 - Prior Authorization
 - Electronic Prescribing
 - Pharmacy Transfers
-- Webhooks
+- Webhook
 - HIPAA
 website: https://www.truepill.com
 ---

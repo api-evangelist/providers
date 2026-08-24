@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ rules:
 score:
   band: developing
   composite: 42.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 42.1
-  previous_composite: 43.8
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +217,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/screenshots/gleif-2026-06-20T181909.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The Call Notes API from Proton.ai — 4 operation(s) for call notes.
@@ -176,8 +176,8 @@ image: https://content.pstmn.io/9e57cb73-9d7b-4c3a-8915-f860c9e82380/bG9nby0yMDI
 layout: provider
 mcp_servers:
 - description: ''
-  name: protonai-mcp.yml
-  slug: protonai-mcpyml
+  name: Proton.ai MCP Server
+  slug: protonai-mcp-server
 modified: '2026-07-20'
 name: Proton.ai
 nav: Providers
@@ -190,7 +190,7 @@ random_paper: 15
 score:
   band: developing
   composite: 41.3
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 41.8
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

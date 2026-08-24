@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -197,8 +197,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: open-insurance-mcp.yml
-  slug: open-insurance-mcpyml
+  name: Open MCP Server
+  slug: open-mcp-server
 modified: '2026-07-25'
 name: Open
 nav: Providers
@@ -211,7 +211,7 @@ random_paper: 19
 score:
   band: developing
   composite: 46.2
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -221,7 +221,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 48.1
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,8 +233,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png
 security:
@@ -257,6 +257,6 @@ tags:
 - Underwriting
 - Policy Administration
 - White Label
-- Quote
+- Quotes
 website: https://www.beopen.com/
 ---

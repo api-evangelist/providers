@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -44,11 +48,11 @@ created: '2026-07-17'
 description: 'SteelBrick was a Configure-Price-Quote (CPQ) SaaS vendor backed by IVP and Shasta Ventures before it was acquired by Salesforce (announced December 2015, closed 2016) and folded into the product now shipped as Salesforce CPQ (formerly Salesforce Revenue Cloud). The steelbrick.com domain is no longer an independent surface: its apex 301-redirects to salesforce.com/sales/cpq/ and the www host serves a broken default CloudFront certificate. There is no standalone SteelBrick developer portal, documentation, or public API — any live API surface belongs to Salesforce CPQ. This profile is retained as a portfolio lead / acquisition record; enrichment found no independent API artifacts to harvest.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/steelbrick.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-21'
 name: Steelbrick
 nav: Providers
 network: true
-overview: Steelbrick is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, CPQ, Configure Price Quote, and Quote To Cash.
+overview: Steelbrick is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, CPQ, Quote-to-Cash, and Sales.
 random_paper: 14
 score:
   band: minimal
@@ -64,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -77,8 +81,7 @@ tags:
 - Company
 - Enterprise Saas
 - CPQ
-- Configure Price Quote
-- Quote To Cash
+- Quote-to-Cash
 - Sales
 - Acquired
 - Salesforce

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -205,8 +205,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: nhs-england-mcp.yml
-  slug: nhs-england-mcpyml
+  name: NHS England MCP Server
+  slug: nhs-england-mcp-server
 modified: '2026-07-24'
 name: NHS England
 nav: Providers
@@ -222,7 +222,7 @@ random_paper: 11
 score:
   band: developing
   composite: 52.7
-  delta: 8.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -232,7 +232,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 44.6
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,9 +249,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png
 security:
 - kind: authentication

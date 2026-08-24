@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-21'
 name: TAAI Labs, Inc
 nav: Providers
 network: true
-overview: 'TAAI Labs, Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Application Security, AI, and Secure SDLC.
+overview: 'TAAI Labs, Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Application Security, Artificial Intelligence, and Secure SDLC.
 
 
   TAAI Labs, Inc''s developer surface includes signup flow and 5 more developer resources.'
@@ -83,8 +83,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -96,7 +96,7 @@ tags:
 - Company
 - Security
 - Application Security
-- AI
+- Artificial Intelligence
 - Secure SDLC
 - DevSecOps
 - Agents

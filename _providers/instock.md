@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'Instock is using the term `article` to describe unique product or SKU managed by Instock ASRS. Articles resource is mostly managed by you as a client of Instock API. Article data is shared across all '
@@ -171,9 +171,9 @@ description: 'Instock is a robotics company delivering a goods-to-person automat
 image: https://instock.com/en/images/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: instock-mcp.yml
-  slug: instock-mcpyml
+- description: No official hosted/remote MCP server was found for Instock. This is a candidate tool surface derived one-to-one from the 19 documented Instock API operations, for building an MCP server over the Inclo
+  name: Instock MCP Server
+  slug: instock-mcp-server
 modified: '2026-07-19'
 name: Instock
 nav: Providers
@@ -186,7 +186,7 @@ random_paper: 7
 score:
   band: developing
   composite: 40.5
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 43.2
+  previous_composite: 40.5
   provenance:
     conformance: derived
     contracts:
@@ -206,8 +206,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/screenshots/instock-2026-07-25T222617.png
 security:

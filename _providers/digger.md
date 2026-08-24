@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for OpenComputer — create and manage persistent cloud sandbox VMs, run commands and files inside them, checkpoint/fork, expose preview URLs, run durable agent sessions, and register signed we
@@ -144,7 +144,7 @@ random_paper: 17
 score:
   band: thin
   composite: 38.4
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -154,12 +154,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 43.4
+  previous_composite: 38.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/screenshots/digger-2026-07-25T212000.png
 security:
 - kind: authentication
@@ -180,9 +180,9 @@ tags:
 - Terraform
 - OpenTofu
 - Developer Tools
-- Webhooks
-- Open Source
-- SDKs
+- Webhook
+- Open-Source
+- SDK
 - CLI
 website: https://digger.dev/
 ---

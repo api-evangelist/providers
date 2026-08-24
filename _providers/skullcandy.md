@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Universal Commerce Protocol (UCP) merchant surface for the Skullcandy Shopify storefront. Agents discover capabilities at /.well-known/ucp and transact against a hosted MCP endpoint (catalog search, c
@@ -100,9 +100,9 @@ description: 'Skullcandy is a US consumer-audio brand that designs and sells hea
 image: https://www.skullcandy.com/cdn/shop/files/new-social.jpg?v=1726116747
 layout: provider
 mcp_servers:
-- description: ''
-  name: skullcandy-mcp.yml
-  slug: skullcandy-mcpyml
+- description: Hosted Universal Commerce Protocol (UCP) shopping MCP server for the Skullcandy Shopify storefront. Agents call the MCP endpoint to search the catalog, build a cart, and drive a buyer-approved checkou
+  name: Skullcandy MCP Server
+  slug: skullcandy-mcp-server
 modified: '2026-07-21'
 name: Skullcandy
 nav: Providers
@@ -120,7 +120,7 @@ scopes:
 score:
   band: emerging
   composite: 20.0
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -130,11 +130,11 @@ score:
     discoverability: 92.6
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 22.4
+  previous_composite: 20.0
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

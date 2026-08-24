@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -127,6 +127,10 @@ collections:
   name: Oracle General Ledger REST API
   slug: open-oracle-general-ledger
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,14 +219,14 @@ finops:
   slug: oracle-general-ledger-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-general-ledger.png
 layout: provider
-modified: '2026-03-16'
+modified: '2026-08-21'
 name: Oracle General Ledger
 nav: Providers
 network: true
 overview: 'Oracle General Ledger publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounting Periods API, Budgetary Control API, Currency Rates API, and 5 more. Tagged areas include Accounting, Balances, Cloud, ERP, and Finance.
 
 
-  Oracle General Ledger''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, signup flow, and 13 more developer resources.'
+  Oracle General Ledger''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, signup flow, and 14 more developer resources.'
 plans:
 - name: Oracle General Ledger Plans Pricing
   plan_count: 3
@@ -235,7 +239,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.0
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -245,7 +249,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 46.4
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -253,9 +257,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/screenshots/oracle-general-ledger-2026-06-20T191133.png
 security:
 - kind: authentication

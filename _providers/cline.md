@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Open-source autonomous coding agent for VS Code. Reads/writes files, runs commands, browses the web, calls MCP tools, and connects to LLM providers (Anthropic, OpenAI, Google, OpenRouter, Ollama, etc.
@@ -101,7 +101,7 @@ modified: '2026-05-08'
 name: Cline
 nav: Providers
 network: true
-overview: 'Cline publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Developer Tools, Agent, VS Code, and JetBrains.
+overview: 'Cline publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Developer Tools, Agents, VS Code, and JetBrains.
 
 
   Cline''s developer surface includes GitHub presence, documentation, and 8 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -127,9 +127,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cline/refs/heads/main/screenshots/cline-2026-06-20T174524.png
 security:
@@ -143,13 +143,13 @@ security:
   summary_line: Bugcrowd · security.txt · contact published
 slug: cline
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
-- Agent
+- Agents
 - VS Code
 - JetBrains
 - CLI
 - MCP
-- Open Source
+- Open-Source
 website: https://cline.bot/
 ---

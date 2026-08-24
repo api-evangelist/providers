@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The DAS Web API (DASWebAPI) is DAS Technology's REST API for the CDXP platform, served from api.digitalairstrike.com and documented by two Swashbuckle-generated Swagger 2.0 documents published side by
@@ -96,13 +96,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/das-techno
 layout: provider
 mcp_servers:
 - description: ''
-  name: das-technology-mcp.yml
-  slug: das-technology-mcpyml
+  name: DAS Technology MCP Server
+  slug: das-technology-mcp-server
 modified: '2026-08-12'
 name: DAS Technology
 nav: Providers
 network: true
-overview: 'DAS Technology publishes 1 API on the [APIs.io](https://apis.io/) network: DAS Web API. Tagged areas include Company, Martech, Automotive, Automotive Retail, and Marketing.
+overview: 'DAS Technology publishes 1 API on the [APIs.io](https://apis.io/) network: DAS Web API. Tagged areas include Company, MarTech, Automotive, Automotive Retail, and Marketing.
 
 
   DAS Technology''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.6
-  delta: -9.5
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -128,7 +128,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 31.1
+  previous_composite: 21.6
   provenance:
     conformance: derived
     contracts:
@@ -138,9 +138,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/screenshots/das-technology-2026-07-25T211222.png
 security:
 - kind: authentication
@@ -154,7 +154,7 @@ security:
 slug: das-technology
 tags:
 - Company
-- Martech
+- MarTech
 - Automotive
 - Automotive Retail
 - Marketing

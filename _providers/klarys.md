@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The API surface behind the Klarys tenant application at klarys.app. Klarys markets API and EDI integration with customer ERP, accounting and product-reference systems, and the application serves an an
@@ -162,7 +162,7 @@ modified: '2026-08-17'
 name: Klarys
 nav: Providers
 network: true
-overview: 'Klarys publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, eProcurement, Procurement, and Supply Chain.
+overview: 'Klarys publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, eProcurement, Procurement, and Supply Chain.
 
 
   Klarys'' developer surface includes support, engineering blog, legal docs, YouTube channel, authentication, and 23 more developer resources.'
@@ -183,6 +183,7 @@ scopes:
 score:
   band: emerging
   composite: 22.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -192,11 +193,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
+  previous_composite: 22.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Klarys Authentication
@@ -209,7 +212,7 @@ security:
 slug: klarys
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - eProcurement
 - Procurement
 - Supply Chain

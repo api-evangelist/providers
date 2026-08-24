@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Apivault is a free, open-source API directory that serves as a gateway to a world of public APIs. It catalogs APIs across 51 categories with details on authentication method, CORS support, and HTTPS a
@@ -86,7 +86,7 @@ modified: '2026-04-19'
 name: Apivault
 nav: Providers
 network: true
-overview: Apivault publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Catalog, API Directory, API Discovery, Open Source, and Public APIs.
+overview: Apivault publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Catalog, API Directory, API Discovery, Open-Source, and Public APIs.
 plans:
 - name: Apivault Plans Pricing
   plan_count: 3
@@ -116,8 +116,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 12.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/screenshots/apivault-2026-06-20T172306.png
 security:
@@ -130,7 +130,7 @@ tags:
 - API Catalog
 - API Directory
 - API Discovery
-- Open Source
+- Open-Source
 - Public APIs
 use_cases:
 - description: Find free and public APIs for application development across 51 categories.

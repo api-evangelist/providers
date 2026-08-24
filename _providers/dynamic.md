@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Dynamic's REST API for wallet infrastructure — admin and environment management endpoints plus SDK-facing endpoints for auth, passkeys, embedded wallets, MPC/WaaS, users, sessions, MFA, gates, and web
@@ -162,9 +162,9 @@ description: Dynamic is a wallet infrastructure platform for fintech, crypto, an
 image: https://cdn.prod.website-files.com/626692727bba3f384e008e8a/67efcc8f11a9608cf3084bc3_328d77e78384deddd386bc6036ac7cc3_shared-img-home.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: dynamic-mcp.yml
-  slug: dynamic-mcpyml
+- description: Official hosted Model Context Protocol server for the Dynamic documentation site, compatible with Cursor, Claude Code, and Codex. Provides search and retrieval over public Dynamic site/docs content; i
+  name: Dynamic
+  slug: dynamic
 modified: '2026-07-18'
 name: Dynamic
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 6
 score:
   band: developing
   composite: 52.2
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -190,7 +190,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 55.4
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -200,8 +200,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic/refs/heads/main/screenshots/dynamic-2026-07-25T212559.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: 'Administration and platform settings operations on Cisco Catalyst SD-WAN Manager: user and group administration, role assignment, authentication events (server-sent), and the configuration settings th'
@@ -250,11 +250,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: catalyst-sdwan-mcp-community
-  slug: catalyst-sdwan-mcp-community
+  name: Cisco Catalyst SD-WAN MCP Server
+  slug: cisco-catalyst-sd-wan-mcp-server
 - description: ''
-  name: cisco-catalyst-sdwan-mcp.yml
-  slug: cisco-catalyst-sdwan-mcpyml
+  name: Cisco Catalyst SD-WAN MCP Server
+  slug: cisco-catalyst-sd-wan-mcp-server-2
 modified: '2026-08-19'
 name: Cisco Catalyst SD-WAN
 nav: Providers
@@ -281,17 +281,19 @@ scopes:
   slug: cisco-catalyst-sdwan-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 66.8
+  band: strong
+  composite: 65.0
+  delta: -1.8
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 16.7
     contract_quality: 55.5
-    developer_ergonomics: 80.4
+    developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 16.7
-    operational_transparency: 78.9
+    operational_transparency: 76.3
+  previous_composite: 66.8
   provenance:
     conformance: derived
     contracts:
@@ -307,8 +309,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Cisco Catalyst Sdwan Authentication

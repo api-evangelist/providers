@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API to copy, move, pull, share, and list files across connected storage providers (Amazon S3, Google Drive, Dropbox, Box and more) using the DART acceleration protocol. Bearer API-key auth over h
@@ -119,8 +119,8 @@ image: https://github.com/getbyteport.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: byteport-mcp.yml
-  slug: byteport-mcpyml
+  name: Byteport MCP Server
+  slug: byteport-mcp-server
 modified: '2026-07-18'
 name: Byteport
 nav: Providers
@@ -133,7 +133,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 23.4
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -143,12 +143,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 25.9
+  previous_composite: 23.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/byteport/refs/heads/main/screenshots/byteport-2026-07-25T204142.png
 security:

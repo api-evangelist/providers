@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Gamelocker backend (gamelocker.unruly-studios.com) is a self-hosted GitLab instance that stores each learner''s coding "profiles" and game files as GitLab projects and repository files. It exposes '
@@ -107,8 +107,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unruly-stu
 layout: provider
 mcp_servers:
 - description: ''
-  name: unruly-studios-mcp.yml
-  slug: unruly-studios-mcpyml
+  name: Unruly Studios MCP Server
+  slug: unruly-studios-mcp-server
 modified: '2026-07-21'
 name: Unruly Studios
 nav: Providers
@@ -126,7 +126,7 @@ scopes:
 score:
   band: thin
   composite: 28.8
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -136,7 +136,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 24.9
+  previous_composite: 28.8
   provenance:
     mcp: derived
   regulatory:
@@ -145,8 +145,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -228,14 +228,14 @@ description: 'Decart is an AI research lab and API platform building real-time w
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: decart-mcp.yml
-  slug: decart-mcpyml
+- description: 'Decart publishes a hosted, remote MCP server on its documentation host. It is a documentation-knowledge server, not a wrapper over the Decart REST API: its three tools search and query the Decart API '
+  name: Decart MCP Server
+  slug: decart-mcp-server
 modified: '2026-08-01'
 name: Decart
 nav: Providers
 network: true
-overview: 'Decart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, Video, Video Generation, and Video Editing.
+overview: 'Decart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, Video, Video Generation, and Video Editing.
 
 
   Decart''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 36 more developer resources.'
@@ -251,7 +251,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.3
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -261,7 +261,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 58.1
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,8 +272,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/screenshots/decart-2026-08-07T164225.png
 security:
@@ -288,12 +288,12 @@ security:
 slug: decart
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Video
 - Video Generation
 - Video Editing
 - Image Editing
-- Real Time
+- Real-Time
 - Generative AI
 - World Models
 - Streaming

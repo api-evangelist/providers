@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ modified: 2026-06-12
 name: Twenty
 nav: Providers
 network: true
-overview: 'Twenty publishes 9 APIs on the [APIs.io](https://apis.io/) network, including companies API, fields API, notes API, and 6 more. Tagged areas include CRM, Open Source, REST, GraphQL, and Webhooks.
+overview: 'Twenty publishes 9 APIs on the [APIs.io](https://apis.io/) network, including companies API, fields API, notes API, and 6 more. Tagged areas include CRM, Open-Source, REST, GraphQL, and Webhook.
 
 
   The Twenty catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -243,7 +243,7 @@ rules:
 score:
   band: developing
   composite: 46.3
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -253,7 +253,7 @@ score:
     discoverability: 55.6
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 50.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -261,8 +261,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/screenshots/twenty-2026-06-20T195948.png
 security:
@@ -281,10 +281,10 @@ security:
 slug: twenty
 tags:
 - CRM
-- Open Source
+- Open-Source
 - REST
 - GraphQL
-- Webhooks
+- Webhook
 - Self-Hosted
 - Companies
 - People

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'CCC''s only publicly named API product. Secure Share is described by CCC as "a network using cloud-based APIs to permit more than 22,000 collision repairers to connect to apps using the CIECA BMS data '
@@ -179,7 +179,7 @@ scopes:
 score:
   band: thin
   composite: 33.9
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -189,7 +189,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 36.3
+  previous_composite: 33.9
   provenance:
     conformance: first-party
   regulatory:
@@ -198,8 +198,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/screenshots/ccc-intelligent-solutions-2026-07-25T204826.png
 security:
@@ -227,7 +227,7 @@ tags:
 - Claims Technology
 - CIECA
 - Partner Gated
-- OAuth
+- Authentication
 - OpenID Connect
 website: https://www.cccis.com/
 ---

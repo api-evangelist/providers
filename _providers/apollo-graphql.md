@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
@@ -303,9 +303,9 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-- description: ''
-  name: apollo-graphql-mcp.yml
-  slug: apollo-graphql-mcpyml
+- description: Apollo's hosted GraphOS MCP Server. Anonymous JSON-RPC tools/list returns a real tool set with input schemas — no credentials required to enumerate it.
+  name: Apollo GraphQL MCP Server
+  slug: apollo-graphql-mcp-server
 modified: '2026-05-19'
 name: Apollo GraphQL
 nav: Providers
@@ -340,7 +340,7 @@ rules:
 score:
   band: developing
   composite: 50.0
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -356,12 +356,12 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 58.5
+  previous_composite: 50.0
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/screenshots/apollo-graphql-2026-06-20T172310.png
 security:
 - kind: domain-security

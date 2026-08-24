@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ modified: '2026-05-19'
 name: US Bureau of Labor Statistics
 nav: Providers
 network: true
-overview: 'US Bureau of Labor Statistics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Popular Series API, Surveys API, and Time Series API. Tagged areas include Federal Government, Labor Statistics, Economic Data, and Open Data.
+overview: 'US Bureau of Labor Statistics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Popular Series API, Surveys API, and Time Series API. Tagged areas include Federal-Government, Labor Statistics, Economic Data, and Open Data.
 
 
   The US Bureau of Labor Statistics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -155,7 +155,7 @@ rules:
 score:
   band: thin
   composite: 35.1
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -165,7 +165,7 @@ score:
     discoverability: 64.8
     governance: 39.4
     operational_transparency: 7.9
-  previous_composite: 34.6
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bureau-of-labor-statistics/refs/heads/main/screenshots/us-bureau-of-labor-statistics-2026-06-20T200548.png
 security:
@@ -194,7 +194,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: us-bureau-of-labor-statistics
 tags:
-- Federal Government
+- Federal-Government
 - Labor Statistics
 - Economic Data
 - Open Data

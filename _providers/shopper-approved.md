@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ modified: '2026-05-19'
 name: Shopper Approved
 nav: Providers
 network: true
-overview: 'Shopper Approved publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Product Reviews API, Reviews API, and 1 more. Tagged areas include Reviews, Ratings, Ecommerce, Customer Feedback, and Social Proof.
+overview: 'Shopper Approved publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Product Reviews API, Reviews API, and 1 more. Tagged areas include Reviews, Ratings, E-Commerce, Customer Feedback, and Social Proof.
 
 
   The Shopper Approved catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -162,18 +162,18 @@ rules:
   slug: shopper-approved-rules
 score:
   band: thin
-  composite: 31.8
-  delta: -6.7
+  composite: 32.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 66.4
     developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 38.5
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -181,9 +181,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/screenshots/shopper-approved-2026-06-20T193837.png
 security:
 - kind: authentication
@@ -202,7 +202,7 @@ slug: shopper-approved
 tags:
 - Reviews
 - Ratings
-- Ecommerce
+- E-Commerce
 - Customer Feedback
 - Social Proof
 ---

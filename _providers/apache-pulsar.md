@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ modified: '2026-05-19'
 name: Apache Pulsar
 nav: Providers
 network: true
-overview: 'Apache Pulsar publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, Brokers API, Clusters API, and 5 more. Tagged areas include Cloud Native, Messaging, Multi-Tenant, Pub-Sub, and Streaming.
+overview: 'Apache Pulsar publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, Brokers API, Clusters API, and 5 more. Tagged areas include Cloud-Native, Messaging, Multi-Tenant, Pub-Sub, and Streaming.
 
 
   The Apache Pulsar catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -285,18 +285,18 @@ rules:
   slug: apache-pulsar-spectral-rules
 score:
   band: thin
-  composite: 31.5
-  delta: -5.4
+  composite: 31.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 59.9
     developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 36.9
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -304,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/screenshots/apache-pulsar-2026-06-20T172138.png
 security:
 - kind: domain-security
@@ -319,13 +319,13 @@ security:
   summary_line: security.txt · contact published
 slug: apache-pulsar
 tags:
-- Cloud Native
+- Cloud-Native
 - Messaging
 - Multi-Tenant
 - Pub-Sub
 - Streaming
 - Apache
-- Open Source
+- Open-Source
 use_cases:
 - description: Stream events between microservices with guaranteed delivery
   name: Real-Time Event Streaming

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -138,13 +138,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: santander-uk-mcp.yml
-  slug: santander-uk-mcpyml
+  name: Santander UK MCP Server
+  slug: santander-uk-mcp-server
 modified: '2026-07-23'
 name: Santander UK
 nav: Providers
 network: true
-overview: 'Santander UK publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account & Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Santander UK publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account & Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Santander UK''s developer surface includes authentication, documentation, sandbox, and 18 more developer resources.'
@@ -157,7 +157,7 @@ scopes:
 score:
   band: developing
   composite: 41.1
-  delta: 4.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -167,7 +167,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 36.7
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,8 +184,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 75.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -198,7 +198,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: santander-uk
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

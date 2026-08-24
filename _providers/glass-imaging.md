@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-19'
 name: Glass Imaging
 nav: Providers
 network: true
-overview: 'Glass Imaging is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Computational Photography, Imaging, and Machine Learning.
+overview: 'Glass Imaging is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computational Photography, Imaging, and Machine-Learning.
 
 
   Glass Imaging''s developer surface includes engineering blog and 4 more developer resources.'
@@ -79,8 +79,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glass-imaging/refs/heads/main/screenshots/glass-imaging-2026-07-25T215857.png
 security:
@@ -91,12 +91,12 @@ security:
 slug: glass-imaging
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Computational Photography
 - Imaging
-- Machine Learning
+- Machine-Learning
 - Neural ISP
-- Cameras
+- Camera
 - Smartphones
 website: https://www.glass-imaging.com
 ---

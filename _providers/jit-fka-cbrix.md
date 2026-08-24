@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Jit REST API for programmatic access to security findings, artifacts (SBOM, scan results), teams, plans, policies, workflows, integrations, billing metrics, and on-demand scan execution. Authenticates
@@ -135,8 +135,8 @@ image: https://cdn.prod.website-files.com/61e3cab9aff0501e51b0bd77/67fe6ccbc18c5
 layout: provider
 mcp_servers:
 - description: ''
-  name: jit-fka-cbrix-mcp.yml
-  slug: jit-fka-cbrix-mcpyml
+  name: Jit (fka Cbrix) MCP Server
+  slug: jit-fka-cbrix-mcp-server
 modified: '2026-07-19'
 name: Jit (fka Cbrix)
 nav: Providers
@@ -154,7 +154,7 @@ scopes:
 score:
   band: emerging
   composite: 25.2
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -164,13 +164,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.9
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/screenshots/jit-fka-cbrix-2026-07-25T223206.png
 security:
 - kind: authentication
@@ -194,6 +194,5 @@ tags:
 - ASPM
 - Security
 - Vulnerability Management
-- API
 website: https://www.jit.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Wicket Component API provides the core Java classes for building web UIs. Pages extend WebPage, components extend Panel, Form, Link, Button, and other base classes. The model system uses IModel<T>
@@ -127,7 +127,7 @@ modified: '2026-04-19'
 name: Apache Wicket
 nav: Providers
 network: true
-overview: 'Apache Wicket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Java, Web Applications, Web Framework, and Open Source.
+overview: 'Apache Wicket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Java, Web Applications, Web Framework, and Open-Source.
 
 
   Apache Wicket''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 8 more developer resources.'
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.3
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -153,9 +153,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 22.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-wicket/refs/heads/main/screenshots/apache-wicket-2026-06-20T172157.png
 security:
@@ -173,8 +173,8 @@ tags:
 - Java
 - Web Applications
 - Web Framework
-- Open Source
-- Ajax
+- Open-Source
+- AJAX
 use_cases:
 - description: Complex business applications with rich server-side state management.
   name: Enterprise Java Web Applications

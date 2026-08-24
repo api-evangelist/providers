@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Module Operations API from Puppet — 2 operation(s) for module operations.
@@ -160,8 +160,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/puppet-lab
 layout: provider
 mcp_servers:
 - description: ''
-  name: puppet-labs-mcp.yml
-  slug: puppet-labs-mcpyml
+  name: Puppet MCP Server
+  slug: puppet-mcp-server
 modified: '2026-07-20'
 name: Puppet
 nav: Providers
@@ -174,7 +174,7 @@ random_paper: 20
 score:
   band: developing
   composite: 44.0
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 43.9
+  previous_composite: 44.0
   provenance:
     conformance: derived
     contracts:
@@ -194,8 +194,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puppet-labs/refs/heads/main/screenshots/puppet-labs-2026-08-17T081405.png
 security:

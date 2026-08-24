@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Kuaishou Open Platform (快手开放平台) exposes a JSON HTTP API for third-party applications, mini programs and merchant tools built on Kuaishou. Access is granted through a standard OAuth 2.0 authorizati
@@ -170,8 +170,8 @@ image: https://s2-11031.kwimgs.com/kos/nlav11031/assets/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: kuaishou-kling-mcp.yml
-  slug: kuaishou-kling-mcpyml
+  name: Kling AI MCP Server
+  slug: kling-ai-mcp-server
 modified: '2026-08-12'
 name: Kuaishou
 nav: Providers
@@ -197,7 +197,7 @@ scopes:
 score:
   band: thin
   composite: 29.2
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -207,14 +207,14 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 34.8
+  previous_composite: 29.2
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/screenshots/kuaishou-2026-07-25T224317.png
 security:
 - kind: authentication
@@ -235,12 +235,12 @@ tags:
 - Live Streaming
 - Advertising
 - Marketing
-- Social Media
+- Social-Media
 - Content
 - China
-- AI
+- Artificial Intelligence
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - MCP
 website: https://www.kuaishou.com/
 ---

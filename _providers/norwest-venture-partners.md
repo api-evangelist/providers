@@ -28,7 +28,7 @@ tags:
 - Growth Equity
 - Early Stage
 - Late Stage
-- Enterprise SaaS
+- Enterprise Saas
 - Fintech
 - Healthcare
 - Life Sciences

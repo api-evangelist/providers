@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -355,9 +355,9 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-- description: ''
-  name: google-ads-mcp.yml
-  slug: google-ads-mcpyml
+- description: Google's first-party Model Context Protocol server for the Google Ads API. It is a Python (FastMCP) server that Google publishes as source and installs from git; Google does not operate a hosted endpo
+  name: Google Ads MCP Server
+  slug: google-ads-mcp-server
 modified: '2026-08-13'
 name: Google Ads
 nav: Providers
@@ -397,7 +397,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.6
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -407,7 +407,7 @@ score:
     discoverability: 81.5
     governance: 26.5
     operational_transparency: 84.2
-  previous_composite: 72.4
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -418,8 +418,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/screenshots/google-ads-2026-06-20T182011.png
 security:

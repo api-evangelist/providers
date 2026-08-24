@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: Marble Health
 nav: Providers
 network: true
-overview: 'Marble Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Mental Health, Telehealth, and Therapy.
+overview: 'Marble Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Mental Health, Telehealth, and Therapy.
 
 
   Marble Health''s developer surface includes signup flow and 4 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 8.4
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -78,15 +78,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.2
+  previous_composite: 8.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marble-health/refs/heads/main/screenshots/marble-health-2026-07-25T230131.png
 security:
@@ -97,7 +97,7 @@ security:
 slug: marble-health
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Mental Health
 - Telehealth
 - Therapy

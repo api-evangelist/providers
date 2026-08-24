@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single task-based endpoint for image, video, audio, 3D, and text inference across 400K+ models, reachable over HTTP, WebSocket, and Server-Sent Events.
@@ -167,13 +167,13 @@ image: https://runware.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: runware-mcp.yml
-  slug: runware-mcpyml
+  name: Runware MCP Server
+  slug: runware-mcp-server
 modified: '2026-07-21'
 name: Runware
 nav: Providers
 network: true
-overview: 'Runware publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Inference, and Image Generation.
+overview: 'Runware publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Inference, and Image-Generation.
 
 
   Runware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 24 more developer resources.'
@@ -181,7 +181,7 @@ random_paper: 16
 score:
   band: developing
   composite: 41.0
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -191,13 +191,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 43.4
+  previous_composite: 41.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/screenshots/runware-2026-08-17T081654.png
 security:
@@ -221,9 +221,9 @@ slug: runware
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
-- Image Generation
+- Image-Generation
 - Video Generation
 - Audio Generation
 - Text Generation

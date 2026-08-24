@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -140,8 +140,8 @@ image: https://www.franklinwh.com/icoLogo1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: franklin-whole-home-mcp.yml
-  slug: franklin-whole-home-mcpyml
+  name: Franklin Whole Home MCP Server
+  slug: franklin-whole-home-mcp-server
 modified: '2026-08-16'
 name: Franklin Whole Home
 nav: Providers
@@ -162,7 +162,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.8
-  delta: -12.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -172,7 +172,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 42.7
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,9 +189,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/screenshots/franklin-whole-home-2026-08-17T080936.png
 security:
 - kind: authentication

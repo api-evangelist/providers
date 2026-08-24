@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Taizen's remote Model Context Protocol server — the company's only machine-callable surface. Per the provider's own manifest it lets an agent connect once instead of wiring fifteen-plus individual MCP
@@ -116,9 +116,9 @@ description: 'Taizen is a managed agentic AI platform for go-to-market teams tha
 image: https://usetaizen.com/assets/taizen.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: taizen-mcp.yml
-  slug: taizen-mcpyml
+- description: Taizen's hosted MCP server. Per the provider's own manifest it exists to "connect once instead of 15+ individual MCP connectors" — it indexes the customer's Gong calls, CRM records and documents so an
+  name: Taizen MCP Server
+  slug: taizen-mcp-server
 modified: '2026-08-14'
 name: Taizen
 nav: Providers
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -149,13 +149,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 25.0
+  previous_composite: 25.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -177,7 +177,7 @@ tags:
 - Competitive Intelligence
 - Sales Enablement
 - Revenue Intelligence
-- GTM
+- Go-To-Market
 - AI Agents
 - Battlecards
 - Sales

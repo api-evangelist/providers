@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-19'
 name: KWI
 nav: Providers
 network: true
-overview: 'KWI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Point of Sale, Unified Commerce, and Omnichannel.
+overview: 'KWI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Point-of-Sale, Unified Commerce, and Omnichannel.
 
 
   KWI''s developer surface includes engineering blog, signup flow, and 14 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 16
 score:
   band: minimal
   composite: 9.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -122,9 +122,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kwi/refs/heads/main/screenshots/kwi-2026-07-25T224343.png
 security:
@@ -136,7 +136,7 @@ slug: kwi
 tags:
 - Company
 - Retail
-- Point of Sale
+- Point-of-Sale
 - Unified Commerce
 - Omnichannel
 - Order Management
@@ -144,6 +144,6 @@ tags:
 - Loyalty
 - CRM
 - Retail Analytics
-- SaaS
+- Software-as-a-Service
 website: https://www.kwi.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,13 +137,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trueaccord
 layout: provider
 mcp_servers:
 - description: ''
-  name: trueaccord-mcp.yml
-  slug: trueaccord-mcpyml
+  name: TrueAccord MCP Server
+  slug: trueaccord-mcp-server
 modified: '2026-07-21'
 name: TrueAccord
 nav: Providers
 network: true
-overview: 'TrueAccord publishes 1 API on the [APIs.io](https://apis.io/) network: Customers API. Tagged areas include Company, Debt Collection, Financial Services, Fintech, and Machine Learning.
+overview: 'TrueAccord publishes 1 API on the [APIs.io](https://apis.io/) network: Customers API. Tagged areas include Company, Debt Collection, Financial-Services, Fintech, and Machine-Learning.
 
 
   TrueAccord''s developer surface includes documentation, API reference, engineering blog, authentication, and 16 more developer resources.'
@@ -151,7 +151,7 @@ random_paper: 18
 score:
   band: thin
   composite: 37.1
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -161,7 +161,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 38.2
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -172,8 +172,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -184,10 +184,10 @@ slug: trueaccord
 tags:
 - Company
 - Debt Collection
-- Financial Services
+- Financial-Services
 - Fintech
-- Machine Learning
-- Collections
+- Machine-Learning
+- Collection
 - Consumer Finance
 website: https://www.trueaccord.com
 ---

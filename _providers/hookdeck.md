@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 7
@@ -528,7 +528,7 @@ modified: '2026-05-25'
 name: Hookdeck
 nav: Providers
 network: true
-overview: 'Hookdeck publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Sources API, Destinations API, and 14 more. Tagged areas include Webhooks, Event Gateways, Gateways, Events, and Event Infrastructure.
+overview: 'Hookdeck publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Sources API, Destinations API, and 14 more. Tagged areas include Webhook, Event Gateways, Gateways, Event, and Event Infrastructure.
 
 
   The Hookdeck catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -558,7 +558,7 @@ rules:
 score:
   band: strong
   composite: 56.5
-  delta: -11.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -568,7 +568,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 67.8
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -576,9 +576,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png
 security:
 - kind: authentication
@@ -641,15 +641,15 @@ skills:
   slug: outpost
 slug: hookdeck
 tags:
-- Webhooks
+- Webhook
 - Event Gateways
 - Gateways
-- Events
+- Event
 - Event Infrastructure
 - Event-Driven
 - Messaging
 - Queues
 - Retries
-- Transformations
+- Transformation
 - Observability
 ---

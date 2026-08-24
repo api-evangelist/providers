@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ modified: '2026-05-29'
 name: Courier
 nav: Providers
 network: true
-overview: 'Courier publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Inbox Real-Time API, Audiences API, Audit Events API, and 19 more. Tagged areas include Notifications, Email, SMS, Push, and API.
+overview: 'Courier publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Inbox Real-Time API, Audiences API, Audit Events API, and 19 more. Tagged areas include Notification, Email, SMS, and Push.
 
 
   The Courier catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -272,18 +272,18 @@ rules:
   slug: courier-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.9
-  delta: -2.8
+  composite: 32.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 70.2
     developer_ergonomics: 14.3
-    discoverability: 64.8
+    discoverability: 55.6
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 35.7
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -297,8 +297,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/screenshots/courier-2026-06-20T175109.png
 security:
@@ -316,10 +316,9 @@ security:
   summary_line: SOC 2, PCI DSS, HIPAA, GDPR
 slug: courier
 tags:
-- Notifications
+- Notification
 - Email
 - SMS
 - Push
-- API
 website: https://www.courier.com/
 ---

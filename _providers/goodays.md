@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The core API from Goodays — 22 operation(s) for core.
@@ -190,8 +190,8 @@ image: https://assets.goodays.prod.verveagency.com/assets/illu-social-en.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: goodays-mcp.yml
-  slug: goodays-mcpyml
+  name: Goodays MCP Server
+  slug: goodays-mcp-server
 modified: '2026-07-19'
 name: Goodays
 nav: Providers
@@ -204,7 +204,7 @@ random_paper: 2
 score:
   band: thin
   composite: 36.0
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 40.6
+  previous_composite: 36.0
   provenance:
     conformance: derived
     contracts:
@@ -224,8 +224,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/screenshots/goodays-2026-07-25T220046.png
 security:
@@ -248,6 +248,6 @@ tags:
 - Reviews
 - Retail
 - CRM
-- SaaS
+- Software-as-a-Service
 website: https://goodays.co
 ---

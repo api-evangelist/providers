@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -203,11 +203,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autofi.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: autofi-mcp.yml
-  slug: autofi-mcpyml
+  name: AutoFi MCP Server
+  slug: autofi-mcp-server
 - description: ''
-  name: mcp-oauth-server
-  slug: mcp-oauth-server
+  name: AutoFi MCP Server
+  slug: autofi-mcp-server-2
 modified: '2026-08-14'
 name: AutoFi
 nav: Providers
@@ -236,7 +236,7 @@ scopes:
 score:
   band: strong
   composite: 59.2
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -246,7 +246,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 58.1
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,8 +263,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/screenshots/autofi-2026-07-25T201824.png
 security:
@@ -293,7 +293,7 @@ tags:
 - Auto Finance
 - Dealerships
 - Sales Enablement
-- SaaS
+- Software-as-a-Service
 - Lending
 - Loan Origination
 - Credit Decisioning

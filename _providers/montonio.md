@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: JWT-authenticated REST API for collecting payments (bank payment initiation, cards, MobilePay, BLIK, BNPL / Hire-Purchase), creating and validating Orders, issuing Refunds, generating Payment Links, o
@@ -182,8 +182,8 @@ image: https://cdn.prod.website-files.com/6745c818f143d246f266b299/68b9ab2dc787d
 layout: provider
 mcp_servers:
 - description: ''
-  name: montonio-mcp.yml
-  slug: montonio-mcpyml
+  name: Montonio MCP Server
+  slug: montonio-mcp-server
 modified: '2026-07-20'
 name: Montonio
 nav: Providers
@@ -199,7 +199,7 @@ random_paper: 1
 score:
   band: developing
   composite: 45.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -209,7 +209,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 45.0
+  previous_composite: 45.2
   provenance:
     conformance: derived
     mcp: derived
@@ -220,8 +220,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/screenshots/montonio-2026-08-07T184221.png
 security:
@@ -240,12 +240,12 @@ tags:
 - Payments
 - Payment Processing
 - Open Banking
-- E-commerce
+- E-Commerce
 - Shipping
 - Logistics
 - Financing
 - Baltics
-- Webhooks
+- Webhook
 - SDK
 website: https://www.montonio.com
 ---

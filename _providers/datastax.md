@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 4
@@ -285,8 +285,8 @@ image: https://www.datastax.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: datastax-mcp.yml
-  slug: datastax-mcpyml
+  name: DataStax MCP Server
+  slug: datastax-mcp-server
 modified: '2026-07-18'
 name: DataStax
 nav: Providers
@@ -304,7 +304,7 @@ scopes:
 score:
   band: developing
   composite: 44.4
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -314,7 +314,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 52.1
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,9 +325,9 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Unified REST API surface across Nova Credit's products (Credit Passport v4, Cash Atlas v2, Income Navigator v2, Eligibility Compass v1). Server-side clients authenticate with HTTP Basic to mint a shor
@@ -143,8 +143,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nova-credi
 layout: provider
 mcp_servers:
 - description: ''
-  name: nova-credit-mcp.yml
-  slug: nova-credit-mcpyml
+  name: Nova Credit MCP Server
+  slug: nova-credit-mcp-server
 modified: '2026-07-20'
 name: Nova Credit
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 3
 score:
   band: developing
   composite: 42.4
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 42.2
+  previous_composite: 42.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -180,8 +180,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nova-credit/refs/heads/main/screenshots/nova-credit-2026-08-07T185554.png
 security:
@@ -206,7 +206,7 @@ tags:
 - Income Verification
 - Underwriting
 - Fintech
-- Financial Services
+- Financial-Services
 - Lending
 - Cash Flow Underwriting
 - Identity

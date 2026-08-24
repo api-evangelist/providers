@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OkHttp is an efficient HTTP and HTTP/2 client for Android and Java applications with connection pooling and transparent GZIP.
@@ -77,7 +77,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.6
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -87,9 +87,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 10.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okhttp/refs/heads/main/screenshots/okhttp-2026-06-20T190647.png
 slug: okhttp

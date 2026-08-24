@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for managing bills, vendors, payment methods, and scheduling payments. Supports ACH transfers, check payments, wire transfers, and international payments. Includes webhook support, a sandbox '
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.1
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -151,15 +151,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 40.3
+  previous_composite: 40.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/screenshots/melio-2026-06-20T185133.png
 security:
@@ -179,7 +179,7 @@ tags:
 - Bill Pay
 - Vendor Payments
 - ACH
-- FinTech
+- Fintech
 - Small Business
 - Embedded Finance
 - Payment Processing

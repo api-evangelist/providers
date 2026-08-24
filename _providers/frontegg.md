@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -894,7 +894,7 @@ rules:
 score:
   band: strong
   composite: 63.7
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -904,7 +904,7 @@ score:
     discoverability: 75.9
     governance: 69.7
     operational_transparency: 68.4
-  previous_composite: 61.3
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -912,8 +912,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-08-17T083542.png
 security:
@@ -937,7 +937,6 @@ tags:
 - SSO
 - SCIM
 - Entitlements
-- OAuth
 - OpenID Connect
 website: https://frontegg.com
 ---

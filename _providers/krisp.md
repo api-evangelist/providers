@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -211,13 +211,13 @@ image: https://krisp.ai/wp-content/uploads/2025/08/thumb1.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: krisp-mcp.yml
-  slug: krisp-mcpyml
+  name: Krisp MCP Server
+  slug: krisp-mcp-server
 modified: '2026-07-19'
 name: Krisp
 nav: Providers
 network: true
-overview: 'Krisp publishes 2 APIs on the [APIs.io](https://apis.io/) network: SDK Distribution API and Voice Translation API. Tagged areas include Company, Ai, Voice AI, Speech, and Audio.
+overview: 'Krisp publishes 2 APIs on the [APIs.io](https://apis.io/) network: SDK Distribution API and Voice Translation API. Tagged areas include Company, Artificial Intelligence, Voice AI, Speech, and Audio.
 
 
   The Krisp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -228,7 +228,7 @@ random_paper: 7
 score:
   band: developing
   composite: 53.6
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -238,7 +238,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 58.7
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,9 +249,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/screenshots/krisp-2026-07-25T224259.png
 security:
 - kind: authentication
@@ -273,16 +273,16 @@ security:
 slug: krisp
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Voice AI
 - Speech
 - Audio
 - Noise Cancellation
 - Speech Translation
-- Real Time Communications
+- Real-Time Communications
 - WebRTC
 - Conversational AI
 - SDK
-- Machine Learning
+- Machine-Learning
 website: https://krisp.ai/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ modified: '2026-05-19'
 name: Apache ZooKeeper
 nav: Providers
 network: true
-overview: 'Apache ZooKeeper publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Configuration API, Health API, and 2 more. Tagged areas include Configuration Management, Distributed Coordination, Leader Election, Service Discovery, and Open Source.
+overview: 'Apache ZooKeeper publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Configuration API, Health API, and 2 more. Tagged areas include Configuration Management, Distributed Coordination, Leader Election, Service Discovery, and Open-Source.
 
 
   The Apache ZooKeeper catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -212,7 +212,7 @@ rules:
 score:
   band: thin
   composite: 37.6
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -222,7 +222,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 38.8
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/screenshots/apache-zookeeper-2026-06-20T172200.png
 security:
@@ -249,7 +249,7 @@ tags:
 - Distributed Coordination
 - Leader Election
 - Service Discovery
-- Open Source
+- Open-Source
 use_cases:
 - description: Distributed leader election using ephemeral sequential znodes for coordination.
   name: Leader Election

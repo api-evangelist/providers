@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -6994,7 +6994,7 @@ modified: '2026-05-29'
 name: EPA — U.S. Environmental Protection Agency
 nav: Providers
 network: true
-overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on the [APIs.io](https://apis.io/) network, including Account Type Codes API, Accounts API, Air Emission Testing API, and 125 more. Tagged areas include Government, Environmental, OpenData, AirQuality, and WaterQuality.
+overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on the [APIs.io](https://apis.io/) network, including Account Type Codes API, Accounts API, Air Emission Testing API, and 125 more. Tagged areas include Government, Environmental, Open Data, Air Quality, and Water Quality.
 
 
   The EPA — U.S. Environmental Protection Agency catalog on APIs.io includes 23 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -7029,19 +7029,19 @@ rules:
     warn: 17
   slug: epa-rules
 score:
-  band: strong
-  composite: 57.1
-  delta: -0.4
+  band: developing
+  composite: 54.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 25.0
-    contract_quality: 71.1
+    contract_governance: 28.8
+    contract_quality: 64.9
     developer_ergonomics: 61.9
-    discoverability: 75.9
-    governance: 25.0
+    discoverability: 57.4
+    governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 57.5
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     contracts:
@@ -7055,8 +7055,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:
@@ -7081,10 +7081,10 @@ solutions:
 tags:
 - Government
 - Environmental
-- OpenData
-- AirQuality
-- WaterQuality
-- HazardousWaste
+- Open Data
+- Air Quality
+- Water Quality
+- Hazardous Waste
 - Compliance
 - Emissions
 use_cases:

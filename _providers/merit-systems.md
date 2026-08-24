@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -207,8 +207,8 @@ image: https://agentcash.dev/logo-light-striped.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: merit-systems-mcp.yml
-  slug: merit-systems-mcpyml
+  name: Merit Systems MCP Server
+  slug: merit-systems-mcp-server
 modified: '2026-07-20'
 name: Merit Systems
 nav: Providers
@@ -221,7 +221,7 @@ random_paper: 17
 score:
   band: developing
   composite: 53.7
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 51.6
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/screenshots/merit-systems-2026-08-07T172603.png
 security:
@@ -268,10 +268,10 @@ tags:
 - Payments
 - x402
 - Micropayments
-- Model Context Protocol
+- MCP
 - Stablecoins
 - API Discovery
-- Open Source
+- Open-Source
 - Developer Tools
 website: https://merit.systems
 ---

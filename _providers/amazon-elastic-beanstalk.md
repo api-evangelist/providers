@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -303,7 +303,7 @@ modified: '2026-05-19'
 name: Amazon Elastic Beanstalk
 nav: Providers
 network: true
-overview: 'Amazon Elastic Beanstalk publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Amazon Elastic Beanstalk AWS Elastic Beanstalk API API, #CreateEnvironment API, #DescribeEnvironments API, and 1 more. Tagged areas include Amazon Web Services, Auto Scaling, Deployment, Elastic Beanstalk, and PaaS.
+overview: 'Amazon Elastic Beanstalk publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Amazon Elastic Beanstalk AWS Elastic Beanstalk API API, #CreateEnvironment API, #DescribeEnvironments API, and 1 more. Tagged areas include Amazon Web Services, Auto-Scaling, Deployment, Elastic Beanstalk, and Platform-as-a-Service.
 
 
   The Amazon Elastic Beanstalk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -343,18 +343,18 @@ rules:
   slug: amazon-elastic-beanstalk-spectral-rules
 score:
   band: strong
-  composite: 55.1
-  delta: -7.2
+  composite: 55.5
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.2
     developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 62.3
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -362,9 +362,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/screenshots/amazon-elastic-beanstalk-2026-06-20T171638.png
 security:
 - kind: authentication
@@ -386,11 +386,10 @@ security:
 slug: amazon-elastic-beanstalk
 tags:
 - Amazon Web Services
-- Auto Scaling
+- Auto-Scaling
 - Deployment
 - Elastic Beanstalk
-- PaaS
-- Platform As A Service
+- Platform-as-a-Service
 - Web Applications
 use_cases:
 - description: Deploy and host web applications without managing infrastructure

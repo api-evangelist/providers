@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Read-only REST API for fetching reporting data across dimensions and metrics to analyze campaign performance. Write operations are deprecated; use the GraphQL API for write operations.
@@ -227,13 +227,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stackadapt
 layout: provider
 mcp_servers:
 - description: ''
-  name: stackadapt-mcp.yml
-  slug: stackadapt-mcpyml
+  name: StackAdapt MCP Server
+  slug: stackadapt-mcp-server
 modified: '2026-08-13'
 name: StackAdapt
 nav: Providers
 network: true
-overview: 'StackAdapt publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Programmatic Advertising, Digital Advertising, Campaign Management, Ad Tech, and DSP.
+overview: 'StackAdapt publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Programmatic Advertising, Digital Advertising, Campaign Management, AdTech, and DSP.
 
 
   The StackAdapt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -257,7 +257,7 @@ scopes:
 score:
   band: strong
   composite: 62.9
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -267,13 +267,13 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 65.6
+  previous_composite: 62.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/screenshots/stackadapt-2026-06-20T194444.png
 security:
@@ -298,7 +298,7 @@ tags:
 - Programmatic Advertising
 - Digital Advertising
 - Campaign Management
-- Ad Tech
+- AdTech
 - DSP
 - Demand-Side Platform
 - Native Advertising

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Cloudability v3 API is the modern REST interface for the platform. It exposes resource-oriented endpoints for reporting, dimensions and metrics, business mappings, anomalies, rightsizing recommend
@@ -135,7 +135,7 @@ rules:
 score:
   band: emerging
   composite: 24.4
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -145,9 +145,9 @@ score:
     discoverability: 74.1
     governance: 54.5
     operational_transparency: 13.2
-  previous_composite: 21.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 24.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/screenshots/cloudability-2026-06-20T174542.png
 security:

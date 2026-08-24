@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The in-toto specification defines the metadata format for recording software supply chain steps. It includes layout metadata that defines the expected steps and their authorized functionaries, and lin
@@ -133,7 +133,7 @@ modified: '2026-04-28'
 name: In-Toto
 nav: Providers
 network: true
-overview: 'In-Toto publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Graduated, Security, Software Integrity, and Supply Chain Security.
+overview: 'In-Toto publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Graduated, Security, Software Integrity, and Supply Chain Security.
 
 
   The In-Toto catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -173,7 +173,7 @@ rules:
 score:
   band: thin
   composite: 27.6
-  delta: -7.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -183,10 +183,10 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 34.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 27.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-toto/refs/heads/main/screenshots/in-toto-2026-06-20T183303.png
 security:
 - kind: domain-security
@@ -195,7 +195,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: in-toto
 tags:
-- Cloud Native
+- Cloud-Native
 - Graduated
 - Security
 - Software Integrity

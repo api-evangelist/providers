@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OpenAPI 3.0.3-described REST API for ordering and managing translation, proofreading and copywriting work. 54 operations across Projects (create, quote, finalize, launch sync/async, pause, resume, can
@@ -133,8 +133,8 @@ image: https://www.textmaster.com/assets/textmaster-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: textmaster-mcp.yml
-  slug: textmaster-mcpyml
+  name: TextMaster MCP Server
+  slug: textmaster-mcp-server
 modified: '2026-08-17'
 name: TextMaster
 nav: Providers
@@ -163,6 +163,7 @@ scopes:
 score:
   band: developing
   composite: 41.8
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -172,6 +173,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 13.2
+  previous_composite: 41.8
   provenance:
     conformance: first-party
     contracts:
@@ -181,8 +183,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Textmaster Authentication
@@ -210,8 +213,8 @@ tags:
 - Glossary
 - Ecommerce Localization
 - Product Information Management
-- Webhooks
-- OAuth2
-- SaaS
+- Webhook
+- Authentication
+- Software-as-a-Service
 website: https://www.textmaster.com/
 ---

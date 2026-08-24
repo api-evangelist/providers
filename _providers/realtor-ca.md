@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -205,13 +205,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realtor-ca
 layout: provider
 mcp_servers:
 - description: ''
-  name: realtor-ca-mcp.yml
-  slug: realtor-ca-mcpyml
+  name: REALTOR.ca MCP Server
+  slug: realtorca-mcp-server
 modified: '2026-07-26'
 name: REALTOR.ca
 nav: Providers
 network: true
-overview: 'REALTOR.ca publishes 2 APIs on the [APIs.io](https://apis.io/) network: DDF Web API and DDF Lead API. Tagged areas include Real Estate, Canada, Property Listings, MLS, and RESO.
+overview: 'REALTOR.ca publishes 2 APIs on the [APIs.io](https://apis.io/) network: DDF Web API and DDF Lead API. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and RESO.
 
 
   REALTOR.ca''s developer surface includes documentation, API reference, getting-started guide, legal docs, support, engineering blog, changelog, and 30 more developer resources.'
@@ -224,7 +224,7 @@ scopes:
 score:
   band: developing
   composite: 39.3
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -234,7 +234,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 37.7
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,8 +245,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -263,7 +263,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: realtor-ca
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

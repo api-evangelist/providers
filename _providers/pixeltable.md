@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Read-only Model Context Protocol server served over HTTP at the Pixeltable apex host. Protocol version 2025-06-18, JSON-RPC 2.0 (initialize, tools/list, tools/call). Exposes two tools: search_docs, wh'
@@ -188,8 +188,8 @@ image: https://pixeltable.com/images/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: pixeltable-mcp.yml
-  slug: pixeltable-mcpyml
+  name: Pixeltable MCP Server
+  slug: pixeltable-mcp-server
 modified: '2026-08-17'
 name: Pixeltable
 nav: Providers
@@ -210,6 +210,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -219,12 +220,14 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 65.8
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Pixeltable Authentication
@@ -248,12 +251,12 @@ tags:
 - Embeddings
 - RAG
 - Agent Memory
-- Model Context Protocol
-- Open Source
+- MCP
+- Open-Source
 - Python
 - Data Orchestration
 - Computed Columns
 - Video Processing
-- Machine Learning
+- Machine-Learning
 website: https://www.pixeltable.com/
 ---

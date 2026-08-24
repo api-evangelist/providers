@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -456,18 +456,18 @@ rules:
   slug: ankr-rules
 score:
   band: strong
-  composite: 64.1
-  delta: -3.1
+  composite: 64.4
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 78.1
     developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 67.2
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     contracts:
@@ -479,8 +479,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/screenshots/ankr-2026-06-20T172009.png
 security:

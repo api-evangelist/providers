@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -116,7 +116,7 @@ modified: '2026-08-14'
 name: Comulate
 nav: Providers
 network: true
-overview: 'Comulate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Accounting, and Reconciliation.
+overview: 'Comulate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Accounting, and Reconciliation.
 
 
   Comulate''s developer surface includes support and 15 more developer resources.'
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.7
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -142,7 +142,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 25.1
+  previous_composite: 21.7
   provenance:
     conformance: first-party
   regulatory:
@@ -151,8 +151,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/screenshots/comulate-2026-07-25T210210.png
 security:
@@ -172,7 +172,7 @@ slug: comulate
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Accounting
 - Reconciliation
 - Automation

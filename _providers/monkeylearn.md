@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for text analysis including sentiment analysis, keyword extraction, topic classification, and custom ML model training. Supports classifiers and extractors with Token-based authentication.
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: MonkeyLearn
 nav: Providers
 network: true
-overview: 'MonkeyLearn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis, Machine Learning, Sentiment Analysis, Natural Language Processing, and Text Classification.
+overview: 'MonkeyLearn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis, Machine-Learning, Sentiment Analysis, Natural Language Processing, and Text Classification.
 
 
   MonkeyLearn''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.1
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -123,9 +123,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 29.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monkeylearn/refs/heads/main/screenshots/monkeylearn-2026-06-20T185730.png
 security:
@@ -136,7 +136,7 @@ security:
 slug: monkeylearn
 tags:
 - Text Analysis
-- Machine Learning
+- Machine-Learning
 - Sentiment Analysis
 - Natural Language Processing
 - Text Classification

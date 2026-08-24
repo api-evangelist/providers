@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-19'
 name: In Your Shoe
 nav: Providers
 network: true
-overview: 'In Your Shoe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apparel, Streetwear, Fashion, and E-commerce.
+overview: 'In Your Shoe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apparel, Streetwear, Fashion, and E-Commerce.
 
 
   In Your Shoe''s developer surface includes engineering blog and 4 more developer resources.'
@@ -85,8 +85,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-your-shoe/refs/heads/main/screenshots/in-your-shoe-2026-08-07T170650.png
 slug: in-your-shoe
@@ -95,9 +95,9 @@ tags:
 - Apparel
 - Streetwear
 - Fashion
-- E-commerce
+- E-Commerce
 - Retail
-- Direct-to-Consumer
+- Direct to Consumer
 - Consumer Goods
 - Egypt
 website: https://inyourshoe.com

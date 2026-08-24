@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Haven Connect
 nav: Providers
 network: true
-overview: 'Haven Connect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Affordable Housing, Property Management, PropTech, and Real Estate.
+overview: 'Haven Connect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Affordable Housing, Property Management, PropTech, and Real-Estate.
 
 
   Haven Connect''s developer surface includes signup flow, support, pricing, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 13.9
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -96,9 +96,9 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 15.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haven-connect/refs/heads/main/screenshots/haven-connect-2026-07-25T220802.png
 slug: haven-connect
@@ -107,9 +107,9 @@ tags:
 - Affordable Housing
 - Property Management
 - PropTech
-- Real Estate
+- Real-Estate
 - Housing
 - Waitlist Management
-- SaaS
+- Software-as-a-Service
 website: https://havenconnect.com/
 ---

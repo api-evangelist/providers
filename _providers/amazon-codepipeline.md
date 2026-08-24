@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -2770,9 +2770,9 @@ jsonld:
   slug: amazon-codepipeline-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: amazon-codepipeline-mcp.yml
-  slug: amazon-codepipeline-mcpyml
+- description: No dedicated first-party hosted MCP server for Amazon CodePipeline was found. AWS ships general-purpose MCP servers via AWS Labs (github.com/awslabs/mcp), but none is CodePipeline-specific. The tool l
+  name: Amazon CodePipeline MCP Server
+  slug: amazon-codepipeline-mcp-server
 modified: '2026-06-20'
 name: Amazon CodePipeline
 nav: Providers
@@ -2809,18 +2809,18 @@ rules:
   slug: amazon-codepipeline-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: -5.2
+  composite: 54.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 73.3
     developer_ergonomics: 52.4
     discoverability: 68.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 18.4
-  previous_composite: 58.8
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2830,9 +2830,9 @@ score:
       marker_coverage: 0.0
       total: 41
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/screenshots/amazon-codepipeline-2026-07-25T195959.png
 security:
 - kind: authentication

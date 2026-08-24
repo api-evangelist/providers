@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ modified: '2026-05-08'
 name: The Graph
 nav: Providers
 network: true
-overview: 'The Graph publishes 1 API on the [APIs.io](https://apis.io/) network: Subgraphs API. Tagged areas include Web3, Indexing, GraphQL, Subgraphs, and Multi-chain.
+overview: 'The Graph publishes 1 API on the [APIs.io](https://apis.io/) network: Subgraphs API. Tagged areas include Web3, Indexing, GraphQL, Subgraphs, and Multi-Chain.
 
 
   The Graph''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
@@ -146,7 +146,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.0
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -156,7 +156,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.4
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -164,8 +164,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-graph/refs/heads/main/screenshots/the-graph-2026-06-20T195224.png
 security:
@@ -187,6 +187,6 @@ tags:
 - Indexing
 - GraphQL
 - Subgraphs
-- Multi-chain
+- Multi-Chain
 website: https://thegraph.com/
 ---

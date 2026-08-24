@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -307,8 +307,8 @@ image: https://cdn.kondukto.io/img/logo/a990cbe5-f31f-49a0-a135-2ea0b7abb0ec.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kondukto-mcp.yml
-  slug: kondukto-mcpyml
+  name: Kondukto MCP Server
+  slug: kondukto-mcp-server
 modified: '2026-07-19'
 name: Kondukto
 nav: Providers
@@ -328,7 +328,7 @@ random_paper: 18
 score:
   band: strong
   composite: 63.0
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -338,7 +338,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 66.5
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -349,8 +349,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/screenshots/kondukto-2026-07-25T224148.png
 security:

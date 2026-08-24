@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -295,7 +295,7 @@ modified: '2026-06-13'
 name: Mangopay
 nav: Providers
 network: true
-overview: 'Mangopay publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Client (Platform) API, Client Wallets API, and 21 more. Tagged areas include Payments, Marketplace Payments, Digital Wallets, KYC, and KYB.
+overview: 'Mangopay publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Client (Platform) API, Client Wallets API, and 21 more. Tagged areas include Payments, Marketplace Payments, Digital Wallet, KYC, and KYB.
 
 
   The Mangopay catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -330,7 +330,7 @@ scopes:
 score:
   band: developing
   composite: 43.9
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -340,7 +340,7 @@ score:
     discoverability: 68.5
     governance: 7.6
     operational_transparency: 26.3
-  previous_composite: 49.2
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -354,9 +354,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/screenshots/mangopay-2026-06-20T184919.png
 security:
 - kind: authentication
@@ -371,7 +371,7 @@ slug: mangopay
 tags:
 - Payments
 - Marketplace Payments
-- Digital Wallets
+- Digital Wallet
 - KYC
 - KYB
 - Fund Transfers

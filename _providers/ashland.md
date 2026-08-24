@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Ashland''s digital product finder tool enables customers to search and filter the specialty chemicals portfolio by application, industry, function, and chemistry type to identify the right ingredients '
@@ -79,7 +79,7 @@ modified: '2026-04-19'
 name: Ashland
 nav: Providers
 network: true
-overview: 'Ashland publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Specialty Chemicals, Pharmaceutical, Personal Care, and Industrial.
+overview: 'Ashland publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Specialty Chemicals, Pharmaceuticals, Personal Care, and Industrial.
 
 
   Ashland''s developer surface includes developer portal, support, and 2 more developer resources.'
@@ -111,7 +111,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -121,9 +121,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -134,7 +134,7 @@ slug: ashland
 tags:
 - Chemicals
 - Specialty Chemicals
-- Pharmaceutical
+- Pharmaceuticals
 - Personal Care
 - Industrial
 - Fortune 500

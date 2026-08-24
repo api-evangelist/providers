@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 14
 common:
@@ -87,7 +87,7 @@ modified: '2026-05-16'
 name: Accord
 nav: Providers
 network: true
-overview: 'Accord is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Insurance, United Kingdom, and Mortgages.
+overview: 'Accord is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Insurance, United Kingdom, and Mortgages.
 
 
   Accord''s developer surface includes authentication and 3 more developer resources.'
@@ -103,7 +103,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.7
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -113,19 +113,19 @@ score:
     discoverability: 31.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 18.4
+  previous_composite: 15.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: accord
 tags:
-- Financial Services
+- Financial-Services
 - Insurance
 - United Kingdom
 - Mortgages

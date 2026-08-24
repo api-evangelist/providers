@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -624,18 +624,18 @@ scopes:
   summary_line: 10 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 77.7
-  delta: -0.6
+  composite: 78.7
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
     contract_governance: 41.7
     contract_quality: 74.3
     developer_ergonomics: 60.1
-    discoverability: 66.7
+    discoverability: 75.9
     governance: 41.7
     operational_transparency: 84.2
-  previous_composite: 78.3
+  previous_composite: 78.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -652,8 +652,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/screenshots/listrak-2026-06-20T184559.png
 security:
@@ -683,7 +683,7 @@ tags:
 - Push Notifications
 - Data Import
 - Privacy
-- Ecommerce
+- E-Commerce
 - Customer Data
 - Transactional Messaging
 - Segmentation

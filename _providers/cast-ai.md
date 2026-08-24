@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -365,7 +365,7 @@ modified: '2026-05-19'
 name: CAST AI
 nav: Providers
 network: true
-overview: 'CAST AI publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Enabler API, Allocation Groups API, Autoscaler API, and 14 more. Tagged areas include Autoscaling, Cloud Infrastructure, Cost Optimization, DevOps, and FinOps.
+overview: 'CAST AI publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Enabler API, Allocation Groups API, Autoscaler API, and 14 more. Tagged areas include Auto-Scaling, Cloud Infrastructure, Cost Optimization, DevOps, and FinOps.
 
 
   The CAST AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -395,7 +395,7 @@ rules:
 score:
   band: developing
   composite: 47.1
-  delta: -11.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -405,7 +405,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 47.4
-  previous_composite: 58.6
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -413,9 +413,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/screenshots/cast-ai-2026-06-20T174036.png
 security:
 - kind: authentication
@@ -428,7 +428,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: cast-ai
 tags:
-- Autoscaling
+- Auto-Scaling
 - Cloud Infrastructure
 - Cost Optimization
 - DevOps

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ modified: '2026-05-19'
 name: Amazon WAF
 nav: Providers
 network: true
-overview: 'Amazon WAF publishes 3 APIs on the [APIs.io](https://apis.io/) network: IP Sets API, Rule Groups API, and Web ACLs API. Tagged areas include Bot Management, Ddos Protection, Security, WAF, and Web Application Firewall.
+overview: 'Amazon WAF publishes 3 APIs on the [APIs.io](https://apis.io/) network: IP Sets API, Rule Groups API, and Web ACLs API. Tagged areas include Bot Management, DDoS Protection, Security, WAF, and Web Application Firewall.
 
 
   The Amazon WAF catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -270,18 +270,18 @@ rules:
   slug: amazon-waf-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: -7.2
+  composite: 50.8
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.7
     developer_ergonomics: 50.0
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.5
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -289,9 +289,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/screenshots/amazon-waf-2026-06-20T171845.png
 security:
 - kind: authentication
@@ -313,7 +313,7 @@ security:
 slug: amazon-waf
 tags:
 - Bot Management
-- Ddos Protection
+- DDoS Protection
 - Security
 - WAF
 - Web Application Firewall

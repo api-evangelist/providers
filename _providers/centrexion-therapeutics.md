@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Comment collection — one item, the default WordPress sample comment on the placeholder post.
@@ -181,7 +181,7 @@ modified: '2026-08-09'
 name: Centrexion Therapeutics
 nav: Providers
 network: true
-overview: 'Centrexion Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 7 more. Tagged areas include Company, biopharmaceutical, pharmaceuticals, chronic-pain, and non-opioid-analgesics.
+overview: 'Centrexion Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 7 more. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Chronic Pain, and non-opioid-analgesics.
 
 
   Centrexion Therapeutics'' developer surface includes authentication and 20 more developer resources.'
@@ -189,7 +189,7 @@ random_paper: 14
 score:
   band: developing
   composite: 39.8
-  delta: 9.1
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 30.7
+  previous_composite: 39.8
   provenance:
     conformance: derived
     contracts:
@@ -214,9 +214,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Centrexion Therapeutics Authentication
@@ -229,14 +229,14 @@ security:
 slug: centrexion-therapeutics
 tags:
 - Company
-- biopharmaceutical
-- pharmaceuticals
-- chronic-pain
+- Biopharmaceutical
+- Pharmaceuticals
+- Chronic Pain
 - non-opioid-analgesics
-- immunology
+- Immunology
 - inflammation
-- clinical-trials
-- life-sciences
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://centrexion.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-06-13'
 name: Finlight
 nav: Providers
 network: true
-overview: 'Finlight publishes 2 APIs on the [APIs.io](https://apis.io/) network: Articles API and Sources API. Tagged areas include Financial News, Sentiment Analysis, Market Data, Equities, and Currencies.
+overview: 'Finlight publishes 2 APIs on the [APIs.io](https://apis.io/) network: Articles API and Sources API. Tagged areas include Financial News, Sentiment Analysis, Market Data, Equities, and Currency.
 
 
   The Finlight catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -184,7 +184,7 @@ rules:
 score:
   band: developing
   composite: 39.9
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -194,7 +194,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 44.3
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -208,8 +208,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/screenshots/finlight-2026-06-20T181218.png
 security:
@@ -227,9 +227,9 @@ tags:
 - Sentiment Analysis
 - Market Data
 - Equities
-- Currencies
+- Currency
 - Commodities
 - Real-Time
-- Webhooks
+- Webhook
 - WebSocket
 ---

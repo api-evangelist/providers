@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,8 +196,8 @@ image: https://www.dragos.com/wp-content/uploads/2021/06/dragos-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: dragos-mcp.yml
-  slug: dragos-mcpyml
+  name: Dragos MCP Server
+  slug: dragos-mcp-server
 modified: '2026-07-18'
 name: Dragos
 nav: Providers
@@ -210,7 +210,7 @@ random_paper: 10
 score:
   band: developing
   composite: 47.6
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -220,7 +220,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 46.9
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -231,8 +231,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/screenshots/dragos-2026-07-25T212343.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -163,8 +163,8 @@ image: https://cdn.prod.website-files.com/6670a4d559962296d4e052c9/669eb1e525067
 layout: provider
 mcp_servers:
 - description: ''
-  name: casap-mcp.yml
-  slug: casap-mcpyml
+  name: Casap MCP Server
+  slug: casap-mcp-server
 modified: '2026-07-18'
 name: Casap
 nav: Providers
@@ -177,7 +177,7 @@ random_paper: 16
 score:
   band: developing
   composite: 44.1
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -187,7 +187,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 42.8
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,8 +204,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/screenshots/casap-2026-07-25T204712.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public OAuth2 / OpenID Connect authorization server (Ory-style) backing the Refectory (Dejbox) consumer and B2B applications. Advertises a standards-compliant OpenID discovery document with authorizat
@@ -90,7 +90,7 @@ scopes:
 score:
   band: emerging
   composite: 12.6
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -100,11 +100,11 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 12.1
+  previous_composite: 12.6
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dejbox/refs/heads/main/screenshots/dejbox-2026-07-25T211637.png
 security:
@@ -125,7 +125,7 @@ tags:
 - B2B
 - France
 - Meal Delivery
-- OAuth2
+- Authentication
 - OpenID Connect
 website: https://www.refectory.fr/
 ---

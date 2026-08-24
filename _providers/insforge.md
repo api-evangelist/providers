@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The Admin API from Insforge — 54 operation(s) for admin.
@@ -245,14 +245,14 @@ description: InsForge is an open-source (Apache-2.0), agent-native cloud infrast
 image: https://insforge.dev/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: insforge-mcp.yml
-  slug: insforge-mcpyml
+- description: Official Model Context Protocol server for InsForge, exposing InsForge backend operations (database, auth, storage, functions, AI gateway, realtime, payments, deployments) as MCP tools for MCP-compati
+  name: Insforge MCP Server
+  slug: insforge-mcp-server
 modified: '2026-07-19'
 name: Insforge
 nav: Providers
 network: true
-overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Channels API, Client API, and 8 more. Tagged areas include Company, Backend as a Service, Agent Native, Cloud Infrastructure, and Database.
+overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Channels API, Client API, and 8 more. Tagged areas include Company, Backend-as-a-Service, agent-native, Cloud Infrastructure, and Database.
 
 
   Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
@@ -265,7 +265,7 @@ scopes:
 score:
   band: strong
   composite: 56.8
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -275,7 +275,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 54.1
+  previous_composite: 56.8
   provenance:
     conformance: derived
     contracts:
@@ -291,8 +291,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:
@@ -311,8 +311,8 @@ security:
 slug: insforge
 tags:
 - Company
-- Backend as a Service
-- Agent Native
+- Backend-as-a-Service
+- agent-native
 - Cloud Infrastructure
 - Database
 - Authentication
@@ -321,8 +321,8 @@ tags:
 - Edge Functions
 - AI Gateway
 - Payments
-- Realtime
-- Open Source
+- Real-Time
+- Open-Source
 - Y Combinator
 website: https://insforge.dev
 ---

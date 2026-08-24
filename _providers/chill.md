@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,13 +110,13 @@ image: https://chill.com/cdn/shop/files/A_Marketplace_to_Help_You_Beat_Stress_an
 layout: provider
 mcp_servers:
 - description: ''
-  name: chill-mcp.yml
-  slug: chill-mcpyml
+  name: Chill MCP Server
+  slug: chill-mcp-server
 modified: '2026-07-18'
 name: Chill
 nav: Providers
 network: true
-overview: 'Chill is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wellness, Supplements, E-commerce, and Marketplace.
+overview: 'Chill is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wellness, Supplements, E-Commerce, and Marketplace.
 
 
   Chill''s developer surface includes documentation, authentication, engineering blog, support, and 12 more developer resources.'
@@ -128,18 +128,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.2
-  delta: -1.6
+  composite: 25.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 25.8
+  previous_composite: 25.3
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -150,8 +150,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chill/refs/heads/main/screenshots/chill-2026-08-07T163311.png
 security:
@@ -168,7 +168,7 @@ tags:
 - Company
 - Wellness
 - Supplements
-- E-commerce
+- E-Commerce
 - Marketplace
 - Health
 - Agentic Commerce

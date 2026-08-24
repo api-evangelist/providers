@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -257,13 +257,13 @@ image: https://github.com/Cerebras.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cerebras-systems-mcp.yml
-  slug: cerebras-systems-mcpyml
+  name: Cerebras Systems MCP Server
+  slug: cerebras-systems-mcp-server
 modified: '2026-07-18'
 name: Cerebras Systems
 nav: Providers
 network: true
-overview: 'Cerebras Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Models API, and 2 more. Tagged areas include Company, Ai Infrastructure, Artificial Intelligence, Machine Learning, and Inference.
+overview: 'Cerebras Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Models API, and 2 more. Tagged areas include Company, AI Infrastructure, Artificial Intelligence, Machine-Learning, and Inference.
 
 
   Cerebras Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
@@ -279,7 +279,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.2
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -289,7 +289,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 64.3
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,8 +300,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:
@@ -320,9 +320,9 @@ security:
 slug: cerebras-systems
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - Large Language Models
 - Developer Tools

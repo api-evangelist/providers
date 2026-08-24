@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The WaniWani AI-distribution platform and its hosted MCP server — build MCP funnels with the open-source SDK/CLI, operate environments, API keys, analytics and sessions via the OAuth 2.1 MCP server.
@@ -174,14 +174,14 @@ description: 'Waniwani is an AI distribution platform: it helps companies build,
 image: https://compliance.waniwani.ai/brand/logo
 layout: provider
 mcp_servers:
-- description: ''
-  name: waniwani-mcp.yml
-  slug: waniwani-mcpyml
+- description: WaniWani's own hosted MCP server for operating the WaniWani platform conversationally from Claude, Cursor, or ChatGPT (manage environments, API keys, analytics digests, session breakdowns). This is di
+  name: Waniwani MCP Server
+  slug: waniwani-mcp-server
 modified: '2026-07-21'
 name: Waniwani
 nav: Providers
 network: true
-overview: 'Waniwani publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Model Context Protocol, AI Distribution, and Conversational AI.
+overview: 'Waniwani publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, MCP, AI Distribution, and Conversational AI.
 
 
   Waniwani''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 26 more developer resources.'
@@ -194,7 +194,7 @@ scopes:
 score:
   band: developing
   composite: 48.1
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -204,7 +204,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 50.2
+  previous_composite: 48.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -215,8 +215,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/screenshots/waniwani-2026-08-17T082836.png
 security:
@@ -240,7 +240,7 @@ slug: waniwani
 tags:
 - Company
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 - AI Distribution
 - Conversational AI
 - Lead Generation

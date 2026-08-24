@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -264,14 +264,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rybbit.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rybbit-mcp.yml
-  slug: rybbit-mcpyml
+- description: Rybbit ships a first-party HOSTED (remote) Model Context Protocol server as part of the product — the same server code is in the AGPL-3.0 repository, so a self-hosted instance exposes it at <BASE_URL>
+  name: Rybbit MCP Server
+  slug: rybbit-mcp-server
 modified: '2026-08-13'
 name: Rybbit
 nav: Providers
 network: true
-overview: 'Rybbit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analytics API, Event Tracking API, and Sessions API. Tagged areas include Analytics, Web Analytics, Product Analytics, Privacy, and Open Source.
+overview: 'Rybbit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analytics API, Event Tracking API, and Sessions API. Tagged areas include Analytics, Web Analytics, Product Analytics, Privacy, and Open-Source.
 
 
   Rybbit''s developer surface includes authentication, engineering blog, documentation, changelog, sandbox, API reference, getting-started guide, and 40 more developer resources.'
@@ -292,7 +292,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.2
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -302,7 +302,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 70.7
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -313,8 +313,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/screenshots/rybbit-2026-08-17T080417.png
 security:
@@ -340,7 +340,7 @@ tags:
 - Web Analytics
 - Product Analytics
 - Privacy
-- Open Source
+- Open-Source
 - Cookieless
 website: https://www.rybbit.io
 ---

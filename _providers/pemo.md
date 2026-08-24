@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: Pemo
 nav: Providers
 network: true
-overview: 'Pemo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Corporate Cards, Spend Management, and Expense Management.
+overview: 'Pemo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Corporate Cards, Spend Management, and Expense Management.
 
 
   Pemo''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 13.8
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -94,15 +94,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.2
+  previous_composite: 13.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -112,7 +112,7 @@ security:
 slug: pemo
 tags:
 - Company
-- FinTech
+- Fintech
 - Corporate Cards
 - Spend Management
 - Expense Management

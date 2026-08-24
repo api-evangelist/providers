@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 311
   human_in_the_loop: 5
@@ -654,7 +654,7 @@ modified: '2026-07-25'
 name: Spree Commerce
 nav: Providers
 network: true
-overview: 'Spree Commerce publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Account / Address API, Account API, Account / Credit Cards API, and 75 more. Tagged areas include Commerce, Headless, eCommerce, Open Source, and Ruby on Rails.
+overview: 'Spree Commerce publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Account / Address API, Account API, Account / Credit Cards API, and 75 more. Tagged areas include Commerce, Headless, E-Commerce, Open-Source, and Ruby on Rails.
 
 
   Spree Commerce''s developer surface includes authentication, engineering blog, documentation, API reference, GitHub presence, pricing, release notes, and 7 more developer resources.'
@@ -670,7 +670,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.1
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -680,7 +680,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 40.5
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -688,8 +688,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 78
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree-commerce/refs/heads/main/screenshots/spree-commerce-2026-06-20T194400.png
 security:
@@ -705,8 +705,8 @@ slug: spree-commerce
 tags:
 - Commerce
 - Headless
-- eCommerce
-- Open Source
+- E-Commerce
+- Open-Source
 - Ruby on Rails
 - Ruby
 - TypeScript

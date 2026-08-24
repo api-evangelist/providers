@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Core Hibernate ORM framework for object-relational mapping.
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.9
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -125,9 +125,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 14.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibernate/refs/heads/main/screenshots/hibernate-2026-06-20T182721.png
 security:

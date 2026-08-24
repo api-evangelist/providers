@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Partner-facing REST API for the Trax retail intelligence platform: master data (stores, products, regions, retailers, targets, audit cycle sets), visit planning (routes, visit types, tasks, assortment'
@@ -113,7 +113,7 @@ modified: '2026-07-21'
 name: Trax
 nav: Providers
 network: true
-overview: 'Trax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Retail, Computer Vision, and Image Recognition.
+overview: 'Trax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Retail, Computer-Vision, and Image Recognition.
 
 
   Trax''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 12 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 25.6
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -131,11 +131,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.0
+  previous_composite: 25.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -151,11 +151,11 @@ tags:
 - Company
 - Enterprise
 - Retail
-- Computer Vision
+- Computer-Vision
 - Image Recognition
 - CPG
 - Retail Execution
 - Merchandising
-- SaaS
+- Software-as-a-Service
 website: https://traxretail.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -332,7 +332,7 @@ modified: '2026-04-17'
 name: Instagram
 nav: Providers
 network: true
-overview: 'Instagram publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Hashtags API, Insights API, and 4 more. Tagged areas include Instagram, Meta, Photos, Social Media, and Videos.
+overview: 'Instagram publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Hashtags API, Insights API, and 4 more. Tagged areas include Instagram, Meta, Photos, Social-Media, and Videos.
 
 
   The Instagram catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -376,19 +376,19 @@ scopes:
   slug: instagram-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.9
-  delta: -13.0
+  band: developing
+  composite: 39.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 62.1
     developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 51.9
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -396,9 +396,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/screenshots/instagram-2026-06-20T183411.png
 security:
 - kind: authentication
@@ -423,7 +423,7 @@ tags:
 - Instagram
 - Meta
 - Photos
-- Social Media
+- Social-Media
 - Videos
 - Content Publishing
 use_cases:

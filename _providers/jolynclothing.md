@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Shopify-served Universal Commerce Protocol MCP endpoint for the JOLYN store, enabling buyer-approved agent-driven catalog search, cart, and checkout. Advertised in /.well-known/ucp and documented in /
@@ -83,8 +83,8 @@ image: https://cdn.shopify.com/s/files/1/0703/0099/files/JOLYN-LOGO-Black.png?he
 layout: provider
 mcp_servers:
 - description: ''
-  name: jolynclothing-mcp.yml
-  slug: jolynclothing-mcpyml
+  name: JOLYN MCP Server
+  slug: jolyn-mcp-server
 modified: '2026-07-19'
 name: JOLYN
 nav: Providers
@@ -101,22 +101,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 14.2
-  delta: -1.5
+  composite: 15.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.7
+  previous_composite: 15.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jolynclothing/refs/heads/main/screenshots/jolynclothing-2026-08-07T171017.png
 security:
@@ -135,7 +135,7 @@ tags:
 - E-Commerce
 - Apparel
 - Swimwear
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 - Agentic Commerce
 website: https://jolyn.com

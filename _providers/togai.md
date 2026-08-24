@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -377,7 +377,7 @@ modified: '2026-05-19'
 name: Togai
 nav: Providers
 network: true
-overview: 'Togai publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AddOns API, Aliases API, and 22 more. Tagged areas include Billing, Metering, Usage-Based Pricing, Revenue Management, and SaaS.
+overview: 'Togai publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AddOns API, Aliases API, and 22 more. Tagged areas include Billing, Metering, Usage-Based Pricing, Revenue Management, and Software-as-a-Service.
 
 
   The Togai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -417,18 +417,18 @@ rules:
   slug: togai-rules
 score:
   band: developing
-  composite: 47.0
-  delta: -6.6
+  composite: 47.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 69.4
     developer_ergonomics: 45.2
     discoverability: 81.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 53.6
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -436,9 +436,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/togai/refs/heads/main/screenshots/togai-2026-06-20T195431.png
 security:
 - kind: authentication
@@ -455,7 +455,7 @@ tags:
 - Metering
 - Usage-Based Pricing
 - Revenue Management
-- SaaS
+- Software-as-a-Service
 - Fintech
 website: https://www.togai.com/
 ---

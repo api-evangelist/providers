@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Model Context Protocol endpoint that Kitopi''s Wix-hosted website exposes for agentic AI access. It is a platform-provided (Wix) site assistant server rather than a Kitopi product API: it lets an a'
@@ -151,13 +151,13 @@ image: https://static.wixstatic.com/media/eef487_23715ab360904fa2b3be013b50cad3d
 layout: provider
 mcp_servers:
 - description: ''
-  name: kitopi-mcp.yml
-  slug: kitopi-mcpyml
+  name: Site Visitor Assistant for site "Kitopi"
+  slug: site-visitor-assistant-for-site-kitopi
 modified: '2026-07-19'
 name: Kitopi
 nav: Providers
 network: true
-overview: 'Kitopi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Cloud Kitchens, and Restaurants.
+overview: 'Kitopi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Cloud Kitchens, and Restaurant.
 
 
   Kitopi''s developer surface includes documentation, engineering blog, support, authentication, and 23 more developer resources.'
@@ -165,7 +165,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 20.1
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -175,13 +175,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 20.6
+  previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitopi/refs/heads/main/screenshots/kitopi-2026-07-25T223911.png
 security:
@@ -199,7 +199,7 @@ tags:
 - Consumer
 - Food and Beverage
 - Cloud Kitchens
-- Restaurants
+- Restaurant
 - Food Delivery
 - Hospitality
 - Middle East

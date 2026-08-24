@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -287,8 +287,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: stannp-mcp.yml
-  slug: stannp-mcpyml
+  name: Stannp MCP Server
+  slug: stannp-mcp-server
 modified: '2026-08-13'
 name: Stannp
 nav: Providers
@@ -323,7 +323,7 @@ rules:
 score:
   band: exemplar
   composite: 80.2
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -333,7 +333,7 @@ score:
     discoverability: 92.6
     governance: 40.2
     operational_transparency: 68.4
-  previous_composite: 79.9
+  previous_composite: 80.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -350,8 +350,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/screenshots/stannp-2026-06-20T194506.png
 security:
@@ -382,7 +382,7 @@ tags:
 - Campaigns
 - Address Verification
 - SMS
-- Webhooks
+- Webhook
 - Mailing Lists
 - Fulfillment
 website: https://www.stannp.com

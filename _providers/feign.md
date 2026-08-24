@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: Feign Core is the base library that processes annotated Java interfaces into templated HTTP requests. It defines the contract, encoder, decoder, and client abstractions used across the entire OpenFeig
@@ -114,7 +114,7 @@ modified: '2026-04-28'
 name: Feign
 nav: Providers
 network: true
-overview: 'Feign publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HTTP Client, Java, JVM, Open Source, and REST.
+overview: 'Feign publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HTTP Client, Java, JVM, Open-Source, and REST.
 
 
   Feign''s developer surface includes documentation, release notes, and 5 more developer resources.'
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.0
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -140,9 +140,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 15.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feign/refs/heads/main/screenshots/feign-2026-06-20T181136.png
 slug: feign
@@ -150,7 +150,7 @@ tags:
 - HTTP Client
 - Java
 - JVM
-- Open Source
+- Open-Source
 - REST
-- SDKs
+- SDK
 ---

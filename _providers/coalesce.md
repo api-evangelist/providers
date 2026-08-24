@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ modified: '2026-06-13'
 name: Coalesce
 nav: Providers
 network: true
-overview: 'Coalesce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Environments API, Git Accounts API, Nodes API, and 4 more. Tagged areas include Data Transformation, Snowflake, Data Pipelines, Data Catalog, and Data Quality.
+overview: 'Coalesce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Environments API, Git Accounts API, Nodes API, and 4 more. Tagged areas include Data Transformation, Snowflake, Data Pipeline, Data Catalog, and Data Quality.
 
 
   The Coalesce catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -216,7 +216,7 @@ rules:
 score:
   band: developing
   composite: 44.8
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -226,7 +226,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 49.9
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -234,9 +234,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/screenshots/coalesce-2026-06-20T174640.png
 security:
 - kind: authentication
@@ -255,10 +255,10 @@ slug: coalesce
 tags:
 - Data Transformation
 - Snowflake
-- Data Pipelines
+- Data Pipeline
 - Data Catalog
 - Data Quality
 - Analytics
-- AI
+- Artificial Intelligence
 website: https://coalesce.io
 ---

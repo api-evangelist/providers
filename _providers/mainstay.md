@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: AdmitHub/Mainstay REST API v1.0 for syncing student and employee records and engagement data between Mainstay and external systems, with Bearer API-token authentication.
@@ -117,7 +117,7 @@ random_paper: 9
 score:
   band: thin
   composite: 28.5
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -127,15 +127,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 26.5
+  previous_composite: 28.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mainstay/refs/heads/main/screenshots/mainstay-2026-07-25T225921.png
 security:
@@ -159,7 +159,7 @@ tags:
 - Higher Education
 - Conversational AI
 - Student Engagement
-- Chatbot
+- Chatbots
 - Messaging
 website: https://www.mainstay.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Membership, subscription, library and course operations.
@@ -110,8 +110,8 @@ image: https://nextbigideaclub.com/wp-content/plugins/helium/themes/helium/favic
 layout: provider
 mcp_servers:
 - description: ''
-  name: next-big-idea-club-mcp.yml
-  slug: next-big-idea-club-mcpyml
+  name: Next Big Idea Club MCP Server
+  slug: next-big-idea-club-mcp-server
 modified: '2026-07-20'
 name: Next Big Idea Club
 nav: Providers
@@ -128,18 +128,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.1
-  delta: 2.3
+  composite: 36.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 12.1
     contract_quality: 50.3
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 12.1
     operational_transparency: 0.0
-  previous_composite: 32.8
+  previous_composite: 36.2
   provenance:
     contracts:
       callable: 100.0
@@ -153,8 +153,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/screenshots/next-big-idea-club-2026-08-07T185200.png
 security:

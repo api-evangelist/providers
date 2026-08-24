@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Whelp
 nav: Providers
 network: true
-overview: 'Whelp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Support, Omnichannel, Messaging, and Live Chat.
+overview: 'Whelp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer-Support, Omnichannel, Messaging, and Live Chat.
 
 
   Whelp''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 14.4
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -98,9 +98,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -110,13 +110,13 @@ security:
 slug: whelp
 tags:
 - Company
-- Customer Support
+- Customer-Support
 - Omnichannel
 - Messaging
 - Live Chat
 - WhatsApp
 - CRM
-- Chatbot
+- Chatbots
 - Customer Communication
 website: https://whelp.co
 ---

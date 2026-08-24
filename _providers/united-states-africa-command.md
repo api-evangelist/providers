@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,7 +89,7 @@ modified: '2026-05-03'
 name: United States Africa Command
 nav: Providers
 network: true
-overview: 'United States Africa Command is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Military, Defense, and Africa.
+overview: 'United States Africa Command is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Military, Defense, and Africa.
 
 
   The United States Africa Command catalog on APIs.io includes 1 JSON-LD context.
@@ -100,7 +100,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 7.8
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,15 +110,15 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.3
+  previous_composite: 7.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-africa-command/refs/heads/main/screenshots/united-states-africa-command-2026-06-20T200045.png
 security:
@@ -128,7 +128,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: united-states-africa-command
 tags:
-- Federal Government
+- Federal-Government
 - Military
 - Defense
 - Africa

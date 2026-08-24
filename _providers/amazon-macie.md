@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -4178,7 +4178,7 @@ modified: '2026-05-19'
 name: Amazon Macie
 nav: Providers
 network: true
-overview: 'Amazon Macie publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Admin#adminAccountId API, Admin API, Administrator API, and 21 more. Tagged areas include Data Security, Sensitive Data, Privacy, Compliance, and Machine Learning.
+overview: 'Amazon Macie publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Admin#adminAccountId API, Admin API, Administrator API, and 21 more. Tagged areas include Data Security, Sensitive Data, Privacy, Compliance, and Machine-Learning.
 
 
   The Amazon Macie catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -4218,18 +4218,18 @@ rules:
   slug: amazon-macie-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: -6.3
+  composite: 51.9
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.5
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.8
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -4237,9 +4237,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/screenshots/amazon-macie-2026-06-20T171730.png
 security:
 - kind: authentication
@@ -4264,7 +4264,7 @@ tags:
 - Sensitive Data
 - Privacy
 - Compliance
-- Machine Learning
+- Machine-Learning
 - S3
 use_cases:
 - description: Discover and inventory personal data across S3 to support GDPR data mapping and compliance reporting.

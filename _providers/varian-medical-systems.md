@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -267,18 +267,18 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.3
-  delta: -3.2
+  composite: 37.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 66.2
     developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 40.5
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -292,8 +292,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/screenshots/varian-medical-systems-2026-06-20T200814.png
 security:

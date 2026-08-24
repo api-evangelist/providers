@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Alternative-data aggregation for credit underwriting and scoring. Aggregates over 50 data sources into on-demand data requests that feed borrower enrichment and decisioning.
@@ -168,9 +168,9 @@ description: 'AltScore is a B2B credit infrastructure platform for Latin America
 image: https://altscore.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: altscore-mcp.yml
-  slug: altscore-mcpyml
+- description: 'Candidate MCP tool surface for AltScore, one tool per core CLI resource action. Not published — provided as a governance/agent-readiness starting point. The provider''s shipped agent access path today '
+  name: AltScore MCP Server
+  slug: altscore-mcp-server
 modified: '2026-07-17'
 name: AltScore
 nav: Providers
@@ -191,7 +191,7 @@ scopes:
 score:
   band: developing
   composite: 53.8
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -201,7 +201,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 51.1
+  previous_composite: 53.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -212,8 +212,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altscore/refs/heads/main/screenshots/altscore-2026-07-25T195844.png
 security:
@@ -238,7 +238,7 @@ tags:
 - Credit Scoring
 - Underwriting
 - KYC
-- Financial Services
+- Financial-Services
 - Latin America
 - Data Aggregation
 - Workflows

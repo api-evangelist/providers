@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -193,8 +193,8 @@ image: https://arcticwolf.com/wp-content/uploads/2021/11/AW_LOGO_REVERSE-334.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: arctic-wolf-mcp.yml
-  slug: arctic-wolf-mcpyml
+  name: Arctic Wolf MCP Server
+  slug: arctic-wolf-mcp-server
 modified: '2026-07-18'
 name: Arctic Wolf
 nav: Providers
@@ -206,18 +206,18 @@ overview: 'Arctic Wolf publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 2
 score:
   band: developing
-  composite: 45.0
-  delta: -6.9
+  composite: 46.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 16.7
     contract_quality: 57.3
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 51.9
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,9 +228,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/screenshots/arctic-wolf-2026-07-25T201101.png
 security:
 - kind: authentication

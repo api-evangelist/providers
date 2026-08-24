@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ modified: '2026-06-20'
 name: Langtrace AI
 nav: Providers
 network: true
-overview: 'Langtrace AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Projects API, Prompt Registry API, and Traces API. Tagged areas include AI, LLM, Observability, OpenTelemetry, and Tracing.
+overview: 'Langtrace AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Projects API, Prompt Registry API, and Traces API. Tagged areas include Artificial Intelligence, LLM, Observability, OpenTelemetry, and Tracing.
 
 
   Langtrace AI''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.8
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -145,7 +145,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.8
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/screenshots/langtrace-2026-06-20T184310.png
 security:
@@ -168,11 +168,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: langtrace
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
 - OpenTelemetry
 - Tracing
-- Open Source
+- Open-Source
 website: https://www.langtrace.ai
 ---

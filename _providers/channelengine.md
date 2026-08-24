@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Integrate the system of your choice (ERP, PIM, WMS, or webstore) with ChannelEngine. Synchronize product content and offers; retrieve, acknowledge and update orders, shipments, returns, cancellations '
@@ -209,13 +209,13 @@ image: https://www.channelengine.com/hubfs/ChannelEngine-Logomark.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: channelengine-mcp.yml
-  slug: channelengine-mcpyml
+  name: ChannelEngine MCP Server
+  slug: channelengine-mcp-server
 modified: '2026-07-18'
 name: ChannelEngine
 nav: Providers
 network: true
-overview: 'ChannelEngine publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Marketplace Integration, Multichannel Commerce, and Order Management.
+overview: 'ChannelEngine publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace Integration, Multi-Channel Commerce, and Order Management.
 
 
   The ChannelEngine catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -226,7 +226,7 @@ random_paper: 15
 score:
   band: strong
   composite: 55.2
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -236,13 +236,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 55.7
+  previous_composite: 55.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/screenshots/channelengine-2026-07-25T205043.png
 security:
@@ -265,14 +265,14 @@ security:
 slug: channelengine
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Marketplace Integration
-- Multichannel Commerce
+- Multi-Channel Commerce
 - Order Management
 - Inventory Management
 - Product Information
 - Retail
-- Webhooks
+- Webhook
 - Netherlands
 website: https://www.channelengine.com/
 ---

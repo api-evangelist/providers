@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Welcome to the Porsche API Portal ... Discover, access, and manage Porsches APIs effortlessly with our centralized platformyour gateway to seamless integration.
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.5
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -105,9 +105,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 13.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/porsche/refs/heads/main/screenshots/porsche-2026-06-20T191922.png
 security:

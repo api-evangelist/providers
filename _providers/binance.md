@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -507,18 +507,18 @@ rules:
   slug: binance-spectral-rules
 score:
   band: developing
-  composite: 41.8
-  delta: -2.6
+  composite: 43.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 67.3
     developer_ergonomics: 50.0
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 44.4
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -532,8 +532,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/screenshots/binance-2026-06-20T173243.png
 security:

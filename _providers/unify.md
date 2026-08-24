@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -298,8 +298,8 @@ image: https://raw.githubusercontent.com/unifygtm/agent-plugins/main/unify/asset
 layout: provider
 mcp_servers:
 - description: ''
-  name: unify-mcp.yml
-  slug: unify-mcpyml
+  name: Unify MCP Server
+  slug: unify-mcp-server
 modified: '2026-08-13'
 name: Unify
 nav: Providers
@@ -328,7 +328,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -338,7 +338,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 67.4
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -349,8 +349,8 @@ score:
       total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/screenshots/unify-2026-08-17T080432.png
 security:
@@ -378,10 +378,10 @@ tags:
 - Data Enrichment
 - Sequences
 - Analytics
-- Tasks
+- Task
 - Bulk API
 - MCP
 - Agent Skills
-- Webhooks
+- Webhook
 website: https://www.unifygtm.com
 ---

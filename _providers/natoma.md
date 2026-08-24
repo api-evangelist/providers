@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -135,36 +135,36 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/natoma.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: natoma-mcp.yml
-  slug: natoma-mcpyml
+  name: Natoma MCP Server
+  slug: natoma-mcp-server
 modified: '2026-07-20'
 name: Natoma
 nav: Providers
 network: true
-overview: 'Natoma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Model Context Protocol, MCP, and AI Agents.
+overview: 'Natoma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, MCP, AI Agents, and Identity.
 
 
   Natoma''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 17 more developer resources.'
 random_paper: 10
 score:
   band: thin
-  composite: 33.8
-  delta: -0.5
+  composite: 34.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 34.3
+  previous_composite: 34.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/screenshots/natoma-2026-08-07T184657.png
 security:
@@ -184,7 +184,6 @@ slug: natoma
 tags:
 - Company
 - Cybersecurity
-- Model Context Protocol
 - MCP
 - AI Agents
 - Identity

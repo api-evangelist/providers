@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -177,13 +177,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/credgenics
 layout: provider
 mcp_servers:
 - description: ''
-  name: credgenics-mcp.yml
-  slug: credgenics-mcpyml
+  name: Credgenics MCP Server
+  slug: credgenics-mcp-server
 modified: '2026-07-18'
 name: Credgenics
 nav: Providers
 network: true
-overview: 'Credgenics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Credit Line API, and Lending API. Tagged areas include Company, Enterprise, Financial Services, Debt Collection, and Loan Recovery.
+overview: 'Credgenics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Credit Line API, and Lending API. Tagged areas include Company, Enterprise, Financial-Services, Debt Collection, and Loan Recovery.
 
 
   The Credgenics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -194,7 +194,7 @@ random_paper: 18
 score:
   band: thin
   composite: 30.8
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -204,7 +204,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 38.8
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -215,9 +215,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/screenshots/credgenics-2026-07-25T210716.png
 security:
 - kind: authentication
@@ -236,11 +236,11 @@ slug: credgenics
 tags:
 - Company
 - Enterprise
-- Financial Services
+- Financial-Services
 - Debt Collection
 - Loan Recovery
 - Lending
-- Collections
+- Collection
 - Fintech
 - India
 website: https://www.credgenics.com/

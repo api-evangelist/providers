@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -153,8 +153,8 @@ image: https://www.skyhighsecurity.com/content/dam/skyhigh/global/logos/skyhigh-
 layout: provider
 mcp_servers:
 - description: ''
-  name: skyhigh-mcp.yml
-  slug: skyhigh-mcpyml
+  name: Skyhigh Security MCP Server
+  slug: skyhigh-security-mcp-server
 modified: '2026-07-21'
 name: Skyhigh Security
 nav: Providers
@@ -172,7 +172,7 @@ scopes:
 score:
   band: thin
   composite: 37.4
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -182,7 +182,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 38.2
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -193,8 +193,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-07-01'
 name: Alloy Automation
 nav: Providers
 network: true
-overview: 'Alloy Automation publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Connectivity API, Credentials API, Events API, and 7 more. Tagged areas include iPaaS, Integration, Unified API, Embedded, and SaaS.
+overview: 'Alloy Automation publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Connectivity API, Credentials API, Events API, and 7 more. Tagged areas include iPaaS, Integration, Unified-API, Embedded, and Software-as-a-Service.
 
 
   Alloy Automation''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.0
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -193,7 +193,7 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 37.9
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/screenshots/alloy-automation-2026-07-25T195811.png
 security:
@@ -218,9 +218,9 @@ slug: alloy-automation
 tags:
 - iPaaS
 - Integration
-- Unified API
+- Unified-API
 - Embedded
-- SaaS
+- Software-as-a-Service
 - Automation
 website: https://runalloy.com
 ---

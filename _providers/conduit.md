@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -507,9 +507,9 @@ description: Conduit is a blockchain infrastructure provider that lets teams des
 image: https://cdn.prod.website-files.com/66697b36164b98f5f5be828b/68556c0d0fcffff1c39b51c8_conduit-og_image-home.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: conduit-mcp.yml
-  slug: conduit-mcpyml
+- description: 'Official hosted MCP server for the Conduit documentation. Connect any MCP client (Claude Code, Cursor, etc.) to search the docs. Verified live: an initialize handshake returns serverInfo fern-docs-mcp'
+  name: Conduit MCP Server
+  slug: conduit-mcp-server
 modified: '2026-07-18'
 name: Conduit
 nav: Providers
@@ -526,7 +526,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.0
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -536,7 +536,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 58.6
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -547,8 +547,8 @@ score:
       total: 52
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/screenshots/conduit-2026-07-25T210242.png
 security:

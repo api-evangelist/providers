@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Frame REST API for payments, payouts, accounts, KYC/identity, disputes, subscriptions, invoices, and usage-based billing. Bearer secret-key auth over HTTPS; page-based pagination; HMAC-SHA256 sign
@@ -157,7 +157,7 @@ modified: '2026-07-19'
 name: Frame Payments
 nav: Providers
 network: true
-overview: 'Frame Payments publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Financial Services, Fintech, and KYC.
+overview: 'Frame Payments publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Financial-Services, Fintech, and KYC.
 
 
   The Frame Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -168,7 +168,7 @@ random_paper: 0
 score:
   band: developing
   composite: 52.3
-  delta: 5.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -178,7 +178,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 46.6
+  previous_composite: 52.3
   provenance:
     conformance: first-party
     skills: first-party
@@ -188,9 +188,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frame-payments/refs/heads/main/screenshots/frame-payments-2026-07-25T215103.png
 security:
 - kind: authentication
@@ -205,7 +205,7 @@ slug: frame-payments
 tags:
 - Company
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - KYC
 - Compliance

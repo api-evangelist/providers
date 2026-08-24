@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -269,7 +269,7 @@ modified: '2026-05-19'
 name: U.S. Treasury Fiscal Data
 nav: Providers
 network: true
-overview: 'U.S. Treasury Fiscal Data publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Exchange Rates API, National Debt API, Securities API, and 1 more. Tagged areas include Federal Government, Finance, Treasury, National Debt, and Exchange Rates.
+overview: 'U.S. Treasury Fiscal Data publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Exchange Rates API, National Debt API, Securities API, and 1 more. Tagged areas include Federal-Government, Finance, Treasury, National Debt, and Exchange Rates.
 
 
   The U.S. Treasury Fiscal Data catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -310,7 +310,7 @@ rules:
 score:
   band: emerging
   composite: 25.5
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -320,7 +320,7 @@ score:
     discoverability: 74.1
     governance: 69.7
     operational_transparency: 10.5
-  previous_composite: 28.0
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     contracts:
@@ -334,8 +334,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/screenshots/u-s-treasury-fiscal-data-2026-06-20T195919.png
 security:
@@ -345,7 +345,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: u-s-treasury-fiscal-data
 tags:
-- Federal Government
+- Federal-Government
 - Finance
 - Treasury
 - National Debt

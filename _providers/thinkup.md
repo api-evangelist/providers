@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,12 +52,12 @@ modified: '2026-07-21'
 name: ThinkUp
 nav: Providers
 network: true
-overview: ThinkUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Social Media, Social Media Analytics, and Open Source.
+overview: ThinkUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Social-Media, Social Media Analytics, and Open-Source.
 random_paper: 15
 score:
   band: minimal
   composite: 5.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -75,16 +75,16 @@ score:
       reason: no_resolvable_host
     - owner: catalog
       reason: never_enriched
-  previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: thinkup
 tags:
 - Company
 - Analytics
-- Social Media
+- Social-Media
 - Social Media Analytics
-- Open Source
+- Open-Source
 - Defunct
 ---

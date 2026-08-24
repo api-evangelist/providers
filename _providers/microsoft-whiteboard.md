@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Microsoft Graph Whiteboard API enables developers to manage Microsoft Whiteboard resources programmatically. Applications can create whiteboards, manage participants, and export whiteboard content
@@ -89,7 +89,7 @@ modified: '2026-04-28'
 name: Microsoft Whiteboard
 nav: Providers
 network: true
-overview: 'Microsoft Whiteboard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Microsoft, Microsoft 365, Visual Collaboration, and Whiteboard.
+overview: 'Microsoft Whiteboard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Microsoft, Microsoft-365, Visual Collaboration, and Whiteboard.
 
 
   Microsoft Whiteboard''s developer surface includes developer portal, documentation, authentication, support, and 6 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.9
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -115,9 +115,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-whiteboard/refs/heads/main/screenshots/microsoft-whiteboard-2026-06-20T185544.png
 security:
@@ -133,7 +133,7 @@ slug: microsoft-whiteboard
 tags:
 - Collaboration
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Visual Collaboration
 - Whiteboard
 website: https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app

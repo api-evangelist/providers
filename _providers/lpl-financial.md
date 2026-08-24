@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,12 +56,12 @@ modified: '2026-04-28'
 name: LPL Financial
 nav: Providers
 network: true
-overview: LPL Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Investment Advisory, Broker-Dealer, and Wealth Management.
+overview: LPL Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Investment Advisory, Broker-Dealer, and Wealth Management.
 random_paper: 4
 score:
   band: minimal
   composite: 0.3
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -71,15 +71,15 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 0.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lpl-financial/refs/heads/main/screenshots/lpl-financial-2026-06-20T184736.png
 security:
@@ -89,7 +89,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: lpl-financial
 tags:
-- Financial Services
+- Financial-Services
 - Investment Advisory
 - Broker-Dealer
 - Wealth Management

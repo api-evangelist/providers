@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 193
   human_in_the_loop: 11
@@ -750,18 +750,18 @@ rules:
   slug: gravitee-rules
 score:
   band: developing
-  composite: 47.2
-  delta: -8.3
+  composite: 47.6
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 59.3
     developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 55.5
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -769,9 +769,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 50
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png
 security:
 - kind: authentication
@@ -805,7 +805,7 @@ tags:
 - LLM Proxy
 - Multi-Gateway Federation
 - Developer Portal
-- Open Source
+- Open-Source
 - Apache 2.0
 website: https://www.gravitee.io/
 ---

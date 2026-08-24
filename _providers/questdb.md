@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-05-08'
 name: QuestDB
 nav: Providers
 network: true
-overview: 'QuestDB publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chk API, Exec API, Exp API, and 3 more. Tagged areas include Database, Time-Series, SQL, Open Source, and Performance.
+overview: 'QuestDB publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chk API, Exec API, Exp API, and 3 more. Tagged areas include Database, Time Series, SQL, Open-Source, and Performance.
 
 
   QuestDB''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.5
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 34.0
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/screenshots/questdb-2026-06-20T192429.png
 security:
@@ -215,9 +215,9 @@ security:
 slug: questdb
 tags:
 - Database
-- Time-Series
+- Time Series
 - SQL
-- Open Source
+- Open-Source
 - Performance
 - ILP
 - PostgreSQL

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 371
   human_in_the_loop: 3
@@ -1439,7 +1439,7 @@ modified: '2026-05-25'
 name: Commerce Layer
 nav: Providers
 network: true
-overview: 'Commerce Layer publishes 148 APIs on the [APIs.io](https://apis.io/) network, including addresses API, adjustments API, adyen_gateways API, and 145 more. Tagged areas include Headless Commerce, Composable Commerce, API-First, Ecommerce, and JSON:API.
+overview: 'Commerce Layer publishes 148 APIs on the [APIs.io](https://apis.io/) network, including addresses API, adjustments API, adyen_gateways API, and 145 more. Tagged areas include Headless Commerce, Composable Commerce, API-First, E-Commerce, and JSON:API.
 
 
   The Commerce Layer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1468,18 +1468,18 @@ rules:
   slug: commerce-layer-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.4
-  delta: 0.3
+  composite: 72.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 9.8
     contract_quality: 74.9
     developer_ergonomics: 78.6
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 71.1
-  previous_composite: 70.1
+  previous_composite: 72.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1493,8 +1493,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png
 security:
@@ -1515,14 +1515,14 @@ tags:
 - Headless Commerce
 - Composable Commerce
 - API-First
-- Ecommerce
+- E-Commerce
 - JSON:API
-- OAuth 2.0
+- Authentication
 - Multi-Market
 - Multi-Currency
 - B2C
 - B2B
-- Subscriptions
+- Subscription
 - Promotions
 - Inventory
 - Order Management

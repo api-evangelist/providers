@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Public market-data API for GRVT — instruments, currencies, supported assets, margin rules, mini/full tickers, orderbook levels, trades, trade history, candlesticks, and funding rates. No authenticatio
@@ -143,8 +143,8 @@ image: https://avatars.githubusercontent.com/u/112316440?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: blue-square-group-limited-mcp.yml
-  slug: blue-square-group-limited-mcpyml
+  name: Blue Square Group Limited MCP Server
+  slug: blue-square-group-limited-mcp-server
 modified: '2026-07-18'
 name: Blue Square Group Limited
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 18
 score:
   band: thin
   composite: 31.9
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 34.2
+  previous_composite: 31.9
   provenance:
     conformance: derived
     mcp: derived
@@ -181,8 +181,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/screenshots/blue-square-group-limited-2026-07-25T203437.png
 security:
@@ -208,6 +208,6 @@ tags:
 - Market Data
 - Blockchain
 - WebSocket
-- Financial Services
+- Financial-Services
 website: https://grvt.io
 ---

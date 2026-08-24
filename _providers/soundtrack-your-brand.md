@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single-endpoint GraphQL API (queries, mutations and websocket subscriptions) for building display, control and monitoring apps on top of Soundtrack — now-playing, playback control, device pairing, sch
@@ -155,8 +155,8 @@ image: https://api.soundtrackyourbrand.com/v2/docs/img/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: soundtrack-your-brand-mcp.yml
-  slug: soundtrack-your-brand-mcpyml
+  name: Soundtrack Your Brand MCP Server
+  slug: soundtrack-your-brand-mcp-server
 modified: '2026-07-21'
 name: Soundtrack Your Brand
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 16
 score:
   band: developing
   composite: 42.4
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -182,14 +182,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 48.6
+  previous_composite: 42.4
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/screenshots/soundtrack-your-brand-2026-08-17T082005.png
 security:
 - kind: authentication
@@ -210,6 +210,5 @@ tags:
 - Retail
 - Hospitality
 - Audio
-- API
 website: https://www.soundtrackyourbrand.com
 ---

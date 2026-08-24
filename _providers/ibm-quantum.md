@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -503,18 +503,18 @@ rules:
   slug: ibm-quantum-rules
 score:
   band: strong
-  composite: 65.1
-  delta: -6.6
+  composite: 65.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.1
     developer_ergonomics: 69.0
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 71.7
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     contracts:
@@ -526,9 +526,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/screenshots/ibm-quantum-2026-06-20T183130.png
 security:
 - kind: authentication

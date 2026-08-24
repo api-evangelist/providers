@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 62
 apis:
 - description: The Action Catalog API from Instana — 5 operation(s) for action catalog.
@@ -413,6 +413,10 @@ collections:
   name: Instana REST API documentation
   slug: open-instana
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -445,14 +449,14 @@ finops:
   slug: instana-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instana.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-21'
 name: Instana
 nav: Providers
 network: true
 overview: 'Instana publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Action Catalog API, Action History API, AI Management API, and 59 more. Tagged areas include APM, Infrastructure, Monitoring, and Observability.
 
 
-  Instana''s developer surface includes documentation, support, and 4 more developer resources.'
+  Instana''s developer surface includes documentation, support, and 5 more developer resources.'
 plans:
 - name: Instana Plans Pricing
   plan_count: 3
@@ -464,26 +468,26 @@ rate_limits:
   slug: instana-rate-limits
 score:
   band: thin
-  composite: 27.3
-  delta: 0.5
+  composite: 26.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 60.9
     developer_ergonomics: 14.3
-    discoverability: 50.0
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.8
+  previous_composite: 26.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 62
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/screenshots/instana-2026-06-20T183421.png
 security:

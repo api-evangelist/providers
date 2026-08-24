@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -470,7 +470,7 @@ jsonld:
   slug: verizon-thingspace-connectivity-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'CANDIDATE, NOT A VERIZON PRODUCT. Verizon publishes no Model Context Protocol server. This is an API Evangelist-derived tool proposal: one tool per real ThingSpace Connectivity Management operationId,'
   name: ThingSpace MCP tool candidate (API Evangelist derived — Verizon operates no MCP server)
   slug: thingspace-mcp-tool-candidate-api-evangelist-derived-verizon-operates-no-mcp-server
 modified: '2026-08-04'
@@ -538,18 +538,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 64.4
-  delta: 2.5
+  composite: 64.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 45.5
     developer_ergonomics: 70.8
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 60.5
-  previous_composite: 61.9
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -566,8 +566,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -285,13 +285,13 @@ image: https://github.com/Oxen-AI.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: oxen-mcp.yml
-  slug: oxen-mcpyml
+  name: Oxen MCP Server
+  slug: oxen-mcp-server
 modified: '2026-07-20'
 name: Oxen
 nav: Providers
 network: true
-overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Ai API, Branches API, Commits API, and 16 more. Tagged areas include Company, Data Version Control, Machine Learning, Artificial Intelligence, and Fine-Tuning.
+overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Ai API, Branches API, Commits API, and 16 more. Tagged areas include Company, Data Version Control, Machine-Learning, Artificial Intelligence, and Fine-Tuning.
 
 
   Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
@@ -299,7 +299,7 @@ random_paper: 1
 score:
   band: developing
   composite: 41.2
-  delta: -10.4
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -309,7 +309,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 51.6
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,9 +320,9 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/screenshots/oxen-2026-08-07T191204.png
 security:
 - kind: authentication
@@ -337,7 +337,7 @@ slug: oxen
 tags:
 - Company
 - Data Version Control
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Fine-Tuning
 - Inference

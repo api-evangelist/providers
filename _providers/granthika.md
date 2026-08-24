@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,9 +81,9 @@ description: Granthika is a writing-software company founded by novelist Vikram 
 image: https://static.wixstatic.com/media/fda06a_feac5f1753e343b1aa0fabb79a399f0f~mv2.avif/v1/fit/w_2500,h_1330,al_c/fda06a_feac5f1753e343b1aa0fabb79a399f0f~mv2.avif
 layout: provider
 mcp_servers:
-- description: ''
-  name: granthika-mcp.yml
-  slug: granthika-mcpyml
+- description: 'Granthika''s public website (granthika.com) is built on Wix, which exposes a hosted "Site Visitor Assistant" Model Context Protocol (MCP) server for agentic access to public site content and installed '
+  name: Granthika Site MCP
+  slug: granthika-site-mcp
 modified: '2026-07-19'
 name: Granthika
 nav: Providers
@@ -96,7 +96,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 15.2
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -106,11 +106,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.5
+  previous_composite: 15.2
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/granthika/refs/heads/main/screenshots/granthika-2026-07-25T220224.png
 security:

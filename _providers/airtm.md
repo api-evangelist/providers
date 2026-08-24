@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -344,7 +344,7 @@ modified: '2026-08-06'
 name: Airtm
 nav: Providers
 network: true
-overview: 'Airtm publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Status API, API Keys API, Bulk Payments API, and 20 more. Tagged areas include payments, payouts, cross-border-payments, fintech, and digital-wallet.
+overview: 'Airtm publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Status API, API Keys API, Bulk Payments API, and 20 more. Tagged areas include Payments, Payouts, Cross-Border Payments, Fintech, and Digital Wallet.
 
 
   The Airtm catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -364,7 +364,7 @@ scopes:
 score:
   band: strong
   composite: 63.1
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -374,7 +374,7 @@ score:
     discoverability: 74.1
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 60.4
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -391,8 +391,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/screenshots/airtm-2026-08-07T161117.png
 security:
@@ -414,20 +414,20 @@ security:
   summary_line: trust center published
 slug: airtm
 tags:
-- payments
-- payouts
-- cross-border-payments
-- fintech
-- digital-wallet
-- stablecoin
-- usdc
-- stellar
-- mass-payouts
-- remittances
-- latin-america
-- emerging-markets
+- Payments
+- Payouts
+- Cross-Border Payments
+- Fintech
+- Digital Wallet
+- Stablecoins
+- USDC
+- Stellar
+- Mass Payouts
+- Remittances
+- Latin America
+- Emerging Markets
 - money-services-business
-- oauth2
-- openid-connect
+- Authentication
+- OpenID Connect
 website: https://www.airtm.com/
 ---

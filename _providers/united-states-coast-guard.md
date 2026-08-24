@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-05-19'
 name: United States Coast Guard
 nav: Providers
 network: true
-overview: 'United States Coast Guard publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Equipment API, Incident Reports API, Port State Information API, and 1 more. Tagged areas include Federal Government, Maritime Safety, Vessel Documentation, Emergency Response, and Law Enforcement.
+overview: 'United States Coast Guard publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Equipment API, Incident Reports API, Port State Information API, and 1 more. Tagged areas include Federal-Government, Maritime Safety, Vessel Documentation, Emergency Response, and Law Enforcement.
 
 
   The United States Coast Guard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -161,18 +161,18 @@ rules:
   slug: united-states-coast-guard-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 26.9
-  delta: -1.8
+  composite: 28.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
+    contract_governance: 39.4
     contract_quality: 60.1
     developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 30.3
+    governance: 39.4
     operational_transparency: 7.9
-  previous_composite: 28.7
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -186,8 +186,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/screenshots/united-states-coast-guard-2026-06-20T200050.png
 security:
@@ -197,7 +197,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: united-states-coast-guard
 tags:
-- Federal Government
+- Federal-Government
 - Maritime Safety
 - Vessel Documentation
 - Emergency Response

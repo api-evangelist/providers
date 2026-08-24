@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Upload files referenced by response fields.
@@ -184,8 +184,8 @@ image: https://raw.githubusercontent.com/dobtco/screendoor-api-docs/master/sourc
 layout: provider
 mcp_servers:
 - description: ''
-  name: department-of-better-technology-mcp.yml
-  slug: department-of-better-technology-mcpyml
+  name: Department of Better Technology MCP Server
+  slug: department-of-better-technology-mcp-server
 modified: '2026-07-18'
 name: Department of Better Technology
 nav: Providers
@@ -198,7 +198,7 @@ random_paper: 4
 score:
   band: thin
   composite: 33.8
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -208,7 +208,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 32.0
+  previous_composite: 33.8
   provenance:
     conformance: derived
     contracts:
@@ -224,8 +224,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/screenshots/department-of-better-technology-2026-07-25T211725.png
 security:
@@ -244,7 +244,7 @@ tags:
 - Government
 - GovTech
 - Civic Technology
-- Workflow
+- Workflows
 - Data Collection
 - Screendoor
 - Public Sector

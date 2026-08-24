@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: One REST API to detect AI-generated and manipulated images, audio, and documents — and fact-check media against the public record. Bearer API-token auth with per-key detection scopes (image, audio, fa
@@ -147,8 +147,8 @@ image: https://raidxai.com/raid-ai-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: raid-ai-mcp.yml
-  slug: raid-ai-mcpyml
+  name: Raid AI MCP Server
+  slug: raid-ai-mcp-server
 modified: '2026-07-20'
 name: Raid AI
 nav: Providers
@@ -165,25 +165,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 24.7
-  delta: -5.6
+  composite: 25.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 30.3
+  previous_composite: 25.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Raid Ai Authentication
@@ -202,8 +202,8 @@ tags:
 - Voice / Audio Detection
 - Image Forensics
 - Document Forensics
-- Fact-Checking
-- Trust & Safety
+- Fact Checking
+- Trust and Safety
 - Security
 website: https://raidxai.com
 ---

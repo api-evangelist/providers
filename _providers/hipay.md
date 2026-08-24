@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ modified: '2026-06-13'
 name: HiPay
 nav: Providers
 network: true
-overview: 'HiPay publishes 20 APIs on the [APIs.io](https://apis.io/) network, including balance API, bank-info API, captcha-generation API, and 17 more. Tagged areas include Payments, Fintech, Europe, Omnichannel, and Point of Sale.
+overview: 'HiPay publishes 20 APIs on the [APIs.io](https://apis.io/) network, including balance API, bank-info API, captcha-generation API, and 17 more. Tagged areas include Payments, Fintech, Europe, Omnichannel, and Point-of-Sale.
 
 
   HiPay''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 9 more developer resources.'
@@ -250,7 +250,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.4
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -260,7 +260,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 36.7
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -274,8 +274,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/screenshots/hipay-2026-06-20T182747.png
 security:
@@ -293,7 +293,7 @@ tags:
 - Fintech
 - Europe
 - Omnichannel
-- Point of Sale
+- Point-of-Sale
 - Fraud Prevention
 - Tokenization
 - Marketplace

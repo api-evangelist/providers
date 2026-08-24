@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -243,8 +243,8 @@ image: https://cdn.prod.website-files.com/69aeeb63d4c5075af2fb954d/69dcb129729f9
 layout: provider
 mcp_servers:
 - description: ''
-  name: revenuebase-mcp.yml
-  slug: revenuebase-mcpyml
+  name: RevenueBase
+  slug: revenuebase
 modified: '2026-08-13'
 name: RevenueBase
 nav: Providers
@@ -265,7 +265,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.0
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -275,7 +275,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 60.1
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,8 +286,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/screenshots/revenuebase-2026-08-17T081544.png
 security:

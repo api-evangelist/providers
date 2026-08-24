@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -221,8 +221,8 @@ image: https://docs.rigetti.com/img/rigetti.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: rigetti-and-co-mcp.yml
-  slug: rigetti-and-co-mcpyml
+  name: Rigetti & Co MCP Server
+  slug: rigetti-co-mcp-server
 modified: '2026-07-21'
 name: Rigetti & Co
 nav: Providers
@@ -235,7 +235,7 @@ random_paper: 2
 score:
   band: developing
   composite: 40.0
-  delta: -7.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -245,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 47.3
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,9 +256,9 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/screenshots/rigetti-and-co-2026-08-17T081558.png
 security:
 - kind: authentication
@@ -278,6 +278,5 @@ tags:
 - Developers
 - Cloud Computing
 - QPU
-- API
 website: https://www.rigetti.com
 ---

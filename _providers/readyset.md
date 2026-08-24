@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,7 +117,7 @@ description: Readyset is a realtime SQL caching engine for Postgres and MySQL. I
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/readyset.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Official Readyset MCP server ("Readyset AI"). Exposes a running Readyset caching engine over the Model Context Protocol so AI assistants can inspect caches, query performance, and replication health, '
   name: Readyset MCP server (Readyset AI)
   slug: readyset-mcp-server-readyset-ai
 modified: '2026-07-20'
@@ -132,7 +132,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 22.3
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -142,12 +142,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 25.0
+  previous_composite: 22.3
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 2
@@ -194,7 +194,7 @@ modified: '2026-05-29'
 name: Zulip
 nav: Providers
 network: true
-overview: 'Zulip publishes 16 APIs on the [APIs.io](https://apis.io/) network, including REST API, Events API, authentication API, and 13 more. Tagged areas include Collaboration, Messaging, Team Chat, and Webhooks.
+overview: 'Zulip publishes 16 APIs on the [APIs.io](https://apis.io/) network, including REST API, Events API, authentication API, and 13 more. Tagged areas include Collaboration, Messaging, Team Chat, and Webhook.
 
 
   The Zulip catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -225,7 +225,7 @@ rules:
 score:
   band: thin
   composite: 34.0
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -235,7 +235,7 @@ score:
     discoverability: 55.6
     governance: 11.4
     operational_transparency: 13.2
-  previous_composite: 37.4
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +243,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/screenshots/zulip-2026-06-20T201957.png
 security:
@@ -269,6 +269,6 @@ tags:
 - Collaboration
 - Messaging
 - Team Chat
-- Webhooks
+- Webhook
 website: https://zulip.com/
 ---

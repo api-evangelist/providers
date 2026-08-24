@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-19'
 name: Jinx
 nav: Providers
 network: true
-overview: 'Jinx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Pet Food, Pet Nutrition, and Ecommerce.
+overview: 'Jinx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Pet Food, Pet Nutrition, and E-Commerce.
 
 
   Jinx''s developer surface includes engineering blog, support, authentication, and 6 more developer resources.'
@@ -89,20 +89,20 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 13.0
-  delta: 0.3
+  composite: 14.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jinx/refs/heads/main/screenshots/jinx-2026-08-07T171019.png
 security:
@@ -116,7 +116,7 @@ tags:
 - Consumer
 - Pet Food
 - Pet Nutrition
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Dogs
 - Cats

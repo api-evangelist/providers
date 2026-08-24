@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -151,13 +151,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sahara-ai.
 layout: provider
 mcp_servers:
 - description: ''
-  name: sahara-ai-mcp.yml
-  slug: sahara-ai-mcpyml
+  name: Sahara AI MCP Server
+  slug: sahara-ai-mcp-server
 modified: '2026-07-21'
 name: Sahara AI
 nav: Providers
 network: true
-overview: 'Sahara AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Discovery API and Inference API. Tagged areas include Company, Crypto, Artificial Intelligence, Machine Learning, and Agents.
+overview: 'Sahara AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Discovery API and Inference API. Tagged areas include Company, Crypto, Artificial Intelligence, Machine-Learning, and Agents.
 
 
   Sahara AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 15 more developer resources.'
@@ -165,7 +165,7 @@ random_paper: 10
 score:
   band: developing
   composite: 45.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -175,7 +175,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 45.5
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -186,8 +186,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/screenshots/sahara-ai-2026-08-17T081711.png
 security:
@@ -204,7 +204,7 @@ tags:
 - Company
 - Crypto
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Agents
 - Compute
 - Blockchain

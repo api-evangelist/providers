@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: 'UBS''s EU PSD2-compliant open banking API set covering Account Information Services (AIS), Payment Initiation Services (PIS), and Confirmation of Funds (CoF). Used by licensed third-party providers to '
@@ -126,7 +126,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 10.4
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -136,15 +136,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.7
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubs/refs/heads/main/screenshots/ubs-2026-06-20T195946.png
 security:

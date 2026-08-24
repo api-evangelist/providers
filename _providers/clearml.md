@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -176,7 +176,7 @@ modified: '2026-05-08'
 name: ClearML
 nav: Providers
 network: true
-overview: 'ClearML publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 5 more. Tagged areas include ML, MLOps, Open Source, Experiment Tracking, and Orchestration.
+overview: 'ClearML publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 5 more. Tagged areas include ML, MLOps, Open-Source, Experiment Tracking, and Orchestration.
 
 
   ClearML''s developer surface includes authentication, developer portal, pricing, engineering blog, and 12 more developer resources.'
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.3
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -202,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.8
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/screenshots/clearml-2026-06-20T174458.png
 security:
@@ -231,7 +231,7 @@ slug: clearml
 tags:
 - ML
 - MLOps
-- Open Source
+- Open-Source
 - Experiment Tracking
 - Orchestration
 website: https://clear.ml/

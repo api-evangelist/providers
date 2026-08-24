@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ modified: '2026-05-19'
 name: Perses
 nav: Providers
 network: true
-overview: 'Perses publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasources API, Global Datasources API, and 1 more. Tagged areas include CNCF, Dashboards, Monitoring, Observability, and Open Source.
+overview: 'Perses publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasources API, Global Datasources API, and 1 more. Tagged areas include CNCF, Dashboards, Monitoring, Observability, and Open-Source.
 
 
   Perses'' developer surface includes documentation, API reference, GitHub presence, engineering blog, and 6 more developer resources.'
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.0
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -157,7 +157,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 29.0
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/screenshots/perses-2026-06-20T191616.png
 security:
@@ -180,7 +180,7 @@ tags:
 - Dashboards
 - Monitoring
 - Observability
-- Open Source
+- Open-Source
 - Time Series
 - Visualization
 website: https://perses.dev/

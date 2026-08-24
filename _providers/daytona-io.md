@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 12
@@ -648,7 +648,7 @@ modified: '2026-05-25'
 name: Daytona
 nav: Providers
 network: true
-overview: 'Daytona publishes 28 APIs on the [APIs.io](https://apis.io/) network, including admin API, api-keys API, audit API, and 25 more. Tagged areas include AI, Agents, Artificial Intelligence, Cloud, and Code Execution.
+overview: 'Daytona publishes 28 APIs on the [APIs.io](https://apis.io/) network, including admin API, api-keys API, audit API, and 25 more. Tagged areas include Artificial Intelligence, Agents, Cloud, Code Execution, and Computer Use.
 
 
   The Daytona catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -688,18 +688,18 @@ rules:
   slug: daytona-rules
 score:
   band: strong
-  composite: 65.2
-  delta: -4.4
+  composite: 65.6
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.2
     developer_ergonomics: 92.9
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 69.6
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     contracts:
@@ -707,8 +707,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/screenshots/daytona-io-2026-06-20T175734.png
 security:
@@ -735,15 +735,14 @@ solutions:
 - description: Up to $50k in free Daytona compute credits for qualifying startups building agent infrastructure.
   name: Startups Program
 tags:
-- AI
-- Agents
 - Artificial Intelligence
+- Agents
 - Cloud
 - Code Execution
 - Computer Use
 - Developer Tools
 - Infrastructure
-- Open Source
+- Open-Source
 - Sandbox
 - Secure Execution
 use_cases:

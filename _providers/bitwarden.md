@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-05-19'
 name: Bitwarden
 nav: Providers
 network: true
-overview: 'Bitwarden publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Events API, Groups API, and 3 more. Tagged areas include Security, Password Manager, Open Source, Vault, and Identity.
+overview: 'Bitwarden publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Events API, Groups API, and 3 more. Tagged areas include Security, Password Manager, Open-Source, Vault, and Identity.
 
 
   Bitwarden''s developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
@@ -186,7 +186,7 @@ scopes:
 score:
   band: thin
   composite: 32.9
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -196,7 +196,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.3
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/screenshots/bitwarden-2026-06-20T173325.png
 security:
@@ -225,7 +225,7 @@ slug: bitwarden
 tags:
 - Security
 - Password Manager
-- Open Source
+- Open-Source
 - Vault
 - Identity
 - SCIM

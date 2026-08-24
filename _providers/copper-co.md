@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: The Accounts API from Copper.co — 1 operation(s) for accounts.
@@ -278,13 +278,13 @@ image: https://cdn.sanity.io/images/ih0ldmk7/production/7362d67a23ba5de367175e92
 layout: provider
 mcp_servers:
 - description: ''
-  name: copper-co-mcp.yml
-  slug: copper-co-mcpyml
+  name: Copper.co MCP Server
+  slug: copperco-mcp-server
 modified: '2026-08-04'
 name: Copper.co
 nav: Providers
 network: true
-overview: 'Copper.co publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Address Book API, Blockchain API, and 15 more. Tagged areas include Company, Digital Asset Custody, Cryptocurrency, Financial Services, and Institutional Finance.
+overview: 'Copper.co publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Address Book API, Blockchain API, and 15 more. Tagged areas include Company, Digital Asset Custody, Cryptocurrency, Financial-Services, and Institutional Finance.
 
 
   The Copper.co catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -299,7 +299,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.6
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -309,7 +309,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 58.4
+  previous_composite: 56.6
   provenance:
     conformance: derived
     contracts:
@@ -325,8 +325,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/screenshots/copper-co-2026-08-07T163810.png
 security:
@@ -351,7 +351,7 @@ tags:
 - Company
 - Digital Asset Custody
 - Cryptocurrency
-- Financial Services
+- Financial-Services
 - Institutional Finance
 - Prime Brokerage
 - Collateral Management

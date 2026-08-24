@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -315,11 +315,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitly.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: bitly-mcp.yml
-  slug: bitly-mcpyml
+  name: Bitly MCP Server
+  slug: bitly-mcp-server
 - description: ''
-  name: bitly-mcp
-  slug: bitly-mcp
+  name: Bitly MCP Server
+  slug: bitly-mcp-server-2
 modified: '2026-08-13'
 name: Bitly
 nav: Providers
@@ -348,7 +348,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.3
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -358,7 +358,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 72.7
+  previous_composite: 69.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,8 +369,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/screenshots/bitly-2026-06-20T173312.png
 security:
@@ -398,7 +398,7 @@ tags:
 - Analytics
 - Marketing
 - Link Management
-- Webhooks
+- Webhook
 - Attribution
 - Agents
 - MCP

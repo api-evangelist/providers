@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -184,13 +184,13 @@ image: https://framerusercontent.com/images/D6XFBAXygf3ZHyjrXSmLmItnPI.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: relace-mcp.yml
-  slug: relace-mcpyml
+  name: Relace MCP Server
+  slug: relace-mcp-server
 modified: '2026-07-21'
 name: Relace
 nav: Providers
 network: true
-overview: 'Relace publishes 2 APIs on the [APIs.io](https://apis.io/) network: Code API and Repo API. Tagged areas include Company, AI, Coding Agents, Code Generation, and Developer Tools.
+overview: 'Relace publishes 2 APIs on the [APIs.io](https://apis.io/) network: Code API and Repo API. Tagged areas include Company, Artificial Intelligence, Coding Agents, Code Generation, and Developer Tools.
 
 
   Relace''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 23 more developer resources.'
@@ -198,7 +198,7 @@ random_paper: 11
 score:
   band: developing
   composite: 45.9
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -208,7 +208,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 50.6
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -219,8 +219,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/screenshots/relace-2026-08-17T081505.png
 security:
@@ -235,11 +235,11 @@ security:
 slug: relace
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding Agents
 - Code Generation
 - Developer Tools
-- Machine Learning
+- Machine-Learning
 - Code Search
 - LLM
 website: https://relace.ai

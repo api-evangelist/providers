@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ modified: '2026-05-08'
 name: Blockscout
 nav: Providers
 network: true
-overview: 'Blockscout publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Blocks API, CelestiaService API, and 11 more. Tagged areas include Web3, Explorer, Open Source, EVM, and Multi-Chain.
+overview: 'Blockscout publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Blocks API, CelestiaService API, and 11 more. Tagged areas include Web3, Explorer, Open-Source, EVM, and Multi-Chain.
 
 
   Blockscout''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 8 more developer resources.'
@@ -224,7 +224,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.0
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -234,7 +234,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 29.1
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +242,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/screenshots/blockscout-2026-06-20T173404.png
 security:
@@ -255,7 +255,7 @@ slug: blockscout
 tags:
 - Web3
 - Explorer
-- Open Source
+- Open-Source
 - EVM
 - Multi-Chain
 - GraphQL

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ modified: '2026-05-29'
 name: Studio Ghibli
 nav: Providers
 network: true
-overview: 'Studio Ghibli publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Films API, Locations API, People API, and 2 more. Tagged areas include Anime, Studio Ghibli, Films, Characters, and Locations.
+overview: 'Studio Ghibli publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Films API, Locations API, People API, and 2 more. Tagged areas include Anime, Studio Ghibli, Film, Characters, and Locations.
 
 
   The Studio Ghibli catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -294,18 +294,18 @@ rules:
   slug: studio-ghibli-rules
 score:
   band: thin
-  composite: 27.9
-  delta: -5.4
+  composite: 28.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 25.9
     developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 21.1
-  previous_composite: 33.3
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -313,9 +313,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/screenshots/studio-ghibli-2026-06-20T194625.png
 security:
 - kind: domain-security
@@ -329,14 +329,14 @@ solutions:
 tags:
 - Anime
 - Studio Ghibli
-- Films
+- Film
 - Characters
 - Locations
 - Species
 - Vehicles
 - Public APIs
-- Open Source
-- Read-Only
+- Open-Source
+- Read Only
 use_cases:
 - description: A safe, stable, no-auth API frequently used in front-end tutorials, REST workshops, and language-SDK demonstrations.
   name: Tutorial / Workshop Target

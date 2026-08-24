@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ modified: '2026-04-28'
 name: Cvent Registration
 nav: Providers
 network: true
-overview: 'Cvent Registration publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 4 more. Tagged areas include Attendee Management, Attendees, Conferences, Event Management, and Events.
+overview: 'Cvent Registration publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 4 more. Tagged areas include Attendee Management, Attendees, Conferences, Event Management, and Event.
 
 
   Cvent Registration''s developer surface includes authentication, API reference, support, pricing, engineering blog, and 14 more developer resources.'
@@ -206,7 +206,7 @@ scopes:
 score:
   band: thin
   composite: 37.2
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -216,7 +216,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 43.2
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -230,9 +230,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/screenshots/cvent-registration-2026-06-20T175407.png
 security:
 - kind: authentication
@@ -253,13 +253,13 @@ tags:
 - Attendees
 - Conferences
 - Event Management
-- Events
-- OAuth 2.0
+- Event
+- Authentication
 - On-Site Check-In
 - Payments
 - Registration
 - REST API
 - Ticketing
-- Webhooks
+- Webhook
 website: https://www.cvent.com/en/event-management-software/online-registration-software
 ---

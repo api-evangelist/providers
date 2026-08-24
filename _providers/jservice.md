@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ modified: '2026-05-30'
 name: jService
 nav: Providers
 network: true
-overview: 'jService publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Clues API, and Moderation API. Tagged areas include Games And Comics, Trivia, Jeopardy, Open Source, and Ruby.
+overview: 'jService publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Clues API, and Moderation API. Tagged areas include Games And Comics, Trivia, Jeopardy, Open-Source, and Ruby.
 
 
   The jService catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -172,18 +172,18 @@ rules:
   slug: jservice-rules
 score:
   band: emerging
-  composite: 24.1
-  delta: -6.9
+  composite: 24.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 62.0
     developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 0.0
-  previous_composite: 31.0
+  previous_composite: 24.5
   provenance:
     agentic_access: derived
     contracts:
@@ -191,9 +191,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/screenshots/jservice-2026-06-20T183813.png
 security:
 - kind: domain-security
@@ -205,7 +205,7 @@ tags:
 - Games And Comics
 - Trivia
 - Jeopardy
-- Open Source
+- Open-Source
 - Ruby
 - Rails
 - Public APIs

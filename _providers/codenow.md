@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Versioned REST API for the CodeNOW platform covering applications, components, containers, libraries, builds, releases, triggers, deployments, environments, clusters, managed services, labels, teams a
@@ -134,9 +134,9 @@ description: CodeNOW is a Prague-based governance and execution platform for AI-
 image: https://www.codenow.com/img/CN-icon-40x42px-dark-forwhite-bg.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: codenow-mcp.yml
-  slug: codenow-mcpyml
+- description: 'Official Model Context Protocol server that wraps the CodeNOW REST API, exposing CodeNOW platform operations as typed tools for AI assistants and agents (including Claude). Provides full API coverage '
+  name: CodeNOW MCP Server
+  slug: codenow-mcp-server
 modified: '2026-07-18'
 name: CodeNOW
 nav: Providers
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.7
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -163,13 +163,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 35.6
+  previous_composite: 28.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codenow/refs/heads/main/screenshots/codenow-2026-07-25T205923.png
 security:
 - kind: authentication
@@ -191,6 +191,6 @@ tags:
 - CI/CD
 - Deployment
 - Kubernetes
-- Model Context Protocol
+- MCP
 website: https://docs.codenow.com/
 ---

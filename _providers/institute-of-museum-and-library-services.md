@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The IMLS Data Catalog provides public access to IMLS grants data and museum information through an API, enabling researchers and developers to access grant information, museum locations, and program d
@@ -73,7 +73,7 @@ modified: '2026-04-28'
 name: Institute of Museum and Library Services
 nav: Providers
 network: true
-overview: 'Institute of Museum and Library Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Grants, Libraries, and Museums.
+overview: 'Institute of Museum and Library Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Grants, Libraries, and Museums.
 
 
   Institute of Museum and Library Services'' developer surface includes support, engineering blog, and 4 more developer resources.'
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.4
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -99,15 +99,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 11.2
+  previous_composite: 9.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: institute-of-museum-and-library-services
 tags:
-- Federal Government
+- Federal-Government
 - Grants
 - Libraries
 - Museums

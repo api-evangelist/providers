@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The enterprise REST API. Callers upload files of broker conversations for asynchronous processing and retrieve the extracted RFQs once parsing completes, or call the prediction operations synchronousl
@@ -144,8 +144,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sense-stre
 layout: provider
 mcp_servers:
 - description: ''
-  name: sense-street-mcp.yml
-  slug: sense-street-mcpyml
+  name: Sense Street MCP Server
+  slug: sense-street-mcp-server
 modified: '2026-08-14'
 name: Sense Street
 nav: Providers
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.1
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -176,7 +176,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 33.2
+  previous_composite: 32.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -186,8 +186,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 53.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

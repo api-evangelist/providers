@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-19'
+  score: 37.4
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -205,8 +205,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/imb-bank.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: imb-bank-mcp.yml
-  slug: imb-bank-mcpyml
+  name: IMB Bank MCP Server
+  slug: imb-bank-mcp-server
 modified: '2026-07-21'
 name: IMB Bank
 nav: Providers
@@ -223,18 +223,18 @@ scopes:
   summary_line: 12 scopes
 score:
   band: developing
-  composite: 47.3
-  delta: -1.8
+  composite: 48.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 30.3
     contract_quality: 51.0
     developer_ergonomics: 35.1
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 49.1
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,8 +251,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/screenshots/imb-bank-2026-07-21T114727.png
 security:

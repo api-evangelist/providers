@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-17'
 name: Amplication
 nav: Providers
 network: true
-overview: 'Amplication is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend, Code Generation, Developer Tools, and Open Source.
+overview: 'Amplication is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend, Code Generation, Developer Tools, and Open-Source.
 
 
   Amplication''s developer surface includes CLI, changelog, documentation, support, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 14
 score:
   band: minimal
   composite: 10.7
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -94,9 +94,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 11.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amplication/refs/heads/main/screenshots/amplication-2026-07-25T200131.png
 security:
@@ -110,7 +110,7 @@ tags:
 - Backend
 - Code Generation
 - Developer Tools
-- Open Source
+- Open-Source
 - Platform Engineering
 - Microservices
 - API Development

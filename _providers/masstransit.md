@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: MassTransit provides a consistent abstraction on top of message transports like RabbitMQ, Azure Service Bus, and Amazon SQS, with support for sagas, state machines, routing slip activities, and a stan
@@ -84,7 +84,7 @@ modified: '2026-04-28'
 name: MassTransit
 nav: Providers
 network: true
-overview: 'MassTransit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, Event-Driven, Message Bus, Messaging, and Open Source.
+overview: 'MassTransit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, Event-Driven, Message Bus, Messaging, and Open-Source.
 
 
   The MassTransit catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -114,7 +114,7 @@ rules:
 score:
   band: emerging
   composite: 20.7
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -124,10 +124,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 13.2
-  previous_composite: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 20.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/masstransit/refs/heads/main/screenshots/masstransit-2026-06-20T185019.png
 security:
 - kind: domain-security
@@ -140,7 +140,7 @@ tags:
 - Event-Driven
 - Message Bus
 - Messaging
-- Open Source
+- Open-Source
 - Sagas
 website: https://masstransit.io/
 ---

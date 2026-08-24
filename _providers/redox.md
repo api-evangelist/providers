@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Redox's modern FHIR API for exchanging clinical and administrative healthcare data across the Redox network using HL7 FHIR resources and notifications, authenticated with OAuth2.
@@ -336,9 +336,9 @@ integrations:
   name: Databricks
 layout: provider
 mcp_servers:
-- description: ''
-  name: redox-mcp.yml
-  slug: redox-mcpyml
+- description: 'Redox MCP server: an open, model-agnostic gateway for managing, configuring, monitoring, and automating a Redox organization (built on the Redox Platform API) via any MCP-compatible AI client (Claude,'
+  name: Redox MCP Server
+  slug: redox-mcp-server
 modified: '2026-08-14'
 name: Redox
 nav: Providers
@@ -367,7 +367,7 @@ scopes:
 score:
   band: strong
   composite: 62.7
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -377,7 +377,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 59.6
+  previous_composite: 62.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -387,8 +387,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/screenshots/redox-2026-06-20T192731.png
 security:

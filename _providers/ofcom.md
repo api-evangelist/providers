@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,9 +170,13 @@ description: Ofcom is the Office of Communications, the United Kingdom's indepen
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: ofcom-mcp.yml
-  slug: ofcom-mcpyml
+- description: 'Ofcom publishes no MCP server. This is a DERIVED candidate tool surface — what an
+
+    MCP server over Ofcom''s two published operations would expose — not an Ofcom
+
+    product. Confirmed absence: the anonymous'
+  name: Ofcom MCP Server
+  slug: ofcom-mcp-server
 modified: '2026-07-25'
 name: Ofcom
 nav: Providers
@@ -193,7 +197,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.7
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -203,7 +207,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 45.2
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,8 +224,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/screenshots/ofcom-2026-08-07T190010.png
 security:

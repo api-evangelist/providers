@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-04-28'
 name: Microservices Architecture
 nav: Providers
 network: true
-overview: Microservices Architecture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Cloud Native, Distributed Systems, and Microservices.
+overview: Microservices Architecture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Cloud-Native, Distributed Systems, and Microservices.
 random_paper: 4
 score:
   band: minimal
@@ -70,14 +70,14 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 4.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microservices-architecture/refs/heads/main/screenshots/microservices-architecture-2026-06-20T185345.png
 slug: microservices-architecture
 tags:
 - Architecture
-- Cloud Native
+- Cloud-Native
 - Distributed Systems
 - Microservices
 ---

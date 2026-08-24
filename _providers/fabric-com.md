@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 237
   human_in_the_loop: 11
@@ -601,7 +601,7 @@ modified: '2026-05-25'
 name: fabric
 nav: Providers
 network: true
-overview: 'fabric publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Actions Endpoints API, Addresses API, Appeasements API, and 58 more. Tagged areas include Commerce, Composable Commerce, Headless Commerce, E-commerce, and Retail.
+overview: 'fabric publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Actions Endpoints API, Addresses API, Appeasements API, and 58 more. Tagged areas include Commerce, Composable Commerce, Headless Commerce, E-Commerce, and Retail.
 
 
   The fabric catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -641,7 +641,7 @@ rules:
 score:
   band: thin
   composite: 37.2
-  delta: -7.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -651,7 +651,7 @@ score:
     discoverability: 40.7
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 44.4
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -665,9 +665,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/screenshots/fabric-com-2026-06-20T181000.png
 security:
 - kind: authentication
@@ -683,7 +683,7 @@ tags:
 - Commerce
 - Composable Commerce
 - Headless Commerce
-- E-commerce
+- E-Commerce
 - Retail
 - Cart
 - Catalog
@@ -695,7 +695,7 @@ tags:
 - Promotions
 - Checkout
 - Identity
-- Experiences
+- Experience
 - Agentic Commerce
 website: https://developer.fabric.inc/home
 ---

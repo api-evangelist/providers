@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,8 +75,8 @@ image: https://lightberry.com/assets/images/share.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: lightberry-mcp.yml
-  slug: lightberry-mcpyml
+  name: Lightberry MCP Server
+  slug: lightberry-mcp-server
 modified: '2026-07-19'
 name: Lightberry
 nav: Providers
@@ -89,7 +89,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 11.0
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -105,11 +105,11 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 12.3
+  previous_composite: 11.0
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightberry/refs/heads/main/screenshots/lightberry-2026-07-25T225107.png
 security:
@@ -125,7 +125,7 @@ tags:
 - Conversational AI
 - Voice
 - Hardware
-- Model Context Protocol
+- MCP
 - Agents
 - Y Combinator
 website: https://lightberry.com

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ modified: '2026-08-12'
 name: Fintech Farm
 nav: Providers
 network: true
-overview: 'Fintech Farm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial Services, Neobank, and Digital Banking.
+overview: 'Fintech Farm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial-Services, Neobank, and Digital Banking.
 
 
   Fintech Farm''s developer surface includes support, engineering blog, and 9 more developer resources.'
@@ -101,7 +101,7 @@ random_paper: 7
 score:
   band: minimal
   composite: 6.5
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -111,15 +111,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 10.0
+  previous_composite: 6.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -134,7 +134,7 @@ slug: fintech-farm
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Neobank
 - Digital Banking
 - Fintech

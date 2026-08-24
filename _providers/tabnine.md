@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: VS Code, JetBrains (IntelliJ, PhpStorm, etc.), and Eclipse plugins surfacing autocomplete, chat, and agentic workflows. Communicates with Tabnine's hosted or self-hosted backend over a proprietary pro
@@ -92,7 +92,7 @@ modified: '2026-05-08'
 name: Tabnine
 nav: Providers
 network: true
-overview: 'Tabnine publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Developer Tools, Code Completion, Self-Hosted, and Enterprise.
+overview: 'Tabnine publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Developer Tools, Code Completion, Self-Hosted, and Enterprise.
 
 
   Tabnine''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.5
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -118,9 +118,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 14.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/screenshots/tabnine-2026-06-20T194849.png
 security:
@@ -134,7 +134,7 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: tabnine
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Completion
 - Self-Hosted

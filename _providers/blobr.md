@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: AI-powered Google Ads management platform providing automated campaign analysis, optimization recommendations, and direct implementation via 50+ specialized AI agents. Supports agencies managing multi
@@ -201,7 +201,7 @@ rules:
 score:
   band: emerging
   composite: 18.5
-  delta: -14.6
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -211,10 +211,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 2.6
-  previous_composite: 33.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 18.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Blobr Domain Security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Planday's REST API secured by OAuth2 bearer tokens, separated into domains (HR, Absence, Pay, Payroll, Portal, Punchclock, Reports, Revenue, Schedule, Contract Rules, Security Group Membership). Reque
@@ -139,13 +139,13 @@ image: https://www.planday.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: planday-mcp.yml
-  slug: planday-mcpyml
+  name: Planday MCP Server
+  slug: planday-mcp-server
 modified: '2026-07-20'
 name: Planday
 nav: Providers
 network: true
-overview: 'Planday publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Workforce Management, Scheduling, and Time Tracking.
+overview: 'Planday publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Workforce Management, Scheduling, and Time Tracking.
 
 
   Planday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
@@ -157,23 +157,23 @@ scopes:
   summary_line: 78 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: thin
-  composite: 33.8
-  delta: 1.3
+  composite: 34.9
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 32.5
+  previous_composite: 34.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -187,7 +187,7 @@ security:
 slug: planday
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Workforce Management
 - Scheduling
 - Time Tracking
@@ -196,6 +196,6 @@ tags:
 - Hospitality
 - Retail
 - REST
-- OAuth2
+- Authentication
 website: https://openapi.planday.com/
 ---

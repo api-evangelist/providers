@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for comparing carrier rates, creating shipments and shipping labels, and tracking parcels across Latin American carriers. Live, authenticated host at api.mienvio.mx/v2.
@@ -84,7 +84,7 @@ modified: '2026-07-20'
 name: Mienvío
 nav: Providers
 network: true
-overview: 'Mienvío publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shipping, Logistics, Multi-Carrier, and E-commerce.
+overview: 'Mienvío publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shipping, Logistics, Multi-Carrier, and E-Commerce.
 
 
   Mienvío''s developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 12.5
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -102,15 +102,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 12.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mienv-o/refs/heads/main/screenshots/mienv-o-2026-08-07T172857.png
 security:
@@ -124,7 +124,7 @@ tags:
 - Shipping
 - Logistics
 - Multi-Carrier
-- E-commerce
+- E-Commerce
 - Fulfillment
 - Package Tracking
 - Mexico

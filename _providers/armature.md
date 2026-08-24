@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 23.1
-  scored_at: '2026-08-19'
+  score: 26.5
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Armature''s programmable surface: an ingest API fed by the TypeScript/Python/Go MCP-analytics SDKs, and a read-only hosted MCP server (mcp.armature.tech) that serves reconstructed sessions, use-case cl'
@@ -123,37 +123,37 @@ image: https://mcp.armature.tech/frontend/assets/armature-icon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: armature-mcp.yml
-  slug: armature-mcpyml
+  name: Armature MCP Server
+  slug: armature-mcp-server
 modified: '2026-07-18'
 name: Armature
 nav: Providers
 network: true
-overview: 'Armature publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agent Experience, Model Context Protocol, MCP, and Analytics.
+overview: 'Armature publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agent Experience, MCP, Analytics, and Observability.
 
 
   Armature''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 14 more developer resources.'
 random_paper: 4
 score:
-  band: emerging
-  composite: 26.0
-  delta: -2.9
+  band: thin
+  composite: 27.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 28.9
+  previous_composite: 27.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armature/refs/heads/main/screenshots/armature-2026-07-25T201219.png
 security:
@@ -169,7 +169,6 @@ slug: armature
 tags:
 - Company
 - Agent Experience
-- Model Context Protocol
 - MCP
 - Analytics
 - Observability

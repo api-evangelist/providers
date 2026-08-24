@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Pliant''s Pro API (Customer) is the REST API that powers hi.health by Pliant. It lets a customer programmatically access Pliant credit-card data and features: issue and manage virtual and physical card'
@@ -157,7 +157,7 @@ random_paper: 2
 score:
   band: thin
   composite: 32.6
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -167,7 +167,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 32.9
-  previous_composite: 39.7
+  previous_composite: 32.6
   provenance:
     conformance: first-party
   regulatory:
@@ -176,9 +176,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hi-health/refs/heads/main/screenshots/hi-health-2026-07-25T221130.png
 security:
 - kind: authentication
@@ -202,7 +202,7 @@ tags:
 - Fintech
 - Card Issuing
 - Reimbursement
-- InsurTech
+- Insurtech
 - Digital Health
 - Speedinvest
 website: https://getpliant.com/en/developers

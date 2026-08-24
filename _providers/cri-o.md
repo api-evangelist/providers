@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ modified: '2026-05-19'
 name: CRI-O
 nav: Providers
 network: true
-overview: 'CRI-O publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Containers API, Debug API, Information API, and 2 more. Tagged areas include Apache 2.0, CNCF, Cloud Native, conmon, and Container Runtime.
+overview: 'CRI-O publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Containers API, Debug API, Information API, and 2 more. Tagged areas include Apache 2.0, CNCF, Cloud-Native, conmon, and Container Runtime.
 
 
   The CRI-O catalog on APIs.io includes 2 Spectral governance rulesets.
@@ -202,7 +202,7 @@ rules:
 score:
   band: thin
   composite: 36.4
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -212,7 +212,7 @@ score:
     discoverability: 64.8
     governance: 45.5
     operational_transparency: 36.8
-  previous_composite: 34.5
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/screenshots/cri-o-2026-06-20T175228.png
 security:
@@ -233,7 +233,7 @@ slug: cri-o
 tags:
 - Apache 2.0
 - CNCF
-- Cloud Native
+- Cloud-Native
 - conmon
 - Container Runtime
 - Containers
@@ -242,7 +242,7 @@ tags:
 - Graduated
 - Kubernetes
 - OCI
-- Open Source
+- Open-Source
 - Prometheus
 - runc
 website: https://cri-o.io/

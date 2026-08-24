@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-08-19'
+  score: 36.9
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Operations related to user's note history.
@@ -216,8 +216,8 @@ image: https://hackmd.io/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: hackmd-mcp.yml
-  slug: hackmd-mcpyml
+  name: HackMD MCP Server
+  slug: hackmd-mcp-server
 modified: '2026-07-19'
 name: HackMD
 nav: Providers
@@ -233,18 +233,18 @@ rate_limits:
   slug: hackmd-rate-limits
 score:
   band: developing
-  composite: 52.1
-  delta: 1.4
+  composite: 53.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 48.3
     developer_ergonomics: 68.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 50.7
+  previous_composite: 53.2
   provenance:
     conformance: derived
     contracts:
@@ -254,8 +254,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/screenshots/hackmd-2026-07-25T220526.png
 security:

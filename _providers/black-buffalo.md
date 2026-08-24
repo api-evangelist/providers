@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,14 +171,14 @@ description: 'Black Buffalo Inc. is an American smokeless tobacco alternative co
 image: https://cdn.shopify.com/s/files/1/2258/8521/files/Black-Buffalo-Social-Sharing-Image.jpg?v=1738521407
 layout: provider
 mcp_servers:
-- description: ''
-  name: black-buffalo-mcp.yml
-  slug: black-buffalo-mcpyml
+- description: 'Black Buffalo serves TWO live MCP endpoints from its own storefront host, and — unlike most Shopify merchants profiled in this catalog — BOTH answer an anonymous JSON-RPC tools/list with HTTP 200 and '
+  name: Black Buffalo MCP Server
+  slug: black-buffalo-mcp-server
 modified: '2026-08-07'
 name: Black Buffalo
 nav: Providers
 network: true
-overview: 'Black Buffalo publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Nicotine Pouches, Smokeless Tobacco Alternative, and Ecommerce.
+overview: 'Black Buffalo publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Nicotine Pouches, Smokeless Tobacco Alternative, and E-Commerce.
 
 
   Black Buffalo''s developer surface includes documentation, authentication, FAQ, engineering blog, support, signup flow, and 25 more developer resources.'
@@ -190,25 +190,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.0
-  delta: -1.6
+  composite: 34.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 38.9
     developer_ergonomics: 30.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 34.6
+  previous_composite: 34.1
   provenance:
     agentic_access: first-party
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/screenshots/black-buffalo-2026-08-07T162610.png
 security:
@@ -226,13 +226,13 @@ tags:
 - Consumer Packaged Goods
 - Nicotine Pouches
 - Smokeless Tobacco Alternative
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Agentic Commerce
 - Shopify
 - GraphQL
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 website: https://blackbuffalo.com/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ modified: '2026-07-23'
 name: Shawbrook Bank
 nav: Providers
 network: true
-overview: 'Shawbrook Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shawbrook Open Data API (OBIE Standard, Unverified), Shawbrook Account & Transaction Information API (AIS, OBIE Standard, Unverified), Shawbrook Payment Initiation API (PIS, OBIE Standard, Unverified), and 1 more. Tagged areas include Financial Services, Banking, Savings, Specialist Lending, and Open Banking.
+overview: 'Shawbrook Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shawbrook Open Data API (OBIE Standard, Unverified), Shawbrook Account & Transaction Information API (AIS, OBIE Standard, Unverified), Shawbrook Payment Initiation API (PIS, OBIE Standard, Unverified), and 1 more. Tagged areas include Financial-Services, Banking, Savings, Specialist Lending, and Open Banking.
 
 
   Shawbrook Bank''s developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
@@ -152,18 +152,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 35.0
-  delta: 4.2
+  composite: 36.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
     contract_quality: 51.2
     developer_ergonomics: 20.8
-    discoverability: 72.2
+    discoverability: 83.3
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 30.8
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -179,8 +179,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 75.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -193,7 +193,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: shawbrook-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Savings
 - Specialist Lending

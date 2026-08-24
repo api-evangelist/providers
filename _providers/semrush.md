@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -231,9 +231,9 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/semrush.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: semrush-mcp.yml
-  slug: semrush-mcpyml
+- description: Semrush ships a first-party, hosted MCP server that exposes its public API data to AI agents over streamable HTTP. Per the provider's own documentation the server fronts the Trends API (subject to the
+  name: Semrush MCP
+  slug: semrush-mcp
 modified: '2026-08-13'
 name: Semrush
 nav: Providers
@@ -259,7 +259,7 @@ scopes:
 score:
   band: strong
   composite: 66.4
-  delta: 6.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -269,7 +269,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 59.9
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,9 +280,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/screenshots/semrush-2026-06-20T193655.png
 security:
 - kind: authentication

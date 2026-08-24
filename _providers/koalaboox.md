@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Koalaboox / Cegid Click & Finance invoicing and invoice-financing platform. Resource-oriented URLs, JSON-encoded requests and responses, standard HTTP status codes, and OAuth 2.0 auth
@@ -140,13 +140,13 @@ image: https://raw.githubusercontent.com/koalaboox/static/main/CEGID_Logo_Bleu.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: koalaboox-mcp.yml
-  slug: koalaboox-mcpyml
+  name: Koalaboox MCP Server
+  slug: koalaboox-mcp-server
 modified: '2026-07-19'
 name: Koalaboox
 nav: Providers
 network: true
-overview: 'Koalaboox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, Electronic Invoicing, Peppol, and Accounting.
+overview: 'Koalaboox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, Electronic Invoicing, PEPPOL, and Accounting.
 
 
   Koalaboox''s developer surface includes documentation, pricing, signup flow, support, authentication, and 19 more developer resources.'
@@ -158,7 +158,7 @@ random_paper: 15
 score:
   band: thin
   composite: 29.9
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -168,12 +168,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 32.4
+  previous_composite: 29.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png
 security:
@@ -194,7 +194,7 @@ tags:
 - Company
 - Invoicing
 - Electronic Invoicing
-- Peppol
+- PEPPOL
 - Accounting
 - Invoice Financing
 - Working Capital
@@ -202,6 +202,6 @@ tags:
 - Fintech
 - Belgium
 - Spain
-- OAuth
+- Authentication
 website: https://www.cegid.com/be/fr/produits/cegid-invoice-financing/
 ---

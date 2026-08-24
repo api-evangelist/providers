@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/vmware/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -48,16 +52,16 @@ created: '2026-07-17'
 description: SpringSource was the software company behind the open-source Spring Framework for Java. Founded in 2004 as Interface21 by Rod Johnson and colleagues, it was venture-backed (Accel, Benchmark) and acquired by VMware in 2009. The Spring portfolio subsequently moved through Pivotal and VMware Tanzu and is maintained today by Broadcom. The springsource.com domain now 301-redirects to spring.io, the current home of the Spring ecosystem. SpringSource exposed no standalone public API of its own; this profile documents the historical company and its lineage into today's Spring projects.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/springsource.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-21'
 name: SpringSource
 nav: Providers
 network: true
-overview: SpringSource is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Java, Spring Framework, and Open Source.
+overview: SpringSource is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Java, Spring Framework, and Open-Source.
 random_paper: 14
 score:
   band: minimal
   composite: 6.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,9 +71,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -82,7 +86,7 @@ tags:
 - Developer Tools
 - Java
 - Spring Framework
-- Open Source
+- Open-Source
 - Application Framework
 - Acquired
 - VMware

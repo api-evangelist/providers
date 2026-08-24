@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-07-01'
 name: Nakama
 nav: Providers
 network: true
-overview: 'Nakama publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Realtime Socket API, Account API, Authentication API, and 7 more. Tagged areas include Gaming, Game Backend, Backend, Realtime, and Multiplayer.
+overview: 'Nakama publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Realtime Socket API, Account API, Authentication API, and 7 more. Tagged areas include Gaming, Game Backend, Backend, Real-Time, and Multiplayer.
 
 
   The Nakama catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -200,7 +200,7 @@ rules:
 score:
   band: developing
   composite: 40.5
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -210,7 +210,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 46.0
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -218,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/screenshots/nakama-2026-08-07T184611.png
 security:
 - kind: authentication
@@ -236,11 +236,11 @@ tags:
 - Gaming
 - Game Backend
 - Backend
-- Realtime
+- Real-Time
 - Multiplayer
 - Matchmaking
 - Leaderboards
 - Social
-- Open Source
+- Open-Source
 website: https://heroiclabs.com/
 ---

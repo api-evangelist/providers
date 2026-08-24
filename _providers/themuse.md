@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ modified: '2026-08-08'
 name: The Muse
 nav: Providers
 network: true
-overview: 'The Muse publishes 2 APIs on the [APIs.io](https://apis.io/) network: Companies API and Jobs API. Tagged areas include Job Openings, Jobs, Careers, Recruiting, and Employment.
+overview: 'The Muse publishes 2 APIs on the [APIs.io](https://apis.io/) network: Companies API and Jobs API. Tagged areas include Job Openings, Job, Careers, Recruiting, and Employment.
 
 
   The Muse''s developer surface includes documentation and 8 more developer resources.'
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.1
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -134,7 +134,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.3
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -142,8 +142,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themuse/refs/heads/main/screenshots/themuse-2026-06-20T195325.png
 security:
@@ -154,7 +154,7 @@ security:
 slug: themuse
 tags:
 - Job Openings
-- Jobs
+- Job
 - Careers
 - Recruiting
 - Employment

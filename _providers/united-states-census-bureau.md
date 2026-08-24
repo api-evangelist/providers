@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ modified: '2026-05-19'
 name: United States Census Bureau
 nav: Providers
 network: true
-overview: 'United States Census Bureau publishes 7 APIs on the [APIs.io](https://apis.io/) network, including American Community Survey API, County Business Patterns API, Decennial Census API, and 4 more. Tagged areas include Demographics, Federal Government, Open Data, Statistics, and Economics.
+overview: 'United States Census Bureau publishes 7 APIs on the [APIs.io](https://apis.io/) network, including American Community Survey API, County Business Patterns API, Decennial Census API, and 4 more. Tagged areas include Demographics, Federal-Government, Open Data, Statistics, and Economics.
 
 
   The United States Census Bureau catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -219,7 +219,7 @@ rules:
 score:
   band: thin
   composite: 33.2
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -229,7 +229,7 @@ score:
     discoverability: 74.1
     governance: 54.5
     operational_transparency: 13.2
-  previous_composite: 32.6
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +243,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/screenshots/united-states-census-bureau-2026-06-20T200100.png
 security:
@@ -255,7 +255,7 @@ security:
 slug: united-states-census-bureau
 tags:
 - Demographics
-- Federal Government
+- Federal-Government
 - Open Data
 - Statistics
 - Economics

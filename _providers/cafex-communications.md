@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The CafeX Audit Events API allows the retrieval of audit event data for CafeX tenants. Events can be filtered by a required time range and by optional service, event type, action, user, app, workspace
@@ -119,7 +119,7 @@ modified: '2026-08-08'
 name: CafeX Communications
 nav: Providers
 network: true
-overview: 'CafeX Communications publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Low-Code, Workflow Automation, Agentic AI, and Audit and Compliance.
+overview: 'CafeX Communications publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Low-Code, Workflow-Automation, Agentic AI, and Audit and Compliance.
 
 
   CafeX Communications'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 15 more developer resources.'
@@ -127,7 +127,7 @@ random_paper: 19
 score:
   band: thin
   composite: 29.4
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -137,11 +137,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 31.6
+  previous_composite: 29.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -160,7 +160,7 @@ slug: cafex-communications
 tags:
 - Company
 - Low-Code
-- Workflow Automation
+- Workflow-Automation
 - Agentic AI
 - Audit and Compliance
 - Collaboration

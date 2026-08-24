@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,8 +195,8 @@ image: https://mindmazetherapeutics.com/wp-content/themes/mindmaze/images/mindma
 layout: provider
 mcp_servers:
 - description: ''
-  name: mindmaze-mcp.yml
-  slug: mindmaze-mcpyml
+  name: MindMaze MCP Server
+  slug: mindmaze-mcp-server
 modified: '2026-08-01'
 name: MindMaze
 nav: Providers
@@ -209,7 +209,7 @@ random_paper: 13
 score:
   band: thin
   composite: 26.9
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -219,7 +219,7 @@ score:
     discoverability: 75.9
     governance: 12.1
     operational_transparency: 0.0
-  previous_composite: 22.4
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,8 +236,8 @@ score:
     regime: Health
     regime_id: health
     score: 57.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png
 security:
@@ -259,7 +259,7 @@ tags:
 - Health
 - Artificial Intelligence
 - Stroke
-- Parkinsons Disease
+- Parkinson's Disease
 - Switzerland
 website: https://mindmazetherapeutics.com/
 ---

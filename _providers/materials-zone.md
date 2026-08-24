@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -197,8 +197,8 @@ image: https://cdn.prod.website-files.com/66a76467298c454de539f7aa/66cef238e96d8
 layout: provider
 mcp_servers:
 - description: ''
-  name: materials-zone-mcp.yml
-  slug: materials-zone-mcpyml
+  name: Materials Zone MCP Server
+  slug: materials-zone-mcp-server
 modified: '2026-07-20'
 name: Materials Zone
 nav: Providers
@@ -211,7 +211,7 @@ random_paper: 2
 score:
   band: thin
   composite: 38.1
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 40.7
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +238,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/screenshots/materials-zone-2026-07-25T230407.png
 security:

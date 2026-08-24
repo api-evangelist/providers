@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -321,9 +321,9 @@ jsonld:
   slug: spyfu-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: spyfu-mcp.yml
-  slug: spyfu-mcpyml
+- description: SpyFu serves a remote Model Context Protocol endpoint from its own developer portal host at https://developer.spyfu.com/mcp. A GET returns HTTP 200 with the plain-text body "This URL can only be acces
+  name: SpyFu MCP Server
+  slug: spyfu-mcp-server
 modified: 2026-08-13
 name: SpyFu
 nav: Providers
@@ -358,7 +358,7 @@ rules:
 score:
   band: strong
   composite: 58.2
-  delta: -13.0
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -368,7 +368,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 50.0
-  previous_composite: 71.2
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -379,9 +379,9 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/screenshots/spyfu-2026-06-20T194429.png
 security:
 - kind: authentication

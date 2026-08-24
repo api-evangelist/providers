@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -207,14 +207,14 @@ description: Fastino Labs is an applied research lab building production-ready s
 image: https://raw.githubusercontent.com/fastino-ai/mintlify-docs/main/images/pioneer-wordmark-dark.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: fastino-labs-mcp.yml
-  slug: fastino-labs-mcpyml
+- description: Mintlify-hosted documentation MCP server for the Pioneer docs.
+  name: Fastino Labs MCP Server
+  slug: fastino-labs-mcp-server
 modified: '2026-07-19'
 name: Fastino Labs
 nav: Providers
 network: true
-overview: 'Fastino Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including anthropic-compat API, inference API, inference-history API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Small Language Models, and Fine-Tuning.
+overview: 'Fastino Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including anthropic-compat API, inference API, inference-history API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Small Language Models, and Fine-Tuning.
 
 
   Fastino Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
@@ -231,7 +231,7 @@ scopes:
 score:
   band: developing
   composite: 52.0
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -241,7 +241,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 60.1
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,9 +252,9 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/screenshots/fastino-labs-2026-07-25T214244.png
 security:
 - kind: authentication
@@ -273,7 +273,7 @@ slug: fastino-labs
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Small Language Models
 - Fine-Tuning
 - Inference

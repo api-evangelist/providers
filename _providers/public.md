@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for programmatic trading on Public — manage brokerage accounts, pull portfolio and transaction history, retrieve market data (quotes, bars, option chains, greeks), and place, replace, and can
@@ -142,9 +142,9 @@ description: Public (Public Holdings, Inc.) is a multi-asset investing platform 
 image: https://public.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: public-mcp.yml
-  slug: public-mcpyml
+- description: Public's hosted, remote MCP server — described by Public as part of "the world's first agentic brokerage." Lets AI assistants query portfolios and place trades on a connected Public account across sto
+  name: Public MCP Server
+  slug: public-mcp-server
 modified: '2026-07-20'
 name: Public
 nav: Providers
@@ -182,8 +182,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Projects API from BeZero Carbon — 1 operation(s) for projects.
@@ -166,8 +166,8 @@ image: https://bezerocarbon.com/images/metadata-logo.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: bezero-carbon-mcp.yml
-  slug: bezero-carbon-mcpyml
+  name: BeZero Carbon MCP Server
+  slug: bezero-carbon-mcp-server
 modified: '2026-08-07'
 name: BeZero Carbon
 nav: Providers
@@ -189,7 +189,7 @@ scopes:
 score:
   band: developing
   composite: 45.7
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -199,7 +199,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 48.5
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/screenshots/bezero-carbon-2026-08-07T162353.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: LDAP v3 protocol interface provided by the slapd directory server for reading, writing, and managing hierarchical directory entries. Authentication is via simple bind, SASL mechanisms, or TLS client c
@@ -76,7 +76,7 @@ modified: '2026-05-11'
 name: OpenLDAP
 nav: Providers
 network: true
-overview: 'OpenLDAP publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Directory Services, LDAP, Identity, Authentication, and Open Source.
+overview: 'OpenLDAP publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Directory Services, LDAP, Identity, Authentication, and Open-Source.
 
 
   OpenLDAP''s developer surface includes documentation, FAQ, and 6 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 8.2
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -94,9 +94,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 8.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openldap/refs/heads/main/screenshots/openldap-2026-06-20T191011.png
 security:
@@ -110,7 +110,7 @@ tags:
 - LDAP
 - Identity
 - Authentication
-- Open Source
+- Open-Source
 - Infrastructure
 website: https://www.openldap.org
 ---

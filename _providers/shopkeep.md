@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Shopkeep
 nav: Providers
 network: true
-overview: 'Shopkeep is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Point of Sale, Retail, Payments, and Small Business.
+overview: 'Shopkeep is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Point-of-Sale, Retail, Payments, and Small Business.
 
 
   Shopkeep''s developer surface includes support and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 2.8
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,15 +74,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.0
+  previous_composite: 2.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -92,11 +92,10 @@ security:
 slug: shopkeep
 tags:
 - Company
-- Point of Sale
+- Point-of-Sale
 - Retail
 - Payments
 - Small Business
-- POS
 - iPad
 - Lightspeed
 website: https://www.shopkeep.com

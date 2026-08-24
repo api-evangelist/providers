@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Compliant, real-time cross-border payments and USD account infrastructure: beneficiaries and KYC/KYB, USD and multi-currency virtual accounts, transaction/payment simulation and execution, batch and s'
@@ -151,8 +151,8 @@ image: https://cdn.prod.website-files.com/677ed676bd7257ea423799b4/6787817b276b3
 layout: provider
 mcp_servers:
 - description: ''
-  name: caliza-mcp.yml
-  slug: caliza-mcpyml
+  name: Caliza MCP Server
+  slug: caliza-mcp-server
 modified: '2026-07-18'
 name: Caliza
 nav: Providers
@@ -173,7 +173,7 @@ scopes:
 score:
   band: developing
   composite: 48.2
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -183,7 +183,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 19.7
-  previous_composite: 49.4
+  previous_composite: 48.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -194,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/screenshots/caliza-2026-07-25T204235.png
 security:

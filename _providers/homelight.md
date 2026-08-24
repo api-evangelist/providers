@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Partner-gated REST API for submitting buyer and seller leads to HomeLight, submitting Simple Sale cash-offer seller leads, and checking for duplicate leads before submission. Authentication is via a p
@@ -129,7 +129,7 @@ modified: '2026-05-25'
 name: HomeLight
 nav: Providers
 network: true
-overview: 'HomeLight publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, PropTech, Agent Matching, Cash Offers, and iBuyer.
+overview: 'HomeLight publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, PropTech, Agent Matching, Cash Offers, and iBuyer.
 
 
   HomeLight''s developer surface includes engineering blog, GitHub presence, YouTube channel, support, and 17 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 16
 score:
   band: minimal
   composite: 9.0
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -147,9 +147,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 8.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homelight/refs/heads/main/screenshots/homelight-2026-06-20T182818.png
 security:
@@ -159,7 +159,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: homelight
 tags:
-- Real Estate
+- Real-Estate
 - PropTech
 - Agent Matching
 - Cash Offers
@@ -168,7 +168,7 @@ tags:
 - Buy Before You Sell
 - Home Loans
 - HELOC
-- Title And Escrow
+- Title and Escrow
 - Closing Services
 - Lead Generation
 - Partner API

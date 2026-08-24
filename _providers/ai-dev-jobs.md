@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: AI/ML engineering job aggregator with REST, RSS, and MCP endpoints
@@ -58,7 +58,7 @@ modified: '2026-05-28'
 name: AI Dev Jobs
 nav: Providers
 network: true
-overview: 'AI Dev Jobs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
+overview: 'AI Dev Jobs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job and Public APIs.
 
 
   AI Dev Jobs'' developer surface includes engineering blog and 5 more developer resources.'
@@ -66,7 +66,7 @@ random_paper: 12
 score:
   band: minimal
   composite: 5.9
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -76,9 +76,9 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-dev-jobs/refs/heads/main/screenshots/ai-dev-jobs-2026-06-20T170624.png
 security:
@@ -92,7 +92,7 @@ security:
   summary_line: security.txt · contact published
 slug: ai-dev-jobs
 tags:
-- Jobs
+- Job
 - Public APIs
 website: https://aidevboard.com/openapi.yaml
 ---

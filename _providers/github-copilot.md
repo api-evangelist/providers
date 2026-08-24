@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -778,14 +778,14 @@ jsonld:
   slug: github-copilot-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: github-copilot-mcp.yml
-  slug: github-copilot-mcpyml
+- description: The GitHub MCP server exposes GitHub itself (repositories, issues, pull requests, Actions, code security, etc.) to MCP-capable agents including GitHub Copilot. Tools are organized into configurable to
+  name: GitHub Copilot MCP Server
+  slug: github-copilot-mcp-server
 modified: '2026-06-20'
 name: GitHub Copilot
 nav: Providers
 network: true
-overview: 'GitHub Copilot publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Copilot Billing API, Copilot Content Exclusion API, Copilot Metrics API, and 3 more. Tagged areas include Agents, AI, Artificial Intelligence, Code Generation, and Code Review.
+overview: 'GitHub Copilot publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Copilot Billing API, Copilot Content Exclusion API, Copilot Metrics API, and 3 more. Tagged areas include Agents, Artificial Intelligence, Code Generation, Code Review, and Coding Agents.
 
 
   The GitHub Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -830,18 +830,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.8
-  delta: -6.7
+  composite: 64.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 73.1
     developer_ergonomics: 69.0
     discoverability: 83.3
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 70.5
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -851,9 +851,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/screenshots/github-copilot-2026-06-20T181939.png
 security:
 - kind: authentication
@@ -875,19 +875,17 @@ security:
 slug: github-copilot
 tags:
 - Agents
-- AI
 - Artificial Intelligence
 - Code Generation
 - Code Review
-- Coding Agent
+- Coding Agents
 - Custom Instructions
 - Developer Tools
 - Extensions
 - IDE
-- Machine Learning
+- Machine-Learning
 - MCP
 - Metrics
-- Model Context Protocol
 - Productivity
 use_cases:
 - description: Accelerate software development with AI-powered code completions, chat assistance, and automated code review.

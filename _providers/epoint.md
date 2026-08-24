@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST payment gateway for accepting online card payments in Azerbaijan. Covers payment creation and hosted checkout, card registration/tokenization and saved-card charges, refunds and reversals, pre-au
@@ -143,13 +143,13 @@ image: https://epoint.az/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: epoint-mcp.yml
-  slug: epoint-mcpyml
+  name: Epoint MCP Server
+  slug: epoint-mcp-server
 modified: '2026-07-19'
 name: Epoint
 nav: Providers
 network: true
-overview: 'Epoint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Fintech, and E-commerce.
+overview: 'Epoint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Fintech, and E-Commerce.
 
 
   The Epoint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -160,7 +160,7 @@ random_paper: 4
 score:
   band: developing
   composite: 41.2
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 40.6
+  previous_composite: 41.2
   provenance:
     conformance: derived
     mcp: derived
@@ -180,8 +180,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epoint/refs/heads/main/screenshots/epoint-2026-07-25T213527.png
 security:
@@ -199,7 +199,7 @@ tags:
 - Payments
 - Payment Gateway
 - Fintech
-- E-commerce
+- E-Commerce
 - Card Payments
 - Azerbaijan
 - Apple Pay

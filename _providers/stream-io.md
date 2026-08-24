@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 497
   human_in_the_loop: 18
@@ -167,7 +167,7 @@ modified: '2026-05-29'
 name: Stream
 nav: Providers
 network: true
-overview: 'Stream publishes 5 APIs on the [APIs.io](https://apis.io/) network, including product:chat API, product:common API, product:feeds API, and 2 more. Tagged areas include Realtime, Chat, Messaging, Video, and Audio.
+overview: 'Stream publishes 5 APIs on the [APIs.io](https://apis.io/) network, including product:chat API, product:common API, product:feeds API, and 2 more. Tagged areas include Real-Time, Chat, Messaging, Video, and Audio.
 
 
   The Stream catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -198,7 +198,7 @@ rules:
 score:
   band: thin
   composite: 38.6
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -208,7 +208,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 42.0
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +216,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/screenshots/stream-io-2026-06-20T194617.png
 security:
@@ -239,7 +239,7 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: stream-io
 tags:
-- Realtime
+- Real-Time
 - Chat
 - Messaging
 - Video

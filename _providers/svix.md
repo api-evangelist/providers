@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 68.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -648,7 +648,7 @@ modified: '2026-08-13'
 name: Svix
 nav: Providers
 network: true
-overview: 'Svix publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Application API, Authentication API, Background Task API, and 17 more. Tagged areas include Webhooks, Webhooks As A Service, Webhook Delivery, Webhook Sending, and Event Driven.
+overview: 'Svix publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Application API, Authentication API, Background Task API, and 17 more. Tagged areas include Webhook, Webhooks As A Service, Webhook Delivery, Webhook Sending, and Event-Driven.
 
 
   The Svix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -688,18 +688,18 @@ rules:
   slug: svix-rules
 score:
   band: exemplar
-  composite: 79.3
-  delta: -4.8
+  composite: 79.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 75.3
     developer_ergonomics: 83.3
     discoverability: 83.3
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 84.2
-  previous_composite: 84.1
+  previous_composite: 79.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -716,8 +716,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:
@@ -745,14 +745,14 @@ skills:
   slug: svix-sending-webhooks
 slug: svix
 tags:
-- Webhooks
+- Webhook
 - Webhooks As A Service
 - Webhook Delivery
 - Webhook Sending
-- Event Driven
+- Event-Driven
 - Eventing
 - Messaging
-- Pub Sub
+- Pub-Sub
 - Streaming
 - Ingest
 - Integration
@@ -763,18 +763,17 @@ tags:
 - Verification
 - HMAC
 - Standard Webhooks
-- Multi Tenant
-- Multi Region
+- Multi-Tenant
+- Multi-Region
 - Enterprise
-- SaaS
+- Software-as-a-Service
 - Developer Platform
-- API
 - REST
 - SOC 2
 - HIPAA
 - PCI DSS
 - GDPR
-- Open Source
+- Open-Source
 - Rust
 - Polyglot SDK
 - Terraform

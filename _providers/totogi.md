@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Totogi Charging-as-a-Service is a serverless, multi-tenant 5G Standalone and 5G Advanced converged charging system delivered as SaaS on AWS, with built-in policy control. Its account-management surfac
@@ -181,8 +181,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: totogi-mcp.yml
-  slug: totogi-mcpyml
+  name: Totogi MCP Server
+  slug: totogi-mcp-server
 modified: '2026-07-25'
 name: Totogi
 nav: Providers
@@ -203,7 +203,7 @@ scopes:
 score:
   band: developing
   composite: 45.9
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -213,7 +213,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 44.7
+  previous_composite: 45.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -224,8 +224,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 70.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/screenshots/totogi-2026-08-17T082413.png
 security:

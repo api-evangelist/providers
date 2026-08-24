@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: NoRedInk's OAuth 2.0 authorization server with OpenID Connect on top, used for single sign-on and partner/classroom-rostering integrations. Advertises the authorization-code + refresh-token grants, an
@@ -137,18 +137,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 32.7
-  delta: 8.7
+  composite: 33.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 24.0
+  previous_composite: 33.9
   provenance:
     conformance: derived
   regulatory:
@@ -157,9 +157,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noredink/refs/heads/main/screenshots/noredink-2026-08-07T185517.png
 security:
 - kind: authentication
@@ -188,7 +188,7 @@ tags:
 - Writing
 - Literacy
 - K-12
-- OAuth
+- Authentication
 - OpenID Connect
 - Single Sign-On
 - Rostering

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ modified: '2026-05-19'
 name: National Weather Service
 nav: Providers
 network: true
-overview: 'National Weather Service publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Aviation API, Glossary API, and 10 more. Tagged areas include Federal Government, Forecasting, and Weather.
+overview: 'National Weather Service publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Aviation API, Glossary API, and 10 more. Tagged areas include Federal-Government, Forecasting, and Weather.
 
 
   National Weather Service''s developer surface includes authentication, developer portal, and 5 more developer resources.'
@@ -183,7 +183,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.8
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -193,7 +193,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 27.3
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +207,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-weather-service/refs/heads/main/screenshots/national-weather-service-2026-06-20T190047.png
 security:
@@ -222,7 +222,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: national-weather-service
 tags:
-- Federal Government
+- Federal-Government
 - Forecasting
 - Weather
 website: https://www.weather.gov/

@@ -30,7 +30,7 @@ tags:
 - Developer Tools
 - Infrastructure
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Data
 - Cybersecurity
 - Digital Biology

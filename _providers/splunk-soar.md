@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Splunk SOAR REST API creates, updates, queries and selectively removes the objects the platform automates against — containers, artifacts, playbooks, action runs, apps, assets, CEF fields, indicat
@@ -190,7 +190,8 @@ rate_limits:
   slug: splunk-soar-rate-limits
 score:
   band: developing
-  composite: 44.5
+  composite: 42.0
+  delta: -2.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -199,12 +200,14 @@ score:
     developer_ergonomics: 71.4
     discoverability: 87.0
     governance: 18.2
-    operational_transparency: 55.3
+    operational_transparency: 36.8
+  previous_composite: 44.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Splunk Soar Authentication

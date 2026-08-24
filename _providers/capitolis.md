@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: Capitolis
 nav: Providers
 network: true
-overview: 'Capitolis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, FinTech, and Capital Optimization.
+overview: 'Capitolis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Capital Markets, Fintech, and Capital Optimization.
 
 
   Capitolis'' developer surface includes support, engineering blog, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 10.2
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.7
+  previous_composite: 10.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capitolis/refs/heads/main/screenshots/capitolis-2026-07-25T204423.png
 security:
@@ -109,9 +109,9 @@ security:
 slug: capitolis
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
-- FinTech
+- Fintech
 - Capital Optimization
 - Portfolio Optimization
 - Derivatives

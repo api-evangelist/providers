@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -208,13 +208,13 @@ image: https://cdn.prod.website-files.com/69005ca0f0832195cbc1370c/6966208e49b12
 layout: provider
 mcp_servers:
 - description: ''
-  name: activefence-mcp.yml
-  slug: activefence-mcpyml
+  name: ActiveFence MCP Server
+  slug: activefence-mcp-server
 modified: '2026-08-06'
 name: ActiveFence
 nav: Providers
 network: true
-overview: 'ActiveFence publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api keys API, Collection API, Content API, and 4 more. Tagged areas include ai-safety, ai-security, trust-and-safety, content-moderation, and guardrails.
+overview: 'ActiveFence publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api keys API, Collection API, Content API, and 4 more. Tagged areas include AI Safety, AI Security, Trust and Safety, Content Moderation, and Guardrails.
 
 
   The ActiveFence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -225,7 +225,7 @@ random_paper: 15
 score:
   band: developing
   composite: 53.2
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 54.7
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,8 +246,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/screenshots/activefence-2026-08-07T160856.png
 security:
@@ -261,17 +261,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: activefence
 tags:
-- ai-safety
-- ai-security
-- trust-and-safety
-- content-moderation
-- guardrails
-- red-teaming
-- llm-security
-- prompt-injection
-- ai-governance
-- risk-scoring
-- user-generated-content
-- child-safety
+- AI Safety
+- AI Security
+- Trust and Safety
+- Content Moderation
+- Guardrails
+- Red Teaming
+- LLM Security
+- Prompt Injection
+- AI Governance
+- Risk Scoring
+- User Generated Content
+- Child Safety
 website: https://alice.io/
 ---

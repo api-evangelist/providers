@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 419
   human_in_the_loop: 12
@@ -291,8 +291,8 @@ image: https://www.socotra.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: socotra-mcp.yml
-  slug: socotra-mcpyml
+  name: Socotra
+  slug: socotra
 modified: '2026-07-21'
 name: Socotra
 nav: Providers
@@ -308,7 +308,7 @@ random_paper: 7
 score:
   band: developing
   composite: 52.1
-  delta: 3.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -318,7 +318,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 48.5
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -335,8 +335,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/screenshots/socotra-2026-08-17T081950.png
 security:
@@ -362,7 +362,6 @@ tags:
 - Billing
 - Claims
 - Underwriting
-- API
 - MCP
 website: https://socotra.com
 ---

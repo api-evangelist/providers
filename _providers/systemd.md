@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 10
@@ -497,18 +497,18 @@ rules:
   slug: systemd-rules
 score:
   band: thin
-  composite: 29.1
-  delta: -7.0
+  composite: 29.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 50.3
     developer_ergonomics: 21.4
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 36.1
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -516,9 +516,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/screenshots/systemd-2026-06-20T194839.png
 security:
 - kind: domain-security
@@ -533,15 +533,15 @@ tags:
 - D-Bus
 - Init
 - IPC
-- Journal
+- journal
 - Linux
 - Logging
 - Network
-- Open Source
+- Open-Source
 - PID 1
 - Service Manager
 - System
-- Systemd
+- systemd
 - Varlink
 website: https://systemd.io
 ---

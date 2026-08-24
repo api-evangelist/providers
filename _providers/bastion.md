@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Bastion''s REST API for regulated stablecoin infrastructure: create and manage custodial wallets, issue and convert stablecoins, run on/off-ramps, and move digital assets, with built-in KYC/AML complia'
@@ -124,7 +124,7 @@ random_paper: 17
 score:
   band: thin
   composite: 30.1
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -134,7 +134,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 31.5
+  previous_composite: 30.1
   provenance:
     conformance: first-party
   regulatory:
@@ -143,8 +143,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bastion/refs/heads/main/screenshots/bastion-2026-07-25T202432.png
 security:
@@ -166,7 +166,7 @@ tags:
 - Web3
 - Compliance
 - Crypto Infrastructure
-- Financial Services
+- Financial-Services
 - On/Off-Ramps
 website: https://bastion.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The CoreView Public API provides programmatic access to Microsoft 365 governance operations — delegated administration, operators, platform reporting, license pools, and customer/tenant management — v
@@ -135,13 +135,13 @@ image: https://logo.clearbit.com/coreview.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: coreview-fka-4ward365-mcp.yml
-  slug: coreview-fka-4ward365-mcpyml
+  name: CoreView (FKA 4ward365) MCP Server
+  slug: coreview-fka-4ward365-mcp-server
 modified: '2026-07-18'
 name: CoreView (FKA 4ward365)
 nav: Providers
 network: true
-overview: 'CoreView (FKA 4ward365) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Microsoft 365, SaaS Management, Governance, and Security.
+overview: 'CoreView (FKA 4ward365) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Microsoft-365, SaaS Management, Governance, and Security.
 
 
   CoreView (FKA 4ward365)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
@@ -154,7 +154,7 @@ scopes:
 score:
   band: thin
   composite: 33.8
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -164,12 +164,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 32.6
+  previous_composite: 33.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/screenshots/coreview-fka-4ward365-2026-07-25T210431.png
 security:
@@ -188,13 +188,13 @@ security:
 slug: coreview-fka-4ward365
 tags:
 - Company
-- Microsoft 365
+- Microsoft-365
 - SaaS Management
 - Governance
 - Security
 - Identity
 - Automation
-- Workflow
+- Workflows
 - License Management
 - IT Operations
 website: https://www.coreview.com/

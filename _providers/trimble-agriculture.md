@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -234,18 +234,18 @@ rules:
   slug: trimble-agriculture-rules
 score:
   band: thin
-  composite: 36.3
-  delta: -8.6
+  composite: 36.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 62.5
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 44.9
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -253,9 +253,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/screenshots/trimble-agriculture-2026-06-20T195713.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: TypeScript SDK for building, invoking, and orchestrating Droids. Public source on GitHub at Factory-AI/droid-sdk-typescript.
@@ -190,7 +190,7 @@ modified: '2026-05-23'
 name: Factory
 nav: Providers
 network: true
-overview: 'Factory publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Agents, Autonomous, Developer Tools, and Software Engineering.
+overview: 'Factory publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Agents, Autonomous, Developer Tools, and Software Engineering.
 
 
   Factory''s developer surface includes developer portal, signup flow, documentation, pricing, engineering blog, code examples, and 23 more developer resources.'
@@ -206,7 +206,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.7
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -222,9 +222,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 30.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factory-ai/refs/heads/main/screenshots/factory-ai-2026-06-20T181010.png
 security:
@@ -238,7 +238,7 @@ security:
   summary_line: SOC 2
 slug: factory-ai
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Autonomous
 - Developer Tools

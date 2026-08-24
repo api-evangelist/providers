@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Convert text to speech
@@ -36,6 +36,10 @@ apis:
   slug: ibm-text-to-speech
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -56,7 +60,7 @@ created: '2026-05-28'
 description: Convert text to speech
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibm-text-to-speech.png
 layout: provider
-modified: '2026-05-28'
+modified: '2026-08-21'
 name: IBM Text to Speech
 nav: Providers
 network: true
@@ -76,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-text-to-speech/refs/heads/main/screenshots/ibm-text-to-speech-2026-06-20T183134.png
 security:

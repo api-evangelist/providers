@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -329,8 +329,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brickwork.
 layout: provider
 mcp_servers:
 - description: ''
-  name: brickwork-mcp.yml
-  slug: brickwork-mcpyml
+  name: Brickwork MCP Server
+  slug: brickwork-mcp-server
 modified: '2026-07-18'
 name: Brickwork
 nav: Providers
@@ -343,7 +343,7 @@ random_paper: 8
 score:
   band: thin
   composite: 38.1
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -353,7 +353,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 38.3
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -364,8 +364,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/screenshots/brickwork-2026-07-25T203804.png
 security:
@@ -385,7 +385,7 @@ tags:
 - Omnichannel
 - Store Locator
 - Appointments
-- Events
+- Event
 - Location Data
 - CMS
 website: https://www.devhub.com/

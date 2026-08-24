@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The agent API from Groundwork Open Source — 8 operation(s) for agent.
@@ -168,8 +168,8 @@ image: https://raw.githubusercontent.com/gwos/tcg/master/.github/img/readme_imag
 layout: provider
 mcp_servers:
 - description: ''
-  name: groundwork-open-source-mcp.yml
-  slug: groundwork-open-source-mcpyml
+  name: Groundwork Open Source MCP Server
+  slug: groundwork-open-source-mcp-server
 modified: '2026-07-19'
 name: Groundwork Open Source
 nav: Providers
@@ -202,8 +202,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/screenshots/groundwork-open-source-2026-07-25T220352.png
 security:
@@ -219,7 +219,7 @@ tags:
 - IT Infrastructure
 - Observability
 - Metrics
-- Events
-- Open Source
+- Event
+- Open-Source
 - Nagios
 ---

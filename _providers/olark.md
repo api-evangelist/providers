@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-05-11'
 name: Olark
 nav: Providers
 network: true
-overview: 'Olark publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Box API, Chat API, Configure API, and 2 more. Tagged areas include Live Chat, Customer Support, Chatbots, Customer Engagement, and Messaging.
+overview: 'Olark publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Box API, Chat API, Configure API, and 2 more. Tagged areas include Live Chat, Customer-Support, Chatbots, Customer Engagement, and Messaging.
 
 
   Olark''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
@@ -149,7 +149,7 @@ random_paper: 12
 score:
   band: thin
   composite: 32.1
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -159,7 +159,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 32.7
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/screenshots/olark-2026-06-20T190655.png
 security:
@@ -187,7 +187,7 @@ security:
 slug: olark
 tags:
 - Live Chat
-- Customer Support
+- Customer-Support
 - Chatbots
 - Customer Engagement
 - Messaging

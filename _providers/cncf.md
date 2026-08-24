@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The CNCF Cloud Native Interactive Landscape is the canonical map of the cloud-native ecosystem. The landscape is generated daily from landscape.yml and enriched with data from Crunchbase and GitHub. T
@@ -96,7 +96,7 @@ modified: '2026-04-23'
 name: CNCF
 nav: Providers
 network: true
-overview: 'CNCF publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Containers, Kubernetes, Open Source, and Standards.
+overview: 'CNCF publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Containers, Kubernetes, Open-Source, and Standards.
 
 
   CNCF''s developer surface includes engineering blog, YouTube channel, and 9 more developer resources.'
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -128,9 +128,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 13.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cncf/refs/heads/main/screenshots/cncf-2026-06-20T174634.png
 security:
@@ -140,10 +140,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cncf
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Kubernetes
-- Open Source
+- Open-Source
 - Standards
 website: https://www.cncf.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for building public apps and integrations on the Nuvemshop / Tiendanube e-commerce platform: products, orders, customers, categories, coupons, discounts, transactions, shipping, locations, me'
@@ -130,8 +130,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nuvemshop-
 layout: provider
 mcp_servers:
 - description: ''
-  name: nuvemshop-tiendanube-mcp.yml
-  slug: nuvemshop-tiendanube-mcpyml
+  name: Nuvemshop Tiendanube MCP Server
+  slug: nuvemshop-tiendanube-mcp-server
 modified: '2026-07-20'
 name: Nuvemshop Tiendanube
 nav: Providers
@@ -152,7 +152,7 @@ scopes:
 score:
   band: thin
   composite: 37.7
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -162,7 +162,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 39.1
+  previous_composite: 37.7
   provenance:
     conformance: derived
     mcp: derived
@@ -172,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvemshop-tiendanube/refs/heads/main/screenshots/nuvemshop-tiendanube-2026-08-07T185801.png
 security:
@@ -197,8 +197,8 @@ tags:
 - Online Stores
 - Payments
 - Shipping
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 - Latin America
 - Storefront
 - Apps Platform

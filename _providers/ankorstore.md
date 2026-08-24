@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: The Applications API from Ankorstore — 1 operation(s) for applications.
@@ -278,13 +278,13 @@ image: https://cdn.ankorstore.com/images/logo/logo-black.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: ankorstore-mcp.yml
-  slug: ankorstore-mcpyml
+  name: Ankorstore MCP Server
+  slug: ankorstore-mcp-server
 modified: '2026-07-17'
 name: Ankorstore
 nav: Providers
 network: true
-overview: 'Ankorstore publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Brands API, Catalog API, and 18 more. Tagged areas include Company, Retail, Wholesale, Marketplace, and E-commerce.
+overview: 'Ankorstore publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Brands API, Catalog API, and 18 more. Tagged areas include Company, Retail, Wholesale, Marketplace, and E-Commerce.
 
 
   The Ankorstore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -295,7 +295,7 @@ random_paper: 4
 score:
   band: developing
   composite: 43.2
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -305,7 +305,7 @@ score:
     discoverability: 63.0
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 43.3
+  previous_composite: 43.2
   provenance:
     conformance: derived
     contracts:
@@ -315,8 +315,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/screenshots/ankorstore-2026-07-25T200257.png
 security:
@@ -334,11 +334,11 @@ tags:
 - Retail
 - Wholesale
 - Marketplace
-- E-commerce
+- E-Commerce
 - Ordering
 - Fulfillment
 - Catalog
-- Webhooks
+- Webhook
 - JSON:API
 website: https://www.ankorstore.com
 ---

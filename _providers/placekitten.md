@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ modified: '2026-05-30'
 name: PlaceKitten
 nav: Providers
 network: true
-overview: 'PlaceKitten publishes 1 API on the [APIs.io](https://apis.io/) network: Image API. Tagged areas include Animals, Public APIs, Placeholder, Images, and Deprecated.
+overview: 'PlaceKitten publishes 1 API on the [APIs.io](https://apis.io/) network: Image API. Tagged areas include Animals, Public APIs, Placeholder, Image, and Deprecated.
 
 
   The PlaceKitten catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -136,18 +136,18 @@ rules:
   slug: placekitten-rules
 score:
   band: emerging
-  composite: 23.6
-  delta: -6.9
+  composite: 24.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 62.9
     developer_ergonomics: 0.0
     discoverability: 66.7
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 0.0
-  previous_composite: 30.5
+  previous_composite: 24.0
   provenance:
     agentic_access: derived
     contracts:
@@ -155,9 +155,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Placekitten Domain Security
@@ -168,7 +168,7 @@ tags:
 - Animals
 - Public APIs
 - Placeholder
-- Images
+- Image
 - Deprecated
 website: https://placekitten.com/
 ---

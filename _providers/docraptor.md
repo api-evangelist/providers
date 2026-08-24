@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ modified: '2026-05-08'
 name: DocRaptor
 nav: Providers
 network: true
-overview: 'DocRaptor publishes 2 APIs on the [APIs.io](https://apis.io/) network: Async Documents API and Documents API. Tagged areas include Document Generation, PDF, HTML, Excel, and API.
+overview: 'DocRaptor publishes 2 APIs on the [APIs.io](https://apis.io/) network: Async Documents API and Documents API. Tagged areas include Document Generation, PDF, HTML, Excel, and Prince.
 
 
   DocRaptor''s developer surface includes authentication, documentation, pricing, GitHub presence, and 7 more developer resources.'
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -146,7 +146,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 31.4
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/screenshots/docraptor-2026-06-20T180113.png
 security:
@@ -173,7 +173,6 @@ tags:
 - PDF
 - HTML
 - Excel
-- API
 - Prince
 website: https://docraptor.com/
 ---

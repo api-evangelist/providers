@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Exchange access/secret keys for an access token.
@@ -226,13 +226,13 @@ image: https://www.airmeet.com/hub/wp-content/uploads/2023/03/Airmeet-Featured-I
 layout: provider
 mcp_servers:
 - description: ''
-  name: airmeet-mcp.yml
-  slug: airmeet-mcpyml
+  name: Airmeet MCP Server
+  slug: airmeet-mcp-server
 modified: '2026-07-17'
 name: Airmeet
 nav: Providers
 network: true
-overview: 'Airmeet publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Event Details API, Manage Event API, and 3 more. Tagged areas include Company, Cloud Saas, Events, Virtual Events, and Webinars.
+overview: 'Airmeet publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Event Details API, Manage Event API, and 3 more. Tagged areas include Company, Cloud Saas, Event, Virtual Events, and Webinars.
 
 
   The Airmeet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -243,7 +243,7 @@ random_paper: 8
 score:
   band: developing
   composite: 53.1
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -253,7 +253,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 58.8
+  previous_composite: 53.1
   provenance:
     conformance: first-party
     contracts:
@@ -263,9 +263,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/screenshots/airmeet-2026-07-25T195432.png
 security:
 - kind: authentication
@@ -288,11 +288,11 @@ slug: airmeet
 tags:
 - Company
 - Cloud Saas
-- Events
+- Event
 - Virtual Events
 - Webinars
 - Event Management
 - Community
-- Webhooks
+- Webhook
 website: https://www.airmeet.com/
 ---

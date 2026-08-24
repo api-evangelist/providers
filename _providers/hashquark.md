@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Institutional staking API to onboard broker users, generate and track deposits, assign/exit validators, drive pooled staking and Babylon BTC staking across supported proof-of-stake protocols. Authenti
@@ -120,7 +120,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 22.5
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -130,11 +130,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 21.6
+  previous_composite: 22.5
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashquark/refs/heads/main/screenshots/hashquark-2026-07-25T220753.png
 security:

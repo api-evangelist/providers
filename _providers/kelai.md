@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ random_paper: 14
 score:
   band: minimal
   composite: 1.2
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -63,15 +63,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.8
+  previous_composite: 1.2
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kelai/refs/heads/main/screenshots/kelai-2026-07-25T223557.png
 security:
@@ -86,7 +86,7 @@ tags:
 - Quantitative Finance
 - Hedge Funds
 - Trading
-- Machine Learning
+- Machine-Learning
 - Fintech
 - Investment Research
 - AI Agents

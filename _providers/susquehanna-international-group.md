@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 16
 common:
@@ -141,7 +141,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 4.4
-  delta: -10.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -151,16 +151,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 14.5
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/susquehanna-international-group/refs/heads/main/screenshots/susquehanna-international-group-2026-06-20T194746.png
 security:
 - kind: domain-security
@@ -177,8 +177,8 @@ tags:
 - Institutional Sales
 - Growth Equity
 - Venture Capital
-- Machine Learning
-- Financial Services
+- Machine-Learning
+- Financial-Services
 use_cases:
 - description: Continuously quoting bids and offers on listed options markets to provide liquidity for institutional and retail order flow.
   name: Liquidity Provision On Listed Options

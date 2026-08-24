@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -230,18 +230,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.0
-  delta: -2.6
+  composite: 44.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 74.9
     developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 46.6
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -255,8 +255,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/screenshots/tradestation-2026-08-17T125935.png
 security:

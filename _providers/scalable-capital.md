@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-21'
 name: Scalable Capital
 nav: Providers
 network: true
-overview: 'Scalable Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Neobroker, and Wealth Management.
+overview: 'Scalable Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Neobroker, and Wealth Management.
 
 
   Scalable Capital''s developer surface includes support and 4 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 4.3
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -78,15 +78,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.7
+  previous_composite: 4.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -96,13 +96,13 @@ security:
 slug: scalable-capital
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Neobroker
 - Wealth Management
 - Investing
 - Banking
-- ETF
+- ETFs
 - Robo-Advisory
 website: https://de.scalable.capital/en
 ---

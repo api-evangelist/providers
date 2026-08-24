@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-21'
 name: Rudus
 nav: Providers
 network: true
-overview: Rudus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Technology, Artificial Intelligence, Computer Vision, and Estimation.
+overview: Rudus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Technology, Artificial Intelligence, Computer-Vision, and Estimation.
 random_paper: 17
 score:
   band: minimal
@@ -70,8 +70,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -83,7 +83,7 @@ tags:
 - Company
 - Construction Technology
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Estimation
 - Takeoff
 - Concrete

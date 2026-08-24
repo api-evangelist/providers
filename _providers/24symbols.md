@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-17'
 name: 24Symbols
 nav: Providers
 network: true
-overview: '24Symbols is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Books, E-books, Reading, and Digital Library.
+overview: '24Symbols is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Books, Ebooks, Reading, and Digital Library.
 
 
   24Symbols'' developer surface includes support, pricing, signup flow, engineering blog, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 13.2
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -100,22 +100,22 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 15.2
+  previous_composite: 13.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 14.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/24symbols/refs/heads/main/screenshots/24symbols-2026-07-25T181159.png
 slug: 24symbols
 tags:
 - Company
 - Books
-- E-books
+- Ebooks
 - Reading
 - Digital Library
 - Subscription

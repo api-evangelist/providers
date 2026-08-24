@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 354
   human_in_the_loop: 0
@@ -284,8 +284,8 @@ image: https://ascendelements.com/wp-content/uploads/2022/01/cropped-AE_favicon.
 layout: provider
 mcp_servers:
 - description: ''
-  name: ascend-elements-mcp.yml
-  slug: ascend-elements-mcpyml
+  name: Ascend Elements MCP Server
+  slug: ascend-elements-mcp-server
 modified: '2026-08-02'
 name: Ascend Elements
 nav: Providers
@@ -298,7 +298,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 19.5
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -308,7 +308,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 18.9
+  previous_composite: 19.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,8 +319,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

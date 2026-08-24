@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -395,7 +395,7 @@ scopes:
 score:
   band: developing
   composite: 54.1
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -405,7 +405,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 57.9
-  previous_composite: 59.4
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     contracts:
@@ -413,9 +413,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/screenshots/lever-co-2026-06-20T184439.png
 security:
 - kind: authentication
@@ -445,7 +445,7 @@ tags:
 - Human Resources
 - HR Tech
 - Postings
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 website: https://www.lever.co/
 ---

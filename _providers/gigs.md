@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for embedded mobile connectivity: manage projects, plans, users, subscriptions, SIMs (eSIM/pSIM), devices, number portings, add-ons, usage and vouchers. Bearer API-key auth, cursor pagination'
@@ -175,8 +175,8 @@ image: https://i.gigscdn.net/docs/v1/embedded-connectivity.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: gigs-mcp.yml
-  slug: gigs-mcpyml
+  name: Gigs MCP Server
+  slug: gigs-mcp-server
 modified: '2026-07-19'
 name: Gigs
 nav: Providers
@@ -192,7 +192,7 @@ random_paper: 6
 score:
   band: developing
   composite: 49.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -202,7 +202,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 49.3
+  previous_composite: 49.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,8 +213,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigs/refs/heads/main/screenshots/gigs-2026-07-25T215810.png
 security:
@@ -238,9 +238,9 @@ tags:
 - eSIM
 - MVNO
 - Mobile
-- Subscriptions
+- Subscription
 - Payments
-- Webhooks
+- Webhook
 - Embedded Finance
 website: https://gigs.com
 ---

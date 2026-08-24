@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST APIs for the full embedded insurance lifecycle including quoting, rating, binding, policy management, claims intake through settlement, premium payments (card, ACH, bank rail, escrow), and compli
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -123,15 +123,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 25.0
+  previous_composite: 24.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sure/refs/heads/main/screenshots/sure-2026-06-20T194803.png
 security:

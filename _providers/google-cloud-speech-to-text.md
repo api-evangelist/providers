@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-05-19'
 name: Google Cloud Speech-To-Text
 nav: Providers
 network: true
-overview: 'Google Cloud Speech-To-Text publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Speech API. Tagged areas include Audio Processing, Google Cloud, Machine Learning, Speech Recognition, and Transcription.
+overview: 'Google Cloud Speech-To-Text publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Speech API. Tagged areas include Audio Processing, Google Cloud, Machine-Learning, Speech Recognition, and Transcription.
 
 
   The Google Cloud Speech-To-Text catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -186,7 +186,7 @@ scopes:
 score:
   band: developing
   composite: 46.3
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -196,7 +196,7 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 52.2
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -204,9 +204,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-speech-to-text/refs/heads/main/screenshots/google-cloud-speech-to-text-2026-06-20T182137.png
 security:
 - kind: authentication
@@ -225,7 +225,7 @@ slug: google-cloud-speech-to-text
 tags:
 - Audio Processing
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Speech Recognition
 - Transcription
 website: https://cloud.google.com/speech-to-text

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -298,7 +298,7 @@ rules:
 score:
   band: thin
   composite: 36.4
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -308,7 +308,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 15.8
-  previous_composite: 41.2
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -322,8 +322,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/screenshots/gov-uk-pay-2026-06-20T182258.png
 security:
@@ -349,5 +349,5 @@ tags:
 - PCI DSS
 - Refunds
 - Recurring Payments
-- Webhooks
+- Webhook
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -222,13 +222,13 @@ image: https://minicor.com/images/logo-minicor.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: minicor-mcp.yml
-  slug: minicor-mcpyml
+  name: Minicor MCP Server
+  slug: minicor-mcp-server
 modified: '2026-07-20'
 name: Minicor
 nav: Providers
 network: true
-overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: Configuration Stores API, external API, and Workflows API. Tagged areas include Company, Desktop Automation, RPA, Computer Use Agents, and Workflow Automation.
+overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: Configuration Stores API, external API, and Workflows API. Tagged areas include Company, Desktop Automation, RPA, Computer Use Agents, and Workflow-Automation.
 
 
   The Minicor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -238,18 +238,18 @@ overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 18
 score:
   band: strong
-  composite: 56.8
-  delta: -0.5
+  composite: 57.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 30.3
     contract_quality: 65.0
     developer_ergonomics: 70.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 57.3
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,8 +266,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/screenshots/minicor-2026-08-07T172954.png
 security:
@@ -293,7 +293,7 @@ tags:
 - Desktop Automation
 - RPA
 - Computer Use Agents
-- Workflow Automation
+- Workflow-Automation
 - Healthcare
 - Legacy Systems
 - AI Agents

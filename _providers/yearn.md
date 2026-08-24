@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ modified: 2026-06-13
 name: Yearn Finance
 nav: Providers
 network: true
-overview: 'Yearn Finance publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chains API, Info API, TVL API, and 1 more. Tagged areas include DeFi, Yield Aggregator, Vaults, EVM, and Web3.
+overview: 'Yearn Finance publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chains API, Info API, TVL API, and 1 more. Tagged areas include DeFi, Yield Aggregator, Vault, EVM, and Web3.
 
 
   The Yearn Finance catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -135,7 +135,7 @@ rules:
 score:
   band: thin
   composite: 30.9
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -145,7 +145,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 37.5
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -153,9 +153,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/screenshots/yearn-2026-06-20T201735.png
 security:
 - kind: domain-security
@@ -166,7 +166,7 @@ slug: yearn
 tags:
 - DeFi
 - Yield Aggregator
-- Vaults
+- Vault
 - EVM
 - Web3
 - Blockchain

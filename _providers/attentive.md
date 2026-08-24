@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 19
 apis:
 - description: Public applications must authenticate using the OAuth 2.0 specification to use Attentive’s API resources. Attentive uses OAuth 2.0’s authorization code grant flow to issue access tokens on behalf of u
@@ -377,13 +377,13 @@ image: https://cdn.prod.website-files.com/684306b795a2c402456e92ba/6a037c0d3dadc
 layout: provider
 mcp_servers:
 - description: ''
-  name: attentive-mcp.yml
-  slug: attentive-mcpyml
+  name: Attentive MCP Server
+  slug: attentive-mcp-server
 modified: '2026-08-13'
 name: Attentive
 nav: Providers
 network: true
-overview: 'Attentive publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Bulk Segment Operations API, Bulk Status API, and 15 more. Tagged areas include Company, Martech, SMS Marketing, Email Marketing, and Ecommerce.
+overview: 'Attentive publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Bulk Segment Operations API, Bulk Status API, and 15 more. Tagged areas include Company, MarTech, SMS Marketing, Email Marketing, and E-Commerce.
 
 
   The Attentive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -406,18 +406,18 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.9
-  delta: 2.5
+  composite: 73.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 16.7
     contract_quality: 65.6
     developer_ergonomics: 58.9
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 69.4
+  previous_composite: 73.8
   provenance:
     conformance: derived
     contracts:
@@ -433,8 +433,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png
 security:
@@ -457,13 +457,13 @@ security:
 slug: attentive
 tags:
 - Company
-- Martech
+- MarTech
 - SMS Marketing
 - Email Marketing
-- Ecommerce
+- E-Commerce
 - Marketing Automation
 - Subscribers
-- Webhooks
+- Webhook
 - Customer Engagement
 website: https://www.attentive.com
 ---

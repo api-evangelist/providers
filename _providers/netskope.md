@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Tenant-scoped REST API for retrieving events, alerts, incidents, audit logs, network and application telemetry, and for managing policies, IoCs, and configuration on the Netskope platform. Authenticat
@@ -91,7 +91,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 11.7
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -101,9 +101,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 14.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netskope/refs/heads/main/screenshots/netskope-2026-06-20T190208.png
 security:

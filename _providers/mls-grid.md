@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'MLS Grid''s RESO Web API — a replication-oriented OData v4 surface over listing data normalized to the RESO Data Dictionary and pooled from the participating MLSs. Documented entity sets are Property, '
@@ -191,7 +191,7 @@ modified: '2026-07-26'
 name: MLS Grid
 nav: Providers
 network: true
-overview: 'MLS Grid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United States, MLS, RESO, and Property Listings.
+overview: 'MLS Grid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United States, MLS, RESO, and Property Listings.
 
 
   MLS Grid''s developer surface includes documentation, developer portal, signup flow, FAQ, engineering blog, support, changelog, and 30 more developer resources.'
@@ -203,7 +203,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -213,11 +213,11 @@ score:
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 50.0
-  previous_composite: 32.6
+  previous_composite: 32.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mls-grid/refs/heads/main/screenshots/mls-grid-2026-08-07T183841.png
 security:
@@ -231,7 +231,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: mls-grid
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - MLS
 - RESO

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -319,8 +319,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zus.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: zus-mcp.yml
-  slug: zus-mcpyml
+  name: Zus Health MCP Server
+  slug: zus-health-mcp-server
 modified: '2026-06-21'
 name: Zus Health
 nav: Providers
@@ -344,7 +344,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -354,7 +354,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 62.4
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -371,8 +371,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/screenshots/zus-2026-08-17T083124.png
 security:

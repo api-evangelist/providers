@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 560
   human_in_the_loop: 21
@@ -732,18 +732,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 63.2
-  delta: 7.5
+  composite: 64.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 31.8
     contract_quality: 61.2
     developer_ergonomics: 70.8
-    discoverability: 77.8
+    discoverability: 87.0
     governance: 31.8
     operational_transparency: 52.6
-  previous_composite: 55.7
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -760,9 +760,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 75.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/screenshots/aemo-2026-08-07T160947.png
 security:
 - kind: authentication

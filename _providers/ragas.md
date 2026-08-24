@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -77,7 +77,7 @@ modified: '2026-05-08'
 name: Ragas
 nav: Providers
 network: true
-overview: 'Ragas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Evaluation, LLM, RAG, Open Source, and Python.
+overview: 'Ragas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Evaluation, LLM, RAG, Open-Source, and Python.
 
 
   Ragas'' developer surface includes GitHub presence and 7 more developer resources.'
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ragas/refs/heads/main/screenshots/ragas-2026-06-20T192529.png
 security:
@@ -118,7 +118,7 @@ tags:
 - AI Evaluation
 - LLM
 - RAG
-- Open Source
+- Open-Source
 - Python
 - Metrics
 website: https://docs.ragas.io/

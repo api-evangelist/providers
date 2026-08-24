@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Spin HTTP Trigger API handles incoming HTTP requests and routes them to the appropriate Spin component. Components receive an HTTP request object and return an HTTP response. Supported via the Spi
@@ -146,7 +146,7 @@ modified: '2026-05-02'
 name: Spin
 nav: Providers
 network: true
-overview: 'Spin publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Microservices, Serverless, and WebAssembly.
+overview: 'Spin publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Microservices, Serverless, and WebAssembly.
 
 
   The Spin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -186,21 +186,21 @@ rules:
   slug: spin-rules
 score:
   band: emerging
-  composite: 21.8
-  delta: -8.1
+  composite: 22.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 11.3
     developer_ergonomics: 15.5
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 29.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 22.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spin/refs/heads/main/screenshots/spin-2026-06-20T194314.png
 security:
 - kind: domain-security
@@ -209,7 +209,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC
 slug: spin
 tags:
-- Cloud Native
+- Cloud-Native
 - Microservices
 - Serverless
 - WebAssembly

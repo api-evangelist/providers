@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 endpoint for the 5ireChain mainnet (EIP-155 chain ID 995, native currency 5ire, 18 decimals). Serves the standard eth_*, net_* and web3_* method families against the E
@@ -154,7 +154,7 @@ modified: '2026-08-02'
 name: 5ire
 nav: Providers
 network: true
-overview: '5ire publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include blockchain, layer-1, smart-contracts, evm, and web3.
+overview: '5ire publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Layer 1, Smart Contracts, EVM, and Web3.
 
 
   5ire''s developer surface includes documentation, getting-started guide, engineering blog, support, FAQ, sandbox, authentication, and 21 more developer resources.'
@@ -162,7 +162,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 21.5
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -172,11 +172,11 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 23.7
+  previous_composite: 21.5
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -189,17 +189,17 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: 5ire
 tags:
-- blockchain
-- layer-1
-- smart-contracts
-- evm
-- web3
-- substrate
-- json-rpc
-- sustainability
-- esg
-- proof-of-stake
-- cryptocurrency
-- developer-tools
+- Blockchain
+- Layer 1
+- Smart Contracts
+- EVM
+- Web3
+- Substrate
+- JSON-RPC
+- Sustainability
+- ESG
+- Proof of Stake
+- Cryptocurrency
+- Developer Tools
 website: https://5ire.org/
 ---

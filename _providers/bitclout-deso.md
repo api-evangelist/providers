@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The HTTP JSON API served by every DeSo node — data endpoints (profiles, posts, users, NFTs, creator/DAO coins, messages) plus transaction-construction endpoints. The public node is node.deso.org; tran
@@ -130,9 +130,9 @@ description: DeSo (Decentralized Social, formerly BitClout) is an open-source la
 image: https://node.deso.org/assets/deso/camelcase_logo_og.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: bitclout-deso-mcp.yml
-  slug: bitclout-deso-mcpyml
+- description: Official Model Context Protocol server for DeSo blockchain development — exposes DeSo API documentation, SDK guidance, code generation, architecture, and UI/GraphQL helpers to AI coding agents.
+  name: BitClout (DeSo) MCP Server
+  slug: bitclout-deso-mcp-server
 modified: '2026-07-18'
 name: BitClout (DeSo)
 nav: Providers
@@ -145,7 +145,7 @@ random_paper: 19
 score:
   band: thin
   composite: 26.7
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -155,12 +155,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 26.8
+  previous_composite: 26.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/screenshots/bitclout-deso-2026-07-25T203136.png
 security:
@@ -179,7 +179,7 @@ tags:
 - Blockchain
 - Decentralized Social
 - Web3
-- Social Media
+- Social-Media
 - NFT
 - Creator Economy
 website: https://www.deso.com/

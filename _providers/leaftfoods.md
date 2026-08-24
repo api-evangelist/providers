@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The agent-facing commerce API for the Leaft Foods storefront. The store implements the Universal Commerce Protocol (ucp.dev) natively through Shopify, exposing a UCP merchant profile at /.well-known/u
@@ -81,12 +81,12 @@ description: Leaft Foods is a New Zealand food-technology company, founded in 20
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leaftfoods.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: leaftfoods-mcp.yml
-  slug: leaftfoods-mcpyml
-- description: ''
-  name: leaftblade-mcp.yml
-  slug: leaftblade-mcpyml
+- description: Leaft Foods runs a live, publicly addressable MCP server as part of its Shopify-native Universal Commerce Protocol (UCP) implementation. Agents discover it from /.well-known/ucp and call it over JSON-
+  name: Leaft Foods UCP MCP Server
+  slug: leaft-foods-ucp-mcp-server
+- description: The second live UCP MCP server operated by Leaft Foods, serving the direct-to-consumer Leaft Blade storefront at leaftblade.com (Shopify shop leaft-lightgrove.myshopify.com). Unlike the corporate stor
+  name: Leaft Blade UCP MCP Server
+  slug: leaft-blade-ucp-mcp-server
 modified: '2026-07-19'
 name: Leaft Foods
 nav: Providers
@@ -104,7 +104,7 @@ scopes:
 score:
   band: emerging
   composite: 15.9
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -114,13 +114,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 15.1
+  previous_composite: 15.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaftfoods/refs/heads/main/screenshots/leaftfoods-2026-08-07T171513.png
 security:

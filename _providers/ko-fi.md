@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Outbound webhook that Ko-fi HTTP POSTs to a URL you configure whenever a payment happens on your Ko-fi page. The single POST body is form-encoded with a "data" field containing a JSON payload; a "type
@@ -116,7 +116,7 @@ rules:
 score:
   band: emerging
   composite: 26.1
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -126,15 +126,15 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 21.1
-  previous_composite: 30.6
+  previous_composite: 26.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ko-fi/refs/heads/main/screenshots/ko-fi-2026-07-25T224019.png
 security:
@@ -150,7 +150,7 @@ tags:
 - Memberships
 - Shop
 - Payments
-- Webhooks
+- Webhook
 - Creator Monetization
 website: https://ko-fi.com
 ---

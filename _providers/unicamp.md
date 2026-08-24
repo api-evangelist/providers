@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REDU (Repositório de Dados de Pesquisa da Unicamp) is Unicamp's institutional research data repository running on Dataverse 6.0. It exposes the standard Dataverse REST API, including a public Search A
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.1
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -111,15 +111,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 18.9
+  previous_composite: 17.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/screenshots/unicamp-2026-06-20T200024.png
 security:

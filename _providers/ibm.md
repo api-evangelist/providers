@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -524,6 +524,82 @@ common:
   title: ''
   type: Security
   url: https://www.ibm.com/cloud/security
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/api-harmony/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/apptio/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/hashicorp/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/ibm-api-connect/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/ibm-app-connect/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/ibm-cloud-kubernetes/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/ibm-db2/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/ibm-text-to-speech/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/ibm-translate/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/ibm-watson/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/instana/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/netezza/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/openpages/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/qradar/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/red-hat/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/software-ag/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/streamsets/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/turbonomic/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/watson-natural-language-understanding/
 created: '2024'
 description: A collection of IBM's public APIs and developer resources.
 features:
@@ -564,9 +640,9 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: ibm-mcp.yml
-  slug: ibm-mcpyml
-modified: '2026-06-20'
+  name: IBM MCP Server
+  slug: ibm-mcp-server
+modified: '2026-08-21'
 name: IBM
 nav: Providers
 network: true
@@ -576,7 +652,7 @@ overview: 'IBM publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The IBM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  IBM''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, support, signup flow, and 50 more developer resources.'
+  IBM''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, support, signup flow, and 69 more developer resources.'
 plans:
 - name: Ibm Plans Pricing
   plan_count: 3
@@ -621,7 +697,7 @@ scopes:
 score:
   band: strong
   composite: 63.8
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -631,7 +707,7 @@ score:
     discoverability: 85.2
     governance: 26.5
     operational_transparency: 50.0
-  previous_composite: 69.8
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -641,9 +717,9 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:
 - kind: authentication
@@ -676,7 +752,7 @@ tags:
 - Generative AI
 - Hybrid Cloud
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Networking
 - Observability
 - Security

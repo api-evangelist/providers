@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 404
   human_in_the_loop: 8
@@ -253,8 +253,8 @@ image: https://cdn.prod.website-files.com/657180a2db5e5db9774cd4a3/65ba1d60bf395
 layout: provider
 mcp_servers:
 - description: ''
-  name: alphaus-mcp.yml
-  slug: alphaus-mcpyml
+  name: Alphaus MCP Server
+  slug: alphaus-mcp-server
 modified: '2026-07-17'
 name: Alphaus
 nav: Providers
@@ -293,8 +293,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/screenshots/alphaus-2026-07-25T195758.png
 security:
@@ -319,6 +319,5 @@ tags:
 - gRPC
 - Cost Optimization
 - Reseller Billing
-- API
 website: https://alphaus.cloud
 ---

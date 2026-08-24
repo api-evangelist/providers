@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -1101,13 +1101,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: apache-airflow-mcp.yml
-  slug: apache-airflow-mcpyml
+  name: Apache Airflow MCP Server
+  slug: apache-airflow-mcp-server
 modified: '2026-06-20'
 name: Apache Airflow
 nav: Providers
 network: true
-overview: 'Apache Airflow publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Config API, Connection API, DAG API, and 15 more. Tagged areas include Apache, DAG, Data Pipeline, ETL, and Open Source.
+overview: 'Apache Airflow publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Config API, Connection API, DAG API, and 15 more. Tagged areas include Apache, DAG, Data Pipeline, ETL, and Open-Source.
 
 
   The Apache Airflow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1147,18 +1147,18 @@ rules:
   slug: apache-airflow-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: -4.2
+  composite: 49.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 64.8
     developer_ergonomics: 59.5
     discoverability: 83.3
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 36.8
-  previous_composite: 53.6
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1168,8 +1168,8 @@ score:
       marker_coverage: 0.0
       total: 18
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/screenshots/apache-airflow-2026-06-20T172038.png
 security:
@@ -1191,11 +1191,11 @@ tags:
 - DAG
 - Data Pipeline
 - ETL
-- Open Source
+- Open-Source
 - Orchestration
 - Python
 - Scheduling
-- Workflow
+- Workflows
 use_cases:
 - description: Schedule and manage extract, transform, load pipelines with dependency management and retry logic.
   name: ETL Pipeline Orchestration

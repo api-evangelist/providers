@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-21'
 name: Wabi
 nav: Providers
 network: true
-overview: 'Wabi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, App Builder, No-Code, and Personal Software.
+overview: 'Wabi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, App Builder, No-Code, and Personal Software.
 
 
   Wabi''s developer surface includes signup flow and 4 more developer resources.'
@@ -79,8 +79,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -90,7 +90,7 @@ security:
 slug: wabi
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - App Builder
 - No-Code
 - Personal Software

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -130,7 +130,7 @@ description: Nx is an open-source, technology-agnostic monorepo build platform f
 image: https://github.com/nrwl.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: First-party Model Context Protocol server that gives AI coding assistants deep, graph-aware context about an Nx workspace — project dependencies, generators/plugins, live terminal output, and Nx Cloud
   name: Nx MCP Server (nx-mcp)
   slug: nx-mcp-server-nx-mcp
 modified: '2026-07-20'
@@ -149,7 +149,7 @@ random_paper: 20
 score:
   band: thin
   composite: 38.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -165,11 +165,11 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 39.4
+  previous_composite: 38.7
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nx/refs/heads/main/screenshots/nx-2026-08-07T185818.png
 security:
@@ -187,7 +187,7 @@ tags:
 - Continuous Integration
 - Caching
 - Command Line Interface
-- Model Context Protocol
+- MCP
 - JavaScript
 - TypeScript
 - DevOps

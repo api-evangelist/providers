@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ modified: '2026-08-13'
 name: Fivestars
 nav: Providers
 network: true
-overview: 'Fivestars is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, Payments, and Point of Sale.
+overview: 'Fivestars is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, Payments, and Point-of-Sale.
 
 
   Fivestars'' developer surface includes support and 13 more developer resources.'
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.4
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -137,15 +137,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 18.2
+  previous_composite: 14.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fivestars/refs/heads/main/screenshots/fivestars-2026-07-25T214648.png
 security:
@@ -159,7 +159,7 @@ tags:
 - Loyalty
 - Rewards
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Customer Engagement
 - Marketing
 - Small Business

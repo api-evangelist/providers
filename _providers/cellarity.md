@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 24.6
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -254,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 22.9
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,8 +270,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -289,7 +289,7 @@ tags:
 - Drug Discovery
 - Life Sciences
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Single Cell
 - Transcriptomics
 - Pharmaceuticals

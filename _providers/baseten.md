@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -269,7 +269,7 @@ modified: '2026-05-19'
 name: Baseten
 nav: Providers
 network: true
-overview: 'Baseten publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat Completions API and Messages API. Tagged areas include AI, ML, Inference, Deployment, and MLOps.
+overview: 'Baseten publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat Completions API and Messages API. Tagged areas include Artificial Intelligence, ML, Inference, Deployment, and MLOps.
 
 
   The Baseten catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -299,7 +299,7 @@ rules:
 score:
   band: thin
   composite: 35.9
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -309,7 +309,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 42.1
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -317,9 +317,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/screenshots/baseten-2026-06-20T173126.png
 security:
 - kind: authentication
@@ -336,12 +336,12 @@ security:
   summary_line: SOC 2, PCI DSS, HIPAA, GDPR, CSA STAR
 slug: baseten
 tags:
-- AI
+- Artificial Intelligence
 - ML
 - Inference
 - Deployment
 - MLOps
-- OpenAI Compatible
+- OpenAI-Compatible
 - Anthropic Compatible
 - Truss
 website: https://www.baseten.co/

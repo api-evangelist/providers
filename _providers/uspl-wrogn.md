@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -98,14 +98,14 @@ description: 'USPL (Universal Sportsbiz Pvt. Ltd.) is an Accel-backed Indian cel
 image: https://wrogn.com/cdn/shop/files/WROGN-LOGO-1.jpg?v=1704889508
 layout: provider
 mcp_servers:
-- description: ''
-  name: uspl-wrogn-mcp.yml
-  slug: uspl-wrogn-mcpyml
+- description: Wrogn (USPL / Universal Sportsbiz) runs its store on Shopify, which exposes the storefront's native MCP server publicly. POST https://wrogn.com/api/mcp answered MCP tools/list unauthenticated at probe
+  name: USPL Wrogn MCP Server
+  slug: uspl-wrogn-mcp-server
 modified: '2026-07-21'
 name: USPL Wrogn
 nav: Providers
 network: true
-overview: 'USPL Wrogn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, Apparel, and eCommerce.
+overview: 'USPL Wrogn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, Apparel, and E-Commerce.
 
 
   USPL Wrogn''s developer surface includes authentication, engineering blog, support, and 12 more developer resources.'
@@ -122,7 +122,7 @@ scopes:
 score:
   band: emerging
   composite: 19.8
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -132,13 +132,13 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.7
+  previous_composite: 19.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -155,7 +155,7 @@ tags:
 - Consumer
 - Fashion
 - Apparel
-- eCommerce
+- E-Commerce
 - Retail
 - India
 - Agentic Commerce

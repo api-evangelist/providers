@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -486,18 +486,18 @@ rules:
   slug: applovin-rules
 score:
   band: thin
-  composite: 37.2
-  delta: -24.6
+  composite: 37.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 30.7
     developer_ergonomics: 37.5
     discoverability: 92.6
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 47.4
-  previous_composite: 61.8
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -508,9 +508,9 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:
 - kind: authentication

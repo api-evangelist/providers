@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 8
@@ -812,7 +812,7 @@ modified: '2026-05-25'
 name: Viam
 nav: Providers
 network: true
-overview: 'Viam publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Provisioning API, Arm API, Audio In API, and 49 more. Tagged areas include Robotics, Edge AI, Fleet Management, Computer Vision, and Machine Learning.
+overview: 'Viam publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Provisioning API, Arm API, Audio In API, and 49 more. Tagged areas include Robotics, Edge AI, Fleet Management, Computer-Vision, and Machine-Learning.
 
 
   The Viam catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -852,18 +852,18 @@ rules:
   slug: viam-rules
 score:
   band: strong
-  composite: 61.0
-  delta: -5.6
+  composite: 61.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 69.2
     developer_ergonomics: 66.7
     discoverability: 59.3
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 66.6
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     contracts:
@@ -871,9 +871,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/screenshots/viam-2026-06-20T201013.png
 security:
 - kind: authentication
@@ -889,8 +889,8 @@ tags:
 - Robotics
 - Edge AI
 - Fleet Management
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - IoT
 - Embedded
 - gRPC

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Jobs with GraphQL
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: GraphQL Jobs
 nav: Providers
 network: true
-overview: GraphQL Jobs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
+overview: GraphQL Jobs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job and Public APIs.
 random_paper: 8
 score:
   band: minimal
@@ -78,12 +78,12 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: graphql-jobs
 tags:
-- Jobs
+- Job
 - Public APIs
 website: https://graphql.jobs/docs/api/
 ---

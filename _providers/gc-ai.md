@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -234,8 +234,8 @@ image: https://framerusercontent.com/images/Zth3qSTP7QF72InJJ60jCoqi190.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: gc-ai-mcp.yml
-  slug: gc-ai-mcpyml
+  name: GC AI MCP Server
+  slug: gc-ai-mcp-server
 modified: '2026-07-19'
 name: GC AI
 nav: Providers
@@ -252,7 +252,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.7
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -262,7 +262,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 58.1
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,8 +273,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/screenshots/gc-ai-2026-07-25T215510.png
 security:

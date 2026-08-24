@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Read-only GraphQL API exposing activity schedules (classes, courses, workshops, trainings, events, camps, retreats, educations), activity groups, venues, companies, teachers, and per-activity checkout
@@ -122,8 +122,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eversport.
 layout: provider
 mcp_servers:
 - description: ''
-  name: eversport-mcp.yml
-  slug: eversport-mcpyml
+  name: Eversports MCP Server
+  slug: eversports-mcp-server
 modified: '2026-07-19'
 name: Eversports
 nav: Providers
@@ -136,7 +136,7 @@ random_paper: 15
 score:
   band: thin
   composite: 30.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -146,13 +146,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 31.4
+  previous_composite: 30.3
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversport/refs/heads/main/screenshots/eversport-2026-07-25T213737.png
 security:
@@ -176,6 +176,6 @@ tags:
 - GraphQL
 - Reservations
 - Studio Management
-- Events
+- Event
 website: https://www.eversports.com/
 ---

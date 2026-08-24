@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public REST API for eCommerce shipping and order management — courier rate calculation and serviceability, order create/update/cancel, AWB and label generation, pickup scheduling, shipment tracking, r
@@ -131,13 +131,13 @@ image: https://sr-website.shiprocket.in/wp-content/uploads/2025/02/OG-Image-for-
 layout: provider
 mcp_servers:
 - description: ''
-  name: kartrocket-mcp.yml
-  slug: kartrocket-mcpyml
+  name: Shiprocket
+  slug: shiprocket
 modified: '2026-07-19'
 name: KartRocket
 nav: Providers
 network: true
-overview: 'KartRocket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shipping, Logistics, eCommerce, and Fulfillment.
+overview: 'KartRocket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shipping, Logistics, E-Commerce, and Fulfillment.
 
 
   KartRocket''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, authentication, and 15 more developer resources.'
@@ -145,7 +145,7 @@ random_paper: 11
 score:
   band: thin
   composite: 26.8
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -155,13 +155,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 30.0
+  previous_composite: 26.8
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartrocket/refs/heads/main/screenshots/kartrocket-2026-07-25T223516.png
 security:
@@ -178,9 +178,9 @@ tags:
 - Company
 - Shipping
 - Logistics
-- eCommerce
+- E-Commerce
 - Fulfillment
-- Last-Mile Delivery
+- Last Mile Delivery
 - India
 - Order Management
 website: https://shiprocket.in

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Fetch applicant data, hiring status and leads for a job.
@@ -210,13 +210,13 @@ image: https://images.ctfassets.net/0d3i1kfsuaq3/7DvjJdtfMfhzvhrPvEwY2r/792d0478
 layout: provider
 mcp_servers:
 - description: ''
-  name: phenom-mcp.yml
-  slug: phenom-mcpyml
+  name: Phenom MCP Server
+  slug: phenom-mcp-server
 modified: '2026-07-20'
 name: Phenom
 nav: Providers
 network: true
-overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Applications API, Candidates API, and 6 more. Tagged areas include Company, Hr Tech, Talent Experience, Recruiting, and Applicant Tracking.
+overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Applications API, Candidates API, and 6 more. Tagged areas include Company, HR Tech, Talent Experience, Recruiting, and Applicant Tracking.
 
 
   Phenom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 21 more developer resources.'
@@ -224,7 +224,7 @@ random_paper: 17
 score:
   band: developing
   composite: 48.6
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -234,7 +234,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 48.2
+  previous_composite: 48.6
   provenance:
     conformance: first-party
     contracts:
@@ -244,8 +244,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/screenshots/phenom-2026-08-17T081205.png
 security:
@@ -264,7 +264,7 @@ security:
 slug: phenom
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Talent Experience
 - Recruiting
 - Applicant Tracking

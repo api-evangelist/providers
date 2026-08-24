@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Public Model Context Protocol connector (search_hotels) plus an invite-only direct hotel-search API delivering live prices ranked by value, enriched property data, and destination price trends across '
@@ -118,8 +118,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trivago.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: trivago-mcp.yml
-  slug: trivago-mcpyml
+  name: Trivago MCP Server
+  slug: trivago-mcp-server
 modified: '2026-07-21'
 name: Trivago
 nav: Providers
@@ -131,23 +131,23 @@ overview: 'Trivago publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 8
 score:
   band: thin
-  composite: 26.4
-  delta: -1.1
+  composite: 27.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
   previous_composite: 27.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Universal Commerce Protocol Shopping service that Omaze UK exposes over the Model Context Protocol, advertised by Omaze in its own /agents.md and /llms.txt and described by the merchant profile at
@@ -155,14 +155,14 @@ description: 'Omaze is a for-profit social-impact entertainment company that run
 image: https://omaze.co.uk/cdn/shop/files/social_image-2.png?v=1753698911
 layout: provider
 mcp_servers:
-- description: ''
-  name: omaze-mcp.yml
-  slug: omaze-mcpyml
+- description: Omaze does not operate a general-purpose developer MCP server. What it does operate — on both of its live storefronts — is a Universal Commerce Protocol (UCP) Shopping service exposed over MCP, provis
+  name: Omaze MCP Server
+  slug: omaze-mcp-server
 modified: '2026-08-02'
 name: Omaze
 nav: Providers
 network: true
-overview: 'Omaze publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Charity, Fundraising, Nonprofit, and Prize Draws.
+overview: 'Omaze publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Charity, Fundraising, Non-Profit, and Prize Draws.
 
 
   Omaze''s developer surface includes documentation, getting-started guide, authentication, support, engineering blog, signup flow, and 23 more developer resources.'
@@ -179,7 +179,7 @@ scopes:
 score:
   band: thin
   composite: 29.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -189,13 +189,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 29.5
+  previous_composite: 29.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/screenshots/omaze-2026-08-07T190133.png
 security:
@@ -212,13 +212,13 @@ tags:
 - Company
 - Charity
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Prize Draws
 - Sweepstakes
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - United Kingdom
 - Germany

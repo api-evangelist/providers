@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ modified: '2026-08-14'
 name: Stack Moxie
 nav: Providers
 network: true
-overview: 'Stack Moxie publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Company, RevOps, Marketing Operations, Observability, and Monitoring.
+overview: 'Stack Moxie publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Company, Revenue Operations, Marketing Operations, Observability, and Monitoring.
 
 
   Stack Moxie''s developer surface includes authentication, API reference, documentation, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
@@ -246,8 +246,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/screenshots/stack-moxie-2026-08-17T082056.png
 security:
@@ -270,7 +270,7 @@ security:
 slug: stack-moxie
 tags:
 - Company
-- RevOps
+- Revenue Operations
 - Marketing Operations
 - Observability
 - Monitoring
@@ -282,6 +282,6 @@ tags:
 - Salesforce
 - Marketo
 - gRPC
-- SaaS
+- Software-as-a-Service
 website: https://stackmoxie.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: D-1 investor data for authorized fintechs and custodians - investment positions, account transactions, listed-asset buy/sell activity, public offering participation, and provisioned corporate events -
@@ -224,8 +224,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: b3-exchange-mcp.yml
-  slug: b3-exchange-mcpyml
+  name: B3 (Brasil Bolsa Balcão) MCP Server
+  slug: b3-brasil-bolsa-balcão-mcp-server
 modified: '2026-07-22'
 name: B3 (Brasil Bolsa Balcão)
 nav: Providers
@@ -243,7 +243,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -253,7 +253,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 44.3
+  previous_composite: 44.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -264,8 +264,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
 security:

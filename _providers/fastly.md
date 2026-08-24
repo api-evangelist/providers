@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 7
@@ -1340,18 +1340,18 @@ rules:
   slug: fastly-rules
 score:
   band: strong
-  composite: 60.4
-  delta: -4.9
+  composite: 60.7
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 79.3
     developer_ergonomics: 73.8
     discoverability: 68.5
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 65.3
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1359,8 +1359,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 81
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/screenshots/fastly-2026-06-20T181052.png
 security:
@@ -1383,11 +1383,11 @@ tags:
 - Edge Compute
 - WebAssembly
 - Security
-- AI
+- Artificial Intelligence
 - Observability
 - AsyncAPI
 - Streaming
-- Webhooks
+- Webhook
 - Logging
 website: https://www.fastly.com/
 ---

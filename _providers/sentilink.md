@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API providing real-time fraud risk scores including Synthetic Abuse Score, ID Theft Score, First-Party Fraud Score, and PII Risk Scores. Returns a numeric score (0–999) along with reason codes ex
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.3
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -142,9 +142,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentilink/refs/heads/main/screenshots/sentilink-2026-06-20T193706.png
 security:
@@ -163,7 +163,7 @@ tags:
 - Synthetic Identity
 - Account Takeover
 - First-Party Fraud
-- Financial Services
+- Financial-Services
 - Risk Scoring
 - Fintech
 - KYC

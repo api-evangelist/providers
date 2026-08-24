@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Condorsoftware
 nav: Providers
 network: true
-overview: 'Condorsoftware is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Clinical Trials, Financial Intelligence, and Pharmaceutical.
+overview: 'Condorsoftware is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Clinical Trials, Financial Intelligence, and Pharmaceuticals.
 
 
   Condorsoftware''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 10.5
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -86,15 +86,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.6
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/condorsoftware/refs/heads/main/screenshots/condorsoftware-2026-07-25T210231.png
 security:
@@ -108,7 +108,7 @@ tags:
 - Life Sciences
 - Clinical Trials
 - Financial Intelligence
-- Pharmaceutical
+- Pharmaceuticals
 - Biotech
 - FinOps
 - Artificial Intelligence

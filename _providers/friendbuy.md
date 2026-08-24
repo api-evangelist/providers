@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-08-13'
 name: Friendbuy
 nav: Providers
 network: true
-overview: 'Friendbuy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authorization API, Customers API, and 4 more. Tagged areas include Referral Marketing, Loyalty, Rewards, Ecommerce, and Marketing.
+overview: 'Friendbuy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authorization API, Customers API, and 4 more. Tagged areas include Referral Marketing, Loyalty, Rewards, E-Commerce, and Marketing.
 
 
   The Friendbuy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,7 +250,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.5
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -260,7 +260,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 65.9
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,9 +271,9 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/screenshots/friendbuy-2026-07-25T215215.png
 security:
 - kind: authentication
@@ -289,7 +289,7 @@ tags:
 - Referral Marketing
 - Loyalty
 - Rewards
-- Ecommerce
+- E-Commerce
 - Marketing
 - Advocacy
 website: https://friendbuy.com

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Employment Hero platform (behind humi.ca) — employees, organisations, payroll, leave, timesheets, rostering, documents, and webhooks. OAuth 2.0 authorization-code with PKCE; Bearer to
@@ -142,9 +142,9 @@ description: humi.ca is the Canadian HR, payroll, benefits, and hiring platform 
 image: https://employmenthero.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: humica-mcp.yml
-  slug: humica-mcpyml
+- description: Candidate MCP server surface derived from the documented resource groups of the Employment Hero API (the platform behind humi.ca). No official hosted / remote MCP server was found. Tools below are a c
+  name: humi.ca MCP Server
+  slug: humica-mcp-server
 modified: '2026-07-19'
 name: humi.ca
 nav: Providers
@@ -162,7 +162,7 @@ scopes:
 score:
   band: thin
   composite: 30.0
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -172,12 +172,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 29.6
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/screenshots/humica-2026-07-25T221713.png
 security:
@@ -203,6 +203,6 @@ tags:
 - Applicant Tracking
 - Employer of Record
 - Canada
-- SaaS
+- Software-as-a-Service
 website: https://employmenthero.com/en-ca/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Public and authenticated REST endpoints for spot and margin trading, including order placement, cancellation, order-book queries, trade history, and account balance management.
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.0
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -151,15 +151,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 38.1
+  previous_composite: 37.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gate-io/refs/heads/main/screenshots/gate-io-2026-06-20T181655.png
 security:
@@ -178,6 +178,6 @@ tags:
 - Options
 - WebSocket
 - Market Data
-- Wallet
+- Wallets
 website: https://www.gate.io/
 ---

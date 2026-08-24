@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -570,7 +570,7 @@ modified: '2026-05-19'
 name: Amazon EventBridge
 nav: Providers
 network: true
-overview: 'Amazon EventBridge publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Archives API, Event Buses API, Events API, and 2 more. Tagged areas include Amazon Web Services, Event Bus, Event-Driven, Events, and Integration.
+overview: 'Amazon EventBridge publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Archives API, Event Buses API, Events API, and 2 more. Tagged areas include Amazon Web Services, Event Bus, Event-Driven, Event, and Integration.
 
 
   The Amazon EventBridge catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -622,7 +622,7 @@ rules:
 score:
   band: strong
   composite: 59.2
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
@@ -632,7 +632,7 @@ score:
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 62.1
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     contracts:
@@ -640,8 +640,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/screenshots/amazon-eventbridge-2026-06-20T171644.png
 security:
@@ -666,7 +666,7 @@ tags:
 - Amazon Web Services
 - Event Bus
 - Event-Driven
-- Events
+- Event
 - Integration
 - Serverless
 use_cases:

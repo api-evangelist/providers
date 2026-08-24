@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Practice client data-health metrics and activity statistics
@@ -170,8 +170,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dext.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: dext-mcp.yml
-  slug: dext-mcpyml
+  name: Dext MCP Server
+  slug: dext-mcp-server
 modified: '2026-07-18'
 name: Dext
 nav: Providers
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.3
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -198,7 +198,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 51.5
+  previous_composite: 56.3
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/screenshots/dext-2026-07-25T211838.png
 security:

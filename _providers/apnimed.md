@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,7 +109,7 @@ modified: '2026-08-06'
 name: Apnimed
 nav: Providers
 network: true
-overview: 'Apnimed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Health Care, and Life Sciences.
+overview: 'Apnimed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Healthcare, and Life Sciences.
 
 
   Apnimed''s developer surface includes engineering blog, support, and 13 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 11.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -127,15 +127,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.2
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apnimed/refs/heads/main/screenshots/apnimed-2026-08-07T161455.png
 security:
@@ -148,7 +148,7 @@ tags:
 - Company
 - Pharmaceuticals
 - Biotechnology
-- Health Care
+- Healthcare
 - Life Sciences
 - Sleep Medicine
 - Clinical Trials

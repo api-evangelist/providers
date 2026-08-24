@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'A live, first-party, anonymously discoverable Model Context Protocol server implementing the Shopify Universal Commerce Protocol shopping service for the CURE storefront. Thirteen tools cover catalog '
@@ -172,14 +172,14 @@ examples:
 image: https://www.curehydration.com/cdn/shop/files/cure-logo1.jpg?v=1646413004
 layout: provider
 mcp_servers:
-- description: ''
-  name: cure-hydration-mcp.yml
-  slug: cure-hydration-mcpyml
+- description: CURE (Cure Hydration) serves a live, first-party, anonymously reachable Model Context Protocol server on its own domain at /api/ucp/mcp. It is the Shopify Universal Commerce Protocol (UCP) shopping se
+  name: CURE Universal Commerce Protocol (UCP) MCP Server
+  slug: cure-universal-commerce-protocol-ucp-mcp-server
 modified: '2026-08-11'
 name: Cure Hydration
 nav: Providers
 network: true
-overview: 'Cure Hydration publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Beverages, Health and Wellness, and Ecommerce.
+overview: 'Cure Hydration publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Beverages, Health and Wellness, and E-Commerce.
 
 
   Cure Hydration''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 46.4
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 43.9
+  previous_composite: 46.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -221,8 +221,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/screenshots/cure-hydration-2026-08-17T080844.png
 security:
@@ -240,13 +240,13 @@ tags:
 - Consumer Packaged Goods
 - Beverages
 - Health and Wellness
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - GraphQL
 website: https://www.curehydration.com
 ---

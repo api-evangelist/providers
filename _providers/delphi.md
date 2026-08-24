@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -214,9 +214,9 @@ description: 'Delphi is an AI platform for building "Digital Minds" — hyper-re
 image: https://avatars.githubusercontent.com/u/120126721?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: delphi-mcp.yml
-  slug: delphi-mcpyml
+- description: No official hosted/remote Delphi MCP server was found (searched docs.delphi.ai, the delphi-ai GitHub org, and the MCP registry / @modelcontextprotocol npm). This is a CANDIDATE tool list derived one-t
+  name: Delphi MCP Server
+  slug: delphi-mcp-server
 modified: '2026-07-18'
 name: Delphi
 nav: Providers
@@ -232,7 +232,7 @@ random_paper: 0
 score:
   band: developing
   composite: 40.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -242,7 +242,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 41.7
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +253,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/screenshots/delphi-2026-07-25T211653.png
 security:
@@ -278,6 +278,6 @@ tags:
 - RAG
 - Knowledge Base
 - Creator Economy
-- Webhooks
+- Webhook
 website: https://delphi.ai
 ---

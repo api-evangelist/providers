@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API to access a user''s Streamlabs account: donations, custom alerts, loyalty points, media share, alert profiles, credits, tip jar, wheel spin, and a real-time Socket API. OAuth 2.0 with per-feat'
@@ -135,8 +135,8 @@ image: https://cdn.streamlabs.com/static/imgs/logos/kevin-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: stream-labs-mcp.yml
-  slug: stream-labs-mcpyml
+  name: Stream Labs MCP Server
+  slug: stream-labs-mcp-server
 modified: '2026-07-21'
 name: Stream Labs
 nav: Providers
@@ -152,24 +152,24 @@ scopes:
   slug: stream-labs-scopes
   summary_line: 13 scopes
 score:
-  band: emerging
-  composite: 25.9
-  delta: -3.5
+  band: thin
+  composite: 27.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 29.4
+  previous_composite: 27.0
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -193,8 +193,8 @@ tags:
 - Donations
 - Loyalty Points
 - Media Share
-- OAuth
-- Real-time
+- Authentication
+- Real-Time
 - Streaming Tools
 website: https://streamlabs.com/
 ---

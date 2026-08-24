@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-18'
 name: BoomTrain
 nav: Providers
 network: true
-overview: BoomTrain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Personalization, Machine Learning, and Artificial Intelligence.
+overview: BoomTrain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Personalization, Machine-Learning, and Artificial Intelligence.
 random_paper: 5
 score:
   band: minimal
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boomtrain/refs/heads/main/screenshots/boomtrain-2026-07-25T203619.png
 security:
@@ -78,7 +78,7 @@ tags:
 - Company
 - Marketing
 - Personalization
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Email
 - Customer Engagement

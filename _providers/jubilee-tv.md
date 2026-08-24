@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -107,8 +107,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jubilee-tv
 layout: provider
 mcp_servers:
 - description: ''
-  name: jubilee-tv-mcp.yml
-  slug: jubilee-tv-mcpyml
+  name: Jubilee TV MCP Server
+  slug: jubilee-tv-mcp-server
 modified: '2026-08-08'
 name: Jubilee TV
 nav: Providers
@@ -125,24 +125,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.1
-  delta: -0.6
+  composite: 23.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.7
+  previous_composite: 23.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jubilee-tv/refs/heads/main/screenshots/jubilee-tv-2026-08-07T171053.png
 security:

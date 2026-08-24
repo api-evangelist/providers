@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -40,8 +40,8 @@ description: Superset is a company surfaced as a portfolio company of y-combinat
 layout: provider
 mcp_servers:
 - description: ''
-  name: superset-mcp.yml
-  slug: superset-mcpyml
+  name: Superset MCP Server
+  slug: superset-mcp-server
 modified: '2026-07-17'
 name: Superset
 nav: Providers
@@ -55,15 +55,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: minimal
-  composite: 6.1
-  delta: -1.0
+  composite: 7.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 1.8
-    discoverability: 35.2
+    discoverability: 46.3
     governance: 18.2
     operational_transparency: 0.0
   needs_work:
@@ -72,13 +72,13 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 7.1
+  previous_composite: 7.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

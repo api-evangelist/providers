@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for the Bonjoro personal-video platform. Create and assign greets (video tasks) for one or many recipients, manage recipient profiles and campaigns/workspaces, upload recordings to presigned '
@@ -139,7 +139,7 @@ modified: '2026-08-12'
 name: Bonjoro
 nav: Providers
 network: true
-overview: 'Bonjoro publishes 1 API on the [APIs.io](https://apis.io/) network: API V2. Tagged areas include video-messaging, customer-engagement, customer-success, sales-engagement, and marketing-automation.
+overview: 'Bonjoro publishes 1 API on the [APIs.io](https://apis.io/) network: API V2. Tagged areas include Video Messaging, Customer Engagement, Customer Success, Sales Engagement, and Marketing Automation.
 
 
   The Bonjoro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -178,8 +178,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png
 security:
@@ -193,15 +193,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: bonjoro
 tags:
-- video-messaging
-- customer-engagement
-- customer-success
-- sales-engagement
-- marketing-automation
-- video
-- crm-integration
-- testimonials
-- saas
-- australia
+- Video Messaging
+- Customer Engagement
+- Customer Success
+- Sales Engagement
+- Marketing Automation
+- Video
+- CRM Integration
+- Testimonials
+- Software-as-a-Service
+- Australia
 website: https://bonjoro.com/
 ---

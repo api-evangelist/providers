@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 5
@@ -854,7 +854,7 @@ modified: '2026-05-19'
 name: Memesio
 nav: Providers
 network: true
-overview: 'Memesio publishes 42 APIs on the [APIs.io](https://apis.io/) network, including agent-infra API, ai API, ai-captions API, and 39 more. Tagged areas include Memes, Media, Image Generation, Content, and Developer Tools.
+overview: 'Memesio publishes 42 APIs on the [APIs.io](https://apis.io/) network, including agent-infra API, ai API, ai-captions API, and 39 more. Tagged areas include Memes, Media, Image-Generation, Content, and Developer Tools.
 
 
   The Memesio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -894,18 +894,18 @@ rules:
   slug: memesio-rules
 score:
   band: thin
-  composite: 36.8
-  delta: -6.2
+  composite: 36.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 50.6
     developer_ergonomics: 21.4
-    discoverability: 87.0
-    governance: 9.8
+    discoverability: 77.8
+    governance: 13.6
     operational_transparency: 15.8
-  previous_composite: 43.0
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -913,9 +913,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/screenshots/memesio-2026-06-20T185140.png
 security:
 - kind: authentication
@@ -930,7 +930,7 @@ slug: memesio
 tags:
 - Memes
 - Media
-- Image Generation
+- Image-Generation
 - Content
 - Developer Tools
 website: https://memesio.com/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The AgentOps Python SDK is the primary entry point, installable via pip install agentops and initialized with two lines of code. It auto-instruments supported agent frameworks and LLM providers, suppo
@@ -187,7 +187,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.8
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -197,9 +197,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentops/refs/heads/main/screenshots/agentops-2026-06-20T170038.png
 security:
@@ -214,7 +214,7 @@ tags:
 - Evaluation
 - Tracing
 - Python SDK
-- Open Source
+- Open-Source
 - Agent Frameworks
 use_cases:
 - description: Inspect multi-step agent runs, tool calls, and intermediate reasoning to find failures.

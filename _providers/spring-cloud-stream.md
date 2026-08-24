@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Core programmatic API for building message-driven microservice applications. Provides functional programming model with java.util.function.Function, Consumer and Supplier bindings, binding lifecycle m
@@ -145,7 +145,7 @@ rules:
 score:
   band: emerging
   composite: 23.5
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -155,10 +155,10 @@ score:
     discoverability: 81.5
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 23.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/screenshots/spring-cloud-stream-2026-06-20T194411.png
 security:
 - kind: domain-security

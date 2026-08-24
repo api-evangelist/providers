@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Humanising Autonomy
 nav: Providers
 network: true
-overview: 'Humanising Autonomy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Behavioral AI, Computer Vision, and Road Safety.
+overview: 'Humanising Autonomy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Behavioral AI, Computer-Vision, and Road Safety.
 
 
   Humanising Autonomy''s developer surface includes engineering blog, YouTube channel, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 17
 score:
   band: minimal
   composite: 7.3
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -92,20 +92,20 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: humanising-autonomy
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Behavioral AI
-- Computer Vision
+- Computer-Vision
 - Road Safety
 - ADAS
 - Automotive
 - Telematics
-- Machine Learning
+- Machine-Learning
 website: https://humanisingautonomy.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Model Context Protocol (MCP) is an open-source standard for connecting AI applications to external systems including data sources, tools, and workflows. Originally developed by Anthropic and donat
@@ -142,7 +142,7 @@ modified: '2026-04-19'
 name: Agentic AI Foundation
 nav: Providers
 network: true
-overview: 'Agentic AI Foundation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Linux Foundation, Open Source, Standards, and MCP.
+overview: 'Agentic AI Foundation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Linux Foundation, Open-Source, Standards, and MCP.
 
 
   The Agentic AI Foundation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -172,7 +172,7 @@ rules:
 score:
   band: emerging
   composite: 21.7
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -182,10 +182,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 27.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 21.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/screenshots/agentic-ai-foundation-2026-06-20T170026.png
 security:
 - kind: domain-security
@@ -196,7 +196,7 @@ slug: agentic-ai-foundation
 tags:
 - AI Agents
 - Linux Foundation
-- Open Source
+- Open-Source
 - Standards
 - MCP
 - Agentic AI

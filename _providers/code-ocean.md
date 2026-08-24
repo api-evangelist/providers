@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -144,9 +144,9 @@ description: Code Ocean is a computational research platform that helps scientis
 image: https://raw.githubusercontent.com/codeocean/branding/main/logo/CO_logo_135x72.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: code-ocean-mcp.yml
-  slug: code-ocean-mcpyml
+- description: Official Code Ocean MCP server. Provides tools to search and run capsules and pipelines and to manage data assets. Runs locally as a stdio child process; authenticates with a Code Ocean access token v
+  name: Code Ocean MCP Server
+  slug: code-ocean-mcp-server
 modified: '2026-07-18'
 name: Code Ocean
 nav: Providers
@@ -164,7 +164,7 @@ scopes:
 score:
   band: developing
   composite: 41.2
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -174,7 +174,7 @@ score:
     discoverability: 74.1
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 38.4
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,8 +191,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/screenshots/code-ocean-2026-07-25T205905.png
 security:

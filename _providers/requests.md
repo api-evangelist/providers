@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Requests is a simple and elegant HTTP library for Python, designed for human beings. It provides a clean, human-friendly API for all standard HTTP methods with automatic content handling, authenticati
@@ -124,7 +124,7 @@ modified: '2026-05-02'
 name: Requests
 nav: Providers
 network: true
-overview: 'Requests publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clients, HTTP Client, HTTP Library, Open Source, and Python.
+overview: 'Requests publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clients, HTTP Client, HTTP Library, Open-Source, and Python.
 
 
   The Requests catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -154,7 +154,7 @@ rules:
 score:
   band: emerging
   composite: 20.6
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -164,16 +164,16 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 27.3
+  previous_composite: 20.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/requests/refs/heads/main/screenshots/requests-2026-06-20T192923.png
 security:
 - kind: domain-security
@@ -185,7 +185,7 @@ tags:
 - Clients
 - HTTP Client
 - HTTP Library
-- Open Source
+- Open-Source
 - Python
 - Python Software Foundation
 website: https://requests.readthedocs.io

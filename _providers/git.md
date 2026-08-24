@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Git command-line interface for version control operations.
@@ -92,13 +92,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/git.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: git-mcp.yml
-  slug: git-mcpyml
+  name: Git MCP Server
+  slug: git-mcp-server
 modified: '2026-06-20'
 name: Git
 nav: Providers
 network: true
-overview: 'Git publishes 3 APIs on the [APIs.io](https://apis.io/) network: GitHub API, GitLab API, and Gitea API. Tagged areas include Distributed, Git, Open Source, Source Code Management, and Version Control.
+overview: 'Git publishes 3 APIs on the [APIs.io](https://apis.io/) network: GitHub API, GitLab API, and Gitea API. Tagged areas include Distributed, Git, Open-Source, Source Code Management, and Version Control.
 
 
   Git''s developer surface includes documentation and 8 more developer resources.'
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.2
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -124,12 +124,12 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 27.2
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/screenshots/git-2026-06-20T181828.png
 security:
@@ -149,7 +149,7 @@ slug: git
 tags:
 - Distributed
 - Git
-- Open Source
+- Open-Source
 - Source Code Management
 - Version Control
 website: https://git-scm.com/

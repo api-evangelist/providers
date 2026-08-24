@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-05-04'
 name: Extra Space Storage
 nav: Providers
 network: true
-overview: 'Extra Space Storage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Self Storage, Real Estate, REIT, and Storage.
+overview: 'Extra Space Storage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Self Storage, Real-Estate, REIT, and Storage.
 
 
   Extra Space Storage''s developer surface includes support, engineering blog, and 9 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 4.0
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -102,10 +102,10 @@ score:
     discoverability: 35.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 4.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extra-space-storage/refs/heads/main/screenshots/extra-space-storage-2026-08-07T165121.png
 security:
 - kind: domain-security
@@ -115,7 +115,7 @@ security:
 slug: extra-space-storage
 tags:
 - Self Storage
-- Real Estate
+- Real-Estate
 - REIT
 - Storage
 website: https://www.extraspace.com

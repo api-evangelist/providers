@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Theta Lake API (v1) provides programmatic access to the DCGA platform: ingest AI, audio, chat, document, email, and video content; manage records, comments, labels, and dispositions; run unified s'
@@ -139,8 +139,8 @@ image: https://thetalake.com/wp-content/uploads/2018/05/TL_logo_transparent.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: theta-lake-mcp.yml
-  slug: theta-lake-mcpyml
+  name: Theta Lake MCP Server
+  slug: theta-lake-mcp-server
 modified: '2026-07-21'
 name: Theta Lake
 nav: Providers
@@ -158,7 +158,7 @@ scopes:
 score:
   band: thin
   composite: 28.3
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -168,7 +168,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 38.2
+  previous_composite: 28.3
   provenance:
     conformance: first-party
     contracts:
@@ -178,9 +178,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Theta Lake Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 4.0
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -95,15 +95,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 6.1
+  previous_composite: 4.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbital-insight/refs/heads/main/screenshots/orbital-insight-2026-06-20T191159.png
 security:
@@ -118,13 +118,13 @@ tags:
 - Satellite Imagery
 - Earth Observation
 - Remote Sensing
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Artificial Intelligence
 - Supply Chain
 - Commodities
-- Oil And Gas
-- Defense And Intelligence
+- Oil and Gas
+- Defense and Intelligence
 - National Security
 - Maritime
 - AIS

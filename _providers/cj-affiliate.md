@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 10
@@ -256,14 +256,14 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cj-affiliate.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cj-affiliate-mcp.yml
-  slug: cj-affiliate-mcpyml
+- description: CJ Affiliate ships NO Model Context Protocol server. Searches on 2026-08-13 found no CJ-published remote MCP endpoint, no npm or PyPI package under a CJ or Conversant namespace, no mention of MCP anyw
+  name: CJ Affiliate MCP Server
+  slug: cj-affiliate-mcp-server
 modified: '2026-08-13'
 name: CJ Affiliate
 nav: Providers
 network: true
-overview: 'CJ Affiliate publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CJ Commission Detail API, CJ Product Search API, Advertiser Lookup API, and 5 more. Tagged areas include Affiliate Marketing, Affiliate Network, Commission, Product Search, and Publisher.
+overview: 'CJ Affiliate publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CJ Commission Detail API, CJ Product Search API, Advertiser Lookup API, and 5 more. Tagged areas include Affiliate Marketing, Affiliate Network, Commission, Product Search, and Publishers.
 
 
   The CJ Affiliate catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -282,7 +282,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
-  delta: -11.3
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -292,7 +292,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 61.5
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,9 +303,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/screenshots/cj-affiliate-2026-07-25T205448.png
 security:
 - kind: authentication
@@ -322,10 +322,10 @@ tags:
 - Affiliate Network
 - Commission
 - Product Search
-- Publisher
+- Publishers
 - Advertiser
 - GraphQL
-- Ecommerce
+- E-Commerce
 - Product Feeds
 - Conversion Tracking
 - Attribution

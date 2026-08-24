@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful card-issuing and payments platform API for users, cards, card products, accounts, funding/transfers, limits, transactions and webhooks.
@@ -155,8 +155,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nymcard.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: nymcard-mcp.yml
-  slug: nymcard-mcpyml
+  name: Nymcard MCP Server
+  slug: nymcard-mcp-server
 modified: '2026-07-20'
 name: Nymcard
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 15
 score:
   band: developing
   composite: 48.8
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -182,7 +182,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 45.0
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nymcard/refs/heads/main/screenshots/nymcard-2026-08-07T185835.png
 security:

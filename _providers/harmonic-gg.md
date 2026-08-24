@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: gRPC bundle-submission interface for searchers. Authenticate with a Solana keypair (challenge-response to Bearer tokens), then submit atomic transaction bundles with revert protection. Backwards-compa
@@ -146,8 +146,8 @@ image: https://harmonic.gg/api/og?v=home
 layout: provider
 mcp_servers:
 - description: ''
-  name: harmonic-gg-mcp.yml
-  slug: harmonic-gg-mcpyml
+  name: Harmonic GG MCP Server
+  slug: harmonic-gg-mcp-server
 modified: '2026-07-19'
 name: Harmonic GG
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 8
 score:
   band: thin
   composite: 30.4
-  delta: 4.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -170,13 +170,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 25.5
+  previous_composite: 30.4
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/screenshots/harmonic-gg-2026-07-25T220716.png
 security:

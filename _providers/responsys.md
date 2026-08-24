@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Responsys REST API (v1.3) manages profile lists and recipients, profile extension tables, supplemental data tables, campaigns and campaign schedules, programs, folders, the content library, trigge
@@ -51,6 +51,10 @@ collections:
   name: REST API for Oracle Responsys Marketing Cloud Service
   slug: open-responsys
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -179,7 +183,7 @@ created: '2026-07-17'
 description: Oracle Responsys (Oracle Responsys Campaign Management) is a B2C cross-channel marketing orchestration platform, originally founded as Responsys and acquired by Oracle in 2014, now part of Oracle Marketing. It lets marketing teams design and deliver targeted, personalized customer experiences across email, mobile push, SMS, MMS, web push, display, and web channels, unifying data from disparate sources into precisely targeted audiences delivered in near real-time. Responsys exposes a REST API (v1.3, published as a Swagger 2.0 document with 88 operations), an asynchronous AFTM API, an Event Notification webhook API covering 26 campaign event types, and a legacy SOAP API — managing profile lists and recipients, profile extension tables, supplemental tables, campaigns and schedules, programs, folders, the content library, triggered email/SMS/push messages, events, and account settings. This profile catalogs the public Oracle Responsys developer surface for the API Evangelist network.
 image: https://www.oracle.com/asset/web/favicons/favicon-192.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-08-21'
 name: Responsys
 nav: Providers
 network: true
@@ -189,7 +193,7 @@ overview: 'Responsys publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Responsys catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Responsys'' developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 25 more developer resources.'
+  Responsys'' developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 26 more developer resources.'
 plans:
 - name: Responsys Plans Pricing
   plan_count: 0
@@ -202,7 +206,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.5
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -212,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 68.4
-  previous_composite: 49.5
+  previous_composite: 53.5
   provenance:
     conformance: derived
     contracts:
@@ -228,8 +232,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/screenshots/responsys-2026-08-17T081535.png
 security:
@@ -260,8 +264,8 @@ tags:
 - Customer Engagement
 - Push Notifications
 - SMS
-- Webhooks
+- Webhook
 - Oracle
-- Martech
+- MarTech
 website: https://www.oracle.com/cx/marketing/campaign-management/
 ---

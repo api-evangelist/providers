@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -295,7 +295,7 @@ modified: '2026-05-19'
 name: Google Apps Script
 nav: Providers
 network: true
-overview: 'Google Apps Script publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Processes API, processes:listScriptProcesses API, Projects API, and 1 more. Tagged areas include Apps Script, Automation, Deployments, Google, and Google Workspace.
+overview: 'Google Apps Script publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Processes API, processes:listScriptProcesses API, Projects API, and 1 more. Tagged areas include Apps Script, Automation, Deployment, Google, and Google Workspace.
 
 
   The Google Apps Script catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -334,19 +334,19 @@ rules:
     warn: 5
   slug: google-apps-script-spectral-rules
 score:
-  band: thin
-  composite: 38.8
-  delta: -6.8
+  band: developing
+  composite: 39.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 62.1
     developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 45.6
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -354,9 +354,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/screenshots/google-apps-script-2026-06-20T182017.png
 security:
 - kind: domain-security
@@ -371,7 +371,7 @@ slug: google-apps-script
 tags:
 - Apps Script
 - Automation
-- Deployments
+- Deployment
 - Google
 - Google Workspace
 - Scripting

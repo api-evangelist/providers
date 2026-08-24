@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ modified: '2026-07-17'
 name: MarvelX
 nav: Providers
 network: true
-overview: MarvelX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
+overview: MarvelX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Artificial Intelligence.
 random_paper: 11
 score:
   band: minimal
@@ -66,13 +66,13 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 4.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marvelx/refs/heads/main/screenshots/marvelx-2026-07-25T230318.png
 slug: marvelx
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 website: https://www.marvelx.ai/
 ---

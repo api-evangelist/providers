@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Public, unauthenticated OBIE Open Data API listing the location, accessibility, supported currencies, and services of Nationwide ATMs across the UK. Confirmed live (HTTP 200, application/json) at v2.2
@@ -196,13 +196,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: nationwide-building-society-mcp.yml
-  slug: nationwide-building-society-mcpyml
+  name: Nationwide Building Society MCP Server
+  slug: nationwide-building-society-mcp-server
 modified: '2026-07-23'
 name: Nationwide Building Society
 nav: Providers
 network: true
-overview: 'Nationwide Building Society publishes 3 APIs on the [APIs.io](https://apis.io/) network: Nationwide ATM Locator API, Nationwide Branch Locator API, and Nationwide Personal Current Accounts API. Tagged areas include Financial Services, Banking, Building Society, Open Banking, and PSD2.
+overview: 'Nationwide Building Society publishes 3 APIs on the [APIs.io](https://apis.io/) network: Nationwide ATM Locator API, Nationwide Branch Locator API, and Nationwide Personal Current Accounts API. Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
 
 
   Nationwide Building Society''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, and 26 more developer resources.'
@@ -215,7 +215,7 @@ scopes:
 score:
   band: developing
   composite: 45.6
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 40.8
+  previous_composite: 45.6
   provenance:
     conformance: first-party
     contracts:
@@ -241,8 +241,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/screenshots/nationwide-building-society-2026-08-07T184659.png
 security:
@@ -260,7 +260,7 @@ security:
   summary_line: security.txt · contact published
 slug: nationwide-building-society
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Open Banking

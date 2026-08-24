@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The Analytics API from Sequel — 2 operation(s) for analytics.
@@ -272,9 +272,9 @@ description: Sequel is a webinar and virtual-event platform for data-driven mark
 image: https://sequel.io/wp-content/themes/sequelio/assets/favicon-128x128.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sequel-mcp.yml
-  slug: sequel-mcpyml
+- description: Official Sequel MCP server. Makes event transcripts and audience/engagement data a native data source inside MCP-capable AI tools (the product page names Claude, ChatGPT, Microsoft Copilot and Gemini)
+  name: Sequel MCP Server
+  slug: sequel-mcp-server
 modified: '2026-08-13'
 name: Sequel
 nav: Providers
@@ -303,7 +303,7 @@ scopes:
 score:
   band: strong
   composite: 60.8
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -313,7 +313,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 64.6
+  previous_composite: 60.8
   provenance:
     conformance: derived
     contracts:
@@ -323,8 +323,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/screenshots/sequel-2026-08-17T081812.png
 security:
@@ -349,7 +349,7 @@ tags:
 - Video
 - Networking
 - Marketing
-- Events
-- Webhooks
+- Event
+- Webhook
 website: https://sequel.io/
 ---

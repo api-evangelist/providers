@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ modified: '2026-05-11'
 name: AWS CodeBuild
 nav: Providers
 network: true
-overview: 'AWS CodeBuild publishes 1 API on the [APIs.io](https://apis.io/) network: AWS CodeBuild API API. Tagged areas include Build, CI/CD, Continuous Integration, Developer Tools, and DevOps.
+overview: 'AWS CodeBuild publishes 1 API on the [APIs.io](https://apis.io/) network: AWS CodeBuild API API. Tagged areas include Builds, CI/CD, Continuous Integration, Developer Tools, and DevOps.
 
 
   AWS CodeBuild''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, and 10 more developer resources.'
@@ -134,7 +134,7 @@ random_paper: 13
 score:
   band: thin
   composite: 36.4
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -144,7 +144,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 36.9
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/screenshots/aws-codebuild-2026-06-20T172754.png
 security:
@@ -175,7 +175,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: aws-codebuild
 tags:
-- Build
+- Builds
 - CI/CD
 - Continuous Integration
 - Developer Tools

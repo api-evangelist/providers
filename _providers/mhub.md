@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: MHub's REST API for its property-sales platform. The API is served from api.mhub.my and is authentication-gated (all probed endpoints return HTTP 401); no public OpenAPI/Swagger definition was availab
@@ -80,7 +80,7 @@ modified: '2026-07-20'
 name: MHub
 nav: Providers
 network: true
-overview: 'MHub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Property Technology, PropTech, and Malaysia.
+overview: 'MHub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Property Technology, PropTech, and Malaysia.
 
 
   MHub''s developer surface includes documentation, engineering blog, changelog, pricing, and 5 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 12.2
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -98,9 +98,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 15.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mhub/refs/heads/main/screenshots/mhub-2026-08-07T172813.png
 security:
@@ -111,7 +111,7 @@ security:
 slug: mhub
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Property Technology
 - PropTech
 - Malaysia
@@ -119,6 +119,6 @@ tags:
 - CRM
 - Accounting
 - E-Invoicing
-- SaaS
+- Software-as-a-Service
 website: https://mhub.my
 ---

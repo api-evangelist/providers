@@ -30,7 +30,7 @@ tags:
 - Developer Tools
 - Infrastructure
 - Artificial Intelligence
-- Future of Work
+- Future Of Work
 - Enterprise
 - San Francisco
 - New York

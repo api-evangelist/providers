@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -123,13 +123,13 @@ image: https://obot.ai/wp-content/uploads/2026/05/obot_linkedin_01-1500x396-2.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: obot-mcp.yml
-  slug: obot-mcpyml
+  name: Obot MCP Server
+  slug: obot-mcp-server
 modified: '2026-07-20'
 name: Obot
 nav: Providers
 network: true
-overview: 'Obot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Model Context Protocol, AI Agents, and MCP Gateway.
+overview: 'Obot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, MCP Gateway, and Open-Source.
 
 
   Obot''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, authentication, CLI, and 14 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 16
 score:
   band: thin
   composite: 28.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -147,12 +147,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 29.0
+  previous_composite: 28.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/screenshots/obot-2026-08-07T185908.png
 security:
@@ -172,10 +172,9 @@ slug: obot
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - MCP Gateway
-- Open Source
+- Open-Source
 - Agent Governance
 - Access Control
 - Developer Tools

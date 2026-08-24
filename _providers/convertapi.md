@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-06-13'
 name: ConvertAPI
 nav: Providers
 network: true
-overview: 'ConvertAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion API, File Server API, and User API. Tagged areas include File Conversion, PDF, Documents, Images, and Audio.
+overview: 'ConvertAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion API, File Server API, and User API. Tagged areas include File Conversion, PDF, Documents, Image, and Audio.
 
 
   The ConvertAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -199,7 +199,7 @@ rules:
 score:
   band: developing
   composite: 46.0
-  delta: -8.8
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -209,7 +209,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 54.8
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -217,9 +217,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/screenshots/convertapi-2026-06-20T174957.png
 security:
 - kind: authentication
@@ -239,10 +239,10 @@ tags:
 - File Conversion
 - PDF
 - Documents
-- Images
+- Image
 - Audio
 - Video
-- E-books
+- Ebooks
 - Office Documents
 - Batch Processing
 website: https://www.convertapi.com/

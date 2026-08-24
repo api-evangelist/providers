@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -539,14 +539,14 @@ json_structures:
   slug: facebook-business-manager-structure
 layout: provider
 mcp_servers:
-- description: ''
-  name: facebook-business-manager-mcp.yml
-  slug: facebook-business-manager-mcpyml
+- description: Meta ships two official, Meta-hosted remote MCP servers reachable at mcp.facebook.com. The Ads MCP server (https://mcp.facebook.com/ads) exposes Meta's ads, catalog, signals and reporting surface to a
+  name: Facebook Business Manager MCP Server
+  slug: facebook-business-manager-mcp-server
 modified: '2026-08-13'
 name: Facebook Business Manager
 nav: Providers
 network: true
-overview: 'Facebook Business Manager publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ad Accounts API, Ad Creatives API, Ad Images API, and 11 more. Tagged areas include Advertising, Analytics, Business Management, Marketing, and Social Media.
+overview: 'Facebook Business Manager publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ad Accounts API, Ad Creatives API, Ad Images API, and 11 more. Tagged areas include Advertising, Analytics, Business Management, Marketing, and Social-Media.
 
 
   The Facebook Business Manager catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -580,18 +580,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 67.9
-  delta: -7.0
+  composite: 69.0
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
     contract_governance: 40.2
     contract_quality: 68.3
     developer_ergonomics: 78.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 40.2
     operational_transparency: 76.3
-  previous_composite: 74.9
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -602,9 +602,9 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/screenshots/facebook-business-manager-2026-06-20T181003.png
 security:
 - kind: authentication
@@ -625,11 +625,11 @@ tags:
 - Analytics
 - Business Management
 - Marketing
-- Social Media
+- Social-Media
 - Messaging
 - Commerce
 - Agents
 - MCP
-- Webhooks
+- Webhook
 website: https://www.meta.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -288,14 +288,14 @@ description: Band (BAND AI) is enterprise-grade interaction infrastructure for d
 image: https://www.band.ai/apple-touch-icon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: band-ai-mcp.yml
-  slug: band-ai-mcpyml
+- description: Official Band MCP server for AI client integration (Claude Code, Cursor, etc.). Runs locally over stdio and connects to the Band platform. Tool availability is gated by the API key type supplied via T
+  name: Band AI MCP Server
+  slug: band-ai-mcp-server
 modified: '2026-07-18'
 name: Band AI
 nav: Providers
 network: true
-overview: 'Band AI publishes 19 APIs on the [APIs.io](https://apis.io/) network, including agentApiActivity API, agentApiChats API, agentApiChatTasks API, and 16 more. Tagged areas include Company, AI, AI Agents, Multi-Agent, and Agent Infrastructure.
+overview: 'Band AI publishes 19 APIs on the [APIs.io](https://apis.io/) network, including agentApiActivity API, agentApiChats API, agentApiChatTasks API, and 16 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Multi-Agent, and Agent Infrastructure.
 
 
   The Band AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -306,7 +306,7 @@ random_paper: 1
 score:
   band: developing
   composite: 53.1
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -316,7 +316,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 56.0
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,8 +327,8 @@ score:
       total: 19
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/screenshots/band-ai-2026-07-25T202331.png
 security:
@@ -343,7 +343,7 @@ security:
 slug: band-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Multi-Agent
 - Agent Infrastructure

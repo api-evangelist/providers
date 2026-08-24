@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The CNI specification defines the interface between container runtimes and network plugins. It specifies how runtimes invoke plugins via environment variables (CNI_COMMAND, CNI_CONTAINERID, CNI_NETNS,
@@ -120,7 +120,7 @@ modified: '2026-04-23'
 name: Container Network Interface (CNI)
 nav: Providers
 network: true
-overview: 'Container Network Interface (CNI) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Containers, Incubating, Kubernetes, and Networking.
+overview: 'Container Network Interface (CNI) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Containers, Incubating, Kubernetes, and Networking.
 
 
   The Container Network Interface (CNI) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -150,7 +150,7 @@ rules:
 score:
   band: emerging
   composite: 22.7
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -160,10 +160,10 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 22.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cni/refs/heads/main/screenshots/cni-2026-06-20T174634.png
 security:
 - kind: domain-security
@@ -172,7 +172,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: cni
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Incubating
 - Kubernetes

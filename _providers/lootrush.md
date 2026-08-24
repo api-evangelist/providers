@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -147,9 +147,9 @@ description: 'LootRush is a gaming and crypto platform (backed by Paradigm) that
 image: https://www.lootrush.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: lootrush-mcp.yml
-  slug: lootrush-mcpyml
+- description: Streamable HTTP (JSON-RPC 2.0), stateless — one request, one response. POST only.
+  name: LootRush MCP Server
+  slug: lootrush-mcp-server
 modified: '2026-07-20'
 name: LootRush
 nav: Providers
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.8
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 36.3
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/screenshots/lootrush-2026-07-25T225545.png
 security:
@@ -215,6 +215,5 @@ tags:
 - Payments
 - Withdrawals
 - MCP
-- API
 website: https://www.lootrush.com
 ---

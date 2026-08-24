@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -193,8 +193,8 @@ image: https://robinhood.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: robinhood-mcp.yml
-  slug: robinhood-mcpyml
+  name: Robinhood MCP Server
+  slug: robinhood-mcp-server
 modified: '2026-07-21'
 name: Robinhood
 nav: Providers
@@ -207,7 +207,7 @@ random_paper: 19
 score:
   band: developing
   composite: 48.4
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -217,7 +217,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 46.8
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +234,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/screenshots/robinhood-2026-08-17T081615.png
 security:
@@ -259,7 +259,7 @@ tags:
 - Trading
 - Brokerage
 - Investing
-- Financial Services
+- Financial-Services
 - Crypto
 website: https://robinhood.com
 ---

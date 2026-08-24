@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,13 +173,13 @@ image: https://www.mashvisor.com/favicon-32x32.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mashvisor-mcp.yml
-  slug: mashvisor-mcpyml
+  name: Mashvisor MCP Server
+  slug: mashvisor-mcp-server
 modified: '2026-07-20'
 name: Mashvisor
 nav: Providers
 network: true
-overview: 'Mashvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Investment Analysis API, Property Info API, Rental Rates API, and 2 more. Tagged areas include Company, Real Estate, Property Data, Analytics, and Rental.
+overview: 'Mashvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Investment Analysis API, Property Info API, Rental Rates API, and 2 more. Tagged areas include Company, Real-Estate, Property Data, Analytics, and Rentals.
 
 
   Mashvisor''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
@@ -187,7 +187,7 @@ random_paper: 1
 score:
   band: thin
   composite: 36.7
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 44.5
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,9 +208,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/screenshots/mashvisor-2026-07-25T230328.png
 security:
 - kind: authentication
@@ -224,10 +224,10 @@ security:
 slug: mashvisor
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Property Data
 - Analytics
-- Rental
+- Rentals
 - Airbnb
 - Investment
 - MLS

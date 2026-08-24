@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 6
@@ -320,7 +320,7 @@ modified: '2026-06-13'
 name: BTCPay Server
 nav: Providers
 network: true
-overview: 'BTCPay Server publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, Authorization API, and 28 more. Tagged areas include Bitcoin, Cryptocurrency, Payments, Lightning Network, and Open Source.
+overview: 'BTCPay Server publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, Authorization API, and 28 more. Tagged areas include Bitcoin, Cryptocurrency, Payments, Lightning Network, and Open-Source.
 
 
   BTCPay Server''s developer surface includes authentication, documentation, engineering blog, YouTube channel, changelog, support, and 13 more developer resources.'
@@ -335,18 +335,18 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: -2.9
+  composite: 33.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 56.8
     developer_ergonomics: 28.6
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.2
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -360,8 +360,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/screenshots/btcpay-2026-06-20T173732.png
 security:
@@ -379,7 +379,7 @@ tags:
 - Cryptocurrency
 - Payments
 - Lightning Network
-- Open Source
+- Open-Source
 - Self-Hosted
 website: https://btcpayserver.org
 ---

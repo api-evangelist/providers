@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -197,8 +197,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/move-bank.
 layout: provider
 mcp_servers:
 - description: ''
-  name: move-bank-mcp.yml
-  slug: move-bank-mcpyml
+  name: MOVE Bank MCP Server
+  slug: move-bank-mcp-server
 modified: '2026-07-21'
 name: MOVE Bank
 nav: Providers
@@ -216,7 +216,7 @@ scopes:
 score:
   band: thin
   composite: 32.9
-  delta: -9.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 42.7
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,9 +243,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png
 security:
 - kind: authentication

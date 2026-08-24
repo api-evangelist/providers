@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'Universal Commerce Protocol (UCP) MCP endpoint published on the Arccos Golf Shopify storefront for agent-driven commerce. An anonymous JSON-RPC tools/list returns 13 tools covering catalog search and '
@@ -202,16 +202,16 @@ image: https://www.arccosgolf.com/cdn/shop/files/Arccos_Logo-Inline.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: arccos-golf-mcp.yml
-  slug: arccos-golf-mcpyml
+  name: Arccos Golf Storefront UCP MCP Server
+  slug: arccos-golf-storefront-ucp-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Arccos Golf MCP Server
+  slug: arccos-golf-mcp-server
 modified: '2026-08-06'
 name: Arccos Golf
 nav: Providers
 network: true
-overview: 'Arccos Golf publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clubs API, Courses API, Rounds API, and 2 more. Tagged areas include Company, golf, sports-technology, wearables, and iot.
+overview: 'Arccos Golf publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clubs API, Courses API, Rounds API, and 2 more. Tagged areas include Company, Golf, Sports Technology, Wearables, and IoT.
 
 
   The Arccos Golf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -226,18 +226,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.5
-  delta: -1.8
+  composite: 44.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
     contract_quality: 53.3
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 45.3
+  previous_composite: 44.6
   provenance:
     conformance: derived
     contracts:
@@ -247,8 +247,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/screenshots/arccos-golf-2026-08-07T161622.png
 security:
@@ -263,18 +263,18 @@ security:
 slug: arccos-golf
 tags:
 - Company
-- golf
-- sports-technology
-- wearables
-- iot
+- Golf
+- Sports Technology
+- Wearables
+- IoT
 - shot-tracking
-- sports-analytics
-- performance-analytics
-- geospatial
-- consumer-hardware
-- webhooks
-- oauth2
-- mcp
-- ecommerce
+- Sports Analytics
+- Performance Analytics
+- Geospatial
+- Consumer Hardware
+- Webhook
+- Authentication
+- MCP
+- E-Commerce
 website: https://www.arccosgolf.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: The Accounts API from Lorum — 5 operation(s) for accounts.
@@ -212,8 +212,8 @@ image: https://cdn.prod.website-files.com/691dc048eb27bd1d29e459b1/692b0683e9466
 layout: provider
 mcp_servers:
 - description: ''
-  name: lorum-mcp.yml
-  slug: lorum-mcpyml
+  name: Lorum MCP Server
+  slug: lorum-mcp-server
 modified: '2026-07-20'
 name: Lorum
 nav: Providers
@@ -229,7 +229,7 @@ random_paper: 13
 score:
   band: developing
   composite: 43.4
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -239,7 +239,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 45.4
+  previous_composite: 43.4
   provenance:
     conformance: derived
     contracts:
@@ -255,8 +255,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/screenshots/lorum-2026-07-25T225554.png
 security:
@@ -278,8 +278,8 @@ tags:
 - Settlement
 - Treasury
 - Multi-Currency
-- Accounts
+- Account
 - Foreign Exchange
-- Webhooks
+- Webhook
 website: https://www.lorum.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-06-20'
 name: PromptLayer
 nav: Providers
 network: true
-overview: 'PromptLayer publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Evaluations & Datasets API, Logging & Tracking API, Prompt Registry API, and 1 more. Tagged areas include AI, LLM, Prompt Engineering, Prompt Management, and Observability.
+overview: 'PromptLayer publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Evaluations & Datasets API, Logging & Tracking API, Prompt Registry API, and 1 more. Tagged areas include Artificial Intelligence, LLM, Prompt Engineering, Prompt Management, and Observability.
 
 
   PromptLayer''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.8
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/screenshots/promptlayer-2026-06-20T192157.png
 security:
@@ -174,7 +174,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: promptlayer
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Prompt Engineering
 - Prompt Management

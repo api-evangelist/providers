@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ rules:
 score:
   band: thin
   composite: 30.7
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -241,7 +241,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 35.7
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -255,9 +255,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/screenshots/university-of-cape-town-2026-06-20T200148.png
 security:
 - kind: domain-security

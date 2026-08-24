@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful Poka API for building integrations with third-party manufacturing and enterprise systems, plus SCIM for automated user provisioning. Developer/API documentation is delivered per-tenant (behind
@@ -120,7 +120,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 14.0
-  delta: -13.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -130,12 +130,12 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 27.3
+  previous_composite: 14.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Poka Domain Security
@@ -153,7 +153,7 @@ tags:
 - Frontline Operations
 - Industrial
 - Workforce Training
-- Integrations
-- SaaS
+- Integration
+- Software-as-a-Service
 website: https://www.poka.io
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -287,7 +287,7 @@ modified: '2026-06-02'
 name: ItsaCheckmate
 nav: Providers
 network: true
-overview: 'ItsaCheckmate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Menus API, OAuth API, and 1 more. Tagged areas include Restaurant, Point Of Sale, Online Ordering, Delivery, and Menus.
+overview: 'ItsaCheckmate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Menus API, OAuth API, and 1 more. Tagged areas include Restaurant, Point-of-Sale, Online Ordering, Delivery, and Menus.
 
 
   The ItsaCheckmate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -327,18 +327,18 @@ rules:
   slug: itsacheckmate-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: -5.7
+  composite: 37.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 23.2
     developer_ergonomics: 32.1
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 43.2
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -346,9 +346,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/screenshots/itsacheckmate-2026-06-20T183633.png
 security:
 - kind: authentication
@@ -362,11 +362,11 @@ security:
 slug: itsacheckmate
 tags:
 - Restaurant
-- Point Of Sale
+- Point-of-Sale
 - Online Ordering
 - Delivery
 - Menus
-- Orders
+- Order
 - Integration
 website: https://www.itsacheckmate.com/
 ---

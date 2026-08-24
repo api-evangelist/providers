@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Argus Research API provides programmatic access to equity research reports, stock ratings, analyst recommendations, earnings estimates, target prices, and sector analysis. Used by institutional cl
@@ -103,7 +103,7 @@ modified: '2026-04-19'
 name: Argus Investor
 nav: Providers
 network: true
-overview: 'Argus Investor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Equity Analysis, Financial Data, Financial Services, Investment Ratings, and Stock Research.
+overview: 'Argus Investor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Equity Analysis, Financial Data, Financial-Services, Investment Ratings, and Stock Research.
 
 
   Argus Investor''s developer surface includes documentation, developer portal, support, engineering blog, and 2 more developer resources.'
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.4
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -129,9 +129,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 14.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-investor/refs/heads/main/screenshots/argus-investor-2026-06-20T172426.png
 security:
@@ -143,7 +143,7 @@ slug: argus-investor
 tags:
 - Equity Analysis
 - Financial Data
-- Financial Services
+- Financial-Services
 - Investment Ratings
 - Stock Research
 use_cases:

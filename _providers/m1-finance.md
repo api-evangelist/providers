@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: M1 Invest provides automated fractional share portfolio management using the Pies system, allowing users to set target allocations across stocks and ETFs with dynamic rebalancing, auto-invest, and div
@@ -107,7 +107,7 @@ modified: 2026-06-13
 name: M1 Finance
 nav: Providers
 network: true
-overview: 'M1 Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Investing, Fintech, Fractional Shares, Portfolio Management, and Robo-Advisor.
+overview: 'M1 Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Investing, Fintech, Fractional Shares, Portfolio-Management, and Robo-Advisor.
 
 
   M1 Finance''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.6
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -133,15 +133,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.5
+  previous_composite: 26.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/m1-finance/refs/heads/main/screenshots/m1-finance-2026-06-20T184822.png
 security:
@@ -154,7 +154,7 @@ tags:
 - Investing
 - Fintech
 - Fractional Shares
-- Portfolio Management
+- Portfolio-Management
 - Robo-Advisor
 - Margin Loans
 - Banking

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -171,9 +171,9 @@ description: Andel is a cooperative marketplace for drug affordability that unlo
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/andel.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: andel-mcp.yml
-  slug: andel-mcpyml
+- description: Andel publishes a hosted, remote MCP server for its developer documentation (Fern docs MCP). AI clients (Claude Code, Cursor, etc.) connect to it to search and retrieve Andel Data Exchange API docs. I
+  name: Andel MCP Server
+  slug: andel-mcp-server
 modified: '2026-07-17'
 name: Andel
 nav: Providers
@@ -194,7 +194,7 @@ scopes:
 score:
   band: developing
   composite: 50.8
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -204,7 +204,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 48.8
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,8 +221,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/screenshots/andel-2026-07-25T200224.png
 security:
@@ -243,6 +243,6 @@ tags:
 - Drug Pricing
 - Specialty Medications
 - Data Exchange
-- Webhooks
+- Webhook
 website: https://www.andel.org
 ---

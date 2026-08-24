@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 375
   human_in_the_loop: 8
@@ -445,7 +445,7 @@ random_paper: 4
 score:
   band: developing
   composite: 51.4
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -455,7 +455,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 50.3
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -463,8 +463,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/screenshots/descope-2026-06-20T175937.png
 security:
@@ -498,7 +498,6 @@ tags:
 - Passkeys
 - MFA
 - SSO
-- OAuth
 - OIDC
 - SAML
 - SCIM

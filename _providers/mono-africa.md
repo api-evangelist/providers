@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.5
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -167,7 +167,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 27.1
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 20.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/screenshots/mono-africa-2026-08-07T184204.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Attenuation setpoint control
@@ -158,8 +158,8 @@ image: https://ninefives.com/cdn/shop/files/NineFivesLogo.svg?v=1775235707
 layout: provider
 mcp_servers:
 - description: ''
-  name: nine-fives-mcp.yml
-  slug: nine-fives-mcpyml
+  name: Nine Fives MCP Server
+  slug: nine-fives-mcp-server
 modified: '2026-07-20'
 name: Nine Fives
 nav: Providers
@@ -171,18 +171,18 @@ overview: 'Nine Fives publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 4
 score:
   band: developing
-  composite: 40.1
-  delta: -0.3
+  composite: 41.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 30.3
     contract_quality: 47.0
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 40.4
+  previous_composite: 41.2
   provenance:
     conformance: first-party
     contracts:
@@ -192,8 +192,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/screenshots/nine-fives-2026-08-07T185318.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -74,14 +74,14 @@ description: 'Our Place is a direct-to-consumer kitchenware and cookware brand, 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/our-place.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: our-place-mcp.yml
-  slug: our-place-mcpyml
+- description: Our Place (fromourplace.com) exposes a live, hosted Model Context Protocol server for agent-driven commerce via the Universal Commerce Protocol (UCP), provided natively by the Shopify platform. Agents
+  name: Our Place UCP Shopping MCP
+  slug: our-place-ucp-shopping-mcp
 modified: '2026-07-20'
 name: Our Place
 nav: Providers
 network: true
-overview: 'Our Place is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Retail, Cookware, and Consumer.
+overview: 'Our Place is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Cookware, and Consumer.
 
 
   Our Place''s developer surface includes authentication and 8 more developer resources.'
@@ -94,7 +94,7 @@ scopes:
 score:
   band: emerging
   composite: 12.3
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -104,11 +104,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.9
+  previous_composite: 12.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/our-place/refs/heads/main/screenshots/our-place-2026-08-07T191045.png
 security:
@@ -123,7 +123,7 @@ security:
 slug: our-place
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Cookware
 - Consumer

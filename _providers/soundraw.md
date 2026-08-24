@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: B2B HTTP API for generating royalty-free AI music at scale, supporting per-end-user music creation with style, mood, genre, length, and instrument customization. Generated tracks are cleared for perpe
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.4
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -107,9 +107,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 19.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundraw/refs/heads/main/screenshots/soundraw-2026-06-20T194220.png
 security:

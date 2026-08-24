@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -191,13 +191,13 @@ image: https://stream.co/api/media/file/Home_Hero_Left.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: wagestream-mcp.yml
-  slug: wagestream-mcpyml
+  name: Wagestream MCP Server
+  slug: wagestream-mcp-server
 modified: '2026-08-05'
 name: Wagestream
 nav: Providers
 network: true
-overview: 'Wagestream publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Employees API, Enrollment API, and 2 more. Tagged areas include financial-wellbeing, earned-wage-access, fintech, payroll, and human-resources.
+overview: 'Wagestream publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Employees API, Enrollment API, and 2 more. Tagged areas include Financial Wellbeing, Earned Wage Access, Fintech, Payroll, and Human Resources.
 
 
   Wagestream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
@@ -205,7 +205,7 @@ random_paper: 1
 score:
   band: developing
   composite: 45.9
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -215,7 +215,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 51.5
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,9 +226,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/screenshots/wagestream-2026-08-17T082831.png
 security:
 - kind: authentication
@@ -245,17 +245,17 @@ security:
   summary_line: trust center published
 slug: wagestream
 tags:
-- financial-wellbeing
-- earned-wage-access
-- fintech
-- payroll
-- human-resources
-- workforce-management
-- time-and-attendance
-- employee-benefits
-- workplace-savings
-- hr-integrations
-- b-corp
-- united-kingdom
+- Financial Wellbeing
+- Earned Wage Access
+- Fintech
+- Payroll
+- Human Resources
+- Workforce Management
+- Time and Attendance
+- Employee Benefits
+- Workplace Savings
+- HR Integrations
+- B Corp
+- United Kingdom
 website: https://stream.co/en
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 60
@@ -448,8 +448,8 @@ image: https://devcycle.com/social-default.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: devcycle-mcp.yml
-  slug: devcycle-mcpyml
+  name: DevCycle MCP Server
+  slug: devcycle-mcp-server
 modified: '2026-07-18'
 name: DevCycle
 nav: Providers
@@ -465,7 +465,7 @@ random_paper: 7
 score:
   band: strong
   composite: 62.1
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -475,7 +475,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 64.7
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -486,8 +486,8 @@ score:
       total: 25
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/screenshots/devcycle-2026-07-25T211810.png
 security:

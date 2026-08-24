@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for building and operating conversational voice AI agents — create and manage agents, place outbound calls, run CSV batch campaigns, wire inbound numbers and SIP trunks, purchase/search phone
@@ -175,14 +175,14 @@ description: Bolna is a voice AI platform for building, testing, deploying, and 
 image: https://www.bolna.ai/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: bolna-mcp.yml
-  slug: bolna-mcpyml
+- description: Official remote MCP server (Streamable HTTP) wrapping the Bolna voice AI REST API. Manage voice agents, phone numbers, batches, and outbound calls from any MCP client. Authenticate with a Bolna API ke
+  name: Bolna MCP Server
+  slug: bolna-mcp-server
 modified: '2026-07-18'
 name: Bolna
 nav: Providers
 network: true
-overview: 'Bolna publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Voice AI, Conversational AI, and Voice Agents.
+overview: 'Bolna publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Voice AI, Conversational AI, and Voice Agents.
 
 
   The Bolna catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.4
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -207,14 +207,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 56.8
+  previous_composite: 49.4
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/screenshots/bolna-2026-07-25T203540.png
 security:
 - kind: authentication
@@ -228,7 +228,7 @@ security:
 slug: bolna
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Voice AI
 - Conversational AI
 - Voice Agents

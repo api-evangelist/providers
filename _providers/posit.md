@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -369,8 +369,8 @@ image: https://posit.co/wp-content/uploads/2022/10/Posit-Logo-Black-TransparentB
 layout: provider
 mcp_servers:
 - description: ''
-  name: posit-mcp.yml
-  slug: posit-mcpyml
+  name: Posit MCP Server
+  slug: posit-mcp-server
 modified: '2026-07-20'
 name: Posit
 nav: Providers
@@ -383,7 +383,7 @@ random_paper: 13
 score:
   band: developing
   composite: 47.0
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -393,7 +393,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 47.7
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -404,8 +404,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/screenshots/posit-2026-08-17T081325.png
 security:
@@ -426,7 +426,7 @@ tags:
 - R
 - Python
 - Publishing
-- Machine Learning
+- Machine-Learning
 - Enterprise
 - Reproducibility
 website: https://posit.co

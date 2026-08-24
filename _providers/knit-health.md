@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-19'
 name: Knit Health
 nav: Providers
 network: true
-overview: 'Knit Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Artificial Intelligence, and Machine Learning.
+overview: 'Knit Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Artificial Intelligence, and Machine-Learning.
 
 
   Knit Health''s developer surface includes engineering blog and 8 more developer resources.'
@@ -85,7 +85,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 7.4
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -95,15 +95,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.9
+  previous_composite: 7.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knit-health/refs/heads/main/screenshots/knit-health-2026-07-25T223958.png
 security:
@@ -117,7 +117,7 @@ tags:
 - Health
 - Healthcare
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Clinical Intelligence
 - Electronic Health Records
 - Health Systems

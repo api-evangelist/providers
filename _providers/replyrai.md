@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for the Replyr operator console at app.replyr.ai. Covers business account details, admins and teams, tags, custom fields and bot fields, contacts (create, look up, tag, set fields), outbound '
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.0
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -145,7 +145,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 28.7
+  previous_composite: 28.0
   provenance:
     conformance: derived
     contracts:
@@ -161,8 +161,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

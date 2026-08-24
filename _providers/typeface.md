@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -289,13 +289,13 @@ image: https://images.ctfassets.net/x690ow8339ug/g36Rl9hYe43Kx6buA0HBv/752c90259
 layout: provider
 mcp_servers:
 - description: ''
-  name: typeface-mcp.yml
-  slug: typeface-mcpyml
+  name: Typeface MCP Server
+  slug: typeface-mcp-server
 modified: '2026-08-13'
 name: Typeface
 nav: Providers
 network: true
-overview: 'Typeface publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Authentication API, Basic Services API, and 12 more. Tagged areas include Company, Ai, Artificial Intelligence, Content Generation, and Marketing.
+overview: 'Typeface publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Authentication API, Basic Services API, and 12 more. Tagged areas include Company, Artificial Intelligence, Content Generation, Marketing, and Agents.
 
 
   The Typeface catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -319,7 +319,7 @@ scopes:
 score:
   band: developing
   composite: 53.3
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -329,7 +329,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 60.1
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,9 +340,9 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/screenshots/typeface-2026-08-17T082511.png
 security:
 - kind: authentication
@@ -364,7 +364,6 @@ security:
 slug: typeface
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Content Generation
 - Marketing

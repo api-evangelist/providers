@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-20'
 name: Palus Finance
 nav: Providers
 network: true
-overview: 'Palus Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Treasury Management, and Cash Management.
+overview: 'Palus Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Treasury Management, and Cash Management.
 
 
   Palus Finance''s developer surface includes signup flow and 1 more developer resources.'
@@ -73,14 +73,14 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palus-finance/refs/heads/main/screenshots/palus-finance-2026-08-07T191326.png
 slug: palus-finance
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Treasury Management
 - Cash Management

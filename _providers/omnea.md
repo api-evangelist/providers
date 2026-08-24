@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Omnea''s documented public REST API for programmatic access to the procurement platform. The reference is served as a client-rendered docs app; the OpenAPI definition is not published at a static path '
@@ -102,14 +102,14 @@ description: Omnea is an AI-native procurement platform that automates the full 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omnea.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: omnea-mcp.yml
-  slug: omnea-mcpyml
+- description: Omnea operates an official remote MCP (Model Context Protocol) server at https://mcp.omnea.co, surfaced from the Omnea homepage as its primary developer/integration entry point and used to power conve
+  name: Omnea MCP Server
+  slug: omnea-mcp-server
 modified: '2026-07-20'
 name: Omnea
 nav: Providers
 network: true
-overview: 'Omnea publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Procurement, Source-to-Pay, and Supplier Management.
+overview: 'Omnea publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Procurement, Source-to-Pay, and Supplier Management.
 
 
   Omnea''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 9 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 19.5
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -127,12 +127,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 25.7
+  previous_composite: 19.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnea/refs/heads/main/screenshots/omnea-2026-08-07T190143.png
 security:
 - kind: authentication
@@ -146,7 +146,7 @@ security:
 slug: omnea
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Procurement
 - Source-to-Pay
 - Supplier Management

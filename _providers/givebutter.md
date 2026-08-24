@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ modified: '2026-04-28'
 name: Givebutter
 nav: Providers
 network: true
-overview: 'Givebutter publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, Discount Codes API, and 6 more. Tagged areas include Donations, Fundraising, and Nonprofits.
+overview: 'Givebutter publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, Discount Codes API, and 6 more. Tagged areas include Donations, Fundraising, and Non-Profit.
 
 
   Givebutter''s developer surface includes authentication, documentation, and 6 more developer resources.'
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.4
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -176,7 +176,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 29.8
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/screenshots/givebutter-2026-06-20T181853.png
 security:
@@ -201,6 +201,6 @@ slug: givebutter
 tags:
 - Donations
 - Fundraising
-- Nonprofits
+- Non-Profit
 website: https://givebutter.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The ADP Payroll API provides programmatic access to payroll processing capabilities including earnings, deductions, pay statements, and payroll runs for employees across ADP Workforce Now and ADP Vant
@@ -138,7 +138,7 @@ modified: '2026-04-19'
 name: Automatic Data Processing (ADP)
 nav: Providers
 network: true
-overview: 'Automatic Data Processing (ADP) publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HCM, Human Capital Management, HR, Payroll, and Benefits.
+overview: 'Automatic Data Processing (ADP) publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HCM, HR, Payroll, Benefits, and Workforce Management.
 
 
   Automatic Data Processing (ADP)''s developer surface includes engineering blog, developer portal, documentation, getting-started guide, authentication, signup flow, support, and 5 more developer resources.'
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.8
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -180,10 +180,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 34.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 25.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automatic-data-processing/refs/heads/main/screenshots/automatic-data-processing-2026-06-20T172654.png
 security:
 - kind: domain-security
@@ -193,7 +193,6 @@ security:
 slug: automatic-data-processing
 tags:
 - HCM
-- Human Capital Management
 - HR
 - Payroll
 - Benefits

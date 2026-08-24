@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Part of Cuscal's CMS REST API family for card issuers. Enables instant digital card issuance and provisioning of cards into mobile and digital wallets (the 'Pays') for online and in-store transactions
@@ -121,7 +121,7 @@ random_paper: 5
 score:
   band: thin
   composite: 30.1
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -131,7 +131,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 31.9
+  previous_composite: 30.1
   provenance:
     conformance: first-party
   regulatory:
@@ -140,8 +140,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuscal/refs/heads/main/screenshots/cuscal-2026-07-25T211000.png
 security:
@@ -161,6 +161,6 @@ tags:
 - Consumer Data Right
 - Account-to-Account
 - Fraud
-- Banking-as-a-Service
+- Banking as a Service
 website: https://www.cuscal.com/
 ---

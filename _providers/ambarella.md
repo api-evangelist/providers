@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,29 +96,29 @@ modified: '2026-07-17'
 name: Ambarella
 nav: Providers
 network: true
-overview: 'Ambarella is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Edge AI, Computer Vision, and Artificial Intelligence.
+overview: 'Ambarella is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Edge AI, Computer-Vision, and Artificial Intelligence.
 
 
   Ambarella''s developer surface includes documentation, support, engineering blog, and 11 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 15.5
-  delta: -0.5
+  composite: 16.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 16.0
+  previous_composite: 16.6
   provenance:
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambarella/refs/heads/main/screenshots/ambarella-2026-07-25T200023.png
 security:
@@ -135,7 +135,7 @@ tags:
 - Company
 - Semiconductors
 - Edge AI
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Automotive
 - Robotics

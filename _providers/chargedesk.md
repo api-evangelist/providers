@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ modified: '2026-06-13'
 name: ChargeDesk
 nav: Providers
 network: true
-overview: 'ChargeDesk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Charges API, Customers API, Gateway API, and 3 more. Tagged areas include Payments, Billing, Subscriptions, Charges, and Refunds.
+overview: 'ChargeDesk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Charges API, Customers API, Gateway API, and 3 more. Tagged areas include Payments, Billing, Subscription, Charges, and Refunds.
 
 
   The ChargeDesk catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -224,7 +224,7 @@ rules:
 score:
   band: developing
   composite: 42.4
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -234,7 +234,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 45.5
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -248,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/screenshots/chargedesk-2026-06-20T174221.png
 security:
@@ -269,7 +269,7 @@ slug: chargedesk
 tags:
 - Payments
 - Billing
-- Subscriptions
+- Subscription
 - Charges
 - Refunds
 - Customer Management

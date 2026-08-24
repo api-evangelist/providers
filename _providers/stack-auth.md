@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ modified: '2026-05-23'
 name: Stack Auth
 nav: Providers
 network: true
-overview: 'Stack Auth publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Connected Accounts API, Contact Channels API, and 10 more. Tagged areas include Authentication, User Management, Open Source, Self-Hosted, and Identity.
+overview: 'Stack Auth publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Connected Accounts API, Contact Channels API, and 10 more. Tagged areas include Authentication, User Management, Open-Source, Self-Hosted, and Identity.
 
 
   Stack Auth''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 6 more developer resources.'
@@ -221,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/screenshots/stack-auth-2026-06-20T194441.png
 security:
@@ -238,10 +238,10 @@ slug: stack-auth
 tags:
 - Authentication
 - User Management
-- Open Source
+- Open-Source
 - Self-Hosted
 - Identity
-- Organizations
+- Organization
 - RBAC
 website: https://stack-auth.com/
 ---

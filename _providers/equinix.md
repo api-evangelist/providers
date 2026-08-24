@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 4
@@ -578,7 +578,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.9
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -588,7 +588,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.1
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -596,8 +596,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 74
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png
 security:

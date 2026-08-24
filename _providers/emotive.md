@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The public Emotive Open API for eCommerce integrations — track orders for attribution, opt a phone number out of SMS, and push custom events that can trigger an Emotive Flow. Authenticated with an Emo
@@ -166,13 +166,13 @@ image: https://www.emotive.io/assets/brand/emotive-symbol-blue-on-transparent.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: emotive-mcp.yml
-  slug: emotive-mcpyml
+  name: Emotive Knowledge Base MCP Server
+  slug: emotive-knowledge-base-mcp-server
 modified: '2026-08-13'
 name: Emotive
 nav: Providers
 network: true
-overview: 'Emotive publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Open API, Lists API (Subscriber Engine), Sensus Webhooks API, and 4 more. Tagged areas include Company, Marketing, SMS, Messaging, and eCommerce.
+overview: 'Emotive publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Open API, Lists API (Subscriber Engine), Sensus Webhooks API, and 4 more. Tagged areas include Company, Marketing, SMS, Messaging, and E-Commerce.
 
 
   The Emotive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
-  delta: 5.3
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 44.9
+  previous_composite: 50.2
   provenance:
     conformance: first-party
     contracts:
@@ -217,9 +217,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/screenshots/emotive-2026-07-25T213253.png
 security:
 - kind: authentication
@@ -236,11 +236,11 @@ tags:
 - Marketing
 - SMS
 - Messaging
-- eCommerce
+- E-Commerce
 - Marketing Automation
 - Text Message Marketing
 - Conversational Commerce
-- Webhooks
+- Webhook
 - Customer Data
 - Segmentation
 - Attribution

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -258,14 +258,14 @@ description: Hootsuite is a social media management platform that lets organizat
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hootsuite.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: hootsuite-mcp.yml
-  slug: hootsuite-mcpyml
+- description: Hootsuite serves a remote Model Context Protocol endpoint from its own developer-documentation host at https://developer.hootsuite.com/mcp. A plain GET returns the plain-text banner "This URL can only
+  name: Hootsuite Developer Documentation MCP
+  slug: hootsuite-developer-documentation-mcp
 modified: '2026-08-13'
 name: Hootsuite
 nav: Providers
 network: true
-overview: 'Hootsuite publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API, Analytics REST API, Inbox 2.0 API, and 1 more. Tagged areas include Social Media, Social Media Management, Marketing, Content Scheduling, and Analytics.
+overview: 'Hootsuite publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API, Analytics REST API, Inbox 2.0 API, and 1 more. Tagged areas include Social-Media, Social Media Management, Marketing, Content Scheduling, and Analytics.
 
 
   The Hootsuite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -289,7 +289,7 @@ scopes:
 score:
   band: strong
   composite: 63.6
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -299,7 +299,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 81.6
-  previous_composite: 71.6
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,9 +310,9 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/screenshots/hootsuite-2026-06-20T182835.png
 security:
 - kind: authentication
@@ -329,7 +329,7 @@ security:
   summary_line: Hackerone · security.txt
 slug: hootsuite
 tags:
-- Social Media
+- Social-Media
 - Social Media Management
 - Marketing
 - Content Scheduling
@@ -339,7 +339,7 @@ tags:
 - Employee Advocacy
 - Customer Service
 - SCIM
-- OAuth 2.0
-- Webhooks
+- Authentication
+- Webhook
 website: https://www.hootsuite.com
 ---

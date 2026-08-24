@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -207,8 +207,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: ease-mcp.yml
-  slug: ease-mcpyml
+  name: Ease MCP Server
+  slug: ease-mcp-server
 modified: '2026-07-25'
 name: Ease
 nav: Providers
@@ -224,7 +224,7 @@ random_paper: 15
 score:
   band: developing
   composite: 44.5
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -234,7 +234,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 42.6
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,8 +251,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png
 security:
@@ -277,7 +277,7 @@ tags:
 - Group Benefits
 - Health Insurance
 - Insurtech
-- Broker
+- Brokers
 - Enrollment
 - EDI
 - Payroll

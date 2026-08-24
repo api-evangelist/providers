@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 15
 apis:
 - description: Endpoints for creating and managing loan application contracts
@@ -234,8 +234,8 @@ image: https://www.lendkey.com/wp-content/uploads/2018/08/cropped-LK512.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lendkey-mcp.yml
-  slug: lendkey-mcpyml
+  name: LendKey MCP Server
+  slug: lendkey-mcp-server
 modified: '2026-07-19'
 name: LendKey
 nav: Providers
@@ -256,7 +256,7 @@ scopes:
 score:
   band: developing
   composite: 49.9
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -266,7 +266,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 46.5
+  previous_composite: 49.9
   provenance:
     conformance: derived
     contracts:
@@ -282,8 +282,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
 security:
@@ -305,7 +305,7 @@ tags:
 - Credit Unions
 - Banking
 - Loan Origination
-- Financial Services
+- Financial-Services
 - Payments
 - E-Signature
 - Treasury

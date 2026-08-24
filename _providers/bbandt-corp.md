@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Provides access to personal and small business account data including account balances, account details, and account lists for authenticated customers. Supports open banking use cases for fintech appl
@@ -136,7 +136,7 @@ modified: '2026-04-21'
 name: BB&T Corp (Truist)
 nav: Providers
 network: true
-overview: 'BB&T Corp (Truist) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Open Banking, Truist, and BB&T.
+overview: 'BB&T Corp (Truist) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Open Banking, Truist, and BB&T.
 
 
   The BB&T Corp (Truist) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -182,7 +182,7 @@ rules:
 score:
   band: emerging
   composite: 21.8
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -192,16 +192,16 @@ score:
     discoverability: 64.8
     governance: 54.5
     operational_transparency: 5.3
-  previous_composite: 27.3
+  previous_composite: 21.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/screenshots/bbandt-corp-2026-06-20T173059.png
 security:
 - kind: domain-security
@@ -211,7 +211,7 @@ security:
 slug: bbandt-corp
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Open Banking
 - Truist
 - BB&T

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API hosted on api.anaconda.org that provides read access to conda-forge package metadata including package details, version lists, platform availability, download counts, licensing, and distribut
@@ -96,7 +96,7 @@ modified: '2026-06-13'
 name: conda-forge
 nav: Providers
 network: true
-overview: 'conda-forge publishes 1 API on the [APIs.io](https://apis.io/) network: Anaconda.org Package API. Tagged areas include conda, packages, scientific-computing, python, and open-source.
+overview: 'conda-forge publishes 1 API on the [APIs.io](https://apis.io/) network: Anaconda.org Package API. Tagged areas include Conda, Packages, Scientific Computing, Python, and Open-Source.
 
 
   conda-forge''s developer surface includes getting-started guide, GitHub presence, status page, engineering blog, support, and 6 more developer resources.'
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -122,9 +122,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conda-forge/refs/heads/main/screenshots/conda-forge-2026-06-20T174843.png
 security:
@@ -138,9 +138,9 @@ security:
   summary_line: Intigriti · security.txt · contact published
 slug: conda-forge
 tags:
-- conda
-- packages
-- scientific-computing
-- python
-- open-source
+- Conda
+- Packages
+- Scientific Computing
+- Python
+- Open-Source
 ---

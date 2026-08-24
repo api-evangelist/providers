@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ modified: '2026-05-19'
 name: Azure Database for MySQL
 nav: Providers
 network: true
-overview: 'Azure Database for MySQL publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Servers API. Tagged areas include Database, Flexible Server, Managed Database, MySQL, and Open Source.
+overview: 'Azure Database for MySQL publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Servers API. Tagged areas include Database, Flexible Server, Managed Database, MySQL, and Open-Source.
 
 
   Azure Database for MySQL''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 14 more developer resources.'
@@ -202,7 +202,7 @@ scopes:
 score:
   band: developing
   composite: 49.3
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 50.7
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-mysql/refs/heads/main/screenshots/microsoft-azure-mysql-2026-06-20T185425.png
 security:
@@ -239,7 +239,7 @@ tags:
 - Flexible Server
 - Managed Database
 - MySQL
-- Open Source
+- Open-Source
 - Relational Database
 website: https://azure.microsoft.com/en-us/products/mysql
 ---

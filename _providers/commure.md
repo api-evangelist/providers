@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The HL7 FHIR REST API of the Commure Developer Platform, together with its OpenID Connect / SMART App Launch authentication surface. Covers the FHIR RESTful interactions (read, vread, update, delete, '
@@ -238,8 +238,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: commure-mcp.yml
-  slug: commure-mcpyml
+  name: Commure MCP Server
+  slug: commure-mcp-server
 modified: '2026-08-15'
 name: Commure
 nav: Providers
@@ -265,7 +265,7 @@ scopes:
 score:
   band: developing
   composite: 53.5
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -275,7 +275,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 49.5
+  previous_composite: 53.5
   provenance:
     conformance: derived
     contracts:
@@ -291,8 +291,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Gluwa borderless financial platform — balances, fees, transactions, payment QR codes, wrap/unwrap, and the Exchange API (quotes, orders, order books). Secured with API keys and addres
@@ -121,7 +121,7 @@ modified: '2026-07-19'
 name: Gluwa
 nav: Providers
 network: true
-overview: 'Gluwa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Cryptocurrency, Stablecoin, and Payments.
+overview: 'Gluwa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Cryptocurrency, Stablecoins, and Payments.
 
 
   The Gluwa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -132,7 +132,7 @@ random_paper: 19
 score:
   band: thin
   composite: 34.8
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -142,15 +142,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.9
+  previous_composite: 34.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/screenshots/gluwa-2026-07-25T215947.png
 security:
@@ -167,10 +167,10 @@ tags:
 - Company
 - Blockchain
 - Cryptocurrency
-- Stablecoin
+- Stablecoins
 - Payments
 - Fintech
-- Wallet
+- Wallets
 - Creditcoin
 - Smart Contracts
 - Emerging Markets

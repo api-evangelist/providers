@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Java/JVM implementation of Cucumber supporting Java, Kotlin, Scala, and other JVM languages. Distributed via Maven Central under the io.cucumber group.
@@ -146,7 +146,7 @@ modified: '2026-04-28'
 name: Cucumber
 nav: Providers
 network: true
-overview: 'Cucumber publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, BDD, Behavior Driven Development, Gherkin, and Open Source.
+overview: 'Cucumber publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, BDD, Behavior-Driven Development, Gherkin, and Open-Source.
 
 
   The Cucumber catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -176,7 +176,7 @@ rules:
 score:
   band: emerging
   composite: 25.7
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -186,10 +186,10 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 25.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/screenshots/cucumber-2026-06-20T175327.png
 security:
 - kind: domain-security
@@ -200,9 +200,9 @@ slug: cucumber
 tags:
 - Automation
 - BDD
-- Behavior Driven Development
+- Behavior-Driven Development
 - Gherkin
-- Open Source
+- Open-Source
 - Quality Assurance
 - Test Framework
 - Testing

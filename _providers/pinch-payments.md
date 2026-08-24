@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ scopes:
 score:
   band: strong
   composite: 55.4
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -317,7 +317,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 46.1
-  previous_composite: 56.4
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,8 +334,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/screenshots/pinch-payments-2026-08-17T081230.png
 security:
@@ -355,7 +355,7 @@ tags:
 - Payment Processing
 - Direct Debit
 - Card Payments
-- Subscriptions
+- Subscription
 - Billing
 - Payment Facilitator
 - Account-to-Account

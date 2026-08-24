@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Refitter is a .NET source generator and CLI tool that produces Refit HTTP client interfaces from OpenAPI 2.0 and 3.x specifications. Supports compile-time code generation via MSBuild source generators
@@ -205,7 +205,7 @@ rules:
 score:
   band: thin
   composite: 34.3
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -215,12 +215,12 @@ score:
     discoverability: 66.7
     governance: 43.2
     operational_transparency: 42.1
-  previous_composite: 38.3
+  previous_composite: 34.3
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refitter/refs/heads/main/screenshots/refitter-2026-06-20T192745.png
 security:
@@ -236,6 +236,6 @@ tags:
 - OpenAPI
 - Refit
 - Source Generator
-- Type-Safe
+- Type Safe
 website: https://refitter.github.io
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -492,7 +492,7 @@ modified: '2026-05-19'
 name: Split
 nav: Providers
 network: true
-overview: 'Split publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Attributes API, and 13 more. Tagged areas include Experimentation, Feature Flags, Feature Management, Rollouts, and SDKs.
+overview: 'Split publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Attributes API, and 13 more. Tagged areas include Experimentation, Feature Flags, Feature Management, Rollouts, and SDK.
 
 
   The Split catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -532,18 +532,18 @@ rules:
   slug: split-rules
 score:
   band: developing
-  composite: 41.9
-  delta: -9.4
+  composite: 42.4
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.6
     developer_ergonomics: 38.1
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 51.3
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -551,9 +551,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/screenshots/split-2026-06-20T194330.png
 security:
 - kind: authentication
@@ -570,6 +570,6 @@ tags:
 - Feature Flags
 - Feature Management
 - Rollouts
-- SDKs
+- SDK
 website: https://www.split.io/
 ---

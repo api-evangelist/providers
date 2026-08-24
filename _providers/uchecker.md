@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Вход, регистрация, управление JWT-токенами и API ключами, привязка Telegram
@@ -147,16 +147,16 @@ image: https://uchecker.net/images/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: uchecker-mcp.yml
-  slug: uchecker-mcpyml
+  name: uChecker MCP Server
+  slug: uchecker-mcp-server
+- description: 'First-party hosted MCP server for uChecker email validation. Streamable HTTP transport, authenticated with the same uChecker API key used by the REST API (x-api-key header, or Authorization: Bearer <k'
+  name: uChecker MCP Server
+  slug: uchecker-mcp-server-2
 modified: '2026-08-16'
 name: uChecker
 nav: Providers
 network: true
-overview: 'uChecker publishes 3 APIs on the [APIs.io](https://apis.io/) network: Аутентификация API, Валидация Email API, and ESP Провайдеры API. Tagged areas include email-verification, email, smtp, dns, and deliverability.
+overview: 'uChecker publishes 3 APIs on the [APIs.io](https://apis.io/) network: Аутентификация API, Валидация Email API, and ESP Провайдеры API. Tagged areas include Email Verification, Email, SMTP, DNS, and Deliverability.
 
 
   The uChecker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -175,7 +175,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.4
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -185,7 +185,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 53.2
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -195,8 +195,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/screenshots/uchecker-2026-08-17T082530.png
 security:
@@ -210,16 +210,16 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: uchecker
 tags:
-- email-verification
-- email
-- smtp
-- dns
-- deliverability
+- Email Verification
+- Email
+- SMTP
+- DNS
+- Deliverability
 - mx
-- spf
-- dkim
-- dmarc
-- mcp
+- SPF
+- DKIM
+- DMARC
+- MCP
 - agent-native
-- data-quality
+- Data Quality
 ---

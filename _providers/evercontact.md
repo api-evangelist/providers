@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API that extracts structured contact data from email signature text (parse), completes a known contact with verified details (enrich), retrieves canonical deduplicated person records, registers w
@@ -161,8 +161,8 @@ image: https://www.evercontact.com/assets/favicon-32x32.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: evercontact-mcp.yml
-  slug: evercontact-mcpyml
+  name: Evercontact MCP Server
+  slug: evercontact-mcp-server
 modified: '2026-08-14'
 name: Evercontact
 nav: Providers
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -196,12 +196,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 57.4
+  previous_composite: 56.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/screenshots/evercontact-2026-07-25T213720.png
 security:

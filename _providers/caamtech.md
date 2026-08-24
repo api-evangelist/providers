@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The akismet/v1 API from CaaMTech — 7 operation(s) for akismet/v1.
@@ -163,8 +163,8 @@ image: https://caam.tech/wp-content/uploads/2019/12/cropped-caamtech-logo-on-gre
 layout: provider
 mcp_servers:
 - description: ''
-  name: caamtech-mcp.yml
-  slug: caamtech-mcpyml
+  name: CaaMTech MCP Server
+  slug: caamtech-mcp-server
 modified: '2026-08-08'
 name: CaaMTech
 nav: Providers
@@ -177,7 +177,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 17.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -187,7 +187,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 18.2
+  previous_composite: 17.8
   provenance:
     conformance: derived
     contracts:
@@ -203,8 +203,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

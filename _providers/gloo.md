@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Gloo Edge is a feature-rich, Kubernetes-native ingress controller and API gateway built on Envoy Proxy, supporting advanced routing, security policies, and observability for cloud-native workloads. It
@@ -118,7 +118,7 @@ modified: '2026-04-28'
 name: Gloo
 nav: Providers
 network: true
-overview: 'Gloo publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Envoy, Kubernetes, Open Source, and Service Mesh.
+overview: 'Gloo publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Envoy, Kubernetes, Open-Source, and Service Mesh.
 
 
   Gloo''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 9 more developer resources.'
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.6
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -144,9 +144,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 25.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gloo/refs/heads/main/screenshots/gloo-2026-06-20T181923.png
 security:
@@ -163,7 +163,7 @@ tags:
 - API Gateway
 - Envoy
 - Kubernetes
-- Open Source
+- Open-Source
 - Service Mesh
 website: https://www.solo.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Seated Artist API enables developers and artist teams to build custom integrations with the Seated platform. The API provides access to tour date listings and event data, supporting use cases such
@@ -93,7 +93,7 @@ modified: '2026-06-13'
 name: Seated
 nav: Providers
 network: true
-overview: 'Seated publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include live events, concerts, ticketing, artists, and venues.
+overview: 'Seated publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Live Events, Concerts, Ticketing, Artists, and Venues.
 
 
   Seated''s developer surface includes documentation, getting-started guide, engineering blog, and 8 more developer resources.'
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.5
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -119,9 +119,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seated/refs/heads/main/screenshots/seated-2026-06-20T193617.png
 security:
@@ -131,15 +131,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: seated
 tags:
-- live events
-- concerts
-- ticketing
-- artists
-- venues
+- Live Events
+- Concerts
+- Ticketing
+- Artists
+- Venues
 - tour dates
 - fan notifications
-- presales
-- music
-- entertainment
+- Presales
+- Music
+- Entertainment
 website: https://www.seated.com/
 ---

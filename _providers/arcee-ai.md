@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -312,14 +312,14 @@ description: Arcee AI is an American open-intelligence research lab that builds 
 image: https://avatars.githubusercontent.com/u/126496414?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: arcee-ai-mcp.yml
-  slug: arcee-ai-mcpyml
+- description: Arcee AnyMCP is Arcee AI's hosted Model Context Protocol platform. It lets you remotely deploy and manage MCP servers (one-click deployment, thousands of servers) that any MCP-compatible client (Claud
+  name: Arcee AnyMCP
+  slug: arcee-anymcp
 modified: '2026-07-18'
 name: Arcee AI
 nav: Providers
 network: true
-overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API API, Analytics API, and 26 more. Tagged areas include Company, Ai, Artificial Intelligence, Machine Learning, and Large Language Models.
+overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API API, Analytics API, and 26 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Small Language Models.
 
 
   Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
@@ -327,7 +327,7 @@ random_paper: 3
 score:
   band: developing
   composite: 41.6
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -337,7 +337,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 44.7
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,8 +348,8 @@ score:
       total: 29
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/screenshots/arcee-ai-2026-07-25T201012.png
 security:
@@ -364,14 +364,13 @@ security:
 slug: arcee-ai
 tags:
 - Company
-- Ai
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Small Language Models
 - Inference
-- Model Context Protocol
-- Open Source
+- MCP
+- Open-Source
 - Developer Platform
 website: https://www.arcee.ai
 ---

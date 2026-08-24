@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Analytics API from Sequence — 177 operation(s) for analytics.
@@ -198,8 +198,8 @@ image: https://sequence.xyz/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: sequence-mcp.yml
-  slug: sequence-mcpyml
+  name: Sequence MCP Server
+  slug: sequence-mcp-server
 modified: '2026-07-21'
 name: Sequence
 nav: Providers
@@ -215,7 +215,7 @@ random_paper: 17
 score:
   band: developing
   composite: 42.4
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 44.1
+  previous_composite: 42.4
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/screenshots/sequence-2026-08-17T081813.png
 security:

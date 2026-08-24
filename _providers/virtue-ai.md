@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -106,9 +106,9 @@ description: Virtue AI is an enterprise AI security and safety company that secu
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/virtue-ai.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: virtue-ai-mcp.yml
-  slug: virtue-ai-mcpyml
+- description: 'Virtue AI operates an MCP (Model Context Protocol) gateway as a product: a policy-enforcing proxy that sits in front of MCP tool servers and brokers tools/call requests for connected agent runtimes. G'
+  name: Virtue Ai MCP Server
+  slug: virtue-ai-mcp-server
 modified: '2026-07-21'
 name: Virtue Ai
 nav: Providers
@@ -121,7 +121,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 21.4
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -131,11 +131,11 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 24.5
+  previous_composite: 21.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -158,7 +158,7 @@ tags:
 - LLM Guardrails
 - AI Agents
 - Red Teaming
-- Model Context Protocol
+- MCP
 - Agent Security
 - Compliance
 website: https://www.virtueai.com/

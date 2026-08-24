@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Wix Site MCP endpoint served from the official AVATR Hong Kong site. Answers an anonymous JSON-RPC tools/list with 9 tools over the public marketing site (business details, in-site search, plus Wix do
@@ -110,8 +110,8 @@ image: https://static.avatr.com/pc-website/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: avatr-technology-mcp.yml
-  slug: avatr-technology-mcpyml
+  name: Avatr Hong Kong site MCP server
+  slug: avatr-hong-kong-site-mcp-server
 modified: '2026-08-06'
 name: Avatr Technology
 nav: Providers
@@ -121,7 +121,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 11.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -131,11 +131,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.6
+  previous_composite: 11.8
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avatr-technology/refs/heads/main/screenshots/avatr-technology-2026-08-07T162016.png
 security:

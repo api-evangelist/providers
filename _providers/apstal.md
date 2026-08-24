@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -172,13 +172,13 @@ image: https://apstal.com/logos/apstal-mark.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: apstal-mcp.yml
-  slug: apstal-mcpyml
+  name: Apstal MCP Server
+  slug: apstal-mcp-server
 modified: '2026-08-13'
 name: Apstal
 nav: Providers
 network: true
-overview: 'Apstal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include analytics, web-analytics, privacy, session-replay, and heatmaps.
+overview: 'Apstal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Web Analytics, Privacy, Session Replay, and Heatmaps.
 
 
   The Apstal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -202,7 +202,7 @@ scopes:
 score:
   band: developing
   composite: 53.4
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -212,13 +212,13 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 58.2
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
 security:
@@ -232,20 +232,20 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: apstal
 tags:
-- analytics
-- web-analytics
-- privacy
-- session-replay
-- heatmaps
-- mcp
+- Analytics
+- Web Analytics
+- Privacy
+- Session Replay
+- Heatmaps
+- MCP
 - agent-native
-- cookieless
+- Cookieless
 - llms-txt
-- bigquery
-- gdpr
-- a2a
-- agent-skills
-- bot-detection
-- core-web-vitals
+- BigQuery
+- GDPR
+- A2A
+- Agent Skills
+- Bot Detection
+- Core Web Vitals
 website: https://apstal.com/docs
 ---

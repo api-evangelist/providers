@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ modified: '2026-05-11'
 name: Magento 2 (Adobe Commerce)
 nav: Providers
 network: true
-overview: 'Magento 2 (Adobe Commerce) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Carts API, Categories API, and 3 more. Tagged areas include Ecommerce, Commerce, Online Store, Catalog Management, and Order Management.
+overview: 'Magento 2 (Adobe Commerce) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Carts API, Categories API, and 3 more. Tagged areas include E-Commerce, Commerce, Online Store, Catalog Management, and Order Management.
 
 
   Magento 2 (Adobe Commerce)''s developer surface includes authentication, documentation, GitHub presence, pricing, signup flow, and 5 more developer resources.'
@@ -150,7 +150,7 @@ random_paper: 2
 score:
   band: thin
   composite: 28.6
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -160,7 +160,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.6
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +168,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/screenshots/magento-2-2026-06-20T184840.png
 security:
@@ -187,7 +187,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: magento-2
 tags:
-- Ecommerce
+- E-Commerce
 - Commerce
 - Online Store
 - Catalog Management

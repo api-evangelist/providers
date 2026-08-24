@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -332,8 +332,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: tui-group-mcp.yml
-  slug: tui-group-mcpyml
+  name: TUI Group MCP Server
+  slug: tui-group-mcp-server
 modified: '2026-07-28'
 name: TUI Group
 nav: Providers
@@ -355,7 +355,7 @@ scopes:
 score:
   band: developing
   composite: 52.9
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -365,7 +365,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 53.0
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -376,8 +376,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tui-group/refs/heads/main/screenshots/tui-group-2026-08-17T082459.png
 security:

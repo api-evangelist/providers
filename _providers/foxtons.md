@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 6
 common:
@@ -181,7 +181,7 @@ modified: '2026-07-26'
 name: Foxtons
 nav: Providers
 network: true
-overview: 'Foxtons is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United Kingdom, Property Listings, Rentals, and Lettings.
+overview: 'Foxtons is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United Kingdom, Property Listings, Rentals, and Lettings.
 
 
   The Foxtons catalog on APIs.io includes 5 JSON-LD contexts.
@@ -192,7 +192,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 18.4
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -202,11 +202,11 @@ score:
     discoverability: 57.4
     governance: 8.3
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 18.4
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foxtons/refs/heads/main/screenshots/foxtons-2026-08-07T165430.png
 security:
@@ -216,7 +216,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: foxtons
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Rentals

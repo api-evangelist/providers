@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -289,13 +289,13 @@ image: https://files.readme.io/d2f83e1cf705d24a2d47d5d49cca3ae5b2a36f208b27a4ce4
 layout: provider
 mcp_servers:
 - description: ''
-  name: 360learning-mcp.yml
-  slug: 360learning-mcpyml
+  name: 360Learning MCP Server
+  slug: 360learning-mcp-server
 modified: '2026-07-17'
 name: 360Learning
 nav: Providers
 network: true
-overview: '360Learning publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Certificate Outlines API, Classrooms API, and 14 more. Tagged areas include Company, Edtech, Learning Management System, E-Learning, and Training.
+overview: '360Learning publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Certificate Outlines API, Classrooms API, and 14 more. Tagged areas include Company, EdTech, Learning Management System, E-Learning, and Training.
 
 
   The 360Learning catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -311,7 +311,7 @@ scopes:
 score:
   band: strong
   composite: 55.2
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -321,7 +321,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 57.1
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,8 +338,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:
@@ -358,13 +358,12 @@ security:
 slug: 360learning
 tags:
 - Company
-- Edtech
+- EdTech
 - Learning Management System
 - E-Learning
 - Training
 - Collaborative Learning
 - HR Tech
 - Skills
-- API
 website: https://360learning.com/
 ---

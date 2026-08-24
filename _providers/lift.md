@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The public Model Context Protocol endpoint served by LIFT Aircraft's Wix-hosted site. Exposes nine tools that let an agent read business details, search the site, read the installed Wix business-solut
@@ -80,8 +80,8 @@ image: https://static.wixstatic.com/media/9f6a5c_257a4a5e996e4aa5bccb028fdb90388
 layout: provider
 mcp_servers:
 - description: ''
-  name: lift-mcp.yml
-  slug: lift-mcpyml
+  name: LIFT Aircraft MCP Server
+  slug: lift-aircraft-mcp-server
 modified: '2026-07-19'
 name: LIFT Aircraft
 nav: Providers
@@ -94,7 +94,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 13.9
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -104,12 +104,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
+  previous_composite: 13.9
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lift/refs/heads/main/screenshots/lift-2026-07-25T225052.png
 security:
@@ -132,6 +132,6 @@ tags:
 - Transportation
 - Experiential Entertainment
 - Booking
-- Model Context Protocol
+- MCP
 website: https://www.liftaircraft.com
 ---

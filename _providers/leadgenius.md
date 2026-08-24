@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -216,9 +216,9 @@ description: LeadGenius provides precision B2B contact and account intelligence 
 image: https://cdn.prod.website-files.com/688ff1b200d9d4cf5019d518/68906378722ec3a7e64df624_logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: leadgenius-mcp.yml
-  slug: leadgenius-mcpyml
+- description: LeadGenius publishes no official hosted or remote MCP server — searches of the LeadGenius docs, site, GitHub organization and the public npm registry found no first-party Model Context Protocol server
+  name: LeadGenius MCP Server
+  slug: leadgenius-mcp-server
 modified: '2026-08-13'
 name: LeadGenius
 nav: Providers
@@ -242,7 +242,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.7
-  delta: -12.3
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -252,7 +252,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 53.0
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,9 +263,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/screenshots/leadgenius-2026-07-25T224714.png
 security:
 - kind: authentication
@@ -286,7 +286,7 @@ tags:
 - B2B Data
 - Contact Data
 - Firmographics
-- Go To Market
+- Go-To-Market
 - Account Based Marketing
 website: https://leadgenius.com
 ---

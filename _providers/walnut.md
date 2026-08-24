@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Read-only REST API for Walnut demo analytics. Two data endpoints plus a health check — GET /demo-sessions returns individual demo-session records across 29 documented fields with filtering, offset pag
@@ -200,9 +200,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walnut.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: walnut-mcp.yml
-  slug: walnut-mcpyml
+- description: Walnut publishes a first-party Model Context Protocol server that wraps the Walnut Customer Data API and exposes its three read operations as MCP tools to Claude Desktop, Cursor, VS Code and any other
+  name: Walnut MCP Server
+  slug: walnut-mcp-server
 modified: '2026-08-13'
 name: Walnut
 nav: Providers
@@ -226,7 +226,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.5
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -236,12 +236,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 65.4
+  previous_composite: 63.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walnut/refs/heads/main/screenshots/walnut-2026-06-20T201221.png
 security:
@@ -264,9 +264,9 @@ tags:
 - Product Demos
 - Sales Enablement
 - Demo Analytics
-- Go-to-Market
+- Go-To-Market
 - AI-Powered
-- Webhooks
+- Webhook
 - MCP
 - Analytics
 website: https://www.walnut.io/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'The DPP Gateway Experience API is the core Deluxe Payments Platform contract: 37 operations across payments (sale, authorize, complete, cancel, search, batch), EMV card-present processing and device m'
@@ -199,8 +199,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deluxe.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: deluxe-mcp.yml
-  slug: deluxe-mcpyml
+  name: Deluxe Corporation MCP Server
+  slug: deluxe-corporation-mcp-server
 modified: '2026-08-13'
 name: Deluxe Corporation
 nav: Providers
@@ -224,7 +224,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: -19.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -234,7 +234,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 47.8
+  previous_composite: 28.4
   provenance:
     conformance: derived
     contracts:
@@ -250,9 +250,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png
 security:
 - kind: authentication
@@ -270,9 +270,9 @@ tags:
 - Card Processing
 - ACH
 - Invoicing
-- Subscriptions
+- Subscription
 - Tokenization
-- Webhooks
+- Webhook
 - Reporting
 - Data Analytics
 - Marketing

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -255,9 +255,9 @@ json_schemas:
   slug: veho-webhook-event
 layout: provider
 mcp_servers:
-- description: ''
-  name: veho-mcp.yml
-  slug: veho-mcpyml
+- description: No official Veho MCP server was found (npm, the MCP registry, and the Veho docs were searched 2026-07-21). This is a candidate tool list derived one tool per operationId from the published OpenAPI 3.1
+  name: Veho MCP Server
+  slug: veho-mcp-server
 modified: '2026-07-21'
 name: Veho
 nav: Providers
@@ -273,7 +273,7 @@ random_paper: 14
 score:
   band: strong
   composite: 56.2
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -283,7 +283,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 54.8
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -294,8 +294,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/screenshots/veho-2026-08-17T082724.png
 security:
@@ -322,8 +322,8 @@ tags:
 - Shipping
 - Last Mile Delivery
 - Package Tracking
-- eCommerce
-- Webhooks
+- E-Commerce
+- Webhook
 - Delivery
 website: https://www.shipveho.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -169,7 +169,7 @@ modified: '2026-05-24'
 name: Chipper Cash
 nav: Providers
 network: true
-overview: 'Chipper Cash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Africa, Cross Border Payments, Money Transfer, and Remittances.
+overview: 'Chipper Cash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Africa, Cross-Border Payments, Money Transfer, and Remittances.
 
 
   Chipper Cash''s developer surface includes documentation, sandbox, product news, engineering blog, GitHub presence, YouTube channel, support, and 25 more developer resources.'
@@ -177,7 +177,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 7.3
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -187,15 +187,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 10.5
+  previous_composite: 7.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chipper-cash/refs/heads/main/screenshots/chipper-cash-2026-06-20T174320.png
 security:
@@ -207,7 +207,7 @@ slug: chipper-cash
 tags:
 - Fintech
 - Africa
-- Cross Border Payments
+- Cross-Border Payments
 - Money Transfer
 - Remittances
 - Mobile Money

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ modified: '2026-06-20'
 name: Greptile
 nav: Providers
 network: true
-overview: 'Greptile publishes 3 APIs on the [APIs.io](https://apis.io/) network: Query API, Repositories API, and Search API. Tagged areas include AI, Codebase Understanding, Code Review, Code Search, and Developer Tools.
+overview: 'Greptile publishes 3 APIs on the [APIs.io](https://apis.io/) network: Query API, Repositories API, and Search API. Tagged areas include Artificial Intelligence, Codebase Understanding, Code Review, Code Search, and Developer Tools.
 
 
   The Greptile catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -169,7 +169,7 @@ rules:
 score:
   band: developing
   composite: 43.2
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -179,7 +179,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 46.2
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/screenshots/greptile-2026-06-20T182408.png
 security:
@@ -210,7 +210,7 @@ security:
   summary_line: SOC 2
 slug: greptile
 tags:
-- AI
+- Artificial Intelligence
 - Codebase Understanding
 - Code Review
 - Code Search

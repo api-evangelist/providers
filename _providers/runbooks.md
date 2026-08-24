@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Runbooks platform provides an integrated IT operations suite covering ITSM (service desk, incident management, knowledge base, change management, CSAT tracking, SLA management), ITAM (hardware and
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.4
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -95,9 +95,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 17.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runbooks/refs/heads/main/screenshots/runbooks-2026-06-20T193248.png
 security:
@@ -116,6 +116,5 @@ tags:
 - Incident Management
 - Security Operations
 - CRM
-- IT Service Management
 website: https://runbooks.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: The Customer Links API from Imprint — 1 operation(s) for customer links.
@@ -252,13 +252,13 @@ image: https://framerusercontent.com/assets/CVGaxWn2JW3mV5KWWXmkzXVM.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: imprint-mcp.yml
-  slug: imprint-mcpyml
+  name: Imprint MCP Server
+  slug: imprint-mcp-server
 modified: '2026-07-19'
 name: Imprint
 nav: Providers
 network: true
-overview: 'Imprint publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Customer Links API, Customer Sessions API, Customers API, and 11 more. Tagged areas include Company, Financial Services, Fintech, Credit Cards, and Co-Branded Cards.
+overview: 'Imprint publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Customer Links API, Customer Sessions API, Customers API, and 11 more. Tagged areas include Company, Financial-Services, Fintech, Credit Cards, and Co-Branded Cards.
 
 
   The Imprint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -269,7 +269,7 @@ random_paper: 15
 score:
   band: developing
   composite: 53.4
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -279,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 50.8
+  previous_composite: 53.4
   provenance:
     conformance: derived
     contracts:
@@ -295,8 +295,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/screenshots/imprint-2026-07-25T222200.png
 security:
@@ -315,7 +315,7 @@ security:
 slug: imprint
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Credit Cards
 - Co-Branded Cards

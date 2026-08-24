@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 3
@@ -592,7 +592,7 @@ modified: '2026-05-19'
 name: Speakeasy
 nav: Providers
 network: true
-overview: 'Speakeasy publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Auth API, CodeSamples API, and 10 more. Tagged areas include AI, Documentation, MCP, Platform, and SDKs.
+overview: 'Speakeasy publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Auth API, CodeSamples API, and 10 more. Tagged areas include Artificial Intelligence, Documentation, MCP, Platform, and SDK.
 
 
   The Speakeasy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -632,18 +632,18 @@ rules:
   slug: speakeasy-rules
 score:
   band: developing
-  composite: 50.9
-  delta: -5.1
+  composite: 51.4
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 57.3
     developer_ergonomics: 35.7
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 56.0
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -651,9 +651,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/screenshots/speakeasy-2026-08-17T125418.png
 security:
 - kind: authentication
@@ -674,11 +674,11 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: speakeasy
 tags:
-- AI
+- Artificial Intelligence
 - Documentation
 - MCP
 - Platform
-- SDKs
+- SDK
 - Terraform
 - Testing
 ---

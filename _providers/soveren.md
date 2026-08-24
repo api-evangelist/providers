@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,8 +194,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soveren.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: soveren-mcp.yml
-  slug: soveren-mcpyml
+  name: Soveren MCP Server
+  slug: soveren-mcp-server
 modified: '2026-07-21'
 name: Soveren
 nav: Providers
@@ -211,7 +211,7 @@ random_paper: 14
 score:
   band: developing
   composite: 42.4
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 44.8
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +232,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/screenshots/soveren-2026-08-17T082012.png
 security:

@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: company
   title: ''
   type: Website
@@ -45,7 +49,7 @@ description: 'DataFox was a San Francisco company-intelligence and sales-prospec
   record rather than an active API provider.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datafox.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-21'
 name: DataFox
 nav: Providers
 network: true
@@ -71,8 +75,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafox/refs/heads/main/screenshots/datafox-2026-07-25T211315.png
 security:
@@ -87,7 +91,7 @@ tags:
 - Company Data
 - Sales Intelligence
 - Data Enrichment
-- Machine Learning
+- Machine-Learning
 - Acquired
 - Oracle
 website: https://www.oracle.com/cx/marketing/

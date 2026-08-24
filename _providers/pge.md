@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ scopes:
 score:
   band: developing
   composite: 53.4
-  delta: 5.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -234,7 +234,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 47.7
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,9 +250,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/screenshots/pge-2026-08-17T081205.png
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -177,13 +177,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: bank-of-ireland-uk-mcp.yml
-  slug: bank-of-ireland-uk-mcpyml
+  name: Bank of Ireland (UK) MCP Server
+  slug: bank-of-ireland-uk-mcp-server
 modified: '2026-07-23'
 name: Bank of Ireland (UK)
 nav: Providers
 network: true
-overview: 'Bank of Ireland (UK) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account & Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Bank of Ireland (UK) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account & Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Bank of Ireland (UK)''s developer surface includes authentication, getting-started guide, developer portal, documentation, support, and 25 more developer resources.'
@@ -196,7 +196,7 @@ scopes:
 score:
   band: developing
   composite: 45.7
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -206,7 +206,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 43.2
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,8 +223,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 82.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/screenshots/bank-of-ireland-uk-2026-07-25T202335.png
 security:
@@ -238,7 +238,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: bank-of-ireland-uk
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

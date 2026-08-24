@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ modified: '2026-05-19'
 name: Knative
 nav: Providers
 network: true
-overview: 'Knative publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Apis API, Brokers API, Channels API, and 8 more. Tagged areas include Auto-Scaling, Cloud Native, Event-Driven, Graduated, and Kubernetes.
+overview: 'Knative publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Apis API, Brokers API, Channels API, and 8 more. Tagged areas include Auto-Scaling, Cloud-Native, Event-Driven, Graduated, and Kubernetes.
 
 
   The Knative catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -306,7 +306,7 @@ rules:
 score:
   band: developing
   composite: 46.6
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -316,7 +316,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 52.0
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -324,9 +324,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/screenshots/knative-2026-06-20T184106.png
 security:
 - kind: authentication
@@ -340,7 +340,7 @@ security:
 slug: knative
 tags:
 - Auto-Scaling
-- Cloud Native
+- Cloud-Native
 - Event-Driven
 - Graduated
 - Kubernetes

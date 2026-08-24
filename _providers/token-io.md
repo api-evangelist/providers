@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -403,7 +403,7 @@ rules:
 score:
   band: developing
   composite: 52.4
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -413,7 +413,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 57.7
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -425,9 +425,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/screenshots/token-io-2026-06-20T195438.png
 security:
 - kind: authentication

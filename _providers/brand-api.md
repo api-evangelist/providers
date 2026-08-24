@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The consolidated Brandfetch REST API — nine operations spanning brand lookup by domain, stock/ETF ticker, ISIN and crypto symbol, brand search, LLM-ready brand context, transaction-to-merchant resolut
@@ -234,8 +234,8 @@ image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/brand-api-c
 layout: provider
 mcp_servers:
 - description: ''
-  name: brand-api-mcp.yml
-  slug: brand-api-mcpyml
+  name: Brand API (Brandfetch) MCP Server
+  slug: brand-api-brandfetch-mcp-server
 modified: '2026-08-14'
 name: Brand API (Brandfetch)
 nav: Providers
@@ -264,7 +264,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.8
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -274,7 +274,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 60.4
+  previous_composite: 66.8
   provenance:
     conformance: first-party
     contracts:
@@ -290,9 +290,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/screenshots/brand-api-2026-06-20T173632.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ modified: '2026-05-23'
 name: Vellum AI
 nav: Providers
 network: true
-overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_deployments API, subpackage_documentIndexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluations, and LLM Ops.
+overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_deployments API, subpackage_documentIndexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluations, and LLMOps.
 
 
   Vellum AI''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, and 10 more developer resources.'
@@ -230,7 +230,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.5
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -240,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 44.2
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -248,9 +248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/screenshots/vellum-2026-06-20T200908.png
 security:
 - kind: authentication
@@ -267,11 +267,11 @@ tags:
 - Prompt Engineering
 - Workflows
 - Evaluations
-- LLM Ops
+- LLMOps
 - RAG
 - Observability
 - Datasets
-- Deployments
+- Deployment
 - Multi-Provider
 - Agent Builder
 - Self-Hosted

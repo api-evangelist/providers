@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: K3s lightweight Kubernetes distribution with built-in containerd, Flannel networking, and Traefik ingress controller.
@@ -69,7 +69,7 @@ modified: '2026-04-28'
 name: K3s
 nav: Providers
 network: true
-overview: 'K3s publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Container Orchestration, DevOps, Edge Computing, and Kubernetes.
+overview: 'K3s publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Container Orchestration, DevOps, Edge Computing, and Kubernetes.
 
 
   K3s'' developer surface includes documentation and 4 more developer resources.'
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.4
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -95,9 +95,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/k3s/refs/heads/main/screenshots/k3s-2026-06-20T183846.png
 security:
@@ -107,7 +107,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: k3s
 tags:
-- Cloud Native
+- Cloud-Native
 - Container Orchestration
 - DevOps
 - Edge Computing

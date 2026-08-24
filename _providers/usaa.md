@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 11
 common:
@@ -121,7 +121,7 @@ modified: '2026-07-25'
 name: USAA
 nav: Providers
 network: true
-overview: 'USAA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Insurance, Military Finance, and Open Banking.
+overview: 'USAA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Insurance, Military Finance, and Open Banking.
 
 
   The USAA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -166,18 +166,18 @@ rules:
   slug: usaa-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.0
-  delta: -8.1
+  composite: 20.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.0
     contract_quality: 11.3
     developer_ergonomics: 11.9
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 28.0
     operational_transparency: 18.4
-  previous_composite: 27.1
+  previous_composite: 20.1
   provenance:
     conformance: first-party
   regulatory:
@@ -186,9 +186,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png
 security:
 - kind: authentication
@@ -205,7 +205,7 @@ security:
   summary_line: Bugcrowd · security.txt · contact published
 slug: usaa
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Insurance
 - Military Finance

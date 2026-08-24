@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -218,14 +218,14 @@ description: Blackbird Labs is the membership network for restaurant lovers, fou
 image: https://www.blackbird.xyz/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: blackbird-mcp.yml
-  slug: blackbird-mcpyml
+- description: Flynet (Blackbird) ships two official MCP servers. The Docs MCP is a hosted, remote HTTP server (Mintlify-hosted, no credentials) that lets any MCP-aware agent search the live Flynet docs. The API MCP
+  name: Blackbird MCP Server
+  slug: blackbird-mcp-server
 modified: '2026-07-18'
 name: Blackbird
 nav: Providers
 network: true
-overview: 'Blackbird publishes 10 APIs on the [APIs.io](https://apis.io/) network, including App API, Challenges API, Check-ins API, and 7 more. Tagged areas include Company, Restaurants, Loyalty, Payments, and Dining.
+overview: 'Blackbird publishes 10 APIs on the [APIs.io](https://apis.io/) network, including App API, Challenges API, Check-ins API, and 7 more. Tagged areas include Company, Restaurant, Loyalty, Payments, and Dining.
 
 
   Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
@@ -238,7 +238,7 @@ scopes:
 score:
   band: developing
   composite: 46.3
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -248,7 +248,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 44.8
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/screenshots/blackbird-2026-07-25T203240.png
 security:
@@ -281,7 +281,7 @@ security:
 slug: blackbird
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Loyalty
 - Payments
 - Dining

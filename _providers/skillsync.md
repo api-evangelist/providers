@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -102,14 +102,14 @@ description: Skillsync gives AI coding sessions a permanent home — "GitHub for
 image: https://skillsync.com/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Skillsync ships an official Model Context Protocol server as a subcommand of its CLI binary: `skl mcp`, running over stdio (no hosted URL, no port). Connect it to Claude Code, Claude Desktop, or Curso'
   name: Skillsync MCP server
   slug: skillsync-mcp-server
 modified: '2026-07-21'
 name: Skillsync
 nav: Providers
 network: true
-overview: 'Skillsync is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, AI, Agents, and Coding Assistants.
+overview: 'Skillsync is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Artificial Intelligence, Agents, and Coding Assistants.
 
 
   Skillsync''s developer surface includes documentation, getting-started guide, engineering blog, CLI, authentication, changelog, and 10 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 22.6
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -127,12 +127,12 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 24.9
+  previous_composite: 22.6
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -147,12 +147,12 @@ slug: skillsync
 tags:
 - Company
 - Developer Tools
-- AI
+- Artificial Intelligence
 - Agents
 - Coding Assistants
-- Model Context Protocol
+- MCP
 - CLI
-- Knowledge Management
+- Knowledge-Management
 - Y Combinator
 website: https://skillsync.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ modified: '2026-07-18'
 name: Bev
 nav: Providers
 network: true
-overview: Bev is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Wine, Alcohol, and Ecommerce.
+overview: Bev is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Wine, Alcohol, and E-Commerce.
 random_paper: 2
 score:
   band: minimal
@@ -66,8 +66,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bev/refs/heads/main/screenshots/bev-2026-07-25T202821.png
 slug: bev
@@ -76,8 +76,8 @@ tags:
 - Beverages
 - Wine
 - Alcohol
-- Ecommerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Consumer
 - Female-Founded
 website: https://www.drinkbev.com

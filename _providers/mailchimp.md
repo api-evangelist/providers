@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 0
@@ -1663,9 +1663,9 @@ jsonld:
   slug: mailchimp-transactional-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: mailchimp-mcp.yml
-  slug: mailchimp-mcpyml
+- description: Mailchimp publishes an official hosted MCP server for the Transactional (Mandrill) Messaging API. It exposes nine tools that mirror what the Transactional API can already do, plus onboarding/diagnosis
+  name: Mailchimp MCP Server
+  slug: mailchimp-mcp-server
 modified: '2026-08-13'
 name: Mailchimp
 nav: Providers
@@ -1710,18 +1710,18 @@ rules:
   slug: mailchimp-spectral-rules
 score:
   band: exemplar
-  composite: 81.6
-  delta: 4.1
+  composite: 82.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 78.9
     developer_ergonomics: 87.5
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 94.7
-  previous_composite: 77.5
+  previous_composite: 82.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1738,8 +1738,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/screenshots/mailchimp-2026-06-20T184854.png
 security:
@@ -1769,7 +1769,7 @@ tags:
 - Audience Management
 - SMS
 - E-Commerce
-- Webhooks
+- Webhook
 - Marketing Analytics
 website: https://mailchimp.com/developer/
 ---

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -1592,7 +1592,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-- description: ''
+- description: 'Google publishes an official (labelled "Experimental") MCP server for Google Analytics. It is a LOCAL stdio server: you install it with pipx/uv and an MCP client launches it as a subprocess. There is '
   name: MCP Server (artifact)
   slug: mcp-server-artifact
 modified: '2026-08-13'
@@ -1626,13 +1626,13 @@ rules:
     info: 2
     warn: 3
   slug: google-analytics-jsonschema-spectral-rules
-- effective_rule_count: 108
+- effective_rule_count: 107
   extends:
   - spectral:oas
   name: Google Analytics API Rules
-  rule_count: 67
+  rule_count: 66
   severity_counts:
-    error: 18
+    error: 17
     hint: 0
     info: 26
     warn: 23
@@ -1644,18 +1644,18 @@ scopes:
   summary_line: 7 scopes
 score:
   band: exemplar
-  composite: 67.3
-  delta: -3.2
+  composite: 68.9
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 64.0
     developer_ergonomics: 74.4
-    discoverability: 75.9
-    governance: 26.5
+    discoverability: 87.0
+    governance: 30.3
     operational_transparency: 84.2
-  previous_composite: 70.5
+  previous_composite: 68.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1666,8 +1666,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/screenshots/google-analytics-2026-07-25T220105.png
 security:
@@ -1777,7 +1777,7 @@ tags:
 - Metrics
 - Reporting
 - Web Analytics
-- Machine Learning
+- Machine-Learning
 - Attribution
 use_cases:
 - description: Understand where visitors come from, what pages they view, and how they interact with your website.

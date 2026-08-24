@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public REST API for Skore Hub, Probabl's hosted collaboration platform for machine-learning experiments. Covers identity (OAuth authorization-code and device flows, token refresh, user profile, per-wo
@@ -118,13 +118,13 @@ image: https://avatars.githubusercontent.com/u/135336812?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: probabl-mcp.yml
-  slug: probabl-mcpyml
+  name: Probabl MCP Server
+  slug: probabl-mcp-server
 modified: '2026-08-17'
 name: Probabl
 nav: Providers
 network: true
-overview: 'Probabl publishes 1 API on the [APIs.io](https://apis.io/) network: Skore Hub API. Tagged areas include Company, Open Source, machine-learning, data-science, and scikit-learn.
+overview: 'Probabl publishes 1 API on the [APIs.io](https://apis.io/) network: Skore Hub API. Tagged areas include Company, Open-Source, Machine-Learning, Data Science, and scikit-learn.
 
 
   Probabl''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 14 more developer resources.'
@@ -132,6 +132,7 @@ random_paper: 3
 score:
   band: thin
   composite: 38.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -141,8 +142,10 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 18.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 38.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Probabl Domain Security
@@ -151,16 +154,16 @@ security:
 slug: probabl
 tags:
 - Company
-- Open Source
-- machine-learning
-- data-science
+- Open-Source
+- Machine-Learning
+- Data Science
 - scikit-learn
-- mlops
-- model-evaluation
-- experiment-tracking
-- agent-skills
-- artificial-intelligence
-- python
-- france
+- MLOps
+- Model Evaluation
+- Experiment Tracking
+- Agent Skills
+- Artificial Intelligence
+- Python
+- France
 website: https://probabl.ai/
 ---

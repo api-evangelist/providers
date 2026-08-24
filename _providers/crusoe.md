@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 4
@@ -575,13 +575,13 @@ image: https://www.crusoe.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: crusoe-mcp.yml
-  slug: crusoe-mcpyml
+  name: Crusoe MCP Server
+  slug: crusoe-mcp-server
 modified: '2026-08-04'
 name: Crusoe
 nav: Providers
 network: true
-overview: 'Crusoe publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, AutoCluster Operations API, Auto Clusters API, and 58 more. Tagged areas include ai-infrastructure, cloud-computing, gpu-compute, machine-learning, and inference.
+overview: 'Crusoe publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, AutoCluster Operations API, Auto Clusters API, and 58 more. Tagged areas include AI Infrastructure, Cloud Computing, GPU Compute, Machine-Learning, and Inference.
 
 
   The Crusoe catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -592,7 +592,7 @@ random_paper: 6
 score:
   band: strong
   composite: 61.0
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -602,7 +602,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 58.5
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -619,8 +619,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/screenshots/crusoe-2026-08-07T163934.png
 security:
@@ -642,15 +642,15 @@ security:
   summary_line: SOC 2 Type II, SOC 2 Type I, ISO 27001, ISO 42001, GDPR
 slug: crusoe
 tags:
-- ai-infrastructure
-- cloud-computing
-- gpu-compute
-- machine-learning
-- inference
-- kubernetes
-- object-storage
-- infrastructure-as-a-service
-- energy
-- mcp
+- AI Infrastructure
+- Cloud Computing
+- GPU Compute
+- Machine-Learning
+- Inference
+- Kubernetes
+- Object Storage
+- Infrastructure-as-a-Service
+- Energy
+- MCP
 website: https://www.crusoe.ai/
 ---

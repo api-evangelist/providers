@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -178,13 +178,13 @@ image: https://framerusercontent.com/images/WlAkvz0GvPEt7p9O61w5Zp9WtY.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: exactly-ai-mcp.yml
-  slug: exactly-ai-mcpyml
+  name: Exactly Ai MCP Server
+  slug: exactly-ai-mcp-server
 modified: '2026-07-19'
 name: Exactly Ai
 nav: Providers
 network: true
-overview: 'Exactly Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Images v1 API and Models v1 API. Tagged areas include Company, Artificial Intelligence, Image Generation, Generative AI, and Creative Tools.
+overview: 'Exactly Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Images v1 API and Models v1 API. Tagged areas include Company, Artificial Intelligence, Image-Generation, Generative AI, and Creative Tools.
 
 
   Exactly Ai''s developer surface includes documentation, API reference, pricing, support, signup flow, getting-started guide, authentication, and 20 more developer resources.'
@@ -192,7 +192,7 @@ random_paper: 1
 score:
   band: developing
   composite: 46.5
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -202,7 +202,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 45.5
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -213,8 +213,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/screenshots/exactly-ai-2026-07-25T213837.png
 security:
@@ -230,11 +230,11 @@ slug: exactly-ai
 tags:
 - Company
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Generative AI
 - Creative Tools
 - Brand
-- Machine Learning
+- Machine-Learning
 - Media
 website: https://api.exactly.ai/public/docs/
 ---

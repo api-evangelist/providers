@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -196,7 +196,7 @@ modified: '2026-05-19'
 name: Telegram
 nav: Providers
 network: true
-overview: 'Telegram publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bot Info API, Chat Management API, Getting Updates API, and 6 more. Tagged areas include Bots, Chat, Messaging, Notifications, and Payments.
+overview: 'Telegram publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bot Info API, Chat Management API, Getting Updates API, and 6 more. Tagged areas include Bots, Chat, Messaging, Notification, and Payments.
 
 
   The Telegram catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -237,7 +237,7 @@ rules:
 score:
   band: developing
   composite: 47.3
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -247,7 +247,7 @@ score:
     discoverability: 74.1
     governance: 54.5
     operational_transparency: 28.9
-  previous_composite: 43.1
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -261,8 +261,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/screenshots/telegram-2026-06-20T195033.png
 security:
@@ -279,7 +279,7 @@ tags:
 - Bots
 - Chat
 - Messaging
-- Notifications
+- Notification
 - Payments
 - Telegram
 website: https://core.telegram.org

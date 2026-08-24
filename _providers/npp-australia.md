@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The NPP API Framework defines the mandatory technical approach and data attributes for APIs built on the New Payments Platform, aligned to the ISO 20022 messaging standard. NPP Australia does not itse
@@ -142,7 +142,7 @@ random_paper: 1
 score:
   band: thin
   composite: 31.7
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -152,7 +152,7 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 31.8
+  previous_composite: 31.7
   provenance:
     conformance: first-party
   regulatory:
@@ -161,8 +161,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/screenshots/npp-australia-2026-08-07T185651.png
 security:

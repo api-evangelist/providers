@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful Data API over BuildZoom's Building Permit Database — property permit history and contractor license/permit information, with batch requests and sub-second latency. Delivered as part of the bui
@@ -92,7 +92,7 @@ modified: '2026-07-18'
 name: BuildZoom
 nav: Providers
 network: true
-overview: 'BuildZoom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Building Permits, Contractors, and Real Estate.
+overview: 'BuildZoom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Building Permits, Contractors, and Real-Estate.
 
 
   BuildZoom''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 18.9
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -110,9 +110,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildzoom/refs/heads/main/screenshots/buildzoom-2026-07-25T204054.png
 security:
@@ -126,7 +126,7 @@ tags:
 - Construction
 - Building Permits
 - Contractors
-- Real Estate
+- Real-Estate
 - Home Improvement
 - Property Data
 - Marketplace

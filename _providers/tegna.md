@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 355
   human_in_the_loop: 3
@@ -263,18 +263,18 @@ rules:
   slug: tegna-rules
 score:
   band: thin
-  composite: 32.7
-  delta: -15.2
+  composite: 33.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 15.6
     developer_ergonomics: 30.4
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 21.1
-  previous_composite: 47.9
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,9 +285,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png
 security:
 - kind: authentication
@@ -307,7 +307,7 @@ tags:
 - OTT
 - CTV
 - Local News
-- Content API
+- content-api
 - Fortune 500
 website: https://www.tegna.com
 ---

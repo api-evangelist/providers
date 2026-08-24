@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ modified: '2026-05-23'
 name: Humanloop
 nav: Providers
 network: true
-overview: 'Humanloop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Evaluators API, Logs API, and 3 more. Tagged areas include LLM Platform, Prompt Management, Evaluations, LLM Ops, and Observability.
+overview: 'Humanloop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Evaluators API, Logs API, and 3 more. Tagged areas include LLM Platform, Prompt Management, Evaluations, LLMOps, and Observability.
 
 
   Humanloop''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 39.7
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +190,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/screenshots/humanloop-2026-06-20T182933.png
 security:
@@ -208,7 +208,7 @@ tags:
 - LLM Platform
 - Prompt Management
 - Evaluations
-- LLM Ops
+- LLMOps
 - Observability
 - Datasets
 - Prompts

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: The ATP Tennis API from Swish Analytics — 3 operation(s) for atp tennis.
@@ -188,8 +188,8 @@ image: https://swish-assets.s3-us-west-2.amazonaws.com/imgs/spawn/api-logo-2023-
 layout: provider
 mcp_servers:
 - description: ''
-  name: swish-analytics-mcp.yml
-  slug: swish-analytics-mcpyml
+  name: Swish Analytics MCP Server
+  slug: swish-analytics-mcp-server
 modified: '2026-07-21'
 name: Swish Analytics
 nav: Providers
@@ -202,7 +202,7 @@ random_paper: 17
 score:
   band: thin
   composite: 29.3
-  delta: -10.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 2.6
-  previous_composite: 40.1
+  previous_composite: 29.3
   provenance:
     conformance: derived
     contracts:
@@ -222,9 +222,9 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Swish Analytics Authentication
@@ -241,7 +241,7 @@ tags:
 - Sports Betting
 - Sportsbook
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Odds
 - Player Props
 - Data

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 12.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -92,9 +92,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 12.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/achronix-semiconductor/refs/heads/main/screenshots/achronix-semiconductor-2026-07-25T181457.png
 security:
@@ -110,8 +110,8 @@ tags:
 - eFPGA
 - Hardware
 - Artificial Intelligence
-- Machine Learning
-- Data Center
+- Machine-Learning
+- Data-Center
 - Networking
 website: https://www.achronix.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,7 +69,7 @@ modified: '2026-05-03'
 name: Tesoro
 nav: Providers
 network: true
-overview: 'Tesoro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Petroleum, Refining, Energy, Oil And Gas, and Retail Fuel.
+overview: 'Tesoro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Petroleum, Refining, Energy, Oil and Gas, and Retail Fuel.
 
 
   The Tesoro catalog on APIs.io includes 1 JSON-LD context.
@@ -96,7 +96,7 @@ random_paper: 17
 score:
   band: minimal
   composite: 9.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -112,15 +112,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 10.7
+  previous_composite: 9.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesoro/refs/heads/main/screenshots/tesoro-2026-06-20T195240.png
 security:
@@ -133,7 +133,7 @@ tags:
 - Petroleum
 - Refining
 - Energy
-- Oil And Gas
+- Oil and Gas
 - Retail Fuel
 - Fortune 100
 website: https://www.tesoro.com

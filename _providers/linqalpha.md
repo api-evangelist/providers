@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Briefing Agent — automated market briefings with scheduling and delivery
@@ -217,13 +217,13 @@ image: https://framerusercontent.com/assets/D0IBswEXPvcSQAQJ7aO65K0eLAA.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: linqalpha-mcp.yml
-  slug: linqalpha-mcpyml
+  name: LinqAlpha MCP Server
+  slug: linqalpha-mcp-server
 modified: '2026-07-19'
 name: LinqAlpha
 nav: Providers
 network: true
-overview: 'LinqAlpha publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Briefing API, Connectors API, Data API, and 7 more. Tagged areas include Company, Financial Services, Investment Research, Artificial Intelligence, and Agents.
+overview: 'LinqAlpha publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Briefing API, Connectors API, Data API, and 7 more. Tagged areas include Company, Financial-Services, Investment Research, Artificial Intelligence, and Agents.
 
 
   LinqAlpha''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
@@ -240,7 +240,7 @@ scopes:
 score:
   band: strong
   composite: 55.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -250,7 +250,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 55.3
+  previous_composite: 55.6
   provenance:
     conformance: first-party
     contracts:
@@ -266,8 +266,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/screenshots/linqalpha-2026-07-25T225300.png
 security:
@@ -286,7 +286,7 @@ security:
 slug: linqalpha
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investment Research
 - Artificial Intelligence
 - Agents

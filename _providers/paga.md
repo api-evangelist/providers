@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 8
@@ -238,14 +238,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paga.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: paga-mcp.yml
-  slug: paga-mcpyml
+- description: Candidate MCP server tool list derived one-to-one from the modeled Paga OpenAPI operations. Paga does not publish an official hosted/remote MCP server at review time; this is a governance starting poi
+  name: Paga MCP Server
+  slug: paga-mcp-server
 modified: '2026-07-17'
 name: Paga
 nav: Providers
 network: true
-overview: 'Paga publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Business API, Collect API, Direct Debit API, and 1 more. Tagged areas include Payments, Mobile Money, Fintech, Collections, and Nigeria.
+overview: 'Paga publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Business API, Collect API, Direct Debit API, and 1 more. Tagged areas include Payments, Mobile Money, Fintech, Collection, and Nigeria.
 
 
   The Paga catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -264,7 +264,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.0
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -274,7 +274,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 55.5
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,8 +291,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/screenshots/paga-2026-08-07T191255.png
 security:
@@ -317,7 +317,7 @@ tags:
 - Payments
 - Mobile Money
 - Fintech
-- Collections
+- Collection
 - Nigeria
 website: https://www.paga.com/
 ---

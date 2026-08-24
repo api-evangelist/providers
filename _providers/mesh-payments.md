@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: RESTful API for the Mesh spend management platform. Documented capabilities include connectivity verification, virtual card lifecycle management (issuance, suspension, cancellation), merchant and cate
@@ -156,8 +156,8 @@ image: https://meshpayments.com/wp-content/uploads/2026/05/meshpayments.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mesh-payments-mcp.yml
-  slug: mesh-payments-mcpyml
+  name: Mesh Payments MCP Server
+  slug: mesh-payments-mcp-server
 modified: '2026-08-04'
 name: Mesh Payments
 nav: Providers
@@ -178,7 +178,7 @@ scopes:
 score:
   band: developing
   composite: 53.5
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -188,7 +188,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 52.5
+  previous_composite: 53.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -198,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/screenshots/mesh-payments-2026-08-07T172624.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -191,7 +191,7 @@ modified: '2026-05-30'
 name: Dialpad
 nav: Providers
 network: true
-overview: 'Dialpad publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Users API, Webhooks API, and 9 more. Tagged areas include Communications, Voice, AI, Contact Center, and UCaaS.
+overview: 'Dialpad publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Users API, Webhooks API, and 9 more. Tagged areas include Communications, Voice, Artificial Intelligence, Contact Center, and UCaaS.
 
 
   Dialpad''s developer surface includes authentication and 11 more developer resources.'
@@ -207,7 +207,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.0
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -217,7 +217,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.4
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -225,8 +225,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/screenshots/dialpad-2026-06-20T180006.png
 security:
@@ -250,7 +250,7 @@ slug: dialpad
 tags:
 - Communications
 - Voice
-- AI
+- Artificial Intelligence
 - Contact Center
 - UCaaS
 website: https://www.dialpad.com/

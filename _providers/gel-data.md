@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -134,14 +134,14 @@ description: Gel Data (formerly EdgeDB Inc.) builds Gel, an open-source graph-re
 image: https://avatars.githubusercontent.com/u/14262913?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: gel-data-mcp.yml
-  slug: gel-data-mcpyml
+- description: Official Model Context Protocol server that gives AI coding agents access to a Gel database. Also installs Gel rules files, the TypeScript query builder, and the Python query builder/ORM into the curr
+  name: Gel Data MCP Server
+  slug: gel-data-mcp-server
 modified: '2026-07-19'
 name: Gel Data
 nav: Providers
 network: true
-overview: 'Gel Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Database, PostgreSQL, and Graph Database.
+overview: 'Gel Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open-Source, Database, PostgreSQL, and Graph Database.
 
 
   Gel Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
@@ -149,7 +149,7 @@ random_paper: 11
 score:
   band: thin
   composite: 31.9
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -159,12 +159,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 34.7
+  previous_composite: 31.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/screenshots/gel-data-2026-07-25T215722.png
 security:
@@ -179,7 +179,7 @@ security:
 slug: gel-data
 tags:
 - Company
-- Open Source
+- Open-Source
 - Database
 - PostgreSQL
 - Graph Database

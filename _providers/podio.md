@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-05-11'
 name: Podio
 nav: Providers
 network: true
-overview: 'Podio publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Hooks API, Items API, and 2 more. Tagged areas include Work Management, Collaboration, Project Management, CRM, and Workflow.
+overview: 'Podio publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Hooks API, Items API, and 2 more. Tagged areas include Work Management, Collaboration, Project Management, CRM, and Workflows.
 
 
   Podio''s developer surface includes authentication, documentation, pricing, signup flow, and 10 more developer resources.'
@@ -158,7 +158,7 @@ scopes:
 score:
   band: thin
   composite: 33.1
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -168,7 +168,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 33.8
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/screenshots/podio-2026-06-20T191835.png
 security:
@@ -199,7 +199,7 @@ tags:
 - Collaboration
 - Project Management
 - CRM
-- Workflow
+- Workflows
 - Custom Apps
 website: https://www.podio.com
 ---

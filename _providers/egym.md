@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -276,8 +276,8 @@ image: https://developer.egym.com/assets/egym-logo.60dd444402b44525ca41f7a895734
 layout: provider
 mcp_servers:
 - description: ''
-  name: egym-mcp.yml
-  slug: egym-mcpyml
+  name: EGYM MCP Server
+  slug: egym-mcp-server
 modified: '2026-08-12'
 name: EGYM
 nav: Providers
@@ -305,18 +305,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.3
-  delta: 5.5
+  composite: 66.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 69.1
     developer_ergonomics: 73.2
-    discoverability: 72.2
+    discoverability: 83.3
     governance: 16.7
     operational_transparency: 71.1
-  previous_composite: 59.8
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,9 +333,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/screenshots/egym-2026-08-17T080915.png
 security:
 - kind: authentication
@@ -356,11 +356,11 @@ tags:
 - Connected Equipment
 - Gym Management
 - Member Management
-- Check-In
+- Check-in
 - Measurements
 - Workouts
 - Analytics
-- Webhooks
+- Webhook
 - Germany
 website: https://egym.com/int
 ---

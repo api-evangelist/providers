@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: 'The Affinity API endpoints allow API users to leverage the power of the Signal AI Knowledge Graph, derived from billions of documents and updated regularly. The Signal AI Knowledge Graph consists of: '
@@ -235,8 +235,8 @@ image: https://login.signal-ai.com/auth/resources/hlcwe/login/signal/img/apple-t
 layout: provider
 mcp_servers:
 - description: ''
-  name: signal-ai-mcp.yml
-  slug: signal-ai-mcpyml
+  name: Signal AI MCP Server
+  slug: signal-ai-mcp-server
 modified: '2026-08-13'
 name: Signal AI
 nav: Providers
@@ -262,7 +262,7 @@ scopes:
 score:
   band: developing
   composite: 45.6
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -272,7 +272,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 53.6
+  previous_composite: 45.6
   provenance:
     conformance: first-party
     contracts:
@@ -282,9 +282,9 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/screenshots/signal-ai-2026-08-17T081853.png
 security:
 - kind: authentication

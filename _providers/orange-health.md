@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Create and manage diagnostic collection orders.
@@ -130,8 +130,8 @@ image: https://d1wi3p9y2i20go.cloudfront.net/website/homepage/dweb/hero-section/
 layout: provider
 mcp_servers:
 - description: ''
-  name: orange-health-mcp.yml
-  slug: orange-health-mcpyml
+  name: Orange Health MCP Server
+  slug: orange-health-mcp-server
 modified: '2026-07-20'
 name: Orange Health
 nav: Providers
@@ -147,7 +147,7 @@ random_paper: 9
 score:
   band: thin
   composite: 34.3
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -157,7 +157,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 39.8
+  previous_composite: 34.3
   provenance:
     conformance: derived
     contracts:
@@ -173,9 +173,9 @@ score:
     regime: Health
     regime_id: health
     score: 22.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/screenshots/orange-health-2026-08-07T190830.png
 security:
 - kind: authentication
@@ -198,7 +198,7 @@ tags:
 - Diagnostics
 - Lab Testing
 - Home Collection
-- Webhooks
+- Webhook
 - India
 website: https://www.orangehealth.in/
 ---

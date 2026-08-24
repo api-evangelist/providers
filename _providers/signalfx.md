@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The SignalFx REST API manages metadata and configuration objects in Splunk Observability Cloud / SignalFx: metrics and dimension metadata, detectors and alert muting rules, charts, dashboards and dash'
@@ -155,8 +155,8 @@ image: https://avatars.githubusercontent.com/u/8532938?s=200&v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: signalfx-mcp.yml
-  slug: signalfx-mcpyml
+  name: SignalFx MCP Server
+  slug: signalfx-mcp-server
 modified: '2026-08-19'
 name: SignalFx
 nav: Providers
@@ -168,23 +168,23 @@ overview: 'SignalFx publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 20
 score:
   band: thin
-  composite: 31.9
-  delta: -3.4
+  composite: 33.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 35.3
+  previous_composite: 33.0
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

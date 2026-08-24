@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -544,7 +544,7 @@ modified: '2026-05-19'
 name: WildApricot
 nav: Providers
 network: true
-overview: 'WildApricot publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Contacts API, and 26 more. Tagged areas include Membership Management, Associations, Nonprofit, Events, and Payments.
+overview: 'WildApricot publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Contacts API, and 26 more. Tagged areas include Membership Management, Associations, Non-Profit, Event, and Payments.
 
 
   The WildApricot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -589,18 +589,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 34.2
-  delta: -10.2
+  composite: 34.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 21.5
     developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 44.4
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -614,9 +614,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/screenshots/wildapricot-2026-06-20T201504.png
 security:
 - kind: authentication
@@ -631,8 +631,8 @@ slug: wildapricot
 tags:
 - Membership Management
 - Associations
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - Payments
 use_cases:
 - description: Automate new member welcome workflows by monitoring contact creation events and sending personalized onboarding sequences.

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -426,7 +426,7 @@ scopes:
 score:
   band: developing
   composite: 50.9
-  delta: -9.7
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -436,7 +436,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 60.6
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -444,9 +444,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/screenshots/looker-studio-2026-08-17T082124.png
 security:
 - kind: authentication

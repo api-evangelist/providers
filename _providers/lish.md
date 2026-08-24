@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Category terms used to classify posts.
@@ -191,8 +191,8 @@ image: https://www.lishfood.com/wp-content/uploads/2024/05/Lish-Hero-Lish_part_t
 layout: provider
 mcp_servers:
 - description: ''
-  name: lish-mcp.yml
-  slug: lish-mcpyml
+  name: Lish MCP Server
+  slug: lish-mcp-server
 modified: '2026-07-19'
 name: Lish
 nav: Providers
@@ -205,7 +205,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 24.7
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -215,7 +215,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 24.4
+  previous_composite: 24.7
   provenance:
     conformance: derived
     contracts:
@@ -225,8 +225,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/screenshots/lish-2026-07-25T225325.png
 security:

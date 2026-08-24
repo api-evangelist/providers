@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Craft Connect exposes a user's Craft Space, Daily Notes, tasks, and selected documents over REST as part of the Imagine platform, so tools like Apple Shortcuts, n8n, Zapier, Replit, and custom code ca
@@ -144,9 +144,9 @@ description: 'Craft (Craft Docs Ltd.) is a consumer and team productivity app th
 image: https://github.com/craftdocs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: craft-mcp.yml
-  slug: craft-mcpyml
+- description: Craft ships an official remote MCP server as part of its "Imagine" platform, letting MCP clients (Claude, ChatGPT, Claude Code, Cursor, VS Code, Windsurf, Raycast, Codex, Manus, Mistral Le Chat, Zapie
+  name: craft MCP Server
+  slug: craft-mcp-server
 modified: '2026-07-18'
 name: craft
 nav: Providers
@@ -159,7 +159,7 @@ random_paper: 3
 score:
   band: thin
   composite: 33.2
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -169,12 +169,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 33.9
+  previous_composite: 33.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/craft/refs/heads/main/screenshots/craft-2026-07-25T210634.png
 security:
@@ -198,10 +198,10 @@ tags:
 - Notes
 - Documents
 - Note Taking
-- Tasks
+- Task
 - Collaboration
 - Writing
-- AI
+- Artificial Intelligence
 - MCP
 - Extensions
 website: https://www.craft.do/

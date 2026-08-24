@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -533,14 +533,14 @@ jsonld:
   slug: ghost-org-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: ghost-org-mcp.yml
-  slug: ghost-org-mcpyml
+- description: 'Ghost ships two distinct first-party MCP surfaces. A hosted, anonymous, read-only documentation server runs at https://docs.ghost.org/mcp and answers a live tools/list. A separate local MCP server is '
+  name: Ghost MCP Server
+  slug: ghost-mcp-server
 modified: '2026-08-13'
 name: Ghost
 nav: Providers
 network: true
-overview: 'Ghost publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Admin - Images API, Admin - Labels API, Admin - Members API, and 16 more. Tagged areas include Publishing, Newsletters, Memberships, Subscriptions, and CMS.
+overview: 'Ghost publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Admin - Images API, Admin - Labels API, Admin - Members API, and 16 more. Tagged areas include Publishing, Newsletters, Memberships, Subscription, and CMS.
 
 
   The Ghost catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -580,18 +580,18 @@ rules:
   slug: ghost-org-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.6
-  delta: -5.3
+  composite: 74.8
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 41.7
+    contract_governance: 43.9
     contract_quality: 67.3
     developer_ergonomics: 85.7
     discoverability: 81.5
-    governance: 41.7
+    governance: 43.9
     operational_transparency: 81.6
-  previous_composite: 79.9
+  previous_composite: 74.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -602,9 +602,9 @@ score:
       total: 33
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png
 security:
 - kind: authentication
@@ -624,9 +624,9 @@ tags:
 - Publishing
 - Newsletters
 - Memberships
-- Subscriptions
+- Subscription
 - CMS
-- Open Source
+- Open-Source
 - Content
 website: https://ghost.org
 ---

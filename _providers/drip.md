@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -267,14 +267,14 @@ description: Drip is an email marketing and marketing automation platform built 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drip.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: drip-mcp.yml
-  slug: drip-mcpyml
+- description: 'Drip operates a real, reachable remote MCP server at https://api.getdrip.com/mcp. It is discoverable the standards-compliant way: the API host publishes RFC 9728 OAuth protected-resource metadata nami'
+  name: Drip MCP Server
+  slug: drip-mcp-server
 modified: '2026-08-13'
 name: Drip
 nav: Providers
 network: true
-overview: 'Drip publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Broadcasts API, Campaigns API, and 7 more. Tagged areas include Email Marketing, Marketing Automation, Ecommerce, Customer Engagement, and Campaigns.
+overview: 'Drip publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Broadcasts API, Campaigns API, and 7 more. Tagged areas include Email Marketing, Marketing Automation, E-Commerce, Customer Engagement, and Campaigns.
 
 
   The Drip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -298,7 +298,7 @@ scopes:
 score:
   band: strong
   composite: 57.7
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -308,7 +308,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 59.0
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,8 +319,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/screenshots/drip-2026-06-20T180233.png
 security:
@@ -340,7 +340,7 @@ slug: drip
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - Customer Engagement
 - Campaigns
 - Workflows

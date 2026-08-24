@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Conjunto de recursos para acompanhar e administrar operações relacionadas ao gerenciamento de baixas - esses recursos incluem criar uma nova baixa, retornar as baixas pelo id da parcela, atualizar par
@@ -166,8 +166,8 @@ image: https://contaazul.com/wp-content/themes/contaazul/assets/images/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: conta-azul-mcp.yml
-  slug: conta-azul-mcpyml
+  name: Conta Azul MCP Server
+  slug: conta-azul-mcp-server
 modified: '2026-07-18'
 name: Conta Azul
 nav: Providers
@@ -183,19 +183,19 @@ scopes:
   slug: conta-azul-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.7
-  delta: 3.1
+  band: strong
+  composite: 54.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 58.3
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 50.6
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -211,8 +211,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/screenshots/conta-azul-2026-07-25T210322.png
 security:

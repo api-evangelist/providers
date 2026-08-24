@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -260,8 +260,8 @@ image: https://cdn.prod.website-files.com/66e526d793f281dac248b0c4/677c3e75f423e
 layout: provider
 mcp_servers:
 - description: ''
-  name: sheeva-mcp.yml
-  slug: sheeva-mcpyml
+  name: Sheeva MCP Server
+  slug: sheeva-mcp-server
 modified: '2026-07-21'
 name: Sheeva
 nav: Providers
@@ -277,7 +277,7 @@ random_paper: 6
 score:
   band: developing
   composite: 47.9
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -287,7 +287,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 43.7
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,8 +304,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/screenshots/sheeva-2026-08-17T125223.png
 security:

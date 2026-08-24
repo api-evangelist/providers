@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -283,8 +283,8 @@ image: https://verato.com/wp-content/uploads/2022/09/cropped-verato_favicon-_1_-
 layout: provider
 mcp_servers:
 - description: ''
-  name: verato-mcp.yml
-  slug: verato-mcpyml
+  name: Verato MCP Server
+  slug: verato-mcp-server
 modified: '2026-07-21'
 name: Verato
 nav: Providers
@@ -297,7 +297,7 @@ random_paper: 6
 score:
   band: developing
   composite: 46.1
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -307,7 +307,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 46.8
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,8 +324,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/screenshots/verato-2026-08-17T082722.png
 security:

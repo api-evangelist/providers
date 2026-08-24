@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Hosted, remote Model Context Protocol server operated by WoowUp at mcp.woowup.com. Streamable-HTTP transport, OAuth 2.1 bearer authentication with RFC 8414 authorization-server and RFC 9728 protected-
@@ -157,9 +157,9 @@ description: WoowUp is a customer marketing and loyalty CRM platform built for r
 image: https://www.woowup.com/hubfs/Logo/favicon_.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: woowup-mcp.yml
-  slug: woowup-mcpyml
+- description: 'WoowUp operates two reachable MCP surfaces. The primary one is a first-party hosted server at https://mcp.woowup.com/mcp — remote, streamable-HTTP, OAuth 2.1-protected, and gated: tools/list and initi'
+  name: WoowUp MCP Server
+  slug: woowup-mcp-server
 modified: '2026-08-13'
 name: WoowUp
 nav: Providers
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 50.1
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -198,12 +198,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 53.5
+  previous_composite: 50.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/screenshots/woowup-2026-08-17T082935.png
 security:
@@ -223,7 +223,7 @@ tags:
 - Customer Data
 - Marketing Automation
 - Retail
-- eCommerce
+- E-Commerce
 - Push Notifications
 website: https://www.woowup.com
 ---

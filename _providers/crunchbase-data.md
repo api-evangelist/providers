@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 0
@@ -241,14 +241,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crunchbase-data.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: crunchbase-data-mcp.yml
-  slug: crunchbase-data-mcpyml
+- description: 'Crunchbase ships a first-party REMOTE MCP server at https://mcp.crunchbase.com over Streamable HTTP, authenticated with OAuth 2.1 + PKCE against the user''s own Crunchbase account. It is not a wrapper '
+  name: Crunchbase
+  slug: crunchbase
 modified: '2026-08-14'
 name: Crunchbase
 nav: Providers
 network: true
-overview: 'Crunchbase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fundamentals - Firmographic Package, Fundamentals - Core Financials Package, Fundamentals - Advanced Financials Package, and 3 more. Tagged areas include Company Data, Web Intelligence, Funding Data, Firmographics, and B2B Data.
+overview: 'Crunchbase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fundamentals - Firmographic Package, Fundamentals - Core Financials Package, Fundamentals - Advanced Financials Package, and 3 more. Tagged areas include Company Data, Web Intelligence, funding-data, Firmographics, and B2B Data.
 
 
   Crunchbase''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 30 more developer resources.'
@@ -269,7 +269,7 @@ scopes:
 score:
   band: strong
   composite: 57.0
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -279,7 +279,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 63.7
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,9 +290,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/screenshots/crunchbase-data-2026-07-25T210816.png
 security:
 - kind: authentication
@@ -311,10 +311,10 @@ slug: crunchbase-data
 tags:
 - Company Data
 - Web Intelligence
-- Funding Data
+- funding-data
 - Firmographics
 - B2B Data
-- Investor Data
+- investor-data
 - Reference Data
 - Private Markets
 - Predictions

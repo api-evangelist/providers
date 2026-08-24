@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -658,8 +658,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: notion-mcp.yml
-  slug: notion-mcpyml
+  name: Notion MCP Server
+  slug: notion-mcp-server
 modified: '2026-06-20'
 name: Notion
 nav: Providers
@@ -704,18 +704,18 @@ rules:
   slug: notion-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 66.5
-  delta: -4.1
+  composite: 66.8
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 28.0
+    contract_governance: 30.3
     contract_quality: 81.5
     developer_ergonomics: 78.6
     discoverability: 77.8
-    governance: 28.0
+    governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 70.6
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -725,8 +725,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png
 security:
@@ -753,9 +753,9 @@ tags:
 - Ideas
 - Notes
 - Productivity
-- Projects
+- Project
 - T1
-- Tasks
+- Task
 - Wiki
 - Workspace
 website: https://www.notion.so/my-integrations

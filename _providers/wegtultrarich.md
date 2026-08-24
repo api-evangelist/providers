@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -259,13 +259,13 @@ image: https://wegtultrarich.org/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: wegtultrarich-mcp.yml
-  slug: wegtultrarich-mcpyml
+  name: We > Ultrarich MCP Server
+  slug: we-ultrarich-mcp-server
 modified: '2026-08-09'
 name: We > Ultrarich
 nav: Providers
 network: true
-overview: 'We > Ultrarich publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MCP Server, Comparison API, Discovery API, and 1 more. Tagged areas include wealth inequality, economic inequality, finance, economics, and education.
+overview: 'We > Ultrarich publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MCP Server, Comparison API, Discovery API, and 1 more. Tagged areas include wealth inequality, economic inequality, Finance, Economics, and Education.
 
 
   The We > Ultrarich catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -292,7 +292,7 @@ rules:
 score:
   band: strong
   composite: 61.6
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -302,7 +302,7 @@ score:
     discoverability: 100.0
     governance: 65.9
     operational_transparency: 52.6
-  previous_composite: 59.5
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,8 +319,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/screenshots/wegtultrarich-2026-08-17T082904.png
 security:
@@ -340,14 +340,13 @@ slug: wegtultrarich
 tags:
 - wealth inequality
 - economic inequality
-- finance
-- economics
-- education
-- journalism
-- open data
-- comparison
-- mcp
-- model context protocol
-- agents
+- Finance
+- Economics
+- Education
+- Journalism
+- Open Data
+- Comparison
+- MCP
+- Agents
 website: https://wegtultrarich.org/
 ---

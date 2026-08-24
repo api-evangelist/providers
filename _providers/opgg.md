@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Official Model Context Protocol server providing AI agents access to OP.GG game data for League of Legends, Teamfight Tactics, and Valorant over Streamable HTTP.
@@ -93,9 +93,9 @@ description: OP.GG is the world's leading League of Legends statistics and perfo
 image: https://op.gg/images/logo/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: opgg-mcp.yml
-  slug: opgg-mcpyml
+- description: Official Model Context Protocol server that provides AI agents with access to OP.GG game data for League of Legends, Teamfight Tactics, and Valorant.
+  name: OPGG MCP Server
+  slug: opgg-mcp-server
 modified: '2026-07-20'
 name: OPGG
 nav: Providers
@@ -108,7 +108,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 15.5
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -118,11 +118,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.3
+  previous_composite: 15.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opgg/refs/heads/main/screenshots/opgg-2026-08-07T190721.png
 security:
@@ -138,7 +138,7 @@ tags:
 - Game Data
 - Analytics
 - League of Legends
-- Valorant
+- VALORANT
 - Statistics
 - MCP
 website: https://op.gg

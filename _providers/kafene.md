@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ modified: '2026-08-01'
 name: Kafene
 nav: Providers
 network: true
-overview: 'Kafene is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Lease To Own, and Point Of Sale.
+overview: 'Kafene is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Lease-to-Own, and Point-of-Sale.
 
 
   Kafene''s developer surface includes support, FAQ, engineering blog, signup flow, and 9 more developer resources.'
@@ -103,7 +103,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 14.2
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -113,15 +113,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 14.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kafene/refs/heads/main/screenshots/kafene-2026-08-07T171050.png
 security:
@@ -132,10 +132,10 @@ security:
 slug: kafene
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
-- Lease To Own
-- Point Of Sale
+- Lease-to-Own
+- Point-of-Sale
 - Consumer Finance
 - Retail
 - Underwriting

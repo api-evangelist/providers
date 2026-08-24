@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 63.5
-  scored_at: '2026-08-19'
+  score: 66.9
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -485,13 +485,13 @@ image: https://curlec.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: curlec-mcp.yml
-  slug: curlec-mcpyml
+  name: Curlec MCP Server
+  slug: curlec-mcp-server
 modified: '2026-07-18'
 name: Curlec
 nav: Providers
 network: true
-overview: 'Curlec publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Customers API, Disputes API, and 27 more. Tagged areas include Company, Payments, Payment Gateway, Recurring Payments, and Subscriptions.
+overview: 'Curlec publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Customers API, Disputes API, and 27 more. Tagged areas include Company, Payments, Payment Gateway, Recurring Payments, and Subscription.
 
 
   The Curlec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -505,19 +505,19 @@ scopes:
   slug: curlec-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 65.7
-  delta: 4.0
+  band: exemplar
+  composite: 66.8
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 30.3
     contract_quality: 68.7
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 61.7
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -534,8 +534,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/screenshots/curlec-2026-07-25T210942.png
 security:
@@ -553,13 +553,13 @@ tags:
 - Payments
 - Payment Gateway
 - Recurring Payments
-- Subscriptions
+- Subscription
 - Direct Debit
-- FinTech
+- Fintech
 - Malaysia
 - DuitNow
 - FPX
-- Webhooks
+- Webhook
 - Razorpay
 website: https://curlec.com
 ---

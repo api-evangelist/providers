@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,7 +125,7 @@ modified: '2026-07-19'
 name: LemonLime
 nav: Providers
 network: true
-overview: 'LemonLime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Knowledge Management, AI Agents, and Workflow Automation.
+overview: 'LemonLime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Knowledge-Management, AI Agents, and Workflow-Automation.
 
 
   LemonLime''s developer surface includes support, engineering blog, pricing, signup flow, and 17 more developer resources.'
@@ -133,7 +133,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 23.2
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -143,11 +143,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 22.7
+  previous_composite: 23.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonlime/refs/heads/main/screenshots/lemonlime-2026-07-25T224844.png
 security:
@@ -167,12 +167,12 @@ slug: lemonlime
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge Management
+- Knowledge-Management
 - AI Agents
-- Workflow Automation
-- Model Context Protocol
+- Workflow-Automation
+- MCP
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 - Y Combinator
 website: https://lemonlime.ai
 ---

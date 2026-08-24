@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,9 +85,9 @@ description: Morpheus Space is an in-space mobility company building electric pr
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morpheus-space.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: morpheus-space-mcp.yml
-  slug: morpheus-space-mcpyml
+- description: Wix-provided Site MCP server for morpheus.space. This is a platform-hosted (Wix) MCP endpoint auto-exposed for the marketing site, not a first-party product API from Morpheus Space. It surfaces public
+  name: Morpheus Space Site MCP
+  slug: morpheus-space-site-mcp
 modified: '2026-07-20'
 name: Morpheus Space
 nav: Providers
@@ -100,7 +100,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 9.3
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -110,11 +110,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.9
+  previous_composite: 9.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morpheus-space/refs/heads/main/screenshots/morpheus-space-2026-08-07T184310.png
 security:

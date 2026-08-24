@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Indicator of compromise detail lookups and submission
@@ -140,8 +140,8 @@ image: https://otx.alienvault.com/static/otx/img/otx_logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: alienvault-mcp.yml
-  slug: alienvault-mcpyml
+  name: AlienVault MCP Server
+  slug: alienvault-mcp-server
 modified: '2026-07-17'
 name: AlienVault
 nav: Providers
@@ -154,7 +154,7 @@ random_paper: 6
 score:
   band: thin
   composite: 27.4
-  delta: -10.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -164,7 +164,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 37.6
+  previous_composite: 27.4
   provenance:
     conformance: derived
     contracts:
@@ -174,9 +174,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/screenshots/alienvault-2026-07-25T195617.png
 security:
 - kind: authentication
@@ -196,6 +196,5 @@ tags:
 - Open Threat Exchange
 - Indicators of Compromise
 - Threat Feeds
-- API
 website: https://otx.alienvault.com/api
 ---

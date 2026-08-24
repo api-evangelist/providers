@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -162,9 +162,9 @@ description: 'AGL Energy Limited (ASX:AGL) is Australia''s oldest listed company
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: agl-energy-mcp.yml
-  slug: agl-energy-mcpyml
+- description: 'AGL publishes no Model Context Protocol server, and none exists for the Consumer Data Right more broadly. Searched on 2026-07-27: the AGL CDR public base URI answers 404 for every non-CDS path, the AG'
+  name: AGL Energy MCP Server
+  slug: agl-energy-mcp-server
 modified: '2026-07-27'
 name: AGL Energy
 nav: Providers
@@ -182,7 +182,7 @@ scopes:
 score:
   band: developing
   composite: 40.6
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -192,7 +192,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 38.5
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -209,8 +209,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

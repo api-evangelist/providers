@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Platform notifications API secured with OAuth 2.0 (scope NotificationService).
@@ -167,7 +167,7 @@ modified: '2026-07-19'
 name: Fourth
 nav: Providers
 network: true
-overview: 'Fourth publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Restaurants, Hospitality, and Inventory Management.
+overview: 'Fourth publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Restaurant, Hospitality, and Inventory Management.
 
 
   Fourth''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 19 more developer resources.'
@@ -179,22 +179,22 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 32.5
-  delta: -4.2
+  composite: 33.7
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 72.2
+    discoverability: 83.3
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 36.7
+  previous_composite: 33.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/screenshots/fourth-2026-07-25T215048.png
 security:
@@ -218,13 +218,13 @@ slug: fourth
 tags:
 - Company
 - Workforce Management
-- Restaurants
+- Restaurant
 - Hospitality
 - Inventory Management
 - Payroll
 - Scheduling
-- Human Capital Management
-- Point of Sale
+- HCM
+- Point-of-Sale
 - Food and Beverage
 website: https://www.fourth.com/
 ---

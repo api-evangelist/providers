@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server that doubles as Polar's HTTP API surface; invoke tools at POST https://api.polaranalytics.com/mcp/tool/<tool_name> with a Bearer API key. Exposes 8 tools for gener
@@ -134,13 +134,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/polar-anal
 layout: provider
 mcp_servers:
 - description: ''
-  name: polar-analytics-mcp.yml
-  slug: polar-analytics-mcpyml
+  name: Polar Headless MCP
+  slug: polar-headless-mcp
 modified: '2026-07-20'
 name: Polar Analytics
 nav: Providers
 network: true
-overview: 'Polar Analytics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Ecommerce, Shopify, and Business Intelligence.
+overview: 'Polar Analytics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, E-Commerce, Shopify, and Business Intelligence.
 
 
   Polar Analytics'' developer surface includes authentication, documentation, support, pricing, engineering blog, and 17 more developer resources.'
@@ -148,7 +148,7 @@ random_paper: 1
 score:
   band: thin
   composite: 30.0
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -158,13 +158,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 32.0
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -179,7 +179,7 @@ slug: polar-analytics
 tags:
 - Company
 - Analytics
-- Ecommerce
+- E-Commerce
 - Shopify
 - Business Intelligence
 - MCP

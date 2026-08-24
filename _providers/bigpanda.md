@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -370,18 +370,18 @@ rules:
   slug: bigpanda-spectral-rules
 score:
   band: thin
-  composite: 35.2
-  delta: -5.1
+  composite: 35.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 22.6
     developer_ergonomics: 50.0
     discoverability: 63.0
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 40.3
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -389,9 +389,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/screenshots/bigpanda-2026-06-20T173234.png
 security:
 - kind: authentication

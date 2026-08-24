@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -632,13 +632,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: agorapulse-mcp.yml
-  slug: agorapulse-mcpyml
+  name: Agorapulse MCP Server
+  slug: agorapulse-mcp-server
 modified: '2026-08-13'
 name: Agorapulse
 nav: Providers
 network: true
-overview: 'Agorapulse publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Calendar Notes API, Webhooks API, Competitor API, and 12 more. Tagged areas include Social Media Management, Social Media, CRM, Analytics, and Publishing.
+overview: 'Agorapulse publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Calendar Notes API, Webhooks API, Competitor API, and 12 more. Tagged areas include Social Media Management, Social-Media, CRM, Analytics, and Publishing.
 
 
   The Agorapulse catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -673,7 +673,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.9
-  delta: -8.8
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -683,7 +683,7 @@ score:
     discoverability: 92.6
     governance: 26.5
     operational_transparency: 76.3
-  previous_composite: 80.7
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -694,9 +694,9 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/screenshots/agorapulse-2026-06-20T170402.png
 security:
 - kind: authentication
@@ -718,7 +718,7 @@ security:
 slug: agorapulse
 tags:
 - Social Media Management
-- Social Media
+- Social-Media
 - CRM
 - Analytics
 - Publishing

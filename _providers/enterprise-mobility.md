@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Rental business line of the EHI API Marketplace, covering Enterprise Rent-A-Car's network of neighborhood and airport branches. The public overview page describes the capabilities as vehicle renta
@@ -143,7 +143,7 @@ scopes:
 score:
   band: thin
   composite: 28.1
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -153,7 +153,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 27.8
+  previous_composite: 28.1
   provenance:
     conformance: first-party
   regulatory:
@@ -162,8 +162,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 72.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/screenshots/enterprise-mobility-2026-08-07T164933.png
 security:

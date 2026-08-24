@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,14 +81,14 @@ description: Gangkhar is an AI-native embedded protection infrastructure platfor
 image: https://static.wixstatic.com/media/84a20e_d1dafb944cb5498bb07972a03101b8cb~mv2.png/v1/fit/w_2500,h_1330,al_c/84a20e_d1dafb944cb5498bb07972a03101b8cb~mv2.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: gangkhar-mcp.yml
-  slug: gangkhar-mcpyml
+- description: Gangkhar's public website (gangkhar.com) is powered by Wix and advertises a hosted, remote Model Context Protocol (MCP) endpoint in its llms.txt for agentic AI access to live, public site content. Thi
+  name: Gangkhar Site MCP
+  slug: gangkhar-site-mcp
 modified: '2026-07-19'
 name: Gangkhar
 nav: Providers
 network: true
-overview: 'Gangkhar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Embedded Insurance, InsurTech, and Embedded Finance.
+overview: 'Gangkhar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Embedded Insurance, Insurtech, and Embedded Finance.
 
 
   Gangkhar''s developer surface includes FAQ, support, engineering blog, YouTube channel, and 7 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 16
 score:
   band: minimal
   composite: 7.5
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -106,7 +106,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.5
+  previous_composite: 7.5
   provenance:
     mcp: first-party
   regulatory:
@@ -115,8 +115,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gangkhar/refs/heads/main/screenshots/gangkhar-2026-07-25T215436.png
 security:
@@ -129,10 +129,10 @@ tags:
 - Company
 - Insurance
 - Embedded Insurance
-- InsurTech
+- Insurtech
 - Embedded Finance
 - Protection
-- AI
+- Artificial Intelligence
 - Fintech
 - Underwriting
 - Claims

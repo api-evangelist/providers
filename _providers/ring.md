@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Ring Partner API (Amazon Vision API / AVA) lets certified Ring Appstore partners access Ring device data and media on behalf of consenting users: list and inspect devices, read status/capabilities'
@@ -162,9 +162,9 @@ description: Ring is an Amazon home-security company (doorbells, cameras, alarm 
 image: https://developer.ring.com/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ring-mcp.yml
-  slug: ring-mcpyml
+- description: The Ring Appstore Knowledge MCP Server is a remote Model Context Protocol server backed by an Amazon Bedrock Knowledge Base. It connects an AI coding assistant (Kiro, Cursor, Cline, Claude Desktop) to
+  name: Ring MCP Server
+  slug: ring-mcp-server
 modified: '2026-07-21'
 name: Ring
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 12
 score:
   band: developing
   composite: 44.3
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -190,12 +190,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 48.1
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/screenshots/ring-2026-08-17T081710.png
 security:
@@ -218,9 +218,9 @@ tags:
 - Smart Home
 - IoT
 - Video
-- Cameras
+- Camera
 - Doorbells
-- Webhooks
+- Webhook
 - WebRTC
 - Amazon
 - Developer Platform

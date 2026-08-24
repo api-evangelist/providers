@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: Boletia
 nav: Providers
 network: true
-overview: 'Boletia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Events, Event Management, and Registration.
+overview: 'Boletia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Event, Event Management, and Registration.
 
 
   Boletia''s developer surface includes engineering blog and 7 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 1
 score:
   band: minimal
   composite: 10.7
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.0
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -109,7 +109,7 @@ slug: boletia
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Event Management
 - Registration
 - Payments

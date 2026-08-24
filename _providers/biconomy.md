@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -367,18 +367,18 @@ rules:
   slug: biconomy-rules
 score:
   band: developing
-  composite: 44.4
-  delta: -2.9
+  composite: 44.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 71.3
     developer_ergonomics: 45.2
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 47.3
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -392,8 +392,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/screenshots/biconomy-2026-06-20T173223.png
 security:

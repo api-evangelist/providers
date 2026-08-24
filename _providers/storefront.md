@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Storefront
 nav: Providers
 network: true
-overview: 'Storefront is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Retail, Pop-Up Retail, and Real Estate.
+overview: 'Storefront is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Retail, Pop-Up Retail, and Real-Estate.
 
 
   Storefront''s developer surface includes getting-started guide, engineering blog, support, signup flow, and 6 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 15.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -104,9 +104,9 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: storefront
 tags:
@@ -114,8 +114,8 @@ tags:
 - Marketplace
 - Retail
 - Pop-Up Retail
-- Real Estate
-- Events
+- Real-Estate
+- Event
 - Commercial Space Rental
 - E-Commerce
 website: https://www.thestorefront.com

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Poptin''s developer-facing surface. The hosted embed script renders popups, bars, sidebars, full-screen and mobile surfaces plus embedded forms into a host page, fires documented DOM CustomEvents with '
@@ -167,7 +167,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -177,11 +177,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 45.2
+  previous_composite: 44.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poptin/refs/heads/main/screenshots/poptin-2026-08-17T081328.png
 security:
@@ -208,8 +208,8 @@ tags:
 - Forms
 - Popups
 - Contact Management
-- Webhooks
-- Ecommerce
-- SaaS
+- Webhook
+- E-Commerce
+- Software-as-a-Service
 website: https://poptin.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ rules:
 score:
   band: developing
   composite: 42.9
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -212,7 +212,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 57.9
-  previous_composite: 49.5
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -220,9 +220,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/screenshots/django-cms-2026-06-20T180058.png
 security:
 - kind: domain-security
@@ -237,7 +237,7 @@ tags:
 - Python
 - Headless CMS
 - REST API
-- Open Source
+- Open-Source
 - Pages
 - Plugins
 - Placeholders

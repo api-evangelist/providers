@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-18'
 name: Cents
 nav: Providers
 network: true
-overview: 'Cents is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Laundry, Point of Sale, and Payments.
+overview: 'Cents is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Laundry, Point-of-Sale, and Payments.
 
 
   Cents'' developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 14.5
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -102,15 +102,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 18.0
+  previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cents/refs/heads/main/screenshots/cents-2026-07-25T204951.png
 security:
@@ -123,11 +123,11 @@ tags:
 - Company
 - Vertical Software
 - Laundry
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Business Management
 - Pickup and Delivery
-- SaaS
+- Software-as-a-Service
 - Small Business
 website: https://www.trycents.com/
 ---

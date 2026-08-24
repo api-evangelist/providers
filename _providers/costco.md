@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -140,7 +140,7 @@ modified: '2026-04-28'
 name: Costco Wholesale
 nav: Providers
 network: true
-overview: 'Costco Wholesale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Big-Box, E-commerce, EDI, and Fortune 500.
+overview: 'Costco Wholesale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Big-Box, E-Commerce, EDI, and Fortune 500.
 
 
   Costco Wholesale''s developer surface includes product news, YouTube channel, and 23 more developer resources.'
@@ -164,7 +164,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 6.1
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     commercial_clarity: 5.3
@@ -174,9 +174,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/costco/refs/heads/main/screenshots/costco-2026-06-20T175100.png
 security:
@@ -188,7 +188,7 @@ slug: costco
 tags:
 - B2B
 - Big-Box
-- E-commerce
+- E-Commerce
 - EDI
 - Fortune 500
 - Grocery

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ modified: '2026-05-02'
 name: Scalable Software and Systems
 nav: Providers
 network: true
-overview: 'Scalable Software and Systems publishes 2 APIs on the [APIs.io](https://apis.io/) network: Entities API and Locations API. Tagged areas include API First, Architecture Patterns, CQRS, Distributed Systems, and Enterprise.
+overview: 'Scalable Software and Systems publishes 2 APIs on the [APIs.io](https://apis.io/) network: Entities API and Locations API. Tagged areas include API-First, Architecture Patterns, CQRS, Distributed Systems, and Enterprise.
 
 
   The Scalable Software and Systems catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -200,7 +200,7 @@ rules:
 score:
   band: thin
   composite: 29.1
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -210,7 +210,7 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 34.9
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -218,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/screenshots/scalable-software-and-systems-2026-06-20T193456.png
 security:
 - kind: authentication
@@ -233,12 +233,12 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: scalable-software-and-systems
 tags:
-- API First
+- API-First
 - Architecture Patterns
 - CQRS
 - Distributed Systems
 - Enterprise
-- Event Driven
+- Event-Driven
 - Microservices
 - Scalable Architecture
 - Software Engineering

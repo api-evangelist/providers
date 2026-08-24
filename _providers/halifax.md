@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Public, unauthenticated OBIE Open Data API returning the location and details of every Halifax cashpoint (ATM) in the UK. Confirmed live (HTTP 200, JSON) at the v2.2 base.
@@ -154,13 +154,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: halifax-mcp.yml
-  slug: halifax-mcpyml
+  name: Halifax MCP Server
+  slug: halifax-mcp-server
 modified: '2026-07-24'
 name: Halifax
 nav: Providers
 network: true
-overview: 'Halifax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Open Data ATM Locator API, Open Data Branch Locator API, Open Data Personal Current Accounts API, and 3 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Halifax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Open Data ATM Locator API, Open Data Branch Locator API, Open Data Personal Current Accounts API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Halifax''s developer surface includes documentation, support, getting-started guide, authentication, sandbox, and 18 more developer resources.'
@@ -173,7 +173,7 @@ scopes:
 score:
   band: developing
   composite: 42.7
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 21.4
     commercial_clarity: 21.4
@@ -183,7 +183,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 41.0
+  previous_composite: 42.7
   provenance:
     conformance: first-party
     contracts:
@@ -199,8 +199,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/screenshots/halifax-2026-07-25T220540.png
 security:
@@ -214,7 +214,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: halifax
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

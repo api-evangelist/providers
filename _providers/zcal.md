@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Unlimited shareable scheduling links, meeting polls, and customizable booking pages let invitees self-serve a time. This is a product surface managed through the Zcal web application; there is no docu
@@ -98,7 +98,7 @@ modified: '2026-06-21'
 name: Zcal
 nav: Providers
 network: true
-overview: 'Zcal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Scheduling Links, Bookings, and Integrations and Webhooks. Tagged areas include Scheduling, Calendar, Booking, Meetings, and Webhooks.
+overview: 'Zcal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Scheduling Links, Bookings, and Integrations and Webhooks. Tagged areas include Scheduling, Calendar, Booking, Meetings, and Webhook.
 
 
   Zcal''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -124,9 +124,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 28.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -143,6 +143,6 @@ tags:
 - Calendar
 - Booking
 - Meetings
-- Webhooks
+- Webhook
 website: https://zcal.co/
 ---

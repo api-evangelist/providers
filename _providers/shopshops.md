@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The store's Universal Commerce Protocol surface — a live MCP endpoint for agent-driven catalog search, cart, checkout, and fulfillment, gated by an agent profile URI and buyer payment approval, plus r
@@ -87,13 +87,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shopshops.
 layout: provider
 mcp_servers:
 - description: ''
-  name: shopshops-mcp.yml
-  slug: shopshops-mcpyml
+  name: ShopShops MCP Server
+  slug: shopshops-mcp-server
 modified: '2026-07-21'
 name: ShopShops
 nav: Providers
 network: true
-overview: 'ShopShops publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Ecommerce, Marketplace, and Live Shopping.
+overview: 'ShopShops publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Marketplace, and Live Shopping.
 
 
   ShopShops'' developer surface includes support, authentication, and 9 more developer resources.'
@@ -105,22 +105,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 15.2
-  delta: -1.4
+  composite: 16.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.6
+  previous_composite: 16.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -135,7 +135,7 @@ slug: shopshops
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Live Shopping
 - Luxury Resale

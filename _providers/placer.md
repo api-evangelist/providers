@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -207,8 +207,8 @@ image: https://files.readme.io/338fd63-small-Placer_logo_ai_308px2x.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: placer-mcp.yml
-  slug: placer-mcpyml
+  name: Placer MCP Server
+  slug: placer-mcp-server
 modified: '2026-07-20'
 name: Placer
 nav: Providers
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.0
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 43.4
-  previous_composite: 50.7
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,9 +246,9 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/screenshots/placer-2026-08-17T081250.png
 security:
 - kind: authentication
@@ -266,7 +266,7 @@ tags:
 - Foot Traffic
 - Geospatial
 - Retail Analytics
-- Real Estate
+- Real-Estate
 - Consumer Insights
 - Data
 website: https://placer.ai

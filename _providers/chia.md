@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Local JSON-RPC servers exposed by the Chia reference client for the full node, wallet, farmer, harvester, DataLayer, DID, NFT, offers, DAO, VC and simulator services. All calls are POST JSON over HTTP
@@ -133,7 +133,7 @@ random_paper: 6
 score:
   band: thin
   composite: 28.0
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -143,9 +143,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 27.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chia/refs/heads/main/screenshots/chia-2026-07-25T205207.png
 security:
@@ -166,6 +166,6 @@ tags:
 - Decentralized
 - JSON-RPC
 - Developer Tools
-- Open Source
+- Open-Source
 website: https://www.chia.net/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Rhapsody's flagship healthcare integration engine, connecting systems across FHIR, HL7 v2, REST, CDA, X12/EDI, SQL, DICOM, AMQP, and MCP from a single platform, with a REST administration/management A
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.3
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -164,7 +164,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 28.1
+  previous_composite: 31.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -174,8 +174,8 @@ score:
     regime: Health
     regime_id: health
     score: 55.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

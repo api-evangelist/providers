@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -870,9 +870,9 @@ jsonld:
   slug: adobe-analytics-data-repair-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: adobe-analytics-mcp.yml
-  slug: adobe-analytics-mcpyml
+- description: Adobe publishes an official, Adobe-hosted (remote) Model Context Protocol server for Adobe Analytics. It lets MCP clients (Claude, ChatGPT, Cursor) discover components (report suites, dimensions, metr
+  name: Adobe Analytics MCP Server
+  slug: adobe-analytics-mcp-server
 modified: '2026-08-13'
 name: Adobe Analytics
 nav: Providers
@@ -933,7 +933,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.9
-  delta: -7.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -943,7 +943,7 @@ score:
     discoverability: 83.3
     governance: 45.5
     operational_transparency: 57.9
-  previous_composite: 75.1
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -954,9 +954,9 @@ score:
       total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:
 - kind: authentication

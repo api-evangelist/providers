@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -380,13 +380,13 @@ image: https://cdn.prod.website-files.com/65cbae0a3956181cf7a74c75/672bde6da9f2a
 layout: provider
 mcp_servers:
 - description: ''
-  name: pryon-mcp.yml
-  slug: pryon-mcpyml
+  name: Pryon MCP Server
+  slug: pryon-mcp-server
 modified: '2026-08-02'
 name: Pryon
 nav: Providers
 network: true
-overview: 'Pryon publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connector Service External API, Content Service API, and 21 more. Tagged areas include Artificial Intelligence, Retrieval Augmented Generation, Enterprise Search, Knowledge Management, and Generative AI.
+overview: 'Pryon publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connector Service External API, Content Service API, and 21 more. Tagged areas include Artificial Intelligence, Retrieval Augmented Generation, Enterprise Search, Knowledge-Management, and Generative AI.
 
 
   The Pryon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -397,7 +397,7 @@ random_paper: 1
 score:
   band: developing
   composite: 44.0
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -407,7 +407,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 47.1
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -418,8 +418,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/screenshots/pryon-2026-08-17T081359.png
 security:
@@ -440,12 +440,12 @@ tags:
 - Artificial Intelligence
 - Retrieval Augmented Generation
 - Enterprise Search
-- Knowledge Management
+- Knowledge-Management
 - Generative AI
 - Document Ingestion
 - Content Connectors
 - Agents
-- Machine Learning
+- Machine-Learning
 - Company
 website: https://www.pryon.com/
 ---

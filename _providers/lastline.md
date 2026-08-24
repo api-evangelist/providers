@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Web API for submitting files (PE, PDF, Office documents, Flash, Java applets, Android applications, archives) and URLs to the Lastline analysis cloud for high-resolution behavioral malware analysis, t
@@ -37,6 +37,10 @@ apis:
   slug: analyst-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/vmware/
 - group: company
   title: ''
   type: Website
@@ -98,19 +102,19 @@ description: Lastline was a Santa Barbara, California cybersecurity company foun
   remain served. This profile captures that surviving API surface from the live first-party documentation, together with probes recording what is no longer published.
 image: https://user.lastline.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-21'
 name: Lastline
 nav: Providers
 network: true
 overview: 'Lastline publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Malware Analysis, Sandboxing, and Threat Intelligence.
 
 
-  Lastline''s developer surface includes developer portal, changelog, CLI, documentation, API reference, getting-started guide, support, and 7 more developer resources.'
+  Lastline''s developer surface includes developer portal, changelog, CLI, documentation, API reference, getting-started guide, support, and 8 more developer resources.'
 random_paper: 20
 score:
   band: emerging
   composite: 21.1
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -120,11 +124,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 20.5
+  previous_composite: 21.1
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/screenshots/lastline-2026-07-25T224746.png
 security:

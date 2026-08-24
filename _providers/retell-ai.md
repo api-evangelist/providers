@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -585,7 +585,7 @@ modified: '2026-05-29'
 name: Retell AI
 nav: Providers
 network: true
-overview: 'Retell AI publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Add Community Voice API, Add Knowledge Base Sources API, Agent Playground Completion API, and 75 more. Tagged areas include AI, Voice, Agents, Realtime, and Conversational.
+overview: 'Retell AI publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Add Community Voice API, Add Knowledge Base Sources API, Agent Playground Completion API, and 75 more. Tagged areas include Artificial Intelligence, Voice, Agents, Real-Time, and Conversational.
 
 
   The Retell AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -616,7 +616,7 @@ rules:
 score:
   band: thin
   composite: 31.6
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -626,7 +626,7 @@ score:
     discoverability: 57.4
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 35.8
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -634,8 +634,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 78
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/screenshots/retell-ai-2026-06-20T193039.png
 security:
@@ -649,10 +649,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: retell-ai
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Agents
-- Realtime
+- Real-Time
 - Conversational
 website: https://www.retellai.com/
 ---

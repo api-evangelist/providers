@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Repository issues (collaborative objects)
@@ -194,8 +194,8 @@ image: https://radicle.dev/assets/images/radicle.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: radicle-mcp.yml
-  slug: radicle-mcpyml
+  name: Radicle MCP Server
+  slug: radicle-mcp-server
 modified: '2026-07-20'
 name: Radicle
 nav: Providers
@@ -207,18 +207,18 @@ overview: 'Radicle publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 10
 score:
   band: developing
-  composite: 46.5
-  delta: 3.9
+  composite: 47.7
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 16.7
     contract_quality: 49.1
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 42.6
+  previous_composite: 47.7
   provenance:
     conformance: derived
     contracts:
@@ -228,8 +228,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/screenshots/radicle-2026-08-17T081437.png
 security:
@@ -253,7 +253,7 @@ tags:
 - Git
 - Peer-to-Peer
 - Version Control
-- Open Source
+- Open-Source
 - Decentralized
 - Developer Tools API
 website: https://radicle.dev/

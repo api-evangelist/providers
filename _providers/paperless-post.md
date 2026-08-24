@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Paperless Post Party Shop storefront is the only machine-callable surface on any paperlesspost.com host. It is Shopify-hosted and implements the Universal Commerce Protocol (UCP) for agent-driven '
@@ -121,13 +121,13 @@ image: https://avatars.githubusercontent.com/u/282691?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: paperless-post-mcp.yml
-  slug: paperless-post-mcpyml
+  name: Paperless Post MCP Server
+  slug: paperless-post-mcp-server
 modified: '2026-08-04'
 name: Paperless Post
 nav: Providers
 network: true
-overview: 'Paperless Post publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invitations, Events, Greeting Cards, and Stationery.
+overview: 'Paperless Post publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invitations, Event, Greeting Cards, and Stationery.
 
 
   Paperless Post''s developer surface includes pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
@@ -140,7 +140,7 @@ scopes:
 score:
   band: thin
   composite: 29.3
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -150,7 +150,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 31.2
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -160,8 +160,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -176,7 +176,7 @@ slug: paperless-post
 tags:
 - Company
 - Invitations
-- Events
+- Event
 - Greeting Cards
 - Stationery
 - Consumer

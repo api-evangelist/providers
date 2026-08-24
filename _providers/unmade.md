@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Design API API from Unmade — 9 operation(s) for design api.
@@ -161,13 +161,13 @@ image: https://github.com/unmadeworks.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: unmade-mcp.yml
-  slug: unmade-mcpyml
+  name: Unmade MCP Server
+  slug: unmade-mcp-server
 modified: '2026-07-21'
 name: Unmade
 nav: Providers
 network: true
-overview: 'Unmade publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Design API API, Ecommerce Orders API API, Factory API API, and 3 more. Tagged areas include Fashion, Apparel, Manufacturing, Customization, and eCommerce.
+overview: 'Unmade publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Design API API, Ecommerce Orders API API, Factory API API, and 3 more. Tagged areas include Fashion, Apparel, Manufacturing, Customization, and E-Commerce.
 
 
   Unmade''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 16 more developer resources.'
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.9
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -189,7 +189,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 35.2
+  previous_composite: 34.9
   provenance:
     conformance: derived
     contracts:
@@ -199,8 +199,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -217,7 +217,7 @@ tags:
 - Apparel
 - Manufacturing
 - Customization
-- eCommerce
+- E-Commerce
 - On-Demand Production
 - Embedded Commerce
 website: https://unmade.com/

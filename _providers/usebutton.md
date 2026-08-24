@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Brands report new orders, order updates (including partial returns), and cancellations to Button server-to-server, passing the Button Attribution Token (btn_ref) captured by the Merchant Library; docu
@@ -253,13 +253,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/usebutton.
 layout: provider
 mcp_servers:
 - description: ''
-  name: usebutton-mcp.yml
-  slug: usebutton-mcpyml
+  name: Button MCP Server
+  slug: button-mcp-server
 modified: '2026-07-21'
 name: Button
 nav: Providers
 network: true
-overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Brands Api API, Create API, and 3 more. Tagged areas include Commerce, Mobile Commerce, Affiliate, Attribution, and Deep Linking.
+overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Brands Api API, Create API, and 3 more. Tagged areas include Commerce, Mobile Commerce, Affiliates, Attribution, and Deep Linking.
 
 
   The Button catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -270,7 +270,7 @@ random_paper: 14
 score:
   band: developing
   composite: 52.7
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -280,7 +280,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 58.7
+  previous_composite: 52.7
   provenance:
     conformance: derived
     contracts:
@@ -290,9 +290,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/screenshots/usebutton-2026-08-17T082649.png
 security:
 - kind: authentication
@@ -315,7 +315,7 @@ slug: usebutton
 tags:
 - Commerce
 - Mobile Commerce
-- Affiliate
+- Affiliates
 - Attribution
 - Deep Linking
 - Offers

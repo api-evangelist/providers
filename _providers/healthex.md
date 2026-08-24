@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for patient outreach, consent checking and auditing, record-location search, test-patient creation, and usage reporting, plus a FHIR R4 server ($everything) for standards-based access to a co
@@ -150,9 +150,9 @@ description: HealthEx is a patient-centric health-data-rights platform that secu
 image: https://framerusercontent.com/assets/91Fl8WPMZvfgNsG45g8tmHf88w.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: healthex-mcp.yml
-  slug: healthex-mcpyml
+- description: 'Hosted Model Context Protocol server exposing a consented patient''s FHIR-based health record to AI agents through standardized tools, with per-patient data isolation and natural-language search. Also '
+  name: HealthEx MCP Server
+  slug: healthex-mcp-server
 modified: '2026-07-19'
 name: HealthEx
 nav: Providers
@@ -168,19 +168,19 @@ scopes:
   slug: healthex-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.5
-  delta: 2.8
+  band: developing
+  composite: 39.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 35.7
+  previous_composite: 39.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -191,8 +191,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/screenshots/healthex-2026-07-25T220838.png
 security:

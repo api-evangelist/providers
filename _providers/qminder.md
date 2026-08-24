@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -230,8 +230,8 @@ image: https://www.qminder.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: qminder-mcp.yml
-  slug: qminder-mcpyml
+  name: Qminder MCP Server
+  slug: qminder-mcp-server
 modified: '2026-07-20'
 name: Qminder
 nav: Providers
@@ -251,7 +251,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.5
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -261,7 +261,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 58.3
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -272,8 +272,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/screenshots/qminder-2026-08-17T081418.png
 security:
@@ -298,7 +298,7 @@ tags:
 - Customer Experience
 - REST
 - GraphQL
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://www.qminder.com
 ---

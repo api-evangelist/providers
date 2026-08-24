@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ modified: '2026-07-19'
 name: LedgiFi
 nav: Providers
 network: true
-overview: 'LedgiFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Taxes, Portfolio Management, and Financial Services.
+overview: 'LedgiFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Taxes, Portfolio-Management, and Financial-Services.
 
 
   LedgiFi''s developer surface includes documentation, support, getting-started guide, engineering blog, and 7 more developer resources.'
@@ -93,7 +93,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 11.5
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -103,9 +103,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledgifi/refs/heads/main/screenshots/ledgifi-2026-07-25T224819.png
 security:
@@ -118,8 +118,8 @@ tags:
 - Company
 - Cryptocurrency
 - Taxes
-- Portfolio Management
-- Financial Services
+- Portfolio-Management
+- Financial-Services
 - Accounting
 - Compliance
 - Latin America

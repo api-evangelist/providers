@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public GraphQL Admin API for ikas stores — read and write products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhoo
@@ -146,14 +146,14 @@ description: ikas (IKAS Teknoloji AS) is an all-in-one e-commerce platform, head
 image: https://ikas.dev/img/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: ikas-ikas-teknoloji-as-mcp.yml
-  slug: ikas-ikas-teknoloji-as-mcpyml
+- description: 'Official ikas MCP server for ikas code components documentation. Exposes the ikas storefront/code-components documentation to MCP-compatible agents and coding assistants so they can scaffold and work '
+  name: Ikas, IKAS Teknoloji AS MCP Server
+  slug: ikas-ikas-teknoloji-as-mcp-server
 modified: '2026-07-19'
 name: Ikas, IKAS Teknoloji AS
 nav: Providers
 network: true
-overview: 'Ikas, IKAS Teknoloji AS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Retail, Storefront, and Orders.
+overview: 'Ikas, IKAS Teknoloji AS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Storefront, and Order.
 
 
   The Ikas, IKAS Teknoloji AS catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -169,7 +169,7 @@ scopes:
 score:
   band: thin
   composite: 37.1
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -179,13 +179,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 39.5
+  previous_composite: 37.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/screenshots/ikas-ikas-teknoloji-as-2026-07-25T222057.png
 security:
@@ -200,15 +200,15 @@ security:
 slug: ikas-ikas-teknoloji-as
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Storefront
-- Orders
-- Products
+- Order
+- Product
 - Inventory
 - GraphQL
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 - SDK
 - MCP
 website: https://ikas.com

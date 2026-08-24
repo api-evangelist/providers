@@ -28,10 +28,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 46.9
-  scored_at: '2026-08-19'
+  score: 50.3
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -253,13 +253,13 @@ image: https://spadewp.wpenginepowered.com/wp-content/uploads/2025/07/OpenGraph.
 layout: provider
 mcp_servers:
 - description: ''
-  name: spade-mcp.yml
-  slug: spade-mcpyml
+  name: Spade MCP Server
+  slug: spade-mcp-server
 modified: '2026-08-14'
 name: Spade
 nav: Providers
 network: true
-overview: 'Spade publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Card Enrichment API, Category Action Triggers API, Category Personalization API, and 5 more. Tagged areas include Company, Financial Services, Transaction Enrichment, Merchant Intelligence, and Payments.
+overview: 'Spade publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Card Enrichment API, Category Action Triggers API, Category Personalization API, and 5 more. Tagged areas include Company, Financial-Services, Transaction Enrichment, Merchant Intelligence, and Payments.
 
 
   The Spade catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -277,18 +277,18 @@ rate_limits:
   slug: spade-rate-limits
 score:
   band: exemplar
-  composite: 72.4
-  delta: 6.3
+  composite: 73.5
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 30.3
     contract_quality: 67.5
     developer_ergonomics: 69.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 66.1
+  previous_composite: 73.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,9 +305,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/screenshots/spade-2026-08-17T080423.png
 security:
 - kind: authentication
@@ -329,7 +329,7 @@ security:
 slug: spade
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Transaction Enrichment
 - Merchant Intelligence
 - Payments

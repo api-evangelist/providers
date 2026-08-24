@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 27
 apis:
 - description: Official first-party Model Context Protocol server (Apache-2.0) exposing 59 read-only tools across 13 categories — IP intelligence, WHOIS, DNS, SSL, domain, weather, currency, commodity, ZIP code, scr
@@ -351,13 +351,13 @@ image: https://apifreaks.com/img/opengraph-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: apifreaks-api-hub-for-developers-mcp.yml
-  slug: apifreaks-api-hub-for-developers-mcpyml
+  name: APIFreaks - API Hub for Developers MCP Server
+  slug: apifreaks-api-hub-for-developers-mcp-server
 modified: '2026-08-09'
 name: APIFreaks - API Hub for Developers
 nav: Providers
 network: true
-overview: 'APIFreaks - API Hub for Developers publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Commodity APIs API, Currency APIs API, DNS APIs API, and 23 more. Tagged areas include IP intelligence, geolocation, WHOIS, domain intelligence, and DNS.
+overview: 'APIFreaks - API Hub for Developers publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Commodity APIs API, Currency APIs API, DNS APIs API, and 23 more. Tagged areas include IP Intelligence, Geolocation, WHOIS, Domain Intelligence, and DNS.
 
 
   The APIFreaks - API Hub for Developers catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -376,7 +376,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.4
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -386,7 +386,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 69.0
+  previous_composite: 64.4
   provenance:
     conformance: derived
     contracts:
@@ -396,8 +396,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/screenshots/apifreaks-api-hub-for-developers-2026-08-17T080405.png
 security:
@@ -411,31 +411,31 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: apifreaks-api-hub-for-developers
 tags:
-- IP intelligence
-- geolocation
+- IP Intelligence
+- Geolocation
 - WHOIS
-- domain intelligence
+- Domain Intelligence
 - DNS
-- geocoding
-- email validation
-- phone validation
+- Geocoding
+- Email Validation
+- Phone Validation
 - SSL
-- web scraping
-- screenshots
-- PDF processing
-- currency
-- forex
-- commodities
+- Web Scraping
+- Screenshots
+- PDF Processing
+- Currency
+- Forex
+- Commodities
 - financial validation
-- ZIP codes
-- weather
-- timezone
+- ZIP Codes
+- Weather
+- Timezone
 - GeoDB
-- user-agent parsing
-- astronomy
-- developer tools
+- User-Agent Parsing
+- Astronomy
+- Developer Tools
 - MCP
-- agent-ready
+- Agent Ready
 - OCR
 website: https://apifreaks.com/api
 ---

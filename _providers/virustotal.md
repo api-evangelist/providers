@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 11
@@ -606,7 +606,7 @@ modified: '2026-05-29'
 name: VirusTotal
 nav: Providers
 network: true
-overview: 'VirusTotal publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Access Control - Group Management API, Access Control - Quota Management API, Access Control - Service Account Management API, and 30 more. Tagged areas include Anti-Malware, Threat Intelligence, Security, File Analysis, and URL Analysis.
+overview: 'VirusTotal publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Access Control - Group Management API, Access Control - Quota Management API, Access Control - Service Account Management API, and 30 more. Tagged areas include Anti Malware, Threat Intelligence, Security, File Analysis, and URL Analysis.
 
 
   The VirusTotal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -646,18 +646,18 @@ rules:
   slug: virustotal-rules
 score:
   band: developing
-  composite: 49.7
-  delta: -5.0
+  composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.8
     developer_ergonomics: 54.8
     discoverability: 57.4
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 54.7
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -665,9 +665,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virustotal/refs/heads/main/screenshots/virustotal-2026-06-20T201042.png
 security:
 - kind: authentication
@@ -680,13 +680,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: virustotal
 tags:
-- Anti-Malware
+- Anti Malware
 - Threat Intelligence
 - Security
 - File Analysis
 - URL Analysis
 - YARA
-- IoC
+- IOC
 - Sandbox
 - MITRE ATT&CK
 - Google Cloud

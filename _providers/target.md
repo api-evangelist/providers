@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ modified: '2026-05-19'
 name: target
 nav: Providers
 network: true
-overview: 'target publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Orders API, Products API, and 3 more. Tagged areas include Fortune 100, E-Commerce, Retail, Products, and Inventory.
+overview: 'target publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Orders API, Products API, and 3 more. Tagged areas include Fortune 100, E-Commerce, Retail, Product, and Inventory.
 
 
   The target catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -260,18 +260,18 @@ rules:
   slug: target-spectral-rules
 score:
   band: thin
-  composite: 34.5
-  delta: -9.4
+  composite: 35.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.9
     developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 43.9
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -279,9 +279,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/screenshots/target-2026-08-17T082249.png
 security:
 - kind: authentication
@@ -301,10 +301,9 @@ tags:
 - Fortune 100
 - E-Commerce
 - Retail
-- Products
+- Product
 - Inventory
-- Fortune 100
 - Stores
-- Orders
+- Order
 website: https://www.target.com
 ---

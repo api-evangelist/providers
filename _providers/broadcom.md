@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -195,6 +195,30 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/broadcom
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/appneta/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/brocade/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/ca/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/newport-communications/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/symantec/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/vmware/
 created: '2025-01-14'
 description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets, routers, and smart TVs.
 finops:
@@ -230,7 +254,7 @@ jsonld:
   property_count: 18
   slug: broadcom-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Broadcom
 nav: Providers
 network: true
@@ -240,7 +264,7 @@ overview: 'Broadcom publishes 20 APIs on the [APIs.io](https://apis.io/) network
   The Broadcom catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Broadcom''s developer surface includes authentication and 4 more developer resources.'
+  Broadcom''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Broadcom Plans Pricing
   plan_count: 1
@@ -280,7 +304,7 @@ rules:
 score:
   band: thin
   composite: 31.8
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -290,7 +314,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 38.4
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -298,9 +322,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png
 security:
 - kind: authentication

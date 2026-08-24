@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -505,7 +505,7 @@ rules:
 score:
   band: thin
   composite: 27.4
-  delta: -18.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -515,7 +515,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 45.8
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -523,9 +523,9 @@ score:
       derived: 25
       marker_coverage: 100.0
       total: 25
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/screenshots/appdynamics-2026-06-20T172314.png
 security:
 - kind: authentication

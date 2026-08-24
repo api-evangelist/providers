@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -388,7 +388,7 @@ rules:
 score:
   band: developing
   composite: 42.9
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -398,7 +398,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 39.5
-  previous_composite: 47.4
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -412,8 +412,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/screenshots/drivewealth-2026-06-20T180237.png
 security:
@@ -437,9 +437,9 @@ tags:
 - Options
 - Fixed Income
 - Mutual Funds
-- Portfolio Management
+- Portfolio-Management
 - Account Opening
 - KYC
-- Financial Services
+- Financial-Services
 website: https://drivewealth.com
 ---

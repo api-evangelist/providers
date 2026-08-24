@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'Representational State Transfer (REST) is an architectural style originally defined by Roy Fielding. REST provides six guiding constraints: client-server separation, statelessness, cacheability, unifo'
@@ -141,7 +141,7 @@ rules:
 score:
   band: emerging
   composite: 17.2
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -151,10 +151,10 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 22.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 17.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest/refs/heads/main/screenshots/rest-2026-06-20T192958.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Spendflo API provides programmatic access to SaaS spend management, procurement workflows, vendor management, usage analytics, and contract management data. It enables enterprise-grade integration
@@ -162,21 +162,21 @@ rules:
   slug: spendflo-rules
 score:
   band: emerging
-  composite: 24.6
-  delta: -7.9
+  composite: 25.1
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 23.9
     developer_ergonomics: 7.1
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 32.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 25.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/screenshots/spendflo-2026-06-20T194314.png
 security:
 - kind: domain-security

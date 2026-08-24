@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -204,13 +204,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: keller-williams-mcp.yml
-  slug: keller-williams-mcpyml
+  name: Keller Williams MCP Server
+  slug: keller-williams-mcp-server
 modified: '2026-07-26'
 name: Keller Williams
 nav: Providers
 network: true
-overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) network: KW Worldwide Listings Search API. Tagged areas include Real Estate, United States, Residential Real Estate, Brokerage, and Franchise.
+overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) network: KW Worldwide Listings Search API. Tagged areas include Real-Estate, United States, Residential Real Estate, Brokerage, and Franchise.
 
 
   The Keller Williams catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -226,7 +226,7 @@ scopes:
 score:
   band: developing
   composite: 40.8
-  delta: -9.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -236,7 +236,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 50.2
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,9 +248,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/screenshots/keller-williams-2026-08-07T171117.png
 security:
 - kind: authentication
@@ -263,7 +263,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: keller-williams
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Residential Real Estate
 - Brokerage

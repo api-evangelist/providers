@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -173,8 +173,8 @@ image: https://logo.clearbit.com/interos.ai
 layout: provider
 mcp_servers:
 - description: ''
-  name: interos-mcp.yml
-  slug: interos-mcpyml
+  name: Interos MCP Server
+  slug: interos-mcp-server
 modified: '2026-07-19'
 name: Interos
 nav: Providers
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.4
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 43.3
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,8 +212,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/screenshots/interos-2026-07-25T222710.png
 security:
@@ -234,6 +234,5 @@ tags:
 - Supplier Risk
 - Third-Party Risk
 - Artificial Intelligence
-- API
 website: https://www.interos.ai
 ---

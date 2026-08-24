@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: An anonymous Model Context Protocol endpoint served from Calviri's own host at https://www.calviri.com/_api/mcp. It is the standard Wix "Site Visitor Assistant" server that the Wix platform provisions
@@ -97,9 +97,9 @@ description: Calviri is a Phoenix, Arizona biotechnology company, founded in 201
 image: https://static.wixstatic.com/media/0c6e92_2823fb63b9514e718b52ff84460faf97~mv2.png/v1/fill/w_192,h_192,lg_1,usm_0.66_1.00_0.01/0c6e92_2823fb63b9514e718b52ff84460faf97~mv2.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: calviri-mcp.yml
-  slug: calviri-mcpyml
+- description: Calviri serves a live, anonymous Model Context Protocol endpoint from its own host at https://www.calviri.com/_api/mcp. The endpoint is PLATFORM-PROVIDED by Wix (calviri.com is a Wix site) rather than
+  name: Calviri MCP Server
+  slug: calviri-mcp-server
 modified: '2026-08-09'
 name: Calviri
 nav: Providers
@@ -112,7 +112,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 9.4
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -122,7 +122,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.0
+  previous_composite: 9.4
   provenance:
     mcp: first-party
   regulatory:
@@ -131,8 +131,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

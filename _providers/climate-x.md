@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 18.9
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -106,7 +106,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 21.6
+  previous_composite: 18.9
   provenance:
     conformance: first-party
   regulatory:
@@ -115,8 +115,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climate-x/refs/heads/main/screenshots/climate-x-2026-07-25T205623.png
 security:
@@ -134,7 +134,7 @@ tags:
 - Analytics
 - Sustainability
 - ESG
-- Real Estate
+- Real-Estate
 - Insurance
 - Banking
 website: https://www.climate-x.com

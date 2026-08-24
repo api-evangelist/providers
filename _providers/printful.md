@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -157,7 +157,7 @@ modified: '2026-06-25'
 name: Printful
 nav: Providers
 network: true
-overview: 'Printful publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Files API, Mockup Generator API, and 5 more. Tagged areas include Print on Demand, Fulfillment, Ecommerce, Dropshipping, and Merchandise.
+overview: 'Printful publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Files API, Mockup Generator API, and 5 more. Tagged areas include Print on Demand, Fulfillment, E-Commerce, Dropshipping, and Merchandise.
 
 
   Printful''s developer surface includes authentication, engineering blog, documentation, and 9 more developer resources.'
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -183,7 +183,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 34.4
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +191,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -211,7 +211,7 @@ slug: printful
 tags:
 - Print on Demand
 - Fulfillment
-- Ecommerce
+- E-Commerce
 - Dropshipping
 - Merchandise
 website: https://www.printful.com

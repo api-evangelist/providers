@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -188,7 +188,7 @@ modified: '2026-08-18'
 name: Offendersearch API
 nav: Providers
 network: true
-overview: 'Offendersearch API publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Auth API, and 13 more. Tagged areas include background-checks, identity-verification, public-records, criminal-records, and compliance.
+overview: 'Offendersearch API publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Auth API, and 13 more. Tagged areas include Background Checks, Identity Verification, Public Records, Criminal Records, and Compliance.
 
 
   The Offendersearch API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -207,6 +207,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.8
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -216,6 +217,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +234,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Offendersearch Api Authentication
@@ -249,18 +252,18 @@ security:
   summary_line: trust center published
 slug: offendersearch-api
 tags:
-- background-checks
-- identity-verification
-- public-records
-- criminal-records
-- compliance
-- trust-and-safety
-- hr-tech
-- recruiting
-- proptech
-- tenant-screening
+- Background Checks
+- Identity Verification
+- Public Records
+- Criminal Records
+- Compliance
+- Trust and Safety
+- HR Tech
+- Recruiting
+- PropTech
+- Tenant Screening
 - healthcare-screening
-- data-api
-- mcp-server
+- Data API
+- MCP Server
 - agent-native
 ---

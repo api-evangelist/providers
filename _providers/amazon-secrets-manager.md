@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -452,8 +452,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-secrets-manager-mcp.yml
-  slug: amazon-secrets-manager-mcpyml
+  name: Amazon Secrets Manager MCP Server
+  slug: amazon-secrets-manager-mcp-server
 modified: '2026-06-20'
 name: Amazon Secrets Manager
 nav: Providers
@@ -498,18 +498,18 @@ rules:
   slug: amazon-secrets-manager-spectral-rules
 score:
   band: exemplar
-  composite: 66.7
-  delta: -5.1
+  composite: 67.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 67.8
     developer_ergonomics: 76.2
     discoverability: 94.4
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 36.8
-  previous_composite: 71.8
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -519,9 +519,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 6.5
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -78,9 +78,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 6.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intello/refs/heads/main/screenshots/intello-2026-06-20T183438.png
 security:

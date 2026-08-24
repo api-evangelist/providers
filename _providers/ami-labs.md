@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,7 +83,7 @@ modified: '2026-08-17'
 name: AMI Labs
 nav: Providers
 network: true
-overview: 'AMI Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Artificial Intelligence, Machine Learning, and World Models.
+overview: 'AMI Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Artificial Intelligence, Machine-Learning, and World Models.
 
 
   AMI Labs'' developer surface includes engineering blog and 6 more developer resources.'
@@ -99,7 +99,7 @@ rate_limits:
 score:
   band: minimal
   composite: 6.2
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -109,9 +109,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ami-labs/refs/heads/main/screenshots/ami-labs-2026-07-25T200053.png
 security:
@@ -124,7 +124,7 @@ tags:
 - Company
 - Ai Enterprise Software
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - World Models
 - AI Research
 - Robotics

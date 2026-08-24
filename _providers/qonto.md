@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 7
@@ -356,9 +356,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qonto.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: qonto-mcp.yml
-  slug: qonto-mcpyml
+- description: 'Officially supported, actively maintained Qonto MCP server. Lets an AI assistant read and act on Qonto business-banking data through a curated set of tools. Built on top of the Qonto Business API and '
+  name: Qonto MCP Server
+  slug: qonto-mcp-server
 modified: '2026-07-17'
 name: Qonto
 nav: Providers
@@ -387,7 +387,7 @@ scopes:
 score:
   band: exemplar
   composite: 75.0
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -397,7 +397,7 @@ score:
     discoverability: 68.5
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 71.9
+  previous_composite: 75.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,8 +414,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/screenshots/qonto-2026-08-17T075403.png
 security:

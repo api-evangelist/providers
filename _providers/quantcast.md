@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'The Quantcast Platform GraphQL API (v2) is the primary programmatic interface to the Quantcast advertising platform. It exposes queries and mutations for reporting, campaign and line item management, '
@@ -264,7 +264,7 @@ scopes:
 score:
   band: thin
   composite: 38.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -274,13 +274,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 40.1
+  previous_composite: 38.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/screenshots/quantcast-2026-06-20T192410.png
 security:

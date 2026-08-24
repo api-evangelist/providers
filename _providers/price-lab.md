@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -193,13 +193,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/price-lab.
 layout: provider
 mcp_servers:
 - description: ''
-  name: price-lab-mcp.yml
-  slug: price-lab-mcpyml
+  name: Price Lab MCP Server
+  slug: price-lab-mcp-server
 modified: '2026-07-20'
 name: Price Lab
 nav: Providers
 network: true
-overview: 'Price Lab publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Categories API, Competitor Pricing API, and 6 more. Tagged areas include Company, Pricing, Retail, E-commerce, and Competitive Intelligence.
+overview: 'Price Lab publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Categories API, Competitor Pricing API, and 6 more. Tagged areas include Company, Pricing, Retail, E-Commerce, and Competitive Intelligence.
 
 
   Price Lab''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 16 more developer resources.'
@@ -207,7 +207,7 @@ random_paper: 18
 score:
   band: thin
   composite: 37.4
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -217,7 +217,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 39.6
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,8 +228,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -245,7 +245,7 @@ tags:
 - Company
 - Pricing
 - Retail
-- E-commerce
+- E-Commerce
 - Competitive Intelligence
 - Price Optimization
 - Artificial Intelligence

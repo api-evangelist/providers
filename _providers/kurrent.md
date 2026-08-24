@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: 'The primary protocol for KurrentDB. The published protocol buffer definitions cover the v2 streams service (multi-stream appends, reads), the schema registry service, the secondary index service, and '
@@ -311,14 +311,14 @@ description: Kurrent — formerly Event Store Ltd — builds KurrentDB, an event
 image: https://www.kurrent.io/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: kurrent-mcp.yml
-  slug: kurrent-mcpyml
+- description: Official Kurrent MCP server that lets an agent explore data in KurrentDB by reading streams, writing events, and building, creating, updating and testing projections.
+  name: KurrentDB
+  slug: kurrentdb
 modified: '2026-07-19'
 name: Kurrent
 nav: Providers
 network: true
-overview: 'Kurrent publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Gossip API, Info API, and 5 more. Tagged areas include Company, Database, Event Sourcing, Event Streaming, and Event Driven Architecture.
+overview: 'Kurrent publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Gossip API, Info API, and 5 more. Tagged areas include Company, Database, Event Sourcing, Event Streaming, and Event-Driven Architecture.
 
 
   The Kurrent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -334,7 +334,7 @@ scopes:
 score:
   band: strong
   composite: 58.7
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -344,7 +344,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 62.1
+  previous_composite: 58.7
   provenance:
     conformance: derived
     contracts:
@@ -354,8 +354,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/screenshots/kurrent-2026-07-25T224337.png
 security:
@@ -377,12 +377,12 @@ tags:
 - Database
 - Event Sourcing
 - Event Streaming
-- Event Driven Architecture
+- Event-Driven Architecture
 - CQRS
 - Data Infrastructure
 - Developer Tools
 - Cloud
-- Open Source
+- Open-Source
 - gRPC
 - Agentic AI
 website: https://www.kurrent.io/

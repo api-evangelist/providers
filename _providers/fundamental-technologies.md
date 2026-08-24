@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Fundamental Technologies
 nav: Providers
 network: true
-overview: 'Fundamental Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Predictive Analytics, and Foundation Models.
+overview: 'Fundamental Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Predictive Analytics, and Foundation Models.
 
 
   Fundamental Technologies'' developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 11.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -90,9 +90,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-technologies/refs/heads/main/screenshots/fundamental-technologies-2026-07-25T215308.png
 security:
@@ -104,7 +104,7 @@ slug: fundamental-technologies
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 - Foundation Models
 - Tabular Data

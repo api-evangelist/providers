@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 84.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -348,20 +348,20 @@ jsonld:
   slug: xquik-context
 layout: provider
 mcp_servers:
+- description: Xquik operates an official remote MCP server for its REST API. The manifest, the OAuth protected-resource metadata and the endpoint itself were all probed live on 2026-08-13. The endpoint answers, and
+  name: Xquik MCP Server
+  slug: xquik-mcp-server
 - description: ''
-  name: xquik-mcp.yml
-  slug: xquik-mcpyml
-- description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: xquik-docs-mcp.yml
-  slug: xquik-docs-mcpyml
+  name: Xquik MCP Server
+  slug: xquik-mcp-server-2
+- description: Xquik's second, read-only MCP server, scoped to the documentation site. Unlike the API MCP server it is anonymous, so `initialize` and `tools/list` both returned 200 on 2026-08-13 and the real tool se
+  name: Xquik
+  slug: xquik
 modified: '2026-08-13'
 name: Xquik
 nav: Providers
 network: true
-overview: 'Xquik publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include social media data, X / Twitter, social listening, data extraction, and automation.
+overview: 'Xquik publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include social-media-data, X / Twitter, Social Listening, Data Extraction, and Automation.
 
 
   The Xquik catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -396,7 +396,7 @@ scopes:
 score:
   band: exemplar
   composite: 92.8
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -406,7 +406,7 @@ score:
     discoverability: 100.0
     governance: 100.0
     operational_transparency: 81.6
-  previous_composite: 89.7
+  previous_composite: 92.8
   provenance:
     agentic_access: unknown
     conformance: first-party
@@ -417,8 +417,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/screenshots/xquik-api-2026-08-17T075407.png
 security:
@@ -436,13 +436,13 @@ security:
   summary_line: security.txt · contact published
 slug: xquik-api
 tags:
-- social media data
+- social-media-data
 - X / Twitter
-- social listening
-- data extraction
-- automation
-- webhooks
+- Social Listening
+- Data Extraction
+- Automation
+- Webhook
 - MCP
-- developer API
+- Developer API
 website: https://xquik.com/en
 ---

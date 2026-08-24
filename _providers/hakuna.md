@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -206,9 +206,9 @@ description: 'hakuna AG is a Swiss digital time-tracking and personnel-managemen
 image: https://www.hakuna.ch/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: hakuna-mcp.yml
-  slug: hakuna-mcpyml
+- description: Candidate MCP tool surface derived one-to-one from the operations in the hakuna OpenAPI. No official hosted/remote hakuna MCP server was found; this is a governance starting point, not a published ser
+  name: Hakuna MCP Server
+  slug: hakuna-mcp-server
 modified: '2026-07-19'
 name: Hakuna
 nav: Providers
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.3
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 45.2
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +246,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/screenshots/hakuna-2026-07-25T220533.png
 security:
@@ -267,7 +267,7 @@ tags:
 - Workforce Management
 - Absence Management
 - Project Tracking
-- SaaS
+- Software-as-a-Service
 - Switzerland
 - SME
 website: https://www.hakuna.ch

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Rcom
 nav: Providers
 network: true
-overview: 'Rcom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Enterprise, Networking, and Data Center.
+overview: 'Rcom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Enterprise, Networking, and Data-Center.
 
 
   Rcom''s developer surface includes support, engineering blog, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 3.2
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,15 +74,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.6
+  previous_composite: 3.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -95,7 +95,7 @@ tags:
 - Telecommunications
 - Enterprise
 - Networking
-- Data Center
+- Data-Center
 - Cloud
 - Connectivity
 - Voice

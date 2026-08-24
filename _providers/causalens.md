@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The HTTP surface exposed by a Dara application. Dara is causaLens'' Apache-2.0 open-source Python framework built on FastAPI; each app serves a documented set of built-in routes (session verification, '
@@ -137,13 +137,13 @@ image: https://avatars.githubusercontent.com/u/40164755?s=200&v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: causalens-mcp.yml
-  slug: causalens-mcpyml
+  name: CausaLens MCP Server
+  slug: causalens-mcp-server
 modified: '2026-08-09'
 name: CausaLens
 nav: Providers
 network: true
-overview: 'CausaLens publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Causal AI, Machine Learning, and Data Science.
+overview: 'CausaLens publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Causal AI, Machine-Learning, and Data Science.
 
 
   CausaLens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 19 more developer resources.'
@@ -151,7 +151,7 @@ random_paper: 14
 score:
   band: thin
   composite: 34.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -161,13 +161,13 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 35.7
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -183,12 +183,12 @@ tags:
 - Company
 - Artificial Intelligence
 - Causal AI
-- Machine Learning
+- Machine-Learning
 - Data Science
 - Decision Intelligence
 - Analytics
 - Agents
-- Open Source
+- Open-Source
 - Python
 website: https://causalens.com
 ---

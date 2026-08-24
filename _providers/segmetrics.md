@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'The v1 Import API lets a customer push their own data into a SegMetrics integration — contacts (with UTM attribution, geo, affiliate and custom fields), tags, orders/invoices, subscriptions, products '
@@ -164,8 +164,8 @@ image: https://segmetrics.io/wp-content/uploads/2016/02/cropped-icon-lg-300x300.
 layout: provider
 mcp_servers:
 - description: ''
-  name: segmetrics-mcp.yml
-  slug: segmetrics-mcpyml
+  name: SegMetrics MCP Server
+  slug: segmetrics-mcp-server
 modified: '2026-08-12'
 name: SegMetrics
 nav: Providers
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -196,12 +196,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 44.8
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segmetrics/refs/heads/main/screenshots/segmetrics-2026-08-17T081754.png
 security:
@@ -227,7 +227,7 @@ tags:
 - Reporting
 - Business Intelligence
 - Advertising
-- SaaS
+- Software-as-a-Service
 - MCP
 website: https://segmetrics.io/
 ---

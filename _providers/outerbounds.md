@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-20'
 name: Outerbounds
 nav: Providers
 network: true
-overview: 'Outerbounds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Analytics, Machine Learning, MLOps, and Artificial Intelligence.
+overview: 'Outerbounds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Analytics, Machine-Learning, MLOps, and Artificial Intelligence.
 
 
   Outerbounds'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, and 10 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 25.3
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -122,11 +122,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 24.2
+  previous_composite: 25.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outerbounds/refs/heads/main/screenshots/outerbounds-2026-08-07T191054.png
 security:
@@ -138,7 +138,7 @@ slug: outerbounds
 tags:
 - Company
 - Data Analytics
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Artificial Intelligence
 - Data Science

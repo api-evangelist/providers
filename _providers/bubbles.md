@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-04-21'
 name: Bubble
 nav: Providers
 network: true
-overview: 'Bubble publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include Applications, Low Code, No Code, Visual Programming, and Webhooks.
+overview: 'Bubble publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include Application, Low-Code, No-Code, Visual Programming, and Webhook.
 
 
   Bubble''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, signup flow, engineering blog, and 9 more developer resources.'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.3
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 45.1
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/heads/main/screenshots/bubbles-2026-06-20T173737.png
 security:
@@ -190,11 +190,11 @@ security:
   summary_line: SOC 2, GDPR
 slug: bubbles
 tags:
-- Applications
-- Low Code
-- No Code
+- Application
+- Low-Code
+- No-Code
 - Visual Programming
-- Webhooks
-- Web Apps
+- Webhook
+- Web App
 website: https://bubble.io
 ---

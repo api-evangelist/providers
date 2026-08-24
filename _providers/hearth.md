@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 17.3
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -106,15 +106,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 19.4
+  previous_composite: 17.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hearth/refs/heads/main/screenshots/hearth-2026-07-25T220903.png
 security:
@@ -137,6 +137,6 @@ tags:
 - Scheduling
 - Field Service
 - AI Assistant
-- SaaS
+- Software-as-a-Service
 website: https://gethearth.com
 ---

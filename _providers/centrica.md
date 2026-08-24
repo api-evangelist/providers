@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Token-issuing API on the Centrica FieldOps API Management platform, published on Centrica's Azure API Management developer portal. A single POST /oauth2/token operation exchanges an OAuth2 client_cred
@@ -153,9 +153,9 @@ description: 'Centrica plc is the FTSE-listed British energy and services group 
 image: https://www.britishgas.co.uk/aem6/etc/designs/britishgas/favicons/favicon-152x152.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: centrica-mcp.yml
-  slug: centrica-mcpyml
+- description: Centrica publishes no MCP server. No hosted or remote server was found in the MCP registry, on npm under @modelcontextprotocol or any Centrica scope, in either Centrica GitHub organisation (github.com
+  name: Centrica MCP Server
+  slug: centrica-mcp-server
 modified: '2026-07-27'
 name: Centrica
 nav: Providers
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.9
-  delta: 6.1
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -186,7 +186,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 48.8
+  previous_composite: 54.9
   provenance:
     conformance: derived
     contracts:
@@ -202,9 +202,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png
 security:
 - kind: authentication

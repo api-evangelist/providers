@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that connects governed enterprise data sources into a sandboxed agent workspace. OAuth 2.0 (WorkOS AuthKit) protected; requires a bearer token.
@@ -110,14 +110,14 @@ description: MarcoPolo is an MCP-first enterprise AI data platform operated by I
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marco-polo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: marco-polo-mcp.yml
-  slug: marco-polo-mcpyml
+- description: 'MarcoPolo is an MCP-first enterprise AI data platform. Its product surface IS a hosted, remote MCP server that lets any MCP client (Claude, ChatGPT, Cursor, Codex, or a custom agent) connect governed '
+  name: MarcoPolo MCP Server
+  slug: marcopolo-mcp-server
 modified: '2026-07-20'
 name: Marco Polo
 nav: Providers
 network: true
-overview: 'Marco Polo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Model Context Protocol, Enterprise AI, and Data Governance.
+overview: 'Marco Polo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Enterprise AI, Data Governance, and AI Agents.
 
 
   Marco Polo''s developer surface includes documentation, getting-started guide, pricing, engineering blog, authentication, CLI, and 11 more developer resources.'
@@ -129,23 +129,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 25.0
-  delta: -0.3
+  composite: 26.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 25.3
+  previous_composite: 26.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marco-polo/refs/heads/main/screenshots/marco-polo-2026-07-25T230151.png
 security:
@@ -169,12 +169,11 @@ slug: marco-polo
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - Enterprise AI
 - Data Governance
 - AI Agents
 - Data Integration
 - Security
-- OAuth
+- Authentication
 website: https://marcopolo.dev
 ---

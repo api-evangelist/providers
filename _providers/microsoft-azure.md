@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -13854,13 +13854,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: microsoft-azure-mcp.yml
-  slug: microsoft-azure-mcpyml
+  name: Microsoft Azure MCP Server
+  slug: microsoft-azure-mcp-server
 modified: '2026-06-20'
 name: Microsoft Azure
 nav: Providers
 network: true
-overview: 'Microsoft Azure publishes 1659 APIs on the [APIs.io](https://apis.io/) network, including AccessConnector API, AccessControlRecords API, AccessPolicies API, and 1656 more. Tagged areas include API Management, Cloud, Cloud Computing, Enterprise, and Infrastructure as a Service.
+overview: 'Microsoft Azure publishes 1659 APIs on the [APIs.io](https://apis.io/) network, including AccessConnector API, AccessControlRecords API, AccessPolicies API, and 1656 more. Tagged areas include API Management, Cloud, Cloud Computing, Enterprise, and Infrastructure-as-a-Service.
 
 
   The Microsoft Azure catalog on APIs.io includes 9 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -13905,18 +13905,18 @@ scopes:
   summary_line: 25 scopes · implicit/authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.3
-  delta: -5.7
+  composite: 57.7
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 14.4
+    contract_governance: 18.2
     contract_quality: 63.0
     developer_ergonomics: 69.0
     discoverability: 68.5
-    governance: 14.4
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 63.0
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -13926,9 +13926,9 @@ score:
       marker_coverage: 0.0
       total: 1659
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:
 - kind: authentication
@@ -13953,8 +13953,8 @@ tags:
 - Cloud
 - Cloud Computing
 - Enterprise
-- Infrastructure as a Service
-- Platform as a Service
+- Infrastructure-as-a-Service
+- Platform-as-a-Service
 - T1
 use_cases:
 - description: Build and deploy microservices-based applications using AKS, Container Registry, and Azure API Management.

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -443,31 +443,31 @@ rules:
     info: 2
     warn: 3
   slug: adobe-illustrator-jsonschema-spectral-rules
-- effective_rule_count: 61
+- effective_rule_count: 60
   extends:
   - spectral:oas
   name: Adobe Illustrator API Rules
-  rule_count: 20
+  rule_count: 19
   severity_counts:
-    error: 14
+    error: 13
     hint: 0
     info: 2
     warn: 4
   slug: adobe-illustrator-spectral-rules
 score:
   band: developing
-  composite: 46.2
-  delta: -6.2
+  composite: 46.7
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 56.4
     developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 55.3
-  previous_composite: 52.4
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -475,9 +475,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/screenshots/adobe-illustrator-2026-06-20T164935.png
 security:
 - kind: domain-security

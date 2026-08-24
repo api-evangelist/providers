@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The categories API from Leapcure — 2 operation(s) for categories.
@@ -174,8 +174,8 @@ image: https://blog.leapcure.com/wp-content/uploads/2022/10/cropped-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: leapcure-mcp.yml
-  slug: leapcure-mcpyml
+  name: Leapcure MCP Server
+  slug: leapcure-mcp-server
 modified: '2026-07-20'
 name: Leapcure
 nav: Providers
@@ -188,7 +188,7 @@ random_paper: 9
 score:
   band: thin
   composite: 33.8
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 32.6
+  previous_composite: 33.8
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/screenshots/leapcure-2026-07-25T224748.png
 security:
@@ -234,7 +234,7 @@ tags:
 - Patient Recruitment
 - Healthcare
 - Blog
-- Content API
+- content-api
 - WordPress
 website: https://leapcure.com
 ---

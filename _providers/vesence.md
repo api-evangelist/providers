@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Vesence
 nav: Providers
 network: true
-overview: 'Vesence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Agentic AI, Legal Tech, and Professional Services.
+overview: 'Vesence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, Legal Tech, and Professional Services.
 
 
   Vesence''s developer surface includes documentation, support, engineering blog, signup flow, and 6 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 18.3
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -98,9 +98,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -114,7 +114,7 @@ security:
 slug: vesence
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agentic AI
 - Legal Tech
 - Professional Services

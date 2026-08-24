@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Aurora Connect (Buf) API for the SEC-registered securities-finance ATS — authentication, company/instrument reference, order management (OMS), venue order book, contract requests, contract lifecyc
@@ -127,8 +127,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/provable.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: provable-mcp.yml
-  slug: provable-mcpyml
+  name: Provable MCP Server
+  slug: provable-mcp-server
 modified: '2026-07-20'
 name: Provable
 nav: Providers
@@ -144,7 +144,7 @@ random_paper: 19
 score:
   band: developing
   composite: 40.1
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -154,7 +154,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 42.3
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -165,8 +165,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 63.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/screenshots/provable-2026-08-17T081404.png
 security:

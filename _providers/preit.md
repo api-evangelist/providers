@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: 2026-05-23
 name: Pennsylvania Real Estate Investment Trust (PREIT)
 nav: Providers
 network: true
-overview: 'Pennsylvania Real Estate Investment Trust (PREIT) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, REIT, Shopping Malls, Retail, and Defunct (Public).
+overview: 'Pennsylvania Real Estate Investment Trust (PREIT) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, REIT, Shopping Malls, Retail, and Defunct (Public).
 
 
   Pennsylvania Real Estate Investment Trust (PREIT)''s developer surface includes engineering blog and 3 more developer resources.'
@@ -65,7 +65,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 5.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -75,9 +75,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/preit/refs/heads/main/screenshots/preit-2026-06-20T192048.png
 security:
@@ -87,7 +87,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: preit
 tags:
-- Real Estate
+- Real-Estate
 - REIT
 - Shopping Malls
 - Retail

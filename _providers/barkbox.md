@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-18'
 name: BARK (BarkBox)
 nav: Providers
 network: true
-overview: 'BARK (BarkBox) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pets, Ecommerce, Subscription, and Consumer.
+overview: 'BARK (BarkBox) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pets, E-Commerce, Subscription, and Consumer.
 
 
   BARK (BarkBox)''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 11.0
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -98,9 +98,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 11.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barkbox/refs/heads/main/screenshots/barkbox-2026-08-07T162144.png
 security:
@@ -112,7 +112,7 @@ slug: barkbox
 tags:
 - Company
 - Pets
-- Ecommerce
+- E-Commerce
 - Subscription
 - Consumer
 - Direct to Consumer

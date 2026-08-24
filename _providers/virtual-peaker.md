@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -205,8 +205,8 @@ image: https://assets.virtualpeaker.io/gravity-connect/assets/vp_logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: virtual-peaker-mcp.yml
-  slug: virtual-peaker-mcpyml
+  name: Virtual Peaker MCP Server
+  slug: virtual-peaker-mcp-server
 modified: '2026-07-27'
 name: Virtual Peaker
 nav: Providers
@@ -227,7 +227,7 @@ scopes:
 score:
   band: developing
   composite: 53.6
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -237,7 +237,7 @@ score:
     discoverability: 66.7
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 47.2
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,9 +254,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 74.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/screenshots/virtual-peaker-2026-08-17T082758.png
 security:
 - kind: authentication

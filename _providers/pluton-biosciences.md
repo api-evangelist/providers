@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Internal high-throughput microbial discovery platform that screens soil microbiomes and uses computational analysis to identify naturally occurring microbial consortia for agriculture and carbon seque
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pluton-biosciences/refs/heads/main/screenshots/pluton-biosciences-2026-06-20T191815.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-08-11'
 name: QR Code Crafter
 nav: Providers
 network: true
-overview: 'QR Code Crafter publishes 1 API on the [APIs.io](https://apis.io/) network: QRCodeCrafter API. Tagged areas include QR code, QR code generation, static QR, dynamic QR, and dynamic redirects.
+overview: 'QR Code Crafter publishes 1 API on the [APIs.io](https://apis.io/) network: QRCodeCrafter API. Tagged areas include QR Code, QR Code Generation, Static Qr, Dynamic QR, and dynamic redirects.
 
 
   QR Code Crafter''s developer surface includes documentation, API reference, pricing, support, authentication, changelog, code examples, and 22 more developer resources.'
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.7
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -188,7 +188,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 43.5
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,8 +199,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/screenshots/qr-code-crafter-2026-08-17T081420.png
 security:
@@ -214,20 +214,20 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: qr-code-crafter
 tags:
-- QR code
-- QR code generation
-- static QR
-- dynamic QR
+- QR Code
+- QR Code Generation
+- Static Qr
+- Dynamic QR
 - dynamic redirects
 - image export
 - bulk generation
-- developer tools
+- Developer Tools
 - OpenAPI
 - WebMCP
 - browser agents
 - payments (QR)
-- agent readiness
-- llms.txt
+- Agent Readiness
+- llms-txt
 - capability tokens
 website: https://qrcodecrafter.com
 ---

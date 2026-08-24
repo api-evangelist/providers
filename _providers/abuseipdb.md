@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -338,7 +338,7 @@ modified: '2026-05-30'
 name: AbuseIPDB
 nav: Providers
 network: true
-overview: 'AbuseIPDB publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blacklist API, Management API, Reports API, and 1 more. Tagged areas include Anti Malware, Blacklist, Cyber Security, IP Reputation, and Network Security.
+overview: 'AbuseIPDB publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blacklist API, Management API, Reports API, and 1 more. Tagged areas include Anti Malware, Blacklist, Cybersecurity, IP Reputation, and Network Security.
 
 
   The AbuseIPDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -378,18 +378,18 @@ rules:
   slug: abuseipdb-rules
 score:
   band: strong
-  composite: 56.1
-  delta: -12.8
+  composite: 56.5
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 71.0
     developer_ergonomics: 57.1
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 68.9
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -397,9 +397,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/screenshots/abuseipdb-2026-06-20T163451.png
 security:
 - kind: authentication
@@ -423,7 +423,7 @@ solutions:
 tags:
 - Anti Malware
 - Blacklist
-- Cyber Security
+- Cybersecurity
 - IP Reputation
 - Network Security
 - Public APIs

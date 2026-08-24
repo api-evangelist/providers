@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -189,13 +189,13 @@ image: https://www.luxurypresence.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: luxury-presence-mcp.yml
-  slug: luxury-presence-mcpyml
+  name: Luxury Presence MCP Server
+  slug: luxury-presence-mcp-server
 modified: '2026-07-20'
 name: Luxury Presence
 nav: Providers
 network: true
-overview: 'Luxury Presence publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Media API, Offices API, and 2 more. Tagged areas include Company, Vertical Software, Real Estate, PropTech, and CRM.
+overview: 'Luxury Presence publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Media API, Offices API, and 2 more. Tagged areas include Company, Vertical Software, Real-Estate, PropTech, and CRM.
 
 
   The Luxury Presence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -206,7 +206,7 @@ random_paper: 20
 score:
   band: developing
   composite: 43.1
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 49.2
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,9 +227,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/screenshots/luxury-presence-2026-07-25T225740.png
 security:
 - kind: authentication
@@ -244,12 +244,12 @@ slug: luxury-presence
 tags:
 - Company
 - Vertical Software
-- Real Estate
+- Real-Estate
 - PropTech
 - CRM
 - Marketing
 - Websites
-- Webhooks
+- Webhook
 - Lead Generation
 website: https://www.luxurypresence.com/
 ---

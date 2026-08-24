@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The only publicly documented, machine-readable surface Resilience operates. portal.cyberresilience.com — the gated client and broker application — redirects through /v2/api/auth/login to an Auth0 tena
@@ -165,7 +165,7 @@ scopes:
 score:
   band: emerging
   composite: 21.4
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -175,7 +175,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 29.9
+  previous_composite: 21.4
   provenance:
     conformance: first-party
   regulatory:
@@ -184,9 +184,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 59.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Resilience Cyber Authentication
@@ -211,7 +211,7 @@ tags:
 - Claims
 - Risk Data
 - Technology Errors and Omissions
-- Broker
+- Brokers
 - Specialty Insurance
 website: https://cyberresilience.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Versioned (v1) REST API for Onward Delivery's final-mile logistics platform, documented on Theneo. Covers orders, draft manifests, partners, subscriptions, routes, jobs, activity ingest, events, and w
@@ -116,7 +116,7 @@ random_paper: 10
 score:
   band: thin
   composite: 28.4
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -126,15 +126,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 27.9
+  previous_composite: 28.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onward-delivery/refs/heads/main/screenshots/onward-delivery-2026-08-07T190433.png
 security:

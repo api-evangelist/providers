@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -125,7 +125,7 @@ modified: '2026-07-20'
 name: Quarterzip
 nav: Providers
 network: true
-overview: 'Quarterzip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Customer Support, Onboarding, and User Activation.
+overview: 'Quarterzip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Customer-Support, Onboarding, and User Activation.
 
 
   The Quarterzip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -136,7 +136,7 @@ random_paper: 19
 score:
   band: thin
   composite: 38.6
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -146,11 +146,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 41.5
+  previous_composite: 38.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -169,12 +169,12 @@ slug: quarterzip
 tags:
 - Company
 - AI Agents
-- Customer Support
+- Customer-Support
 - Onboarding
 - User Activation
 - Screen Sharing
 - Voice
-- Webhooks
+- Webhook
 - SDK
 - Developer Tools
 website: https://quarterzip.ai

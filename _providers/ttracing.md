@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-commerce surface for the TTRacing Shopify store: a hosted UCP shopping MCP endpoint plus unauthenticated read-only product/collection JSON browsing.'
@@ -74,32 +74,32 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ttracing.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: ttracing-mcp.yml
-  slug: ttracing-mcpyml
+  name: TTRacing UCP Shopping MCP
+  slug: ttracing-ucp-shopping-mcp
 modified: '2026-07-21'
 name: TTRacing
 nav: Providers
 network: true
-overview: TTRacing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming Chairs, Gaming Furniture, Ecommerce, and Retail.
+overview: TTRacing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming Chairs, Gaming Furniture, E-Commerce, and Retail.
 random_paper: 20
 score:
   band: emerging
-  composite: 11.8
-  delta: -1.8
+  composite: 12.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.6
+  previous_composite: 12.9
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -111,7 +111,7 @@ tags:
 - Company
 - Gaming Chairs
 - Gaming Furniture
-- Ecommerce
+- E-Commerce
 - Retail
 - Agent Commerce
 - MCP

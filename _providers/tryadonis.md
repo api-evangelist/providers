@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-21'
 name: Tryadonis
 nav: Providers
 network: true
-overview: 'Tryadonis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Healthcare, Revenue Cycle Management, and Medical Billing.
+overview: 'Tryadonis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Healthcare, Revenue Cycle Management, and Medical Billing.
 
 
   Tryadonis'' developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 12.8
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -86,15 +86,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.5
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -108,12 +108,12 @@ security:
 slug: tryadonis
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - Revenue Cycle Management
 - Medical Billing
 - Health Tech
-- SaaS
+- Software-as-a-Service
 - Claims
 website: https://adonis.io/
 ---

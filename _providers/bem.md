@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -308,9 +308,9 @@ description: Bem is the production layer for unstructured data. Its API turns in
 image: https://avatars.githubusercontent.com/u/151673182?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: bem-mcp.yml
-  slug: bem-mcpyml
+- description: 'The bem MCP server exposes the bem API to Claude, Cursor, and other MCP-compatible agents. It operates in "Code Mode": rather than one tool per endpoint, the agent writes and runs TypeScript against t'
+  name: Bem MCP Server
+  slug: bem-mcp-server
 modified: '2026-07-18'
 name: Bem
 nav: Providers
@@ -326,7 +326,7 @@ random_paper: 14
 score:
   band: strong
   composite: 55.6
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -336,7 +336,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 57.9
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,8 +347,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/screenshots/bem-2026-07-25T202722.png
 security:
@@ -374,6 +374,6 @@ tags:
 - LLM
 - ETL
 - Schema Inference
-- Webhooks
+- Webhook
 website: https://bem.ai
 ---

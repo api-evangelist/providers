@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Giveffect's "open API" is available on the enterprise Ultimate+ plan and provides programmatic access to platform data (donors, donations, volunteers, campaigns, and events). It is explicitly carved o
@@ -136,7 +136,7 @@ modified: '2026-08-13'
 name: Giveffect
 nav: Providers
 network: true
-overview: 'Giveffect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nonprofit, Fundraising, CRM, and Donations.
+overview: 'Giveffect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Non-Profit, Fundraising, CRM, and Donations.
 
 
   Giveffect''s developer surface includes changelog, engineering blog, FAQ, pricing, signup flow, support, and 13 more developer resources.'
@@ -152,7 +152,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.1
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -162,12 +162,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 29.3
+  previous_composite: 30.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/screenshots/giveffect-2026-07-25T215843.png
 security:
@@ -186,12 +186,12 @@ security:
 slug: giveffect
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Fundraising
 - CRM
 - Donations
 - Volunteer Management
 - Marketing Automation
-- SaaS
+- Software-as-a-Service
 website: https://www.giveffect.com
 ---

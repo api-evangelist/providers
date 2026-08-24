@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -191,8 +191,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplivity
 layout: provider
 mcp_servers:
 - description: ''
-  name: simplivity-mcp.yml
-  slug: simplivity-mcpyml
+  name: SimpliVity MCP Server
+  slug: simplivity-mcp-server
 modified: '2026-07-21'
 name: SimpliVity
 nav: Providers
@@ -210,7 +210,7 @@ scopes:
 score:
   band: thin
   composite: 27.1
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -220,7 +220,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 27.2
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -251,7 +251,7 @@ tags:
 - Virtualization
 - Backup
 - Disaster Recovery
-- Data Center
+- Data-Center
 - Storage
 - Cloud Infrastructure
 - HPE

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -141,7 +141,7 @@ modified: '2026-07-19'
 name: Keel
 nav: Providers
 network: true
-overview: 'Keel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Operations, ERP, Backend, and GraphQL.
+overview: 'Keel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ERP, Backend, GraphQL, and Low-Code.
 
 
   Keel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 18 more developer resources.'
@@ -149,7 +149,7 @@ random_paper: 18
 score:
   band: thin
   composite: 28.3
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -159,11 +159,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 31.4
+  previous_composite: 28.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keel/refs/heads/main/screenshots/keel-2026-07-25T223544.png
 security:
@@ -182,14 +182,12 @@ security:
 slug: keel
 tags:
 - Company
-- Operations
 - ERP
 - Backend
 - GraphQL
-- API
 - Low-Code
 - Developer Tools
-- Workflow
+- Workflows
 - Authentication
 - TypeScript
 website: https://keel.so

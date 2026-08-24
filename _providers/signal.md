@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-05-19'
 name: Signal
 nav: Providers
 network: true
-overview: 'Signal publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Certificates API, and 6 more. Tagged areas include Encryption, Messaging, Security, Cryptography, and Open Source.
+overview: 'Signal publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Certificates API, and 6 more. Tagged areas include Encryption, Messaging, Security, Cryptography, and Open-Source.
 
 
   The Signal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -254,7 +254,7 @@ rules:
 score:
   band: developing
   composite: 41.5
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -264,7 +264,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 46.2
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -272,8 +272,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/screenshots/signal-2026-06-20T193905.png
 security:
@@ -295,7 +295,7 @@ tags:
 - Messaging
 - Security
 - Cryptography
-- Open Source
+- Open-Source
 - Privacy
 website: https://signal.org/
 ---

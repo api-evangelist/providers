@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Commands API from Arc Prize Foundation — 8 operation(s) for commands.
@@ -154,8 +154,8 @@ image: https://arcprize.org/media/images/og-image-default.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: arc-prize-foundation-mcp.yml
-  slug: arc-prize-foundation-mcpyml
+  name: Arc Prize Foundation MCP Server
+  slug: arc-prize-foundation-mcp-server
 modified: '2026-07-18'
 name: Arc Prize Foundation
 nav: Providers
@@ -188,8 +188,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/screenshots/arc-prize-foundation-2026-07-25T201009.png
 security:
@@ -209,7 +209,7 @@ tags:
 - Benchmarks
 - Agents
 - Reasoning
-- Machine Learning
-- Nonprofit
+- Machine-Learning
+- Non-Profit
 website: https://arcprize.org
 ---

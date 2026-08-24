@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,7 +105,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 20.5
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -115,7 +115,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.7
+  previous_composite: 20.5
   provenance:
     conformance: first-party
   regulatory:
@@ -124,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -145,6 +145,6 @@ tags:
 - Workouts
 - Nutrition
 - Health
-- SaaS
+- Software-as-a-Service
 website: https://truecoach.co/
 ---

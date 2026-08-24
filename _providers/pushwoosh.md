@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ modified: '2026-05-08'
 name: Pushwoosh
 nav: Providers
 network: true
-overview: 'Pushwoosh publishes 1 API on the [APIs.io](https://apis.io/) network: Messages API. Tagged areas include Notifications, Push, Email, SMS, and Multi-Channel.
+overview: 'Pushwoosh publishes 1 API on the [APIs.io](https://apis.io/) network: Messages API. Tagged areas include Notification, Push, Email, SMS, and Multi-Channel.
 
 
   Pushwoosh''s developer surface includes engineering blog and 10 more developer resources.'
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.5
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -148,7 +148,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 24.2
+  previous_composite: 22.5
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/screenshots/pushwoosh-2026-06-20T192320.png
 security:
@@ -177,7 +177,7 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: pushwoosh
 tags:
-- Notifications
+- Notification
 - Push
 - Email
 - SMS

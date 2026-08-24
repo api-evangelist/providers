@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Official hosted (remote) Model Context Protocol server for Macro. Connects AI clients over OAuth to search, read and act across a Macro workspace — email, messages, tasks, docs, threads, entities and '
@@ -118,9 +118,9 @@ description: Macro is an all-in-one, keyboard-first work operating system that u
 image: https://avatars.githubusercontent.com/u/65687018?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: macro-mcp.yml
-  slug: macro-mcpyml
+- description: 'Official hosted (remote) MCP server for Macro, the unified interface for email, messages, tasks, calls, agents, pull requests, docs and CRM linked together with shared AI memory. Lets AI clients read '
+  name: Macro MCP Server
+  slug: macro-mcp-server
 modified: '2026-07-20'
 name: Macro
 nav: Providers
@@ -133,7 +133,7 @@ random_paper: 5
 score:
   band: thin
   composite: 28.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -143,13 +143,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 29.2
+  previous_composite: 28.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macro/refs/heads/main/screenshots/macro-2026-07-25T225820.png
 security:
@@ -173,9 +173,9 @@ tags:
 - Collaboration
 - Workspace
 - CRM
-- Tasks
+- Task
 - AI Agents
 - MCP
-- Open Source
+- Open-Source
 website: https://docs.macro.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The External API (ExtAPI) is named in the company's own llms.txt as the integration surface used to synchronize employee and organizational data from HRIS and identity systems that lack a native conne
@@ -146,7 +146,7 @@ random_paper: 17
 score:
   band: thin
   composite: 27.6
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -156,11 +156,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.4
+  previous_composite: 27.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lanes-and-planes/refs/heads/main/screenshots/lanes-and-planes-2026-07-25T224513.png
 security:
@@ -188,7 +188,7 @@ tags:
 - Accounting
 - ERP Integration
 - HRIS
-- SaaS
+- Software-as-a-Service
 - Germany
 - Europe
 website: https://www.lanes-planes.com/

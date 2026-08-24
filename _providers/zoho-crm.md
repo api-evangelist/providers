@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 1
@@ -573,13 +573,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoho-crm.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: zoho-crm-mcp.yml
-  slug: zoho-crm-mcpyml
+  name: Zoho MCP
+  slug: zoho-mcp
 modified: '2026-08-13'
 name: Zoho CRM
 nav: Providers
 network: true
-overview: 'Zoho CRM publishes 106 APIs on the [APIs.io](https://apis.io/) network, including Notifications API v2, Available Apis, Appointment Preference, and 103 more. Tagged areas include CRM, Sales, Customer Relationship Management, Marketing Automation, and Lead Management.
+overview: 'Zoho CRM publishes 106 APIs on the [APIs.io](https://apis.io/) network, including Notifications API v2, Available Apis, Appointment Preference, and 103 more. Tagged areas include CRM, Sales, Marketing Automation, Lead Management, and Customer Engagement.
 
 
   The Zoho CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -615,7 +615,7 @@ scopes:
 score:
   band: exemplar
   composite: 75.2
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -625,7 +625,7 @@ score:
     discoverability: 87.0
     governance: 41.7
     operational_transparency: 84.2
-  previous_composite: 80.9
+  previous_composite: 75.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -636,9 +636,9 @@ score:
       total: 105
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png
 security:
 - kind: authentication
@@ -661,15 +661,14 @@ slug: zoho-crm
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Marketing Automation
 - Lead Management
 - Customer Engagement
 - Sales Automation
 - Contact Management
 - Pipeline Management
-- SaaS
+- Software-as-a-Service
 - OpenAPI
-- OAuth
+- Authentication
 website: https://www.zoho.com/crm/
 ---

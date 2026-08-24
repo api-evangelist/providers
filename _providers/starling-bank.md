@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: Bespoke Starling Developer API for retrieving a customer's accounts, account identifiers (sort code / account number), and balances. Served over OAuth2 at the api.starlingbank.com/api/v2 host with a f
@@ -207,7 +207,7 @@ modified: '2026-07-23'
 name: Starling Bank
 nav: Providers
 network: true
-overview: 'Starling Bank publishes 1 API on the [APIs.io](https://apis.io/) network: Starling Open Data API (OBIE Standard). Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Starling Bank publishes 1 API on the [APIs.io](https://apis.io/) network: Starling Open Data API (OBIE Standard). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Starling Bank''s developer surface includes authentication, sandbox, API reference, documentation, getting-started guide, engineering blog, support, and 23 more developer resources.'
@@ -215,7 +215,7 @@ random_paper: 2
 score:
   band: developing
   composite: 53.5
-  delta: 8.8
+  delta: 0.0
   facets:
     access_clarity: 78.6
     commercial_clarity: 78.6
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 44.7
+  previous_composite: 53.5
   provenance:
     conformance: first-party
     contracts:
@@ -239,9 +239,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/screenshots/starling-bank-2026-08-17T082108.png
 security:
 - kind: authentication
@@ -258,7 +258,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: starling-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

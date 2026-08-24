@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Splash event marketing platform. Enables programmatic management of events, guest (GroupContact) records, organization-level contacts, unsubscribes, event approval workflows, team man
@@ -160,13 +160,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: splashthat-mcp.yml
-  slug: splashthat-mcpyml
+  name: Splash MCP Server
+  slug: splash-mcp-server
 modified: '2026-08-13'
 name: Splash
 nav: Providers
 network: true
-overview: 'Splash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Events, Event Marketing, Event Management, Guest Registration, and Ticketing.
+overview: 'Splash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event Marketing, Event Management, Guest Registration, and Ticketing.
 
 
   The Splash catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -190,7 +190,7 @@ scopes:
 score:
   band: developing
   composite: 48.3
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -200,12 +200,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 52.9
+  previous_composite: 48.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/screenshots/splashthat-2026-06-20T194323.png
 security:
@@ -219,11 +219,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: splashthat
 tags:
-- Events
+- Event
 - Event Marketing
 - Event Management
 - Guest Registration
 - Ticketing
-- Check-In
+- Check-in
 - Analytics
 ---

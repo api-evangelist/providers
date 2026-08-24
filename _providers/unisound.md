@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Multi-modal MaaS API for Unisound U2 models: OpenAI-compatible chat completions and Anthropic-compatible messages for the U2 and U2-Med LLMs (streaming, function calling, structured output, context ca'
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.9
-  delta: 5.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -182,7 +182,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 43.3
+  previous_composite: 48.9
   provenance:
     conformance: first-party
   regulatory:
@@ -191,9 +191,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/screenshots/unisound-2026-08-17T082618.png
 security:
 - kind: authentication
@@ -214,7 +214,7 @@ tags:
 - Large Language Models
 - OCR
 - Healthcare
-- Machine Learning
+- Machine-Learning
 - Voice
 website: https://www.unisound.com
 ---

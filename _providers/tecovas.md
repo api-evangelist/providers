@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -151,8 +151,8 @@ image: https://cdn.sanity.io/images/v8kybopt/production/073bf9cd1134041e2c334a56
 layout: provider
 mcp_servers:
 - description: ''
-  name: tecovas-mcp.yml
-  slug: tecovas-mcpyml
+  name: Tecovas MCP Server
+  slug: tecovas-mcp-server
 modified: '2026-08-05'
 name: Tecovas
 nav: Providers
@@ -170,7 +170,7 @@ scopes:
 score:
   band: thin
   composite: 37.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -180,14 +180,14 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 38.7
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

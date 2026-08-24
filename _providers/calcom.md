@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API providing full programmatic control over Cal.com resources including calendars, event types, bookings, schedules, teams, and organizations. Supports OAuth and API key authentication with rate
@@ -96,7 +96,7 @@ modified: 2026-06-14
 name: Cal.com
 nav: Providers
 network: true
-overview: 'Cal.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Scheduling, Calendars, Bookings, Open Source, and Event Types.
+overview: 'Cal.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Scheduling, Calendars, Bookings, Open-Source, and Event Types.
 
 
   Cal.com''s developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 23.1
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -120,9 +120,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 24.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calcom/refs/heads/main/screenshots/calcom-2026-06-20T173843.png
 security:
@@ -143,7 +143,7 @@ tags:
 - Scheduling
 - Calendars
 - Bookings
-- Open Source
+- Open-Source
 - Event Types
 website: https://cal.com
 ---

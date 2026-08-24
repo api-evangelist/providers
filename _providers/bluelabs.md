@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-18'
 name: BlueLabs
 nav: Providers
 network: true
-overview: BlueLabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Artificial Intelligence, Emotional Intelligence, and Machine Learning.
+overview: BlueLabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Emotional Intelligence, Machine-Learning, and Reinforcement Learning.
 random_paper: 2
 score:
   band: minimal
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluelabs/refs/heads/main/screenshots/bluelabs-2026-07-25T203452.png
 security:
@@ -76,10 +76,9 @@ security:
 slug: bluelabs
 tags:
 - Company
-- AI
 - Artificial Intelligence
 - Emotional Intelligence
-- Machine Learning
+- Machine-Learning
 - Reinforcement Learning
 - Research
 website: https://withbluelabs.ai

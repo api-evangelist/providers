@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -416,9 +416,9 @@ jsonld:
   slug: snapchat-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: snapchat-mcp.yml
-  slug: snapchat-mcpyml
+- description: Snap ships a first-party, hosted, remote MCP server for the Snapchat Ads API. A supported agent POSTs directly to https://mcp.snapchat.com/ads over streamable HTTP and authenticates with OAuth 2.0 (au
+  name: Snapchat Ads MCP Server
+  slug: snapchat-ads-mcp-server
 modified: '2026-08-13'
 name: Snapchat
 nav: Providers
@@ -468,18 +468,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 65.5
-  delta: -4.4
+  composite: 66.0
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 40.2
+    contract_governance: 43.9
     contract_quality: 68.4
     developer_ergonomics: 73.2
     discoverability: 72.2
-    governance: 40.2
+    governance: 43.9
     operational_transparency: 57.9
-  previous_composite: 69.9
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -490,8 +490,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png
 security:
@@ -518,6 +518,6 @@ tags:
 - Augmented Reality
 - Marketing
 - Messaging
-- Social Media
+- Social-Media
 website: https://snap.com
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -169,13 +169,13 @@ image: https://legal.ge/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: legal-ge-public-apis-mcp.yml
-  slug: legal-ge-public-apis-mcpyml
+  name: legal.ge Public APIs MCP Server
+  slug: legalge-public-apis-mcp-server
 modified: '2026-08-09'
 name: legal.ge Public APIs
 nav: Providers
 network: true
-overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Directory API and Matching API. Tagged areas include legal, law, legal-services, directory, and georgia.
+overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Directory API and Matching API. Tagged areas include Legal, Law, Legal Services, Directory, and Georgia.
 
 
   legal.ge Public APIs'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
@@ -187,7 +187,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.3
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -197,7 +197,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 44.6
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,8 +208,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/screenshots/legal-ge-public-apis-2026-08-17T081028.png
 security:
@@ -223,17 +223,16 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: legal-ge-public-apis
 tags:
-- legal
-- law
-- legal-services
-- directory
-- georgia
-- ai-agents
-- mcp
-- model-context-protocol
+- Legal
+- Law
+- Legal Services
+- Directory
+- Georgia
+- AI Agents
+- MCP
 - specialists
-- professional-services
-- marketplace
-- multilingual
-- legal-tech
+- Professional Services
+- Marketplace
+- Multilingual
+- Legal Tech
 ---

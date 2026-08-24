@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Integration-specific datasets (Kelp, ether.fi).
@@ -106,8 +106,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sommelier.
 layout: provider
 mcp_servers:
 - description: ''
-  name: sommelier-mcp.yml
-  slug: sommelier-mcpyml
+  name: Sommelier MCP Server
+  slug: sommelier-mcp-server
 modified: '2026-07-21'
 name: Sommelier
 nav: Providers
@@ -120,7 +120,7 @@ random_paper: 7
 score:
   band: thin
   composite: 27.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -130,7 +130,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 27.4
+  previous_composite: 27.1
   provenance:
     conformance: derived
     contracts:
@@ -140,8 +140,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -159,7 +159,7 @@ tags:
 - DeFi
 - Blockchain
 - Ethereum
-- Vaults
+- Vault
 - Yield
 - Analytics
 website: https://www.somm.finance

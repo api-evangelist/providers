@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Learner training campaign information and operations.
@@ -190,8 +190,8 @@ image: https://www.goethena.com/wp-content/uploads/2025/12/Ethenas-Featured-Imag
 layout: provider
 mcp_servers:
 - description: ''
-  name: goethena-mcp.yml
-  slug: goethena-mcpyml
+  name: Goethena MCP Server
+  slug: goethena-mcp-server
 modified: '2026-07-19'
 name: Goethena
 nav: Providers
@@ -207,7 +207,7 @@ random_paper: 3
 score:
   band: developing
   composite: 52.2
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -217,7 +217,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 52.6
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -233,8 +233,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/screenshots/goethena-2026-07-25T220018.png
 security:

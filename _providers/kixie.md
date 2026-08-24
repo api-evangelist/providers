@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'The primary Kixie automation surface. A single POST endpoint on the apig.kixie.com gateway that dispatches on an `eventname` discriminator in the JSON body — `call` (place an outbound call through an '
@@ -193,7 +193,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.9
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 59.0
+  previous_composite: 61.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,8 +213,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/screenshots/kixie-2026-08-17T081010.png
 security:
@@ -245,7 +245,7 @@ tags:
 - Contact Center
 - Power Dialer
 - CRM
-- Webhooks
+- Webhook
 - Communications
 - Revenue Operations
 website: https://www.kixie.com/

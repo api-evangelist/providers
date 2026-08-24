@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -3110,8 +3110,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-app-mesh-mcp.yml
-  slug: amazon-app-mesh-mcpyml
+  name: Amazon App Mesh MCP Server
+  slug: amazon-app-mesh-mcp-server
 modified: '2026-06-20'
 name: Amazon App Mesh
 nav: Providers
@@ -3148,18 +3148,18 @@ rules:
   slug: amazon-app-mesh-spectral-rules
 score:
   band: developing
-  composite: 46.2
-  delta: -5.2
+  composite: 46.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 65.7
     developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 2.6
-  previous_composite: 51.4
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3169,9 +3169,9 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:
 - kind: authentication

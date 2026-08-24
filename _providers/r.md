@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ modified: '2026-05-19'
 name: R
 nav: Providers
 network: true
-overview: 'R publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Badges API, Downloads API, Packages API, and 2 more. Tagged areas include R, Statistics, Data Science, Open Source, and Programming Language.
+overview: 'R publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Badges API, Downloads API, Packages API, and 2 more. Tagged areas include R, Statistics, Data Science, Open-Source, and Programming Language.
 
 
   The R catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -217,18 +217,18 @@ rules:
   slug: r-spectral-rules
 score:
   band: thin
-  composite: 28.0
-  delta: -9.6
+  composite: 28.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 57.3
     developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 37.6
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -236,9 +236,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/screenshots/r-2026-06-20T192458.png
 security:
 - kind: domain-security
@@ -250,7 +250,7 @@ tags:
 - R
 - Statistics
 - Data Science
-- Open Source
+- Open-Source
 - Programming Language
 website: https://www.r-project.org/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface Centric Brands operates across eight of its owned-brand direct-to-consumer storefronts (Hudson Jeans, Joe's Jeans, Favorite Daughter, Buffalo David Bitton, Avirex, He
@@ -222,8 +222,8 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: centric-brands-mcp.yml
-  slug: centric-brands-mcpyml
+  name: Centric Brands MCP Server
+  slug: centric-brands-mcp-server
 modified: '2026-08-13'
 name: Centric Brands
 nav: Providers
@@ -249,7 +249,7 @@ scopes:
 score:
   band: emerging
   composite: 20.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -259,12 +259,12 @@ score:
     discoverability: 94.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 21.9
+  previous_composite: 20.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/screenshots/centric-brands-2026-06-20T174129.png
 security:

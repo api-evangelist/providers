@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 25
 apis:
 - description: The Asset Categories API from BanQu — 2 operation(s) for asset categories.
@@ -277,13 +277,13 @@ image: https://cdn.prod.website-files.com/639a714d409fd7284b16da02/639e8cdd882c7
 layout: provider
 mcp_servers:
 - description: ''
-  name: banqu-mcp.yml
-  slug: banqu-mcpyml
+  name: BanQu MCP Server
+  slug: banqu-mcp-server
 modified: '2026-08-06'
 name: BanQu
 nav: Providers
 network: true
-overview: 'BanQu publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Asset Categories API, Asset Sharing API, Asset Transactions API, and 22 more. Tagged areas include supply-chain, traceability, sustainability, esg, and agriculture.
+overview: 'BanQu publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Asset Categories API, Asset Sharing API, Asset Transactions API, and 22 more. Tagged areas include Supply Chain, Traceability, Sustainability, ESG, and Agriculture.
 
 
   The BanQu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -294,7 +294,7 @@ random_paper: 10
 score:
   band: thin
   composite: 36.4
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -304,7 +304,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 36.5
+  previous_composite: 36.4
   provenance:
     conformance: derived
     contracts:
@@ -314,8 +314,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/screenshots/banqu-2026-08-07T162129.png
 security:
@@ -329,19 +329,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: banqu
 tags:
-- supply-chain
-- traceability
-- sustainability
-- esg
-- agriculture
-- procurement
-- compliance
-- blockchain
-- eudr
-- carbon-accounting
-- recycling
+- Supply Chain
+- Traceability
+- Sustainability
+- ESG
+- Agriculture
+- Procurement
+- Compliance
+- Blockchain
+- EUDR
+- Carbon Accounting
+- Recycling
 - smallholder-farmers
-- distributed-ledger
-- supplier-management
+- Distributed Ledger
+- Supplier Management
 website: https://www.banqu.co/
 ---

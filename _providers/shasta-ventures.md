@@ -28,7 +28,7 @@ tags:
 - Early Stage
 - Series A
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 - Cybersecurity
 - Developer Tools
 - Infrastructure

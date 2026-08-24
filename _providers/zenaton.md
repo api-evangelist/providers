@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,12 +56,12 @@ modified: '2026-07-21'
 name: Zenaton
 nav: Providers
 network: true
-overview: Zenaton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apis, Workflow Orchestration, Background Jobs, and Workflow As Code.
+overview: Zenaton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workflow Orchestration, Background Jobs, Workflow As Code, and Task Automation.
 random_paper: 11
 score:
   band: minimal
   composite: 6.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -77,20 +77,19 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 7.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: zenaton
 tags:
 - Company
-- Apis
 - Workflow Orchestration
 - Background Jobs
 - Workflow As Code
 - Task Automation
 - Developer Tools
-- SaaS
+- Software-as-a-Service
 - Discontinued
 website: http://www.zenaton.com
 ---

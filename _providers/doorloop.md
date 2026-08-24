@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for DoorLoop property management software. Provides access to properties, units, leases, tenants, rent collection, maintenance requests, accounting, and tenant communication. Authenticated vi
@@ -101,7 +101,7 @@ modified: '2026-06-13'
 name: DoorLoop
 nav: Providers
 network: true
-overview: 'DoorLoop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real Estate, Leases, Rent Collection, and Maintenance.
+overview: 'DoorLoop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real-Estate, Leases, Rent Collection, and Maintenance.
 
 
   DoorLoop''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -127,9 +127,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doorloop/refs/heads/main/screenshots/doorloop-2026-06-20T180153.png
 security:
@@ -144,7 +144,7 @@ security:
 slug: doorloop
 tags:
 - Property Management
-- Real Estate
+- Real-Estate
 - Leases
 - Rent Collection
 - Maintenance

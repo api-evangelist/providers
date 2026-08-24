@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 21.4
-  scored_at: '2026-08-19'
+  score: 24.8
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted, authenticated Model Context Protocol server for managing assessments, reviewing candidates, and analyzing hiring data. Streamable-HTTP transport; Bearer MeritFirst API key (mf_) required.
@@ -86,9 +86,9 @@ description: MeritFirst is a skills-based hiring platform that replaces resume- 
 image: https://www.meritfirst.us/images/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: meritfirst-mcp.yml
-  slug: meritfirst-mcpyml
+- description: Connect to MeritFirst to manage assessments, review candidates, and analyze hiring data.
+  name: Meritfirst MCP Server
+  slug: meritfirst-mcp-server
 modified: '2026-07-20'
 name: Meritfirst
 nav: Providers
@@ -100,22 +100,22 @@ overview: 'Meritfirst publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 5
 score:
   band: emerging
-  composite: 12.7
-  delta: -2.8
+  composite: 13.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 15.5
+  previous_composite: 13.8
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/screenshots/meritfirst-2026-08-07T172605.png
 security:

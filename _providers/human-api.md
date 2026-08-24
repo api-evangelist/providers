@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Health Intelligence Platform (HIP) Admin API for creating and managing Human API users, submitting and managing EHR order types, managing subscriptions, and fetching delivered clinical summary rep
@@ -247,8 +247,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: human-api-mcp.yml
-  slug: human-api-mcpyml
+  name: Human API MCP Server
+  slug: human-api-mcp-server
 modified: '2026-08-15'
 name: Human API
 nav: Providers
@@ -272,7 +272,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.4
-  delta: 8.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -282,7 +282,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     contracts:
@@ -298,9 +298,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Agent-facing commerce endpoint implementing the Universal Commerce Protocol (version 2026-04-08, with 2026-01-23 also supported) over MCP/JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, '
@@ -140,16 +140,16 @@ image: https://finesse.us/cdn/shop/files/opt-1.jpg?v=1745528244
 layout: provider
 mcp_servers:
 - description: ''
-  name: finesse-mcp.yml
-  slug: finesse-mcpyml
+  name: FINESSE UCP Commerce MCP
+  slug: finesse-ucp-commerce-mcp
 - description: ''
-  name: mcp
-  slug: mcp
+  name: FINESSE MCP Server
+  slug: finesse-mcp-server
 modified: '2026-08-12'
 name: FINESSE
 nav: Providers
 network: true
-overview: 'FINESSE publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, retail, ecommerce, fashion, and apparel.
+overview: 'FINESSE publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Fashion, and Apparel.
 
 
   FINESSE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
@@ -170,7 +170,7 @@ scopes:
 score:
   band: thin
   composite: 28.7
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -180,13 +180,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 28.8
+  previous_composite: 28.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,16 +200,16 @@ security:
 slug: finesse
 tags:
 - Company
-- retail
-- ecommerce
-- fashion
-- apparel
-- direct-to-consumer
-- agentic-commerce
-- ucp
-- mcp
+- Retail
+- E-Commerce
+- Fashion
+- Apparel
+- Direct to Consumer
+- Agentic Commerce
+- UCP
+- MCP
 - agent-native
-- shopify
-- consumer
+- Shopify
+- Consumer
 website: https://finesse.us/
 ---

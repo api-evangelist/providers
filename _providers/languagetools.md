@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ modified: '2026-06-13'
 name: LanguageTool
 nav: Providers
 network: true
-overview: 'LanguageTool publishes 3 APIs on the [APIs.io](https://apis.io/) network: Check API, Languages API, and Words API. Tagged areas include Grammar, Spell Check, Style, Proofreading, and NLP.
+overview: 'LanguageTool publishes 3 APIs on the [APIs.io](https://apis.io/) network: Check API, Languages API, and Words API. Tagged areas include Grammar, Spell Check, Styles, Proofreading, and NLP.
 
 
   The LanguageTool catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -179,7 +179,7 @@ rules:
 score:
   band: thin
   composite: 32.5
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -189,7 +189,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 38.8
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -197,9 +197,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/languagetools/refs/heads/main/screenshots/languagetools-2026-06-20T184312.png
 security:
 - kind: domain-security
@@ -210,11 +210,11 @@ slug: languagetools
 tags:
 - Grammar
 - Spell Check
-- Style
+- Styles
 - Proofreading
 - NLP
 - Natural Language Processing
 - Writing
-- Open Source
+- Open-Source
 website: https://languagetool.org
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -150,13 +150,13 @@ image: https://voyagefoods.com/cdn/shop/files/ComboTabletop_0035_1_5.jpg?v=16972
 layout: provider
 mcp_servers:
 - description: ''
-  name: voyage-foods-mcp.yml
-  slug: voyage-foods-mcpyml
+  name: Voyage Foods MCP Server
+  slug: voyage-foods-mcp-server
 modified: '2026-08-05'
 name: Voyage Foods
 nav: Providers
 network: true
-overview: 'Voyage Foods publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, Ecommerce, and Agentic Commerce.
+overview: 'Voyage Foods publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, E-Commerce, and Agentic Commerce.
 
 
   Voyage Foods'' developer surface includes documentation, authentication, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
@@ -169,7 +169,7 @@ scopes:
 score:
   band: thin
   composite: 34.5
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -179,14 +179,14 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 36.8
+  previous_composite: 34.5
   provenance:
     agentic_access: first-party
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -202,7 +202,7 @@ tags:
 - Company
 - Food and Beverage
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
 - MCP

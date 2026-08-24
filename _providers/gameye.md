@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-19'
+  score: 37.4
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -235,8 +235,8 @@ image: https://static.gameye.com/images/android-chrome-512x512.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: gameye-mcp.yml
-  slug: gameye-mcpyml
+  name: Gameye MCP Server
+  slug: gameye-mcp-server
 modified: '2026-07-19'
 name: Gameye
 nav: Providers
@@ -248,18 +248,18 @@ overview: 'Gameye publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 2
 score:
   band: developing
-  composite: 52.0
-  delta: 0.4
+  composite: 53.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 52.4
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 51.6
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,8 +270,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/screenshots/gameye-2026-07-25T215424.png
 security:

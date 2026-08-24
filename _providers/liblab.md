@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Cloud-based generator that produces customizable, type-safe SDKs in seven target stacks (TypeScript, Python, Java, .NET, Go, PHP, Terraform) from OpenAPI 2.0/3.0/3.1 or Postman Collections. CLI and CI
@@ -182,7 +182,7 @@ modified: '2026-05-22'
 name: Liblab
 nav: Providers
 network: true
-overview: 'Liblab publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SDKs, SDK Generation, Code Generation, OpenAPI, and Developer Tools.
+overview: 'Liblab publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SDK, SDK Generation, Code Generation, OpenAPI, and Developer Tools.
 
 
   Liblab''s developer surface includes documentation, getting-started guide, engineering blog, pricing, developer portal, signup flow, CLI, and 23 more developer resources.'
@@ -198,7 +198,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -208,9 +208,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/screenshots/liblab-2026-06-20T184501.png
 security:
@@ -220,7 +220,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: liblab
 tags:
-- SDKs
+- SDK
 - SDK Generation
 - Code Generation
 - OpenAPI

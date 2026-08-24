@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The AWS CLI v2 is the official command-line interface for Amazon Web Services, providing unified access to all AWS services from the terminal with auto-completion, AWS SSO support, and improved perfor
@@ -134,7 +134,7 @@ modified: '2026-04-19'
 name: AWS CLI
 nav: Providers
 network: true
-overview: 'AWS CLI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Cloud Computing, Command Line Interface, DevOps, and Open Source.
+overview: 'AWS CLI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Cloud Computing, Command Line Interface, DevOps, and Open-Source.
 
 
   AWS CLI''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 11 more developer resources.'
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -160,9 +160,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 23.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cli/refs/heads/main/screenshots/aws-cli-2026-06-20T172742.png
 security:
@@ -184,7 +184,7 @@ tags:
 - Cloud Computing
 - Command Line Interface
 - DevOps
-- Open Source
+- Open-Source
 use_cases:
 - description: Automate AWS infrastructure provisioning, configuration, and teardown in CI/CD pipelines and scripts.
   name: Infrastructure Automation

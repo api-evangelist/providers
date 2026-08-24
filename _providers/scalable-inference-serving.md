@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ modified: '2026-05-19'
 name: Scalable Inference Serving
 nav: Providers
 network: true
-overview: 'Scalable Inference Serving publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Inference API, Metadata API, and 1 more. Tagged areas include AI, CNCF, Deployment, Inference, and Kubernetes.
+overview: 'Scalable Inference Serving publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Inference API, Metadata API, and 1 more. Tagged areas include Artificial Intelligence, CNCF, Deployment, Inference, and Kubernetes.
 
 
   The Scalable Inference Serving catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -274,7 +274,7 @@ rules:
 score:
   band: thin
   composite: 38.0
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -284,7 +284,7 @@ score:
     discoverability: 55.6
     governance: 69.7
     operational_transparency: 7.9
-  previous_composite: 35.1
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -292,19 +292,19 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/screenshots/scalable-inference-serving-2026-06-20T193501.png
 slug: scalable-inference-serving
 tags:
-- AI
+- Artificial Intelligence
 - CNCF
 - Deployment
 - Inference
 - Kubernetes
 - LLM
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - MLOps
 - Scalability

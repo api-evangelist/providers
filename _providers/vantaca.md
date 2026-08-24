@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ modified: '2026-07-04'
 name: Vantaca
 nav: Providers
 network: true
-overview: 'Vantaca publishes 3 APIs on the [APIs.io](https://apis.io/) network: /AP/ API, /read/ API, and /write/ API. Tagged areas include HOA, Community Association Management, CAM, Property Management, and Real Estate.
+overview: 'Vantaca publishes 3 APIs on the [APIs.io](https://apis.io/) network: /AP/ API, /read/ API, and /write/ API. Tagged areas include HOA, Community Association Management, CAM, Property Management, and Real-Estate.
 
 
   Vantaca''s developer surface includes documentation and 8 more developer resources.'
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -137,7 +137,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.3
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -145,8 +145,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -163,9 +163,9 @@ tags:
 - Community Association Management
 - CAM
 - Property Management
-- Real Estate
+- Real-Estate
 - Accounting
-- Workflow Automation
+- Workflow-Automation
 - Vendor Management
 website: https://www.vantaca.com
 ---

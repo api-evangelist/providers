@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'TradeBB exposes a single publicly consumable machine-readable interface: an llms.txt file designed for LLM consumption. There is no public REST/GraphQL API, MCP server, or agent skills.'
@@ -99,7 +99,7 @@ modified: '2026-08-09'
 name: TradeBB
 nav: Providers
 network: true
-overview: 'TradeBB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include trading-journal, trade-analytics, fintech, trading-tools, and stocks.
+overview: 'TradeBB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include trading-journal, Trade Analytics, Fintech, trading-tools, and Stocks.
 
 
   TradeBB''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 6 more developer resources.'
@@ -107,7 +107,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 24.4
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -117,11 +117,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.3
+  previous_composite: 24.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -131,15 +131,15 @@ security:
 slug: tradebb
 tags:
 - trading-journal
-- trade-analytics
-- fintech
+- Trade Analytics
+- Fintech
 - trading-tools
-- stocks
-- options
-- futures
-- forex
-- crypto
-- cfd
-- ai-assistant
+- Stocks
+- Options
+- Futures
+- Forex
+- Crypto
+- CFD
+- AI Assistant
 - llms-txt
 ---

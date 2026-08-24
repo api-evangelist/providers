@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) supports research into the causes, treatment, and prevention of arthritis and musculoskeletal and skin diseases.
@@ -65,7 +65,7 @@ modified: '2026-04-28'
 name: National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)
 nav: Providers
 network: true
-overview: National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Health, NIH, and Research.
+overview: National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Health, NIH, and Research.
 plans:
 - name: National Institute Of Arthritis And Musculoskeletal And Skin Diseases Niams  Plans Pricing
   plan_count: 3
@@ -78,7 +78,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -88,15 +88,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 9.7
+  previous_composite: 8.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/refs/heads/main/screenshots/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--2026-06-20T190024.png
 security:
@@ -106,7 +106,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-
 tags:
-- Federal Government
+- Federal-Government
 - Health
 - NIH
 - Research

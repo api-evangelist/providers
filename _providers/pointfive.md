@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -110,9 +110,9 @@ description: PointFive is the AI Efficiency Operating System for FinOps, platfor
 image: https://www.pointfive.co/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: pointfive-mcp.yml
-  slug: pointfive-mcpyml
+- description: The PointFive MCP Server brings cloud cost optimization intelligence directly into AI development environments (Claude, Cursor, ChatGPT) via the Model Context Protocol. Users only access data they can
+  name: Pointfive MCP Server
+  slug: pointfive-mcp-server
 modified: '2026-07-20'
 name: Pointfive
 nav: Providers
@@ -129,23 +129,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.8
-  delta: -3.5
+  composite: 23.9
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 26.3
+  previous_composite: 23.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

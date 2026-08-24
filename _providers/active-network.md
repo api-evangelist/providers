@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Activities API from Active Network — 1 operation(s) for activities.
@@ -148,13 +148,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/active-net
 layout: provider
 mcp_servers:
 - description: ''
-  name: active-network-mcp.yml
-  slug: active-network-mcpyml
+  name: Active Network MCP Server
+  slug: active-network-mcp-server
 modified: '2026-07-17'
 name: Active Network
 nav: Providers
 network: true
-overview: 'Active Network publishes 2 APIs on the [APIs.io](https://apis.io/) network: Activities API and Camping API. Tagged areas include Company, Events, Registration, Recreation, and Activities.
+overview: 'Active Network publishes 2 APIs on the [APIs.io](https://apis.io/) network: Activities API and Camping API. Tagged areas include Company, Event, Registration, Recreation, and Activities.
 
 
   Active Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -176,7 +176,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 44.9
+  previous_composite: 45.1
   provenance:
     conformance: derived
     contracts:
@@ -186,8 +186,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/screenshots/active-network-2026-07-25T181526.png
 security:
@@ -202,7 +202,7 @@ security:
 slug: active-network
 tags:
 - Company
-- Events
+- Event
 - Registration
 - Recreation
 - Activities

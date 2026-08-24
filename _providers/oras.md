@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Generic command-line registry client used to push and pull OCI artifacts to and from any OCI-compliant container registry.
@@ -88,7 +88,7 @@ modified: '2026-05-19'
 name: ORAS
 nav: Providers
 network: true
-overview: 'ORAS publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artifact Storage, Cloud Native, Container Registry, and OCI.
+overview: 'ORAS publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artifact Storage, Cloud-Native, Container Registry, and OCI.
 
 
   ORAS''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.4
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -114,9 +114,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oras/refs/heads/main/screenshots/oras-2026-06-20T191150.png
 security:
@@ -127,7 +127,7 @@ security:
 slug: oras
 tags:
 - Artifact Storage
-- Cloud Native
+- Cloud-Native
 - Container Registry
 - OCI
 website: https://oras.land/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing voyages and workflows on the Voyager Portal maritime operations platform. Resources include voyages (schedules, cargoes, documents, categories, models), claims and claim port-cal
@@ -134,9 +134,9 @@ description: Voyager Portal is an AI-powered voyage and demurrage management pla
 image: https://www.voyagerportal.com/wp-content/uploads/2025/08/teste-1.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: voyager-portal-mcp.yml
-  slug: voyager-portal-mcpyml
+- description: No official Voyager Portal MCP server was found (docs, npm, MCP registries searched 2026-07-21). This is a candidate tool list derived from the documented public REST API surface; no OpenAPI is publis
+  name: Voyager Portal MCP Server
+  slug: voyager-portal-mcp-server
 modified: '2026-07-21'
 name: Voyager Portal
 nav: Providers
@@ -152,7 +152,7 @@ random_paper: 19
 score:
   band: thin
   composite: 38.0
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -162,12 +162,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 40.3
+  previous_composite: 38.0
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

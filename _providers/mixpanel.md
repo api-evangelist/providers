@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -669,19 +669,19 @@ rules:
     warn: 3
   slug: mixpanel-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 53.1
-  delta: -6.9
+  band: strong
+  composite: 55.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 74.7
     developer_ergonomics: 59.5
-    discoverability: 55.6
-    governance: 11.4
+    discoverability: 74.1
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 60.0
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     contracts:
@@ -689,9 +689,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/screenshots/mixpanel-2026-06-20T185622.png
 security:
 - kind: authentication

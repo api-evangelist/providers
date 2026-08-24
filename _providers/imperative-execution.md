@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'IQX is the IntelligentCross proprietary market data feed. It disseminates all visible ASPEN resting orders, cancels for ASPEN visible orders, and all ASPEN executions, plus per-symbol reference data, '
@@ -126,7 +126,7 @@ modified: '2026-08-04'
 name: Imperative Execution
 nav: Providers
 network: true
-overview: 'Imperative Execution publishes 1 API on the [APIs.io](https://apis.io/) network: IntelligentCross IQX Market Data Feed. Tagged areas include Company, Financial Services, Capital Markets, Trading, and Market Data.
+overview: 'Imperative Execution publishes 1 API on the [APIs.io](https://apis.io/) network: IntelligentCross IQX Market Data Feed. Tagged areas include Company, Financial-Services, Capital Markets, Trading, and Market Data.
 
 
   The Imperative Execution catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -137,7 +137,7 @@ random_paper: 3
 score:
   band: thin
   composite: 37.6
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -147,7 +147,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 36.9
+  previous_composite: 37.6
   provenance:
     conformance: first-party
   regulatory:
@@ -156,8 +156,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/screenshots/imperative-execution-2026-08-07T170628.png
 security:
@@ -172,7 +172,7 @@ security:
 slug: imperative-execution
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Trading
 - Market Data

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ modified: '2026-08-02'
 name: Arine
 nav: Providers
 network: true
-overview: 'Arine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Medication Management, Pharmacy, and Artificial Intelligence.
+overview: 'Arine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medication Management, Pharmacy, and Artificial Intelligence.
 
 
   Arine''s developer surface includes documentation, engineering blog, support, and 14 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 18.1
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -118,7 +118,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 20.4
+  previous_composite: 18.1
   provenance:
     conformance: first-party
   regulatory:
@@ -127,8 +127,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arine/refs/heads/main/screenshots/arine-2026-08-07T161705.png
 security:
@@ -139,14 +139,14 @@ security:
 slug: arine
 tags:
 - Company
-- Health Care
+- Healthcare
 - Medication Management
 - Pharmacy
 - Artificial Intelligence
 - Clinical Decision Support
 - Health Plans
 - Population Health
-- Value Based Care
-- SaaS
+- Value-Based Care
+- Software-as-a-Service
 website: https://www.arine.io/
 ---

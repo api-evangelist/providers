@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 26
 apis:
 - description: Streamline your client onboarding process to create, update, and manage clients, parties, documents, and due diligence requirements in a fully digital workflow so you can automate Know Your Customer (
@@ -327,7 +327,7 @@ modified: '2026-07-28'
 name: JPMorgan Chase
 nav: Providers
 network: true
-overview: 'JPMorgan Chase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Digital Onboarding API, Consumer Profile Management API, Tokenization API, and 23 more. Tagged areas include Banking, Financial Services, Payments, Treasury, and Fortune 100.
+overview: 'JPMorgan Chase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Digital Onboarding API, Consumer Profile Management API, Tokenization API, and 23 more. Tagged areas include Banking, Financial-Services, Payments, Treasury, and Fortune 100.
 
 
   The JPMorgan Chase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -371,7 +371,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.0
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -381,7 +381,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 48.5
+  previous_composite: 49.0
   provenance:
     contracts:
       callable: 100.0
@@ -394,8 +394,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:
@@ -410,7 +410,7 @@ security:
 slug: jp-morgan-chase
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Treasury
 - Fortune 100

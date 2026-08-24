@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: REST API for creating and managing payment jobs and payments — create, retrieve, and cancel payment jobs; capture, refund, and cancel individual payments; card tokenisation; and recurring payments. Pa
@@ -163,8 +163,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: cashflows-mcp.yml
-  slug: cashflows-mcpyml
+  name: Cashflows MCP Server
+  slug: cashflows-mcp-server
 modified: '2026-07-24T12:00:00Z'
 name: Cashflows
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 4
 score:
   band: developing
   composite: 50.3
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -190,7 +190,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 46.5
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -200,8 +200,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/screenshots/cashflows-2026-07-25T204721.png
 security:
@@ -222,8 +222,8 @@ tags:
 - Acquiring
 - Card Payments
 - In-Person Payments
-- 3-D Secure
+- 3D Secure
 - Recurring Payments
-- Webhooks
+- Webhook
 website: https://www.cashflows.com/
 ---

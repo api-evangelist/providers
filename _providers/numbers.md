@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -230,18 +230,18 @@ rules:
   slug: numbers-rules
 score:
   band: thin
-  composite: 28.7
-  delta: -7.3
+  composite: 29.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.2
     developer_ergonomics: 6.0
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 0.0
-  previous_composite: 36.0
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -249,9 +249,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/screenshots/numbers-2026-06-20T190517.png
 security:
 - kind: domain-security
@@ -265,7 +265,7 @@ tags:
 - Trivia
 - Numbers
 - Dates
-- Open Source
+- Open-Source
 use_cases:
 - description: Insert living facts into marketing copy or dashboards, e.g. `We now have more users than the number of times Julius Caesar was stabbed`.
   name: Engagement Copy

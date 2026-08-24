@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-05-19'
 name: Squillo
 nav: Providers
 network: true
-overview: 'Squillo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, Executions API, Variables API, and 1 more. Tagged areas include Integration Platform, Automation, Workflow, No-Code, and IT Process Automation.
+overview: 'Squillo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, Executions API, Variables API, and 1 more. Tagged areas include Integration Platform, Automation, Workflows, No-Code, and IT Process Automation.
 
 
   The Squillo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -201,18 +201,18 @@ rules:
   slug: squillo-rules
 score:
   band: thin
-  composite: 36.8
-  delta: -1.8
+  composite: 37.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.1
     developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 38.6
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +226,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/screenshots/squillo-2026-06-20T194434.png
 security:
@@ -243,7 +243,7 @@ slug: squillo
 tags:
 - Integration Platform
 - Automation
-- Workflow
+- Workflows
 - No-Code
 - IT Process Automation
 - Software As A Utility

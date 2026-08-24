@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 3
@@ -400,9 +400,9 @@ jsonld:
   slug: benchmark-email-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: benchmark-email-mcp.yml
-  slug: benchmark-email-mcpyml
+- description: Benchmark Email ships a live, anonymous, remote MCP server at https://developers.benchmarkemail.io/mcp. A tools/list call over Streamable HTTP returned three tools verbatim (saved to mcp/benchmark-ema
+  name: Benchmark Email Documentation MCP Server
+  slug: benchmark-email-documentation-mcp-server
 modified: '2026-08-13'
 name: Benchmark Email
 nav: Providers
@@ -442,7 +442,7 @@ scopes:
 score:
   band: strong
   composite: 65.1
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -452,7 +452,7 @@ score:
     discoverability: 81.5
     governance: 26.5
     operational_transparency: 28.9
-  previous_composite: 72.0
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -463,9 +463,9 @@ score:
       total: 30
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png
 security:
 - kind: authentication
@@ -484,13 +484,13 @@ tags:
 - Automation
 - Transactional Email
 - Marketing
-- Lists
+- List
 - Segmentation
 - Reporting
 - Deliverability
 - Sending Domains
 - Email Templates
-- Webhooks
+- Webhook
 - Agent Ready
 website: https://www.benchmarkemail.com/
 ---

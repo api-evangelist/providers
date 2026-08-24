@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 1
@@ -527,18 +527,18 @@ rules:
   slug: lunchbox-spectral-rules
 score:
   band: developing
-  composite: 43.6
-  delta: -8.9
+  composite: 44.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 61.0
     developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 52.5
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -546,9 +546,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/screenshots/lunchbox-2026-06-20T184805.png
 security:
 - kind: authentication
@@ -566,7 +566,7 @@ tags:
 - Guest Engagement
 - Catering
 - Menus
-- Orders
+- Order
 - Loyalty
 - Enterprise
 website: https://lunchbox.io/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ modified: '2026-05-30'
 name: Gorgias
 nav: Providers
 network: true
-overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Customers API, and 11 more. Tagged areas include Customer Support, Helpdesk, Ecommerce, Shopify, and Tickets.
+overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Customers API, and 11 more. Tagged areas include Customer-Support, Help Desk, E-Commerce, Shopify, and Tickets.
 
 
   The Gorgias catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -233,7 +233,7 @@ scopes:
 score:
   band: thin
   composite: 36.1
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -243,7 +243,7 @@ score:
     discoverability: 72.2
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 41.8
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -251,9 +251,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/screenshots/gorgias-2026-06-20T182307.png
 security:
 - kind: authentication
@@ -270,9 +270,9 @@ security:
   summary_line: security.txt · contact published
 slug: gorgias
 tags:
-- Customer Support
-- Helpdesk
-- Ecommerce
+- Customer-Support
+- Help Desk
+- E-Commerce
 - Shopify
 - Tickets
 - Conversations

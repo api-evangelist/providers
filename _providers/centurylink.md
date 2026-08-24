@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'The Lumen Developer Center publishes Lumen''s enterprise API catalog, including Location, Quote, Order (PX CreateOrder), Service Inventory, Billing, Outbound Notification, and Trouble Ticket APIs. All '
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.9
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -143,15 +143,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 11.6
+  previous_composite: 8.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/screenshots/centurylink-2026-06-20T174132.png
 security:
@@ -167,7 +167,7 @@ tags:
 - Fiber
 - Lumen
 - Network
-- OAuth 2.0
+- Authentication
 - Quantum Fiber
 - SD-WAN
 - Telecom

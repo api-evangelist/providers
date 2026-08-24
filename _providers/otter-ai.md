@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Otter.ai REST API enables Enterprise customers to programmatically upload audio and video files for transcription, retrieve speaker-identified transcripts, receive webhook notifications when speec
@@ -114,7 +114,7 @@ modified: '2026-06-13'
 name: Otter.ai
 nav: Providers
 network: true
-overview: 'Otter.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Transcription, Meeting Notes, Speech-to-Text, and Speaker Identification.
+overview: 'Otter.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Transcription, Meeting Notes, Speech-to-Text, and Speaker Identification.
 
 
   The Otter.ai catalog on APIs.io includes 1 JSON-LD context.
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.6
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -143,9 +143,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 30.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter-ai/refs/heads/main/screenshots/otter-ai-2026-06-20T191223.png
 security:
@@ -159,12 +159,12 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: otter-ai
 tags:
-- AI
+- Artificial Intelligence
 - Transcription
 - Meeting Notes
 - Speech-to-Text
 - Speaker Identification
 - Meeting Intelligence
-- Summaries
+- Summary
 website: https://otter.ai
 ---

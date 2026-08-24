@@ -26,7 +26,7 @@ tags:
 - Venture Capital
 - Seed
 - Series A
-- AI
+- Artificial Intelligence
 - Data
 - Infrastructure
 - Enterprise Software

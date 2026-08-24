@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-04-28'
 name: Microsoft Suite
 nav: Providers
 network: true
-overview: 'Microsoft Suite publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Files API, Groups API, and 4 more. Tagged areas include Cloud, Enterprise, Productivity, and SaaS.
+overview: 'Microsoft Suite publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Files API, Groups API, and 4 more. Tagged areas include Cloud, Enterprise, Productivity, and Software-as-a-Service.
 
 
   Microsoft Suite''s developer surface includes authentication, support, engineering blog, and 7 more developer resources.'
@@ -182,7 +182,7 @@ scopes:
 score:
   band: thin
   composite: 31.2
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -192,7 +192,7 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 32.8
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +200,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/screenshots/microsoft-suite-2026-06-20T185537.png
 security:
@@ -218,6 +218,6 @@ tags:
 - Cloud
 - Enterprise
 - Productivity
-- SaaS
+- Software-as-a-Service
 website: https://developer.microsoft.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ modified: '2026-04-28'
 name: KServe
 nav: Providers
 network: true
-overview: 'KServe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, KServe Inference Protocol API, and Models API. Tagged areas include Inference, Kubernetes, Machine Learning, MLOps, and Model Serving.
+overview: 'KServe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, KServe Inference Protocol API, and Models API. Tagged areas include Inference, Kubernetes, Machine-Learning, MLOps, and Model Serving.
 
 
   KServe''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 4 more developer resources.'
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -140,7 +140,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.2
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     contracts:
@@ -148,8 +148,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/screenshots/kserve-2026-06-20T184201.png
 security:
@@ -161,7 +161,7 @@ slug: kserve
 tags:
 - Inference
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Serving
 website: https://kserve.github.io/website/

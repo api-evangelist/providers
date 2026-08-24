@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-21'
 name: Uni
 nav: Providers
 network: true
-overview: 'Uni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Credit, Credit Cards, and Consumer Finance.
+overview: 'Uni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Credit, Credit Cards, and Consumer Finance.
 
 
   Uni''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 13.1
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -100,15 +100,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 15.7
+  previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -118,7 +118,7 @@ security:
 slug: uni
 tags:
 - Company
-- FinTech
+- Fintech
 - Credit
 - Credit Cards
 - Consumer Finance

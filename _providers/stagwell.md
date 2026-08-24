@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Credit-metered REST API over IMAI's creator database of 380M+ influencers across Instagram, TikTok and YouTube. Documented capabilities are keyword and filter search, AI search, influencer reports, au
@@ -170,8 +170,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stagwell.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: stagwell-mcp.yml
-  slug: stagwell-mcpyml
+  name: Stagwell MCP Server
+  slug: stagwell-mcp-server
 modified: '2026-08-12'
 name: Stagwell
 nav: Providers
@@ -197,7 +197,7 @@ scopes:
 score:
   band: developing
   composite: 40.1
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -207,13 +207,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 45.3
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/screenshots/stagwell-2026-06-20T194452.png
 security:
 - kind: authentication

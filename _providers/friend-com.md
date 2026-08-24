@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -73,7 +73,7 @@ modified: '2026-07-25'
 name: Friend
 nav: Providers
 network: true
-overview: Friend is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Wearable, Pendant, Companion, and Consumer Hardware.
+overview: Friend is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Wearable, Pendant, Companion, and Consumer Hardware.
 plans:
 - name: Friend Com Plans Pricing
   plan_count: 1
@@ -97,8 +97,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 13.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friend-com/refs/heads/main/screenshots/friend-com-2026-06-20T181547.png
 security:
@@ -108,7 +108,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: friend-com
 tags:
-- AI
+- Artificial Intelligence
 - Wearable
 - Pendant
 - Companion

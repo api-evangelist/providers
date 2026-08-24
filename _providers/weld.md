@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 33
@@ -241,9 +241,9 @@ description: Weld is a programmable data-infrastructure platform for moving and 
 image: https://weld.app/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: weld-mcp.yml
-  slug: weld-mcpyml
+- description: 'Official hosted Weld MCP server. Lets AI assistants (Claude Desktop, claude.ai, Claude Code, Cursor, GitHub Copilot, Windsurf, and other MCP clients) interact directly with a Weld workspace — listing '
+  name: Weld MCP Server
+  slug: weld-mcp-server
 modified: '2026-07-21'
 name: Weld
 nav: Providers
@@ -256,7 +256,7 @@ random_paper: 8
 score:
   band: developing
   composite: 47.8
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -266,7 +266,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 50.4
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,8 +277,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/screenshots/weld-2026-08-17T082909.png
 security:
@@ -301,10 +301,10 @@ tags:
 - ETL
 - ELT
 - Reverse ETL
-- Data Pipelines
+- Data Pipeline
 - Data Integration
 - Change Data Capture
-- Transformations
+- Transformation
 - Analytics
 - MCP
 - AI Agents

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Programming Quotes — JWT login / register exchange.
@@ -155,7 +155,7 @@ modified: '2026-05-30'
 name: Programming Quotes
 nav: Providers
 network: true
-overview: 'Programming Quotes publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Quotes API. Tagged areas include Personality, Public APIs, Open Source, Quotes, and Programming.
+overview: 'Programming Quotes publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Quotes API. Tagged areas include Personality, Public APIs, Open-Source, Quotes, and Programming.
 
 
   The Programming Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -184,27 +184,27 @@ rules:
   slug: programming-quotes-rules
 score:
   band: emerging
-  composite: 18.3
-  delta: -5.2
+  composite: 18.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 32.5
     developer_ergonomics: 0.0
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 23.5
+  previous_composite: 18.8
   provenance:
     contracts:
       callable: 100.0
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/screenshots/programming-quotes-2026-06-20T192146.png
 security:
 - kind: domain-security
@@ -215,7 +215,7 @@ slug: programming-quotes
 tags:
 - Personality
 - Public APIs
-- Open Source
+- Open-Source
 - Quotes
 - Programming
 - Developer Tools

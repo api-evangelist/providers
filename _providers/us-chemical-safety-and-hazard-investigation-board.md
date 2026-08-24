@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The CSB does not currently offer a formal public API. However, it maintains public databases of investigations, recommendations, and incident reports accessible through its website. The CSB releases p
@@ -70,7 +70,7 @@ modified: '2026-05-03'
 name: US Chemical Safety and Hazard Investigation Board
 nav: Providers
 network: true
-overview: 'US Chemical Safety and Hazard Investigation Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Chemical Safety, Incident Investigation, Hazardous Materials, and Public Safety.
+overview: 'US Chemical Safety and Hazard Investigation Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Chemical Safety, Incident Investigation, Hazardous Materials, and Public Safety.
 
 
   The US Chemical Safety and Hazard Investigation Board catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -97,7 +97,7 @@ rules:
 score:
   band: emerging
   composite: 13.9
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -107,16 +107,16 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 20.3
+  previous_composite: 13.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-chemical-safety-and-hazard-investigation-board/refs/heads/main/screenshots/us-chemical-safety-and-hazard-investigation-board-2026-06-20T200606.png
 security:
 - kind: domain-security
@@ -125,7 +125,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: us-chemical-safety-and-hazard-investigation-board
 tags:
-- Federal Government
+- Federal-Government
 - Chemical Safety
 - Incident Investigation
 - Hazardous Materials

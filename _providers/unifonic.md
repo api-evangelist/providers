@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: 'The Unifonic Conversations API sends WhatsApp template and session messages and manages the WhatsApp service: template management and Meta catalog retrieval endpoints, incoming-message and delivery-st'
@@ -249,7 +249,7 @@ description: Unifonic is a Saudi Arabia-based customer engagement and CPaaS plat
 image: https://www.unifonic.com/hubfs/UNI_Logo_RGB-01.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Unifonic publishes no official MCP server (no MCP mention in the docs, no official GitHub organization, nothing in the MCP registry). A community-built MCP server exists on npm — @theyahia/unifonic-mc
   name: Unifonic MCP manifest (community server + candidate tools)
   slug: unifonic-mcp-manifest-community-server-candidate-tools
 modified: '2026-07-21'
@@ -267,7 +267,7 @@ random_paper: 19
 score:
   band: strong
   composite: 62.0
-  delta: 5.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -277,7 +277,7 @@ score:
     discoverability: 92.6
     governance: 12.1
     operational_transparency: 39.5
-  previous_composite: 57.0
+  previous_composite: 62.0
   provenance:
     conformance: derived
     contracts:
@@ -293,9 +293,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/screenshots/unifonic-2026-08-17T082602.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -503,7 +503,7 @@ modified: '2026-05-25'
 name: Lichess
 nav: Providers
 network: true
-overview: 'Lichess publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analysis API, Board API, and 20 more. Tagged areas include Chess, Games, Open Source, Nonprofit, and Tournaments.
+overview: 'Lichess publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analysis API, Board API, and 20 more. Tagged areas include Chess, Games, Open-Source, Non-Profit, and Tournaments.
 
 
   The Lichess catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -559,7 +559,7 @@ scopes:
 score:
   band: strong
   composite: 58.0
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -569,7 +569,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 61.8
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
@@ -577,8 +577,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/screenshots/lichess-2026-06-20T184507.png
 security:
@@ -598,13 +598,13 @@ slug: lichess
 tags:
 - Chess
 - Games
-- Open Source
-- Nonprofit
+- Open-Source
+- Non-Profit
 - Tournaments
 - Puzzles
 - Bots
 - Streaming
 - ND-JSON
-- OAuth
+- Authentication
 website: https://lichess.org
 ---

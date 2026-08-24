@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,9 +85,9 @@ description: Tonk, built by Tonk Labs, is an open-source containerized format, h
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tonk.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: tonk-mcp.yml
-  slug: tonk-mcpyml
+- description: First-party Model Context Protocol (MCP) worker service published by Tonk Labs under the @tonk npm scope. It provides MCP support for the Tonk + Obsidian integration (exposing Tonk-managed knowledge/d
+  name: Tonk MCP Server
+  slug: tonk-mcp-server
 modified: '2026-07-21'
 name: Tonk
 nav: Providers
@@ -100,7 +100,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 15.1
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,11 +110,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.3
+  previous_composite: 15.1
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -128,7 +128,7 @@ tags:
 - Local-First
 - CRDT
 - Collaboration
-- Open Source
+- Open-Source
 - Data Sync
 - WebAssembly
 website: https://tonk.xyz/

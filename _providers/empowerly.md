@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Read-only, unauthenticated JSON status API served from Empowerly's own status subdomain by Atlassian Statuspage. Exposes the overall page status indicator, the component roster (currently a single "Em
@@ -163,7 +163,7 @@ modified: '2026-08-12'
 name: Empowerly
 nav: Providers
 network: true
-overview: 'Empowerly publishes 1 API on the [APIs.io](https://apis.io/) network: Status API. Tagged areas include Company, education, edtech, college-admissions, and counseling.
+overview: 'Empowerly publishes 1 API on the [APIs.io](https://apis.io/) network: Status API. Tagged areas include Company, Education, EdTech, College Admissions, and Counseling.
 
 
   Empowerly''s developer surface includes engineering blog, pricing, authentication, and 23 more developer resources.'
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.1
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -189,7 +189,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 41.9
+  previous_composite: 36.1
   provenance:
     conformance: derived
     contracts:
@@ -205,9 +205,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Empowerly Authentication
@@ -228,13 +228,13 @@ security:
 slug: empowerly
 tags:
 - Company
-- education
-- edtech
-- college-admissions
-- counseling
-- students
-- career-services
-- consumer-services
-- status-page
+- Education
+- EdTech
+- College Admissions
+- Counseling
+- Students
+- Career Services
+- Consumer Services
+- Status Page
 website: https://empowerly.com/
 ---

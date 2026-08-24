@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -177,13 +177,13 @@ image: https://docs.thefork.io/img/thefork_logo_2023_secondary.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: lafourchette-mcp.yml
-  slug: lafourchette-mcpyml
+  name: LaFourchette MCP Server
+  slug: lafourchette-mcp-server
 modified: '2026-08-17'
 name: LaFourchette
 nav: Providers
 network: true
-overview: 'LaFourchette publishes 2 APIs on the [APIs.io](https://apis.io/) network: TheFork B2B API and TheFork POS API v1. Tagged areas include Company, Consumer, Restaurants, Reservations, and Booking.
+overview: 'LaFourchette publishes 2 APIs on the [APIs.io](https://apis.io/) network: TheFork B2B API and TheFork POS API v1. Tagged areas include Company, Consumer, Restaurant, Reservations, and Booking.
 
 
   The LaFourchette catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -207,6 +207,7 @@ scopes:
 score:
   band: developing
   composite: 46.3
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -216,6 +217,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 34.2
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +228,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Lafourchette Authentication
@@ -241,15 +244,15 @@ slug: lafourchette
 tags:
 - Company
 - Consumer
-- Restaurants
+- Restaurant
 - Reservations
 - Booking
 - Hospitality
-- Point of Sale
+- Point-of-Sale
 - Reviews
 - Marketplace
 - Travel and Dining
-- Webhooks
+- Webhook
 - France
 website: https://www.thefork.com/
 ---

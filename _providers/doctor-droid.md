@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The DrDroid platform surface — the hosted Model Context Protocol (MCP) server and DroidAgent investigation API at aiops.drdroid.io, authenticated with a Bearer API key generated from the dashboard (Se
@@ -151,16 +151,16 @@ image: https://drdroid.io/drdroid-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: drdroid-mcp-server
-  slug: drdroid-mcp-server
+  name: Doctor Droid MCP Server
+  slug: doctor-droid-mcp-server
 - description: ''
-  name: doctor-droid-mcp.yml
-  slug: doctor-droid-mcpyml
+  name: Doctor Droid MCP Server
+  slug: doctor-droid-mcp-server-2
 modified: '2026-07-18'
 name: Doctor Droid
 nav: Providers
 network: true
-overview: 'Doctor Droid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, AIOps, SRE, and Incident Response.
+overview: 'Doctor Droid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AIOps, SRE, and Incident Response.
 
 
   Doctor Droid''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 20 more developer resources.'
@@ -168,7 +168,7 @@ random_paper: 8
 score:
   band: thin
   composite: 36.6
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -178,12 +178,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 39.6
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doctor-droid/refs/heads/main/screenshots/doctor-droid-2026-07-25T212214.png
 security:
@@ -202,7 +202,7 @@ security:
 slug: doctor-droid
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AIOps
 - SRE
 - Incident Response

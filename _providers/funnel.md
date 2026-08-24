@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'The Funnel Control Plane API provides configuration-management operations for a Funnel subscription — workspaces, data sources, custom dimensions and metrics, and data exports to BigQuery, Snowflake, '
@@ -190,9 +190,9 @@ description: Funnel (funnel.io) is a marketing intelligence and marketing data h
 image: https://funnel.io/hubfs/Blog%20images.006.jpeg
 layout: provider
 mcp_servers:
-- description: ''
-  name: funnel-mcp.yml
-  slug: funnel-mcpyml
+- description: Funnel's first-party hosted, remote MCP server. It exposes a Funnel workspace's harmonized cross-channel marketing data, field/semantic definitions and workspace context to any MCP-compatible client (
+  name: Funnel MCP
+  slug: funnel-mcp
 modified: '2026-08-12'
 name: Funnel
 nav: Providers
@@ -220,24 +220,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.4
-  delta: -4.4
+  composite: 56.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 49.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 59.8
+  previous_composite: 56.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/screenshots/funnel-2026-07-25T215322.png
 security:

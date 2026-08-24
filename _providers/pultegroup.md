@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-04-28'
 name: PulteGroup
 nav: Providers
 network: true
-overview: 'PulteGroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilding, Real Estate, Construction, Fortune 500, and Enterprise.
+overview: 'PulteGroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilding, Real-Estate, Construction, Fortune 500, and Enterprise.
 
 
   PulteGroup''s developer surface includes product news and 6 more developer resources.'
@@ -103,8 +103,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pultegroup/refs/heads/main/screenshots/pultegroup-2026-06-20T192308.png
 security:
@@ -115,7 +115,7 @@ security:
 slug: pultegroup
 tags:
 - Homebuilding
-- Real Estate
+- Real-Estate
 - Construction
 - Fortune 500
 - Enterprise

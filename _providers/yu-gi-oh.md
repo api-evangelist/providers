@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -328,18 +328,18 @@ rules:
   slug: yu-gi-oh-rules
 score:
   band: emerging
-  composite: 20.3
-  delta: -4.8
+  composite: 20.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 21.2
     developer_ergonomics: 9.5
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 0.0
-  previous_composite: 25.1
+  previous_composite: 20.7
   provenance:
     agentic_access: derived
     contracts:
@@ -353,8 +353,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/screenshots/yu-gi-oh-2026-06-20T201751.png
 security:

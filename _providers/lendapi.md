@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: The Amortization API from LendAPI — 1 operation(s) for amortization.
@@ -272,13 +272,13 @@ image: https://files.readme.io/8262098-Logo_Black.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lendapi-mcp.yml
-  slug: lendapi-mcpyml
+  name: LendAPI MCP Server
+  slug: lendapi-mcp-server
 modified: '2026-07-19'
 name: LendAPI
 nav: Providers
 network: true
-overview: 'LendAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Amortization API, Application API, Credit Risk API, and 10 more. Tagged areas include Company, Lending, Loan Origination, Financial Services, and Fintech.
+overview: 'LendAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Amortization API, Application API, Credit Risk API, and 10 more. Tagged areas include Company, Lending, Loan Origination, Financial-Services, and Fintech.
 
 
   The LendAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -289,7 +289,7 @@ random_paper: 19
 score:
   band: developing
   composite: 53.6
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -299,7 +299,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 6.6
-  previous_composite: 52.7
+  previous_composite: 53.6
   provenance:
     conformance: first-party
     contracts:
@@ -315,8 +315,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/screenshots/lendapi-2026-07-25T224857.png
 security:
@@ -333,7 +333,7 @@ tags:
 - Company
 - Lending
 - Loan Origination
-- Financial Services
+- Financial-Services
 - Fintech
 - Embedded Finance
 - Underwriting
@@ -344,6 +344,6 @@ tags:
 - KYC
 - KYB
 - Buy Now Pay Later
-- Point of Sale
+- Point-of-Sale
 website: https://lendapi.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API Dash is an open source AI-powered cross-platform API client built with Flutter for desktop and mobile. Supports HTTP, GraphQL, and WebSocket with code generation, folder organization, and rich res
@@ -122,7 +122,7 @@ modified: '2026-04-19'
 name: API Dash
 nav: Providers
 network: true
-overview: 'API Dash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, Open Source, Flutter, Desktop, and Mobile.
+overview: 'API Dash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, Open-Source, Flutter, Desktop, and Mobile.
 
 
   API Dash''s developer surface includes documentation, support, and 12 more developer resources.'
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.9
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -148,9 +148,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 19.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/screenshots/api-dash-2026-06-20T172202.png
 security:
@@ -161,7 +161,7 @@ security:
 slug: api-dash
 tags:
 - API Client
-- Open Source
+- Open-Source
 - Flutter
 - Desktop
 - Mobile

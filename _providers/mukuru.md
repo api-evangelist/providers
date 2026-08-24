@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -177,7 +177,7 @@ modified: '2026-05-24'
 name: Mukuru
 nav: Providers
 network: true
-overview: 'Mukuru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Remittance, Money Transfer, Cross Border Payments, Africa, and South Africa.
+overview: 'Mukuru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Remittance, Money Transfer, Cross-Border Payments, Africa, and South Africa.
 
 
   Mukuru''s developer surface includes signup flow, engineering blog, legal docs, GitHub presence, YouTube channel, and 29 more developer resources.'
@@ -185,7 +185,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 8.4
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -195,15 +195,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 12.7
+  previous_composite: 8.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mukuru/refs/heads/main/screenshots/mukuru-2026-06-20T185859.png
 security:
@@ -215,17 +215,17 @@ slug: mukuru
 tags:
 - Remittance
 - Money Transfer
-- Cross Border Payments
+- Cross-Border Payments
 - Africa
 - South Africa
 - Diaspora
 - Mobile Money
-- Wallet
+- Wallets
 - Prepaid Card
 - Funeral Insurance
 - Disbursements
-- Collections
-- Cash In Cash Out
+- Collection
+- Cash-In Cash-Out
 - Financial Inclusion
 - Fintech
 website: https://www.mukuru.com

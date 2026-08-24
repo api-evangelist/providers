@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -114,7 +114,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 11.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -124,15 +124,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.4
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avathon/refs/heads/main/screenshots/avathon-2026-08-07T162012.png
 security:
@@ -147,7 +147,7 @@ tags:
 - Industrial AI
 - Predictive Maintenance
 - Asset Performance Management
-- Computer Vision
+- Computer-Vision
 - Digital Twin
 - Renewable Energy
 - Oil and Gas

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -108,27 +108,27 @@ modified: '2026-07-18'
 name: CallSign
 nav: Providers
 network: true
-overview: 'CallSign is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Identity, Authentication, and Fraud Prevention.
+overview: 'CallSign is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Identity, Authentication, and Fraud Prevention.
 
 
   CallSign''s developer surface includes documentation, API reference, authentication, support, engineering blog, and 12 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 22.6
-  delta: -0.1
+  composite: 23.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/screenshots/callsign-2026-07-25T204247.png
 security:
@@ -147,7 +147,7 @@ security:
 slug: callsign
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Identity
 - Authentication
 - Fraud Prevention

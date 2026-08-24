@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -101,7 +101,7 @@ modified: '2026-07-21'
 name: Tesorio
 nav: Providers
 network: true
-overview: 'Tesorio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Operations, Accounts Receivable, Cash Flow, and Collections.
+overview: 'Tesorio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Operations, Accounts Receivable, Cash Flow, and Collection.
 
 
   Tesorio''s developer surface includes documentation, support, engineering blog, authentication, and 10 more developer resources.'
@@ -109,7 +109,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 20.5
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -119,11 +119,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 23.4
+  previous_composite: 20.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -144,9 +144,9 @@ tags:
 - Financial Operations
 - Accounts Receivable
 - Cash Flow
-- Collections
+- Collection
 - Treasury
-- FinTech
+- Fintech
 - MCP
 website: https://www.tesorio.com/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Belharra's three custom post types — press-release (4 items), company-news (21 items) and multimedia-file (10 items).
@@ -201,7 +201,7 @@ modified: '2026-08-06'
 name: Belharra Therapeutics
 nav: Providers
 network: true
-overview: 'Belharra Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Custom Types API, Discovery API, Media API, and 5 more. Tagged areas include Company, biotechnology, pharmaceuticals, chemoproteomics, and drug-discovery.
+overview: 'Belharra Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Custom Types API, Discovery API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Chemoproteomics, and Drug Discovery.
 
 
   Belharra Therapeutics'' developer surface includes product news, authentication, and 27 more developer resources.'
@@ -209,7 +209,7 @@ random_paper: 12
 score:
   band: developing
   composite: 40.3
-  delta: 8.8
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -219,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 31.5
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -234,9 +234,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/screenshots/belharra-therapeutics-2026-08-07T162258.png
 security:
 - kind: authentication
@@ -250,15 +250,15 @@ security:
 slug: belharra-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- chemoproteomics
-- drug-discovery
-- small-molecule-therapeutics
-- proteomics
-- life-sciences
-- oncology
-- immunology
+- Biotechnology
+- Pharmaceuticals
+- Chemoproteomics
+- Drug Discovery
+- Small Molecule Therapeutics
+- Proteomics
+- Life Sciences
+- Oncology
+- Immunology
 - content-api
 website: https://belharratx.com/
 ---

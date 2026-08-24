@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 2
@@ -295,7 +295,7 @@ modified: '2026-05-29'
 name: Together AI
 nav: Providers
 network: true
-overview: 'Together AI publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Batches API, Chat API, and 25 more. Tagged areas include AI, LLM, Inference, Foundation Models, and GPU.
+overview: 'Together AI publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Batches API, Chat API, and 25 more. Tagged areas include Artificial Intelligence, LLM, Inference, Foundation Models, and GPU.
 
 
   The Together AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -326,7 +326,7 @@ rules:
 score:
   band: thin
   composite: 35.5
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -336,7 +336,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 39.0
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -344,8 +344,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/screenshots/together-ai-2026-06-20T195434.png
 security:
@@ -363,7 +363,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: together-ai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Foundation Models

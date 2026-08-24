@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Persistent WebSocket connection for real-time trades, order-book depth, candlesticks and multilingual news. Integer protocol-code framing (10000 subscribe trade, 10002 trade push, 10003/10005 depth, 1
@@ -170,8 +170,8 @@ image: https://infoway.io/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: infoway-real-time-market-data-api-mcp.yml
-  slug: infoway-real-time-market-data-api-mcpyml
+  name: Infoway Real-time Market Data API MCP Server
+  slug: infoway-real-time-market-data-api-mcp-server
 modified: '2026-08-09'
 name: Infoway Real-time Market Data API
 nav: Providers
@@ -217,8 +217,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infoway-real-time-market-data-api/refs/heads/main/screenshots/infoway-real-time-market-data-api-2026-08-17T081000.png
 security:
@@ -237,11 +237,11 @@ tags:
 - crypto-api
 - commodities-api
 - futures-api
-- market-data
-- real-time-data
-- websocket
-- financial-data
-- fintech
-- historical-data
+- Market Data
+- Real-Time Data
+- WebSocket
+- Financial Data
+- Fintech
+- Historical Data
 website: https://docs.infoway.io/
 ---

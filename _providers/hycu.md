@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-19'
 name: HYCU
 nav: Providers
 network: true
-overview: 'HYCU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Data Protection, Backup, and Disaster Recovery.
+overview: 'HYCU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Data Protection, Backup, and Disaster Recovery.
 
 
   HYCU''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 23.1
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -118,9 +118,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hycu/refs/heads/main/screenshots/hycu-2026-07-25T221815.png
 security:
@@ -135,13 +135,13 @@ security:
 slug: hycu
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Data Protection
 - Backup
 - Disaster Recovery
 - Ransomware
 - Data Resilience
-- SaaS
+- Software-as-a-Service
 - Cloud
 website: https://www.hycu.com/
 ---

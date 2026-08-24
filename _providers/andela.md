@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-17'
 name: Andela
 nav: Providers
 network: true
-overview: 'Andela is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Talent, AI, and Engineering.
+overview: 'Andela is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Talent, Artificial Intelligence, and Engineering.
 
 
   Andela''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 11.0
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -90,9 +90,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andela/refs/heads/main/screenshots/andela-2026-07-25T200221.png
 security:
@@ -105,7 +105,7 @@ tags:
 - Company
 - Enterprise
 - Talent
-- AI
+- Artificial Intelligence
 - Engineering
 - Staffing
 - Remote Work

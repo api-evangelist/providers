@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -2439,9 +2439,9 @@ jsonld:
   slug: amadeus-transfer-management-transfer-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: amadeus-reservations-mcp.yml
-  slug: amadeus-reservations-mcpyml
+- description: Candidate MCP server for the Amadeus reservation APIs, one tool per OpenAPI operation across the flight, hotel, and transfer booking/management APIs. Not published by Amadeus; provided as a design tar
+  name: Amadeus Reservations MCP Server
+  slug: amadeus-reservations-mcp-server
 modified: '2026-06-20'
 name: Amadeus Reservations
 nav: Providers
@@ -2478,18 +2478,18 @@ rules:
   slug: amadeus-reservations-spectral-rules
 score:
   band: thin
-  composite: 32.7
-  delta: -21.9
+  composite: 33.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 53.6
     developer_ergonomics: 26.2
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 2.6
-  previous_composite: 54.6
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2499,9 +2499,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/screenshots/amadeus-reservations-2026-07-25T195905.png
 security:
 - kind: domain-security

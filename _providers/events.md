@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: CNCF-graduated specification (graduated January 25, 2024) for describing event data in a common way. Defines a payload envelope with required attributes id, source, specversion, and type, and optional
@@ -200,7 +200,7 @@ modified: '2026-05-22'
 name: Events
 nav: Providers
 network: true
-overview: 'Events publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Events, Event-Driven, Event Streaming, Messaging, and Pub Sub.
+overview: 'Events publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event-Driven, Event Streaming, Messaging, and Pub-Sub.
 
 
   The Events catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -222,7 +222,7 @@ rules:
 score:
   band: emerging
   composite: 15.1
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -232,16 +232,16 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 18.4
-  previous_composite: 22.8
+  previous_composite: 15.1
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/screenshots/events-2026-06-20T180902.png
 security:
 - kind: domain-security
@@ -259,11 +259,11 @@ solutions:
 - description: CloudEvents (envelope), AsyncAPI (API description), and JSON Schema / Avro / Protobuf (payload schema) compose into the standards layer that brokers and registries implement.
   name: Specification Stack
 tags:
-- Events
+- Event
 - Event-Driven
 - Event Streaming
 - Messaging
-- Pub Sub
+- Pub-Sub
 - Brokers
 - CloudEvents
 - AsyncAPI

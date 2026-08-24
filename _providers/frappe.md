@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ modified: '2026-05-19'
 name: Frappe
 nav: Providers
 network: true
-overview: 'Frappe publishes 2 APIs on the [APIs.io](https://apis.io/) network: Method API and Resource API. Tagged areas include Open Source, ERP, Accounting, Inventory, and Payroll.
+overview: 'Frappe publishes 2 APIs on the [APIs.io](https://apis.io/) network: Method API and Resource API. Tagged areas include Open-Source, ERP, Accounting, Inventory, and Payroll.
 
 
   The Frappe catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -179,7 +179,7 @@ rules:
 score:
   band: thin
   composite: 30.0
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -189,7 +189,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 33.7
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frappe/refs/heads/main/screenshots/frappe-2026-06-20T181510.png
 security:
@@ -216,11 +216,11 @@ security:
   summary_line: security.txt · contact published
 slug: frappe
 tags:
-- Open Source
+- Open-Source
 - ERP
 - Accounting
 - Inventory
 - Payroll
-- Low Code
+- Low-Code
 website: https://frappe.io/
 ---

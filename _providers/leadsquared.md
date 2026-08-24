@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -231,8 +231,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leadsquare
 layout: provider
 mcp_servers:
 - description: ''
-  name: leadsquared-mcp.yml
-  slug: leadsquared-mcpyml
+  name: LeadSquared MCP Server
+  slug: leadsquared-mcp-server
 modified: '2026-08-13'
 name: LeadSquared
 nav: Providers
@@ -256,7 +256,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.7
-  delta: -15.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -266,7 +266,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 73.8
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,9 +277,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/screenshots/leadsquared-2026-06-20T184350.png
 security:
 - kind: authentication

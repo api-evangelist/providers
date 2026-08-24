@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -217,14 +217,14 @@ description: Linktree is the link-in-bio platform used by 70M+ creators, brands,
 image: https://linktr.ee/_marketing/og/linktree-default.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: linktree-mcp.yml
-  slug: linktree-mcpyml
+- description: Manage Linktree profiles, links, appearance, and analytics via the Model Context Protocol.
+  name: Linktree MCP
+  slug: linktree-mcp
 modified: '2026-08-13'
 name: Linktree
 nav: Providers
 network: true
-overview: 'Linktree publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Link in Bio, Creator Economy, and Social Media.
+overview: 'Linktree publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Link in Bio, Creator Economy, and Social-Media.
 
 
   Linktree''s developer surface includes documentation, API reference, authentication, CLI, changelog, getting-started guide, support, and 34 more developer resources.'
@@ -245,7 +245,7 @@ scopes:
 score:
   band: developing
   composite: 44.7
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -255,14 +255,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 47.0
+  previous_composite: 44.7
   provenance:
     agentic_access: first-party
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/screenshots/linktree-2026-07-25T225257.png
 security:
@@ -288,7 +288,7 @@ tags:
 - Media
 - Link in Bio
 - Creator Economy
-- Social Media
+- Social-Media
 - Marketing
 - Analytics
 - MCP

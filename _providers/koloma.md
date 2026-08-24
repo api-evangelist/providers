@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A Model Context Protocol (MCP) endpoint served from the Koloma California regional website at https://www.kolomacalifornia.com/_api/mcp and advertised in that host's own llms.txt. The endpoint is prov
@@ -98,8 +98,8 @@ image: https://www.koloma.com/wp-content/uploads/2025/06/koloma-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: koloma-mcp.yml
-  slug: koloma-mcpyml
+  name: Koloma MCP Server
+  slug: koloma-mcp-server
 modified: '2026-08-01'
 name: Koloma
 nav: Providers
@@ -112,7 +112,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 17.0
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -122,7 +122,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.2
+  previous_composite: 17.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -132,8 +132,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koloma/refs/heads/main/screenshots/koloma-2026-08-07T171318.png
 security:

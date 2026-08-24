@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -297,13 +297,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: 6sense-mcp.yml
-  slug: 6sense-mcpyml
+  name: 6sense MCP
+  slug: 6sense-mcp
 modified: '2026-08-13'
 name: 6sense
 nav: Providers
 network: true
-overview: '6sense publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Company API, Enrichment API, People API, and 1 more. Tagged areas include ABM, Account-Based Marketing, Intent Data, B2B, and Predictive Analytics.
+overview: '6sense publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Company API, Enrichment API, People API, and 1 more. Tagged areas include Account Based Marketing, Intent Data, B2B, Predictive Analytics, and Revenue.
 
 
   The 6sense catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -338,7 +338,7 @@ scopes:
 score:
   band: exemplar
   composite: 73.5
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -348,7 +348,7 @@ score:
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 81.6
-  previous_composite: 81.9
+  previous_composite: 73.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,9 +359,9 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/screenshots/6sense-2026-06-20T162740.png
 security:
 - kind: authentication
@@ -378,14 +378,13 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: 6sense
 tags:
-- ABM
-- Account-Based Marketing
+- Account Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics
 - Revenue
 - Sales Intelligence
-- AI
+- Artificial Intelligence
 - Marketing Technology
 website: https://6sense.com
 ---

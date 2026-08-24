@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -1067,7 +1067,7 @@ modified: '2026-06-02'
 name: Lightspeed
 nav: Providers
 network: true
-overview: 'Lightspeed publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account API, Brands API, Catalog API, and 18 more. Tagged areas include POS, Retail, Restaurant, and Ecommerce.
+overview: 'Lightspeed publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account API, Brands API, Catalog API, and 18 more. Tagged areas include Point-of-Sale, Retail, Restaurant, and E-Commerce.
 
 
   The Lightspeed catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1112,18 +1112,18 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.5
-  delta: -5.2
+  composite: 19.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 24.9
     developer_ergonomics: 14.3
     discoverability: 55.6
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 24.7
+  previous_composite: 19.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1131,9 +1131,9 @@ score:
       derived: 21
       marker_coverage: 100.0
       total: 21
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/screenshots/lightspeed-pos-2026-06-20T184525.png
 security:
 - kind: authentication
@@ -1146,8 +1146,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: lightspeed-pos
 tags:
-- POS
+- Point-of-Sale
 - Retail
 - Restaurant
-- Ecommerce
+- E-Commerce
 ---

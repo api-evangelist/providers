@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-08-12'
 name: DeBank
 nav: Providers
 network: true
-overview: 'DeBank publishes 1 API on the [APIs.io](https://apis.io/) network: OpenAPI. Tagged areas include web3, defi, blockchain, crypto, and portfolio-tracking.
+overview: 'DeBank publishes 1 API on the [APIs.io](https://apis.io/) network: OpenAPI. Tagged areas include Web3, DeFi, Blockchain, Crypto, and Portfolio Tracking.
 
 
   DeBank''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, changelog, and 17 more developer resources.'
@@ -166,7 +166,7 @@ scopes:
 score:
   band: thin
   composite: 38.1
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -176,7 +176,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 42.2
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/screenshots/debank-2026-08-17T080851.png
 security:
@@ -208,17 +208,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: debank
 tags:
-- web3
-- defi
-- blockchain
-- crypto
-- portfolio-tracking
-- on-chain-data
-- wallet
+- Web3
+- DeFi
+- Blockchain
+- Crypto
+- Portfolio Tracking
+- On-Chain Data
+- Wallets
 - token-data
-- nft
-- ethereum
-- oauth
-- market-data
+- NFT
+- Ethereum
+- Authentication
+- Market Data
 website: https://debank.com/
 ---

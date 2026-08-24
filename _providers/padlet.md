@@ -27,10 +27,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-19'
+  score: 49.8
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -206,8 +206,8 @@ image: https://elvis.padletcdn.com/1/atat/e_1/appBY8jxCUCf4JUUZ/tblANzywOAIDDHQs
 layout: provider
 mcp_servers:
 - description: ''
-  name: padlet-mcp.yml
-  slug: padlet-mcpyml
+  name: Padlet MCP Server
+  slug: padlet-mcp-server
 modified: '2026-07-20'
 name: Padlet
 nav: Providers
@@ -223,18 +223,18 @@ rate_limits:
   slug: padlet-rate-limits
 score:
   band: developing
-  composite: 52.0
-  delta: -1.0
+  composite: 53.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 30.3
     contract_quality: 56.9
     developer_ergonomics: 45.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 53.0
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,8 +251,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/screenshots/padlet-2026-08-07T191252.png
 security:

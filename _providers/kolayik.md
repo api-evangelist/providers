@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -288,13 +288,13 @@ image: https://cdn.prod.website-files.com/6113889e45c6e62ebf4ca212/616f325923c82
 layout: provider
 mcp_servers:
 - description: ''
-  name: kolayik-mcp.yml
-  slug: kolayik-mcpyml
+  name: KolayIK MCP Server
+  slug: kolayik-mcp-server
 modified: '2026-07-19'
 name: KolayIK
 nav: Providers
 network: true
-overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approval Process API, Calendar API, Expense API, and 8 more. Tagged areas include Company, Human Resources, HR, Payroll, and Human Capital Management.
+overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approval Process API, Calendar API, Expense API, and 8 more. Tagged areas include Company, Human Resources, HR, Payroll, and HCM.
 
 
   KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 34 more developer resources.'
@@ -302,7 +302,7 @@ random_paper: 0
 score:
   band: developing
   composite: 51.5
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -312,7 +312,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 53.3
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -323,8 +323,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png
 security:
@@ -346,11 +346,11 @@ tags:
 - Human Resources
 - HR
 - Payroll
-- Human Capital Management
+- HCM
 - Employee Management
 - Time and Attendance
 - Applicant Tracking
-- SaaS
+- Software-as-a-Service
 - Turkey
 website: https://kolayik.com
 ---

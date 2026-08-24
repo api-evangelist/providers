@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ modified: '2026-05-25'
 name: Marqo
 nav: Providers
 network: true
-overview: 'Marqo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Embeddings API, Indexes API, and 4 more. Tagged areas include Vector Database, Vector Search, Multimodal, Semantic Search, and Embeddings.
+overview: 'Marqo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Embeddings API, Indexes API, and 4 more. Tagged areas include Vector Database, Vector Search, Multi-Modal, Semantic Search, and Embeddings.
 
 
   Marqo''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, tooling, code examples, and 23 more developer resources.'
@@ -273,7 +273,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.3
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -283,7 +283,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.5
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -291,8 +291,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/screenshots/marqo-2026-06-20T185006.png
 security:
@@ -308,12 +308,12 @@ slug: marqo
 tags:
 - Vector Database
 - Vector Search
-- Multimodal
+- Multi-Modal
 - Semantic Search
 - Embeddings
-- AI
-- Machine Learning
-- Open Source
+- Artificial Intelligence
+- Machine-Learning
+- Open-Source
 - Ecommerce Search
 use_cases:
 - description: Index text and images into a single tensor store and query with natural-language or image inputs, with embedding inference running inside the engine.

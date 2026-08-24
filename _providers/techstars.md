@@ -31,7 +31,7 @@ tags:
 - Developer Tools
 - Fintech
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Healthcare
 - Climate
 - Space & Defense

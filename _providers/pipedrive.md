@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 0
@@ -611,7 +611,7 @@ modified: '2026-05-30'
 name: Pipedrive
 nav: Providers
 network: true
-overview: 'Pipedrive publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Activities API, ActivityFields API, ActivityTypes API, and 45 more. Tagged areas include CRM, Sales, Pipeline Management, SaaS, and Small Business.
+overview: 'Pipedrive publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Activities API, ActivityFields API, ActivityTypes API, and 45 more. Tagged areas include CRM, Sales, Pipeline Management, Software-as-a-Service, and Small Business.
 
 
   The Pipedrive catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -647,7 +647,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -657,7 +657,7 @@ score:
     discoverability: 50.0
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 52.9
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -665,9 +665,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png
 security:
 - kind: authentication
@@ -683,7 +683,7 @@ tags:
 - CRM
 - Sales
 - Pipeline Management
-- SaaS
+- Software-as-a-Service
 - Small Business
 website: https://www.pipedrive.com/
 ---

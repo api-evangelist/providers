@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -239,9 +239,9 @@ description: Qubiqle is an early 500 Startups (500 Global) portfolio company tha
 image: https://ottimate.com/wp-content/uploads/2025/09/ottimate-cover-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: qubiqle-mcp.yml
-  slug: qubiqle-mcpyml
+- description: Official hosted MCP server published by Ottimate for AI client integration (Claude Code, Cursor, etc.). Advertised in llms.txt and on every docs page. Exposes documentation search over docs.ottimate.c
+  name: Qubiqle MCP Server
+  slug: qubiqle-mcp-server
 modified: '2026-07-20'
 name: Qubiqle
 nav: Providers
@@ -290,8 +290,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/screenshots/qubiqle-2026-08-17T081428.png
 security:
@@ -310,7 +310,7 @@ tags:
 - Invoicing
 - Payments
 - Accounting
-- FinTech
+- Fintech
 - Automation
 - Artificial Intelligence
 - ERP Integration

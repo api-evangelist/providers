@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
@@ -177,16 +177,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alphaloops
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: alphaloops-mcp.yml
-  slug: alphaloops-mcpyml
+  name: AlphaLoops FMCSA Carrier Data API MCP Server
+  slug: alphaloops-fmcsa-carrier-data-api-mcp-server
+- description: AlphaLoops operates a hosted, remote MCP server exposing its FMCSA carrier-data platform as tools. The provider publishes a dedicated MCP reference page marked "Live" carrying the endpoint, the transp
+  name: AlphaLoops MCP Server
+  slug: alphaloops-mcp-server
 modified: '2026-08-11'
 name: AlphaLoops FMCSA Carrier Data API
 nav: Providers
 network: true
-overview: 'AlphaLoops FMCSA Carrier Data API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 1 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and freight.
+overview: 'AlphaLoops FMCSA Carrier Data API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 1 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and Freight.
 
 
   AlphaLoops FMCSA Carrier Data API''s developer surface includes authentication, CLI, changelog, pricing, support, and 24 more developer resources.'
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 68.4
-  previous_composite: 61.8
+  previous_composite: 60.9
   provenance:
     conformance: derived
     contracts:
@@ -228,8 +228,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/screenshots/alphaloops-2026-07-25T195758.png
 security:
@@ -255,13 +255,13 @@ tags:
 - safer web api
 - dot lookup
 - carrier data
-- freight
-- trucking
+- Freight
+- Trucking
 - motor carrier
 - fleet intelligence
-- sales intelligence
-- mcp server
-- contact enrichment
-- risk
-- fraud
+- Sales Intelligence
+- MCP Server
+- Contact Enrichment
+- Risk
+- Fraud
 ---

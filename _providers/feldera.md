@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -223,8 +223,8 @@ image: https://cdn.sanity.io/images/nlte859i/production/1c2e10b5e5fe2946c6c16f7b
 layout: provider
 mcp_servers:
 - description: ''
-  name: feldera-mcp.yml
-  slug: feldera-mcpyml
+  name: Feldera MCP Server
+  slug: feldera-mcp-server
 modified: '2026-07-19'
 name: Feldera
 nav: Providers
@@ -237,7 +237,7 @@ random_paper: 9
 score:
   band: strong
   composite: 58.7
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -247,7 +247,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 58.9
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,8 +258,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/screenshots/feldera-2026-07-25T214327.png
 security:
@@ -285,6 +285,6 @@ tags:
 - Real-Time Analytics
 - Change Data Capture
 - Materialized Views
-- Data Pipelines
+- Data Pipeline
 website: https://www.feldera.com
 ---

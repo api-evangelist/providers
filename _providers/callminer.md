@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Asynchronously add or update media and metadata for audio and text-based contacts in a CallMiner Eureka tenant. Hosted on the regional CallMiner API host and protected by OAuth 2.0 client credentials '
@@ -165,7 +165,7 @@ scopes:
 score:
   band: emerging
   composite: 24.1
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -175,11 +175,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 23.1
+  previous_composite: 24.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

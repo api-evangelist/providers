@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -166,13 +166,13 @@ image: https://taalas.com/h-content/uploads/2024/01/cropped-favicon-192x192.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: taalas-mcp.yml
-  slug: taalas-mcpyml
+  name: Taalas MCP Server
+  slug: taalas-mcp-server
 modified: '2026-08-02'
 name: Taalas
 nav: Providers
 network: true
-overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Models API, Monitoring API, and 1 more. Tagged areas include Company, artificial-intelligence, ai-inference, semiconductors, and ai-accelerator.
+overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Models API, Monitoring API, and 1 more. Tagged areas include Company, Artificial Intelligence, AI Inference, Semiconductors, and AI Accelerator.
 
 
   Taalas'' developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
@@ -180,7 +180,7 @@ random_paper: 0
 score:
   band: thin
   composite: 35.3
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 39.0
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,8 +201,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -216,15 +216,15 @@ security:
 slug: taalas
 tags:
 - Company
-- artificial-intelligence
-- ai-inference
-- semiconductors
-- ai-accelerator
-- large-language-models
-- llama
-- inference-api
-- openai-compatible
-- hardware
-- deep-tech
+- Artificial Intelligence
+- AI Inference
+- Semiconductors
+- AI Accelerator
+- Large Language Models
+- Llama
+- Inference API
+- OpenAI-Compatible
+- Hardware
+- Deep Tech
 website: https://taalas.com/
 ---

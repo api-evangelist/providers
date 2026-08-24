@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The agent-callable commerce surface of the Evolved By Nature direct-to-consumer skincare store. A UCP 2026-04-08 MCP endpoint exposes 13 catalog, cart, checkout and order tools; a second Shopify store
@@ -123,9 +123,9 @@ description: 'Evolved By Nature is a Needham, Massachusetts biotechnology compan
 image: https://biotech.evolvedbynature.com/wp-content/themes/ebn/assets/images/cropped-favicon-192x192.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: evolved-by-nature-mcp.yml
-  slug: evolved-by-nature-mcpyml
+- description: 'Evolved By Nature operates no developer program and publishes no OpenAPI. Its only live, machine-readable, callable API surface is the agentic-commerce layer on its two Shopify storefronts: a UCP (Uni'
+  name: Evolved By Nature — MCP servers
+  slug: evolved-by-nature-mcp-servers
 modified: '2026-08-12'
 name: Evolved By Nature
 nav: Providers
@@ -151,7 +151,7 @@ scopes:
 score:
   band: emerging
   composite: 19.6
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -161,13 +161,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 20.5
+  previous_composite: 19.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -188,9 +188,9 @@ tags:
 - Cosmetics
 - Specialty Chemicals
 - Textiles
-- eCommerce
+- E-Commerce
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 website: https://biotech.evolvedbynature.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-05-02'
 name: Nationstar Mortgage Holdings
 nav: Providers
 network: true
-overview: 'Nationstar Mortgage Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mortgage, Financial Services, Loan Servicing, and Fortune 1000.
+overview: 'Nationstar Mortgage Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mortgage, Financial-Services, Loan Servicing, and Fortune 1000.
 
 
   Nationstar Mortgage Holdings'' developer surface includes engineering blog and 5 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 14
 score:
   band: minimal
   composite: 4.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -104,9 +104,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 4.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 4.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationstar-mortgage-holdings/refs/heads/main/screenshots/nationstar-mortgage-holdings-2026-06-20T190050.png
 security:
@@ -117,7 +117,7 @@ security:
 slug: nationstar-mortgage-holdings
 tags:
 - Mortgage
-- Financial Services
+- Financial-Services
 - Loan Servicing
 - Fortune 1000
 website: https://www.mrcooper.com

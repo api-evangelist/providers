@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -291,9 +291,9 @@ description: Kard is an independent commerce media network and card-linked-offer
 image: https://cdn.prod.website-files.com/6501e86bc5fd522771731f1e/6900e3183a88a4d43e5f8952_Preview-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: kard-mcp.yml
-  slug: kard-mcpyml
+- description: Official hosted MCP server exposing the Kard API documentation to AI clients (Claude Code, Cursor, etc.). Documentation-scoped MCP server (docs + spec navigation).
+  name: Kard MCP Server
+  slug: kard-mcp-server
 modified: '2026-07-19'
 name: Kard
 nav: Providers
@@ -314,7 +314,7 @@ scopes:
 score:
   band: strong
   composite: 55.8
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -324,7 +324,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 53.6
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,8 +341,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 57.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/screenshots/kard-2026-07-25T223510.png
 security:
@@ -367,8 +367,8 @@ tags:
 - Fintech
 - Commerce Media
 - Advertising
-- Transactions
+- Transaction
 - Cashback
-- Webhooks
+- Webhook
 website: https://getkard.com/
 ---

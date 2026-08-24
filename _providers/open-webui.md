@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ modified: '2026-05-08'
 name: Open WebUI
 nav: Providers
 network: true
-overview: 'Open WebUI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Anthropic API, Chat API, and Ollama API. Tagged areas include LLM, Open Source, Self-Hosted, Ollama, and Chat UI.
+overview: 'Open WebUI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Anthropic API, Chat API, and Ollama API. Tagged areas include LLM, Open-Source, Self-Hosted, Ollama, and Chat UI.
 
 
   Open WebUI''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.1
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -152,7 +152,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.5
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/screenshots/open-webui-2026-06-20T190859.png
 security:
@@ -176,7 +176,7 @@ security:
 slug: open-webui
 tags:
 - LLM
-- Open Source
+- Open-Source
 - Self-Hosted
 - Ollama
 - Chat UI

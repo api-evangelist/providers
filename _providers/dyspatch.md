@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -316,8 +316,8 @@ image: https://www.dyspatch.io/wp-content/uploads/2025/04/fb-share-1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: dyspatch-mcp.yml
-  slug: dyspatch-mcpyml
+  name: Dyspatch MCP Server
+  slug: dyspatch-mcp-server
 modified: '2026-08-13'
 name: Dyspatch
 nav: Providers
@@ -341,7 +341,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.9
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -351,7 +351,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 60.3
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -368,8 +368,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/screenshots/dyspatch-2026-07-25T212608.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Mutiny''s first-party hosted, remote Model Context Protocol server — the company''s only machine-callable surface. It lets an MCP-compatible assistant (Claude web, Claude Desktop, Claude Code, ChatGPT) '
@@ -148,9 +148,9 @@ description: Mutiny (mutinyhq.com) is the GTM assistant built for customer-facin
 image: https://framerusercontent.com/assets/Ec1hAhKLtluxlMfLydNP0NTrIA.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: mutiny-mcp.yml
-  slug: mutiny-mcpyml
+- description: Mutiny ships a first-party hosted, remote MCP server so any MCP-compatible assistant (Claude web, Claude Desktop, Claude Code, ChatGPT) can create and publish Mutiny customer-facing assets, browse tem
+  name: Mutiny MCP Server
+  slug: mutiny-mcp-server
 modified: '2026-08-13'
 name: Mutiny
 nav: Providers
@@ -176,7 +176,7 @@ scopes:
 score:
   band: thin
   composite: 39.0
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -186,12 +186,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 41.0
+  previous_composite: 39.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/screenshots/mutiny-2026-08-07T184451.png
 security:
@@ -214,7 +214,7 @@ tags:
 - AI Agents
 - Sales Enablement
 - Account Based Marketing
-- Workflow Automation
-- Model Context Protocol
+- Workflow-Automation
+- MCP
 website: https://www.mutinyhq.com
 ---

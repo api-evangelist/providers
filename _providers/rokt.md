@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Comprehensive reporting API for querying account and campaign performance data with flexible filtering, metrics selection, and date range specification.
@@ -119,7 +119,7 @@ modified: '2026-06-13'
 name: Rokt
 nav: Providers
 network: true
-overview: 'Rokt publishes 1 API on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include eCommerce, Advertising, Transaction Moment, Personalization, and Offers.
+overview: 'Rokt publishes 1 API on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include E-Commerce, Advertising, Transaction Moment, Personalization, and Offers.
 
 
   The Rokt catalog on APIs.io includes 1 JSON-LD context.
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.7
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -148,9 +148,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 28.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rokt/refs/heads/main/screenshots/rokt-2026-06-20T193204.png
 security:
@@ -164,7 +164,7 @@ security:
   summary_line: security.txt · contact published
 slug: rokt
 tags:
-- eCommerce
+- E-Commerce
 - Advertising
 - Transaction Moment
 - Personalization

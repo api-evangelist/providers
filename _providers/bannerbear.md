@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ modified: '2026-06-20'
 name: Bannerbear
 nav: Providers
 network: true
-overview: 'Bannerbear publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Animated GIFs API, Auth API, Collections API, and 5 more. Tagged areas include Image Generation, Video Generation, Templates, Media, and Automation.
+overview: 'Bannerbear publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Animated GIFs API, Auth API, Collections API, and 5 more. Tagged areas include Image-Generation, Video Generation, Templates, Media, and Automation.
 
 
   Bannerbear''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -179,7 +179,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.9
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/screenshots/bannerbear-2026-06-20T172954.png
 security:
@@ -202,7 +202,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bannerbear
 tags:
-- Image Generation
+- Image-Generation
 - Video Generation
 - Templates
 - Media

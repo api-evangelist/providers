@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 2
@@ -1870,7 +1870,7 @@ modified: '2026-05-19'
 name: Discord
 nav: Providers
 network: true
-overview: 'Discord publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Gateway API, Interactions API, OAuth2 API, and 24 more. Tagged areas include Chat, Communication, Gaming, Messaging, and Social.
+overview: 'Discord publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Gateway API, Interactions API, OAuth2 API, and 24 more. Tagged areas include Chat, Communications, Gaming, Messaging, and Social.
 
 
   The Discord catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -1915,18 +1915,18 @@ scopes:
   summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.6
-  delta: -2.5
+  composite: 49.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 74.0
     developer_ergonomics: 54.8
     discoverability: 55.6
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 52.1
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1934,8 +1934,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/screenshots/discord-2026-06-20T180039.png
 security:
@@ -1954,7 +1954,7 @@ security:
 slug: discord
 tags:
 - Chat
-- Communication
+- Communications
 - Gaming
 - Messaging
 - Social

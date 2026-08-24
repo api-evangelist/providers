@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ modified: '2026-05-25'
 name: Krea
 nav: Providers
 network: true
-overview: 'Krea publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, General API, Image API, and 4 more. Tagged areas include AI, Artificial Intelligence, Image Generation, Video Generation, and Generative AI.
+overview: 'Krea publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, General API, Image API, and 4 more. Tagged areas include Artificial Intelligence, Image-Generation, Video Generation, Generative AI, and Real-Time.
 
 
   Krea''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, sandbox, YouTube channel, and 38 more developer resources.'
@@ -322,8 +322,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/screenshots/krea-ai-2026-06-20T184155.png
 security:
@@ -341,13 +341,12 @@ security:
   summary_line: SOC 2
 slug: krea-ai
 tags:
-- AI
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Video Generation
 - Generative AI
-- Real Time
-- Multimodal
+- Real-Time
+- Multi-Modal
 - Creative Tools
 - 3D
 - Upscaling

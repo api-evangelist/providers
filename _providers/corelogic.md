@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -436,18 +436,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 58.4
-  delta: 2.7
+  composite: 60.4
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 63.2
     developer_ergonomics: 50.0
-    discoverability: 50.0
-    governance: 60.6
+    discoverability: 59.3
+    governance: 69.7
     operational_transparency: 34.2
-  previous_composite: 55.7
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     contracts:
@@ -461,8 +461,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 57.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/screenshots/corelogic-2026-06-20T175025.png
 security:
@@ -491,7 +491,7 @@ tags:
 - OpenID Connect
 - Participant Reporting
 - Property Data
-- Real Estate
+- Real-Estate
 - RESO Data Dictionary
 - RESO Web API
 - RETS

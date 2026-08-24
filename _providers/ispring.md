@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 3
@@ -829,7 +829,7 @@ modified: '2026-06-13'
 name: iSpring Learn
 nav: Providers
 network: true
-overview: 'iSpring Learn publishes 20 APIs on the [APIs.io](https://apis.io/) network, including assignments API, certificate API, content API, and 17 more. Tagged areas include eLearning, LMS, Learning Management System, Training, and Courses.
+overview: 'iSpring Learn publishes 20 APIs on the [APIs.io](https://apis.io/) network, including assignments API, certificate API, content API, and 17 more. Tagged areas include E-Learning, LMS, Learning Management System, Training, and Courses.
 
 
   The iSpring Learn catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -859,7 +859,7 @@ rules:
 score:
   band: developing
   composite: 52.0
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -869,7 +869,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 55.3
-  previous_composite: 55.9
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -883,8 +883,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 37.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/screenshots/ispring-2026-06-20T183622.png
 security:
@@ -898,16 +898,16 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: ispring
 tags:
-- eLearning
+- E-Learning
 - LMS
 - Learning Management System
 - Training
 - Courses
 - Enrollments
-- Users
-- Groups
+- User
+- Group
 - Reporting
-- Webhooks
+- Webhook
 - SCORM
 - Corporate Training
 ---

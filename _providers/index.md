@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -113,9 +113,9 @@ description: Index is the company behind Alloy (alloy.app), an AI-native product
 image: https://alloy.app/static/nextjs-alloy/_next/static/media/og-cover.698c36ae.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: index-mcp.yml
-  slug: index-mcpyml
+- description: Alloy MCP lets AI assistants like Claude and Codex securely read Alloy session context - the design, chat, and code context behind prototyping work - to accelerate developer handoff, implement prototy
+  name: Index MCP Server
+  slug: index-mcp-server
 modified: '2026-07-19'
 name: Index
 nav: Providers
@@ -128,7 +128,7 @@ random_paper: 11
 score:
   band: thin
   composite: 26.4
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -138,11 +138,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 30.3
+  previous_composite: 26.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/index/refs/heads/main/screenshots/index-2026-07-25T222256.png
 security:

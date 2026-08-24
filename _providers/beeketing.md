@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST Admin API (and GraphQL Admin API) for building apps, themes, and payment gateways on ShopBase — products, orders, transactions, fulfillments, customers, inventory, checkouts, shipping, price rule
@@ -193,7 +193,7 @@ modified: '2026-08-13'
 name: Beeketing
 nav: Providers
 network: true
-overview: 'Beeketing publishes 1 API on the [APIs.io](https://apis.io/) network: ShopBase Admin API. Tagged areas include Company, E-commerce, Cross-border Commerce, Marketing, and Shopify Apps.
+overview: 'Beeketing publishes 1 API on the [APIs.io](https://apis.io/) network: ShopBase Admin API. Tagged areas include Company, E-Commerce, Cross-Border Commerce, Marketing, and Shopify Apps.
 
 
   The Beeketing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -217,7 +217,7 @@ scopes:
 score:
   band: strong
   composite: 64.4
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -227,7 +227,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 61.4
+  previous_composite: 64.4
   provenance:
     conformance: first-party
     contracts:
@@ -243,8 +243,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/screenshots/beeketing-2026-07-25T202630.png
 security:
@@ -259,13 +259,13 @@ security:
 slug: beeketing
 tags:
 - Company
-- E-commerce
-- Cross-border Commerce
+- E-Commerce
+- Cross-Border Commerce
 - Marketing
 - Shopify Apps
 - REST API
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 - Themes
 - Payments
 website: https://opencommercegroup.com

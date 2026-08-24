@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Server-side Enterprise REST API for managing reviews (list/get/update/reply), review groups, customers and profiles, loyalty (rules, transactions, VIP tiers, coupons), survey and quiz responses, trans
@@ -162,13 +162,13 @@ image: https://www.okendo.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: okendo-mcp.yml
-  slug: okendo-mcpyml
+  name: Okendo MCP Server
+  slug: okendo-mcp-server
 modified: '2026-07-20'
 name: Okendo
 nav: Providers
 network: true
-overview: 'Okendo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Reviews, Ratings, and Ecommerce.
+overview: 'Okendo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Reviews, Ratings, and E-Commerce.
 
 
   The Okendo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -179,7 +179,7 @@ random_paper: 10
 score:
   band: thin
   composite: 37.4
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -189,14 +189,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 47.3
+  previous_composite: 37.4
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/screenshots/okendo-2026-08-07T190049.png
 security:
 - kind: authentication
@@ -221,10 +221,10 @@ tags:
 - Business Applications
 - Reviews
 - Ratings
-- Ecommerce
+- E-Commerce
 - Loyalty
 - Customer Marketing
 - Shopify
-- Webhooks
+- Webhook
 website: https://www.okendo.io/
 ---

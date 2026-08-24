@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 2
@@ -582,13 +582,13 @@ image: https://m.avito.ru/icons/open-graph-default.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: avito-mcp.yml
-  slug: avito-mcpyml
+  name: Avito MCP Server
+  slug: avito-mcp-server
 modified: '2026-07-18'
 name: Avito
 nav: Providers
 network: true
-overview: 'Avito publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Access API, Ads API, ApplicationAccess API, and 48 more. Tagged areas include Company, Consumer, Classifieds, Marketplace, and E-commerce.
+overview: 'Avito publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Access API, Ads API, ApplicationAccess API, and 48 more. Tagged areas include Company, Consumer, Classifieds, Marketplace, and E-Commerce.
 
 
   Avito''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, signup flow, and 49 more developer resources.'
@@ -604,18 +604,18 @@ scopes:
   summary_line: 26 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.4
-  delta: 0.9
+  composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 30.3
     contract_quality: 56.6
     developer_ergonomics: 56.5
-    discoverability: 63.0
+    discoverability: 81.5
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 47.5
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: unknown
@@ -626,8 +626,8 @@ score:
       total: 51
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png
 security:
@@ -645,10 +645,10 @@ tags:
 - Consumer
 - Classifieds
 - Marketplace
-- E-commerce
-- Real Estate
+- E-Commerce
+- Real-Estate
 - Automotive
-- Jobs
+- Job
 - Advertising
 - Messaging
 - Delivery

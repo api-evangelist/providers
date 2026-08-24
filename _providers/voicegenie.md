@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -208,8 +208,8 @@ image: https://voicegenie.ai/images/vg_logo_name.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: voicegenie-mcp.yml
-  slug: voicegenie-mcpyml
+  name: VoiceGenie MCP Server
+  slug: voicegenie-mcp-server
 modified: '2026-08-14'
 name: VoiceGenie
 nav: Providers
@@ -233,7 +233,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.6
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -243,7 +243,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 55.8
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/screenshots/voicegenie-2026-08-17T082816.png
 security:
@@ -276,8 +276,8 @@ tags:
 - Voice Agents
 - Telephony
 - Call Center
-- Customer Support
+- Customer-Support
 - Lead Generation
-- Webhooks
+- Webhook
 website: https://voicegenie.ai
 ---

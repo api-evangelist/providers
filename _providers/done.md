@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -285,13 +285,13 @@ image: https://underscoredone.com/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: done-mcp.yml
-  slug: done-mcpyml
+  name: _done MCP Server
+  slug: done-mcp-server
 modified: '2026-08-11'
 name: _done
 nav: Providers
 network: true
-overview: '_done publishes 26 APIs on the [APIs.io](https://apis.io/) network, including ASN Lookup, BIMI Checker, CORS Header Checker, and 23 more. Tagged areas include developer-tools, utility-apis, ai-agents, agent-native, and x402.
+overview: '_done publishes 26 APIs on the [APIs.io](https://apis.io/) network, including ASN Lookup, BIMI Checker, CORS Header Checker, and 23 more. Tagged areas include Developer Tools, Utility APIs, AI Agents, agent-native, and x402.
 
 
   _done''s developer surface includes documentation, API reference, support, authentication, code examples, pricing, and 16 more developer resources.'
@@ -305,19 +305,19 @@ rate_limits:
   name: Done Rate Limits
   slug: done-rate-limits
 score:
-  band: thin
-  composite: 38.8
-  delta: 0.5
+  band: developing
+  composite: 40.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
     contract_quality: 59.9
     developer_ergonomics: 44.6
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 38.3
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,8 +334,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -348,21 +348,21 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: done
 tags:
-- developer-tools
-- utility-apis
-- ai-agents
+- Developer Tools
+- Utility APIs
+- AI Agents
 - agent-native
 - x402
 - pay-per-call
-- web3
-- crypto-payments
-- dns
-- domains
-- email-security
-- network-security
-- seo
-- ocr
-- data
+- Web3
+- Crypto Payments
+- DNS
+- Domains
+- Email Security
+- Network Security
+- SEO
+- OCR
+- Data
 - fintech-calculators
 website: https://underscoredone.com
 ---

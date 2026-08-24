@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Incentivio describes an API-first, composable data platform that unifies guest data across POS, loyalty, app, web, and marketplace channels into a single persistent Guest ID, with reverse ETL to sync '
@@ -167,9 +167,9 @@ description: 'Incentivio is a Boston-based digital guest engagement platform for
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/incentivio.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: incentivio-mcp.yml
-  slug: incentivio-mcpyml
+- description: Incentivio ships no MCP server. Nothing was found on the company's site, its empty developer portal, its (empty) GitHub organization, npm, or PyPI, and no MCP endpoint responded on any Incentivio host
+  name: Incentivio MCP server (candidate)
+  slug: incentivio-mcp-server-candidate
 modified: '2026-08-13'
 name: Incentivio
 nav: Providers
@@ -193,7 +193,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.5
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -203,7 +203,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 43.4
+  previous_composite: 42.5
   provenance:
     conformance: first-party
     contracts:
@@ -219,8 +219,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/screenshots/incentivio-2026-06-20T183307.png
 security:
@@ -243,7 +243,7 @@ tags:
 - Analytics
 - Reverse ETL
 - Restaurant Technology
-- Point of Sale
+- Point-of-Sale
 - Gift Cards
 - Mobile Ordering
 website: https://incentivio.com/

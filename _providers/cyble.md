@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for ODIN, Cyble's internet-scanning search engine. Twenty-seven operations across five datasets — Hosts (IPv4 scan results, services, ASN/geo enrichment, CVEs and exploits), Exposed Buckets (
@@ -187,7 +187,7 @@ modified: '2026-08-11'
 name: Cyble
 nav: Providers
 network: true
-overview: 'Cyble publishes 1 API on the [APIs.io](https://apis.io/) network: ODIN API. Tagged areas include threat-intelligence, cybersecurity, attack-surface-management, internet-scanning, and dark-web-monitoring.
+overview: 'Cyble publishes 1 API on the [APIs.io](https://apis.io/) network: ODIN API. Tagged areas include Threat Intelligence, Cybersecurity, Attack Surface Management, Internet Scanning, and Dark Web Monitoring.
 
 
   Cyble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
@@ -203,7 +203,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.4
-  delta: -10.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -213,7 +213,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 55.5
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -223,9 +223,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/screenshots/cyble-2026-08-17T080843.png
 security:
 - kind: authentication
@@ -246,17 +246,17 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: cyble
 tags:
-- threat-intelligence
-- cybersecurity
-- attack-surface-management
-- internet-scanning
-- dark-web-monitoring
-- vulnerability-management
-- cve
+- Threat Intelligence
+- Cybersecurity
+- Attack Surface Management
+- Internet Scanning
+- Dark Web Monitoring
+- Vulnerability Management
+- CVE
 - exposed-buckets
-- domain-intelligence
-- whois
-- osint
-- security
+- Domain Intelligence
+- WHOIS
+- OSINT
+- Security
 website: https://cyble.com/
 ---

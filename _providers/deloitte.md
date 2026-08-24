@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -173,9 +173,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 23.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/screenshots/deloitte-2026-06-20T175902.png
 security:
@@ -197,7 +197,7 @@ tags:
 - Human Capital
 - Strategy
 - Technology
-- AI
+- Artificial Intelligence
 - Research
 - Insights
 - Industry Analysis

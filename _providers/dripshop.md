@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: First-party GraphQL API powering Drip Shop Live's livestream shopping clients — streams, auctions, box breaks, giveaways, catalog, carts, orders, payments and messaging. 268 queries, 283 mutations, 56
@@ -95,8 +95,8 @@ image: https://cdn.dripshop.live/images/mini_app_hero.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: dripshop-mcp.yml
-  slug: dripshop-mcpyml
+  name: Dripshop MCP Server
+  slug: dripshop-mcp-server
 modified: '2026-07-18'
 name: Dripshop
 nav: Providers
@@ -109,7 +109,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 22.7
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -119,7 +119,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 27.5
+  previous_composite: 22.7
   provenance:
     conformance: derived
     mcp: derived
@@ -129,8 +129,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dripshop/refs/heads/main/screenshots/dripshop-2026-07-25T212415.png
 security:
@@ -149,7 +149,7 @@ tags:
 - Collectibles
 - Trading Cards
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Auctions
 - Live Streaming
 - Payments

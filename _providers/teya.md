@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -271,8 +271,8 @@ image: https://www.teya.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: teya-mcp.yml
-  slug: teya-mcpyml
+  name: Teya MCP Server
+  slug: teya-mcp-server
 modified: '2026-07-21'
 name: Teya
 nav: Providers
@@ -290,7 +290,7 @@ scopes:
 score:
   band: developing
   composite: 45.7
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -300,7 +300,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 48.5
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,8 +317,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 67.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/screenshots/teya-2026-08-17T082330.png
 security:
@@ -337,8 +337,8 @@ tags:
 - Payment Processing
 - Card Acquiring
 - Online Payments
-- Point of Sale
-- E-commerce
+- Point-of-Sale
+- E-Commerce
 - Fintech
 - Merchant Services
 - Europe

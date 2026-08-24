@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ modified: '2026-07-05'
 name: MemberClicks
 nav: Providers
 network: true
-overview: 'MemberClicks publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Authorization API, Continuing Education API, and 5 more. Tagged areas include Membership Management, Association Management, AMS, Nonprofit, and Events.
+overview: 'MemberClicks publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Authorization API, Continuing Education API, and 5 more. Tagged areas include Membership Management, Association Management, AMS, Non-Profit, and Event.
 
 
   MemberClicks'' developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
@@ -174,7 +174,7 @@ scopes:
 score:
   band: developing
   composite: 40.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -184,7 +184,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 41.4
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +192,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/screenshots/memberclicks-2026-08-07T172453.png
 security:
@@ -210,8 +210,8 @@ tags:
 - Membership Management
 - Association Management
 - AMS
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - CRM
 - Personify
 website: https://memberclicks.com

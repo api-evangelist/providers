@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -449,18 +449,18 @@ rules:
   slug: tamara-rules
 score:
   band: developing
-  composite: 48.9
-  delta: -11.7
+  composite: 49.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.3
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 60.6
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -474,9 +474,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/screenshots/tamara-2026-06-20T194914.png
 security:
 - kind: authentication
@@ -501,12 +501,12 @@ tags:
 - Installments
 - Pay Later
 - Merchant Services
-- Orders
+- Order
 - Refunds
-- Captures
-- Webhooks
+- Capture
+- Webhook
 - Disputes
 - Channel Partners
-- E-commerce
-- POS
+- E-Commerce
+- Point-of-Sale
 ---

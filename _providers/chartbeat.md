@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Live audience and traffic data updated every three seconds — top pages, referrers, geographies, engaged time, loyalty, and live concurrent visitors — the data behind the Real-Time Dashboard. HTTP GET,
@@ -169,7 +169,7 @@ modified: '2026-08-13'
 name: Chartbeat
 nav: Providers
 network: true
-overview: 'Chartbeat publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Analytics, Content Analytics, and Real-Time Analytics.
+overview: 'Chartbeat publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Analytics, Content Analytics, and Real-Time Analytics.
 
 
   Chartbeat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.4
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -195,12 +195,12 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 45.0
+  previous_composite: 43.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chartbeat/refs/heads/main/screenshots/chartbeat-2026-07-25T205108.png
 security:
@@ -219,7 +219,7 @@ security:
 slug: chartbeat
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Analytics
 - Content Analytics
 - Real-Time Analytics

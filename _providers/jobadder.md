@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API for managing recruitment workflows including jobs, candidates, placements, submissions, interviews, and companies in JobAdder. Authentication uses OAuth 2.0 authorization code flow with be
@@ -80,7 +80,7 @@ modified: '2026-05-11'
 name: JobAdder
 nav: Providers
 network: true
-overview: 'JobAdder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruitment, Applicant Tracking System, Staffing, Human Resources, and Talent Acquisition.
+overview: 'JobAdder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruitment, ATS, Staffing, Human Resources, and Talent Acquisition.
 
 
   JobAdder''s developer surface includes documentation, support, signup flow, pricing, engineering blog, and 4 more developer resources.'
@@ -99,8 +99,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobadder/refs/heads/main/screenshots/jobadder-2026-06-20T183744.png
 security:
@@ -111,7 +111,7 @@ security:
 slug: jobadder
 tags:
 - Recruitment
-- Applicant Tracking System
+- ATS
 - Staffing
 - Human Resources
 - Talent Acquisition

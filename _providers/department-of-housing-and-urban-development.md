@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The HUD USER FMR/IL API publishes Fair Market Rents (FMRs), Small Area Fair Market Rents, and Income Limits (IL) for U.S. metropolitan and non-metropolitan areas. It exposes endpoints for listing stat
@@ -127,7 +127,7 @@ modified: '2026-04-28'
 name: Department of Housing and Urban Development
 nav: Providers
 network: true
-overview: 'Department of Housing and Urban Development publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Affordable Housing, Fair Market Rents, Federal Government, FHA, and GIS.
+overview: 'Department of Housing and Urban Development publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Affordable Housing, Fair Market Rents, Federal-Government, FHA, and GIS.
 
 
   The Department of Housing and Urban Development catalog on APIs.io includes 1 JSON-LD context.
@@ -146,7 +146,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.8
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -156,15 +156,15 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 10.5
-  previous_composite: 19.6
+  previous_composite: 15.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-housing-and-urban-development/refs/heads/main/screenshots/department-of-housing-and-urban-development-2026-06-20T175917.png
 security:
@@ -176,7 +176,7 @@ slug: department-of-housing-and-urban-development
 tags:
 - Affordable Housing
 - Fair Market Rents
-- Federal Government
+- Federal-Government
 - FHA
 - GIS
 - Housing

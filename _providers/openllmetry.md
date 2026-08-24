@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Traceloop SDK is the developer-facing entry point for OpenLLMetry. A single Traceloop.init() call configures OpenTelemetry, registers all available LLM/vector-DB/framework instrumentations, and st
@@ -103,7 +103,7 @@ modified: '2026-05-25'
 name: OpenLLMetry
 nav: Providers
 network: true
-overview: 'OpenLLMetry publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, Observability, Open Source, and OpenTelemetry.
+overview: 'OpenLLMetry publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Observability, Open-Source, and OpenTelemetry.
 
 
   OpenLLMetry''s developer surface includes documentation, engineering blog, getting-started guide, and 8 more developer resources.'
@@ -111,7 +111,7 @@ random_paper: 14
 score:
   band: minimal
   composite: 9.8
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -121,9 +121,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openllmetry/refs/heads/main/screenshots/openllmetry-2026-06-20T191014.png
 security:
@@ -133,10 +133,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: openllmetry
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
-- Open Source
+- Open-Source
 - OpenTelemetry
 - Tracing
 - GenAI

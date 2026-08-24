@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 19
 apis:
 - description: The Alert API from Prevedere — 1 operation(s) for alert.
@@ -234,8 +234,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prevedere.
 layout: provider
 mcp_servers:
 - description: ''
-  name: prevedere-mcp.yml
-  slug: prevedere-mcpyml
+  name: Prevedere MCP Server
+  slug: prevedere-mcp-server
 modified: '2026-07-20'
 name: Prevedere
 nav: Providers
@@ -248,7 +248,7 @@ random_paper: 17
 score:
   band: thin
   composite: 33.5
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -258,7 +258,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 35.1
+  previous_composite: 33.5
   provenance:
     conformance: derived
     contracts:
@@ -268,8 +268,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -291,6 +291,6 @@ tags:
 - Indicators
 - Time Series
 - Data Integration
-- Machine Learning
+- Machine-Learning
 website: https://prevedere.com
 ---

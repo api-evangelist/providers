@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -229,8 +229,8 @@ image: https://archlabs.com/images/arch-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: arch-mcp.yml
-  slug: arch-mcpyml
+  name: Arch MCP Server
+  slug: arch-mcp-server
 modified: '2026-07-18'
 name: Arch
 nav: Providers
@@ -247,7 +247,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.9
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -257,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 45.3
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +268,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/screenshots/arch-2026-07-25T201014.png
 security:
@@ -293,7 +293,7 @@ tags:
 - Fintech
 - Wealth Management
 - Investment Administration
-- Portfolio Management
+- Portfolio-Management
 - Documents
 website: https://archlabs.com
 ---

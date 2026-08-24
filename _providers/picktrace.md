@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API for integrating labor and workforce-management data into and out of the PickTrace platform. Customers and third-party developers use it to create, update, and extract objects from all Pick
@@ -92,7 +92,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 15.1
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -102,9 +102,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -123,6 +123,5 @@ tags:
 - Time Tracking
 - Payroll
 - Piecework
-- API
 website: https://picktrace.com/
 ---

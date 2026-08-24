@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The csv API from Canal — 3 operation(s) for csv.
@@ -254,13 +254,13 @@ image: https://cdn.prod.website-files.com/633617b15a78ccbe02dcf627/657cdf8810129
 layout: provider
 mcp_servers:
 - description: ''
-  name: canal-mcp.yml
-  slug: canal-mcpyml
+  name: Canal MCP Server
+  slug: canal-mcp-server
 modified: '2026-07-18'
 name: Canal
 nav: Providers
 network: true
-overview: 'Canal publishes 17 APIs on the [APIs.io](https://apis.io/) network, including csv API, fulfillments API, markets API, and 14 more. Tagged areas include Company, eCommerce, Dropshipping, Marketplace, and Commerce.
+overview: 'Canal publishes 17 APIs on the [APIs.io](https://apis.io/) network, including csv API, fulfillments API, markets API, and 14 more. Tagged areas include Company, E-Commerce, Dropshipping, Marketplace, and Commerce.
 
 
   The Canal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -271,7 +271,7 @@ random_paper: 7
 score:
   band: developing
   composite: 43.0
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -281,7 +281,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 46.0
+  previous_composite: 43.0
   provenance:
     conformance: derived
     contracts:
@@ -291,8 +291,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/screenshots/canal-2026-07-25T204329.png
 security:
@@ -307,14 +307,14 @@ security:
 slug: canal
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Dropshipping
 - Marketplace
 - Commerce
 - Retail
 - Fulfillment
-- Orders
-- Products
-- Webhooks
+- Order
+- Product
+- Webhook
 website: https://www.shopcanal.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ modified: '2026-06-21'
 name: Kili Technology
 nav: Providers
 network: true
-overview: 'Kili Technology publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include AI, Data Labeling, Training Data, Annotation, and GraphQL.
+overview: 'Kili Technology publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Artificial Intelligence, Data Labeling, Training Data, Annotation, and GraphQL.
 
 
   The Kili Technology catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -154,7 +154,7 @@ rules:
 score:
   band: developing
   composite: 43.7
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -164,7 +164,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 49.7
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -172,9 +172,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/screenshots/kili-technology-2026-07-25T223739.png
 security:
 - kind: authentication
@@ -191,7 +191,7 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: kili-technology
 tags:
-- AI
+- Artificial Intelligence
 - Data Labeling
 - Training Data
 - Annotation

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-08-08'
 name: Blackbird Labs
 nav: Providers
 network: true
-overview: 'Blackbird Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Payments, Loyalty, and Blockchain.
+overview: 'Blackbird Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Payments, Loyalty, and Blockchain.
 
 
   Blackbird Labs'' developer surface includes support, signup flow, and 7 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 4.9
-  delta: -9.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -94,16 +94,16 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.7
+  previous_composite: 4.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird-labs/refs/heads/main/screenshots/blackbird-labs-2026-07-25T203245.png
 security:
 - kind: domain-security
@@ -113,7 +113,7 @@ security:
 slug: blackbird-labs
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Payments
 - Loyalty
 - Blockchain

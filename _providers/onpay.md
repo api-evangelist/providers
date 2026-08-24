@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -189,13 +189,13 @@ image: https://onpay.com/wp-content/uploads/2017/08/d9fo84j1zi.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: onpay-mcp.yml
-  slug: onpay-mcpyml
+  name: OnPay MCP Server
+  slug: onpay-mcp-server
 modified: '2026-08-04'
 name: OnPay
 nav: Providers
 network: true
-overview: 'OnPay publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Company API, Deductions API, Employees API, and 3 more. Tagged areas include payroll, human-resources, employee-benefits, payroll-tax, and small-business.
+overview: 'OnPay publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Company API, Deductions API, Employees API, and 3 more. Tagged areas include Payroll, Human Resources, Employee Benefits, payroll-tax, and Small Business.
 
 
   OnPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -208,7 +208,7 @@ scopes:
 score:
   band: developing
   composite: 42.2
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -218,7 +218,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 44.7
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +229,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/screenshots/onpay-2026-08-07T190403.png
 security:
@@ -248,15 +248,15 @@ security:
   summary_line: Hackerone · contact published
 slug: onpay
 tags:
-- payroll
-- human-resources
-- employee-benefits
+- Payroll
+- Human Resources
+- Employee Benefits
 - payroll-tax
-- small-business
-- workforce-management
-- fintech
-- hr-tech
-- time-and-attendance
+- Small Business
+- Workforce Management
+- Fintech
+- HR Tech
+- Time and Attendance
 - retirement-401k
 website: https://onpay.com/
 ---

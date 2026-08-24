@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Post categories
@@ -179,7 +179,7 @@ modified: '2026-08-04'
 name: DalCor Pharmaceuticals
 nav: Providers
 network: true
-overview: 'DalCor Pharmaceuticals publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Discovery API, and 4 more. Tagged areas include Company, pharmaceuticals, biotechnology, cardiovascular, and precision-medicine.
+overview: 'DalCor Pharmaceuticals publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Discovery API, and 4 more. Tagged areas include Company, Pharmaceuticals, Biotechnology, Cardiovascular, and Precision Medicine.
 
 
   DalCor Pharmaceuticals'' developer surface includes support, authentication, and 23 more developer resources.'
@@ -187,7 +187,7 @@ random_paper: 17
 score:
   band: thin
   composite: 30.9
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 29.2
+  previous_composite: 30.9
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +212,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/screenshots/dalcor-pharmaceuticals-2026-08-07T164031.png
 security:
@@ -228,13 +228,13 @@ security:
 slug: dalcor-pharmaceuticals
 tags:
 - Company
-- pharmaceuticals
-- biotechnology
-- cardiovascular
-- precision-medicine
-- pharmacogenomics
-- clinical-trials
-- life-sciences
+- Pharmaceuticals
+- Biotechnology
+- Cardiovascular
+- Precision Medicine
+- Pharmacogenomics
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://dalcorpharma.com/
 ---

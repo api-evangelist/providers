@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -244,8 +244,8 @@ image: https://hustle.com/wp-content/uploads/2026/05/cropped-ko-Hustle-10-logo-1
 layout: provider
 mcp_servers:
 - description: ''
-  name: hustle-mcp.yml
-  slug: hustle-mcpyml
+  name: Hustle MCP Server
+  slug: hustle-mcp-server
 modified: '2026-08-13'
 name: Hustle
 nav: Providers
@@ -274,7 +274,7 @@ scopes:
 score:
   band: strong
   composite: 60.9
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -284,7 +284,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 57.8
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,8 +301,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/screenshots/hustle-2026-07-25T221742.png
 security:
@@ -332,7 +332,7 @@ tags:
 - Communications
 - Marketing
 - Civic Engagement
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 website: https://hustle.com
 ---

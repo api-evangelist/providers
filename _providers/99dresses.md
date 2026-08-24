@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ modified: '2026-07-17'
 name: 99Dresses
 nav: Providers
 network: true
-overview: 99Dresses is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-commerce, Marketplace, and Resale.
+overview: 99Dresses is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Marketplace, and Resale.
 random_paper: 14
 score:
   band: minimal
@@ -63,14 +63,14 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: 99dresses
 tags:
 - Company
 - Fashion
-- E-commerce
+- E-Commerce
 - Marketplace
 - Resale
 - Consumer

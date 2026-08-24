@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST/JSON API for the Iru (formerly Kandji) endpoint management platform: read fleet data and run device actions, manage apps, Library items, Library uploads, Blueprints, tenant activity, and Automate'
@@ -146,9 +146,9 @@ description: Iru (formerly Kandji) is an enterprise IT and security company that
 image: https://www.iru.com/hubfs/assets/favicons/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: iru-mcp.yml
-  slug: iru-mcpyml
+- description: 'Official Iru-hosted, remote MCP server that exposes the Iru Endpoint Management (Enterprise) API surface as MCP tools for AI assistants. Enabled per API token (the "Enable MCP" toggle when creating a '
+  name: Iru MCP Server
+  slug: iru-mcp-server
 modified: '2026-07-19'
 name: Iru
 nav: Providers
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.0
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -175,12 +175,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 38.7
+  previous_composite: 36.0
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iru/refs/heads/main/screenshots/iru-2026-07-25T222931.png
 security:

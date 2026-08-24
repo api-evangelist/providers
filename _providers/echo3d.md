@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful HTTP API for storing, querying, uploading, downloading, converting, compressing, organizing, versioning, and deleting 3D content entries (targets and holograms) in echo3D collections. Requests
@@ -162,9 +162,9 @@ description: echo3D is a cloud-based 3D digital asset management (DAM) platform 
 image: https://static.wixstatic.com/media/c42fea_29a84adfa04046e69529e73ba3417d5d~mv2.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: echo3d-mcp.yml
-  slug: echo3d-mcpyml
+- description: The echo3D Model Context Protocol (MCP) server lets any MCP-compatible AI client (Claude, ChatGPT, Gemini, Cursor, and others) manage an echo3D 3D collection using natural language.
+  name: echo3D MCP Server
+  slug: echo3d-mcp-server
 modified: '2026-07-19'
 name: echo3D
 nav: Providers
@@ -185,7 +185,7 @@ scopes:
 score:
   band: developing
   composite: 43.7
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -195,12 +195,12 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 46.1
+  previous_composite: 43.7
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/screenshots/echo3d-2026-07-25T212938.png
 security:
@@ -222,7 +222,7 @@ tags:
 - 3D Models
 - Content Delivery
 - Developer Tools
-- SDKs
+- SDK
 - WebAR
 website: https://www.echo3d.com/
 ---

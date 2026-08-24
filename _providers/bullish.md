@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 3
@@ -385,8 +385,8 @@ image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jp
 layout: provider
 mcp_servers:
 - description: ''
-  name: bullish-mcp.yml
-  slug: bullish-mcpyml
+  name: Bullish MCP Server
+  slug: bullish-mcp-server
 modified: '2026-08-08'
 name: Bullish
 nav: Providers
@@ -406,7 +406,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 68.4
-  delta: 5.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -416,7 +416,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 62.9
+  previous_composite: 68.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -433,9 +433,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 73.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/screenshots/bullish-2026-08-17T080736.png
 security:
 - kind: authentication
@@ -463,7 +463,7 @@ tags:
 - Derivatives
 - Custody
 - Market Data
-- Financial Services
+- Financial-Services
 - Institutional
 - FIX
 website: https://www.bullish.com/us/

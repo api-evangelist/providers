@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -186,8 +186,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amp-bank.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: amp-bank-mcp.yml
-  slug: amp-bank-mcpyml
+  name: AMP Bank MCP Server
+  slug: amp-bank-mcp-server
 modified: '2026-07-21'
 name: AMP Bank
 nav: Providers
@@ -205,7 +205,7 @@ scopes:
 score:
   band: developing
   composite: 45.0
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -215,7 +215,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 42.9
+  previous_composite: 45.0
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +231,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Coverage API performs real-time insurance eligibility and benefits verification for a patient against a payer. Clients submit provider NPI, payer ID, and member identity information and receive st
@@ -209,7 +209,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.8
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -219,7 +219,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 50.4
+  previous_composite: 56.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -229,9 +229,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/screenshots/eligible-2026-08-17T123412.png
 security:
 - kind: authentication

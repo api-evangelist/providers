@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-05-19'
 name: Administrative Office of the U.S. Courts
 nav: Providers
 network: true
-overview: 'Administrative Office of the U.S. Courts publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cases API, Parties API, and Services API. Tagged areas include Courts, Federal Government, Legal, PACER, and Case Records.
+overview: 'Administrative Office of the U.S. Courts publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cases API, Parties API, and Services API. Tagged areas include Courts, Federal-Government, Legal, PACER, and Case Records.
 
 
   Administrative Office of the U.S. Courts'' developer surface includes engineering blog, developer portal, signup flow, and 6 more developer resources.'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.5
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -163,7 +163,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.1
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/screenshots/administrative-office-of-the-u-s-courts-2026-06-20T164757.png
 security:
@@ -189,7 +189,7 @@ security:
 slug: administrative-office-of-the-u-s-courts
 tags:
 - Courts
-- Federal Government
+- Federal-Government
 - Legal
 - PACER
 - Case Records

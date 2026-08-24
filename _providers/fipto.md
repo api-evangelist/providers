@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -176,8 +176,8 @@ image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jp
 layout: provider
 mcp_servers:
 - description: ''
-  name: fipto-mcp.yml
-  slug: fipto-mcpyml
+  name: Fipto MCP Server
+  slug: fipto-mcp-server
 modified: '2026-08-17'
 name: Fipto
 nav: Providers
@@ -201,6 +201,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -210,6 +211,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 7.9
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,8 +228,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Fipto Authentication

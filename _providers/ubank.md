@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -162,8 +162,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ubank.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ubank-mcp.yml
-  slug: ubank-mcpyml
+  name: ubank MCP Server
+  slug: ubank-mcp-server
 modified: '2026-07-21'
 name: ubank
 nav: Providers
@@ -181,7 +181,7 @@ scopes:
 score:
   band: thin
   composite: 36.2
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 35.5
+  previous_composite: 36.2
   provenance:
     conformance: derived
     contracts:
@@ -207,8 +207,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/screenshots/ubank-2026-07-21T114753.png
 security:

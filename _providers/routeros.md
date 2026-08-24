@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: '2026-05-19'
 name: RouterOS
 nav: Providers
 network: true
-overview: 'RouterOS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bridge API, DHCP API, DNS API, and 7 more. Tagged areas include Networking, Routers, Network Management, Firewall, and MikroTik.
+overview: 'RouterOS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bridge API, DHCP API, DNS API, and 7 more. Tagged areas include Networking, Router, Network Management, Firewall, and MikroTik.
 
 
   The RouterOS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -237,18 +237,18 @@ rules:
   slug: routeros-rules
 score:
   band: thin
-  composite: 36.9
-  delta: -5.9
+  composite: 37.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.6
     developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 42.8
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -256,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/screenshots/routeros-2026-06-20T193227.png
 security:
 - kind: authentication
@@ -276,7 +276,7 @@ security:
 slug: routeros
 tags:
 - Networking
-- Routers
+- Router
 - Network Management
 - Firewall
 - MikroTik

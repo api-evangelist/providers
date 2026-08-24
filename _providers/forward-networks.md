@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 2
@@ -286,9 +286,9 @@ description: Forward Networks builds network digital-twin software (Forward Ente
 image: https://www.forwardnetworks.com/wp-content/uploads/2026/04/header-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: forward-networks-mcp.yml
-  slug: forward-networks-mcpyml
+- description: Open-source MCP server (Go, stdio transport) published in the Forward Networks GitHub org. Exposes 54 tools plus 6 workflow prompts and a network-context resource, validated against the official Forwa
+  name: Forward Networks MCP Server
+  slug: forward-networks-mcp-server
 modified: '2026-07-19'
 name: Forward Networks
 nav: Providers
@@ -300,18 +300,18 @@ overview: 'Forward Networks publishes 20 APIs on the [APIs.io](https://apis.io/)
 random_paper: 15
 score:
   band: developing
-  composite: 40.1
-  delta: -5.6
+  composite: 41.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 16.7
     contract_quality: 51.7
     developer_ergonomics: 32.7
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 45.7
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,9 +322,9 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/screenshots/forward-networks-2026-07-25T215024.png
 security:
 - kind: authentication

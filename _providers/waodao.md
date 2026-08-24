@@ -16,10 +16,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-19'
+  score: 51.8
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -223,8 +223,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: waodao-mcp.yml
-  slug: waodao-mcpyml
+  name: WAODAO MCP Server
+  slug: waodao-mcp-server
 modified: '2026-08-09'
 name: WAODAO
 nav: Providers
@@ -236,18 +236,18 @@ overview: 'WAODAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 5
 score:
   band: thin
-  composite: 35.4
-  delta: 0.6
+  composite: 36.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 30.3
     contract_quality: 57.9
     developer_ergonomics: 42.3
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 34.8
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,8 +258,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -282,7 +282,7 @@ tags:
 - OpenAPI
 - Ethereum
 - Solana
-- Agent Native
+- agent-native
 - Digital Art
 website: https://waodao.ai/ai-agents
 ---

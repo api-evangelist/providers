@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 23
 apis:
 - description: Endpoints for MLS listings data assembled by Anywhere's MLS Data Platform (MDP), which downloads, processes and enriches listings from multiple MLS sources. Returns listings in canonical RESO format e
@@ -257,7 +257,7 @@ modified: '2026-07-26'
 name: Anywhere Real Estate
 nav: Providers
 network: true
-overview: 'Anywhere Real Estate publishes 23 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United States, Property Listings, MLS, and RESO.
+overview: 'Anywhere Real Estate publishes 23 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United States, Property Listings, MLS, and RESO.
 
 
   Anywhere Real Estate''s developer surface includes authentication, changelog, sandbox, developer portal, documentation, getting-started guide, signup flow, and 29 more developer resources.'
@@ -270,7 +270,7 @@ scopes:
 score:
   band: developing
   composite: 40.0
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -280,7 +280,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 38.9
+  previous_composite: 40.0
   provenance:
     conformance: first-party
   regulatory:
@@ -289,8 +289,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/screenshots/anywhere-real-estate-2026-08-07T161434.png
 security:
@@ -308,7 +308,7 @@ security:
   summary_line: SOC 1, SOC 2 Type 2, ISO/IEC 27001:2022, SOX, GDPR, EU-US Data Privacy Framework, Cyber Essentials
 slug: anywhere-real-estate
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Property Listings
 - MLS
@@ -320,6 +320,6 @@ tags:
 - Escrow
 - Relocation
 - Leads
-- Transactions
+- Transaction
 website: https://anywhere.re/
 ---

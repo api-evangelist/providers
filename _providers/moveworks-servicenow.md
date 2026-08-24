@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -215,14 +215,14 @@ description: Moveworks is an enterprise AI assistant / agentic automation platfo
 image: https://github.com/moveworks.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: moveworks-servicenow-mcp.yml
-  slug: moveworks-servicenow-mcpyml
+- description: Moveworks publishes an official hosted MCP server for its developer documentation (a Fern-hosted docs MCP server) advertised in docs.moveworks.com/llms.txt for AI clients such as Claude Code and Curso
+  name: Moveworks (ServiceNow) MCP Server
+  slug: moveworks-servicenow-mcp-server
 modified: '2026-07-20'
 name: Moveworks (ServiceNow)
 nav: Providers
 network: true
-overview: 'Moveworks (ServiceNow) publishes 1 API on the [APIs.io](https://apis.io/) network: Records API. Tagged areas include Company, Ai Infrastructure, AI Assistant, Agentic AI, and Enterprise Automation.
+overview: 'Moveworks (ServiceNow) publishes 1 API on the [APIs.io](https://apis.io/) network: Records API. Tagged areas include Company, AI Infrastructure, AI Assistant, Agentic AI, and Enterprise Automation.
 
 
   The Moveworks (ServiceNow) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -233,7 +233,7 @@ random_paper: 1
 score:
   band: strong
   composite: 63.2
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -243,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 63.3
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,8 +254,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveworks-servicenow/refs/heads/main/screenshots/moveworks-servicenow-2026-08-07T184403.png
 security:
@@ -278,7 +278,7 @@ security:
 slug: moveworks-servicenow
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - AI Assistant
 - Agentic AI
 - Enterprise Automation

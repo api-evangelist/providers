@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Anonymous, read-only REST surface behind emulatebio.com. Emulate runs WordPress and exposes the WordPress REST API publicly, with six first-party custom namespaces registered alongside the core wp/v2 '
@@ -129,8 +129,8 @@ image: https://emulatebio.com/wp-content/uploads/2024/02/emulate-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: emulate-mcp.yml
-  slug: emulate-mcpyml
+  name: Emulate MCP Server
+  slug: emulate-mcp-server
 modified: '2026-08-01'
 name: Emulate
 nav: Providers
@@ -143,7 +143,7 @@ random_paper: 14
 score:
   band: thin
   composite: 29.1
-  delta: 7.6
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -159,7 +159,7 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  previous_composite: 21.5
+  previous_composite: 29.1
   provenance:
     conformance: derived
     contracts:
@@ -175,9 +175,9 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/screenshots/emulate-2026-08-07T164847.png
 security:
 - kind: authentication

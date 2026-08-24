@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Token-authenticated REST API over data.thinknum.com for querying Thinknum's alternative datasets. Endpoints cover dataset query (filter/group/sort/ function), historical daily and monthly feeds, compa
@@ -138,9 +138,9 @@ description: Thinknum is an alternative data platform that collects and structur
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thinknum.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: thinknum-mcp.yml
-  slug: thinknum-mcpyml
+- description: Candidate MCP tool surface derived from the published Thinknum Data API operations. Not an official Thinknum MCP server — a starting point for wrapping the token-authenticated REST API as MCP tools.
+  name: Thinknum MCP Server
+  slug: thinknum-mcp-server
 modified: '2026-07-21'
 name: Thinknum
 nav: Providers
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.2
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -167,11 +167,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 32.0
+  previous_composite: 27.2
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

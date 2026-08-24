@@ -1,13 +1,13 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · No registration
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
   - authentication
+  - openapi
   trial: false
   try_now: true
 agent_readiness:
@@ -19,107 +19,146 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-19'
+  score: 38.5
+  scored_at: '2026-08-24'
 agentic_access:
-- acting_count: 81
-  human_in_the_loop: 2
+- acting_count: 0
+  human_in_the_loop: 0
   name: Carnegie Mellon University Agentic Access
-  operation_count: 157
+  operation_count: 16
   slug: carnegie-mellon-university-agentic-access
-  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 12
+  summary_line: 16 operations
+api_count: 7
 apis:
-- description: Public, anonymously accessible HTTP/JSON API maintained by the Carnegie Mellon University Delphi research group providing real-time and historical epidemiological surveillance data, including the COVI
+- description: Public, anonymously accessible HTTP/JSON API operated by the Delphi research group at Carnegie Mellon University, serving real-time and historical epidemiological surveillance data — COVIDcast indicat
   name: Delphi Epidata API
   slug: delphi-epidata
-- description: 'Carnegie Mellon''s campus-wide single sign-on identity service based on Shibboleth/SAML, used by service providers to authenticate authorized users. The identity provider metadata endpoint is publicly '
-  name: CMU Web Login (Shibboleth SSO)
+- description: Public read API for the CERT Coordination Center's Vulnerability Notes database, operated by the CERT Division of the Software Engineering Institute — a federally funded research and development cente
+  name: CERT/CC Vulnerability Notes API
+  slug: cert-vulnerability-notes
+- description: REST API and conformant OAI-PMH 2.0 provider for the Carnegie Mellon University Library Publishing Service, the open-access publishing programme run by University Libraries. Exposes five journals (Lan
+  name: CMU Library Publishing Service API + OAI-PMH
+  slug: library-publishing
+- description: Carnegie Mellon's campus-wide single sign-on identity provider, running Shibboleth on CMU's own host and address space (login.cmu.edu, 128.2.42.22). Its SAML 2.0 metadata is publicly readable at the c
+  name: CMU Web Login (Shibboleth SAML 2.0 Identity Provider)
   slug: web-login-sso
-- description: The altmetric API from Carnegie Mellon University — 1 operation(s) for altmetric.
-  name: Carnegie Mellon University altmetric API
-  slug: carnegie-mellon-university-altmetric-api
-- description: The articles API from Carnegie Mellon University — 34 operation(s) for articles.
-  name: Carnegie Mellon University articles API
-  slug: carnegie-mellon-university-articles-api
-- description: The authors API from Carnegie Mellon University — 2 operation(s) for authors.
-  name: Carnegie Mellon University authors API
-  slug: carnegie-mellon-university-authors-api
-- description: The collections API from Carnegie Mellon University — 21 operation(s) for collections.
-  name: Carnegie Mellon University collections API
-  slug: carnegie-mellon-university-collections-api
-- description: The institutions API from Carnegie Mellon University — 20 operation(s) for institutions.
-  name: Carnegie Mellon University institutions API
-  slug: carnegie-mellon-university-institutions-api
-- description: The oauth API from Carnegie Mellon University — 1 operation(s) for oauth.
-  name: Carnegie Mellon University oauth API
-  slug: carnegie-mellon-university-oauth-api
-- description: The other API from Carnegie Mellon University — 7 operation(s) for other.
-  name: Carnegie Mellon University other API
-  slug: carnegie-mellon-university-other-api
-- description: The profiles API from Carnegie Mellon University — 2 operation(s) for profiles.
-  name: Carnegie Mellon University profiles API
-  slug: carnegie-mellon-university-profiles-api
-- description: The projects API from Carnegie Mellon University — 17 operation(s) for projects.
-  name: Carnegie Mellon University projects API
-  slug: carnegie-mellon-university-projects-api
-- description: The symplectic API from Carnegie Mellon University — 5 operation(s) for symplectic.
-  name: Carnegie Mellon University symplectic API
-  slug: carnegie-mellon-university-symplectic-api
-artifact_total: 37
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Figshare altmetric API
-  slug: open-carnegie-mellon-university-altmetric-api
-- collection_type: open
-  name: Figshare altmetric articles API
-  slug: open-carnegie-mellon-university-articles-api
-- collection_type: open
-  name: Figshare altmetric authors API
-  slug: open-carnegie-mellon-university-authors-api
-- collection_type: open
-  name: Figshare altmetric collections API
-  slug: open-carnegie-mellon-university-collections-api
-- collection_type: open
-  name: Figshare altmetric institutions API
-  slug: open-carnegie-mellon-university-institutions-api
-- collection_type: open
-  name: Figshare altmetric oauth API
-  slug: open-carnegie-mellon-university-oauth-api
-- collection_type: open
-  name: Figshare altmetric other API
-  slug: open-carnegie-mellon-university-other-api
-- collection_type: open
-  name: Figshare altmetric profiles API
-  slug: open-carnegie-mellon-university-profiles-api
-- collection_type: open
-  name: Figshare altmetric projects API
-  slug: open-carnegie-mellon-university-projects-api
-- collection_type: open
-  name: Figshare altmetric symplectic API
-  slug: open-carnegie-mellon-university-symplectic-api
+- description: KiltHub is Carnegie Mellon's institutional repository for research data and scholarly output. The data, the collections and the DOIs are CMU's; the platform, the API and the OAI-PMH endpoint are figsh
+  name: KiltHub Institutional Repository (figshare) — tenant
+  slug: kilthub-figshare-tenant
+- description: 'CMU''s learning management system serves an LTI 1.3 / LTI Advantage JWKS at canvas.cmu.edu/api/lti/security/jwks, so the LTI standard is genuinely in play in CMU''s teaching environment. It is recorded '
+  name: Canvas LTI 1.3 Advantage (Instructure) — tenant
+  slug: canvas-lti-tenant
+- description: A public JSON API for Carnegie Mellon dining locations, hours and menus, built and run by ScottyLabs, a CMU student organization, at api.cmueats.com. It exists because CMU's own dining surface does no
+  name: CMU Eats API (ScottyLabs) — student-operated
+  slug: cmu-eats-scottylabs
+artifact_total: 25
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/carnegie-mellon-university-agentic-access.yml
+  type: Website
+  url: https://www.cmu.edu/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://cmu-delphi.github.io/delphi-epidata/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.kb.cert.org/vuls/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://cmu-delphi.github.io/delphi-epidata/api/README.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/cmu-delphi
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/CERTCC
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/cmu-sei
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/cmu-lib
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://login.cmu.edu/idp/shibboleth
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://mdq.incommon.org/entities/https%3A%2F%2Flogin.cmu.edu%2Fidp%2Fshibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://lps.library.cmu.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://kilthub.cmu.edu/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.library.cmu.edu/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://enr-apps.as.cmu.edu/open/SOC/SOCServlet
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.cmu.edu/computing/services/research/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.cmu.edu/teaching/technology/aitools/
 - group: auth
   title: ''
-  type: DomainSecurity
-  url: security/carnegie-mellon-university-domain-security.yml
+  type: Authentication
+  url: https://www.cmu.edu/computing/services/security/identity-access/authentication/sso-provider.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cmu.edu/legal/privacy-notice
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cmu.edu/legal/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.cmu.edu/computing/support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cmu.edu/news/
+- group: company
+  title: ''
+  type: Blog
+  url: https://insights.sei.cmu.edu/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/carnegie-mellon-university/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/carnegie-mellon-university-education-standards-conformance.yml
 - group: auth
   title: ''
   type: Authentication
@@ -128,26 +167,46 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/carnegie-mellon-university-scopes.yml
-- group: company
+- group: design
   title: ''
-  type: Website
-  url: https://www.cmu.edu/
+  type: ErrorCatalog
+  url: errors/carnegie-mellon-university-errors.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/carnegie-mellon-university-lifecycle.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/carnegie-mellon-university-vocabulary.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: json-ld/carnegie-mellon-university-context.jsonld
 - group: build
   title: ''
-  type: GitHub
-  url: https://github.com/cmu-delphi
+  type: Examples
+  url: examples/carnegie-mellon-university-delphi-fluview-example.json
 - group: build
   title: ''
-  type: SourceCode
-  url: https://github.com/cmu-lib
-- group: company
+  type: Examples
+  url: examples/carnegie-mellon-university-cert-vulnerability-note-example.json
+- group: design
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/carnegie-mellon-university/
+  type: Rules
+  url: rules/carnegie-mellon-university-rules.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/carnegie-mellon-university-jsonschema-spectral-rules.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/carnegie-mellon-university-agentic-access.yml
 - group: auth
   title: ''
-  type: Authentication
-  url: https://www.cmu.edu/computing/services/security/identity-access/authentication/sso-provider.html
+  type: DomainSecurity
+  url: security/carnegie-mellon-university-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -165,44 +224,56 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Carnegie Mellon University is a private research university in Pittsburgh, Pennsylvania, United States, ranked #50 in the QS World University Rankings 2025. Its public developer and API footprint is concentrated in research and library infrastructure rather than a single central developer portal. The most prominent public API is the Delphi Epidata API, a real-time epidemiological data API maintained by CMU''s Delphi research group. The University Libraries operate the KiltHub institutional repository (hosted on figshare) which exposes research data and scholarly outputs via OAI-PMH and the figshare REST API, and CMU runs a campus-wide Shibboleth/Web Login single sign-on identity service.'
+description: 'Carnegie Mellon University is a private research university in Pittsburgh, Pennsylvania, ranked 49th in the QS World University Rankings. It operates no central developer portal, no API gateway and no institution-wide developer program — api.cmu.edu and data.cmu.edu do not exist as developer surfaces — but unlike most of this cohort it does genuinely engineer public APIs, in three unrelated units that share no identifier, envelope or error model. The Delphi research group runs the Delphi Epidata API for real-time epidemiological surveillance; the CERT Coordination Center at the Software Engineering Institute runs the Vulnerability Notes API, the machine-readable record of coordinated vulnerability disclosure; and University Libraries self-hosts the Library Publishing Service, five open-access journals behind a REST API and a conformant OAI-PMH 2.0 provider on CMU''s own hardware. None of the three publishes an OpenAPI, a changelog on the API host, a status page or a deprecation
+  policy, and both research APIs return errors with HTTP 200. Everything else that carries CMU''s name is a tenancy: KiltHub is figshare, Canvas is Instructure, and the eleven figshare-derived contracts this profile held until 2026-08-19 were a vendor''s engineering credited to the university.'
 examples:
-- key_count: 30
-  name: Carnegie Mellon University Get Article Example
-  slug: carnegie-mellon-university-get-article-example
 - key_count: 2
-  name: Carnegie Mellon University Search Articles Example
-  slug: carnegie-mellon-university-search-articles-example
+  name: Carnegie Mellon University Cert Note Cves Example
+  slug: carnegie-mellon-university-cert-note-cves-example
+- key_count: 2
+  name: Carnegie Mellon University Cert Vendor Statements Example
+  slug: carnegie-mellon-university-cert-vendor-statements-example
+- key_count: 2
+  name: Carnegie Mellon University Cert Vulnerability Note Example
+  slug: carnegie-mellon-university-cert-vulnerability-note-example
+- key_count: 2
+  name: Carnegie Mellon University Delphi Covidcast Example
+  slug: carnegie-mellon-university-delphi-covidcast-example
+- key_count: 2
+  name: Carnegie Mellon University Delphi Error Example
+  slug: carnegie-mellon-university-delphi-error-example
+- key_count: 2
+  name: Carnegie Mellon University Delphi Fluview Example
+  slug: carnegie-mellon-university-delphi-fluview-example
 finops:
 - name: Carnegie Mellon University Finops
   service_category: Education
   slug: carnegie-mellon-university-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carnegie-mellon-university.png
 json_schemas:
-- name: KiltHub Article (figshare public research output)
-  property_count: 34
-  slug: carnegie-mellon-university-article
-json_structures:
-- name: Carnegie Mellon University Article Structure
-  property_count: 25
-  slug: carnegie-mellon-university-article-structure
+- name: CERT/CC Vulnerability Note
+  property_count: 30
+  slug: carnegie-mellon-university-cert-vulnerability-note
+- name: Delphi Epidata response envelope
+  property_count: 3
+  slug: carnegie-mellon-university-delphi-epidata-envelope
 jsonld:
-- class_count: 25
+- class_count: 28
   name: Carnegie Mellon University Context
-  property_count: 9
+  property_count: 7
   slug: carnegie-mellon-university-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: Carnegie Mellon University
 nav: Providers
 network: true
-overview: 'Carnegie Mellon University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, United States, and Research.
+overview: 'Carnegie Mellon University publishes 3 APIs on the [APIs.io](https://apis.io/) network: Delphi Epidata API, CERT/CC Vulnerability Notes API, and CMU Library Publishing Service API + OAI-PMH. Tagged areas include University, Higher Education, Education, United States, and Private Research University.
 
 
   The Carnegie Mellon University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Carnegie Mellon University''s developer surface includes authentication, GitHub presence, and 11 more developer resources.'
+  Carnegie Mellon University''s developer surface includes documentation, API reference, authentication, support, engineering blog, code examples, and 34 more developer resources.'
 plans:
 - name: Carnegie Mellon University Plans Pricing
   plan_count: 2
@@ -213,81 +284,89 @@ rate_limits:
   name: Carnegie Mellon University Rate Limits
   slug: carnegie-mellon-university-rate-limits
 rules:
-- effective_rule_count: 5
+- effective_rule_count: 6
   extends: []
   name: Carnegie Mellon University API Rules
-  rule_count: 5
+  rule_count: 6
   severity_counts:
-    error: 0
+    error: 4
     hint: 0
     info: 1
-    warn: 4
+    warn: 1
   slug: carnegie-mellon-university-jsonschema-spectral-rules
-- effective_rule_count: 7
-  extends: []
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
   name: Carnegie Mellon University API Rules
-  rule_count: 7
+  rule_count: 11
   severity_counts:
-    error: 1
+    error: 6
     hint: 0
-    info: 1
-    warn: 5
+    info: 2
+    warn: 3
   slug: carnegie-mellon-university-rules
 scopes:
 - name: Carnegie Mellon University Scopes
-  scope_count: 1
+  scope_count: 0
   slug: carnegie-mellon-university-scopes
-  summary_line: 1 scope · authorizationCode
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.1
-  delta: -3.5
+  composite: 41.4
+  delta: -0.3
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 70.2
-    developer_ergonomics: 11.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 17.4
+    contract_quality: 24.3
+    developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 44.6
+    governance: 17.4
+    operational_transparency: 23.7
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 64.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png
 security:
 - kind: authentication
   name: Carnegie Mellon University Authentication
   slug: carnegie-mellon-university-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: none/saml · 3 schemes
 - kind: domain-security
   name: Carnegie Mellon University Domain Security
   slug: carnegie-mellon-university-domain-security
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: carnegie-mellon-university
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United States
+- Private Research University
 - Research
 - Epidemiology
-- Open Data
-- Library
+- Public Health
+- Cybersecurity
+- Vulnerability Disclosure
+- Scholarly Publishing
 - Institutional Repository
+- Identity Federation
+- Open Access
+- Open Data
 website: https://www.cmu.edu/
 ---

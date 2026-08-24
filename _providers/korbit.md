@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -219,9 +219,9 @@ description: 'Korbit is South Korea''s first cryptocurrency exchange, founded in
 image: https://www.korbit.co.kr/apple-touch-icon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: korbit-mcp.yml
-  slug: korbit-mcpyml
+- description: Korbit ships an official MCP server bundled inside the korbit-cli binary. It is a local stdio server (not a hosted/remote endpoint) that exposes every Korbit Open API v2 endpoint as an MCP tool, runni
+  name: Korbit MCP Server
+  slug: korbit-mcp-server
 modified: '2026-07-19'
 name: Korbit
 nav: Providers
@@ -241,7 +241,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.5
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -251,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 48.1
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,9 +268,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png
 security:
 - kind: authentication
@@ -289,7 +289,7 @@ tags:
 - Digital Assets
 - Trading
 - Market Data
-- Financial Services
+- Financial-Services
 - WebSocket
 - South Korea
 - Blockchain

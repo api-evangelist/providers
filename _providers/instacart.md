@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -325,18 +325,18 @@ rules:
   slug: instacart-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.2
-  delta: -4.6
+  composite: 31.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 75.1
     developer_ergonomics: 11.9
     discoverability: 50.0
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 35.8
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -348,8 +348,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png
 security:

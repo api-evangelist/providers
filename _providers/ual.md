@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -194,8 +194,8 @@ image: https://developers.ualabis.com.ar/logo-large.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ual-mcp.yml
-  slug: ual-mcpyml
+  name: Ualá MCP Server
+  slug: ualá-mcp-server
 modified: '2026-07-21'
 name: Ualá
 nav: Providers
@@ -211,7 +211,7 @@ random_paper: 7
 score:
   band: developing
   composite: 51.5
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 49.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +238,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/screenshots/ual-2026-08-17T082515.png
 security:
@@ -259,7 +259,7 @@ tags:
 - Banking
 - Neobank
 - Checkout
-- Ecommerce
+- E-Commerce
 - Argentina
 - Mexico
 website: https://www.uala.com.ar/

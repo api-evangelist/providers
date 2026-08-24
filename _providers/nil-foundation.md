@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Ethereum-style JSON-RPC 2.0 API exposing the =nil; cluster — blocks, transactions (messages), accounts, contract calls, gas pricing, shard enumeration, tokens, and event filters. Read methods require '
@@ -131,8 +131,8 @@ image: https://nil.foundation/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: nil-foundation-mcp.yml
-  slug: nil-foundation-mcpyml
+  name: =nil; Foundation MCP Server
+  slug: nil-foundation-mcp-server
 modified: '2026-07-20'
 name: =nil; Foundation
 nav: Providers
@@ -145,7 +145,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 26.0
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -155,12 +155,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 26.4
+  previous_composite: 26.0
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nil-foundation/refs/heads/main/screenshots/nil-foundation-2026-08-07T185257.png
 security:
@@ -179,7 +179,7 @@ tags:
 - Blockchain
 - Layer 2
 - Ethereum
-- Zero Knowledge Proofs
+- Zero-Knowledge Proofs
 - zkSharding
 - JSON-RPC
 - Smart Contracts

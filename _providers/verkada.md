@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Verkada Command platform - cameras and footage, access control, sensors, alarms, guest management, Helix video tagging, and audit logs. Scoped API key + short-lived token auth; region
@@ -186,9 +186,9 @@ description: Verkada is a cloud-managed physical security company whose platform
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verkada.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: verkada-mcp.yml
-  slug: verkada-mcpyml
+- description: Candidate MCP tool surface derived from the Verkada Command API operations published in the provider's own llms.txt / API reference. Verkada does not (as of this pass) publish an official hosted or re
+  name: Verkada MCP Server
+  slug: verkada-mcp-server
 modified: '2026-07-21'
 name: Verkada
 nav: Providers
@@ -208,7 +208,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.6
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -218,14 +218,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 77.6
-  previous_composite: 57.1
+  previous_composite: 49.6
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/screenshots/verkada-2026-08-17T082733.png
 security:
 - kind: authentication
@@ -251,12 +251,12 @@ tags:
 - Physical Security
 - Video Surveillance
 - Access Control
-- Cameras
+- Camera
 - Sensors
 - Alarms
 - IoT
 - Cloud
-- Webhooks
+- Webhook
 - Building Management
 website: https://verkada.com
 ---

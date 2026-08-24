@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 2
@@ -225,8 +225,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: datavant-mcp.yml
-  slug: datavant-mcpyml
+  name: Datavant MCP Server
+  slug: datavant-mcp-server
 modified: '2026-08-14'
 name: Datavant
 nav: Providers
@@ -252,7 +252,7 @@ scopes:
 score:
   band: strong
   composite: 62.5
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -262,7 +262,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 59.0
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,8 +279,8 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/screenshots/datavant-2026-07-25T211401.png
 security:
@@ -316,7 +316,7 @@ tags:
 - Medical Records
 - Release of Information
 - Privacy
-- OAuth 2.0
+- Authentication
 - Health Information Exchange
 website: https://www.datavant.com/
 ---

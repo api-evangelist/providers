@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ modified: '2026-05-11'
 name: UKG Ready
 nav: Providers
 network: true
-overview: 'UKG Ready publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Content API, and Groups API. Tagged areas include HCM, Human Capital Management, Payroll, Workforce Management, and Time and Attendance.
+overview: 'UKG Ready publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Content API, and Groups API. Tagged areas include HCM, Payroll, Workforce Management, Time and Attendance, and HR.
 
 
   UKG Ready''s developer surface includes authentication, documentation, pricing, signup flow, support, and 7 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 2
 score:
   band: thin
   composite: 29.4
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -147,7 +147,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 34.1
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -155,8 +155,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/screenshots/ukg-ready-2026-06-20T200009.png
 security:
@@ -171,7 +171,6 @@ security:
 slug: ukg-ready
 tags:
 - HCM
-- Human Capital Management
 - Payroll
 - Workforce Management
 - Time and Attendance

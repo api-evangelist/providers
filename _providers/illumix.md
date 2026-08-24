@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Illumix
 nav: Providers
 network: true
-overview: 'Illumix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spatial AI, Augmented Reality, Computer Vision, and Localization.
+overview: 'Illumix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spatial AI, Augmented Reality, Computer-Vision, and Localization.
 
 
   Illumix''s developer surface includes support and 6 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 13.9
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -86,11 +86,11 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 13.1
+  previous_composite: 13.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/illumix/refs/heads/main/screenshots/illumix-2026-07-25T222113.png
 security:
@@ -103,7 +103,7 @@ tags:
 - Company
 - Spatial AI
 - Augmented Reality
-- Computer Vision
+- Computer-Vision
 - Localization
 - Edge AI
 - Robotics

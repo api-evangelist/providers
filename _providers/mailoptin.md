@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The WordPress REST API served by mailoptin.io, plus the Model Context Protocol server exposed through the WordPress MCP Adapter at the mcp namespace. The REST root is a public, self-describing route i
@@ -140,9 +140,9 @@ description: 'MailOptin is a WordPress lead-generation and email-automation plug
 image: https://mailoptin.io/wp-content/uploads/2014/05/mailoptin-plugin-banner.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: mailoptin-mcp.yml
-  slug: mailoptin-mcpyml
+- description: 'mailoptin.io runs a live Model Context Protocol server, exposed through the WordPress MCP Adapter as the `mcp` namespace of the site''s REST API. It was discovered from the RFC 9728 protected-resource '
+  name: MailOptin Site MCP Server
+  slug: mailoptin-site-mcp-server
 modified: '2026-08-12'
 name: MailOptin
 nav: Providers
@@ -171,7 +171,7 @@ scopes:
 score:
   band: developing
   composite: 47.8
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -181,12 +181,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 50.1
+  previous_composite: 47.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/screenshots/mailoptin-2026-08-17T124048.png
 security:
@@ -206,8 +206,8 @@ tags:
 - Lead Generation
 - WordPress
 - Newsletters
-- Webhooks
-- Model Context Protocol
+- Webhook
+- MCP
 - Plugins
 website: https://mailoptin.io/
 ---

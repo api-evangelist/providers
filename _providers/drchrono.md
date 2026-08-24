@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 163
   human_in_the_loop: 0
@@ -797,7 +797,7 @@ scopes:
 score:
   band: exemplar
   composite: 83.9
-  delta: 6.9
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -807,7 +807,7 @@ score:
     discoverability: 92.6
     governance: 40.2
     operational_transparency: 84.2
-  previous_composite: 77.0
+  previous_composite: 83.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -824,9 +824,9 @@ score:
     regime: Health
     regime_id: health
     score: 90.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/screenshots/drchrono-2026-06-20T180219.png
 security:
 - kind: authentication
@@ -857,8 +857,8 @@ tags:
 - SMART on FHIR
 - USCDI
 - Interoperability
-- Webhooks
-- OAuth 2.0
+- Webhook
+- Authentication
 - ONC Certified
 - Telehealth
 - Revenue Cycle Management

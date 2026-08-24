@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ modified: '2026-05-19'
 name: OpenFGA
 nav: Providers
 network: true
-overview: 'OpenFGA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assertions API, Authorization Models API, AuthZenService API, and 3 more. Tagged areas include Access Control, Authorization, Cloud Native, Fine-Grained, and Incubating.
+overview: 'OpenFGA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assertions API, Authorization Models API, AuthZenService API, and 3 more. Tagged areas include Access Control, Authorization, Cloud-Native, Fine-Grained, and Incubating.
 
 
   OpenFGA''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.9
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -146,7 +146,7 @@ score:
     discoverability: 79.6
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 27.0
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/screenshots/openfga-2026-06-20T191007.png
 security:
@@ -167,7 +167,7 @@ slug: openfga
 tags:
 - Access Control
 - Authorization
-- Cloud Native
+- Cloud-Native
 - Fine-Grained
 - Incubating
 - Zanzibar

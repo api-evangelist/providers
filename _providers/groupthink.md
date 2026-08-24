@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Groupthink's hosted, remote Model Context Protocol (MCP) server and API, served from api.groupthink.com. Authenticated with a Bearer API token minted in the app, it lets an AI assistant join live meet
@@ -115,13 +115,13 @@ image: https://groupthink.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: groupthink-mcp.yml
-  slug: groupthink-mcpyml
+  name: Groupthink MCP Server
+  slug: groupthink-mcp-server
 modified: '2026-07-19'
 name: Groupthink
 nav: Providers
 network: true
-overview: 'Groupthink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Meetings, Transcription, and Note Taking.
+overview: 'Groupthink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Meetings, Transcription, and Note Taking.
 
 
   Groupthink''s developer surface includes documentation, authentication, changelog, pricing, signup flow, engineering blog, support, and 11 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 7
 score:
   band: thin
   composite: 28.0
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -139,13 +139,13 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 28.4
+  previous_composite: 28.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groupthink/refs/heads/main/screenshots/groupthink-2026-07-25T220349.png
 security:
@@ -160,7 +160,7 @@ security:
 slug: groupthink
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Meetings
 - Transcription
 - Note Taking

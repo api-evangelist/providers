@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for creating and managing parcel delivery orders, generating shipping labels, checking delivery coverage, retrieving proof of delivery, and consuming real-time tracking events. Authenticated '
@@ -151,13 +151,13 @@ image: https://files.readme.io/005f576-small-Logo_paack_negativo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: paack-mcp.yml
-  slug: paack-mcpyml
+  name: Paack MCP Server
+  slug: paack-mcp-server
 modified: '2026-07-20'
 name: Paack
 nav: Providers
 network: true
-overview: 'Paack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Last Mile Delivery, Parcel Delivery, and E-commerce.
+overview: 'Paack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Last Mile Delivery, Parcel Delivery, and E-Commerce.
 
 
   The Paack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -168,7 +168,7 @@ random_paper: 8
 score:
   band: thin
   composite: 37.6
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -178,13 +178,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 43.6
+  previous_composite: 37.6
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/screenshots/paack-2026-08-07T191232.png
 security:
 - kind: authentication
@@ -201,7 +201,7 @@ tags:
 - Logistics
 - Last Mile Delivery
 - Parcel Delivery
-- E-commerce
+- E-Commerce
 - Shipping
 - Fulfillment
 - Tracking

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Read-only REST API for Axie Infinity: Origins community game data — list and fetch cards, runes, charms and items; list a user''s fighters and fighter configurations; read burned items; list seasons an'
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.4
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -143,11 +143,11 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 25.6
+  previous_composite: 26.4
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/screenshots/axie-infinity-2026-08-07T162037.png
 security:
@@ -169,6 +169,6 @@ tags:
 - Game Data
 - Leaderboards
 - Ronin
-- Play to Earn
+- Play-to-Earn
 website: https://axieinfinity.com/
 ---

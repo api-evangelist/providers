@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -421,8 +421,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: independence-blue-cross-mcp.yml
-  slug: independence-blue-cross-mcpyml
+  name: Independence Blue Cross MCP Server
+  slug: independence-blue-cross-mcp-server
 modified: '2026-08-15'
 name: Independence Blue Cross
 nav: Providers
@@ -472,7 +472,7 @@ scopes:
 score:
   band: exemplar
   composite: 70.7
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -482,7 +482,7 @@ score:
     discoverability: 81.5
     governance: 55.3
     operational_transparency: 31.6
-  previous_composite: 69.8
+  previous_composite: 70.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -499,8 +499,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:
@@ -546,7 +546,7 @@ tags:
 - Pharmacy Benefits
 - Interoperability
 - FHIR
-- SMART On FHIR
+- SMART on FHIR
 - CMS
 - Patient Access
 - Provider Directory

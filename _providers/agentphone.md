@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -257,8 +257,8 @@ image: https://agentphone.ai/favicon.png?v=3
 layout: provider
 mcp_servers:
 - description: ''
-  name: agentphone-mcp.yml
-  slug: agentphone-mcpyml
+  name: AgentPhone MCP Server
+  slug: agentphone-mcp-server
 modified: '2026-07-17'
 name: AgentPhone
 nav: Providers
@@ -278,7 +278,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.5
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -288,7 +288,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 49.5
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,9 +305,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/screenshots/agentphone-2026-07-25T195242.png
 security:
 - kind: authentication
@@ -328,7 +328,7 @@ tags:
 - AI Agents
 - Messaging
 - Communications
-- Webhooks
+- Webhook
 - MCP
 - iMessage
 website: https://docs.agentphone.ai

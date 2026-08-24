@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 5
@@ -6094,7 +6094,7 @@ modified: '2026-05-19'
 name: Amazon Cognito
 nav: Providers
 network: true
-overview: 'Amazon Cognito publishes 124 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API, #X Amz Target=AWSCognitoIdentityProviderService.AdminAddUserToGroup API, #X Amz Target=AWSCognitoIdentityProviderService.AdminConfirmSignUp API, and 121 more. Tagged areas include Authentication, Authorization, Identity, Identity Provider, and OAuth2.
+overview: 'Amazon Cognito publishes 124 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API, #X Amz Target=AWSCognitoIdentityProviderService.AdminAddUserToGroup API, #X Amz Target=AWSCognitoIdentityProviderService.AdminConfirmSignUp API, and 121 more. Tagged areas include Authentication, Authorization, Identity, Identity Provider, and OIDC.
 
 
   The Amazon Cognito catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -6134,18 +6134,18 @@ rules:
   slug: aws-cognito-spectral-rules
 score:
   band: developing
-  composite: 52.3
-  delta: -5.3
+  composite: 50.9
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.9
     developer_ergonomics: 52.4
-    discoverability: 68.5
-    governance: 25.0
+    discoverability: 50.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.6
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -6153,9 +6153,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 124
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/screenshots/aws-cognito-2026-06-20T172748.png
 security:
 - kind: authentication
@@ -6180,7 +6180,6 @@ tags:
 - Authorization
 - Identity
 - Identity Provider
-- OAuth2
 - OIDC
 use_cases:
 - description: Add user registration, login, and session management to web and mobile applications.

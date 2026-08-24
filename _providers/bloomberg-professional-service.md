@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Provides programmatic access to Bloomberg's comprehensive financial data including pricing, reference data, fundamentals, and historical information. Content can be accessed via a REST API, SFTP, or n
@@ -167,7 +167,7 @@ modified: '2026-04-18'
 name: Bloomberg Professional Service
 nav: Providers
 network: true
-overview: 'Bloomberg Professional Service publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Cloud, Data Management, Enterprise, and Financial Services.
+overview: 'Bloomberg Professional Service publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Cloud, Data Management, Enterprise, and Financial-Services.
 
 
   Bloomberg Professional Service''s developer surface includes developer portal, documentation, support, and 16 more developer resources.'
@@ -183,7 +183,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.4
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -193,15 +193,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 25.1
+  previous_composite: 23.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-professional-service/refs/heads/main/screenshots/bloomberg-professional-service-2026-06-20T173510.png
 security:
@@ -215,9 +215,9 @@ tags:
 - Cloud
 - Data Management
 - Enterprise
-- Financial Services
+- Financial-Services
 - Market Data
-- Open Source
+- Open-Source
 - Real-Time Data
 - Trading
 use_cases:

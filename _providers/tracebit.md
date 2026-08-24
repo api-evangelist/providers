@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Alerts API from Tracebit — 2 operation(s) for alerts.
@@ -172,8 +172,8 @@ image: https://cdn.prod.website-files.com/663e4960fd682070c6a1bfdc/6a16ecb79f26e
 layout: provider
 mcp_servers:
 - description: ''
-  name: tracebit-mcp.yml
-  slug: tracebit-mcpyml
+  name: Tracebit MCP Server
+  slug: tracebit-mcp-server
 modified: '2026-07-21'
 name: Tracebit
 nav: Providers
@@ -186,7 +186,7 @@ random_paper: 6
 score:
   band: developing
   composite: 47.9
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -196,7 +196,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 53.8
+  previous_composite: 47.9
   provenance:
     conformance: derived
     contracts:
@@ -206,9 +206,9 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/screenshots/tracebit-2026-08-17T082426.png
 security:
 - kind: authentication

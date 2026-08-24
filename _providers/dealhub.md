@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Retrieve quotes and quote documents from DealHub, list quotes for a CRM opportunity, create renewal opportunities and read DealRoom signer status. The read side of the CPQ platform used to feed BI sys
@@ -227,13 +227,13 @@ image: https://cms.dealhub.io/wp-content/uploads/2026/02/HP-Thumbnail-1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: dealhub-mcp.yml
-  slug: dealhub-mcpyml
+  name: DealHub MCP Server
+  slug: dealhub-mcp-server
 modified: '2026-08-12'
 name: DealHub
 nav: Providers
 network: true
-overview: 'DealHub publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Quote API, Headless Quote API, CRM API, and 8 more. Tagged areas include Company, CPQ, Quote to Cash, Contract Lifecycle Management, and Subscription Management.
+overview: 'DealHub publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Quote API, Headless Quote API, CRM API, and 8 more. Tagged areas include Company, CPQ, Quote-to-Cash, Contract Lifecycle Management, and Subscription Management.
 
 
   The DealHub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -252,7 +252,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -262,7 +262,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 54.0
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -272,8 +272,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/screenshots/dealhub-2026-08-17T080848.png
 security:
@@ -297,14 +297,14 @@ slug: dealhub
 tags:
 - Company
 - CPQ
-- Quote to Cash
+- Quote-to-Cash
 - Contract Lifecycle Management
 - Subscription Management
 - Billing
 - Revenue Operations
 - Sales
 - Pricing
-- Usage Based Billing
+- Usage-Based Billing
 - Revenue Recognition
 - Sales Enablement
 website: https://dealhub.io/

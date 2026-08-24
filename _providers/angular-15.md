@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Core Angular 15 framework APIs including stable standalone components, directive composition API, image optimization via NgOptimizedImage, dependency injection improvements, and extended template diag
@@ -116,7 +116,7 @@ modified: '2026-04-19'
 name: Angular 15
 nav: Providers
 network: true
-overview: 'Angular 15 publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Frontend, JavaScript, Open Source, and Single Page Application.
+overview: 'Angular 15 publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Frontend, JavaScript, Open-Source, and Single Page Application.
 
 
   Angular 15''s developer surface includes documentation, GitHub presence, changelog, engineering blog, Stack Overflow tag, and 8 more developer resources.'
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.1
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -148,9 +148,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 16.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-15/refs/heads/main/screenshots/angular-15-2026-06-20T171955.png
 security:
@@ -163,7 +163,7 @@ tags:
 - Framework
 - Frontend
 - JavaScript
-- Open Source
+- Open-Source
 - Single Page Application
 - Standalone Components
 - TypeScript

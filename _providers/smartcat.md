@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 8
@@ -349,13 +349,13 @@ image: https://smartcat.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: smartcat-mcp.yml
-  slug: smartcat-mcpyml
+  name: Smartcat MCP Server
+  slug: smartcat-mcp-server
 modified: '2026-07-21'
 name: Smartcat
 nav: Providers
 network: true
-overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Account API, AssignmentTemplates API, Audit API, and 26 more. Tagged areas include Company, Ai, Translation, Localization, and Language.
+overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Account API, AssignmentTemplates API, Audit API, and 26 more. Tagged areas include Company, Artificial Intelligence, Translation, Localization, and Language.
 
 
   The Smartcat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -366,7 +366,7 @@ random_paper: 2
 score:
   band: developing
   composite: 51.9
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -376,7 +376,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 51.4
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -387,8 +387,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/screenshots/smartcat-2026-08-17T081929.png
 security:
@@ -407,7 +407,7 @@ security:
 slug: smartcat
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Translation
 - Localization
 - Language

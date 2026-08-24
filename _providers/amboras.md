@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The multi-tenant commerce backend Amboras operates at api.amboras.com. Every Amboras-built storefront calls it through the Medusa JS SDK, sending a publishable API key (x-publishable-api-key, pk_ pref
@@ -153,7 +153,7 @@ modified: '2026-08-13'
 name: Amboras
 nav: Providers
 network: true
-overview: 'Amboras publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, AI, Generative AI, and Automation.
+overview: 'Amboras publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Artificial Intelligence, Generative AI, and Automation.
 
 
   Amboras'' developer surface includes documentation, pricing, signup flow, support, authentication, changelog, and 21 more developer resources.'
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.7
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -179,7 +179,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 43.4
+  previous_composite: 45.7
   provenance:
     conformance: first-party
     skills: first-party
@@ -189,8 +189,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/screenshots/amboras-2026-07-25T200029.png
 security:
@@ -214,7 +214,7 @@ slug: amboras
 tags:
 - Company
 - E-Commerce
-- AI
+- Artificial Intelligence
 - Generative AI
 - Automation
 - Conversion Rate Optimization

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Coro's REST API (v1) for managing workspaces, subscriptions, tickets, devices, protected users, portal users, usage, audit logs, and webhooks across the Coro cybersecurity platform. OAuth 2.0 client-c
@@ -142,9 +142,9 @@ description: Coro is a cybersecurity company that consolidates endpoint protecti
 image: https://www.coro.net/wp-content/uploads/coro-opengraph.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: coro-mcp.yml
-  slug: coro-mcpyml
+- description: Coro publishes an official, hosted MCP (Model Context Protocol) server that acts as a secure intermediary between an organization's AI tools and Coro's workspace security data. The MCP server authenti
+  name: Coro MCP Server
+  slug: coro-mcp-server
 modified: '2026-07-18'
 name: Coro
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 15
 score:
   band: developing
   composite: 44.7
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -170,12 +170,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 49.1
+  previous_composite: 44.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/screenshots/coro-2026-07-25T210437.png
 security:
@@ -201,7 +201,7 @@ tags:
 - Cloud Security
 - Data Protection
 - MSP
-- Webhooks
+- Webhook
 - MCP
 website: https://www.coro.net/
 ---

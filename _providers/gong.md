@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -731,13 +731,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: gong-mcp.yml
-  slug: gong-mcpyml
+  name: Gong MCP server
+  slug: gong-mcp-server
 modified: '2026-08-13'
 name: Gong
 nav: Providers
 network: true
-overview: 'Gong publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Users API, CRM Integration API, and 22 more. Tagged areas include Sales, Revenue Intelligence, Conversation, Analytics, and AI.
+overview: 'Gong publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Users API, CRM Integration API, and 22 more. Tagged areas include Sales, Revenue Intelligence, Conversation, Analytics, and Artificial Intelligence.
 
 
   The Gong catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -772,7 +772,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.9
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -782,7 +782,7 @@ score:
     discoverability: 92.6
     governance: 40.2
     operational_transparency: 81.6
-  previous_composite: 76.8
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -793,9 +793,9 @@ score:
       total: 21
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/screenshots/gong-2026-06-20T182025.png
 security:
 - kind: authentication
@@ -820,7 +820,7 @@ tags:
 - Revenue Intelligence
 - Conversation
 - Analytics
-- AI
+- Artificial Intelligence
 - Conversation Intelligence
 - Sales Engagement
 - CRM

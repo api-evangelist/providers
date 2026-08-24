@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -355,14 +355,14 @@ description: 'Arthur Online is a London-headquartered UK property management sof
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arthur-online.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: arthur-online-mcp.yml
-  slug: arthur-online-mcpyml
+- description: Arthur Online publishes no MCP server. This is a CANDIDATE tool surface derived one-for-one from the Arthur API v2 operations, so an agent builder can stand up a local MCP server over the REST API. Ev
+  name: Arthur Online MCP Server
+  slug: arthur-online-mcp-server
 modified: '2026-07-26'
 name: Arthur Online
 nav: Providers
 network: true
-overview: 'Arthur Online publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Arthur Properties API, Arthur Units API, Arthur Tenancies API, and 13 more. Tagged areas include Real Estate, United Kingdom, Property Management, PropTech, and Rentals.
+overview: 'Arthur Online publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Arthur Properties API, Arthur Units API, Arthur Tenancies API, and 13 more. Tagged areas include Real-Estate, United Kingdom, Property Management, PropTech, and Rentals.
 
 
   The Arthur Online catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -381,7 +381,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.1
-  delta: 4.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -391,7 +391,7 @@ score:
     discoverability: 81.5
     governance: 20.5
     operational_transparency: 31.6
-  previous_composite: 47.7
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -408,8 +408,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/screenshots/arthur-online-2026-08-07T161741.png
 security:
@@ -423,7 +423,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: arthur-online
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Management
 - PropTech

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Core REST API providing access to driver management, vehicle tracking, Hours of Service logs, IFTA trip reports, inspection reports, dashcam events, dispatch workflows, geofencing, messaging, fuel pur
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.8
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -155,9 +155,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 37.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 32.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motive/refs/heads/main/screenshots/motive-2026-06-20T185825.png
 security:
@@ -178,7 +178,7 @@ tags:
 - Hours of Service
 - ELD
 - IFTA
-- Dashcam
+- Dash Cam
 - Dispatch
 - Compliance
 - Driver Management

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +27,10 @@ agent_readiness:
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 44.7
-  scored_at: '2026-08-19'
+  score: 48.1
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -581,8 +582,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syntage.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: syntage-mcp.yml
-  slug: syntage-mcpyml
+  name: Syntage MCP Server
+  slug: syntage-mcp-server
 modified: '2026-07-21'
 name: Syntage
 nav: Providers
@@ -597,18 +598,18 @@ overview: 'Syntage publishes 65 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 7
 score:
   band: developing
-  composite: 52.0
-  delta: -1.8
+  composite: 53.1
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 16.7
     contract_quality: 71.5
     developer_ergonomics: 66.1
-    discoverability: 63.0
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 53.8
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -619,8 +620,8 @@ score:
       total: 65
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/screenshots/syntage-2026-08-17T082234.png
 security:

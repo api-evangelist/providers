@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The Blueshift REST API: 81 operations across 21 resource groups covering customer profiles and privacy operations (create/update, bulk, merge, forget/unforget, delete), event ingestion (single, bulk, '
@@ -151,14 +151,14 @@ description: Blueshift is an AI-powered customer engagement and customer data pl
 image: https://blueshift.com/wp-content/uploads/2025/10/web-featured-image.webp
 layout: provider
 mcp_servers:
-- description: ''
-  name: blueshift-mcp.yml
-  slug: blueshift-mcpyml
+- description: Blueshift operates an official hosted remote MCP server, in public beta, at https://app.getblueshift.com/mcp (US and rest of world) and https://app.eu.getblueshift.com/mcp (EU). Transport is streamabl
+  name: Blueshift MCP Server
+  slug: blueshift-mcp-server
 modified: '2026-08-12'
 name: Blueshift
 nav: Providers
 network: true
-overview: 'Blueshift publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include customer-data-platform, customer-engagement, marketing-automation, cross-channel-messaging, and email.
+overview: 'Blueshift publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Customer Data Platform, Customer Engagement, Marketing Automation, Cross-Channel Messaging, and Email.
 
 
   The Blueshift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -182,7 +182,7 @@ scopes:
 score:
   band: strong
   composite: 65.1
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -192,7 +192,7 @@ score:
     discoverability: 75.9
     governance: 12.1
     operational_transparency: 65.8
-  previous_composite: 62.0
+  previous_composite: 65.1
   provenance:
     conformance: first-party
     contracts:
@@ -208,8 +208,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/screenshots/blueshift-2026-08-17T080647.png
 security:
@@ -227,20 +227,20 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: blueshift
 tags:
-- customer-data-platform
-- customer-engagement
-- marketing-automation
-- cross-channel-messaging
-- email
-- sms
-- push-notifications
-- segmentation
-- personalization
-- product-recommendations
-- event-tracking
-- product-catalog
-- martech
-- mcp
+- Customer Data Platform
+- Customer Engagement
+- Marketing Automation
+- Cross-Channel Messaging
+- Email
+- SMS
+- Push Notifications
+- Segmentation
+- Personalization
+- Product Recommendations
+- Event Tracking
+- Product Catalog
+- MarTech
+- MCP
 - agent-native
 website: https://blueshift.com/
 ---

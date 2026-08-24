@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 1
@@ -882,8 +882,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: 3gpp-mcp.yml
-  slug: 3gpp-mcpyml
+  name: 3GPP MCP Server
+  slug: 3gpp-mcp-server
 modified: '2026-07-25'
 name: 3GPP
 nav: Providers
@@ -904,7 +904,7 @@ scopes:
 score:
   band: developing
   composite: 46.0
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -914,7 +914,7 @@ score:
     discoverability: 66.7
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 46.1
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -931,8 +931,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 69.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/screenshots/3gpp-2026-08-07T160703.png
 security:

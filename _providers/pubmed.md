@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-06-13'
 name: PubMed
 nav: Providers
 network: true
-overview: 'PubMed publishes 6 APIs on the [APIs.io](https://apis.io/) network, including History API, Info API, Links API, and 3 more. Tagged areas include biomedical, life science, research, literature, and citations.
+overview: 'PubMed publishes 6 APIs on the [APIs.io](https://apis.io/) network, including History API, Info API, Links API, and 3 more. Tagged areas include Biomedical, Life Science, Research, Literature, and Citations.
 
 
   The PubMed catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -181,7 +181,7 @@ rules:
 score:
   band: thin
   composite: 32.1
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -191,7 +191,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 35.7
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -205,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubmed/refs/heads/main/screenshots/pubmed-2026-06-20T192246.png
 security:
@@ -220,14 +220,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: pubmed
 tags:
-- biomedical
-- life science
-- research
-- literature
-- citations
+- Biomedical
+- Life Science
+- Research
+- Literature
+- Citations
 - abstracts
-- MeSH
-- genomics
+- Mesh
+- Genomics
 - PubMed
 - NCBI
 ---

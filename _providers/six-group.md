@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Single API onto the SIX financial data universe - real-time, intraday, end-of-day, and historical pricing across asset classes, reference data, corporate actions, tax, and ESG datasets from 900+ price
@@ -272,8 +272,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/six-group.
 layout: provider
 mcp_servers:
 - description: ''
-  name: six-group-mcp.yml
-  slug: six-group-mcpyml
+  name: SIX MCP Server
+  slug: six-mcp-server
 modified: '2026-07-22'
 name: SIX
 nav: Providers
@@ -289,7 +289,7 @@ random_paper: 18
 score:
   band: strong
   composite: 56.4
-  delta: 5.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -299,7 +299,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 51.0
+  previous_composite: 56.4
   provenance:
     conformance: first-party
     contracts:
@@ -315,9 +315,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png
 security:
 - kind: authentication

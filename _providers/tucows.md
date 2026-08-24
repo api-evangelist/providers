@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Wholesale reseller API for domain-name lookup, registration, transfer, renewal, DNS-zone management and TLS/SSL certificate ordering. An XML-over-HTTPS POST protocol authenticated with a reseller user
@@ -150,8 +150,8 @@ image: https://files.readme.io/fd0f1b4-small-OpenSRS_knowledgebase_1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: tucows-mcp.yml
-  slug: tucows-mcpyml
+  name: Tucows MCP Server
+  slug: tucows-mcp-server
 modified: '2026-07-21'
 name: Tucows
 nav: Providers
@@ -167,7 +167,7 @@ random_paper: 5
 score:
   band: developing
   composite: 40.1
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -177,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 44.9
+  previous_composite: 40.1
   provenance:
     conformance: derived
     mcp: derived
@@ -188,8 +188,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/screenshots/tucows-2026-08-17T082459.png
 security:

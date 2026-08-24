@@ -27,7 +27,7 @@ tags:
 - Seed
 - Early Stage
 - Growth Equity
-- AI
+- Artificial Intelligence
 - AI Infrastructure
 - Fintech
 - Commerce

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Health checks and capability discovery.
@@ -154,13 +154,13 @@ image: https://kalpalabs.ai/og.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kalpa-labs-mcp.yml
-  slug: kalpa-labs-mcpyml
+  name: Kalpa Labs MCP Server
+  slug: kalpa-labs-mcp-server
 modified: '2026-07-19'
 name: Kalpa Labs
 nav: Providers
 network: true
-overview: 'Kalpa Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Meta API, Speech API, and Usage API. Tagged areas include Company, Speech, Text to Speech, Voice, and Audio.
+overview: 'Kalpa Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Meta API, Speech API, and Usage API. Tagged areas include Company, Speech, Text-to-Speech, Voice, and Audio.
 
 
   Kalpa Labs'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, authentication, and 17 more developer resources.'
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 38.1
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +192,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/screenshots/kalpa-labs-2026-07-25T223437.png
 security:
@@ -209,11 +209,11 @@ slug: kalpa-labs
 tags:
 - Company
 - Speech
-- Text to Speech
+- Text-to-Speech
 - Voice
 - Audio
 - Conversational AI
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 website: https://kalpalabs.ai
 ---

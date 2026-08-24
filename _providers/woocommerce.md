@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -1101,7 +1101,7 @@ modified: '2026-05-19'
 name: WooCommerce
 nav: Providers
 network: true
-overview: 'WooCommerce publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Webhook Events, Cart API, Checkout API, and 17 more. Tagged areas include eCommerce, Open Source, Orders, Products, and WordPress.
+overview: 'WooCommerce publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Webhook Events, Cart API, Checkout API, and 17 more. Tagged areas include E-Commerce, Open-Source, Order, Product, and WordPress.
 
 
   The WooCommerce catalog on APIs.io includes 1 event-driven AsyncAPI specification, 33 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1152,18 +1152,18 @@ rules:
   slug: woocommerce-spectral-rules
 score:
   band: developing
-  composite: 50.4
-  delta: -5.3
+  composite: 48.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 26.5
-    contract_quality: 82.2
+    contract_governance: 28.8
+    contract_quality: 76.7
     developer_ergonomics: 61.9
-    discoverability: 66.7
-    governance: 26.5
+    discoverability: 57.4
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 55.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1171,9 +1171,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png
 security:
 - kind: authentication
@@ -1190,10 +1190,10 @@ security:
   summary_line: Hackerone
 slug: woocommerce
 tags:
-- eCommerce
-- Open Source
-- Orders
-- Products
+- E-Commerce
+- Open-Source
+- Order
+- Product
 - WordPress
 use_cases:
 - description: Build custom React or Vue frontends using the Store API for products, cart, and checkout.

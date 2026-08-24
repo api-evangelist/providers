@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -312,7 +312,7 @@ modified: '2026-05-19'
 name: Zeebe
 nav: Providers
 network: true
-overview: 'Zeebe publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Deployments API, Incidents API, and 6 more. Tagged areas include BPMN, Camunda, Cloud Native, Distributed Systems, and Java.
+overview: 'Zeebe publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Deployments API, Incidents API, and 6 more. Tagged areas include BPMN, Camunda, Cloud-Native, Distributed Systems, and Java.
 
 
   The Zeebe catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -352,7 +352,7 @@ rules:
 score:
   band: developing
   composite: 47.4
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -362,7 +362,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 28.9
-  previous_composite: 54.2
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -370,9 +370,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/screenshots/zeebe-2026-06-20T201806.png
 security:
 - kind: authentication
@@ -395,7 +395,7 @@ slug: zeebe
 tags:
 - BPMN
 - Camunda
-- Cloud Native
+- Cloud-Native
 - Distributed Systems
 - Java
 - Microservices

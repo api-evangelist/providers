@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -368,7 +368,7 @@ modified: '2026-06-13'
 name: Department of Interior
 nav: Providers
 network: true
-overview: 'Department of Interior publishes 36 APIs on the [APIs.io](https://apis.io/) network, including agency-codes API, altitude-datums API, aquifer-codes API, and 33 more. Tagged areas include Federal Government, National Parks, Federal Lands, Water Resources, and Wildlife.
+overview: 'Department of Interior publishes 36 APIs on the [APIs.io](https://apis.io/) network, including agency-codes API, altitude-datums API, aquifer-codes API, and 33 more. Tagged areas include Federal-Government, National Parks, Federal Lands, Water Resources, and Wildlife.
 
 
   The Department of Interior catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -397,18 +397,18 @@ rules:
   slug: doi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
-  delta: -5.5
+  composite: 34.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 62.9
     developer_ergonomics: 11.9
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 41.7
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -422,9 +422,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/screenshots/doi-2026-06-20T180128.png
 security:
 - kind: authentication
@@ -437,7 +437,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: doi
 tags:
-- Federal Government
+- Federal-Government
 - National Parks
 - Federal Lands
 - Water Resources

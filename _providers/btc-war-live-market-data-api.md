@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 74.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Read-only REST/HTTP JSON and JSON-LD API for live Binance Spot market snapshots and single-market observations across nine USDT pairs. Keyless, cached to at most 30 seconds, fail-closed on stale data.
@@ -189,16 +189,16 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: btc-war-live-market-data-api-mcp.yml
-  slug: btc-war-live-market-data-api-mcpyml
+  name: BTC War Live Market Data API MCP Server
+  slug: btc-war-live-market-data-api-mcp-server
+- description: Read-only, sourced and timestamped Binance Spot USDT market observations.
+  name: BTC War Live Market Data API MCP Server
+  slug: btc-war-live-market-data-api-mcp-server-2
 modified: '2026-08-11'
 name: BTC War Live Market Data API
 nav: Providers
 network: true
-overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https://apis.io/) network: BTC War Live Market Data API. Tagged areas include finance, cryptocurrency, market-data, bitcoin, and crypto-price.
+overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https://apis.io/) network: BTC War Live Market Data API. Tagged areas include Finance, Cryptocurrency, Market Data, Bitcoin, and crypto-price.
 
 
   The BTC War Live Market Data API catalog on APIs.io includes 2 JSON-LD contexts.
@@ -217,7 +217,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.6
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -227,7 +227,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 44.7
-  previous_composite: 45.9
+  previous_composite: 45.6
   provenance:
     agentic_access: unknown
     conformance: derived
@@ -244,8 +244,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/screenshots/btc-war-live-market-data-api-2026-08-17T123059.png
 security:
@@ -263,22 +263,22 @@ security:
   summary_line: security.txt · contact published
 slug: btc-war-live-market-data-api
 tags:
-- finance
-- cryptocurrency
-- market-data
-- bitcoin
+- Finance
+- Cryptocurrency
+- Market Data
+- Bitcoin
 - crypto-price
 - binance-spot
-- order-flow
+- Orderflow
 - market-depth
-- json-ld
-- schema.org
-- openapi
-- mcp
-- read-only
-- no-authentication
+- JSON-LD
+- Schema.org
+- OpenAPI
+- MCP
+- Read Only
+- No Authentication
 - agent-native
-- arazzo
-- json-schema
-- agent-skill
+- Arazzo
+- JSON-Schema
+- AgentSkill
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: NaroIQ
 nav: Providers
 network: true
-overview: 'NaroIQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ETF, Exchange-Traded Funds, Fund Infrastructure, and Asset Management.
+overview: 'NaroIQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ETFs, Exchange-Traded Funds, Fund Infrastructure, and Asset Management.
 
 
   NaroIQ''s developer surface includes engineering blog and 7 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 4.8
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.9
+  previous_composite: 4.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naroiq/refs/heads/main/screenshots/naroiq-2026-08-07T184641.png
 security:
@@ -109,11 +109,11 @@ security:
 slug: naroiq
 tags:
 - Company
-- ETF
+- ETFs
 - Exchange-Traded Funds
 - Fund Infrastructure
 - Asset Management
-- Financial Services
+- Financial-Services
 - Fintech
 - Indexing
 - Regulatory Compliance

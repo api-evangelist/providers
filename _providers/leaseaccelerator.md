@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: The Documents API from LeaseAccelerator — 4 operation(s) for documents.
@@ -225,9 +225,9 @@ description: LeaseAccelerator is an enterprise lease lifecycle automation platfo
 image: https://insightsoftware.com/wp-content/uploads/2025/12/img_LeaseAccelerator_feat.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: leaseaccelerator-mcp.yml
-  slug: leaseaccelerator-mcpyml
+- description: A candidate Model Context Protocol tool surface derived from the 43 documented LeaseAccelerator API operations. LeaseAccelerator publishes no MCP server — this is a proposal, not a shipped product. It
+  name: LeaseAccelerator MCP Server
+  slug: leaseaccelerator-mcp-server
 modified: '2026-07-19'
 name: LeaseAccelerator
 nav: Providers
@@ -240,7 +240,7 @@ random_paper: 20
 score:
   band: developing
   composite: 53.4
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -250,7 +250,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 54.2
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     contracts:
@@ -260,8 +260,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/screenshots/leaseaccelerator-2026-07-25T224805.png
 security:
@@ -285,7 +285,7 @@ tags:
 - Financial Reporting
 - Enterprise Software
 - Accounting
-- Real Estate
+- Real-Estate
 - Asset Management
 - ERP Integration
 - Compliance

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the SafetyCulture platform — inspections, templates, assets, actions, issues, users, groups, schedules, training, credentials, and webhooks. Bearer-token auth over HTTPS.
@@ -175,8 +175,8 @@ image: https://safetyculture.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: safetyculture-mcp.yml
-  slug: safetyculture-mcpyml
+  name: SafetyCulture MCP Server
+  slug: safetyculture-mcp-server
 modified: '2026-07-21'
 name: SafetyCulture
 nav: Providers
@@ -196,7 +196,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.1
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -206,14 +206,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 58.2
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/screenshots/safetyculture-2026-08-17T081708.png
 security:
 - kind: authentication
@@ -243,6 +243,6 @@ tags:
 - Compliance
 - Training
 - Field Service
-- Webhooks
+- Webhook
 website: https://safetyculture.com
 ---

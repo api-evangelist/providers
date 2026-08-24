@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The CDAP HTTP RESTful API, documented as "Microservices". All endpoints sit under a /v3 path prefix on a self-hosted CDAP router (default port 11015, or 10443 when SSL is enabled), and are scoped by n
@@ -171,7 +171,7 @@ modified: '2026-07-20'
 name: Cask
 nav: Providers
 network: true
-overview: 'Cask publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Analytics, Data Pipelines, and Data Integration.
+overview: 'Cask publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Analytics, Data Pipeline, and Data Integration.
 
 
   Cask''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 16 more developer resources.'
@@ -179,7 +179,7 @@ random_paper: 19
 score:
   band: thin
   composite: 30.1
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -189,11 +189,11 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 28.9
+  previous_composite: 30.1
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cask/refs/heads/main/screenshots/cask-2026-07-25T204726.png
 security:
@@ -210,12 +210,12 @@ tags:
 - Company
 - Big Data
 - Data Analytics
-- Data Pipelines
+- Data Pipeline
 - Data Integration
 - ETL
 - Hadoop
 - Spark
-- Open Source
+- Open-Source
 - CDAP
 - Metadata
 - Data Governance

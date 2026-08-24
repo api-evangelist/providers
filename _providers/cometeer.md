@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The public, unauthenticated JSON browsing surface of the Cometeer online store — products, collections, search and sitemap. Cometeer documents these endpoints for agents itself, under "Read-Only Brows
@@ -116,8 +116,8 @@ image: https://cometeer.com/cdn/shop/files/Cometeer01528.png?crop=center&height=
 layout: provider
 mcp_servers:
 - description: ''
-  name: cometeer-mcp.yml
-  slug: cometeer-mcpyml
+  name: Cometeer MCP Server
+  slug: cometeer-mcp-server
 modified: '2026-08-01'
 name: Cometeer
 nav: Providers
@@ -134,18 +134,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.2
-  delta: 1.0
+  composite: 29.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 13.5
     developer_ergonomics: 30.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 27.2
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     contracts:
@@ -155,8 +155,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/screenshots/cometeer-2026-08-07T163704.png
 security:
@@ -179,6 +179,6 @@ tags:
 - Subscription
 - Agentic Commerce
 - Shopify
-- Model Context Protocol
+- MCP
 website: https://cometeer.com/
 ---

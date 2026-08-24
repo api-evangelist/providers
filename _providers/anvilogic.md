@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Anvilogic MCP Server is the platform's Model Context Protocol surface, letting AI agents and MCP clients call Anvilogic platform tools against a customer's security graph, detections, searches, an
@@ -136,8 +136,8 @@ image: https://cdn.prod.website-files.com/6a4cfd0a31bb60a376cd1ee9/6a68af2d3deea
 layout: provider
 mcp_servers:
 - description: ''
-  name: anvilogic-mcp.yml
-  slug: anvilogic-mcpyml
+  name: Anvilogic MCP Server
+  slug: anvilogic-mcp-server
 modified: '2026-07-31'
 name: Anvilogic
 nav: Providers
@@ -150,7 +150,7 @@ random_paper: 11
 score:
   band: thin
   composite: 29.6
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -160,13 +160,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 34.8
+  previous_composite: 29.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anvilogic/refs/heads/main/screenshots/anvilogic-2026-08-07T161428.png
 security:
 - kind: authentication
@@ -192,7 +192,7 @@ tags:
 - Threat Detection
 - Artificial Intelligence
 - Agents
-- Model Context Protocol
+- MCP
 - Data Lake
 website: https://www.anvilogic.com/
 ---

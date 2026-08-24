@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Manage conversations (legacy apisociety 2.0 API)
@@ -140,8 +140,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/botsociety
 layout: provider
 mcp_servers:
 - description: ''
-  name: botsociety-mcp.yml
-  slug: botsociety-mcpyml
+  name: BotSociety MCP Server
+  slug: botsociety-mcp-server
 modified: '2026-07-18'
 name: BotSociety
 nav: Providers
@@ -154,7 +154,7 @@ random_paper: 1
 score:
   band: thin
   composite: 32.3
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -164,7 +164,7 @@ score:
     discoverability: 81.5
     governance: 12.1
     operational_transparency: 18.4
-  previous_composite: 33.6
+  previous_composite: 32.3
   provenance:
     conformance: derived
     contracts:
@@ -174,8 +174,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/screenshots/botsociety-2026-07-25T203642.png
 security:

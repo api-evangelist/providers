@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -336,8 +336,8 @@ image: https://xvxiiiwlonqntbzglrdp.supabase.co/storage/v1/object/public/Assets/
 layout: provider
 mcp_servers:
 - description: ''
-  name: hubflo-mcp.yml
-  slug: hubflo-mcpyml
+  name: Hubflo MCP Server
+  slug: hubflo-mcp-server
 modified: '2026-07-19'
 name: Hubflo
 nav: Providers
@@ -357,7 +357,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.0
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -367,7 +367,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 52.3
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -378,8 +378,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png
 security:
@@ -398,10 +398,10 @@ tags:
 - CRM
 - Invoicing
 - Project Management
-- Document Management
+- Document-Management
 - E-Signature
 - Onboarding
-- Webhooks
+- Webhook
 - Company
 website: https://www.hubflo.com
 ---

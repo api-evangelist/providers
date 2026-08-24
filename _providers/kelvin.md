@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for kelvin's energy-renovation engine. Create a simulation from a latitude/longitude (and optionally a Base Adresse Nationale key), record the occupant's qualification profile, run kelvin's m
@@ -116,8 +116,8 @@ image: https://cdn.prod.website-files.com/6655caeb6e3835fd7ee50dd6/67a1271dde24f
 layout: provider
 mcp_servers:
 - description: ''
-  name: kelvin-mcp.yml
-  slug: kelvin-mcpyml
+  name: Kelvin MCP Server
+  slug: kelvin-mcp-server
 modified: '2026-08-14'
 name: Kelvin
 nav: Providers
@@ -143,7 +143,7 @@ scopes:
 score:
   band: developing
   composite: 44.3
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -153,7 +153,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 41.8
+  previous_composite: 44.3
   provenance:
     conformance: derived
     contracts:
@@ -169,8 +169,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/screenshots/kelvin-2026-07-25T223602.png
 security:

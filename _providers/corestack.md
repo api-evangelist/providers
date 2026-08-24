@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API covering the whole CoreStack governance surface — authorization, identity and RBAC, guardrail policies, account governance, operations and automation, security, cost and budgets, access, reso
@@ -185,16 +185,16 @@ image: https://www.corestack.io/wp-content/uploads/Agentic-Governance-OS-Unified
 layout: provider
 mcp_servers:
 - description: ''
-  name: corestack-mcp.yml
-  slug: corestack-mcpyml
+  name: CoreStack MCP Server
+  slug: corestack-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: CoreStack MCP Server
+  slug: corestack-mcp-server-2
 modified: '2026-08-11'
 name: CoreStack
 nav: Providers
 network: true
-overview: 'CoreStack publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include cloud-governance, finops, cloud-cost-management, cloud-security-posture-management, and compliance.
+overview: 'CoreStack publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Cloud Governance, FinOps, Cloud Cost Management, Cloud Security Posture Management, and Compliance.
 
 
   The CoreStack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -218,7 +218,7 @@ scopes:
 score:
   band: strong
   composite: 57.8
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -228,7 +228,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 61.9
+  previous_composite: 57.8
   provenance:
     conformance: derived
     mcp: first-party
@@ -239,8 +239,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/screenshots/corestack-2026-08-17T080832.png
 security:
@@ -254,17 +254,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: corestack
 tags:
-- cloud-governance
-- finops
-- cloud-cost-management
-- cloud-security-posture-management
-- compliance
-- multi-cloud
-- cnapp
-- policy-as-code
+- Cloud Governance
+- FinOps
+- Cloud Cost Management
+- Cloud Security Posture Management
+- Compliance
+- Multi-Cloud
+- CNAPP
+- Policy as Code
 - cloudops
-- mcp
+- MCP
 - agent-native
-- kubernetes
+- Kubernetes
 website: https://www.corestack.io/
 ---

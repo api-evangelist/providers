@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Server-to-server ingest/tracking API for sending AI interactions, events, feedback signals, and user identity into Raindrop. Bearer write-key auth; authorized requests return 204. Project targeting vi
@@ -157,14 +157,14 @@ description: Raindrop is the monitoring and observability platform for AI agents
 image: https://www.raindrop.ai/social.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: raindrop-mcp.yml
-  slug: raindrop-mcpyml
+- description: Official hosted Raindrop MCP server — nothing to install. Query your Raindrop data directly from an AI coding assistant. Fronts the Raindrop Triage agent, which investigates traces and surfaces root-c
+  name: Raindrop MCP Server
+  slug: raindrop-mcp-server
 modified: '2026-07-20'
 name: Raindrop
 nav: Providers
 network: true
-overview: 'Raindrop publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Agents, Observability, and Monitoring.
+overview: 'Raindrop publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, Observability, and Monitoring.
 
 
   Raindrop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, support, and 21 more developer resources.'
@@ -176,24 +176,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.9
-  delta: -2.1
+  composite: 38.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 39.0
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -211,7 +211,7 @@ security:
 slug: raindrop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Observability
 - Monitoring

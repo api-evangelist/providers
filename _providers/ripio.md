@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -290,8 +290,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ripio.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ripio-mcp.yml
-  slug: ripio-mcpyml
+  name: Ripio MCP Server
+  slug: ripio-mcp-server
 modified: '2026-07-21'
 name: Ripio
 nav: Providers
@@ -311,7 +311,7 @@ rate_limits:
 score:
   band: strong
   composite: 66.0
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -321,7 +321,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 60.8
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,9 +338,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/screenshots/ripio-2026-08-17T081611.png
 security:
 - kind: authentication
@@ -370,6 +370,5 @@ tags:
 - Latin America
 - Bitcoin
 - Stablecoins
-- API
 website: https://www.ripio.com/ar/
 ---

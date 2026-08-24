@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -119,22 +119,22 @@ overview: 'Shortwave is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 8
 score:
   band: emerging
-  composite: 22.9
-  delta: -2.5
+  composite: 24.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 25.4
+  previous_composite: 24.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -157,7 +157,7 @@ tags:
 - Artificial Intelligence
 - AI Assistant
 - Productivity
-- Model Context Protocol
+- MCP
 - Gmail
 - Google Workspace
 - Collaboration

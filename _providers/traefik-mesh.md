@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ modified: '2026-05-23'
 name: Traefik Mesh
 nav: Providers
 network: true
-overview: 'Traefik Mesh publishes 3 APIs on the [APIs.io](https://apis.io/) network: Configuration API, Status API, and Topology API. Tagged areas include Kubernetes, Service Mesh, Open Source, SMI, and Traffic Management.
+overview: 'Traefik Mesh publishes 3 APIs on the [APIs.io](https://apis.io/) network: Configuration API, Status API, and Topology API. Tagged areas include Kubernetes, Service Mesh, Open-Source, SMI, and Traffic Management.
 
 
   The Traefik Mesh catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -230,7 +230,7 @@ rules:
 score:
   band: thin
   composite: 32.1
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -240,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 25.0
     operational_transparency: 18.4
-  previous_composite: 42.6
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -248,9 +248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/screenshots/traefik-mesh-2026-06-20T195533.png
 security:
 - kind: domain-security
@@ -261,7 +261,7 @@ slug: traefik-mesh
 tags:
 - Kubernetes
 - Service Mesh
-- Open Source
+- Open-Source
 - SMI
 - Traffic Management
 - Dormant

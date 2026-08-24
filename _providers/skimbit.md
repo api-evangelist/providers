@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -231,9 +231,9 @@ description: SkimBit Ltd, operating as Skimlinks, is a London-founded content-mo
 image: https://www.skimlinks.com/wp-content/uploads/2025/06/Colour_icon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: skimbit-mcp.yml
-  slug: skimbit-mcpyml
+- description: Candidate MCP tool surface mapping the read operations of the Skimlinks Merchant, Reporting and Product Key APIs. Each tool wraps one operationId; all require a Skimlinks access_token minted from clie
+  name: SkimBit MCP Server
+  slug: skimbit-mcp-server
 modified: '2026-08-13'
 name: SkimBit
 nav: Providers
@@ -278,8 +278,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/screenshots/skimbit-2026-08-17T081913.png
 security:
@@ -301,7 +301,7 @@ tags:
 - Advertising
 - Retail
 - Reporting
-- Products
-- eCommerce
+- Product
+- E-Commerce
 website: https://skimlinks.com
 ---

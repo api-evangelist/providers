@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Versioned REST API (v1 and v2) for event ticketing — events, tickets, checkout/payments, users, and access control — authenticated with an individually issued API key passed as the `apikey` query para
@@ -105,7 +105,7 @@ modified: '2026-07-19'
 name: Ingresse
 nav: Providers
 network: true
-overview: 'Ingresse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Events, Ticketing as a Service, and Payments.
+overview: 'Ingresse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Event, Ticketing as a Service, and Payments.
 
 
   Ingresse''s developer surface includes documentation, API reference, support, authentication, sandbox, and 10 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 14.2
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -123,15 +123,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 18.7
+  previous_composite: 14.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ingresse/refs/heads/main/screenshots/ingresse-2026-07-25T222431.png
 security:
@@ -147,12 +147,12 @@ slug: ingresse
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Ticketing as a Service
 - Payments
 - Entertainment
 - Event Management
 - Brazil
-- SDKs
+- SDK
 website: https://ingresse.com
 ---

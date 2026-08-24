@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for Adobe Commerce providing access to products, catalogs, categories, customers, carts, checkout, orders, inventory, sales rules, CMS content, and store configuration. Endpoints follow the p
@@ -91,7 +91,7 @@ modified: '2026-05-11'
 name: Adobe Commerce
 nav: Providers
 network: true
-overview: 'Adobe Commerce publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-commerce, Commerce, Magento, Adobe, and Online Store.
+overview: 'Adobe Commerce publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Commerce, Magento, Adobe, and Online Store.
 
 
   Adobe Commerce''s developer surface includes documentation, signup flow, pricing, support, and 6 more developer resources.'
@@ -99,7 +99,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 15.6
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -109,9 +109,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-commerce/refs/heads/main/screenshots/adobe-commerce-2026-06-20T164845.png
 security:
@@ -125,7 +125,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: adobe-commerce
 tags:
-- E-commerce
+- E-Commerce
 - Commerce
 - Magento
 - Adobe

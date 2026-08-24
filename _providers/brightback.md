@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Retention API from brightback — 1 operation(s) for retention.
@@ -126,13 +126,13 @@ image: https://logo.clearbit.com/brightback.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: brightback-mcp.yml
-  slug: brightback-mcpyml
+  name: brightback MCP Server
+  slug: brightback-mcp-server
 modified: '2026-07-18'
 name: brightback
 nav: Providers
 network: true
-overview: 'brightback publishes 1 API on the [APIs.io](https://apis.io/) network: Retention API. Tagged areas include Company, Churn Prevention, Customer Retention, Subscriptions, and Cancellation.
+overview: 'brightback publishes 1 API on the [APIs.io](https://apis.io/) network: Retention API. Tagged areas include Company, Churn Prevention, Customer Retention, Subscription, and Cancellation.
 
 
   brightback''s developer surface includes documentation, API reference, support, authentication, and 15 more developer resources.'
@@ -140,7 +140,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 23.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -150,7 +150,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 24.0
+  previous_composite: 23.2
   provenance:
     conformance: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/screenshots/brightback-2026-07-25T203931.png
 security:
@@ -178,8 +178,8 @@ tags:
 - Company
 - Churn Prevention
 - Customer Retention
-- Subscriptions
+- Subscription
 - Cancellation
-- SaaS
+- Software-as-a-Service
 website: https://brightback.com
 ---

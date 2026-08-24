@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Adobe Photoshop API for automating image editing workflows, applying Photoshop actions, manipulating layers and smart objects, generating renditions and document manifests, and AI-powered image manipu
@@ -77,7 +77,7 @@ modified: '2026-04-28'
 name: Photoshop
 nav: Providers
 network: true
-overview: 'Photoshop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Adobe, AI, Image Editing, Photoshop, and Firefly Services.
+overview: 'Photoshop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Adobe, Artificial Intelligence, Image Editing, Photoshop, and Firefly Services.
 
 
   Photoshop''s developer surface includes developer portal, documentation, GitHub presence, and 4 more developer resources.'
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.5
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -103,9 +103,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photoshop/refs/heads/main/screenshots/photoshop-2026-06-20T191653.png
 security:
@@ -120,7 +120,7 @@ security:
 slug: photoshop
 tags:
 - Adobe
-- AI
+- Artificial Intelligence
 - Image Editing
 - Photoshop
 - Firefly Services

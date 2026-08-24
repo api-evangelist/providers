@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 39.5
-  scored_at: '2026-08-19'
+  score: 42.9
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -213,8 +213,8 @@ image: https://github.com/rasayel.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: rasayel-mcp.yml
-  slug: rasayel-mcpyml
+  name: Rasayel MCP Server
+  slug: rasayel-mcp-server
 modified: '2026-07-20'
 name: Rasayel
 nav: Providers
@@ -230,18 +230,18 @@ rate_limits:
   slug: rasayel-rate-limits
 score:
   band: developing
-  composite: 48.4
-  delta: -3.8
+  composite: 49.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
     contract_quality: 55.7
     developer_ergonomics: 57.7
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 52.2
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +252,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/screenshots/rasayel-2026-08-17T081447.png
 security:
@@ -275,6 +275,5 @@ tags:
 - CRM
 - Customer Communication
 - Conversational Commerce
-- API
 website: https://rasayel.io
 ---

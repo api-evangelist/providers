@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ modified: '2026-05-19'
 name: OpenSearch
 nav: Providers
 network: true
-overview: 'OpenSearch publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Action Groups API, Allowlist API, and 11 more. Tagged areas include Search, Analytics, Observability, Open Source, and Security.
+overview: 'OpenSearch publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Action Groups API, Allowlist API, and 11 more. Tagged areas include Search, Analytics, Observability, Open-Source, and Security.
 
 
   The OpenSearch catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -275,7 +275,7 @@ rules:
 score:
   band: thin
   composite: 39.0
-  delta: -9.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -285,7 +285,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 48.4
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -293,9 +293,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/screenshots/opensearch-2026-06-20T191032.png
 security:
 - kind: authentication
@@ -333,7 +333,7 @@ tags:
 - Search
 - Analytics
 - Observability
-- Open Source
+- Open-Source
 - Security
 website: https://opensearch.org/
 ---

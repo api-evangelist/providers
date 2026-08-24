@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Sifflet''s public REST API for programmatically managing data observability resources — assets and workspaces, monitors/rules and rule runs, sources (V2), credentials, domains, calendars, notification '
@@ -170,9 +170,9 @@ description: Sifflet is a data observability platform positioned as the control 
 image: https://cdn.prod.website-files.com/6745ca418d70ad1c8e2b8442/67915a6a3d805d3e9c024aff_sifflet-logo-color.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: sifflet-mcp.yml
-  slug: sifflet-mcpyml
+- description: Official Sifflet MCP (Model Context Protocol) Server. Bridges Sifflet's data observability APIs into IDEs and agent tools (e.g. Cursor). Authenticates with a Sifflet Access Token.
+  name: Sifflet MCP Server
+  slug: sifflet-mcp-server
 modified: '2026-07-21'
 name: Sifflet
 nav: Providers
@@ -188,7 +188,7 @@ random_paper: 14
 score:
   band: developing
   composite: 45.1
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -198,13 +198,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 53.6
+  previous_composite: 45.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sifflet/refs/heads/main/screenshots/sifflet-2026-08-17T081845.png
 security:
 - kind: authentication

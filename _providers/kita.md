@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -347,8 +347,8 @@ image: https://www.kita.ai/kita_logo_green.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kita-mcp.yml
-  slug: kita-mcpyml
+  name: Kita MCP Server
+  slug: kita-mcp-server
 modified: '2026-07-19'
 name: Kita
 nav: Providers
@@ -372,7 +372,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 69.3
-  delta: 5.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -382,7 +382,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 64.0
+  previous_composite: 69.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -399,9 +399,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
 security:
 - kind: authentication
@@ -431,7 +431,7 @@ tags:
 - Document Extraction
 - Fraud Detection
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Emerging Markets
 - Loan Origination
 website: https://www.kita.ai/

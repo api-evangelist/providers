@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Partner-facing reporting API for Upstart's bank and credit-union lending partners. Not publicly documented - its existence and availability are publicly evidenced by the "Reporting API" component on U
@@ -120,7 +120,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 20.0
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -130,7 +130,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 25.2
+  previous_composite: 20.0
   provenance:
     conformance: derived
   regulatory:
@@ -139,9 +139,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Upstart Domain Security

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -155,13 +155,13 @@ image: https://cdn.prod.website-files.com/697107c16c913fd77cf0aacd/69b2e1b1625a9
 layout: provider
 mcp_servers:
 - description: ''
-  name: nooks-mcp.yml
-  slug: nooks-mcpyml
+  name: Nooks MCP Server
+  slug: nooks-mcp-server
 modified: '2026-08-14'
 name: Nooks
 nav: Providers
 network: true
-overview: 'Nooks publishes 1 API on the [APIs.io](https://apis.io/) network: Sequencing API. Tagged areas include Company, AI, Sales Engagement, Sales Dialer, and AI SDR.
+overview: 'Nooks publishes 1 API on the [APIs.io](https://apis.io/) network: Sequencing API. Tagged areas include Company, Artificial Intelligence, Sales Engagement, Sales Dialer, and AI SDR.
 
 
   The Nooks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -185,7 +185,7 @@ scopes:
 score:
   band: strong
   composite: 55.4
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -195,7 +195,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 57.0
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +206,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/screenshots/nooks-2026-08-07T185457.png
 security:
@@ -230,7 +230,7 @@ security:
 slug: nooks
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sales Engagement
 - Sales Dialer
 - AI SDR

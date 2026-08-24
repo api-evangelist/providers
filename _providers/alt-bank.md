@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Real-time consumer credit underwriting / risk-assessment API. Partners POST an underwriting request for a credit-card applicant and receive a Guard Score, risk band and credit-limit decision. The call
@@ -124,8 +124,8 @@ image: https://altbank.ai/wp-content/uploads/2020/08/cropped-alt.bank-logo-squar
 layout: provider
 mcp_servers:
 - description: ''
-  name: alt-bank-mcp.yml
-  slug: alt-bank-mcpyml
+  name: Alt Bank MCP Server
+  slug: alt-bank-mcp-server
 modified: '2026-08-08'
 name: Alt Bank
 nav: Providers
@@ -141,7 +141,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 22.9
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -151,7 +151,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 32.8
+  previous_composite: 22.9
   provenance:
     contracts:
       callable: 100.0
@@ -166,9 +166,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/screenshots/alt-bank-2026-07-25T195815.png
 security:
 - kind: authentication

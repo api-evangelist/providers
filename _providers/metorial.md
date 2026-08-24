@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API to manage integrations, providers, sessions, portals, skills, identities and MCP access programmatically. Bearer API-key auth, cursor pagination, date-based versioning; 466 '
@@ -163,13 +163,13 @@ image: https://metorial.com/logo/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: metorial-mcp.yml
-  slug: metorial-mcpyml
+  name: Metorial MCP Server
+  slug: metorial-mcp-server
 modified: '2026-07-20'
 name: Metorial
 nav: Providers
 network: true
-overview: 'Metorial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Model Context Protocol, AI Agents, and Agentic Infrastructure.
+overview: 'Metorial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Agentic Infrastructure, and Integration.
 
 
   Metorial''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, CLI, and 23 more developer resources.'
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.8
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -191,14 +191,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 41.5
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/screenshots/metorial-2026-08-07T172725.png
 security:
 - kind: authentication
@@ -217,12 +217,10 @@ slug: metorial
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agentic Infrastructure
-- Integrations
+- Integration
 - Developer Tools
 - Serverless
-- API
 website: https://platform.metorial.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -277,18 +277,18 @@ rules:
   slug: at-bay-rules
 score:
   band: developing
-  composite: 43.0
-  delta: -5.1
+  composite: 43.5
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 68.7
     developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 48.1
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -302,9 +302,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/screenshots/at-bay-2026-06-20T172516.png
 security:
 - kind: authentication
@@ -324,7 +324,7 @@ tags:
 - Tech E&O
 - Professional Liability
 - MPL
-- Managed Detection And Response
+- Managed Detection and Response
 - MDR
 - Security Monitoring
 - Email Security
@@ -332,8 +332,8 @@ tags:
 - Incident Response
 - Brokers
 - Quoting
-- Binding
+- Bindings
 - Policy Lifecycle
-- Webhooks
+- Webhook
 website: https://www.at-bay.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the VOS360 media processing platform — manage assets, channels, services, live events, storage and packaging, DRM/encryption, graphics and jobs. Secured with OAuth 2.0 (Bearer access toke
@@ -105,7 +105,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 18.9
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -115,15 +115,15 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 22.5
+  previous_composite: 18.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonicinc/refs/heads/main/screenshots/harmonicinc-2026-07-25T220724.png
 security:
@@ -143,7 +143,7 @@ tags:
 - Broadband
 - Media
 - Streaming
-- SaaS
+- Software-as-a-Service
 - Telecommunications
 website: https://www.harmonicinc.com
 ---

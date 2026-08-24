@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hub's API surface for accessing real-world, multimodal training datasets (egocentric, image, video, and audio) and requesting bespoke data collection projects. The public developer surface is minimal;
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Hub
 nav: Providers
 network: true
-overview: 'Hub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Training Data, and Robotics.
+overview: 'Hub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Training Data, and Robotics.
 
 
   Hub''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 10.2
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -86,9 +86,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hub/refs/heads/main/screenshots/hub-2026-07-25T221605.png
 security:
@@ -100,13 +100,13 @@ slug: hub
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Training Data
 - Robotics
 - Physical AI
 - Datasets
 - Data Infrastructure
 - Annotation
-- Multimodal
+- Multi-Modal
 website: https://hub.xyz
 ---

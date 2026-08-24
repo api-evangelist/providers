@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -171,13 +171,13 @@ image: https://avatars.githubusercontent.com/u/45261753?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: ajaib-mcp.yml
-  slug: ajaib-mcpyml
+  name: Ajaib MCP Server
+  slug: ajaib-mcp-server
 modified: '2026-08-06'
 name: Ajaib
 nav: Providers
 network: true
-overview: 'Ajaib publishes 3 APIs on the [APIs.io](https://apis.io/) network: Market Info API, Spot Trading API, and Wallet API. Tagged areas include Company, Financial Services, Investing, Brokerage, and Trading.
+overview: 'Ajaib publishes 3 APIs on the [APIs.io](https://apis.io/) network: Market Info API, Spot Trading API, and Wallet API. Tagged areas include Company, Financial-Services, Investing, Brokerage, and Trading.
 
 
   Ajaib''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
@@ -185,7 +185,7 @@ random_paper: 20
 score:
   band: thin
   composite: 35.7
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -195,7 +195,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 35.3
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,8 +212,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/screenshots/ajaib-2026-08-07T161125.png
 security:
@@ -232,7 +232,7 @@ security:
 slug: ajaib
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investing
 - Brokerage
 - Trading

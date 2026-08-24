@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -159,13 +159,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/activtrak.
 layout: provider
 mcp_servers:
 - description: ''
-  name: activtrak-mcp.yml
-  slug: activtrak-mcpyml
+  name: ActivTrak MCP Server
+  slug: activtrak-mcp-server
 modified: '2026-07-17'
 name: ActivTrak
 nav: Providers
 network: true
-overview: 'ActivTrak publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Administration - SCIM API, Bulk Import API, and 1 more. Tagged areas include Company, Saas, Workforce Analytics, Productivity, and Employee Monitoring.
+overview: 'ActivTrak publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Administration - SCIM API, Bulk Import API, and 1 more. Tagged areas include Company, Software-as-a-Service, Workforce Analytics, Productivity, and Employee Monitoring.
 
 
   ActivTrak''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 14 more developer resources.'
@@ -173,7 +173,7 @@ random_paper: 3
 score:
   band: developing
   composite: 50.8
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -183,7 +183,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 50.5
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,8 +194,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/screenshots/activtrak-2026-07-25T181531.png
 security:
@@ -218,7 +218,7 @@ security:
 slug: activtrak
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Workforce Analytics
 - Productivity
 - Employee Monitoring

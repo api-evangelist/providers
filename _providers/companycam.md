@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -267,8 +267,8 @@ image: https://cdn.companycam.com/dist/img/site/favicon-96x96-2021.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: companycam-mcp.yml
-  slug: companycam-mcpyml
+  name: CompanyCam MCP Server
+  slug: companycam-mcp-server
 modified: '2026-07-18'
 name: CompanyCam
 nav: Providers
@@ -293,7 +293,7 @@ scopes:
 score:
   band: strong
   composite: 57.5
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -303,7 +303,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 60.8
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -314,8 +314,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/screenshots/companycam-2026-07-25T210145.png
 security:
@@ -340,6 +340,6 @@ tags:
 - Project Management
 - Contractors
 - Documentation
-- Webhooks
+- Webhook
 website: https://companycam.com/
 ---

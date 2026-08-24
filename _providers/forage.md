@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API to tokenize EBT cards, run PIN-secured balance inquiries, and create, capture, void, and refund EBT SNAP, EBT Cash, and HSA/FSA payments and orders for online and in-store checkout.
@@ -182,9 +182,9 @@ description: Forage is a mission-driven payments company and one of only three p
 image: https://framerusercontent.com/assets/ZoPlyiuvY1BwAuHbWMWp7HW8UmE.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: forage-mcp.yml
-  slug: forage-mcpyml
+- description: Official Forage documentation MCP server. Exposes the Forage Payments API surface to AI tools and can execute live API calls against the real Forage API with OAuth credentials.
+  name: Forage docs MCP server
+  slug: forage-docs-mcp-server
 modified: '2026-07-19'
 name: Forage
 nav: Providers
@@ -200,7 +200,7 @@ random_paper: 19
 score:
   band: developing
   composite: 50.3
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -210,7 +210,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 53.6
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -221,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/screenshots/forage-2026-07-25T214925.png
 security:
@@ -250,6 +250,6 @@ tags:
 - Government Benefits
 - Grocery
 - Checkout
-- Financial Services
+- Financial-Services
 website: https://www.joinforage.com
 ---

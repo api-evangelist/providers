@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -416,7 +416,7 @@ modified: '2026-06-12'
 name: Arduino
 nav: Providers
 network: true
-overview: 'Arduino publishes 47 APIs on the [APIs.io](https://apis.io/) network, including binaries_v2 API, cleanup API, clients_v1 API, and 44 more. Tagged areas include IoT, Electronics, Open Source, Devices, and Dashboards.
+overview: 'Arduino publishes 47 APIs on the [APIs.io](https://apis.io/) network, including binaries_v2 API, cleanup API, clients_v1 API, and 44 more. Tagged areas include IoT, Electronics, Open-Source, Devices, and Dashboards.
 
 
   The Arduino catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -446,7 +446,7 @@ rules:
 score:
   band: developing
   composite: 42.9
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -456,7 +456,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 48.7
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -464,9 +464,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/screenshots/arduino-2026-06-20T172415.png
 security:
 - kind: domain-security
@@ -477,7 +477,7 @@ slug: arduino
 tags:
 - IoT
 - Electronics
-- Open Source
+- Open-Source
 - Devices
 - Dashboards
 - Time Series

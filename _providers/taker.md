@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Delivery-integration API connecting restaurants (Taker GO merchants) and delivery service providers (DSPs). Supports order creation, retrieval, cancellation, DSP re-routing, and asynchronous order-sta
@@ -122,9 +122,9 @@ description: Taker is a Riyadh, Saudi Arabia-based restaurant technology company
 image: https://taker.io/wp-content/themes/taker-2026/assets/images/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: taker-mcp.yml
-  slug: taker-mcpyml
+- description: Candidate MCP tool surface derived from the documented Taker GO integration API operations. Taker does not publish an official hosted/remote MCP server; this is a governance starting point, not a prov
+  name: Taker MCP Server
+  slug: taker-mcp-server
 modified: '2026-07-21'
 name: Taker
 nav: Providers
@@ -140,7 +140,7 @@ random_paper: 10
 score:
   band: thin
   composite: 34.6
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -150,11 +150,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 35.7
+  previous_composite: 34.6
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -172,7 +172,7 @@ tags:
 - Online Ordering
 - Food Delivery
 - Delivery Integration
-- Webhooks
+- Webhook
 - Saudi Arabia
 - MENA
 website: https://taker.io

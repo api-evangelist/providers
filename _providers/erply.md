@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 248
   human_in_the_loop: 0
@@ -567,13 +567,13 @@ image: https://cdn.erply.com/images/533252/erplyIcon-1.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: erply-mcp.yml
-  slug: erply-mcpyml
+  name: Erply MCP Server
+  slug: erply-mcp-server
 modified: '2026-07-19'
 name: Erply
 nav: Providers
 network: true
-overview: 'Erply publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Assortment API, Assortment To Product Linking API, Attributes API, and 61 more. Tagged areas include Retail, Point of Sale, Inventory, Product Information Management, and CRM.
+overview: 'Erply publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Assortment API, Assortment To Product Linking API, Attributes API, and 61 more. Tagged areas include Retail, Point-of-Sale, Inventory, Product Information Management, and CRM.
 
 
   The Erply catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -588,7 +588,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -598,7 +598,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 52.2
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -609,8 +609,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/screenshots/erply-2026-07-25T213611.png
 security:
@@ -625,13 +625,13 @@ security:
 slug: erply
 tags:
 - Retail
-- Point of Sale
+- Point-of-Sale
 - Inventory
 - Product Information Management
 - CRM
-- Ecommerce
+- E-Commerce
 - Warehouse Management
-- Webhooks
+- Webhook
 - Company
 website: https://erply.com
 ---

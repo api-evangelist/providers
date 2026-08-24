@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 8
@@ -843,14 +843,14 @@ description: Amigo is a healthcare AI platform for building, training, and deplo
 image: https://amigo.ai/images/og-image-1200x630.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: amigo-mcp.yml
-  slug: amigo-mcpyml
+- description: Workspace-scoped Model Context Protocol server built into the Amigo Platform API. Exposes world-model read tools to MCP clients and partner agents. Authenticated with a workspace-scoped API key plus a
+  name: Amigo MCP Server
+  slug: amigo-mcp-server
 modified: '2026-07-17'
 name: Amigo
 nav: Providers
 network: true
-overview: 'Amigo publishes 72 APIs on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Agent Definitions API, and 69 more. Tagged areas include Company, Ai, Healthcare, AI Agents, and Voice.
+overview: 'Amigo publishes 72 APIs on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Agent Definitions API, and 69 more. Tagged areas include Company, Artificial Intelligence, Healthcare, AI Agents, and Voice.
 
 
   The Amigo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -865,18 +865,18 @@ scopes:
   summary_line: 53 scopes
 score:
   band: strong
-  composite: 62.4
-  delta: 2.6
+  composite: 64.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 30.3
     contract_quality: 65.0
     developer_ergonomics: 85.1
-    discoverability: 74.1
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 59.8
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -893,8 +893,8 @@ score:
     regime: Health
     regime_id: health
     score: 63.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/screenshots/amigo-2026-07-25T200104.png
 security:
@@ -913,7 +913,7 @@ security:
 slug: amigo
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - AI Agents
 - Voice

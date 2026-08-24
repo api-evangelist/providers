@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -247,14 +247,14 @@ description: Ontraport is a business automation platform combining CRM, marketin
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ontraport.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ontraport-mcp.yml
-  slug: ontraport-mcpyml
+- description: Ontraport ships a first-party, hosted, remote MCP server at https://mcp.ontraport.com. It is a streamable-HTTP MCP endpoint an agent POSTs to directly — there is no package to install and no stdio pro
+  name: Ontraport MCP Server
+  slug: ontraport-mcp-server
 modified: '2026-08-13'
 name: Ontraport
 nav: Providers
 network: true
-overview: 'Ontraport publishes 2 APIs on the [APIs.io](https://apis.io/) network: Metadata API and Objects API. Tagged areas include CRM, Marketing Automation, Email Marketing, Ecommerce, and Landing Pages.
+overview: 'Ontraport publishes 2 APIs on the [APIs.io](https://apis.io/) network: Metadata API and Objects API. Tagged areas include CRM, Marketing Automation, Email Marketing, E-Commerce, and Landing Pages.
 
 
   The Ontraport catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -278,7 +278,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.0
-  delta: 3.3
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -288,7 +288,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 67.7
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,8 +305,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/screenshots/ontraport-2026-06-20T190730.png
 security:
@@ -331,7 +331,7 @@ tags:
 - CRM
 - Marketing Automation
 - Email Marketing
-- Ecommerce
+- E-Commerce
 - Landing Pages
 - Membership Sites
 - MCP

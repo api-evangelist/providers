@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -249,8 +249,8 @@ image: https://logo.clearbit.com/wish.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: wish-mcp.yml
-  slug: wish-mcpyml
+  name: Wish MCP Server
+  slug: wish-mcp-server
 modified: '2026-07-21'
 name: Wish
 nav: Providers
@@ -275,7 +275,7 @@ scopes:
 score:
   band: developing
   composite: 45.0
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -285,7 +285,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 42.7
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,8 +302,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/screenshots/wish-2026-08-17T082925.png
 security:
@@ -322,10 +322,10 @@ tags:
 - Marketplace
 - Retail
 - Merchants
-- Orders
-- Products
+- Order
+- Product
 - Fulfillment
 - Shopping
-- OAuth
+- Authentication
 website: https://wish.com
 ---

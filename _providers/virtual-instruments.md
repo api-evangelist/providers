@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Global View APIs for alerts, external alert ingestion, and on-prem storage dashboards. Function-based JSON POST bodies over a Solr-style query engine, served from the Virtana cloud platform.
@@ -164,9 +164,9 @@ description: Virtana (formerly Virtual Instruments) is an AI-powered hybrid infr
 image: https://www.virtana.com/wp-content/uploads/2023/09/virtana-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: virtual-instruments-mcp.yml
-  slug: virtual-instruments-mcpyml
+- description: Virtana publishes an official Model Context Protocol (MCP) server surface for its observability platform. Two product endpoints are offered — Global View (GV) and Infrastructure Observability (IO) — e
+  name: Virtana (Virtual Instruments) MCP Server
+  slug: virtana-virtual-instruments-mcp-server
 modified: '2026-07-21'
 name: Virtana (Virtual Instruments)
 nav: Providers
@@ -182,7 +182,7 @@ random_paper: 11
 score:
   band: developing
   composite: 48.6
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -192,12 +192,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 51.8
+  previous_composite: 48.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/screenshots/virtual-instruments-2026-08-17T082756.png
 security:

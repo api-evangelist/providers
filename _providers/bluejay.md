@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -532,13 +532,13 @@ image: https://framerusercontent.com/assets/0eWRRDcsziAELTSPQghHwloyXH0.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: bluejay-mcp.yml
-  slug: bluejay-mcpyml
+  name: Bluejay MCP Server
+  slug: bluejay-mcp-server
 modified: '2026-07-18'
 name: Bluejay
 nav: Providers
 network: true
-overview: 'Bluejay publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Alerts API, Api Keys API, and 57 more. Tagged areas include Company, Ai, AI Agents, Voice AI, and Conversational AI.
+overview: 'Bluejay publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Alerts API, Api Keys API, and 57 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Voice AI, and Conversational AI.
 
 
   The Bluejay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -548,18 +548,18 @@ overview: 'Bluejay publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 13
 score:
   band: developing
-  composite: 48.4
-  delta: -2.1
+  composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 16.7
     contract_quality: 64.2
     developer_ergonomics: 61.3
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 50.5
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -570,8 +570,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/screenshots/bluejay-2026-07-25T203452.png
 security:
@@ -586,7 +586,7 @@ security:
 slug: bluejay
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Voice AI
 - Conversational AI

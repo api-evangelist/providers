@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -956,7 +956,7 @@ rules:
 score:
   band: strong
   composite: 66.3
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -966,7 +966,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 70.4
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     contracts:
@@ -974,8 +974,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png
 security:

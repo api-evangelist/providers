@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Areas API from Trail — 1 operation(s) for areas.
@@ -211,9 +211,9 @@ description: Trail is a digital checklist and work management platform for hospi
 image: https://cdn.prod.website-files.com/66f405a237adee7cf0668f38/67257ad8aa5f301b38dcd1af_transparent.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: trail-mcp.yml
-  slug: trail-mcpyml
+- description: Trail publishes no official MCP server (none found on the docs, help centre, GitHub org trailsuite, or the MCP registry). This is a candidate tool list derived from the operations in the published Ope
+  name: Trail MCP Server
+  slug: trail-mcp-server
 modified: '2026-07-21'
 name: Trail
 nav: Providers
@@ -235,7 +235,7 @@ scopes:
 score:
   band: developing
   composite: 44.9
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -245,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 46.7
+  previous_composite: 44.9
   provenance:
     conformance: derived
     contracts:
@@ -255,8 +255,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/screenshots/trail-2026-08-17T082424.png
 security:
@@ -276,6 +276,5 @@ tags:
 - Task Management
 - Compliance
 - Food Safety
-- Operations
 website: https://trailapp.com
 ---

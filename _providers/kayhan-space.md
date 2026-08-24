@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -294,8 +294,8 @@ image: https://www.satcat.com/og.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kayhan-space-mcp.yml
-  slug: kayhan-space-mcpyml
+  name: Kayhan Space MCP Server
+  slug: kayhan-space-mcp-server
 modified: '2026-07-19'
 name: Kayhan Space
 nav: Providers
@@ -313,7 +313,7 @@ scopes:
 score:
   band: developing
   composite: 44.5
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -323,7 +323,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 46.1
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,8 +334,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/screenshots/kayhan-space-2026-07-25T223529.png
 security:

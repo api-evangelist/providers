@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -447,8 +447,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinme.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: coinme-mcp.yml
-  slug: coinme-mcpyml
+  name: Coinme MCP Server
+  slug: coinme-mcp-server
 modified: '2026-07-18'
 name: Coinme
 nav: Providers
@@ -469,7 +469,7 @@ scopes:
 score:
   band: strong
   composite: 57.9
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -479,7 +479,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 57.5
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -496,8 +496,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:
@@ -516,7 +516,7 @@ tags:
 - Cryptocurrency
 - Payments
 - Bitcoin
-- Wallet
+- Wallets
 - KYC
 - Onboarding
 - Fintech

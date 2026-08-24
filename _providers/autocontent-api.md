@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ modified: '2026-04-19'
 name: AutoContent API
 nav: Providers
 network: true
-overview: 'AutoContent API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Content API, Dedicated Account API, Podcast API, and 2 more. Tagged areas include AI, Audio, Content Generation, Podcasts, and Video.
+overview: 'AutoContent API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Content API, Dedicated Account API, Podcast API, and 2 more. Tagged areas include Artificial Intelligence, Audio, Content Generation, Podcasts, and Video.
 
 
   AutoContent API''s developer surface includes authentication, engineering blog, documentation, signup flow, pricing, and 4 more developer resources.'
@@ -183,7 +183,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.6
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -193,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 35.2
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/screenshots/autocontent-api-2026-06-20T172653.png
 security:
@@ -216,13 +216,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: autocontent-api
 tags:
-- AI
+- Artificial Intelligence
 - Audio
 - Content Generation
 - Podcasts
 - Video
 - Generative AI
-- Text to Speech
+- Text-to-Speech
 - Automation
 use_cases:
 - description: Content creators and media teams automating production of podcast episodes, videos, and written content from research materials at scale.

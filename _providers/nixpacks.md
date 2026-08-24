@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'The Nixpacks command-line interface is the primary interface for generating build plans and producing Docker images from application source. Core commands include `nixpacks plan` (emit the JSON build '
@@ -121,7 +121,7 @@ modified: '2026-05-24'
 name: Nixpacks
 nav: Providers
 network: true
-overview: 'Nixpacks publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tool, Buildpacks, Docker, OCI, and Nix.
+overview: 'Nixpacks publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, Buildpacks, Docker, OCI, and Nix.
 
 
   Nixpacks'' developer surface includes documentation, getting-started guide, changelog, and 13 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 13.5
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -139,9 +139,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 13.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nixpacks/refs/heads/main/screenshots/nixpacks-2026-06-20T190333.png
 security:
@@ -151,7 +151,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: nixpacks
 tags:
-- Build Tool
+- Build Tools
 - Buildpacks
 - Docker
 - OCI
@@ -160,10 +160,10 @@ tags:
 - Container Image
 - Application Packaging
 - Railway
-- Open Source
+- Open-Source
 - Rust
 - DevOps
 - Platform Engineering
-- PaaS
+- Platform-as-a-Service
 website: https://nixpacks.com
 ---

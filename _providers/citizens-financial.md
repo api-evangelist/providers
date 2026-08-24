@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ modified: '2026-05-19'
 name: Citizens Financial
 nav: Providers
 network: true
-overview: 'Citizens Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, ATM Locations API, and Transactions API. Tagged areas include Accounts, ATMs, Banking, Open Banking, and Payments.
+overview: 'Citizens Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, ATM Locations API, and Transactions API. Tagged areas include Account, ATMs, Banking, Open Banking, and Payments.
 
 
   The Citizens Financial catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -174,7 +174,7 @@ scopes:
 score:
   band: developing
   composite: 40.7
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -184,7 +184,7 @@ score:
     discoverability: 74.1
     governance: 45.5
     operational_transparency: 5.3
-  previous_composite: 40.0
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +198,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/screenshots/citizens-financial-2026-06-20T174412.png
 security:
@@ -213,12 +213,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: citizens-financial
 tags:
-- Accounts
+- Account
 - ATMs
 - Banking
 - Open Banking
 - Payments
-- Point of Sale
-- Transactions
+- Point-of-Sale
+- Transaction
 website: https://www.citizensbank.com/
 ---

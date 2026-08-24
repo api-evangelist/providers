@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -191,14 +191,14 @@ description: '.txt (dottxt) is the structured-generation company behind the open
 image: https://cdn.sanity.io/images/z84vkf2c/production/f496d7868262fbf26f71782579181541f75b45b5-100x50.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: txt-mcp.yml
-  slug: txt-mcpyml
+- description: '.txt (dottxt) publishes a hosted, unauthenticated MCP server for its documentation via Mintlify: the manifest at docs.dottxt.ai/.well-known/mcp.json (saved verbatim in well-known/txt-docs-mcp.json) de'
+  name: .txt MCP Server
+  slug: txt-mcp-server
 modified: '2026-07-21'
 name: .txt
 nav: Providers
 network: true
-overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, including batches API, chat API, embeddings API, and 3 more. Tagged areas include Company, Artificial Intelligence, LLM, Structured Outputs, and JSON Schema.
+overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, including batches API, chat API, embeddings API, and 3 more. Tagged areas include Company, Artificial Intelligence, LLM, Structured Outputs, and JSON-Schema.
 
 
   .txt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, CLI, and 19 more developer resources.'
@@ -206,7 +206,7 @@ random_paper: 16
 score:
   band: developing
   composite: 42.7
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -216,7 +216,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 46.2
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +227,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/screenshots/txt-2026-08-17T082608.png
 security:
@@ -246,9 +246,9 @@ tags:
 - Artificial Intelligence
 - LLM
 - Structured Outputs
-- JSON Schema
+- JSON-Schema
 - Inference
 - Developer Tools
-- Machine Learning
+- Machine-Learning
 website: https://dottxt.ai
 ---

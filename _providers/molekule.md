@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-driven commerce surface for the Molekule storefront implementing the Universal Commerce Protocol over MCP. Agents discover capabilities at /.well-known/ucp, then search the catalog, build a cart
@@ -90,9 +90,9 @@ description: 'Molekule is a consumer air-quality hardware company that makes FDA
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/molekule.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: molekule-mcp.yml
-  slug: molekule-mcpyml
+- description: Molekule's storefront (a Shopify-hosted store) exposes a live agent-commerce MCP endpoint implementing the Universal Commerce Protocol (UCP). Agents discover capabilities via GET /.well-known/ucp, the
+  name: Molekule MCP Server
+  slug: molekule-mcp-server
 modified: '2026-07-20'
 name: Molekule
 nav: Providers
@@ -109,24 +109,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.8
-  delta: -0.7
+  composite: 18.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 18.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/molekule/refs/heads/main/screenshots/molekule-2026-08-07T184120.png
 security:

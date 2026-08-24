@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The callable surface a deployed Kana pipeline ("skill") exposes on the Kana application host. POST /skill/{pipelineid} starts a run and returns a runid; GET /run/{runid}/status reports progress and qu
@@ -130,8 +130,8 @@ image: https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/693c0c5cc53ad
 layout: provider
 mcp_servers:
 - description: ''
-  name: kana-mcp.yml
-  slug: kana-mcpyml
+  name: Kana MCP Server
+  slug: kana-mcp-server
 modified: '2026-08-13'
 name: Kana
 nav: Providers
@@ -157,7 +157,7 @@ scopes:
 score:
   band: thin
   composite: 29.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -167,12 +167,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 30.2
+  previous_composite: 29.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kana/refs/heads/main/screenshots/kana-2026-07-25T223445.png
 security:

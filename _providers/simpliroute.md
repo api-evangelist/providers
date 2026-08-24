@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for delivery visits, route plans, route optimization, vehicles, drivers, clients, invoices and lifecycle webhooks. Token-header authenticated, JSON over HTTPS, versioned at /v1.
@@ -147,8 +147,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplirout
 layout: provider
 mcp_servers:
 - description: ''
-  name: simpliroute-mcp.yml
-  slug: simpliroute-mcpyml
+  name: Simpliroute MCP Server
+  slug: simpliroute-mcp-server
 modified: '2026-07-21'
 name: Simpliroute
 nav: Providers
@@ -164,7 +164,7 @@ random_paper: 16
 score:
   band: developing
   composite: 39.5
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -174,13 +174,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 41.9
+  previous_composite: 39.5
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,6 +200,6 @@ tags:
 - Delivery Management
 - Fleet Management
 - Transportation
-- Webhooks
+- Webhook
 website: https://simpliroute.com
 ---

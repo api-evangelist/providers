@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -374,8 +374,8 @@ image: https://www.lytx.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: lytx-mcp.yml
-  slug: lytx-mcpyml
+  name: Lytx MCP Server
+  slug: lytx-mcp-server
 modified: '2026-07-20'
 name: Lytx
 nav: Providers
@@ -390,18 +390,18 @@ overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 3
 score:
   band: developing
-  composite: 42.7
-  delta: -0.9
+  composite: 43.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
     contract_quality: 64.7
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 43.6
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -412,8 +412,8 @@ score:
       total: 37
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/screenshots/lytx-2026-07-25T225802.png
 security:

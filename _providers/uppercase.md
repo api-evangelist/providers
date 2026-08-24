@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-driven shopping surface on the uppercase storefront implementing the Universal Commerce Protocol over MCP: discover via /.well-known/ucp, then search_catalog, create_cart, create_checkout, updat'
@@ -94,9 +94,9 @@ description: 'Uppercase is an Accel-backed, design-first and environmentally sen
 image: https://uppercase.co.in/cdn/shop/files/uc_web_logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: uppercase-mcp.yml
-  slug: uppercase-mcpyml
+- description: 'The uppercase storefront (Shopify) publishes a live agent-commerce surface via the Universal Commerce Protocol (UCP): the merchant profile at /.well-known/ucp advertises a dev.ucp.shopping service wit'
+  name: Uppercase MCP Server
+  slug: uppercase-mcp-server
 modified: '2026-07-21'
 name: Uppercase
 nav: Providers
@@ -114,7 +114,7 @@ scopes:
 score:
   band: emerging
   composite: 20.2
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -124,12 +124,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.3
+  previous_composite: 20.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -147,7 +147,7 @@ tags:
 - Travel
 - Luggage
 - Backpacks
-- Ecommerce
+- E-Commerce
 - Retail
 - Sustainability
 - Agentic Commerce

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -2169,18 +2169,18 @@ rules:
   slug: oneatlas-spectral-rules
 score:
   band: thin
-  composite: 38.5
-  delta: -5.4
+  composite: 39.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 59.5
     developer_ergonomics: 33.3
     discoverability: 50.0
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 43.9
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -2188,9 +2188,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 44
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/screenshots/airbus-oneatlas-2026-06-20T171419.png
 security:
 - kind: authentication

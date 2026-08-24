@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -90,14 +90,14 @@ description: 'Anine Bing is a Los Angeles-based contemporary womenswear and fash
 image: https://www.aninebing.com/cdn/shop/files/Screen_Shot_2019-11-20_at_9.53.49_AM.png?v=1614725796
 layout: provider
 mcp_servers:
-- description: ''
+- description: Live Universal Commerce Protocol (UCP, ucp.dev) shopping MCP endpoint for the Anine Bing Shopify storefront. Enables agent-driven catalog search, cart, and buyer-approved checkout. This is Shopify's n
   name: Anine Bing UCP shopping MCP
   slug: anine-bing-ucp-shopping-mcp
 modified: '2026-07-17'
 name: Anine Bing
 nav: Providers
 network: true
-overview: 'Anine Bing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Fashion, Apparel, and Ecommerce.
+overview: 'Anine Bing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Fashion, Apparel, and E-Commerce.
 
 
   Anine Bing''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
@@ -109,23 +109,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 15.2
-  delta: -1.3
+  composite: 16.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.5
+  previous_composite: 16.3
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anine-bing/refs/heads/main/screenshots/anine-bing-2026-08-07T161415.png
 security:
@@ -143,7 +143,7 @@ tags:
 - Retail
 - Fashion
 - Apparel
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agent Commerce
 - MCP

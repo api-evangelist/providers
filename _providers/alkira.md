@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API behind the Alkira Portal (Cloud Services Exchange). Manages tenant networks, segments, cloud and site connectors (AWS, Azure, GCP, OCI, and SD-WAN vendors), integrated network services, routi
@@ -107,8 +107,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alkira.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: alkira-mcp.yml
-  slug: alkira-mcpyml
+  name: Alkira MCP Server
+  slug: alkira-mcp-server
 modified: '2026-07-17'
 name: Alkira
 nav: Providers
@@ -121,7 +121,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 17.8
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -131,13 +131,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 19.3
+  previous_composite: 17.8
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkira/refs/heads/main/screenshots/alkira-2026-07-25T195633.png
 security:

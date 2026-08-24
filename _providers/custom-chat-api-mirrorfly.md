@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for building in-app chat, split into User APIs and Admin APIs (users, contacts, recent/history chat, groups, media, metadata, presence, block/unblock, call logs, device to
@@ -38,7 +38,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 1.5
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -54,15 +54,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 5.0
+  previous_composite: 1.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/screenshots/custom-chat-api-mirrorfly-2026-07-25T211005.png
 slug: custom-chat-api-mirrorfly
@@ -75,6 +75,6 @@ tags:
 - Video Calling
 - Contact Center
 - Conversational AI
-- Chatbot
+- Chatbots
 - Live Streaming
 ---

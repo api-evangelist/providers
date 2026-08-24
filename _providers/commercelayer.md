@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ modified: '2026-06-21'
 name: Commerce Layer
 nav: Providers
 network: true
-overview: 'Commerce Layer publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Customers API, Line Items API, and 9 more. Tagged areas include Commerce, Headless, Composable, eCommerce, and JSON:API.
+overview: 'Commerce Layer publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Customers API, Line Items API, and 9 more. Tagged areas include Commerce, Headless, Composable, E-Commerce, and JSON:API.
 
 
   Commerce Layer''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.7
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -207,7 +207,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.5
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/screenshots/commercelayer-2026-07-25T210126.png
 security:
@@ -237,8 +237,8 @@ tags:
 - Commerce
 - Headless
 - Composable
-- eCommerce
+- E-Commerce
 - JSON:API
-- Orders
+- Order
 website: https://commercelayer.io
 ---

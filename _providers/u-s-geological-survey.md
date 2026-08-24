@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,9 +58,9 @@ apis:
 - description: Discover available catalogs, contributors, and supported parameter values.
   name: U.S. Geological Survey Catalog API
   slug: u-s-geological-survey-catalog-api
-- description: OGC API collections listing and metadata.
-  name: U.S. Geological Survey Collections API
-  slug: u-s-geological-survey-collections-api
+- description: The USGS Water Data OGC API — a conformant OGC API - Features implementation over the national water observation network, exposing 36 collections (monitoring locations, continuous and daily values, fi
+  name: USGS Water Data OGC API
+  slug: usgs-water-data-ogc-api
 - description: Query and retrieve earthquake event data from the USGS earthquake catalog.
   name: U.S. Geological Survey Earthquakes API
   slug: u-s-geological-survey-earthquakes-api
@@ -349,7 +349,7 @@ modified: '2026-05-19'
 name: U.S. Geological Survey
 nav: Providers
 network: true
-overview: 'U.S. Geological Survey publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Collections API, Earthquakes API, and 3 more. Tagged areas include Federal Government, Geological, Earth Science, Natural Resources, and Earthquake.
+overview: 'U.S. Geological Survey publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, USGS Water Data OGC API, Earthquakes API, and 3 more. Tagged areas include Federal Government, Geological, Earth Science, Natural Resources, and Earthquake.
 
 
   The U.S. Geological Survey catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
@@ -398,25 +398,26 @@ rules:
     warn: 14
   slug: usgs-spectral-rules
 score:
-  band: emerging
-  composite: 25.5
-  delta: -6.9
+  band: thin
+  composite: 28.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 47.0
     contract_quality: 28.4
     developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 25.0
+    governance: 47.0
     operational_transparency: 7.9
-  previous_composite: 32.4
+  previous_composite: 28.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 6
-      marker_coverage: 100.0
+      callable: 83.3
+      derived: 5
+      marker_coverage: 83.3
       total: 6
   regulatory:
     applies: true
@@ -424,9 +425,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/screenshots/u-s-geological-survey-2026-06-20T195914.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: ApiNotes generates interactive REST API documentation from OpenAPI or Swagger specifications with live endpoint testing, code examples in 10+ languages, and a shareable developer portal.
@@ -123,7 +123,7 @@ rules:
 score:
   band: emerging
   composite: 18.6
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -133,10 +133,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 24.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 18.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apinotes/refs/heads/main/screenshots/apinotes-2026-06-20T172251.png
 security:
 - kind: domain-security

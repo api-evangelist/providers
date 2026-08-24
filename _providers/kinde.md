@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 13
@@ -638,7 +638,7 @@ modified: '2026-05-22'
 name: Kinde
 nav: Providers
 network: true
-overview: 'Kinde publishes 30 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, APIs API, Applications API, and 27 more. Tagged areas include Authentication, Authorization, Customer Identity, Identity Management, and OAuth.
+overview: 'Kinde publishes 30 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, APIs API, Applications API, and 27 more. Tagged areas include Authentication, Authorization, Customer Identity, Identity Management, and OpenID Connect.
 
 
   The Kinde catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -678,18 +678,18 @@ rules:
   slug: kinde-rules
 score:
   band: strong
-  composite: 62.9
-  delta: -7.4
+  composite: 63.4
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.6
     developer_ergonomics: 66.7
     discoverability: 66.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 70.3
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     contracts:
@@ -697,9 +697,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 30
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/screenshots/kinde-2026-06-20T184038.png
 security:
 - kind: authentication
@@ -724,7 +724,6 @@ tags:
 - Authorization
 - Customer Identity
 - Identity Management
-- OAuth
 - OpenID Connect
 - Single Sign-On
 - Multi-Factor Authentication
@@ -732,7 +731,7 @@ tags:
 - Feature Flags
 - Billing
 - B2B
-- SaaS
+- Software-as-a-Service
 - Developer Platform
 website: https://docs.kinde.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -499,7 +499,7 @@ modified: '2026-05-29'
 name: Stack Exchange
 nav: Providers
 network: true
-overview: 'Stack Exchange publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Answers API, Badges API, and 13 more. Tagged areas include Q And A, Developer Community, Knowledge Graph, Stack Overflow, and Stack Exchange.
+overview: 'Stack Exchange publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Answers API, Badges API, and 13 more. Tagged areas include Q&A, Developer Community, Knowledge Graph, Stack Overflow, and Stack Exchange.
 
 
   The Stack Exchange catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -544,18 +544,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.0
-  delta: -5.3
+  composite: 41.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 21.0
     developer_ergonomics: 38.1
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 46.3
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -563,9 +563,9 @@ score:
       derived: 16
       marker_coverage: 100.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/screenshots/stackexchange-2026-06-20T194445.png
 security:
 - kind: authentication
@@ -578,7 +578,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: stackexchange
 tags:
-- Q And A
+- Q&A
 - Developer Community
 - Knowledge Graph
 - Stack Overflow

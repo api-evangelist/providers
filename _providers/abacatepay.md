@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ modified: '2026-06-21'
 name: AbacatePay
 nav: Providers
 network: true
-overview: 'AbacatePay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Coupon API, Customer API, and 2 more. Tagged areas include Payments, Pix, Brazil, FinTech, and Developers.
+overview: 'AbacatePay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Coupon API, Customer API, and 2 more. Tagged areas include Payments, Pix, Brazil, Fintech, and Developers.
 
 
   AbacatePay''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -174,8 +174,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/screenshots/abacatepay-2026-07-25T181328.png
 security:
@@ -192,7 +192,7 @@ tags:
 - Payments
 - Pix
 - Brazil
-- FinTech
+- Fintech
 - Developers
 website: https://www.abacatepay.com
 ---

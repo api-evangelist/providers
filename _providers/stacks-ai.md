@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -161,13 +161,13 @@ image: https://www.stackai.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: stacks-ai-mcp.yml
-  slug: stacks-ai-mcpyml
+  name: Stacks Ai MCP Server
+  slug: stacks-ai-mcp-server
 modified: '2026-07-21'
 name: Stacks Ai
 nav: Providers
 network: true
-overview: 'Stacks Ai publishes 5 APIs on the [APIs.io](https://apis.io/) network, including analytics API, Knowledge Base Resources API, Knowledge Base Sync API, and 2 more. Tagged areas include Company, AI, Agents, Artificial Intelligence, and LLM.
+overview: 'Stacks Ai publishes 5 APIs on the [APIs.io](https://apis.io/) network, including analytics API, Knowledge Base Resources API, Knowledge Base Sync API, and 2 more. Tagged areas include Company, Artificial Intelligence, Agents, LLM, and No-Code.
 
 
   Stacks Ai''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 14 more developer resources.'
@@ -180,7 +180,7 @@ scopes:
 score:
   band: developing
   composite: 45.1
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 47.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -201,8 +201,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/screenshots/stacks-ai-2026-08-17T082059.png
 security:
@@ -221,9 +221,8 @@ security:
 slug: stacks-ai
 tags:
 - Company
-- AI
-- Agents
 - Artificial Intelligence
+- Agents
 - LLM
 - No-Code
 - Automation

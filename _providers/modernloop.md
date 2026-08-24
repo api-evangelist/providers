@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-20'
 name: ModernLoop
 nav: Providers
 network: true
-overview: 'ModernLoop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Recruiting, Interview Scheduling, and Talent Acquisition.
+overview: 'ModernLoop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, Recruiting, Interview Scheduling, and Talent Acquisition.
 
 
   ModernLoop''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 17.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -114,9 +114,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 19.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernloop/refs/heads/main/screenshots/modernloop-2026-08-07T184020.png
 security:
@@ -131,12 +131,12 @@ security:
 slug: modernloop
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Recruiting
 - Interview Scheduling
 - Talent Acquisition
 - Hiring
 - AI Agents
-- SaaS
+- Software-as-a-Service
 website: https://modernloop.com
 ---

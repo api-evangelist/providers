@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -177,8 +177,8 @@ image: https://jadediabetes.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: manage-bgl-mcp.yml
-  slug: manage-bgl-mcpyml
+  name: Manage BGL MCP Server
+  slug: manage-bgl-mcp-server
 modified: '2026-07-20'
 name: Manage BGL
 nav: Providers
@@ -191,7 +191,7 @@ random_paper: 5
 score:
   band: developing
   composite: 45.5
-  delta: 4.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 41.1
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -218,8 +218,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/screenshots/manage-bgl-2026-07-25T230015.png
 security:

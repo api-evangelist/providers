@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -421,7 +421,7 @@ modified: '2026-05-24'
 name: Backpack
 nav: Providers
 network: true
-overview: 'Backpack publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Borrow Lend API, and 11 more. Tagged areas include Crypto, Exchange, Wallet, Trading, and Perpetuals.
+overview: 'Backpack publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Borrow Lend API, and 11 more. Tagged areas include Crypto, Exchange, Wallets, Trading, and Perpetuals.
 
 
   The Backpack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -473,7 +473,7 @@ rules:
 score:
   band: strong
   composite: 57.5
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -483,7 +483,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 60.5
-  previous_composite: 62.0
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
@@ -497,8 +497,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/screenshots/backpack-2026-06-20T172915.png
 security:
@@ -519,7 +519,7 @@ solutions:
 tags:
 - Crypto
 - Exchange
-- Wallet
+- Wallets
 - Trading
 - Perpetuals
 - Solana

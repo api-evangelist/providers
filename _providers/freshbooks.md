@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ rules:
 score:
   band: thin
   composite: 33.0
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -217,7 +217,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 2.6
-  previous_composite: 39.4
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -225,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/screenshots/freshbooks-2026-06-20T181538.png
 security:
 - kind: authentication

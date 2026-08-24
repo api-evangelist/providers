@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Citizens Open Banking API is the FDX-aligned API surface launched in Q1 2025 that gives business, commercial, wealth, and private- banking customers a single endpoint to share account balances, transa
@@ -125,7 +125,7 @@ modified: '2026-04-23'
 name: Citizens Financial Group
 nav: Providers
 network: true
-overview: 'Citizens Financial Group publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Buy Now Pay Later, Financial Services, FDX, and Locator.
+overview: 'Citizens Financial Group publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Buy Now Pay Later, Financial-Services, FDX, and Locator.
 
 
   The Citizens Financial Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -156,7 +156,7 @@ rules:
 score:
   band: emerging
   composite: 22.1
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -166,15 +166,15 @@ score:
     discoverability: 64.8
     governance: 45.5
     operational_transparency: 7.9
-  previous_composite: 24.0
+  previous_composite: 22.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/screenshots/citizens-financial-group-2026-06-20T174413.png
 security:
@@ -186,7 +186,7 @@ slug: citizens-financial-group
 tags:
 - Banking
 - Buy Now Pay Later
-- Financial Services
+- Financial-Services
 - FDX
 - Locator
 - Open Banking

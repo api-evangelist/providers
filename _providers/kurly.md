@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.3
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 31.8
     operational_transparency: 18.4
-  previous_composite: 43.6
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,9 +246,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
 security:
 - kind: authentication
@@ -267,7 +267,7 @@ tags:
 - Fulfillment
 - Supply Chain
 - Delivery
-- Ecommerce
+- E-Commerce
 - Grocery
 - Shipping
 - Order Management

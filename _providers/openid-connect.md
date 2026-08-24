@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,27 +64,27 @@ modified: '2026-04-28'
 name: OpenID Connect
 nav: Providers
 network: true
-overview: 'OpenID Connect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication, Identity, JWT, OAuth, and OpenID Connect.
+overview: 'OpenID Connect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication, Identity, JWT, and OpenID Connect.
 
 
   OpenID Connect''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
 random_paper: 2
 score:
   band: minimal
-  composite: 9.5
-  delta: 0.3
+  composite: 8.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 57.4
+    discoverability: 48.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openid-connect/refs/heads/main/screenshots/openid-connect-2026-06-20T191005.png
 security:
@@ -97,7 +97,6 @@ tags:
 - Authentication
 - Identity
 - JWT
-- OAuth
 - OpenID Connect
 website: https://openid.net/
 ---

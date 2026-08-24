@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Ember API returns per-structure property risk scores, modeled expected annual loss, and retrofit-impact evaluation for individual homes, driven by physics-based hazard simulation and a learned sur
@@ -91,7 +91,7 @@ modified: '2026-07-21'
 name: Risklytics
 nav: Providers
 network: true
-overview: 'Risklytics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Risk, and Wildfire.
+overview: 'Risklytics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Risk, and Wildfire.
 
 
   Risklytics'' developer surface includes developer portal, documentation, pricing, authentication, and 7 more developer resources.'
@@ -103,7 +103,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 19.8
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -113,15 +113,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 24.3
+  previous_composite: 19.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -136,13 +136,13 @@ slug: risklytics
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Risk
 - Wildfire
 - Property
 - Catastrophe
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Underwriting
 website: https://www.risklytics.ai/
 ---

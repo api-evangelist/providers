@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -179,8 +179,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trunk.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: trunk-mcp.yml
-  slug: trunk-mcpyml
+  name: Trunk MCP Server
+  slug: trunk-mcp-server
 modified: '2026-08-08'
 name: Trunk
 nav: Providers
@@ -204,7 +204,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.3
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -214,7 +214,7 @@ score:
     discoverability: 74.1
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 49.5
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +225,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/screenshots/trunk-2026-06-20T195810.png
 security:
@@ -251,6 +251,6 @@ tags:
 - Merge Queue
 - Test Analytics
 - Static Analysis
-- Webhooks
+- Webhook
 website: https://trunk.io/
 ---

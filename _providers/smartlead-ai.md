@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -266,14 +266,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartlead-ai.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: smartlead-ai-mcp.yml
-  slug: smartlead-ai-mcpyml
+- description: SmartLead operates a remote MCP server on its documentation/API host. `tools/list` answered anonymously over Streamable HTTP (SSE), so the tool set below is the server's real, live manifest with its r
+  name: Smartlead MCP Server
+  slug: smartlead-mcp-server
 modified: '2026-08-13'
 name: Smartlead
 nav: Providers
 network: true
-overview: 'Smartlead publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Campaign Statistics API, Campaigns API, and 1 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Email Warmup.
+overview: 'Smartlead publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Campaign Statistics API, Campaigns API, and 1 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Email Warm-up.
 
 
   The Smartlead catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -292,7 +292,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.0
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -302,7 +302,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 68.0
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -313,8 +313,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/screenshots/smartlead-ai-2026-06-20T194043.png
 security:
@@ -332,7 +332,7 @@ tags:
 - Outbound
 - Sales
 - Deliverability
-- Email Warmup
+- Email Warm-up
 - Automation
 - Sequences
 website: https://www.smartlead.ai

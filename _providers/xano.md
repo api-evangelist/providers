@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ modified: '2026-06-20'
 name: Xano
 nav: Providers
 network: true
-overview: 'Xano publishes 6 APIs on the [APIs.io](https://apis.io/) network, including API Groups API, Auth API, Content API, and 3 more. Tagged areas include No Code, Backend as a Service, BaaS, API Builder, and Database.
+overview: 'Xano publishes 6 APIs on the [APIs.io](https://apis.io/) network, including API Groups API, Auth API, Content API, and 3 more. Tagged areas include No-Code, Backend-as-a-Service, API Builder, Database, and Serverless.
 
 
   Xano''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -164,7 +164,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.5
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -174,7 +174,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.3
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +182,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/screenshots/xano-2026-06-20T201653.png
 security:
@@ -205,9 +205,8 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: xano
 tags:
-- No Code
-- Backend as a Service
-- BaaS
+- No-Code
+- Backend-as-a-Service
 - API Builder
 - Database
 - Serverless

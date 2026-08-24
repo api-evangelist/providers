@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -157,13 +157,13 @@ image: https://cdn.prod.website-files.com/66e1eedeb9c7b4bebe0ed8f2/66e1fc3a9a94b
 layout: provider
 mcp_servers:
 - description: ''
-  name: beehero-mcp.yml
-  slug: beehero-mcpyml
+  name: BeeHero MCP Server
+  slug: beehero-mcp-server
 modified: '2026-08-02'
 name: BeeHero
 nav: Providers
 network: true
-overview: 'BeeHero publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Auth API, Gateways API, and 1 more. Tagged areas include Company, agriculture, agtech, pollination, and beekeeping.
+overview: 'BeeHero publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Auth API, Gateways API, and 1 more. Tagged areas include Company, Agriculture, AgTech, Pollination, and beekeeping.
 
 
   BeeHero''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 18 more developer resources.'
@@ -171,7 +171,7 @@ random_paper: 16
 score:
   band: developing
   composite: 39.3
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -181,7 +181,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 42.0
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,8 +192,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/screenshots/beehero-2026-08-07T162253.png
 security:
@@ -208,15 +208,15 @@ security:
 slug: beehero
 tags:
 - Company
-- agriculture
-- agtech
-- pollination
+- Agriculture
+- AgTech
+- Pollination
 - beekeeping
-- precision-agriculture
-- iot
-- sensors
-- environmental-data
-- mcp
+- Precision Agriculture
+- IoT
+- Sensors
+- Environmental Data
+- MCP
 - agent-native
 website: https://www.beehero.io/
 ---

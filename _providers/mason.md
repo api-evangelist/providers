@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -223,13 +223,13 @@ image: https://media.getmason.io/api/assetlib/e5067013-1809-44f3-8847-8d66857625
 layout: provider
 mcp_servers:
 - description: ''
-  name: mason-mcp.yml
-  slug: mason-mcpyml
+  name: Mason MCP Server
+  slug: mason-mcp-server
 modified: '2026-07-20'
 name: Mason
 nav: Providers
 network: true
-overview: 'Mason publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Create Image API, Images API, and 5 more. Tagged areas include Company, Ecommerce, Commerce, AI, and Agents.
+overview: 'Mason publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Create Image API, Images API, and 5 more. Tagged areas include Company, E-Commerce, Commerce, Artificial Intelligence, and Agents.
 
 
   The Mason catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -245,7 +245,7 @@ scopes:
 score:
   band: developing
   composite: 43.9
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -255,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 50.0
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,9 +266,9 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/screenshots/mason-2026-07-25T230331.png
 security:
 - kind: authentication
@@ -286,14 +286,14 @@ security:
 slug: mason
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Commerce
-- AI
+- Artificial Intelligence
 - Agents
 - Content Generation
 - Discounts
 - Promotions
-- Webhooks
+- Webhook
 - Shopify
 website: https://getmason.io/
 ---

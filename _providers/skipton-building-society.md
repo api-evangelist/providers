@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: UK Open Banking Open Data standard - public, unauthenticated reference data (branches, ATMs, personal and business current accounts, unsecured SME loans, commercial credit cards) as defined by the OBI
@@ -135,7 +135,7 @@ modified: '2026-07-23'
 name: Skipton Building Society
 nav: Providers
 network: true
-overview: 'Skipton Building Society publishes 1 API on the [APIs.io](https://apis.io/) network: Skipton Open Banking Open Data API (OBIE Standard). Tagged areas include Financial Services, Banking, Building Society, Open Banking, and PSD2.
+overview: 'Skipton Building Society publishes 1 API on the [APIs.io](https://apis.io/) network: Skipton Open Banking Open Data API (OBIE Standard). Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
 
 
   Skipton Building Society''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
@@ -143,7 +143,7 @@ random_paper: 2
 score:
   band: thin
   composite: 36.7
-  delta: 8.5
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -153,7 +153,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 28.2
+  previous_composite: 36.7
   provenance:
     conformance: derived
     contracts:
@@ -167,9 +167,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Skipton Building Society Authentication
@@ -181,7 +181,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: skipton-building-society
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Open Banking

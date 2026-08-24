@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -183,13 +183,13 @@ image: https://cdn.prod.website-files.com/684b15b38863077bd3c46420/6895344cc4683
 layout: provider
 mcp_servers:
 - description: ''
-  name: leia-mcp.yml
-  slug: leia-mcpyml
+  name: Leia MCP Server
+  slug: leia-mcp-server
 modified: '2026-08-01'
 name: Leia
 nav: Providers
 network: true
-overview: 'Leia publishes 2 APIs on the [APIs.io](https://apis.io/) network: Immersity Cloud API and Immersity AI Authentication API. Tagged areas include 3d, spatial-computing, computer-vision, depth-estimation, and image-processing.
+overview: 'Leia publishes 2 APIs on the [APIs.io](https://apis.io/) network: Immersity Cloud API and Immersity AI Authentication API. Tagged areas include 3D, Spatial Computing, Computer-Vision, depth-estimation, and Image Processing.
 
 
   The Leia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 53.7
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -219,7 +219,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 57.8
+  previous_composite: 53.7
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -230,8 +230,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/screenshots/leia-2026-08-07T171526.png
 security:
@@ -245,15 +245,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: leia
 tags:
-- 3d
-- spatial-computing
-- computer-vision
+- 3D
+- Spatial Computing
+- Computer-Vision
 - depth-estimation
-- image-processing
-- video-processing
-- generative-ai
-- displays
+- Image Processing
+- Video Processing
+- Generative AI
+- Displays
 - media-transformation
-- immersive-experiences
+- Immersive Experiences
 website: https://immersity.ai/
 ---

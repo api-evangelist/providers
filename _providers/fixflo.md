@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -201,13 +201,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fixflo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fixflo-mcp.yml
-  slug: fixflo-mcpyml
+  name: Fixflo MCP Server
+  slug: fixflo-mcp-server
 modified: '2026-07-26'
 name: Fixflo
 nav: Providers
 network: true
-overview: 'Fixflo publishes 1 API on the [APIs.io](https://apis.io/) network: API v2. Tagged areas include Real Estate, United Kingdom, Property Management, PropTech, and Repairs and Maintenance.
+overview: 'Fixflo publishes 1 API on the [APIs.io](https://apis.io/) network: API v2. Tagged areas include Real-Estate, United Kingdom, Property Management, PropTech, and Repairs and Maintenance.
 
 
   The Fixflo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,7 +227,7 @@ scopes:
 score:
   band: developing
   composite: 45.2
-  delta: -12.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -237,7 +237,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 57.3
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,9 +248,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/screenshots/fixflo-2026-08-07T165332.png
 security:
 - kind: authentication
@@ -263,7 +263,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: fixflo
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Management
 - PropTech

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ modified: '2026-08-08'
 name: Mastra
 nav: Providers
 network: true
-overview: 'Mastra publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Conversations API, Logs API, and 7 more. Tagged areas include Agents, AI, JavaScript, RAG, and TypeScript.
+overview: 'Mastra publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Conversations API, Logs API, and 7 more. Tagged areas include Agents, Artificial Intelligence, JavaScript, RAG, and TypeScript.
 
 
   Mastra''s developer surface includes authentication, documentation, engineering blog, GitHub presence, changelog, pricing, code examples, and 18 more developer resources.'
@@ -240,7 +240,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -250,7 +250,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 33.8
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -258,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/screenshots/mastra-2026-06-20T185031.png
 security:
@@ -274,7 +274,7 @@ security:
 slug: mastra
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - JavaScript
 - RAG
 - TypeScript

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -184,7 +184,7 @@ modified: '2026-05-23'
 name: airSlate
 nav: Providers
 network: true
-overview: 'airSlate publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Document Fields API, Document Groups API, Documents API, and 8 more. Tagged areas include Document Automation, eSignature, Workflow, PDF, and No-Code.
+overview: 'airSlate publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Document Fields API, Document Groups API, Documents API, and 8 more. Tagged areas include Document Automation, E-Signature, Workflows, PDF, and No-Code.
 
 
   airSlate''s developer surface includes authentication, engineering blog, documentation, GitHub presence, and 5 more developer resources.'
@@ -200,7 +200,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -210,7 +210,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.7
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +218,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/screenshots/airslate-2026-06-20T171429.png
 security:
@@ -234,10 +234,10 @@ security:
 slug: airslate
 tags:
 - Document Automation
-- eSignature
-- Workflow
+- E-Signature
+- Workflows
 - PDF
 - No-Code
-- AI
+- Artificial Intelligence
 website: https://www.airslate.com/
 ---

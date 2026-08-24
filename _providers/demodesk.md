@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Externally recorded demos API from Demodesk — 3 operation(s) for externally recorded demos.
@@ -202,14 +202,14 @@ description: Demodesk is an AI Sales Agent platform for B2B revenue teams, found
 image: https://demodesk.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: demodesk-mcp.yml
-  slug: demodesk-mcpyml
+- description: 'Official hosted, read-only MCP server. Exposes Demodesk meeting recordings, transcripts, AI summaries and coaching scorecards to any MCP client. The company runs a dedicated microsite for it at https:'
+  name: Demodesk MCP Server
+  slug: demodesk-mcp-server
 modified: '2026-08-14'
 name: Demodesk
 nav: Providers
 network: true
-overview: 'Demodesk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Externally recorded demos API, Recordings API, and Users API. Tagged areas include Company, Sales, AI, Conversation Intelligence, and Video Conferencing.
+overview: 'Demodesk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Externally recorded demos API, Recordings API, and Users API. Tagged areas include Company, Sales, Artificial Intelligence, Conversation Intelligence, and Video Conferencing.
 
 
   The Demodesk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -232,18 +232,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 58.6
-  delta: -2.9
+  composite: 59.7
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 16.7
     contract_quality: 61.4
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 61.5
+  previous_composite: 59.7
   provenance:
     conformance: derived
     contracts:
@@ -253,8 +253,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/screenshots/demodesk-2026-07-25T211714.png
 security:
@@ -274,12 +274,12 @@ slug: demodesk
 tags:
 - Company
 - Sales
-- AI
+- Artificial Intelligence
 - Conversation Intelligence
 - Video Conferencing
 - CRM
 - Transcription
-- Webhooks
+- Webhook
 - MCP
 website: https://demodesk.com/
 ---

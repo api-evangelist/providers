@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Graphiant Portal REST API is the machine-readable surface of the Graphiant NaaS platform. It exposes 525 operations across 460 paths on api.graphiant.com covering authentication and MSP tenant swi
@@ -254,8 +254,8 @@ image: https://cdn.prod.website-files.com/67d32c440becfce0b9a701db/67dd287e77994
 layout: provider
 mcp_servers:
 - description: ''
-  name: graphiant-mcp.yml
-  slug: graphiant-mcpyml
+  name: Graphiant MCP Server
+  slug: graphiant-mcp-server
 modified: '2026-08-01'
 name: Graphiant
 nav: Providers
@@ -271,7 +271,7 @@ random_paper: 13
 score:
   band: developing
   composite: 50.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -281,7 +281,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 50.4
+  previous_composite: 50.5
   provenance:
     conformance: derived
     contracts:
@@ -291,8 +291,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/screenshots/graphiant-2026-08-07T165827.png
 security:

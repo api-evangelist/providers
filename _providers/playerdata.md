@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth2-secured GraphQL API for PlayerData sports performance data — clubs, athletes, sessions, devices, metrics, reports and real-time subscription events.
@@ -131,8 +131,8 @@ image: https://www.playerdata.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: playerdata-mcp.yml
-  slug: playerdata-mcpyml
+  name: PlayerData MCP Server
+  slug: playerdata-mcp-server
 modified: '2026-07-20'
 name: PlayerData
 nav: Providers
@@ -148,7 +148,7 @@ random_paper: 13
 score:
   band: thin
   composite: 36.6
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -158,13 +158,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 39.3
+  previous_composite: 36.6
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

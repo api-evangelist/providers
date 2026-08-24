@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -157,13 +157,13 @@ image: https://a-us.storyblok.com/f/1016757/200x62/8b73c5475d/logo_delos_layer_1
 layout: provider
 mcp_servers:
 - description: ''
-  name: delos-mcp.yml
-  slug: delos-mcpyml
+  name: Delos MCP Server
+  slug: delos-mcp-server
 modified: '2026-08-12'
 name: Delos
 nav: Providers
 network: true
-overview: 'Delos publishes 1 API on the [APIs.io](https://apis.io/) network: WellCube Cloud BE API. Tagged areas include wellness-real-estate, indoor-air-quality, indoor-environmental-quality, iot, and smart-buildings.
+overview: 'Delos publishes 1 API on the [APIs.io](https://apis.io/) network: WellCube Cloud BE API. Tagged areas include wellness-real-estate, Indoor Air Quality, indoor-environmental-quality, IoT, and Smart Buildings.
 
 
   The Delos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -182,7 +182,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -192,7 +192,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 42.1
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,8 +203,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/screenshots/delos-2026-08-17T080906.png
 security:
@@ -219,16 +219,16 @@ security:
 slug: delos
 tags:
 - wellness-real-estate
-- indoor-air-quality
+- Indoor Air Quality
 - indoor-environmental-quality
-- iot
-- smart-buildings
-- building-automation
-- air-purification
+- IoT
+- Smart Buildings
+- Building Automation
+- Air Purification
 - environmental-sensors
-- commercial-real-estate
+- Commercial Real Estate
 - healthy-buildings
-- hospitality
-- esg
+- Hospitality
+- ESG
 website: https://delos.com/
 ---

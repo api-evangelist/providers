@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -356,13 +356,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp-server-reducto
-  slug: mcp-server-reducto
+  name: Reducto MCP Server
+  slug: reducto-mcp-server
 modified: '2026-06-12'
 name: Reducto
 nav: Providers
 network: true
-overview: 'Reducto publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Cancel API, Classify API, Configure Webhook API, and 14 more. Tagged areas include Document Parsing, PDF, OCR, Data Extraction, and AI.
+overview: 'Reducto publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Cancel API, Classify API, Configure Webhook API, and 14 more. Tagged areas include Document Parsing, PDF, OCR, Data Extraction, and Artificial Intelligence.
 
 
   The Reducto catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -392,7 +392,7 @@ rules:
 score:
   band: developing
   composite: 49.6
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -402,7 +402,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 65.8
-  previous_composite: 57.7
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -410,9 +410,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/screenshots/reducto-2026-06-20T192736.png
 security:
 - kind: authentication
@@ -433,8 +433,8 @@ tags:
 - PDF
 - OCR
 - Data Extraction
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Document Intelligence
 - Structured Data
 website: https://reducto.ai/

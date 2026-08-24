@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The management REST API served by every InfiniBox and InfiniBox SSA array on its own management interface at https://<array>/api/rest. It exposes system health and readiness, capacity and statistics, '
@@ -158,7 +158,7 @@ random_paper: 5
 score:
   band: developing
   composite: 46.1
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -168,7 +168,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 45.6
+  previous_composite: 46.1
   provenance:
     conformance: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/screenshots/infinidat-2026-08-07T170658.png
 security:

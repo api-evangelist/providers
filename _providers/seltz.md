@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Answer operations
@@ -155,9 +155,9 @@ description: 'Seltz is a San Francisco-based AI infrastructure company building 
 image: https://seltz.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: seltz-mcp.yml
-  slug: seltz-mcpyml
+- description: Official Seltz MCP server. Native integration for Claude Desktop, Cursor, VS Code, Windsurf, and other MCP-compatible AI tools. Remote HTTP/SSE server.
+  name: Seltz MCP Server
+  slug: seltz-mcp-server
 modified: '2026-07-21'
 name: Seltz
 nav: Providers
@@ -170,7 +170,7 @@ random_paper: 16
 score:
   band: developing
   composite: 42.7
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -180,7 +180,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 50.8
+  previous_composite: 42.7
   provenance:
     conformance: derived
     contracts:
@@ -190,9 +190,9 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/screenshots/seltz-2026-08-17T081806.png
 security:
 - kind: authentication

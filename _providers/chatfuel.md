@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The only documented Chatfuel API operation as of 2026-08-13. POST https://panel.chatfuel.com/api/contacts/{automation_id}/whatsapp/ imports a batch of up to 1,000 WhatsApp phone numbers into an automa
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.2
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -179,12 +179,12 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 43.5
+  previous_composite: 42.2
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/screenshots/chatfuel-2026-07-25T205116.png
 security:
@@ -203,7 +203,7 @@ tags:
 - Conversational AI
 - Messaging
 - Marketing Automation
-- Customer Support
+- Customer-Support
 - WhatsApp
 - Instagram
 - Facebook Messenger

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Timely's REST API (version 1.1) at api.timelyapp.com, secured with OAuth 2.0, for programmatic access to accounts, projects, clients, users, events (time entries), labels and reports.
@@ -133,7 +133,7 @@ random_paper: 14
 score:
   band: thin
   composite: 32.8
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -143,11 +143,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 31.3
+  previous_composite: 32.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/screenshots/memory-2026-08-07T172504.png
 security:
@@ -170,6 +170,6 @@ tags:
 - Reporting
 - Automation
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 website: https://www.timely.com
 ---

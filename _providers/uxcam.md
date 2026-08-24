@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Custom and automatic events logged during sessions
@@ -194,8 +194,8 @@ image: https://github.com/uxcam.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: uxcam-mcp.yml
-  slug: uxcam-mcpyml
+  name: UXCam MCP Server
+  slug: uxcam-mcp-server
 modified: '2026-07-21'
 name: UXCam
 nav: Providers
@@ -208,7 +208,7 @@ random_paper: 17
 score:
   band: developing
   composite: 51.1
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -218,7 +218,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 56.1
+  previous_composite: 51.1
   provenance:
     conformance: derived
     contracts:
@@ -228,9 +228,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uxcam/refs/heads/main/screenshots/uxcam-2026-08-17T082703.png
 security:
 - kind: authentication

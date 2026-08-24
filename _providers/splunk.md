@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -787,18 +787,18 @@ rules:
   slug: splunk-spectral-rules
 score:
   band: developing
-  composite: 46.3
-  delta: -20.4
+  composite: 46.7
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 36.2
     developer_ergonomics: 61.9
     discoverability: 55.6
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 66.7
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -806,9 +806,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:
 - kind: authentication

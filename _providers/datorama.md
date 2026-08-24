@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API to set up, manage and administer a Marketing Cloud Intelligence (Datorama) account — accounts, workspaces, users, permission sets, data streams, connectors, data source authentications, bucke
@@ -180,8 +180,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datorama.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: datorama-mcp.yml
-  slug: datorama-mcpyml
+  name: Datorama MCP Server
+  slug: datorama-mcp-server
 modified: '2026-08-12'
 name: Datorama
 nav: Providers
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.7
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -212,12 +212,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 51.8
+  previous_composite: 48.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/screenshots/datorama-2026-07-25T211413.png
 security:

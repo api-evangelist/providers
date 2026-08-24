@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -265,8 +265,8 @@ image: https://cdn.prod.website-files.com/6329655518c5f56d63ac0eb8/673ac517dcc68
 layout: provider
 mcp_servers:
 - description: ''
-  name: border0-mcp.yml
-  slug: border0-mcpyml
+  name: Border0 MCP Server
+  slug: border0-mcp-server
 modified: '2026-07-18'
 name: Border0
 nav: Providers
@@ -279,7 +279,7 @@ random_paper: 14
 score:
   band: developing
   composite: 45.6
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -289,7 +289,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 50.4
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,8 +300,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/screenshots/border0-2026-07-25T203633.png
 security:

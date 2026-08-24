@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Connect point-of-sale software directly to Zeller Terminal hardware to initiate and manage in-person card payments. Delivered through the Zeller Payments SDK (React, React Native, Windows .NET, Androi
@@ -120,8 +120,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: zeller-mcp.yml
-  slug: zeller-mcpyml
+  name: Zeller Developer MCP server
+  slug: zeller-developer-mcp-server
 modified: '2026-07-24'
 name: Zeller
 nav: Providers
@@ -134,7 +134,7 @@ random_paper: 3
 score:
   band: thin
   composite: 32.2
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -144,7 +144,7 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 33.4
+  previous_composite: 32.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -154,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -174,7 +174,7 @@ tags:
 - Payment Processing
 - Acquiring
 - Merchant Services
-- Point of Sale
+- Point-of-Sale
 - In-Person Payments
 - Tap to Pay
 - SME

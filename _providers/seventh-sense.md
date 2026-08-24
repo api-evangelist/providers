@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Collections are groups of registered `Persons`. You can use collections to organize your registered persons and to search for persons within a specific collection. You can also use collections to mana
@@ -145,9 +145,9 @@ description: Seventh Sense AI is a Singapore-based deep-tech company building pr
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seventh-sense.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: seventh-sense-mcp.yml
-  slug: seventh-sense-mcpyml
+- description: Candidate MCP tool surface mapped from the OpenCV FR REST API operations, suitable for wrapping the API (x-api-key auth) as agent tools.
+  name: Seventh Sense MCP Server
+  slug: seventh-sense-mcp-server
 modified: '2026-07-21'
 name: Seventh Sense
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 8
 score:
   band: thin
   composite: 34.5
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -170,7 +170,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 34.9
+  previous_composite: 34.5
   provenance:
     conformance: first-party
     contracts:
@@ -180,8 +180,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,7 +200,7 @@ tags:
 - Identity Verification
 - Liveness Detection
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Security
 website: https://seventhsense.ai
 ---

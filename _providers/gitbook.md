@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ modified: '2026-05-19'
 name: GitBook
 nav: Providers
 network: true
-overview: 'GitBook publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Change Request Content API, Change Request Reviewers API, Change Requests API, and 16 more. Tagged areas include Content, Documentation, Experience, Integrations, and Platform.
+overview: 'GitBook publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Change Request Content API, Change Request Reviewers API, Change Requests API, and 16 more. Tagged areas include Content, Documentation, Experience, Integration, and Platform.
 
 
   The GitBook catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -280,7 +280,7 @@ rules:
 score:
   band: thin
   composite: 37.0
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -290,7 +290,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 42.5
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -298,9 +298,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/screenshots/gitbook-2026-06-20T181833.png
 security:
 - kind: authentication
@@ -316,8 +316,8 @@ tags:
 - Content
 - Documentation
 - Experience
-- Integrations
+- Integration
 - Platform
-- SDKs
+- SDK
 website: https://www.gitbook.com/
 ---

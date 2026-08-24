@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.7
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -166,7 +166,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.9
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -174,8 +174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/screenshots/serpapi-2026-06-20T193722.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: The Arrays API from Slope Software — 2 operation(s) for arrays.
@@ -235,8 +235,8 @@ image: https://slopesoftware.com/wp-content/uploads/2021/09/cropped-slope-fullco
 layout: provider
 mcp_servers:
 - description: ''
-  name: slope-software-mcp.yml
-  slug: slope-software-mcpyml
+  name: Slope Software MCP Server
+  slug: slope-software-mcp-server
 modified: '2026-07-21'
 name: Slope Software
 nav: Providers
@@ -249,7 +249,7 @@ random_paper: 18
 score:
   band: developing
   composite: 42.9
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -259,7 +259,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 41.6
+  previous_composite: 42.9
   provenance:
     conformance: first-party
     contracts:
@@ -275,8 +275,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -298,7 +298,7 @@ tags:
 - Insurance
 - Actuarial Modeling
 - Valuation
-- Financial Services
+- Financial-Services
 - Life Insurance
 - Annuities
 - Pension

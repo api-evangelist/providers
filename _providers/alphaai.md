@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 70.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,11 +222,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alphaai.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: alphaai-mcp.yml
-  slug: alphaai-mcpyml
+  name: AlphaAI MCP Server
+  slug: alphaai-mcp-server
+- description: A first-party hosted MCP server over Streamable HTTP, registered in the official Model Context Protocol registry and protected by a properly advertised OAuth 2.1 authorization server with RFC 7591 dyn
+  name: AlphaAI MCP Server
+  slug: alphaai-mcp-server-2
 modified: '2026-08-11'
 name: AlphaAI
 nav: Providers
@@ -255,7 +255,7 @@ scopes:
 score:
   band: exemplar
   composite: 73.4
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
@@ -265,7 +265,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 72.1
+  previous_composite: 73.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,8 +282,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 71.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/screenshots/alphaai-2026-08-17T080047.png
 security:

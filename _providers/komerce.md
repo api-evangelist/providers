@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -264,8 +264,8 @@ image: https://komerce.id/img/komerce.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: komerce-mcp.yml
-  slug: komerce-mcpyml
+  name: Komerce MCP Server
+  slug: komerce-mcp-server
 modified: '2026-07-19'
 name: Komerce
 nav: Providers
@@ -289,7 +289,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.2
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
@@ -299,7 +299,7 @@ score:
     discoverability: 92.6
     governance: 31.8
     operational_transparency: 55.3
-  previous_composite: 60.6
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,8 +316,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API exposing occupancy and space-utilization insights across sites, buildings, floors, zones, and groups. Available to customers with an active contract; authenticated with OAuth 2.0 client cr
@@ -143,13 +143,13 @@ image: https://innerspace.io/hubfs/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: innerspace-mcp.yml
-  slug: innerspace-mcpyml
+  name: InnerSpace MCP Server
+  slug: innerspace-mcp-server
 modified: '2026-07-19'
 name: InnerSpace
 nav: Providers
 network: true
-overview: 'InnerSpace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace Analytics, Occupancy, Space Utilization, and Real Estate.
+overview: 'InnerSpace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace Analytics, Occupancy, Space Utilization, and Real-Estate.
 
 
   InnerSpace''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, support, and 18 more developer resources.'
@@ -157,7 +157,7 @@ random_paper: 14
 score:
   band: thin
   composite: 33.1
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -167,12 +167,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 31.8
+  previous_composite: 33.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/screenshots/innerspace-2026-07-25T222456.png
 security:
@@ -198,7 +198,7 @@ tags:
 - Workplace Analytics
 - Occupancy
 - Space Utilization
-- Real Estate
+- Real-Estate
 - Wi-Fi Location
 - Building Insights
 - GraphQL

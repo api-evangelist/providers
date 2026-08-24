@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Gloo Mesh Enterprise (also called Gloo Platform) is a service mesh management platform built on Istio that provides intra-mesh and multi-cluster routing, access policies, JWT authentication, rate limi
@@ -104,7 +104,7 @@ modified: '2026-04-28'
 name: Gloo Mesh
 nav: Providers
 network: true
-overview: 'Gloo Mesh publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Istio, Kubernetes, Multi-Cluster, Open Source, and Service Mesh.
+overview: 'Gloo Mesh publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Istio, Kubernetes, Multi-Cluster, Open-Source, and Service Mesh.
 
 
   Gloo Mesh''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 7 more developer resources.'
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.0
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -130,10 +130,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 19.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/screenshots/gloo-mesh-2026-06-20T181924.png
 security:
 - kind: domain-security
@@ -149,7 +149,7 @@ tags:
 - Istio
 - Kubernetes
 - Multi-Cluster
-- Open Source
+- Open-Source
 - Service Mesh
 website: https://www.solo.io/
 ---

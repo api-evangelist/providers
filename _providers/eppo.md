@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ modified: '2026-05-08'
 name: Eppo
 nav: Providers
 network: true
-overview: 'Eppo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Assignments API, Experiments API, and 2 more. Tagged areas include Experimentation, Feature Flags, AB Testing, Analytics, and Statistics.
+overview: 'Eppo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Assignments API, Experiments API, and 2 more. Tagged areas include Experimentation, Feature Flags, A/B Testing, Analytics, and Statistics.
 
 
   Eppo''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.5
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -168,7 +168,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.6
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/screenshots/eppo-2026-06-20T180759.png
 security:
@@ -197,7 +197,7 @@ slug: eppo
 tags:
 - Experimentation
 - Feature Flags
-- AB Testing
+- A/B Testing
 - Analytics
 - Statistics
 website: https://www.geteppo.com/

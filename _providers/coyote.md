@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -527,7 +527,7 @@ modified: '2026-06-13'
 name: Coyote Logistics
 nav: Providers
 network: true
-overview: 'Coyote Logistics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Associated Entities API API, Carrier - Available Load APIs API, Carrier - Booking APIs API, and 5 more. Tagged areas include freight brokerage, logistics, truckload, LTL, and less-than-truckload.
+overview: 'Coyote Logistics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Associated Entities API API, Carrier - Available Load APIs API, Carrier - Booking APIs API, and 5 more. Tagged areas include Freight Brokerage, Logistics, Truckload, LTL, and Less-Than-Truckload.
 
 
   The Coyote Logistics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -557,7 +557,7 @@ rules:
 score:
   band: thin
   composite: 35.9
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -567,7 +567,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 43.3
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -581,9 +581,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/screenshots/coyote-2026-06-20T175149.png
 security:
 - kind: domain-security
@@ -592,18 +592,18 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: coyote
 tags:
-- freight brokerage
-- logistics
-- truckload
+- Freight Brokerage
+- Logistics
+- Truckload
 - LTL
-- less-than-truckload
-- shipping
-- supply chain
+- Less-Than-Truckload
+- Shipping
+- Supply Chain
 - freight quotes
-- shipment tracking
-- load management
+- Shipment Tracking
+- Load Management
 - 3PL
-- customs brokerage
+- Customs Brokerage
 - carrier API
 - shipper API
 website: https://coyote.com/

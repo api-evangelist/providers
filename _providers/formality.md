@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Formality REST API exposes the workspace contract repository so external tools and AI agents can retrieve documents and the AI-extracted metadata layer. Every path is namespaced to a workspace — /
@@ -170,7 +170,7 @@ modified: '2026-08-17'
 name: Formality
 nav: Providers
 network: true
-overview: 'Formality publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai/Ml, Legal, Contract Management, and Document Management.
+overview: 'Formality publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Legal, Contract Management, and Document-Management.
 
 
   The Formality catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -189,7 +189,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.4
-  delta: 28.1
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -199,13 +199,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 12.3
+  previous_composite: 40.4
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/screenshots/formality-2026-07-25T214945.png
 security:
 - kind: authentication
@@ -227,12 +227,12 @@ security:
 slug: formality
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - Legal
 - Contract Management
-- Document Management
+- Document-Management
 - Asset Intelligence
 - Compliance
-- SaaS
+- Software-as-a-Service
 website: https://www.formality.com/
 ---

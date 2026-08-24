@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Universal Commerce Protocol agent-commerce surface for the PCA SKIN Shopify store — a hosted MCP endpoint (search_catalog, create_cart, create_checkout, update_checkout, complete_checkout) plus read-o
@@ -74,18 +74,18 @@ image: https://pcaskin.com/cdn/shop/files/PCA_SKIN_logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: pcaskin-mcp.yml
-  slug: pcaskin-mcpyml
+  name: PCA SKIN (Universal Commerce Protocol)
+  slug: pca-skin-universal-commerce-protocol
 modified: '2026-07-20'
 name: PCA SKIN
 nav: Providers
 network: true
-overview: PCA SKIN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Beauty, Cosmetics, and Ecommerce.
+overview: PCA SKIN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Beauty, Cosmetics, and E-Commerce.
 random_paper: 10
 score:
   band: emerging
   composite: 11.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -95,11 +95,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.6
+  previous_composite: 11.8
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pcaskin/refs/heads/main/screenshots/pcaskin-2026-08-07T191713.png
 security:
@@ -113,7 +113,7 @@ tags:
 - Skincare
 - Beauty
 - Cosmetics
-- Ecommerce
+- E-Commerce
 - Retail
 - Agent Commerce
 - Universal Commerce Protocol

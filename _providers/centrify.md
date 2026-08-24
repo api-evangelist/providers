@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 11.1
-  scored_at: '2026-08-19'
+  score: 14.5
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Centrify Identity Platform / Cloud Suite (PAS). Programmatic access to authentication profiles, users, directories, roles, sets, resources, secrets, privileged access requests, connec
@@ -144,22 +144,22 @@ overview: 'Centrify publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 7
 score:
   band: thin
-  composite: 27.2
-  delta: -2.2
+  composite: 28.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 29.4
+  previous_composite: 28.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrify/refs/heads/main/screenshots/centrify-2026-07-25T204934.png
 security:

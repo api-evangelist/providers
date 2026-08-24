@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -349,8 +349,8 @@ image: https://developers.eveonline.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: ccp-games-mcp.yml
-  slug: ccp-games-mcpyml
+  name: CCP Games MCP Server
+  slug: ccp-games-mcp-server
 modified: '2026-07-18'
 name: CCP Games
 nav: Providers
@@ -368,7 +368,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -378,7 +378,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 45.7
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -389,8 +389,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/screenshots/ccp-games-2026-07-25T204826.png
 security:
@@ -414,7 +414,7 @@ tags:
 - MMO
 - EVE Online
 - Developer Platform
-- OAuth
+- Authentication
 - OpenID Connect
 - Player Data
 - Virtual Economy

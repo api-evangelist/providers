@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Kratos is a Go framework for building cloud-native microservices, originally created at Bilibili. It provides built-in support for HTTP and gRPC transports, service discovery, configuration management
@@ -113,7 +113,7 @@ modified: '2026-04-28'
 name: Kratos
 nav: Providers
 network: true
-overview: 'Kratos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Frameworks, Go, gRPC, and Microservices.
+overview: 'Kratos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Frameworks, Go, gRPC, and Microservices.
 
 
   The Kratos catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -143,7 +143,7 @@ rules:
 score:
   band: emerging
   composite: 22.3
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -153,10 +153,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 28.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 22.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kratos/refs/heads/main/screenshots/kratos-2026-06-20T184150.png
 security:
 - kind: domain-security
@@ -165,7 +165,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: kratos
 tags:
-- Cloud Native
+- Cloud-Native
 - Frameworks
 - Go
 - gRPC

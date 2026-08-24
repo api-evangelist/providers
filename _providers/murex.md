@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ modified: '2026-05-19'
 name: Murex
 nav: Providers
 network: true
-overview: 'Murex publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Cash Flows API, Collateral API, and 20 more. Tagged areas include Capital Markets, Enterprise Software, Financial Services, Fintech, and Risk Management.
+overview: 'Murex publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Cash Flows API, Collateral API, and 20 more. Tagged areas include Capital Markets, Enterprise Software, Financial-Services, Fintech, and Risk Management.
 
 
   The Murex catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -296,7 +296,7 @@ rules:
 score:
   band: thin
   composite: 32.3
-  delta: -12.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -306,7 +306,7 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -320,9 +320,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/screenshots/murex-2026-06-20T185859.png
 security:
 - kind: authentication
@@ -337,7 +337,7 @@ slug: murex
 tags:
 - Capital Markets
 - Enterprise Software
-- Financial Services
+- Financial-Services
 - Fintech
 - Risk Management
 - Trading

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 50
 apis:
 - description: The Analytics API from Wispr AI — 3 operation(s) for analytics.
@@ -460,8 +460,8 @@ image: https://cdn.prod.website-files.com/682f84b3838c89f8ff7667db/683c611aba65a
 layout: provider
 mcp_servers:
 - description: ''
-  name: wispr-ai-mcp.yml
-  slug: wispr-ai-mcpyml
+  name: Wispr AI MCP Server
+  slug: wispr-ai-mcp-server
 modified: '2026-07-21'
 name: Wispr AI
 nav: Providers
@@ -474,7 +474,7 @@ random_paper: 14
 score:
   band: developing
   composite: 44.0
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -484,7 +484,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 45.6
+  previous_composite: 44.0
   provenance:
     conformance: first-party
     contracts:
@@ -494,8 +494,8 @@ score:
       total: 50
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/screenshots/wispr-ai-2026-08-17T130429.png
 security:

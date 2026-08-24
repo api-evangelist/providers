@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Create, configure, send, sign and manage contracts.
@@ -194,13 +194,13 @@ image: https://trato.io
 layout: provider
 mcp_servers:
 - description: ''
-  name: trato-mcp.yml
-  slug: trato-mcpyml
+  name: Trato MCP Server
+  slug: trato-mcp-server
 modified: '2026-07-21'
 name: Trato
 nav: Providers
 network: true
-overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contracts API, Custom Properties API, Participants API, and 2 more. Tagged areas include Company, Contract Management, Contract Lifecycle Management, Electronic Signature, and Legaltech.
+overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contracts API, Custom Properties API, Participants API, and 2 more. Tagged areas include Company, Contract Management, Contract Lifecycle Management, Electronic Signature, and Legal Tech.
 
 
   The Trato catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -211,7 +211,7 @@ random_paper: 8
 score:
   band: developing
   composite: 48.9
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 50.4
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +231,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/screenshots/trato-2026-08-17T082426.png
 security:
@@ -250,9 +250,9 @@ tags:
 - Contract Management
 - Contract Lifecycle Management
 - Electronic Signature
-- Legaltech
-- Document Management
-- Workflow Automation
+- Legal Tech
+- Document-Management
+- Workflow-Automation
 - Legal
 website: https://trato.io
 ---

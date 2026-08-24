@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -81,7 +81,7 @@ modified: '2026-08-13'
 name: Digital Room
 nav: Providers
 network: true
-overview: 'Digital Room is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Printing, Print, and Ecommerce.
+overview: 'Digital Room is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Printing, Print, and E-Commerce.
 
 
   Digital Room''s developer surface includes support and 5 more developer resources.'
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -107,11 +107,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 9.4
+  previous_composite: 9.1
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-room/refs/heads/main/screenshots/digital-room-2026-07-25T212021.png
 security:
@@ -125,7 +125,7 @@ tags:
 - Marketing
 - Printing
 - Print
-- Ecommerce
+- E-Commerce
 - Small Business
 - Promotional Products
 - Packaging

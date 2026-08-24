@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Matchory Discovery API exposes the resolved-and-enriched supplier data layer — verified supplier profiles, MatchoryID identity resolution, portfolio consolidation, risk signals, and market intelli
@@ -169,11 +169,11 @@ image: https://cdn.prod.website-files.com/6784f7971856e0304b40e3de/679028bece9dc
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: matchory-mcp.yml
-  slug: matchory-mcpyml
+  name: Matchory MCP Server
+  slug: matchory-mcp-server
+- description: First-party, remote Model Context Protocol server exposing Matchory's resolved-and-enriched supplier intelligence layer (verified supplier profiles, MatchoryID identity resolution, risk signals, portf
+  name: Matchory MCP Server
+  slug: matchory-mcp-server-2
 modified: '2026-08-14'
 name: Matchory
 nav: Providers
@@ -202,7 +202,7 @@ scopes:
 score:
   band: developing
   composite: 46.9
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -212,12 +212,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 49.2
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/screenshots/matchory-2026-07-25T230348.png
 security:

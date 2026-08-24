@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Actively's hosted (remote) Model Context Protocol server, which connects its Per-Account Agents — per-account research, strategy and persistent memory — into external AI clients such as ChatGPT, Claud
@@ -130,8 +130,8 @@ image: https://framerusercontent.com/images/rYdlvukOk7Ivrd88T13uZVYfc.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: actively-mcp.yml
-  slug: actively-mcpyml
+  name: Actively Intelligence MCP
+  slug: actively-intelligence-mcp
 modified: '2026-08-13'
 name: Actively
 nav: Providers
@@ -157,7 +157,7 @@ scopes:
 score:
   band: emerging
   composite: 24.4
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -167,12 +167,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 25.5
+  previous_composite: 24.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/screenshots/actively-2026-07-25T181529.png
 security:
@@ -199,10 +199,9 @@ tags:
 - AI Agents
 - Revenue Intelligence
 - Sales
-- Go To Market
+- Go-To-Market
 - MCP
-- OAuth
-- Model Context Protocol
+- Authentication
 - Sales Intelligence
 - Enterprise Software
 website: https://www.actively.ai/

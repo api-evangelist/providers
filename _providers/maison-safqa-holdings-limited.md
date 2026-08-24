@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -142,14 +142,14 @@ description: Maison Safqa Holdings Limited operates Maison Safqa, a members-only
 image: https://cdn.shopify.com/s/files/1/0865/0224/4663/files/logo-ms.svg?v=1763809309
 layout: provider
 mcp_servers:
-- description: ''
-  name: maison-safqa-holdings-limited-mcp.yml
-  slug: maison-safqa-holdings-limited-mcpyml
+- description: Candidate MCP tool surface derived one-to-one from the Maison Safqa Brand Developer API operations. No official hosted/remote MCP server was found for this provider; this is a governance starting poin
+  name: Maison Safqa Holdings Limited MCP Server
+  slug: maison-safqa-holdings-limited-mcp-server
 modified: '2026-07-20'
 name: Maison Safqa Holdings Limited
 nav: Providers
 network: true
-overview: 'Maison Safqa Holdings Limited publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inventory API and Products API. Tagged areas include Company, Retail, E-commerce, Luxury, and Marketplace.
+overview: 'Maison Safqa Holdings Limited publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inventory API and Products API. Tagged areas include Company, Retail, E-Commerce, Luxury, and Marketplace.
 
 
   Maison Safqa Holdings Limited''s developer surface includes documentation, support, authentication, sandbox, and 16 more developer resources.'
@@ -161,7 +161,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.2
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -171,7 +171,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 36.6
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -182,8 +182,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png
 security:
@@ -199,7 +199,7 @@ slug: maison-safqa-holdings-limited
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Luxury
 - Marketplace
 - Product Catalog

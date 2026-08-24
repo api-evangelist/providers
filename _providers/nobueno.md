@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 32
 apis:
 - description: The admin API from NoBueno — 51 operation(s) for admin.
@@ -277,13 +277,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nobueno.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: nobueno-mcp.yml
-  slug: nobueno-mcpyml
+  name: NoBueno MCP Server
+  slug: nobueno-mcp-server
 modified: '2026-07-20'
 name: NoBueno
 nav: Providers
 network: true
-overview: 'NoBueno publishes 32 APIs on the [APIs.io](https://apis.io/) network, including admin API, bitcoin API, categories API, and 29 more. Tagged areas include Company, Jobs, Recruiting, Hiring, and Talent.
+overview: 'NoBueno publishes 32 APIs on the [APIs.io](https://apis.io/) network, including admin API, bitcoin API, categories API, and 29 more. Tagged areas include Company, Job, Recruiting, Hiring, and Talent.
 
 
   NoBueno''s developer surface includes authentication and 10 more developer resources.'
@@ -291,7 +291,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 24.2
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -301,7 +301,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 23.5
+  previous_composite: 24.2
   provenance:
     conformance: derived
     contracts:
@@ -311,8 +311,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -326,7 +326,7 @@ security:
 slug: nobueno
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Hiring
 - Talent

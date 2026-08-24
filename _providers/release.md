@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -237,8 +237,8 @@ image: https://release.com/og/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: release-mcp.yml
-  slug: release-mcpyml
+  name: Release MCP Server
+  slug: release-mcp-server
 modified: '2026-07-21'
 name: Release
 nav: Providers
@@ -251,7 +251,7 @@ random_paper: 2
 score:
   band: developing
   composite: 51.0
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -261,7 +261,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 53.4
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,8 +272,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/screenshots/release-2026-08-17T081509.png
 security:

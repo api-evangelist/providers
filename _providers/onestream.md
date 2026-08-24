@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'RESTful JSON web service exposing OneStream Data Automation functions: Authentication, Data Management (ExecuteSequence, ExecuteStep), and Data Provider (ADO datasets from adapters, Cube Views, SQL, a'
@@ -139,8 +139,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onestream.
 layout: provider
 mcp_servers:
 - description: ''
-  name: onestream-mcp.yml
-  slug: onestream-mcpyml
+  name: OneStream MCP Server
+  slug: onestream-mcp-server
 modified: '2026-07-20'
 name: OneStream
 nav: Providers
@@ -153,7 +153,7 @@ random_paper: 8
 score:
   band: thin
   composite: 33.6
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -163,12 +163,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 32.7
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onestream/refs/heads/main/screenshots/onestream-2026-08-07T190345.png
 security:
@@ -194,6 +194,5 @@ tags:
 - Financial Close
 - Consolidation
 - Enterprise
-- API
 website: https://www.onestream.com
 ---

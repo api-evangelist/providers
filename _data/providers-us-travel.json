@@ -16,11 +16,11 @@
      "slug": "oracle-hospitality",
      "description": "Oracle Hospitality is Oracle Corporation's hotel and food-and-beverage technology line, built on the 2014 acquisition of MICROS Systems and anchored by OPERA Cloud, the property management system that runs the front desk, reservations, housekeeping, cashiering and event sales for a large share of the world's branded hotel rooms, alongside OPERA Cloud Distribution, Simphony point of sale and Nor1 upsell. Home market is the United States. It sits in the middle of the hotel distribution chain rather than at either end: it is the system of record a property runs on, and the switch through which that property's availability, rates and inventory reach GDS, OTA and web channels and through which reservations come back. Its API posture is unusually open at the specification layer and firmly gated at the credential layer - Oracle publishes 59 Swagger 2.0 specifications covering roughly 3,500 operations to a public GitHub repository under the Universal Permissive License, and publishes the full Oracle Hospitality Integration Platform (OHIP) developer guide openly, but there is no self-serve signup: partners must purchase Oracle Hospitality Integration Cloud Service through the Oracle Store or a CPQ form, production access requires an Oracle Partner Network reference number, and distribution channel partners additionally need an Oracle-issued global Channel Code and an Oracle Cloud Marketplace listing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png",
-     "score": 62.5,
+     "score": 61.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 57.4,
       "contract_quality": 61.2,
       "governance": 30.3,
       "contract_governance": 30.3,
@@ -29,8 +29,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -71,8 +71,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -131,8 +131,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -180,8 +180,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 60.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -221,8 +221,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -263,8 +263,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 43.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -292,21 +292,21 @@
      "slug": "airbnb",
      "description": "Airbnb is the world's leading home-sharing and short-term rental marketplace, connecting hosts who offer accommodations and experiences with guests worldwide. The Airbnb developer platform provides connectivity partners — property management systems, channel managers, and experience operators — with APIs to manage listings, reservations, calendars, messaging, reviews, and webhook-based event notifications. Access is restricted to approved partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png",
-     "score": 43.7,
+     "score": 44.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 78.2,
-      "governance": 26.5,
-      "contract_governance": 26.5,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -339,21 +339,21 @@
      "slug": "tripadvisor",
      "description": "Tripadvisor is the world's largest travel guidance platform, helping hundreds of millions of travelers each month find places to stay, things to do, and restaurants through reviews, photos, and tools. The platform maintains over 7.5 million locations and 1 billion reviews across 43 markets and 29 languages. Tripadvisor provides APIs for content integration, hotel connectivity, and restaurant reservations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/screenshots/tripadvisor-2026-06-20T195729.png",
-     "score": 42.7,
+     "score": 43.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 64.8,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 33.3,
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 35.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -394,8 +394,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -441,21 +441,21 @@
      "slug": "sabre",
      "description": "Sabre Corporation is a leading technology provider for the global travel industry, operating one of the world's largest travel marketplaces through its Global Distribution System (GDS). Sabre provides APIs for air shopping, booking, hotel reservations, car rentals, rail ticketing, and travel agency workflow automation to airlines, hotels, travel agencies, and online travel agencies (OTAs).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/screenshots/sabre-2026-06-20T193316.png",
-     "score": 38.2,
+     "score": 38.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 72.1,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 33.3,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 38.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -483,21 +483,21 @@
      "slug": "united-airlines",
      "description": "United Airlines is a major American airline headquartered in Chicago, Illinois. It operates one of the largest route networks in the world with hubs in Chicago, Denver, Houston, Los Angeles, New York, San Francisco, and Washington, D.C. United provides NDC (New Distribution Capability) APIs for flight shopping, booking, and servicing, as well as corporate travel integration capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/screenshots/united-airlines-2026-06-20T200049.png",
-     "score": 34.5,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 66.0,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 21.4,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 31.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -538,8 +538,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 39.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -579,8 +579,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -614,21 +614,21 @@
      "name": "American Airlines",
      "slug": "american-airlines",
      "description": "American Airlines is one of the world's largest airlines, operating an extensive domestic and international route network. The company's Runway developer experience platform, built on Spotify's Backstage, provides internal developer tooling and API management for engineering teams. American Airlines exposes flight data, status, and booking capabilities through its developer portal, and maintains an active open-source presence via the AmericanAirlines GitHub organization.",
-     "score": 29.1,
+     "score": 29.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 61.1,
-      "governance": 9.8,
-      "contract_governance": 9.8,
+      "governance": 13.6,
+      "contract_governance": 13.6,
       "operational_transparency": 7.9,
       "developer_ergonomics": 10.7,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -669,8 +669,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 18.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -710,8 +710,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -752,8 +752,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -801,8 +801,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -852,8 +852,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -894,8 +894,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -926,57 +926,15 @@
      "rank": 20
     },
     {
-     "name": "JetBlue",
-     "slug": "jetblue",
-     "description": "JetBlue Airways (IATA code B6) is a New York-headquartered low-cost United States carrier flying across the U.S., Caribbean, Latin America and Europe, with hubs and focus cities at JFK, Boston, Fort Lauderdale, Orlando and San Juan. In the travel distribution chain JetBlue sits as an inventory owner that sells through three channels: its own direct consumer surface (jetblue.com, the JetBlue app and the TrueBlue loyalty program), the legacy GDS channel where it files fares, seats and EMDs and settles through ARC in the U.S. and IATA BSPs internationally, and an IATA New Distribution Capability program that reaches agencies through GDS/NDC aggregators, corporate booking tools and online booking platforms. JetBlue publishes no public developer portal, no API reference and no downloadable OpenAPI or NDC schema: developer.jetblue.com, developers.jetblue.com and docs.jetblue.com do not resolve, api.jetblue.com answers 404 at every probed path, and the 361-URL public sitemap contains no developer or API page. The only published distribution surface is the travel-agent policy section at jetblue.com/travel-agents, including an NDC program page that states JetBlue supplies NDC API documentation, schema and message samples and certification guidelines to onboarded partners only, after business use-case submission, onboarding and certification testing. Selling JetBlue requires ARC accreditation in the U.S. or IATA accreditation plus local BSP participation abroad; JetBlue states it works with only a few OTAs and is not accepting new applications. Public docs, accreditation required, no self-serve access, and no exit path.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/screenshots/jetblue-2026-08-07T171000.png",
-     "score": 19.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 8.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Airlines",
-     "rank": 21
-    },
-    {
      "name": "Kayak",
      "slug": "kayak",
      "description": "KAYAK is a free travel metasearch engine that searches hundreds of travel sites at once so travelers can compare and find the lowest available prices on flights, hotels, rental cars, and vacation packages, with an extensive filtering system for narrowing results. Founded in 2004 and part of Booking Holdings, KAYAK operates a family of global travel brands (including momondo, Cheapflights, HotelsCombined, SWOODOO, checkfelix and Mundi) across 60+ international sites in 25+ languages. Beyond consumer metasearch it offers KAYAK for Business, a Flight Tracker, an Explore destination-discovery tool, and KAYAK AI trip-planning. KAYAK is a metasearch and price-comparison engine rather than an online travel agency — bookings are completed with the airline, hotel, car-rental company, or travel agency. This profile documents KAYAK's public discovery, AI, and security surface; KAYAK does not currently operate a public self-serve developer API program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kayak/refs/heads/main/screenshots/kayak-2026-07-25T223539.png",
-     "score": 19.3,
+     "score": 20.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -985,8 +943,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 2.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1007,6 +965,48 @@
       "dry_run_mode": false
      },
      "tier": "OTAs & Metasearch",
+     "rank": 21
+    },
+    {
+     "name": "JetBlue",
+     "slug": "jetblue",
+     "description": "JetBlue Airways (IATA code B6) is a New York-headquartered low-cost United States carrier flying across the U.S., Caribbean, Latin America and Europe, with hubs and focus cities at JFK, Boston, Fort Lauderdale, Orlando and San Juan. In the travel distribution chain JetBlue sits as an inventory owner that sells through three channels: its own direct consumer surface (jetblue.com, the JetBlue app and the TrueBlue loyalty program), the legacy GDS channel where it files fares, seats and EMDs and settles through ARC in the U.S. and IATA BSPs internationally, and an IATA New Distribution Capability program that reaches agencies through GDS/NDC aggregators, corporate booking tools and online booking platforms. JetBlue publishes no public developer portal, no API reference and no downloadable OpenAPI or NDC schema: developer.jetblue.com, developers.jetblue.com and docs.jetblue.com do not resolve, api.jetblue.com answers 404 at every probed path, and the 361-URL public sitemap contains no developer or API page. The only published distribution surface is the travel-agent policy section at jetblue.com/travel-agents, including an NDC program page that states JetBlue supplies NDC API documentation, schema and message samples and certification guidelines to onboarded partners only, after business use-case submission, onboarding and certification testing. Selling JetBlue requires ARC accreditation in the U.S. or IATA accreditation plus local BSP participation abroad; JetBlue states it works with only a few OTAs and is not accepting new applications. Public docs, accreditation required, no self-serve access, and no exit path.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/screenshots/jetblue-2026-08-07T171000.png",
+     "score": 19.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 8.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Airlines",
      "rank": 22
     },
     {
@@ -1027,8 +1027,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1069,8 +1069,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 15.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1111,8 +1111,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1152,8 +1152,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1204,8 +1204,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1245,8 +1245,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1286,8 +1286,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,

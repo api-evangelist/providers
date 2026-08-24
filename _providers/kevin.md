@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'PSD2 open-banking platform API: Authentication, General, Payment Initiation (PIS) and Account Information (AIS) services for account-to-account bank payments, card (hybrid) payments, refunds and accou'
@@ -122,14 +122,14 @@ description: kevin. was a Lithuanian account-to-account (A2A) payments infrastru
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kevin.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: kevin-mcp.yml
-  slug: kevin-mcpyml
+- description: Candidate MCP tool surface derived from the operationIds exposed by the official kevin. platform SDK (Auth, General, Payment Initiation, Account Information services). No official hosted MCP server wa
+  name: Kevin. MCP Server
+  slug: kevin-mcp-server
 modified: '2026-07-19'
 name: Kevin.
 nav: Providers
 network: true
-overview: 'Kevin. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Open Banking, Account to Account, and PSD2.
+overview: 'Kevin. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Open Banking, Account-to-Account, and PSD2.
 
 
   The Kevin. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -145,7 +145,7 @@ scopes:
 score:
   band: thin
   composite: 29.5
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -155,7 +155,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 32.3
+  previous_composite: 29.5
   provenance:
     conformance: derived
     mcp: derived
@@ -166,8 +166,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -183,7 +183,7 @@ tags:
 - Company
 - Payments
 - Open Banking
-- Account to Account
+- Account-to-Account
 - PSD2
 - Fintech
 - Bank Payments

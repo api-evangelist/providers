@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -343,7 +343,7 @@ modified: '2026-05-19'
 name: Amazon Resource Explorer
 nav: Providers
 network: true
-overview: 'Amazon Resource Explorer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Index API, Resources API, Search API, and 2 more. Tagged areas include Discovery, Inventory, Operations, and Resource Management.
+overview: 'Amazon Resource Explorer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Index API, Resources API, Search API, and 2 more. Tagged areas include Discovery, Inventory, and Resource Management.
 
 
   The Amazon Resource Explorer catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -383,18 +383,18 @@ rules:
   slug: amazon-resource-explorer-spectral-rules
 score:
   band: developing
-  composite: 45.9
-  delta: -7.5
+  composite: 46.4
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 58.7
     developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 53.4
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -402,9 +402,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/screenshots/amazon-resource-explorer-2026-06-20T171809.png
 security:
 - kind: authentication
@@ -427,7 +427,6 @@ slug: amazon-resource-explorer
 tags:
 - Discovery
 - Inventory
-- Operations
 - Resource Management
 website: https://aws.amazon.com/resourceexplorer/
 ---

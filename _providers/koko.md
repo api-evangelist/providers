@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The keyword-matching service behind Koko's Suicide Prevention Toolkit. Callers match a search term or post against Koko's risk taxonomy, filtered across three dimensions — category, confidence and int
@@ -168,8 +168,8 @@ image: https://avatars.githubusercontent.com/u/69280615?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: koko-mcp.yml
-  slug: koko-mcpyml
+  name: Koko MCP Server
+  slug: koko-mcp-server
 modified: '2026-07-19'
 name: Koko
 nav: Providers
@@ -182,7 +182,7 @@ random_paper: 16
 score:
   band: developing
   composite: 46.0
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -192,7 +192,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 44.7
+  previous_composite: 46.0
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +208,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/screenshots/koko-2026-07-25T224124.png
 security:
@@ -229,7 +229,7 @@ tags:
 - Suicide Prevention
 - Trust and Safety
 - Content Moderation
-- Nonprofit
+- Non-Profit
 - Health
 - Helplines
 website: https://kokocares.org

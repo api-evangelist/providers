@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -266,8 +266,8 @@ image: https://www.goodleap.com/opengraph-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: good-leap-mcp.yml
-  slug: good-leap-mcpyml
+  name: Good Leap MCP Server
+  slug: good-leap-mcp-server
 modified: '2026-07-19'
 name: Good Leap
 nav: Providers
@@ -280,7 +280,7 @@ random_paper: 6
 score:
   band: developing
   composite: 41.8
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -290,7 +290,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 41.3
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,8 +307,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
 security:
@@ -333,7 +333,7 @@ tags:
 - Solar
 - Home Improvement
 - Sustainability
-- Point of Sale
+- Point-of-Sale
 - Loans
 - Payments
 website: https://www.goodleap.com

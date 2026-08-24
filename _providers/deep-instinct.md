@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Versioned REST API exposed by the Deep Instinct DSX management console (D-Appliance) at https://<your-tenant-fqdn>/api/v1. Covers devices, device groups, policies, events (including the JSON event-sea
@@ -128,16 +128,16 @@ image: https://www.deepinstinct.com/image/bltefff210f63a383a8/68937a472607b85c99
 layout: provider
 mcp_servers:
 - description: ''
-  name: deep-instinct-mcp.yml
-  slug: deep-instinct-mcpyml
+  name: Deep Instinct MCP Server
+  slug: deep-instinct-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Deep Instinct MCP Server
+  slug: deep-instinct-mcp-server-2
 modified: '2026-08-01'
 name: Deep Instinct
 nav: Providers
 network: true
-overview: 'Deep Instinct publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include cybersecurity, endpoint-security, malware-prevention, ransomware, and deep-learning.
+overview: 'Deep Instinct publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, Endpoint Security, malware-prevention, Ransomware, and Deep Learning.
 
 
   Deep Instinct''s developer surface includes support, engineering blog, signup flow, authentication, and 19 more developer resources.'
@@ -150,7 +150,7 @@ scopes:
 score:
   band: thin
   composite: 26.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -160,12 +160,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 27.8
+  previous_composite: 26.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deep-instinct/refs/heads/main/screenshots/deep-instinct-2026-08-07T164228.png
 security:
@@ -183,15 +183,15 @@ security:
   summary_line: SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018:2019, PCI DSS, GDPR
 slug: deep-instinct
 tags:
-- cybersecurity
-- endpoint-security
+- Cybersecurity
+- Endpoint Security
 - malware-prevention
-- ransomware
-- deep-learning
-- threat-prevention
-- data-security
-- edr
-- soc-automation
-- mcp
+- Ransomware
+- Deep Learning
+- Threat Prevention
+- Data Security
+- EDR
+- SOC Automation
+- MCP
 website: https://www.deepinstinct.com/
 ---

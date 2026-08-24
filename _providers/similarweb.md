@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -334,9 +334,9 @@ jsonld:
   slug: similarweb-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: similarweb-mcp.yml
-  slug: similarweb-mcpyml
+- description: Similarweb operates a first-party hosted (remote) MCP server at https://mcp.similarweb.com that exposes its Web, Search and App intelligence datasets as MCP tools. It is not an npm or PyPI package — t
+  name: SimilarWeb MCP Server
+  slug: similarweb-mcp-server
 modified: '2026-08-13'
 name: SimilarWeb
 nav: Providers
@@ -376,7 +376,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.5
-  delta: -9.3
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -386,7 +386,7 @@ score:
     discoverability: 92.6
     governance: 40.2
     operational_transparency: 65.8
-  previous_composite: 80.8
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -397,9 +397,9 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/screenshots/similarweb-2026-06-20T193927.png
 security:
 - kind: authentication
@@ -424,7 +424,7 @@ tags:
 - Audience Demographics
 - App Intelligence
 - Market Research
-- E-commerce
+- E-Commerce
 - SEO
 website: https://www.similarweb.com/
 ---

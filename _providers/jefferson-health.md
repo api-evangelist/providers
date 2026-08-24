@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -460,18 +460,18 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.2
-  delta: 11.1
+  composite: 71.5
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 90.9
+    contract_governance: 100.0
     contract_quality: 59.9
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 90.9
+    discoverability: 74.1
+    governance: 100.0
     operational_transparency: 2.6
-  previous_composite: 61.1
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -488,9 +488,9 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/screenshots/jefferson-health-2026-06-20T183715.png
 security:
 - kind: authentication
@@ -514,7 +514,7 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- OAuth 2.0
+- Authentication
 - Patient Access
 - Provider Directory
 - SMART on FHIR

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Swytchcode''s publicly consumable surfaces: developer documentation and a published llms.txt. The primary interface is an npm-installable CLI plus a local MCP server (localhost-only, not a hosted endpo'
@@ -77,14 +77,14 @@ description: Deterministic API-execution layer for AI agents and developers that
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swytchcode.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: swytchcode-mcp.yml
-  slug: swytchcode-mcpyml
+- description: Local MCP server shipped inside the Swytchcode CLI (npm package `swytchcode`). Runs on the developer's machine, not a hosted/remote endpoint.
+  name: Swytchcode MCP Server
+  slug: swytchcode-mcp-server
 modified: '2026-06-20'
 name: Swytchcode
 nav: Providers
 network: true
-overview: 'Swytchcode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI agent tooling, agentic middleware, API integration, API orchestration, and API execution layer.
+overview: 'Swytchcode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI / Agent Tooling, agentic middleware, API Integration, API Orchestration, and API execution layer.
 
 
   Swytchcode''s developer surface includes engineering blog and 8 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 14
 score:
   band: minimal
   composite: 9.7
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -102,12 +102,12 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 10.7
+  previous_composite: 9.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -116,14 +116,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: swytchcode
 tags:
-- AI agent tooling
+- AI / Agent Tooling
 - agentic middleware
-- API integration
-- API orchestration
+- API Integration
+- API Orchestration
 - API execution layer
 - LLM tool execution
-- MCP server
-- developer tools
-- API documentation
+- MCP Server
+- Developer Tools
+- API Documentation
 - API playground
 ---

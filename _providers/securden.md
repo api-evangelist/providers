@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,8 +165,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/securden.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: securden-mcp.yml
-  slug: securden-mcpyml
+  name: Securden MCP Server
+  slug: securden-mcp-server
 modified: '2026-07-21'
 name: Securden
 nav: Providers
@@ -179,7 +179,7 @@ random_paper: 17
 score:
   band: developing
   composite: 44.6
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -189,7 +189,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 43.8
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -200,8 +200,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/screenshots/securden-2026-08-17T081746.png
 security:

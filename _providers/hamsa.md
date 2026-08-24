@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,7 +105,7 @@ modified: '2026-07-19'
 name: Hamsa
 nav: Providers
 network: true
-overview: 'Hamsa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Blockchain, Payments, and Tokenization.
+overview: 'Hamsa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Blockchain, Payments, and Tokenization.
 
 
   Hamsa''s developer surface includes documentation, API reference, engineering blog, authentication, and 12 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 19.9
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -123,7 +123,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.1
+  previous_composite: 19.9
   provenance:
     conformance: first-party
   regulatory:
@@ -132,8 +132,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/heads/main/screenshots/hamsa-2026-07-25T220608.png
 security:
@@ -148,7 +148,7 @@ security:
 slug: hamsa
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Blockchain
 - Payments
 - Tokenization

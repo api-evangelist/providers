@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,27 +88,27 @@ modified: '2026-07-17'
 name: Agentic Data Intelligence
 nav: Providers
 network: true
-overview: 'Agentic Data Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Data Analytics, Agents, and MCP.
+overview: 'Agentic Data Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Analytics, Agents, and MCP.
 
 
   Agentic Data Intelligence''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
 random_paper: 20
 score:
-  band: minimal
-  composite: 10.6
-  delta: -4.5
+  band: emerging
+  composite: 11.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 15.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-data-intelligence/refs/heads/main/screenshots/agentic-data-intelligence-2026-07-25T181759.png
 security:
@@ -123,7 +123,7 @@ security:
 slug: agentic-data-intelligence
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Data Analytics
 - Agents
 - MCP

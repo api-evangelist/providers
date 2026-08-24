@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -266,8 +266,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: zepto-payments-mcp.yml
-  slug: zepto-payments-mcpyml
+  name: Zepto MCP Server
+  slug: zepto-mcp-server
 modified: '2026-07-24'
 name: Zepto
 nav: Providers
@@ -288,7 +288,7 @@ scopes:
 score:
   band: strong
   composite: 60.0
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -298,7 +298,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 59.3
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -315,8 +315,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zepto-payments/refs/heads/main/screenshots/zepto-payments-2026-08-17T083057.png
 security:

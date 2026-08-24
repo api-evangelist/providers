@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,9 +121,9 @@ description: 'Celo is an Ethereum Layer 2 blockchain built for real-world paymen
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/celo-foundation.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: celo-foundation-mcp.yml
-  slug: celo-foundation-mcpyml
+- description: 'Model Context Protocol server providing access to the Celo blockchain — blockchain data, token operations, NFTs, smart contracts, transactions, and governance. Documented in Celo''s official developer '
+  name: Celo Foundation MCP Server
+  slug: celo-foundation-mcp-server
 modified: '2026-07-18'
 name: Celo Foundation
 nav: Providers
@@ -135,18 +135,18 @@ overview: 'Celo Foundation is profiled on the [APIs.io](https://apis.io/) networ
 random_paper: 10
 score:
   band: emerging
-  composite: 23.4
-  delta: -2.2
+  composite: 24.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 25.6
+  previous_composite: 24.5
   provenance:
     mcp: first-party
   regulatory:
@@ -155,8 +155,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celo-foundation/refs/heads/main/screenshots/celo-foundation-2026-07-25T204907.png
 security:

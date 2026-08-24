@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Create, retrieve, update, renew, replace, and convert physical and virtual cards; manage card status, cardholder details, card images, encrypted card data, and bulk card creation. The core issuing sur
@@ -157,8 +157,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: thredd-mcp.yml
-  slug: thredd-mcpyml
+  name: Thredd MCP Server
+  slug: thredd-mcp-server
 modified: '2026-07-24'
 name: Thredd
 nav: Providers
@@ -179,7 +179,7 @@ scopes:
 score:
   band: developing
   composite: 42.3
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -189,7 +189,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 44.1
+  previous_composite: 42.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -199,8 +199,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 70.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/screenshots/thredd-2026-08-17T082352.png
 security:
@@ -219,8 +219,8 @@ tags:
 - Issuer Processor
 - Card Issuing
 - Payment Processing
-- Banking-as-a-Service
-- Digital Wallets
+- Banking as a Service
+- Digital Wallet
 - Cross-Border
 - Fraud
 - Open Banking

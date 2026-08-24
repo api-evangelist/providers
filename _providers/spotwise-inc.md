@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'The product Model Context Protocol server for Spotwise aOS — the surface an agent connects to in order to reach Spotwise ad detections, leads, contacts and workflows. Streamable HTTP transport. Every '
@@ -153,8 +153,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spotwise-i
 layout: provider
 mcp_servers:
 - description: ''
-  name: spotwise-inc-mcp.yml
-  slug: spotwise-inc-mcpyml
+  name: Spotwise Model Context Protocol servers
+  slug: spotwise-model-context-protocol-servers
 modified: '2026-08-12'
 name: Spotwise, Inc.
 nav: Providers
@@ -180,7 +180,7 @@ scopes:
 score:
   band: emerging
   composite: 21.6
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -190,12 +190,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.0
+  previous_composite: 21.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -224,7 +224,7 @@ tags:
 - Lead Generation
 - Artificial Intelligence
 - Radio
-- Model Context Protocol
+- MCP
 - Agents
 - Attribution
 website: https://spotwise.ai

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,8 +167,8 @@ image: https://framerusercontent.com/images/eVsReqyksUv6paQaME2J7epX8.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: syncly-mcp.yml
-  slug: syncly-mcpyml
+  name: Syncly Social MCP Server
+  slug: syncly-social-mcp-server
 modified: '2026-08-13'
 name: Syncly
 nav: Providers
@@ -194,7 +194,7 @@ scopes:
 score:
   band: developing
   composite: 46.2
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -204,14 +204,14 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 50.2
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/screenshots/syncly-2026-08-17T082226.png
 security:

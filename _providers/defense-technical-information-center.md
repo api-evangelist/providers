@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'Public-facing website of the Defense Technical Information Center describing DTIC services, products, and access programs. The site links to Discover, R&E Gateway, training, and registration but does '
@@ -97,7 +97,7 @@ modified: '2026-04-28'
 name: Defense Technical Information Center
 nav: Providers
 network: true
-overview: 'Defense Technical Information Center publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DTIC, Federal Government, and Knowledge Management.
+overview: 'Defense Technical Information Center publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DTIC, Federal-Government, and Knowledge-Management.
 
 
   Defense Technical Information Center''s developer surface includes documentation, product news, and 7 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.0
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -123,15 +123,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 15.7
+  previous_composite: 12.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 14.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -143,8 +143,8 @@ tags:
 - Defense
 - Department of Defense
 - DTIC
-- Federal Government
-- Knowledge Management
+- Federal-Government
+- Knowledge-Management
 - Library
 - Research
 - Scientific and Technical Information

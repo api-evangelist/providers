@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -249,7 +249,7 @@ modified: '2026-05-23'
 name: OpenHands
 nav: Providers
 network: true
-overview: 'OpenHands publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Add Git Providers API, Alive API, Conversations API, and 7 more. Tagged areas include AI, Agents, Autonomous, Open Source, and Developer Tools.
+overview: 'OpenHands publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Add Git Providers API, Alive API, Conversations API, and 7 more. Tagged areas include Artificial Intelligence, Agents, Autonomous, Open-Source, and Developer Tools.
 
 
   OpenHands'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 20 more developer resources.'
@@ -265,7 +265,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.2
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -281,7 +281,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 43.9
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -289,8 +289,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/screenshots/openhands-2026-06-20T191005.png
 security:
@@ -308,10 +308,10 @@ security:
   summary_line: security.txt · contact published
 slug: openhands
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Autonomous
-- Open Source
+- Open-Source
 - Developer Tools
 - Software Engineering
 - Code Generation

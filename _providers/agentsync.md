@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'A modern REST API delivering enriched, actionable producer and adjuster data from the NIPR (200+ data points: licensing, carrier appointments, adjuster licensing) into your existing tech stack. OAuth '
@@ -129,7 +129,7 @@ modified: '2026-07-17'
 name: Agentsync
 nav: Providers
 network: true
-overview: 'Agentsync publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Compliance, and Producer Management.
+overview: 'Agentsync publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Compliance, and Producer Management.
 
 
   Agentsync''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, sandbox, and 14 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 6
 score:
   band: thin
   composite: 37.2
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -147,7 +147,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 35.1
+  previous_composite: 37.2
   provenance:
     conformance: first-party
   regulatory:
@@ -156,8 +156,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentsync/refs/heads/main/screenshots/agentsync-2026-07-25T195248.png
 security:
@@ -177,12 +177,12 @@ slug: agentsync
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Compliance
 - Producer Management
 - Licensing
 - NIPR
 - REST
-- OAuth2
+- Authentication
 website: https://agentsync.io
 ---

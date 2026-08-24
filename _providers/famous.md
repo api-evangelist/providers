@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Spring (formerly Teespring) Seller API — a Swagger 2.0 contract with 24 operations across three surfaces: `seller/v1/*` (the authenticated seller''s dashboard, campaigns, orders, payouts, promotion'
@@ -203,7 +203,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.5
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -213,13 +213,13 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 47.3
+  previous_composite: 45.5
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/screenshots/famous-2026-07-25T214205.png
 security:
@@ -242,12 +242,12 @@ tags:
 - Commerce
 - Live Shopping
 - Media
-- Ecommerce
+- E-Commerce
 - Marketing
 - Print on Demand
 - Merchandise
 - Storefronts
-- Orders
+- Order
 - Payouts
 website: https://amaze.co/
 ---

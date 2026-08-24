@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -193,7 +193,7 @@ modified: '2026-08-04'
 name: GRIN Therapeutics
 nav: Providers
 network: true
-overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 5 more. Tagged areas include Company, biotechnology, pharmaceuticals, neuroscience, and rare-disease.
+overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 5 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Neuroscience, and Rare Disease.
 
 
   GRIN Therapeutics'' developer surface includes product news, support, authentication, and 24 more developer resources.'
@@ -201,7 +201,7 @@ random_paper: 10
 score:
   band: thin
   composite: 33.4
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 28.2
+  previous_composite: 33.4
   provenance:
     conformance: derived
     contracts:
@@ -226,9 +226,9 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/screenshots/grin-therapeutics-2026-08-07T165843.png
 security:
 - kind: authentication
@@ -242,15 +242,15 @@ security:
 slug: grin-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- neuroscience
-- rare-disease
-- precision-medicine
-- clinical-trials
-- pediatrics
-- epilepsy
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Neuroscience
+- Rare Disease
+- Precision Medicine
+- Clinical Trials
+- Pediatrics
+- Epilepsy
+- Life Sciences
 - content-api
 website: https://grintherapeutics.com/
 ---

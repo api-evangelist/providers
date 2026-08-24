@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -315,8 +315,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lemlist.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: lemlist-mcp.yml
-  slug: lemlist-mcpyml
+  name: lemlist MCP Server
+  slug: lemlist-mcp-server
 modified: '2026-08-13'
 name: lemlist
 nav: Providers
@@ -345,7 +345,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.0
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -355,7 +355,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 71.4
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -366,8 +366,8 @@ score:
       total: 20
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/screenshots/lemlist-2026-06-20T184417.png
 security:
@@ -399,7 +399,7 @@ tags:
 - Deliverability
 - CRM
 - Multichannel Messaging
-- Webhooks
+- Webhook
 - MCP
 website: https://www.lemlist.com
 ---

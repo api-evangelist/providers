@@ -27,10 +27,10 @@ agent_readiness:
     rate_limit_signal: verified
     reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 59.4
-  scored_at: '2026-08-19'
+  score: 62.8
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -536,18 +536,18 @@ scopes:
   summary_line: 1 scope · implicit/authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 73.5
-  delta: 6.2
+  composite: 74.6
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 16.7
     contract_quality: 68.1
     developer_ergonomics: 76.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 67.3
+  previous_composite: 74.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -564,9 +564,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 72.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/screenshots/getresponse-2026-06-20T181811.png
 security:
 - kind: authentication
@@ -591,7 +591,7 @@ tags:
 - CRM
 - Transactional Email
 - SMS
-- Ecommerce
+- E-Commerce
 - Web Push
 - Forms
 - Newsletters

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -217,7 +217,7 @@ modified: '2026-08-04'
 name: Kriya Therapeutics
 nav: Providers
 network: true
-overview: 'Kriya Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Forms API, Media API, and 7 more. Tagged areas include Company, biotechnology, pharmaceuticals, gene-therapy, and aav.
+overview: 'Kriya Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Forms API, Media API, and 7 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Gene Therapy, and AAV.
 
 
   Kriya Therapeutics'' developer surface includes product news, support, authentication, and 27 more developer resources.'
@@ -225,7 +225,7 @@ random_paper: 17
 score:
   band: developing
   composite: 39.7
-  delta: 9.1
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 30.6
+  previous_composite: 39.7
   provenance:
     conformance: derived
     contracts:
@@ -250,9 +250,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/screenshots/kriya-therapeutics-2026-08-07T171340.png
 security:
 - kind: authentication
@@ -266,16 +266,16 @@ security:
 slug: kriya-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- gene-therapy
-- aav
-- ophthalmology
-- metabolic-disease
-- neurology
-- life-sciences
-- clinical-trials
-- biomanufacturing
+- Biotechnology
+- Pharmaceuticals
+- Gene Therapy
+- AAV
+- Ophthalmology
+- Metabolic Disease
+- Neurology
+- Life Sciences
+- Clinical Trials
+- Biomanufacturing
 - content-api
 website: https://kriyatherapeutics.com/
 ---

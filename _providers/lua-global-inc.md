@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Consume a deployed Lua agent directly over HTTP — single-shot generation or real-time SSE streaming — with bearer API-key auth.
@@ -158,9 +158,9 @@ description: Lua (heylua.ai), operated by Lua Global Inc, is a Y Combinator-back
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lua-global-inc.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: lua-global-inc-mcp.yml
-  slug: lua-global-inc-mcpyml
+- description: Read-only MCP server for the Lua AI platform (heylua.ai) — exposes tools that let any MCP-aware client query Lua agent state mid-conversation.
+  name: Lua Global Inc MCP Server
+  slug: lua-global-inc-mcp-server
 modified: '2026-07-20'
 name: Lua Global Inc
 nav: Providers
@@ -175,25 +175,25 @@ overview: 'Lua Global Inc publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 7
 score:
   band: thin
-  composite: 37.0
-  delta: -5.7
+  composite: 38.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 45.1
     developer_ergonomics: 70.8
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 42.7
+  previous_composite: 38.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lua-global-inc/refs/heads/main/screenshots/lua-global-inc-2026-07-25T225637.png
 security:
 - kind: authentication
@@ -215,7 +215,7 @@ tags:
 - AI Agents
 - Agent Platform
 - Developer Tools
-- Model Context Protocol
+- MCP
 - Conversational AI
 - Chatbots
 - Automation

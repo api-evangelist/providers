@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -730,9 +730,9 @@ jsonld:
   slug: aws-lambda-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: aws-lambda-mcp.yml
-  slug: aws-lambda-mcpyml
+- description: Official AWS Labs MCP server that turns AWS Lambda functions into MCP tools. It acts as a bridge between MCP clients and Lambda, letting generative-AI models select and invoke Lambda functions as tool
+  name: AWS Lambda MCP Server
+  slug: aws-lambda-mcp-server
 modified: '2026-06-20'
 name: AWS Lambda
 nav: Providers
@@ -789,7 +789,7 @@ rules:
 score:
   band: developing
   composite: 53.3
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -799,7 +799,7 @@ score:
     discoverability: 83.3
     governance: 45.5
     operational_transparency: 23.7
-  previous_composite: 57.5
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -813,8 +813,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/screenshots/aws-lambda-2026-06-20T172758.png
 security:

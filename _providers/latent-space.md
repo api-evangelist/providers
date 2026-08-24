@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Latent Space
 nav: Providers
 network: true
-overview: Latent Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Machine Learning, and Predictive Analytics.
+overview: Latent Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Machine-Learning, and Predictive Analytics.
 random_paper: 20
 score:
   band: minimal
@@ -94,8 +94,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 6.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/latent-space/refs/heads/main/screenshots/latent-space-2026-07-25T224600.png
 security:
@@ -108,7 +108,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 - Venture Backed
 - North America

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-20'
 name: ProductNow
 nav: Providers
 network: true
-overview: 'ProductNow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Agents, Model Context Protocol, and Documentation.
+overview: 'ProductNow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and Documentation.
 
 
   ProductNow''s developer surface includes engineering blog, signup flow, support, and 10 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 11.6
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -110,9 +110,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -130,11 +130,11 @@ security:
 slug: productnow
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agents
-- Model Context Protocol
+- MCP
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Developer Tools
 - Context
 website: https://productnow.ai/

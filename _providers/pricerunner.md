@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Product and price data API marketed by Pricerunner for retailers and businesses: product search, competitor analysis, market trend identification, price history and automatic price matching across rou'
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: Pricerunner
 nav: Providers
 network: true
-overview: 'Pricerunner publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Price Comparison, E-commerce, and Shopping.
+overview: 'Pricerunner publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Price Comparison, E-Commerce, and Shopping.
 
 
   Pricerunner''s developer surface includes signup flow, support, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 15.6
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -90,9 +90,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -104,7 +104,7 @@ tags:
 - Company
 - Consumer
 - Price Comparison
-- E-commerce
+- E-Commerce
 - Shopping
 - Product Data
 - Retail

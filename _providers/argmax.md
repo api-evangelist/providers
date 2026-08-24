@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A local transcription server for macOS that is API-compatible with the Deepgram Speech-to-Text (Live) API, exposing a WebSocket streaming interface (default ws://localhost:50060) driven by the officia
@@ -137,7 +137,7 @@ modified: '2026-07-18'
 name: Argmax
 nav: Providers
 network: true
-overview: 'Argmax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Machine Learning, and On-Device Inference.
+overview: 'Argmax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Machine-Learning, and On-Device Inference.
 
 
   Argmax''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, changelog, sandbox, and 16 more developer resources.'
@@ -145,7 +145,7 @@ random_paper: 10
 score:
   band: thin
   composite: 34.3
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -155,9 +155,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 33.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 34.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argmax/refs/heads/main/screenshots/argmax-2026-07-25T201142.png
 security:
@@ -174,14 +174,14 @@ tags:
 - Company
 - Enterprise
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - On-Device Inference
 - Speech Recognition
-- Speech to Text
+- Speech-to-Text
 - Transcription
 - Speaker Diarization
-- Image Generation
-- SDKs
+- Image-Generation
+- SDK
 - Apple Silicon
 - Edge AI
 website: https://www.argmaxinc.com

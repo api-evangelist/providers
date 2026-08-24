@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for live Spectrum internet, TV, and phone outage data across the US. Bearer API key required on all endpoints. Endpoints include /stats, /reports, /cities/{slug}, /states, /zip/{zip}, and /ma
@@ -143,7 +143,7 @@ modified: '2026-08-11'
 name: SpectrumOutage API
 nav: Providers
 network: true
-overview: 'SpectrumOutage API publishes 1 API on the [APIs.io](https://apis.io/) network: v1. Tagged areas include spectrum, outage, internet, tv, and phone.
+overview: 'SpectrumOutage API publishes 1 API on the [APIs.io](https://apis.io/) network: v1. Tagged areas include Spectrum, outage, Internet, TV, and Phone.
 
 
   SpectrumOutage API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 19 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.1
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 44.6
+  previous_composite: 48.1
   provenance:
     conformance: derived
     contracts:
@@ -185,8 +185,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/screenshots/spectrumoutage-api-2026-08-17T082021.png
 security:
@@ -200,17 +200,17 @@ security:
   summary_line: TLSv1.2
 slug: spectrumoutage-api
 tags:
-- spectrum
+- Spectrum
 - outage
-- internet
-- tv
-- phone
-- monitoring
-- status
-- zip-code
-- telecom
-- isp
+- Internet
+- TV
+- Phone
+- Monitoring
+- Status
+- ZIP Code
+- Telecom
+- ISP
 - network-status
-- crowdsourced
+- Crowdsourced
 website: https://api.spectrumoutage.us
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The @hcengineering/api-client Node.js package provides typed programmatic access to the Huly Platform. It exposes a WebSocket client (connect) holding a persistent transactor connection and a REST cli
@@ -97,7 +97,7 @@ modified: '2026-06-21'
 name: Huly
 nav: Providers
 network: true
-overview: 'Huly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Platform SDK, Cloud, Tracker, and 1 more. Tagged areas include Project Management, Collaboration, Open Source, Productivity, and SDK.
+overview: 'Huly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Platform SDK, Cloud, Tracker, and 1 more. Tagged areas include Project Management, Collaboration, Open-Source, Productivity, and SDK.
 
 
   Huly''s developer surface includes documentation and 7 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -123,9 +123,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 29.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/screenshots/huly-2026-07-25T221637.png
 security:
@@ -137,7 +137,7 @@ slug: huly
 tags:
 - Project Management
 - Collaboration
-- Open Source
+- Open-Source
 - Productivity
 - SDK
 website: https://huly.io/

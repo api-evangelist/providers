@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -268,16 +268,16 @@ rules:
   slug: cloverly-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.2
+  composite: 51.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.7
     developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -285,7 +285,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 50.4
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -299,8 +299,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/screenshots/cloverly-2026-06-20T174623.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -113,7 +113,7 @@ modified: '2026-08-13'
 name: MadeThis
 nav: Providers
 network: true
-overview: 'MadeThis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Business Automation, and SaaS.
+overview: 'MadeThis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Business Automation, and Software-as-a-Service.
 
 
   MadeThis'' developer surface includes signup flow, pricing, authentication, support, and 10 more developer resources.'
@@ -134,7 +134,7 @@ scopes:
 score:
   band: emerging
   composite: 26.0
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -144,12 +144,12 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 26.7
+  previous_composite: 26.0
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/screenshots/madethis-2026-07-25T225830.png
 security:
@@ -167,7 +167,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Business Automation
-- SaaS
+- Software-as-a-Service
 - Marketing Automation
 - Startup Tools
 - Y Combinator

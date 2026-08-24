@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Search API for Launchmetrics publications. GET/POST /documents runs a Lucene-syntax query across the indexed publication corpus with filters for period, channel type, topic path, language, country and
@@ -151,7 +151,7 @@ modified: '2026-08-17'
 name: Launchmetrics
 nav: Providers
 network: true
-overview: 'Launchmetrics publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Marketing, Public Relations, and Media Monitoring.
+overview: 'Launchmetrics publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Marketing, Public Relations, and Media Monitoring.
 
 
   Launchmetrics'' developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, sandbox, and 19 more developer resources.'
@@ -167,6 +167,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.7
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -176,11 +177,13 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 2.6
+  previous_composite: 21.7
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Launchmetrics Authentication
@@ -197,11 +200,11 @@ security:
 slug: launchmetrics
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Marketing
 - Public Relations
 - Media Monitoring
-- Social Media
+- Social-Media
 - Analytics
 - Fashion
 - Luxury

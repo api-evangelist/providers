@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -397,7 +397,7 @@ modified: '2026-05-30'
 name: Front
 nav: Providers
 network: true
-overview: 'Front publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Application Message Templates API, and 33 more. Tagged areas include Customer Support, Email, Inbox, Customer Operations, and Collaboration.
+overview: 'Front publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Application Message Templates API, and 33 more. Tagged areas include Customer-Support, Email, Inbox, Customer Operations, and Collaboration.
 
 
   Front''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 18 more developer resources.'
@@ -413,7 +413,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.0
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -423,7 +423,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 30.3
-  previous_composite: 44.6
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -431,8 +431,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/screenshots/front-2026-06-20T181553.png
 security:
@@ -454,7 +454,7 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: front
 tags:
-- Customer Support
+- Customer-Support
 - Email
 - Inbox
 - Customer Operations

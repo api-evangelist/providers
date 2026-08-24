@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,7 +81,7 @@ modified: '2026-07-18'
 name: Dropsuite
 nav: Providers
 network: true
-overview: 'Dropsuite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Backup, Data Protection, Email Archiving, and Microsoft 365.
+overview: 'Dropsuite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Backup, Data Protection, Email Archiving, and Microsoft-365.
 
 
   Dropsuite''s developer surface includes documentation, support, API reference, engineering blog, authentication, and 5 more developer resources.'
@@ -89,7 +89,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 17.1
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -99,9 +99,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropsuite/refs/heads/main/screenshots/dropsuite-2026-07-25T212426.png
 security:
@@ -119,7 +119,7 @@ tags:
 - Cloud Backup
 - Data Protection
 - Email Archiving
-- Microsoft 365
+- Microsoft-365
 - Google Workspace
 - MSP
 - Compliance

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Twirp is a simple RPC framework with protobuf service definitions. Define your service in a .proto file and Twirp generates servers and clients implementing the Twirp wire protocol. Services are expos
@@ -102,7 +102,7 @@ modified: '2026-05-03'
 name: Twirp
 nav: Providers
 network: true
-overview: 'Twirp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Protocol Buffers, RPC, Go, SDKs, and Open Source.
+overview: 'Twirp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Protocol Buffers, RPC, Go, SDK, and Open-Source.
 
 
   The Twirp catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -132,7 +132,7 @@ rules:
 score:
   band: emerging
   composite: 18.0
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -142,18 +142,18 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 23.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 18.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twirp/refs/heads/main/screenshots/twirp-2026-06-20T195851.png
 slug: twirp
 tags:
 - Protocol Buffers
 - RPC
 - Go
-- SDKs
-- Open Source
+- SDK
+- Open-Source
 - Protobuf
 website: https://twitchtv.github.io/twirp/
 ---

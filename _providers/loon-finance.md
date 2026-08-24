@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,31 +156,31 @@ image: https://loon.finance/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: loon-finance-mcp.yml
-  slug: loon-finance-mcpyml
+  name: Loon Finance MCP Server
+  slug: loon-finance-mcp-server
 modified: '2026-07-20'
 name: Loon Finance
 nav: Providers
 network: true
-overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Attestations API, Issuances API, and Supply API. Tagged areas include Company, Fintech, Stablecoin, Cryptocurrency, and Payments.
+overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Attestations API, Issuances API, and Supply API. Tagged areas include Company, Fintech, Stablecoins, Cryptocurrency, and Payments.
 
 
   Loon Finance''s developer surface includes documentation, engineering blog, support, and 19 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 47.1
-  delta: 9.9
+  composite: 48.2
+  delta: 0.0
   facets:
     access_clarity: 78.6
     commercial_clarity: 78.6
     contract_governance: 30.3
     contract_quality: 52.0
     developer_ergonomics: 18.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 37.2
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -197,9 +197,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png
 security:
 - kind: domain-security
@@ -214,7 +214,7 @@ slug: loon-finance
 tags:
 - Company
 - Fintech
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Canada

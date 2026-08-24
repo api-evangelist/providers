@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-20'
 name: Rabbet
 nav: Providers
 network: true
-overview: 'Rabbet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Construction Finance, Construction Lending, and Real Estate.
+overview: 'Rabbet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Construction Finance, Construction Lending, and Real-Estate.
 
 
   Rabbet''s developer surface includes documentation, support, engineering blog, pricing, and 10 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 20.8
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -114,15 +114,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 24.8
+  previous_composite: 20.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -139,7 +139,7 @@ tags:
 - Fintech
 - Construction Finance
 - Construction Lending
-- Real Estate
+- Real-Estate
 - Draw Management
 - Loan Origination
 - Payments

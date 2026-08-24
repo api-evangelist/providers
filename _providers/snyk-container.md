@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -243,18 +243,18 @@ rules:
   slug: snyk-container-rules
 score:
   band: developing
-  composite: 53.1
-  delta: -5.3
+  composite: 53.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.4
     developer_ergonomics: 61.9
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 58.4
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -262,9 +262,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/screenshots/snyk-container-2026-06-20T194116.png
 security:
 - kind: authentication
@@ -291,6 +291,6 @@ tags:
 - Security
 - Vulnerability Management
 - DevSecOps
-- Open Source
+- Open-Source
 website: https://snyk.io/
 ---

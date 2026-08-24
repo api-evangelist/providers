@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ modified: '2026-05-24'
 name: Beatoven.ai
 nav: Providers
 network: true
-overview: 'Beatoven.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tasks API and Tracks API. Tagged areas include AI, Artificial Intelligence, Music, Music Generation, and Generative Audio.
+overview: 'Beatoven.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tasks API and Tracks API. Tagged areas include Artificial Intelligence, Music, Music Generation, Generative Audio, and Text-to-Music.
 
 
   The Beatoven.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -244,16 +244,16 @@ rules:
   slug: beatoven-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 55.4
-  delta: -1.1
+  composite: 56.5
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 45.5
+    contract_governance: 54.5
     contract_quality: 73.1
     developer_ergonomics: 48.8
     discoverability: 68.5
-    governance: 45.5
+    governance: 54.5
     operational_transparency: 2.6
   previous_composite: 56.5
   provenance:
@@ -263,8 +263,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -277,12 +277,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: beatoven
 tags:
-- AI
 - Artificial Intelligence
 - Music
 - Music Generation
 - Generative Audio
-- Text To Music
+- Text-to-Music
 - Text To SFX
 - Royalty-Free Music
 - Background Music

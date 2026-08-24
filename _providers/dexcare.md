@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: RESTful service for accessing business information and performing actions against DexCare-managed healthcare environments. The umbrella reference covering the Patient and Reporting surfaces, which are
@@ -174,9 +174,9 @@ description: 'DexCare is a healthcare navigation and care-orchestration platform
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dexcare.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: dexcare-mcp.yml
-  slug: dexcare-mcpyml
+- description: DexCare publishes no Model Context Protocol server. Searched the DexCare developer portal (developers.dexcarehealth.com), dexcare.com, the DexCare GitHub organization (8 public repos, none MCP-related
+  name: DexCare (candidate MCP server)
+  slug: dexcare-candidate-mcp-server
 modified: '2026-08-15'
 name: DexCare
 nav: Providers
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.5
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 48.4
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     contracts:
@@ -223,8 +223,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png
 security:

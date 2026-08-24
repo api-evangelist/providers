@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 42
 apis:
 - description: The OldV1PriorAuthorizationResource API from Silna — 1 operation(s) for oldv1priorauthorizationresource.
@@ -419,9 +419,9 @@ description: Silna Health is a healthcare automation platform that handles prior
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/silna.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: silna-mcp.yml
-  slug: silna-mcpyml
+- description: Candidate Model Context Protocol (MCP) tool surface derived from the Silna Public API OpenAPI operations. Silna does not publish an official hosted/remote MCP server; this is a proposed mapping of RES
+  name: Silna MCP Server
+  slug: silna-mcp-server
 modified: '2026-07-21'
 name: Silna
 nav: Providers
@@ -438,7 +438,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.1
-  delta: 6.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -448,7 +448,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 50.1
+  previous_composite: 56.1
   provenance:
     conformance: derived
     contracts:
@@ -464,9 +464,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 53.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/screenshots/silna-2026-08-17T081856.png
 security:
 - kind: authentication
@@ -491,6 +491,5 @@ tags:
 - Eligibility
 - Insurance
 - Revenue Cycle
-- API
 website: https://www.silnahealth.com/
 ---

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -231,9 +231,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simpleanalytics.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: simpleanalytics-mcp.yml
-  slug: simpleanalytics-mcpyml
+- description: Simple Analytics publishes no MCP server. Probes of mcp.simpleanalytics.com (DNS does not resolve), simpleanalytics.com/mcp (404), www.simpleanalytics.com/mcp (404), docs.simpleanalytics.com/mcp (404)
+  name: Simple Analytics MCP Server
+  slug: simple-analytics-mcp-server
 modified: '2026-08-13'
 name: Simple Analytics
 nav: Providers
@@ -254,7 +254,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.2
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -264,7 +264,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 66.7
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,8 +275,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/screenshots/simpleanalytics-2026-08-17T080419.png
 security:
@@ -299,7 +299,7 @@ tags:
 - Privacy
 - Cookieless
 - GDPR
-- Events
+- Event
 - Data Export
 - Europe
 website: https://www.simpleanalytics.com

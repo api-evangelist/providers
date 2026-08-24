@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Partner-gated API that lets authorized integrators programmatically read vehicle information and update list price for inventory in the vAuto ecosystem. Listed as vAuto Inventory API 1.x on the Cox Au
@@ -96,7 +96,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 13.1
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -106,9 +106,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 16.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

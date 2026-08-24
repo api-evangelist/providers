@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Foxy Hypermedia API (hAPI) is a RESTful hypermedia API implementing HATEOAS design, giving developers complete control over Foxy store accounts. Supports managing stores, customers, transactions, '
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: Foxy.io
 nav: Providers
 network: true
-overview: 'Foxy.io publishes 1 API on the [APIs.io](https://apis.io/) network: Foxy hAPI. Tagged areas include E-Commerce, Shopping Cart, Subscriptions, Payments, and Transactions.
+overview: 'Foxy.io publishes 1 API on the [APIs.io](https://apis.io/) network: Foxy hAPI. Tagged areas include E-Commerce, Shopping Cart, Subscription, Payments, and Transaction.
 
 
   Foxy.io''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.6
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -123,15 +123,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.8
+  previous_composite: 25.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foxycart/refs/heads/main/screenshots/foxycart-2026-06-20T181505.png
 security:
@@ -143,9 +143,9 @@ slug: foxycart
 tags:
 - E-Commerce
 - Shopping Cart
-- Subscriptions
+- Subscription
 - Payments
-- Transactions
+- Transaction
 - Customers
 - Digital Products
 website: https://www.foxy.io/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST API for trading, order management, RFQ, account balances and transactions, transfers/deposits/withdrawals, custody (sFOX SAFE), staking, post-trade settlement, market data, and reporting. Bearer-
@@ -153,8 +153,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sfox.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sfox-mcp.yml
-  slug: sfox-mcpyml
+  name: Sfox MCP Server
+  slug: sfox-mcp-server
 modified: '2026-07-21'
 name: Sfox
 nav: Providers
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.7
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 46.1
+  previous_composite: 44.7
   provenance:
     conformance: derived
     mcp: derived
@@ -194,8 +194,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/screenshots/sfox-2026-08-17T081823.png
 security:
@@ -217,7 +217,7 @@ tags:
 - Liquidity
 - Staking
 - Institutional
-- Financial Services
+- Financial-Services
 - Market Data
 - WebSocket
 - FIX

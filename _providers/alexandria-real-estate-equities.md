@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,12 +88,12 @@ modified: '2026-05-04'
 name: Alexandria Real Estate Equities
 nav: Providers
 network: true
-overview: Alexandria Real Estate Equities is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Life Sciences, REIT, Commercial Real Estate, and Biotechnology.
+overview: Alexandria Real Estate Equities is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Life Sciences, REIT, Commercial Real Estate, and Biotechnology.
 random_paper: 15
 score:
   band: minimal
   composite: 2.8
-  delta: -7.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -103,16 +103,16 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.0
+  previous_composite: 2.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alexandria-real-estate-equities/refs/heads/main/screenshots/alexandria-real-estate-equities-2026-06-20T171514.png
 security:
 - kind: domain-security
@@ -121,7 +121,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: alexandria-real-estate-equities
 tags:
-- Real Estate
+- Real-Estate
 - Life Sciences
 - REIT
 - Commercial Real Estate

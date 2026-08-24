@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -2851,7 +2851,7 @@ modified: '2026-05-19'
 name: Vapi
 nav: Providers
 network: true
-overview: 'Vapi publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Assistants API, Calls API, and 12 more. Tagged areas include AI, Voice, Agents, Realtime, and CPaaS.
+overview: 'Vapi publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Assistants API, Calls API, and 12 more. Tagged areas include Artificial Intelligence, Voice, Agents, Real-Time, and CPaaS.
 
 
   The Vapi catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -2881,7 +2881,7 @@ rules:
 score:
   band: thin
   composite: 31.2
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -2891,7 +2891,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 35.3
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -2905,8 +2905,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/screenshots/vapi-2026-06-20T200920.png
 security:
@@ -2924,10 +2924,10 @@ security:
   summary_line: SOC 2, PCI DSS, GDPR
 slug: vapi
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Agents
-- Realtime
+- Real-Time
 - CPaaS
 website: https://vapi.ai/
 ---

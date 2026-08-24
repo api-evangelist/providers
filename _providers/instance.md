@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -286,13 +286,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instance.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: instance-mcp.yml
-  slug: instance-mcpyml
+  name: Instance MCP Server
+  slug: instance-mcp-server
 modified: '2026-07-19'
 name: Instance
 nav: Providers
 network: true
-overview: 'Instance publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Archive API, Audit API, Batch API, and 25 more. Tagged areas include Company, Robotics, Machine Learning, Verification, and Evaluation.
+overview: 'Instance publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Archive API, Audit API, Batch API, and 25 more. Tagged areas include Company, Robotics, Machine-Learning, Verification, and Evaluation.
 
 
   Instance''s developer surface includes support and 16 more developer resources.'
@@ -300,7 +300,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 22.3
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -310,7 +310,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 22.8
+  previous_composite: 22.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,8 +321,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/screenshots/instance-2026-07-25T222605.png
 security:
@@ -334,7 +334,7 @@ slug: instance
 tags:
 - Company
 - Robotics
-- Machine Learning
+- Machine-Learning
 - Verification
 - Evaluation
 - Data Quality

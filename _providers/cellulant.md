@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -429,18 +429,18 @@ rules:
   slug: cellulant-rules
 score:
   band: strong
-  composite: 54.7
-  delta: -4.4
+  composite: 55.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 72.3
     developer_ergonomics: 56.0
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 59.1
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     contracts:
@@ -454,8 +454,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/screenshots/cellulant-2026-08-17T083356.png
 security:
@@ -480,7 +480,7 @@ tags:
 - Bank Transfer
 - Cards
 - Airtime
-- Bill Payment
+- Bill Payments
 - SMS
 - OTP
 - Tingg

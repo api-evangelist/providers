@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 2
@@ -559,31 +559,31 @@ image: https://crunchdao.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: crunchdao-mcp.yml
-  slug: crunchdao-mcpyml
+  name: CrunchDAO MCP Server
+  slug: crunchdao-mcp-server
 modified: '2026-07-18'
 name: CrunchDAO
 nav: Providers
 network: true
-overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) network, including activity API, auth:api-key API, auth API, and 67 more. Tagged areas include Company, Crypto Web3, Machine Learning, Data Science, and Competitions.
+overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) network, including activity API, auth:api-key API, auth API, and 67 more. Tagged areas include Company, Crypto Web3, Machine-Learning, Data Science, and Competitions.
 
 
   CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 15 more developer resources.'
 random_paper: 6
 score:
   band: developing
-  composite: 42.8
-  delta: 0.3
+  composite: 44.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
     contract_quality: 46.6
     developer_ergonomics: 70.8
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 42.5
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -594,8 +594,8 @@ score:
       total: 70
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/screenshots/crunchdao-2026-07-25T210819.png
 security:
@@ -611,7 +611,7 @@ slug: crunchdao
 tags:
 - Company
 - Crypto Web3
-- Machine Learning
+- Machine-Learning
 - Data Science
 - Competitions
 - Collective Intelligence

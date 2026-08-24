@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Beta REST API for Koah publisher team accounts. Resource-oriented URLs, JSON responses, standard HTTP verbs and status codes, Bearer token authentication. Covers publisher CRUD and daily reporting for
@@ -169,7 +169,7 @@ modified: '2026-08-13'
 name: Koah Labs
 nav: Providers
 network: true
-overview: 'Koah Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Advertising, Ad Network, and Monetization.
+overview: 'Koah Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Advertising, Ad Network, and Monetization.
 
 
   Koah Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.1
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -195,13 +195,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 34.0
+  previous_composite: 33.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/screenshots/koah-labs-2026-07-25T224018.png
 security:
@@ -216,12 +216,12 @@ security:
 slug: koah-labs
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Advertising
 - Ad Network
 - Monetization
 - Conversion Tracking
-- SDKs
+- SDK
 - Agents
 website: https://www.koahlabs.com
 ---

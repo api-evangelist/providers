@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -333,8 +333,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loops.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: loops-mcp.yml
-  slug: loops-mcpyml
+  name: Loops MCP Server
+  slug: loops-mcp-server
 modified: '2026-08-13'
 name: Loops
 nav: Providers
@@ -363,7 +363,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.0
-  delta: 6.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -373,7 +373,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 65.8
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -384,9 +384,9 @@ score:
       total: 18
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/screenshots/loops-2026-06-20T184718.png
 security:
 - kind: authentication
@@ -408,8 +408,8 @@ tags:
 - Marketing Automation
 - Transactional Email
 - Lifecycle Email
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 - Communications
 - Developer Tools
 - MCP

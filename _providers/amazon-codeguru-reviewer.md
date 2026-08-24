@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -1118,13 +1118,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-codeguru-reviewer-mcp.yml
-  slug: amazon-codeguru-reviewer-mcpyml
+  name: Amazon CodeGuru Reviewer MCP Server
+  slug: amazon-codeguru-reviewer-mcp-server
 modified: '2026-06-20'
 name: Amazon CodeGuru Reviewer
 nav: Providers
 network: true
-overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Associations API, Codereviews API, Codereviews#Type API, and 2 more. Tagged areas include Amazon, Code Review, Security, DevOps, and Machine Learning.
+overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Associations API, Codereviews API, Codereviews#Type API, and 2 more. Tagged areas include Amazon, Code Review, Security, DevOps, and Machine-Learning.
 
 
   The Amazon CodeGuru Reviewer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1156,18 +1156,18 @@ rules:
   slug: amazon-codeguru-reviewer-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: -12.8
+  composite: 48.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 69.9
     developer_ergonomics: 28.6
     discoverability: 92.6
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 18.4
-  previous_composite: 61.1
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1177,9 +1177,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:
 - kind: authentication
@@ -1204,7 +1204,7 @@ tags:
 - Code Review
 - Security
 - DevOps
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 use_cases:
 - description: Automatically detect security issues in code changes before they reach production, reducing security review burden on developers.

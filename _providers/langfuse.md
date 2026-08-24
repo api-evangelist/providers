@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -289,7 +289,7 @@ modified: '2026-05-19'
 name: Langfuse
 nav: Providers
 network: true
-overview: 'Langfuse publishes 28 APIs on the [APIs.io](https://apis.io/) network, including AnnotationQueues API, BlobStorageIntegrations API, Comments API, and 25 more. Tagged areas include AI, LLM, Observability, Open Source, and Evaluations.
+overview: 'Langfuse publishes 28 APIs on the [APIs.io](https://apis.io/) network, including AnnotationQueues API, BlobStorageIntegrations API, Comments API, and 25 more. Tagged areas include Artificial Intelligence, LLM, Observability, Open-Source, and Evaluations.
 
 
   Langfuse''s developer surface includes authentication, documentation, API reference, pricing, GitHub presence, and 10 more developer resources.'
@@ -305,7 +305,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -315,7 +315,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 33.9
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -323,8 +323,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/screenshots/langfuse-2026-06-20T184307.png
 security:
@@ -346,10 +346,10 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: langfuse
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
-- Open Source
+- Open-Source
 - Evaluations
 website: https://langfuse.com/
 ---

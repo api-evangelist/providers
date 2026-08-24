@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 2
@@ -345,8 +345,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enviance.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: enviance-mcp.yml
-  slug: enviance-mcpyml
+  name: Enviance MCP Server
+  slug: enviance-mcp-server
 modified: '2026-07-19'
 name: Enviance
 nav: Providers
@@ -359,7 +359,7 @@ random_paper: 1
 score:
   band: thin
   composite: 27.7
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -369,7 +369,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 26.2
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -380,8 +380,8 @@ score:
       total: 39
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enviance/refs/heads/main/screenshots/enviance-2026-07-25T213455.png
 security:
@@ -402,6 +402,6 @@ tags:
 - Sustainability
 - Chemical Management
 - Regulatory
-- SaaS
+- Software-as-a-Service
 website: https://api.enviance.com/
 ---

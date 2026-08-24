@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The current Opendatasoft Explore REST API v2.1 scoped to the SP Electricity North West open data domain. Read-only (GET only, JSON), 16 documented paths covering catalogue search over the 146 publishe
@@ -239,9 +239,9 @@ examples:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: electricity-north-west-mcp.yml
-  slug: electricity-north-west-mcpyml
+- description: Neither Electricity North West nor Opendatasoft (Huwise) publishes an MCP server for this API. The tool list below is a CANDIDATE derived mechanically from the 16 Explore v2.1 operations — it is a des
+  name: Electricity North West MCP Server
+  slug: electricity-north-west-mcp-server
 modified: '2026-07-27'
 name: Electricity North West
 nav: Providers
@@ -263,7 +263,7 @@ scopes:
 score:
   band: strong
   composite: 63.8
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -273,7 +273,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 57.5
+  previous_composite: 63.8
   provenance:
     conformance: derived
     mcp: derived
@@ -284,9 +284,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/screenshots/electricity-north-west-2026-08-07T164817.png
 security:
 - kind: authentication

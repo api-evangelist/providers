@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Vev REST API (api.vev.design) for API-key introspection and platform integration, authenticated with an x-vev-key header. Complemented by a publish webhook and a React component SDK/CLI toolchain.
@@ -168,7 +168,7 @@ random_paper: 1
 score:
   band: developing
   composite: 42.9
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -178,10 +178,10 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 50.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 42.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vev/refs/heads/main/screenshots/vev-2026-08-17T082739.png
 security:
 - kind: authentication
@@ -204,7 +204,7 @@ tags:
 - Web Design
 - CMS
 - Website Builder
-- Webhooks
+- Webhook
 - React Components
 - Developer Tools
 website: https://www.vev.design/

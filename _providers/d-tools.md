@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for the D-Tools Cloud platform. Read, create and update Clients, Products, Opportunities, Quotes, Projects, Change Orders, Purchase Orders, Service Contracts, Files and Time Entries. Requests
@@ -162,7 +162,7 @@ modified: '2026-08-11'
 name: D-Tools
 nav: Providers
 network: true
-overview: 'D-Tools publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cloud API and System Integrator (SI) API. Tagged areas include av-integration, systems-integration, project-management, estimation, and quoting.
+overview: 'D-Tools publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cloud API and System Integrator (SI) API. Tagged areas include av-integration, Systems Integration, Project Management, Estimation, and Quoting.
 
 
   The D-Tools catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.0
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -191,7 +191,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 56.6
-  previous_composite: 57.8
+  previous_composite: 55.0
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/screenshots/d-tools-2026-08-17T080847.png
 security:
@@ -217,15 +217,15 @@ security:
 slug: d-tools
 tags:
 - av-integration
-- systems-integration
-- project-management
-- estimation
-- quoting
-- field-service-management
-- construction-tech
+- Systems Integration
+- Project Management
+- Estimation
+- Quoting
+- Field Service Management
+- Construction Tech
 - low-voltage
-- product-catalog
-- erp-integration
-- vertical-saas
+- Product Catalog
+- ERP Integration
+- Vertical SaaS
 website: https://www.d-tools.com/
 ---

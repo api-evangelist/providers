@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -601,7 +601,7 @@ modified: '2026-05-19'
 name: Intuit
 nav: Providers
 network: true
-overview: 'Intuit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 1 more. Tagged areas include Accounting, Custom Fields, Financial, Financial Services, and Invoicing.
+overview: 'Intuit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 1 more. Tagged areas include Accounting, Custom Fields, Financial, Financial-Services, and Invoicing.
 
 
   The Intuit catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -674,7 +674,7 @@ scopes:
 score:
   band: strong
   composite: 59.7
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -684,7 +684,7 @@ score:
     discoverability: 55.6
     governance: 13.6
     operational_transparency: 55.3
-  previous_composite: 58.7
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -698,8 +698,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png
 security:
@@ -716,7 +716,7 @@ tags:
 - Accounting
 - Custom Fields
 - Financial
-- Financial Services
+- Financial-Services
 - Invoicing
 - Payments
 - Payroll

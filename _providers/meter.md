@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -210,13 +210,13 @@ image: https://avatars.githubusercontent.com/u/50934298?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: meter-mcp.yml
-  slug: meter-mcpyml
+  name: Meter MCP Server
+  slug: meter-mcp-server
 modified: '2026-07-20'
 name: Meter
 nav: Providers
 network: true
-overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Debug API, and 5 more. Tagged areas include Blockchain, Web3, Cryptocurrency, Layer-1, and EVM.
+overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Debug API, and 5 more. Tagged areas include Blockchain, Web3, Cryptocurrency, Layer 1, and EVM.
 
 
   The Meter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,7 +227,7 @@ random_paper: 16
 score:
   band: thin
   composite: 38.6
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -237,7 +237,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 40.9
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +248,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/screenshots/meter-2026-08-07T172700.png
 security:
@@ -262,9 +262,9 @@ tags:
 - Blockchain
 - Web3
 - Cryptocurrency
-- Layer-1
+- Layer 1
 - EVM
-- Cross-chain Bridge
+- Cross-Chain Bridge
 - Staking
 - Developer Tools
 website: https://www.meter.io/

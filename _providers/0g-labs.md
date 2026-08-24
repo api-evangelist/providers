@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Ethereum-compatible JSON-RPC endpoint for the 0G Chain mainnet ("Aristotle", chain ID 16661), an AI-focused Layer 1 with sub-second finality. Standard EVM methods (eth_chainId, eth_call, eth_sendRawTr
@@ -252,13 +252,13 @@ image: https://cdn.prod.website-files.com/680b884d38733122a923739b/68269581b10a2
 layout: provider
 mcp_servers:
 - description: ''
-  name: 0g-labs-mcp.yml
-  slug: 0g-labs-mcpyml
+  name: 0G Labs MCP Server
+  slug: 0g-labs-mcp-server
 modified: '2026-08-05'
 name: 0G Labs
 nav: Providers
 network: true
-overview: '0G Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Key API, Inference API, and 3 more. Tagged areas include artificial-intelligence, ai-inference, llm, gpu-compute, and decentralized-compute.
+overview: '0G Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Key API, Inference API, and 3 more. Tagged areas include Artificial Intelligence, AI Inference, LLM, GPU Compute, and Decentralized Compute.
 
 
   0G Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 36 more developer resources.'
@@ -270,7 +270,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.5
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -280,7 +280,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 50.3
+  previous_composite: 51.5
   provenance:
     conformance: derived
     contracts:
@@ -290,8 +290,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/screenshots/0g-labs-2026-08-07T160641.png
 security:
@@ -305,19 +305,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: 0g-labs
 tags:
-- artificial-intelligence
-- ai-inference
-- llm
-- gpu-compute
-- decentralized-compute
-- blockchain
-- web3
-- evm
-- decentralized-storage
-- data-availability
-- openai-compatible
-- trusted-execution-environment
+- Artificial Intelligence
+- AI Inference
+- LLM
+- GPU Compute
+- Decentralized Compute
+- Blockchain
+- Web3
+- EVM
+- Decentralized Storage
+- Data Availability
+- OpenAI-Compatible
+- Trusted Execution Environment
 - agent-native
-- crypto-infrastructure
+- Crypto Infrastructure
 website: https://0g.ai
 ---

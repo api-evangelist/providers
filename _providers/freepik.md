@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ modified: '2026-05-19'
 name: Freepik
 nav: Providers
 network: true
-overview: 'Freepik publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Image Editing API, Image Generation API, and 3 more. Tagged areas include AI, Graphics, Illustrations, Image Generation, and Photos.
+overview: 'Freepik publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Image Editing API, Image Generation API, and 3 more. Tagged areas include Artificial Intelligence, Graphics, Illustrations, Image-Generation, and Photos.
 
 
   Freepik''s developer surface includes authentication, documentation, signup flow, and 5 more developer resources.'
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -155,7 +155,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.8
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/screenshots/freepik-2026-06-20T181529.png
 security:
@@ -178,10 +178,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: freepik
 tags:
-- AI
+- Artificial Intelligence
 - Graphics
 - Illustrations
-- Image Generation
+- Image-Generation
 - Photos
 - Video Generation
 website: https://www.freepik.com/

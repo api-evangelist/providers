@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ modified: '2026-07-23'
 name: Investec
 nav: Providers
 network: true
-overview: 'Investec publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Investec publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Investec''s developer surface includes authentication, documentation, API reference, engineering blog, support, sandbox, getting-started guide, and 23 more developer resources.'
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 44.8
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 40.6
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +226,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/screenshots/investec-2026-07-25T222744.png
 security:
@@ -241,7 +241,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: investec
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

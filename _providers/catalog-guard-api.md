@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
@@ -129,13 +129,13 @@ image: https://catalogguard.noahcortezj-c.workers.dev/og.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: catalog-guard-api-mcp.yml
-  slug: catalog-guard-api-mcpyml
+  name: Catalog Guard API MCP Server
+  slug: catalog-guard-api-mcp-server
 modified: '2026-08-09'
 name: Catalog Guard API
 nav: Providers
 network: true
-overview: 'Catalog Guard API publishes 1 API on the [APIs.io](https://apis.io/) network: Catalog API. Tagged areas include ecommerce, catalog-validation, shopify, data-quality, and csv-validation.
+overview: 'Catalog Guard API publishes 1 API on the [APIs.io](https://apis.io/) network: Catalog API. Tagged areas include E-Commerce, catalog-validation, Shopify, Data Quality, and csv-validation.
 
 
   Catalog Guard API''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, code examples, and 16 more developer resources.'
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.8
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -157,7 +157,7 @@ score:
     discoverability: 70.4
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 37.4
+  previous_composite: 37.8
   provenance:
     conformance: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -181,13 +181,13 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: catalog-guard-api
 tags:
-- ecommerce
+- E-Commerce
 - catalog-validation
-- shopify
-- data-quality
+- Shopify
+- Data Quality
 - csv-validation
 - product-data-qa
 - data-preflight
-- data-validation
-- retail
+- Data Validation
+- Retail
 ---

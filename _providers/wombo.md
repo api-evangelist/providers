@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Text and vision-language chat completions
@@ -164,13 +164,13 @@ image: https://w.ai/wai-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: wombo-mcp.yml
-  slug: wombo-mcpyml
+  name: Wombo MCP Server
+  slug: wombo-mcp-server
 modified: '2026-07-21'
 name: Wombo
 nav: Providers
 network: true
-overview: 'Wombo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Images API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Inference, and LLM.
+overview: 'Wombo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Images API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Inference, and LLM.
 
 
   Wombo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, CLI, and 17 more developer resources.'
@@ -178,7 +178,7 @@ random_paper: 2
 score:
   band: thin
   composite: 31.6
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 30.9
+  previous_composite: 31.6
   provenance:
     conformance: derived
     contracts:
@@ -198,8 +198,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -214,13 +214,13 @@ slug: wombo
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - LLM
-- Image Generation
+- Image-Generation
 - Generative AI
 - Decentralized Compute
 - GPU
-- OpenAI Compatible
+- OpenAI-Compatible
 website: https://w.ai/
 ---

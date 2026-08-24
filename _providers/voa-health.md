@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Authentication API from VOA Health — 1 operation(s) for authentication.
@@ -151,9 +151,9 @@ description: Voa is a Brazilian healthcare-technology company providing an AI cl
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/voa-health.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: voa-health-mcp.yml
-  slug: voa-health-mcpyml
+- description: Candidate MCP tool surface mapped 1:1 from the documented Voa RNDS API operations. Each tool would require a Bearer JWT (see authentication/voa-health-authentication.yml). Not an official/hosted serve
+  name: VOA Health MCP Server
+  slug: voa-health-mcp-server
 modified: '2026-07-21'
 name: VOA Health
 nav: Providers
@@ -166,7 +166,7 @@ random_paper: 14
 score:
   band: thin
   composite: 33.7
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -176,7 +176,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 30.2
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     contracts:
@@ -192,8 +192,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

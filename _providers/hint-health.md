@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -1515,9 +1515,9 @@ jsonld:
   slug: hint-health-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: hint-health-mcp.yml
-  slug: hint-health-mcpyml
+- description: Hint publishes a hosted, remote MCP server that exposes its public developer documentation and API reference to MCP-capable agents. It is documented at developers.hint.com/docs/hint-mcp-server and ans
+  name: Hint Health MCP Server
+  slug: hint-health-mcp-server
 modified: 2026-08-15
 name: Hint Health
 nav: Providers
@@ -1552,7 +1552,7 @@ rules:
 score:
   band: exemplar
   composite: 73.5
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1562,7 +1562,7 @@ score:
     discoverability: 81.5
     governance: 40.2
     operational_transparency: 47.4
-  previous_composite: 72.8
+  previous_composite: 73.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1579,8 +1579,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/screenshots/hint-health-2026-06-20T182747.png
 security:

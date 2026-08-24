@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Glia platform REST API. Serves operators, sites, engagements, queues and reporting resources over api.glia.com (US) and api.glia.eu (EU). Authentication is a bearer token minted from an API key id
@@ -179,8 +179,8 @@ image: https://cdn.prod.website-files.com/680f1550811d9719bdbcf21b/680f7b6051475
 layout: provider
 mcp_servers:
 - description: ''
-  name: glia-mcp.yml
-  slug: glia-mcpyml
+  name: Glia MCP Server
+  slug: glia-mcp-server
 modified: '2026-08-04'
 name: Glia
 nav: Providers
@@ -193,7 +193,7 @@ random_paper: 14
 score:
   band: developing
   composite: 41.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 41.3
+  previous_composite: 41.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -213,8 +213,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glia/refs/heads/main/screenshots/glia-2026-08-07T165740.png
 security:
@@ -241,10 +241,10 @@ tags:
 - Contact Center
 - Banking
 - Credit Unions
-- Financial Services
+- Financial-Services
 - Conversational AI
 - Voice
-- CoBrowsing
+- Co-Browsing
 - Serverless
 website: https://www.glia.com
 ---

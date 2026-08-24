@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,12 +56,12 @@ modified: '2026-04-28'
 name: National Security Agency
 nav: Providers
 network: true
-overview: National Security Agency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Intelligence, and Security.
+overview: National Security Agency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Intelligence, and Security.
 random_paper: 6
 score:
   band: minimal
   composite: 3.6
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -71,15 +71,15 @@ score:
     discoverability: 48.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 6.3
+  previous_composite: 3.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-security-agency/refs/heads/main/screenshots/national-security-agency-2026-06-20T190040.png
 security:
@@ -89,7 +89,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: national-security-agency
 tags:
-- Federal Government
+- Federal-Government
 - Intelligence
 - Security
 website: https://www.nsa.gov/

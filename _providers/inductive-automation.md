@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -705,18 +705,18 @@ rules:
   slug: inductive-automation-rules
 score:
   band: thin
-  composite: 35.0
-  delta: -8.0
+  composite: 34.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 65.2
     developer_ergonomics: 38.1
-    discoverability: 59.3
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 43.0
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -724,9 +724,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 87
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png
 security:
 - kind: authentication

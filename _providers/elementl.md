@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,7 +121,7 @@ modified: '2026-07-19'
 name: Elementl
 nav: Providers
 network: true
-overview: 'Elementl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Data Orchestration, Data Engineering, and Data Pipelines.
+overview: 'Elementl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open-Source, Data Orchestration, Data Engineering, and Data Pipeline.
 
 
   Elementl''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 14
 score:
   band: thin
   composite: 29.9
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -139,9 +139,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 29.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 29.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elementl/refs/heads/main/screenshots/elementl-2026-07-25T213125.png
 security:
@@ -160,14 +160,14 @@ security:
 slug: elementl
 tags:
 - Company
-- Open Source
+- Open-Source
 - Data Orchestration
 - Data Engineering
-- Data Pipelines
+- Data Pipeline
 - DataOps
 - Observability
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Cloud
 website: https://dagster.io
 ---

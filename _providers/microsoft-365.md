@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-05-11'
 name: Microsoft 365
 nav: Providers
 network: true
-overview: 'Microsoft 365 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Files API, Groups API, and 4 more. Tagged areas include Productivity, Collaboration, Email, Calendar, and Files.
+overview: 'Microsoft 365 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Files API, Groups API, and 4 more. Tagged areas include Productivity, Collaboration, Email, Calendar, and File.
 
 
   Microsoft 365''s developer surface includes authentication, documentation, signup flow, pricing, and 11 more developer resources.'
@@ -181,7 +181,7 @@ scopes:
 score:
   band: thin
   composite: 35.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -191,7 +191,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 36.0
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/screenshots/microsoft-365-2026-06-20T185401.png
 security:
@@ -226,7 +226,7 @@ tags:
 - Collaboration
 - Email
 - Calendar
-- Files
+- File
 - Identity
 - Microsoft
 - Microsoft Graph

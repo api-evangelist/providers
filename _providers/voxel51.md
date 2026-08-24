@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The open-source FiftyOne Python SDK is the primary interface for building and curating visual AI datasets - creating Datasets and Samples, slicing data with Views and aggregations, computing embedding
@@ -103,7 +103,7 @@ modified: '2026-06-21'
 name: Voxel51
 nav: Providers
 network: true
-overview: 'Voxel51 publishes 3 APIs on the [APIs.io](https://apis.io/) network: FiftyOne SDK (Python), FiftyOne Enterprise Management SDK / API, and FiftyOne Plugins & Operators. Tagged areas include AI, Computer Vision, Datasets, Machine Learning, and Python SDK.
+overview: 'Voxel51 publishes 3 APIs on the [APIs.io](https://apis.io/) network: FiftyOne SDK (Python), FiftyOne Enterprise Management SDK / API, and FiftyOne Plugins & Operators. Tagged areas include Artificial Intelligence, Computer-Vision, Datasets, Machine-Learning, and Python SDK.
 
 
   Voxel51''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -129,9 +129,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 32.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -144,10 +144,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: voxel51
 tags:
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Datasets
-- Machine Learning
+- Machine-Learning
 - Python SDK
 website: https://voxel51.com
 ---

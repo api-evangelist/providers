@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 34
@@ -223,8 +223,8 @@ image: https://cdn.yuzu.health/image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: yuzu-health-mcp.yml
-  slug: yuzu-health-mcpyml
+  name: Yuzu Health MCP Server
+  slug: yuzu-health-mcp-server
 modified: '2026-07-21'
 name: Yuzu Health
 nav: Providers
@@ -237,7 +237,7 @@ random_paper: 18
 score:
   band: developing
   composite: 43.8
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -247,7 +247,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 45.2
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,8 +264,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/screenshots/yuzu-health-2026-08-17T083029.png
 security:

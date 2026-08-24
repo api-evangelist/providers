@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -164,13 +164,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: tsb-bank-mcp.yml
-  slug: tsb-bank-mcpyml
+  name: TSB Bank MCP Server
+  slug: tsb-bank-mcp-server
 modified: '2026-07-23'
 name: TSB Bank
 nav: Providers
 network: true
-overview: 'TSB Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network: TSB Open Data API and TSB OAuth Toolkit (OTK) Server. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'TSB Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network: TSB Open Data API and TSB OAuth Toolkit (OTK) Server. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   TSB Bank''s developer surface includes authentication, documentation, support, and 23 more developer resources.'
@@ -183,7 +183,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: 5.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -193,7 +193,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 39.5
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -210,9 +210,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 88.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Tsb Bank Authentication
@@ -228,7 +228,7 @@ security:
   summary_line: security.txt · contact published
 slug: tsb-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

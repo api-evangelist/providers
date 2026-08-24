@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Server-side Miri API (API-key authenticated) plus the React Native Component SDK for embedding Miri's chat, goal-tracking, measurement, and admin surfaces, with configurable webhooks. Currently in alp
@@ -120,7 +120,7 @@ random_paper: 13
 score:
   band: thin
   composite: 33.6
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -130,15 +130,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 32.3
+  previous_composite: 33.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miri/refs/heads/main/screenshots/miri-2026-08-07T183724.png
 security:
@@ -161,6 +161,6 @@ tags:
 - Patient Engagement
 - Weight Loss
 - SDK
-- Webhooks
+- Webhook
 website: https://www.miri.ai
 ---

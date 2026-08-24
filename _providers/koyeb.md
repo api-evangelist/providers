@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -496,13 +496,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/koyeb.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: koyeb-mcp.yml
-  slug: koyeb-mcpyml
+  name: koyebApi
+  slug: koyebapi
 modified: '2026-08-17'
 name: Koyeb
 nav: Providers
 network: true
-overview: 'Koyeb publishes 42 APIs on the [APIs.io](https://apis.io/) network, including activity API, Apps API, Archives API, and 39 more. Tagged areas include Cloud Platform, Deployment, PaaS, Serverless, and Serverless GPU.
+overview: 'Koyeb publishes 42 APIs on the [APIs.io](https://apis.io/) network, including activity API, Apps API, Archives API, and 39 more. Tagged areas include Cloud Platform, Deployment, Platform-as-a-Service, Serverless, and Serverless GPU.
 
 
   Koyeb''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, sandbox, and 39 more developer resources.'
@@ -518,7 +518,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.7
-  delta: 28.8
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -528,7 +528,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 33.9
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -539,9 +539,9 @@ score:
       total: 42
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/screenshots/koyeb-2026-06-20T184145.png
 security:
 - kind: authentication
@@ -560,7 +560,7 @@ slug: koyeb
 tags:
 - Cloud Platform
 - Deployment
-- PaaS
+- Platform-as-a-Service
 - Serverless
 - Serverless GPU
 - AI Infrastructure

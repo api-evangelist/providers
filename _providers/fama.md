@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: v2 REST API for submitting candidate screening checks and retrieving report findings (person, profiles, posts, web content, summary, and signed PDF). Bearer-token auth; report completion via HTTP call
@@ -155,13 +155,13 @@ image: https://cdn.prod.website-files.com/63ea1ecaf41aeda5d5045103/6622b457a4c9d
 layout: provider
 mcp_servers:
 - description: ''
-  name: fama-mcp.yml
-  slug: fama-mcpyml
+  name: Fama MCP Server
+  slug: fama-mcp-server
 modified: '2026-07-19'
 name: Fama
 nav: Providers
 network: true
-overview: 'Fama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employment Screening, Background Checks, Human Resources, and Social Media.
+overview: 'Fama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employment Screening, Background Checks, Human Resources, and Social-Media.
 
 
   The Fama catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.2
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -186,14 +186,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 51.3
+  previous_composite: 45.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png
 security:
 - kind: authentication
@@ -214,7 +214,7 @@ tags:
 - Employment Screening
 - Background Checks
 - Human Resources
-- Social Media
+- Social-Media
 - Risk
 - Compliance
 - Artificial Intelligence

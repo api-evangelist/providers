@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Export Data from Rhumbix
@@ -134,13 +134,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rhumbix.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: rhumbix-mcp.yml
-  slug: rhumbix-mcpyml
+  name: Rhumbix MCP Server
+  slug: rhumbix-mcp-server
 modified: '2026-07-21'
 name: Rhumbix
 nav: Providers
 network: true
-overview: 'Rhumbix publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch Export API, Batch Import API, and CORS API. Tagged areas include Company, Applications, Construction, Construction Technology, and Workforce Management.
+overview: 'Rhumbix publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch Export API, Batch Import API, and CORS API. Tagged areas include Company, Application, Construction, Construction Technology, and Workforce Management.
 
 
   Rhumbix''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
@@ -148,7 +148,7 @@ random_paper: 11
 score:
   band: developing
   composite: 41.4
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -158,7 +158,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 41.5
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -168,8 +168,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -183,7 +183,7 @@ security:
 slug: rhumbix
 tags:
 - Company
-- Applications
+- Application
 - Construction
 - Construction Technology
 - Workforce Management
@@ -192,7 +192,7 @@ tags:
 - Field Data Collection
 - Project Management
 - Job Costing
-- Integrations
+- Integration
 - REST API
 website: https://www.rhumbix.com
 ---

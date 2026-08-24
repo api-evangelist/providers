@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The production Avarra API, served from api.avarra.ai behind an AWS application load balancer. Every path under /v1/ is protected and returns a JSON 401 envelope without a bearer token; tokens are issu
@@ -117,7 +117,7 @@ modified: '2026-08-14'
 name: Avarra
 nav: Providers
 network: true
-overview: 'Avarra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Enablement, Sales Training, AI, and Coaching.
+overview: 'Avarra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Enablement, Sales Training, Artificial Intelligence, and Coaching.
 
 
   Avarra''s developer surface includes signup flow, support, engineering blog, authentication, and 14 more developer resources.'
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.1
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -143,11 +143,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.2
+  previous_composite: 23.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avarra/refs/heads/main/screenshots/avarra-2026-07-25T201910.png
 security:
@@ -164,7 +164,7 @@ tags:
 - Company
 - Sales Enablement
 - Sales Training
-- AI
+- Artificial Intelligence
 - Coaching
 - Role-Play Simulation
 - Revenue Operations

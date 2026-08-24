@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -230,8 +230,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: fat-zebra-mcp.yml
-  slug: fat-zebra-mcpyml
+  name: Fat Zebra MCP Server
+  slug: fat-zebra-mcp-server
 modified: '2026-07-24'
 name: Fat Zebra
 nav: Providers
@@ -247,7 +247,7 @@ random_paper: 10
 score:
   band: strong
   composite: 56.6
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -257,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 43.4
-  previous_composite: 55.3
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -269,8 +269,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 58.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png
 security:

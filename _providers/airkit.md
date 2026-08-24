@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -44,7 +48,7 @@ created: '2026-07-17'
 description: AirKit (Airkit.ai) was a low-code platform for building customer-facing digital experiences and, later, AI-powered customer service agents, backed by Accel and Emergence Capital. The company was acquired by Salesforce (announced 2023) and its technology now underpins Salesforce Agentforce. As of this enrichment pass, www.airkit.com 301-redirects to salesforce.com/agentforce and the domain's CAA records point to salesforce.com, so AirKit no longer operates an independent developer surface, API, documentation, or portal of its own — all first-party discovery URLs resolve into Salesforce properties. This profile is retained as an acquired-company record; enrichment beyond domain-level DNS/TLS evidence is not applicable.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airkit.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-21'
 name: AirKit
 nav: Providers
 network: true
@@ -64,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airkit/refs/heads/main/screenshots/airkit-2026-07-25T195425.png
 security:

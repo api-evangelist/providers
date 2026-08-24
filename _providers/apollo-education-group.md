@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 2.8
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -88,15 +88,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 6.7
+  previous_composite: 2.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/screenshots/apollo-education-group-2026-06-20T172307.png
 slug: apollo-education-group

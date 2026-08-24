@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: RESTful API for the Faculty180 (Faculty Activity Reporting) system, exposing faculty listings, courses taught, scholarly contribution and professional (SCP) activity attachments, faculty vita, and pub
@@ -128,7 +128,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 24.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -138,7 +138,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 25.1
+  previous_composite: 24.2
   provenance:
     conformance: derived
   regulatory:
@@ -147,8 +147,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/screenshots/interfolio-2026-07-25T222701.png
 security:

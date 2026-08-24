@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Whisperr runtime surface. Six public operations authenticated with a publishable per-app ingestion key (wrk_ prefix): track a single event, track a batch of up to 500, identify a user with traits '
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.8
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -195,14 +195,14 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 41.1
+  previous_composite: 35.8
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Whisperr Inc Authentication
@@ -219,7 +219,7 @@ tags:
 - Churn
 - Marketing Automation
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Subscription
 - Customer Engagement
 - Event Ingestion

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -1094,7 +1094,7 @@ modified: '2026-05-29'
 name: OpenAI
 nav: Providers
 network: true
-overview: 'OpenAI publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Moderations API, Batch API, and 46 more. Tagged areas include AI, Artificial Intelligence, Large Language Models, and T1.
+overview: 'OpenAI publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Moderations API, Batch API, and 46 more. Tagged areas include Artificial Intelligence, Large Language Models, and T1.
 
 
   The OpenAI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1145,18 +1145,18 @@ rules:
   slug: openai-spectral-rules
 score:
   band: strong
-  composite: 64.4
-  delta: -2.1
+  composite: 64.7
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 79.2
     developer_ergonomics: 69.0
     discoverability: 57.4
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 63.2
-  previous_composite: 66.5
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1164,8 +1164,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-08-17T082822.png
 security:
@@ -1237,7 +1237,6 @@ skills:
   slug: notion-research-documentation
 slug: openai
 tags:
-- AI
 - Artificial Intelligence
 - Large Language Models
 - T1

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Submit customer profile and onboarding signals (KYC, KYB, document verification, sanctions/PEP screening, identity fraud, synthetic ID detection, behavioral biometrics, device intelligence) and receiv
@@ -248,7 +248,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 20.5
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -264,9 +264,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 19.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sardine-ai/refs/heads/main/screenshots/sardine-ai-2026-06-20T193433.png
 security:

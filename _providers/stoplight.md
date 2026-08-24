@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'Stoplight Platform is a SaaS collaborative API design and documentation management tool providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, '
@@ -219,7 +219,7 @@ rules:
 score:
   band: thin
   composite: 35.4
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -229,10 +229,10 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 35.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/screenshots/stoplight-2026-06-20T194601.png
 security:
 - kind: domain-security

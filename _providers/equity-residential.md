@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-04-28'
 name: Equity Residential
 nav: Providers
 network: true
-overview: Equity Residential is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apartments, Fortune 500, Real Estate, and REIT.
+overview: Equity Residential is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apartments, Fortune 500, Real-Estate, and REIT.
 press:
 - date: '2026-05-25'
   title: Equity Residential saw AI, automation bump in 2025
@@ -88,8 +88,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/screenshots/equity-residential-2026-06-20T180807.png
 security:
@@ -101,7 +101,7 @@ slug: equity-residential
 tags:
 - Apartments
 - Fortune 500
-- Real Estate
+- Real-Estate
 - REIT
 website: https://www.equityapartments.com
 ---

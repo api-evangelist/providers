@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: GraphQL API powered by The Graph protocol that indexes all Foundation NFT marketplace activity on Ethereum mainnet. Supports queries for NFTs, creators, collectors, auctions, bids, offers, buy-now lis
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.6
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -118,10 +118,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 35.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 29.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foundation/refs/heads/main/screenshots/foundation-2026-06-20T181453.png
 security:
 - kind: domain-security

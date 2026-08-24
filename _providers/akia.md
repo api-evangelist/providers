@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Akia's REST API (version 3, with version 4 resources for mini apps and reservations) for creating and searching customers and reservations, sending guest messages, reading properties, generating and r
@@ -156,8 +156,8 @@ image: https://www.akia.com/icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: akia-mcp.yml
-  slug: akia-mcpyml
+  name: Akia MCP Server
+  slug: akia-mcp-server
 modified: '2026-08-06'
 name: Akia
 nav: Providers
@@ -178,7 +178,7 @@ scopes:
 score:
   band: developing
   composite: 48.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -188,12 +188,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 49.8
+  previous_composite: 48.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/screenshots/akia-2026-08-07T161133.png
 security:
@@ -224,6 +224,6 @@ tags:
 - Artificial Intelligence
 - Agents
 - Property Management
-- Check-In
+- Check-in
 website: https://www.akia.com/
 ---

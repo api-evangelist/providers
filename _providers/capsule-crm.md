@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-07-12'
 name: Capsule CRM
 nav: Providers
 network: true
-overview: 'Capsule CRM publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Opportunities API, Parties API, and 2 more. Tagged areas include CRM, Sales, Contacts, Pipeline Management, and Tasks.
+overview: 'Capsule CRM publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Opportunities API, Parties API, and 2 more. Tagged areas include CRM, Sales, Contacts, Pipeline Management, and Task.
 
 
   Capsule CRM''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
@@ -149,7 +149,7 @@ random_paper: 3
 score:
   band: thin
   composite: 33.6
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -159,7 +159,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 34.7
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/screenshots/capsule-crm-2026-06-20T173943.png
 security:
@@ -186,8 +186,8 @@ tags:
 - Sales
 - Contacts
 - Pipeline Management
-- Tasks
-- Projects
+- Task
+- Project
 - SMB
 website: https://capsulecrm.com
 ---

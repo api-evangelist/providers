@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Create a Custom Data Quality Monitor API from Revefi — 1 operation(s) for create a custom data quality monitor.
@@ -179,9 +179,9 @@ description: Revefi is an AI-powered data operations platform that delivers FinO
 image: https://www.revefi.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: revefi-mcp.yml
-  slug: revefi-mcpyml
+- description: Revefi exposes a hosted Model Context Protocol (MCP) HTTP endpoint that lets MCP-compatible clients (Claude Code, Cursor, Claude Desktop, etc.) call Revefi tools to query metadata and operate on wareh
+  name: Revefi MCP Server
+  slug: revefi-mcp-server
 modified: '2026-07-20'
 name: Revefi
 nav: Providers
@@ -194,7 +194,7 @@ random_paper: 11
 score:
   band: developing
   composite: 45.8
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
@@ -204,7 +204,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 49.7
+  previous_composite: 45.8
   provenance:
     conformance: first-party
     contracts:
@@ -214,8 +214,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/screenshots/revefi-2026-08-17T081541.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ modified: '2026-05-19'
 name: National Science Foundation
 nav: Providers
 network: true
-overview: 'National Science Foundation publishes 2 APIs on the [APIs.io](https://apis.io/) network: Awards API and Awards.{format} API. Tagged areas include Federal Government, Research, and Science.
+overview: 'National Science Foundation publishes 2 APIs on the [APIs.io](https://apis.io/) network: Awards API and Awards.{format} API. Tagged areas include Federal-Government, Research, and Science.
 
 
   National Science Foundation''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.3
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -126,7 +126,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.9
+  previous_composite: 19.3
   provenance:
     agentic_access: derived
     contracts:
@@ -140,8 +140,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/screenshots/national-science-foundation-2026-06-20T190040.png
 security:
@@ -151,7 +151,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: national-science-foundation
 tags:
-- Federal Government
+- Federal-Government
 - Research
 - Science
 website: https://www.nsf.gov/

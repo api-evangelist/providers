@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,7 +60,7 @@ modified: '2026-04-28'
 name: McKesson
 nav: Providers
 network: true
-overview: McKesson is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Distribution, Fortune 500, Healthcare, Medical Supplies, and Pharmaceutical.
+overview: McKesson is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Distribution, Fortune 500, Healthcare, Medical Supplies, and Pharmaceuticals.
 press:
 - date: '2026-05-25'
   title: Artificial Intelligence at McKesson - Three Use Cases
@@ -81,7 +81,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 4.8
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -91,15 +91,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.1
+  previous_composite: 4.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mckesson/refs/heads/main/screenshots/mckesson-2026-06-20T185100.png
 security:
@@ -117,6 +117,6 @@ tags:
 - Fortune 500
 - Healthcare
 - Medical Supplies
-- Pharmaceutical
+- Pharmaceuticals
 website: https://www.mckesson.com
 ---

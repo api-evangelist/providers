@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -174,14 +174,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ocean-io.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ocean-io-mcp.yml
-  slug: ocean-io-mcpyml
+- description: Ocean.io publishes a first-party hosted (remote) MCP server that exposes the company/people data API to any MCP-aware client. It is a single HTTPS endpoint the client POSTs to; authentication is the s
+  name: Ocean.io MCP Server
+  slug: oceanio-mcp-server
 modified: '2026-08-13'
 name: Ocean.io
 nav: Providers
 network: true
-overview: 'Ocean.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Intelligence, B2B, Enrichment, Lookalike, and ABM.
+overview: 'Ocean.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Intelligence, B2B, Enrichment, Lookalike, and Account Based Marketing.
 
 
   The Ocean.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -205,7 +205,7 @@ scopes:
 score:
   band: developing
   composite: 45.1
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -215,7 +215,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 49.6
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +226,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/screenshots/ocean-io-2026-06-20T190601.png
 security:
@@ -249,7 +249,7 @@ tags:
 - B2B
 - Enrichment
 - Lookalike
-- ABM
+- Account Based Marketing
 - Prospecting
 - Company Data
 - People Data

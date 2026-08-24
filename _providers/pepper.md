@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-20'
 name: Pepper
 nav: Providers
 network: true
-overview: 'Pepper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Food and Beverage, Distribution, and Wholesale.
+overview: 'Pepper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application, Food and Beverage, Distribution, and Wholesale.
 
 
   Pepper''s developer surface includes pricing, engineering blog, support, and 10 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 19.9
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -110,11 +110,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 22.0
+  previous_composite: 19.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -128,7 +128,7 @@ security:
 slug: pepper
 tags:
 - Company
-- Applications
+- Application
 - Food and Beverage
 - Distribution
 - Wholesale

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -116,7 +116,7 @@ modified: '2026-08-13'
 name: Influenxio
 nav: Providers
 network: true
-overview: 'Influenxio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Influencer Marketing, Marketing, and Social Media.
+overview: 'Influenxio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Influencer Marketing, Marketing, and Social-Media.
 
 
   Influenxio''s developer surface includes pricing, support, engineering blog, signup flow, and 11 more developer resources.'
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.7
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -142,9 +142,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/influenxio/refs/heads/main/screenshots/influenxio-2026-07-25T222414.png
 security:
@@ -158,10 +158,10 @@ tags:
 - Enterprise
 - Influencer Marketing
 - Marketing
-- Social Media
+- Social-Media
 - Instagram
 - Creator Economy
 - Affiliate Marketing
-- SaaS
+- Software-as-a-Service
 website: https://www.influenxio.com/en-US
 ---

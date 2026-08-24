@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-05-23'
 name: Synthesia
 nav: Providers
 network: true
-overview: 'Synthesia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, AuditLogs API, Dubbing API, and 4 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Avatars, and Text To Video.
+overview: 'Synthesia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, AuditLogs API, Dubbing API, and 4 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Avatars, and Text-to-Video.
 
 
   Synthesia''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 7 more developer resources.'
@@ -167,7 +167,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -177,7 +177,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 42.4
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -185,9 +185,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/screenshots/synthesia-2026-06-20T194840.png
 security:
 - kind: authentication
@@ -204,7 +204,7 @@ tags:
 - Generative AI
 - Video
 - Avatars
-- Text To Video
+- Text-to-Video
 - Voices
 - Dubbing
 - Translation

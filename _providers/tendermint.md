@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: ABCI APIs
@@ -186,8 +186,8 @@ image: https://raw.githubusercontent.com/api-evangelist/tendermint/main/apis.yml
 layout: provider
 mcp_servers:
 - description: ''
-  name: tendermint-mcp.yml
-  slug: tendermint-mcpyml
+  name: Tendermint MCP Server
+  slug: tendermint-mcp-server
 modified: '2026-07-21'
 name: Tendermint
 nav: Providers
@@ -203,7 +203,7 @@ random_paper: 11
 score:
   band: developing
   composite: 42.0
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -213,7 +213,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 42.7
+  previous_composite: 42.0
   provenance:
     conformance: derived
     contracts:
@@ -223,8 +223,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/screenshots/tendermint-2026-08-17T082310.png
 security:

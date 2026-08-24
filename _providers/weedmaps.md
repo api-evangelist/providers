@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Keep a retailer's Weedmaps menu in sync with their point-of-sale. Retrieve menus and menu items, and create, retrieve, update, delete, and upsert-by-external-ID menu items to publish real-time product
@@ -102,7 +102,7 @@ modified: '2026-07-03'
 name: Weedmaps
 nav: Providers
 network: true
-overview: 'Weedmaps publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cannabis, Dispensary, Marketplace, Menu Sync, and Point of Sale.
+overview: 'Weedmaps publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cannabis, Dispensary, Marketplace, Menu Sync, and Point-of-Sale.
 
 
   Weedmaps'' developer surface includes documentation, authentication, engineering blog, and 8 more developer resources.'
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -128,9 +128,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -143,8 +143,8 @@ tags:
 - Dispensary
 - Marketplace
 - Menu Sync
-- Point of Sale
-- Orders
+- Point-of-Sale
+- Order
 - Brands
 - Partner API
 website: https://weedmaps.com

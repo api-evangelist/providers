@@ -29,7 +29,7 @@ tags:
 - B2B SaaS
 - Enterprise Software
 - Business Software
-- AI
+- Artificial Intelligence
 - Los Angeles
 - California
 - North America

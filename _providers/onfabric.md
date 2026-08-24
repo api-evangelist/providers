@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -121,14 +121,14 @@ description: OnFabric (Fabric) builds portable consumer context for the AI inter
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onfabric.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: onfabric-mcp.yml
-  slug: onfabric-mcpyml
+- description: OnFabric advertises a hosted "Fabric MCP server" that brings a user's personal context (curated from Google searches, YouTube, Instagram and other connected sources) to LLM clients such as ChatGPT and
+  name: Fabric MCP
+  slug: fabric-mcp
 modified: '2026-07-20'
 name: OnFabric
 nav: Providers
 network: true
-overview: 'OnFabric is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, AI Agents, and Personal Context.
+overview: 'OnFabric is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Personal Context, and Memory.
 
 
   OnFabric''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, changelog, and 14 more developer resources.'
@@ -136,7 +136,7 @@ random_paper: 17
 score:
   band: thin
   composite: 28.4
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -146,13 +146,13 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 31.0
+  previous_composite: 28.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfabric/refs/heads/main/screenshots/onfabric-2026-08-07T190350.png
 security:
@@ -163,12 +163,11 @@ security:
 slug: onfabric
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Agents
 - Personal Context
 - Memory
-- Model Context Protocol
+- MCP
 - Developer Tools
 - CLI
 website: https://onfabric.io

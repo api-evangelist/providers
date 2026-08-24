@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Single GraphQL endpoint for the whole Uthana platform - text-to-motion, video-to-motion, locomotion, stitch/loop, character upload with auto-rigging, asset management, account, subscription, and pay-a
@@ -195,8 +195,8 @@ image: https://cdn.prod.website-files.com/67a3a4768bd61958d5872829/67aa15d7488c2
 layout: provider
 mcp_servers:
 - description: ''
-  name: uthana-mcp.yml
-  slug: uthana-mcpyml
+  name: Uthana MCP Server
+  slug: uthana-mcp-server
 modified: '2026-07-21'
 name: Uthana
 nav: Providers
@@ -213,7 +213,7 @@ random_paper: 11
 score:
   band: developing
   composite: 51.2
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -223,13 +223,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 51.6
+  previous_composite: 51.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uthana/refs/heads/main/screenshots/uthana-2026-08-17T082703.png
 security:

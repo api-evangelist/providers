@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 1
@@ -395,9 +395,9 @@ description: Kubeshop is the company behind Testkube, an open-core, Kubernetes-n
 image: https://cdn.prod.website-files.com/61e00b3936e571a4ea7a5a4c/623ca8e3c6062e36c7d5c173_Testkube-symbol.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: kubeshop-mcp.yml
-  slug: kubeshop-mcpyml
+- description: Testkube's hosted MCP server lets AI assistants list and run test workflows, inspect executions, fetch logs and artifacts, and query results. The endpoint is scoped per organization and environment; o
+  name: Kubeshop MCP Server
+  slug: kubeshop-mcp-server
 modified: '2026-07-19'
 name: Kubeshop
 nav: Providers
@@ -422,7 +422,7 @@ scopes:
 score:
   band: strong
   composite: 55.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -432,7 +432,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 55.4
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -443,8 +443,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/screenshots/kubeshop-2026-07-25T224316.png
 security:
@@ -466,9 +466,9 @@ tags:
 - Test Automation
 - Observability
 - DevOps
-- Cloud Native
+- Cloud-Native
 - Quality Assurance
-- Open Source
-- Model Context Protocol
+- Open-Source
+- MCP
 website: https://testkube.io/
 ---

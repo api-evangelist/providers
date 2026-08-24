@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -329,13 +329,13 @@ image: https://clear-street.github.io/docs/assets/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: clear-street-mcp.yml
-  slug: clear-street-mcpyml
+  name: Clear Street MCP
+  slug: clear-street-mcp
 modified: '2026-08-02'
 name: Clear Street
 nav: Providers
 network: true
-overview: 'Clear Street publishes 22 APIs on the [APIs.io](https://apis.io/) network, including API (Trades and Uploads), Accounts API, API version API, and 19 more. Tagged areas include Company, Financial Services, Capital Markets, Prime Brokerage, and Trading.
+overview: 'Clear Street publishes 22 APIs on the [APIs.io](https://apis.io/) network, including API (Trades and Uploads), Accounts API, API version API, and 19 more. Tagged areas include Company, Financial-Services, Capital Markets, Prime Brokerage, and Trading.
 
 
   The Clear Street catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -350,18 +350,18 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 66.8
-  delta: 2.9
+  composite: 67.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
     contract_quality: 68.6
     developer_ergonomics: 85.7
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 63.9
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -378,8 +378,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/screenshots/clear-street-2026-08-07T163444.png
 security:
@@ -402,7 +402,7 @@ security:
 slug: clear-street
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Prime Brokerage
 - Trading

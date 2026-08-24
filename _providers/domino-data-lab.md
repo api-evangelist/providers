@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,13 +107,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/domino-dat
 layout: provider
 mcp_servers:
 - description: ''
-  name: domino-data-lab-mcp.yml
-  slug: domino-data-lab-mcpyml
+  name: Domino Data Lab MCP Server
+  slug: domino-data-lab-mcp-server
 modified: '2026-07-18'
 name: Domino Data Lab
 nav: Providers
 network: true
-overview: 'Domino Data Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MLOps, Data Science, Machine Learning, and AI Platform.
+overview: 'Domino Data Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MLOps, Data Science, Machine-Learning, and AI Platform.
 
 
   Domino Data Lab''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 11 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 17.5
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -131,12 +131,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 25.3
+  previous_composite: 17.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/screenshots/domino-data-lab-2026-07-25T212245.png
 security:
 - kind: authentication
@@ -152,7 +152,7 @@ tags:
 - Company
 - MLOps
 - Data Science
-- Machine Learning
+- Machine-Learning
 - AI Platform
 - Model Monitoring
 - Enterprise AI

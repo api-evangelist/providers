@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: One REST API across the revenue surface — contacts, companies, campaigns and events — plus SDKs, a CLI and an MCP server. Preview access; a workspace endpoint is issued on request.
@@ -69,8 +69,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graph8.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: graph8 MCP Server
+  slug: graph8-mcp-server
 modified: '2026-08-03'
 name: graph8
 nav: Providers
@@ -87,7 +87,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 17.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -103,9 +103,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 17.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graph8/refs/heads/main/screenshots/graph8-2026-08-07T165820.png
 slug: graph8
@@ -121,7 +121,7 @@ tags:
 - Artificial Intelligence
 - Campaigns
 - CRM
-- Data Pipelines
+- Data Pipeline
 - MCP
 website: https://graph8.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -423,7 +423,7 @@ modified: '2026-05-19'
 name: Miro
 nav: Providers
 network: true
-overview: 'Miro publishes 51 APIs on the [APIs.io](https://apis.io/) network, including AI Interaction Logs API, App card items API, App metrics (experimental) API, and 48 more. Tagged areas include Productivity, Whiteboard, Visual Collaboration, Diagramming, and SaaS.
+overview: 'Miro publishes 51 APIs on the [APIs.io](https://apis.io/) network, including AI Interaction Logs API, App card items API, App metrics (experimental) API, and 48 more. Tagged areas include Productivity, Whiteboard, Visual Collaboration, Diagramming, and Software-as-a-Service.
 
 
   Miro''s developer surface includes authentication, pricing, GitHub presence, engineering blog, and 10 more developer resources.'
@@ -444,7 +444,7 @@ scopes:
 score:
   band: thin
   composite: 32.8
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -454,7 +454,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.2
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -462,8 +462,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 51
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/screenshots/miro-2026-08-07T183725.png
 security:
@@ -485,6 +485,6 @@ tags:
 - Whiteboard
 - Visual Collaboration
 - Diagramming
-- SaaS
+- Software-as-a-Service
 website: https://miro.com/
 ---

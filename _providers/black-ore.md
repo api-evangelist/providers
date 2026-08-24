@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,7 +101,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 22.9
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -111,11 +111,11 @@ score:
     discoverability: 61.1
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.2
+  previous_composite: 22.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-ore/refs/heads/main/screenshots/black-ore-2026-07-25T203234.png
 security:
@@ -138,8 +138,8 @@ tags:
 - Tax
 - Accounting
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Automation
-- Machine Learning
+- Machine-Learning
 website: https://blackore.ai
 ---

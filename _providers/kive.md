@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Kive MCP server is Kive''s programmable interface: an OAuth 2.1 protected Model Context Protocol endpoint that lets an authorized agent browse Kive workspaces, saved products, trained models, studi'
@@ -180,13 +180,13 @@ image: https://mcp.kive.ai/kive_logo_192.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kive-mcp.yml
-  slug: kive-mcpyml
+  name: Kive MCP Server
+  slug: kive-mcp-server
 modified: '2026-07-19'
 name: Kive
 nav: Providers
 network: true
-overview: 'Kive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Artificial Intelligence, Generative AI, and Creative.
+overview: 'Kive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Artificial Intelligence, Generative AI, and Creative.
 
 
   Kive''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 27 more developer resources.'
@@ -207,7 +207,7 @@ scopes:
 score:
   band: developing
   composite: 41.3
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -217,13 +217,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 47.0
+  previous_composite: 41.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kive/refs/heads/main/screenshots/kive-2026-07-25T223918.png
 security:
 - kind: authentication
@@ -245,14 +245,14 @@ security:
 slug: kive
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - Generative AI
 - Creative
 - Product Photography
 - Digital Asset Management
 - E-Commerce
-- Images
+- Image
 - Video
 - MCP
 website: https://www.kive.ai/

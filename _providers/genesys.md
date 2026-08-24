@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1702
   human_in_the_loop: 67
@@ -706,8 +706,8 @@ image: https://www.genesys.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: genesys-mcp.yml
-  slug: genesys-mcpyml
+  name: Genesys MCP Server
+  slug: genesys-mcp-server
 modified: '2026-07-19'
 name: Genesys
 nav: Providers
@@ -727,18 +727,18 @@ scopes:
   summary_line: 135 scopes · implicit
 score:
   band: developing
-  composite: 52.9
-  delta: -5.6
+  composite: 51.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 66.9
     developer_ergonomics: 20.8
-    discoverability: 87.0
+    discoverability: 77.8
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 58.5
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -755,9 +755,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/screenshots/genesys-2026-07-25T215607.png
 security:
 - kind: authentication

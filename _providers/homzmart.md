@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-19'
 name: Homzmart
 nav: Providers
 network: true
-overview: Homzmart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Furniture, Marketplace, and Home Goods.
+overview: Homzmart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Furniture, Marketplace, and Home Goods.
 random_paper: 0
 score:
   band: minimal
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 6.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homzmart/refs/heads/main/screenshots/homzmart-2026-08-07T170311.png
 security:
@@ -88,7 +88,7 @@ security:
 slug: homzmart
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Furniture
 - Marketplace
 - Home Goods

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 8
@@ -208,7 +208,7 @@ modified: '2026-05-19'
 name: Podman
 nav: Providers
 network: true
-overview: 'Podman publishes 18 APIs on the [APIs.io](https://apis.io/) network, including artifacts API, containers API, containers (compat) API, and 15 more. Tagged areas include Cloud Native, Containers, DevOps, OCI, and Open Source.
+overview: 'Podman publishes 18 APIs on the [APIs.io](https://apis.io/) network, including artifacts API, containers API, containers (compat) API, and 15 more. Tagged areas include Cloud-Native, Containers, DevOps, OCI, and Open-Source.
 
 
   Podman''s developer surface includes documentation, engineering blog, getting-started guide, and 7 more developer resources.'
@@ -224,7 +224,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -234,7 +234,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.3
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +242,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/screenshots/podman-2026-06-20T191837.png
 security:
@@ -253,10 +253,10 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: podman
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - DevOps
 - OCI
-- Open Source
+- Open-Source
 website: https://podman.io/
 ---

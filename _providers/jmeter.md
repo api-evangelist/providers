@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Apache JMeter is a load testing and performance measurement tool for web applications, databases, FTP servers, JMS, mail protocols, and more. Provides extensible samplers, listeners, and a CLI mode fo
@@ -97,7 +97,7 @@ modified: '2026-04-28'
 name: Apache JMeter
 nav: Providers
 network: true
-overview: 'Apache JMeter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Java, Load Testing, Open Source, Performance Testing, and Testing.
+overview: 'Apache JMeter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Java, Load Testing, Open-Source, Performance Testing, and Testing.
 
 
   Apache JMeter''s developer surface includes documentation and 11 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -123,9 +123,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 16.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jmeter/refs/heads/main/screenshots/jmeter-2026-06-20T183738.png
 security:
@@ -141,7 +141,7 @@ slug: jmeter
 tags:
 - Java
 - Load Testing
-- Open Source
+- Open-Source
 - Performance Testing
 - Testing
 website: https://jmeter.apache.org/

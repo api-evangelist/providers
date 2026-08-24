@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,8 +65,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6-river-systems/refs/heads/main/screenshots/6-river-systems-2026-07-25T181218.png
 security:
@@ -83,6 +83,6 @@ tags:
 - Autonomous Mobile Robots
 - Supply Chain
 - Logistics
-- Ecommerce
+- E-Commerce
 website: https://6river.com
 ---

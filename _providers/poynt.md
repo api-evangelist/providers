@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Poynt Cloud API lets developers manage a merchant business''s orders, transactions, customers, products, catalogs, inventory and taxes, register webhooks for real-time events, and collect/tokenize '
@@ -137,7 +137,7 @@ modified: '2026-07-20'
 name: Poynt
 nav: Providers
 network: true
-overview: 'Poynt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Point of Sale, and Commerce.
+overview: 'Poynt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Point-of-Sale, and Commerce.
 
 
   The Poynt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -148,7 +148,7 @@ random_paper: 3
 score:
   band: thin
   composite: 37.8
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -158,7 +158,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 35.5
+  previous_composite: 37.8
   provenance:
     conformance: first-party
   regulatory:
@@ -167,8 +167,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -184,7 +184,7 @@ tags:
 - Company
 - Consumer
 - Payments
-- Point of Sale
+- Point-of-Sale
 - Commerce
 - Merchant Services
 - Payment Processing

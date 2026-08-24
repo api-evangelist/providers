@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -169,13 +169,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rekki.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: rekki-mcp.yml
-  slug: rekki-mcpyml
+  name: REKKI MCP Server
+  slug: rekki-mcp-server
 modified: '2026-07-21'
 name: REKKI
 nav: Providers
 network: true
-overview: 'REKKI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including catalog API, connect_customers API, general API, and 2 more. Tagged areas include Company, Food, Wholesale, Ordering, and Restaurants.
+overview: 'REKKI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including catalog API, connect_customers API, general API, and 2 more. Tagged areas include Company, Food, Wholesale, Ordering, and Restaurant.
 
 
   REKKI''s developer surface includes getting-started guide, support, documentation, API reference, authentication, and 17 more developer resources.'
@@ -183,7 +183,7 @@ random_paper: 9
 score:
   band: thin
   composite: 38.8
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -193,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 38.5
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,8 +204,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -222,10 +222,10 @@ tags:
 - Food
 - Wholesale
 - Ordering
-- Restaurants
+- Restaurant
 - Supply Chain
 - Catalog
-- Orders
-- eCommerce
+- Order
+- E-Commerce
 website: https://rekki.com/
 ---

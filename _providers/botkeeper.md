@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Botkeeper''s partner platform API. The company does not publish a reference, a portal or a specification for it; the only public evidence of its shape is Botkeeper''s own status page, which lists three '
@@ -143,7 +143,7 @@ modified: '2026-08-08'
 name: Botkeeper
 nav: Providers
 network: true
-overview: 'Botkeeper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Bookkeeping, Financial Services, and Artificial Intelligence.
+overview: 'Botkeeper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Bookkeeping, Financial-Services, and Artificial Intelligence.
 
 
   Botkeeper''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
@@ -156,7 +156,7 @@ scopes:
 score:
   band: developing
   composite: 41.2
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -166,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 39.6
+  previous_composite: 41.2
   provenance:
     conformance: first-party
   regulatory:
@@ -175,8 +175,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,10 +200,10 @@ tags:
 - Company
 - Accounting
 - Bookkeeping
-- Financial Services
+- Financial-Services
 - Artificial Intelligence
 - Automation
-- SaaS
+- Software-as-a-Service
 - Banking Data
 - Practice Management
 - Small Business

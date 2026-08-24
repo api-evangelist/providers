@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The API Authentication API from Unitary AI — 1 operation(s) for api authentication.
@@ -170,13 +170,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unitary-ai
 layout: provider
 mcp_servers:
 - description: ''
-  name: unitary-ai-mcp.yml
-  slug: unitary-ai-mcpyml
+  name: Unitary AI MCP Server
+  slug: unitary-ai-mcp-server
 modified: '2026-07-21'
 name: Unitary AI
 nav: Providers
 network: true
-overview: 'Unitary AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Authentication API, Detoxify API, Items & Characteristics API, and 2 more. Tagged areas include Company, Saas, Content Moderation, Trust And Safety, and Artificial Intelligence.
+overview: 'Unitary AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Authentication API, Detoxify API, Items & Characteristics API, and 2 more. Tagged areas include Company, Software-as-a-Service, Content Moderation, Trust and Safety, and Artificial Intelligence.
 
 
   The Unitary AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -187,7 +187,7 @@ random_paper: 19
 score:
   band: thin
   composite: 33.9
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 39.5
+  previous_composite: 33.9
   provenance:
     conformance: derived
     contracts:
@@ -207,9 +207,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Unitary Ai Authentication
@@ -226,12 +226,12 @@ security:
 slug: unitary-ai
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Content Moderation
-- Trust And Safety
+- Trust and Safety
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Video
 - Virtual Agents
 website: https://www.unitary.ai/

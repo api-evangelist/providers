@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -564,9 +564,9 @@ jsonld:
   slug: meta-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: meta-mcp.yml
-  slug: meta-mcpyml
+- description: Meta operates two official MCP servers. (1) Developer Tools MCP connects an AI coding agent to Meta's developer platform to discover APIs, troubleshoot errors, check app health, monitor compliance, an
+  name: Meta MCP Server
+  slug: meta-mcp-server
 modified: '2026-06-20'
 name: Meta
 nav: Providers
@@ -606,7 +606,7 @@ scopes:
 score:
   band: strong
   composite: 61.2
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -622,7 +622,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 67.4
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -632,9 +632,9 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png
 security:
 - kind: authentication
@@ -656,7 +656,7 @@ tags:
 - Artificial Intelligence
 - Messaging
 - Social
-- Social Media
+- Social-Media
 - Virtual Reality
 website: https://developers.facebook.com/?no_redirect=1
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-06-13'
 name: Zamzar
 nav: Providers
 network: true
-overview: 'Zamzar publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Files API, Formats API, and 3 more. Tagged areas include File Conversion, Documents, Video, Audio, and Images.
+overview: 'Zamzar publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Files API, Formats API, and 3 more. Tagged areas include File Conversion, Documents, Video, Audio, and Image.
 
 
   The Zamzar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -220,7 +220,7 @@ rules:
 score:
   band: developing
   composite: 42.1
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -230,7 +230,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 48.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -238,9 +238,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/screenshots/zamzar-2026-06-20T201800.png
 security:
 - kind: authentication
@@ -257,7 +257,7 @@ tags:
 - Documents
 - Video
 - Audio
-- Images
+- Image
 - CAD
 - REST API
 website: https://www.zamzar.com/

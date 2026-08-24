@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-06-14'
 name: Hegic
 nav: Providers
 network: true
-overview: 'Hegic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contracts API, Fees API, and 4 more. Tagged areas include DeFi, Options Trading, On-Chain, Arbitrum, and Ethereum.
+overview: 'Hegic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contracts API, Fees API, and 4 more. Tagged areas include DeFi, Options Trading, Onchain, Arbitrum, and Ethereum.
 
 
   Hegic''s developer surface includes authentication, engineering blog, status page, and 9 more developer resources.'
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.5
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -187,7 +187,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 36.2
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 36.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/screenshots/hegic-2026-06-20T182611.png
 security:
@@ -218,7 +218,7 @@ slug: hegic
 tags:
 - DeFi
 - Options Trading
-- On-Chain
+- Onchain
 - Arbitrum
 - Ethereum
 - Liquidity Pools

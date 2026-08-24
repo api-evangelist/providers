@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -321,14 +321,14 @@ description: Canix is a cannabis enterprise resource planning (ERP) and seed-to-
 image: https://assets.website-files.com/5ee52a0f4be6ffc2aaeb52cd/5ee52a0f4be6ff20e7eb534f_canix-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: canix-mcp.yml
-  slug: canix-mcpyml
+- description: Canix operates a first-party hosted MCP server, announced 2026-07-09, that connects a Canix account to AI assistants such as Claude and ChatGPT. The endpoint was not published in the announcement post
+  name: Canix MCP Server
+  slug: canix-mcp-server
 modified: '2026-08-09'
 name: Canix
 nav: Providers
 network: true
-overview: 'Canix publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Audited Actions API, Bill of Materials API, Brands API, and 24 more. Tagged areas include Cannabis, ERP, Seed to Sale, Compliance, and Inventory Management.
+overview: 'Canix publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Audited Actions API, Bill of Materials API, Brands API, and 24 more. Tagged areas include Cannabis, ERP, Seed-to-Sale, Compliance, and Inventory Management.
 
 
   Canix''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
@@ -341,7 +341,7 @@ scopes:
 score:
   band: developing
   composite: 45.0
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -351,7 +351,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 45.4
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -362,8 +362,8 @@ score:
       total: 27
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/screenshots/canix-2026-08-17T080801.png
 security:
@@ -379,7 +379,7 @@ slug: canix
 tags:
 - Cannabis
 - ERP
-- Seed to Sale
+- Seed-to-Sale
 - Compliance
 - Inventory Management
 - Supply Chain

@@ -20,17 +20,17 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: documented
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-19'
+  score: 44.1
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -142,6 +142,18 @@ collections:
   name: WunderGraph Cosmo Platform Analytics Subgraphs API
   slug: open-wundergraph-subgraphs-api
 common:
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.wundergraph.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://github.com/wundergraph/cosmo/releases
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://cosmo-docs.wundergraph.com/control-plane/webhooks
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -222,10 +234,26 @@ common:
   title: ''
   type: Support
   url: https://wundergraph.com/contact/sales
-- group: company
+- group: docs
   title: ''
-  type: Blog
-  url: https://wundergraph.com/blog
+  type: Documentation
+  url: https://cosmo-docs.wundergraph.com/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://cosmo-docs.wundergraph.com/getting-started/cosmo-cloud-onboarding
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://wundergraph.com/cosmo-managed-service-terms
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/wundergraph/cosmo
+- group: build
+  title: ''
+  type: Examples
+  url: https://github.com/wundergraph/cosmo-federation-demos
 - group: agent
   title: ''
   type: MCPServer
@@ -262,6 +290,10 @@ common:
   title: ''
   type: FinOps
   url: finops/wundergraph-cloud-finops.md
+- group: build
+  title: ''
+  type: SDK
+  url: https://cosmo-docs.wundergraph.com/connect-rpc/produce-generate-distribute-sdks
 created: '2025-06-05T00:00:00.000Z'
 description: Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing. Deploy 100% on-prem or use our Managed Service. Apache 2.0 licensed, no vendor-lock.
 features:
@@ -339,10 +371,10 @@ jsonld:
   slug: wundergraph-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'WunderGraph ships MCP as a first-class product surface, in two distinct forms: a Cosmo MCP Server that puts the Cosmo control plane into an AI-enabled IDE, and an MCP Gateway built into the Cosmo Rout'
   name: MCP Server
   slug: mcp-server
-modified: '2026-08-03'
+modified: '2026-08-14'
 name: WunderGraph
 nav: Providers
 network: true
@@ -352,7 +384,7 @@ overview: 'WunderGraph publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The WunderGraph catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  WunderGraph''s developer surface includes authentication, pricing, engineering blog, CLI, support, and 25 more developer resources.'
+  WunderGraph''s developer surface includes changelog, authentication, pricing, engineering blog, CLI, support, documentation, and 31 more developer resources.'
 plans:
 - name: Wundergraph Plans Pricing
   plan_count: 3
@@ -375,18 +407,18 @@ rules:
   slug: wundergraph-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.7
-  delta: -6.6
+  composite: 52.7
+  delta: 0.0
   facets:
-    access_clarity: 65.8
-    commercial_clarity: 65.8
+    access_clarity: 76.3
+    commercial_clarity: 76.3
     contract_governance: 9.8
-    contract_quality: 29.8
-    developer_ergonomics: 38.1
+    contract_quality: 29.9
+    developer_ergonomics: 66.7
     discoverability: 72.2
     governance: 9.8
-    operational_transparency: 23.7
-  previous_composite: 46.3
+    operational_transparency: 63.2
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -395,9 +427,9 @@ score:
       marker_coverage: 100.0
       total: 10
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:
 - kind: authentication

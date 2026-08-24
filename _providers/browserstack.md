@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ modified: '2026-04-21'
 name: BrowserStack
 nav: Providers
 network: true
-overview: 'BrowserStack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AccessKey API, Browsers API, Builds API, and 3 more. Tagged areas include Accessibility, Appium, Applications, Automation, and CI/CD.
+overview: 'BrowserStack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AccessKey API, Browsers API, Builds API, and 3 more. Tagged areas include Accessibility, Appium, Application, Automation, and CI/CD.
 
 
   BrowserStack''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
@@ -253,7 +253,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.0
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -269,7 +269,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 48.2
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -277,8 +277,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/screenshots/browserstack-2026-06-20T173725.png
 security:
@@ -298,13 +298,13 @@ slug: browserstack
 tags:
 - Accessibility
 - Appium
-- Applications
+- Application
 - Automation
 - CI/CD
 - Cross-Browser Testing
 - Enterprise
 - JavaScript
-- Low Code
+- Low-Code
 - Mobile Testing
 - QA
 - Regression Testing

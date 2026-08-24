@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: News and blog posts published on habiteo.com, plus their revisions. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behi
@@ -167,7 +167,7 @@ modified: '2026-08-17'
 name: Habiteo
 nav: Providers
 network: true
-overview: 'Habiteo publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Site Content API — Posts API, Site Content API — Pages API, Site Content API — Media API, and 10 more. Tagged areas include Company, Real Estate, PropTech, 3D Visualization, and Property Marketing.
+overview: 'Habiteo publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Site Content API — Posts API, Site Content API — Pages API, Site Content API — Media API, and 10 more. Tagged areas include Company, Real-Estate, PropTech, 3D Visualization, and Property Marketing.
 
 
   Habiteo''s developer surface includes engineering blog, support, YouTube channel, authentication, and 19 more developer resources.'
@@ -183,6 +183,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -192,6 +193,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
+  previous_composite: 22.0
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +203,9 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Habiteo Authentication
@@ -215,7 +218,7 @@ security:
 slug: habiteo
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - 3D Visualization
 - Property Marketing

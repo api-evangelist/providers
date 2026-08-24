@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Board''s storefront agent-commerce API, provided natively by Shopify via the Universal Commerce Protocol (UCP 2026-04-08). Exposes an MCP endpoint for AI agents to search the catalog, build carts, and '
@@ -95,8 +95,8 @@ image: https://board.fun/cdn/shop/files/flipbook_001.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: board-mcp.yml
-  slug: board-mcpyml
+  name: Board MCP Server
+  slug: board-mcp-server
 modified: '2026-07-18'
 name: Board
 nav: Providers
@@ -113,24 +113,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.1
-  delta: -2.1
+  composite: 20.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 20.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/screenshots/board-2026-08-07T162656.png
 security:

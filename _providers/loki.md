@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ modified: '2026-05-19'
 name: Loki
 nav: Providers
 network: true
-overview: 'Loki publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Config API, Loki API, Metrics API, and 2 more. Tagged areas include Logging, Observability, Open Source, and Grafana.
+overview: 'Loki publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Config API, Loki API, Metrics API, and 2 more. Tagged areas include Logging, Observability, Open-Source, and Grafana.
 
 
   Loki''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.8
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -164,7 +164,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 25.6
+  previous_composite: 24.8
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +172,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/screenshots/loki-2026-06-20T184708.png
 security:
@@ -189,7 +189,7 @@ slug: loki
 tags:
 - Logging
 - Observability
-- Open Source
+- Open-Source
 - Grafana
 website: https://grafana.com/oss/loki/
 ---

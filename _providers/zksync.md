@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: JSON-RPC endpoint for zkSync Era mainnet (chain ID 324). Implements standard eth_* methods plus zks_* extensions for L1 batch info, fee estimation, bridge contracts, paymaster params, token addresses,
@@ -136,7 +136,7 @@ modified: '2026-05-29'
 name: zkSync
 nav: Providers
 network: true
-overview: 'zkSync publishes 1 API on the [APIs.io](https://apis.io/) network: Era WebSocket. Tagged areas include Layer 2, Ethereum, zkEVM, ZK Rollup, and Account Abstraction.
+overview: 'zkSync publishes 1 API on the [APIs.io](https://apis.io/) network: Era WebSocket. Tagged areas include Layer 2, Ethereum, zkEVM, ZK-Rollup, and Account Abstraction.
 
 
   The zkSync catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -167,7 +167,7 @@ rules:
 score:
   band: thin
   composite: 34.4
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -177,10 +177,10 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 39.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 34.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zksync/refs/heads/main/screenshots/zksync-2026-06-20T201926.png
 security:
 - kind: domain-security
@@ -192,7 +192,7 @@ tags:
 - Layer 2
 - Ethereum
 - zkEVM
-- ZK Rollup
+- ZK-Rollup
 - Account Abstraction
 - Paymaster
 - ZK Stack

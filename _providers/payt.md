@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -291,13 +291,13 @@ image: https://paytsoftware.nl/wp-content/uploads/2024/06/Logo-background-white-
 layout: provider
 mcp_servers:
 - description: ''
-  name: payt-mcp.yml
-  slug: payt-mcpyml
+  name: Payt MCP Server
+  slug: payt-mcp-server
 modified: '2026-07-20'
 name: Payt
 nav: Providers
 network: true
-overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, including administrations API, companies API, contacts API, and 17 more. Tagged areas include Company, Applicative SaaS, Accounts Receivable, Order to Cash, and Invoicing.
+overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, including administrations API, companies API, contacts API, and 17 more. Tagged areas include Company, Applicative Saas, Accounts Receivable, Order-to-Cash, and Invoicing.
 
 
   Payt''s developer surface includes authentication, changelog, sandbox, documentation, API reference, support, engineering blog, and 23 more developer resources.'
@@ -310,7 +310,7 @@ scopes:
 score:
   band: developing
   composite: 48.1
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -320,7 +320,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 52.0
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -337,8 +337,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png
 security:
@@ -353,9 +353,9 @@ security:
 slug: payt
 tags:
 - Company
-- Applicative SaaS
+- Applicative Saas
 - Accounts Receivable
-- Order to Cash
+- Order-to-Cash
 - Invoicing
 - Debt Collection
 - Payments

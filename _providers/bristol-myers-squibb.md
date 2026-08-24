@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The BMS Medical Information portal provides US healthcare providers with access to product medical information, clinical data, and scientific resources for BMS medicines across oncology, immunology, a
@@ -80,7 +80,7 @@ modified: '2026-04-21'
 name: Bristol Myers Squibb
 nav: Providers
 network: true
-overview: Bristol Myers Squibb publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Biopharmaceutical, Oncology, Immunology, and Cardiovascular.
+overview: Bristol Myers Squibb publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biopharmaceutical, Oncology, Immunology, and Cardiovascular.
 plans:
 - name: Bristol Myers Squibb Plans Pricing
   plan_count: 1
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.9
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -119,15 +119,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 9.6
+  previous_composite: 7.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/screenshots/bristol-myers-squibb-2026-06-20T173708.png
 security:
@@ -137,7 +137,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bristol-myers-squibb
 tags:
-- Pharmaceutical
+- Pharmaceuticals
 - Biopharmaceutical
 - Oncology
 - Immunology

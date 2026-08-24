@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Office of Fair Housing and Equal Opportunity (FHEO) administers and enforces federal laws that prohibit discrimination in housing based on race, color, national origin, religion, sex, familial sta
@@ -77,7 +77,7 @@ modified: '2026-04-28'
 name: Fair Housing and Equal Opportunity
 nav: Providers
 network: true
-overview: Fair Housing and Equal Opportunity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Equal Opportunity, Fair Housing, Federal Government, Housing, and HUD.
+overview: Fair Housing and Equal Opportunity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Equal Opportunity, Fair Housing, Federal-Government, Housing, and HUD.
 plans:
 - name: Fair Housing And Equal Opportunity Plans Pricing
   plan_count: 3
@@ -90,7 +90,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.9
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -100,15 +100,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 10.9
+  previous_composite: 8.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/screenshots/fair-housing-and-equal-opportunity-2026-06-20T181015.png
 security:
@@ -120,7 +120,7 @@ slug: fair-housing-and-equal-opportunity
 tags:
 - Equal Opportunity
 - Fair Housing
-- Federal Government
+- Federal-Government
 - Housing
 - HUD
 website: https://www.hud.gov

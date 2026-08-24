@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: ILAB provides data on child labor, forced labor, and human trafficking across countries. The DOL developer API provides programmatic access to ILAB datasets including country-level labor standards ass
@@ -80,7 +80,7 @@ modified: '2026-04-23'
 name: Bureau of International Labor Affairs
 nav: Providers
 network: true
-overview: 'Bureau of International Labor Affairs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, International, Labor, Standards, and Child Labor.
+overview: 'Bureau of International Labor Affairs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, International, Labor, Standards, and Child Labor.
 
 
   Bureau of International Labor Affairs'' developer surface includes developer portal and 6 more developer resources.'
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.7
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -106,15 +106,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.8
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/screenshots/bureau-of-international-labor-affairs-2026-06-20T173810.png
 security:
@@ -124,7 +124,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: bureau-of-international-labor-affairs
 tags:
-- Federal Government
+- Federal-Government
 - International
 - Labor
 - Standards

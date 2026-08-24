@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Credit-metered company and people data enrichment. Two entities — company (keyed on domain or LinkedIn URL) and person (keyed on LinkedIn profile URL or business email) — with a structured filter gram
@@ -180,7 +180,7 @@ scopes:
 score:
   band: developing
   composite: 39.6
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -190,13 +190,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 38.4
+  previous_composite: 39.6
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

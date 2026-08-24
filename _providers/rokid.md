@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Rokid Glass3 / Sprite Enterprise cloud API. Device registration lookup and real-time telemetry, message push to glasses, paged AI agent chat logs, RTC remote-collaboration meeting history and part
@@ -153,8 +153,8 @@ image: https://static.rokidcdn.com/web_assets/site/og-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: rokid-mcp.yml
-  slug: rokid-mcpyml
+  name: Rokid MCP Server
+  slug: rokid-mcp-server
 modified: '2026-08-05'
 name: Rokid
 nav: Providers
@@ -167,7 +167,7 @@ random_paper: 12
 score:
   band: developing
   composite: 42.6
-  delta: 5.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -177,14 +177,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 36.9
+  previous_composite: 42.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Rokid Authentication

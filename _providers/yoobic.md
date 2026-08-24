@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 41
 apis:
 - description: <a id="group-answers"></a> Answers are the users’ replies to the questions raised by their colleagues in the Questions menu. Other users can vote for answers they think are best, like them, and a user
@@ -370,8 +370,8 @@ image: https://yoobic.com/wp-content/uploads/2025/11/cropped-favicon-1-1-270x270
 layout: provider
 mcp_servers:
 - description: ''
-  name: yoobic-mcp.yml
-  slug: yoobic-mcpyml
+  name: Yoobic MCP Server
+  slug: yoobic-mcp-server
 modified: '2026-07-21'
 name: Yoobic
 nav: Providers
@@ -387,7 +387,7 @@ random_paper: 15
 score:
   band: developing
   composite: 44.9
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -397,7 +397,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 44.5
+  previous_composite: 44.9
   provenance:
     conformance: derived
     contracts:
@@ -407,8 +407,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yoobic/refs/heads/main/screenshots/yoobic-2026-08-17T083024.png
 security:
@@ -434,7 +434,7 @@ tags:
 - Microlearning
 - Employee Experience
 - REST
-- Webhooks
+- Webhook
 - SCIM
 website: https://www.yoobic.com/
 ---

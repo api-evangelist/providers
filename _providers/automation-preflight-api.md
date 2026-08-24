@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -179,14 +179,14 @@ examples:
 image: https://tinyopsstudio.com/assets/tinyops-logo-mark-v4.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: automation-preflight-api-mcp.yml
-  slug: automation-preflight-api-mcpyml
+- description: TinyOps Studio publishes NO MCP server for the Automation Preflight API. This file is a candidate tool surface derived from the published OpenAPI operations — a design proposal, not a provider artifac
+  name: Automation Preflight API MCP Server
+  slug: automation-preflight-api-mcp-server
 modified: '2026-08-09'
 name: Automation Preflight API
 nav: Providers
 network: true
-overview: 'Automation Preflight API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Acceptance Pack API, Analyze API, Direct API, and 1 more. Tagged areas include automation, integration, developer-tools, readiness, and testing.
+overview: 'Automation Preflight API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Acceptance Pack API, Analyze API, Direct API, and 1 more. Tagged areas include Automation, Integration, Developer Tools, Readiness, and Testing.
 
 
   Automation Preflight API''s developer surface includes authentication, support, pricing, signup flow, sandbox, code examples, and 21 more developer resources.'
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.2
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 48.6
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +223,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/screenshots/automation-preflight-api-2026-08-17T080618.png
 security:
@@ -238,15 +238,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: automation-preflight-api
 tags:
-- automation
-- integration
-- developer-tools
-- readiness
-- testing
-- url-analysis
-- web-scraping
-- agent-tools
-- quality-assurance
-- site-audit
+- Automation
+- Integration
+- Developer Tools
+- Readiness
+- Testing
+- URL Analysis
+- Web Scraping
+- Agent Tools
+- Quality Assurance
+- Site Audit
 website: https://tinyopsstudio.com/product
 ---

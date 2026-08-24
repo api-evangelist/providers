@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 8
@@ -650,7 +650,7 @@ modified: '2026-05-25'
 name: Runloop
 nav: Providers
 network: true
-overview: 'Runloop publishes 24 APIs on the [APIs.io](https://apis.io/) network, including agents API, apikeys API, axons API, and 21 more. Tagged areas include AI, AI Agents, Coding Agents, Sandboxes, and Devboxes.
+overview: 'Runloop publishes 24 APIs on the [APIs.io](https://apis.io/) network, including agents API, apikeys API, axons API, and 21 more. Tagged areas include Artificial Intelligence, AI Agents, Coding Agents, Sandboxes, and Devboxes.
 
 
   The Runloop catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -690,18 +690,18 @@ rules:
   slug: runloop-ai-rules
 score:
   band: strong
-  composite: 61.7
-  delta: -4.8
+  composite: 62.1
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 72.5
     developer_ergonomics: 69.0
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 66.5
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     contracts:
@@ -709,8 +709,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/screenshots/runloop-ai-2026-06-20T193255.png
 security:
@@ -728,7 +728,7 @@ security:
   summary_line: SOC 2, HIPAA, FedRAMP, GDPR
 slug: runloop-ai
 tags:
-- AI
+- Artificial Intelligence
 - AI Agents
 - Coding Agents
 - Sandboxes
@@ -739,7 +739,7 @@ tags:
 - SWE-Bench
 - MCP
 - Snapshots
-- microVM
+- MicroVM
 - Enterprise
 - SOC 2
 website: https://runloop.ai

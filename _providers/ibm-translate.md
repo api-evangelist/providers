@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ collections:
   name: IBM Watson Language Translator V3 Documents Translation API
   slug: open-ibm-translate-translation-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: operate
   title: ''
   type: IssueTracker
@@ -186,17 +190,17 @@ jsonld:
   property_count: 35
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-21'
 name: IBM Language Translator
 nav: Providers
 network: true
-overview: 'IBM Language Translator publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Languages API, Models API, and 1 more. Tagged areas include Translation, Natural Language Processing, Machine Translation, IBM Watson, and AI.
+overview: 'IBM Language Translator publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Languages API, Models API, and 1 more. Tagged areas include Translation, Natural Language Processing, Machine Translation, IBM Watson, and Artificial Intelligence.
 
 
   The IBM Language Translator catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  IBM Language Translator''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
+  IBM Language Translator''s developer surface includes authentication, documentation, engineering blog, pricing, and 17 more developer resources.'
 plans:
 - name: Ibm Translate Plans Pricing
   plan_count: 2
@@ -220,7 +224,7 @@ rules:
 score:
   band: developing
   composite: 46.7
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -230,7 +234,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 68.4
-  previous_composite: 53.0
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -238,9 +242,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/screenshots/ibm-translate-2026-06-20T183233.png
 security:
 - kind: authentication
@@ -261,7 +265,7 @@ tags:
 - Natural Language Processing
 - Machine Translation
 - IBM Watson
-- AI
+- Artificial Intelligence
 - Text Analysis
 - Deprecated
 website: https://www.ibm.com/cloud/watson-language-translator

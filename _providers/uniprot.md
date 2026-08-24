@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Search and retrieve protein entries from UniProtKB, which integrates Swiss-Prot (manually reviewed) and TrEMBL (computationally annotated) databases. Supports full-text and field-specific queries, ret
@@ -91,7 +91,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -101,15 +101,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 22.4
+  previous_composite: 21.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniprot/refs/heads/main/screenshots/uniprot-2026-06-20T200029.png
 security:

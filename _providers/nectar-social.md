@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Remote Model Context Protocol server exposing Nectar Social''s social content and analytics to AI agents over JSON-RPC 2.0 (Streamable HTTP). OAuth-protected: an anonymous tools/list returns HTTP 401 w'
@@ -132,16 +132,16 @@ image: https://cdn.prod.website-files.com/6831e07f7427f0c59b8b2a7b/6837117d77fca
 layout: provider
 mcp_servers:
 - description: ''
-  name: nectar-social-mcp.yml
-  slug: nectar-social-mcpyml
+  name: Nectar Social MCP Server
+  slug: nectar-social-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Nectar Social MCP Server
+  slug: nectar-social-mcp-server-2
 modified: '2026-08-13'
 name: Nectar Social
 nav: Providers
 network: true
-overview: 'Nectar Social publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Social Media, Community Management, and Social Listening.
+overview: 'Nectar Social publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Social-Media, Community Management, and Social Listening.
 
 
   The Nectar Social catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -165,7 +165,7 @@ scopes:
 score:
   band: thin
   composite: 28.8
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -175,12 +175,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 31.9
+  previous_composite: 28.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -198,8 +198,8 @@ security:
 slug: nectar-social
 tags:
 - Company
-- AI
-- Social Media
+- Artificial Intelligence
+- Social-Media
 - Community Management
 - Social Listening
 - Influencer Marketing
@@ -207,6 +207,6 @@ tags:
 - Social Commerce
 - MCP
 - Agents
-- OAuth
+- Authentication
 website: https://www.nectarsocial.com
 ---

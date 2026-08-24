@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -176,14 +176,14 @@ description: PackageX provides vision-AI powered logistics execution — softwar
 image: https://cdn.prod.website-files.com/68d230940fd846bdd01f1867/6989c29e1ae181a811f47ac1_OG.webp
 layout: provider
 mcp_servers:
-- description: ''
-  name: packagex-mcp.yml
-  slug: packagex-mcpyml
+- description: No official hosted/remote PackageX MCP server was found. The tools below are a candidate surface derived one-to-one from the published Shipments OpenAPI operations, for use if an MCP server is stood u
+  name: PackageX MCP Server
+  slug: packagex-mcp-server
 modified: '2026-07-20'
 name: PackageX
 nav: Providers
 network: true
-overview: 'PackageX publishes 1 API on the [APIs.io](https://apis.io/) network: shipments API. Tagged areas include Company, Logistics, Shipping, Supply Chain, and Computer Vision.
+overview: 'PackageX publishes 1 API on the [APIs.io](https://apis.io/) network: shipments API. Tagged areas include Company, Logistics, Shipping, Supply Chain, and Computer-Vision.
 
 
   The PackageX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -194,7 +194,7 @@ random_paper: 17
 score:
   band: developing
   composite: 49.8
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -204,7 +204,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 49.1
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,8 +215,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/screenshots/packagex-2026-08-07T191238.png
 security:
@@ -234,7 +234,7 @@ tags:
 - Logistics
 - Shipping
 - Supply Chain
-- Computer Vision
+- Computer-Vision
 - OCR
 - Package Tracking
 - Fulfillment

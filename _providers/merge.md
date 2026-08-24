@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 197
   human_in_the_loop: 5
@@ -4395,7 +4395,7 @@ modified: '2026-05-22'
 name: Merge
 nav: Providers
 network: true
-overview: 'Merge publishes 117 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_accessKeys API, subpackage_accountDetails API, and 114 more. Tagged areas include Integrations, Platform, Unified API, Agent Handler, and LLM Gateway.
+overview: 'Merge publishes 117 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_accessKeys API, subpackage_accountDetails API, and 114 more. Tagged areas include Integration, Platform, Unified-API, Agent Handler, and LLM Gateway.
 
 
   The Merge catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -4435,18 +4435,18 @@ rules:
   slug: merge-spectral-rules
 score:
   band: strong
-  composite: 59.1
-  delta: -6.5
+  composite: 59.6
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.9
     developer_ergonomics: 52.4
     discoverability: 77.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 65.6
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -4454,9 +4454,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 117
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/screenshots/merge-2026-06-20T185219.png
 security:
 - kind: authentication
@@ -4498,9 +4498,9 @@ solutions:
 - description: Unified LLM API across OpenAI, Anthropic, Google, Mistral, Cohere, xAI with routing and observability.
   name: Merge Gateway
 tags:
-- Integrations
+- Integration
 - Platform
-- Unified API
+- Unified-API
 - Agent Handler
 - LLM Gateway
 use_cases:

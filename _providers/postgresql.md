@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Open-source relational database with advanced SQL compliance and extensibility. Client libraries available in many languages.
@@ -73,7 +73,7 @@ modified: '2026-04-28'
 name: PostgreSQL
 nav: Providers
 network: true
-overview: 'PostgreSQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Open Source, Relational Database, and SQL.
+overview: 'PostgreSQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Open-Source, Relational Database, and SQL.
 
 
   PostgreSQL''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.4
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -99,9 +99,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postgresql/refs/heads/main/screenshots/postgresql-2026-06-20T191957.png
 security:
@@ -112,7 +112,7 @@ security:
 slug: postgresql
 tags:
 - Database
-- Open Source
+- Open-Source
 - Relational Database
 - SQL
 website: https://www.postgresql.org/

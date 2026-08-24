@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Posts, pages and the block library.
@@ -211,7 +211,7 @@ modified: '2026-08-05'
 name: Zetagen Therapeutics
 nav: Providers
 network: true
-overview: 'Zetagen Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Downloads API, and 6 more. Tagged areas include Company, biopharmaceuticals, oncology, bone-health, and orthopedics.
+overview: 'Zetagen Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Downloads API, and 6 more. Tagged areas include Company, biopharmaceuticals, Oncology, Bone Health, and Orthopedics.
 
 
   Zetagen Therapeutics'' developer surface includes product news, authentication, and 28 more developer resources.'
@@ -219,7 +219,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 24.3
-  delta: 5.5
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -229,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 18.8
+  previous_composite: 24.3
   provenance:
     conformance: derived
     contracts:
@@ -244,9 +244,9 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Zetagen Therapeutics Authentication
@@ -260,13 +260,13 @@ slug: zetagen-therapeutics
 tags:
 - Company
 - biopharmaceuticals
-- oncology
-- bone-health
-- orthopedics
-- clinical-trials
-- life-sciences
-- drug-development
-- medical-devices
+- Oncology
+- Bone Health
+- Orthopedics
+- Clinical Trials
+- Life Sciences
+- Drug Development
+- Medical Devices
 - content-api
 website: https://zetagen.com/
 ---

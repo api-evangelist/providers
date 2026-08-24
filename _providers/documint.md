@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for templates and documents. Authenticated via the api_key request header. Postman collection is the canonical reference.
@@ -93,7 +93,7 @@ modified: '2026-05-08'
 name: Documint
 nav: Providers
 network: true
-overview: 'Documint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Document Generation, PDF, Templates, API, and Workflow.
+overview: 'Documint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Document Generation, PDF, Templates, Workflows, and HubSpot.
 
 
   Documint''s developer surface includes documentation, pricing, GitHub presence, engineering blog, and 7 more developer resources.'
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -119,9 +119,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/documint/refs/heads/main/screenshots/documint-2026-06-20T180117.png
 security:
@@ -134,8 +134,7 @@ tags:
 - Document Generation
 - PDF
 - Templates
-- API
-- Workflow
+- Workflows
 - HubSpot
 - Zapier
 website: https://www.documint.me/

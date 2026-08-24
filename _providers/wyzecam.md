@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Official Wyze token-issuance API for third-party integrations. Users create an API key in the Wyze Developer API Console, then POST to /api/user/login with Keyid and Apikey headers to obtain an access
@@ -76,7 +76,7 @@ modified: '2026-07-21'
 name: Wyze Labs
 nav: Providers
 network: true
-overview: 'Wyze Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Cameras, IoT, and Home Security.
+overview: 'Wyze Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Camera, IoT, and Home Security.
 
 
   Wyze Labs'' developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 17.6
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -100,15 +100,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: wyzecam
 tags:
 - Company
 - Smart Home
-- Cameras
+- Camera
 - IoT
 - Home Security
 - Consumer Electronics

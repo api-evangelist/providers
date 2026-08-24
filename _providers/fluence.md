@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 2
@@ -223,8 +223,8 @@ image: https://www.fluence.network/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: fluence-mcp.yml
-  slug: fluence-mcpyml
+  name: Fluence MCP Server
+  slug: fluence-mcp-server
 modified: '2026-07-19'
 name: Fluence
 nav: Providers
@@ -242,7 +242,7 @@ scopes:
 score:
   band: thin
   composite: 37.6
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -252,7 +252,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 44.1
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,9 +263,9 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/screenshots/fluence-2026-07-25T214842.png
 security:
 - kind: authentication

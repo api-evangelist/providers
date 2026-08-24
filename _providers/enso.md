@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: The ccip API from Enso — 2 operation(s) for ccip.
@@ -202,13 +202,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enso.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: enso-mcp.yml
-  slug: enso-mcpyml
+  name: Enso MCP Server
+  slug: enso-mcp-server
 modified: '2026-07-19'
 name: Enso
 nav: Providers
 network: true
-overview: 'Enso publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ccip API, cctp API, layerzero API, and 6 more. Tagged areas include Company, Crypto Web3, DeFi, Blockchain, and Cross-chain.
+overview: 'Enso publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ccip API, cctp API, layerzero API, and 6 more. Tagged areas include Company, Crypto Web3, DeFi, Blockchain, and Cross-Chain.
 
 
   Enso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
@@ -220,7 +220,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.0
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 46.4
+  previous_composite: 45.0
   provenance:
     conformance: derived
     contracts:
@@ -240,8 +240,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/screenshots/enso-2026-07-25T213420.png
 security:
@@ -259,7 +259,7 @@ tags:
 - Crypto Web3
 - DeFi
 - Blockchain
-- Cross-chain
+- Cross-Chain
 - Smart Contracts
 - Transaction Routing
 - Web3 Infrastructure

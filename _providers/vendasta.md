@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 203
   human_in_the_loop: 2
@@ -367,13 +367,13 @@ image: https://www.vendasta.com/wp-content/uploads/2021/03/vendasta-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: vendasta-mcp.yml
-  slug: vendasta-mcpyml
+  name: Vendasta MCP Server
+  slug: vendasta-mcp-server
 modified: '2026-08-13'
 name: Vendasta
 nav: Providers
 network: true
-overview: 'Vendasta publishes 38 APIs on the [APIs.io](https://apis.io/) network, including account API, activity API, change_spend API, and 35 more. Tagged areas include Company, SaaS, Marketplace, SMB, and White Label.
+overview: 'Vendasta publishes 38 APIs on the [APIs.io](https://apis.io/) network, including account API, activity API, change_spend API, and 35 more. Tagged areas include Company, Software-as-a-Service, Marketplace, SMB, and White Label.
 
 
   The Vendasta catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -397,7 +397,7 @@ scopes:
 score:
   band: strong
   composite: 64.8
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -407,7 +407,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 70.4
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -418,9 +418,9 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/screenshots/vendasta-2026-08-17T080435.png
 security:
 - kind: authentication
@@ -442,7 +442,7 @@ security:
 slug: vendasta
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Marketplace
 - SMB
 - White Label

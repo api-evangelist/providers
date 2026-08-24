@@ -29,8 +29,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -77,8 +77,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -112,21 +112,21 @@
      "slug": "zoominfo",
      "description": "ZoomInfo is a B2B go-to-market intelligence platform whose contact and company database, buyer-intent signals, scoops and news feeds are sold to sales, marketing, operations and recruiting teams. Its API estate is mid-migration: the legacy Enterprise API on api.zoominfo.com is documented as deprecating, while the current GTM API on api.zoominfo.com/gtm ships six published OpenAPI specifications covering data, Copilot, GTM Studio, marketing, agents and platform. ZoomInfo also operates a hosted, OAuth-gated Model Context Protocol server at mcp.zoominfo.com and publishes 35 agent skills and a first-party CLI that talks to that MCP server rather than to REST.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/screenshots/zoominfo-2026-06-20T201953.png",
-     "score": 80.9,
+     "score": 81.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 81.3,
-      "governance": 41.7,
-      "contract_governance": 41.7,
+      "governance": 45.5,
+      "contract_governance": 45.5,
       "operational_transparency": 92.1,
       "developer_ergonomics": 79.8,
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 58.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -166,8 +166,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 51.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -190,6 +190,54 @@
      "rank": 4
     },
     {
+     "name": "GetResponse",
+     "slug": "getresponse",
+     "description": "GetResponse is an all-in-one marketing platform for email marketing, marketing automation, landing pages, websites, webinars, SMS, web push, ecommerce and content monetization, used by small businesses, marketers and enterprises. The GetResponse API v3 is a JSON REST API authenticated with an X-Auth-Token header carrying an API key prefixed with \"api-key \", or with OAuth 2.0. The provider publishes a machine-readable OpenAPI 3.0.0 describing 220 operations across 141 paths and 42 product areas — contacts, campaigns, newsletters, autoresponders, transactional email, SMS, forms and popups, landing pages, websites, webinars, workflows, imports, suppressions and a full ecommerce tree of shops, products, variants, categories, carts, orders and taxes. The spec is discoverable through an RFC 9727 API catalog at /.well-known/api-catalog, and GetResponse also publishes an llms.txt and its own Agent Skill for the public API. Enterprise customers run on the separate GetResponse MAX platform, which requires an additional X-Domain header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/screenshots/getresponse-2026-06-20T181811.png",
+     "score": 74.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 68.1,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 76.2,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 72.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 62.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
+    },
+    {
      "name": "Fireflies.ai",
      "slug": "fireflies",
      "description": "Fireflies.ai is an AI meeting assistant that automatically joins video calls, records, transcribes, and summarizes meetings across platforms such as Zoom, Google Meet, and Microsoft Teams. The platform provides a GraphQL API giving developers structured access to call recordings, transcripts, summaries, action items, speaker analytics, and meeting intelligence. Teams can retrieve and search transcript data, manage meetings programmatically, and integrate meeting context into CRM, project management, and workflow automation tools. Advanced features include AskFred AI for natural language queries against meeting content, real-time transcription via a live API, webhooks for event-driven integrations, and an MCP server for connecting AI tooling directly to meeting data.",
@@ -207,8 +255,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 58.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -226,54 +274,6 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": "conformant",
-      "dry_run_mode": false
-     },
-     "rank": 5
-    },
-    {
-     "name": "GetResponse",
-     "slug": "getresponse",
-     "description": "GetResponse is an all-in-one marketing platform for email marketing, marketing automation, landing pages, websites, webinars, SMS, web push, ecommerce and content monetization, used by small businesses, marketers and enterprises. The GetResponse API v3 is a JSON REST API authenticated with an X-Auth-Token header carrying an API key prefixed with \"api-key \", or with OAuth 2.0. The provider publishes a machine-readable OpenAPI 3.0.0 describing 220 operations across 141 paths and 42 product areas — contacts, campaigns, newsletters, autoresponders, transactional email, SMS, forms and popups, landing pages, websites, webinars, workflows, imports, suppressions and a full ecommerce tree of shops, products, variants, categories, carts, orders and taxes. The spec is discoverable through an RFC 9727 API catalog at /.well-known/api-catalog, and GetResponse also publishes an llms.txt and its own Agent Skill for the public API. Enterprise customers run on the separate GetResponse MAX platform, which requires an additional X-Domain header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/screenshots/getresponse-2026-06-20T181811.png",
-     "score": 73.5,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 68.1,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 76.2,
-      "commercial_clarity": 85.5,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 72.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 59.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 6
@@ -296,8 +296,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -327,6 +327,47 @@
      "rank": 7
     },
     {
+     "name": "Hightouch",
+     "slug": "hightouch",
+     "description": "Hightouch is a composable Customer Data Platform (CDP) and agentic marketing platform that activates data directly from cloud warehouses and lakehouses such as Snowflake, BigQuery, Databricks and Redshift to more than 290 SaaS destinations, without copying or storing customer data. The platform covers Reverse ETL, Customer Studio audience building and journey orchestration, identity resolution, first-party event collection with SDKs for web and mobile, real-time personalization, AI Decisioning, Match Booster and an Ad Studio for advertising creative. Developers get a bearer-authenticated REST API at https://api.hightouch.com/api/v1 covering sources, models, destinations, syncs and runs, campaigns, decision-engine flows, event contracts and identity graphs, plus an `ht` CLI, Git Sync for version-controlled resource YAML, workspace environments with approval flows, a public documentation MCP server, and an A2A agent card for the Hightouch Marketing Agent.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/screenshots/hightouch-2026-06-20T182738.png",
+     "score": 71.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 72.8,
+      "governance": 30.3,
+      "contract_governance": 30.3,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 75.6,
+      "commercial_clarity": 93.4,
+      "access_clarity": 93.4
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 59.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false
+     },
+     "rank": 8
+    },
+    {
      "name": "Ontraport",
      "slug": "ontraport",
      "description": "Ontraport is a business automation platform combining CRM, marketing automation, email marketing, landing pages, ecommerce, and membership site capabilities for small businesses and entrepreneurs. The platform unifies contact management, sales pipelines, payment processing, and visual automation campaigns in a single workspace. Ontraport's REST API exposes contacts, transactions, tags, sequences, forms, landing pages, and ecommerce objects using API-Key and Api-Appid header authentication, through a generic object interface where the record type is selected by an integer object type ID rather than by a path segment. Ontraport also runs a first-party remote MCP server at https://mcp.ontraport.com, publishing 47 tools across CRUD, query, management and commerce and authorizing them with OAuth 2.1 (PKCE, dynamic client registration) under a single mcp:tools scope.",
@@ -344,8 +385,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -372,7 +413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Omnisend",
@@ -392,8 +433,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 54.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -411,47 +452,6 @@
       "well_known_catalog": true,
       "consent_identity": true,
       "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Hightouch",
-     "slug": "hightouch",
-     "description": "Hightouch is a composable Customer Data Platform (CDP) and agentic marketing platform that activates data directly from cloud warehouses and lakehouses such as Snowflake, BigQuery, Databricks and Redshift to more than 290 SaaS destinations, without copying or storing customer data. The platform covers Reverse ETL, Customer Studio audience building and journey orchestration, identity resolution, first-party event collection with SDKs for web and mobile, real-time personalization, AI Decisioning, Match Booster and an Ad Studio for advertising creative. Developers get a bearer-authenticated REST API at https://api.hightouch.com/api/v1 covering sources, models, destinations, syncs and runs, campaigns, decision-engine flows, event contracts and identity graphs, plus an `ht` CLI, Git Sync for version-controlled resource YAML, workspace environments with approval flows, a public documentation MCP server, and an A2A agent card for the Hightouch Marketing Agent.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/screenshots/hightouch-2026-06-20T182738.png",
-     "score": 69.9,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 72.8,
-      "governance": 30.3,
-      "contract_governance": 30.3,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 75.6,
-      "commercial_clarity": 93.4,
-      "access_clarity": 93.4
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 59.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "conformant",
       "dry_run_mode": false
      },
      "rank": 10
@@ -474,8 +474,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 56.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -498,63 +498,15 @@
      "rank": 11
     },
     {
-     "name": "Keap",
-     "slug": "keap",
-     "description": "Keap (formerly Infusionsoft, now part of Thryv) is a CRM, sales and marketing automation platform for small businesses that combines contact management, email and text marketing, e-commerce, affiliate management and pipeline automation. Keap publishes two live OpenAPI 3.1 contracts covering 540 operations — REST v2 (399 operations, the Default version) and REST v1 (141 operations, still the only home of REST Hooks webhooks and Appointments) — plus a deprecated XML-RPC surface. Authentication is OAuth 2.0 authorization code with rotating refresh tokens, or Personal Access Tokens and Service Account Keys, all with a single `full` scope. Keap also operates an undocumented but live remote MCP server at https://api.keap.com/mcp secured with OAuth 2.1, PKCE and dynamic client registration, and ships first-party SDKs for six languages generated in lock-step from its own spec.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png",
-     "score": 67.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 67.3,
-      "governance": 28.0,
-      "contract_governance": 28.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 78.0,
-      "commercial_clarity": 73.7,
-      "access_clarity": 73.7
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 62.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 12
-    },
-    {
      "name": "Moosend",
      "slug": "moosend",
      "description": "Moosend is an email marketing and automation platform with a REST API for managing mailing lists, campaigns, subscribers, automations, and tracking email performance metrics. The API uses HTTPS with API key authentication and provides programmatic access to email lists, subscriber management, campaign creation and scheduling, audience segmentation, transactional emails, and real-time reporting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/screenshots/moosend-2026-06-20T185801.png",
-     "score": 67.2,
+     "score": 68.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 87.0,
       "contract_quality": 62.2,
       "governance": 16.7,
       "contract_governance": 16.7,
@@ -563,8 +515,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -591,6 +543,54 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 12
+    },
+    {
+     "name": "Keap",
+     "slug": "keap",
+     "description": "Keap (formerly Infusionsoft, now part of Thryv) is a CRM, sales and marketing automation platform for small businesses that combines contact management, email and text marketing, e-commerce, affiliate management and pipeline automation. Keap publishes two live OpenAPI 3.1 contracts covering 540 operations — REST v2 (399 operations, the Default version) and REST v1 (141 operations, still the only home of REST Hooks webhooks and Appointments) — plus a deprecated XML-RPC surface. Authentication is OAuth 2.0 authorization code with rotating refresh tokens, or Personal Access Tokens and Service Account Keys, all with a single `full` scope. Keap also operates an undocumented but live remote MCP server at https://api.keap.com/mcp secured with OAuth 2.1, PKCE and dynamic client registration, and ships first-party SDKs for six languages generated in lock-step from its own spec.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png",
+     "score": 67.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 67.3,
+      "governance": 28.0,
+      "contract_governance": 28.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 78.0,
+      "commercial_clarity": 73.7,
+      "access_clarity": 73.7
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 62.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 13
     }
    ],
@@ -601,8 +601,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 28,
-   "shown": 28,
+   "count": 29,
+   "shown": 29,
    "providers": [
     {
      "name": "Chili Piper",
@@ -622,8 +622,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 57.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -646,73 +646,25 @@
      "rank": 14
     },
     {
-     "name": "Fundz",
-     "slug": "fundz",
-     "description": "Fundz is an event-first business intelligence platform, founded 2015, tracking 200,000+ companies and surfacing funding rounds, executive changes, M&A activity, SEC filings (8-K, 10-K, 10-Q, Form D) and website modifications in real time. Rather than storing millions of static records it focuses on companies showing active signals, and scores them against each user's criteria. The API exposes company profiles, fundings, SEC filings and fund formations from api.fundz.net with an API key in the Authorization header. It sits in the same category as Harmonic and Crunchbase, and competes explicitly on access: an API key is free and issued instantly with no card and no sales call, and pricing is published rather than quoted. Fundz also ships an MCP server listed on the official Model Context Protocol registry, and publishes an llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png",
+     "name": "Constant Contact",
+     "slug": "constant-contact",
+     "description": "Constant Contact is a small-business email and digital marketing platform offering email campaigns, automation, SMS, contact management, surveys, and events. The Constant Contact V3 API is a REST + JSON, OAuth2-protected service published at api.cc.email/v3 covering accounts, contacts, lists, tags, custom fields, segments, email campaigns, A/B tests, schedules and tests, bulk activities (CSV/JSON import, export, list and tag mutations), events with registration and check-in, reporting, and partner provisioning.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png",
      "score": 66.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 70.6,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 73.2,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 51.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 59.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "documented",
-      "auth_clarity": true,
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na"
-     },
-     "rank": 15
-    },
-    {
-     "name": "Constant Contact",
-     "slug": "constant-contact",
-     "description": "Constant Contact is a small-business email and digital marketing platform offering email campaigns, automation, SMS, contact management, surveys, and events. The Constant Contact V3 API is a REST + JSON, OAuth2-protected service published at api.cc.email/v3 covering accounts, contacts, lists, tags, custom fields, segments, email campaigns, A/B tests, schedules and tests, bulk activities (CSV/JSON import, export, list and tag mutations), events with registration and check-in, reporting, and partner provisioning.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png",
-     "score": 65.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
       "contract_quality": 70.3,
-      "governance": 26.5,
-      "contract_governance": 26.5,
+      "governance": 30.3,
+      "contract_governance": 30.3,
       "operational_transparency": 73.7,
       "developer_ergonomics": 66.1,
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -739,6 +691,54 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 15
+    },
+    {
+     "name": "Fundz",
+     "slug": "fundz",
+     "description": "Fundz is an event-first business intelligence platform, founded 2015, tracking 200,000+ companies and surfacing funding rounds, executive changes, M&A activity, SEC filings (8-K, 10-K, 10-Q, Form D) and website modifications in real time. Rather than storing millions of static records it focuses on companies showing active signals, and scores them against each user's criteria. The API exposes company profiles, fundings, SEC filings and fund formations from api.fundz.net with an API key in the Authorization header. It sits in the same category as Harmonic and Crunchbase, and competes explicitly on access: an API key is free and issued instantly with no card and no sales call, and pricing is published rather than quoted. Fundz also ships an MCP server listed on the official Model Context Protocol registry, and publishes an llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png",
+     "score": 66.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 70.6,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 51.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 59.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": "documented",
+      "auth_clarity": true,
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na"
+     },
      "rank": 16
     },
     {
@@ -759,8 +759,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 47.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -800,8 +800,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 41.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -841,8 +841,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 35.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -882,8 +882,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -930,8 +930,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 45.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -971,8 +971,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1019,8 +1019,8 @@
       "commercial_clarity": 72.4,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1067,8 +1067,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 56.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1108,8 +1108,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 50.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1149,8 +1149,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 49.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1190,8 +1190,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1238,8 +1238,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 43.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1279,8 +1279,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 56.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1320,8 +1320,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 44.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1361,8 +1361,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1402,8 +1402,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1443,8 +1443,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1491,8 +1491,8 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 32.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1532,8 +1532,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 53.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1573,8 +1573,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 35.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1597,138 +1597,15 @@
      "rank": 36
     },
     {
-     "name": "Oracle Eloqua",
-     "slug": "eloqua",
-     "description": "Oracle Eloqua is a marketing automation platform that provides tools for lead management, email marketing, and marketing campaign management through comprehensive REST APIs. It enables marketing teams to create, execute, and measure the effectiveness of marketing programs and campaigns.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/screenshots/eloqua-2026-06-20T180617.png",
-     "score": 56.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 88.9,
-      "contract_quality": 67.2,
-      "governance": 26.5,
-      "contract_governance": 26.5,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 42.1,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 36.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 37
-    },
-    {
-     "name": "Digioh",
-     "slug": "digioh",
-     "description": "Digioh is a US-based onsite personalization and zero-party data platform for ecommerce brands. It ships product recommendation quizzes, pop-ups, banners, sidebars, inline embeds, landing pages, email/SMS preference centers and post-purchase surveys as a JavaScript widget layer installed on a merchant's storefront, plus Digioh Passport for cross-session visitor identification and Digioh Pipelines for routing form submissions into ESP/CRM destinations such as Klaviyo, Iterable, Braze, Attentive, Ometria, HubSpot and Salesforce. Its developer surface is client-side rather than server-side - a documented browser JavaScript API (DIGIOH_API.LIGHTBOX), an outbound \"API Form POST\" webhook integration that posts submission JSON to a customer-controlled endpoint, iOS and Android embed SDKs, and a WordPress plugin and Shopify app. Digioh publishes no public inbound REST API, no OpenAPI definition and no developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/screenshots/digioh-2026-08-17T080859.png",
-     "score": 55.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 45.1,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 61.9,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 32.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 38
-    },
-    {
-     "name": "WebinarJam",
-     "slug": "webinarjam",
-     "description": "WebinarJam is a live webinar platform for marketing, training, and sales events, while its sibling product EverWebinar provides automated and evergreen webinar replays. Both are published by Genesis Digital LLC and share one REST API that lets integrators list webinars, read webinar detail including schedules, presenters and custom registration fields, register attendees, pull registrant and attendee analytics, and unsubscribe leads. Every operation is a POST carrying a single account-wide 64-character api_key form field over TLS, with separate /webinarjam and /everwebinar base paths on api.webinarjam.com. API access requires a paid subscription plus an application approved by WebinarJam. No OpenAPI, AsyncAPI, MCP server or SDK is published; the reference is a human help centre and outbound custom webhooks are the only event surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/screenshots/webinarjam-2026-06-20T201333.png",
-     "score": 55.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 45.1,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 36.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 39
-    },
-    {
      "name": "Funnel",
      "slug": "funnel",
      "description": "Funnel (funnel.io) is a marketing intelligence and marketing data hub that helps agencies and brands become more data-driven. It connects to hundreds of advertising, analytics, CRM, and social data platforms, then automatically collects, normalizes, and transforms that marketing data into a single, business-ready model. Funnel exports the harmonized data to cloud data warehouses (BigQuery, Snowflake), Google Cloud Storage, BI and visualization tools, and back to ad platforms, and layers on advanced marketing measurement (Marketing Mix Modeling and Multi-Touch Attribution) plus dashboards and reporting. Programmatic configuration is exposed through the Funnel Control Plane API, consumed via an official Terraform provider and an OAuth 2.0 client-credentials (Auth0) system-user flow, with regional US and EU data residency. Funnel also ships a first-party hosted MCP server (Funnel MCP) that exposes six read-only tools over OAuth to Claude, ChatGPT, Cursor and other MCP clients, plus a documented inbound file-import webhook API. Funnel publishes no OpenAPI or AsyncAPI for any of the three surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/screenshots/funnel-2026-07-25T215322.png",
-     "score": 55.4,
+     "score": 56.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 92.6,
       "contract_quality": 45.1,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -1737,8 +1614,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1758,14 +1635,96 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 37
     },
     {
-     "name": "DinMo",
-     "slug": "dinmo",
-     "description": "DinMo is a composable Customer Data Platform (CDP) that turns a cloud data warehouse into a marketing activation engine. It connects directly to Snowflake, Google BigQuery, Databricks, Amazon Redshift, PostgreSQL, Microsoft Fabric, and ClickHouse, lets non-technical teams model customer data and build no-code segments, and activates those audiences to more than a hundred destination platforms (ad networks, CRMs, marketing and messaging tools) via Reverse ETL with a zero-data-copy architecture built for GDPR and FADP compliance. DinMo also exposes a Personalization API for retrieving activated model records in real time, plus AI predictions (LTV, churn), identity resolution, a Customer Hub, and event tracking. The company is Paris-based and backed by Seedcamp.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/screenshots/dinmo-2026-07-25T212055.png",
-     "score": 55.1,
+     "name": "Oracle Eloqua",
+     "slug": "eloqua",
+     "description": "Oracle Eloqua is a marketing automation platform that provides tools for lead management, email marketing, and marketing campaign management through comprehensive REST APIs. It enables marketing teams to create, execute, and measure the effectiveness of marketing programs and campaigns.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/screenshots/eloqua-2026-06-20T180617.png",
+     "score": 56.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 88.9,
+      "contract_quality": 67.2,
+      "governance": 26.5,
+      "contract_governance": 26.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 42.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 36.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 38
+    },
+    {
+     "name": "Digioh",
+     "slug": "digioh",
+     "description": "Digioh is a US-based onsite personalization and zero-party data platform for ecommerce brands. It ships product recommendation quizzes, pop-ups, banners, sidebars, inline embeds, landing pages, email/SMS preference centers and post-purchase surveys as a JavaScript widget layer installed on a merchant's storefront, plus Digioh Passport for cross-session visitor identification and Digioh Pipelines for routing form submissions into ESP/CRM destinations such as Klaviyo, Iterable, Braze, Attentive, Ometria, HubSpot and Salesforce. Its developer surface is client-side rather than server-side - a documented browser JavaScript API (DIGIOH_API.LIGHTBOX), an outbound \"API Form POST\" webhook integration that posts submission JSON to a customer-controlled endpoint, iOS and Android embed SDKs, and a WordPress plugin and Shopify app. Digioh publishes no public inbound REST API, no OpenAPI definition and no developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/screenshots/digioh-2026-08-17T080859.png",
+     "score": 55.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 45.1,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 61.9,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 32.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 39
+    },
+    {
+     "name": "WebinarJam",
+     "slug": "webinarjam",
+     "description": "WebinarJam is a live webinar platform for marketing, training, and sales events, while its sibling product EverWebinar provides automated and evergreen webinar replays. Both are published by Genesis Digital LLC and share one REST API that lets integrators list webinars, read webinar detail including schedules, presenters and custom registration fields, register attendees, pull registrant and attendee analytics, and unsubscribe leads. Every operation is a POST carrying a single account-wide 64-character api_key form field over TLS, with separate /webinarjam and /everwebinar base paths on api.webinarjam.com. API access requires a paid subscription plus an application approved by WebinarJam. No OpenAPI, AsyncAPI, MCP server or SDK is published; the reference is a human help centre and outbound custom webhooks are the only event surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/screenshots/webinarjam-2026-06-20T201333.png",
+     "score": 55.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -1774,13 +1733,13 @@
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 44.7,
-      "developer_ergonomics": 57.1,
+      "developer_ergonomics": 58.9,
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 35.5,
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1793,35 +1752,24 @@
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": true,
-      "agent_skills": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 18,
-   "shown": 18,
-   "providers": [
+     "rank": 40
+    },
     {
      "name": "Leadpages",
      "slug": "leadpages",
      "description": "Leadpages is an AI web platform with built-in conversion optimization, part of the Redbrick family of brands. It builds and hosts landing pages, multi-page sites and blogs that improve themselves through A/B testing, Smart Traffic variant routing, click and scroll heatmaps, dynamic text replacement and auto-personalization, with no traffic caps on any plan. For developers and agents it publishes a REST API covering pages, sites, assets, blogs, analytics, forms, custom domains and brand kits; a hosted Model Context Protocol server exposing 47 tools over OAuth 2.0 with PKCE; webhooks for page-publish, lead-capture and form-submission events; and an A2A agent card describing a nine-agent campaign team. Founded 2012 and rebuilt from scratch in 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/screenshots/leadpages-2026-08-17T081052.png",
-     "score": 54.2,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 55.3,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 92.6,
       "contract_quality": 45.1,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -1830,8 +1778,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1851,8 +1799,60 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 41
     },
+    {
+     "name": "DinMo",
+     "slug": "dinmo",
+     "description": "DinMo is a composable Customer Data Platform (CDP) that turns a cloud data warehouse into a marketing activation engine. It connects directly to Snowflake, Google BigQuery, Databricks, Amazon Redshift, PostgreSQL, Microsoft Fabric, and ClickHouse, lets non-technical teams model customer data and build no-code segments, and activates those audiences to more than a hundred destination platforms (ad networks, CRMs, marketing and messaging tools) via Reverse ETL with a zero-data-copy architecture built for GDPR and FADP compliance. DinMo also exposes a Personalization API for retrieving activated model records in real time, plus AI predictions (LTV, churn), identity resolution, a Customer Hub, and event tracking. The company is Paris-based and backed by Seedcamp.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/screenshots/dinmo-2026-07-25T212055.png",
+     "score": 55.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 45.1,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 57.1,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 35.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 42
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 17,
+   "shown": 17,
+   "providers": [
     {
      "name": "Lone Wolf Technologies",
      "slug": "lone-wolf",
@@ -1871,8 +1871,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1919,8 +1919,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 34.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1960,8 +1960,8 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 35.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2001,8 +2001,8 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 32.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2042,8 +2042,8 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 45.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2083,8 +2083,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 44.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2124,8 +2124,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2165,8 +2165,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 43.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2206,8 +2206,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2247,8 +2247,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 50.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2288,8 +2288,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 47.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2329,8 +2329,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 50.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2370,8 +2370,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 35.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2411,8 +2411,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 70.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2452,8 +2452,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 32.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2493,8 +2493,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2541,8 +2541,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 39.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2592,8 +2592,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2649,8 +2649,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2690,8 +2690,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 3.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2730,8 +2730,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2771,8 +2771,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 1.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2812,8 +2812,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2863,8 +2863,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
      "agent_dims": {

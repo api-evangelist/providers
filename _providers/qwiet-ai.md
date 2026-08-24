@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -341,8 +341,8 @@ image: https://docs.shiftleft.io/img/sl-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: qwiet-ai-mcp.yml
-  slug: qwiet-ai-mcpyml
+  name: Qwiet Ai MCP Server
+  slug: qwiet-ai-mcp-server
 modified: '2026-08-08'
 name: Qwiet Ai
 nav: Providers
@@ -358,7 +358,7 @@ random_paper: 3
 score:
   band: developing
   composite: 54.2
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -368,7 +368,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 56.3
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -379,8 +379,8 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/screenshots/qwiet-ai-2026-08-17T081438.png
 security:

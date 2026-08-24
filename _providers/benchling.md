@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -3214,9 +3214,9 @@ json_schemas:
   slug: WorksheetUpdatedReviewSnapshotBetaEvent
 layout: provider
 mcp_servers:
-- description: ''
-  name: benchling-mcp.yml
-  slug: benchling-mcpyml
+- description: 'Benchling operates an official, first-party REMOTE MCP server. It is wildcard-tenanted: every Benchling tenant gets its own host under *.mcp.benchling.com, and an MCP client POSTs to https://{tenant}.'
+  name: Benchling MCP Server
+  slug: benchling-mcp-server
 modified: '2026-08-15'
 name: Benchling
 nav: Providers
@@ -3255,18 +3255,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.1
-  delta: -5.5
+  composite: 68.2
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
     contract_governance: 40.2
     contract_quality: 61.3
     developer_ergonomics: 49.4
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 40.2
     operational_transparency: 69.7
-  previous_composite: 75.6
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -3283,9 +3283,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png
 security:
 - kind: authentication
@@ -3313,6 +3313,6 @@ tags:
 - Sequence Management
 - Experiment Workflows
 - REST
-- Webhooks
+- Webhook
 website: https://www.benchling.com/developer-platform
 ---

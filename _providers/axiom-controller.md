@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ modified: '2026-05-19'
 name: Axiom Controller
 nav: Providers
 network: true
-overview: 'Axiom Controller publishes 3 APIs on the [APIs.io](https://apis.io/) network: Datasets API, Edge API, and Ingest API. Tagged areas include Analytics, Cloud Native, Logging, Monitoring, and Observability.
+overview: 'Axiom Controller publishes 3 APIs on the [APIs.io](https://apis.io/) network: Datasets API, Edge API, and Ingest API. Tagged areas include Analytics, Cloud-Native, Logging, Monitoring, and Observability.
 
 
   Axiom Controller''s developer surface includes developer portal, authentication, engineering blog, pricing, documentation, getting-started guide, and 8 more developer resources.'
@@ -183,7 +183,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.1
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -193,7 +193,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 43.3
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/screenshots/axiom-controller-2026-06-20T172809.png
 security:
@@ -229,7 +229,7 @@ skills:
 slug: axiom-controller
 tags:
 - Analytics
-- Cloud Native
+- Cloud-Native
 - Logging
 - Monitoring
 - Observability

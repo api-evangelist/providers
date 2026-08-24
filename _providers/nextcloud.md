@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ modified: '2026-05-11'
 name: Nextcloud
 nav: Providers
 network: true
-overview: 'Nextcloud publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Capabilities API, DAV API, and 1 more. Tagged areas include File Sync, File Sharing, Collaboration, Self-Hosted, and Open Source.
+overview: 'Nextcloud publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Capabilities API, DAV API, and 1 more. Tagged areas include File Sync, File Sharing, Collaboration, Self-Hosted, and Open-Source.
 
 
   Nextcloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
@@ -158,7 +158,7 @@ random_paper: 16
 score:
   band: thin
   composite: 32.0
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -168,7 +168,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 32.7
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/screenshots/nextcloud-2026-06-20T190256.png
 security:
@@ -203,7 +203,7 @@ tags:
 - File Sharing
 - Collaboration
 - Self-Hosted
-- Open Source
+- Open-Source
 - Productivity
 - WebDAV
 website: https://nextcloud.com

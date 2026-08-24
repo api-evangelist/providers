@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -124,6 +124,10 @@ collections:
   name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Suppliers API
   slug: open-oracle-retail-suppliers-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -286,7 +290,7 @@ jsonld:
   property_count: 30
   slug: oracle-retail-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Oracle Retail
 nav: Providers
 network: true
@@ -296,7 +300,7 @@ overview: 'Oracle Retail publishes 7 APIs on the [APIs.io](https://apis.io/) net
   The Oracle Retail catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Retail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 16 more developer resources.'
+  Oracle Retail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Oracle Retail Plans Pricing
   plan_count: 3
@@ -325,7 +329,7 @@ scopes:
 score:
   band: developing
   composite: 41.9
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -335,7 +339,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 48.6
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -343,9 +347,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/screenshots/oracle-retail-2026-06-20T191144.png
 security:
 - kind: authentication
@@ -363,7 +367,7 @@ tags:
 - Order Management
 - Pricing
 - Inventory
-- Point of Sale
+- Point-of-Sale
 - Omnichannel
 - Oracle
 website: https://www.oracle.com/retail/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services.
@@ -61,6 +61,42 @@ common:
   title: ''
   type: Blog
   url: https://developer.nvidia.com/blog/feed
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/augtera-networks/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cumulus-networks/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/deci-ai/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/deepmap/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/excelero-storage/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/icerasemi/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/lepton-ai/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/runai/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/swiftstack/
 created: '2026-03-21'
 description: Nvidia is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services.
 finops:
@@ -73,14 +109,14 @@ graphqls:
   slug: nvidia-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nvidia.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-21'
 name: Nvidia
 nav: Providers
 network: true
-overview: 'Nvidia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GPU, AI, Machine Learning, Computing, and Graphics.
+overview: 'Nvidia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GPU, Artificial Intelligence, Machine-Learning, Computing, and Graphics.
 
 
-  Nvidia''s developer surface includes engineering blog and 5 more developer resources.'
+  Nvidia''s developer surface includes engineering blog and 14 more developer resources.'
 plans:
 - name: Nvidia Plans Pricing
   plan_count: 5
@@ -109,7 +145,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.5
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -119,9 +155,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia/refs/heads/main/screenshots/nvidia-2026-06-20T190538.png
 security:
@@ -132,8 +168,8 @@ security:
 slug: nvidia
 tags:
 - GPU
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Computing
 - Graphics
 - Fortune 1000

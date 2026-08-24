@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-05-19'
 name: Workday Reporting
 nav: Providers
 network: true
-overview: 'Workday Reporting publishes 2 APIs on the [APIs.io](https://apis.io/) network: Report Metadata API and Reports API. Tagged areas include Analytics, Business Intelligence, Financial Reporting, Hr Data, and Reporting.
+overview: 'Workday Reporting publishes 2 APIs on the [APIs.io](https://apis.io/) network: Report Metadata API and Reports API. Tagged areas include Analytics, Business Intelligence, Financial Reporting, HR Data, and Reporting.
 
 
   The Workday Reporting catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -232,7 +232,7 @@ rules:
 score:
   band: developing
   composite: 42.5
-  delta: -12.4
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -242,7 +242,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 54.9
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -250,9 +250,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/screenshots/workday-reporting-2026-06-20T201611.png
 security:
 - kind: authentication
@@ -272,7 +272,7 @@ tags:
 - Analytics
 - Business Intelligence
 - Financial Reporting
-- Hr Data
+- HR Data
 - Reporting
 website: https://www.workday.com
 ---

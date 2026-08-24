@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 662
   human_in_the_loop: 9
@@ -524,8 +524,8 @@ image: https://framerusercontent.com/assets/DD0f1BMaBvpM34yUfFmGP5frAo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: galileo-technologies-mcp.yml
-  slug: galileo-technologies-mcpyml
+  name: Galileo Technologies MCP Server
+  slug: galileo-technologies-mcp-server
 modified: '2026-07-19'
 name: Galileo Technologies
 nav: Providers
@@ -546,7 +546,7 @@ scopes:
 score:
   band: developing
   composite: 45.1
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -556,7 +556,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 50.2
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -567,9 +567,9 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/screenshots/galileo-technologies-2026-08-17T123543.png
 security:
 - kind: authentication
@@ -588,7 +588,7 @@ tags:
 - Generative AI
 - Agents
 - Monitoring
-- Machine Learning
+- Machine-Learning
 - Guardrails
 - Developer Tools
 website: https://app.galileo.ai/

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'The Universal Commerce Protocol (UCP) shopping service Underdog serves from its own domain. A remote MCP endpoint that answers tools/list anonymously with 13 tools covering catalog search and lookup, '
@@ -143,8 +143,8 @@ image: https://underdog.shop/cdn/shop/files/UND-logo-Noir_1_3878927d-05f3-4209-b
 layout: provider
 mcp_servers:
 - description: ''
-  name: underdog-mcp.yml
-  slug: underdog-mcpyml
+  name: Underdog MCP Server
+  slug: underdog-mcp-server
 modified: '2026-08-17'
 name: Underdog
 nav: Providers
@@ -157,6 +157,7 @@ random_paper: 16
 score:
   band: thin
   composite: 31.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -166,8 +167,10 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 31.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Underdog Domain Security
@@ -181,7 +184,7 @@ tags:
 - Refurbished Electronics
 - Home Appliances
 - Retail
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol

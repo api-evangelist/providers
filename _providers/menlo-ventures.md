@@ -32,6 +32,6 @@ tags:
 - Cybersecurity
 - Infrastructure
 - Healthcare
-- SaaS
+- Software-as-a-Service
 - North America
 ---

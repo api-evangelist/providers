@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The clients API from Tesseract — 3 operation(s) for clients.
@@ -178,8 +178,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tesseract.
 layout: provider
 mcp_servers:
 - description: ''
-  name: tesseract-mcp.yml
-  slug: tesseract-mcpyml
+  name: Tesseract MCP Server
+  slug: tesseract-mcp-server
 modified: '2026-07-21'
 name: Tesseract
 nav: Providers
@@ -192,7 +192,7 @@ random_paper: 8
 score:
   band: developing
   composite: 44.8
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -202,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 44.6
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     contracts:
@@ -212,8 +212,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/screenshots/tesseract-2026-08-17T082323.png
 security:
@@ -236,7 +236,7 @@ tags:
 - Digital Assets
 - Ethereum
 - MiCA
-- Vaults
+- Vault
 - Institutional
 website: https://tesseract.fi/
 ---

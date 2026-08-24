@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 3
@@ -721,7 +721,7 @@ modified: '2026-05-19'
 name: X (Twitter)
 nav: Providers
 network: true
-overview: 'X (Twitter) publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Activity API, Bookmarks API, and 18 more. Tagged areas include Social Media, Microblogging, Real-Time Data, Streaming, and Advertising.
+overview: 'X (Twitter) publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Activity API, Bookmarks API, and 18 more. Tagged areas include Social-Media, Microblogging, Real-Time Data, Streaming, and Advertising.
 
 
   The X (Twitter) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -748,13 +748,13 @@ rules:
     info: 1
     warn: 4
   slug: twitter-jsonschema-spectral-rules
-- effective_rule_count: 95
+- effective_rule_count: 94
   extends:
   - spectral:oas
   name: X (Twitter) API Rules
-  rule_count: 54
+  rule_count: 53
   severity_counts:
-    error: 17
+    error: 16
     hint: 0
     info: 18
     warn: 19
@@ -766,18 +766,18 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.3
-  delta: -6.5
+  composite: 54.7
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 67.0
     developer_ergonomics: 59.5
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 60.8
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -785,9 +785,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/screenshots/twitter-2026-08-17T130216.png
 security:
 - kind: authentication
@@ -803,7 +803,7 @@ solutions:
 - description: Advertising platform API for campaign management, audience targeting, creative management, and analytics.
   name: X Ads API
 tags:
-- Social Media
+- Social-Media
 - Microblogging
 - Real-Time Data
 - Streaming

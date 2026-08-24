@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -222,13 +222,13 @@ image: https://www.tinyfish.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: tinyfish-mcp.yml
-  slug: tinyfish-mcpyml
+  name: TinyFish MCP Server
+  slug: tinyfish-mcp-server
 modified: '2026-07-21'
 name: TinyFish
 nav: Providers
 network: true
-overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Automation API, Runs API, TinyFish Browser API API, and 4 more. Tagged areas include Company, Ai, AI Agents, Web Automation, and Web Scraping.
+overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Automation API, Runs API, TinyFish Browser API API, and 4 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Web Automation, and Web Scraping.
 
 
   The TinyFish catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -239,7 +239,7 @@ random_paper: 17
 score:
   band: developing
   composite: 51.1
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -249,7 +249,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 56.7
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,9 +260,9 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/screenshots/tinyfish-2026-08-17T082359.png
 security:
 - kind: authentication
@@ -276,13 +276,13 @@ security:
 slug: tinyfish
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Web Automation
 - Web Scraping
 - Search
 - Browser Automation
-- Model Context Protocol
+- MCP
 - Data Extraction
 website: https://www.tinyfish.ai/
 ---

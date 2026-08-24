@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -81,8 +81,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1balance/refs/heads/main/screenshots/1balance-2026-08-07T160647.png
 slug: 1balance
@@ -93,8 +93,8 @@ tags:
 - Herbal Tea
 - Nutrition
 - Supplements
-- E-commerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Subscription
 website: https://1balance.com
 ---

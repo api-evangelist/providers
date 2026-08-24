@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-06-25'
 name: Boost Insurance
 nav: Providers
 network: true
-overview: 'Boost Insurance publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Claims API, Policies API, and 1 more. Tagged areas include Insurance, Embedded Insurance, Insurance-as-a-Service, Policy Administration, and Claims.
+overview: 'Boost Insurance publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Claims API, Policies API, and 1 more. Tagged areas include Insurance, Embedded Insurance, Insurance As A Service, Policy Administration, and Claims.
 
 
   Boost Insurance''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -146,7 +146,7 @@ scopes:
 score:
   band: thin
   composite: 34.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -156,7 +156,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.2
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -170,8 +170,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 43.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/screenshots/boost-insurance-2026-07-25T203625.png
 security:
@@ -187,7 +187,7 @@ slug: boost-insurance
 tags:
 - Insurance
 - Embedded Insurance
-- Insurance-as-a-Service
+- Insurance As A Service
 - Policy Administration
 - Claims
 website: https://www.boostinsurance.com

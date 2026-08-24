@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -258,8 +258,8 @@ image: https://www.salsify.com/hubfs/Salsify%20-%20Product%20Experience%20Manage
 layout: provider
 mcp_servers:
 - description: ''
-  name: salsify-mcp.yml
-  slug: salsify-mcpyml
+  name: Salsify MCP Server
+  slug: salsify-mcp-server
 modified: '2026-08-02'
 name: Salsify
 nav: Providers
@@ -284,7 +284,7 @@ scopes:
 score:
   band: strong
   composite: 57.7
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -294,7 +294,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 60.7
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,8 +305,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/screenshots/salsify-2026-08-17T081714.png
 security:
@@ -336,6 +336,6 @@ tags:
 - Retail
 - Syndication
 - Data Management
-- SaaS
+- Software-as-a-Service
 website: https://www.salsify.com/
 ---

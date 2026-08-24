@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-20'
 name: Primary
 nav: Providers
 network: true
-overview: 'Primary is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, Ecommerce, and Apparel.
+overview: 'Primary is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-Commerce, and Apparel.
 
 
   Primary''s developer surface includes authentication and 7 more developer resources.'
@@ -88,24 +88,24 @@ scopes:
   slug: primary-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: minimal
-  composite: 10.3
-  delta: -0.9
+  band: emerging
+  composite: 11.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 11.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -121,10 +121,10 @@ tags:
 - Company
 - Consumer
 - Retail
-- Ecommerce
+- E-Commerce
 - Apparel
 - Children
 - Shopify
-- Agent
+- Agents
 website: https://www.primary.com
 ---

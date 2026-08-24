@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The core RESTful payment API of the ACI Open Payment Platform (PAY.ON gateway). Server-to-Server integration lets merchants and PSPs run end-to-end payment workflows — preauthorization, debit, capture
@@ -154,8 +154,8 @@ image: https://www.aciworldwide.com/wp-content/uploads/2021/05/cropped-android-c
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp-server
-  slug: mcp-server
+  name: ACI Worldwide MCP Server
+  slug: aci-worldwide-mcp-server
 modified: '2026-07-24'
 name: ACI Worldwide
 nav: Providers
@@ -171,7 +171,7 @@ random_paper: 0
 score:
   band: developing
   composite: 50.2
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 46.3
+  previous_composite: 50.2
   provenance:
     conformance: first-party
   regulatory:
@@ -190,8 +190,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aci-worldwide/refs/heads/main/screenshots/aci-worldwide-2026-07-25T181458.png
 security:
@@ -211,11 +211,11 @@ tags:
 - Payment Processing
 - Acquiring
 - Card Payments
-- eCommerce
+- E-Commerce
 - Fraud
 - Tokenization
 - 3D Secure
-- Bill Payment
+- Bill Payments
 - Real-Time Payments
 - ISO 20022
 website: https://www.aciworldwide.com/

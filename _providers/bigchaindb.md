@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Full-text search over asset payloads.
@@ -158,8 +158,8 @@ image: https://github.com/bigchaindb.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: bigchaindb-mcp.yml
-  slug: bigchaindb-mcpyml
+  name: Bigchaindb MCP Server
+  slug: bigchaindb-mcp-server
 modified: '2026-07-18'
 name: Bigchaindb
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 11
 score:
   band: thin
   composite: 35.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 36.2
+  previous_composite: 35.2
   provenance:
     conformance: derived
     contracts:
@@ -191,8 +191,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/screenshots/bigchaindb-2026-07-25T202922.png
 security:

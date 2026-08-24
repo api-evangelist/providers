@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The order_attachments API from Channable — 2 operation(s) for order_attachments.
@@ -218,13 +218,13 @@ image: https://www.channable.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: channable-mcp.yml
-  slug: channable-mcpyml
+  name: Channable MCP Server
+  slug: channable-mcp-server
 modified: '2026-08-13'
 name: Channable
 nav: Providers
 network: true
-overview: 'Channable publishes 6 APIs on the [APIs.io](https://apis.io/) network, including order_attachments API, orders API, returns API, and 3 more. Tagged areas include Company, Applicative Saas, Feed Management, Marketplaces, and E-commerce.
+overview: 'Channable publishes 6 APIs on the [APIs.io](https://apis.io/) network, including order_attachments API, orders API, returns API, and 3 more. Tagged areas include Company, Applicative Saas, Feed Management, Marketplaces, and E-Commerce.
 
 
   Channable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 27 more developer resources.'
@@ -240,7 +240,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.4
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -250,7 +250,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 56.7
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -260,9 +260,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/screenshots/channable-2026-08-17T083552.png
 security:
 - kind: authentication
@@ -279,7 +279,7 @@ tags:
 - Applicative Saas
 - Feed Management
 - Marketplaces
-- E-commerce
+- E-Commerce
 - Product Data
 - Order Management
 - Advertising

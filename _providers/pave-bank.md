@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Partner API for programmable multi-asset banking: Accounts, Address, Balance, Crypto, Documents, FX, Return, RFI, Sandbox, Statement, Transactions, and Transfer resources, plus real-time signed webhoo'
@@ -144,7 +144,7 @@ random_paper: 3
 score:
   band: developing
   composite: 40.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -154,7 +154,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 40.4
+  previous_composite: 40.5
   provenance:
     conformance: first-party
   regulatory:
@@ -163,8 +163,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 32.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pave-bank/refs/heads/main/screenshots/pave-bank-2026-08-07T191602.png
 security:
@@ -186,6 +186,5 @@ tags:
 - Stablecoins
 - Cross-Border Payments
 - Programmable Money
-- API
 website: https://pavebank.com/en
 ---

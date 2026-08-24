@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: OAuth 2.0 authorization-code API giving partners full access to Altruist custody data — accounts, households, positions, transactions, and cost basis — for advisor tools, reporting, and reconciliation
@@ -158,8 +158,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altruist.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: altruist-mcp.yml
-  slug: altruist-mcpyml
+  name: Altruist MCP Server
+  slug: altruist-mcp-server
 modified: '2026-07-17'
 name: Altruist
 nav: Providers
@@ -177,7 +177,7 @@ scopes:
 score:
   band: thin
   composite: 38.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -187,12 +187,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 39.9
+  previous_composite: 38.6
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/screenshots/altruist-2026-07-25T195845.png
 security:
@@ -217,6 +217,6 @@ tags:
 - Financial Advisors
 - RIA
 - Investing
-- OAuth
+- Authentication
 website: https://altruist.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful JSON API for accepting crypto, stock, and card donations on behalf of nonprofits in The Giving Block network. Provides organization management, currency and exchange-rate lookups, crypto depos
@@ -119,13 +119,13 @@ image: https://thegivingblock.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: the-giving-block-mcp.yml
-  slug: the-giving-block-mcpyml
+  name: The Giving Block MCP Server
+  slug: the-giving-block-mcp-server
 modified: '2026-07-21'
 name: The Giving Block
 nav: Providers
 network: true
-overview: 'The Giving Block publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Donations, Fundraising, and Nonprofit.
+overview: 'The Giving Block publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Donations, Fundraising, and Non-Profit.
 
 
   The Giving Block''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, authentication, sandbox, and 12 more developer resources.'
@@ -133,7 +133,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 18.2
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -143,7 +143,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 21.9
+  previous_composite: 18.2
   provenance:
     conformance: derived
     mcp: derived
@@ -154,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -172,11 +172,11 @@ tags:
 - Crypto Web3
 - Donations
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Payments
 - Cryptocurrency
 - Stock Donations
-- Webhooks
+- Webhook
 - Widgets
 website: https://thegivingblock.com
 ---

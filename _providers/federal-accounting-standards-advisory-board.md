@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-04-28'
 name: Federal Accounting Standards Advisory Board
 nav: Providers
 network: true
-overview: 'Federal Accounting Standards Advisory Board is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting and Federal Government.
+overview: 'Federal Accounting Standards Advisory Board is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting and Federal-Government.
 
 
   Federal Accounting Standards Advisory Board''s developer surface includes engineering blog and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 3.0
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,15 +74,15 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.5
+  previous_composite: 3.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/screenshots/federal-accounting-standards-advisory-board-2026-06-20T181109.png
 security:
@@ -93,6 +93,6 @@ security:
 slug: federal-accounting-standards-advisory-board
 tags:
 - Accounting
-- Federal Government
+- Federal-Government
 website: https://fasab.gov/
 ---

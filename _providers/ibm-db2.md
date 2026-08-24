@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for IBM Db2 SaaS on IBM Cloud used to access data, view and create database objects, administer users and roles, and monitor cloud-hosted Db2 service instances. Authenticated via IBM Cloud IA
@@ -39,6 +39,10 @@ apis:
   slug: rest-services
 artifact_total: 4
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -83,19 +87,19 @@ created: '2026-05-11'
 description: IBM Db2 is a family of data management products from IBM that includes relational and hybrid database servers running on cloud, distributed, and z/OS platforms, supporting transactional, analytical, and AI workloads. Db2 exposes RESTful services that let applications create, discover, execute, and manage user-defined services natively against the database, and IBM Db2 as a Service on IBM Cloud provides a managed REST API for administering and querying cloud-hosted Db2 databases. Authentication is performed via HTTP basic auth, client certificates, or IBM Cloud IAM Bearer tokens depending on the deployment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibm-db2.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-08-21'
 name: IBM Db2
 nav: Providers
 network: true
 overview: 'IBM Db2 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Relational Database, Cloud Database, SQL, and Data Management.
 
 
-  IBM Db2''s developer surface includes documentation, pricing, signup flow, support, and 6 more developer resources.'
+  IBM Db2''s developer surface includes documentation, pricing, signup flow, support, and 7 more developer resources.'
 random_paper: 17
 score:
   band: emerging
   composite: 14.5
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -105,9 +109,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-db2/refs/heads/main/screenshots/ibm-db2-2026-06-20T183127.png
 security:

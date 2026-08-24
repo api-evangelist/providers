@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Dolls Kill Universal Commerce Protocol (UCP) endpoint, served over MCP at /api/ucp/mcp. Anonymous tools/list returns 13 tools with full JSON Schema input contracts covering catalog search and look
@@ -131,13 +131,13 @@ image: https://www.dollskill.com/cdn/shop/files/logo.jpg?v=1709315110
 layout: provider
 mcp_servers:
 - description: ''
-  name: dolls-kill-mcp.yml
-  slug: dolls-kill-mcpyml
+  name: Dolls Kill MCP Server
+  slug: dolls-kill-mcp-server
 modified: '2026-08-12'
 name: Dolls Kill
 nav: Providers
 network: true
-overview: 'Dolls Kill publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-commerce, Fashion, and Apparel.
+overview: 'Dolls Kill publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Fashion, and Apparel.
 
 
   Dolls Kill''s developer surface includes documentation, support, signup flow, authentication, and 19 more developer resources.'
@@ -157,24 +157,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.7
-  delta: -1.0
+  composite: 38.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 43.3
     developer_ergonomics: 28.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 38.7
+  previous_composite: 38.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -189,7 +189,7 @@ slug: dolls-kill
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Fashion
 - Apparel
 - Commerce

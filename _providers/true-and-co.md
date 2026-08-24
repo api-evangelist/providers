@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the True & Co Shopify storefront: a hosted Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, and checkout, backed by Shopify Customer Account O'
@@ -78,9 +78,9 @@ description: 'True & Co is a direct-to-consumer women''s intimates and lingerie 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/true-and-co.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: true-and-co-mcp.yml
-  slug: true-and-co-mcpyml
+- description: Shopify-native, hosted Model Context Protocol server exposing True & Co's catalog, cart, and checkout to shopping agents via the Universal Commerce Protocol. Payment completion always requires contemp
+  name: True & Co UCP Shopping MCP
+  slug: true-co-ucp-shopping-mcp
 modified: '2026-07-21'
 name: True & Co
 nav: Providers
@@ -97,15 +97,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 14.2
-  delta: -1.5
+  composite: 15.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   needs_work:
@@ -114,11 +114,11 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 15.7
+  previous_composite: 15.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

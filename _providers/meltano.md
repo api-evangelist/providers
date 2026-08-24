@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ modified: '2026-07-20'
 name: Meltano
 nav: Providers
 network: true
-overview: 'Meltano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Data Integration, ELT, and Data Pipelines.
+overview: 'Meltano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Data Integration, ELT, and Data Pipeline.
 
 
   Meltano''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, CLI, changelog, and 12 more developer resources.'
@@ -124,7 +124,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 25.5
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -134,11 +134,11 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 24.7
+  previous_composite: 25.5
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meltano/refs/heads/main/screenshots/meltano-2026-08-07T172452.png
 security:
@@ -152,9 +152,9 @@ tags:
 - Enterprise
 - Data Integration
 - ELT
-- Data Pipelines
+- Data Pipeline
 - Data Engineering
-- Open Source
+- Open-Source
 - DataOps
 - Singer
 website: https://meltano.com

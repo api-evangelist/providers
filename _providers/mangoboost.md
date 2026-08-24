@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'LLMBoost is MangoBoost''s enterprise LLM inference server. It serves the OpenAI REST API on /v1 so an existing OpenAI client migrates with a base-URL change: POST /v1/chat/completions, POST /v1/complet'
@@ -153,7 +153,7 @@ modified: '2026-08-04'
 name: MangoBoost
 nav: Providers
 network: true
-overview: 'MangoBoost publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Infrastructure, and Data Center.
+overview: 'MangoBoost publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Infrastructure, and Data-Center.
 
 
   MangoBoost''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
@@ -161,7 +161,7 @@ random_paper: 10
 score:
   band: thin
   composite: 30.3
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -171,11 +171,11 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 28.7
+  previous_composite: 30.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/screenshots/mangoboost-2026-08-07T171949.png
 security:
@@ -191,9 +191,9 @@ slug: mangoboost
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Infrastructure
-- Data Center
+- Data-Center
 - Semiconductors
 - Hardware
 - Storage

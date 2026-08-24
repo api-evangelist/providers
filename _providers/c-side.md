@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -154,9 +154,9 @@ description: c/side (cside) is a client-side security platform that detects scri
 image: https://og.cside.com/?title=cside%2C%20Client-Side%20Security%20%26%20Browser%20Fraud%20Prevention
 layout: provider
 mcp_servers:
-- description: ''
-  name: c-side-mcp.yml
-  slug: c-side-mcpyml
+- description: cside operates a public, read-only remote MCP (Model Context Protocol) server at https://mcp.cside.com that exposes cside.com marketing-site and docs.cside.com documentation content (not the cside pro
+  name: c/side MCP Server
+  slug: cside-mcp-server
 modified: '2026-07-18'
 name: c/side
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 19
 score:
   band: developing
   composite: 46.2
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -182,7 +182,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 48.4
+  previous_composite: 46.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -192,8 +192,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/screenshots/c-side-2026-07-25T204147.png
 security:

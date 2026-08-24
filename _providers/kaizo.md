@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-19'
 name: Kaizo
 nav: Providers
 network: true
-overview: 'Kaizo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quality Assurance, Customer Support, Customer Service, and Contact Center.
+overview: 'Kaizo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quality Assurance, Customer-Support, Customer Service, and Contact Center.
 
 
   Kaizo''s developer surface includes support, engineering blog, pricing, and 8 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 14.4
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -102,9 +102,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 19.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaizo/refs/heads/main/screenshots/kaizo-2026-07-25T223426.png
 security:
@@ -120,11 +120,11 @@ slug: kaizo
 tags:
 - Company
 - Quality Assurance
-- Customer Support
+- Customer-Support
 - Customer Service
 - Contact Center
 - Performance Management
-- AI
+- Artificial Intelligence
 - Zendesk
 - Salesforce
 website: https://kaizo.com/

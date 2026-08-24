@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -533,7 +533,7 @@ modified: '2026-06-13'
 name: SumUp
 nav: Providers
 network: true
-overview: 'SumUp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Checkouts API, Customers API, Members API, and 7 more. Tagged areas include Payments, POS, Point of Sale, Card Readers, and Checkout.
+overview: 'SumUp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Checkouts API, Customers API, Members API, and 7 more. Tagged areas include Payments, Point-of-Sale, Card Readers, Checkout, and Fintech.
 
 
   The SumUp catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -568,7 +568,7 @@ scopes:
 score:
   band: developing
   composite: 48.2
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -578,7 +578,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 57.9
-  previous_composite: 50.4
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -592,8 +592,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png
 security:
@@ -612,8 +612,7 @@ security:
 slug: sumup
 tags:
 - Payments
-- POS
-- Point of Sale
+- Point-of-Sale
 - Card Readers
 - Checkout
 - Fintech

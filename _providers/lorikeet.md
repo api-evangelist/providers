@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-07-01'
 name: Lorikeet
 nav: Providers
 network: true
-overview: 'Lorikeet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Knowledge API, Messages API, and 1 more. Tagged areas include AI, Customer Support, AI Agent, Support Automation, and Workflows.
+overview: 'Lorikeet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Knowledge API, Messages API, and 1 more. Tagged areas include Artificial Intelligence, Customer-Support, AI Agent, Support Automation, and Workflows.
 
 
   Lorikeet''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.4
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/screenshots/lorikeet-2026-07-25T225543.png
 security:
@@ -174,11 +174,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: lorikeet
 tags:
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - AI Agent
 - Support Automation
 - Workflows
-- Helpdesk
+- Help Desk
 website: https://lorikeet.ai
 ---

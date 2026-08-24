@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -189,7 +189,7 @@ modified: '2026-05-19'
 name: Spring Security
 nav: Providers
 network: true
-overview: 'Spring Security publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Client Management API, Device API, and 5 more. Tagged areas include Authentication, Authorization, Java, JWT, and OAuth2.
+overview: 'Spring Security publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Client Management API, Device API, and 5 more. Tagged areas include Authentication, Authorization, Java, JWT, and OpenID Connect.
 
 
   The Spring Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -229,18 +229,18 @@ rules:
   slug: spring-security-rules
 score:
   band: thin
-  composite: 30.2
-  delta: -7.4
+  composite: 30.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 54.4
     developer_ergonomics: 14.3
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 37.6
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -248,9 +248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/screenshots/spring-security-2026-06-20T194415.png
 security:
 - kind: authentication
@@ -271,7 +271,6 @@ tags:
 - Authorization
 - Java
 - JWT
-- OAuth2
 - OpenID Connect
 - SAML
 - Security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Consent API from Inth — 1 operation(s) for consent.
@@ -201,9 +201,9 @@ description: Inth is a San Francisco, Y Combinator-backed company building enter
 image: https://inth.com/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: inth-mcp.yml
-  slug: inth-mcpyml
+- description: Candidate MCP tool surface for the c15t consent backend, one tool per REST operation. c15t currently provides agent integration via a packaged Agent Skill (see skills/inth-c15t.md), not an MCP server.
+  name: Inth MCP Server
+  slug: inth-mcp-server
 modified: '2026-07-19'
 name: Inth
 nav: Providers
@@ -216,7 +216,7 @@ random_paper: 15
 score:
   band: strong
   composite: 54.3
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 53.3
+  previous_composite: 54.3
   provenance:
     conformance: first-party
     contracts:
@@ -236,8 +236,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/screenshots/inth-2026-07-25T222721.png
 security:
@@ -260,6 +260,6 @@ tags:
 - Compliance
 - Consent
 - Developer Tools
-- Open Source
+- Open-Source
 website: https://c15t.com/docs
 ---

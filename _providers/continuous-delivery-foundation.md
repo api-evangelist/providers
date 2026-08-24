@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: CDEvents is a common specification for Continuous Delivery events that enables interoperability across CI/CD systems. It extends the CloudEvents specification and defines event vocabularies for source
@@ -107,7 +107,7 @@ modified: '2026-04-28'
 name: Continuous Delivery Foundation
 nav: Providers
 network: true
-overview: 'Continuous Delivery Foundation publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, CI/CD, DevOps, Linux Foundation, and Open Source.
+overview: 'Continuous Delivery Foundation publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, CI/CD, DevOps, Linux Foundation, and Open-Source.
 
 
   Continuous Delivery Foundation''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.2
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -133,9 +133,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 14.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/screenshots/continuous-delivery-foundation-2026-06-20T174948.png
 security:
@@ -149,6 +149,6 @@ tags:
 - CI/CD
 - DevOps
 - Linux Foundation
-- Open Source
+- Open-Source
 website: https://cd.foundation/
 ---

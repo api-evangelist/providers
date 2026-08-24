@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,7 +108,7 @@ modified: '2026-06-02'
 name: Bloomin' Brands
 nav: Providers
 network: true
-overview: Bloomin' Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurants, Dining, Hospitality, Loyalty, and Food.
+overview: Bloomin' Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Dining, Hospitality, Loyalty, and Food.
 press:
 - date: '2026-05-25'
   title: Bloomin' Brands expects Q2 U.S. comparable sales of 1% ...
@@ -140,8 +140,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomin-brands/refs/heads/main/screenshots/bloomin-brands-2026-06-20T173518.png
 security:
@@ -151,7 +151,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bloomin-brands
 tags:
-- Restaurants
+- Restaurant
 - Dining
 - Hospitality
 - Loyalty

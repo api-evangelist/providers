@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -44,7 +48,7 @@ created: '2026-07-17'
 description: AmberPoint was an enterprise software company founded in 2001 that provided runtime management, monitoring, and governance solutions for Service-Oriented Architecture (SOA) and distributed web-services applications. Its products let organizations discover, secure, monitor, and enforce policy across complex multi-application business processes and message flows, and competed in the SOA management space alongside vendors integrated into enterprise middleware stacks. AmberPoint was acquired by Oracle on February 8, 2010, with its technology folded into Oracle Fusion Middleware and Oracle Enterprise Manager. The company no longer operates independently; the amberpoint.com domain is held by Oracle and no longer serves a public developer surface. This profile is retained in the API Evangelist network as a historical portfolio-lead record surfaced from a venture-capital portfolio.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amberpoint.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-21'
 name: Amberpoint
 nav: Providers
 network: true
@@ -64,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

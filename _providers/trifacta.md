@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for Designer Cloud powered by Trifacta, exposing flows, wrangled recipes, imported/output datasets, jobs (jobGroups), connections, and deployment resources across the Google Cloud Dataprep, D
@@ -108,7 +108,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 19.5
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -118,9 +118,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 20.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -143,7 +143,7 @@ tags:
 - Data Engineering
 - ETL
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Data Quality
 website: https://www.alteryx.com/about-us/trifacta-is-now-alteryx-designer-cloud
 ---

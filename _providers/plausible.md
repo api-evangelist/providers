@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -317,8 +317,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plausible.
 layout: provider
 mcp_servers:
 - description: ''
-  name: plausible-mcp.yml
-  slug: plausible-mcpyml
+  name: Plausible MCP Server
+  slug: plausible-mcp-server
 modified: '2026-08-13'
 name: Plausible
 nav: Providers
@@ -339,7 +339,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.0
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -349,7 +349,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 60.9
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -360,8 +360,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/screenshots/plausible-2026-06-20T191759.png
 security:
@@ -384,7 +384,7 @@ tags:
 - Event Tracking
 - GDPR
 - Goal Conversions
-- Open Source
+- Open-Source
 - Privacy
 - Self-Hosted
 - Site Management

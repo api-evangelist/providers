@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ rules:
 score:
   band: developing
   composite: 47.4
-  delta: -15.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -258,7 +258,7 @@ score:
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 2.6
-  previous_composite: 62.6
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -269,9 +269,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/screenshots/choozle-2026-06-20T174326.png
 security:
 - kind: authentication

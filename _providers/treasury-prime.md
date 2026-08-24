@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ modified: '2026-05-08'
 name: Treasury Prime
 nav: Providers
 network: true
-overview: 'Treasury Prime publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Businesses API, Cards API, and 6 more. Tagged areas include FinTech, BaaS, Banking, Payments, and Card Issuing.
+overview: 'Treasury Prime publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Businesses API, Cards API, and 6 more. Tagged areas include Fintech, Backend-as-a-Service, Banking, Payments, and Card Issuing.
 
 
   Treasury Prime''s developer surface includes getting-started guide, authentication, engineering blog, and 13 more developer resources.'
@@ -201,7 +201,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.6
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -211,7 +211,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 36.9
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -225,8 +225,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/screenshots/treasury-prime-2026-06-20T195641.png
 security:
@@ -240,8 +240,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: treasury-prime
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

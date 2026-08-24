@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tenant-scoped RESTful API for programmatic management of an organization's MCP infrastructure — MCP server/connector management, user operations, audit logs, and analytics. Authenticated with an x-run
@@ -130,14 +130,14 @@ description: Runlayer (operated by Anysource Inc.) is an enterprise AI control p
 image: https://www.runlayer.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: runlayer-mcp.yml
-  slug: runlayer-mcpyml
+- description: First-party "platform self-MCP" — a hosted Runlayer MCP server that lets an assistant query and manage Runlayer itself (audit logs, analytics, server inventory, policies, plugins, skills, agents). Dis
+  name: Runlayer MCP
+  slug: runlayer-mcp
 modified: '2026-07-21'
 name: Runlayer
 nav: Providers
 network: true
-overview: 'Runlayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, AI Agents, MCP, and Model Context Protocol.
+overview: 'Runlayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, MCP, and API Gateway.
 
 
   Runlayer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, authentication, and 15 more developer resources.'
@@ -145,7 +145,7 @@ random_paper: 0
 score:
   band: thin
   composite: 31.5
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -155,12 +155,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.0
+  previous_composite: 31.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -178,10 +178,9 @@ security:
 slug: runlayer
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - MCP
-- Model Context Protocol
 - API Gateway
 - Security
 - Governance

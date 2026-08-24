@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Balance's v2 REST API for B2B payments, net-terms financing, invoicing, and accounts-receivable automation. Reference documentation is hosted on a password-gated ReadMe.io portal (access requested via
@@ -118,9 +118,9 @@ description: Balance is a financial infrastructure platform for B2B commerce tha
 image: https://files.readme.io/b57e38a-small-Frame_2_4.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: balance-mcp.yml
-  slug: balance-mcpyml
+- description: Balance announced a Model Context Protocol (MCP) server for B2B agentic commerce, in closed beta at the time of capture. It lets LLMs and AI agents interact with Balance's APIs to get secure, conversa
+  name: Balance MCP Server
+  slug: balance-mcp-server
 modified: '2026-07-18'
 name: Balance
 nav: Providers
@@ -133,7 +133,7 @@ random_paper: 17
 score:
   band: thin
   composite: 32.0
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -143,7 +143,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 32.1
+  previous_composite: 32.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -153,8 +153,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balance/refs/heads/main/screenshots/balance-2026-07-25T202259.png
 security:

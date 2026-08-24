@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST and WebSocket API for fixed-income reference data, evaluated pricing, order books, analytics, order/RFQ execution, and portfolio optimization.
@@ -126,9 +126,9 @@ description: Moment is the AI operating system for investment management and the
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moment.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: moment-mcp.yml
-  slug: moment-mcpyml
+- description: Candidate MCP tool list DERIVED from Moment's documented API operations (no official hosted MCP server was found). operationIds are the ReadMe reference slugs published in Moment's docs/llms.txt; tool
+  name: Moment MCP Server
+  slug: moment-mcp-server
 modified: '2026-07-20'
 name: Moment
 nav: Providers
@@ -144,7 +144,7 @@ random_paper: 5
 score:
   band: thin
   composite: 26.5
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -154,7 +154,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.3
+  previous_composite: 26.5
   provenance:
     mcp: derived
     skills: derived
@@ -164,9 +164,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/screenshots/moment-2026-08-07T184119.png
 security:
 - kind: authentication
@@ -188,7 +188,7 @@ tags:
 - Investment Management
 - Wealth Management
 - Brokerage
-- Financial Services
+- Financial-Services
 - Fintech
 website: https://moment.com
 ---

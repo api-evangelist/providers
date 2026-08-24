@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Kartra's inbound developer API. One endpoint, POST only, form-encoded, with the operation selected by `actions[].cmd`. Twenty-nine documented commands cover leads, tags, lists, automation sequences, c
@@ -158,8 +158,8 @@ image: https://kartra.com/wp-content/uploads/2024/06/Kartra-logo-icon-blue-trans
 layout: provider
 mcp_servers:
 - description: ''
-  name: kartra-mcp.yml
-  slug: kartra-mcpyml
+  name: Kartra MCP Server
+  slug: kartra-mcp-server
 modified: '2026-08-12'
 name: Kartra
 nav: Providers
@@ -183,7 +183,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.1
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -193,7 +193,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 60.2
+  previous_composite: 64.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -204,8 +204,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/screenshots/kartra-2026-08-17T081006.png
 security:
@@ -230,10 +230,10 @@ tags:
 - Contacts
 - E-Commerce
 - Payments
-- Subscriptions
+- Subscription
 - Membership
 - Landing Pages
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://kartra.com/
 ---

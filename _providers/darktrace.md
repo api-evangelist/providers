@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Darktrace OmniAPI is a gated REST API hosted on each customer's Darktrace cloud instance at <instance>.cloud.darktrace.com/omniapi. It provides programmatic access to Darktrace's ActiveAI platform
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.3
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -169,9 +169,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 23.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/darktrace/refs/heads/main/screenshots/darktrace-2026-06-20T175459.png
 security:

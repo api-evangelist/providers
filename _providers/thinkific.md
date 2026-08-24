@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -415,7 +415,7 @@ rules:
 score:
   band: strong
   composite: 54.7
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -425,7 +425,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 65.8
-  previous_composite: 58.8
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -439,8 +439,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/screenshots/thinkific-2026-06-20T195305.png
 security:
@@ -459,9 +459,9 @@ tags:
 - LMS
 - Course Creation
 - Enrollments
-- Users
+- User
 - Education
 - Digital Products
-- Webhooks
+- Webhook
 website: https://www.thinkific.com
 ---

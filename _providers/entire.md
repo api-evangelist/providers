@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -136,23 +136,23 @@ overview: 'Entire is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 17
 score:
   band: thin
-  composite: 28.7
-  delta: -1.9
+  composite: 29.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 30.6
+  previous_composite: 29.8
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/screenshots/entire-2026-07-25T213431.png
 security:

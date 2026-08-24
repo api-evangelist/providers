@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Polymer embedded analytics platform. Manage workspaces and users, connect and sync data sources (Snowflake, BigQuery, uploads), create and update datasets, compose boards from visuali
@@ -143,8 +143,8 @@ image: https://www.polymersearch.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: polymer-mcp.yml
-  slug: polymer-mcpyml
+  name: Polymer MCP Server (candidate)
+  slug: polymer-mcp-server-candidate
 modified: '2026-07-20'
 name: Polymer
 nav: Providers
@@ -157,7 +157,7 @@ random_paper: 20
 score:
   band: thin
   composite: 28.3
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -167,12 +167,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 32.5
+  previous_composite: 28.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -192,6 +192,6 @@ tags:
 - Embedded Analytics
 - Dashboards
 - Data
-- AI
+- Artificial Intelligence
 website: https://www.polymersearch.com
 ---

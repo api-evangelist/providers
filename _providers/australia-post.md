@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ rules:
 score:
   band: developing
   composite: 47.4
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -267,7 +267,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 47.4
-  previous_composite: 55.5
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -275,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/screenshots/australia-post-2026-06-20T172603.png
 security:
 - kind: authentication

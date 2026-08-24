@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -397,7 +397,7 @@ modified: '2026-06-13'
 name: Wolfram|Alpha
 nav: Providers
 network: true
-overview: 'Wolfram|Alpha publishes 2 APIs on the [APIs.io](https://apis.io/) network: Classification API and Queries API. Tagged areas include AI, Artificial Intelligence, Computational Knowledge, Machine Learning, and Natural Language Processing.
+overview: 'Wolfram|Alpha publishes 2 APIs on the [APIs.io](https://apis.io/) network: Classification API and Queries API. Tagged areas include Artificial Intelligence, Computational Knowledge, Machine-Learning, Natural Language Processing, and Public APIs.
 
 
   The Wolfram|Alpha catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -436,18 +436,18 @@ rules:
   slug: wolframalpha-rules
 score:
   band: thin
-  composite: 38.0
-  delta: -5.3
+  composite: 38.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.5
     developer_ergonomics: 45.2
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 43.3
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -455,9 +455,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/screenshots/wolframalpha-2026-06-20T201538.png
 security:
 - kind: authentication
@@ -470,10 +470,9 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: wolframalpha
 tags:
-- AI
 - Artificial Intelligence
 - Computational Knowledge
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Public APIs
 - Search

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ rules:
 score:
   band: thin
   composite: 31.5
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 35.5
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/screenshots/reown-2026-06-20T192900.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -299,7 +299,7 @@ modified: '2026-05-19'
 name: Department of Veterans Affairs (VA)
 nav: Providers
 network: true
-overview: 'Department of Veterans Affairs (VA) publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, Appeals API, Claims API, and 14 more. Tagged areas include Federal Government, Healthcare, and Veterans.
+overview: 'Department of Veterans Affairs (VA) publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, Appeals API, Claims API, and 14 more. Tagged areas include Federal-Government, Healthcare, and Veterans.
 
 
   The Department of Veterans Affairs (VA) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -344,7 +344,7 @@ scopes:
 score:
   band: thin
   composite: 36.0
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -354,7 +354,7 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 41.6
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -368,9 +368,9 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/screenshots/department-of-veterans-affairs-2026-06-20T175926.png
 security:
 - kind: authentication
@@ -387,7 +387,7 @@ security:
   summary_line: Bugcrowd · security.txt · contact published
 slug: department-of-veterans-affairs
 tags:
-- Federal Government
+- Federal-Government
 - Healthcare
 - Veterans
 website: https://developer.va.gov/

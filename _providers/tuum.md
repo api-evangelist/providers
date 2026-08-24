@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tuum's modular, API-first core banking platform. Per-module REST APIs (auth, person, employee, account, payment, card, loan, deposit, data-import, notification) versioned independently in the URL path
@@ -135,18 +135,18 @@ overview: 'Tuum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 18
 score:
   band: thin
-  composite: 34.8
-  delta: -2.3
+  composite: 35.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 47.6
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 37.1
+  previous_composite: 35.9
   provenance:
     conformance: first-party
   regulatory:
@@ -155,8 +155,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -176,7 +176,6 @@ tags:
 - Lending
 - Cards
 - Fintech
-- Financial Services
-- API
+- Financial-Services
 website: https://tuum.com/
 ---

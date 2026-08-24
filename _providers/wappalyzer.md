@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -302,9 +302,9 @@ jsonld:
   slug: wappalyzer-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: wappalyzer-mcp.yml
-  slug: wappalyzer-mcpyml
+- description: 'Wappalyzer ships two first-party MCP servers: a hosted remote Streamable-HTTP server at https://mcp.wappalyzer.com/mcp secured with OAuth 2.1 (the API key is resolved server-side from the signed-in Wa'
+  name: Wappalyzer MCP Server
+  slug: wappalyzer-mcp-server
 modified: '2026-08-14'
 name: Wappalyzer
 nav: Providers
@@ -339,7 +339,7 @@ rules:
 score:
   band: exemplar
   composite: 71.5
-  delta: -8.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -349,7 +349,7 @@ score:
     discoverability: 92.6
     governance: 41.7
     operational_transparency: 63.2
-  previous_composite: 80.1
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -360,9 +360,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/screenshots/wappalyzer-2026-06-20T201222.png
 security:
 - kind: authentication

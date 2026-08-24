@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -85,9 +85,9 @@ description: Token Security is a cybersecurity company that secures non-human id
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/token.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: token-mcp.yml
-  slug: token-mcpyml
+- description: The Token MCP Server exposes the Token Security non-human identity (NHI) platform to AI assistants and agents over the Model Context Protocol. It lets an operator query and act on NHI data conversatio
+  name: Token MCP Server
+  slug: token-mcp-server
 modified: '2026-07-21'
 name: Token
 nav: Providers
@@ -100,7 +100,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 16.7
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -110,12 +110,12 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 18.1
+  previous_composite: 16.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -138,6 +138,6 @@ tags:
 - Non-Human Identity
 - Identity and Access Management
 - AI Agents
-- Model Context Protocol
+- MCP
 website: https://www.token.security/
 ---

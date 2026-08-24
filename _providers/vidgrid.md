@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -193,13 +193,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vidgrid.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: vidgrid-mcp.yml
-  slug: vidgrid-mcpyml
+  name: VidGrid MCP Server
+  slug: vidgrid-mcp-server
 modified: '2026-07-21'
 name: VidGrid
 nav: Providers
 network: true
-overview: 'VidGrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Caption API, Folder API, Search API, and 4 more. Tagged areas include Video, Screen Recording, Captions, Video Hosting, and Webhooks.
+overview: 'VidGrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Caption API, Folder API, Search API, and 4 more. Tagged areas include Video, Screen Recording, Captions, Video Hosting, and Webhook.
 
 
   The VidGrid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -214,7 +214,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.5
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -224,7 +224,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 45.3
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/screenshots/vidgrid-2026-08-17T082745.png
 security:
@@ -254,7 +254,7 @@ tags:
 - Screen Recording
 - Captions
 - Video Hosting
-- Webhooks
+- Webhook
 - Training
 - HR
 website: https://vidgrid.com/

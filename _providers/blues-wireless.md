@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -331,7 +331,7 @@ rules:
 score:
   band: developing
   composite: 50.8
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -341,7 +341,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 65.8
-  previous_composite: 56.4
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -349,9 +349,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/screenshots/blues-wireless-2026-06-20T173533.png
 security:
 - kind: authentication
@@ -370,8 +370,8 @@ tags:
 - Device Management
 - Fleet Management
 - Satellite
-- LoRa
-- WiFi
+- LoRA
+- Wi-Fi
 - Notecard
 - Notehub
 website: https://blues.com

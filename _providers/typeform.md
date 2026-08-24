@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-05-30'
 name: Typeform
 nav: Providers
 network: true
-overview: 'Typeform publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Forms API, Images API, and 1 more. Tagged areas include Forms, Surveys, Conversational, Lead Capture, and SaaS.
+overview: 'Typeform publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Forms API, Images API, and 1 more. Tagged areas include Forms, Surveys, Conversational, Lead Capture, and Software-as-a-Service.
 
 
   The Typeform catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -191,7 +191,7 @@ scopes:
 score:
   band: thin
   composite: 39.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -201,7 +201,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 39.9
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/screenshots/typeform-2026-06-20T195905.png
 security:
@@ -228,8 +228,8 @@ tags:
 - Surveys
 - Conversational
 - Lead Capture
-- SaaS
-- Webhooks
+- Software-as-a-Service
+- Webhook
 - Embed
 website: https://www.typeform.com/
 ---

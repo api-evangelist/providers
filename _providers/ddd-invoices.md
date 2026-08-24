@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single JSON API for issuing, receiving, and archiving locally compliant invoices — e-invoicing, PEPPOL exchange, fiscalization, and real-time tax reporting across 30+ countries. Uses a custom IoT conn
@@ -123,13 +123,13 @@ image: https://dddinvoices.com/og/default.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ddd-invoices-mcp.yml
-  slug: ddd-invoices-mcpyml
+  name: DDD Invoices MCP Server
+  slug: ddd-invoices-mcp-server
 modified: '2026-07-18'
 name: DDD Invoices
 nav: Providers
 network: true
-overview: 'DDD Invoices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, e-Invoicing, Fiscalization, Tax Compliance, and Real-Time Reporting.
+overview: 'DDD Invoices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Invoicing, Fiscalization, Tax Compliance, and Real-Time Reporting.
 
 
   DDD Invoices'' developer surface includes documentation, API reference, quickstart, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 12
 score:
   band: thin
   composite: 31.3
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -147,12 +147,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 30.1
+  previous_composite: 31.3
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/screenshots/ddd-invoices-2026-07-25T211507.png
 security:
@@ -167,12 +167,11 @@ security:
 slug: ddd-invoices
 tags:
 - Company
-- e-Invoicing
+- E-Invoicing
 - Fiscalization
 - Tax Compliance
 - Real-Time Reporting
 - PEPPOL
 - Invoicing
-- API
 website: https://dddinvoices.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The ASU Library Research Data Repository runs on the open-source Dataverse platform (verified version 6.10.1) and exposes Dataverse's native REST API for searching, retrieving, and depositing research
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -140,15 +140,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.3
+  previous_composite: 23.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arizona-state-university/refs/heads/main/screenshots/arizona-state-university-2026-06-20T172431.png
 security:

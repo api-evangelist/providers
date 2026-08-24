@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API exposed by a running Mina daemon (node) for querying node, account, and chain state and submitting payments, delegations, and zkApp transactions. Bound to localhost:3085 by default. 41 que
@@ -147,13 +147,13 @@ image: https://docs.minaprotocol.com/img/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: mina-mcp.yml
-  slug: mina-mcpyml
+  name: Mina MCP Server
+  slug: mina-mcp-server
 modified: '2026-07-20'
 name: Mina
 nav: Providers
 network: true
-overview: 'Mina publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Zero-Knowledge, and zkApps.
+overview: 'Mina publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Zero Knowledge, and zkApps.
 
 
   Mina''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, sandbox, changelog, and 19 more developer resources.'
@@ -161,7 +161,7 @@ random_paper: 1
 score:
   band: thin
   composite: 29.8
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -171,13 +171,13 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 29.2
+  previous_composite: 29.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/screenshots/mina-2026-08-07T172921.png
 security:
@@ -198,7 +198,7 @@ tags:
 - Company
 - Crypto
 - Blockchain
-- Zero-Knowledge
+- Zero Knowledge
 - zkApps
 - GraphQL
 - Web3

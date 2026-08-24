@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -385,7 +385,7 @@ layout: provider
 name: Orange Business
 nav: Providers
 network: true
-overview: 'Orange Business publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Check Device Swap API, Check SIM swap API, Device reachability status API, and 11 more. Tagged areas include 5G, AI, B2B, CAMARA, and Cloud.
+overview: 'Orange Business publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Check Device Swap API, Check SIM swap API, Device reachability status API, and 11 more. Tagged areas include 5G, Artificial Intelligence, B2B, CAMARA, and Cloud.
 
 
   Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 29 more developer resources.'
@@ -393,7 +393,7 @@ random_paper: 3
 score:
   band: developing
   composite: 39.3
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -403,7 +403,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 37.5
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -417,8 +417,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png
 security:
@@ -437,7 +437,7 @@ security:
 slug: orange-business
 tags:
 - 5G
-- AI
+- Artificial Intelligence
 - B2B
 - CAMARA
 - Cloud

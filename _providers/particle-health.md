@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -457,8 +457,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: particle-health-mcp.yml
-  slug: particle-health-mcpyml
+  name: Particle Health MCP Server
+  slug: particle-health-mcp-server
 modified: '2026-08-14'
 name: Particle Health
 nav: Providers
@@ -493,7 +493,7 @@ rules:
 score:
   band: strong
   composite: 64.9
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -503,7 +503,7 @@ score:
     discoverability: 75.9
     governance: 37.1
     operational_transparency: 80.3
-  previous_composite: 71.9
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -520,9 +520,9 @@ score:
     regime: Health
     regime_id: health
     score: 55.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/screenshots/particle-health-2026-06-20T191425.png
 security:
 - kind: authentication

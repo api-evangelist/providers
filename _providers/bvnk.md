@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -308,8 +308,8 @@ image: https://cdn.prod.website-files.com/66dacc76fb28939d860bf57c/66fc3ae406ca2
 layout: provider
 mcp_servers:
 - description: ''
-  name: bvnk-mcp.yml
-  slug: bvnk-mcpyml
+  name: BVNK MCP Server
+  slug: bvnk-mcp-server
 modified: '2026-08-08'
 name: BVNK
 nav: Providers
@@ -330,7 +330,7 @@ scopes:
 score:
   band: strong
   composite: 63.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -340,7 +340,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 62.9
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -357,8 +357,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/screenshots/bvnk-2026-08-17T080753.png
 security:
@@ -383,7 +383,7 @@ tags:
 - Wallets
 - Virtual Accounts
 - Cross-Border Payments
-- Financial Services
+- Financial-Services
 - Cards
 - Digital Assets
 - Banking

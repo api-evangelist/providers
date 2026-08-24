@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -298,7 +298,7 @@ random_paper: 18
 score:
   band: thin
   composite: 37.7
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -308,7 +308,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 45.4
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -322,9 +322,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/screenshots/ravelin-2026-06-20T192610.png
 security:
 - kind: authentication
@@ -359,7 +359,7 @@ tags:
 - 3D Secure
 - Risk Scoring
 - Payments
-- Machine Learning
+- Machine-Learning
 use_cases:
 - description: Scoring checkout and transaction events to block fraudulent orders before they ship and reduce card scheme chargebacks.
   name: Online Payment Fraud and Chargeback Prevention

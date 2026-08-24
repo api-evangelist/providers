@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Public-facing presence of the Defense Intelligence Agency, providing organizational information, leadership, careers, news, and links to mission-specific programs. The website is the primary public su
@@ -91,7 +91,7 @@ modified: '2026-04-28'
 name: Defense Intelligence Agency
 nav: Providers
 network: true
-overview: 'Defense Intelligence Agency publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DIA, Federal Government, and Intelligence.
+overview: 'Defense Intelligence Agency publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DIA, Federal-Government, and Intelligence.
 
 
   Defense Intelligence Agency''s developer surface includes product news and 8 more developer resources.'
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.6
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -117,15 +117,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.2
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-intelligence-agency/refs/heads/main/screenshots/defense-intelligence-agency-2026-06-20T175838.png
 security:
@@ -138,7 +138,7 @@ tags:
 - Defense
 - Department of Defense
 - DIA
-- Federal Government
+- Federal-Government
 - Intelligence
 - Military Intelligence
 - National Security

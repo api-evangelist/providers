@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -100,7 +100,7 @@ modified: '2026-08-12'
 name: CommerceIQ
 nav: Providers
 network: true
-overview: 'CommerceIQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Retail Media, Digital Shelf, and Artificial Intelligence.
+overview: 'CommerceIQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail Media, Digital Shelf, and Artificial Intelligence.
 
 
   CommerceIQ''s developer surface includes engineering blog, support, FAQ, and 8 more developer resources.'
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.0
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -126,11 +126,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 12.2
+  previous_composite: 13.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerceiq/refs/heads/main/screenshots/commerceiq-2026-07-25T210126.png
 security:
@@ -141,7 +141,7 @@ security:
 slug: commerceiq
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail Media
 - Digital Shelf
 - Artificial Intelligence

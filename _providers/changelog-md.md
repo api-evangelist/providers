@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 25
 common:
@@ -116,7 +116,7 @@ modified: '2026-04-23'
 name: CHANGELOG.md (Keep a Changelog)
 nav: Providers
 network: true
-overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Change Log, Change Tracking, Documentation, Markdown, and Open Source.
+overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Change Tracking, Documentation, Markdown, and Open-Source.
 
 
   CHANGELOG.md (Keep a Changelog)''s developer surface includes documentation, tooling, and 11 more developer resources.'
@@ -124,7 +124,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 11.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -134,9 +134,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 10.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/screenshots/changelog-md-2026-06-20T174213.png
 security:
@@ -146,11 +146,11 @@ security:
   summary_line: TLSv1.3 · DNSSEC
 slug: changelog-md
 tags:
-- Change Log
+- Changelog
 - Change Tracking
 - Documentation
 - Markdown
-- Open Source
+- Open-Source
 - Release Management
 - Semantic Versioning
 - Software Releases

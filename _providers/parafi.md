@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -159,8 +159,8 @@ image: https://parafi.tech/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: parafi-mcp.yml
-  slug: parafi-mcpyml
+  name: Parafi MCP Server
+  slug: parafi-mcp-server
 modified: '2026-07-20'
 name: Parafi
 nav: Providers
@@ -173,7 +173,7 @@ random_paper: 18
 score:
   band: developing
   composite: 46.7
-  delta: 8.3
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -183,7 +183,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 38.4
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -200,9 +200,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/screenshots/parafi-2026-08-07T191404.png
 security:
 - kind: authentication

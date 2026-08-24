@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 31
 apis:
 - description: The 2FA API from Hevn Inc — 10 operation(s) for 2fa.
@@ -329,14 +329,14 @@ description: 'HEVN Inc (Y Combinator S26) is a fintech platform that lets non-US
 image: https://app.gethevn.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: hevn-inc-mcp.yml
-  slug: hevn-inc-mcpyml
+- description: HEVN ships a first-party MCP server through its CLI. `hevn mcp install` wires the HEVN command surface into MCP coding agents (Claude Code, Codex, Cursor); `hevn mcp serve` runs the server. The MCP to
+  name: Hevn Inc MCP Server
+  slug: hevn-inc-mcp-server
 modified: '2026-07-19'
 name: Hevn Inc
 nav: Providers
 network: true
-overview: 'Hevn Inc publishes 31 APIs on the [APIs.io](https://apis.io/) network, including 2FA API, Activity API, apps API, and 28 more. Tagged areas include Company, Financial Services, Fintech, Banking, and Payments.
+overview: 'Hevn Inc publishes 31 APIs on the [APIs.io](https://apis.io/) network, including 2FA API, Activity API, apps API, and 28 more. Tagged areas include Company, Financial-Services, Fintech, Banking, and Payments.
 
 
   Hevn Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, authentication, and 19 more developer resources.'
@@ -344,7 +344,7 @@ random_paper: 15
 score:
   band: developing
   composite: 42.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -354,7 +354,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 43.3
+  previous_composite: 42.1
   provenance:
     conformance: derived
     contracts:
@@ -370,8 +370,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/screenshots/hevn-inc-2026-07-25T221107.png
 security:
@@ -386,16 +386,15 @@ security:
 slug: hevn-inc
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Banking
 - Payments
-- Stablecoin
+- Stablecoins
 - USDC
 - Cross-Border Payments
 - Business Accounts
 - MCP
 - Agents
-- API
 website: https://gethevn.com
 ---

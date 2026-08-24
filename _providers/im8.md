@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The agent-native commerce surface of the IM8 Health Shopify storefront: a Universal Commerce Protocol (UCP) merchant profile with a hosted MCP shopping endpoint (catalog search, cart, checkout, fulfil'
@@ -94,9 +94,9 @@ description: 'IM8 Health is a health and wellness company whose flagship product
 image: https://im8health.com/cdn/shop/files/im8-meta-image_1_-min.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: im8-mcp.yml
-  slug: im8-mcpyml
+- description: Hosted Model Context Protocol (MCP) shopping endpoint exposed by the IM8 Health Shopify storefront via the Universal Commerce Protocol (UCP). Discovered from the store's /.well-known/ucp merchant prof
+  name: IM8 Health UCP Shopping MCP
+  slug: im8-health-ucp-shopping-mcp
 modified: '2026-07-19'
 name: IM8 Health
 nav: Providers
@@ -114,7 +114,7 @@ scopes:
 score:
   band: emerging
   composite: 25.1
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -124,7 +124,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.6
+  previous_composite: 25.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -134,8 +134,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/screenshots/im8-2026-08-07T170629.png
 security:
@@ -154,8 +154,8 @@ tags:
 - Wellness
 - Supplements
 - Nutrition
-- Ecommerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Agentic Commerce
 - Shopify
 - UCP

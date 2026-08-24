@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -216,8 +216,8 @@ image: https://reload.chat/opengraph-image?1e5e63d0657bf204
 layout: provider
 mcp_servers:
 - description: ''
-  name: reload-mcp.yml
-  slug: reload-mcpyml
+  name: Reload MCP Server
+  slug: reload-mcp-server
 modified: '2026-07-21'
 name: Reload
 nav: Providers
@@ -234,7 +234,7 @@ random_paper: 1
 score:
   band: developing
   composite: 53.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 54.2
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,8 +255,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/screenshots/reload-2026-08-17T081511.png
 security:
@@ -277,10 +277,9 @@ tags:
 - Collaboration
 - Memory
 - Context Graph
-- Model Context Protocol
 - MCP
 - Developer Tools
-- Tasks
+- Task
 - Productivity
 website: https://reload.team
 ---

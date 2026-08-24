@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Content-addressed decentralized object storage on Solana. Create users, upload/download files, resolve deterministic public URLs, and manage prepaid USDC credits. Auth is SIWS (Sign In With Solana -> '
@@ -131,8 +131,8 @@ image: https://github.com/PipeNetwork.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: pipe-network-mcp.yml
-  slug: pipe-network-mcpyml
+  name: Pipe Network MCP Server
+  slug: pipe-network-mcp-server
 modified: '2026-07-20'
 name: Pipe Network
 nav: Providers
@@ -145,7 +145,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 19.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -155,13 +155,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 19.3
+  previous_composite: 19.4
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

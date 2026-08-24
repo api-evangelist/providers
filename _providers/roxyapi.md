@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Production REST API covering 12 spiritual intelligence domains with 164+ endpoints under a single API key, authenticated via X-API-Key header. Documented by a live OpenAPI 3.1 spec and interactive ref
@@ -38,12 +38,12 @@ modified: '2026-07-09'
 name: RoxyAPI
 nav: Providers
 network: true
-overview: 'RoxyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v2. Tagged areas include astrology, vedic-astrology, numerology, tarot, and human-design.'
+overview: 'RoxyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v2. Tagged areas include Astrology, Vedic Astrology, numerology, tarot, and human-design.'
 random_paper: 3
 score:
   band: emerging
   composite: 13.0
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -59,28 +59,28 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 14.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: roxyapi
 tags:
-- astrology
-- vedic-astrology
+- Astrology
+- Vedic Astrology
 - numerology
 - tarot
 - human-design
-- forecast
+- Forecast
 - biorhythm
 - iching
 - crystals
 - dreams
 - angel-numbers
-- location
+- Location
 - spiritual
-- wellness
-- mcp-server
-- openapi
+- Wellness
+- MCP Server
+- OpenAPI
 - llms-txt
 - agent-native
 ---

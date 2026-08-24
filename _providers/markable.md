@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Markable's visual search platform API. Index catalogs of products or styles, then search for visually similar items inside images and video. Covers catalog and catalog-item management, product search,
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.1
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -152,11 +152,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 33.9
+  previous_composite: 35.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/screenshots/markable-2026-07-25T230203.png
 security:
@@ -176,9 +176,9 @@ tags:
 - Social Commerce
 - Influencer Marketing
 - Content Monetization
-- Social Media
+- Social-Media
 - Visual Search
-- Computer Vision
+- Computer-Vision
 - Product Discovery
 - Image Recognition
 - Video Search

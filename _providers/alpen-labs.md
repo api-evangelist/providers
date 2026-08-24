@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Alpen''s public JSON-RPC interface exposed by the full node and bundler on the Alpen Testnet (chain ID 8150, Signet BTC). Supports standard Ethereum eth_* methods, twenty-five Strata-specific strata_* '
@@ -115,22 +115,22 @@ overview: 'Alpen Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 4
 score:
   band: emerging
-  composite: 23.4
-  delta: 1.4
+  composite: 24.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 22.0
+  previous_composite: 24.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/screenshots/alpen-labs-2026-07-25T195749.png
 security:
@@ -149,7 +149,7 @@ tags:
 - Bitcoin
 - Blockchain
 - Rollup
-- Zero-Knowledge
+- Zero Knowledge
 - EVM
 - JSON-RPC
 - Web3

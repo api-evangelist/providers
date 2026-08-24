@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ scopes:
 score:
   band: developing
   composite: 40.1
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -270,7 +270,7 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 38.9
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -284,8 +284,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/screenshots/benchling-lims-2026-07-25T202730.png
 security:
@@ -312,7 +312,7 @@ tags:
 - Inventory Management
 - Assay Management
 - Workflows
-- Webhooks
+- Webhook
 - REST
 website: https://www.benchling.com
 ---

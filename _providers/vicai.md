@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -369,8 +369,8 @@ image: https://cdn.prod.website-files.com/67284e81c67879feb155c7f7/67dc61e47defb
 layout: provider
 mcp_servers:
 - description: ''
-  name: vicai-mcp.yml
-  slug: vicai-mcpyml
+  name: Vic.ai MCP Server
+  slug: vicai-mcp-server
 modified: '2026-07-21'
 name: Vic.ai
 nav: Providers
@@ -390,7 +390,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.1
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -400,7 +400,7 @@ score:
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 53.0
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -417,8 +417,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png
 security:
@@ -442,8 +442,8 @@ tags:
 - Invoicing
 - Payments
 - ERP Integration
-- AI
+- Artificial Intelligence
 - Finance Automation
-- Webhooks
+- Webhook
 website: https://www.vic.ai
 ---

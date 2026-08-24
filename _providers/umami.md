@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -516,7 +516,7 @@ modified: '2026-08-13'
 name: Umami
 nav: Providers
 network: true
-overview: 'Umami publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Events API, Sessions API, and 4 more. Tagged areas include Cookieless Tracking, Open Source, Privacy, Web Analytics, and Website Analytics.
+overview: 'Umami publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Events API, Sessions API, and 4 more. Tagged areas include Cookieless Tracking, Open-Source, Privacy, Web Analytics, and Website Analytics.
 
 
   The Umami catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -556,18 +556,18 @@ rules:
   slug: umami-spectral-rules
 score:
   band: strong
-  composite: 63.7
-  delta: 2.5
+  composite: 64.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 26.8
     developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 65.8
-  previous_composite: 61.2
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -578,8 +578,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/screenshots/umami-2026-06-20T200011.png
 security:
@@ -607,7 +607,7 @@ solutions:
   name: Umami Self-Hosted
 tags:
 - Cookieless Tracking
-- Open Source
+- Open-Source
 - Privacy
 - Web Analytics
 - Website Analytics

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: The Bill API from Seel — 3 operation(s) for bill.
@@ -162,13 +162,13 @@ image: https://seel.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: seel-mcp.yml
-  slug: seel-mcpyml
+  name: Seel MCP Server
+  slug: seel-mcp-server
 modified: '2026-07-21'
 name: Seel
 nav: Providers
 network: true
-overview: 'Seel publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bill API, Claim API, Contract API, and 6 more. Tagged areas include Company, E-commerce, Insurance, Post-Purchase, and Returns.
+overview: 'Seel publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bill API, Claim API, Contract API, and 6 more. Tagged areas include Company, E-Commerce, Insurance, Post-Purchase, and Returns.
 
 
   The Seel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -179,7 +179,7 @@ random_paper: 5
 score:
   band: thin
   composite: 35.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -189,7 +189,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 36.8
+  previous_composite: 35.1
   provenance:
     conformance: derived
     contracts:
@@ -205,8 +205,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -220,7 +220,7 @@ security:
 slug: seel
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Insurance
 - Post-Purchase
 - Returns

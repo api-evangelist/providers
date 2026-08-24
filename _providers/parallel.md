@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -287,13 +287,13 @@ image: https://cdn.sanity.io/images/5hzduz3y/production/3e8afb3fd62096a800a81359
 layout: provider
 mcp_servers:
 - description: ''
-  name: parallel-mcp.yml
-  slug: parallel-mcpyml
+  name: Parallel MCP Server
+  slug: parallel-mcp-server
 modified: '2026-08-14'
 name: Parallel
 nav: Providers
 network: true
-overview: 'Parallel publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat API (Beta) API, Extract API, FindAll API, and 5 more. Tagged areas include Company, Ai, Web Search, Agents, and Deep Research.
+overview: 'Parallel publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat API (Beta) API, Extract API, FindAll API, and 5 more. Tagged areas include Company, Artificial Intelligence, Web Search, Agents, and Deep Research.
 
 
   The Parallel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -317,7 +317,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.4
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -327,7 +327,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 73.9
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,8 +338,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/screenshots/parallel-2026-08-17T124455.png
 security:
@@ -358,7 +358,7 @@ security:
 slug: parallel
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Web Search
 - Agents
 - Deep Research

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The TTB Open Data API provides programmatic access to TTB statistical and regulatory datasets via the Socrata Open Data API (SODA). Available datasets include alcohol beverage tax collections by commo
@@ -121,7 +121,7 @@ modified: '2026-04-19'
 name: Alcohol and Tobacco Tax and Trade Bureau
 nav: Providers
 network: true
-overview: 'Alcohol and Tobacco Tax and Trade Bureau publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alcohol, Tobacco, Federal Government, Excise Tax, and Regulation.
+overview: 'Alcohol and Tobacco Tax and Trade Bureau publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alcohol, Tobacco, Federal-Government, Excise Tax, and Regulations.
 
 
   Alcohol and Tobacco Tax and Trade Bureau''s developer surface includes developer portal, documentation, and 8 more developer resources.'
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.5
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -147,15 +147,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 17.2
+  previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/screenshots/alcohol-and-tobacco-tax-and-trade-bureau-2026-06-20T171512.png
 security:
@@ -167,9 +167,9 @@ slug: alcohol-and-tobacco-tax-and-trade-bureau
 tags:
 - Alcohol
 - Tobacco
-- Federal Government
+- Federal-Government
 - Excise Tax
-- Regulation
+- Regulations
 - Treasury
 use_cases:
 - description: Producers, importers, and retailers use TTB permit and label data to verify compliance status and competitive market intelligence.

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,7 +125,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 14.3
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -135,15 +135,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 16.8
+  previous_composite: 14.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethos-life/refs/heads/main/screenshots/ethos-life-2026-06-20T180839.png
 security:
@@ -166,6 +166,6 @@ tags:
 - Policies
 - Embedded Insurance
 - Partnership API
-- Financial Services
+- Financial-Services
 website: https://www.ethos.com
 ---

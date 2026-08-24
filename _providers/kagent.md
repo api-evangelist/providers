@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: kagent open-source framework for running AI agents in Kubernetes, automating DevOps operations and troubleshooting through intelligent agent workflows.
@@ -97,7 +97,7 @@ modified: '2026-04-28'
 name: kagent
 nav: Providers
 network: true
-overview: 'kagent publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Cloud Native, DevOps, Framework, and Kubernetes.
+overview: 'kagent publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Cloud-Native, DevOps, Framework, and Kubernetes.
 
 
   kagent''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -123,9 +123,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 16.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kagent/refs/heads/main/screenshots/kagent-2026-06-20T183852.png
 security:
@@ -136,7 +136,7 @@ security:
 slug: kagent
 tags:
 - AI Agents
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Framework
 - Kubernetes

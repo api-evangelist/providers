@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -193,14 +193,14 @@ description: Osmosis (Gulp AI Inc.) is a forward-deployed reinforcement-learning
 image: https://raw.githubusercontent.com/Osmosis-AI/osmosis-sdk-python/main/.github/osmosis-logo-light.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: osmosis-mcp.yml
-  slug: osmosis-mcpyml
+- description: 'An open-source Model Context Protocol server that uses the Osmosis-Apply-1.7B model (served locally via Ollama) to merge code edits into files. Integrates into AI IDE / MCP-client workflows. Requires '
+  name: Osmosis MCP Server
+  slug: osmosis-mcp-server
 modified: '2026-07-20'
 name: Osmosis
 nav: Providers
 network: true
-overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: agent API, knowledge API, and Osmosis Agent Improvement API API. Tagged areas include Company, AI, Reinforcement Learning, LLM, and Post-Training.
+overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: agent API, knowledge API, and Osmosis Agent Improvement API API. Tagged areas include Company, Artificial Intelligence, Reinforcement Learning, LLM, and Post-Training.
 
 
   The Osmosis catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -211,7 +211,7 @@ random_paper: 4
 score:
   band: developing
   composite: 47.2
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 52.6
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,9 +232,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/screenshots/osmosis-2026-08-07T191013.png
 security:
 - kind: authentication
@@ -248,13 +248,13 @@ security:
 slug: osmosis
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Reinforcement Learning
 - LLM
 - Post-Training
 - Model Training
 - Agents
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 website: https://osmosis.ai/
 ---

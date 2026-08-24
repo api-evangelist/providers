@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -141,7 +141,7 @@ modified: '2026-07-17'
 name: Appboxo
 nav: Providers
 network: true
-overview: 'Appboxo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Super App, Miniapps, Mobile SDK, and Embedded Finance.
+overview: 'Appboxo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Super App, Mini Apps, Mobile SDK, and Embedded Finance.
 
 
   The Appboxo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -152,7 +152,7 @@ random_paper: 5
 score:
   band: thin
   composite: 36.9
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -162,15 +162,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 40.6
+  previous_composite: 36.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/screenshots/appboxo-2026-07-25T200739.png
 security:
@@ -186,7 +186,7 @@ slug: appboxo
 tags:
 - Company
 - Super App
-- Miniapps
+- Mini Apps
 - Mobile SDK
 - Embedded Finance
 - Payments

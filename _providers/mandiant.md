@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Mandiant Advantage Threat Intelligence (MATI) API v3 provides programmatic access to Mandiant's threat intelligence, including indicators of compromise, finished intelligence reports, threat actor
@@ -104,7 +104,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 17.3
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -114,9 +114,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 18.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mandiant/refs/heads/main/screenshots/mandiant-2026-07-25T230027.png
 security:

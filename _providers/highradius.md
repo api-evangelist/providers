@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-19'
 name: HighRadius
 nav: Providers
 network: true
-overview: 'HighRadius is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Autonomous Finance, Accounts Receivable, and Order to Cash.
+overview: 'HighRadius is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Autonomous Finance, Accounts Receivable, and Order-to-Cash.
 
 
   HighRadius'' developer surface includes documentation, pricing, engineering blog, support, and 8 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 11.3
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -106,12 +106,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 19.8
+  previous_composite: 11.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highradius/refs/heads/main/screenshots/highradius-2026-07-25T221210.png
 security:
 - kind: domain-security
@@ -128,7 +128,7 @@ tags:
 - Fintech
 - Autonomous Finance
 - Accounts Receivable
-- Order to Cash
+- Order-to-Cash
 - Treasury
 - Accounts Payable
 - Financial Close

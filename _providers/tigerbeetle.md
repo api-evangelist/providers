@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Client-library operations for managing 128-byte double-entry accounts - create_accounts (establish immutable accounts on a ledger with debit/credit constraint flags), lookup_accounts (fetch accounts b
@@ -90,7 +90,7 @@ modified: '2026-07-02'
 name: TigerBeetle
 nav: Providers
 network: true
-overview: 'TigerBeetle publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Accounting, Transactions, Database, and Double-Entry.
+overview: 'TigerBeetle publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Accounting, Transaction, Database, and Double-Entry.
 
 
   TigerBeetle''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -102,7 +102,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 15.0
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -112,9 +112,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -125,13 +125,13 @@ slug: tigerbeetle
 tags:
 - Financial
 - Accounting
-- Transactions
+- Transaction
 - Database
 - Double-Entry
 - Ledger
 - OLTP
 - Distributed
-- Open Source
+- Open-Source
 - Binary Protocol
 website: https://tigerbeetle.com/
 ---

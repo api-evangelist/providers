@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: doinstruct
 nav: Providers
 network: true
-overview: 'doinstruct is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Training, Compliance, and Frontline.
+overview: 'doinstruct is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Training, Compliance, and Frontline.
 
 
   doinstruct''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 13.0
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -94,9 +94,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 14.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doinstruct/refs/heads/main/screenshots/doinstruct-2026-07-25T212236.png
 security:
@@ -107,7 +107,7 @@ security:
 slug: doinstruct
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Training
 - Compliance
 - Frontline

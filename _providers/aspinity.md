@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-18'
 name: Aspinity
 nav: Providers
 network: true
-overview: 'Aspinity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Machine Learning, Edge AI, and IoT.
+overview: 'Aspinity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Machine-Learning, Edge AI, and IoT.
 
 
   Aspinity''s developer surface includes engineering blog and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 5.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,9 +74,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aspinity/refs/heads/main/screenshots/aspinity-2026-07-25T201432.png
 security:
@@ -88,7 +88,7 @@ slug: aspinity
 tags:
 - Company
 - Semiconductors
-- Machine Learning
+- Machine-Learning
 - Edge AI
 - IoT
 - Analog Computing

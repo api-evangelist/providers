@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'HTTP+JSON REST API for the Parse Platform: object CRUD and queries, users and sessions, roles, files, analytics and push. Parse Server is self-hosted, so the base URL is the operator''s own Parse Serve'
@@ -151,13 +151,13 @@ image: https://raw.githubusercontent.com/parse-community/parse-server/alpha/.git
 layout: provider
 mcp_servers:
 - description: ''
-  name: parse-mcp.yml
-  slug: parse-mcpyml
+  name: Parse MCP Server
+  slug: parse-mcp-server
 modified: '2026-07-20'
 name: Parse
 nav: Providers
 network: true
-overview: 'Parse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend as a Service, BaaS, Mobile, and Open Source.
+overview: 'Parse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend-as-a-Service, Mobile, Open-Source, and REST API.
 
 
   The Parse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -168,7 +168,7 @@ random_paper: 14
 score:
   band: thin
   composite: 38.1
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -178,12 +178,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 39.2
+  previous_composite: 38.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parse/refs/heads/main/screenshots/parse-2026-08-07T191458.png
 security:
@@ -202,14 +202,13 @@ security:
 slug: parse
 tags:
 - Company
-- Backend as a Service
-- BaaS
+- Backend-as-a-Service
 - Mobile
-- Open Source
+- Open-Source
 - REST API
 - Database
 - Authentication
 - Push Notifications
-- Real Time
+- Real-Time
 website: https://parseplatform.org
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -182,13 +182,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topi.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: topi-mcp.yml
-  slug: topi-mcpyml
+  name: Topi MCP Server
+  slug: topi-mcp-server
 modified: '2026-07-21'
 name: Topi
 nav: Providers
 network: true
-overview: 'Topi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including catalog API, offer API, order API, and 2 more. Tagged areas include Company, Fintech, Hardware as a Service, Rental, and Embedded Finance.
+overview: 'Topi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including catalog API, offer API, order API, and 2 more. Tagged areas include Company, Fintech, Hardware as a Service, Rentals, and Embedded Finance.
 
 
   The Topi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 45.4
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 43.2
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/screenshots/topi-2026-08-17T082405.png
 security:
@@ -249,12 +249,11 @@ tags:
 - Company
 - Fintech
 - Hardware as a Service
-- Rental
+- Rentals
 - Embedded Finance
 - B2B Payments
 - Financing
 - Checkout
 - Germany
-- API
 website: https://www.topi.eu/en/
 ---

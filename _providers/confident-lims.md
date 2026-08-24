@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -234,8 +234,8 @@ image: https://files.readme.io/ebcaf628c1535f1f7354303ab5d660f8ee74c181042849f2f
 layout: provider
 mcp_servers:
 - description: ''
-  name: confident-lims-mcp.yml
-  slug: confident-lims-mcpyml
+  name: Confident LIMS MCP Server
+  slug: confident-lims-mcp-server
 modified: '2026-07-18'
 name: Confident LIMS
 nav: Providers
@@ -251,7 +251,7 @@ random_paper: 8
 score:
   band: developing
   composite: 49.2
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -261,7 +261,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 52.6
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -272,8 +272,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/screenshots/confident-lims-2026-07-25T210248.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -207,13 +207,13 @@ image: https://docs.workist.com/img/workist_icon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: workist-mcp.yml
-  slug: workist-mcpyml
+  name: Workist MCP Server
+  slug: workist-mcp-server
 modified: '2026-07-21'
 name: Workist
 nav: Providers
 network: true
-overview: 'Workist publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Delivery Notes API, Invoices API, List Of Services API, and 5 more. Tagged areas include Documents, Document Processing, Artificial Intelligence, Automation, and Orders.
+overview: 'Workist publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Delivery Notes API, Invoices API, List Of Services API, and 5 more. Tagged areas include Documents, Document Processing, Artificial Intelligence, Automation, and Order.
 
 
   Workist''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 20 more developer resources.'
@@ -221,7 +221,7 @@ random_paper: 10
 score:
   band: developing
   composite: 49.2
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 49.5
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,8 +242,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/screenshots/workist-2026-08-17T082941.png
 security:
@@ -261,7 +261,7 @@ tags:
 - Document Processing
 - Artificial Intelligence
 - Automation
-- Orders
+- Order
 - Invoices
 - ERP
 - B2B

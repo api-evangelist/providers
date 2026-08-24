@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -137,7 +137,7 @@ modified: '2026-05-24'
 name: Konga
 nav: Providers
 network: true
-overview: 'Konga is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Ecommerce, Marketplace, Retail, Online Shopping, and Payments.
+overview: 'Konga is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Retail, Online Shopping, and Payments.
 
 
   Konga''s developer surface includes YouTube channel, engineering blog, and 22 more developer resources.'
@@ -145,7 +145,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 8.1
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -155,15 +155,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.2
+  previous_composite: 8.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konga/refs/heads/main/screenshots/konga-2026-06-20T184137.png
 security:
@@ -173,15 +173,15 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: konga
 tags:
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Retail
 - Online Shopping
 - Payments
 - Fintech
 - Mobile Money
-- Wallet
-- Pos
+- Wallets
+- Point-of-Sale
 - Bill Payments
 - Travel
 - Flights

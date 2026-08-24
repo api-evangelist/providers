@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 16
 apis:
 - description: The Access API from Koin — 1 operation(s) for access.
@@ -276,8 +276,8 @@ image: https://framerusercontent.com/images/PkgidZslCNXkKXqoQ6oHqtcYHo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: koin-mcp.yml
-  slug: koin-mcpyml
+  name: Koin MCP Server
+  slug: koin-mcp-server
 modified: '2026-07-19'
 name: Koin
 nav: Providers
@@ -293,7 +293,7 @@ random_paper: 13
 score:
   band: strong
   composite: 54.3
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -303,7 +303,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 53.6
+  previous_composite: 54.3
   provenance:
     conformance: derived
     contracts:
@@ -319,8 +319,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png
 security:
@@ -339,7 +339,7 @@ tags:
 - Buy Now Pay Later
 - Pix
 - E-Commerce
-- Financial Services
+- Financial-Services
 - Brazil
 - Latin America
 - Anti-Fraud

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -203,8 +203,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: jane-app-mcp.yml
-  slug: jane-app-mcpyml
+  name: Jane MCP Server
+  slug: jane-mcp-server
 modified: '2026-07-24'
 name: Jane
 nav: Providers
@@ -225,7 +225,7 @@ scopes:
 score:
   band: strong
   composite: 61.5
-  delta: 5.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -235,7 +235,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 55.9
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,9 +252,9 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png
 security:
 - kind: authentication
@@ -281,7 +281,7 @@ tags:
 - Telehealth
 - Health and Wellness
 - REST API
-- OAuth2
-- Webhooks
+- Authentication
+- Webhook
 website: https://jane.app/
 ---

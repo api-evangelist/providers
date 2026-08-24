@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Evolv Participant API is the runtime edge API the client SDKs call to fetch a participant's experiment configuration and allocations for an environment, and to ingest context and behavioral events
@@ -139,13 +139,13 @@ image: https://evolv.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: evolv-mcp.yml
-  slug: evolv-mcpyml
+  name: Evolv MCP Server
+  slug: evolv-mcp-server
 modified: '2026-08-13'
 name: Evolv
 nav: Providers
 network: true
-overview: 'Evolv publishes 1 API on the [APIs.io](https://apis.io/) network: Participant API. Tagged areas include Experimentation, Optimization, Personalization, A/B Testing, and Machine Learning.
+overview: 'Evolv publishes 1 API on the [APIs.io](https://apis.io/) network: Participant API. Tagged areas include Experimentation, Optimization, Personalization, A/B Testing, and Machine-Learning.
 
 
   Evolv''s developer surface includes documentation, CLI, authentication, sandbox, changelog, and 17 more developer resources.'
@@ -161,7 +161,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.7
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -171,13 +171,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 24.6
+  previous_composite: 22.7
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/screenshots/evolv-2026-07-25T213820.png
 security:
@@ -195,7 +195,7 @@ tags:
 - Optimization
 - Personalization
 - A/B Testing
-- Machine Learning
+- Machine-Learning
 - Conversion Rate Optimization
 - Experience Optimization
 - Analytics

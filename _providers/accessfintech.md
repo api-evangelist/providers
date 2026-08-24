@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The API surface behind Synergy, AccessFintech's post-trade collaboration network. The shipped web client calls a GraphQL endpoint at https://api.accessfintech.com/gql (operation name mirrored into the
@@ -107,7 +107,7 @@ modified: '2026-08-06'
 name: AccessFintech
 nav: Providers
 network: true
-overview: 'AccessFintech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, Post-Trade, and Settlement.
+overview: 'AccessFintech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Capital Markets, Post-Trade, and Settlement.
 
 
   AccessFintech''s developer surface includes engineering blog, support, authentication, and 11 more developer resources.'
@@ -120,7 +120,7 @@ scopes:
 score:
   band: emerging
   composite: 18.4
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -130,11 +130,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 19.1
+  previous_composite: 18.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accessfintech/refs/heads/main/screenshots/accessfintech-2026-08-07T160758.png
 security:
@@ -149,7 +149,7 @@ security:
 slug: accessfintech
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Post-Trade
 - Settlement

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Cloud Custodian provides rules-engine capabilities for managing cloud resources with security, compliance, and cost optimization policies.
@@ -173,26 +173,26 @@ rules:
   slug: cloud-custodian-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.4
-  delta: -1.5
+  composite: 33.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 57.8
     developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 34.9
+  previous_composite: 33.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/screenshots/cloud-custodian-2026-06-20T174534.png
 security:

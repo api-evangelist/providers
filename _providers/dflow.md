@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -193,9 +193,9 @@ description: 'DFlow is a trading protocol and aggregator for spot trading native
 image: https://dflow.net/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: dflow-mcp.yml
-  slug: dflow-mcpyml
+- description: Hosted documentation MCP server. Gives AI tools (Claude, Claude Code, Cursor, VS Code, Windsurf) direct search access to DFlow's documentation, Trading API specs, code recipes, and FAQ library so they
+  name: DFlow
+  slug: dflow
 modified: '2026-07-18'
 name: DFlow
 nav: Providers
@@ -211,7 +211,7 @@ random_paper: 15
 score:
   band: developing
   composite: 43.2
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -221,7 +221,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 42.5
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +238,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/screenshots/dflow-2026-07-25T211845.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-19'
 name: Fantasmo
 nav: Providers
 network: true
-overview: 'Fantasmo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Camera Positioning, Computer Vision, Spatial Computing, and Geolocation.
+overview: 'Fantasmo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Camera Positioning, Computer-Vision, Spatial Computing, and Geolocation.
 
 
   Fantasmo''s developer surface includes engineering blog and 3 more developer resources.'
@@ -75,8 +75,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fantasmo/refs/heads/main/screenshots/fantasmo-2026-07-25T214223.png
 security:
@@ -88,7 +88,7 @@ slug: fantasmo
 tags:
 - Company
 - Camera Positioning
-- Computer Vision
+- Computer-Vision
 - Spatial Computing
 - Geolocation
 - Positioning

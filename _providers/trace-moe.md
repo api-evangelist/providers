@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A useful tool to get the exact scene of an anime from a screenshot
@@ -74,8 +74,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trace-moe/refs/heads/main/screenshots/trace-moe-2026-06-20T195514.png
 slug: trace-moe

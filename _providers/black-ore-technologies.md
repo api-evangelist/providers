@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -106,7 +106,7 @@ modified: '2026-07-18'
 name: Black Ore Technologies
 nav: Providers
 network: true
-overview: 'Black Ore Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Services, Tax, and Accounting.
+overview: 'Black Ore Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial-Services, Tax, and Accounting.
 
 
   Black Ore Technologies'' developer surface includes pricing, engineering blog, signup flow, authentication, and 12 more developer resources.'
@@ -114,7 +114,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 23.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -124,11 +124,11 @@ score:
     discoverability: 61.1
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 23.7
+  previous_composite: 23.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-ore-technologies/refs/heads/main/screenshots/black-ore-technologies-2026-07-25T203235.png
 security:
@@ -148,7 +148,7 @@ slug: black-ore-technologies
 tags:
 - Company
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Tax
 - Accounting
 - Fintech

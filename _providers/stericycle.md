@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The MyStericycle.com customer portal provides healthcare organizations with 24/7 online access to account management, waste pickup scheduling, HIPAA and OSHA compliance training, compliance reporting,
@@ -135,7 +135,7 @@ rules:
 score:
   band: emerging
   composite: 16.3
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -145,16 +145,16 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 21.6
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/screenshots/stericycle-2026-06-20T194548.png
 security:
 - kind: domain-security

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 6
@@ -430,7 +430,7 @@ modified: '2026-05-25'
 name: Smithery
 nav: Providers
 network: true
-overview: 'Smithery publishes 9 APIs on the [APIs.io](https://apis.io/) network, including connect API, connect.mcp API, domains API, and 6 more. Tagged areas include AI, Agents, MCP, Model Context Protocol, and Registry.
+overview: 'Smithery publishes 9 APIs on the [APIs.io](https://apis.io/) network, including connect API, connect.mcp API, domains API, and 6 more. Tagged areas include Artificial Intelligence, Agents, MCP, Registry, and Hosting.
 
 
   The Smithery catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -470,7 +470,7 @@ rules:
 score:
   band: developing
   composite: 53.1
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -480,7 +480,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 57.6
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -488,8 +488,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithery-ai/refs/heads/main/screenshots/smithery-ai-2026-08-17T081934.png
 security:
@@ -503,10 +503,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: smithery-ai
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
-- Model Context Protocol
 - Registry
 - Hosting
 - Tools

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Artillery Cloud provides a hosted platform for running distributed load tests at scale, storing test results, team collaboration, and integrating with CI/CD pipelines. The Artillery Cloud API enables '
@@ -135,7 +135,7 @@ modified: '2026-04-19'
 name: Artillery
 nav: Providers
 network: true
-overview: 'Artillery publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, Open Source, Testing, and DevOps.
+overview: 'Artillery publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, Open-Source, Testing, and DevOps.
 
 
   Artillery''s developer surface includes engineering blog, developer portal, documentation, release notes, pricing, and 10 more developer resources.'
@@ -162,8 +162,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artillery/refs/heads/main/screenshots/artillery-2026-06-20T172444.png
 security:
@@ -175,7 +175,7 @@ slug: artillery
 tags:
 - Load Testing
 - Performance Testing
-- Open Source
+- Open-Source
 - Testing
 - DevOps
 - Node.js

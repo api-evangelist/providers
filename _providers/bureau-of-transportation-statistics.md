@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ modified: '2026-04-23'
 name: Bureau of Transportation Statistics
 nav: Providers
 network: true
-overview: 'Bureau of Transportation Statistics publishes 2 APIs on the [APIs.io](https://apis.io/) network: Metadata API and Resource API. Tagged areas include Federal Government, Statistics, Transportation, Aviation, and Freight.
+overview: 'Bureau of Transportation Statistics publishes 2 APIs on the [APIs.io](https://apis.io/) network: Metadata API and Resource API. Tagged areas include Federal-Government, Statistics, Transportation, Aviation, and Freight.
 
 
   Bureau of Transportation Statistics'' developer surface includes authentication, developer portal, and 8 more developer resources.'
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.5
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -148,7 +148,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.9
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/screenshots/bureau-of-transportation-statistics-2026-06-20T173820.png
 security:
@@ -177,7 +177,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: bureau-of-transportation-statistics
 tags:
-- Federal Government
+- Federal-Government
 - Statistics
 - Transportation
 - Aviation

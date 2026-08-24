@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -582,8 +582,8 @@ image: https://developer.skedulo.com/favicons/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: skedulo-mcp.yml
-  slug: skedulo-mcpyml
+  name: Skedulo MCP Server
+  slug: skedulo-mcp-server
 modified: '2026-07-21'
 name: Skedulo
 nav: Providers
@@ -599,7 +599,7 @@ random_paper: 3
 score:
   band: developing
   composite: 50.3
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -609,7 +609,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 53.3
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -620,8 +620,8 @@ score:
       total: 67
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/screenshots/skedulo-2026-08-17T081911.png
 security:
@@ -644,6 +644,6 @@ tags:
 - Dispatch
 - Optimization
 - GraphQL
-- Webhooks
+- Webhook
 website: https://www.skedulo.com
 ---

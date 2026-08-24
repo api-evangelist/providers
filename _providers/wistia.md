@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -299,9 +299,9 @@ description: 'Wistia is an all-in-one video marketing platform for businesses th
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wistia.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: wistia-mcp.yml
-  slug: wistia-mcpyml
+- description: 'Wistia operates a first-party, hosted MCP server that exposes the Wistia Data API to agents: media, folders, channels, captions, analytics and AI remix. It is a REMOTE streamable-HTTP endpoint — an ag'
+  name: Wistia API MCP Server
+  slug: wistia-api-mcp-server
 modified: '2026-08-14'
 name: Wistia
 nav: Providers
@@ -342,7 +342,7 @@ scopes:
 score:
   band: strong
   composite: 65.5
-  delta: -10.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -352,7 +352,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 53.9
-  previous_composite: 76.3
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -363,9 +363,9 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/screenshots/wistia-2026-06-20T201532.png
 security:
 - kind: authentication

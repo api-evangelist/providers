@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1489
   human_in_the_loop: 37
@@ -170,8 +170,8 @@ image: https://cdn.prod.website-files.com/68137618ce08fc7361daa786/6824fbebce901
 layout: provider
 mcp_servers:
 - description: ''
-  name: zoca-mcp.yml
-  slug: zoca-mcpyml
+  name: Zoca MCP Server
+  slug: zoca-mcp-server
 modified: '2026-08-13'
 name: Zoca
 nav: Providers
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.4
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 52.8
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,9 +216,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/screenshots/zoca-2026-08-17T083114.png
 security:
 - kind: authentication
@@ -246,10 +246,10 @@ tags:
 - Booking
 - Local SEO
 - Google Business Profile
-- Social Media
+- Social-Media
 - Salon Software
 - Spa
-- SaaS
+- Software-as-a-Service
 - Lead Generation
 - Customer Retention
 - Small Business

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-18'
 name: DraftWise
 nav: Providers
 network: true
-overview: 'DraftWise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Legal, Legaltech, and Contract Management.
+overview: 'DraftWise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Legal, Legal Tech, and Contract Management.
 
 
   DraftWise''s developer surface includes documentation, engineering blog, support, pricing, signup flow, and 8 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 23.0
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -110,11 +110,11 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 22.3
+  previous_composite: 23.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/draftwise/refs/heads/main/screenshots/draftwise-2026-07-25T212340.png
 security:
@@ -131,11 +131,11 @@ tags:
 - Company
 - Business Applications
 - Legal
-- Legaltech
+- Legal Tech
 - Contract Management
 - Contract Drafting
 - Artificial Intelligence
-- Document Management
+- Document-Management
 - Legal AI
 website: https://www.draftwise.com/
 ---

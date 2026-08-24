@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Mutiny's hosted Model Context Protocol server and its only public programmatic entry point. It exposes the workspace's asset creation, template, content library and publishing capabilities to any MCP-
@@ -159,16 +159,16 @@ image: https://framerusercontent.com/assets/Ec1hAhKLtluxlMfLydNP0NTrIA.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mutiny-hq-mcp.yml
-  slug: mutiny-hq-mcpyml
+  name: Mutiny HQ MCP Server
+  slug: mutiny-hq-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Mutiny HQ MCP Server
+  slug: mutiny-hq-mcp-server-2
 modified: '2026-08-13'
 name: Mutiny HQ
 nav: Providers
 network: true
-overview: 'Mutiny HQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GTM, Sales Enablement, Marketing, and Website Personalization.
+overview: 'Mutiny HQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Go-To-Market, Sales Enablement, Marketing, and Website Personalization.
 
 
   Mutiny HQ''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, API reference, getting-started guide, and 22 more developer resources.'
@@ -189,7 +189,7 @@ scopes:
 score:
   band: thin
   composite: 37.7
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -199,12 +199,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 39.5
+  previous_composite: 37.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny-hq/refs/heads/main/screenshots/mutiny-hq-2026-08-07T184453.png
 security:
@@ -219,14 +219,14 @@ security:
 slug: mutiny-hq
 tags:
 - Company
-- GTM
+- Go-To-Market
 - Sales Enablement
 - Marketing
 - Website Personalization
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
-- ABM
+- Account Based Marketing
 - Content Generation
 website: https://www.mutinyhq.com/
 ---

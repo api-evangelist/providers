@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Decentralized JSON-RPC + WebSocket API for the Angstrom DEX. Every Angstrom node runs its own JSON-RPC server (there is no single central API); a load-balanced HTTPS/WebSocket endpoint is recommended '
@@ -129,7 +129,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 23.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -139,7 +139,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 23.5
+  previous_composite: 23.0
   provenance:
     conformance: first-party
   regulatory:
@@ -148,8 +148,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

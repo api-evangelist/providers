@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: On-device Smart Data Capture SDK for barcode, MatrixScan, ID, Smart Label, Parser and Text capture, shipped as first-party client libraries for iOS, Android, Web, React Native, Flutter, Cordova, Capac
@@ -136,7 +136,7 @@ modified: '2026-07-21'
 name: Scandit
 nav: Providers
 network: true
-overview: 'Scandit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Data Capture, Barcode Scanning, and Computer Vision.
+overview: 'Scandit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Data Capture, Barcode Scanning, and Computer-Vision.
 
 
   Scandit''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
@@ -144,7 +144,7 @@ random_paper: 7
 score:
   band: thin
   composite: 27.7
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -154,11 +154,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 30.2
+  previous_composite: 27.7
   provenance:
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -175,7 +175,7 @@ tags:
 - Frontier Tech
 - Data Capture
 - Barcode Scanning
-- Computer Vision
+- Computer-Vision
 - SDK
 - ID Verification
 - Retail

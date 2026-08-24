@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -203,9 +203,9 @@ description: 'Endeavour Energy is the regulated electricity distribution network
 image: https://www.endeavourenergy.com.au/images/ee-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: endeavour-energy-mcp.yml
-  slug: endeavour-energy-mcpyml
+- description: 'Endeavour Energy publishes no MCP server. This is a CANDIDATE manifest: one tool per real operationId, each inheriting its input contract from the backing operation in the harvested OpenAPI. It is a d'
+  name: Endeavour Energy MCP Server
+  slug: endeavour-energy-mcp-server
 modified: '2026-07-27'
 name: Endeavour Energy
 nav: Providers
@@ -227,7 +227,7 @@ scopes:
 score:
   band: developing
   composite: 53.7
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -237,7 +237,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 50.3
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +249,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/screenshots/endeavour-energy-2026-08-07T164855.png
 security:

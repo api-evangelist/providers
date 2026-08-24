@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -143,13 +143,13 @@ image: https://cloudsight.ai/static/img/favicons/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cloudsight-mcp.yml
-  slug: cloudsight-mcpyml
+  name: CloudSight MCP Server
+  slug: cloudsight-mcp-server
 modified: '2026-08-09'
 name: CloudSight
 nav: Providers
 network: true
-overview: 'CloudSight publishes 1 API on the [APIs.io](https://apis.io/) network: Images API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Computer Vision, and Image Recognition.
+overview: 'CloudSight publishes 1 API on the [APIs.io](https://apis.io/) network: Images API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Computer-Vision, and Image Recognition.
 
 
   CloudSight''s developer surface includes documentation, support, authentication, code examples, changelog, sandbox, and 18 more developer resources.'
@@ -157,7 +157,7 @@ random_paper: 7
 score:
   band: thin
   composite: 35.6
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -167,7 +167,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 43.5
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,9 +178,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudsight/refs/heads/main/screenshots/cloudsight-2026-08-17T080822.png
 security:
 - kind: authentication
@@ -195,8 +195,8 @@ slug: cloudsight
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Image Recognition
 - Image Captioning
 - Classification

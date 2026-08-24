@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Command-line tool and Go library that converts OpenAPI 3.0 and 3.1 specifications into Go server-side, client-side, and HTTP model code with support for multiple Go web frameworks.
@@ -141,7 +141,7 @@ modified: '2026-08-06'
 name: Oapi-Codegen
 nav: Providers
 network: true
-overview: 'Oapi-Codegen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Developer Tools, Go, OpenAPI, and SDKs.
+overview: 'Oapi-Codegen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Developer Tools, Go, OpenAPI, and SDK.
 
 
   Oapi-Codegen''s developer surface includes documentation, API reference, getting-started guide, support, changelog, release notes, CLI, and 15 more developer resources.'
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.3
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -167,11 +167,11 @@ score:
     discoverability: 66.7
     governance: 33.3
     operational_transparency: 44.7
-  previous_composite: 29.9
+  previous_composite: 31.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/screenshots/oapi-codegen-2026-06-20T190551.png
 security:
@@ -185,6 +185,6 @@ tags:
 - Developer Tools
 - Go
 - OpenAPI
-- SDKs
+- SDK
 - Tooling
 ---

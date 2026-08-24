@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -251,13 +251,13 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: localytics-mcp.yml
-  slug: localytics-mcpyml
+  name: Localytics MCP Server
+  slug: localytics-mcp-server
 modified: '2026-08-13'
 name: Localytics
 nav: Providers
 network: true
-overview: 'Localytics publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Push Campaigns API, and 1 more. Tagged areas include Company, Martech, Mobile Analytics, Push Notifications, and Customer Engagement.
+overview: 'Localytics publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Push Campaigns API, and 1 more. Tagged areas include Company, MarTech, Mobile Analytics, Push Notifications, and Customer Engagement.
 
 
   Localytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 32 more developer resources.'
@@ -273,7 +273,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -283,7 +283,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 50.9
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,8 +294,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/screenshots/localytics-2026-07-25T225426.png
 security:
@@ -314,12 +314,11 @@ security:
 slug: localytics
 tags:
 - Company
-- Martech
+- MarTech
 - Mobile Analytics
 - Push Notifications
 - Customer Engagement
 - Marketing Automation
-- APIs
 - Mobile
 - Segmentation
 - Audiences

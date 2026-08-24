@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Create physical gift, direct mail and eGift sends against Sendoso campaigns, and read the campaigns, users and team groups behind them. Ten operations on /api/v3.
@@ -231,9 +231,9 @@ description: Sendoso is a corporate gifting and direct mail platform that lets s
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sendoso.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sendoso-mcp.yml
-  slug: sendoso-mcpyml
+- description: Sendoso ships TWO remote MCP servers, and they are different products. The production server at https://app.sendoso.com/mcp is an OAuth-protected agent surface over the Sendoso platform itself — it an
+  name: Sendoso MCP Server
+  slug: sendoso-mcp-server
 modified: '2026-08-13'
 name: Sendoso
 nav: Providers
@@ -283,18 +283,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.6
-  delta: -11.1
+  composite: 55.0
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 30.0
     developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 31.6
-  previous_composite: 65.7
+  previous_composite: 55.0
   provenance:
     conformance: derived
     contracts:
@@ -304,9 +304,9 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/screenshots/sendoso-2026-06-20T193656.png
 security:
 - kind: authentication
@@ -338,6 +338,6 @@ tags:
 - Employee Recognition
 - Account Based Marketing
 - SCIM Provisioning
-- Webhooks
+- Webhook
 website: https://www.sendoso.com/
 ---

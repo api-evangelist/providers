@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -230,14 +230,14 @@ description: FlexAI is managed inference for builders — an OpenAI-compatible A
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flexai.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: flexai-mcp.yml
-  slug: flexai-mcpyml
+- description: Candidate MCP tool surface derived from the FlexAI Token Factory OpenAPI operations. FlexAI does not publish an official hosted MCP server; this is a starting point that maps each documented operation
+  name: FlexAI MCP Server
+  slug: flexai-mcp-server
 modified: '2026-07-19'
 name: FlexAI
 nav: Providers
 network: true
-overview: 'FlexAI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 4 more. Tagged areas include Company, Ai/Ml, Artificial Intelligence, Machine Learning, and Inference.
+overview: 'FlexAI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 4 more. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine-Learning, and Inference.
 
 
   FlexAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
@@ -253,7 +253,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.9
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -263,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 48.4
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,8 +274,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/screenshots/flexai-2026-07-25T214748.png
 security:
@@ -290,13 +290,13 @@ security:
 slug: flexai
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Inference
 - LLM
 - Large Language Models
-- OpenAI Compatible
+- OpenAI-Compatible
 - GPU Compute
 - Embeddings
 - Fine-Tuning

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: Free API management gateway operated by the U.S. General Services Administration's Technology Transformation Services. Fronts the API keys, rate limiting, and analytics for over 450 APIs across roughl
@@ -148,7 +148,7 @@ modified: '2026-05-23'
 name: Public Sector
 nav: Providers
 network: true
-overview: 'Public Sector publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Public Sector, Government, Federal, State, and Local.
+overview: 'Public Sector publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Public Sector, Government, Federal, States, and Local.
 
 
   The Public Sector catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -167,7 +167,7 @@ rules:
 score:
   band: emerging
   composite: 11.3
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -177,16 +177,16 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 18.3
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/public-sector/refs/heads/main/screenshots/public-sector-2026-06-20T192241.png
 security:
 - kind: domain-security
@@ -198,7 +198,7 @@ tags:
 - Public Sector
 - Government
 - Federal
-- State
+- States
 - Local
 - Civic Tech
 - Open Data

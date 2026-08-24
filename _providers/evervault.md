@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: 3D Secure is a security protocol designed to prevent fraud in online card transactions. It adds an additional layer of authentication during the payment process.
@@ -300,8 +300,8 @@ image: https://evervault.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: evervault-mcp.yml
-  slug: evervault-mcpyml
+  name: Evervault MCP Server
+  slug: evervault-mcp-server
 modified: '2026-07-19'
 name: Evervault
 nav: Providers
@@ -317,7 +317,7 @@ random_paper: 3
 score:
   band: exemplar
   composite: 67.1
-  delta: 5.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -327,7 +327,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 61.6
+  previous_composite: 67.1
   provenance:
     conformance: first-party
     contracts:
@@ -343,9 +343,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/screenshots/evervault-2026-08-07T165228.png
 security:
 - kind: authentication

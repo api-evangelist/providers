@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -148,14 +148,14 @@ description: Vori is a connected point-of-sale and operations platform built exc
 image: https://cdn.prod.website-files.com/696a48a7323254ea5a7ab884/696a48a7323254ea5a7ab8c0_logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: vori-mcp.yml
-  slug: vori-mcpyml
+- description: Vori publishes no official hosted MCP server for its REST API. The voriteam GitHub org does ship MCP tooling (ditto-mcp — an MCP server for the Ditto HTTP API, cube-mcp, and a fork of mcp-front auth p
+  name: Vori MCP Server
+  slug: vori-mcp-server
 modified: '2026-07-21'
 name: Vori
 nav: Providers
 network: true
-overview: 'Vori publishes 1 API on the [APIs.io](https://apis.io/) network: Store products API. Tagged areas include Company, Applications, Grocery, Point of Sale, and Retail.
+overview: 'Vori publishes 1 API on the [APIs.io](https://apis.io/) network: Store products API. Tagged areas include Company, Application, Grocery, Point-of-Sale, and Retail.
 
 
   Vori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
@@ -163,7 +163,7 @@ random_paper: 7
 score:
   band: developing
   composite: 39.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -173,7 +173,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 39.3
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,8 +190,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -205,9 +205,9 @@ security:
 slug: vori
 tags:
 - Company
-- Applications
+- Application
 - Grocery
-- Point of Sale
+- Point-of-Sale
 - Retail
 - Inventory
 - Payments

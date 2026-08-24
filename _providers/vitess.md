@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: VTGate is the stateless proxy that routes queries to the appropriate VTTablet instances. It exposes a MySQL-compatible interface and a gRPC API that clients use to interact with the Vitess cluster, ha
@@ -154,7 +154,7 @@ modified: '2026-05-03'
 name: Vitess
 nav: Providers
 network: true
-overview: 'Vitess publishes 1 API on the [APIs.io](https://apis.io/) network: VTAdmin API. Tagged areas include Cloud Native, CNCF, Database, Distributed Systems, and Graduated.
+overview: 'Vitess publishes 1 API on the [APIs.io](https://apis.io/) network: VTAdmin API. Tagged areas include Cloud-Native, CNCF, Database, Distributed Systems, and Graduated.
 
 
   The Vitess catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -194,27 +194,27 @@ rules:
   slug: vitess-rules
 score:
   band: thin
-  composite: 31.3
-  delta: -6.9
+  composite: 31.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 35.2
     developer_ergonomics: 26.2
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 38.2
+  previous_composite: 31.8
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitess/refs/heads/main/screenshots/vitess-2026-06-20T201108.png
 security:
 - kind: domain-security
@@ -223,7 +223,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: vitess
 tags:
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Database
 - Distributed Systems

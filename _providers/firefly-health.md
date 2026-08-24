@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Private first-party HTTP API that backs the Firefly Health member web app and iOS/Android apps. Observed at https://api-prod.firefly.health with an /api/v2/ base path referenced by the members.firefly
@@ -135,7 +135,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 21.5
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -145,7 +145,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 21.1
+  previous_composite: 21.5
   provenance:
     conformance: first-party
   regulatory:
@@ -154,8 +154,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firefly-health/refs/heads/main/screenshots/firefly-health-2026-08-07T165314.png
 security:

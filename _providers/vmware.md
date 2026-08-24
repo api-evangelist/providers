@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -316,6 +316,10 @@ collections:
   name: VMware vSphere Automation REST API
   slug: open-vmware-vsphere-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/broadcom/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -408,6 +412,50 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/vmware-vocabulary.yaml
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/apteligent/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/avi-networks/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/carbon-black/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cloudhealth/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/datrium/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/heptio/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/lastline/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/nicira-networks/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/octarine/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/springsource/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/vmware-tanzu/
 created: '2024-01-01'
 description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
 examples:
@@ -1027,7 +1075,7 @@ jsonld:
   property_count: 0
   slug: vmware-vsphere-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: VMware
 nav: Providers
 network: true
@@ -1037,7 +1085,7 @@ overview: 'VMware publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
   The VMware catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  VMware''s developer surface includes authentication, developer portal, documentation, code examples, CLI, engineering blog, support, and 16 more developer resources.'
+  VMware''s developer surface includes authentication, developer portal, documentation, code examples, CLI, engineering blog, support, and 28 more developer resources.'
 plans:
 - name: Vmware Plans Pricing
   plan_count: 1
@@ -1071,18 +1119,18 @@ rules:
   slug: vmware-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: -9.1
+  composite: 47.4
+  delta: 1.4
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 63.6
-    developer_ergonomics: 50.0
+    developer_ergonomics: 57.1
     discoverability: 40.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 54.6
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1090,9 +1138,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/screenshots/vmware-2026-06-20T201116.png
 security:
 - kind: authentication

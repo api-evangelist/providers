@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -167,8 +167,8 @@ image: https://confrere.com/static/images/Thumbnail.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: confrere-mcp.yml
-  slug: confrere-mcpyml
+  name: Confrere MCP Server
+  slug: confrere-mcp-server
 modified: '2026-07-18'
 name: Confrere
 nav: Providers
@@ -181,7 +181,7 @@ random_paper: 12
 score:
   band: developing
   composite: 39.6
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -191,7 +191,7 @@ score:
     discoverability: 66.7
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 38.2
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,8 +208,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/screenshots/confrere-2026-07-25T210253.png
 security:

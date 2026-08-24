@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -224,8 +224,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anz.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: anz-mcp.yml
-  slug: anz-mcpyml
+  name: Australia and New Zealand Banking Group (ANZ) MCP Server
+  slug: australia-and-new-zealand-banking-group-anz-mcp-server
 modified: '2026-07-21'
 name: Australia and New Zealand Banking Group (ANZ)
 nav: Providers
@@ -243,7 +243,7 @@ scopes:
 score:
   band: developing
   composite: 46.9
-  delta: 3.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -253,7 +253,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 43.6
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,8 +270,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/screenshots/anz-2026-07-21T114652.png
 security:

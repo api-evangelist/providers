@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -193,7 +193,7 @@ random_paper: 4
 score:
   band: thin
   composite: 29.5
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 22.0
     operational_transparency: 10.5
-  previous_composite: 26.8
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -214,8 +214,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/screenshots/essential-energy-2026-08-07T165022.png
 security:

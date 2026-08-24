@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -362,7 +362,7 @@ rules:
 score:
   band: exemplar
   composite: 77.6
-  delta: 10.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -372,7 +372,7 @@ score:
     discoverability: 92.6
     governance: 41.7
     operational_transparency: 57.9
-  previous_composite: 67.0
+  previous_composite: 77.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -389,9 +389,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/screenshots/mailerlite-2026-06-20T184854.png
 security:
 - kind: authentication
@@ -421,8 +421,8 @@ tags:
 - Newsletters
 - Subscribers
 - Campaigns
-- Webhooks
-- E-commerce
+- Webhook
+- E-Commerce
 - Segmentation
 - Transactional Email
 - MCP

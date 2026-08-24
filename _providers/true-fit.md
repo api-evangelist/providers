@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -317,9 +317,9 @@ description: True Fit Corporation is an AI-powered fit and sizing intelligence p
 image: https://cdn.prod.website-files.com/64ee50f98275d03e3242bdef/69d410679088692a9df73243_256px%20webclip.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: true-fit-mcp.yml
-  slug: true-fit-mcpyml
+- description: True Fit publicly markets a "Fit Intelligence Layer via MCP" as one of its activation paths, described in section 7 of its own technical specification. NO public MCP endpoint, tools/list manifest, reg
+  name: True Fit MCP Server
+  slug: true-fit-mcp-server
 modified: '2026-08-05'
 name: True Fit
 nav: Providers
@@ -332,7 +332,7 @@ random_paper: 18
 score:
   band: developing
   composite: 41.8
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -342,7 +342,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 45.3
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,8 +353,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/screenshots/true-fit-2026-08-17T082444.png
 security:
@@ -378,6 +378,6 @@ tags:
 - Personalization
 - Artificial Intelligence
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 website: https://www.truefit.com/
 ---

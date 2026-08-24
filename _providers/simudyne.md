@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API and Python SDK for tick-level synthetic market data — L1 quotes, L2 order book depth, trades, and individual order events at millisecond resolution, returned as Polars DataFrames. Free tier a
@@ -117,7 +117,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 25.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -127,15 +127,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 26.7
+  previous_composite: 25.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -153,8 +153,8 @@ tags:
 - Agent-Based Modeling
 - Synthetic Data
 - Market Data
-- Financial Services
-- Machine Learning
+- Financial-Services
+- Machine-Learning
 - Developer SDK
 website: https://simudyne.com/
 ---

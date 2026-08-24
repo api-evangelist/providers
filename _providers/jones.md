@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 11.3
-  delta: -10.4
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -102,7 +102,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.7
+  previous_composite: 11.3
   provenance:
     conformance: first-party
   regulatory:
@@ -111,9 +111,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jones/refs/heads/main/screenshots/jones-2026-07-25T223239.png
 security:
 - kind: domain-security
@@ -129,8 +129,8 @@ tags:
 - COI
 - Risk Management
 - Construction
-- Real Estate
+- Real-Estate
 - Property Management
-- InsurTech
+- Insurtech
 website: https://getjones.com
 ---

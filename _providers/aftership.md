@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 6
 common:
@@ -81,7 +81,7 @@ modified: '2026-05-08'
 name: AfterShip
 nav: Providers
 network: true
-overview: AfterShip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Tracking, E-Commerce, Post-Purchase, and Notifications.
+overview: AfterShip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Tracking, E-Commerce, Post-Purchase, and Notification.
 plans:
 - name: Aftership Plans Pricing
   plan_count: 1
@@ -94,7 +94,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -104,9 +104,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/screenshots/aftership-2026-06-20T165736.png
 security:
@@ -128,6 +128,6 @@ tags:
 - Tracking
 - E-Commerce
 - Post-Purchase
-- Notifications
+- Notification
 website: https://www.aftership.com/
 ---

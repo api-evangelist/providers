@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -368,8 +368,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: bloomberg-mcp.yml
-  slug: bloomberg-mcpyml
+  name: Bloomberg MCP Server
+  slug: bloomberg-mcp-server
 modified: '2026-06-20'
 name: Bloomberg
 nav: Providers
@@ -419,18 +419,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 64.5
-  delta: -2.9
+  composite: 65.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 69.2
     developer_ergonomics: 70.8
     discoverability: 83.3
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 36.8
-  previous_composite: 67.4
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -447,8 +447,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
 security:
@@ -471,7 +471,7 @@ tags:
 - Data License
 - Enterprise
 - Execution Management
-- Financial Services
+- Financial-Services
 - Market Data
 - News
 - Quantitative Analysis

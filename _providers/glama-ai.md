@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: OpenAI-compatible LLM gateway exposing 90+ models from OpenAI, Anthropic, Google, DeepSeek, Mistral, xAI, Moonshot, Alibaba (Qwen), Cohere, and Perplexity behind a single base URL (`https://gateway.gl
@@ -221,7 +221,7 @@ modified: '2026-05-25'
 name: Glama
 nav: Providers
 network: true
-overview: 'Glama publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Artificial Intelligence, MCP, Model Context Protocol, and LLM Gateway.
+overview: 'Glama publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, MCP, LLM Gateway, MCP Gateway, and MCP Marketplace.
 
 
   Glama''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, support, and 27 more developer resources.'
@@ -229,7 +229,7 @@ random_paper: 5
 score:
   band: thin
   composite: 30.3
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -239,9 +239,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 29.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 30.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glama-ai/refs/heads/main/screenshots/glama-ai-2026-06-20T181858.png
 security:
@@ -251,16 +251,14 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: glama-ai
 tags:
-- AI
 - Artificial Intelligence
 - MCP
-- Model Context Protocol
 - LLM Gateway
 - MCP Gateway
 - MCP Marketplace
 - AI Workspace
 - Multi-Provider
-- OAuth
+- Authentication
 - Observability
 website: https://glama.ai
 ---

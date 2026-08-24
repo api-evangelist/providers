@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-04-28'
 name: pandas
 nav: Providers
 network: true
-overview: 'pandas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Analysis, Data Science, Library, Open Source, and Python.
+overview: 'pandas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Analysis, Data Science, Library, Open-Source, and Python.
 
 
   pandas'' developer surface includes documentation, getting-started guide, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 1
 score:
   band: minimal
   composite: 7.6
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -86,15 +86,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 10.5
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandas/refs/heads/main/screenshots/pandas-2026-06-20T191331.png
 security:
@@ -107,7 +107,7 @@ tags:
 - Data Analysis
 - Data Science
 - Library
-- Open Source
+- Open-Source
 - Python
 website: https://pandas.pydata.org/
 ---

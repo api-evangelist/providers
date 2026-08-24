@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 66
 apis:
 - description: The Admin API from Parcha — 14 operation(s) for admin.
@@ -564,8 +564,8 @@ image: https://cdn.prod.website-files.com/67d06659dce0778533c88620/686ea152ac77e
 layout: provider
 mcp_servers:
 - description: ''
-  name: parcha-mcp.yml
-  slug: parcha-mcpyml
+  name: Parcha MCP Server
+  slug: parcha-mcp-server
 modified: '2026-07-20'
 name: Parcha
 nav: Providers
@@ -581,7 +581,7 @@ random_paper: 14
 score:
   band: developing
   composite: 50.1
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -591,7 +591,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 54.5
+  previous_composite: 50.1
   provenance:
     conformance: derived
     contracts:
@@ -601,8 +601,8 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/screenshots/parcha-2026-08-07T191435.png
 security:
@@ -629,7 +629,7 @@ tags:
 - AML
 - Sanctions Screening
 - Identity Verification
-- Financial Services
+- Financial-Services
 - Artificial Intelligence
 website: https://www.parcha.ai/
 ---

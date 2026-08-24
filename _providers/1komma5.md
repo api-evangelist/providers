@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -321,8 +321,8 @@ image: https://1komma5.com/icon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: 1komma5-mcp.yml
-  slug: 1komma5-mcpyml
+  name: 1KOMMA5° MCP Server
+  slug: 1komma5-mcp-server
 modified: '2026-08-02'
 name: 1KOMMA5°
 nav: Providers
@@ -340,7 +340,7 @@ scopes:
 score:
   band: thin
   composite: 38.4
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -350,7 +350,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 5.3
-  previous_composite: 36.9
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -367,8 +367,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/screenshots/1komma5-2026-08-07T160650.png
 security:

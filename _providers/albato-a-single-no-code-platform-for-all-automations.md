@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -275,13 +275,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: albato-a-single-no-code-platform-for-all-automations-mcp.yml
-  slug: albato-a-single-no-code-platform-for-all-automations-mcpyml
+  name: Albato A Single No Code Platform For All Automations MCP Server
+  slug: albato-a-single-no-code-platform-for-all-automations-mcp-server
 modified: '2026-06-20'
 name: Albato A Single No Code Platform For All Automations
 nav: Providers
 network: true
-overview: 'Albato A Single No Code Platform For All Automations publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Automations API, Connections API, and 2 more. Tagged areas include No-Code Automation, Workflow Automation, App Integration, Embedded iPaaS, and Integrations.
+overview: 'Albato A Single No Code Platform For All Automations publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Automations API, Connections API, and 2 more. Tagged areas include No-Code Automation, Workflow-Automation, App Integration, Embedded iPaaS, and Integration.
 
 
   The Albato A Single No Code Platform For All Automations catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -331,18 +331,18 @@ rules:
   slug: albato-spectral-rules
 score:
   band: developing
-  composite: 46.9
-  delta: -4.6
+  composite: 47.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 71.2
     developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 7.9
-  previous_composite: 51.5
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,8 +352,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/screenshots/albato-a-single-no-code-platform-for-all-automations-2026-07-25T195539.png
 security:
@@ -372,11 +372,11 @@ security:
 slug: albato-a-single-no-code-platform-for-all-automations
 tags:
 - No-Code Automation
-- Workflow Automation
+- Workflow-Automation
 - App Integration
 - Embedded iPaaS
-- Integrations
-- Webhooks
+- Integration
+- Webhook
 use_cases:
 - description: Sync leads between CRM systems and marketing tools, automate follow-up sequences, and route prospects based on custom conditions.
   name: CRM and Marketing Automation

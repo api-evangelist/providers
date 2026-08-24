@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,9 +169,9 @@ description: 'Energy Queensland Limited is the Queensland Government-owned corpo
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/energy-queensland.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: energy-queensland-mcp.yml
-  slug: energy-queensland-mcpyml
+- description: A candidate MCP tool surface for the Ergon Energy Retail CDR APIs. Four tools are anonymously callable today by anyone; the remaining twenty-three would require the MCP server itself to hold ACCC data
+  name: Energy Queensland MCP Server
+  slug: energy-queensland-mcp-server
 modified: '2026-07-27'
 name: Energy Queensland
 nav: Providers
@@ -193,7 +193,7 @@ scopes:
 score:
   band: developing
   composite: 44.8
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -203,7 +203,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 42.1
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -220,8 +220,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/screenshots/energy-queensland-2026-08-07T164903.png
 security:

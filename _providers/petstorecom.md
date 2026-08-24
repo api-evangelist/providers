@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-facing commerce endpoint for the Petstore.com Shopify store, implemented via the Universal Commerce Protocol (UCP) over MCP — catalog search, cart, and buyer-approved checkout.
@@ -114,14 +114,14 @@ description: Petstore.com is an online pet-supplies store built on Shopify that 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/petstorecom.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: petstorecom-mcp.yml
-  slug: petstorecom-mcpyml
+- description: Petstore.com's agent-facing commerce endpoint, implemented via the Universal Commerce Protocol (UCP) over MCP. Lets agents search the catalog, build a cart, and drive a buyer-approved checkout on this
+  name: Petstore.com MCP Server
+  slug: petstorecom-mcp-server
 modified: '2026-07-20'
 name: Petstore.com
 nav: Providers
 network: true
-overview: 'Petstore.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-commerce, Retail, and Pet Supplies.
+overview: 'Petstore.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Retail, and Pet Supplies.
 
 
   Petstore.com''s developer surface includes documentation, authentication, support, engineering blog, signup flow, and 13 more developer resources.'
@@ -133,24 +133,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.7
-  delta: -0.5
+  composite: 23.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.2
+  previous_composite: 23.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -165,7 +165,7 @@ slug: petstorecom
 tags:
 - Company
 - Commerce
-- E-commerce
+- E-Commerce
 - Retail
 - Pet Supplies
 - Agentic Commerce

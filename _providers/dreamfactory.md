@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -333,16 +333,16 @@ rules:
   slug: dreamfactory-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.0
-  delta: -4.5
+  composite: 43.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 78.5
     developer_ergonomics: 28.6
     discoverability: 72.2
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 13.2
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -350,7 +350,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 47.5
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -358,8 +358,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/screenshots/dreamfactory-2026-06-20T180322.png
 security:

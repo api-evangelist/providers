@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -307,8 +307,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: us-dot-mcp.yml
-  slug: us-dot-mcpyml
+  name: U.S. Department of Transportation MCP Server
+  slug: us-department-of-transportation-mcp-server
 modified: '2026-07-28'
 name: U.S. Department of Transportation
 nav: Providers
@@ -324,7 +324,7 @@ random_paper: 16
 score:
   band: developing
   composite: 52.6
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -334,7 +334,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 48.6
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,8 +351,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/screenshots/us-dot-2026-08-17T082655.png
 security:

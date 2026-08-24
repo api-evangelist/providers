@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -340,9 +340,9 @@ jsonld:
   slug: snov-io-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: snov-io-mcp.yml
-  slug: snov-io-mcpyml
+- description: Snov.io ships a first-party REMOTE Model Context Protocol server at https://mcp.snov.io/mcp. It is a hosted HTTP endpoint an MCP client POSTs to directly — there is no npx package, no stdio binary and
+  name: Snov.io Outreach MCP Server
+  slug: snovio-outreach-mcp-server
 modified: '2026-08-13'
 name: Snov.io
 nav: Providers
@@ -371,7 +371,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.0
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -381,7 +381,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 72.0
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -392,8 +392,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/screenshots/snov-io-2026-06-20T194107.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ modified: '2026-05-19'
 name: Relay App
 nav: Providers
 network: true
-overview: 'Relay App publishes 3 APIs on the [APIs.io](https://apis.io/) network: Runs API, Webhooks API, and Workflows API. Tagged areas include Automation, Workflow, Integration, No-Code, and AI.
+overview: 'Relay App publishes 3 APIs on the [APIs.io](https://apis.io/) network: Runs API, Webhooks API, and Workflows API. Tagged areas include Automation, Workflows, Integration, No-Code, and Artificial Intelligence.
 
 
   The Relay App catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -186,18 +186,18 @@ rules:
   slug: relay-app-rules
 score:
   band: thin
-  composite: 37.4
-  delta: -6.6
+  composite: 37.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 71.3
     developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 44.0
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -205,9 +205,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/screenshots/relay-app-2026-06-20T192825.png
 security:
 - kind: authentication
@@ -221,10 +221,10 @@ security:
 slug: relay-app
 tags:
 - Automation
-- Workflow
+- Workflows
 - Integration
 - No-Code
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 website: https://www.relay.app
 ---

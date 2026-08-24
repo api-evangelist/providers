@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -332,8 +332,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-cloud-map-mcp.yml
-  slug: amazon-cloud-map-mcpyml
+  name: Amazon Cloud Map MCP Server
+  slug: amazon-cloud-map-mcp-server
 modified: '2026-06-20'
 name: Amazon Cloud Map
 nav: Providers
@@ -370,18 +370,18 @@ rules:
   slug: amazon-cloud-map-spectral-rules
 score:
   band: developing
-  composite: 40.8
-  delta: -5.0
+  composite: 41.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 30.4
     developer_ergonomics: 45.2
     discoverability: 83.3
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 18.4
-  previous_composite: 45.8
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -391,9 +391,9 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/screenshots/amazon-cloud-map-2026-07-25T195942.png
 security:
 - kind: authentication

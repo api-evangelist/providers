@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Cresta's production API host. https://api.cresta.com resolves and answers anonymously with a gRPC-JSON transcoding gateway error envelope ({"code":2,"httpStatus":500,"message":"the requested gRPC meth
@@ -287,7 +287,7 @@ modified: '2026-08-14'
 name: Cresta
 nav: Providers
 network: true
-overview: 'Cresta publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Artificial Intelligence, Contact Center, Contact Center AI, and CCaaS.
+overview: 'Cresta publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Contact Center, Contact Center AI, CCaaS, and Customer Experience.
 
 
   The Cresta catalog on APIs.io includes 1 JSON-LD context.
@@ -306,7 +306,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.4
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -316,12 +316,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 32.3
+  previous_composite: 31.4
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/screenshots/cresta-2026-06-20T175228.png
 security:
@@ -339,7 +339,6 @@ security:
   summary_line: ISO/IEC 42001, SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, GDPR, TISAX, CCPA
 slug: cresta
 tags:
-- AI
 - Artificial Intelligence
 - Contact Center
 - Contact Center AI

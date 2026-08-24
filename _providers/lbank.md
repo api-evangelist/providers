@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ rules:
 score:
   band: developing
   composite: 44.8
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 25.0
     operational_transparency: 34.2
-  previous_composite: 51.0
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -240,9 +240,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/screenshots/lbank-2026-06-20T184341.png
 security:
 - kind: authentication

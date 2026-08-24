@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -251,18 +251,18 @@ rules:
   slug: telefonie-rules
 score:
   band: thin
-  composite: 36.0
-  delta: -15.4
+  composite: 36.4
+  delta: 0.0
   facets:
     access_clarity: 19.7
     commercial_clarity: 19.7
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.7
     developer_ergonomics: 25.0
     discoverability: 81.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 51.4
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -276,9 +276,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/screenshots/telefonie-2026-06-20T195029.png
 security:
 - kind: authentication

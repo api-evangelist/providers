@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -246,8 +246,8 @@ image: https://www.icanbwell.com/wp-content/uploads/2023/01/bwell-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: b-well-mcp.yml
-  slug: b-well-mcpyml
+  name: b.well MCP Server
+  slug: bwell-mcp-server
 modified: '2026-08-15'
 name: b.well
 nav: Providers
@@ -276,7 +276,7 @@ scopes:
 score:
   band: strong
   composite: 58.4
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -286,7 +286,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 61.9
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,8 +303,8 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/screenshots/b-well-2026-08-07T162052.png
 security:
@@ -335,6 +335,6 @@ tags:
 - Interoperability
 - Patient Access
 - Health Records
-- Model Context Protocol
+- MCP
 website: https://www.icanbwell.com/
 ---

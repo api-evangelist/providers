@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Spear is a developer platform focused on API development workflows, providing tools for API design, collaboration, and delivery through a unified workspace experience.
@@ -105,7 +105,7 @@ rules:
 score:
   band: emerging
   composite: 13.9
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -121,10 +121,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 20.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 13.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spear/refs/heads/main/screenshots/spear-2026-06-20T194252.png
 security:
 - kind: domain-security

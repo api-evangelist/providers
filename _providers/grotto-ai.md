@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -116,7 +116,7 @@ modified: '2026-08-14'
 name: Grotto AI
 nav: Providers
 network: true
-overview: 'Grotto AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Multifamily, Leasing, and Sales Coaching.
+overview: 'Grotto AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Multifamily, Leasing, and Sales Coaching.
 
 
   Grotto AI''s developer surface includes engineering blog and 14 more developer resources.'
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -142,9 +142,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grotto-ai/refs/heads/main/screenshots/grotto-ai-2026-07-25T220338.png
 security:
@@ -159,12 +159,12 @@ security:
 slug: grotto-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Multifamily
 - Leasing
 - Sales Coaching
 - PropTech
-- Real Estate
+- Real-Estate
 - Conversation Intelligence
 website: https://grotto.ai/
 ---

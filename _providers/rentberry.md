@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 46
 apis:
 - description: 'Open-source gRPC geocoding and timezone-lookup service Rentberry built and runs for its own property search, with published proto3 definitions and PHP client bindings on Packagist. Two services: Geoco'
@@ -435,31 +435,31 @@ image: https://cdn.rentberry.com/files/seo/main.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: rentberry-mcp.yml
-  slug: rentberry-mcpyml
+  name: Rentberry MCP Server
+  slug: rentberry-mcp-server
 modified: '2026-08-02'
 name: Rentberry
 nav: Providers
 network: true
-overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Breadcrumbs API, and 42 more. Tagged areas include real-estate, proptech, rentals, rental-marketplace, and property-management.
+overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Breadcrumbs API, and 42 more. Tagged areas include Real-Estate, PropTech, Rentals, Rental Marketplace, and Property Management.
 
 
   Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 42.2
-  delta: 1.5
+  composite: 40.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 46.0
     developer_ergonomics: 54.2
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 40.7
+  previous_composite: 40.4
   provenance:
     conformance: derived
     contracts:
@@ -475,8 +475,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -489,17 +489,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: rentberry
 tags:
-- real-estate
-- proptech
-- rentals
-- rental-marketplace
-- property-management
-- tenant-screening
-- e-signature
-- payments
-- listings
-- search
-- geocoding
-- marketplace
+- Real-Estate
+- PropTech
+- Rentals
+- Rental Marketplace
+- Property Management
+- Tenant Screening
+- E-Signature
+- Payments
+- Listings
+- Search
+- Geocoding
+- Marketplace
 website: https://rentberry.com/
 ---

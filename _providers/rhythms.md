@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -209,13 +209,13 @@ image: https://www.rhythms.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: rhythms-mcp.yml
-  slug: rhythms-mcpyml
+  name: Rhythms MCP Server
+  slug: rhythms-mcp-server
 modified: '2026-07-21'
 name: Rhythms
 nav: Providers
 network: true
-overview: 'Rhythms publishes 13 APIs on the [APIs.io](https://apis.io/) network, including access_requests API, chat_refresh_threads API, connector_requests API, and 10 more. Tagged areas include Company, Ai, Productivity, Goal Tracking, and OKR.
+overview: 'Rhythms publishes 13 APIs on the [APIs.io](https://apis.io/) network, including access_requests API, chat_refresh_threads API, connector_requests API, and 10 more. Tagged areas include Company, Artificial Intelligence, Productivity, Goal Tracking, and OKR.
 
 
   Rhythms'' developer surface includes authentication, signup flow, pricing, engineering blog, support, and 15 more developer resources.'
@@ -223,7 +223,7 @@ random_paper: 6
 score:
   band: thin
   composite: 30.0
-  delta: -8.8
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -233,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 38.8
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,9 +244,9 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Rhythms Authentication
@@ -263,11 +263,11 @@ security:
 slug: rhythms
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Productivity
 - Goal Tracking
 - OKR
-- Workflow Automation
+- Workflow-Automation
 - Team Collaboration
 - Business Reviews
 - MCP

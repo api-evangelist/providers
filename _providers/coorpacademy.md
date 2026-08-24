@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: Manages the Coorpacademy content repository per brand — external courses and external contents, skills and custom skills, certifications and certification snapshots, custom playlists, bulk external co
@@ -171,7 +171,7 @@ modified: '2026-08-17'
 name: Coorpacademy
 nav: Providers
 network: true
-overview: 'Coorpacademy publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Content API, Platform API, Progression API, and 11 more. Tagged areas include Company, Saas, corporate-learning, lms, and learning-experience-platform.
+overview: 'Coorpacademy publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Content API, Platform API, Progression API, and 11 more. Tagged areas include Company, Software-as-a-Service, Corporate Learning, LMS, and Learning Experience Platform.
 
 
   The Coorpacademy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,6 +190,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.6
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -199,6 +200,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
+  previous_composite: 46.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -209,8 +211,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Coorpacademy Authentication
@@ -223,21 +226,21 @@ security:
 slug: coorpacademy
 tags:
 - Company
-- Saas
-- corporate-learning
-- lms
-- learning-experience-platform
-- edtech
-- elearning
-- scorm
+- Software-as-a-Service
+- Corporate Learning
+- LMS
+- Learning Experience Platform
+- EdTech
+- E-Learning
+- SCORM
 - h5p
-- scim
-- user-provisioning
-- learning-analytics
-- skills
-- certifications
-- gamification
-- france
-- switzerland
+- SCIM
+- User Provisioning
+- Learning Analytics
+- Skills
+- Certifications
+- Gamification
+- France
+- Switzerland
 website: https://www.coorpacademy.com/
 ---

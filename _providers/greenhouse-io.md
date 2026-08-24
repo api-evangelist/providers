@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -489,7 +489,7 @@ modified: '2026-05-25'
 name: Greenhouse
 nav: Providers
 network: true
-overview: 'Greenhouse publishes 25 APIs on the [APIs.io](https://apis.io/) network, including ActivityFeed API, Applications API, Approvals API, and 22 more. Tagged areas include ATS, Recruiting, Hiring, Talent Acquisition, and Enterprise SaaS.
+overview: 'Greenhouse publishes 25 APIs on the [APIs.io](https://apis.io/) network, including ActivityFeed API, Applications API, Approvals API, and 22 more. Tagged areas include ATS, Recruiting, Hiring, Talent Acquisition, and Enterprise Saas.
 
 
   The Greenhouse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -523,18 +523,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 52.1
-  delta: -9.4
+  composite: 51.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 9.8
     contract_quality: 67.4
     developer_ergonomics: 38.1
-    discoverability: 59.3
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 61.5
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     contracts:
@@ -542,9 +542,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/screenshots/greenhouse-io-2026-06-20T182402.png
 security:
 - kind: authentication
@@ -569,7 +569,7 @@ tags:
 - Recruiting
 - Hiring
 - Talent Acquisition
-- Enterprise SaaS
+- Enterprise Saas
 - Human Resources
 - Onboarding
 website: https://www.greenhouse.com

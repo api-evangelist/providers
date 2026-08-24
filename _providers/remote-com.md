@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -690,9 +690,9 @@ jsonld:
   slug: remote-com-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: remote-com-mcp.yml
-  slug: remote-com-mcpyml
+- description: 'Remote.com''s official MCP server lets MCP-standard AI agents act on Remote data. Authentication is OAuth 2.0 Authorization Code with PKCE through the normal Remote browser sign-in with Dynamic Client '
+  name: Remote MCP Server
+  slug: remote-mcp-server
 modified: '2026-06-20'
 name: Remote
 nav: Providers
@@ -753,18 +753,18 @@ scopes:
   summary_line: 74 scopes · authorizationCode/clientCredentials/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: exemplar
-  composite: 70.1
-  delta: -3.6
+  composite: 70.4
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 71.5
     developer_ergonomics: 73.8
     discoverability: 75.9
-    governance: 43.2
+    governance: 45.5
     operational_transparency: 68.4
-  previous_composite: 73.7
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -774,8 +774,8 @@ score:
       marker_coverage: 0.0
       total: 39
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/screenshots/remote-com-2026-06-20T192847.png
 security:

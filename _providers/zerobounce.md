@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -240,9 +240,9 @@ description: ZeroBounce is an email validation and deliverability platform that 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zerobounce.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: zerobounce-mcp.yml
-  slug: zerobounce-mcpyml
+- description: Official ZeroBounce Model Context Protocol server. Exposes ZeroBounce email validation, AI scoring, email finder, domain search, activity data, credit and bulk-file operations as MCP tools for AI codi
+  name: ZeroBounce MCP Server
+  slug: zerobounce-mcp-server
 modified: '2026-08-13'
 name: ZeroBounce
 nav: Providers
@@ -266,7 +266,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 69.5
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -276,7 +276,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 84.2
-  previous_composite: 70.9
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,8 +287,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/screenshots/zerobounce-2026-08-17T083321.png
 security:

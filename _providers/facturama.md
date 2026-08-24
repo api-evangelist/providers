@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for generating, stamping, downloading, and cancelling CFDI 4.0 electronic invoices, payroll receipts, payment complements, and related Mexican tax documents, plus management of clients, produ
@@ -134,7 +134,7 @@ modified: '2026-07-19'
 name: Facturama
 nav: Providers
 network: true
-overview: 'Facturama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electronic Invoicing, CFDI, e-Invoicing, and Mexico.
+overview: 'Facturama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electronic Invoicing, CFDI, E-Invoicing, and Mexico.
 
 
   Facturama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
@@ -142,7 +142,7 @@ random_paper: 3
 score:
   band: thin
   composite: 33.3
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -152,11 +152,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.6
+  previous_composite: 33.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/screenshots/facturama-2026-07-25T214144.png
 security:
@@ -173,7 +173,7 @@ tags:
 - Company
 - Electronic Invoicing
 - CFDI
-- e-Invoicing
+- E-Invoicing
 - Mexico
 - Tax Compliance
 - SAT

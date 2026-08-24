@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -202,13 +202,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: cashplus-mcp.yml
-  slug: cashplus-mcpyml
+  name: Cashplus Bank MCP Server
+  slug: cashplus-bank-mcp-server
 modified: '2026-07-23'
 name: Cashplus Bank
 nav: Providers
 network: true
-overview: 'Cashplus Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cashplus Account Information API, Cashplus Payment Initiation API, and Cashplus Confirmation of Funds API. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Cashplus Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cashplus Account Information API, Cashplus Payment Initiation API, and Cashplus Confirmation of Funds API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 26 more developer resources.'
@@ -221,7 +221,7 @@ scopes:
 score:
   band: developing
   composite: 43.1
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 39.0
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +248,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/screenshots/cashplus-2026-07-25T204726.png
 security:
@@ -263,7 +263,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: cashplus
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

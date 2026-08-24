@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -399,7 +399,7 @@ modified: '2026-05-25'
 name: Tibber
 nav: Providers
 network: true
-overview: 'Tibber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Devices API, History API, and 1 more. Tagged areas include Energy, SmartHome, SmartMeter, ElectricityPricing, and ElectricVehicleCharging.
+overview: 'Tibber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Devices API, History API, and 1 more. Tagged areas include Energy, Smart Home, Smart Meter, ElectricityPricing, and Electric Vehicle Charging.
 
 
   The Tibber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -444,18 +444,18 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.0
-  delta: -0.4
+  composite: 67.5
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.6
     developer_ergonomics: 57.1
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 67.4
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     contracts:
@@ -469,8 +469,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:
@@ -492,15 +492,15 @@ solutions:
   name: Tibber Grid Services (Sweden)
 tags:
 - Energy
-- SmartHome
-- SmartMeter
+- Smart Home
+- Smart Meter
 - ElectricityPricing
-- ElectricVehicleCharging
+- Electric Vehicle Charging
 - HeatPump
 - SolarInverter
-- HomeBattery
+- Home Battery
 - GraphQL
-- OAuth2
+- Authentication
 - Nordic
 use_cases:
 - description: Build personal or third-party dashboards combining hourly prices, hourly consumption, and live Pulse data.

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API providing programmatic access to people, companies, locations, employments, compensation, time-off, paystubs, and journal data inside a Zenefits account. Authentication uses OAuth 2.0 with sc
@@ -107,8 +107,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 17.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenefits/refs/heads/main/screenshots/zenefits-2026-06-20T201818.png
 security:

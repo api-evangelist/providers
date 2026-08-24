@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-05-19'
 name: WATI
 nav: Providers
 network: true
-overview: 'WATI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Contacts API, Messages API, and Templates API. Tagged areas include WhatsApp, Messaging, Customer Engagement, Chatbot, and Business Communication.
+overview: 'WATI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Contacts API, Messages API, and Templates API. Tagged areas include WhatsApp, Messaging, Customer Engagement, Chatbots, and Business Communication.
 
 
   WATI''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
@@ -145,7 +145,7 @@ random_paper: 17
 score:
   band: thin
   composite: 33.3
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -155,7 +155,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 37.0
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/screenshots/wati-2026-06-20T201254.png
 security:
@@ -185,7 +185,7 @@ tags:
 - WhatsApp
 - Messaging
 - Customer Engagement
-- Chatbot
+- Chatbots
 - Business Communication
 - CRM
 website: https://www.wati.io

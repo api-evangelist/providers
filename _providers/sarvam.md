@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -210,14 +210,14 @@ description: Sarvam AI is an Indian-language AI platform offering a unified REST
 image: https://avatars.githubusercontent.com/u/139587482?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: sarvam-mcp.yml
-  slug: sarvam-mcpyml
+- description: Sarvam's official hosted MCP server exposing live documentation search for AI clients (Claude Code, Cursor, etc.). Advertised across the docs and in llms.txt.
+  name: Sarvam MCP Server
+  slug: sarvam-mcp-server
 modified: '2026-07-21'
 name: Sarvam
 nav: Providers
 network: true
-overview: 'Sarvam publishes 8 APIs on the [APIs.io](https://apis.io/) network, including chat API, documentIntelligence API, pronunciationDictionary API, and 5 more. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine Learning, and Speech To Text.
+overview: 'Sarvam publishes 8 APIs on the [APIs.io](https://apis.io/) network, including chat API, documentIntelligence API, pronunciationDictionary API, and 5 more. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine-Learning, and Speech-to-Text.
 
 
   The Sarvam catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -228,7 +228,7 @@ random_paper: 20
 score:
   band: developing
   composite: 50.8
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -238,7 +238,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 54.1
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +249,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/screenshots/sarvam-2026-08-17T081726.png
 security:
@@ -267,9 +267,9 @@ tags:
 - Company
 - Ai Ml
 - Artificial Intelligence
-- Machine Learning
-- Speech To Text
-- Text To Speech
+- Machine-Learning
+- Speech-to-Text
+- Text-to-Speech
 - Translation
 - Large Language Models
 - Document Intelligence

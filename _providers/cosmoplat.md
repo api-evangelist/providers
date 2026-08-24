@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The 物联开发平台 (IoT development platform) API published by COSMOPlat as the "OpenApi-线上" reference. Twenty-six documented operations across product management, device management, alarm rules, alarm record
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.0
-  delta: -13.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -191,7 +191,7 @@ score:
     discoverability: 77.8
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 44.0
+  previous_composite: 31.0
   provenance:
     conformance: derived
     contracts:
@@ -201,9 +201,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/screenshots/cosmoplat-2026-08-17T123144.png
 security:
 - kind: authentication

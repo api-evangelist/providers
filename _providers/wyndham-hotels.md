@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: www.wyndhambusiness.com — the Wyndham Business corporate-travel program site — runs WordPress on WP Engine behind Cloudflare and leaves the standard WordPress REST API anonymously readable at /wp-json
@@ -219,8 +219,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: wyndham-hotels-mcp.yml
-  slug: wyndham-hotels-mcpyml
+  name: Wyndham Hotels & Resorts MCP Server
+  slug: wyndham-hotels-resorts-mcp-server
 modified: '2026-07-28'
 name: Wyndham Hotels & Resorts
 nav: Providers
@@ -238,7 +238,7 @@ scopes:
 score:
   band: emerging
   composite: 21.7
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -248,12 +248,12 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 23.8
+  previous_composite: 21.7
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

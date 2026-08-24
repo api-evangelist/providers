@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The read/write REST interface a Snapchain node serves on port 3381 under the /v1 path. Read endpoints (casts, reactions, links, user data, verifications, fids, username proofs, storage limits, on-chai
@@ -105,7 +105,7 @@ random_paper: 11
 score:
   band: thin
   composite: 28.6
-  delta: 7.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -115,10 +115,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  previous_composite: 28.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merkle-manufactory-inc/refs/heads/main/screenshots/merkle-manufactory-inc-2026-08-07T172606.png
 security:
 - kind: authentication

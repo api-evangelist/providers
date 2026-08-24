@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -591,19 +591,19 @@ scopes:
   slug: sap-bi-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 39.1
-  delta: -5.1
+  band: developing
+  composite: 39.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 63.5
     developer_ergonomics: 28.6
     discoverability: 66.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 44.2
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -611,9 +611,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/screenshots/sap-bi-2026-06-20T193416.png
 security:
 - kind: authentication

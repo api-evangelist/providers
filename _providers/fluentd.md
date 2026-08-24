@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-05-19'
 name: Fluentd
 nav: Providers
 network: true
-overview: 'Fluentd publishes 2 APIs on the [APIs.io](https://apis.io/) network: Forward Protocol and Events API. Tagged areas include Data Collection, Logging, and Open Source.
+overview: 'Fluentd publishes 2 APIs on the [APIs.io](https://apis.io/) network: Forward Protocol and Events API. Tagged areas include Data Collection, Logging, and Open-Source.
 
 
   The Fluentd catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -209,18 +209,18 @@ rules:
   slug: fluentd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.1
-  delta: -6.4
+  composite: 35.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 61.7
     developer_ergonomics: 28.6
     discoverability: 46.3
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 41.5
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -228,9 +228,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/screenshots/fluentd-2026-06-20T181334.png
 security:
 - kind: domain-security
@@ -241,6 +241,6 @@ slug: fluentd
 tags:
 - Data Collection
 - Logging
-- Open Source
+- Open-Source
 website: https://www.fluentd.org/
 ---

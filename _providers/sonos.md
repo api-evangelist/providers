@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Cloud-based REST API for controlling Sonos players and groups: playback, volume, grouping, favorites, playlists, home theater, audio clips, and cloud-queue playback sessions, with OAuth 2.0 auth and e'
@@ -130,9 +130,9 @@ description: Sonos is a consumer audio company whose wireless home-sound systems
 image: https://www.sonos.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sonos-mcp.yml
-  slug: sonos-mcpyml
+- description: Sonos does not operate an official hosted MCP server (none found in the docs, the @modelcontextprotocol registry, or the sonos GitHub org). This is a CANDIDATE tool list derived from the confirmed Con
+  name: Sonos MCP Server
+  slug: sonos-mcp-server
 modified: '2026-07-21'
 name: Sonos
 nav: Providers
@@ -153,7 +153,7 @@ scopes:
 score:
   band: thin
   composite: 32.0
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -163,14 +163,14 @@ score:
     discoverability: 79.6
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 38.4
+  previous_composite: 32.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Sonos Authentication

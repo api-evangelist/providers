@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Toutiao account OAuth 2.0 and user-profile API, served from the open.snssdk.com host and documented on the Douyin Open Platform under the toutiao-or-xigua permission section. Supports the authorizatio
@@ -132,7 +132,7 @@ scopes:
 score:
   band: emerging
   composite: 22.6
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -142,11 +142,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 22.6
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -168,6 +168,6 @@ tags:
 - Publishing
 - ByteDance
 - China
-- OAuth
+- Authentication
 website: https://www.toutiao.com/
 ---

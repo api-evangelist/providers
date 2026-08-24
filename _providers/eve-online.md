@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -685,7 +685,7 @@ modified: '2026-05-30'
 name: EVE Online
 nav: Providers
 network: true
-overview: 'EVE Online publishes 46 APIs on the [APIs.io](https://apis.io/) network, including agent API, Alliance API, Assets API, and 43 more. Tagged areas include Authentication, Authorization, Gaming, Images, and MMO.
+overview: 'EVE Online publishes 46 APIs on the [APIs.io](https://apis.io/) network, including agent API, Alliance API, Assets API, and 43 more. Tagged areas include Authentication, Authorization, Gaming, Image, and MMO.
 
 
   The EVE Online catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -722,18 +722,18 @@ scopes:
   summary_line: 63 scopes · implicit
 score:
   band: developing
-  composite: 41.3
-  delta: -7.7
+  composite: 40.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 57.9
     developer_ergonomics: 64.3
-    discoverability: 59.3
-    governance: 9.8
+    discoverability: 50.0
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 49.0
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -741,9 +741,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png
 security:
 - kind: authentication
@@ -763,9 +763,8 @@ tags:
 - Authentication
 - Authorization
 - Gaming
-- Images
+- Image
 - MMO
-- OAuth2
 - REST
 - SSO
 - Static Data

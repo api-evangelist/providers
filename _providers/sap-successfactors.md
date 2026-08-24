@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: SAP SuccessFactors HXM Suite OData API
   slug: open-sap-successfactors
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,14 +154,14 @@ created: '2026-05-11'
 description: SAP SuccessFactors is a cloud-based human capital management (HCM) suite that covers core HR, payroll, talent management, learning, recruiting, performance, and workforce analytics for enterprises. The SuccessFactors HXM Suite OData APIs (v2 and v4) provide CRUD access to Employee Central, Recruiting, Onboarding, Learning, and other HCM modules using OAuth 2.0 or HTTP Basic authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sap-successfactors.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-08-21'
 name: SAP SuccessFactors
 nav: Providers
 network: true
 overview: 'SAP SuccessFactors publishes 8 APIs on the [APIs.io](https://apis.io/) network, including EmpEmployment API, EmpJob API, FOCompany API, and 5 more. Tagged areas include HCM, HR, Human Resources, Talent Management, and Payroll.
 
 
-  SAP SuccessFactors'' developer surface includes authentication, documentation, and 9 more developer resources.'
+  SAP SuccessFactors'' developer surface includes authentication, documentation, and 10 more developer resources.'
 random_paper: 15
 scopes:
 - name: Sap Successfactors Scopes
@@ -167,7 +171,7 @@ scopes:
 score:
   band: emerging
   composite: 22.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -177,7 +181,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 24.5
+  previous_composite: 22.6
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/screenshots/sap-successfactors-2026-06-20T193430.png
 security:

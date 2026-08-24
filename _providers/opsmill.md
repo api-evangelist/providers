@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -260,13 +260,13 @@ image: https://avatars.githubusercontent.com/u/118297816?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: opsmill-mcp.yml
-  slug: opsmill-mcpyml
+  name: OpsMill MCP Server
+  slug: opsmill-mcp-server
 modified: '2026-07-20'
 name: OpsMill
 nav: Providers
 network: true
-overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Artifact API, Auth API, Config API, and 12 more. Tagged areas include Company, Infrastructure Saas, Network Automation, Source Of Truth, and Data Management.
+overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Artifact API, Auth API, Config API, and 12 more. Tagged areas include Company, Infrastructure Saas, Network Automation, Source of Truth, and Data Management.
 
 
   OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 22 more developer resources.'
@@ -274,7 +274,7 @@ random_paper: 12
 score:
   band: developing
   composite: 48.9
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -284,7 +284,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 50.8
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,8 +295,8 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/screenshots/opsmill-2026-08-07T190749.png
 security:
@@ -313,12 +313,12 @@ tags:
 - Company
 - Infrastructure Saas
 - Network Automation
-- Source Of Truth
+- Source of Truth
 - Data Management
 - GraphQL
 - DevOps
 - Configuration Management
 - AIOps
-- Open Source
+- Open-Source
 website: https://opsmill.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Morpho's public GraphQL API providing real-time and historical onchain and offchain data across Morpho Blue markets, Morpho Vaults (V1 and V2), Midnight fixed-rate markets, user positions, curators, o
@@ -155,8 +155,8 @@ image: https://evcop6xwrqrpqrf9.public.blob.vercel-storage.com/globals/morpho-th
 layout: provider
 mcp_servers:
 - description: ''
-  name: morpho-labs-mcp.yml
-  slug: morpho-labs-mcpyml
+  name: Morpho Labs MCP Server
+  slug: morpho-labs-mcp-server
 modified: '2026-07-20'
 name: Morpho Labs
 nav: Providers
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.1
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -183,13 +183,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 34.6
+  previous_composite: 33.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morpho-labs/refs/heads/main/screenshots/morpho-labs-2026-08-07T184313.png
 security:
@@ -213,8 +213,8 @@ tags:
 - Blockchain
 - Ethereum
 - GraphQL
-- Onchain Data
-- Financial Services
+- On-Chain Data
+- Financial-Services
 - Web3
 - Crypto
 website: https://morpho.org/

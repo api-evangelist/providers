@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The TypeSpec compiler processes `.tsp` TypeSpec files and emits output for configured emitters (OpenAPI, JSON Schema, Protobuf, etc.). It provides a programmatic Node.js/TypeScript API for building Ty
@@ -167,7 +167,7 @@ rules:
 score:
   band: emerging
   composite: 23.5
-  delta: -8.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -177,10 +177,10 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 32.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 23.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typespec/refs/heads/main/screenshots/typespec-2026-06-20T195906.png
 security:
 - kind: domain-security

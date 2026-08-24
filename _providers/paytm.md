@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-05-23'
 name: Paytm
 nav: Providers
 network: true
-overview: 'Paytm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Payments API and Refunds API. Tagged areas include Payments, Payment Gateway, UPI, Payouts, and Subscriptions.
+overview: 'Paytm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Payments API and Refunds API. Tagged areas include Payments, Payment Gateway, UPI, Payouts, and Subscription.
 
 
   Paytm''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 5 more developer resources.'
@@ -194,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/screenshots/paytm-2026-06-20T191508.png
 security:
@@ -213,7 +213,7 @@ tags:
 - Payment Gateway
 - UPI
 - Payouts
-- Subscriptions
+- Subscription
 - Refunds
 - Settlement
 - QR

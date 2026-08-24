@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -980,9 +980,9 @@ jsonld:
   slug: amazon-s3-tables-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: amazon-s3-mcp.yml
-  slug: amazon-s3-mcpyml
+- description: AWS Labs publishes an official Model Context Protocol server for the Amazon S3 Tables surface (awslabs.s3-tables-mcp-server), distributed on PyPI and run locally over stdio via uvx. It exposes S3 Tabl
+  name: Amazon S3 MCP Server
+  slug: amazon-s3-mcp-server
 modified: '2026-06-20'
 name: Amazon S3
 nav: Providers
@@ -1027,18 +1027,18 @@ rules:
   slug: amazon-s3-spectral-rules
 score:
   band: strong
-  composite: 60.7
-  delta: -8.8
+  composite: 61.2
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 75.6
     developer_ergonomics: 57.1
     discoverability: 85.2
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 69.5
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1048,9 +1048,9 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:
 - kind: authentication

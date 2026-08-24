@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Per-customer JSON REST API over each Uptycs stack covering alerts and alert rules, events and event rules, assets and asset groups/tags, ad-hoc and saved SQL (osquery) queries, threat indicators/sourc
@@ -118,9 +118,9 @@ description: Uptycs is a unified cloud-native application protection platform (C
 image: https://www.uptycs.com/hubfs/About%20Us%20Page%20SPI-2.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: uptycs-mcp.yml
-  slug: uptycs-mcpyml
+- description: No official Uptycs MCP server was found (docs, npm, the public MCP registries). This is a CANDIDATE tool list derived from the real Uptycs platform API surface as exercised by the official Uptycs pack
+  name: Uptycs MCP Server
+  slug: uptycs-mcp-server
 modified: '2026-07-21'
 name: Uptycs
 nav: Providers
@@ -133,7 +133,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 24.8
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -143,12 +143,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 24.5
+  previous_composite: 24.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -176,7 +176,7 @@ tags:
 - Cloud Security
 - Endpoint Security
 - Kubernetes Security
-- Osquery
+- osquery
 - Threat Detection
 - Compliance
 website: https://uptycs.com

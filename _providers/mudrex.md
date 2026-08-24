@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Programmatic control over a Mudrex futures trading account. Transfer funds between the spot and futures wallets (USDT and INR), list tradeable instruments and contract specifications, get and set leve
@@ -158,14 +158,14 @@ description: Mudrex is a US-headquartered, Bengaluru-based crypto investment and
 image: https://mudrex.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: mudrex-mcp.yml
-  slug: mudrex-mcpyml
+- description: Mudrex operates an official hosted MCP server at https://mudrex.com/mcp that converts the Mudrex Futures Trading API into MCP tools for AI assistants. Clients connect through mcp-remote and authentica
+  name: Mudrex MCP Server
+  slug: mudrex-mcp-server
 modified: '2026-08-04'
 name: Mudrex
 nav: Providers
 network: true
-overview: 'Mudrex publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Trading, Futures, and Financial Services.
+overview: 'Mudrex publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Trading, Futures, and Financial-Services.
 
 
   The Mudrex catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.0
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 54.5
+  previous_composite: 44.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -201,9 +201,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 36.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/screenshots/mudrex-2026-08-07T184429.png
 security:
 - kind: authentication
@@ -224,7 +224,7 @@ tags:
 - Cryptocurrency
 - Trading
 - Futures
-- Financial Services
+- Financial-Services
 - Fintech
 - Market Data
 - Exchange

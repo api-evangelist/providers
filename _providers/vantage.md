@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -919,18 +919,18 @@ rules:
   slug: vantage-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: -8.0
+  composite: 52.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 77.3
     developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 59.8
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     contracts:
@@ -938,9 +938,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/screenshots/vantage-2026-06-20T200813.png
 security:
 - kind: authentication

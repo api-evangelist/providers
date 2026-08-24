@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-03'
 name: Mangomint
 nav: Providers
 network: true
-overview: 'Mangomint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Salon Software, Spa Software, Scheduling, Point of Sale, and Business Management.
+overview: 'Mangomint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Salon Software, Spa Software, Scheduling, Point-of-Sale, and Business Management.
 
 
   Mangomint''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangomint/refs/heads/main/screenshots/mangomint-2026-07-25T230043.png
 security:
@@ -114,9 +114,9 @@ tags:
 - Salon Software
 - Spa Software
 - Scheduling
-- Point of Sale
+- Point-of-Sale
 - Business Management
-- Webhooks
+- Webhook
 - No Public API
 website: https://www.mangomint.com
 ---

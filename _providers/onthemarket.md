@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OnTheMarket's member-only feed API for estate-agency CRM software. It is modelled on the Rightmove Real Time Datafeed (RTDF/ADF) specification, with OnTheMarket-specific differences in request and res
@@ -128,7 +128,7 @@ modified: '2026-07-26'
 name: OnTheMarket
 nav: Providers
 network: true
-overview: 'OnTheMarket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
+overview: 'OnTheMarket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
 
 
   OnTheMarket''s developer surface includes engineering blog, support, signup flow, and 17 more developer resources.'
@@ -136,7 +136,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 16.2
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -146,11 +146,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.4
+  previous_composite: 16.2
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onthemarket/refs/heads/main/screenshots/onthemarket-2026-08-07T190422.png
 security:
@@ -160,7 +160,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: onthemarket
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Property Portal

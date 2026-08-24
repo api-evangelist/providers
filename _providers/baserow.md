@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 10
@@ -515,7 +515,7 @@ modified: '2026-06-12'
 name: Baserow
 nav: Providers
 network: true
-overview: 'Baserow publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin data scanner API, AI Assistant API, and 55 more. Tagged areas include No-Code, Database, Open Source, REST API, and Self-Hosted.
+overview: 'Baserow publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin data scanner API, AI Assistant API, and 55 more. Tagged areas include No-Code, Database, Open-Source, REST API, and Self-Hosted.
 
 
   The Baserow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -545,7 +545,7 @@ rules:
 score:
   band: developing
   composite: 48.5
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -555,7 +555,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 60.5
-  previous_composite: 56.3
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -563,9 +563,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/screenshots/baserow-2026-06-20T173022.png
 security:
 - kind: authentication
@@ -580,7 +580,7 @@ slug: baserow
 tags:
 - No-Code
 - Database
-- Open Source
+- Open-Source
 - REST API
 - Self-Hosted
 - Tables

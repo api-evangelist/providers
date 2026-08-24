@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ modified: '2026-05-19'
 name: Google Cloud Batch
 nav: Providers
 network: true
-overview: 'Google Cloud Batch publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs API and Tasks API. Tagged areas include Batch Processing, Compute, Google Cloud, HPC, and Jobs.
+overview: 'Google Cloud Batch publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs API and Tasks API. Tagged areas include Batch Processing, Compute, Google Cloud, HPC, and Job.
 
 
   The Google Cloud Batch catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -195,7 +195,7 @@ scopes:
 score:
   band: developing
   composite: 47.4
-  delta: -7.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -205,7 +205,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 54.6
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -213,9 +213,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/screenshots/google-cloud-batch-2026-06-20T182044.png
 security:
 - kind: authentication
@@ -236,6 +236,6 @@ tags:
 - Compute
 - Google Cloud
 - HPC
-- Jobs
+- Job
 website: https://cloud.google.com/batch
 ---

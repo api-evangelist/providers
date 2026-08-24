@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ rules:
 score:
   band: developing
   composite: 44.9
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -217,7 +217,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 15.8
-  previous_composite: 52.6
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -231,9 +231,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/screenshots/commerce-coinbase-2026-06-20T174814.png
 security:
 - kind: authentication
@@ -257,7 +257,7 @@ tags:
 - Bitcoin
 - Ethereum
 - USDC
-- Webhooks
+- Webhook
 - Charges
 - Checkouts
 website: https://commerce.coinbase.com

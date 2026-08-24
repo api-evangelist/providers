@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -199,7 +199,7 @@ modified: '2026-05-19'
 name: lakeFS
 nav: Providers
 network: true
-overview: 'lakeFS publishes 17 APIs on the [APIs.io](https://apis.io/) network, including actions API, auth API, branches API, and 14 more. Tagged areas include Data Version Control, Data Lake, Git-like, and Open Source.
+overview: 'lakeFS publishes 17 APIs on the [APIs.io](https://apis.io/) network, including actions API, auth API, branches API, and 14 more. Tagged areas include Data Version Control, Data Lake, Git-like, and Open-Source.
 
 
   lakeFS''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
@@ -233,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/screenshots/lakefs-2026-06-20T184245.png
 security:
@@ -251,6 +251,6 @@ tags:
 - Data Version Control
 - Data Lake
 - Git-like
-- Open Source
+- Open-Source
 website: https://lakefs.io/
 ---

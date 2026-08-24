@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: 商品マスタ / 商品対応表 — product master and mapping
@@ -209,14 +209,14 @@ description: LOGILESS (ロジレス) is a Japanese cloud EC logistics platform t
 image: https://support.logiless.com/wp-content/uploads/2021/06/ogp.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: logiless-mcp.yml
-  slug: logiless-mcpyml
+- description: Candidate MCP server for the LOGILESS API. No official LOGILESS MCP server was found (2026-07-20). Tools are derived one-per-operation from the derived OpenAPI and would require the merchant's OAuth a
+  name: Logiless MCP Server
+  slug: logiless-mcp-server
 modified: '2026-07-20'
 name: Logiless
 nav: Providers
 network: true
-overview: 'Logiless publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Inbound Deliveries API, Inter-Warehouse Transfers API, and 6 more. Tagged areas include Logistics, E-commerce, Order Management, Warehouse Management, and Inventory.
+overview: 'Logiless publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Inbound Deliveries API, Inter-Warehouse Transfers API, and 6 more. Tagged areas include Logistics, E-Commerce, Order Management, Warehouse Management, and Inventory.
 
 
   Logiless'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
@@ -233,7 +233,7 @@ scopes:
 score:
   band: developing
   composite: 47.6
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 47.1
+  previous_composite: 47.6
   provenance:
     conformance: derived
     contracts:
@@ -253,8 +253,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png
 security:
@@ -269,7 +269,7 @@ security:
 slug: logiless
 tags:
 - Logistics
-- E-commerce
+- E-Commerce
 - Order Management
 - Warehouse Management
 - Inventory

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -498,7 +498,7 @@ rules:
 score:
   band: strong
   composite: 62.2
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -508,7 +508,7 @@ score:
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 70.3
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     contracts:
@@ -516,9 +516,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png
 security:
 - kind: authentication
@@ -544,12 +544,12 @@ tags:
 - Fleet Management
 - Dispatch
 - Route Optimization
-- Courier
+- Couriers
 - Drivers
 - Tracking
 - Geocoding
-- Webhooks
-- AI
-- SaaS
+- Webhook
+- Artificial Intelligence
+- Software-as-a-Service
 website: https://onfleet.com
 ---

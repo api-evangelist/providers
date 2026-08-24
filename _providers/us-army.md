@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ modified: '2026-05-19'
 name: US Army
 nav: Providers
 network: true
-overview: 'US Army publishes 3 APIs on the [APIs.io](https://apis.io/) network: Articles API, Events API, and News API. Tagged areas include Army, Federal Government, Military, Defense, and Open Data.
+overview: 'US Army publishes 3 APIs on the [APIs.io](https://apis.io/) network: Articles API, Events API, and News API. Tagged areas include Army, Federal-Government, Military, Defense, and Open Data.
 
 
   The US Army catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -147,18 +147,18 @@ rules:
   slug: us-army-public-rules
 score:
   band: emerging
-  composite: 23.6
-  delta: -8.2
+  composite: 24.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 60.4
     developer_ergonomics: 0.0
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 31.8
+  previous_composite: 24.0
   provenance:
     agentic_access: derived
     contracts:
@@ -172,9 +172,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-army/refs/heads/main/screenshots/us-army-2026-06-20T200556.png
 security:
 - kind: domain-security
@@ -184,7 +184,7 @@ security:
 slug: us-army
 tags:
 - Army
-- Federal Government
+- Federal-Government
 - Military
 - Defense
 - Open Data

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -332,13 +332,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slng.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: slng-mcp.yml
-  slug: slng-mcpyml
+  name: SLNG MCP Server
+  slug: slng-mcp-server
 modified: '2026-07-21'
 name: SLNG
 nav: Providers
 network: true
-overview: 'SLNG publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agents API, Calls API, and 12 more. Tagged areas include Company, Speech, Voice, Speech to Text, and Text to Speech.
+overview: 'SLNG publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agents API, Calls API, and 12 more. Tagged areas include Company, Speech, Voice, Speech-to-Text, and Text-to-Speech.
 
 
   The SLNG catalog on APIs.io includes 3 event-driven AsyncAPI specifications.
@@ -349,7 +349,7 @@ random_paper: 16
 score:
   band: strong
   composite: 57.4
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -359,7 +359,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 59.4
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -370,8 +370,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/screenshots/slng-2026-08-17T081926.png
 security:
@@ -392,8 +392,8 @@ tags:
 - Company
 - Speech
 - Voice
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Voice AI
 - Voice Agents
 - Transcription

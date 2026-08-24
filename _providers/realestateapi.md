@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-05-19'
 name: RealEstateAPI
 nav: Providers
 network: true
-overview: 'RealEstateAPI publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AVM API, Comparables API, Liens API, and 5 more. Tagged areas include Real Estate, Property Data, MLS, Valuation, and Geospatial.
+overview: 'RealEstateAPI publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AVM API, Comparables API, Liens API, and 5 more. Tagged areas include Real-Estate, Property Data, MLS, Valuation, and Geospatial.
 
 
   RealEstateAPI''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.9
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -191,7 +191,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 41.0
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -199,9 +199,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/screenshots/realestateapi-2026-06-20T192646.png
 security:
 - kind: authentication
@@ -214,12 +214,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: realestateapi
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - MLS
 - Valuation
 - Geospatial
 - Skip Tracing
-- Prop-Tech
+- PropTech
 website: https://www.realestateapi.com/
 ---

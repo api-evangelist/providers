@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -192,8 +192,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: paymentsense-mcp.yml
-  slug: paymentsense-mcpyml
+  name: Paymentsense MCP Server
+  slug: paymentsense-mcp-server
 modified: '2026-07-24'
 name: Paymentsense
 nav: Providers
@@ -209,7 +209,7 @@ random_paper: 6
 score:
   band: strong
   composite: 59.6
-  delta: 7.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -219,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 52.5
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,9 +236,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/screenshots/paymentsense-2026-08-07T191642.png
 security:
 - kind: authentication
@@ -257,7 +257,7 @@ tags:
 - Payment Processing
 - Card Payments
 - Acquiring
-- Point of Sale
+- Point-of-Sale
 - In-Person Payments
 website: https://www.paymentsense.com/uk/
 ---

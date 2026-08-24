@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: Authentication and identity federation surface that lets partner applications running on the teamplay digital health platform, syngo.via OpenApps, and Cios mobile C-arm systems sign users in using the
@@ -159,7 +159,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 13.5
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -169,15 +169,15 @@ score:
     discoverability: 64.8
     governance: 15.2
     operational_transparency: 5.3
-  previous_composite: 16.8
+  previous_composite: 13.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siemens-healthineers/refs/heads/main/screenshots/siemens-healthineers-2026-06-20T193903.png
 security:

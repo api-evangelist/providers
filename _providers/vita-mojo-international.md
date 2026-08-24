@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -108,7 +108,7 @@ modified: '2026-07-21'
 name: Vita Mojo International
 nav: Providers
 network: true
-overview: 'Vita Mojo International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Restaurants, Point of Sale, and Digital Ordering.
+overview: 'Vita Mojo International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Restaurant, Point-of-Sale, and Digital Ordering.
 
 
   The Vita Mojo International catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -119,7 +119,7 @@ random_paper: 11
 score:
   band: thin
   composite: 30.8
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -129,11 +129,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 35.1
+  previous_composite: 30.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -144,8 +144,8 @@ slug: vita-mojo-international
 tags:
 - Company
 - Hospitality
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Digital Ordering
 - Kitchen Management
 - Order Management

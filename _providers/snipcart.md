@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ modified: '2026-06-12'
 name: Snipcart
 nav: Providers
 network: true
-overview: 'Snipcart publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AbandonedCarts API, Customers API, Discounts API, and 6 more. Tagged areas include E-Commerce, Shopping Cart, Orders, Products, and Payments.
+overview: 'Snipcart publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AbandonedCarts API, Customers API, Discounts API, and 6 more. Tagged areas include E-Commerce, Shopping Cart, Order, Product, and Payments.
 
 
   The Snipcart catalog on APIs.io includes 1 JSON-LD context.
@@ -212,7 +212,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.5
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -222,7 +222,7 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 63.2
-  previous_composite: 44.7
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -236,8 +236,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/screenshots/snipcart-2026-06-20T194105.png
 security:
@@ -253,11 +253,11 @@ slug: snipcart
 tags:
 - E-Commerce
 - Shopping Cart
-- Orders
-- Products
+- Order
+- Product
 - Payments
-- Webhooks
+- Webhook
 - Headless Commerce
-- Jamstack
+- JAMstack
 website: https://snipcart.com
 ---

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API behind the Covatic client platform (platform.covatic.io) for building and operating privacy-preserving audiences and campaigns: audience profiles, traits (behavioural, event and retargeting),'
@@ -184,7 +184,7 @@ scopes:
 score:
   band: developing
   composite: 40.8
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -194,7 +194,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 40.4
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     contracts:
@@ -204,8 +204,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/screenshots/covatic-2026-07-25T210538.png
 security:

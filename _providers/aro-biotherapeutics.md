@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A live, anonymously reachable Model Context Protocol endpoint served from Aro Biotherapeutics' own host and advertised in the site's llms.txt. It is provided by the Wix platform, not built by Aro — it
@@ -73,8 +73,8 @@ image: https://static.wixstatic.com/media/55e8e9_a8e1814d42074178825df49af5a7596
 layout: provider
 mcp_servers:
 - description: ''
-  name: aro-biotherapeutics-mcp.yml
-  slug: aro-biotherapeutics-mcpyml
+  name: ARO Live
+  slug: aro-live
 modified: '2026-08-06'
 name: Aro Biotherapeutics
 nav: Providers
@@ -87,7 +87,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 19.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -97,7 +97,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 20.4
+  previous_composite: 19.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -107,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aro-biotherapeutics/refs/heads/main/screenshots/aro-biotherapeutics-2026-08-07T161732.png
 security:
@@ -128,6 +128,6 @@ tags:
 - Genetic Medicine
 - Life Sciences
 - Pharmaceuticals
-- Model Context Protocol
+- MCP
 website: https://www.arobiotx.com/
 ---

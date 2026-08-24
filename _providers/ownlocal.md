@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Partner-facing REST API (v1) for OwnLocal's automated print-to-digital advertising platform. Publishers and their systems create and list ads, upload the source print-ad PDF for conversion, create and
@@ -138,8 +138,8 @@ image: https://ucarecdn.com/0f20cb5b-5f4e-4207-be36-a5ee95dd54b5/ogimage1800opti
 layout: provider
 mcp_servers:
 - description: ''
-  name: ownlocal-mcp.yml
-  slug: ownlocal-mcpyml
+  name: OwnLocal MCP Server
+  slug: ownlocal-mcp-server
 modified: '2026-08-12'
 name: OwnLocal
 nav: Providers
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 30.4
+  previous_composite: 29.9
   provenance:
     conformance: derived
     contracts:
@@ -180,8 +180,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/screenshots/ownlocal-2026-08-07T191206.png
 security:

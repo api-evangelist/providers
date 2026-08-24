@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -177,13 +177,13 @@ image: https://mindlogic.ai/apple-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mindlogic-mcp.yml
-  slug: mindlogic-mcpyml
+  name: Mindlogic MCP Server
+  slug: mindlogic-mcp-server
 modified: '2026-07-20'
 name: Mindlogic
 nav: Providers
 network: true
-overview: 'Mindlogic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Credits API, and 4 more. Tagged areas include Company, AI/ML, Generative AI, Conversational AI, and LLM Gateway.
+overview: 'Mindlogic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Credits API, and 4 more. Tagged areas include Company, Ai Ml, Generative AI, Conversational AI, and LLM Gateway.
 
 
   Mindlogic''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 15 more developer resources.'
@@ -191,7 +191,7 @@ random_paper: 5
 score:
   band: thin
   composite: 39.1
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 38.0
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -212,8 +212,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/screenshots/mindlogic-2026-08-07T172941.png
 security:
@@ -228,7 +228,7 @@ security:
 slug: mindlogic
 tags:
 - Company
-- AI/ML
+- Ai Ml
 - Generative AI
 - Conversational AI
 - LLM Gateway

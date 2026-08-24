@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -91,13 +91,13 @@ image: https://www.byheart.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: byheart-mcp.yml
-  slug: byheart-mcpyml
+  name: ByHeart MCP Server
+  slug: byheart-mcp-server
 modified: '2026-07-18'
 name: ByHeart
 nav: Providers
 network: true
-overview: 'ByHeart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Infant Nutrition, Baby Formula, and Direct-to-Consumer.
+overview: 'ByHeart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Infant Nutrition, Baby Formula, and Direct to Consumer.
 
 
   ByHeart''s developer surface includes signup flow, support, authentication, and 10 more developer resources.'
@@ -109,18 +109,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.4
-  delta: -0.9
+  composite: 23.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.3
+  previous_composite: 23.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -130,8 +130,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/byheart/refs/heads/main/screenshots/byheart-2026-08-07T162852.png
 security:
@@ -149,8 +149,8 @@ tags:
 - Consumer
 - Infant Nutrition
 - Baby Formula
-- Direct-to-Consumer
-- Ecommerce
+- Direct to Consumer
+- E-Commerce
 - Health
 - Shopify
 website: https://www.byheart.com

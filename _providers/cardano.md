@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -838,7 +838,7 @@ modified: '2026-06-13'
 name: Cardano
 nav: Providers
 network: true
-overview: 'Cardano publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Cardano » Accounts API, Cardano » Addresses API, Cardano » Assets API, and 17 more. Tagged areas include Blockchain, Cryptocurrency, Proof-of-Stake, Smart Contracts, and Web3.
+overview: 'Cardano publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Cardano » Accounts API, Cardano » Addresses API, Cardano » Assets API, and 17 more. Tagged areas include Blockchain, Cryptocurrency, Proof of Stake, Smart Contracts, and Web3.
 
 
   The Cardano catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -868,7 +868,7 @@ rules:
 score:
   band: thin
   composite: 39.2
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -878,7 +878,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 31.6
-  previous_composite: 45.6
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -886,9 +886,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/screenshots/cardano-2026-06-20T173952.png
 security:
 - kind: authentication
@@ -903,7 +903,7 @@ slug: cardano
 tags:
 - Blockchain
 - Cryptocurrency
-- Proof-of-Stake
+- Proof of Stake
 - Smart Contracts
 - Web3
 ---

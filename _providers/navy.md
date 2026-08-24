@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,12 +60,12 @@ modified: '2026-04-28'
 name: Navy
 nav: Providers
 network: true
-overview: Navy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Military, and Defense.
+overview: Navy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Military, and Defense.
 random_paper: 5
 score:
   band: minimal
   composite: 2.8
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -75,15 +75,15 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 5.7
+  previous_composite: 2.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navy/refs/heads/main/screenshots/navy-2026-06-20T190104.png
 security:
@@ -93,7 +93,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: navy
 tags:
-- Federal Government
+- Federal-Government
 - Military
 - Defense
 website: https://www.navy.mil/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -500,18 +500,18 @@ rules:
   slug: reducto-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.9
-  delta: -5.2
+  composite: 61.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 9.8
-    contract_quality: 69.0
+    contract_quality: 62.0
     developer_ergonomics: 69.0
-    discoverability: 50.0
+    discoverability: 40.7
     governance: 9.8
     operational_transparency: 63.2
-  previous_composite: 69.1
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     contracts:
@@ -523,9 +523,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/screenshots/reducto-ai-2026-06-20T192741.png
 security:
 - kind: authentication

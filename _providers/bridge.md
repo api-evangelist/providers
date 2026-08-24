@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -327,8 +327,8 @@ image: https://www.bridge.xyz/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: bridge-mcp.yml
-  slug: bridge-mcpyml
+  name: Bridge MCP Server
+  slug: bridge-mcp-server
 modified: '2026-07-18'
 name: Bridge
 nav: Providers
@@ -349,7 +349,7 @@ scopes:
 score:
   band: developing
   composite: 52.8
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -359,7 +359,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 50.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -376,8 +376,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png
 security:

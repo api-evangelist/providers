@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Enterprise REST API for the Storyclash influencer marketing platform. Three documented endpoints under https://app.storyclash.com/external-api/: GET /campaigns lists the authenticated customer''s campa'
@@ -175,7 +175,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.3
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -185,12 +185,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 54.5
+  previous_composite: 54.3
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/screenshots/storyclash-2026-08-17T082126.png
 security:
@@ -212,6 +212,6 @@ tags:
 - Campaign Management
 - Business Intelligence
 - REST API
-- Webhooks
+- Webhook
 website: https://www.storyclash.com/integrations/api-integration
 ---

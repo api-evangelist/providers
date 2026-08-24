@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -486,7 +486,7 @@ modified: '2026-05-19'
 name: OpenProject
 nav: Providers
 network: true
-overview: 'OpenProject publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Actions & Capabilities API, Activities API, Attachments API, and 59 more. Tagged areas include Agile, Gantt, Open Source, Project Management, and Time Tracking.
+overview: 'OpenProject publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Actions & Capabilities API, Activities API, Attachments API, and 59 more. Tagged areas include Agile, Gantt, Open-Source, Project Management, and Time Tracking.
 
 
   OpenProject''s developer surface includes authentication, documentation, GitHub presence, pricing, support, engineering blog, and 8 more developer resources.'
@@ -502,7 +502,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.0
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -512,7 +512,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 36.9
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -520,8 +520,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 62
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/screenshots/openproject-2026-06-20T191026.png
 security:
@@ -541,7 +541,7 @@ slug: openproject
 tags:
 - Agile
 - Gantt
-- Open Source
+- Open-Source
 - Project Management
 - Time Tracking
 - Work Packages

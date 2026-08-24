@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -350,13 +350,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Block MCP Server
+  slug: block-mcp-server
 modified: '2026-05-19'
 name: Block
 nav: Providers
 network: true
-overview: 'Block publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Customers API, Merchants API, and 2 more. Tagged areas include Commerce, Cryptocurrency, eCommerce, Fintech, and Payments.
+overview: 'Block publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Customers API, Merchants API, and 2 more. Tagged areas include Commerce, Cryptocurrency, E-Commerce, Fintech, and Payments.
 
 
   The Block catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -401,18 +401,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.6
-  delta: -10.1
+  composite: 43.0
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 20.0
     developer_ergonomics: 59.5
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 52.7
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -426,9 +426,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png
 security:
 - kind: authentication
@@ -443,10 +443,10 @@ slug: block
 tags:
 - Commerce
 - Cryptocurrency
-- eCommerce
+- E-Commerce
 - Fintech
 - Payments
-- Point Of Sale
+- Point-of-Sale
 - Square
 use_cases:
 - description: Retailers and restaurants build custom POS applications using Square's payment, catalog, and order APIs.

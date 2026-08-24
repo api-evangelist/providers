@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -342,8 +342,8 @@ image: https://tackle.io/wp-content/uploads/2024/02/cropped-cropped-favicon-192x
 layout: provider
 mcp_servers:
 - description: ''
-  name: tackle-mcp.yml
-  slug: tackle-mcpyml
+  name: Tackle MCP Server
+  slug: tackle-mcp-server
 modified: '2026-08-13'
 name: Tackle
 nav: Providers
@@ -372,7 +372,7 @@ scopes:
 score:
   band: strong
   composite: 56.4
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -382,7 +382,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 60.7
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -393,8 +393,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/screenshots/tackle-2026-08-17T082242.png
 security:

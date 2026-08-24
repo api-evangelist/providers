@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Clip API from UserTesting — 1 operation(s) for clip.
@@ -231,9 +231,9 @@ description: 'UserTesting is a human insight platform for experience research: t
 image: https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/880/U-Glyph-with_R_RGB_Blue_2x.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: usertesting-mcp.yml
-  slug: usertesting-mcpyml
+- description: UserTesting ships an official MCP server, currently in limited early access. Per the product page, it connects UserTesting to Claude, ChatGPT, Figma Make, and other MCP clients so teams can recruit pa
+  name: UserTesting MCP Server
+  slug: usertesting-mcp-server
 modified: '2026-07-21'
 name: UserTesting
 nav: Providers
@@ -255,7 +255,7 @@ scopes:
 score:
   band: developing
   composite: 51.7
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -265,7 +265,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 57.2
+  previous_composite: 51.7
   provenance:
     conformance: derived
     contracts:
@@ -275,9 +275,9 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/screenshots/usertesting-2026-08-17T082654.png
 security:
 - kind: authentication

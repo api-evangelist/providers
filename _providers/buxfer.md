@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: List accounts and balances.
@@ -170,8 +170,8 @@ image: https://www.buxfer.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: buxfer-mcp.yml
-  slug: buxfer-mcpyml
+  name: Buxfer MCP Server
+  slug: buxfer-mcp-server
 modified: '2026-07-18'
 name: Buxfer
 nav: Providers
@@ -184,7 +184,7 @@ random_paper: 1
 score:
   band: developing
   composite: 46.5
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 44.2
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +210,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/screenshots/buxfer-2026-07-25T204124.png
 security:
@@ -236,7 +236,7 @@ tags:
 - Banking
 - Fintech
 - Financial Data
-- Transactions
+- Transaction
 - Investments
 - Expense Tracking
 website: https://www.buxfer.com/help/api

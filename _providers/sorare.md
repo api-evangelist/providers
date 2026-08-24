@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing Sorare cards, users, auctions, offers and real-time subscriptions across football, NBA and MLB, with JWT / OAuth 2.0 / API-key auth.
@@ -143,8 +143,8 @@ image: https://sorare.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: sorare-mcp.yml
-  slug: sorare-mcpyml
+  name: Sorare MCP Server
+  slug: sorare-mcp-server
 modified: '2026-07-21'
 name: Sorare
 nav: Providers
@@ -169,7 +169,7 @@ scopes:
 score:
   band: developing
   composite: 39.4
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -179,13 +179,13 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 44.2
+  previous_composite: 39.4
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/screenshots/sorare-2026-08-17T082004.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: RocksDB C++ library API providing key-value storage operations including Get, Put, Delete, Merge, iterators, snapshots, column families, transactions, compaction, and backup. The primary interface for
@@ -127,7 +127,7 @@ modified: '2026-05-02'
 name: RocksDB
 nav: Providers
 network: true
-overview: 'RocksDB publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include RocksDB, Key-Value Store, Embedded Database, Storage Engine, and Open Source.
+overview: 'RocksDB publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include RocksDB, Key-Value Store, Embedded Database, Storage Engine, and Open-Source.
 
 
   The RocksDB catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -157,7 +157,7 @@ rules:
 score:
   band: emerging
   composite: 23.0
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -173,10 +173,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 28.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 23.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocksdb/refs/heads/main/screenshots/rocksdb-2026-06-20T193155.png
 security:
 - kind: domain-security
@@ -189,6 +189,6 @@ tags:
 - Key-Value Store
 - Embedded Database
 - Storage Engine
-- Open Source
+- Open-Source
 website: https://rocksdb.org/
 ---

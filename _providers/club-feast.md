@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Club Feast
 nav: Providers
 network: true
-overview: 'Club Feast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Corporate Catering, Restaurants, and Logistics.
+overview: 'Club Feast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Corporate Catering, Restaurant, and Logistics.
 
 
   Club Feast''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 11.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -86,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/club-feast/refs/heads/main/screenshots/club-feast-2026-07-25T205728.png
 security:
@@ -101,7 +101,7 @@ tags:
 - Company
 - Food Delivery
 - Corporate Catering
-- Restaurants
+- Restaurant
 - Logistics
 - Meal Subscription
 - Office Pantry

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 5
@@ -264,13 +264,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prometeo.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: prometeo-mcp.yml
-  slug: prometeo-mcpyml
+  name: Prometeo MCP Server
+  slug: prometeo-mcp-server
 modified: '2026-07-17'
 name: Prometeo
 nav: Providers
 network: true
-overview: 'Prometeo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Banking API, Cross-Border API, and 2 more. Tagged areas include Open Banking, Payments, FinTech, LatAm, and Financial Data.
+overview: 'Prometeo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Banking API, Cross-Border API, and 2 more. Tagged areas include Open Banking, Payments, Fintech, LatAm, and Financial Data.
 
 
   The Prometeo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -289,7 +289,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.2
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -299,7 +299,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 63.0
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,8 +316,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/screenshots/prometeo-2026-08-17T081352.png
 security:
@@ -341,7 +341,7 @@ slug: prometeo
 tags:
 - Open Banking
 - Payments
-- FinTech
+- Fintech
 - LatAm
 - Financial Data
 - Account Validation

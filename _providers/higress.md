@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Higress is a next-generation cloud-native API gateway that provides intelligent routing, traffic management, authentication, and observability capabilities for microservices architectures.
@@ -114,7 +114,7 @@ modified: '2026-04-28'
 name: Higress
 nav: Providers
 network: true
-overview: 'Higress publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Cloud Native, Istio, and Kubernetes.
+overview: 'Higress publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Cloud-Native, Istio, and Kubernetes.
 
 
   Higress'' developer surface includes documentation, getting-started guide, engineering blog, changelog, and 10 more developer resources.'
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.7
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -140,10 +140,10 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 19.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 14.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/higress/refs/heads/main/screenshots/higress-2026-06-20T182735.png
 security:
 - kind: domain-security
@@ -153,7 +153,7 @@ security:
 slug: higress
 tags:
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Istio
 - Kubernetes
 website: https://higress.io/en-us/

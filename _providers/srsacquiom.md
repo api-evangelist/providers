@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: SRS Acquiom
 nav: Providers
 network: true
-overview: 'SRS Acquiom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mergers and Acquisitions, Financial Services, Escrow, and Payments.
+overview: 'SRS Acquiom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mergers and Acquisitions, Financial-Services, Escrow, and Payments.
 
 
   SRS Acquiom''s developer surface includes support, engineering blog, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 13.4
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -113,7 +113,7 @@ slug: srsacquiom
 tags:
 - Company
 - Mergers and Acquisitions
-- Financial Services
+- Financial-Services
 - Escrow
 - Payments
 - Loan Agency

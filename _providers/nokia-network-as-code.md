@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -264,8 +264,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: nokia-network-as-code-mcp.yml
-  slug: nokia-network-as-code-mcpyml
+  name: Nokia Network as Code MCP Server
+  slug: nokia-network-as-code-mcp-server
 modified: '2026-07-25'
 name: Nokia Network as Code
 nav: Providers
@@ -286,7 +286,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.9
-  delta: 6.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -296,7 +296,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 60.4
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -313,9 +313,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 93.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png
 security:
 - kind: authentication

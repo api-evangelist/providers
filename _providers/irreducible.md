@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Irreducible
 nav: Providers
 network: true
-overview: 'Irreducible is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Infrastructure, Zero Knowledge Proofs, Cryptography, and SNARK.
+overview: 'Irreducible is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Infrastructure, Zero-Knowledge Proofs, Cryptography, and SNARK.
 
 
   Irreducible''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 7
 score:
   band: minimal
   composite: 7.7
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -86,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/irreducible/refs/heads/main/screenshots/irreducible-2026-07-25T222921.png
 security:
@@ -100,12 +100,12 @@ slug: irreducible
 tags:
 - Company
 - Crypto Infrastructure
-- Zero Knowledge Proofs
+- Zero-Knowledge Proofs
 - Cryptography
 - SNARK
 - Blockchain
 - Privacy
-- Open Source
+- Open-Source
 - Rust
 website: https://www.irreducible.com
 ---

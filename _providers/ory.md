@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 6
@@ -38,7 +38,7 @@ agentic_access:
   operation_count: 128
   slug: ory-agentic-access
   summary_line: 128 operations · 57 acting · 6 human-in-the-loop
-api_count: 11
+api_count: 23
 apis:
 - description: The api API from Ory — 4 operation(s) for api.
   name: Ory api API
@@ -73,7 +73,43 @@ apis:
 - description: Well-Known Endpoints
   name: Ory wellknown API
   slug: ory-wellknown-api
-artifact_total: 37
+- description: Ory Network workspace / project subscriptions.
+  name: Ory Billing API
+  slug: ory-network-billing-api
+- description: Admin access to queued and dispatched courier messages.
+  name: Ory Courier API
+  slug: ory-network-courier-api
+- description: Ory Network event stream configuration.
+  name: Ory Event Streams API
+  slug: ory-network-event-streams-api
+- description: Privileged Kratos identity and session management.
+  name: Ory Identity (Admin) API
+  slug: ory-network-identity-admin-api
+- description: Public Kratos flows for login, registration, recovery, verification, settings, logout, and sessions.
+  name: Ory Identity (Self-Service) API
+  slug: ory-network-identity-self-service-api
+- description: Privileged Hydra client, token, consent, and key management.
+  name: Ory OAuth2 (Admin) API
+  slug: ory-network-oauth2-admin-api
+- description: Public OAuth2 / OpenID Connect provider endpoints (Hydra).
+  name: Ory OAuth2 (Public) API
+  slug: ory-network-oauth2-public-api
+- description: B2B organization management for SSO.
+  name: Ory Organizations API
+  slug: ory-network-organizations-api
+- description: Keto permission checks, expand, and namespace reads.
+  name: Ory Permissions API
+  slug: ory-network-permissions-api
+- description: Ory Network project API token management.
+  name: Ory Project Tokens API
+  slug: ory-network-project-tokens-api
+- description: Ory Network Console project management.
+  name: Ory Projects API
+  slug: ory-network-projects-api
+- description: Keto relationship-tuple writes and OPL syntax checks.
+  name: Ory Relationships API
+  slug: ory-network-relationships-api
+artifact_total: 62
 collections:
 - collection_type: open
   name: API Collection
@@ -105,6 +141,45 @@ collections:
 - collection_type: open
   name: Ory Hydra api metadata API
   slug: open-ory-metadata-api
+- collection_type: open
+  name: Ory Network Billing API
+  slug: open-ory-network-billing-api
+- collection_type: open
+  name: Ory Network Billing Courier API
+  slug: open-ory-network-courier-api
+- collection_type: open
+  name: Ory Network Billing Event Streams API
+  slug: open-ory-network-event-streams-api
+- collection_type: open
+  name: Ory Network Billing Identity (Admin) API
+  slug: open-ory-network-identity-admin-api
+- collection_type: open
+  name: Ory Network Billing Identity (Self-Service) API
+  slug: open-ory-network-identity-self-service-api
+- collection_type: open
+  name: Ory Network Billing OAuth2 (Admin) API
+  slug: open-ory-network-oauth2-admin-api
+- collection_type: open
+  name: Ory Network Billing OAuth2 (Public) API
+  slug: open-ory-network-oauth2-public-api
+- collection_type: open
+  name: Ory Network Billing Organizations API
+  slug: open-ory-network-organizations-api
+- collection_type: open
+  name: Ory Network Billing Permissions API
+  slug: open-ory-network-permissions-api
+- collection_type: open
+  name: Ory Network Billing Project Tokens API
+  slug: open-ory-network-project-tokens-api
+- collection_type: open
+  name: Ory Network Billing Projects API
+  slug: open-ory-network-projects-api
+- collection_type: open
+  name: Ory Network Billing Relationships API
+  slug: open-ory-network-relationships-api
+- collection_type: open
+  name: Ory Network API
+  slug: open-ory-network
 - collection_type: open
   name: Ory Oathkeeper API
   slug: open-ory-oathkeeper
@@ -159,11 +234,11 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.ory.sh
+  url: https://www.ory.com
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.ory.sh/docs/
+  url: https://www.ory.com/docs/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -171,7 +246,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.ory.sh/blog/
+  url: https://www.ory.com/blog/
 - group: agent
   title: ''
   type: MCPServer
@@ -192,7 +267,7 @@ modified: '2026-05-19'
 name: Ory
 nav: Providers
 network: true
-overview: 'Ory publishes 11 APIs on the [APIs.io](https://apis.io/) network, including api API, courier API, frontend API, and 8 more. Tagged areas include Authentication, Authorization, Identity, OAuth2, and OpenID Connect.
+overview: 'Ory publishes 23 APIs on the [APIs.io](https://apis.io/) network, including api API, courier API, frontend API, and 20 more. Tagged areas include Authentication, Authorization, Identity, OpenID Connect, and Open-Source.
 
 
   Ory''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -212,27 +287,27 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.6
-  delta: -1.7
+  composite: 29.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 48.9
+    contract_quality: 50.3
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.3
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 52.2
       derived: 0
       marker_coverage: 0.0
-      total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+      total: 23
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/screenshots/ory-2026-06-20T191212.png
 security:
@@ -257,8 +332,7 @@ tags:
 - Authentication
 - Authorization
 - Identity
-- OAuth2
 - OpenID Connect
-- Open Source
-website: https://www.ory.sh
+- Open-Source
+website: https://www.ory.com
 ---

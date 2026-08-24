@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API for retrieving workspace and user metadata — replays/recordings, team members, and comments on a replay. POST queries to the endpoint with a Replay API key as a bearer token.
@@ -167,8 +167,8 @@ image: https://www.replay.io/replayQA_og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: replay-mcp.yml
-  slug: replay-mcpyml
+  name: Replay MCP
+  slug: replay-mcp
 modified: '2026-07-20'
 name: Replay
 nav: Providers
@@ -181,7 +181,7 @@ random_paper: 2
 score:
   band: developing
   composite: 42.5
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -191,13 +191,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 44.5
+  previous_composite: 42.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/screenshots/replay-2026-08-17T081521.png
 security:
@@ -228,6 +228,6 @@ tags:
 - MCP
 - GraphQL
 - Browser Automation
-- AI
+- Artificial Intelligence
 website: https://www.replay.io
 ---

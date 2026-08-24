@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ modified: '2026-06-21'
 name: Smallest AI
 nav: Providers
 network: true
-overview: 'Smallest AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Streaming API, Text to Speech API, and Voices API. Tagged areas include AI, Text to Speech, Voice, Realtime, and Voice Agents.
+overview: 'Smallest AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Streaming API, Text to Speech API, and Voices API. Tagged areas include Artificial Intelligence, Text-to-Speech, Voice, Real-Time, and Voice Agents.
 
 
   The Smallest AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -165,7 +165,7 @@ rules:
 score:
   band: developing
   composite: 43.6
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -175,7 +175,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 48.1
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/screenshots/smallest-ai-2026-08-17T081930.png
 security:
@@ -206,10 +206,10 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: smallest-ai
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - Voice
-- Realtime
+- Real-Time
 - Voice Agents
 website: https://smallest.ai/
 ---

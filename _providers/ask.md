@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: Ask
 nav: Providers
 network: true
-overview: Ask is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Search, Search Engine, Consumer, and Defunct.
+overview: Ask is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Search, Search Engines, Consumer, and Defunct.
 random_paper: 4
 score:
   band: minimal
@@ -68,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ask/refs/heads/main/screenshots/ask-2026-07-25T201421.png
 security:
@@ -81,7 +81,7 @@ slug: ask
 tags:
 - Company
 - Search
-- Search Engine
+- Search Engines
 - Consumer
 - Defunct
 - Web

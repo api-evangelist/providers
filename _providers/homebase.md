@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Homebase REST API provides programmatic access to employee scheduling, time tracking, payroll synchronization, and team management features. Authenticated via API key, it enables third-party devel
@@ -118,7 +118,7 @@ modified: 2026-06-12
 name: Homebase
 nav: Providers
 network: true
-overview: 'Homebase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include scheduling, time-tracking, payroll, HR, and workforce-management.
+overview: 'Homebase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Scheduling, Time Tracking, Payroll, HR, and Workforce Management.
 
 
   The Homebase catalog on APIs.io includes 1 JSON-LD context.
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.4
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -147,9 +147,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 29.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 29.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/screenshots/homebase-2026-06-20T182820.png
 security:
@@ -167,15 +167,15 @@ security:
   summary_line: SOC 2, PCI DSS
 slug: homebase
 tags:
-- scheduling
-- time-tracking
-- payroll
+- Scheduling
+- Time Tracking
+- Payroll
 - HR
-- workforce-management
-- team-communication
-- employee-scheduling
-- small-business
-- hourly-workers
-- integrations
+- Workforce Management
+- Team Communication
+- Employee Scheduling
+- Small Business
+- Hourly Workers
+- Integration
 website: https://www.joinhomebase.com/
 ---

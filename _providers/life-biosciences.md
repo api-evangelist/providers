@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Comments API from Life Biosciences — 1 operation(s) for comments.
@@ -209,8 +209,8 @@ image: https://www.lifebiosciences.com/wp-content/uploads/2022/01/Life-Bioscienc
 layout: provider
 mcp_servers:
 - description: ''
-  name: life-biosciences-mcp.yml
-  slug: life-biosciences-mcpyml
+  name: Life Biosciences MCP Server
+  slug: life-biosciences-mcp-server
 modified: '2026-08-04'
 name: Life Biosciences
 nav: Providers
@@ -223,7 +223,7 @@ random_paper: 3
 score:
   band: developing
   composite: 41.6
-  delta: 10.1
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -233,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 31.5
+  previous_composite: 41.6
   provenance:
     conformance: derived
     contracts:
@@ -249,9 +249,9 @@ score:
     regime: Health
     regime_id: health
     score: 40.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/screenshots/life-biosciences-2026-08-07T171618.png
 security:
 - kind: authentication

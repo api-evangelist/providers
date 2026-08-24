@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,26 +52,26 @@ overview: Silk and Sonder is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 13
 score:
   band: minimal
-  composite: 2.2
-  delta: -2.1
+  composite: 3.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 4.3
+  previous_composite: 3.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: silk-and-sonder
 tags:
@@ -82,6 +82,6 @@ tags:
 - Subscription
 - Consumer
 - Mobile App
-- Ecommerce
+- E-Commerce
 website: https://silkandsonder.com
 ---

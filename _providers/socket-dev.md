@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -680,9 +680,9 @@ jsonld:
   slug: socket-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: socket-dev-mcp.yml
-  slug: socket-dev-mcpyml
+- description: Socket operates an official Model Context Protocol server. A public hosted server runs at https://mcp.socket.dev/ over HTTP with OAuth sign-in; a self-hosted stdio/HTTP build ships as npx @socketsecur
+  name: Socket MCP Server
+  slug: socket-mcp-server
 modified: '2026-06-20'
 name: Socket
 nav: Providers
@@ -732,18 +732,18 @@ scopes:
   summary_line: 97 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.5
-  delta: -18.3
+  composite: 57.0
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 67.6
     developer_ergonomics: 47.6
     discoverability: 77.8
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 74.8
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -753,9 +753,9 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/screenshots/socket-dev-2026-06-20T194122.png
 security:
 - kind: authentication

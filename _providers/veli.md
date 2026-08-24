@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ modified: '2026-05-19'
 name: Veli
 nav: Providers
 network: true
-overview: 'Veli publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Performance API, Portfolios API, and 2 more. Tagged areas include Crypto, DeFi, Finance, Investment, and Portfolio Management.
+overview: 'Veli publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Performance API, Portfolios API, and 2 more. Tagged areas include Crypto, DeFi, Finance, Investment, and Portfolio-Management.
 
 
   The Veli catalog on APIs.io includes 2 Spectral governance rulesets.
@@ -250,19 +250,19 @@ rules:
     warn: 22
   slug: veli-spectral-rules
 score:
-  band: emerging
-  composite: 26.0
-  delta: -5.0
+  band: thin
+  composite: 26.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 22.5
     developer_ergonomics: 33.3
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 31.0
+  previous_composite: 26.4
   provenance:
     agentic_access: derived
     contracts:
@@ -270,9 +270,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/screenshots/veli-2026-06-20T200905.png
 security:
 - kind: authentication
@@ -289,7 +289,7 @@ tags:
 - DeFi
 - Finance
 - Investment
-- Portfolio Management
+- Portfolio-Management
 use_cases:
 - description: Exchanges integrate Veli to offer automated investment portfolios (crypto index funds, theme portfolios) to their retail user base.
   name: Crypto Exchange Investment Products

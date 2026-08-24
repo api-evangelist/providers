@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ scopes:
 score:
   band: strong
   composite: 64.0
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -245,7 +245,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 66.0
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -256,8 +256,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/screenshots/lawmatics-2026-06-20T184337.png
 security:
@@ -278,10 +278,10 @@ tags:
 - Marketing Automation
 - Matter Management
 - E-Signature
-- Workflow Automation
+- Workflow-Automation
 - Legal Tech
 - Time and Billing
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 website: https://www.lawmatics.com/
 ---

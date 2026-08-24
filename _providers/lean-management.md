@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-04-28'
 name: Lean Management
 nav: Providers
 network: true
-overview: 'Lean Management is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Continuous Improvement, Kaizen, Lean, Lean Management, and Operations.
+overview: 'Lean Management is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Continuous Improvement, Kaizen, Lean, Lean Management, and Process Improvement.
 
 
   Lean Management''s developer surface includes engineering blog and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 7.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -80,9 +80,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-management/refs/heads/main/screenshots/lean-management-2026-06-20T184353.png
 slug: lean-management
@@ -91,7 +91,6 @@ tags:
 - Kaizen
 - Lean
 - Lean Management
-- Operations
 - Process Improvement
 - Value Stream
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ modified: '2026-05-30'
 name: ShipBob
 nav: Providers
 network: true
-overview: 'ShipBob publishes 10 APIs on the [APIs.io](https://apis.io/) network, including subpackage_billing API, subpackage_channels API, subpackage_inventory API, and 7 more. Tagged areas include Logistics, Fulfillment, 3PL, Ecommerce, and Inventory.
+overview: 'ShipBob publishes 10 APIs on the [APIs.io](https://apis.io/) network, including subpackage_billing API, subpackage_channels API, subpackage_inventory API, and 7 more. Tagged areas include Logistics, Fulfillment, 3PL, E-Commerce, and Inventory.
 
 
   The ShipBob catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -224,7 +224,7 @@ rules:
 score:
   band: thin
   composite: 38.8
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -234,7 +234,7 @@ score:
     discoverability: 81.5
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 42.8
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +242,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/screenshots/shipbob-2026-06-20T193812.png
 security:
@@ -264,10 +264,10 @@ tags:
 - Logistics
 - Fulfillment
 - 3PL
-- Ecommerce
+- E-Commerce
 - Inventory
 - Warehousing
 - Shipping
-- Direct-to-Consumer
+- Direct to Consumer
 website: https://www.shipbob.com/
 ---

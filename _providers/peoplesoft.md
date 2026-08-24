@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -467,6 +467,10 @@ collections:
   name: PeopleSoft Update Manager API
   slug: open-update-manager
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -779,7 +783,7 @@ jsonld:
   property_count: 77
   slug: peoplesoft-context
 layout: provider
-modified: '2026-04-17'
+modified: '2026-08-21'
 name: PeopleSoft
 nav: Providers
 network: true
@@ -789,7 +793,7 @@ overview: 'PeopleSoft publishes 38 APIs on the [APIs.io](https://apis.io/) netwo
   The PeopleSoft catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  PeopleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 36 more developer resources.'
+  PeopleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 37 more developer resources.'
 plans:
 - name: Peoplesoft Plans Pricing
   plan_count: 1
@@ -810,13 +814,13 @@ rules:
     info: 1
     warn: 4
   slug: peoplesoft-jsonschema-spectral-rules
-- effective_rule_count: 65
+- effective_rule_count: 64
   extends:
   - spectral:oas
   name: PeopleSoft API Rules
-  rule_count: 24
+  rule_count: 23
   severity_counts:
-    error: 14
+    error: 13
     hint: 0
     info: 1
     warn: 9
@@ -828,18 +832,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.4
-  delta: -8.5
+  composite: 49.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 61.2
     developer_ergonomics: 54.8
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 47.4
-  previous_composite: 57.9
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -847,9 +851,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/screenshots/peoplesoft-2026-06-20T191552.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The current ReadMe API for managing your project programmatically — API keys, API definitions, reference/guides/custom pages, categories, branches, changelog entries, recipes, images, fonts, Owlbot AI
@@ -165,13 +165,13 @@ image: https://readme.com/public/img/readme-og.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: readmeio-mcp.yml
-  slug: readmeio-mcpyml
+  name: ReadMe.io MCP Server
+  slug: readmeio-mcp-server
 modified: '2026-07-20'
 name: ReadMe.io
 nav: Providers
 network: true
-overview: 'ReadMe.io publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apis, Documentation, API Documentation, and Developer Experience.
+overview: 'ReadMe.io publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Documentation, API Documentation, Developer Experience, and Developer Portal.
 
 
   ReadMe.io''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 22 more developer resources.'
@@ -179,7 +179,7 @@ random_paper: 19
 score:
   band: thin
   composite: 37.2
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -189,13 +189,13 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 38.9
+  previous_composite: 37.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -209,7 +209,6 @@ security:
 slug: readmeio
 tags:
 - Company
-- Apis
 - Documentation
 - API Documentation
 - Developer Experience

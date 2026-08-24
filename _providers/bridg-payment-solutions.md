@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-18'
 name: Bridg Payment Solutions
 nav: Providers
 network: true
-overview: 'Bridg Payment Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Mobile Payments, and Point of Sale.
+overview: 'Bridg Payment Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Mobile Payments, and Point-of-Sale.
 
 
   Bridg Payment Solutions'' developer surface includes engineering blog and 4 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 10.3
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -78,7 +78,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 10.3
   provenance:
     conformance: first-party
   regulatory:
@@ -87,8 +87,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridg-payment-solutions/refs/heads/main/screenshots/bridg-payment-solutions-2026-07-25T203804.png
 security:
@@ -102,7 +102,7 @@ tags:
 - Payments
 - Fintech
 - Mobile Payments
-- Point of Sale
+- Point-of-Sale
 - Bluetooth
 - Offline Payments
 - Digital Wallet

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: JSON reporting API that lets Remerge advertisers pull daily (or hourly) campaign performance for their active campaigns into their own BI systems. A POST to /report with a start_date and end_date retu
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.6
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -184,11 +184,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 47.4
+  previous_composite: 45.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/screenshots/remerge-2026-08-17T081511.png
 security:

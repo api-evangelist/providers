@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Directus 10.10.7 headless CMS that serves carbonfarm.tech's news posts and image assets. It publishes a real OpenAPI 3.0.1 (14 operations) and a full GraphQL SDL anonymously at /server/specs/oas a
@@ -132,6 +132,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.0
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -141,12 +142,14 @@ score:
     discoverability: 77.8
     governance: 30.3
     operational_transparency: 2.6
+  previous_composite: 32.0
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Carbonfarm Authentication
@@ -165,7 +168,7 @@ tags:
 - MRV
 - Satellite Imagery
 - Remote Sensing
-- Machine Learning
+- Machine-Learning
 - Sustainability
 - Content Management
 website: https://www.carbonfarm.tech

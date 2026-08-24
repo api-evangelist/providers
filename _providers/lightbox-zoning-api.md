@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ modified: '2026-05-19'
 name: LightBox Zoning API
 nav: Providers
 network: true
-overview: 'LightBox Zoning API publishes 1 API on the [APIs.io](https://apis.io/) network: Zoning API. Tagged areas include Zoning, Real Estate, CRE, Property, and Parcels.
+overview: 'LightBox Zoning API publishes 1 API on the [APIs.io](https://apis.io/) network: Zoning API. Tagged areas include Zoning, Real-Estate, CRE, Property, and Parcels.
 
 
   LightBox Zoning API''s developer surface includes authentication and 3 more developer resources.'
@@ -99,7 +99,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.0
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -109,7 +109,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.6
+  previous_composite: 26.0
   provenance:
     agentic_access: derived
     contracts:
@@ -117,8 +117,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightbox-zoning-api/refs/heads/main/screenshots/lightbox-zoning-api-2026-06-20T184514.png
 security:
@@ -133,7 +133,7 @@ security:
 slug: lightbox-zoning-api
 tags:
 - Zoning
-- Real Estate
+- Real-Estate
 - CRE
 - Property
 - Parcels

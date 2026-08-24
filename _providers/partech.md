@@ -28,8 +28,8 @@ tags:
 - Series A
 - Growth Equity
 - Fintech
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 - Infrastructure
 - Europe
 - Africa

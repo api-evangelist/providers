@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST-based interface to NetSuite business objects as JSON resources with CRUD operations, SuiteQL high-performance queries, and an OpenAPI 3.0 definition that provides rich object metadata for records
@@ -94,7 +94,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 25.0
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -104,9 +104,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 26.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netsuite/refs/heads/main/screenshots/netsuite-2026-06-20T190208.png
 security:
@@ -121,7 +121,7 @@ tags:
 - Financials
 - Accounting
 - Inventory
-- Ecommerce
+- E-Commerce
 - Business Management
 - Cloud ERP
 website: https://www.netsuite.com/

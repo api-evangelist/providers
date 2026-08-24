@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -305,18 +305,18 @@ rules:
   slug: apache-pinot-spectral-rules
 score:
   band: emerging
-  composite: 21.5
-  delta: -5.7
+  composite: 21.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 19.3
     developer_ergonomics: 9.5
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 27.2
+  previous_composite: 21.9
   provenance:
     agentic_access: derived
     contracts:
@@ -324,9 +324,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/screenshots/apache-pinot-2026-06-20T172200.png
 security:
 - kind: domain-security
@@ -345,7 +345,7 @@ tags:
 - OLAP
 - Real-Time
 - Apache
-- Open Source
+- Open-Source
 use_cases:
 - description: Power user-facing dashboards like LinkedIn Who Viewed Profile
   name: User-Facing Analytics

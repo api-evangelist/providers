@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -128,14 +128,14 @@ description: Uncovr is a surgical AI company building a foundation model for sur
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uncovr.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: uncovr-mcp.yml
-  slug: uncovr-mcpyml
+- description: No official Uncovr MCP server was found (none in docs, npm, or the MCP registry surface we checked). Candidate tool list derived from the served OpenAPI 3.1 operations at https://api.uncovr.ai/openapi
+  name: Uncovr MCP Server
+  slug: uncovr-mcp-server
 modified: '2026-07-21'
 name: Uncovr
 nav: Providers
 network: true
-overview: 'Uncovr publishes 1 API on the [APIs.io](https://apis.io/) network: Inference (V3, Backwards Compatible) API. Tagged areas include Company, Healthcare, Surgery, Artificial Intelligence, and Computer Vision.
+overview: 'Uncovr publishes 1 API on the [APIs.io](https://apis.io/) network: Inference (V3, Backwards Compatible) API. Tagged areas include Company, Healthcare, Surgery, Artificial Intelligence, and Computer-Vision.
 
 
   Uncovr''s developer surface includes authentication, support, and 16 more developer resources.'
@@ -143,7 +143,7 @@ random_paper: 18
 score:
   band: thin
   composite: 31.5
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -153,7 +153,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 29.6
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -170,8 +170,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -188,7 +188,7 @@ tags:
 - Healthcare
 - Surgery
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Medical Documentation
 - Medical Billing
 - Clinical Intelligence

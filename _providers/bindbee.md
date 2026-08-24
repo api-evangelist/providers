@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -279,18 +279,18 @@ rules:
   slug: bindbee-spectral-rules
 score:
   band: emerging
-  composite: 24.8
-  delta: -5.0
+  composite: 25.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 22.3
     developer_ergonomics: 33.3
     discoverability: 53.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 29.8
+  previous_composite: 25.2
   provenance:
     agentic_access: derived
     contracts:
@@ -298,9 +298,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/screenshots/bindbee-2026-06-20T173245.png
 security:
 - kind: authentication

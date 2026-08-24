@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -259,13 +259,13 @@ image: https://avatars.githubusercontent.com/u/71975225?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: fincura-mcp.yml
-  slug: fincura-mcpyml
+  name: Fincura MCP Server
+  slug: fincura-mcp-server
 modified: '2026-07-19'
 name: Fincura
 nav: Providers
 network: true
-overview: 'Fincura publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Api-Key API, Borrowers API, CustomAttributes API, and 17 more. Tagged areas include Financial Services, Lending, Credit Analysis, Financial Spreading, and Banking.
+overview: 'Fincura publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Api-Key API, Borrowers API, CustomAttributes API, and 17 more. Tagged areas include Financial-Services, Lending, Credit Analysis, Financial Spreading, and Banking.
 
 
   The Fincura catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -276,7 +276,7 @@ random_paper: 9
 score:
   band: thin
   composite: 30.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -286,7 +286,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 31.9
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,8 +303,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/screenshots/fincura-2026-07-25T214509.png
 security:
@@ -318,7 +318,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: fincura
 tags:
-- Financial Services
+- Financial-Services
 - Lending
 - Credit Analysis
 - Financial Spreading

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-19'
 name: Huixiaoer
 nav: Providers
 network: true
-overview: Huixiaoer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Events, Meetings, and Venue Booking.
+overview: Huixiaoer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Event, Meetings, and Venue Booking.
 random_paper: 8
 score:
   band: minimal
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huixiaoer/refs/heads/main/screenshots/huixiaoer-2026-07-25T221638.png
 security:
@@ -77,7 +77,7 @@ slug: huixiaoer
 tags:
 - Company
 - Enterprise
-- Events
+- Event
 - Meetings
 - Venue Booking
 - Hospitality

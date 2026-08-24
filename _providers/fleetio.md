@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-06-21'
 name: Fleetio
 nav: Providers
 network: true
-overview: 'Fleetio publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Fuel Entries API, Inspections API, and 8 more. Tagged areas include Fleet Management, Vehicles, Maintenance, Telematics, and SaaS.
+overview: 'Fleetio publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Fuel Entries API, Inspections API, and 8 more. Tagged areas include Fleet Management, Vehicles, Maintenance, Telematics, and Software-as-a-Service.
 
 
   Fleetio''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -205,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/screenshots/fleetio-2026-07-25T214735.png
 security:
@@ -228,6 +228,6 @@ tags:
 - Vehicles
 - Maintenance
 - Telematics
-- SaaS
+- Software-as-a-Service
 website: https://www.fleetio.com
 ---

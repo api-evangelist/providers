@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A powerful web service enabling software applications to retrieve consumer credit data in XML format, supporting lending and financial institution workflows.
@@ -65,7 +65,7 @@ modified: '2026-04-28'
 name: MeridianLink
 nav: Providers
 network: true
-overview: 'MeridianLink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Credit Data, Financial Services, and Lending.
+overview: 'MeridianLink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Credit Data, Financial-Services, and Lending.
 
 
   MeridianLink''s developer surface includes engineering blog and 3 more developer resources.'
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: minimal
   composite: 5.2
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -91,15 +91,15 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 8.5
+  previous_composite: 5.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meridianlink/refs/heads/main/screenshots/meridianlink-2026-06-20T185220.png
 security:
@@ -111,7 +111,7 @@ slug: meridianlink
 tags:
 - Banking
 - Credit Data
-- Financial Services
+- Financial-Services
 - Lending
 website: https://www.meridianlink.com/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: An authorization-gated Model Context Protocol server operated by eSentire on its own API host. Every path under https://api.esentire.com/mcp/ answers 401 UNAUTHORIZED with an RFC 9728 challenge (`WWW-
@@ -116,9 +116,9 @@ description: 'eSentire, Inc. is a Waterloo, Ontario-headquartered cybersecurity 
 image: https://storage.googleapis.com/vendor-risk-production-default-bucket/eSentire-Navy-1000x1000.png_b7cac947-6768-4bd5-9fa7-98997a9e13f7
 layout: provider
 mcp_servers:
-- description: ''
-  name: esentire-mcp.yml
-  slug: esentire-mcpyml
+- description: eSentire operates a Model Context Protocol server on its own API host. It was found by probe, not by documentation — eSentire publishes no developer portal and no page describing this server. The evid
+  name: eSentire MCP Server
+  slug: esentire-mcp-server
 modified: '2026-08-12'
 name: eSentire
 nav: Providers
@@ -144,7 +144,7 @@ scopes:
 score:
   band: emerging
   composite: 20.4
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -154,12 +154,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 21.6
+  previous_composite: 20.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -186,9 +186,9 @@ tags:
 - Managed Detection and Response
 - Threat Intelligence
 - Incident Response
-- Model Context Protocol
+- MCP
 - Agents
-- OAuth
-- SaaS
+- Authentication
+- Software-as-a-Service
 website: https://www.esentire.com/
 ---

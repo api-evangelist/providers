@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-07-02'
 name: Agno
 nav: Providers
 network: true
-overview: 'Agno publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Evals API, Knowledge API, and 4 more. Tagged areas include AI, Agents, Multi-Agent, LLM, and Framework.
+overview: 'Agno publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Evals API, Knowledge API, and 4 more. Tagged areas include Artificial Intelligence, Agents, Multi-Agent, LLM, and Framework.
 
 
   The Agno catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -182,7 +182,7 @@ rules:
 score:
   band: thin
   composite: 38.7
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -192,7 +192,7 @@ score:
     discoverability: 64.8
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 44.5
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -200,9 +200,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/screenshots/agno-agi-2026-07-25T195318.png
 security:
 - kind: authentication
@@ -215,12 +215,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: agno-agi
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Multi-Agent
 - LLM
 - Framework
-- Open Source
+- Open-Source
 - Runtime
 website: https://www.agno.com
 ---

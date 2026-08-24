@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -391,8 +391,8 @@ image: https://www.devoted.com/wp-content/uploads/2021/03/devoted-health-logo.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: devoted-health-mcp.yml
-  slug: devoted-health-mcpyml
+  name: Devoted Health MCP Server
+  slug: devoted-health-mcp-server
 modified: '2026-07-18'
 name: Devoted Health
 nav: Providers
@@ -410,7 +410,7 @@ scopes:
 score:
   band: developing
   composite: 51.2
-  delta: 6.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -420,7 +420,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 45.0
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -437,9 +437,9 @@ score:
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/screenshots/devoted-health-2026-07-25T211822.png
 security:
 - kind: authentication

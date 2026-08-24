@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT. It provides a minimalist, web-based API development suite with real-time collabora
@@ -161,7 +161,7 @@ modified: '2026-04-28'
 name: Hoppscotch
 nav: Providers
 network: true
-overview: 'Hoppscotch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, Clients, GraphQL, Open Source, and Platform.
+overview: 'Hoppscotch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, Clients, GraphQL, Open-Source, and Platform.
 
 
   Hoppscotch''s developer surface includes pricing, documentation, getting-started guide, engineering blog, changelog, release notes, support, and 20 more developer resources.'
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.9
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -187,9 +187,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 43.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 40.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hoppscotch/refs/heads/main/screenshots/hoppscotch-2026-06-20T182832.png
 security:
@@ -202,7 +202,7 @@ tags:
 - API Testing
 - Clients
 - GraphQL
-- Open Source
+- Open-Source
 - Platform
 - REST
 - WebSockets

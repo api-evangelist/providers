@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -108,27 +108,27 @@ modified: '2026-07-20'
 name: Rewind
 nav: Providers
 network: true
-overview: 'Rewind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Backup, Data Recovery, and SaaS.
+overview: 'Rewind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Backup, Data Recovery, and Software-as-a-Service.
 
 
   Rewind''s developer surface includes support, engineering blog, pricing, signup flow, and 13 more developer resources.'
 random_paper: 19
 score:
   band: emerging
-  composite: 20.2
-  delta: -2.3
+  composite: 21.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 22.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -149,7 +149,7 @@ tags:
 - Cloud
 - Backup
 - Data Recovery
-- SaaS
+- Software-as-a-Service
 - Data Protection
 - Disaster Recovery
 - Security

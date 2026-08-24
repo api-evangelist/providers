@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Generate signed URLs for embedding Zenlytic content in host apps.
@@ -144,7 +144,7 @@ random_paper: 0
 score:
   band: developing
   composite: 44.1
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -154,7 +154,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 45.7
+  previous_composite: 44.1
   provenance:
     contracts:
       callable: 100.0
@@ -162,8 +162,8 @@ score:
       marker_coverage: 0.0
       total: 1
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/screenshots/zenlytic-2026-08-17T083051.png
 security:

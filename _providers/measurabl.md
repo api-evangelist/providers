@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'Read and write the ESG data core of the Measurabl platform: portfolios, buildings, spaces, funds, energy and water meters and their readings and bills, waste meters and readings, green building certif'
@@ -190,13 +190,13 @@ image: https://www.measurabl.com/wp-content/uploads/2019/06/cropped-measurabl_ic
 layout: provider
 mcp_servers:
 - description: ''
-  name: measurabl-mcp.yml
-  slug: measurabl-mcpyml
+  name: Measurabl MCP Server
+  slug: measurabl-mcp-server
 modified: '2026-08-01'
 name: Measurabl
 nav: Providers
 network: true
-overview: 'Measurabl publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, ESGx Buildings API, ESGx Securities API, and 2 more. Tagged areas include esg, real-estate, sustainability, carbon-accounting, and energy-management.
+overview: 'Measurabl publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, ESGx Buildings API, ESGx Securities API, and 2 more. Tagged areas include ESG, Real-Estate, Sustainability, Carbon Accounting, and Energy Management.
 
 
   Measurabl''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
@@ -213,7 +213,7 @@ scopes:
 score:
   band: developing
   composite: 53.0
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -223,7 +223,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 50.1
+  previous_composite: 53.0
   provenance:
     conformance: derived
     contracts:
@@ -239,8 +239,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 58.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png
 security:
@@ -262,17 +262,17 @@ security:
   summary_line: SOC 2 Type 2, ISO 27001:2013, GDPR, Privacy Shield
 slug: measurabl
 tags:
-- esg
-- real-estate
-- sustainability
-- carbon-accounting
-- energy-management
-- building-performance
-- climate-risk
-- benchmarking
-- compliance
-- proptech
-- utility-data
-- capital-markets
+- ESG
+- Real-Estate
+- Sustainability
+- Carbon Accounting
+- Energy Management
+- Building Performance
+- Climate Risk
+- Benchmarking
+- Compliance
+- PropTech
+- Utility Data
+- Capital Markets
 website: https://www.measurabl.com/
 ---

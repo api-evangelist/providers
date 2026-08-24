@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ modified: '2026-07-25'
 name: Agricultural Marketing Service
 nav: Providers
 network: true
-overview: 'Agricultural Marketing Service publishes 2 APIs on the [APIs.io](https://apis.io/) network: Offices API and Reports API. Tagged areas include Agriculture, Federal Government, Market News, Livestock, and Dairy.
+overview: 'Agricultural Marketing Service publishes 2 APIs on the [APIs.io](https://apis.io/) network: Offices API and Reports API. Tagged areas include Agriculture, Federal-Government, Market News, Livestock, and Dairy.
 
 
   The Agricultural Marketing Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -272,18 +272,18 @@ rules:
   slug: agricultural-marketing-service-spectral-rules
 score:
   band: thin
-  composite: 34.6
-  delta: -4.4
+  composite: 35.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.1
     developer_ergonomics: 22.6
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 39.0
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -297,8 +297,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/screenshots/agricultural-marketing-service-2026-06-20T170415.png
 security:
@@ -313,7 +313,7 @@ security:
 slug: agricultural-marketing-service
 tags:
 - Agriculture
-- Federal Government
+- Federal-Government
 - Market News
 - Livestock
 - Dairy

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -275,18 +275,18 @@ rules:
   slug: themeparks-wiki-spectral-rules
 score:
   band: emerging
-  composite: 21.0
-  delta: -9.5
+  composite: 21.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 25.6
     developer_ergonomics: 21.4
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 30.5
+  previous_composite: 21.4
   provenance:
     agentic_access: derived
     contracts:
@@ -294,9 +294,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/screenshots/themeparks-wiki-2026-06-20T195346.png
 security:
 - kind: domain-security

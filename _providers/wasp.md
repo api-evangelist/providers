@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -120,7 +120,7 @@ modified: '2026-07-21'
 name: Wasp
 nav: Providers
 network: true
-overview: 'Wasp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Web Framework, Full Stack, and Developer Tools.
+overview: 'Wasp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Web Framework, Full-Stack, and Developer Tools.
 
 
   Wasp''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, CLI, changelog, and 13 more developer resources.'
@@ -128,7 +128,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 25.6
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -138,11 +138,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 24.8
+  previous_composite: 25.6
   provenance:
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -158,12 +158,12 @@ tags:
 - Company
 - Ai Enterprise Software
 - Web Framework
-- Full Stack
+- Full-Stack
 - Developer Tools
 - React
 - Node.js
 - TypeScript
-- Open Source
+- Open-Source
 - AI Coding
 website: https://wasp.sh
 ---

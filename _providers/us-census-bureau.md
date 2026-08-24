@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -401,19 +401,19 @@ rules:
     warn: 3
   slug: us-census-bureau-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 53.2
-  delta: 6.8
+  band: strong
+  composite: 54.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 45.5
+    contract_governance: 54.5
     contract_quality: 62.2
     developer_ergonomics: 45.2
     discoverability: 61.1
-    governance: 45.5
+    governance: 54.5
     operational_transparency: 50.0
-  previous_composite: 46.4
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -427,9 +427,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/screenshots/us-census-bureau-2026-06-20T200557.png
 security:
 - kind: authentication

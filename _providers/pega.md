@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Constellation Digital Experience (DX) API — REST endpoints external systems use to create Launchpad/Platform cases and data objects, read them, and advance them by running assignment actions. Auth
@@ -158,7 +158,7 @@ modified: '2026-07-20'
 name: Pega
 nav: Providers
 network: true
-overview: 'Pega publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Low-Code, Business Process Management, Workflow Automation, and CRM.
+overview: 'Pega publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Low-Code, Business Process Management, Workflow-Automation, and CRM.
 
 
   Pega''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -184,8 +184,8 @@ score:
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -205,7 +205,7 @@ tags:
 - Company
 - Low-Code
 - Business Process Management
-- Workflow Automation
+- Workflow-Automation
 - CRM
 - Decisioning
 - Artificial Intelligence

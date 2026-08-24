@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Rescale's token-authenticated REST API (v2) for creating, submitting, monitoring and managing simulation jobs, uploading and downloading files, listing available software (analyses) and hardware (core
@@ -141,9 +141,9 @@ description: Rescale is a high-performance computing (HPC) and simulation platfo
 image: https://rescale.com/wp-content/uploads/LinkedIn-Header-Employee.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rescale-mcp.yml
-  slug: rescale-mcpyml
+- description: Rescale hosts an official remote MCP server over HTTP, letting any MCP-compatible client (Claude Code, Claude Desktop, Cursor, VS Code Copilot, Windsurf, Gemini CLI) drive the Rescale platform in natu
+  name: Rescale MCP Server
+  slug: rescale-mcp-server
 modified: '2026-07-20'
 name: Rescale
 nav: Providers
@@ -156,7 +156,7 @@ random_paper: 0
 score:
   band: thin
   composite: 32.5
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -166,12 +166,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.9
+  previous_composite: 32.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -192,7 +192,7 @@ tags:
 - CAE
 - HPC
 - AI Physics
-- Jobs
+- Job
 - Compute
 website: https://rescale.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -860,18 +860,18 @@ rules:
   slug: cumulocity-rules
 score:
   band: strong
-  composite: 62.7
-  delta: -6.0
+  composite: 63.0
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 73.8
     developer_ergonomics: 66.7
     discoverability: 50.0
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 47.4
-  previous_composite: 68.7
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     contracts:
@@ -879,9 +879,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulocity/refs/heads/main/screenshots/cumulocity-2026-06-20T175331.png
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: HSBC group corporate transaction-banking API for initiating outbound payments programmatically, documented on HSBC's Developer Portal and available to wholesale clients including HSBC USA corporate re
@@ -107,7 +107,7 @@ modified: '2026-07-23'
 name: HSBC USA
 nav: Providers
 network: true
-overview: 'HSBC USA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Corporate Banking, and Transaction Banking.
+overview: 'HSBC USA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Corporate Banking, and Transaction Banking.
 
 
   HSBC USA''s developer surface includes engineering blog, signup flow, documentation, support, and 13 more developer resources.'
@@ -115,7 +115,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 17.9
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -125,15 +125,15 @@ score:
     discoverability: 77.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 19.5
+  previous_composite: 17.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 20.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-usa/refs/heads/main/screenshots/hsbc-usa-2026-07-25T221547.png
 security:
@@ -147,7 +147,7 @@ security:
   summary_line: Bugcrowd · security.txt · contact published
 slug: hsbc-usa
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Corporate Banking

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Catalog API from ZenAdmin — 3 operation(s) for catalog.
@@ -139,9 +139,9 @@ description: 'ZenAdmin is an all-in-one IT management platform for global teams,
 image: https://www.zenadmin.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: zenadmin-mcp.yml
-  slug: zenadmin-mcpyml
+- description: 'Candidate Model Context Protocol tool surface DERIVED from the ZenAdmin External API v1 operations. ZenAdmin does not publish an official hosted/remote MCP server as of the enrichment date; this is a '
+  name: ZenAdmin MCP Server
+  slug: zenadmin-mcp-server
 modified: '2026-07-21'
 name: ZenAdmin
 nav: Providers
@@ -157,7 +157,7 @@ random_paper: 14
 score:
   band: thin
   composite: 28.2
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -167,7 +167,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 28.3
+  previous_composite: 28.2
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,6 +200,6 @@ tags:
 - Identity and Access Management
 - IT Procurement
 - Employee Lifecycle
-- Webhooks
+- Webhook
 website: https://zenadmin.ai
 ---

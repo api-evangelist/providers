@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ modified: 2026-06-12
 name: Pleo
 nav: Providers
 network: true
-overview: 'Pleo publishes 21 APIs on the [APIs.io](https://apis.io/) network, including accounting-entries API, accounting-entries-external API, AccountingEntryEnrichmentV2 API, and 18 more. Tagged areas include Expense Management, Company Cards, Spend Management, Reimbursements, and Accounting.
+overview: 'Pleo publishes 21 APIs on the [APIs.io](https://apis.io/) network, including accounting-entries API, accounting-entries-external API, AccountingEntryEnrichmentV2 API, and 18 more. Tagged areas include Expense Management, Company Cards, Spend Management, Reimbursement, and Accounting.
 
 
   The Pleo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -363,7 +363,7 @@ rules:
 score:
   band: developing
   composite: 46.7
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -373,7 +373,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 48.8
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -387,8 +387,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/screenshots/pleo-2026-06-20T191811.png
 security:
@@ -405,9 +405,9 @@ tags:
 - Expense Management
 - Company Cards
 - Spend Management
-- Reimbursements
+- Reimbursement
 - Accounting
-- FinTech
+- Fintech
 - Finance
 website: https://www.pleo.io
 ---

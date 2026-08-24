@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Kale
 nav: Providers
 network: true
-overview: 'Kale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Creator Economy, User-Generated Content, and Influencer Marketing.
+overview: 'Kale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Creator Economy, User Generated Content, and Influencer Marketing.
 
 
   Kale''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 14
 score:
   band: minimal
   composite: 10.6
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -86,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kale/refs/heads/main/screenshots/kale-2026-07-25T223431.png
 security:
@@ -101,10 +101,10 @@ tags:
 - Company
 - Fintech
 - Creator Economy
-- User-Generated Content
+- User Generated Content
 - Influencer Marketing
 - Rewards
-- Social Media
+- Social-Media
 - Marketing
 website: https://www.getkale.com
 ---

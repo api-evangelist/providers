@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -135,7 +135,7 @@ modified: '2026-07-03'
 name: Photon Engine
 nav: Providers
 network: true
-overview: 'Photon Engine publishes 3 APIs on the [APIs.io](https://apis.io/) network: Photon Realtime Transport Protocol, Custom Authentication API, and Room Lifecycle WebHooks API. Tagged areas include Gaming, Multiplayer, Realtime, Netcode, and Game Networking.
+overview: 'Photon Engine publishes 3 APIs on the [APIs.io](https://apis.io/) network: Photon Realtime Transport Protocol, Custom Authentication API, and Room Lifecycle WebHooks API. Tagged areas include Gaming, Multiplayer, Real-Time, Netcode, and Game Networking.
 
 
   The Photon Engine catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -166,7 +166,7 @@ rules:
 score:
   band: thin
   composite: 35.3
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -176,7 +176,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 42.3
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -184,9 +184,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/screenshots/photonengine-2026-08-17T081233.png
 security:
 - kind: domain-security
@@ -201,7 +201,7 @@ slug: photonengine
 tags:
 - Gaming
 - Multiplayer
-- Realtime
+- Real-Time
 - Netcode
 - Game Networking
 - WebSocket

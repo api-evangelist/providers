@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 12
 asyncapis:
@@ -157,16 +157,16 @@ rules:
   slug: websockets-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.6
-  delta: -6.7
+  composite: 22.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 56.3
     developer_ergonomics: 0.0
     discoverability: 50.0
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 2.6
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -174,10 +174,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 29.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 22.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/websockets/refs/heads/main/screenshots/websockets-2026-06-20T201337.png
 slug: websockets
 tags:

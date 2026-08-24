@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -169,7 +169,7 @@ modified: '2026-05-24'
 name: Jumia
 nav: Providers
 network: true
-overview: 'Jumia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Ecommerce, Marketplace, Africa, Pan-African, and Retail.
+overview: 'Jumia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Africa, Pan-African, and Retail.
 
 
   Jumia''s developer surface includes GitHub presence, engineering blog, YouTube channel, and 29 more developer resources.'
@@ -177,7 +177,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 5.1
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -187,15 +187,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 8.8
+  previous_composite: 5.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumia/refs/heads/main/screenshots/jumia-2026-06-20T183828.png
 security:
@@ -209,7 +209,7 @@ security:
   summary_line: Hackerone
 slug: jumia
 tags:
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Africa
 - Pan-African

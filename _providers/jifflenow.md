@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Jifflenow REST API exposes the meeting-automation core of Cvent Jifflenow as JSON over HTTPS. Documented modules cover user management (list users, push users into an event, block a user's calenda
@@ -147,7 +147,7 @@ modified: '2026-08-13'
 name: Jifflenow
 nav: Providers
 network: true
-overview: 'Jifflenow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, Events, Meetings, and Scheduling.
+overview: 'Jifflenow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, Event, Meetings, and Scheduling.
 
 
   Jifflenow''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 18 more developer resources.'
@@ -168,7 +168,7 @@ scopes:
 score:
   band: thin
   composite: 34.8
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -178,11 +178,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 33.0
+  previous_composite: 34.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jifflenow/refs/heads/main/screenshots/jifflenow-2026-07-25T223147.png
 security:
@@ -202,7 +202,7 @@ slug: jifflenow
 tags:
 - Company
 - Automation
-- Events
+- Event
 - Meetings
 - Scheduling
 - Event Marketing

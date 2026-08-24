@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -155,13 +155,13 @@ image: https://lightyear.com/cms/OG_Default_EN_7a4714f5fe.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lightyear-mcp.yml
-  slug: lightyear-mcpyml
+  name: Lightyear MCP Server
+  slug: lightyear-mcp-server
 modified: '2026-07-19'
 name: Lightyear
 nav: Providers
 network: true
-overview: 'Lightyear is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Investing, Brokerage, and Stocks.
+overview: 'Lightyear is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Investing, Brokerage, and Stocks.
 
 
   Lightyear''s developer surface includes pricing, signup flow, engineering blog, support, authentication, changelog, and 23 more developer resources.'
@@ -174,7 +174,7 @@ scopes:
 score:
   band: thin
   composite: 32.2
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -184,7 +184,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 34.0
+  previous_composite: 32.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -194,8 +194,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -209,7 +209,7 @@ security:
 slug: lightyear
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investing
 - Brokerage
 - Stocks

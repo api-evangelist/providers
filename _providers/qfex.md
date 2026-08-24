@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'Multiplexed WebSocket gateway for all QFEX real-time market data streams: order book, trades, candles, BBO, mark price, funding rate, open interest, market stats and reference data. Documented as Asyn'
@@ -202,8 +202,8 @@ image: https://qfex.com/qfex-logo-with-text-for-metadata.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: qfex-mcp.yml
-  slug: qfex-mcpyml
+  name: Qfex MCP Server
+  slug: qfex-mcp-server
 modified: '2026-07-20'
 name: Qfex
 nav: Providers
@@ -219,7 +219,7 @@ random_paper: 16
 score:
   band: strong
   composite: 55.2
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -229,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 53.9
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +245,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/screenshots/qfex-2026-08-17T081412.png
 security:
@@ -273,9 +273,9 @@ tags:
 - FX
 - Commodities
 - Equities
-- Financial Services
+- Financial-Services
 - CLI
 - Fintech
-- Real-time
+- Real-Time
 website: https://docs.qfex.com
 ---

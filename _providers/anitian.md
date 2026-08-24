@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The HTTP API behind the Anitian SecureCloud and FedFlex console at securecloud.anitian.com. Anitian documents (in its FedRAMP 20x pilot README) that "an API is available for auditors to download evide
@@ -130,7 +130,7 @@ random_paper: 5
 score:
   band: thin
   composite: 26.9
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -140,7 +140,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 28.6
+  previous_composite: 26.9
   provenance:
     conformance: first-party
   regulatory:
@@ -149,8 +149,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anitian/refs/heads/main/screenshots/anitian-2026-08-07T161415.png
 security:

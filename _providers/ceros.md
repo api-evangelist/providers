@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The accounts API from Ceros — 1 operation(s) for accounts.
@@ -207,8 +207,8 @@ image: https://www.ceros.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: ceros-mcp.yml
-  slug: ceros-mcpyml
+  name: Ceros MCP Server
+  slug: ceros-mcp-server
 modified: '2026-08-09'
 name: Ceros
 nav: Providers
@@ -221,7 +221,7 @@ random_paper: 15
 score:
   band: developing
   composite: 52.8
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 52.7
+  previous_composite: 52.8
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +241,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/screenshots/ceros-2026-08-17T080810.png
 security:
@@ -268,7 +268,7 @@ tags:
 - CMS Integration
 - Marketing
 - Design
-- No Code
+- No-Code
 - Content Delivery
 - Media and Publishing
 - SDK

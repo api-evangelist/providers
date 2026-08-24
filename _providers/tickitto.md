@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -203,13 +203,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tickitto.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: tickitto-mcp.yml
-  slug: tickitto-mcpyml
+  name: Tickitto MCP Server
+  slug: tickitto-mcp-server
 modified: '2026-07-21'
 name: Tickitto
 nav: Providers
 network: true
-overview: 'Tickitto publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Availability API, Basket API, and 5 more. Tagged areas include Company, Ticketing, Events, Marketplace, and Travel & Experiences.
+overview: 'Tickitto publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Availability API, Basket API, and 5 more. Tagged areas include Company, Ticketing, Event, Marketplace, and Travel & Experiences.
 
 
   The Tickitto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -220,7 +220,7 @@ random_paper: 14
 score:
   band: developing
   composite: 41.3
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 39.7
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,8 +247,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -263,7 +263,7 @@ slug: tickitto
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Marketplace
 - Travel & Experiences
 - Entertainment

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1250
   human_in_the_loop: 41
@@ -1597,18 +1597,18 @@ rules:
   slug: kaltura-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.7
-  delta: -5.8
+  composite: 44.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 59.6
     developer_ergonomics: 23.8
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 48.5
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1616,9 +1616,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 222
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/screenshots/kaltura-2026-06-20T183911.png
 security:
 - kind: authentication
@@ -1639,6 +1639,6 @@ tags:
 - Analytics
 - Virtual Classroom
 - OTT
-- Open Source
+- Open-Source
 website: https://corp.kaltura.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -233,8 +233,8 @@ image: https://cdn.prod.website-files.com/687e48ff717957204d88189a/69de85d328817
 layout: provider
 mcp_servers:
 - description: ''
-  name: spektr-mcp.yml
-  slug: spektr-mcpyml
+  name: Spektr MCP Server
+  slug: spektr-mcp-server
 modified: '2026-07-21'
 name: Spektr
 nav: Providers
@@ -250,7 +250,7 @@ random_paper: 14
 score:
   band: developing
   composite: 52.9
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -260,7 +260,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 55.2
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,8 +271,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/screenshots/spektr-2026-08-17T082229.png
 security:
@@ -297,7 +297,7 @@ tags:
 - KYC
 - Onboarding
 - Transaction Monitoring
-- Financial Services
+- Financial-Services
 - Artificial Intelligence
 - Enterprise
 website: https://spektr.com

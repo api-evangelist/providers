@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Gamma Public API generates presentations, documents, websites, and social posts from text. Everything runs asynchronously: create a generation, poll for status, and retrieve the result (gammaUrl, '
@@ -151,8 +151,8 @@ image: https://github.com/gamma-app.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: gammaapp-mcp.yml
-  slug: gammaapp-mcpyml
+  name: Gamma.app MCP Server
+  slug: gammaapp-mcp-server
 modified: '2026-07-19'
 name: Gamma.app
 nav: Providers
@@ -170,7 +170,7 @@ scopes:
 score:
   band: thin
   composite: 34.2
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -180,13 +180,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 39.9
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gammaapp/refs/heads/main/screenshots/gammaapp-2026-07-25T215431.png
 security:
 - kind: authentication
@@ -212,6 +212,6 @@ tags:
 - Productivity
 - MCP
 - Websites
-- Social Media
+- Social-Media
 website: https://developers.gamma.app/
 ---

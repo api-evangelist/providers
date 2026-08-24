@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
@@ -167,9 +167,9 @@ description: Archive (Archive Technologies, Inc.) is an AI-powered creator and c
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/archive-technologies.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: archive-technologies-mcp.yml
-  slug: archive-technologies-mcpyml
+- description: Archive operates an official hosted remote MCP server at https://app.archive.com/api/v2/mcp, discoverable via RFC 9728 protected-resource metadata (well-known/archive-technologies-oauth-protected-reso
+  name: Archive Technologies MCP Server
+  slug: archive-technologies-mcp-server
 modified: '2026-08-13'
 name: Archive Technologies
 nav: Providers
@@ -195,7 +195,7 @@ scopes:
 score:
   band: developing
   composite: 51.5
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -205,13 +205,13 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 56.4
+  previous_composite: 51.5
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/screenshots/archive-technologies-2026-07-25T201038.png
 security:
@@ -230,7 +230,7 @@ tags:
 - Influencer Marketing
 - Social Listening
 - User Generated Content
-- E-commerce
+- E-Commerce
 - GraphQL
 - MCP
 website: https://api-docs.archive.com

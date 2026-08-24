@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -365,13 +365,13 @@ image: https://cdn.prod.website-files.com/61027bb0bc31fc6cafefbc0c/6387709b977c7
 layout: provider
 mcp_servers:
 - description: ''
-  name: catchpoint-mcp.yml
-  slug: catchpoint-mcpyml
+  name: Catchpoint MCP Server
+  slug: catchpoint-mcp-server
 modified: '2026-07-18'
 name: Catchpoint
 nav: Providers
 network: true
-overview: 'Catchpoint publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Account API, Alerts API, ASNs API, and 28 more. Tagged areas include Company, Devops, Monitoring, Observability, and Internet Performance Monitoring.
+overview: 'Catchpoint publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Account API, Alerts API, ASNs API, and 28 more. Tagged areas include Company, DevOps, Monitoring, Observability, and Internet Performance Monitoring.
 
 
   The Catchpoint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -382,7 +382,7 @@ random_paper: 19
 score:
   band: developing
   composite: 53.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -392,7 +392,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 53.8
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -403,8 +403,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/screenshots/catchpoint-2026-07-25T204806.png
 security:
@@ -423,7 +423,7 @@ security:
 slug: catchpoint
 tags:
 - Company
-- Devops
+- DevOps
 - Monitoring
 - Observability
 - Internet Performance Monitoring

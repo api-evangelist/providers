@@ -30,7 +30,7 @@ tags:
 - Early Stage
 - Consumer
 - Fintech
-- AI
+- Artificial Intelligence
 - Climate
 - Brooklyn
 - New York

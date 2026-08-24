@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 7
 common:
@@ -104,7 +104,7 @@ modified: '2026-05-02'
 name: RCS Capital
 nav: Providers
 network: true
-overview: 'RCS Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Broker-Dealer, Cetera Financial Group, Defunct, Financial Services, and Independent Advisor.
+overview: 'RCS Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Broker-Dealer, Cetera Financial Group, Defunct, Financial-Services, and Independent Advisor.
 
 
   The RCS Capital catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -142,7 +142,7 @@ rules:
 score:
   band: minimal
   composite: 10.5
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -158,16 +158,16 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 18.2
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/screenshots/rcs-capital-2026-06-20T192624.png
 security:
 - kind: domain-security
@@ -179,7 +179,7 @@ tags:
 - Broker-Dealer
 - Cetera Financial Group
 - Defunct
-- Financial Services
+- Financial-Services
 - Independent Advisor
 - Investment Banking
 - Wealth Management

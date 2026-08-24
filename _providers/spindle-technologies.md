@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -44,11 +48,11 @@ created: '2026-07-17'
 description: Spindle Technologies (spindle.ai) was an Accel-backed AI startup that was acquired by Salesforce; as of this enrichment pass its entire domain — including the docs, developer, api, and app subdomains — issues a 301 redirect to salesforce.com/agentforce, so it no longer operates an independent developer portal, API, documentation, or SDK surface. This profile is retained as a network record of the company and its acquisition. No standalone API artifacts could be harvested. Domain-level security posture (TLS/DNSSEC/SPF/DMARC on spindle.ai) was probed and captured.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spindle-technologies.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-21'
 name: Spindle Technologies
 nav: Providers
 network: true
-overview: Spindle Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Agents, and Salesforce.
+overview: Spindle Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, Salesforce, and Acquired.
 random_paper: 1
 score:
   band: minimal
@@ -64,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -75,7 +79,6 @@ security:
 slug: spindle-technologies
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Agents
 - Salesforce

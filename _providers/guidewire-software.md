@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -124,7 +124,7 @@ modified: '2026-07-19'
 name: Guidewire Software
 nav: Providers
 network: true
-overview: 'Guidewire Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Property and Casualty, and Cloud.
+overview: 'Guidewire Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Property and Casualty, and Cloud.
 
 
   Guidewire Software''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 15 more developer resources.'
@@ -132,7 +132,7 @@ random_paper: 16
 score:
   band: thin
   composite: 30.8
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -142,7 +142,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 31.4
+  previous_composite: 30.8
   provenance:
     conformance: first-party
   regulatory:
@@ -151,8 +151,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guidewire-software/refs/heads/main/screenshots/guidewire-software-2026-07-25T220425.png
 security:
@@ -172,13 +172,12 @@ slug: guidewire-software
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Cloud
 - Policy Administration
 - Claims Management
 - Billing
-- APIs
 - Integration
 website: https://www.guidewire.com/
 ---

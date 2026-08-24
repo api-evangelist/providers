@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -216,8 +216,8 @@ image: http://static1.squarespace.com/static/652cbb3fb1f91809d4610dc0/t/6a3dc3f8
 layout: provider
 mcp_servers:
 - description: ''
-  name: bear-robotics-mcp.yml
-  slug: bear-robotics-mcpyml
+  name: Bear Robotics MCP Server
+  slug: bear-robotics-mcp-server
 modified: '2026-08-06'
 name: Bear Robotics
 nav: Providers
@@ -233,7 +233,7 @@ random_paper: 1
 score:
   band: developing
   composite: 48.3
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 49.3
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/screenshots/bear-robotics-2026-08-07T162236.png
 security:
@@ -277,7 +277,7 @@ tags:
 - Logistics
 - gRPC
 - Protobuf
-- Webhooks
+- Webhook
 - Internet of Things
 - Company
 website: https://www.bearrobotics.ai/

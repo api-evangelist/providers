@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -254,8 +254,8 @@ image: https://paragraph.com/og.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: paragraph-mcp.yml
-  slug: paragraph-mcpyml
+  name: Paragraph MCP Server
+  slug: paragraph-mcp-server
 modified: '2026-08-13'
 name: Paragraph
 nav: Providers
@@ -281,7 +281,7 @@ scopes:
 score:
   band: strong
   composite: 61.2
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -291,7 +291,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 60.2
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,8 +302,8 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/screenshots/paragraph-2026-08-07T191412.png
 security:
@@ -324,6 +324,5 @@ tags:
 - Content
 - Blogging
 - Creator Economy
-- API
 website: https://paragraph.com
 ---

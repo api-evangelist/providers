@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -188,13 +188,13 @@ image: https://cdn.prod.website-files.com/69eee532313396005f3a101b/6a332287fbe7e
 layout: provider
 mcp_servers:
 - description: ''
-  name: gumgum-mcp.yml
-  slug: gumgum-mcpyml
+  name: GumGum MCP Server
+  slug: gumgum-mcp-server
 modified: '2026-08-01'
 name: GumGum
 nav: Providers
 network: true
-overview: 'GumGum publishes 1 API on the [APIs.io](https://apis.io/) network: Contextual API. Tagged areas include advertising, adtech, contextual-advertising, brand-safety, and content-classification.
+overview: 'GumGum publishes 1 API on the [APIs.io](https://apis.io/) network: Contextual API. Tagged areas include Advertising, AdTech, Contextual Advertising, Brand Safety, and Content Classification.
 
 
   The GumGum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -205,7 +205,7 @@ random_paper: 7
 score:
   band: developing
   composite: 54.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -215,7 +215,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 54.5
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,8 +226,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/screenshots/gumgum-2026-08-07T165907.png
 security:
@@ -241,19 +241,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: gumgum
 tags:
-- advertising
-- adtech
-- contextual-advertising
-- brand-safety
-- content-classification
-- computer-vision
-- natural-language-processing
-- video-analysis
-- image-analysis
-- connected-tv
-- header-bidding
-- programmatic-advertising
+- Advertising
+- AdTech
+- Contextual Advertising
+- Brand Safety
+- Content Classification
+- Computer-Vision
+- Natural Language Processing
+- Video Analysis
+- Image Analysis
+- Connected TV
+- Header Bidding
+- Programmatic Advertising
 - iab-taxonomy
-- content-moderation
+- Content Moderation
 website: https://gumgum.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-04-28'
 name: IHS
 nav: Providers
 network: true
-overview: IHS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Energy, Financial Services, Information Services, and Legacy.
+overview: IHS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Energy, Financial-Services, Information Services, and Legacy.
 press:
 - date: '2026-05-25'
   title: Indian Health Service to Debut EHR in 2025 Amid New ...
@@ -81,7 +81,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 3.3
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -91,15 +91,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.5
+  previous_composite: 3.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ihs/refs/heads/main/screenshots/ihs-2026-06-20T183228.png
 security:
@@ -111,7 +111,7 @@ slug: ihs
 tags:
 - Analytics
 - Energy
-- Financial Services
+- Financial-Services
 - Information Services
 - Legacy
 website: https://www.spglobal.com/

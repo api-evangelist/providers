@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ modified: '2026-05-19'
 name: Amazon FinSpace
 nav: Providers
 network: true
-overview: 'Amazon FinSpace publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Environments API, Kdb Clusters API, Kdb Databases API, and 3 more. Tagged areas include Capital Markets, Data Analytics, Data Management, and Financial Services.
+overview: 'Amazon FinSpace publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Environments API, Kdb Clusters API, Kdb Databases API, and 3 more. Tagged areas include Capital Markets, Data Analytics, Data Management, and Financial-Services.
 
 
   The Amazon FinSpace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -311,18 +311,18 @@ rules:
   slug: amazon-finspace-spectral-rules
 score:
   band: developing
-  composite: 42.4
-  delta: -4.8
+  composite: 42.9
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 33.7
     developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 47.2
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -330,8 +330,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/screenshots/amazon-finspace-2026-06-20T171652.png
 security:
@@ -356,7 +356,7 @@ tags:
 - Capital Markets
 - Data Analytics
 - Data Management
-- Financial Services
+- Financial-Services
 use_cases:
 - description: Ingest, store, and query high-frequency market tick data (trades, quotes, order books) using kdb+ clusters.
   name: Tick Data Management

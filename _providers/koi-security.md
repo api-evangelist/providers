@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Extension risk assessment.
@@ -159,8 +159,8 @@ image: https://cdn.prod.website-files.com/67bf17e426d92bdda54af956/689d7637775a7
 layout: provider
 mcp_servers:
 - description: ''
-  name: koi-security-mcp.yml
-  slug: koi-security-mcpyml
+  name: Koi Security MCP Server
+  slug: koi-security-mcp-server
 modified: '2026-07-19'
 name: Koi Security
 nav: Providers
@@ -173,7 +173,7 @@ random_paper: 17
 score:
   band: thin
   composite: 37.7
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -183,7 +183,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 44.0
+  previous_composite: 37.7
   provenance:
     conformance: derived
     contracts:
@@ -193,9 +193,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koi-security/refs/heads/main/screenshots/koi-security-2026-07-25T224118.png
 security:
 - kind: authentication

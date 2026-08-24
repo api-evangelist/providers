@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -185,14 +185,14 @@ description: 'Knight Frank LLP is a London-headquartered global real estate cons
 image: https://www.knightfrank.com/icons/apple-touch-icon-180x180.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: knight-frank-mcp.yml
-  slug: knight-frank-mcpyml
+- description: Knight Frank operates NO Model Context Protocol server. Searches on 2026-07-26 found no MCP server in the provider's estate, no @knightfrank package on npm, no entry in any public MCP registry, no /mc
+  name: Knight Frank MCP Server
+  slug: knight-frank-mcp-server
 modified: '2026-07-26'
 name: Knight Frank
 nav: Providers
 network: true
-overview: 'Knight Frank publishes 1 API on the [APIs.io](https://apis.io/) network: KnightFrank Api v3. Tagged areas include Real Estate, United Kingdom, Property Listings, Commercial Real Estate, and Valuation.
+overview: 'Knight Frank publishes 1 API on the [APIs.io](https://apis.io/) network: KnightFrank Api v3. Tagged areas include Real-Estate, United Kingdom, Property Listings, Commercial Real Estate, and Valuation.
 
 
   Knight Frank''s developer surface includes authentication, support, engineering blog, and 28 more developer resources.'
@@ -205,7 +205,7 @@ scopes:
 score:
   band: thin
   composite: 30.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -215,7 +215,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 31.3
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +232,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png
 security:
@@ -247,7 +247,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: knight-frank
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Commercial Real Estate

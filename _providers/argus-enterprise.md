@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -606,7 +606,7 @@ modified: '2026-05-19'
 name: ARGUS Enterprise
 nav: Providers
 network: true
-overview: 'ARGUS Enterprise publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cash Flows API, Events API, and 9 more. Tagged areas include Altus Group, Asset Management, Cash Flow Modeling, Commercial Real Estate, and Portfolio Management.
+overview: 'ARGUS Enterprise publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cash Flows API, Events API, and 9 more. Tagged areas include Altus Group, Asset Management, Cash Flow Modeling, Commercial Real Estate, and Portfolio-Management.
 
 
   The ARGUS Enterprise catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -646,18 +646,18 @@ rules:
   slug: argus-enterprise-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: -7.7
+  composite: 44.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.4
     developer_ergonomics: 54.8
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 52.0
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -665,9 +665,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/screenshots/argus-enterprise-2026-08-17T082506.png
 security:
 - kind: authentication
@@ -684,7 +684,7 @@ tags:
 - Asset Management
 - Cash Flow Modeling
 - Commercial Real Estate
-- Portfolio Management
+- Portfolio-Management
 - Valuation
 use_cases:
 - description: Produce DCF and yield-based valuations for commercial real estate appraisals and acquisitions.

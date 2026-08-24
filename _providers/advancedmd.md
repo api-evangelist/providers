@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -241,9 +241,9 @@ description: AdvancedMD is a cloud practice-management, medical-billing and elec
 image: https://www.advancedmd.com/wp-content/uploads/2025/06/cropped-bird_solid_5121-300x300.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: advancedmd-mcp.yml
-  slug: advancedmd-mcpyml
+- description: Candidate MCP tool surface for AdvancedMD, one tool per published REST operation across the FHIR Single API, the FHIR Bulk Data API and the legacy Application Access APIs. AdvancedMD publishes no host
+  name: AdvancedMD MCP Server
+  slug: advancedmd-mcp-server
 modified: '2026-08-15'
 name: AdvancedMD
 nav: Providers
@@ -269,7 +269,7 @@ scopes:
 score:
   band: strong
   composite: 58.6
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -279,7 +279,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 57.5
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,8 +296,8 @@ score:
     regime: Health
     regime_id: health
     score: 77.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/screenshots/advancedmd-2026-08-07T160939.png
 security:

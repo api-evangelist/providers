@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -1477,8 +1477,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: zendesk-mcp.yml
-  slug: zendesk-mcpyml
+  name: Zendesk MCP Server
+  slug: zendesk-mcp-server
 modified: '2026-06-20'
 name: Zendesk
 nav: Providers
@@ -1539,18 +1539,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.0
-  delta: -2.4
+  composite: 59.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 28.0
+    contract_governance: 30.3
     contract_quality: 58.7
     developer_ergonomics: 61.9
-    discoverability: 57.4
-    governance: 28.0
+    discoverability: 75.9
+    governance: 30.3
     operational_transparency: 55.3
-  previous_composite: 59.4
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1560,8 +1560,8 @@ score:
       marker_coverage: 0.0
       total: 80
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:

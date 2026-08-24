@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST/JSON API for single-product (ASIN) extraction, search results, and async batch scraping across 20 Amazon marketplaces. API key auth via ?api_key= query parameter; only HTTP 2xx responses are bill
@@ -33,7 +33,7 @@ modified: '2026-07-16'
 name: Amazon Scraper API
 nav: Providers
 network: true
-overview: Amazon Scraper API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include web scraping, data extraction, e-commerce data, amazon, and marketplace data.
+overview: Amazon Scraper API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Web Scraping, Data Extraction, E-Commerce Data, Amazon, and marketplace data.
 random_paper: 17
 score:
   band: minimal
@@ -55,20 +55,20 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/screenshots/amazon-scraper-api-2026-07-25T200010.png
 slug: amazon-scraper-api
 tags:
-- web scraping
-- data extraction
-- e-commerce data
-- amazon
+- Web Scraping
+- Data Extraction
+- E-Commerce Data
+- Amazon
 - marketplace data
-- product intelligence
-- price monitoring
-- competitor research
-- mcp
-- agent tooling
+- Product Intelligence
+- Price Monitoring
+- Competitor Research
+- MCP
+- Agent Tooling
 ---

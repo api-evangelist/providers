@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'Programmatic access to an organization''s media catalog - sermons, series, podcasts, blogs, and announcements - for syncing content into external sites, AI/search pipelines, and custom apps. Endpoints '
@@ -93,7 +93,7 @@ modified: '2026-07-03'
 name: Subsplash
 nav: Providers
 network: true
-overview: 'Subsplash publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Church, Ministry, Nonprofit, Giving, and Media.
+overview: 'Subsplash publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Church, Ministry, Non-Profit, Giving, and Media.
 
 
   Subsplash''s developer surface includes documentation, signup flow, engineering blog, and 6 more developer resources.'
@@ -105,7 +105,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 17.2
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -115,9 +115,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 19.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -132,7 +132,7 @@ slug: subsplash
 tags:
 - Church
 - Ministry
-- Nonprofit
+- Non-Profit
 - Giving
 - Media
 - Church Management

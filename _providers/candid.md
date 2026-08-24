@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ modified: '2026-05-19'
 name: Candid
 nav: Providers
 network: true
-overview: 'Candid publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lookup API and Search API. Tagged areas include Charities, Donations, Non-Profits, Philanthropy, and Foundations.
+overview: 'Candid publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lookup API and Search API. Tagged areas include Charities, Donations, Non-Profit, Philanthropy, and Foundations.
 
 
   Candid''s developer surface includes authentication, support, and 12 more developer resources.'
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.4
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 37.3
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/screenshots/candid-2026-06-20T173922.png
 security:
@@ -201,7 +201,7 @@ slug: candid
 tags:
 - Charities
 - Donations
-- Non-Profits
+- Non-Profit
 - Philanthropy
 - Foundations
 - Grants

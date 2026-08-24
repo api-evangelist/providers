@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -251,8 +251,8 @@ image: https://storage.googleapis.com/embat-production.appspot.com/assets/favico
 layout: provider
 mcp_servers:
 - description: ''
-  name: embat-mcp.yml
-  slug: embat-mcpyml
+  name: Embat MCP Server
+  slug: embat-mcp-server
 modified: '2026-07-19'
 name: Embat
 nav: Providers
@@ -265,7 +265,7 @@ random_paper: 17
 score:
   band: thin
   composite: 29.6
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -275,7 +275,7 @@ score:
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 30.4
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,8 +292,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/screenshots/embat-2026-07-25T213227.png
 security:

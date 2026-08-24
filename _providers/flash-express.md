@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The FlashExpress Open API is the merchant-facing integration surface for Flash Express parcel logistics in Thailand. All calls are HTTPS POST with an application/x-www-form-urlencoded body and a JSON '
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: -9.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -176,12 +176,12 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 46.1
+  previous_composite: 37.1
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flash-express/refs/heads/main/screenshots/flash-express-2026-08-17T080933.png
 security:
 - kind: authentication
@@ -201,10 +201,10 @@ tags:
 - Parcel Tracking
 - E-Commerce
 - Last Mile
-- Courier
+- Couriers
 - Cash on Delivery
 - Thailand
 - Southeast Asia
-- Webhooks
+- Webhook
 website: https://flashexpress.com/en/
 ---

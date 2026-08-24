@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The HTTP surface an Exonum node serves. The explorer service exposes REST endpoints under /api/explorer (blocks, block, transactions, call_status) plus a WebSocket interface for submitting signed tran
@@ -242,7 +242,7 @@ random_paper: 10
 score:
   band: developing
   composite: 42.6
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -252,11 +252,11 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 44.0
+  previous_composite: 42.6
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/screenshots/bitfury-group-2026-08-07T162553.png
 security:
@@ -276,7 +276,7 @@ tags:
 - Cryptocurrency
 - Distributed Ledger
 - Permissioned Blockchain
-- Open Source
+- Open-Source
 - Data Centers
 - Mining Hardware
 - Enterprise Blockchain

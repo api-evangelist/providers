@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -458,6 +458,10 @@ collections:
   name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Users API
   slug: open-salesforce-sales-cloud-users-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -879,7 +883,7 @@ jsonld:
   property_count: 11
   slug: salesforce-sales-cloud-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Salesforce Sales Cloud
 nav: Providers
 network: true
@@ -889,7 +893,7 @@ overview: 'Salesforce Sales Cloud publishes 48 APIs on the [APIs.io](https://api
   The Salesforce Sales Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Sales Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 49 more developer resources.'
+  Salesforce Sales Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 50 more developer resources.'
 plans:
 - name: Salesforce Sales Cloud Plans Pricing
   plan_count: 1
@@ -928,7 +932,7 @@ scopes:
 score:
   band: developing
   composite: 51.6
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -938,7 +942,7 @@ score:
     discoverability: 66.7
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 59.7
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -946,9 +950,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
 security:
 - kind: authentication

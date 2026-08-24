@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,8 +182,8 @@ image: https://www.westernpower.com.au/faviconImages/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: western-power-mcp.yml
-  slug: western-power-mcpyml
+  name: Western Power MCP Server
+  slug: western-power-mcp-server
 modified: '2026-07-27'
 name: Western Power
 nav: Providers
@@ -196,7 +196,7 @@ random_paper: 13
 score:
   band: developing
   composite: 43.6
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 5.3
-  previous_composite: 39.0
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +223,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

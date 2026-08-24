@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 0
@@ -1151,18 +1151,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.0
-  delta: -8.7
+  composite: 64.4
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 60.2
     developer_ergonomics: 85.7
     discoverability: 75.9
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 65.8
-  previous_composite: 72.7
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1170,9 +1170,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 86
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Consumer-permissioned account and transaction aggregation across banks, credit unions, cards, loans and investment accounts, delivering account details, balances and categorized transactions.
@@ -172,13 +172,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: finicity-mcp.yml
-  slug: finicity-mcpyml
+  name: Finicity MCP Server
+  slug: finicity-mcp-server
 modified: '2026-07-23'
 name: Finicity
 nav: Providers
 network: true
-overview: 'Finicity publishes 1 API on the [APIs.io](https://apis.io/) network: Aggregation (Accounts & Transactions) API. Tagged areas include Financial Services, Data Aggregation, Open Finance, Open Banking, and FDX.
+overview: 'Finicity publishes 1 API on the [APIs.io](https://apis.io/) network: Aggregation (Accounts & Transactions) API. Tagged areas include Financial-Services, Data Aggregation, Open Finance, Open Banking, and FDX.
 
 
   The Finicity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -189,7 +189,7 @@ random_paper: 2
 score:
   band: developing
   composite: 52.1
-  delta: 6.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 45.5
+  previous_composite: 52.1
   provenance:
     conformance: derived
     contracts:
@@ -215,9 +215,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/screenshots/finicity-2026-07-25T214523.png
 security:
 - kind: authentication
@@ -230,7 +230,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: finicity
 tags:
-- Financial Services
+- Financial-Services
 - Data Aggregation
 - Open Finance
 - Open Banking

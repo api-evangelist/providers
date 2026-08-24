@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Unified API platform allowing developers to integrate with hundreds of third-party tools through a single API.
@@ -73,7 +73,7 @@ modified: '2026-04-28'
 name: Panora
 nav: Providers
 network: true
-overview: 'Panora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CRM, Integrations, Open Source, and Unified API.
+overview: 'Panora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CRM, Integration, Open-Source, and Unified-API.
 
 
   Panora''s developer surface includes developer portal, documentation, and 4 more developer resources.'
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.4
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -99,9 +99,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panora/refs/heads/main/screenshots/panora-2026-06-20T191340.png
 security:
@@ -112,8 +112,8 @@ security:
 slug: panora
 tags:
 - CRM
-- Integrations
-- Open Source
-- Unified API
+- Integration
+- Open-Source
+- Unified-API
 website: https://panora.dev/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST JSON API for the Toshl personal finance platform. Manage accounts, entries (expenses and incomes with repeats per RFC 5545, transactions, images, locations), budgets, categories, tags, currencies
@@ -149,7 +149,7 @@ modified: '2026-07-21'
 name: Toshl
 nav: Providers
 network: true
-overview: 'Toshl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Personal Finance, Budgeting, Expense Tracking, FinTech, and Banking.
+overview: 'Toshl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Personal Finance, Budgeting, Expense Tracking, Fintech, and Banking.
 
 
   Toshl''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 19 more developer resources.'
@@ -166,7 +166,7 @@ scopes:
 score:
   band: thin
   composite: 36.3
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -176,7 +176,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 35.3
+  previous_composite: 36.3
   provenance:
     conformance: derived
   regulatory:
@@ -185,8 +185,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -202,7 +202,7 @@ tags:
 - Personal Finance
 - Budgeting
 - Expense Tracking
-- FinTech
+- Fintech
 - Banking
 - Consumer Apps
 - Company

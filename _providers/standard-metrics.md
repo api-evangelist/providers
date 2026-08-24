@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -255,14 +255,14 @@ description: Standard Metrics is an AI-driven portfolio management platform for 
 image: https://standardmetrics.io/wp-content/uploads/2024/07/Standard-Metrics-Thumbnail.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: standard-metrics-mcp.yml
-  slug: standard-metrics-mcpyml
+- description: Standard Metrics publishes two official remote MCP servers. The primary data server connects MCP-compatible clients (Claude, ChatGPT) directly to a firm's portfolio data via Streamable HTTP; the API-d
+  name: Standard Metrics MCP Server
+  slug: standard-metrics-mcp-server
 modified: '2026-07-21'
 name: Standard Metrics
 nav: Providers
 network: true
-overview: 'Standard Metrics publishes 14 APIs on the [APIs.io](https://apis.io/) network, including budgets API, cap_table API, companies API, and 11 more. Tagged areas include Company, Venture Capital, Private Equity, Portfolio Management, and Financial Data.
+overview: 'Standard Metrics publishes 14 APIs on the [APIs.io](https://apis.io/) network, including budgets API, cap_table API, companies API, and 11 more. Tagged areas include Company, Venture Capital, Private Equity, Portfolio-Management, and Financial Data.
 
 
   Standard Metrics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
@@ -279,7 +279,7 @@ scopes:
 score:
   band: developing
   composite: 52.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -289,7 +289,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 53.2
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -300,8 +300,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/screenshots/standard-metrics-2026-08-17T082103.png
 security:
@@ -322,7 +322,7 @@ tags:
 - Company
 - Venture Capital
 - Private Equity
-- Portfolio Management
+- Portfolio-Management
 - Financial Data
 - Investment Data
 - Cap Table

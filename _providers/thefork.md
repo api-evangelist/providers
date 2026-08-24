@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -279,7 +279,7 @@ modified: '2026-06-03'
 name: TheFork
 nav: Providers
 network: true
-overview: 'TheFork publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Orders API, Reservations API, and 1 more. Tagged areas include Restaurant, Reservations, Booking, Dining, and Point Of Sale.
+overview: 'TheFork publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Orders API, Reservations API, and 1 more. Tagged areas include Restaurant, Reservations, Booking, Dining, and Point-of-Sale.
 
 
   The TheFork catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -324,7 +324,7 @@ scopes:
 score:
   band: developing
   composite: 52.2
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -334,7 +334,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 57.9
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     contracts:
@@ -342,9 +342,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/screenshots/thefork-2026-06-20T195245.png
 security:
 - kind: authentication
@@ -368,7 +368,7 @@ tags:
 - Reservations
 - Booking
 - Dining
-- Point Of Sale
+- Point-of-Sale
 - Marketplace
 use_cases:
 - description: Restaurants and groups embed TheFork availability and booking into their own websites and apps.

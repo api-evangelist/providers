@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: LeapC is the native C API for Ultraleap / Leap Motion hand tracking. A client opens a LEAP_CONNECTION to the locally running Ultraleap Hand Tracking Service and drives a message pump with LeapPollConn
@@ -155,7 +155,7 @@ modified: '2026-07-20'
 name: Leap Motion
 nav: Providers
 network: true
-overview: 'Leap Motion publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hand Tracking, Computer Vision, Spatial Computing, and Augmented Reality.
+overview: 'Leap Motion publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hand Tracking, Computer-Vision, Spatial Computing, and Augmented Reality.
 
 
   Leap Motion''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, and 21 more developer resources.'
@@ -163,7 +163,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 25.9
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -173,11 +173,11 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 25.1
+  previous_composite: 25.9
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap-motion/refs/heads/main/screenshots/leap-motion-2026-07-25T224749.png
 security:
@@ -189,7 +189,7 @@ slug: leap-motion
 tags:
 - Company
 - Hand Tracking
-- Computer Vision
+- Computer-Vision
 - Spatial Computing
 - Augmented Reality
 - Virtual Reality
@@ -197,7 +197,7 @@ tags:
 - Gesture Recognition
 - SDK
 - Hardware
-- Human Computer Interaction
+- Human-Computer Interaction
 - OpenXR
 website: https://www.ultraleap.com/
 ---

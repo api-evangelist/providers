@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The workflow list, detail and execution surface behind Osly, as documented by the company's own first-party TypeScript SDK. Two REST reads (GET /workflows, GET /workflows/{id}) authenticated with an X
@@ -137,7 +137,7 @@ modified: '2026-08-14'
 name: Osly
 nav: Providers
 network: true
-overview: 'Osly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Workflow Automation, No-Code, and Agents.
+overview: 'Osly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Workflow-Automation, No-Code, and Agents.
 
 
   Osly''s developer surface includes signup flow, support, engineering blog, documentation, CLI, authentication, and 17 more developer resources.'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.4
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -163,12 +163,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 20.2
+  previous_composite: 18.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/screenshots/osly-2026-08-07T191006.png
 security:
@@ -184,7 +184,7 @@ slug: osly
 tags:
 - Company
 - Artificial Intelligence
-- Workflow Automation
+- Workflow-Automation
 - No-Code
 - Agents
 - Lead Generation

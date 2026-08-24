@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 12
 common:
@@ -125,7 +125,7 @@ modified: '2026-05-23'
 name: ChatGPT Atlas
 nav: Providers
 network: true
-overview: 'ChatGPT Atlas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Browser, Consumer, Agent, and Chromium.
+overview: 'ChatGPT Atlas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Browser, Consumer, Agents, and Chromium.
 
 
   ChatGPT Atlas'' developer surface includes engineering blog, product news, support, pricing, and 13 more developer resources.'
@@ -133,7 +133,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 17.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -149,9 +149,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 16.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlas-openai/refs/heads/main/screenshots/atlas-openai-2026-06-20T172533.png
 security:
@@ -169,10 +169,10 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, FedRAMP, GDPR, CSA STAR
 slug: atlas-openai
 tags:
-- AI
+- Artificial Intelligence
 - Browser
 - Consumer
-- Agent
+- Agents
 - Chromium
 - ChatGPT
 - OpenAI

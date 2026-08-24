@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Authenticated GraphQL API powering the Virgo Cloud endoscopy video capture and management portal. The endpoint is live but access requires an authenticated session (returns 401/403 unauthenticated); n
@@ -96,7 +96,7 @@ modified: '2026-07-21'
 name: Virgo
 nav: Providers
 network: true
-overview: 'Virgo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Healthcare, and Life Sciences.
+overview: 'Virgo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Healthcare, and Life Sciences.
 
 
   Virgo''s developer surface includes engineering blog, product news, support, and 10 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 16.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -114,15 +114,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 17.7
+  previous_composite: 16.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -133,7 +133,7 @@ slug: virgo
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Healthcare
 - Life Sciences
 - Endoscopy

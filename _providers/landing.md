@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-19'
+  score: 64.0
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,32 +169,32 @@ description: 'Landing rents fully-furnished apartments for flexible monthly, sho
 image: https://files.hellolanding.com/home.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: landing-mcp.yml
-  slug: landing-mcpyml
+- description: 'Read-only public access to Landing''s furnished apartment catalog: search by market and dates, fetch a home, check availability, get an anonymous quote. No authentication is required to call any tool.'
+  name: Landing MCP Server
+  slug: landing-mcp-server
 modified: '2026-07-19'
 name: Landing
 nav: Providers
 network: true
-overview: 'Landing publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Proptech, Real Estate, Rentals, and Furnished Apartments.
+overview: 'Landing publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, PropTech, Real-Estate, Rentals, and Furnished Apartments.
 
 
   Landing''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, support, engineering blog, and 21 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 41.0
-  delta: -1.2
+  composite: 42.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
     contract_quality: 49.7
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 42.2
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/screenshots/landing-2026-08-17T123950.png
 security:
@@ -221,13 +221,13 @@ security:
 slug: landing
 tags:
 - Company
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Rentals
 - Furnished Apartments
 - Corporate Housing
 - Travel
-- Agent Native
+- agent-native
 - MCP
 - Search
 website: https://www.hellolanding.com

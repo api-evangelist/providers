@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The Citi Accounts and Transactions API provides authorized third-party access to retail customer accounts, current and available balances, and transaction histories, enabling account-aggregation and p
@@ -181,7 +181,7 @@ modified: '2026-07-23'
 name: Citigroup
 nav: Providers
 network: true
-overview: 'Citigroup publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, United States, Money Center Bank, and Open Banking.
+overview: 'Citigroup publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, United States, Money Center Bank, and Open Banking.
 
 
   The Citigroup catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -228,7 +228,7 @@ rules:
 score:
   band: thin
   composite: 30.1
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -238,7 +238,7 @@ score:
     discoverability: 83.3
     governance: 63.6
     operational_transparency: 7.9
-  previous_composite: 30.8
+  previous_composite: 30.1
   provenance:
     conformance: first-party
   regulatory:
@@ -247,8 +247,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citigroup/refs/heads/main/screenshots/citigroup-2026-06-20T174411.png
 security:
@@ -263,7 +263,7 @@ security:
 slug: citigroup
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - United States
 - Money Center Bank
 - Open Banking

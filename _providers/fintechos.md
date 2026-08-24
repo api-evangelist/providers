@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 15.0
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -96,15 +96,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 16.2
+  previous_composite: 15.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintechos/refs/heads/main/screenshots/fintechos-2026-07-25T214549.png
 security:
@@ -120,9 +120,9 @@ tags:
 - Insurance
 - Lending
 - Low-Code
-- Financial Services
+- Financial-Services
 - Digital Transformation
 - Product Operations
-- AI
+- Artificial Intelligence
 website: https://fintechos.com/
 ---

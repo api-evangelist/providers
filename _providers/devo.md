@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Run queries against data ingested into Devo. Supports synchronous JSON/CSV/TSV responses and asynchronous job-based delivery to repositories (HDFS, Amazon S3, Kafka). Job requests start, stop, check s
@@ -168,7 +168,7 @@ random_paper: 10
 score:
   band: thin
   composite: 34.5
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -178,11 +178,11 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 33.4
+  previous_composite: 34.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devo/refs/heads/main/screenshots/devo-2026-07-25T211822.png
 security:

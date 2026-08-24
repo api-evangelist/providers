@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -231,8 +231,8 @@ image: https://parsec.app/_next/static/media/opengraph.60ec26bf.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: parsec-mcp.yml
-  slug: parsec-mcpyml
+  name: Parsec MCP Server
+  slug: parsec-mcp-server
 modified: '2026-07-20'
 name: Parsec
 nav: Providers
@@ -249,7 +249,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -259,7 +259,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 56.6
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,8 +270,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/screenshots/parsec-2026-08-07T191456.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: FITCO
 nav: Providers
 network: true
-overview: 'FITCO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Gym Management, SaaS, and Latin America.
+overview: 'FITCO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Gym Management, Software-as-a-Service, and Latin America.
 
 
   FITCO''s developer surface includes pricing, engineering blog, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 11.0
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -86,15 +86,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.9
+  previous_composite: 11.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitco/refs/heads/main/screenshots/fitco-2026-07-25T214630.png
 security:
@@ -107,7 +107,7 @@ tags:
 - Company
 - Fitness
 - Gym Management
-- SaaS
+- Software-as-a-Service
 - Latin America
 - Bookings
 - Memberships

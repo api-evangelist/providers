@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The COPS Office publishes materials for law enforcement and community stakeholders to use in collaboratively addressing crime and disorder. LEARN MORE. SPOTLIGHT . U.S. Department of Justice Office of
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: Office of Community Oriented Policing Services
 nav: Providers
 network: true
-overview: Office of Community Oriented Policing Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government.
+overview: Office of Community Oriented Policing Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government.
 plans:
 - name: Office Of Community Oriented Policing Services Plans Pricing
   plan_count: 3
@@ -70,7 +70,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -86,15 +86,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 9.5
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-community-oriented-policing-services/refs/heads/main/screenshots/office-of-community-oriented-policing-services-2026-06-20T190632.png
 security:
@@ -104,5 +104,5 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: office-of-community-oriented-policing-services
 tags:
-- Federal Government
+- Federal-Government
 ---

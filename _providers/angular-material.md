@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Angular Material is a comprehensive UI component library implementing Material Design for Angular applications. Since Angular 18, Angular Material fully supports Material Design 3 (M3) with design tok
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.8
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -148,9 +148,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 17.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-material/refs/heads/main/screenshots/angular-material-2026-06-20T171958.png
 security:
@@ -165,7 +165,7 @@ tags:
 - Frontend
 - Material Design
 - Material Design 3
-- Open Source
+- Open-Source
 - TypeScript
 - UI Components
 website: https://material.angular.dev/

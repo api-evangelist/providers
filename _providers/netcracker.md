@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 36
@@ -247,8 +247,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: netcracker-mcp.yml
-  slug: netcracker-mcpyml
+  name: Netcracker MCP Server
+  slug: netcracker-mcp-server
 modified: '2026-07-25'
 name: Netcracker
 nav: Providers
@@ -261,7 +261,7 @@ random_paper: 8
 score:
   band: developing
   composite: 53.9
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -271,7 +271,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 49.6
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,8 +288,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png
 security:
@@ -318,11 +318,11 @@ tags:
 - Network Vendor
 - API Management
 - TM Forum
-- Open API
+- OpenAPI
 - CAMARA
 - Standards
 - Orchestration
 - Monetization
-- Open Source
+- Open-Source
 website: https://www.netcracker.com/
 ---

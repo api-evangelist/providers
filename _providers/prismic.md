@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Content API is Prismic's primary read surface. It queries published documents from a repository with a bracketed filter language (`q`), orderings, locale selection, link expansion (`fetchLinks`) a
@@ -233,8 +233,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prismic.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: prismic-mcp.yml
-  slug: prismic-mcpyml
+  name: Prismic MCP Server
+  slug: prismic-mcp-server
 modified: 2026-08-13
 name: Prismic
 nav: Providers
@@ -258,7 +258,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 70.8
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -268,13 +268,13 @@ score:
     discoverability: 100.0
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 70.3
+  previous_composite: 70.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/screenshots/prismic-2026-06-20T192117.png
 security:
@@ -305,7 +305,7 @@ tags:
 - Content Delivery
 - Developer Tools
 - MCP
-- Webhooks
+- Webhook
 - Localization
 - Digital Asset Management
 website: https://prismic.io

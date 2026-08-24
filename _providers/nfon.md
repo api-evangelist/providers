@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -491,8 +491,8 @@ image: https://a.storyblok.com/f/290788/2624x1428/c0ccf89b71/homepage-hero-home.
 layout: provider
 mcp_servers:
 - description: ''
-  name: nfon-mcp.yml
-  slug: nfon-mcpyml
+  name: Nfon MCP Server
+  slug: nfon-mcp-server
 modified: '2026-07-20'
 name: Nfon
 nav: Providers
@@ -504,18 +504,18 @@ overview: 'Nfon publishes 52 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 13
 score:
   band: developing
-  composite: 50.8
-  delta: 2.9
+  composite: 52.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
     contract_quality: 59.9
     developer_ergonomics: 49.4
-    discoverability: 63.0
+    discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 47.9
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -532,8 +532,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-17'
 name: Adversa AI
 nav: Providers
 network: true
-overview: 'Adversa AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Security, AI Red Teaming, LLM Security, and Agentic AI.
+overview: 'Adversa AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Security, AI Red Teaming, LLM Security, and Agentic AI.
 
 
   Adversa AI''s developer surface includes engineering blog, signup flow, CLI, and 13 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 20.9
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -122,12 +122,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 20.2
+  previous_composite: 20.9
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/screenshots/adversa-ai-2026-07-25T181710.png
 security:
@@ -146,7 +146,7 @@ security:
 slug: adversa-ai
 tags:
 - Company
-- Ai Security
+- AI Security
 - AI Red Teaming
 - LLM Security
 - Agentic AI

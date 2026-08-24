@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -254,13 +254,13 @@ image: https://cdn.prod.website-files.com/672dc2792e95c584b8beaaca/6739416b527ed
 layout: provider
 mcp_servers:
 - description: ''
-  name: liquidonate-mcp.yml
-  slug: liquidonate-mcpyml
+  name: LiquiDonate MCP Server
+  slug: liquidonate-mcp-server
 modified: '2026-07-19'
 name: LiquiDonate
 nav: Providers
 network: true
-overview: 'LiquiDonate publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Donate API, Match API, Orders API, and 2 more. Tagged areas include Reverse Logistics, Returns Management, Donations, Nonprofits, and Retail.
+overview: 'LiquiDonate publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Donate API, Match API, Orders API, and 2 more. Tagged areas include Reverse Logistics, Returns Management, Donations, Non-Profit, and Retail.
 
 
   The LiquiDonate catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -271,7 +271,7 @@ random_paper: 7
 score:
   band: strong
   composite: 55.9
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -281,7 +281,7 @@ score:
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 23.7
-  previous_composite: 54.8
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,8 +292,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/screenshots/liquidonate-2026-07-25T225320.png
 security:
@@ -310,9 +310,9 @@ tags:
 - Reverse Logistics
 - Returns Management
 - Donations
-- Nonprofits
+- Non-Profit
 - Retail
-- Ecommerce
+- E-Commerce
 - Sustainability
 - Circular Economy
 - Shipping

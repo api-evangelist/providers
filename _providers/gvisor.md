@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: gVisor is an open-source application kernel written in Go that provides an additional layer of isolation between containerized applications and the host operating system. It implements a substantial p
@@ -97,7 +97,7 @@ modified: '2026-04-28'
 name: gVisor
 nav: Providers
 network: true
-overview: 'gVisor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Containers, Kernel, Linux, Open Source, and Sandboxing.
+overview: 'gVisor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Containers, Kernel, Linux, Open-Source, and Sandboxing.
 
 
   gVisor''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.2
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -123,9 +123,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 14.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gvisor/refs/heads/main/screenshots/gvisor-2026-06-20T182445.png
 security:
@@ -142,7 +142,7 @@ tags:
 - Containers
 - Kernel
 - Linux
-- Open Source
+- Open-Source
 - Sandboxing
 - Security
 website: https://gvisor.dev/

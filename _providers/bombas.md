@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Bombas Shopify storefront. The store publishes a Universal Commerce Protocol merchant profile at https://shop.bombas.com/.well-known/ucp declaring UCP versions
@@ -69,13 +69,13 @@ image: https://avatars.githubusercontent.com/u/30065139?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: bombas-mcp.yml
-  slug: bombas-mcpyml
+  name: Bombas MCP Server
+  slug: bombas-mcp-server
 modified: '2026-07-31'
 name: Bombas
 nav: Providers
 network: true
-overview: 'Bombas publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Ecommerce, Apparel, and Direct to Consumer.
+overview: 'Bombas publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Apparel, and Direct to Consumer.
 
 
   Bombas'' developer surface includes documentation, support, signup flow, and 6 more developer resources.'
@@ -88,7 +88,7 @@ scopes:
 score:
   band: emerging
   composite: 20.9
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -98,13 +98,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 20.3
+  previous_composite: 20.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bombas/refs/heads/main/screenshots/bombas-2026-08-07T162716.png
 security:
@@ -120,13 +120,13 @@ slug: bombas
 tags:
 - Company
 - Retail
-- Ecommerce
+- E-Commerce
 - Apparel
 - Direct to Consumer
 - Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 website: https://bombas.com/
 ---

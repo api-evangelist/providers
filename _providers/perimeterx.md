@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST API surface behind HUMAN's Applications Protection products (Account Defender, Bot Defender, Credential Intelligence, Code Defender / PCI DSS). Manage custom rules, custom lists, account informat
@@ -149,8 +149,8 @@ image: https://raw.githubusercontent.com/HumanSecurity/human-mcp-server/main/.im
 layout: provider
 mcp_servers:
 - description: ''
-  name: perimeterx-mcp.yml
-  slug: perimeterx-mcpyml
+  name: PerimeterX (HUMAN Security) MCP Server
+  slug: perimeterx-human-security-mcp-server
 modified: '2026-07-20'
 name: PerimeterX (HUMAN Security)
 nav: Providers
@@ -163,7 +163,7 @@ random_paper: 1
 score:
   band: thin
   composite: 30.2
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -173,12 +173,12 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 32.8
+  previous_composite: 30.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -208,6 +208,5 @@ tags:
 - Account Takeover
 - Agentic AI
 - Cybersecurity
-- API
 website: https://www.humansecurity.com/
 ---

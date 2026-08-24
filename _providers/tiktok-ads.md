@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 2
@@ -238,13 +238,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiktok-ads
 layout: provider
 mcp_servers:
 - description: ''
-  name: tiktok-ads-mcp.yml
-  slug: tiktok-ads-mcpyml
+  name: TikTok for Business MCP Server
+  slug: tiktok-for-business-mcp-server
 modified: '2026-08-13'
 name: TikTok Marketing API
 nav: Providers
 network: true
-overview: 'TikTok Marketing API publishes 1 API on the [APIs.io](https://apis.io/) network: TikTok Marketing API. Tagged areas include Advertising, Marketing, Social Media, Ad Campaigns, and Performance Marketing.
+overview: 'TikTok Marketing API publishes 1 API on the [APIs.io](https://apis.io/) network: TikTok Marketing API. Tagged areas include Advertising, Marketing, Social-Media, Ad Campaigns, and Performance Marketing.
 
 
   The TikTok Marketing API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,7 +268,7 @@ scopes:
 score:
   band: strong
   composite: 58.4
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -278,7 +278,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 60.7
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,8 +289,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/screenshots/tiktok-ads-2026-06-20T195404.png
 security:
@@ -310,7 +310,7 @@ slug: tiktok-ads
 tags:
 - Advertising
 - Marketing
-- Social Media
+- Social-Media
 - Ad Campaigns
 - Performance Marketing
 - Conversion Tracking

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -294,8 +294,8 @@ image: https://cdn.prod.website-files.com/65186d27d0dcf0d8e7a48388/667d3748056d4
 layout: provider
 mcp_servers:
 - description: ''
-  name: defacto-mcp.yml
-  slug: defacto-mcpyml
+  name: Defacto MCP Server
+  slug: defacto-mcp-server
 modified: '2026-07-18'
 name: Defacto
 nav: Providers
@@ -311,7 +311,7 @@ random_paper: 12
 score:
   band: developing
   composite: 51.3
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -321,7 +321,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 52.5
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,8 +338,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defacto/refs/heads/main/screenshots/defacto-2026-07-25T211617.png
 security:

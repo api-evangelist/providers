@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: IDE plugins (VS Code, JetBrains, Vim, Emacs, Visual Studio, Sublime Text, etc.) surfacing autocomplete, chat, command, and Cascade-style agent edits backed by Codeium / Windsurf inference. There is no
@@ -92,7 +92,7 @@ modified: '2026-05-08'
 name: Codeium
 nav: Providers
 network: true
-overview: 'Codeium publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Developer Tools, Code Completion, IDE, and Windsurf.
+overview: 'Codeium publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Developer Tools, Code Completion, IDE, and Windsurf.
 
 
   Codeium''s developer surface includes documentation and 9 more developer resources.'
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -118,9 +118,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeium/refs/heads/main/screenshots/codeium-2026-06-20T174702.png
 security:
@@ -134,7 +134,7 @@ security:
   summary_line: disclosure policy published
 slug: codeium
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Completion
 - IDE

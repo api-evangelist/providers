@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth2 partner API for OLX Poland (olx.pl) that lets integrators manage classified adverts (list, create, update), read category attributes, and read delivery settings. Bearer-token authenticated; OLX
@@ -95,13 +95,13 @@ image: https://www.olx.pl/app/static/media/olx-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: olx-mcp.yml
-  slug: olx-mcpyml
+  name: OLX MCP Server
+  slug: olx-mcp-server
 modified: '2026-07-20'
 name: OLX
 nav: Providers
 network: true
-overview: 'OLX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Marketplace, Classifieds, and Ecommerce.
+overview: 'OLX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Marketplace, Classifieds, and E-Commerce.
 
 
   OLX''s developer surface includes documentation, API reference, authentication, and 10 more developer resources.'
@@ -109,7 +109,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 17.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -119,11 +119,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 17.5
+  previous_composite: 17.0
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olx/refs/heads/main/screenshots/olx-2026-08-07T190129.png
 security:
@@ -145,9 +145,9 @@ tags:
 - Consumer
 - Marketplace
 - Classifieds
-- Ecommerce
+- E-Commerce
 - Automotive
-- Real Estate
+- Real-Estate
 - Partner API
 website: https://www.olx.com/
 ---

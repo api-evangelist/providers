@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ modified: '2026-05-30'
 name: Dog API
 nav: Providers
 network: true
-overview: 'Dog API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Breeds API, Images API, and Info API. Tagged areas include Dogs, Images, Open Data, and Open Source.
+overview: 'Dog API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Breeds API, Images API, and Info API. Tagged areas include Dogs, Image, Open Data, and Open-Source.
 
 
   The Dog API catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -259,18 +259,18 @@ rules:
   slug: dog-api-rules
 score:
   band: emerging
-  composite: 20.1
-  delta: -5.4
+  composite: 20.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 23.5
     developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 25.5
+  previous_composite: 20.6
   provenance:
     agentic_access: derived
     contracts:
@@ -284,9 +284,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/screenshots/dog-api-2026-06-20T180122.png
 security:
 - kind: domain-security
@@ -296,8 +296,8 @@ security:
 slug: dog-api
 tags:
 - Dogs
-- Images
+- Image
 - Open Data
-- Open Source
+- Open-Source
 website: https://dog.ceo
 ---

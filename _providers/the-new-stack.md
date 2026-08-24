@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: RSS feed providing the latest articles and news from The New Stack covering cloud native, DevOps, AI, and open source technologies. Feed follows RSS 2.0 with Dublin Core and WordPress content extensio
@@ -145,7 +145,7 @@ modified: '2026-05-03'
 name: The New Stack
 nav: Providers
 network: true
-overview: 'The New Stack publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, DevOps, Media, and Technology News.
+overview: 'The New Stack publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, DevOps, Media, and Technology News.
 
 
   The The New Stack catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -175,7 +175,7 @@ rules:
 score:
   band: emerging
   composite: 16.6
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -191,10 +191,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 23.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 16.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/screenshots/the-new-stack-2026-06-20T195228.png
 security:
 - kind: domain-security
@@ -203,7 +203,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: the-new-stack
 tags:
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Media
 - Technology News

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: User profile and balance.
@@ -160,8 +160,8 @@ image: https://dmarket.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: dmarket-mcp.yml
-  slug: dmarket-mcpyml
+  name: DMarket MCP Server
+  slug: dmarket-mcp-server
 modified: '2026-07-18'
 name: DMarket
 nav: Providers
@@ -174,7 +174,7 @@ random_paper: 9
 score:
   band: developing
   composite: 39.3
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 43.8
+  previous_composite: 39.3
   provenance:
     conformance: derived
     contracts:
@@ -200,8 +200,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/screenshots/dmarket-2026-07-25T212204.png
 security:

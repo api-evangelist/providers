@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Notary Project specification defines the signature envelope format, trust store and trust policy for container image signing and verification. It supports multiple signature formats and integrates
@@ -152,7 +152,7 @@ modified: '2026-04-28'
 name: Notary Project
 nav: Providers
 network: true
-overview: 'Notary Project publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Container Security, Image Signing, Incubating, and OCI.
+overview: 'Notary Project publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Container Security, Image Signing, Incubating, and OCI.
 
 
   The Notary Project catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -182,7 +182,7 @@ rules:
 score:
   band: thin
   composite: 27.1
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -192,10 +192,10 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 33.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 27.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/screenshots/notary-2026-06-20T190421.png
 security:
 - kind: domain-security
@@ -204,7 +204,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: notary
 tags:
-- Cloud Native
+- Cloud-Native
 - Container Security
 - Image Signing
 - Incubating

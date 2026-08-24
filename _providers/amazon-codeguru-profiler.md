@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -1049,14 +1049,14 @@ jsonld:
   slug: amazon-codeguru-profiler-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: amazon-codeguru-profiler-mcp.yml
-  slug: amazon-codeguru-profiler-mcpyml
+- description: Candidate MCP server derived from the Amazon CodeGuru Profiler OpenAPI operations (one tool per operationId). AWS does not publish a dedicated CodeGuru Profiler MCP server; the awslabs/mcp catalog shi
+  name: Amazon CodeGuru Profiler MCP Server
+  slug: amazon-codeguru-profiler-mcp-server
 modified: '2026-04-19'
 name: Amazon CodeGuru Profiler
 nav: Providers
 network: true
-overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Internal API, ProfilingGroups API, ProfilingGroups#clientToken API, and 1 more. Tagged areas include Amazon, Application Performance, Profiling, DevOps, and Machine Learning.
+overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Internal API, ProfilingGroups API, ProfilingGroups#clientToken API, and 1 more. Tagged areas include Amazon, Application Performance, Profiling, DevOps, and Machine-Learning.
 
 
   The Amazon CodeGuru Profiler catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1088,18 +1088,18 @@ rules:
   slug: amazon-codeguru-profiler-spectral-rules
 score:
   band: thin
-  composite: 31.7
-  delta: -6.0
+  composite: 32.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 69.9
     developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 37.7
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1109,9 +1109,9 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:
 - kind: authentication
@@ -1132,5 +1132,5 @@ tags:
 - Application Performance
 - Profiling
 - DevOps
-- Machine Learning
+- Machine-Learning
 ---

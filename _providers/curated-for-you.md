@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Chronicle API from Curated for You — 1 operation(s) for chronicle.
@@ -160,8 +160,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/curated-fo
 layout: provider
 mcp_servers:
 - description: ''
-  name: curated-for-you-mcp.yml
-  slug: curated-for-you-mcpyml
+  name: Curated for You MCP Server
+  slug: curated-for-you-mcp-server
 modified: '2026-07-18'
 name: Curated for You
 nav: Providers
@@ -174,7 +174,7 @@ random_paper: 19
 score:
   band: thin
   composite: 34.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 36.6
+  previous_composite: 34.2
   provenance:
     conformance: derived
     contracts:
@@ -194,8 +194,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/screenshots/curated-for-you-2026-07-25T210930.png
 security:

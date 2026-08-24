@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -226,8 +226,8 @@ image: https://github.com/button.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: button-mcp.yml
-  slug: button-mcpyml
+  name: Button MCP Server
+  slug: button-mcp-server
 modified: '2026-07-18'
 name: Button
 nav: Providers
@@ -243,7 +243,7 @@ random_paper: 17
 score:
   band: developing
   composite: 45.3
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -253,7 +253,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 50.2
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,8 +264,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/screenshots/button-2026-07-25T204122.png
 security:

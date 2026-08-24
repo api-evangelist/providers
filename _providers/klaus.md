@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The PubImportApi API from Klaus — 3 operation(s) for pubimportapi.
@@ -196,13 +196,13 @@ image: https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-image
 layout: provider
 mcp_servers:
 - description: ''
-  name: klaus-mcp.yml
-  slug: klaus-mcpyml
+  name: Klaus MCP Server
+  slug: klaus-mcp-server
 modified: '2026-07-19'
 name: Klaus
 nav: Providers
 network: true
-overview: 'Klaus publishes 2 APIs on the [APIs.io](https://apis.io/) network: PubImportApi API and PublicExportApi API. Tagged areas include Company, Quality Assurance, Customer Support, Customer Experience, and Conversation Analytics.
+overview: 'Klaus publishes 2 APIs on the [APIs.io](https://apis.io/) network: PubImportApi API and PublicExportApi API. Tagged areas include Company, Quality Assurance, Customer-Support, Customer Experience, and Conversation Analytics.
 
 
   Klaus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -214,7 +214,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.8
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -224,7 +224,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 76.3
-  previous_composite: 55.1
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -234,8 +234,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/screenshots/klaus-2026-07-25T223939.png
 security:
@@ -259,12 +259,12 @@ slug: klaus
 tags:
 - Company
 - Quality Assurance
-- Customer Support
+- Customer-Support
 - Customer Experience
 - Conversation Analytics
 - Contact Center
 - Coaching
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 website: https://www.klausapp.com/
 ---

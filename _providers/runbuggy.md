@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: An OAuth-protected Model Context Protocol server RunBuggy operates on its application host. Discovered by probe — it is not referenced from the public developer documentation. tools/list returns 401 i
@@ -199,8 +199,8 @@ image: https://runbuggy.com/wp-content/uploads/2019/05/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: runbuggy-mcp.yml
-  slug: runbuggy-mcpyml
+  name: RunBuggy MCP Server
+  slug: runbuggy-mcp-server
 modified: '2026-08-05'
 name: RunBuggy
 nav: Providers
@@ -221,7 +221,7 @@ scopes:
 score:
   band: developing
   composite: 48.5
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 53.2
+  previous_composite: 48.5
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +241,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/screenshots/runbuggy-2026-08-17T081656.png
 security:

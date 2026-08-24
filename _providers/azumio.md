@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Food Recognition API from Azumio — 2 operation(s) for food recognition.
@@ -138,8 +138,8 @@ image: https://azumio.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: azumio-mcp.yml
-  slug: azumio-mcpyml
+  name: Azumio MCP Server
+  slug: azumio-mcp-server
 modified: '2026-07-18'
 name: Azumio
 nav: Providers
@@ -152,7 +152,7 @@ random_paper: 10
 score:
   band: developing
   composite: 42.0
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -162,7 +162,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 38.3
+  previous_composite: 42.0
   provenance:
     conformance: derived
     contracts:
@@ -178,8 +178,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/screenshots/azumio-2026-07-25T202122.png
 security:
@@ -198,10 +198,9 @@ tags:
 - Digital Health
 - Nutrition
 - Food Recognition
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Fitness
 - Diabetes
-- API
 website: https://azumio.com
 ---

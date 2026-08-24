@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Goji Platform API for private-markets investing: create and KYC/KYB investors, open and administer IF ISAs, move funds via investor and manager payment APIs, settle debt and equity investments, ma'
@@ -135,8 +135,8 @@ image: https://goji.investments/hubfs/Goji%20favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: goji-mcp.yml
-  slug: goji-mcpyml
+  name: Goji MCP Server
+  slug: goji-mcp-server
 modified: '2026-07-19'
 name: Goji
 nav: Providers
@@ -152,7 +152,7 @@ random_paper: 5
 score:
   band: thin
   composite: 38.9
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -162,7 +162,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 40.9
+  previous_composite: 38.9
   provenance:
     conformance: derived
     mcp: derived
@@ -173,8 +173,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goji/refs/heads/main/screenshots/goji-2026-07-25T220023.png
 security:
@@ -197,7 +197,7 @@ tags:
 - Payments
 - ISA
 - Settlement
-- Webhooks
+- Webhook
 - Euroclear
 website: https://goji.investments
 ---

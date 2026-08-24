@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The CDW Catalog API uses JSON to deliver customers real-time pricing and inventory status alongside any special pricing or catalog restrictions. It supports integration with eProcurement platforms for
@@ -80,7 +80,7 @@ modified: '2026-04-23'
 name: CDW
 nav: Providers
 network: true
-overview: 'CDW publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Catalog, eProcurement, IT Distribution, and PunchOut.
+overview: 'CDW publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Catalog, eProcurement, IT Distribution, and Punchout.
 
 
   CDW''s developer surface includes documentation and 6 more developer resources.'
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -122,9 +122,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdw/refs/heads/main/screenshots/cdw-2026-06-20T174108.png
 security:
@@ -142,7 +142,7 @@ tags:
 - Catalog
 - eProcurement
 - IT Distribution
-- PunchOut
+- Punchout
 - Technology
 - Fortune 500
 website: https://www.cdw.com

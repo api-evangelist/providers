@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 221
   human_in_the_loop: 5
@@ -1094,7 +1094,7 @@ rules:
 score:
   band: developing
   composite: 43.1
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -1104,7 +1104,7 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 50.8
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1112,9 +1112,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png
 security:
 - kind: authentication

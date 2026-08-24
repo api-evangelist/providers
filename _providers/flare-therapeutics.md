@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The anonymously readable WordPress REST content API behind www.flaretx.com — the 42-item corporate news archive, 14 corporate pages, a 419-item media library, the category taxonomy, cross-content sear
@@ -132,7 +132,7 @@ modified: '2026-08-12'
 name: Flare Therapeutics
 nav: Providers
 network: true
-overview: 'Flare Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and precision-medicine.
+overview: 'Flare Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Precision Medicine.
 
 
   Flare Therapeutics'' developer surface includes product news, authentication, and 21 more developer resources.'
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.7
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -158,7 +158,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 30.9
+  previous_composite: 31.7
   provenance:
     conformance: derived
     contracts:
@@ -173,8 +173,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -188,14 +188,14 @@ security:
 slug: flare-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- precision-medicine
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Precision Medicine
 - transcription-factors
-- drug-discovery
-- clinical-trials
-- life-sciences
+- Drug Discovery
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://www.flaretx.com/
 ---

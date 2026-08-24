@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -264,13 +264,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clay-com.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: clay-com-mcp.yml
-  slug: clay-com-mcpyml
+  name: Clay MCP Server
+  slug: clay-mcp-server
 modified: '2026-08-14'
 name: Clay
 nav: Providers
 network: true
-overview: 'Clay publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Prospecting, GTM, Sales, Enrichment, and Automation.
+overview: 'Clay publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Prospecting, Go-To-Market, Sales, Enrichment, and Automation.
 
 
   The Clay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -294,7 +294,7 @@ scopes:
 score:
   band: strong
   composite: 61.9
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -304,14 +304,14 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 66.5
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/screenshots/clay-com-2026-06-20T174453.png
 security:
@@ -334,11 +334,11 @@ security:
 slug: clay-com
 tags:
 - Prospecting
-- GTM
+- Go-To-Market
 - Sales
 - Enrichment
 - Automation
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 website: https://www.clay.com
 ---

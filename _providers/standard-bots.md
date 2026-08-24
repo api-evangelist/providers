@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'On-robot REST API (served by the RO1 control box on /api/v1, Bearer-token auth) for controlling arm position and motion, the gripper/end-effector, cameras, routines, teleoperation, the recorder, I/O, '
@@ -138,9 +138,9 @@ description: 'Standard Bots designs and builds AI-native industrial robotic arms
 image: https://assets-global.website-files.com/63d925b46a84dec214bc0bbd/6408ee2c083a0474a480124a_OG%20Image-Home.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: standard-bots-mcp.yml
-  slug: standard-bots-mcpyml
+- description: Candidate MCP tool list mapped one-to-one from the RO1 Robotics REST API operations exposed by the official Python SDK. The RO1 API runs on the robot control box (Bearer-token auth); an MCP server wou
+  name: Standard Bots MCP Server
+  slug: standard-bots-mcp-server
 modified: '2026-07-21'
 name: Standard Bots
 nav: Providers
@@ -153,7 +153,7 @@ random_paper: 11
 score:
   band: thin
   composite: 31.1
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -163,13 +163,13 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 28.2
+  previous_composite: 31.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -190,7 +190,7 @@ tags:
 - Artificial Intelligence
 - Machine Tending
 - Developer API
-- ROS2
+- ROS 2
 - Physical AI
 website: https://standardbots.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-19'
 name: Essence Ventures
 nav: Providers
 network: true
-overview: 'Essence Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Publishing, Events, and Commerce.
+overview: 'Essence Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Publishing, Event, and Commerce.
 
 
   Essence Ventures'' developer surface includes support and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 10.2
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -80,16 +80,16 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 10.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: essence-ventures
 tags:
 - Company
 - Media
 - Publishing
-- Events
+- Event
 - Commerce
 - Community
 website: https://www.essence.com/

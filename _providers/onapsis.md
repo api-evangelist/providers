@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL-based public API for The Onapsis Platform. Introduced with support for Assess (vulnerability and scan results) and preliminary support for Comply, it powers third-party integrations with ticke
@@ -113,9 +113,9 @@ description: Onapsis is a cybersecurity and compliance company for business-crit
 image: https://onapsis.com/wp-content/uploads/Onapsis-Featured-Image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: onapsis-mcp.yml
-  slug: onapsis-mcpyml
+- description: Onapsis announced "The MCP Gateway for SAP Security" (also referred to as the Onapsis Agentic Gateway) on 17 March 2026 — a Model Context Protocol interface that lets corporate-sanctioned AI agents in
+  name: The MCP Gateway for SAP Security
+  slug: the-mcp-gateway-for-sap-security
 modified: '2026-08-04'
 name: Onapsis
 nav: Providers
@@ -128,7 +128,7 @@ random_paper: 9
 score:
   band: thin
   composite: 27.9
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -138,12 +138,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 30.2
+  previous_composite: 27.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/screenshots/onapsis-2026-08-07T190215.png
 security:

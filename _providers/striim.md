@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API to create and manage (deploy, start, stop, undeploy, drop) Striim applications, execute TQL commands, retrieve monitoring and file lineage data, plus WActionStore queries (GET /wactions/def, '
@@ -74,13 +74,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/striim.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: striim-mcp.yml
-  slug: striim-mcpyml
+  name: Striim MCP AgentLink
+  slug: striim-mcp-agentlink
 modified: '2026-06-20'
 name: Striim
 nav: Providers
 network: true
-overview: 'Striim publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Streaming, Change Data Capture, Real-time, and Data Integration.
+overview: 'Striim publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Streaming, Change Data Capture, Real-Time, and Data Integration.
 
 
   Striim''s developer surface includes engineering blog and 7 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 9.2
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -98,12 +98,12 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 10.7
+  previous_composite: 9.2
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -115,7 +115,7 @@ tags:
 - Data
 - Streaming
 - Change Data Capture
-- Real-time
+- Real-Time
 - Data Integration
 - Streaming Analytics
 ---

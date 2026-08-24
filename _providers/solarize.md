@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Solarize meter-to-cash platform — customers, sites, meters, contracts, measurements, readings, invoices, payments, pricing, and outgoing webhooks. JSON over HTTPS, JWT bearer auth, of
@@ -135,8 +135,8 @@ image: https://api-docs.solarize.energy/_next/static/media/solarize-api-docs.b9d
 layout: provider
 mcp_servers:
 - description: ''
-  name: solarize-mcp.yml
-  slug: solarize-mcpyml
+  name: Solarize MCP Server
+  slug: solarize-mcp-server
 modified: '2026-07-21'
 name: Solarize
 nav: Providers
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.6
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -166,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 40.3
+  previous_composite: 41.6
   provenance:
     conformance: derived
     mcp: derived
@@ -176,8 +176,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -196,6 +196,6 @@ tags:
 - Metering
 - Utilities
 - Meter-to-Cash
-- SaaS
+- Software-as-a-Service
 website: https://www.solarize.de/en/solution
 ---

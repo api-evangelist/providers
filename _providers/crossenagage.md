@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Asynchronous customer profile API — create, update and delete single users, batch up to 1,000 users per call, look a user up by id or by email plus business unit, and poll a tracking id for terminal s
@@ -217,8 +217,8 @@ image: https://api.documentation.crossengage.io/wp-content/uploads/cropped-favic
 layout: provider
 mcp_servers:
 - description: ''
-  name: crossenagage-mcp.yml
-  slug: crossenagage-mcpyml
+  name: CrossEngage MCP Server
+  slug: crossengage-mcp-server
 modified: '2026-08-13'
 name: CrossEngage
 nav: Providers
@@ -242,7 +242,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.4
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -252,7 +252,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 58.5
+  previous_composite: 56.4
   provenance:
     conformance: first-party
     contracts:
@@ -262,8 +262,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png
 security:
@@ -297,7 +297,7 @@ tags:
 - Campaign Management
 - Product Feed
 - Data Export
-- Webhooks
+- Webhook
 - Web Tracking
 - Germany
 website: https://api.documentation.crossengage.io/

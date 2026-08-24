@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -651,18 +651,18 @@ rules:
   slug: tvmaze-rules
 score:
   band: strong
-  composite: 59.8
-  delta: -6.5
+  composite: 56.7
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 25.0
-    contract_quality: 70.4
+    contract_governance: 28.8
+    contract_quality: 63.4
     developer_ergonomics: 54.8
-    discoverability: 75.9
-    governance: 25.0
+    discoverability: 57.4
+    governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 66.3
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     contracts:
@@ -670,9 +670,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/screenshots/tvmaze-2026-06-20T195842.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 110
   human_in_the_loop: 1
@@ -321,13 +321,13 @@ image: https://static-corp.aghanim.com/og_193da66018.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: aghanim-mcp.yml
-  slug: aghanim-mcpyml
+  name: Aghanim MCP Server
+  slug: aghanim-mcp-server
 modified: '2026-07-17'
 name: Aghanim
 nav: Providers
 network: true
-overview: 'Aghanim publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, Coupons API, Creators API, and 24 more. Tagged areas include Company, Mobile Games, Game Publishing, Direct-to-Consumer, and Payments.
+overview: 'Aghanim publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, Coupons API, Creators API, and 24 more. Tagged areas include Company, Mobile Games, Game Publishing, Direct to Consumer, and Payments.
 
 
   The Aghanim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -338,7 +338,7 @@ random_paper: 11
 score:
   band: developing
   composite: 48.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -348,7 +348,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 49.0
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,8 +365,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/screenshots/aghanim-2026-07-25T195259.png
 security:
@@ -383,7 +383,7 @@ tags:
 - Company
 - Mobile Games
 - Game Publishing
-- Direct-to-Consumer
+- Direct to Consumer
 - Payments
 - Merchant of Record
 - Web Shop

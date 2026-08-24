@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Rockerbox''s server-side integration. A documented HTTP POST endpoint that accepts one conversion or marketing event per request as JSON, authenticated by a Rockerbox Advertiser ID passed in the query '
@@ -204,9 +204,9 @@ jsonld:
   slug: rockerbox-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: rockerbox-mcp.yml
-  slug: rockerbox-mcpyml
+- description: 'Rockerbox publishes a live, anonymous, remote MCP server on its Data Foundation documentation host. It was reached directly: an MCP `initialize` handshake and a `tools/list` call both returned HTTP 20'
+  name: Rockerbox Data Foundation Docs
+  slug: rockerbox-data-foundation-docs
 modified: 2026-08-13
 name: Rockerbox
 nav: Providers
@@ -230,7 +230,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.2
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -240,13 +240,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 58.9
+  previous_composite: 55.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockerbox/refs/heads/main/screenshots/rockerbox-2026-06-20T193150.png
 security:
@@ -269,6 +269,6 @@ tags:
 - Marketing Analytics
 - Data Warehousing
 - Conversion Tracking
-- Webhooks
+- Webhook
 website: https://www.rockerbox.com/
 ---

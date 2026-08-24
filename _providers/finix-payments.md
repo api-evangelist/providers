@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -389,8 +389,8 @@ image: https://images.ctfassets.net/kqru4vgwujx6/3dBfyfPS31FWqFPTwf4dRv/417cc8b5
 layout: provider
 mcp_servers:
 - description: ''
-  name: finix-payments-mcp.yml
-  slug: finix-payments-mcpyml
+  name: Finix Payments MCP Server
+  slug: finix-payments-mcp-server
 modified: '2026-07-19'
 name: Finix Payments
 nav: Providers
@@ -410,7 +410,7 @@ rate_limits:
 score:
   band: strong
   composite: 66.2
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -420,7 +420,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 71.1
-  previous_composite: 59.9
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -437,9 +437,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:
 - kind: authentication

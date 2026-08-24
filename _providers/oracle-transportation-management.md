@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ collections:
   name: Oracle Transportation Management Business Object Resources REST Carriers ShipmentOrders API
   slug: open-oracle-transportation-management-shipmentorders-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -161,7 +165,7 @@ jsonld:
   property_count: 24
   slug: oracle-otm-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Oracle Transportation Management
 nav: Providers
 network: true
@@ -171,7 +175,7 @@ overview: 'Oracle Transportation Management publishes 4 APIs on the [APIs.io](ht
   The Oracle Transportation Management catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Transportation Management''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 12 more developer resources.'
+  Oracle Transportation Management''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Oracle Transportation Management Plans Pricing
   plan_count: 3
@@ -200,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 41.9
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -210,7 +214,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 47.4
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -218,9 +222,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/screenshots/oracle-transportation-management-2026-06-20T191148.png
 security:
 - kind: authentication

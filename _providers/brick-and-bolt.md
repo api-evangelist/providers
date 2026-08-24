@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-18'
 name: Brick&Bolt
 nav: Providers
 network: true
-overview: 'Brick&Bolt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Construction, Home Building, and Real Estate.
+overview: 'Brick&Bolt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Construction, Homebuilding, and Real-Estate.
 
 
   Brick&Bolt''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 10.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -82,9 +82,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brick-and-bolt/refs/heads/main/screenshots/brick-and-bolt-2026-07-25T203800.png
 security:
@@ -97,9 +97,9 @@ tags:
 - Company
 - Marketplaces
 - Construction
-- Home Building
-- Real Estate
-- Proptech
+- Homebuilding
+- Real-Estate
+- PropTech
 - India
 - Project Management
 website: https://www.bricknbolt.com/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -652,7 +652,7 @@ modified: '2026-05-19'
 name: Temenos Transact
 nav: Providers
 network: true
-overview: 'Temenos Transact publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Beneficiaries API, Cards API, and 7 more. Tagged areas include Banking, Core Banking, Digital Banking, Enterprise, and Financial Services.
+overview: 'Temenos Transact publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Beneficiaries API, Cards API, and 7 more. Tagged areas include Banking, Core Banking, Digital Banking, Enterprise, and Financial-Services.
 
 
   The Temenos Transact catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -692,18 +692,18 @@ rules:
   slug: temenos-transact-spectral-rules
 score:
   band: developing
-  composite: 42.4
-  delta: -8.2
+  composite: 42.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 72.7
     developer_ergonomics: 40.5
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 50.6
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -717,9 +717,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/screenshots/temenos-transact-2026-06-20T195053.png
 security:
 - kind: authentication
@@ -736,7 +736,7 @@ tags:
 - Core Banking
 - Digital Banking
 - Enterprise
-- Financial Services
+- Financial-Services
 - Fintech
 use_cases:
 - description: Build digital banking apps with account management, transaction history, and payment initiation APIs.

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -91,7 +91,7 @@ modified: '2026-08-12'
 name: Likeable Local
 nav: Providers
 network: true
-overview: 'Likeable Local is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Marketing, Social Media Management, and Advertising.
+overview: 'Likeable Local is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social-Media, Marketing, Social Media Management, and Advertising.
 
 
   Likeable Local''s developer surface includes support and 8 more developer resources.'
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.5
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -117,9 +117,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/likeable-local/refs/heads/main/screenshots/likeable-local-2026-07-25T225142.png
 security:
@@ -134,12 +134,12 @@ security:
 slug: likeable-local
 tags:
 - Company
-- Social Media
+- Social-Media
 - Marketing
 - Social Media Management
 - Advertising
 - Small Business
 - Agencies
-- SaaS
+- Software-as-a-Service
 website: https://storytellit.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Simpplr's REST API for managing intranet content and community — sites, pages, blogs, events, alerts, notifications, people and audiences, content approval/engagement, search, media uploads, and adopt
@@ -131,8 +131,8 @@ image: https://www.simpplr.com/wp-content/uploads/2023/01/simpplr-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: simpplr-mcp.yml
-  slug: simpplr-mcpyml
+  name: Simpplr MCP Server
+  slug: simpplr-mcp-server
 modified: '2026-07-21'
 name: Simpplr
 nav: Providers
@@ -145,7 +145,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 25.0
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -155,12 +155,12 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.9
+  previous_composite: 25.0
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Simpplr Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: BANCOMAT Pay is a mobile payment service enabling Italian consumers to make e-commerce purchases and P2P transfers through a smartphone app linked to their bank account by phone number and IBAN. Merch
@@ -110,7 +110,7 @@ modified: '2026-04-21'
 name: Bancomat
 nav: Providers
 network: true
-overview: 'Bancomat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include ATM, Banking, Financial Services, Italy, and Mobile Payments.
+overview: 'Bancomat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include ATM, Banking, Financial-Services, Italy, and Mobile Payments.
 
 
   The Bancomat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -137,7 +137,7 @@ rules:
 score:
   band: emerging
   composite: 16.1
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -147,15 +147,15 @@ score:
     discoverability: 59.3
     governance: 45.5
     operational_transparency: 7.9
-  previous_composite: 17.1
+  previous_composite: 16.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/screenshots/bancomat-2026-06-20T172935.png
 security:
@@ -167,7 +167,7 @@ slug: bancomat
 tags:
 - ATM
 - Banking
-- Financial Services
+- Financial-Services
 - Italy
 - Mobile Payments
 - Payments

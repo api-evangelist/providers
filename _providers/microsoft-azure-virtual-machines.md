@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -337,7 +337,7 @@ modified: '2026-05-19'
 name: Azure Virtual Machines
 nav: Providers
 network: true
-overview: 'Azure Virtual Machines publishes 1 API on the [APIs.io](https://apis.io/) network: Virtual Machines API. Tagged areas include Cloud Computing, Compute, IaaS, Infrastructure, and Virtual Machines.
+overview: 'Azure Virtual Machines publishes 1 API on the [APIs.io](https://apis.io/) network: Virtual Machines API. Tagged areas include Cloud Computing, Compute, Infrastructure-as-a-Service, Infrastructure, and Virtual Machines.
 
 
   The Azure Virtual Machines catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -372,7 +372,7 @@ scopes:
 score:
   band: developing
   composite: 53.1
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -382,7 +382,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 58.5
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -390,9 +390,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/screenshots/microsoft-azure-virtual-machines-2026-06-20T185443.png
 security:
 - kind: authentication
@@ -407,7 +407,7 @@ slug: microsoft-azure-virtual-machines
 tags:
 - Cloud Computing
 - Compute
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
 - Virtual Machines
 website: https://azure.microsoft.com/en-us/products/virtual-machines

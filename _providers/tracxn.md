@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Programmatic access to Tracxn''s private-market database. Version 3.0 is current and version 2.2 is formally announced for deprecation. A uniform JSON-over-HTTPS contract: every data endpoint is a POST'
@@ -181,9 +181,9 @@ description: 'Tracxn is a market intelligence platform for private company data,
 image: https://avatars.githubusercontent.com/u/12694738?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: tracxn-mcp.yml
-  slug: tracxn-mcpyml
+- description: 'Tracxn operates an official, first-party, REMOTE MCP server that exposes the private-market database — companies, legal entities, funding rounds, acquisitions, investors, IPOs, time series, locations '
+  name: Tracxn MCP
+  slug: tracxn-mcp
 modified: '2026-08-14'
 name: Tracxn
 nav: Providers
@@ -209,7 +209,7 @@ scopes:
 score:
   band: thin
   composite: 37.1
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -219,13 +219,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 39.5
+  previous_composite: 37.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

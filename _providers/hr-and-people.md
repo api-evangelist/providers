@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 27
 apis:
 - description: Workday is a cloud HCM, payroll, and finance suite with a Web Services / REST API catalog spanning Human Capital Management, Payroll, Recruiting, Talent, and Time Tracking.
@@ -229,7 +229,7 @@ rules:
 score:
   band: emerging
   composite: 15.3
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -245,10 +245,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 20.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 15.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/screenshots/hr-and-people-2026-06-20T182901.png
 security:
 - kind: domain-security
@@ -270,7 +270,7 @@ tags:
 - Employee Engagement
 - People Data
 - Workforce Management
-- Unified API
+- Unified-API
 use_cases:
 - description: Map a customer's HRIS data into a normalized Employee record for downstream consumers (provisioning, analytics, compensation, security)
   name: HRIS Integration Mapping

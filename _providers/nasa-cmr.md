@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ rules:
 score:
   band: developing
   composite: 44.0
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -241,7 +241,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 68.4
-  previous_composite: 46.8
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -255,8 +255,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/screenshots/nasa-cmr-2026-06-20T185946.png
 security:
@@ -273,7 +273,7 @@ tags:
 - Geospatial
 - Open Data
 - Metadata
-- Collections
+- Collection
 - Granules
 website: https://www.earthdata.nasa.gov/about/esdis/eosdis/cmr
 ---

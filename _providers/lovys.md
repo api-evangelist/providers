@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Partner/reseller REST API to embed Lovys insurance products — real-time quotes, plans/pricing/coverage, customer data, policy purchase and activation, and policy lifecycle/renewals across home, smartp
@@ -102,7 +102,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 16.2
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -112,15 +112,15 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.9
+  previous_composite: 16.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lovys/refs/heads/main/screenshots/lovys-2026-07-25T225619.png
 security:
@@ -142,7 +142,7 @@ tags:
 - Home Insurance
 - Pet Insurance
 - Smartphone Insurance
-- OAuth2
+- Authentication
 - Azure API Management
 website: https://lovys.com/
 ---

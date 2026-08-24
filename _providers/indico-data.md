@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Exchange an API token for a short-lived JWT access token
@@ -174,13 +174,13 @@ image: https://indicodata.ai/wp-content/uploads/2023/01/indico-data-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: indico-data-mcp.yml
-  slug: indico-data-mcpyml
+  name: Indico Data MCP Server
+  slug: indico-data-mcp-server
 modified: '2026-07-19'
 name: Indico Data
 nav: Providers
 network: true
-overview: 'Indico Data publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Datasets API, Storage API, and 2 more. Tagged areas include Company, Intelligent Document Processing, Intelligent Process Automation, Document AI, and Machine Learning.
+overview: 'Indico Data publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Datasets API, Storage API, and 2 more. Tagged areas include Company, Intelligent Document Processing, Intelligent Process Automation, Document AI, and Machine-Learning.
 
 
   Indico Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 19 more developer resources.'
@@ -188,7 +188,7 @@ random_paper: 14
 score:
   band: developing
   composite: 48.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 49.7
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +214,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 53.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
 security:
@@ -237,7 +237,7 @@ tags:
 - Intelligent Document Processing
 - Intelligent Process Automation
 - Document AI
-- Machine Learning
+- Machine-Learning
 - Unstructured Data
 - Data Extraction
 - Insurance

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ rules:
 score:
   band: developing
   composite: 53.7
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -284,7 +284,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 59.5
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -292,9 +292,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/screenshots/d-id-2026-06-20T175418.png
 security:
 - kind: authentication
@@ -318,7 +318,7 @@ tags:
 - Generative AI
 - Video Generation
 - Real-Time Streaming
-- Text to Video
+- Text-to-Video
 - Video Translation
 - Voice Cloning
 website: https://www.d-id.com

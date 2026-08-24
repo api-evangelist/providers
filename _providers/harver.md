@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -213,8 +213,8 @@ image: https://harver.com/wp-content/uploads/2026/01/harver-lp-brand-V2-1.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: harver-mcp.yml
-  slug: harver-mcpyml
+  name: Harver MCP Server
+  slug: harver-mcp-server
 modified: '2026-07-19'
 name: Harver
 nav: Providers
@@ -230,7 +230,7 @@ random_paper: 18
 score:
   band: developing
   composite: 41.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -240,7 +240,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 41.9
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,8 +251,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/screenshots/harver-2026-07-25T220747.png
 security:

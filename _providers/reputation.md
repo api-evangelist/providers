@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -371,7 +371,7 @@ rules:
 score:
   band: strong
   composite: 64.3
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -381,7 +381,7 @@ score:
     discoverability: 81.5
     governance: 55.3
     operational_transparency: 21.1
-  previous_composite: 71.0
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -392,9 +392,9 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/screenshots/reputation-2026-06-20T192944.png
 security:
 - kind: authentication

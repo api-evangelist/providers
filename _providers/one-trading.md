@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Real-time WebSocket API for market data (order book, price ticks, book ticker) and, after authenticating, private trading events (order lifecycle, trades, settlement, funding payments, balance adjustm
@@ -179,8 +179,8 @@ image: https://framerusercontent.com/images/m2JxgHpA4PAHjVJIacTjS6wnvRY.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: one-trading-mcp.yml
-  slug: one-trading-mcpyml
+  name: One Trading MCP Server
+  slug: one-trading-mcp-server
 modified: '2026-07-20'
 name: One Trading
 nav: Providers
@@ -196,7 +196,7 @@ random_paper: 20
 score:
   band: thin
   composite: 36.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 37.0
+  previous_composite: 36.2
   provenance:
     conformance: derived
     contracts:
@@ -222,8 +222,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/screenshots/one-trading-2026-08-07T190256.png
 security:
@@ -243,7 +243,7 @@ tags:
 - Trading
 - Derivatives
 - Futures
-- Financial Services
+- Financial-Services
 - Market Data
 - WebSocket
 - Fintech

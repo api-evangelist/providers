@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -500,18 +500,18 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: developing
-  composite: 50.6
-  delta: -9.6
+  composite: 50.9
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 69.5
     developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 60.2
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -519,9 +519,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/screenshots/cdk-global-2026-06-20T174106.png
 security:
 - kind: authentication
@@ -545,8 +545,8 @@ tags:
 - Digital Retail
 - Marketplace
 - Developer Platform
-- Events
-- Webhooks
+- Event
+- Webhook
 - AsyncAPI
 website: https://www.cdkglobal.com
 ---

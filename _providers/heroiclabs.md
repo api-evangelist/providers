@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 5
@@ -321,8 +321,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: heroiclabs-mcp.yml
-  slug: heroiclabs-mcpyml
+  name: Heroic Labs MCP Server
+  slug: heroic-labs-mcp-server
 modified: '2026-08-08'
 name: Heroic Labs
 nav: Providers
@@ -357,7 +357,7 @@ rules:
 score:
   band: exemplar
   composite: 70.8
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -367,7 +367,7 @@ score:
     discoverability: 81.5
     governance: 55.3
     operational_transparency: 57.9
-  previous_composite: 78.8
+  previous_composite: 70.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -378,9 +378,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/screenshots/heroiclabs-2026-07-25T221028.png
 security:
 - kind: authentication
@@ -400,7 +400,7 @@ tags:
 - Matchmaking
 - Leaderboards
 - Social Gaming
-- Open Source
+- Open-Source
 - LiveOps
 - gRPC
 website: https://heroiclabs.com/

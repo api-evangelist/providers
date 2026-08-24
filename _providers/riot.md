@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -273,13 +273,13 @@ image: https://cms-content.tryriot.com/riot_preview_305b31b839.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: riot-mcp.yml
-  slug: riot-mcpyml
+  name: Riot MCP Server
+  slug: riot-mcp-server
 modified: '2026-08-05'
 name: Riot
 nav: Providers
 network: true
-overview: 'Riot publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Awareness API, Breaches API, General API, and 11 more. Tagged areas include cybersecurity, security-awareness, human-risk-management, phishing-simulation, and employee-security.
+overview: 'Riot publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Awareness API, Breaches API, General API, and 11 more. Tagged areas include Cybersecurity, Security Awareness, Human Risk Management, Phishing Simulation, and employee-security.
 
 
   The Riot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -299,7 +299,7 @@ scopes:
 score:
   band: developing
   composite: 51.8
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -309,7 +309,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 56.6
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -320,8 +320,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/screenshots/riot-2026-08-17T081610.png
 security:
@@ -343,18 +343,18 @@ security:
   summary_line: AICPA SOC 2 Type II, GDPR
 slug: riot
 tags:
-- cybersecurity
-- security-awareness
-- human-risk-management
-- phishing-simulation
+- Cybersecurity
+- Security Awareness
+- Human Risk Management
+- Phishing Simulation
 - employee-security
-- security-posture-management
+- Security Posture Management
 - breach-detection
-- email-security
-- saas-security
-- scim
-- webhooks
-- ocsf
-- france
+- Email Security
+- SaaS Security
+- SCIM
+- Webhook
+- OCSF
+- France
 website: https://tryriot.com/
 ---

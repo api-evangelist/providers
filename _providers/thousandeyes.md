@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 26
 apis:
 - description: 'Manage users, accounts, and account groups in the ThousandEyes platform using the Administrative API. This API provides the following operations to manage your organization: * `/account-groups`: Accou'
@@ -306,8 +306,8 @@ image: https://docs.thousandeyes.com/~gitbook/image?url=https%3A%2F%2F1112912342
 layout: provider
 mcp_servers:
 - description: ''
-  name: thousandeyes-mcp.yml
-  slug: thousandeyes-mcpyml
+  name: ThousandEyes MCP Server
+  slug: thousandeyes-mcp-server
 modified: '2026-08-19'
 name: ThousandEyes
 nav: Providers
@@ -335,16 +335,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode/deviceCode
 score:
   band: exemplar
-  composite: 73.3
+  composite: 70.6
+  delta: -2.7
   facets:
-    access_clarity: 92.1
-    commercial_clarity: 92.1
+    access_clarity: 85.5
+    commercial_clarity: 85.5
     contract_governance: 16.7
     contract_quality: 64.9
-    developer_ergonomics: 78.0
+    developer_ergonomics: 73.2
     discoverability: 87.0
     governance: 16.7
-    operational_transparency: 94.7
+    operational_transparency: 92.1
+  previous_composite: 73.3
   provenance:
     conformance: derived
     contracts:
@@ -354,8 +356,9 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Thousandeyes Authentication

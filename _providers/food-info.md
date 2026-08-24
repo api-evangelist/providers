@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -164,9 +164,9 @@ description: Food Info serves harmonised nutrient data for reference foods over 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/food-info.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: food-info-mcp.yml
-  slug: food-info-mcpyml
+- description: CANDIDATE MCP tool surface derived from the eight operations in the published OpenAPI. Food Info does NOT operate an MCP server — this is an API Evangelist proposal showing what one would look like, n
+  name: Food Info MCP Server
+  slug: food-info-mcp-server
 modified: '2026-08-04'
 name: Food Info
 nav: Providers
@@ -187,7 +187,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.5
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -197,7 +197,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 38.0
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

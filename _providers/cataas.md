@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ modified: '2026-05-30'
 name: Cataas
 nav: Providers
 network: true
-overview: 'Cataas publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Catalog API, Cats API, and 1 more. Tagged areas include Animals, Cats, Images, Open Source, and Public APIs.
+overview: 'Cataas publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Catalog API, Cats API, and 1 more. Tagged areas include Animals, Cats, Image, Open-Source, and Public APIs.
 
 
   The Cataas catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -241,18 +241,18 @@ rules:
   slug: cataas-spectral-rules
 score:
   band: emerging
-  composite: 20.6
-  delta: -5.8
+  composite: 21.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 26.8
     developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 26.4
+  previous_composite: 21.0
   provenance:
     agentic_access: derived
     contracts:
@@ -260,9 +260,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/screenshots/cataas-2026-06-20T174040.png
 security:
 - kind: authentication
@@ -280,8 +280,8 @@ solutions:
 tags:
 - Animals
 - Cats
-- Images
-- Open Source
+- Image
+- Open-Source
 - Public APIs
 use_cases:
 - description: Embed live cat images in API tutorials, learn-to-code lessons, and conference demos.

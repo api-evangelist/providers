@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -176,13 +176,13 @@ image: https://priorlabs.ai/pl.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: priorlabs-mcp.yml
-  slug: priorlabs-mcpyml
+  name: Prior Labs MCP Server
+  slug: prior-labs-mcp-server
 modified: '2026-07-20'
 name: Prior Labs
 nav: Providers
 network: true
-overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prediction API and Training API. Tagged areas include Company, Machine Learning, Artificial Intelligence, Tabular Data, and Foundation Models.
+overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prediction API and Training API. Tagged areas include Company, Machine-Learning, Artificial Intelligence, Tabular Data, and Foundation Models.
 
 
   Prior Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
@@ -190,7 +190,7 @@ random_paper: 8
 score:
   band: developing
   composite: 46.4
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -200,7 +200,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 49.8
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +211,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/screenshots/priorlabs-2026-08-17T081338.png
 security:
@@ -227,7 +227,7 @@ security:
 slug: priorlabs
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Tabular Data
 - Foundation Models

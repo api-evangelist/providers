@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Everest API by Validity — the Return Path platform''s surviving programmable surface. Two live major versions behind one host: /api/2.0 is current and covers inbox placement testing and seed lists,'
@@ -183,7 +183,7 @@ modified: '2026-08-13'
 name: Return Path
 nav: Providers
 network: true
-overview: 'Return Path publishes 1 API on the [APIs.io](https://apis.io/) network: Everest API. Tagged areas include Company, Martech, Email, Email Deliverability, and Email Marketing.
+overview: 'Return Path publishes 1 API on the [APIs.io](https://apis.io/) network: Everest API. Tagged areas include Company, MarTech, Email, Email Deliverability, and Email Marketing.
 
 
   The Return Path catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.6
-  delta: -10.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -212,7 +212,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 52.2
+  previous_composite: 41.6
   provenance:
     conformance: derived
     contracts:
@@ -222,9 +222,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/screenshots/return-path-2026-08-17T081538.png
 security:
 - kind: authentication
@@ -246,7 +246,7 @@ security:
 slug: return-path
 tags:
 - Company
-- Martech
+- MarTech
 - Email
 - Email Deliverability
 - Email Marketing

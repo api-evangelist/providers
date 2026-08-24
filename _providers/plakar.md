@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -124,7 +124,7 @@ modified: '2026-07-20'
 name: Plakar
 nav: Providers
 network: true
-overview: 'Plakar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backup, Data Protection, Disaster Recovery, and Open Source.
+overview: 'Plakar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backup, Data Protection, Disaster Recovery, and Open-Source.
 
 
   Plakar''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 15 more developer resources.'
@@ -132,7 +132,7 @@ random_paper: 5
 score:
   band: thin
   composite: 35.2
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -142,12 +142,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 28.9
+  previous_composite: 35.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Plakar Domain Security
@@ -163,7 +163,7 @@ tags:
 - Backup
 - Data Protection
 - Disaster Recovery
-- Open Source
+- Open-Source
 - Encryption
 - Deduplication
 - Storage

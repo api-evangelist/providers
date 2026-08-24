@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The Salt Security API Protection Platform provides full lifecycle API security including automated API discovery, posture governance, real-time threat protection, and remediation insights. It uses AI '
@@ -132,7 +132,7 @@ modified: '2026-05-02'
 name: Salt Security
 nav: Providers
 network: true
-overview: 'Salt Security publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Security, AI, API Discovery, Posture Governance, and Threat Protection.
+overview: 'Salt Security publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Security, Artificial Intelligence, API Discovery, Posture Governance, and Threat Protection.
 
 
   The Salt Security catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -162,7 +162,7 @@ rules:
 score:
   band: emerging
   composite: 13.9
-  delta: -10.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -172,10 +172,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 24.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 13.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salt-security/refs/heads/main/screenshots/salt-security-2026-06-20T193357.png
 security:
 - kind: domain-security
@@ -185,7 +185,7 @@ security:
 slug: salt-security
 tags:
 - API Security
-- AI
+- Artificial Intelligence
 - API Discovery
 - Posture Governance
 - Threat Protection

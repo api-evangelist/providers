@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -289,13 +289,13 @@ image: https://cdn.sanity.io/images/3lyosn52/production/3846d0bcd45fb4d64491c6d5
 layout: provider
 mcp_servers:
 - description: ''
-  name: scrunch-ai-mcp.yml
-  slug: scrunch-ai-mcpyml
+  name: Scrunch AI MCP Server
+  slug: scrunch-ai-mcp-server
 modified: '2026-08-13'
 name: Scrunch AI
 nav: Providers
 network: true
-overview: 'Scrunch AI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including agent-traffic API, ai-referrals API, axp-render API, and 8 more. Tagged areas include Company, AI, AI Search, Answer Engine Optimization, and Generative Engine Optimization.
+overview: 'Scrunch AI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including agent-traffic API, ai-referrals API, axp-render API, and 8 more. Tagged areas include Company, Artificial Intelligence, AI Search, Answer Engine Optimization, and Generative Engine Optimization.
 
 
   The Scrunch AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -319,7 +319,7 @@ scopes:
 score:
   band: strong
   composite: 61.9
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -329,7 +329,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 62.5
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,8 +340,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/screenshots/scrunch-ai-2026-08-17T081741.png
 security:
@@ -360,7 +360,7 @@ security:
 slug: scrunch-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Search
 - Answer Engine Optimization
 - Generative Engine Optimization

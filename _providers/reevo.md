@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Reevo's permission-scoped public REST API. Endpoints cover account and contact upsert, accounts (create/update/get/search-by-domain), contacts (get/search), opportunities (create/update/get/search/shi
@@ -178,13 +178,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reevo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: reevo-mcp.yml
-  slug: reevo-mcpyml
+  name: Reevo MCP
+  slug: reevo-mcp
 modified: '2026-08-13'
 name: Reevo
 nav: Providers
 network: true
-overview: 'Reevo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Sales, CRM, and Revenue Operations.
+overview: 'Reevo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales, CRM, and Revenue Operations.
 
 
   The Reevo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -208,7 +208,7 @@ scopes:
 score:
   band: developing
   composite: 52.1
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -218,13 +218,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 55.4
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/screenshots/reevo-2026-08-17T081502.png
 security:
@@ -239,7 +239,7 @@ security:
 slug: reevo
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Sales
 - CRM
 - Revenue Operations

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -294,14 +294,14 @@ jsonld:
   slug: triple-whale-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: triple-whale-mcp.yml
-  slug: triple-whale-mcpyml
+- description: Triple Whale ships an MCP surface in two distinct forms. A hosted remote server at https://mcp.triplewhale.com/sse answers JSON-RPC over HTTP and is protected by OAuth 2.1 (PKCE S256, dynamic client r
+  name: Triple Whale MCP (Moby)
+  slug: triple-whale-mcp-moby
 modified: '2026-08-13'
 name: Triple Whale
 nav: Providers
 network: true
-overview: 'Triple Whale publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Compliance API, Data In API, and 2 more. Tagged areas include E-commerce, Analytics, Attribution, Shopify, and Pixel Tracking.
+overview: 'Triple Whale publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Compliance API, Data In API, and 2 more. Tagged areas include E-Commerce, Analytics, Attribution, Shopify, and Pixel Tracking.
 
 
   The Triple Whale catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -336,7 +336,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.6
-  delta: -14.7
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -346,7 +346,7 @@ score:
     discoverability: 92.6
     governance: 26.5
     operational_transparency: 65.8
-  previous_composite: 82.3
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,9 +357,9 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
 security:
 - kind: authentication
@@ -376,13 +376,13 @@ security:
   summary_line: SOC 2, GDPR
 slug: triple-whale
 tags:
-- E-commerce
+- E-Commerce
 - Analytics
 - Attribution
 - Shopify
 - Pixel Tracking
 - ROAS
-- DTC
+- Direct to Consumer
 - Marketing
 website: https://www.triplewhale.com
 ---

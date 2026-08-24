@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HTTP RPC-style API for age gates, age verification, verifiable parental consent, k-ID sessions, and permission management. Methods take the form https://game-api.k-id.com/api/v1/{method} with bearer A
@@ -155,8 +155,8 @@ image: https://avatars.githubusercontent.com/kidentify
 layout: provider
 mcp_servers:
 - description: ''
-  name: k-id-mcp.yml
-  slug: k-id-mcpyml
+  name: k-ID MCP Server
+  slug: k-id-mcp-server
 modified: '2026-07-20'
 name: k-ID
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 0
 score:
   band: developing
   composite: 43.6
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -182,14 +182,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 49.6
+  previous_composite: 43.6
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/screenshots/k-id-2026-08-17T123933.png
 security:
 - kind: authentication

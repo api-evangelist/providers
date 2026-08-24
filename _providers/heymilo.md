@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -292,9 +292,9 @@ description: HeyMilo AI is an agentic recruiting platform for high-volume hiring
 image: https://www.heymilo.ai/images/og-default.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: heymilo-mcp.yml
-  slug: heymilo-mcpyml
+- description: HeyMilo hosts a read-only Model Context Protocol server that exposes the same data surfaces an authenticated user sees in app.heymilo.ai, scoped to the workspaces the identity can access. Every tool i
+  name: HeyMilo MCP Server
+  slug: heymilo-mcp-server
 modified: '2026-07-19'
 name: HeyMilo
 nav: Providers
@@ -314,7 +314,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.5
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -324,7 +324,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 57.8
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,8 +335,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/screenshots/heymilo-2026-07-25T221122.png
 security:
@@ -364,7 +364,7 @@ tags:
 - Interviewing
 - Candidate Screening
 - Voice AI
-- Webhooks
+- Webhook
 - ATS Integration
 website: https://www.heymilo.ai
 ---

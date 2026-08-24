@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,8 +177,8 @@ image: https://www.scale3labs.com/assets/scale3-opengraph.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: scale3-mcp.yml
-  slug: scale3-mcpyml
+  name: Scale3 MCP Server
+  slug: scale3-mcp-server
 modified: '2026-07-21'
 name: Scale3
 nav: Providers
@@ -194,7 +194,7 @@ random_paper: 4
 score:
   band: strong
   composite: 56.1
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -204,7 +204,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 57.6
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -215,8 +215,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scale3/refs/heads/main/screenshots/scale3-2026-08-17T081729.png
 security:

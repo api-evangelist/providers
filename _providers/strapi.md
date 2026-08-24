@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 4
@@ -272,7 +272,7 @@ modified: '2026-05-19'
 name: Strapi
 nav: Providers
 network: true
-overview: 'Strapi publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Admin Authentication API, Admin Roles API, and 12 more. Tagged areas include CMS, Content Management, Headless CMS, Node.js, and Open Source.
+overview: 'Strapi publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Admin Authentication API, Admin Roles API, and 12 more. Tagged areas include CMS, Content Management, Headless CMS, Node.js, and Open-Source.
 
 
   The Strapi catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -324,7 +324,7 @@ rules:
 score:
   band: developing
   composite: 42.6
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -334,7 +334,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 46.6
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -342,8 +342,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/screenshots/strapi-2026-06-20T194615.png
 security:
@@ -365,6 +365,6 @@ tags:
 - Content Management
 - Headless CMS
 - Node.js
-- Open Source
+- Open-Source
 website: https://strapi.io
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -377,18 +377,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.4
-  delta: -3.4
+  composite: 54.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 70.1
     developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 57.8
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     contracts:
@@ -402,8 +402,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/screenshots/microsoft-power-apps-2026-06-20T185522.png
 security:
@@ -428,7 +428,7 @@ tags:
 - Microsoft
 - No-Code
 - Power Platform
-- SaaS
+- Software-as-a-Service
 use_cases:
 - description: Digitize paper-based processes and manual workflows with custom business applications.
   name: Business Process Automation

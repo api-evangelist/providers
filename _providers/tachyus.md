@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Daily/monthly production records for a well.
@@ -150,8 +150,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tachyus.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: tachyus-mcp.yml
-  slug: tachyus-mcpyml
+  name: Tachyus MCP Server
+  slug: tachyus-mcp-server
 modified: '2026-07-21'
 name: Tachyus
 nav: Providers
@@ -173,7 +173,7 @@ scopes:
 score:
   band: developing
   composite: 45.6
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -183,7 +183,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 45.1
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -199,8 +199,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tachyus/refs/heads/main/screenshots/tachyus-2026-08-17T082238.png
 security:
@@ -220,7 +220,7 @@ tags:
 - Reservoir Management
 - Production Optimization
 - Emissions Management
-- Machine Learning
+- Machine-Learning
 - Analytics
 website: https://tachyus.com
 ---

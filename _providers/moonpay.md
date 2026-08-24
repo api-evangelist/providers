@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Server and client API for on-ramp, off-ramp, swaps, quotes, sessions, customers (KYC), payment methods, transactions, and virtual accounts.
@@ -186,8 +186,8 @@ image: https://github.com/moonpay.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: moonpay-mcp.yml
-  slug: moonpay-mcpyml
+  name: MoonPay MCP Server
+  slug: moonpay-mcp-server
 modified: '2026-07-20'
 name: MoonPay
 nav: Providers
@@ -203,7 +203,7 @@ random_paper: 15
 score:
   band: strong
   composite: 58.2
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -213,7 +213,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 55.7
+  previous_composite: 58.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -224,8 +224,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/screenshots/moonpay-2026-08-07T184245.png
 security:

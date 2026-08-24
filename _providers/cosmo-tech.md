@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 16
@@ -201,8 +201,8 @@ image: https://avatars.githubusercontent.com/u/9283409?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: cosmo-tech-mcp.yml
-  slug: cosmo-tech-mcpyml
+  name: Cosmo Tech MCP Server
+  slug: cosmo-tech-mcp-server
 modified: '2026-07-18'
 name: Cosmo Tech
 nav: Providers
@@ -220,7 +220,7 @@ scopes:
 score:
   band: developing
   composite: 42.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 43.8
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +241,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/screenshots/cosmo-tech-2026-07-25T210455.png
 security:

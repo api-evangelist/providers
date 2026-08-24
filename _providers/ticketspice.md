@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-07-05'
 name: TicketSpice
 nav: Providers
 network: true
-overview: 'TicketSpice publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Coupons API, Customers API, Forms API, and 7 more. Tagged areas include Event Ticketing, Ticketing, Events, Registration, and Payments.
+overview: 'TicketSpice publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Coupons API, Customers API, Forms API, and 7 more. Tagged areas include Event Ticketing, Ticketing, Event, Registration, and Payments.
 
 
   TicketSpice''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.4
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -187,7 +187,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 34.6
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -217,7 +217,7 @@ slug: ticketspice
 tags:
 - Event Ticketing
 - Ticketing
-- Events
+- Event
 - Registration
 - Payments
 - Webconnex

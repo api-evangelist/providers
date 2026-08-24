@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 4
@@ -279,7 +279,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-- description: ''
+- description: First-party Model Context Protocol server published by LY Corporation that wraps the LINE Messaging API so an AI agent can drive a LINE Official Account — pushing and broadcasting text and Flex messag
   name: MCP Server manifest
   slug: mcp-server-manifest
 modified: '2026-08-13'
@@ -322,7 +322,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.6
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -332,7 +332,7 @@ score:
     discoverability: 92.6
     governance: 43.9
     operational_transparency: 84.2
-  previous_composite: 74.3
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,8 +343,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png
 security:
@@ -367,7 +367,7 @@ tags:
 - Social Login
 - Mini Apps
 - Marketing
-- Webhooks
+- Webhook
 - OpenID Connect
 - Audience
 - Analytics

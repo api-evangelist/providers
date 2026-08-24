@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Enables payee registration, account approval, and fund transfers for mass payouts to recipients around the world.
@@ -139,7 +139,7 @@ modified: 2026-06-12
 name: Payoneer
 nav: Providers
 network: true
-overview: 'Payoneer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mass Payout API and Mass Payout & Services API. Tagged areas include payments, payouts, cross-border payments, currency conversion, and marketplace payments.
+overview: 'Payoneer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mass Payout API and Mass Payout & Services API. Tagged areas include Payments, Payouts, Cross-Border Payments, Currency Conversion, and Marketplace Payments.
 
 
   The Payoneer catalog on APIs.io includes 1 JSON-LD context.
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.7
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -168,15 +168,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 39.7
+  previous_composite: 37.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 23.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payoneer/refs/heads/main/screenshots/payoneer-2026-06-20T191503.png
 security:
@@ -186,15 +186,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: payoneer
 tags:
-- payments
-- payouts
-- cross-border payments
-- currency conversion
-- marketplace payments
-- fintech
-- financial services
-- mass payouts
-- checkout
+- Payments
+- Payouts
+- Cross-Border Payments
+- Currency Conversion
+- Marketplace Payments
+- Fintech
+- Financial-Services
+- Mass Payouts
+- Checkout
 - REST
 website: https://www.payoneer.com
 ---

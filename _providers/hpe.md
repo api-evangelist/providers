@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -113,7 +113,7 @@ modified: '2026-05-11'
 name: Hewlett Packard Enterprise
 nav: Providers
 network: true
-overview: 'Hewlett Packard Enterprise publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Identity API, and Workspaces API. Tagged areas include Cloud, Edge to Cloud, Infrastructure as a Service, Compute, and Storage.
+overview: 'Hewlett Packard Enterprise publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Identity API, and Workspaces API. Tagged areas include Cloud, Edge to Cloud, Infrastructure-as-a-Service, Compute, and Storage.
 
 
   Hewlett Packard Enterprise''s developer surface includes authentication, documentation, signup flow, and 6 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 2
 score:
   band: thin
   composite: 30.4
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -131,7 +131,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 30.2
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -139,8 +139,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/screenshots/hpe-2026-06-20T182854.png
 security:
@@ -156,7 +156,7 @@ slug: hpe
 tags:
 - Cloud
 - Edge to Cloud
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Compute
 - Storage
 - Networking

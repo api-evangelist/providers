@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ random_paper: 7
 score:
   band: minimal
   composite: 9.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -78,9 +78,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dishpatch/refs/heads/main/screenshots/dishpatch-2026-07-25T212103.png
 security:
@@ -95,7 +95,7 @@ tags:
 - Meal Delivery
 - Food Delivery
 - E-Commerce
-- Restaurants
+- Restaurant
 - Consumer
 - Retail
 - United Kingdom

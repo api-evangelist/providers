@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for Broadlume BMS, the flooring business management system formerly known as RollMaster. 256 documented operations across 28 resource groups covering orders, quotes, leads, customers, product
@@ -159,8 +159,8 @@ image: https://optimise2.assets-servd.host/broadlume-platform/production/images/
 layout: provider
 mcp_servers:
 - description: ''
-  name: broadlume-mcp.yml
-  slug: broadlume-mcpyml
+  name: Broadlume MCP Server
+  slug: broadlume-mcp-server
 modified: '2026-08-13'
 name: Broadlume
 nav: Providers
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.6
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -191,7 +191,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 50.0
+  previous_composite: 47.6
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/screenshots/broadlume-2026-07-25T203941.png
 security:
@@ -225,7 +225,7 @@ tags:
 - Home Improvement
 - ERP
 - Inventory
-- Point of Sale
+- Point-of-Sale
 - Accounting
 - Order Management
 website: https://broadlume.com/

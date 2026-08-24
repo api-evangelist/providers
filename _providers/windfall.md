@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -188,8 +188,8 @@ image: https://api-docs.windfall.com/static/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: windfall-mcp.yml
-  slug: windfall-mcpyml
+  name: Windfall MCP Server
+  slug: windfall-mcp-server
 modified: '2026-08-14'
 name: Windfall
 nav: Providers
@@ -210,7 +210,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -220,7 +220,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 51.7
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -231,8 +231,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/screenshots/windfall-2026-08-17T082920.png
 security:

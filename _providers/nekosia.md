@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Free keyless RESTful JSON API serving random anime/neko images across many categories with rich metadata, a tags endpoint, session mechanism, and content ratings.
@@ -185,7 +185,7 @@ modified: '2026-08-19'
 name: Nekosia API
 nav: Providers
 network: true
-overview: 'Nekosia API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include anime, neko, api, nekos, and neko api.
+overview: 'Nekosia API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anime, neko, nekos, neko api, and booru.
 
 
   Nekosia API''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, code examples, and 25 more developer resources.'
@@ -200,21 +200,24 @@ rate_limits:
   slug: nekosia-rate-limits
 score:
   band: thin
-  composite: 36.6
+  composite: 32.9
+  delta: -3.7
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 1.4
     developer_ergonomics: 61.9
     discoverability: 87.0
     governance: 18.2
-    operational_transparency: 47.4
+    operational_transparency: 28.9
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Nekosia Authentication
@@ -230,17 +233,15 @@ security:
   summary_line: security.txt · contact published
 slug: nekosia
 tags:
-- anime
+- Anime
 - neko
-- api
 - nekos
 - neko api
 - booru
-- image
-- media
-- entertainment
-- images
-- free api
-- open access
+- Image
+- Media
+- Entertainment
+- Free API
+- Open Access
 website: https://nekosia.cat/
 ---

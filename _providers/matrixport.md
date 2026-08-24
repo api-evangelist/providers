@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -181,8 +181,8 @@ image: https://www.bit.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: matrixport-mcp.yml
-  slug: matrixport-mcpyml
+  name: Matrixport MCP Server
+  slug: matrixport-mcp-server
 modified: '2026-07-20'
 name: Matrixport
 nav: Providers
@@ -198,7 +198,7 @@ random_paper: 1
 score:
   band: thin
   composite: 33.3
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 34.2
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +225,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/screenshots/matrixport-2026-07-25T230424.png
 security:

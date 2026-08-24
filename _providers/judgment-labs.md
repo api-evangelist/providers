@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The backend platform API behind Judgeval — ingests agent traces/spans, runs evaluations and judges, and serves traces, sessions, behaviors, datasets, and automations. Consumed through the Judgeval SDK
@@ -138,9 +138,9 @@ description: 'Judgment Labs builds the continuous-improvement stack for AI agent
 image: https://www.judgmentlabs.ai/logo/full_logo_dark.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: judgment-labs-mcp.yml
-  slug: judgment-labs-mcpyml
+- description: 'The Judgment MCP server exposes production agent data — traces, sessions, behaviors, judges, projects, views, datasets, prompts, and automations — to MCP-capable AI code editors and to the in-product '
+  name: Judgment Labs MCP Server
+  slug: judgment-labs-mcp-server
 modified: '2026-07-19'
 name: Judgment Labs
 nav: Providers
@@ -153,7 +153,7 @@ random_paper: 2
 score:
   band: thin
   composite: 34.7
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -163,13 +163,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 36.8
+  previous_composite: 34.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/screenshots/judgment-labs-2026-07-25T223257.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -509,18 +509,18 @@ rules:
   slug: highlight-io-rules
 score:
   band: exemplar
-  composite: 66.6
-  delta: -5.0
+  composite: 67.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 63.5
     developer_ergonomics: 59.5
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 84.2
-  previous_composite: 71.6
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     contracts:
@@ -528,9 +528,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/screenshots/highlight-io-2026-06-20T182728.png
 security:
 - kind: domain-security
@@ -546,7 +546,7 @@ tags:
 - Logging
 - Tracing
 - OpenTelemetry
-- Open Source
+- Open-Source
 - Frontend Monitoring
 - Full Stack Monitoring
 website: https://www.highlight.io

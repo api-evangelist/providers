@@ -31,7 +31,7 @@ tags:
 - Fintech
 - Insurtech
 - Embedded Finance
-- Wealthtech
+- WealthTech
 - Crypto
 - Climate
 - Artificial Intelligence

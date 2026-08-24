@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 10
@@ -285,8 +285,8 @@ image: https://cdn.prod.website-files.com/673f38dcff99b6e3a5b731cb/67b82bff96b78
 layout: provider
 mcp_servers:
 - description: ''
-  name: remberg-mcp.yml
-  slug: remberg-mcpyml
+  name: Remberg MCP Server
+  slug: remberg-mcp-server
 modified: '2026-07-21'
 name: Remberg
 nav: Providers
@@ -306,7 +306,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.0
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -316,7 +316,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 48.5
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,8 +327,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/screenshots/remberg-2026-08-17T081515.png
 security:
@@ -353,7 +353,7 @@ tags:
 - Field Service
 - Work Orders
 - Industrial
-- SaaS
+- Software-as-a-Service
 - Germany
 website: https://remberg.com
 ---

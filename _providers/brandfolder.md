@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -199,8 +199,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: brandfolder-mcp.yml
-  slug: brandfolder-mcpyml
+  name: Brandfolder MCP Server
+  slug: brandfolder-mcp-server
 modified: 2026-08-13
 name: Brandfolder
 nav: Providers
@@ -224,7 +224,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.4
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -234,7 +234,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 63.0
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,9 +245,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/screenshots/brandfolder-2026-06-20T173633.png
 security:
 - kind: authentication
@@ -273,7 +273,7 @@ tags:
 - Brand Management
 - Assets
 - Media
-- Collections
+- Collection
 - Smartsheet
 website: https://brandfolder.com
 ---

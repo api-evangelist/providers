@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -1355,7 +1355,7 @@ modified: '2026-06-03'
 name: Toast
 nav: Providers
 network: true
-overview: 'Toast publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, ConnectedRestaurants API, Discounts API, and 11 more. Tagged areas include Restaurants, Point Of Sale, Payments, Online Ordering, and Delivery.
+overview: 'Toast publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, ConnectedRestaurants API, Discounts API, and 11 more. Tagged areas include Restaurant, Point-of-Sale, Payments, Online Ordering, and Delivery.
 
 
   The Toast catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1400,18 +1400,18 @@ scopes:
   summary_line: 22 scopes · clientCredentials
 score:
   band: strong
-  composite: 55.5
-  delta: -2.0
+  composite: 56.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.2
     developer_ergonomics: 42.9
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 47.4
-  previous_composite: 57.5
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1425,8 +1425,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/screenshots/toast-tab-2026-06-20T195430.png
 security:
@@ -1444,15 +1444,15 @@ security:
   summary_line: disclosure policy published
 slug: toast-tab
 tags:
-- Restaurants
-- Point Of Sale
+- Restaurant
+- Point-of-Sale
 - Payments
 - Online Ordering
 - Delivery
 - Loyalty
 - Gift Cards
 - Menus
-- Orders
+- Order
 - Kitchen
 - Labor
 - Scheduling

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Hosted Model Context Protocol server (15 tools) plus REST API for compiling and querying codebase context: architecture overviews, code maps, file and symbol documentation, source retrieval, changelog'
@@ -131,13 +131,13 @@ image: https://www.driver.ai/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: driver-mcp.yml
-  slug: driver-mcpyml
+  name: Driver MCP Server
+  slug: driver-mcp-server
 modified: '2026-07-18'
 name: Driver
 nav: Providers
 network: true
-overview: 'Driver publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Developer Tools, Code Documentation, and MCP.
+overview: 'Driver publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Developer Tools, Code Documentation, and MCP.
 
 
   Driver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 15 more developer resources.'
@@ -150,7 +150,7 @@ scopes:
 score:
   band: thin
   composite: 30.2
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -160,12 +160,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 33.0
+  previous_composite: 30.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/driver/refs/heads/main/screenshots/driver-2026-07-25T212415.png
 security:
@@ -184,7 +184,7 @@ security:
 slug: driver
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Documentation
 - MCP

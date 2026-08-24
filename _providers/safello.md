@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -224,8 +224,8 @@ image: https://framerusercontent.com/images/vWXBsKx9A6eh2AJFSk6wXzmHYNo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: safello-mcp.yml
-  slug: safello-mcpyml
+  name: Safello MCP Server
+  slug: safello-mcp-server
 modified: '2026-07-21'
 name: Safello
 nav: Providers
@@ -242,18 +242,18 @@ scopes:
   summary_line: 8 scopes · urn:safello:params:oauth:grant-type:bankid/clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 54.4
-  delta: 3.2
+  composite: 55.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 30.3
     contract_quality: 58.1
     developer_ergonomics: 63.7
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 51.2
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,8 +270,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/screenshots/safello-2026-08-17T081705.png
 security:

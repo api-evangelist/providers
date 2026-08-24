@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'FalconX REST trading API for institutional digital-asset execution: price quotes, order placement and execution, trade history, balances, transfers, and trade limits, across OTC, execution-management '
@@ -121,7 +121,7 @@ random_paper: 12
 score:
   band: thin
   composite: 30.0
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -131,7 +131,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 29.7
+  previous_composite: 30.0
   provenance:
     conformance: first-party
   regulatory:
@@ -140,8 +140,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/falconx/refs/heads/main/screenshots/falconx-2026-07-25T214203.png
 security:
@@ -161,7 +161,7 @@ tags:
 - Prime Brokerage
 - Trading
 - Institutional
-- Financial Services
+- Financial-Services
 - Custody
 - Derivatives
 - OTC

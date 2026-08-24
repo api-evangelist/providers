@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -337,7 +337,7 @@ modified: '2026-04-19'
 name: Academy Software Foundation
 nav: Providers
 network: true
-overview: 'Academy Software Foundation publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Hosts API, Jobs API, Layers API, and 1 more. Tagged areas include Animation, Color Management, Film, Linux Foundation, and Open Source.
+overview: 'Academy Software Foundation publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Hosts API, Jobs API, Layers API, and 1 more. Tagged areas include Animation, Color Management, Film, Linux Foundation, and Open-Source.
 
 
   The Academy Software Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -377,18 +377,18 @@ rules:
   slug: academy-software-foundation-spectral-rules
 score:
   band: emerging
-  composite: 25.6
-  delta: -9.8
+  composite: 26.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 24.0
     developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 35.4
+  previous_composite: 26.0
   provenance:
     agentic_access: derived
     contracts:
@@ -396,9 +396,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/screenshots/academy-software-foundation-2026-06-20T163501.png
 security:
 - kind: domain-security
@@ -411,7 +411,7 @@ tags:
 - Color Management
 - Film
 - Linux Foundation
-- Open Source
+- Open-Source
 - Rendering
 - Standards
 - Visual Effects

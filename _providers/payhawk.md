@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Payhawk spend management features including expenses, corporate cards, transactions, employees, custom fields, fund accounts, bank statements, and webhook subscr
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.0
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -151,15 +151,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 30.8
+  previous_composite: 28.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/screenshots/payhawk-2026-06-20T191457.png
 security:
@@ -184,8 +184,8 @@ tags:
 - Budget Controls
 - ERP Integration
 - Accounts Payable
-- FinTech
+- Fintech
 - Finance Automation
-- Webhooks
+- Webhook
 website: https://payhawk.com
 ---

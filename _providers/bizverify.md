@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
@@ -141,8 +141,8 @@ description: 'BizVerify is a business entity verification (KYB) API built for AI
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: BizVerify MCP Server
+  slug: bizverify-mcp-server
 modified: '2026-08-02'
 name: BizVerify
 nav: Providers
@@ -155,7 +155,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 25.7
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -165,15 +165,15 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 26.1
+  previous_composite: 25.7
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify
@@ -184,7 +184,7 @@ tags:
 - Entity Verification
 - Compliance
 - MCP
-- Agent-native
+- agent-native
 - Developer Tools
 website: https://bizverify.co
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -416,18 +416,18 @@ rules:
   slug: coingecko-rules
 score:
   band: developing
-  composite: 51.1
-  delta: -3.2
+  composite: 51.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 67.4
     developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 54.3
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -441,8 +441,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/screenshots/coingecko-2026-06-20T174737.png
 security:
@@ -465,8 +465,8 @@ tags:
 - Exchanges
 - Liquidity Pools
 - Market Data
-- NFTs
-- Onchain Data
+- NFT
+- On-Chain Data
 - Prices
 website: https://www.coingecko.com
 ---

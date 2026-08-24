@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Bridges API from Starbridge — 4 operation(s) for bridges.
@@ -232,14 +232,14 @@ description: Starbridge is an AI-powered go-to-market and sales-intelligence pla
 image: https://cdn.prod.website-files.com/68a834f29776727eae1bc0f6/694fa319b9cd6a197c7be433_1_Starbridge%20Homepage%20OpenGraph.webp
 layout: provider
 mcp_servers:
-- description: ''
-  name: starbridge-mcp.yml
-  slug: starbridge-mcpyml
+- description: Official hosted, remote Model Context Protocol server that brings a Starbridge organization's bridges, feed, signals, and buyer research into any MCP client. Installs as a Claude plugin or as a custom
+  name: Starbridge MCP
+  slug: starbridge-mcp
 modified: '2026-08-14'
 name: Starbridge
 nav: Providers
 network: true
-overview: 'Starbridge publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bridges API, Buyer API, Columns API, and 3 more. Tagged areas include Company, Ai, Sales Intelligence, Go To Market, and Public Sector.
+overview: 'Starbridge publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bridges API, Buyer API, Columns API, and 3 more. Tagged areas include Company, Artificial Intelligence, Sales Intelligence, Go-To-Market, and Public Sector.
 
 
   The Starbridge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -263,7 +263,7 @@ scopes:
 score:
   band: strong
   composite: 62.7
-  delta: 5.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -273,7 +273,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 57.3
+  previous_composite: 62.7
   provenance:
     conformance: first-party
     contracts:
@@ -289,9 +289,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 74.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/screenshots/starbridge-2026-08-17T082105.png
 security:
 - kind: authentication
@@ -309,9 +309,9 @@ security:
 slug: starbridge
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Sales Intelligence
-- Go To Market
+- Go-To-Market
 - Public Sector
 - Education
 - Government

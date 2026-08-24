@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ modified: '2026-05-19'
 name: Flux
 nav: Providers
 network: true
-overview: 'Flux publishes 3 APIs on the [APIs.io](https://apis.io/) network: Editing API, Generation API, and Results API. Tagged areas include AI, Image Generation, Machine Learning, Open Source, and Text to Image.
+overview: 'Flux publishes 3 APIs on the [APIs.io](https://apis.io/) network: Editing API, Generation API, and Results API. Tagged areas include Artificial Intelligence, Image-Generation, Machine-Learning, Open-Source, and Text-to-Image.
 
 
   The Flux catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -210,7 +210,7 @@ rules:
 score:
   band: developing
   composite: 45.9
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -220,7 +220,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 54.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -228,9 +228,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/screenshots/flux-2026-06-20T181418.png
 security:
 - kind: authentication
@@ -243,10 +243,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: flux
 tags:
-- AI
-- Image Generation
-- Machine Learning
-- Open Source
-- Text to Image
+- Artificial Intelligence
+- Image-Generation
+- Machine-Learning
+- Open-Source
+- Text-to-Image
 website: https://bfl.ai/
 ---

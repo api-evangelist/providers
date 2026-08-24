@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Open-source Python library for building distributed stream processing dataflows. Provides bytewax.dataflow, bytewax.operators (including windowing), bytewax.inputs, bytewax.outputs, and a connectors p
@@ -131,7 +131,7 @@ modified: '2026-05-23'
 name: Bytewax
 nav: Providers
 network: true
-overview: 'Bytewax publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Stream Processing, Python, Dataflow, Real-Time, and Kafka.
+overview: 'Bytewax publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Stream Processing, Python, Dataflows, Real-Time, and Kafka.
 
 
   Bytewax''s developer surface includes developer portal, documentation, pricing, engineering blog, GitHub presence, code examples, and 13 more developer resources.'
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.2
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -157,9 +157,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 31.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytewax/refs/heads/main/screenshots/bytewax-2026-06-20T173827.png
 security:
@@ -171,13 +171,13 @@ slug: bytewax
 tags:
 - Stream Processing
 - Python
-- Dataflow
+- Dataflows
 - Real-Time
 - Kafka
 - Windowing
 - Connectors
 - Distributed Systems
 - Kubernetes
-- Open Source
+- Open-Source
 website: https://bytewax.io
 ---

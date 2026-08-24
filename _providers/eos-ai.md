@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,12 +57,12 @@ modified: '2026-07-19'
 name: Eos AI
 nav: Providers
 network: true
-overview: Eos AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, AI, and Machine Learning.
+overview: Eos AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Artificial Intelligence, and Machine-Learning.
 random_paper: 7
 score:
   band: minimal
   composite: 4.6
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -72,15 +72,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.6
+  previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eos-ai/refs/heads/main/screenshots/eos-ai-2026-07-25T213503.png
 security:
@@ -93,8 +93,8 @@ tags:
 - Company
 - Health
 - Healthcare
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Clinical Data
 - Data Harmonization
 - Medical Imaging

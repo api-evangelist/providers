@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Karat''s GraphQL API for managing technical-interview hiring workflows: query candidacies, roles, groups and users; invite candidates into assessments; and bulk-update candidacy dispositions. Hosted pe'
@@ -151,8 +151,8 @@ image: https://karat.com/wp-content/themes/karat/assets/img/png/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: karat-mcp.yml
-  slug: karat-mcpyml
+  name: Karat MCP Server
+  slug: karat-mcp-server
 modified: '2026-07-19'
 name: Karat
 nav: Providers
@@ -165,7 +165,7 @@ random_paper: 6
 score:
   band: thin
   composite: 35.1
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -175,13 +175,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 39.3
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/screenshots/karat-2026-07-25T223504.png
 security:
@@ -206,6 +206,5 @@ tags:
 - Talent Assessment
 - Engineering
 - GraphQL
-- API
 website: https://karat.com
 ---

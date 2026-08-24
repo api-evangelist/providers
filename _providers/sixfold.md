@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ modified: '2026-05-25'
 name: Sixfold
 nav: Providers
 network: true
-overview: 'Sixfold is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Underwriting, Artificial Intelligence, Insurtech, and Property And Casualty.
+overview: 'Sixfold is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Underwriting, Artificial Intelligence, Insurtech, and Property and Casualty.
 
 
   Sixfold''s developer surface includes product news, GitHub presence, engineering blog, and 10 more developer resources.'
@@ -101,7 +101,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 7.5
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -111,15 +111,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 10.2
+  previous_composite: 7.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sixfold/refs/heads/main/screenshots/sixfold-2026-06-20T194017.png
 security:
@@ -137,12 +137,12 @@ tags:
 - Underwriting
 - Artificial Intelligence
 - Insurtech
-- Property And Casualty
-- Life And Health
+- Property and Casualty
+- Life and Health
 - Risk Assessment
 - Submission Triage
 - Document Processing
 - Agentic AI
-- Enterprise SaaS
+- Enterprise Saas
 website: https://www.sixfold.ai
 ---

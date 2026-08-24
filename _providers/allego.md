@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'REST API for the Allego sales enablement platform enabling programmatic access to video coaching sessions, content libraries, learning modules, certifications, rep readiness assessments, conversation '
@@ -157,9 +157,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allego.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: allego-mcp.yml
-  slug: allego-mcpyml
+- description: Allego ships a first-party, hosted Model Context Protocol server — marketed as the "Allego MCP API Server" and shipped as part of Allego 9 — that exposes deal intelligence, content and enablement to a
+  name: Allego MCP API Server
+  slug: allego-mcp-api-server
 modified: '2026-08-14'
 name: Allego
 nav: Providers
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.9
-  delta: -13.9
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -190,13 +190,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 38.8
+  previous_composite: 24.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/screenshots/allego-2026-06-20T171529.png
 security:
 - kind: authentication
@@ -221,6 +221,6 @@ tags:
 - Deal Intelligence
 - Revenue Enablement
 - Certifications
-- AI
+- Artificial Intelligence
 website: https://www.allego.com/
 ---

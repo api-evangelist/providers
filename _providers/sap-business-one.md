@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -108,6 +108,10 @@ collections:
   name: SAP Business One Service Layer API
   slug: open-sap-business-one
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,29 +168,29 @@ created: '2026-05-11'
 description: SAP Business One is an affordable, on-premise or cloud ERP solution designed for small and midsize businesses, covering finance and accounting, purchasing, inventory, sales, CRM, production, and analytics in a single integrated application. It exposes programmatic access through the Service Layer, a modern REST/OData v4 API for the SAP HANA edition, alongside the legacy DI API and DI Server for SQL Server deployments. Authentication uses session-based login that returns a B1SESSION cookie used for subsequent OData calls against company databases.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sap-business-one.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-08-21'
 name: SAP Business One
 nav: Providers
 network: true
 overview: 'SAP Business One publishes 9 APIs on the [APIs.io](https://apis.io/) network, including BusinessPartners API, BusinessPartners(''{CardCode}'') API, CompanyService GetCompanyInfo API, and 6 more. Tagged areas include ERP, Enterprise Resource Planning, Accounting, Inventory Management, and CRM.
 
 
-  SAP Business One''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
+  SAP Business One''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
 random_paper: 16
 score:
   band: thin
-  composite: 29.0
-  delta: -1.6
+  composite: 30.9
+  delta: 1.9
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 52.3
-    developer_ergonomics: 19.0
+    developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.6
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +198,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/screenshots/sap-business-one-2026-06-20T193419.png
 security:

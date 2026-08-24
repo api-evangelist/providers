@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Dealpath's REST API for programmatic access to deals, pipeline, and portfolio data. Bearer-token authentication (token provisioned by Dealpath); responses are JSON and advertise X-RateLimit-* headers.
@@ -113,7 +113,7 @@ modified: '2026-07-18'
 name: Dealpath
 nav: Providers
 network: true
-overview: 'Dealpath publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Deal Management, and Commercial Real Estate.
+overview: 'Dealpath publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Deal Management, and Commercial Real Estate.
 
 
   Dealpath''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, authentication, and 11 more developer resources.'
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.7
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -135,9 +135,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 27.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealpath/refs/heads/main/screenshots/dealpath-2026-07-25T211514.png
 security:
@@ -152,12 +152,11 @@ security:
 slug: dealpath
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Deal Management
 - Commercial Real Estate
 - Investment Management
 - Real Estate Technology
-- API
 website: https://dealpath.com
 ---

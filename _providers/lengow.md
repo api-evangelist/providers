@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ modified: '2026-08-17'
 name: Lengow
 nav: Providers
 network: true
-overview: 'Lengow publishes 1 API on the [APIs.io](https://apis.io/) network: Channel Execution API. Tagged areas include Company, SaaS, E-Commerce, Marketplaces, and Product Feeds.
+overview: 'Lengow publishes 1 API on the [APIs.io](https://apis.io/) network: Channel Execution API. Tagged areas include Company, Software-as-a-Service, E-Commerce, Marketplaces, and Product Feeds.
 
 
   Lengow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
@@ -203,6 +203,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -212,6 +213,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 50.0
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,8 +224,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Lengow Authentication
@@ -240,7 +243,7 @@ security:
 slug: lengow
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - E-Commerce
 - Marketplaces
 - Product Feeds

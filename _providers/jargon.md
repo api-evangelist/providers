@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Jargon's collaborative modelling platform for designing, governing, and scaling domain models with generation of OpenAPI, JSON Schema, and JSON-LD artifacts. A public REST API is not currently publish
@@ -73,7 +73,7 @@ modified: '2026-04-28'
 name: Jargon
 nav: Providers
 network: true
-overview: 'Jargon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Data Modelling, Domain Driven Design, Domains, and JSON Schema.
+overview: 'Jargon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Data Modelling, Domain-Driven Design, Domains, and JSON-Schema.
 
 
   Jargon''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -99,9 +99,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jargon/refs/heads/main/screenshots/jargon-2026-06-20T183702.png
 security:
@@ -113,9 +113,9 @@ slug: jargon
 tags:
 - API Design
 - Data Modelling
-- Domain Driven Design
+- Domain-Driven Design
 - Domains
-- JSON Schema
+- JSON-Schema
 - OpenAPI
 - Platform
 website: https://jargon.sh/

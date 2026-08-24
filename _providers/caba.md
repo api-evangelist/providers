@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,11 +56,11 @@ modified: '2026-07-18'
 name: Caba
 nav: Providers
 network: true
-overview: Caba is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture, Home Goods, Home Furnishings, and Direct-to-Consumer.
+overview: Caba is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture, Home Goods, Home Furnishings, and Direct to Consumer.
 random_paper: 13
 score:
   band: minimal
-  composite: 7.1
+  composite: 8.2
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -68,12 +68,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caba/refs/heads/main/screenshots/caba-2026-08-07T162856.png
 security:
@@ -87,8 +87,8 @@ tags:
 - Furniture
 - Home Goods
 - Home Furnishings
-- Direct-to-Consumer
-- E-commerce
+- Direct to Consumer
+- E-Commerce
 - Consumer Products
 - Design
 website: https://www.cabadesign.co

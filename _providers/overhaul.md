@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Create and manage shipments and receive status-based data updates, including risk summaries, driver details and next-delivery insights. Marketed as part of Overhaul's tiered API subscription. No publi
@@ -112,7 +112,7 @@ modified: '2026-08-02'
 name: Overhaul
 nav: Providers
 network: true
-overview: 'Overhaul publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include supply-chain, supply-chain-visibility, logistics, transportation, and cargo-security.
+overview: 'Overhaul publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Supply Chain Visibility, Logistics, Transportation, and cargo-security.
 
 
   Overhaul''s developer surface includes engineering blog, support, changelog, and 13 more developer resources.'
@@ -120,7 +120,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 21.7
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -130,11 +130,11 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 22.6
+  previous_composite: 21.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overhaul/refs/heads/main/screenshots/overhaul-2026-08-07T191132.png
 security:
@@ -148,17 +148,17 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: overhaul
 tags:
-- supply-chain
-- supply-chain-visibility
-- logistics
-- transportation
+- Supply Chain
+- Supply Chain Visibility
+- Logistics
+- Transportation
 - cargo-security
-- risk-management
-- fraud-prevention
-- cold-chain
-- iot
-- track-and-trace
-- freight
-- compliance
+- Risk Management
+- Fraud Prevention
+- Cold Chain
+- IoT
+- Track and Trace
+- Freight
+- Compliance
 website: https://www.over-haul.com/
 ---

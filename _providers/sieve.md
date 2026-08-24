@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ modified: '2026-06-20'
 name: Sieve
 nav: Providers
 network: true
-overview: 'Sieve publishes 2 APIs on the [APIs.io](https://apis.io/) network: Functions API and Jobs API. Tagged areas include AI, Video, Audio, Media Processing, and Async Jobs.
+overview: 'Sieve publishes 2 APIs on the [APIs.io](https://apis.io/) network: Functions API and Jobs API. Tagged areas include Artificial Intelligence, Video, Audio, Media Processing, and Async Jobs.
 
 
   Sieve''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.9
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -143,7 +143,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.8
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -151,8 +151,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -165,7 +165,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: sieve
 tags:
-- AI
+- Artificial Intelligence
 - Video
 - Audio
 - Media Processing

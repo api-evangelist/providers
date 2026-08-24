@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -271,13 +271,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keycloak.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: keycloak-mcp.yml
-  slug: keycloak-mcpyml
+  name: Keycloak MCP Server
+  slug: keycloak-mcp-server
 modified: '2026-06-20'
 name: Keycloak
 nav: Providers
 network: true
-overview: 'Keycloak publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Groups API, Identity Providers API, and 3 more. Tagged areas include Authentication, Authorization, Identity Management, OAuth, and OpenID Connect.
+overview: 'Keycloak publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Groups API, Identity Providers API, and 3 more. Tagged areas include Authentication, Authorization, Identity Management, OpenID Connect, and Security.
 
 
   The Keycloak catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -305,19 +305,19 @@ rules:
     warn: 3
   slug: keycloak-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 39.1
-  delta: -8.4
+  band: developing
+  composite: 40.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 40.2
     contract_quality: 55.4
     developer_ergonomics: 33.3
-    discoverability: 72.2
+    discoverability: 83.3
     governance: 40.2
     operational_transparency: 26.3
-  previous_composite: 47.5
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -327,9 +327,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/screenshots/keycloak-2026-06-20T184004.png
 security:
 - kind: authentication
@@ -349,7 +349,6 @@ tags:
 - Authentication
 - Authorization
 - Identity Management
-- OAuth
 - OpenID Connect
 - Security
 - SSO

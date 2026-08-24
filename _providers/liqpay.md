@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Server-side API for generating signed payment requests that redirect customers to the LiqPay hosted checkout page. Supports one-time payments, donations, split payments, two-stage holds, and QR-code p
@@ -129,7 +129,7 @@ modified: '2026-06-13'
 name: LiqPay
 nav: Providers
 network: true
-overview: 'LiqPay publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Fintech, Ukraine, Cards, and Subscriptions.
+overview: 'LiqPay publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Fintech, Ukraine, Cards, and Subscription.
 
 
   LiqPay''s developer surface includes developer portal, documentation, sandbox, authentication, status page, support, and 8 more developer resources.'
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.3
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -155,16 +155,16 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 26.0
+  previous_composite: 18.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Liqpay Domain Security
@@ -176,7 +176,7 @@ tags:
 - Fintech
 - Ukraine
 - Cards
-- Subscriptions
+- Subscription
 - Invoicing
 - P2P Transfers
 - PrivatBank

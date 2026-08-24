@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Single REST API for the Integrated Finance platform — clients, users, real / virtual / shared-pool accounts, bank transfers, currency exchanges, card issuing and processing, beneficiary verification, '
@@ -151,13 +151,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/if.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: if-mcp.yml
-  slug: if-mcpyml
+  name: IF MCP Server
+  slug: if-mcp-server
 modified: '2026-07-19'
 name: IF
 nav: Providers
 network: true
-overview: 'IF publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Embedded Finance, Banking as a Service, and Payments.
+overview: 'IF publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Embedded Finance, Banking as a Service, and Payments.
 
 
   The IF catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -173,7 +173,7 @@ scopes:
 score:
   band: developing
   composite: 51.1
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -183,7 +183,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 50.1
+  previous_composite: 51.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/screenshots/if-2026-07-25T222048.png
 security:
@@ -209,7 +209,7 @@ security:
 slug: if
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - Banking as a Service
 - Payments
@@ -217,6 +217,5 @@ tags:
 - Foreign Exchange
 - Compliance
 - Open Banking
-- API
 website: https://integrated.finance
 ---

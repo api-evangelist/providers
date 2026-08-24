@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -176,13 +176,13 @@ image: https://cdn.prod.website-files.com/658c60c4ff902effa2174f77/668c43e2bfb99
 layout: provider
 mcp_servers:
 - description: ''
-  name: element5-mcp.yml
-  slug: element5-mcpyml
+  name: Element5 MCP Server
+  slug: element5-mcp-server
 modified: '2026-07-19'
 name: Element5
 nav: Providers
 network: true
-overview: 'Element5 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Eligibility API, and Object Store API. Tagged areas include Company, Healthcare, Revenue Cycle Management, Post-Acute Care, and Workflow Automation.
+overview: 'Element5 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Eligibility API, and Object Store API. Tagged areas include Company, Healthcare, Revenue Cycle Management, Post-Acute Care, and Workflow-Automation.
 
 
   The Element5 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -193,7 +193,7 @@ random_paper: 1
 score:
   band: developing
   composite: 47.7
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 43.9
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -220,8 +220,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/screenshots/element5-2026-07-25T213120.png
 security:
@@ -239,11 +239,11 @@ tags:
 - Healthcare
 - Revenue Cycle Management
 - Post-Acute Care
-- Workflow Automation
+- Workflow-Automation
 - Eligibility Verification
 - Prior Authorization
 - Claims Processing
-- Webhooks
+- Webhook
 - Artificial Intelligence
 website: https://www.e5.ai/
 ---

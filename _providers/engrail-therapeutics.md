@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The public, anonymously-readable content API exposed by engrail.com at /wp-json/wp/v2. Sixteen read operations over posts, pages, media, categories, tags, comments, and the site's own type/taxonomy/st
@@ -129,8 +129,8 @@ image: https://www.engrail.com/wp-content/uploads/2022/05/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: engrail-therapeutics-mcp.yml
-  slug: engrail-therapeutics-mcpyml
+  name: Engrail Therapeutics MCP Server
+  slug: engrail-therapeutics-mcp-server
 modified: '2026-08-01'
 name: Engrail Therapeutics
 nav: Providers
@@ -146,19 +146,19 @@ scopes:
   slug: engrail-therapeutics-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 38.8
-  delta: 2.7
+  band: developing
+  composite: 39.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
     contract_quality: 56.6
     developer_ergonomics: 20.8
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 36.1
+  previous_composite: 39.9
   provenance:
     conformance: first-party
     contracts:
@@ -174,8 +174,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/screenshots/engrail-therapeutics-2026-08-07T164922.png
 security:
@@ -198,6 +198,6 @@ tags:
 - Drug Development
 - Healthcare
 - Mental Health
-- Model Context Protocol
+- MCP
 website: https://www.engrail.com/
 ---

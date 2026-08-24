@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Zions Treasury Internet Banking provides businesses with a secure online platform for managing treasury operations including ACH payments, domestic and international wire transfers, account transfers,
@@ -104,7 +104,7 @@ modified: '2026-05-03'
 name: Zions Bancorporation
 nav: Providers
 network: true
-overview: 'Zions Bancorporation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Treasury Management, Payments, and Fortune 1000.
+overview: 'Zions Bancorporation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Treasury Management, Payments, and Fortune 1000.
 
 
   Zions Bancorporation''s developer surface includes developer portal, documentation, support, and 6 more developer resources.'
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.5
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -146,16 +146,16 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.2
+  previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zions-bancorp/refs/heads/main/screenshots/zions-bancorp-2026-06-20T201911.png
 security:
 - kind: domain-security
@@ -165,7 +165,7 @@ security:
 slug: zions-bancorp
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Treasury Management
 - Payments
 - Fortune 1000

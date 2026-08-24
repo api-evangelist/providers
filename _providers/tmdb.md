@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The full TMDB REST API surface (v3). Covers movies, TV series, seasons, episodes, people, credits, images, collections, companies, networks, keywords, genres, reviews, lists, certifications, find, tre
@@ -1534,7 +1534,7 @@ modified: '2026-05-30'
 name: The Movie Database
 nav: Providers
 network: true
-overview: 'The Movie Database publishes 1 API on the [APIs.io](https://apis.io/) network: TMDB API. Tagged areas include Catalog, Discovery, Entertainment, Images, and Media.
+overview: 'The Movie Database publishes 1 API on the [APIs.io](https://apis.io/) network: TMDB API. Tagged areas include Catalog, Discovery, Entertainment, Image, and Media.
 
 
   The The Movie Database catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1574,21 +1574,21 @@ rules:
   slug: tmdb-rules
 score:
   band: developing
-  composite: 52.2
-  delta: -7.2
+  composite: 52.7
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.7
     developer_ergonomics: 32.1
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 47.4
-  previous_composite: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 52.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/screenshots/tmdb-2026-06-20T195425.png
 security:
 - kind: domain-security
@@ -1600,7 +1600,7 @@ tags:
 - Catalog
 - Discovery
 - Entertainment
-- Images
+- Image
 - Media
 - Metadata
 - Movies

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: Propmatic
 nav: Providers
 network: true
-overview: 'Propmatic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, Leasing, and Multifamily.
+overview: 'Propmatic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real-Estate, Leasing, and Multifamily.
 
 
   Propmatic''s developer surface includes support and 4 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 8.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -78,9 +78,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -90,8 +90,8 @@ security:
 slug: propmatic
 tags:
 - Company
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Leasing
 - Multifamily
 - Artificial Intelligence

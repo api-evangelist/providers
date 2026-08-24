@@ -29,10 +29,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/software-ag/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -77,19 +81,19 @@ created: '2026-07-17'
 description: Web Methods (webMethods) is an enterprise integration platform pioneer, founded in 1996 by Phillip and Caren Merrick in Fairfax, Virginia to connect software applications in real time using web standards such as HTTP and XML. Its 2000 IPO was one of the largest first-day pops of the dot-com era. webMethods was acquired by Software AG in 2007 for $546 million, and its integration portfolio - now including webMethods.io Integration (iPaaS), API Gateway and API Management, the Developer Portal, B2B/EDI, messaging, managed file transfer, and event-driven integration - was acquired by IBM in July 2024 as IBM webMethods Hybrid Integration. Mayfield was an early venture backer of the company.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/web-methods.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-21'
 name: Web Methods
 nav: Providers
 network: true
 overview: 'Web Methods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Integration, iPaaS, API Management, and API Gateway.
 
 
-  Web Methods'' developer surface includes authentication, documentation, API reference, getting-started guide, and 6 more developer resources.'
+  Web Methods'' developer surface includes authentication, documentation, API reference, getting-started guide, and 7 more developer resources.'
 random_paper: 6
 score:
   band: emerging
   composite: 12.3
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -99,9 +103,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 16.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

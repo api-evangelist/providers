@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,37 +95,37 @@ image: https://www.blume.com/cdn/shop/files/Screenshot_2026-06-01_at_11.33.49_AM
 layout: provider
 mcp_servers:
 - description: ''
-  name: blume-mcp.yml
-  slug: blume-mcpyml
+  name: Blume MCP Server
+  slug: blume-mcp-server
 modified: '2026-07-18'
 name: Blume
 nav: Providers
 network: true
-overview: 'Blume is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Beauty, Self-Care, and E-commerce.
+overview: 'Blume is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Beauty, Self-Care, and E-Commerce.
 
 
   Blume''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 9 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 21.2
-  delta: -0.4
+  composite: 22.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.6
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blume/refs/heads/main/screenshots/blume-2026-08-07T162657.png
 security:
@@ -143,7 +143,7 @@ tags:
 - Skincare
 - Beauty
 - Self-Care
-- E-commerce
+- E-Commerce
 - Consumer
 - Shopify
 - Agent Commerce

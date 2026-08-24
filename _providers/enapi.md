@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Enapi's OCPI HUB endpoint for EV charging roaming. Implements the Open Charge Point Interface (OCPI) 2.1.1 / 2.2.1 / 2.3.0 across the Credentials, Locations, Tariffs, Tokens, Sessions, CDRs, Commands,
@@ -130,7 +130,7 @@ random_paper: 0
 score:
   band: thin
   composite: 34.5
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -140,7 +140,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 32.5
+  previous_composite: 34.5
   provenance:
     conformance: first-party
   regulatory:
@@ -149,8 +149,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enapi/refs/heads/main/screenshots/enapi-2026-07-25T213259.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: NAB's first-party merchant payments REST API platform (the NAB Gateway / NAB Transact developer portal at nabgateway-developer.nab.com.au), distinct from the CDR Open Banking surface. Documents a full
@@ -201,8 +201,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-a
 layout: provider
 mcp_servers:
 - description: ''
-  name: national-australia-bank-mcp.yml
-  slug: national-australia-bank-mcpyml
+  name: National Australia Bank MCP Server
+  slug: national-australia-bank-mcp-server
 modified: '2026-07-21'
 name: National Australia Bank
 nav: Providers
@@ -220,7 +220,7 @@ scopes:
 score:
   band: developing
   composite: 40.3
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -230,7 +230,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 43.8
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -246,8 +246,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/screenshots/national-australia-bank-2026-07-21T114739.png
 security:

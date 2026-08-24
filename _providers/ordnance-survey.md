@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -352,14 +352,14 @@ description: 'Ordnance Survey is Great Britain''s national mapping agency, a gov
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ordnance-survey-mcp.yml
-  slug: ordnance-survey-mcpyml
+- description: A candidate MCP tool surface for the Ordnance Survey APIs, one tool per OpenAPI operation that an agent would realistically call. Every tool's source_operation points at a real path/operationId in a s
+  name: Ordnance Survey MCP Server
+  slug: ordnance-survey-mcp-server
 modified: '2026-07-26'
 name: Ordnance Survey
 nav: Providers
 network: true
-overview: 'Ordnance Survey publishes 10 APIs on the [APIs.io](https://apis.io/) network, including OS NGD API - Features, OS NGD API - Tiles, OS Downloads API, and 7 more. Tagged areas include Real Estate, United Kingdom, Land Registry, Geospatial, and Addressing.
+overview: 'Ordnance Survey publishes 10 APIs on the [APIs.io](https://apis.io/) network, including OS NGD API - Features, OS NGD API - Tiles, OS Downloads API, and 7 more. Tagged areas include Real-Estate, United Kingdom, Land Registry, Geospatial, and Addressing.
 
 
   Ordnance Survey''s developer surface includes authentication, documentation, getting-started guide, SDKs, sandbox, changelog, API reference, and 49 more developer resources.'
@@ -380,7 +380,7 @@ scopes:
 score:
   band: strong
   composite: 64.0
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
@@ -390,7 +390,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 66.8
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -407,8 +407,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 68.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png
 security:
@@ -426,7 +426,7 @@ security:
   summary_line: Hackerone · security.txt
 slug: ordnance-survey
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Land Registry
 - Geospatial

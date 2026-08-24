@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: The Asset Custom Fieldsets API from Knak — 2 operation(s) for asset custom fieldsets.
@@ -335,8 +335,8 @@ image: https://s3.amazonaws.com/assets.knak.io/img/Knak-Logo-Medium.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: knak-mcp.yml
-  slug: knak-mcpyml
+  name: Knak MCP Server
+  slug: knak-mcp-server
 modified: '2026-08-13'
 name: Knak
 nav: Providers
@@ -365,7 +365,7 @@ scopes:
 score:
   band: strong
   composite: 59.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -375,7 +375,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 59.7
+  previous_composite: 59.9
   provenance:
     conformance: derived
     contracts:
@@ -385,8 +385,8 @@ score:
       total: 21
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/screenshots/knak-2026-07-25T223953.png
 security:
@@ -417,6 +417,6 @@ tags:
 - Campaign Management
 - No-Code
 - SCIM
-- Webhooks
+- Webhook
 website: https://knak.com/
 ---

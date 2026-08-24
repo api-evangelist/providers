@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ modified: '2026-08-14'
 name: Osmaura
 nav: Providers
 network: true
-overview: 'Osmaura publishes 1 API on the [APIs.io](https://apis.io/) network: Prospect API. Tagged areas include Company, Legal, LegalTech, Artificial Intelligence, and Sales Enablement.
+overview: 'Osmaura publishes 1 API on the [APIs.io](https://apis.io/) network: Prospect API. Tagged areas include Company, Legal, Legal Tech, Artificial Intelligence, and Sales Enablement.
 
 
   Osmaura''s developer surface includes authentication, signup flow, support, documentation, API reference, getting-started guide, pricing, and 14 more developer resources.'
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.3
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -165,7 +165,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 41.9
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -182,8 +182,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/screenshots/osmaura-2026-08-07T191010.png
 security:
@@ -199,7 +199,7 @@ slug: osmaura
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Artificial Intelligence
 - Sales Enablement
 - Business Development

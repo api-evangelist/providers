@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-05-05'
 name: Alphabet
 nav: Providers
 network: true
-overview: 'Alphabet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Technology, Search, Advertising, Cloud Computing, and AI.
+overview: 'Alphabet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Technology, Search, Advertising, Cloud Computing, and Artificial Intelligence.
 
 
   Alphabet''s developer surface includes engineering blog and 3 more developer resources.'
@@ -106,8 +106,8 @@ score:
     - owner: catalog
       reason: not_a_repo
   previous_composite: 4.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphabet/refs/heads/main/screenshots/alphabet-2026-07-25T195755.png
 security:
@@ -121,7 +121,7 @@ tags:
 - Search
 - Advertising
 - Cloud Computing
-- AI
+- Artificial Intelligence
 - Fortune 100
 website: https://abc.xyz/
 ---

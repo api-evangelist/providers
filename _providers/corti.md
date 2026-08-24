@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Real-time, bidirectional stateless dictation over WebSocket, returning live transcripts and detected commands.
@@ -219,14 +219,14 @@ description: 'Corti is a healthcare AI platform for developers, offering a full 
 image: https://mintlify.s3.us-west-1.amazonaws.com/corti/logo/embedded-assistant.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: corti-mcp.yml
-  slug: corti-mcpyml
+- description: Corti does not publish a hosted/remote MCP server for its own API; instead the Corti Agentic Framework acts as an MCP *client*, registering and calling external MCP servers (streamable_http transport,
+  name: Corti MCP Server
+  slug: corti-mcp-server
 modified: '2026-07-18'
 name: Corti
 nav: Providers
 network: true
-overview: 'Corti publishes 2 APIs on the [APIs.io](https://apis.io/) network: Speech to Text API and Ambient Documentation API. Tagged areas include Company, Health, Healthcare, Artificial Intelligence, and Speech to Text.
+overview: 'Corti publishes 2 APIs on the [APIs.io](https://apis.io/) network: Speech to Text API and Ambient Documentation API. Tagged areas include Company, Health, Healthcare, Artificial Intelligence, and Speech-to-Text.
 
 
   Corti''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -239,7 +239,7 @@ scopes:
 score:
   band: strong
   composite: 62.8
-  delta: 5.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -255,7 +255,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 56.9
+  previous_composite: 62.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -266,9 +266,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/screenshots/corti-2026-07-25T210446.png
 security:
 - kind: authentication
@@ -289,10 +289,10 @@ tags:
 - Health
 - Healthcare
 - Artificial Intelligence
-- Speech to Text
+- Speech-to-Text
 - Medical Coding
 - Clinical Documentation
 - Agents
-- Machine Learning
+- Machine-Learning
 website: https://www.corti.ai
 ---

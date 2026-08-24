@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Hoplite platform API at api.hoplite.sh. Documented through the developer docs (no public OpenAPI published as of this profiling). Surfaces include model-provider discovery (GET /api/model-provider
@@ -126,9 +126,9 @@ description: Hoplite is a cloud coding-agent platform (Y Combinator S26). You co
 image: https://hoplite.sh/favicon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: hoplite-mcp.yml
-  slug: hoplite-mcpyml
+- description: Hoplite operates its own official hosted Model Context Protocol server so an MCP client (Claude Code, Cursor, or any MCP client) can list projects, start Hoplite agent threads, and call reviewed Hopli
+  name: Hoplite MCP Server
+  slug: hoplite-mcp-server
 modified: '2026-07-19'
 name: Hoplite
 nav: Providers
@@ -144,7 +144,7 @@ random_paper: 1
 score:
   band: thin
   composite: 37.2
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -154,12 +154,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 39.5
+  previous_composite: 37.2
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/screenshots/hoplite-2026-07-25T221418.png
 security:

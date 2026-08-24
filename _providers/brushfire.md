@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -202,7 +202,7 @@ modified: '2026-07-05'
 name: Brushfire
 nav: Providers
 network: true
-overview: 'Brushfire publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AccessCodes API, Accounts API, Attendees API, and 13 more. Tagged areas include Event Ticketing, Registration, Events, Ticketing, and Check-In.
+overview: 'Brushfire publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AccessCodes API, Accounts API, Attendees API, and 13 more. Tagged areas include Event Ticketing, Registration, Event, Ticketing, and Check-in.
 
 
   Brushfire''s developer surface includes authentication, documentation, API reference, signup flow, and 8 more developer resources.'
@@ -218,7 +218,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.0
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -228,7 +228,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.2
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +242,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/screenshots/brushfire-2026-07-25T204003.png
 security:
@@ -259,9 +259,9 @@ slug: brushfire
 tags:
 - Event Ticketing
 - Registration
-- Events
+- Event
 - Ticketing
-- Check-In
+- Check-in
 - Churches
 - Payments
 website: https://www.brushfire.com

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-19'
 name: Hubble Protocol
 nav: Providers
 network: true
-overview: 'Hubble Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, DeFi, Solana, and Stablecoin.
+overview: 'Hubble Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, DeFi, Solana, and Stablecoins.
 
 
   Hubble Protocol''s developer surface includes documentation, getting-started guide, API reference, support, and 9 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 16.5
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,9 +110,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 16.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-protocol/refs/heads/main/screenshots/hubble-protocol-2026-07-25T221606.png
 security:
@@ -130,7 +130,7 @@ tags:
 - Crypto Web3
 - DeFi
 - Solana
-- Stablecoin
+- Stablecoins
 - Lending
 - Borrowing
 - Blockchain

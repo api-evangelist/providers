@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -111,8 +111,8 @@ image: https://cdn.prod.website-files.com/6a4ea9e79536d28883c64986/6a4ea9e79536d
 layout: provider
 mcp_servers:
 - description: ''
-  name: brightai-mcp.yml
-  slug: brightai-mcpyml
+  name: BrightAI MCP Server
+  slug: brightai-mcp-server
 modified: '2026-08-08'
 name: BrightAI
 nav: Providers
@@ -125,7 +125,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 25.6
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -135,7 +135,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.0
+  previous_composite: 25.6
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -147,8 +147,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 35.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -172,7 +172,7 @@ tags:
 - Predictive Maintenance
 - Edge AI
 - Foundation Models
-- Model Context Protocol
+- MCP
 - Energy and Utilities
 - Water and Wastewater
 website: https://www.bright.ai/

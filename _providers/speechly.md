@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Speechly''s gRPC API surface: Identity (access tokens), SLU (streaming spoken language understanding), WLU (written language understanding), Batch audio processing, Config/Model management, Analytics, '
@@ -107,8 +107,8 @@ image: https://avatars.githubusercontent.com/u/25465412?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: speechly-mcp.yml
-  slug: speechly-mcpyml
+  name: Speechly MCP Server
+  slug: speechly-mcp-server
 modified: '2026-07-21'
 name: Speechly
 nav: Providers
@@ -121,7 +121,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 20.8
-  delta: 6.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -131,13 +131,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 13.9
+  previous_composite: 20.8
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Speechly Authentication
@@ -155,7 +155,7 @@ tags:
 - Spoken Language Understanding
 - Speech-to-Text
 - Content Moderation
-- Machine Learning
+- Machine-Learning
 - gRPC
 - Artificial Intelligence
 website: http://speechly.com

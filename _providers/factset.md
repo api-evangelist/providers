@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 705
   human_in_the_loop: 0
@@ -17984,8 +17984,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: factset-mcp.yml
-  slug: factset-mcpyml
+  name: FactSet AI-Ready Data MCP
+  slug: factset-ai-ready-data-mcp
 modified: '2026-07-22'
 name: Factset
 nav: Providers
@@ -18035,18 +18035,18 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: strong
-  composite: 65.5
-  delta: -0.2
+  composite: 65.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 70.4
     developer_ergonomics: 87.5
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 13.2
-  previous_composite: 65.7
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -18063,8 +18063,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png
 security:

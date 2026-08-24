@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 323
   human_in_the_loop: 10
@@ -3539,7 +3539,7 @@ modified: '2026-06-02'
 name: Flipdish
 nav: Providers
 network: true
-overview: 'Flipdish publishes 85 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Address API, Apm API, and 82 more. Tagged areas include Restaurant, Online Ordering, Mobile Apps, Point of Sale, and Orders.
+overview: 'Flipdish publishes 85 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Address API, Apm API, and 82 more. Tagged areas include Restaurant, Online Ordering, Mobile Apps, Point-of-Sale, and Order.
 
 
   The Flipdish catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -3584,18 +3584,18 @@ scopes:
   summary_line: 1 scope · implicit/clientCredentials
 score:
   band: developing
-  composite: 53.3
-  delta: -6.1
+  composite: 53.8
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.3
     developer_ergonomics: 48.8
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 59.4
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     contracts:
@@ -3609,9 +3609,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/screenshots/flipdish-2026-06-20T181315.png
 security:
 - kind: authentication
@@ -3627,10 +3627,10 @@ tags:
 - Restaurant
 - Online Ordering
 - Mobile Apps
-- Point of Sale
-- Orders
-- Menu
+- Point-of-Sale
+- Order
+- Menus
 - Payments
-- Webhooks
+- Webhook
 website: https://www.flipdish.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -191,13 +191,13 @@ image: https://physna.com/assets/vectors/logo-p.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: physna-mcp.yml
-  slug: physna-mcpyml
+  name: Physna MCP Server
+  slug: physna-mcp-server
 modified: '2026-07-20'
 name: Physna
 nav: Providers
 network: true
-overview: 'Physna publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ClientCredentials API, Collections API, Deprecated API, and 5 more. Tagged areas include Company, Ai, 3D, Geometric Search, and Manufacturing.
+overview: 'Physna publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ClientCredentials API, Collections API, Deprecated API, and 5 more. Tagged areas include Company, Artificial Intelligence, 3D, Geometric Search, and Manufacturing.
 
 
   Physna''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 16 more developer resources.'
@@ -210,7 +210,7 @@ scopes:
 score:
   band: thin
   composite: 38.9
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -220,7 +220,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 37.8
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -246,14 +246,14 @@ security:
 slug: physna
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - 3D
 - Geometric Search
 - Manufacturing
 - Engineering
-- Machine Learning
+- Machine-Learning
 - Search
-- Computer Vision
+- Computer-Vision
 - Product Development
 website: https://www.physna.com
 ---

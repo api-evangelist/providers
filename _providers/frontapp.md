@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Front Core API is a REST API over Front's shared-inbox platform. It exposes conversations, messages, drafts, comments, contacts, accounts, inboxes, channels, tags, teammates, teams, knowledge base
@@ -189,7 +189,7 @@ modified: '2026-07-19'
 name: FrontApp
 nav: Providers
 network: true
-overview: 'FrontApp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Communication, Customer Service, Shared Inbox, and Email.
+overview: 'FrontApp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Communications, Customer Service, Shared Inbox, and Email.
 
 
   The FrontApp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 48.5
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -219,13 +219,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 56.7
+  previous_composite: 48.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/screenshots/frontapp-2026-07-25T215228.png
 security:
 - kind: authentication
@@ -247,7 +247,7 @@ security:
 slug: frontapp
 tags:
 - Company
-- Communication
+- Communications
 - Customer Service
 - Shared Inbox
 - Email

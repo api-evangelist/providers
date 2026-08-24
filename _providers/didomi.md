@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -756,18 +756,18 @@ rules:
   slug: didomi-rules
 score:
   band: exemplar
-  composite: 78.2
-  delta: -7.2
+  composite: 76.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 55.3
-    contract_quality: 76.6
+    contract_governance: 59.1
+    contract_quality: 69.6
     developer_ergonomics: 80.4
     discoverability: 57.4
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 81.6
-  previous_composite: 85.4
+  previous_composite: 76.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -778,9 +778,9 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/screenshots/didomi-2026-06-20T180026.png
 security:
 - kind: authentication

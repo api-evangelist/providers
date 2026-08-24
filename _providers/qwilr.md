@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for programmatically creating and managing Qwilr pages (proposals, quotes, contracts, reports) from templates and saved blocks, managing quote taxes, listing payment gateways and users, and s
@@ -167,8 +167,8 @@ image: https://qwilr.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: qwilr-mcp.yml
-  slug: qwilr-mcpyml
+  name: Qwilr MCP Server
+  slug: qwilr-mcp-server
 modified: '2026-07-20'
 name: Qwilr
 nav: Providers
@@ -189,7 +189,7 @@ scopes:
 score:
   band: developing
   composite: 52.2
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -199,12 +199,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 53.9
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qwilr/refs/heads/main/screenshots/qwilr-2026-08-17T081434.png
 security:
@@ -233,8 +233,8 @@ tags:
 - Quotes
 - Contracts
 - E-Signature
-- Webhooks
+- Webhook
 - MCP
-- SaaS
+- Software-as-a-Service
 website: https://qwilr.com
 ---

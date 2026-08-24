@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Versioned REST API behind Realisti.co, the virtual-tour and property-imaging platform Casavo operates as Casavo Virtual Tools. Casavo's own help centre documented it as the integration path for estate
@@ -108,7 +108,7 @@ modified: '2026-08-09'
 name: Casavo
 nav: Providers
 network: true
-overview: 'Casavo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Marketplace, and Virtual Tours.
+overview: 'Casavo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Marketplace, and Virtual Tours.
 
 
   Casavo''s developer surface includes signup flow, support, engineering blog, and 11 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 20.4
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -126,11 +126,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 20.0
+  previous_composite: 20.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -144,7 +144,7 @@ security:
 slug: casavo
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - PropTech
 - Marketplace
 - Virtual Tours

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The FlipperForce Public API is the REST API behind Upright's (formerly Fund That Flip's) FlipperForce project management platform for real estate redevelopers. It exposes 50 operations across projects
@@ -143,7 +143,7 @@ modified: '2026-08-16'
 name: Fund That Flip
 nav: Providers
 network: true
-overview: 'Fund That Flip publishes 1 API on the [APIs.io](https://apis.io/) network: FlipperForce Public API. Tagged areas include Company, Real Estate, Lending, Construction, and Project Management.
+overview: 'Fund That Flip publishes 1 API on the [APIs.io](https://apis.io/) network: FlipperForce Public API. Tagged areas include Company, Real-Estate, Lending, Construction, and Project Management.
 
 
   Fund That Flip''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.6
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 53.8
+  previous_composite: 53.6
   provenance:
     conformance: derived
     contracts:
@@ -179,8 +179,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fund-that-flip/refs/heads/main/screenshots/fund-that-flip-2026-08-17T080937.png
 security:
@@ -195,11 +195,11 @@ security:
 slug: fund-that-flip
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Lending
 - Construction
 - Project Management
-- Financial Services
+- Financial-Services
 - Investing
 - Fintech
 - Property Technology

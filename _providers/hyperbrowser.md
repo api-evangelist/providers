@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 12
@@ -440,18 +440,18 @@ rules:
   slug: hyperbrowser-rules
 score:
   band: strong
-  composite: 55.7
-  delta: -7.0
+  composite: 56.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 63.9
     developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 62.7
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -459,9 +459,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/screenshots/hyperbrowser-2026-06-20T183036.png
 security:
 - kind: authentication
@@ -487,6 +487,6 @@ tags:
 - CAPTCHA Solving
 - MCP
 - HyperAgent
-- X402
+- x402
 website: https://hyperbrowser.ai
 ---

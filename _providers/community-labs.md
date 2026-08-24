@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Hypura is a storage-tier-aware LLM inference scheduler for Apple Silicon that places model tensors across GPU, RAM, and NVMe tiers so models larger than physical memory can run. Running `hypura serve '
@@ -96,7 +96,7 @@ modified: '2026-07-20'
 name: Community Labs
 nav: Providers
 network: true
-overview: 'Community Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM Inference, and Developer Tools.
+overview: 'Community Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM Inference, and Developer Tools.
 
 
   Community Labs'' developer surface includes CLI, changelog, and 11 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 15.0
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -114,11 +114,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 14.4
+  previous_composite: 15.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/community-labs/refs/heads/main/screenshots/community-labs-2026-07-25T210140.png
 security:
@@ -130,10 +130,10 @@ slug: community-labs
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM Inference
 - Developer Tools
-- Open Source
+- Open-Source
 - Blockchain
 - Arweave
 - Research

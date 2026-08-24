@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Free VPN, proxy, Tor and datacenter IP detection. 13 sources, active probing.
@@ -79,8 +79,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iplogs/refs/heads/main/screenshots/iplogs-2026-06-20T183556.png
 security:

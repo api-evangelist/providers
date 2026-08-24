@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -220,8 +220,8 @@ image: https://raw.githubusercontent.com/gopigment/ai-plugins/main/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: pigment-mcp.yml
-  slug: pigment-mcpyml
+  name: Pigment MCP Server
+  slug: pigment-mcp-server
 modified: '2026-07-20'
 name: Pigment
 nav: Providers
@@ -237,18 +237,18 @@ rate_limits:
   slug: pigment-rate-limits
 score:
   band: developing
-  composite: 48.0
-  delta: -2.1
+  composite: 49.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
     contract_quality: 43.0
     developer_ergonomics: 61.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 50.1
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,8 +259,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/screenshots/pigment-2026-08-17T081227.png
 security:

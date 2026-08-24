@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -315,8 +315,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: zocdoc-mcp.yml
-  slug: zocdoc-mcpyml
+  name: Zocdoc MCP Server
+  slug: zocdoc-mcp-server
 modified: '2026-08-15'
 name: Zocdoc
 nav: Providers
@@ -356,7 +356,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.5
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -366,7 +366,7 @@ score:
     discoverability: 92.6
     governance: 41.7
     operational_transparency: 28.9
-  previous_composite: 68.6
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,8 +383,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/screenshots/zocdoc-2026-06-20T201932.png
 security:

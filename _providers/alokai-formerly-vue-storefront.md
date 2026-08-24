@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: The cdn API from Alokai (formerly Vue Storefront) — 2 operation(s) for cdn.
@@ -264,13 +264,13 @@ image: https://images.contentstack.io/v3/assets/bltb1a38d5d52a9d1a1/bltd2e8b4aae
 layout: provider
 mcp_servers:
 - description: ''
-  name: alokai-formerly-vue-storefront-mcp.yml
-  slug: alokai-formerly-vue-storefront-mcpyml
+  name: Alokai (formerly Vue Storefront) MCP Server
+  slug: alokai-formerly-vue-storefront-mcp-server
 modified: '2026-07-17'
 name: Alokai (formerly Vue Storefront)
 nav: Providers
 network: true
-overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](https://apis.io/) network, including cdn API, deploy_check API, flush_cache API, and 15 more. Tagged areas include Company, Saas, Ecommerce, Composable Commerce, and Headless Commerce.
+overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](https://apis.io/) network, including cdn API, deploy_check API, flush_cache API, and 15 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Composable Commerce, and Headless Commerce.
 
 
   Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
@@ -278,7 +278,7 @@ random_paper: 20
 score:
   band: developing
   composite: 47.9
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -288,7 +288,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 46.8
+  previous_composite: 47.9
   provenance:
     conformance: derived
     contracts:
@@ -298,8 +298,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/screenshots/alokai-formerly-vue-storefront-2026-07-25T195748.png
 security:
@@ -314,8 +314,8 @@ security:
 slug: alokai-formerly-vue-storefront
 tags:
 - Company
-- Saas
-- Ecommerce
+- Software-as-a-Service
+- E-Commerce
 - Composable Commerce
 - Headless Commerce
 - Frontend as a Service

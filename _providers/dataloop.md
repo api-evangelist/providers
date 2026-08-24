@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Dataloop (Dell Data Orchestration Engine) platform REST API. Every part of the platform — projects, datasets, items, annotations, recipes and ontologies, tasks and assignments, packages, services,
@@ -165,13 +165,13 @@ image: https://dataloop.ai/wp-content/uploads/2024/02/dataloop-logo-main.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: dataloop-mcp.yml
-  slug: dataloop-mcpyml
+  name: Dataloop MCP Server
+  slug: dataloop-mcp-server
 modified: '2026-08-04'
 name: DataLoop
 nav: Providers
 network: true
-overview: 'DataLoop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, Data Management, Data Annotation, and MLOps.
+overview: 'DataLoop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, Data Management, Data Annotation, and MLOps.
 
 
   The DataLoop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -182,7 +182,7 @@ random_paper: 12
 score:
   band: developing
   composite: 51.7
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -192,12 +192,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 56.1
+  previous_composite: 51.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/screenshots/dataloop-2026-08-07T164125.png
 security:
@@ -220,11 +220,11 @@ security:
 slug: dataloop
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Data Management
 - Data Annotation
 - MLOps
-- Computer Vision
+- Computer-Vision
 - Generative AI
 - Data Labeling
 - Pipelines

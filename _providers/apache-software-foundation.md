@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ modified: '2026-05-19'
 name: Apache Software Foundation
 nav: Providers
 network: true
-overview: 'Apache Software Foundation publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Committees API, Foundation API, and 6 more. Tagged areas include ASF, Open Source, Governance, Projects, and Apache.
+overview: 'Apache Software Foundation publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Committees API, Foundation API, and 6 more. Tagged areas include ASF, Open-Source, Governance, Project, and Apache.
 
 
   The Apache Software Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -251,18 +251,18 @@ rules:
   slug: apache-software-foundation-spectral-rules
 score:
   band: thin
-  composite: 38.0
-  delta: -5.9
+  composite: 38.4
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 68.5
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 43.9
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -270,9 +270,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/screenshots/apache-software-foundation-2026-06-20T172144.png
 security:
 - kind: domain-security
@@ -286,9 +286,9 @@ security:
 slug: apache-software-foundation
 tags:
 - ASF
-- Open Source
+- Open-Source
 - Governance
-- Projects
+- Project
 - Apache
 use_cases:
 - description: Discover and explore all Apache Software Foundation projects programmatically.

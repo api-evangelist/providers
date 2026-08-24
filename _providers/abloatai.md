@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -213,16 +213,16 @@ image: https://www.abloatai.com/logo-black.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: abloatai-mcp.yml
-  slug: abloatai-mcpyml
+  name: Ablo MCP Server
+  slug: ablo-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Ablo MCP Server
+  slug: ablo-mcp-server-2
 modified: '2026-08-19'
 name: Ablo
 nav: Providers
 network: true
-overview: 'Ablo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Claims API, Commits API, and 4 more. Tagged areas include agent-infrastructure, multi-agent-coordination, concurrency-control, state-management, and database.
+overview: 'Ablo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Claims API, Commits API, and 4 more. Tagged areas include Agent Infrastructure, multi-agent-coordination, concurrency-control, State Management, and Database.
 
 
   The Ablo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -240,16 +240,18 @@ rate_limits:
   slug: abloatai-rate-limits
 score:
   band: strong
-  composite: 66.4
+  composite: 60.5
+  delta: -5.9
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 16.7
     contract_quality: 59.8
-    developer_ergonomics: 80.4
+    developer_ergonomics: 75.6
     discoverability: 92.6
     governance: 16.7
-    operational_transparency: 68.4
+    operational_transparency: 50.0
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,8 +262,9 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: falling
 security:
 - kind: authentication
   name: Abloatai Authentication
@@ -273,15 +276,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: abloatai
 tags:
-- agent-infrastructure
+- Agent Infrastructure
 - multi-agent-coordination
 - concurrency-control
-- state-management
-- database
-- postgres
+- State Management
+- Database
+- Postgres
 - real-time-sync
-- mcp
-- developer-tools
+- MCP
+- Developer Tools
 - backend-infrastructure
 website: https://docs.abloatai.com
 ---

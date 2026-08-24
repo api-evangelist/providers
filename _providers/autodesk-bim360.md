@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ modified: '2026-06-13'
 name: Autodesk BIM 360
 nav: Providers
 network: true
-overview: 'Autodesk BIM 360 publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account Users API, Business Units API, Companies API, and 11 more. Tagged areas include Construction, Project Management, BIM, Document Management, and Field Management.
+overview: 'Autodesk BIM 360 publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account Users API, Business Units API, Companies API, and 11 more. Tagged areas include Construction, Project Management, BIM, Document-Management, and Field Management.
 
 
   The Autodesk BIM 360 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -313,7 +313,7 @@ scopes:
 score:
   band: developing
   composite: 41.1
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -323,7 +323,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 47.1
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -331,9 +331,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/screenshots/autodesk-bim360-2026-06-20T172629.png
 security:
 - kind: authentication
@@ -349,7 +349,7 @@ tags:
 - Construction
 - Project Management
 - BIM
-- Document Management
+- Document-Management
 - Field Management
 - Issues Tracking
 - Cost Management

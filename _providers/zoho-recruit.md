@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes, and custom modules in Zoho Recruit. Requests are authenticated with OAuth 2.0 tokens issued by the do
@@ -102,7 +102,7 @@ modified: '2026-05-11'
 name: Zoho Recruit
 nav: Providers
 network: true
-overview: 'Zoho Recruit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Candidates API, Job Openings API, and Zoho Recruit API API. Tagged areas include Applicant Tracking System, ATS, Recruiting, Recruitment CRM, and HR.
+overview: 'Zoho Recruit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Candidates API, Job Openings API, and Zoho Recruit API API. Tagged areas include ATS, Recruiting, Recruitment CRM, HR, and Zoho.
 
 
   Zoho Recruit''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
@@ -110,7 +110,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 26.0
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -120,15 +120,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 29.2
+  previous_composite: 26.0
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/screenshots/zoho-recruit-2026-06-20T201945.png
 security:
@@ -142,7 +142,6 @@ security:
   summary_line: security.txt · contact published
 slug: zoho-recruit
 tags:
-- Applicant Tracking System
 - ATS
 - Recruiting
 - Recruitment CRM

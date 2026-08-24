@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -192,14 +192,14 @@ description: Sail Research provides cloud infrastructure for running long-horizo
 image: https://sailresearch.com/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sail-mcp.yml
-  slug: sail-mcpyml
+- description: Sail's official hosted documentation MCP server. Connects agents to Sail's docs so they can answer questions about models, pricing, completion windows, and Sailbox setup while building or migrating to
+  name: Sail MCP Server
+  slug: sail-mcp-server
 modified: '2026-07-21'
 name: Sail
 nav: Providers
 network: true
-overview: 'Sail publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batches API API, Chat Completions API API, Messages API API, and 2 more. Tagged areas include Company, AI, Machine Learning, LLM, and Inference.
+overview: 'Sail publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batches API API, Chat Completions API API, Messages API API, and 2 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
 
 
   The Sail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -210,7 +210,7 @@ random_paper: 5
 score:
   band: developing
   composite: 48.5
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -220,7 +220,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 53.1
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sail/refs/heads/main/screenshots/sail-2026-08-17T081712.png
 security:
@@ -247,8 +247,8 @@ security:
 slug: sail
 tags:
 - Company
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - LLM
 - Inference
 - Agents

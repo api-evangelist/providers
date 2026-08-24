@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Lean theorem prover and programming language for formal verification of mathematics and software.
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -91,9 +91,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 11.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean/refs/heads/main/screenshots/lean-2026-06-20T184354.png
 security:

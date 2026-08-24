@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ modified: '2026-05-19'
 name: Workday Report Writer
 nav: Providers
 network: true
-overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including agentDefinition API, Buckets API, Custom Reports API, and 5 more. Tagged areas include Analytics, Enterprise, Erp, Financials, and Hrms.
+overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including agentDefinition API, Buckets API, Custom Reports API, and 5 more. Tagged areas include Analytics, Enterprise, ERP, Financials, and HRMS.
 
 
   The Workday Report Writer catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -292,7 +292,7 @@ rules:
 score:
   band: developing
   composite: 46.6
-  delta: -10.3
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -302,7 +302,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 56.9
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -310,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
 security:
 - kind: authentication
@@ -338,11 +338,11 @@ solutions:
 tags:
 - Analytics
 - Enterprise
-- Erp
+- ERP
 - Financials
-- Hrms
+- HRMS
 - Reporting
-- Saas
+- Software-as-a-Service
 use_cases:
 - description: Extract headcount, compensation, and turnover metrics from Workday HCM for downstream analytics, dashboards, and board reporting.
   name: HR Analytics and Workforce Reporting

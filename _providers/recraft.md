@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ modified: '2026-05-30'
 name: Recraft
 nav: Providers
 network: true
-overview: 'Recraft publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Images API, Prompts API, and 3 more. Tagged areas include AI, Image Generation, Design, Vector, and Style.
+overview: 'Recraft publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Images API, Prompts API, and 3 more. Tagged areas include Artificial Intelligence, Image-Generation, Design, Vectors, and Styles.
 
 
   Recraft''s developer surface includes authentication, documentation, and 11 more developer resources.'
@@ -174,8 +174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/screenshots/recraft-2026-06-20T192705.png
 security:
@@ -197,10 +197,10 @@ security:
   summary_line: SOC 2, GDPR
 slug: recraft
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - Design
-- Vector
-- Style
+- Vectors
+- Styles
 website: https://www.recraft.ai/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: List, create, delete and merge branches
@@ -185,9 +185,9 @@ description: Testim is an AI-powered functional test automation platform for web
 image: https://github.com/testimio.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: testim-io-mcp.yml
-  slug: testim-io-mcpyml
+- description: No official hosted/remote Model Context Protocol (MCP) server was found for Testim (Tricentis) as of this pass. This is a CANDIDATE tool surface derived 1:1 from the public REST API operations, showin
+  name: Testim Io MCP Server
+  slug: testim-io-mcp-server
 modified: '2026-07-21'
 name: Testim Io
 nav: Providers
@@ -200,7 +200,7 @@ random_paper: 20
 score:
   band: developing
   composite: 43.3
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 44.0
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/screenshots/testim-io-2026-08-17T082328.png
 security:

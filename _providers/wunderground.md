@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-06-13'
 name: Weather Underground
 nav: Providers
 network: true
-overview: 'Weather Underground publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Forecast API, Historical API, Location API, and 1 more. Tagged areas include Weather, Personal Weather Stations, Hyperlocal, Observations, and Forecasts.
+overview: 'Weather Underground publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Forecast API, Historical API, Location API, and 1 more. Tagged areas include Weather, Personal Weather Stations, Hyperlocal, Observations, and Forecast.
 
 
   The Weather Underground catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -191,7 +191,7 @@ rules:
 score:
   band: developing
   composite: 42.3
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -201,7 +201,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 48.4
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -209,9 +209,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/screenshots/wunderground-2026-06-20T201644.png
 security:
 - kind: authentication
@@ -232,7 +232,7 @@ tags:
 - Personal Weather Stations
 - Hyperlocal
 - Observations
-- Forecasts
+- Forecast
 - Historical Data
 - REST API
 website: https://www.wunderground.com

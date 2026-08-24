@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -555,14 +555,14 @@ jsonld:
   slug: exa-ai-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: exa-ai-mcp.yml
-  slug: exa-ai-mcpyml
+- description: Exa operates an official remote MCP server at https://mcp.exa.ai/mcp. It runs a free, rate-limited tier with no auth; paid/agent tools authenticate with an Exa API key (x-api-key header) or OAuth. The
+  name: Exa MCP Server
+  slug: exa-mcp-server
 modified: '2026-06-20'
 name: Exa
 nav: Providers
 network: true
-overview: 'Exa publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Answer API, Contents API, and 16 more. Tagged areas include AI, Search, Web Search, Neural Search, and LLM.
+overview: 'Exa publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Answer API, Contents API, and 16 more. Tagged areas include Artificial Intelligence, Search, Web Search, Neural Search, and LLM.
 
 
   The Exa catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -592,7 +592,7 @@ rules:
 score:
   band: strong
   composite: 59.2
-  delta: -17.7
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -602,7 +602,7 @@ score:
     discoverability: 87.0
     governance: 26.5
     operational_transparency: 34.2
-  previous_composite: 76.9
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -612,9 +612,9 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/screenshots/exa-ai-2026-06-20T180928.png
 security:
 - kind: authentication
@@ -635,7 +635,7 @@ security:
   summary_line: SOC 2 Type II, HIPAA, GDPR
 slug: exa-ai
 tags:
-- AI
+- Artificial Intelligence
 - Search
 - Web Search
 - Neural Search

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Public REST API for the Playable gamification platform. Covers campaign types, campaign lifecycle (list, view, update, copy, delete, activate, pause, resume, clear cache), campaign sections and regist
@@ -196,16 +196,16 @@ image: https://playable.com/wp-content/uploads/2022/09/Logo_Playable_wobble.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: playable-mcp.yml
-  slug: playable-mcpyml
+  name: Playable MCP Server
+  slug: playable-mcp-server
 - description: ''
-  name: mcp-oauth-server
-  slug: mcp-oauth-server
+  name: Playable MCP Server
+  slug: playable-mcp-server-2
 modified: '2026-08-12'
 name: Playable
 nav: Providers
 network: true
-overview: 'Playable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, marketing-gamification, interactive-marketing, campaign-management, and zero-party-data.
+overview: 'Playable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, marketing-gamification, interactive-marketing, Campaign Management, and Zero-Party Data.
 
 
   The Playable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -229,7 +229,7 @@ scopes:
 score:
   band: strong
   composite: 64.6
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -239,7 +239,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 67.5
+  previous_composite: 64.6
   provenance:
     conformance: derived
     contracts:
@@ -249,8 +249,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/screenshots/playable-2026-08-17T080409.png
 security:
@@ -271,12 +271,12 @@ tags:
 - Company
 - marketing-gamification
 - interactive-marketing
-- campaign-management
-- zero-party-data
-- lead-generation
-- loyalty
-- martech
-- webhooks
-- oauth2
+- Campaign Management
+- Zero-Party Data
+- Lead Generation
+- Loyalty
+- MarTech
+- Webhook
+- Authentication
 website: https://playable.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -129,7 +129,7 @@ modified: '2026-05-25'
 name: Remind
 nav: Providers
 network: true
-overview: 'Remind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Messaging, Communication, Education, K-12, and School Communication.
+overview: 'Remind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Messaging, Communications, Education, K-12, and School Communication.
 
 
   Remind''s developer surface includes pricing, privacy policy, terms of service, GitHub presence, YouTube channel, and 17 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 9.0
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -147,15 +147,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.5
+  previous_composite: 9.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remind/refs/heads/main/screenshots/remind-2026-06-20T192839.png
 security:
@@ -170,7 +170,7 @@ security:
 slug: remind
 tags:
 - Messaging
-- Communication
+- Communications
 - Education
 - K-12
 - School Communication
@@ -178,8 +178,8 @@ tags:
 - Teacher Messaging
 - SMS
 - Translation
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 - Share SDK
 - ParentSquare
 website: https://www.remind.com

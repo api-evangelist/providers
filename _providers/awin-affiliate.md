@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ modified: '2026-08-13'
 name: Awin
 nav: Providers
 network: true
-overview: 'Awin publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Commission Groups API, Programmes API, and 2 more. Tagged areas include Affiliate Marketing, Advertising, Publishers, Advertisers, and Transactions.
+overview: 'Awin publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Commission Groups API, Programmes API, and 2 more. Tagged areas include Affiliate Marketing, Advertising, Publishers, Advertisers, and Transaction.
 
 
   The Awin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -286,7 +286,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 73.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -296,7 +296,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 78.9
-  previous_composite: 73.8
+  previous_composite: 73.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,8 +307,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/screenshots/awin-affiliate-2026-07-25T202025.png
 security:
@@ -334,7 +334,7 @@ tags:
 - Advertising
 - Publishers
 - Advertisers
-- Transactions
+- Transaction
 - Reporting
 - Commissions
 - Performance Marketing

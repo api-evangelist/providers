@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'GraphQL API behind the Shogun Frontend headless commerce product, used to query storefront content, pages, and integration data. Note: Shogun has announced the retirement of the Shogun Frontend produc'
@@ -108,7 +108,7 @@ modified: '2026-07-21'
 name: Shogun
 nav: Providers
 network: true
-overview: 'Shogun publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Page Builder, Headless Commerce, and Shopify.
+overview: 'Shogun publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Page Builder, Headless Commerce, and Shopify.
 
 
   Shogun''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 20.4
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -126,10 +126,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 25.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 20.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Shogun Domain Security
@@ -138,7 +138,7 @@ security:
 slug: shogun
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Page Builder
 - Headless Commerce
 - Shopify

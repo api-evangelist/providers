@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -457,7 +457,7 @@ rules:
 score:
   band: strong
   composite: 62.6
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -467,7 +467,7 @@ score:
     discoverability: 55.6
     governance: 25.0
     operational_transparency: 68.4
-  previous_composite: 69.0
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     contracts:
@@ -479,9 +479,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/screenshots/sensible-so-2026-06-20T193703.png
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Aramis Group publishes the machine-readable contracts behind the Aramisauto vehicle catalog as ten JSON Schema 2020-12 documents at https://schemas.aramis.group/ — a search request envelope (criteria/
@@ -199,6 +199,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -208,10 +209,12 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 2.6
+  previous_composite: 17.0
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Aramisauto Authentication
@@ -233,6 +236,6 @@ tags:
 - Retail
 - Auto Finance
 - France
-- JSON Schema
+- JSON-Schema
 website: https://www.aramisauto.com/
 ---

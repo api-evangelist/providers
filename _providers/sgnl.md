@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST/JSON access-evaluation API. Evaluate whether a principal may perform actions on assets in context, search accessible assets or authorized principals, query the directory, and route provider hooks
@@ -135,8 +135,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sgnl.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sgnl-mcp.yml
-  slug: sgnl-mcpyml
+  name: SGNL MCP Server
+  slug: sgnl-mcp-server
 modified: '2026-07-21'
 name: SGNL
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 16
 score:
   band: thin
   composite: 28.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -159,12 +159,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 28.0
+  previous_composite: 28.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

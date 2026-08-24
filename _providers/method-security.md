@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +27,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-19'
+  score: 46.6
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -243,9 +244,9 @@ description: 'Method Security is a cybersecurity company delivering cyber resili
 image: https://www.method.security/content/seo/method-graphic-social-1200x628.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: method-security-mcp.yml
-  slug: method-security-mcpyml
+- description: Method operates an official hosted MCP server for its documentation, advertised across the docs site and llms.txt for AI-client integration (Claude Code, Cursor, etc.). It exposes documentation search
+  name: Method Security MCP Server
+  slug: method-security-mcp-server
 modified: '2026-07-20'
 name: Method Security
 nav: Providers
@@ -260,18 +261,18 @@ overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 20
 score:
   band: strong
-  composite: 57.8
-  delta: 3.8
+  composite: 58.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 30.3
     contract_quality: 53.7
     developer_ergonomics: 68.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 54.0
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,8 +289,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 66.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/screenshots/method-security-2026-08-07T172708.png
 security:

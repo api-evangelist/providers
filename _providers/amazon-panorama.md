@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -2220,7 +2220,7 @@ modified: '2026-05-19'
 name: Amazon Panorama
 nav: Providers
 network: true
-overview: 'Amazon Panorama publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Application Instances API, Devices API, Jobs API, and 3 more. Tagged areas include Cameras, Computer Vision, Edge ML, and Industrial IoT.
+overview: 'Amazon Panorama publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Application Instances API, Devices API, Jobs API, and 3 more. Tagged areas include Camera, Computer-Vision, Edge ML, and Industrial IoT.
 
 
   The Amazon Panorama catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2260,18 +2260,18 @@ rules:
   slug: amazon-panorama-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: -8.1
+  composite: 49.5
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 71.2
     developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.2
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -2279,9 +2279,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/screenshots/amazon-panorama-2026-06-20T171756.png
 security:
 - kind: authentication
@@ -2302,8 +2302,8 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-panorama
 tags:
-- Cameras
-- Computer Vision
+- Camera
+- Computer-Vision
 - Edge ML
 - Industrial IoT
 website: https://aws.amazon.com/panorama/

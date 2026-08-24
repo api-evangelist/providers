@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-05-03'
 name: Test Suites
 nav: Providers
 network: true
-overview: 'Test Suites publishes 2 APIs on the [APIs.io](https://apis.io/) network: Collections API and Workspaces API. Tagged areas include API Testing, Collections, Quality Assurance, Software Development, and Test Management.
+overview: 'Test Suites publishes 2 APIs on the [APIs.io](https://apis.io/) network: Collections API and Workspaces API. Tagged areas include API Testing, Collection, Quality Assurance, Software Development, and Test Management.
 
 
   The Test Suites catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -184,7 +184,7 @@ rules:
 score:
   band: thin
   composite: 34.6
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -194,7 +194,7 @@ score:
     discoverability: 75.9
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 39.8
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -202,9 +202,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-suites/refs/heads/main/screenshots/test-suites-2026-06-20T195156.png
 security:
 - kind: authentication
@@ -226,7 +226,7 @@ security:
 slug: test-suites
 tags:
 - API Testing
-- Collections
+- Collection
 - Quality Assurance
 - Software Development
 - Test Management

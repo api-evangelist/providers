@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ modified: '2026-05-19'
 name: Service Fabric
 nav: Providers
 network: true
-overview: 'Service Fabric publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Cluster API, Health API, and 2 more. Tagged areas include Distributed Systems, Microservices, Containers, Cloud Native, and Kubernetes.
+overview: 'Service Fabric publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Cluster API, Health API, and 2 more. Tagged areas include Distributed Systems, Microservices, Containers, Cloud-Native, and Kubernetes.
 
 
   The Service Fabric catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -221,18 +221,18 @@ rules:
   slug: service-fabric-rules
 score:
   band: thin
-  composite: 37.6
-  delta: -5.3
+  composite: 38.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.1
     developer_ergonomics: 28.6
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 42.9
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -240,9 +240,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/screenshots/service-fabric-2026-06-20T193724.png
 security:
 - kind: domain-security
@@ -258,9 +258,9 @@ tags:
 - Distributed Systems
 - Microservices
 - Containers
-- Cloud Native
+- Cloud-Native
 - Kubernetes
 - Azure
-- Open Source
+- Open-Source
 website: https://docs.microsoft.com/en-us/azure/service-fabric/
 ---

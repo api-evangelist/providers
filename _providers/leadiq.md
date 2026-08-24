@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -280,8 +280,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leadiq.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: leadiq-mcp.yml
-  slug: leadiq-mcpyml
+  name: LeadIQ MCP Connector
+  slug: leadiq-mcp-connector
 modified: '2026-08-13'
 name: LeadIQ
 nav: Providers
@@ -307,7 +307,7 @@ scopes:
 score:
   band: strong
   composite: 58.2
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -317,7 +317,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 61.3
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -328,8 +328,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/screenshots/leadiq-2026-06-20T184350.png
 security:
@@ -351,8 +351,8 @@ tags:
 - CRM Enrichment
 - Sales Engagement
 - GraphQL
-- Model Context Protocol
+- MCP
 - Revenue Operations
-- Go To Market
+- Go-To-Market
 website: https://leadiq.com
 ---

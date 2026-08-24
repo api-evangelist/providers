@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -129,8 +129,8 @@ image: https://www.gemnote.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: gemnote-mcp.yml
-  slug: gemnote-mcpyml
+  name: Gemnote MCP Server
+  slug: gemnote-mcp-server
 modified: '2026-07-19'
 name: Gemnote
 nav: Providers
@@ -143,7 +143,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 25.5
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -153,7 +153,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 25.1
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -164,8 +164,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/screenshots/gemnote-2026-07-25T215530.png
 security:
@@ -184,7 +184,7 @@ tags:
 - Swag Management
 - Branded Merchandise
 - Fulfillment
-- E-commerce
+- E-Commerce
 - Shipping
 - Y Combinator
 website: https://www.gemnote.com/

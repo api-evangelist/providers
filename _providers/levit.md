@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: Levit
 nav: Providers
 network: true
-overview: 'Levit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-commerce, Marketplace, and Retail.
+overview: 'Levit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Marketplace, and Retail.
 
 
   Levit''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 9.4
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -98,9 +98,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levit/refs/heads/main/screenshots/levit-2026-07-25T224955.png
 security:
@@ -112,7 +112,7 @@ slug: levit
 tags:
 - Company
 - Commerce
-- E-commerce
+- E-Commerce
 - Marketplace
 - Retail
 - Mobile

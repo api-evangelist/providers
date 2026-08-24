@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 4
@@ -217,13 +217,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: modulr-mcp.yml
-  slug: modulr-mcpyml
+  name: Modulr MCP Server
+  slug: modulr-mcp-server
 modified: '2026-07-24'
 name: Modulr
 nav: Providers
 network: true
-overview: 'Modulr publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Payments API, Cards API, and 6 more. Tagged areas include Payments, United Kingdom, Banking-as-a-Service, Embedded Finance, and Payment Processing.
+overview: 'Modulr publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Payments API, Cards API, and 6 more. Tagged areas include Payments, United Kingdom, Banking as a Service, Embedded Finance, and Payment Processing.
 
 
   The Modulr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -238,7 +238,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -248,7 +248,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 50.8
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,8 +260,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/screenshots/modulr-2026-08-07T184038.png
 security:
@@ -277,7 +277,7 @@ slug: modulr
 tags:
 - Payments
 - United Kingdom
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Finance
 - Payment Processing
 - Account-to-Account

@@ -25,10 +25,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-19'
+  score: 3.4
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,28 +76,28 @@ modified: '2026-07-17'
 name: All3D
 nav: Providers
 network: true
-overview: 'All3D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, 3D, Ecommerce, and Product Imagery.
+overview: 'All3D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, 3D, E-Commerce, and Product Imagery.
 
 
   All3D''s developer surface includes pricing, getting-started guide, support, signup flow, and 5 more developer resources.'
 random_paper: 2
 score:
   band: minimal
-  composite: 5.7
-  delta: -12.0
+  composite: 6.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 6.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/all3d/refs/heads/main/screenshots/all3d-2026-07-25T195641.png
 security:
 - kind: domain-security
@@ -109,7 +109,7 @@ tags:
 - Company
 - Artificial Intelligence
 - 3D
-- Ecommerce
+- E-Commerce
 - Product Imagery
 - Visualization
 - Generative AI

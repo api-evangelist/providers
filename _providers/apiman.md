@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -244,7 +244,7 @@ modified: '2026-04-19'
 name: Apiman
 nav: Providers
 network: true
-overview: 'Apiman publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Blobs API, Developers API, and 12 more. Tagged areas include API Gateway, API Management, Developer Portal, Java, and Open Source.
+overview: 'Apiman publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Blobs API, Developers API, and 12 more. Tagged areas include API Gateway, API Management, Developer Portal, Java, and Open-Source.
 
 
   The Apiman catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -274,7 +274,7 @@ rules:
 score:
   band: thin
   composite: 29.8
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -284,7 +284,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 37.6
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -292,9 +292,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/screenshots/apiman-2026-06-20T172245.png
 security:
 - kind: domain-security
@@ -314,7 +314,7 @@ tags:
 - API Management
 - Developer Portal
 - Java
-- Open Source
+- Open-Source
 use_cases:
 - description: Deploy Apiman on-premise to manage APIs across internal services with full control over infrastructure.
   name: On-Premise API Management

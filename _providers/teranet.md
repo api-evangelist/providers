@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Teranet Connect is described by Teranet as an application programming interface providing secure access to Ontario's POLARIS land registration database and the Writs database, using XML and web servic
@@ -152,7 +152,7 @@ modified: '2026-07-26'
 name: Teranet
 nav: Providers
 network: true
-overview: 'Teranet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Canada, Land Registry, Title, and Conveyancing.
+overview: 'Teranet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Canada, Land Registry, Title, and Conveyancing.
 
 
   Teranet''s developer surface includes authentication, changelog, sandbox, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
@@ -160,7 +160,7 @@ random_paper: 20
 score:
   band: thin
   composite: 27.4
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -170,7 +170,7 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 31.8
+  previous_composite: 27.4
   provenance:
     conformance: first-party
   regulatory:
@@ -179,8 +179,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -193,7 +193,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: teranet
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Land Registry
 - Title

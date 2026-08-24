@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: GraphQL API for the TELUS Collaborative Health Record (CHR) that lets partners build integrations against clinic data. Queries retrieve and mutations create or update CHR records (patients, appointmen
@@ -101,8 +101,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: telus-health-mcp.yml
-  slug: telus-health-mcpyml
+  name: TELUS Health MCP Server
+  slug: telus-health-mcp-server
 modified: '2026-07-24'
 name: TELUS Health
 nav: Providers
@@ -114,18 +114,18 @@ overview: 'TELUS Health publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 14
 score:
   band: thin
-  composite: 27.7
-  delta: 0.7
+  composite: 28.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 38.9
     developer_ergonomics: 44.6
-    discoverability: 66.7
+    discoverability: 77.8
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 27.0
+  previous_composite: 28.8
   provenance:
     conformance: derived
     mcp: derived
@@ -136,8 +136,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

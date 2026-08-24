@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,9 +90,9 @@ description: Hyperprobe is a runtime data platform for AI-native software develo
 image: https://hyperprobe.co/favicon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: hyperprobe-mcp.yml
-  slug: hyperprobe-mcpyml
+- description: Official Hyperprobe MCP server, published to npm as @hyperprobe/mcp-server and run locally over stdio. It lets AI coding agents autonomously debug and trace running production code by dynamically regi
+  name: Hyperprobe MCP Server
+  slug: hyperprobe-mcp-server
 modified: '2026-07-19'
 name: Hyperprobe
 nav: Providers
@@ -105,7 +105,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 19.6
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -115,12 +115,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 19.9
+  previous_composite: 19.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/screenshots/hyperprobe-2026-07-25T221912.png
 security:
@@ -135,7 +135,7 @@ tags:
 - Debugging
 - Developer Tools
 - Runtime
-- AI
+- Artificial Intelligence
 - MCP
 - SDK
 - Production Debugging

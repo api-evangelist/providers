@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -3516,18 +3516,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.8
-  delta: -5.3
+  composite: 61.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.7
     developer_ergonomics: 52.4
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 65.8
-  previous_composite: 66.1
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     contracts:
@@ -3535,9 +3535,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/screenshots/mindbody-2026-06-20T185555.png
 security:
 - kind: authentication
@@ -3568,11 +3568,11 @@ tags:
 - Beauty
 - Scheduling
 - Booking
-- Point of Sale
+- Point-of-Sale
 - Studios
 - Salons
 - Spas
-- Webhooks
+- Webhook
 use_cases:
 - description: Build branded mobile or web booking experiences for yoga, pilates, barre, and fitness studios.
   name: Studio Booking Apps

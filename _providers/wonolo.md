@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Wonolo API V2 is a RESTful, JSON-only integration API for the Wonolo on-demand staffing platform. It performs CRUD operations against platform resources — Users (both Workers/Wonoloers and Employe
@@ -101,7 +101,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 18.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -111,11 +111,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 19.0
+  previous_composite: 18.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

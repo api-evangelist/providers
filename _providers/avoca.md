@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,13 +195,13 @@ image: https://www.avoca.ai/og-default.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: avoca-mcp.yml
-  slug: avoca-mcpyml
+  name: Avoca MCP Server
+  slug: avoca-mcp-server
 modified: '2026-07-18'
 name: Avoca
 nav: Providers
 network: true
-overview: 'Avoca publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analytics (v1) API, Calls API, Coach API, and 5 more. Tagged areas include Company, AI, Voice AI, Conversational AI, and Customer Service.
+overview: 'Avoca publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analytics (v1) API, Calls API, Coach API, and 5 more. Tagged areas include Company, Artificial Intelligence, Voice AI, Conversational AI, and Customer Service.
 
 
   The Avoca catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -212,7 +212,7 @@ random_paper: 18
 score:
   band: developing
   composite: 44.4
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 50.6
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,9 +233,9 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/screenshots/avoca-2026-07-25T202002.png
 security:
 - kind: authentication
@@ -249,7 +249,7 @@ security:
 slug: avoca
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Voice AI
 - Conversational AI
 - Customer Service
@@ -258,7 +258,7 @@ tags:
 - Field Service
 - Scheduling
 - Analytics
-- Webhooks
+- Webhook
 - Enterprise API
 website: https://docs.avoca.ai
 ---

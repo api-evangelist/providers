@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -117,7 +117,7 @@ modified: '2026-08-12'
 name: CrowdHealth
 nav: Providers
 network: true
-overview: 'CrowdHealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Health Care, Health Insurance, and Health Sharing.
+overview: 'CrowdHealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Health Insurance, and Health Sharing.
 
 
   CrowdHealth''s developer surface includes pricing, signup flow, engineering blog, support, FAQ, and 13 more developer resources.'
@@ -132,8 +132,8 @@ rate_limits:
   slug: crowdhealth-rate-limits
 score:
   band: thin
-  composite: 28.5
-  delta: 0.1
+  composite: 28.6
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -143,17 +143,17 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 28.4
+  previous_composite: 28.6
   provenance:
     conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -168,7 +168,7 @@ slug: crowdhealth
 tags:
 - Company
 - Health
-- Health Care
+- Healthcare
 - Health Insurance
 - Health Sharing
 - Crowdfunding

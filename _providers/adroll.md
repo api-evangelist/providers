@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: REST API for managing AdRoll advertisers, campaigns, ads, audience segments, and reporting on the NextRoll platform. Supports OAuth 2.0 flows and Personal Access Tokens with the client API key sent as
@@ -219,8 +219,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adroll.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: adroll-mcp.yml
-  slug: adroll-mcpyml
+  name: AdRoll MCP Server
+  slug: adroll-mcp-server
 modified: '2026-08-13'
 name: AdRoll
 nav: Providers
@@ -246,7 +246,7 @@ scopes:
 score:
   band: strong
   composite: 58.1
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -256,14 +256,14 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 65.2
+  previous_composite: 58.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/screenshots/adroll-2026-06-20T165128.png
 security:
 - kind: authentication

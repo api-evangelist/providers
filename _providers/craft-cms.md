@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Auto-generated GraphQL API providing schema-based access to Craft CMS content including entries, assets, categories, tags, and custom fields. Access is controlled via bearer token authentication tied '
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.0
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -154,9 +154,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 34.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/screenshots/craft-cms-2026-06-20T175204.png
 security:

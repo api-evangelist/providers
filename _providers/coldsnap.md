@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -203,8 +203,8 @@ image: https://cdn.shopify.com/s/files/1/0973/7895/9650/files/ColdSnap-Logo-0923
 layout: provider
 mcp_servers:
 - description: ''
-  name: coldsnap-mcp.yml
-  slug: coldsnap-mcpyml
+  name: ColdSnap MCP Server
+  slug: coldsnap-mcp-server
 modified: '2026-08-04'
 name: ColdSnap
 nav: Providers
@@ -221,25 +221,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.8
-  delta: -2.7
+  composite: 44.9
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 18.2
     contract_quality: 43.3
     developer_ergonomics: 49.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 46.5
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/screenshots/coldsnap-2026-08-07T163559.png
 security:
@@ -261,11 +261,11 @@ tags:
 - Consumer Products
 - Hardware
 - Appliances
-- Foodservice
+- Food Service
 - Agentic Commerce
 - Shopify
 - GraphQL
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 website: https://coldsnap.com/
 ---

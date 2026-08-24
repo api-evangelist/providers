@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -210,14 +210,14 @@ description: Instabase is an agentic automation platform that transforms complex
 image: https://cdn.prod.website-files.com/6883b569dca0edf626a1fce5/68cdbf2b866f068b4585e5ea_Open%20graph.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: instabase-mcp.yml
-  slug: instabase-mcpyml
+- description: 'Official Instabase AI Hub documentation MCP server. The AI Hub docs site advertises an MCP endpoint for AI client integration (Claude Code, Cursor, etc.) that exposes the documentation corpus. Probed '
+  name: Instabase MCP Server
+  slug: instabase-mcp-server
 modified: '2026-07-19'
 name: Instabase
 nav: Providers
 network: true
-overview: 'Instabase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Batches API, Files API, and 3 more. Tagged areas include Company, Intelligent Document Processing, Document AI, Artificial Intelligence, and Machine Learning.
+overview: 'Instabase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Batches API, Files API, and 3 more. Tagged areas include Company, Intelligent Document Processing, Document AI, Artificial Intelligence, and Machine-Learning.
 
 
   The Instabase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -228,7 +228,7 @@ random_paper: 9
 score:
   band: strong
   composite: 58.7
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -238,7 +238,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 54.6
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,8 +255,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/screenshots/instabase-2026-07-25T222558.png
 security:
@@ -282,11 +282,11 @@ tags:
 - Intelligent Document Processing
 - Document AI
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Automation
 - Data Extraction
 - LLM
-- Financial Services
+- Financial-Services
 - Insurance
 website: https://www.instabase.com/
 ---

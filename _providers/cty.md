@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Numina Graph API ("Numina-Graph") is a GraphQL API, authenticated with JWT bearer tokens, that exposes Numina's anonymous, aggregated street-activity data. Core objects include Device (a Numina se
@@ -85,7 +85,7 @@ modified: '2026-07-18'
 name: Numina
 nav: Providers
 network: true
-overview: 'Numina publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Urban Planning, Smart Cities, and Computer Vision.
+overview: 'Numina publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Urban Planning, Smart Cities, and Computer-Vision.
 
 
   Numina''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 3 more developer resources.'
@@ -93,7 +93,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 15.6
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -103,9 +103,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cty/refs/heads/main/screenshots/cty-2026-07-25T210853.png
 security:
@@ -123,7 +123,7 @@ tags:
 - Mobility
 - Urban Planning
 - Smart Cities
-- Computer Vision
+- Computer-Vision
 - Transportation
 - GraphQL
 - Sensors

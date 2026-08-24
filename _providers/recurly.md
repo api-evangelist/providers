@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Full REST API for managing accounts, subscriptions, plans, add-ons, coupons, invoices, line items, transactions, shipping, tax, and webhooks across a Recurly site. Authentication is HTTP Basic with a '
@@ -112,7 +112,7 @@ modified: '2026-05-30'
 name: Recurly
 nav: Providers
 network: true
-overview: 'Recurly publishes 1 API on the [APIs.io](https://apis.io/) network: v3 API. Tagged areas include Subscriptions, Billing, Payments, Recurring Revenue, and Invoicing.
+overview: 'Recurly publishes 1 API on the [APIs.io](https://apis.io/) network: v3 API. Tagged areas include Subscription, Billing, Payments, Recurring Revenue, and Invoicing.
 
 
   Recurly''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
@@ -120,7 +120,7 @@ random_paper: 18
 score:
   band: thin
   composite: 33.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -130,15 +130,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 34.2
+  previous_composite: 33.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recurly/refs/heads/main/screenshots/recurly-2026-06-20T192713.png
 security:
@@ -152,7 +152,7 @@ security:
   summary_line: SOC 2, PCI DSS, HIPAA, GDPR
 slug: recurly
 tags:
-- Subscriptions
+- Subscription
 - Billing
 - Payments
 - Recurring Revenue

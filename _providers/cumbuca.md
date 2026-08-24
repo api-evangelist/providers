@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -115,7 +115,7 @@ description: Cumbuca is a Banco Central do Brasil-licensed Payment Institution t
 image: https://cumbuca.com/assets/og-home.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Hosted, remote MCP server that connects a user''s Brazilian bank accounts to an AI assistant (Claude, ChatGPT, Cursor) through Open Finance. Exposes bank statement and credit-card transaction data for '
   name: Open Finance Data MCP
   slug: open-finance-data-mcp
 modified: '2026-07-18'
@@ -135,7 +135,7 @@ scopes:
 score:
   band: thin
   composite: 31.5
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -145,7 +145,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 30.2
+  previous_composite: 31.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -155,8 +155,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 79.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumbuca/refs/heads/main/screenshots/cumbuca-2026-07-25T210921.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -155,13 +155,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: chase-uk-mcp.yml
-  slug: chase-uk-mcpyml
+  name: Chase UK MCP Server
+  slug: chase-uk-mcp-server
 modified: '2026-07-23'
 name: Chase UK
 nav: Providers
 network: true
-overview: 'Chase UK publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Chase UK publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Chase UK''s developer surface includes authentication, documentation, getting-started guide, support, sandbox, and 22 more developer resources.'
@@ -174,7 +174,7 @@ scopes:
 score:
   band: developing
   composite: 43.8
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -184,7 +184,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 42.5
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,8 +201,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/screenshots/chase-uk-2026-07-25T205111.png
 security:
@@ -216,7 +216,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: chase-uk
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

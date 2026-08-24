@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-06-25'
 name: Upload-Post
 nav: Providers
 network: true
-overview: 'Upload-Post publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Upload API, Upload Management API, and 1 more. Tagged areas include Social Media, Publishing, Video, Content, and Cross Posting.
+overview: 'Upload-Post publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Upload API, Upload Management API, and 1 more. Tagged areas include Social-Media, Publishing, Video, Content, and Cross Posting.
 
 
   Upload-Post''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.5
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.2
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -173,7 +173,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: upload-post
 tags:
-- Social Media
+- Social-Media
 - Publishing
 - Video
 - Content

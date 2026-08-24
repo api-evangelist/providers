@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Create, retrieve, list and stop screen share sessions.
@@ -146,8 +146,8 @@ image: https://www.screenleap.com/img/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: screenleap-mcp.yml
-  slug: screenleap-mcpyml
+  name: Screenleap MCP Server
+  slug: screenleap-mcp-server
 modified: '2026-07-21'
 name: Screenleap
 nav: Providers
@@ -160,7 +160,7 @@ random_paper: 8
 score:
   band: developing
   composite: 43.9
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 44.0
+  previous_composite: 43.9
   provenance:
     conformance: derived
     contracts:
@@ -180,8 +180,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/screenshots/screenleap-2026-08-17T081734.png
 security:

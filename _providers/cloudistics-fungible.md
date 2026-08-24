@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: Cloudistics (Fungible)
 nav: Providers
 network: true
-overview: 'Cloudistics (Fungible) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Composable Infrastructure, Hyperconverged Infrastructure, and Data Center.
+overview: 'Cloudistics (Fungible) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Composable Infrastructure, Hyperconverged Infrastructure, and Data-Center.
 
 
   Cloudistics (Fungible)''s developer surface includes documentation, API reference, and 1 more developer resources.'
@@ -77,17 +77,17 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 8.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudistics-fungible/refs/heads/main/screenshots/cloudistics-fungible-2026-07-25T205702.png
 slug: cloudistics-fungible
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Composable Infrastructure
 - Hyperconverged Infrastructure
-- Data Center
+- Data-Center
 - Cloud Computing
 - Data Processing Unit
 - Acquired

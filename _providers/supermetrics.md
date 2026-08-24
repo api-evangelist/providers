@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST Product API (v2) to query marketing data from connected data sources, with synchronous and asynchronous query execution, plus a Management API for API keys, saved queries, teams, data-source logi
@@ -197,8 +197,8 @@ image: https://supermetrics.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: supermetrics-mcp.yml
-  slug: supermetrics-mcpyml
+  name: Supermetrics MCP Server
+  slug: supermetrics-mcp-server
 modified: '2026-08-13'
 name: Supermetrics
 nav: Providers
@@ -224,7 +224,7 @@ scopes:
 score:
   band: developing
   composite: 54.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -234,13 +234,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 78.9
-  previous_composite: 55.0
+  previous_composite: 54.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supermetrics/refs/heads/main/screenshots/supermetrics-2026-08-17T082204.png
 security:

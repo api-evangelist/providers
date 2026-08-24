@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ modified: '2026-05-19'
 name: ScreenshotOne
 nav: Providers
 network: true
-overview: 'ScreenshotOne publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Animations API, and Screenshots API. Tagged areas include Images, Screenshots, and Web Rendering.
+overview: 'ScreenshotOne publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Animations API, and Screenshots API. Tagged areas include Image, Screenshots, and Web Rendering.
 
 
   ScreenshotOne''s developer surface includes authentication, documentation, signup flow, engineering blog, and 7 more developer resources.'
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.3
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -153,7 +153,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.7
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +161,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/screenshots/screenshotone-2026-06-20T193605.png
 security:
@@ -180,7 +180,7 @@ skills:
   slug: screenshotone-website-screenshot
 slug: screenshotone
 tags:
-- Images
+- Image
 - Screenshots
 - Web Rendering
 website: https://screenshotone.com/

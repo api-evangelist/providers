@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The client-api-assessment-rest-resource API from VISO Trust — 7 operation(s) for client-api-assessment-rest-resource.
@@ -228,13 +228,13 @@ image: https://visotrust.com/wp-content/uploads/2026/03/Viso-trust.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: viso-trust-mcp.yml
-  slug: viso-trust-mcpyml
+  name: VISO Trust MCP Server
+  slug: viso-trust-mcp-server
 modified: '2026-07-21'
 name: VISO Trust
 nav: Providers
 network: true
-overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) network, including client-api-assessment-rest-resource API, client-api-audit-log-rest-resource API, client-api-chat-rest-resource API, and 9 more. Tagged areas include Company, Security, Third Party Risk Management, TPRM, and Vendor Risk.
+overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) network, including client-api-assessment-rest-resource API, client-api-audit-log-rest-resource API, client-api-chat-rest-resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, TPRM, and Vendor Risk.
 
 
   The VISO Trust catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -245,7 +245,7 @@ random_paper: 1
 score:
   band: developing
   composite: 49.5
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -255,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 51.6
+  previous_composite: 49.5
   provenance:
     conformance: derived
     contracts:
@@ -265,8 +265,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/screenshots/viso-trust-2026-08-17T082801.png
 security:
@@ -286,7 +286,7 @@ slug: viso-trust
 tags:
 - Company
 - Security
-- Third Party Risk Management
+- Third-Party Risk Management
 - TPRM
 - Vendor Risk
 - Risk Management

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -199,8 +199,8 @@ image: https://avatars.githubusercontent.com/u/58329504?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: athenian-mcp.yml
-  slug: athenian-mcpyml
+  name: Athenian MCP Server
+  slug: athenian-mcp-server
 modified: '2026-07-18'
 name: Athenian
 nav: Providers
@@ -213,7 +213,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 26.1
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -223,7 +223,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 26.3
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +234,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/screenshots/athenian-2026-07-25T201535.png
 security:
@@ -256,7 +256,7 @@ tags:
 - DevOps
 - Metrics
 - Git
-- JIRA
+- Jira
 - CI/CD
 - Analytics
 website: https://athenian.com

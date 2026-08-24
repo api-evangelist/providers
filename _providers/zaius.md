@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The Compliance API from Zaius — 7 operation(s) for compliance.
@@ -298,8 +298,8 @@ image: https://images3.cmp.optimizely.com/Zz1hOTU5MjFjNDY5MWYxMWYxOTU5NmZlODFjZD
 layout: provider
 mcp_servers:
 - description: ''
-  name: zaius-mcp.yml
-  slug: zaius-mcpyml
+  name: Zaius MCP Server
+  slug: zaius-mcp-server
 modified: '2026-08-13'
 name: Zaius
 nav: Providers
@@ -320,7 +320,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.2
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -330,7 +330,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 80.3
-  previous_composite: 65.5
+  previous_composite: 63.2
   provenance:
     conformance: first-party
     contracts:
@@ -340,8 +340,8 @@ score:
       total: 17
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/screenshots/zaius-2026-08-17T083035.png
 security:
@@ -369,9 +369,9 @@ tags:
 - Marketing
 - Personalization
 - Segmentation
-- Ecommerce
+- E-Commerce
 - Customer Data
 - Real-Time Audiences
-- Events
+- Event
 website: https://www.optimizely.com/products/data-platform
 ---

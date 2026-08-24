@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Unified API to manage storage, endpoints, users, and roles across multiple Signiant products. Authenticates via OAuth 2.0 client_credentials, returning a one-hour JWT bearer token.
@@ -164,8 +164,8 @@ image: https://www.signiant.com/wp-content/uploads/signiant-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: signiant-mcp.yml
-  slug: signiant-mcpyml
+  name: Signiant MCP Server
+  slug: signiant-mcp-server
 modified: '2026-07-21'
 name: Signiant
 nav: Providers
@@ -181,7 +181,7 @@ random_paper: 0
 score:
   band: developing
   composite: 47.8
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -191,12 +191,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 50.0
+  previous_composite: 47.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/screenshots/signiant-2026-08-17T081855.png
 security:
@@ -219,8 +219,8 @@ tags:
 - Managed File Transfer
 - Content Delivery
 - Storage
-- Webhooks
-- OAuth
-- Media & Entertainment
+- Webhook
+- Authentication
+- Media and Entertainment
 website: https://developer.signiant.com/
 ---

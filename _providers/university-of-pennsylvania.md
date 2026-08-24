@@ -22,14 +22,14 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.5
-  scored_at: '2026-08-19'
+  score: 20.5
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -37,105 +37,39 @@ agentic_access:
   operation_count: 68
   slug: university-of-pennsylvania-agentic-access
   summary_line: 68 operations · 30 acting · 2 human-in-the-loop
-api_count: 32
+api_count: 10
 apis:
-- description: Penn's institutional OpenData platform (an ISC enterprise service bus) providing access to Registrar/course, Dining, Directory, Transit, News, Events, Maps, Calendar, and Laundry data. Most services r
-  name: Penn OpenData API
-  slug: opendata
-- description: Open-source Python module maintained by Penn Labs that wraps the Penn OpenData services (Registrar, Dining, Directory and more). A validated OpenData API token is required for most calls.
+- description: 'One API, four student-facing products: Penn Course Alert (PCA), Penn Course Plan (PCP), Penn Course Review (PCR) and Penn Degree Plan (PDP), plus a shared Accounts resource. The live OpenAPI 3.0.2 doc'
+  name: Penn Courses API (Penn Course Alert / Plan / Review / Degree Plan)
+  slug: penn-courses
+- description: JSON API behind Penn Clubs, the student-organization directory that Penn's Office of Student Affairs adopted as its official student-group registration system. /api/clubs returned HTTP 200 JSON anonym
+  name: Penn Clubs API
+  slug: penn-clubs
+- description: Open-source Python client maintained by Penn Labs wrapping Penn data services. Published documentation at penn-sdk.readthedocs.io returned HTTP 200. An SDK is a client, not an institution-operated sur
   name: Penn SDK (Python)
   slug: penn-sdk-python
-- description: Open-source JavaScript/Node SDK from Penn Labs for the Penn OpenData API.
-  name: Penn OpenData Node SDK
+- description: 'Open-source JavaScript/Node client from Penn Labs. Documentation is hosted on js.org, a community subdomain service, at penn-sdk.js.org (HTTP 200) — a code/docs host, not a vendor platform, but not a '
+  name: Penn SDK (JavaScript / Node)
   slug: penn-sdk-js
-- description: These routes allow interaction with the User object of a Penn Labs Accounts user. We do not document `/accounts/...` authentication routes here, as they are described by the [Authentication](#section/
-  name: University of Pennsylvania [Accounts] User API
-  slug: university-of-pennsylvania-accounts-user-api
-- description: As the main API endpoints for PCA, these routes allow interaction with the user's PCA registrations. An important concept which is referenced throughout the documentation for these routes is that of t
-  name: University of Pennsylvania [PCA] Registration API
-  slug: university-of-pennsylvania-pca-registration-api
-- description: These routes expose a user's registration history (including inactive and obsolete registrations) for the current semester. Inactive registrations are registrations which would not trigger a notificat
-  name: University of Pennsylvania [PCA] Registration History API
-  slug: university-of-pennsylvania-pca-registration-history-api
-- description: The [PCP] Break API from University of Pennsylvania — 2 operation(s) for [pcp] break.
-  name: University of Pennsylvania [PCP] Break API
-  slug: university-of-pennsylvania-pcp-break-api
-- description: The [PCP] Calendar API from University of Pennsylvania — 1 operation(s) for [pcp] calendar.
-  name: University of Pennsylvania [PCP] Calendar API
-  slug: university-of-pennsylvania-pcp-calendar-api
-- description: The [PCP] Course Recommendations API from University of Pennsylvania — 1 operation(s) for [pcp] course recommendations.
-  name: University of Pennsylvania [PCP] Course Recommendations API
-  slug: university-of-pennsylvania-pcp-course-recommendations-api
-- description: The [PCP] Primary Schedule API from University of Pennsylvania — 2 operation(s) for [pcp] primary schedule.
-  name: University of Pennsylvania [PCP] Primary Schedule API
-  slug: university-of-pennsylvania-pcp-primary-schedule-api
-- description: These routes allow interfacing with the user's PCP Schedules for the current semester, stored on the backend. Ever since we integrated Penn Labs Accounts into PCP so that users can store their schedul
-  name: University of Pennsylvania [PCP] Schedule API
-  slug: university-of-pennsylvania-pcp-schedule-api
-- description: The [PCR] Autocomplete Dump API from University of Pennsylvania — 1 operation(s) for [pcr] autocomplete dump.
-  name: University of Pennsylvania [PCR] Autocomplete Dump API
-  slug: university-of-pennsylvania-pcr-autocomplete-dump-api
-- description: The [PCR] Course Reviews API from University of Pennsylvania — 1 operation(s) for [pcr] course reviews.
-  name: University of Pennsylvania [PCR] Course Reviews API
-  slug: university-of-pennsylvania-pcr-course-reviews-api
-- description: The [PCR] Department Reviews API from University of Pennsylvania — 1 operation(s) for [pcr] department reviews.
-  name: University of Pennsylvania [PCR] Department Reviews API
-  slug: university-of-pennsylvania-pcr-department-reviews-api
-- description: The [PCR] Instructor Reviews API from University of Pennsylvania — 1 operation(s) for [pcr] instructor reviews.
-  name: University of Pennsylvania [PCR] Instructor Reviews API
-  slug: university-of-pennsylvania-pcr-instructor-reviews-api
-- description: The [PCR] Plots API from University of Pennsylvania — 1 operation(s) for [pcr] plots.
-  name: University of Pennsylvania [PCR] Plots API
-  slug: university-of-pennsylvania-pcr-plots-api
-- description: The [PCR] Section-Specific Reviews API from University of Pennsylvania — 1 operation(s) for [pcr] section-specific reviews.
-  name: University of Pennsylvania [PCR] Section-Specific Reviews API
-  slug: university-of-pennsylvania-pcr-section-specific-reviews-api
-- description: The [PCx] Attributes API from University of Pennsylvania — 1 operation(s) for [pcx] attributes.
-  name: University of Pennsylvania [PCx] Attributes API
-  slug: university-of-pennsylvania-pcx-attributes-api
-- description: The [PCx] Course API from University of Pennsylvania — 3 operation(s) for [pcx] course.
-  name: University of Pennsylvania [PCx] Course API
-  slug: university-of-pennsylvania-pcx-course-api
-- description: The [PCx] Friendship API from University of Pennsylvania — 1 operation(s) for [pcx] friendship.
-  name: University of Pennsylvania [PCx] Friendship API
-  slug: university-of-pennsylvania-pcx-friendship-api
-- description: The [PCx] Healths API from University of Pennsylvania — 1 operation(s) for [pcx] healths.
-  name: University of Pennsylvania [PCx] Healths API
-  slug: university-of-pennsylvania-pcx-healths-api
-- description: The [PCx] NGSS Restrictions API from University of Pennsylvania — 1 operation(s) for [pcx] ngss restrictions.
-  name: University of Pennsylvania [PCx] NGSS Restrictions API
-  slug: university-of-pennsylvania-pcx-ngss-restrictions-api
-- description: The [PCx] Pre-NGSS Requirements API from University of Pennsylvania — 1 operation(s) for [pcx] pre-ngss requirements.
-  name: University of Pennsylvania [PCx] Pre-NGSS Requirements API
-  slug: university-of-pennsylvania-pcx-pre-ngss-requirements-api
-- description: The [PCx] Section API from University of Pennsylvania — 2 operation(s) for [pcx] section.
-  name: University of Pennsylvania [PCx] Section API
-  slug: university-of-pennsylvania-pcx-section-api
-- description: The [PCx] Status Updates API from University of Pennsylvania — 1 operation(s) for [pcx] status updates.
-  name: University of Pennsylvania [PCx] Status Updates API
-  slug: university-of-pennsylvania-pcx-status-updates-api
-- description: The [PDP] Degree API from University of Pennsylvania — 2 operation(s) for [pdp] degree.
-  name: University of Pennsylvania [PDP] Degree API
-  slug: university-of-pennsylvania-pdp-degree-api
-- description: The [PDP] Degree Plan Detail API from University of Pennsylvania — 4 operation(s) for [pdp] degree plan detail.
-  name: University of Pennsylvania [PDP] Degree Plan Detail API
-  slug: university-of-pennsylvania-pdp-degree-plan-detail-api
-- description: The [PDP] Degree Plan Lists API from University of Pennsylvania — 1 operation(s) for [pdp] degree plan lists.
-  name: University of Pennsylvania [PDP] Degree Plan Lists API
-  slug: university-of-pennsylvania-pdp-degree-plan-lists-api
-- description: The [PDP] Docked Course API from University of Pennsylvania — 2 operation(s) for [pdp] docked course.
-  name: University of Pennsylvania [PDP] Docked Course API
-  slug: university-of-pennsylvania-pdp-docked-course-api
-- description: The [PDP] Fulfillment API from University of Pennsylvania — 5 operation(s) for [pdp] fulfillment.
-  name: University of Pennsylvania [PDP] Fulfillment API
-  slug: university-of-pennsylvania-pdp-fulfillment-api
-- description: The [PDP] Onboard From Transcript API from University of Pennsylvania — 1 operation(s) for [pdp] onboard from transcript.
-  name: University of Pennsylvania [PDP] Onboard From Transcript API
-  slug: university-of-pennsylvania-pdp-onboard-from-transcript-api
-- description: The [PDP] Satisfied Rule Lists API from University of Pennsylvania — 1 operation(s) for [pdp] satisfied rule lists.
-  name: University of Pennsylvania [PDP] Satisfied Rule Lists API
-  slug: university-of-pennsylvania-pdp-satisfied-rule-lists-api
-artifact_total: 73
+- description: Penn's Shibboleth identity provider publishes a signed SAML 2.0 EntityDescriptor at a well-known location (HTTP 200, application/xml, entityID https://idp.pennkey.upenn.edu/idp/shibboleth), carrying t
+  name: PennKey Identity Provider — SAML 2.0 / Shibboleth Metadata
+  slug: pennkey-identity-provider
+- description: Conformant OAI-PMH 2.0 harvesting endpoint for ScholarlyCommons at Penn, the university's institutional research repository, on Penn's own host under Handle prefix 20.500.14332. verb=Identify, ListSet
+  name: ScholarlyCommons at Penn — OAI-PMH
+  slug: scholarlycommons-oai-pmh
+- description: DSpace 7.6 HAL+JSON REST API on Penn's own host. The API root returned HTTP 200 advertising dspaceName "ScholarlyCommons at Penn" and the full DSpace link relation set; content endpoints require authe
+  name: ScholarlyCommons at Penn — DSpace REST API
+  slug: scholarlycommons-rest
+- description: JSON:API surface of Franklin, the Penn Libraries discovery catalog, operated by Penn Libraries on find.library.upenn.edu. /catalog.json returned HTTP 200 with links, meta.pages and data[] over 388,604
+  name: Penn Libraries Franklin Catalog — JSON API
+  slug: franklin-catalog
+- description: 'Penn Libraries'' digital repository at colenda.library.upenn.edu exposes a Blacklight/Solr JSON search response (/catalog.json returned HTTP 200, ~59 KB, anonymous). Institution-operated on Penn''s own '
+  name: Colenda Digital Repository — Search JSON
+  slug: colenda
+- description: Penn Libraries' bulk open-data site publishing high-resolution manuscript images and TEI/XML descriptions in the public domain, laid out as a plainly-navigable directory tree (openn.library.upenn.edu/
+  name: OPenn — Open Manuscript Data
+  slug: openn
+artifact_total: 52
 collections:
 - collection_type: open
   name: API Collection
@@ -216,6 +150,70 @@ collections:
   name: Penn Courses API Documentation [Accounts] User [Accounts] User [PDP] Satisfied Rule Lists API
   slug: open-university-of-pennsylvania-pdp-satisfied-rule-lists-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.upenn.edu/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/upenn
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/pennlabs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://pennlabs.org/resources/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.upenn.edu/about/privacy-policy
+- group: company
+  title: ''
+  type: Blog
+  url: https://penntoday.upenn.edu/rss.xml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/university-of-pennsylvania/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.pennkey.upenn.edu/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://repository.upenn.edu/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://find.library.upenn.edu/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://openn.library.upenn.edu/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://catalog.upenn.edu/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.med.upenn.edu/pmacs/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://isc.upenn.edu/security/AI-guidance
+- group: build
+  title: ''
+  type: AITooling
+  url: https://cetli.upenn.edu/resources/generative-ai/penn-ai-guidance-and-policies/
+- group: company
+  title: ''
+  type: About
+  url: https://www.library.upenn.edu/about/policies/open-metadata
 - group: agent
   title: ''
   type: AgenticAccess
@@ -224,26 +222,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/university-of-pennsylvania-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.upenn.edu/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/upenn
-- group: build
-  title: ''
-  type: SourceCode
-  url: https://github.com/pennlabs
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://pennlabs.org/resources/
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/university-of-pennsylvania/
 - group: commercial
   title: ''
   type: Plans
@@ -260,16 +238,25 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
+- group: design
   title: ''
-  type: Blog
-  url: https://penntoday.upenn.edu/rss.xml
-- group: company
+  type: x-conformance
+  url: conformance/university-of-pennsylvania-conformance.yml
+- group: auth
   title: ''
-  type: About
-  url: https://www.library.upenn.edu/about/policies/open-metadata
+  type: x-authentication
+  url: authentication/university-of-pennsylvania-authentication.yml
+- group: design
+  title: ''
+  type: x-errors
+  url: errors/university-of-pennsylvania-errors.yml
+- group: design
+  title: ''
+  type: x-lifecycle
+  url: lifecycle/university-of-pennsylvania-lifecycle.yml
 created: '2026-06-03'
-description: 'The University of Pennsylvania (Penn) is a private Ivy League research university in Philadelphia, ranked #11 in the QS World University Rankings 2025. Penn''s public developer footprint centers on the Penn OpenData API, an institutional ESB service exposing Registrar, Dining, Directory, Transit, News and Events, Maps, Calendar, and Laundry data; access generally requires a validated API token issued by the university. A large share of the community-facing surface is built and documented by Penn Labs, a student-run software organization that publishes open-source SDKs (Python and JavaScript) and JSON REST APIs for Penn Courses, Penn Course Review, and Penn Mobile on top of the OpenData platform. Penn Libraries additionally exposes bibliographic metadata through OAI-PMH and Z39.50 under an open-metadata policy.'
+description: 'The University of Pennsylvania (Penn) is a private Ivy League research university in Philadelphia. Penn operates no central developer portal and publishes no institution-wide API program, and the surface that the 2026-06-03 profile treated as its headline API — the Penn OpenData API on the ISC enterprise service bus — is retired: the host esb.isc-seo.upenn.edu no longer resolves and its documentation page returns a soft-404. What Penn genuinely operates is library and identity infrastructure: the PennKey Shibboleth identity provider, whose signed SAML 2.0 metadata resolves live in the InCommon federation; ScholarlyCommons at Penn, a DSpace 7.6 repository on Penn''s own domain serving a conformant OAI-PMH 2.0 endpoint over real Penn records; the Franklin catalog and the Colenda digital repository, both Blacklight applications with JSON twins on every page under Penn Libraries'' published open-metadata policy; and OPenn, a bulk open-data site of manuscript images and TEI descriptions.
+  The far larger and better known surface — Penn Course Alert, Penn Course Plan, Penn Course Review, Penn Degree Plan and Penn Clubs, with a live 45-path OpenAPI at penncourseplan.com/api/openapi/ — is NOT operated by the university. It is built and run by Penn Labs, a non-profit student-run software organization, on domains registered to Penn Labs. Penn''s Office of Student Affairs adopted Penn Clubs as its official student-group registry, which is institutional endorsement of the product, not institutional operation of the API. Those surfaces are recorded here as tenant relationships so the relationship is preserved without crediting Penn for engineering it did not do.'
 examples:
 - key_count: 2
   name: University Of Pennsylvania Course Detail Example
@@ -305,17 +292,17 @@ jsonld:
   property_count: 5
   slug: university-of-pennsylvania-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-19'
 name: University of Pennsylvania
 nav: Providers
 network: true
-overview: 'University of Pennsylvania publishes 29 APIs on the [APIs.io](https://apis.io/) network, including [Accounts] User API, [PCA] Registration API, [PCA] Registration History API, and 26 more. Tagged areas include Education, Higher Education, University, Open Data, and Courses.
+overview: 'University of Pennsylvania publishes 3 APIs on the [APIs.io](https://apis.io/) network: Penn Courses API (Penn Course Alert / Plan / Review / Degree Plan), ScholarlyCommons at Penn — OAI-PMH, and Penn Libraries Franklin Catalog — JSON API. Tagged areas include Education, Higher Education, University, Research University, and Ivy League.
 
 
   The University of Pennsylvania catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Pennsylvania''s developer surface includes GitHub presence, engineering blog, and 11 more developer resources.'
+  University of Pennsylvania''s developer surface includes documentation, engineering blog, and 24 more developer resources.'
 plans:
 - name: University Of Pennsylvania Plans Pricing
   plan_count: 2
@@ -349,36 +336,41 @@ rules:
   slug: university-of-pennsylvania-rules
 score:
   band: thin
-  composite: 30.6
-  delta: -4.2
+  composite: 35.2
+  delta: -0.3
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 55.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 13.6
+    contract_quality: 54.6
     developer_ergonomics: 11.9
-    discoverability: 50.0
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 34.8
+    discoverability: 64.8
+    governance: 13.6
+    operational_transparency: 23.7
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 29
+      derived: 2
+      marker_coverage: 6.5
+      total: 31
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 27.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/screenshots/university-of-pennsylvania-2026-06-20T200220.png
 security:
+- kind: authentication
+  name: University Of Pennsylvania Authentication
+  slug: university-of-pennsylvania-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: University Of Pennsylvania Domain Security
   slug: university-of-pennsylvania-domain-security
@@ -388,10 +380,16 @@ tags:
 - Education
 - Higher Education
 - University
-- Open Data
-- Courses
-- Library
-- United States
+- Research University
 - Ivy League
+- United States
+- Philadelphia
+- Open Data
+- Library
+- Course Catalog
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- Student Developers
 website: https://www.upenn.edu/
 ---

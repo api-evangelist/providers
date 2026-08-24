@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.4
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -173,16 +173,16 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.2
+  previous_composite: 25.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smart-data/refs/heads/main/screenshots/smart-data-2026-06-20T194035.png
 security:
 - kind: domain-security
@@ -199,7 +199,7 @@ tags:
 - Point Cloud
 - 3D Visualization
 - Gaussian Splatting
-- Computer Vision
+- Computer-Vision
 - Infrastructure
 - Utilities
 - Mining

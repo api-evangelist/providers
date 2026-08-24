@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Spacee
 nav: Providers
 network: true
-overview: 'Spacee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Coworking, Space Rental, and Marketplace.
+overview: 'Spacee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Co-Working, Space Rental, and Marketplace.
 
 
   Spacee''s developer surface includes support, engineering blog, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 16
 score:
   band: minimal
   composite: 8.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -80,15 +80,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 8.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: spacee
 tags:
 - Company
-- Real Estate
-- Coworking
+- Real-Estate
+- Co-Working
 - Space Rental
 - Marketplace
 - Booking

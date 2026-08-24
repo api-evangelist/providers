@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 36
 apis:
 - description: Account Token
@@ -368,13 +368,13 @@ image: https://ready2order.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: ready2order-mcp.yml
-  slug: ready2order-mcpyml
+  name: Ready2order MCP Server
+  slug: ready2order-mcp-server
 modified: '2026-07-20'
 name: Ready2order
 nav: Providers
 network: true
-overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account Token API, Accounting Financial Year API, Bill API, and 33 more. Tagged areas include Company, Point of Sale, POS, Payments, and Retail.
+overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account Token API, Accounting Financial Year API, Bill API, and 33 more. Tagged areas include Company, Point-of-Sale, Payments, Retail, and Gastronomy.
 
 
   The Ready2order catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -385,7 +385,7 @@ random_paper: 10
 score:
   band: developing
   composite: 46.6
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -395,7 +395,7 @@ score:
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 44.2
+  previous_composite: 46.6
   provenance:
     conformance: derived
     contracts:
@@ -411,8 +411,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/screenshots/ready2order-2026-08-17T081455.png
 security:
@@ -427,12 +427,11 @@ security:
 slug: ready2order
 tags:
 - Company
-- Point of Sale
-- POS
+- Point-of-Sale
 - Payments
 - Retail
 - Gastronomy
 - Cash Register
-- SaaS
+- Software-as-a-Service
 website: https://ready2order.com/en/api/
 ---

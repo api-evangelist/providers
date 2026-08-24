@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for provisioning and managing Class virtual classrooms — Classes, Enrollments, Schedules, Templates, Users, launch links, and attendance / metrics reporting. 27 endpoints across 7 resource gr
@@ -117,7 +117,7 @@ modified: '2026-07-18'
 name: Class
 nav: Providers
 network: true
-overview: 'Class publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Virtual Classroom, and Learning.
+overview: 'Class publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Virtual Classroom, and Learning.
 
 
   Class'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 12 more developer resources.'
@@ -125,7 +125,7 @@ random_paper: 9
 score:
   band: thin
   composite: 30.8
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -135,15 +135,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 27.4
+  previous_composite: 30.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class/refs/heads/main/screenshots/class-2026-07-25T205513.png
 security:
@@ -162,7 +162,7 @@ security:
 slug: class
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Virtual Classroom
 - Learning

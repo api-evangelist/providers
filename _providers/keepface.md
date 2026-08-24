@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The public server-side affiliate tracking API for Keepface. Brands POST sale and refund events from their own backend (or from Shopify, or from the browser JS pixel) and Keepface attributes them to th
@@ -185,13 +185,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keepface.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: keepface-mcp.yml
-  slug: keepface-mcpyml
+  name: KeepFace MCP Server
+  slug: keepface-mcp-server
 modified: '2026-08-13'
 name: KeepFace
 nav: Providers
 network: true
-overview: 'KeepFace publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Economy, Marketing, and Social Media.
+overview: 'KeepFace publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Economy, Marketing, and Social-Media.
 
 
   The KeepFace catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -215,7 +215,7 @@ scopes:
 score:
   band: thin
   composite: 38.0
-  delta: -11.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -225,13 +225,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 49.1
+  previous_composite: 38.0
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/screenshots/keepface-2026-07-25T223555.png
 security:
 - kind: authentication
@@ -248,13 +248,13 @@ tags:
 - Influencer Marketing
 - Creator Economy
 - Marketing
-- Social Media
+- Social-Media
 - Affiliate Marketing
 - Advocacy
 - Campaign Management
 - MCP
 - AI Agents
 - Attribution
-- Webhooks
+- Webhook
 website: https://keepface.com
 ---

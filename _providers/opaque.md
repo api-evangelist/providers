@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Asset Configurations
@@ -205,13 +205,13 @@ image: https://cdn.prod.website-files.com/66d977be14c1ef2f8e88c93c/68cb38f240004
 layout: provider
 mcp_servers:
 - description: ''
-  name: opaque-mcp.yml
-  slug: opaque-mcpyml
+  name: OPAQUE MCP Server
+  slug: opaque-mcp-server
 modified: '2026-08-04'
 name: OPAQUE
 nav: Providers
 network: true
-overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Asset Configs API, Auth API, Datasets API, and 8 more. Tagged areas include confidential-computing, confidential-ai, ai-governance, data-privacy, and trusted-execution-environment.
+overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Asset Configs API, Auth API, Datasets API, and 8 more. Tagged areas include Confidential Computing, confidential-ai, AI Governance, Data Privacy, and Trusted Execution Environment.
 
 
   OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 19 more developer resources.'
@@ -219,7 +219,7 @@ random_paper: 0
 score:
   band: developing
   composite: 45.5
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -229,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 44.8
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     contracts:
@@ -239,8 +239,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/screenshots/opaque-2026-08-07T190445.png
 security:
@@ -254,17 +254,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: opaque
 tags:
-- confidential-computing
+- Confidential Computing
 - confidential-ai
-- ai-governance
-- data-privacy
-- trusted-execution-environment
-- attestation
-- agentic-workflows
-- retrieval-augmented-generation
-- enterprise-ai
+- AI Governance
+- Data Privacy
+- Trusted Execution Environment
+- Attestation
+- Agentic Workflows
+- Retrieval Augmented Generation
+- Enterprise AI
 - secure-analytics
-- data-clean-room
-- model-context-protocol
+- Data Clean Room
+- MCP
 website: https://www.opaque.co/
 ---

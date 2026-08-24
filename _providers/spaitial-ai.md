@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: File upload endpoints
@@ -209,8 +209,8 @@ image: https://spaitial.ai/og-image-default.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: spaitial-ai-mcp.yml
-  slug: spaitial-ai-mcpyml
+  name: SpAItial MCP Server
+  slug: spaitial-mcp-server
 modified: '2026-07-21'
 name: SpAItial
 nav: Providers
@@ -234,7 +234,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.4
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 57.6
+  previous_composite: 56.4
   provenance:
     conformance: derived
     contracts:
@@ -254,8 +254,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/screenshots/spaitial-ai-2026-08-17T125411.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: TAL's partner-facing OpenID Connect identity tenant (Okta org talpartner-au.okta.com), and the only machine-readable API contract TAL serves anonymously. Full OIDC discovery and RFC 8414 authorization
@@ -163,7 +163,7 @@ scopes:
 score:
   band: emerging
   composite: 22.9
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -173,7 +173,7 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 25.0
+  previous_composite: 22.9
   provenance:
     conformance: derived
   regulatory:
@@ -182,8 +182,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 57.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

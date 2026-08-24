@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HTTP REST API to interact with a Secoda workspace — CRUD over catalog resources (databases, schemas, tables, columns, dashboards, charts, collections, documents, glossary/terms, tags, custom propertie
@@ -163,8 +163,8 @@ image: https://cdn.prod.website-files.com/61ddd0b42c51f86c96e1e90e/683a14fafd229
 layout: provider
 mcp_servers:
 - description: ''
-  name: secoda-mcp.yml
-  slug: secoda-mcpyml
+  name: Secoda MCP Server
+  slug: secoda-mcp-server
 modified: '2026-07-21'
 name: Secoda
 nav: Providers
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.6
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -191,14 +191,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 41.8
+  previous_composite: 36.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Secoda Authentication

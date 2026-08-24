@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -326,8 +326,8 @@ image: https://www.holidu.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: holidu-mcp.yml
-  slug: holidu-mcpyml
+  name: Holidu MCP Server
+  slug: holidu-mcp-server
 modified: '2026-07-19'
 name: Holidu
 nav: Providers
@@ -347,18 +347,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.4
-  delta: -8.4
+  composite: 41.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
     contract_quality: 61.9
     developer_ergonomics: 42.3
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 48.7
-  previous_composite: 48.8
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,9 +369,9 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/screenshots/holidu-2026-07-25T221319.png
 security:
 - kind: authentication
@@ -397,6 +397,6 @@ tags:
 - Booking
 - Channel Manager
 - Connectivity
-- Affiliate
+- Affiliates
 website: https://www.holidu.com/
 ---

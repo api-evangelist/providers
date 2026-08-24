@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -218,8 +218,8 @@ image: https://www.beyondpricing.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: beyond-pricing-mcp.yml
-  slug: beyond-pricing-mcpyml
+  name: Beyond Pricing MCP Server
+  slug: beyond-pricing-mcp-server
 modified: '2026-07-18'
 name: Beyond Pricing
 nav: Providers
@@ -239,18 +239,18 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.8
-  delta: -0.7
+  composite: 49.9
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
     contract_quality: 60.4
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 49.5
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,8 +261,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/screenshots/beyond-pricing-2026-07-25T202840.png
 security:

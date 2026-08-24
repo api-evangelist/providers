@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Crow agent platform surface — the widget/agent runtime served from api.usecrow.org, configured via the dashboard and consumed through the embed script and the @usecrow/client / @usecrow/ui SDKs. C
@@ -105,14 +105,14 @@ description: Crow is a Y Combinator (Winter 2026) company building an AI infrast
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crow.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: crow-mcp.yml
-  slug: crow-mcpyml
+- description: Crow Docs MCP - connects an AI coding agent to Crow's documentation so it can help integrate the Crow widget, set up identity verification, and configure OpenAPI or MCP server integrations with full c
+  name: Crow MCP Server
+  slug: crow-mcp-server
 modified: '2026-07-18'
 name: Crow
 nav: Providers
 network: true
-overview: 'Crow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, MCP, and Model Context Protocol.
+overview: 'Crow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, MCP, and OpenAPI.
 
 
   Crow''s developer surface includes documentation, getting-started guide, signup flow, CLI, sandbox, and 11 more developer resources.'
@@ -120,7 +120,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 18.3
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -130,12 +130,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 26.4
+  previous_composite: 18.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crow/refs/heads/main/screenshots/crow-2026-07-25T210812.png
 security:
 - kind: domain-security
@@ -148,7 +148,6 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - MCP
-- Model Context Protocol
 - OpenAPI
 - Developer Tools
 - SDK

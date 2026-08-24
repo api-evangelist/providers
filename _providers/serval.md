@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Auth API API from Serval — 1 operation(s) for auth api.
@@ -138,13 +138,13 @@ image: https://framerusercontent.com/images/V6k6fFCAJ2d3ZHM9P4chDQnDbY.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: serval-mcp.yml
-  slug: serval-mcpyml
+  name: Serval MCP Server
+  slug: serval-mcp-server
 modified: '2026-07-21'
 name: Serval
 nav: Providers
 network: true
-overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Auth API API. Tagged areas include Company, IT Service Management, ITSM, Help Desk, and Workflow Automation.
+overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Auth API API. Tagged areas include Company, ITSM, Help Desk, Workflow-Automation, and AI Agents.
 
 
   The Serval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -160,7 +160,7 @@ scopes:
 score:
   band: developing
   composite: 45.3
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -170,7 +170,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 52.1
+  previous_composite: 45.3
   provenance:
     conformance: derived
     contracts:
@@ -179,9 +179,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/screenshots/serval-2026-08-17T081819.png
 security:
 - kind: authentication
@@ -199,10 +199,9 @@ security:
 slug: serval
 tags:
 - Company
-- IT Service Management
 - ITSM
 - Help Desk
-- Workflow Automation
+- Workflow-Automation
 - AI Agents
 - Access Management
 - Employee Support

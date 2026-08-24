@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Health API from Alice Bob — 1 operation(s) for health.
@@ -163,9 +163,9 @@ description: Alice & Bob is a quantum computing company headquartered in Paris w
 image: https://avatars.githubusercontent.com/u/72556371?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: alice--bob-mcp.yml
-  slug: alice-bob-mcpyml
+- description: A CANDIDATE tool surface, not a real one. This file records what an MCP server over the Felis Cloud API would expose if Alice & Bob built one, derived one-to-one from the published OpenAPI operations.
+  name: Alice Bob MCP Server
+  slug: alice-bob-mcp-server
 modified: '2026-08-06'
 name: Alice Bob
 nav: Providers
@@ -182,7 +182,7 @@ random_paper: 4
 score:
   band: developing
   composite: 52.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -192,7 +192,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 51.4
+  previous_composite: 52.1
   provenance:
     conformance: derived
     contracts:
@@ -202,8 +202,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/screenshots/alice--bob-2026-08-07T161203.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: mitmproxy is a free and open source interactive HTTPS proxy for intercepting, inspecting, modifying, and replaying HTTP and HTTPS traffic. It provides console-based, web-based, and command-line interf
@@ -99,7 +99,7 @@ modified: '2026-04-28'
 name: Mitmproxy
 nav: Providers
 network: true
-overview: 'Mitmproxy publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Debugging, HTTPS Proxy, Open Source, and Security Testing.
+overview: 'Mitmproxy publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Debugging, HTTPS Proxy, Open-Source, and Security Testing.
 
 
   Mitmproxy''s developer surface includes documentation, GitHub presence, engineering blog, release notes, and 7 more developer resources.'
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -125,9 +125,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/screenshots/mitmproxy-2026-06-20T185616.png
 security:
@@ -140,7 +140,7 @@ tags:
 - API Testing
 - HTTP Debugging
 - HTTPS Proxy
-- Open Source
+- Open-Source
 - Security Testing
 - Traffic Analysis
 - Traffic Interception

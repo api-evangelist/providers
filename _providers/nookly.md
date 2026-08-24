@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: Nookly
 nav: Providers
 network: true
-overview: 'Nookly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Children, Education, EdTech, and Social-Emotional Learning.
+overview: 'Nookly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Children, Education, EdTech, and Social Emotional Learning.
 
 
   Nookly''s developer surface includes engineering blog, support, pricing, signup flow, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 13.2
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -94,15 +94,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.0
+  previous_composite: 13.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 25.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nookly/refs/heads/main/screenshots/nookly-2026-08-07T185458.png
 security:
@@ -116,7 +116,7 @@ tags:
 - Children
 - Education
 - EdTech
-- Social-Emotional Learning
+- Social Emotional Learning
 - Personalization
 - Therapy
 - Neurodiversity

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -489,8 +489,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: microsoft-outlook-mcp.yml
-  slug: microsoft-outlook-mcpyml
+  name: Microsoft MCP Server for Enterprise
+  slug: microsoft-mcp-server-for-enterprise
 modified: '2026-06-20'
 name: Microsoft Outlook
 nav: Providers
@@ -552,7 +552,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.0
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -562,7 +562,7 @@ score:
     discoverability: 100.0
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 72.7
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -572,9 +572,9 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/screenshots/microsoft-outlook-2026-06-20T185517.png
 security:
 - kind: authentication

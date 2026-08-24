@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ modified: '2026-06-21'
 name: Creem
 nav: Providers
 network: true
-overview: 'Creem publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Checkouts API, Customers API, Discounts API, and 4 more. Tagged areas include Payments, Merchant of Record, Subscriptions, SaaS, and Billing.
+overview: 'Creem publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Checkouts API, Customers API, Discounts API, and 4 more. Tagged areas include Payments, Merchant of Record, Subscription, Software-as-a-Service, and Billing.
 
 
   Creem''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.7
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -173,7 +173,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 34.0
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creem/refs/heads/main/screenshots/creem-2026-07-25T210726.png
 security:
@@ -208,8 +208,8 @@ slug: creem
 tags:
 - Payments
 - Merchant of Record
-- Subscriptions
-- SaaS
+- Subscription
+- Software-as-a-Service
 - Billing
 website: https://www.creem.io/
 ---

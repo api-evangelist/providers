@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 6
 common:
@@ -150,8 +150,8 @@ image: https://clarifyhealth.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: clarify-health-mcp.yml
-  slug: clarify-health-mcpyml
+  name: CMS Data.gov MCP Server
+  slug: cms-datagov-mcp-server
 modified: '2026-08-15'
 name: Clarify Health
 nav: Providers
@@ -177,7 +177,7 @@ scopes:
 score:
   band: emerging
   composite: 26.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -187,7 +187,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 26.9
+  previous_composite: 26.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -197,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/screenshots/clarify-health-2026-07-25T205504.png
 security:

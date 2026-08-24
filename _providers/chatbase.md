@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ modified: '2026-06-20'
 name: Chatbase
 nav: Providers
 network: true
-overview: 'Chatbase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Chatbots API, Contacts API, and 2 more. Tagged areas include AI, Chatbot, AI Agent, Customer Support, and Conversational AI.
+overview: 'Chatbase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Chatbots API, Contacts API, and 2 more. Tagged areas include Artificial Intelligence, Chatbots, AI Agent, Customer-Support, and Conversational AI.
 
 
   Chatbase''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.4
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -169,7 +169,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 41.1
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/screenshots/chatbase-2026-06-20T174234.png
 security:
@@ -200,10 +200,10 @@ security:
   summary_line: SOC 2, GDPR
 slug: chatbase
 tags:
-- AI
-- Chatbot
+- Artificial Intelligence
+- Chatbots
 - AI Agent
-- Customer Support
+- Customer-Support
 - Conversational AI
 website: https://www.chatbase.co
 ---

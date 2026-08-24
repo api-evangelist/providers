@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ modified: '2026-05-19'
 name: AppSumo
 nav: Providers
 network: true
-overview: 'AppSumo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Licenses API and Profile API. Tagged areas include Marketplace, SaaS, and Software Deals.
+overview: 'AppSumo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Licenses API and Profile API. Tagged areas include Marketplace, Software-as-a-Service, and Software Deals.
 
 
   The AppSumo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -229,18 +229,18 @@ rules:
   slug: appsumo-spectral-rules
 score:
   band: developing
-  composite: 46.5
-  delta: -6.6
+  composite: 47.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 69.5
     developer_ergonomics: 45.2
     discoverability: 44.4
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 18.4
-  previous_composite: 53.1
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     contracts:
@@ -248,9 +248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/screenshots/appsumo-2026-06-20T172331.png
 security:
 - kind: authentication
@@ -264,7 +264,7 @@ security:
 slug: appsumo
 tags:
 - Marketplace
-- SaaS
+- Software-as-a-Service
 - Software Deals
 website: https://appsumo.com/
 ---

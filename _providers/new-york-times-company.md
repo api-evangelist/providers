@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -388,18 +388,18 @@ rules:
   slug: new-york-times-rules
 score:
   band: developing
-  composite: 41.6
-  delta: -10.5
+  composite: 42.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 59.9
     developer_ergonomics: 14.3
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 52.1
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -407,9 +407,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/screenshots/new-york-times-company-2026-06-20T190234.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Lizee's production operations API powering its rental, resale, and logistics platforms. Confirmed live via the company status page (components "API v1" and "e-commerce API & Admin") and the production
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Lizee
 nav: Providers
 network: true
-overview: Lizee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Rental, Resale, and Second-Hand.
+overview: Lizee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Rentals, Resale, and Secondhand.
 random_paper: 12
 score:
   band: minimal
@@ -78,17 +78,17 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 8.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lizee/refs/heads/main/screenshots/lizee-2026-07-25T225412.png
 slug: lizee
 tags:
 - Company
 - Retail
-- Rental
+- Rentals
 - Resale
-- Second-Hand
+- Secondhand
 - Circular Economy
 - Logistics
 - E-Commerce

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: CoStar's flagship commercial real estate information platform covering property, tenant, lease, sale, and market analytics across office, industrial, retail, multifamily, and specialty CRE asset class
@@ -143,8 +143,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/screenshots/costar-2026-06-20T175051.png
 security:

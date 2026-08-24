@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Control-plane surface that lets an agent or script manage MCP Manager configuration — servers, gateways, identities, hosts, teams, roles, logs, and integrations — with the same actions as the app, sco
@@ -151,13 +151,13 @@ image: https://mcpmanager.ai/wp-content/uploads/mcp-manager-og-share-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp-manager-mcp.yml
-  slug: mcp-manager-mcpyml
+  name: MCP Manager MCP Server
+  slug: mcp-manager-mcp-server
 modified: '2026-07-20'
 name: MCP Manager
 nav: Providers
 network: true
-overview: 'MCP Manager publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Model Context Protocol, AI Governance, and API Gateway.
+overview: 'MCP Manager publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Governance, API Gateway, and Security.
 
 
   The MCP Manager catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -168,7 +168,7 @@ random_paper: 4
 score:
   band: developing
   composite: 48.8
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -178,13 +178,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 50.4
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/screenshots/mcp-manager-2026-08-07T172245.png
 security:
@@ -204,7 +204,6 @@ slug: mcp-manager
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Governance
 - API Gateway
 - Security

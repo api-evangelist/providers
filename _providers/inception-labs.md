@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -194,13 +194,13 @@ image: https://docs.inceptionlabs.ai/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: inception-labs-mcp.yml
-  slug: inception-labs-mcpyml
+  name: Inception Labs MCP Server
+  slug: inception-labs-mcp-server
 modified: '2026-07-19'
 name: Inception Labs
 nav: Providers
 network: true
-overview: 'Inception Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Edit API, FIM API, and 1 more. Tagged areas include Artificial Intelligence, Machine Learning, Large Language Models, Diffusion Models, and Generative AI.
+overview: 'Inception Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Edit API, FIM API, and 1 more. Tagged areas include Artificial Intelligence, Machine-Learning, Large Language Models, Diffusion Models, and Generative AI.
 
 
   Inception Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
@@ -208,7 +208,7 @@ random_paper: 4
 score:
   band: developing
   composite: 45.8
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 48.1
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +229,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception-labs/refs/heads/main/screenshots/inception-labs-2026-07-25T222329.png
 security:
@@ -245,13 +245,13 @@ security:
 slug: inception-labs
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Diffusion Models
 - Generative AI
 - Code Completion
 - LLM API
-- OpenAI Compatible
+- OpenAI-Compatible
 - Developer Tools
 - Company
 website: https://inceptionlabs.ai

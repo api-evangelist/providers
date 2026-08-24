@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ modified: '2026-06-13'
 name: NASA APOD
 nav: Providers
 network: true
-overview: 'NASA APOD publishes 1 API on the [APIs.io](https://apis.io/) network: APOD API. Tagged areas include NASA, Astronomy, Space, Images, and Science.
+overview: 'NASA APOD publishes 1 API on the [APIs.io](https://apis.io/) network: APOD API. Tagged areas include NASA, Astronomy, Space, Image, and Science.
 
 
   The NASA APOD catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -162,7 +162,7 @@ rules:
 score:
   band: developing
   composite: 45.1
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -172,7 +172,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 44.7
-  previous_composite: 48.9
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -186,8 +186,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-apod/refs/heads/main/screenshots/nasa-apod-2026-06-20T185946.png
 security:
@@ -204,7 +204,7 @@ tags:
 - NASA
 - Astronomy
 - Space
-- Images
+- Image
 - Science
 - Education
 - Open Data

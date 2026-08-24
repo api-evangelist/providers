@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -287,7 +287,7 @@ random_paper: 16
 score:
   band: thin
   composite: 35.1
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -297,7 +297,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 35.7
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -305,8 +305,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/screenshots/locus-sh-2026-06-20T184640.png
 security:

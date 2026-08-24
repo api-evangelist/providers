@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-21'
 name: Vosbor
 nav: Providers
 network: true
-overview: 'Vosbor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agritech, Commodities, Trading, and Agriculture.
+overview: 'Vosbor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgriTech, Commodities, Trading, and Agriculture.
 
 
   Vosbor''s developer surface includes signup flow, support, and 11 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 16
 score:
   band: minimal
   composite: 7.7
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -110,16 +110,16 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.7
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Vosbor Domain Security
@@ -128,7 +128,7 @@ security:
 slug: vosbor
 tags:
 - Company
-- Agritech
+- AgriTech
 - Commodities
 - Trading
 - Agriculture

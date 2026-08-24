@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API for uploading and analyzing financial documents for fraud detection and data extraction. Supports bank statements, pay stubs, tax forms, invoices, and identity documents. Provides fraud si
@@ -109,7 +109,7 @@ modified: '2026-06-12'
 name: Inscribe
 nav: Providers
 network: true
-overview: 'Inscribe publishes 1 API on the [APIs.io](https://apis.io/) network: Document Fraud Detection API. Tagged areas include Fraud Detection, Document Verification, Financial Services, KYC, and KYB.
+overview: 'Inscribe publishes 1 API on the [APIs.io](https://apis.io/) network: Document Fraud Detection API. Tagged areas include Fraud Detection, Document Verification, Financial-Services, KYC, and KYB.
 
 
   The Inscribe catalog on APIs.io includes 1 JSON-LD context.
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.5
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -138,15 +138,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 27.5
+  previous_composite: 24.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/screenshots/inscribe-2026-06-20T183404.png
 security:
@@ -162,15 +162,15 @@ slug: inscribe
 tags:
 - Fraud Detection
 - Document Verification
-- Financial Services
+- Financial-Services
 - KYC
 - KYB
 - Bank Statements
-- Pay Stubs
+- Paystubs
 - Identity Verification
 - Risk Management
 - Fintech
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 website: https://www.inscribe.ai/
 ---

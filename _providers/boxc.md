@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -304,13 +304,13 @@ image: https://storage.googleapis.com/boxc_cdn/public/boxc-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: boxc-mcp.yml
-  slug: boxc-mcpyml
+  name: Boxc MCP Server
+  slug: boxc-mcp-server
 modified: '2026-07-18'
 name: Boxc
 nav: Providers
 network: true
-overview: 'Boxc publishes 22 APIs on the [APIs.io](https://apis.io/) network, including CalculateDuty API, Classify API, Credentials API, and 19 more. Tagged areas include Company, Logistics, Shipping, Ecommerce, and Cross-Border.
+overview: 'Boxc publishes 22 APIs on the [APIs.io](https://apis.io/) network, including CalculateDuty API, Classify API, Credentials API, and 19 more. Tagged areas include Company, Logistics, Shipping, E-Commerce, and Cross-Border.
 
 
   The Boxc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -326,7 +326,7 @@ scopes:
 score:
   band: thin
   composite: 34.6
-  delta: -9.6
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -336,7 +336,7 @@ score:
     discoverability: 68.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 44.2
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,9 +347,9 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/screenshots/boxc-2026-07-25T203656.png
 security:
 - kind: authentication
@@ -365,11 +365,11 @@ tags:
 - Company
 - Logistics
 - Shipping
-- Ecommerce
+- E-Commerce
 - Cross-Border
 - Fulfillment
 - Customs
 - Tracking
-- Webhooks
+- Webhook
 website: https://boxc.com
 ---

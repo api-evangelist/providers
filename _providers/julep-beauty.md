@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Julep's agent-commerce surface. The storefront advertises a Universal Commerce Protocol merchant profile and a live JSON-RPC Model Context Protocol endpoint covering catalog search and lookup, cart, d
@@ -170,9 +170,9 @@ description: 'Julep is a direct-to-consumer beauty brand selling makeup, skincar
 image: https://www.julep.com/cdn/shop/files/Julep_Favicon.png?v=1631633077
 layout: provider
 mcp_servers:
-- description: ''
-  name: julep-beauty-mcp.yml
-  slug: julep-beauty-mcpyml
+- description: 'Julep''s storefront exposes a live, hosted Model Context Protocol endpoint as the MCP transport for the Universal Commerce Protocol (UCP) shopping service. The endpoint is advertised in the merchant''s '
+  name: Julep UCP Commerce MCP Server
+  slug: julep-ucp-commerce-mcp-server
 modified: '2026-07-19'
 name: Julep Beauty
 nav: Providers
@@ -194,7 +194,7 @@ scopes:
 score:
   band: developing
   composite: 39.5
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -204,7 +204,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 40.6
+  previous_composite: 39.5
   provenance:
     conformance: first-party
     contracts:
@@ -214,8 +214,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/screenshots/julep-beauty-2026-08-07T171031.png
 security:

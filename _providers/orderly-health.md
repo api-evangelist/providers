@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -149,8 +149,8 @@ image: https://files.readme.io/e494480-small-Orderly_Logo_4cMrk_NavyText.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: orderly-health-mcp.yml
-  slug: orderly-health-mcpyml
+  name: Orderly Health MCP Server
+  slug: orderly-health-mcp-server
 modified: '2026-07-20'
 name: Orderly Health
 nav: Providers
@@ -163,7 +163,7 @@ random_paper: 16
 score:
   band: thin
   composite: 39.2
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -173,7 +173,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 42.7
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,8 +190,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/screenshots/orderly-health-2026-08-07T190912.png
 security:
@@ -210,7 +210,7 @@ tags:
 - Provider Data
 - Provider Directory
 - Health Data
-- Machine Learning
+- Machine-Learning
 - Data Quality
 - Interoperability
 website: https://orderlyhealth.com

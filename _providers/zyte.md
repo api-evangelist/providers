@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Zyte is a web data extraction platform providing APIs, smart proxy management, and AI-powered data extraction built on the Scrapy framework.
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.7
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -103,9 +103,9 @@ score:
     discoverability: 48.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 11.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zyte/refs/heads/main/screenshots/zyte-2026-06-20T202012.png
 security:

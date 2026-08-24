@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ modified: '2026-07-11'
 name: Order Desk
 nav: Providers
 network: true
-overview: 'Order Desk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Inventory Items API, Order Items API, Orders API, and 2 more. Tagged areas include Ecommerce, Order Management, Fulfillment, Dropshipping, and Inventory.
+overview: 'Order Desk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Inventory Items API, Order Items API, Orders API, and 2 more. Tagged areas include E-Commerce, Order Management, Fulfillment, Dropshipping, and Inventory.
 
 
   Order Desk''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.0
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -153,7 +153,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.6
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +161,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/screenshots/orderdesk-2026-08-07T190910.png
 security:
@@ -176,7 +176,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: orderdesk
 tags:
-- Ecommerce
+- E-Commerce
 - Order Management
 - Fulfillment
 - Dropshipping

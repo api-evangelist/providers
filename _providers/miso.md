@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -578,8 +578,8 @@ image: https://www.misoenergy.org/siteassets/favicons/miso-icon-only---blue-gree
 layout: provider
 mcp_servers:
 - description: ''
-  name: miso-mcp.yml
-  slug: miso-mcpyml
+  name: MISO MCP Server
+  slug: miso-mcp-server
 modified: '2026-08-04'
 name: MISO
 nav: Providers
@@ -600,7 +600,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.6
-  delta: 7.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -610,7 +610,7 @@ score:
     discoverability: 66.7
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 46.5
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -627,9 +627,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png
 security:
 - kind: authentication

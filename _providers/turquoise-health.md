@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -206,8 +206,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: turquoise-health-mcp.yml
-  slug: turquoise-health-mcpyml
+  name: Turquoise Consumer Pricing MCP
+  slug: turquoise-consumer-pricing-mcp
 modified: '2026-08-14'
 name: Turquoise Health
 nav: Providers
@@ -236,7 +236,7 @@ scopes:
 score:
   band: strong
   composite: 63.4
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -246,7 +246,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 62.0
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,8 +263,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/screenshots/turquoise-health-2026-08-17T082500.png
 security:
@@ -293,7 +293,7 @@ tags:
 - Out-of-Pocket Costs
 - MRF
 - Consumer Pricing
-- Model Context Protocol
+- MCP
 - Eligibility
 - Standard Service Packages
 - HIPAA

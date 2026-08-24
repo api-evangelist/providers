@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -199,8 +199,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getpaid.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: getpaid-mcp.yml
-  slug: getpaid-mcpyml
+  name: GetPaid MCP Server
+  slug: getpaid-mcp-server
 modified: '2026-07-19'
 name: GetPaid
 nav: Providers
@@ -221,7 +221,7 @@ scopes:
 score:
   band: strong
   composite: 58.0
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -231,7 +231,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 53.2
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -248,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/screenshots/getpaid-2026-07-25T215736.png
 security:
@@ -270,7 +270,7 @@ tags:
 - Checkout
 - Marketplace
 - Onboarding
-- Subscriptions
+- Subscription
 - Agent Payments
 - Europe
 website: https://docs.getpaid.io

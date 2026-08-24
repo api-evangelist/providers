@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Qualia API is a read-write GraphQL API over the Qualia title, escrow and closing platform. It lets partner organizations place title orders into Qualia Core or Connect (or route them to third-part
@@ -130,13 +130,13 @@ image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company
 layout: provider
 mcp_servers:
 - description: ''
-  name: qualia-mcp.yml
-  slug: qualia-mcpyml
+  name: Qualia MCP Server
+  slug: qualia-mcp-server
 modified: '2026-08-02'
 name: Qualia
 nav: Providers
 network: true
-overview: 'Qualia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Title Insurance, Escrow, and Mortgage.
+overview: 'Qualia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Title Insurance, Escrow, and Mortgage.
 
 
   Qualia''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
@@ -144,7 +144,7 @@ random_paper: 7
 score:
   band: thin
   composite: 32.6
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -154,7 +154,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 36.1
+  previous_composite: 32.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -164,8 +164,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -187,14 +187,14 @@ security:
 slug: qualia
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Escrow
 - Mortgage
 - Closing
 - Settlement Services
 - PropTech
-- Financial Services
+- Financial-Services
 - GraphQL
 website: https://www.qualia.com/
 ---

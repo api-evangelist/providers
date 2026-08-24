@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ modified: '2026-05-19'
 name: TheSportsDB
 nav: Providers
 network: true
-overview: 'TheSportsDB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Events API, Lists API, Lookup API, and 2 more. Tagged areas include Sports, Database, Free, Open Data, and Teams.
+overview: 'TheSportsDB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Events API, Lists API, Lookup API, and 2 more. Tagged areas include Sports, Database, Free, Open Data, and Team.
 
 
   The TheSportsDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -182,7 +182,7 @@ rules:
 score:
   band: thin
   composite: 32.4
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -192,7 +192,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 37.7
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -206,9 +206,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/screenshots/thesportsdb-2026-06-20T195300.png
 security:
 - kind: domain-security
@@ -221,8 +221,8 @@ tags:
 - Database
 - Free
 - Open Data
-- Teams
+- Team
 - Players
-- Events
+- Event
 website: https://www.thesportsdb.com/
 ---

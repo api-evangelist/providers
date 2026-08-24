@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -201,8 +201,8 @@ image: https://captions.ai/mrkt-static/captions-og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mirage-mcp.yml
-  slug: mirage-mcpyml
+  name: Mirage MCP Server
+  slug: mirage-mcp-server
 modified: '2026-07-20'
 name: Mirage
 nav: Providers
@@ -218,7 +218,7 @@ random_paper: 20
 score:
   band: developing
   composite: 48.8
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -228,7 +228,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 47.7
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +239,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/screenshots/mirage-2026-08-07T183717.png
 security:
@@ -261,7 +261,7 @@ tags:
 - Captions
 - Media
 - Content Creation
-- Text to Speech
-- Machine Learning
+- Text-to-Speech
+- Machine-Learning
 website: https://captions.ai/help/api-reference
 ---

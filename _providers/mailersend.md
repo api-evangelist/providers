@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -241,8 +241,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mailersend
 layout: provider
 mcp_servers:
 - description: ''
-  name: mailersend-mcp.yml
-  slug: mailersend-mcpyml
+  name: MailerSend MCP Server
+  slug: mailersend-mcp-server
 modified: '2026-08-13'
 name: MailerSend
 nav: Providers
@@ -271,7 +271,7 @@ scopes:
 score:
   band: strong
   composite: 65.0
-  delta: 9.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -281,7 +281,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 55.5
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,9 +298,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 52.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/screenshots/mailersend-2026-06-20T184858.png
 security:
 - kind: authentication
@@ -325,7 +325,7 @@ tags:
 - SMS
 - Messaging
 - Templates
-- Webhooks
+- Webhook
 - Email Verification
 - Deliverability
 - Analytics

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -206,18 +206,18 @@ rules:
   slug: ssh-rules
 score:
   band: thin
-  composite: 34.4
-  delta: -6.1
+  composite: 34.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 59.0
     developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 40.5
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -225,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/screenshots/ssh-2026-06-20T194434.png
 security:
 - kind: authentication

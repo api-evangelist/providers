@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-07-24'
 name: Virgin Money UK
 nav: Providers
 network: true
-overview: 'Virgin Money UK publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Virgin Money UK publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Virgin Money UK''s developer surface includes authentication, documentation, support, and 22 more developer resources.'
@@ -203,7 +203,7 @@ scopes:
 score:
   band: developing
   composite: 52.1
-  delta: 13.1
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -213,7 +213,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 39.0
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,9 +229,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 88.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Virgin Money Uk Authentication
@@ -247,7 +247,7 @@ security:
   summary_line: security.txt · contact published
 slug: virgin-money-uk
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

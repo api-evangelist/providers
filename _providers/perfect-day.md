@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 16
 apis:
 - description: WordPress REST `categories` resource on perfectday.com.
@@ -254,8 +254,8 @@ image: https://perfectday.com/wp-content/uploads/2022/01/social-share-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: perfect-day-mcp.yml
-  slug: perfect-day-mcpyml
+  name: Perfect Day MCP Server
+  slug: perfect-day-mcp-server
 modified: '2026-08-02'
 name: Perfect Day
 nav: Providers
@@ -268,7 +268,7 @@ random_paper: 16
 score:
   band: thin
   composite: 37.3
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -278,7 +278,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 37.9
+  previous_composite: 37.3
   provenance:
     conformance: derived
     contracts:
@@ -288,8 +288,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -310,7 +310,7 @@ tags:
 - Sustainability
 - Biotechnology
 - Consumer Packaged Goods
-- Content API
+- content-api
 - WordPress
 website: https://perfectday.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The CHCO Council publishes its charter, leadership roster, working group output, policy memoranda, and federal human capital guidance through chcoc.gov (now hosted under opm.gov). The Council does not
@@ -106,7 +106,7 @@ modified: '2026-04-23'
 name: Chief Human Capital Officers Council
 nav: Providers
 network: true
-overview: Chief Human Capital Officers Council publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CHCO, Federal Government, HR Policy, Human Capital, and Human Resources.
+overview: Chief Human Capital Officers Council publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CHCO, Federal-Government, HR Policy, Human Capital, and Human Resources.
 plans:
 - name: Chief Human Capital Officers Plans Pricing
   plan_count: 3
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.7
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -129,15 +129,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.2
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chief-human-capital-officers/refs/heads/main/screenshots/chief-human-capital-officers-2026-06-20T174308.png
 security:
@@ -148,7 +148,7 @@ security:
 slug: chief-human-capital-officers
 tags:
 - CHCO
-- Federal Government
+- Federal-Government
 - HR Policy
 - Human Capital
 - Human Resources

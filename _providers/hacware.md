@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 3
@@ -181,8 +181,8 @@ image: https://hacware.com/img/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: hacware-mcp.yml
-  slug: hacware-mcpyml
+  name: Hacware MCP Server
+  slug: hacware-mcp-server
 modified: '2026-07-19'
 name: Hacware
 nav: Providers
@@ -195,7 +195,7 @@ random_paper: 17
 score:
   band: developing
   composite: 41.9
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 41.8
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +216,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/screenshots/hacware-2026-07-25T220524.png
 security:

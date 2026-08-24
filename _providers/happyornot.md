@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: Endpoints and data definitions related to alert comments which have been written for alerts
@@ -297,8 +297,8 @@ image: https://www.happy-or-not.com/wp-content/uploads/2021/03/HappyOrNot-logo.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: happyornot-mcp.yml
-  slug: happyornot-mcpyml
+  name: HappyOrNot MCP Server
+  slug: happyornot-mcp-server
 modified: '2026-07-19'
 name: HappyOrNot
 nav: Providers
@@ -311,7 +311,7 @@ random_paper: 16
 score:
   band: developing
   composite: 45.8
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -321,7 +321,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.5
+  previous_composite: 45.8
   provenance:
     conformance: derived
     contracts:
@@ -331,8 +331,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/screenshots/happyornot-2026-07-25T220655.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,7 +117,7 @@ modified: '2026-07-21'
 name: Zeroclick
 nav: Providers
 network: true
-overview: 'Zeroclick is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Agent Commerce, Agentic Payments, and API Monetization.
+overview: 'Zeroclick is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agent Commerce, Agentic Payments, and API Monetization.
 
 
   Zeroclick''s developer surface includes documentation, API reference, authentication, and 16 more developer resources.'
@@ -125,7 +125,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 20.6
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -135,7 +135,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 21.7
+  previous_composite: 20.6
   provenance:
     conformance: first-party
   regulatory:
@@ -144,8 +144,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -159,7 +159,7 @@ security:
 slug: zeroclick
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Agent Commerce
 - Agentic Payments
 - API Monetization

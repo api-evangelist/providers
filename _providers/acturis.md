@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -126,7 +126,7 @@ modified: '2026-07-25'
 name: Acturis
 nav: Providers
 network: true
-overview: 'Acturis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Broker, Agency Management, and Policy Administration.
+overview: 'Acturis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Brokers, Agency Management, and Policy Administration.
 
 
   Acturis'' developer surface includes FAQ, engineering blog, and 19 more developer resources.'
@@ -134,7 +134,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 12.5
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -144,7 +144,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 14.2
+  previous_composite: 12.5
   provenance:
     conformance: first-party
   regulatory:
@@ -153,8 +153,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acturis/refs/heads/main/screenshots/acturis-2026-07-25T181537.png
 security:
@@ -166,7 +166,7 @@ slug: acturis
 tags:
 - Insurance
 - United Kingdom
-- Broker
+- Brokers
 - Agency Management
 - Policy Administration
 - Claims

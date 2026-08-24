@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,9 +176,9 @@ examples:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: naic-mcp.yml
-  slug: naic-mcpyml
+- description: No official or third-party hosted NAIC MCP server exists. Searched the NAIC estate (no developer portal, no GitHub organization — github.com/naic is an unrelated personal account with one repo), the M
+  name: NAIC MCP Server
+  slug: naic-mcp-server
 modified: '2026-07-25'
 name: NAIC
 nav: Providers
@@ -191,7 +191,7 @@ random_paper: 12
 score:
   band: thin
   composite: 33.8
-  delta: 7.2
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -201,7 +201,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 26.6
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,9 +218,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png
 security:
 - kind: authentication

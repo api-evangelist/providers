@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tattle describes an open, REST-based API and an API-first design ("Modern REST APIs with comprehensive documentation for custom integrations") enabling two-way data synchronization with restaurant POS
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.0
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
@@ -128,9 +128,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 24.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tattle/refs/heads/main/screenshots/tattle-2026-06-20T194928.png
 security:
@@ -145,6 +145,6 @@ tags:
 - Customer Experience
 - Review Management
 - Analytics
-- Integrations
+- Integration
 website: https://get.tattleapp.com/
 ---

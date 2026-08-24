@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The REST API behind the NeuroFlow Live web and mobile applications, served same-origin from https://neuroflowlive.com/api/ (server: gunicorn, versioned /api/v2/ routes). A Swagger document is publishe'
@@ -95,7 +95,7 @@ modified: '2026-08-04'
 name: NeuroFlow
 nav: Providers
 network: true
-overview: 'NeuroFlow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Behavioral Health, Health Care, Mental Health, and Digital Health.
+overview: 'NeuroFlow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Behavioral Health, Healthcare, Mental Health, and Digital Health.
 
 
   NeuroFlow''s developer surface includes engineering blog, support, and 10 more developer resources.'
@@ -103,7 +103,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 17.0
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -113,7 +113,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 22.2
+  previous_composite: 17.0
   provenance:
     conformance: first-party
   regulatory:
@@ -122,9 +122,9 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuroflow/refs/heads/main/screenshots/neuroflow-2026-08-07T185022.png
 security:
 - kind: domain-security
@@ -135,7 +135,7 @@ slug: neuroflow
 tags:
 - Company
 - Behavioral Health
-- Health Care
+- Healthcare
 - Mental Health
 - Digital Health
 - Care Coordination

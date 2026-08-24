@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-06-20'
 name: Keywords AI
 nav: Providers
 network: true
-overview: 'Keywords AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Evaluators API, Experiments API, and 6 more. Tagged areas include AI, LLM, Observability, Gateway, and Monitoring.
+overview: 'Keywords AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Evaluators API, Experiments API, and 6 more. Tagged areas include Artificial Intelligence, LLM, Observability, Gateway, and Monitoring.
 
 
   The Keywords AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -194,7 +194,7 @@ rules:
 score:
   band: developing
   composite: 42.8
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -204,7 +204,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 47.1
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/screenshots/keywordsai-2026-06-20T184016.png
 security:
@@ -231,7 +231,7 @@ security:
   summary_line: HIPAA, GDPR
 slug: keywordsai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
 - Gateway

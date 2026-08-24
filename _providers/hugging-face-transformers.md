@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 2
@@ -358,13 +358,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hugging-fa
 layout: provider
 mcp_servers:
 - description: ''
-  name: hugging-face-transformers-mcp.yml
-  slug: hugging-face-transformers-mcpyml
+  name: Hugging Face Transformers MCP Server
+  slug: hugging-face-transformers-mcp-server
 modified: '2026-06-20'
 name: Hugging Face Transformers
 nav: Providers
 network: true
-overview: 'Hugging Face Transformers publishes 23 APIs on the [APIs.io](https://apis.io/) network, including agentic-provisioning API, auth API, buckets API, and 20 more. Tagged areas include Artificial Intelligence, Computer Vision, Deep Learning, Machine Learning, and Natural Language Processing.
+overview: 'Hugging Face Transformers publishes 23 APIs on the [APIs.io](https://apis.io/) network, including agentic-provisioning API, auth API, buckets API, and 20 more. Tagged areas include Artificial Intelligence, Computer-Vision, Deep Learning, Machine-Learning, and Natural Language Processing.
 
 
   Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 30 more developer resources.'
@@ -384,18 +384,18 @@ scopes:
   summary_line: 15 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 45.2
-  delta: -0.4
+  composite: 46.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 16.7
     contract_quality: 50.6
     developer_ergonomics: 42.9
-    discoverability: 72.2
+    discoverability: 83.3
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 45.6
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -405,8 +405,8 @@ score:
       marker_coverage: 0.0
       total: 23
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/screenshots/hugging-face-transformers-2026-06-20T182926.png
 security:
@@ -429,11 +429,11 @@ skills:
 slug: hugging-face-transformers
 tags:
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Deep Learning
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
-- Open Source
+- Open-Source
 - Transformers
 website: https://huggingface.co
 ---

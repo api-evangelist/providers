@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,18 +177,18 @@ rules:
   slug: ucsc-genomic-data-rules
 score:
   band: thin
-  composite: 26.7
-  delta: -10.3
+  composite: 27.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 64.9
     developer_ergonomics: 2.4
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 37.0
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     contracts:
@@ -196,9 +196,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsc-genomic-data/refs/heads/main/screenshots/ucsc-genomic-data-2026-06-20T195951.png
 security:
 - kind: domain-security

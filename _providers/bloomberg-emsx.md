@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-05-19'
 name: Bloomberg EMSX
 nav: Providers
 network: true
-overview: 'Bloomberg EMSX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Brokers API, Field Lists API, Fills API, and 3 more. Tagged areas include Bloomberg, Execution Management, Financial Services, Order Management, and Trading.
+overview: 'Bloomberg EMSX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Brokers API, Field Lists API, Fills API, and 3 more. Tagged areas include Bloomberg, Execution Management, Financial-Services, Order Management, and Trading.
 
 
   The Bloomberg EMSX catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -181,7 +181,7 @@ rules:
 score:
   band: developing
   composite: 42.6
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -191,7 +191,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 46.7
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -205,8 +205,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/screenshots/bloomberg-emsx-2026-07-25T203400.png
 security:
@@ -226,7 +226,7 @@ slug: bloomberg-emsx
 tags:
 - Bloomberg
 - Execution Management
-- Financial Services
+- Financial-Services
 - Order Management
 - Trading
 website: https://www.bloomberg.com/professional/

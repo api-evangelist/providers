@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 2
@@ -358,8 +358,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: dataforseo-mcp.yml
-  slug: dataforseo-mcpyml
+  name: DataForSEO MCP Server
+  slug: dataforseo-mcp-server
 modified: '2026-08-13'
 name: DataForSEO
 nav: Providers
@@ -399,7 +399,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.8
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -409,7 +409,7 @@ score:
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 26.3
-  previous_composite: 74.8
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -420,9 +420,9 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/screenshots/dataforseo-2026-06-20T175648.png
 security:
 - kind: authentication
@@ -448,6 +448,6 @@ tags:
 - App Store
 - Business Data
 - AI Optimization
-- Social Media
+- Social-Media
 website: https://dataforseo.com
 ---

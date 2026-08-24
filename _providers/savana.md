@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -131,7 +131,7 @@ modified: '2026-08-05'
 name: Savana
 nav: Providers
 network: true
-overview: 'Savana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial Services, Core Banking, and Digital Banking.
+overview: 'Savana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial-Services, Core Banking, and Digital Banking.
 
 
   Savana''s developer surface includes support, engineering blog, product news, YouTube channel, and 17 more developer resources.'
@@ -139,7 +139,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 15.4
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -149,7 +149,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 17.3
+  previous_composite: 15.4
   provenance:
     conformance: first-party
   regulatory:
@@ -158,8 +158,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -170,13 +170,13 @@ slug: savana
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Core Banking
 - Digital Banking
 - Credit Unions
 - Fintech
 - Account Opening
-- Workflow Automation
+- Workflow-Automation
 - CRM
 - BPM
 - Bank Servicing

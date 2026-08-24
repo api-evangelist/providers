@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -136,22 +136,22 @@ overview: 'Philo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 15
 score:
   band: emerging
-  composite: 19.3
-  delta: -2.3
+  composite: 20.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 21.6
+  previous_composite: 20.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

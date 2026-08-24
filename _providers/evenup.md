@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 6.3
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -102,15 +102,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.0
+  previous_composite: 6.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evenup/refs/heads/main/screenshots/evenup-2026-06-20T180904.png
 security:
@@ -132,9 +132,9 @@ tags:
 - Demand Letters
 - Medical Records
 - AI Drafting
-- Workflow Automation
+- Workflow-Automation
 - Settlement
 - Litigation
-- SaaS
+- Software-as-a-Service
 website: https://www.evenuplaw.com
 ---

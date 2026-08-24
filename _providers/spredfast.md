@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: 'The current Spredfast / Khoros Marketing publishing and content surface — 39 operations covering initiatives, account sets, message publishing and scheduling, the Content Center (assets and folders), '
@@ -204,7 +204,7 @@ modified: '2026-08-13'
 name: Spredfast
 nav: Providers
 network: true
-overview: 'Spredfast publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Conversations API (v2), Conversations API (v1), Analytics Reporting API, and 6 more. Tagged areas include Company, Social Media, Social Media Management, Marketing, and Social Marketing.
+overview: 'Spredfast publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Conversations API (v2), Conversations API (v1), Analytics Reporting API, and 6 more. Tagged areas include Company, Social-Media, Social Media Management, Marketing, and Social Marketing.
 
 
   The Spredfast catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -228,7 +228,7 @@ scopes:
 score:
   band: developing
   composite: 41.3
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -238,7 +238,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 49.3
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -248,9 +248,9 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png
 security:
 - kind: authentication
@@ -272,7 +272,7 @@ security:
 slug: spredfast
 tags:
 - Company
-- Social Media
+- Social-Media
 - Social Media Management
 - Marketing
 - Social Marketing
@@ -280,8 +280,8 @@ tags:
 - Analytics
 - Engagement
 - Content Management
-- Webhooks
-- Events
+- Webhook
+- Event
 - Enterprise
 website: https://developer.khoros.com/khorosmarketingdevdocs
 ---

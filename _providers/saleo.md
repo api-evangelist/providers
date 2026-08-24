@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: SCIM 2.0 (RFC 7643 / RFC 7644) user and group provisioning endpoint for the Saleo platform. Documented for customers through the Saleo Okta Integration Network application, which supports Create Users
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.7
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -176,12 +176,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 32.7
+  previous_composite: 21.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Saleo Authentication

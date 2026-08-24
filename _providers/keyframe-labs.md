@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -186,14 +186,14 @@ description: Keyframe Labs builds real-time foundation models that turn AI voice
 image: https://platform.keyframelabs.com/og.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: keyframe-labs-mcp.yml
-  slug: keyframe-labs-mcpyml
+- description: Candidate MCP server for the Keyframe Sessions API, derived one tool per OpenAPI operation. No official hosted/remote Keyframe MCP server was found at time of writing; this is a proposed tool surface,
+  name: Keyframe Labs MCP Server
+  slug: keyframe-labs-mcp-server
 modified: '2026-07-19'
 name: Keyframe Labs
 nav: Providers
 network: true
-overview: 'Keyframe Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including LLM models API, Meet bots API, Sessions API, and 1 more. Tagged areas include Company, AI, Avatars, Video, and Conversational AI.
+overview: 'Keyframe Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including LLM models API, Meet bots API, Sessions API, and 1 more. Tagged areas include Company, Artificial Intelligence, Avatars, Video, and Conversational AI.
 
 
   Keyframe Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 21 more developer resources.'
@@ -201,7 +201,7 @@ random_paper: 13
 score:
   band: thin
   composite: 39.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.6
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +222,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/screenshots/keyframe-labs-2026-07-25T223654.png
 security:
@@ -238,7 +238,7 @@ security:
 slug: keyframe-labs
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Avatars
 - Video
 - Conversational AI

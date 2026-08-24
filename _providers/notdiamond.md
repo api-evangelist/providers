@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ modified: '2026-06-20'
 name: Not Diamond
 nav: Providers
 network: true
-overview: 'Not Diamond publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Custom Routers API, Feedback API, Model Routing API, and 1 more. Tagged areas include AI, LLM, Model Routing, Router, and Orchestration.
+overview: 'Not Diamond publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Custom Routers API, Feedback API, Model Routing API, and 1 more. Tagged areas include Artificial Intelligence, LLM, Model Routing, Router, and Orchestration.
 
 
   Not Diamond''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -155,7 +155,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.4
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/screenshots/notdiamond-2026-06-20T190525.png
 security:
@@ -178,7 +178,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: notdiamond
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Model Routing
 - Router

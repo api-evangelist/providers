@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -318,14 +318,14 @@ description: Process Street is a no-code workflow and process management platfor
 image: https://www.process.st/wp-content/uploads/2020/09/process-street-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: process-street-mcp.yml
-  slug: process-street-mcpyml
+- description: Official hosted Model Context Protocol server that lets AI assistants and other MCP clients access Process Street workflows, workflow runs, tasks, users, and data sets. The endpoint (https://mcp.proce
+  name: Process Street MCP Server
+  slug: process-street-mcp-server
 modified: '2026-07-20'
 name: Process Street
 nav: Providers
 network: true
-overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Comments API, Data Set Incoming Webhooks API, and 25 more. Tagged areas include Company, Productivity, Workflow, Workflow Automation, and Process Management.
+overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Comments API, Data Set Incoming Webhooks API, and 25 more. Tagged areas include Company, Productivity, Workflows, Workflow-Automation, and Process Management.
 
 
   The Process Street catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -336,7 +336,7 @@ random_paper: 5
 score:
   band: developing
   composite: 46.9
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -346,7 +346,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 53.0
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,9 +357,9 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/screenshots/process-street-2026-08-17T081341.png
 security:
 - kind: authentication
@@ -382,13 +382,13 @@ slug: process-street
 tags:
 - Company
 - Productivity
-- Workflow
-- Workflow Automation
+- Workflows
+- Workflow-Automation
 - Process Management
 - No-Code
 - Business Process
 - Task Management
-- SaaS
+- Software-as-a-Service
 - MCP
 website: https://www.process.st/
 ---

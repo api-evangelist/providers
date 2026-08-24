@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -136,7 +136,7 @@ modified: '2026-08-02'
 name: BostonGene
 nav: Providers
 network: true
-overview: 'BostonGene is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Oncology, Precision Medicine, and Genomics.
+overview: 'BostonGene is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Precision Medicine, and Genomics.
 
 
   BostonGene''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 21 more developer resources.'
@@ -149,7 +149,7 @@ scopes:
 score:
   band: emerging
   composite: 18.5
-  delta: -9.6
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -159,7 +159,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 28.1
+  previous_composite: 18.5
   provenance:
     conformance: first-party
   regulatory:
@@ -168,9 +168,9 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bostongene/refs/heads/main/screenshots/bostongene-2026-08-07T162736.png
 security:
 - kind: authentication
@@ -184,7 +184,7 @@ security:
 slug: bostongene
 tags:
 - Company
-- Health Care
+- Healthcare
 - Oncology
 - Precision Medicine
 - Genomics

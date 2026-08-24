@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,33 +85,33 @@ modified: '2026-07-20'
 name: Propel
 nav: Providers
 network: true
-overview: 'Propel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Government Benefits, and SNAP.
+overview: 'Propel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial-Services, Government Benefits, and SNAP.
 
 
   Propel''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 15.0
-  delta: -0.6
+  composite: 16.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 15.6
+  previous_composite: 16.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -126,7 +126,7 @@ slug: propel
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Government Benefits
 - SNAP
 - EBT

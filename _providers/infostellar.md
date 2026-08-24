@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public gRPC API for the StellarStation ground-station-as-a-service platform. Lets satellite operators list upcoming available passes, reserve and cancel plans, add and retrieve TLE orbital data, set p
@@ -127,8 +127,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infostella
 layout: provider
 mcp_servers:
 - description: ''
-  name: infostellar-mcp.yml
-  slug: infostellar-mcpyml
+  name: Infostellar MCP Server
+  slug: infostellar-mcp-server
 modified: '2026-07-19'
 name: Infostellar
 nav: Providers
@@ -141,7 +141,7 @@ random_paper: 11
 score:
   band: thin
   composite: 27.0
-  delta: 7.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -151,14 +151,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 19.7
+  previous_composite: 27.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infostellar/refs/heads/main/screenshots/infostellar-2026-07-25T222423.png
 security:
 - kind: authentication

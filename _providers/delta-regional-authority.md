@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -73,7 +73,7 @@ modified: '2026-07-25'
 name: Delta Regional Authority
 nav: Providers
 network: true
-overview: 'Delta Regional Authority is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Economic Development, Federal Government, Grants, Mississippi River, and Regional Authority.
+overview: 'Delta Regional Authority is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Economic Development, Federal-Government, Grants, Mississippi River, and Regional Authority.
 
 
   Delta Regional Authority''s developer surface includes product news, engineering blog, and 5 more developer resources.'
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -99,15 +99,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 9.8
+  previous_composite: 8.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delta-regional-authority/refs/heads/main/screenshots/delta-regional-authority-2026-06-20T175906.png
 security:
@@ -118,7 +118,7 @@ security:
 slug: delta-regional-authority
 tags:
 - Economic Development
-- Federal Government
+- Federal-Government
 - Grants
 - Mississippi River
 - Regional Authority

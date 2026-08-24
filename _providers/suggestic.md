@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API for personalized nutrition — users, programs/diets, meal-plan generation, recipe and restaurant search, food logging (incl. AI food log), shopping lists, health trackers, lab tests/biomark
@@ -167,8 +167,8 @@ image: https://suggestic.com/assets/images/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: suggestic-mcp.yml
-  slug: suggestic-mcpyml
+  name: Suggestic MCP Server
+  slug: suggestic-mcp-server
 modified: '2026-07-21'
 name: Suggestic
 nav: Providers
@@ -184,7 +184,7 @@ random_paper: 8
 score:
   band: developing
   composite: 46.8
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -194,7 +194,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 45.0
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -205,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/screenshots/suggestic-2026-08-17T082152.png
 security:

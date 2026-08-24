@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Apache Beam SDK provides the programming model for constructing data processing pipelines. Available in Java, Python, and Go, it provides PCollections, PTransforms, and Runners for batch and strea
@@ -168,7 +168,7 @@ modified: '2026-04-19'
 name: Apache Beam
 nav: Providers
 network: true
-overview: 'Apache Beam publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Batch Processing, Data Pipeline, ETL, and Open Source.
+overview: 'Apache Beam publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Batch Processing, Data Pipeline, ETL, and Open-Source.
 
 
   Apache Beam''s developer surface includes documentation, getting-started guide, support, changelog, engineering blog, and 15 more developer resources.'
@@ -184,7 +184,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.6
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -194,9 +194,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 23.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-beam/refs/heads/main/screenshots/apache-beam-2026-06-20T172044.png
 security:
@@ -214,7 +214,7 @@ tags:
 - Batch Processing
 - Data Pipeline
 - ETL
-- Open Source
+- Open-Source
 - Python
 - Streaming
 - Unified Model

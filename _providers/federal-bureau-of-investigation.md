@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ modified: '2026-05-19'
 name: Federal Bureau of Investigation
 nav: Providers
 network: true
-overview: 'Federal Bureau of Investigation publishes 1 API on the [APIs.io](https://apis.io/) network: List API. Tagged areas include FBI and Federal Government.
+overview: 'Federal Bureau of Investigation publishes 1 API on the [APIs.io](https://apis.io/) network: List API. Tagged areas include FBI and Federal-Government.
 
 
   Federal Bureau of Investigation''s developer surface includes documentation and 5 more developer resources.'
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.7
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -119,7 +119,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 23.3
+  previous_composite: 19.7
   provenance:
     agentic_access: derived
     contracts:
@@ -133,8 +133,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/screenshots/federal-bureau-of-investigation-2026-06-20T181110.png
 security:
@@ -145,6 +145,6 @@ security:
 slug: federal-bureau-of-investigation
 tags:
 - FBI
-- Federal Government
+- Federal-Government
 website: https://www.fbi.gov/
 ---

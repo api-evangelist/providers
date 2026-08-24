@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The PayPro Global API lets merchants manage subscriptions, payments, orders, customers, products, and webhooks for their Merchant of Record ecommerce flows.
@@ -89,7 +89,7 @@ modified: '2026-04-28'
 name: PayPro Global
 nav: Providers
 network: true
-overview: 'PayPro Global publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Merchant of Record, Payments, SaaS, and Subscription Billing.
+overview: 'PayPro Global publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Merchant of Record, Payments, Software-as-a-Service, and Subscription Billing.
 
 
   PayPro Global''s developer surface includes documentation, pricing, and 8 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.1
-  delta: -9.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -115,16 +115,16 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 23.4
+  previous_composite: 14.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypro-global/refs/heads/main/screenshots/paypro-global-2026-06-20T191506.png
 security:
 - kind: domain-security
@@ -140,7 +140,7 @@ tags:
 - E-Commerce
 - Merchant of Record
 - Payments
-- SaaS
+- Software-as-a-Service
 - Subscription Billing
 - Tax Compliance
 website: https://payproglobal.com/

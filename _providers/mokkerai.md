@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Early-access v2 REST API that replaces product-photo backgrounds with AI-generated scenes and upscales images — the same functionality as the Mokker web app. Documented with a POST /v2/replace-backgro
@@ -78,8 +78,8 @@ image: https://framerusercontent.com/assets/xdLOSfokuQlszbASX5TOpMKlZw.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: mokkerai-mcp.yml
-  slug: mokkerai-mcpyml
+  name: Mokker.ai MCP Server
+  slug: mokkerai-mcp-server
 modified: '2026-07-20'
 name: Mokker.ai
 nav: Providers
@@ -92,7 +92,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 19.9
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -102,11 +102,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.6
+  previous_composite: 19.9
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mokkerai/refs/heads/main/screenshots/mokkerai-2026-08-07T184055.png
 security:
@@ -122,7 +122,7 @@ tags:
 - Product Photography
 - E-Commerce
 - Background Removal
-- Computer Vision
+- Computer-Vision
 - Generative AI
 website: https://mokker.ai
 ---

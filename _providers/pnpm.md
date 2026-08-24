@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The pnpm command-line interface for managing JavaScript/Node.js packages. Provides commands for installing, updating, and removing dependencies; running package scripts; executing one-off packages via
@@ -216,7 +216,7 @@ modified: '2026-05-25'
 name: pnpm
 nav: Providers
 network: true
-overview: 'pnpm publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Node.js, Package Manager, Monorepo, JavaScript, and Open Source.
+overview: 'pnpm publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Node.js, Package Manager, Monorepo, JavaScript, and Open-Source.
 
 
   pnpm''s developer surface includes developer portal, getting-started guide, documentation, release notes, legal docs, changelog, support, and 20 more developer resources.'
@@ -224,7 +224,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 20.4
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -240,9 +240,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 19.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pnpm/refs/heads/main/screenshots/pnpm-2026-06-20T191821.png
 security:
@@ -256,7 +256,7 @@ tags:
 - Package Manager
 - Monorepo
 - JavaScript
-- Open Source
+- Open-Source
 - Developer Tools
 - Dependency Management
 - CLI

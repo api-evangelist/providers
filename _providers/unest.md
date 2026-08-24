@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: UNest
 nav: Providers
 network: true
-overview: 'UNest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Investing, Custodial Accounts, and Savings.
+overview: 'UNest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Custodial Accounts, and Savings.
 
 
   UNest''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 12.6
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -98,15 +98,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ security:
 slug: unest
 tags:
 - Company
-- FinTech
+- Fintech
 - Investing
 - Custodial Accounts
 - Savings

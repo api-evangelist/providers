@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -115,7 +115,7 @@ random_paper: 13
 score:
   band: thin
   composite: 30.5
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -125,11 +125,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 33.7
+  previous_composite: 30.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amie/refs/heads/main/screenshots/amie-2026-07-25T200056.png
 security:
@@ -146,7 +146,7 @@ tags:
 - Meetings
 - AI Assistant
 - Scheduling
-- Tasks
+- Task
 - Notes
 - MCP
 website: https://www.amie.so/

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Low-latency WebSocket feed (service-mango-fills) that parses Mango V4 Perp and Openbook event queues and emits individual fill events as they are processed by the validator. Supports getMarkets discov
@@ -98,7 +98,7 @@ rules:
 score:
   band: emerging
   composite: 15.4
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -114,16 +114,16 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 22.2
+  previous_composite: 15.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 slug: mango-markets
 tags:
 - Cryptocurrency
@@ -132,7 +132,7 @@ tags:
 - Perpetual Futures
 - Spot
 - Margin
-- Orderbook
+- Order Book
 - Fills
 - Market Data
 - WebSocket

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ collections:
   name: Apptio Technology Business Management Budgets Reports API
   slug: open-apptio-reports-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -125,7 +129,7 @@ jsonld:
   property_count: 0
   slug: apptio-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-21'
 name: Apptio
 nav: Providers
 network: true
@@ -135,7 +139,7 @@ overview: 'Apptio publishes 3 APIs on the [APIs.io](https://apis.io/) network: B
   The Apptio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apptio''s developer surface includes authentication, documentation, engineering blog, signup flow, and 5 more developer resources.'
+  Apptio''s developer surface includes authentication, documentation, engineering blog, signup flow, and 6 more developer resources.'
 plans:
 - name: Apptio Plans Pricing
   plan_count: 3
@@ -169,18 +173,18 @@ rules:
   slug: apptio-spectral-rules
 score:
   band: thin
-  composite: 35.2
-  delta: -7.8
+  composite: 35.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 69.9
     developer_ergonomics: 19.0
     discoverability: 55.6
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 43.0
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -188,9 +192,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/screenshots/apptio-2026-06-20T172335.png
 security:
 - kind: authentication

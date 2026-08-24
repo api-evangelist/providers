@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -149,8 +149,8 @@ image: https://cdn.prod.website-files.com/619acca858666ac6759d6e31/61d79c66ae466
 layout: provider
 mcp_servers:
 - description: ''
-  name: curai-mcp.yml
-  slug: curai-mcpyml
+  name: Curai MCP Server
+  slug: curai-mcp-server
 modified: '2026-07-18'
 name: Curai
 nav: Providers
@@ -163,7 +163,7 @@ random_paper: 7
 score:
   band: thin
   composite: 37.5
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -173,7 +173,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 34.4
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,8 +190,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/screenshots/curai-2026-07-25T210929.png
 security:

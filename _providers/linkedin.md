@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -3024,8 +3024,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: linkedin-mcp.yml
-  slug: linkedin-mcpyml
+  name: LinkedIn MCP Server
+  slug: linkedin-mcp-server
 modified: '2026-08-13'
 name: LinkedIn
 nav: Providers
@@ -3073,13 +3073,13 @@ rules:
     info: 2
     warn: 3
   slug: linkedin-jsonschema-spectral-rules
-- effective_rule_count: 69
+- effective_rule_count: 68
   extends:
   - spectral:oas
   name: LinkedIn API Rules
-  rule_count: 28
+  rule_count: 27
   severity_counts:
-    error: 15
+    error: 14
     hint: 0
     info: 3
     warn: 10
@@ -3091,18 +3091,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 75.3
-  delta: -3.7
+  composite: 75.7
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 80.2
     developer_ergonomics: 87.5
     discoverability: 87.0
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 71.1
-  previous_composite: 79.0
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -3113,8 +3113,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:
@@ -3156,7 +3156,7 @@ tags:
 - Marketing
 - Professional Networking
 - Recruiting
-- Social Media
+- Social-Media
 - Fortune 1000
 use_cases:
 - description: Implement Sign In with LinkedIn for professional identity verification and streamlined authentication.

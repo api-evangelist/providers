@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Enterprise AI Gateway that makes applications agent-ready through governed Model Context Protocol integration. Register a REST API from its OpenAPI spec (or proxy a third-party remote MCP server) and '
@@ -140,14 +140,14 @@ description: Cequence Security (cequence.ai) is an application, API, and AI prot
 image: https://www.cequence.ai/wp-content/uploads/2022/05/Cequence_logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: cequence-security-mcp.yml
-  slug: cequence-security-mcpyml
+- description: First-party, Cequence-hosted MCP server to manage the AI Gateway from any agent — create MCP servers, agent personas, skills, and DLP policies. Provisioned automatically for every tenant.
+  name: Cequence AI Gateway MCP
+  slug: cequence-ai-gateway-mcp
 modified: '2026-08-02'
 name: Cequence Security
 nav: Providers
 network: true
-overview: 'Cequence Security publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include api-security, ai-gateway, model-context-protocol, agentic-ai, and bot-management.
+overview: 'Cequence Security publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Security, AI Gateway, MCP, Agentic AI, and Bot Management.
 
 
   Cequence Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 20 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.3
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -169,13 +169,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 38.5
+  previous_composite: 36.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cequence-security/refs/heads/main/screenshots/cequence-security-2026-08-07T163243.png
 security:
@@ -197,17 +197,17 @@ security:
   summary_line: SOC 2 Type 2, PCI DSS v4.0.1, ISO/IEC 27001:2022
 slug: cequence-security
 tags:
-- api-security
-- ai-gateway
-- model-context-protocol
-- agentic-ai
-- bot-management
-- api-discovery
-- api-governance
-- fraud-detection
-- waap
-- cybersecurity
-- api-testing
+- API Security
+- AI Gateway
+- MCP
+- Agentic AI
+- Bot Management
+- API Discovery
+- API Governance
+- Fraud Detection
+- WAAP
+- Cybersecurity
+- API Testing
 - agent-native
 website: https://www.cequence.ai/
 ---

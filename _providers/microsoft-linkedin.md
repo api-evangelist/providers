@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -277,9 +277,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-linkedin.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: microsoft-linkedin-mcp.yml
-  slug: microsoft-linkedin-mcpyml
+- description: LinkedIn publishes no MCP server. Every LinkedIn MCP server in circulation is community-built on top of either the public API or the unofficial Voyager endpoints. The tool list below is an API Evangel
+  name: Microsoft LinkedIn MCP Server
+  slug: microsoft-linkedin-mcp-server
 modified: '2026-08-13'
 name: Microsoft LinkedIn
 nav: Providers
@@ -308,7 +308,7 @@ scopes:
 score:
   band: strong
   composite: 64.5
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -318,7 +318,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 64.1
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -329,8 +329,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/screenshots/microsoft-linkedin-2026-06-20T185506.png
 security:

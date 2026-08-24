@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Appify platform's tenant-facing REST API. Appify's public pricing page lists "REST API access" among the standard capabilities included in a subscription. The API is served from the platform appli
@@ -91,7 +91,7 @@ modified: '2026-08-06'
 name: Appify
 nav: Providers
 network: true
-overview: 'Appify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application Development, No Code, Low Code, and Enterprise Software.
+overview: 'Appify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application Development, No-Code, Low-Code, and Enterprise Software.
 
 
   Appify''s developer surface includes pricing and 8 more developer resources.'
@@ -99,7 +99,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 13.1
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -109,9 +109,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appify/refs/heads/main/screenshots/appify-2026-08-07T161502.png
 security:
@@ -123,10 +123,10 @@ slug: appify
 tags:
 - Company
 - Application Development
-- No Code
-- Low Code
+- No-Code
+- Low-Code
 - Enterprise Software
-- Workflow Automation
+- Workflow-Automation
 - Artificial Intelligence
 - Integration
 - Field Service

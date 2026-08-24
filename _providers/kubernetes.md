@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -444,13 +444,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: kubernetes-mcp.yml
-  slug: kubernetes-mcpyml
+  name: Kubernetes MCP Server
+  slug: kubernetes-mcp-server
 modified: '2026-06-20'
 name: Kubernetes
 nav: Providers
 network: true
-overview: 'Kubernetes publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Autoscaling API, Cluster API, Config API, and 4 more. Tagged areas include Automation, Cloud Native, CNCF, Containers, and Deployment.
+overview: 'Kubernetes publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Autoscaling API, Cluster API, Config API, and 4 more. Tagged areas include Automation, Cloud-Native, CNCF, Containers, and Deployment.
 
 
   The Kubernetes catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -490,18 +490,18 @@ rules:
   slug: kubernetes-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.0
-  delta: -2.3
+  composite: 56.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 28.0
+    contract_governance: 30.3
     contract_quality: 82.5
     developer_ergonomics: 59.5
     discoverability: 81.5
-    governance: 28.0
+    governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 58.3
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -511,8 +511,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:
@@ -531,11 +531,11 @@ security:
 slug: kubernetes
 tags:
 - Automation
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Containers
 - Deployment
-- Open Source
+- Open-Source
 - Orchestration
 - Scaling
 website: https://kubernetes.io/

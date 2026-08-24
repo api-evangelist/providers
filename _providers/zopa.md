@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -239,8 +239,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zopa.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: zopa-mcp.yml
-  slug: zopa-mcpyml
+  name: zopa MCP Server
+  slug: zopa-mcp-server
 modified: '2026-07-21'
 name: zopa
 nav: Providers
@@ -257,18 +257,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 42.6
-  delta: -2.8
+  composite: 43.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
     contract_quality: 51.7
     developer_ergonomics: 38.7
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 5.3
-  previous_composite: 45.4
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +285,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/screenshots/zopa-2026-08-17T083118.png
 security:

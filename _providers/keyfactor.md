@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -122,9 +122,9 @@ description: Keyfactor is a machine-identity and PKI (public key infrastructure)
 image: https://www.keyfactor.com/wp-content/uploads/keyfactor-logo-dark.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: keyfactor-mcp.yml
-  slug: keyfactor-mcpyml
+- description: Experimental preview MCP (Model Context Protocol) server that enables agentic-AI integration with Keyfactor Command. Built on the Keyfactor Analytics & AI team's Python SDK. Published under the keyfac
+  name: Keyfactor MCP Server
+  slug: keyfactor-mcp-server
 modified: '2026-07-19'
 name: Keyfactor
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 2
 score:
   band: thin
   composite: 30.4
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -147,12 +147,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 30.7
+  previous_composite: 30.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyfactor/refs/heads/main/screenshots/keyfactor-2026-07-25T223653.png
 security:

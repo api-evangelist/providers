@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -335,13 +335,13 @@ image: https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/670954c541fe7
 layout: provider
 mcp_servers:
 - description: ''
-  name: roboflow-mcp.yml
-  slug: roboflow-mcpyml
+  name: Roboflow MCP Server
+  slug: roboflow-mcp-server
 modified: '2026-08-02'
 name: Roboflow
 nav: Providers
 network: true
-overview: 'Roboflow publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Clip API, Dashboard.html API, Doctr API, and 21 more. Tagged areas include Computer Vision, Machine Learning, Artificial Intelligence, Object Detection, and Image Annotation.
+overview: 'Roboflow publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Clip API, Dashboard.html API, Doctr API, and 21 more. Tagged areas include Computer-Vision, Machine-Learning, Artificial Intelligence, Object Detection, and Image Annotation.
 
 
   Roboflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -358,7 +358,7 @@ scopes:
 score:
   band: strong
   composite: 58.1
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -368,7 +368,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 59.0
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,8 +379,8 @@ score:
       total: 24
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/screenshots/roboflow-2026-08-17T081621.png
 security:
@@ -398,8 +398,8 @@ security:
   summary_line: SOC 2, HIPAA
 slug: roboflow
 tags:
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Artificial Intelligence
 - Object Detection
 - Image Annotation

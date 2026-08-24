@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-05-30'
 name: Ideogram
 nav: Providers
 network: true
-overview: 'Ideogram publishes 4 APIs on the [APIs.io](https://apis.io/) network, including subpackage_datasets API, subpackage_generate API, subpackage_models API, and 1 more. Tagged areas include AI, Image Generation, Text, Realistic, and Editing.
+overview: 'Ideogram publishes 4 APIs on the [APIs.io](https://apis.io/) network, including subpackage_datasets API, subpackage_generate API, subpackage_models API, and 1 more. Tagged areas include Artificial Intelligence, Image-Generation, Text, Realistic, and Editing.
 
 
   Ideogram''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.9
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -159,7 +159,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 30.5
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/screenshots/ideogram-2026-06-20T183206.png
 security:
@@ -182,8 +182,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: ideogram
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - Text
 - Realistic
 - Editing

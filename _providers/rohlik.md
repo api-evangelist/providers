@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Official hosted Model Context Protocol server for Rohlik online grocery. Search the catalog, manage a cart, discover recipes, track and repeat orders, manage shopping lists, and reach customer service
@@ -126,14 +126,14 @@ description: Rohlik (Rohlik Group) is a European online grocery service founded 
 image: https://cdn.rohlik.cz/images/company/rohlik-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: rohlik-mcp.yml
-  slug: rohlik-mcpyml
+- description: Official hosted Model Context Protocol server for the Rohlik online grocery service. Lets an MCP client search the Rohlik catalog, build and manage a cart, discover recipes, review and repeat past ord
+  name: Rohlik MCP Server
+  slug: rohlik-mcp-server
 modified: '2026-07-21'
 name: Rohlik
 nav: Providers
 network: true
-overview: 'Rohlik publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Grocery, E-commerce, and Delivery.
+overview: 'Rohlik publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Grocery, E-Commerce, and Delivery.
 
 
   Rohlik''s developer surface includes documentation, authentication, support, pricing, and 17 more developer resources.'
@@ -146,7 +146,7 @@ scopes:
 score:
   band: emerging
   composite: 25.4
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -156,12 +156,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 26.8
+  previous_composite: 25.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -181,11 +181,11 @@ tags:
 - Company
 - Retail
 - Grocery
-- E-commerce
+- E-Commerce
 - Delivery
 - Logistics
 - MCP
-- OAuth
+- Authentication
 - Europe
 website: http://rohlik.cz
 ---

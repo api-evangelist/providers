@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for accessing and administrating all Chatmeter platform data including location listings, review management, social monitoring, surveys, and user administration. Uses JSON Web Token (JWT) aut
@@ -156,13 +156,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: chatmeter-mcp.yml
-  slug: chatmeter-mcpyml
+  name: Chatmeter MCP
+  slug: chatmeter-mcp
 modified: '2026-08-13'
 name: Chatmeter
 nav: Providers
 network: true
-overview: 'Chatmeter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Reputation Management, Local SEO, Listings Management, Review Management, and Social Media.
+overview: 'Chatmeter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Reputation Management, Local SEO, Listings Management, Review Management, and Social-Media.
 
 
   The Chatmeter catalog on APIs.io includes 1 JSON-LD context.
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.7
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -191,12 +191,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 37.2
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/screenshots/chatmeter-2026-06-20T174238.png
 security:
@@ -214,7 +214,7 @@ tags:
 - Local SEO
 - Listings Management
 - Review Management
-- Social Media
+- Social-Media
 - Multi-Location
 - Competitive Intelligence
 website: https://www.chatmeter.com

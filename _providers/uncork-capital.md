@@ -30,7 +30,7 @@ tags:
 - Infrastructure
 - Fintech
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Consumer
 - San Francisco
 - United States

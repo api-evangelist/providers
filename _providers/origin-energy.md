@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -277,8 +277,8 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: origin-energy-mcp.yml
-  slug: origin-energy-mcpyml
+  name: Origin Energy MCP Server
+  slug: origin-energy-mcp-server
 modified: '2026-07-27'
 name: Origin Energy
 nav: Providers
@@ -303,7 +303,7 @@ scopes:
 score:
   band: strong
   composite: 54.7
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -313,7 +313,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 84.2
-  previous_composite: 60.8
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -330,9 +330,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/screenshots/origin-energy-2026-08-07T190934.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-07-10'
 name: Bold Commerce
 nav: Providers
 network: true
-overview: 'Bold Commerce publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Customers API, Price Rules API, and 3 more. Tagged areas include E-Commerce, Subscriptions, Checkout, Pricing, and Headless Commerce.
+overview: 'Bold Commerce publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Customers API, Price Rules API, and 3 more. Tagged areas include E-Commerce, Subscription, Checkout, Pricing, and Headless Commerce.
 
 
   Bold Commerce''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -161,7 +161,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.1
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -171,7 +171,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/screenshots/bold-commerce-2026-07-25T203530.png
 security:
@@ -205,7 +205,7 @@ security:
 slug: bold-commerce
 tags:
 - E-Commerce
-- Subscriptions
+- Subscription
 - Checkout
 - Pricing
 - Headless Commerce

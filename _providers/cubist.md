@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 13
@@ -351,8 +351,8 @@ image: https://cdn.prod.website-files.com/638a2693daaf8527290065a3/684c2782072fa
 layout: provider
 mcp_servers:
 - description: ''
-  name: cubist-mcp.yml
-  slug: cubist-mcpyml
+  name: Cubist MCP Server
+  slug: cubist-mcp-server
 modified: '2026-07-18'
 name: Cubist
 nav: Providers
@@ -370,7 +370,7 @@ scopes:
 score:
   band: developing
   composite: 51.2
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -380,7 +380,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 48.5
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -397,8 +397,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/screenshots/cubist-2026-07-25T210859.png
 security:

@@ -34,7 +34,7 @@ tags:
 - B2B
 - Infrastructure
 - Semiconductors
-- HealthTech
+- Health Tech
 - Consumer
 - Developer Tools
 - San Francisco

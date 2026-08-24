@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 23
 apis:
 - description: Addresses resource.
@@ -290,8 +290,8 @@ image: https://avatars.githubusercontent.com/scienceexchange
 layout: provider
 mcp_servers:
 - description: ''
-  name: science-exchange-mcp.yml
-  slug: science-exchange-mcpyml
+  name: Science Exchange MCP Server
+  slug: science-exchange-mcp-server
 modified: '2026-07-21'
 name: Science Exchange
 nav: Providers
@@ -304,7 +304,7 @@ random_paper: 14
 score:
   band: developing
   composite: 46.9
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -314,7 +314,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 44.3
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     contracts:
@@ -330,8 +330,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/screenshots/science-exchange-2026-08-17T081734.png
 security:
@@ -358,6 +358,5 @@ tags:
 - Supplier Management
 - Biotech
 - Pharmaceuticals
-- API
 website: https://www.scienceexchange.com
 ---

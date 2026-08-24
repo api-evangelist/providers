@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Phi is a biomodal computation platform for protein design. The REST API lets a caller create datasets from PDB/CIF structures, submit structure-prediction and sequence-design jobs across twenty biomod
@@ -176,9 +176,9 @@ description: 'Dyno Therapeutics is an AI and biotechnology company building high
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dyno.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: dyno-mcp.yml
-  slug: dyno-mcpyml
+- description: 'Dyno publishes NO MCP server. This file is an API Evangelist CANDIDATE tool surface derived from the provider''s OpenAPI, offered as a design sketch — it is NOT wired as a type: MCPServer pointer in ap'
+  name: Dyno MCP Server
+  slug: dyno-mcp-server
 modified: '2026-08-10'
 name: Dyno
 nav: Providers
@@ -199,7 +199,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.8
-  delta: 5.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -209,7 +209,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 45.2
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -225,9 +225,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/screenshots/dyno-2026-08-17T080911.png
 security:
 - kind: authentication
@@ -247,7 +247,7 @@ tags:
 - Gene Delivery
 - AAV Capsid
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Drug Discovery
 - Healthcare
 - Protein Design

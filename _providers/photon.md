@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -219,8 +219,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: photon-mcp.yml
-  slug: photon-mcpyml
+  name: Photon MCP Server
+  slug: photon-mcp-server
 modified: '2026-07-24T18:00:00Z'
 name: Photon
 nav: Providers
@@ -249,7 +249,7 @@ scopes:
 score:
   band: strong
   composite: 59.2
-  delta: 4.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -259,7 +259,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 54.5
+  previous_composite: 59.2
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -271,8 +271,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/screenshots/photon-2026-08-17T081212.png
 security:
@@ -299,6 +299,6 @@ tags:
 - Clinical API
 - Digital Health
 - Benefit Check
-- OAuth2
+- Authentication
 website: https://photonhealth.com/
 ---

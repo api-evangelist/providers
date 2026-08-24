@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ scopes:
 score:
   band: developing
   composite: 45.5
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -192,7 +192,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 41.0
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -209,8 +209,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/screenshots/con-edison-2026-08-07T163921.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -306,8 +306,8 @@ image: https://scope3.com/og-default.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: scope3-mcp.yml
-  slug: scope3-mcpyml
+  name: Scope3 MCP Server
+  slug: scope3-mcp-server
 modified: '2026-08-13'
 name: Scope3
 nav: Providers
@@ -336,7 +336,7 @@ scopes:
 score:
   band: strong
   composite: 65.5
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -346,7 +346,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 67.2
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -357,8 +357,8 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/screenshots/scope3-2026-08-17T080422.png
 security:
@@ -378,7 +378,7 @@ tags:
 - Carbon Emissions
 - Sustainability
 - AdTech
-- Measurement
+- Measurements
 - Artificial Intelligence
 - Agentic
 - AdCP

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-20'
 name: Plume (fka Plume Design)
 nav: Providers
 network: true
-overview: 'Plume (fka Plume Design) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, WiFi, Networking, and ISP.
+overview: 'Plume (fka Plume Design) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Wi-Fi, Networking, and ISP.
 
 
   Plume (fka Plume Design)''s developer surface includes documentation, getting-started guide, support, and 14 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 24.0
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -126,9 +126,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 23.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 24.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -147,7 +147,7 @@ slug: plume-fka-plume-design
 tags:
 - Company
 - Smart Home
-- WiFi
+- Wi-Fi
 - Networking
 - ISP
 - Connectivity

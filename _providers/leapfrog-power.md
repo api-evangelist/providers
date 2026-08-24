@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 9
@@ -259,8 +259,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: leapfrog-power-mcp.yml
-  slug: leapfrog-power-mcpyml
+  name: Leap MCP Server
+  slug: leap-mcp-server
 modified: '2026-07-27'
 name: Leap
 nav: Providers
@@ -276,7 +276,7 @@ random_paper: 1
 score:
   band: developing
   composite: 45.0
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -286,7 +286,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 49.6
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,8 +303,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/screenshots/leapfrog-power-2026-08-07T171518.png
 security:

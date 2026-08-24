@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -763,18 +763,18 @@ rules:
   slug: contentstack-rules
 score:
   band: thin
-  composite: 36.5
-  delta: -2.7
+  composite: 36.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 79.5
     developer_ergonomics: 11.9
     discoverability: 50.0
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 39.2
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -786,8 +786,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png
 security:

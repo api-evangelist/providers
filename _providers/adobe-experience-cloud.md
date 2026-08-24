@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -1490,9 +1490,9 @@ jsonld:
   slug: adobe-experience-cloud-target-api-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: adobe-experience-cloud-mcp.yml
-  slug: adobe-experience-cloud-mcpyml
+- description: 'Adobe ships REMOTE, Adobe-hosted MCP servers for Experience Cloud. There are three distinct hosts: aa-mcp.adobe.io (Adobe Analytics), cja-mcp.adobe.io (Customer Journey Analytics), and mcp.adobeaemclo'
+  name: Adobe Experience Cloud MCP Server
+  slug: adobe-experience-cloud-mcp-server
 modified: '2026-08-13'
 name: Adobe Experience Cloud
 nav: Providers
@@ -1553,18 +1553,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.6
-  delta: -8.8
+  composite: 63.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 77.0
     developer_ergonomics: 73.8
     discoverability: 75.9
-    governance: 43.2
+    governance: 45.5
     operational_transparency: 52.6
-  previous_composite: 72.4
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1575,9 +1575,9 @@ score:
       total: 35
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/screenshots/adobe-experience-cloud-2026-06-20T164907.png
 security:
 - kind: authentication

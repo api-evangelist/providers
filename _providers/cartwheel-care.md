@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -65,7 +65,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 9.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -81,15 +81,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 11.6
+  previous_composite: 9.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartwheel-care/refs/heads/main/screenshots/cartwheel-care-2026-07-25T204703.png
 slug: cartwheel-care

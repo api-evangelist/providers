@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API (v1) for integration partners to synchronize property-management data with Yuhu: companies, sites/projects, buildings, unit types, units, site staff, roles and permissions, leases, tenants, s'
@@ -131,13 +131,13 @@ image: https://cdn.prod.website-files.com/6414ce4dcbfbc386d105ceb9/64784cb7f5cd8
 layout: provider
 mcp_servers:
 - description: ''
-  name: yuhu-mcp.yml
-  slug: yuhu-mcpyml
+  name: Yuhu MCP Server
+  slug: yuhu-mcp-server
 modified: '2026-07-21'
 name: Yuhu
 nav: Providers
 network: true
-overview: 'Yuhu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, PropTech, Real Estate, and Multifamily.
+overview: 'Yuhu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, PropTech, Real-Estate, and Multifamily.
 
 
   Yuhu''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 15 more developer resources.'
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.9
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -159,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 34.6
+  previous_composite: 29.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -169,8 +169,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -186,9 +186,9 @@ tags:
 - Company
 - Property Management
 - PropTech
-- Real Estate
+- Real-Estate
 - Multifamily
-- Rental
+- Rentals
 - Leasing
 - Payments
 - Partners API

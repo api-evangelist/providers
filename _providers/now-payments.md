@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ modified: '2026-06-13'
 name: NOWPayments
 nav: Providers
 network: true
-overview: 'NOWPayments publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Mass Payouts API, Authentication API, Currencies API, and 5 more. Tagged areas include Crypto Payments, Cryptocurrency, Payment Gateway, Invoicing, and Subscriptions.
+overview: 'NOWPayments publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Mass Payouts API, Authentication API, Currencies API, and 5 more. Tagged areas include Crypto Payments, Cryptocurrency, Payment Gateway, Invoicing, and Subscription.
 
 
   The NOWPayments catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -223,7 +223,7 @@ rules:
 score:
   band: thin
   composite: 35.9
-  delta: -10.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -233,7 +233,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 46.3
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -247,9 +247,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/screenshots/now-payments-2026-06-20T190442.png
 security:
 - kind: authentication
@@ -266,7 +266,7 @@ tags:
 - Cryptocurrency
 - Payment Gateway
 - Invoicing
-- Subscriptions
+- Subscription
 - Mass Payouts
 - Bitcoin
 - Ethereum

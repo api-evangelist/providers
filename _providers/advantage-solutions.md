@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -148,8 +148,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/advantage-
 layout: provider
 mcp_servers:
 - description: ''
-  name: advantage-solutions-mcp.yml
-  slug: advantage-solutions-mcpyml
+  name: Advantage Solutions MCP Server
+  slug: advantage-solutions-mcp-server
 modified: '2026-08-13'
 name: Advantage Solutions
 nav: Providers
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.9
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -180,7 +180,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 39.3
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,8 +191,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png
 security:

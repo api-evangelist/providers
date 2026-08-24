@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth2 / OpenID-Connect secured API to discover bookable resources and book and manage patient appointments for a clinic. Versioned in the URL path (booking v3, auth v2).
@@ -125,18 +125,18 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 29.4
-  delta: 2.7
+  composite: 30.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 26.7
+  previous_composite: 30.5
   provenance:
     conformance: first-party
   regulatory:
@@ -145,8 +145,8 @@ score:
     regime: Health
     regime_id: health
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -165,7 +165,7 @@ tags:
 - Appointments
 - Booking
 - Patient Engagement
-- OAuth
+- Authentication
 - FHIR
 - Telemedicine
 - Germany

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ modified: '2026-05-19'
 name: Interpol
 nav: Providers
 network: true
-overview: 'Interpol publishes 1 API on the [APIs.io](https://apis.io/) network: Notices API. Tagged areas include Federal Government, International, Law Enforcement, Notices, and Police.
+overview: 'Interpol publishes 1 API on the [APIs.io](https://apis.io/) network: Notices API. Tagged areas include Federal-Government, International, Law Enforcement, Notices, and Police.
 
 
   The Interpol catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -113,7 +113,7 @@ rules:
 score:
   band: emerging
   composite: 17.5
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.8
+  previous_composite: 17.5
   provenance:
     agentic_access: derived
     contracts:
@@ -137,8 +137,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/screenshots/interpol-2026-06-20T183505.png
 security:
@@ -148,7 +148,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: interpol
 tags:
-- Federal Government
+- Federal-Government
 - International
 - Law Enforcement
 - Notices

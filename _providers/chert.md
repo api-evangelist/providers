@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic send/receive/route over iMessage — 1:1 and group chats, attachments, rich links, tapbacks, typing indicators, location pins, webhook subscriptions and events.
@@ -131,8 +131,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chert.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: chert-mcp.yml
-  slug: chert-mcpyml
+  name: Chert MCP Server
+  slug: chert-mcp-server
 modified: '2026-07-18'
 name: Chert
 nav: Providers
@@ -148,7 +148,7 @@ random_paper: 9
 score:
   band: thin
   composite: 35.4
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -158,12 +158,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 41.2
+  previous_composite: 35.4
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/screenshots/chert-2026-07-25T205203.png
 security:
 - kind: authentication
@@ -181,8 +181,7 @@ tags:
 - iMessage
 - Communications
 - Conversational
-- Webhooks
+- Webhook
 - CRM Integration
-- API
 website: https://console.trychert.com
 ---

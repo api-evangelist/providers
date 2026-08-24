@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Manages Anyscale Workspaces - cloud-hosted, GPU-backed development environments preconfigured with Ray for interactive development and debugging.
@@ -124,7 +124,7 @@ modified: '2026-05-08'
 name: Anyscale
 nav: Providers
 network: true
-overview: 'Anyscale publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Distributed Computing, Ray, ML Platform, and Inference.
+overview: 'Anyscale publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Distributed Computing, Ray, ML Platform, and Inference.
 
 
   Anyscale''s developer surface includes documentation and 10 more developer resources.'
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -150,9 +150,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 28.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyscale/refs/heads/main/screenshots/anyscale-2026-06-20T172029.png
 security:
@@ -166,7 +166,7 @@ security:
   summary_line: trust center published
 slug: anyscale
 tags:
-- AI
+- Artificial Intelligence
 - Distributed Computing
 - Ray
 - ML Platform

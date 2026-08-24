@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -240,8 +240,8 @@ image: https://cursor.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: anysphere-mcp.yml
-  slug: anysphere-mcpyml
+  name: Anysphere MCP Server
+  slug: anysphere-mcp-server
 modified: '2026-07-17'
 name: Anysphere
 nav: Providers
@@ -258,7 +258,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.2
-  delta: -19.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -268,7 +268,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 61.8
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,9 +279,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/screenshots/anysphere-2026-07-25T200524.png
 security:
 - kind: authentication

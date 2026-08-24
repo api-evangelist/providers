@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ modified: '2026-05-23'
 name: Arize AI
 nav: Providers
 network: true
-overview: 'Arize AI publishes 1 API on the [APIs.io](https://apis.io/) network: Traces API. Tagged areas include LLM Observability, ML Monitoring, Open Source, OpenTelemetry, and Phoenix.
+overview: 'Arize AI publishes 1 API on the [APIs.io](https://apis.io/) network: Traces API. Tagged areas include LLM Observability, ML Monitoring, Open-Source, OpenTelemetry, and Phoenix.
 
 
   Arize AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
@@ -215,7 +215,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.4
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -225,7 +225,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 45.5
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -233,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arize-ai/refs/heads/main/screenshots/arize-ai-2026-06-20T172430.png
 security:
@@ -250,7 +250,7 @@ slug: arize-ai
 tags:
 - LLM Observability
 - ML Monitoring
-- Open Source
+- Open-Source
 - OpenTelemetry
 - Phoenix
 - Tracing

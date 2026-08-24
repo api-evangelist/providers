@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service Outer's storefront exposes over MCP, advertised in the merchant profile at https://liveouter.com/.well-known/ucp. It carries the dev.ucp.shopping servi
@@ -101,8 +101,8 @@ image: https://liveouter.com/cdn/shop/files/outer-hero-banner-aluminum_513ea457-
 layout: provider
 mcp_servers:
 - description: ''
-  name: outer-mcp.yml
-  slug: outer-mcpyml
+  name: Outer MCP Server
+  slug: outer-mcp-server
 modified: '2026-08-04'
 name: Outer
 nav: Providers
@@ -119,24 +119,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.9
-  delta: -0.6
+  composite: 23.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.5
+  previous_composite: 23.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outer/refs/heads/main/screenshots/outer-2026-08-07T191054.png
 security:
@@ -155,7 +155,7 @@ tags:
 - E-Commerce
 - Consumer Goods
 - Furniture
-- Home
+- Homes
 - Direct to Consumer
 - Agentic Commerce
 - Shopify

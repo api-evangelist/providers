@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Obtain an access token for calling the Open API.
@@ -156,8 +156,8 @@ image: https://advance.ai/wp-content/uploads/2025/09/top-header-right-image.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: advance-intelligence-group-mcp.yml
-  slug: advance-intelligence-group-mcpyml
+  name: Advance Intelligence Group MCP Server
+  slug: advance-intelligence-group-mcp-server
 modified: '2026-07-17'
 name: Advance Intelligence Group
 nav: Providers
@@ -170,7 +170,7 @@ random_paper: 11
 score:
   band: developing
   composite: 42.2
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -180,7 +180,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 41.3
+  previous_composite: 42.2
   provenance:
     conformance: first-party
     contracts:
@@ -190,8 +190,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png
 security:

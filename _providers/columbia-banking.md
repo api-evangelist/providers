@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: First-party commercial and treasury-management API product from Columbia Bank, providing programmatic access to banking data and operations for integration with financial software and ERP platforms. D
@@ -68,7 +68,7 @@ modified: '2026-07-24'
 name: Columbia Bank
 nav: Providers
 network: true
-overview: 'Columbia Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Regional Bank, and Commercial Banking.
+overview: 'Columbia Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Regional Bank, and Commercial Banking.
 
 
   Columbia Bank''s developer surface includes documentation, engineering blog, support, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 8.4
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -86,15 +86,15 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.9
+  previous_composite: 8.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/columbia-banking/refs/heads/main/screenshots/columbia-banking-2026-07-25T210116.png
 security:
@@ -104,7 +104,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: columbia-banking
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Regional Bank

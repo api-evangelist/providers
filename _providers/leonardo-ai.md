@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -462,7 +462,7 @@ modified: '2026-05-30'
 name: Leonardo.AI
 nav: Providers
 network: true
-overview: 'Leonardo.AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 3D Model Assets API, Blueprints API, Dataset API, and 11 more. Tagged areas include AI, Artificial Intelligence, Image Generation, Video Generation, and Generative AI.
+overview: 'Leonardo.AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 3D Model Assets API, Blueprints API, Dataset API, and 11 more. Tagged areas include Artificial Intelligence, Image-Generation, Video Generation, Generative AI, and Creative.
 
 
   The Leonardo.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -514,7 +514,7 @@ rules:
 score:
   band: strong
   composite: 59.9
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -524,7 +524,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 65.9
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     contracts:
@@ -532,9 +532,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/screenshots/leonardo-ai-2026-06-20T184426.png
 security:
 - kind: authentication
@@ -547,9 +547,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: leonardo-ai
 tags:
-- AI
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Video Generation
 - Generative AI
 - Creative

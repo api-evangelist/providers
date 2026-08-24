@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ modified: '2026-05-16'
 name: Fidelity Investments
 nav: Providers
 network: true
-overview: 'Fidelity Investments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Asset Management, Brokerage, Wealth Management, and Retirement.
+overview: 'Fidelity Investments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Asset Management, Brokerage, Wealth Management, and Retirement.
 
 
   Fidelity Investments'' developer surface includes product news and 13 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 16.7
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -118,16 +118,16 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 22.8
+  previous_composite: 16.7
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidelity-investments/refs/heads/main/screenshots/fidelity-investments-2026-06-20T181152.png
 security:
 - kind: domain-security
@@ -136,7 +136,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: fidelity-investments
 tags:
-- Financial Services
+- Financial-Services
 - Asset Management
 - Brokerage
 - Wealth Management

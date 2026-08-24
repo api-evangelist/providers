@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -98,7 +98,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 7.8
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -108,7 +108,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 10.8
+  previous_composite: 7.8
   provenance:
     conformance: derived
   regulatory:
@@ -117,8 +117,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iag/refs/heads/main/screenshots/iag-2026-07-25T221946.png
 security:
@@ -140,7 +140,7 @@ tags:
 - Carrier
 - Underwriting
 - Claims
-- Broker
+- Brokers
 - Partner Gated
 website: https://www.iag.com.au/
 ---

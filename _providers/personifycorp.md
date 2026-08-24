@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: RESTful API for the Wild Apricot small-association product, secured with OAuth 2.0 against base https://api.wildapricot.org (versioned paths such as /v2.2/accounts/{accountId}/...). Split into an admi
@@ -70,7 +70,7 @@ modified: '2026-07-05'
 name: Personify
 nav: Providers
 network: true
-overview: 'Personify publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Association Management, AMS, Membership, Nonprofit, and Events.
+overview: 'Personify publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Association Management, AMS, Membership, Non-Profit, and Event.
 
 
   Personify''s developer surface includes documentation and 4 more developer resources.'
@@ -82,7 +82,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 7.4
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -92,9 +92,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -106,8 +106,8 @@ tags:
 - Association Management
 - AMS
 - Membership
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - Constituent Management
 - CRM
 website: https://personifycorp.com

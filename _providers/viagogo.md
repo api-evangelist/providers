@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: The Addresses API from viagogo — 2 operation(s) for addresses.
@@ -281,13 +281,13 @@ image: https://img.vggcdn.net/img/assets/logo/viagogo_logo_apidocs.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: viagogo-mcp.yml
-  slug: viagogo-mcpyml
+  name: viagogo MCP Server
+  slug: viagogo-mcp-server
 modified: '2026-08-05'
 name: viagogo
 nav: Providers
 network: true
-overview: 'viagogo publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Categories API, E Tickets API, and 18 more. Tagged areas include Company, Ticketing, Events, Marketplace, and Entertainment.
+overview: 'viagogo publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Categories API, E Tickets API, and 18 more. Tagged areas include Company, Ticketing, Event, Marketplace, and Entertainment.
 
 
   The viagogo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -302,18 +302,18 @@ scopes:
   summary_line: 17 scopes
 score:
   band: developing
-  composite: 48.5
-  delta: 0.3
+  composite: 49.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
     contract_quality: 58.9
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.2
+  previous_composite: 49.6
   provenance:
     conformance: derived
     contracts:
@@ -323,8 +323,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/screenshots/viagogo-2026-08-17T082740.png
 security:
@@ -340,11 +340,11 @@ slug: viagogo
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Marketplace
 - Entertainment
 - Secondary Market
 - Commerce
-- Travel and Leisure
+- Travel And Leisure
 website: https://www.viagogo.com/
 ---

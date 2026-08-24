@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The encore.app configuration file is the canonical declaration of an Encore application, including its platform application ID, primary language, global CORS rules, and authenticator settings. The JSO
@@ -132,7 +132,7 @@ modified: '2026-05-19'
 name: Encore
 nav: Providers
 network: true
-overview: 'Encore publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Backend, Cloud Native, Frameworks, Go, and Infrastructure Automation.
+overview: 'Encore publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Backend, Cloud-Native, Frameworks, Go, and Infrastructure Automation.
 
 
   The Encore catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -162,7 +162,7 @@ rules:
 score:
   band: emerging
   composite: 24.4
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -172,10 +172,10 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 32.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 24.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encore/refs/heads/main/screenshots/encore-2026-06-20T180722.png
 security:
 - kind: domain-security
@@ -189,12 +189,12 @@ security:
 slug: encore
 tags:
 - Backend
-- Cloud Native
+- Cloud-Native
 - Frameworks
 - Go
 - Infrastructure Automation
 - Microservices
-- Open Source
+- Open-Source
 - TypeScript
 website: https://encore.dev/
 ---

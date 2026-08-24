@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -255,8 +255,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flock-safe
 layout: provider
 mcp_servers:
 - description: ''
-  name: flock-safety-mcp.yml
-  slug: flock-safety-mcpyml
+  name: Flock Safety MCP Server
+  slug: flock-safety-mcp-server
 modified: '2026-07-19'
 name: Flock Safety
 nav: Providers
@@ -281,7 +281,7 @@ scopes:
 score:
   band: developing
   composite: 49.8
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -291,7 +291,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 53.0
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,8 +302,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/screenshots/flock-safety-2026-07-25T214812.png
 security:
@@ -329,8 +329,8 @@ tags:
 - LPR
 - Physical Security
 - Surveillance
-- Computer Vision
-- Webhooks
+- Computer-Vision
+- Webhook
 - Geolocation
 - CAD
 website: https://flocksafety.com

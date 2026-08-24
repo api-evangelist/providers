@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Real-time, intraday and historical market data API with 45 endpoints spanning end-of-day bars, intraday bars, real-time stock prices, commodities, company ratings, splits, dividends, tickers, indexes,
@@ -164,8 +164,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketstac
 layout: provider
 mcp_servers:
 - description: ''
-  name: marketstack-mcp.yml
-  slug: marketstack-mcpyml
+  name: marketstack (community)
+  slug: marketstack-community
 modified: '2026-07-22'
 name: Marketstack
 nav: Providers
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.1
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -196,7 +196,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 55.4
+  previous_composite: 57.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -207,8 +207,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png
 security:

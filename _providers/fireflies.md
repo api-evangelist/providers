@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -333,13 +333,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: fireflies-mcp.yml
-  slug: fireflies-mcpyml
+  name: Fireflies.ai MCP Server
+  slug: firefliesai-mcp-server
 modified: '2026-08-14'
 name: Fireflies.ai
 nav: Providers
 network: true
-overview: 'Fireflies.ai publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Apps API, Audio Upload API, Bites API, and 3 more. Tagged areas include AI, Meeting Assistant, Transcription, Summaries, and Action Items.
+overview: 'Fireflies.ai publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Apps API, Audio Upload API, Bites API, and 3 more. Tagged areas include Artificial Intelligence, Meeting Assistant, Transcription, Summary, and Action Items.
 
 
   The Fireflies.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -374,7 +374,7 @@ scopes:
 score:
   band: exemplar
   composite: 73.7
-  delta: -9.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -384,7 +384,7 @@ score:
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 44.7
-  previous_composite: 83.2
+  previous_composite: 73.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -395,9 +395,9 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/screenshots/fireflies-2026-06-20T181230.png
 security:
 - kind: authentication
@@ -418,10 +418,10 @@ security:
   summary_line: SOC 2 Type II, HIPAA, GDPR
 slug: fireflies
 tags:
-- AI
+- Artificial Intelligence
 - Meeting Assistant
 - Transcription
-- Summaries
+- Summary
 - Action Items
 - GraphQL
 - Meetings

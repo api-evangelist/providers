@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ modified: '2026-07-21'
 name: Zeus
 nav: Providers
 network: true
-overview: Zeus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Corporate Housing, Real Estate, Furnished Rentals, and Property Technology.
+overview: Zeus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Corporate Housing, Real-Estate, Furnished Rentals, and Property Technology.
 random_paper: 14
 score:
   band: minimal
@@ -63,14 +63,14 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: zeus
 tags:
 - Company
 - Corporate Housing
-- Real Estate
+- Real-Estate
 - Furnished Rentals
 - Property Technology
 - Travel

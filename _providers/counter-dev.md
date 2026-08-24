@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -199,7 +199,7 @@ modified: '2026-08-13'
 name: Counter
 nav: Providers
 network: true
-overview: 'Counter publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Stats API, and Tracking API. Tagged areas include Web Analytics, Privacy, Open Source, Tracking, and Self-Hosted.
+overview: 'Counter publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Stats API, and Tracking API. Tagged areas include Web Analytics, Privacy, Open-Source, Tracking, and Self-Hosted.
 
 
   The Counter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -218,7 +218,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.2
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -228,7 +228,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 53.1
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +239,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/screenshots/counter-dev-2026-07-25T210507.png
 security:
@@ -256,7 +256,7 @@ slug: counter-dev
 tags:
 - Web Analytics
 - Privacy
-- Open Source
+- Open-Source
 - Tracking
 - Self-Hosted
 website: https://counter.dev/

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST APIs providing Australian property intelligence — address suggestion and matching, property and listing data, sold-transaction search (including point-and-radius queries), automated valuations (A
@@ -96,7 +96,7 @@ modified: '2026-07-24'
 name: PropTrack
 nav: Providers
 network: true
-overview: 'PropTrack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Data, Real Estate, Automated Valuation, and Property Valuation.
+overview: 'PropTrack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Data, Real-Estate, Automated Valuation, and Property Valuation.
 
 
   PropTrack''s developer surface includes documentation, support, authentication, and 12 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 18.5
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -114,15 +114,15 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.3
+  previous_composite: 18.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proptrack/refs/heads/main/screenshots/proptrack-2026-07-27T125354.png
 security:
@@ -142,7 +142,7 @@ slug: proptrack
 tags:
 - Company
 - Property Data
-- Real Estate
+- Real-Estate
 - Automated Valuation
 - Property Valuation
 - Australia

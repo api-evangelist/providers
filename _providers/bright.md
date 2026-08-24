@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,13 +78,13 @@ image: https://static.wixstatic.com/media/248b1d_f91dfc1bc971452080cea17e73bcc32
 layout: provider
 mcp_servers:
 - description: ''
-  name: bright-mcp.yml
-  slug: bright-mcpyml
+  name: Bright MCP Server
+  slug: bright-mcp-server
 modified: '2026-07-18'
 name: Bright
 nav: Providers
 network: true
-overview: 'Bright is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar Energy, Renewable Energy, Energy Storage, and FinTech.
+overview: 'Bright is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar Energy, Renewable Energy, Energy Storage, and Fintech.
 
 
   Bright''s developer surface includes support and 9 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 7.9
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -102,7 +102,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.9
+  previous_composite: 7.9
   provenance:
     mcp: first-party
   regulatory:
@@ -111,8 +111,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright/refs/heads/main/screenshots/bright-2026-07-25T203828.png
 security:
@@ -126,7 +126,7 @@ tags:
 - Solar Energy
 - Renewable Energy
 - Energy Storage
-- FinTech
+- Fintech
 - Climate
 - Mexico
 - Y Combinator

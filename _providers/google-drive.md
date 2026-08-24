@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -238,14 +238,14 @@ jsonld:
   slug: google-drive-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: google-drive-mcp.yml
-  slug: google-drive-mcpyml
+- description: Google operates an official remote Model Context Protocol server for Google Drive (Developer Preview). It acts as a proxy that lets AI applications (e.g. Google Antigravity, Claude) read and act on Dr
+  name: Google Drive MCP Server
+  slug: google-drive-mcp-server
 modified: '2026-06-20'
 name: Google Drive
 nav: Providers
 network: true
-overview: 'Google Drive publishes 1 API on the [APIs.io](https://apis.io/) network: Files API. Tagged areas include Cloud Storage, Collaboration, Document Management, Drive, and Files.
+overview: 'Google Drive publishes 1 API on the [APIs.io](https://apis.io/) network: Files API. Tagged areas include Cloud Storage, Collaboration, Document-Management, Drives, and File.
 
 
   The Google Drive catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -272,13 +272,13 @@ rules:
     info: 2
     warn: 3
   slug: google-drive-jsonschema-spectral-rules
-- effective_rule_count: 59
+- effective_rule_count: 58
   extends:
   - spectral:oas
   name: Google Drive API Rules
-  rule_count: 18
+  rule_count: 17
   severity_counts:
-    error: 11
+    error: 10
     hint: 0
     info: 2
     warn: 5
@@ -290,18 +290,18 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.4
-  delta: -8.9
+  composite: 42.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 64.3
     developer_ergonomics: 33.3
     discoverability: 87.0
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 51.3
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,9 +311,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-08-17T083537.png
 security:
 - kind: authentication
@@ -336,9 +336,9 @@ slug: google-drive
 tags:
 - Cloud Storage
 - Collaboration
-- Document Management
-- Drive
-- Files
+- Document-Management
+- Drives
+- File
 - Google
 - Storage
 website: https://console.cloud.google.com/

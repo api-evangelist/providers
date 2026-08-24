@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -78,8 +78,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 9.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e-3-tech/refs/heads/main/screenshots/e-3-tech-2026-07-25T212610.png
 slug: e-3-tech
@@ -89,8 +89,8 @@ tags:
 - Private Equity
 - Mergers and Acquisitions
 - Construction Services
-- Managed Services
+- Managed Service
 - Wealth Management
-- Pharmaceutical
+- Pharmaceuticals
 website: https://www.e-3.tech
 ---

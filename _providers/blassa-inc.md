@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -108,7 +108,7 @@ random_paper: 2
 score:
   band: thin
   composite: 27.7
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -118,10 +118,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 27.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blassa-inc/refs/heads/main/screenshots/blassa-inc-2026-07-25T203300.png
 security:
 - kind: authentication
@@ -140,8 +140,8 @@ tags:
 - Address Verification
 - Maps
 - Logistics
-- Last-Mile Delivery
-- E-commerce
+- Last Mile Delivery
+- E-Commerce
 - Middle East
 - Africa
 website: https://blassa.io

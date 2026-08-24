@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Wikifarmer
 nav: Providers
 network: true
-overview: 'Wikifarmer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Agtech, Marketplace, and Farming.
+overview: 'Wikifarmer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Marketplace, and Farming.
 
 
   Wikifarmer''s developer surface includes support and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 4.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,15 +74,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.6
+  previous_composite: 4.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -93,7 +93,7 @@ slug: wikifarmer
 tags:
 - Company
 - Agriculture
-- Agtech
+- AgTech
 - Marketplace
 - Farming
 - B2B

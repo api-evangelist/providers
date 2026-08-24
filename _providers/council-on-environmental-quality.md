@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,7 +112,7 @@ random_paper: 16
 score:
   band: minimal
   composite: 6.6
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -122,15 +122,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.8
+  previous_composite: 6.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/council-on-environmental-quality/refs/heads/main/screenshots/council-on-environmental-quality-2026-06-20T175055.png
 security:
@@ -146,7 +146,7 @@ tags:
 - Environmental Justice
 - Environmental Policy
 - Executive Office of the President
-- Federal Government
+- Federal-Government
 - Government
 - NEPA
 - Permitting

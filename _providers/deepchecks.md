@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ modified: '2026-06-20'
 name: Deepchecks
 nav: Providers
 network: true
-overview: 'Deepchecks publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Application Versions API, Applications API, Interactions API, and 3 more. Tagged areas include AI, LLM, Evaluation, Testing, and Monitoring.
+overview: 'Deepchecks publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Application Versions API, Applications API, Interactions API, and 3 more. Tagged areas include Artificial Intelligence, LLM, Evaluation, Testing, and Monitoring.
 
 
   Deepchecks'' developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -166,7 +166,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.8
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -174,8 +174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/screenshots/deepchecks-2026-06-20T175801.png
 security:
@@ -189,7 +189,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: deepchecks
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Evaluation
 - Testing

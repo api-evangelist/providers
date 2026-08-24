@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: Efreshli
 nav: Providers
 network: true
-overview: 'Efreshli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Furniture, Home Furnishing, and Interior Design.
+overview: 'Efreshli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Furniture, Home Furnishing, and Interior Design.
 
 
   Efreshli''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 11.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -82,9 +82,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/efreshli/refs/heads/main/screenshots/efreshli-2026-07-25T212947.png
 security:
@@ -95,12 +95,12 @@ security:
 slug: efreshli
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Furniture
 - Home Furnishing
 - Interior Design
 - Retail
-- AI
+- Artificial Intelligence
 - Egypt
 website: https://efreshli.com
 ---

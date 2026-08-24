@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Details and summary information for member accounts, including name, status, activity dates, balances, and more. Part of Navy Federal's consumer- permissioned Open Banking API Catalog; access is gated
@@ -137,7 +137,7 @@ modified: '2026-07-23'
 name: Navy Federal Credit Union
 nav: Providers
 network: true
-overview: 'Navy Federal Credit Union publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Credit Union, and Open Finance.
+overview: 'Navy Federal Credit Union publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Credit Union, and Open Finance.
 
 
   Navy Federal Credit Union''s developer surface includes documentation, signup flow, support, API reference, engineering blog, authentication, and 14 more developer resources.'
@@ -145,7 +145,7 @@ random_paper: 14
 score:
   band: thin
   composite: 31.4
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -155,7 +155,7 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 28.2
+  previous_composite: 31.4
   provenance:
     conformance: first-party
   regulatory:
@@ -164,8 +164,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navy-federal-credit-union/refs/heads/main/screenshots/navy-federal-credit-union-2026-08-07T184739.png
 security:
@@ -183,7 +183,7 @@ security:
   summary_line: security.txt · contact published
 slug: navy-federal-credit-union
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Credit Union

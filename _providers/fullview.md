@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Bug Report API from Fullview — 2 operation(s) for bug report.
@@ -166,13 +166,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fullview.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: fullview-mcp.yml
-  slug: fullview-mcpyml
+  name: Fullview MCP Server
+  slug: fullview-mcp-server
 modified: '2026-07-19'
 name: Fullview
 nav: Providers
 network: true
-overview: 'Fullview publishes 1 API on the [APIs.io](https://apis.io/) network: Bug Report API. Tagged areas include Company, Customer Support, Cobrowsing, Session Replay, and Customer Experience.
+overview: 'Fullview publishes 1 API on the [APIs.io](https://apis.io/) network: Bug Report API. Tagged areas include Company, Customer-Support, Co-Browsing, Session Replay, and Customer Experience.
 
 
   Fullview''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
@@ -185,7 +185,7 @@ scopes:
 score:
   band: developing
   composite: 45.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -195,7 +195,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 46.1
+  previous_composite: 45.6
   provenance:
     conformance: first-party
     contracts:
@@ -205,8 +205,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/screenshots/fullview-2026-07-25T215258.png
 security:
@@ -229,12 +229,12 @@ security:
 slug: fullview
 tags:
 - Company
-- Customer Support
-- Cobrowsing
+- Customer-Support
+- Co-Browsing
 - Session Replay
 - Customer Experience
 - Developer Tools
 - Help Desk
-- SaaS
+- Software-as-a-Service
 website: https://www.fullview.io
 ---

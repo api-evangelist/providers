@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -205,7 +205,7 @@ modified: '2026-08-08'
 name: HiveMQ
 nav: Providers
 network: true
-overview: 'HiveMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MQTT over WebSocket, Data Hub API, Management API, and 1 more. Tagged areas include MQTT, IoT, Messaging, Message Broker, and Pub Sub.
+overview: 'HiveMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MQTT over WebSocket, Data Hub API, Management API, and 1 more. Tagged areas include MQTT, IoT, Messaging, Message Broker, and Pub-Sub.
 
 
   The HiveMQ catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -228,7 +228,7 @@ rules:
 score:
   band: developing
   composite: 49.3
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -238,7 +238,7 @@ score:
     discoverability: 72.2
     governance: 29.5
     operational_transparency: 28.9
-  previous_composite: 55.9
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -247,9 +247,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/screenshots/hivemq-2026-07-25T221301.png
 security:
 - kind: authentication
@@ -274,7 +274,7 @@ tags:
 - IoT
 - Messaging
 - Message Broker
-- Pub Sub
+- Pub-Sub
 - WebSocket
 website: https://www.hivemq.com
 ---

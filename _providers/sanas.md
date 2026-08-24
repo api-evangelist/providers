@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Real-time speech-to-speech translation over a single persistent WebSocket connection, supporting consecutive and simultaneous modes. Authenticated with a JWT bearer token or API key passed as a query '
@@ -167,7 +167,7 @@ random_paper: 9
 score:
   band: developing
   composite: 48.3
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -177,11 +177,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 50.4
+  previous_composite: 48.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/screenshots/sanas-2026-08-17T081721.png
 security:

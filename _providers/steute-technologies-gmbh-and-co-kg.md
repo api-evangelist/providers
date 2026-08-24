@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -185,8 +185,8 @@ image: https://www.steute.com/_assets/0fec2969a2bae73d42576ee80ea2af42/Icons/ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: steute-technologies-gmbh-and-co-kg-mcp.yml
-  slug: steute-technologies-gmbh-and-co-kg-mcpyml
+  name: steute Technologies GmbH & Co. KG MCP Server
+  slug: steute-technologies-gmbh-co-kg-mcp-server
 modified: '2026-07-21'
 name: steute Technologies GmbH & Co. KG
 nav: Providers
@@ -202,7 +202,7 @@ random_paper: 19
 score:
   band: developing
   composite: 41.5
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 37.5
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +229,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The ablefy API lets sellers automate access to their store data (orders, products, payments, and customers) using seller-generated access tokens, complemented by webhooks for event notifications. The '
@@ -89,7 +89,7 @@ random_paper: 18
 score:
   band: minimal
   composite: 8.6
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -99,16 +99,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.7
+  previous_composite: 8.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ablefy/refs/heads/main/screenshots/ablefy-2026-07-25T181353.png
 security:
 - kind: authentication
@@ -131,7 +131,6 @@ tags:
 - Creator Economy
 - E-Commerce
 - Germany
-- API
-- Webhooks
+- Webhook
 website: https://ablefy.io/
 ---

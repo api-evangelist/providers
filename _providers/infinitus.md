@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The customer-gated Infinitus backend API. Infinitus' own AI Agent Security Guide instructs customers to allowlist https://api.infinitusai.com on TCP 443 for "portal and backend API access". Probing co
@@ -143,13 +143,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infinitus.
 layout: provider
 mcp_servers:
 - description: ''
-  name: infinitus-mcp.yml
-  slug: infinitus-mcpyml
+  name: Infinitus MCP Server
+  slug: infinitus-mcp-server
 modified: '2026-08-15'
 name: Infinitus
 nav: Providers
 network: true
-overview: 'Infinitus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Healthcare, Voice AI, and Benefit Verification.
+overview: 'Infinitus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Healthcare, Voice AI, and Benefit Verification.
 
 
   Infinitus'' developer surface includes pricing, engineering blog, support, documentation, authentication, and 20 more developer resources.'
@@ -170,7 +170,7 @@ scopes:
 score:
   band: thin
   composite: 36.2
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -180,7 +180,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 36.6
+  previous_composite: 36.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -190,8 +190,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinitus/refs/heads/main/screenshots/infinitus-2026-07-25T222407.png
 security:
@@ -214,7 +214,7 @@ security:
 slug: infinitus
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - Voice AI
 - Benefit Verification

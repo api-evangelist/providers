@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -250,14 +250,14 @@ description: Replicas (tryreplicas.com), a Y Combinator (Spring 2026) company, r
 image: https://tryreplicas.com/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: replicas-mcp.yml
-  slug: replicas-mcpyml
+- description: Official Replicas MCP server for managing cloud workspaces (replicas) for AI coding agents from MCP clients such as Claude Desktop, Claude Code, and Poke.
+  name: Replicas MCP Server
+  slug: replicas-mcp-server
 modified: '2026-07-20'
 name: Replicas
 nav: Providers
 network: true
-overview: 'Replicas publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, API Keys API, Automation API, and 10 more. Tagged areas include Company, AI, Coding Agents, Developer Tools, and Automation.
+overview: 'Replicas publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, API Keys API, Automation API, and 10 more. Tagged areas include Company, Artificial Intelligence, Coding Agents, Developer Tools, and Automation.
 
 
   The Replicas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,7 +268,7 @@ random_paper: 11
 score:
   band: strong
   composite: 54.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -278,7 +278,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 54.4
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,8 +289,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/screenshots/replicas-2026-08-17T081523.png
 security:
@@ -309,7 +309,7 @@ security:
 slug: replicas
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding Agents
 - Developer Tools
 - Automation

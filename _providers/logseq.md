@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-20'
 name: Logseq
 nav: Providers
 network: true
-overview: 'Logseq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Knowledge Management, Note Taking, Productivity, and Open Source.
+overview: 'Logseq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Knowledge-Management, Note Taking, Productivity, and Open-Source.
 
 
   Logseq''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, and 9 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 21.4
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -118,9 +118,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 20.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logseq/refs/heads/main/screenshots/logseq-2026-07-25T225502.png
 security:
@@ -131,10 +131,10 @@ security:
 slug: logseq
 tags:
 - Company
-- Knowledge Management
+- Knowledge-Management
 - Note Taking
 - Productivity
-- Open Source
+- Open-Source
 - Plugins
 - SDK
 - Knowledge Graph

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: FHIR-native integration gateway from Telstra Health that provides a single, standardized interface for approved technology partners to exchange data with MedicalDirector Helix cloud general-practice p
@@ -96,7 +96,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 25.8
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -106,7 +106,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 21.8
+  previous_composite: 25.8
   provenance:
     conformance: first-party
   regulatory:
@@ -115,8 +115,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medical-director/refs/heads/main/screenshots/medical-director-2026-08-07T172351.png
 security:

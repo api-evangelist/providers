@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Cycode's REST API and webhooks for the ASPM / software supply chain security platform, including the Risk Intelligence Graph (RIG) reporting API. JWT bearer authentication obtained by exchanging a Cli
@@ -134,9 +134,9 @@ description: Cycode is a complete Application Security Posture Management (ASPM)
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cycode.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cycode-mcp.yml
-  slug: cycode-mcpyml
+- description: Official Cycode MCP server, shipped inside the cycode CLI, exposing Cycode's security scanning capabilities to AI assistants and agents. Started locally with `cycode mcp`; not a hosted remote endpoint
+  name: Cycode MCP Server
+  slug: cycode-mcp-server
 modified: '2026-07-18'
 name: Cycode
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 1
 score:
   band: thin
   composite: 29.9
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -159,13 +159,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 35.7
+  previous_composite: 29.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycode/refs/heads/main/screenshots/cycode-2026-07-25T211037.png
 security:
 - kind: authentication

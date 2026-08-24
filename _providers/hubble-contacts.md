@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Agent-facing commerce surface for the Hubble Contacts online store, implementing the Universal Commerce Protocol (UCP) over MCP/JSON-RPC. Hubble''s own /agents.md documents the flow: discover capabilit'
@@ -148,8 +148,8 @@ image: https://hubblecontacts.com/static/Hubble-Contacts-Homepage-Inset-Image-mo
 layout: provider
 mcp_servers:
 - description: ''
-  name: hubble-contacts-mcp.yml
-  slug: hubble-contacts-mcpyml
+  name: Hubble Contacts MCP Server
+  slug: hubble-contacts-mcp-server
 modified: '2026-08-04'
 name: Hubble Contacts
 nav: Providers
@@ -167,7 +167,7 @@ scopes:
 score:
   band: developing
   composite: 39.7
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -177,7 +177,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 41.3
+  previous_composite: 39.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -188,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/screenshots/hubble-contacts-2026-08-07T170351.png
 security:
@@ -209,9 +209,9 @@ tags:
 - Health
 - Vision Care
 - Contact Lenses
-- Subscriptions
+- Subscription
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Shopify
 - GraphQL
 website: https://www.hubblecontacts.com/

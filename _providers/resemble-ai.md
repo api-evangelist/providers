@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 4
@@ -269,7 +269,7 @@ modified: '2026-05-19'
 name: Resemble AI
 nav: Providers
 network: true
-overview: 'Resemble AI publishes 26 APIs on the [APIs.io](https://apis.io/) network, including subpackage_account API, subpackage_agentKnowledgeBase API, subpackage_agentPhoneNumbers API, and 23 more. Tagged areas include AI, Voice, TTS, Voice Cloning, and Voice Conversion.
+overview: 'Resemble AI publishes 26 APIs on the [APIs.io](https://apis.io/) network, including subpackage_account API, subpackage_agentKnowledgeBase API, subpackage_agentPhoneNumbers API, and 23 more. Tagged areas include Artificial Intelligence, Voice, TTS, Voice Cloning, and Voice Conversion.
 
 
   Resemble AI''s developer surface includes authentication, documentation, and 11 more developer resources.'
@@ -285,7 +285,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.9
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -295,7 +295,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.5
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -303,8 +303,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/screenshots/resemble-ai-2026-06-20T192934.png
 security:
@@ -322,7 +322,7 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: resemble-ai
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - TTS
 - Voice Cloning

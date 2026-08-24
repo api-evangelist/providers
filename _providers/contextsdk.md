@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -129,7 +129,7 @@ random_paper: 3
 score:
   band: thin
   composite: 29.5
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -139,11 +139,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 29.6
+  previous_composite: 29.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextsdk/refs/heads/main/screenshots/contextsdk-2026-07-25T210328.png
 security:
@@ -166,7 +166,7 @@ tags:
 - SDK
 - On-Device
 - Context
-- Machine Learning
+- Machine-Learning
 - Push Notifications
 - Privacy
 - iOS

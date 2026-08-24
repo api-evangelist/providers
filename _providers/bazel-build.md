@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -330,7 +330,7 @@ modified: '2026-05-25'
 name: Bazel
 nav: Providers
 network: true
-overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Modules API and Registry API. Tagged areas include Build Systems, Build Tool, Bzlmod, CI/CD, and Developer Tools.
+overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Modules API and Registry API. Tagged areas include Build Systems, Build Tools, Bzlmod, CI/CD, and Developer Tools.
 
 
   The Bazel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -362,18 +362,18 @@ rules:
   slug: bazel-build-rules
 score:
   band: developing
-  composite: 47.5
-  delta: -3.1
+  composite: 48.0
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.5
     developer_ergonomics: 61.9
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 50.6
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -381,8 +381,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
 security:
@@ -393,13 +393,13 @@ security:
 slug: bazel-build
 tags:
 - Build Systems
-- Build Tool
+- Build Tools
 - Bzlmod
 - CI/CD
 - Developer Tools
 - Hermetic Builds
 - Monorepo
-- Open Source
+- Open-Source
 - Remote Execution
 - Starlark
 website: https://bazel.build/

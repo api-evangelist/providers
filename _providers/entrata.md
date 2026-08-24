@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Entrata API provides programmatic access to the Entrata property management platform, enabling integration partners to read and write property, resident, lease, maintenance, payment, and financial
@@ -101,7 +101,7 @@ modified: '2026-06-13'
 name: Entrata
 nav: Providers
 network: true
-overview: 'Entrata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Multifamily Housing, Real Estate, Resident Management, and Leasing.
+overview: 'Entrata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Multifamily Housing, Real-Estate, Resident Management, and Leasing.
 
 
   Entrata''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.9
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -127,15 +127,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 29.6
+  previous_composite: 28.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entrata/refs/heads/main/screenshots/entrata-2026-06-20T180733.png
 security:
@@ -147,7 +147,7 @@ slug: entrata
 tags:
 - Property Management
 - Multifamily Housing
-- Real Estate
+- Real-Estate
 - Resident Management
 - Leasing
 - Maintenance

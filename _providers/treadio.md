@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 2
@@ -511,8 +511,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/treadio.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: treadio-mcp.yml
-  slug: treadio-mcpyml
+  name: tread.io MCP Server
+  slug: treadio-mcp-server
 modified: '2026-07-21'
 name: tread.io
 nav: Providers
@@ -528,7 +528,7 @@ random_paper: 9
 score:
   band: developing
   composite: 48.5
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -538,7 +538,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 51.6
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -549,8 +549,8 @@ score:
       total: 58
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/screenshots/treadio-2026-08-17T082430.png
 security:
@@ -572,7 +572,6 @@ tags:
 - Fleet Management
 - Bulk Materials
 - Trucking
-- Webhooks
-- API
+- Webhook
 website: https://tread.ai/
 ---

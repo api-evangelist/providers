@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,7 +105,7 @@ modified: '2026-07-19'
 name: LevelUp
 nav: Providers
 network: true
-overview: 'LevelUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Mobile Payments, and Point of Sale.
+overview: 'LevelUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Mobile Payments, and Point-of-Sale.
 
 
   LevelUp''s developer surface includes authentication and 15 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 16.1
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 16.3
+  previous_composite: 16.1
   provenance:
     conformance: first-party
   regulatory:
@@ -132,8 +132,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelup/refs/heads/main/screenshots/levelup-2026-07-25T224952.png
 security:
@@ -151,9 +151,9 @@ tags:
 - Consumer
 - Payments
 - Mobile Payments
-- Point of Sale
+- Point-of-Sale
 - Loyalty
-- Restaurants
+- Restaurant
 - Retired
 website: https://thelevelup.com
 ---

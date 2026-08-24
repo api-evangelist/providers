@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 117
 apis:
 - description: The Access API from Pinterest — 3 operation(s) for access.
@@ -880,7 +880,7 @@ modified: '2026-05-30'
 name: Pinterest
 nav: Providers
 network: true
-overview: 'Pinterest publishes 117 APIs on the [APIs.io](https://apis.io/) network, including Access API, Accounts API, Ad API, and 114 more. Tagged areas include Images, Social Media, and Videos.
+overview: 'Pinterest publishes 117 APIs on the [APIs.io](https://apis.io/) network, including Access API, Accounts API, Ad API, and 114 more. Tagged areas include Image, Social-Media, and Videos.
 
 
   Pinterest''s developer surface includes product news, engineering blog, support, developer portal, documentation, changelog, getting-started guide, and 22 more developer resources.'
@@ -895,26 +895,26 @@ rate_limits:
   slug: pinterest-rate-limits
 score:
   band: developing
-  composite: 44.7
-  delta: 0.4
+  composite: 42.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 62.0
     developer_ergonomics: 52.4
-    discoverability: 59.3
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 44.3
+  previous_composite: 42.9
   provenance:
     contracts:
       callable: 99.2
       derived: 0
       marker_coverage: 0.0
       total: 118
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinterest/refs/heads/main/screenshots/pinterest-2026-06-20T191721.png
 security:
@@ -924,8 +924,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: pinterest
 tags:
-- Images
-- Social Media
+- Image
+- Social-Media
 - Videos
 website: https://developers.pinterest.com/
 ---

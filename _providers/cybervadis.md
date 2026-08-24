@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,21 +111,21 @@ overview: 'CyberVadis is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 18
 score:
   band: emerging
-  composite: 15.3
-  delta: -6.1
+  composite: 16.4
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 16.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybervadis/refs/heads/main/screenshots/cybervadis-2026-07-25T211031.png
 security:
 - kind: domain-security
@@ -148,6 +148,6 @@ tags:
 - Vendor Risk Management
 - Security Ratings
 - Governance Risk Compliance
-- Infrastructure SaaS
+- Infrastructure Saas
 website: https://cybervadis.com/
 ---

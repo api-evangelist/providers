@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1007,8 +1007,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: power-bi-mcp.yml
-  slug: power-bi-mcpyml
+  name: Power BI MCP Server
+  slug: power-bi-mcp-server
 modified: '2026-06-20'
 name: Power BI
 nav: Providers
@@ -1058,18 +1058,18 @@ scopes:
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 63.0
-  delta: -5.6
+  composite: 63.4
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 72.0
     developer_ergonomics: 71.4
     discoverability: 100.0
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 68.6
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1079,9 +1079,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:
 - kind: authentication

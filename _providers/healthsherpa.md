@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -181,8 +181,8 @@ image: https://healthsherpa-21715791.hs-sites.com/hubfs/raw_assets/public/Health
 layout: provider
 mcp_servers:
 - description: ''
-  name: healthsherpa-mcp.yml
-  slug: healthsherpa-mcpyml
+  name: HealthSherpa MCP Server
+  slug: healthsherpa-mcp-server
 modified: '2026-07-19'
 name: HealthSherpa
 nav: Providers
@@ -198,7 +198,7 @@ random_paper: 13
 score:
   band: developing
   composite: 40.7
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 43.1
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +225,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/screenshots/healthsherpa-2026-07-25T220840.png
 security:

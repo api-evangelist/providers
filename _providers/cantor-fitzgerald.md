@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Cantor Fitzgerald, L.P. is a privately held global financial services firm founded in 1945. It is a U.S. Federal Reserve primary dealer in U.S. government securities and operates investment banking, f
@@ -95,7 +95,7 @@ modified: '2026-05-23'
 name: Cantor Fitzgerald
 nav: Providers
 network: true
-overview: 'Cantor Fitzgerald publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Investment Banking, Prime Brokerage, Fixed Income, and Equities.
+overview: 'Cantor Fitzgerald publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Investment Banking, Prime Brokerage, Fixed Income, and Equities.
 
 
   The Cantor Fitzgerald catalog on APIs.io includes 1 JSON-LD context.'
@@ -111,7 +111,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.8
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -121,15 +121,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 24.2
+  previous_composite: 21.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -142,7 +142,7 @@ security:
   summary_line: security.txt · contact published
 slug: cantor-fitzgerald
 tags:
-- Financial Services
+- Financial-Services
 - Investment Banking
 - Prime Brokerage
 - Fixed Income

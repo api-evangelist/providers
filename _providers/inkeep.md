@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-06-20'
 name: Inkeep
 nav: Providers
 network: true
-overview: 'Inkeep publishes 2 APIs on the [APIs.io](https://apis.io/) network: Analytics API and Chat API. Tagged areas include AI, Support, RAG, Agents, and Documentation.
+overview: 'Inkeep publishes 2 APIs on the [APIs.io](https://apis.io/) network: Analytics API and Chat API. Tagged areas include Artificial Intelligence, Support, RAG, Agents, and Documentation.
 
 
   The Inkeep catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -159,7 +159,7 @@ rules:
 score:
   band: developing
   composite: 43.9
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -169,7 +169,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 48.0
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/screenshots/inkeep-2026-06-20T183352.png
 security:
@@ -196,7 +196,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: inkeep
 tags:
-- AI
+- Artificial Intelligence
 - Support
 - RAG
 - Agents

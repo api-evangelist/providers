@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,7 +125,7 @@ modified: '2026-05-24'
 name: Alexi
 nav: Providers
 network: true
-overview: 'Alexi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, LegalTech, Legal AI, Litigation, and Legal Research.
+overview: 'Alexi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Tech, Legal AI, Litigation, and Legal Research.
 
 
   Alexi''s developer surface includes engineering blog, FAQ, product news, and 18 more developer resources.'
@@ -144,8 +144,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 12.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alexi/refs/heads/main/screenshots/alexi-2026-06-20T171519.png
 security:
@@ -160,7 +160,7 @@ security:
 slug: alexi
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Legal AI
 - Litigation
 - Legal Research
@@ -171,7 +171,7 @@ tags:
 - Agentic AI
 - Private AI
 - Single Tenant
-- Knowledge Management
+- Knowledge-Management
 - Canada
 - Toronto
 website: https://www.alexi.com

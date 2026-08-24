@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Chat completion API for conversational AI using Mistral's language models, with function calling, streaming, and JSON / structured output.
@@ -195,7 +195,7 @@ modified: '2026-07-20'
 name: Mistral AI
 nav: Providers
 network: true
-overview: 'Mistral AI publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Large Language Models, Generative AI, and Machine Learning.
+overview: 'Mistral AI publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Large Language Models, Generative AI, and Machine-Learning.
 
 
   Mistral AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -203,7 +203,7 @@ random_paper: 0
 score:
   band: thin
   composite: 33.5
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -213,11 +213,11 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 35.9
+  previous_composite: 33.5
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mistralai/refs/heads/main/screenshots/mistralai-2026-08-07T183801.png
 security:
@@ -235,7 +235,7 @@ tags:
 - Artificial Intelligence
 - Large Language Models
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - Chat
 - Embeddings
 - Agents

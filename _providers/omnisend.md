@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -564,14 +564,14 @@ jsonld:
   slug: omnisend-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: omnisend-mcp.yml
-  slug: omnisend-mcpyml
+- description: Omnisend ships two first-party hosted, remote MCP servers — the original at https://mcp.omnisend.com/mcp (4 tools) and a v2 at https://mcp.omnisend.com/v2/mcp (7 tools). Both are HTTPS endpoints an MC
+  name: Omnisend MCP Server
+  slug: omnisend-mcp-server
 modified: '2026-08-13'
 name: Omnisend
 nav: Providers
 network: true
-overview: 'Omnisend publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Batches API, Brands API, and 12 more. Tagged areas include Email Marketing, Marketing Automation, Ecommerce, SMS Marketing, and Customer Engagement.
+overview: 'Omnisend publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Batches API, Brands API, and 12 more. Tagged areas include Email Marketing, Marketing Automation, E-Commerce, SMS Marketing, and Customer Engagement.
 
 
   The Omnisend catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -606,7 +606,7 @@ scopes:
 score:
   band: exemplar
   composite: 70.3
-  delta: -12.6
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -616,7 +616,7 @@ score:
     discoverability: 92.6
     governance: 40.2
     operational_transparency: 97.4
-  previous_composite: 82.9
+  previous_composite: 70.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -627,9 +627,9 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png
 security:
 - kind: authentication
@@ -648,7 +648,7 @@ slug: omnisend
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - SMS Marketing
 - Customer Engagement
 - Segmentation

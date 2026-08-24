@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.7
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -160,7 +160,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 31.8
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +168,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/screenshots/hadoop-2026-06-20T182452.png
 security:
@@ -188,6 +188,6 @@ tags:
 - Distributed Computing
 - HDFS
 - MapReduce
-- Open Source
+- Open-Source
 website: https://hadoop.apache.org/
 ---

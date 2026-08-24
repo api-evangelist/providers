@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The external API of the Federated Wireless Spectrum Controller, the cloud platform that manages CBRS spectrum assignment, CBSD lifecycle, monitoring and compliance. The Spectrum Controller web applica
@@ -184,9 +184,9 @@ description: 'Federated Wireless, founded in 2012 and headquartered in Arlington
 image: https://federatedwireless.ai/wp-content/uploads/2025/07/fw-federated-wireless-logo-horiz-rev-600px.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: federated-wireless-mcp.yml
-  slug: federated-wireless-mcpyml
+- description: Federated Wireless publishes a remote Model Context Protocol server on its primary company host, federatedwireless.ai. It is not announced in any Federated Wireless documentation, press release or MCP
+  name: Federated Wireless MCP Server
+  slug: federated-wireless-mcp-server
 modified: '2026-08-12'
 name: Federated Wireless
 nav: Providers
@@ -212,7 +212,7 @@ scopes:
 score:
   band: thin
   composite: 28.7
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -222,7 +222,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 30.2
+  previous_composite: 28.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -232,8 +232,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

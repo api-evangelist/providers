@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ modified: '2026-05-19'
 name: Descript
 nav: Providers
 network: true
-overview: 'Descript publishes 3 APIs on the [APIs.io](https://apis.io/) network: API Endpoints API, Edit in Descript API, and Export from Descript API. Tagged areas include AI, Audio Editing, Captions, Media, and Podcasting.
+overview: 'Descript publishes 3 APIs on the [APIs.io](https://apis.io/) network: API Endpoints API, Edit in Descript API, and Export from Descript API. Tagged areas include Artificial Intelligence, Audio Editing, Captions, Media, and Podcasting.
 
 
   Descript''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, CLI, and 17 more developer resources.'
@@ -216,7 +216,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -226,7 +226,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 57.9
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/screenshots/descript-2026-06-20T175933.png
 security:
@@ -257,7 +257,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: descript
 tags:
-- AI
+- Artificial Intelligence
 - Audio Editing
 - Captions
 - Media

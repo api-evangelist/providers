@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'OpenAI-compatible AI Gateway API. One API for any model and any provider: chat completions, Anthropic-format messages, OpenAI Responses, a live model catalog, token counting, and a standalone token-co'
@@ -172,13 +172,13 @@ image: https://www.edgee.ai/assets/img/og/og.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: edgee-mcp.yml
-  slug: edgee-mcpyml
+  name: Edgee MCP Server
+  slug: edgee-mcp-server
 modified: '2026-08-17'
 name: Edgee
 nav: Providers
 network: true
-overview: 'Edgee publishes 1 API on the [APIs.io](https://apis.io/) network: AI Gateway API. Tagged areas include Company, AI, LLM, AI Gateway, and Agents.
+overview: 'Edgee publishes 1 API on the [APIs.io](https://apis.io/) network: AI Gateway API. Tagged areas include Company, Artificial Intelligence, LLM, AI Gateway, and Agents.
 
 
   Edgee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
@@ -194,6 +194,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -203,6 +204,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
+  previous_composite: 59.8
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +214,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Edgee Authentication
@@ -230,7 +233,7 @@ security:
 slug: edgee
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - LLM
 - AI Gateway
 - Agents

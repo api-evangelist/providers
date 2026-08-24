@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GoReplay captures and replays live HTTP traffic, enabling developers to test APIs and applications with real production traffic patterns without impacting production systems.
@@ -77,7 +77,7 @@ modified: '2026-04-28'
 name: GoReplay
 nav: Providers
 network: true
-overview: 'GoReplay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Traffic, Load Testing, Network Capture, and Open Source.
+overview: 'GoReplay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Traffic, Load Testing, Network Capture, and Open-Source.
 
 
   GoReplay''s developer surface includes documentation, GitHub presence, getting-started guide, pricing, support, and 2 more developer resources.'
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.1
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -103,9 +103,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goreplay/refs/heads/main/screenshots/goreplay-2026-06-20T182250.png
 security:
@@ -119,7 +119,7 @@ tags:
 - HTTP Traffic
 - Load Testing
 - Network Capture
-- Open Source
+- Open-Source
 - Traffic Replay
 website: https://goreplay.org
 ---

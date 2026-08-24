@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -169,8 +169,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-of-sy
 layout: provider
 mcp_servers:
 - description: ''
-  name: bank-of-sydney-mcp.yml
-  slug: bank-of-sydney-mcpyml
+  name: Bank of Sydney MCP Server
+  slug: bank-of-sydney-mcp-server
 modified: '2026-07-21'
 name: Bank of Sydney
 nav: Providers
@@ -188,7 +188,7 @@ scopes:
 score:
   band: thin
   composite: 36.9
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 34.4
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -215,8 +215,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 8
@@ -348,13 +348,13 @@ image: https://developers.angelcam.com/assets/logo-angelcam.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: angelcam-mcp.yml
-  slug: angelcam-mcpyml
+  name: AngelCam MCP Server
+  slug: angelcam-mcp-server
 modified: '2026-07-17'
 name: AngelCam
 nav: Providers
 network: true
-overview: 'AngelCam publishes 29 APIs on the [APIs.io](https://apis.io/) network, including active-service API, angelcameras API, arrow-clients API, and 26 more. Tagged areas include Company, Video Surveillance, Cameras, IP Camera, and Cloud Recording.
+overview: 'AngelCam publishes 29 APIs on the [APIs.io](https://apis.io/) network, including active-service API, angelcameras API, arrow-clients API, and 26 more. Tagged areas include Company, Video Surveillance, Camera, IP Camera, and Cloud Recording.
 
 
   The AngelCam catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -373,18 +373,18 @@ scopes:
   summary_line: 51 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 50.4
-  delta: -0.4
+  composite: 48.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
     contract_quality: 65.2
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 50.8
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -395,8 +395,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png
 security:
@@ -412,13 +412,13 @@ slug: angelcam
 tags:
 - Company
 - Video Surveillance
-- Cameras
+- Camera
 - IP Camera
 - Cloud Recording
 - Video Streaming
 - IoT
 - ONVIF
 - Security
-- Webhooks
+- Webhook
 website: https://angelcam.com
 ---

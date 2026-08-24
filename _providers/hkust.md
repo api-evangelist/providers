@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Centralized HKUST API platform run by the IT Services Office on Azure API Management. Departments publish application APIs to the portal, where users can discover APIs, read documentation, try them in
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -138,15 +138,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 22.9
+  previous_composite: 22.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/screenshots/hkust-2026-06-20T182813.png
 security:

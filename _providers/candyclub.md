@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the CandyClub Shopify storefront: a Universal Commerce Protocol (UCP) MCP endpoint plus read-only storefront browsing, governed by an llms.txt agent guide and Shopify'
@@ -87,13 +87,13 @@ image: https://candyclub.com/cdn/shop/files/cc_logo.webp?v=1767705737&width=300
 layout: provider
 mcp_servers:
 - description: ''
-  name: candyclub-mcp.yml
-  slug: candyclub-mcpyml
+  name: CandyClub MCP Server
+  slug: candyclub-mcp-server
 modified: '2026-07-18'
 name: CandyClub
 nav: Providers
 network: true
-overview: 'CandyClub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Candy, Confectionery, Ecommerce, and Subscription.
+overview: 'CandyClub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Candy, Confectionery, E-Commerce, and Subscription.
 
 
   CandyClub''s developer surface includes authentication and 10 more developer resources.'
@@ -105,22 +105,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 15.5
-  delta: -2.9
+  composite: 16.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.4
+  previous_composite: 16.6
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candyclub/refs/heads/main/screenshots/candyclub-2026-08-07T162931.png
 security:
@@ -137,7 +137,7 @@ tags:
 - Company
 - Candy
 - Confectionery
-- Ecommerce
+- E-Commerce
 - Subscription
 - Retail
 - Shopify

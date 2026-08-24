@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Railway public API is a GraphQL API that powers the Railway dashboard, enabling automation of projects, services, deployments, environments, variables, volumes, and team workflows.
@@ -118,7 +118,7 @@ modified: '2026-05-04'
 name: Railway
 nav: Providers
 network: true
-overview: 'Railway publishes 1 API on the [APIs.io](https://apis.io/) network: Public GraphQL API. Tagged areas include Platform as a Service, Deployments, GraphQL, Infrastructure, and DevOps.
+overview: 'Railway publishes 1 API on the [APIs.io](https://apis.io/) network: Public GraphQL API. Tagged areas include Platform-as-a-Service, Deployment, GraphQL, Infrastructure, and DevOps.
 
 
   Railway''s developer surface includes documentation, getting-started guide, signup flow, pricing, authentication, engineering blog, and 6 more developer resources.'
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.7
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -144,9 +144,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 27.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 27.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/railway/refs/heads/main/screenshots/railway-2026-06-20T192535.png
 security:
@@ -160,8 +160,8 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: railway
 tags:
-- Platform as a Service
-- Deployments
+- Platform-as-a-Service
+- Deployment
 - GraphQL
 - Infrastructure
 - DevOps

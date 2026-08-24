@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The DOL Open Data API v4 is the Department of Labor's modernized REST API replacing the retired developer.dol.gov APIv1 and APIv2. It is served from the DOL Data Portal at dataportal.dol.gov and expos
@@ -146,7 +146,7 @@ modified: '2026-04-28'
 name: Department of Labor
 nav: Providers
 network: true
-overview: 'Department of Labor publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include BLS, Employment, Enforcement, Federal Government, and Labor.
+overview: 'Department of Labor publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include BLS, Employment, Enforcement, Federal-Government, and Labor.
 
 
   The Department of Labor catalog on APIs.io includes 1 JSON-LD context.
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.5
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -175,15 +175,15 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 10.5
-  previous_composite: 19.2
+  previous_composite: 18.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-labor/refs/heads/main/screenshots/department-of-labor-2026-06-20T175920.png
 security:
@@ -196,7 +196,7 @@ tags:
 - BLS
 - Employment
 - Enforcement
-- Federal Government
+- Federal-Government
 - Labor
 - Open Data
 - Statistics

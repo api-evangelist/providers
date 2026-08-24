@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -192,9 +192,9 @@ description: ModernFi operates institution-owned deposit networks for U.S. banks
 image: https://modernfi.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: modernfi-mcp.yml
-  slug: modernfi-mcpyml
+- description: Official ModernFi documentation MCP server (Fern-hosted). Provides AI-powered search over the ModernFi developer documentation at docs.modernfi.com. This is a docs-search server, not a full API-operat
+  name: ModernFi MCP Server
+  slug: modernfi-mcp-server
 modified: '2026-07-20'
 name: ModernFi
 nav: Providers
@@ -207,7 +207,7 @@ random_paper: 12
 score:
   band: developing
   composite: 46.0
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -217,7 +217,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 42.2
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +234,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/screenshots/modernfi-2026-08-07T184015.png
 security:
@@ -254,7 +254,7 @@ tags:
 - Deposits
 - Fintech
 - Credit Unions
-- Financial Services
+- Financial-Services
 - Deposit Network
 - Treasury
 website: https://docs.modernfi.com

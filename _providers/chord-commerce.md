@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Chord's hosted Model Context Protocol server — a remote, OAuth-protected, read-only window into a customer's Chord data warehouse. Fourteen documented tools cover schema search, saved views, prior que
@@ -249,9 +249,9 @@ description: 'Chord is a New York / Santa Barbara-based commerce data and AI pla
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chord-commerce.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: chord-commerce-mcp.yml
-  slug: chord-commerce-mcpyml
+- description: 'Chord''s hosted MCP server. Gives an MCP client a read-only window into the customer''s Chord data warehouse: schema search, saved views, prior question/SQL pairs, org SQL conventions, table preview, re'
+  name: Chord MCP Server
+  slug: chord-mcp-server
 modified: '2026-08-13'
 name: Chord
 nav: Providers
@@ -280,7 +280,7 @@ scopes:
 score:
   band: developing
   composite: 48.2
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -290,13 +290,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 51.5
+  previous_composite: 48.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/screenshots/chord-commerce-2026-06-20T174322.png
 security:
@@ -324,9 +324,8 @@ tags:
 - Commerce Copilot
 - Solidus
 - Spree
-- Ruby On Rails
+- Ruby on Rails
 - Shopify
-- DTC
-- Direct To Consumer
+- Direct to Consumer
 website: https://www.chordcommerce.com
 ---

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Two live Model Context Protocol endpoints served from the same WordPress installation and advertised through RFC 9728 OAuth 2.0 Protected Resource Metadata. Both are OAuth-gated - an anonymous tools/l
@@ -162,8 +162,8 @@ image: https://www.redefinemeat.com/wp-content/uploads/2023/11/Europe_Retail_Sup
 layout: provider
 mcp_servers:
 - description: ''
-  name: redefine-meat-mcp.yml
-  slug: redefine-meat-mcpyml
+  name: Redefine Meat MCP Server
+  slug: redefine-meat-mcp-server
 modified: '2026-08-05'
 name: Redefine Meat
 nav: Providers
@@ -184,7 +184,7 @@ scopes:
 score:
   band: thin
   composite: 34.2
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 34.9
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     contracts:
@@ -204,8 +204,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -227,6 +227,6 @@ tags:
 - WooCommerce
 - WordPress
 - Retail
-- Model Context Protocol
+- MCP
 website: https://www.redefinemeat.com/
 ---

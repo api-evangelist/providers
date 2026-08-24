@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 24
 apis:
 - description: The Mp1 reference point between MEC applications and the MEC platform, standardised in ETSI GS MEC 011. Covers MEC service registration, deregistration, discovery and event notification (MecServiceMgm
@@ -336,8 +336,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: etsi-mcp.yml
-  slug: etsi-mcpyml
+  name: ETSI MCP Server
+  slug: etsi-mcp-server
 modified: '2026-07-25'
 name: ETSI
 nav: Providers
@@ -358,7 +358,7 @@ scopes:
 score:
   band: strong
   composite: 59.5
-  delta: 4.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -368,7 +368,7 @@ score:
     discoverability: 77.8
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 54.6
+  previous_composite: 59.5
   provenance:
     conformance: derived
     contracts:
@@ -384,8 +384,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png
 security:
@@ -418,7 +418,7 @@ tags:
 - CAPIF
 - NGSI-LD
 - IoT
-- Open Source
+- Open-Source
 - Europe
 - OpenAPI
 - Network Slicing

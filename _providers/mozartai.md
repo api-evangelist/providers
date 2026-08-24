@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Mozart AI
 nav: Providers
 network: true
-overview: 'Mozart AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, AI, Generative Audio, and Music Production.
+overview: 'Mozart AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Artificial Intelligence, Generative Audio, and Music Production.
 
 
   Mozart AI''s developer surface includes pricing, signup flow, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 7.6
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -80,20 +80,20 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 11.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mozartai/refs/heads/main/screenshots/mozartai-2026-08-07T184419.png
 slug: mozartai
 tags:
 - Company
 - Music
-- AI
+- Artificial Intelligence
 - Generative Audio
 - Music Production
 - Digital Audio Workstation
 - Consumer App
-- Media & Entertainment
+- Media and Entertainment
 website: https://mozartai.com/
 ---

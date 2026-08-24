@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The developer surface of the Toucan AI cloud - server-side token generation (POST /embed/generate-token with an x-api-key header), embed delivery via web components loaded from /embed/embed.js, and an
@@ -159,8 +159,8 @@ image: https://www.toucantoco.com/hubfs/Embedded%20Analytics%20your%20users%20wi
 layout: provider
 mcp_servers:
 - description: ''
-  name: toucantoco-mcp.yml
-  slug: toucantoco-mcpyml
+  name: Toucan Toco MCP Server
+  slug: toucan-toco-mcp-server
 modified: '2026-07-21'
 name: Toucan Toco
 nav: Providers
@@ -173,7 +173,7 @@ random_paper: 16
 score:
   band: thin
   composite: 34.3
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -183,12 +183,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 39.2
+  previous_composite: 34.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -207,6 +207,6 @@ tags:
 - Data Visualization
 - Data Storytelling
 - Dashboards
-- AI
+- Artificial Intelligence
 website: https://toucantoco.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -209,13 +209,13 @@ image: https://www.twicecommerce.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: rentle-mcp.yml
-  slug: rentle-mcpyml
+  name: Rentle MCP Server
+  slug: rentle-mcp-server
 modified: '2026-07-20'
 name: Rentle
 nav: Providers
 network: true
-overview: 'Rentle publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Categories API, Customers API, and 8 more. Tagged areas include Company, Rental, Commerce, E-commerce, and Circular Economy.
+overview: 'Rentle publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Categories API, Customers API, and 8 more. Tagged areas include Company, Rentals, Commerce, E-Commerce, and Circular Economy.
 
 
   The Rentle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -226,7 +226,7 @@ random_paper: 20
 score:
   band: developing
   composite: 40.3
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -236,7 +236,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 45.4
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,9 +247,9 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/screenshots/rentle-2026-08-17T081515.png
 security:
 - kind: authentication
@@ -263,14 +263,14 @@ security:
 slug: rentle
 tags:
 - Company
-- Rental
+- Rentals
 - Commerce
-- E-commerce
+- E-Commerce
 - Circular Economy
 - Resale
-- Subscriptions
+- Subscription
 - Bookings
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://www.twicecommerce.com/
 ---

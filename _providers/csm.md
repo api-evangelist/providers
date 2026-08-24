@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for image-to-3D, text-to-3D, and 3D world generation/simulation. API access is gated by CSM subscription plan tier. Documentation at https://docs.csm.ai/.
@@ -81,7 +81,7 @@ modified: '2026-05-08'
 name: Common Sense Machines
 nav: Providers
 network: true
-overview: 'Common Sense Machines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, 3D, World Models, Scene Generation, and Generative.
+overview: 'Common Sense Machines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, 3D, World Models, Scene Generation, and Generative.
 
 
   Common Sense Machines'' developer surface includes documentation, GitHub presence, and 6 more developer resources.'
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.3
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -107,9 +107,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -118,7 +118,7 @@ security:
   summary_line: DMARC
 slug: csm
 tags:
-- AI
+- Artificial Intelligence
 - 3D
 - World Models
 - Scene Generation

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: AI-optimized keyword and natural-language search results for products and other index sections, returned by search query with filtering, faceting, sorting, pagination and variations mapping.
@@ -268,13 +268,13 @@ image: https://constructor.com/hubfs/constructor-featured-image-2026.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: constructorio-mcp.yml
-  slug: constructorio-mcpyml
+  name: Constructor.io MCP Server
+  slug: constructorio-mcp-server
 modified: '2026-08-01'
 name: Constructor.io
 nav: Providers
 network: true
-overview: 'Constructor.io publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Constructor Search API, Constructor Autocomplete API, Constructor Browse API, and 14 more. Tagged areas include Company, Search, Ecommerce, Product Discovery, and Recommendations.
+overview: 'Constructor.io publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Constructor Search API, Constructor Autocomplete API, Constructor Browse API, and 14 more. Tagged areas include Company, Search, E-Commerce, Product Discovery, and Recommendations.
 
 
   Constructor.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
@@ -287,7 +287,7 @@ scopes:
 score:
   band: developing
   composite: 51.8
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -297,7 +297,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 22.4
-  previous_composite: 55.0
+  previous_composite: 51.8
   provenance:
     conformance: first-party
     contracts:
@@ -307,8 +307,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/screenshots/constructorio-2026-08-07T163752.png
 security:
@@ -328,7 +328,7 @@ slug: constructorio
 tags:
 - Company
 - Search
-- Ecommerce
+- E-Commerce
 - Product Discovery
 - Recommendations
 - Personalization

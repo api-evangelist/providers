@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-06-25'
 name: Tint
 nav: Providers
 network: true
-overview: 'Tint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Decisions API, Policies API, and 3 more. Tagged areas include Insurance, Embedded Insurance, InsurTech, Insurance as a Service, and Protection.
+overview: 'Tint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Decisions API, Policies API, and 3 more. Tagged areas include Insurance, Embedded Insurance, Insurtech, Insurance As A Service, and Protection.
 
 
   Tint''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.8
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 31.6
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -193,8 +193,8 @@ slug: tint
 tags:
 - Insurance
 - Embedded Insurance
-- InsurTech
-- Insurance as a Service
+- Insurtech
+- Insurance As A Service
 - Protection
 website: https://www.tint.ai
 ---

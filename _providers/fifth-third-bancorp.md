@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -233,8 +233,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fifth-thir
 layout: provider
 mcp_servers:
 - description: ''
-  name: fifth-third-bancorp-mcp.yml
-  slug: fifth-third-bancorp-mcpyml
+  name: Fifth Third Bancorp MCP Server
+  slug: fifth-third-bancorp-mcp-server
 modified: '2026-07-23'
 name: Fifth Third Bancorp
 nav: Providers
@@ -266,7 +266,7 @@ random_paper: 9
 score:
   band: developing
   composite: 42.9
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     commercial_clarity: 5.3
@@ -276,7 +276,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 47.5
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,8 +288,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png
 security:

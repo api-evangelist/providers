@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -530,7 +530,7 @@ modified: '2026-05-30'
 name: Aider
 nav: Providers
 network: true
-overview: 'Aider publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Editing API, Files API, and 11 more. Tagged areas include AI, AI Pair Programming, Developer Tools, CLI, and Command Line.
+overview: 'Aider publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Editing API, Files API, and 11 more. Tagged areas include Artificial Intelligence, AI Pair Programming, Developer Tools, CLI, and Command Line.
 
 
   The Aider catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -566,18 +566,18 @@ rules:
   slug: aider-rules
 score:
   band: thin
-  composite: 27.6
-  delta: -5.0
+  composite: 28.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 20.7
     developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 32.6
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -585,9 +585,9 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/screenshots/aider-2026-06-20T170838.png
 security:
 - kind: authentication
@@ -600,14 +600,14 @@ security:
   summary_line: TLSv1.3 · DNSSEC
 slug: aider
 tags:
-- AI
+- Artificial Intelligence
 - AI Pair Programming
 - Developer Tools
 - CLI
 - Command Line
 - Coding Assistant
 - Code Generation
-- Open Source
+- Open-Source
 - Python
 - Apache 2.0
 - LLM
@@ -615,7 +615,7 @@ tags:
 - BYO LLM
 - Terminal
 - Polyglot
-- Tree Sitter
+- Tree-sitter
 - Repository Map
 - Pair Programming
 website: https://aider.chat/

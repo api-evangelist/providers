@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The APIDynamics platform provides AI-driven API security and observability including API discovery, traffic analysis, real-time risk scoring, adaptive MFA, Zero Trust enforcement, shadow/zombie API de
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.6
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -124,9 +124,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 14.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-dynamics/refs/heads/main/screenshots/api-dynamics-2026-06-20T172204.png
 security:

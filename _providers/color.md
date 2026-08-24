@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Color''s partner-facing REST API — 13 operations over three surfaces: eligibility entries (list/create/read/update plus CSV or ANSI 834 file upload), population reporting (participants, samples, result'
@@ -177,8 +177,8 @@ image: https://www.color.com/wp-content/uploads/2021/02/Wordmark_Color_RGB.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: color-mcp.yml
-  slug: color-mcpyml
+  name: Color MCP Server
+  slug: color-mcp-server
 modified: '2026-08-15'
 name: Color
 nav: Providers
@@ -199,7 +199,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.5
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -209,7 +209,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 53.1
+  previous_composite: 54.5
   provenance:
     conformance: first-party
     contracts:
@@ -225,8 +225,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png
 security:

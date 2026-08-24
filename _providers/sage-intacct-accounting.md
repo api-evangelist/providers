@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Modern REST API for Sage Intacct's cloud accounting and financial management platform covering general ledger, AP, AR, cash management, orders, purchasing, projects, and dimensions. Uses OAuth 2.0 Bea
@@ -103,7 +103,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 22.4
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -113,9 +113,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 25.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage-intacct-accounting/refs/heads/main/screenshots/sage-intacct-accounting-2026-06-20T193328.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: The accounts API from PlateIQ — 3 operation(s) for accounts.
@@ -217,9 +217,9 @@ description: Ottimate (formerly Plate IQ) is an AI-powered accounts payable auto
 image: https://ottimate.com/wp-content/uploads/2025/09/ottimate-cover-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: plateiq-mcp.yml
-  slug: plateiq-mcpyml
+- description: Official hosted MCP server advertised by Ottimate for AI client integration (Claude Code, Cursor, etc.). Backed by Fern's docs MCP; it exposes the Ottimate developer documentation as a searchable tool
+  name: Ottimate Docs MCP Server
+  slug: ottimate-docs-mcp-server
 modified: '2026-07-20'
 name: PlateIQ
 nav: Providers
@@ -241,7 +241,7 @@ scopes:
 score:
   band: strong
   composite: 60.0
-  delta: 3.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -251,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 71.1
-  previous_composite: 56.4
+  previous_composite: 60.0
   provenance:
     conformance: first-party
     contracts:
@@ -267,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/screenshots/plateiq-2026-08-17T081300.png
 security:
@@ -292,7 +292,7 @@ tags:
 - Invoice Automation
 - Payments
 - Fintech
-- Restaurants
+- Restaurant
 - Procurement
 - Spend Management
 - ERP Integration

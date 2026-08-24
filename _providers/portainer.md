@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -329,7 +329,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -339,7 +339,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.7
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -347,8 +347,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/screenshots/portainer-2026-06-20T191931.png
 security:

@@ -28,8 +28,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -69,8 +69,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -121,8 +121,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -170,8 +170,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 35.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -211,8 +211,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 12.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -252,8 +252,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -288,11 +288,11 @@
      "slug": "flight-network",
      "description": "Flight Network (Flight Network Ltd, 145 King St. West Suite 2850, Toronto, Ontario, TICO Registration 50009248) is a Canadian online travel agency founded in 2005 and owned by Sweden's Etraveli Group since 2019. It retails flights plus hotels and car rentals to consumers across 75+ markets in 35 languages, sourcing air content through the GDSs - its own About Us page carries the Amadeus and Sabre marks and claims \"IATA Certified Travel Agents\" - and reaching buyers through its own sites, its iOS/Android apps, metasearch deep links from Skyscanner and Kayak, and third-party affiliate networks. It sits in the distribution chain as a retailer downstream of the GDSs and of its Etraveli sibling TripStack (the group's B2B LCC/NDC/virtual-interlining API), not as a content owner. Its API posture is honest and thin: no developer portal, no published API documentation, no machine-readable specification, and no exit path. developer/developers/docs/api.flightnetwork.com are all NXDOMAIN, /openapi.json and /swagger.json return 404, and the only machine-readable surfaces reachable are the consumer booking site, a security.txt pointing at security@etraveligroup.com, the iOS/Android app-link declarations, and - the one genuine find - a substantial provider-published llms.txt at the site root that hands agents a regional domain map, a product and ancillary catalogue, a support-escalation hierarchy, and explicit DO/DON'T directives for AI systems. Flight Network is thus addressable by agents as a referral target while remaining entirely uncallable. Any B2B or travel-seller access is arranged by commercial agreement off-web.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flight-network/refs/heads/main/screenshots/flight-network-2026-08-07T165345.png",
-     "score": 18.0,
+     "score": 19.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -301,8 +301,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 11.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -342,8 +342,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -384,8 +384,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 4.5,
      "agent_band": "human-only",
      "agent_dims": {

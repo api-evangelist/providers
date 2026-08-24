@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Model Context Protocol endpoint served on Edge Case's own host and advertised in its llms.txt. It is the Wix platform site MCP — it exposes site content, business details, site search and Wix busi
@@ -90,8 +90,8 @@ image: https://static.wixstatic.com/media/9347c4_84bea09e578d4f81b9a5a54b9ec2906
 layout: provider
 mcp_servers:
 - description: ''
-  name: edge-case-research-mcp.yml
-  slug: edge-case-research-mcpyml
+  name: Edge Case Research MCP Server
+  slug: edge-case-research-mcp-server
 modified: '2026-08-04'
 name: Edge Case Research
 nav: Providers
@@ -104,7 +104,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 11.4
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -114,11 +114,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 13.4
+  previous_composite: 11.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-case-research/refs/heads/main/screenshots/edge-case-research-2026-08-07T164729.png
 security:
@@ -139,6 +139,6 @@ tags:
 - Risk Management
 - Assurance
 - Space
-- Model Context Protocol
+- MCP
 website: https://www.ecr.ai/
 ---

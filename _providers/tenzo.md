@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Public REST API for accessing restaurant analytics data — locations, areas, sales, and forecast data — secured with OAuth 2.0 Bearer tokens. Partners integrate via the Authorization Code flow to pull '
@@ -118,9 +118,9 @@ description: Tenzo is a restaurant analytics and business-intelligence platform 
 image: https://support.gotenzo.com/wp-content/uploads/2026/05/TenzoLogo_RGB_orange.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: tenzo-mcp.yml
-  slug: tenzo-mcpyml
+- description: The Tenzo MCP server gives AI assistants read-only access to restaurant analytics, reviews, and manager logs through natural language. Users authorize with their Tenzo account via OAuth on first conne
+  name: Tenzo MCP Server
+  slug: tenzo-mcp-server
 modified: '2026-07-21'
 name: Tenzo
 nav: Providers
@@ -138,7 +138,7 @@ scopes:
 score:
   band: thin
   composite: 27.1
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -148,12 +148,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 29.1
+  previous_composite: 27.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -173,7 +173,7 @@ tags:
 - Reporting
 - Forecasting
 - Hospitality
-- Point of Sale
+- Point-of-Sale
 - Data Aggregation
 - MCP
 - Artificial Intelligence

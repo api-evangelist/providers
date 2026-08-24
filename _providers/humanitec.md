@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -374,7 +374,7 @@ modified: '2026-05-19'
 name: Humanitec
 nav: Providers
 network: true
-overview: 'Humanitec publishes 45 APIs on the [APIs.io](https://apis.io/) network, including AccountType API, ActiveResource API, Agents API, and 42 more. Tagged areas include Deployments, DevOps, Internal Developer Platform, Platform Engineering, and Platform Orchestrator.
+overview: 'Humanitec publishes 45 APIs on the [APIs.io](https://apis.io/) network, including AccountType API, ActiveResource API, Agents API, and 42 more. Tagged areas include Deployment, DevOps, Internal Developer Platform, Platform Engineering, and Platform Orchestrator.
 
 
   Humanitec''s developer surface includes developer portal, documentation, signup flow, engineering blog, and 7 more developer resources.'
@@ -389,18 +389,18 @@ rate_limits:
   slug: humanitec-rate-limits
 score:
   band: thin
-  composite: 31.1
-  delta: -2.7
+  composite: 33.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 50.4
     developer_ergonomics: 21.4
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.8
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -408,8 +408,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 45
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/screenshots/humanitec-2026-06-20T182935.png
 security:
@@ -419,7 +419,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: humanitec
 tags:
-- Deployments
+- Deployment
 - DevOps
 - Internal Developer Platform
 - Platform Engineering

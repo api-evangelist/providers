@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 382
   human_in_the_loop: 7
@@ -331,12 +331,12 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sendpulse.png
 layout: provider
 mcp_servers:
+- description: First-party remote MCP server operated by SendPulse over Streamable HTTP. It fronts the SendPulse REST API so an AI client can read statistics, manage contacts and deals, run campaigns and send messag
+  name: SendPulse MCP Server
+  slug: sendpulse-mcp-server
 - description: ''
-  name: sendpulse-mcp.yml
-  slug: sendpulse-mcpyml
-- description: ''
-  name: mcp
-  slug: mcp
+  name: SendPulse MCP Server
+  slug: sendpulse-mcp-server-2
 modified: '2026-08-13'
 name: SendPulse
 nav: Providers
@@ -365,7 +365,7 @@ scopes:
 score:
   band: exemplar
   composite: 75.7
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -375,7 +375,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 74.1
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -392,8 +392,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/screenshots/sendpulse-2026-08-17T080418.png
 security:
@@ -423,10 +423,10 @@ tags:
 - Web Push
 - Chatbots
 - CRM
-- Multichannel
+- Multi-Channel
 - Messaging
 - Online Courses
-- Pop-ups
+- Popups
 - Email Verification
 - MCP
 - Agent Ready

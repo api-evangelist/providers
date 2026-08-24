@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Terran R is a reusable medium-to-heavy lift launch vehicle offering up to 23,500 kg to LEO (downrange landing) and 5,500 kg to GTO, with a planned first launch from Launch Complex 16 at Cape Canaveral
@@ -106,7 +106,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -116,9 +116,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/screenshots/relativity-space-2026-06-20T192820.png
 security:

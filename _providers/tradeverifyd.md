@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -240,9 +240,9 @@ description: Tradeverifyd is a supply chain intelligence platform, formed by the
 image: https://app.tradeverifyd.com/tradeverifyd_logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: tradeverifyd-mcp.yml
-  slug: tradeverifyd-mcpyml
+- description: No official hosted MCP server was found for Tradeverifyd (no docs mention, no @modelcontextprotocol or registry entry, nothing in the tradeverifyd GitHub org). This is a candidate tool list derived fr
+  name: Tradeverifyd MCP Server
+  slug: tradeverifyd-mcp-server
 modified: '2026-07-21'
 name: Tradeverifyd
 nav: Providers
@@ -255,7 +255,7 @@ random_paper: 8
 score:
   band: developing
   composite: 43.9
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -265,7 +265,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 47.5
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,8 +276,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/screenshots/tradeverifyd-2026-08-17T082420.png
 security:

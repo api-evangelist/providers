@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Securely verifies client identity and issues access tokens via OAuth 2.0 client credentials grant for authenticating requests to all G-P APIs.
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.9
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -129,9 +129,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 29.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/g-p/refs/heads/main/screenshots/g-p-2026-06-20T181628.png
 security:

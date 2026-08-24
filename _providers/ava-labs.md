@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -339,8 +339,8 @@ image: https://avatars.githubusercontent.com/u/44277073?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: ava-labs-mcp.yml
-  slug: ava-labs-mcpyml
+  name: Ava Labs MCP Server
+  slug: ava-labs-mcp-server
 modified: '2026-07-18'
 name: Ava Labs
 nav: Providers
@@ -356,7 +356,7 @@ random_paper: 19
 score:
   band: strong
   composite: 54.6
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -366,7 +366,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 54.0
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -377,8 +377,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/screenshots/ava-labs-2026-07-25T201903.png
 security:

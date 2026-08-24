@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ modified: '2026-05-19'
 name: Google Colab
 nav: Providers
 network: true
-overview: 'Google Colab publishes 2 APIs on the [APIs.io](https://apis.io/) network: Files API and Permissions API. Tagged areas include Collaboration, Data Science, Google Cloud, Jupyter, and Machine Learning.
+overview: 'Google Colab publishes 2 APIs on the [APIs.io](https://apis.io/) network: Files API and Permissions API. Tagged areas include Collaboration, Data Science, Google Cloud, Jupyter, and Machine-Learning.
 
 
   The Google Colab catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -175,7 +175,7 @@ scopes:
 score:
   band: developing
   composite: 40.1
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -185,7 +185,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 46.0
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -193,9 +193,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/screenshots/google-colab-2026-06-20T182152.png
 security:
 - kind: authentication
@@ -216,7 +216,7 @@ tags:
 - Data Science
 - Google Cloud
 - Jupyter
-- Machine Learning
+- Machine-Learning
 - Notebooks
 - Python
 ---

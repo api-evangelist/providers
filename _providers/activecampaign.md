@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 3
@@ -893,7 +893,7 @@ jsonld:
   slug: activecampaign-sms-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: ActiveCampaign ships a first-party remote MCP server. The tool roster below is the provider's own published table at https://developers.activecampaign.com/page/mcp-available-tools/ (page updatedAt 202
   name: ActiveCampaign Remote MCP Server
   slug: activecampaign-remote-mcp-server
 modified: '2026-08-13'
@@ -950,18 +950,18 @@ rules:
   slug: activecampaign-spectral-rules
 score:
   band: exemplar
-  composite: 67.2
-  delta: -1.5
+  composite: 67.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 45.7
     developer_ergonomics: 69.0
     discoverability: 68.5
-    governance: 43.2
+    governance: 45.5
     operational_transparency: 76.3
-  previous_composite: 68.7
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -972,8 +972,8 @@ score:
       total: 36
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/screenshots/activecampaign-2026-06-20T164212.png
 security:
@@ -1024,9 +1024,9 @@ tags:
 - Sales Automation
 - Customer Experience
 - SMS Marketing
-- Ecommerce
+- E-Commerce
 - Segmentation
-- Webhooks
+- Webhook
 use_cases:
 - description: Automate email sequences to nurture leads through the sales funnel based on behavior.
   name: Lead Nurturing

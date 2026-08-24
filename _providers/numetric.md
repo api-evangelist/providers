@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Numetric's authentication-gated REST API, served from api.numetric.com. The base host responds with a Numetric API banner and requires credentials on every path.
@@ -60,27 +60,27 @@ modified: '2026-07-20'
 name: Numetric
 nav: Providers
 network: true
-overview: 'Numetric publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Data, SaaS, and API.
+overview: 'Numetric publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Data, and Software-as-a-Service.
 
 
   Numetric''s developer surface includes support and 3 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 8.8
-  delta: -0.7
+  composite: 7.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 68.5
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numetric/refs/heads/main/screenshots/numetric-2026-08-07T185739.png
 security:
@@ -93,7 +93,6 @@ tags:
 - Company
 - Analytics
 - Data
-- SaaS
-- API
+- Software-as-a-Service
 website: http://www.numetric.com/
 ---

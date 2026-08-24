@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ modified: '2026-05-11'
 name: Freshservice
 nav: Providers
 network: true
-overview: 'Freshservice publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Assets API, Changes API, and 5 more. Tagged areas include ITSM, IT Service Management, Help Desk, Ticketing, and Asset Management.
+overview: 'Freshservice publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Assets API, Changes API, and 5 more. Tagged areas include ITSM, Help Desk, Ticketing, Asset Management, and Change Management.
 
 
   Freshservice''s developer surface includes authentication, documentation, signup flow, pricing, support, and 8 more developer resources.'
@@ -167,7 +167,7 @@ random_paper: 8
 score:
   band: thin
   composite: 34.0
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -177,7 +177,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 33.6
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/screenshots/freshservice-2026-06-20T181545.png
 security:
@@ -209,7 +209,6 @@ security:
 slug: freshservice
 tags:
 - ITSM
-- IT Service Management
 - Help Desk
 - Ticketing
 - Asset Management

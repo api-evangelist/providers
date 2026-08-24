@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Revenue.io's programmable surface for guided selling, call analytics, rep performance data, conversation insights, and CRM activity synchronization. Exposed as RDNACadence Apex classes and Flow invoca
@@ -182,14 +182,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revenue-io.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: revenue-io-mcp.yml
-  slug: revenue-io-mcpyml
+- description: Revenue.io operates a live, remote Model Context Protocol server at https://app.ringdna.com/mcp. It was discovered from the RFC 9728 protected-resource metadata served at https://api.revenue.io/.well-
+  name: Revenue.io (ringDNA) MCP Server
+  slug: revenueio-ringdna-mcp-server
 modified: '2026-08-13'
 name: Revenue.io
 nav: Providers
 network: true
-overview: 'Revenue.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Revenue Intelligence, Sales Engagement, Conversation Intelligence, RevOps, and Call Analytics.
+overview: 'Revenue.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Revenue Intelligence, Sales Engagement, Conversation Intelligence, Revenue Operations, and Call Analytics.
 
 
   Revenue.io''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, changelog, and 27 more developer resources.'
@@ -210,7 +210,7 @@ scopes:
 score:
   band: thin
   composite: 33.5
-  delta: -13.0
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -220,13 +220,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 46.5
+  previous_composite: 33.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/screenshots/revenue-io-2026-06-20T193047.png
 security:
 - kind: authentication
@@ -246,7 +246,7 @@ tags:
 - Revenue Intelligence
 - Sales Engagement
 - Conversation Intelligence
-- RevOps
+- Revenue Operations
 - Call Analytics
 - Real-Time Guidance
 - CRM Integration

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 9
@@ -3935,13 +3935,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-comprehend-mcp.yml
-  slug: amazon-comprehend-mcpyml
+  name: Amazon Comprehend MCP Server
+  slug: amazon-comprehend-mcp-server
 modified: '2026-06-20'
 name: Amazon Comprehend
 nav: Providers
 network: true
-overview: 'Amazon Comprehend publishes 84 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API, #X Amz Target=Comprehend 20171127.BatchDetectEntities API, #X Amz Target=Comprehend 20171127.BatchDetectKeyPhrases API, and 81 more. Tagged areas include Machine Learning, Natural Language Processing, NLP, and Text Analysis.
+overview: 'Amazon Comprehend publishes 84 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API, #X Amz Target=Comprehend 20171127.BatchDetectEntities API, #X Amz Target=Comprehend 20171127.BatchDetectKeyPhrases API, and 81 more. Tagged areas include Machine-Learning, Natural Language Processing, NLP, and Text Analysis.
 
 
   The Amazon Comprehend catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -3973,18 +3973,18 @@ rules:
   slug: amazon-comprehend-spectral-rules
 score:
   band: developing
-  composite: 49.2
-  delta: -5.2
+  composite: 48.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 69.9
     developer_ergonomics: 45.2
-    discoverability: 68.5
-    governance: 41.7
+    discoverability: 59.3
+    governance: 45.5
     operational_transparency: 18.4
-  previous_composite: 54.4
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3994,9 +3994,9 @@ score:
       marker_coverage: 0.0
       total: 84
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/screenshots/amazon-comprehend-2026-07-25T200001.png
 security:
 - kind: authentication
@@ -4017,7 +4017,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-comprehend
 tags:
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - NLP
 - Text Analysis

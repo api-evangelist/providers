@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ modified: '2026-05-02'
 name: Natural Resources Conservation Service
 nav: Providers
 network: true
-overview: 'Natural Resources Conservation Service publishes 3 APIs on the [APIs.io](https://apis.io/) network: Query API, SOAP API, and Spatial API. Tagged areas include Federal Government, Agriculture, Conservation, Soil, and Natural Resources.
+overview: 'Natural Resources Conservation Service publishes 3 APIs on the [APIs.io](https://apis.io/) network: Query API, SOAP API, and Spatial API. Tagged areas include Federal-Government, Agriculture, Conservation, Soil, and Natural Resources.
 
 
   Natural Resources Conservation Service''s developer surface includes documentation and 6 more developer resources.'
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.2
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -141,7 +141,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 25.4
+  previous_composite: 25.2
   provenance:
     agentic_access: derived
     contracts:
@@ -155,8 +155,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natural-resources-conservation-service/refs/heads/main/screenshots/natural-resources-conservation-service-2026-06-20T190054.png
 security:
@@ -166,7 +166,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: natural-resources-conservation-service
 tags:
-- Federal Government
+- Federal-Government
 - Agriculture
 - Conservation
 - Soil

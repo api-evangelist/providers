@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -380,7 +380,7 @@ modified: '2026-06-13'
 name: US Department of Transportation
 nav: Providers
 network: true
-overview: 'US Department of Transportation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including childSeats API, equipment API, ewr API, and 4 more. Tagged areas include Government, Transportation, Trucking, Aviation, and VehicleSafety.
+overview: 'US Department of Transportation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including childSeats API, equipment API, ewr API, and 4 more. Tagged areas include Government, Transportation, Trucking, Aviation, and Vehicle Safety.
 
 
   The US Department of Transportation catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -410,7 +410,7 @@ rules:
 score:
   band: thin
   composite: 33.0
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -420,7 +420,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 36.1
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -434,8 +434,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dot/refs/heads/main/screenshots/dot-2026-06-20T180157.png
 security:
@@ -449,8 +449,8 @@ tags:
 - Transportation
 - Trucking
 - Aviation
-- VehicleSafety
+- Vehicle Safety
 - Transit
-- OpenData
+- Open Data
 website: https://www.transportation.gov/
 ---

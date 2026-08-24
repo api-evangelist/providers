@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -183,13 +183,13 @@ image: https://liquiddeath.com/cdn/shop/files/Liquid-Death-Preview-Image_7033558
 layout: provider
 mcp_servers:
 - description: ''
-  name: liquid-death-mcp.yml
-  slug: liquid-death-mcpyml
+  name: Liquid Death MCP Server
+  slug: liquid-death-mcp-server
 modified: '2026-08-01'
 name: Liquid Death
 nav: Providers
 network: true
-overview: 'Liquid Death publishes 1 API on the [APIs.io](https://apis.io/) network: Storefront Read-Only JSON API. Tagged areas include Company, Beverages, Consumer Packaged Goods, Direct to Consumer, and Ecommerce.
+overview: 'Liquid Death publishes 1 API on the [APIs.io](https://apis.io/) network: Storefront Read-Only JSON API. Tagged areas include Company, Beverages, Consumer Packaged Goods, Direct to Consumer, and E-Commerce.
 
 
   Liquid Death''s developer surface includes documentation, getting-started guide, authentication, FAQ, support, engineering blog, and 27 more developer resources.'
@@ -201,18 +201,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.6
-  delta: 6.4
+  composite: 44.7
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 16.7
     contract_quality: 54.3
     developer_ergonomics: 42.3
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 37.2
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,9 +223,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/screenshots/liquid-death-2026-08-07T171733.png
 security:
 - kind: authentication
@@ -242,7 +242,7 @@ tags:
 - Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Retail
 - Agentic Commerce
 - Universal Commerce Protocol

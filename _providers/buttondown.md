@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -445,7 +445,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 71.3
-  delta: 11.0
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -455,7 +455,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 92.1
-  previous_composite: 60.3
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -472,9 +472,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:
 - kind: authentication
@@ -497,9 +497,9 @@ tags:
 - Markdown
 - Newsletters
 - Paid Subscriptions
-- SaaS
+- Software-as-a-Service
 - Subscribers
-- Webhooks
+- Webhook
 - Segmentation
 - Developer Tools
 - Marketing

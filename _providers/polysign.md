@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The ABC Accounts API from PolySign — 3 operation(s) for abc accounts.
@@ -228,13 +228,13 @@ image: https://www.polysign.io/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: polysign-mcp.yml
-  slug: polysign-mcpyml
+  name: PolySign MCP Server
+  slug: polysign-mcp-server
 modified: '2026-08-02'
 name: PolySign
 nav: Providers
 network: true
-overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include digital-assets, blockchain, institutional-custody, settlement, and escrow.
+overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include Digital Assets, Blockchain, institutional-custody, Settlement, and Escrow.
 
 
   PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 18 more developer resources.'
@@ -247,7 +247,7 @@ scopes:
 score:
   band: thin
   composite: 30.1
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -257,7 +257,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 30.5
+  previous_composite: 30.1
   provenance:
     conformance: derived
     contracts:
@@ -273,8 +273,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -287,15 +287,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: polysign
 tags:
-- digital-assets
-- blockchain
+- Digital Assets
+- Blockchain
 - institutional-custody
-- settlement
-- escrow
-- capital-markets
-- payments
-- fintech
-- distributed-ledger
+- Settlement
+- Escrow
+- Capital Markets
+- Payments
+- Fintech
+- Distributed Ledger
 - atomicnet
 website: https://www.polysign.io/
 ---

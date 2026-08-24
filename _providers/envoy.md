@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -251,7 +251,7 @@ modified: '2026-05-19'
 name: Envoy
 nav: Providers
 network: true
-overview: 'Envoy publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Chat API, Clusters API, and 9 more. Tagged areas include Cloud Native, Load Balancing, Proxy, and Service Mesh.
+overview: 'Envoy publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Chat API, Clusters API, and 9 more. Tagged areas include Cloud-Native, Load Balancing, Proxy, and Service Mesh.
 
 
   The Envoy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -281,7 +281,7 @@ rules:
 score:
   band: thin
   composite: 37.7
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -291,7 +291,7 @@ score:
     discoverability: 63.0
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 44.8
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -299,9 +299,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/screenshots/envoy-2026-06-20T180740.png
 security:
 - kind: authentication
@@ -314,7 +314,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: envoy
 tags:
-- Cloud Native
+- Cloud-Native
 - Load Balancing
 - Proxy
 - Service Mesh

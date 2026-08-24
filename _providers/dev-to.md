@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -232,18 +232,18 @@ rules:
   slug: dev-to-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.7
-  delta: -4.3
+  composite: 31.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 67.9
     developer_ergonomics: 14.3
     discoverability: 59.3
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 36.0
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -255,8 +255,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/screenshots/dev-to-2026-06-20T175954.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ modified: '2026-07-25'
 name: Steadfast Group
 nav: Providers
 network: true
-overview: 'Steadfast Group publishes 1 API on the [APIs.io](https://apis.io/) network: Steadfast Flood Risk Tracker API. Tagged areas include Insurance, Australia, Broker, Insurance Broker Network, and General Insurance.
+overview: 'Steadfast Group publishes 1 API on the [APIs.io](https://apis.io/) network: Steadfast Flood Risk Tracker API. Tagged areas include Insurance, Australia, Brokers, Insurance Broker Network, and General Insurance.
 
 
   Steadfast Group''s developer surface includes engineering blog, legal docs, tooling, support, authentication, and 29 more developer resources.'
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 45.9
-  delta: 8.1
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -214,7 +214,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 37.8
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,9 +231,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Steadfast Group Authentication
@@ -247,7 +247,7 @@ slug: steadfast-group
 tags:
 - Insurance
 - Australia
-- Broker
+- Brokers
 - Insurance Broker Network
 - General Insurance
 - Property and Casualty

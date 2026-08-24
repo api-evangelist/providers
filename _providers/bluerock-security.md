@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -131,20 +131,20 @@ overview: 'Bluerock Security is profiled on the [APIs.io](https://apis.io/) netw
 random_paper: 3
 score:
   band: thin
-  composite: 28.2
-  delta: -0.1
+  composite: 29.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 29.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluerock-security/refs/heads/main/screenshots/bluerock-security-2026-07-25T203502.png
 security:
@@ -163,7 +163,6 @@ tags:
 - AI Agents
 - Agent Security
 - MCP
-- Model Context Protocol
 - Observability
 - Runtime Security
 - AI Governance

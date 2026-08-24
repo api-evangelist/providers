@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The 8base GraphQL API provides auto-generated queries, mutations, and subscriptions for every data table in a workspace, covering full CRUD operations out-of-the-box. Each workspace is assigned a uniq
@@ -88,7 +88,7 @@ modified: 2026-06-14
 name: 8base
 nav: Providers
 network: true
-overview: '8base publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Backend as a Service, Low-Code, Serverless, and App Builder.
+overview: '8base publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Backend-as-a-Service, Low-Code, Serverless, and App Builder.
 
 
   8base''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 22.5
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -112,9 +112,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 23.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/8base/refs/heads/main/screenshots/8base-2026-06-20T162859.png
 security:
@@ -125,7 +125,7 @@ security:
 slug: 8base
 tags:
 - GraphQL
-- Backend as a Service
+- Backend-as-a-Service
 - Low-Code
 - Serverless
 - App Builder

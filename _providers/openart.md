@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'OpenArt''s remote Model Context Protocol server, letting AI agents generate and edit images and video, discover models, manage the library and projects, and check account credits — authorized with the '
@@ -111,13 +111,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openart.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: openart-mcp.yml
-  slug: openart-mcpyml
+  name: Openart MCP Server
+  slug: openart-mcp-server
 modified: '2026-07-20'
 name: Openart
 nav: Providers
 network: true
-overview: 'Openart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Image Generation, and Video Generation.
+overview: 'Openart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Image-Generation, and Video Generation.
 
 
   Openart''s developer surface includes authentication, documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
@@ -129,23 +129,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 24.8
-  delta: -0.9
+  composite: 25.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 25.7
+  previous_composite: 25.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/screenshots/openart-2026-08-07T190531.png
 security:
@@ -162,10 +162,9 @@ tags:
 - Company
 - Artificial Intelligence
 - Generative AI
-- Image Generation
+- Image-Generation
 - Video Generation
 - Creative Tools
 - MCP
-- Model Context Protocol
 website: https://openart.ai/
 ---

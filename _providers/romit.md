@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: The Application API from Romit — 1 operation(s) for application.
@@ -153,7 +153,7 @@ scopes:
 score:
   band: emerging
   composite: 25.2
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 26.8
+  previous_composite: 25.2
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +177,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,6 +200,6 @@ tags:
 - Chargebacks
 - Fraud Prevention
 - Invoicing
-- Subscriptions
+- Subscription
 website: https://romit.io
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -233,8 +233,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: tmt-id-mcp.yml
-  slug: tmt-id-mcpyml
+  name: TMT ID MCP Server
+  slug: tmt-id-mcp-server
 modified: '2026-07-25'
 name: TMT ID
 nav: Providers
@@ -247,7 +247,7 @@ random_paper: 3
 score:
   band: developing
   composite: 46.8
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -257,7 +257,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 43.3
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,8 +274,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/screenshots/tmt-id-2026-08-17T082402.png
 security:

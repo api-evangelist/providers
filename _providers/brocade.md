@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -103,6 +103,10 @@ collections:
   name: Brocade Fabric OS REST API
   slug: open-brocade
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/broadcom/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -183,14 +187,14 @@ finops:
   slug: brocade-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brocade.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-21'
 name: Brocade
 nav: Providers
 network: true
-overview: 'Brocade publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chassis API, Interfaces API, Operations API, and 3 more. Tagged areas include Data Center, Directors, Fibre Channel, Network Automation, and Networking.
+overview: 'Brocade publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chassis API, Interfaces API, Operations API, and 3 more. Tagged areas include Data-Center, Directors, Fibre Channel, Network Automation, and Networking.
 
 
-  Brocade''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, engineering blog, and 11 more developer resources.'
+  Brocade''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, engineering blog, and 12 more developer resources.'
 plans:
 - name: Brocade Plans Pricing
   plan_count: 3
@@ -203,7 +207,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.3
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -213,7 +217,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 44.5
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +225,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/screenshots/brocade-2026-06-20T173715.png
 security:
@@ -236,7 +240,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: brocade
 tags:
-- Data Center
+- Data-Center
 - Directors
 - Fibre Channel
 - Network Automation

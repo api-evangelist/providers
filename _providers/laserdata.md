@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: User account, sign-in, sessions, settings
@@ -288,13 +288,13 @@ image: https://assets.laserdata.com/laserdata_dark.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: laserdata-mcp.yml
-  slug: laserdata-mcpyml
+  name: LaserData MCP Server
+  slug: laserdata-mcp-server
 modified: '2026-07-19'
 name: LaserData
 nav: Providers
 network: true
-overview: 'LaserData publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Audit API, and 15 more. Tagged areas include Streaming, Message Streaming, Event Streaming, Data Infrastructure, and Real Time.
+overview: 'LaserData publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Audit API, and 15 more. Tagged areas include Streaming, Message Streaming, Event Streaming, Data Infrastructure, and Real-Time.
 
 
   The LaserData catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -305,7 +305,7 @@ random_paper: 0
 score:
   band: strong
   composite: 56.7
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -315,7 +315,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 57.6
+  previous_composite: 56.7
   provenance:
     conformance: derived
     contracts:
@@ -325,8 +325,8 @@ score:
       total: 18
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/screenshots/laserdata-2026-07-25T224540.png
 security:
@@ -348,7 +348,7 @@ tags:
 - Message Streaming
 - Event Streaming
 - Data Infrastructure
-- Real Time
+- Real-Time
 - Apache Iggy
 - Rust
 - Cloud Infrastructure

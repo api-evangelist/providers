@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OpenAI-compatible HTTP inference gateway. One client works against every upstream provider; per-workflow routing rules pick the model, provider, and infrastructure, with a layered exact/prefix/semanti
@@ -125,7 +125,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 25.8
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -135,11 +135,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 24.4
+  previous_composite: 25.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulus-labs/refs/heads/main/screenshots/cumulus-labs-2026-07-25T210923.png
 security:
@@ -158,7 +158,7 @@ tags:
 - LLM
 - AI Infrastructure
 - GPU
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - Fine-Tuning
 - API Gateway

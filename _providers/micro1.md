@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -156,14 +156,14 @@ description: 'micro1 is an AI-native talent and human-data company. Its AI recru
 image: https://cdn.prod.website-files.com/6a04bd23eb9d40f76dac1249/6a21b7903ec396493b15c2a1_OG%20(52)%20(1).jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: micro1-mcp.yml
-  slug: micro1-mcpyml
+- description: micro1 operates a live, anonymous (unauthenticated) remote MCP server on its documentation host at https://ai-recruiter.micro1.ai/mcp. It responded to a real `initialize` handshake and a real `tools/l
+  name: micro1 API
+  slug: micro1-api
 modified: '2026-07-31'
 name: micro1
 nav: Providers
 network: true
-overview: 'micro1 publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, recruiting, hiring, ai-interviews, and talent-assessment.
+overview: 'micro1 publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Recruiting, Hiring, AI Interviews, and Talent Assessment.
 
 
   The micro1 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -174,7 +174,7 @@ random_paper: 20
 score:
   band: developing
   composite: 45.5
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -184,7 +184,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 47.3
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,8 +195,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/screenshots/micro1-2026-08-07T172821.png
 security:
@@ -211,16 +211,16 @@ security:
 slug: micro1
 tags:
 - Company
-- recruiting
-- hiring
-- ai-interviews
-- talent-assessment
-- candidate-screening
-- applicant-tracking
-- human-resources
-- proctoring
-- webhooks
+- Recruiting
+- Hiring
+- AI Interviews
+- Talent Assessment
+- Candidate Screening
+- Applicant Tracking
+- Human Resources
+- Proctoring
+- Webhook
 - agent-native
-- ai-training-data
+- AI Training Data
 website: https://www.micro1.ai/
 ---

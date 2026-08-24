@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ rules:
 score:
   band: developing
   composite: 42.1
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -229,7 +229,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 11.8
-  previous_composite: 49.1
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -243,9 +243,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/screenshots/bill-2026-06-20T173240.png
 security:
 - kind: authentication

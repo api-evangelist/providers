@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -161,8 +161,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: liberty-global-mcp.yml
-  slug: liberty-global-mcpyml
+  name: Liberty Global MCP Server
+  slug: liberty-global-mcp-server
 modified: '2026-07-25'
 name: Liberty Global
 nav: Providers
@@ -175,7 +175,7 @@ random_paper: 5
 score:
   band: thin
   composite: 38.1
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -185,7 +185,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 35.2
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -202,8 +202,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/screenshots/liberty-global-2026-08-07T171613.png
 security:

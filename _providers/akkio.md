@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Akkio's current public API, served and documented as "Akkio Public API (Beta)". Covers projects (including the Chat Explore custom-instruction fields), asynchronous model training, and Chat Explore na
@@ -190,7 +190,7 @@ modified: '2026-08-13'
 name: Akkio
 nav: Providers
 network: true
-overview: 'Akkio publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public API (Beta), Datasets API, and Models API. Tagged areas include Company, Ai Apps, Machine Learning, Predictive Analytics, and No Code.
+overview: 'Akkio publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public API (Beta), Datasets API, and Models API. Tagged areas include Company, Ai Apps, Machine-Learning, Predictive Analytics, and No-Code.
 
 
   Akkio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -226,8 +226,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/screenshots/akkio-2026-07-25T195516.png
 security:
@@ -251,9 +251,9 @@ slug: akkio
 tags:
 - Company
 - Ai Apps
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
-- No Code
+- No-Code
 - Data Science
 - Marketing
 - Media

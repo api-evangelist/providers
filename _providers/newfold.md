@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Newfold Labs WordPress MCP module (wp-module-mcp) registers an MCP server, id blu-mcp, on the WordPress REST route /wp-json/blu/mcp of every site running a Newfold brand plugin. It exposes WordPre
@@ -162,9 +162,9 @@ json_schemas:
   slug: newfold-standards-frontmatter.schema
 layout: provider
 mcp_servers:
-- description: ''
-  name: newfold-mcp.yml
-  slug: newfold-mcpyml
+- description: Newfold Labs ships an MCP server as a WordPress module (newfold-labs/wp-module-mcp, Composer, GPL-2.0-or-later) that brand plugins — Bluehost and siblings — load into the customer's own WordPress inst
+  name: Newfold BLU MCP Server
+  slug: newfold-blu-mcp-server
 modified: '2026-08-13'
 name: Newfold
 nav: Providers
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.1
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -195,13 +195,13 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 30.4
+  previous_composite: 29.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/screenshots/newfold-2026-08-07T185102.png
 security:
@@ -227,8 +227,8 @@ tags:
 - Digital Marketing
 - Small Business
 - WordPress
-- Open Source
-- Model Context Protocol
-- eCommerce
+- Open-Source
+- MCP
+- E-Commerce
 website: https://newfold.com
 ---

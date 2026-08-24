@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 6
@@ -639,13 +639,13 @@ image: https://cdn.harri.com/10c3cd15-ec51-41c0-ba18-3227e664ad83/images/icons/a
 layout: provider
 mcp_servers:
 - description: ''
-  name: harri-mcp.yml
-  slug: harri-mcpyml
+  name: Harri MCP Server
+  slug: harri-mcp-server
 modified: '2026-08-04'
 name: Harri
 nav: Providers
 network: true
-overview: 'Harri publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Annual Rates API, Bank Accounts API, and 75 more. Tagged areas include Human Resources, Workforce Management, Hospitality, Restaurants, and Scheduling.
+overview: 'Harri publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Annual Rates API, Bank Accounts API, and 75 more. Tagged areas include Human Resources, Workforce Management, Hospitality, Restaurant, and Scheduling.
 
 
   The Harri catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -665,7 +665,7 @@ scopes:
 score:
   band: developing
   composite: 49.2
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -675,7 +675,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 50.6
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -686,8 +686,8 @@ score:
       total: 78
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png
 security:
@@ -704,7 +704,7 @@ tags:
 - Human Resources
 - Workforce Management
 - Hospitality
-- Restaurants
+- Restaurant
 - Scheduling
 - Time and Attendance
 - Payroll

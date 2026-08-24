@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 16
 apis:
 - description: The Access codes API from Navigate — 1 operation(s) for access codes.
@@ -184,13 +184,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/navigate.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: navigate-mcp.yml
-  slug: navigate-mcpyml
+  name: Navigate MCP Server
+  slug: navigate-mcp-server
 modified: '2026-07-20'
 name: Navigate
 nav: Providers
 network: true
-overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access codes API, Assets API, Lennar API, and 13 more. Tagged areas include Company, Proptech, Construction, Real Estate, and Artificial Intelligence.
+overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access codes API, Assets API, Lennar API, and 13 more. Tagged areas include Company, PropTech, Construction, Real-Estate, and Artificial Intelligence.
 
 
   Navigate''s developer surface includes support and 10 more developer resources.'
@@ -198,7 +198,7 @@ random_paper: 7
 score:
   band: thin
   composite: 29.6
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 31.2
+  previous_composite: 29.6
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +218,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/screenshots/navigate-2026-08-07T184730.png
 security:
@@ -234,12 +234,11 @@ security:
 slug: navigate
 tags:
 - Company
-- Proptech
+- PropTech
 - Construction
-- Real Estate
+- Real-Estate
 - Artificial Intelligence
 - Field Service
 - Construction Technology
-- API
 website: https://www.navigate.ai/
 ---

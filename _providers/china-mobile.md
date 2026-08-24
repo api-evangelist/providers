@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -198,8 +198,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: china-mobile-mcp.yml
-  slug: china-mobile-mcpyml
+  name: China Mobile MCP Server
+  slug: china-mobile-mcp-server
 modified: '2026-07-25'
 name: China Mobile
 nav: Providers
@@ -214,18 +214,18 @@ overview: 'China Mobile publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 16
 score:
   band: developing
-  composite: 44.9
-  delta: 6.8
+  composite: 46.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 30.3
     contract_quality: 22.8
     developer_ergonomics: 70.8
-    discoverability: 72.2
+    discoverability: 83.3
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 38.1
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,9 +242,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/screenshots/china-mobile-2026-08-07T163418.png
 security:
 - kind: authentication

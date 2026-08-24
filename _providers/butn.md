@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 12.3
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -96,15 +96,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butn/refs/heads/main/screenshots/butn-2026-07-25T204119.png
 security:
@@ -122,7 +122,7 @@ tags:
 - Accounts Payable
 - B2B BNPL
 - Business Lending
-- Cashflow
+- Cash Flow
 - Working Capital
 website: https://www.butn.co/
 ---

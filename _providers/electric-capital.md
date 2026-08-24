@@ -34,6 +34,6 @@ tags:
 - DeFi
 - Blockchain Infrastructure
 - Developer Tools
-- AI
+- Artificial Intelligence
 - North America
 ---

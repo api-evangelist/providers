@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Sastrify platform provides SaaS management capabilities including software discovery, license optimization, vendor negotiations, and benchmark insights. It offers native integrations with accounti
@@ -160,7 +160,7 @@ rules:
 score:
   band: emerging
   composite: 24.9
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -170,10 +170,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 32.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 24.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/screenshots/sastrify-2026-06-20T193441.png
 security:
 - kind: domain-security

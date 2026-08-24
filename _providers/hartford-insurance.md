@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-04-28'
 name: Hartford Insurance
 nav: Providers
 network: true
-overview: 'Hartford Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Insurance, Property and Casualty, Group Benefits, and Financial Services.
+overview: 'Hartford Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Insurance, Property and Casualty, Group Benefits, and Financial-Services.
 
 
   Hartford Insurance''s developer surface includes product news and 7 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 2.6
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 6.2
+  previous_composite: 2.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hartford-insurance/refs/heads/main/screenshots/hartford-insurance-2026-06-20T182523.png
 security:
@@ -112,6 +112,6 @@ tags:
 - Insurance
 - Property and Casualty
 - Group Benefits
-- Financial Services
+- Financial-Services
 website: https://www.thehartford.com
 ---

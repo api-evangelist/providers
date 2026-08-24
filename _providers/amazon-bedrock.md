@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ modified: '2026-05-19'
 name: Amazon Bedrock
 nav: Providers
 network: true
-overview: 'Amazon Bedrock publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Converse API, Custom Models API, Foundation Models API, and 3 more. Tagged areas include AI, Foundation Models, Generative AI, LLM, and Machine Learning.
+overview: 'Amazon Bedrock publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Converse API, Custom Models API, Foundation Models API, and 3 more. Tagged areas include Artificial Intelligence, Foundation Models, Generative AI, LLM, and Machine-Learning.
 
 
   The Amazon Bedrock catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -260,7 +260,7 @@ rules:
 score:
   band: strong
   composite: 56.8
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -270,7 +270,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 62.7
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     contracts:
@@ -278,9 +278,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/screenshots/amazon-bedrock-2026-06-20T171613.png
 security:
 - kind: domain-security
@@ -297,11 +297,11 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-bedrock
 tags:
-- AI
+- Artificial Intelligence
 - Foundation Models
 - Generative AI
 - LLM
-- Machine Learning
+- Machine-Learning
 - RAG
 - Agents
 - Responsible AI

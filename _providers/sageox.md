@@ -17,10 +17,10 @@ agent_readiness:
     rate_limit_signal: verified
     reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-19'
+  score: 57.9
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 3
@@ -195,8 +195,8 @@ description: Sageox is a company surfaced as a portfolio company of canaan-partn
 layout: provider
 mcp_servers:
 - description: ''
-  name: sageox-mcp.yml
-  slug: sageox-mcpyml
+  name: SageOx MCP (Ox MCP)
+  slug: sageox-mcp-ox-mcp
 modified: '2026-07-17'
 name: Sageox
 nav: Providers
@@ -210,15 +210,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.1
-  delta: -1.9
+  composite: 22.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
     contract_quality: 58.6
     developer_ergonomics: 1.8
-    discoverability: 40.7
+    discoverability: 51.9
     governance: 16.7
     operational_transparency: 0.0
   needs_work:
@@ -227,7 +227,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 23.0
+  previous_composite: 22.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +238,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

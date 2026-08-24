@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -184,8 +184,8 @@ image: https://www.handy.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: handy-mcp.yml
-  slug: handy-mcpyml
+  name: handy MCP Server
+  slug: handy-mcp-server
 modified: '2026-07-19'
 name: handy
 nav: Providers
@@ -200,18 +200,18 @@ overview: 'handy publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 7
 score:
   band: developing
-  composite: 41.6
-  delta: 0.1
+  composite: 42.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
     contract_quality: 59.3
     developer_ergonomics: 51.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 41.5
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +222,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/screenshots/handy-2026-07-25T220617.png
 security:
@@ -249,8 +249,8 @@ tags:
 - Installations
 - On-Demand
 - Gig Economy
-- Orders
-- Webhooks
+- Order
+- Webhook
 - Retail
 - Angi
 website: https://handy.com

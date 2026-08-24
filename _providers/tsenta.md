@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tsenta's backend API (api.autojobs.me) powers the job-matching, resume tailoring, and application-submission agent, and is exposed to AI clients as a hosted MCP server authorized over OAuth 2.0 (autho
@@ -147,13 +147,13 @@ image: https://tsenta.com/og-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: tsenta-mcp.yml
-  slug: tsenta-mcpyml
+  name: Tsenta MCP Server
+  slug: tsenta-mcp-server
 modified: '2026-07-21'
 name: Tsenta
 nav: Providers
 network: true
-overview: 'Tsenta publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Jobs, Recruiting, Job Search, and AI Agents.
+overview: 'Tsenta publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Recruiting, Job Search, and AI Agents.
 
 
   Tsenta''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 19 more developer resources.'
@@ -161,7 +161,7 @@ random_paper: 4
 score:
   band: thin
   composite: 33.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -171,12 +171,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 34.1
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -194,7 +194,7 @@ security:
 slug: tsenta
 tags:
 - Company
-- Jobs
+- Job
 - Recruiting
 - Job Search
 - AI Agents

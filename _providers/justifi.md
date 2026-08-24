@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -329,8 +329,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/justifi.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: justifi-mcp.yml
-  slug: justifi-mcpyml
+  name: JustiFi MCP Server
+  slug: justifi-mcp-server
 modified: '2026-07-19'
 name: JustiFi
 nav: Providers
@@ -345,18 +345,18 @@ overview: 'JustiFi publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 10
 score:
   band: developing
-  composite: 52.0
-  delta: 3.0
+  composite: 50.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 30.3
     contract_quality: 55.2
     developer_ergonomics: 75.6
-    discoverability: 81.5
+    discoverability: 63.0
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 49.0
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,8 +373,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/screenshots/justifi-2026-07-25T223338.png
 security:
@@ -395,6 +395,5 @@ tags:
 - Payment Facilitation
 - Payouts
 - Developers
-- API
 website: https://www.justifi.ai
 ---

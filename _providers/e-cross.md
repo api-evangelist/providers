@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,12 +60,12 @@ modified: '2026-07-18'
 name: e-CROSS
 nav: Providers
 network: true
-overview: e-CROSS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cross-Border Commerce, E-commerce, Merchant of Record, and Payments.
+overview: e-CROSS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cross-Border Commerce, E-Commerce, Merchant of Record, and Payments.
 random_paper: 7
 score:
   band: minimal
   composite: 2.3
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -75,7 +75,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.8
+  previous_composite: 2.3
   provenance:
     mcp: first-party
   regulatory:
@@ -84,9 +84,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e-cross/refs/heads/main/screenshots/e-cross-2026-07-25T212618.png
 security:
 - kind: domain-security
@@ -97,7 +97,7 @@ slug: e-cross
 tags:
 - Company
 - Cross-Border Commerce
-- E-commerce
+- E-Commerce
 - Merchant of Record
 - Payments
 - Logistics

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Calypso Workstation is the end-user desktop application for the Nasdaq Calypso platform. It delivers real-time market data, trade entry, order management, risk monitoring, P&L, scenario analysis, and '
@@ -73,7 +73,7 @@ modified: '2026-04-23'
 name: Calypso Workstation
 nav: Providers
 network: true
-overview: 'Calypso Workstation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, Financial Technology, Market Data, Portfolio Management, and Risk Management.
+overview: 'Calypso Workstation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, Financial Technology, Market Data, Portfolio-Management, and Risk Management.
 
 
   Calypso Workstation''s developer surface includes developer portal and 5 more developer resources.'
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.4
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -99,15 +99,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.6
+  previous_composite: 14.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/screenshots/calypso-workstation-2026-06-20T173905.png
 security:
@@ -120,7 +120,7 @@ tags:
 - Capital Markets
 - Financial Technology
 - Market Data
-- Portfolio Management
+- Portfolio-Management
 - Risk Management
 - Trading
 website: https://www.calypso.com/

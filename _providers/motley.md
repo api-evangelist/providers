@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: SLayer is Motley's open-core, agent-first semantic layer and query engine. Agents and applications describe measures, dimensions, and filters and SLayer compiles and runs the correct SQL across many d
@@ -170,9 +170,9 @@ description: 'Motley is a Zurich-based company building a governed semantic laye
 image: https://raw.githubusercontent.com/MotleyAI/slayer/main/docs/images/slayer-hero.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: motley-mcp.yml
-  slug: motley-mcpyml
+- description: SLayer runs as a Model Context Protocol (MCP) server so AI agents (Claude, Cursor, etc.) can discover and query data conversationally. It exposes the same tools across two transports.
+  name: Motley MCP Server
+  slug: motley-mcp-server
 modified: '2026-07-20'
 name: Motley
 nav: Providers
@@ -190,7 +190,7 @@ scopes:
 score:
   band: thin
   composite: 34.0
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -200,13 +200,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 37.0
+  previous_composite: 34.0
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/screenshots/motley-2026-08-07T184333.png
 security:

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -231,13 +231,13 @@ image: https://cello.so/wp-content/uploads/2022/12/Group-174900-1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cello-mcp.yml
-  slug: cello-mcpyml
+  name: Cello MCP Server
+  slug: cello-mcp-server
 modified: '2026-08-13'
 name: Cello
 nav: Providers
 network: true
-overview: 'Cello publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Events API, New Users API, Referral Codes API, and 2 more. Tagged areas include Company, Referral Marketing, Affiliate Marketing, Growth, and SaaS.
+overview: 'Cello publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Events API, New Users API, Referral Codes API, and 2 more. Tagged areas include Company, Referral Marketing, Affiliate Marketing, Growth, and Software-as-a-Service.
 
 
   Cello''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
@@ -258,7 +258,7 @@ scopes:
 score:
   band: strong
   composite: 59.4
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -268,7 +268,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 60.0
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,8 +279,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/screenshots/cello-2026-07-25T204908.png
 security:
@@ -298,7 +298,7 @@ tags:
 - Referral Marketing
 - Affiliate Marketing
 - Growth
-- SaaS
+- Software-as-a-Service
 - Attribution
 - Partner Programs
 - Ai Enterprise Software

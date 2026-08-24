@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Therabody's agent-facing commerce server, implementing the Universal Commerce Protocol (UCP) shopping service over MCP on the Therabody storefront host. Anonymous tools/list returns 13 tools with full
@@ -119,8 +119,8 @@ image: https://www.therabody.com/cdn/shop/files/theragun-social-media.jpg?v=1742
 layout: provider
 mcp_servers:
 - description: ''
-  name: therabody-mcp.yml
-  slug: therabody-mcpyml
+  name: Therabody MCP Server
+  slug: therabody-mcp-server
 modified: '2026-08-05'
 name: Therabody
 nav: Providers
@@ -138,7 +138,7 @@ scopes:
 score:
   band: thin
   composite: 35.6
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -148,7 +148,7 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 35.8
+  previous_composite: 35.6
   provenance:
     conformance: derived
     mcp: first-party
@@ -159,8 +159,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -181,7 +181,7 @@ tags:
 - Retail
 - Shopify
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - GraphQL
 - Universal Commerce Protocol
 website: https://www.therabody.com/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Notams API from Skymerse — 9 operation(s) for notams.
@@ -167,8 +167,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skymerse.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: skymerse-mcp.yml
-  slug: skymerse-mcpyml
+  name: Skymerse MCP Server
+  slug: skymerse-mcp-server
 modified: '2026-07-21'
 name: Skymerse
 nav: Providers
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.0
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -198,7 +198,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 51.6
+  previous_composite: 51.0
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +208,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skymerse/refs/heads/main/screenshots/skymerse-2026-08-17T081918.png
 security:
@@ -229,7 +229,7 @@ tags:
 - Flight Operations
 - Aeronautical
 - Weather
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 website: https://skymerse.gitbook.io/notamify-api
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -262,13 +262,13 @@ image: https://avatars.githubusercontent.com/u/94627721?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: opusclip-mcp.yml
-  slug: opusclip-mcpyml
+  name: OpusClip MCP Server
+  slug: opusclip-mcp-server
 modified: '2026-07-20'
 name: OpusClip
 nav: Providers
 network: true
-overview: 'OpusClip publishes 11 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 8 more. Tagged areas include Company, Consumer, Video, AI, and Video Editing.
+overview: 'OpusClip publishes 11 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 8 more. Tagged areas include Company, Consumer, Video, Artificial Intelligence, and Video Editing.
 
 
   The OpusClip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -283,7 +283,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.0
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -293,7 +293,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 59.5
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,8 +304,8 @@ score:
       total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/screenshots/opusclip-2026-08-07T190820.png
 security:
@@ -326,10 +326,10 @@ tags:
 - Company
 - Consumer
 - Video
-- AI
+- Artificial Intelligence
 - Video Editing
 - Short-Form Video
-- Social Media
+- Social-Media
 - Content Creation
 - MCP
 - Developer API

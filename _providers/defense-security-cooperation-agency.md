@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Security Cooperation Agency that describes its mission, leadership, programs, and partners. The site links to news, the security cooperation library, and the FMS p
@@ -91,7 +91,7 @@ modified: '2026-07-25'
 name: Defense Security Cooperation Agency
 nav: Providers
 network: true
-overview: 'Defense Security Cooperation Agency publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DSCA, Federal Government, and Foreign Military Sales.
+overview: 'Defense Security Cooperation Agency publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DSCA, Federal-Government, and Foreign Military Sales.
 
 
   Defense Security Cooperation Agency''s developer surface includes product news and 8 more developer resources.'
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.3
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -117,15 +117,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.6
+  previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/screenshots/defense-security-cooperation-agency-2026-06-20T175837.png
 security:
@@ -138,7 +138,7 @@ tags:
 - Defense
 - Department of Defense
 - DSCA
-- Federal Government
+- Federal-Government
 - Foreign Military Sales
 - International
 - Security Cooperation

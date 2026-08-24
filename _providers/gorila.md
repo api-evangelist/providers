@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'B2B REST API for investment-portfolio consolidation and analytics: create portfolios, ingest transactions, and retrieve NAV, P&L, TWR, and IRR time series. Authenticated with a static API key in the A'
@@ -119,13 +119,13 @@ image: https://gorila.com.br/img/preview-site.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: gorila-mcp.yml
-  slug: gorila-mcpyml
+  name: Gorila MCP Server
+  slug: gorila-mcp-server
 modified: '2026-07-19'
 name: Gorila
 nav: Providers
 network: true
-overview: 'Gorila publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investments, Portfolio Management, and Wealth Management.
+overview: 'Gorila publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investments, Portfolio-Management, and Wealth Management.
 
 
   Gorila''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, signup flow, and 12 more developer resources.'
@@ -133,7 +133,7 @@ random_paper: 8
 score:
   band: thin
   composite: 30.3
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -143,11 +143,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 30.1
+  previous_composite: 30.3
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorila/refs/heads/main/screenshots/gorila-2026-07-25T220111.png
 security:
@@ -164,11 +164,10 @@ tags:
 - Company
 - Fintech
 - Investments
-- Portfolio Management
+- Portfolio-Management
 - Wealth Management
 - Financial Data
 - Investment Consolidation
 - Brazil
-- API
 website: https://gorila.com.br
 ---

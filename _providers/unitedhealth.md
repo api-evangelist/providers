@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -208,18 +208,18 @@ rules:
   slug: unitedhealth-spectral-rules
 score:
   band: thin
-  composite: 32.6
-  delta: -5.0
+  composite: 33.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 68.5
     developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 37.6
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -233,9 +233,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 34.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/screenshots/unitedhealth-2026-06-20T200101.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 31
 apis:
 - description: The balance entity holds the total funds available in your workspace and can be calculated as the sum of its transactions (cash-in + cash-out). Therefore, you can also interpret Transactions as balanc
@@ -351,8 +351,8 @@ image: https://www.starkbank.com/static/icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: stark-bank-mcp.yml
-  slug: stark-bank-mcpyml
+  name: Stark Bank MCP Server
+  slug: stark-bank-mcp-server
 modified: '2026-07-21'
 name: Stark Bank
 nav: Providers
@@ -368,7 +368,7 @@ random_paper: 19
 score:
   band: developing
   composite: 49.8
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -378,7 +378,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 50.8
+  previous_composite: 49.8
   provenance:
     conformance: first-party
     contracts:
@@ -394,8 +394,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/screenshots/stark-bank-2026-08-17T082105.png
 security:
@@ -421,6 +421,6 @@ tags:
 - Boleto
 - Banking as a Service
 - Brazil
-- Financial Services
+- Financial-Services
 website: https://www.starkbank.com
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -156,9 +156,9 @@ jsonld:
   slug: avora-agent-forge-catalog
 layout: provider
 mcp_servers:
-- description: ''
-  name: avora-agent-forge-mcp.yml
-  slug: avora-agent-forge-mcpyml
+- description: Solana token scans, signed assessments, user-approved evidence orders, and verified commerce status.
+  name: AVORA Agent Forge MCP Server
+  slug: avora-agent-forge-mcp-server
 modified: '2026-08-09'
 name: AVORA Agent Forge
 nav: Providers
@@ -178,7 +178,7 @@ random_paper: 5
 score:
   band: developing
   composite: 40.5
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -188,7 +188,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 39.9
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

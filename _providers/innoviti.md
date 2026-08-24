@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ modified: '2026-07-19'
 name: Innoviti
 nav: Providers
 network: true
-overview: 'Innoviti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Payment Aggregator, and Point of Sale.
+overview: 'Innoviti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Payment Aggregator, and Point-of-Sale.
 
 
   Innoviti''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -81,7 +81,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 15.3
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -91,7 +91,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 16.7
+  previous_composite: 15.3
   provenance:
     conformance: first-party
   regulatory:
@@ -100,8 +100,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innoviti/refs/heads/main/screenshots/innoviti-2026-07-25T222511.png
 security:
@@ -115,7 +115,7 @@ tags:
 - Fintech
 - Payments
 - Payment Aggregator
-- Point of Sale
+- Point-of-Sale
 - Retail
 - UPI
 - India

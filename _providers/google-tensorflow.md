@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ modified: '2026-05-19'
 name: Google TensorFlow
 nav: Providers
 network: true
-overview: 'Google TensorFlow publishes 2 APIs on the [APIs.io](https://apis.io/) network: Model Status API and Prediction API. Tagged areas include AI, Deep Learning, Google, Machine Learning, and Model Serving.
+overview: 'Google TensorFlow publishes 2 APIs on the [APIs.io](https://apis.io/) network: Model Status API and Prediction API. Tagged areas include Artificial Intelligence, Deep Learning, Google, Machine-Learning, and Model Serving.
 
 
   The Google TensorFlow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -157,7 +157,7 @@ rules:
 score:
   band: thin
   composite: 34.3
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -167,7 +167,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 40.3
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -175,9 +175,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/screenshots/google-tensorflow-2026-06-20T182241.png
 security:
 - kind: domain-security
@@ -186,10 +186,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: google-tensorflow
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - Google
-- Machine Learning
+- Machine-Learning
 - Model Serving
-- Open Source
+- Open-Source
 ---

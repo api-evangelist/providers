@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Core Redis commands and data structure operations. Redis supports strings, hashes, lists, sets, sorted sets, streams, and more. The primary interface is the Redis Serialization Protocol (RESP) over TC
@@ -217,7 +217,7 @@ rules:
 score:
   band: thin
   composite: 31.1
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -227,10 +227,10 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 28.9
-  previous_composite: 37.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 31.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/screenshots/redis-2026-06-20T192736.png
 security:
 - kind: domain-security
@@ -252,7 +252,7 @@ tags:
 - In-Memory
 - Key-Value Store
 - NoSQL
-- Open Source
+- Open-Source
 - Streaming
 website: https://redis.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -109,7 +109,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 22.1
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -119,7 +119,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 23.9
+  previous_composite: 22.1
   provenance:
     conformance: first-party
   regulatory:
@@ -128,8 +128,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meniga/refs/heads/main/screenshots/meniga-2026-08-07T172522.png
 security:
@@ -149,7 +149,7 @@ tags:
 - Personal Finance Management
 - Open Banking
 - Transaction Enrichment
-- Financial Services
+- Financial-Services
 - Banking
 - SDK
 website: https://www.meniga.com

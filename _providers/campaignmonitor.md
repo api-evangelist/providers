@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, subscriber lists, transactional emails, segments, journeys, templates, and campaign performance analytics.
@@ -216,8 +216,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: campaignmonitor-mcp.yml
-  slug: campaignmonitor-mcpyml
+  name: Campaign Monitor MCP Server
+  slug: campaign-monitor-mcp-server
 modified: '2026-08-13'
 name: Campaign Monitor
 nav: Providers
@@ -246,7 +246,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.9
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -256,7 +256,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 69.2
+  previous_composite: 72.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -266,8 +266,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/screenshots/campaignmonitor-2026-06-20T173912.png
 security:
@@ -297,7 +297,7 @@ tags:
 - Newsletters
 - Automation
 - Marketing Automation
-- Webhooks
+- Webhook
 - Email Deliverability
 - Marketing
 website: https://www.campaignmonitor.com/

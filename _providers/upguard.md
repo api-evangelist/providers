@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -298,9 +298,9 @@ description: UpGuard is a cybersecurity platform that helps organizations manage
 image: https://content.upguard.com/hubfs/open-graph/home.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: upguard-mcp.yml
-  slug: upguard-mcpyml
+- description: 'No official UpGuard MCP server was found (official MCP registry search returned zero results; no @upguard npm packages; no MCP mention in the API docs). This is a candidate tool list derived from the '
+  name: UpGuard MCP Server
+  slug: upguard-mcp-server
 modified: '2026-07-21'
 name: UpGuard
 nav: Providers
@@ -337,8 +337,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/screenshots/upguard-2026-08-17T082637.png
 security:

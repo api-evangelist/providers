@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: company
   title: ''
   type: Website
@@ -84,19 +88,19 @@ created: '2026-07-17'
 description: 'Own (formerly OwnBackup, now Own from Salesforce) is a SaaS data protection platform that provides backup, recovery, archiving, sandbox seeding, and data security and compliance for cloud applications including Salesforce, Microsoft Dynamics 365, and ServiceNow. Founded in 2015 and acquired by Salesforce in 2024, Own helps organizations protect and manage the data held in their business-critical SaaS systems against loss, corruption, and compliance risk. Own is delivered as a managed product rather than a public developer API platform: it operates a public system status page and a trust center listing its security certifications (SOC 2, ISO 27001/27701, FedRAMP, HDS, GDPR, HIPAA/HITECH) and a published vulnerability disclosure policy, but does not currently publish an open, self-serve REST/OpenAPI developer surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/own-ownbackup.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-21'
 name: Own (OwnBackup)
 nav: Providers
 network: true
 overview: 'Own (OwnBackup) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Data Protection, Backup, and Recovery.
 
 
-  Own (OwnBackup)''s developer surface includes support, engineering blog, pricing, and 9 more developer resources.'
+  Own (OwnBackup)''s developer surface includes support, engineering blog, pricing, and 10 more developer resources.'
 random_paper: 11
 score:
   band: emerging
   composite: 15.1
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -106,9 +110,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 17.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/own-ownbackup/refs/heads/main/screenshots/own-ownbackup-2026-08-07T191153.png
 security:
@@ -134,6 +138,6 @@ tags:
 - Data Security
 - Compliance
 - Salesforce
-- SaaS
+- Software-as-a-Service
 website: https://www.owndata.com/
 ---

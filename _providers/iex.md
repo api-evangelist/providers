@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 17.4
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -102,15 +102,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 20.7
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iex/refs/heads/main/screenshots/iex-2026-07-25T222057.png
 security:
@@ -127,7 +127,7 @@ tags:
 - Trading
 - Equities
 - Options
-- Financial Services
+- Financial-Services
 - Market Infrastructure
 website: https://www.iex.io/
 ---

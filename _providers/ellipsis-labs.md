@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-19'
 name: Ellipsis Labs
 nav: Providers
 network: true
-overview: 'Ellipsis Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Solana, Blockchain, and DEX.
+overview: 'Ellipsis Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Solana, Blockchain, and DEX.
 
 
   Ellipsis Labs'' developer surface includes documentation, CLI, and 15 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 13.3
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -126,15 +126,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 16.5
+  previous_composite: 13.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsis-labs/refs/heads/main/screenshots/ellipsis-labs-2026-07-25T213147.png
 security:
@@ -149,7 +149,7 @@ security:
 slug: ellipsis-labs
 tags:
 - Company
-- Defi
+- DeFi
 - Solana
 - Blockchain
 - DEX

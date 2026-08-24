@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 15
 apis:
 - description: The Agent API from Langdock — 2 operation(s) for agent.
@@ -327,9 +327,9 @@ description: Langdock is an enterprise AI platform — "The Platform for AI Adop
 image: https://www.langdock.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: langdock-mcp.yml
-  slug: langdock-mcpyml
+- description: Langdock operates an official hosted Model Context Protocol server — the Langdock Agent MCP Server — that exposes the agents in a workspace as MCP tools to any MCP-compatible client. Authentication re
+  name: Langdock MCP Server
+  slug: langdock-mcp-server
 modified: '2026-07-19'
 name: Langdock
 nav: Providers
@@ -349,7 +349,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.2
-  delta: -13.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -359,7 +359,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 62.4
+  previous_composite: 49.2
   provenance:
     conformance: derived
     contracts:
@@ -369,9 +369,9 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png
 security:
 - kind: authentication
@@ -397,9 +397,9 @@ tags:
 - Enterprise AI
 - LLM
 - Agents
-- Model Context Protocol
+- MCP
 - Workflows
-- Knowledge Management
+- Knowledge-Management
 - Germany
 - Europe
 website: https://www.langdock.com/

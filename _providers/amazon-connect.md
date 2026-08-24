@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -1188,7 +1188,7 @@ modified: '2026-05-19'
 name: Amazon Connect
 nav: Providers
 network: true
-overview: 'Amazon Connect publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Agent Statuses API, Authentication API, Contact Flows API, and 9 more. Tagged areas include Chat, Contact Center, Customer Service, Voice, and AI.
+overview: 'Amazon Connect publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Agent Statuses API, Authentication API, Contact Flows API, and 9 more. Tagged areas include Chat, Contact Center, Customer Service, Voice, and Artificial Intelligence.
 
 
   The Amazon Connect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1228,18 +1228,18 @@ rules:
   slug: amazon-connect-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: -6.4
+  composite: 47.5
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 36.0
     developer_ergonomics: 50.0
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 53.5
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1247,9 +1247,9 @@ score:
       derived: 12
       marker_coverage: 100.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:
 - kind: authentication
@@ -1274,7 +1274,7 @@ tags:
 - Contact Center
 - Customer Service
 - Voice
-- AI
+- Artificial Intelligence
 - Omnichannel
 use_cases:
 - description: Deploy an omnichannel contact center handling voice, chat, email, and messaging with intelligent routing to the right agents.

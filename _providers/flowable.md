@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 4
@@ -577,7 +577,7 @@ modified: '2026-06-13'
 name: Flowable
 nav: Providers
 network: true
-overview: 'Flowable publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Accounts API, Acquire and Execute API, and 61 more. Tagged areas include BPM, Business Process Management, Workflow, BPMN, and CMMN.
+overview: 'Flowable publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Accounts API, Acquire and Execute API, and 61 more. Tagged areas include BPM, Business Process Management, Workflows, BPMN, and CMMN.
 
 
   The Flowable catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -607,7 +607,7 @@ rules:
 score:
   band: developing
   composite: 46.9
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -617,7 +617,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 51.8
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -625,8 +625,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 64
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/screenshots/flowable-2026-06-20T181326.png
 security:
@@ -646,13 +646,13 @@ slug: flowable
 tags:
 - BPM
 - Business Process Management
-- Workflow
+- Workflows
 - BPMN
 - CMMN
 - DMN
 - Process Automation
 - Case Management
-- Open Source
+- Open-Source
 - REST API
 website: https://www.flowable.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-05-19'
 name: Egnyte
 nav: Providers
 network: true
-overview: 'Egnyte publishes 5 APIs on the [APIs.io](https://apis.io/) network, including File System API, Groups API, Links API, and 2 more. Tagged areas include File Sharing, Content Collaboration, Enterprise Storage, Document Management, and Governance.
+overview: 'Egnyte publishes 5 APIs on the [APIs.io](https://apis.io/) network, including File System API, Groups API, Links API, and 2 more. Tagged areas include File Sharing, Content Collaboration, Enterprise Storage, Document-Management, and Governance.
 
 
   Egnyte''s developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
@@ -203,7 +203,7 @@ scopes:
 score:
   band: thin
   composite: 30.6
-  delta: -16.0
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -213,7 +213,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 46.6
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -221,9 +221,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/screenshots/egnyte-2026-06-20T180523.png
 security:
 - kind: authentication
@@ -239,7 +239,7 @@ tags:
 - File Sharing
 - Content Collaboration
 - Enterprise Storage
-- Document Management
+- Document-Management
 - Governance
 - Data Security
 website: https://www.egnyte.com

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Non-custodial yield REST API to discover yields, construct unsigned transaction flows (enter/exit/manage), and read unified balances across 80+ networks.
@@ -160,8 +160,8 @@ image: https://yield.xyz/images/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: yieldxyz-mcp.yml
-  slug: yieldxyz-mcpyml
+  name: Yield.xyz MCP Server
+  slug: yieldxyz-mcp-server
 modified: '2026-07-21'
 name: Yield.xyz
 nav: Providers
@@ -182,7 +182,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.0
-  delta: -12.7
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -192,13 +192,13 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 48.7
+  previous_composite: 36.0
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/screenshots/yieldxyz-2026-08-17T083017.png
 security:
 - kind: authentication
@@ -218,7 +218,7 @@ tags:
 - Yield
 - Blockchain
 - Restaking
-- Vaults
+- Vault
 - Web3 Infrastructure
 - Non-Custodial
 website: https://yield.xyz

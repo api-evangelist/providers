@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'REST API for prediction market data across Kalshi and Polymarket: full-text search over markets, events, and series; historical orderbook snapshots, top-of-book timeseries, trades, and OHLCV bars; wha'
@@ -134,8 +134,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oddpool.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: oddpool-mcp.yml
-  slug: oddpool-mcpyml
+  name: Oddpool MCP Server
+  slug: oddpool-mcp-server
 modified: '2026-07-20'
 name: Oddpool
 nav: Providers
@@ -151,7 +151,7 @@ random_paper: 18
 score:
   band: developing
   composite: 41.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -161,7 +161,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 40.9
+  previous_composite: 41.1
   provenance:
     conformance: derived
     mcp: derived
@@ -171,8 +171,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/screenshots/oddpool-2026-08-07T185952.png
 security:

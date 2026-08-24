@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -170,8 +170,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rabobank-a
 layout: provider
 mcp_servers:
 - description: ''
-  name: rabobank-australia-mcp.yml
-  slug: rabobank-australia-mcpyml
+  name: Rabobank Australia MCP Server
+  slug: rabobank-australia-mcp-server
 modified: '2026-07-21'
 name: Rabobank Australia
 nav: Providers
@@ -189,7 +189,7 @@ scopes:
 score:
   band: developing
   composite: 40.7
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 39.6
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     contracts:
@@ -215,8 +215,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png
 security:

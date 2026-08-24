@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -2212,6 +2212,82 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/salesforce-vocabulary.yaml
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/airkit/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/buddy-media/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/cimulate/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/clockwise/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/convergence/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/demandware/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/exact-target/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/own-ownbackup/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/pardot/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/regrello/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/salesforce-automation/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/salesforce-commerce-cloud/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/salesforce-experience-cloud/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/salesforce-sales-cloud/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/spiff/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/spindle-technologies/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/steelbrick/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/vlocity/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/zoomin/
 created: '2025-06-05'
 description: Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics and AI. Its Lightning Platform exposes REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and subscribe to org data programmatically.
 examples:
@@ -17922,19 +17998,19 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: salesforce-mcp.yml
-  slug: salesforce-mcpyml
-modified: '2026-08-13'
+  name: Salesforce MCP Server
+  slug: salesforce-mcp-server
+modified: '2026-08-21'
 name: Salesforce
 nav: Providers
 network: true
-overview: 'Salesforce publishes 265 APIs on the [APIs.io](https://apis.io/) network, including REST API, SOAP API, Bulk API, and 262 more. Tagged areas include Fortune 500, AI, Analytics, Cloud, and Commerce.
+overview: 'Salesforce publishes 265 APIs on the [APIs.io](https://apis.io/) network, including REST API, SOAP API, Bulk API, and 262 more. Tagged areas include Fortune 500, Artificial Intelligence, Analytics, Cloud, and Commerce.
 
 
   The Salesforce catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 95 more developer resources.'
+  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 114 more developer resources.'
 plans:
 - name: Salesforce Plans Pricing
   plan_count: 6
@@ -18010,7 +18086,7 @@ scopes:
 score:
   band: exemplar
   composite: 84.6
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -18020,7 +18096,7 @@ score:
     discoverability: 87.0
     governance: 59.1
     operational_transparency: 86.8
-  previous_composite: 80.8
+  previous_composite: 84.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -18031,8 +18107,8 @@ score:
       total: 256
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:
@@ -18055,7 +18131,7 @@ security:
 slug: salesforce
 tags:
 - Fortune 500
-- AI
+- Artificial Intelligence
 - Analytics
 - Cloud
 - Commerce

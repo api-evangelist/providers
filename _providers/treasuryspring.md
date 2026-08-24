@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -240,9 +240,9 @@ description: TreasurySpring is a digital platform for institutional cash managem
 image: https://treasuryspring.com/hubfs/cropped-TS_Icon_Master_01-32x32.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: treasuryspring-mcp.yml
-  slug: treasuryspring-mcpyml
+- description: TreasurySpring's MCP server lets AI agents (Claude, ChatGPT, Cursor and other MCP-compatible clients) access an authorised user's read-only investment data via the Model Context Protocol. It is a thin
+  name: TreasurySpring MCP Server
+  slug: treasuryspring-mcp-server
 modified: '2026-07-21'
 name: TreasurySpring
 nav: Providers
@@ -258,7 +258,7 @@ random_paper: 0
 score:
   band: developing
   composite: 44.7
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -268,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 46.8
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/screenshots/treasuryspring-2026-08-17T082431.png
 security:
@@ -305,7 +305,7 @@ tags:
 - Cash Management
 - Treasury
 - Investments
-- Financial Services
+- Financial-Services
 - Fixed Term Funds
 - Payments
 - MCP

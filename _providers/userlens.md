@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: User identification, company grouping, and event ingestion
@@ -150,8 +150,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/userlens.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: userlens-mcp.yml
-  slug: userlens-mcpyml
+  name: Userlens MCP Server
+  slug: userlens-mcp-server
 modified: '2026-07-21'
 name: Userlens
 nav: Providers
@@ -164,7 +164,7 @@ random_paper: 20
 score:
   band: thin
   composite: 36.6
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -174,7 +174,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 35.1
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     contracts:
@@ -184,8 +184,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

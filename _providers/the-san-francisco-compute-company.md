@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -274,9 +274,9 @@ description: The San Francisco Compute Company (SF Compute) runs large-scale, ve
 image: https://sfcompute.com/icon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: the-san-francisco-compute-company-mcp.yml
-  slug: the-san-francisco-compute-company-mcpyml
+- description: SF Compute publishes a hosted MCP server for its documentation (served by the Mintlify docs platform). It exposes documentation search to MCP-capable agents. There is no first-party MCP server for the
+  name: The San Francisco Compute Company MCP Server
+  slug: the-san-francisco-compute-company-mcp-server
 modified: '2026-07-21'
 name: The San Francisco Compute Company
 nav: Providers
@@ -289,7 +289,7 @@ random_paper: 2
 score:
   band: strong
   composite: 55.7
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -299,7 +299,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 56.6
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,8 +310,8 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/screenshots/the-san-francisco-compute-company-2026-08-17T082343.png
 security:
@@ -330,7 +330,7 @@ tags:
 - Compute
 - Cloud Infrastructure
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Compute Marketplace
 - Reselling
 - Infrastructure

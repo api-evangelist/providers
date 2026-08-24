@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -228,13 +228,13 @@ image: https://agoradata.com/wp-content/uploads/2023/06/AgoraData_Logo.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: agora-data-mcp.yml
-  slug: agora-data-mcpyml
+  name: Agora Data MCP Server
+  slug: agora-data-mcp-server
 modified: '2026-08-06'
 name: Agora Data
 nav: Providers
 network: true
-overview: 'Agora Data publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Health API, Hooks API, Import API, and 7 more. Tagged areas include Company, Auto Finance, Automotive, Lending, and Financial Services.
+overview: 'Agora Data publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Health API, Hooks API, Import API, and 7 more. Tagged areas include Company, Auto Finance, Automotive, Lending, and Financial-Services.
 
 
   The Agora Data catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,7 +250,7 @@ scopes:
 score:
   band: developing
   composite: 43.8
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -260,7 +260,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,8 +271,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/screenshots/agora-data-2026-08-07T161038.png
 security:
@@ -290,7 +290,7 @@ tags:
 - Auto Finance
 - Automotive
 - Lending
-- Financial Services
+- Financial-Services
 - Fintech
 - Loan Origination
 - Data Analytics

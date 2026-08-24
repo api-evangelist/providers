@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -109,7 +109,7 @@ modified: '2026-08-09'
 name: ConverseNow
 nav: Providers
 network: true
-overview: 'ConverseNow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice AI, Conversational AI, Restaurants, and Point of Sale.
+overview: 'ConverseNow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice AI, Conversational AI, Restaurant, and Point-of-Sale.
 
 
   ConverseNow''s developer surface includes engineering blog, signup flow, changelog, and 12 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 16.1
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -127,9 +127,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 19.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -145,8 +145,8 @@ tags:
 - Company
 - Voice AI
 - Conversational AI
-- Restaurants
-- Point of Sale
+- Restaurant
+- Point-of-Sale
 - Ordering
 - Drive-Thru
 - Speech Recognition

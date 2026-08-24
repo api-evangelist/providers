@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -231,8 +231,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-billing-and-cost-management-mcp.yml
-  slug: amazon-billing-and-cost-management-mcpyml
+  name: Amazon Billing And Cost Management MCP Server
+  slug: amazon-billing-and-cost-management-mcp-server
 modified: '2026-06-20'
 name: Amazon Billing And Cost Management
 nav: Providers
@@ -259,7 +259,7 @@ rules:
 score:
   band: developing
   composite: 44.9
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -269,7 +269,7 @@ score:
     discoverability: 92.6
     governance: 26.5
     operational_transparency: 2.6
-  previous_composite: 52.3
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,9 +279,9 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/screenshots/amazon-billing-and-cost-management-2026-07-25T195936.png
 security:
 - kind: authentication

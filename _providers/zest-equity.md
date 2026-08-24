@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -230,8 +230,8 @@ image: https://cdn.prod.website-files.com/699db6380f5e26c60d1ebda3/6a31ad4a4c9ad
 layout: provider
 mcp_servers:
 - description: ''
-  name: zest-equity-mcp.yml
-  slug: zest-equity-mcpyml
+  name: Zest Equity MCP Server
+  slug: zest-equity-mcp-server
 modified: '2026-07-21'
 name: Zest Equity
 nav: Providers
@@ -247,7 +247,7 @@ random_paper: 17
 score:
   band: developing
   composite: 50.7
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -257,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 49.9
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,8 +268,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/screenshots/zest-equity-2026-08-17T083105.png
 security:
@@ -291,7 +291,7 @@ tags:
 - Escrow
 - Fund Administration
 - MENA
-- Webhooks
+- Webhook
 - Regulated
 website: https://zestequity.com
 ---

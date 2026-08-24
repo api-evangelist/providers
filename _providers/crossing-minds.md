@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Universal B2B recommendation API — ingest users, items, ratings and interactions, then query profile-to-items, session-to-items and item-to-items recommendations. JWT authenticated, multi-database.
@@ -123,13 +123,13 @@ image: https://www.crossingminds.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: crossing-minds-mcp.yml
-  slug: crossing-minds-mcpyml
+  name: Crossing Minds MCP Server
+  slug: crossing-minds-mcp-server
 modified: '2026-07-18'
 name: Crossing Minds
 nav: Providers
 network: true
-overview: 'Crossing Minds publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Recommendations, Personalization, and Machine Learning.
+overview: 'Crossing Minds publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Recommendations, Personalization, and Machine-Learning.
 
 
   Crossing Minds'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 15 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 24.0
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -147,12 +147,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 25.0
+  previous_composite: 24.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossing-minds/refs/heads/main/screenshots/crossing-minds-2026-07-25T210759.png
 security:
@@ -170,9 +170,9 @@ tags:
 - Ai Ml
 - Recommendations
 - Personalization
-- Machine Learning
+- Machine-Learning
 - Recommender System
 - Retrieval
-- Ecommerce
+- E-Commerce
 website: https://www.crossingminds.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Flannel is a simple overlay network that satisfies the Kubernetes networking requirements. It allocates subnet leases to each host and provides a layer 3 IPv4 network between multiple nodes in a clust
@@ -69,7 +69,7 @@ modified: '2026-04-28'
 name: Flannel
 nav: Providers
 network: true
-overview: 'Flannel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CNI, Cloud Native, Containers, Kubernetes, and Networking.
+overview: 'Flannel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CNI, Cloud-Native, Containers, Kubernetes, and Networking.
 
 
   Flannel''s developer surface includes documentation, getting-started guide, and 3 more developer resources.'
@@ -96,17 +96,17 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 14.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flannel/refs/heads/main/screenshots/flannel-2026-06-20T181303.png
 slug: flannel
 tags:
 - CNI
-- Cloud Native
+- Cloud-Native
 - Containers
 - Kubernetes
 - Networking
-- Open Source
+- Open-Source
 - Overlay Network
 ---

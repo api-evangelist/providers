@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Order capture and management across Tabit's mobile POS (PAD), online ordering (Order), kiosk, and delivery (Wheels) products. Order data flows to third-party channels (e.g., DoorDash Marketplace) thro
@@ -104,7 +104,7 @@ modified: '2026-06-21'
 name: Tabit
 nav: Providers
 network: true
-overview: 'Tabit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Menu API, Reservations API, and 2 more. Tagged areas include Restaurant, Point of Sale, POS, Hospitality, and Ordering.
+overview: 'Tabit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Menu API, Reservations API, and 2 more. Tagged areas include Restaurant, Point-of-Sale, Hospitality, Ordering, and Payments.
 
 
   Tabit''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.9
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -130,15 +130,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 22.6
+  previous_composite: 20.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -148,8 +148,7 @@ security:
 slug: tabit
 tags:
 - Restaurant
-- Point of Sale
-- POS
+- Point-of-Sale
 - Hospitality
 - Ordering
 - Payments

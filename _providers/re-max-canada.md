@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The only anonymously reachable, machine-readable API surface found anywhere in the RE/MAX Canada estate. blog.remax.ca is a WordPress VIP site (CNAME remax-promotions.go-vip.net) that serves the stock
@@ -132,7 +132,7 @@ modified: '2026-07-26'
 name: RE/MAX Canada
 nav: Providers
 network: true
-overview: 'RE/MAX Canada publishes 1 API on the [APIs.io](https://apis.io/) network: Blog WordPress REST API. Tagged areas include Real Estate, Canada, Brokerage, Property Listings, and MLS.
+overview: 'RE/MAX Canada publishes 1 API on the [APIs.io](https://apis.io/) network: Blog WordPress REST API. Tagged areas include Real-Estate, Canada, Brokerage, Property Listings, and MLS.
 
 
   RE/MAX Canada''s developer surface includes authentication, engineering blog, and 18 more developer resources.'
@@ -140,7 +140,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 23.2
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -150,7 +150,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 25.7
+  previous_composite: 23.2
   provenance:
     conformance: derived
   regulatory:
@@ -159,8 +159,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -173,7 +173,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: re-max-canada
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Brokerage
 - Property Listings

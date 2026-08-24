@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -492,18 +492,18 @@ rules:
   slug: red-hat-3scale-rules
 score:
   band: developing
-  composite: 50.0
-  delta: -7.3
+  composite: 50.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.0
     developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 57.3
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -511,9 +511,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/screenshots/red-hat-3scale-2026-06-20T192716.png
 security:
 - kind: authentication

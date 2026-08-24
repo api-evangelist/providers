@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -3301,7 +3301,7 @@ rules:
 score:
   band: exemplar
   composite: 68.7
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -3311,7 +3311,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 71.9
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     contracts:
@@ -3319,8 +3319,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/screenshots/new-relic-2026-06-20T190230.png
 security:

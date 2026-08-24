@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 7
@@ -388,13 +388,13 @@ image: https://www.structify.ai/assets/site/structify-homepage-hero.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: structify-mcp.yml
-  slug: structify-mcpyml
+  name: Structify MCP Server
+  slug: structify-mcp-server
 modified: '2026-08-14'
 name: Structify
 nav: Providers
 network: true
-overview: 'Structify publishes 32 APIs on the [APIs.io](https://apis.io/) network, including account API, admin API, chat API, and 29 more. Tagged areas include Company, AI, Data, Web Scraping, and Data Extraction.
+overview: 'Structify publishes 32 APIs on the [APIs.io](https://apis.io/) network, including account API, admin API, chat API, and 29 more. Tagged areas include Company, Artificial Intelligence, Data, Web Scraping, and Data Extraction.
 
 
   The Structify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -413,7 +413,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.0
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -423,7 +423,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 61.0
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -434,8 +434,8 @@ score:
       total: 32
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/screenshots/structify-2026-08-17T082142.png
 security:
@@ -454,7 +454,7 @@ security:
 slug: structify
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Web Scraping
 - Data Extraction

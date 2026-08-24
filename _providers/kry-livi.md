@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -128,7 +128,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 24.0
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -138,7 +138,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 23.0
+  previous_composite: 24.0
   provenance:
     conformance: first-party
   regulatory:
@@ -147,8 +147,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/screenshots/kry-livi-2026-07-25T224308.png
 security:

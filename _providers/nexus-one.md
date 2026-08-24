@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -102,8 +102,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nexus-one.
 layout: provider
 mcp_servers:
 - description: ''
-  name: nexus-one-mcp.yml
-  slug: nexus-one-mcpyml
+  name: NexusOne MCP
+  slug: nexusone-mcp
 modified: '2026-07-20'
 name: Nexus One
 nav: Providers
@@ -115,23 +115,23 @@ overview: 'Nexus One is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 6
 score:
   band: emerging
-  composite: 16.9
-  delta: -0.8
+  composite: 18.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 17.7
+  previous_composite: 18.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/screenshots/nexus-one-2026-08-07T185225.png
 security:
@@ -155,6 +155,6 @@ tags:
 - Artificial Intelligence
 - Data Platform
 - Control Plane
-- Open Source
+- Open-Source
 website: https://www.nx1.io/
 ---

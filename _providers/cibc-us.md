@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-23'
 name: CIBC Bank USA
 nav: Providers
 network: true
-overview: 'CIBC Bank USA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Commercial Banking, and Regional Bank.
+overview: 'CIBC Bank USA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Commercial Banking, and Regional Bank.
 
 
   CIBC Bank USA''s developer surface includes support and 8 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 8.2
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -86,15 +86,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 8.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cibc-us/refs/heads/main/screenshots/cibc-us-2026-07-25T205337.png
 security:
@@ -104,7 +104,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cibc-us
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Commercial Banking

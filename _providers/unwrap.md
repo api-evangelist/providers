@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API for fetching feedback entries and group taxonomy, batch-importing feedback, and building classification groups. Authenticated with a personal API key sent as an HTTP Bearer token, scoped t
@@ -167,8 +167,8 @@ image: https://cdn.prod.website-files.com/67c5e65b5323e6f7f216d5e7/67ddb0f28d559
 layout: provider
 mcp_servers:
 - description: ''
-  name: unwrap-mcp.yml
-  slug: unwrap-mcpyml
+  name: Unwrap MCP Server
+  slug: unwrap-mcp-server
 modified: '2026-07-21'
 name: Unwrap
 nav: Providers
@@ -190,7 +190,7 @@ scopes:
 score:
   band: thin
   composite: 39.1
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -200,13 +200,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 42.1
+  previous_composite: 39.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/screenshots/unwrap-2026-08-17T082635.png
 security:

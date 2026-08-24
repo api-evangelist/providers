@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -419,18 +419,18 @@ rules:
   slug: agilent-technologies-spectral-rules
 score:
   band: thin
-  composite: 30.3
-  delta: -3.4
+  composite: 30.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.3
     developer_ergonomics: 16.7
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 33.7
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -444,8 +444,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png
 security:

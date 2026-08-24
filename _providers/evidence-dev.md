@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The open-source core. SQL statements embedded in Markdown files run against configured data sources and render charts and components into a static BI website (Svelte/Vite). The interface is a Node CLI
@@ -102,7 +102,7 @@ modified: '2026-06-20'
 name: Evidence
 nav: Providers
 network: true
-overview: 'Evidence publishes 3 APIs on the [APIs.io](https://apis.io/) network: Framework (SQL + Markdown), USQL / Query Layer, and Cloud. Tagged areas include Business Intelligence, BI as Code, SQL, Markdown, and Data Apps.
+overview: 'Evidence publishes 3 APIs on the [APIs.io](https://apis.io/) network: Framework (SQL + Markdown), USQL / Query Layer, and Cloud. Tagged areas include Business Intelligence, BI-as-Code, SQL, Markdown, and Data Apps.
 
 
   Evidence''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.0
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -128,9 +128,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 30.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 30.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/screenshots/evidence-dev-2026-06-20T180912.png
 security:
@@ -145,10 +145,10 @@ security:
 slug: evidence-dev
 tags:
 - Business Intelligence
-- BI as Code
+- BI-as-Code
 - SQL
 - Markdown
 - Data Apps
-- Open Source
+- Open-Source
 website: https://evidence.dev/
 ---

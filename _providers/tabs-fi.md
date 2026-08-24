@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -262,8 +262,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabs-fi/refs/heads/main/screenshots/tabs-fi-2026-06-20T194954.png
 security:
@@ -282,12 +282,12 @@ tags:
 - Billing
 - Invoicing
 - Accounts Receivable
-- Collections
+- Collection
 - Revenue Recognition
 - Contracts
 - Usage
 - Payments
-- Subscriptions
+- Subscription
 - Finance
 - B2B
 website: https://www.tabs.com/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -151,7 +151,7 @@ modified: '2026-07-01'
 name: Velt
 nav: Providers
 network: true
-overview: 'Velt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Comments API, Documents API, and 4 more. Tagged areas include Real-Time Collaboration, Comments, Presence, Notifications, and SDK.
+overview: 'Velt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Comments API, Documents API, and 4 more. Tagged areas include Real-Time Collaboration, Comments, Presence, Notification, and SDK.
 
 
   Velt''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -167,7 +167,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.8
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -177,7 +177,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.4
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -206,8 +206,8 @@ tags:
 - Real-Time Collaboration
 - Comments
 - Presence
-- Notifications
+- Notification
 - SDK
-- Webhooks
+- Webhook
 website: https://velt.dev/
 ---

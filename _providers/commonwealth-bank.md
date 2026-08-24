@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -337,8 +337,8 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: commonwealth-bank-mcp.yml
-  slug: commonwealth-bank-mcpyml
+  name: Commonwealth Bank MCP Server
+  slug: commonwealth-bank-mcp-server
 modified: '2026-07-21'
 name: Commonwealth Bank
 nav: Providers
@@ -356,7 +356,7 @@ scopes:
 score:
   band: developing
   composite: 44.1
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -366,7 +366,7 @@ score:
     discoverability: 66.7
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 40.6
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,8 +383,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 135
 apis:
 - description: 'Oracle Hospitality Distribution ARI publication message specification for distribution partners to receive in real time property restrictions/availability, rate, and inventory schedules updates, also '
@@ -611,6 +611,10 @@ collections:
   name: OPI Token Exchange Service API
   slug: open-oracle-hospitality-property-v1-tokenexchange
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: agent
   title: ''
   type: MCPServer
@@ -806,9 +810,9 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: oracle-hospitality-mcp.yml
-  slug: oracle-hospitality-mcpyml
-modified: '2026-07-28'
+  name: Oracle Hospitality MCP Server
+  slug: oracle-hospitality-mcp-server
+modified: '2026-08-21'
 name: Oracle Hospitality
 nav: Providers
 network: true
@@ -818,7 +822,7 @@ overview: 'Oracle Hospitality publishes 60 APIs on the [APIs.io](https://apis.io
   The Oracle Hospitality catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 40 more developer resources.'
+  Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 41 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 9
@@ -831,18 +835,18 @@ scopes:
   summary_line: 1 scope · clientCredentials/password
 score:
   band: strong
-  composite: 62.5
-  delta: 2.0
+  composite: 61.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 61.2
     developer_ergonomics: 70.8
-    discoverability: 66.7
+    discoverability: 57.4
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 60.5
+  previous_composite: 61.5
   provenance:
     conformance: first-party
     contracts:
@@ -852,8 +856,8 @@ score:
       total: 59
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png
 security:
@@ -884,6 +888,6 @@ tags:
 - Channel Management
 - Booking
 - Reservations
-- Point of Sale
+- Point-of-Sale
 website: https://www.oracle.com/hospitality/
 ---

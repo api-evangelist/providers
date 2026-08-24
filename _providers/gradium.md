@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The metering API from Gradium — 1 operation(s) for metering.
@@ -228,8 +228,8 @@ image: https://gradium.ai/assets/dots_1200.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: gradium-mcp.yml
-  slug: gradium-mcpyml
+  name: Gradium MCP Server
+  slug: gradium-mcp-server
 modified: '2026-07-19'
 name: Gradium
 nav: Providers
@@ -245,7 +245,7 @@ random_paper: 10
 score:
   band: developing
   composite: 51.2
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -255,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 55.5
+  previous_composite: 51.2
   provenance:
     conformance: derived
     contracts:
@@ -265,8 +265,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/screenshots/gradium-2026-07-25T220210.png
 security:
@@ -285,7 +285,7 @@ tags:
 - Voice AI
 - Text-to-Speech
 - Speech-to-Text
-- Speech-to-Speech
+- Speech to Speech
 - Voice Cloning
 - Audio
 - Real-Time Streaming

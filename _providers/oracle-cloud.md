@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 2
@@ -1742,7 +1742,7 @@ modified: '2026-04-18'
 name: Oracle Cloud Infrastructure
 nav: Providers
 network: true
-overview: 'Oracle Cloud Infrastructure publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Applications API, Autonomous Databases API, and 22 more. Tagged areas include Cloud Computing, Enterprise Cloud, Infrastructure as a Service, Oracle, and Platform as a Service.
+overview: 'Oracle Cloud Infrastructure publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Applications API, Autonomous Databases API, and 22 more. Tagged areas include Cloud Computing, Enterprise Cloud, Infrastructure-as-a-Service, Oracle, and Platform-as-a-Service.
 
 
   The Oracle Cloud Infrastructure catalog on APIs.io includes 34 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1782,18 +1782,18 @@ rules:
   slug: oracle-cloud-spectral-rules
 score:
   band: developing
-  composite: 51.1
-  delta: -4.4
+  composite: 51.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 32.7
     developer_ergonomics: 82.1
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 55.5
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1801,8 +1801,8 @@ score:
       derived: 25
       marker_coverage: 100.0
       total: 25
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png
 security:
@@ -1818,9 +1818,9 @@ slug: oracle-cloud
 tags:
 - Cloud Computing
 - Enterprise Cloud
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Oracle
-- Platform as a Service
+- Platform-as-a-Service
 use_cases:
 - description: Migrate on-premises workloads to OCI with tools for assessment, planning, and execution
   name: Cloud Migration

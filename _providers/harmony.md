@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -141,13 +141,13 @@ image: https://harmony.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: harmony-mcp.yml
-  slug: harmony-mcpyml
+  name: Harmony MCP Server
+  slug: harmony-mcp-server
 modified: '2026-07-19'
 name: Harmony
 nav: Providers
 network: true
-overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: tickets API. Tagged areas include IT Service Management, Service Desk, Ticketing, Enterprise Service Management, and AI Agents.
+overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: tickets API. Tagged areas include ITSM, Service Desk, Ticketing, Enterprise Service Management, and AI Agents.
 
 
   Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 14 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.3
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 45.8
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -180,8 +180,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/screenshots/harmony-2026-07-25T220731.png
 security:
@@ -195,7 +195,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: harmony
 tags:
-- IT Service Management
+- ITSM
 - Service Desk
 - Ticketing
 - Enterprise Service Management

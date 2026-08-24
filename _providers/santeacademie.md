@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Read-only JSON catalog API built on API Platform (Symfony) that backs the santeacademie.com websites and the play.santeacademie.com learner app. Ten GET operations cover training-topic and resource se
@@ -128,13 +128,13 @@ image: https://www.santeacademie.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: santeacademie-mcp.yml
-  slug: santeacademie-mcpyml
+  name: Santé Académie MCP Server
+  slug: santé-académie-mcp-server
 modified: '2026-08-17'
 name: Santé Académie
 nav: Providers
 network: true
-overview: 'Santé Académie publishes 2 APIs on the [APIs.io](https://apis.io/) network: Frontstage API and Connector API. Tagged areas include Company, Edtech, healthcare-training, continuing-education, and dpc.
+overview: 'Santé Académie publishes 2 APIs on the [APIs.io](https://apis.io/) network: Frontstage API and Connector API. Tagged areas include Company, EdTech, Healthcare Training, Continuing Education, and DPC.
 
 
   Santé Académie''s developer surface includes support, engineering blog, authentication, and 20 more developer resources.'
@@ -150,6 +150,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -159,6 +160,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
+  previous_composite: 37.5
   provenance:
     conformance: derived
     contracts:
@@ -174,8 +176,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Santeacademie Authentication
@@ -188,14 +191,14 @@ security:
 slug: santeacademie
 tags:
 - Company
-- Edtech
-- healthcare-training
-- continuing-education
-- dpc
-- e-learning
-- france
-- healthcare-professionals
-- course-catalog
-- lms
+- EdTech
+- Healthcare Training
+- Continuing Education
+- DPC
+- E-Learning
+- France
+- Healthcare Professionals
+- Course Catalog
+- LMS
 website: https://www.santeacademie.com/
 ---

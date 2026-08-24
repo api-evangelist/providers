@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -82,14 +82,14 @@ description: 'Duroflex (duroflexworld.com) is one of India''s most trusted sleep
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/duroflexworld.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Shopify Storefront MCP server for the Duroflex (duroflexworld.com) online store. Exposes catalog search, cart management, product lookup, and shop policy/FAQ retrieval to AI agents. Hosted and operate
   name: Duroflexworld Storefront MCP
   slug: duroflexworld-storefront-mcp
 modified: '2026-07-18'
 name: Duroflexworld
 nav: Providers
 network: true
-overview: 'Duroflexworld is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Retail, Sleep, and Mattresses.
+overview: 'Duroflexworld is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Sleep, and Mattresses.
 
 
   Duroflexworld''s developer surface includes authentication, engineering blog, support, and 8 more developer resources.'
@@ -101,22 +101,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 13.8
-  delta: -1.4
+  composite: 14.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
+  previous_composite: 14.9
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duroflexworld/refs/heads/main/screenshots/duroflexworld-2026-08-07T164615.png
 security:
@@ -131,7 +131,7 @@ security:
 slug: duroflexworld
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Sleep
 - Mattresses

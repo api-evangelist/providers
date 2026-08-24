@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 3
@@ -251,13 +251,13 @@ image: https://www.deliverart.it/wp-content/uploads/2023/02/LinkedIn-Cover.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: deliverart-mcp.yml
-  slug: deliverart-mcpyml
+  name: Deliverart MCP Server
+  slug: deliverart-mcp-server
 modified: '2026-07-18'
 name: Deliverart
 nav: Providers
 network: true
-overview: 'Deliverart publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Companies API, Customer addresses API, and 13 more. Tagged areas include Company, Food Delivery, Restaurants, Order Management, and Logistics.
+overview: 'Deliverart publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Companies API, Customer addresses API, and 13 more. Tagged areas include Company, Food Delivery, Restaurant, Order Management, and Logistics.
 
 
   Deliverart''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, signup flow, and 19 more developer resources.'
@@ -270,7 +270,7 @@ scopes:
 score:
   band: developing
   composite: 46.2
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -280,7 +280,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 45.8
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,8 +291,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/screenshots/deliverart-2026-07-25T211654.png
 security:
@@ -308,11 +308,11 @@ slug: deliverart
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Order Management
 - Logistics
 - Delivery
 - Menu Management
-- Point of Sale
+- Point-of-Sale
 website: https://www.deliverart.it/
 ---

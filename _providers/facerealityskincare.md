@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Shopify-hosted commerce surface for the Face Reality Skincare store. Exposes a hosted Storefront MCP server for catalog search, product lookup, and cart building, a UCP merchant profile for agent-driv
@@ -90,14 +90,14 @@ description: 'Face Reality Skincare is a professional acne-treatment skincare br
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/facerealityskincare.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: facerealityskincare-mcp.yml
-  slug: facerealityskincare-mcpyml
+- description: Face Reality Skincare runs on Shopify, which exposes a hosted Storefront MCP server at https://facerealityskincare.com/api/mcp. A live JSON-RPC initialize handshake reports serverInfo name "storefront
+  name: Face Reality Skincare MCP Server
+  slug: face-reality-skincare-mcp-server
 modified: '2026-07-19'
 name: Face Reality Skincare
 nav: Providers
 network: true
-overview: 'Face Reality Skincare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Beauty, Cosmetics, and Ecommerce.
+overview: 'Face Reality Skincare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Beauty, Cosmetics, and E-Commerce.
 
 
   Face Reality Skincare''s developer surface includes authentication and 11 more developer resources.'
@@ -110,7 +110,7 @@ scopes:
 score:
   band: emerging
   composite: 17.8
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -120,13 +120,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.7
+  previous_composite: 17.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/screenshots/facerealityskincare-2026-08-07T165212.png
 security:
@@ -144,7 +144,7 @@ tags:
 - Skincare
 - Beauty
 - Cosmetics
-- Ecommerce
+- E-Commerce
 - Shopify
 - Commerce
 - Agent Commerce

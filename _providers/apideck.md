@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -2644,7 +2644,7 @@ modified: '2026-05-19'
 name: Apideck
 nav: Providers
 network: true
-overview: 'Apideck publishes 53 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Aged Creditors API, Aged Debtors API, and 50 more. Tagged areas include Integrations and Unified API.
+overview: 'Apideck publishes 53 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Aged Creditors API, Aged Debtors API, and 50 more. Tagged areas include Integration and Unified-API.
 
 
   The Apideck catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -2674,7 +2674,7 @@ rules:
 score:
   band: strong
   composite: 55.7
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -2684,7 +2684,7 @@ score:
     discoverability: 57.4
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 59.8
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     contracts:
@@ -2692,8 +2692,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/screenshots/apideck-2026-06-20T172302.png
 security:
@@ -2707,7 +2707,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: apideck
 tags:
-- Integrations
-- Unified API
+- Integration
+- Unified-API
 website: https://www.apideck.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: 'The public Substrate JSON-RPC 2.0 interface to the Kusama relay chain. Probed live on 2026-07-19: 130 methods are advertised by rpc_methods, spanning chain (blocks/headers), state (storage, metadata, '
@@ -299,8 +299,8 @@ image: https://kusama.network/images/kusama-logo-canary-white.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kusama-mcp.yml
-  slug: kusama-mcpyml
+  name: Kusama MCP Server
+  slug: kusama-mcp-server
 modified: '2026-07-19'
 name: Kusama
 nav: Providers
@@ -316,7 +316,7 @@ random_paper: 12
 score:
   band: developing
   composite: 50.0
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -326,7 +326,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 49.2
+  previous_composite: 50.0
   provenance:
     conformance: derived
     contracts:
@@ -336,8 +336,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/screenshots/kusama-2026-07-25T224336.png
 security:

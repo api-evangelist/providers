@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Popp recruitment conversation engine — conversations, campaigns, documents, analysis, scheduling/calendar, and workflow automation, authenticated with an x-api-key + x-organization-id
@@ -118,9 +118,9 @@ description: Popp (Popp AI) is an API-first conversation engine for staffing and
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/popp.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: popp-mcp.yml
-  slug: popp-mcpyml
+- description: Popp AI hosts a remote MCP server that lets AI code editors (Cursor, Windsurf) and general-purpose agents (Claude Desktop) interact directly with the Popp API and documentation. Provides direct API ac
+  name: Popp MCP Server
+  slug: popp-mcp-server
 modified: '2026-07-20'
 name: Popp
 nav: Providers
@@ -136,7 +136,7 @@ random_paper: 6
 score:
   band: thin
   composite: 29.9
-  delta: -9.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -146,13 +146,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 39.6
+  previous_composite: 29.9
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Popp Authentication
@@ -172,7 +172,7 @@ tags:
 - Automation
 - Scheduling
 - Workflows
-- Webhooks
+- Webhook
 - MCP
 - Agents
 website: https://joinpopp.com/

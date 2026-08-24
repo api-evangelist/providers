@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Western Alliance Bank's commercial open-banking API lets approved business clients interact directly with WAB systems to access balance and transaction information, retrieve check images, initiate fun
@@ -100,25 +100,25 @@ modified: '2026-07-23'
 name: Western Alliance Bank
 nav: Providers
 network: true
-overview: 'Western Alliance Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Treasury Management, and Open Banking.
+overview: 'Western Alliance Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Treasury Management, and Open Banking.
 
 
   Western Alliance Bank''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, and 10 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 27.7
-  delta: 1.5
+  composite: 28.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 66.7
+    discoverability: 77.8
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.2
+  previous_composite: 28.8
   provenance:
     conformance: first-party
   regulatory:
@@ -127,8 +127,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -141,7 +141,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: western-alliance
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Treasury Management

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,8 +141,8 @@ image: https://bitwiseinvestments.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: bitwise-mcp.yml
-  slug: bitwise-mcpyml
+  name: Bitwise MCP Server
+  slug: bitwise-mcp-server
 modified: '2026-07-18'
 name: Bitwise
 nav: Providers
@@ -155,7 +155,7 @@ random_paper: 3
 score:
   band: developing
   composite: 40.2
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -165,7 +165,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 39.1
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -182,8 +182,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/screenshots/bitwise-2026-07-25T203218.png
 security:
@@ -204,6 +204,6 @@ tags:
 - Market Data
 - Index Funds
 - ETFs
-- Financial Services
+- Financial-Services
 website: https://bitwiseinvestments.com/
 ---

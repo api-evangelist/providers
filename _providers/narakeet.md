@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-07-11'
 name: Narakeet
 nav: Providers
 network: true
-overview: 'Narakeet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Text to Speech API, Video API, and 1 more. Tagged areas include Text to Speech, TTS, Voice, Audio, and Video.
+overview: 'Narakeet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Text to Speech API, Video API, and 1 more. Tagged areas include Text-to-Speech, TTS, Voice, Audio, and Video.
 
 
   Narakeet''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.2
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/screenshots/narakeet-2026-08-07T184630.png
 security:
@@ -174,12 +174,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: narakeet
 tags:
-- Text to Speech
+- Text-to-Speech
 - TTS
 - Voice
 - Audio
 - Video
-- AI
+- Artificial Intelligence
 - Media Generation
 website: https://www.narakeet.com
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Provably-fair random selection REST API (v1) covering draw lifecycle, account, health, and public verification artifacts. HMAC-signed webhooks. Bearer API-key auth.
@@ -159,7 +159,7 @@ modified: '2026-08-11'
 name: ProofDraw
 nav: Providers
 network: true
-overview: 'ProofDraw publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include randomness, provably-fair, drand, verifiable-randomness, and cryptography.
+overview: 'ProofDraw publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Randomness, Provably Fair, drand, verifiable-randomness, and Cryptography.
 
 
   The ProofDraw catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.9
-  delta: -13.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -188,7 +188,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 49.4
+  previous_composite: 35.9
   provenance:
     conformance: derived
     contracts:
@@ -198,9 +198,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/screenshots/proofdraw-2026-08-17T081348.png
 security:
 - kind: authentication
@@ -217,17 +217,17 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: proofdraw
 tags:
-- randomness
-- provably-fair
+- Randomness
+- Provably Fair
 - drand
 - verifiable-randomness
-- cryptography
+- Cryptography
 - raffle
 - giveaway
-- sweepstakes
-- lottery
-- verification
-- webhooks
-- rest-api
+- Sweepstakes
+- Lottery
+- Verification
+- Webhook
+- REST API
 website: https://proofdraw.com/
 ---

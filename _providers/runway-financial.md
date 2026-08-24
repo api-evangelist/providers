@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -160,9 +160,9 @@ description: Runway is a financial planning and analysis (FP&A) platform for hig
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/runway-financial.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: runway-financial-mcp.yml
-  slug: runway-financial-mcpyml
+- description: Runway's hosted (remote) MCP server lets Claude and other AI tools read a Runway workspace. The connection authenticates with OAuth through the browser login (no API keys to manage). All hosted MCP to
+  name: Runway Financial MCP Server
+  slug: runway-financial-mcp-server
 modified: '2026-07-21'
 name: Runway Financial
 nav: Providers
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.5
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -189,7 +189,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 53.2
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -200,8 +200,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/screenshots/runway-financial-2026-08-17T081657.png
 security:
@@ -231,6 +231,6 @@ tags:
 - Finance
 - MCP
 - Export API
-- SaaS
+- Software-as-a-Service
 website: https://runway.cfo.ai
 ---

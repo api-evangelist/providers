@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Peer39 External API manages Custom Categories — contextual targeting and brand-safety lists of keywords, URLs, mobile apps or CTV apps — and syncs them to a connected DSP partner. Nine operations '
@@ -97,8 +97,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peer39.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: peer39-mcp.yml
-  slug: peer39-mcpyml
+  name: Peer39 Custom Category MCP Server
+  slug: peer39-custom-category-mcp-server
 modified: '2026-08-12'
 name: Peer39
 nav: Providers
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.9
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -129,12 +129,12 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 20.5
+  previous_composite: 19.9
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Zillow Web Services were the legacy public XML-based APIs from Zillow including GetSearchResults, GetZestimate, GetDeepSearchResults, GetUpdatedPropertyDetails, GetComps, GetRegionChildren, and the Ne
@@ -161,7 +161,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.4
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -171,15 +171,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.6
+  previous_composite: 35.4
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zillow/refs/heads/main/screenshots/zillow-2026-06-20T201903.png
 security:
@@ -196,7 +196,7 @@ tags:
 - Listings
 - Mortgage
 - MLS
-- Real Estate
+- Real-Estate
 - Rentals
 - RESO
 website: https://www.zillow.com

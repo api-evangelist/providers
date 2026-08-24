@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ modified: '2026-07-03'
 name: Signeasy
 nav: Providers
 network: true
-overview: 'Signeasy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Embedded API, Envelopes API, Originals API, and 2 more. Tagged areas include eSignature, Electronic Signature, Documents, Contract Management, and Embedded Signing.
+overview: 'Signeasy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Embedded API, Envelopes API, Originals API, and 2 more. Tagged areas include E-Signature, Electronic Signature, Documents, Contract Management, and Embedded Signing.
 
 
   Signeasy''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -165,7 +165,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 40.6
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -191,12 +191,12 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: signeasy
 tags:
-- eSignature
+- E-Signature
 - Electronic Signature
 - Documents
 - Contract Management
 - Embedded Signing
 - Templates
-- Webhooks
+- Webhook
 website: https://signeasy.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ modified: '2026-07-10'
 name: HawkSoft
 nav: Providers
 network: true
-overview: 'HawkSoft publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Attachments API, Clients API, and 2 more. Tagged areas include Insurance, Agency Management System, AMS, InsurTech, and Property and Casualty.
+overview: 'HawkSoft publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Attachments API, Clients API, and 2 more. Tagged areas include Insurance, Agency Management System, AMS, Insurtech, and Property and Casualty.
 
 
   HawkSoft''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
@@ -152,7 +152,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.8
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -162,7 +162,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.3
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/screenshots/hawksoft-2026-07-25T220807.png
 security:
@@ -194,7 +194,7 @@ tags:
 - Insurance
 - Agency Management System
 - AMS
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Partner API
 - Gated API

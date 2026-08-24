@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Protocol Buffers (protobuf) is Google''s language-neutral, platform-neutral extensible mechanism for serializing structured data, providing a code generation engine that produces efficient data access '
@@ -69,7 +69,7 @@ modified: '2026-04-28'
 name: Protocol Buffers
 nav: Providers
 network: true
-overview: 'Protocol Buffers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Protocol Buffers, SDKs, and Serialization.
+overview: 'Protocol Buffers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Protocol Buffers, SDK, and Serialization.
 
 
   Protocol Buffers'' developer surface includes documentation, engineering blog, and 3 more developer resources.'
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.9
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -95,9 +95,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protobuf/refs/heads/main/screenshots/protobuf-2026-06-20T192219.png
 security:
@@ -109,7 +109,7 @@ slug: protobuf
 tags:
 - Code Generation
 - Protocol Buffers
-- SDKs
+- SDK
 - Serialization
 website: https://protobuf.dev/
 ---

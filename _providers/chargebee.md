@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ modified: '2026-05-30'
 name: Chargebee
 nav: Providers
 network: true
-overview: 'Chargebee publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 5 more. Tagged areas include Billing, Subscriptions, Recurring Billing, Revenue, and Payments.
+overview: 'Chargebee publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 5 more. Tagged areas include Billing, Subscription, Recurring Billing, Revenue, and Payments.
 
 
   The Chargebee catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -247,7 +247,7 @@ rules:
 score:
   band: developing
   composite: 50.7
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -257,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 52.3
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -271,8 +271,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/screenshots/chargebee-2026-06-20T174220.png
 security:
@@ -287,10 +287,10 @@ security:
 slug: chargebee
 tags:
 - Billing
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Revenue
 - Payments
-- SaaS
+- Software-as-a-Service
 website: https://www.chargebee.com
 ---

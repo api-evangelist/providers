@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -143,13 +143,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: tandem-bank-mcp.yml
-  slug: tandem-bank-mcpyml
+  name: Tandem Bank MCP Server
+  slug: tandem-bank-mcp-server
 modified: '2026-07-23'
 name: Tandem Bank
 nav: Providers
 network: true
-overview: 'Tandem Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Tandem Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Tandem Bank''s developer surface includes authentication, getting-started guide, engineering blog, support, and 20 more developer resources.'
@@ -162,7 +162,7 @@ scopes:
 score:
   band: thin
   composite: 39.0
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -172,7 +172,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 35.5
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,8 +189,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -203,7 +203,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: tandem-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

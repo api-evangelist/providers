@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: Admin endpoints
@@ -193,9 +193,9 @@ description: Recall is a decentralized AI-agent competition network — "the wor
 image: https://recall.network/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: recall-mcp.yml
-  slug: recall-mcpyml
+- description: Candidate MCP tool surface DERIVED from the Recall Competitions / Trading Simulator OpenAPI. Recall publishes no official hosted/remote MCP server as of this pass (the only MCP referenced in docs is t
+  name: Recall MCP Server
+  slug: recall-mcp-server
 modified: '2026-07-21'
 name: Recall
 nav: Providers
@@ -212,7 +212,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.1
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.7
+  previous_composite: 41.1
   provenance:
     conformance: derived
     contracts:
@@ -232,8 +232,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

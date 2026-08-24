@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for programmatically sending digital gift cards, virtual prepaid Visa/Mastercard, e-gift cards, and other digital rewards instantly to recipients. Supports campaign management, recipient trac
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.2
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -126,15 +126,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 27.3
+  previous_composite: 26.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/screenshots/rybbon-2026-06-20T193311.png
 security:
@@ -152,6 +152,6 @@ tags:
 - Employee Recognition
 - Market Research
 - Points
-- FinTech
+- Fintech
 website: https://www.bhnrewards.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Playwright provides a cross-browser automation API for end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API, enabling reliable testing with auto-wait, ne
@@ -100,7 +100,7 @@ modified: '2026-05-19'
 name: Microsoft Playwright
 nav: Providers
 network: true
-overview: 'Microsoft Playwright publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, End-To-End Testing, Microsoft, and Testing.
+overview: 'Microsoft Playwright publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, End-to-End Testing, Microsoft, and Testing.
 
 
   Microsoft Playwright''s developer surface includes developer portal, documentation, getting-started guide, support, and 7 more developer resources.'
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -126,9 +126,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 22.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/screenshots/microsoft-playwright-2026-06-20T185519.png
 security:
@@ -139,7 +139,7 @@ security:
 slug: microsoft-playwright
 tags:
 - Browser Automation
-- End-To-End Testing
+- End-to-End Testing
 - Microsoft
 - Testing
 website: https://playwright.dev/

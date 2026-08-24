@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-06-13'
 name: Star Wars API
 nav: Providers
 network: true
-overview: 'Star Wars API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Films API, People API, Planets API, and 3 more. Tagged areas include Star Wars, Science Fiction, Entertainment, Films, and Characters.
+overview: 'Star Wars API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Films API, People API, Planets API, and 3 more. Tagged areas include Star Wars, Science Fiction, Entertainment, Film, and Characters.
 
 
   The Star Wars API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -206,7 +206,7 @@ rules:
 score:
   band: thin
   composite: 32.7
-  delta: -9.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -216,7 +216,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 42.0
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -224,9 +224,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/screenshots/star-wars-2026-06-20T194509.png
 security:
 - kind: domain-security
@@ -238,12 +238,12 @@ tags:
 - Star Wars
 - Science Fiction
 - Entertainment
-- Films
+- Film
 - Characters
 - Planets
 - Starships
 - Vehicles
 - Species
-- Open Source
+- Open-Source
 website: https://swapi.info
 ---

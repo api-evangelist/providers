@@ -31,7 +31,7 @@ tags:
 - Series A
 - Growth
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Developer Tools
 - Artificial Intelligence
 - Emerging Markets

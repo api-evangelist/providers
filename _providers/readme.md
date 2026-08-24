@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -408,7 +408,7 @@ modified: '2026-05-30'
 name: ReadMe
 nav: Providers
 network: true
-overview: 'ReadMe publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Personalized Docs Webhook, Analytics API, API Keys API, and 10 more. Tagged areas include Documentation, Developer Hub, API Reference, Portals, and Analytics.
+overview: 'ReadMe publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Personalized Docs Webhook, Analytics API, API Keys API, and 10 more. Tagged areas include Documentation, Developer Hub, API Reference, Portal, and Analytics.
 
 
   The ReadMe catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -460,7 +460,7 @@ rules:
 score:
   band: developing
   composite: 53.3
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -470,7 +470,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 58.7
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -478,9 +478,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/screenshots/readme-2026-06-20T192737.png
 security:
 - kind: authentication
@@ -496,9 +496,9 @@ tags:
 - Documentation
 - Developer Hub
 - API Reference
-- Portals
+- Portal
 - Analytics
-- AI
+- Artificial Intelligence
 - MCP
 - Bi-Directional Sync
 website: https://readme.com

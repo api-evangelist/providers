@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API for the ZKsync Era ZK rollup. Standard eth_* methods plus the ZKsync-specific zks_* namespace (batches, bridging, fee estimation, proofs) over HTTPS POST, with a W
@@ -131,8 +131,8 @@ image: https://avatars.githubusercontent.com/matter-labs
 layout: provider
 mcp_servers:
 - description: ''
-  name: matter-labs-mcp.yml
-  slug: matter-labs-mcpyml
+  name: Matter Labs MCP Server
+  slug: matter-labs-mcp-server
 modified: '2026-07-20'
 name: Matter Labs
 nav: Providers
@@ -148,7 +148,7 @@ random_paper: 3
 score:
   band: thin
   composite: 36.8
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -158,12 +158,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 38.0
+  previous_composite: 36.8
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matter-labs/refs/heads/main/screenshots/matter-labs-2026-07-25T230425.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-18'
 name: Bluestem Brands
 nav: Providers
 network: true
-overview: Bluestem Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-commerce, Consumer Credit, and Catalog Retail.
+overview: Bluestem Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Consumer Credit, and Catalog Retail.
 random_paper: 11
 score:
   band: minimal
@@ -70,17 +70,17 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluestem-brands/refs/heads/main/screenshots/bluestem-brands-2026-07-25T203503.png
 slug: bluestem-brands
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Consumer Credit
 - Catalog Retail
-- Direct-to-Consumer
+- Direct to Consumer
 website: https://www.fingerhut.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST + gRPC API for querying features from the Chalk Context Engine — online single-row queries, bulk (feather/Arrow) queries, and asynchronous offline dataset generation — plus deployment of feature '
@@ -163,13 +163,13 @@ image: https://chalk.ai/opengraph.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: chalk-mcp.yml
-  slug: chalk-mcpyml
+  name: Chalk MCP Server
+  slug: chalk-mcp-server
 modified: '2026-07-18'
 name: Chalk
 nav: Providers
 network: true
-overview: 'Chalk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine Learning, Feature Store, Artificial Intelligence, and Data Platform.
+overview: 'Chalk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine-Learning, Feature Store, Artificial Intelligence, and Data Platform.
 
 
   Chalk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 23 more developer resources.'
@@ -180,24 +180,24 @@ scopes:
   slug: chalk-scopes
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 38.8
-  delta: 1.2
+  band: developing
+  composite: 39.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.8
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 37.6
+  previous_composite: 39.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/screenshots/chalk-2026-07-25T205026.png
 security:
@@ -216,7 +216,7 @@ security:
 slug: chalk
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Feature Store
 - Artificial Intelligence
 - Data Platform

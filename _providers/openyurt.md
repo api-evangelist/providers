@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OpenYurt extends Kubernetes with CRDs for edge computing including NodePool for grouping edge nodes, YurtAppSet for deploying applications across node pools, YurtAppDaemon for pool-scoped daemon workl
@@ -65,7 +65,7 @@ modified: '2026-04-28'
 name: OpenYurt
 nav: Providers
 network: true
-overview: 'OpenYurt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Cloud-Edge, Edge Computing, Incubating, and IoT.
+overview: 'OpenYurt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Cloud-Edge, Edge Computing, Incubating, and IoT.
 
 
   OpenYurt''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -91,9 +91,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 13.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openyurt/refs/heads/main/screenshots/openyurt-2026-06-20T191055.png
 security:
@@ -103,7 +103,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: openyurt
 tags:
-- Cloud Native
+- Cloud-Native
 - Cloud-Edge
 - Edge Computing
 - Incubating

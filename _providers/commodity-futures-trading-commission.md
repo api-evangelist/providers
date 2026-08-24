@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ modified: '2026-05-19'
 name: Commodity Futures Trading Commission
 nav: Providers
 network: true
-overview: 'Commodity Futures Trading Commission publishes 5 APIs on the [APIs.io](https://apis.io/) network, including COT API, Disaggregated API, Legacy API, and 2 more. Tagged areas include CFTC, Commitments of Traders, Federal Government, Financial, and Futures.
+overview: 'Commodity Futures Trading Commission publishes 5 APIs on the [APIs.io](https://apis.io/) network, including COT API, Disaggregated API, Legacy API, and 2 more. Tagged areas include CFTC, Commitments of Traders, Federal-Government, Financial, and Futures.
 
 
   The Commodity Futures Trading Commission catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -189,18 +189,18 @@ rules:
   slug: commodity-futures-trading-commission-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.2
-  delta: -1.4
+  composite: 34.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 57.3
     developer_ergonomics: 16.7
     discoverability: 74.1
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 7.9
-  previous_composite: 34.6
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -214,8 +214,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/screenshots/commodity-futures-trading-commission-2026-06-20T174817.png
 security:
@@ -227,7 +227,7 @@ slug: commodity-futures-trading-commission
 tags:
 - CFTC
 - Commitments of Traders
-- Federal Government
+- Federal-Government
 - Financial
 - Futures
 - Open Data

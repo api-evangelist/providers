@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ modified: '2026-08-13'
 name: Bloom
 nav: Providers
 network: true
-overview: 'Bloom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Brands API, and Images API. Tagged areas include Company, Brand Management, Image Generation, Artificial Intelligence, and Agents.
+overview: 'Bloom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Brands API, and Images API. Tagged areas include Company, Brand Management, Image-Generation, Artificial Intelligence, and Agents.
 
 
   Bloom''s developer surface includes documentation, API reference, getting-started guide, pricing, support, FAQ, changelog, and 26 more developer resources.'
@@ -230,7 +230,7 @@ scopes:
 score:
   band: strong
   composite: 56.1
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -240,7 +240,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 56.6
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +251,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/screenshots/trybloom-2026-08-17T082456.png
 security:
@@ -268,7 +268,7 @@ slug: trybloom
 tags:
 - Company
 - Brand Management
-- Image Generation
+- Image-Generation
 - Artificial Intelligence
 - Agents
 - MCP

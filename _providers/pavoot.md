@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The authenticated backend for the Pavoot AI event platform. A FastAPI service publishing a complete OpenAPI 3.1.0 document at https://api.pavoot.com/openapi.json covering 248 operations and 56 request
@@ -81,7 +81,7 @@ modified: '2026-08-13'
 name: Pavoot
 nav: Providers
 network: true
-overview: 'Pavoot publishes 1 API on the [APIs.io](https://apis.io/) network: Application API. Tagged areas include Company, Events, Event Management, Marketing, and AI Agent.
+overview: 'Pavoot publishes 1 API on the [APIs.io](https://apis.io/) network: Application API. Tagged areas include Company, Event, Event Management, Marketing, and AI Agent.
 
 
   Pavoot''s developer surface includes support and 8 more developer resources.'
@@ -102,7 +102,7 @@ scopes:
 score:
   band: thin
   composite: 28.8
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -112,13 +112,13 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 31.6
+  previous_composite: 28.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/screenshots/pavoot-2026-08-07T191608.png
 security:
@@ -133,12 +133,12 @@ security:
 slug: pavoot
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Marketing
 - AI Agent
 - Attendee Intelligence
-- GTM
+- Go-To-Market
 - Field Marketing
 - Pipeline
 website: https://pavoot.com

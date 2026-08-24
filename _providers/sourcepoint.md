@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: REST API surfacing end-user consent operations under the GDPR using the IAB Transparency & Consent Framework (TCF v2.2). Supports retrieving end-user consent status and history by site, merging an end
@@ -376,8 +376,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sourcepoin
 layout: provider
 mcp_servers:
 - description: ''
-  name: sourcepoint-mcp.yml
-  slug: sourcepoint-mcpyml
+  name: Sourcepoint MCP Server
+  slug: sourcepoint-mcp-server
 modified: '2026-08-12'
 name: Sourcepoint
 nav: Providers
@@ -398,7 +398,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.4
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -408,7 +408,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 61.0
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     contracts:
@@ -418,8 +418,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png
 security:

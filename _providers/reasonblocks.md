@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -193,8 +193,8 @@ image: https://reasonblocks.com/rb.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: reasonblocks-mcp.yml
-  slug: reasonblocks-mcpyml
+  name: ReasonBlocks MCP Server
+  slug: reasonblocks-mcp-server
 modified: '2026-07-21'
 name: ReasonBlocks
 nav: Providers
@@ -207,7 +207,7 @@ random_paper: 5
 score:
   band: thin
   composite: 37.2
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -217,7 +217,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 36.3
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,8 +228,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -249,7 +249,7 @@ tags:
 - Developer Tools
 - Token Optimization
 - Agent Steering
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - SDK
 website: https://reasonblocks.com

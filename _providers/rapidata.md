@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 55
 apis:
 - description: The Asset API from Rapidata — 3 operation(s) for asset.
@@ -486,8 +486,8 @@ image: https://rapidata.ai/media/rapidata.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: rapidata-mcp.yml
-  slug: rapidata-mcpyml
+  name: Rapidata MCP Server
+  slug: rapidata-mcp-server
 modified: '2026-07-20'
 name: Rapidata
 nav: Providers
@@ -505,7 +505,7 @@ scopes:
 score:
   band: developing
   composite: 49.2
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -515,7 +515,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 46.1
+  previous_composite: 49.2
   provenance:
     conformance: derived
     contracts:
@@ -525,8 +525,8 @@ score:
       total: 55
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/screenshots/rapidata-2026-08-17T083202.png
 security:
@@ -546,8 +546,8 @@ tags:
 - Annotation
 - RLHF
 - Model Evaluation
-- Machine Learning
-- AI
+- Machine-Learning
+- Artificial Intelligence
 - Crowdsourcing
 - Preference Data
 website: https://docs.rapidata.ai/developers/

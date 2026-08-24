@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -196,13 +196,13 @@ image: https://www.eigenpal.com/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: eigenpal-mcp.yml
-  slug: eigenpal-mcpyml
+  name: Eigenpal MCP Server
+  slug: eigenpal-mcp-server
 modified: '2026-07-19'
 name: Eigenpal
 nav: Providers
 network: true
-overview: 'Eigenpal publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Evaluation API, Files API, and 3 more. Tagged areas include Company, Document Processing, Artificial Intelligence, Workflow Automation, and Machine Learning.
+overview: 'Eigenpal publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Evaluation API, Files API, and 3 more. Tagged areas include Company, Document Processing, Artificial Intelligence, Workflow-Automation, and Machine-Learning.
 
 
   The Eigenpal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -213,7 +213,7 @@ random_paper: 18
 score:
   band: developing
   composite: 44.0
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -223,7 +223,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 45.8
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +234,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/screenshots/eigenpal-2026-07-25T213002.png
 security:
@@ -252,8 +252,8 @@ tags:
 - Company
 - Document Processing
 - Artificial Intelligence
-- Workflow Automation
-- Machine Learning
+- Workflow-Automation
+- Machine-Learning
 - Data Extraction
 - OCR
 - Developer Tools

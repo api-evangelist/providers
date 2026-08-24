@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -267,8 +267,8 @@ image: https://www.mireye.com/assets/favicon-Bk0nCQH7.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: mireye-mcp.yml
-  slug: mireye-mcpyml
+  name: Mireye MCP Server
+  slug: mireye-mcp-server
 modified: '2026-07-20'
 name: Mireye
 nav: Providers
@@ -285,18 +285,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 46.3
-  delta: -3.0
+  composite: 47.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
     contract_quality: 40.5
     developer_ergonomics: 71.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 49.3
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -313,8 +313,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 57.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/screenshots/mireye-2026-08-07T183719.png
 security:
@@ -333,7 +333,7 @@ tags:
 - Geographic Information System
 - Location
 - AI Agents
-- Model Context Protocol
+- MCP
 - Government Data
 - Risk
 - Insurance

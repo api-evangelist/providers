@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'REST API for programmatic, end-to-end video creation and automated delivery. OAuth 2.0 client-credentials + bearer auth. Resources: TemplateStyleVersion, Mapping, RenderSession.'
@@ -126,8 +126,8 @@ image: https://avatars.githubusercontent.com/shakrmedia
 layout: provider
 mcp_servers:
 - description: ''
-  name: shakr-media-mcp.yml
-  slug: shakr-media-mcpyml
+  name: Shakr Media MCP Server
+  slug: shakr-media-mcp-server
 modified: '2026-07-21'
 name: Shakr Media
 nav: Providers
@@ -148,7 +148,7 @@ scopes:
 score:
   band: emerging
   composite: 26.0
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -158,12 +158,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.1
+  previous_composite: 26.0
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Shakr Media Authentication

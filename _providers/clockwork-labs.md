@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The SpacetimeDB HTTP API lets clients and tools interact with SpacetimeDB databases: publish and delete database modules, manage database names, retrieve schema and logs, invoke reducers, run SQL quer'
@@ -155,8 +155,8 @@ image: https://spacetimedb.com/og-home.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: clockwork-labs-mcp.yml
-  slug: clockwork-labs-mcpyml
+  name: Clockwork Labs MCP Server
+  slug: clockwork-labs-mcp-server
 modified: '2026-07-18'
 name: Clockwork Labs
 nav: Providers
@@ -168,24 +168,24 @@ overview: 'Clockwork Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 10
 score:
   band: thin
-  composite: 35.7
-  delta: -0.9
+  composite: 36.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 36.6
+  previous_composite: 36.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/screenshots/clockwork-labs-2026-07-25T205640.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Create, list, retrieve, and continue investigation sessions.
@@ -153,14 +153,14 @@ description: Traversal is an AI SRE (Site Reliability Engineering) platform that
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/traversal.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: traversal-mcp.yml
-  slug: traversal-mcpyml
+- description: Traversal operates an official hosted (remote) MCP server that lets any streamable-http MCP client — Claude Code, Claude Desktop, Cursor, OpenCode, ChatGPT, Windsurf, VS Code — run investigations agai
+  name: Traversal
+  slug: traversal
 modified: '2026-07-21'
 name: Traversal
 nav: Providers
 network: true
-overview: 'Traversal publishes 1 API on the [APIs.io](https://apis.io/) network: Sessions API. Tagged areas include Company, AI, AI SRE, Site Reliability Engineering, and Observability.
+overview: 'Traversal publishes 1 API on the [APIs.io](https://apis.io/) network: Sessions API. Tagged areas include Company, Artificial Intelligence, AI SRE, Site Reliability Engineering, and Observability.
 
 
   Traversal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
@@ -168,7 +168,7 @@ random_paper: 14
 score:
   band: developing
   composite: 43.0
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -178,7 +178,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 46.3
+  previous_composite: 43.0
   provenance:
     conformance: derived
     contracts:
@@ -188,8 +188,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/screenshots/traversal-2026-08-17T082630.png
 security:
@@ -212,7 +212,7 @@ security:
 slug: traversal
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI SRE
 - Site Reliability Engineering
 - Observability

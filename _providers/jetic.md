@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ modified: '2026-05-19'
 name: Jetic
 nav: Providers
 network: true
-overview: 'Jetic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Specifications API, Clusters API, Deployments API, and 2 more. Tagged areas include Apache Camel, Integrations, iPaaS, and Pro-Code API Composition.
+overview: 'Jetic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Specifications API, Clusters API, Deployments API, and 2 more. Tagged areas include Apache Camel, Integration, iPaaS, and Pro-Code-API-Composition.
 
 
   The Jetic catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -217,7 +217,7 @@ rules:
 score:
   band: developing
   composite: 41.1
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -227,7 +227,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 46.5
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -235,9 +235,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/screenshots/jetic-2026-06-20T183725.png
 security:
 - kind: authentication
@@ -251,9 +251,9 @@ security:
 slug: jetic
 tags:
 - Apache Camel
-- Integrations
+- Integration
 - iPaaS
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 use_cases:
 - name: Real-time Integration
 - name: API Build & Design

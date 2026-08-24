@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST/JSON API for managing NS1 (IBM NS1 Connect) authoritative DNS: zones, records, answers and filter chains, monitoring jobs, notification lists, data sources and feeds, account/team/user/API-key ma'
@@ -117,7 +117,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 25.5
-  delta: 7.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -127,10 +127,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  previous_composite: 25.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/screenshots/ns1-2026-08-07T185658.png
 security:
 - kind: authentication
@@ -149,7 +149,6 @@ tags:
 - Managed DNS
 - Traffic Management
 - DDI
-- API
 - Infrastructure
 website: https://ns1.com/
 ---

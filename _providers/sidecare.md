@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ modified: '2026-07-21'
 name: SideCare
 nav: Providers
 network: true
-overview: 'SideCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Insurance, Insurtech, and Health Insurance.
+overview: 'SideCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Insurance, Insurtech, and Health Insurance.
 
 
   SideCare''s developer surface includes support, engineering blog, authentication, and 9 more developer resources.'
@@ -101,18 +101,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.0
-  delta: -1.8
+  composite: 23.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.8
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -121,8 +121,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -136,7 +136,7 @@ security:
 slug: sidecare
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Insurance
 - Insurtech
 - Health Insurance

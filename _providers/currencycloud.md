@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -442,8 +442,8 @@ image: https://raw.githubusercontent.com/CurrencyCloud/currencycloud-swagger/mas
 layout: provider
 mcp_servers:
 - description: ''
-  name: currencycloud-mcp.yml
-  slug: currencycloud-mcpyml
+  name: Currencycloud MCP Server
+  slug: currencycloud-mcp-server
 modified: '2026-07-18'
 name: Currencycloud
 nav: Providers
@@ -463,7 +463,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.2
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -473,7 +473,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 81.6
-  previous_composite: 57.4
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -490,8 +490,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/screenshots/currencycloud-2026-07-25T210947.png
 security:

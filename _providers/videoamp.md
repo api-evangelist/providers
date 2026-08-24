@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 4
@@ -253,13 +253,13 @@ image: https://videoamp.com/wp-content/uploads/2020/06/5e8e31e378cb39dc533b5e00_
 layout: provider
 mcp_servers:
 - description: ''
-  name: videoamp-mcp.yml
-  slug: videoamp-mcpyml
+  name: VideoAmp MCP
+  slug: videoamp-mcp
 modified: '2026-08-02'
 name: VideoAmp
 nav: Providers
 network: true
-overview: 'VideoAmp publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ad Measurements API, Audiences API, Campaigns API, and 11 more. Tagged areas include media-measurement, advertising, adtech, tv-currency, and audience-measurement.
+overview: 'VideoAmp publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ad Measurements API, Audiences API, Campaigns API, and 11 more. Tagged areas include Media Measurement, Advertising, AdTech, tv-currency, and Audience Measurement.
 
 
   VideoAmp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 24 more developer resources.'
@@ -272,7 +272,7 @@ scopes:
 score:
   band: developing
   composite: 47.2
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -282,7 +282,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 51.3
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,8 +293,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/screenshots/videoamp-2026-08-17T082744.png
 security:
@@ -316,16 +316,16 @@ security:
   summary_line: trust center published
 slug: videoamp
 tags:
-- media-measurement
-- advertising
-- adtech
+- Media Measurement
+- Advertising
+- AdTech
 - tv-currency
-- audience-measurement
-- media-planning
-- streaming
-- attribution
-- data-collaboration
-- mcp
+- Audience Measurement
+- Media Planning
+- Streaming
+- Attribution
+- Data Collaboration
+- MCP
 - agent-native
 website: https://videoamp.com/
 ---

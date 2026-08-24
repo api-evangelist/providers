@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Tez DAG API provides a Java programming model for defining and submitting directed-acyclic-graph (DAG) computation jobs to Apache YARN. It allows building DAGs composed of Vertex (processing units
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.1
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -134,9 +134,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 17.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tez/refs/heads/main/screenshots/apache-tez-2026-06-20T172151.png
 security:
@@ -155,7 +155,7 @@ tags:
 - Execution Engine
 - Hadoop
 - YARN
-- Open Source
+- Open-Source
 use_cases:
 - description: Tez is the default execution engine for Apache Hive queries replacing MapReduce.
   name: Apache Hive Query Execution

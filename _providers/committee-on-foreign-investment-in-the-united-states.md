@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: CFIUS publishes an annual report to Congress summarizing covered transactions reviewed during the prior calendar year, statistics on notices, declarations, withdrawn cases, and presidential decisions.
@@ -79,7 +79,7 @@ modified: '2026-04-28'
 name: Committee on Foreign Investment in the United States
 nav: Providers
 network: true
-overview: 'Committee on Foreign Investment in the United States publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CFIUS, Federal Government, Foreign Investment, National Security, and Regulation.
+overview: 'Committee on Foreign Investment in the United States publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CFIUS, Federal-Government, Foreign Investment, National Security, and Regulations.
 
 
   Committee on Foreign Investment in the United States'' developer surface includes documentation, FAQ, and 4 more developer resources.'
@@ -95,7 +95,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.3
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -105,15 +105,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 14.1
+  previous_composite: 13.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/committee-on-foreign-investment-in-the-united-states/refs/heads/main/screenshots/committee-on-foreign-investment-in-the-united-states-2026-06-20T174816.png
 security:
@@ -124,10 +124,10 @@ security:
 slug: committee-on-foreign-investment-in-the-united-states
 tags:
 - CFIUS
-- Federal Government
+- Federal-Government
 - Foreign Investment
 - National Security
-- Regulation
+- Regulations
 - Treasury
 website: https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius
 ---

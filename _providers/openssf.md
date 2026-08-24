@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-05-19'
 name: OpenSSF
 nav: Providers
 network: true
-overview: 'OpenSSF publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Query API, Querybatch API, and 2 more. Tagged areas include Linux Foundation, Open Source, Security, Supply Chain, and Vulnerabilities.
+overview: 'OpenSSF publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Query API, Querybatch API, and 2 more. Tagged areas include Linux Foundation, Open-Source, Security, Supply Chain, and Vulnerabilities.
 
 
   The OpenSSF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -198,7 +198,7 @@ rules:
 score:
   band: thin
   composite: 33.9
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -208,7 +208,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 40.6
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -216,9 +216,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/screenshots/openssf-2026-06-20T191036.png
 security:
 - kind: domain-security
@@ -228,7 +228,7 @@ security:
 slug: openssf
 tags:
 - Linux Foundation
-- Open Source
+- Open-Source
 - Security
 - Supply Chain
 - Vulnerabilities

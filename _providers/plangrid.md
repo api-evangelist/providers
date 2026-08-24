@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for the PlanGrid construction productivity platform. Manage projects, annotations, comments, documents, photos, sheets and versions, snapshots, RFIs, submittal packages, field reports, tasks '
@@ -127,8 +127,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plangrid.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: plangrid-mcp.yml
-  slug: plangrid-mcpyml
+  name: PlanGrid MCP Server
+  slug: plangrid-mcp-server
 modified: '2026-07-20'
 name: PlanGrid
 nav: Providers
@@ -146,7 +146,7 @@ scopes:
 score:
   band: emerging
   composite: 19.6
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -156,12 +156,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 22.4
-  previous_composite: 23.5
+  previous_composite: 19.6
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

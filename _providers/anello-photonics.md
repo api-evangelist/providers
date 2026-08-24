@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The ANELLO device interface: an ASCII sentence protocol (#APIMU, #APIM1, #APGPS, #APHDG, #APINS, #APAHRS output; #APCFG, #APVEH, #APODO, #APPNG, #APECH, #APRST input) plus an RTCM 10403 binary framing'
@@ -131,7 +131,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 25.2
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -141,11 +141,11 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 23.9
+  previous_composite: 25.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/screenshots/anello-photonics-2026-08-07T161404.png
 security:

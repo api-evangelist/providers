@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -124,7 +124,7 @@ modified: '2026-08-01'
 name: Lendbuzz
 nav: Providers
 network: true
-overview: 'Lendbuzz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Auto Lending, Automotive, Financial Services, and Fintech.
+overview: 'Lendbuzz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Auto Lending, Automotive, Financial-Services, and Fintech.
 
 
   Lendbuzz''s developer surface includes engineering blog, product news, support, FAQ, signup flow, and 18 more developer resources.'
@@ -132,7 +132,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 20.2
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -142,11 +142,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 19.7
+  previous_composite: 20.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendbuzz/refs/heads/main/screenshots/lendbuzz-2026-08-07T171537.png
 security:
@@ -159,11 +159,11 @@ tags:
 - Company
 - Auto Lending
 - Automotive
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Credit
-- Machine Learning
+- Machine-Learning
 - Consumer Finance
 - Dealers
 website: https://www.lendbuzz.com/

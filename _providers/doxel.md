@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,12 +81,12 @@ modified: '2026-05-25'
 name: Doxel
 nav: Providers
 network: true
-overview: Doxel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Construction Technology, ConTech, AI, and Computer Vision.
+overview: Doxel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Construction Technology, ConTech, Artificial Intelligence, and Computer-Vision.
 random_paper: 15
 score:
   band: minimal
   composite: 4.6
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -96,15 +96,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.6
+  previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doxel/refs/heads/main/screenshots/doxel-2026-06-20T180209.png
 security:
@@ -117,8 +117,8 @@ tags:
 - Construction
 - Construction Technology
 - ConTech
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Reality Capture
 - Progress Tracking
 - BIM

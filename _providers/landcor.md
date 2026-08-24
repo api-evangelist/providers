@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -181,13 +181,13 @@ image: https://www.landcor.com/wp-content/uploads/2026/01/favicon-152.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: landcor-mcp.yml
-  slug: landcor-mcpyml
+  name: Landcor Data MCP Server
+  slug: landcor-data-mcp-server
 modified: '2026-07-26'
 name: Landcor Data
 nav: Providers
 network: true
-overview: 'Landcor Data publishes 1 API on the [APIs.io](https://apis.io/) network: Landcor Property API. Tagged areas include Real Estate, Canada, Valuation, AVM, and Property Records.
+overview: 'Landcor Data publishes 1 API on the [APIs.io](https://apis.io/) network: Landcor Property API. Tagged areas include Real-Estate, Canada, Valuation, AVM, and Property Records.
 
 
   Landcor Data''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
@@ -195,7 +195,7 @@ random_paper: 4
 score:
   band: developing
   composite: 41.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -205,14 +205,14 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 41.0
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png
 security:
@@ -226,7 +226,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: landcor
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Valuation
 - AVM

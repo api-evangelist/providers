@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
@@ -153,14 +153,14 @@ description: StarTree is a real-time analytics company founded by the creators o
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/startree-cortexdata.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: startree-cortexdata-mcp.yml
-  slug: startree-cortexdata-mcpyml
+- description: Open-source Model Context Protocol server for Apache Pinot / StarTree Cloud, maintained in the StarTree (startreedata) GitHub org. Lets Claude and other MCP-compatible clients query a Pinot cluster ov
+  name: StarTree (Cortexdata) MCP Server
+  slug: startree-cortexdata-mcp-server
 modified: '2026-07-21'
 name: StarTree (Cortexdata)
 nav: Providers
 network: true
-overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.io/) network: Query API API. Tagged areas include Company, Ai Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
+overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.io/) network: Query API API. Tagged areas include Company, AI Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
 
 
   StarTree (Cortexdata)''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 19 more developer resources.'
@@ -168,7 +168,7 @@ random_paper: 16
 score:
   band: developing
   composite: 47.7
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -178,7 +178,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 50.9
+  previous_composite: 47.7
   provenance:
     conformance: first-party
     contracts:
@@ -188,8 +188,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/screenshots/startree-cortexdata-2026-08-17T082112.png
 security:
@@ -208,7 +208,7 @@ security:
 slug: startree-cortexdata
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Real-Time Analytics
 - Apache Pinot
 - OLAP

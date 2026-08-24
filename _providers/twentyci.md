@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -212,13 +212,13 @@ image: https://www.twentyci.co.uk/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: twentyci-mcp.yml
-  slug: twentyci-mcpyml
+  name: TwentyCi MCP Server
+  slug: twentyci-mcp-server
 modified: '2026-07-26'
 name: TwentyCi
 nav: Providers
 network: true
-overview: 'TwentyCi publishes 9 APIs on the [APIs.io](https://apis.io/) network, including TwentyAPI OAuth Token API, TwentyAPI Properties API, TwentyAPI Agent Performance API, and 6 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Data, and Valuation.
+overview: 'TwentyCi publishes 9 APIs on the [APIs.io](https://apis.io/) network, including TwentyAPI OAuth Token API, TwentyAPI Properties API, TwentyAPI Agent Performance API, and 6 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Data, and Valuation.
 
 
   TwentyCi''s developer surface includes authentication, code examples, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
@@ -231,7 +231,7 @@ scopes:
 score:
   band: thin
   composite: 32.0
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 45.5
     operational_transparency: 2.6
-  previous_composite: 30.3
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,8 +252,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -266,7 +266,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: twentyci
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Data

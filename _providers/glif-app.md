@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: HTTP endpoint for invoking a single published glif (AI workflow) by ID and passing a list of named or positional string inputs. POST a JSON body with `id` and `inputs` to https://simple-api.glif.app u
@@ -139,7 +139,7 @@ modified: '2026-05-25'
 name: Glif
 nav: Providers
 network: true
-overview: 'Glif publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Artificial Intelligence, No-Code, Workflows, and Creative AI.
+overview: 'Glif publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, No-Code, Workflows, Creative AI, and Generative AI.
 
 
   Glif''s developer surface includes developer portal, documentation, changelog, pricing, support, GitHub presence, YouTube channel, and 18 more developer resources.'
@@ -147,7 +147,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 21.6
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -163,9 +163,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 21.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glif-app/refs/heads/main/screenshots/glif-app-2026-06-20T181913.png
 security:
@@ -179,14 +179,13 @@ security:
   summary_line: security.txt · contact published
 slug: glif-app
 tags:
-- AI
 - Artificial Intelligence
 - No-Code
 - Workflows
 - Creative AI
 - Generative AI
 - Video Generation
-- Image Generation
+- Image-Generation
 - ComfyUI
 - MCP
 - LLM Apps

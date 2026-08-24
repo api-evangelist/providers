@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-17'
 name: AfterShoot
 nav: Providers
 network: true
-overview: 'AfterShoot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photography, Artificial Intelligence, Machine Learning, and Image Processing.
+overview: 'AfterShoot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photography, Artificial Intelligence, Machine-Learning, and Image Processing.
 
 
   AfterShoot''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 17.0
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -106,9 +106,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aftershoot/refs/heads/main/screenshots/aftershoot-2026-07-25T181747.png
 security:
@@ -121,7 +121,7 @@ tags:
 - Company
 - Photography
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Image Processing
 - Photo Culling
 - Photo Editing

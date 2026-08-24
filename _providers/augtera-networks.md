@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/nvidia/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -48,16 +52,16 @@ created: '2026-07-17'
 description: Augtera Networks is an AI-native networking (Network AIOps) company founded in 2016 and based in Palo Alto, California. Its Network AI platform ingests telemetry from network devices, applies machine-learning anomaly detection (including gray failures), eliminates noise, performs incident root-cause identification, noiseless ticket creation, and auto-mitigation/remediation for data-center and enterprise networks. The platform exposed a Topology REST API for device discovery/lifecycle and DevOps/ITSM integration. Augtera was acquired by NVIDIA in December 2024 and folded into the NVIDIA Spectrum-X networking portfolio; its standalone augtera.com site now 301-redirects to nvidia.com, so no independent public developer/API surface remains. Added to the API Evangelist network as a bain-capital-ventures portfolio lead.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/augtera-networks.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-21'
 name: Augtera Networks
 nav: Providers
 network: true
-overview: Augtera Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Networking, AIOps, and Network Monitoring.
+overview: Augtera Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Networking, AIOps, and Network Monitoring.
 random_paper: 3
 score:
   band: minimal
   composite: 5.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,9 +71,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augtera-networks/refs/heads/main/screenshots/augtera-networks-2026-07-25T201724.png
 security:
@@ -80,12 +84,12 @@ security:
 slug: augtera-networks
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Networking
 - AIOps
 - Network Monitoring
-- Machine Learning
-- Data Center
+- Machine-Learning
+- Data-Center
 - Acquired
 website: https://augtera.com/
 ---

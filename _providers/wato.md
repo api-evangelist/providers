@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Wato exposes each team's reviewed memory and approved connector tools through a single remote MCP (Model Context Protocol) gateway over Streamable HTTP with OAuth. Any MCP-capable client (Claude Code,
@@ -128,13 +128,13 @@ image: https://framerusercontent.com/images/oDm7nRGsCsNtN5bMfKuMpJdKzJg.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: wato-mcp.yml
-  slug: wato-mcpyml
+  name: Wato MCP Server
+  slug: wato-mcp-server
 modified: '2026-07-21'
 name: Wato
 nav: Providers
 network: true
-overview: 'Wato publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Model Context Protocol, AI Agents, and Agent Governance.
+overview: 'Wato publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Agent Governance, and Team Memory.
 
 
   Wato''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, pricing, and 14 more developer resources.'
@@ -151,7 +151,7 @@ scopes:
 score:
   band: thin
   composite: 30.6
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -161,13 +161,13 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 33.9
+  previous_composite: 30.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -182,7 +182,6 @@ slug: wato
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agent Governance
 - Team Memory

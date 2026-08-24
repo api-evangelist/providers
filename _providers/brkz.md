@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: BRKZ
 nav: Providers
 network: true
-overview: 'BRKZ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Building Materials, Construction Technology, and E-commerce.
+overview: 'BRKZ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Building Materials, Construction Technology, and E-Commerce.
 
 
   BRKZ''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 5.5
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,10 +90,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 5.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brkz/refs/heads/main/screenshots/brkz-2026-07-25T203938.png
 security:
 - kind: domain-security
@@ -106,7 +106,7 @@ tags:
 - Construction
 - Building Materials
 - Construction Technology
-- E-commerce
+- E-Commerce
 - Marketplace
 - Procurement
 - Logistics

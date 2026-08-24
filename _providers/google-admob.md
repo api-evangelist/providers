@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -296,18 +296,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.8
-  delta: -5.3
+  composite: 64.9
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 26.5
     contract_quality: 65.0
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 26.5
     operational_transparency: 76.3
-  previous_composite: 69.1
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,9 +318,9 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/screenshots/google-admob-2026-06-20T182006.png
 security:
 - kind: authentication

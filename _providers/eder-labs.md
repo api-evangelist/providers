@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -122,8 +122,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eder-labs.
 layout: provider
 mcp_servers:
 - description: ''
-  name: eder-labs-mcp.yml
-  slug: eder-labs-mcpyml
+  name: Eder Labs MCP Server
+  slug: eder-labs-mcp-server
 modified: '2026-07-19'
 name: Eder Labs
 nav: Providers
@@ -157,8 +157,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/screenshots/eder-labs-2026-07-25T212819.png
 security:
@@ -175,7 +175,7 @@ tags:
 - Knowledge Graph
 - Personalization
 - Data Privacy
-- Open Source
+- Open-Source
 - Developer Tools
 - RAG
 website: https://www.eder.io/

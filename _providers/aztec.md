@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -110,13 +110,13 @@ image: https://cdn.prod.website-files.com/6847005bc403085c1aa846e0/689cacb514469
 layout: provider
 mcp_servers:
 - description: ''
-  name: aztec-mcp.yml
-  slug: aztec-mcpyml
+  name: Aztec MCP Server
+  slug: aztec-mcp-server
 modified: '2026-07-18'
 name: Aztec
 nav: Providers
 network: true
-overview: 'Aztec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Privacy, Zero-Knowledge, and Ethereum.
+overview: 'Aztec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Privacy, Zero Knowledge, and Ethereum.
 
 
   Aztec''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, changelog, and 12 more developer resources.'
@@ -124,7 +124,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 23.6
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -134,12 +134,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.6
+  previous_composite: 23.6
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aztec/refs/heads/main/screenshots/aztec-2026-07-25T202121.png
 security:
@@ -152,7 +152,7 @@ tags:
 - Company
 - Blockchain
 - Privacy
-- Zero-Knowledge
+- Zero Knowledge
 - Ethereum
 - Layer 2
 - Smart Contracts

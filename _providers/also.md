@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,8 +216,8 @@ image: https://cdn.shopify.com/s/files/1/0747/5878/3200/files/Social_Share.jpg?v
 layout: provider
 mcp_servers:
 - description: ''
-  name: also-mcp.yml
-  slug: also-mcpyml
+  name: Also MCP Server
+  slug: also-mcp-server
 modified: '2026-08-02'
 name: Also
 nav: Providers
@@ -238,18 +238,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: developing
-  composite: 44.4
-  delta: 0.9
+  composite: 45.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 54.2
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 43.5
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,8 +260,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png
 security:

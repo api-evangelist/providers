@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The Business Details API from Mamo — 2 operation(s) for business details.
@@ -276,13 +276,13 @@ image: https://cdn.prod.website-files.com/62662ec945767b19355b5c00/695f9da901d5b
 layout: provider
 mcp_servers:
 - description: ''
-  name: mamo-mcp.yml
-  slug: mamo-mcpyml
+  name: Mamo MCP Server
+  slug: mamo-mcp-server
 modified: '2026-07-20'
 name: Mamo
 nav: Providers
 network: true
-overview: 'Mamo publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Business Details API, Cards API, Expenses API, and 9 more. Tagged areas include Company, Payments, Fintech, Payment Links, and Subscriptions.
+overview: 'Mamo publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Business Details API, Cards API, Expenses API, and 9 more. Tagged areas include Company, Payments, Fintech, Payment Links, and Subscription.
 
 
   The Mamo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -293,7 +293,7 @@ random_paper: 6
 score:
   band: strong
   composite: 57.6
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -303,7 +303,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 59.6
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     contracts:
@@ -319,8 +319,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 67.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/screenshots/mamo-2026-07-25T230010.png
 security:
@@ -346,7 +346,7 @@ tags:
 - Payments
 - Fintech
 - Payment Links
-- Subscriptions
+- Subscription
 - Corporate Cards
 - Payouts
 - Expense Management

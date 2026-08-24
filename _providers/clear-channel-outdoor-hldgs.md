@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the CCO.IO Automated Direct platform. Supports search, retrieval and management of displays, networks, markets, products, orders, bookings, campaigns, creatives, photos, customers, accoun
@@ -172,7 +172,7 @@ modified: '2026-05-05'
 name: Clear Channel Outdoor Holdings
 nav: Providers
 network: true
-overview: 'Clear Channel Outdoor Holdings publishes 1 API on the [APIs.io](https://apis.io/) network: Clear Channel Outdoor Automated Direct API. Tagged areas include Advertising, Out Of Home, Programmatic, Digital Out Of Home, and pDOOH.
+overview: 'Clear Channel Outdoor Holdings publishes 1 API on the [APIs.io](https://apis.io/) network: Clear Channel Outdoor Automated Direct API. Tagged areas include Advertising, Out-of-Home, Programmatic, Digital Out Of Home, and pDOOH.
 
 
   The Clear Channel Outdoor Holdings catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -212,26 +212,26 @@ rules:
   slug: clear-channel-outdoor-hldgs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.4
-  delta: 0.1
+  composite: 38.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 45.5
+    contract_governance: 54.5
     contract_quality: 50.7
     developer_ergonomics: 19.0
     discoverability: 63.0
-    governance: 45.5
+    governance: 54.5
     operational_transparency: 26.3
-  previous_composite: 37.3
+  previous_composite: 38.5
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor-hldgs/refs/heads/main/screenshots/clear-channel-outdoor-hldgs-2026-06-20T174457.png
 security:
@@ -242,7 +242,7 @@ security:
 slug: clear-channel-outdoor-hldgs
 tags:
 - Advertising
-- Out Of Home
+- Out-of-Home
 - Programmatic
 - Digital Out Of Home
 - pDOOH

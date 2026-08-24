@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Read-only GraphQL data service (Mirror Graph) exposing Mirror Protocol state — synthetic assets (mAssets), prices, positions, and staking — from a single unauthenticated HTTP POST endpoint, with a Gra
@@ -123,8 +123,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mirror.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mirror-mcp.yml
-  slug: mirror-mcpyml
+  name: Mirror MCP Server
+  slug: mirror-mcp-server
 modified: '2026-07-20'
 name: Mirror
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 15.6
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -147,13 +147,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 23.9
+  previous_composite: 15.6
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/screenshots/mirror-2026-08-07T183830.png
 security:
 - kind: authentication
@@ -178,6 +178,6 @@ tags:
 - GraphQL
 - Terra
 - Web3
-- Financial Services
+- Financial-Services
 website: https://mirror.finance/
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ modified: '2026-07-23'
 name: Cadence Bank
 nav: Providers
 network: true
-overview: 'Cadence Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Regional Bank, and Commercial Banking.
+overview: 'Cadence Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Regional Bank, and Commercial Banking.
 
 
   Cadence Bank''s developer surface includes support and 7 more developer resources.'
@@ -71,7 +71,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 9.5
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -81,15 +81,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.5
+  previous_composite: 9.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadence-bank/refs/heads/main/screenshots/cadence-bank-2026-07-25T204210.png
 security:
@@ -99,7 +99,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: cadence-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Regional Bank

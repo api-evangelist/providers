@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The one public, unauthenticated operation Gigacatalyst publishes on its own behalf. A coding agent reads the project's API surface, builds a JSON description of it (organization, integrations, tools w
@@ -160,7 +160,7 @@ modified: '2026-08-14'
 name: Gigacatalyst
 nav: Providers
 network: true
-overview: 'Gigacatalyst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, SaaS, Sales Enablement, and Solutions Engineering.
+overview: 'Gigacatalyst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Software-as-a-Service, Sales Enablement, and Solutions Engineering.
 
 
   Gigacatalyst''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, authentication, and 21 more developer resources.'
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.2
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -186,13 +186,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 32.4
+  previous_composite: 29.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/screenshots/gigacatalyst-2026-07-25T215805.png
 security:
@@ -216,7 +216,7 @@ slug: gigacatalyst
 tags:
 - Company
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Sales Enablement
 - Solutions Engineering
 - Customer Success

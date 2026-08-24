@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Resilinc REST API provides programmatic access to supply chain risk data including supplier information, disruption events, risk assessments, and mitigation planning data. The API enables integrat
@@ -125,7 +125,7 @@ modified: '2026-05-02'
 name: Resilinc
 nav: Providers
 network: true
-overview: 'Resilinc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Risk Management, Supplier Intelligence, Disruption Monitoring, and AI.
+overview: 'Resilinc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Risk Management, Supplier Intelligence, Disruption Monitoring, and Artificial Intelligence.
 
 
   The Resilinc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -155,7 +155,7 @@ rules:
 score:
   band: emerging
   composite: 22.7
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -165,10 +165,10 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 22.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resilinc/refs/heads/main/screenshots/resilinc-2026-06-20T192948.png
 security:
 - kind: domain-security
@@ -181,6 +181,6 @@ tags:
 - Risk Management
 - Supplier Intelligence
 - Disruption Monitoring
-- AI
+- Artificial Intelligence
 website: https://resilinc.ai/
 ---

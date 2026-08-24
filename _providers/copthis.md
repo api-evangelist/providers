@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Order previews, creation, tracking, address updates, and cancellation.
@@ -120,8 +120,8 @@ image: https://merchbar.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: copthis-mcp.yml
-  slug: copthis-mcpyml
+  name: CopThis MCP Server
+  slug: copthis-mcp-server
 modified: '2026-07-18'
 name: CopThis
 nav: Providers
@@ -134,7 +134,7 @@ random_paper: 6
 score:
   band: thin
   composite: 31.6
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -144,7 +144,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 31.7
+  previous_composite: 31.6
   provenance:
     conformance: derived
     contracts:
@@ -154,8 +154,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/screenshots/copthis-2026-07-25T210411.png
 security:
@@ -174,7 +174,7 @@ tags:
 - Merchandise
 - E-Commerce
 - Retail
-- Orders
+- Order
 - Fulfillment
 - Partner API
 - Marketplace

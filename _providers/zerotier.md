@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -295,13 +295,13 @@ image: https://avatars.githubusercontent.com/u/4173285?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: zerotier-mcp.yml
-  slug: zerotier-mcpyml
+  name: ZeroTier MCP Server
+  slug: zerotier-mcp-server
 modified: '2026-07-21'
 name: ZeroTier
 nav: Providers
 network: true
-overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network, including controller API, network API, network-member API, and 5 more. Tagged areas include Company, Networking, Software-Defined Networking, SDN, and VPN.
+overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network, including controller API, network API, network-member API, and 5 more. Tagged areas include Company, Networking, Software Defined Networking, SDN, and VPN.
 
 
   The ZeroTier catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -312,7 +312,7 @@ random_paper: 2
 score:
   band: strong
   composite: 58.7
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -322,7 +322,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 60.9
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,8 +333,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/screenshots/zerotier-2026-08-17T083100.png
 security:
@@ -358,7 +358,7 @@ slug: zerotier
 tags:
 - Company
 - Networking
-- Software-Defined Networking
+- Software Defined Networking
 - SDN
 - VPN
 - Security

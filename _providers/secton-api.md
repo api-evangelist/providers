@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Chat API from Secton API — 1 operation(s) for chat.
@@ -142,7 +142,7 @@ modified: '2026-08-16'
 name: Secton API
 nav: Providers
 network: true
-overview: 'Secton API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include ai, inference, llm, chat-completions, and generative-ai.
+overview: 'Secton API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include Artificial Intelligence, Inference, LLM, Chat Completions, and Generative AI.
 
 
   Secton API''s developer surface includes authentication, documentation, engineering blog, support, and 22 more developer resources.'
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -168,7 +168,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 42.8
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/screenshots/secton-api-2026-08-17T081749.png
 security:
@@ -197,15 +197,14 @@ security:
   summary_line: Hackerone
 slug: secton-api
 tags:
-- ai
-- inference
-- llm
-- chat-completions
-- generative-ai
-- developer-tools
-- openai-compatible
-- streaming
-- machine-learning
-- api
+- Artificial Intelligence
+- Inference
+- LLM
+- Chat Completions
+- Generative AI
+- Developer Tools
+- OpenAI-Compatible
+- Streaming
+- Machine-Learning
 website: https://console.secton.org/api
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -245,18 +245,18 @@ rules:
   slug: apple-keynote-spectral-rules
 score:
   band: thin
-  composite: 31.2
-  delta: -4.4
+  composite: 31.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 31.3
     developer_ergonomics: 23.8
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 35.6
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -264,8 +264,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/screenshots/apple-keynote-2026-06-20T172318.png
 security:

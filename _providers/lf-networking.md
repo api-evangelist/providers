@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to LF Networking project resources, APIs, and open networking infrastructure tools.
@@ -73,7 +73,7 @@ modified: '2026-04-28'
 name: LF Networking
 nav: Providers
 network: true
-overview: 'LF Networking publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Networking, Open Source, and Telecom.
+overview: 'LF Networking publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Networking, Open-Source, and Telecom.
 
 
   LF Networking''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.1
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -99,15 +99,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 11.5
+  previous_composite: 9.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-networking/refs/heads/main/screenshots/lf-networking-2026-06-20T184454.png
 security:
@@ -119,6 +119,6 @@ slug: lf-networking
 tags:
 - Linux Foundation
 - Networking
-- Open Source
+- Open-Source
 - Telecom
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -285,8 +285,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/up-bank.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: up-bank-mcp.yml
-  slug: up-bank-mcpyml
+  name: Up MCP Server
+  slug: up-mcp-server
 modified: '2026-07-22'
 name: Up
 nav: Providers
@@ -311,7 +311,7 @@ scopes:
 score:
   band: strong
   composite: 55.9
-  delta: 5.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -321,7 +321,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 50.4
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,9 +338,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png
 security:
 - kind: authentication

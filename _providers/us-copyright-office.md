@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Copyright Public Records System (CPRS) provides access to U.S. copyright registration and recordation data with advanced search capabilities and improved interfaces. Replaced the Online Public Cat
@@ -159,7 +159,7 @@ modified: '2026-05-03'
 name: US Copyright Office
 nav: Providers
 network: true
-overview: 'US Copyright Office publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Copyright, Federal Government, Intellectual Property, and Open Data.
+overview: 'US Copyright Office publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Copyright, Federal-Government, Intellectual Property, and Open Data.
 
 
   The US Copyright Office catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -189,7 +189,7 @@ rules:
 score:
   band: emerging
   composite: 24.7
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -199,16 +199,16 @@ score:
     discoverability: 55.6
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 32.2
+  previous_composite: 24.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-copyright-office/refs/heads/main/screenshots/us-copyright-office-2026-06-20T200655.png
 security:
 - kind: domain-security
@@ -218,7 +218,7 @@ security:
 slug: us-copyright-office
 tags:
 - Copyright
-- Federal Government
+- Federal-Government
 - Intellectual Property
 - Open Data
 use_cases:

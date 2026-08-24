@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 0
@@ -1463,7 +1463,7 @@ modified: '2026-05-19'
 name: Asana
 nav: Providers
 network: true
-overview: 'Asana publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Allocations  API, Attachments  API, Custom Fields  API, and 44 more. Tagged areas include Collaboration, Productivity, Project Management, Projects, and Task Management.
+overview: 'Asana publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Allocations  API, Attachments  API, Custom Fields  API, and 44 more. Tagged areas include Collaboration, Productivity, Project Management, Project, and Task Management.
 
 
   The Asana catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -1508,18 +1508,18 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.1
-  delta: -3.7
+  composite: 66.4
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 85.3
     developer_ergonomics: 69.0
     discoverability: 66.7
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 71.1
-  previous_composite: 69.8
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1527,8 +1527,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png
 security:
@@ -1553,9 +1553,9 @@ tags:
 - Collaboration
 - Productivity
 - Project Management
-- Projects
+- Project
 - Task Management
-- Tasks
-- Workflow
+- Task
+- Workflows
 website: https://asana.com
 ---

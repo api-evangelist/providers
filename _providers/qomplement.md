@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The API Keys API from Qomplement — 2 operation(s) for api keys.
@@ -206,8 +206,8 @@ image: https://qomplement.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: qomplement-mcp.yml
-  slug: qomplement-mcpyml
+  name: Qomplement MCP Server
+  slug: qomplement-mcp-server
 modified: '2026-07-20'
 name: Qomplement
 nav: Providers
@@ -227,7 +227,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -237,7 +237,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 47.3
+  previous_composite: 47.6
   provenance:
     conformance: derived
     contracts:
@@ -247,8 +247,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/screenshots/qomplement-2026-08-17T081421.png
 security:

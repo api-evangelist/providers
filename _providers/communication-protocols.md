@@ -24,7 +24,6 @@ network: true
 random_paper: 4
 slug: communication-protocols
 tags:
-- APIs
 - Application Protocols
 - Communication Protocols
 - Internet

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: The Addressbook API from Work Market — 5 operation(s) for addressbook.
@@ -258,9 +258,9 @@ json_schemas:
   slug: work-market-template
 layout: provider
 mcp_servers:
-- description: ''
-  name: work-market-mcp.yml
-  slug: work-market-mcpyml
+- description: No official WorkMarket MCP server was found (npm, the official MCP registry surface, and the developer portal were searched 2026-07-21). This is a candidate tool list derived one-to-one from the 66 op
+  name: Work Market MCP Server
+  slug: work-market-mcp-server
 modified: '2026-07-21'
 name: Work Market
 nav: Providers
@@ -276,7 +276,7 @@ random_paper: 6
 score:
   band: developing
   composite: 44.5
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -286,7 +286,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 22.4
-  previous_composite: 47.0
+  previous_composite: 44.5
   provenance:
     conformance: derived
     contracts:
@@ -302,8 +302,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/screenshots/work-market-2026-08-17T082936.png
 security:

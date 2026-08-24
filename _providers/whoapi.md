@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,8 +177,8 @@ image: https://whoapi.com/wp-content/uploads/2024/04/API-company-illustration.sv
 layout: provider
 mcp_servers:
 - description: ''
-  name: whoapi-mcp.yml
-  slug: whoapi-mcpyml
+  name: WhoAPI MCP Server
+  slug: whoapi-mcp-server
 modified: '2026-08-14'
 name: WhoAPI
 nav: Providers
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.3
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -212,7 +212,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 56.2
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +223,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/screenshots/whoapi-2026-08-17T082916.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -262,9 +262,9 @@ description: Xiaoman Technology (小满科技, OKKI) is an AI-powered foreign-tr
 image: https://www.xiaoman.cn/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: xiaoman-mcp.yml
-  slug: xiaoman-mcpyml
+- description: No official hosted MCP server was found for Xiaoman/OKKI. Notably, the provider ships agent access as a packaged Agent Skill instead (@okki-global/okki-go, see skills/) with script wrappers around the
+  name: Xiaoman (OKKI) MCP Server
+  slug: xiaoman-okki-mcp-server
 modified: '2026-08-13'
 name: Xiaoman (OKKI)
 nav: Providers
@@ -293,7 +293,7 @@ scopes:
 score:
   band: strong
   composite: 62.3
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -303,7 +303,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 61.9
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,8 +314,8 @@ score:
       total: 7
     mcp: derived
     skills: unknown
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/screenshots/xiaoman-2026-08-17T083013.png
 security:

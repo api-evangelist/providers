@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The XOTP (Paymentus payment) API exposes core Service Commerce operations — make payment (Sale), account inquiry, payment history, void/cancel payment, customer profile create/read/update/delete and l
@@ -133,13 +133,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: paymentus-mcp.yml
-  slug: paymentus-mcpyml
+  name: Paymentus MCP Server
+  slug: paymentus-mcp-server
 modified: '2026-07-24'
 name: Paymentus
 nav: Providers
 network: true
-overview: 'Paymentus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United States, Bill Payment, Electronic Bill Presentment, and Payment Processing.
+overview: 'Paymentus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United States, Bill Payments, Electronic Bill Presentment, and Payment Processing.
 
 
   Paymentus'' developer surface includes API reference, engineering blog, support, authentication, and 20 more developer resources.'
@@ -152,7 +152,7 @@ scopes:
 score:
   band: thin
   composite: 34.5
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -162,7 +162,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 32.7
+  previous_composite: 34.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -172,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -192,7 +192,7 @@ slug: paymentus
 tags:
 - Payments
 - United States
-- Bill Payment
+- Bill Payments
 - Electronic Bill Presentment
 - Payment Processing
 - Payment Gateway

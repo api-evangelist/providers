@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-05-19'
 name: Microsoft to Do
 nav: Providers
 network: true
-overview: 'Microsoft to Do publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ChecklistItems API, LinkedResources API, TaskLists API, and 1 more. Tagged areas include Microsoft, Microsoft 365, Productivity, and Tasks.
+overview: 'Microsoft to Do publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ChecklistItems API, LinkedResources API, TaskLists API, and 1 more. Tagged areas include Microsoft, Microsoft-365, Productivity, and Task.
 
 
   Microsoft to Do''s developer surface includes authentication, developer portal, documentation, support, and 9 more developer resources.'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.0
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -163,7 +163,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/screenshots/microsoft-to-do-2026-06-20T185539.png
 security:
@@ -191,8 +191,8 @@ security:
 slug: microsoft-to-do
 tags:
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Productivity
-- Tasks
+- Task
 website: https://www.microsoft.com/en-us/microsoft-365/microsoft-to-do-list-app
 ---

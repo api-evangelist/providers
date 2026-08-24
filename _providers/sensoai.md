@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Key-authenticated REST API to ingest content into a knowledge base, run semantic search with AI-generated answers, and generate verified content. Authenticated with an X-API-Key header (keys prefixed '
@@ -118,9 +118,9 @@ description: Senso.ai is a verified-context layer for the agentic web that keeps
 image: https://docs.senso.ai/senso-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sensoai-mcp.yml
-  slug: sensoai-mcpyml
+- description: Official Model Context Protocol server for the Senso API, published by Senso (GitHub org AI-Template-SDK). Lets Claude Desktop (and other MCP clients) add raw content, search, and generate against a S
+  name: Senso.ai MCP Server
+  slug: sensoai-mcp-server
 modified: '2026-07-21'
 name: Senso.ai
 nav: Providers
@@ -133,7 +133,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 19.5
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -143,13 +143,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 22.5
+  previous_composite: 19.5
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

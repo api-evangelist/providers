@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -535,6 +535,10 @@ collections:
   name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Workers API
   slug: open-oracle-fusion-workers-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -967,7 +971,7 @@ jsonld:
   property_count: 12
   slug: oracle-fusion-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Oracle Fusion Cloud Applications
 nav: Providers
 network: true
@@ -977,7 +981,7 @@ overview: 'Oracle Fusion Cloud Applications publishes 52 APIs on the [APIs.io](h
   The Oracle Fusion Cloud Applications catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Fusion Cloud Applications'' developer surface includes authentication, developer portal, support, getting-started guide, changelog, signup flow, and 15 more developer resources.'
+  Oracle Fusion Cloud Applications'' developer surface includes authentication, developer portal, support, getting-started guide, changelog, signup flow, and 16 more developer resources.'
 plans:
 - name: Oracle Fusion Plans Pricing
   plan_count: 2
@@ -1001,7 +1005,7 @@ rules:
 score:
   band: developing
   composite: 45.8
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -1011,7 +1015,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 54.1
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1019,9 +1023,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/screenshots/oracle-fusion-2026-06-20T191134.png
 security:
 - kind: authentication
@@ -1042,7 +1046,7 @@ tags:
 - HCM
 - Project Management
 - REST API
-- SaaS
+- Software-as-a-Service
 - SCM
 website: https://www.oracle.com/applications/
 ---

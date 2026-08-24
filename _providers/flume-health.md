@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The REST API for Relay by Flume Health. Manages Accounts, Account Contracts, Connections, Endpoints and their per-protocol secrets and tests (API, cloud storage, database, SFTP, Snowflake, Flume Lakeh
@@ -156,16 +156,16 @@ image: https://flumehealth.com/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: flume-health-mcp.yml
-  slug: flume-health-mcpyml
+  name: Flume Context MCP Server
+  slug: flume-context-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Flume Health MCP Server
+  slug: flume-health-mcp-server
 modified: '2026-08-16'
 name: Flume Health
 nav: Providers
 network: true
-overview: 'Flume Health publishes 1 API on the [APIs.io](https://apis.io/) network: Flume Console API. Tagged areas include healthcare, health-plans, payers, healthcare-data, and data-integration.
+overview: 'Flume Health publishes 1 API on the [APIs.io](https://apis.io/) network: Flume Console API. Tagged areas include Healthcare, Health Plans, Payers, Healthcare Data, and Data Integration.
 
 
   Flume Health''s developer surface includes documentation, API reference, support, authentication, and 26 more developer resources.'
@@ -186,7 +186,7 @@ scopes:
 score:
   band: developing
   composite: 50.8
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -196,7 +196,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 47.1
+  previous_composite: 50.8
   provenance:
     conformance: first-party
     contracts:
@@ -212,8 +212,8 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/screenshots/flume-health-2026-08-17T080932.png
 security:
@@ -231,19 +231,19 @@ security:
   summary_line: SOC 2 Type II, HITRUST CSF, HIPAA
 slug: flume-health
 tags:
-- healthcare
-- health-plans
-- payers
-- healthcare-data
-- data-integration
-- ipaas
-- eligibility
-- claims
-- knowledge-graph
-- mcp
+- Healthcare
+- Health Plans
+- Payers
+- Healthcare Data
+- Data Integration
+- iPaaS
+- Eligibility
+- Claims
+- Knowledge Graph
+- MCP
 - agent-native
-- oauth2
-- data-engineering
-- interoperability
+- Authentication
+- Data Engineering
+- Interoperability
 website: https://www.flumehealth.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Command-based REST API for managing Fibery workspace entities, databases, views, files, and automation via a single POST endpoint that accepts batches of commands.
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.3
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -134,9 +134,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 35.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 32.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fibery/refs/heads/main/screenshots/fibery-2026-06-20T181149.png
 security:
@@ -156,6 +156,6 @@ tags:
 - No-Code
 - Automation
 - GraphQL
-- Webhooks
+- Webhook
 website: https://fibery.com
 ---

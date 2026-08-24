@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Dropzone AI's primary "API surface" is its catalog of 90+ outbound integrations to SIEM, EDR/XDR, identity, cloud, and threat intel tools. The autonomous SOC analyst consumes alerts and enrichment dat
@@ -89,7 +89,7 @@ modified: '2026-05-23'
 name: Dropzone AI
 nav: Providers
 network: true
-overview: 'Dropzone AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, SOC, AI Agent, Autonomous, and Triage.
+overview: 'Dropzone AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, SOC, AI Agent, Autonomous, and triage.
 
 
   Dropzone AI''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.5
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -115,9 +115,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 18.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropzone-ai/refs/heads/main/screenshots/dropzone-ai-2026-06-20T180248.png
 security:
@@ -135,7 +135,7 @@ tags:
 - SOC
 - AI Agent
 - Autonomous
-- Triage
+- triage
 - SIEM
 - EDR
 - XDR

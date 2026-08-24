@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -227,8 +227,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lucent.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lucent-mcp.yml
-  slug: lucent-mcpyml
+  name: Lucent MCP Server
+  slug: lucent-mcp-server
 modified: '2026-07-20'
 name: Lucent
 nav: Providers
@@ -248,18 +248,18 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 53.1
-  delta: -0.7
+  composite: 54.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 30.3
     contract_quality: 65.6
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 53.8
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,8 +270,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/screenshots/lucent-2026-07-25T225640.png
 security:
@@ -293,6 +293,6 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - MCP
-- Webhooks
+- Webhook
 website: https://lucenthq.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Current does not expose a first-party public API or developer portal. The only documented, programmatic path to a member's Current account data (balances, transaction history, account and identity det
@@ -83,7 +83,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 9.6
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -93,15 +93,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.4
+  previous_composite: 9.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/current/refs/heads/main/screenshots/current-2026-07-25T210948.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Treasury Services API family covering payments (USD clearing, global ACH, RTP, wires, Pay by Bank), liquidity, cash management, trade finance, and FX, exposed to corporate and financial-institution cl
@@ -108,7 +108,7 @@ modified: '2026-07-24'
 name: BNY Mellon
 nav: Providers
 network: true
-overview: 'BNY Mellon publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Custody Bank, and Treasury Services.
+overview: 'BNY Mellon publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Custody Bank, and Treasury Services.
 
 
   BNY Mellon''s developer surface includes documentation, support, sandbox, and 12 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 19.1
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -126,15 +126,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.7
+  previous_composite: 19.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bny-mellon/refs/heads/main/screenshots/bny-mellon-2026-07-25T203518.png
 security:
@@ -144,7 +144,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bny-mellon
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Custody Bank

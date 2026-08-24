@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Engagespot REST API enables sending multi-channel notifications to users, listing and deleting notification records, managing user accounts and preferences, triggering and canceling notification w
@@ -102,7 +102,7 @@ modified: '2026-06-12'
 name: Engagespot
 nav: Providers
 network: true
-overview: 'Engagespot publishes 1 API on the [APIs.io](https://apis.io/) network: Notifications API. Tagged areas include Notifications, In-App Notifications, Push Notifications, Email, and SMS.
+overview: 'Engagespot publishes 1 API on the [APIs.io](https://apis.io/) network: Notifications API. Tagged areas include Notification, In-App Notifications, Push Notifications, Email, and SMS.
 
 
   The Engagespot catalog on APIs.io includes 1 JSON-LD context.
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.4
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -131,15 +131,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 33.9
+  previous_composite: 33.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespot/refs/heads/main/screenshots/engagespot-2026-06-20T180716.png
 security:
@@ -149,7 +149,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: engagespot
 tags:
-- Notifications
+- Notification
 - In-App Notifications
 - Push Notifications
 - Email

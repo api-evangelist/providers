@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ scopes:
 score:
   band: strong
   composite: 56.8
-  delta: 4.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -257,7 +257,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 52.1
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -274,8 +274,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ rules:
 score:
   band: developing
   composite: 47.5
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -203,7 +203,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 52.6
-  previous_composite: 49.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +217,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bls/refs/heads/main/screenshots/bls-2026-06-20T173523.png
 security:
@@ -243,7 +243,7 @@ tags:
 - Wages
 - Labor Statistics
 - Economic Indicators
-- Federal Government
+- Federal-Government
 - Open Data
 website: https://www.bls.gov
 ---

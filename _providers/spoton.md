@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -588,7 +588,7 @@ modified: '2026-06-03'
 name: SpotOn
 nav: Providers
 network: true
-overview: 'SpotOn publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Cash Deposits API, Employees API, and 12 more. Tagged areas include Restaurant, Point of Sale, Payments, Online Ordering, and Reservations.
+overview: 'SpotOn publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Cash Deposits API, Employees API, and 12 more. Tagged areas include Restaurant, Point-of-Sale, Payments, Online Ordering, and Reservations.
 
 
   The SpotOn catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -628,18 +628,18 @@ rules:
   slug: spoton-rules
 score:
   band: developing
-  composite: 42.1
-  delta: -4.9
+  composite: 42.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.8
     developer_ergonomics: 32.1
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 47.0
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -653,8 +653,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoton/refs/heads/main/screenshots/spoton-2026-06-20T194358.png
 security:
@@ -673,7 +673,7 @@ security:
 slug: spoton
 tags:
 - Restaurant
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Online Ordering
 - Reservations

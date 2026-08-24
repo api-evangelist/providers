@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ random_paper: 3
 score:
   band: thin
   composite: 32.5
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -142,7 +142,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 35.3
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/screenshots/bolt-eu-2026-07-25T203541.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -189,8 +189,8 @@ image: https://myfave.com/banner.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fave-mcp.yml
-  slug: fave-mcpyml
+  name: Fave MCP Server
+  slug: fave-mcp-server
 modified: '2026-07-19'
 name: Fave
 nav: Providers
@@ -206,7 +206,7 @@ random_paper: 19
 score:
   band: developing
   composite: 44.5
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -216,7 +216,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 43.7
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/screenshots/fave-2026-07-25T214253.png
 security:
@@ -256,6 +256,6 @@ tags:
 - Cashback
 - Merchant Services
 - Southeast Asia
-- Webhooks
+- Webhook
 website: https://myfave.com
 ---

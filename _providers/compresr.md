@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -350,8 +350,8 @@ image: https://compresr.ai/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: compresr-mcp.yml
-  slug: compresr-mcpyml
+  name: Compresr MCP Server
+  slug: compresr-mcp-server
 modified: '2026-07-18'
 name: Compresr
 nav: Providers
@@ -372,7 +372,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.8
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -382,7 +382,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 60.8
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -393,8 +393,8 @@ score:
       total: 27
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/screenshots/compresr-2026-07-25T210203.png
 security:
@@ -416,7 +416,6 @@ tags:
 - Developer Tools
 - Agents
 - Tokens
-- API
 - Y Combinator
 website: https://compresr.ai/docs
 ---

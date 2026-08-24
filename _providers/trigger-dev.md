@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -279,7 +279,7 @@ modified: '2026-05-22'
 name: Trigger.dev
 nav: Providers
 network: true
-overview: 'Trigger.dev publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Deployments API, Environment Variables API, and 6 more. Tagged areas include Developer-First, Workflow Automation, Background Jobs, Durable Execution, and TypeScript.
+overview: 'Trigger.dev publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Deployments API, Environment Variables API, and 6 more. Tagged areas include Developer-First, Workflow-Automation, Background Jobs, Durable Execution, and TypeScript.
 
 
   The Trigger.dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -319,18 +319,18 @@ rules:
   slug: trigger-dev-rules
 score:
   band: developing
-  composite: 52.2
-  delta: -6.6
+  composite: 52.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.9
     developer_ergonomics: 54.8
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 58.8
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -338,9 +338,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/screenshots/trigger-dev-2026-06-20T195710.png
 security:
 - kind: authentication
@@ -358,12 +358,12 @@ security:
 slug: trigger-dev
 tags:
 - Developer-First
-- Workflow Automation
+- Workflow-Automation
 - Background Jobs
 - Durable Execution
 - TypeScript
 - AI Agents
-- Realtime
-- Open Source
+- Real-Time
+- Open-Source
 website: https://trigger.dev
 ---

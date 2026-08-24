@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -189,13 +189,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/martian-ai
 layout: provider
 mcp_servers:
 - description: ''
-  name: martian-ai-mcp.yml
-  slug: martian-ai-mcpyml
+  name: Martian MCP Server
+  slug: martian-mcp-server
 modified: '2026-08-08'
 name: Martian
 nav: Providers
 network: true
-overview: 'Martian publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat Completions API, Messages API, and Models API. Tagged areas include AI, LLM, Model Router, Gateway, and Cost Optimization.
+overview: 'Martian publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat Completions API, Messages API, and Models API. Tagged areas include Artificial Intelligence, LLM, Model Router, Gateway, and Cost Optimization.
 
 
   The Martian catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -226,7 +226,7 @@ rules:
 score:
   band: strong
   composite: 55.9
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -236,7 +236,7 @@ score:
     discoverability: 81.5
     governance: 29.5
     operational_transparency: 34.2
-  previous_composite: 59.2
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,8 +246,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/screenshots/martian-ai-2026-07-25T230258.png
 security:
@@ -261,7 +261,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: martian-ai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Model Router
 - Gateway

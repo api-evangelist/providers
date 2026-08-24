@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Guildcode REST API for creating workspace-scoped agent sessions, posting events, and reading session events and tasks. HTTP Basic authentication; no public OpenAPI spec.
@@ -118,14 +118,14 @@ description: Guild.ai is a control plane for AI agents that lets engineering tea
 image: https://app.guild.ai/favicons/favicon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: guildai-mcp.yml
-  slug: guildai-mcpyml
+- description: The Guild CLI ships an MCP server that exposes Guild control-plane operations as tools for MCP clients, so client agents can list and inspect workspaces, agents, sessions, triggers, credentials, and i
+  name: Guild.ai MCP Server
+  slug: guildai-mcp-server
 modified: '2026-07-19'
 name: Guild.ai
 nav: Providers
 network: true
-overview: 'Guild.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, AI Agents, Agent Control Plane, and Agent Runtime.
+overview: 'Guild.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Control Plane, and Agent Runtime.
 
 
   Guild.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 12 more developer resources.'
@@ -133,7 +133,7 @@ random_paper: 0
 score:
   band: thin
   composite: 28.2
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -143,11 +143,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 31.3
+  previous_composite: 28.2
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guildai/refs/heads/main/screenshots/guildai-2026-07-25T220430.png
 security:
@@ -162,7 +162,7 @@ security:
 slug: guildai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Agent Control Plane
 - Agent Runtime

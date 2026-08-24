@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -243,9 +243,9 @@ description: 'Yugabyte is the company behind YugabyteDB, an open source (Apache 
 image: https://github.com/yugabyte.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: yugabyte-mcp.yml
-  slug: yugabyte-mcpyml
+- description: 'Candidate MCP server tool list derived one-to-one from the yugabyted UI API OpenAPI operations. No official hosted YugabyteDB MCP server was found at search time; this is a governance/agent-readiness '
+  name: Yugabyte MCP Server
+  slug: yugabyte-mcp-server
 modified: '2026-07-21'
 name: Yugabyte
 nav: Providers
@@ -258,7 +258,7 @@ random_paper: 13
 score:
   band: strong
   composite: 55.4
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -268,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 54.9
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +279,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/screenshots/yugabyte-2026-08-17T083024.png
 security:
@@ -303,8 +303,8 @@ tags:
 - Distributed SQL
 - PostgreSQL
 - Cloud
-- DBaaS
-- Open Source
+- Database-as-a-Service
+- Open-Source
 - SQL
 - Data
 - Infrastructure

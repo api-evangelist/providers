@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The IYK API provides primitives for building digi-physical experiences. Core endpoints manage chips (NFC tags such as NTAG 424, KONG, and ARX HaLo), chip groups, items, taps/refs (validated physical i
@@ -103,8 +103,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iyk.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: iyk-mcp.yml
-  slug: iyk-mcpyml
+  name: IYK MCP Server
+  slug: iyk-mcp-server
 modified: '2026-07-19'
 name: IYK
 nav: Providers
@@ -117,7 +117,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 24.0
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -127,11 +127,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 23.6
+  previous_composite: 24.0
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/screenshots/iyk-2026-07-25T223022.png
 security:

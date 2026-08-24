@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Data sources connected to Ledge (banks, payment service providers, ERPs, databases) and the datasets fetched from them.
@@ -183,9 +183,9 @@ description: 'Ledge is an AI-powered close management, reconciliation and paymen
 image: https://cdn.prod.website-files.com/63aadf1c20f6a6eb95024394/68df18eebbbc304be738307c_Ledge%20%7C%20put%20your%20close%20on%20ait-pilot%20with%20a%20team%20of%20AI%20agents.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ledge-mcp.yml
-  slug: ledge-mcpyml
+- description: Ledge does not publish an MCP server. Searched the documentation corpus (docs.ledge.co/llms-full.txt — no occurrence of "MCP"), the ledge.co site and the github.com/goledge organisation (0 public repo
+  name: Ledge MCP Server
+  slug: ledge-mcp-server
 modified: '2026-07-19'
 name: Ledge
 nav: Providers
@@ -203,7 +203,7 @@ scopes:
 score:
   band: strong
   composite: 58.0
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -213,7 +213,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 56.9
+  previous_composite: 58.0
   provenance:
     conformance: first-party
     contracts:
@@ -229,8 +229,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/screenshots/ledge-2026-07-25T224813.png
 security:

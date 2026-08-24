@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-21'
 name: Zapia
 nav: Providers
 network: true
-overview: 'Zapia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Assistant, and Conversational AI.
+overview: 'Zapia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Assistant, Conversational AI, and WhatsApp.
 
 
   Zapia''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 9.7
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -88,14 +88,13 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 12.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: zapia
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Assistant
 - Conversational AI

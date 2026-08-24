@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 20
 apis:
 - description: The Account API from OTO Global — 4 operation(s) for account.
@@ -284,13 +284,13 @@ image: https://www.tryoto.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: oto-global-mcp.yml
-  slug: oto-global-mcpyml
+  name: OTO Global MCP Server
+  slug: oto-global-mcp-server
 modified: '2026-07-20'
 name: OTO Global
 nav: Providers
 network: true
-overview: 'OTO Global publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authorization API, Brands API, and 17 more. Tagged areas include Company, Shipping, Logistics, Fulfillment, and E-commerce.
+overview: 'OTO Global publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authorization API, Brands API, and 17 more. Tagged areas include Company, Shipping, Logistics, Fulfillment, and E-Commerce.
 
 
   The OTO Global catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -301,7 +301,7 @@ random_paper: 0
 score:
   band: developing
   composite: 52.5
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -311,7 +311,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 50.0
+  previous_composite: 52.5
   provenance:
     conformance: derived
     contracts:
@@ -327,8 +327,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oto-global/refs/heads/main/screenshots/oto-global-2026-08-07T191028.png
 security:
@@ -346,7 +346,7 @@ tags:
 - Shipping
 - Logistics
 - Fulfillment
-- E-commerce
+- E-Commerce
 - Delivery
 - Carriers
 - Returns

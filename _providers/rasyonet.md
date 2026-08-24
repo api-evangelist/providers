@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-05-02'
 name: Rasyonet
 nav: Providers
 network: true
-overview: Rasyonet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, E-Commerce, Equity Research, Financial Data, and Financial Services.
+overview: Rasyonet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, E-Commerce, Equity Research, Financial Data, and Financial-Services.
 random_paper: 3
 score:
   band: minimal
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png
 security:
@@ -91,7 +91,7 @@ tags:
 - E-Commerce
 - Equity Research
 - Financial Data
-- Financial Services
+- Financial-Services
 - Fintech
 - Grocery
 - Investment Management

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 23
 apis:
 - description: Official open-source Model Context Protocol server (Java) exposing 14 WhoisFreaks domain-intelligence tools to MCP-compatible AI clients. Distributed as source and as the whoisfreaks/mcp-server Docker
@@ -313,8 +313,8 @@ image: https://whoisfreaks.com/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: whoisfreaks-mcp.yml
-  slug: whoisfreaks-mcpyml
+  name: WhoisFreaks MCP Server
+  slug: whoisfreaks-mcp-server
 modified: '2026-08-09'
 name: WhoisFreaks
 nav: Providers
@@ -338,7 +338,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 68.9
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -348,7 +348,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 68.8
+  previous_composite: 68.9
   provenance:
     conformance: derived
     contracts:
@@ -358,8 +358,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/screenshots/whoisfreaks-2026-08-17T080443.png
 security:

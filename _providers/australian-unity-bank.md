@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -174,8 +174,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/australian
 layout: provider
 mcp_servers:
 - description: ''
-  name: australian-unity-bank-mcp.yml
-  slug: australian-unity-bank-mcpyml
+  name: Australian Unity Bank MCP Server
+  slug: australian-unity-bank-mcp-server
 modified: '2026-07-21'
 name: Australian Unity Bank
 nav: Providers
@@ -193,7 +193,7 @@ scopes:
 score:
   band: thin
   composite: 39.2
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 35.8
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,8 +220,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/screenshots/australian-unity-bank-2026-07-21T114715.png
 security:

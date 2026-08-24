@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-20'
 name: Beijing Lanweitong Technology (蓝卫通 / BSC)
 nav: Providers
 network: true
-overview: 'Beijing Lanweitong Technology (蓝卫通 / BSC) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Telemedicine, Remote Consultation, and Medical Imaging.
+overview: 'Beijing Lanweitong Technology (蓝卫通 / BSC) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telemedicine, Remote Consultation, and Medical Imaging.
 
 
   Beijing Lanweitong Technology (蓝卫通 / BSC)''s developer surface includes engineering blog and 4 more developer resources.'
@@ -69,7 +69,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 5.9
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -79,15 +79,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.6
+  previous_composite: 5.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chinabsc/refs/heads/main/screenshots/chinabsc-2026-07-25T205230.png
 security:
@@ -98,7 +98,7 @@ security:
 slug: chinabsc
 tags:
 - Company
-- Health Care
+- Healthcare
 - Telemedicine
 - Remote Consultation
 - Medical Imaging

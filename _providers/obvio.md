@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Obvio
 nav: Providers
 network: true
-overview: 'Obvio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical Ai, Traffic Safety, Public Safety, and Computer Vision.
+overview: 'Obvio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical AI, Traffic Safety, Public Safety, and Computer-Vision.
 
 
   Obvio''s developer surface includes engineering blog, support, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 18
 score:
   band: minimal
   composite: 6.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,9 +74,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obvio/refs/heads/main/screenshots/obvio-2026-08-07T185916.png
 security:
@@ -87,10 +87,10 @@ security:
 slug: obvio
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Traffic Safety
 - Public Safety
-- Computer Vision
+- Computer-Vision
 - Road Safety
 - Law Enforcement
 - Artificial Intelligence

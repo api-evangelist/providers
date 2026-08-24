@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-19'
 name: Ark.com
 nav: Providers
 network: true
-overview: Ark.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, People Search, Social Search, and Search Engine.
+overview: Ark.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, People Search, Social Search, and Search Engines.
 random_paper: 7
 score:
   band: minimal
@@ -77,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkcom/refs/heads/main/screenshots/arkcom-2026-07-25T201157.png
 slug: arkcom
@@ -87,7 +87,7 @@ tags:
 - Defunct
 - People Search
 - Social Search
-- Search Engine
+- Search Engines
 - Data Aggregation
 - Y Combinator
 - Venture Backed

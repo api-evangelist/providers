@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ modified: '2026-04-19'
 name: Archrock
 nav: Providers
 network: true
-overview: 'Archrock publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Financials API, Fleet API, Operations API, and 1 more. Tagged areas include Natural Gas, Compression Services, Oil And Gas, Energy, and Industrial.
+overview: 'Archrock publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Financials API, Fleet API, Operations API, and 1 more. Tagged areas include Natural Gas, Compression Services, Oil and Gas, Energy, and Industrial.
 
 
   The Archrock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -267,18 +267,18 @@ rules:
   slug: archrock-spectral-rules
 score:
   band: thin
-  composite: 34.6
-  delta: -2.9
+  composite: 35.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 56.6
     developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 37.5
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -292,8 +292,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/screenshots/archrock-2026-06-20T172409.png
 security:
@@ -309,7 +309,7 @@ slug: archrock
 tags:
 - Natural Gas
 - Compression Services
-- Oil And Gas
+- Oil and Gas
 - Energy
 - Industrial
 - 'NYSE: AROC'

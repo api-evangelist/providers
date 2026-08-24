@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -5383,18 +5383,18 @@ rules:
   slug: aws-s3-spectral-rules
 score:
   band: developing
-  composite: 44.8
-  delta: -7.4
+  composite: 45.3
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 58.4
     developer_ergonomics: 40.5
     discoverability: 50.0
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 52.2
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -5402,9 +5402,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/screenshots/aws-s3-2026-06-20T172817.png
 security:
 - kind: authentication

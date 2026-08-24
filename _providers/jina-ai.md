@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ modified: '2026-05-19'
 name: Jina AI
 nav: Providers
 network: true
-overview: 'Jina AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Embeddings API, Reader API, and 1 more. Tagged areas include AI, Embeddings, Machine Learning, Reranking, and Search.
+overview: 'Jina AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Embeddings API, Reader API, and 1 more. Tagged areas include Artificial Intelligence, Embeddings, Machine-Learning, Reranking, and Search.
 
 
   Jina AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, and 7 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.4
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -169,7 +169,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 40.0
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/screenshots/jina-ai-2026-06-20T183733.png
 security:
@@ -192,9 +192,9 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: jina-ai
 tags:
-- AI
+- Artificial Intelligence
 - Embeddings
-- Machine Learning
+- Machine-Learning
 - Reranking
 - Search
 website: https://jina.ai

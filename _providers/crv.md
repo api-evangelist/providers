@@ -28,7 +28,7 @@ tags:
 - Series A
 - Developer Tools
 - Security
-- AI
+- Artificial Intelligence
 - Enterprise
 - Consumer
 - Biotech

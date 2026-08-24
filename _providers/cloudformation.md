@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -759,7 +759,7 @@ modified: '2026-05-19'
 name: AWS CloudFormation
 nav: Providers
 network: true
-overview: 'AWS CloudFormation publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Change Sets API, Exports API, Registry API, and 10 more. Tagged areas include Automation, Cloud Resources, IaC, Infrastructure As Code, and Stack Management.
+overview: 'AWS CloudFormation publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Change Sets API, Exports API, Registry API, and 10 more. Tagged areas include Automation, Cloud Resources, IaC, Infrastructure as Code, and Stack Management.
 
 
   The AWS CloudFormation catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -799,18 +799,18 @@ rules:
   slug: cloudformation-spectral-rules
 score:
   band: strong
-  composite: 60.0
-  delta: -6.8
+  composite: 60.4
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.8
     developer_ergonomics: 81.0
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 66.8
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     contracts:
@@ -818,9 +818,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:
 - kind: authentication
@@ -844,7 +844,7 @@ tags:
 - Automation
 - Cloud Resources
 - IaC
-- Infrastructure As Code
+- Infrastructure as Code
 - Stack Management
 use_cases:
 - description: Deploy consistent infrastructure across multiple AWS accounts with Stack Sets

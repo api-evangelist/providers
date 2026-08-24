@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Public REST API for the Elemental Machines LabOps platform. Read machines (sensor-connected assets), their time-series samples and computed sample statistics, aggregated/hourly/status utilization roll
@@ -141,16 +141,16 @@ image: https://elementalmachines.com/wp-content/uploads/2024/11/connectivity-ale
 layout: provider
 mcp_servers:
 - description: ''
-  name: elemental-machines-mcp.yml
-  slug: elemental-machines-mcpyml
+  name: Elemental Machines MCP Server
+  slug: elemental-machines-mcp-server
 - description: ''
-  name: mcp-oauth-server
-  slug: mcp-oauth-server
+  name: Elemental Machines MCP Server
+  slug: elemental-machines-mcp-server-2
 modified: '2026-08-12'
 name: Elemental Machines
 nav: Providers
 network: true
-overview: 'Elemental Machines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include lab-operations, laboratory-monitoring, iot, sensors, and life-sciences.
+overview: 'Elemental Machines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include lab-operations, laboratory-monitoring, IoT, Sensors, and Life Sciences.
 
 
   Elemental Machines'' developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 18 more developer resources.'
@@ -171,7 +171,7 @@ scopes:
 score:
   band: developing
   composite: 52.2
-  delta: 5.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -181,7 +181,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 46.6
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     contracts:
@@ -197,9 +197,9 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/screenshots/elemental-machines-2026-08-17T080912.png
 security:
 - kind: authentication
@@ -214,17 +214,17 @@ slug: elemental-machines
 tags:
 - lab-operations
 - laboratory-monitoring
-- iot
-- sensors
-- life-sciences
-- cold-chain
-- environmental-monitoring
+- IoT
+- Sensors
+- Life Sciences
+- Cold Chain
+- Environmental Monitoring
 - equipment-utilization
-- asset-management
-- alerting
-- compliance
-- gxp
-- manufacturing
-- time-series
+- Asset Management
+- Alerting
+- Compliance
+- GxP
+- Manufacturing
+- Time Series
 website: https://elementalmachines.com/
 ---

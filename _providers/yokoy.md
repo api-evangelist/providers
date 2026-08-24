@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 22
 apis:
 - description: Card account associated to one of Yokoy's card programs. Only active card accounts are allowed to order new cards.
@@ -272,8 +272,8 @@ image: https://yokoy.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: yokoy-mcp.yml
-  slug: yokoy-mcpyml
+  name: Yokoy MCP Server
+  slug: yokoy-mcp-server
 modified: '2026-07-21'
 name: Yokoy
 nav: Providers
@@ -291,7 +291,7 @@ scopes:
 score:
   band: developing
   composite: 40.3
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -301,7 +301,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 46.9
+  previous_composite: 40.3
   provenance:
     conformance: first-party
     contracts:
@@ -317,9 +317,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/screenshots/yokoy-2026-08-17T083017.png
 security:
 - kind: authentication
@@ -347,6 +347,6 @@ tags:
 - Finance Automation
 - Corporate Cards
 - Fintech
-- SaaS
+- Software-as-a-Service
 website: https://yokoy.io/
 ---

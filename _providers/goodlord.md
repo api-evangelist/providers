@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -205,13 +205,13 @@ image: https://www.goodlord.com/hubfs/goodlord-logo-1.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: goodlord-mcp.yml
-  slug: goodlord-mcpyml
+  name: Goodlord MCP Server
+  slug: goodlord-mcp-server
 modified: '2026-07-26'
 name: Goodlord
 nav: Providers
 network: true
-overview: 'Goodlord publishes 3 APIs on the [APIs.io](https://apis.io/) network: Referencing API, Referencing API (Sandbox), and Insurance App API. Tagged areas include Real Estate, United Kingdom, PropTech, Property Management, and Rentals.
+overview: 'Goodlord publishes 3 APIs on the [APIs.io](https://apis.io/) network: Referencing API, Referencing API (Sandbox), and Insurance App API. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Management, and Rentals.
 
 
   The Goodlord catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,7 +227,7 @@ scopes:
 score:
   band: strong
   composite: 62.9
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -237,7 +237,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 58.3
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/screenshots/goodlord-2026-08-07T165804.png
 security:
@@ -273,7 +273,7 @@ security:
   summary_line: ISO 27001, GDPR
 slug: goodlord
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Management

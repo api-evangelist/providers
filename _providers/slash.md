@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -441,13 +441,13 @@ image: https://www.slash.com/images/social-previews/index.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: slash-mcp.yml
-  slug: slash-mcpyml
+  name: Slash MCP Server
+  slug: slash-mcp-server
 modified: '2026-07-21'
 name: Slash
 nav: Providers
 network: true
-overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Requests API, Analytics API, and 23 more. Tagged areas include Company, Banking, Payments, Financial Services, and Fintech.
+overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Requests API, Analytics API, and 23 more. Tagged areas include Company, Banking, Payments, Financial-Services, and Fintech.
 
 
   The Slash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -463,7 +463,7 @@ scopes:
 score:
   band: strong
   composite: 64.1
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -473,7 +473,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 58.9
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -490,9 +490,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/screenshots/slash-2026-08-17T081925.png
 security:
 - kind: authentication
@@ -512,7 +512,7 @@ tags:
 - Company
 - Banking
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - Corporate Cards
 - Business Banking

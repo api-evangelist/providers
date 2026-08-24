@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -216,9 +216,9 @@ description: 'Dailyhunt is India''s largest local-language content and news aggr
 image: https://m.dailyhunt.in/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: dailyhunt-mcp.yml
-  slug: dailyhunt-mcpyml
+- description: Dailyhunt publishes no hosted or remote MCP server. Searched the developer resource center, the partner integration reference, the github.com/dailyhunt organization and the public MCP registries; noth
+  name: Dailyhunt MCP Server
+  slug: dailyhunt-mcp-server
 modified: '2026-08-04'
 name: Dailyhunt
 nav: Providers
@@ -231,7 +231,7 @@ random_paper: 12
 score:
   band: developing
   composite: 47.9
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 47.8
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +252,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/screenshots/dailyhunt-2026-08-07T164025.png
 security:

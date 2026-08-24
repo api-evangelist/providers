@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Open-source framework for reliable end-to-end browser testing and web automation supporting Chromium, Firefox, and WebKit. Distributed as a library/CLI; there is no public hosted HTTP API.
@@ -89,7 +89,7 @@ modified: '2026-05-19'
 name: Playwright
 nav: Providers
 network: true
-overview: 'Playwright publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Testing, End-to-End, Library, Open Source, and Test Automation.
+overview: 'Playwright publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Testing, End-to-End, Library, Open-Source, and Test Automation.
 
 
   Playwright''s developer surface includes documentation, release notes, and 7 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.8
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -115,15 +115,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 17.2
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playwright/refs/heads/main/screenshots/playwright-2026-06-20T191808.png
 security:
@@ -136,7 +136,7 @@ tags:
 - Browser Testing
 - End-to-End
 - Library
-- Open Source
+- Open-Source
 - Test Automation
 - Test Framework
 - Web Automation

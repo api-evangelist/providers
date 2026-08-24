@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 183
 apis:
 - description: 'The Reporting API exposes Later Influence campaign performance for aggregation outside the platform: instance-level KPIs and time series, campaign performance and estimated ROI, social-network channel'
@@ -1260,7 +1260,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -1270,7 +1270,7 @@ score:
     discoverability: 57.4
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 47.6
+  previous_composite: 50.2
   provenance:
     conformance: first-party
     contracts:
@@ -1286,8 +1286,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/screenshots/mavrck-2026-07-25T230437.png
 security:
@@ -1310,7 +1310,7 @@ tags:
 - Creator Economy
 - Marketing
 - Advertising
-- Social Media
+- Social-Media
 - Creators
 - Campaigns
 - Campaign Performance
@@ -1319,7 +1319,7 @@ tags:
 - Social Analytics
 - Advocacy Marketing
 - Payments
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://www.mavrck.co/
 ---

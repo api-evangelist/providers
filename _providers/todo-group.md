@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'Repolinter is an open source linting tool for repositories that validates compliance with open source best practices. It checks repositories for standard files like LICENSE, README, CONTRIBUTING, and '
@@ -137,7 +137,7 @@ modified: '2026-07-25'
 name: TODO Group
 nav: Providers
 network: true
-overview: 'TODO Group publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Community, Linux Foundation, Open Source, and OSPO.
+overview: 'TODO Group publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Community, Linux Foundation, Open-Source, and OSPO.
 
 
   The TODO Group catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -167,7 +167,7 @@ rules:
 score:
   band: emerging
   composite: 22.1
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -177,9 +177,9 @@ score:
     discoverability: 55.6
     governance: 69.7
     operational_transparency: 13.2
-  previous_composite: 19.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todo-group/refs/heads/main/screenshots/todo-group-2026-06-20T195427.png
 security:
@@ -191,7 +191,7 @@ slug: todo-group
 tags:
 - Community
 - Linux Foundation
-- Open Source
+- Open-Source
 - OSPO
 use_cases:
 - description: Use Repolinter and Repolinter Action to automate checks that all repos have required open source files and follow organizational policies.

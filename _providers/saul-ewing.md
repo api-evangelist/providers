@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,7 +125,7 @@ modified: '2026-05-23'
 name: Saul Ewing LLP
 nav: Providers
 network: true
-overview: 'Saul Ewing LLP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Law Firm, Litigation, Corporate, and Mergers And Acquisitions.
+overview: 'Saul Ewing LLP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Law Firm, Litigation, Corporate, and Mergers and Acquisitions.
 
 
   Saul Ewing LLP''s developer surface includes product news, engineering blog, GitHub presence, and 18 more developer resources.'
@@ -133,7 +133,7 @@ random_paper: 12
 score:
   band: minimal
   composite: 3.9
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -143,15 +143,15 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 5.9
+  previous_composite: 3.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saul-ewing/refs/heads/main/screenshots/saul-ewing-2026-06-20T193440.png
 security:
@@ -165,9 +165,9 @@ tags:
 - Law Firm
 - Litigation
 - Corporate
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 - Bankruptcy
-- Real Estate
+- Real-Estate
 - Public Finance
 - Life Sciences
 - Intellectual Property

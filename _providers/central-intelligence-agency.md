@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The CIA's FOIA Electronic Reading Room (CREST - CIA Records Search Tool) is a publicly searchable interface to declassified CIA records released under the Freedom of Information Act. The site provides
@@ -122,7 +122,7 @@ modified: '2026-07-25'
 name: Central Intelligence Agency
 nav: Providers
 network: true
-overview: 'Central Intelligence Agency publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, FOIA, Government, Intelligence, and National Security.
+overview: 'Central Intelligence Agency publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, FOIA, Government, Intelligence, and National Security.
 
 
   Central Intelligence Agency''s developer surface includes product news and 13 more developer resources.'
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.1
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -148,15 +148,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.6
+  previous_composite: 9.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/central-intelligence-agency/refs/heads/main/screenshots/central-intelligence-agency-2026-06-20T174128.png
 security:
@@ -166,7 +166,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: central-intelligence-agency
 tags:
-- Federal Government
+- Federal-Government
 - FOIA
 - Government
 - Intelligence

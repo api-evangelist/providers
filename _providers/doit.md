@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 74.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -251,8 +251,8 @@ image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jp
 layout: provider
 mcp_servers:
 - description: ''
-  name: doit-mcp.yml
-  slug: doit-mcpyml
+  name: DoiT MCP Server
+  slug: doit-mcp-server
 modified: '2026-08-12'
 name: DoiT
 nav: Providers
@@ -281,7 +281,7 @@ scopes:
 score:
   band: strong
   composite: 65.1
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -291,7 +291,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 69.7
-  previous_composite: 72.6
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,9 +302,9 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/screenshots/doit-2026-08-17T080051.png
 security:
 - kind: authentication
@@ -330,7 +330,7 @@ tags:
 - Cloud Cost Management
 - Cloud Intelligence
 - Cost Optimization
-- Multicloud
+- Multi-Cloud
 - Kubernetes
 - Analytics
 - MCP

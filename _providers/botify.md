@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Hosted Model Context Protocol server at mcp.botify.com, advertised via RFC 9728 protected-resource metadata as "Botify Agents MCP" with the single scope mcp_read_write. Authorization is delegated to a
@@ -200,17 +200,17 @@ description: Botify is an enterprise organic-search and AI-search visibility pla
 image: https://cdn.prod.website-files.com/6639e9e213b495098391c3d1/67bcce304f73f509e3630134_Ai%20Search%20Visibility-Featured%20Image%20(1).jpg
 layout: provider
 mcp_servers:
+- description: Hosted Model Context Protocol server operated by Botify, announced alongside its AI agents so teams can pull Botify SEO/AI-search data into external agent tooling and bring their own agents into the B
+  name: Botify Agents MCP
+  slug: botify-agents-mcp
 - description: ''
-  name: botify-mcp.yml
-  slug: botify-mcpyml
-- description: ''
-  name: mcp.botify.com
-  slug: mcpbotifycom
+  name: Botify MCP Server
+  slug: botify-mcp-server
 modified: '2026-08-08'
 name: Botify
 nav: Providers
 network: true
-overview: 'Botify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analysis API, Collections API, Datasource API, and 5 more. Tagged areas include seo, organic-search, search-engine-optimization, web-crawling, and log-analysis.
+overview: 'Botify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analysis API, Collections API, Datasource API, and 5 more. Tagged areas include SEO, organic-search, Web Crawling, Log Analysis, and Search Console.
 
 
   Botify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
@@ -223,7 +223,7 @@ scopes:
 score:
   band: developing
   composite: 43.8
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -233,7 +233,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 43.8
   provenance:
     conformance: first-party
     contracts:
@@ -243,9 +243,9 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/screenshots/botify-2026-08-17T080653.png
 security:
 - kind: authentication
@@ -258,16 +258,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: botify
 tags:
-- seo
+- SEO
 - organic-search
-- search-engine-optimization
-- web-crawling
-- log-analysis
-- search-console
-- marketing-analytics
-- ai-search
-- data-export
-- mcp
+- Web Crawling
+- Log Analysis
+- Search Console
+- Marketing Analytics
+- AI Search
+- Data Export
+- MCP
 - agent-native
 website: https://www.botify.com/
 ---

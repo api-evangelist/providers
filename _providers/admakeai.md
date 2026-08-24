@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,16 +150,16 @@ image: https://admakeai.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: AdMakeAI MCP Server
+  slug: admakeai-mcp-server
 - description: ''
-  name: admakeai-mcp.yml
-  slug: admakeai-mcpyml
+  name: AdMakeAI MCP Server
+  slug: admakeai-mcp-server-2
 modified: '2026-08-11'
 name: AdMakeAI
 nav: Providers
 network: true
-overview: 'AdMakeAI publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Marketing, AdTech, Generative AI, and Image Generation.
+overview: 'AdMakeAI publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Marketing, AdTech, Generative AI, and Image-Generation.
 
 
   AdMakeAI''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
@@ -179,25 +179,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.2
-  delta: 1.8
+  composite: 42.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 39.4
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -214,7 +214,7 @@ tags:
 - Marketing
 - AdTech
 - Generative AI
-- Image Generation
+- Image-Generation
 - Video Generation
 - Meta Ads
 - Competitive Intelligence

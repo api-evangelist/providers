@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 22
 apis:
 - description: The apps API from Replicated — 17 operation(s) for apps.
@@ -394,8 +394,8 @@ image: https://www.replicated.com/images/replicated-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: replicated-mcp.yml
-  slug: replicated-mcpyml
+  name: Replicated MCP Server
+  slug: replicated-mcp-server
 modified: '2026-07-20'
 name: Replicated
 nav: Providers
@@ -411,7 +411,7 @@ random_paper: 3
 score:
   band: strong
   composite: 62.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -421,7 +421,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 63.7
+  previous_composite: 62.4
   provenance:
     conformance: first-party
     contracts:
@@ -431,8 +431,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/screenshots/replicated-2026-08-17T081526.png
 security:

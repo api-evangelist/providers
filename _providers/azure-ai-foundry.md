@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-05-11'
 name: Microsoft Azure AI Foundry
 nav: Providers
 network: true
-overview: 'Microsoft Azure AI Foundry publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Completions API, Embeddings API, and 2 more. Tagged areas include Artificial Intelligence, Generative AI, AI Agents, Foundation Models, and Machine Learning.
+overview: 'Microsoft Azure AI Foundry publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Completions API, Embeddings API, and 2 more. Tagged areas include Artificial Intelligence, Generative AI, AI Agents, Foundation Models, and Machine-Learning.
 
 
   Microsoft Azure AI Foundry''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
@@ -150,7 +150,7 @@ scopes:
 score:
   band: thin
   composite: 30.2
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -160,7 +160,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 31.7
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +168,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/screenshots/azure-ai-foundry-2026-06-20T172847.png
 security:
@@ -191,7 +191,7 @@ tags:
 - Generative AI
 - AI Agents
 - Foundation Models
-- Machine Learning
+- Machine-Learning
 - Cloud
 - Azure
 website: https://azure.microsoft.com/en-us/products/ai-foundry/

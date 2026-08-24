@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -515,7 +515,7 @@ modified: '2026-05-22'
 name: Arcade
 nav: Providers
 network: true
-overview: 'Arcade publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Authorization API, Gateways API, and 5 more. Tagged areas include Agents, MCP, AI Agents, Authorization, and OAuth.
+overview: 'Arcade publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Authorization API, Gateways API, and 5 more. Tagged areas include Agents, MCP, AI Agents, Authorization, and Authentication.
 
 
   The Arcade catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -556,7 +556,7 @@ rules:
 score:
   band: strong
   composite: 61.3
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -566,7 +566,7 @@ score:
     discoverability: 59.3
     governance: 69.7
     operational_transparency: 34.2
-  previous_composite: 57.6
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     contracts:
@@ -574,8 +574,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/screenshots/arcade-2026-06-20T172354.png
 security:
@@ -604,11 +604,11 @@ tags:
 - MCP
 - AI Agents
 - Authorization
-- OAuth
+- Authentication
 - Tool Calling
 - Agent Infrastructure
 - LLM
-- Integrations
+- Integration
 use_cases:
 - description: Agents that act on behalf of distinct end users — Gmail/Calendar/Slack/Salesforce assistants — without shared service credentials.
   name: Multi-User AI Assistant

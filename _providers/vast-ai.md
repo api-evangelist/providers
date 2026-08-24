@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -234,7 +234,7 @@ modified: '2026-05-23'
 name: Vast.ai
 nav: Providers
 network: true
-overview: 'Vast.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Billing API, Instances API, and 7 more. Tagged areas include AI, Cloud, Compute, GPU, and Machine Learning.
+overview: 'Vast.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Billing API, Instances API, and 7 more. Tagged areas include Artificial Intelligence, Cloud, Compute, GPU, and Machine-Learning.
 
 
   Vast.ai''s developer surface includes authentication, documentation, developer portal, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
@@ -250,7 +250,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -260,7 +260,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 53.1
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -268,8 +268,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/screenshots/vast-ai-2026-06-20T200827.png
 security:
@@ -287,11 +287,11 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: vast-ai
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - Compute
 - GPU
-- Machine Learning
+- Machine-Learning
 - Marketplace
 - Serverless
 website: https://vast.ai

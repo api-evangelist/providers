@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,33 +80,33 @@ modified: '2026-07-23'
 name: Desjardins Group
 nav: Providers
 network: true
-overview: 'Desjardins Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Credit Union, and Caisse Populaire.
+overview: 'Desjardins Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Credit Union, and Caisse Populaire.
 
 
   Desjardins Group''s developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 13
 score:
   band: emerging
-  composite: 11.9
-  delta: -2.6
+  composite: 13.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.5
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desjardins/refs/heads/main/screenshots/desjardins-2026-07-25T211754.png
 security:
@@ -120,7 +120,7 @@ security:
   summary_line: security.txt · contact published
 slug: desjardins
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Credit Union

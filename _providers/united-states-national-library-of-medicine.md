@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-05-19'
 name: United States National Library of Medicine
 nav: Providers
 network: true
-overview: 'United States National Library of Medicine publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BLAST API, Fetch API, Gene API, and 7 more. Tagged areas include Federal Government, Biomedical Research, Healthcare, Genomics, and Literature.
+overview: 'United States National Library of Medicine publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BLAST API, Fetch API, Gene API, and 7 more. Tagged areas include Federal-Government, Biomedical Research, Healthcare, Genomics, and Literature.
 
 
   The United States National Library of Medicine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -215,18 +215,18 @@ rules:
   slug: united-states-national-library-of-medicine-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.4
-  delta: 2.7
+  composite: 35.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 30.3
+    contract_governance: 39.4
     contract_quality: 58.0
     developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 30.3
+    governance: 39.4
     operational_transparency: 7.9
-  previous_composite: 31.7
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -240,8 +240,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/screenshots/united-states-national-library-of-medicine-2026-06-20T200054.png
 security:
@@ -255,7 +255,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: united-states-national-library-of-medicine
 tags:
-- Federal Government
+- Federal-Government
 - Biomedical Research
 - Healthcare
 - Genomics

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'FusionFeed is Infinite Athlete''s sports and performance data API, built on the Tempus Ex platform. It provides schedules, team rosters on a game-by-game basis, official stats delivered the moment the '
@@ -131,7 +131,7 @@ scopes:
 score:
   band: emerging
   composite: 24.3
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -141,11 +141,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.1
+  previous_composite: 24.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/screenshots/infinite-athlete-2026-07-25T222606.png
 security:

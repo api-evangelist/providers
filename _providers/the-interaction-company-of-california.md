@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Send messages to Poke programmatically.
@@ -164,7 +164,7 @@ random_paper: 9
 score:
   band: developing
   composite: 40.6
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -174,7 +174,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 40.7
+  previous_composite: 40.6
   provenance:
     conformance: derived
     contracts:
@@ -183,8 +183,8 @@ score:
       marker_coverage: 100.0
       total: 1
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -202,7 +202,6 @@ tags:
 - Artificial Intelligence
 - Agents
 - Messaging
-- Model Context Protocol
 - MCP
 - Productivity
 - Automation

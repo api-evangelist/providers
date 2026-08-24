@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The Lens API is a hosted GraphQL endpoint that indexes the Lens Chain contracts and exposes queries and mutations for accounts, posts (publications), feeds, follows, groups, apps, notifications, and s
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.0
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -146,9 +146,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 20.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

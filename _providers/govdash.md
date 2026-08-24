@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -138,7 +138,7 @@ random_paper: 13
 score:
   band: developing
   composite: 42.1
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -148,7 +148,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 40.4
+  previous_composite: 42.1
   provenance:
     conformance: first-party
   regulatory:
@@ -157,8 +157,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/screenshots/govdash-2026-07-25T220126.png
 security:

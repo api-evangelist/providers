@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-05-11'
 name: Amazon Selling Partner API
 nav: Providers
 network: true
-overview: 'Amazon Selling Partner API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Catalog API, Feeds API, and 9 more. Tagged areas include eCommerce, Marketplace, Selling Partner, Amazon, and Seller Central.
+overview: 'Amazon Selling Partner API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Catalog API, Feeds API, and 9 more. Tagged areas include E-Commerce, Marketplace, Selling Partner, Amazon, and Seller Central.
 
 
   Amazon Selling Partner API''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
@@ -171,7 +171,7 @@ random_paper: 7
 score:
   band: thin
   composite: 28.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.6
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/screenshots/amazon-seller-central-2026-06-20T171817.png
 security:
@@ -204,13 +204,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: amazon-seller-central
 tags:
-- eCommerce
+- E-Commerce
 - Marketplace
 - Selling Partner
 - Amazon
 - Seller Central
 - Catalog
-- Orders
+- Order
 - Inventory
 - Fulfillment
 website: https://developer.amazonservices.com/

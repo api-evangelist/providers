@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Programmatically search Planet's imagery catalog by geometry, date range, cloud cover and other filters, then discover the items and downloadable assets that match. Supports item search, asset activat
@@ -189,9 +189,9 @@ description: Planet Labs PBC operates the largest constellation of Earth-imaging
 image: https://cdn.sanity.io/images/hvd5n54p/production/e3f218dc0fbfed32b27eca2c22c45fce2586acfb-1920x1080.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: planet-mcp.yml
-  slug: planet-mcpyml
+- description: 'Official experimental Model Context Protocol server from Planet, built on the Planet Python SDK. Runs locally over stdio and lets an AI agent (Claude Desktop, Claude Code, Gemini CLI, GitHub Copilot) '
+  name: Planet MCP Server
+  slug: planet-mcp-server
 modified: '2026-07-20'
 name: Planet
 nav: Providers
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 41.4
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -225,12 +225,12 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 41.2
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -260,6 +260,9 @@ tags:
 - Location
 - Data
 - GIS
+- OGC
+- STAC
+- WMTS
 - Company
 website: https://docs.planet.com
 ---

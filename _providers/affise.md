@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for the Affise Performance platform enabling admins and affiliates to manage offers, track conversions, retrieve statistics, handle publisher payouts, and automate billing operations programm
@@ -220,8 +220,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: affise-mcp.yml
-  slug: affise-mcpyml
+  name: Affise MCP Server
+  slug: affise-mcp-server
 modified: '2026-08-13'
 name: Affise
 nav: Providers
@@ -245,7 +245,7 @@ rate_limits:
 score:
   band: strong
   composite: 66.0
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -255,7 +255,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 66.4
+  previous_composite: 66.0
   provenance:
     conformance: first-party
     contracts:
@@ -265,8 +265,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/screenshots/affise-2026-06-20T165649.png
 security:

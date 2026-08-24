@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: '2026-06-13'
 name: LooksRare
 nav: Providers
 network: true
-overview: 'LooksRare publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Events API, Orders API, and 2 more. Tagged areas include NFT, Marketplace, Ethereum, Web3, and Orders.
+overview: 'LooksRare publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Events API, Orders API, and 2 more. Tagged areas include NFT, Marketplace, Ethereum, Web3, and Order.
 
 
   The LooksRare catalog on APIs.io includes 1 JSON-LD context.
@@ -193,7 +193,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 45.1
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/screenshots/looksrare-2026-06-20T184713.png
 security:
@@ -230,10 +230,10 @@ tags:
 - Marketplace
 - Ethereum
 - Web3
-- Orders
-- Collections
+- Order
+- Collection
 - Tokens
-- Events
+- Event
 - ERC-721
 - ERC-1155
 - Seaport

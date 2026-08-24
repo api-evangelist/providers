@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -141,7 +141,7 @@ modified: '2026-05-25'
 name: Compass
 nav: Providers
 network: true
-overview: 'Compass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Residential Real Estate, Brokerage, PropTech, and Real Estate Platform.
+overview: 'Compass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Residential Real Estate, Brokerage, PropTech, and Real Estate Platform.
 
 
   Compass'' developer surface includes engineering blog, academy / training, GitHub presence, YouTube channel, and 21 more developer resources.'
@@ -149,7 +149,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 3.9
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -159,15 +159,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 8.2
+  previous_composite: 3.9
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -180,7 +180,7 @@ security:
   summary_line: security.txt · contact published
 slug: compass-real-estate
 tags:
-- Real Estate
+- Real-Estate
 - Residential Real Estate
 - Brokerage
 - PropTech

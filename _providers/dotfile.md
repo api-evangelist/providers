@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-08-17'
 name: Dotfile
 nav: Providers
 network: true
-overview: 'Dotfile publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include kyb, kyc, aml, business-verification, and identity-verification.
+overview: 'Dotfile publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include KYB, KYC, AML, Business Verification, and Identity Verification.
 
 
   The Dotfile catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -198,6 +198,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.4
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -207,6 +208,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 51.3
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +219,9 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Dotfile Authentication
@@ -234,21 +237,21 @@ security:
   summary_line: SOC 2, GDPR
 slug: dotfile
 tags:
-- kyb
-- kyc
-- aml
-- business-verification
-- identity-verification
-- compliance
-- regtech
-- onboarding
-- sanctions-screening
-- document-verification
-- fraud-detection
-- company-data
-- beneficial-ownership
-- case-management
-- electronic-signature
-- webhooks
+- KYB
+- KYC
+- AML
+- Business Verification
+- Identity Verification
+- Compliance
+- RegTech
+- Onboarding
+- Sanctions Screening
+- Document Verification
+- Fraud Detection
+- Company Data
+- Beneficial Ownership
+- Case Management
+- Electronic Signature
+- Webhook
 website: https://www.dotfile.com/
 ---

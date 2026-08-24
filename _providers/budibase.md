@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ modified: '2026-04-21'
 name: Budibase
 nav: Providers
 network: true
-overview: 'Budibase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Queries API, Rows API, and 2 more. Tagged areas include AI Agents, Automation, Internal Tools, Low-Code, and Open Source.
+overview: 'Budibase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Queries API, Rows API, and 2 more. Tagged areas include AI Agents, Automation, Internal Tools, Low-Code, and Open-Source.
 
 
   Budibase''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, signup flow, support, and 16 more developer resources.'
@@ -241,7 +241,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.4
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -251,7 +251,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 44.4
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -259,8 +259,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/screenshots/budibase-2026-06-20T173737.png
 security:
@@ -282,8 +282,8 @@ tags:
 - Automation
 - Internal Tools
 - Low-Code
-- Open Source
-- Workflow Automation
+- Open-Source
+- Workflow-Automation
 use_cases:
 - features:
   - Database-Connected Apps

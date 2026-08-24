@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ modified: '2026-06-13'
 name: Routescan (Snowtrace)
 nav: Providers
 network: true
-overview: 'Routescan (Snowtrace) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Contracts API, and 5 more. Tagged areas include Blockchain, Explorer, Avalanche, EVM, and Multichain.
+overview: 'Routescan (Snowtrace) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Contracts API, and 5 more. Tagged areas include Blockchain, Explorer, Avalanche, EVM, and Multi-Chain.
 
 
   The Routescan (Snowtrace) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -250,7 +250,7 @@ rules:
 score:
   band: developing
   composite: 42.3
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -260,7 +260,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 48.6
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -268,9 +268,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/screenshots/snowtrace-2026-08-17T125325.png
 security:
 - kind: authentication
@@ -287,11 +287,11 @@ tags:
 - Explorer
 - Avalanche
 - EVM
-- Multichain
+- Multi-Chain
 - Web3
-- Transactions
+- Transaction
 - Smart Contracts
-- NFTs
+- NFT
 - DeFi
 website: https://snowtrace.io/
 ---

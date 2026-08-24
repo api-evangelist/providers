@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The LAPIS specification defines a token-minimal, LLM-native format for describing HTTP APIs. A LAPIS document is organized into up to seven indentation-based sections - [meta], [types], [ops], [webhoo
@@ -207,7 +207,7 @@ modified: '2026-05-06'
 name: LAPIS
 nav: Providers
 network: true
-overview: 'LAPIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API, Specification, LLM, AI Agents, and OpenAPI.
+overview: 'LAPIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Specification, LLM, AI Agents, OpenAPI, and Token Optimization.
 
 
   The LAPIS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -229,7 +229,7 @@ rules:
 score:
   band: thin
   composite: 30.7
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -239,14 +239,13 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 35.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 30.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/screenshots/lapis-2026-06-20T184316.png
 slug: lapis
 tags:
-- API
 - Specification
 - LLM
 - AI Agents

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: iMile
 nav: Providers
 network: true
-overview: 'iMile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Last-Mile Delivery, E-commerce, and Courier.
+overview: 'iMile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Last Mile Delivery, E-Commerce, and Couriers.
 
 
   iMile''s developer surface includes support, engineering blog, and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 10.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -86,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imile/refs/heads/main/screenshots/imile-2026-07-25T222136.png
 security:
@@ -100,9 +100,9 @@ slug: imile
 tags:
 - Company
 - Logistics
-- Last-Mile Delivery
-- E-commerce
-- Courier
+- Last Mile Delivery
+- E-Commerce
+- Couriers
 - Shipping
 - Package Tracking
 - Supply Chain

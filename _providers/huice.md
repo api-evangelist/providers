@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Wangdiantong (旺店通) ERP Open Platform HTTP API (openapi2). Endpoints are named PHP methods (e.g. trade_push.php, trade_query.php, goods_push.php, stock_query.php) grouped into basics (shops/warehou
@@ -97,7 +97,7 @@ modified: '2026-07-19'
 name: Huice
 nav: Providers
 network: true
-overview: 'Huice publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, E-commerce, ERP, and Order Management.
+overview: 'Huice publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, E-Commerce, ERP, and Order Management.
 
 
   Huice''s developer surface includes documentation, API reference, support, authentication, sandbox, and 8 more developer resources.'
@@ -105,7 +105,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 17.6
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/screenshots/huice-2026-07-25T221632.png
 security:
@@ -133,13 +133,13 @@ slug: huice
 tags:
 - Company
 - Enterprise
-- E-commerce
+- E-Commerce
 - ERP
 - Order Management
 - Inventory Management
 - Warehouse Management
 - Retail
-- SaaS
+- Software-as-a-Service
 - China
 website: https://www.wangdian.cn/
 ---

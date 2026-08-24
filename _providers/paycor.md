@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for accessing Paycor employees, payroll, benefits, time, and organizational data. Uses OAuth 2.0 authorization code flow with authorization at secure.paycor.com/connect/authorize and tokens i
@@ -76,7 +76,7 @@ modified: '2026-05-11'
 name: Paycor
 nav: Providers
 network: true
-overview: 'Paycor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Human Capital Management, HCM, Payroll, Human Resources, and Benefits Administration.
+overview: 'Paycor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HCM, Payroll, Human Resources, Benefits Administration, and Time and Attendance.
 
 
   Paycor''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 11.9
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -94,9 +94,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 14.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paycor/refs/heads/main/screenshots/paycor-2026-06-20T191452.png
 security:
@@ -106,7 +106,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: paycor
 tags:
-- Human Capital Management
 - HCM
 - Payroll
 - Human Resources

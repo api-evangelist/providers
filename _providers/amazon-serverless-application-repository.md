@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -390,18 +390,18 @@ rules:
   slug: amazon-serverless-application-repository-spectral-rules
 score:
   band: developing
-  composite: 44.4
-  delta: -9.0
+  composite: 44.9
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 33.0
     developer_ergonomics: 54.8
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 53.4
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -409,9 +409,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/screenshots/amazon-serverless-application-repository-2026-06-20T171819.png
 security:
 - kind: authentication

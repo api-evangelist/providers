@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,14 +117,14 @@ description: Oumi (Open Universal Machine Intelligence) is an open-source, Apach
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oumi.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: oumi-mcp.yml
-  slug: oumi-mcpyml
+- description: Oumi ships a first-party Model Context Protocol (MCP) server, `oumi-mcp`, introduced in the v0.8 release (May 2026) for integration with MCP-capable assistants such as Claude and Cursor. It exposes Ou
+  name: Oumi MCP Server
+  slug: oumi-mcp-server
 modified: '2026-07-20'
 name: Oumi
 nav: Providers
 network: true
-overview: 'Oumi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Economic Health, Artificial Intelligence, Machine Learning, and LLM.
+overview: 'Oumi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Economic Health, Artificial Intelligence, Machine-Learning, and LLM.
 
 
   Oumi''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 13 more developer resources.'
@@ -132,7 +132,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 18.6
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -142,7 +142,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 23.1
+  previous_composite: 18.6
   provenance:
     mcp: first-party
   regulatory:
@@ -151,8 +151,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oumi/refs/heads/main/screenshots/oumi-2026-08-07T191044.png
 security:
@@ -165,12 +165,12 @@ tags:
 - Company
 - Economic Health
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Foundation Models
 - Fine-Tuning
 - Model Training
-- Open Source
+- Open-Source
 - MLOps
 - Developer Tools
 - Inference

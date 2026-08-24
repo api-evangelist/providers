@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ modified: '2026-06-03'
 name: Tripadvisor
 nav: Providers
 network: true
-overview: 'Tripadvisor publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Configuration API, Hotel Inventory API, and 4 more. Tagged areas include Attractions, Hotels, Hospitality, Restaurants, and Reviews.
+overview: 'Tripadvisor publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Configuration API, Hotel Inventory API, and 4 more. Tagged areas include Attractions, Hotels, Hospitality, Restaurant, and Reviews.
 
 
   The Tripadvisor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -273,18 +273,18 @@ rules:
   slug: tripadvisor-rules
 score:
   band: developing
-  composite: 42.7
-  delta: -5.7
+  composite: 43.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.8
     developer_ergonomics: 33.3
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 48.4
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -292,9 +292,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/screenshots/tripadvisor-2026-06-20T195729.png
 security:
 - kind: authentication
@@ -310,7 +310,7 @@ tags:
 - Attractions
 - Hotels
 - Hospitality
-- Restaurants
+- Restaurant
 - Reviews
 - Travel
 use_cases:

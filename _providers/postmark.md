@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -615,9 +615,9 @@ json_structures:
   slug: postmark-structure
 layout: provider
 mcp_servers:
-- description: ''
-  name: postmark-mcp.yml
-  slug: postmark-mcpyml
+- description: Postmark ships an official, first-party MCP server. It is distributed ONLY as a local-stdio npm package — there is no hosted remote endpoint an MCP client can POST to. Postmark's own landing page (htt
+  name: Postmark MCP Server
+  slug: postmark-mcp-server
 modified: '2026-08-13'
 name: Postmark
 nav: Providers
@@ -662,18 +662,18 @@ rules:
   slug: postmark-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 73.1
-  delta: 0.3
+  composite: 71.5
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 60.1
     developer_ergonomics: 90.5
-    discoverability: 75.9
-    governance: 43.2
+    discoverability: 57.4
+    governance: 45.5
     operational_transparency: 81.6
-  previous_composite: 72.8
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -684,8 +684,8 @@ score:
       total: 47
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/screenshots/postmark-2026-06-20T192003.png
 security:
@@ -723,7 +723,7 @@ tags:
 - Deliverability
 - SMTP
 - Email API
-- Webhooks
+- Webhook
 - Inbound Email
 - Email Templates
 - Email Analytics

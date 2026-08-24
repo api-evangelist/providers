@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-06-21'
 name: Orama
 nav: Providers
 network: true
-overview: 'Orama publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Answer API, Documents API, Indexes API, and 1 more. Tagged areas include Search, Vector Search, RAG, Open Source, and Search as a Service.
+overview: 'Orama publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Answer API, Documents API, Indexes API, and 1 more. Tagged areas include Search, Vector Search, RAG, Open-Source, and Search as a Service.
 
 
   Orama''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.7
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -154,7 +154,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.6
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/screenshots/orama-2026-08-07T190826.png
 security:
@@ -180,7 +180,7 @@ tags:
 - Search
 - Vector Search
 - RAG
-- Open Source
+- Open-Source
 - Search as a Service
 website: https://orama.com
 ---

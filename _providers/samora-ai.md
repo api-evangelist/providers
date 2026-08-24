@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -169,8 +169,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/samora-ai.
 layout: provider
 mcp_servers:
 - description: ''
-  name: samora-ai-mcp.yml
-  slug: samora-ai-mcpyml
+  name: Samora AI MCP Server
+  slug: samora-ai-mcp-server
 modified: '2026-07-21'
 name: Samora AI
 nav: Providers
@@ -186,7 +186,7 @@ random_paper: 8
 score:
   band: thin
   composite: 29.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 30.1
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,8 +207,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -229,6 +229,6 @@ tags:
 - Customer Communications
 - Contact Center
 - Campaigns
-- Webhooks
+- Webhook
 website: https://samora.ai
 ---

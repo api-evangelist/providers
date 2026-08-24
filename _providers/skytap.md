@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing Skytap environments (configurations), VMs, networks, templates, users, projects, assets and webhooks. v2 adds filtering, sorting and pagination; v1 remains for operations not yet
@@ -143,13 +143,13 @@ image: https://www.skytap.com/wp-content/uploads/2021/03/skytap-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: skytap-mcp.yml
-  slug: skytap-mcpyml
+  name: Skytap MCP Server
+  slug: skytap-mcp-server
 modified: '2026-07-21'
 name: Skytap
 nav: Providers
 network: true
-overview: 'Skytap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, IBM Power, Infrastructure as a Service, and Application Modernization.
+overview: 'Skytap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, IBM Power, Infrastructure-as-a-Service, and Application Modernization.
 
 
   The Skytap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -160,7 +160,7 @@ random_paper: 17
 score:
   band: developing
   composite: 40.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 40.3
+  previous_composite: 40.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -180,8 +180,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -197,7 +197,7 @@ tags:
 - Company
 - Cloud
 - IBM Power
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Application Modernization
 - Azure
 - Virtual Machines

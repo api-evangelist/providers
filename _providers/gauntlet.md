@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -200,9 +200,9 @@ description: 'Gauntlet (Gauntlet Networks, Inc.) is a crypto risk-management and
 image: https://cdn.prod.website-files.com/648bdc0d4b8ce322f27da0af/68013f075b92cb9c2d2c6aef_gauntlet-thumbnail.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: gauntlet-mcp.yml
-  slug: gauntlet-mcpyml
+- description: Candidate MCP tool list derived one-to-one from the 14 Gauntlet REST API v1 operations. Gauntlet does not publish an official hosted or stdio MCP server as of the fetch date (checked docs.gauntlet.xyz
+  name: Gauntlet MCP Server
+  slug: gauntlet-mcp-server
 modified: '2026-07-19'
 name: Gauntlet
 nav: Providers
@@ -219,7 +219,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -229,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 48.4
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,8 +240,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/screenshots/gauntlet-2026-07-25T215504.png
 security:
@@ -264,7 +264,7 @@ tags:
 - DeFi
 - Risk Management
 - Yield
-- Vaults
+- Vault
 - Blockchain
 - Web3
 - Financial Modeling

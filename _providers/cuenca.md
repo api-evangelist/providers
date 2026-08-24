@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for Cuenca''s banking-as-a-service platform in Mexico: SPEI / internal transfers, deposits, CLABE accounts, debit card issuing and card transactions, bill payments, balances, statements, webho'
@@ -159,8 +159,8 @@ image: https://cuenca.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: cuenca-mcp.yml
-  slug: cuenca-mcpyml
+  name: Cuenca MCP Server
+  slug: cuenca-mcp-server
 modified: '2026-07-18'
 name: Cuenca
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 14
 score:
   band: developing
   composite: 41.5
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -186,7 +186,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 40.9
+  previous_composite: 41.5
   provenance:
     conformance: derived
     mcp: derived
@@ -197,8 +197,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/screenshots/cuenca-2026-07-25T210910.png
 security:

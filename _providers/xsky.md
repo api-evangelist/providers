@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 124
 apis:
 - description: AccessPathController Operations able access paths
@@ -875,9 +875,9 @@ description: XSKY (XSKY Data Technology, 星辰天合) is a Beijing-based softwa
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xsky.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: xsky-mcp.yml
-  slug: xsky-mcpyml
+- description: No official XSKY-hosted MCP server was found (searched xsky.com, the xsky-storage GitHub org, and npm). This is a candidate tool surface derived one-tool-per-operation from the XMS Swagger 2.0 contrac
+  name: XSKY MCP Server
+  slug: xsky-mcp-server
 modified: '2026-07-21'
 name: XSKY
 nav: Providers
@@ -890,7 +890,7 @@ random_paper: 1
 score:
   band: thin
   composite: 32.1
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -900,7 +900,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 33.0
+  previous_composite: 32.1
   provenance:
     conformance: derived
     contracts:
@@ -910,8 +910,8 @@ score:
       total: 124
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

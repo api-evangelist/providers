@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -111,7 +111,7 @@ modified: '2026-08-13'
 name: Aktana (PharmaForceIQ)
 nav: Providers
 network: true
-overview: 'Aktana (PharmaForceIQ) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Pharmaceutical, HCP Engagement, and Marketing.
+overview: 'Aktana (PharmaForceIQ) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Pharmaceuticals, HCP Engagement, and Marketing.
 
 
   Aktana (PharmaForceIQ)''s developer surface includes engineering blog, support, pricing, and 11 more developer resources.'
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.3
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -137,7 +137,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.0
+  previous_composite: 24.3
   provenance:
     conformance: first-party
   regulatory:
@@ -146,8 +146,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/screenshots/aktana-2026-07-25T195518.png
 security:
@@ -163,7 +163,7 @@ slug: aktana
 tags:
 - Company
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - HCP Engagement
 - Marketing
 - Artificial Intelligence

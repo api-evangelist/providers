@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -334,7 +334,7 @@ modified: '2026-06-12'
 name: SuprSend
 nav: Providers
 network: true
-overview: 'SuprSend publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Broadcast API, Broadcast Run API, Bulk API, and 17 more. Tagged areas include Notifications, Multi-Channel, Email, SMS, and Push Notifications.
+overview: 'SuprSend publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Broadcast API, Broadcast Run API, Bulk API, and 17 more. Tagged areas include Notification, Multi-Channel, Email, SMS, and Push Notifications.
 
 
   The SuprSend catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -364,7 +364,7 @@ rules:
 score:
   band: developing
   composite: 51.1
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -374,7 +374,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 54.7
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -388,8 +388,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/screenshots/suprsend-2026-06-20T194803.png
 security:
@@ -407,7 +407,7 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: suprsend
 tags:
-- Notifications
+- Notification
 - Multi-Channel
 - Email
 - SMS
@@ -416,7 +416,7 @@ tags:
 - WhatsApp
 - Slack
 - Notification Infrastructure
-- Workflow Automation
+- Workflow-Automation
 - Template Management
 website: https://www.suprsend.com/
 ---

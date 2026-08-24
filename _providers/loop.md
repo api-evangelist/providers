@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -240,9 +240,9 @@ description: Loop is a full-stack, AI-powered logistics data platform that unifi
 image: https://cdn.prod.website-files.com/668bb14a7a97da320e5022ed/66c70f294893e981b7a38704_OG%20Image.webp
 layout: provider
 mcp_servers:
-- description: ''
-  name: loop-mcp.yml
-  slug: loop-mcpyml
+- description: 'Candidate MCP tool surface derived one-to-one from Loop API operationIds. Loop publishes no official hosted MCP server as of this pass; this is a derivation to seed an agent-native surface. Auth: bear'
+  name: Loop MCP Server
+  slug: loop-mcp-server
 modified: '2026-07-20'
 name: Loop
 nav: Providers
@@ -258,7 +258,7 @@ random_paper: 1
 score:
   band: developing
   composite: 47.8
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -268,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 47.6
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/screenshots/loop-2026-07-25T225523.png
 security:

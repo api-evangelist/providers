@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Patlytics Patent Search connector — a hosted Model Context Protocol server (Streamable HTTP) that brings concept-level, AI-native patent intelligence into MCP clients such as Claude. Five read-onl
@@ -141,9 +141,9 @@ description: 'Patlytics is an AI-powered patent intelligence platform purpose-bu
 image: https://cdn.prod.website-files.com/6799236636ce53b60c8d8ba8/679c097be11626243bdde318_Patlytics-Share.webp
 layout: provider
 mcp_servers:
-- description: ''
-  name: patlytics-mcp.yml
-  slug: patlytics-mcpyml
+- description: Concept-level, AI-native patent intelligence inside an MCP client. Describe an invention in plain language and get semantically similar patents, look up a specific patent's claims, search academic lit
+  name: Patlytics MCP Server
+  slug: patlytics-mcp-server
 modified: '2026-08-02'
 name: Patlytics
 nav: Providers
@@ -161,7 +161,7 @@ scopes:
 score:
   band: thin
   composite: 34.7
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -171,12 +171,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 35.1
+  previous_composite: 34.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patlytics/refs/heads/main/screenshots/patlytics-2026-08-07T191555.png
 security:
@@ -201,7 +201,7 @@ tags:
 - Artificial Intelligence
 - Patent Search
 - Prior Art
-- Model Context Protocol
+- MCP
 - Agents
 - Research
 website: https://www.patlytics.ai/

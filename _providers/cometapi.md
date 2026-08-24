@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ modified: '2026-05-19'
 name: CometAPI
 nav: Providers
 network: true
-overview: 'CometAPI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Embeddings API, and 3 more. Tagged areas include AI, Aggregator, Audio, Chat, and Embeddings.
+overview: 'CometAPI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Embeddings API, and 3 more. Tagged areas include Artificial Intelligence, Aggregator, Audio, Chat, and Embeddings.
 
 
   The CometAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -206,18 +206,18 @@ rules:
   slug: cometapi-rules
 score:
   band: thin
-  composite: 35.2
-  delta: -9.8
+  composite: 35.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 59.9
     developer_ergonomics: 23.8
     discoverability: 81.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 45.0
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -225,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/screenshots/cometapi-2026-06-20T174808.png
 security:
 - kind: authentication
@@ -244,13 +244,13 @@ security:
   summary_line: trust center published
 slug: cometapi
 tags:
-- AI
+- Artificial Intelligence
 - Aggregator
 - Audio
 - Chat
 - Embeddings
 - Generative AI
-- Images
+- Image
 - LLM
 - Multi-Model
 - OpenAI-Compatible

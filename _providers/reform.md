@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Reform's public integration surface. It is not a REST management API — no endpoint exists to create, read or update forms and submissions. What Reform publishes is the hosted form host (forms.reform.a
@@ -170,7 +170,7 @@ modified: '2026-08-14'
 name: Reform
 nav: Providers
 network: true
-overview: 'Reform publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Form Builder, Lead Generation, Headless Forms, and Webhooks.
+overview: 'Reform publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Form Builder, Lead Generation, Headless Forms, and Webhook.
 
 
   The Reform catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -189,7 +189,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -199,11 +199,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 51.5
+  previous_composite: 50.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/screenshots/reform-2026-06-20T192748.png
 security:
@@ -225,9 +225,9 @@ tags:
 - Form Builder
 - Lead Generation
 - Headless Forms
-- Webhooks
+- Webhook
 - No-Code
-- Integrations
+- Integration
 - CRM
 - Conversion Rate Optimization
 - Embeddable Components

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'RESTful API exposing Wynsure''s core insurance platform capabilities for integration with third-party systems. Provides programmatic access to policy administration, underwriting, billing, claims, and '
@@ -148,7 +148,7 @@ modified: '2026-05-03'
 name: Wynsure
 nav: Providers
 network: true
-overview: 'Wynsure publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Policy Administration, Claims Management, and Billing.
+overview: 'Wynsure publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Policy Administration, Claims Management, and Billing.
 
 
   Wynsure''s developer surface includes documentation, developer portal, support, and 9 more developer resources.'
@@ -164,7 +164,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.4
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -174,15 +174,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.2
+  previous_composite: 21.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wynsure/refs/heads/main/screenshots/wynsure-2026-06-20T201645.png
 security:
@@ -218,7 +218,7 @@ solutions:
   name: Wynsure Data Analytics
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Policy Administration
 - Claims Management
 - Billing
@@ -231,7 +231,7 @@ tags:
 - Group Benefits
 - Voluntary Benefits
 - Brokers
-- Financial Services
+- Financial-Services
 use_cases:
 - description: Administer group and worksite life, disability, accident, dental, and vision insurance for group carriers such as AIG Benefit Solutions and Aflac.
   name: Group Benefits Administration

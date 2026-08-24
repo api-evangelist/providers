@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The RESO Web API is the ratified transport standard for real estate data, defined as a profile of OData 4.0/4.01 (Web API Core 2.0.0 and 2.1.0). Servers MUST expose an OData XML metadata document at /
@@ -257,7 +257,7 @@ modified: '2026-07-26'
 name: RESO (Real Estate Standards Organization)
 nav: Providers
 network: true
-overview: 'RESO (Real Estate Standards Organization) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United States, RESO, MLS, and Property Listings.
+overview: 'RESO (Real Estate Standards Organization) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United States, RESO, MLS, and Property Listings.
 
 
   The RESO (Real Estate Standards Organization) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,7 +268,7 @@ random_paper: 0
 score:
   band: developing
   composite: 47.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -278,13 +278,13 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 48.1
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/screenshots/reso-2026-08-17T081530.png
 security:
@@ -298,7 +298,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: reso
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - RESO
 - MLS

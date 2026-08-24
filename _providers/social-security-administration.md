@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ modified: '2026-05-19'
 name: Social Security Administration
 nav: Providers
 network: true
-overview: 'Social Security Administration publishes 2 APIs on the [APIs.io](https://apis.io/) network: Field Offices API and Resident Stations API. Tagged areas include Federal Government, Social Security, Government API, Open Data, and OASDI.
+overview: 'Social Security Administration publishes 2 APIs on the [APIs.io](https://apis.io/) network: Field Offices API and Resident Stations API. Tagged areas include Federal-Government, Social Security, Government API, Open Data, and OASDI.
 
 
   The Social Security Administration catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -197,18 +197,18 @@ rules:
   slug: ssa-rules
 score:
   band: thin
-  composite: 26.7
-  delta: -7.1
+  composite: 27.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 58.0
     developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 33.8
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     contracts:
@@ -222,9 +222,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/screenshots/social-security-administration-2026-06-20T194118.png
 security:
 - kind: domain-security
@@ -233,7 +233,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: social-security-administration
 tags:
-- Federal Government
+- Federal-Government
 - Social Security
 - Government API
 - Open Data

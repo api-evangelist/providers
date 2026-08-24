@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The partner-facing API for Web.com's International ("NTS") platform, fronted by Azure API Management. Ten documented operations cover the sales-order lifecycle (create, list with paging and filtering,
@@ -137,8 +137,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/websitepro
 layout: provider
 mcp_servers:
 - description: ''
-  name: websitepros-mcp.yml
-  slug: websitepros-mcpyml
+  name: WebsitePros MCP Server
+  slug: websitepros-mcp-server
 modified: '2026-08-13'
 name: WebsitePros
 nav: Providers
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.5
-  delta: -11.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 41.4
+  previous_composite: 29.5
   provenance:
     conformance: derived
     contracts:
@@ -179,9 +179,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Websitepros Authentication

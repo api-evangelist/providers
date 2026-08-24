@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'A hosted, remote Model Context Protocol server that lets an AI agent read a company''s Brand OS — brands, machine-readable brand rules and artifacts — and write back Brand Check validations, artifacts '
@@ -137,13 +137,13 @@ image: https://cdn.sanity.io/images/3zwn2ers/fullsite/1e9606e67a676cbdfd3d4d66f1
 layout: provider
 mcp_servers:
 - description: ''
-  name: brandai-mcp.yml
-  slug: brandai-mcpyml
+  name: Brand.ai MCP Server
+  slug: brandai-mcp-server
 modified: '2026-08-13'
 name: Brand.ai
 nav: Providers
 network: true
-overview: 'Brand.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Brand Management, Artificial Intelligence, Marketing, and SaaS.
+overview: 'Brand.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Brand Management, Artificial Intelligence, Marketing, and Software-as-a-Service.
 
 
   Brand.ai''s developer surface includes engineering blog, authentication, and 21 more developer resources.'
@@ -164,7 +164,7 @@ scopes:
 score:
   band: emerging
   composite: 24.5
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -174,12 +174,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 25.3
+  previous_composite: 24.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,11 +200,11 @@ tags:
 - Brand Management
 - Artificial Intelligence
 - Marketing
-- SaaS
+- Software-as-a-Service
 - Brand Operating System
 - AI Agents
 - Design
-- Model Context Protocol
+- MCP
 - Brand Governance
 - Brand Intelligence
 website: https://brand.ai

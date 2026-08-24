@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Core Makinari platform API covering Visitors (tracking and identification), Finder (contact and company search), Robots (browser-automation instances), Instances, Requirements, and Secure Tokens. API-
@@ -213,8 +213,8 @@ image: https://www.makinari.com/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: uncodie-mcp.yml
-  slug: uncodie-mcpyml
+  name: Uncodie (now Makinari) MCP Server
+  slug: uncodie-now-makinari-mcp-server
 modified: '2026-08-13'
 name: Uncodie (now Makinari)
 nav: Providers
@@ -238,7 +238,7 @@ rate_limits:
 score:
   band: strong
   composite: 55.6
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -248,13 +248,13 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 58.4
+  previous_composite: 55.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uncodie/refs/heads/main/screenshots/uncodie-2026-08-17T082555.png
 security:
@@ -275,11 +275,11 @@ tags:
 - Sales Automation
 - Marketing Automation
 - Lead Generation
-- No Code
+- No-Code
 - MCP
 - Commerce
 - Workflows
-- Webhooks
-- Open Source
+- Webhook
+- Open-Source
 website: https://www.makinari.com
 ---

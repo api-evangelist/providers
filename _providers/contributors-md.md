@@ -30,6 +30,6 @@ tags:
 - Documentation
 - GitHub
 - Markdown
-- Open Source
+- Open-Source
 - Recognition
 ---

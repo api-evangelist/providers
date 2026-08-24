@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Bettermode''s public GraphQL API for reading and writing community data — spaces, posts, members, reactions, tags, and collections — plus app installation and signed webhooks. Single POST endpoint per '
@@ -193,8 +193,8 @@ score:
   previous_composite: 55.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bettermode/refs/heads/main/screenshots/bettermode-2026-07-25T202811.png
 security:
@@ -218,9 +218,9 @@ tags:
 - Customer Engagement
 - Customer Success
 - GraphQL
-- Webhooks
+- Webhook
 - No-Code
-- SaaS
-- Developer
+- Software-as-a-Service
+- Developers
 website: https://bettermode.com/
 ---

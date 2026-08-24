@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The public, unauthenticated read surface of Sinclair's corporate site at sbgi.net. Sinclair runs no developer program and publishes no API reference, but the site is WordPress and serves a live REST A
@@ -143,8 +143,8 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: sinclair-broadcast-group-mcp.yml
-  slug: sinclair-broadcast-group-mcpyml
+  name: Sinclair, Inc. MCP Server
+  slug: sinclair-inc-mcp-server
 modified: '2026-08-12'
 name: Sinclair, Inc.
 nav: Providers
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.7
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -175,7 +175,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 34.1
+  previous_composite: 32.7
   provenance:
     conformance: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png
 security:

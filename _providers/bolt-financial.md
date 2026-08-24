@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The core Bolt merchant API. Covers Bolt shopper accounts (profile, addresses, payment methods), merchant configuration and callbacks, order token creation, shipment tracking, transaction authorize/cap
@@ -198,13 +198,13 @@ image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company
 layout: provider
 mcp_servers:
 - description: ''
-  name: bolt-financial-mcp.yml
-  slug: bolt-financial-mcpyml
+  name: Bolt Financial MCP Server
+  slug: bolt-financial-mcp-server
 modified: '2026-07-31'
 name: Bolt Financial
 nav: Providers
 network: true
-overview: 'Bolt Financial publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bolt API, Bolt Embeddable Checkout v1 API, Bolt Embeddable Checkout v3 API, and 1 more. Tagged areas include Company, Payments, Checkout, eCommerce, and Fintech.
+overview: 'Bolt Financial publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bolt API, Bolt Embeddable Checkout v1 API, Bolt Embeddable Checkout v3 API, and 1 more. Tagged areas include Company, Payments, Checkout, E-Commerce, and Fintech.
 
 
   The Bolt Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -220,7 +220,7 @@ scopes:
 score:
   band: strong
   composite: 62.6
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -230,7 +230,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 60.5
+  previous_composite: 62.6
   provenance:
     conformance: first-party
     contracts:
@@ -246,8 +246,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/screenshots/bolt-financial-2026-08-07T162709.png
 security:
@@ -264,12 +264,12 @@ tags:
 - Company
 - Payments
 - Checkout
-- eCommerce
+- E-Commerce
 - Fintech
-- Subscriptions
+- Subscription
 - Tokenization
 - Fraud
 - Identity
-- Webhooks
+- Webhook
 website: https://www.bolt.com
 ---

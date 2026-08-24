@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The locale API from Makeswift — 3 operation(s) for locale.
@@ -154,8 +154,8 @@ image: https://makeswift.com/
 layout: provider
 mcp_servers:
 - description: ''
-  name: makeswift-mcp.yml
-  slug: makeswift-mcpyml
+  name: Makeswift MCP Server
+  slug: makeswift-mcp-server
 modified: '2026-07-20'
 name: Makeswift
 nav: Providers
@@ -168,7 +168,7 @@ random_paper: 5
 score:
   band: developing
   composite: 47.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -178,7 +178,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 47.7
+  previous_composite: 47.9
   provenance:
     conformance: derived
     contracts:
@@ -188,8 +188,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/screenshots/makeswift-2026-07-25T225954.png
 security:

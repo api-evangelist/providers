@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Authenticated customer profile and registration.
@@ -202,14 +202,14 @@ description: 'konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookab
 image: https://gokonfetti.com/_nuxt3-static/logos/kft-short-logo-white-bg.webp
 layout: provider
 mcp_servers:
-- description: ''
-  name: konfetti-mcp.yml
-  slug: konfetti-mcpyml
+- description: A candidate Model Context Protocol tool surface over the konfetti Store API. Only the public, unauthenticated catalog operations are proposed as tools — the authenticated checkout and profile operatio
+  name: konfetti MCP Server
+  slug: konfetti-mcp-server
 modified: '2026-07-19'
 name: konfetti
 nav: Providers
 network: true
-overview: 'konfetti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including account API, auth API, catalog API, and 2 more. Tagged areas include Company, Marketplace, Experiences, Booking, and Events.
+overview: 'konfetti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including account API, auth API, catalog API, and 2 more. Tagged areas include Company, Marketplace, Experience, Booking, and Event.
 
 
   konfetti''s developer surface includes support, FAQ, engineering blog, signup flow, developer portal, pricing, and 26 more developer resources.'
@@ -217,7 +217,7 @@ random_paper: 7
 score:
   band: thin
   composite: 35.7
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -227,7 +227,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 35.3
+  previous_composite: 35.7
   provenance:
     conformance: derived
     contracts:
@@ -243,8 +243,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png
 security:
@@ -260,13 +260,13 @@ slug: konfetti
 tags:
 - Company
 - Marketplace
-- Experiences
+- Experience
 - Booking
-- Events
+- Event
 - Workshops
 - Ticketing
 - Gift Cards
-- Travel and Leisure
+- Travel And Leisure
 - Germany
 - Commerce
 website: https://gokonfetti.com

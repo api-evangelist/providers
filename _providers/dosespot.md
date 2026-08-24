@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -246,8 +246,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dosespot.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: dosespot-mcp.yml
-  slug: dosespot-mcpyml
+  name: DoseSpot MCP Server
+  slug: dosespot-mcp-server
 modified: '2026-08-15'
 name: DoseSpot
 nav: Providers
@@ -271,7 +271,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.9
-  delta: 5.0
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -281,7 +281,7 @@ score:
     discoverability: 74.1
     governance: 45.5
     operational_transparency: 31.6
-  previous_composite: 60.9
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,9 +298,9 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png
 security:
 - kind: authentication

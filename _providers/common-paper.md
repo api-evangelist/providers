@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for managing Common Paper agreements and templates — list, create, send, void, reassign, download, and share agreements; manage templates, attachments, users, organizations, invitations, and '
@@ -152,8 +152,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/common-pap
 layout: provider
 mcp_servers:
 - description: ''
-  name: common-paper-mcp.yml
-  slug: common-paper-mcpyml
+  name: Common Paper MCP Server
+  slug: common-paper-mcp-server
 modified: '2026-07-18'
 name: Common Paper
 nav: Providers
@@ -169,7 +169,7 @@ random_paper: 12
 score:
   band: developing
   composite: 44.2
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -179,14 +179,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 49.7
+  previous_composite: 44.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-paper/refs/heads/main/screenshots/common-paper-2026-07-25T210135.png
 security:
 - kind: authentication
@@ -206,8 +206,7 @@ tags:
 - Agreements
 - SaaS Contracts
 - E-Signature
-- API
-- Webhooks
+- Webhook
 - MCP
 website: https://commonpaper.com
 ---

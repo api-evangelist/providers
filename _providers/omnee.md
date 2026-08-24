@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: Omnee
 nav: Providers
 network: true
-overview: 'Omnee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Customer Support, Home Building, and Real Estate.
+overview: 'Omnee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Customer-Support, Homebuilding, and Real-Estate.
 
 
   Omnee''s developer surface includes pricing and 4 more developer resources.'
@@ -79,8 +79,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnee/refs/heads/main/screenshots/omnee-2026-08-07T190141.png
 security:
@@ -92,11 +92,11 @@ slug: omnee
 tags:
 - Company
 - Artificial Intelligence
-- Customer Support
-- Home Building
-- Real Estate
+- Customer-Support
+- Homebuilding
+- Real-Estate
 - Warranty
-- SaaS
+- Software-as-a-Service
 - Conversational AI
 website: https://omnee.ai/
 ---

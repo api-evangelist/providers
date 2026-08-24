@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -102,7 +102,7 @@ description: 'Meals In Minutes (MIM) is a direct-to-consumer healthy meal compan
 image: https://mealsinminutes.co/cdn/shop/files/banner_1.png?v=1762865371
 layout: provider
 mcp_servers:
-- description: ''
+- description: Meals In Minutes runs on Shopify and natively exposes a Universal Commerce Protocol (UCP) agent-commerce surface. A hosted MCP server accepts JSON-RPC POSTs at https://mealsinminutes.co/api/ucp/mcp (C
   name: Meals In Minutes UCP MCP
   slug: meals-in-minutes-ucp-mcp
 modified: '2026-07-20'
@@ -121,24 +121,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.0
-  delta: -0.6
+  composite: 21.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 20.6
+  previous_composite: 21.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meals-in-minutes-mim/refs/heads/main/screenshots/meals-in-minutes-mim-2026-08-07T172302.png
 security:

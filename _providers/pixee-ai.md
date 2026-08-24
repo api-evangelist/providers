@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Findings API from Pixee — 2 operation(s) for findings.
@@ -170,8 +170,8 @@ image: https://cdn.prod.website-files.com/696822cb241ff5e67581075b/69b1a742e6436
 layout: provider
 mcp_servers:
 - description: ''
-  name: pixee-ai-mcp.yml
-  slug: pixee-ai-mcpyml
+  name: Pixee (candidate MCP server)
+  slug: pixee-candidate-mcp-server
 modified: '2026-07-20'
 name: Pixee
 nav: Providers
@@ -187,7 +187,7 @@ random_paper: 9
 score:
   band: developing
   composite: 50.1
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 52.9
+  previous_composite: 50.1
   provenance:
     conformance: derived
     contracts:
@@ -207,8 +207,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/screenshots/pixee-ai-2026-08-17T081243.png
 security:
@@ -256,7 +256,7 @@ tags:
 - Static Analysis
 - SARIF
 - Code Security
-- AI
+- Artificial Intelligence
 - Developer Tools
 website: https://www.pixee.ai/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Rent Manager Web API (WAPI12) is a RESTful API that provides both read and write access to the Rent Manager Online (RMO) database. It supports property management operations including tenants, lea
@@ -106,7 +106,7 @@ modified: '2026-06-13'
 name: Rent Manager
 nav: Providers
 network: true
-overview: 'Rent Manager publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real Estate, Tenants, Leases, and Work Orders.
+overview: 'Rent Manager publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real-Estate, Tenants, Leases, and Work Orders.
 
 
   The Rent Manager catalog on APIs.io includes 1 JSON-LD context.
@@ -136,8 +136,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 24.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rent-manager/refs/heads/main/screenshots/rent-manager-2026-06-20T192855.png
 security:
@@ -148,7 +148,7 @@ security:
 slug: rent-manager
 tags:
 - Property Management
-- Real Estate
+- Real-Estate
 - Tenants
 - Leases
 - Work Orders

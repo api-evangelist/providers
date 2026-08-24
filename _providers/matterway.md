@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: Matterway
 nav: Providers
 network: true
-overview: 'Matterway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Intelligent Automation, Digital Assistant, and Workflow Automation.
+overview: 'Matterway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Intelligent Automation, Digital Assistant, and Workflow-Automation.
 
 
   Matterway''s developer surface includes engineering blog, support, and 3 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 8.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -78,9 +78,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matterway/refs/heads/main/screenshots/matterway-2026-07-25T230426.png
 security:
@@ -94,7 +94,7 @@ tags:
 - Ai Enterprise Software
 - Intelligent Automation
 - Digital Assistant
-- Workflow Automation
+- Workflow-Automation
 - Document Processing
 - Enterprise AI
 - BPO

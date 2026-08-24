@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Laurence MCP is a hosted, remote Model Context Protocol server that exposes a read-only set of nine tools over a customer''s Amazon Advertising and Amazon Marketing Stream data — allowed ads profiles, '
@@ -150,9 +150,9 @@ description: Laurence is a New York City based Y Combinator (Winter 2026) compan
 image: https://www.laurence.com/icon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: laurence-mcp.yml
-  slug: laurence-mcpyml
+- description: 'Laurence operates an official hosted, remote MCP server that brings a customer''s Amazon Advertising and Amazon Marketing Stream (AMS) data into Claude Code, Cursor, and Codex. The server is available '
+  name: Laurence MCP Server
+  slug: laurence-mcp-server
 modified: '2026-08-13'
 name: Laurence
 nav: Providers
@@ -178,7 +178,7 @@ scopes:
 score:
   band: emerging
   composite: 24.1
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -188,13 +188,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.0
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/screenshots/laurence-2026-07-25T224624.png
 security:
@@ -213,7 +213,7 @@ tags:
 - Amazon
 - E-Commerce
 - Marketing
-- Machine Learning
+- Machine-Learning
 - Retail Media
 - MCP
 website: https://www.laurence.com

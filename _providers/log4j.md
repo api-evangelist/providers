@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The logging facade providing a feature-rich Java interface for application logging. Applications code against this stable API while delegating to a backing implementation such as Log4j Core.
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -130,15 +130,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 17.5
+  previous_composite: 17.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/screenshots/log4j-2026-06-20T184648.png
 security:
@@ -158,6 +158,6 @@ tags:
 - Library
 - Logging
 - Monitoring
-- Open Source
+- Open-Source
 website: https://logging.apache.org/log4j/2.x/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -170,13 +170,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crescendo.
 layout: provider
 mcp_servers:
 - description: ''
-  name: crescendo-mcp.yml
-  slug: crescendo-mcpyml
+  name: Crescendo MCP Server
+  slug: crescendo-mcp-server
 modified: '2026-07-18'
 name: Crescendo
 nav: Providers
 network: true
-overview: 'Crescendo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including MCP API, Provisioning API, Reporting API, and 2 more. Tagged areas include Company, Customer Experience, Customer Support, Artificial Intelligence, and AI Agents.
+overview: 'Crescendo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including MCP API, Provisioning API, Reporting API, and 2 more. Tagged areas include Company, Customer Experience, Customer-Support, Artificial Intelligence, and AI Agents.
 
 
   Crescendo''s developer surface includes documentation, API reference, quickstart, engineering blog, support, authentication, and 16 more developer resources.'
@@ -184,7 +184,7 @@ random_paper: 5
 score:
   band: developing
   composite: 39.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 40.8
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/screenshots/crescendo-2026-07-25T210727.png
 security:
@@ -222,7 +222,7 @@ slug: crescendo
 tags:
 - Company
 - Customer Experience
-- Customer Support
+- Customer-Support
 - Artificial Intelligence
 - AI Agents
 - Contact Center

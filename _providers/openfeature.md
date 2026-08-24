@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ modified: '2026-05-19'
 name: OpenFeature
 nav: Providers
 network: true
-overview: 'OpenFeature publishes 1 API on the [APIs.io](https://apis.io/) network: OFREP Core API. Tagged areas include Cloud Native, Feature Flags, Feature Management, Incubating, and SDKs.
+overview: 'OpenFeature publishes 1 API on the [APIs.io](https://apis.io/) network: OFREP Core API. Tagged areas include Cloud-Native, Feature Flags, Feature Management, Incubating, and SDK.
 
 
   OpenFeature''s developer surface includes authentication, documentation, engineering blog, and 4 more developer resources.'
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -118,7 +118,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 31.4
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -126,8 +126,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/screenshots/openfeature-2026-06-20T191000.png
 security:
@@ -141,11 +141,11 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: openfeature
 tags:
-- Cloud Native
+- Cloud-Native
 - Feature Flags
 - Feature Management
 - Incubating
-- SDKs
+- SDK
 - Specification
 website: https://openfeature.dev
 ---

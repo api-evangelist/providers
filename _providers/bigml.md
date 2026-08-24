@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ modified: '2026-06-13'
 name: BigML
 nav: Providers
 network: true
-overview: 'BigML publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Anomaly Detection API, Batch Operations API, Clustering API, and 12 more. Tagged areas include Machine Learning, Artificial Intelligence, Predictions, Datasets, and Models.
+overview: 'BigML publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Anomaly Detection API, Batch Operations API, Clustering API, and 12 more. Tagged areas include Machine-Learning, Artificial Intelligence, Predictions, Datasets, and Models.
 
 
   The BigML catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -262,7 +262,7 @@ rules:
 score:
   band: developing
   composite: 45.3
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -272,7 +272,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 44.7
-  previous_composite: 51.6
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -280,9 +280,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/screenshots/bigml-2026-06-20T173236.png
 security:
 - kind: authentication
@@ -295,7 +295,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: bigml
 tags:
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Predictions
 - Datasets

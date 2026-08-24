@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Matrix is Hebbia''s flagship AI workspace for reasoning across unstructured enterprise documents at scale. It runs spreadsheet-style queries (rows and columns) over very large document sets to extract '
@@ -92,7 +92,7 @@ modified: '2026-05-23'
 name: Hebbia
 nav: Providers
 network: true
-overview: 'Hebbia publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Document AI, Due Diligence, Enterprise Search, and Financial Services.
+overview: 'Hebbia publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Document AI, Due Diligence, Enterprise Search, and Financial-Services.
 
 
   Hebbia''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.1
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -118,9 +118,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hebbia/refs/heads/main/screenshots/hebbia-2026-06-20T182608.png
 security:
@@ -134,11 +134,11 @@ security:
   summary_line: SOC 2, GDPR
 slug: hebbia
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - Due Diligence
 - Enterprise Search
-- Financial Services
+- Financial-Services
 - Generative AI
 - Investment Research
 - Knowledge

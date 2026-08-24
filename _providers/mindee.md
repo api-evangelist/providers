@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -414,7 +414,7 @@ modified: '2026-05-25'
 name: Mindee
 nav: Providers
 network: true
-overview: 'Mindee publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Extraction API, Classification API, Crop API, and 3 more. Tagged areas include Document Parsing, OCR, IDP, AI, and Machine Learning.
+overview: 'Mindee publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Extraction API, Classification API, Crop API, and 3 more. Tagged areas include Document Parsing, OCR, IDP, Artificial Intelligence, and Machine-Learning.
 
 
   The Mindee catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -454,18 +454,18 @@ rules:
   slug: mindee-rules
 score:
   band: strong
-  composite: 57.7
-  delta: -4.8
+  composite: 58.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.9
     developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 62.5
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -473,8 +473,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/screenshots/mindee-2026-06-20T185555.png
 security:
@@ -491,11 +491,11 @@ tags:
 - Document Parsing
 - OCR
 - IDP
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Invoices
 - Receipts
-- IDs
-- Computer Vision
+- IDS
+- Computer-Vision
 website: https://mindee.com
 ---

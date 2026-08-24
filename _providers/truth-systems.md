@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Get Context Output API from Truth Systems — 1 operation(s) for get context output.
@@ -117,9 +117,9 @@ description: Truth Systems builds AI governance and hallucination-detection infr
 image: https://www.truthsystems.ai/truthsystems-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: truth-systems-mcp.yml
-  slug: truth-systems-mcpyml
+- description: 'Truth Systems operates a hosted, remote MCP server on its documentation site (Mintlify-hosted, streamable HTTP). The server is read-only and scoped to the Truth Systems Docs content: it exposes docume'
+  name: Truth Systems Docs
+  slug: truth-systems-docs
 modified: '2026-07-21'
 name: Truth Systems
 nav: Providers
@@ -132,7 +132,7 @@ random_paper: 18
 score:
   band: thin
   composite: 29.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -142,7 +142,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 29.8
+  previous_composite: 29.0
   provenance:
     conformance: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

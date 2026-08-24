@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Digital platform providing financial advisors and their clients access to independent investment managers with differentiated investment solutions. Offers access to mutual funds, separately managed ac
@@ -103,7 +103,7 @@ modified: '2026-04-19'
 name: Affiliated Managers Group
 nav: Providers
 network: true
-overview: 'Affiliated Managers Group publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Investment Management, Financial Services, Wealth Management, and Institutional Investing.
+overview: 'Affiliated Managers Group publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Investment Management, Financial-Services, Wealth Management, and Institutional Investing.
 
 
   Affiliated Managers Group''s developer surface includes developer portal and 6 more developer resources.'
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.3
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -145,9 +145,9 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 16.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/screenshots/affiliated-managers-group-2026-06-20T165600.png
 security:
@@ -159,7 +159,7 @@ slug: affiliated-managers-group
 tags:
 - Asset Management
 - Investment Management
-- Financial Services
+- Financial-Services
 - Wealth Management
 - Institutional Investing
 - Fortune 1000

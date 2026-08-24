@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The TELUS Insights Location API exposes de-identified, aggregated geo-intelligence derived from the TELUS mobile network across Canada. Consumers submit asynchronous count jobs — demographic, origin, '
@@ -187,7 +187,7 @@ scopes:
 score:
   band: strong
   composite: 57.1
-  delta: 3.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -197,7 +197,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 53.5
+  previous_composite: 57.1
   provenance:
     conformance: derived
     skills: derived
@@ -207,8 +207,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -240,7 +240,7 @@ tags:
 - Healthcare
 - Electronic Medical Records
 - GraphQL
-- Webhooks
+- Webhook
 - Geospatial
 website: https://www.telus.com/
 ---

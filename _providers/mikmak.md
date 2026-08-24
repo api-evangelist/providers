@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'The MikMak Headless Commerce API (v1) lets brands and their authorized agencies power commerce experiences on brand-owned websites and media ad units with MikMak''s retailer network: product lookup by '
@@ -227,16 +227,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mikmak.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mikmak-mcp.yml
-  slug: mikmak-mcpyml
+  name: MikMak Commerce MCP Server
+  slug: mikmak-commerce-mcp-server
 - description: ''
-  name: v1
-  slug: v1
+  name: MikMak MCP Server
+  slug: mikmak-mcp-server
 modified: '2026-08-12'
 name: MikMak
 nav: Providers
 network: true
-overview: 'MikMak publishes 2 APIs on the [APIs.io](https://apis.io/) network: Headless Commerce API and Insights API. Tagged areas include Analytics, Commerce, eCommerce, Multichannel, and Retail Media.
+overview: 'MikMak publishes 2 APIs on the [APIs.io](https://apis.io/) network: Headless Commerce API and Insights API. Tagged areas include Analytics, Commerce, E-Commerce, Multi-Channel, and Retail Media.
 
 
   MikMak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 33 more developer resources.'
@@ -257,7 +257,7 @@ scopes:
 score:
   band: developing
   composite: 47.6
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -267,7 +267,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 52.2
+  previous_composite: 47.6
   provenance:
     conformance: derived
     contracts:
@@ -277,8 +277,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png
 security:
@@ -298,14 +298,14 @@ slug: mikmak
 tags:
 - Analytics
 - Commerce
-- eCommerce
-- Multichannel
+- E-Commerce
+- Multi-Channel
 - Retail Media
 - Where to Buy
 - Shoppable Media
 - Product Availability
 - MCP
-- Agent Native
+- agent-native
 - Reporting
 - CPG
 website: https://www.mikmak.com

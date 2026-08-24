@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Shopify-native Universal Commerce Protocol surface for the Shoptiques storefront — agent-driven catalog search, cart, checkout and fulfillment over a published MCP endpoint, with buyer-approved paymen
@@ -87,8 +87,8 @@ image: https://shoptiques.com/cdn/shop/files/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: shoptiques-mcp.yml
-  slug: shoptiques-mcpyml
+  name: Shoptiques MCP Server
+  slug: shoptiques-mcp-server
 modified: '2026-07-21'
 name: Shoptiques
 nav: Providers
@@ -105,24 +105,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.7
-  delta: -0.9
+  composite: 17.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 13.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 17.6
+  previous_composite: 17.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

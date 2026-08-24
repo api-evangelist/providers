@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing Zoho Forms resources including forms, submissions, entries, and reports. Enables programmatic form data retrieval, submission creation, field updates, and integration with the br
@@ -101,7 +101,7 @@ modified: 2026-06-13
 name: Zoho Forms
 nav: Providers
 network: true
-overview: 'Zoho Forms publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Form Builder, Surveys, Data Collection, and Workflow Automation.
+overview: 'Zoho Forms publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Form Builder, Surveys, Data Collection, and Workflow-Automation.
 
 
   Zoho Forms'' developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -127,9 +127,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 33.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 33.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-forms/refs/heads/main/screenshots/zoho-forms-2026-06-20T201939.png
 security:
@@ -147,7 +147,7 @@ tags:
 - Form Builder
 - Surveys
 - Data Collection
-- Workflow Automation
+- Workflow-Automation
 - No-Code
 - Zoho
 website: https://www.zoho.com/forms/

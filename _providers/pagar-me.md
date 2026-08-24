@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: Create, list, retrieve, and manage orders — the top-level payment object in the Pagar.me Core API v5. Each order can contain one or more charges paid via credit card, debit card, Pix, boleto, voucher,
@@ -251,7 +251,7 @@ modified: '2026-05-25'
 name: Pagar.me
 nav: Providers
 network: true
-overview: 'Pagar.me publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Financial Services, Fintech, Brazil, and Latin America.
+overview: 'Pagar.me publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Financial-Services, Fintech, Brazil, and Latin America.
 
 
   Pagar.me''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, developer console, signup flow, and 20 more developer resources.'
@@ -259,7 +259,7 @@ random_paper: 1
 score:
   band: thin
   composite: 27.0
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -275,15 +275,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 26.3
+  previous_composite: 27.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/screenshots/pagar-me-2026-06-20T191321.png
 security:
@@ -305,7 +305,7 @@ solutions:
   name: Marketplace
 tags:
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - Brazil
 - Latin America
@@ -315,14 +315,14 @@ tags:
 - Credit Card
 - Marketplace
 - Split Payments
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Anti-Fraud
 - 3DS
 - Checkout
 - Payment Links
-- Webhooks
-- E-commerce
+- Webhook
+- E-Commerce
 - Anticipation
 use_cases:
 - description: Accept credit card, Pix, and boleto on a Brazilian online store via the Orders API, the hosted Checkout, or one of the platform modules (Magento, WooCommerce, VTEX, Nuvemshop, Shopify).

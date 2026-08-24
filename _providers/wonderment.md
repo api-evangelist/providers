@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,13 +161,13 @@ image: https://www.wonderment.com/
 layout: provider
 mcp_servers:
 - description: ''
-  name: wonderment-mcp.yml
-  slug: wonderment-mcpyml
+  name: Wonderment MCP Server
+  slug: wonderment-mcp-server
 modified: '2026-07-21'
 name: Wonderment
 nav: Providers
 network: true
-overview: 'Wonderment publishes 3 APIs on the [APIs.io](https://apis.io/) network: Delivery Promise API, Reports API, and Shipments API. Tagged areas include Company, Ecommerce, Order Tracking, Post-Purchase, and Shipping.
+overview: 'Wonderment publishes 3 APIs on the [APIs.io](https://apis.io/) network: Delivery Promise API, Reports API, and Shipments API. Tagged areas include Company, E-Commerce, Order Tracking, Post-Purchase, and Shipping.
 
 
   The Wonderment catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -178,7 +178,7 @@ random_paper: 20
 score:
   band: thin
   composite: 38.5
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 39.9
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,8 +199,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -214,12 +214,12 @@ security:
 slug: wonderment
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Order Tracking
 - Post-Purchase
 - Shipping
 - Logistics
 - Shopify
-- Webhooks
+- Webhook
 website: https://www.wonderment.com/
 ---

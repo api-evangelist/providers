@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 7
 common:
@@ -140,7 +140,7 @@ modified: '2026-08-13'
 name: 1mind
 nav: Providers
 network: true
-overview: '1mind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, AI Agents, Sales, and Go-To-Market.
+overview: '1mind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Sales, and Go-To-Market.
 
 
   1mind''s developer surface includes engineering blog, support, signup flow, authentication, and 21 more developer resources.'
@@ -160,23 +160,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.2
-  delta: 0.6
+  composite: 29.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 27.6
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/screenshots/1mind-2026-07-25T181118.png
 security:
@@ -199,12 +199,12 @@ security:
 slug: 1mind
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Sales
 - Go-To-Market
 - Conversational AI
 - Sales Enablement
-- RevOps
+- Revenue Operations
 website: https://www.1mind.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Login and token issuance.
@@ -202,8 +202,8 @@ image: https://kata.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: kataai-mcp.yml
-  slug: kataai-mcpyml
+  name: Kata.ai MCP Server
+  slug: kataai-mcp-server
 modified: '2026-07-19'
 name: Kata.ai
 nav: Providers
@@ -216,7 +216,7 @@ random_paper: 10
 score:
   band: thin
   composite: 26.2
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 28.4
+  previous_composite: 26.2
   provenance:
     conformance: derived
     contracts:
@@ -236,8 +236,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png
 security:

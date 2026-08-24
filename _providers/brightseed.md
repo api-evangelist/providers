@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -213,8 +213,8 @@ image: https://www.brightseedbio.com/wp-content/uploads/2025/07/cropped-Logo-1-2
 layout: provider
 mcp_servers:
 - description: ''
-  name: brightseed-mcp.yml
-  slug: brightseed-mcpyml
+  name: Brightseed MCP Server
+  slug: brightseed-mcp-server
 modified: '2026-07-31'
 name: Brightseed
 nav: Providers
@@ -227,7 +227,7 @@ random_paper: 7
 score:
   band: thin
   composite: 34.1
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -237,7 +237,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 32.0
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightseed/refs/heads/main/screenshots/brightseed-2026-08-07T162813.png
 security:
@@ -277,7 +277,7 @@ tags:
 - Ingredients
 - Drug Discovery
 - Agrifood
-- Content API
+- content-api
 - WordPress
 website: https://www.brightseedbio.com/
 ---

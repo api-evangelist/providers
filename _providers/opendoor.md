@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Opendoor for Agents is the partner program that lets licensed real-estate agents submit clients to Opendoor for a cash offer, list Opendoor-owned inventory, and earn referral commissions. Integration '
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -139,9 +139,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendoor/refs/heads/main/screenshots/opendoor-2026-06-20T190956.png
 security:
@@ -158,6 +158,6 @@ tags:
 - iBuyer
 - Listings
 - Partners
-- Real Estate
+- Real-Estate
 website: https://www.opendoor.com
 ---

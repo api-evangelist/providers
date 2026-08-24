@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ modified: 2026-06-13
 name: Ordway
 nav: Providers
 network: true
-overview: 'Ordway publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Billing Runs API, Billing Schedules API, Chart of Accounts API, and 18 more. Tagged areas include Billing, Revenue Automation, Subscriptions, Invoicing, and Payments.
+overview: 'Ordway publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Billing Runs API, Billing Schedules API, Chart of Accounts API, and 18 more. Tagged areas include Billing, Revenue Automation, Subscription, Invoicing, and Payments.
 
 
   The Ordway catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -300,7 +300,7 @@ rules:
 score:
   band: thin
   composite: 36.1
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -310,7 +310,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 40.5
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -324,8 +324,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/screenshots/ordway-2026-06-20T191205.png
 security:
@@ -341,7 +341,7 @@ slug: ordway
 tags:
 - Billing
 - Revenue Automation
-- Subscriptions
+- Subscription
 - Invoicing
 - Payments
 - Revenue Recognition

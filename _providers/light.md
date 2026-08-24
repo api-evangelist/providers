@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 5
@@ -328,8 +328,8 @@ image: https://light.inc/assets/images/og-home.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: light-mcp.yml
-  slug: light-mcpyml
+  name: Light API documentation
+  slug: light-api-documentation
 modified: '2026-07-19'
 name: Light
 nav: Providers
@@ -346,7 +346,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.8
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -356,7 +356,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 47.2
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,8 +373,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/screenshots/light-2026-07-25T225058.png
 security:

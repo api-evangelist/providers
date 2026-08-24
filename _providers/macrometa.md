@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 9
@@ -533,8 +533,8 @@ image: https://www.macrometa.com/images/opengraph-default-light.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: macrometa-mcp.yml
-  slug: macrometa-mcpyml
+  name: Macrometa MCP Server
+  slug: macrometa-mcp-server
 modified: '2026-07-20'
 name: Macrometa
 nav: Providers
@@ -547,7 +547,7 @@ random_paper: 8
 score:
   band: developing
   composite: 44.5
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -557,7 +557,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 45.5
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -568,8 +568,8 @@ score:
       total: 63
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/screenshots/macrometa-2026-07-25T225823.png
 security:
@@ -591,11 +591,10 @@ tags:
 - Serverless
 - Streaming
 - Stream Processing
-- Real Time
+- Real-Time
 - Web Performance
 - CDN
 - Search
 - Artificial Intelligence
-- API
 website: https://www.macrometa.com/
 ---

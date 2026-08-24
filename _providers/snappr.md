@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -205,8 +205,8 @@ image: https://cdn.prod.website-files.com/5ca95f7a3be192f65a7b4e4f/6993a952a2087
 layout: provider
 mcp_servers:
 - description: ''
-  name: snappr-mcp.yml
-  slug: snappr-mcpyml
+  name: Snappr MCP Server
+  slug: snappr-mcp-server
 modified: '2026-07-21'
 name: Snappr
 nav: Providers
@@ -222,7 +222,7 @@ random_paper: 9
 score:
   band: developing
   composite: 52.6
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 52.7
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,8 +243,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/screenshots/snappr-2026-08-17T081939.png
 security:

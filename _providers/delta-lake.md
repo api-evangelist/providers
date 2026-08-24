@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Delta Lake storage framework defines the on-disk transaction log and protocol that adds ACID transactions, schema enforcement, and time travel to Parquet-based data lakes. Delta Lake exposes Spark
@@ -107,7 +107,7 @@ modified: '2026-04-28'
 name: Delta Lake
 nav: Providers
 network: true
-overview: 'Delta Lake publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Data Lake, Lakehouse, Linux Foundation, and Open Source.
+overview: 'Delta Lake publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Data Lake, Lakehouse, Linux Foundation, and Open-Source.
 
 
   Delta Lake''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.5
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -133,9 +133,9 @@ score:
     discoverability: 64.8
     governance: 15.2
     operational_transparency: 13.2
-  previous_composite: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/screenshots/delta-lake-2026-06-20T175901.png
 security:
@@ -149,7 +149,7 @@ tags:
 - Data Lake
 - Lakehouse
 - Linux Foundation
-- Open Source
+- Open-Source
 - Storage
 - Streaming
 website: https://delta.io/

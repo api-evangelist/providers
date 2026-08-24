@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The agent-driven commerce surface exposed on the aventon.com Shopify storefront via the Universal Commerce Protocol (ucp.dev). An MCP endpoint offers catalog search, cart, checkout, discount, fulfillm
@@ -83,8 +83,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aventon.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: aventon-mcp.yml
-  slug: aventon-mcpyml
+  name: Aventon MCP Server
+  slug: aventon-mcp-server
 modified: '2026-07-18'
 name: Aventon
 nav: Providers
@@ -101,23 +101,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.4
-  delta: -0.8
+  composite: 17.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 17.2
+  previous_composite: 17.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aventon/refs/heads/main/screenshots/aventon-2026-08-07T162023.png
 security:

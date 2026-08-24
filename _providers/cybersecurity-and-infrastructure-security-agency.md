@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,19 +202,19 @@ rules:
     warn: 3
   slug: cybersecurity-and-infrastructure-security-agency-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.7
-  delta: 4.4
+  band: developing
+  composite: 39.8
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 59.4
     developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 10.5
-  previous_composite: 34.3
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +228,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/screenshots/cybersecurity-and-infrastructure-security-agency-2026-06-20T175408.png
 security:
@@ -250,7 +250,7 @@ tags:
 - CVE
 - CWE
 - Cybersecurity
-- Federal Government
+- Federal-Government
 - Government
 - ICS-CERT
 - Information Sharing

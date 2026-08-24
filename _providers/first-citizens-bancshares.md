@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,10 +27,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-08-19'
+  score: 35.0
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: The Authorization API issues OAuth2 access tokens for the SVB commercial banking platform (now part of First Citizens). Partners exchange client credentials at /v1/security/oauth/token for a bearer to
@@ -169,7 +169,7 @@ modified: '2026-07-23'
 name: First Citizens BancShares
 nav: Providers
 network: true
-overview: 'First Citizens BancShares publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Commercial Banking, Payments, and ACH.
+overview: 'First Citizens BancShares publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Commercial Banking, Payments, and ACH.
 
 
   The First Citizens BancShares catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -179,18 +179,18 @@ overview: 'First Citizens BancShares publishes 10 APIs on the [APIs.io](https://
 random_paper: 3
 score:
   band: thin
-  composite: 36.1
-  delta: -4.3
+  composite: 37.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 45.1
     developer_ergonomics: 21.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 40.4
+  previous_composite: 37.2
   provenance:
     conformance: derived
   regulatory:
@@ -199,8 +199,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/screenshots/first-citizens-bancshares-2026-06-20T181238.png
 security:
@@ -219,7 +219,7 @@ security:
 slug: first-citizens-bancshares
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Commercial Banking
 - Payments
 - ACH

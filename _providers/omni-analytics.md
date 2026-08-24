@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Omni REST API provides programmatic access to an Omni instance: models, topics, views and fields; documents, dashboards and folders; query execution and scheduling; users, groups and permissions; '
@@ -158,9 +158,9 @@ description: Omni is a business intelligence and embedded analytics platform tha
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omni-analytics.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: omni-analytics-mcp.yml
-  slug: omni-analytics-mcpyml
+- description: 'Official Omni MCP server for natural language querying across your datasets, scoped to specific models and respecting user permissions. Configured via AI Hub > MCP. Works with Claude, ChatGPT, Cursor '
+  name: Omni Analytics MCP Server
+  slug: omni-analytics-mcp-server
 modified: '2026-07-20'
 name: Omni Analytics
 nav: Providers
@@ -188,8 +188,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/screenshots/omni-analytics-2026-08-07T190150.png
 security:

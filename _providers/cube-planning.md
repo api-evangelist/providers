@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -403,8 +403,8 @@ image: https://www.cubesoftware.com/hubfs/cube-favicon-2.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cube-planning-mcp.yml
-  slug: cube-planning-mcpyml
+  name: Cube Planning MCP Server
+  slug: cube-planning-mcp-server
 modified: '2026-07-18'
 name: Cube Planning
 nav: Providers
@@ -421,18 +421,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.0
-  delta: 1.8
+  composite: 48.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 54.1
     developer_ergonomics: 37.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 45.2
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -443,8 +443,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/screenshots/cube-planning-2026-07-25T210914.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ random_paper: 12
 score:
   band: minimal
   composite: 5.7
-  delta: -9.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -110,16 +110,16 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.2
+  previous_composite: 5.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/featurespace/refs/heads/main/screenshots/featurespace-2026-07-25T214316.png
 security:
 - kind: domain-security
@@ -134,7 +134,7 @@ tags:
 - Anti-Money Laundering
 - Behavioral Analytics
 - Risk Scoring
-- Machine Learning
+- Machine-Learning
 - Payments
 - Company
 website: https://www.featurespace.com/

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ modified: '2026-08-12'
 name: Findigs
 nav: Providers
 network: true
-overview: 'Findigs publishes 1 API on the [APIs.io](https://apis.io/) network: Client API. Tagged areas include rental-screening, tenant-screening, resident-screening, rental-application, and underwriting.
+overview: 'Findigs publishes 1 API on the [APIs.io](https://apis.io/) network: Client API. Tagged areas include rental-screening, Tenant Screening, resident-screening, rental-application, and Underwriting.
 
 
   The Findigs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -201,7 +201,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.9
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -211,7 +211,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 54.0
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,8 +228,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/screenshots/findigs-2026-08-17T080925.png
 security:
@@ -248,21 +248,21 @@ security:
 slug: findigs
 tags:
 - rental-screening
-- tenant-screening
+- Tenant Screening
 - resident-screening
 - rental-application
-- underwriting
-- decisioning
-- identity-verification
-- income-verification
-- credit-check
-- background-check
-- fraud-detection
-- property-management
-- real-estate
-- proptech
-- fcra
-- fair-housing
-- webhooks
+- Underwriting
+- Decisioning
+- Identity Verification
+- Income Verification
+- Credit Check
+- Background Check
+- Fraud Detection
+- Property Management
+- Real-Estate
+- PropTech
+- FCRA
+- Fair Housing
+- Webhook
 website: https://www.findigs.com/
 ---

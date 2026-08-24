@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The FastAPI backend behind the Pomo application, published as an OpenAPI 3.1.0 contract at https://api.usepomo.ai/openapi.json with interactive Swagger UI and ReDoc renderings. 924 paths / 994 operati
@@ -111,7 +111,7 @@ modified: '2026-08-13'
 name: Pomo
 nav: Providers
 network: true
-overview: 'Pomo publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Company, Marketing, AI, Market Intelligence, and Competitive Intelligence.
+overview: 'Pomo publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Company, Marketing, Artificial Intelligence, Market Intelligence, and Competitive Intelligence.
 
 
   The Pomo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.4
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -140,7 +140,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 44.3
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -150,8 +150,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/screenshots/pomo-2026-08-17T081321.png
 security:
@@ -167,15 +167,15 @@ slug: pomo
 tags:
 - Company
 - Marketing
-- AI
+- Artificial Intelligence
 - Market Intelligence
 - Competitive Intelligence
 - Marketing Automation
 - Generative AI
-- SaaS
+- Software-as-a-Service
 - Answer Engine Optimization
 - Advertising
-- Social Media
+- Social-Media
 - Influencer Marketing
 - Campaign Management
 website: https://usepomo.ai/

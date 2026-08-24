@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 38
 apis:
 - description: The Admin API from Tradeshift — 11 operation(s) for admin.
@@ -481,13 +481,13 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: tradeshift-mcp.yml
-  slug: tradeshift-mcpyml
+  name: Tradeshift MCP Server
+  slug: tradeshift-mcp-server
 modified: '2026-08-02'
 name: Tradeshift
 nav: Providers
 network: true
-overview: 'Tradeshift publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Document Validation API, Dx Category Accounts Branches API, and 35 more. Tagged areas include e-invoicing, accounts-payable, ap-automation, procure-to-pay, and supply-chain.
+overview: 'Tradeshift publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Document Validation API, Dx Category Accounts Branches API, and 35 more. Tagged areas include E-Invoicing, Accounts Payable, AP Automation, Procure-to-Pay, and Supply Chain.
 
 
   The Tradeshift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -503,7 +503,7 @@ scopes:
 score:
   band: strong
   composite: 55.3
-  delta: -8.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -513,7 +513,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 63.9
+  previous_composite: 55.3
   provenance:
     conformance: first-party
     contracts:
@@ -523,9 +523,9 @@ score:
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/screenshots/tradeshift-2026-08-17T082420.png
 security:
 - kind: authentication
@@ -546,20 +546,20 @@ security:
   summary_line: SOC 1 Type II, SOC 2 Type II, ISAE 3402 Type II, PCI DSS Level 1, ISO 27001
 slug: tradeshift
 tags:
-- e-invoicing
-- accounts-payable
-- ap-automation
-- procure-to-pay
-- supply-chain
-- b2b-commerce
-- invoicing
+- E-Invoicing
+- Accounts Payable
+- AP Automation
+- Procure-to-Pay
+- Supply Chain
+- B2B Commerce
+- Invoicing
 - ubl
-- peppol
+- PEPPOL
 - e-invoicing-compliance
-- supplier-network
+- Supplier Network
 - business-documents
-- fintech
-- mcp
+- Fintech
+- MCP
 - agent-native
 website: https://tradeshift.com/
 ---

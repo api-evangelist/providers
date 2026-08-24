@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for managing an Edools school — team and role administration, content (courses, learning paths, lessons, media), student management and engagement triggers, and school pro
@@ -141,7 +141,7 @@ random_paper: 16
 score:
   band: thin
   composite: 30.9
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -151,15 +151,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 30.1
+  previous_composite: 30.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 37.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edools/refs/heads/main/screenshots/edools-2026-07-25T212856.png
 security:

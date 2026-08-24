@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -370,7 +370,7 @@ modified: '2026-04-19'
 name: Advanced Micro Devices
 nav: Providers
 network: true
-overview: 'Advanced Micro Devices publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Credits API, Devices API, and 5 more. Tagged areas include AI, Cloud Computing, GPU, HPC, and Machine Learning.
+overview: 'Advanced Micro Devices publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Credits API, Devices API, and 5 more. Tagged areas include Artificial Intelligence, Cloud Computing, GPU, HPC, and Machine-Learning.
 
 
   The Advanced Micro Devices catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
@@ -436,18 +436,18 @@ rules:
   slug: amd-spectral-rules
 score:
   band: developing
-  composite: 42.4
-  delta: -12.0
+  composite: 42.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 69.9
     developer_ergonomics: 36.9
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 54.4
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -455,9 +455,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/screenshots/advanced-micro-devices-2026-06-20T165331.png
 security:
 - kind: authentication
@@ -470,12 +470,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: advanced-micro-devices
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - GPU
 - HPC
-- Machine Learning
-- Semiconductor
+- Machine-Learning
+- Semiconductors
 - Fortune 500
 use_cases:
 - description: Train and fine-tune large language models on AMD Instinct GPU clusters with ROCm-optimized PyTorch.

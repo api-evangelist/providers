@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -299,13 +299,13 @@ image: https://s.domainstatic.com.au/domain/144.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: domain-group-mcp.yml
-  slug: domain-group-mcpyml
+  name: Domain Group MCP Server
+  slug: domain-group-mcp-server
 modified: '2026-07-26'
 name: Domain Group
 nav: Providers
 network: true
-overview: 'Domain Group publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Domain Address Suggestions API, Domain Agents & Listings API, Domain Campaign API, and 10 more. Tagged areas include Real Estate, Australia, Property Listings, Property Data, and Valuation.
+overview: 'Domain Group publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Domain Address Suggestions API, Domain Agents & Listings API, Domain Campaign API, and 10 more. Tagged areas include Real-Estate, Australia, Property Listings, Property Data, and Valuation.
 
 
   The Domain Group catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -321,7 +321,7 @@ scopes:
 score:
   band: developing
   composite: 49.3
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -331,7 +331,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 48.7
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,8 +342,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/screenshots/domain-group-2026-07-27T125337.png
 security:
@@ -357,7 +357,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: domain-group
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Listings
 - Property Data

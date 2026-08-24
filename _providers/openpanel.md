@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ modified: '2026-05-19'
 name: OpenPanel
 nav: Providers
 network: true
-overview: 'OpenPanel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Event API, Export API, Import API, and 4 more. Tagged areas include Event Tracking, Funnels, Open Source, Product Analytics, and Real-Time Analytics.
+overview: 'OpenPanel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Event API, Export API, Import API, and 4 more. Tagged areas include Event Tracking, Funnels, Open-Source, Product Analytics, and Real-Time Analytics.
 
 
   OpenPanel''s developer surface includes documentation, GitHub presence, getting-started guide, engineering blog, and 8 more developer resources.'
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.0
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 29.5
+  previous_composite: 26.0
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/screenshots/openpanel-2026-06-20T191030.png
 security:
@@ -201,7 +201,7 @@ slug: openpanel
 tags:
 - Event Tracking
 - Funnels
-- Open Source
+- Open-Source
 - Product Analytics
 - Real-Time Analytics
 - User Analytics

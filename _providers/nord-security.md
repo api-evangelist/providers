@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Also marketed as the NordStellar Dark Web API. Breach-intelligence data API over malware/infostealer logs, breached databases, credential lists, cookie and password intelligence, and dark web sources,
@@ -279,11 +279,11 @@ image: https://res.cloudinary.com/nordsec/image/upload/q_auto,f_auto/v1/nord-sec
 layout: provider
 mcp_servers:
 - description: ''
-  name: nord-security-mcp.yml
-  slug: nord-security-mcpyml
+  name: Nord Security MCP Server
+  slug: nord-security-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Nord Security MCP Server
+  slug: nord-security-mcp-server-2
 modified: '2026-08-01'
 name: Nord Security
 nav: Providers
@@ -300,7 +300,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.0
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -310,14 +310,14 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 56.9
+  previous_composite: 51.0
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/screenshots/nord-security-2026-08-07T185512.png
 security:
 - kind: authentication

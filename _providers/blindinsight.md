@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 4
@@ -269,8 +269,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blindinsig
 layout: provider
 mcp_servers:
 - description: ''
-  name: blindinsight-mcp.yml
-  slug: blindinsight-mcpyml
+  name: BlindInsight MCP Server
+  slug: blindinsight-mcp-server
 modified: '2026-07-18'
 name: BlindInsight
 nav: Providers
@@ -286,7 +286,7 @@ random_paper: 19
 score:
   band: developing
   composite: 39.7
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -296,7 +296,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.5
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,8 +307,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/screenshots/blindinsight-2026-07-25T203316.png
 security:
@@ -328,7 +328,7 @@ tags:
 - Privacy
 - Confidential Computing
 - Data
-- Machine Learning
+- Machine-Learning
 - Compliance
 - Cryptography
 website: https://blindinsight.io

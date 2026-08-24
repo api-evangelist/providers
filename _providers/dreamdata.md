@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Segment-compatible event tracking API for capturing B2B customer journey events. Server-side events are POSTed as a batch to the HTTP endpoint with HTTP Basic auth (source API key as username, empty p
@@ -184,8 +184,8 @@ image: http://static1.squarespace.com/static/60880c8985e48a388d33bd16/t/6821cbca
 layout: provider
 mcp_servers:
 - description: ''
-  name: dreamdata-mcp.yml
-  slug: dreamdata-mcpyml
+  name: Dreamdata MCP Server
+  slug: dreamdata-mcp-server
 modified: '2026-08-13'
 name: Dreamdata
 nav: Providers
@@ -212,25 +212,25 @@ scopes:
   slug: dreamdata-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.3
-  delta: -4.9
+  band: strong
+  composite: 54.4
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 58.2
+  previous_composite: 54.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/screenshots/dreamdata-2026-07-25T212356.png
 security:

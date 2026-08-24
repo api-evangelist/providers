@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-05-19'
 name: OpenPipe
 nav: Providers
 network: true
-overview: 'OpenPipe publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Check Cache API, Criteria API, and 7 more. Tagged areas include AI, LLM, Fine-Tuning, Distillation, and Inference.
+overview: 'OpenPipe publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Check Cache API, Criteria API, and 7 more. Tagged areas include Artificial Intelligence, LLM, Fine-Tuning, Distillation, and Inference.
 
 
   OpenPipe''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.8
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/screenshots/openpipe-2026-06-20T191022.png
 security:
@@ -214,12 +214,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: openpipe
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Fine-Tuning
 - Distillation
 - Inference
-- OpenAI Compatible
+- OpenAI-Compatible
 - Anthropic Compatible
 - Caching
 website: https://openpipe.ai/

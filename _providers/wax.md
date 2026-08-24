@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Public Antelope/EOSIO Chain API for the WAX blockchain — query chain state (get_info, get_account, get_table_rows, get_currency_balance) and submit signed transactions (push_transaction/send_transacti
@@ -132,7 +132,7 @@ random_paper: 0
 score:
   band: thin
   composite: 27.6
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -142,7 +142,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 30.0
+  previous_composite: 27.6
   provenance:
     conformance: derived
   regulatory:
@@ -151,8 +151,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -172,6 +172,6 @@ tags:
 - Web3
 - Gaming
 - Antelope
-- Wallet
+- Wallets
 website: https://wax.io/
 ---

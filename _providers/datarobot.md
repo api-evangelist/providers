@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: DataRobot's public REST API (v2) for projects, modeling, predictions, deployments, MLOps monitoring, governance, and agentic workflows. Personal API keys are sent as bearer tokens against regional bas
@@ -155,13 +155,13 @@ image: https://www.datarobot.com/wp-content/uploads/2021/09/DataRobot-Logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: datarobot-mcp.yml
-  slug: datarobot-mcpyml
+  name: DataRobot MCP Server
+  slug: datarobot-mcp-server
 modified: '2026-07-18'
 name: DataRobot
 nav: Providers
 network: true
-overview: 'DataRobot publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Data Science.
+overview: 'DataRobot publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, MLOps, and Data Science.
 
 
   DataRobot''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, CLI, and 21 more developer resources.'
@@ -173,23 +173,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: thin
-  composite: 36.0
-  delta: -1.1
+  composite: 37.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 42.1
   previous_composite: 37.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/screenshots/datarobot-2026-07-25T211352.png
 security:
@@ -209,7 +209,7 @@ slug: datarobot
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Data Science
 - Agentic AI

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 194
   human_in_the_loop: 3
@@ -391,8 +391,8 @@ image: https://invendor.com/wp-content/uploads/2026/06/invendor-social-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: invendor-mcp.yml
-  slug: invendor-mcpyml
+  name: Invendor MCP Server
+  slug: invendor-mcp-server
 modified: '2026-07-19'
 name: Invendor
 nav: Providers
@@ -431,8 +431,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/screenshots/invendor-2026-07-25T222735.png
 security:

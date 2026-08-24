@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: REST API for the Nexxen DSP (formerly Amobee / Tremor Video DSP) Campaign Management service — advertisers, insertion orders, packages, line items, ads, creatives, audience segments, retargeting segme
@@ -169,13 +169,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tremor-vid
 layout: provider
 mcp_servers:
 - description: ''
-  name: tremor-video-mcp.yml
-  slug: tremor-video-mcpyml
+  name: Tremor Video MCP Server
+  slug: tremor-video-mcp-server
 modified: '2026-08-13'
 name: Tremor Video
 nav: Providers
 network: true
-overview: 'Tremor Video publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Nexxen DSP API, Nexxen DSP Token Service, Nexxen DSP Reporting API, and 2 more. Tagged areas include Company, Martech, Advertising, AdTech, and DSP.
+overview: 'Tremor Video publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Nexxen DSP API, Nexxen DSP Token Service, Nexxen DSP Reporting API, and 2 more. Tagged areas include Company, MarTech, Advertising, AdTech, and DSP.
 
 
   Tremor Video''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, engineering blog, support, and 21 more developer resources.'
@@ -196,7 +196,7 @@ scopes:
 score:
   band: emerging
   composite: 23.9
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -206,14 +206,14 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 31.9
+  previous_composite: 23.9
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Tremor Video Authentication
@@ -226,7 +226,7 @@ security:
 slug: tremor-video
 tags:
 - Company
-- Martech
+- MarTech
 - Advertising
 - AdTech
 - DSP

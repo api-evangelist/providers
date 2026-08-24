@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -380,7 +380,7 @@ modified: '2026-08-15'
 name: Nutanix
 nav: Providers
 network: true
-overview: 'Nutanix publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Clusters API, and 12 more. Tagged areas include Cloud Management, Hyperconverged, Infrastructure, Virtualization, and Kubernetes.
+overview: 'Nutanix publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Clusters API, and 12 more. Tagged areas include Cloud Management, Hyper-Converged, Infrastructure, Virtualization, and Kubernetes.
 
 
   The Nutanix catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -410,7 +410,7 @@ rules:
 score:
   band: developing
   composite: 46.5
-  delta: -12.5
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -420,7 +420,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 59.0
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -428,9 +428,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/screenshots/nutanix-2026-06-20T190530.png
 security:
 - kind: authentication
@@ -444,7 +444,7 @@ security:
 slug: nutanix
 tags:
 - Cloud Management
-- Hyperconverged
+- Hyper-Converged
 - Infrastructure
 - Virtualization
 - Kubernetes

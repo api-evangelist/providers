@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST/JSON banking API for Memo Bank business customers, authenticated with RS256-signed JWT request tokens. Covers accounts and balances, transactions with typed transaction sources, virtual and stand
@@ -199,13 +199,13 @@ image: https://media.memo.bank/home_hero_602cdab270/home_hero_602cdab270.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: memo-bank-mcp.yml
-  slug: memo-bank-mcpyml
+  name: Memo Bank MCP Server
+  slug: memo-bank-mcp-server
 modified: '2026-08-17'
 name: Memo Bank
 nav: Providers
 network: true
-overview: 'Memo Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Premium Bank API, Marketplace API, and NextGenPSD2 API. Tagged areas include Company, Fintech Insurtech, banking, business-banking, and payments.
+overview: 'Memo Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Premium Bank API, Marketplace API, and NextGenPSD2 API. Tagged areas include Company, Fintech Insurtech, Banking, Business Banking, and Payments.
 
 
   The Memo Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -229,6 +229,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.4
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -238,6 +239,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
+  previous_composite: 67.4
   provenance:
     conformance: first-party
     contracts:
@@ -253,8 +255,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Memo Bank Authentication
@@ -272,18 +275,18 @@ slug: memo-bank
 tags:
 - Company
 - Fintech Insurtech
-- banking
-- business-banking
-- payments
-- sepa
-- sepa-direct-debit
-- virtual-iban
-- wire-transfers
-- open-banking
-- psd2
-- berlin-group
-- webhooks
-- mcp
-- france
+- Banking
+- Business Banking
+- Payments
+- SEPA
+- SEPA Direct Debit
+- Virtual IBAN
+- Wire Transfers
+- Open Banking
+- PSD2
+- Berlin Group
+- Webhook
+- MCP
+- France
 website: https://memo.bank/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -150,9 +150,9 @@ description: Dome Systems is the enterprise agentic operations platform — the 
 image: https://www.domesystems.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: dome-systems-mcp.yml
-  slug: dome-systems-mcpyml
+- description: The Dome Platform CLI ships a built-in MCP server that exposes Dome itself to Claude and other MCP clients for triage and review of the agentic estate (agents, tools, models, policy, and audit). Launc
+  name: Dome Systems MCP Server
+  slug: dome-systems-mcp-server
 modified: '2026-07-18'
 name: Dome Systems
 nav: Providers
@@ -165,7 +165,7 @@ random_paper: 19
 score:
   band: thin
   composite: 36.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -175,7 +175,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 37.1
+  previous_composite: 36.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -185,8 +185,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/screenshots/dome-systems-2026-07-25T212250.png
 security:

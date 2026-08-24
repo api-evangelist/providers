@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ modified: '2026-05-19'
 name: National Archives and Records Administration
 nav: Providers
 network: true
-overview: 'National Archives and Records Administration publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Announcements API, Comments API, and 13 more. Tagged areas include Archives, Federal Government, Records, and Catalog.
+overview: 'National Archives and Records Administration publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Announcements API, Comments API, and 13 more. Tagged areas include Archives, Federal-Government, Records, and Catalog.
 
 
   National Archives and Records Administration''s developer surface includes developer portal and 5 more developer resources.'
@@ -196,7 +196,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.9
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -206,7 +206,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 23.6
+  previous_composite: 23.9
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/screenshots/national-archives-and-records-administration-2026-06-20T185959.png
 security:
@@ -232,7 +232,7 @@ security:
 slug: national-archives-and-records-administration
 tags:
 - Archives
-- Federal Government
+- Federal-Government
 - Records
 - Catalog
 website: https://www.archives.gov/

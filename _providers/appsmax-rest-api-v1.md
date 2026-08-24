@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -241,13 +241,13 @@ image: https://appsmax.ru/wp-content/themes/appsmax-site/assets/img/logo-appsmax
 layout: provider
 mcp_servers:
 - description: ''
-  name: appsmax-rest-api-v1-mcp.yml
-  slug: appsmax-rest-api-v1-mcpyml
+  name: AppsMax MCP Server
+  slug: appsmax-mcp-server
 modified: '2026-08-09'
 name: AppsMax
 nav: Providers
 network: true
-overview: 'AppsMax publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Access API, Applications API, Bots API, and 6 more. Tagged areas include Company, SaaS, Messaging, Business Automation, and Chatbots.
+overview: 'AppsMax publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Access API, Applications API, Bots API, and 6 more. Tagged areas include Company, Software-as-a-Service, Messaging, Business Automation, and Chatbots.
 
 
   AppsMax''s developer surface includes authentication, API reference, engineering blog, signup flow, FAQ, code examples, and 27 more developer resources.'
@@ -268,7 +268,7 @@ scopes:
 score:
   band: developing
   composite: 46.9
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -278,7 +278,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 46.4
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,8 +289,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/screenshots/appsmax-rest-api-v1-2026-08-17T080613.png
 security:
@@ -309,13 +309,13 @@ security:
 slug: appsmax-rest-api-v1
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Messaging
 - Business Automation
 - Chatbots
 - Mini Apps
 - Customer Requests
-- Workflow Automation
+- Workflow-Automation
 - MAX
 - Telegram
 - Russian Language

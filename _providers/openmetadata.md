@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 848
   human_in_the_loop: 12
@@ -800,18 +800,18 @@ rules:
   slug: openmetadata-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.2
-  delta: -4.0
+  composite: 41.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 61.1
     developer_ergonomics: 35.7
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 47.2
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -819,8 +819,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 89
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/screenshots/openmetadata-2026-06-20T191017.png
 security:
@@ -839,7 +839,7 @@ tags:
 - Data Governance
 - Data Lineage
 - Data Quality
-- Open Source
+- Open-Source
 - Data Discovery
 - Data Observability
 website: https://open-metadata.org

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Density v3 Public API for real-time occupancy and presence, historical space metrics (occupancy, utilization, time used, sessions), spaces / doorways / sensors / labels management, sensor and space he
@@ -151,13 +151,13 @@ image: https://cdn.prod.website-files.com/5f49c40736fbe713860f9203/681a28ab6cdef
 layout: provider
 mcp_servers:
 - description: ''
-  name: density-mcp.yml
-  slug: density-mcpyml
+  name: Density MCP Server
+  slug: density-mcp-server
 modified: '2026-07-18'
 name: Density
 nav: Providers
 network: true
-overview: 'Density publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Occupancy Sensors, Workplace Analytics, and Real Time.
+overview: 'Density publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Occupancy Sensors, Workplace Analytics, and Real-Time.
 
 
   The Density catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -168,7 +168,7 @@ random_paper: 12
 score:
   band: developing
   composite: 41.1
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -178,12 +178,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 45.0
+  previous_composite: 41.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/screenshots/density-2026-07-25T211718.png
 security:
@@ -201,11 +201,11 @@ tags:
 - Enterprise
 - Occupancy Sensors
 - Workplace Analytics
-- Real Time
+- Real-Time
 - Occupancy
 - Sensors
 - IoT
 - Space Utilization
-- Proptech
+- PropTech
 website: https://www.density.io
 ---

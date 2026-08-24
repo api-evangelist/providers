@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: SOAP Version 1.2 (W3C Recommendation, 2003/2007 Second Edition) is a lightweight protocol for exchanging structured information in a decentralized, distributed environment. It defines an XML message f
@@ -157,7 +157,7 @@ rules:
 score:
   band: emerging
   composite: 20.7
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -173,10 +173,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 27.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 20.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soap/refs/heads/main/screenshots/soap-2026-06-20T194116.png
 security:
 - kind: domain-security

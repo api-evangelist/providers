@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -207,8 +207,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/end-close.
 layout: provider
 mcp_servers:
 - description: ''
-  name: end-close-mcp.yml
-  slug: end-close-mcpyml
+  name: End Close MCP Server
+  slug: end-close-mcp-server
 modified: '2026-07-19'
 name: End Close
 nav: Providers
@@ -224,7 +224,7 @@ random_paper: 8
 score:
   band: thin
   composite: 37.3
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -234,7 +234,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 37.2
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +250,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png
 security:
@@ -280,7 +280,7 @@ tags:
 - Accounting
 - Banking
 - Data Integration
-- Webhooks
+- Webhook
 - Fintech
 website: https://endclose.com/docs
 ---

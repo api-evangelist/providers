@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Zilla is a stateless, cloud-native multi-protocol edge and service proxy that enables seamless access to Apache Kafka through HTTP REST, gRPC, SSE, MQTT, and WebSocket protocols. Zilla eliminates the '
@@ -167,7 +167,7 @@ rules:
 score:
   band: thin
   composite: 39.0
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -177,9 +177,9 @@ score:
     discoverability: 64.8
     governance: 39.4
     operational_transparency: 36.8
-  previous_composite: 39.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 39.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/screenshots/aklivity-2026-06-20T171459.png
 security:

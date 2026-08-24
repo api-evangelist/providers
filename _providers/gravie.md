@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Public machine-readable files Gravie posts on behalf of its plan sponsors under the CMS Transparency in Coverage rule (45 CFR 147.211). Files cover in-network negotiated rates for the Cigna and Cigna '
@@ -144,7 +144,7 @@ modified: '2026-08-01'
 name: Gravie
 nav: Providers
 network: true
-overview: 'Gravie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Insurance, Health Benefits, Employee Benefits, and Third Party Administrator.
+overview: 'Gravie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Insurance, Health Benefits, Employee Benefits, and Third-Party Administrator.
 
 
   Gravie''s developer surface includes documentation, support, engineering blog, and 24 more developer resources.'
@@ -152,7 +152,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 23.0
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -162,7 +162,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 24.5
+  previous_composite: 23.0
   provenance:
     conformance: first-party
   regulatory:
@@ -171,8 +171,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravie/refs/heads/main/screenshots/gravie-2026-08-07T165837.png
 security:
@@ -186,11 +186,11 @@ tags:
 - Health Insurance
 - Health Benefits
 - Employee Benefits
-- Third Party Administrator
+- Third-Party Administrator
 - ICHRA
 - Level Funded
 - Transparency In Coverage
-- Machine Readable Files
+- Machine-Readable Files
 - Healthcare
 - Insurance
 - Regulatory

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -308,8 +308,8 @@ image: https://cdn.prod.website-files.com/620fb9c4a7a29bb3b2650350/652667d7d817b
 layout: provider
 mcp_servers:
 - description: ''
-  name: capmo-mcp.yml
-  slug: capmo-mcpyml
+  name: Capmo MCP Server
+  slug: capmo-mcp-server
 modified: '2026-07-18'
 name: Capmo
 nav: Providers
@@ -322,7 +322,7 @@ random_paper: 3
 score:
   band: developing
   composite: 44.3
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -332,7 +332,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 48.3
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -343,8 +343,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/screenshots/capmo-2026-07-25T204431.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Control Plane API manages clusters (create / modify / suspend), users, roles, backups, alerts, metrics, and billing. Authentication is Bearer with a Zilliz API key.
@@ -122,7 +122,7 @@ modified: '2026-05-08'
 name: Zilliz
 nav: Providers
 network: true
-overview: 'Zilliz publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cloud Providers API, Clusters API, and Collections API. Tagged areas include Vector Database, AI, Cloud, Milvus, and Managed.
+overview: 'Zilliz publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cloud Providers API, Clusters API, and Collections API. Tagged areas include Vector Database, Artificial Intelligence, Cloud, Milvus, and Managed.
 
 
   Zilliz''s developer surface includes developer portal, pricing, and 10 more developer resources.'
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.7
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -148,15 +148,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.8
+  previous_composite: 30.7
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/screenshots/zilliz-2026-06-20T201901.png
 security:
@@ -171,7 +171,7 @@ security:
 slug: zilliz
 tags:
 - Vector Database
-- AI
+- Artificial Intelligence
 - Cloud
 - Milvus
 - Managed

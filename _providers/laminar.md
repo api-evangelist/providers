@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Run SELECT-only ClickHouse SQL over a project's observability data via POST /v1/sql/query. Authenticates with a project API key as a bearer token, accepts a query plus typed {name:Type} parameters, an
@@ -183,8 +183,8 @@ image: https://laminar.sh/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: laminar-mcp.yml
-  slug: laminar-mcpyml
+  name: Laminar MCP Server
+  slug: laminar-mcp-server
 modified: '2026-07-19'
 name: Laminar
 nav: Providers
@@ -201,7 +201,7 @@ random_paper: 5
 score:
   band: developing
   composite: 43.7
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -211,13 +211,13 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 45.8
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/screenshots/laminar-2026-07-25T224445.png
 security:
@@ -239,6 +239,6 @@ tags:
 - Evaluations
 - Monitoring
 - Developer Tools
-- Open Source
+- Open-Source
 website: https://laminar.sh/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Reachdesk REST API enables programmatic triggering of gift campaigns and sending of physical gifts, branded merchandise, and digital rewards. Authenticated via API tokens generated in the Reachdes
@@ -203,9 +203,9 @@ jsonld:
   slug: reachdesk-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: reachdesk-mcp.yml
-  slug: reachdesk-mcpyml
+- description: 'Reachdesk operates a first-party remote MCP server on its own API host. It is a hosted HTTP endpoint an MCP client POSTs to directly — there is no npx/stdio package to install. Access is OAuth 2.1: th'
+  name: Reachdesk MCP Server
+  slug: reachdesk-mcp-server
 modified: '2026-08-13'
 name: Reachdesk
 nav: Providers
@@ -234,7 +234,7 @@ scopes:
 score:
   band: strong
   composite: 58.6
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -244,7 +244,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 64.0
+  previous_composite: 58.6
   provenance:
     conformance: derived
     contracts:
@@ -254,9 +254,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/screenshots/reachdesk-2026-06-20T192631.png
 security:
 - kind: authentication

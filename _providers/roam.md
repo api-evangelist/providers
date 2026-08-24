@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,28 +92,28 @@ modified: '2026-07-21'
 name: Roam
 nav: Providers
 network: true
-overview: 'Roam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, Mortgage, and Assumable Mortgage.
+overview: 'Roam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real-Estate, Mortgage, and Assumable Mortgage.
 
 
   Roam''s developer surface includes engineering blog, support, FAQ, getting-started guide, and 9 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 6.7
-  delta: -8.1
+  composite: 7.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 7.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Roam Domain Security
@@ -126,8 +126,8 @@ security:
 slug: roam
 tags:
 - Company
-- Proptech
-- Real Estate
+- PropTech
+- Real-Estate
 - Mortgage
 - Assumable Mortgage
 - FHA

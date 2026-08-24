@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -3037,7 +3037,7 @@ jsonld:
   slug: zoominfo-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: ZoomInfo ships an official, hosted Model Context Protocol server that exposes the GTM Intelligence surface (company/contact search and enrichment, intent, scoops, news, audiences and agentic research)
   name: Hosted MCP Server
   slug: hosted-mcp-server
 - description: ''
@@ -3092,18 +3092,18 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 80.9
-  delta: 0.1
+  composite: 81.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 81.3
     developer_ergonomics: 79.8
     discoverability: 75.9
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 92.1
-  previous_composite: 80.8
+  previous_composite: 81.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3114,8 +3114,8 @@ score:
       total: 23
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/screenshots/zoominfo-2026-06-20T201953.png
 security:
@@ -3147,7 +3147,7 @@ tags:
 - Marketing Intelligence
 - Sales Intelligence
 - Intent Data
-- Go To Market
+- Go-To-Market
 - Data Enrichment
 - AI Agents
 - MCP

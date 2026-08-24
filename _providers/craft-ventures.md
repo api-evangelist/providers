@@ -28,7 +28,7 @@ tags:
 - Seed
 - Series A
 - Growth Equity
-- SaaS
+- Software-as-a-Service
 - B2B
 - Marketplaces
 - Artificial Intelligence

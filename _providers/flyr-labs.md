@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: FLYR's airline retailing API surface — the Offer & Order Management System (OOMS), a certified NDC+ API for rich-content offers and orders, an NDC Gateway that extends modern retailing to indirect and
@@ -115,7 +115,7 @@ modified: '2026-08-04'
 name: FLYR Labs
 nav: Providers
 network: true
-overview: 'FLYR Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, travel-technology, airlines, hospitality, and revenue-management.
+overview: 'FLYR Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel Technology, Airlines, Hospitality, and Revenue Management.
 
 
   FLYR Labs'' developer surface includes documentation, support, engineering blog, legal docs, and 15 more developer resources.'
@@ -123,7 +123,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 15.1
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -133,12 +133,12 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 21.6
+  previous_composite: 15.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flyr-labs/refs/heads/main/screenshots/flyr-labs-2026-08-07T165355.png
 security:
 - kind: domain-security
@@ -148,17 +148,17 @@ security:
 slug: flyr-labs
 tags:
 - Company
-- travel-technology
-- airlines
-- hospitality
-- revenue-management
-- dynamic-pricing
-- artificial-intelligence
+- Travel Technology
+- Airlines
+- Hospitality
+- Revenue Management
+- Dynamic Pricing
+- Artificial Intelligence
 - airline-retailing
-- ndc
+- NDC
 - offer-and-order
-- hotel-technology
-- forecasting
-- cargo
+- Hotel Technology
+- Forecasting
+- Cargo
 website: https://flyr.com/
 ---

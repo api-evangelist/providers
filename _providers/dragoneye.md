@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Dragoneye API provides programmatic access to custom and prebuilt computer vision models for image and video recognition. Developers can classify images, detect objects, and run custom-trained mod
@@ -81,7 +81,7 @@ modified: '2026-04-28'
 name: Dragoneye
 nav: Providers
 network: true
-overview: 'Dragoneye publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Computer Vision, Image Recognition, Video Recognition, and Machine Learning.
+overview: 'Dragoneye publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Computer-Vision, Image Recognition, Video Recognition, and Machine-Learning.
 
 
   Dragoneye''s developer surface includes pricing, engineering blog, documentation, and 5 more developer resources.'
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -107,9 +107,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 15.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dragoneye/refs/heads/main/screenshots/dragoneye-2026-06-20T180216.png
 security:
@@ -120,9 +120,9 @@ security:
 slug: dragoneye
 tags:
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Image Recognition
 - Video Recognition
-- Machine Learning
+- Machine-Learning
 website: https://dragoneye.ai
 ---

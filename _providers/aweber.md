@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -358,7 +358,7 @@ scopes:
 score:
   band: exemplar
   composite: 73.3
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -368,7 +368,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 70.1
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -385,8 +385,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/screenshots/aweber-2026-06-20T172736.png
 security:
@@ -417,8 +417,8 @@ tags:
 - Landing Pages
 - Web Forms
 - Segments
-- Webhooks
-- OAuth 2.0
+- Webhook
+- Authentication
 - Small Business
 website: https://www.aweber.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Chainguard API v2 is the current REST API for the Chainguard platform. Endpoints cover Identity and Access Management (IAM), image registry operations, and vulnerability data under /iam/v2beta1/, /reg
@@ -175,7 +175,7 @@ modified: '2026-05-19'
 name: Chainguard
 nav: Providers
 network: true
-overview: 'Chainguard publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Container Images, Containers, DevSecOps, and Kubernetes.
+overview: 'Chainguard publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Container Images, Containers, DevSecOps, and Kubernetes.
 
 
   Chainguard''s developer surface includes documentation, academy / training, engineering blog, GitHub presence, pricing, signup flow, developer console, and 13 more developer resources.'
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.8
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -201,10 +201,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 30.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 21.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/screenshots/chainguard-2026-06-20T174155.png
 security:
 - kind: domain-security
@@ -213,7 +213,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: chainguard
 tags:
-- Cloud Native
+- Cloud-Native
 - Container Images
 - Containers
 - DevSecOps

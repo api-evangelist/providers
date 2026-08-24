@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Pixie''s gRPC API for programmatically running PxL scripts against live Kubernetes clusters and managing Pixie Cloud resources. Two services: Pixie Cloud (cluster discovery, API/deploy keys, artifacts,'
@@ -121,7 +121,7 @@ modified: '2026-07-20'
 name: Pixie Labs
 nav: Providers
 network: true
-overview: 'Pixie Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Observability, Kubernetes, and eBPF.
+overview: 'Pixie Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Observability, Kubernetes, and eBPF.
 
 
   Pixie Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 12 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 19
 score:
   band: thin
   composite: 32.2
-  delta: 8.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -139,13 +139,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 24.1
+  previous_composite: 32.2
   provenance:
     conformance: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Pixie Labs Authentication
@@ -158,13 +158,13 @@ security:
 slug: pixie-labs
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Observability
 - Kubernetes
 - eBPF
 - Monitoring
 - Tracing
-- Open Source
+- Open-Source
 - CNCF
 - gRPC
 - Developer Tools

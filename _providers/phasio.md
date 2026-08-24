@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 92
 apis:
 - description: Internal API for activity operations including conversation creation
@@ -715,9 +715,9 @@ description: Phasio is an operating platform for manufacturing service providers
 image: https://phas.io/icon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: phasio-mcp.yml
-  slug: phasio-mcpyml
+- description: Candidate MCP tool surface derived from the Phasio Manufacturer API OpenAPI. No official hosted/remote Phasio MCP server was found (docs, npm, MCP registries). This is a curated candidate set over the
+  name: Phasio MCP Server
+  slug: phasio-mcp-server
 modified: '2026-07-20'
 name: Phasio
 nav: Providers
@@ -731,19 +731,19 @@ overview: 'Phasio publishes 92 APIs on the [APIs.io](https://apis.io/) network, 
   Phasio''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 22 more developer resources.'
 random_paper: 14
 score:
-  band: strong
-  composite: 54.3
-  delta: 1.4
+  band: developing
+  composite: 52.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 66.0
     developer_ergonomics: 58.9
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 52.9
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     contracts:
@@ -753,8 +753,8 @@ score:
       total: 92
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/screenshots/phasio-2026-08-17T081204.png
 security:
@@ -780,6 +780,5 @@ tags:
 - Quoting
 - Production Operations
 - Manufacturing Execution
-- API
 website: https://phas.io
 ---

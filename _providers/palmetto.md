@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Submit customers, designs and pricing into Palmetto's transparent, auditable clean-energy fulfillment pipeline.
@@ -178,8 +178,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/palmetto.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: palmetto-mcp.yml
-  slug: palmetto-mcpyml
+  name: Palmetto MCP Server
+  slug: palmetto-mcp-server
 modified: '2026-07-20'
 name: Palmetto
 nav: Providers
@@ -195,7 +195,7 @@ random_paper: 9
 score:
   band: developing
   composite: 52.5
-  delta: 4.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 52.5
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +221,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/screenshots/palmetto-2026-08-07T191322.png
 security:

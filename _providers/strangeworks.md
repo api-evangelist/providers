@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The GraphQL API the Strangeworks Python SDK is built on. Exposes the workspace a user's API key belongs to, the compute backends available to it, and mutations for uploading workspace files, initiatin
@@ -147,8 +147,8 @@ image: https://strangeworks.com/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: strangeworks-mcp.yml
-  slug: strangeworks-mcpyml
+  name: Strangeworks MCP Server
+  slug: strangeworks-mcp-server
 modified: '2026-08-05'
 name: Strangeworks
 nav: Providers
@@ -164,7 +164,7 @@ random_paper: 20
 score:
   band: developing
   composite: 43.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -174,13 +174,13 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 44.4
+  previous_composite: 43.3
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/screenshots/strangeworks-2026-08-17T082131.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -408,7 +408,7 @@ modified: '2026-06-13'
 name: UK Open Banking
 nav: Providers
 network: true
-overview: 'UK Open Banking publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 36 more. Tagged areas include Open Banking, Financial Services, Payments, Account Information, and PSD2.
+overview: 'UK Open Banking publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 36 more. Tagged areas include Open Banking, Financial-Services, Payments, Account Information, and PSD2.
 
 
   The UK Open Banking catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -441,19 +441,19 @@ scopes:
   slug: open-banking-uk-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 40.5
-  delta: -7.1
+  band: thin
+  composite: 38.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 58.0
     developer_ergonomics: 21.4
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 47.6
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -467,9 +467,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/screenshots/open-banking-uk-2026-06-20T190729.png
 security:
 - kind: authentication
@@ -483,7 +483,7 @@ security:
 slug: open-banking-uk
 tags:
 - Open Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Account Information
 - PSD2

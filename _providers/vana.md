@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The protocol's read/write boundary — a caching and relay layer between protocol participants and the Vana L1 covering the onchain primitives (identity, permissions, fees, PGE, schemas, files, DLP cont
@@ -166,8 +166,8 @@ image: https://vana.org/assets/logos/vana-asterisk-data-signal.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: vana-mcp.yml
-  slug: vana-mcpyml
+  name: Vana MCP Server
+  slug: vana-mcp-server
 modified: '2026-07-21'
 name: Vana
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 2
 score:
   band: thin
   composite: 35.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -190,13 +190,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 35.4
+  previous_composite: 35.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -551,18 +551,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 31.6
-  delta: -5.4
+  composite: 32.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 59.0
     developer_ergonomics: 21.4
     discoverability: 53.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 37.0
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -570,9 +570,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/screenshots/azure-logic-apps-2026-06-20T172902.png
 security:
 - kind: authentication

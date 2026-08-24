@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -297,8 +297,8 @@ image: https://docs.li.fi/logo/dark.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lifi-mcp.yml
-  slug: lifi-mcpyml
+  name: LI.FI MCP Server
+  slug: lifi-mcp-server
 modified: '2026-07-19'
 name: LI.FI
 nav: Providers
@@ -315,7 +315,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.5
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -325,7 +325,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 76.3
-  previous_composite: 57.5
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,8 +342,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/screenshots/lifi-2026-07-25T225052.png
 security:

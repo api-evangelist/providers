@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -277,7 +277,7 @@ modified: '2026-05-19'
 name: Veryfi
 nav: Providers
 network: true
-overview: 'Veryfi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Any Documents API, Bank Statements API, Checks API, and 4 more. Tagged areas include AI, Document Processing, Finance, Invoices, and OCR.
+overview: 'Veryfi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Any Documents API, Bank Statements API, Checks API, and 4 more. Tagged areas include Artificial Intelligence, Document Processing, Finance, Invoices, and OCR.
 
 
   The Veryfi catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -317,18 +317,18 @@ rules:
   slug: veryfi-ocr-rules
 score:
   band: developing
-  composite: 47.5
-  delta: -8.8
+  composite: 47.9
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 68.3
     developer_ergonomics: 45.2
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 56.3
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -336,9 +336,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
 security:
 - kind: authentication
@@ -363,7 +363,7 @@ skills:
   slug: veryfi-documents-ai
 slug: veryfi
 tags:
-- AI
+- Artificial Intelligence
 - Document Processing
 - Finance
 - Invoices

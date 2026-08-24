@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -119,7 +119,7 @@ modified: '2026-07-12'
 name: Wakeo
 nav: Providers
 network: true
-overview: 'Wakeo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Shipments API, Tracking API, and Webhooks API. Tagged areas include Supply Chain, Transportation Visibility, Real-Time Visibility, Multimodal, and Logistics.
+overview: 'Wakeo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Shipments API, Tracking API, and Webhooks API. Tagged areas include Supply Chain, Transportation Visibility, Real-Time Visibility, Multi-Modal, and Logistics.
 
 
   Wakeo''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.4
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -145,7 +145,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.8
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -170,12 +170,12 @@ tags:
 - Supply Chain
 - Transportation Visibility
 - Real-Time Visibility
-- Multimodal
+- Multi-Modal
 - Logistics
 - Shipment Tracking
 - ETA
 - Freight
 - Supply Chain Visibility
-- SaaS
+- Software-as-a-Service
 website: https://wakeo.co
 ---

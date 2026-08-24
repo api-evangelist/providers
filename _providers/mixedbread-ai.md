@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 1
@@ -365,7 +365,7 @@ modified: '2026-05-25'
 name: Mixedbread
 nav: Providers
 network: true
-overview: 'Mixedbread publishes 14 APIs on the [APIs.io](https://apis.io/) network, including admin API, api_keys API, billing API, and 11 more. Tagged areas include AI, Artificial Intelligence, Embeddings, Reranking, and Search.
+overview: 'Mixedbread publishes 14 APIs on the [APIs.io](https://apis.io/) network, including admin API, api_keys API, billing API, and 11 more. Tagged areas include Artificial Intelligence, Embeddings, Reranking, Search, and Retrieval.
 
 
   The Mixedbread catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -405,18 +405,18 @@ rules:
   slug: mixedbread-ai-rules
 score:
   band: strong
-  composite: 55.6
-  delta: -4.7
+  composite: 56.0
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 67.2
     developer_ergonomics: 66.7
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 60.3
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -424,8 +424,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/screenshots/mixedbread-ai-2026-08-17T124213.png
 security:
@@ -439,7 +439,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: mixedbread-ai
 tags:
-- AI
 - Artificial Intelligence
 - Embeddings
 - Reranking
@@ -447,7 +446,7 @@ tags:
 - Retrieval
 - RAG
 - Vector Database
-- Multimodal
+- Multi-Modal
 - Parsing
 - Open Weights
 website: https://www.mixedbread.com/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ modified: '2026-05-19'
 name: Google Play Console Developer Reporting
 nav: Providers
 network: true
-overview: 'Google Play Console Developer Reporting publishes 1 API on the [APIs.io](https://apis.io/) network: V1alpha1 API. Tagged areas include Analytics, Android, Apps, Google Play Console, and Quality.
+overview: 'Google Play Console Developer Reporting publishes 1 API on the [APIs.io](https://apis.io/) network: V1alpha1 API. Tagged areas include Analytics, Android, Application, Google Play Console, and Quality.
 
 
   The Google Play Console Developer Reporting catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -169,7 +169,7 @@ scopes:
 score:
   band: thin
   composite: 38.3
-  delta: -13.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -179,7 +179,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 52.0
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -187,9 +187,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/screenshots/google-play-console-2026-06-20T182226.png
 security:
 - kind: authentication
@@ -208,7 +208,7 @@ slug: google-play-console
 tags:
 - Analytics
 - Android
-- Apps
+- Application
 - Google Play Console
 - Quality
 - Reporting

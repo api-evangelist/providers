@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -235,7 +235,7 @@ modified: '2026-05-19'
 name: Polytomic
 nav: Providers
 network: true
-overview: 'Polytomic publishes 21 APIs on the [APIs.io](https://apis.io/) network, including subpackage_bulkSync API, subpackage_bulkSync.subpackage_bulkSync/executions API, subpackage_bulkSync.subpackage_bulkSync/schedules API, and 18 more. Tagged areas include Data Integration, Reverse ETL, Unified API, ELT, and Data Sync.
+overview: 'Polytomic publishes 21 APIs on the [APIs.io](https://apis.io/) network, including subpackage_bulkSync API, subpackage_bulkSync.subpackage_bulkSync/executions API, subpackage_bulkSync.subpackage_bulkSync/schedules API, and 18 more. Tagged areas include Data Integration, Reverse ETL, Unified-API, ELT, and Data Sync.
 
 
   Polytomic''s developer surface includes authentication, documentation, API reference, GitHub presence, engineering blog, and 7 more developer resources.'
@@ -251,7 +251,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -261,7 +261,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 34.6
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -269,8 +269,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/screenshots/polytomic-2026-06-20T191910.png
 security:
@@ -294,7 +294,7 @@ slug: polytomic
 tags:
 - Data Integration
 - Reverse ETL
-- Unified API
+- Unified-API
 - ELT
 - Data Sync
 website: https://www.polytomic.com/

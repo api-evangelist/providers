@@ -29,12 +29,12 @@ tags:
 - Series B
 - Early Stage
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 - Fintech
 - Digital Health
 - Developer Tools
 - Infrastructure
-- AI
+- Artificial Intelligence
 - Silicon Valley
 - United States
 ---

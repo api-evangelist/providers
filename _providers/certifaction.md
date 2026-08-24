@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -223,8 +223,8 @@ image: https://developers.certifaction.com/themes/certifaction/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: certifaction-mcp.yml
-  slug: certifaction-mcpyml
+  name: Certifaction MCP Server
+  slug: certifaction-mcp-server
 modified: '2026-07-18'
 name: Certifaction
 nav: Providers
@@ -240,7 +240,7 @@ random_paper: 15
 score:
   band: developing
   composite: 54.0
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -250,7 +250,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 54.5
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,8 +261,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/screenshots/certifaction-2026-07-25T205000.png
 security:

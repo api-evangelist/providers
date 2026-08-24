@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Anonymous, unaccredited Consumer Data Right energy Product Reference Data endpoint operated by the AER. Returns a paged summary of all current, generally available retail energy plans for one retailer
@@ -215,8 +215,8 @@ image: https://www.aer.gov.au/sites/default/files/2023-08/logo-2x.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: aer-mcp.yml
-  slug: aer-mcpyml
+  name: Australian Energy Regulator MCP Server
+  slug: australian-energy-regulator-mcp-server
 modified: '2026-07-27'
 name: Australian Energy Regulator
 nav: Providers
@@ -233,7 +233,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.8
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -243,7 +243,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 50.3
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     contracts:
@@ -259,8 +259,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/screenshots/aer-2026-08-17T121411.png
 security:
@@ -286,7 +286,7 @@ tags:
 - Energy Markets
 - Consumer Data Right
 - Retail Energy
-- Regulation
+- Regulations
 - Government
 - Open Data
 - Smart Metering

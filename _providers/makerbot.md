@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Bearer-token / OAuth 2.0 authenticated JSON REST API for browsing and managing Thingiverse things (3D models), their files and images, users, collections, categories, tags, and search. Operated by Mak
@@ -123,8 +123,8 @@ image: https://www.makerbot.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: makerbot-mcp.yml
-  slug: makerbot-mcpyml
+  name: Makerbot MCP Server
+  slug: makerbot-mcp-server
 modified: '2026-07-20'
 name: Makerbot
 nav: Providers
@@ -137,7 +137,7 @@ random_paper: 13
 score:
   band: thin
   composite: 27.0
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -147,12 +147,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 28.2
+  previous_composite: 27.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/screenshots/makerbot-2026-07-25T225942.png
 security:

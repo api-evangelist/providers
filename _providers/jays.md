@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,8 +74,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jays.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: jays-mcp.yml
-  slug: jays-mcpyml
+  name: Jays MCP Server
+  slug: jays-mcp-server
 modified: '2026-07-20'
 name: Jays
 nav: Providers
@@ -87,22 +87,22 @@ overview: 'Jays is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 19
 score:
   band: emerging
-  composite: 11.4
-  delta: -1.6
+  composite: 12.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.0
+  previous_composite: 12.5
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jays/refs/heads/main/screenshots/jays-2026-08-07T170955.png
 security:
@@ -117,7 +117,7 @@ tags:
 - Audio
 - Headphones
 - Consumer Electronics
-- Ecommerce
+- E-Commerce
 - Agent Commerce
 website: https://jaysheadphones.com
 ---

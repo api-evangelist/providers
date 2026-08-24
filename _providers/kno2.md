@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -235,8 +235,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kno2.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kno2-mcp.yml
-  slug: kno2-mcpyml
+  name: Kno2 MCP Server
+  slug: kno2-mcp-server
 modified: '2026-08-14'
 name: Kno2
 nav: Providers
@@ -257,7 +257,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.8
-  delta: -10.3
+  delta: 0.0
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
@@ -267,7 +267,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 53.1
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,9 +284,9 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/screenshots/kno2-2026-07-25T224009.png
 security:
 - kind: authentication

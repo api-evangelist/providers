@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Access work instruction guidebooks and step-level content
@@ -159,27 +159,27 @@ rules:
   slug: vks-integrations-rules
 score:
   band: thin
-  composite: 33.9
-  delta: -6.6
+  composite: 34.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 66.4
     developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 40.5
+  previous_composite: 34.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/screenshots/vks-integrations-2026-06-20T201113.png
 security:
 - kind: domain-security

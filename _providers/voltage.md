@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for sending and receiving Bitcoin/Lightning payments. Manage wallets, create send/receive payments (BOLT11, on-chain, BIP21), lock BTC/USD exchange rates with quotes, view lines of credit, an
@@ -197,9 +197,9 @@ description: Voltage is Bitcoin and Lightning Network money infrastructure that 
 image: https://github.com/voltagecloud.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: voltage-mcp.yml
-  slug: voltage-mcpyml
+- description: Candidate MCP tool surface derived from the documented Voltage Payments REST operations. No official Voltage-hosted/remote MCP server was found as of this pass; this is a suggested mapping (one tool p
+  name: Voltage MCP Server
+  slug: voltage-mcp-server
 modified: '2026-07-21'
 name: Voltage
 nav: Providers
@@ -215,7 +215,7 @@ random_paper: 19
 score:
   band: strong
   composite: 57.1
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -225,7 +225,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 56.0
+  previous_composite: 57.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -236,8 +236,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/screenshots/voltage-2026-08-17T082821.png
 security:
@@ -261,7 +261,7 @@ tags:
 - Lightning Network
 - Payments
 - Cryptocurrency
-- Financial Services
+- Financial-Services
 - Wallets
 - Infrastructure
 - Fintech

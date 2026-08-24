@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'A remote Model Context Protocol server operated by DeepIP at https://app.deepip.ai/mcp, letting an MCP-capable agent act inside a DeepIP tenant on behalf of a signed-in user. It is protected by OAuth '
@@ -137,8 +137,8 @@ image: https://cdn.prod.website-files.com/655793df06a490569c80c9da/656dfeb747427
 layout: provider
 mcp_servers:
 - description: ''
-  name: deepip-mcp.yml
-  slug: deepip-mcpyml
+  name: DeepIP MCP Server
+  slug: deepip-mcp-server
 modified: '2026-08-17'
 name: DeepIP
 nav: Providers
@@ -164,7 +164,7 @@ scopes:
 score:
   band: thin
   composite: 27.1
-  delta: 11.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -174,13 +174,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 16.1
+  previous_composite: 27.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepip/refs/heads/main/screenshots/deepip-2026-07-25T211555.png
 security:
 - kind: authentication

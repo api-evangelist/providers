@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Advance workflow instances that are paused on an intermediate event.
@@ -164,14 +164,14 @@ description: Liberate Innovations, Inc. (trading as Liberate) is a Palo Alto, Ca
 image: https://cdn.prod.website-files.com/69d93976ca90059d5696cd0b/69d93976ca90059d5696cef7_Webclip.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: liberate-innovations-mcp.yml
-  slug: liberate-innovations-mcpyml
+- description: Liberate publishes no official hosted or remote Model Context Protocol server. No MCP endpoint, npm/PyPI MCP package, registry listing, or mcp.json manifest was found on any Liberate host or in the pu
+  name: Liberate Orchestration Platform MCP candidate
+  slug: liberate-orchestration-platform-mcp-candidate
 modified: '2026-07-19'
 name: Liberate Innovations
 nav: Providers
 network: true
-overview: 'Liberate Innovations publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Workflows API. Tagged areas include Company, Insurance, InsurTech, Artificial Intelligence, and Voice AI.
+overview: 'Liberate Innovations publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Workflows API. Tagged areas include Company, Insurance, Insurtech, Artificial Intelligence, and Voice AI.
 
 
   Liberate Innovations'' developer surface includes documentation, API reference, getting-started guide, engineering blog, product news, signup flow, support, and 20 more developer resources.'
@@ -179,7 +179,7 @@ random_paper: 14
 score:
   band: thin
   composite: 30.5
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -189,7 +189,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 33.3
+  previous_composite: 30.5
   provenance:
     conformance: derived
     contracts:
@@ -205,8 +205,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/screenshots/liberate-innovations-2026-07-25T225018.png
 security:
@@ -226,7 +226,7 @@ slug: liberate-innovations
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Artificial Intelligence
 - Voice AI
 - Conversational AI

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 0
@@ -1068,13 +1068,13 @@ image: https://cdn.prod.website-files.com/5ce68aba5375cabb8f952335/5d8a243dcd466
 layout: provider
 mcp_servers:
 - description: ''
-  name: smart-pension-mcp.yml
-  slug: smart-pension-mcpyml
+  name: Smart Pension MCP Server
+  slug: smart-pension-mcp-server
 modified: '2026-08-05'
 name: Smart Pension
 nav: Providers
 network: true
-overview: 'Smart Pension publishes 149 APIs on the [APIs.io](https://apis.io/) network, including Account Claiming API, Accounts API, Account Subaccounts Switch Plans API, and 146 more. Tagged areas include pensions, retirement, workplace-pension, auto-enrolment, and payroll.
+overview: 'Smart Pension publishes 149 APIs on the [APIs.io](https://apis.io/) network, including Account Claiming API, Accounts API, Account Subaccounts Switch Plans API, and 146 more. Tagged areas include Pensions, Retirement, workplace-pension, auto-enrolment, and Payroll.
 
 
   Smart Pension''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -1091,7 +1091,7 @@ scopes:
 score:
   band: strong
   composite: 58.0
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -1101,7 +1101,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 57.3
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1112,8 +1112,8 @@ score:
       total: 149
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/screenshots/smart-pension-2026-08-17T081929.png
 security:
@@ -1135,17 +1135,17 @@ security:
   summary_line: ISO 27001:2022, SOC 2 Type 2
 slug: smart-pension
 tags:
-- pensions
-- retirement
+- Pensions
+- Retirement
 - workplace-pension
 - auto-enrolment
-- payroll
-- fintech
-- financial-services
-- united-kingdom
+- Payroll
+- Fintech
+- Financial-Services
+- United Kingdom
 - master-trust
-- employee-benefits
-- contributions
+- Employee Benefits
+- Contributions
 - papdis
 website: https://www.smartpension.co.uk/
 ---

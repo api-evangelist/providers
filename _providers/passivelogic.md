@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 6
@@ -263,7 +263,7 @@ modified: '2026-08-04'
 name: PassiveLogic
 nav: Providers
 network: true
-overview: 'PassiveLogic publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account API, App API, and 15 more. Tagged areas include Company, digital-twin, building-automation, hvac, and smart-buildings.
+overview: 'PassiveLogic publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account API, App API, and 15 more. Tagged areas include Company, Digital Twin, Building Automation, HVAC, and Smart Buildings.
 
 
   The PassiveLogic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -279,7 +279,7 @@ scopes:
 score:
   band: developing
   composite: 42.4
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -289,7 +289,7 @@ score:
     discoverability: 92.6
     governance: 20.5
     operational_transparency: 18.4
-  previous_composite: 46.6
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,8 +305,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/screenshots/passivelogic-2026-08-07T191536.png
 security:
@@ -321,16 +321,16 @@ security:
 slug: passivelogic
 tags:
 - Company
-- digital-twin
-- building-automation
-- hvac
-- smart-buildings
-- autonomous-systems
-- graphql
-- ontology
-- iot
-- edge-computing
-- physical-ai
-- energy
+- Digital Twin
+- Building Automation
+- HVAC
+- Smart Buildings
+- Autonomous Systems
+- GraphQL
+- Ontology
+- IoT
+- Edge Computing
+- Physical AI
+- Energy
 website: https://passivelogic.com/
 ---

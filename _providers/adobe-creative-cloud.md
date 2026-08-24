@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -640,7 +640,7 @@ modified: '2026-05-19'
 name: Adobe Creative Cloud
 nav: Providers
 network: true
-overview: 'Adobe Creative Cloud publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Adobe I/O Events, Assets API, Elements API, and 9 more. Tagged areas include AI/ML, Cloud, Creative, Design, and Documents.
+overview: 'Adobe Creative Cloud publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Adobe I/O Events, Assets API, Elements API, and 9 more. Tagged areas include Ai Ml, Cloud, Creative, Design, and Documents.
 
 
   The Adobe Creative Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -678,31 +678,31 @@ rules:
     info: 2
     warn: 4
   slug: adobe-creative-cloud-jsonschema-spectral-rules
-- effective_rule_count: 65
+- effective_rule_count: 64
   extends:
   - spectral:oas
   name: Adobe Creative Cloud API Rules
-  rule_count: 24
+  rule_count: 23
   severity_counts:
-    error: 14
+    error: 13
     hint: 0
     info: 3
     warn: 7
   slug: adobe-creative-cloud-spectral-rules
 score:
   band: developing
-  composite: 50.8
-  delta: -3.9
+  composite: 50.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 75.3
     developer_ergonomics: 42.9
-    discoverability: 74.1
-    governance: 11.4
+    discoverability: 64.8
+    governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 54.7
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     contracts:
@@ -710,8 +710,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
 security:
@@ -738,13 +738,13 @@ solutions:
 - description: Full-stack application framework for building custom enterprise extensions on Adobe infrastructure.
   name: Adobe App Builder
 tags:
-- AI/ML
+- Ai Ml
 - Cloud
 - Creative
 - Design
 - Documents
 - Photography
-- SaaS
+- Software-as-a-Service
 - Video
 use_cases:
 - description: Automate image generation, editing, and processing workflows using Firefly and Photoshop APIs.

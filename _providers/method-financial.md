@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -473,13 +473,13 @@ image: https://framerusercontent.com/images/8VlzHm7NUhxHyDz7Bej54eBKKAc.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: method-financial-mcp.yml
-  slug: method-financial-mcpyml
+  name: Method Financial MCP Server
+  slug: method-financial-mcp-server
 modified: '2026-08-04'
 name: Method Financial
 nav: Providers
 network: true
-overview: 'Method Financial publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account Attributes API, Account Balances API, Account Card Brands API, and 39 more. Tagged areas include Company, Financial Services, Fintech, Lending, and Payments.
+overview: 'Method Financial publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account Attributes API, Account Balances API, Account Card Brands API, and 39 more. Tagged areas include Company, Financial-Services, Fintech, Lending, and Payments.
 
 
   The Method Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -494,7 +494,7 @@ rate_limits:
 score:
   band: strong
   composite: 66.1
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -504,7 +504,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 62.9
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -521,8 +521,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/screenshots/method-financial-2026-08-07T172703.png
 security:
@@ -545,7 +545,7 @@ security:
 slug: method-financial
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Payments

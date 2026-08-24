@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -247,8 +247,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaiko.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kaiko-mcp.yml
-  slug: kaiko-mcpyml
+  name: Kaiko MCP Server
+  slug: kaiko-mcp-server
 modified: '2026-07-22'
 name: Kaiko
 nav: Providers
@@ -269,7 +269,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.9
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -279,7 +279,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 56.2
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,8 +296,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/screenshots/kaiko-2026-06-20T183855.png
 security:
@@ -321,7 +321,7 @@ tags:
 - Institutional
 - FX
 - Indices
-- On-Chain
+- Onchain
 - Streaming
 website: https://www.kaiko.com/
 ---

@@ -28,7 +28,7 @@ tags:
 - Chat
 - Conversational AI
 - Conversations
-- Customer Support
+- Customer-Support
 - Messaging
-- Real-time
+- Real-Time
 ---

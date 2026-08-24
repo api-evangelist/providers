@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -190,13 +190,13 @@ image: https://gptzero.me/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: gptzero-mcp.yml
-  slug: gptzero-mcpyml
+  name: GPTZero MCP Server
+  slug: gptzero-mcp-server
 modified: '2026-07-19'
 name: GPTZero
 nav: Providers
 network: true
-overview: 'GPTZero publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch API, Detection API, and Documents API. Tagged areas include Company, Ai, AI Detection, Content Moderation, and Machine Learning.
+overview: 'GPTZero publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch API, Detection API, and Documents API. Tagged areas include Company, Artificial Intelligence, AI Detection, Content Moderation, and Machine-Learning.
 
 
   GPTZero''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -212,7 +212,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.9
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 56.6
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +239,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/screenshots/gptzero-2026-07-25T220147.png
 security:
@@ -255,10 +255,10 @@ security:
 slug: gptzero
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Detection
 - Content Moderation
-- Machine Learning
+- Machine-Learning
 - Text Analysis
 - Natural Language Processing
 - Education

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: The Analysis API from Emerge Tools — 1 operation(s) for analysis.
@@ -220,8 +220,8 @@ image: https://emergeassets.s3.us-west-1.amazonaws.com/seo/default-seo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: emerge-tools-mcp.yml
-  slug: emerge-tools-mcpyml
+  name: Emerge Tools MCP Server
+  slug: emerge-tools-mcp-server
 modified: '2026-07-19'
 name: Emerge Tools
 nav: Providers
@@ -234,7 +234,7 @@ random_paper: 17
 score:
   band: developing
   composite: 47.7
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 52.1
+  previous_composite: 47.7
   provenance:
     conformance: first-party
     contracts:
@@ -254,8 +254,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/screenshots/emerge-tools-2026-07-25T213232.png
 security:

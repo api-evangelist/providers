@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Get Covered platform API — the integration surface that syncs resident, lease, policy, vendor certificate and invoice data two-way with property management systems (Yardi, Entrata, RealPage OneSit
@@ -128,7 +128,7 @@ modified: '2026-08-04'
 name: Get Covered
 nav: Providers
 network: true
-overview: 'Get Covered publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Renters Insurance, and Property Management.
+overview: 'Get Covered publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Renters Insurance, and Property Management.
 
 
   Get Covered''s developer surface includes developer portal, documentation, engineering blog, support, and 19 more developer resources.'
@@ -136,7 +136,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 24.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -146,7 +146,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 24.7
+  previous_composite: 24.9
   provenance:
     conformance: first-party
   regulatory:
@@ -155,8 +155,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/get-covered/refs/heads/main/screenshots/get-covered-2026-08-07T165653.png
 security:
@@ -176,10 +176,10 @@ slug: get-covered
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Renters Insurance
 - Property Management
-- Real Estate
+- Real-Estate
 - Compliance
 - Risk Management
 - Embedded Insurance

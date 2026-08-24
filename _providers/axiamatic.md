@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,7 +81,7 @@ modified: '2026-07-18'
 name: Axiamatic
 nav: Providers
 network: true
-overview: 'Axiamatic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Artificial Intelligence, Enterprise Software, and Digital Transformation.
+overview: 'Axiamatic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application, Artificial Intelligence, Enterprise Software, and Digital Transformation.
 
 
   Axiamatic''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
@@ -89,7 +89,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 12.8
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -99,9 +99,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiamatic/refs/heads/main/screenshots/axiamatic-2026-07-25T202038.png
 security:
@@ -116,7 +116,7 @@ security:
 slug: axiamatic
 tags:
 - Company
-- Applications
+- Application
 - Artificial Intelligence
 - Enterprise Software
 - Digital Transformation

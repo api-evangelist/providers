@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -359,7 +359,7 @@ modified: '2026-05-19'
 name: Apache OpenNLP
 nav: Providers
 network: true
-overview: 'Apache OpenNLP publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Chunking API, Document Categorization API, Language Detection API, and 7 more. Tagged areas include Machine Learning, Natural Language Processing, NLP, Text Processing, and Apache.
+overview: 'Apache OpenNLP publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Chunking API, Document Categorization API, Language Detection API, and 7 more. Tagged areas include Machine-Learning, Natural Language Processing, NLP, Text Processing, and Apache.
 
 
   The Apache OpenNLP catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -399,18 +399,18 @@ rules:
   slug: apache-opennlp-spectral-rules
 score:
   band: emerging
-  composite: 23.6
-  delta: -5.5
+  composite: 24.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 19.3
     developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 29.1
+  previous_composite: 24.0
   provenance:
     agentic_access: derived
     contracts:
@@ -418,9 +418,9 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/screenshots/apache-opennlp-2026-06-20T172128.png
 security:
 - kind: domain-security
@@ -433,12 +433,12 @@ security:
   summary_line: security.txt · contact published
 slug: apache-opennlp
 tags:
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - NLP
 - Text Processing
 - Apache
-- Open Source
+- Open-Source
 - Java
 use_cases:
 - description: Extract structured data from unstructured text documents

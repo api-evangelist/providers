@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ modified: '2026-05-30'
 name: Mediastack
 nav: Providers
 network: true
-overview: 'Mediastack publishes 2 APIs on the [APIs.io](https://apis.io/) network: News API and Sources API. Tagged areas include News, News Aggregation, Media, Apilayer, and Public APIs.
+overview: 'Mediastack publishes 2 APIs on the [APIs.io](https://apis.io/) network: News API and Sources API. Tagged areas include News, News Aggregation, Media, APILayer, and Public APIs.
 
 
   The Mediastack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -266,18 +266,18 @@ rules:
   slug: mediastack-rules
 score:
   band: strong
-  composite: 55.0
-  delta: -5.9
+  composite: 55.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.2
     developer_ergonomics: 31.0
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 60.9
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -285,9 +285,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/screenshots/mediastack-2026-08-17T124139.png
 security:
 - kind: authentication
@@ -314,7 +314,7 @@ tags:
 - News
 - News Aggregation
 - Media
-- Apilayer
+- APILayer
 - Public APIs
 use_cases:
 - description: Power consumer-facing news readers with category- and language-filtered feeds.

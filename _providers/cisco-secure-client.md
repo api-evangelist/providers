@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -215,8 +215,8 @@ rules:
   slug: cisco-secure-client-rules
 score:
   band: thin
-  composite: 30.5
-  delta: -14.6
+  composite: 28.4
+  delta: -2.1
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -225,8 +225,8 @@ score:
     developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 45.5
-    operational_transparency: 23.7
-  previous_composite: 45.1
+    operational_transparency: 7.9
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -234,9 +234,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/screenshots/cisco-secure-client-2026-06-20T174400.png
 security:
 - kind: authentication

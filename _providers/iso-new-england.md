@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -282,8 +282,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: iso-new-england-mcp.yml
-  slug: iso-new-england-mcpyml
+  name: ISO New England MCP Server
+  slug: iso-new-england-mcp-server
 modified: '2026-07-27'
 name: ISO New England
 nav: Providers
@@ -296,7 +296,7 @@ random_paper: 10
 score:
   band: strong
   composite: 55.9
-  delta: 7.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -306,7 +306,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 23.7
-  previous_composite: 48.6
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,9 +323,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/screenshots/iso-new-england-2026-08-07T170922.png
 security:
 - kind: authentication

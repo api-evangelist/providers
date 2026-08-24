@@ -1,15 +1,16 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Affiliation-gated · No public self-serve access
+  onboarding: unknown
   pricing: free
   public: false
   source:
-  - plans
-  - authentication
+  - https://developer.hku.hk/
+  - https://api.hku.hk/
+  - authentication/hku-authentication.yml
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -19,18 +20,18 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: documented
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-19'
+  score: 34.0
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -38,45 +39,30 @@ agentic_access:
   operation_count: 157
   slug: hku-agentic-access
   summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 12
+api_count: 7
 apis:
-- description: HKU Information Technology Services API developer portal, powered by Azure API Management. Developers can discover APIs, read documentation, try them interactively, and sign up for keys. Access is gat
-  name: HKU ITS API Developer Portal
-  slug: developer-portal
-- description: 'HKU Scholars Hub is the University''s DSpace-based open-access institutional repository and current research information system (CRIS), collecting and disseminating HKU research outputs. It exposes an '
+- description: The University of Hong Kong's own Shibboleth SAML 2.0 identity provider, entityID https://hkafidp.hku.hk/idp/shibboleth, scope hku.hk. It self-publishes signed metadata (HTTP 200, application/xml, 14,
+  name: HKU Shibboleth Identity Provider
+  slug: identity-federation
+- description: Institution-operated OpenID Connect issuer at https://adfs.hku.hk/adfs, serving a live discovery document, a JWKS with an RS256 signing key, a UserInfo endpoint that returns a correct 401 to invalid t
+  name: HKU AD FS OAuth 2.0 / OpenID Connect Issuer
+  slug: adfs-oidc
+- description: HKU Information Technology Services runs an Azure API Management gateway at api.hku.hk and a developer portal at developer.hku.hk. Since 17 March 2026 the portal has issued subscription keys to studen
+  name: HKU ITS API Developer Portal and Gateway
+  slug: its-api-portal
+- description: HKU Scholars Hub is the University's DSpace-based open-access institutional repository and current research information system, on HKU's own host. It is documented as exposing an OAI-PMH metadata inte
   name: HKU Scholars Hub OAI-PMH
   slug: scholars-hub-oai
-- description: The altmetric API from University of Hong Kong — 1 operation(s) for altmetric.
-  name: University of Hong Kong altmetric API
-  slug: hku-altmetric-api
-- description: The articles API from University of Hong Kong — 34 operation(s) for articles.
-  name: University of Hong Kong articles API
-  slug: hku-articles-api
-- description: The authors API from University of Hong Kong — 2 operation(s) for authors.
-  name: University of Hong Kong authors API
-  slug: hku-authors-api
-- description: The collections API from University of Hong Kong — 21 operation(s) for collections.
-  name: University of Hong Kong collections API
-  slug: hku-collections-api
-- description: The institutions API from University of Hong Kong — 20 operation(s) for institutions.
-  name: University of Hong Kong institutions API
-  slug: hku-institutions-api
-- description: The oauth API from University of Hong Kong — 1 operation(s) for oauth.
-  name: University of Hong Kong oauth API
-  slug: hku-oauth-api
-- description: The other API from University of Hong Kong — 7 operation(s) for other.
-  name: University of Hong Kong other API
-  slug: hku-other-api
-- description: The profiles API from University of Hong Kong — 2 operation(s) for profiles.
-  name: University of Hong Kong profiles API
-  slug: hku-profiles-api
-- description: The projects API from University of Hong Kong — 17 operation(s) for projects.
-  name: University of Hong Kong projects API
-  slug: hku-projects-api
-- description: The symplectic API from University of Hong Kong — 5 operation(s) for symplectic.
-  name: University of Hong Kong symplectic API
-  slug: hku-symplectic-api
-artifact_total: 42
+- description: HKU DataHub is the University's research-data repository, running as a Figshare tenancy — datahub.hku.hk is a CNAME to figshare.com and the same content is served at hku.figshare.com. The data, the co
+  name: HKU DataHub (Figshare tenancy)
+  slug: datahub-figshare
+- description: 'HKU Libraries'' discovery layer runs on Ex Libris Primo VE at julac-hku.primo.exlibrisgroup.com under the JULAC consortium view 852JULAC_HKU. The catalog records are HKU''s; the discovery and Alma APIs '
+  name: HKU Libraries Discovery (Ex Libris Primo tenancy)
+  slug: library-primo
+- description: HKU's Microsoft Entra ID tenant (42f9b54e-2477-41ba-bf09-7a0d2a83ff09) publishes a live OpenID Connect discovery document for the hku.hk domain. It is institution-specific and machine-readable, but it
+  name: HKU Microsoft Entra ID Tenant
+  slug: entra-tenant
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -112,22 +98,6 @@ collections:
   name: Figshare altmetric symplectic API
   slug: open-hku-symplectic-api
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/hku-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/hku-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/hku-authentication.yml
-- group: auth
-  title: ''
-  type: OAuthScopes
-  url: scopes/hku-scopes.yml
 - group: company
   title: ''
   type: Website
@@ -136,6 +106,50 @@ common:
   title: ''
   type: DeveloperPortal
   url: https://developer.hku.hk/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://hkafidp.hku.hk/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://hub.hku.hk/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://datahub.hku.hk/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://julac-hku.primo.exlibrisgroup.com/discovery/search?vid=852JULAC_HKU:HKU
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://hpc.hku.hk/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://aied.talic.hku.hk/aipolicy/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://genai.hku.hk/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.hku.hk/about/policies_reports/privacy_policy.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.hku.hk/contact/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hku.hk/press/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hku.hk/press/rss.xml
 - group: build
   title: ''
   type: GitHub
@@ -144,6 +158,58 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-hong-kong/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/hku-identity-openapi.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/hku-adfs-openid-configuration.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/hku-openid-configuration.schema.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/hku-identity-examples.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/hku-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/hku-scopes.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/hku-errors.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hku-conformance.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/hku-identity-attributes.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/hku-organization.jsonld
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/hku-identity-rules.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hku-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hku-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -160,150 +226,145 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.hku.hk/press
 coverage:
-  detail: 2 institution-operated surface(s) remain, none of which publishes a machine-readable contract.
-  reason: no_published_contract
-  state: none
+  detail: 'HKU operates real APIs and a real gateway, but the only route to their contracts is an institutional sign-in. developer.hku.hk returns 200 on every route and redirects all of them to /signin; api.hku.hk answers with the Azure API Management 404 envelope on every unauthenticated path. What is publicly readable is identity infrastructure — a Shibboleth SAML IdP and an AD FS OIDC issuer, both on HKU hosts, both machine-readable, both catalogued here. Two further surfaces are blocked rather than absent: hub.hku.hk (DSpace/OAI-PMH) sits behind a Cloudflare challenge, and datahub.hku.hk (Figshare tenancy) returns an empty 202 to machine clients. No fabrication was needed to fill the gap and none was performed.'
+  evidence:
+  - status: 200
+    url: https://hkafidp.hku.hk/idp/shibboleth
+  - status: 200
+    url: https://adfs.hku.hk/adfs/.well-known/openid-configuration
+  - status: 200
+    url: https://adfs.hku.hk/adfs/discovery/keys
+  - status: 200
+    url: https://adfs.hku.hk/FederationMetadata/2007-06/FederationMetadata.xml
+  - status: 401
+    url: https://adfs.hku.hk/adfs/userinfo
+  - note: redirects to /signin
+    status: 200
+    url: https://developer.hku.hk/apis
+  - status: 404
+    url: https://api.hku.hk/
+  - note: Cloudflare challenge
+    status: 403
+    url: https://hub.hku.hk/oai/request?verb=Identify
+  - note: empty body
+    status: 202
+    url: https://datahub.hku.hk/
+  - status: 404
+    url: https://www.hku.hk/robots.txt
+  - status: 404
+    url: https://www.hku.hk/llms.txt
+  - note: empty array — the official GitHub org has no public repositories
+    status: 200
+    url: https://api.github.com/orgs/hku-official/repos
+  reason: affiliation_gated_developer_portal
+  state: gated
 created: '2026-06-03'
-description: 'The University of Hong Kong (HKU) is a public research university in Hong Kong SAR, ranked #27 in the QS World University Rankings 2025. Its public developer and API footprint centers on an ITS API developer portal powered by Azure API Management (gated behind institutional sign-in), the Figshare-powered HKU DataHub research-data repository, and the DSpace-based HKU Scholars Hub institutional repository exposing an OAI-PMH metadata interface. Most administrative and identity interfaces are not openly self-service and require institutional affiliation.'
-examples:
-- key_count: 2
-  name: Hku Get Article Example
-  slug: hku-get-article-example
-- key_count: 2
-  name: Hku List Articles Example
-  slug: hku-list-articles-example
-- key_count: 2
-  name: Hku Search Articles Example
-  slug: hku-search-articles-example
+description: 'The University of Hong Kong (HKU) is a public research university in Hong Kong SAR, founded in 1911 and ranked in the top 30 of the QS World University Rankings. It operates no public, self-serve API programme. The machine-readable surfaces HKU genuinely runs on its own hosts are identity infrastructure: a Shibboleth SAML 2.0 identity provider at hkafidp.hku.hk, registered with the Hong Kong Access Federation in 2016 and exported to eduGAIN with REFEDS Research and Scholarship and SIRTFI declarations, and an AD FS OAuth 2.0 / OpenID Connect issuer at adfs.hku.hk publishing a live discovery document and JWKS. HKU ITS also runs an Azure API Management gateway (api.hku.hk) and developer portal (developer.hku.hk) that opened GenAI chat-completion, embedding and image-generation APIs to students in March 2026 — but every portal route redirects to institutional sign-in, so no specification, scope or endpoint list is publicly readable. Its research repository is a Figshare tenancy
+  and its library discovery is an Ex Libris Primo tenancy: real institutional facts, vendor-operated contracts, recorded here as tenant relationships rather than credited to HKU. HKU publishes no OpenAPI, no robots.txt on its main host, no llms.txt, no status page and no API changelog.'
 finops:
 - name: Hku Finops
   service_category: Education
   slug: hku-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hku.png
 json_schemas:
-- name: Figshare Article
-  property_count: 16
-  slug: hku-article
-- name: Figshare Author
-  property_count: 7
-  slug: hku-author
-- name: Figshare Project
-  property_count: 5
-  slug: hku-project
-- name: Figshare PublicFile
-  property_count: 8
-  slug: hku-publicfile
-json_structures:
-- name: Hku Article Structure
-  property_count: 16
-  slug: hku-article-structure
-- name: Hku Author Structure
-  property_count: 7
-  slug: hku-author-structure
+- name: HKU AD FS OpenID Provider Metadata
+  property_count: 26
+  slug: hku-openid-configuration.schema
 jsonld:
-- class_count: 16
-  name: Hku Context
-  property_count: 11
-  slug: hku-context
+- class_count: 0
+  name: Hku Organization Context
+  property_count: 0
+  slug: hku-organization
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: University of Hong Kong
 nav: Providers
 network: true
-overview: 'University of Hong Kong publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, Research Data, and Open Access.
+overview: 'University of Hong Kong publishes 1 API on the [APIs.io](https://apis.io/) network: HKU AD FS OAuth 2.0 / OpenID Connect Issuer. Tagged areas include Education, Higher Education, University, Hong Kong, and Identity Federation.
 
 
-  The University of Hong Kong catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The University of Hong Kong catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Hong Kong''s developer surface includes authentication, GitHub presence, engineering blog, and 10 more developer resources.'
+  University of Hong Kong''s developer surface includes support, engineering blog, GitHub presence, code examples, authentication, and 27 more developer resources.'
 plans:
 - name: Hku Plans Pricing
   plan_count: 2
   slug: hku-plans-pricing
 random_paper: 13
 rate_limits:
-- limit_count: 1
+- limit_count: 3
   name: Hku Rate Limits
   slug: hku-rate-limits
 rules:
-- effective_rule_count: 5
+- effective_rule_count: 11
   extends: []
   name: University of Hong Kong API Rules
-  rule_count: 5
+  rule_count: 11
   severity_counts:
-    error: 0
+    error: 6
     hint: 0
-    info: 1
-    warn: 4
-  slug: hku-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: University of Hong Kong API Rules
-  rule_count: 6
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 2
-    warn: 2
-  slug: hku-rules
+    info: 0
+    warn: 5
+  slug: hku-identity-rules
 scopes:
 - name: Hku Scopes
-  scope_count: 1
+  scope_count: 9
   slug: hku-scopes
-  summary_line: 1 scope · authorizationCode
+  summary_line: 9 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 42.1
-  delta: -4.3
+  composite: 44.0
+  delta: 0.0
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 72.3
-    developer_ergonomics: 14.3
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 63.6
+    contract_quality: 23.0
+    developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 46.4
+    governance: 63.6
+    operational_transparency: 36.8
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 72.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/screenshots/hku-2026-06-20T182806.png
 security:
 - kind: authentication
   name: Hku Authentication
   slug: hku-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2/openIdConnect/saml2/apiKey · 4 schemes
 - kind: domain-security
   name: Hku Domain Security
   slug: hku-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.2 · HSTS · DMARC
 slug: hku
 tags:
 - Education
 - Higher Education
 - University
+- Hong Kong
+- Identity Federation
+- Single Sign-On
 - Research Data
 - Open Access
-- Hong Kong
+- Artificial Intelligence
+- Research Computing
 website: https://www.hku.hk/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Cakewalk Open API is a REST API for building custom access-governance workflows and integrations. It exposes users, user groups, work apps, accesses, permission levels, requests, tasks, policies, '
@@ -156,8 +156,8 @@ image: https://www.getcakewalk.io/favicon-v2.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cakewalk-mcp.yml
-  slug: cakewalk-mcpyml
+  name: Cakewalk MCP Server
+  slug: cakewalk-mcp-server
 modified: '2026-07-18'
 name: Cakewalk
 nav: Providers
@@ -182,7 +182,7 @@ scopes:
 score:
   band: developing
   composite: 40.1
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -192,14 +192,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 46.0
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/screenshots/cakewalk-2026-07-25T204223.png
 security:
 - kind: authentication

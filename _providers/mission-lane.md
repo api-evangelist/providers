@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 10.7
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.0
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mission-lane/refs/heads/main/screenshots/mission-lane-2026-08-07T183750.png
 security:
@@ -113,7 +113,7 @@ tags:
 - Credit Cards
 - Fintech
 - Consumer Finance
-- Financial Services
+- Financial-Services
 - Lending
 - Payments
 website: http://missionlane.com

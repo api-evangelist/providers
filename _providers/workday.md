@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -2525,13 +2525,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: workday-mcp.yml
-  slug: workday-mcpyml
+  name: Workday MCP Server
+  slug: workday-mcp-server
 modified: '2026-06-20'
 name: Workday
 nav: Providers
 network: true
-overview: 'Workday publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Absence Types API, Accounting API, Benefit Elections API, and 43 more. Tagged areas include Cloud Computing, Enterprise Software, Financial Management, HCM, and SaaS.
+overview: 'Workday publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Absence Types API, Accounting API, Benefit Elections API, and 43 more. Tagged areas include Cloud Computing, Enterprise Software, Financial Management, HCM, and Software-as-a-Service.
 
 
   The Workday catalog on APIs.io includes 17 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -2576,18 +2576,18 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.6
-  delta: -8.4
+  composite: 59.1
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 80.6
     developer_ergonomics: 47.6
     discoverability: 77.8
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 39.5
-  previous_composite: 67.0
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2597,9 +2597,9 @@ score:
       marker_coverage: 0.0
       total: 46
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png
 security:
 - kind: authentication
@@ -2620,7 +2620,7 @@ tags:
 - Enterprise Software
 - Financial Management
 - HCM
-- SaaS
+- Software-as-a-Service
 use_cases:
 - description: Automate new hire onboarding workflows including position assignment, benefits enrollment, and system provisioning.
   name: Employee Onboarding

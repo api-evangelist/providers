@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'RESTful API over HTTPS covering all 1Lookup products (phone/email/IP validation, fraud, enrichment, B2B data, SEO intelligence). API-key Bearer auth (sk_live_ keys, organization-scoped), JSON bodies, '
@@ -208,16 +208,16 @@ image: https://www.1lookup.io/images/featured/pages/homepage.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
-  name: 1lookup-mcp.yml
-  slug: 1lookup-mcpyml
+  name: 1Lookup MCP Server
+  slug: 1lookup-mcp-server
+- description: '1Lookup ships a first-party hosted (remote) MCP connector at https://app.1lookup.io/api/mcp. It is a URL-only integration — no SDK, no pasted API key — authorized with OAuth 2.1 (authorization code + '
+  name: 1Lookup MCP Server
+  slug: 1lookup-mcp-server-2
 modified: '2026-08-14'
 name: 1Lookup
 nav: Providers
 network: true
-overview: '1Lookup publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include phone validation, email validation, IP intelligence, fraud & risk, and data enrichment.
+overview: '1Lookup publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Phone Validation, Email Validation, IP Intelligence, Fraud and Risk, and Data Enrichment.
 
 
   The 1Lookup catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -241,7 +241,7 @@ scopes:
 score:
   band: strong
   composite: 61.2
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -251,13 +251,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 62.4
+  previous_composite: 61.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/screenshots/1lookup-2026-08-17T080542.png
 security:
@@ -279,14 +279,14 @@ security:
   summary_line: trust center published
 slug: 1lookup
 tags:
-- phone validation
-- email validation
-- IP intelligence
-- fraud & risk
-- data enrichment
+- Phone Validation
+- Email Validation
+- IP Intelligence
+- Fraud and Risk
+- Data Enrichment
 - B2B contact & company data
 - SEO / web analytics
-- audio transcription
+- Audio Transcription
 - MCP / agent-native
 - REST API
 website: https://www.1lookup.io

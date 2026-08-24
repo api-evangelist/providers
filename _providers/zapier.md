@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -1372,14 +1372,14 @@ jsonld:
   slug: zapier-zapier-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: zapier-mcp.yml
-  slug: zapier-mcpyml
+- description: 'Zapier operates an official hosted (remote) MCP server that connects MCP-aware clients (Claude, ChatGPT, Cursor, VS Code, Windsurf, Kiro, Microsoft Copilot Studio) to Zapier''s 9,000+ app integrations '
+  name: Zapier MCP Server
+  slug: zapier-mcp-server
 modified: '2026-06-20'
 name: Zapier
 nav: Providers
 network: true
-overview: 'Zapier publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Apps API, and 7 more. Tagged areas include Integrations and iPaaS.
+overview: 'Zapier publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Apps API, and 7 more. Tagged areas include Integration and iPaaS.
 
 
   The Zapier catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1424,7 +1424,7 @@ scopes:
 score:
   band: strong
   composite: 65.0
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1434,7 +1434,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 70.9
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1444,9 +1444,9 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/screenshots/zapier-2026-06-20T201801.png
 security:
 - kind: authentication
@@ -1463,7 +1463,7 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: zapier
 tags:
-- Integrations
+- Integration
 - iPaaS
 use_cases:
 - name: Customer support

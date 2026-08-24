@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -200,18 +200,18 @@ rules:
   slug: sigma-aldrich-rules
 score:
   band: thin
-  composite: 32.8
-  delta: -3.5
+  composite: 33.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 68.5
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 36.3
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -225,8 +225,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/screenshots/sigma-aldrich-2026-06-20T193909.png
 security:

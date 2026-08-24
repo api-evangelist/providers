@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 5
@@ -282,7 +282,7 @@ modified: '2026-05-11'
 name: Keep
 nav: Providers
 network: true
-overview: 'Keep publishes 27 APIs on the [APIs.io](https://apis.io/) network, including actions API, alerts API, auth API, and 24 more. Tagged areas include AIOps, Alerting, Incident Management, Observability, and Open Source.
+overview: 'Keep publishes 27 APIs on the [APIs.io](https://apis.io/) network, including actions API, alerts API, auth API, and 24 more. Tagged areas include AIOps, Alerting, Incident Management, Observability, and Open-Source.
 
 
   Keep''s developer surface includes authentication, documentation, signup flow, engineering blog, and 12 more developer resources.'
@@ -295,7 +295,7 @@ scopes:
 score:
   band: thin
   composite: 29.5
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -305,7 +305,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 29.1
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -313,8 +313,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/screenshots/keep-2026-06-20T183935.png
 security:
@@ -332,8 +332,8 @@ tags:
 - Alerting
 - Incident Management
 - Observability
-- Open Source
+- Open-Source
 - SRE
-- Workflow Automation
+- Workflow-Automation
 website: https://www.keephq.dev
 ---

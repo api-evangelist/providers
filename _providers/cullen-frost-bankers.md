@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Cullen/Frost Bankers API provides access to platform services and data for enterprise integration and automation.
@@ -57,7 +57,7 @@ modified: '2026-04-19'
 name: Cullen/Frost Bankers
 nav: Providers
 network: true
-overview: Cullen/Frost Bankers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, and Texas.
+overview: Cullen/Frost Bankers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, and Texas.
 plans:
 - name: Cullen Frost Bankers Plans Pricing
   plan_count: 1
@@ -70,7 +70,7 @@ rate_limits:
 score:
   band: minimal
   composite: 4.6
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -80,20 +80,20 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 7.9
+  previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: cullen-frost-bankers
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Texas
 website: https://www.cullenfrост.com
 ---

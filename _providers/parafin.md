@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: White-labeled embedded finance REST API for offering business financing — creating businesses, persons, and bank accounts; generating capital offers; creating capital, line-of-credit, and pay-over-tim
@@ -118,9 +118,9 @@ description: Parafin is an embedded finance infrastructure company (founded 2020
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parafin.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: parafin-mcp.yml
-  slug: parafin-mcpyml
+- description: Parafin operates a hosted, remote MCP server over Streamable HTTP at https://docs.parafin.com/mcp that exposes documentation search to agents. It is protected by OAuth 2.1 (RFC 8414 authorization-serv
+  name: Parafin MCP Server
+  slug: parafin-mcp-server
 modified: '2026-07-20'
 name: Parafin
 nav: Providers
@@ -132,18 +132,18 @@ overview: 'Parafin publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 2
 score:
   band: emerging
-  composite: 15.6
-  delta: -7.7
+  composite: 16.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 23.3
+  previous_composite: 16.7
   provenance:
     mcp: first-party
   regulatory:
@@ -152,9 +152,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/screenshots/parafin-2026-08-07T191409.png
 security:
 - kind: authentication
@@ -175,6 +175,5 @@ tags:
 - Payments
 - Small Business
 - Working Capital
-- API
 website: https://www.parafin.com/
 ---

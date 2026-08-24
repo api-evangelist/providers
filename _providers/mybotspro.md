@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'The myBots identity provider, running OpenIddict. This is the only surface in the estate that publishes a complete, anonymous, machine-readable contract: RFC 8414 authorization-server metadata and an '
@@ -169,7 +169,7 @@ scopes:
 score:
   band: emerging
   composite: 22.4
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -179,12 +179,12 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 29.1
+  previous_composite: 22.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mybotspro/refs/heads/main/screenshots/mybotspro-2026-08-07T184510.png
 security:
 - kind: authentication
@@ -202,7 +202,7 @@ tags:
 - Conversational AI
 - Messaging
 - Chatbots
-- Customer Support
+- Customer-Support
 - Sales Automation
 - WhatsApp
 - Telegram

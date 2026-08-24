@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -156,9 +156,9 @@ description: Develop Health is a San Francisco-based healthcare technology compa
 image: https://framerusercontent.com/images/7uigtcymLe3mrSSSwT0H9pgISWc.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: develop-health-mcp.yml
-  slug: develop-health-mcpyml
+- description: Candidate MCP tool surface DERIVED from the Develop Health Public API OpenAPI operations. No official hosted/remote Develop Health MCP server was found on the docs, npm (@modelcontextprotocol), or pub
+  name: Develop Health MCP Server
+  slug: develop-health-mcp-server
 modified: '2026-07-18'
 name: Develop Health
 nav: Providers
@@ -201,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/screenshots/develop-health-2026-07-25T211816.png
 security:

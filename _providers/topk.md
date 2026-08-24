@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Structured document store and query surface. Create collections with typed, indexed fields (keyword_index, semantic_index, vector index), upsert/update/delete documents by `_id`, and run hybrid querie
@@ -172,9 +172,9 @@ description: TopK is a search engine for accuracy-critical AI applications, deli
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topk.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: topk-mcp.yml
-  slug: topk-mcpyml
+- description: TopK ships an official hosted, remote MCP server that lets any MCP-compatible AI agent query private datasets using natural language. It is region-scoped (one HTTP endpoint per region) and authenticat
+  name: Topk MCP Server
+  slug: topk-mcp-server
 modified: '2026-07-21'
 name: Topk
 nav: Providers
@@ -186,24 +186,24 @@ overview: 'Topk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 5
 score:
   band: developing
-  composite: 40.6
-  delta: -1.6
+  composite: 41.7
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 68.5
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 42.2
+  previous_composite: 41.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/screenshots/topk-2026-08-17T082413.png
 security:

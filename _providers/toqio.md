@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 49
 apis:
 - description: The Account API from Toqio — 7 operation(s) for account.
@@ -458,8 +458,8 @@ image: https://toqio.co/hubfs/Home-featured.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: toqio-mcp.yml
-  slug: toqio-mcpyml
+  name: Toqio MCP Server
+  slug: toqio-mcp-server
 modified: '2026-07-21'
 name: Toqio
 nav: Providers
@@ -480,7 +480,7 @@ scopes:
 score:
   band: developing
   composite: 48.9
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -490,7 +490,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 14.5
-  previous_composite: 51.3
+  previous_composite: 48.9
   provenance:
     conformance: first-party
     contracts:
@@ -506,8 +506,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/screenshots/toqio-2026-08-17T082408.png
 security:

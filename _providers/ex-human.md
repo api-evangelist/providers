@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -175,8 +175,8 @@ image: https://exh.ai/Union512.png?v=2
 layout: provider
 mcp_servers:
 - description: ''
-  name: ex-human-mcp.yml
-  slug: ex-human-mcpyml
+  name: Ex-Human MCP Server
+  slug: ex-human-mcp-server
 modified: '2026-07-19'
 name: Ex-Human
 nav: Providers
@@ -189,7 +189,7 @@ random_paper: 5
 score:
   band: thin
   composite: 36.7
-  delta: -9.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 45.9
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,9 +210,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/screenshots/ex-human-2026-07-25T213827.png
 security:
 - kind: authentication
@@ -230,10 +230,10 @@ tags:
 - Conversational AI
 - AI Companions
 - Generative AI
-- Text to Speech
-- Image Generation
+- Text-to-Speech
+- Image-Generation
 - Video Generation
 - Avatars
-- Multimodal
+- Multi-Modal
 website: https://docs.exh.ai/
 ---

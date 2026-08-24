@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -178,14 +178,14 @@ description: Peakon (now Workday Peakon Employee Voice) is an employee engagemen
 image: https://files.readme.io/2b612560a84c6544f0ffcaf0abeef8c1da4cd1ec5ac568f569f1b0d4058082db-small-wd-dub-reversed.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: peakon-mcp.yml
-  slug: peakon-mcpyml
+- description: Candidate MCP tool surface derived from the public Peakon API (v1.1.0). No official Peakon-hosted MCP server was found as of 2026-07-20.
+  name: Peakon MCP Server
+  slug: peakon-mcp-server
 modified: '2026-07-20'
 name: Peakon
 nav: Providers
 network: true
-overview: 'Peakon publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Answers API, Audits API, and 5 more. Tagged areas include Company, Saas, Employee Engagement, Employee Experience, and HR Tech.
+overview: 'Peakon publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Answers API, Audits API, and 5 more. Tagged areas include Company, Software-as-a-Service, Employee Engagement, Employee Experience, and HR Tech.
 
 
   Peakon''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 15 more developer resources.'
@@ -193,7 +193,7 @@ random_paper: 8
 score:
   band: thin
   composite: 34.5
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 35.8
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -214,8 +214,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/screenshots/peakon-2026-08-07T191724.png
 security:
@@ -230,7 +230,7 @@ security:
 slug: peakon
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Employee Engagement
 - Employee Experience
 - HR Tech

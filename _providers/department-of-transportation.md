@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ modified: '2026-05-19'
 name: Department of Transportation
 nav: Providers
 network: true
-overview: 'Department of Transportation publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Airport Status API, Authority API, Carriers API, and 11 more. Tagged areas include Federal Government, Transportation, Vehicles, Aviation, and Motor Carriers.
+overview: 'Department of Transportation publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Airport Status API, Authority API, Carriers API, and 11 more. Tagged areas include Federal-Government, Transportation, Vehicles, Aviation, and Motor Carriers.
 
 
   The Department of Transportation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -252,7 +252,7 @@ rules:
 score:
   band: thin
   composite: 30.9
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -262,7 +262,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 37.1
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -276,9 +276,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/screenshots/department-of-transportation-2026-06-20T175923.png
 security:
 - kind: authentication
@@ -291,7 +291,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: department-of-transportation
 tags:
-- Federal Government
+- Federal-Government
 - Transportation
 - Vehicles
 - Aviation

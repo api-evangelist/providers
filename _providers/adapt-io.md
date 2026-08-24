@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -289,9 +289,9 @@ jsonld:
   slug: adapt-io-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: adapt-io-mcp.yml
-  slug: adapt-io-mcpyml
+- description: Adapt ships NO Model Context Protocol server — hosted or local. This is a CANDIDATE tool surface derived from the four published Prospect API v3 operations, showing what an MCP server over Adapt would
+  name: Adapt MCP Server
+  slug: adapt-mcp-server
 modified: '2026-08-13'
 name: Adapt
 nav: Providers
@@ -326,7 +326,7 @@ rules:
 score:
   band: strong
   composite: 60.8
-  delta: -8.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -336,7 +336,7 @@ score:
     discoverability: 81.5
     governance: 26.5
     operational_transparency: 21.1
-  previous_composite: 69.7
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,9 +347,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/screenshots/adapt-io-2026-06-20T164545.png
 security:
 - kind: authentication
@@ -372,7 +372,7 @@ tags:
 - Prospecting
 - Lead Generation
 - Email Finder
-- ABM
+- Account Based Marketing
 - CRM Enrichment
 - Marketing
 - Sales

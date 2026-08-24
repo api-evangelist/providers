@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: Urban Machine
 nav: Providers
 network: true
-overview: 'Urban Machine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Robotics, Construction, and Wood Reclamation.
+overview: 'Urban Machine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Robotics, Construction, and Wood Reclamation.
 
 
   Urban Machine''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 7.5
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,9 +90,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -102,11 +102,11 @@ security:
 slug: urban-machine
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Robotics
 - Construction
 - Wood Reclamation
 - Circular Economy
-- Computer Vision
+- Computer-Vision
 website: https://urbanmachine.build
 ---

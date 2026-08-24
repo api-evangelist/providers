@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-07-01'
 name: Maven AGI
 nav: Providers
 network: true
-overview: 'Maven AGI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Agents API, Analytics API, and 6 more. Tagged areas include AI, Agents, Customer Support, Customer Experience, and Conversational AI.
+overview: 'Maven AGI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Agents API, Analytics API, and 6 more. Tagged areas include Artificial Intelligence, Agents, Customer-Support, Customer Experience, and Conversational AI.
 
 
   Maven AGI''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.9
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -189,7 +189,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.3
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/screenshots/maven-agi-2026-07-25T230432.png
 security:
@@ -216,9 +216,9 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR
 slug: maven-agi
 tags:
-- AI
+- Artificial Intelligence
 - Agents
-- Customer Support
+- Customer-Support
 - Customer Experience
 - Conversational AI
 - Knowledge

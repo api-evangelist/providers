@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Queue-backed batch inference and worker coordination.
@@ -168,13 +168,13 @@ image: https://cdn.builder.io/api/v1/image/assets%2Ff941d509b8ea45f8972dd215996c
 layout: provider
 mcp_servers:
 - description: ''
-  name: tensorwave-mcp.yml
-  slug: tensorwave-mcpyml
+  name: TensorWave MCP Server
+  slug: tensorwave-mcp-server
 modified: '2026-08-02'
 name: TensorWave
 nav: Providers
 network: true
-overview: 'TensorWave publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Generate API, Health API, Open AI API, and 2 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Cloud Computing, and GPU.
+overview: 'TensorWave publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Generate API, Health API, Open AI API, and 2 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Cloud Computing, and GPU.
 
 
   TensorWave''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, changelog, and 20 more developer resources.'
@@ -182,7 +182,7 @@ random_paper: 10
 score:
   band: developing
   composite: 47.3
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -192,7 +192,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 46.4
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     contracts:
@@ -202,8 +202,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/screenshots/tensorwave-2026-08-17T082314.png
 security:
@@ -227,7 +227,7 @@ slug: tensorwave
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Cloud Computing
 - GPU
 - Infrastructure

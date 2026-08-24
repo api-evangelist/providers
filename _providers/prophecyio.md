@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Connections API from Prophecy.io — 2 operation(s) for connections.
@@ -194,13 +194,13 @@ image: https://www.prophecy.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: prophecyio-mcp.yml
-  slug: prophecyio-mcpyml
+  name: Prophecy.io MCP Server
+  slug: prophecyio-mcp-server
 modified: '2026-07-20'
 name: Prophecy.io
 nav: Providers
 network: true
-overview: 'Prophecy.io publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Fabrics API, Pipeline Runs API, and 2 more. Tagged areas include Company, Data Engineering, Data Pipelines, ETL, and Apache Spark.
+overview: 'Prophecy.io publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Fabrics API, Pipeline Runs API, and 2 more. Tagged areas include Company, Data Engineering, Data Pipeline, ETL, and Apache Spark.
 
 
   Prophecy.io''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
@@ -208,7 +208,7 @@ random_paper: 19
 score:
   band: developing
   composite: 42.8
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.8
+  previous_composite: 42.8
   provenance:
     conformance: derived
     contracts:
@@ -228,9 +228,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/screenshots/prophecyio-2026-08-17T081352.png
 security:
 - kind: authentication
@@ -249,14 +249,14 @@ slug: prophecyio
 tags:
 - Company
 - Data Engineering
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Apache Spark
 - Databricks
 - Snowflake
 - Low-Code
 - Analytics
-- AI
+- Artificial Intelligence
 - Data Transformation
 website: https://www.prophecy.io/
 ---

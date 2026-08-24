@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Public HTTP gateway that serves signed data packages and historical token prices aggregated by the RedStone oracle network. Read-only and unauthenticated; responses carry ECDSA signatures and the prov
@@ -122,8 +122,8 @@ image: https://cdn.prod.website-files.com/67519197ce9eaef4601a6287/677f9f8bb6ae7
 layout: provider
 mcp_servers:
 - description: ''
-  name: redstone-mcp.yml
-  slug: redstone-mcpyml
+  name: RedStone MCP Server
+  slug: redstone-mcp-server
 modified: '2026-07-21'
 name: RedStone
 nav: Providers
@@ -136,7 +136,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 24.3
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -146,11 +146,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 23.9
+  previous_composite: 24.3
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

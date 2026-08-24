@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Documented, versioned REST API (/api/v1/*) for checking IPs, retrieving blacklist feeds and report history, and submitting abuse reports. Uses X-Secret-Token header authentication with role-based rate
@@ -151,7 +151,7 @@ modified: '2026-08-19'
 name: SniffCat
 nav: Providers
 network: true
-overview: 'SniffCat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include threat-intelligence, ip-reputation, abuse-database, cybersecurity, and osint.
+overview: 'SniffCat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Threat Intelligence, IP Reputation, abuse-database, Cybersecurity, and OSINT.
 
 
   SniffCat''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 22 more developer resources.'
@@ -166,7 +166,8 @@ rate_limits:
   slug: sniffcat-rate-limits
 score:
   band: thin
-  composite: 36.7
+  composite: 34.3
+  delta: -2.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -175,12 +176,14 @@ score:
     developer_ergonomics: 69.0
     discoverability: 75.9
     governance: 19.7
-    operational_transparency: 63.2
+    operational_transparency: 44.7
+  previous_composite: 36.7
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Sniffcat Authentication
@@ -196,17 +199,17 @@ security:
   summary_line: security.txt · contact published
 slug: sniffcat
 tags:
-- threat-intelligence
-- ip-reputation
+- Threat Intelligence
+- IP Reputation
 - abuse-database
-- cybersecurity
-- osint
-- network-security
+- Cybersecurity
+- OSINT
+- Network Security
 - sysadmin-tools
-- blocklist
+- Blocklist
 - abuse-reporting
 - ip-blocklist
-- ip-intelligence
-- threat-feeds
+- IP Intelligence
+- Threat Feeds
 website: https://sniffcat.com/documentation
 ---

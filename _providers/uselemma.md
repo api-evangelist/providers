@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Artifacts API from Lemma — 6 operation(s) for artifacts.
@@ -175,9 +175,9 @@ description: Lemma (uselemma.ai, Forge AI Labs, Inc., Y Combinator Fall 2025) is
 image: https://uselemma.ai/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: uselemma-mcp.yml
-  slug: uselemma-mcpyml
+- description: Lemma operates an official remote MCP server at https://api.uselemma.ai/mcp (Streamable HTTP transport), authenticated with a project API key sent as an Authorization Bearer header. It gives coding ag
+  name: Lemma MCP Server
+  slug: lemma-mcp-server
 modified: '2026-07-21'
 name: Lemma
 nav: Providers
@@ -193,7 +193,7 @@ random_paper: 17
 score:
   band: developing
   composite: 45.2
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 46.4
+  previous_composite: 45.2
   provenance:
     conformance: derived
     contracts:
@@ -213,8 +213,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/screenshots/uselemma-2026-08-17T082716.png
 security:

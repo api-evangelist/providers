@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,12 +56,12 @@ modified: '2026-07-19'
 name: EquiLibre
 nav: Providers
 network: true
-overview: EquiLibre is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Reinforcement Learning, and Algorithmic Trading.
+overview: EquiLibre is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Reinforcement Learning, and Algorithmic Trading.
 random_paper: 17
 score:
   band: minimal
   composite: 1.2
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -71,15 +71,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.8
+  previous_composite: 1.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equilibre/refs/heads/main/screenshots/equilibre-2026-07-25T213540.png
 security:
@@ -91,10 +91,10 @@ slug: equilibre
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Reinforcement Learning
 - Algorithmic Trading
-- Financial Services
+- Financial-Services
 - Quantitative Finance
 - Research Lab
 website: https://equilibre.ai/

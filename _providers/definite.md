@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Definite REST API for programmatic access to the Definite data platform: stream JSON ingestion into DuckLake, signed-URL file uploads to Definite Drive, webhook-triggered Python pipelines, push-ba'
@@ -171,8 +171,8 @@ image: https://www.definite.app/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: definite-mcp.yml
-  slug: definite-mcpyml
+  name: Definite MCP Server
+  slug: definite-mcp-server
 modified: '2026-07-18'
 name: Definite
 nav: Providers
@@ -192,24 +192,24 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 50.2
-  delta: -3.7
+  composite: 51.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 78.6
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 53.9
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/screenshots/definite-2026-07-25T211622.png
 security:
@@ -237,7 +237,7 @@ tags:
 - Semantic Layer
 - Artificial Intelligence
 - AI Agents
-- Model Context Protocol
+- MCP
 - ETL
 website: https://www.definite.app/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ scopes:
 score:
   band: thin
   composite: 38.1
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -195,7 +195,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 46.3
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -203,9 +203,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/screenshots/klaxoon-2026-06-20T184103.png
 security:
 - kind: authentication

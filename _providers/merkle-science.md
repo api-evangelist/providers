@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Query and retrieve off-chain VASP due-diligence entities.
@@ -154,8 +154,8 @@ image: https://www.merklescience.com/
 layout: provider
 mcp_servers:
 - description: ''
-  name: merkle-science-mcp.yml
-  slug: merkle-science-mcpyml
+  name: Merkle Science MCP Server
+  slug: merkle-science-mcp-server
 modified: '2026-07-20'
 name: Merkle Science
 nav: Providers
@@ -168,7 +168,7 @@ random_paper: 8
 score:
   band: developing
   composite: 43.4
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -178,7 +178,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 48.6
+  previous_composite: 43.4
   provenance:
     conformance: derived
     contracts:
@@ -188,9 +188,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/screenshots/merkle-science-2026-08-07T172608.png
 security:
 - kind: authentication

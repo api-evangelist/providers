@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -640,18 +640,18 @@ rules:
   slug: hatchet-rules
 score:
   band: developing
-  composite: 46.5
-  delta: -5.7
+  composite: 46.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 68.5
     developer_ergonomics: 35.7
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 52.2
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -659,9 +659,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/screenshots/hatchet-2026-06-20T182616.png
 security:
 - kind: authentication
@@ -690,7 +690,7 @@ tags:
 - AI Agents
 - Orchestration
 - PostgreSQL
-- Open Source
+- Open-Source
 use_cases:
 - description: Manage tool calls, conversation state, timeouts, and checkpointing for production AI agents.
   name: AI Agent Orchestration

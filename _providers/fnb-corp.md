@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: F.N.B. Corporation publishes no first-party developer API. Consumer-permissioned account, balance and transaction data for First National Bank of Pennsylvania is available only through third-party dat
@@ -68,7 +68,7 @@ modified: '2026-07-23'
 name: F.N.B. Corporation
 nav: Providers
 network: true
-overview: 'F.N.B. Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Regional Bank, and Consumer Banking.
+overview: 'F.N.B. Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Regional Bank, and Consumer Banking.
 
 
   F.N.B. Corporation''s developer surface includes support and 7 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 11.1
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -86,15 +86,15 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.9
+  previous_composite: 11.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fnb-corp/refs/heads/main/screenshots/fnb-corp-2026-07-25T214900.png
 security:
@@ -104,7 +104,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: fnb-corp
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Regional Bank

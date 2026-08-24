@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -444,7 +444,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 70.9
-  delta: 6.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -454,7 +454,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 64.1
+  previous_composite: 70.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -471,9 +471,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/screenshots/finix-2026-07-25T214523.png
 security:
 - kind: authentication

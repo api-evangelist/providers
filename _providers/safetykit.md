@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Ingest user actions and objects into per-workflow namespaces and asynchronously receive AI agent decisions (labels, risk scores, enforcement actions) via signed webhooks.
@@ -159,13 +159,13 @@ image: https://cdn.prod.website-files.com/67f043481889440b9d0ed13e/67f0434818894
 layout: provider
 mcp_servers:
 - description: ''
-  name: safetykit-mcp.yml
-  slug: safetykit-mcpyml
+  name: SafetyKit MCP Server
+  slug: safetykit-mcp-server
 modified: '2026-07-21'
 name: SafetyKit
 nav: Providers
 network: true
-overview: 'SafetyKit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Trust and Safety, Fraud Detection, and Content Moderation.
+overview: 'SafetyKit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Trust and Safety, Fraud Detection, and Content Moderation.
 
 
   The SafetyKit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -176,7 +176,7 @@ random_paper: 14
 score:
   band: developing
   composite: 47.7
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -186,13 +186,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 48.2
+  previous_composite: 47.7
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safetykit/refs/heads/main/screenshots/safetykit-2026-08-17T081707.png
 security:
@@ -211,7 +211,7 @@ security:
 slug: safetykit
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Trust and Safety
 - Fraud Detection
 - Content Moderation

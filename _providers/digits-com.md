@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -285,14 +285,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digits-com.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: digits-com-mcp.yml
-  slug: digits-com-mcpyml
+- description: Digits provides a hosted MCP (Model Context Protocol) server that connects AI clients such as ChatGPT and Claude directly to a Digits account — no developer app required. Setup instructions are publis
+  name: Digits MCP
+  slug: digits-mcp
 modified: '2026-08-08'
 name: Digits
 nav: Providers
 network: true
-overview: 'Digits publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Chart of Accounts API, Connections API, and 6 more. Tagged areas include Accounting, Bookkeeping, Finance, General Ledger, and AI.
+overview: 'Digits publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Chart of Accounts API, Connections API, and 6 more. Tagged areas include Accounting, Bookkeeping, Finance, General Ledger, and Artificial Intelligence.
 
 
   The Digits catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -316,7 +316,7 @@ scopes:
 score:
   band: strong
   composite: 55.0
-  delta: -11.5
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -326,7 +326,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 66.5
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -337,9 +337,9 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/screenshots/digits-com-2026-07-25T212036.png
 security:
 - kind: authentication
@@ -364,7 +364,7 @@ tags:
 - Bookkeeping
 - Finance
 - General Ledger
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 website: https://digits.com
 ---

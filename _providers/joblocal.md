@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-19'
 name: Joblocal
 nav: Providers
 network: true
-overview: 'Joblocal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Jobs, HR Technology, and Job Portal.
+overview: 'Joblocal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Job, HR Technology, and Job Portal.
 
 
   Joblocal''s developer surface includes support and 4 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 10.2
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -78,9 +78,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joblocal/refs/heads/main/screenshots/joblocal-2026-07-25T223219.png
 security:
@@ -92,7 +92,7 @@ slug: joblocal
 tags:
 - Company
 - Recruiting
-- Jobs
+- Job
 - HR Technology
 - Job Portal
 - Talent Acquisition

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -335,7 +335,7 @@ modified: '2026-05-29'
 name: Vonage
 nav: Providers
 network: true
-overview: 'Vonage publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Messages API, Numbers API, and 3 more. Tagged areas include Communication, Messaging, Telecommunications, Video Conferencing, and Voice.
+overview: 'Vonage publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Messages API, Numbers API, and 3 more. Tagged areas include Communications, Messaging, Telecommunications, Video Conferencing, and Voice.
 
 
   The Vonage catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -387,7 +387,7 @@ rules:
 score:
   band: developing
   composite: 53.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -397,7 +397,7 @@ score:
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 54.9
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -411,8 +411,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png
 security:
@@ -430,7 +430,7 @@ security:
   summary_line: disclosure policy published
 slug: vonage
 tags:
-- Communication
+- Communications
 - Messaging
 - Telecommunications
 - Video Conferencing

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-23'
 name: Vancity Community Investment Bank
 nav: Providers
 network: true
-overview: 'Vancity Community Investment Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Schedule I Bank, and Credit Union.
+overview: 'Vancity Community Investment Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Schedule I Bank, and Credit Union.
 
 
   Vancity Community Investment Bank''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 12.8
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -98,15 +98,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.2
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -115,7 +115,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: vancity-community-investment-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Schedule I Bank

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Address API API from Solidus Labs — 1 operation(s) for address api.
@@ -221,8 +221,8 @@ image: https://cdn.prod.website-files.com/5dc2e688a258f6237d614aa3/6a554a304e638
 layout: provider
 mcp_servers:
 - description: ''
-  name: solidus-labs-mcp.yml
-  slug: solidus-labs-mcpyml
+  name: Solidus Labs MCP Server
+  slug: solidus-labs-mcp-server
 modified: '2026-08-05'
 name: Solidus Labs
 nav: Providers
@@ -246,7 +246,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 68.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -256,7 +256,7 @@ score:
     discoverability: 92.6
     governance: 45.5
     operational_transparency: 57.9
-  previous_composite: 68.4
+  previous_composite: 68.3
   provenance:
     conformance: first-party
     contracts:
@@ -266,8 +266,8 @@ score:
       total: 7
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/screenshots/solidus-labs-2026-08-17T080424.png
 security:

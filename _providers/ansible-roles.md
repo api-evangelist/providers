@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ modified: '2026-04-19'
 name: Ansible Roles
 nav: Providers
 network: true
-overview: 'Ansible Roles publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ansible Galaxy Roles & Collections API API, Collections API, Imports API, and 4 more. Tagged areas include Ansible, Automation, Collections, Configuration Management, and DevOps.
+overview: 'Ansible Roles publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ansible Galaxy Roles & Collections API API, Collections API, Imports API, and 4 more. Tagged areas include Ansible, Automation, Collection, Configuration Management, and DevOps.
 
 
   The Ansible Roles catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -250,7 +250,7 @@ rules:
 score:
   band: thin
   composite: 37.5
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -260,7 +260,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 46.0
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -268,9 +268,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/screenshots/ansible-roles-2026-06-20T172023.png
 security:
 - kind: authentication
@@ -285,10 +285,10 @@ slug: ansible-roles
 tags:
 - Ansible
 - Automation
-- Collections
+- Collection
 - Configuration Management
 - DevOps
-- Infrastructure As Code
+- Infrastructure as Code
 - Roles
 use_cases:
 - description: Discover and install community roles from Galaxy to avoid reinventing automation logic for common tasks like nginx, MySQL, or Kubernetes setup.

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -270,9 +270,9 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/customeros.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: customeros-mcp.yml
-  slug: customeros-mcpyml
+- description: CustomerOS runs a live, anonymous, remote MCP server on its documentation host. It is a DOCUMENTATION server (search + a read-only virtual filesystem over the docs pages and the published OpenAPI), no
+  name: CustomerOS MCP Server
+  slug: customeros-mcp-server
 modified: '2026-08-13'
 name: CustomerOS
 nav: Providers
@@ -293,7 +293,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -303,7 +303,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 56.7
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,9 +314,9 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/screenshots/customeros-2026-06-20T175351.png
 security:
 - kind: authentication
@@ -342,6 +342,6 @@ tags:
 - Email Verification
 - Enrichment
 - GraphQL
-- Open Source
+- Open-Source
 website: https://customeros.ai
 ---

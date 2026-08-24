@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -175,7 +175,7 @@ modified: '2026-07-03'
 name: Booqable
 nav: Providers
 network: true
-overview: 'Booqable publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Bundles & Collections API, Customers API, and 8 more. Tagged areas include Rental Management, Inventory, Equipment Rental, Bookings, and Orders.
+overview: 'Booqable publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Bundles & Collections API, Customers API, and 8 more. Tagged areas include Rental Management, Inventory, Equipment Rental, Bookings, and Order.
 
 
   Booqable''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.8
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -201,7 +201,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 40.6
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/screenshots/booqable-2026-07-25T203619.png
 security:
@@ -232,8 +232,8 @@ tags:
 - Inventory
 - Equipment Rental
 - Bookings
-- Orders
-- E-commerce
+- Order
+- E-Commerce
 - JSON:API
 website: https://booqable.com
 ---

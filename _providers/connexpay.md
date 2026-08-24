@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -412,8 +412,8 @@ image: https://www.connexpay.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: connexpay-mcp.yml
-  slug: connexpay-mcpyml
+  name: ConnexPay MCP Server
+  slug: connexpay-mcp-server
 modified: '2026-08-09'
 name: ConnexPay
 nav: Providers
@@ -427,19 +427,19 @@ overview: 'ConnexPay publishes 39 APIs on the [APIs.io](https://apis.io/) networ
   ConnexPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 26 more developer resources.'
 random_paper: 15
 score:
-  band: developing
-  composite: 53.8
-  delta: -0.2
+  band: strong
+  composite: 54.9
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 16.7
     contract_quality: 66.7
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 54.0
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -456,8 +456,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/screenshots/connexpay-2026-08-17T080827.png
 security:

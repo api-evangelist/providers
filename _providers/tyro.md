@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -263,8 +263,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: tyro-mcp.yml
-  slug: tyro-mcpyml
+  name: Tyro Payments MCP Server
+  slug: tyro-payments-mcp-server
 modified: '2026-07-24'
 name: Tyro Payments
 nav: Providers
@@ -280,7 +280,7 @@ random_paper: 0
 score:
   band: developing
   composite: 46.0
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -290,7 +290,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 52.5
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,9 +307,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/screenshots/tyro-2026-08-17T082516.png
 security:
 - kind: authentication
@@ -328,7 +328,7 @@ tags:
 - Payment Gateway
 - In-Person Payments
 - EFTPOS
-- Point of Sale
+- Point-of-Sale
 - Online Payments
 - Tap to Pay
 website: https://www.tyro.com/

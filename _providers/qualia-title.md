@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'Place title and escrow orders programmatically (into Qualia Core or to third-party systems) and track their status through the closing lifecycle. Modeled from Qualia''s public description of push/pull '
@@ -104,7 +104,7 @@ modified: '2026-07-25'
 name: Qualia
 nav: Providers
 network: true
-overview: 'Qualia publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real Estate, Closing, and Settlement.
+overview: 'Qualia publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real-Estate, Closing, and Settlement.
 
 
   Qualia''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -130,15 +130,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.2
+  previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 31.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -157,7 +157,7 @@ slug: qualia-title
 tags:
 - Title Insurance
 - Escrow
-- Real Estate
+- Real-Estate
 - Closing
 - Settlement
 - PropTech

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Inquiry-based student discussion product with built-in AI coaching that helps students ask better questions and write stronger responses, plus automated moderation for instructors. Accessed by student
@@ -98,7 +98,7 @@ modified: '2026-06-21'
 name: Packback
 nav: Providers
 network: true
-overview: 'Packback publishes 3 APIs on the [APIs.io](https://apis.io/) network: Questions / Discussions, Writing / Deep Dives, and LTI Integration. Tagged areas include Education, EdTech, AI, Discussion, and Writing Feedback.
+overview: 'Packback publishes 3 APIs on the [APIs.io](https://apis.io/) network: Questions / Discussions, Writing / Deep Dives, and LTI Integration. Tagged areas include Education, EdTech, Artificial Intelligence, Discussion, and Writing Feedback.
 
 
   Packback''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.5
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -124,15 +124,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 27.6
+  previous_composite: 24.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/screenshots/packback-2026-08-07T191240.png
 security:
@@ -144,7 +144,7 @@ slug: packback
 tags:
 - Education
 - EdTech
-- AI
+- Artificial Intelligence
 - Discussion
 - Writing Feedback
 - LTI

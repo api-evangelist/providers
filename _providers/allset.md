@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-17'
 name: Allset
 nav: Providers
 network: true
-overview: 'Allset is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Restaurants, Food Ordering, and Rewards.
+overview: 'Allset is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Restaurant, Food Ordering, and Rewards.
 
 
   Allset''s developer surface includes engineering blog and 5 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 5.5
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -82,10 +82,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 5.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allset/refs/heads/main/screenshots/allset-2026-07-25T195716.png
 security:
 - kind: domain-security
@@ -96,7 +96,7 @@ slug: allset
 tags:
 - Company
 - Food and Beverage
-- Restaurants
+- Restaurant
 - Food Ordering
 - Rewards
 - Dine-In

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,12 +52,12 @@ modified: '2026-05-04'
 name: New York Community Bancorp
 nav: Providers
 network: true
-overview: New York Community Bancorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Banking, Financial Services, Commercial Banking, and Mortgage.
+overview: New York Community Bancorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Banking, Financial-Services, Commercial Banking, and Mortgage.
 random_paper: 10
 score:
   band: minimal
   composite: 0.9
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,15 +67,15 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 4.9
+  previous_composite: 0.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -86,7 +86,7 @@ slug: new-york-community-bancorp
 tags:
 - Fortune 500
 - Banking
-- Financial Services
+- Financial-Services
 - Commercial Banking
 - Mortgage
 website: https://www.mynycb.com

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ modified: '2026-05-29'
 name: Frankfurter
 nav: Providers
 network: true
-overview: 'Frankfurter publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Currencies API, current-rates API, historical-rates API, and 3 more. Tagged areas include Currency Exchange, Foreign Exchange, FX, Open Source, and MIT.
+overview: 'Frankfurter publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Currencies API, current-rates API, historical-rates API, and 3 more. Tagged areas include Currency Exchange, Foreign Exchange, FX, Open-Source, and MIT.
 
 
   The Frankfurter catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -373,18 +373,18 @@ rules:
   slug: frankfurter-spectral-rules
 score:
   band: developing
-  composite: 39.9
-  delta: -6.3
+  composite: 40.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.2
     developer_ergonomics: 14.3
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 46.2
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -392,9 +392,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/screenshots/frankfurter-2026-06-20T181506.png
 security:
 - kind: domain-security
@@ -413,7 +413,7 @@ tags:
 - Currency Exchange
 - Foreign Exchange
 - FX
-- Open Source
+- Open-Source
 - MIT
 - Self-Hosted
 - Public APIs

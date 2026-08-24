@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 1
@@ -908,18 +908,18 @@ rules:
   slug: mews-com-rules
 score:
   band: strong
-  composite: 59.6
-  delta: -6.6
+  composite: 60.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.5
     developer_ergonomics: 38.1
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 65.8
-  previous_composite: 66.2
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -927,9 +927,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 75
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/screenshots/mews-com-2026-06-20T185312.png
 security:
 - kind: domain-security
@@ -950,6 +950,6 @@ tags:
 - Booking
 - Reservations
 - Cloud
-- SaaS
+- Software-as-a-Service
 website: https://www.mews.com/
 ---

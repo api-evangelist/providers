@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 9
@@ -263,16 +263,16 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: agntcy-mcp.yml
-  slug: agntcy-mcpyml
+  name: AGNTCY MCP Server
+  slug: agntcy-mcp-server
 - description: ''
-  name: dir-mcp
-  slug: dir-mcp
+  name: AGNTCY MCP Server
+  slug: agntcy-mcp-server-2
 modified: '2026-08-19'
 name: AGNTCY
 nav: Providers
 network: true
-overview: 'AGNTCY publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OASF Schema API, Agent Connect Protocol (ACP), Identity Service API, and 1 more. Tagged areas include AI Agents, Interoperability, Specification, Open Source, and Agent Discovery.
+overview: 'AGNTCY publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OASF Schema API, Agent Connect Protocol (ACP), Identity Service API, and 1 more. Tagged areas include AI Agents, Interoperability, Specification, Open-Source, and Agent Discovery.
 
 
   The AGNTCY catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -290,7 +290,8 @@ rate_limits:
   slug: agntcy-rate-limits
 score:
   band: developing
-  composite: 48.4
+  composite: 48.0
+  delta: -0.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -299,7 +300,8 @@ score:
     developer_ergonomics: 80.4
     discoverability: 72.2
     governance: 16.7
-    operational_transparency: 31.6
+    operational_transparency: 28.9
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,8 +312,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Agntcy Authentication
@@ -330,11 +333,11 @@ tags:
 - AI Agents
 - Interoperability
 - Specification
-- Open Source
+- Open-Source
 - Agent Discovery
 - Identity
 - Agent Directory
-- Model Context Protocol
+- MCP
 - A2A
 - OpenAPI
 - gRPC

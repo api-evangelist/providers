@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -298,8 +298,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: alpha-vantage-mcp.yml
-  slug: alpha-vantage-mcpyml
+  name: Alpha Vantage MCP Server
+  slug: alpha-vantage-mcp-server
 modified: '2026-07-22'
 name: Alpha Vantage
 nav: Providers
@@ -349,18 +349,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 57.7
-  delta: -2.6
+  composite: 58.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 41.9
     developer_ergonomics: 75.6
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 10.5
-  previous_composite: 60.3
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -377,8 +377,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png
 security:

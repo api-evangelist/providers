@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Solana wallet provider injected at window.phantom.solana exposing connect, disconnect, signMessage, signIn (Sign-In With Solana), signTransaction, signAllTransactions, and signAndSendTransaction. Impl
@@ -295,7 +295,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 22.2
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -305,16 +305,16 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 27.9
+  previous_composite: 22.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phantom/refs/heads/main/screenshots/phantom-2026-06-20T191634.png
 security:
 - kind: domain-security
@@ -332,7 +332,7 @@ tags:
 - Blockchain
 - Crypto
 - Cryptocurrency
-- Deeplinks
+- Deep Links
 - Embedded Wallet
 - Ethereum
 - EVM
@@ -343,7 +343,7 @@ tags:
 - Self-Custody
 - Solana
 - Sui
-- Wallet
+- Wallets
 - Web3
 website: https://phantom.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-05-19'
 name: Photoroom
 nav: Providers
 network: true
-overview: 'Photoroom publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Edit API, Render API, and 1 more. Tagged areas include AI, Image Editing, Background Removal, E-commerce, and Visual.
+overview: 'Photoroom publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Edit API, Render API, and 1 more. Tagged areas include Artificial Intelligence, Image Editing, Background Removal, E-Commerce, and Visual.
 
 
   Photoroom''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -159,7 +159,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.9
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/screenshots/photoroom-2026-06-20T191651.png
 security:
@@ -182,10 +182,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: photoroom
 tags:
-- AI
+- Artificial Intelligence
 - Image Editing
 - Background Removal
-- E-commerce
+- E-Commerce
 - Visual
 website: https://www.photoroom.com/
 ---

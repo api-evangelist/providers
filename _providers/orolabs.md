@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -99,7 +99,7 @@ overview: 'Orolabs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 19
 score:
   band: emerging
-  composite: 16.8
+  composite: 18.0
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -107,12 +107,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 16.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orolabs/refs/heads/main/screenshots/orolabs-2026-08-07T190948.png
 security:
@@ -135,7 +135,7 @@ tags:
 - Spend Management
 - Supplier Management
 - Agentic AI
-- Workflow Automation
+- Workflow-Automation
 - Enterprise Software
 - ProcureTech
 website: https://orolabs.ai

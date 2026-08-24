@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: The chatbot API from VCV — 2 operation(s) for chatbot.
@@ -254,8 +254,8 @@ image: https://static.tildacdn.net/tild3164-3465-4133-a335-363938393334/vcv_badg
 layout: provider
 mcp_servers:
 - description: ''
-  name: vcv-mcp.yml
-  slug: vcv-mcpyml
+  name: VCV MCP Server
+  slug: vcv-mcp-server
 modified: '2026-07-21'
 name: VCV
 nav: Providers
@@ -271,7 +271,7 @@ random_paper: 20
 score:
   band: developing
   composite: 40.7
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -281,7 +281,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 41.0
+  previous_composite: 40.7
   provenance:
     conformance: derived
     contracts:
@@ -291,8 +291,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

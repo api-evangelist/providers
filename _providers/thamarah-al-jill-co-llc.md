@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the AMUSED Co store implemented with the Universal Commerce Protocol (UCP) over MCP: catalog search/lookup, cart, checkout, fulfillment, discount and order capabiliti'
@@ -95,13 +95,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thamarah-a
 layout: provider
 mcp_servers:
 - description: ''
-  name: thamarah-al-jill-co-llc-mcp.yml
-  slug: thamarah-al-jill-co-llc-mcpyml
+  name: Thamarah Al-Jill Co LLC MCP Server
+  slug: thamarah-al-jill-co-llc-mcp-server
 modified: '2026-07-21'
 name: Thamarah Al-Jill Co LLC
 nav: Providers
 network: true
-overview: 'Thamarah Al-Jill Co LLC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Marketplace, Luxury, and Resale.
+overview: 'Thamarah Al-Jill Co LLC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Luxury, and Resale.
 
 
   Thamarah Al-Jill Co LLC''s developer surface includes authentication and 12 more developer resources.'
@@ -113,24 +113,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.7
-  delta: -0.9
+  composite: 17.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 13.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 17.6
+  previous_composite: 17.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -144,7 +144,7 @@ security:
 slug: thamarah-al-jill-co-llc
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Marketplace
 - Luxury
 - Resale

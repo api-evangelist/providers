@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ modified: '2026-07-18'
 name: CoPlane
 nav: Providers
 network: true
-overview: 'CoPlane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Back Office Automation, AI Agents, and Workflow Automation.
+overview: 'CoPlane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Back Office Automation, AI Agents, and Workflow-Automation.
 
 
   CoPlane''s developer surface includes engineering blog and 7 more developer resources.'
@@ -81,7 +81,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 10.2
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -91,9 +91,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 10.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coplane/refs/heads/main/screenshots/coplane-2026-07-25T210409.png
 security:
@@ -107,7 +107,7 @@ tags:
 - Enterprise Software
 - Back Office Automation
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Finance Operations
 - Procurement
 - ERP

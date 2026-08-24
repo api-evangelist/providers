@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -280,9 +280,9 @@ description: Zerion is an Ethereum and Solana wallet and developer platform focu
 image: https://developers.zerion.io/logo/dark.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: zerion-mcp.yml
-  slug: zerion-mcpyml
+- description: Official hosted Model Context Protocol server exposing the full Zerion API documentation and OpenAPI spec to AI tools. Once connected, an assistant can search the docs and spec in real time while gene
+  name: Zerion MCP Server
+  slug: zerion-mcp-server
 modified: '2026-07-21'
 name: Zerion
 nav: Providers
@@ -306,7 +306,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 67.0
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -316,7 +316,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 68.4
-  previous_composite: 62.4
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,8 +333,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/screenshots/zerion-2026-08-17T083053.png
 security:
@@ -353,12 +353,12 @@ tags:
 - Blockchain
 - Cryptocurrency
 - DeFi
-- Wallet
+- Wallets
 - NFT
 - Ethereum
 - Solana
 - Portfolio
-- Onchain Data
-- Transactions
+- On-Chain Data
+- Transaction
 website: https://developers.zerion.io/
 ---

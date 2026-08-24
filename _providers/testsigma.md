@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API to manage Testsigma entities (projects, applications, environments, elements, uploads, test plans) and to trigger and poll test-plan executions remotely. Authenticated with a Bearer API Key.
@@ -163,13 +163,13 @@ image: https://website-static.testsigma.com/website-next/nextjs/6d1168/favicons/
 layout: provider
 mcp_servers:
 - description: ''
-  name: testsigma-mcp.yml
-  slug: testsigma-mcpyml
+  name: Testsigma MCP Server
+  slug: testsigma-mcp-server
 modified: '2026-07-21'
 name: Testsigma
 nav: Providers
 network: true
-overview: 'Testsigma publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Testing, Test Automation, and QA.
+overview: 'Testsigma publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Testing, Test Automation, and QA.
 
 
   Testsigma''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -177,7 +177,7 @@ random_paper: 11
 score:
   band: developing
   composite: 42.0
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -187,12 +187,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 40.8
+  previous_composite: 42.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -214,7 +214,7 @@ security:
 slug: testsigma
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Testing
 - Test Automation
 - QA

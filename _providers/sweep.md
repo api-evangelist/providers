@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 358
   human_in_the_loop: 358
@@ -177,13 +177,13 @@ image: https://cdn.sanity.io/images/9eu1m6zu/production/374242d70c2b95ec76d45f45
 layout: provider
 mcp_servers:
 - description: ''
-  name: sweep-mcp.yml
-  slug: sweep-mcpyml
+  name: Sweep MCP
+  slug: sweep-mcp
 modified: '2026-08-14'
 name: Sweep
 nav: Providers
 network: true
-overview: 'Sweep publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Salesforce, RevOps, and Metadata.
+overview: 'Sweep publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Salesforce, Revenue Operations, and Metadata.
 
 
   The Sweep catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -212,7 +212,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 54.2
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,8 +223,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/screenshots/sweep-2026-08-17T082224.png
 security:
@@ -245,14 +245,13 @@ tags:
 - Company
 - Cloud
 - Salesforce
-- RevOps
+- Revenue Operations
 - Metadata
 - Governance
 - AI Agents
-- Model Context Protocol
+- MCP
 - Automation
 - Documentation
-- API
 - REST API
 - OpenAPI
 - Enterprise Systems

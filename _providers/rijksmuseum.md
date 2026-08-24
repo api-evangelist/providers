@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -292,18 +292,18 @@ rules:
   slug: rijksmuseum-rules
 score:
   band: thin
-  composite: 36.5
-  delta: -4.9
+  composite: 36.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.6
     developer_ergonomics: 16.7
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 41.4
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -317,8 +317,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/screenshots/rijksmuseum-2026-06-20T193120.png
 security:

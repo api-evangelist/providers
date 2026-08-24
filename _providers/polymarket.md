@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ rules:
 score:
   band: thin
   composite: 38.6
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 41.4
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +217,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/screenshots/polymarket-2026-06-20T191927.png
 security:

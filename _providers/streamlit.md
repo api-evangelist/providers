@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ modified: '2026-05-19'
 name: Streamlit
 nav: Providers
 network: true
-overview: 'Streamlit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Apps API, Secrets API, and Workspaces API. Tagged areas include Data Science, Machine Learning, Open Source, Python, and Web Applications.
+overview: 'Streamlit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Apps API, Secrets API, and Workspaces API. Tagged areas include Data Science, Machine-Learning, Open-Source, Python, and Web Applications.
 
 
   The Streamlit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -222,18 +222,18 @@ rules:
   slug: streamlit-rules
 score:
   band: developing
-  composite: 45.0
-  delta: -6.4
+  composite: 45.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 62.2
     developer_ergonomics: 28.6
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 51.4
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -241,9 +241,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/screenshots/streamlit-2026-06-20T194618.png
 security:
 - kind: authentication
@@ -261,8 +261,8 @@ security:
 slug: streamlit
 tags:
 - Data Science
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Python
 - Web Applications
 website: https://streamlit.io

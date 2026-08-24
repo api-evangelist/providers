@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HTTP-based Remote API served from Webmin's remote.cgi on port 10000. Each call passes a `program` parameter naming one of ~200 command-line programs (create-domain, list-domains, create-user, create-a
@@ -127,8 +127,8 @@ image: https://www.virtualmin.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: virtualmin-mcp.yml
-  slug: virtualmin-mcpyml
+  name: Virtualmin MCP Server
+  slug: virtualmin-mcp-server
 modified: '2026-07-21'
 name: Virtualmin
 nav: Providers
@@ -141,7 +141,7 @@ random_paper: 7
 score:
   band: thin
   composite: 27.9
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -151,11 +151,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 31.0
+  previous_composite: 27.9
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -180,7 +180,7 @@ tags:
 - Databases
 - SSL
 - WordPress
-- Open Source
+- Open-Source
 - Linux
 website: https://www.virtualmin.com/docs/development/
 ---

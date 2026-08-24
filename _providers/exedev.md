@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to the exe.dev command surface. POST the command exactly as typed in the ssh exe.dev REPL to https://exe.dev/exec with an exe1. bearer token; supported commands return JSON via --j
@@ -155,8 +155,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exedev.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: exedev-mcp.yml
-  slug: exedev-mcpyml
+  name: exe.dev MCP Server
+  slug: exedev-mcp-server
 modified: '2026-07-19'
 name: exe.dev
 nav: Providers
@@ -168,24 +168,24 @@ overview: 'exe.dev publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 11
 score:
   band: thin
-  composite: 32.0
-  delta: 0.1
+  composite: 33.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 31.9
+  previous_composite: 33.1
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/screenshots/exedev-2026-07-25T213854.png
 security:

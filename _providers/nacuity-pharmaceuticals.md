@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -224,7 +224,7 @@ modified: '2026-08-04'
 name: Nacuity Pharmaceuticals
 nav: Providers
 network: true
-overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 6 more. Tagged areas include Company, biopharmaceuticals, pharmaceuticals, ophthalmology, and rare-disease.
+overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 6 more. Tagged areas include Company, biopharmaceuticals, Pharmaceuticals, Ophthalmology, and Rare Disease.
 
 
   The Nacuity Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context.
@@ -235,7 +235,7 @@ random_paper: 6
 score:
   band: thin
   composite: 34.4
-  delta: 5.3
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -245,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 29.1
+  previous_composite: 34.4
   provenance:
     conformance: derived
     contracts:
@@ -260,9 +260,9 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/screenshots/nacuity-pharmaceuticals-2026-08-07T184606.png
 security:
 - kind: authentication
@@ -277,14 +277,14 @@ slug: nacuity-pharmaceuticals
 tags:
 - Company
 - biopharmaceuticals
-- pharmaceuticals
-- ophthalmology
-- rare-disease
-- clinical-trials
+- Pharmaceuticals
+- Ophthalmology
+- Rare Disease
+- Clinical Trials
 - retinitis-pigmentosa
 - oxidative-stress
-- life-sciences
-- drug-development
+- Life Sciences
+- Drug Development
 - content-api
 website: https://www.nacuity.com/
 ---

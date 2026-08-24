@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: DocSend's hosted Model Context Protocol server — the only programmatic surface DocSend publishes. An MCP client POSTs Streamable-HTTP JSON-RPC to https://docsend.com/mcp (also reachable at https://mcp
@@ -150,8 +150,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/docsend.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: docsend-mcp.yml
-  slug: docsend-mcpyml
+  name: DocSend MCP Server
+  slug: docsend-mcp-server
 modified: '2026-08-14'
 name: DocSend
 nav: Providers
@@ -180,7 +180,7 @@ scopes:
 score:
   band: developing
   composite: 46.8
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -190,12 +190,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 50.8
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/screenshots/docsend-2026-08-17T123407.png
 security:

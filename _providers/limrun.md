@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -226,8 +226,8 @@ image: https://lim.run/logo-inner-filled-no-border.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: limrun-mcp.yml
-  slug: limrun-mcpyml
+  name: Limrun MCP Server
+  slug: limrun-mcp-server
 modified: '2026-07-19'
 name: Limrun
 nav: Providers
@@ -245,7 +245,7 @@ scopes:
 score:
   band: developing
   composite: 40.1
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -255,7 +255,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 46.5
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,9 +266,9 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/screenshots/limrun-2026-07-25T225212.png
 security:
 - kind: authentication
@@ -296,7 +296,7 @@ tags:
 - Developer Tools
 - Testing
 - Agents
-- Model Context Protocol
+- MCP
 - Sandboxes
 - Xcode
 website: https://lim.run

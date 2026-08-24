@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service on Andium's merchandise storefront, exposed as a Model Context Protocol endpoint over JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, pro
@@ -129,8 +129,8 @@ image: https://images.prismic.io/andium/a928cac3-dcf8-4940-b631-975802d4ceb0_met
 layout: provider
 mcp_servers:
 - description: ''
-  name: andium-mcp.yml
-  slug: andium-mcpyml
+  name: Andium Store UCP/MCP
+  slug: andium-store-ucpmcp
 modified: '2026-08-06'
 name: Andium
 nav: Providers
@@ -148,7 +148,7 @@ scopes:
 score:
   band: thin
   composite: 26.3
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -158,7 +158,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 26.9
+  previous_composite: 26.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -169,8 +169,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/screenshots/andium-2026-08-07T161400.png
 security:
@@ -191,9 +191,9 @@ tags:
 - Remote Monitoring
 - Methane Detection
 - Emissions
-- Computer Vision
+- Computer-Vision
 - Edge Computing
 - Commerce
-- Model Context Protocol
+- MCP
 website: https://www.andium.com/
 ---

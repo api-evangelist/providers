@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -323,9 +323,9 @@ jsonld:
   slug: squarespace-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: squarespace-mcp.yml
-  slug: squarespace-mcpyml
+- description: Squarespace operates a first-party REMOTE MCP server at https://mcp.squarespace.com/mcp. It answers an unauthenticated JSON-RPC tools/list with HTTP 200 and returns two real tools with full JSON Schem
+  name: Squarespace MCP Server
+  slug: squarespace-mcp-server
 modified: '2026-08-13'
 name: Squarespace
 nav: Providers
@@ -386,18 +386,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 76.1
-  delta: 6.3
+  composite: 76.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 28.0
+    contract_governance: 30.3
     contract_quality: 78.0
     developer_ergonomics: 58.9
     discoverability: 64.8
-    governance: 28.0
+    governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 69.8
+  previous_composite: 76.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,9 +414,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/screenshots/squarespace-2026-06-20T194430.png
 security:
 - kind: authentication
@@ -443,6 +443,6 @@ tags:
 - Payments
 - Retail
 - Website Builder
-- Webhooks
+- Webhook
 website: https://www.squarespace.com
 ---

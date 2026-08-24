@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ modified: '2026-05-25'
 name: Routific
 nav: Providers
 network: true
-overview: 'Routific publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Fix API, Jobs API, PDP API, and 1 more. Tagged areas include RouteOptimization, VRP, PickupAndDelivery, Logistics, and LastMileDelivery.
+overview: 'Routific publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Fix API, Jobs API, PDP API, and 1 more. Tagged areas include Route Optimization, VRP, Pickup and Delivery, Logistics, and Last Mile Delivery.
 
 
   The Routific catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -261,18 +261,18 @@ rules:
   slug: routific-rules
 score:
   band: strong
-  composite: 55.3
-  delta: -5.4
+  composite: 55.8
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.7
     developer_ergonomics: 38.1
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 60.7
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     contracts:
@@ -280,9 +280,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/screenshots/routific-2026-06-20T193228.png
 security:
 - kind: authentication
@@ -295,14 +295,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: routific
 tags:
-- RouteOptimization
+- Route Optimization
 - VRP
-- PickupAndDelivery
+- Pickup and Delivery
 - Logistics
-- LastMileDelivery
+- Last Mile Delivery
 - Delivery
-- FleetManagement
+- Fleet Management
 - Dispatch
-- DeliveryManagement
+- Delivery Management
 website: https://routific.com
 ---

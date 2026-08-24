@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -189,13 +189,13 @@ image: https://developers.tictactrip.eu/img/logoTextBlack.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: tictactrip-mcp.yml
-  slug: tictactrip-mcpyml
+  name: TicTacTrip MCP Server
+  slug: tictactrip-mcp-server
 modified: '2026-07-21'
 name: TicTacTrip
 nav: Providers
 network: true
-overview: 'TicTacTrip publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Booking API, Cities API, and 4 more. Tagged areas include Company, Travel, Transportation, Trains, and Buses.
+overview: 'TicTacTrip publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Booking API, Cities API, and 4 more. Tagged areas include Company, Travel, Transportation, Trains, and Bus.
 
 
   TicTacTrip''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 19 more developer resources.'
@@ -203,7 +203,7 @@ random_paper: 8
 score:
   band: thin
   composite: 38.6
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -213,7 +213,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 38.2
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,8 +224,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -242,10 +242,10 @@ tags:
 - Travel
 - Transportation
 - Trains
-- Buses
+- Bus
 - Booking
 - Mobility
-- Multimodal
+- Multi-Modal
 - Ticketing
 website: https://tictactrip.eu/
 ---

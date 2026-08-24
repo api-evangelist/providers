@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -243,7 +243,7 @@ modified: '2026-05-23'
 name: Penn Medicine
 nav: Providers
 network: true
-overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Hospital, Academic Medical Center, FHIR, and SMART On FHIR.
+overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Hospital, Academic Medical Center, FHIR, and SMART on FHIR.
 
 
   The Penn Medicine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -288,18 +288,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.5
-  delta: -2.2
+  composite: 51.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 66.4
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 34.2
-  previous_composite: 52.7
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -313,8 +313,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/screenshots/penn-medicine-2026-06-20T191538.png
 security:
@@ -341,7 +341,7 @@ tags:
 - Hospital
 - Academic Medical Center
 - FHIR
-- SMART On FHIR
+- SMART on FHIR
 - Patient Access
 - Provider Directory
 - CMS Interoperability

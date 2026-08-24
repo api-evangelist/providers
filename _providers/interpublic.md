@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: WordPress core content API for the Interpublic Group corporate site - posts, pages, media, taxonomies, users, settings, blocks and templates. Read collections (posts, pages, media, categories, tags, s
@@ -171,7 +171,7 @@ rules:
 score:
   band: thin
   composite: 26.5
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 28.1
+  previous_composite: 26.5
   provenance:
     conformance: derived
     contracts:
@@ -190,8 +190,8 @@ score:
       marker_coverage: 0.0
       total: 4
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/screenshots/interpublic-2026-06-20T183507.png
 security:

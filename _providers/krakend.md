@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ modified: '2026-05-19'
 name: KrakenD
 nav: Providers
 network: true
-overview: 'KrakenD publishes 3 APIs on the [APIs.io](https://apis.io/) network: Debug API, Health API, and Metrics API. Tagged areas include Aggregation, API Gateway, Go, and Open Source.
+overview: 'KrakenD publishes 3 APIs on the [APIs.io](https://apis.io/) network: Debug API, Health API, and Metrics API. Tagged areas include Aggregation, API Gateway, Go, and Open-Source.
 
 
   The KrakenD catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -226,7 +226,7 @@ rules:
 score:
   band: thin
   composite: 32.5
-  delta: -8.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -236,7 +236,7 @@ score:
     discoverability: 53.7
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 41.3
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -244,9 +244,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/screenshots/krakend-2026-06-20T184150.png
 security:
 - kind: domain-security
@@ -258,6 +258,6 @@ tags:
 - Aggregation
 - API Gateway
 - Go
-- Open Source
+- Open-Source
 website: https://www.krakend.io/
 ---

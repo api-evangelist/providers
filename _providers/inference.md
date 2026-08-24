@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API for open-source, frontier, and custom language models — chat completions, batch/async inference, function calling, structured outputs, and vision — authenticated with a
@@ -147,14 +147,14 @@ description: Inference (inference.net) is an AI infrastructure platform for AI-n
 image: https://inference.net/og/home.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: inference-mcp.yml
-  slug: inference-mcpyml
+- description: 'The Inference MCP server lets compatible AI coding assistants query and operate Catalyst resources (projects, agents, models, datasets, rubrics, evals, training jobs, deployments, inferences, traces, '
+  name: Inference MCP Server
+  slug: inference-mcp-server
 modified: '2026-07-19'
 name: Inference
 nav: Providers
 network: true
-overview: 'Inference publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Inference.
+overview: 'Inference publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
 
 
   The Inference catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.5
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 80.3
     commercial_clarity: 80.3
@@ -183,12 +183,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 57.2
+  previous_composite: 54.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/screenshots/inference-2026-07-25T222358.png
 security:
@@ -204,7 +204,7 @@ slug: inference
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Inference
 - Observability

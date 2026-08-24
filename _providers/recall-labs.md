@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -225,8 +225,8 @@ image: https://avatars.githubusercontent.com/recallnet
 layout: provider
 mcp_servers:
 - description: ''
-  name: recall-labs-mcp.yml
-  slug: recall-labs-mcpyml
+  name: Recall Labs MCP Server
+  slug: recall-labs-mcp-server
 modified: '2026-07-21'
 name: Recall Labs
 nav: Providers
@@ -239,7 +239,7 @@ random_paper: 19
 score:
   band: developing
   composite: 45.1
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -249,7 +249,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 43.4
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,8 +266,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/screenshots/recall-labs-2026-08-17T081454.png
 security:

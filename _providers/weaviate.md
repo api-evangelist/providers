@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 3
@@ -1614,7 +1614,7 @@ modified: '2026-05-19'
 name: Weaviate
 nav: Providers
 network: true
-overview: 'Weaviate publishes 22 APIs on the [APIs.io](https://apis.io/) network, including authz API, backups API, batch API, and 19 more. Tagged areas include Vector Database, AI, Machine Learning, Semantic Search, and Open Source.
+overview: 'Weaviate publishes 22 APIs on the [APIs.io](https://apis.io/) network, including authz API, backups API, batch API, and 19 more. Tagged areas include Vector Database, Artificial Intelligence, Machine-Learning, Semantic Search, and Open-Source.
 
 
   The Weaviate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1654,18 +1654,18 @@ rules:
   slug: weaviate-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: -6.2
+  composite: 49.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 56.9
     developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 55.2
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1673,9 +1673,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/screenshots/weaviate-2026-06-20T201320.png
 security:
 - kind: authentication
@@ -1699,10 +1699,10 @@ skills:
 slug: weaviate
 tags:
 - Vector Database
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Semantic Search
-- Open Source
+- Open-Source
 - GraphQL
 - Kubernetes
 use_cases:

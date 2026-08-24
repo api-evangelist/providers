@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API to embed IRS-authorized income-tax preparation and e-filing. Create a Column Tax user, obtain a short-lived authenticated URL to launch the embedded filing UI, list a user's tax returns and j
@@ -159,8 +159,8 @@ image: https://cdn.prod.website-files.com/6262ffa3aeadc15ee876298b/627bf917c708f
 layout: provider
 mcp_servers:
 - description: ''
-  name: column-tax-mcp.yml
-  slug: column-tax-mcpyml
+  name: Column Tax MCP Server
+  slug: column-tax-mcp-server
 modified: '2026-07-18'
 name: Column Tax
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 3
 score:
   band: developing
   composite: 39.8
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -186,7 +186,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 44.0
+  previous_composite: 39.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -196,8 +196,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/column-tax/refs/heads/main/screenshots/column-tax-2026-07-25T210102.png
 security:
@@ -217,8 +217,8 @@ tags:
 - Tax Filing
 - Embedded Finance
 - E-File
-- Financial Services
+- Financial-Services
 - Banking
-- API First
+- API-First
 website: https://www.columntax.com/
 ---

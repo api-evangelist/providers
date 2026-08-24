@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 6
@@ -363,13 +363,13 @@ image: https://www.asksage.ai/wp-content/uploads/2021/06/3_WHT.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ask-sage-mcp.yml
-  slug: ask-sage-mcpyml
+  name: Ask Sage MCP Server
+  slug: ask-sage-mcp-server
 modified: '2026-07-18'
 name: Ask Sage
 nav: Providers
 network: true
-overview: 'Ask Sage publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent Builder API, Allocation API, and 29 more. Tagged areas include Company, Ai, Generative AI, Large Language Models, and Government.
+overview: 'Ask Sage publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent Builder API, Allocation API, and 29 more. Tagged areas include Company, Artificial Intelligence, Generative AI, Large Language Models, and Government.
 
 
   Ask Sage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -377,7 +377,7 @@ random_paper: 3
 score:
   band: developing
   composite: 44.8
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -387,7 +387,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 49.6
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -404,8 +404,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/screenshots/ask-sage-2026-07-25T201421.png
 security:
@@ -424,7 +424,7 @@ security:
 slug: ask-sage
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Generative AI
 - Large Language Models
 - Government

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 28
 apis:
 - description: Pipeline actions
@@ -344,31 +344,31 @@ image: https://avatars.githubusercontent.com/u/32700669?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: seqera-labs-mcp.yml
-  slug: seqera-labs-mcpyml
+  name: Seqera Labs MCP Server
+  slug: seqera-labs-mcp-server
 modified: '2026-07-21'
 name: Seqera Labs
 nav: Providers
 network: true
-overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network, including actions API, admin API, agents API, and 25 more. Tagged areas include Company, Bioinformatics, Workflow Orchestration, Data Pipelines, and Scientific Computing.
+overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network, including actions API, admin API, agents API, and 25 more. Tagged areas include Company, Bioinformatics, Workflow Orchestration, Data Pipeline, and Scientific Computing.
 
 
   Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
 random_paper: 12
 score:
   band: strong
-  composite: 56.9
-  delta: 4.4
+  composite: 58.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 16.7
     contract_quality: 53.5
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 52.5
+  previous_composite: 58.0
   provenance:
     conformance: derived
     contracts:
@@ -384,8 +384,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/screenshots/seqera-labs-2026-08-17T081807.png
 security:
@@ -410,7 +410,7 @@ tags:
 - Company
 - Bioinformatics
 - Workflow Orchestration
-- Data Pipelines
+- Data Pipeline
 - Scientific Computing
 - Nextflow
 - Cloud Compute

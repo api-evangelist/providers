@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-21'
 name: Route
 nav: Providers
 network: true
-overview: 'Route is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, E-commerce, Shipping, and Package Tracking.
+overview: 'Route is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, E-Commerce, Shipping, and Package Tracking.
 
 
   Route''s developer surface includes documentation, API reference, support, pricing, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 11.0
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -94,9 +94,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -106,8 +106,8 @@ security:
 slug: route
 tags:
 - Company
-- SaaS
-- E-commerce
+- Software-as-a-Service
+- E-Commerce
 - Shipping
 - Package Tracking
 - Shipping Protection

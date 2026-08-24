@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 27
 common:
@@ -176,7 +176,7 @@ modified: '2026-05-23'
 name: GSK
 nav: Providers
 network: true
-overview: 'GSK is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Biotechnology, Vaccines, HIV, and Oncology.
+overview: 'GSK is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biotechnology, Vaccines, HIV, and Oncology.
 
 
   GSK''s developer surface includes YouTube channel, engineering blog, changelog, support, and 19 more developer resources.'
@@ -184,7 +184,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 18.1
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -194,15 +194,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 18.6
+  previous_composite: 18.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gsk/refs/heads/main/screenshots/gsk-2026-06-20T182422.png
 security:
@@ -216,13 +216,13 @@ security:
   summary_line: security.txt · contact published
 slug: gsk
 tags:
-- Pharmaceutical
+- Pharmaceuticals
 - Biotechnology
 - Vaccines
 - HIV
 - Oncology
 - Healthcare
-- ClinicalTrials
+- Clinical Trials
 use_cases:
 - description: Find and link GSK-sponsored studies into clinical research and evidence-generation platforms via the GSK Study Register and ClinicalTrials.gov.
   name: Clinical Research Data Discovery

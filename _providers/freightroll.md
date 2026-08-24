@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,8 +70,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freightrol
 layout: provider
 mcp_servers:
 - description: ''
-  name: freightroll-mcp.yml
-  slug: freightroll-mcpyml
+  name: FreightRoll MCP Server
+  slug: freightroll-mcp-server
 modified: '2026-07-19'
 name: FreightRoll
 nav: Providers
@@ -84,7 +84,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 11.4
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -94,11 +94,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.0
+  previous_composite: 11.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freightroll/refs/heads/main/screenshots/freightroll-2026-07-25T215156.png
 security:

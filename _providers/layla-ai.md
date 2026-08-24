@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'White-label AI travel agent that travel companies can embed on their own site, customized with brand voice, colors, and inventory. Marketed as a low-code / no-code deployment with commission share on '
@@ -97,7 +97,7 @@ modified: '2026-07-25'
 name: Layla AI
 nav: Providers
 network: true
-overview: 'Layla AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Travel, Itinerary Planning, Conversational AI, and White Label.
+overview: 'Layla AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Travel, Itinerary Planning, Conversational AI, and White Label.
 
 
   Layla AI''s developer surface includes engineering blog and 11 more developer resources.'
@@ -124,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layla-ai/refs/heads/main/screenshots/layla-ai-2026-06-20T184413.png
 security:
@@ -139,7 +139,7 @@ security:
   summary_line: security.txt · contact published
 slug: layla-ai
 tags:
-- AI
+- Artificial Intelligence
 - Travel
 - Itinerary Planning
 - Conversational AI

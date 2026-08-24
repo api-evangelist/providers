@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: A Prometheus-compatible read API for querying Embrace metrics with PromQL. Standard Embrace metrics and any Custom Metrics an organization has created are queryable across one app, several apps, or ev
@@ -183,9 +183,9 @@ description: Embrace is a user-focused observability platform for mobile and web
 image: https://embrace.io/wp-content/uploads/2023/07/Embrace-Logo-Pref-Lead-on-Yellow_1200x627.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: embrace-mcp.yml
-  slug: embrace-mcpyml
+- description: The Embrace MCP server exposes an organization's real-user mobile and web observability data — apps, crashes, exceptions, logs, sessions, spans and network endpoints — to MCP-capable AI assistants. Sh
+  name: Embrace MCP Server
+  slug: embrace-mcp-server
 modified: '2026-08-12'
 name: Embrace
 nav: Providers
@@ -214,7 +214,7 @@ scopes:
 score:
   band: strong
   composite: 62.5
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -224,13 +224,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 66.5
+  previous_composite: 62.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/screenshots/embrace-2026-08-17T080406.png
 security:
@@ -262,6 +262,6 @@ tags:
 - Crash Reporting
 - Application Performance Monitoring
 - Developer Tools
-- Model Context Protocol
+- MCP
 website: https://embrace.io/
 ---

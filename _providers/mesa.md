@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Exchange API keys for a session token.
@@ -148,8 +148,8 @@ image: https://www.joinmesa.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: mesa-mcp.yml
-  slug: mesa-mcpyml
+  name: Mesa MCP Server
+  slug: mesa-mcp-server
 modified: '2026-07-20'
 name: Mesa
 nav: Providers
@@ -162,7 +162,7 @@ random_paper: 2
 score:
   band: thin
   composite: 27.9
-  delta: -18.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -172,7 +172,7 @@ score:
     discoverability: 70.4
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 45.9
+  previous_composite: 27.9
   provenance:
     conformance: first-party
     contracts:
@@ -188,9 +188,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/screenshots/mesa-2026-08-07T172620.png
 security:
 - kind: authentication

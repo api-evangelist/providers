@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: AskNicely's remote Model Context Protocol server, exposing Ask NiceAI's tools — NPS summaries, survey responses, leaderboards and more — to external AI clients such as Claude. Served per tenant at htt
@@ -203,14 +203,14 @@ description: AskNicely is a customer-experience (CX) platform for service busine
 image: https://cdn.prod.website-files.com/5e55a51f5f18f823ee05f445/5ec34b022aca806dce613ba4_AN_logo_white.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: asknicely-mcp.yml
-  slug: asknicely-mcpyml
+- description: AskNicely ships a first-party remote MCP server that exposes Ask NiceAI — its in-product AI assistant — to external MCP clients. It is served per tenant at https://{domain}.asknice.ly/mcp and is docum
+  name: AskNicely MCP Server
+  slug: asknicely-mcp-server
 modified: '2026-08-06'
 name: AskNicely
 nav: Providers
 network: true
-overview: 'AskNicely publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, In-App Surveys API, Responses API, and 2 more. Tagged areas include Company, Customer Experience, Net Promoter Score, Surveys, and Feedback.
+overview: 'AskNicely publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, In-App Surveys API, Responses API, and 2 more. Tagged areas include Company, Customer Experience, NPS, Surveys, and Feedback.
 
 
   The AskNicely catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -230,7 +230,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.5
-  delta: 5.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -240,7 +240,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 81.6
-  previous_composite: 63.1
+  previous_composite: 68.5
   provenance:
     conformance: derived
     contracts:
@@ -256,9 +256,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/screenshots/asknicely-2026-08-07T161800.png
 security:
 - kind: authentication
@@ -277,11 +277,11 @@ slug: asknicely
 tags:
 - Company
 - Customer Experience
-- Net Promoter Score
+- NPS
 - Surveys
 - Feedback
 - Reputation Management
-- SaaS
+- Software-as-a-Service
 - Customer Success
 - Reviews
 - SMS

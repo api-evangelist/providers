@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -261,13 +261,13 @@ image: https://www.picussecurity.com/hubfs/Picus_February2020/images/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: picus-security-mcp.yml
-  slug: picus-security-mcpyml
+  name: Picus Security MCP Server
+  slug: picus-security-mcp-server
 modified: '2026-08-02'
 name: Picus Security
 nav: Providers
 network: true
-overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity Logs API, Agents API, Authentication API, and 11 more. Tagged areas include cybersecurity, security-validation, breach-and-attack-simulation, adversarial-exposure-validation, and continuous-threat-exposure-management.
+overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity Logs API, Agents API, Authentication API, and 11 more. Tagged areas include Cybersecurity, Security Validation, Breach and Attack Simulation, Adversarial Exposure Validation, and Continuous Threat Exposure Management.
 
 
   Picus Security''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 27 more developer resources.'
@@ -279,7 +279,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.6
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -289,7 +289,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 59.2
-  previous_composite: 56.2
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -300,8 +300,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/screenshots/picus-security-2026-08-17T081225.png
 security:
@@ -323,15 +323,15 @@ security:
   summary_line: ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 22301, ISO/IEC 20000-1, SOC 2 Type 2, CSA STAR Level One
 slug: picus-security
 tags:
-- cybersecurity
-- security-validation
-- breach-and-attack-simulation
-- adversarial-exposure-validation
-- continuous-threat-exposure-management
-- penetration-testing
-- threat-intelligence
+- Cybersecurity
+- Security Validation
+- Breach and Attack Simulation
+- Adversarial Exposure Validation
+- Continuous Threat Exposure Management
+- Penetration Testing
+- Threat Intelligence
 - mitre-attack
-- detection-engineering
-- security-operations
+- Detection Engineering
+- Security Operations
 website: https://www.picussecurity.com/
 ---

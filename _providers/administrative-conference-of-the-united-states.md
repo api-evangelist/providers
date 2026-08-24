@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'ACUS maintains an online database of Equal Access to Justice Act (EAJA) awards, tracking awards of attorney''s fees and other costs against the United States government. ACUS collects and reports this '
@@ -89,7 +89,7 @@ modified: '2026-04-19'
 name: Administrative Conference of the United States
 nav: Providers
 network: true
-overview: 'Administrative Conference of the United States publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Regulatory Reform, Administrative Law, Government Efficiency, and Open Data.
+overview: 'Administrative Conference of the United States publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Regulatory Reform, Administrative Law, Government Efficiency, and Open Data.
 
 
   Administrative Conference of the United States'' developer surface includes developer portal and 5 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -115,15 +115,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 11.7
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -132,7 +132,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: administrative-conference-of-the-united-states
 tags:
-- Federal Government
+- Federal-Government
 - Regulatory Reform
 - Administrative Law
 - Government Efficiency

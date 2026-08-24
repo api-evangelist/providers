@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -85,7 +85,7 @@ modified: '2026-07-25'
 name: U.S. Immigration and Customs Enforcement (ICE)
 nav: Providers
 network: true
-overview: 'U.S. Immigration and Customs Enforcement (ICE) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Customs Enforcement, DHS, Federal Government, Government, and Immigration.
+overview: 'U.S. Immigration and Customs Enforcement (ICE) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Customs Enforcement, DHS, Federal-Government, Government, and Immigration.
 
 
   U.S. Immigration and Customs Enforcement (ICE)''s developer surface includes product news and 9 more developer resources.'
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.6
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -111,15 +111,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.4
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ice/refs/heads/main/screenshots/ice-2026-06-20T183202.png
 security:
@@ -131,7 +131,7 @@ slug: ice
 tags:
 - Customs Enforcement
 - DHS
-- Federal Government
+- Federal-Government
 - Government
 - Immigration
 - Law Enforcement

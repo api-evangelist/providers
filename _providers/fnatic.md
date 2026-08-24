@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -219,9 +219,9 @@ description: 'Fnatic is a London-headquartered global esports performance brand 
 image: https://cdn.sanity.io/images/5gii1snx/production/a1e70e04e9186899208f8b42117b105a1126ce16-1200x630.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: fnatic-mcp.yml
-  slug: fnatic-mcpyml
+- description: 'Fnatic serves one live MCP endpoint from its own shop host: the Universal Commerce Protocol (UCP) shopping service at https://shop.fnatic.com/api/ucp/mcp. It is advertised in Fnatic''s own /agents.md a'
+  name: Fnatic MCP Server
+  slug: fnatic-mcp-server
 modified: '2026-08-04'
 name: Fnatic
 nav: Providers
@@ -239,7 +239,7 @@ scopes:
 score:
   band: thin
   composite: 35.0
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -249,14 +249,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 37.0
+  previous_composite: 35.0
   provenance:
     agentic_access: first-party
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/screenshots/fnatic-2026-08-07T165400.png
 security:
@@ -278,13 +278,13 @@ tags:
 - Consumer Electronics
 - Gaming Hardware
 - Apparel
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Agentic Commerce
 - Shopify
 - GraphQL
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - United Kingdom
 website: https://fnatic.com/
 ---

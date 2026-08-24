@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -398,7 +398,7 @@ modified: '2026-05-25'
 name: Prime Intellect
 nav: Providers
 network: true
-overview: 'Prime Intellect publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Sandbox API, Training API, Inference API, and 17 more. Tagged areas include AI, Artificial Intelligence, Reinforcement Learning, GPU Compute, and Decentralized Compute.
+overview: 'Prime Intellect publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Sandbox API, Training API, Inference API, and 17 more. Tagged areas include Artificial Intelligence, Reinforcement Learning, GPU Compute, Decentralized Compute, and Foundation Models.
 
 
   The Prime Intellect catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -428,7 +428,7 @@ rules:
 score:
   band: strong
   composite: 55.6
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -438,7 +438,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 60.1
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     contracts:
@@ -446,8 +446,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/screenshots/prime-intellect-2026-06-20T192203.png
 security:
@@ -465,7 +465,6 @@ security:
   summary_line: disclosure policy published
 slug: prime-intellect
 tags:
-- AI
 - Artificial Intelligence
 - Reinforcement Learning
 - GPU Compute
@@ -477,7 +476,7 @@ tags:
 - Environments
 - Evaluations
 - LoRA
-- Open Source
+- Open-Source
 - Agents
 website: https://www.primeintellect.ai
 ---

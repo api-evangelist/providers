@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -419,13 +419,13 @@ image: https://cdn.prod.website-files.com/656ef2eb27ad41897248f866/6a50ff4e64f5c
 layout: provider
 mcp_servers:
 - description: ''
-  name: alasco-mcp.yml
-  slug: alasco-mcpyml
+  name: Alasco MCP Server
+  slug: alasco-mcp-server
 modified: '2026-07-17'
 name: Alasco
 nav: Providers
 network: true
-overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Annual Consumption API, Asset API, Audit Log API, and 37 more. Tagged areas include Company, Ai Enterprise Software, Real Estate, Construction, and PropTech.
+overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Annual Consumption API, Asset API, Audit Log API, and 37 more. Tagged areas include Company, Ai Enterprise Software, Real-Estate, Construction, and PropTech.
 
 
   Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 25 more developer resources.'
@@ -433,7 +433,7 @@ random_paper: 18
 score:
   band: developing
   composite: 52.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -443,7 +443,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 52.4
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -454,8 +454,8 @@ score:
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/screenshots/alasco-2026-07-25T195534.png
 security:
@@ -479,7 +479,7 @@ slug: alasco
 tags:
 - Company
 - Ai Enterprise Software
-- Real Estate
+- Real-Estate
 - Construction
 - PropTech
 - Financial Management

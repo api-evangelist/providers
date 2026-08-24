@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 1
@@ -352,14 +352,14 @@ description: 'Figment is an institutional staking infrastructure provider that r
 image: https://www.figment.io/wp-content/uploads/2024/06/Site-Preview.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: figment-mcp.yml
-  slug: figment-mcpyml
+- description: Model Context Protocol endpoint served at Figment's documentation host. A GET returns "This URL can only be accessed with a MCP client." (HTTP 200, text/html); a JSON-RPC POST returns HTTP 401 with {"
+  name: Figment MCP Server
+  slug: figment-mcp-server
 modified: '2026-08-04'
 name: Figment
 nav: Providers
 network: true
-overview: 'Figment publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Aptos API, Avalanche API, and 21 more. Tagged areas include staking, blockchain, digital-assets, proof-of-stake, and validators.
+overview: 'Figment publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Aptos API, Avalanche API, and 21 more. Tagged areas include Staking, Blockchain, Digital Assets, Proof of Stake, and Validators.
 
 
   Figment''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
@@ -371,7 +371,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -381,7 +381,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 58.8
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -392,9 +392,9 @@ score:
       total: 24
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/screenshots/figment-2026-08-07T165258.png
 security:
 - kind: authentication
@@ -415,17 +415,17 @@ security:
   summary_line: SOC 2 Type II, ISO Certificate
 slug: figment
 tags:
-- staking
-- blockchain
-- digital-assets
-- proof-of-stake
-- validators
-- institutional-finance
+- Staking
+- Blockchain
+- Digital Assets
+- Proof of Stake
+- Validators
+- Institutional Finance
 - rewards-reporting
-- ethereum
-- solana
-- web3-infrastructure
-- custody
+- Ethereum
+- Solana
+- Web3 Infrastructure
+- Custody
 - x402
 website: https://www.figment.io/
 ---

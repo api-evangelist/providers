@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ modified: '2026-05-11'
 name: Smartsheet
 nav: Providers
 network: true
-overview: 'Smartsheet publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Columns API, Reports API, Rows API, and 2 more. Tagged areas include Work Management, Project Management, Collaboration, Productivity, and Workflow Automation.
+overview: 'Smartsheet publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Columns API, Reports API, Rows API, and 2 more. Tagged areas include Work Management, Project Management, Collaboration, Productivity, and Workflow-Automation.
 
 
   Smartsheet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 10 more developer resources.'
@@ -166,7 +166,7 @@ scopes:
 score:
   band: thin
   composite: 36.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 37.4
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/screenshots/smartsheet-2026-06-20T194052.png
 security:
@@ -211,7 +211,7 @@ tags:
 - Project Management
 - Collaboration
 - Productivity
-- Workflow Automation
+- Workflow-Automation
 - Spreadsheets
 website: https://www.smartsheet.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single-operation product search API behind the Ibotta browser extension. POST /openai/search accepts an array of keyword queries plus limit / minPrice / maxPrice / storeId filters and returns products
@@ -133,13 +133,13 @@ image: https://images.ctfassets.net/zgieqvh3kubv/59XQvan2WhYzTi2PwaCGQV/45445535
 layout: provider
 mcp_servers:
 - description: ''
-  name: ibotta-mcp.yml
-  slug: ibotta-mcpyml
+  name: Ibotta MCP Server
+  slug: ibotta-mcp-server
 modified: '2026-08-12'
 name: Ibotta
 nav: Providers
 network: true
-overview: 'Ibotta publishes 1 API on the [APIs.io](https://apis.io/) network: Product API. Tagged areas include Company, Consumer, Cash Back, Rewards, and Retail Media.
+overview: 'Ibotta publishes 1 API on the [APIs.io](https://apis.io/) network: Product API. Tagged areas include Company, Consumer, Cashback, Rewards, and Retail Media.
 
 
   Ibotta''s developer surface includes engineering blog, support, documentation, getting-started guide, and 17 more developer resources.'
@@ -160,7 +160,7 @@ scopes:
 score:
   band: thin
   composite: 33.1
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -170,7 +170,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 38.9
+  previous_composite: 33.1
   provenance:
     conformance: derived
     contracts:
@@ -180,9 +180,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/screenshots/ibotta-2026-07-25T221955.png
 security:
 - kind: authentication
@@ -201,7 +201,7 @@ slug: ibotta
 tags:
 - Company
 - Consumer
-- Cash Back
+- Cashback
 - Rewards
 - Retail Media
 - Coupons
@@ -211,7 +211,7 @@ tags:
 - Promotions
 - Product Search
 - Retail
-- Affiliate
+- Affiliates
 - CPG
 website: https://home.ibotta.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -85,6 +85,10 @@ collections:
   name: Oracle Container Engine for Kubernetes (OKE) API
   slug: open-oracle-container-engine
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -137,14 +141,14 @@ finops:
   slug: oracle-container-engine-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-container-engine.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Oracle Container Engine for Kubernetes
 nav: Providers
 network: true
 overview: 'Oracle Container Engine for Kubernetes publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Clusters API, Credentials API, and 3 more. Tagged areas include Cloud, Containers, Kubernetes, Oracle, and Orchestration.
 
 
-  Oracle Container Engine for Kubernetes'' developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 5 more developer resources.'
+  Oracle Container Engine for Kubernetes'' developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 6 more developer resources.'
 plans:
 - name: Oracle Container Engine Plans Pricing
   plan_count: 3
@@ -157,7 +161,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.8
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -167,7 +171,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.4
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/screenshots/oracle-container-engine-2026-06-20T191124.png
 security:

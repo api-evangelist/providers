@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: OAuth 1.0a (HMAC-SHA1) REST API on the ciloo/v1 namespace of a Ciloo brand store. Read, add, update and remove cart items; mint per-customer OAuth credentials from admin credentials; and issue one-hou
@@ -149,13 +149,13 @@ image: https://ciloo.com/wp-content/uploads/2022/01/Ciloo-Logo-2021.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ciloo-mcp.yml
-  slug: ciloo-mcpyml
+  name: Ciloo MCP Server
+  slug: ciloo-mcp-server
 modified: '2026-08-12'
 name: Ciloo
 nav: Providers
 network: true
-overview: 'Ciloo publishes 1 API on the [APIs.io](https://apis.io/) network: Cart API. Tagged areas include Company, Printing, Branded Merchandise, Promotional Products, and Print On Demand.
+overview: 'Ciloo publishes 1 API on the [APIs.io](https://apis.io/) network: Cart API. Tagged areas include Company, Printing, Branded Merchandise, Promotional Products, and Print on Demand.
 
 
   The Ciloo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: -14.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -184,7 +184,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 47.1
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
@@ -194,9 +194,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/screenshots/ciloo-2026-08-17T080820.png
 security:
 - kind: authentication
@@ -213,8 +213,8 @@ tags:
 - Printing
 - Branded Merchandise
 - Promotional Products
-- Print On Demand
-- eCommerce
+- Print on Demand
+- E-Commerce
 - Digital Asset Management
 - Procurement
 - Fulfillment

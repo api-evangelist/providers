@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -404,18 +404,18 @@ overview: 'Isometric publishes 35 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 9
 score:
   band: thin
-  composite: 28.8
-  delta: 0.4
+  composite: 30.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 59.0
     developer_ergonomics: 45.2
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 28.4
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -429,8 +429,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/screenshots/isometric-2026-06-20T183619.png
 security:
@@ -468,7 +468,7 @@ tags:
 - LCA
 - Greenhouse Gas
 - Protocols
-- AI
+- Artificial Intelligence
 - MCP
 website: https://isometric.com
 ---

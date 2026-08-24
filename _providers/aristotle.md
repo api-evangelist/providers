@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: Aristotle
 nav: Providers
 network: true
-overview: 'Aristotle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Education, EdTech, and Tutoring.
+overview: 'Aristotle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Education, EdTech, and Tutoring.
 
 
   Aristotle''s developer surface includes getting-started guide, pricing, engineering blog, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 15.2
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.5
+  previous_composite: 15.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 25.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aristotle/refs/heads/main/screenshots/aristotle-2026-07-25T201152.png
 security:
@@ -109,7 +109,7 @@ security:
 slug: aristotle
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Education
 - EdTech
 - Tutoring

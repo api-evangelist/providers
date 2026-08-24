@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The DOJ News API exposes more than 14,000 press releases, speeches, and blog entries from the Office of Public Affairs as a JSON web service. Endpoints under /api/v1/ provide list and detail views for
@@ -154,7 +154,7 @@ modified: '2026-04-28'
 name: Department of Justice
 nav: Providers
 network: true
-overview: 'Department of Justice publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bureau of Justice Statistics, Crime, Federal Government, FOIA, and Justice.
+overview: 'Department of Justice publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bureau of Justice Statistics, Crime, Federal-Government, FOIA, and Justice.
 
 
   The Department of Justice catalog on APIs.io includes 1 JSON-LD context.
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.0
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -183,15 +183,15 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 10.5
-  previous_composite: 19.6
+  previous_composite: 19.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/screenshots/department-of-justice-2026-06-20T175938.png
 security:
@@ -203,7 +203,7 @@ slug: department-of-justice
 tags:
 - Bureau of Justice Statistics
 - Crime
-- Federal Government
+- Federal-Government
 - FOIA
 - Justice
 - News

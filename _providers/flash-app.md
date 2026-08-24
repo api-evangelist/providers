@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Integration API from Flash App — 1 operation(s) for integration.
@@ -172,8 +172,8 @@ image: https://flashapp.com.br/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: flash-app-mcp.yml
-  slug: flash-app-mcpyml
+  name: Flash App MCP Server
+  slug: flash-app-mcp-server
 modified: '2026-07-20'
 name: Flash App
 nav: Providers
@@ -186,7 +186,7 @@ random_paper: 10
 score:
   band: developing
   composite: 44.4
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -196,7 +196,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 46.7
+  previous_composite: 44.4
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +212,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flash-app/refs/heads/main/screenshots/flash-app-2026-07-25T214715.png
 security:

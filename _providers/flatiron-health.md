@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 12.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -94,15 +94,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 13.9
+  previous_composite: 12.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatiron-health/refs/heads/main/screenshots/flatiron-health-2026-07-25T214721.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: GraphQL API service for P4 Plan (Hansoft) exposing 60+ queries, 100+ mutations, and 50+ subscriptions across projects, items (tasks, bugs, backlog), users and groups, sprints, timesheets, reports, das
@@ -174,7 +174,7 @@ random_paper: 20
 score:
   band: developing
   composite: 47.4
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -184,12 +184,12 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 47.7
+  previous_composite: 47.4
   provenance:
     conformance: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/screenshots/hansoft-2026-07-25T220633.png
 security:
@@ -214,7 +214,7 @@ tags:
 - Software Development
 - GraphQL
 - SDK
-- Webhooks
+- Webhook
 - DevOps
 website: https://www.perforce.com/products/hansoft
 ---

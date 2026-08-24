@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: 'Miso''s new Ask API is the next generation of question answering APIs. It is designed to provide accurate and concise answers to your questions based on your existing product documents. Ask API offers '
@@ -220,13 +220,13 @@ image: https://miso.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: misoai-mcp.yml
-  slug: misoai-mcpyml
+  name: miso.ai MCP Server
+  slug: misoai-mcp-server
 modified: '2026-07-20'
 name: miso.ai
 nav: Providers
 network: true
-overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ask APIs API, Bulk API API, Experiment APIs API, and 7 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Search, and Recommendations.
+overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ask APIs API, Bulk API API, Experiment APIs API, and 7 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Search, and Recommendations.
 
 
   miso.ai''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, pricing, signup flow, and 22 more developer resources.'
@@ -234,7 +234,7 @@ random_paper: 12
 score:
   band: thin
   composite: 39.0
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 46.5
+  previous_composite: 39.0
   provenance:
     conformance: derived
     contracts:
@@ -254,9 +254,9 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/screenshots/misoai-2026-08-07T183747.png
 security:
 - kind: authentication
@@ -271,7 +271,7 @@ slug: misoai
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Search
 - Recommendations
 - Personalization
@@ -281,7 +281,7 @@ tags:
 - Publishing
 - Media
 - Retail
-- Ecommerce
+- E-Commerce
 - Developers
 website: https://miso.ai/
 ---

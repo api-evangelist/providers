@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-05-11'
 name: Hive
 nav: Providers
 network: true
-overview: 'Hive publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Agile Sprints API, Dashboard Widgets API, and 9 more. Tagged areas include Project Management, Task Management, Team Collaboration, Productivity, and Workflow Automation.
+overview: 'Hive publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Agile Sprints API, Dashboard Widgets API, and 9 more. Tagged areas include Project Management, Task Management, Team Collaboration, Productivity, and Workflow-Automation.
 
 
   Hive''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, pricing, support, and 5 more developer resources.'
@@ -187,7 +187,7 @@ random_paper: 8
 score:
   band: thin
   composite: 31.7
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 33.2
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -205,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/screenshots/hive-2026-06-20T182800.png
 security:
@@ -224,7 +224,7 @@ tags:
 - Task Management
 - Team Collaboration
 - Productivity
-- Workflow Automation
+- Workflow-Automation
 - Time Tracking
 website: https://hive.com/
 ---

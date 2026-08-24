@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ modified: '2026-05-19'
 name: National Oceanic and Atmospheric Administration
 nav: Providers
 network: true
-overview: 'National Oceanic and Atmospheric Administration publishes 1 API on the [APIs.io](https://apis.io/) network: Observations API. Tagged areas include Atmosphere, Federal Government, Oceans, and Weather.
+overview: 'National Oceanic and Atmospheric Administration publishes 1 API on the [APIs.io](https://apis.io/) network: Observations API. Tagged areas include Atmosphere, Federal-Government, Oceans, and Weather.
 
 
   National Oceanic and Atmospheric Administration''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.2
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -120,7 +120,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.6
+  previous_composite: 21.2
   provenance:
     agentic_access: derived
     contracts:
@@ -134,8 +134,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-oceanic-and-atmospheric-administration/refs/heads/main/screenshots/national-oceanic-and-atmospheric-administration-2026-06-20T190034.png
 security:
@@ -146,7 +146,7 @@ security:
 slug: national-oceanic-and-atmospheric-administration
 tags:
 - Atmosphere
-- Federal Government
+- Federal-Government
 - Oceans
 - Weather
 website: https://www.noaa.gov/

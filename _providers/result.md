@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Remote Model Context Protocol server exposing 74 tools across six categories (plan and operate, build and ship, Company Brain, audience growth, sell and support, run the company) — the same tools Resu
@@ -163,13 +163,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/result.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: result-mcp.yml
-  slug: result-mcpyml
+  name: Result MCP Server
+  slug: result-mcp-server
 modified: '2026-08-13'
 name: Result
 nav: Providers
 network: true
-overview: 'Result publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Operations, SaaS, Entrepreneurship, and Payments.
+overview: 'Result publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Operations, Software-as-a-Service, Entrepreneurship, and Payments.
 
 
   Result''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 21 more developer resources.'
@@ -190,7 +190,7 @@ scopes:
 score:
   band: developing
   composite: 47.1
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -200,7 +200,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 45.2
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -210,8 +210,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/screenshots/result-2026-08-17T081542.png
 security:
@@ -227,20 +227,20 @@ slug: result
 tags:
 - Company
 - Business Operations
-- SaaS
+- Software-as-a-Service
 - Entrepreneurship
 - Payments
 - Marketing
 - No-Code
 - Startups
 - Artificial Intelligence
-- Backend as a Service
-- Model Context Protocol
+- Backend-as-a-Service
+- MCP
 - Agents
 - Database
 - Authentication
 - Storage
 - Serverless
-- Realtime
+- Real-Time
 website: https://result.dev/
 ---

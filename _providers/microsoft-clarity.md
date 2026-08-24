@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -207,9 +207,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-clarity.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: microsoft-clarity-mcp.yml
-  slug: microsoft-clarity-mcpyml
+- description: First-party Model Context Protocol server for Microsoft Clarity, published by Microsoft as @microsoft/clarity-mcp-server and documented on Microsoft Learn. It wraps the Clarity Data Export API and the
+  name: Microsoft Clarity MCP Server
+  slug: microsoft-clarity-mcp-server
 modified: '2026-08-13'
 name: Microsoft Clarity
 nav: Providers
@@ -229,18 +229,18 @@ rate_limits:
   slug: microsoft-clarity-rate-limits
 score:
   band: strong
-  composite: 61.2
-  delta: 2.4
+  composite: 62.3
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 30.3
     contract_quality: 58.7
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 58.8
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,8 +251,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/screenshots/microsoft-clarity-2026-06-20T185449.png
 security:

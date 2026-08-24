@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HyperGuest's unified connectivity API for travel demand partners and accommodation providers to exchange real-time availability, rates, and bookings directly with hotels. Access is partner-provisioned
@@ -108,7 +108,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 24.0
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -118,7 +118,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 25.5
+  previous_composite: 24.0
   provenance:
     conformance: first-party
   regulatory:
@@ -127,8 +127,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperguest/refs/heads/main/screenshots/hyperguest-2026-07-25T221904.png
 security:

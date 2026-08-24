@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 34
 apis:
 - description: The assessment_surveys API from Forta Health — 1 operation(s) for assessment_surveys.
@@ -320,7 +320,7 @@ modified: '2026-08-04'
 name: Forta Health
 nav: Providers
 network: true
-overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Assessment Surveys API, Behavior API, Bt Supervisions API, and 31 more. Tagged areas include healthcare, autism, aba-therapy, behavioral-health, and telehealth.
+overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Assessment Surveys API, Behavior API, Bt Supervisions API, and 31 more. Tagged areas include Healthcare, Autism, ABA Therapy, Behavioral Health, and Telehealth.
 
 
   Forta Health''s developer surface includes signup flow, support, engineering blog, and 16 more developer resources.'
@@ -328,7 +328,7 @@ random_paper: 18
 score:
   band: thin
   composite: 36.1
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -338,7 +338,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 32.9
+  previous_composite: 36.1
   provenance:
     conformance: derived
     contracts:
@@ -353,8 +353,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png
 security:
@@ -368,17 +368,17 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: forta-health
 tags:
-- healthcare
-- autism
-- aba-therapy
-- behavioral-health
-- telehealth
-- digital-health
+- Healthcare
+- Autism
+- ABA Therapy
+- Behavioral Health
+- Telehealth
+- Digital Health
 - pediatric-care
-- clinical-operations
-- medicaid
-- health-insurance
-- ehr
-- machine-learning
+- Clinical Operations
+- Medicaid
+- Health Insurance
+- EHR
+- Machine-Learning
 website: https://www.fortahealth.com/
 ---

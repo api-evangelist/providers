@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -225,8 +225,8 @@ image: https://www.qualio.com/hubfs/qualio-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: qualio-mcp.yml
-  slug: qualio-mcpyml
+  name: Qualio MCP Server
+  slug: qualio-mcp-server
 modified: '2026-07-20'
 name: Qualio
 nav: Providers
@@ -239,7 +239,7 @@ random_paper: 0
 score:
   band: developing
   composite: 48.6
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -249,7 +249,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 48.0
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,8 +266,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/screenshots/qualio-2026-08-17T081435.png
 security:

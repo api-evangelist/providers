@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Later's social media scheduling and management platform providing visual content planning, scheduling, analytics, and influencer marketing capabilities across major social platforms.
@@ -201,14 +201,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/later.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: later-mcp.yml
-  slug: later-mcpyml
+- description: A CANDIDATE tool surface derived from Later's own published contract. Later ships no MCP server of any kind — no hosted endpoint and no installable package — so nothing here is callable by an agent to
+  name: Later Influence (candidate MCP server)
+  slug: later-influence-candidate-mcp-server
 modified: '2026-08-13'
 name: Later
 nav: Providers
 network: true
-overview: 'Later publishes 1 API on the [APIs.io](https://apis.io/) network: Influence API. Tagged areas include Social Media, Scheduling, Instagram, TikTok, and Influencer Marketing.
+overview: 'Later publishes 1 API on the [APIs.io](https://apis.io/) network: Influence API. Tagged areas include Social-Media, Scheduling, Instagram, TikTok, and Influencer Marketing.
 
 
   The Later catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,7 +227,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.9
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -237,7 +237,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 48.5
+  previous_composite: 45.9
   provenance:
     conformance: derived
     contracts:
@@ -247,8 +247,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/screenshots/later-2026-06-20T184327.png
 security:
@@ -270,7 +270,7 @@ security:
   summary_line: SOC 2 Type 2, SOC 2 Type 1, ISO/IEC 27001
 slug: later
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Instagram
 - TikTok

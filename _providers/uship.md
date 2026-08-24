@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: 'The core uShip marketplace API — a RESTful, hypermedia-driven JSON API over the shipment lifecycle: searching active listings, creating and retrieving listings by commodity category, bids and bid acce'
@@ -161,7 +161,7 @@ modified: '2026-08-02'
 name: uShip
 nav: Providers
 network: true
-overview: 'uShip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include shipping, logistics, freight, marketplace, and transportation.
+overview: 'uShip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Logistics, Freight, Marketplace, and Transportation.
 
 
   The uShip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -172,7 +172,7 @@ random_paper: 7
 score:
   band: thin
   composite: 37.6
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -182,12 +182,12 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 45.9
+  previous_composite: 37.6
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/screenshots/uship-2026-08-17T082657.png
 security:
 - kind: authentication
@@ -200,17 +200,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: uship
 tags:
-- shipping
-- logistics
-- freight
-- marketplace
-- transportation
+- Shipping
+- Logistics
+- Freight
+- Marketplace
+- Transportation
 - auto-transport
 - ltl-freight
-- last-mile-delivery
-- shipment-tracking
-- ecommerce
-- supply-chain
+- Last Mile Delivery
+- Shipment Tracking
+- E-Commerce
+- Supply Chain
 - rate-quotes
 website: https://www.uship.com/
 ---

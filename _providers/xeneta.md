@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Airline reports API (Selfie) serving rates, chargeable weight, load factor, and capacity reports as CSV files in ZIP archives. Airlines use a branded host (https://{airline}.useselfie.com/api/selfie/v
@@ -170,9 +170,9 @@ description: Xeneta is an ocean and air freight rate benchmarking and market ana
 image: https://files.readme.io/f8b1664-xeneta-favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: xeneta-mcp.yml
-  slug: xeneta-mcpyml
+- description: 'Xeneta operates no official MCP server: the official MCP registry (registry.modelcontextprotocol.io) returns zero results for "xeneta", npm has no Xeneta MCP package, and the developer docs (help.xene'
+  name: Xeneta MCP Server
+  slug: xeneta-mcp-server
 modified: '2026-07-21'
 name: Xeneta
 nav: Providers
@@ -185,7 +185,7 @@ random_paper: 15
 score:
   band: developing
   composite: 47.1
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -195,7 +195,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 22.4
-  previous_composite: 50.4
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     contracts:
@@ -211,8 +211,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/screenshots/xeneta-2026-08-17T083005.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 42
 apis:
 - description: Agent configuration management
@@ -387,9 +387,9 @@ description: 'Comet is an enterprise AI/ML developer platform used by over 150,0
 image: https://cdn.comet.com/img/facebook-1200x630.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: comet-mcp.yml
-  slug: comet-mcpyml
+- description: Official Model Context Protocol server for Opik. Connects MCP hosts (Claude Code, Cursor, VS Code Copilot) directly to an Opik workspace to read traces/spans/experiments/prompts, score outputs, save p
+  name: Comet MCP Server
+  slug: comet-mcp-server
 modified: '2026-07-18'
 name: Comet
 nav: Providers
@@ -402,7 +402,7 @@ random_paper: 11
 score:
   band: developing
   composite: 49.3
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -412,7 +412,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 52.7
+  previous_composite: 49.3
   provenance:
     conformance: derived
     contracts:
@@ -422,8 +422,8 @@ score:
       total: 42
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comet/refs/heads/main/screenshots/comet-2026-07-25T210115.png
 security:
@@ -451,6 +451,6 @@ tags:
 - Model Monitoring
 - Prompt Management
 - Agents
-- Open Source
+- Open-Source
 website: https://www.comet.com/docs/opik/
 ---

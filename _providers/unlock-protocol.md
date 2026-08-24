@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 34
 apis:
 - description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
@@ -369,13 +369,13 @@ image: https://github.com/unlock-protocol.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: unlock-protocol-mcp.yml
-  slug: unlock-protocol-mcpyml
+  name: Unlock Protocol MCP Server
+  slug: unlock-protocol-mcp-server
 modified: '2026-07-21'
 name: Unlock Protocol
 nav: Providers
 network: true
-overview: 'Unlock Protocol publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Captcha API, and 30 more. Tagged areas include Blockchain, Memberships, Subscriptions, NFT, and Ticketing.
+overview: 'Unlock Protocol publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Captcha API, and 30 more. Tagged areas include Blockchain, Memberships, Subscription, NFT, and Ticketing.
 
 
   The Unlock Protocol catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -386,7 +386,7 @@ random_paper: 4
 score:
   band: developing
   composite: 50.9
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -396,7 +396,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 48.8
+  previous_composite: 50.9
   provenance:
     conformance: first-party
     contracts:
@@ -412,8 +412,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/screenshots/unlock-protocol-2026-08-17T082632.png
 security:
@@ -429,7 +429,7 @@ slug: unlock-protocol
 tags:
 - Blockchain
 - Memberships
-- Subscriptions
+- Subscription
 - NFT
 - Ticketing
 - Web3

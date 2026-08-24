@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Meya Grid HTTP gateway that receives inbound integration and API/webhook events for a Meya app. Webhook URLs follow the format https://grid.meya.ai/gateway/v2/{integration}/{app_id}/{dot_path}.
@@ -116,7 +116,7 @@ modified: '2026-07-20'
 name: Meya.ai
 nav: Providers
 network: true
-overview: 'Meya.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chatbots, Conversational AI, Customer Support, and CX Automation.
+overview: 'Meya.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chatbots, Conversational AI, Customer-Support, and CX Automation.
 
 
   The Meya.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -127,7 +127,7 @@ random_paper: 0
 score:
   band: thin
   composite: 31.9
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -137,9 +137,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 31.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meyaai/refs/heads/main/screenshots/meyaai-2026-08-07T172812.png
 security:
@@ -152,10 +152,10 @@ tags:
 - Company
 - Chatbots
 - Conversational AI
-- Customer Support
+- Customer-Support
 - CX Automation
 - Messaging
-- Webhooks
+- Webhook
 - Developer Platform
 website: https://meya.ai
 ---

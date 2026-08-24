@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -132,7 +132,7 @@ modified: '2026-08-12'
 name: Haus
 nav: Providers
 network: true
-overview: 'Haus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Analytics, Incrementality, and Measurement.
+overview: 'Haus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Analytics, Incrementality, and Measurements.
 
 
   Haus'' developer surface includes engineering blog, pricing, support, signup flow, and 15 more developer resources.'
@@ -144,7 +144,7 @@ random_paper: 13
 score:
   band: thin
   composite: 30.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -154,9 +154,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 30.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haus/refs/heads/main/screenshots/haus-2026-07-25T220755.png
 security:
@@ -178,7 +178,7 @@ tags:
 - Marketing
 - Analytics
 - Incrementality
-- Measurement
+- Measurements
 - Attribution
 - Media Mix Modeling
 - Causal Inference

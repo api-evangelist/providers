@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: JSON WebSocket streaming of US stock trade/quote, options trade/quote, and index price streams, served locally by the Theta Terminal at ws://127.0.0.1:25520/v1/events. Requires a paid subscription wit
@@ -307,9 +307,9 @@ description: ThetaData is a developer-first US market data vendor founded in 202
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thetadata.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: thetadata-mcp.yml
-  slug: thetadata-mcpyml
+- description: ThetaData ships an official MCP (Model Context Protocol) server built into Theta Terminal v3, exposing the full v3 market-data API to LLM CLIs (documented for Claude CLI and Gemini CLI) over SSE at ht
+  name: ThetaData MCP Server
+  slug: thetadata-mcp-server
 modified: '2026-07-22'
 name: ThetaData
 nav: Providers
@@ -333,7 +333,7 @@ rate_limits:
 score:
   band: strong
   composite: 66.3
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -343,7 +343,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 78.9
-  previous_composite: 62.1
+  previous_composite: 66.3
   provenance:
     conformance: derived
     contracts:
@@ -359,8 +359,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
 security:

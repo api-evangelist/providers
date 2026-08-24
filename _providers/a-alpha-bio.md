@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Datasets API from A-Alpha Bio — 9 operation(s) for datasets.
@@ -181,13 +181,13 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: a-alpha-bio-mcp.yml
-  slug: a-alpha-bio-mcpyml
+  name: A-Alpha Bio MCP Server
+  slug: a-alpha-bio-mcp-server
 modified: '2026-08-06'
 name: A-Alpha Bio
 nav: Providers
 network: true
-overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include protein-interactions, biotechnology, drug-discovery, antibody-engineering, and synthetic-biology.
+overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include protein-interactions, Biotechnology, Drug Discovery, Antibody Engineering, and Synthetic Biology.
 
 
   A-Alpha Bio''s developer surface includes signup flow, engineering blog, product news, support, authentication, CLI, and 24 more developer resources.'
@@ -195,7 +195,7 @@ random_paper: 11
 score:
   band: thin
   composite: 37.9
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -205,7 +205,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 39.2
+  previous_composite: 37.9
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +221,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/screenshots/a-alpha-bio-2026-08-07T160731.png
 security:
@@ -237,16 +237,16 @@ security:
 slug: a-alpha-bio
 tags:
 - protein-interactions
-- biotechnology
-- drug-discovery
-- antibody-engineering
-- synthetic-biology
-- machine-learning
-- training-data
-- data-licensing
-- life-sciences
-- datasets
-- protein-design
-- bioinformatics
+- Biotechnology
+- Drug Discovery
+- Antibody Engineering
+- Synthetic Biology
+- Machine-Learning
+- Training Data
+- Data Licensing
+- Life Sciences
+- Datasets
+- Protein Design
+- Bioinformatics
 website: https://www.aalphabio.com/
 ---

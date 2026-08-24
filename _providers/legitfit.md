@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: LegitFit's Model Context Protocol server — a JSON-RPC 2.0 endpoint that exposes LegitFit resources to AI agents. Protected by OAuth 2.1 (authorization_code with PKCE S256) and gated by the mcp:read an
@@ -111,8 +111,8 @@ image: https://cdn.prod.website-files.com/604d0cad0c813222fc3c19be/62cc3c109568a
 layout: provider
 mcp_servers:
 - description: ''
-  name: legitfit-mcp.yml
-  slug: legitfit-mcpyml
+  name: LegitFit MCP Server
+  slug: legitfit-mcp-server
 modified: '2026-07-19'
 name: LegitFit
 nav: Providers
@@ -132,19 +132,19 @@ scopes:
   slug: legitfit-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.5
-  delta: -2.1
+  band: thin
+  composite: 26.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 27.6
+  previous_composite: 26.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -154,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/screenshots/legitfit-2026-07-25T224838.png
 security:
@@ -176,7 +176,7 @@ tags:
 - Scheduling
 - Memberships
 - Payments
-- SaaS
+- Software-as-a-Service
 - MCP
 - Ireland
 website: https://legitfit.com/

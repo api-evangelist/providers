@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-18'
 name: Biome Makers
 nav: Providers
 network: true
-overview: 'Biome Makers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agtech, Soil Health, Soil Microbiome, and Agriculture.
+overview: 'Biome Makers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgTech, Soil Health, Soil Microbiome, and Agriculture.
 
 
   Biome Makers'' developer surface includes developer portal, support, engineering blog, and 7 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 16.1
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -98,15 +98,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.5
+  previous_composite: 16.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biome-makers/refs/heads/main/screenshots/biome-makers-2026-07-25T203047.png
 security:
@@ -117,12 +117,12 @@ security:
 slug: biome-makers
 tags:
 - Company
-- Agtech
+- AgTech
 - Soil Health
 - Soil Microbiome
 - Agriculture
 - DNA Sequencing
-- Machine Learning
+- Machine-Learning
 - Sustainability
 website: https://biomemakers.com
 ---

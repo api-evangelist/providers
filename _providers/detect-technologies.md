@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: Detect Technologies
 nav: Providers
 network: true
-overview: 'Detect Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Industrial AI, Computer Vision, and Workplace Safety.
+overview: 'Detect Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Industrial AI, Computer-Vision, and Workplace Safety.
 
 
   Detect Technologies'' developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 11.7
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -90,9 +90,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 11.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -102,9 +102,9 @@ security:
 slug: detect-technologies
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Industrial AI
-- Computer Vision
+- Computer-Vision
 - Workplace Safety
 - Manufacturing
 - HSE

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST-style JSON API exposing the full Forecast platform: projects, tasks, sub-tasks, phases, sprints, time registrations, allocations, persons, clients, rate cards, invoices, and webhook subscriptions'
@@ -107,8 +107,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forecast.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: forecast-mcp.yml
-  slug: forecast-mcpyml
+  name: forecast MCP Server
+  slug: forecast-mcp-server
 modified: '2026-07-19'
 name: forecast
 nav: Providers
@@ -124,7 +124,7 @@ random_paper: 15
 score:
   band: thin
   composite: 33.0
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -134,14 +134,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 38.9
+  previous_composite: 33.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forecast/refs/heads/main/screenshots/forecast-2026-07-25T214928.png
 security:
 - kind: authentication
@@ -168,6 +168,5 @@ tags:
 - Professional Services Automation
 - Time Tracking
 - PSA
-- API
 website: https://www.forecast.app/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Glossier storefront implementing the Universal Commerce Protocol over MCP: catalog search, cart, checkout, and fulfillment with a buyer-approval invariant on paym'
@@ -98,14 +98,14 @@ description: 'Glossier is a direct-to-consumer beauty and personal-care brand (s
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glossier.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: glossier-mcp.yml
-  slug: glossier-mcpyml
+- description: Glossier's Shopify storefront exposes a live agent-commerce MCP endpoint via the Universal Commerce Protocol (UCP). The endpoint enumerates its tool schemas only after an agent supplies a valid UCP ag
+  name: Glossier MCP Server
+  slug: glossier-mcp-server
 modified: '2026-07-19'
 name: Glossier
 nav: Providers
 network: true
-overview: 'Glossier publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Beauty, Cosmetics, and Ecommerce.
+overview: 'Glossier publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Beauty, Cosmetics, and E-Commerce.
 
 
   Glossier''s developer surface includes authentication, documentation, and 12 more developer resources.'
@@ -117,23 +117,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.6
-  delta: -0.7
+  composite: 20.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 20.3
+  previous_composite: 20.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/screenshots/glossier-2026-07-25T215930.png
 security:
@@ -155,7 +155,7 @@ tags:
 - Consumer
 - Beauty
 - Cosmetics
-- Ecommerce
+- E-Commerce
 - Retail
 - Agent Commerce
 - Universal Commerce Protocol

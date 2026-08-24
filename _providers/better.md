@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ modified: '2026-07-18'
 name: Better
 nav: Providers
 network: true
-overview: 'Better is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Lending, Fintech, and Real Estate.
+overview: 'Better is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Lending, Fintech, and Real-Estate.
 
 
   Better''s developer surface includes engineering blog, support, pricing, authentication, and 8 more developer resources.'
@@ -101,18 +101,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.1
-  delta: -1.3
+  composite: 22.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 22.4
+  previous_composite: 22.2
   provenance:
     conformance: derived
   regulatory:
@@ -121,8 +121,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/better/refs/heads/main/screenshots/better-2026-07-25T202802.png
 security:
@@ -140,9 +140,9 @@ tags:
 - Mortgage
 - Lending
 - Fintech
-- Real Estate
+- Real-Estate
 - Home Equity
 - Insurance
-- Financial Services
+- Financial-Services
 website: https://better.com
 ---

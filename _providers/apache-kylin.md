@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ modified: '2026-05-19'
 name: Apache Kylin
 nav: Providers
 network: true
-overview: 'Apache Kylin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Jobs API, Models API, and 3 more. Tagged areas include Analytics, Big Data, Cube, OLAP, and Open Source.
+overview: 'Apache Kylin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Jobs API, Models API, and 3 more. Tagged areas include Analytics, Big Data, cube, OLAP, and Open-Source.
 
 
   The Apache Kylin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -307,18 +307,18 @@ rules:
   slug: apache-kylin-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: -8.4
+  composite: 38.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 60.4
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 45.9
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -326,9 +326,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/screenshots/apache-kylin-2026-06-20T172119.png
 security:
 - kind: authentication
@@ -347,9 +347,9 @@ slug: apache-kylin
 tags:
 - Analytics
 - Big Data
-- Cube
+- cube
 - OLAP
-- Open Source
+- Open-Source
 - SQL
 use_cases:
 - description: Accelerate slow Hive or Spark queries with Kylin cube pre-computation.

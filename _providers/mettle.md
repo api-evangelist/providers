@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -172,13 +172,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: mettle-mcp.yml
-  slug: mettle-mcpyml
+  name: Mettle MCP Server
+  slug: mettle-mcp-server
 modified: '2026-07-23'
 name: Mettle
 nav: Providers
 network: true
-overview: 'Mettle publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data Product API. Tagged areas include Financial Services, Banking, Business Banking, Open Banking, and PSD2.
+overview: 'Mettle publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data Product API. Tagged areas include Financial-Services, Banking, Business Banking, Open Banking, and PSD2.
 
 
   Mettle''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 22 more developer resources.'
@@ -191,7 +191,7 @@ scopes:
 score:
   band: developing
   composite: 45.2
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -201,7 +201,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 42.5
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -218,8 +218,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 81.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/screenshots/mettle-2026-08-07T172804.png
 security:
@@ -233,7 +233,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: mettle
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Business Banking
 - Open Banking

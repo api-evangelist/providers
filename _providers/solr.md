@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-05-11'
 name: Apache Solr
 nav: Providers
 network: true
-overview: 'Apache Solr publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Collections API, CollectionsAdminHandler API, Config API, and 4 more. Tagged areas include Search, Enterprise Search, Full-Text Search, Open Source, and Lucene.
+overview: 'Apache Solr publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Collections API, CollectionsAdminHandler API, Config API, and 4 more. Tagged areas include Search, Enterprise Search, Full-Text Search, Open-Source, and Lucene.
 
 
   Apache Solr''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 6 more developer resources.'
@@ -149,7 +149,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 24.4
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -159,7 +159,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 24.7
+  previous_composite: 24.4
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/screenshots/solr-2026-06-20T194151.png
 security:
@@ -189,7 +189,7 @@ tags:
 - Search
 - Enterprise Search
 - Full-Text Search
-- Open Source
+- Open-Source
 - Lucene
 - Indexing
 website: https://solr.apache.org/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-06-25'
 name: Cloudprinter
 nav: Providers
 network: true
-overview: 'Cloudprinter publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products API, Quotes API, and 1 more. Tagged areas include Print on Demand, Print Fulfillment, Printing, Orders, and Logistics.
+overview: 'Cloudprinter publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products API, Quotes API, and 1 more. Tagged areas include Print on Demand, Print Fulfillment, Printing, Order, and Logistics.
 
 
   Cloudprinter''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 37.9
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/screenshots/cloudprinter-2026-07-25T205710.png
 security:
@@ -177,7 +177,7 @@ tags:
 - Print on Demand
 - Print Fulfillment
 - Printing
-- Orders
+- Order
 - Logistics
 website: https://www.cloudprinter.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -38,7 +38,7 @@ agentic_access:
   operation_count: 39
   slug: university-of-cambridge-agentic-access
   summary_line: 39 operations
-api_count: 7
+api_count: 12
 apis:
 - description: The University's central web authentication service. Raven OAuth2 conforms to OpenID Connect; applications register client credentials to authenticate Cambridge users. An identity/SSO interface rather
   name: Raven Authentication (OAuth2 / OpenID Connect)
@@ -61,7 +61,22 @@ apis:
 - description: 'Methods for querying and manipulating people. #### Notes on the fetch parameter All methods that return people, institutions or groups also accept an optional `fetch` parameter that may be used to req'
   name: University of Cambridge person API
   slug: university-of-cambridge-person-api
-artifact_total: 30
+- description: The University's Shibboleth identity provider, publishing signed SAML 2.0 IdP metadata at https://shib.raven.cam.ac.uk/shibboleth. The EntityDescriptor carries entityID https://shib.raven.cam.ac.uk/sh
+  name: Cambridge Shibboleth Identity Provider (SAML 2.0 metadata)
+  slug: shibboleth-idp
+- description: OAI-PMH 2.0 harvesting interface for Apollo, the University's institutional repository, served from Cambridge's own host. Identify returns repositoryName "Apollo - University of Cambridge Repository",
+  name: Apollo OAI-PMH metadata harvesting endpoint
+  slug: apollo-oai-pmh
+- description: The Cambridge University Library digital collections platform exposes IIIF Presentation API 2.1 manifests at cudl.lib.cam.ac.uk/iiif/<item-id> and IIIF Image API 2.1 endpoints at images.lib.cam.ac.uk/
+  name: Cambridge Digital Library IIIF APIs
+  slug: cudl-iiif
+- description: Cambridge's library discovery layer runs on Ex Libris Primo VE. idiscover.lib.cam.ac.uk is a CNAME to cam.primo.exlibrisgroup.com -> eu00.primo.exlibrisgroup.com, and the landing URL redirects to /dis
+  name: iDiscover library discovery (Ex Libris Primo VE) — TENANT
+  slug: idiscover-primo
+- description: 'Cambridge''s current research information system (CRIS) is Symplectic Elements, reached at elements.admin.cam.ac.uk. The host sits under cam.ac.uk but resolves via CNAME to cam.elements.symplectic.org '
+  name: Symplectic Elements research information system — TENANT
+  slug: elements-symplectic
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -131,8 +146,69 @@ common:
   title: ''
   type: Blog
   url: https://www.cam.ac.uk/rss/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.lookup.cam.ac.uk/doc/ws-doc/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.api.apps.cam.ac.uk/apis
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://shib.raven.cam.ac.uk/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://www.repository.cam.ac.uk/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.lib.cam.ac.uk/idiscover
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.hpc.cam.ac.uk/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://guidebook.devops.uis.cam.ac.uk/standards/genai-policy/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://gitlab.developers.cam.ac.uk/uis/devops/ai/agent-skills
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.undergraduate.study.cam.ac.uk/courses
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cam.ac.uk/about-this-site/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cam.ac.uk/about-this-site/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.uis.cam.ac.uk/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-cambridge-education-standards.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/university-of-cambridge-gateway-lifecycle.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/university-of-cambridge-errors.yml
 created: '2026-06-03'
-description: 'The University of Cambridge (founded 1209; QS World 2025 #5) is a public collegiate research university with a real, documented developer footprint operated mainly by University Information Services (UIS): a central API Gateway / developer portal (developer.api.apps.cam.ac.uk) fronting identity-oriented REST APIs, the long-standing Lookup/Ibis directory web service, the Raven central authentication service (OAuth2 / OpenID Connect), and the Apollo institutional repository (DSpace REST + OAI-PMH). UIS open-source code is published on a self-hosted GitLab.'
+description: 'The University of Cambridge (founded 1209) is a public collegiate research university and Russell Group member whose programmable footprint is unusually real for a university, and is operated in-house by University Information Services (UIS) rather than bought in. Verified institution-operated surfaces: the Lookup/Ibis directory web service, which publishes a first-party OpenAPI 3.0 document at www.lookup.cam.ac.uk/openapi-3.0.yaml (39 paths, byte-identical to the copy held here); an API Gateway on the University''s own domain (api.apps.cam.ac.uk) whose developer portal lists ten published APIs — Lookup, University Card, University Photo, University Student, University Human Resources, OAuth2, Raven device statistics, Institutional identifier mapping, Undergraduate Admissions and Staff On Costs — fronted by a live OpenID Connect discovery document; a Shibboleth SAML 2.0 identity provider publishing signed IdP metadata; the Apollo institutional repository, self-hosted DSpace
+  8.1 on Cambridge IP space with a DSpace REST API and an OAI-PMH endpoint serving eleven metadata formats and minting DataCite DOIs under prefix 10.17863; and the Cambridge Digital Library IIIF Presentation and Image APIs. Honest limits: only the Lookup contract is published as a downloadable machine-readable spec, every gateway API requires registered client credentials before it will answer, and there is no public status page for the API platform. Library discovery (iDiscover, Ex Libris Primo VE) and the research information system (Symplectic Elements) run under Cambridge subdomains but are vendor platforms — they are recorded here as tenant relationships, not as Cambridge contracts.'
 examples:
 - key_count: 1
   name: University Of Cambridge Group Example
@@ -174,7 +250,7 @@ jsonld:
   property_count: 2
   slug: university-of-cambridge-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: University of Cambridge
 nav: Providers
 network: true
@@ -184,7 +260,7 @@ overview: 'University of Cambridge publishes 4 APIs on the [APIs.io](https://api
   The University of Cambridge catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Cambridge''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
+  University of Cambridge''s developer surface includes authentication, engineering blog, documentation, API reference, support, and 23 more developer resources.'
 plans:
 - name: University Of Cambridge Plans Pricing
   plan_count: 2
@@ -217,21 +293,22 @@ rules:
     warn: 3
   slug: university-of-cambridge-rules
 score:
-  band: thin
-  composite: 37.3
-  delta: -5.5
+  band: developing
+  composite: 52.9
+  delta: 0.0
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 31.8
     contract_quality: 63.1
-    developer_ergonomics: 23.8
+    developer_ergonomics: 45.2
     discoverability: 64.8
-    governance: 9.8
+    governance: 31.8
     operational_transparency: 21.1
-  previous_composite: 42.8
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -242,16 +319,16 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+    score: 61.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/screenshots/university-of-cambridge-2026-06-20T200140.png
 security:
 - kind: authentication
   name: University Of Cambridge Authentication
   slug: university-of-cambridge-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2/openIdConnect/saml · 3 schemes
 - kind: domain-security
   name: University Of Cambridge Domain Security
   slug: university-of-cambridge-domain-security
@@ -263,8 +340,15 @@ tags:
 - University
 - Research
 - United Kingdom
+- Russell Group
 - Identity
+- Identity Federation
 - API Gateway
 - Developer Portal
+- Research Data
+- Open Access
+- Research Repository
+- Library
+- Digital Collections
 website: https://www.cam.ac.uk/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Logical capability for creating and managing restaurant reservations - availability, floor and table assignment, booking creation and status changes. Superb surfaces this to guests through a hosted bo
@@ -77,7 +77,7 @@ modified: '2026-07-25'
 name: Superb
 nav: Providers
 network: true
-overview: 'Superb publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurants, Reservations, Hospitality, Guest Experience, and GXM.
+overview: 'Superb publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Reservations, Hospitality, Guest Experience, and GXM.
 
 
   Superb''s developer surface includes documentation, signup flow, and 6 more developer resources.'
@@ -89,7 +89,7 @@ random_paper: 16
 score:
   band: minimal
   composite: 10.7
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -99,15 +99,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.5
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -116,12 +116,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: superb-hq
 tags:
-- Restaurants
+- Restaurant
 - Reservations
 - Hospitality
 - Guest Experience
 - GXM
-- Point of Sale
+- Point-of-Sale
 - CRM
 - Payments
 website: https://www.superbexperience.com/

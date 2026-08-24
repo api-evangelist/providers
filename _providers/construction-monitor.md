@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST + JSON service backed by Elasticsearch that lets partners search building permits, retrieve full permit detail records, and pull delta updates on a polling schedule. Authentication is handled wit
@@ -88,7 +88,7 @@ modified: '2026-04-29'
 name: Construction Monitor
 nav: Providers
 network: true
-overview: 'Construction Monitor publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Contractors, Lead Generation, Permits, and Real Estate.
+overview: 'Construction Monitor publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Contractors, Lead Generation, Permits, and Real-Estate.
 
 
   Construction Monitor''s developer surface includes engineering blog and 8 more developer resources.'
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.9
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -114,9 +114,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 15.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/construction-monitor/refs/heads/main/screenshots/construction-monitor-2026-06-20T174915.png
 security:
@@ -130,6 +130,6 @@ tags:
 - Contractors
 - Lead Generation
 - Permits
-- Real Estate
+- Real-Estate
 website: https://www.constructionmonitor.com
 ---

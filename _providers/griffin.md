@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -359,8 +359,8 @@ image: https://griffin.com/social.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: griffin-mcp.yml
-  slug: griffin-mcpyml
+  name: Griffin MCP Server
+  slug: griffin-mcp-server
 modified: '2026-07-19'
 name: Griffin
 nav: Providers
@@ -376,7 +376,7 @@ random_paper: 6
 score:
   band: strong
   composite: 55.8
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -386,7 +386,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 53.1
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -403,8 +403,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/screenshots/griffin-2026-07-25T220332.png
 security:
@@ -426,6 +426,6 @@ tags:
 - KYC
 - Open Banking
 - Bank Accounts
-- Financial Services
+- Financial-Services
 website: https://griffin.com/
 ---

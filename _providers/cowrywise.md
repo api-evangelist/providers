@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Investment-as-a-service REST API that allows developers to embed regulated investment products (savings, mutual funds, treasury bills, Eurobonds, equities) into their applications. Supports user accou
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -123,9 +123,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 21.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cowrywise/refs/heads/main/screenshots/cowrywise-2026-06-20T175153.png
 security:
@@ -146,7 +146,7 @@ tags:
 - Mutual Funds
 - Nigeria
 - Africa
-- Financial Services
+- Financial-Services
 - REST API
 website: https://cowrywise.com/
 ---

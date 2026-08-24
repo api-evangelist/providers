@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -194,8 +194,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alinta-ene
 layout: provider
 mcp_servers:
 - description: ''
-  name: alinta-energy-mcp.yml
-  slug: alinta-energy-mcpyml
+  name: Alinta Energy MCP Server
+  slug: alinta-energy-mcp-server
 modified: '2026-07-27'
 name: Alinta Energy
 nav: Providers
@@ -217,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 47.4
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -227,7 +227,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 44.8
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,8 +244,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

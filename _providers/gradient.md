@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -157,13 +157,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gradient.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: gradient-mcp.yml
-  slug: gradient-mcpyml
+  name: Gradient MCP Server
+  slug: gradient-mcp-server
 modified: '2026-07-19'
 name: Gradient
 nav: Providers
 network: true
-overview: 'Gradient publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat API, Completions API, and Models API. Tagged areas include Company, Crypto Web3, Artificial Intelligence, Machine Learning, and LLM Inference.
+overview: 'Gradient publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat API, Completions API, and Models API. Tagged areas include Company, Crypto Web3, Artificial Intelligence, Machine-Learning, and LLM Inference.
 
 
   Gradient''s developer surface includes documentation, API reference, engineering blog, support, authentication, changelog, CLI, and 15 more developer resources.'
@@ -192,8 +192,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/screenshots/gradient-2026-07-25T220159.png
 security:
@@ -210,7 +210,7 @@ tags:
 - Company
 - Crypto Web3
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM Inference
 - Decentralized Infrastructure
 - Distributed Computing

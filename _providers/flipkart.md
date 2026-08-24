@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Flipkart Marketplace Seller API (v3) lets sellers and integration partners manage listings, orders, shipments, returns, and reports on the Flipkart marketplace programmatically. It is a REST API h
@@ -107,8 +107,8 @@ image: https://logo.clearbit.com/flipkart.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: flipkart-mcp.yml
-  slug: flipkart-mcpyml
+  name: Flipkart MCP Server
+  slug: flipkart-mcp-server
 modified: '2026-07-19'
 name: Flipkart
 nav: Providers
@@ -129,7 +129,7 @@ scopes:
 score:
   band: thin
   composite: 35.3
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -145,11 +145,11 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 36.6
+  previous_composite: 35.3
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipkart/refs/heads/main/screenshots/flipkart-2026-07-25T214803.png
 security:
@@ -169,9 +169,9 @@ tags:
 - Marketplace
 - Retail
 - Sellers
-- Orders
+- Order
 - Fulfillment
 - India
-- OAuth
+- Authentication
 website: https://seller.flipkart.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 6
@@ -520,7 +520,7 @@ modified: '2026-05-30'
 name: Prefect
 nav: Providers
 network: true
-overview: 'Prefect publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account Billing API, Account Images API, Account Memberships API, and 58 more. Tagged areas include Automation, Data Pipelines, Orchestration, Python, and Workflows.
+overview: 'Prefect publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account Billing API, Account Images API, Account Memberships API, and 58 more. Tagged areas include Automation, Data Pipeline, Orchestration, Python, and Workflows.
 
 
   Prefect''s developer surface includes developer portal, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 14 more developer resources.'
@@ -534,19 +534,19 @@ rate_limits:
   name: Prefect Rate Limits
   slug: prefect-rate-limits
 score:
-  band: thin
-  composite: 38.5
-  delta: -6.9
+  band: developing
+  composite: 39.4
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 46.0
     developer_ergonomics: 16.7
-    discoverability: 57.4
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 45.4
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -554,9 +554,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 61
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/screenshots/prefect-2026-06-20T192044.png
 security:
 - kind: domain-security
@@ -570,7 +570,7 @@ security:
 slug: prefect
 tags:
 - Automation
-- Data Pipelines
+- Data Pipeline
 - Orchestration
 - Python
 - Workflows

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -251,18 +251,18 @@ rules:
   slug: abortion-policy-api-spectral-rules
 score:
   band: thin
-  composite: 33.0
-  delta: -2.5
+  composite: 33.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 28.0
     developer_ergonomics: 35.7
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 35.5
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -276,8 +276,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/screenshots/abortion-policy-api-2026-06-20T161254.png
 security:

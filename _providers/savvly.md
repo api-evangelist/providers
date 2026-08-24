@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: derived
@@ -16,10 +16,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-19'
+  score: 48.7
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,9 +77,9 @@ created: '2026-07-17'
 description: Savvly is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
 mcp_servers:
-- description: ''
-  name: savvly-mcp.yml
-  slug: savvly-mcpyml
+- description: First-party Savvly MCP server exposing the Savvly Public API (product data, projections, comparisons, eligibility, FAQ) to AI agents. No authentication; rate-limited. Also distributed as npm @savvly/m
+  name: Savvly MCP Server
+  slug: savvly-mcp-server
 modified: '2026-07-17'
 name: Savvly
 nav: Providers
@@ -88,18 +88,18 @@ overview: 'Savvly publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 random_paper: 5
 score:
   band: emerging
-  composite: 19.0
-  delta: -1.9
+  composite: 20.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
     contract_quality: 50.1
     developer_ergonomics: 1.8
-    discoverability: 40.7
+    discoverability: 51.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 20.9
+  previous_composite: 20.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -110,8 +110,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

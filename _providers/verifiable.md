@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -373,8 +373,8 @@ image: https://cdn.prod.website-files.com/5f274600ac3de0cf25b08be9/699f3ecc74863
 layout: provider
 mcp_servers:
 - description: ''
-  name: verifiable-mcp.yml
-  slug: verifiable-mcpyml
+  name: Verifiable MCP Server
+  slug: verifiable-mcp-server
 modified: '2026-07-21'
 name: Verifiable
 nav: Providers
@@ -390,7 +390,7 @@ random_paper: 20
 score:
   band: strong
   composite: 56.8
-  delta: 5.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -400,7 +400,7 @@ score:
     discoverability: 63.0
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 51.1
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -417,9 +417,9 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/screenshots/verifiable-2026-08-17T082730.png
 security:
 - kind: authentication
@@ -444,6 +444,5 @@ tags:
 - Primary Source Verification
 - Compliance
 - Monitoring
-- API
 website: https://verifiable.com
 ---

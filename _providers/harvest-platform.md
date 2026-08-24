@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,12 +44,12 @@ modified: '2026-07-19'
 name: Harvest Platform
 nav: Providers
 network: true
-overview: Harvest Platform is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Banking, and Consumer Finance.
+overview: Harvest Platform is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Banking, and Consumer Finance.
 random_paper: 20
 score:
   band: minimal
   composite: 0.3
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -65,21 +65,21 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 4.3
+  previous_composite: 0.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvest-platform/refs/heads/main/screenshots/harvest-platform-2026-07-25T220742.png
 slug: harvest-platform
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Banking
 - Consumer Finance

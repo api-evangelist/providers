@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-19'
 name: Expansive
 nav: Providers
 network: true
-overview: 'Expansive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Real Estate, Crowdfunding, and Investing.
+overview: 'Expansive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Real-Estate, Crowdfunding, and Investing.
 
 
   Expansive''s developer surface includes engineering blog, support, pricing, signup flow, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 14.1
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -94,9 +94,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expansive/refs/heads/main/screenshots/expansive-2026-07-25T213911.png
 security:
@@ -108,10 +108,10 @@ slug: expansive
 tags:
 - Company
 - Fintech
-- Real Estate
+- Real-Estate
 - Crowdfunding
 - Investing
-- Proptech
+- PropTech
 - Collective Financing
 - Mexico
 website: https://expansive.mx

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -4079,13 +4079,13 @@ json_structures:
 layout: provider
 mcp_servers:
 - description: ''
-  name: klaviyo-mcp.yml
-  slug: klaviyo-mcpyml
+  name: Klaviyo MCP Server
+  slug: klaviyo-mcp-server
 modified: '2026-08-13'
 name: Klaviyo
 nav: Providers
 network: true
-overview: 'Klaviyo publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Campaigns API, Catalogs API, and 20 more. Tagged areas include Marketing, Email, SMS, Customer Data, and Ecommerce.
+overview: 'Klaviyo publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Campaigns API, Catalogs API, and 20 more. Tagged areas include Marketing, Email, SMS, Customer Data, and E-Commerce.
 
 
   The Klaviyo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -4130,18 +4130,18 @@ scopes:
   summary_line: 46 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 77.1
-  delta: 1.3
+  composite: 77.3
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 41.7
+    contract_governance: 43.9
     contract_quality: 73.7
     developer_ergonomics: 57.7
     discoverability: 92.6
-    governance: 41.7
+    governance: 43.9
     operational_transparency: 76.3
-  previous_composite: 75.8
+  previous_composite: 77.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -4158,8 +4158,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/screenshots/klaviyo-2026-06-20T184103.png
 security:
@@ -4185,7 +4185,7 @@ tags:
 - Email
 - SMS
 - Customer Data
-- Ecommerce
+- E-Commerce
 - Automation
 website: https://www.klaviyo.com
 ---

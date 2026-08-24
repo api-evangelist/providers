@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Envoy Gateway provides an expressive, extensible, role-oriented API for Kubernetes gateway management built on Envoy Proxy. Configuration is done through Kubernetes Gateway API resources (Gateway, Gat
@@ -81,7 +81,7 @@ modified: '2026-04-28'
 name: Envoy Gateway
 nav: Providers
 network: true
-overview: 'Envoy Gateway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, CNCF, Envoy, Kubernetes, and Open Source.
+overview: 'Envoy Gateway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, CNCF, Envoy, Kubernetes, and Open-Source.
 
 
   Envoy Gateway''s developer surface includes documentation, release notes, and 6 more developer resources.'
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.1
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -107,9 +107,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 16.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy-gateway/refs/heads/main/screenshots/envoy-gateway-2026-06-20T180742.png
 security:
@@ -123,6 +123,6 @@ tags:
 - CNCF
 - Envoy
 - Kubernetes
-- Open Source
+- Open-Source
 website: https://gateway.envoyproxy.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Real-time bidding API implementing OpenRTB 2.x and Native Ads 1.2 specifications for demand partners to participate in native, banner, and video ad auctions. Supports bid request and response objects,
@@ -182,9 +182,9 @@ jsonld:
   slug: triplelift-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: triplelift-mcp.yml
-  slug: triplelift-mcpyml
+- description: Three live Model Context Protocol endpoints were found on TripleLift-controlled hosts. Two are documentation servers provisioned by ReadMe on TripleLift's own docs domains; one is a WordPress MCP serv
+  name: TripleLift MCP Servers
+  slug: triplelift-mcp-servers
 modified: '2026-08-12'
 name: TripleLift
 nav: Providers
@@ -213,7 +213,7 @@ scopes:
 score:
   band: thin
   composite: 37.0
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -223,14 +223,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 42.4
+  previous_composite: 37.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triplelift/refs/heads/main/screenshots/triplelift-2026-06-20T195728.png
 security:
 - kind: authentication
@@ -258,9 +258,9 @@ tags:
 - Header Bidding
 - Connected TV
 - Supply Side Platform
-- Demand Side Platform
+- Demand-Side Platform
 - GraphQL
-- Ad Tech
+- AdTech
 - Publisher Reporting
 - Real-Time Bidding
 website: https://triplelift.com

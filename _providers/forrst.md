@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-19'
 name: Forrst
 nav: Providers
 network: true
-overview: Forrst is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Community, Design, Developer, and Feedback.
+overview: Forrst is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Community, Design, Developers, and Feedback.
 random_paper: 0
 score:
   band: minimal
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forrst/refs/heads/main/screenshots/forrst-2026-07-25T214951.png
 security:
@@ -78,7 +78,7 @@ tags:
 - Company
 - Community
 - Design
-- Developer
+- Developers
 - Feedback
 - Defunct
 - Acquired

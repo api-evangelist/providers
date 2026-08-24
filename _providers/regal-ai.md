@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -541,7 +541,7 @@ modified: '2026-08-14'
 name: Regal
 nav: Providers
 network: true
-overview: 'Regal publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Reporting Webhooks, Branded Phone Numbers API, Business Profiles API, and 7 more. Tagged areas include AI, AI Agents, Voice AI, Contact Center, and Outbound Calling.
+overview: 'Regal publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Reporting Webhooks, Branded Phone Numbers API, Business Profiles API, and 7 more. Tagged areas include Artificial Intelligence, AI Agents, Voice AI, Contact Center, and Outbound Calling.
 
 
   The Regal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -598,7 +598,7 @@ scopes:
 score:
   band: exemplar
   composite: 79.4
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
@@ -608,7 +608,7 @@ score:
     discoverability: 83.3
     governance: 59.1
     operational_transparency: 76.3
-  previous_composite: 81.8
+  previous_composite: 79.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -625,8 +625,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/screenshots/regal-ai-2026-06-20T192753.png
 security:
@@ -648,7 +648,7 @@ security:
   summary_line: SOC 2, HIPAA, GDPR, CCPA
 slug: regal-ai
 tags:
-- AI
+- Artificial Intelligence
 - AI Agents
 - Voice AI
 - Contact Center

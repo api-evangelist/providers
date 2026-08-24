@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'REST API for automated cross-border payments and currency exchange: manage multi-currency accounts (wallets) and their IBANs, read balances and financial movements, create and delete beneficiaries wit'
@@ -197,16 +197,16 @@ image: https://ibanfirst.com/_next/static/media/iban-og-image.1rlnmbejef6_m.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: ibanfirst-mcp.yml
-  slug: ibanfirst-mcpyml
+  name: iBanFirst MCP
+  slug: ibanfirst-mcp
 - description: ''
-  name: mcp
-  slug: mcp
+  name: iBanFirst MCP Server
+  slug: ibanfirst-mcp-server
 modified: '2026-08-17'
 name: iBanFirst
 nav: Providers
 network: true
-overview: 'iBanFirst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech Insurtech, cross-border-payments, foreign-exchange, and b2b-payments.
+overview: 'iBanFirst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech Insurtech, Cross-Border Payments, Foreign Exchange, and B2B Payments.
 
 
   The iBanFirst catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -225,6 +225,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.1
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -234,6 +235,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
+  previous_composite: 62.1
   provenance:
     conformance: first-party
     contracts:
@@ -249,8 +251,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Ibanfirst Authentication
@@ -268,19 +271,19 @@ slug: ibanfirst
 tags:
 - Company
 - Fintech Insurtech
-- cross-border-payments
-- foreign-exchange
-- b2b-payments
-- treasury
+- Cross-Border Payments
+- Foreign Exchange
+- B2B Payments
+- Treasury
 - multi-currency-accounts
-- swift
-- sepa
-- psd2
-- open-banking
+- Swift
+- SEPA
+- PSD2
+- Open Banking
 - currency-risk-management
-- webhooks
-- mcp
-- belgium
-- europe
+- Webhook
+- MCP
+- Belgium
+- Europe
 website: https://www.ibanfirst.com/
 ---

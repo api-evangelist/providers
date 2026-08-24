@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted mechanistic-interpretability API. OpenAI-compatible chat-completions sampling plus feature discovery (semantic/contrastive search, AutoSteer), feature inspection/context, and model-variant crea
@@ -137,7 +137,7 @@ modified: '2026-07-19'
 name: Goodfire
 nav: Providers
 network: true
-overview: 'Goodfire publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Interpretability, and LLM.
+overview: 'Goodfire publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Interpretability, and LLM.
 
 
   Goodfire''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, support, authentication, changelog, and 16 more developer resources.'
@@ -145,7 +145,7 @@ random_paper: 7
 score:
   band: thin
   composite: 31.4
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -155,11 +155,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 30.6
+  previous_composite: 31.4
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/screenshots/goodfire-2026-07-25T220044.png
 security:
@@ -175,7 +175,7 @@ slug: goodfire
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Interpretability
 - LLM
 - Model Steering

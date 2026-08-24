@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-08-03'
 name: Marvel
 nav: Providers
 network: true
-overview: 'Marvel publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Characters API, Comics API, Creators API, and 3 more. Tagged areas include Characters, Comics, Creators, Entertainment, and Events.
+overview: 'Marvel publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Characters API, Comics API, Creators API, and 3 more. Tagged areas include Characters, Comics, Creators, Entertainment, and Event.
 
 
   Marvel''s developer surface includes authentication, developer portal, signup flow, documentation, and 7 more developer resources.'
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -167,7 +167,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 35.9
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -193,7 +193,7 @@ tags:
 - Comics
 - Creators
 - Entertainment
-- Events
+- Event
 - Media
 - Series
 - Stories

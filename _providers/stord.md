@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing orders, inventory, shipments, and returns within the Stord commerce fulfillment platform. Built with an API-first design using JSON:API specification and OpenAPI annotations. Sup
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.0
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -130,9 +130,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stord/refs/heads/main/screenshots/stord-2026-06-20T194604.png
 security:

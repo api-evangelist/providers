@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ modified: '2026-08-04'
 name: Octave Bioscience
 nav: Providers
 network: true
-overview: 'Octave Bioscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Life Sciences, Diagnostics, and Neurology.
+overview: 'Octave Bioscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Diagnostics, and Neurology.
 
 
   Octave Bioscience''s developer surface includes support, product news, and 11 more developer resources.'
@@ -107,7 +107,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 14.8
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -117,15 +117,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.4
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octave-bioscience/refs/heads/main/screenshots/octave-bioscience-2026-08-07T185938.png
 security:
@@ -140,7 +140,7 @@ security:
 slug: octave-bioscience
 tags:
 - Company
-- Health Care
+- Healthcare
 - Life Sciences
 - Diagnostics
 - Neurology

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -336,7 +336,7 @@ modified: '2026-06-03'
 name: Uber Eats
 nav: Providers
 network: true
-overview: 'Uber Eats publishes 2 APIs on the [APIs.io](https://apis.io/) network: Customers API and Eats API. Tagged areas include Uber Eats, Uber Direct, Food Delivery, Last-Mile Logistics, and Restaurants.
+overview: 'Uber Eats publishes 2 APIs on the [APIs.io](https://apis.io/) network: Customers API and Eats API. Tagged areas include Uber Eats, Uber Direct, Food Delivery, Last-Mile Logistics, and Restaurant.
 
 
   The Uber Eats catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -380,18 +380,18 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.6
-  delta: -5.4
+  composite: 50.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.9
     developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 55.0
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -399,9 +399,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/screenshots/uber-eats-2026-06-20T195931.png
 security:
 - kind: authentication
@@ -418,11 +418,11 @@ tags:
 - Uber Direct
 - Food Delivery
 - Last-Mile Logistics
-- Restaurants
+- Restaurant
 - Menus
-- Orders
+- Order
 - Fulfillment
-- Courier
-- OAuth2
+- Couriers
+- Authentication
 website: https://www.uber.com/us/en/business/products/eats/
 ---

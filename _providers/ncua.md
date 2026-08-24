@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ modified: '2026-06-13'
 name: National Credit Union Administration (NCUA)
 nav: Providers
 network: true
-overview: 'National Credit Union Administration (NCUA) publishes 2 APIs on the [APIs.io](https://apis.io/) network: FindCUByRadius.aspx API and SingleResult.aspx API. Tagged areas include Federal Government, Credit Unions, Financial Data, Call Reports, and Banking.
+overview: 'National Credit Union Administration (NCUA) publishes 2 APIs on the [APIs.io](https://apis.io/) network: FindCUByRadius.aspx API and SingleResult.aspx API. Tagged areas include Federal-Government, Credit Unions, Financial Data, Call Reports, and Banking.
 
 
   The National Credit Union Administration (NCUA) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -172,7 +172,7 @@ rules:
 score:
   band: thin
   composite: 32.6
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -182,7 +182,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 37.8
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -196,9 +196,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/screenshots/ncua-2026-06-20T190114.png
 security:
 - kind: domain-security
@@ -211,7 +211,7 @@ security:
   summary_line: Bugcrowd
 slug: ncua
 tags:
-- Federal Government
+- Federal-Government
 - Credit Unions
 - Financial Data
 - Call Reports

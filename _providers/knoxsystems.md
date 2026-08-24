@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -120,7 +120,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 19.5
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -130,7 +130,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 19.8
+  previous_composite: 19.5
   provenance:
     conformance: first-party
   regulatory:
@@ -139,8 +139,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knoxsystems/refs/heads/main/screenshots/knoxsystems-2026-07-25T224019.png
 security:
@@ -163,6 +163,6 @@ tags:
 - Artificial Intelligence
 - Public Sector
 - Governance
-- Managed Services
+- Managed Service
 website: https://knoxsystems.com
 ---

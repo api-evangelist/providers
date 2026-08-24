@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 71.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -429,8 +429,8 @@ image: https://images.prismic.io/lightspark-web/ageHhqYofJOwHSa5_og-05-2026.png?
 layout: provider
 mcp_servers:
 - description: ''
-  name: lightspark-mcp.yml
-  slug: lightspark-mcpyml
+  name: Lightspark MCP Server
+  slug: lightspark-mcp-server
 modified: '2026-07-19'
 name: Lightspark
 nav: Providers
@@ -458,7 +458,7 @@ rules:
 score:
   band: exemplar
   composite: 73.0
-  delta: 6.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -468,7 +468,7 @@ score:
     discoverability: 92.6
     governance: 84.8
     operational_transparency: 60.5
-  previous_composite: 66.8
+  previous_composite: 73.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -485,9 +485,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:
 - kind: authentication
@@ -518,7 +518,7 @@ tags:
 - Agentic Payments
 - Cards
 - KYC
-- Financial Services
+- Financial-Services
 - Foreign Exchange
 website: https://lightspark.com
 ---

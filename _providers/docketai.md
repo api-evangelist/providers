@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Docket's hosted, read-only remote Model Context Protocol server. It exposes Demand Capture Agents and their performance, captured visitors and leads, engaged accounts, conversation summaries with qual
@@ -160,11 +160,11 @@ image: https://www.docket.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: docketai-mcp.yml
-  slug: docketai-mcpyml
+  name: Docket Demand MCP
+  slug: docket-demand-mcp
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Docket MCP Server
+  slug: docket-mcp-server
 modified: '2026-08-13'
 name: Docket
 nav: Providers
@@ -190,7 +190,7 @@ scopes:
 score:
   band: thin
   composite: 37.8
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -200,12 +200,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 41.8
+  previous_composite: 37.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/screenshots/docketai-2026-07-25T212205.png
 security:
@@ -233,6 +233,5 @@ tags:
 - Lead Qualification
 - Go-To-Market
 - MCP
-- Model Context Protocol
 website: https://www.docket.io/
 ---

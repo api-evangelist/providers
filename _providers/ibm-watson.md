@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Convert speech into text using AI-powered speech recognition and transcription. The service uses machine learning to combine knowledge of grammar, language structure, and audio signal composition to a
@@ -46,6 +46,10 @@ apis:
   slug: ibm-watson-assistant
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -94,14 +98,14 @@ finops:
   slug: ibm-watson-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibm-watson.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-21'
 name: IBM Watson
 nav: Providers
 network: true
-overview: 'IBM Watson publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, IBM, Machine Learning, Natural Language Processing, and Speech Recognition.
+overview: 'IBM Watson publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, IBM, Machine-Learning, Natural Language Processing, and Speech Recognition.
 
 
-  IBM Watson''s developer surface includes developer portal, documentation, getting-started guide, support, pricing, and 5 more developer resources.'
+  IBM Watson''s developer surface includes developer portal, documentation, getting-started guide, support, pricing, and 6 more developer resources.'
 plans:
 - name: Ibm Watson Plans Pricing
   plan_count: 3
@@ -114,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -124,9 +128,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-watson/refs/heads/main/screenshots/ibm-watson-2026-06-20T183138.png
 security:
@@ -142,7 +146,7 @@ slug: ibm-watson
 tags:
 - Artificial Intelligence
 - IBM
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Speech Recognition
 website: https://www.ibm.com/watson

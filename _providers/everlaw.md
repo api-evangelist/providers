@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Everlaw REST API provides programmatic access to the Everlaw eDiscovery platform, enabling automation of case management, document uploads, billing reporting, and analytics. API keys are required '
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.4
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -135,9 +135,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 34.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everlaw/refs/heads/main/screenshots/everlaw-2026-06-20T180906.png
 security:
@@ -160,7 +160,7 @@ tags:
 - Legal Technology
 - Document Review
 - Predictive Coding
-- AI
+- Artificial Intelligence
 - Legal
 website: https://www.everlaw.com
 ---

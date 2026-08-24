@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for creating and managing property capture jobs, retrieving 3D models and measurement deliverables, inspections, estimates, instant-design leads, and webhooks. OAuth 2.0 authenticated. Versio
@@ -127,8 +127,8 @@ image: https://hover.to/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: hover-mcp.yml
-  slug: hover-mcpyml
+  name: HOVER MCP Server
+  slug: hover-mcp-server
 modified: '2026-07-19'
 name: HOVER
 nav: Providers
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.2
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -158,7 +158,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 45.1
+  previous_composite: 41.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -168,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/screenshots/hover-2026-07-25T221536.png
 security:

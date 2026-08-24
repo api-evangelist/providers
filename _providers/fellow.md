@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for accessing Fellow meeting data — recordings, transcripts, structured notes, and action items — plus recording uploads and webhook management. Uses X-API-KEY authentication, cursor-based pa
@@ -175,13 +175,13 @@ image: https://framerusercontent.com/assets/J0X2qL3rwf819TDwjCc8iG9UjUk.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fellow-mcp.yml
-  slug: fellow-mcpyml
+  name: Fellow MCP Server
+  slug: fellow-mcp-server
 modified: '2026-07-19'
 name: Fellow
 nav: Providers
 network: true
-overview: 'Fellow publishes 1 API on the [APIs.io](https://apis.io/) network: Developer API. Tagged areas include Company, Saas, Meetings, AI, and Meeting Notes.
+overview: 'Fellow publishes 1 API on the [APIs.io](https://apis.io/) network: Developer API. Tagged areas include Company, Software-as-a-Service, Meetings, Artificial Intelligence, and Meeting Notes.
 
 
   The Fellow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -201,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 48.7
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -211,14 +211,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 55.7
+  previous_composite: 48.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/screenshots/fellow-2026-07-25T214332.png
 security:
 - kind: authentication
@@ -232,14 +232,14 @@ security:
 slug: fellow
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Meetings
-- AI
+- Artificial Intelligence
 - Meeting Notes
 - Transcription
 - Productivity
 - Action Items
-- Webhooks
+- Webhook
 - MCP
 website: https://fellow.ai
 ---

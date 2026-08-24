@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -298,7 +298,7 @@ modified: '2026-04-19'
 name: AIMLAPI
 nav: Providers
 network: true
-overview: 'AIMLAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Key Management API, Assistants API, Chat API, and 7 more. Tagged areas include Artificial Intelligence, Machine Learning, AI Models, LLM, and Image Generation.
+overview: 'AIMLAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Key Management API, Assistants API, Chat API, and 7 more. Tagged areas include Artificial Intelligence, Machine-Learning, AI Models, LLM, and Image-Generation.
 
 
   The AIMLAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -338,18 +338,18 @@ rules:
   slug: aimlapi-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: -5.7
+  composite: 46.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 58.9
     developer_ergonomics: 23.8
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 51.3
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -357,9 +357,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/screenshots/aimlapi-2026-06-20T171417.png
 security:
 - kind: authentication
@@ -373,10 +373,10 @@ security:
 slug: aimlapi
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - AI Models
 - LLM
-- Image Generation
+- Image-Generation
 - Video Generation
 - Speech
 - Embeddings

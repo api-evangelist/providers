@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Core AI platform that powers candidate matching, skills inference, career-path recommendations, and internal mobility decisions across the Eightfold suite. Customer-facing APIs are made available to e
@@ -199,8 +199,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eightfold-
 layout: provider
 mcp_servers:
 - description: ''
-  name: eightfold-ai-mcp.yml
-  slug: eightfold-ai-mcpyml
+  name: Eightfold AI MCP Server
+  slug: eightfold-ai-mcp-server
 modified: '2026-08-08'
 name: Eightfold AI
 nav: Providers
@@ -226,7 +226,7 @@ scopes:
 score:
   band: thin
   composite: 36.6
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -236,13 +236,13 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 41.4
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/screenshots/eightfold-ai-2026-07-25T213004.png
 security:

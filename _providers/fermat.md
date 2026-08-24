@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Remote Model Context Protocol server exposing 64 read-only tools over FERMAT commerce data — product catalog, funnel analytics, ad performance, destination insights, experiments, session and behaviora
@@ -180,13 +180,13 @@ image: https://www.fermatcommerce.com/assets/marketing/brand/open-graph.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fermat-mcp.yml
-  slug: fermat-mcpyml
+  name: Fermat Platform (External)
+  slug: fermat-platform-external
 modified: '2026-08-13'
 name: Fermat
 nav: Providers
 network: true
-overview: 'Fermat publishes 1 API on the [APIs.io](https://apis.io/) network: Pixel v2. Tagged areas include Company, Commerce, Ecommerce, Personalization, and Analytics.
+overview: 'Fermat publishes 1 API on the [APIs.io](https://apis.io/) network: Pixel v2. Tagged areas include Company, Commerce, E-Commerce, Personalization, and Analytics.
 
 
   The Fermat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -204,24 +204,24 @@ rate_limits:
   slug: fermat-rate-limits
 score:
   band: developing
-  composite: 41.3
-  delta: -3.7
+  composite: 42.4
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 18.2
     contract_quality: 44.4
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 45.0
+  previous_composite: 42.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fermat/refs/heads/main/screenshots/fermat-2026-07-25T214339.png
 security:
@@ -237,11 +237,11 @@ slug: fermat
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Personalization
 - Analytics
 - Conversion Rate Optimization
-- AI
+- Artificial Intelligence
 - Merchandising
 - MCP
 - Agentic Commerce

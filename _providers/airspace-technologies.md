@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -195,8 +195,8 @@ image: https://www.airspacetechnologies.com/hubfs/Updated%20logos/Airspace%20hor
 layout: provider
 mcp_servers:
 - description: ''
-  name: airspace-technologies-mcp.yml
-  slug: airspace-technologies-mcpyml
+  name: Airspace Technologies MCP Server
+  slug: airspace-technologies-mcp-server
 modified: '2026-07-17'
 name: Airspace Technologies
 nav: Providers
@@ -212,7 +212,7 @@ random_paper: 6
 score:
   band: developing
   composite: 51.8
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 51.9
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,8 +233,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/screenshots/airspace-technologies-2026-07-25T195443.png
 security:
@@ -258,7 +258,7 @@ tags:
 - Freight
 - Supply Chain
 - Transportation
-- Webhooks
-- Orders
+- Webhook
+- Order
 website: https://www.airspace.com/
 ---

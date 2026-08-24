@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -269,9 +269,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enrich-so.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: enrich-so-mcp.yml
-  slug: enrich-so-mcpyml
+- description: 'Enrich operates a first-party REMOTE MCP server at https://mcp.enrich.so/mcp. It is a Streamable-HTTP MCP endpoint (Express, CORS-open, mcp-session-id exposed) that an MCP client can POST to directly '
+  name: Enrich MCP Server
+  slug: enrich-mcp-server
 modified: '2026-08-14'
 name: Enrich
 nav: Providers
@@ -300,7 +300,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.4
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -310,7 +310,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 71.0
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -321,8 +321,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/screenshots/enrich-so-2026-07-25T213424.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Docusaurus is an open-source static site generator for documentation sites with React, MDX, versioning, i18n, and a plugin architecture. Docusaurus does not expose an HTTP API; it is a build tool cons
@@ -97,7 +97,7 @@ modified: '2026-04-28'
 name: Docusaurus
 nav: Providers
 network: true
-overview: 'Docusaurus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, Open Source, React, Static Site Generator, and Developer Portals.
+overview: 'Docusaurus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, Open-Source, React, Static Site Generator, and Developer Portals.
 
 
   Docusaurus'' developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.4
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -123,9 +123,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 15.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusaurus/refs/heads/main/screenshots/docusaurus-2026-06-20T180120.png
 security:
@@ -136,7 +136,7 @@ security:
 slug: docusaurus
 tags:
 - Documentation
-- Open Source
+- Open-Source
 - React
 - Static Site Generator
 - Developer Portals

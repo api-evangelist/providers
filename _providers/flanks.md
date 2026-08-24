@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth2-secured wealth-data API covering the Connect flow (connectors, sessions, SCA resolution), Credentials, Entities, Aggregation, and Letters, returning standardized portfolios, investments, accoun
@@ -158,9 +158,9 @@ description: Flanks is an AI-powered wealth data platform, headquartered in Barc
 image: https://cdn.prod.website-files.com/66d71d258c24eef64e16030e/66e002e85abba93409df5c36_flanks-opengrapfh.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: flanks-mcp.yml
-  slug: flanks-mcpyml
+- description: Model Context Protocol server giving AI assistants direct access to multi-bank investment data through Flanks. Covers the Connect flow, credential management, and portfolio/investment data retrieval.
+  name: Flanks MCP Server
+  slug: flanks-mcp-server
 modified: '2026-07-19'
 name: Flanks
 nav: Providers
@@ -173,7 +173,7 @@ random_paper: 9
 score:
   band: thin
   composite: 30.8
-  delta: -9.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -183,7 +183,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 40.1
+  previous_composite: 30.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -193,9 +193,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flanks/refs/heads/main/screenshots/flanks-2026-07-25T214706.png
 security:
 - kind: authentication
@@ -223,6 +223,5 @@ tags:
 - Fintech
 - Investments
 - Open Banking
-- APIs
 website: https://docs.flanks.io/
 ---

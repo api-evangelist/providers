@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-20'
 name: Offr
 nav: Providers
 network: true
-overview: 'Offr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real Estate, Property Transactions, and Auctions.
+overview: 'Offr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real-Estate, Property Transactions, and Auctions.
 
 
   Offr''s developer surface includes pricing, signup flow, support, engineering blog, and 10 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 17.7
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -114,9 +114,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offr/refs/heads/main/screenshots/offr-2026-08-07T190026.png
 security:
@@ -132,7 +132,7 @@ slug: offr
 tags:
 - Company
 - PropTech
-- Real Estate
+- Real-Estate
 - Property Transactions
 - Auctions
 - Lettings

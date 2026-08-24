@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC API for the Celo Layer 2 network, served over the public Forno endpoints. Supports the standard eth_* / net_* / web3_* method set for reading chain state, submitting trans
@@ -137,9 +137,9 @@ description: Celo is a leading Ethereum Layer 2 (L2) blockchain built for real-w
 image: https://framerusercontent.com/assets/vn0V92oZLFWJWDd5ypiVsqJilg.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: celo-mcp.yml
-  slug: celo-mcpyml
+- description: 'Model Context Protocol server providing AI assistants and IDEs comprehensive access to the Celo blockchain: blockchain data, token operations, NFTs, smart contracts, transactions, and governance. Publ'
+  name: Celo MCP Server
+  slug: celo-mcp-server
 modified: '2026-07-18'
 name: Celo
 nav: Providers
@@ -151,18 +151,18 @@ overview: 'Celo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 20
 score:
   band: thin
-  composite: 28.9
-  delta: -3.4
+  composite: 30.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 32.3
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -172,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/screenshots/celo-2026-07-25T204901.png
 security:

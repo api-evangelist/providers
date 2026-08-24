@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -280,18 +280,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.9
-  delta: -5.6
+  composite: 29.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 27.1
     developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 34.5
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     contracts:
@@ -299,9 +299,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Genius Authentication

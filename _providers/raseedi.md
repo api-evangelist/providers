@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,14 +61,14 @@ description: Raseedi is an Egyptian financial technology platform that helps und
 image: https://raseediapp.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: raseedi-mcp.yml
-  slug: raseedi-mcpyml
+- description: 'Raseedi''s marketing site (raseediapp.com) is hosted on Wix and exposes the generic Wix Site MCP endpoint. This is platform-provided infrastructure, NOT a first-party Raseedi product API. It answers a '
+  name: Raseedi Site MCP
+  slug: raseedi-site-mcp
 modified: '2026-07-20'
 name: Raseedi
 nav: Providers
 network: true
-overview: 'Raseedi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Financial Services, Mobile Payments, and Egypt.
+overview: 'Raseedi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial-Services, Mobile Payments, and Egypt.
 
 
   Raseedi''s developer surface includes engineering blog and 5 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 6.0
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -86,7 +86,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.6
+  previous_composite: 6.0
   provenance:
     mcp: first-party
   regulatory:
@@ -95,8 +95,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -106,8 +106,8 @@ security:
 slug: raseedi
 tags:
 - Company
-- FinTech
-- Financial Services
+- Fintech
+- Financial-Services
 - Mobile Payments
 - Egypt
 - Lending

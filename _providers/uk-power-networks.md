@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -263,8 +263,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: uk-power-networks-mcp.yml
-  slug: uk-power-networks-mcpyml
+  name: UK Power Networks MCP Server
+  slug: uk-power-networks-mcp-server
 modified: '2026-07-27'
 name: UK Power Networks
 nav: Providers
@@ -281,7 +281,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.9
-  delta: 7.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -291,7 +291,7 @@ score:
     discoverability: 87.0
     governance: 45.5
     operational_transparency: 57.9
-  previous_composite: 56.2
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,9 +303,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/screenshots/uk-power-networks-2026-08-17T082541.png
 security:
 - kind: authentication

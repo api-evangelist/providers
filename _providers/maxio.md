@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for managing the full subscription lifecycle in Maxio Advanced Billing (formerly Chargify): customers, products, components, subscriptions, invoices, transactions, coupons, and webhooks. Auth'
@@ -108,7 +108,7 @@ modified: '2026-05-11'
 name: Maxio
 nav: Providers
 network: true
-overview: 'Maxio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Billing, Subscriptions, Recurring Billing, Revenue Recognition, and SaaS Metrics.
+overview: 'Maxio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Billing, Subscription, Recurring Billing, Revenue Recognition, and SaaS Metrics.
 
 
   Maxio''s developer surface includes sandbox, documentation, signup flow, pricing, engineering blog, and 11 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 22.7
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -126,15 +126,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 25.7
+  previous_composite: 22.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxio/refs/heads/main/screenshots/maxio-2026-06-20T185049.png
 security:
@@ -149,7 +149,7 @@ security:
 slug: maxio
 tags:
 - Billing
-- Subscriptions
+- Subscription
 - Recurring Billing
 - Revenue Recognition
 - SaaS Metrics

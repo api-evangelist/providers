@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 88
@@ -224,7 +224,7 @@ random_paper: 10
 score:
   band: thin
   composite: 28.8
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -234,7 +234,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 29.9
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +242,8 @@ score:
       derived: 0
       marker_coverage: 100.0
       total: 20
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/screenshots/cisco-meraki-2026-06-20T174358.png
 security:
@@ -263,7 +263,7 @@ tags:
 - Security Appliances
 - Cloud-Managed Networking
 - MDM
-- Cameras
+- Camera
 - IoT
 website: https://meraki.cisco.com
 ---

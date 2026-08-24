@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 1
@@ -271,13 +271,13 @@ image: https://cdn.sanity.io/images/zppcnj0l/production/315c9e01bd4534858413ec77
 layout: provider
 mcp_servers:
 - description: ''
-  name: bria-mcp.yml
-  slug: bria-mcpyml
+  name: Bria MCP Server
+  slug: bria-mcp-server
 modified: '2026-08-08'
 name: Bria
 nav: Providers
 network: true
-overview: 'Bria publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Automotive Endpoints API, Dataset API, Editing Endpoints API, and 10 more. Tagged areas include Artificial Intelligence, Generative AI, Images, Image Generation, and Image Editing.
+overview: 'Bria publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Automotive Endpoints API, Dataset API, Editing Endpoints API, and 10 more. Tagged areas include Artificial Intelligence, Generative AI, Image, Image-Generation, and Image Editing.
 
 
   The Bria catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -293,7 +293,7 @@ scopes:
 score:
   band: strong
   composite: 55.4
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -303,7 +303,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 58.9
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,8 +314,8 @@ score:
       total: 13
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/screenshots/bria-2026-08-17T080703.png
 security:
@@ -335,11 +335,11 @@ slug: bria
 tags:
 - Artificial Intelligence
 - Generative AI
-- Images
-- Image Generation
+- Image
+- Image-Generation
 - Image Editing
 - Video
-- Machine Learning
+- Machine-Learning
 - Media
 - Content
 - Agents

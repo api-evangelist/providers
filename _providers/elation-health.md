@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -561,8 +561,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: elation-health-mcp.yml
-  slug: elation-health-mcpyml
+  name: Elation Health MCP Server
+  slug: elation-health-mcp-server
 modified: '2026-08-14'
 name: Elation Health
 nav: Providers
@@ -602,7 +602,7 @@ scopes:
 score:
   band: exemplar
   composite: 83.8
-  delta: 10.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -612,7 +612,7 @@ score:
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 42.1
-  previous_composite: 73.2
+  previous_composite: 83.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -629,9 +629,9 @@ score:
     regime: Health
     regime_id: health
     score: 92.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png
 security:
 - kind: authentication

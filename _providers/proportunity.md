@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-20'
 name: Proportunity
 nav: Providers
 network: true
-overview: 'Proportunity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Proptech, Mortgage, and Real Estate.
+overview: 'Proportunity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, PropTech, Mortgage, and Real-Estate.
 
 
   Proportunity''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 10.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -88,20 +88,20 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 10.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: proportunity
 tags:
 - Company
 - Fintech
-- Proptech
+- PropTech
 - Mortgage
-- Real Estate
+- Real-Estate
 - Lending
-- Home Ownership
-- Machine Learning
+- Homeownership
+- Machine-Learning
 - United Kingdom
 website: https://www.proportunity.com/
 ---

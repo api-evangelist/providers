@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -754,9 +754,9 @@ jsonld:
   slug: backblaze-b2-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: backblaze-mcp.yml
-  slug: backblaze-mcpyml
+- description: 'Backblaze does not operate an official hosted/remote MCP server. Several community MCP servers wrap B2 (e.g. BraveRam/backblaze-mcp on Glama, a Pipedream connector), but none are first-party. This is '
+  name: Backblaze MCP Server
+  slug: backblaze-mcp-server
 modified: '2026-06-20'
 name: Backblaze
 nav: Providers
@@ -801,18 +801,18 @@ rules:
   slug: backblaze-spectral-rules
 score:
   band: developing
-  composite: 47.8
-  delta: -8.5
+  composite: 48.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 23.3
     developer_ergonomics: 78.6
     discoverability: 63.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 26.3
-  previous_composite: 56.3
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -822,9 +822,9 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/screenshots/backblaze-2026-07-25T202216.png
 security:
 - kind: authentication

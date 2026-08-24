@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -98,9 +98,9 @@ description: Ambrook is financial management software for farms, ranches, and th
 image: https://ambrook.com/img/share/default-og.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ambrook-mcp.yml
-  slug: ambrook-mcpyml
+- description: Ambrook operates a hosted Model Context Protocol (MCP) server that lets AI agents connect to a farm/trade business's Ambrook accounting data. Access is gated by an OAuth 2.1 authorization-code flow (P
+  name: Ambrook MCP Server
+  slug: ambrook-mcp-server
 modified: '2026-07-17'
 name: Ambrook
 nav: Providers
@@ -117,18 +117,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.0
-  delta: -3.5
+  composite: 22.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 24.5
+  previous_composite: 22.1
   provenance:
     mcp: first-party
   regulatory:
@@ -137,8 +137,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambrook/refs/heads/main/screenshots/ambrook-2026-07-25T200036.png
 security:

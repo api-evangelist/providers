@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for automating content generation with Matik — manage templates, generate presentations/documents/spreadsheets, run dynamic content queries against connected data sources, manage da
@@ -179,8 +179,8 @@ image: https://cdn.prod.website-files.com/6169c25fc3b5f387dbc1b0ab/672c8fdcb72e6
 layout: provider
 mcp_servers:
 - description: ''
-  name: matik-mcp.yml
-  slug: matik-mcpyml
+  name: Matik MCP Server
+  slug: matik-mcp-server
 modified: '2026-08-14'
 name: Matik
 nav: Providers
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 47.2
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -219,13 +219,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/screenshots/matik-2026-07-25T230412.png
 security:
@@ -251,7 +251,7 @@ tags:
 - Sales Enablement
 - Customer Success
 - Revenue Operations
-- AI
+- Artificial Intelligence
 - MCP
 website: https://matik.io
 ---

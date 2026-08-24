@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -486,7 +486,7 @@ modified: '2026-05-19'
 name: UKG
 nav: Providers
 network: true
-overview: 'UKG publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accruals API, Benefits API, Employees API, and 5 more. Tagged areas include Human Capital Management, HCM, Workforce Management, HR, and Payroll.
+overview: 'UKG publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accruals API, Benefits API, Employees API, and 5 more. Tagged areas include HCM, Workforce Management, HR, Payroll, and Time and Attendance.
 
 
   The UKG catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -526,18 +526,18 @@ rules:
   slug: ukg-spectral-rules
 score:
   band: thin
-  composite: 31.7
-  delta: -14.3
+  composite: 32.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.8
     developer_ergonomics: 40.5
     discoverability: 68.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 46.0
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -545,9 +545,9 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png
 security:
 - kind: authentication
@@ -569,7 +569,6 @@ solutions:
 - description: Employee experience platform for HR case management, knowledge delivery, and document compliance.
   name: UKG HR Service Delivery
 tags:
-- Human Capital Management
 - HCM
 - Workforce Management
 - HR

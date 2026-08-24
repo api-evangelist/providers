@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-20'
 name: Pienza
 nav: Providers
 network: true
-overview: Pienza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Startup Studio, SaaS, and B2B.
+overview: Pienza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Startup Studio, Software-as-a-Service, and B2B.
 random_paper: 17
 score:
   band: minimal
@@ -72,15 +72,15 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: pienza
 tags:
 - Company
 - Venture Capital
 - Startup Studio
-- SaaS
+- Software-as-a-Service
 - B2B
 - Seattle
 - Accelerator

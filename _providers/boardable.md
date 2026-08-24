@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -70,7 +70,7 @@ modified: '2026-07-05'
 name: Boardable
 nav: Providers
 network: true
-overview: 'Boardable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Board Management, Governance, Nonprofit, Meetings, and Board Portal.
+overview: 'Boardable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Board Management, Governance, Non-Profit, Meetings, and Board Portal.
 
 
   Boardable''s developer surface includes documentation and 6 more developer resources.'
@@ -82,7 +82,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 12.9
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -92,9 +92,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boardable/refs/heads/main/screenshots/boardable-2026-07-25T203519.png
 security:
@@ -114,7 +114,7 @@ slug: boardable
 tags:
 - Board Management
 - Governance
-- Nonprofit
+- Non-Profit
 - Meetings
 - Board Portal
 - Collaboration

@@ -1,14 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · No registration for the institution-operated public reads
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - authentication
+  - probed
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -29,26 +30,29 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Kyoto Agentic Access
-  operation_count: 6
+  operation_count: 21
   slug: kyoto-agentic-access
-  summary_line: 6 operations
-api_count: 3
+  summary_line: 21 operations
+api_count: 4
 apis:
-- description: The Institute for Information Management and Communication (IIMC) operates a Shibboleth-based SAML identity provider for university-wide accounts (SPS-ID / ECS-ID) with multi-factor authentication. Fe
-  name: Kyoto University Integrated Authentication (Shibboleth/SAML)
-  slug: sso
-- description: OAI-PMH 2.0 metadata harvesting interface
-  name: Kyoto University OAI-PMH API
+- description: OAI-PMH 2.0 metadata harvesting interface for KURENAI, the Kyoto University Research Information Repository. Anonymous, verb-driven, and serving 15 metadata formats including jpcoar_2.0 and jpcoar_1.0
+  name: KURENAI OAI-PMH API
   slug: kyoto-oai-pmh-api
-- description: DSpace 7.6 HAL+JSON REST API
-  name: Kyoto University REST API
+- description: The DSpace 7.6 HAL+JSON REST API of the Kyoto University Research Information Repository. The root document at /server/api advertises every endpoint as HAL links and reports dspaceVersion "DSpace 7.6"
+  name: KURENAI DSpace REST API
   slug: kyoto-rest-api
-artifact_total: 21
+- description: PandA is the Kyoto University Learning Support System, a Sakai deployment operated by the Institute for Information Management and Communication and published by the IIMC as the university's own educa
+  name: PandA Learning Support System API (Sakai Entity Broker + IMS LTI)
+  slug: kyoto-lms-api
+- description: Kyoto University operates its own Shibboleth SAML 2.0 identity provider, run by the Institute for Information Management and Communication, with public machine-readable metadata at the canonical /idp/
+  name: Kyoto University Shibboleth Identity Provider (GakuNin)
+  slug: sso
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -60,6 +64,110 @@ collections:
   name: KURENAI Repository API (DSpace 7.6 + ) OAI-PMH REST API
   slug: open-kyoto-rest-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kyoto-u.ac.jp/en
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://repository.kulib.kyoto-u.ac.jp/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://authidp1.iimc.kyoto-u.ac.jp/idp/shibboleth
+- group: learn
+  title: ''
+  type: Learning
+  url: https://www.iimc.kyoto-u.ac.jp/en/services/education/lms
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.iimc.kyoto-u.ac.jp/en/services/comp
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://kuline.kulib.kyoto-u.ac.jp/opac/opac_search/
+- group: build
+  title: ''
+  type: Library
+  url: https://www.kulib.kyoto-u.ac.jp/
+- group: start
+  title: ''
+  type: ResearchPortal
+  url: https://kdb.iimc.kyoto-u.ac.jp/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.iimc.kyoto-u.ac.jp/en/services/gen-ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.iimc.kyoto-u.ac.jp/en/services
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/kyoto-u
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kyoto-u.ac.jp/en/site-policy
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kyoto-u.ac.jp/en/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.kyoto-u.ac.jp/en/contact
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/kyoto-university/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/KyotoU_News
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/c/KyotoUniversityOfficial
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/kyoto-education-standards-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/kyoto-authentication.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/kyoto-errors.yml
+- group: auth
+  title: ''
+  type: Scopes
+  url: scopes/kyoto-scopes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/kyoto-lifecycle.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/kyoto-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/kyoto-context.jsonld
+- group: design
+  title: ''
+  type: Rules
+  url: rules/kyoto-rules.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/kyoto-jsonschema-spectral-rules.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -68,26 +176,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/kyoto-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.kyoto-u.ac.jp/en
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/kyoto-u
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/kyoto-university/
-- group: company
-  title: ''
-  type: Twitter
-  url: https://twitter.com/Kyoto_Univ_PR
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://www.iimc.kyoto-u.ac.jp/en/services/account/auth-system
 - group: commercial
   title: ''
   type: Plans
@@ -105,17 +193,27 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Kyoto University is a national research university in Kyoto, Japan, ranked #37 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on scholarly and open-source infrastructure rather than a centralized developer portal. Confirmed public surfaces include the KURENAI research information repository (DSpace) with a live OAI-PMH metadata endpoint, the kyoto-u "Kyoto University Open Source Project" GitHub organization, and a Shibboleth/SAML integrated authentication system operated by the Institute for Information Management and Communication (IIMC). Student information, course, and timetable systems are gated behind campus accounts and are not publicly documented APIs.'
+description: 'Kyoto University (京都大学) is a national research university in Kyoto, Japan, established in 1897 and ranked #36 in the QS World University Rankings. It operates no developer portal, no API gateway, no API terms of service and no OpenAPI of its own, and this profile records that plainly. What it does run, on its own hosts and its own network, is a small set of genuinely institution-operated machine-readable surfaces: KURENAI, the Kyoto University Research Information Repository, a self-hosted DSpace 7.6 with an anonymous HAL+JSON REST API and an OAI-PMH 2.0 endpoint serving 15 metadata formats including JPCOAR and junii2, holding content back to 2006; PandA, the university''s Sakai Learning Support System, whose Entity Broker answers JSON on 53 registered entity prefixes and which is a live IMS LTI 1.3 platform publishing its own signing keyset alongside a working LTI 1.1 outcomes service; and its own Shibboleth SAML 2.0 identity provider, registered in GakuNin, the Japanese academic
+  federation, which participates in eduGAIN. Those surfaces sit on hosts inside 133.3.0.0/16, registered by JPNIC to Kyoto University as KUINS, or in the university''s own AWS account. Five of the twelve Kin Score education-regime standards are met with live evidence — oai-pmh, shibboleth, saml, lti and orcid — which is unusual for this cohort and entirely first-party. Everything else is a human-facing service: the KULINE library catalogue, the KDB researcher database, OpenCourseWare, and the generative-AI tooling the IIMC brokers from Google and Microsoft. Student information, course registration and timetable systems are behind campus accounts and are not public APIs.'
 examples:
-- key_count: 6
+- key_count: 7
   name: Kyoto Getroot Example
   slug: kyoto-getRoot-example
-- key_count: 2
+- key_count: 3
   name: Kyoto Listcommunities Example
   slug: kyoto-listCommunities-example
 - key_count: 3
+  name: Kyoto Lti13 Keyset Example
+  slug: kyoto-lti13-keyset-example
+- key_count: 4
   name: Kyoto Oaiidentify Example
   slug: kyoto-oaiIdentify-example
+- key_count: 3
+  name: Kyoto Panda Session Example
+  slug: kyoto-panda-session-example
+- key_count: 3
+  name: Kyoto Panda Tool Example
+  slug: kyoto-panda-tool-example
 finops:
 - name: Kyoto Finops
   service_category: Education
@@ -128,6 +226,12 @@ json_schemas:
 - name: KURENAI Community
   property_count: 9
   slug: kyoto-community
+- name: PandA Entity Broker Collection
+  property_count: 1
+  slug: kyoto-panda-entity-collection
+- name: PandA Tool
+  property_count: 14
+  slug: kyoto-panda-tool
 json_structures:
 - name: Kyoto Collection Structure
   property_count: 5
@@ -136,22 +240,22 @@ json_structures:
   property_count: 7
   slug: kyoto-community-structure
 jsonld:
-- class_count: 9
+- class_count: 12
   name: Kyoto Context
-  property_count: 6
+  property_count: 9
   slug: kyoto-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: Kyoto University
 nav: Providers
 network: true
-overview: 'Kyoto University publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAI-PMH API and REST API. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'Kyoto University publishes 3 APIs on the [APIs.io](https://apis.io/) network: KURENAI OAI-PMH API, KURENAI DSpace REST API, and PandA Learning Support System API (Sakai Entity Broker + IMS LTI). Tagged areas include University, Higher Education, Education, Japan, and National University.
 
 
   The Kyoto University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Kyoto University''s developer surface includes GitHub presence, authentication, and 9 more developer resources.'
+  Kyoto University''s developer surface includes documentation, GitHub presence, support, YouTube channel, authentication, and 27 more developer resources.'
 plans:
 - name: Kyoto Plans Pricing
   plan_count: 2
@@ -183,51 +287,65 @@ rules:
     info: 1
     warn: 3
   slug: kyoto-rules
+scopes:
+- name: Kyoto Scopes
+  scope_count: 0
+  slug: kyoto-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 32.9
-  delta: -4.6
+  band: developing
+  composite: 43.5
+  delta: 0.0
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 52.4
-    developer_ergonomics: 11.9
-    discoverability: 64.8
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 37.5
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 17.4
+    contract_quality: 59.9
+    developer_ergonomics: 26.2
+    discoverability: 74.1
+    governance: 17.4
+    operational_transparency: 10.5
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 2
+      marker_coverage: 100.0
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 64.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/screenshots/kyoto-2026-06-20T184226.png
 security:
+- kind: authentication
+  name: Kyoto Authentication
+  slug: kyoto-authentication
+  summary_line: none/saml/session · 6 schemes
 - kind: domain-security
   name: Kyoto Domain Security
   slug: kyoto-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: kyoto
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
-- Scholarly
-- Repository
+- Higher Education
+- Education
 - Japan
+- National University
+- Research Repository
+- Research Data
+- Identity Federation
+- Learning Management
+- Open Access
+- Research Computing
+- Scholarly
 website: https://www.kyoto-u.ac.jp/en
 ---

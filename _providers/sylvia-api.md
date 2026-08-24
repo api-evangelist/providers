@@ -1,15 +1,14 @@
 ---
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: na
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: na
     mcp_server: documented
@@ -17,10 +16,10 @@ agent_readiness:
     rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 56.9
-  scored_at: '2026-08-19'
+  score: 88.6
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The Live API from Sylvia API — 1 operation(s) for live.
@@ -59,7 +58,11 @@ apis:
 - description: The Templates API from Sylvia API — 2 operation(s) for templates.
   name: Sylvia API Templates API
   slug: sylvia-api-templates-api
-artifact_total: 17
+artifact_total: 18
+collections:
+- collection_type: postman
+  name: Sylvia API
+  slug: postman-sylvia-api
 common:
 - group: company
   title: ''
@@ -165,6 +168,38 @@ common:
   title: ''
   type: OpenAPI
   url: https://sylvia-api.com/openapi.json
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/sylvia-api-agentic-access-contract.json
+- group: build
+  title: ''
+  type: Postman
+  url: postman/sylvia-api.postman_collection.json
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sylvia-api-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/sylvia-api-conformance.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sylvia-api-overlay.json
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/sylvia-api-deprecation.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sylvia-api-error-codes.yml
 created: '2026-08-04'
 description: 'Sylvia API is a third-party Reddit data API that serves Reddit content as JSON — posts, comments with full recursive threads, subreddit and user surfaces, global search, and a live comment stream. Thirty-six operations across twelve tags cover the read surface (posts, comments, subreddits, users, search, domains, discovery and live feeds) plus account self-service: API key issue and revoke, response-format templates, usage history and crypto billing. Authentication is an API key for data endpoints and a separate account token for account operations. It occupies the gap left by Pushshift, giving researchers and developers queryable Reddit history without going through OAuth on the first-party API.'
 finops:
@@ -175,16 +210,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sylvia-api
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-modified: '2026-08-18'
+  name: Sylvia API MCP Server
+  slug: sylvia-api-mcp-server
+modified: '2026-08-20'
 name: Sylvia API
 nav: Providers
 network: true
 overview: 'Sylvia API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Live API, Subreddits API, Users API, and 9 more. Tagged areas include Reddit, Social, Data, Search, and Comments.
 
 
-  Sylvia API''s developer surface includes authentication, documentation, API reference, pricing, changelog, engineering blog, SDKs, and 19 more developer resources.'
+  Sylvia API''s developer surface includes authentication, documentation, API reference, pricing, changelog, engineering blog, SDKs, and 27 more developer resources.'
 plans:
 - name: Sylvia Api Plans Pricing
   plan_count: 4
@@ -195,29 +230,31 @@ rate_limits:
   name: Sylvia Api Rate Limits
   slug: sylvia-api-rate-limits
 score:
-  band: developing
-  composite: 48.2
-  delta: 22.6
+  band: strong
+  composite: 57.9
+  delta: 0.0
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
-    contract_governance: 0.0
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 30.3
     contract_quality: 60.1
-    developer_ergonomics: 47.6
-    discoverability: 81.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 25.6
+    developer_ergonomics: 59.5
+    discoverability: 92.6
+    governance: 30.3
+    operational_transparency: 34.2
+  previous_composite: 57.9
   provenance:
+    conformance: unknown
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 12
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+    skills: first-party
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Sylvia Api Authentication

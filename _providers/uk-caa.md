@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -241,9 +241,9 @@ json_schemas:
   slug: uk-caa-term
 layout: provider
 mcp_servers:
-- description: ''
-  name: uk-caa-mcp.yml
-  slug: uk-caa-mcpyml
+- description: 'The UK Civil Aviation Authority publishes NO MCP server. Searched on 2026-07-28: no mcp.caa.co.uk, no MCP reference anywhere on caa.co.uk or in the CAA''s own llms.txt, no CAA GitHub organisation (ukca'
+  name: UK Civil Aviation Authority MCP Server
+  slug: uk-civil-aviation-authority-mcp-server
 modified: '2026-07-28'
 name: UK Civil Aviation Authority
 nav: Providers
@@ -256,7 +256,7 @@ random_paper: 16
 score:
   band: developing
   composite: 44.3
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -266,7 +266,7 @@ score:
     discoverability: 87.0
     governance: 20.5
     operational_transparency: 26.3
-  previous_composite: 41.7
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,8 +283,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

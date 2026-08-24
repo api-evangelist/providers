@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 8
@@ -1827,7 +1827,7 @@ modified: '2026-06-13'
 name: PeerTube
 nav: Providers
 network: true
-overview: 'PeerTube publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Abuses API, Account Blocklist API, Accounts API, and 51 more. Tagged areas include Video, Decentralized, Federation, Open Source, and ActivityPub.
+overview: 'PeerTube publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Abuses API, Account Blocklist API, Accounts API, and 51 more. Tagged areas include Video, Decentralized, Federation, Open-Source, and ActivityPub.
 
 
   The PeerTube catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1862,7 +1862,7 @@ scopes:
 score:
   band: thin
   composite: 34.5
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -1872,7 +1872,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 41.5
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1880,9 +1880,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 54
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/screenshots/peertube-2026-06-20T191525.png
 security:
 - kind: authentication
@@ -1898,7 +1898,7 @@ tags:
 - Video
 - Decentralized
 - Federation
-- Open Source
+- Open-Source
 - ActivityPub
 - Self-Hosted
 - Streaming

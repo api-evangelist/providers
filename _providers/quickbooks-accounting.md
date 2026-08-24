@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing QuickBooks Online accounting entities including Customer, Vendor, Employee, Item, Invoice, Bill, Payment, BillPayment, JournalEntry, Account, TaxCode, and Company information. Al
@@ -96,7 +96,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 18.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -106,9 +106,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks-accounting/refs/heads/main/screenshots/quickbooks-accounting-2026-06-20T192431.png
 security:
@@ -125,6 +125,6 @@ tags:
 - QuickBooks
 - Intuit
 - Financial Data
-- OAuth 2.0
+- Authentication
 website: https://quickbooks.intuit.com
 ---

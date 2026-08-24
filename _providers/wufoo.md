@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -387,7 +387,7 @@ modified: '2026-05-23'
 name: Wufoo
 nav: Providers
 network: true
-overview: 'Wufoo publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Comments API, Entries API, and 7 more. Tagged areas include Forms, Form Builder, Surveys, Data Collection, and Webhooks.
+overview: 'Wufoo publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Comments API, Entries API, and 7 more. Tagged areas include Forms, Form Builder, Surveys, Data Collection, and Webhook.
 
 
   The Wufoo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -439,7 +439,7 @@ rules:
 score:
   band: strong
   composite: 60.5
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -449,7 +449,7 @@ score:
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 61.1
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -463,8 +463,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/screenshots/wufoo-2026-06-20T201637.png
 security:
@@ -482,7 +482,7 @@ tags:
 - Form Builder
 - Surveys
 - Data Collection
-- Webhooks
+- Webhook
 - Payments
 - SurveyMonkey
 website: https://wufoo.github.io/docs/

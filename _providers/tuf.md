@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The TUF specification defines the structure of update repositories including the root, targets, snapshot, and timestamp metadata files. Each metadata file has a defined schema with signatures, expirat
@@ -166,7 +166,7 @@ modified: '2026-05-03'
 name: The Update Framework (TUF)
 nav: Providers
 network: true
-overview: 'The Update Framework (TUF) publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CNCF, Cloud Native, Graduated, Security, and Software Supply Chain.
+overview: 'The Update Framework (TUF) publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CNCF, Cloud-Native, Graduated, Security, and Software Supply Chain.
 
 
   The The Update Framework (TUF) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -196,7 +196,7 @@ rules:
 score:
   band: thin
   composite: 26.3
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -206,10 +206,10 @@ score:
     discoverability: 72.2
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 26.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/screenshots/tuf-2026-06-20T195821.png
 security:
 - kind: domain-security
@@ -219,7 +219,7 @@ security:
 slug: tuf
 tags:
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Graduated
 - Security
 - Software Supply Chain

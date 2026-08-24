@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Query members and their profiles, emails, subscriptions, downloads, and custom JSON metadata (up to 50 keys), and create, update, or delete members through GraphQL mutations. Cursor-based pagination (
@@ -105,7 +105,7 @@ modified: '2026-07-05'
 name: Memberful
 nav: Providers
 network: true
-overview: 'Memberful publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Members API, Subscriptions API, Plans and Passes API, and 1 more. Tagged areas include Memberships, Subscriptions, Payments, Creators, and GraphQL.
+overview: 'Memberful publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Members API, Subscriptions API, Plans and Passes API, and 1 more. Tagged areas include Memberships, Subscription, Payments, Creators, and GraphQL.
 
 
   Memberful''s developer surface includes documentation and 8 more developer resources.'
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.4
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -131,15 +131,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 30.6
+  previous_composite: 27.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/screenshots/memberful-2026-08-07T172455.png
 security:
@@ -154,7 +154,7 @@ security:
 slug: memberful
 tags:
 - Memberships
-- Subscriptions
+- Subscription
 - Payments
 - Creators
 - GraphQL

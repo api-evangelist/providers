@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -192,7 +192,7 @@ modified: '2026-05-19'
 name: Super Micro Computer
 nav: Providers
 network: true
-overview: 'Super Micro Computer publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Chassis API, Event Service API, and 7 more. Tagged areas include Servers, Data Center, Hardware, Server Management, and Redfish.
+overview: 'Super Micro Computer publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Chassis API, Event Service API, and 7 more. Tagged areas include Servers, Data-Center, Hardware, Server Management, and Redfish.
 
 
   The Super Micro Computer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -232,7 +232,7 @@ rules:
 score:
   band: thin
   composite: 32.9
-  delta: -12.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -242,7 +242,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -250,9 +250,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/screenshots/super-micro-computer-2026-06-20T194706.png
 security:
 - kind: authentication
@@ -266,7 +266,7 @@ security:
 slug: super-micro-computer
 tags:
 - Servers
-- Data Center
+- Data-Center
 - Hardware
 - Server Management
 - Redfish

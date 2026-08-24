@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -366,6 +366,62 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/SAP/ai-skills-library
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/ariba-guided-buying/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-america/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-api-management/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-bi-tools/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-brim-billing-and-revenue-innovation-management/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-btp/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-business-one/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-bydesign/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-commerce/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-fieldglass/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-integration-suite/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-sales-and-distribution-sd/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sap-successfactors/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/sybase/
 created: '2024-01-15'
 description: Collection of SAP's enterprise APIs for business applications and cloud services.
 examples:
@@ -645,17 +701,17 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: SAP
 nav: Providers
 network: true
-overview: 'SAP publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Event Mesh API, Addresses API, Artifacts API, and 13 more. Tagged areas include AI, BTP, Business Applications, Cloud, and Data Management.
+overview: 'SAP publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Event Mesh API, Addresses API, Artifacts API, and 13 more. Tagged areas include Artificial Intelligence, BTP, Business Applications, Cloud, and Data Management.
 
 
   The SAP catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 24 more developer resources.'
+  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 38 more developer resources.'
 plans:
 - name: Sap Plans Pricing
   plan_count: 1
@@ -705,18 +761,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 49.2
-  delta: -6.9
+  composite: 49.4
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 68.9
     developer_ergonomics: 59.5
     discoverability: 53.7
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 56.1
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -724,9 +780,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:
 - kind: authentication
@@ -747,7 +803,7 @@ skills:
   slug: sap-fiori-guidelines
 slug: sap
 tags:
-- AI
+- Artificial Intelligence
 - BTP
 - Business Applications
 - Cloud

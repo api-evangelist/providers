@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Credit-metered REST API for Toksta creator data, analysis jobs and SaaS workspace workflows. HTTP Bearer auth with self-serve tk_live_ keys, cursor pagination, a normalized success/error envelope, per
@@ -152,11 +152,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toksta.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: toksta-mcp.yml
-  slug: toksta-mcpyml
+  name: toksta MCP Server
+  slug: toksta-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: toksta MCP Server
+  slug: toksta-mcp-server-2
 modified: '2026-08-13'
 name: toksta
 nav: Providers
@@ -182,7 +182,7 @@ scopes:
 score:
   band: developing
   composite: 44.3
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -192,7 +192,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 47.0
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     contracts:
@@ -202,8 +202,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/screenshots/toksta-2026-08-17T082400.png
 security:
@@ -225,7 +225,7 @@ tags:
 - AI Agents
 - LinkedIn
 - YouTube
-- SaaS
+- Software-as-a-Service
 - Creator Data
 - MCP
 - Brand Monitoring

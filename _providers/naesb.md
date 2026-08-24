@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The NAESB REQ.21 ESPI Model Business Practices define the data exchange protocol for transferring retail energy usage information from a utility (Data Custodian) to a Third Party with the Retail Custo
@@ -167,8 +167,8 @@ image: https://www.naesb.org/images/naesb-logo.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: naesb-mcp.yml
-  slug: naesb-mcpyml
+  name: NAESB MCP Server
+  slug: naesb-mcp-server
 modified: '2026-07-27'
 name: NAESB
 nav: Providers
@@ -181,7 +181,7 @@ random_paper: 17
 score:
   band: thin
   composite: 33.0
-  delta: 7.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -191,7 +191,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 25.2
+  previous_composite: 33.0
   provenance:
     conformance: derived
     mcp: derived
@@ -202,9 +202,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naesb/refs/heads/main/screenshots/naesb-2026-08-07T184604.png
 security:
 - kind: authentication

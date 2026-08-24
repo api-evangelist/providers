@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ modified: '2026-05-25'
 name: Rocket Lawyer
 nav: Providers
 network: true
-overview: 'Rocket Lawyer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accesstoken API, Binders API, Documents API, and 5 more. Tagged areas include Legal, Legal Technology, LegalTech, Legal Documents, and Electronic Signature.
+overview: 'Rocket Lawyer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accesstoken API, Binders API, Documents API, and 5 more. Tagged areas include Legal, Legal Technology, Legal Tech, Legal Documents, and Electronic Signature.
 
 
   Rocket Lawyer''s developer surface includes authentication, developer portal, getting-started guide, documentation, release notes, signup flow, support, and 29 more developer resources.'
@@ -266,7 +266,7 @@ random_paper: 9
 score:
   band: thin
   composite: 35.8
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -276,7 +276,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 42.6
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -284,9 +284,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/screenshots/rocket-lawyer-2026-06-20T193152.png
 security:
 - kind: authentication
@@ -305,12 +305,12 @@ slug: rocket-lawyer
 tags:
 - Legal
 - Legal Technology
-- LegalTech
+- Legal Tech
 - Legal Documents
 - Electronic Signature
-- eSignature
+- E-Signature
 - Document Creation
-- Document Management
+- Document-Management
 - Business Formation
 - LLC Formation
 - Registered Agent

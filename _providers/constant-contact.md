@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -356,7 +356,7 @@ modified: '2026-08-13'
 name: Constant Contact
 nav: Providers
 network: true
-overview: 'Constant Contact publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Bulk Activities API, Contact Lists API, and 14 more. Tagged areas include Campaigns, Contacts, Email Marketing, Events, and Reporting.
+overview: 'Constant Contact publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Bulk Activities API, Contact Lists API, and 14 more. Tagged areas include Campaigns, Contacts, Email Marketing, Event, and Reporting.
 
 
   The Constant Contact catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -401,18 +401,18 @@ scopes:
   summary_line: 6 scopes · implicit/authorizationCode
 score:
   band: strong
-  composite: 65.5
-  delta: 1.9
+  composite: 66.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 70.3
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 63.6
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -429,8 +429,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png
 security:
@@ -447,7 +447,7 @@ tags:
 - Campaigns
 - Contacts
 - Email Marketing
-- Events
+- Event
 - Reporting
 - SMS
 - Surveys

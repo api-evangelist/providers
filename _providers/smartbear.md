@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -255,19 +255,19 @@ rules:
     warn: 5
   slug: smartbear-rules
 score:
-  band: thin
-  composite: 39.1
-  delta: -8.2
+  band: developing
+  composite: 39.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 60.7
     developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 47.3
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -275,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/screenshots/smartbear-2026-06-20T194038.png
 security:
 - kind: authentication

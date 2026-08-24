@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: API key management — generate free keys and check usage
@@ -157,9 +157,9 @@ description: Pre-payout IBAN screening for developers and AI agents — validati
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibanforge.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: ibanforge-mcp.yml
-  slug: ibanforge-mcpyml
+- description: IBANforge operates an official remote MCP server over Streamable HTTP, plus a stdio server published to npm as `ibanforge-mcp`. The HTTP transport answers a full handshake and tool calls with NO crede
+  name: IBANforge MCP Server
+  slug: ibanforge-mcp-server
 modified: '2026-08-06'
 name: IBANforge
 nav: Providers
@@ -172,7 +172,7 @@ random_paper: 17
 score:
   band: thin
   composite: 33.4
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -182,7 +182,7 @@ score:
     discoverability: 90.7
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 35.0
+  previous_composite: 33.4
   provenance:
     contracts:
       callable: 100.0
@@ -196,8 +196,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/screenshots/ibanforge-2026-06-20T183111.png
 security:

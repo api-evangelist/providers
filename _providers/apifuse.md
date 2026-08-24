@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ modified: '2026-05-19'
 name: Apifuse
 nav: Providers
 network: true
-overview: 'Apifuse publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connectors API, Integrations API, and 2 more. Tagged areas include Embedded Integrations, Integration Platform, Integrations, iPaaS, and Marketplace.
+overview: 'Apifuse publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connectors API, Integrations API, and 2 more. Tagged areas include Embedded Integrations, Integration Platform, Integration, iPaaS, and Marketplace.
 
 
   The Apifuse catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -254,18 +254,18 @@ rules:
   slug: apifuse-spectral-rules
 score:
   band: thin
-  composite: 29.2
-  delta: -9.6
+  composite: 29.6
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 27.6
     developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 38.8
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -273,9 +273,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/screenshots/apifuse-2026-06-20T172232.png
 security:
 - kind: authentication
@@ -297,11 +297,11 @@ solutions:
 tags:
 - Embedded Integrations
 - Integration Platform
-- Integrations
+- Integration
 - iPaaS
 - Marketplace
-- SaaS
-- Workflow Automation
+- Software-as-a-Service
+- Workflow-Automation
 use_cases:
 - description: Embed a branded integration marketplace into your SaaS product to let customers connect Salesforce, Mailchimp, DocuSign, and 150+ other tools.
   name: SaaS Integration Marketplace

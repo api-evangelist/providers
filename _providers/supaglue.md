@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -492,7 +492,7 @@ modified: '2026-08-13'
 name: Supaglue
 nav: Providers
 network: true
-overview: 'Supaglue publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Associations API, AssociationSchemas API, and 37 more. Tagged areas include CRM, HRIS, Unified API, Open Source, and Integrations.
+overview: 'Supaglue publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Associations API, AssociationSchemas API, and 37 more. Tagged areas include CRM, HRIS, Unified-API, Open-Source, and Integration.
 
 
   The Supaglue catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -532,18 +532,18 @@ rules:
   slug: supaglue-rules
 score:
   band: strong
-  composite: 57.1
-  delta: -2.7
+  composite: 57.6
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 40.2
+    contract_governance: 43.9
     contract_quality: 74.6
     developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 40.2
+    governance: 43.9
     operational_transparency: 42.1
-  previous_composite: 59.8
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -554,8 +554,8 @@ score:
       total: 40
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png
 security:
@@ -575,14 +575,14 @@ slug: supaglue
 tags:
 - CRM
 - HRIS
-- Unified API
-- Open Source
-- Integrations
+- Unified-API
+- Open-Source
+- Integration
 - Sales Engagement
 - Ticketing
 - Data Synchronization
 - Marketing Automation
 - Enrichment
-- Webhooks
+- Webhook
 - Archived
 ---

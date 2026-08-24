@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -187,8 +187,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tessian.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: tessian-mcp.yml
-  slug: tessian-mcpyml
+  name: Tessian MCP Server
+  slug: tessian-mcp-server
 modified: '2026-07-21'
 name: Tessian
 nav: Providers
@@ -201,7 +201,7 @@ random_paper: 3
 score:
   band: thin
   composite: 35.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -211,7 +211,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 35.0
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +222,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

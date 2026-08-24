@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -169,7 +169,7 @@ modified: '2026-07-04'
 name: Blend
 nav: Providers
 network: true
-overview: 'Blend publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Borrowers & Parties API, Closings & eSignature API, Consumer Lending & Deposit API, and 7 more. Tagged areas include Digital Lending, Mortgage, Consumer Lending, Account Opening, and FinTech.
+overview: 'Blend publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Borrowers & Parties API, Closings & eSignature API, Consumer Lending & Deposit API, and 7 more. Tagged areas include Digital Lending, Mortgage, Consumer Lending, Account Opening, and Fintech.
 
 
   Blend''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 7 more developer resources.'
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.5
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -195,7 +195,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.3
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/screenshots/blend-mortgage-2026-07-25T203309.png
 security:
@@ -228,9 +228,9 @@ tags:
 - Mortgage
 - Consumer Lending
 - Account Opening
-- FinTech
+- Fintech
 - Loan Origination
 - Banking
-- Financial Services
+- Financial-Services
 website: https://blend.com
 ---

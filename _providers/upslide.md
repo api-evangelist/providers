@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Official remote MCP (Model Context Protocol) server that connects AI assistants such as Claude Desktop and Microsoft 365 Copilot to the UpSlide add-in. Exposes selected UpSlide features (Excel link li
@@ -133,14 +133,14 @@ description: UpSlide is a French B Corp-certified software company whose Microso
 image: https://upslide.com/wp-content/uploads/2026/03/UpSlide_monogram_color.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: upslide-mcp.yml
-  slug: upslide-mcpyml
+- description: UpSlide operates an official remote MCP server at https://api.upslide.com/mcp (Streamable HTTP) that connects AI assistants such as Claude Desktop and Microsoft 365 Copilot to the UpSlide add-in for E
+  name: UpSlide MCP Server
+  slug: upslide-mcp-server
 modified: '2026-07-21'
 name: UpSlide
 nav: Providers
 network: true
-overview: 'UpSlide publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Document Automation, Financial Services, and Microsoft 365.
+overview: 'UpSlide publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Document Automation, Financial-Services, and Microsoft-365.
 
 
   UpSlide''s developer surface includes developer portal, documentation, support, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
@@ -148,7 +148,7 @@ random_paper: 2
 score:
   band: thin
   composite: 30.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -158,13 +158,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 31.1
+  previous_composite: 30.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -180,8 +180,8 @@ tags:
 - Company
 - Applicative Saas
 - Document Automation
-- Financial Services
-- Microsoft 365
+- Financial-Services
+- Microsoft-365
 - PowerPoint
 - Excel
 - AI Assistants

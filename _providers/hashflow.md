@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'REST API for takers/aggregators: discover market makers, query indicative price levels, request signed executable RFQ quotes, and check trader rate-limit restrictions. Quotes settle on-chain via Hashf'
@@ -142,13 +142,13 @@ image: https://www.hashflow.com/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: hashflow-mcp.yml
-  slug: hashflow-mcpyml
+  name: Hashflow MCP Server
+  slug: hashflow-mcp-server
 modified: '2026-07-19'
 name: Hashflow
 nav: Providers
 network: true
-overview: 'Hashflow publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, DEX, RFQ, and Trading.
+overview: 'Hashflow publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, DEX, RFQ, and Trading.
 
 
   Hashflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, pricing, and 17 more developer resources.'
@@ -156,7 +156,7 @@ random_paper: 20
 score:
   band: thin
   composite: 27.3
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -166,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 28.9
+  previous_composite: 27.3
   provenance:
     conformance: derived
     mcp: derived
@@ -177,8 +177,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/screenshots/hashflow-2026-07-25T220747.png
 security:
@@ -197,7 +197,7 @@ security:
 slug: hashflow
 tags:
 - Company
-- Defi
+- DeFi
 - DEX
 - RFQ
 - Trading

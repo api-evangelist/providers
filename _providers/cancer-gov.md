@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-04-23'
 name: Cancer.gov
 nav: Providers
 network: true
-overview: 'Cancer.gov publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Diseases API, Interventions API, Terms API, and 1 more. Tagged areas include Cancer, Federal Government, Healthcare, Research, and Clinical Trials.
+overview: 'Cancer.gov publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Diseases API, Interventions API, Terms API, and 1 more. Tagged areas include Cancer, Federal-Government, Healthcare, Research, and Clinical Trials.
 
 
   Cancer.gov''s developer surface includes authentication, developer portal, engineering blog, and 9 more developer resources.'
@@ -167,7 +167,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.3
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -177,7 +177,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.7
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +191,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/screenshots/cancer-gov-2026-06-20T173920.png
 security:
@@ -207,7 +207,7 @@ security:
 slug: cancer-gov
 tags:
 - Cancer
-- Federal Government
+- Federal-Government
 - Healthcare
 - Research
 - Clinical Trials

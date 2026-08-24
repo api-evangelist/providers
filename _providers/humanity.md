@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Humanity HVII Public API is a REST API for workforce management — employees, positions, locations, shifts, shift swaps and trades, timeclocks, leaves, messages, training, tasks (master/shift/emplo
@@ -115,8 +115,8 @@ image: https://tcpsoftware.com/products/humanity/
 layout: provider
 mcp_servers:
 - description: ''
-  name: humanity-mcp.yml
-  slug: humanity-mcpyml
+  name: Humanity MCP Server
+  slug: humanity-mcp-server
 modified: '2026-07-19'
 name: Humanity
 nav: Providers
@@ -129,7 +129,7 @@ random_paper: 18
 score:
   band: thin
   composite: 27.3
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -139,12 +139,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 28.9
+  previous_composite: 27.3
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanity/refs/heads/main/screenshots/humanity-2026-07-25T221658.png
 security:

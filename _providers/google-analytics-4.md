@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -263,13 +263,13 @@ image: https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: google-analytics-4-mcp.yml
-  slug: google-analytics-4-mcpyml
+  name: Google Analytics 4 MCP Server
+  slug: google-analytics-4-mcp-server
 modified: '2026-08-13'
 name: Google Analytics 4
 nav: Providers
 network: true
-overview: 'Google Analytics 4 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Google Analytics Data API and Google Analytics Admin API. Tagged areas include Analytics, Data Collection, Marketing, Measurement, and Mobile Analytics.
+overview: 'Google Analytics 4 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Google Analytics Data API and Google Analytics Admin API. Tagged areas include Analytics, Data Collection, Marketing, Measurements, and Mobile Analytics.
 
 
   The Google Analytics 4 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -292,18 +292,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.1
-  delta: 2.2
+  composite: 70.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 16.7
     contract_quality: 69.9
     developer_ergonomics: 70.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 66.9
+  previous_composite: 70.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,8 +314,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/screenshots/google-analytics-4-2026-06-20T182011.png
 security:
@@ -340,7 +340,7 @@ tags:
 - Analytics
 - Data Collection
 - Marketing
-- Measurement
+- Measurements
 - Mobile Analytics
 - Reporting
 - Web Analytics

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Defakto control-plane API. A gRPC service surface of sixteen versioned services covering trust domains, clusters, realms, workloads, access policy, service accounts and sessions, agent and provide
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.6
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -191,12 +191,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 49.6
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defakto-security/refs/heads/main/screenshots/defakto-security-2026-08-17T080850.png
 security:

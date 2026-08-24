@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -262,13 +262,13 @@ image: https://avatars.githubusercontent.com/u/66959440?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: codesphere-mcp.yml
-  slug: codesphere-mcpyml
+  name: Codesphere MCP Server
+  slug: codesphere-mcp-server
 modified: '2026-07-18'
 name: Codesphere
 nav: Providers
 network: true
-overview: 'Codesphere publishes 10 APIs on the [APIs.io](https://apis.io/) network, including clusters API, domains API, managed-services API, and 7 more. Tagged areas include Company, Saas, Cloud, Deployment, and Developer Tools.
+overview: 'Codesphere publishes 10 APIs on the [APIs.io](https://apis.io/) network, including clusters API, domains API, managed-services API, and 7 more. Tagged areas include Company, Software-as-a-Service, Cloud, Deployment, and Developer Tools.
 
 
   Codesphere''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 29 more developer resources.'
@@ -276,7 +276,7 @@ random_paper: 8
 score:
   band: developing
   composite: 51.1
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -286,7 +286,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 54.7
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,8 +297,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/screenshots/codesphere-2026-07-25T205930.png
 security:
@@ -321,14 +321,14 @@ security:
 slug: codesphere
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Cloud
 - Deployment
 - Developer Tools
-- Platform as a Service
+- Platform-as-a-Service
 - Infrastructure
 - Sovereign Cloud
 - CI/CD
-- Managed Services
+- Managed Service
 website: https://codesphere.com/
 ---

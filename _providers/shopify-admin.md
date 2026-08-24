@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ modified: '2026-05-30'
 name: Shopify Admin API
 nav: Providers
 network: true
-overview: 'Shopify Admin API publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Shopify Webhooks, Collections API, Customers API, and 6 more. Tagged areas include Commerce, Ecommerce, Admin, Products, and Orders.
+overview: 'Shopify Admin API publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Shopify Webhooks, Collections API, Customers API, and 6 more. Tagged areas include Commerce, E-Commerce, Admin, Product, and Order.
 
 
   The Shopify Admin API catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -288,18 +288,18 @@ rules:
   slug: shopify-admin-rules
 score:
   band: thin
-  composite: 38.3
-  delta: -3.9
+  composite: 38.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 79.2
     developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 42.2
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -307,8 +307,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/screenshots/shopify-admin-2026-06-20T193830.png
 security:
@@ -323,10 +323,10 @@ security:
 slug: shopify-admin
 tags:
 - Commerce
-- Ecommerce
+- E-Commerce
 - Admin
-- Products
-- Orders
+- Product
+- Order
 - Customers
 website: https://shopify.dev/
 ---

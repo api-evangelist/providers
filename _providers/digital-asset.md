@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The common API from Digital Asset — 3 operation(s) for common.
@@ -190,13 +190,13 @@ image: https://www.digitalasset.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: digital-asset-mcp.yml
-  slug: digital-asset-mcpyml
+  name: Digital Asset MCP Server
+  slug: digital-asset-mcp-server
 modified: '2026-08-04'
 name: Digital Asset
 nav: Providers
 network: true
-overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Common API, Operator API, Public API, and 1 more. Tagged areas include Blockchain, Tokenization, Digital Assets, Financial Services, and Distributed Ledger.
+overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Common API, Operator API, Public API, and 1 more. Tagged areas include Blockchain, Tokenization, Digital Assets, Financial-Services, and Distributed Ledger.
 
 
   Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
@@ -204,7 +204,7 @@ random_paper: 0
 score:
   band: developing
   composite: 48.0
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 47.0
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -224,8 +224,8 @@ score:
       total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/screenshots/digital-asset-2026-08-07T164342.png
 security:
@@ -250,7 +250,7 @@ tags:
 - Blockchain
 - Tokenization
 - Digital Assets
-- Financial Services
+- Financial-Services
 - Distributed Ledger
 - Smart Contracts
 - Capital Markets

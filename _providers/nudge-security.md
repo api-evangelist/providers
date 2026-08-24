@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-05-19'
 name: Nudge Security
 nav: Providers
 network: true
-overview: 'Nudge Security publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, App Integrations API, Apps API, and 8 more. Tagged areas include Access Management, AI Security, Compliance, Governance, and OAuth.
+overview: 'Nudge Security publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, App Integrations API, Apps API, and 8 more. Tagged areas include Access Management, AI Security, Compliance, Governance, and Authentication.
 
 
   Nudge Security''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, changelog, FAQ, and 6 more developer resources.'
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -205,7 +205,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 37.5
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +213,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/screenshots/nudge-security-2026-06-20T190516.png
 security:
@@ -236,7 +236,7 @@ tags:
 - AI Security
 - Compliance
 - Governance
-- OAuth
+- Authentication
 - SaaS Management
 - SaaS Security
 - Security

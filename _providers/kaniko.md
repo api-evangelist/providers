@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Kaniko is a command-line tool distributed as the container image gcr.io/kaniko-project/executor that builds container images from a Dockerfile. It supports multiple build context sources (GCS, S3, Azu
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 16.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaniko/refs/heads/main/screenshots/kaniko-2026-06-20T183915.png
 slug: kaniko
@@ -118,5 +118,5 @@ tags:
 - Daemonless
 - Google
 - Kubernetes
-- Open Source
+- Open-Source
 ---

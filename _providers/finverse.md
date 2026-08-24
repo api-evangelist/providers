@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Retrieve real-time financial account information with user consent from over 40 Asian banks. Returns key financial data including real-time account balances, transaction and balance history for up to '
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.3
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -114,15 +114,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.7
+  previous_composite: 9.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finverse/refs/heads/main/screenshots/finverse-2026-06-20T181225.png
 security:
@@ -138,6 +138,6 @@ tags:
 - Open Banking
 - Open Finance
 - Payments
-- Unified API
+- Unified-API
 website: https://www.finverse.com
 ---

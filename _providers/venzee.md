@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful API for the Venzee / Jasper PIM platform. Manage products, variants, categories, brands, attributes and options, channel-specific pricing and inventory, and digital assets; subscribe to webhoo
@@ -117,7 +117,7 @@ modified: '2026-07-21'
 name: Venzee
 nav: Providers
 network: true
-overview: 'Venzee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Product Information Management, PIM, Ecommerce, and Product Data Syndication.
+overview: 'Venzee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Product Information Management, PIM, E-Commerce, and Product Data Syndication.
 
 
   The Venzee catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -128,7 +128,7 @@ random_paper: 2
 score:
   band: thin
   composite: 35.8
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -138,9 +138,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 38.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 35.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -156,10 +156,9 @@ tags:
 - Company
 - Product Information Management
 - PIM
-- Ecommerce
+- E-Commerce
 - Product Data Syndication
 - Retail
 - Catalog Management
-- API
 website: https://venzee.com
 ---

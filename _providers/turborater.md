@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Submit a single comparative rating request and receive real-time premiums and coverage back from many carriers at once, across auto, homeowners, condominium, renters, dwelling fire, and motorcycle lin
@@ -87,7 +87,7 @@ modified: '2026-07-10'
 name: TurboRater
 nav: Providers
 network: true
-overview: 'TurboRater publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Comparative Rating, Auto Insurance, and Home Insurance.
+overview: 'TurboRater publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Comparative Rating, Auto Insurance, and Home Insurance.
 
 
   TurboRater''s developer surface includes documentation and 6 more developer resources.'
@@ -103,7 +103,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.7
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -113,15 +113,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 18.6
+  previous_composite: 17.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -131,7 +131,7 @@ security:
 slug: turborater
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Comparative Rating
 - Auto Insurance
 - Home Insurance

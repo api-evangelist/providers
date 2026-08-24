@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -350,18 +350,18 @@ rules:
   slug: nomad-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.6
-  delta: -7.7
+  composite: 41.9
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 71.3
     developer_ergonomics: 41.7
     discoverability: 64.8
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 49.3
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -369,9 +369,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/screenshots/nomad-2026-06-20T190354.png
 security:
 - kind: authentication

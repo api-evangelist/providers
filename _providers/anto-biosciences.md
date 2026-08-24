@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-17'
 name: Anto Biosciences
 nav: Providers
 network: true
-overview: 'Anto Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Life Sciences, Artificial Intelligence, and Machine Learning.
+overview: 'Anto Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Life Sciences, Artificial Intelligence, and Machine-Learning.
 
 
   Anto Biosciences'' developer surface includes support and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 8.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -80,15 +80,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 10.1
+  previous_composite: 8.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anto-biosciences/refs/heads/main/screenshots/anto-biosciences-2026-07-25T200438.png
 slug: anto-biosciences
@@ -97,7 +97,7 @@ tags:
 - Biotech
 - Life Sciences
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Microbiome
 - Drug Discovery
 - Computational Biology

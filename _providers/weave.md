@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -289,7 +289,7 @@ modified: '2026-07-21'
 name: Weave
 nav: Providers
 network: true
-overview: 'Weave publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Events API, Forms API, and 5 more. Tagged areas include Company, Communication, Messaging, Payments, and Healthcare.
+overview: 'Weave publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Events API, Forms API, and 5 more. Tagged areas include Company, Communications, Messaging, Payments, and Healthcare.
 
 
   Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 40 more developer resources.'
@@ -309,18 +309,18 @@ scopes:
   summary_line: 3 scopes
 score:
   band: strong
-  composite: 64.8
-  delta: 5.2
+  composite: 65.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 54.8
     developer_ergonomics: 28.6
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 59.6
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,9 +335,9 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/screenshots/weave-2026-08-17T082900.png
 security:
 - kind: authentication
@@ -359,7 +359,7 @@ security:
 slug: weave
 tags:
 - Company
-- Communication
+- Communications
 - Messaging
 - Payments
 - Healthcare
@@ -369,6 +369,6 @@ tags:
 - Scheduling
 - SMB
 - Developer Platform
-- OAuth
+- Authentication
 website: https://www.getweave.com/
 ---

@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 14
@@ -4301,18 +4301,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit
 score:
   band: strong
-  composite: 54.6
-  delta: -7.2
+  composite: 55.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 76.8
     developer_ergonomics: 61.9
     discoverability: 48.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 61.8
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     contracts:
@@ -4320,9 +4320,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png
 security:
 - kind: authentication

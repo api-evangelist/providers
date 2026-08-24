@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,8 +216,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-app-studio-mcp.yml
-  slug: amazon-app-studio-mcpyml
+  name: Amazon App Studio MCP Server
+  slug: amazon-app-studio-mcp-server
 modified: '2026-06-20'
 name: Amazon App Studio
 nav: Providers
@@ -254,18 +254,18 @@ rules:
   slug: amazon-app-studio-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: -7.7
+  composite: 46.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 67.8
     developer_ergonomics: 35.7
     discoverability: 77.8
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 2.6
-  previous_composite: 53.3
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,9 +275,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/screenshots/amazon-app-studio-2026-07-25T195916.png
 security:
 - kind: authentication

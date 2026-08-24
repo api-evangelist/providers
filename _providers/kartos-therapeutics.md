@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Published pages and the site-wide search index.
@@ -167,7 +167,7 @@ modified: '2026-08-04'
 name: Kartos Therapeutics
 nav: Providers
 network: true
-overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Media API, and 4 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and hematology.
+overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Media API, and 4 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Hematology.
 
 
   Kartos Therapeutics'' developer surface includes support, authentication, and 20 more developer resources.'
@@ -175,7 +175,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 20.5
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -185,7 +185,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 19.7
+  previous_composite: 20.5
   provenance:
     conformance: derived
     contracts:
@@ -200,8 +200,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/screenshots/kartos-therapeutics-2026-08-07T171100.png
 security:
@@ -216,14 +216,14 @@ security:
 slug: kartos-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- hematology
-- rare-disease
-- precision-medicine
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Hematology
+- Rare Disease
+- Precision Medicine
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://kartosthera.com/
 ---

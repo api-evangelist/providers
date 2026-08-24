@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'REST API for Perk travel, expense, invoice, trip, cost-center, event, and card data. Authenticate with an account API key (customers) or OAuth 2.0 (partners); send Api-Version: 1.'
@@ -165,9 +165,9 @@ description: Perk (formerly TravelPerk) is the intelligent platform for corporat
 image: https://d2balr5nj4353r.cloudfront.net/favicon-192x192.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: perk-mcp.yml
-  slug: perk-mcpyml
+- description: Perk's official hosted Model Context Protocol (MCP) server. Connects MCP-compatible AI clients (Claude Code, Cursor, Codex, MCP Inspector) to Perk travel, spend, invoice, event, policy, and card data.
+  name: Perk MCP Server
+  slug: perk-mcp-server
 modified: '2026-07-20'
 name: Perk
 nav: Providers
@@ -187,25 +187,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.2
-  delta: -6.4
+  composite: 45.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 49.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 50.6
+  previous_composite: 45.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/screenshots/perk-2026-08-17T081158.png
 security:
 - kind: authentication
@@ -229,6 +229,6 @@ tags:
 - Travel
 - Invoices
 - Fintech
-- SaaS
+- Software-as-a-Service
 website: https://developers.perk.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -255,19 +255,19 @@ rules:
     warn: 13
   slug: weave-net-spectral-rules
 score:
-  band: emerging
-  composite: 26.0
-  delta: -5.5
+  band: thin
+  composite: 26.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 20.6
     developer_ergonomics: 4.8
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 31.5
+  previous_composite: 26.4
   provenance:
     agentic_access: derived
     contracts:
@@ -275,9 +275,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/screenshots/weave-net-2026-06-20T201316.png
 slug: weave-net
 tags:
@@ -286,7 +286,7 @@ tags:
 - Kubernetes
 - Docker
 - IPAM
-- Open Source
+- Open-Source
 - CNCF
 use_cases:
 - description: Connect Docker containers across multiple physical or virtual machines without complex network configuration.

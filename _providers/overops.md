@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -239,8 +239,8 @@ image: https://files.readme.io/dd13086-small-Logo_white.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: overops-mcp.yml
-  slug: overops-mcpyml
+  name: Overops MCP Server
+  slug: overops-mcp-server
 modified: '2026-07-20'
 name: Overops
 nav: Providers
@@ -253,7 +253,7 @@ random_paper: 5
 score:
   band: thin
   composite: 34.6
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -263,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 39.5
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,8 +274,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/screenshots/overops-2026-08-07T191135.png
 security:

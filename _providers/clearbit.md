@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: 'Person enrichment from an email address, plus the Combined lookup that returns the person and their company in one response. Endpoints: /v2/people/find, /v2/combined/find. Verified live 2026-08-13 (HT'
@@ -237,7 +237,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.9
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -247,12 +247,12 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 58.9
+  previous_composite: 61.9
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/screenshots/clearbit-2026-06-20T174455.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 4
@@ -232,8 +232,8 @@ image: https://climate.ai/wp-content/uploads/2022/09/Logo_orange_dark.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: climateai-mcp.yml
-  slug: climateai-mcpyml
+  name: ClimateAI MCP Server
+  slug: climateai-mcp-server
 modified: '2026-08-04'
 name: ClimateAI
 nav: Providers
@@ -246,7 +246,7 @@ random_paper: 13
 score:
   band: developing
   composite: 44.6
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -256,7 +256,7 @@ score:
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 10.5
-  previous_composite: 42.9
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,8 +267,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/screenshots/climateai-2026-08-07T163452.png
 security:

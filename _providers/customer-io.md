@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,10 +28,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-19'
+  score: 46.2
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -450,9 +451,9 @@ jsonld:
   slug: customer-io-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: customer-io-mcp.yml
-  slug: customer-io-mcpyml
+- description: 'Customer.io operates a first-party, hosted Model Context Protocol server that exposes the full Journeys App API and the CDP Data Pipelines API to any MCP client. It is a remote HTTP endpoint an agent '
+  name: Customer.io MCP
+  slug: customerio-mcp
 modified: '2026-08-13'
 name: Customer.io
 nav: Providers
@@ -513,18 +514,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 86.4
-  delta: 2.5
+  composite: 87.8
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 56.8
+    contract_governance: 59.1
     contract_quality: 76.6
     developer_ergonomics: 80.4
-    discoverability: 81.5
-    governance: 56.8
+    discoverability: 92.6
+    governance: 59.1
     operational_transparency: 84.2
-  previous_composite: 83.9
+  previous_composite: 87.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -541,8 +542,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/screenshots/customer-io-2026-06-20T175348.png
 security:

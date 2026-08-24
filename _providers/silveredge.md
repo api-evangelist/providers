@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Silverpush's first-party programmatic bid endpoint, registered upstream in the Prebid ecosystem under the bidder code "silverpush" and maintained from prebid@silverpush.co. It speaks OpenRTB over HTTP
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.2
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -160,11 +160,11 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 30.0
+  previous_composite: 28.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Atlas is Duplo''s global payments API for African and emerging-market businesses: collect payments (checkout, payment links, virtual accounts), disburse funds (single and bulk bank payouts, internation'
@@ -160,13 +160,13 @@ image: https://tryduplo.com/wp-content/uploads/2026/04/Dashboard-1-01-scaled.web
 layout: provider
 mcp_servers:
 - description: ''
-  name: duplo-mcp.yml
-  slug: duplo-mcpyml
+  name: Duplo MCP Server
+  slug: duplo-mcp-server
 modified: '2026-07-18'
 name: Duplo
 nav: Providers
 network: true
-overview: 'Duplo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Payments, B2B Payments, and Cross-Border Payments.
+overview: 'Duplo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, B2B Payments, and Cross-Border Payments.
 
 
   The Duplo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -177,7 +177,7 @@ random_paper: 2
 score:
   band: strong
   composite: 54.3
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -187,7 +187,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 50.2
+  previous_composite: 54.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -198,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duplo/refs/heads/main/screenshots/duplo-2026-07-25T212511.png
 security:
@@ -214,7 +214,7 @@ security:
 slug: duplo
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
 - B2B Payments
 - Cross-Border Payments

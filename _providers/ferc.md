@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -238,7 +238,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.5
-  delta: 7.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -248,7 +248,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 43.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,9 +265,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/screenshots/ferc-2026-08-07T165243.png
 security:
 - kind: authentication

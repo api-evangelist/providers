@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ modified: '2026-05-16'
 name: Eventbrite
 nav: Providers
 network: true
-overview: 'Eventbrite publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Categories API, Events API, and 5 more. Tagged areas include Events, Event Technology, Ticketing, and Marketplace.
+overview: 'Eventbrite publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Categories API, Events API, and 5 more. Tagged areas include Event, Event Technology, Ticketing, and Marketplace.
 
 
   Eventbrite''s developer surface includes authentication, documentation, support, engineering blog, and 16 more developer resources.'
@@ -201,7 +201,7 @@ random_paper: 9
 score:
   band: thin
   composite: 33.6
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -211,7 +211,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 37.3
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -219,8 +219,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/screenshots/eventbrite-2026-06-20T180900.png
 security:
@@ -242,7 +242,7 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS
 slug: eventbrite
 tags:
-- Events
+- Event
 - Event Technology
 - Ticketing
 - Marketplace

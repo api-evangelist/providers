@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth2 text-to-video generation API — list supported actors and voices, create and export videos of speaking digital avatars, and poll video status. Legacy surface; company acquired by Adobe (Nov 2023
@@ -79,13 +79,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rephraseai
 layout: provider
 mcp_servers:
 - description: ''
-  name: rephraseai-mcp.yml
-  slug: rephraseai-mcpyml
+  name: Rephrase.ai MCP Server
+  slug: rephraseai-mcp-server
 modified: '2026-07-20'
 name: Rephrase.ai
 nav: Providers
 network: true
-overview: 'Rephrase.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Video, and Text to Video.
+overview: 'Rephrase.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Video, and Text-to-Video.
 
 
   Rephrase.ai''s developer surface includes documentation, API reference, authentication, and 6 more developer resources.'
@@ -98,7 +98,7 @@ scopes:
 score:
   band: emerging
   composite: 11.6
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -108,11 +108,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.3
+  previous_composite: 11.6
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -125,7 +125,7 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Video
-- Text to Video
+- Text-to-Video
 - Avatars
 - Media
 - Content Creation

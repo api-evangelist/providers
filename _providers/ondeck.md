@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API providing partner access to OnDeck''s small business lending platform, supporting credit pre-qualifications, loan application submission, business health score retrieval via the OnDeck Score, '
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.3
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -119,15 +119,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 19.0
+  previous_composite: 19.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/screenshots/ondeck-2026-06-20T190706.png
 security:

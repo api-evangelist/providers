@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Versioned REST API for managing third-party cyber risk — search and create third parties, answer inherent-risk scoping questions, apply tags, read inherent and residual risk profiles, and bulk-export '
@@ -107,13 +107,13 @@ image: https://avatars.githubusercontent.com/u/20931711?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: cybergrx-mcp.yml
-  slug: cybergrx-mcpyml
+  name: CyberGRX MCP Server
+  slug: cybergrx-mcp-server
 modified: '2026-07-18'
 name: CyberGRX
 nav: Providers
 network: true
-overview: 'CyberGRX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Third Party Risk, Vendor Risk Management, and Risk Management.
+overview: 'CyberGRX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Third-Party Risk, Vendor Risk Management, and Risk Management.
 
 
   CyberGRX''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, sandbox, and 9 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 17.8
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -131,12 +131,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 19.0
+  previous_composite: 17.8
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/screenshots/cybergrx-2026-07-25T211027.png
 security:
@@ -152,7 +152,7 @@ slug: cybergrx
 tags:
 - Company
 - Cybersecurity
-- Third Party Risk
+- Third-Party Risk
 - Vendor Risk Management
 - Risk Management
 - GRC

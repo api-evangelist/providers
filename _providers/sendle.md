@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ layout: provider
 name: Sendle
 nav: Providers
 network: true
-overview: 'Sendle publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products & Quoting API, Tracking API, and 2 more. Tagged areas include Shipping, Logistics, Last Mile, Parcels, and E-commerce.
+overview: 'Sendle publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products & Quoting API, Tracking API, and 2 more. Tagged areas include Shipping, Logistics, Last Mile, Parcels, and E-Commerce.
 
 
   The Sendle catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -262,18 +262,18 @@ rules:
   slug: sendle-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: -1.6
+  composite: 60.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 79.0
     developer_ergonomics: 54.8
     discoverability: 74.1
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 61.8
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -281,8 +281,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png
 security:
@@ -300,7 +300,7 @@ tags:
 - Logistics
 - Last Mile
 - Parcels
-- E-commerce
+- E-Commerce
 - Carbon Neutral
 - Small Business
 - Australia

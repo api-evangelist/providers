@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 21
 common:
@@ -95,7 +95,7 @@ modified: '2026-05-23'
 name: Beazer Homes USA
 nav: Providers
 network: true
-overview: 'Beazer Homes USA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilder, Real Estate, Construction, Residential, and Energy Efficiency.
+overview: 'Beazer Homes USA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilder, Real-Estate, Construction, Residential, and Energy Efficiency.
 
 
   Beazer Homes USA''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
@@ -103,7 +103,7 @@ random_paper: 17
 score:
   band: minimal
   composite: 6.5
-  delta: -7.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -113,16 +113,16 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 13.7
+  previous_composite: 6.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beazer-homes-usa/refs/heads/main/screenshots/beazer-homes-usa-2026-06-20T173114.png
 security:
 - kind: domain-security
@@ -139,7 +139,7 @@ solutions:
   name: Quick Move-In Inventory
 tags:
 - Homebuilder
-- Real Estate
+- Real-Estate
 - Construction
 - Residential
 - Energy Efficiency

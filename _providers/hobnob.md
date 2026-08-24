@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: Hobnob
 nav: Providers
 network: true
-overview: 'Hobnob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Events, Invitations, RSVP, and Ticketing.
+overview: 'Hobnob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Event, Invitations, RSVP, and Ticketing.
 
 
   Hobnob''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
@@ -83,8 +83,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hobnob/refs/heads/main/screenshots/hobnob-2026-07-25T221310.png
 security:
@@ -95,7 +95,7 @@ security:
 slug: hobnob
 tags:
 - Company
-- Events
+- Event
 - Invitations
 - RSVP
 - Ticketing

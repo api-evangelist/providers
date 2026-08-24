@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,7 +105,7 @@ modified: '2026-08-08'
 name: Bowery Valuation
 nav: Providers
 network: true
-overview: 'Bowery Valuation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Commercial Real Estate, Appraisal, and Valuation.
+overview: 'Bowery Valuation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Commercial Real Estate, Appraisal, and Valuation.
 
 
   Bowery Valuation''s developer surface includes support, FAQ, YouTube channel, and 11 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 11.3
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -123,9 +123,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 11.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -135,12 +135,12 @@ security:
 slug: bowery-valuation
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Commercial Real Estate
 - Appraisal
 - Valuation
 - Property Data
-- Proptech
+- PropTech
 - Lending
 website: https://www.boweryvaluation.com/
 ---

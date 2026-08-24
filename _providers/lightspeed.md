@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: REST API for Lightspeed Retail X-Series point-of-sale system enabling integrations for sales operations, product management, inventory updates, loyalty handling, and webhooks for retail merchants.
@@ -109,7 +109,7 @@ modified: 2026-06-13
 name: Lightspeed Commerce
 nav: Providers
 network: true
-overview: 'Lightspeed Commerce publishes 1 API on the [APIs.io](https://apis.io/) network: Lightspeed Retail X-Series API. Tagged areas include Commerce, Point of Sale, POS, Retail, and Restaurant.
+overview: 'Lightspeed Commerce publishes 1 API on the [APIs.io](https://apis.io/) network: Lightspeed Retail X-Series API. Tagged areas include Commerce, Point-of-Sale, Retail, Restaurant, and Inventory.
 
 
   Lightspeed Commerce''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.5
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -135,15 +135,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 24.2
+  previous_composite: 22.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png
 security:
@@ -154,8 +154,7 @@ security:
 slug: lightspeed
 tags:
 - Commerce
-- Point of Sale
-- POS
+- Point-of-Sale
 - Retail
 - Restaurant
 - Inventory

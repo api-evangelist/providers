@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-05-11'
 name: Caspio
 nav: Providers
 network: true
-overview: 'Caspio publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Files API, and 4 more. Tagged areas include Low Code, No Code, Database, Application Platform, and Cloud Database.
+overview: 'Caspio publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Files API, and 4 more. Tagged areas include Low-Code, No-Code, Database, Application Platform, and Cloud Database.
 
 
   Caspio''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, support, and 5 more developer resources.'
@@ -153,7 +153,7 @@ random_paper: 9
 score:
   band: thin
   composite: 33.4
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 32.9
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/screenshots/caspio-2026-06-20T174035.png
 security:
@@ -190,12 +190,12 @@ security:
   summary_line: SOC 2, PCI DSS, HIPAA, GDPR, FIPS 140
 slug: caspio
 tags:
-- Low Code
-- No Code
+- Low-Code
+- No-Code
 - Database
 - Application Platform
 - Cloud Database
 - Online Forms
-- Workflow Automation
+- Workflow-Automation
 website: https://www.caspio.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-08-08'
 name: Nexthop AI
 nav: Providers
 network: true
-overview: 'Nexthop AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Networking, Infrastructure, and Switches.
+overview: 'Nexthop AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Networking, Infrastructure, and Switches.
 
 
   Nexthop AI''s developer surface includes engineering blog, product news, support, documentation, and 8 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 13.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -106,9 +106,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexthop-ai/refs/heads/main/screenshots/nexthop-ai-2026-08-07T185224.png
 security:
@@ -119,11 +119,11 @@ security:
 slug: nexthop-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Networking
 - Infrastructure
 - Switches
-- Data Center
+- Data-Center
 - Cloud
 - Ethernet
 - Optics

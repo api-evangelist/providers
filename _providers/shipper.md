@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HTTP-based API (v3) for interacting with Shipper's location, pricing, and shipment features — search location by keyword and administrative area, retrieve domestic multi-courier pricing, create orders
@@ -119,8 +119,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shipper.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: shipper-mcp.yml
-  slug: shipper-mcpyml
+  name: Shipper MCP Server
+  slug: shipper-mcp-server
 modified: '2026-07-21'
 name: Shipper
 nav: Providers
@@ -136,7 +136,7 @@ random_paper: 7
 score:
   band: thin
   composite: 33.3
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -146,12 +146,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 36.7
+  previous_composite: 33.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -169,9 +169,9 @@ tags:
 - Shipping
 - Fulfillment
 - Supply Chain
-- E-commerce
+- E-Commerce
 - Last Mile Delivery
-- Courier
+- Couriers
 - Indonesia
 website: https://shipper.id/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Local HTTP/LSP API exposed by the Rust `refact-lsp` engine that runs inside the user''s IDE or as a standalone server. Implements the agent runtime: provider/model capabilities, chat command queueing, '
@@ -180,7 +180,7 @@ modified: '2026-05-25'
 name: Refact.ai
 nav: Providers
 network: true
-overview: 'Refact.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Artificial Intelligence, Coding Assistant, AI Agent, and Autonomous Agents.
+overview: 'Refact.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Coding Assistant, AI Agent, Autonomous Agents, and Code Completion.
 
 
   Refact.ai''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
@@ -188,7 +188,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 12.2
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -198,10 +198,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 18.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 12.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refact-ai/refs/heads/main/screenshots/refact-ai-2026-06-20T192744.png
 security:
 - kind: domain-security
@@ -210,7 +210,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: refact-ai
 tags:
-- AI
 - Artificial Intelligence
 - Coding Assistant
 - AI Agent
@@ -223,10 +222,9 @@ tags:
 - JetBrains
 - Self-Hosting
 - On-Premise
-- Open Source
+- Open-Source
 - LSP
 - MCP
-- Model Context Protocol
 - Fine-Tuning
 - SWE-Bench
 - RAG

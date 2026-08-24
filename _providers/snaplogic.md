@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -291,7 +291,7 @@ modified: '2026-05-19'
 name: SnapLogic
 nav: Providers
 network: true
-overview: 'SnapLogic publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Asset Management API, Runtime API, Tasks API, and 1 more. Tagged areas include AI, API Management, Automation, Data Integration, and Integrations.
+overview: 'SnapLogic publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Asset Management API, Runtime API, Tasks API, and 1 more. Tagged areas include Artificial Intelligence, API Management, Automation, Data Integration, and Integration.
 
 
   The SnapLogic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -331,18 +331,18 @@ rules:
   slug: snaplogic-rules
 score:
   band: developing
-  composite: 49.0
-  delta: -5.9
+  composite: 49.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 67.5
     developer_ergonomics: 45.2
     discoverability: 55.6
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 54.9
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -350,9 +350,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/screenshots/snaplogic-2026-06-20T194106.png
 security:
 - kind: authentication
@@ -365,11 +365,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: snaplogic
 tags:
-- AI
+- Artificial Intelligence
 - API Management
 - Automation
 - Data Integration
-- Integrations
+- Integration
 - iPaaS
 - Management
 use_cases:

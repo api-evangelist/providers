@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Patronus Evaluation API scores LLM outputs against built-in and custom evaluators covering hallucination, answer relevance, context utilization, safety, and PII. Evaluators can be invoked synchron
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.6
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -187,10 +187,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 27.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 20.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patronus-ai/refs/heads/main/screenshots/patronus-ai-2026-06-20T191445.png
 security:
 - kind: domain-security
@@ -205,7 +205,6 @@ tags:
 - Hallucination Detection
 - AI Research
 - Benchmarks
-- API
 use_cases:
 - description: Score retrieval and generation quality in RAG applications across faithfulness, relevance, and context.
   name: RAG Evaluation

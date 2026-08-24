@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ modified: '2026-07-01'
 name: Campfire
 nav: Providers
 network: true
-overview: 'Campfire publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts Payable API, Accounts Receivable API, Bank Reconciliation API, and 9 more. Tagged areas include Accounting, ERP, General Ledger, Revenue Recognition, and FinTech.
+overview: 'Campfire publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts Payable API, Accounts Receivable API, Bank Reconciliation API, and 9 more. Tagged areas include Accounting, ERP, General Ledger, Revenue Recognition, and Fintech.
 
 
   Campfire''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -189,7 +189,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -199,7 +199,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.1
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +207,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campfire-hq/refs/heads/main/screenshots/campfire-hq-2026-07-25T204316.png
 security:
@@ -226,7 +226,7 @@ tags:
 - ERP
 - General Ledger
 - Revenue Recognition
-- FinTech
-- AI
+- Fintech
+- Artificial Intelligence
 website: https://www.campfire.ai/
 ---

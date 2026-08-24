@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -342,14 +342,14 @@ jsonld:
   slug: terraform-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: terraform-mcp.yml
-  slug: terraform-mcpyml
+- description: 'HashiCorp publishes an official open-source Terraform MCP server that exposes the Terraform Registry APIs and HCP Terraform / Terraform Enterprise workspace operations to AI agents. It is self-hosted '
+  name: Terraform MCP Server
+  slug: terraform-mcp-server
 modified: '2026-06-20'
 name: Terraform
 nav: Providers
 network: true
-overview: 'Terraform publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Modules API, Organizations API, Policies API, and 6 more. Tagged areas include Infrastructure As Code, Cloud Infrastructure, DevOps, Open Source, and HashiCorp.
+overview: 'Terraform publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Modules API, Organizations API, Policies API, and 6 more. Tagged areas include Infrastructure as Code, Cloud Infrastructure, DevOps, Open-Source, and HashiCorp.
 
 
   The Terraform catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -390,7 +390,7 @@ rules:
 score:
   band: developing
   composite: 50.9
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -400,7 +400,7 @@ score:
     discoverability: 92.6
     governance: 71.2
     operational_transparency: 23.7
-  previous_composite: 50.1
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -410,8 +410,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:
@@ -433,10 +433,10 @@ security:
   summary_line: SOC 2 Type 2, ISO 27001, ISO 27017, ISO 27018
 slug: terraform
 tags:
-- Infrastructure As Code
+- Infrastructure as Code
 - Cloud Infrastructure
 - DevOps
-- Open Source
+- Open-Source
 - HashiCorp
 website: https://developer.hashicorp.com/terraform
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -267,13 +267,13 @@ image: https://roadsync.com/wp-content/uploads/2022/05/cropped-RS-1000-192x192.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: roadsync-mcp.yml
-  slug: roadsync-mcpyml
+  name: Roadsync MCP Server
+  slug: roadsync-mcp-server
 modified: '2026-07-21'
 name: Roadsync
 nav: Providers
 network: true
-overview: 'Roadsync publishes 18 APIs on the [APIs.io](https://apis.io/) network, including authenticated API, brokers API, department API, and 15 more. Tagged areas include Company, Financial Services, Payments, Logistics, and Trucking.
+overview: 'Roadsync publishes 18 APIs on the [APIs.io](https://apis.io/) network, including authenticated API, brokers API, department API, and 15 more. Tagged areas include Company, Financial-Services, Payments, Logistics, and Trucking.
 
 
   Roadsync''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, and 21 more developer resources.'
@@ -281,7 +281,7 @@ random_paper: 6
 score:
   band: developing
   composite: 43.8
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -291,7 +291,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 41.3
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,8 +308,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -323,7 +323,7 @@ security:
 slug: roadsync
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Logistics
 - Trucking

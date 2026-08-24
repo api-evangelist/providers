@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/nvidia/
 - group: company
   title: ''
   type: Website
@@ -52,16 +56,16 @@ created: '2026-07-17'
 description: Deci AI was a deep-learning development company (founded 2019, Tel Aviv) whose platform helped teams build, optimize, and deploy computer-vision and NLP models in production. Its stack combined the AutoNAC neural-architecture-search engine, the Infery inference runtime, and the open-source SuperGradients PyTorch training library — the home of the YOLO-NAS object-detection architecture. Deci was acquired by NVIDIA in 2024; deci.ai now redirects to NVIDIA and there is no live standalone hosted API or developer console. This API Evangelist profile tracks the company's surviving first-party open-source software surface (SuperGradients and DataGradients on PyPI, published from the Deci-AI GitHub org).
 image: https://avatars.githubusercontent.com/u/56918593?v=4
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-21'
 name: Deci AI
 nav: Providers
 network: true
-overview: Deci AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Deep Learning, and Computer Vision.
+overview: Deci AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Deep Learning, and Computer-Vision.
 random_paper: 1
 score:
   band: minimal
   composite: 6.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -77,18 +81,18 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 7.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deci-ai/refs/heads/main/screenshots/deci-ai-2026-07-25T211521.png
 slug: deci-ai
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Deep Learning
-- Computer Vision
+- Computer-Vision
 - Model Optimization
 - Inference
 - Neural Architecture Search

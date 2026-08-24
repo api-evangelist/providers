@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -260,13 +260,13 @@ image: https://d1as2iufift1z3.cloudfront.net/assets/opengraph_image-5c147fd54bd5
 layout: provider
 mcp_servers:
 - description: ''
-  name: howler-mcp.yml
-  slug: howler-mcpyml
+  name: Howler MCP Server
+  slug: howler-mcp-server
 modified: '2026-07-19'
 name: Howler
 nav: Providers
 network: true
-overview: 'Howler publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Artists API, Assign Ticket API, Bank Account API, and 14 more. Tagged areas include Company, Events, Ticketing, Payments, and Cashless.
+overview: 'Howler publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Artists API, Assign Ticket API, Bank Account API, and 14 more. Tagged areas include Company, Event, Ticketing, Payments, and Cashless.
 
 
   Howler''s developer surface includes documentation, API reference, developer portal, support, signup flow, authentication, and 20 more developer resources.'
@@ -279,7 +279,7 @@ scopes:
 score:
   band: developing
   composite: 42.7
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -289,7 +289,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 41.4
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,8 +306,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/screenshots/howler-2026-07-25T221539.png
 security:
@@ -322,7 +322,7 @@ security:
 slug: howler
 tags:
 - Company
-- Events
+- Event
 - Ticketing
 - Payments
 - Cashless

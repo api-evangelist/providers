@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Action-based RPC API covering every UCloud product (compute, networking, storage, databases, Kubernetes, monitoring, AI) through a single signed gateway. Requests carry an Action name plus PublicKey/S
@@ -161,7 +161,7 @@ modified: '2026-07-21'
 name: UCloud
 nav: Providers
 network: true
-overview: 'UCloud publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Cloud Computing, IaaS, and GPU.
+overview: 'UCloud publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Cloud Computing, Infrastructure-as-a-Service, and GPU.
 
 
   The UCloud catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -172,7 +172,7 @@ random_paper: 1
 score:
   band: thin
   composite: 37.8
-  delta: -13.9
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -182,13 +182,13 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 51.7
+  previous_composite: 37.8
   provenance:
     conformance: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/screenshots/ucloud-2026-08-17T082534.png
 security:
 - kind: authentication
@@ -208,7 +208,7 @@ tags:
 - Company
 - Enterprise
 - Cloud Computing
-- IaaS
+- Infrastructure-as-a-Service
 - GPU
 - Kubernetes
 - Object Storage

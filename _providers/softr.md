@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ modified: '2026-06-20'
 name: Softr
 nav: Providers
 network: true
-overview: 'Softr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Databases API, Records API, and Users API. Tagged areas include No Code, App Builder, Client Portals, User Management, and Database.
+overview: 'Softr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Databases API, Records API, and Users API. Tagged areas include No-Code, App Builder, Client Portals, User Management, and Database.
 
 
   Softr''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.5
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -152,7 +152,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.4
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/screenshots/softr-2026-06-20T194132.png
 security:
@@ -175,7 +175,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: softr
 tags:
-- No Code
+- No-Code
 - App Builder
 - Client Portals
 - User Management

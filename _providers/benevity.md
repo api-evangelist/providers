@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ modified: '2026-07-03'
 name: Benevity
 nav: Providers
 network: true
-overview: 'Benevity publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Causes API, Giving API, and 2 more. Tagged areas include Corporate Social Responsibility, Workplace Giving, Donations, Volunteering, and Nonprofits.
+overview: 'Benevity publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Causes API, Giving API, and 2 more. Tagged areas include Corporate Social Responsibility, Workplace Giving, Donations, Volunteering, and Non-Profit.
 
 
   Benevity''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.5
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -164,7 +164,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.0
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +172,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benevity/refs/heads/main/screenshots/benevity-2026-07-25T202731.png
 security:
@@ -199,7 +199,7 @@ tags:
 - Workplace Giving
 - Donations
 - Volunteering
-- Nonprofits
+- Non-Profit
 - Matching Gifts
 - CSR
 - ESG

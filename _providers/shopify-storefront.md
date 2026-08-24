@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ modified: '2026-05-19'
 name: Shopify Storefront API
 nav: Providers
 network: true
-overview: 'Shopify Storefront API publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Commerce, Ecommerce, Headless, GraphQL, and Storefront.
+overview: 'Shopify Storefront API publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Commerce, E-Commerce, Headless, GraphQL, and Storefront.
 
 
   The Shopify Storefront API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -160,18 +160,18 @@ rules:
   slug: shopify-storefront-rules
 score:
   band: thin
-  composite: 30.5
-  delta: -6.5
+  composite: 30.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 68.5
     developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 37.0
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -185,9 +185,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/screenshots/shopify-storefront-2026-06-20T193831.png
 security:
 - kind: authentication
@@ -201,11 +201,11 @@ security:
 slug: shopify-storefront
 tags:
 - Commerce
-- Ecommerce
+- E-Commerce
 - Headless
 - GraphQL
 - Storefront
-- Products
+- Product
 - Cart
 - Checkout
 ---

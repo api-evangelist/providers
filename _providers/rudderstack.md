@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -374,14 +374,14 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rudderstack.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rudderstack-mcp.yml
-  slug: rudderstack-mcpyml
+- description: 'RudderStack operates an official, centrally hosted remote MCP server at https://mcp.rudderstack.com/mcp. It is an OAuth 2.0 protected resource: an anonymous POST of tools/list returns HTTP 401 invalid'
+  name: RudderStack MCP Server
+  slug: rudderstack-mcp-server
 modified: '2026-08-13'
 name: RudderStack
 nav: Providers
 network: true
-overview: 'RudderStack publishes 3 APIs on the [APIs.io](https://apis.io/) network: Webhook Source API, HTTP API API, and Internal API API. Tagged areas include Customer Data Platform, CDP, Data Pipeline, Open Source, and Event Streaming.
+overview: 'RudderStack publishes 3 APIs on the [APIs.io](https://apis.io/) network: Webhook Source API, HTTP API API, and Internal API API. Tagged areas include Customer Data Platform, CDP, Data Pipeline, Open-Source, and Event Streaming.
 
 
   The RudderStack catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -417,7 +417,7 @@ scopes:
 score:
   band: exemplar
   composite: 80.5
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -427,7 +427,7 @@ score:
     discoverability: 83.3
     governance: 43.9
     operational_transparency: 84.2
-  previous_composite: 78.1
+  previous_composite: 80.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -438,8 +438,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/screenshots/rudderstack-2026-06-20T193249.png
 security:
@@ -464,7 +464,7 @@ tags:
 - Customer Data Platform
 - CDP
 - Data Pipeline
-- Open Source
+- Open-Source
 - Event Streaming
 - Reverse ETL
 - Analytics

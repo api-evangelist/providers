@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: 'Asynchronous REST API for programmatically pulling Singular''s unified marketing data — attribution, cost, ad revenue, and creative metrics — as standardized, warehouse-ready reports. Create a report, '
@@ -218,9 +218,9 @@ description: Singular (Singular Labs, Inc.) is a mobile measurement partner (MMP
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/singular.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: singular-mcp.yml
-  slug: singular-mcpyml
+- description: Singular's first-party remote MCP server. It translates a natural-language prompt into a Singular Reporting API query, runs it against the caller's own Singular account, and returns the aggregated mar
+  name: Singular MCP Server
+  slug: singular-mcp-server
 modified: '2026-08-12'
 name: Singular
 nav: Providers
@@ -249,7 +249,7 @@ scopes:
 score:
   band: strong
   composite: 65.0
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -259,12 +259,12 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 66.8
+  previous_composite: 65.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/screenshots/singular-2026-08-17T080421.png
 security:

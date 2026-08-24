@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -112,7 +112,7 @@ modified: '2026-04-28'
 name: Meshery
 nav: Providers
 network: true
-overview: 'Meshery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, CNCF, Kubernetes, Service Mesh, and Platform Engineering.
+overview: 'Meshery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, CNCF, Kubernetes, Service Mesh, and Platform Engineering.
 
 
   Meshery''s developer surface includes documentation, signup flow, engineering blog, and 14 more developer resources.'
@@ -120,7 +120,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 20.3
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -130,9 +130,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meshery/refs/heads/main/screenshots/meshery-2026-06-20T185229.png
 security:
@@ -142,7 +142,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: meshery
 tags:
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Kubernetes
 - Service Mesh

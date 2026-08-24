@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 927
   human_in_the_loop: 18
@@ -6216,7 +6216,7 @@ modified: '2026-05-30'
 name: PostHog
 nav: Providers
 network: true
-overview: 'PostHog publishes 131 APIs on the [APIs.io](https://apis.io/) network, including actions API, activity_log API, activity_logs API, and 128 more. Tagged areas include A/B Testing, Analytics, Feature Flags, Open Source, and Product Analytics.
+overview: 'PostHog publishes 131 APIs on the [APIs.io](https://apis.io/) network, including actions API, activity_log API, activity_logs API, and 128 more. Tagged areas include A/B Testing, Analytics, Feature Flags, Open-Source, and Product Analytics.
 
 
   The PostHog catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -6256,18 +6256,18 @@ rules:
   slug: posthog-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: -5.8
+  composite: 49.6
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 56.9
     developer_ergonomics: 59.5
-    discoverability: 66.7
-    governance: 11.4
+    discoverability: 57.4
+    governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 56.1
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -6275,9 +6275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 131
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/posthog/refs/heads/main/screenshots/posthog-2026-06-20T192012.png
 security:
 - kind: authentication
@@ -6301,7 +6301,7 @@ tags:
 - A/B Testing
 - Analytics
 - Feature Flags
-- Open Source
+- Open-Source
 - Product Analytics
 - Session Recording
 website: https://posthog.com

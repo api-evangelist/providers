@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: OpenAI-compatible inference API for open-source AI models hosted on io.net's decentralized GPU network. Exposes /v1/models and /v1/chat/completions over the base URL https://api.intelligence.io.soluti
@@ -224,7 +224,7 @@ modified: '2026-05-25'
 name: io.net
 nav: Providers
 network: true
-overview: 'io.net publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Artificial Intelligence, GPU, Decentralized Compute, and DePIN.
+overview: 'io.net publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, GPU, Decentralized Compute, DePIN, and Web3.
 
 
   io.net''s developer surface includes developer portal, documentation, getting-started guide, API reference, signup flow, developer console, engineering blog, and 28 more developer resources.'
@@ -232,7 +232,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 26.1
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -242,9 +242,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 27.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/io-net/refs/heads/main/screenshots/io-net-2026-06-20T183527.png
 security:
@@ -254,7 +254,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: io-net
 tags:
-- AI
 - Artificial Intelligence
 - GPU
 - Decentralized Compute

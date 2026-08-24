@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -1090,8 +1090,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: google-maps-mcp.yml
-  slug: google-maps-mcpyml
+  name: Google Maps Platform MCP Server
+  slug: google-maps-platform-mcp-server
 modified: '2026-06-20'
 name: Google Maps Platform
 nav: Providers
@@ -1136,18 +1136,18 @@ rules:
   slug: google-maps-spectral-rules
 score:
   band: developing
-  composite: 52.0
-  delta: -7.1
+  composite: 51.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 26.5
-    contract_quality: 78.7
+    contract_governance: 30.3
+    contract_quality: 72.6
     developer_ergonomics: 52.4
     discoverability: 66.7
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 59.1
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1157,9 +1157,9 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png
 security:
 - kind: authentication

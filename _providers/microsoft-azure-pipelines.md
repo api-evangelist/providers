@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ modified: '2026-05-19'
 name: Azure Pipelines
 nav: Providers
 network: true
-overview: 'Azure Pipelines publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Build Artifacts API, Build Definitions API, and 5 more. Tagged areas include Automation, Build, CI/CD, Deployment, and DevOps.
+overview: 'Azure Pipelines publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Build Artifacts API, Build Definitions API, and 5 more. Tagged areas include Automation, Builds, CI/CD, Deployment, and DevOps.
 
 
   Azure Pipelines'' developer surface includes authentication, getting-started guide, developer portal, pricing, engineering blog, documentation, signup flow, and 21 more developer resources.'
@@ -273,7 +273,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.6
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -283,7 +283,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 52.7
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -291,8 +291,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/screenshots/microsoft-azure-pipelines-2026-06-20T185430.png
 security:
@@ -307,7 +307,7 @@ security:
 slug: microsoft-azure-pipelines
 tags:
 - Automation
-- Build
+- Builds
 - CI/CD
 - Deployment
 - DevOps

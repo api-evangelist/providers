@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public request-for-quote (RFQ) minting and redemption API for USDe. Whitelisted participants check asset availability, request a firm 15-minute quote, fetch the fee schedule, sign the order with EIP-7
@@ -142,14 +142,14 @@ description: 'Ethena Labs is the crypto-native protocol behind USDe, a synthetic
 image: https://ethena.fi/shared/ethena-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: ethena-labs-mcp.yml
-  slug: ethena-labs-mcpyml
+- description: Candidate MCP tool surface derived from the documented Ethena Minting API operations. Ethena does not publish an official hosted/remote MCP server; this is a starting point for one, one tool per docum
+  name: Ethena Labs MCP Server
+  slug: ethena-labs-mcp-server
 modified: '2026-07-19'
 name: Ethena Labs
 nav: Providers
 network: true
-overview: 'Ethena Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Stablecoin, DeFi, and Synthetic Dollar.
+overview: 'Ethena Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Stablecoins, DeFi, and Synthetic Dollar.
 
 
   Ethena Labs'' developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 19 more developer resources.'
@@ -157,7 +157,7 @@ random_paper: 0
 score:
   band: thin
   composite: 31.6
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -167,12 +167,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 31.7
+  previous_composite: 31.6
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/screenshots/ethena-labs-2026-07-25T213648.png
 security:
@@ -192,7 +192,7 @@ slug: ethena-labs
 tags:
 - Company
 - Crypto
-- Stablecoin
+- Stablecoins
 - DeFi
 - Synthetic Dollar
 - Minting

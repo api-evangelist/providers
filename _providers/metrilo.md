@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -203,13 +203,13 @@ image: https://www.metrilo.com/images/metrilo-1200x628.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: metrilo-mcp.yml
-  slug: metrilo-mcpyml
+  name: Metrilo MCP Server
+  slug: metrilo-mcp-server
 modified: '2026-08-13'
 name: Metrilo
 nav: Providers
 network: true
-overview: 'Metrilo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Orders API, and 2 more. Tagged areas include Company, Ecommerce, Analytics, CRM, and Email Marketing.
+overview: 'Metrilo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Orders API, and 2 more. Tagged areas include Company, E-Commerce, Analytics, CRM, and Email Marketing.
 
 
   Metrilo''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.6
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 47.0
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,8 +246,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/screenshots/metrilo-2026-08-07T172735.png
 security:
@@ -262,7 +262,7 @@ security:
 slug: metrilo
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Analytics
 - CRM
 - Email Marketing

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-05-03'
 name: Use Cases
 nav: Providers
 network: true
-overview: 'Use Cases is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Applications, Best Practices, Examples, and Implementation.
+overview: 'Use Cases is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Application, Best Practices, Examples, and Implementation.
 
 
   The Use Cases catalog on APIs.io includes 1 JSON-LD context.
@@ -72,7 +72,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 10.3
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -88,15 +88,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 10.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/use-cases/refs/heads/main/screenshots/use-cases-2026-06-20T200651.png
 slug: use-cases
 tags:
 - API Design
-- Applications
+- Application
 - Best Practices
 - Examples
 - Implementation

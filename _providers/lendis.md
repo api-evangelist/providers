@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,8 +191,8 @@ image: https://res.cloudinary.com/lendis-gmbh/images/f_svg,q_auto/fl_sanitize/v1
 layout: provider
 mcp_servers:
 - description: ''
-  name: lendis-mcp.yml
-  slug: lendis-mcpyml
+  name: Lendis MCP Server
+  slug: lendis-mcp-server
 modified: '2026-07-19'
 name: Lendis
 nav: Providers
@@ -205,7 +205,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 21.3
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -215,7 +215,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 22.9
+  previous_composite: 21.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +226,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/screenshots/lendis-2026-07-25T224902.png
 security:
@@ -250,6 +250,6 @@ tags:
 - Workplace Technology
 - Procurement
 - Germany
-- SaaS
+- Software-as-a-Service
 website: https://www.lendis.io
 ---

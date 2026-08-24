@@ -27,7 +27,7 @@ tags:
 - Schema Design
 - Data Modeling
 - API Design
-- JSON Schema
+- JSON-Schema
 - OpenAPI
 - GraphQL
 - Data Validation

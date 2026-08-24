@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API to programmatically manage Shopify Hydrogen storefront content — pages, product pages, collection pages, blogs, articles, sections, templates, site settings, schedules, and revisions — wit
@@ -142,9 +142,9 @@ description: 'Pack Digital is a digital experience platform purpose-built for Sh
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/packdigital.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: packdigital-mcp.yml
-  slug: packdigital-mcpyml
+- description: Official remote MCP server that connects AI assistants to Pack to search, edit, preview, publish, schedule, and A/B test Shopify Hydrogen storefront content. Backed by the Pack GraphQL Content Managem
+  name: Packdigital MCP Server
+  slug: packdigital-mcp-server
 modified: '2026-07-20'
 name: Packdigital
 nav: Providers
@@ -157,7 +157,7 @@ random_paper: 15
 score:
   band: thin
   composite: 29.3
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -167,13 +167,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 31.4
+  previous_composite: 29.3
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/screenshots/packdigital-2026-08-07T191242.png
 security:

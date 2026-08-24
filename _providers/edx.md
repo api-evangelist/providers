@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Open-source REST API surface across the Open edX platform: Enrollment API, Courses API, User API, Catalog API, Discussion API, Grades API, LTI APIs, Enterprise API. Implementations expose endpoints un'
@@ -84,7 +84,7 @@ modified: '2026-05-08'
 name: edX
 nav: Providers
 network: true
-overview: edX publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include EdTech, Online Learning, Open Source, and MOOC.
+overview: edX publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include EdTech, Online Learning, Open-Source, and MOOC.
 plans:
 - name: Edx Plans Pricing
   plan_count: 2
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.6
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -107,15 +107,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 19.1
+  previous_composite: 15.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edx/refs/heads/main/screenshots/edx-2026-06-20T180510.png
 security:
@@ -127,7 +127,7 @@ slug: edx
 tags:
 - EdTech
 - Online Learning
-- Open Source
+- Open-Source
 - MOOC
 website: https://www.edx.org/
 ---

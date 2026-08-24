@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Socket.IO WebSockets API for real-time speech recognition. After JWT login via the HTTP API, clients set recognition options (set_options), then send recognize_audio_samples for pre-segmented speech o
@@ -162,9 +162,9 @@ description: Voiceitt builds inclusive voice AI — automatic speech recognition
 image: https://cdn.prod.website-files.com/64bcd35b2013e5d1f0557e8c/64bce732fa9c2b4c2df390a5_voiceittLogo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: voiceitt-mcp.yml
-  slug: voiceitt-mcpyml
+- description: No official Voiceitt MCP server was found (searched the MCP registries, npm, GitHub, and the Voiceitt docs on 2026-07-21). This is a candidate tool list derived from the operations in the Voiceitt HTT
+  name: Voiceitt MCP Server
+  slug: voiceitt-mcp-server
 modified: '2026-07-21'
 name: Voiceitt
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 10
 score:
   band: developing
   composite: 40.8
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 46.3
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     contracts:
@@ -200,9 +200,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voiceitt/refs/heads/main/screenshots/voiceitt-2026-08-17T082826.png
 security:
 - kind: authentication

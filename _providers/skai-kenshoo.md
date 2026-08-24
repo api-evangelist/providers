@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Skai's REST API for programmatic access to advertising data and campaign management across search, social and retail-media publishers. Reporting is the primary surface — synchronous for small pulls, a
@@ -192,8 +192,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skai-kensh
 layout: provider
 mcp_servers:
 - description: ''
-  name: skai-kenshoo-mcp.yml
-  slug: skai-kenshoo-mcpyml
+  name: Skai (Kenshoo) MCP Server
+  slug: skai-kenshoo-mcp-server
 modified: '2026-08-12'
 name: Skai (Kenshoo)
 nav: Providers
@@ -219,7 +219,7 @@ scopes:
 score:
   band: strong
   composite: 55.2
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -229,7 +229,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 56.3
+  previous_composite: 55.2
   provenance:
     conformance: first-party
     contracts:
@@ -239,8 +239,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/screenshots/skai-kenshoo-2026-08-17T081910.png
 security:
@@ -275,7 +275,7 @@ tags:
 - Commerce Media
 - Reporting
 - MCP
-- Agent Native
+- agent-native
 - Omnichannel
 website: https://skai.io/
 ---

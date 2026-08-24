@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -204,9 +204,9 @@ description: Larridin is an enterprise AI intelligence platform that measures wh
 image: https://larridin.com/assets/img/logo-header.webp
 layout: provider
 mcp_servers:
-- description: ''
-  name: larridin-mcp.yml
-  slug: larridin-mcpyml
+- description: 'Larridin publishes an official Model Context Protocol server that connects AI assistants and agents to Scout. It is enabled per organization: additional tools may be enabled for an organization and ac'
+  name: Larridin MCP Server
+  slug: larridin-mcp-server
 modified: '2026-07-19'
 name: Larridin
 nav: Providers
@@ -224,7 +224,7 @@ scopes:
 score:
   band: developing
   composite: 49.3
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -234,7 +234,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 51.5
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -245,8 +245,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/screenshots/larridin-2026-07-25T224539.png
 security:

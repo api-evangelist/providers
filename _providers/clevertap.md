@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -312,9 +312,9 @@ jsonld:
   slug: clevertap-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: clevertap-mcp.yml
-  slug: clevertap-mcpyml
+- description: CleverTap operates a first-party remote MCP server at mcp.clevertap.com. The server is OAuth-protected end to end, so tools/list and initialize both return 401 anonymously and the live tool schemas ca
+  name: CleverTap MCP Server
+  slug: clevertap-mcp-server
 modified: '2026-08-13'
 name: CleverTap
 nav: Providers
@@ -355,7 +355,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.6
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -365,7 +365,7 @@ score:
     discoverability: 92.6
     governance: 75.8
     operational_transparency: 65.8
-  previous_composite: 69.2
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -376,8 +376,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/screenshots/clevertap-2026-06-20T174517.png
 security:

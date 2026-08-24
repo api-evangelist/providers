@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -83,13 +83,13 @@ image: https://cdn.shopify.com/s/files/1/0712/5054/2907/files/BagsPLP_3.webp?v=1
 layout: provider
 mcp_servers:
 - description: ''
-  name: cuyana-mcp.yml
-  slug: cuyana-mcpyml
+  name: Cuyana MCP Server
+  slug: cuyana-mcp-server
 modified: '2026-07-18'
 name: Cuyana
 nav: Providers
 network: true
-overview: 'Cuyana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Retail, E-commerce, and Direct-to-Consumer.
+overview: 'Cuyana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Retail, E-Commerce, and Direct to Consumer.
 
 
   Cuyana''s developer surface includes support, engineering blog, authentication, and 8 more developer resources.'
@@ -101,22 +101,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 14.3
-  delta: -2.8
+  composite: 15.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 15.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuyana/refs/heads/main/screenshots/cuyana-2026-08-07T164003.png
 security:
@@ -133,8 +133,8 @@ tags:
 - Company
 - Fashion
 - Retail
-- E-commerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Apparel
 - Leather Goods
 - Sustainable Fashion

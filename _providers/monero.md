@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -202,7 +202,7 @@ modified: '2026-06-14'
 name: Monero
 nav: Providers
 network: true
-overview: 'Monero publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Blockchain API, JSON-RPC API, Mining API, and 5 more. Tagged areas include Cryptocurrency, Privacy, Blockchain, JSON-RPC, and Wallet.
+overview: 'Monero publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Blockchain API, JSON-RPC API, Mining API, and 5 more. Tagged areas include Cryptocurrency, Privacy, Blockchain, JSON-RPC, and Wallets.
 
 
   The Monero catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -232,7 +232,7 @@ rules:
 score:
   band: thin
   composite: 34.2
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -242,7 +242,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 38.9
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -256,8 +256,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/screenshots/monero-2026-06-20T185722.png
 security:
@@ -271,8 +271,8 @@ tags:
 - Privacy
 - Blockchain
 - JSON-RPC
-- Wallet
+- Wallets
 - Mining
-- Transactions
+- Transaction
 website: https://www.getmonero.org/
 ---

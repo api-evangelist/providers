@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ modified: '2026-05-24'
 name: EBANX
 nav: Providers
 network: true
-overview: 'EBANX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Tokenization API, FX API, Payment Notifications, and 3 more. Tagged areas include Payments, Pay-in, Payouts, Foreign Exchange, and Tokenization.
+overview: 'EBANX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Tokenization API, FX API, Payment Notifications, and 3 more. Tagged areas include Payments, Pay-In, Payouts, Foreign Exchange, and Tokenization.
 
 
   The EBANX catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -209,18 +209,18 @@ rules:
   slug: ebanx-rules
 score:
   band: developing
-  composite: 41.1
-  delta: -2.6
+  composite: 41.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 72.6
     developer_ergonomics: 11.9
     discoverability: 64.8
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 43.7
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/screenshots/ebanx-2026-06-20T180446.png
 security:
@@ -254,11 +254,11 @@ security:
 slug: ebanx
 tags:
 - Payments
-- Pay-in
+- Pay-In
 - Payouts
 - Foreign Exchange
 - Tokenization
-- LATAM
+- LatAm
 - Emerging Markets
 - Pix
 - Boleto
@@ -266,5 +266,5 @@ tags:
 - SPEI
 - PSE
 - Cross-Border
-- Webhooks
+- Webhook
 ---

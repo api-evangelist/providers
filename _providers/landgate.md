@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,13 +189,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: landgate-mcp.yml
-  slug: landgate-mcpyml
+  name: Landgate MCP Server
+  slug: landgate-mcp-server
 modified: '2026-07-26'
 name: Landgate
 nav: Providers
 network: true
-overview: 'Landgate publishes 3 APIs on the [APIs.io](https://apis.io/) network: SLIP Public Services (ArcGIS REST), SLIP Public OGC Web Services (WMS / WFS), and Data WA CKAN Action API. Tagged areas include Real Estate, Australia, Land Registry, Title, and Valuation.
+overview: 'Landgate publishes 3 APIs on the [APIs.io](https://apis.io/) network: SLIP Public Services (ArcGIS REST), SLIP Public OGC Web Services (WMS / WFS), and Data WA CKAN Action API. Tagged areas include Real-Estate, Australia, Land Registry, Title, and Valuation.
 
 
   Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 23 more developer resources.'
@@ -208,7 +208,7 @@ scopes:
 score:
   band: developing
   composite: 51.0
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -218,7 +218,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 46.7
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 79.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:
@@ -250,7 +250,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: landgate
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Land Registry
 - Title

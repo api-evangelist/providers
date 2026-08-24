@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-05'
 name: BoardEffect
 nav: Providers
 network: true
-overview: 'BoardEffect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Board Management, Board Portal, Governance, Meetings, and Nonprofit.
+overview: 'BoardEffect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Board Management, Board Portal, Governance, Meetings, and Non-Profit.
 
 
   BoardEffect''s developer surface includes documentation and 7 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 7
 score:
   band: minimal
   composite: 8.5
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -90,9 +90,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boardeffect/refs/heads/main/screenshots/boardeffect-2026-07-25T203519.png
 security:
@@ -110,7 +110,7 @@ tags:
 - Board Portal
 - Governance
 - Meetings
-- Nonprofit
+- Non-Profit
 - Diligent
 website: https://www.boardeffect.com
 ---

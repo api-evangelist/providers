@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,12 +48,12 @@ modified: '2026-07-21'
 name: Socra AI
 nav: Providers
 network: true
-overview: Socra AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Artificial Intelligence, and Tutoring.
+overview: Socra AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Artificial Intelligence, and Tutoring.
 random_paper: 6
 score:
   band: minimal
   composite: 2.5
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -63,15 +63,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 2.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -81,7 +81,7 @@ security:
 slug: socra-ai
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Artificial Intelligence
 - Tutoring

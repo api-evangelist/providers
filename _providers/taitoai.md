@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -86,13 +86,13 @@ image: https://taito.ai/og-default.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: taitoai-mcp.yml
-  slug: taitoai-mcpyml
+  name: Taito.ai MCP Server
+  slug: taitoai-mcp-server
 modified: '2026-07-21'
 name: Taito.ai
 nav: Providers
 network: true
-overview: 'Taito.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, HR, People Operations, and HRIS.
+overview: 'Taito.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, HR, People Operations, and HRIS.
 
 
   Taito.ai''s developer surface includes pricing, engineering blog, and 10 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 14.7
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -110,12 +110,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.9
+  previous_composite: 14.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -129,7 +129,7 @@ security:
 slug: taitoai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - HR
 - People Operations
 - HRIS
@@ -137,7 +137,7 @@ tags:
 - Employee Experience
 - AI Agents
 - MCP
-- SaaS
+- Software-as-a-Service
 - GDPR
 - ISO 27001
 website: https://taito.ai/

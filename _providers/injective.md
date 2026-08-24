@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: High-throughput read/stream API over the Injective chain and exchange data, exposed via gRPC, gRPC-web, and REST plus a Chain Stream WebSocket. Provides accounts, auctions, spot and derivative markets
@@ -153,9 +153,9 @@ description: Injective is a Layer 1 blockchain purpose-built for Web3 finance, e
 image: https://github.com/InjectiveLabs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: injective-mcp.yml
-  slug: injective-mcpyml
+- description: Official Injective MCP server (InjectiveLabs/mcp-server) exposing 40+ tools that give AI agents trading and chain capabilities on Injective. Runs locally over the stdio MCP transport and connects to C
+  name: Injective MCP Server
+  slug: injective-mcp-server
 modified: '2026-07-19'
 name: Injective
 nav: Providers
@@ -171,7 +171,7 @@ random_paper: 16
 score:
   band: developing
   composite: 43.3
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -181,7 +181,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 46.9
+  previous_composite: 43.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -192,8 +192,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/screenshots/injective-2026-07-25T222440.png
 security:

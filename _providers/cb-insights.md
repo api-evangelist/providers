@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: The original CB Insights REST API — 11 documented GET operations over organizations, deals (fundings, investments, portfolio exits), people, business relationships, expert collections and the credit l
@@ -260,16 +260,16 @@ image: https://api-docs.cbinsights.com/portal/img/cbinsights-social-card.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cb-insights-mcp.yml
-  slug: cb-insights-mcpyml
+  name: CB Insights MCP Server
+  slug: cb-insights-mcp-server
 - description: ''
-  name: mcp.cbinsights.com
-  slug: mcpcbinsightscom
+  name: CB Insights MCP Server
+  slug: cb-insights-mcp-server-2
 modified: '2026-08-14'
 name: CB Insights
 nav: Providers
 network: true
-overview: 'CB Insights publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Business Relationships API, Chat CBI API, and 8 more. Tagged areas include Company, market-intelligence, private-company-data, venture-capital, and funding-data.
+overview: 'CB Insights publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Business Relationships API, Chat CBI API, and 8 more. Tagged areas include Company, Market Intelligence, private-company-data, Venture Capital, and funding-data.
 
 
   CB Insights'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
@@ -290,7 +290,7 @@ scopes:
 score:
   band: strong
   composite: 55.5
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -300,7 +300,7 @@ score:
     discoverability: 81.5
     governance: 45.5
     operational_transparency: 39.5
-  previous_composite: 55.3
+  previous_composite: 55.5
   provenance:
     conformance: first-party
     contracts:
@@ -310,8 +310,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/screenshots/cb-insights-2026-08-17T080811.png
 security:
@@ -330,18 +330,18 @@ security:
 slug: cb-insights
 tags:
 - Company
-- market-intelligence
+- Market Intelligence
 - private-company-data
-- venture-capital
+- Venture Capital
 - funding-data
 - investor-data
-- company-data
-- people-data
-- business-relationships
+- Company Data
+- People Data
+- BusinessRelationships
 - predictive-scoring
-- mcp
+- MCP
 - agent-native
-- data-enrichment
-- snowflake
+- Data Enrichment
+- Snowflake
 website: https://www.cbinsights.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-04-28'
 name: Host Hotels & Resorts
 nav: Providers
 network: true
-overview: Host Hotels & Resorts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Hotels, REIT, Real Estate, and Fortune 500.
+overview: Host Hotels & Resorts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Hotels, REIT, Real-Estate, and Fortune 500.
 press:
 - date: '2026-05-25'
   title: 'Host Hotels & Resorts stock (US44107J1043): Q1 results ...'
@@ -88,8 +88,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/host-hotels-and-resorts/refs/heads/main/screenshots/host-hotels-and-resorts-2026-06-20T182838.png
 security:
@@ -102,7 +102,7 @@ tags:
 - Hospitality
 - Hotels
 - REIT
-- Real Estate
+- Real-Estate
 - Fortune 500
 website: https://www.hosthotels.com
 ---

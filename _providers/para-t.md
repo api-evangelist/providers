@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -311,13 +311,13 @@ image: https://apidocs.parasut.com/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: para-t-mcp.yml
-  slug: para-t-mcpyml
+  name: Paraşüt MCP Server
+  slug: paraşüt-mcp-server
 modified: '2026-07-20'
 name: Paraşüt
 nav: Providers
 network: true
-overview: 'Paraşüt publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ApiHome API, BankFees API, and 21 more. Tagged areas include Company, Accounting, Pre-Accounting, e-Invoicing, and Invoicing.
+overview: 'Paraşüt publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ApiHome API, BankFees API, and 21 more. Tagged areas include Company, Accounting, Pre-Accounting, E-Invoicing, and Invoicing.
 
 
   Paraşüt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
@@ -330,7 +330,7 @@ scopes:
 score:
   band: developing
   composite: 43.7
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -340,7 +340,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 44.6
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,8 +351,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/screenshots/para-t-2026-08-07T191400.png
 security:
@@ -369,10 +369,10 @@ tags:
 - Company
 - Accounting
 - Pre-Accounting
-- e-Invoicing
+- E-Invoicing
 - Invoicing
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Turkey
 - ERP
 - JSON:API

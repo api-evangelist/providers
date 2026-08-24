@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -312,9 +312,9 @@ jsonld:
   slug: tapfiliate-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: tapfiliate-mcp.yml
-  slug: tapfiliate-mcpyml
+- description: Tapfiliate operates an official REMOTE MCP server at https://mcp.tapfiliate.com/mcp. It is an OAuth 2.0 protected resource (RFC 9728) — an anonymous tools/list returns HTTP 401 with a WWW-Authenticate
+  name: Tapfiliate MCP Server
+  slug: tapfiliate-mcp-server
 modified: 2026-08-13
 name: Tapfiliate
 nav: Providers
@@ -354,7 +354,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.6
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -364,7 +364,7 @@ score:
     discoverability: 92.6
     governance: 41.7
     operational_transparency: 39.5
-  previous_composite: 77.1
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,9 +375,9 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/screenshots/tapfiliate-2026-06-20T194920.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: ''
@@ -190,8 +190,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/power2sme.
 layout: provider
 mcp_servers:
 - description: ''
-  name: power2sme-mcp.yml
-  slug: power2sme-mcpyml
+  name: Power2SME MCP Server
+  slug: power2sme-mcp-server
 modified: '2026-07-20'
 name: Power2SME
 nav: Providers
@@ -204,7 +204,7 @@ random_paper: 8
 score:
   band: thin
   composite: 27.5
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 12.1
     operational_transparency: 0.0
-  previous_composite: 31.9
+  previous_composite: 27.5
   provenance:
     conformance: derived
     contracts:
@@ -224,8 +224,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -245,6 +245,5 @@ tags:
 - India
 - Onboarding
 - OTP
-- API
 website: http://www.power2sme.com
 ---

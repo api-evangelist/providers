@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -706,9 +706,9 @@ jsonld:
   slug: amazon-audit-manager-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: amazon-audit-manager-mcp.yml
-  slug: amazon-audit-manager-mcpyml
+- description: Candidate MCP server derived from the Amazon Audit Manager OpenAPI operations (one tool per operationId). AWS does not publish a dedicated Audit Manager MCP server; the awslabs/mcp suite offers genera
+  name: Amazon Audit Manager MCP Server
+  slug: amazon-audit-manager-mcp-server
 modified: '2026-06-20'
 name: Amazon Audit Manager
 nav: Providers
@@ -745,16 +745,16 @@ rules:
   slug: amazon-audit-manager-spectral-rules
 score:
   band: thin
-  composite: 32.2
-  delta: -5.2
+  composite: 32.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 76.9
     developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -762,7 +762,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 37.4
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -772,9 +772,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/screenshots/amazon-audit-manager-2026-07-25T195931.png
 security:
 - kind: authentication

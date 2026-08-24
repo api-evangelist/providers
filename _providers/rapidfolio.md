@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Runner API and Dashboard API for programmatically running procedures, managing runs, submitting human-review decisions, managing API keys, and subscribing to run events via webhooks.
@@ -149,7 +149,7 @@ modified: '2026-07-20'
 name: Rapidfolio
 nav: Providers
 network: true
-overview: 'Rapidfolio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Workflow Automation, and Artificial Intelligence.
+overview: 'Rapidfolio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Workflow-Automation, and Artificial Intelligence.
 
 
   The Rapidfolio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -160,7 +160,7 @@ random_paper: 15
 score:
   band: developing
   composite: 40.5
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -170,12 +170,12 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 46.3
+  previous_composite: 40.5
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/screenshots/rapidfolio-2026-08-17T124927.png
 security:
 - kind: authentication
@@ -193,9 +193,9 @@ security:
 slug: rapidfolio
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
-- Workflow Automation
+- Workflow-Automation
 - Artificial Intelligence
 - Agents
 - Compliance

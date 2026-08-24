@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -161,8 +161,8 @@ image: https://www.convelio.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: convelio-mcp.yml
-  slug: convelio-mcpyml
+  name: Convelio MCP Server
+  slug: convelio-mcp-server
 modified: '2026-08-09'
 name: Convelio
 nav: Providers
@@ -178,7 +178,7 @@ random_paper: 2
 score:
   band: developing
   composite: 51.6
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -188,7 +188,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 48.4
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/screenshots/convelio-2026-08-17T080832.png
 security:
@@ -225,9 +225,9 @@ tags:
 - Shipping
 - Fine Art
 - Freight
-- Ecommerce
+- E-Commerce
 - Quotes
-- Webhooks
+- Webhook
 - Customs
 - Insurance
 website: https://www.convelio.com/

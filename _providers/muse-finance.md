@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Embedded-finance REST API for submitting and converting leads, managing finance applications and agreements, funds requests and credit-backed offers. Authenticated with a JWT bearer token plus an x-ap
@@ -122,9 +122,9 @@ description: Muse Finance is a UK embedded-finance platform (Muse Finance Limite
 image: https://getmymuse.com/favicon-96x96.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: muse-finance-mcp.yml
-  slug: muse-finance-mcpyml
+- description: Candidate MCP tool list for the Muse Finance embedded-finance API, one tool per documented operation. Not an official Muse server.
+  name: Muse Finance MCP Server
+  slug: muse-finance-mcp-server
 modified: '2026-07-20'
 name: Muse Finance
 nav: Providers
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -154,12 +154,12 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 38.8
+  previous_composite: 37.9
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/screenshots/muse-finance-2026-08-07T184450.png
 security:

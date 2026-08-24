@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Live Model Context Protocol server operated by ServiceUp at api.serviceup.com/mcp, exposing the agentic repair platform to MCP clients. The endpoint is protected by OAuth 2.1 (authorization code + PKC
@@ -113,8 +113,8 @@ image: https://cdn.prod.website-files.com/65dfc331994523c04b3fbb30/6a3c44c69acc5
 layout: provider
 mcp_servers:
 - description: ''
-  name: serviceup-mcp.yml
-  slug: serviceup-mcpyml
+  name: ServiceUp MCP Server
+  slug: serviceup-mcp-server
 modified: '2026-08-05'
 name: ServiceUp
 nav: Providers
@@ -132,7 +132,7 @@ scopes:
 score:
   band: thin
   composite: 30.3
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -142,7 +142,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.9
+  previous_composite: 30.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -152,8 +152,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -177,7 +177,7 @@ tags:
 - Insurance
 - Maintenance
 - Agentic AI
-- Model Context Protocol
+- MCP
 - Transportation
 website: https://www.serviceup.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Next-generation Bread Pay REST API for managing buyers, merchant accounts, personalized payment options and pricing, and the merchant transaction lifecycle (authorize, capture, cancel, refund). Secure
@@ -131,9 +131,9 @@ description: 'Bread Financial (formerly Alliance Data Systems) is a US consumer 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bread-financial.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: bread-financial-mcp.yml
-  slug: bread-financial-mcpyml
+- description: 'No official hosted/remote Bread Pay MCP server was found. This is a CANDIDATE tool list derived from the documented BreadPay Platform API capabilities (buyers, merchant accounts, payment options, and '
+  name: Bread Financial MCP Server
+  slug: bread-financial-mcp-server
 modified: '2026-07-18'
 name: Bread Financial
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 18
 score:
   band: thin
   composite: 31.5
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -159,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 37.9
+  previous_composite: 31.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -169,9 +169,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/screenshots/bread-financial-2026-07-25T203733.png
 security:
 - kind: authentication
@@ -190,7 +190,7 @@ tags:
 - Buy Now Pay Later
 - Lending
 - Consumer Finance
-- Point of Sale
-- Ecommerce
+- Point-of-Sale
+- E-Commerce
 website: https://www.breadfinancial.com
 ---

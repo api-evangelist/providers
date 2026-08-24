@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-06-13'
 name: Linea
 nav: Providers
 network: true
-overview: 'Linea publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prices API and Tokens API. Tagged areas include Blockchain, Ethereum, Layer 2, ZK-EVM, and Web3.
+overview: 'Linea publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prices API and Tokens API. Tagged areas include Blockchain, Ethereum, Layer 2, zkEVM, and Web3.
 
 
   The Linea catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -232,7 +232,7 @@ rules:
 score:
   band: developing
   composite: 47.4
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -242,7 +242,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 53.5
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -250,9 +250,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linea/refs/heads/main/screenshots/linea-2026-06-20T184539.png
 security:
 - kind: domain-security
@@ -268,7 +268,7 @@ tags:
 - Blockchain
 - Ethereum
 - Layer 2
-- ZK-EVM
+- zkEVM
 - Web3
 - DeFi
 - Smart Contracts

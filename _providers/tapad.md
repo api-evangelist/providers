@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Tapestry Web API is Tapad's cross-device identity and audience endpoint. A client sends a GET request carrying a Tapad-issued partner id plus one or more device or user identifiers, and Tapad reso
@@ -122,7 +122,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.4
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -132,11 +132,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 15.4
+  previous_composite: 14.4
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

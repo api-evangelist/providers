@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The Approvals API from N3XT — 2 operation(s) for approvals.
@@ -272,13 +272,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/n3xt.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: n3xt-mcp.yml
-  slug: n3xt-mcpyml
+  name: N3XT MCP Server
+  slug: n3xt-mcp-server
 modified: '2026-07-20'
 name: N3XT
 nav: Providers
 network: true
-overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approvals API, AuditTrail API, Businesses API, and 8 more. Tagged areas include Company, Crypto, Banking, Payments, and Stablecoin.
+overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approvals API, AuditTrail API, Businesses API, and 8 more. Tagged areas include Company, Crypto, Banking, Payments, and Stablecoins.
 
 
   N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
@@ -291,7 +291,7 @@ scopes:
 score:
   band: developing
   composite: 52.7
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -301,7 +301,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 56.9
+  previous_composite: 52.7
   provenance:
     conformance: first-party
     contracts:
@@ -317,8 +317,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 62.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/screenshots/n3xt-2026-08-07T184554.png
 security:
@@ -344,10 +344,9 @@ tags:
 - Crypto
 - Banking
 - Payments
-- Stablecoin
+- Stablecoins
 - Fintech
 - Blockchain
-- API
 - MCP
 website: https://n3xt.io
 ---

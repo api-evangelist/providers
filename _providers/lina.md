@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-19'
 name: Lina
 nav: Providers
 network: true
-overview: 'Lina is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Coworking, Real Estate, and Medical.
+overview: 'Lina is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Co-Working, Real-Estate, and Medical.
 
 
   Lina''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 11.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -110,15 +110,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.2
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lina/refs/heads/main/screenshots/lina-2026-07-25T225217.png
 security:
@@ -130,8 +130,8 @@ slug: lina
 tags:
 - Company
 - Healthcare
-- Coworking
-- Real Estate
+- Co-Working
+- Real-Estate
 - Medical
 - Mental Health
 - Wellness

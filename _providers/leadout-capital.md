@@ -29,7 +29,7 @@ tags:
 - Seed
 - Early Stage
 - Founder-Market Fit
-- SaaS
+- Software-as-a-Service
 - Vertical SaaS
 - Marketplace
 - Healthcare

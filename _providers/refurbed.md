@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: The BuybackBidService API from Refurbed — 8 operation(s) for buybackbidservice.
@@ -240,8 +240,8 @@ image: https://www.refurbed.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: refurbed-mcp.yml
-  slug: refurbed-mcpyml
+  name: Refurbed MCP Server
+  slug: refurbed-mcp-server
 modified: '2026-07-21'
 name: Refurbed
 nav: Providers
@@ -258,7 +258,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -268,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 32.0
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
@@ -284,8 +284,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -306,7 +306,7 @@ tags:
 - Circular Economy
 - Retail
 - Merchant API
-- Affiliate
+- Affiliates
 - gRPC
 website: https://www.refurbed.com
 ---

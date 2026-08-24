@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -346,9 +346,9 @@ json_schemas:
   slug: foxglove-technologies-voxelgrid
 layout: provider
 mcp_servers:
-- description: ''
-  name: foxglove-technologies-mcp.yml
-  slug: foxglove-technologies-mcpyml
+- description: Foxglove Desktop can run a Model Context Protocol server so external agents (Claude Code, Cursor, Claude Desktop and other MCP clients) can see and control the running app. It is desktop-only — the we
+  name: Foxglove Technologies MCP Server
+  slug: foxglove-technologies-mcp-server
 modified: '2026-08-16'
 name: Foxglove Technologies
 nav: Providers
@@ -372,7 +372,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.8
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -382,7 +382,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 63.3
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -393,9 +393,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/screenshots/foxglove-technologies-2026-08-17T080933.png
 security:
 - kind: authentication

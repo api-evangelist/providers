@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -367,7 +367,7 @@ modified: '2026-05-19'
 name: Boltic
 nav: Providers
 network: true
-overview: 'Boltic publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Tables API, Pipes API, Certificates API, and 14 more. Tagged areas include Automation, DataSync, Gateways, NoCode, and Streaming.
+overview: 'Boltic publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Tables API, Pipes API, Certificates API, and 14 more. Tagged areas include Automation, Data Sync, Gateways, No-Code, and Streaming.
 
 
   The Boltic catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -397,7 +397,7 @@ rules:
 score:
   band: thin
   composite: 38.4
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -407,7 +407,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 44.2
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -415,9 +415,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/screenshots/boltic-2026-06-20T173556.png
 security:
 - kind: authentication
@@ -431,9 +431,9 @@ security:
 slug: boltic
 tags:
 - Automation
-- DataSync
+- Data Sync
 - Gateways
-- NoCode
+- No-Code
 - Streaming
 - Workflows
 website: https://www.boltic.io/

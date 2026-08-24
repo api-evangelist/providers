@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: Operations for managing account-level resources
@@ -210,13 +210,13 @@ image: https://10web.io/wp-content/uploads/2025/03/OG-img4.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: 10web-mcp.yml
-  slug: 10web-mcpyml
+  name: 10Web MCP Server
+  slug: 10web-mcp-server
 modified: '2026-07-17'
 name: 10Web
 nav: Providers
 network: true
-overview: '10Web publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Backup API, Builder API, and 10 more. Tagged areas include Company, Ai, Website Builder, WordPress, and Hosting.
+overview: '10Web publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Backup API, Builder API, and 10 more. Tagged areas include Company, Artificial Intelligence, Website Builder, WordPress, and Hosting.
 
 
   The 10Web catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,7 +227,7 @@ random_paper: 16
 score:
   band: developing
   composite: 42.9
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -237,7 +237,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 45.5
+  previous_composite: 42.9
   provenance:
     conformance: derived
     contracts:
@@ -247,8 +247,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/screenshots/10web-2026-07-25T181101.png
 security:
@@ -263,7 +263,7 @@ security:
 slug: 10web
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Website Builder
 - WordPress
 - Hosting

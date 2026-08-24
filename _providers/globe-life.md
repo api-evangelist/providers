@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Globe Life API provides access to platform services and data for enterprise integration and automation.
@@ -61,7 +61,7 @@ modified: '2026-04-19'
 name: Globe Life
 nav: Providers
 network: true
-overview: Globe Life publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, and Financial Services.
+overview: Globe Life publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, and Financial-Services.
 plans:
 - name: Globe Life Plans Pricing
   plan_count: 2
@@ -74,7 +74,7 @@ rate_limits:
 score:
   band: minimal
   composite: 5.6
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -84,15 +84,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 8.4
+  previous_composite: 5.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/globe-life/refs/heads/main/screenshots/globe-life-2026-06-20T181929.png
 security:
@@ -104,6 +104,6 @@ slug: globe-life
 tags:
 - Insurance
 - Life Insurance
-- Financial Services
+- Financial-Services
 website: https://www.globelifeinsurance.com
 ---

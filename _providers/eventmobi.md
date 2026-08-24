@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Read and update the events an Organizer manages. Confirmed request patterns include GET and PATCH on the events collection and nested resources such as /events/{event_id}/images/. Each API key is scop
@@ -97,7 +97,7 @@ modified: '2026-07-05'
 name: EventMobi
 nav: Providers
 network: true
-overview: 'EventMobi publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Events, Event Management, Event Apps, Attendees, and Sessions.
+overview: 'EventMobi publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event Management, Event Apps, Attendees, and Sessions.
 
 
   EventMobi''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.1
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -123,9 +123,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 22.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventmobi/refs/heads/main/screenshots/eventmobi-2026-07-25T213712.png
 security:
@@ -135,7 +135,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: eventmobi
 tags:
-- Events
+- Event
 - Event Management
 - Event Apps
 - Attendees

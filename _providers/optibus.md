@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -311,8 +311,8 @@ image: https://optibus.com/file/2026/01/Thumbnail-HP.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: optibus-mcp.yml
-  slug: optibus-mcpyml
+  name: Optibus MCP Server
+  slug: optibus-mcp-server
 modified: '2026-07-20'
 name: Optibus
 nav: Providers
@@ -328,7 +328,7 @@ random_paper: 18
 score:
   band: developing
   composite: 48.7
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -338,7 +338,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 48.6
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -349,8 +349,8 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optibus/refs/heads/main/screenshots/optibus-2026-08-07T190805.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ modified: '2026-05-19'
 name: Microsoft Bing
 nav: Providers
 network: true
-overview: 'Microsoft Bing publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Autosuggest API, CustomSearch API, EntitySearch API, and 6 more. Tagged areas include Search, Web Search, Images, Videos, and News.
+overview: 'Microsoft Bing publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Autosuggest API, CustomSearch API, EntitySearch API, and 6 more. Tagged areas include Search, Web Search, Image, Videos, and News.
 
 
   Microsoft Bing''s developer surface includes authentication, developer portal, pricing, getting-started guide, support, engineering blog, and 7 more developer resources.'
@@ -210,7 +210,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.5
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -220,7 +220,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 40.4
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/screenshots/microsoft-bing-2026-06-20T185445.png
 security:
@@ -245,7 +245,7 @@ slug: microsoft-bing
 tags:
 - Search
 - Web Search
-- Images
+- Image
 - Videos
 - News
 - Azure AI

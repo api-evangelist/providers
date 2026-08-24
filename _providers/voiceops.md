@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Live first-party remote Model Context Protocol server operated by VoiceOps. JSON-RPC 2.0 over HTTP (streamable HTTP transport), authenticated with a VoiceOps API key sent in the Authorization header. '
@@ -137,8 +137,8 @@ image: https://cdn.prod.website-files.com/677e212e69df600d0a08b485/678abf9aa13aa
 layout: provider
 mcp_servers:
 - description: ''
-  name: voiceops-mcp.yml
-  slug: voiceops-mcpyml
+  name: VoiceOps MCP Server
+  slug: voiceops-mcp-server
 modified: '2026-08-14'
 name: VoiceOps
 nav: Providers
@@ -164,7 +164,7 @@ scopes:
 score:
   band: emerging
   composite: 24.1
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -174,12 +174,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 26.8
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -208,7 +208,7 @@ tags:
 - Customer Experience
 - Artificial Intelligence
 - Speech Analytics
-- Model Context Protocol
+- MCP
 - Agents
 website: https://www.voiceops.com/
 ---

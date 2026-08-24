@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ modified: '2026-05-19'
 name: taylor-morrison-home
 nav: Providers
 network: true
-overview: 'taylor-morrison-home publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Communities API, Design API, Floor Plans API, and 3 more. Tagged areas include Homebuilding, Real Estate, Fortune 1000, New Homes, and Communities.
+overview: 'taylor-morrison-home publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Communities API, Design API, Floor Plans API, and 3 more. Tagged areas include Homebuilding, Real-Estate, Fortune 1000, New Homes, and Communities.
 
 
   The taylor-morrison-home catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -241,18 +241,18 @@ rules:
   slug: taylor-morrison-spectral-rules
 score:
   band: thin
-  composite: 31.7
-  delta: -6.1
+  composite: 32.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 64.3
     developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 37.8
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -260,9 +260,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/screenshots/taylor-morrison-home-2026-06-20T194942.png
 security:
 - kind: authentication
@@ -276,7 +276,7 @@ security:
 slug: taylor-morrison-home
 tags:
 - Homebuilding
-- Real Estate
+- Real-Estate
 - Fortune 1000
 - New Homes
 - Communities

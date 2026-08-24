@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Partner-only REST API for reservations, availability, and restaurant metadata. Access is granted through Resy''s partnerships team for approved POS, CRM, loyalty, and discovery integrations. No public '
@@ -119,7 +119,7 @@ modified: '2026-06-03'
 name: Resy
 nav: Providers
 network: true
-overview: 'Resy publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Reservations, Restaurants, Dining, and Booking.
+overview: 'Resy publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Reservations, Restaurant, Dining, and Booking.
 
 
   Resy''s developer surface includes developer portal, engineering blog, and 8 more developer resources.'
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.5
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -145,9 +145,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resy/refs/heads/main/screenshots/resy-2026-06-20T193036.png
 security:
@@ -159,7 +159,7 @@ slug: resy
 tags:
 - Hospitality
 - Reservations
-- Restaurants
+- Restaurant
 - Dining
 - Booking
 use_cases:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-20'
 name: Myntra
 nav: Providers
 network: true
-overview: Myntra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, E-commerce, and Retail.
+overview: Myntra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, E-Commerce, and Retail.
 random_paper: 16
 score:
   band: minimal
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myntra/refs/heads/main/screenshots/myntra-2026-08-07T184534.png
 security:
@@ -78,7 +78,7 @@ tags:
 - Company
 - Consumer
 - Fashion
-- E-commerce
+- E-Commerce
 - Retail
 - Marketplace
 - India

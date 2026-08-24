@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -103,8 +103,8 @@ image: https://getduckbill.com/preview.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: duckbill-mcp.yml
-  slug: duckbill-mcpyml
+  name: Duckbill MCP Server
+  slug: duckbill-mcp-server
 modified: '2026-07-18'
 name: Duckbill
 nav: Providers
@@ -122,7 +122,7 @@ scopes:
 score:
   band: emerging
   composite: 22.1
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -132,11 +132,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 24.5
+  previous_composite: 22.1
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duckbill/refs/heads/main/screenshots/duckbill-2026-07-25T212450.png
 security:

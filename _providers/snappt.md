@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -223,13 +223,13 @@ image: https://snappt.com/wp-content/uploads/2023/05/snappt-sharing-fallback.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: snappt-mcp.yml
-  slug: snappt-mcpyml
+  name: Snappt MCP Server
+  slug: snappt-mcp-server
 modified: '2026-08-05'
 name: Snappt
 nav: Providers
 network: true
-overview: 'Snappt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Applicant Sessions API, Applicants API, and 4 more. Tagged areas include Company, fraud-detection, document-verification, identity-verification, and income-verification.
+overview: 'Snappt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Applicant Sessions API, Applicants API, and 4 more. Tagged areas include Company, Fraud Detection, Document Verification, Identity Verification, and Income Verification.
 
 
   The Snappt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -240,7 +240,7 @@ random_paper: 11
 score:
   band: strong
   composite: 54.6
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -250,7 +250,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 59.7
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,9 +261,9 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/screenshots/snappt-2026-08-17T081942.png
 security:
 - kind: authentication
@@ -281,16 +281,16 @@ security:
 slug: snappt
 tags:
 - Company
-- fraud-detection
-- document-verification
-- identity-verification
-- income-verification
-- property-management
-- multifamily
-- real-estate
-- proptech
-- tenant-screening
-- rental-applications
-- webhooks
+- Fraud Detection
+- Document Verification
+- Identity Verification
+- Income Verification
+- Property Management
+- Multifamily
+- Real-Estate
+- PropTech
+- Tenant Screening
+- Rental Applications
+- Webhook
 website: https://snappt.com/
 ---

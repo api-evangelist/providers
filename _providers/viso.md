@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Authenticated Apollo GraphQL API backing the Viso Now agentic computer vision app. Anonymous access is denied (HTTP 403); sign-in is via Google Identity Services with a session credential. GraphQL int
@@ -101,7 +101,7 @@ modified: '2026-07-21'
 name: VISO
 nav: Providers
 network: true
-overview: 'VISO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Computer Vision, Machine Learning, and Video Analytics.
+overview: 'VISO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer-Vision, Machine-Learning, and Video Analytics.
 
 
   VISO''s developer surface includes documentation, pricing, signup flow, authentication, and 10 more developer resources.'
@@ -109,7 +109,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 15.3
-  delta: -11.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -119,12 +119,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 26.9
+  previous_composite: 15.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Viso Authentication
@@ -137,9 +137,9 @@ security:
 slug: viso
 tags:
 - Company
-- Ai
-- Computer Vision
-- Machine Learning
+- Artificial Intelligence
+- Computer-Vision
+- Machine-Learning
 - Video Analytics
 - Vision Agents
 - Edge AI

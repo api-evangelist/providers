@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -199,13 +199,13 @@ image: https://api.tldv.io/assets/images/logo_login.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: tl-dv-mcp.yml
-  slug: tl-dv-mcpyml
+  name: tl;dv MCP Server
+  slug: tldv-mcp-server
 modified: '2026-08-14'
 name: tl;dv
 nav: Providers
 network: true
-overview: 'tl;dv publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Meetings API, Notes API, System API, and 1 more. Tagged areas include Company, AI, Meetings, Transcription, and Notetaking.
+overview: 'tl;dv publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Meetings API, Notes API, System API, and 1 more. Tagged areas include Company, Artificial Intelligence, Meetings, Transcription, and Note Taking.
 
 
   The tl;dv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -229,7 +229,7 @@ scopes:
 score:
   band: strong
   composite: 57.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -239,7 +239,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 57.3
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +250,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/screenshots/tl-dv-2026-08-17T082359.png
 security:
@@ -270,14 +270,13 @@ security:
 slug: tl-dv
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Meetings
 - Transcription
-- Notetaking
+- Note Taking
 - Conversation Intelligence
 - Productivity
 - Video
-- Webhooks
-- API
+- Webhook
 website: https://tldv.io
 ---

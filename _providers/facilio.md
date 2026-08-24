@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -389,14 +389,14 @@ description: Facilio is a connected operations platform for facility, property, 
 image: https://facilio.com/images/homepage-v2/facilio-og.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: facilio-mcp.yml
-  slug: facilio-mcpyml
+- description: Connected operations platform for facility, property, and asset management. The Facilio MCP server lets agents query and act on work orders, assets, service requests, tenants, vendors, and portfolio d
+  name: Facilio
+  slug: facilio
 modified: '2026-07-19'
 name: Facilio
 nav: Providers
 network: true
-overview: 'Facilio publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Buildings API, Client Contacts API, and 32 more. Tagged areas include Company, Ai, Facility Management, CMMS, and Property Operations.
+overview: 'Facilio publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Buildings API, Client Contacts API, and 32 more. Tagged areas include Company, Artificial Intelligence, Facility Management, CMMS, and Property Operations.
 
 
   Facilio''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 25 more developer resources.'
@@ -409,7 +409,7 @@ scopes:
 score:
   band: developing
   composite: 49.7
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -419,7 +419,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 48.9
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -430,8 +430,8 @@ score:
       total: 35
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/screenshots/facilio-2026-07-25T214135.png
 security:
@@ -450,13 +450,13 @@ security:
 slug: facilio
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Facility Management
 - CMMS
 - Property Operations
 - Maintenance
 - Asset Management
-- Real Estate
+- Real-Estate
 - IoT
 - Buildings
 website: https://facilio.com

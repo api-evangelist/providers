@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -127,8 +127,8 @@ image: https://100thieves.com/cdn/shop/files/100-Thieves-arcade.jpg?v=1710263463
 layout: provider
 mcp_servers:
 - description: ''
-  name: 100-thieves-mcp.yml
-  slug: 100-thieves-mcpyml
+  name: 100 Thieves MCP Server
+  slug: 100-thieves-mcp-server
 modified: '2026-08-05'
 name: 100 Thieves
 nav: Providers
@@ -162,8 +162,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/screenshots/100-thieves-2026-08-07T160646.png
 security:
@@ -185,7 +185,7 @@ tags:
 - E-Commerce
 - Entertainment
 - Media
-- Direct To Consumer
+- Direct to Consumer
 - Agentic Commerce
 website: https://100thieves.com/
 ---

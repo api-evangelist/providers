@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -220,8 +220,8 @@ description: 'Meow is a company surfaced as a portfolio company of qed-investors
 layout: provider
 mcp_servers:
 - description: ''
-  name: meow-mcp.yml
-  slug: meow-mcpyml
+  name: Meow MCP Server
+  slug: meow-mcp-server
 modified: '2026-07-17'
 name: Meow
 nav: Providers
@@ -239,7 +239,7 @@ scopes:
 score:
   band: emerging
   composite: 25.3
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -249,7 +249,7 @@ score:
     discoverability: 50.0
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 25.5
+  previous_composite: 25.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,8 +266,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meow/refs/heads/main/screenshots/meow-2026-08-07T172630.png
 security:

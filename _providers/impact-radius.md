@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: REST API for brands/advertisers to manage programs, partner recruitment and contracts, product catalogs, conversions and action reconciliation, promo codes, deals, reporting and payouts across affilia
@@ -428,8 +428,8 @@ image: https://impact.com/wp-content/uploads/2022/04/impact-logo-square.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: impact-radius-mcp.yml
-  slug: impact-radius-mcpyml
+  name: Impact Radius MCP Server
+  slug: impact-radius-mcp-server
 modified: '2026-08-13'
 name: Impact Radius
 nav: Providers
@@ -453,7 +453,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 68.1
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -463,7 +463,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 92.1
-  previous_composite: 71.7
+  previous_composite: 68.1
   provenance:
     conformance: derived
     contracts:
@@ -473,8 +473,8 @@ score:
       total: 67
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/screenshots/impact-radius-2026-07-25T222140.png
 security:
@@ -502,7 +502,7 @@ tags:
 - Influencer Marketing
 - Referral Marketing
 - Attribution
-- Martech
+- MarTech
 - Advocate
 - Creator Economy
 - E-Commerce

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.0.1, "Governor External API" v1.0.0) for the self-hosted Synthesized Governor. Trigger TDK masking/generation workflows, list workers, and check health. Authenticated with an X-Acc
@@ -131,8 +131,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synthesize
 layout: provider
 mcp_servers:
 - description: ''
-  name: synthesized-mcp.yml
-  slug: synthesized-mcpyml
+  name: Synthesized MCP Server
+  slug: synthesized-mcp-server
 modified: '2026-07-21'
 name: Synthesized
 nav: Providers
@@ -145,7 +145,7 @@ random_paper: 13
 score:
   band: thin
   composite: 29.3
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -155,12 +155,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 30.5
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -180,7 +180,7 @@ tags:
 - Data Privacy
 - Test Data Management
 - Compliance
-- Machine Learning
+- Machine-Learning
 - Databases
 - Developer Tools
 website: https://www.synthesized.io

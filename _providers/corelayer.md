@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Corelayer v1 REST API (api/v1) provides programmatic access to issues, groups, integrations, events, anomaly configs, deep research, API keys, and settings. It uses API-key authentication with rol
@@ -171,13 +171,13 @@ image: https://www.corelayer.com/opengraph-image
 layout: provider
 mcp_servers:
 - description: ''
-  name: corelayer-mcp.yml
-  slug: corelayer-mcpyml
+  name: Corelayer MCP Server
+  slug: corelayer-mcp-server
 modified: '2026-07-18'
 name: Corelayer
 nav: Providers
 network: true
-overview: 'Corelayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, SRE, Incident Response, and Observability.
+overview: 'Corelayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, SRE, Incident Response, and Observability.
 
 
   The Corelayer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -188,7 +188,7 @@ random_paper: 0
 score:
   band: developing
   composite: 50.3
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -198,13 +198,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 54.3
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/screenshots/corelayer-2026-07-25T210427.png
 security:
@@ -223,7 +223,7 @@ security:
 slug: corelayer
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - SRE
 - Incident Response
 - Observability
@@ -231,7 +231,7 @@ tags:
 - Root Cause Analysis
 - Anomaly Detection
 - DevOps
-- Agent Native
+- agent-native
 - MCP
 - Fintech
 website: https://docs.corelayer.com

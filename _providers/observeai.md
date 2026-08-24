@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Asynchronous REST APIs that export Observe.AI contact-center data into external systems: Interactions (Moments, transcripts and metadata for voice calls, webchat and email), Summarization AI (GenAI su'
@@ -217,7 +217,7 @@ modified: '2026-08-14'
 name: Observe.AI
 nav: Providers
 network: true
-overview: 'Observe.AI publishes 1 API on the [APIs.io](https://apis.io/) network: Reporting APIs. Tagged areas include Company, Ai Apps, Contact Center, Conversation Intelligence, and Customer Support.
+overview: 'Observe.AI publishes 1 API on the [APIs.io](https://apis.io/) network: Reporting APIs. Tagged areas include Company, Ai Apps, Contact Center, Conversation Intelligence, and Customer-Support.
 
 
   Observe.AI''s developer surface includes engineering blog, support, documentation, API reference, getting-started guide, changelog, authentication, and 23 more developer resources.'
@@ -233,7 +233,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.8
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -243,7 +243,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 64.5
+  previous_composite: 58.8
   provenance:
     conformance: derived
     contracts:
@@ -253,9 +253,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/screenshots/observeai-2026-08-07T185911.png
 security:
 - kind: authentication
@@ -280,7 +280,7 @@ tags:
 - Ai Apps
 - Contact Center
 - Conversation Intelligence
-- Customer Support
+- Customer-Support
 - Agentic AI
 - Voice AI
 - Quality Assurance

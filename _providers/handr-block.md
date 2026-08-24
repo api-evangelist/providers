@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-04-28'
 name: H&R Block
 nav: Providers
 network: true
-overview: H&R Block is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Preparation, Financial Services, Consumer Finance, and Fortune 1000.
+overview: H&R Block is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Preparation, Financial-Services, Consumer Finance, and Fortune 1000.
 press:
 - date: '2026-05-25'
   title: H&R Block and Microsoft's Industry-Leading Partnership ...
@@ -73,7 +73,7 @@ random_paper: 1
 score:
   band: minimal
   composite: 3.5
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -83,9 +83,9 @@ score:
     discoverability: 31.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 3.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 3.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handr-block/refs/heads/main/screenshots/handr-block-2026-06-20T182502.png
 security:
@@ -96,7 +96,7 @@ security:
 slug: handr-block
 tags:
 - Tax Preparation
-- Financial Services
+- Financial-Services
 - Consumer Finance
 - Fortune 1000
 website: https://www.hrblock.com

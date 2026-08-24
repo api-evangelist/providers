@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'RSS 2.0 is the dominant XML-based syndication format, stewarded by the RSS Advisory Board. A feed consists of a root <rss version="2.0"> element wrapping a single <channel> with required title, link, '
@@ -175,7 +175,7 @@ rules:
 score:
   band: emerging
   composite: 18.2
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -185,10 +185,10 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 0.0
-  previous_composite: 24.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 18.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rss/refs/heads/main/screenshots/rss-2026-06-20T193237.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -149,13 +149,13 @@ image: https://viewpoints.ai/og-image-2.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: viewpoints-ai-mcp.yml
-  slug: viewpoints-ai-mcpyml
+  name: Viewpoints AI MCP Server
+  slug: viewpoints-ai-mcp-server
 modified: '2026-07-21'
 name: Viewpoints AI
 nav: Providers
 network: true
-overview: 'Viewpoints AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Studies API, Study File Uploads API, and Study Schedules API. Tagged areas include Company, Ai, Market Research, Synthetic Personas, and Consumer Insights.
+overview: 'Viewpoints AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Studies API, Study File Uploads API, and Study Schedules API. Tagged areas include Company, Artificial Intelligence, Market Research, Synthetic Personas, and Consumer Insights.
 
 
   Viewpoints AI''s developer surface includes documentation, API reference, authentication, and 17 more developer resources.'
@@ -163,7 +163,7 @@ random_paper: 15
 score:
   band: developing
   composite: 39.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -173,7 +173,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 40.2
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -184,8 +184,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -199,7 +199,7 @@ security:
 slug: viewpoints-ai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Market Research
 - Synthetic Personas
 - Consumer Insights

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -115,7 +115,7 @@ rules:
 score:
   band: emerging
   composite: 11.3
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -125,10 +125,10 @@ score:
     discoverability: 50.0
     governance: 25.0
     operational_transparency: 0.0
-  previous_composite: 16.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 11.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rpm-international/refs/heads/main/screenshots/rpm-international-2026-06-20T193235.png
 security:
 - kind: domain-security

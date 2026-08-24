@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -1434,9 +1434,9 @@ jsonld:
   slug: kraken-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: kraken-mcp.yml
-  slug: kraken-mcpyml
+- description: Kraken ships an official MCP server embedded in the Kraken CLI (krakenfx/kraken-cli). Running `kraken mcp` starts a Model Context Protocol server over stdio that exposes 151 tools across the Spot, Fut
+  name: Kraken MCP Server
+  slug: kraken-mcp-server
 modified: '2026-06-20'
 name: Kraken
 nav: Providers
@@ -1492,18 +1492,18 @@ rules:
   slug: kraken-rules
 score:
   band: exemplar
-  composite: 71.2
-  delta: 3.2
+  composite: 71.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 34.7
     developer_ergonomics: 76.2
     discoverability: 100.0
-    governance: 43.2
+    governance: 45.5
     operational_transparency: 50.0
-  previous_composite: 68.0
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1519,8 +1519,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 83.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png
 security:
@@ -1567,7 +1567,7 @@ tags:
 - OTC
 - Prime Brokerage
 - Embed
-- OAuth
+- Authentication
 - Public APIs
 use_cases:
 - description: Build and operate automated trading strategies against Kraken Spot using REST for order management and WebSocket v2 for low-latency market data and execution streams.

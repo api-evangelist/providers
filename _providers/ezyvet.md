@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.2
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -181,7 +181,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.4
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/screenshots/ezyvet-2026-07-25T214103.png
 security:

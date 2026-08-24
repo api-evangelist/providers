@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -271,13 +271,13 @@ image: https://app.mithril.ai/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mithril-mcp.yml
-  slug: mithril-mcpyml
+  name: Mithril MCP Server
+  slug: mithril-mcp-server
 modified: '2026-07-20'
 name: Mithril
 nav: Providers
 network: true
-overview: 'Mithril publishes 14 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, image versions API, instance types API, and 11 more. Tagged areas include Company, GPU Cloud, AI Infrastructure, Machine Learning, and Cloud Computing.
+overview: 'Mithril publishes 14 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, image versions API, instance types API, and 11 more. Tagged areas include Company, GPU Cloud, AI Infrastructure, Machine-Learning, and Cloud Computing.
 
 
   Mithril''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 27 more developer resources.'
@@ -285,7 +285,7 @@ random_paper: 5
 score:
   band: strong
   composite: 56.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -295,7 +295,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 56.7
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,8 +306,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/screenshots/mithril-2026-08-07T183809.png
 security:
@@ -332,7 +332,7 @@ tags:
 - Company
 - GPU Cloud
 - AI Infrastructure
-- Machine Learning
+- Machine-Learning
 - Cloud Computing
 - Compute
 - Spot Instances

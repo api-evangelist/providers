@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 598
   human_in_the_loop: 291
@@ -825,13 +825,13 @@ image: https://events.com/wp-content/uploads/2023/09/events-featured-logo.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: eventscom-mcp.yml
-  slug: eventscom-mcpyml
+  name: Events.com MCP Server
+  slug: eventscom-mcp-server
 modified: '2026-08-04'
 name: Events.com
 nav: Providers
 network: true
-overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) network, including Agent Config Controller API, Agent Config Migration Controller API, Agent Email Controller API, and 109 more. Tagged areas include event-management, ticketing, event-registration, event-marketing, and sponsorship.
+overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) network, including Agent Config Controller API, Agent Config Migration Controller API, Agent Email Controller API, and 109 more. Tagged areas include Event Management, Ticketing, Event Registration, Event Marketing, and Sponsorship.
 
 
   The Events.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -842,7 +842,7 @@ random_paper: 14
 score:
   band: developing
   composite: 40.4
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -852,7 +852,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 41.5
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -863,8 +863,8 @@ score:
       total: 115
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png
 security:
@@ -878,17 +878,17 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: eventscom
 tags:
-- event-management
-- ticketing
-- event-registration
-- event-marketing
-- sponsorship
-- event-discovery
-- data-platform
-- business-intelligence
-- artificial-intelligence
-- mcp
+- Event Management
+- Ticketing
+- Event Registration
+- Event Marketing
+- Sponsorship
+- Event Discovery
+- Data Platform
+- Business Intelligence
+- Artificial Intelligence
+- MCP
 - agent-native
-- no-code
+- No-Code
 website: https://events.com/
 ---

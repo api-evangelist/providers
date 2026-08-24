@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A GraphQL API providing access to Product Hunt's platform data including daily product launches, votes, comments, maker profiles, topics, and collections. Supports OAuth 2.0 authentication with public
@@ -101,7 +101,7 @@ modified: '2026-06-13'
 name: Product Hunt
 nav: Providers
 network: true
-overview: 'Product Hunt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Product Discovery, GraphQL, Community, Products, and Startups.
+overview: 'Product Hunt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Product Discovery, GraphQL, Community, Product, and Startups.
 
 
   Product Hunt''s developer surface includes support and 11 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.6
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -127,10 +127,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 35.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 29.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/producthunt/refs/heads/main/screenshots/producthunt-2026-06-20T192141.png
 security:
 - kind: domain-security
@@ -142,7 +142,7 @@ tags:
 - Product Discovery
 - GraphQL
 - Community
-- Products
+- Product
 - Startups
 - Launches
 - Voting

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Zep Cloud API delivers agent memory and temporal knowledge graph services over REST. It exposes endpoints for users, sessions, messages, memory retrieval, the per-user graph, facts, summaries, and
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.8
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -127,9 +127,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 27.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/screenshots/zep-2026-06-20T201828.png
 security:

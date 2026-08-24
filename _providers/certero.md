@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: CerteroX ITAM is Certero's IT asset management module that discovers, inventories, and tracks hardware assets, network devices, and end-user computing across on-premises, cloud, and remote environment
@@ -193,7 +193,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.4
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -203,10 +203,10 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 20.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 15.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certero/refs/heads/main/screenshots/certero-2026-06-20T174144.png
 security:
 - kind: domain-security

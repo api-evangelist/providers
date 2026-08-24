@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -308,13 +308,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp.virtuoso.ai
-  slug: mcpvirtuosoai
+  name: Yardi MCP Server
+  slug: yardi-mcp-server
 modified: '2026-07-28'
 name: Yardi
 nav: Providers
 network: true
-overview: 'Yardi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Billing and Payments Interface, Common Data Interface, Job Cost Interface, and 2 more. Tagged areas include Accounting, Commercial Real Estate, Coworking, Investment Management, and MCP.
+overview: 'Yardi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Billing and Payments Interface, Common Data Interface, Job Cost Interface, and 2 more. Tagged areas include Accounting, Commercial Real Estate, Co-Working, Investment Management, and MCP.
 
 
   The Yardi catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -354,7 +354,7 @@ rules:
 score:
   band: thin
   composite: 35.4
-  delta: -8.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -364,7 +364,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 44.1
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -372,9 +372,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png
 security:
 - kind: authentication
@@ -389,13 +389,13 @@ slug: yardi
 tags:
 - Accounting
 - Commercial Real Estate
-- Coworking
+- Co-Working
 - Investment Management
 - MCP
 - Multifamily
 - Property Management
 - PropTech
-- Real Estate
+- Real-Estate
 - Residential
 - Self Storage
 - Senior Living

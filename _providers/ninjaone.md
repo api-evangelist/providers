@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 6
@@ -295,8 +295,8 @@ image: https://www.ninjaone.com/wp-content/uploads/2026/01/homepage-repositionin
 layout: provider
 mcp_servers:
 - description: ''
-  name: ninjaone-mcp.yml
-  slug: ninjaone-mcpyml
+  name: NinjaOne MCP Server
+  slug: ninjaone-mcp-server
 modified: '2026-07-20'
 name: NinjaOne
 nav: Providers
@@ -338,8 +338,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/screenshots/ninjaone-2026-08-07T185326.png
 security:

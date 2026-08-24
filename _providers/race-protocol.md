@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Developer guide and SDK/CLI surface for writing, publishing, and running WASM game bundles on the RACE Protocol multi-chain infrastructure.
@@ -74,7 +74,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.5
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -84,9 +84,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 10.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/race-protocol/refs/heads/main/screenshots/race-protocol-2026-06-20T192517.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ modified: '2026-04-28'
 name: KB Home
 nav: Providers
 network: true
-overview: 'KB Home is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Fortune 500, Homebuilder, Real Estate, and Residential.
+overview: 'KB Home is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Fortune 500, Homebuilder, Real-Estate, and Residential.
 
 
   KB Home''s developer surface includes product news, YouTube channel, and 13 more developer resources.'
@@ -135,8 +135,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kb-home/refs/heads/main/screenshots/kb-home-2026-06-20T183929.png
 security:
@@ -149,7 +149,7 @@ tags:
 - Construction
 - Fortune 500
 - Homebuilder
-- Real Estate
+- Real-Estate
 - Residential
 website: https://www.kbhome.com
 ---

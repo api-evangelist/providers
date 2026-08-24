@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public REST API for the StreetMetrics out-of-home advertising platform. 54 operations across campaigns, transit and stationary ad groups, assets and asset owners, frames, creatives, markets, media and
@@ -169,16 +169,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/streetmetr
 layout: provider
 mcp_servers:
 - description: ''
-  name: streetmetrics-mcp.yml
-  slug: streetmetrics-mcpyml
+  name: StreetMetrics Documentation MCP Server
+  slug: streetmetrics-documentation-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: StreetMetrics MCP Server
+  slug: streetmetrics-mcp-server
 modified: '2026-08-12'
 name: StreetMetrics
 nav: Providers
 network: true
-overview: 'StreetMetrics publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Advertising, Out-of-Home, Measurement, and Attribution.
+overview: 'StreetMetrics publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Advertising, Out-of-Home, Measurements, and Attribution.
 
 
   StreetMetrics'' developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, changelog, and 23 more developer resources.'
@@ -194,7 +194,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.6
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -204,7 +204,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 45.3
+  previous_composite: 37.6
   provenance:
     conformance: derived
     contracts:
@@ -214,9 +214,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/screenshots/streetmetrics-2026-08-17T082138.png
 security:
 - kind: authentication
@@ -232,7 +232,7 @@ tags:
 - Company
 - Advertising
 - Out-of-Home
-- Measurement
+- Measurements
 - Attribution
 - Analytics
 - Marketing

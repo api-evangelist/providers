@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -163,8 +163,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cobee.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cobee-mcp.yml
-  slug: cobee-mcpyml
+  name: Cobee by Pluxee MCP Server
+  slug: cobee-by-pluxee-mcp-server
 modified: '2026-07-18'
 name: Cobee by Pluxee
 nav: Providers
@@ -198,8 +198,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png
 security:

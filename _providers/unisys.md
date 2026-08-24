@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -206,18 +206,18 @@ rules:
   slug: unisys-stealth-spectral-rules
 score:
   band: emerging
-  composite: 21.3
-  delta: -6.0
+  composite: 21.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 26.0
     developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 27.3
+  previous_composite: 21.7
   provenance:
     agentic_access: derived
     contracts:
@@ -225,9 +225,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Unisys Authentication

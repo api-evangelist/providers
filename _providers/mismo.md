@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 12
 common:
@@ -121,7 +121,7 @@ modified: '2026-08-03'
 name: MISMO
 nav: Providers
 network: true
-overview: 'MISMO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Standards, Data Standard, Fannie Mae, Freddie Mac, and Financial Services.
+overview: 'MISMO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Standards, Data Standard, Fannie Mae, Freddie Mac, and Financial-Services.
 
 
   MISMO''s developer surface includes developer portal, documentation, product news, and 16 more developer resources.'
@@ -129,7 +129,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 8.8
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -145,9 +145,9 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 8.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mismo/refs/heads/main/screenshots/mismo-2026-08-07T183743.png
 slug: mismo
@@ -156,13 +156,13 @@ tags:
 - Data Standard
 - Fannie Mae
 - Freddie Mac
-- Financial Services
+- Financial-Services
 - GSE
 - Lending
 - MBA
 - MISMO
 - Mortgage
-- Real Estate
+- Real-Estate
 - Real Estate Finance
 - Reference Model
 - SMART Doc

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 1
@@ -335,7 +335,7 @@ modified: '2026-05-19'
 name: NetBird
 nav: Providers
 network: true
-overview: 'NetBird publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AWS Marketplace API, Checkout API, and 36 more. Tagged areas include Networking, VPN, Zero Trust, Open Source, and WireGuard.
+overview: 'NetBird publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AWS Marketplace API, Checkout API, and 36 more. Tagged areas include Networking, VPN, Zero Trust, Open-Source, and WireGuard.
 
 
   NetBird''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 6 more developer resources.'
@@ -351,7 +351,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.0
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -361,7 +361,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.9
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -369,8 +369,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbird/refs/heads/main/screenshots/netbird-2026-06-20T190148.png
 security:
@@ -387,7 +387,7 @@ tags:
 - Networking
 - VPN
 - Zero Trust
-- Open Source
+- Open-Source
 - WireGuard
 - Security
 website: https://netbird.io/

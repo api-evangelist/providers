@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing Sketch workspaces, members, and documents in the Sketch cloud collaboration platform. Supports Personal Access Token and OAuth 2.0 authentication with scopes for reading and writ
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.5
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -131,9 +131,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sketch/refs/heads/main/screenshots/sketch-2026-06-20T194008.png
 security:

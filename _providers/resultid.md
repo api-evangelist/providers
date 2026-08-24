@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,8 +146,8 @@ image: https://www.resultid.ai/images/logo-white.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: resultid-mcp.yml
-  slug: resultid-mcpyml
+  name: Resultid MCP Server
+  slug: resultid-mcp-server
 modified: '2026-08-14'
 name: Resultid
 nav: Providers
@@ -168,7 +168,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.8
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -178,7 +178,7 @@ score:
     discoverability: 77.8
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 37.1
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,8 +189,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

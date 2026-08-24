@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ modified: '2026-05-19'
 name: Veeva Systems
 nav: Providers
 network: true
-overview: 'Veeva Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, DirectData API, MDL API, and 2 more. Tagged areas include Healthcare, SaaS, and Life Sciences.
+overview: 'Veeva Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, DirectData API, MDL API, and 2 more. Tagged areas include Healthcare, Software-as-a-Service, and Life Sciences.
 
 
   Veeva Systems'' developer surface includes authentication and 5 more developer resources.'
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.6
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -141,7 +141,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 22.7
+  previous_composite: 22.6
   provenance:
     agentic_access: derived
     contracts:
@@ -155,8 +155,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/screenshots/veeva-systems-2026-06-20T200853.png
 security:
@@ -171,7 +171,7 @@ security:
 slug: veeva-systems
 tags:
 - Healthcare
-- SaaS
+- Software-as-a-Service
 - Life Sciences
 website: https://www.veeva.com
 ---

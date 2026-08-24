@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -160,7 +160,7 @@ modified: '2026-05-19'
 name: Microsoft Office Integration
 nav: Providers
 network: true
-overview: 'Microsoft Office Integration publishes 6 APIs on the [APIs.io](https://apis.io/) network, including CurrentStatus API, HistoricalStatus API, Messages API, and 3 more. Tagged areas include Microsoft 365, Microsoft Office Integration, and Office 365.
+overview: 'Microsoft Office Integration publishes 6 APIs on the [APIs.io](https://apis.io/) network, including CurrentStatus API, HistoricalStatus API, Messages API, and 3 more. Tagged areas include Microsoft-365, Microsoft Office Integration, and Office 365.
 
 
   The Microsoft Office Integration catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -190,7 +190,7 @@ rules:
 score:
   band: thin
   composite: 36.2
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -206,7 +206,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 42.6
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -214,9 +214,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/screenshots/microsoft-office-integration-2026-06-20T185512.png
 security:
 - kind: authentication
@@ -233,7 +233,7 @@ security:
   summary_line: security.txt · contact published
 slug: microsoft-office-integration
 tags:
-- Microsoft 365
+- Microsoft-365
 - Microsoft Office Integration
 - Office 365
 website: https://developer.microsoft.com/en-us/graph

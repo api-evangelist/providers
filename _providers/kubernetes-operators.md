@@ -25,7 +25,7 @@ random_paper: 16
 slug: kubernetes-operators
 tags:
 - Automation
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Infrastructure
 - Kubernetes

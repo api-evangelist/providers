@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -112,6 +112,10 @@ collections:
   name: Oracle Primavera P6 EPPM REST Activities WBS API
   slug: open-oracle-primavera-wbs-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -212,17 +216,17 @@ jsonld:
   property_count: 26
   slug: oracle-primavera-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Oracle Primavera
 nav: Providers
 network: true
-overview: 'Oracle Primavera publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Baselines API, Projects API, and 3 more. Tagged areas include Construction, Engineering, Project Management, Scheduling, and Portfolio Management.
+overview: 'Oracle Primavera publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Baselines API, Projects API, and 3 more. Tagged areas include Construction, Engineering, Project Management, Scheduling, and Portfolio-Management.
 
 
   The Oracle Primavera catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Primavera''s developer surface includes authentication, developer portal, documentation, changelog, getting-started guide, support, and 14 more developer resources.'
+  Oracle Primavera''s developer surface includes authentication, developer portal, documentation, changelog, getting-started guide, support, and 15 more developer resources.'
 plans:
 - name: Oracle Primavera Plans Pricing
   plan_count: 3
@@ -251,7 +255,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -261,7 +265,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 53.7
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -269,9 +273,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/screenshots/oracle-primavera-2026-06-20T191153.png
 security:
 - kind: authentication
@@ -288,7 +292,7 @@ tags:
 - Engineering
 - Project Management
 - Scheduling
-- Portfolio Management
+- Portfolio-Management
 - Oracle
 website: https://www.oracle.com/construction-engineering/primavera/
 ---

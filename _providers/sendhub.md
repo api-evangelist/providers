@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -211,8 +211,8 @@ image: https://www.sendhub.com/wp-content/uploads/2019/01/faviconsendhub-150x150
 layout: provider
 mcp_servers:
 - description: ''
-  name: sendhub-mcp.yml
-  slug: sendhub-mcpyml
+  name: SendHub MCP Server
+  slug: sendhub-mcp-server
 modified: '2026-08-13'
 name: SendHub
 nav: Providers
@@ -236,7 +236,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.3
-  delta: 8.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -246,7 +246,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 54.1
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,9 +263,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/screenshots/sendhub-2026-08-17T081802.png
 security:
 - kind: authentication
@@ -284,7 +284,7 @@ tags:
 - Text Messaging
 - Communications
 - Marketing
-- Webhooks
+- Webhook
 - VoIP
 website: https://sendhub.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-21'
 name: Tangelo
 nav: Providers
 network: true
-overview: 'Tangelo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Latin America, and LATAM.
+overview: 'Tangelo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial-Services, Latin America, and LatAm.
 
 
   Tangelo''s developer surface includes documentation and 6 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 12.0
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -86,9 +86,9 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 11.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -99,11 +99,10 @@ slug: tangelo
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Latin America
-- LATAM
+- LatAm
 - Developer Portal
-- API
 - Status Page
 website: https://www.tangelolatam.com/
 ---

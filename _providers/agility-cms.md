@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST and GraphQL APIs for fetching, syncing, and managing content from Agility CMS, with CDN delivery across global and regional endpoints.
@@ -96,7 +96,7 @@ modified: 2026-06-14
 name: Agility CMS
 nav: Providers
 network: true
-overview: 'Agility CMS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Headless CMS, Content Management, REST, and Multi-site.
+overview: 'Agility CMS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Headless CMS, Content Management, REST, and Multi-Site.
 
 
   Agility CMS''s developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 24.2
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -120,9 +120,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 25.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 24.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/screenshots/agility-cms-2026-06-20T170242.png
 security:
@@ -144,6 +144,6 @@ tags:
 - Headless CMS
 - Content Management
 - REST
-- Multi-site
+- Multi-Site
 website: https://agilitycms.com/
 ---

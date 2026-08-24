@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -252,16 +252,16 @@ image: https://www.caplight.com/assets/og/og-image-2026.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: caplight-mcp.yml
-  slug: caplight-mcpyml
+  name: Caplight MCP Server
+  slug: caplight-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Caplight MCP Server
+  slug: caplight-mcp-server-2
 modified: '2026-08-09'
 name: Caplight
 nav: Providers
 network: true
-overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Company API, Company Details API, and 13 more. Tagged areas include private-markets, secondary-market, market-data, venture-capital, and company-data.
+overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Company API, Company Details API, and 13 more. Tagged areas include Private Markets, Secondary Market, Market Data, Venture Capital, and Company Data.
 
 
   Caplight''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
@@ -269,7 +269,7 @@ random_paper: 4
 score:
   band: developing
   composite: 44.1
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -285,7 +285,7 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  previous_composite: 46.2
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,8 +302,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/screenshots/caplight-2026-08-17T080811.png
 security:
@@ -317,17 +317,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: caplight
 tags:
-- private-markets
-- secondary-market
-- market-data
-- venture-capital
-- company-data
+- Private Markets
+- Secondary Market
+- Market Data
+- Venture Capital
+- Company Data
 - investor-data
-- funding-rounds
-- pricing-data
-- financial-data
-- fintech
-- mcp
+- Funding Rounds
+- Pricing Data
+- Financial Data
+- Fintech
+- MCP
 - agent-native
 website: https://www.caplight.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ modified: '2026-05-08'
 name: DeepInfra
 nav: Providers
 network: true
-overview: 'DeepInfra publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 3 more. Tagged areas include AI, LLM, Inference, Serverless, and Open Source.
+overview: 'DeepInfra publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 3 more. Tagged areas include Artificial Intelligence, LLM, Inference, Serverless, and Open-Source.
 
 
   DeepInfra''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -164,7 +164,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.2
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -174,7 +174,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 30.0
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +182,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/screenshots/deepinfra-2026-06-20T175818.png
 security:
@@ -201,14 +201,14 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: deepinfra
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Serverless
-- Open Source
-- OpenAI Compatible
+- Open-Source
+- OpenAI-Compatible
 - Anthropic Compatible
-- Image Generation
+- Image-Generation
 - Audio
 - Embeddings
 website: https://deepinfra.com/

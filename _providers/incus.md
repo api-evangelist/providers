@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ modified: '2026-05-19'
 name: Incus
 nav: Providers
 network: true
-overview: 'Incus publishes 22 APIs on the [APIs.io](https://apis.io/) network, including certificates API, cluster API, cluster-groups API, and 19 more. Tagged areas include Containers, Virtual Machines, Virtualization, Linux, and Open Source.
+overview: 'Incus publishes 22 APIs on the [APIs.io](https://apis.io/) network, including certificates API, cluster API, cluster-groups API, and 19 more. Tagged areas include Containers, Virtual Machines, Virtualization, Linux, and Open-Source.
 
 
   The Incus catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -278,7 +278,7 @@ rules:
 score:
   band: thin
   composite: 32.6
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -288,7 +288,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 33.0
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -296,8 +296,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incus/refs/heads/main/screenshots/incus-2026-06-20T183310.png
 security:
@@ -311,6 +311,6 @@ tags:
 - Virtual Machines
 - Virtualization
 - Linux
-- Open Source
+- Open-Source
 website: https://linuxcontainers.org/incus/
 ---

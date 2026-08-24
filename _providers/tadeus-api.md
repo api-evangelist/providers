@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API to create interview templates and campaigns, invite participants singly or in bulk, create anonymous sessions, and retrieve transcripts, structured results, and cross-session AI insights. 47 '
@@ -156,9 +156,9 @@ description: 'Tadeus is an AI voice agent platform for workforce platforms: one 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tadeus-api.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: tadeus-api-mcp.yml
-  slug: tadeus-api-mcpyml
+- description: Tadeus publishes a first-party, hosted, remote MCP server that lets any MCP-compatible agent (Claude and others) commission real voice interview campaigns with people, monitor them, search the resulti
+  name: Tadeus MCP
+  slug: tadeus-mcp
 modified: '2026-08-11'
 name: Tadeus API
 nav: Providers
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -189,7 +189,7 @@ score:
     discoverability: 70.4
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 49.8
+  previous_composite: 49.4
   provenance:
     conformance: first-party
     contracts:
@@ -199,8 +199,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/screenshots/tadeus-api-2026-08-17T082242.png
 security:

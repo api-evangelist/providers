@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Ethereum-compatible JSON-RPC 2.0 API for the Aurora EVM network of virtual chains on NEAR. Exposes the standard eth_* method set over HTTPS (and WebSocket subscriptions) on public mainnet and testnet '
@@ -145,7 +145,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 24.3
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -155,11 +155,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 27.2
+  previous_composite: 24.3
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora/refs/heads/main/screenshots/aurora-2026-07-25T201745.png
 security:

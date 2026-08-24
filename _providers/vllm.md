@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ modified: '2026-05-08'
 name: vLLM
 nav: Providers
 network: true
-overview: 'vLLM publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 3 more. Tagged areas include LLM, Inference, Open Source, GPU, and OpenAI Compatible.
+overview: 'vLLM publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 3 more. Tagged areas include LLM, Inference, Open-Source, GPU, and OpenAI-Compatible.
 
 
   vLLM''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
@@ -164,7 +164,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -174,7 +174,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 27.8
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +182,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/screenshots/vllm-2026-06-20T201117.png
 security:
@@ -199,9 +199,9 @@ slug: vllm
 tags:
 - LLM
 - Inference
-- Open Source
+- Open-Source
 - GPU
-- OpenAI Compatible
+- OpenAI-Compatible
 - Self-Hosted
 website: https://docs.vllm.ai/
 ---

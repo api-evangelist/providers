@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Branded calling API to register outbound originating numbers, manage Connect phone numbers and managed brands, upload and manage brand logos, and read branded-phones cache and billing analytics so bus
@@ -150,7 +150,7 @@ random_paper: 7
 score:
   band: thin
   composite: 28.8
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -160,15 +160,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 28.1
+  previous_composite: 28.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiya/refs/heads/main/screenshots/hiya-2026-07-25T221307.png
 security:

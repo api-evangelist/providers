@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-07-03'
 name: Donorbox
 nav: Providers
 network: true
-overview: 'Donorbox publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Donations API, Donors API, and 4 more. Tagged areas include Nonprofit, Fundraising, Donations, Payments, and Recurring Giving.
+overview: 'Donorbox publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Donations API, Donors API, and 4 more. Tagged areas include Non-Profit, Fundraising, Donations, Payments, and Recurring Giving.
 
 
   Donorbox''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -181,7 +181,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 39.3
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/screenshots/donorbox-2026-07-25T212301.png
 security:
@@ -218,7 +218,7 @@ security:
   summary_line: SOC 2, PCI DSS, GDPR
 slug: donorbox
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
 - Payments

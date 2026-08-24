@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -200,14 +200,14 @@ description: Unblocked is an AI context engine for engineering teams that consol
 image: https://avatars.githubusercontent.com/u/91906527?s=300
 layout: provider
 mcp_servers:
-- description: ''
-  name: unblocked-mcp.yml
-  slug: unblocked-mcpyml
+- description: Unblocked ships an official MCP server. On macOS it is built and run by the Unblocked CLI (`unblocked mcp`, JSON-RPC over stdio), installed one-shot via `curl -fsSL https://getunblocked.com/install-mc
+  name: Unblocked MCP Server
+  slug: unblocked-mcp-server
 modified: '2026-07-21'
 name: Unblocked
 nav: Providers
 network: true
-overview: 'Unblocked publishes 3 APIs on the [APIs.io](https://apis.io/) network: Answers API, Collections API, and Documents API. Tagged areas include Company, Developer Tools, AI, Developer Experience, and Knowledge Management.
+overview: 'Unblocked publishes 3 APIs on the [APIs.io](https://apis.io/) network: Answers API, Collections API, and Documents API. Tagged areas include Company, Developer Tools, Artificial Intelligence, Developer Experience, and Knowledge-Management.
 
 
   Unblocked''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
@@ -215,7 +215,7 @@ random_paper: 6
 score:
   band: strong
   composite: 58.3
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 59.0
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,8 +236,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/screenshots/unblocked-2026-08-17T082549.png
 security:
@@ -257,9 +257,9 @@ slug: unblocked
 tags:
 - Company
 - Developer Tools
-- AI
+- Artificial Intelligence
 - Developer Experience
-- Knowledge Management
+- Knowledge-Management
 - Code Review
 - MCP
 - AI Agents

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the wanelo.com storefront: a Universal Commerce Protocol (UCP) MCP endpoint for search/cart/checkout, Shopify Customer Account OAuth/OIDC, and unauthenticated Shopify'
@@ -86,14 +86,14 @@ description: wanelo ("The intelligent everything store") is an AI-powered shoppi
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wanelo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: wanelo-mcp.yml
-  slug: wanelo-mcpyml
+- description: Wanelo's storefront exposes an agent-facing commerce MCP server via the Universal Commerce Protocol (UCP, ucp.dev). The store is built on Shopify; the MCP transport lets buyer agents search the catalo
+  name: wanelo MCP Server
+  slug: wanelo-mcp-server
 modified: '2026-07-21'
 name: wanelo
 nav: Providers
 network: true
-overview: 'wanelo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shopping, Ecommerce, Retail, and Commerce.
+overview: 'wanelo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shopping, E-Commerce, Retail, and Commerce.
 
 
   wanelo''s developer surface includes authentication and 10 more developer resources.'
@@ -105,23 +105,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.4
-  delta: -0.8
+  composite: 17.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 17.2
+  previous_composite: 17.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -136,12 +136,12 @@ slug: wanelo
 tags:
 - Company
 - Shopping
-- Ecommerce
+- E-Commerce
 - Retail
 - Commerce
 - Agent Commerce
 - MCP
 - Shopify
-- AI
+- Artificial Intelligence
 website: https://wanelo.com
 ---

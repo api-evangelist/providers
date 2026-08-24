@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Playlists that auto-play when Bridge starts
@@ -176,8 +176,8 @@ image: https://lookingglassfactory.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: looking-glass-mcp.yml
-  slug: looking-glass-mcpyml
+  name: Looking Glass MCP Server
+  slug: looking-glass-mcp-server
 modified: '2026-07-20'
 name: Looking Glass
 nav: Providers
@@ -210,8 +210,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/screenshots/looking-glass-2026-07-25T225514.png
 security:

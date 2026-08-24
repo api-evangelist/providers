@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Bnb Chain API from InfStones — 1 operation(s) for bnb chain.
@@ -142,8 +142,8 @@ image: https://infstones.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: infstones-mcp.yml
-  slug: infstones-mcpyml
+  name: InfStones MCP Server
+  slug: infstones-mcp-server
 modified: '2026-07-19'
 name: InfStones
 nav: Providers
@@ -156,7 +156,7 @@ random_paper: 19
 score:
   band: developing
   composite: 40.8
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -166,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 47.3
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     contracts:
@@ -176,9 +176,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/screenshots/infstones-2026-07-25T222427.png
 security:
 - kind: authentication
@@ -206,6 +206,5 @@ tags:
 - BNB Chain
 - Cosmos
 - Cryptocurrency
-- API
 website: https://infstones.com
 ---

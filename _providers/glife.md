@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GraphQL API backing the Glife food-tech commerce and supply-chain platform. Exposes 535 queries, 870 mutations, and 139 subscriptions across ecommerce (customers, products, categories, orders, article
@@ -103,8 +103,8 @@ image: https://glife.com.sg/img/seo/og/Home.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: glife-mcp.yml
-  slug: glife-mcpyml
+  name: Glife MCP Server
+  slug: glife-mcp-server
 modified: '2026-07-19'
 name: Glife
 nav: Providers
@@ -117,7 +117,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 23.8
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -127,11 +127,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 25.0
+  previous_composite: 23.8
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/screenshots/glife-2026-07-25T215902.png
 security:

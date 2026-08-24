@@ -18,20 +18,20 @@ agent_readiness:
     agent_skills: true
     agentic_access: derived
     auth_clarity: true
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: partial
-    rate_limit_signal: documented
+    openapi_examples: verified
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-19'
+  score: 62.0
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -371,6 +371,22 @@ common:
   title: ''
   type: RateLimits
   url: https://apis.io/developer/rate-limits
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://apis.io/developer/deprecation
+- group: auth
+  title: ''
+  type: Security
+  url: https://apis.io/developer/security
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://apis.io/.well-known/security.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: https://apis.io/developer/security
 created: '2026-03-26'
 description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Postman collections, JSON Schema, JSON-LD contexts, Spectral rulesets, vocabularies, OAuth scopes, plans, rate limits and FinOps profiles — and lets developers and agents search that catalog by keyword, capability, tag, industry, region, artifact type and quality band. As of August 2026 the network published roughly 26,414 providers, 109,100 APIs and 120,595 schemas across 71 industries and 77 curated areas. Every provider is scored with the Kin Score, a 0–100 composite across six weighted facets plus a standalone agent-readiness score. The same read-only OpenAPI 3.1 contract powers three surfaces — a REST API at https://apis.io/api/v1, a Streamable-HTTP MCP server at https://apis.io/mcp,
   and a set of published Agent Skills — alongside an RFC 9727 api-catalog linkset, an llms.txt and an APIs.json self-description. It is maintained by API Evangelist and serves both API producers submitting profiles and API consumers discovering APIs.
@@ -535,8 +551,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: APIs.io MCP Server
+  slug: apisio-mcp-server
 modified: '2026-08-10'
 name: APIs.io
 nav: Providers
@@ -547,14 +563,14 @@ overview: 'APIs.io publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The APIs.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, sandbox, and 46 more developer resources.'
+  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, sandbox, and 50 more developer resources.'
 plans:
 - name: Apis Io Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: apis-io-plans-pricing
 random_paper: 18
 rate_limits:
-- limit_count: 5
+- limit_count: 8
   name: Apis Io Rate Limits
   slug: apis-io-rate-limits
 rules:
@@ -580,19 +596,19 @@ rules:
     warn: 23
   slug: apis-io-spectral-rules
 score:
-  band: strong
-  composite: 63.9
-  delta: -7.2
+  band: exemplar
+  composite: 76.7
+  delta: 0.0
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
-    contract_governance: 41.7
-    contract_quality: 73.0
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 45.5
+    contract_quality: 76.7
     developer_ergonomics: 71.4
-    discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 47.4
-  previous_composite: 71.1
+    discoverability: 92.6
+    governance: 45.5
+    operational_transparency: 89.5
+  previous_composite: 76.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -603,9 +619,9 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-06-20T172253.png
 security:
 - kind: authentication
@@ -625,7 +641,7 @@ tags:
 - API Rating
 - API Search
 - APIs.json
-- Search Engine
+- Search Engines
 - API Catalog
 - Agent Discovery
 - MCP

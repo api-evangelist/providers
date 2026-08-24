@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -247,9 +247,9 @@ description: Sadq (صادق) is a Saudi Arabian electronic-signature and digital
 image: https://sadq.sa/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: sadq-holding-limited-mcp.yml
-  slug: sadq-holding-limited-mcpyml
+- description: MCP server exposing the Sadq e-signature platform API. Supports creating envelopes, managing signatories, sending documents for signature, querying webhook logs, and more.
+  name: Sadq Holding Limited MCP Server
+  slug: sadq-holding-limited-mcp-server
 modified: '2026-07-21'
 name: Sadq Holding Limited
 nav: Providers
@@ -270,7 +270,7 @@ scopes:
 score:
   band: developing
   composite: 40.2
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -280,7 +280,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 48.1
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,9 +291,9 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/screenshots/sadq-holding-limited-2026-08-17T081705.png
 security:
 - kind: authentication
@@ -311,10 +311,10 @@ tags:
 - Digital Signature
 - Identity
 - KYB
-- Document Management
+- Document-Management
 - Saudi Arabia
 - Nafath
-- Webhooks
+- Webhook
 - Agent Ready
 website: https://sadq.sa
 ---

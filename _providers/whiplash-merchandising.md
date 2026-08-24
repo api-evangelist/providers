@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: Bundle Items are components that make up a bundle, defining the quantity and relationship of items within product bundles.
@@ -282,13 +282,13 @@ image: https://wl-s3-assets.s3.amazonaws.com/rydership/RyderShip-horizontal-safe
 layout: provider
 mcp_servers:
 - description: ''
-  name: whiplash-merchandising-mcp.yml
-  slug: whiplash-merchandising-mcpyml
+  name: Whiplash Merchandising MCP Server
+  slug: whiplash-merchandising-mcp-server
 modified: '2026-07-21'
 name: Whiplash Merchandising
 nav: Providers
 network: true
-overview: 'Whiplash Merchandising publishes 21 APIs on the [APIs.io](https://apis.io/) network, including bundle_items API, consumer_returns API, customers API, and 18 more. Tagged areas include Company, Fulfillment, Logistics, Ecommerce, and Shipping.
+overview: 'Whiplash Merchandising publishes 21 APIs on the [APIs.io](https://apis.io/) network, including bundle_items API, consumer_returns API, customers API, and 18 more. Tagged areas include Company, Fulfillment, Logistics, E-Commerce, and Shipping.
 
 
   The Whiplash Merchandising catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -298,18 +298,18 @@ overview: 'Whiplash Merchandising publishes 21 APIs on the [APIs.io](https://api
 random_paper: 13
 score:
   band: developing
-  composite: 44.5
-  delta: -1.5
+  composite: 45.6
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 16.7
     contract_quality: 64.4
     developer_ergonomics: 51.8
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 46.0
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -319,8 +319,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/screenshots/whiplash-merchandising-2026-08-17T082956.png
 security:
@@ -337,7 +337,7 @@ tags:
 - Company
 - Fulfillment
 - Logistics
-- Ecommerce
+- E-Commerce
 - Shipping
 - Warehousing
 - Inventory

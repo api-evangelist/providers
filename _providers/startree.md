@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -172,9 +172,9 @@ description: StarTree is a real-time analytics platform built on Apache Pinot, t
 image: https://startree.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: startree-mcp.yml
-  slug: startree-mcpyml
+- description: Official StarTree MCP server for Apache Pinot. Lets an agent list tables, segments, and schema info and execute read-only SQL queries against a Pinot / StarTree Cloud cluster.
+  name: StarTree MCP Server
+  slug: startree-mcp-server
 modified: '2026-07-21'
 name: StarTree
 nav: Providers
@@ -187,7 +187,7 @@ random_paper: 13
 score:
   band: developing
   composite: 51.1
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -197,7 +197,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 55.1
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -208,8 +208,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/screenshots/startree-2026-08-17T082113.png
 security:

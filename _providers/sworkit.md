@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-21'
 name: Sworkit
 nav: Providers
 network: true
-overview: 'Sworkit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Health & Wellness, Employee Wellbeing, and Workouts.
+overview: 'Sworkit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Health and Wellness, Employee Wellbeing, and Workouts.
 
 
   Sworkit''s developer surface includes documentation, support, engineering blog, pricing, and 13 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 18.0
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -126,15 +126,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 22.3
+  previous_composite: 18.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 18.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -149,12 +149,12 @@ slug: sworkit
 tags:
 - Company
 - Fitness
-- Health & Wellness
+- Health and Wellness
 - Employee Wellbeing
 - Workouts
 - Mindfulness
 - Nutrition
 - Embeddable Components
-- SDKs
+- SDK
 website: https://sworkit.com/
 ---

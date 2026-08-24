@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -200,8 +200,8 @@ image: https://www.corridor.dev/icon.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: corridor-mcp.yml
-  slug: corridor-mcpyml
+  name: Corridor MCP Server
+  slug: corridor-mcp-server
 modified: '2026-07-18'
 name: Corridor
 nav: Providers
@@ -213,18 +213,18 @@ overview: 'Corridor publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 7
 score:
   band: developing
-  composite: 46.9
-  delta: -7.2
+  composite: 48.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
     contract_quality: 55.2
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 54.1
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,9 +235,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/screenshots/corridor-2026-07-25T210442.png
 security:
 - kind: authentication

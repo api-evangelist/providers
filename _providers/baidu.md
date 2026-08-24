@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: OpenAI-compatible LLM / Model-as-a-Service API hosting the ERNIE family and select open models (DeepSeek, GLM, etc.) via chat completions and embeddings.
@@ -94,13 +94,13 @@ image: https://www.baidu.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: baidu-mcp.yml
-  slug: baidu-mcpyml
+  name: Baidu MCP Server
+  slug: baidu-mcp-server
 modified: '2026-07-18'
 name: Baidu
 nav: Providers
 network: true
-overview: 'Baidu publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Artificial Intelligence, Machine Learning, and LLM.
+overview: 'Baidu publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Artificial Intelligence, Machine-Learning, and LLM.
 
 
   Baidu''s developer surface includes documentation, API reference, signup flow, authentication, and 8 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 19.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -118,11 +118,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.9
+  previous_composite: 19.6
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baidu/refs/heads/main/screenshots/baidu-2026-07-25T202358.png
 security:
@@ -139,7 +139,7 @@ tags:
 - Company
 - Technology
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Maps
 - Geolocation

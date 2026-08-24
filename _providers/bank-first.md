@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -193,8 +193,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-first
 layout: provider
 mcp_servers:
 - description: ''
-  name: bank-first-mcp.yml
-  slug: bank-first-mcpyml
+  name: Bank First MCP Server
+  slug: bank-first-mcp-server
 modified: '2026-07-21'
 name: Bank First
 nav: Providers
@@ -212,7 +212,7 @@ scopes:
 score:
   band: developing
   composite: 48.1
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 42.9
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,9 +239,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/screenshots/bank-first-2026-07-21T114722.png
 security:
 - kind: authentication

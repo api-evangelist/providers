@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for requesting a consenting user's genetic trait reports from Genomelink. A report is fetched by trait name and population (for example GET /v1/reports/eye-color/?population=europea
@@ -139,8 +139,8 @@ image: https://genomelink.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: awakens-mcp.yml
-  slug: awakens-mcpyml
+  name: AWAKENS MCP Server
+  slug: awakens-mcp-server
 modified: '2026-07-18'
 name: AWAKENS
 nav: Providers
@@ -158,7 +158,7 @@ scopes:
 score:
   band: thin
   composite: 29.3
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -168,7 +168,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 28.3
+  previous_composite: 29.3
   provenance:
     conformance: derived
     mcp: derived
@@ -179,8 +179,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/screenshots/awakens-2026-07-25T202019.png
 security:
@@ -201,7 +201,7 @@ tags:
 - Health
 - Consumer Genetics
 - Ancestry
-- OAuth
+- Authentication
 - Personal Genomics
 website: https://genomelink.io
 ---

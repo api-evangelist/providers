@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Uptake's customer-provisioned REST API. The gateway is live at api.uptake.com (AWS API Gateway behind Cloudflare) and answers every anonymous request with HTTP 403 ForbiddenException; a sibling gatewa
@@ -122,7 +122,7 @@ scopes:
 score:
   band: emerging
   composite: 15.3
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 11.8
     commercial_clarity: 11.8
@@ -132,11 +132,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 20.1
+  previous_composite: 15.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -155,7 +155,7 @@ tags:
 - Asset Performance Management
 - Fleet Management
 - Telematics
-- Machine Learning
+- Machine-Learning
 - Industrial IoT
 website: https://uptake.com/
 ---

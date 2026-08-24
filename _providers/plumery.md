@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Plumery
 nav: Providers
 network: true
-overview: 'Plumery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Digital Banking, and Financial Services.
+overview: 'Plumery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Digital Banking, and Financial-Services.
 
 
   Plumery''s developer surface includes documentation and 6 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 7.8
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -86,15 +86,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.6
+  previous_composite: 7.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -111,7 +111,7 @@ tags:
 - Fintech
 - Banking
 - Digital Banking
-- Financial Services
+- Financial-Services
 - Mobile Banking
 - Platform
 - Netherlands

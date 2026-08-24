@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: 'Account-scoped data: profile, images, albums, favorites, settings, notifications.'
@@ -282,7 +282,7 @@ modified: '2026-05-30'
 name: Imgur
 nav: Providers
 network: true
-overview: 'Imgur publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Album API, Auth API, and 7 more. Tagged areas include Photography, Images, Image Hosting, Albums, and Gallery.
+overview: 'Imgur publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Album API, Auth API, and 7 more. Tagged areas include Photography, Image, Image Hosting, Albums, and Gallery.
 
 
   The Imgur catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -322,27 +322,27 @@ rules:
   slug: imgur-rules
 score:
   band: developing
-  composite: 52.7
-  delta: -5.0
+  composite: 53.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.8
     developer_ergonomics: 42.9
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 57.7
+  previous_composite: 53.2
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
 security:
 - kind: domain-security
@@ -359,7 +359,7 @@ solutions:
   name: RapidAPI Commercial Tiers
 tags:
 - Photography
-- Images
+- Image
 - Image Hosting
 - Albums
 - Gallery

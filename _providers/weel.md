@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -141,8 +141,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: weel-mcp.yml
-  slug: weel-mcpyml
+  name: Weel MCP Server
+  slug: weel-mcp-server
 modified: '2026-07-24'
 name: Weel
 nav: Providers
@@ -155,7 +155,7 @@ random_paper: 9
 score:
   band: strong
   composite: 56.1
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -165,7 +165,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 51.5
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -182,8 +182,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/screenshots/weel-2026-08-17T082857.png
 security:
@@ -212,7 +212,7 @@ tags:
 - Corporate Cards
 - Accounts Payable
 - Card Issuing
-- Reimbursements
+- Reimbursement
 - Budgets
 - Fintech
 website: https://letsweel.com/

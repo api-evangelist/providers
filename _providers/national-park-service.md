@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-05-19'
 name: National Park Service
 nav: Providers
 network: true
-overview: 'National Park Service publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Alerts API, Articles API, and 8 more. Tagged areas include Conservation, Federal Government, and Parks.
+overview: 'National Park Service publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Alerts API, Articles API, and 8 more. Tagged areas include Conservation, Federal-Government, and Parks.
 
 
   National Park Service''s developer surface includes authentication, developer portal, and 5 more developer resources.'
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -181,7 +181,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 27.3
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-park-service/refs/heads/main/screenshots/national-park-service-2026-06-20T190036.png
 security:
@@ -211,7 +211,7 @@ security:
 slug: national-park-service
 tags:
 - Conservation
-- Federal Government
+- Federal-Government
 - Parks
 website: https://www.nps.gov/
 ---

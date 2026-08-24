@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -436,13 +436,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-ses-mcp.yml
-  slug: amazon-ses-mcpyml
+  name: Amazon SES MCP Server
+  slug: amazon-ses-mcp-server
 modified: '2026-08-13'
 name: Amazon SES
 nav: Providers
 network: true
-overview: 'Amazon SES publishes 5 APIs on the [APIs.io](https://apis.io/) network, including v2 API, Contact Lists API, Email Sending API, and 2 more. Tagged areas include Email, Email Deliverability, Email Service, Marketing Email, and Notifications.
+overview: 'Amazon SES publishes 5 APIs on the [APIs.io](https://apis.io/) network, including v2 API, Contact Lists API, Email Sending API, and 2 more. Tagged areas include Email, Email Deliverability, Email Service, Marketing Email, and Notification.
 
 
   The Amazon SES catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -482,18 +482,18 @@ rules:
   slug: amazon-ses-spectral-rules
 score:
   band: exemplar
-  composite: 77.9
-  delta: 2.3
+  composite: 79.4
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 63.5
     developer_ergonomics: 90.5
-    discoverability: 63.0
-    governance: 55.3
+    discoverability: 74.1
+    governance: 59.1
     operational_transparency: 84.2
-  previous_composite: 75.6
+  previous_composite: 79.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -504,8 +504,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png
 security:
@@ -537,7 +537,7 @@ tags:
 - Email Deliverability
 - Email Service
 - Marketing Email
-- Notifications
+- Notification
 - SMTP
 - Transactional Email
 - Bulk Email

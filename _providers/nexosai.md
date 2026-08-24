@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -239,13 +239,13 @@ image: https://nexos.ai/
 layout: provider
 mcp_servers:
 - description: ''
-  name: nexosai-mcp.yml
-  slug: nexosai-mcpyml
+  name: nexos.ai MCP Server
+  slug: nexosai-mcp-server
 modified: '2026-07-20'
 name: nexos.ai
 nav: Providers
 network: true
-overview: 'nexos.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Agent Management API, Assistant Management API, Audio API, and 13 more. Tagged areas include Company, Artificial Intelligence, LLM, AI Gateway, and Machine Learning.
+overview: 'nexos.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Agent Management API, Assistant Management API, Audio API, and 13 more. Tagged areas include Company, Artificial Intelligence, LLM, AI Gateway, and Machine-Learning.
 
 
   nexos.ai''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 18 more developer resources.'
@@ -253,7 +253,7 @@ random_paper: 3
 score:
   band: developing
   composite: 39.9
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -263,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 39.7
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,8 +274,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/screenshots/nexosai-2026-08-07T185156.png
 security:
@@ -297,10 +297,10 @@ tags:
 - Artificial Intelligence
 - LLM
 - AI Gateway
-- Machine Learning
+- Machine-Learning
 - Embeddings
 - Agents
 - Developer Tools
-- OpenAI Compatible
+- OpenAI-Compatible
 website: https://nexos.ai/
 ---

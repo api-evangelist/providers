@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -294,18 +294,18 @@ rules:
   slug: amazon-keyspaces-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: -6.0
+  composite: 61.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.2
     developer_ergonomics: 73.8
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 67.3
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     contracts:
@@ -313,9 +313,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/screenshots/amazon-keyspaces-2026-06-20T171716.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ modified: '2026-08-13'
 name: Factiva
 nav: Providers
 network: true
-overview: 'Factiva publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Snapshots API, Streams API, Extractions API, and 6 more. Tagged areas include AI, Business Intelligence, Content Aggregation, Enterprise Data, and GenAI.
+overview: 'Factiva publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Snapshots API, Streams API, Extractions API, and 6 more. Tagged areas include Artificial Intelligence, Business Intelligence, Content Aggregation, Enterprise Data, and GenAI.
 
 
   The Factiva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -294,7 +294,7 @@ scopes:
 score:
   band: strong
   composite: 63.0
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -304,7 +304,7 @@ score:
     discoverability: 100.0
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 61.6
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,8 +316,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 86.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/screenshots/factiva-2026-06-20T181007.png
 security:
@@ -339,7 +339,7 @@ security:
   summary_line: ISO/IEC 27001, ISAE 3000
 slug: factiva
 tags:
-- AI
+- Artificial Intelligence
 - Business Intelligence
 - Content Aggregation
 - Enterprise Data

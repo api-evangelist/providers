@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Fox Factory Holding API provides access to platform services and data for enterprise integration and automation.
@@ -61,7 +61,7 @@ modified: '2026-04-19'
 name: Fox Factory Holding
 nav: Providers
 network: true
-overview: Fox Factory Holding publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Suspension, Cycling, and Powersports.
+overview: Fox Factory Holding publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Suspension, Cycling, and Power-Sports.
 plans:
 - name: Fox Factory Holding Plans Pricing
   plan_count: 1
@@ -73,7 +73,7 @@ rate_limits:
   slug: fox-factory-holding-rate-limits
 score:
   band: minimal
-  composite: 9.3
+  composite: 7.6
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -84,9 +84,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 8.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/screenshots/fox-factory-holding-2026-06-20T181504.png
 security:
@@ -98,6 +104,6 @@ slug: fox-factory-holding
 tags:
 - Suspension
 - Cycling
-- Powersports
+- Power-Sports
 website: https://www.foxfactory.com
 ---

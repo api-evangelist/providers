@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -243,7 +243,7 @@ modified: '2026-05-19'
 name: Crossplane
 nav: Providers
 network: true
-overview: 'Crossplane publishes 7 APIs on the [APIs.io](https://apis.io/) network, including CompositeResourceDefinitions API, Compositions API, Configurations API, and 4 more. Tagged areas include Apache 2.0, CNCF, Cloud Native, Composition, and Control Plane.
+overview: 'Crossplane publishes 7 APIs on the [APIs.io](https://apis.io/) network, including CompositeResourceDefinitions API, Compositions API, Configurations API, and 4 more. Tagged areas include Apache 2.0, CNCF, Cloud-Native, Composition, and Control Plane.
 
 
   The Crossplane catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -283,18 +283,18 @@ rules:
   slug: crossplane-kubernetes-api-rules
 score:
   band: developing
-  composite: 46.1
-  delta: -7.0
+  composite: 46.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 78.4
     developer_ergonomics: 40.5
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 53.1
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -302,9 +302,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/screenshots/crossplane-2026-08-17T082555.png
 security:
 - kind: authentication
@@ -319,7 +319,7 @@ slug: crossplane
 tags:
 - Apache 2.0
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Composition
 - Control Plane
 - Custom Resource Definitions
@@ -327,7 +327,7 @@ tags:
 - Infrastructure as Code
 - Kubernetes
 - Multi-Cloud
-- Open Source
+- Open-Source
 - Platform Engineering
 - Providers
 website: https://www.crossplane.io/

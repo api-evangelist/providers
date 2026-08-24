@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Beauty Pie Shopify storefront: read-only product and collection JSON, a Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, checkout and fulf'
@@ -99,8 +99,8 @@ image: https://cdn.shopify.com/s/files/1/0732/6475/8967/files/beauty_pie_7fab5e8
 layout: provider
 mcp_servers:
 - description: ''
-  name: beauty-pie-mcp.yml
-  slug: beauty-pie-mcpyml
+  name: Beauty Pie MCP Server
+  slug: beauty-pie-mcp-server
 modified: '2026-08-08'
 name: Beauty Pie
 nav: Providers
@@ -117,22 +117,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 18.2
-  delta: -1.5
+  composite: 19.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.7
+  previous_composite: 19.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beauty-pie/refs/heads/main/screenshots/beauty-pie-2026-08-07T162246.png
 security:

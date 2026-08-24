@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Relay-compliant GraphQL API for the Asset Register — a metadata ledger that defines what an asset is, what it can do, and which environments it works in, across chains and for off-chain assets. 29 que
@@ -161,16 +161,16 @@ image: https://mintlify.s3.us-west-1.amazonaws.com/therootnetwork/images/trn-her
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Futureverse MCP Server
+  slug: futureverse-mcp-server
 - description: ''
-  name: futureverse-mcp.yml
-  slug: futureverse-mcpyml
+  name: The Root Network
+  slug: the-root-network
 modified: '2026-08-16'
 name: Futureverse
 nav: Providers
 network: true
-overview: 'Futureverse publishes 1 API on the [APIs.io](https://apis.io/) network: RootRewards Quest API. Tagged areas include blockchain, web3, metaverse, digital-assets, and nft.
+overview: 'Futureverse publishes 1 API on the [APIs.io](https://apis.io/) network: RootRewards Quest API. Tagged areas include Blockchain, Web3, Metaverse, Digital Assets, and NFT.
 
 
   The Futureverse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -194,7 +194,7 @@ scopes:
 score:
   band: thin
   composite: 32.0
-  delta: -11.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -204,7 +204,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 43.7
+  previous_composite: 32.0
   provenance:
     conformance: derived
     contracts:
@@ -214,9 +214,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/screenshots/futureverse-2026-08-17T080945.png
 security:
 - kind: authentication
@@ -229,19 +229,19 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: futureverse
 tags:
-- blockchain
-- web3
-- metaverse
-- digital-assets
-- nft
-- graphql
-- identity
-- openid-connect
+- Blockchain
+- Web3
+- Metaverse
+- Digital Assets
+- NFT
+- GraphQL
+- Identity
+- OpenID Connect
 - asset-registry
-- layer-1
-- evm
-- gaming
+- Layer 1
+- EVM
+- Gaming
 - agent-native
-- mcp
+- MCP
 website: https://www.futureverse.com/
 ---

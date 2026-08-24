@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Yubico OTP validation operations.
@@ -182,8 +182,8 @@ image: https://www.yubico.com/wp-content/uploads/2021/02/Yubico-Logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: yubico-mcp.yml
-  slug: yubico-mcpyml
+  name: Yubico MCP Server
+  slug: yubico-mcp-server
 modified: '2026-07-21'
 name: Yubico
 nav: Providers
@@ -195,18 +195,18 @@ overview: 'Yubico publishes 1 API on the [APIs.io](https://apis.io/) network: Va
 random_paper: 0
 score:
   band: strong
-  composite: 56.9
-  delta: 0.7
+  composite: 58.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 56.6
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 56.2
+  previous_composite: 58.0
   provenance:
     conformance: first-party
     contracts:
@@ -216,8 +216,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/screenshots/yubico-2026-08-17T083021.png
 security:

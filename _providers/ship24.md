@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -235,18 +235,18 @@ rules:
   slug: ship24-rules
 score:
   band: thin
-  composite: 38.1
-  delta: -15.1
+  composite: 38.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 71.8
     developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 2.6
-  previous_composite: 53.2
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -254,9 +254,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/screenshots/ship24-2026-06-20T193813.png
 security:
 - kind: authentication
@@ -274,8 +274,8 @@ tags:
 - Shipping
 - Couriers
 - Parcels
-- Webhooks
-- Ecommerce
-- PostPurchase
+- Webhook
+- E-Commerce
+- Post-Purchase
 website: https://www.ship24.com
 ---

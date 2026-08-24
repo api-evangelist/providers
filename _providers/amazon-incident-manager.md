@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -1511,7 +1511,7 @@ modified: '2026-05-19'
 name: Amazon Incident Manager
 nav: Providers
 network: true
-overview: 'Amazon Incident Manager publishes 27 APIs on the [APIs.io](https://apis.io/) network, including CreateReplicationSet API, CreateResponsePlan API, CreateTimelineEvent API, and 24 more. Tagged areas include Automation, DevOps, Incident Management, and Operations.
+overview: 'Amazon Incident Manager publishes 27 APIs on the [APIs.io](https://apis.io/) network, including CreateReplicationSet API, CreateResponsePlan API, CreateTimelineEvent API, and 24 more. Tagged areas include Automation, DevOps, and Incident Management.
 
 
   The Amazon Incident Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1551,18 +1551,18 @@ rules:
   slug: amazon-incident-manager-spectral-rules
 score:
   band: developing
-  composite: 49.5
-  delta: -7.1
+  composite: 50.0
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.3
     developer_ergonomics: 47.6
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 56.6
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1570,9 +1570,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/screenshots/amazon-incident-manager-2026-06-20T171704.png
 security:
 - kind: authentication
@@ -1596,7 +1596,6 @@ tags:
 - Automation
 - DevOps
 - Incident Management
-- Operations
 use_cases:
 - description: Define escalation policies and on-call schedules to ensure the right responders are engaged.
   name: On-Call Management

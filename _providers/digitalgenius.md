@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HTTP API and flow-execution surface for DigitalGenius AI agents, including generic DG API calls, flow execution, JSON handling, and the hosted MCP server. Region-scoped EU/US hosts, HTTP Basic (encode
@@ -135,13 +135,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digitalgen
 layout: provider
 mcp_servers:
 - description: ''
-  name: digitalgenius-mcp.yml
-  slug: digitalgenius-mcpyml
+  name: DigitalGenius MCP Server
+  slug: digitalgenius-mcp-server
 modified: '2026-07-18'
 name: DigitalGenius
 nav: Providers
 network: true
-overview: 'DigitalGenius publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Ecommerce, Artificial Intelligence, and AI Agents.
+overview: 'DigitalGenius publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, E-Commerce, Artificial Intelligence, and AI Agents.
 
 
   The DigitalGenius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -152,7 +152,7 @@ random_paper: 20
 score:
   band: thin
   composite: 38.8
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -162,12 +162,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 45.7
+  previous_composite: 38.8
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/screenshots/digitalgenius-2026-07-25T212022.png
 security:
 - kind: authentication
@@ -186,7 +186,7 @@ slug: digitalgenius
 tags:
 - Company
 - Customer Service
-- Ecommerce
+- E-Commerce
 - Artificial Intelligence
 - AI Agents
 - Conversational AI

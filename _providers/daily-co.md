@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 4
@@ -229,7 +229,7 @@ modified: '2026-05-08'
 name: Daily
 nav: Providers
 network: true
-overview: 'Daily publishes 13 APIs on the [APIs.io](https://apis.io/) network, including CallTransfer API, DialIn API, DialOut API, and 10 more. Tagged areas include Realtime, WebRTC, Video, Audio, and SDK.
+overview: 'Daily publishes 13 APIs on the [APIs.io](https://apis.io/) network, including CallTransfer API, DialIn API, DialOut API, and 10 more. Tagged areas include Real-Time, WebRTC, Video, Audio, and SDK.
 
 
   The Daily catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -248,7 +248,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.9
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -258,7 +258,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 41.6
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -266,8 +266,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/screenshots/daily-co-2026-06-20T175440.png
 security:
@@ -285,7 +285,7 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: daily-co
 tags:
-- Realtime
+- Real-Time
 - WebRTC
 - Video
 - Audio

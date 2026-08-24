@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ modified: '2026-08-08'
 name: Slang Ai
 nav: Providers
 network: true
-overview: 'Slang Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice AI, Restaurants, Conversational AI, and Reservations.
+overview: 'Slang Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice AI, Restaurant, Conversational AI, and Reservations.
 
 
   Slang Ai''s developer surface includes pricing, engineering blog, support, signup flow, and 10 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 16.6
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -114,9 +114,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -131,7 +131,7 @@ slug: slang-ai
 tags:
 - Company
 - Voice AI
-- Restaurants
+- Restaurant
 - Conversational AI
 - Reservations
 - Phone

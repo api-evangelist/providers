@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ modified: '2026-05-19'
 name: Sandbox Banking
 nav: Providers
 network: true
-overview: 'Sandbox Banking publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Field Mappings API, Integrations API, and 3 more. Tagged areas include API Integration, Banking, Core Banking, Credit Unions, and Financial Services.
+overview: 'Sandbox Banking publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Field Mappings API, Integrations API, and 3 more. Tagged areas include API Integration, Banking, Core Banking, Credit Unions, and Financial-Services.
 
 
   The Sandbox Banking catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -224,18 +224,18 @@ rules:
   slug: sandbox-banking-rules
 score:
   band: thin
-  composite: 34.9
-  delta: -3.3
+  composite: 35.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 67.5
     developer_ergonomics: 21.4
     discoverability: 79.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 38.2
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -249,8 +249,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/screenshots/sandbox-banking-2026-06-20T193408.png
 security:
@@ -268,7 +268,7 @@ tags:
 - Banking
 - Core Banking
 - Credit Unions
-- Financial Services
+- Financial-Services
 - Fintech
 - Integration Platform
 - iPaaS

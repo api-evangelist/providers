@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.5
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -186,7 +186,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.8
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +200,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/screenshots/canvas-2026-06-20T173929.png
 security:
@@ -229,7 +229,7 @@ tags:
 - Learning Management System
 - LMS
 - LTI
-- Open Source
+- Open-Source
 - REST
 website: https://www.instructure.com/canvas
 ---

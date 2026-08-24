@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: A hosted REST API that generates ready-to-broadcast calldata for every Pendle protocol action — swap (including tokens-to-PT, PT-to-tokens, YT swaps), add and remove liquidity, ZPI (zero-price-impact)
@@ -219,7 +219,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 23.9
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -229,9 +229,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 24.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendle-finance/refs/heads/main/screenshots/pendle-finance-2026-06-20T191634.png
 security:
@@ -254,7 +254,7 @@ tags:
 - AMM
 - Fixed Yield
 - Perpetual Yield
-- vePENDLE
+- Ve Pendle
 - Boros
 - EVM
 use_cases:

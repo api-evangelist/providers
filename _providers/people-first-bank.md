@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,8 +181,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/people-fir
 layout: provider
 mcp_servers:
 - description: ''
-  name: people-first-bank-mcp.yml
-  slug: people-first-bank-mcpyml
+  name: People First Bank MCP Server
+  slug: people-first-bank-mcp-server
 modified: '2026-07-21'
 name: People First Bank
 nav: Providers
@@ -195,7 +195,7 @@ random_paper: 19
 score:
   band: thin
   composite: 39.0
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 37.0
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +222,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/screenshots/people-first-bank-2026-07-21T114746.png
 security:

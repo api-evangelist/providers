@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -353,9 +353,9 @@ finops:
 image: https://puzzle.io/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: puzzle-mcp.yml
-  slug: puzzle-mcpyml
+- description: Puzzle publishes a read-only Model Context Protocol (MCP) server that connects AI tools to a company's real-time general ledger for natural-language financial analysis and reporting. Because third-par
+  name: Puzzle MCP Server
+  slug: puzzle-mcp-server
 modified: '2026-08-08'
 name: Puzzle
 nav: Providers
@@ -381,7 +381,7 @@ scopes:
 score:
   band: developing
   composite: 48.7
-  delta: -14.8
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -391,7 +391,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 63.5
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -402,9 +402,9 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/screenshots/puzzle-2026-08-17T081407.png
 security:
 - kind: authentication
@@ -432,7 +432,7 @@ tags:
 - Fintech
 - General Ledger
 - Payroll
-- Agent-Native
+- agent-native
 - MCP
 website: https://puzzle.io
 ---

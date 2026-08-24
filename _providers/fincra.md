@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ modified: '2026-06-21'
 name: Fincra
 nav: Providers
 network: true
-overview: 'Fincra publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account Resolution API, Banks API, Beneficiaries API, and 5 more. Tagged areas include Payments, Cross-Border, Collections, Payouts, and FX.
+overview: 'Fincra publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account Resolution API, Banks API, Beneficiaries API, and 5 more. Tagged areas include Payments, Cross-Border, Collection, Payouts, and FX.
 
 
   Fincra''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.7
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -175,7 +175,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.5
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/screenshots/fincra-2026-07-25T214519.png
 security:
@@ -206,7 +206,7 @@ slug: fincra
 tags:
 - Payments
 - Cross-Border
-- Collections
+- Collection
 - Payouts
 - FX
 - Fintech

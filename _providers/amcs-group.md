@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 215
   human_in_the_loop: 1
@@ -1701,8 +1701,8 @@ image: https://raw.githubusercontent.com/amcsplatform/amcsrestapi/master/logo.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: amcs-group-mcp.yml
-  slug: amcs-group-mcpyml
+  name: AMCS Group MCP Server
+  slug: amcs-group-mcp-server
 modified: '2026-07-17'
 name: AMCS Group
 nav: Providers
@@ -1714,18 +1714,18 @@ overview: 'AMCS Group publishes 257 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 14
 score:
   band: developing
-  composite: 41.9
-  delta: 2.4
+  composite: 43.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
     contract_quality: 41.7
     developer_ergonomics: 78.0
-    discoverability: 63.0
+    discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 39.5
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1742,8 +1742,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png
 security:
@@ -1766,6 +1766,6 @@ tags:
 - ERP
 - Payments
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 website: http://www.amcsgroup.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ modified: '2026-05-30'
 name: Teller
 nav: Providers
 network: true
-overview: 'Teller publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Identity API, Institutions API, and 1 more. Tagged areas include Banking, Financial Data, FinTech, Open Banking, and Transactions.
+overview: 'Teller publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Identity API, Institutions API, and 1 more. Tagged areas include Banking, Financial Data, Fintech, Open Banking, and Transaction.
 
 
   The Teller catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -215,19 +215,19 @@ rules:
     warn: 5
   slug: teller-rules
 score:
-  band: thin
-  composite: 39.1
-  delta: -2.0
+  band: developing
+  composite: 39.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 69.1
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 41.1
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -241,8 +241,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -257,9 +257,9 @@ slug: teller
 tags:
 - Banking
 - Financial Data
-- FinTech
+- Fintech
 - Open Banking
-- Transactions
-- Unified API
+- Transaction
+- Unified-API
 website: https://teller.io/
 ---

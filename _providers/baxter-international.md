@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Baxter's DeviceBridge is a cloud-based platform that enables secure data transfer from Baxter medical devices to hospital IT systems including electronic medical records (EMRs). It supports clinical d
@@ -168,7 +168,7 @@ rules:
 score:
   band: emerging
   composite: 20.6
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -178,15 +178,15 @@ score:
     discoverability: 59.3
     governance: 45.5
     operational_transparency: 15.8
-  previous_composite: 24.0
+  previous_composite: 20.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/screenshots/baxter-international-2026-06-20T173048.png
 security:

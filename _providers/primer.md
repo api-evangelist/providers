@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -287,7 +287,7 @@ modified: 2026-06-12
 name: Primer
 nav: Providers
 network: true
-overview: 'Primer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Client Session API API, Dispute & Chargebacks Webhooks API, Payment Methods API API, and 2 more. Tagged areas include payments, payment orchestration, payment processing, fintech, and fraud detection.
+overview: 'Primer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Client Session API API, Dispute & Chargebacks Webhooks API, Payment Methods API API, and 2 more. Tagged areas include Payments, Payment Orchestration, Payment Processing, Fintech, and Fraud Detection.
 
 
   The Primer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -317,7 +317,7 @@ rules:
 score:
   band: developing
   composite: 50.9
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -327,7 +327,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 65.8
-  previous_composite: 53.4
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -341,8 +341,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png
 security:
@@ -364,15 +364,15 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: primer
 tags:
-- payments
-- payment orchestration
-- payment processing
-- fintech
-- fraud detection
-- smart routing
-- checkout
-- payment methods
-- reconciliation
-- webhooks
+- Payments
+- Payment Orchestration
+- Payment Processing
+- Fintech
+- Fraud Detection
+- Smart Routing
+- Checkout
+- Payment Methods
+- Reconciliation
+- Webhook
 website: https://primer.io/
 ---

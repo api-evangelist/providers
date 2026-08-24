@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,9 +93,9 @@ description: Skippr builds "The Live AI Employee" — real-time AI agents that s
 image: https://skippr.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: skippr-mcp.yml
-  slug: skippr-mcpyml
+- description: Bridges product issues identified by Skippr's browser extension with AI coding agents. Lets an agent discover, understand, and fix UX inconsistencies, accessibility violations, and product-quality pro
+  name: Skippr MCP Server
+  slug: skippr-mcp-server
 modified: '2026-07-21'
 name: Skippr
 nav: Providers
@@ -108,7 +108,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 22.1
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -118,12 +118,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 23.2
+  previous_composite: 22.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

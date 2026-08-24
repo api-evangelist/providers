@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Grover
 nav: Providers
 network: true
-overview: 'Grover is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, Rental, Subscription, and Circular Economy.
+overview: 'Grover is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, Rentals, Subscription, and Circular Economy.
 
 
   Grover''s developer surface includes engineering blog, support, getting-started guide, and 4 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 13.0
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -86,9 +86,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grover/refs/heads/main/screenshots/grover-2026-07-25T220357.png
 security:
@@ -100,10 +100,10 @@ slug: grover
 tags:
 - Company
 - Consumer Electronics
-- Rental
+- Rentals
 - Subscription
 - Circular Economy
 - Technology
-- Ecommerce
+- E-Commerce
 website: https://www.grover.com/
 ---

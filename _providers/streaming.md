@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 21
 apis:
 - description: Distributed, partitioned, replicated log. The reference open-source streaming platform; durable, ordered topics with consumer groups, exactly -once semantics, and the de facto wire protocol for the st
@@ -181,7 +181,7 @@ modified: '2026-05-22'
 name: Streaming
 nav: Providers
 network: true
-overview: 'Streaming publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Streaming, Real Time, Event Streaming, Change Data Capture, and Stream Processing.
+overview: 'Streaming publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Streaming, Real-Time, Event Streaming, Change Data Capture, and Stream Processing.
 
 
   The Streaming catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -203,7 +203,7 @@ rules:
 score:
   band: emerging
   composite: 13.7
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -213,10 +213,10 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 0.0
-  previous_composite: 19.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 13.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streaming/refs/heads/main/screenshots/streaming-2026-06-20T194618.png
 security:
 - kind: domain-security
@@ -230,11 +230,11 @@ security:
 slug: streaming
 tags:
 - Streaming
-- Real Time
+- Real-Time
 - Event Streaming
 - Change Data Capture
 - Stream Processing
-- Server Sent Events
+- Server-Sent Events
 - WebSocket
 - gRPC
 - GraphQL Subscriptions

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'OAuth 2.0 REST API for managing Snapchat advertising: organizations, ad accounts, campaigns, ad squads, ads, creatives, media, audience segments, measurement/reporting, the Conversions API (server-to-'
@@ -216,13 +216,13 @@ image: https://developers.snap.com/img/snap-developer-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: snap-mcp.yml
-  slug: snap-mcpyml
+  name: Snap MCP Server
+  slug: snap-mcp-server
 modified: '2026-08-13'
 name: Snap
 nav: Providers
 network: true
-overview: 'Snap publishes 1 API on the [APIs.io](https://apis.io/) network: Conversions API. Tagged areas include Company, Advertising, Marketing, Social Media, and Augmented Reality.
+overview: 'Snap publishes 1 API on the [APIs.io](https://apis.io/) network: Conversions API. Tagged areas include Company, Advertising, Marketing, Social-Media, and Augmented Reality.
 
 
   The Snap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -246,7 +246,7 @@ scopes:
 score:
   band: strong
   composite: 54.8
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -256,7 +256,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 53.9
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     contracts:
@@ -266,8 +266,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/screenshots/snap-2026-08-17T081939.png
 security:
@@ -292,13 +292,13 @@ tags:
 - Company
 - Advertising
 - Marketing
-- Social Media
+- Social-Media
 - Augmented Reality
 - Camera
 - Authentication
 - Identity
 - Conversions
 - Attribution
-- SDKs
+- SDK
 website: https://developers.snap.com
 ---

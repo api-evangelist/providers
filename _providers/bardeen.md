@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Bardeen is an AI-powered automation platform for automating repetitive tasks across web applications.
@@ -77,7 +77,7 @@ modified: '2026-03-27'
 name: Bardeen
 nav: Providers
 network: true
-overview: 'Bardeen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Automation and Workflow Automation.
+overview: 'Bardeen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Automation and Workflow-Automation.
 
 
   Bardeen''s developer surface includes documentation and 6 more developer resources.'
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -103,9 +103,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/screenshots/bardeen-2026-06-20T172958.png
 security:
@@ -124,6 +124,6 @@ security:
 slug: bardeen
 tags:
 - AI Automation
-- Workflow Automation
+- Workflow-Automation
 website: https://www.bardeen.ai
 ---

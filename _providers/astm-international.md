@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: ASTM Compass is the subscription digital library and workflow platform that delivers ASTM standards alongside third-party publisher content (AASHTO, API, BSI, etc.), books, journals, papers, and video
@@ -234,7 +234,7 @@ rules:
 score:
   band: emerging
   composite: 11.0
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -244,10 +244,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 17.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 11.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Astm International Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Free Various Thai AI API
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: AI For Thai
 nav: Providers
 network: true
-overview: AI For Thai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
+overview: AI For Thai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine-Learning and Public APIs.
 random_paper: 12
 score:
   band: minimal
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-for-thai/refs/heads/main/screenshots/ai-for-thai-2026-06-20T170635.png
 security:
@@ -83,7 +83,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: ai-for-thai
 tags:
-- Machine Learning
+- Machine-Learning
 - Public APIs
 website: https://aiforthai.in.th/index.php
 ---

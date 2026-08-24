@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -187,8 +187,8 @@ image: https://github.com/localstack.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: localstack-mcp.yml
-  slug: localstack-mcpyml
+  name: LocalStack MCP Server
+  slug: localstack-mcp-server
 modified: '2026-07-20'
 name: LocalStack
 nav: Providers
@@ -201,7 +201,7 @@ random_paper: 7
 score:
   band: developing
   composite: 46.1
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -211,7 +211,7 @@ score:
     discoverability: 77.8
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 49.2
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +222,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/screenshots/localstack-2026-07-25T225424.png
 security:

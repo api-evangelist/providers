@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -476,7 +476,7 @@ rules:
 score:
   band: thin
   composite: 27.3
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -486,7 +486,7 @@ score:
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 32.0
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -494,8 +494,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png
 security:
@@ -514,7 +514,7 @@ tags:
 - Car Rentals
 - Hospitality
 - Hotels
-- Restaurants
+- Restaurant
 - Travel
 website: https://www.bookingholdings.com
 ---

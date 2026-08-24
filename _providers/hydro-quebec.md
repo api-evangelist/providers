@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,8 +202,8 @@ image: https://hydroquebec.opendatasoft.com/assets/theme_image/hq-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: hydro-quebec-mcp.yml
-  slug: hydro-quebec-mcpyml
+  name: Hydro-Québec MCP Server
+  slug: hydro-québec-mcp-server
 modified: '2026-07-27'
 name: Hydro-Québec
 nav: Providers
@@ -225,7 +225,7 @@ scopes:
 score:
   band: strong
   composite: 57.9
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 54.0
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,8 +247,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/screenshots/hydro-quebec-2026-08-07T170514.png
 security:

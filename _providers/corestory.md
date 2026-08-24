@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 6
@@ -438,13 +438,13 @@ image: https://cdn.prod.website-files.com/68896c42739657d548061137/68b9a4d77efd0
 layout: provider
 mcp_servers:
 - description: ''
-  name: corestory-mcp.yml
-  slug: corestory-mcpyml
+  name: CoreStory MCP Server
+  slug: corestory-mcp-server
 modified: '2026-07-18'
 name: CoreStory
 nav: Providers
 network: true
-overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) network, including admin API, api_debugging API, api_key_management API, and 44 more. Tagged areas include Company, Ai, Code Intelligence, Legacy Modernization, and Developer Tools.
+overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) network, including admin API, api_debugging API, api_key_management API, and 44 more. Tagged areas include Company, Artificial Intelligence, Code Intelligence, Legacy Modernization, and Developer Tools.
 
 
   CoreStory''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
@@ -457,7 +457,7 @@ scopes:
 score:
   band: developing
   composite: 41.2
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -467,7 +467,7 @@ score:
     discoverability: 92.6
     governance: 12.1
     operational_transparency: 10.5
-  previous_composite: 44.3
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -477,8 +477,8 @@ score:
       total: 47
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/screenshots/corestory-2026-07-25T210432.png
 security:
@@ -497,7 +497,7 @@ security:
 slug: corestory
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Code Intelligence
 - Legacy Modernization
 - Developer Tools

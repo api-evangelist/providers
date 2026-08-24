@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 8
 common:
@@ -77,12 +77,12 @@ modified: '2026-05-16'
 name: Sephora
 nav: Providers
 network: true
-overview: Sephora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Beauty, Personal Care, and Ecommerce.
+overview: Sephora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Beauty, Personal Care, and E-Commerce.
 random_paper: 19
 score:
   band: minimal
   composite: 6.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -92,9 +92,9 @@ score:
     discoverability: 40.7
     governance: 15.2
     operational_transparency: 2.6
-  previous_composite: 6.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sephora/refs/heads/main/screenshots/sephora-2026-06-20T193713.png
 security:
@@ -107,7 +107,7 @@ tags:
 - Retail
 - Beauty
 - Personal Care
-- Ecommerce
+- E-Commerce
 use_cases:
 - description: Customers browse, review, and purchase beauty products
   name: Consumer Beauty Discovery

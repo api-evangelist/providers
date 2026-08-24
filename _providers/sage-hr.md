@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -248,7 +248,7 @@ rules:
 score:
   band: developing
   composite: 42.5
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -258,7 +258,7 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 48.3
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -266,9 +266,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/screenshots/sage-hr-2026-06-20T193324.png
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API as served from AG1's own storefront host, shop.drinkag1.com. Anonymous schema introspection succeeds, exposing 35 query fields, 41 mutations and 416 types covering p
@@ -135,8 +135,8 @@ image: https://cdn.shopify.com/s/files/1/1523/4600/files/pouch_original_ae887f0b
 layout: provider
 mcp_servers:
 - description: ''
-  name: athletic-greens-mcp.yml
-  slug: athletic-greens-mcpyml
+  name: AG1 MCP Server
+  slug: ag1-mcp-server
 modified: '2026-08-02'
 name: AG1
 nav: Providers
@@ -154,7 +154,7 @@ scopes:
 score:
   band: thin
   composite: 35.6
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -164,7 +164,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 38.9
+  previous_composite: 35.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -175,8 +175,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/screenshots/athletic-greens-2026-08-07T161847.png
 security:
@@ -196,7 +196,7 @@ tags:
 - Nutrition
 - Supplements
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Subscription
 - Wellness
 - Agentic Commerce

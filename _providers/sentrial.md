@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Track events within agent sessions.
@@ -148,8 +148,8 @@ image: https://www.sentrial.com/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sentrial-mcp.yml
-  slug: sentrial-mcpyml
+  name: Sentrial MCP Server
+  slug: sentrial-mcp-server
 modified: '2026-07-21'
 name: Sentrial
 nav: Providers
@@ -162,7 +162,7 @@ random_paper: 5
 score:
   band: thin
   composite: 37.1
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -172,7 +172,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 44.1
+  previous_composite: 37.1
   provenance:
     conformance: derived
     contracts:
@@ -182,9 +182,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/screenshots/sentrial-2026-08-17T081809.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: The Roblox Open Cloud API is the official external REST surface for Roblox creators, studios, and partners. It exposes universes, places, place publishing, ordered and standard data stores, memory sto
@@ -175,7 +175,7 @@ modified: '2026-05-23'
 name: Roblox
 nav: Providers
 network: true
-overview: 'Roblox publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Assets, DataStores, Game Development, Games, and Luau.
+overview: 'Roblox publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Assets, Datastores, Game Development, Games, and Luau.
 
 
   Roblox''s developer surface includes developer portal, documentation, API reference, authentication, status page, support, engineering blog, and 18 more developer resources.'
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.0
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -201,9 +201,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 40.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 38.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roblox/refs/heads/main/screenshots/roblox-2026-06-20T193141.png
 security:
@@ -218,7 +218,7 @@ security:
 slug: roblox
 tags:
 - Assets
-- DataStores
+- Datastores
 - Game Development
 - Games
 - Luau

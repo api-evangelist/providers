@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Umoja Biopharma
 nav: Providers
 network: true
-overview: 'Umoja Biopharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Immunotherapy, CAR-T, and Cell Therapy.
+overview: 'Umoja Biopharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Immunotherapy, Cart, and Cell Therapy.
 
 
   Umoja Biopharma''s developer surface includes engineering blog and 9 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 6.7
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -98,15 +98,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.3
+  previous_composite: 6.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -118,7 +118,7 @@ tags:
 - Company
 - Biotechnology
 - Immunotherapy
-- CAR-T
+- Cart
 - Cell Therapy
 - Oncology
 - Gene Therapy

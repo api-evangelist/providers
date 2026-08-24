@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Google Nest Device Access REST API for accessing, controlling, and managing authorized Nest devices (thermostats, cameras, doorbells, Hub Max) via enterprises/structures/rooms/devices resources and a '
@@ -151,8 +151,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nest.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: nest-mcp.yml
-  slug: nest-mcpyml
+  name: Nest MCP Server
+  slug: nest-mcp-server
 modified: '2026-07-20'
 name: Nest
 nav: Providers
@@ -173,7 +173,7 @@ scopes:
 score:
   band: developing
   composite: 46.8
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -183,13 +183,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 47.1
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/screenshots/nest-2026-08-07T184913.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -195,7 +195,7 @@ modified: '2026-05-19'
 name: Meilisearch
 nav: Providers
 network: true
-overview: 'Meilisearch publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Health API, Indexes API, and 4 more. Tagged areas include AI Search, Full-Text Search, Hybrid Search, Open Source, and Search.
+overview: 'Meilisearch publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Health API, Indexes API, and 4 more. Tagged areas include AI Search, Full-Text Search, Hybrid Search, Open-Source, and Search.
 
 
   Meilisearch''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, changelog, and 9 more developer resources.'
@@ -211,7 +211,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.4
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -221,7 +221,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 42.6
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -229,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/screenshots/meilisearch-2026-06-20T185134.png
 security:
@@ -255,7 +255,7 @@ tags:
 - AI Search
 - Full-Text Search
 - Hybrid Search
-- Open Source
+- Open-Source
 - Search
 website: https://www.meilisearch.com/
 ---

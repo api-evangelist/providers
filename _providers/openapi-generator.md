@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The clients API from OpenAPI Generator — 3 operation(s) for clients.
@@ -173,14 +173,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openapi-generator.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: openapi-generator-mcp.yml
-  slug: openapi-generator-mcpyml
+- description: 'OpenAPI Generator publishes NO official hosted or remote MCP server. Searched on 2026-08-06: no /.well-known/* MCP or OAuth discovery document on either openapi-generator.tech or api.openapi-generator'
+  name: OpenAPI Generator MCP Server
+  slug: openapi-generator-mcp-server
 modified: '2026-08-06'
 name: OpenAPI Generator
 nav: Providers
 network: true
-overview: 'OpenAPI Generator publishes 2 APIs on the [APIs.io](https://apis.io/) network: Clients API and Servers API. Tagged areas include Code Generation, Documentation, Open Source, OpenAPI, and SDK.
+overview: 'OpenAPI Generator publishes 2 APIs on the [APIs.io](https://apis.io/) network: Clients API and Servers API. Tagged areas include Code Generation, Documentation, Open-Source, OpenAPI, and SDK.
 
 
   OpenAPI Generator''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
@@ -196,7 +196,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.7
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -206,7 +206,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 40.1
+  previous_composite: 40.7
   provenance:
     conformance: derived
     contracts:
@@ -216,8 +216,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-generator/refs/heads/main/screenshots/openapi-generator-2026-06-20T190908.png
 security:
@@ -233,7 +233,7 @@ slug: openapi-generator
 tags:
 - Code Generation
 - Documentation
-- Open Source
+- Open-Source
 - OpenAPI
 - SDK
 - API Tooling

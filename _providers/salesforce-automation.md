@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -433,6 +433,10 @@ collections:
   name: Salesforce Tooling API
   slug: open-salesforce-tooling-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -840,7 +844,7 @@ jsonld:
   property_count: 16
   slug: salesforce-automation-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Salesforce Automation
 nav: Providers
 network: true
@@ -850,7 +854,7 @@ overview: 'Salesforce Automation publishes 38 APIs on the [APIs.io](https://apis
   The Salesforce Automation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Automation''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, GitHub presence, and 30 more developer resources.'
+  Salesforce Automation''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, GitHub presence, and 31 more developer resources.'
 plans:
 - name: Salesforce Automation Plans Pricing
   plan_count: 1
@@ -889,18 +893,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: -6.1
+  composite: 51.4
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.4
     developer_ergonomics: 50.0
     discoverability: 66.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.0
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -908,9 +912,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/screenshots/salesforce-automation-2026-06-20T193343.png
 security:
 - kind: authentication

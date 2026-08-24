@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Anonymous, publicly callable MCP server on binske's direct-to-consumer storefront host implementing the Universal Commerce Protocol shopping service. A live JSON-RPC 2.0 tools/list returned 13 tools w
@@ -116,17 +116,17 @@ description: binske is a Colorado-born premium cannabis brand founded in 2015, p
 image: https://binske.com/wp-content/uploads/2026/01/favicon-300x300.png
 layout: provider
 mcp_servers:
+- description: Anonymous, publicly reachable MCP server on binske's own storefront host (shopbinske.com), exposing the Universal Commerce Protocol (UCP) shopping service. A JSON-RPC 2.0 `tools/list` call returned 20
+  name: binske Storefront Commerce MCP Server
+  slug: binske-storefront-commerce-mcp-server
 - description: ''
-  name: binske-mcp.yml
-  slug: binske-mcpyml
-- description: ''
-  name: binske-mcp-tools.json
-  slug: binske-mcp-toolsjson
+  name: Binske MCP Server
+  slug: binske-mcp-server
 modified: '2026-08-07'
 name: Binske
 nav: Providers
 network: true
-overview: 'Binske publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include cannabis, consumer-packaged-goods, direct-to-consumer, ecommerce, and retail.
+overview: 'Binske publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cannabis, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
 
 
   Binske''s developer surface includes documentation, authentication, engineering blog, support, and 17 more developer resources.'
@@ -139,7 +139,7 @@ scopes:
 score:
   band: emerging
   composite: 21.2
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -149,13 +149,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.7
+  previous_composite: 21.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/screenshots/binske-2026-08-07T162438.png
 security:
@@ -169,15 +169,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: binske
 tags:
-- cannabis
-- consumer-packaged-goods
-- direct-to-consumer
-- ecommerce
-- retail
-- shopify
-- agent-commerce
-- ucp
-- mcp
-- storefront
+- Cannabis
+- Consumer Packaged Goods
+- Direct to Consumer
+- E-Commerce
+- Retail
+- Shopify
+- Agent Commerce
+- UCP
+- MCP
+- Storefront
 website: https://binske.com/
 ---

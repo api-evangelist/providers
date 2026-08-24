@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Addresses API from Blockstream — 11 operation(s) for addresses.
@@ -162,8 +162,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blockstrea
 layout: provider
 mcp_servers:
 - description: ''
-  name: blockstream-mcp.yml
-  slug: blockstream-mcpyml
+  name: Blockstream MCP Server
+  slug: blockstream-mcp-server
 modified: '2026-07-18'
 name: Blockstream
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 20
 score:
   band: thin
   composite: 30.3
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -186,7 +186,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 30.6
+  previous_composite: 30.3
   provenance:
     conformance: derived
     contracts:
@@ -196,8 +196,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/screenshots/blockstream-2026-07-25T203345.png
 security:
@@ -216,6 +216,6 @@ tags:
 - Blockchain
 - Cryptocurrency
 - Block Explorer
-- Financial Services
+- Financial-Services
 - Infrastructure
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ modified: 2026-06-12
 name: Superblocks
 nav: Providers
 network: true
-overview: 'Superblocks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Applications API and Workflows API. Tagged areas include internal tools, low-code, no-code, applications, and workflows.
+overview: 'Superblocks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Applications API and Workflows API. Tagged areas include Internal Tools, Low-Code, No-Code, Application, and Workflows.
 
 
   The Superblocks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -200,7 +200,7 @@ rules:
 score:
   band: developing
   composite: 47.2
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -210,7 +210,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 34.2
-  previous_composite: 54.6
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -218,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/screenshots/superblocks-2026-06-20T194714.png
 security:
 - kind: authentication
@@ -237,17 +237,17 @@ security:
   summary_line: SOC 2, HIPAA
 slug: superblocks
 tags:
-- internal tools
-- low-code
-- no-code
-- applications
-- workflows
-- scheduled jobs
-- integrations
-- enterprise
-- AI
-- databases
+- Internal Tools
+- Low-Code
+- No-Code
+- Application
+- Workflows
+- Scheduled Jobs
+- Integration
+- Enterprise
+- Artificial Intelligence
+- Databases
 - REST API
-- developer tools
+- Developer Tools
 website: https://www.superblocks.com/
 ---

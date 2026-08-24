@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -321,13 +321,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: koala-io-mcp.yml
-  slug: koala-io-mcpyml
+  name: Koala MCP Server
+  slug: koala-mcp-server
 modified: '2026-08-13'
 name: Koala
 nav: Providers
 network: true
-overview: 'Koala publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Collection API, Deletion API, and 1 more. Tagged areas include Buyer Intent, Visitor Identification, De-anonymization, Enrichment, and Go-to-Market.
+overview: 'Koala publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Collection API, Deletion API, and 1 more. Tagged areas include Buyer Intent, Visitor Identification, De-anonymization, Enrichment, and Go-To-Market.
 
 
   The Koala catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -357,7 +357,7 @@ rules:
 score:
   band: exemplar
   composite: 66.8
-  delta: -14.0
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -367,7 +367,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 60.5
-  previous_composite: 80.8
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -378,9 +378,9 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/screenshots/koala-io-2026-07-25T224023.png
 security:
 - kind: authentication
@@ -405,7 +405,7 @@ tags:
 - Visitor Identification
 - De-anonymization
 - Enrichment
-- Go-to-Market
+- Go-To-Market
 - Sales Intelligence
 - B2B
 website: https://getkoala.com

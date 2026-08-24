@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -205,6 +205,10 @@ collections:
   name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Thread Pool Runtime API
   slug: open-oracle-weblogic-thread-pool-runtime-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -529,7 +533,7 @@ jsonld:
   property_count: 54
   slug: oracle-weblogic-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Oracle WebLogic Server
 nav: Providers
 network: true
@@ -539,7 +543,7 @@ overview: 'Oracle WebLogic Server publishes 24 APIs on the [APIs.io](https://api
   The Oracle WebLogic Server catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle WebLogic Server''s developer surface includes authentication, support, documentation, engineering blog, Stack Overflow tag, YouTube channel, signup flow, and 10 more developer resources.'
+  Oracle WebLogic Server''s developer surface includes authentication, support, documentation, engineering blog, Stack Overflow tag, YouTube channel, signup flow, and 11 more developer resources.'
 plans:
 - name: Oracle Weblogic Plans Pricing
   plan_count: 3
@@ -562,18 +566,18 @@ rules:
   slug: oracle-weblogic-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.5
-  delta: -5.9
+  composite: 40.1
+  delta: -2.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 65.8
-    developer_ergonomics: 28.6
+    developer_ergonomics: 16.7
     discoverability: 57.4
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 48.4
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -581,9 +585,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/screenshots/oracle-weblogic-2026-06-20T191145.png
 security:
 - kind: authentication

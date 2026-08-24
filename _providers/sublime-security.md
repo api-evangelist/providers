@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -251,8 +251,8 @@ image: https://platform.sublime.security/logo@192.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sublime-security-mcp.yml
-  slug: sublime-security-mcpyml
+  name: Sublime Security MCP Server
+  slug: sublime-security-mcp-server
 modified: '2026-07-21'
 name: Sublime Security
 nav: Providers
@@ -268,7 +268,7 @@ random_paper: 6
 score:
   band: developing
   composite: 40.1
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -278,7 +278,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 45.1
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,9 +289,9 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/screenshots/sublime-security-2026-08-17T082147.png
 security:
 - kind: authentication

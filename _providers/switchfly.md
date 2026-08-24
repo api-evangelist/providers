@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Describes authentication required (`client_credentials` OAuth 2) and refund requests performed by Switchfly application to 3rd party service to cancel redemption components.
@@ -138,8 +138,8 @@ image: https://www.switchfly.com/
 layout: provider
 mcp_servers:
 - description: ''
-  name: switchfly-mcp.yml
-  slug: switchfly-mcpyml
+  name: Switchfly MCP Server
+  slug: switchfly-mcp-server
 modified: '2026-07-21'
 name: Switchfly
 nav: Providers
@@ -152,7 +152,7 @@ random_paper: 2
 score:
   band: thin
   composite: 38.4
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -162,7 +162,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 38.0
+  previous_composite: 38.4
   provenance:
     conformance: derived
     contracts:
@@ -172,8 +172,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

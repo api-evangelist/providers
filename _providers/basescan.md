@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ modified: '2026-06-13'
 name: Basescan
 nav: Providers
 network: true
-overview: 'Basescan publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include blockchain, Base, L2, explorer, and Ethereum.
+overview: 'Basescan publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include Blockchain, Base, L2, Explorer, and Ethereum.
 
 
   The Basescan catalog on APIs.io includes 1 JSON-LD context.
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -188,7 +188,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 42.4
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -196,8 +196,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/screenshots/basescan-2026-08-17T122729.png
 security:
@@ -211,13 +211,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: basescan
 tags:
-- blockchain
+- Blockchain
 - Base
 - L2
-- explorer
+- Explorer
 - Ethereum
 - EVM
-- transactions
-- tokens
-- smart contracts
+- Transaction
+- Tokens
+- Smart Contracts
 ---

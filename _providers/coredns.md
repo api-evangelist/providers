@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ modified: '2026-05-19'
 name: CoreDNS
 nav: Providers
 network: true
-overview: 'CoreDNS publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Metrics API, and Ready API. Tagged areas include Apache 2.0, Cloud Native, CNCF, DNS, and Go.
+overview: 'CoreDNS publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Metrics API, and Ready API. Tagged areas include Apache 2.0, Cloud-Native, CNCF, DNS, and Go.
 
 
   The CoreDNS catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -231,18 +231,18 @@ rules:
   slug: coredns-metrics-rules
 score:
   band: thin
-  composite: 37.4
-  delta: -0.4
+  composite: 38.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 51.7
     developer_ergonomics: 26.2
     discoverability: 72.2
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 36.8
-  previous_composite: 37.8
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -250,8 +250,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png
 security:
@@ -262,14 +262,14 @@ security:
 slug: coredns
 tags:
 - Apache 2.0
-- Cloud Native
+- Cloud-Native
 - CNCF
 - DNS
 - Go
 - Graduated
 - Kubernetes
 - Networking
-- Open Source
+- Open-Source
 - Plugins
 - Prometheus
 - Service Discovery

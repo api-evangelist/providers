@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 55
 apis:
 - description: Activity Log
@@ -470,13 +470,13 @@ image: https://github.com/ValidereInc.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: validere-mcp.yml
-  slug: validere-mcpyml
+  name: Validere MCP Server
+  slug: validere-mcp-server
 modified: '2026-07-21'
 name: Validere
 nav: Providers
 network: true
-overview: 'Validere publishes 55 APIs on the [APIs.io](https://apis.io/) network, including activities API, asset_groups API, assets API, and 52 more. Tagged areas include Company, Applications, Energy, Emissions, and Methane.
+overview: 'Validere publishes 55 APIs on the [APIs.io](https://apis.io/) network, including activities API, asset_groups API, assets API, and 52 more. Tagged areas include Company, Application, Energy, Emissions, and Methane.
 
 
   Validere''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 18 more developer resources.'
@@ -484,7 +484,7 @@ random_paper: 4
 score:
   band: developing
   composite: 48.4
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -494,7 +494,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 44.2
+  previous_composite: 48.4
   provenance:
     conformance: first-party
     contracts:
@@ -510,8 +510,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/validere/refs/heads/main/screenshots/validere-2026-08-17T082707.png
 security:
@@ -530,13 +530,13 @@ security:
 slug: validere
 tags:
 - Company
-- Applications
+- Application
 - Energy
 - Emissions
 - Methane
-- Oil And Gas
+- Oil and Gas
 - Environmental Data
-- Measurement
+- Measurements
 - Carbon Intensity
 - EHS
 website: https://validere.com/

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-19'
 name: FreeWill
 nav: Providers
 network: true
-overview: 'FreeWill is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Estate Planning, Wills, and Nonprofit.
+overview: 'FreeWill is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Estate Planning, Wills, and Non-Profit.
 
 
   FreeWill''s developer surface includes support, signup flow, and 7 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 14.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -94,9 +94,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freewill/refs/heads/main/screenshots/freewill-2026-07-25T215148.png
 security:
@@ -114,7 +114,7 @@ tags:
 - Fintech
 - Estate Planning
 - Wills
-- Nonprofit
+- Non-Profit
 - Planned Giving
 - Legal Tech
 website: https://www.freewill.com/

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-05-02'
 name: Navient
 nav: Providers
 network: true
-overview: 'Navient is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Student Loans, Financial Services, Loan Servicing, and Fortune 500.
+overview: 'Navient is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Student Loans, Financial-Services, Loan Servicing, and Fortune 500.
 
 
   Navient''s developer surface includes product news and 4 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 1
 score:
   band: minimal
   composite: 1.6
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -100,15 +100,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 4.1
+  previous_composite: 1.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navient/refs/heads/main/screenshots/navient-2026-06-20T190058.png
 security:
@@ -119,7 +119,7 @@ security:
 slug: navient
 tags:
 - Student Loans
-- Financial Services
+- Financial-Services
 - Loan Servicing
 - Fortune 500
 website: https://www.navient.com

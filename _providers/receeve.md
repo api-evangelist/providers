@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -227,13 +227,13 @@ image: https://www.indebted.co/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: receeve-mcp.yml
-  slug: receeve-mcpyml
+  name: Receeve MCP Server
+  slug: receeve-mcp-server
 modified: '2026-07-21'
 name: Receeve
 nav: Providers
 network: true
-overview: 'Receeve publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, AccountMandate API, Claim API, and 11 more. Tagged areas include Company, Debt Collection, Receivables Management, Debt Servicing, and Collections.
+overview: 'Receeve publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, AccountMandate API, Claim API, and 11 more. Tagged areas include Company, Debt Collection, Receivables Management, Debt Servicing, and Collection.
 
 
   The Receeve catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -244,7 +244,7 @@ random_paper: 0
 score:
   band: thin
   composite: 35.3
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -254,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 39.0
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,8 +271,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -289,11 +289,11 @@ tags:
 - Debt Collection
 - Receivables Management
 - Debt Servicing
-- Collections
+- Collection
 - Fintech
 - Payments
-- Webhooks
-- Financial Services
+- Webhook
+- Financial-Services
 - Dunning
 website: https://api.receeve.com/
 ---

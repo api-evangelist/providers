@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -408,7 +408,7 @@ modified: '2026-08-08'
 name: Chatwoot
 nav: Providers
 network: true
-overview: 'Chatwoot publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Platform API, Account AgentBots API, Account API, and 29 more. Tagged areas include Customer Support, Messaging, Live Chat, Omni-channel, and Conversations.
+overview: 'Chatwoot publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Platform API, Account AgentBots API, Account API, and 29 more. Tagged areas include Customer-Support, Messaging, Live Chat, Omnichannel, and Conversations.
 
 
   The Chatwoot catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -438,7 +438,7 @@ rules:
 score:
   band: developing
   composite: 40.9
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -448,7 +448,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 48.6
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -456,9 +456,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/screenshots/chatwoot-2026-07-25T205121.png
 security:
 - kind: authentication
@@ -471,13 +471,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: chatwoot
 tags:
-- Customer Support
+- Customer-Support
 - Messaging
 - Live Chat
-- Omni-channel
+- Omnichannel
 - Conversations
 - Contacts
 - Agents
-- Open Source
+- Open-Source
 website: https://www.chatwoot.com/
 ---

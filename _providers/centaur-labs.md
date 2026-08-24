@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public REST API for importing data and managing labeling projects, tasks, cases, assets, gold standards, prelabels, tags and for downloading aggregated labeling results. Split across several versioned
@@ -103,13 +103,13 @@ image: https://files.readme.io/90ad1dc-small-Centaur_Labs_black3x.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: centaur-labs-mcp.yml
-  slug: centaur-labs-mcpyml
+  name: Centaur Labs MCP Server
+  slug: centaur-labs-mcp-server
 modified: '2026-07-18'
 name: Centaur Labs
 nav: Providers
 network: true
-overview: 'Centaur Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Data Annotation, Data Labeling, and Machine Learning.
+overview: 'Centaur Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Annotation, Data Labeling, and Machine-Learning.
 
 
   Centaur Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 8 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 22.2
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -127,7 +127,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 26.0
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -138,8 +138,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/screenshots/centaur-labs-2026-07-25T204921.png
 security:
@@ -158,10 +158,10 @@ security:
 slug: centaur-labs
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Data Annotation
 - Data Labeling
-- Machine Learning
+- Machine-Learning
 - Healthcare
 - Medical Imaging
 - Training Data

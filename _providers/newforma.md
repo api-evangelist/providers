@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -176,8 +176,8 @@ image: https://www.newforma.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: newforma-mcp.yml
-  slug: newforma-mcpyml
+  name: Newforma MCP Server
+  slug: newforma-mcp-server
 modified: '2026-07-20'
 name: Newforma
 nav: Providers
@@ -195,7 +195,7 @@ scopes:
 score:
   band: developing
   composite: 39.5
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -205,7 +205,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 41.9
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +216,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/screenshots/newforma-2026-08-07T185104.png
 security:

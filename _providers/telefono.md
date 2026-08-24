@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -224,18 +224,18 @@ rules:
   slug: telefono-rules
 score:
   band: thin
-  composite: 32.8
-  delta: -15.3
+  composite: 33.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 62.2
     developer_ergonomics: 11.9
     discoverability: 81.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 18.4
-  previous_composite: 48.1
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -249,9 +249,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/screenshots/telefono-2026-06-20T195031.png
 security:
 - kind: authentication

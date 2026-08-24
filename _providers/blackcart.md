@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-18'
 name: Blackcart
 nav: Providers
 network: true
-overview: 'Blackcart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Try Before You Buy, eCommerce, Retail, and Payments.
+overview: 'Blackcart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Try Before You Buy, E-Commerce, Retail, and Payments.
 
 
   Blackcart''s developer surface includes API reference, documentation, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 0.1
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -80,22 +80,22 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 6.8
+  previous_composite: 0.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackcart/refs/heads/main/screenshots/blackcart-2026-07-25T203254.png
 slug: blackcart
 tags:
 - Company
 - Try Before You Buy
-- eCommerce
+- E-Commerce
 - Retail
 - Payments
 - Shopify

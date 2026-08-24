@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -301,13 +301,13 @@ image: https://www.useascend.com/favicons/icon-512.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ascend-mcp.yml
-  slug: ascend-mcpyml
+  name: Ascend MCP Server
+  slug: ascend-mcp-server
 modified: '2026-07-18'
 name: Ascend
 nav: Providers
 network: true
-overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Billables API, and 20 more. Tagged areas include Company, Fintech, Insurance, InsurTech, and Payments.
+overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Billables API, and 20 more. Tagged areas include Company, Fintech, Insurance, Insurtech, and Payments.
 
 
   The Ascend catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -318,7 +318,7 @@ random_paper: 13
 score:
   band: developing
   composite: 50.7
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -328,7 +328,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 51.3
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,8 +345,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png
 security:
@@ -367,13 +367,13 @@ tags:
 - Company
 - Fintech
 - Insurance
-- InsurTech
+- Insurtech
 - Payments
 - Premium Financing
 - Billing
 - Invoicing
 - Embedded Finance
 - REST API
-- Webhooks
+- Webhook
 website: https://useascend.com/
 ---

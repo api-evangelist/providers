@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -264,8 +264,8 @@ image: https://jebbit-public-api-docs.s3.amazonaws.com/images/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: jebbit-mcp.yml
-  slug: jebbit-mcpyml
+  name: Jebbit MCP Server
+  slug: jebbit-mcp-server
 modified: '2026-08-13'
 name: Jebbit
 nav: Providers
@@ -294,7 +294,7 @@ scopes:
 score:
   band: developing
   composite: 52.5
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -304,7 +304,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 51.7
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -315,8 +315,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/screenshots/jebbit-2026-07-25T223113.png
 security:
@@ -345,7 +345,7 @@ tags:
 - Marketing
 - Quizzes
 - Product Feeds
-- Webhooks
+- Webhook
 - Customer Data
 - JSON:API
 website: https://jebbit.com/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -643,7 +643,7 @@ modified: '2026-05-30'
 name: Wiktionary
 nav: Providers
 network: true
-overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Definition API, ExpandTemplates API, File API, and 8 more. Tagged areas include Dictionaries, Open Source, Wikimedia, MediaWiki, and Linguistics.
+overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Definition API, ExpandTemplates API, File API, and 8 more. Tagged areas include Dictionaries, Open-Source, Wikimedia, MediaWiki, and Linguistics.
 
 
   The Wiktionary catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -680,18 +680,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.2
-  delta: -5.1
+  composite: 47.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 29.1
     developer_ergonomics: 52.4
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 52.3
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -705,9 +705,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/screenshots/wiktionary-2026-06-20T201458.png
 security:
 - kind: authentication
@@ -732,7 +732,7 @@ solutions:
   name: Wikimedia Enterprise
 tags:
 - Dictionaries
-- Open Source
+- Open-Source
 - Wikimedia
 - MediaWiki
 - Linguistics

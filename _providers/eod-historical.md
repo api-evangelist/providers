@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -332,7 +332,7 @@ modified: '2026-06-13'
 name: EOD Historical Data
 nav: Providers
 network: true
-overview: 'EOD Historical Data publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, CBOE API, Corporate Actions API, and 17 more. Tagged areas include Fintech, Market Data, Stocks, ETF, and Fundamentals.
+overview: 'EOD Historical Data publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, CBOE API, Corporate Actions API, and 17 more. Tagged areas include Fintech, Market Data, Stocks, ETFs, and Fundamentals.
 
 
   The EOD Historical Data catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -362,7 +362,7 @@ rules:
 score:
   band: developing
   composite: 51.1
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -372,7 +372,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 59.1
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -386,9 +386,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eod-historical/refs/heads/main/screenshots/eod-historical-2026-06-20T180743.png
 security:
 - kind: authentication
@@ -404,7 +404,7 @@ tags:
 - Fintech
 - Market Data
 - Stocks
-- ETF
+- ETFs
 - Fundamentals
 - Options
 - Forex

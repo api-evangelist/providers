@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -270,8 +270,8 @@ image: https://www.bluecore.com/wp-content/themes/bluecore/assets/img/favicon.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: bluecore-mcp.yml
-  slug: bluecore-mcpyml
+  name: Bluecore MCP Server
+  slug: bluecore-mcp-server
 modified: '2026-08-13'
 name: Bluecore
 nav: Providers
@@ -300,7 +300,7 @@ scopes:
 score:
   band: strong
   composite: 55.3
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -310,7 +310,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 57.6
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,8 +327,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png
 security:
@@ -358,7 +358,7 @@ tags:
 - Email
 - SMS
 - Messaging
-- eCommerce
+- E-Commerce
 - Consent
 website: https://bluecore.com
 ---

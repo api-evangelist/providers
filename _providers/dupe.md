@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,13 +70,13 @@ image: https://dupe.com/android-chrome-512x512.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: dupe-mcp.yml
-  slug: dupe-mcpyml
+  name: Dupe MCP Server
+  slug: dupe-mcp-server
 modified: '2026-07-18'
 name: Dupe
 nav: Providers
 network: true
-overview: 'Dupe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shopping, E-commerce, Retail, and Visual Search.
+overview: 'Dupe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shopping, E-Commerce, Retail, and Visual Search.
 
 
   Dupe''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 7.2
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -94,12 +94,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.0
+  previous_composite: 7.2
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dupe/refs/heads/main/screenshots/dupe-2026-07-25T212515.png
 security:
 - kind: domain-security
@@ -110,12 +110,12 @@ slug: dupe
 tags:
 - Company
 - Shopping
-- E-commerce
+- E-Commerce
 - Retail
 - Visual Search
 - Product Discovery
 - Artificial Intelligence
-- Affiliate
+- Affiliates
 - MCP
 website: https://dupe.com/
 ---

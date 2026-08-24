@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ modified: '2026-05-19'
 name: Dagster
 nav: Providers
 network: true
-overview: 'Dagster publishes 3 APIs on the [APIs.io](https://apis.io/) network: Checks API, Materializations API, and Observations API. Tagged areas include Data Engineering, Data Orchestration, Data Pipelines, ETL, and Workflows.
+overview: 'Dagster publishes 3 APIs on the [APIs.io](https://apis.io/) network: Checks API, Materializations API, and Observations API. Tagged areas include Data Engineering, Data Orchestration, Data Pipeline, ETL, and Workflows.
 
 
   The Dagster catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -294,18 +294,18 @@ rules:
   slug: dagster-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 3.2
+  composite: 62.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 65.0
     developer_ergonomics: 69.0
     discoverability: 72.2
-    governance: 60.6
+    governance: 69.7
     operational_transparency: 36.8
-  previous_composite: 58.2
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     contracts:
@@ -313,8 +313,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/screenshots/dagster-2026-06-20T175440.png
 security:
@@ -330,7 +330,7 @@ slug: dagster
 tags:
 - Data Engineering
 - Data Orchestration
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Workflows
 - Assets

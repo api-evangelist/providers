@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -229,7 +229,7 @@ modified: '2026-05-23'
 name: RunPod
 nav: Providers
 network: true
-overview: 'RunPod publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Containerregistryauth API, Docs API, and 5 more. Tagged areas include AI, Cloud, Compute, GPU, and Inference.
+overview: 'RunPod publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Containerregistryauth API, Docs API, and 5 more. Tagged areas include Artificial Intelligence, Cloud, Compute, GPU, and Inference.
 
 
   RunPod''s developer surface includes authentication, documentation, developer portal, signup flow, pricing, engineering blog, support, and 15 more developer resources.'
@@ -245,7 +245,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.6
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -255,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 55.4
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -263,8 +263,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/screenshots/runpod-2026-06-20T193259.png
 security:
@@ -282,12 +282,12 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: runpod
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - Compute
 - GPU
 - Inference
-- Machine Learning
+- Machine-Learning
 - Serverless
 website: https://runpod.io
 ---

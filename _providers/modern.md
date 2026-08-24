@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Franchise dashboards and dashboard types
@@ -139,8 +139,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modern.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: modern-mcp.yml
-  slug: modern-mcpyml
+  name: Modern MCP Server
+  slug: modern-mcp-server
 modified: '2026-07-20'
 name: Modern
 nav: Providers
@@ -153,7 +153,7 @@ random_paper: 15
 score:
   band: thin
   composite: 33.5
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -163,7 +163,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 36.5
+  previous_composite: 33.5
   provenance:
     conformance: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/screenshots/modern-2026-08-07T183934.png
 security:
@@ -194,7 +194,7 @@ tags:
 - Field Service
 - Work Orders
 - Customer Communications
-- Notifications
+- Notification
 - Partner API
 website: https://modernis.com/
 ---

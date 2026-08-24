@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'Core Vue.js composition and options API for building reactive user interfaces. Provides reactivity primitives (ref, reactive, computed, watch), lifecycle hooks, component system, template directives, '
@@ -137,7 +137,7 @@ modified: '2026-05-03'
 name: Vue.js
 nav: Providers
 network: true
-overview: 'Vue.js publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Framework, Frontend, JavaScript, and Open Source.
+overview: 'Vue.js publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Framework, Frontend, JavaScript, and Open-Source.
 
 
   The Vue.js catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -167,7 +167,7 @@ rules:
 score:
   band: emerging
   composite: 24.9
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -177,10 +177,10 @@ score:
     discoverability: 70.4
     governance: 25.0
     operational_transparency: 28.9
-  previous_composite: 30.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 24.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/screenshots/vuejs-2026-06-20T201149.png
 slug: vuejs
 tags:
@@ -188,7 +188,7 @@ tags:
 - Framework
 - Frontend
 - JavaScript
-- Open Source
+- Open-Source
 - UI
 website: https://vuejs.org
 ---

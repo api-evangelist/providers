@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -220,13 +220,13 @@ image: https://www.brainfishai.com/og-default.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: brainfish-mcp.yml
-  slug: brainfish-mcpyml
+  name: Brainfish MCP Server
+  slug: brainfish-mcp-server
 modified: '2026-07-18'
 name: Brainfish
 nav: Providers
 network: true
-overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Authentication API, and 6 more. Tagged areas include Company, AI, Customer Support, Knowledge Base, and Help Desk.
+overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Authentication API, and 6 more. Tagged areas include Company, Artificial Intelligence, Customer-Support, Knowledge Base, and Help Desk.
 
 
   Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 19 more developer resources.'
@@ -238,7 +238,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.0
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -248,7 +248,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 58.9
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,8 +259,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
 security:
@@ -279,12 +279,12 @@ security:
 slug: brainfish
 tags:
 - Company
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - Knowledge Base
 - Help Desk
 - Agents
 - Support Automation
-- SaaS
+- Software-as-a-Service
 website: https://www.brainfishai.com
 ---

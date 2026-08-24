@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,10 +27,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-19'
+  score: 50.0
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Discovery API from Voidpet — 1 operation(s) for discovery.
@@ -111,9 +112,9 @@ description: Voidpet is a creative games studio behind emotion-inspired games, s
 image: https://voidpet.com/ogimage.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: voidpet-mcp.yml
-  slug: voidpet-mcpyml
+- description: Read-only, public MCP server exposing Voidpet's public products, pages, and legal-document discovery metadata. No authentication; no account or game-state access.
+  name: Voidpet MCP Server
+  slug: voidpet-mcp-server
 modified: '2026-07-21'
 name: Voidpet
 nav: Providers
@@ -125,18 +126,18 @@ overview: 'Voidpet publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 7
 score:
   band: developing
-  composite: 41.5
-  delta: 8.2
+  composite: 42.7
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 16.7
     contract_quality: 44.1
     developer_ergonomics: 38.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 33.3
+  previous_composite: 42.7
   provenance:
     conformance: derived
     contracts:
@@ -152,9 +153,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Voidpet Authentication

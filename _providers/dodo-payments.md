@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ modified: '2026-06-21'
 name: Dodo Payments
 nav: Providers
 network: true
-overview: 'Dodo Payments publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Checkout Sessions API, Customers API, Discounts API, and 9 more. Tagged areas include Payments, Merchant of Record, Subscriptions, Billing, and Global Commerce.
+overview: 'Dodo Payments publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Checkout Sessions API, Customers API, Discounts API, and 9 more. Tagged areas include Payments, Merchant of Record, Subscription, Billing, and Global Commerce.
 
 
   Dodo Payments'' developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -207,7 +207,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.4
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/screenshots/dodo-payments-2026-07-25T212230.png
 security:
@@ -242,7 +242,7 @@ slug: dodo-payments
 tags:
 - Payments
 - Merchant of Record
-- Subscriptions
+- Subscription
 - Billing
 - Global Commerce
 website: https://dodopayments.com

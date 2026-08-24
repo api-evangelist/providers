@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The core CrowdTwist REST/JSON API for loyalty program members and their points economy — create, read, update and delete members; award points for activities; read the activity, reward and badge catal
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.0
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -188,12 +188,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 53.5
+  previous_composite: 52.0
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowdtwist/refs/heads/main/screenshots/crowdtwist-2026-07-25T210811.png
 security:
@@ -228,6 +228,6 @@ tags:
 - Retail
 - Commerce
 - Segmentation
-- Webhooks
+- Webhook
 website: https://crowdtwist.com/
 ---

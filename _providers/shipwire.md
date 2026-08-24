@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Create new orders and update, cancel, or get information about existing outbound B2C orders. Includes shipment details such as shipping box dimensions, contents, and tracking information.
@@ -145,7 +145,7 @@ modified: '2026-06-13'
 name: Shipwire
 nav: Providers
 network: true
-overview: 'Shipwire publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fulfillment, Logistics, 3PL, eCommerce, and Shipping.
+overview: 'Shipwire publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fulfillment, Logistics, 3PL, E-Commerce, and Shipping.
 
 
   Shipwire''s developer surface includes documentation, getting-started guide, engineering blog, pricing, sandbox, and 12 more developer resources.'
@@ -161,7 +161,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.4
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -171,15 +171,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 36.6
+  previous_composite: 35.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipwire/refs/heads/main/screenshots/shipwire-2026-06-20T193825.png
 security:
@@ -192,11 +192,11 @@ tags:
 - Fulfillment
 - Logistics
 - 3PL
-- eCommerce
+- E-Commerce
 - Shipping
 - Warehousing
 - Inventory
-- Orders
+- Order
 - Returns
 - Carriers
 website: https://www.shipwire.com/

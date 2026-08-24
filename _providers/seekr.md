@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -413,13 +413,13 @@ image: https://s48368.pcdn.co/wp-content/uploads/2025/10/Seekr-Thumbnail-OG-Imag
 layout: provider
 mcp_servers:
 - description: ''
-  name: seekr-mcp.yml
-  slug: seekr-mcpyml
+  name: Seekr
+  slug: seekr
 modified: '2026-08-05'
 name: Seekr
 nav: Providers
 network: true
-overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents v1 - legacy API, Alignment API, and 31 more. Tagged areas include artificial-intelligence, generative-ai, agents, llm, and fine-tuning.
+overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents v1 - legacy API, Alignment API, and 31 more. Tagged areas include Artificial Intelligence, Generative AI, Agents, LLM, and Fine-Tuning.
 
 
   Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
@@ -427,7 +427,7 @@ random_paper: 13
 score:
   band: strong
   composite: 61.6
-  delta: 5.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -437,7 +437,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 56.1
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -454,9 +454,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/screenshots/seekr-2026-08-17T081750.png
 security:
 - kind: authentication
@@ -473,23 +473,23 @@ security:
   summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001:2022, CMMC Certified
 slug: seekr
 tags:
-- artificial-intelligence
-- generative-ai
-- agents
-- llm
-- fine-tuning
-- inference
-- rag
-- vector-database
-- explainability
-- ai-governance
-- model-evaluation
-- observability
-- geospatial-intelligence
-- defense
-- government
-- regulated-industries
-- mcp
+- Artificial Intelligence
+- Generative AI
+- Agents
+- LLM
+- Fine-Tuning
+- Inference
+- RAG
+- Vector Database
+- Explainability
+- AI Governance
+- Model Evaluation
+- Observability
+- Geospatial Intelligence
+- Defense
+- Government
+- Regulated Industries
+- MCP
 - agent-native
 website: https://www.seekr.com/
 ---

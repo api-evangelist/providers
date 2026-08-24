@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -191,8 +191,8 @@ image: https://www.dashlane.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: dashlane-mcp.yml
-  slug: dashlane-mcpyml
+  name: Dashlane MCP Server
+  slug: dashlane-mcp-server
 modified: '2026-07-18'
 name: Dashlane
 nav: Providers
@@ -205,7 +205,7 @@ random_paper: 13
 score:
   band: developing
   composite: 51.0
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -215,7 +215,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 50.7
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +226,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/screenshots/dashlane-2026-07-25T211226.png
 security:

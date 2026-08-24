@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 6.2
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -82,9 +82,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethonai/refs/heads/main/screenshots/ethonai-2026-07-25T213651.png
 security:
@@ -103,7 +103,7 @@ tags:
 - Manufacturing
 - Manufacturing Analytics
 - Quality Management
-- Machine Learning
+- Machine-Learning
 - Causal AI
 - Industry 4.0
 - IoT

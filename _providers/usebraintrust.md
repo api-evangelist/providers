@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public Braintrust network statistics.
@@ -128,9 +128,9 @@ examples:
 image: https://www.usebraintrust.com/braintrust-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: usebraintrust-mcp.yml
-  slug: usebraintrust-mcpyml
+- description: Braintrust (usebraintrust.com) publishes no official MCP server (no MCP registry entry, no @modelcontextprotocol package, no docs mention found). This is a CANDIDATE tool list derived from the observe
+  name: Braintrust (Talent Network) MCP Server
+  slug: braintrust-talent-network-mcp-server
 modified: '2026-07-21'
 name: Braintrust (Talent Network)
 nav: Providers
@@ -143,7 +143,7 @@ random_paper: 7
 score:
   band: thin
   composite: 31.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -153,7 +153,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 31.4
+  previous_composite: 31.1
   provenance:
     conformance: first-party
     contracts:
@@ -163,8 +163,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

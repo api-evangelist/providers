@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 6
@@ -350,13 +350,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payjp.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: payjp-mcp.yml
-  slug: payjp-mcpyml
+  name: PAY.JP MCP Server
+  slug: payjp-mcp-server
 modified: '2026-07-18'
 name: PAY.JP
 nav: Providers
 network: true
-overview: 'PAY.JP publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 3D Secure API, Account API, Balances API, and 11 more. Tagged areas include Payments, FinTech, Japan, Credit Cards, and Subscriptions.
+overview: 'PAY.JP publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 3D Secure API, Account API, Balances API, and 11 more. Tagged areas include Payments, Fintech, Japan, Credit Cards, and Subscription.
 
 
   The PAY.JP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -375,7 +375,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 79.0
-  delta: 10.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -385,7 +385,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 68.5
+  previous_composite: 79.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,9 +402,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/screenshots/payjp-2026-08-07T191639.png
 security:
 - kind: authentication
@@ -426,10 +426,10 @@ security:
 slug: payjp
 tags:
 - Payments
-- FinTech
+- Fintech
 - Japan
 - Credit Cards
-- Subscriptions
+- Subscription
 - Tokenization
 website: https://pay.jp/
 ---

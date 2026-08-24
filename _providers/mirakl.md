@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -343,13 +343,13 @@ image: https://developer.mirakl.com/assets/favicon.4ab028206801f00ee2105fefa49d3
 layout: provider
 mcp_servers:
 - description: ''
-  name: mirakl-mcp.yml
-  slug: mirakl-mcpyml
+  name: Mirakl MCP Server
+  slug: mirakl-mcp-server
 modified: '2026-08-13'
 name: Mirakl
 nav: Providers
 network: true
-overview: 'Mirakl publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Catalog Configuration API, Incidents API, and 23 more. Tagged areas include Company, Commerce, eCommerce, Marketplace, and Dropship.
+overview: 'Mirakl publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Catalog Configuration API, Incidents API, and 23 more. Tagged areas include Company, Commerce, E-Commerce, Marketplace, and Dropship.
 
 
   The Mirakl catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -373,7 +373,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.1
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -383,7 +383,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 72.2
+  previous_composite: 69.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -394,8 +394,8 @@ score:
       total: 19
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
 security:
@@ -415,12 +415,12 @@ slug: mirakl
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - Marketplace
 - Dropship
 - Retail
 - Catalog
-- Orders
+- Order
 - Retail Media
 - B2B
 website: https://www.mirakl.com/

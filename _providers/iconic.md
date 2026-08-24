@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Iconic
 nav: Providers
 network: true
-overview: 'Iconic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Gaming, Interactive Storytelling, and Generative AI.
+overview: 'Iconic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Gaming, Interactive Storytelling, and Generative AI.
 
 
   Iconic''s developer surface includes engineering blog and 7 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 5.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,9 +90,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iconic/refs/heads/main/screenshots/iconic-2026-07-25T222011.png
 security:
@@ -103,11 +103,11 @@ security:
 slug: iconic
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Gaming
 - Interactive Storytelling
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - Video Games
 - Conversational AI
 website: https://iconicgames.io

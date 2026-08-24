@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -309,8 +309,8 @@ image: https://github.com/artsy.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: art-mcp.yml
-  slug: art-mcpyml
+  name: Artsy MCP Server
+  slug: artsy-mcp-server
 modified: '2026-07-18'
 name: Artsy
 nav: Providers
@@ -327,7 +327,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.8
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -337,7 +337,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 43.1
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,8 +348,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/screenshots/art-2026-07-25T201312.png
 security:

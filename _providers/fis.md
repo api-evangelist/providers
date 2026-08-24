@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ modified: '2026-04-28'
 name: FIS Global
 nav: Providers
 network: true
-overview: 'FIS Global publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Payments API, and 2 more. Tagged areas include Banking, Core Banking, Financial Services, Payments, and Fintech.
+overview: 'FIS Global publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Payments API, and 2 more. Tagged areas include Banking, Core Banking, Financial-Services, Payments, and Fintech.
 
 
   The FIS Global catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -164,7 +164,7 @@ scopes:
 score:
   band: thin
   composite: 33.0
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -174,7 +174,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 38.9
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -188,9 +188,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/screenshots/fis-2026-06-20T181251.png
 security:
 - kind: authentication
@@ -205,7 +205,7 @@ slug: fis
 tags:
 - Banking
 - Core Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Fintech
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 3
@@ -413,14 +413,14 @@ description: 'X (formerly Twitter) operates the X Developer Platform, giving dev
 image: https://abs.twimg.com/favicons/twitter.3.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: twitter-x-mcp.yml
-  slug: twitter-x-mcpyml
+- description: X operates two official hosted MCP servers. The X MCP (api.x.com/mcp, serverInfo "xmcp", Streamable HTTP, protocol 2025-06-18) exposes X API capabilities — search, users, bookmarks, trends, news, Arti
+  name: Twitter/X MCP Server
+  slug: twitterx-mcp-server
 modified: '2026-07-21'
 name: Twitter/X
 nav: Providers
 network: true
-overview: 'Twitter/X publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Activity API, Articles API, and 19 more. Tagged areas include Company, Social, Social Media, Posts, and Real-Time.
+overview: 'Twitter/X publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Activity API, Articles API, and 19 more. Tagged areas include Company, Social, Social-Media, Posts, and Real-Time.
 
 
   The Twitter/X catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -440,7 +440,7 @@ scopes:
 score:
   band: strong
   composite: 63.1
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -450,7 +450,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 92.1
-  previous_composite: 65.9
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -461,8 +461,8 @@ score:
       total: 22
     mcp: first-party
     skills: unknown
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/screenshots/twitter-x-2026-08-17T082510.png
 security:
@@ -482,7 +482,7 @@ slug: twitter-x
 tags:
 - Company
 - Social
-- Social Media
+- Social-Media
 - Posts
 - Real-Time
 - Streaming

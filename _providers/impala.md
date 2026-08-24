@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Making and managing bookings.
@@ -122,8 +122,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/impala.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: impala-mcp.yml
-  slug: impala-mcpyml
+  name: Impala MCP Server
+  slug: impala-mcp-server
 modified: '2026-07-19'
 name: Impala
 nav: Providers
@@ -136,7 +136,7 @@ random_paper: 19
 score:
   band: thin
   composite: 30.0
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -152,7 +152,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 30.2
+  previous_composite: 30.0
   provenance:
     conformance: derived
     contracts:
@@ -168,8 +168,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/screenshots/impala-2026-07-25T222147.png
 security:

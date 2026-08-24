@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-05-24'
 name: Phonely
 nav: Providers
 network: true
-overview: 'Phonely publishes 2 APIs on the [APIs.io](https://apis.io/) network: Agents API and Webhooks API. Tagged areas include AI, Artificial Intelligence, Voice AI, Voice Agents, and Conversational AI.
+overview: 'Phonely publishes 2 APIs on the [APIs.io](https://apis.io/) network: Agents API and Webhooks API. Tagged areas include Artificial Intelligence, Voice AI, Voice Agents, Conversational AI, and Telephony.
 
 
   The Phonely catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -254,7 +254,7 @@ rules:
 score:
   band: developing
   composite: 49.2
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -264,7 +264,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 54.3
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     contracts:
@@ -278,9 +278,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/screenshots/phonely-2026-06-20T191652.png
 security:
 - kind: authentication
@@ -293,7 +293,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: phonely
 tags:
-- AI
 - Artificial Intelligence
 - Voice AI
 - Voice Agents
@@ -303,8 +302,8 @@ tags:
 - Call Center
 - Contact Center
 - SMS
-- Webhooks
-- Workflow Automation
+- Webhook
+- Workflow-Automation
 - Scheduling
 - CRM
 use_cases:

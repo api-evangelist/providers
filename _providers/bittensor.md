@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -138,13 +138,13 @@ image: https://github.com/opentensor.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: bittensor-mcp.yml
-  slug: bittensor-mcpyml
+  name: Bittensor MCP Server
+  slug: bittensor-mcp-server
 modified: '2026-07-18'
 name: Bittensor
 nav: Providers
 network: true
-overview: 'Bittensor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Blockchain, Decentralized AI, and Machine Learning.
+overview: 'Bittensor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Blockchain, Decentralized AI, and Machine-Learning.
 
 
   Bittensor''s developer surface includes documentation, getting-started guide, API reference, engineering blog, CLI, authentication, and 16 more developer resources.'
@@ -152,7 +152,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 22.2
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -162,14 +162,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 21.6
+  previous_composite: 22.2
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bittensor/refs/heads/main/screenshots/bittensor-2026-07-25T203211.png
 security:
@@ -184,10 +184,10 @@ security:
 slug: bittensor
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Blockchain
 - Decentralized AI
-- Machine Learning
+- Machine-Learning
 - Cryptocurrency
 - Web3
 - SDK

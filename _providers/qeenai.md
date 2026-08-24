@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Qeen's first-party mobile analytics and commerce-event SDK, shipped as a binary XCFramework for iOS (Swift Package Manager) and an AAR for Android (self-hosted Maven). It exposes a typed commerce even
@@ -150,7 +150,7 @@ modified: '2026-08-12'
 name: Qeen.AI
 nav: Providers
 network: true
-overview: 'Qeen.AI publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Marketing, Ecommerce, and Advertising.
+overview: 'Qeen.AI publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Marketing, E-Commerce, and Advertising.
 
 
   Qeen.AI''s developer surface includes engineering blog, signup flow, documentation, support, pricing, authentication, changelog, and 17 more developer resources.'
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.3
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -176,11 +176,11 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 35.3
+  previous_composite: 33.3
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -194,9 +194,9 @@ security:
 slug: qeenai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Marketing
-- Ecommerce
+- E-Commerce
 - Advertising
 - MENA
 - Analytics

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 10
@@ -325,7 +325,7 @@ modified: '2026-05-19'
 name: QuantCDN
 nav: Providers
 network: true
-overview: 'QuantCDN publishes 38 APIs on the [APIs.io](https://apis.io/) network, including AI Agents API, AI Custom Tools API, AI File Storage API, and 35 more. Tagged areas include CDN, Edge, Static Hosting, Jamstack, and DNS.
+overview: 'QuantCDN publishes 38 APIs on the [APIs.io](https://apis.io/) network, including AI Agents API, AI Custom Tools API, AI File Storage API, and 35 more. Tagged areas include CDN, Edge, Static Hosting, JAMstack, and DNS.
 
 
   QuantCDN''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
@@ -341,7 +341,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.6
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -351,7 +351,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.1
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -359,8 +359,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/screenshots/quantcdn-2026-06-20T192409.png
 security:
@@ -381,7 +381,7 @@ tags:
 - CDN
 - Edge
 - Static Hosting
-- Jamstack
+- JAMstack
 - DNS
 - WAF
 - Edge Computing

@@ -28,14 +28,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/broadcom/
 created: '2026-07-17'
 description: NewPort Communications was a fabless semiconductor startup that developed mixed-signal integrated circuits for the high-speed optical networking market, including CMOS-based transceivers for 2.5-Gbit/s (OC-48) SONET/SDH applications. Founded in 1999, the company was backed by Mayfield Fund, Bessemer Venture Partners, and Cisco Investments (roughly $28M across Series A and B) before being acquired by Broadcom on October 4, 2000 to strengthen Broadcom's networking semiconductor portfolio. It is a defunct company with no standalone public web presence and no API surface; this record is retained as a historical portfolio-company lead in the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newport-communications.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-21'
 name: Newport Communications
 nav: Providers
 network: true
@@ -44,7 +49,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 0.6
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -62,15 +67,15 @@ score:
       reason: no_resolvable_host
     - owner: catalog
       reason: never_enriched
-  previous_composite: 4.3
+  previous_composite: 0.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: newport-communications
 tags:

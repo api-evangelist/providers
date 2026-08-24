@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -668,9 +668,9 @@ jsonld:
   slug: microsoft-exchange-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: microsoft-exchange-mcp.yml
-  slug: microsoft-exchange-mcpyml
+- description: Candidate MCP server for Microsoft Exchange derived one-tool-per-operation from the repo's OpenAPI definitions (79 operations across the Graph Mail, Calendar, Contacts, People, Import/Export, and Exch
+  name: Microsoft Exchange MCP Server
+  slug: microsoft-exchange-mcp-server
 modified: '2026-06-20'
 name: Microsoft Exchange
 nav: Providers
@@ -710,7 +710,7 @@ scopes:
 score:
   band: strong
   composite: 58.4
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
@@ -720,7 +720,7 @@ score:
     discoverability: 87.0
     governance: 26.5
     operational_transparency: 26.3
-  previous_composite: 66.7
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -730,9 +730,9 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:
 - kind: authentication

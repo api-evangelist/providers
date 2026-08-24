@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to Improvado's data extraction, transformation, and loading capabilities — data sources, connections, accounts, extraction templates, extracts, destinations, loads, data tables, re
@@ -158,9 +158,9 @@ description: Improvado is an AI-powered marketing intelligence and data platform
 image: https://improvado.io/logo_light.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: improvadoio-mcp.yml
-  slug: improvadoio-mcpyml
+- description: Official Improvado MCP server. A secure proxy that exposes the Improvado marketing-data platform (500+ connectors, governed transformations, real-time analytics) to AI agents. The MCP layer acts as an
+  name: Improvado.io MCP Server
+  slug: improvadoio-mcp-server
 modified: '2026-07-19'
 name: Improvado.io
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 17
 score:
   band: developing
   composite: 50.1
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -186,12 +186,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 53.9
+  previous_composite: 50.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/screenshots/improvadoio-2026-07-25T222205.png
 security:
@@ -221,6 +221,6 @@ tags:
 - Marketing Intelligence
 - Data Pipeline
 - MCP
-- Webhooks
+- Webhook
 website: https://improvado.io
 ---

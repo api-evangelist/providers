@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -454,8 +454,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: stedi-mcp.yml
-  slug: stedi-mcpyml
+  name: Stedi MCP Server
+  slug: stedi-mcp-server
 modified: '2026-08-15'
 name: Stedi
 nav: Providers
@@ -495,7 +495,7 @@ scopes:
 score:
   band: exemplar
   composite: 85.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -505,7 +505,7 @@ score:
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 76.3
-  previous_composite: 85.3
+  previous_composite: 85.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -522,8 +522,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/screenshots/stedi-2026-06-20T194534.png
 security:

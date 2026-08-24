@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: Caer
 nav: Providers
 network: true
-overview: 'Caer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Food and Beverage, E-commerce, and Baby and Kids.
+overview: 'Caer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Food and Beverage, E-Commerce, and Baby and Kids.
 
 
   Caer''s developer surface includes pricing, signup flow, engineering blog, support, and 4 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 15.4
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -90,9 +90,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caer/refs/heads/main/screenshots/caer-2026-07-25T204221.png
 security:
@@ -105,7 +105,7 @@ tags:
 - Company
 - Consumer Packaged Goods
 - Food and Beverage
-- E-commerce
+- E-Commerce
 - Baby and Kids
 - Nutrition
 - Direct to Consumer

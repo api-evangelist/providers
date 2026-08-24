@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 26
 apis:
 - description: The bi API from Select Star — 23 operation(s) for bi.
@@ -311,9 +311,9 @@ description: Select Star is a metadata context platform that provides an automat
 image: https://www.selectstar.com/
 layout: provider
 mcp_servers:
-- description: ''
-  name: select-star-mcp.yml
-  slug: select-star-mcpyml
+- description: Official hosted (remote) Model Context Protocol server for the Select Star metadata platform. Lets MCP clients (Claude Desktop, Cursor, Claude Code) search the data catalog, retrieve asset details, in
+  name: Select Star MCP Server
+  slug: select-star-mcp-server
 modified: '2026-07-21'
 name: Select Star
 nav: Providers
@@ -326,7 +326,7 @@ random_paper: 14
 score:
   band: developing
   composite: 47.4
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -336,7 +336,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 49.5
+  previous_composite: 47.4
   provenance:
     conformance: derived
     contracts:
@@ -346,8 +346,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/screenshots/select-star-2026-08-17T081758.png
 security:

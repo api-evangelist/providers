@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Scores API from WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) — 2 operation(s) for scores.
@@ -169,9 +169,9 @@ examples:
 image: https://raw.githubusercontent.com/amitesh-m/wealthville-integrations/main/assets/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: wealthville-defi-liquidity-pool-scores-api-solana-evm-mcp.yml
-  slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-mcpyml
+- description: Solana + EVM liquidity-pool scores - Enter/Hold/Exit verdicts and a 0-100 Wealthville Score.
+  name: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) MCP Server
+  slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-mcp-server
 modified: '2026-08-09'
 name: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)
 nav: Providers
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.0
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 45.4
+  previous_composite: 44.0
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +208,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/screenshots/wealthville-defi-liquidity-pool-scores-api-solana-evm-2026-08-17T082848.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -260,7 +260,7 @@ modified: '2026-06-13'
 name: National Institutes of Health (NIH)
 nav: Providers
 network: true
-overview: 'National Institutes of Health (NIH) publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BioSample API, Gene API, Genome API, and 7 more. Tagged areas include Biomedical, Research, PubMed, ClinicalTrials, and PubChem.
+overview: 'National Institutes of Health (NIH) publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BioSample API, Gene API, Genome API, and 7 more. Tagged areas include Biomedical, Research, PubMed, Clinical Trials, and PubChem.
 
 
   The National Institutes of Health (NIH) catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -290,7 +290,7 @@ rules:
 score:
   band: developing
   composite: 41.4
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -300,7 +300,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 43.0
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -314,8 +314,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/screenshots/nih-2026-06-20T190323.png
 security:
@@ -332,7 +332,7 @@ tags:
 - Biomedical
 - Research
 - PubMed
-- ClinicalTrials
+- Clinical Trials
 - PubChem
 - Genomics
 - Health

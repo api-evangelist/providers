@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -98,7 +98,7 @@ modified: '2026-08-14'
 name: Imperson
 nav: Providers
 network: true
-overview: 'Imperson is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Chatbots, Customer Support, and Lead Generation.
+overview: 'Imperson is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Chatbots, Customer-Support, and Lead Generation.
 
 
   Imperson''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.2
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -124,11 +124,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 14.2
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperson/refs/heads/main/screenshots/imperson-2026-07-25T222152.png
 security:
@@ -145,10 +145,10 @@ tags:
 - Company
 - Conversational AI
 - Chatbots
-- Customer Support
+- Customer-Support
 - Lead Generation
 - Sales Automation
 - Enterprise
-- Model Context Protocol
+- MCP
 website: https://www.imperson.com/
 ---

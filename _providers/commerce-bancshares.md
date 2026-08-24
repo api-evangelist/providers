@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Commerce Bank's corporate API program, published through a registration-gated external developer portal and the CommercePayments developer platform, covering payments, treasury, and embedded-banking i
@@ -76,7 +76,7 @@ modified: '2026-07-23'
 name: Commerce Bank
 nav: Providers
 network: true
-overview: 'Commerce Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Regional Bank, and Payments.
+overview: 'Commerce Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Regional Bank, and Payments.
 
 
   Commerce Bank''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 10.7
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -94,16 +94,16 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.7
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-bancshares/refs/heads/main/screenshots/commerce-bancshares-2026-07-25T210127.png
 security:
 - kind: domain-security
@@ -112,7 +112,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: commerce-bancshares
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Regional Bank

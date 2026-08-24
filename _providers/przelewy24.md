@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -1476,7 +1476,7 @@ rules:
 score:
   band: developing
   composite: 44.3
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -1486,7 +1486,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 15.8
-  previous_composite: 47.1
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1500,8 +1500,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png
 security:

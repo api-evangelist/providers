@@ -27,10 +27,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-19'
+  score: 56.8
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -189,13 +189,13 @@ image: https://tako.com/apple-touch-icon
 layout: provider
 mcp_servers:
 - description: ''
-  name: tako-mcp.yml
-  slug: tako-mcpyml
+  name: Tako MCP Server
+  slug: tako-mcp-server
 modified: '2026-07-21'
 name: Tako
 nav: Providers
 network: true
-overview: 'Tako publishes 2 APIs on the [APIs.io](https://apis.io/) network: agent API and tako API. Tagged areas include Company, AI, Data, Search, and Answer Engine.
+overview: 'Tako publishes 2 APIs on the [APIs.io](https://apis.io/) network: agent API and tako API. Tagged areas include Company, Artificial Intelligence, Data, Search, and Answer Engine.
 
 
   Tako''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
@@ -206,18 +206,18 @@ rate_limits:
   slug: tako-rate-limits
 score:
   band: developing
-  composite: 52.5
-  delta: -0.9
+  composite: 53.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 16.7
     contract_quality: 58.7
     developer_ergonomics: 75.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 53.4
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,8 +228,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/screenshots/tako-2026-08-17T082243.png
 security:
@@ -244,7 +244,7 @@ security:
 slug: tako
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Search
 - Answer Engine

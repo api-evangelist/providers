@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Auto-generated REST API built on top of any SQL database schema. Provides full CRUD operations on all collections, authentication endpoints, file management, user and role management, and system confi
@@ -143,7 +143,7 @@ modified: '2026-06-14'
 name: Directus
 nav: Providers
 network: true
-overview: 'Directus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, REST API, Headless CMS, Data Platform, and Open Source.
+overview: 'Directus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, REST API, Headless CMS, Data Platform, and Open-Source.
 
 
   Directus'' developer surface includes documentation, engineering blog, pricing, getting-started guide, API reference, YouTube channel, sandbox, and 16 more developer resources.'
@@ -151,7 +151,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 25.4
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -161,9 +161,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 29.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/directus/refs/heads/main/screenshots/directus-2026-06-20T180049.png
 security:
@@ -177,7 +177,7 @@ tags:
 - REST API
 - Headless CMS
 - Data Platform
-- Open Source
+- Open-Source
 - SQL Database
 - No-Code
 - Content Management

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -193,16 +193,16 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
+  name: DreamThreads MCP Server
+  slug: dreamthreads-mcp-server
+- description: Parse dreams into structured context and search DreamGraph concepts without storing dream text.
   name: DreamGraph MCP server manifest
   slug: dreamgraph-mcp-server-manifest
 modified: '2026-08-14'
 name: DreamThreads
 nav: Providers
 network: true
-overview: 'DreamThreads publishes 1 API on the [APIs.io](https://apis.io/) network: DreamGraph API. Tagged areas include dream analysis, dream interpretation, natural language processing, structured parsing, and AI agents.
+overview: 'DreamThreads publishes 1 API on the [APIs.io](https://apis.io/) network: DreamGraph API. Tagged areas include dream analysis, dream interpretation, Natural Language Processing, structured parsing, and AI Agents.
 
 
   DreamThreads'' developer surface includes documentation, API reference, getting-started guide, support, GitHub presence, pricing, signup flow, and 28 more developer resources.'
@@ -218,7 +218,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.1
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -228,7 +228,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 47.4
-  previous_composite: 52.7
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +239,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamthreads/refs/heads/main/screenshots/dreamthreads-2026-08-17T080903.png
 security:
@@ -260,10 +260,10 @@ slug: dreamthreads
 tags:
 - dream analysis
 - dream interpretation
-- natural language processing
+- Natural Language Processing
 - structured parsing
-- AI agents
-- MCP server
+- AI Agents
+- MCP Server
 - OpenAPI
 - wellness / sleep
 - research tooling

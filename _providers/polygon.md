@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -599,18 +599,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 71.6
-  delta: -4.8
+  composite: 71.9
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 71.5
     developer_ergonomics: 56.5
     discoverability: 92.6
-    governance: 43.2
+    governance: 45.5
     operational_transparency: 57.9
-  previous_composite: 76.4
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -627,8 +627,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:
@@ -659,7 +659,7 @@ tags:
 - Indices
 - Futures
 - WebSockets
-- Real-time
+- Real-Time
 - Historical
 - Public APIs
 use_cases:

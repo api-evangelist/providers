@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Channel99's Bulk Data Transfer REST API. Seventeen operations giving programmatic access to the account-resolved marketing facts behind the platform - website visits, pageviews, ad impressions and buy
@@ -172,9 +172,9 @@ description: Channel99 is a B2B marketing performance and attribution platform f
 image: https://framerusercontent.com/images/dSAqQ1GEpOzYDyupOzsHlZaB9g.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: channel99-mcp.yml
-  slug: channel99-mcpyml
+- description: Channel99 operates a first-party, remote Model Context Protocol server that exposes its B2B marketing performance data - website visits, pixel impressions, vendor and channel scores, audiences, accoun
+  name: Channel99 MCP Server
+  slug: channel99-mcp-server
 modified: '2026-08-12'
 name: Channel99
 nav: Providers
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -210,7 +210,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 50.1
+  previous_composite: 46.1
   provenance:
     conformance: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/screenshots/channel99-2026-07-25T205041.png
 security:
@@ -243,7 +243,7 @@ tags:
 - Advertising
 - Marketing Technology
 - Artificial Intelligence
-- Account-Based Marketing
+- Account Based Marketing
 - Reporting
 - MCP
 - Agent Ready

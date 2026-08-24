@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -220,18 +220,18 @@ rules:
   slug: discgolfapi-rules
 score:
   band: developing
-  composite: 43.0
-  delta: -2.6
+  composite: 43.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 68.4
     developer_ergonomics: 9.5
     discoverability: 75.9
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 45.6
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -245,8 +245,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/screenshots/discgolfapi-2026-06-20T180032.png
 security:

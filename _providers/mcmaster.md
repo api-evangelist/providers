@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Institutional API management developer portal operated by McMaster University Technology Services. Access requires sign-in with a MacID and password plus a short registration step; APIs and products c
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.4
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -134,15 +134,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.5
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/screenshots/mcmaster-2026-06-20T185102.png
 security:

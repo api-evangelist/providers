@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -209,13 +209,13 @@ image: https://qcs.rigetti.com/static/img/rigetti-logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: rigetti-computing-mcp.yml
-  slug: rigetti-computing-mcpyml
+  name: Rigetti Computing MCP Server
+  slug: rigetti-computing-mcp-server
 modified: '2026-07-21'
 name: Rigetti Computing
 nav: Providers
 network: true
-overview: 'Rigetti Computing publishes 9 APIs on the [APIs.io](https://apis.io/) network, including account API, authentication API, clientApplications API, and 6 more. Tagged areas include Company, Quantum Computing, Quantum Cloud, Developer Tools, and SDKs.
+overview: 'Rigetti Computing publishes 9 APIs on the [APIs.io](https://apis.io/) network, including account API, authentication API, clientApplications API, and 6 more. Tagged areas include Company, Quantum Computing, Quantum Cloud, Developer Tools, and SDK.
 
 
   Rigetti Computing''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
@@ -223,7 +223,7 @@ random_paper: 2
 score:
   band: developing
   composite: 42.8
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -233,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 45.5
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,8 +244,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/screenshots/rigetti-computing-2026-08-17T081601.png
 security:
@@ -263,7 +263,7 @@ tags:
 - Quantum Computing
 - Quantum Cloud
 - Developer Tools
-- SDKs
+- SDK
 - Superconducting Qubits
 - Scientific Computing
 - Deep Tech

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -201,14 +201,14 @@ description: 'Yutori builds AI web agents delivered as an API. Its Navigator (n1
 image: https://yutori.com/icon-512.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: yutori-mcp.yml
-  slug: yutori-mcpyml
+- description: Create and manage Yutori Scouts and run Research and Browsing web-agent tasks via the Yutori API.
+  name: Yutori MCP Server
+  slug: yutori-mcp-server
 modified: '2026-07-21'
 name: Yutori
 nav: Providers
 network: true
-overview: 'Yutori publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Browsing API, Chat Completions API, Health API, and 2 more. Tagged areas include Company, AI, Agents, Web Automation, and Browser Automation.
+overview: 'Yutori publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Browsing API, Chat Completions API, Health API, and 2 more. Tagged areas include Company, Artificial Intelligence, Agents, Web Automation, and Browser Automation.
 
 
   The Yutori catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -219,7 +219,7 @@ random_paper: 12
 score:
   band: developing
   composite: 50.5
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -229,7 +229,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 53.5
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,8 +240,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/screenshots/yutori-2026-08-17T083028.png
 security:
@@ -256,7 +256,7 @@ security:
 slug: yutori
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Web Automation
 - Browser Automation

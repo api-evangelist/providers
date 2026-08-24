@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-06-13'
 name: Random User Generator
 nav: Providers
 network: true
-overview: 'Random User Generator publishes 1 API on the [APIs.io](https://apis.io/) network: Users API. Tagged areas include Test Data, Synthetic Data, Mock Data, Open Source, and Public API.
+overview: 'Random User Generator publishes 1 API on the [APIs.io](https://apis.io/) network: Users API. Tagged areas include Test Data, Synthetic Data, Mock Data, Open-Source, and Public API.
 
 
   The Random User Generator catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -216,18 +216,18 @@ rules:
   slug: randomuser-rules
 score:
   band: thin
-  composite: 28.1
-  delta: -5.8
+  composite: 28.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 26.2
     developer_ergonomics: 14.3
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 33.9
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -235,9 +235,9 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/screenshots/randomuser-2026-06-20T192554.png
 security:
 - kind: domain-security
@@ -256,7 +256,7 @@ tags:
 - Test Data
 - Synthetic Data
 - Mock Data
-- Open Source
+- Open-Source
 - Public API
 - Free API
 use_cases:

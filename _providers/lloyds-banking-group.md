@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-07-23'
 name: Lloyds Banking Group
 nav: Providers
 network: true
-overview: 'Lloyds Banking Group publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction Information API, Payment Initiation API, and 2 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Lloyds Banking Group publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction Information API, Payment Initiation API, and 2 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   The Lloyds Banking Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -170,7 +170,7 @@ scopes:
 score:
   band: developing
   composite: 42.3
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -180,7 +180,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 40.9
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,8 +196,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
 security:
@@ -211,7 +211,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: lloyds-banking-group
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

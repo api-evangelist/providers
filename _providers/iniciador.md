@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Iniciador's regulated Open Finance Brasil API surface for payment initiation and financial data sharing (accounts, credit cards, loans, financings, investments, exchanges, and more), authorized via FA
@@ -146,7 +146,7 @@ scopes:
 score:
   band: thin
   composite: 36.6
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -156,7 +156,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 36.1
+  previous_composite: 36.6
   provenance:
     conformance: first-party
   regulatory:
@@ -165,8 +165,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/screenshots/iniciador-2026-07-25T222443.png
 security:
@@ -196,7 +196,7 @@ tags:
 - Pix
 - Brazil
 - FAPI
-- OAuth
-- Financial Services
+- Authentication
+- Financial-Services
 website: https://iniciador.com.br
 ---

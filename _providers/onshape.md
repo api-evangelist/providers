@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 2
@@ -443,8 +443,8 @@ image: https://github.com/onshape-public.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: onshape-mcp.yml
-  slug: onshape-mcpyml
+  name: Onshape MCP Server
+  slug: onshape-mcp-server
 modified: '2026-07-20'
 name: Onshape
 nav: Providers
@@ -469,7 +469,7 @@ scopes:
 score:
   band: developing
   composite: 53.3
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -479,7 +479,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 55.6
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -490,8 +490,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/screenshots/onshape-2026-08-07T190412.png
 security:

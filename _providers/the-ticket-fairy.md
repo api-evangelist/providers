@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The REST API behind Ticket Fairy''s ticket-buying experience: events, ticket types, time slots, add-ons, promo codes, cart, checkout, payment, orders, issued tickets and face-value resale, plus OAuth t'
@@ -143,7 +143,7 @@ modified: '2026-08-13'
 name: The Ticket Fairy
 nav: Providers
 network: true
-overview: 'The Ticket Fairy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Events, Event Management, and Payments.
+overview: 'The Ticket Fairy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Event, Event Management, and Payments.
 
 
   The Ticket Fairy''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 19 more developer resources.'
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.7
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 28.4
+  previous_composite: 26.7
   provenance:
     conformance: first-party
   regulatory:
@@ -178,8 +178,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -194,7 +194,7 @@ slug: the-ticket-fairy
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Event Management
 - Payments
 - Marketing

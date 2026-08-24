@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -194,8 +194,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-b2b-data-interchange-mcp.yml
-  slug: amazon-b2b-data-interchange-mcpyml
+  name: Amazon B2B Data Interchange MCP Server
+  slug: amazon-b2b-data-interchange-mcp-server
 modified: '2026-06-20'
 name: Amazon B2B Data Interchange
 nav: Providers
@@ -222,7 +222,7 @@ rules:
 score:
   band: developing
   composite: 47.1
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 26.5
     operational_transparency: 0.0
-  previous_composite: 47.3
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +248,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/screenshots/amazon-b2b-data-interchange-2026-07-25T195932.png
 security:
@@ -272,6 +272,6 @@ tags:
 - Data Interchange
 - Supply Chain
 - Healthcare
-- Financial Services
+- Financial-Services
 - Amazon Web Services
 ---

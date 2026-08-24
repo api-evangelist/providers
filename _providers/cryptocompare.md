@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -474,8 +474,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: cryptocompare-mcp.yml
-  slug: cryptocompare-mcpyml
+  name: CryptoCompare MCP Server
+  slug: cryptocompare-mcp-server
 modified: '2026-07-22'
 name: CryptoCompare
 nav: Providers
@@ -531,18 +531,18 @@ rules:
   slug: cryptocompare-rules
 score:
   band: strong
-  composite: 54.8
-  delta: -16.8
+  composite: 55.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 74.3
     developer_ergonomics: 29.2
     discoverability: 87.0
-    governance: 43.2
+    governance: 45.5
     operational_transparency: 42.1
-  previous_composite: 71.6
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -559,9 +559,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:
 - kind: authentication
@@ -591,7 +591,7 @@ tags:
 - News
 - Social
 - Blockchain
-- On-Chain
+- Onchain
 - Order Book
 - Streaming
 - Index

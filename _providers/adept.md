@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Open-source 9B-parameter image-text-to-text multimodal model designed for digital agents - simple architecture, arbitrary image resolutions, and strong UI/document understanding. Self-hosted only - no
@@ -97,7 +97,7 @@ modified: '2026-05-08'
 name: Adept
 nav: Providers
 network: true
-overview: 'Adept publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Agents, Foundation Models, Action Models, and Workflow Automation.
+overview: 'Adept publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Agents, Foundation Models, Action Models, and Workflow-Automation.
 
 
   Adept''s developer surface includes engineering blog and 8 more developer resources.'
@@ -124,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 13.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adept/refs/heads/main/screenshots/adept-2026-06-20T164644.png
 security:
@@ -139,11 +139,11 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: adept
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Foundation Models
 - Action Models
-- Workflow Automation
-- Multimodal
+- Workflow-Automation
+- Multi-Modal
 website: https://www.adept.ai/
 ---

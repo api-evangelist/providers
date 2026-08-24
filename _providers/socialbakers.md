@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -203,13 +203,13 @@ image: https://base.cdn.emplifi.io/suite/main/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: socialbakers-mcp.yml
-  slug: socialbakers-mcpyml
+  name: Socialbakers MCP Server
+  slug: socialbakers-mcp-server
 modified: '2026-08-13'
 name: Socialbakers
 nav: Providers
 network: true
-overview: 'Socialbakers publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Assets API, Care API, and 5 more. Tagged areas include Company, Marketing, Social Media, Analytics, and Social Media Analytics.
+overview: 'Socialbakers publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Assets API, Care API, and 5 more. Tagged areas include Company, Marketing, Social-Media, Analytics, and Social Media Analytics.
 
 
   Socialbakers'' developer surface includes changelog, release notes, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
@@ -230,7 +230,7 @@ scopes:
 score:
   band: strong
   composite: 56.9
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -240,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 55.3
-  previous_composite: 58.3
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +251,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png
 security:
@@ -272,7 +272,7 @@ slug: socialbakers
 tags:
 - Company
 - Marketing
-- Social Media
+- Social-Media
 - Analytics
 - Social Media Analytics
 - Social Listening

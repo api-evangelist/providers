@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -428,7 +428,7 @@ modified: '2026-05-25'
 name: Freestyle
 nav: Providers
 network: true
-overview: 'Freestyle publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Certs API, Cron API, and 8 more. Tagged areas include AI, Agents, Sandboxes, VMs, and MicroVMs.
+overview: 'Freestyle publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Certs API, Cron API, and 8 more. Tagged areas include Artificial Intelligence, Agents, Sandboxes, VMs, and MicroVMs.
 
 
   The Freestyle catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -458,7 +458,7 @@ rules:
 score:
   band: strong
   composite: 61.5
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -468,7 +468,7 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 65.9
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -476,8 +476,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/screenshots/freestyle-sh-2026-06-20T181533.png
 security:
@@ -496,7 +496,7 @@ solutions:
 - AI Code Sandboxing — safer alternative to running LLM-generated code in your own process, with egress control and microVM isolation
 - Background Agent Infrastructure — persistent VMs that pause when idle and resume on event for long-running agentic workloads
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Sandboxes
 - VMs

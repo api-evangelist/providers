@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -362,7 +362,7 @@ scopes:
 score:
   band: thin
   composite: 37.4
-  delta: -13.5
+  delta: 0.0
   facets:
     access_clarity: 21.4
     commercial_clarity: 21.4
@@ -372,7 +372,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 50.9
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -386,9 +386,9 @@ score:
     regime: Health
     regime_id: health
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/screenshots/cigna-2026-06-20T174340.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Self-hosted gRPC interfaces (proto3, package tari.rpc) to a Tari base node and wallet, for querying the chain and controlling a wallet. Servers run locally on the operator's node rather than at a sing
@@ -115,8 +115,8 @@ image: https://tari.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: tari-mcp.yml
-  slug: tari-mcpyml
+  name: Tari MCP Server
+  slug: tari-mcp-server
 modified: '2026-07-21'
 name: Tari
 nav: Providers
@@ -129,7 +129,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 24.8
-  delta: 5.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -139,7 +139,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 19.4
+  previous_composite: 24.8
   provenance:
     conformance: derived
     mcp: derived
@@ -149,9 +149,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Tari Domain Security
@@ -164,7 +164,7 @@ tags:
 - Cryptocurrency
 - Protocol
 - gRPC
-- Wallet
+- Wallets
 - Mining
 - Privacy
 - Web3

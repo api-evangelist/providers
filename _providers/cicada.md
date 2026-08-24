@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Cicada
 nav: Providers
 network: true
-overview: 'Cicada is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Trading, and Bonds.
+overview: 'Cicada is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Trading, and Bonds.
 
 
   Cicada''s developer surface includes documentation, API reference, support, and 6 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 13.0
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -94,15 +94,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.9
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cicada/refs/heads/main/screenshots/cicada-2026-07-25T205338.png
 security:
@@ -113,7 +113,7 @@ security:
 slug: cicada
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Trading
 - Bonds

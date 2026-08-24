@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Cubby Operator API is a JSON HTTP API — explicitly not RESTful — oriented around actions performed on system entities rather than transfer of state. Roughly 70 POST endpoints cover access codes, l
@@ -163,14 +163,14 @@ description: Cubby is a New York City based software company building an AI-nati
 image: https://www.cubbystorage.com/og-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cubby-mcp.yml
-  slug: cubby-mcpyml
+- description: Cubby operates a hosted, remote Model Context Protocol server on its production API host. The endpoint is live and OAuth-protected. An anonymous JSON-RPC tools/list call returns HTTP 401 with a WWW-Au
+  name: Cubby MCP Server
+  slug: cubby-mcp-server
 modified: '2026-08-11'
 name: Cubby
 nav: Providers
 network: true
-overview: 'Cubby publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Self Storage, Property Management, Facility Management, and Real Estate.
+overview: 'Cubby publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Self Storage, Property Management, Facility Management, and Real-Estate.
 
 
   The Cubby catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -194,7 +194,7 @@ scopes:
 score:
   band: developing
   composite: 44.1
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -204,7 +204,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 46.7
+  previous_composite: 44.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -214,8 +214,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubby/refs/heads/main/screenshots/cubby-2026-08-17T080842.png
 security:
@@ -233,9 +233,9 @@ tags:
 - Self Storage
 - Property Management
 - Facility Management
-- Real Estate
+- Real-Estate
 - Payments
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 - Revenue Management
 - E-Commerce

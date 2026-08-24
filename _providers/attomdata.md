@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -353,7 +353,7 @@ modified: '2026-05-25'
 name: ATTOM
 nav: Providers
 network: true
-overview: 'ATTOM publishes 18 APIs on the [APIs.io](https://apis.io/) network, including All Events API, Assessment API, AVM API, and 15 more. Tagged areas include Real Estate, Property Data, Property Intelligence, Mortgage, and Assessment.
+overview: 'ATTOM publishes 18 APIs on the [APIs.io](https://apis.io/) network, including All Events API, Assessment API, AVM API, and 15 more. Tagged areas include Real-Estate, Property Data, Property Intelligence, Mortgage, and Assessment.
 
 
   The ATTOM catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -393,18 +393,18 @@ rules:
   slug: attomdata-rules
 score:
   band: developing
-  composite: 50.1
-  delta: -0.7
+  composite: 50.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.8
     developer_ergonomics: 59.5
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 50.8
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -418,8 +418,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/screenshots/attomdata-2026-06-20T172541.png
 security:
@@ -433,14 +433,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: attomdata
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Property Intelligence
 - Mortgage
 - Assessment
 - AVM
 - Foreclosure
-- Transactions
+- Transaction
 - Owner Data
 - Building Permits
 - Geospatial

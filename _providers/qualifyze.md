@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: Qualifyze
 nav: Providers
 network: true
-overview: 'Qualifyze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceutical, Life Sciences, and Supplier Risk.
+overview: 'Qualifyze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Life Sciences, and Supplier Risk.
 
 
   Qualifyze''s developer surface includes support, engineering blog, and 7 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 15.9
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -94,15 +94,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.4
+  previous_composite: 15.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -117,7 +117,7 @@ slug: qualifyze
 tags:
 - Company
 - Healthcare
-- Pharmaceutical
+- Pharmaceuticals
 - Life Sciences
 - Supplier Risk
 - Auditing

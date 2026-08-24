@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ rules:
 score:
   band: developing
   composite: 41.4
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -255,7 +255,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 43.9
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -269,8 +269,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/screenshots/cfpb-2026-06-20T174148.png
 security:

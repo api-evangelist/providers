@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ modified: '2026-06-25'
 name: TheSportsDB
 nav: Providers
 network: true
-overview: 'TheSportsDB publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Events API, Leagues API, Livescores API, and 4 more. Tagged areas include Sports, Sports Data, Teams, Players, and Events.
+overview: 'TheSportsDB publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Events API, Leagues API, Livescores API, and 4 more. Tagged areas include Sports, Sports Data, Team, Players, and Event.
 
 
   TheSportsDB''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -165,7 +165,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.4
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -189,8 +189,8 @@ slug: sportsdb
 tags:
 - Sports
 - Sports Data
-- Teams
+- Team
 - Players
-- Events
+- Event
 website: https://www.thesportsdb.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Supply-side ad request API. A single GET to /api/AdServer returns one or more ad objects for a full-screen interstitial or banner placement, as a JSON array (response_format=0) or as HTML markup (resp
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.8
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -182,11 +182,11 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 39.4
+  previous_composite: 37.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -213,6 +213,6 @@ tags:
 - Ad Serving
 - Connected TV
 - Supply Side Platform
-- Demand Side Platform
+- Demand-Side Platform
 website: https://pokkt.com
 ---

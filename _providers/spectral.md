@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Spectral is a flexible JSON/YAML linter and style guide enforcer with built-in support for OpenAPI (v3.1, v3.0, v2.0), Arazzo v1.0, and AsyncAPI v2.x. It enables teams to define custom rulesets to enf
@@ -110,7 +110,7 @@ modified: '2026-05-02'
 name: Spectral
 nav: Providers
 network: true
-overview: 'Spectral publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Linting, API Style Guide, AsyncAPI, and JSON Schema.
+overview: 'Spectral publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Linting, API Style Guide, AsyncAPI, and JSON-Schema.
 
 
   The Spectral catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -150,21 +150,21 @@ rules:
   slug: spectral-rules
 score:
   band: emerging
-  composite: 19.0
-  delta: -10.8
+  composite: 19.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 23.9
     developer_ergonomics: 2.4
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 29.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 19.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectral/refs/heads/main/screenshots/spectral-2026-06-20T194300.png
 security:
 - kind: domain-security
@@ -177,7 +177,7 @@ tags:
 - API Linting
 - API Style Guide
 - AsyncAPI
-- JSON Schema
+- JSON-Schema
 - OpenAPI
 - Quality Assurance
 website: https://stoplight.io/open-source/spectral

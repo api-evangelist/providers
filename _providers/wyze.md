@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'The first-party Wyze cloud API reached with a personal API Key and Key ID generated from the Wyze Developer API Console. Authentication posts credentials to auth-prod.api.wyze.com to exchange the key '
@@ -155,13 +155,13 @@ image: https://www.wyze.com/cdn/shop/files/Wyze_Ecosystem_Share.png?v=1781726389
 layout: provider
 mcp_servers:
 - description: ''
-  name: wyze-mcp.yml
-  slug: wyze-mcpyml
+  name: Wyze MCP Server
+  slug: wyze-mcp-server
 modified: '2026-08-02'
 name: Wyze
 nav: Providers
 network: true
-overview: 'Wyze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Internet of Things, Home Security, and Cameras.
+overview: 'Wyze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Internet of Things, Home Security, and Camera.
 
 
   Wyze''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
@@ -174,7 +174,7 @@ scopes:
 score:
   band: thin
   composite: 36.0
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -184,12 +184,12 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 37.8
+  previous_composite: 36.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -214,7 +214,7 @@ tags:
 - Smart Home
 - Internet of Things
 - Home Security
-- Cameras
+- Camera
 - Consumer Electronics
 - Home Automation
 - Video

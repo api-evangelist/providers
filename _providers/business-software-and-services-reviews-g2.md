@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The G2 API V2 provides programmatic access to G2's software reviews, buyer intent signals, competitive intelligence, and product data. Uses OAuth 2.0 for authentication. Enables integration of G2 buye
@@ -220,14 +220,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/business-software-and-services-reviews-g2.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: business-software-and-services-reviews-g2-mcp.yml
-  slug: business-software-and-services-reviews-g2-mcpyml
+- description: 'G2 operates an official remote MCP server at https://mcp.g2.com/mcp, authenticated with OAuth 2.0 Authorization Code + PKCE against G2''s own authorization server (https://www.g2.com/oauth/authorize). '
+  name: Business Software and Services Reviews | G2 MCP Server
+  slug: business-software-and-services-reviews-g2-mcp-server
 modified: '2026-08-14'
 name: Business Software and Services Reviews | G2
 nav: Providers
 network: true
-overview: 'Business Software and Services Reviews | G2 publishes 3 APIs on the [APIs.io](https://apis.io/) network: G2 API V2, G2 Buyer Intent Data API, and G2 Data Solutions API. Tagged areas include B2B, SaaS, Software Reviews, Buyer Intent, and Competitive Intelligence.
+overview: 'Business Software and Services Reviews | G2 publishes 3 APIs on the [APIs.io](https://apis.io/) network: G2 API V2, G2 Buyer Intent Data API, and G2 Data Solutions API. Tagged areas include B2B, Software-as-a-Service, Software Reviews, Buyer Intent, and Competitive Intelligence.
 
 
   The Business Software and Services Reviews | G2 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -251,7 +251,7 @@ scopes:
 score:
   band: developing
   composite: 54.1
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -261,7 +261,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 60.1
+  previous_composite: 54.1
   provenance:
     conformance: derived
     contracts:
@@ -271,9 +271,9 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/screenshots/business-software-and-services-reviews-g2-2026-06-20T173819.png
 security:
 - kind: authentication
@@ -291,7 +291,7 @@ security:
 slug: business-software-and-services-reviews-g2
 tags:
 - B2B
-- SaaS
+- Software-as-a-Service
 - Software Reviews
 - Buyer Intent
 - Competitive Intelligence

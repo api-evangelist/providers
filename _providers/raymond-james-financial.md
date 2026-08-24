@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-05-02'
 name: Raymond James Financial
 nav: Providers
 network: true
-overview: 'Raymond James Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Banking, Brokerage, Capital Markets, and Financial Services.
+overview: 'Raymond James Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Banking, Brokerage, Capital Markets, and Financial-Services.
 
 
   Raymond James Financial''s developer surface includes developer portal and 5 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 6.2
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -98,16 +98,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.0
+  previous_composite: 6.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 12.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raymond-james-financial/refs/heads/main/screenshots/raymond-james-financial-2026-06-20T192618.png
 security:
 - kind: domain-security
@@ -120,7 +120,7 @@ tags:
 - Banking
 - Brokerage
 - Capital Markets
-- Financial Services
+- Financial-Services
 - Fortune 500
 - Investment Banking
 - Investment Management

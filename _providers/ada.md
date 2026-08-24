@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -367,13 +367,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: ada-mcp.yml
-  slug: ada-mcpyml
+  name: Ada MCP Server
+  slug: ada-mcp-server
 modified: 2026-08-14
 name: Ada
 nav: Providers
 network: true
-overview: 'Ada publishes 10 APIs on the [APIs.io](https://apis.io/) network, including subpackage_channels API, subpackage_conversations API, subpackage_deleteChatterData API, and 7 more. Tagged areas include ai, customer-service, chatbot, automation, and conversational-ai.
+overview: 'Ada publishes 10 APIs on the [APIs.io](https://apis.io/) network, including subpackage_channels API, subpackage_conversations API, subpackage_deleteChatterData API, and 7 more. Tagged areas include Artificial Intelligence, Customer Service, Chatbots, Automation, and Conversational AI.
 
 
   The Ada catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -408,7 +408,7 @@ scopes:
 score:
   band: exemplar
   composite: 76.2
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -418,7 +418,7 @@ score:
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 60.5
-  previous_composite: 82.3
+  previous_composite: 76.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -429,9 +429,9 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png
 security:
 - kind: authentication
@@ -452,15 +452,15 @@ security:
   summary_line: SOC 2 Type 2, SOC 3, PCI DSS (Attestation of Compliance), HIPAA, GDPR, CCPA, CPRA, PIPEDA, VPAT 2024 (WCAG 2.1 AA)
 slug: ada
 tags:
-- ai
-- customer-service
-- chatbot
-- automation
-- conversational-ai
-- helpdesk
-- crm
-- integrations
-- knowledge-management
-- data-export
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Automation
+- Conversational AI
+- Help Desk
+- CRM
+- Integration
+- Knowledge-Management
+- Data Export
 website: https://www.ada.cx/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -565,18 +565,18 @@ rules:
   slug: trakt-rules
 score:
   band: strong
-  composite: 58.7
-  delta: -9.8
+  composite: 59.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.3
     developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 68.5
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     contracts:
@@ -584,9 +584,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/screenshots/trakt-2026-06-20T195545.png
 security:
 - kind: authentication
@@ -615,7 +615,7 @@ tags:
 - Scrobble
 - Recommendations
 - Social
-- OAuth2
+- Authentication
 - Public APIs
 use_cases:
 - description: Plex, Kodi, Jellyfin, and custom media centers report playback to /scrobble so a user's watch history stays accurate across devices.

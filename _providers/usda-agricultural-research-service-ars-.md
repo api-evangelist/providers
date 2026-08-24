@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ modified: '2026-05-19'
 name: USDA Agricultural Research Service (ARS)
 nav: Providers
 network: true
-overview: 'USDA Agricultural Research Service (ARS) publishes 3 APIs on the [APIs.io](https://apis.io/) network: Datasets API, Food Search API, and Foods API. Tagged areas include Federal Government, Agriculture, Food Safety, Nutrition, and Open Data.
+overview: 'USDA Agricultural Research Service (ARS) publishes 3 APIs on the [APIs.io](https://apis.io/) network: Datasets API, Food Search API, and Foods API. Tagged areas include Federal-Government, Agriculture, Food Safety, Nutrition, and Open Data.
 
 
   The USDA Agricultural Research Service (ARS) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -162,18 +162,18 @@ rules:
   slug: usda-agricultural-research-service-ars--rules
 score:
   band: thin
-  composite: 30.1
-  delta: -4.5
+  composite: 30.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 55.6
     developer_ergonomics: 14.3
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 34.6
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/screenshots/usda-agricultural-research-service-ars--2026-06-20T200650.png
 security:
@@ -202,7 +202,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: usda-agricultural-research-service-ars-
 tags:
-- Federal Government
+- Federal-Government
 - Agriculture
 - Food Safety
 - Nutrition

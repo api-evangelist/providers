@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol (MCP) server operated by Cerapedics at mcp.cerapedics.com. The endpoint publishes RFC 9728 protected-resource metadata and RFC 8414 authorization-server metad
@@ -105,8 +105,8 @@ image: https://www.cerapedics.com/sites/default/files/styles/large/public/2024-1
 layout: provider
 mcp_servers:
 - description: ''
-  name: cerapedics-mcp.yml
-  slug: cerapedics-mcpyml
+  name: Cerapedics MCP Server
+  slug: cerapedics-mcp-server
 modified: '2026-08-02'
 name: Cerapedics
 nav: Providers
@@ -124,7 +124,7 @@ scopes:
 score:
   band: emerging
   composite: 23.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -134,7 +134,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 23.8
+  previous_composite: 23.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -144,8 +144,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerapedics/refs/heads/main/screenshots/cerapedics-2026-08-07T163308.png
 security:
@@ -167,6 +167,6 @@ tags:
 - Spine Surgery
 - Healthcare
 - Life Sciences
-- Model Context Protocol
+- MCP
 website: https://www.cerapedics.com/
 ---

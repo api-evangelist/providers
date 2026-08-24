@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -263,9 +263,9 @@ description: VigLink pioneered automatic affiliate link monetization for publish
 image: https://www.sovrn.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: viglink-mcp.yml
-  slug: viglink-mcpyml
+- description: Official hosted Commerce MCP server (beta) that connects affiliate data, campaigns, and products directly to AI tools — affiliate search, reporting, and link generation through natural language.
+  name: Commerce MCP Server (Sovrn Commerce, formerly VigLink)
+  slug: commerce-mcp-server-sovrn-commerce-formerly-viglink
 modified: '2026-08-13'
 name: VigLink (Sovrn Commerce)
 nav: Providers
@@ -286,7 +286,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.4
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -296,7 +296,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 60.6
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,8 +307,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/screenshots/viglink-2026-08-17T082748.png
 security:

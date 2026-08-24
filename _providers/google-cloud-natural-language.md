@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: '2026-05-19'
 name: Google Cloud Natural Language
 nav: Providers
 network: true
-overview: 'Google Cloud Natural Language publishes 5 APIs on the [APIs.io](https://apis.io/) network, including documents:analyzeEntities API, documents:analyzeSentiment API, documents:analyzeSyntax API, and 2 more. Tagged areas include Entity Recognition, Google Cloud, Machine Learning, Natural Language Processing, and Sentiment Analysis.
+overview: 'Google Cloud Natural Language publishes 5 APIs on the [APIs.io](https://apis.io/) network, including documents:analyzeEntities API, documents:analyzeSentiment API, documents:analyzeSyntax API, and 2 more. Tagged areas include Entity Recognition, Google Cloud, Machine-Learning, Natural Language Processing, and Sentiment Analysis.
 
 
   The Google Cloud Natural Language catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -204,7 +204,7 @@ rules:
 score:
   band: developing
   composite: 45.0
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -214,7 +214,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 53.4
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -222,9 +222,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/screenshots/google-cloud-natural-language-2026-06-20T182126.png
 security:
 - kind: domain-security
@@ -239,7 +239,7 @@ slug: google-cloud-natural-language
 tags:
 - Entity Recognition
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Sentiment Analysis
 - Text Analysis

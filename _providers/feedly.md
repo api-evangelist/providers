@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API over api.feedly.com/v3 for the Feedly Threat Intelligence platform. Collect articles from AI Feeds, Folders and Boards by streamId; search and query the corpus with the Ask AI (RAG) endpoints
@@ -312,14 +312,14 @@ description: Feedly is a content aggregation and threat intelligence platform th
 image: https://feedly.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: feedly-mcp.yml
-  slug: feedly-mcpyml
+- description: 'Feedly operates a hosted, remote Model Context Protocol server over its Real-Time Threat Graph, marketed as the "Threat Graph MCP Server" and bundled with the Advanced Threat Intelligence plan. It is '
+  name: Feedly MCP Server
+  slug: feedly-mcp-server
 modified: '2026-08-12'
 name: Feedly
 nav: Providers
 network: true
-overview: 'Feedly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include threat-intelligence, cybersecurity, cyber-threat-intelligence, content-aggregation, and rss.
+overview: 'Feedly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Threat Intelligence, Cybersecurity, cyber-threat-intelligence, Content Aggregation, and RSS.
 
 
   The Feedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -338,7 +338,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.0
-  delta: -9.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -348,7 +348,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 67.2
+  previous_composite: 58.0
   provenance:
     conformance: first-party
     contracts:
@@ -358,9 +358,9 @@ score:
       total: 18
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/screenshots/feedly-2026-08-17T080410.png
 security:
 - kind: authentication
@@ -377,21 +377,21 @@ security:
   summary_line: SOC 2 Type 1, SOC 2 Type 2
 slug: feedly
 tags:
-- threat-intelligence
-- cybersecurity
+- Threat Intelligence
+- Cybersecurity
 - cyber-threat-intelligence
-- content-aggregation
-- rss
-- news
-- vulnerability-management
-- indicators-of-compromise
-- malware
+- Content Aggregation
+- RSS
+- News
+- Vulnerability Management
+- Indicators of Compromise
+- Malware
 - threat-actors
 - mitre-attack
-- security-automation
-- artificial-intelligence
-- mcp
+- Security Automation
+- Artificial Intelligence
+- MCP
 - agent-native
-- webhooks
+- Webhook
 website: https://feedly.com/
 ---

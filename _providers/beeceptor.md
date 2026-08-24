@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-05-04'
 name: Beeceptor
 nav: Providers
 network: true
-overview: 'Beeceptor publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Endpoint Settings API, Mock Rules API, Request History API, and 1 more. Tagged areas include API Mocking, Automation, Debugging, HTTP Proxy, and Integrations.
+overview: 'Beeceptor publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Endpoint Settings API, Mock Rules API, Request History API, and 1 more. Tagged areas include API Mocking, Automation, Debugging, HTTP Proxy, and Integration.
 
 
   Beeceptor''s developer surface includes authentication, developer portal, pricing, FAQ, engineering blog, and 8 more developer resources.'
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.7
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -187,7 +187,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 37.9
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -195,9 +195,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/screenshots/beeceptor-2026-06-20T173119.png
 security:
 - kind: authentication
@@ -214,11 +214,11 @@ tags:
 - Automation
 - Debugging
 - HTTP Proxy
-- Integrations
+- Integration
 - Mock Servers
 - Platform
 - Testing
-- Webhooks
+- Webhook
 use_cases:
 - description: Build and test frontend applications against mock APIs without waiting for backend APIs to be ready, removing cross-team blocking dependencies.
   name: Frontend Development

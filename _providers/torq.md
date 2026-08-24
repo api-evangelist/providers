@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Torq REST API allows programmatic management of workspace resources including workflows, users, secrets, triggers, and webhooks. API keys are workspace-scoped and support both US and EU regional e
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.9
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -135,9 +135,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 35.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 33.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/torq/refs/heads/main/screenshots/torq-2026-06-20T195501.png
 security:

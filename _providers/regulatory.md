@@ -26,7 +26,7 @@ random_paper: 10
 slug: regulatory
 tags:
 - Compliance
-- Financial Services
+- Financial-Services
 - Governance
 - Healthcare Regulation
 - Regulatory Reporting

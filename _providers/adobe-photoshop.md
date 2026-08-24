@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -587,13 +587,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: adobe-photoshop-mcp.yml
-  slug: adobe-photoshop-mcpyml
+  name: Adobe Photoshop MCP Server
+  slug: adobe-photoshop-mcp-server
 modified: '2026-06-20'
 name: Adobe Photoshop
 nav: Providers
 network: true
-overview: 'Adobe Photoshop publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Background Removal API, Crop and Effects API, and 7 more. Tagged areas include AI/ML, Creative Cloud, Image Editing, Photoshop, and Plugins.
+overview: 'Adobe Photoshop publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Background Removal API, Crop and Effects API, and 7 more. Tagged areas include Ai Ml, Creative Cloud, Image Editing, Photoshop, and Plugins.
 
 
   The Adobe Photoshop catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -631,13 +631,13 @@ rules:
     info: 2
     warn: 3
   slug: adobe-photoshop-jsonschema-spectral-rules
-- effective_rule_count: 70
+- effective_rule_count: 69
   extends:
   - spectral:oas
   name: Adobe Photoshop API Rules
-  rule_count: 29
+  rule_count: 28
   severity_counts:
-    error: 14
+    error: 13
     hint: 0
     info: 2
     warn: 13
@@ -645,7 +645,7 @@ rules:
 score:
   band: strong
   composite: 56.4
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -655,7 +655,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 60.2
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -665,8 +665,8 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:
@@ -693,7 +693,7 @@ solutions:
 - description: Automation via UXP scripts (.psjs) or legacy ExtendScript (.jsx).
   name: Photoshop Scripting
 tags:
-- AI/ML
+- Ai Ml
 - Creative Cloud
 - Image Editing
 - Photoshop

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -214,13 +214,13 @@ image: https://cdn.prod.website-files.com/662048df2bce7baa72aab3f3/662ae161e60cc
 layout: provider
 mcp_servers:
 - description: ''
-  name: altoira-mcp.yml
-  slug: altoira-mcpyml
+  name: AltoIRA MCP Server
+  slug: altoira-mcp-server
 modified: '2026-08-06'
 name: AltoIRA
 nav: Providers
 network: true
-overview: 'AltoIRA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Handoffs API, Investment API, OAUTH API, and 2 more. Tagged areas include Company, Financial Services, Retirement, Self-Directed IRA, and Alternative Investments.
+overview: 'AltoIRA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Handoffs API, Investment API, OAUTH API, and 2 more. Tagged areas include Company, Financial-Services, Retirement, Self-Directed IRA, and Alternative Investments.
 
 
   The AltoIRA catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -236,7 +236,7 @@ scopes:
 score:
   band: developing
   composite: 46.8
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -246,7 +246,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 53.5
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,9 +257,9 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/screenshots/altoira-2026-08-07T161253.png
 security:
 - kind: authentication
@@ -277,7 +277,7 @@ security:
 slug: altoira
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Retirement
 - Self-Directed IRA
 - Alternative Investments

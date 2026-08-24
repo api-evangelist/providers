@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -93,7 +93,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 8.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -109,15 +109,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 10.1
+  previous_composite: 8.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/felmo/refs/heads/main/screenshots/felmo-2026-07-25T214333.png
 slug: felmo

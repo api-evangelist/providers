@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -143,9 +143,9 @@ created: 2026-07-23
 description: Monid is a San Francisco-based data-access and agent-tool integration platform that gives developers and AI agents on-demand, pay-per-use access to hundreds of web data endpoints and 1,300+ tools across 13+ providers (Semrush, Apollo, ElevenLabs, web scrapers, and more) through a single integration. Agents discover, inspect, compare, and execute tools at runtime and pay only for actual usage, with a unified balance and no per-tool API key management or subscriptions. Monid exposes its catalog through four connection methods — an MCP (Model Context Protocol) server for Claude and other AI assistants, a Skill integration for Claude Code and Cursor, a CLI for shell access, and an HTTP API for programmatic integration — with OAuth, proxy, and master API key options for embedded use.
 layout: provider
 mcp_servers:
-- description: ''
-  name: monid-mcp.yml
-  slug: monid-mcpyml
+- description: Official hosted Monid MCP server (Streamable HTTP). Gives an AI client tools to discover, inspect, and run hundreds of data endpoints across the web, with pay-per-use billing against a Monid workspace
+  name: Monid MCP Server
+  slug: monid-mcp-server
 modified: 2026-07-23
 name: Monid
 nav: Providers
@@ -161,19 +161,19 @@ scopes:
   slug: monid-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.3
-  delta: -4.9
+  band: developing
+  composite: 39.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 30.3
     contract_quality: 55.2
     developer_ergonomics: 66.7
-    discoverability: 72.2
+    discoverability: 83.3
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 43.2
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -184,8 +184,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/screenshots/monid-2026-08-07T184201.png
 security:

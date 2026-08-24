@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -212,8 +212,8 @@ image: https://www.demandsphere.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: demandsphere-mcp.yml
-  slug: demandsphere-mcpyml
+  name: DemandSphere MCP Server
+  slug: demandsphere-mcp-server
 modified: '2026-08-13'
 name: DemandSphere
 nav: Providers
@@ -234,7 +234,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.0
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -244,7 +244,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 60.6
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,8 +255,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/screenshots/demandsphere-2026-07-25T211708.png
 security:
@@ -286,7 +286,6 @@ tags:
 - LLM Visibility
 - Rank Tracking
 - Analytics
-- API
 - MCP
 website: https://demandsphere.com
 ---

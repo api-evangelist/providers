@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Key/secret exchange for bearer tokens and drone access discovery
@@ -243,27 +243,27 @@ rules:
   slug: saildrone-rules
 score:
   band: developing
-  composite: 40.4
-  delta: -6.2
+  composite: 40.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 71.1
     developer_ergonomics: 2.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 46.6
+  previous_composite: 40.9
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png
 security:
 - kind: domain-security
@@ -279,7 +279,7 @@ tags:
 - Autonomous Systems
 - METOC
 - Maritime Domain Awareness
-- Anti Submarine Warfare
+- Anti-Submarine Warfare
 - Defense
 - Climate
 - Oceanography

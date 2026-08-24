@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Signed, service-based JSON API for vendors, developers, and ISVs to integrate with VIPShop's e-commerce systems — orders, commodities/products, inventory, warehouse & logistics, marketplace, multi-cha
@@ -113,7 +113,7 @@ modified: '2026-07-21'
 name: VIPShop
 nav: Providers
 network: true
-overview: 'VIPShop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Retail, and Flash Sales.
+overview: 'VIPShop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Retail, and Flash Sales.
 
 
   VIPShop''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, sandbox, and 10 more developer resources.'
@@ -121,7 +121,7 @@ random_paper: 0
 score:
   band: thin
   composite: 26.5
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -131,9 +131,9 @@ score:
     discoverability: 79.6
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 25.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -148,12 +148,12 @@ slug: vipshop
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Retail
 - Flash Sales
 - Open Platform
 - China
-- Orders
+- Order
 - Inventory
 - Logistics
 website: http://www.vip.com/

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for managing Landbot resources including channels, customers, customer fields, message hooks, webhooks, and WhatsApp templates. Token-based authentication using an agent token from account se
@@ -109,7 +109,7 @@ modified: 2026-06-12
 name: Landbot
 nav: Providers
 network: true
-overview: 'Landbot publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include chatbot, conversational AI, no-code, WhatsApp, and webhooks.
+overview: 'Landbot publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Chatbots, Conversational AI, No-Code, WhatsApp, and Webhook.
 
 
   The Landbot catalog on APIs.io includes 1 JSON-LD context.
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.1
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -138,9 +138,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 32.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 31.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/screenshots/landbot-2026-06-20T184258.png
 security:
@@ -150,12 +150,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: landbot
 tags:
-- chatbot
-- conversational AI
-- no-code
+- Chatbots
+- Conversational AI
+- No-Code
 - WhatsApp
-- webhooks
-- messaging
-- automation
+- Webhook
+- Messaging
+- Automation
 website: https://landbot.io/
 ---

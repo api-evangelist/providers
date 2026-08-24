@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 71.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -275,8 +275,8 @@ image: https://useboom.ai/logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: boom-ai-mcp.yml
-  slug: boom-ai-mcpyml
+  name: Boom Ai MCP Server
+  slug: boom-ai-mcp-server
 modified: '2026-08-13'
 name: Boom Ai
 nav: Providers
@@ -305,7 +305,7 @@ scopes:
 score:
   band: exemplar
   composite: 73.4
-  delta: 5.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -315,7 +315,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 68.1
+  previous_composite: 73.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -332,9 +332,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:
 - kind: authentication
@@ -360,7 +360,7 @@ tags:
 - WhatsApp
 - SMS
 - Marketing Automation
-- E-commerce
+- E-Commerce
 - Agents
 - MCP
 website: https://docs.useboom.ai

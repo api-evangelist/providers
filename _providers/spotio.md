@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 4
@@ -435,9 +435,9 @@ description: 'SPOTIO is a field sales engagement and territory management platfo
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spotio.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: spotio-mcp.yml
-  slug: spotio-mcpyml
+- description: 'SPOTIO operates a first-party remote MCP server. Its existence is proved two ways: the published SPOTIO 2.0 OpenAPI carries a dedicated `Mcp` tag with four operations that mint, read, rotate and revok'
+  name: SPOTIO MCP Server
+  slug: spotio-mcp-server
 modified: '2026-08-13'
 name: SPOTIO
 nav: Providers
@@ -460,7 +460,7 @@ rate_limits:
   slug: spotio-rate-limits
 score:
   band: strong
-  composite: 62.1
+  composite: 63.1
   delta: 0.0
   facets:
     access_clarity: 92.1
@@ -468,10 +468,10 @@ score:
     contract_governance: 30.3
     contract_quality: 62.6
     developer_ergonomics: 66.1
-    discoverability: 57.4
+    discoverability: 66.7
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 62.1
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -482,8 +482,8 @@ score:
       total: 39
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/screenshots/spotio-2026-08-17T082034.png
 security:
@@ -514,7 +514,7 @@ tags:
 - Sales Enablement
 - Route Optimization
 - Geospatial
-- Webhooks
+- Webhook
 - MCP
 - Door to Door
 website: https://spotio.com

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -259,7 +259,7 @@ modified: '2026-05-19'
 name: Apache BookKeeper
 nav: Providers
 network: true
-overview: 'Apache BookKeeper publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auto Recovery API, Bookies API, Configuration API, and 2 more. Tagged areas include Apache, Distributed Systems, Log Storage, Open Source, and Storage.
+overview: 'Apache BookKeeper publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auto Recovery API, Bookies API, Configuration API, and 2 more. Tagged areas include Apache, Distributed Systems, Log Storage, Open-Source, and Storage.
 
 
   The Apache BookKeeper catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -299,18 +299,18 @@ rules:
   slug: apache-bookkeeper-spectral-rules
 score:
   band: thin
-  composite: 28.4
-  delta: -5.5
+  composite: 28.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 20.2
     developer_ergonomics: 26.2
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 33.9
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -318,9 +318,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/screenshots/apache-bookkeeper-2026-06-20T172044.png
 security:
 - kind: domain-security
@@ -336,7 +336,7 @@ tags:
 - Apache
 - Distributed Systems
 - Log Storage
-- Open Source
+- Open-Source
 - Storage
 - Streaming
 use_cases:

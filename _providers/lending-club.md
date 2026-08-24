@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-19'
 name: LendingClub
 nav: Providers
 network: true
-overview: 'LendingClub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Banking, Lending, and Consumer Finance.
+overview: 'LendingClub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Banking, Lending, and Consumer Finance.
 
 
   LendingClub''s developer surface includes support, engineering blog, and 11 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 7
 score:
   band: minimal
   composite: 5.0
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -110,16 +110,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.0
+  previous_composite: 5.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lending-club/refs/heads/main/screenshots/lending-club-2026-07-25T224859.png
 security:
 - kind: domain-security
@@ -129,7 +129,7 @@ security:
 slug: lending-club
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Banking
 - Lending
 - Consumer Finance

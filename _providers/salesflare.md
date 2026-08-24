@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -335,7 +335,7 @@ modified: '2026-08-13'
 name: Salesflare
 nav: Providers
 network: true
-overview: 'Salesflare publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AI Message Feedbacks API, AISetings API, and 17 more. Tagged areas include CRM, Sales, B2B, Contacts, and Accounts.
+overview: 'Salesflare publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AI Message Feedbacks API, AISetings API, and 17 more. Tagged areas include CRM, Sales, B2B, Contacts, and Account.
 
 
   The Salesflare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -370,7 +370,7 @@ scopes:
 score:
   band: strong
   composite: 58.6
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -380,7 +380,7 @@ score:
     discoverability: 92.6
     governance: 26.5
     operational_transparency: 42.1
-  previous_composite: 66.8
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -391,9 +391,9 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/screenshots/salesflare-2026-06-20T193340.png
 security:
 - kind: authentication
@@ -410,7 +410,7 @@ tags:
 - Sales
 - B2B
 - Contacts
-- Accounts
+- Account
 - Opportunities
 - Email
 - Automation

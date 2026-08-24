@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 26
 apis:
 - description: Hosted Model Context Protocol server that lets Claude, ChatGPT and Cursor act on a user's own PlantPredict account — creating and running predictions, importing weather and shade scenes, browsing proj
@@ -328,16 +328,16 @@ image: https://www.terabase.energy/wp-content/uploads/cropped-favicon-192x192.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: terabase-energy-mcp.yml
-  slug: terabase-energy-mcpyml
+  name: PlantPredict MCP Connector
+  slug: plantpredict-mcp-connector
 - description: ''
-  name: mcp.plantpredict.terabase.energy
-  slug: mcpplantpredictterabaseenergy
+  name: Terabase Energy MCP Server
+  slug: terabase-energy-mcp-server
 modified: '2026-08-05'
 name: Terabase Energy
 nav: Providers
 network: true
-overview: 'Terabase Energy publishes 24 APIs on the [APIs.io](https://apis.io/) network, including ASHRAE API, Company API, Country API, and 21 more. Tagged areas include solar, renewable-energy, energy-modeling, utility-scale-solar, and simulation.
+overview: 'Terabase Energy publishes 24 APIs on the [APIs.io](https://apis.io/) network, including ASHRAE API, Company API, Country API, and 21 more. Tagged areas include Solar, Renewable Energy, Energy Modeling, utility-scale-solar, and Simulation.
 
 
   Terabase Energy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -354,7 +354,7 @@ scopes:
 score:
   band: strong
   composite: 61.3
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -364,7 +364,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 56.1
+  previous_composite: 61.3
   provenance:
     conformance: first-party
     contracts:
@@ -380,9 +380,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/screenshots/terabase-energy-2026-08-17T082317.png
 security:
 - kind: authentication
@@ -395,17 +395,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: terabase-energy
 tags:
-- solar
-- renewable-energy
-- energy-modeling
+- Solar
+- Renewable Energy
+- Energy Modeling
 - utility-scale-solar
-- simulation
-- photovoltaics
-- construction-technology
-- geospatial
+- Simulation
+- Photovoltaics
+- Construction Technology
+- Geospatial
 - terrain-analysis
-- climate-tech
-- mcp
-- energy-storage
+- Climate Tech
+- MCP
+- Energy Storage
 website: https://www.terabase.energy/
 ---

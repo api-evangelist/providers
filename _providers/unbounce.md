@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -398,8 +398,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: unbounce-mcp.yml
-  slug: unbounce-mcpyml
+  name: Unbounce MCP Server
+  slug: unbounce-mcp-server
 modified: '2026-08-13'
 name: Unbounce
 nav: Providers
@@ -428,7 +428,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.2
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -438,7 +438,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 71.0
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -449,8 +449,8 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/screenshots/unbounce-2026-06-20T200015.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -409,9 +409,9 @@ image: https://www.cyclecalcs.com/assets/og-card.png?v=2
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
-- description: ''
+  name: CycleCalcs MCP Server
+  slug: cyclecalcs-mcp-server
+- description: CycleCalcs publishes a hosted, stateless Streamable HTTP MCP server that exposes eleven read-only astronomy tools, each backed by exactly one live /v2 REST endpoint. The server speaks MCP revision 202
   name: MCP server manifest (11 tools, captured from tools/list)
   slug: mcp-server-manifest-11-tools-captured-from-toolslist
 modified: '2026-08-09'
@@ -434,7 +434,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.1
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -444,7 +444,7 @@ score:
     discoverability: 81.5
     governance: 45.5
     operational_transparency: 55.3
-  previous_composite: 62.4
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -455,8 +455,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/screenshots/cyclecalcs-2026-08-17T080843.png
 security:
@@ -482,6 +482,6 @@ tags:
 - Calendar
 - Geolocation
 - MCP
-- Agent-native
+- agent-native
 website: https://www.cyclecalcs.com/api.html
 ---

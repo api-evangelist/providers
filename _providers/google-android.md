@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -328,13 +328,13 @@ integrations:
 layout: provider
 mcp_servers:
 - description: ''
-  name: google-android-mcp.yml
-  slug: google-android-mcpyml
+  name: Google Android MCP Server
+  slug: google-android-mcp-server
 modified: '2026-06-20'
 name: Google Android
 nav: Providers
 network: true
-overview: 'Google Android publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Android Management API API, Device API, Devices API, and 5 more. Tagged areas include Android, Google, Mobile Development, Mobile Operating System, and Open Source.
+overview: 'Google Android publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Android Management API API, Device API, Devices API, and 5 more. Tagged areas include Android, Google, Mobile Development, Mobile Operating System, and Open-Source.
 
 
   Google Android''s developer surface includes authentication, changelog, developer portal, engineering blog, support, Stack Overflow tag, YouTube channel, and 32 more developer resources.'
@@ -355,7 +355,7 @@ scopes:
 score:
   band: developing
   composite: 41.4
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -365,7 +365,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 44.3
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,8 +375,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/screenshots/google-android-2026-06-20T182012.png
 security:
@@ -402,7 +402,7 @@ tags:
 - Google
 - Mobile Development
 - Mobile Operating System
-- Open Source
+- Open-Source
 use_cases:
 - description: Deploy and manage corporate Android devices with security policies and app distribution.
   name: Enterprise Mobility Management

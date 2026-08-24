@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ modified: '2026-05-19'
 name: Azure Event Grid
 nav: Providers
 network: true
-overview: 'Azure Event Grid publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Topics API. Tagged areas include Events, Event-Driven, Pub-Sub, and Serverless.
+overview: 'Azure Event Grid publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Topics API. Tagged areas include Event, Event-Driven, Pub-Sub, and Serverless.
 
 
   Azure Event Grid''s developer surface includes authentication, developer portal, pricing, documentation, support, and 6 more developer resources.'
@@ -138,7 +138,7 @@ scopes:
 score:
   band: thin
   composite: 36.5
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -148,7 +148,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 37.1
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/screenshots/microsoft-azure-event-grid-2026-06-20T185413.png
 security:
@@ -171,7 +171,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: microsoft-azure-event-grid
 tags:
-- Events
+- Event
 - Event-Driven
 - Pub-Sub
 - Serverless

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Embeddable AI chat surface for EV charging driver support. Ships as a lemonflow-chat custom element loaded from a single script tag, or as a headless iframe at /embed for teams that already operate th
@@ -133,7 +133,7 @@ modified: '2026-07-19'
 name: Lemonflow
 nav: Providers
 network: true
-overview: 'Lemonflow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Support, and Electric Vehicle Charging.
+overview: 'Lemonflow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer-Support, and Electric Vehicle Charging.
 
 
   Lemonflow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
@@ -141,7 +141,7 @@ random_paper: 8
 score:
   band: thin
   composite: 33.1
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -151,11 +151,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 31.8
+  previous_composite: 33.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonflow-ai/refs/heads/main/screenshots/lemonflow-ai-2026-07-25T224851.png
 security:
@@ -176,9 +176,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Customer Support
+- Customer-Support
 - Electric Vehicle Charging
-- eMobility
+- E-Mobility
 - OCPP
 - Chat Widget
 - Voice

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -484,7 +484,7 @@ modified: '2026-05-19'
 name: Amazon SNS
 nav: Providers
 network: true
-overview: 'Amazon SNS publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ?Action=ListTagsForResource API, ?Action=TagResource API, ?Action=UntagResource API, and 5 more. Tagged areas include Email, Messaging, Notifications, Pub/Sub, and Push Notifications.
+overview: 'Amazon SNS publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ?Action=ListTagsForResource API, ?Action=TagResource API, ?Action=UntagResource API, and 5 more. Tagged areas include Email, Messaging, Notification, Pub-Sub, and Push Notifications.
 
 
   The Amazon SNS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -535,18 +535,18 @@ rules:
   slug: amazon-sns-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: -0.6
+  composite: 51.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 71.4
     developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 52.2
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -560,8 +560,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png
 security:
@@ -585,8 +585,8 @@ slug: amazon-sns
 tags:
 - Email
 - Messaging
-- Notifications
-- Pub/Sub
+- Notification
+- Pub-Sub
 - Push Notifications
 - SMS
 use_cases:

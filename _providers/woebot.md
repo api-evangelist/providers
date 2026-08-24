@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Gated partner API library for integrating the Woebot Health Platform into a partner's digital front door, EMR, or care pathway. Supports transmission of aggregated data including patient-reported outc
@@ -125,7 +125,7 @@ modified: '2026-05-23'
 name: Woebot Health
 nav: Providers
 network: true
-overview: 'Woebot Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mental Health, Digital Therapeutics, CBT, Chatbot, and Clinical.
+overview: 'Woebot Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mental Health, Digital Therapeutics, CBT, Chatbots, and Clinical.
 
 
   Woebot Health''s developer surface includes engineering blog and 18 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.0
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -151,15 +151,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 23.1
+  previous_composite: 21.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woebot/refs/heads/main/screenshots/woebot-2026-06-20T201534.png
 security:
@@ -180,7 +180,7 @@ tags:
 - Mental Health
 - Digital Therapeutics
 - CBT
-- Chatbot
+- Chatbots
 - Clinical
 - Healthcare
 - B2B

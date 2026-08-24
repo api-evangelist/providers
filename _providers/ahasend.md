@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -852,7 +852,7 @@ modified: '2026-04-19'
 name: AhaSend
 nav: Providers
 network: true
-overview: 'AhaSend publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Keys API, Domains API, and 8 more. Tagged areas include Email, Transactional Email, Developer Tools, SMTP, and Webhooks.
+overview: 'AhaSend publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Keys API, Domains API, and 8 more. Tagged areas include Email, Transactional Email, Developer Tools, SMTP, and Webhook.
 
 
   The AhaSend catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -892,18 +892,18 @@ rules:
   slug: ahasend-spectral-rules
 score:
   band: developing
-  composite: 49.2
-  delta: -5.3
+  composite: 49.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.2
     developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 54.5
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -911,9 +911,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/screenshots/ahasend-2026-06-20T170542.png
 security:
 - kind: authentication
@@ -934,7 +934,7 @@ tags:
 - Transactional Email
 - Developer Tools
 - SMTP
-- Webhooks
+- Webhook
 use_cases:
 - description: Send secure one-time password and password reset links with guaranteed fast delivery.
   name: Password Reset Emails

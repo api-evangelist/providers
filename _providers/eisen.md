@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: Eisen
 nav: Providers
 network: true
-overview: Eisen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compliance, Escheatment, Unclaimed Property, and Financial Services.
+overview: Eisen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compliance, Escheatment, Unclaimed Property, and Financial-Services.
 random_paper: 7
 score:
   band: minimal
@@ -80,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eisen/refs/heads/main/screenshots/eisen-2026-07-25T213026.png
 security:
@@ -95,7 +95,7 @@ tags:
 - Compliance
 - Escheatment
 - Unclaimed Property
-- Financial Services
+- Financial-Services
 - RegTech
 - Disbursements
 - Tax Reporting

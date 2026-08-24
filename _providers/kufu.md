@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: カスタム家族項目テンプレートを操作します
@@ -211,9 +211,9 @@ description: KUFU, Inc. is the founding name of SmartHR, Inc., the Japanese clou
 image: https://smarthr.jp/_astro/ogp_a-1.BA0NIxgO.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: kufu-mcp.yml
-  slug: kufu-mcpyml
+- description: SmartHR publishes NO official MCP server. This is a CANDIDATE tool surface derived from the 120 operations in the published Swagger 2.0 document — a design proposal for what an MCP server over the Sma
+  name: KUFU MCP Server
+  slug: kufu-mcp-server
 modified: '2026-07-19'
 name: KUFU
 nav: Providers
@@ -229,7 +229,7 @@ random_paper: 2
 score:
   band: strong
   composite: 59.4
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -239,7 +239,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 53.1
+  previous_composite: 59.4
   provenance:
     conformance: derived
     contracts:
@@ -255,9 +255,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 62.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png
 security:
 - kind: authentication
@@ -283,10 +283,10 @@ tags:
 - HR Tech
 - Payroll
 - Employee Data
-- SaaS
+- Software-as-a-Service
 - Japan
 - Onboarding
 - Social Insurance
-- Webhooks
+- Webhook
 website: https://smarthr.co.jp
 ---

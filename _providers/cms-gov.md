@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -434,18 +434,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.2
-  delta: -2.7
+  composite: 43.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 60.9
     developer_ergonomics: 45.2
     discoverability: 68.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 45.9
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -459,8 +459,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png
 security:

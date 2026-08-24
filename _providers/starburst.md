@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public REST API for Starburst Galaxy, secured with the OAuth2 client-credentials flow. Manages clusters, catalogs, users, roles, privileges, access-control policies, tags, row filters, column masks, d
@@ -143,8 +143,8 @@ image: https://www.starburst.io/wp-content/uploads/2021/01/starburst-og.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: starburst-mcp.yml
-  slug: starburst-mcpyml
+  name: Starburst MCP Server
+  slug: starburst-mcp-server
 modified: '2026-07-21'
 name: Starburst
 nav: Providers
@@ -157,7 +157,7 @@ random_paper: 15
 score:
   band: thin
   composite: 36.0
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -167,12 +167,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 35.4
+  previous_composite: 36.0
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

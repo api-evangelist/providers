@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface served natively on the Shopify-powered Urtopia storefront: UCP discovery at /.well-known/ucp, MCP tools for catalog search, product details, cart management, policies/FAQ'
@@ -91,8 +91,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urtopia.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: urtopia-mcp.yml
-  slug: urtopia-mcpyml
+  name: Urtopia MCP Server
+  slug: urtopia-mcp-server
 modified: '2026-07-21'
 name: Urtopia
 nav: Providers
@@ -109,23 +109,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.8
-  delta: -0.7
+  composite: 18.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 18.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -145,6 +145,6 @@ tags:
 - Cycling
 - Smart Hardware
 - Mobility
-- eCommerce
+- E-Commerce
 website: https://newurtopia.com/
 ---

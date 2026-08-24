@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-04-23'
 name: CNO Financial Group
 nav: Providers
 network: true
-overview: 'CNO Financial Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Financial Services, Health Insurance, Insurance, and Life Insurance.
+overview: 'CNO Financial Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Financial-Services, Health Insurance, Insurance, and Life Insurance.
 
 
   CNO Financial Group''s developer surface includes support and 11 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 6.3
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -128,15 +128,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 9.0
+  previous_composite: 6.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cno-financial-group/refs/heads/main/screenshots/cno-financial-group-2026-06-20T174640.png
 security:
@@ -147,7 +147,7 @@ security:
 slug: cno-financial-group
 tags:
 - Annuities
-- Financial Services
+- Financial-Services
 - Health Insurance
 - Insurance
 - Life Insurance

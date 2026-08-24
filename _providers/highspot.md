@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'The Highspot REST API provides programmatic access to the Highspot sales enablement platform, enabling management of content (spots and items), users, groups, pitches, domain settings, and analytics. '
@@ -189,12 +189,12 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/highspot.png
 layout: provider
 mcp_servers:
+- description: Highspot ships a first-party REMOTE Model Context Protocol server at https://mcp.highspot.com/mcp. It is a hosted HTTP MCP endpoint — an agent POSTs JSON-RPC to it directly; there is no npx/stdio pack
+  name: Highspot MCP Server
+  slug: highspot-mcp-server
 - description: ''
-  name: highspot-mcp.yml
-  slug: highspot-mcpyml
-- description: ''
-  name: mcp-server
-  slug: mcp-server
+  name: Highspot MCP Server
+  slug: highspot-mcp-server-2
 modified: '2026-08-14'
 name: Highspot
 nav: Providers
@@ -220,7 +220,7 @@ scopes:
 score:
   band: thin
   composite: 38.8
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -230,12 +230,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 42.9
+  previous_composite: 38.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/screenshots/highspot-2026-06-20T182731.png
 security:
@@ -264,7 +264,7 @@ tags:
 - Buyer Engagement
 - Training
 - Coaching
-- AI
+- Artificial Intelligence
 - MCP Server
 website: https://www.highspot.com/
 ---

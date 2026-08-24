@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The UserVoice Admin API v2 provides a fast and easy way of working with your feedback data, enabling you to build client applications and custom integrations for administrative operations including da
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -137,9 +137,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 32.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uservoice/refs/heads/main/screenshots/uservoice-2026-06-20T200702.png
 security:
@@ -156,6 +156,6 @@ tags:
 - Voting
 - Feature Requests
 - User Research
-- SaaS
+- Software-as-a-Service
 website: https://www.uservoice.com/
 ---

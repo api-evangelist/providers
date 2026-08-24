@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Free public JSON-RPC 2.0 API for reading the Aleo zero-knowledge blockchain — latest blocks and heights, transactions and transitions, records, deployed programs, mapping values, public NFTs and token
@@ -123,13 +123,13 @@ image: https://raw.githubusercontent.com/api-evangelist/demox-labs/refs/heads/ma
 layout: provider
 mcp_servers:
 - description: ''
-  name: demox-labs-mcp.yml
-  slug: demox-labs-mcpyml
+  name: Demox Labs MCP Server
+  slug: demox-labs-mcp-server
 modified: '2026-07-18'
 name: Demox Labs
 nav: Providers
 network: true
-overview: 'Demox Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Zero Knowledge, Cryptocurrency, and Wallet.
+overview: 'Demox Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Zero Knowledge, Cryptocurrency, and Wallets.
 
 
   Demox Labs'' developer surface includes documentation, getting-started guide, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 17
 score:
   band: thin
   composite: 28.2
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -147,7 +147,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 29.4
+  previous_composite: 28.2
   provenance:
     conformance: derived
     mcp: derived
@@ -157,8 +157,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demox-labs/refs/heads/main/screenshots/demox-labs-2026-07-25T211716.png
 security:
@@ -176,7 +176,7 @@ tags:
 - Blockchain
 - Zero Knowledge
 - Cryptocurrency
-- Wallet
+- Wallets
 - Privacy
 - Web3
 - Developer Tools

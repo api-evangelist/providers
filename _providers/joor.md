@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: JOOR's production identity service, a Keycloak realm exposing standard OpenID Connect / OAuth 2.0 endpoints (authorize, token, userinfo, introspection, JWKS) used to authenticate access to the JOOR pl
@@ -85,7 +85,7 @@ modified: '2026-07-19'
 name: Joor
 nav: Providers
 network: true
-overview: 'Joor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Wholesale, Retail, and eCommerce.
+overview: 'Joor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Wholesale, Retail, and E-Commerce.
 
 
   Joor''s developer surface includes authentication and 9 more developer resources.'
@@ -98,7 +98,7 @@ scopes:
 score:
   band: emerging
   composite: 17.1
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -108,7 +108,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 19.2
+  previous_composite: 17.1
   provenance:
     conformance: first-party
   regulatory:
@@ -117,8 +117,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joor/refs/heads/main/screenshots/joor-2026-07-25T223239.png
 security:
@@ -136,7 +136,7 @@ tags:
 - Fashion
 - Wholesale
 - Retail
-- eCommerce
+- E-Commerce
 - B2B
 - Marketplace
 - Payments

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Nextdata OS platform for building autonomous data products across structured and unstructured data, with AI-native data management, governance, and discovery primitives.
@@ -69,7 +69,7 @@ modified: '2026-04-28'
 name: Nextdata
 nav: Providers
 network: true
-overview: Nextdata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Data Mesh, AI, Data Management, and Data Products.
+overview: Nextdata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Data Mesh, Artificial Intelligence, Data Management, and Data Products.
 plans:
 - name: Nextdata Plans Pricing
   plan_count: 3
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 10.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextdata/refs/heads/main/screenshots/nextdata-2026-06-20T190256.png
 security:
@@ -106,7 +106,7 @@ slug: nextdata
 tags:
 - Data
 - Data Mesh
-- AI
+- Artificial Intelligence
 - Data Management
 - Data Products
 website: https://www.nextdata.com/

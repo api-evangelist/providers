@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The live machine surface on the flybyjing.com domain: a Shopify Storefront MCP server for agentic product search and cart/checkout, plus a Shopify Customer Account API secured with OAuth 2.0 / OpenID '
@@ -107,13 +107,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fly-by-jin
 layout: provider
 mcp_servers:
 - description: ''
-  name: fly-by-jing-mcp.yml
-  slug: fly-by-jing-mcpyml
+  name: Fly By Jing MCP Server
+  slug: fly-by-jing-mcp-server
 modified: '2026-07-19'
 name: Fly By Jing
 nav: Providers
 network: true
-overview: 'Fly By Jing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, Ecommerce, and Shopify.
+overview: 'Fly By Jing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, E-Commerce, and Shopify.
 
 
   Fly By Jing''s developer surface includes engineering blog, support, pricing, authentication, and 12 more developer resources.'
@@ -126,7 +126,7 @@ scopes:
 score:
   band: emerging
   composite: 19.4
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -136,11 +136,11 @@ score:
     discoverability: 79.6
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.1
+  previous_composite: 19.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fly-by-jing/refs/heads/main/screenshots/fly-by-jing-2026-08-07T165356.png
 security:
@@ -157,7 +157,7 @@ tags:
 - Company
 - Food and Beverage
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Shopify
 - Direct to Consumer
 - MCP

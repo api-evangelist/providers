@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Althea storefront on Shopify: a live Storefront MCP server (search_catalog, get_cart, update_cart, get_product_details, search_shop_policies_and_faqs), a Universa'
@@ -102,9 +102,9 @@ description: 'Althea (Althea Global, us.althea.kr) is a Seoul-founded K-beauty e
 image: https://us.althea.kr/cdn/shop/files/althea-logo_a64c523b-c7ea-4aa5-ac1e-19107b425819_grande.png?v=1614805110
 layout: provider
 mcp_servers:
-- description: ''
-  name: althea-mcp.yml
-  slug: althea-mcpyml
+- description: 'Althea Global runs on Shopify and exposes native agent-commerce endpoints. Two MCP servers are live at the store domain: the Shopify Storefront MCP (/api/mcp) which returns a working tools/list, and t'
+  name: Althea MCP Server
+  slug: althea-mcp-server
 modified: '2026-07-17'
 name: Althea
 nav: Providers
@@ -121,23 +121,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.5
-  delta: -2.4
+  composite: 21.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.9
+  previous_composite: 21.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/althea/refs/heads/main/screenshots/althea-2026-08-07T161249.png
 security:

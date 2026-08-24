@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Reusable block patterns and navigation menus. Both registered and reachable, but empty (X-WP-Total 0) — the site is built with Elementor, not the block editor.
@@ -234,7 +234,7 @@ modified: '2026-08-07'
 name: BioAegis Therapeutics
 nav: Providers
 network: true
-overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Comments API, Discovery API, and 7 more. Tagged areas include Company, biopharmaceuticals, biotechnology, clinical-trials, and immunology.
+overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Comments API, Discovery API, and 7 more. Tagged areas include Company, biopharmaceuticals, Biotechnology, Clinical Trials, and Immunology.
 
 
   The BioAegis Therapeutics catalog on APIs.io includes 1 JSON-LD context.
@@ -245,7 +245,7 @@ random_paper: 14
 score:
   band: developing
   composite: 41.3
-  delta: 9.3
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -255,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 32.0
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -270,9 +270,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/screenshots/bioaegis-therapeutics-2026-08-07T162447.png
 security:
 - kind: authentication
@@ -287,18 +287,18 @@ slug: bioaegis-therapeutics
 tags:
 - Company
 - biopharmaceuticals
-- biotechnology
-- clinical-trials
-- immunology
+- Biotechnology
+- Clinical Trials
+- Immunology
 - inflammation
-- innate-immunity
+- Innate Immunity
 - gelsolin
-- protein-therapeutics
+- Protein Therapeutics
 - ards
-- critical-care
-- rare-disease
-- drug-development
-- life-sciences
+- Critical Care
+- Rare Disease
+- Drug Development
+- Life Sciences
 - content-api
 website: https://www.bioaegistherapeutics.com/
 ---

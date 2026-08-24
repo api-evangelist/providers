@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -262,18 +262,18 @@ rules:
   slug: enable-banking-rules
 score:
   band: developing
-  composite: 46.2
-  delta: -9.1
+  composite: 46.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 70.6
     developer_ergonomics: 45.2
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 55.3
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -287,9 +287,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/screenshots/enable-banking-2026-06-20T180647.png
 security:
 - kind: authentication
@@ -307,7 +307,7 @@ tags:
 - AISP
 - PISP
 - Banking
-- Financial Services
+- Financial-Services
 - Account Aggregation
 - Payment Initiation
 - Europe

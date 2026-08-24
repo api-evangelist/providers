@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Web API (OpenAPI) exposing 100+ Meitu AI vision capabilities — image generation/editing, portrait beautification, face/body analysis, cutout, virtual try-on, and image/text-to-video — via an async sub
@@ -98,14 +98,14 @@ description: Meitu (美图) is a Chinese visual-technology company best known fo
 image: https://ai.meitu.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: meitu-mcp.yml
-  slug: meitu-mcpyml
+- description: CANDIDATE MCP tool surface derived from the official meitu-cli command set and the Meitu AI Open Platform capabilities. No official hosted/remote Meitu MCP server was found at enrichment time; this is
+  name: Meitu MCP Server
+  slug: meitu-mcp-server
 modified: '2026-07-20'
 name: Meitu
 nav: Providers
 network: true
-overview: 'Meitu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Image Processing, Computer Vision, and Video.
+overview: 'Meitu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Image Processing, Computer-Vision, and Video.
 
 
   Meitu''s developer surface includes documentation, API reference, CLI, authentication, and 10 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 15.8
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -123,11 +123,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 18.3
+  previous_composite: 15.8
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/screenshots/meitu-2026-08-07T172444.png
 security:
@@ -144,7 +144,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Image Processing
-- Computer Vision
+- Computer-Vision
 - Video
 - Generative AI
 - Photo Editing

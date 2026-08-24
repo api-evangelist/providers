@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the EasyPay/Fawaterak payment gateway. Authenticated with a vendor Bearer token, it lists available payment methods, creates invoice and payment links, initiates payment on an invoice, an
@@ -119,8 +119,8 @@ image: https://fawaterk.com/wp-content/uploads/2023/01/fawaterak-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: easypay-mcp.yml
-  slug: easypay-mcpyml
+  name: EasyPay MCP Server
+  slug: easypay-mcp-server
 modified: '2026-07-18'
 name: EasyPay
 nav: Providers
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.5
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -147,7 +147,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.8
+  previous_composite: 26.5
   provenance:
     mcp: derived
   regulatory:
@@ -156,8 +156,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/screenshots/easypay-2026-07-25T212717.png
 security:
@@ -176,7 +176,7 @@ tags:
 - Payment Gateway
 - Invoicing
 - Fintech
-- E-commerce
+- E-Commerce
 - Egypt
 - Online Payments
 website: https://fawaterk.com

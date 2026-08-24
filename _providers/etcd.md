@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 4
@@ -435,7 +435,7 @@ modified: '2026-05-19'
 name: Etcd
 nav: Providers
 network: true
-overview: 'Etcd publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Cluster API, KV API, and 3 more. Tagged areas include Cloud Native, Consensus, Distributed Systems, Graduated, and Key-Value Store.
+overview: 'Etcd publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Cluster API, KV API, and 3 more. Tagged areas include Cloud-Native, Consensus, Distributed Systems, Graduated, and Key-Value Store.
 
 
   The Etcd catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -465,7 +465,7 @@ rules:
 score:
   band: developing
   composite: 39.5
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -475,7 +475,7 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 45.1
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -483,9 +483,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/screenshots/etcd-2026-06-20T180830.png
 security:
 - kind: authentication
@@ -498,7 +498,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: etcd
 tags:
-- Cloud Native
+- Cloud-Native
 - Consensus
 - Distributed Systems
 - Graduated

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -168,14 +168,14 @@ description: 'Causa Prima is an AI-native fintech building an agent-to-agent net
 image: https://causaprima.ai/og-image.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: causa-prima-mcp.yml
-  slug: causa-prima-mcpyml
+- description: Hosted Scribo MCP server for free EN 16931-compliant e-invoice generation. Compatible with Claude Desktop/Claude.ai (custom connector), Cursor, Cline, ChatGPT App, and OpenAI Codex CLI. No install, no
+  name: Causa Prima MCP Server
+  slug: causa-prima-mcp-server
 modified: '2026-07-18'
 name: Causa Prima
 nav: Providers
 network: true
-overview: 'Causa Prima publishes 3 APIs on the [APIs.io](https://apis.io/) network: Invoices API, Jurisdictions API, and Scribo API. Tagged areas include Company, AI, Fintech, E-Invoicing, and Invoicing.
+overview: 'Causa Prima publishes 3 APIs on the [APIs.io](https://apis.io/) network: Invoices API, Jurisdictions API, and Scribo API. Tagged areas include Company, Artificial Intelligence, Fintech, E-Invoicing, and Invoicing.
 
 
   Causa Prima''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 20 more developer resources.'
@@ -183,7 +183,7 @@ random_paper: 15
 score:
   band: developing
   composite: 45.6
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -193,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 44.2
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -210,8 +210,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/screenshots/causa-prima-2026-07-25T204814.png
 security:
@@ -226,7 +226,7 @@ security:
 slug: causa-prima
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Fintech
 - E-Invoicing
 - Invoicing

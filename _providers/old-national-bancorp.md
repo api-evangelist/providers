@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,12 +56,12 @@ modified: '2026-05-04'
 name: Old National Bancorp
 nav: Providers
 network: true
-overview: Old National Bancorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, and Wealth Management.
+overview: Old National Bancorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, and Wealth Management.
 random_paper: 9
 score:
   band: minimal
   composite: 1.3
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -71,16 +71,16 @@ score:
     discoverability: 35.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.4
+  previous_composite: 1.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Old National Bancorp Domain Security
@@ -89,7 +89,7 @@ security:
 slug: old-national-bancorp
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Wealth Management
 website: https://www.oldnational.com
 ---

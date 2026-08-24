@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Payitoff
 nav: Providers
 network: true
-overview: 'Payitoff is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Debt Management, and Student Loans.
+overview: 'Payitoff is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Debt Management, and Student Loans.
 
 
   Payitoff''s developer surface includes documentation and 3 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 4.4
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -74,15 +74,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.5
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payitoff/refs/heads/main/screenshots/payitoff-2026-08-07T191641.png
 security:
@@ -93,7 +93,7 @@ security:
 slug: payitoff
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Debt Management
 - Student Loans

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-25'
 name: Howden Group
 nav: Providers
 network: true
-overview: 'Howden Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Broker, Insurance Broking, and Reinsurance.
+overview: 'Howden Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Brokers, Insurance Broking, and Reinsurance.
 
 
   Howden Group''s developer surface includes developer portal, engineering blog, support, and 16 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 18.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -126,7 +126,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 20.1
+  previous_composite: 18.9
   provenance:
     conformance: first-party
   regulatory:
@@ -135,8 +135,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/howden-group/refs/heads/main/screenshots/howden-group-2026-07-25T221536.png
 security:
@@ -152,7 +152,7 @@ slug: howden-group
 tags:
 - Insurance
 - United Kingdom
-- Broker
+- Brokers
 - Insurance Broking
 - Reinsurance
 - Specialty Insurance

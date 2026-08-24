@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.7
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -149,12 +149,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 16.9
+  previous_composite: 8.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Dazn Domain Security
@@ -175,6 +175,6 @@ tags:
 - Live Streaming
 - Broadcasting
 - Subscription
-- Open Source
+- Open-Source
 website: https://www.dazn.com/
 ---

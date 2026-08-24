@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Provides batch delivery of Bloomberg's reference, pricing, and analytics data for integration into proprietary applications and workflows.
@@ -76,7 +76,7 @@ modified: '2026-03-16'
 name: Bloomberg Data Workflows
 nav: Providers
 network: true
-overview: 'Bloomberg Data Workflows publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise Data, Financial Analytics, Financial Services, Investment Management, and Market Data.
+overview: 'Bloomberg Data Workflows publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise Data, Financial Analytics, Financial-Services, Investment Management, and Market Data.
 
 
   Bloomberg Data Workflows'' developer surface includes developer portal, documentation, support, and 3 more developer resources.'
@@ -92,7 +92,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.9
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -102,15 +102,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 20.1
+  previous_composite: 17.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/screenshots/bloomberg-data-workflows-2026-06-20T173412.png
 security:
@@ -122,7 +122,7 @@ slug: bloomberg-data-workflows
 tags:
 - Enterprise Data
 - Financial Analytics
-- Financial Services
+- Financial-Services
 - Investment Management
 - Market Data
 - Trading

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: EVM-compatible Ethereum JSON-RPC interface to the Mezo chain (eth_* methods) for reading chain state and submitting transactions. Mainnet EVM chain ID 31612, testnet 31611; BTC is the native gas token
@@ -158,22 +158,22 @@ overview: 'Mezo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 2
 score:
   band: thin
-  composite: 32.7
-  delta: 0.9
+  composite: 33.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 31.8
+  previous_composite: 33.8
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/screenshots/mezo-2026-08-07T172807.png
 security:
@@ -194,7 +194,7 @@ tags:
 - DeFi
 - EVM
 - Cosmos SDK
-- Stablecoin
+- Stablecoins
 - JSON-RPC
 - Layer 2
 website: https://mezo.org

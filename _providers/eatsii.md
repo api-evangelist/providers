@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Eatsii
 nav: Providers
 network: true
-overview: Eatsii is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Cloud Kitchen, Food Delivery, and Restaurants.
+overview: Eatsii is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Cloud Kitchen, Food Delivery, and Restaurant.
 random_paper: 9
 score:
   band: minimal
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eatsii/refs/heads/main/screenshots/eatsii-2026-08-07T164656.png
 security:
@@ -87,8 +87,8 @@ tags:
 - Food and Beverage
 - Cloud Kitchen
 - Food Delivery
-- Restaurants
-- Foodtech
+- Restaurant
+- Food Tech
 - Indonesia
 - Southeast Asia
 website: https://eatsii.com

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 36
 apis:
 - description: Create and manage approval requests for documents, plans, and tickets
@@ -376,13 +376,13 @@ image: https://www.planradar.com/wp-content/themes/planradar/images/favicon_192.
 layout: provider
 mcp_servers:
 - description: ''
-  name: planradar-mcp.yml
-  slug: planradar-mcpyml
+  name: PlanRadar MCP Server
+  slug: planradar-mcp-server
 modified: '2026-07-20'
 name: PlanRadar
 nav: Providers
 network: true
-overview: 'PlanRadar publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Approval Requests V2 API, Approval Workflows V2 API, Components-Plans API, and 33 more. Tagged areas include Company, Construction, Real Estate, Project Management, and Documentation.
+overview: 'PlanRadar publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Approval Requests V2 API, Approval Workflows V2 API, Components-Plans API, and 33 more. Tagged areas include Company, Construction, Real-Estate, Project Management, and Documentation.
 
 
   The PlanRadar catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -393,7 +393,7 @@ random_paper: 4
 score:
   band: developing
   composite: 47.0
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -403,7 +403,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 48.5
+  previous_composite: 47.0
   provenance:
     conformance: derived
     contracts:
@@ -413,8 +413,8 @@ score:
       total: 36
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/screenshots/planradar-2026-08-17T081300.png
 security:
@@ -434,13 +434,13 @@ slug: planradar
 tags:
 - Company
 - Construction
-- Real Estate
+- Real-Estate
 - Project Management
 - Documentation
 - Defect Management
 - Field Service
 - Facility Management
 - BIM
-- SaaS
+- Software-as-a-Service
 website: https://www.planradar.com/
 ---

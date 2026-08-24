@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 8
 common:
@@ -57,7 +57,7 @@ modified: '2026-04-19'
 name: ACKNOWLEDGMENTS.md
 nav: Providers
 network: true
-overview: 'ACKNOWLEDGMENTS.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Attribution, Documentation, Licensing, Open Source, and Repository.
+overview: 'ACKNOWLEDGMENTS.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Attribution, Documentation, Licensing, Open-Source, and Repository.
 
 
   ACKNOWLEDGMENTS.md''s developer surface includes documentation and getting-started guide.'
@@ -65,7 +65,7 @@ random_paper: 12
 score:
   band: minimal
   composite: 9.3
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -81,9 +81,9 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 8.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acknowledgments-md/refs/heads/main/screenshots/acknowledgments-md-2026-06-20T163856.png
 slug: acknowledgments-md
@@ -91,7 +91,7 @@ tags:
 - Attribution
 - Documentation
 - Licensing
-- Open Source
+- Open-Source
 - Repository
 - Standards
 use_cases:

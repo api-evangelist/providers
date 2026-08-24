@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing start.gg (smash.gg) tournaments, events, entrants, sets, standings, players, and users, with mutations for reporting results and managing brackets.
@@ -143,8 +143,8 @@ image: https://www.start.gg/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: smashgg-mcp.yml
-  slug: smashgg-mcpyml
+  name: Smashgg MCP Server
+  slug: smashgg-mcp-server
 modified: '2026-07-21'
 name: Smashgg
 nav: Providers
@@ -166,7 +166,7 @@ scopes:
 score:
   band: thin
   composite: 28.7
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -176,13 +176,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 30.5
+  previous_composite: 28.7
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -201,7 +201,7 @@ tags:
 - Gaming
 - Tournaments
 - GraphQL
-- Events
+- Event
 - Developer API
 website: https://www.start.gg
 ---

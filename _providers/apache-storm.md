@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -195,7 +195,7 @@ modified: '2026-05-19'
 name: Apache Storm
 nav: Providers
 network: true
-overview: 'Apache Storm publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Topology API, Cluster API, Drpc API, and 6 more. Tagged areas include Distributed Computing, Event Processing, Real-Time, Stream Processing, and Open Source.
+overview: 'Apache Storm publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Topology API, Cluster API, Drpc API, and 6 more. Tagged areas include Distributed Computing, Event Processing, Real-Time, Stream Processing, and Open-Source.
 
 
   Apache Storm''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 9 more developer resources.'
@@ -229,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/screenshots/apache-storm-2026-06-20T172147.png
 security:
@@ -248,7 +248,7 @@ tags:
 - Event Processing
 - Real-Time
 - Stream Processing
-- Open Source
+- Open-Source
 use_cases:
 - description: Continuous computation over live event streams for operational dashboards.
   name: Real-Time Analytics

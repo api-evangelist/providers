@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The 合思开放平台 (Ekuaibao / HOSE Open Platform) REST API. 200+ documented operations across contacts, corporation, budgets, expense flows, forms, fee types, pay, payer info, checking bills, city and curren
@@ -143,13 +143,13 @@ image: https://www.ekuaibao.com/uploads/20260421/35efafc6cff1340314ddb0f441d3ecf
 layout: provider
 mcp_servers:
 - description: ''
-  name: ekuaibao-mcp.yml
-  slug: ekuaibao-mcpyml
+  name: Ekuaibao MCP Server
+  slug: ekuaibao-mcp-server
 modified: '2026-07-19'
 name: Ekuaibao
 nav: Providers
 network: true
-overview: 'Ekuaibao publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Expense Management, Spend Management, and Travel and Expense.
+overview: 'Ekuaibao publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Expense Management, Spend Management, and Travel And Expense.
 
 
   The Ekuaibao catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -160,7 +160,7 @@ random_paper: 14
 score:
   band: thin
   composite: 31.9
-  delta: -11.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -170,12 +170,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 43.0
+  previous_composite: 31.9
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ekuaibao/refs/heads/main/screenshots/ekuaibao-2026-07-25T213044.png
 security:
 - kind: authentication
@@ -192,12 +192,12 @@ tags:
 - Enterprise
 - Expense Management
 - Spend Management
-- Travel and Expense
+- Travel And Expense
 - Reimbursement
 - Finance
 - Accounting
 - Invoicing
-- SaaS
+- Software-as-a-Service
 - China
 website: https://www.ekuaibao.com/
 ---

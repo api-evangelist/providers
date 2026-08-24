@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Core REST API for managing QRadar SIEM functionality including offenses, assets, rules, and searches.
@@ -40,6 +40,10 @@ apis:
   slug: qradar-gui-app-framework-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -88,14 +92,14 @@ finops:
   slug: qradar-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qradar.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-08-21'
 name: IBM QRadar Security Intelligence Platform
 nav: Providers
 network: true
 overview: 'IBM QRadar Security Intelligence Platform publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Log Management, Security, SIEM, and Threat Detection.
 
 
-  IBM QRadar Security Intelligence Platform''s developer surface includes documentation, authentication, support, and 7 more developer resources.'
+  IBM QRadar Security Intelligence Platform''s developer surface includes documentation, authentication, support, and 8 more developer resources.'
 plans:
 - name: Qradar Plans Pricing
   plan_count: 3
@@ -108,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.7
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -118,9 +122,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 20.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qradar/refs/heads/main/screenshots/qradar-2026-06-20T192355.png
 security:

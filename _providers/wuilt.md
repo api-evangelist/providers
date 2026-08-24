@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint powering the Wuilt website/e-commerce builder. Introspection is enabled; the schema exposes read queries across sites, pages, sections, menus, forms, form submissions, plans, p
@@ -112,7 +112,7 @@ modified: '2026-07-21'
 name: Wuilt
 nav: Providers
 network: true
-overview: 'Wuilt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, No-Code, E-commerce, and Hosting.
+overview: 'Wuilt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, No-Code, E-Commerce, and Hosting.
 
 
   Wuilt''s developer surface includes signup flow, pricing, engineering blog, support, FAQ, YouTube channel, and 11 more developer resources.'
@@ -120,7 +120,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 25.6
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -136,19 +136,19 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 27.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: wuilt
 tags:
 - Company
 - Website Builder
 - No-Code
-- E-commerce
+- E-Commerce
 - Hosting
 - Domains
-- SaaS
+- Software-as-a-Service
 - GraphQL
 - Egypt
 - Small Business

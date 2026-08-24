@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -975,7 +975,7 @@ modified: '2026-05-19'
 name: Amazon Entity Resolution
 nav: Providers
 network: true
-overview: 'Amazon Entity Resolution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Matchingworkflows API, Schemas API, and Tags API. Tagged areas include Amazon Web Services, Data Integration, Data Matching, Entity Resolution, and Machine Learning.
+overview: 'Amazon Entity Resolution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Matchingworkflows API, Schemas API, and Tags API. Tagged areas include Amazon Web Services, Data Integration, Data Matching, Entity Resolution, and Machine-Learning.
 
 
   The Amazon Entity Resolution catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1015,18 +1015,18 @@ rules:
   slug: amazon-entity-resolution-spectral-rules
 score:
   band: strong
-  composite: 57.9
-  delta: -5.9
+  composite: 58.3
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 80.4
     developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 63.8
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1034,9 +1034,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/screenshots/amazon-entity-resolution-2026-06-20T171643.png
 security:
 - kind: authentication
@@ -1061,7 +1061,7 @@ tags:
 - Data Integration
 - Data Matching
 - Entity Resolution
-- Machine Learning
+- Machine-Learning
 use_cases:
 - description: Create a single customer view by matching records across CRM, marketing, and transaction systems
   name: Customer Data Unification

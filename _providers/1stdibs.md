@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Official remote Model Context Protocol server (com.1stdibs/1stDibs) for browsing and searching luxury design items on the 1stDibs marketplace. Streamable-HTTP transport, API-key authentication.
@@ -73,9 +73,9 @@ description: 1stDibs is an online marketplace for luxury antiques, vintage and m
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/1stdibs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: 1stdibs-mcp.yml
-  slug: 1stdibs-mcpyml
+- description: MCP server for browsing and searching items on 1stDibs marketplace.
+  name: 1stDibs
+  slug: 1stdibs
 modified: '2026-07-17'
 name: 1stdibs
 nav: Providers
@@ -88,7 +88,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 13.1
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -98,11 +98,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.1
+  previous_composite: 13.1
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1stdibs/refs/heads/main/screenshots/1stdibs-2026-08-07T160656.png
 security:

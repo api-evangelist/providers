@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Build small in-editor apps that interact with the Framer Editor and CMS. Plugins can read and modify the canvas, manage CMS collections and items, register UI panels, and call out to external services
@@ -102,7 +102,7 @@ modified: '2026-07-25'
 name: Framer
 nav: Providers
 network: true
-overview: 'Framer publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Productivity, Design, No-Code, Web Design, and SaaS.
+overview: 'Framer publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Productivity, Design, No-Code, Web Design, and Software-as-a-Service.
 
 
   Framer''s developer surface includes pricing, GitHub presence, and 9 more developer resources.'
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.3
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -128,9 +128,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 16.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/framer/refs/heads/main/screenshots/framer-2026-06-20T181511.png
 security:
@@ -148,6 +148,6 @@ tags:
 - Design
 - No-Code
 - Web Design
-- SaaS
+- Software-as-a-Service
 website: https://www.framer.com/
 ---

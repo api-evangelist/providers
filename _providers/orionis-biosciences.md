@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -216,8 +216,8 @@ image: https://orionisbio.com/wp-content/uploads/2020/02/cropped-favicon-coast-1
 layout: provider
 mcp_servers:
 - description: ''
-  name: orionis-biosciences-mcp.yml
-  slug: orionis-biosciences-mcpyml
+  name: Orionis Biosciences MCP Server
+  slug: orionis-biosciences-mcp-server
 modified: '2026-08-04'
 name: Orionis Biosciences
 nav: Providers
@@ -230,7 +230,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 24.7
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -240,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 23.0
+  previous_composite: 24.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +257,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/screenshots/orionis-biosciences-2026-08-07T190940.png
 security:
@@ -282,7 +282,7 @@ tags:
 - Protein Engineering
 - Molecular Glues
 - Computational Biology
-- Machine Learning
+- Machine-Learning
 - Clinical Trials
 - Content
 website: https://orionisbio.com/

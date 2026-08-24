@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -182,7 +182,7 @@ modified: '2026-07-26'
 name: Nesto
 nav: Providers
 network: true
-overview: 'Nesto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Canada, Mortgage, Lending, and PropTech.
+overview: 'Nesto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Canada, Mortgage, Lending, and PropTech.
 
 
   Nesto''s developer surface includes engineering blog, support, FAQ, and 32 more developer resources.'
@@ -190,7 +190,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 26.0
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -200,7 +200,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 27.0
+  previous_composite: 26.0
   provenance:
     conformance: first-party
   regulatory:
@@ -209,8 +209,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nesto/refs/heads/main/screenshots/nesto-2026-08-07T184918.png
 security:
@@ -228,13 +228,13 @@ security:
   summary_line: SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001:2022
 slug: nesto
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Mortgage
 - Lending
 - PropTech
 - Mortgage Technology
-- Financial Services
+- Financial-Services
 - Underwriting
 - Loan Servicing
 website: https://www.nesto.ca/

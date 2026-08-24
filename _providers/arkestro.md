@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -247,13 +247,13 @@ image: https://arkestro.com/wp-content/uploads/arkestro_logo_featured_default.jp
 layout: provider
 mcp_servers:
 - description: ''
-  name: arkestro-mcp.yml
-  slug: arkestro-mcpyml
+  name: Arkestro MCP Server
+  slug: arkestro-mcp-server
 modified: '2026-08-06'
 name: Arkestro
 nav: Providers
 network: true
-overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Awards API, business unit API, corporate categories API, and 10 more. Tagged areas include procurement, sourcing, supply-chain, spend-management, and e-sourcing.
+overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Awards API, business unit API, corporate categories API, and 10 more. Tagged areas include Procurement, Sourcing, Supply Chain, Spend Management, and eSourcing.
 
 
   The Arkestro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,18 +268,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.1
-  delta: -2.1
+  composite: 49.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 16.7
     contract_quality: 65.6
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 50.2
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,8 +290,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/screenshots/arkestro-2026-08-17T122406.png
 security:
@@ -309,17 +309,17 @@ security:
   summary_line: ISO 27001:2022, SOC 2 Type II
 slug: arkestro
 tags:
-- procurement
-- sourcing
-- supply-chain
-- spend-management
-- e-sourcing
-- supplier-management
-- purchase-orders
+- Procurement
+- Sourcing
+- Supply Chain
+- Spend Management
+- eSourcing
+- Supplier Management
+- Purchase Orders
 - procurement-analytics
-- enterprise-software
+- Enterprise Software
 - predictive-procurement
-- mcp
-- webhooks
+- MCP
+- Webhook
 website: https://arkestro.com/
 ---

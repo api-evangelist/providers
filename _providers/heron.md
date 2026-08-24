@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Heron's REST API for document intake, parsing, enrichment, cashflow underwriting, webhooks, and broker/funder submission flows.
@@ -215,14 +215,14 @@ description: Heron (Heron Data) is a financial-services document-automation and 
 image: https://cdn.prod.website-files.com/675862616b5e61c9450cfef0/677e4fc1e48ddcd5917c71ca_home-og-img.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: heron-mcp.yml
-  slug: heron-mcpyml
+- description: Heron ships a hosted, remote MCP server for its DOCUMENTATION, not for its REST API. The three published tools search, read and give feedback on docs.herondata.io — they do not create end users, uploa
+  name: Heron MCP Server
+  slug: heron-mcp-server
 modified: '2026-08-14'
 name: Heron
 nav: Providers
 network: true
-overview: 'Heron publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Document Automation, Underwriting, and Lending.
+overview: 'Heron publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Document Automation, Underwriting, and Lending.
 
 
   The Heron catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -241,7 +241,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.6
-  delta: 6.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -251,7 +251,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 55.4
+  previous_composite: 61.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -262,9 +262,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png
 security:
 - kind: authentication
@@ -286,11 +286,11 @@ security:
 slug: heron
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Document Automation
 - Underwriting
 - Lending
-- Cashflow Analytics
+- Cash Flow Analytics
 - Fintech
 - Data Enrichment
 - Bank Statements

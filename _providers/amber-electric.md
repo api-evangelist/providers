@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,8 +188,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amber-elec
 layout: provider
 mcp_servers:
 - description: ''
-  name: amber-electric-mcp.yml
-  slug: amber-electric-mcpyml
+  name: Amber Electric MCP Server
+  slug: amber-electric-mcp-server
 modified: '2026-07-27'
 name: Amber Electric
 nav: Providers
@@ -211,7 +211,7 @@ scopes:
 score:
   band: strong
   composite: 56.1
-  delta: 7.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -221,7 +221,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 48.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -238,9 +238,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 74.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/screenshots/amber-electric-2026-08-07T161314.png
 security:
 - kind: authentication

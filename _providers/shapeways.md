@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -183,8 +183,8 @@ image: http://www.shapeways.com/wp-content/uploads/2021/03/SW-Thumbnail-Horizont
 layout: provider
 mcp_servers:
 - description: ''
-  name: shapeways-mcp.yml
-  slug: shapeways-mcpyml
+  name: Shapeways MCP Server
+  slug: shapeways-mcp-server
 modified: '2026-07-21'
 name: Shapeways
 nav: Providers
@@ -202,7 +202,7 @@ scopes:
 score:
   band: thin
   composite: 33.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 33.0
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +223,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -244,6 +244,6 @@ tags:
 - Prototyping
 - Hardware
 - Fulfillment
-- eCommerce
+- E-Commerce
 website: https://www.shapeways.com
 ---

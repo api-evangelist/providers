@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Run deployed WordApps programmatically. Each published WordApp exposes a run endpoint (POST /api/released-app/{app_id}/run) that accepts a JSON body of named inputs (text, image, audio) plus a semanti
@@ -110,14 +110,14 @@ description: Wordware is a San Francisco AI company (YC S23, backed by Felicis a
 image: https://github.com/wordware-ai.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: wordware-mcp.yml
-  slug: wordware-mcpyml
+- description: Wordware operates no official hosted/remote MCP server (no MCP docs page, no entry in the official MCP registry, no MCP repo in the wordware-ai GitHub org). A community-built local stdio server, wordw
+  name: Wordware MCP Server
+  slug: wordware-mcp-server
 modified: '2026-07-21'
 name: Wordware
 nav: Providers
 network: true
-overview: 'Wordware publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, AI Agents, LLM, Prompt Engineering, and Workflow Automation.
+overview: 'Wordware publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, AI Agents, LLM, Prompt Engineering, and Workflow-Automation.
 
 
   Wordware''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 12 more developer resources.'
@@ -125,7 +125,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 23.0
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -135,12 +135,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 25.5
+  previous_composite: 23.0
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -157,8 +157,8 @@ tags:
 - AI Agents
 - LLM
 - Prompt Engineering
-- Workflow Automation
-- No Code
+- Workflow-Automation
+- No-Code
 - Company
 website: https://wordware.ai
 ---

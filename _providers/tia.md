@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-21'
 name: Tia
 nav: Providers
 network: true
-overview: 'Tia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Womens Health, Primary Care, and Gynecology.
+overview: 'Tia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Women''s Health, Primary Care, and Gynecology.
 
 
   Tia''s developer surface includes signup flow, support, and 15 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 14.0
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -132,15 +132,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 14.6
+  previous_composite: 14.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tia/refs/heads/main/screenshots/tia-2026-06-20T195331.png
 security:
@@ -152,7 +152,7 @@ slug: tia
 tags:
 - Company
 - Healthcare
-- Womens Health
+- Women's Health
 - Primary Care
 - Gynecology
 - Telehealth

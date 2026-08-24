@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for the Anomalo data quality platform. Connect and refresh data warehouses, configure which tables are monitored, author and run data quality checks, read check-run results and table data pro
@@ -156,13 +156,13 @@ image: https://www.anomalo.com/wp-content/uploads/2024/01/logo-1.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: anomalo-mcp.yml
-  slug: anomalo-mcpyml
+  name: Anomalo MCP Server
+  slug: anomalo-mcp-server
 modified: '2026-07-31'
 name: Anomalo
 nav: Providers
 network: true
-overview: 'Anomalo publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include data-quality, data-observability, data-monitoring, anomaly-detection, and data-governance.
+overview: 'Anomalo publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Data Quality, Data Observability, Data Monitoring, Anomaly Detection, and Data Governance.
 
 
   Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 21 more developer resources.'
@@ -175,7 +175,7 @@ scopes:
 score:
   band: thin
   composite: 34.4
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -185,7 +185,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 34.5
+  previous_composite: 34.4
   provenance:
     conformance: derived
     contracts:
@@ -195,8 +195,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/screenshots/anomalo-2026-08-07T161419.png
 security:
@@ -210,21 +210,21 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: anomalo
 tags:
-- data-quality
-- data-observability
-- data-monitoring
-- anomaly-detection
-- data-governance
-- data-lineage
-- data-profiling
-- data-validation
-- data-engineering
-- machine-learning
-- snowflake
-- databricks
-- bigquery
-- enterprise-data
-- mcp
+- Data Quality
+- Data Observability
+- Data Monitoring
+- Anomaly Detection
+- Data Governance
+- Data Lineage
+- Data Profiling
+- Data Validation
+- Data Engineering
+- Machine-Learning
+- Snowflake
+- Databricks
+- BigQuery
+- Enterprise Data
+- MCP
 - agent-native
 website: https://www.anomalo.com/
 ---

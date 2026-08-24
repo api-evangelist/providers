@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -284,9 +284,9 @@ description: Volteras is the intelligence layer for OEM-grade connected vehicle 
 image: https://avatars.githubusercontent.com/u/89023482
 layout: provider
 mcp_servers:
-- description: ''
-  name: volteras-mcp.yml
-  slug: volteras-mcpyml
+- description: 'No official Volteras-hosted MCP server was found (web search + docs + GitHub org volteras have no public MCP surface as of 2026-07-21). This is a candidate tool list derived from the Volteras Connect '
+  name: Volteras MCP Server
+  slug: volteras-mcp-server
 modified: '2026-07-21'
 name: Volteras
 nav: Providers
@@ -311,7 +311,7 @@ scopes:
 score:
   band: strong
   composite: 56.2
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -321,7 +321,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 53.8
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,8 +338,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/screenshots/volteras-2026-08-17T082816.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ rules:
 score:
   band: thin
   composite: 32.6
-  delta: -11.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -256,7 +256,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 43.8
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -270,9 +270,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/screenshots/sushiswap-2026-06-20T194745.png
 security:
 - kind: authentication

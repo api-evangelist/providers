@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -182,8 +182,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regional-a
 layout: provider
 mcp_servers:
 - description: ''
-  name: regional-australia-bank-mcp.yml
-  slug: regional-australia-bank-mcpyml
+  name: Regional Australia Bank MCP Server
+  slug: regional-australia-bank-mcp-server
 modified: '2026-07-21'
 name: Regional Australia Bank
 nav: Providers
@@ -201,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 47.2
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 43.4
+  previous_composite: 47.2
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +227,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/screenshots/regional-australia-bank-2026-07-21T114749.png
 security:
@@ -248,7 +248,7 @@ tags:
 - CDR
 - Consumer Banking
 - Australia
-- Customer-Owned
+- Customer Owned
 - Product Reference Data
 - Mutual Bank
 website: https://www.regionalaustraliabank.com.au/

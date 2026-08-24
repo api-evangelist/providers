@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,12 +52,12 @@ modified: '2026-07-21'
 name: Standard Cognition
 nav: Providers
 network: true
-overview: Standard Cognition is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Computer Vision, Artificial Intelligence, and Retail Technology.
+overview: Standard Cognition is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Computer-Vision, Artificial Intelligence, and Retail Technology.
 random_paper: 16
 score:
   band: minimal
   composite: 1.9
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,15 +67,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 6.2
+  previous_composite: 1.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -86,7 +86,7 @@ slug: standard-cognition
 tags:
 - Company
 - Enterprise Saas
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Retail Technology
 - Autonomous Checkout

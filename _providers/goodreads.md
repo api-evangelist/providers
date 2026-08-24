@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -112,22 +112,22 @@ overview: 'Goodreads is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 7
 score:
   band: emerging
-  composite: 22.9
-  delta: 1.3
+  composite: 24.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 21.6
+  previous_composite: 24.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodreads/refs/heads/main/screenshots/goodreads-2026-07-25T220056.png
 security:

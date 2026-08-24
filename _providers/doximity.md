@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -192,13 +192,13 @@ image: https://www.doximity.com/img/logos/doximity-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: doximity-mcp.yml
-  slug: doximity-mcpyml
+  name: Doximity MCP Server
+  slug: doximity-mcp-server
 modified: '2026-07-18'
 name: Doximity
 nav: Providers
 network: true
-overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAuth API and OpenID Connect API. Tagged areas include Company, Healthtech, Identity, OAuth, and OpenID Connect.
+overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAuth API and OpenID Connect API. Tagged areas include Company, Health Tech, Identity, Authentication, and OpenID Connect.
 
 
   Doximity''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 27 more developer resources.'
@@ -215,7 +215,7 @@ scopes:
 score:
   band: strong
   composite: 58.2
-  delta: 6.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -225,7 +225,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 52.1
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,9 +242,9 @@ score:
     regime: Health
     regime_id: health
     score: 72.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
 security:
 - kind: authentication
@@ -266,11 +266,10 @@ security:
 slug: doximity
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Identity
-- OAuth
-- OpenID Connect
 - Authentication
+- OpenID Connect
 - Physician Network
 - Healthcare
 - SSO

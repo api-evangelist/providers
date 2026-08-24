@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Fetch generated assets and projects
@@ -180,8 +180,8 @@ image: https://www.kaedim3d.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: kaedim-mcp.yml
-  slug: kaedim-mcpyml
+  name: Kaedim MCP Server
+  slug: kaedim-mcp-server
 modified: '2026-07-19'
 name: Kaedim
 nav: Providers
@@ -197,7 +197,7 @@ random_paper: 10
 score:
   band: developing
   composite: 53.4
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 53.0
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     contracts:
@@ -217,8 +217,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/screenshots/kaedim-2026-07-25T223407.png
 security:
@@ -240,6 +240,6 @@ tags:
 - 3D Models
 - Asset Generation
 - Content Generation
-- Machine Learning
+- Machine-Learning
 website: https://www.kaedim3d.com
 ---

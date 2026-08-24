@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -223,8 +223,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: shift4-mcp.yml
-  slug: shift4-mcpyml
+  name: Shift4 MCP Server
+  slug: shift4-mcp-server
 modified: '2026-07-24'
 name: Shift4
 nav: Providers
@@ -240,7 +240,7 @@ random_paper: 6
 score:
   band: strong
   composite: 55.7
-  delta: 4.9
+  delta: 0.0
   facets:
     access_clarity: 3.9
     commercial_clarity: 3.9
@@ -250,7 +250,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 50.8
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 52.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/screenshots/shift4-2026-08-17T081829.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Meru Health
 nav: Providers
 network: true
-overview: 'Meru Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Mental Health, Digital Health, and Telehealth.
+overview: 'Meru Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Mental Health, Digital Health, and Telehealth.
 
 
   Meru Health''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 13.1
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -86,15 +86,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.8
+  previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meru-health/refs/heads/main/screenshots/meru-health-2026-08-07T172614.png
 security:
@@ -105,7 +105,7 @@ security:
 slug: meru-health
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Mental Health
 - Digital Health
 - Telehealth

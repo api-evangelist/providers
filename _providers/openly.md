@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API enabling independent insurance agencies to generate homeowners insurance quotes, bind policies, manage endorsements, and process renewals programmatically. Agencies can build custom interface
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: Openly
 nav: Providers
 network: true
-overview: 'Openly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Homeowners Insurance, Home Insurance, Quote, and Bind.
+overview: 'Openly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Homeowners Insurance, Home Insurance, Quotes, and Bind.
 
 
   Openly''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.1
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -123,15 +123,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 18.1
+  previous_composite: 16.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openly/refs/heads/main/screenshots/openly-2026-06-20T191015.png
 security:
@@ -144,11 +144,11 @@ tags:
 - Insurance
 - Homeowners Insurance
 - Home Insurance
-- Quote
+- Quotes
 - Bind
 - Policy
 - Endorsement
 - Renewal
-- InsurTech
+- Insurtech
 website: https://openly.com/
 ---

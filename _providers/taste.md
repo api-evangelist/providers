@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The health API from Taste — 2 operation(s) for health.
@@ -118,13 +118,13 @@ image: https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a306ae79b1ce
 layout: provider
 mcp_servers:
 - description: ''
-  name: taste-mcp.yml
-  slug: taste-mcpyml
+  name: Taste MCP Server
+  slug: taste-mcp-server
 modified: '2026-07-21'
 name: Taste
 nav: Providers
 network: true
-overview: 'Taste publishes 3 APIs on the [APIs.io](https://apis.io/) network: health API, Prompt Enhancement API, and Taste Engine API API. Tagged areas include Company, Ai, Design, Machine Learning, and Developer Tools.
+overview: 'Taste publishes 3 APIs on the [APIs.io](https://apis.io/) network: health API, Prompt Enhancement API, and Taste Engine API API. Tagged areas include Company, Artificial Intelligence, Design, Machine-Learning, and Developer Tools.
 
 
   Taste''s developer surface includes engineering blog, authentication, and 12 more developer resources.'
@@ -132,7 +132,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 24.7
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -142,7 +142,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 24.8
+  previous_composite: 24.7
   provenance:
     conformance: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -167,9 +167,9 @@ security:
 slug: taste
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Design
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 - Prompt Engineering
 - Content Generation

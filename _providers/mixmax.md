@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -209,13 +209,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mixmax.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mixmax-mcp.yml
-  slug: mixmax-mcpyml
+  name: Mixmax MCP Server
+  slug: mixmax-mcp-server
 modified: '2026-08-13'
 name: Mixmax
 nav: Providers
 network: true
-overview: 'Mixmax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contact Groups API, Contacts API, File Requests API, and 3 more. Tagged areas include Company, Saas, MCP, Agents, and Webhooks.
+overview: 'Mixmax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contact Groups API, Contacts API, File Requests API, and 3 more. Tagged areas include Company, Software-as-a-Service, MCP, Agents, and Webhook.
 
 
   The Mixmax catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -239,7 +239,7 @@ scopes:
 score:
   band: strong
   composite: 62.7
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -249,7 +249,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 65.3
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -260,8 +260,8 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/screenshots/mixmax-2026-08-07T183824.png
 security:
@@ -280,11 +280,11 @@ security:
 slug: mixmax
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - MCP
 - Agents
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 - Sales Engagement
 - Email
 - Sales

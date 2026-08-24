@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ description: Sazabi is an AI-native observability platform that helps engineerin
 image: https://sazabi.com/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: The Sazabi MCP server lets agents (e.g. Slackbot, the Sazabi Slack app, and the Microsoft Teams agent) discover and use Sazabi observability tools to investigate production issues in natural language.
   name: Sazabi MCP Server
   slug: sazabi-mcp-server
 modified: '2026-07-21'
@@ -108,7 +108,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 15.9
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -124,11 +124,11 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 17.4
+  previous_composite: 15.9
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Screaming Frog SEO Spider is a desktop website crawler for Windows, macOS, and Ubuntu that performs comprehensive technical SEO audits. It crawls websites to find broken links, analyze page titles
@@ -143,14 +143,14 @@ jsonld:
   slug: screaming-frog-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: screaming-frog-mcp.yml
-  slug: screaming-frog-mcpyml
+- description: First-party Model Context Protocol server built into the Screaming Frog SEO Spider desktop application from version 24.0 (19 May 2026). It exposes the crawler's reports, bulk exports, SEO element data
+  name: Screaming Frog SEO Spider MCP Server
+  slug: screaming-frog-seo-spider-mcp-server
 modified: '2026-08-13'
 name: Screaming Frog
 nav: Providers
 network: true
-overview: 'Screaming Frog publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SEO, Search Engine Optimization, Website Crawler, Technical Audit, and Marketing.
+overview: 'Screaming Frog publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SEO, Website Crawler, Technical Audit, Marketing, and Analytics.
 
 
   The Screaming Frog catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -180,7 +180,7 @@ rules:
 score:
   band: thin
   composite: 32.1
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -190,12 +190,12 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 18.4
-  previous_composite: 35.5
+  previous_composite: 32.1
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png
 security:
@@ -206,7 +206,6 @@ security:
 slug: screaming-frog
 tags:
 - SEO
-- Search Engine Optimization
 - Website Crawler
 - Technical Audit
 - Marketing

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -83,13 +83,13 @@ image: https://tenlittle.com/cdn/shop/t/47/assets/social_preview_1024x.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: tenlittle-mcp.yml
-  slug: tenlittle-mcpyml
+  name: Ten Little MCP Server
+  slug: ten-little-mcp-server
 modified: '2026-07-21'
 name: Ten Little
 nav: Providers
 network: true
-overview: 'Ten Little is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-commerce, Consumer Goods, and Children.
+overview: 'Ten Little is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Consumer Goods, and Children.
 
 
   Ten Little''s developer surface includes authentication, engineering blog, support, and 8 more developer resources.'
@@ -101,22 +101,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 14.3
-  delta: -2.8
+  composite: 15.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 15.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -131,11 +131,11 @@ slug: tenlittle
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Consumer Goods
 - Children
 - Footwear
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 website: https://tenlittle.com/
 ---

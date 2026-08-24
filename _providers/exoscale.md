@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 219
   human_in_the_loop: 24
@@ -362,7 +362,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.5
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -372,7 +372,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 42.0
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -380,8 +380,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exoscale/refs/heads/main/screenshots/exoscale-2026-08-17T123426.png
 security:
@@ -404,7 +404,7 @@ tags:
 - Compute
 - Storage
 - Kubernetes
-- DBaaS
+- Database-as-a-Service
 - Europe
 website: https://www.exoscale.com
 ---

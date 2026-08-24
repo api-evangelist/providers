@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Everledger Platform API — marketed as Amplify — is a suite of REST APIs that let organizations access and embed blockchain-backed provenance data in their own systems. Core APIs include the Proven
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.6
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -144,9 +144,9 @@ score:
     discoverability: 79.6
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 32.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everledger/refs/heads/main/screenshots/everledger-2026-07-25T213730.png
 security:

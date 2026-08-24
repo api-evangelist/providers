@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API (HTTP + JSON, API-key auth via ?api_key=) returning structured data from a catalog of sites. Endpoints include Product, Search, Universal Web Scraper, and Batch (async). Base host is api.choc
@@ -33,7 +33,7 @@ modified: '2026-07-16'
 name: Chocodata
 nav: Providers
 network: true
-overview: Chocodata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include web-scraping, data-extraction, serp, e-commerce-data, and social-media-data.
+overview: Chocodata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Web Scraping, Data Extraction, SERP, E-Commerce Data, and social-media-data.
 random_paper: 10
 score:
   band: minimal
@@ -55,19 +55,19 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/screenshots/chocodata-2026-07-25T205249.png
 slug: chocodata
 tags:
-- web-scraping
-- data-extraction
-- serp
-- e-commerce-data
+- Web Scraping
+- Data Extraction
+- SERP
+- E-Commerce Data
 - social-media-data
-- proxy
-- mcp
+- Proxy
+- MCP
 - agent-native
 - structured-json
 ---

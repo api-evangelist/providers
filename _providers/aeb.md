@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Electronic customs declaration filing for import, export and transit. Creates consignments and deliveries, transmits them to national customs systems (German ATLAS, EU AES/NCTS, UK CHIEF), and polls d
@@ -160,7 +160,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 23.1
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -176,7 +176,7 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 24.8
+  previous_composite: 23.1
   provenance:
     contracts:
       callable: 100.0
@@ -189,8 +189,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 6.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png
 slug: aeb

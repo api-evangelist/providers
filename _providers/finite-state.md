@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Token-authenticated REST API for the Finite State platform, served under /api/public/v0 on the platform host. Interactive Swagger documentation is published per organization at https://[org].finitesta
@@ -179,8 +179,8 @@ image: https://finitestate.io/images/backgrounds/hero-space.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: finite-state-mcp.yml
-  slug: finite-state-mcpyml
+  name: Finite State MCP Server
+  slug: finite-state-mcp-server
 modified: '2026-08-04'
 name: Finite State
 nav: Providers
@@ -193,7 +193,7 @@ random_paper: 11
 score:
   band: thin
   composite: 36.4
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -203,13 +203,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 39.3
+  previous_composite: 36.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/screenshots/finite-state-2026-08-07T165305.png
 security:

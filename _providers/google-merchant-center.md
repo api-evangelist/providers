@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: '2026-05-19'
 name: Google Merchant Center
 nav: Providers
 network: true
-overview: 'Google Merchant Center publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Inventories API, Products API, and 2 more. Tagged areas include E-Commerce, Google Shopping, Inventory, Merchant Center, and Products.
+overview: 'Google Merchant Center publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Inventories API, Products API, and 2 more. Tagged areas include E-Commerce, Google Shopping, Inventory, Merchant Center, and Product.
 
 
   The Google Merchant Center catalog on APIs.io includes 2 Spectral governance rulesets.
@@ -201,13 +201,13 @@ rules:
     info: 2
     warn: 3
   slug: google-merchant-center-jsonschema-spectral-rules
-- effective_rule_count: 59
+- effective_rule_count: 58
   extends:
   - spectral:oas
   name: Google Merchant Center API Rules
-  rule_count: 18
+  rule_count: 17
   severity_counts:
-    error: 11
+    error: 10
     hint: 0
     info: 2
     warn: 5
@@ -219,18 +219,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.2
-  delta: -6.5
+  composite: 47.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 60.1
     developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 53.7
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -244,9 +244,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/screenshots/google-merchant-center-2026-06-20T182216.png
 security:
 - kind: authentication
@@ -267,7 +267,7 @@ tags:
 - Google Shopping
 - Inventory
 - Merchant Center
-- Products
+- Product
 - Promotions
 - Shopping
 website: https://www.google.com/retail/solutions/merchant-center/

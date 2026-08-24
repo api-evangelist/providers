@@ -1,16 +1,16 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Free
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probed
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,38 +22,96 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-19'
-api_count: 3
+  score: 24.4
+  scored_at: '2026-08-24'
+api_count: 5
 apis:
-- description: OAI-PMH 2.0 metadata harvesting endpoint for TSpace, the University of Toronto Libraries institutional research repository, now hosted on the Scholaris DSpace platform. Supports standard OAI verbs suc
-  name: TSpace Institutional Repository (OAI-PMH)
+- description: The public JSON API behind the official University of Toronto Timetable Builder, operated by Enterprise Applications and Solutions Integration (EASI) within U of T Information Technology Services on t
+  name: Timetable Builder API
+  slug: ttb-course-timetable
+- description: The University of Toronto's Shibboleth identity provider, entityID https://idpz.utorauth.utoronto.ca/shibboleth, serving signed SAML 2.0 metadata from the University's own utorauth.utoronto.ca host. R
+  name: UTORauth Shibboleth Identity Provider (SAML 2.0 metadata)
+  slug: utorauth-shibboleth-idp
+- description: OAI-PMH 2.0 harvesting endpoint for TSpace, the University of Toronto Libraries institutional research repository. The repository is the University's — Identify returns repositoryName "TSpace" with ad
+  name: TSpace Institutional Repository (OAI-PMH) — tenant on Scholaris
   slug: tspace-oai-pmh
-- description: DSpace REST API surface exposed by the Scholaris platform that hosts the University of Toronto TSpace institutional repository. Provides programmatic access to repository communities, collections, and
-  name: TSpace DSpace REST API
+- description: 'The DSpace 8.4 HAL REST API serving TSpace. Verified live on 2026-08-19: the root document returns dspaceName "TSpace", dspaceVersion "DSpace 8.4" and a link index covering communities, collections, i'
+  name: TSpace DSpace REST API — tenant on Scholaris
   slug: tspace-dspace-rest
-- description: Cobalt was a student-driven open-data project providing REST APIs for University of Toronto public information including courses, buildings, textbooks, food, athletics, exams, parking, and shuttles. T
-  name: Cobalt Open Data API (deprecated)
-  slug: cobalt
-artifact_total: 8
+- description: The University of Toronto's research data repository collection inside Borealis, the Canadian Dataverse Repository operated by Scholars Portal for the Ontario Council of University Libraries. Verified
+  name: U of T Dataverse (Borealis) — tenant
+  slug: uoft-dataverse-borealis
+artifact_total: 25
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-toronto-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.utoronto.ca/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: https://www.utoronto.ca/llms.txt
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://ttb.utoronto.ca/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idpz.utorauth.utoronto.ca/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://utoronto.scholaris.ca/
 - group: build
   title: ''
-  type: GitHub
+  type: LibraryCatalog
+  url: https://onesearch.library.utoronto.ca/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://docs.scinet.utoronto.ca/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://ai.utoronto.ca/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://its.utoronto.ca/ai/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://data.utoronto.ca/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://easi.its.utoronto.ca/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.utoronto.ca/privacy
+- group: operate
+  title: ''
+  type: Status
+  url: https://www.utoronto.ca/campus-status
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.utoronto.ca/news
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.utoronto.ca/contacts
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/utoronto
 - group: build
   title: ''
@@ -63,6 +121,10 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-toronto/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-toronto-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -79,30 +141,102 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-toronto-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/university-of-toronto-lifecycle.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/university-of-toronto-vocabulary.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/university-of-toronto-rules.yml
+- group: auth
+  title: ''
+  type: Scopes
+  url: scopes/university-of-toronto-scopes.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/ttb-course.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/university-of-toronto-timetable-context.jsonld
+- group: build
+  title: ''
+  type: Examples
+  url: examples/index.yml
 created: '2026-06-03'
-description: 'The University of Toronto is Canada''s leading public research university, ranked #26 in the QS World University Rankings 2025. Its public developer and API footprint is modest and decentralized: the University of Toronto Libraries operate the TSpace institutional repository (now hosted on the Scholaris DSpace platform), which exposes a standards-based OAI-PMH 2.0 metadata endpoint and a DSpace REST API. Student-facing course and timetable data is served through the EASI Timetable Builder, but that interface is not publicly documented as a developer API. Historically, the student-driven Cobalt project published open-data APIs for UofT courses, buildings, and campus services, but it has been deprecated/archived since 2020.'
+description: 'The University of Toronto is Canada''s largest public research university, operating three campuses (St. George, Mississauga, Scarborough) and ranked in the QS World University Rankings top 25. Like almost every institution its size it is a federation of buyers rather than a producer of APIs, and this profile is deliberate about which side of that line each surface falls on. Two surfaces are genuinely institution-operated, both on utoronto.ca: the Timetable Builder API at api.easi.utoronto.ca, run by Enterprise Applications and Solutions Integration (EASI) within U of T Information Technology Services, which serves live course, section, meeting-time, enrolment and building data across all divisions with no credential required; and the UTORauth Shibboleth identity provider, which publishes SAML 2.0 metadata registered in the Canadian Access Federation with the REFEDS Research & Scholarship entity category and SIRTFI assurance. Everything else that looks like a University of
+  Toronto API is a vendor or consortium contract running under the University''s name — TSpace now lives on Scholaris, the OCUL-operated DSpace service, and its OAI-PMH and REST endpoints are the platform''s engineering, not U of T''s; the U of T Dataverse is a collection inside Borealis. Those relationships are recorded here as tenant surfaces because the data is the University''s even though the contract is not. There is no developer portal, no API documentation, no terms of use for any API, no versioning scheme, no status page and no support channel for developers. The University does publish an llms.txt at its web root, which is more agent-facing provision than most of the cohort makes.'
+examples:
+- key_count: 2
+  name: Ttb Current Session Response
+  slug: ttb-current-session-response
+- key_count: 2
+  name: Ttb Gateway 404 Response
+  slug: ttb-gateway-404-response
+- key_count: 2
+  name: Ttb Matching Divisions Response
+  slug: ttb-matching-divisions-response
+- key_count: 2
+  name: Ttb No Results Response
+  slug: ttb-no-results-response
+- key_count: 15
+  name: Ttb Pageable Courses Request
+  slug: ttb-pageable-courses-request
+- key_count: 3
+  name: Ttb Pageable Courses Response
+  slug: ttb-pageable-courses-response
+- key_count: 3
+  name: Ttb Reference Data Response
+  slug: ttb-reference-data-response
 finops:
 - name: University Of Toronto Finops
   service_category: Education
   slug: university-of-toronto-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-toronto.png
+json_schemas:
+- name: University of Toronto Timetable Builder — Course Search Request
+  property_count: 15
+  slug: ttb-course-search
+- name: University of Toronto Timetable Builder — Course
+  property_count: 8
+  slug: ttb-course
+- name: University of Toronto Timetable Builder — Meeting Time
+  property_count: 6
+  slug: ttb-meeting-time
+- name: University of Toronto Timetable Builder — Section
+  property_count: 19
+  slug: ttb-section
 jsonld:
 - class_count: 10
   name: University Of Toronto Context
   property_count: 4
   slug: university-of-toronto-context
+- class_count: 14
+  name: University Of Toronto Timetable Context
+  property_count: 8
+  slug: university-of-toronto-timetable-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: University of Toronto
 nav: Providers
 network: true
-overview: 'University of Toronto publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'University of Toronto publishes 1 API on the [APIs.io](https://apis.io/) network: Timetable Builder API. Tagged areas include University, Higher Education, Education, Canada, and U15.
 
 
-  The University of Toronto catalog on APIs.io includes 1 JSON-LD context.
+  The University of Toronto catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  University of Toronto''s developer surface includes GitHub presence and 8 more developer resources.'
+  University of Toronto''s developer surface includes documentation, status page, engineering blog, support, code examples, and 26 more developer resources.'
 plans:
 - name: University Of Toronto Plans Pricing
   plan_count: 2
@@ -112,44 +246,75 @@ rate_limits:
 - limit_count: 1
   name: University Of Toronto Rate Limits
   slug: university-of-toronto-rate-limits
+rules:
+- effective_rule_count: 1
+  extends: []
+  name: University of Toronto API Rules
+  rule_count: 1
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 1
+  slug: university-of-toronto-rules
+scopes:
+- name: University Of Toronto Scopes
+  scope_count: 0
+  slug: university-of-toronto-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 17.4
-  delta: -1.7
+  band: thin
+  composite: 30.8
+  delta: -0.3
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 11.3
-    developer_ergonomics: 0.0
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 19.1
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 11.4
+    contract_quality: 20.2
+    developer_ergonomics: 16.7
+    discoverability: 72.2
+    governance: 11.4
+    operational_transparency: 23.7
+  previous_composite: 31.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 46.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/screenshots/university-of-toronto-2026-06-20T200245.png
 security:
+- kind: authentication
+  name: University Of Toronto Authentication
+  slug: university-of-toronto-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: University Of Toronto Domain Security
   slug: university-of-toronto-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: university-of-toronto
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - Canada
-- Library
+- U15
+- Research
+- Course Catalog
+- Identity Federation
+- Research Data
 - Institutional Repository
+- Library
+- Public Research University
 website: https://www.utoronto.ca/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -473,8 +473,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-clean-rooms-mcp.yml
-  slug: amazon-clean-rooms-mcpyml
+  name: Amazon Clean Rooms MCP Server
+  slug: amazon-clean-rooms-mcp-server
 modified: '2026-08-13'
 name: Amazon Clean Rooms
 nav: Providers
@@ -518,19 +518,19 @@ rules:
     warn: 17
   slug: amazon-clean-rooms-spectral-rules
 score:
-  band: strong
-  composite: 66.2
-  delta: -4.3
+  band: exemplar
+  composite: 66.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 38.9
     developer_ergonomics: 90.5
     discoverability: 92.6
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 92.1
-  previous_composite: 70.5
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -541,8 +541,8 @@ score:
       total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/screenshots/amazon-clean-rooms-2026-07-25T195939.png
 security:

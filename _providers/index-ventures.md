@@ -28,7 +28,7 @@ tags:
 - Early Stage
 - Growth
 - Fintech
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Infrastructure
 - Europe

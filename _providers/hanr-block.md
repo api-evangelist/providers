@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The H&R Block API provides access to platform services and data for enterprise integration and automation.
@@ -61,7 +61,7 @@ modified: '2026-04-19'
 name: H&R Block
 nav: Providers
 network: true
-overview: H&R Block publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Preparation, Financial Services, and Fortune 1000.
+overview: H&R Block publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Preparation, Financial-Services, and Fortune 1000.
 plans:
 - name: Hanr Block Plans Pricing
   plan_count: 1
@@ -74,7 +74,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.7
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -84,9 +84,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 9.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/screenshots/hanr-block-2026-06-20T182508.png
 security:
@@ -97,7 +97,7 @@ security:
 slug: hanr-block
 tags:
 - Tax Preparation
-- Financial Services
+- Financial-Services
 - Fortune 1000
 website: https://www.hrblock.com
 ---

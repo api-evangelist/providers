@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Availability API from Klook — 2 operation(s) for availability.
@@ -183,9 +183,9 @@ description: 'Klook is a Hong Kong-headquartered travel and experiences booking 
 image: https://res.klook.com/image/upload/klook_logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: klook-mcp.yml
-  slug: klook-mcpyml
+- description: 'No official or hosted Klook MCP server was found during this pass (searched Klook''s documentation, the MCP registry namespace and npm). This is a candidate tool surface derived one-tool-per-operation '
+  name: Klook MCP Server
+  slug: klook-mcp-server
 modified: '2026-07-19'
 name: Klook
 nav: Providers
@@ -201,7 +201,7 @@ random_paper: 19
 score:
   band: developing
   composite: 45.7
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 47.7
+  previous_composite: 45.7
   provenance:
     conformance: first-party
     contracts:
@@ -221,8 +221,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/screenshots/klook-2026-08-17T123946.png
 security:
@@ -241,7 +241,7 @@ tags:
 - Travel
 - Tours and Activities
 - Booking
-- Experiences
+- Experience
 - Distribution
 - OCTO
 - Hospitality

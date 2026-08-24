@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-20'
 name: Local Holdings Limited
 nav: Providers
 network: true
-overview: 'Local Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Payments, QR Payments, and Hospitality.
+overview: 'Local Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, QR Payments, and Hospitality.
 
 
   Local Holdings Limited''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -72,7 +72,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 9.1
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -82,15 +82,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.2
+  previous_composite: 9.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/local-holdings-limited/refs/heads/main/screenshots/local-holdings-limited-2026-08-07T183112.png
 security:
@@ -101,13 +101,13 @@ security:
 slug: local-holdings-limited
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
 - QR Payments
 - Hospitality
 - Loyalty
-- Point of Sale
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - GCC
 website: https://uselocal.co
 ---

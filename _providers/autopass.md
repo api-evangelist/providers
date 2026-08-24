@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Partner parking locations (POIs)
@@ -138,8 +138,8 @@ image: https://www.autopass.xyz/autopass_og.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: autopass-mcp.yml
-  slug: autopass-mcpyml
+  name: Autopass MCP Server
+  slug: autopass-mcp-server
 modified: '2026-07-18'
 name: Autopass
 nav: Providers
@@ -159,18 +159,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 41.1
-  delta: 0.7
+  composite: 42.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 12.1
     contract_quality: 64.3
     developer_ergonomics: 39.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 12.1
     operational_transparency: 7.9
-  previous_composite: 40.4
+  previous_composite: 42.2
   provenance:
     contracts:
       callable: 100.0
@@ -185,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png
 security:
@@ -205,8 +205,8 @@ tags:
 - Parking
 - Payments
 - Automotive
-- Financial Services
-- OAuth
+- Financial-Services
+- Authentication
 - Taiwan
 website: https://en.autopass.xyz
 ---

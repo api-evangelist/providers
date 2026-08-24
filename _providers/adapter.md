@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -291,13 +291,13 @@ image: https://framerusercontent.com/images/jeqjDUjgYoFJr6KfWmg7Kvi2Rs.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: adapter-mcp.yml
-  slug: adapter-mcpyml
+  name: Adapter MCP Server
+  slug: adapter-mcp-server
 modified: '2026-07-17'
 name: Adapter
 nav: Providers
 network: true
-overview: 'Adapter publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Adapter API API, assets API, auth API, and 23 more. Tagged areas include Company, Ai, Cognition, Knowledge Graph, and Memory.
+overview: 'Adapter publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Adapter API API, assets API, auth API, and 23 more. Tagged areas include Company, Artificial Intelligence, Cognition, Knowledge Graph, and Memory.
 
 
   Adapter''s developer surface includes authentication, engineering blog, signup flow, support, and 17 more developer resources.'
@@ -310,7 +310,7 @@ scopes:
 score:
   band: thin
   composite: 37.0
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -320,7 +320,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 37.9
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -331,8 +331,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/screenshots/adapter-2026-08-07T161042.png
 security:
@@ -347,7 +347,7 @@ security:
 slug: adapter
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Cognition
 - Knowledge Graph
 - Memory

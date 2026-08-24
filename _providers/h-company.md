@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -236,13 +236,13 @@ image: https://framerusercontent.com/assets/Xk8HZOz0eejLsPdcyokpuQJa3c.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: h-company-mcp.yml
-  slug: h-company-mcpyml
+  name: H Company MCP Server
+  slug: h-company-mcp-server
 modified: '2026-07-19'
 name: H Company
 nav: Providers
 network: true
-overview: 'H Company publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Browser Profiles API, Environments API, and 6 more. Tagged areas include Artificial Intelligence, Agents, Computer Use, Automation, and Machine Learning.
+overview: 'H Company publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Browser Profiles API, Environments API, and 6 more. Tagged areas include Artificial Intelligence, Agents, Computer Use, Automation, and Machine-Learning.
 
 
   The H Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -253,7 +253,7 @@ random_paper: 5
 score:
   band: strong
   composite: 55.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -263,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 55.5
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,8 +274,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/screenshots/h-company-2026-07-25T220500.png
 security:
@@ -293,7 +293,7 @@ tags:
 - Agents
 - Computer Use
 - Automation
-- Machine Learning
+- Machine-Learning
 - Browser Automation
 - LLMs
 - MCP

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -720,7 +720,7 @@ jsonld:
   slug: hunter-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Hunter operates a first-party REMOTE MCP server at https://mcp.hunter.io/mcp using the Streamable HTTP transport. It is documented in Hunter's own API reference ("Model Context Protocol (MCP)" section
   name: Hunter Remote MCP Server
   slug: hunter-remote-mcp-server
 - description: ''
@@ -775,18 +775,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 72.2
-  delta: -2.9
+  composite: 72.6
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 78.1
     developer_ergonomics: 64.3
     discoverability: 92.6
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 68.4
-  previous_composite: 75.1
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -797,8 +797,8 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/screenshots/hunter-2026-06-20T182943.png
 security:

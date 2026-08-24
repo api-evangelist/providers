@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -159,13 +159,13 @@ image: https://originmarkets.com/universal/svg/social-accounts.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: origin-mcp.yml
-  slug: origin-mcpyml
+  name: Origin MCP Server
+  slug: origin-mcp-server
 modified: '2026-07-20'
 name: Origin
 nav: Providers
 network: true
-overview: 'Origin publishes 1 API on the [APIs.io](https://apis.io/) network: Trades API. Tagged areas include Company, Financial Services, Capital Markets, Bond Issuance, and Debt Capital Markets.
+overview: 'Origin publishes 1 API on the [APIs.io](https://apis.io/) network: Trades API. Tagged areas include Company, Financial-Services, Capital Markets, Bond Issuance, and Debt Capital Markets.
 
 
   Origin''s developer surface includes authentication, changelog, documentation, API reference, engineering blog, support, and 17 more developer resources.'
@@ -173,7 +173,7 @@ random_paper: 18
 score:
   band: thin
   composite: 38.4
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -183,7 +183,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 34.2
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,8 +194,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/screenshots/origin-2026-08-07T190930.png
 security:
@@ -210,14 +210,14 @@ security:
 slug: origin
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Bond Issuance
 - Debt Capital Markets
 - Fixed Income
 - Post-Trade
 - ISO 20022
-- FinTech
+- Fintech
 - Straight-Through Processing
 website: https://originmarkets.com/
 ---

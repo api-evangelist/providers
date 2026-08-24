@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -193,16 +193,16 @@ image: https://vidmob.com/hubfs/VM_FaviconArtboard%201.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: vidmob-mcp.yml
-  slug: vidmob-mcpyml
+  name: VidMob MCP Server
+  slug: vidmob-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: VidMob MCP Server
+  slug: vidmob-mcp-server-2
 modified: '2026-08-05'
 name: VidMob
 nav: Providers
 network: true
-overview: 'VidMob publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media API, Organization API, Scoring API, and 1 more. Tagged areas include creative-intelligence, creative-data, advertising, marketing, and media-measurement.
+overview: 'VidMob publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media API, Organization API, Scoring API, and 1 more. Tagged areas include Creative Intelligence, creative-data, Advertising, Marketing, and Media Measurement.
 
 
   VidMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
@@ -215,7 +215,7 @@ scopes:
 score:
   band: developing
   composite: 43.4
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 49.4
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,9 +236,9 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/screenshots/vidmob-2026-08-17T082749.png
 security:
 - kind: authentication
@@ -255,17 +255,17 @@ security:
   summary_line: trust center published
 slug: vidmob
 tags:
-- creative-intelligence
+- Creative Intelligence
 - creative-data
-- advertising
-- marketing
-- media-measurement
-- video
-- computer-vision
-- creative-analytics
-- adtech
-- mcp
+- Advertising
+- Marketing
+- Media Measurement
+- Video
+- Computer-Vision
+- Creative Analytics
+- AdTech
+- MCP
 - agent-native
-- martech
+- MarTech
 website: https://vidmob.com/
 ---

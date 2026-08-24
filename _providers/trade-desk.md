@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -363,9 +363,9 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trade-desk.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: trade-desk-mcp.yml
-  slug: trade-desk-mcpyml
+- description: The Trade Desk's MCP-based access to Koa Agents, announced in the Platform API release notes on 2026-08-10 and available to select partners in private beta. Rather than exposing one tool per API endpo
+  name: Open Agentic Kit (OAK)
+  slug: open-agentic-kit-oak
 modified: '2026-08-13'
 name: The Trade Desk
 nav: Providers
@@ -391,7 +391,7 @@ scopes:
 score:
   band: strong
   composite: 56.5
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -401,7 +401,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 56.6
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -412,8 +412,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/screenshots/trade-desk-2026-06-20T195532.png
 security:

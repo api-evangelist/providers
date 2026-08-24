@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-18'
 name: Binti
 nav: Providers
 network: true
-overview: 'Binti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Govtech, Child Welfare, Foster Care, and Government.
+overview: 'Binti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GovTech, Child Welfare, Foster Care, and Government.
 
 
   Binti''s developer surface includes engineering blog, product news, support, changelog, signup flow, and 10 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 18.8
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -118,15 +118,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.5
+  previous_composite: 18.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binti/refs/heads/main/screenshots/binti-2026-07-25T203015.png
 security:
@@ -141,7 +141,7 @@ security:
 slug: binti
 tags:
 - Company
-- Govtech
+- GovTech
 - Child Welfare
 - Foster Care
 - Government

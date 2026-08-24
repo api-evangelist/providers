@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Planhat's REST API for reading and writing every core Customer Platform object — companies, end users, licenses, conversations, notes, tasks, opportunities, deals, sales, invoices, assets, issues, tic
@@ -169,14 +169,14 @@ description: Planhat is a Customer Platform that unifies customer success, produ
 image: https://www.planhat.com/
 layout: provider
 mcp_servers:
-- description: ''
-  name: planhat-mcp.yml
-  slug: planhat-mcpyml
+- description: Planhat operates an official remote MCP server that connects AI tools (Claude, ChatGPT, custom apps) to live Planhat Customer Platform data. Authenticated via OAuth 2.0 (client_id prefix pk_, client_s
+  name: Planhat MCP Server
+  slug: planhat-mcp-server
 modified: '2026-07-20'
 name: Planhat
 nav: Providers
 network: true
-overview: 'Planhat publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Customer Success, Customer Platform, and CRM.
+overview: 'Planhat publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Customer Success, Customer Platform, and CRM.
 
 
   The Planhat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.5
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -201,12 +201,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 54.9
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/screenshots/planhat-2026-08-17T081257.png
 security:
@@ -225,7 +225,7 @@ security:
 slug: planhat
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Customer Success
 - Customer Platform
 - CRM

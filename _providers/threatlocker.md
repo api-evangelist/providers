@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -283,14 +283,14 @@ description: ThreatLocker is a Zero Trust endpoint and cloud security platform u
 image: https://cdn.prod.website-files.com/6356c441ce34029b327802bf/6972a0af939532eaa67988e1_ThreatLocker_Generic%20OpenGraph-Meta%20image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: threatlocker-mcp.yml
-  slug: threatlocker-mcpyml
+- description: ThreatLocker publishes NO official or hosted MCP server. This is a DERIVED candidate tool surface — one tool per PortalAPI operation group — offered as a design starting point, not a claim that Threat
+  name: ThreatLocker MCP Server
+  slug: threatlocker-mcp-server
 modified: '2026-08-02'
 name: ThreatLocker
 nav: Providers
 network: true
-overview: 'ThreatLocker publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Action Log API, Application API, Approval Request API, and 15 more. Tagged areas include cybersecurity, zero-trust, endpoint-security, application-control, and allowlisting.
+overview: 'ThreatLocker publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Action Log API, Application API, Approval Request API, and 15 more. Tagged areas include Cybersecurity, Zero Trust, Endpoint Security, Application-Control, and allowlisting.
 
 
   The ThreatLocker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -301,7 +301,7 @@ random_paper: 7
 score:
   band: developing
   composite: 54.0
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -311,7 +311,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 53.0
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -322,8 +322,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/screenshots/threatlocker-2026-08-17T082347.png
 security:
@@ -341,17 +341,17 @@ security:
   summary_line: SOC 2 Type II, ISO 27001, FedRAMP
 slug: threatlocker
 tags:
-- cybersecurity
-- zero-trust
-- endpoint-security
-- application-control
+- Cybersecurity
+- Zero Trust
+- Endpoint Security
+- Application-Control
 - allowlisting
-- ransomware-prevention
-- privileged-access-management
-- network-access-control
-- managed-detection-and-response
-- device-management
-- msp
-- compliance
+- Ransomware Prevention
+- Privileged Access Management
+- Network Access Control
+- Managed Detection and Response
+- Device Management
+- MSP
+- Compliance
 website: https://www.threatlocker.com/
 ---

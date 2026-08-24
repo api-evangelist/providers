@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ modified: '2026-05-19'
 name: Science Museum Group
 nav: Providers
 network: true
-overview: 'Science Museum Group publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Objects API, People API, and 1 more. Tagged areas include Museums, Collections, Cultural Heritage, Open Data, and Science.
+overview: 'Science Museum Group publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Objects API, People API, and 1 more. Tagged areas include Museums, Collection, Cultural Heritage, Open Data, and Science.
 
 
   The Science Museum Group catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -169,18 +169,18 @@ rules:
   slug: science-museum-group-rules
 score:
   band: thin
-  composite: 26.9
-  delta: -7.6
+  composite: 27.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 68.4
     developer_ergonomics: 0.0
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 34.5
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -194,9 +194,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/screenshots/science-museum-group-2026-06-20T193534.png
 security:
 - kind: domain-security
@@ -206,7 +206,7 @@ security:
 slug: science-museum-group
 tags:
 - Museums
-- Collections
+- Collection
 - Cultural Heritage
 - Open Data
 - Science

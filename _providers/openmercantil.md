@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -436,18 +436,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 87.3
-  delta: 4.8
+  composite: 87.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 55.3
+    contract_governance: 59.1
     contract_quality: 77.4
     developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 55.3
+    governance: 59.1
     operational_transparency: 94.7
-  previous_composite: 82.5
+  previous_composite: 87.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -464,8 +464,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 85.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png
 security:
@@ -521,6 +521,6 @@ tags:
 - Spanish Open Data
 - Tenders
 - Trust Score
-- Webhooks
+- Webhook
 website: https://openmercantil.es/
 ---

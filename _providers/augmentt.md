@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Augmentt Discover provides SaaS discovery and Shadow IT detection capabilities for MSPs, identifying all cloud applications used across managed client environments.
@@ -120,7 +120,7 @@ modified: '2026-04-19'
 name: Augmentt
 nav: Providers
 network: true
-overview: 'Augmentt publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MSP, Microsoft 365, SaaS Management, SaaS Security, and Shadow IT.
+overview: 'Augmentt publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MSP, Microsoft-365, SaaS Management, SaaS Security, and Shadow IT.
 
 
   Augmentt''s developer surface includes documentation, engineering blog, signup flow, pricing, and 9 more developer resources.'
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.9
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -146,9 +146,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/screenshots/augmentt-2026-07-25T201708.png
 security:
@@ -168,7 +168,7 @@ solutions:
   name: Microsoft 365 Security
 tags:
 - MSP
-- Microsoft 365
+- Microsoft-365
 - SaaS Management
 - SaaS Security
 - Shadow IT

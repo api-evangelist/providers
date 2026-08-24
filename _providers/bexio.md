@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -301,8 +301,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bexio.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: bexio-mcp.yml
-  slug: bexio-mcpyml
+  name: bexio MCP Server
+  slug: bexio-mcp-server
 modified: '2026-07-17'
 name: bexio
 nav: Providers
@@ -328,7 +328,7 @@ scopes:
 score:
   band: strong
   composite: 61.6
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -338,7 +338,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 67.3
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -349,9 +349,9 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png
 security:
 - kind: authentication

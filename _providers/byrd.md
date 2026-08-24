@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API to create and manage products, deliveries (inbound stock), shipments (outbound orders), and returns across byrd's European fulfillment network. JWT bearer auth; JSON over HTTPS (TLS 1.2+); re
@@ -123,8 +123,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/byrd.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: byrd-mcp.yml
-  slug: byrd-mcpyml
+  name: Byrd MCP Server
+  slug: byrd-mcp-server
 modified: '2026-07-18'
 name: Byrd
 nav: Providers
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.8
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -151,13 +151,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 35.4
+  previous_composite: 31.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/screenshots/byrd-2026-07-25T204138.png
 security:

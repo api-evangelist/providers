@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 15
 apis:
 - description: The Articles API from NewsWhip — 1 operation(s) for articles.
@@ -230,8 +230,8 @@ image: https://www.newswhip.com/wp-content/uploads/2022/05/API-on-phone.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: newswhip-mcp.yml
-  slug: newswhip-mcpyml
+  name: NewsWhip MCP Server
+  slug: newswhip-mcp-server
 modified: '2026-08-13'
 name: NewsWhip
 nav: Providers
@@ -252,7 +252,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.8
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
@@ -262,7 +262,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 43.4
-  previous_composite: 51.6
+  previous_composite: 45.8
   provenance:
     conformance: derived
     contracts:
@@ -272,9 +272,9 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/screenshots/newswhip-2026-08-07T185140.png
 security:
 - kind: authentication

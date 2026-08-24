@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 10
 common:
@@ -78,7 +78,7 @@ modified: '2026-05-03'
 name: Globe Life (Torchmark)
 nav: Providers
 network: true
-overview: Globe Life (Torchmark) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Financial Services, Fortune 1000, Insurance, and Life Insurance.
+overview: Globe Life (Torchmark) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Financial-Services, Fortune 1000, Insurance, and Life Insurance.
 press:
 - date: '2026-05-25'
   title: 'Forbes Earnings Preview: Torchmark'
@@ -99,7 +99,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 2.3
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -109,15 +109,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.6
+  previous_composite: 2.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/torchmark/refs/heads/main/screenshots/torchmark-2026-06-20T195457.png
 security:
@@ -128,7 +128,7 @@ security:
 slug: torchmark
 tags:
 - Annuities
-- Financial Services
+- Financial-Services
 - Fortune 1000
 - Insurance
 - Life Insurance

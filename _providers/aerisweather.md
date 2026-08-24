@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful weather data API providing access to 60+ endpoints for current conditions, forecasts, observations, severe weather alerts, historical data, air quality, lightning, maritime weather, road condi
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: AerisWeather
 nav: Providers
 network: true
-overview: 'AerisWeather publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather, Forecasts, Climate, Severe Weather, and Air Quality.
+overview: 'AerisWeather publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather, Forecast, Climate, Severe Weather, and Air Quality.
 
 
   AerisWeather''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.9
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -123,9 +123,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerisweather/refs/heads/main/screenshots/aerisweather-2026-06-20T165453.png
 security:
@@ -136,7 +136,7 @@ security:
 slug: aerisweather
 tags:
 - Weather
-- Forecasts
+- Forecast
 - Climate
 - Severe Weather
 - Air Quality

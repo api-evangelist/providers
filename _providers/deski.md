@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -174,7 +174,7 @@ modified: '2026-08-17'
 name: DESKi
 nav: Providers
 network: true
-overview: 'DESKi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Medical Imaging, Cardiology, and Ultrasound.
+overview: 'DESKi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Medical Imaging, Cardiology, and Ultrasound.
 
 
   DESKi''s developer surface includes documentation, FAQ, training material, pricing, signup flow, support, engineering blog, and 22 more developer resources.'
@@ -190,6 +190,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.1
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -199,6 +200,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 10.5
+  previous_composite: 32.1
   provenance:
     conformance: first-party
   regulatory:
@@ -207,8 +209,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Deski Domain Security
@@ -221,7 +224,7 @@ security:
 slug: deski
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Medical Imaging
 - Cardiology
 - Ultrasound

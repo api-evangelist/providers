@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -183,8 +183,8 @@ image: https://www.contalink.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: contalink-mcp.yml
-  slug: contalink-mcpyml
+  name: Contalink MCP Server
+  slug: contalink-mcp-server
 modified: '2026-07-18'
 name: Contalink
 nav: Providers
@@ -197,7 +197,7 @@ random_paper: 18
 score:
   band: developing
   composite: 41.7
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 41.2
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,8 +218,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/screenshots/contalink-2026-07-25T210322.png
 security:
@@ -242,6 +242,6 @@ tags:
 - Invoicing
 - CFDI
 - Mexico
-- SaaS
+- Software-as-a-Service
 website: https://contalink.com
 ---

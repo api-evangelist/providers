@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -150,7 +150,7 @@ modified: '2026-05-11'
 name: Riak KV
 nav: Providers
 network: true
-overview: 'Riak KV publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Mapred API, Ping API, Riak KV HTTP API API, and 3 more. Tagged areas include Database, NoSQL, Key-Value Store, Distributed Systems, and Open Source.
+overview: 'Riak KV publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Mapred API, Ping API, Riak KV HTTP API API, and 3 more. Tagged areas include Database, NoSQL, Key-Value Store, Distributed Systems, and Open-Source.
 
 
   Riak KV''s developer surface includes authentication, documentation, and 11 more developer resources.'
@@ -158,7 +158,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 25.0
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -168,7 +168,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 26.4
+  previous_composite: 25.0
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/screenshots/riak-2026-06-20T193107.png
 security:
@@ -195,7 +195,7 @@ tags:
 - NoSQL
 - Key-Value Store
 - Distributed Systems
-- Open Source
+- Open-Source
 - Basho
 - CRDT
 website: https://riak.com

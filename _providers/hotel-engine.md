@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -197,8 +197,8 @@ image: https://engine.com/_astro/engine-og-default.BAjJjAAC.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: hotel-engine-mcp.yml
-  slug: hotel-engine-mcpyml
+  name: Engine MCP Server
+  slug: engine-mcp-server
 modified: '2026-08-04'
 name: Engine
 nav: Providers
@@ -215,7 +215,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.9
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 68.4
-  previous_composite: 53.3
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,8 +242,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/screenshots/hotel-engine-2026-08-07T170318.png
 security:

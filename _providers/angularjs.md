@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The AngularJS (Angular.js, version 1.x) core framework API for building dynamic single-page web applications using JavaScript. AngularJS introduced the MVC pattern to front-end development, two-way da
@@ -101,7 +101,7 @@ modified: '2026-04-19'
 name: AngularJS
 nav: Providers
 network: true
-overview: 'AngularJS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include End Of Life, Framework, Frontend, Google, and JavaScript.
+overview: 'AngularJS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include End of Life, Framework, Frontend, Google, and JavaScript.
 
 
   AngularJS''s developer surface includes documentation, GitHub presence, getting-started guide, engineering blog, Stack Overflow tag, and 8 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.9
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -133,9 +133,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 16.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angularjs/refs/heads/main/screenshots/angularjs-2026-06-20T172000.png
 security:
@@ -145,14 +145,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: angularjs
 tags:
-- End Of Life
+- End of Life
 - Framework
 - Frontend
 - Google
 - JavaScript
 - Legacy
 - MVC
-- Open Source
+- Open-Source
 - Single Page Application
 website: https://angularjs.org/
 ---

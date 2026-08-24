@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Nivelo's real-time ACH return-risk scoring API. A RESTful endpoint that accepts ACH transaction data as JSON and returns a risk score and a prediction of the likelihood of an ACH return, so originator
@@ -125,7 +125,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 26.0
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -135,15 +135,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 27.1
+  previous_composite: 26.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nivelo/refs/heads/main/screenshots/nivelo-2026-08-07T185344.png
 security:

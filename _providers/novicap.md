@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Confirming (reverse factoring) invoices and payment instructions.
@@ -136,13 +136,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novicap.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: novicap-mcp.yml
-  slug: novicap-mcpyml
+  name: Novicap MCP Server
+  slug: novicap-mcp-server
 modified: '2026-07-20'
 name: Novicap
 nav: Providers
 network: true
-overview: 'Novicap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Confirming Standard API and Dynamic Discounting API. Tagged areas include Company, Financial Services, Fintech, Working Capital, and Invoice Finance.
+overview: 'Novicap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Confirming Standard API and Dynamic Discounting API. Tagged areas include Company, Financial-Services, Fintech, Working Capital, and Invoice Finance.
 
 
   Novicap''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
@@ -150,7 +150,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 24.2
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -160,7 +160,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 5.3
-  previous_composite: 25.7
+  previous_composite: 24.2
   provenance:
     conformance: derived
     contracts:
@@ -170,8 +170,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/screenshots/novicap-2026-08-07T185613.png
 security:
@@ -186,7 +186,7 @@ security:
 slug: novicap
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Working Capital
 - Invoice Finance

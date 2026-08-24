@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 242
   human_in_the_loop: 8
@@ -278,8 +278,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: zoom-phone-mcp.yml
-  slug: zoom-phone-mcpyml
+  name: Zoom MCP Server (Workspace)
+  slug: zoom-mcp-server-workspace
 modified: '2026-07-25'
 name: Zoom Phone
 nav: Providers
@@ -304,7 +304,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.5
-  delta: 6.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -314,7 +314,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 92.1
-  previous_composite: 66.5
+  previous_composite: 72.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,9 +326,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/screenshots/zoom-phone-2026-08-17T080441.png
 security:
 - kind: authentication

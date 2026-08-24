@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -244,8 +244,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: genability-mcp.yml
-  slug: genability-mcpyml
+  name: Genability MCP Server
+  slug: genability-mcp-server
 modified: '2026-07-27'
 name: Genability
 nav: Providers
@@ -258,7 +258,7 @@ random_paper: 14
 score:
   band: developing
   composite: 53.1
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -268,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 50.5
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +285,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/screenshots/genability-2026-08-07T165554.png
 security:

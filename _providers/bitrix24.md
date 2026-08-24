@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1570
   human_in_the_loop: 37
@@ -329,7 +329,7 @@ modified: '2026-05-11'
 name: Bitrix24
 nav: Providers
 network: true
-overview: 'Bitrix24 publishes 35 APIs on the [APIs.io](https://apis.io/) network, including BIconnector API, Business Processes API, Calendar API, and 32 more. Tagged areas include CRM, Collaboration, Project Management, Tasks, and Telephony.
+overview: 'Bitrix24 publishes 35 APIs on the [APIs.io](https://apis.io/) network, including BIconnector API, Business Processes API, Calendar API, and 32 more. Tagged areas include CRM, Collaboration, Project Management, Task, and Telephony.
 
 
   Bitrix24''s developer surface includes authentication, documentation, pricing, signup flow, training material, engineering blog, and 9 more developer resources.'
@@ -342,7 +342,7 @@ scopes:
 score:
   band: thin
   composite: 33.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -352,7 +352,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 34.4
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -360,8 +360,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/screenshots/bitrix24-2026-06-20T173320.png
 security:
@@ -382,10 +382,10 @@ tags:
 - CRM
 - Collaboration
 - Project Management
-- Tasks
+- Task
 - Telephony
 - Contact Center
-- Document Management
+- Document-Management
 - HR
 - Business Suite
 website: https://www.bitrix24.com

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 5
@@ -5466,7 +5466,7 @@ modified: '2026-05-19'
 name: Amazon Cognito
 nav: Providers
 network: true
-overview: 'Amazon Cognito publishes 126 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API, #X Amz Target=AWSCognitoIdentityProviderService.AdminAddUserToGroup API, #X Amz Target=AWSCognitoIdentityProviderService.AdminConfirmSignUp API, and 123 more. Tagged areas include Authentication, Identity, OAuth, OIDC, and SAML.
+overview: 'Amazon Cognito publishes 126 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API, #X Amz Target=AWSCognitoIdentityProviderService.AdminAddUserToGroup API, #X Amz Target=AWSCognitoIdentityProviderService.AdminConfirmSignUp API, and 123 more. Tagged areas include Authentication, Identity, OIDC, SAML, and User Management.
 
 
   The Amazon Cognito catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -5506,18 +5506,18 @@ rules:
   slug: amazon-cognito-spectral-rules
 score:
   band: strong
-  composite: 55.9
-  delta: -6.6
+  composite: 59.7
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
-    contract_governance: 25.0
-    contract_quality: 71.0
+    contract_governance: 28.8
+    contract_quality: 77.2
     developer_ergonomics: 50.0
-    discoverability: 50.0
-    governance: 25.0
+    discoverability: 68.5
+    governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 62.5
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -5525,9 +5525,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 126
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/screenshots/amazon-cognito-2026-06-20T171607.png
 security:
 - kind: authentication
@@ -5550,7 +5550,6 @@ slug: amazon-cognito
 tags:
 - Authentication
 - Identity
-- OAuth
 - OIDC
 - SAML
 - User Management

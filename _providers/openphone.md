@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Operations related to calls
@@ -218,8 +218,8 @@ image: https://www.quo.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: openphone-mcp.yml
-  slug: openphone-mcpyml
+  name: OpenPhone MCP Server
+  slug: openphone-mcp-server
 modified: '2026-07-20'
 name: OpenPhone
 nav: Providers
@@ -235,7 +235,7 @@ random_paper: 6
 score:
   band: strong
   composite: 55.5
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -245,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 51.6
+  previous_composite: 55.5
   provenance:
     conformance: first-party
     contracts:
@@ -261,8 +261,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/screenshots/openphone-2026-08-07T190627.png
 security:
@@ -289,6 +289,6 @@ tags:
 - Business Phone
 - CPaaS
 - Contact Center
-- Webhooks
+- Webhook
 website: https://www.quo.com
 ---

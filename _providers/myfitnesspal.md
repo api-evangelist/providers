@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Partner REST API for reading and writing a consenting user's food and exercise diary, body measurements, and profile, plus webhook subscriptions for data-change notifications. OAuth 2.0 authorization-
@@ -115,8 +115,8 @@ image: https://www.myfitnesspal.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: myfitnesspal-mcp.yml
-  slug: myfitnesspal-mcpyml
+  name: MyFitnessPal MCP Server
+  slug: myfitnesspal-mcp-server
 modified: '2026-07-20'
 name: MyFitnessPal
 nav: Providers
@@ -137,7 +137,7 @@ scopes:
 score:
   band: developing
   composite: 41.4
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -147,7 +147,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 39.1
+  previous_composite: 41.4
   provenance:
     conformance: derived
     mcp: derived
@@ -158,8 +158,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/screenshots/myfitnesspal-2026-08-07T184519.png
 security:
@@ -184,7 +184,7 @@ tags:
 - Fitness Tracking
 - Food Diary
 - Wellness
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 website: http://www.myfitnesspal.com
 ---

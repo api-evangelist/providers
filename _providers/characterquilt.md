@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Branding API from CharacterQuilt — 2 operation(s) for branding.
@@ -154,8 +154,8 @@ image: https://cdn.prod.website-files.com/678e847c65f5a9cc363424b0/68d6b1531e134
 layout: provider
 mcp_servers:
 - description: ''
-  name: characterquilt-mcp.yml
-  slug: characterquilt-mcpyml
+  name: CharacterQuilt MCP Server
+  slug: characterquilt-mcp-server
 modified: '2026-08-13'
 name: CharacterQuilt
 nav: Providers
@@ -181,7 +181,7 @@ scopes:
 score:
   band: developing
   composite: 46.8
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -191,7 +191,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 46.9
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     contracts:
@@ -201,8 +201,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/screenshots/characterquilt-2026-07-25T205053.png
 security:

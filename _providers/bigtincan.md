@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -197,9 +197,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bigtincan.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: bigtincan-mcp.yml
-  slug: bigtincan-mcpyml
+- description: Bigtincan ships NO Model Context Protocol server. A search of the provider's site, the MCP ecosystem and the public registries found no hosted endpoint and no stdio package, and no /.well-known/ai-plu
+  name: Bigtincan Hub MCP Server (candidate)
+  slug: bigtincan-hub-mcp-server-candidate
 modified: '2026-08-14'
 name: Bigtincan
 nav: Providers
@@ -225,7 +225,7 @@ scopes:
 score:
   band: strong
   composite: 55.5
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -235,7 +235,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 57.4
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +246,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/screenshots/bigtincan-2026-06-20T173235.png
 security:

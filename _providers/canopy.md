@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Canopy Connect API returns structured property and casualty insurance data directly from 400+ carriers in real time. Applications can verify coverage, retrieve policy documents, pull driver and ve
@@ -101,7 +101,7 @@ modified: '2026-04-23'
 name: Canopy Connect
 nav: Providers
 network: true
-overview: 'Canopy Connect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Insurance, Casualty, Financial Services, Homeowners Insurance, and Insurance.
+overview: 'Canopy Connect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Insurance, Casualty, Financial-Services, Homeowners Insurance, and Insurance.
 
 
   Canopy Connect''s developer surface includes documentation, developer portal, engineering blog, and 10 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.8
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -127,16 +127,16 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.8
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/screenshots/canopy-2026-06-20T173925.png
 security:
 - kind: domain-security
@@ -151,7 +151,7 @@ slug: canopy
 tags:
 - Auto Insurance
 - Casualty
-- Financial Services
+- Financial-Services
 - Homeowners Insurance
 - Insurance
 - Insurance Verification

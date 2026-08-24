@@ -30,7 +30,7 @@ tags:
 - Early Stage
 - Consumer
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Developer Tools
 - Crypto
 - Healthcare

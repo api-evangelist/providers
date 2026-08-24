@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -161,8 +161,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orakl.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: orakl-mcp.yml
-  slug: orakl-mcpyml
+  name: Orakl MCP Server
+  slug: orakl-mcp-server
 modified: '2026-07-20'
 name: Orakl
 nav: Providers
@@ -175,7 +175,7 @@ random_paper: 12
 score:
   band: thin
   composite: 34.5
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -185,7 +185,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 32.8
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,8 +202,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/screenshots/orakl-2026-08-07T190829.png
 security:
@@ -222,7 +222,7 @@ tags:
 - Oncology
 - Drug Development
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Healthcare
 - Biotechnology
 - Precision Medicine

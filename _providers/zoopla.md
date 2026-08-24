@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -301,7 +301,7 @@ modified: '2026-07-26'
 name: Zoopla
 nav: Providers
 network: true
-overview: 'Zoopla publishes 3 APIs on the [APIs.io](https://apis.io/) network: Leads API, Premium Listing Activations API, and Weekly Featured Property (WFP) Activations API. Tagged areas include Real Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
+overview: 'Zoopla publishes 3 APIs on the [APIs.io](https://apis.io/) network: Leads API, Premium Listing Activations API, and Weekly Featured Property (WFP) Activations API. Tagged areas include Real-Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
 
 
   The Zoopla catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -317,7 +317,7 @@ scopes:
 score:
   band: thin
   composite: 38.4
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -327,7 +327,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 44.8
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,9 +338,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/screenshots/zoopla-2026-08-17T083116.png
 security:
 - kind: authentication
@@ -357,7 +357,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: zoopla
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Property Portal

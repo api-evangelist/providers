@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Version 1 of the LetsGetChecked Orders API. Create a pre-activated test-kit order against a client-supplied order identifier (PUT is documented as idempotent), query order status from dispatch through
@@ -198,7 +198,7 @@ random_paper: 1
 score:
   band: developing
   composite: 53.5
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -208,7 +208,7 @@ score:
     discoverability: 83.3
     governance: 33.3
     operational_transparency: 31.6
-  previous_composite: 50.0
+  previous_composite: 53.5
   provenance:
     conformance: first-party
   regulatory:
@@ -217,8 +217,8 @@ score:
     regime: Health
     regime_id: health
     score: 48.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/screenshots/letsgetchecked-2026-08-07T171554.png
 security:
@@ -248,9 +248,9 @@ tags:
 - Telehealth
 - Medical Testing
 - Pharmacy
-- Orders
+- Order
 - Results
-- Webhooks
+- Webhook
 - HL7
 - LOINC
 website: https://www.letsgetchecked.com/

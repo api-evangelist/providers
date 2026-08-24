@@ -29,7 +29,7 @@ tags:
 - Customs Computer System
 - Declarations
 - EDI
-- Exports
+- Export
 - ICS2
 - Imports
 - NACCS

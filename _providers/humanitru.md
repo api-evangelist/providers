@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-19'
 name: Humanitru
 nav: Providers
 network: true
-overview: 'Humanitru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Nonprofit, Fundraising, and Donor Management.
+overview: 'Humanitru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Non-Profit, Fundraising, and Donor Management.
 
 
   Humanitru''s developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 13.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -94,9 +94,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 14.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanitru/refs/heads/main/screenshots/humanitru-2026-07-25T221657.png
 security:
@@ -108,10 +108,10 @@ slug: humanitru
 tags:
 - Company
 - CRM
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donor Management
-- Integrations
+- Integration
 - Membership
 - Museums
 website: https://humanitru.com/

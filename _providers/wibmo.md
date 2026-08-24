@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Documented product APIs across Token Hub tokenization, the Areion Payment Gateway (3-D Secure authentication and authorization), Prepaid card issuance/lifecycle/transaction management, Fraud Risk Mana
@@ -113,7 +113,7 @@ random_paper: 17
 score:
   band: thin
   composite: 27.1
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -123,7 +123,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.1
+  previous_composite: 27.1
   provenance:
     conformance: first-party
   regulatory:
@@ -132,8 +132,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -153,7 +153,7 @@ tags:
 - Payment Gateway
 - Tokenization
 - Fraud Detection
-- 3-D Secure
+- 3D Secure
 - Authentication
 - Digital Wallet
 - Prepaid Cards

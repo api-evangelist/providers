@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -394,7 +394,7 @@ scopes:
 score:
   band: developing
   composite: 41.9
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -404,7 +404,7 @@ score:
     discoverability: 44.4
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 48.3
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -412,9 +412,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/screenshots/google-chrome-2026-06-20T182034.png
 security:
 - kind: authentication

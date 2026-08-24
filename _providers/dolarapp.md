@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public, unauthenticated Atlassian Statuspage v2 JSON API served on DolarApp's own status host. Exposes overall status, the ten monitored components (sign up, sign in, website, and card payments / bank
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.2
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -149,15 +149,15 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 22.5
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

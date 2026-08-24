@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'RESTful API (v3) for managing assets and retrieving attack-surface and scan data — surface-monitoring domains and IPs, IP addresses, technologies, ports, breaches, and cloud connectors. Authenticates '
@@ -159,8 +159,8 @@ image: https://d35ayjp87i0qx4.cloudfront.net/detectify_global.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: detectify-mcp.yml
-  slug: detectify-mcpyml
+  name: detectify MCP Server
+  slug: detectify-mcp-server
 modified: '2026-07-18'
 name: detectify
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 16
 score:
   band: developing
   composite: 42.8
-  delta: -9.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -186,13 +186,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 52.5
+  previous_composite: 42.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/screenshots/detectify-2026-07-25T211804.png
 security:
 - kind: authentication

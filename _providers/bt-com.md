@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 15
 apis:
 - description: Charge one-off or recurring purchases directly to a verified end user's BT or EE mobile bill or pre-pay credit, enabling carrier-billed payments without re-collecting card or bank credentials.
@@ -211,7 +211,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 8.5
-  delta: -9.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -221,16 +221,16 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 17.6
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bt-com/refs/heads/main/screenshots/bt-com-2026-06-20T173734.png
 security:
 - kind: domain-security
@@ -259,7 +259,7 @@ tags:
 - Voice
 - Ethernet
 - Address Management
-- Appointment Management
+- Appointment  Management
 - Quote Management
 - IMEI
 - Rail

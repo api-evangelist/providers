@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-17'
 name: Apparta
 nav: Providers
 network: true
-overview: 'Apparta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Restaurants, Reservations, and Booking.
+overview: 'Apparta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Restaurant, Reservations, and Booking.
 
 
   Apparta''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 10
 score:
   band: minimal
   composite: 10.7
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -90,9 +90,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apparta/refs/heads/main/screenshots/apparta-2026-07-25T200714.png
 security:
@@ -104,12 +104,12 @@ slug: apparta
 tags:
 - Company
 - Hospitality
-- Restaurants
+- Restaurant
 - Reservations
 - Booking
 - CRM
 - WhatsApp
 - Latin America
-- SaaS
+- Software-as-a-Service
 website: https://apparta.co
 ---

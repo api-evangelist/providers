@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ modified: '2026-05-19'
 name: Stitch
 nav: Providers
 network: true
-overview: 'Stitch publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Disbursements API, Financial Data API, and 1 more. Tagged areas include Africa, Financial Data, Open Banking, Payments, and Unified API.
+overview: 'Stitch publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Disbursements API, Financial Data API, and 1 more. Tagged areas include Africa, Financial Data, Open Banking, Payments, and Unified-API.
 
 
   The Stitch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -250,18 +250,18 @@ rules:
   slug: stitch-rules
 score:
   band: thin
-  composite: 38.2
-  delta: -4.8
+  composite: 38.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.7
     developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 43.0
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -275,8 +275,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/screenshots/stitch-2026-06-20T194553.png
 security:
@@ -298,7 +298,7 @@ tags:
 - Financial Data
 - Open Banking
 - Payments
-- Unified API
+- Unified-API
 - South Africa
 - Nigeria
 website: https://stitch.money/

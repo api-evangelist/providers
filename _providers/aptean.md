@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -173,8 +173,8 @@ image: https://images.ctfassets.net/grb5fvwhwnyo/6dl4ftg2p3o3438k9XcowL/feecf05d
 layout: provider
 mcp_servers:
 - description: ''
-  name: aptean-mcp.yml
-  slug: aptean-mcpyml
+  name: Aptean MCP Server
+  slug: aptean-mcp-server
 modified: '2026-07-18'
 name: Aptean
 nav: Providers
@@ -190,7 +190,7 @@ random_paper: 3
 score:
   band: developing
   composite: 42.3
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 41.6
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -211,8 +211,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/screenshots/aptean-2026-07-25T200918.png
 security:
@@ -236,7 +236,7 @@ tags:
 - Supply Chain
 - Integration
 - Event-Driven
-- Webhooks
+- Webhook
 - Enterprise Software
 website: https://www.aptean.com/en-US/
 ---

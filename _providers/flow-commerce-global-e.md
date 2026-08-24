@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-19'
 name: Flow Commerce (Global E)
 nav: Providers
 network: true
-overview: 'Flow Commerce (Global E) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Ecommerce, Cross-Border, and Payments.
+overview: 'Flow Commerce (Global E) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Cross-Border, and Payments.
 
 
   Flow Commerce (Global E)''s developer surface includes documentation, API reference, engineering blog, support, and 9 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 13.2
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -110,15 +110,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 18.1
+  previous_composite: 13.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-commerce-global-e/refs/heads/main/screenshots/flow-commerce-global-e-2026-07-25T214832.png
 security:
@@ -130,7 +130,7 @@ slug: flow-commerce-global-e
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Cross-Border
 - Payments
 - Localization

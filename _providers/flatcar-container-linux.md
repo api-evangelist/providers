@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ modified: '2026-05-19'
 name: Flatcar Container Linux
 nav: Providers
 network: true
-overview: 'Flatcar Container Linux publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Apps API, Channels API, and 5 more. Tagged areas include Cloud Native, Containers, Immutable Infrastructure, Incubating, and Linux.
+overview: 'Flatcar Container Linux publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Apps API, Channels API, and 5 more. Tagged areas include Cloud-Native, Containers, Immutable Infrastructure, Incubating, and Linux.
 
 
   Flatcar Container Linux''s developer surface includes authentication, documentation, release notes, engineering blog, and 13 more developer resources.'
@@ -193,7 +193,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.3
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/screenshots/flatcar-container-linux-2026-06-20T181304.png
 security:
@@ -226,7 +226,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: flatcar-container-linux
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Immutable Infrastructure
 - Incubating

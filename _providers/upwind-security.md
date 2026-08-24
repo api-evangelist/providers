@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The Access Management resource offers methods for managing groups, members, roles, and scopes.
@@ -237,8 +237,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upwind-sec
 layout: provider
 mcp_servers:
 - description: ''
-  name: upwind-security-mcp.yml
-  slug: upwind-security-mcpyml
+  name: Upwind Security MCP Server
+  slug: upwind-security-mcp-server
 modified: '2026-07-21'
 name: Upwind Security
 nav: Providers
@@ -259,7 +259,7 @@ scopes:
 score:
   band: developing
   composite: 48.1
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -269,7 +269,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 55.7
+  previous_composite: 48.1
   provenance:
     conformance: first-party
     contracts:
@@ -279,9 +279,9 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwind-security/refs/heads/main/screenshots/upwind-security-2026-08-17T082645.png
 security:
 - kind: authentication

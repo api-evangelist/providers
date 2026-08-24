@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -387,7 +387,7 @@ modified: '2026-05-22'
 name: Toolhouse
 nav: Providers
 network: true
-overview: 'Toolhouse publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agent Runs API, API Keys API, Backoffice API, and 4 more. Tagged areas include Agent Infrastructure, AI Agents, AI Workers, Backend as a Service, and MCP.
+overview: 'Toolhouse publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agent Runs API, API Keys API, Backoffice API, and 4 more. Tagged areas include Agent Infrastructure, AI Agents, AI Workers, Backend-as-a-Service, and MCP.
 
 
   The Toolhouse catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -423,18 +423,18 @@ rules:
   slug: toolhouse-rules
 score:
   band: developing
-  composite: 52.0
-  delta: -6.0
+  composite: 52.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 58.2
     developer_ergonomics: 50.0
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 58.0
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     contracts:
@@ -442,9 +442,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/screenshots/toolhouse-2026-08-17T082402.png
 security:
 - kind: authentication
@@ -460,7 +460,7 @@ tags:
 - Agent Infrastructure
 - AI Agents
 - AI Workers
-- Backend as a Service
+- Backend-as-a-Service
 - MCP
 - MCP Discovery
 - RAG

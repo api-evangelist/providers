@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -422,7 +422,7 @@ modified: '2026-05-19'
 name: Pandium
 nav: Providers
 network: true
-overview: 'Pandium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connector Calls API, Integrations API, Runs API, and 2 more. Tagged areas include B2B, Hubs, Integrations, and Workflows.
+overview: 'Pandium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connector Calls API, Integrations API, Runs API, and 2 more. Tagged areas include B2B, Hub, Integration, and Workflows.
 
 
   The Pandium catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -452,7 +452,7 @@ rules:
 score:
   band: developing
   composite: 48.1
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -462,7 +462,7 @@ score:
     discoverability: 63.0
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 54.5
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -470,9 +470,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png
 security:
 - kind: authentication
@@ -494,8 +494,8 @@ security:
 slug: pandium
 tags:
 - B2B
-- Hubs
-- Integrations
+- Hub
+- Integration
 - Workflows
 use_cases:
 - name: Building and Launching User-Facing Integrations

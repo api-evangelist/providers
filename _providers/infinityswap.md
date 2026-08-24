@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Bitfinity EVM mainnet (Chain ID 355110). Supports the standard eth_*, net_*, and web3_* method namespaces for reading chain state, submitting transactio
@@ -109,7 +109,7 @@ modified: '2026-07-19'
 name: InfinitySwap
 nav: Providers
 network: true
-overview: 'InfinitySwap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Blockchain, Ethereum, and EVM.
+overview: 'InfinitySwap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Ethereum, and EVM.
 
 
   InfinitySwap''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, sandbox, authentication, and 9 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 18.5
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -127,11 +127,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 23.0
+  previous_composite: 18.5
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinityswap/refs/heads/main/screenshots/infinityswap-2026-07-25T222407.png
 security:
@@ -146,7 +146,7 @@ security:
 slug: infinityswap
 tags:
 - Company
-- Defi
+- DeFi
 - Blockchain
 - Ethereum
 - EVM

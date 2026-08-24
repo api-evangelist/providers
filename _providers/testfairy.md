@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing TestFairy projects, builds, testers, tester groups, sites, webhooks, permissions, feedback, and audit trails. Authenticated with HTTP Basic (email:api-key) or OIDC bearer tokens.
@@ -174,9 +174,9 @@ description: TestFairy is a mobile app testing and distribution platform, now pa
 image: https://raw.githubusercontent.com/api-evangelist/testfairy/main/testfairy.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: testfairy-mcp.yml
-  slug: testfairy-mcpyml
+- description: TestFairy does not publish an official hosted or local MCP server. This is a DERIVED candidate tool list mapping the documented REST endpoints to MCP tools, so an agent could operate TestFairy build d
+  name: TestFairy MCP Server
+  slug: testfairy-mcp-server
 modified: '2026-07-21'
 name: TestFairy
 nav: Providers
@@ -192,7 +192,7 @@ random_paper: 0
 score:
   band: developing
   composite: 53.4
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -202,12 +202,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 54.0
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/screenshots/testfairy-2026-08-17T082325.png
 security:

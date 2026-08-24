@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ modified: '2026-08-02'
 name: Unchained Capital
 nav: Providers
 network: true
-overview: 'Unchained Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bitcoin, Cryptocurrency, Financial Services, and Custody.
+overview: 'Unchained Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bitcoin, Cryptocurrency, Financial-Services, and Custody.
 
 
   Unchained Capital''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 11 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 22.8
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -114,7 +114,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 25.5
+  previous_composite: 22.8
   provenance:
     conformance: first-party
   regulatory:
@@ -123,8 +123,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 40.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -136,12 +136,12 @@ tags:
 - Company
 - Bitcoin
 - Cryptocurrency
-- Financial Services
+- Financial-Services
 - Custody
 - Wealth Management
 - Lending
 - Retirement
 - Trading
-- Open Source
+- Open-Source
 website: https://www.unchained.com/
 ---

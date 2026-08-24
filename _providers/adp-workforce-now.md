@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HCM v2 REST API for accessing worker demographics, payroll, time and attendance, benefits, talent, and organization data in ADP Workforce Now. Authentication uses OAuth 2.0 (client credentials) with m
@@ -92,7 +92,7 @@ modified: '2026-05-11'
 name: ADP Workforce Now
 nav: Providers
 network: true
-overview: 'ADP Workforce Now publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HCM, Human Capital Management, Payroll, HR, and Workforce Management.
+overview: 'ADP Workforce Now publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HCM, Payroll, HR, Workforce Management, and Benefits.
 
 
   ADP Workforce Now''s developer surface includes engineering blog, documentation, pricing, signup flow, support, and 6 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 21.4
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -110,10 +110,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 27.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 21.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adp-workforce-now/refs/heads/main/screenshots/adp-workforce-now-2026-06-20T165101.png
 security:
 - kind: domain-security
@@ -123,7 +123,6 @@ security:
 slug: adp-workforce-now
 tags:
 - HCM
-- Human Capital Management
 - Payroll
 - HR
 - Workforce Management

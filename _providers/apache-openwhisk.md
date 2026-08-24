@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -328,7 +328,7 @@ modified: '2026-05-19'
 name: Apache OpenWhisk
 nav: Providers
 network: true
-overview: 'Apache OpenWhisk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activations API, Namespaces API, and 3 more. Tagged areas include Cloud Native, Event-Driven, FaaS, Serverless, and Apache.
+overview: 'Apache OpenWhisk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activations API, Namespaces API, and 3 more. Tagged areas include Cloud-Native, Event-Driven, Function-as-a-Service, Serverless, and Apache.
 
 
   The Apache OpenWhisk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -368,18 +368,18 @@ rules:
   slug: apache-openwhisk-spectral-rules
 score:
   band: emerging
-  composite: 23.5
-  delta: -5.5
+  composite: 23.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 20.7
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 29.0
+  previous_composite: 23.9
   provenance:
     agentic_access: derived
     contracts:
@@ -387,9 +387,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png
 security:
 - kind: authentication
@@ -406,12 +406,12 @@ security:
   summary_line: security.txt · contact published
 slug: apache-openwhisk
 tags:
-- Cloud Native
+- Cloud-Native
 - Event-Driven
-- FaaS
+- Function-as-a-Service
 - Serverless
 - Apache
-- Open Source
+- Open-Source
 - Functions
 use_cases:
 - description: Build loosely coupled microservices that respond to events

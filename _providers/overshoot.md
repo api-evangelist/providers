@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Pricing, prepaid balance, and checkout.
@@ -184,13 +184,13 @@ image: https://platform.overshoot.ai/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: overshoot-mcp.yml
-  slug: overshoot-mcpyml
+  name: Overshoot MCP Server
+  slug: overshoot-mcp-server
 modified: '2026-07-20'
 name: Overshoot
 nav: Providers
 network: true
-overview: 'Overshoot publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Chat API, Healthz API, and 5 more. Tagged areas include Company, Artificial Intelligence, Computer Vision, Video, and Video Understanding.
+overview: 'Overshoot publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Chat API, Healthz API, and 5 more. Tagged areas include Company, Artificial Intelligence, Computer-Vision, Video, and Video Understanding.
 
 
   Overshoot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.2
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 42.4
+  previous_composite: 38.2
   provenance:
     conformance: derived
     contracts:
@@ -222,8 +222,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/screenshots/overshoot-2026-08-07T191138.png
 security:
@@ -239,15 +239,15 @@ slug: overshoot
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Video
 - Video Understanding
 - Vision Language Models
-- Real Time
+- Real-Time
 - Streaming
 - WebRTC
 - Inference
-- Multimodal
-- Machine Learning
+- Multi-Modal
+- Machine-Learning
 website: https://platform.overshoot.ai
 ---

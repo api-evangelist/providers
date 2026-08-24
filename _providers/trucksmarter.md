@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ description: TruckSmarter is a free load board and AI dispatch platform for truc
 image: https://framerusercontent.com/images/NWzlselGeh333d7PEqt7C8Ap9Mg.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: TruckSmarter publishes no official MCP server (none found in its docs, GitHub org, or the MCP registries). This is a candidate tool list derived from the operations of the partner Load Posting API, fo
   name: TruckSmarter MCP server (candidate, derived — none published)
   slug: trucksmarter-mcp-server-candidate-derived-none-published
 modified: '2026-07-21'
@@ -200,8 +200,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trucksmarter/refs/heads/main/screenshots/trucksmarter-2026-08-17T082446.png
 security:

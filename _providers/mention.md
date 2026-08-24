@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -252,7 +252,7 @@ modified: '2026-08-13'
 name: Mention
 nav: Providers
 network: true
-overview: 'Mention publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, Authors API, and 6 more. Tagged areas include Alerts, Brand Monitoring, Media Monitoring, Social Listening, and Social Media.
+overview: 'Mention publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, Authors API, and 6 more. Tagged areas include Alerts, Brand Monitoring, Media Monitoring, Social Listening, and Social-Media.
 
 
   Mention''s developer surface includes documentation, API reference, getting-started guide, developer portal, support, engineering blog, pricing, and 28 more developer resources.'
@@ -273,7 +273,7 @@ scopes:
 score:
   band: strong
   composite: 63.7
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -283,7 +283,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 57.4
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -294,9 +294,9 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/screenshots/mention-2026-06-20T185146.png
 security:
 - kind: authentication
@@ -317,7 +317,7 @@ tags:
 - Brand Monitoring
 - Media Monitoring
 - Social Listening
-- Social Media
+- Social-Media
 - Sentiment Analysis
 - Reputation Management
 - Influencer Marketing

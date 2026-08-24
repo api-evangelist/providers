@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A cloud-based text-to-speech API. When using the API from within your software or application, you simply send text to the ReadSpeaker speechCloud API servers and receive audio data in the file format
@@ -89,7 +89,7 @@ modified: '2026-04-28'
 name: ReadSpeaker
 nav: Providers
 network: true
-overview: 'ReadSpeaker publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text-to-Speech, Speech, Audio, Voice, and AI.
+overview: 'ReadSpeaker publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text-to-Speech, Speech, Audio, Voice, and Artificial Intelligence.
 
 
   ReadSpeaker''s developer surface includes developer portal, support, engineering blog, and 7 more developer resources.'
@@ -116,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 15.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readspeaker/refs/heads/main/screenshots/readspeaker-2026-06-20T192643.png
 security:
@@ -131,7 +131,7 @@ tags:
 - Speech
 - Audio
 - Voice
-- AI
+- Artificial Intelligence
 - Accessibility
 website: https://www.readspeaker.com/
 ---

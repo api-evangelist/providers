@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 18
 apis:
 - description: 'Naver Search API returns search results across Naver''s catalogs: blog, news, book, encyclopedia, café article, knowledge-in (Kin), web document, image, shopping product, and academic document. Each ca'
@@ -176,7 +176,7 @@ modified: '2026-05-23'
 name: Naver
 nav: Providers
 network: true
-overview: 'Naver publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Translation, Maps, Cloud Platform, and AI.
+overview: 'Naver publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Translation, Maps, Cloud Platform, and Artificial Intelligence.
 
 
   Naver''s developer surface includes GitHub presence, engineering blog, and 17 more developer resources.'
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.8
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -202,15 +202,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 17.2
+  previous_composite: 15.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/screenshots/naver-2026-06-20T190102.png
 security:
@@ -224,9 +224,9 @@ tags:
 - Translation
 - Maps
 - Cloud Platform
-- AI
+- Artificial Intelligence
 - Korea
-- OAuth2
+- Authentication
 - SMS
 - OCR
 - Webtoon

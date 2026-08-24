@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ modified: 2026-04-19 00:00:00+00:00
 name: Anomaly Detection
 nav: Providers
 network: true
-overview: 'Anomaly Detection publishes 3 APIs on the [APIs.io](https://apis.io/) network: ChangePoint API, Multivariate API, and Univariate API. Tagged areas include Anomaly Detection, Artificial Intelligence, Data Science, Fraud Detection, and Machine Learning.
+overview: 'Anomaly Detection publishes 3 APIs on the [APIs.io](https://apis.io/) network: ChangePoint API, Multivariate API, and Univariate API. Tagged areas include Anomaly Detection, Artificial Intelligence, Data Science, Fraud Detection, and Machine-Learning.
 
 
   The Anomaly Detection catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -247,7 +247,7 @@ rules:
 score:
   band: thin
   composite: 37.2
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -257,7 +257,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 43.4
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -265,9 +265,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/screenshots/anomaly-detection-2026-06-20T172012.png
 security:
 - kind: authentication
@@ -288,7 +288,7 @@ tags:
 - Artificial Intelligence
 - Data Science
 - Fraud Detection
-- Machine Learning
+- Machine-Learning
 - Monitoring
 - Observability
 - Outlier Detection

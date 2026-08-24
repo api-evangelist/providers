@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Public Ethereum-compatible JSON-RPC endpoint for Linea mainnet (chain ID 59144). Supports the standard eth_* method set plus Linea-specific extensions such as linea_estimateGas and linea_getProof.
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.5
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -186,9 +186,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 28.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 24.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linea-network/refs/heads/main/screenshots/linea-network-2026-06-20T184538.png
 security:
@@ -208,6 +208,6 @@ tags:
 - zkEVM
 - EVM Equivalence
 - JSON-RPC
-- Consensys
+- ConsenSys
 website: https://linea.build
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-05-08'
 name: iStock
 nav: Providers
 network: true
-overview: 'iStock publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Countries API, Downloads API, Images API, and 3 more. Tagged areas include Stock Media, Images, Video, Illustrations, and Royalty-Free.
+overview: 'iStock publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Countries API, Downloads API, Images API, and 3 more. Tagged areas include Stock Media, Image, Video, Illustrations, and Royalty-Free.
 
 
   iStock''s developer surface includes authentication and 9 more developer resources.'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.3
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/screenshots/istock-2026-06-20T183628.png
 security:
@@ -191,7 +191,7 @@ security:
 slug: istock
 tags:
 - Stock Media
-- Images
+- Image
 - Video
 - Illustrations
 - Royalty-Free

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -528,19 +528,19 @@ rules:
     warn: 6
   slug: honeycomb-rules
 score:
-  band: developing
-  composite: 53.8
-  delta: -6.4
+  band: strong
+  composite: 54.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 67.7
     developer_ergonomics: 50.0
     discoverability: 59.3
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 63.2
-  previous_composite: 60.2
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -548,9 +548,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png
 security:
 - kind: domain-security
@@ -568,7 +568,7 @@ tags:
 - Distributed Tracing
 - Telemetry
 - OpenTelemetry
-- Events
+- Event
 - Logs
 - Metrics
 - SLO

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -358,7 +358,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-- description: ''
+- description: 'Docker publishes first-party MCP infrastructure: the Docker MCP Gateway (a `docker mcp` CLI plugin that runs, secures, and orchestrates MCP servers as containers), the Docker MCP Catalog (200+ verifie'
   name: Docker MCP (artifact)
   slug: docker-mcp-artifact
 modified: '2026-06-20'
@@ -381,7 +381,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.1
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -391,7 +391,7 @@ score:
     discoverability: 74.1
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 42.4
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -401,8 +401,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -316,8 +316,8 @@ image: https://streamelements.com/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: streamelements-mcp.yml
-  slug: streamelements-mcpyml
+  name: StreamElements MCP Server
+  slug: streamelements-mcp-server
 modified: '2026-07-21'
 name: StreamElements
 nav: Providers
@@ -338,7 +338,7 @@ scopes:
 score:
   band: developing
   composite: 46.0
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -348,7 +348,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 51.4
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,9 +359,9 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/screenshots/streamelements-2026-08-17T082134.png
 security:
 - kind: authentication
@@ -379,7 +379,7 @@ tags:
 - Live Streaming
 - Creator Economy
 - Overlays
-- Chatbot
+- Chatbots
 - Monetization
 - Donations
 - Loyalty Points
@@ -389,7 +389,7 @@ tags:
 - YouTube
 - Real-Time
 - WebSockets
-- Webhooks
+- Webhook
 - REST
 website: https://dev.streamelements.com/
 ---

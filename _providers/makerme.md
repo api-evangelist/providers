@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -39,9 +39,9 @@ created: '2026-07-17'
 description: Maker.me is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
 mcp_servers:
-- description: ''
-  name: makerme-mcp.yml
-  slug: makerme-mcpyml
+- description: Maker publishes an official hosted, remote MCP (Model Context Protocol) server that connects AI assistants directly to a user's Maker account. The assistant can do roughly anything a user can do in th
+  name: Maker MCP Server
+  slug: maker-mcp-server
 modified: '2026-07-17'
 name: Maker.me
 nav: Providers
@@ -55,23 +55,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: minimal
-  composite: 4.1
-  delta: -1.5
+  composite: 5.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 35.2
+    discoverability: 46.3
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 5.6
+  previous_composite: 5.2
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makerme/refs/heads/main/screenshots/makerme-2026-07-25T225948.png
 security:

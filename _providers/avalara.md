@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -2665,8 +2665,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: avalara-mcp.yml
-  slug: avalara-mcpyml
+  name: Avalara MCP Server
+  slug: avalara-mcp-server
 modified: '2026-06-20'
 name: Avalara
 nav: Providers
@@ -2727,18 +2727,18 @@ scopes:
   summary_line: 24 scopes
 score:
   band: strong
-  composite: 63.8
-  delta: -4.3
+  composite: 64.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 56.8
+    contract_governance: 59.1
     contract_quality: 70.8
     developer_ergonomics: 69.0
     discoverability: 68.5
-    governance: 56.8
+    governance: 59.1
     operational_transparency: 42.1
-  previous_composite: 68.1
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -2748,8 +2748,8 @@ score:
       marker_coverage: 2.9
       total: 68
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ modified: '2026-06-20'
 name: HTML/CSS to Image
 nav: Providers
 network: true
-overview: 'HTML/CSS to Image publishes 3 APIs on the [APIs.io](https://apis.io/) network: Image Generation API, Signed URLs API, and Templates API. Tagged areas include Image Generation, HTML to Image, CSS to Image, Rendering, and Screenshots.
+overview: 'HTML/CSS to Image publishes 3 APIs on the [APIs.io](https://apis.io/) network: Image Generation API, Signed URLs API, and Templates API. Tagged areas include Image-Generation, HTML to Image, CSS to Image, Rendering, and Screenshots.
 
 
   HTML/CSS to Image''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.7
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -145,7 +145,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.6
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/screenshots/htmlcsstoimage-2026-06-20T182903.png
 security:
@@ -168,7 +168,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: htmlcsstoimage
 tags:
-- Image Generation
+- Image-Generation
 - HTML to Image
 - CSS to Image
 - Rendering

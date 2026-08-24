@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 4
@@ -506,7 +506,7 @@ modified: 2026-06-12
 name: BentoML
 nav: Providers
 network: true
-overview: 'BentoML publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin api v1 API, admin deployment resource API, api token resource API, and 56 more. Tagged areas include machine learning, model serving, inference, AI, and REST API.
+overview: 'BentoML publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin api v1 API, admin deployment resource API, api token resource API, and 56 more. Tagged areas include Machine-Learning, Model Serving, Inference, Artificial Intelligence, and REST API.
 
 
   The BentoML catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -536,7 +536,7 @@ rules:
 score:
   band: developing
   composite: 43.8
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -546,7 +546,7 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 49.4
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -554,9 +554,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/screenshots/bentoml-2026-06-20T173142.png
 security:
 - kind: authentication
@@ -569,13 +569,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bentoml
 tags:
-- machine learning
-- model serving
-- inference
-- AI
+- Machine-Learning
+- Model Serving
+- Inference
+- Artificial Intelligence
 - REST API
 - MLOps
-- deployment
+- Deployment
 - GPU
 - LLM
 - BentoCloud

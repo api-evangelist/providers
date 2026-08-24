@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: vaynermedia.com is a self-hosted WordPress site on WP Engine, and it leaves the WordPress REST API open for anonymous reads at https://vaynermedia.com/wp-json/. The site's own route index registers 36
@@ -217,7 +217,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -233,7 +233,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 33.7
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
@@ -243,8 +243,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png
 security:
@@ -266,6 +266,6 @@ tags:
 - Influencer Marketing
 - Marketing
 - Media Buying
-- Social Media
+- Social-Media
 website: https://vaynermedia.com/
 ---

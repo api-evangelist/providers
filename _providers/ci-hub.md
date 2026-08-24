@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The HTTP API a partner platform calls to embed CI HUB's DAM connectivity in its own product. A partner backend signs an RS256 JWT and exchanges it at POST /auth/exchangeToken for a CI HUB access token
@@ -139,9 +139,9 @@ description: 'CI HUB (CI HUB GmbH, Berlin) builds the connector layer between di
 image: https://ci-hub.com/hubfs/CI-HUB_logo-new.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: ci-hub-mcp.yml
-  slug: ci-hub-mcpyml
+- description: A hosted, remote MCP server that gives an AI client governed access to whichever DAM, PIM, CMS or cloud-storage systems the end user has connected through CI HUB. The pitch is a governance layer rathe
+  name: CI HUB MCP Server
+  slug: ci-hub-mcp-server
 modified: '2026-08-12'
 name: CI HUB
 nav: Providers
@@ -167,7 +167,7 @@ scopes:
 score:
   band: strong
   composite: 58.3
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -177,7 +177,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 56.9
+  previous_composite: 58.3
   provenance:
     conformance: first-party
     contracts:
@@ -187,8 +187,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/screenshots/ci-hub-2026-08-17T080817.png
 security:
@@ -211,7 +211,7 @@ tags:
 - Creative Tools
 - Marketing
 - Brand Management
-- Model Context Protocol
+- MCP
 - Cloud Storage
 - Germany
 website: https://ci-hub.com/

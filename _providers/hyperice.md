@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -205,9 +205,9 @@ description: 'Hyperice is a recovery and movement-enhancement technology company
 image: https://hyperice.com/cdn/shop/files/hyperice-social-share.jpg?v=1775020762&width=1200
 layout: provider
 mcp_servers:
-- description: ''
-  name: hyperice-mcp.yml
-  slug: hyperice-mcpyml
+- description: Hyperice runs a live, publicly addressable MCP server as the transport for the Universal Commerce Protocol (UCP) shopping service on its Shopify storefront. The server is declared by Hyperice's own UC
+  name: Hyperice MCP Server
+  slug: hyperice-mcp-server
 modified: '2026-07-31'
 name: Hyperice
 nav: Providers
@@ -228,18 +228,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.7
-  delta: 1.8
+  composite: 46.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
     contract_quality: 55.2
     developer_ergonomics: 49.4
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 43.9
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -256,8 +256,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/screenshots/hyperice-2026-08-07T170541.png
 security:
@@ -276,7 +276,7 @@ tags:
 - Retail
 - Health and Wellness
 - Consumer Hardware
-- Sports and Fitness
+- Sports And Fitness
 - Agentic Commerce
 - GraphQL
 - MCP

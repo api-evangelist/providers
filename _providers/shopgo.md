@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Obtain and test API keys
@@ -150,13 +150,13 @@ image: https://github.com/shopgo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: shopgo-mcp.yml
-  slug: shopgo-mcpyml
+  name: ShopGo MCP Server
+  slug: shopgo-mcp-server
 modified: '2026-07-21'
 name: ShopGo
 nav: Providers
 network: true
-overview: 'ShopGo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Orders API, Store API, and 2 more. Tagged areas include Company, eCommerce, Online Stores, Payments, and Shipping.
+overview: 'ShopGo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Orders API, Store API, and 2 more. Tagged areas include Company, E-Commerce, Online Stores, Payments, and Shipping.
 
 
   The ShopGo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -208,12 +208,12 @@ security:
 slug: shopgo
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Online Stores
 - Payments
 - Shipping
-- SaaS
+- Software-as-a-Service
 - MENA
-- Orders
+- Order
 website: https://shopgo.me
 ---

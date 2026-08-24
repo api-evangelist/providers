@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: 'The GalaChain asset-channel token contract, exposed over REST by the GalaChain Gateway. Covers fungible and non-fungible token classes, balances, allowances, minting, burning, locking, transfers, NFT '
@@ -166,8 +166,8 @@ image: https://avatars.githubusercontent.com/u/135145372?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: gala-games-mcp.yml
-  slug: gala-games-mcpyml
+  name: Gala Games MCP Server
+  slug: gala-games-mcp-server
 modified: '2026-08-16'
 name: Gala Games
 nav: Providers
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.3
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -201,7 +201,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 46.3
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -217,8 +217,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/screenshots/gala-games-2026-08-17T080947.png
 security:

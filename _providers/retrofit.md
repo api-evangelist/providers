@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Retrofit is a type-safe HTTP client for the JVM that turns annotated Java/Kotlin interfaces into HTTP API calls. Supports all HTTP methods via annotations. Built on OkHttp with support for synchronous
@@ -141,7 +141,7 @@ rules:
 score:
   band: emerging
   composite: 18.2
-  delta: -10.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -151,16 +151,16 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 29.0
+  previous_composite: 18.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 9.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retrofit/refs/heads/main/screenshots/retrofit-2026-06-20T193038.png
 slug: retrofit
 tags:
@@ -170,7 +170,7 @@ tags:
 - Kotlin
 - Library
 - Mobile
-- Open Source
+- Open-Source
 - SDK
 - Square
 website: https://square.github.io/retrofit/

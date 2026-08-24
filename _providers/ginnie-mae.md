@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Multifamily Database is a Ginnie Mae database that contains information about Ginnie Maes multifamily mortgage-backed securities at the security and loan level.
@@ -61,7 +61,7 @@ modified: '2026-04-28'
 name: Ginnie Mae
 nav: Providers
 network: true
-overview: Ginnie Mae publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Housing, and Mortgages.
+overview: Ginnie Mae publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Housing, and Mortgages.
 plans:
 - name: Ginnie Mae Plans Pricing
   plan_count: 3
@@ -74,7 +74,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -84,15 +84,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 9.5
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ginnie-mae/refs/heads/main/screenshots/ginnie-mae-2026-06-20T181827.png
 security:
@@ -102,7 +102,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: ginnie-mae
 tags:
-- Federal Government
+- Federal-Government
 - Housing
 - Mortgages
 website: https://www.ginniemae.gov/

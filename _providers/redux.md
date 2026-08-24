@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: 'Core Redux library for managing application state through a predictable unidirectional data flow. The library exposes createStore, combineReducers, applyMiddleware, compose, and bindActionCreators as '
@@ -150,7 +150,7 @@ modified: '2026-05-02'
 name: Redux
 nav: Providers
 network: true
-overview: 'Redux publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Flux Architecture, Frontend, Javascript, Predictable State, and React.
+overview: 'Redux publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Flux Architecture, Frontend, JavaScript, Predictable State, and React.
 
 
   The Redux catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -180,7 +180,7 @@ rules:
 score:
   band: emerging
   composite: 19.8
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -190,10 +190,10 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 19.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/screenshots/redux-2026-06-20T192739.png
 security:
 - kind: domain-security
@@ -204,10 +204,10 @@ slug: redux
 tags:
 - Flux Architecture
 - Frontend
-- Javascript
+- JavaScript
 - Predictable State
 - React
 - State Management
-- Typescript
+- TypeScript
 website: https://redux.js.org
 ---

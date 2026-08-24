@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 20
 apis:
 - description: The Asset API from ProjectDiscovery — 8 operation(s) for asset.
@@ -288,8 +288,8 @@ image: https://projectdiscovery.io/images/ProjectDiscovery_share.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: projectdiscovery-mcp.yml
-  slug: projectdiscovery-mcpyml
+  name: ProjectDiscovery MCP Server
+  slug: projectdiscovery-mcp-server
 modified: '2026-07-20'
 name: ProjectDiscovery
 nav: Providers
@@ -302,7 +302,7 @@ random_paper: 0
 score:
   band: developing
   composite: 50.2
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -312,7 +312,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 53.5
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -322,8 +322,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/screenshots/projectdiscovery-2026-08-17T081344.png
 security:
@@ -354,6 +354,5 @@ tags:
 - Asset Discovery
 - DevSecOps
 - Nuclei
-- API
 website: https://projectdiscovery.io
 ---

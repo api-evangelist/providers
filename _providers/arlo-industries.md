@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: Arlo Industries
 nav: Providers
 network: true
-overview: 'Arlo Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Hardware, Hard Tech, and Drones.
+overview: 'Arlo Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Hardware, Hardtech, and Drones.
 
 
   Arlo Industries'' developer surface includes engineering blog and 2 more developer resources.'
@@ -60,7 +60,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 5.5
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -78,9 +78,9 @@ score:
       reason: no_resolvable_host
     - owner: catalog
       reason: never_enriched
-  previous_composite: 5.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arlo-industries/refs/heads/main/screenshots/arlo-industries-2026-08-07T161734.png
 slug: arlo-industries
@@ -88,7 +88,7 @@ tags:
 - Company
 - Defense
 - Hardware
-- Hard Tech
+- Hardtech
 - Drones
 - Counter-UAS
 - Sensing Network

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The SurrealDB HTTP REST API provides stateless access to SurrealDB instances over standard HTTP. It supports CRUD operations on tables and records, SurrealQL query execution via POST /sql, GraphQL que
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.4
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -158,10 +158,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 41.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 31.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/screenshots/surrealdb-2026-06-20T194741.png
 security:
 - kind: domain-security
@@ -183,9 +183,9 @@ tags:
 - Graph Database
 - Document Database
 - Vector Database
-- Time-Series
+- Time Series
 - SurrealQL
-- AI
+- Artificial Intelligence
 - MCP
 website: https://surrealdb.com
 ---

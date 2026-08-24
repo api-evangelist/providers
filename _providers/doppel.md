@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The alerts API from Doppel — 3 operation(s) for alerts.
@@ -210,8 +210,8 @@ image: https://prod-cms.doppel.com/sites/default/files/2025-11/Open_Graph_Image_
 layout: provider
 mcp_servers:
 - description: ''
-  name: doppel-mcp.yml
-  slug: doppel-mcpyml
+  name: Doppel MCP Server
+  slug: doppel-mcp-server
 modified: '2026-07-18'
 name: Doppel
 nav: Providers
@@ -227,7 +227,7 @@ random_paper: 14
 score:
   band: developing
   composite: 48.4
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -237,7 +237,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 55.2
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -247,9 +247,9 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/screenshots/doppel-2026-07-25T212309.png
 security:
 - kind: authentication

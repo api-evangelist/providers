@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -233,9 +233,9 @@ description: Groww is an Indian fintech company offering investing and trading i
 image: https://groww.in/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: groww-mcp.yml
-  slug: groww-mcpyml
+- description: No official Groww MCP server was found. This is a CANDIDATE tool list derived one-to-one from the Groww Trading API OpenAPI operations, as a starting point for an MCP server that wraps the trading pla
+  name: Groww MCP Server
+  slug: groww-mcp-server
 modified: '2026-07-19'
 name: Groww
 nav: Providers
@@ -261,7 +261,7 @@ scopes:
 score:
   band: strong
   composite: 62.4
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -271,7 +271,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 58.2
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,8 +288,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png
 security:

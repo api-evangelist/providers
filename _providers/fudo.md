@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 19
 apis:
 - description: The Customers API from Fudo — 2 operation(s) for customers.
@@ -242,13 +242,13 @@ image: https://dev.fu.do/assets/images/fudo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: fudo-mcp.yml
-  slug: fudo-mcpyml
+  name: Fudo MCP Server
+  slug: fudo-mcp-server
 modified: '2026-07-19'
 name: Fudo
 nav: Providers
 network: true
-overview: 'Fudo publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Discounts API, Expense Categories API, and 16 more. Tagged areas include Company, Restaurant, Point of Sale, Hospitality, and Food and Beverage.
+overview: 'Fudo publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Discounts API, Expense Categories API, and 16 more. Tagged areas include Company, Restaurant, Point-of-Sale, Hospitality, and Food and Beverage.
 
 
   Fudo''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
@@ -256,7 +256,7 @@ random_paper: 10
 score:
   band: developing
   composite: 42.6
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -266,7 +266,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 40.7
+  previous_composite: 42.6
   provenance:
     conformance: derived
     contracts:
@@ -281,8 +281,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/screenshots/fudo-2026-07-25T215250.png
 security:
@@ -298,12 +298,12 @@ slug: fudo
 tags:
 - Company
 - Restaurant
-- Point of Sale
+- Point-of-Sale
 - Hospitality
 - Food and Beverage
 - Payments
 - Inventory
 - Latin America
-- SaaS
+- Software-as-a-Service
 website: https://fu.do
 ---

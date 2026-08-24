@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ modified: '2026-08-14'
 name: Brightloom
 nav: Providers
 network: true
-overview: Brightloom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Data Platform, Customer Intelligence, Restaurants, and Retail.
+overview: Brightloom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Data Platform, Customer Intelligence, Restaurant, and Retail.
 random_paper: 8
 score:
   band: minimal
@@ -101,8 +101,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -114,12 +114,12 @@ tags:
 - Company
 - Customer Data Platform
 - Customer Intelligence
-- Restaurants
+- Restaurant
 - Retail
 - Marketing
 - Loyalty
 - Segmentation
-- Point of Sale
+- Point-of-Sale
 - Analytics
 website: https://www.brightloom.com/
 ---

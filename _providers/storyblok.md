@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -414,8 +414,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: storyblok-mcp.yml
-  slug: storyblok-mcpyml
+  name: Storyblok
+  slug: storyblok
 modified: '2026-06-20'
 name: Storyblok
 nav: Providers
@@ -471,18 +471,18 @@ rules:
   slug: storyblok-rules
 score:
   band: developing
-  composite: 53.8
-  delta: -10.0
+  composite: 54.1
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 28.0
+    contract_governance: 30.3
     contract_quality: 70.7
     developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 28.0
+    governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 63.8
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -492,9 +492,9 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/screenshots/storyblok-2026-06-20T194608.png
 security:
 - kind: authentication
@@ -518,6 +518,6 @@ tags:
 - Image Optimization
 - REST API
 - Visual Editor
-- Webhooks
+- Webhook
 website: https://www.storyblok.com/
 ---

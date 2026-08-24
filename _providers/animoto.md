@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Animoto API is a partner-facing RESTful web service for programmatically directing and rendering videos from images, video clips, music and text. The host is live and authenticating (HTTP Basic, r
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.3
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -170,12 +170,12 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 32.5
+  previous_composite: 33.3
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -195,8 +195,8 @@ tags:
 - Video Editing
 - Slideshow
 - Marketing
-- Social Media
+- Social-Media
 - Content Creation
-- SaaS
+- Software-as-a-Service
 website: https://animoto.com/
 ---

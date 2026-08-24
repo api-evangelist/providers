@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -205,7 +205,7 @@ modified: '2026-05-19'
 name: SafeLine
 nav: Providers
 network: true
-overview: 'SafeLine publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ACL Rules API, Authentication API, Reports API, and 5 more. Tagged areas include Proxy, WAF, Security, Open Source, and Reverse Proxy.
+overview: 'SafeLine publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ACL Rules API, Authentication API, Reports API, and 5 more. Tagged areas include Proxy, WAF, Security, Open-Source, and Reverse Proxy.
 
 
   The SafeLine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -245,18 +245,18 @@ rules:
   slug: safeline-rules
 score:
   band: thin
-  composite: 33.9
-  delta: -5.2
+  composite: 34.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.6
     developer_ergonomics: 21.4
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 39.1
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -264,9 +264,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/screenshots/safeline-2026-06-20T193323.png
 security:
 - kind: authentication
@@ -282,7 +282,7 @@ tags:
 - Proxy
 - WAF
 - Security
-- Open Source
+- Open-Source
 - Reverse Proxy
 - API Gateway
 website: https://waf.chaitin.com/

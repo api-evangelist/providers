@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -253,8 +253,8 @@ image: https://www.orderful.com/cms/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: orderful-mcp.yml
-  slug: orderful-mcpyml
+  name: Orderful MCP Server
+  slug: orderful-mcp-server
 modified: '2026-07-20'
 name: Orderful
 nav: Providers
@@ -270,7 +270,7 @@ random_paper: 6
 score:
   band: developing
   composite: 54.2
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -280,7 +280,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 57.8
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,8 +291,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/screenshots/orderful-2026-08-07T190910.png
 security:
@@ -321,7 +321,7 @@ tags:
 - B2B
 - Logistics
 - Retail
-- Transactions
+- Transaction
 - Integration
 website: https://www.orderful.com/
 ---

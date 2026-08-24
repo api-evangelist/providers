@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -203,13 +203,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: triodos-bank-uk-mcp.yml
-  slug: triodos-bank-uk-mcpyml
+  name: Triodos Bank UK MCP Server
+  slug: triodos-bank-uk-mcp-server
 modified: '2026-07-23'
 name: Triodos Bank UK
 nav: Providers
 network: true
-overview: 'Triodos Bank UK publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Triodos Account Information Service (AIS) API, Triodos Payment Initiation Service (PIS) API, Triodos Confirmation of Funds Service (CoF) API, and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and XS2A.
+overview: 'Triodos Bank UK publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Triodos Account Information Service (AIS) API, Triodos Payment Initiation Service (PIS) API, Triodos Confirmation of Funds Service (CoF) API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and XS2A.
 
 
   Triodos Bank UK''s developer surface includes authentication, sandbox, changelog, API reference, signup flow, documentation, getting-started guide, and 27 more developer resources.'
@@ -222,7 +222,7 @@ scopes:
 score:
   band: developing
   composite: 50.2
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -232,7 +232,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 48.5
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +249,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 94.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/screenshots/triodos-bank-uk-2026-08-17T082439.png
 security:
@@ -268,7 +268,7 @@ security:
   summary_line: security.txt · contact published
 slug: triodos-bank-uk
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

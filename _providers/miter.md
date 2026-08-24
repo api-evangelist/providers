@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Miter exposes a REST API used to build custom integrations between the Miter HCM platform and construction ERPs, accounting, and workforce systems — syncing projects, cost codes, accounts, employees, '
@@ -92,7 +92,7 @@ modified: '2026-07-20'
 name: Miter
 nav: Providers
 network: true
-overview: 'Miter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Construction, Payroll, and Human Capital Management.
+overview: 'Miter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Construction, Payroll, and HCM.
 
 
   Miter''s developer surface includes support, engineering blog, and 10 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 18.8
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -110,9 +110,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 20.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miter/refs/heads/main/screenshots/miter-2026-08-07T183806.png
 security:
@@ -130,7 +130,7 @@ tags:
 - Vertical Software
 - Construction
 - Payroll
-- Human Capital Management
+- HCM
 - HR
 - Field Operations
 - Expense Management

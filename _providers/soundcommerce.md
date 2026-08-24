@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -114,8 +114,8 @@ image: https://reactordata.com/logo/reactor_black.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: soundcommerce-mcp.yml
-  slug: soundcommerce-mcpyml
+  name: SoundCommerce MCP Server
+  slug: soundcommerce-mcp-server
 modified: '2026-07-21'
 name: SoundCommerce
 nav: Providers
@@ -128,7 +128,7 @@ random_paper: 10
 score:
   band: thin
   composite: 29.0
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -138,12 +138,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 30.0
+  previous_composite: 29.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security

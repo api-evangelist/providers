@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OSCAR's REST web-services layer, served under the /ws/services base path of a deployed OSCAR instance, covering most of the clinical record - scheduling/appointments, demographics, billing, prescripti
@@ -116,7 +116,7 @@ random_paper: 2
 score:
   band: thin
   composite: 27.9
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -126,7 +126,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 23.3
+  previous_composite: 27.9
   provenance:
     conformance: first-party
   regulatory:
@@ -135,8 +135,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oscar-emr/refs/heads/main/screenshots/oscar-emr-2026-08-07T191006.png
 security:
@@ -155,11 +155,11 @@ tags:
 - EHR
 - EMR
 - Primary Care
-- Open Source
+- Open-Source
 - FHIR
 - HL7
 - Interoperability
 - SMART on FHIR
-- OAuth
+- Authentication
 website: https://oscar-emr.com/
 ---

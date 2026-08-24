@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HotDoc's OpenID Connect / OAuth 2.0 authorization server (Rails/Doorkeeper) for clinic and partner sign-in. Discovery metadata (OIDC + RFC 8414) and a live RS256 JWKS are served publicly; authorizatio
@@ -137,7 +137,7 @@ scopes:
 score:
   band: developing
   composite: 40.7
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -147,7 +147,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 36.8
+  previous_composite: 40.7
   provenance:
     conformance: first-party
   regulatory:
@@ -156,8 +156,8 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/screenshots/hotdoc-2026-07-25T221455.png
 security:

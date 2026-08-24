@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ modified: '2026-05-30'
 name: LiveChat
 nav: Providers
 network: true
-overview: 'LiveChat publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks and RTM API, Chats API, Customers API, and 5 more. Tagged areas include Live Chat, Customer Service, Customer Support, Messaging, and Sales.
+overview: 'LiveChat publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks and RTM API, Chats API, Customers API, and 5 more. Tagged areas include Live Chat, Customer Service, Customer-Support, Messaging, and Sales.
 
 
   LiveChat''s developer surface includes authentication, documentation, developer console, signup flow, pricing, engineering blog, and 5 more developer resources.'
@@ -168,7 +168,7 @@ random_paper: 8
 score:
   band: thin
   composite: 33.8
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -178,7 +178,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 34.5
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -186,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/screenshots/livechat-2026-06-20T184613.png
 security:
@@ -203,7 +203,7 @@ slug: livechat
 tags:
 - Live Chat
 - Customer Service
-- Customer Support
+- Customer-Support
 - Messaging
 - Sales
 - Help Desk

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -380,8 +380,8 @@ image: https://www.ocrolus.com/wp-content/uploads/2025/10/social-home-page.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: ocrolus-mcp.yml
-  slug: ocrolus-mcpyml
+  name: Ocrolus MCP Server
+  slug: ocrolus-mcp-server
 modified: '2026-07-20'
 name: Ocrolus
 nav: Providers
@@ -401,7 +401,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.4
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -411,7 +411,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 61.8
-  previous_composite: 58.7
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -428,8 +428,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/screenshots/ocrolus-2026-08-07T185929.png
 security:
@@ -461,7 +461,7 @@ tags:
 - Income Verification
 - Bank Statement Analysis
 - Mortgage
-- Machine Learning
+- Machine-Learning
 - Cash Flow Analytics
 website: https://ocrolus.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -215,8 +215,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/macquarie-
 layout: provider
 mcp_servers:
 - description: ''
-  name: macquarie-bank-mcp.yml
-  slug: macquarie-bank-mcpyml
+  name: Macquarie Bank MCP Server
+  slug: macquarie-bank-mcp-server
 modified: '2026-07-21'
 name: Macquarie Bank
 nav: Providers
@@ -234,7 +234,7 @@ scopes:
 score:
   band: developing
   composite: 45.0
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -244,7 +244,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,8 +261,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/screenshots/macquarie-bank-2026-07-21T130910.png
 security:

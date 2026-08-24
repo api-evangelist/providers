@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Organizer-facing GraphQL API (the Event Admin endpoint) to fetch, create, modify, and delete event content - events, people, exhibitors, plannings/sessions, and groups. Single GraphQL endpoint over HT
@@ -96,7 +96,7 @@ modified: '2026-07-12'
 name: Swapcard
 nav: Providers
 network: true
-overview: 'Swapcard publishes 2 APIs on the [APIs.io](https://apis.io/) network: Content API and Exhibitor Leads API. Tagged areas include Events, Event Management, Community, Networking, and Event Platform.
+overview: 'Swapcard publishes 2 APIs on the [APIs.io](https://apis.io/) network: Content API and Exhibitor Leads API. Tagged areas include Event, Event Management, Community, Networking, and Event Platform.
 
 
   Swapcard''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.6
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -122,9 +122,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 30.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -137,7 +137,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: swapcard
 tags:
-- Events
+- Event
 - Event Management
 - Community
 - Networking
@@ -145,6 +145,6 @@ tags:
 - GraphQL
 - Attendees
 - Exhibitors
-- SaaS
+- Software-as-a-Service
 website: https://www.swapcard.com/
 ---

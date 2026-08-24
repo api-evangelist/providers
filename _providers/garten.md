@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A Model Context Protocol server published on garten's own host at https://tv.garten.co/mcp, serving the garten TV wellness-video property. The endpoint is provided by the Uscreen streaming platform th
@@ -126,8 +126,8 @@ image: https://garten.co/wp-content/uploads/2020/04/Garten-Logo-Navy-Tight.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: garten-mcp.yml
-  slug: garten-mcpyml
+  name: Garten MCP Server
+  slug: garten-mcp-server
 modified: '2026-08-04'
 name: Garten
 nav: Providers
@@ -145,7 +145,7 @@ scopes:
 score:
   band: emerging
   composite: 19.9
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -155,12 +155,12 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 21.1
+  previous_composite: 19.9
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garten/refs/heads/main/screenshots/garten-2026-08-07T165538.png
 security:

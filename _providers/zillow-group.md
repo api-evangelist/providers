@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Zillow Group is a leading real estate technology company that operates a suite of online platforms and services designed to make the process of buying, selling, renting, and financing homes easier and
@@ -65,7 +65,7 @@ modified: '2026-03-16'
 name: Zillow Group
 nav: Providers
 network: true
-overview: 'Zillow Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate.
+overview: 'Zillow Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate.
 
 
   Zillow Group''s developer surface includes engineering blog and 3 more developer resources.'
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -97,9 +97,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 10.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/screenshots/zillow-group-2026-06-20T201913.png
 security:
@@ -109,5 +109,5 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: zillow-group
 tags:
-- Real Estate
+- Real-Estate
 ---

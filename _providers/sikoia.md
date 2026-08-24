@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -301,13 +301,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sikoia.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sikoia-mcp.yml
-  slug: sikoia-mcpyml
+  name: Sikoia MCP Server
+  slug: sikoia-mcp-server
 modified: '2026-07-21'
 name: Sikoia
 nav: Providers
 network: true
-overview: 'Sikoia publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Adverse Media API, Affordability Insights API, Authentication API, and 16 more. Tagged areas include Company, Financial Services, Identity Verification, KYC, and KYB.
+overview: 'Sikoia publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Adverse Media API, Affordability Insights API, Authentication API, and 16 more. Tagged areas include Company, Financial-Services, Identity Verification, KYC, and KYB.
 
 
   The Sikoia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -322,7 +322,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.7
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -332,7 +332,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 56.7
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -349,8 +349,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/screenshots/sikoia-2026-08-17T081855.png
 security:
@@ -365,7 +365,7 @@ security:
 slug: sikoia
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Identity Verification
 - KYC
 - KYB

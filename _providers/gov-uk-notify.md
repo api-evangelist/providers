@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ modified: '2026-06-13'
 name: GOV.UK Notify
 nav: Providers
 network: true
-overview: 'GOV.UK Notify publishes 3 APIs on the [APIs.io](https://apis.io/) network: Notifications API, Received Text Messages API, and Templates API. Tagged areas include Notifications, Email, SMS, Text Messages, and Letters.
+overview: 'GOV.UK Notify publishes 3 APIs on the [APIs.io](https://apis.io/) network: Notifications API, Received Text Messages API, and Templates API. Tagged areas include Notification, Email, SMS, Text Messages, and Letters.
 
 
   The GOV.UK Notify catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -200,7 +200,7 @@ rules:
 score:
   band: developing
   composite: 45.4
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -210,7 +210,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 31.6
-  previous_composite: 47.1
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -224,8 +224,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/screenshots/gov-uk-notify-2026-06-20T182256.png
 security:
@@ -243,7 +243,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: gov-uk-notify
 tags:
-- Notifications
+- Notification
 - Email
 - SMS
 - Text Messages

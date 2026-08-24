@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: Read, create, update and delete creator (publisher) records in the customer's CreatorIQ CRM, plus their linked social accounts, scheduled posts, contacts and campaign relationships.
@@ -272,7 +272,7 @@ modified: '2026-08-11'
 name: CreatorIQ
 nav: Providers
 network: true
-overview: 'CreatorIQ publishes 17 APIs on the [APIs.io](https://apis.io/) network, including CRM Publishers API, CRM Publishers API V2, Campaign APIs, and 14 more. Tagged areas include influencer-marketing, creator-economy, social-media, marketing, and campaign-management.
+overview: 'CreatorIQ publishes 17 APIs on the [APIs.io](https://apis.io/) network, including CRM Publishers API, CRM Publishers API V2, Campaign APIs, and 14 more. Tagged areas include Influencer Marketing, Creator Economy, Social-Media, Marketing, and Campaign Management.
 
 
   The CreatorIQ catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -291,7 +291,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 67.3
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -301,7 +301,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 78.9
-  previous_composite: 62.5
+  previous_composite: 67.3
   provenance:
     conformance: derived
     contracts:
@@ -317,8 +317,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/screenshots/creatoriq-2026-08-17T080838.png
 security:
@@ -340,18 +340,18 @@ security:
   summary_line: ISO/IEC 27001:2022
 slug: creatoriq
 tags:
-- influencer-marketing
-- creator-economy
-- social-media
-- marketing
-- campaign-management
+- Influencer Marketing
+- Creator Economy
+- Social-Media
+- Marketing
+- Campaign Management
 - creator-crm
-- social-analytics
-- brand-safety
-- affiliate-marketing
-- creator-payments
-- ecommerce
-- reporting
-- webhooks
+- Social Analytics
+- Brand Safety
+- Affiliate Marketing
+- Creator Payments
+- E-Commerce
+- Reporting
+- Webhook
 website: https://www.creatoriq.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -175,13 +175,13 @@ image: https://cachet.me/assets/img/social_share.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: cachet-mcp.yml
-  slug: cachet-mcpyml
+  name: Cachet MCP Server
+  slug: cachet-mcp-server
 modified: '2026-07-18'
 name: Cachet
 nav: Providers
 network: true
-overview: 'Cachet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connect API, Gig-Events API, User API, and 1 more. Tagged areas include Company, Insurance, InsurTech, Mobility, and Gig Economy.
+overview: 'Cachet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connect API, Gig-Events API, User API, and 1 more. Tagged areas include Company, Insurance, Insurtech, Mobility, and Gig Economy.
 
 
   Cachet''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
@@ -189,7 +189,7 @@ random_paper: 7
 score:
   band: developing
   composite: 43.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 43.5
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +216,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/screenshots/cachet-2026-07-25T204205.png
 security:
@@ -233,11 +233,11 @@ slug: cachet
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Mobility
 - Gig Economy
 - Car Sharing
 - Embedded Insurance
-- Events
+- Event
 website: https://cachet.me/
 ---

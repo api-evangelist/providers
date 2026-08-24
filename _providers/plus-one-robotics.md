@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -129,7 +129,7 @@ modified: '2026-08-05'
 name: Plus One Robotics
 nav: Providers
 network: true
-overview: 'Plus One Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Warehouse Automation, Computer Vision, and Artificial Intelligence.
+overview: 'Plus One Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Warehouse Automation, Computer-Vision, and Artificial Intelligence.
 
 
   Plus One Robotics'' developer surface includes engineering blog, support, and 18 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 11.7
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -147,9 +147,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 11.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -161,7 +161,7 @@ tags:
 - Company
 - Robotics
 - Warehouse Automation
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Logistics
 - Supply Chain

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,12 +44,12 @@ modified: '2026-07-18'
 name: Clinkle
 nav: Providers
 network: true
-overview: Clinkle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile Payments, FinTech, and Peer To Peer Payments.
+overview: Clinkle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile Payments, Fintech, and Peer-to-Peer Payments.
 random_paper: 3
 score:
   band: minimal
   composite: 0.1
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,15 +67,15 @@ score:
       reason: no_resolvable_host
     - owner: catalog
       reason: never_enriched
-  previous_composite: 4.3
+  previous_composite: 0.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clinkle/refs/heads/main/screenshots/clinkle-2026-07-25T205629.png
 slug: clinkle
@@ -83,8 +83,8 @@ tags:
 - Company
 - Payments
 - Mobile Payments
-- FinTech
-- Peer To Peer Payments
+- Fintech
+- Peer-to-Peer Payments
 - Defunct
 - Startup
 ---

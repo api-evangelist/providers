@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: Vestwell
 nav: Providers
 network: true
-overview: 'Vestwell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retirement, Workplace Savings, 401(k), and 529 College Savings.
+overview: 'Vestwell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retirement, Workplace Savings, 401k, and 529 College Savings.
 
 
   Vestwell''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 4
 score:
   band: minimal
   composite: 10.1
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 11.7
+  previous_composite: 10.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 18.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -110,9 +110,9 @@ tags:
 - Company
 - Retirement
 - Workplace Savings
-- 401(k)
+- 401k
 - 529 College Savings
-- Financial Services
+- Financial-Services
 - Fintech
 - Recordkeeping
 - Payroll Integration

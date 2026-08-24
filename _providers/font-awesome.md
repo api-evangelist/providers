@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public GraphQL API for programmatically querying Font Awesome releases, searching icons and their metadata (family-styles, unicode, aliases, SVG path data), and — with an access token — reading accoun
@@ -151,8 +151,8 @@ image: https://fontawesome.com/images/open-graph/default.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: font-awesome-mcp.yml
-  slug: font-awesome-mcpyml
+  name: Font Awesome MCP Server
+  slug: font-awesome-mcp-server
 modified: '2026-07-19'
 name: Font Awesome
 nav: Providers
@@ -170,7 +170,7 @@ scopes:
 score:
   band: developing
   composite: 50.3
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -180,7 +180,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 46.5
+  previous_composite: 50.3
   provenance:
     conformance: derived
     mcp: derived
@@ -191,8 +191,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/screenshots/font-awesome-2026-07-25T214913.png
 security:

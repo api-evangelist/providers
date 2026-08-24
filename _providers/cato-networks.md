@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Public GraphQL API for the Cato Management Application (CMA): site and account provisioning, policy configuration, network/security analytics, entity lookup, and event streaming. Single GraphQL endpoi'
@@ -150,9 +150,9 @@ description: Cato Networks is the SASE (Secure Access Service Edge) pioneer, del
 image: https://avatars.githubusercontent.com/u/182921385
 layout: provider
 mcp_servers:
-- description: ''
-  name: cato-networks-mcp.yml
-  slug: cato-networks-mcpyml
+- description: Local Model Context Protocol (MCP) server for Cato Networks' public GraphQL API (Cato Management Application / CMA).
+  name: Cato Networks MCP Server
+  slug: cato-networks-mcp-server
 modified: '2026-07-18'
 name: Cato Networks
 nav: Providers
@@ -165,7 +165,7 @@ random_paper: 17
 score:
   band: thin
   composite: 26.6
-  delta: -9.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -175,13 +175,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 36.4
+  previous_composite: 26.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/screenshots/cato-networks-2026-07-25T204914.png
 security:
 - kind: authentication
@@ -211,6 +211,5 @@ tags:
 - SD-WAN
 - Zero Trust
 - GraphQL
-- API
 website: https://www.catonetworks.com
 ---

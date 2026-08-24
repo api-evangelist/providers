@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: APIs for application management
@@ -214,8 +214,8 @@ image: https://avatars.githubusercontent.com/u/49017159?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: esper-mcp.yml
-  slug: esper-mcpyml
+  name: Esper MCP Server
+  slug: esper-mcp-server
 modified: '2026-07-19'
 name: Esper
 nav: Providers
@@ -231,7 +231,7 @@ random_paper: 18
 score:
   band: developing
   composite: 48.5
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 50.4
+  previous_composite: 48.5
   provenance:
     conformance: derived
     contracts:
@@ -251,8 +251,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esper/refs/heads/main/screenshots/esper-2026-07-25T213623.png
 security:

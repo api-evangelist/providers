@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -157,8 +157,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stamped.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: stamped-mcp.yml
-  slug: stamped-mcpyml
+  name: Stamped MCP Server
+  slug: stamped-mcp-server
 modified: '2026-07-21'
 name: Stamped
 nav: Providers
@@ -171,7 +171,7 @@ random_paper: 15
 score:
   band: thin
   composite: 34.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 35.1
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,8 +192,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

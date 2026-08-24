@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 28
 apis:
 - description: The ApiKeyManagement API from Fortify Software — 5 operation(s) for apikeymanagement.
@@ -308,8 +308,8 @@ image: https://www.opentext.com/assets/images/opentext-logo-white.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: fortify-software-mcp.yml
-  slug: fortify-software-mcpyml
+  name: Fortify Software MCP Server
+  slug: fortify-software-mcp-server
 modified: '2026-07-19'
 name: Fortify Software
 nav: Providers
@@ -327,7 +327,7 @@ scopes:
 score:
   band: thin
   composite: 38.5
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -337,7 +337,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 38.8
+  previous_composite: 38.5
   provenance:
     conformance: derived
     contracts:
@@ -347,8 +347,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/screenshots/fortify-software-2026-07-25T215010.png
 security:

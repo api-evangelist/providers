@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: A curated collection of standards, conventions, and best practices for building RESTful APIs, including HAL, JSON:API, Siren, Collection+JSON, and HATEOAS patterns.
@@ -127,7 +127,7 @@ rules:
 score:
   band: emerging
   composite: 18.0
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -137,10 +137,10 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 23.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 18.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restful-services/refs/heads/main/screenshots/restful-services-2026-06-20T193027.png
 security:
 - kind: domain-security

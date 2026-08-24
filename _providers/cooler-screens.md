@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A live, OAuth-protected Model Context Protocol endpoint served by CoolerX from its own apex host and discovered through the RFC 9728 protected-resource metadata document at https://coolerx.com/.well-k
@@ -84,9 +84,9 @@ description: CoolerX — formerly Cooler Screens — is an in-store retail media
 image: https://www.coolerx.com/wp-content/uploads/2025/01/white-on-black-coolerX-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: cooler-screens-mcp.yml
-  slug: cooler-screens-mcpyml
+- description: CoolerX serves live Model Context Protocol endpoints from its own apex host, coolerx.com. They are published by the WordPress MCP Adapter plugin running on the CoolerX marketing site (WordPress 6.x on
+  name: CoolerX Website MCP Server
+  slug: coolerx-website-mcp-server
 modified: '2026-08-12'
 name: CoolerX
 nav: Providers
@@ -112,7 +112,7 @@ scopes:
 score:
   band: emerging
   composite: 14.7
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -122,12 +122,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 16.0
+  previous_composite: 14.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

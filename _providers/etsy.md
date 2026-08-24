@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -1268,7 +1268,7 @@ modified: '2026-05-30'
 name: Etsy
 nav: Providers
 network: true
-overview: 'Etsy publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Open API v3 Webhooks, BuyerTaxonomy API, Ledger Entry API, and 25 more. Tagged areas include Marketplace, Ecommerce, Handmade, Listings, and Orders.
+overview: 'Etsy publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Open API v3 Webhooks, BuyerTaxonomy API, Ledger Entry API, and 25 more. Tagged areas include Marketplace, E-Commerce, Handmade, Listings, and Order.
 
 
   The Etsy catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1324,18 +1324,18 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.3
-  delta: -0.7
+  composite: 64.6
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 75.4
     developer_ergonomics: 47.6
     discoverability: 59.3
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 60.5
-  previous_composite: 65.0
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1349,8 +1349,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png
 security:
@@ -1369,14 +1369,14 @@ security:
 slug: etsy
 tags:
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Handmade
 - Listings
-- Orders
+- Order
 - Payments
 - Reviews
 - Shipping
 - Taxonomy
-- OAuth2
+- Authentication
 website: https://www.etsy.com
 ---

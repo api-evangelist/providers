@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: California Forever
 nav: Providers
 network: true
-overview: 'California Forever is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Urban Development, Construction, and Manufacturing.
+overview: 'California Forever is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Urban Development, Construction, and Manufacturing.
 
 
   California Forever''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 10.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -94,9 +94,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/california-forever/refs/heads/main/screenshots/california-forever-2026-07-25T204234.png
 security:
@@ -107,7 +107,7 @@ security:
 slug: california-forever
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Urban Development
 - Construction
 - Manufacturing

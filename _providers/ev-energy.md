@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The official ev.energy v2 REST API. 210 operations across 180 paths covering users, vehicles, EVSEs, charging sessions, schedules, tariffs, regions, solar, solar forecasts, home batteries, boundary me
@@ -118,8 +118,8 @@ image: https://cdn.prod.website-files.com/6278ea1f9c10c9550411fdd7/627a9ce3111e3
 layout: provider
 mcp_servers:
 - description: ''
-  name: ev-energy-mcp.yml
-  slug: ev-energy-mcpyml
+  name: ev.energy API Docs MCP Server
+  slug: evenergy-api-docs-mcp-server
 modified: '2026-08-12'
 name: ev.energy
 nav: Providers
@@ -147,18 +147,18 @@ scopes:
   summary_line: 35 scopes
 score:
   band: developing
-  composite: 51.3
-  delta: 4.5
+  composite: 52.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
     contract_quality: 65.7
     developer_ergonomics: 47.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 46.8
+  previous_composite: 52.4
   provenance:
     conformance: first-party
     contracts:
@@ -174,8 +174,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ev-energy/refs/heads/main/screenshots/ev-energy-2026-08-17T080920.png
 security:

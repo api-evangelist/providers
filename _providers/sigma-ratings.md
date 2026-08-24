@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Account management
@@ -205,8 +205,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sigma-rati
 layout: provider
 mcp_servers:
 - description: ''
-  name: sigma-ratings-mcp.yml
-  slug: sigma-ratings-mcpyml
+  name: Sigma360 MCP Server
+  slug: sigma360-mcp-server
 modified: '2026-07-21'
 name: Sigma360
 nav: Providers
@@ -222,7 +222,7 @@ random_paper: 11
 score:
   band: developing
   composite: 49.1
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 51.9
+  previous_composite: 49.1
   provenance:
     conformance: derived
     contracts:
@@ -242,8 +242,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/screenshots/sigma-ratings-2026-08-17T081849.png
 security:

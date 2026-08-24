@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-05-19'
 name: International Trade Administration
 nav: Providers
 network: true
-overview: 'International Trade Administration publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Consolidated Screening List API, Country Commercial Guides API, Customs Tariff API, and 3 more. Tagged areas include Compliance, Customs, Export, Federal Government, and International Business.
+overview: 'International Trade Administration publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Consolidated Screening List API, Country Commercial Guides API, Customs Tariff API, and 3 more. Tagged areas include Compliance, Customs, Export, Federal-Government, and International Business.
 
 
   The International Trade Administration catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -175,7 +175,7 @@ rules:
 score:
   band: thin
   composite: 38.1
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -185,7 +185,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 40.1
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/screenshots/international-trade-administration-2026-06-20T183459.png
 security:
@@ -217,7 +217,7 @@ tags:
 - Compliance
 - Customs
 - Export
-- Federal Government
+- Federal-Government
 - International Business
 - Screening List
 - Tariffs

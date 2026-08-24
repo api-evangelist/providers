@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ modified: '2026-05-19'
 name: Smithsonian Institution
 nav: Providers
 network: true
-overview: 'Smithsonian Institution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Content API, Metrics API, and Search API. Tagged areas include Collections, Cultural Heritage, Museums, Open Data, and Art.
+overview: 'Smithsonian Institution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Content API, Metrics API, and Search API. Tagged areas include Collection, Cultural Heritage, Museums, Open Data, and Art.
 
 
   The Smithsonian Institution catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -188,18 +188,18 @@ rules:
   slug: smithsonian-rules
 score:
   band: thin
-  composite: 32.2
-  delta: -4.6
+  composite: 32.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 60.8
     developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 36.8
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +213,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/screenshots/smithsonian-institution-2026-06-20T194059.png
 security:
@@ -228,7 +228,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: smithsonian-institution
 tags:
-- Collections
+- Collection
 - Cultural Heritage
 - Museums
 - Open Data

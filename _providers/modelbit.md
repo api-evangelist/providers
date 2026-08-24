@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Every Modelbit deployment is exposed as a versioned REST inference endpoint. POST an inference request (single or batch) to the deployment URL and receive predictions; access can be gated with API key
@@ -109,7 +109,7 @@ modified: '2026-07-20'
 name: Modelbit
 nav: Providers
 network: true
-overview: 'Modelbit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Machine Learning, MLOps, and Model Deployment.
+overview: 'Modelbit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, MLOps, and Model Deployment.
 
 
   The Modelbit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -120,7 +120,7 @@ random_paper: 8
 score:
   band: thin
   composite: 30.3
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -130,10 +130,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 35.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 30.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Modelbit Authentication
@@ -146,8 +146,8 @@ security:
 slug: modelbit
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - MLOps
 - Model Deployment
 - Model Inference

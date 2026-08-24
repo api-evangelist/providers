@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ modified: '2026-05-08'
 name: Getty Images
 nav: Providers
 network: true
-overview: 'Getty Images publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Downloads API, Images API, Reference API, and 2 more. Tagged areas include Stock Media, Images, Editorial, Video, and Music.
+overview: 'Getty Images publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Downloads API, Images API, Reference API, and 2 more. Tagged areas include Stock Media, Image, Editorial, Video, and Music.
 
 
   Getty Images'' developer surface includes authentication and 12 more developer resources.'
@@ -164,7 +164,7 @@ scopes:
 score:
   band: emerging
   composite: 25.9
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -174,7 +174,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.1
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +182,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getty/refs/heads/main/screenshots/getty-2026-06-20T181814.png
 security:
@@ -202,7 +202,7 @@ security:
 slug: getty
 tags:
 - Stock Media
-- Images
+- Image
 - Editorial
 - Video
 - Music

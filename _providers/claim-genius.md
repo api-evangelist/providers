@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The GeniusAPI Suite is Claim Genius''s REST integration layer over its AI vehicle-inspection products. Documented flow: generate a JWT via /api/auth/token using an API ID and secret, upload JPG/PNG/MP4'
@@ -105,7 +105,7 @@ modified: '2026-08-09'
 name: Claim Genius
 nav: Providers
 network: true
-overview: 'Claim Genius publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurance Claims, Insurance Underwriting, Artificial Intelligence, and Computer Vision.
+overview: 'Claim Genius publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurance Claims, Insurance Underwriting, Artificial Intelligence, and Computer-Vision.
 
 
   Claim Genius'' developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 12.6
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.6
+  previous_composite: 12.6
   provenance:
     conformance: first-party
   regulatory:
@@ -132,9 +132,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Claim Genius Authentication
@@ -150,11 +150,11 @@ tags:
 - Insurance Claims
 - Insurance Underwriting
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Vehicle Inspection
 - Automotive
 - Claims Automation
 - Damage Assessment
-- InsurTech
+- Insurtech
 website: https://claimgenius.com/
 ---

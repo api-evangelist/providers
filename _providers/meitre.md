@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Partner integration API for accessing Meitre's restaurant reservations, availability, and guest data. Documentation is behind an authenticated developer portal at meitre-api.com; access is arranged vi
@@ -82,13 +82,13 @@ image: https://meitre.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: meitre-mcp.yml
-  slug: meitre-mcpyml
+  name: Meitre MCP Server
+  slug: meitre-mcp-server
 modified: '2026-07-20'
 name: Meitre
 nav: Providers
 network: true
-overview: 'Meitre publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Reservations, Hospitality, and Booking.
+overview: 'Meitre publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Reservations, Hospitality, and Booking.
 
 
   Meitre''s developer surface includes API reference, signup flow, and 8 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 16
 score:
   band: minimal
   composite: 7.6
-  delta: -11.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -106,12 +106,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.2
+  previous_composite: 7.6
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meitre/refs/heads/main/screenshots/meitre-2026-08-07T172434.png
 security:
 - kind: domain-security
@@ -121,7 +121,7 @@ security:
 slug: meitre
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Reservations
 - Hospitality
 - Booking

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.4
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -148,9 +148,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 24.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-ai/refs/heads/main/screenshots/base-ai-2026-07-25T202412.png
 security:
@@ -174,7 +174,7 @@ tags:
 - Customer Success
 - Customer Marketing
 - Advocacy
-- RevOps
-- SaaS
+- Revenue Operations
+- Software-as-a-Service
 website: https://www.base.ai/
 ---

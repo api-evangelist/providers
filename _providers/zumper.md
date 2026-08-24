@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Zumper API provides access to rental listings, property data, rental price insights, and tenant application management. Partners and property management software providers can use the API to syndi
@@ -93,7 +93,7 @@ modified: '2026-06-13'
 name: Zumper
 nav: Providers
 network: true
-overview: 'Zumper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Rental Listings, Property Management, Apartments, and Tenant Screening.
+overview: 'Zumper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Rental Listings, Property Management, Apartments, and Tenant Screening.
 
 
   Zumper''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.3
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -119,9 +119,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zumper/refs/heads/main/screenshots/zumper-2026-06-20T201958.png
 security:
@@ -131,7 +131,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: zumper
 tags:
-- Real Estate
+- Real-Estate
 - Rental Listings
 - Property Management
 - Apartments

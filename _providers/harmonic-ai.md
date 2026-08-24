@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -217,16 +217,16 @@ image: https://cdn.prod.website-files.com/6107b1101d4d3e748743f234/65f31ad2b4ac6
 layout: provider
 mcp_servers:
 - description: ''
-  name: harmonic-ai-mcp.yml
-  slug: harmonic-ai-mcpyml
+  name: Harmonic.ai MCP Server
+  slug: harmonicai-mcp-server
 - description: ''
-  name: mcp.api.harmonic.ai
-  slug: mcpapiharmonicai
+  name: Harmonic.ai MCP Server
+  slug: harmonicai-mcp-server-2
 modified: '2026-08-14'
 name: Harmonic.ai
 nav: Providers
 network: true
-overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Harmonic REST & GraphQL API. Tagged areas include startup-intelligence, venture-capital, company-data, people-data, and investor-data.
+overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Harmonic REST & GraphQL API. Tagged areas include Startup Intelligence, Venture Capital, Company Data, People Data, and investor-data.
 
 
   The Harmonic.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,7 +250,7 @@ scopes:
 score:
   band: developing
   composite: 49.0
-  delta: -11.1
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -260,7 +260,7 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 60.1
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,9 +271,9 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/screenshots/harmonic-ai-2026-07-25T220821.png
 security:
 - kind: authentication
@@ -290,17 +290,17 @@ security:
   summary_line: Hackerone
 slug: harmonic-ai
 tags:
-- startup-intelligence
-- venture-capital
-- company-data
-- people-data
+- Startup Intelligence
+- Venture Capital
+- Company Data
+- People Data
 - investor-data
 - funding-data
-- data-enrichment
-- sales-intelligence
-- market-intelligence
-- graphql
-- mcp
+- Data Enrichment
+- Sales Intelligence
+- Market Intelligence
+- GraphQL
+- MCP
 - agent-native
 website: https://console.harmonic.ai/
 ---

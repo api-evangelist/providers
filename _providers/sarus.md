@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Sarus Gateway is the server component of the Sarus privacy layer. It is deployed inside the customer's own environment (Docker or Kubernetes, on-premises or in AWS/Azure/GCP) and is reached by the
@@ -118,6 +118,7 @@ random_paper: 12
 score:
   band: thin
   composite: 26.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -133,8 +134,10 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 slug: sarus
 tags:
 - Company
@@ -143,9 +146,9 @@ tags:
 - Differential Privacy
 - Synthetic Data
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Data Governance
 - SQL
-- Open Source
+- Open-Source
 website: https://www.sarus.tech/
 ---

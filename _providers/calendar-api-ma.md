@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: National Open business days
@@ -150,7 +150,7 @@ modified: '2026-08-18'
 name: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python
 nav: Providers
 network: true
-overview: 'API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python publishes 3 APIs on the [APIs.io](https://apis.io/) network: Business Days API, Holidays API, and Misc API. Tagged areas include holidays, morocco, calendar, business-days, and date-utilities.
+overview: 'API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python publishes 3 APIs on the [APIs.io](https://apis.io/) network: Business Days API, Holidays API, and Misc API. Tagged areas include Holidays, Morocco, Calendar, Business Days, and date-utilities.
 
 
   API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 20 more developer resources.'
@@ -166,6 +166,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -175,6 +176,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -190,8 +192,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Calendar Api Ma Authentication
@@ -203,17 +206,17 @@ security:
   summary_line: TLSv1.3
 slug: calendar-api-ma
 tags:
-- holidays
-- morocco
-- calendar
-- business-days
+- Holidays
+- Morocco
+- Calendar
+- Business Days
 - date-utilities
-- data-engineering
+- Data Engineering
 - ETL
-- python-sdk
-- localization
-- reference-data
-- public-holidays
-- scheduling
+- Python SDK
+- Localization
+- Reference Data
+- Public Holidays
+- Scheduling
 website: https://calendar-api.ma
 ---

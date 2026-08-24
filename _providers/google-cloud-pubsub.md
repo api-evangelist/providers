@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-05-30'
 name: Google Cloud Pub/Sub
 nav: Providers
 network: true
-overview: 'Google Cloud Pub/Sub publishes 3 APIs on the [APIs.io](https://apis.io/) network: Schemas API, Subscriptions API, and Topics API. Tagged areas include Event-Driven, Google Cloud, Messaging, and Pub/Sub.
+overview: 'Google Cloud Pub/Sub publishes 3 APIs on the [APIs.io](https://apis.io/) network: Schemas API, Subscriptions API, and Topics API. Tagged areas include Event-Driven, Google Cloud, Messaging, and Pub-Sub.
 
 
   The Google Cloud Pub/Sub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -174,7 +174,7 @@ scopes:
 score:
   band: thin
   composite: 38.0
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -184,7 +184,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 43.3
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -192,9 +192,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/screenshots/google-cloud-pubsub-2026-06-20T182128.png
 security:
 - kind: authentication
@@ -214,5 +214,5 @@ tags:
 - Event-Driven
 - Google Cloud
 - Messaging
-- Pub/Sub
+- Pub-Sub
 ---

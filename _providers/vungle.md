@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'Automated access to Vungle/Liftoff campaign performance reports — impressions, clicks, installs, and in-app events — with configurable groupings, metrics, and cohort (look-back window) analysis. HTTP '
@@ -144,8 +144,8 @@ image: https://liftoff.ai/wp-content/uploads/2025/01/B-Meta-Image-20240912-12223
 layout: provider
 mcp_servers:
 - description: ''
-  name: vungle-mcp.yml
-  slug: vungle-mcpyml
+  name: Vungle MCP Server
+  slug: vungle-mcp-server
 modified: '2026-07-21'
 name: Vungle
 nav: Providers
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.2
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -175,12 +175,12 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 41.4
+  previous_composite: 40.2
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -198,7 +198,7 @@ tags:
 - Mobile
 - Monetization
 - User Acquisition
-- Ad Tech
+- AdTech
 - Analytics
 - Reporting
 website: https://vungle.com

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-19'
 name: Engram
 nav: Providers
 network: true
-overview: Engram is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Machine Learning, LLM, and Model Training.
+overview: Engram is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Model Training.
 random_paper: 4
 score:
   band: minimal
@@ -78,15 +78,15 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engram/refs/heads/main/screenshots/engram-2026-07-25T213356.png
 slug: engram
 tags:
 - Company
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - LLM
 - Model Training
 - Context

@@ -1,6 +1,6 @@
 {
- "total": 34,
- "shown": 34,
+ "total": 35,
+ "shown": 35,
  "limit": 1000,
  "bands": [
   {
@@ -16,21 +16,21 @@
      "slug": "openmercantil",
      "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 80+ official public sources (BOE, CNMV, CNMC, AEAT, AEPD, PLACSP, TED EU, BDNS, OEPM, EPO, WIPO, CENDOJ, GLEIF, OpenSanctions, ICIJ and more) to expose company and person search, structured company reports, BORME registry event timelines, documentary officer mentions, CNAE sector navigation and ratios, daily BORME summaries, public-procurement notices and rankings, documentary risk signals, a corporate relationship graph, a Spanish mercantile-law corpus that bridges registry acts to the governing BOE norm, account-plane datasets and HMAC-signed outbound webhooks, and CSV/JSON bulk exports. The live OpenAPI 3.1 contract (v1.9.3) declares 118 paths and 139 operations. The public read plane is free and anonymous with no API key, rate-limited at 60 req/min and 200 req/day per IP, with paid Profesional, MAX and Enterprise tiers raising the quota. Derived data is CC BY 4.0 and every response carries its own source and attribution metadata. The project is informational and does not replace official Registro Mercantil certificates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
-     "score": 87.3,
+     "score": 87.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 77.4,
-      "governance": 55.3,
-      "contract_governance": 55.3,
+      "governance": 59.1,
+      "contract_governance": 59.1,
       "operational_transparency": 94.7,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -87,8 +87,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -133,21 +133,21 @@
      "slug": "factorial-hr",
      "description": "Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 \"Legendre\") covering employees, contracts, attendance, time off, payroll, ATS, performance, trainings, projects, finance, banking, procurement, IT assets, documents, webhooks, and an Approvals workflow surface. Authentication uses OAuth2 (on behalf of a user) or an x-api-key header (on behalf of the company), with 30+ scopes for granular partner access. Factorial publishes the OpenAPI schema and generated SDKs (Ruby, Python, Java, PHP, TypeScript, Node.js) at github.com/factorialco/oas and exposes an llms.txt index for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png",
-     "score": 52.8,
+     "score": 53.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 62.9,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 30.3,
       "developer_ergonomics": 53.6,
       "commercial_clarity": 64.5,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 40.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -174,21 +174,21 @@
      "slug": "zenrows",
      "description": "ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API (HTTP scrape with JS rendering, anti-bot bypass, screenshots, CSS/AI extraction, and PDF/markdown output), the Scraping Browser (cloud Playwright/Puppeteer/CDP browser over WebSocket), Residential Proxies (HTTP/SOCKS5 with sticky sessions and country targeting), and a set of vertical Scraper APIs for Amazon, Google, Walmart, Zillow, and Idealista. ZenRows also ships first-party Python, Node.js, and Go SDKs, a Scrapy middleware, deep integrations across Playwright, Puppeteer, Selenium, Scrapy, LangChain, LlamaIndex, OpenAI Agents SDK, Zapier, n8n, Make, Pipedream, Node-RED, MuleSoft, Clay, and an official MCP server (hosted at https://mcp.zenrows.com/mcp and as @zenrows/mcp on npm) exposing scrape and 30+ browser automation tools to AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png",
-     "score": 50.3,
+     "score": 50.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 65.0,
-      "governance": 25.0,
-      "contract_governance": 25.0,
+      "governance": 28.8,
+      "contract_governance": 28.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 28.6,
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 35.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -228,8 +228,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 42.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -258,8 +258,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Factorial",
@@ -317,8 +317,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 14.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -358,8 +358,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -399,8 +399,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -428,27 +428,17 @@
       "dry_run_mode": false
      },
      "rank": 9
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 17,
-   "shown": 17,
-   "providers": [
+    },
     {
      "name": "Lingokids",
      "slug": "lingokids",
      "description": "Lingokids is a children's edutainment platform operated by Monkimun Inc. (Wilmington, Delaware) and Monkimun Labs S.L. (Madrid, Spain), delivering an ad-free \"Playlearning\" experience of games, animated shows, podcasts and sing-alongs for children aged two to eight. The mobile apps (iOS, Android, Amazon) and web app have been downloaded more than 200 million times. The curriculum is built by parents and educators and covers English-language learning alongside broader academic and life skills. Lingokids is audited and certified by the kidSAFE Seal Program (COPPA+), operates a COPPA-compliant configuration for child data, and honours GDPR rights for EU residents. The company publishes no public developer program or documented API: api.lingokids.com is the private application backend and exposes no discovery surface. Lingokids does publish an RFC 9116 security.txt with a security contact, names a Data Protection Officer, and runs a public help center. Backed by HV Capital.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lingokids/refs/heads/main/screenshots/lingokids-2026-07-25T225243.png",
-     "score": 25.1,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 26.2,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -457,8 +447,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -486,7 +476,17 @@
       "dry_run_mode": false
      },
      "rank": 10
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 17,
+   "shown": 17,
+   "providers": [
     {
      "name": "Novicap",
      "slug": "novicap",
@@ -505,8 +505,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 31.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -545,8 +545,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -593,8 +593,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -641,8 +641,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -688,8 +688,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -729,8 +729,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -777,8 +777,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -825,8 +825,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -873,8 +873,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -921,8 +921,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -969,8 +969,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1017,8 +1017,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1065,8 +1065,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1113,8 +1113,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1161,8 +1161,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1209,8 +1209,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1231,6 +1231,53 @@
       "dry_run_mode": false
      },
      "rank": 26
+    },
+    {
+     "name": "Impress",
+     "slug": "impress",
+     "description": "Impress (legal entity Smile2Impress SL) is a Barcelona-founded chain of clear-aligner orthodontic clinics, launched in 2019 by Vladimir Lupenko, Diliara Lupenko and Dr. Khaled Kasem, and today Europe's largest invisible-orthodontics clinic network. It runs 110+ doctor-led clinics across ten countries — Spain, Italy, Portugal, France, the United Kingdom, Germany, the Netherlands, Sweden, Ukraine and the United States — has treated more than 500,000 patients, and pairs in-clinic 3D intraoral scanning and patented diagnostics with AI-assisted treatment planning and remote monitoring through its patient mobile app. Impress publishes no developer portal, API reference, SDK, CLI, status page, changelog or machine-readable specification of any kind: contract discovery found no OpenAPI, Swagger, GraphQL SDL, AsyncAPI, MCP server, A2A agent card or .well-known document on any host it operates. Its one API host, api.smile2impress.com, is the private backend for the Impress patient app and the Impress Clinics practitioner app; it resolves and is live but answers HTTP 403 to every anonymous request, including every spec and .well-known path probed. Its GitHub organization, github.com/smile2impress, is real but carries only internal engineering tooling — five forks of Node.js/TypeScript infrastructure libraries and one first-party static-analysis tool, fe-explorer — and no client library for any Impress service. Products sold are orthodontic treatment, retainers and teeth whitening, priced and booked through the consumer site.",
+     "score": 12.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 31.6,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 27
     }
    ]
   },
@@ -1260,49 +1307,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 27
-    },
-    {
-     "name": "Magnific",
-     "slug": "magnific-ai",
-     "description": "Magnific is a Spanish AI image enhancement startup, founded in 2023 by Javi Lopez and Emilio Nicolas, best known for its AI image upscaler and enhancer that hallucinates believable new detail at higher resolutions. The product line expanded from the original Upscaler into Relight (AI-driven scene relighting), Structure (compose-from-sketch), Style Transfer, Mystic (text-to-image), and Fluffy (consistent characters). Magnific was acquired by Freepik in May 2024 and continues to operate under the Magnific brand while powering Freepik's image enhancement surface. There is no publicly documented developer API for Magnific itself; access is via the web application at magnific.ai (now magnific.com) and through the Freepik AI suite, where related image generation and upscaling capabilities are exposed via the Freepik API. Customer support is handled through an Intercom-backed help center and the founders maintain a high-visibility presence on X/Twitter.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/screenshots/magnific-ai-2026-06-20T184848.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 17.1,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1325,6 +1331,47 @@
      "rank": 28
     },
     {
+     "name": "Magnific",
+     "slug": "magnific-ai",
+     "description": "Magnific is a Spanish AI image enhancement startup, founded in 2023 by Javi Lopez and Emilio Nicolas, best known for its AI image upscaler and enhancer that hallucinates believable new detail at higher resolutions. The product line expanded from the original Upscaler into Relight (AI-driven scene relighting), Structure (compose-from-sketch), Style Transfer, Mystic (text-to-image), and Fluffy (consistent characters). Magnific was acquired by Freepik in May 2024 and continues to operate under the Magnific brand while powering Freepik's image enhancement surface. There is no publicly documented developer API for Magnific itself; access is via the web application at magnific.ai (now magnific.com) and through the Freepik AI suite, where related image generation and upscaling capabilities are exposed via the Freepik API. Customer support is handled through an Intercom-backed help center and the founders maintain a high-visibility presence on X/Twitter.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/screenshots/magnific-ai-2026-06-20T184848.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 17.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 29
+    },
+    {
      "name": "Goin",
      "slug": "goin",
      "description": "Goin is a European consumer fintech platform, backed by Anthemis and based in Barcelona, Spain, that helps more than 700,000 users across Europe grow their money and spend less. The app bundles automated savings (fixed daily, weekly or monthly rules and goal-based portfolios), investing, buying and selling of cryptocurrencies, cashback and rewards at hundreds of online and physical stores, gift cards and coupons, and a browser extension that surfaces discounts while shopping. Bank accounts are connected securely under Europe's PSD2 open banking regulation, and a referral program rewards users for inviting friends. Goin is a business-to-consumer mobile product distributed through the Apple App Store and Google Play; it does not publish a public developer program, API, or documentation surface. This API Evangelist profile tracks Goin as a portfolio lead and captures its public web, help, and legal presence.",
@@ -1342,8 +1389,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1370,7 +1417,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "UPM YODA Open Data Portal",
@@ -1390,8 +1437,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1418,7 +1465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Blink Booking",
@@ -1438,48 +1485,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 31
-    },
-    {
-     "name": "Circular",
-     "slug": "circular",
-     "description": "Circular was a Spanish hiring community that connected tech recruiters with software developers, describing itself as a \"Hiring Community for Tech Recruiters & Developers.\" It operated a referral-driven talent network in which recruiters shared vetted candidates they could not place themselves, and developers received job opportunities through that trusted pool rather than through cold outreach. The company was backed by Point Nine Capital and ran its candidate and recruiter landing experiences on a Next.js application served from circular.io and static.circular.io. Circular has since shut down and merged into Manfred (getmanfred.com), the largest tech community in Spain, with its own migration notice stating \"Circular cierra sus puertas para integrarse en Manfred.\" The circular.io domain remains registered to Singular People Europe S.L. but has been fully undelegated, and Point Nine no longer lists Circular in its portfolio. Circular never published a public developer program, API, SDK, or specification. This profile is retained as a historical record; there is no API surface to enrich.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1502,6 +1509,46 @@
      "rank": 32
     },
     {
+     "name": "Circular",
+     "slug": "circular",
+     "description": "Circular was a Spanish hiring community that connected tech recruiters with software developers, describing itself as a \"Hiring Community for Tech Recruiters & Developers.\" It operated a referral-driven talent network in which recruiters shared vetted candidates they could not place themselves, and developers received job opportunities through that trusted pool rather than through cold outreach. The company was backed by Point Nine Capital and ran its candidate and recruiter landing experiences on a Next.js application served from circular.io and static.circular.io. Circular has since shut down and merged into Manfred (getmanfred.com), the largest tech community in Spain, with its own migration notice stating \"Circular cierra sus puertas para integrarse en Manfred.\" The circular.io domain remains registered to Singular People Europe S.L. but has been fully undelegated, and Point Nine no longer lists Circular in its portfolio. Circular never published a public developer program, API, SDK, or specification. This profile is retained as a historical record; there is no API surface to enrich.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 33
+    },
+    {
      "name": "Masmovil",
      "slug": "masmovil",
      "description": "Masmovil (MasMovil Group) is a Spanish telecommunications operator providing mobile, fiber optic internet, and fixed-line services to consumers and businesses across Spain, with bundled fiber-plus-mobile packages, device sales, roaming, and international calling. The group operates a family of consumer telecom brands and, following its 2024 combination with Orange Spain, is part of the MasOrange joint venture. As of this enrichment pass Masmovil publishes no public developer portal, API documentation, or machine-readable API specification; the network profile carries the identity and a domain security posture probe only.",
@@ -1519,8 +1566,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1547,7 +1594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Groupalia",
@@ -1567,8 +1614,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1595,7 +1642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     }
    ]
   }

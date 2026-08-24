@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-21'
 name: Rocket
 nav: Providers
 network: true
-overview: 'Rocket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, App Builder, No Code, and Low Code.
+overview: 'Rocket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, App Builder, No-Code, and Low-Code.
 
 
   Rocket''s developer surface includes documentation, getting-started guide, changelog, engineering blog, pricing, signup flow, support, and 7 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 16.5
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -114,10 +114,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 22.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 16.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Rocket Domain Security
@@ -126,10 +126,10 @@ security:
 slug: rocket
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - App Builder
-- No Code
-- Low Code
+- No-Code
+- Low-Code
 - Developer Tools
 - Web Development
 - Mobile Development

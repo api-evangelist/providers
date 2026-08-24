@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -179,13 +179,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teamohana.
 layout: provider
 mcp_servers:
 - description: ''
-  name: teamohana-mcp.yml
-  slug: teamohana-mcpyml
+  name: TeamOhana MCP Server
+  slug: teamohana-mcp-server
 modified: '2026-07-21'
 name: TeamOhana
 nav: Providers
 network: true
-overview: 'TeamOhana publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Headcount API, Scenario API, and 1 more. Tagged areas include Company, Hr Tech, Headcount Management, Headcount Planning, and Workforce Planning.
+overview: 'TeamOhana publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Headcount API, Scenario API, and 1 more. Tagged areas include Company, HR Tech, Headcount Management, Headcount Planning, and Workforce Planning.
 
 
   TeamOhana''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, support, and 19 more developer resources.'
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.4
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 46.7
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,8 +218,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/screenshots/teamohana-2026-08-17T082257.png
 security:
@@ -238,7 +238,7 @@ security:
 slug: teamohana
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Headcount Management
 - Headcount Planning
 - Workforce Planning
@@ -246,6 +246,6 @@ tags:
 - Talent Acquisition
 - Finance
 - SCIM
-- SaaS
+- Software-as-a-Service
 website: https://teamohana.com/
 ---

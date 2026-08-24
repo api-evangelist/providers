@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -278,8 +278,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twelvedata
 layout: provider
 mcp_servers:
 - description: ''
-  name: twelvedata-mcp.yml
-  slug: twelvedata-mcpyml
+  name: Twelve Data MCP Server
+  slug: twelve-data-mcp-server
 modified: '2026-07-22'
 name: Twelve Data
 nav: Providers
@@ -315,7 +315,7 @@ rules:
 score:
   band: exemplar
   composite: 77.0
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -325,7 +325,7 @@ score:
     discoverability: 92.6
     governance: 28.0
     operational_transparency: 68.4
-  previous_composite: 75.4
+  previous_composite: 77.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,8 +342,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-08-17T130124.png
 security:

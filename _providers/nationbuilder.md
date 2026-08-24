@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -414,13 +414,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nationbuil
 layout: provider
 mcp_servers:
 - description: ''
-  name: nationbuilder-mcp.yml
-  slug: nationbuilder-mcpyml
+  name: NationBuilder MCP Server
+  slug: nationbuilder-mcp-server
 modified: '2026-07-20'
 name: NationBuilder
 nav: Providers
 network: true
-overview: 'NationBuilder publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Async Processes API, Automation Enrollments API, Automations API, and 38 more. Tagged areas include Community Organizing, CRM, Political, Nonprofit, and Fundraising.
+overview: 'NationBuilder publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Async Processes API, Automation Enrollments API, Automations API, and 38 more. Tagged areas include Community Organizing, CRM, Political, Non-Profit, and Fundraising.
 
 
   NationBuilder''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
@@ -431,18 +431,18 @@ rate_limits:
   slug: nationbuilder-rate-limits
 score:
   band: developing
-  composite: 52.3
-  delta: 1.7
+  composite: 54.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 30.3
     contract_quality: 61.6
     developer_ergonomics: 51.8
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 50.6
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -453,8 +453,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationbuilder/refs/heads/main/screenshots/nationbuilder-2026-08-17T124218.png
 security:
@@ -471,11 +471,11 @@ tags:
 - Community Organizing
 - CRM
 - Political
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Advocacy
 - Website Builder
-- Events
+- Event
 - Email
 - JSON:API
 website: https://nationbuilder.com

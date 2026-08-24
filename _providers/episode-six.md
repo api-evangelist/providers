@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The TRITIUM platform API is Episode Six's real-time RESTful interface for card issuing, issuer processing and ledger management — card program setup, account and ledger operations, transaction process
@@ -145,9 +145,9 @@ description: Episode Six is a global payment technology company founded in 2015 
 image: https://episodesix.com/hubfs/Home%20Page%20Featured%20Image%20Oct2025.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: episode-six-mcp.yml
-  slug: episode-six-mcpyml
+- description: A Model Context Protocol server Episode Six serves from its own documentation host. It exposes the TRITIUM developer documentation to agents. It is not a TRITIUM platform (card issuing / ledger) MCP s
+  name: Episode Six MCP Server
+  slug: episode-six-mcp-server
 modified: '2026-08-12'
 name: Episode Six
 nav: Providers
@@ -173,7 +173,7 @@ scopes:
 score:
   band: emerging
   composite: 25.6
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -183,7 +183,7 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 29.1
+  previous_composite: 25.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -213,9 +213,9 @@ tags:
 - Issuer Processing
 - Ledger
 - Banking
-- Financial Services
+- Financial-Services
 - Embedded Finance
-- FinTech
+- Fintech
 - Virtual Accounts
 - Virtual Cards
 - Credit

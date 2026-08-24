@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 3
@@ -328,13 +328,13 @@ image: https://cdn.prod.website-files.com/661e9580f882ac357a892420/667c9c7ef8960
 layout: provider
 mcp_servers:
 - description: ''
-  name: versusgame-mcp.yml
-  slug: versusgame-mcpyml
+  name: VersusGame MCP Server
+  slug: versusgame-mcp-server
 modified: '2026-08-02'
 name: VersusGame
 nav: Providers
 network: true
-overview: 'VersusGame publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, App API, Assets API, and 29 more. Tagged areas include Company, gaming, prediction-games, audience-engagement, and gamification.
+overview: 'VersusGame publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, App API, Assets API, and 29 more. Tagged areas include Company, Gaming, prediction-games, Audience Engagement, and Gamification.
 
 
   VersusGame''s developer surface includes authentication and 22 more developer resources.'
@@ -342,7 +342,7 @@ random_paper: 19
 score:
   band: thin
   composite: 29.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -352,7 +352,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 30.2
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,8 +369,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -384,16 +384,16 @@ security:
 slug: versusgame
 tags:
 - Company
-- gaming
+- Gaming
 - prediction-games
-- audience-engagement
-- gamification
-- media-and-entertainment
-- publishing
-- widgets
-- leaderboards
-- creator-economy
+- Audience Engagement
+- Gamification
+- Media and Entertainment
+- Publishing
+- Widgets
+- Leaderboards
+- Creator Economy
 - ai-content-generation
-- payments
+- Payments
 website: https://www.versusgame.com/
 ---

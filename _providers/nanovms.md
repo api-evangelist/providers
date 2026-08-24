@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,9 +125,9 @@ description: NanoVMs builds unikernel infrastructure that lets developers run a 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nanovms.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: nanovms-mcp.yml
-  slug: nanovms-mcpyml
+- description: Official Model Context Protocol server for working with unikernels using the nanos/ops toolchain. Lets an MCP client (e.g. Claude Desktop) list and create unikernel instances and images through the lo
+  name: NanoVMs MCP Server
+  slug: nanovms-mcp-server
 modified: '2026-07-20'
 name: NanoVMs
 nav: Providers
@@ -140,7 +140,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 20.0
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -150,11 +150,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 21.1
+  previous_composite: 20.0
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanovms/refs/heads/main/screenshots/nanovms-2026-08-07T184622.png
 security:
@@ -169,7 +169,7 @@ tags:
 - Virtualization
 - Cloud Infrastructure
 - DevOps
-- Open Source
+- Open-Source
 - Developer Tools
 - CLI
 website: https://nanovms.com/

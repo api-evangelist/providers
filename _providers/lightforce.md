@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The public OpenID Connect / OAuth 2.0 identity surface that fronts the LightForce Doctor Portal. Published as a live OIDC discovery document at id.lightforceortho.com/.well-known/openid-configuration,
@@ -113,7 +113,7 @@ modified: '2026-07-19'
 name: Lightforce
 nav: Providers
 network: true
-overview: 'Lightforce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Orthodontics, Dentistry, and Medical Devices.
+overview: 'Lightforce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Orthodontics, Dentistry, and Medical Devices.
 
 
   Lightforce''s developer surface includes support, engineering blog, signup flow, authentication, and 13 more developer resources.'
@@ -126,7 +126,7 @@ scopes:
 score:
   band: thin
   composite: 29.5
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -136,7 +136,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 28.2
+  previous_composite: 29.5
   provenance:
     conformance: first-party
   regulatory:
@@ -145,8 +145,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightforce/refs/heads/main/screenshots/lightforce-2026-07-25T225116.png
 security:
@@ -161,7 +161,7 @@ security:
 slug: lightforce
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Orthodontics
 - Dentistry
 - Medical Devices

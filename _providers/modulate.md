@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The Velma 2 Accent Batch API from Modulate — 1 operation(s) for velma 2 accent batch.
@@ -248,13 +248,13 @@ image: https://cdn.prod.website-files.com/67ed675f8e30d86d14c51adb/6a0c34c788a0b
 layout: provider
 mcp_servers:
 - description: ''
-  name: modulate-mcp.yml
-  slug: modulate-mcpyml
+  name: Modulate MCP Server
+  slug: modulate-mcp-server
 modified: '2026-07-20'
 name: Modulate
 nav: Providers
 network: true
-overview: 'Modulate publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Velma 2 Accent Batch API, Velma 2 Ai Music Detection Batch API, Velma 2 Batch API, and 8 more. Tagged areas include Company, Ai, Voice AI, Speech to Text, and Transcription.
+overview: 'Modulate publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Velma 2 Accent Batch API, Velma 2 Ai Music Detection Batch API, Velma 2 Batch API, and 8 more. Tagged areas include Company, Artificial Intelligence, Voice AI, Speech-to-Text, and Transcription.
 
 
   The Modulate catalog on APIs.io includes 7 event-driven AsyncAPI specifications.
@@ -269,7 +269,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.5
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -279,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 57.7
+  previous_composite: 58.5
   provenance:
     conformance: first-party
     contracts:
@@ -289,8 +289,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/screenshots/modulate-2026-08-07T184031.png
 security:
@@ -309,15 +309,15 @@ security:
 slug: modulate
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Voice AI
-- Speech to Text
+- Speech-to-Text
 - Transcription
 - Deepfake Detection
 - Content Moderation
 - Trust and Safety
 - Audio
-- Machine Learning
+- Machine-Learning
 - PII Redaction
 - Voice Intelligence
 website: https://modulate.ai/

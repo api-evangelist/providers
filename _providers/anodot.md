@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-05-19'
 name: Anodot
 nav: Providers
 network: true
-overview: 'Anodot publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Alert Actions API, Alerts API, and 5 more. Tagged areas include AI, Anomaly Detection, Business Monitoring, Cloud Cost Management, and FinOps.
+overview: 'Anodot publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Alert Actions API, Alerts API, and 5 more. Tagged areas include Artificial Intelligence, Anomaly Detection, Business Monitoring, Cloud Cost Management, and FinOps.
 
 
   Anodot''s developer surface includes documentation, developer portal, engineering blog, and 8 more developer resources.'
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.6
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -181,7 +181,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 31.4
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/screenshots/anodot-2026-06-20T172012.png
 security:
@@ -200,12 +200,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: anodot
 tags:
-- AI
+- Artificial Intelligence
 - Anomaly Detection
 - Business Monitoring
 - Cloud Cost Management
 - FinOps
-- Machine Learning
+- Machine-Learning
 - Observability
 website: https://www.anodot.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -84,19 +84,19 @@ scopes:
   slug: treasury-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: minimal
-  composite: 10.7
-  delta: -4.6
+  band: emerging
+  composite: 11.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.3
+  previous_composite: 11.8
   provenance:
     mcp: first-party
   regulatory:
@@ -105,8 +105,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -126,6 +126,6 @@ tags:
 - Brokerage
 - Financial Education
 - MCP
-- Agent
+- Agents
 website: https://treasury.app/
 ---

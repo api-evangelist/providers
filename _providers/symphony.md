@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -430,7 +430,7 @@ modified: '2026-05-19'
 name: Symphony
 nav: Providers
 network: true
-overview: 'Symphony publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Pod API, Add API, All API, and 43 more. Tagged areas include Collaboration, Communication, Financial Services, Messaging, and Secure Communication.
+overview: 'Symphony publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Pod API, Add API, All API, and 43 more. Tagged areas include Collaboration, Communications, Financial-Services, Messaging, and Secure Communication.
 
 
   The Symphony catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -470,18 +470,18 @@ rules:
   slug: symphony-rules
 score:
   band: thin
-  composite: 32.2
-  delta: -9.1
+  composite: 32.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 50.5
     developer_ergonomics: 35.7
     discoverability: 75.9
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 41.3
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -489,9 +489,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/screenshots/symphony-2026-06-20T194823.png
 security:
 - kind: authentication
@@ -505,8 +505,8 @@ security:
 slug: symphony
 tags:
 - Collaboration
-- Communication
-- Financial Services
+- Communications
+- Financial-Services
 - Messaging
 - Secure Communication
 website: https://symphony.com

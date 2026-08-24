@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -100,7 +100,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 20.2
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -110,15 +110,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 21.4
+  previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern-health/refs/heads/main/screenshots/modern-health-2026-08-07T184004.png
 security:

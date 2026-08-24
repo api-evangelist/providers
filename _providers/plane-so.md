@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ modified: '2026-06-21'
 name: Plane
 nav: Providers
 network: true
-overview: 'Plane publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cycle Work Items API, Cycles API, Labels API, and 8 more. Tagged areas include Project Management, Issue Tracking, Work Management, Open Source, and Productivity.
+overview: 'Plane publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cycle Work Items API, Cycles API, Labels API, and 8 more. Tagged areas include Project Management, Issue Tracking, Work Management, Open-Source, and Productivity.
 
 
   Plane''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -201,7 +201,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 38.2
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -230,7 +230,7 @@ tags:
 - Project Management
 - Issue Tracking
 - Work Management
-- Open Source
+- Open-Source
 - Productivity
 website: https://plane.so
 ---

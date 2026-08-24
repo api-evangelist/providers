@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A live, unauthenticated Model Context Protocol endpoint served from the neurophos.com host and advertised in the company's own llms.txt. It is provided by the Wix site platform rather than authored by
@@ -81,13 +81,13 @@ image: https://static.wixstatic.com/media/79aa3c_0cf41cb45de44d92ab97f571e6d733f
 layout: provider
 mcp_servers:
 - description: ''
-  name: neurophos-mcp.yml
-  slug: neurophos-mcpyml
+  name: Neurophos MCP Server
+  slug: neurophos-mcp-server
 modified: '2026-08-04'
 name: Neurophos
 nav: Providers
 network: true
-overview: 'Neurophos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, photonics, optical-computing, ai-inference, and ai-accelerators.
+overview: 'Neurophos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photonics, optical-computing, AI Inference, and AI Accelerators.
 
 
   Neurophos'' developer surface includes authentication, product news, and 10 more developer resources.'
@@ -95,7 +95,7 @@ random_paper: 8
 score:
   band: minimal
   composite: 10.8
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -105,12 +105,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 12.6
+  previous_composite: 10.8
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neurophos/refs/heads/main/screenshots/neurophos-2026-08-07T185039.png
 security:
@@ -125,14 +125,14 @@ security:
 slug: neurophos
 tags:
 - Company
-- photonics
+- Photonics
 - optical-computing
-- ai-inference
-- ai-accelerators
-- semiconductors
+- AI Inference
+- AI Accelerators
+- Semiconductors
 - metamaterials
-- data-center
-- deep-tech
-- mcp
+- Data-Center
+- Deep Tech
+- MCP
 website: https://www.neurophos.com/
 ---

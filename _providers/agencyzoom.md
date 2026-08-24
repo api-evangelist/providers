@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ modified: '2026-05-11'
 name: AgencyZoom
 nav: Providers
 network: true
-overview: 'AgencyZoom publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Configuration API, Customers API, and 5 more. Tagged areas include Insurance, InsurTech, CRM, Sales Automation, and Agency Management.
+overview: 'AgencyZoom publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Configuration API, Customers API, and 5 more. Tagged areas include Insurance, Insurtech, CRM, Sales Automation, and Agency Management.
 
 
   AgencyZoom''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
@@ -168,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/screenshots/agencyzoom-2026-06-20T165842.png
 security:
@@ -184,7 +184,7 @@ security:
 slug: agencyzoom
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - CRM
 - Sales Automation
 - Agency Management

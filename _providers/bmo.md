@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-07-23'
 name: BMO
 nav: Providers
 network: true
-overview: 'BMO publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Account Information API, ACH Payments API, and 8 more. Tagged areas include Financial Services, Banking, United States, Open Finance, and Payments.
+overview: 'BMO publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Account Information API, ACH Payments API, and 8 more. Tagged areas include Financial-Services, Banking, United States, Open Finance, and Payments.
 
 
   The BMO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -218,7 +218,7 @@ scopes:
 score:
   band: developing
   composite: 48.8
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -228,7 +228,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 43.6
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,9 +244,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png
 security:
 - kind: authentication
@@ -259,7 +259,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bmo
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Open Finance

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-08-02'
 name: Celsius Network
 nav: Providers
 network: true
-overview: 'Celsius Network publishes 4 APIs on the [APIs.io](https://apis.io/) network, including KYC API, Users API, Utility API, and 1 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Financial Services, and Lending.
+overview: 'Celsius Network publishes 4 APIs on the [APIs.io](https://apis.io/) network, including KYC API, Users API, Utility API, and 1 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Financial-Services, and Lending.
 
 
   Celsius Network''s developer surface includes documentation, API reference, support, authentication, changelog, sandbox, and 21 more developer resources.'
@@ -187,7 +187,7 @@ random_paper: 8
 score:
   band: developing
   composite: 46.0
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -197,7 +197,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 43.6
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,8 +213,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/screenshots/celsius-network-2026-08-07T163216.png
 security:
@@ -231,10 +231,10 @@ tags:
 - Company
 - Cryptocurrency
 - Digital Assets
-- Financial Services
+- Financial-Services
 - Lending
 - Custody
-- Wallet
+- Wallets
 - Interest
 - KYC
 - Retired

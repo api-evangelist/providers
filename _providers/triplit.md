@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -193,7 +193,7 @@ modified: '2026-06-12'
 name: Triplit
 nav: Providers
 network: true
-overview: 'Triplit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Advanced API, Auth API, Data API, and 3 more. Tagged areas include Database, Real-time, Sync, Local-first, and Developer Tools.
+overview: 'Triplit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Advanced API, Auth API, Data API, and 3 more. Tagged areas include Database, Real-Time, Sync, Local-First, and Developer Tools.
 
 
   The Triplit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -223,7 +223,7 @@ rules:
 score:
   band: thin
   composite: 36.2
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -233,7 +233,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 44.1
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -241,9 +241,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Triplit Authentication
@@ -256,11 +256,11 @@ security:
 slug: triplit
 tags:
 - Database
-- Real-time
+- Real-Time
 - Sync
-- Local-first
+- Local-First
 - Developer Tools
 - TypeScript
-- Open Source
+- Open-Source
 website: https://www.triplit.dev
 ---

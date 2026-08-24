@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -130,8 +130,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: jetblue-mcp.yml
-  slug: jetblue-mcpyml
+  name: JetBlue MCP Server
+  slug: jetblue-mcp-server
 modified: '2026-07-28'
 name: JetBlue
 nav: Providers
@@ -149,7 +149,7 @@ scopes:
 score:
   band: emerging
   composite: 19.9
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -159,12 +159,12 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 19.2
+  previous_composite: 19.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/screenshots/jetblue-2026-08-07T171000.png
 security:

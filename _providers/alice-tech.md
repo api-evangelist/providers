@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,7 +125,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 8.3
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -135,9 +135,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 8.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alice-tech/refs/heads/main/screenshots/alice-tech-2026-06-20T171521.png
 security:
@@ -166,7 +166,7 @@ tags:
 - Microsoft Project
 - Schedule Optimization
 - DCMA 14-Point
-- AI
+- Artificial Intelligence
 - LLM
 - Capital Projects
 - Infrastructure

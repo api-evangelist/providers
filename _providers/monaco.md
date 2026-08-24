@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 70.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -241,8 +241,8 @@ image: https://www.monaco.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: monaco-mcp.yml
-  slug: monaco-mcpyml
+  name: Monaco MCP Server
+  slug: monaco-mcp-server
 modified: '2026-08-13'
 name: Monaco
 nav: Providers
@@ -268,7 +268,7 @@ scopes:
 score:
   band: developing
   composite: 45.3
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -278,7 +278,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 48.4
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -289,8 +289,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/screenshots/monaco-2026-08-07T184130.png
 security:
@@ -318,10 +318,10 @@ tags:
 - Revenue Operations
 - Artificial Intelligence
 - Contacts
-- Accounts
+- Account
 - Opportunities
 - Pipeline
-- Go To Market
+- Go-To-Market
 - MCP
 - Campaigns
 - Audiences

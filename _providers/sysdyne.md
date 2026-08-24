@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: SOAP web service for the ConcreteGO cloud dispatch platform. Uses an RSA public-key credential exchange (GetPublicKey) and a session login (Login/Login2) with a Sysdyne-issued AppID/AppKey, then submi
@@ -95,8 +95,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sysdyne.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: sysdyne-mcp.yml
-  slug: sysdyne-mcpyml
+  name: Sysdyne Technologies MCP Server
+  slug: sysdyne-technologies-mcp-server
 modified: '2026-07-21'
 name: Sysdyne Technologies
 nav: Providers
@@ -109,7 +109,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 23.0
-  delta: 5.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -119,13 +119,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 17.8
+  previous_composite: 23.0
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Sysdyne Authentication

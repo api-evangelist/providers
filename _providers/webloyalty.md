@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 6
 common:
@@ -114,14 +114,14 @@ description: Webloyalty is a customer-engagement and loyalty-marketing company t
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/webloyalty.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: webloyalty-mcp.yml
-  slug: webloyalty-mcpyml
+- description: 'Webloyalty''s UK site (webloyalty.co.uk) serves a live, OAuth-protected Model Context Protocol endpoint from inside its WordPress REST API. It is advertised by two real discovery documents on the same '
+  name: Webloyalty MCP Server
+  slug: webloyalty-mcp-server
 modified: '2026-08-13'
 name: Webloyalty
 nav: Providers
 network: true
-overview: 'Webloyalty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, Ecommerce, and Customer Engagement.
+overview: 'Webloyalty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, E-Commerce, and Customer Engagement.
 
 
   Webloyalty''s developer surface includes support, engineering blog, authentication, changelog, and 15 more developer resources.'
@@ -142,7 +142,7 @@ scopes:
 score:
   band: emerging
   composite: 19.4
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -152,12 +152,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 20.0
+  previous_composite: 19.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -173,7 +173,7 @@ tags:
 - Company
 - Loyalty
 - Rewards
-- Ecommerce
+- E-Commerce
 - Customer Engagement
 - Marketing
 - Retail

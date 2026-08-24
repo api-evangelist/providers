@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,8 +56,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 3.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barracuda-networks/refs/heads/main/screenshots/barracuda-networks-2026-07-25T202410.png
 slug: barracuda-networks

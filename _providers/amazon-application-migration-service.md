@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -1077,8 +1077,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-application-migration-service-mcp.yml
-  slug: amazon-application-migration-service-mcpyml
+  name: Amazon Application Migration Service MCP Server
+  slug: amazon-application-migration-service-mcp-server
 modified: '2026-06-20'
 name: Amazon Application Migration Service
 nav: Providers
@@ -1115,16 +1115,16 @@ rules:
   slug: amazon-application-migration-service-spectral-rules
 score:
   band: thin
-  composite: 31.6
-  delta: -6.2
+  composite: 32.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 73.0
     developer_ergonomics: 11.9
     discoverability: 77.8
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -1132,7 +1132,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 37.8
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1142,9 +1142,9 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/screenshots/amazon-application-migration-service-2026-07-25T195925.png
 security:
 - kind: authentication

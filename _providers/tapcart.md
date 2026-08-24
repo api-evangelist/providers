@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Insights (Insights Pro) Metrics API returns aggregated analytics for a Tapcart app from a single POST endpoint whose response shape varies by the requested metricType — push explorer, sessions, re
@@ -221,14 +221,14 @@ description: 'Tapcart is a mobile commerce platform for Shopify merchants, turni
 image: https://cdn.prod.website-files.com/616f0a7a027baaf59a43390b/693886b1460be74c44ae2eca_Open%20graphic%20home.webp
 layout: provider
 mcp_servers:
-- description: ''
-  name: tapcart-mcp.yml
-  slug: tapcart-mcpyml
+- description: Tapcart publishes a first-party MCP server, shipped inside the Tapcart CLI npm package rather than as a hosted remote endpoint. It exposes the CLI's capability surface — project setup, blocks, compone
+  name: Tapcart MCP Server
+  slug: tapcart-mcp-server
 modified: '2026-08-05'
 name: Tapcart
 nav: Providers
 network: true
-overview: 'Tapcart publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Development API - Block Templates API, Development API - Blocks API, Development API - Components API, and 2 more. Tagged areas include Company, Mobile, Commerce, Shopify, and Ecommerce.
+overview: 'Tapcart publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Development API - Block Templates API, Development API - Blocks API, Development API - Components API, and 2 more. Tagged areas include Company, Mobile, Commerce, Shopify, and E-Commerce.
 
 
   The Tapcart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -239,7 +239,7 @@ random_paper: 16
 score:
   band: strong
   composite: 55.1
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -249,7 +249,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 59.0
+  previous_composite: 55.1
   provenance:
     conformance: derived
     contracts:
@@ -259,8 +259,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/screenshots/tapcart-2026-08-17T082251.png
 security:
@@ -282,11 +282,11 @@ tags:
 - Mobile
 - Commerce
 - Shopify
-- Ecommerce
+- E-Commerce
 - Mobile Apps
 - Push Notifications
 - Analytics
-- Webhooks
+- Webhook
 - Developer Tools
 website: https://www.tapcart.com/
 ---

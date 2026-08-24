@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -775,7 +775,7 @@ modified: '2026-05-19'
 name: Webflow API and Documentation
 nav: Providers
 network: true
-overview: 'Webflow API and Documentation publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 19 more. Tagged areas include CMS, Content Management, Ecommerce, No-Code, and Publishing.
+overview: 'Webflow API and Documentation publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 19 more. Tagged areas include CMS, Content Management, E-Commerce, No-Code, and Publishing.
 
 
   The Webflow API and Documentation catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -830,18 +830,18 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.7
-  delta: -5.5
+  composite: 53.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 71.2
     developer_ergonomics: 52.4
     discoverability: 66.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 58.2
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     contracts:
@@ -849,9 +849,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/screenshots/webflow-api-and-documentation-webflow-2026-06-20T201331.png
 security:
 - kind: authentication
@@ -874,7 +874,7 @@ slug: webflow-api-and-documentation-webflow
 tags:
 - CMS
 - Content Management
-- Ecommerce
+- E-Commerce
 - No-Code
 - Publishing
 - Web Development

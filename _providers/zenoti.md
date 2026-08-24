@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Zenoti beauty/wellness/fitness platform covering centers, appointments, guests, invoices and payments, memberships, packages, gift cards, classes, opportunities, employees, and webhoo
@@ -147,8 +147,8 @@ image: https://www.zenoti.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: zenoti-mcp.yml
-  slug: zenoti-mcpyml
+  name: Zenoti MCP Server
+  slug: zenoti-mcp-server
 modified: '2026-07-21'
 name: Zenoti
 nav: Providers
@@ -163,18 +163,18 @@ overview: 'Zenoti publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 14
 score:
   band: developing
-  composite: 41.8
-  delta: -2.2
+  composite: 42.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 45.1
     developer_ergonomics: 41.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 44.0
+  previous_composite: 42.9
   provenance:
     conformance: derived
     mcp: derived
@@ -184,8 +184,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/screenshots/zenoti-2026-08-17T083047.png
 security:
@@ -216,6 +216,6 @@ tags:
 - Fitness
 - Booking
 - Payments
-- SaaS
+- Software-as-a-Service
 website: http://www.zenoti.com
 ---

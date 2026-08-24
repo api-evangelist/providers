@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -239,8 +239,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zendesk-se
 layout: provider
 mcp_servers:
 - description: ''
-  name: zendesk-sell-mcp.yml
-  slug: zendesk-sell-mcpyml
+  name: Zendesk Sell MCP Server
+  slug: zendesk-sell-mcp-server
 modified: '2026-08-13'
 name: Zendesk Sell
 nav: Providers
@@ -266,7 +266,7 @@ scopes:
 score:
   band: strong
   composite: 61.4
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -276,7 +276,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 65.1
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +287,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/screenshots/zendesk-sell-2026-06-20T201812.png
 security:

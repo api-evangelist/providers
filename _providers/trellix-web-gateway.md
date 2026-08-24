@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -356,18 +356,18 @@ rules:
   slug: trellix-web-gateway-spectral-rules
 score:
   band: developing
-  composite: 45.9
-  delta: -6.1
+  composite: 46.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 60.2
     developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 52.0
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -375,9 +375,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/screenshots/trellix-web-gateway-2026-06-20T195750.png
 security:
 - kind: authentication

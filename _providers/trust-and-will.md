@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-21'
 name: Trust & Will
 nav: Providers
 network: true
-overview: 'Trust & Will is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Estate Planning, Legal, Wills And Trusts, and Financial Services.
+overview: 'Trust & Will is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Estate Planning, Legal, Wills And Trusts, and Financial-Services.
 
 
   Trust & Will''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 13.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -94,9 +94,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -117,8 +117,8 @@ tags:
 - Estate Planning
 - Legal
 - Wills And Trusts
-- Financial Services
-- Legaltech
+- Financial-Services
+- Legal Tech
 - Fintech
 website: https://trustandwill.com/
 ---

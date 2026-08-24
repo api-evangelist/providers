@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: REST API for submitting order and purchase data to Northbeam as the revenue ground truth for multi-touch attribution and media mix modeling. Writes are natural-key upserts on a caller-supplied order_i
@@ -216,9 +216,9 @@ jsonld:
   slug: northbeam-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: northbeam-mcp.yml
-  slug: northbeam-mcpyml
+- description: Northbeam ships a first-party remote MCP server that gives an agent read-only access to the caller's Northbeam dashboards — performance, attribution, spend and orders. Northbeam documents it as a cust
+  name: Northbeam MCP
+  slug: northbeam-mcp
 modified: '2026-08-13'
 name: Northbeam
 nav: Providers
@@ -242,7 +242,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.3
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -252,7 +252,7 @@ score:
     discoverability: 92.6
     governance: 45.5
     operational_transparency: 36.8
-  previous_composite: 67.0
+  previous_composite: 65.3
   provenance:
     conformance: first-party
     contracts:
@@ -262,8 +262,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/screenshots/northbeam-2026-06-20T190413.png
 security:

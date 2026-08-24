@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,12 +52,12 @@ modified: '2026-07-18'
 name: Binpress
 nav: Providers
 network: true
-overview: Binpress is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Source Code Marketplace, Developer Tools, SDKs, and Software Components.
+overview: Binpress is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Source Code Marketplace, Developer Tools, SDK, and Software Components.
 random_paper: 9
 score:
   band: minimal
   composite: 5.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,9 +67,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binpress/refs/heads/main/screenshots/binpress-2026-07-25T203018.png
 security:
@@ -82,7 +82,7 @@ tags:
 - Company
 - Source Code Marketplace
 - Developer Tools
-- SDKs
+- SDK
 - Software Components
 - Digital Goods
 - Defunct

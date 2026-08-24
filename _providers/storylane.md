@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'The Storylane External API allows Enterprise plan customers to programmatically list published demos, retrieve demo details including chapters and steps, manage demo links, create new shareable links '
@@ -225,9 +225,9 @@ jsonld:
   slug: storylane-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: storylane-mcp.yml
-  slug: storylane-mcpyml
+- description: Storylane operates a first-party hosted (remote) Model Context Protocol server that exposes the demo library, analytics, lead and link surface to MCP-capable AI clients. The server is documented publi
+  name: Storylane MCP
+  slug: storylane-mcp
 modified: '2026-08-13'
 name: Storylane
 nav: Providers
@@ -256,7 +256,7 @@ scopes:
 score:
   band: strong
   composite: 62.9
-  delta: -4.4
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -266,13 +266,13 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 67.3
+  previous_composite: 62.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/screenshots/storylane-2026-06-20T194611.png
 security:
@@ -300,7 +300,7 @@ tags:
 - Sales
 - MCP
 - Agent Tools
-- Webhooks
+- Webhook
 - Embeds
 - oEmbed
 - Demo Automation Platform

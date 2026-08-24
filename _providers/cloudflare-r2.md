@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -259,7 +259,7 @@ modified: 2026-06-13
 name: Cloudflare R2
 nav: Providers
 network: true
-overview: 'Cloudflare R2 publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Buckets API, CORS API, Credential Management API, and 11 more. Tagged areas include Object Storage, Cloud Storage, S3-Compatible, Egress-Free, and Buckets.
+overview: 'Cloudflare R2 publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Buckets API, CORS API, Credential Management API, and 11 more. Tagged areas include Object Storage, Cloud Storage, S3 Compatible, Egress-Free, and Buckets.
 
 
   The Cloudflare R2 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -289,7 +289,7 @@ rules:
 score:
   band: developing
   composite: 46.0
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -299,7 +299,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 52.5
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -307,9 +307,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/screenshots/cloudflare-r2-2026-06-20T174556.png
 security:
 - kind: authentication
@@ -328,7 +328,7 @@ slug: cloudflare-r2
 tags:
 - Object Storage
 - Cloud Storage
-- S3-Compatible
+- S3 Compatible
 - Egress-Free
 - Buckets
 - Developer Platform

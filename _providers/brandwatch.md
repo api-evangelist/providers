@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
@@ -239,13 +239,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brandwatch
 layout: provider
 mcp_servers:
 - description: ''
-  name: brandwatch-mcp.yml
-  slug: brandwatch-mcpyml
+  name: Brandwatch MCP Server
+  slug: brandwatch-mcp-server
 modified: '2026-08-13'
 name: Brandwatch
 nav: Providers
 network: true
-overview: 'Brandwatch publishes 1 API on the [APIs.io](https://apis.io/) network: Consumer Research API. Tagged areas include Analytics, Social Media, Social Media Monitoring, Consumer Intelligence, and Brand Management.
+overview: 'Brandwatch publishes 1 API on the [APIs.io](https://apis.io/) network: Consumer Research API. Tagged areas include Analytics, Social-Media, Social Media Monitoring, Consumer Intelligence, and Brand Management.
 
 
   Brandwatch''s developer surface includes authentication, documentation, engineering blog, getting-started guide, support, pricing, changelog, and 35 more developer resources.'
@@ -266,7 +266,7 @@ scopes:
 score:
   band: strong
   composite: 54.9
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -276,7 +276,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 58.1
+  previous_composite: 54.9
   provenance:
     conformance: first-party
     contracts:
@@ -286,8 +286,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/screenshots/brandwatch-2026-06-20T173633.png
 security:
@@ -310,7 +310,7 @@ security:
 slug: brandwatch
 tags:
 - Analytics
-- Social Media
+- Social-Media
 - Social Media Monitoring
 - Consumer Intelligence
 - Brand Management

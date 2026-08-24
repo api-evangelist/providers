@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ modified: '2026-07-25'
 name: Zensurance
 nav: Providers
 network: true
-overview: 'Zensurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Insurtech, Broker, and Property and Casualty.
+overview: 'Zensurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Insurtech, Brokers, and Property and Casualty.
 
 
   Zensurance''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
@@ -93,7 +93,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 13.4
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -103,15 +103,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.6
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -123,7 +123,7 @@ tags:
 - Insurance
 - Canada
 - Insurtech
-- Broker
+- Brokers
 - Property and Casualty
 - Commercial Insurance
 - Small Business Insurance

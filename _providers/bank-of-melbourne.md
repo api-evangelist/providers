@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -142,8 +142,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-of-me
 layout: provider
 mcp_servers:
 - description: ''
-  name: bank-of-melbourne-mcp.yml
-  slug: bank-of-melbourne-mcpyml
+  name: Bank of Melbourne MCP Server
+  slug: bank-of-melbourne-mcp-server
 modified: '2026-07-21'
 name: Bank of Melbourne
 nav: Providers
@@ -156,7 +156,7 @@ random_paper: 4
 score:
   band: thin
   composite: 31.0
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -166,7 +166,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 30.4
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,8 +178,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/screenshots/bank-of-melbourne-2026-07-21T114702.png
 security:

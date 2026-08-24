@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -252,8 +252,8 @@ image: https://cdn.prod.website-files.com/656cc624086b77872a31a084/68d80ffccc987
 layout: provider
 mcp_servers:
 - description: ''
-  name: mesh-connect-mcp.yml
-  slug: mesh-connect-mcpyml
+  name: Mesh Connect MCP Server
+  slug: mesh-connect-mcp-server
 modified: '2026-07-20'
 name: Mesh Connect
 nav: Providers
@@ -269,7 +269,7 @@ random_paper: 2
 score:
   band: strong
   composite: 56.4
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -279,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 53.8
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +296,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/screenshots/mesh-connect-2026-08-07T172619.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 13
 apis:
 - description: The account API from Lighter — 26 operation(s) for account.
@@ -256,8 +256,8 @@ image: https://files.readme.io/2bd11e7-lighter_logo.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: lighter-mcp.yml
-  slug: lighter-mcpyml
+  name: Lighter MCP Server
+  slug: lighter-mcp-server
 modified: '2026-07-19'
 name: Lighter
 nav: Providers
@@ -281,7 +281,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.4
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -291,7 +291,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 60.6
+  previous_composite: 57.4
   provenance:
     conformance: derived
     contracts:
@@ -307,8 +307,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/screenshots/lighter-2026-07-25T225116.png
 security:

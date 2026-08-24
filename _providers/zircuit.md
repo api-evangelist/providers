@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Zircuit L2 network (HTTP and WebSocket) for reading chain state and submitting transactions. Mainnet is chain ID 48900; the Garfield testnet is chain ID
@@ -149,8 +149,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zircuit.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: zircuit-mcp.yml
-  slug: zircuit-mcpyml
+  name: Zircuit MCP Server
+  slug: zircuit-mcp-server
 modified: '2026-07-21'
 name: Zircuit
 nav: Providers
@@ -163,7 +163,7 @@ random_paper: 1
 score:
   band: developing
   composite: 45.5
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -173,7 +173,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 47.2
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     contracts:
@@ -182,8 +182,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/screenshots/zircuit-2026-08-17T083112.png
 security:

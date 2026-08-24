@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -697,8 +697,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: salesforce-marketing-cloud-mcp.yml
-  slug: salesforce-marketing-cloud-mcpyml
+  name: MCP Server for Marketing Cloud Engagement
+  slug: mcp-server-for-marketing-cloud-engagement
 modified: '2026-08-13'
 name: Salesforce Marketing Cloud
 nav: Providers
@@ -748,18 +748,18 @@ scopes:
   summary_line: 42 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 84.2
-  delta: 6.7
+  composite: 84.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 40.2
+    contract_governance: 43.9
     contract_quality: 74.8
     developer_ergonomics: 70.8
     discoverability: 100.0
-    governance: 40.2
+    governance: 43.9
     operational_transparency: 76.3
-  previous_composite: 77.5
+  previous_composite: 84.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -776,9 +776,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:
 - kind: authentication
@@ -810,7 +810,7 @@ tags:
 - Mobile Messaging
 - Personalization
 - SMS
-- Webhooks
+- Webhook
 use_cases:
 - description: Automate multi-step welcome sequences across email and SMS to guide new customers through product adoption.
   name: Customer Onboarding Journeys

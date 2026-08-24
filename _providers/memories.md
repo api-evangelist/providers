@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -181,8 +181,8 @@ image: https://mintcdn.com/memories/xyhRN3OJaXxxzcxh/logo/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: memories-mcp.yml
-  slug: memories-mcpyml
+  name: Memories MCP Server
+  slug: memories-mcp-server
 modified: '2026-07-20'
 name: Memories
 nav: Providers
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.2
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 53.1
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,8 +223,8 @@ score:
       total: 3
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/screenshots/memories-2026-08-07T172506.png
 security:
@@ -251,6 +251,6 @@ tags:
 - Multimodal AI
 - Content Moderation
 - AI Agents
-- Machine Learning
+- Machine-Learning
 website: http://memories.ai
 ---

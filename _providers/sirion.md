@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-07-12'
 name: Sirion
 nav: Providers
 network: true
-overview: 'Sirion publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contract Requests API, Contracts API, Metadata & Clauses API, and 3 more. Tagged areas include Contract Management, Contract Lifecycle Management, CLM, Contracts, and AI.
+overview: 'Sirion publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contract Requests API, Contracts API, Metadata & Clauses API, and 3 more. Tagged areas include Contract Management, Contract Lifecycle Management, CLM, Contracts, and Artificial Intelligence.
 
 
   Sirion''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.3
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -159,7 +159,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.8
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -185,7 +185,7 @@ tags:
 - Contract Lifecycle Management
 - CLM
 - Contracts
-- AI
+- Artificial Intelligence
 - Enterprise
 - Legal
 - Agreements

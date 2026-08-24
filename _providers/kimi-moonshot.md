@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-05-29'
 name: Kimi (Moonshot AI)
 nav: Providers
 network: true
-overview: 'Kimi (Moonshot AI) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Billing API, Chat API, and 3 more. Tagged areas include LLM, Long Context, AI, OpenAI Compatible, and Multimodal.
+overview: 'Kimi (Moonshot AI) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Billing API, Chat API, and 3 more. Tagged areas include LLM, Long Context, Artificial Intelligence, OpenAI-Compatible, and Multi-Modal.
 
 
   The Kimi (Moonshot AI) catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -193,7 +193,7 @@ rules:
 score:
   band: thin
   composite: 38.4
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 42.5
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/screenshots/kimi-moonshot-2026-06-20T184035.png
 security:
@@ -228,9 +228,9 @@ slug: kimi-moonshot
 tags:
 - LLM
 - Long Context
-- AI
-- OpenAI Compatible
-- Multimodal
+- Artificial Intelligence
+- OpenAI-Compatible
+- Multi-Modal
 - China
 website: https://www.moonshot.cn/
 ---

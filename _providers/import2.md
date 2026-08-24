@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Create and manage data migration (import) jobs.
@@ -160,13 +160,13 @@ image: https://cdn.prod.website-files.com/698e5a4787478ca03bb07614/699307813937e
 layout: provider
 mcp_servers:
 - description: ''
-  name: import2-mcp.yml
-  slug: import2-mcpyml
+  name: Import2 MCP Server
+  slug: import2-mcp-server
 modified: '2026-07-19'
 name: Import2
 nav: Providers
 network: true
-overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Imports API and Tools API. Tagged areas include Company, Data Migration, Data Integration, CRM, and Helpdesk.
+overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Imports API and Tools API. Tagged areas include Company, Data Migration, Data Integration, CRM, and Help Desk.
 
 
   Import2''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 19 more developer resources.'
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.5
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -188,7 +188,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 51.8
+  previous_composite: 50.5
   provenance:
     conformance: derived
     contracts:
@@ -198,8 +198,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/screenshots/import2-2026-07-25T222154.png
 security:
@@ -221,8 +221,8 @@ tags:
 - Data Migration
 - Data Integration
 - CRM
-- Helpdesk
-- SaaS
+- Help Desk
+- Software-as-a-Service
 - Migration
 - Onboarding
 website: https://www.import2.com

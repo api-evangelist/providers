@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 45
 apis:
 - description: The accounts API from Palenca (Vech) — 34 operation(s) for accounts.
@@ -446,8 +446,8 @@ image: https://www.palenca.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: palenca-vech-mcp.yml
-  slug: palenca-vech-mcpyml
+  name: Palenca (Vech) MCP Server
+  slug: palenca-vech-mcp-server
 modified: '2026-07-20'
 name: Palenca (Vech)
 nav: Providers
@@ -467,7 +467,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.5
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -477,7 +477,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 53.6
+  previous_composite: 48.5
   provenance:
     conformance: first-party
     contracts:
@@ -487,9 +487,9 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png
 security:
 - kind: authentication

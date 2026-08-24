@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -511,7 +511,7 @@ jsonld:
   slug: iterable-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Iterable publishes a first-party MCP server as the npm package @iterable/mcp (repo github.com/Iterable/mcp-server). It is a LOCAL STDIO server: a developer installs and runs it with npx, and it calls '
   name: Iterable MCP Server (@iterable/mcp, local stdio)
   slug: iterable-mcp-server-iterablemcp-local-stdio
 modified: '2026-08-13'
@@ -559,7 +559,7 @@ rules:
 score:
   band: exemplar
   composite: 74.4
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -569,7 +569,7 @@ score:
     discoverability: 81.5
     governance: 45.5
     operational_transparency: 81.6
-  previous_composite: 70.2
+  previous_composite: 74.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -586,8 +586,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/screenshots/iterable-2026-06-20T183630.png
 security:

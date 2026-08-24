@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -226,8 +226,8 @@ image: https://www.exentis-group.com/app/uploads/2022/11/Logo-exentis.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: exentis-group-mcp.yml
-  slug: exentis-group-mcpyml
+  name: Exentis Group MCP Server
+  slug: exentis-group-mcp-server
 modified: '2026-08-12'
 name: Exentis Group
 nav: Providers
@@ -248,7 +248,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.8
-  delta: -9.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -258,7 +258,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 36.0
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,9 +275,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Exentis Group Authentication

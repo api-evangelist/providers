@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,9 +199,9 @@ description: 'Artlist is a creative-assets platform for video creators, marketer
 image: https://fdr-prod-docs-files-public.s3.us-east-1.amazonaws.com/artlist.docs.buildwithfern.com/55c8148c837879232b42a92524952487559fe4e81d1d81b61c162440bdbaf680/docs/assets/artlist-light.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: artlist-mcp.yml
-  slug: artlist-mcpyml
+- description: 'Artlist publishes a hosted, anonymous MCP server for its developer documentation. It is a docs-search server, not a wrapper over the Enterprise API itself: the single tool searches developer.artlist.i'
+  name: Artlist MCP Server
+  slug: artlist-mcp-server
 modified: '2026-08-02'
 name: Artlist
 nav: Providers
@@ -218,7 +218,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.3
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -228,7 +228,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 52.6
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,8 +239,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/screenshots/artlist-2026-08-07T161743.png
 security:

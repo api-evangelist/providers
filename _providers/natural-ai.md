@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 70.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 6
@@ -342,13 +342,13 @@ image: https://www.natural.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: natural-ai-mcp.yml
-  slug: natural-ai-mcpyml
+  name: Natural AI MCP Server
+  slug: natural-ai-mcp-server
 modified: '2026-07-20'
 name: Natural AI
 nav: Providers
 network: true
-overview: 'Natural AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Agent Keys API, Agents API, API Keys API, and 12 more. Tagged areas include Company, Ai, Payments, Agents, and Fintech.
+overview: 'Natural AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Agent Keys API, Agents API, API Keys API, and 12 more. Tagged areas include Company, Artificial Intelligence, Payments, Agents, and Fintech.
 
 
   The Natural AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -368,7 +368,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.2
-  delta: 6.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -378,7 +378,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 63.0
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -395,9 +395,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/screenshots/natural-ai-2026-08-07T184702.png
 security:
 - kind: authentication
@@ -411,7 +411,7 @@ security:
 slug: natural-ai
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Payments
 - Agents
 - Fintech

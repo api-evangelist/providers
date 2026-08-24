@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-05-19'
 name: Amazon Resilience Hub
 nav: Providers
 network: true
-overview: 'Amazon Resilience Hub publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Assessments API, Recommendations API, and 3 more. Tagged areas include Disaster Recovery, High Availability, Operations, and Resilience.
+overview: 'Amazon Resilience Hub publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Assessments API, Recommendations API, and 3 more. Tagged areas include Disaster Recovery, High Availability, and Resilience.
 
 
   Amazon Resilience Hub''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.6
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -195,7 +195,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.1
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +203,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/screenshots/amazon-resilience-hub-2026-06-20T171808.png
 security:
@@ -228,7 +228,6 @@ slug: amazon-resilience-hub
 tags:
 - Disaster Recovery
 - High Availability
-- Operations
 - Resilience
 website: https://aws.amazon.com/resilience-hub/
 ---

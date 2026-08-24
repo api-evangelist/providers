@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Create, read, update, and delete company records.
@@ -222,8 +222,8 @@ image: https://fixture.app/logo-for-black.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: fixture-mcp.yml
-  slug: fixture-mcpyml
+  name: Fixture MCP
+  slug: fixture-mcp
 modified: '2026-07-20'
 name: Fixture
 nav: Providers
@@ -241,7 +241,7 @@ scopes:
 score:
   band: developing
   composite: 44.7
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -251,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 46.6
+  previous_composite: 44.7
   provenance:
     conformance: derived
     contracts:
@@ -261,8 +261,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/screenshots/fixture-2026-07-25T214655.png
 security:
@@ -283,6 +283,5 @@ tags:
 - Artificial Intelligence
 - Agents
 - MCP
-- Customer Relationship Management
 website: https://fixture.app
 ---

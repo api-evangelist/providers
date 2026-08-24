@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,12 +76,12 @@ modified: '2026-07-18'
 name: Bloomsbury
 nav: Providers
 network: true
-overview: Bloomsbury is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Natural Language Processing, and Question Answering.
+overview: Bloomsbury is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Natural Language Processing, and Question Answering.
 random_paper: 10
 score:
   band: minimal
   composite: 6.8
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -91,9 +91,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 6.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomsbury/refs/heads/main/screenshots/bloomsbury-2026-07-25T203411.png
 security:
@@ -105,12 +105,12 @@ slug: bloomsbury
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Question Answering
 - Machine Reading
 - Document Processing
-- Open Source
+- Open-Source
 - Acquired
 website: http://bloomsbury.ai
 ---

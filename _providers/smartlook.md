@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -202,7 +202,7 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 21.1
-  previous_composite: 41.2
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/screenshots/smartlook-2026-06-20T194043.png
 security:

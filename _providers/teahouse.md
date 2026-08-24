@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Share transaction logs
@@ -142,13 +142,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teahouse.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: teahouse-mcp.yml
-  slug: teahouse-mcpyml
+  name: Teahouse Finance MCP Server
+  slug: teahouse-finance-mcp-server
 modified: '2026-07-21'
 name: Teahouse Finance
 nav: Providers
 network: true
-overview: 'Teahouse Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Logs API, Performance API, and Vaults API. Tagged areas include Company, Crypto, DeFi, Blockchain, and Vaults.
+overview: 'Teahouse Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Logs API, Performance API, and Vaults API. Tagged areas include Company, Crypto, DeFi, Blockchain, and Vault.
 
 
   Teahouse Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
@@ -156,7 +156,7 @@ random_paper: 1
 score:
   band: thin
   composite: 39.1
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -166,7 +166,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 39.2
+  previous_composite: 39.1
   provenance:
     conformance: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -194,7 +194,7 @@ tags:
 - Crypto
 - DeFi
 - Blockchain
-- Vaults
+- Vault
 - Liquidity Management
 - Asset Management
 - Uniswap

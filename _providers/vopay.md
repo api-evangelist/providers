@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 0
@@ -340,13 +340,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: vopay-mcp.yml
-  slug: vopay-mcpyml
+  name: VoPay MCP Server
+  slug: vopay-mcp-server
 modified: '2026-07-24'
 name: VoPay
 nav: Providers
 network: true
-overview: 'VoPay publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Account Onboarding API, Bill Pay API, and 20 more. Tagged areas include Payments, Canada, Embedded Finance, Payments as a Service, and Account-to-Account.
+overview: 'VoPay publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Account Onboarding API, Bill Pay API, and 20 more. Tagged areas include Payments, Canada, Embedded Finance, Payments-as-a-Service, and Account-to-Account.
 
 
   The VoPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -357,7 +357,7 @@ random_paper: 13
 score:
   band: developing
   composite: 53.0
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -367,7 +367,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 51.6
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -379,8 +379,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/screenshots/vopay-2026-08-17T082823.png
 security:
@@ -401,7 +401,7 @@ tags:
 - Payments
 - Canada
 - Embedded Finance
-- Payments as a Service
+- Payments-as-a-Service
 - Account-to-Account
 - EFT
 - Interac e-Transfer

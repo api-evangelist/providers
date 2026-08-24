@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Apero's fully-featured REST API connecting healthcare and finance workflows for medical practices, with webhooks and CSV import. Developer documentation is gated behind an Apero account login.
@@ -100,7 +100,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 15.6
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -110,16 +110,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 3.9
-  previous_composite: 20.6
+  previous_composite: 15.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apero/refs/heads/main/screenshots/apero-2026-07-25T200557.png
 security:
 - kind: domain-security
@@ -137,7 +137,6 @@ tags:
 - Practice Management
 - Insurance
 - Payments
-- API
-- Webhooks
+- Webhook
 website: https://aperohealth.com/
 ---

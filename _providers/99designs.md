@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -209,8 +209,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/99designs.
 layout: provider
 mcp_servers:
 - description: ''
-  name: 99designs-mcp.yml
-  slug: 99designs-mcpyml
+  name: 99designs MCP Server
+  slug: 99designs-mcp-server
 modified: '2026-08-13'
 name: 99designs
 nav: Providers
@@ -231,7 +231,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.2
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -241,7 +241,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 50.9
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +252,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/screenshots/99designs-2026-07-25T181252.png
 security:

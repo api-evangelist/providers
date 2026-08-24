@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST API for triggering and executing BRYTER modules from external systems, returning module results. Authenticated with a bearer API key scoped to a tenant environment.
@@ -135,7 +135,7 @@ modified: '2026-07-18'
 name: Bryter
 nav: Providers
 network: true
-overview: 'Bryter publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, No-Code, Legal Tech, and Workflow Automation.
+overview: 'Bryter publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, No-Code, Legal Tech, and Workflow-Automation.
 
 
   Bryter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 14 more developer resources.'
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.6
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -157,11 +157,11 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 34.7
+  previous_composite: 36.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bryter/refs/heads/main/screenshots/bryter-2026-07-25T204007.png
 security:
@@ -179,7 +179,7 @@ tags:
 - Automation
 - No-Code
 - Legal Tech
-- Workflow Automation
+- Workflow-Automation
 - Document Automation
 - Artificial Intelligence
 - Compliance

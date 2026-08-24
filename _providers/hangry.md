@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-19'
 name: Hangry
 nav: Providers
 network: true
-overview: Hangry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Restaurants, Cloud Kitchen, and Virtual Restaurant.
+overview: Hangry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Restaurant, Cloud Kitchen, and Virtual Restaurant.
 random_paper: 19
 score:
   band: minimal
@@ -70,15 +70,15 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 7.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hangry/refs/heads/main/screenshots/hangry-2026-07-25T220629.png
 slug: hangry
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Cloud Kitchen
 - Virtual Restaurant
 - Food and Beverage

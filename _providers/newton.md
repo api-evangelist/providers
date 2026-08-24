@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Newton is a Python library and physics simulation engine. It is consumed programmatically via Python (not as an HTTP API), targeting robotics simulation, reinforcement learning, and physics-based AI t
@@ -89,7 +89,7 @@ modified: '2026-04-28'
 name: Newton
 nav: Providers
 network: true
-overview: 'Newton publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Linux Foundation, Physics, Simulation, and Robotics.
+overview: 'Newton publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Linux Foundation, Physics, Simulation, and Robotics.
 
 
   Newton''s developer surface includes documentation and 9 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -115,14 +115,14 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 16.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newton/refs/heads/main/screenshots/newton-2026-08-07T185136.png
 slug: newton
 tags:
-- AI
+- Artificial Intelligence
 - Linux Foundation
 - Physics
 - Simulation

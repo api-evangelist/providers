@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST API for account entitlements, credit balance, commercial-insurance prospect search across 134 filter properties, single-prospect retrieval, and asynchronous decision-maker contact enrichment with
@@ -168,14 +168,14 @@ image: https://static.wixstatic.com/media/38dea4_5b1d1b85783146d8b6cf1c6f354c9be
 layout: provider
 mcp_servers:
 - description: ''
-  name: leo-mcp.yml
-  slug: leo-mcpyml
+  name: LeO MCP Connector
+  slug: leo-mcp-connector
 - description: ''
-  name: mcp
-  slug: mcp
+  name: LeO MCP Server
+  slug: leo-mcp-server
 - description: ''
-  name: leo-site-mcp.yml
-  slug: leo-site-mcpyml
+  name: LeO 3.0 Site Visitor Assistant
+  slug: leo-30-site-visitor-assistant
 modified: '2026-08-14'
 name: LeO
 nav: Providers
@@ -201,7 +201,7 @@ scopes:
 score:
   band: strong
   composite: 56.7
-  delta: 4.4
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 52.3
+  previous_composite: 56.7
   provenance:
     conformance: first-party
     contracts:
@@ -227,8 +227,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 78.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/screenshots/leo-2026-07-25T224918.png
 security:
@@ -254,9 +254,9 @@ tags:
 - Prospecting
 - Data Enrichment
 - Sales Intelligence
-- Nonprofits
+- Non-Profit
 - Trucking
 - MCP
-- Agent Native
+- agent-native
 website: https://www.meetleo.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 8
 common:
@@ -164,7 +164,7 @@ scopes:
 score:
   band: emerging
   composite: 19.2
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -180,12 +180,12 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 20.1
+  previous_composite: 19.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/screenshots/cerenovus-2026-07-25T204948.png
 security:
@@ -212,10 +212,10 @@ tags:
 - AI Agents
 - Enterprise Software
 - Decision Intelligence
-- Knowledge Management
+- Knowledge-Management
 - Private Equity
 - Due Diligence
-- Model Context Protocol
+- MCP
 - Y Combinator
 website: https://www.cerenovus.ai/
 ---

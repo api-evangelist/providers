@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-20'
 name: Maxima
 nav: Providers
 network: true
-overview: 'Maxima is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Accounting, Financial Close, and Fintech.
+overview: 'Maxima is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Accounting, Financial Close, and Fintech.
 
 
   Maxima''s developer surface includes engineering blog, YouTube channel, and 14 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 16.3
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -122,9 +122,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxima/refs/heads/main/screenshots/maxima-2026-07-25T230449.png
 security:
@@ -143,7 +143,7 @@ security:
 slug: maxima
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Accounting
 - Financial Close
 - Fintech

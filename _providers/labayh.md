@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -205,9 +205,9 @@ json_schemas:
   slug: labayh-support-group
 layout: provider
 mcp_servers:
-- description: ''
-  name: labayh-mcp.yml
-  slug: labayh-mcpyml
+- description: Labayh publishes no MCP server — a search of its site, the public MCP registries and the npm @modelcontextprotocol scope found nothing. This is a CANDIDATE tool surface derived from the anonymous read
+  name: Labayh MCP Server
+  slug: labayh-mcp-server
 modified: '2026-07-19'
 name: Labayh
 nav: Providers
@@ -220,7 +220,7 @@ random_paper: 16
 score:
   band: developing
   composite: 40.6
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 38.2
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,8 +247,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/screenshots/labayh-2026-07-25T224413.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -103,13 +103,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supportlog
 layout: provider
 mcp_servers:
 - description: ''
-  name: supportlogic-mcp.yml
-  slug: supportlogic-mcpyml
+  name: Supportlogic MCP Server
+  slug: supportlogic-mcp-server
 modified: '2026-07-21'
 name: Supportlogic
 nav: Providers
 network: true
-overview: 'Supportlogic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Support, Customer Experience, Artificial Intelligence, and Service Experience.
+overview: 'Supportlogic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer-Support, Customer Experience, Artificial Intelligence, and Service Experience.
 
 
   Supportlogic''s developer surface includes documentation, support, engineering blog, pricing, authentication, and 11 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 24.5
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -127,12 +127,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 25.0
+  previous_composite: 24.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -154,13 +154,13 @@ security:
 slug: supportlogic
 tags:
 - Company
-- Customer Support
+- Customer-Support
 - Customer Experience
 - Artificial Intelligence
 - Service Experience
 - Sentiment Analysis
 - Escalation Management
 - MCP
-- SaaS
+- Software-as-a-Service
 website: https://www.supportlogic.com/
 ---

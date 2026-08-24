@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ modified: '2026-05-19'
 name: Vertiv
 nav: Providers
 network: true
-overview: 'Vertiv publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Assets API, Authentication API, and 5 more. Tagged areas include Critical Infrastructure, Data Center, DCIM, Infrastructure Monitoring, and Power Management.
+overview: 'Vertiv publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Assets API, Authentication API, and 5 more. Tagged areas include Critical Infrastructure, Data-Center, DCIM, Infrastructure Monitoring, and Power Management.
 
 
   The Vertiv catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -266,7 +266,7 @@ rules:
 score:
   band: developing
   composite: 40.0
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -276,7 +276,7 @@ score:
     discoverability: 64.8
     governance: 54.5
     operational_transparency: 10.5
-  previous_composite: 36.9
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -290,8 +290,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png
 security:
@@ -306,7 +306,7 @@ security:
 slug: vertiv
 tags:
 - Critical Infrastructure
-- Data Center
+- Data-Center
 - DCIM
 - Infrastructure Monitoring
 - Power Management

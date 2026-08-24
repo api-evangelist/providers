@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,27 +70,27 @@ overview: 'truBrain is profiled on the [APIs.io](https://apis.io/) network. Tagg
   truBrain''s developer surface includes support and 5 more developer resources.'
 random_paper: 10
 score:
-  band: minimal
-  composite: 10.0
-  delta: -1.2
+  band: emerging
+  composite: 11.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 11.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -106,7 +106,7 @@ tags:
 - Ketones
 - Functional Beverages
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Health
 website: https://trubrain.com
 ---

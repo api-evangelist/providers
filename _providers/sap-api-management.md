@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -103,6 +103,10 @@ collections:
   name: SAP API Management API Portal API
   slug: open-sap-api-management-portal
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -230,7 +234,7 @@ jsonld:
   property_count: 12
   slug: sap-api-management-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: SAP API Management
 nav: Providers
 network: true
@@ -240,7 +244,7 @@ overview: 'SAP API Management publishes 5 APIs on the [APIs.io](https://apis.io/
   The SAP API Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP API Management''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 17 more developer resources.'
+  SAP API Management''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 18 more developer resources.'
 plans:
 - name: Sap Api Management Plans Pricing
   plan_count: 1
@@ -279,7 +283,7 @@ scopes:
 score:
   band: thin
   composite: 38.2
-  delta: -12.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -289,7 +293,7 @@ score:
     discoverability: 55.6
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 51.1
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -297,9 +301,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/screenshots/sap-api-management-2026-06-20T193414.png
 security:
 - kind: authentication

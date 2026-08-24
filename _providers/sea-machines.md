@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Partner-gated interface announced September 2025 that delivers real-time SM300 vessel telemetry and data feeds (position, heading, mechanical and navigational state) to external command-and-control an
@@ -100,7 +100,7 @@ modified: '2026-06-20'
 name: Sea Machines Robotics
 nav: Providers
 network: true
-overview: 'Sea Machines Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network: SMLink Streaming-API and SMLink Control-API. Tagged areas include Marine, Autonomy, Robotics, Maritime, and Computer Vision.
+overview: 'Sea Machines Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network: SMLink Streaming-API and SMLink Control-API. Tagged areas include Marine, Autonomy, Robotics, Maritime, and Computer-Vision.
 
 
   Sea Machines Robotics'' developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.6
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -126,9 +126,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 24.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 24.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/screenshots/sea-machines-2026-06-20T193612.png
 security:
@@ -142,7 +142,7 @@ tags:
 - Autonomy
 - Robotics
 - Maritime
-- Computer Vision
+- Computer-Vision
 - Telemetry
 website: https://sea-machines.com/
 ---

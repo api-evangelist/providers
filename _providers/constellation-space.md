@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -193,13 +193,13 @@ image: https://constellation.space/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: constellation-space-mcp.yml
-  slug: constellation-space-mcpyml
+  name: Constellation Space MCP Server
+  slug: constellation-space-mcp-server
 modified: '2026-07-18'
 name: Constellation Space
 nav: Providers
 network: true
-overview: 'Constellation Space publishes 3 APIs on the [APIs.io](https://apis.io/) network: Predictions API, Telemetry API, and Topology API. Tagged areas include Company, Satellites, Space, Telemetry, and Machine Learning.
+overview: 'Constellation Space publishes 3 APIs on the [APIs.io](https://apis.io/) network: Predictions API, Telemetry API, and Topology API. Tagged areas include Company, Satellites, Space, Telemetry, and Machine-Learning.
 
 
   Constellation Space''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 24 more developer resources.'
@@ -212,7 +212,7 @@ scopes:
 score:
   band: developing
   composite: 47.3
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.3
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,8 +233,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/screenshots/constellation-space-2026-08-17T083213.png
 security:
@@ -260,7 +260,7 @@ tags:
 - Satellites
 - Space
 - Telemetry
-- Machine Learning
+- Machine-Learning
 - Fleet Operations
 - Ground Segment
 - Predictions

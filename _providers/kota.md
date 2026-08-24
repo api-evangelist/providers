@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -508,9 +508,9 @@ description: Kota is a Dublin-headquartered employee benefits platform that give
 image: https://www.kota.io/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: kota-mcp.yml
-  slug: kota-mcpyml
+- description: Kota publishes a hosted, remote MCP server for its developer documentation, advertised at the top of every docs page and in llms.txt for AI client integration (Claude Code, Cursor and other MCP client
+  name: Kota MCP Server
+  slug: kota-mcp-server
 modified: '2026-07-19'
 name: Kota
 nav: Providers
@@ -526,7 +526,7 @@ random_paper: 11
 score:
   band: strong
   composite: 62.4
-  delta: 4.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -536,7 +536,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 58.0
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -553,8 +553,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/screenshots/kota-2026-07-25T224240.png
 security:

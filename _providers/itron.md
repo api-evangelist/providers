@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -294,18 +294,18 @@ rules:
   slug: starfish-data-platform-rules
 score:
   band: developing
-  composite: 50.4
-  delta: -0.6
+  composite: 50.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.9
     developer_ergonomics: 33.3
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 51.0
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +319,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/screenshots/itron-2026-06-20T183633.png
 security:
@@ -339,7 +339,7 @@ tags:
 - Smart Meters
 - Smart Grid
 - Smart Cities
-- Internet Of Things
+- Internet of Things
 - IoT
 - Energy
 - Water

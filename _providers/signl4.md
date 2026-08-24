@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ modified: '2026-05-11'
 name: SIGNL4
 nav: Providers
 network: true
-overview: 'SIGNL4 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Webhook API. Tagged areas include Alerting, Incident Management, On-Call, Mobile Alerts, and Notifications.
+overview: 'SIGNL4 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Webhook API. Tagged areas include Alerting, Incident Management, On-Call, Mobile Alerts, and Notification.
 
 
   SIGNL4''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, GitHub presence, and 5 more developer resources.'
@@ -130,7 +130,7 @@ random_paper: 5
 score:
   band: thin
   composite: 34.6
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -140,7 +140,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 35.0
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -148,8 +148,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/screenshots/signl4-2026-06-20T193912.png
 security:
@@ -171,7 +171,7 @@ tags:
 - Incident Management
 - On-Call
 - Mobile Alerts
-- Notifications
+- Notification
 - DevOps
 - IT Operations
 - Monitoring

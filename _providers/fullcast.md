@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The HTTP API behind the in-platform Fullcast Assistant (copilot) and the assistant-hosted Fullcast MCP Server. Covers chat sessions, message history, feedback, assistant configuration lifecycle, and a
@@ -199,8 +199,8 @@ image: https://www.fullcast.com/wp-content/uploads/2026/07/Fullcast-plan-to-pay-
 layout: provider
 mcp_servers:
 - description: ''
-  name: fullcast-mcp.yml
-  slug: fullcast-mcpyml
+  name: Fullcast MCP Server
+  slug: fullcast-mcp-server
 modified: '2026-08-13'
 name: Fullcast
 nav: Providers
@@ -229,7 +229,7 @@ scopes:
 score:
   band: strong
   composite: 55.2
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -239,14 +239,14 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 65.7
+  previous_composite: 55.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/screenshots/fullcast-2026-07-25T215257.png
 security:
 - kind: authentication
@@ -268,13 +268,12 @@ tags:
 - Revenue Operations
 - Sales Planning
 - Territory Management
-- Go-to-Market
+- Go-To-Market
 - Incentive Compensation
 - Forecasting
 - Lead Routing
 - MCP
 - AI Agents
-- Model Context Protocol
 - Sales Compensation
 website: https://www.fullcast.com
 ---

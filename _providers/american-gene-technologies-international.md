@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -312,8 +312,8 @@ image: https://www.americangene.com/wp-content/uploads/2021/03/americangenetechn
 layout: provider
 mcp_servers:
 - description: ''
-  name: american-gene-technologies-international-mcp.yml
-  slug: american-gene-technologies-international-mcpyml
+  name: American Gene Technologies MCP Server
+  slug: american-gene-technologies-mcp-server
 modified: '2026-08-06'
 name: American Gene Technologies
 nav: Providers
@@ -326,7 +326,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 21.2
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -336,7 +336,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 20.6
+  previous_composite: 21.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,8 +353,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/screenshots/american-gene-technologies-international-2026-08-07T161327.png
 security:
@@ -377,6 +377,6 @@ tags:
 - HIV
 - Rare Disease
 - Clinical Stage
-- Content API
+- content-api
 website: https://www.americangene.com/
 ---

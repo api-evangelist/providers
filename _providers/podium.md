@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing customer communications including messaging, reviews, payments, webchat, contacts, automations, and webhooks for local businesses. Base URL is https://api.podium.com/v4/ and uses
@@ -240,7 +240,7 @@ modified: '2026-08-14'
 name: Podium
 nav: Providers
 network: true
-overview: 'Podium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Customer Communication, Reviews, Messaging, Payments, and Webchat.
+overview: 'Podium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Customer Communication, Reviews, Messaging, Payments, and Web Chat.
 
 
   The Podium catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -264,7 +264,7 @@ scopes:
 score:
   band: strong
   composite: 57.5
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -274,7 +274,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 43.4
-  previous_composite: 63.4
+  previous_composite: 57.5
   provenance:
     conformance: derived
     contracts:
@@ -290,9 +290,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/screenshots/podium-2026-06-20T191840.png
 security:
 - kind: authentication
@@ -313,7 +313,7 @@ tags:
 - Reviews
 - Messaging
 - Payments
-- Webchat
+- Web Chat
 - Local Business
 - SMS
 - Lead Generation

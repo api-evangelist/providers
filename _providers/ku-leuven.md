@@ -10,15 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: true
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.9
-  scored_at: '2026-08-19'
+  score: 41.5
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 7
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 536
   slug: ku-leuven-agentic-access
   summary_line: 536 operations · 254 acting · 7 human-in-the-loop
-api_count: 41
+api_count: 49
 apis:
 - description: ICTS Data Services REST API exposing public personnel / who-is-who person information. An expanded intranet variant requires a service account.
   name: KU Leuven Person Information API
@@ -162,7 +162,31 @@ apis:
 - description: The Workflows API from KU Leuven — 1 operation(s) for workflows.
   name: KU Leuven Workflows API
   slug: ku-leuven-workflows-api
-artifact_total: 96
+- description: The institution's central programmable surface, operated by KU Leuven ICTS on its own host and its own address space. dataservice.kuleuven.be fronts eight public OpenSearch index families — employee (
+  name: KU Leuven ICTS Data Services API (OpenSearch gateway)
+  slug: data-services
+- description: ICTS Data Services index of academic curriculum and CV records — discipline codes, research topics and the researcher's ORCID iD in the `orcId` field. Confirmed live 2026-08-19. This is the surface th
+  name: KU Leuven Curriculum Information (Curriculuminformatie) API
+  slug: curriculum
+- description: ICTS Data Services index over the KU Leuven research database, the richest surface in the estate. Beyond free search it publishes three stored search templates — projectsbyou (by organigram unit code)
+  name: KU Leuven Research Projects (Onderzoeksprojecten) API
+  slug: research-projects
+- description: ICTS Data Services index of research groups, 740 records live on 2026-08-19, joined to projects and to the organisational chart by unit code. Supports _search and _doc/{id} retrieval with _source fiel
+  name: KU Leuven Research Teams (Onderzoeksteams) API
+  slug: research-teams
+- description: ICTS Data Services index of core facilities and shared research equipment, 379 records live on 2026-08-19. A machine-readable research-facility catalogue is an uncommon institutional surface and one o
+  name: KU Leuven Research Infrastructure (Onderzoeksinfrastructuur) API
+  slug: research-infrastructure
+- description: OAI-PMH 2.0 interface of the Research Data Repository, served from KU Leuven's own host. Identify returned repositoryName "KU Leuven RDR Dataverse OAI Archive", adminEmail rdm@kuleuven.be, earliestDat
+  name: KU Leuven RDR OAI-PMH Harvesting Interface
+  slug: rdr-oai-pmh
+- description: 'Lirias is the institutional publication repository of the KU Leuven Association, running on KU Leuven''s own host and address space. Its OAI-PMH 2.0 Identify response returned repositoryName "Lirias - '
+  name: Lirias OAI-PMH Harvesting Interface
+  slug: lirias-oai-pmh
+- description: KU Leuven serves its own SAML 2.0 federation metadata from idp.kuleuven.be, which resolves to 134.58.64.219 inside the university's own address space — institution-operated, not a hosted IdP tenant. e
+  name: KU Leuven Shibboleth Identity Provider (SAML 2.0 metadata)
+  slug: identity-federation
+artifact_total: 110
 collections:
 - collection_type: open
   name: API Collection
@@ -298,7 +322,7 @@ common:
   url: https://admin.kuleuven.be/icts/services/dataservices
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/kuleuven
 - group: company
   title: ''
@@ -324,21 +348,134 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://rdr.kuleuven.be/openapi
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.kuleuven.be/rdm/en/rdr/api-documentation
+- group: other
+  title: ''
+  type: OpenData
+  url: https://admin.kuleuven.be/icts/services/dataservices
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://www.kuleuven.be/rdm/en/rdr
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://lirias.kuleuven.be
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://onderwijsaanbod.kuleuven.be
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.kuleuven.be/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://admin.kuleuven.be/icts/onderzoek/hpc
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://bib.kuleuven.be
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.kuleuven.be/english/genai
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://admin.kuleuven.be/icts/services/dataservices/gebruiksvoorwaarden.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kuleuven.be/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://admin.kuleuven.be/icts/services/dataservices/data-service-vraag
+- group: auth
+  title: ''
+  type: Security
+  url: https://admin.kuleuven.be/icts/english/responsible-disclosure
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://www.kuleuven.be/.well-known/security.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ku-leuven-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ku-leuven-education-standards.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ku-leuven-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ku-leuven-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/ku-leuven-scopes.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/ku-leuven-vocabulary.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/ku-leuven-data-services-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/ku-leuven-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/ku-leuven-data-services-search-response-schema.json
+- group: design
+  title: ''
+  type: Rules
+  url: rules/ku-leuven-rules.yml
 created: '2026-06-03'
-description: 'KU Leuven (Katholieke Universiteit Leuven) is a research university in Leuven, Belgium, founded in 1425 and ranked #45 in the QS World University Rankings 2025. It maintains a documented public developer footprint through its ICTS Data Services, which expose REST APIs for person/who-is-who information, curriculum information, organizational-chart data, research information, educational offerings, and job vacancies, alongside an OAuth-protected individual timetable API. KU Leuven also operates the Research Data Repository (RDR), a Dataverse-based institutional repository whose REST API is publicly reachable, and runs an active official GitHub organization.'
+description: 'KU Leuven (Katholieke Universiteit Leuven) is a Flemish public research university in Leuven, Belgium, founded in 1425 and ranked in the QS world top 50. Re-profiled on 2026-08-19 with operator attribution settled before anything was saved, it is one of the few universities in this cohort whose machine-readable surface is genuinely its own: every host below resolves inside KU Leuven''s own 134.58.0.0/16 address space, and no Figshare, Elsevier Pure, Ex Libris or Symplectic contract is attributed here. Its central programmable surface is the ICTS Data Services gateway at dataservice.kuleuven.be — an unauthenticated OpenSearch query API over eight public index families covering the staff directory, academic CVs, the organisational chart, the programme guide, research projects, research teams, research infrastructure and job vacancies — documented in Dutch at admin.kuleuven.be and confirmed live returning real records. It also runs the Research Data Repository (RDR), a self-hosted
+  Dataverse 6.7.1 installation at rdr.kuleuven.be that serves its own OpenAPI publicly, mints DOIs as DataCite repository client BRVZ.RDR, and exposes OAI-PMH; the Lirias institutional repository exposes a second OAI-PMH endpoint; and idp.kuleuven.be serves SAML 2.0 Shibboleth metadata registered in the Belnet federation with REFEDS SIRTFI and Research & Scholarship assurance. Honest caveats: the 36 RDR entries below are tag-splits of ONE Dataverse deployment, and that contract is upstream open-source Dataverse''s work — KU Leuven operates the deployment and owns the data, it does not author the API. There is no unified developer portal, no self-serve credential anywhere in the estate, no versioning on the data services gateway, and the personal timetable API''s production host does not resolve from the public internet.'
 examples:
+- key_count: 2
+  name: Ku Leuven Data Services Error Example
+  slug: ku-leuven-data-services-error-example
+- key_count: 2
+  name: Ku Leuven Data Services Search Example
+  slug: ku-leuven-data-services-search-example
 - key_count: 2
   name: Ku Leuven Dataset Example
   slug: ku-leuven-dataset-example
 - key_count: 2
   name: Ku Leuven Info Version Example
   slug: ku-leuven-info-version-example
+- key_count: 2
+  name: Ku Leuven Organigram Unit Example
+  slug: ku-leuven-organigram-unit-example
 finops:
 - name: Ku Leuven Finops
   service_category: Education
   slug: ku-leuven-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ku-leuven.png
 json_schemas:
+- name: KU Leuven ICTS Data Services Search Response
+  property_count: 5
+  slug: ku-leuven-data-services-search-response
 - name: KU Leuven RDR DataFile
   property_count: 12
   slug: ku-leuven-datafile
@@ -367,17 +504,17 @@ jsonld:
   property_count: 3
   slug: ku-leuven-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-19'
 name: KU Leuven
 nav: Providers
 network: true
-overview: 'KU Leuven publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Access API, addFilesToDataset API, addFileToDataset API, and 33 more. Tagged areas include Education, Higher Education, University, Research Data, and Open Data.
+overview: 'KU Leuven publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Access API, addFilesToDataset API, addFileToDataset API, and 34 more. Tagged areas include University, Higher Education, Education, Belgium, and Europe.
 
 
   The KU Leuven catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  KU Leuven''s developer surface includes GitHub presence and 11 more developer resources.'
+  KU Leuven''s developer surface includes API reference, documentation, support, authentication, and 33 more developer resources.'
 plans:
 - name: Ku Leuven Plans Pricing
   plan_count: 2
@@ -409,38 +546,48 @@ rules:
     info: 1
     warn: 2
   slug: ku-leuven-rules
+scopes:
+- name: Ku Leuven Scopes
+  scope_count: 0
+  slug: ku-leuven-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 31.1
-  delta: -4.7
+  band: developing
+  composite: 51.1
+  delta: -0.3
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 46.9
-    developer_ergonomics: 9.5
-    discoverability: 64.8
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 35.8
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 17.4
+    contract_quality: 50.5
+    developer_ergonomics: 42.9
+    discoverability: 61.1
+    governance: 17.4
+    operational_transparency: 34.2
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 36
+      derived: 1
+      marker_coverage: 2.7
+      total: 37
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+    score: 75.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/screenshots/ku-leuven-2026-06-20T184201.png
 security:
+- kind: authentication
+  name: Ku Leuven Authentication
+  slug: ku-leuven-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Ku Leuven Domain Security
   slug: ku-leuven-domain-security
@@ -451,12 +598,20 @@ security:
   summary_line: security.txt · contact published
 slug: ku-leuven
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
-- Open Data
+- Higher Education
+- Education
 - Belgium
 - Europe
+- Flanders
+- Research Data
+- Research Repository
+- Open Data
+- Course Catalog
+- Identity Federation
+- OAI-PMH
+- Dataverse
+- OpenSearch
+- Public Research University
 website: https://www.kuleuven.be
 ---

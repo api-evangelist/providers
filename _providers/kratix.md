@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Kratix is an open-source framework for building internal developer platforms using Kubernetes. Platform teams author Promises that wrap complex services into self-service APIs delivered as Kubernetes '
@@ -105,7 +105,7 @@ modified: '2026-04-28'
 name: Kratix
 nav: Providers
 network: true
-overview: 'Kratix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Experience, Internal Developer Platform, Kubernetes, Open Source, and Platform Engineering.
+overview: 'Kratix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Experience, Internal Developer Platform, Kubernetes, Open-Source, and Platform Engineering.
 
 
   Kratix''s developer surface includes documentation, getting-started guide, engineering blog, and 11 more developer resources.'
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.0
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -131,9 +131,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 17.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 18.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kratix/refs/heads/main/screenshots/kratix-2026-06-20T184151.png
 security:
@@ -146,7 +146,7 @@ tags:
 - Developer Experience
 - Internal Developer Platform
 - Kubernetes
-- Open Source
+- Open-Source
 - Platform Engineering
 website: https://kratix.io
 ---

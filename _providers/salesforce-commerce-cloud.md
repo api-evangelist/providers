@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,6 +60,10 @@ collections:
   name: Salesforce Commerce API (SCAPI) - Shopper Subset
   slug: open-salesforce-commerce-cloud
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,19 +140,19 @@ graphqls:
   slug: salesforce-commerce-cloud-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salesforce-commerce-cloud.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Salesforce Commerce Cloud
 nav: Providers
 network: true
 overview: 'Salesforce Commerce Cloud publishes 1 API on the [APIs.io](https://apis.io/) network: Shopper API. Tagged areas include Commerce, E-Commerce, Headless Commerce, Salesforce, and B2C Commerce.
 
 
-  Salesforce Commerce Cloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
+  Salesforce Commerce Cloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 12 more developer resources.'
 random_paper: 11
 score:
   band: thin
   composite: 35.7
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -158,7 +162,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 36.1
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +170,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/screenshots/salesforce-commerce-cloud-2026-06-20T193346.png
 security:

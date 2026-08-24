@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -201,8 +201,8 @@ image: https://zencoder.support.brightcove.com/assets/s-site-assets-favicons/app
 layout: provider
 mcp_servers:
 - description: ''
-  name: zencoder-mcp.yml
-  slug: zencoder-mcpyml
+  name: Zencoder MCP Server
+  slug: zencoder-mcp-server
 modified: '2026-07-21'
 name: Zencoder
 nav: Providers
@@ -218,7 +218,7 @@ random_paper: 18
 score:
   band: developing
   composite: 51.3
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -228,7 +228,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 51.0
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +239,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/screenshots/zencoder-2026-08-17T083039.png
 security:

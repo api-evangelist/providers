@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public GraphQL subgraph that indexes useful state about the Goldfinch Protocol (senior pool, tranched pools, backers, borrowers, staked positions, membership) for use by the Goldfinch Interface and an
@@ -101,9 +101,9 @@ description: 'Warbler Labs is a San Francisco fintech and blockchain company (fo
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/warblerlabs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: warblerlabs-mcp.yml
-  slug: warblerlabs-mcpyml
+- description: No official/hosted MCP server was found for Goldfinch or Warbler Labs (searched the docs, the goldfinch-eng GitHub org, and MCP registries). This is a CANDIDATE tool list derived from the read-only Gr
+  name: Warblerlabs MCP Server
+  slug: warblerlabs-mcp-server
 modified: '2026-07-21'
 name: Warblerlabs
 nav: Providers
@@ -116,7 +116,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 23.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -126,12 +126,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 24.9
+  previous_composite: 23.9
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -153,7 +153,7 @@ tags:
 - GraphQL
 - Ethereum
 - Web3
-- Real-World Assets
+- Real World Assets
 - Identity
 website: https://warblerlabs.com/
 ---

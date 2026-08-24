@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Klutch Public API is a GraphQL API for the Klutch programmable credit card. It exposes enriched transaction history with filtering, cursor pagination and group-by aggregation; user-defined transac
@@ -180,13 +180,13 @@ image: https://cdn.prod.website-files.com/660d6194e5d7f9c60a769ac1/664dff6285238
 layout: provider
 mcp_servers:
 - description: ''
-  name: klutch-mcp.yml
-  slug: klutch-mcpyml
+  name: Klutch MCP Server
+  slug: klutch-mcp-server
 modified: '2026-07-19'
 name: Klutch
 nav: Providers
 network: true
-overview: 'Klutch publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Financial Services, Fintech, Credit Cards, and Payments.
+overview: 'Klutch publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Financial-Services, Fintech, Credit Cards, and Payments.
 
 
   The Klutch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -202,7 +202,7 @@ scopes:
 score:
   band: developing
   composite: 48.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -212,7 +212,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 50.6
+  previous_composite: 48.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -223,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/screenshots/klutch-2026-07-25T223951.png
 security:
@@ -239,13 +239,13 @@ security:
 slug: klutch
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Credit Cards
 - Payments
 - Card Issuing
 - Virtual Cards
-- Transactions
+- Transaction
 - Spend Management
 - Personal Finance
 - GraphQL

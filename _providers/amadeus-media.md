@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -376,13 +376,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amadeus-media-mcp.yml
-  slug: amadeus-media-mcpyml
+  name: Amadeus Media MCP Server
+  slug: amadeus-media-mcp-server
 modified: '2026-06-20'
 name: Amadeus Media
 nav: Providers
 network: true
-overview: 'Amadeus Media publishes 3 APIs on the [APIs.io](https://apis.io/) network: Hotel Content API, Hotel Media API, and Hotels API. Tagged areas include Content, Hotels, Images, Media, and Travel.
+overview: 'Amadeus Media publishes 3 APIs on the [APIs.io](https://apis.io/) network: Hotel Content API, Hotel Media API, and Hotels API. Tagged areas include Content, Hotels, Image, Media, and Travel.
 
 
   The Amadeus Media catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -414,18 +414,18 @@ rules:
   slug: amadeus-media-spectral-rules
 score:
   band: thin
-  composite: 27.2
-  delta: -21.8
+  composite: 27.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 29.9
     developer_ergonomics: 31.0
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 2.6
-  previous_composite: 49.0
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -435,9 +435,9 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/screenshots/amadeus-media-2026-07-25T195903.png
 security:
 - kind: authentication
@@ -456,7 +456,7 @@ slug: amadeus-media
 tags:
 - Content
 - Hotels
-- Images
+- Image
 - Media
 - Travel
 use_cases:

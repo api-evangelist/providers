@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -151,8 +151,8 @@ image: https://6598889.fs1.hubspotusercontent-na1.net/hubfs/6598889/New%20Site%2
 layout: provider
 mcp_servers:
 - description: ''
-  name: scratchpay-mcp.yml
-  slug: scratchpay-mcpyml
+  name: Scratchpay MCP Server
+  slug: scratchpay-mcp-server
 modified: '2026-07-21'
 name: Scratchpay
 nav: Providers
@@ -168,7 +168,7 @@ random_paper: 3
 score:
   band: thin
   composite: 37.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -178,7 +178,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 37.7
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,8 +194,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -216,6 +216,6 @@ tags:
 - Healthcare
 - Fintech
 - Buy Now Pay Later
-- Point of Sale
+- Point-of-Sale
 website: https://scratchpay.com
 ---

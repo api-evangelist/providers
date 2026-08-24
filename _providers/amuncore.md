@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -180,14 +180,14 @@ description: 'AmunCore turns a database into a secure REST API without writing a
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amuncore.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: amuncore-mcp.yml
-  slug: amuncore-mcpyml
+- description: 'AmunCore is MCP-native by design: the REST endpoints a user builds over their own database become tools an AI assistant can call, under the same keys, permissions and audit trail. The MCP endpoint is '
+  name: AmunCore MCP Server
+  slug: amuncore-mcp-server
 modified: '2026-08-10'
 name: AmunCore
 nav: Providers
 network: true
-overview: 'AmunCore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, API Management, Backend, No Code, and SQL.
+overview: 'AmunCore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, API Management, Backend, No-Code, and SQL.
 
 
   The AmunCore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -211,7 +211,7 @@ scopes:
 score:
   band: strong
   composite: 56.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -227,7 +227,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 57.4
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -238,8 +238,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/screenshots/amuncore-2026-08-07T161347.png
 security:
@@ -260,7 +260,7 @@ tags:
 - Database
 - API Management
 - Backend
-- No Code
+- No-Code
 - SQL
 - PostgreSQL
 - MySQL
@@ -269,9 +269,9 @@ tags:
 - Agents
 - Data
 - SQL Server
-- Webhooks
+- Webhook
 - OpenAPI
-- Low Code
+- Low-Code
 - Egypt
 website: https://amuncore.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: GSMA Mobile Money API profile for account validation, FX quotations, and multi-rail money movement (wallet/bank/card) across international corridors.
@@ -115,13 +115,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terrapay.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: terrapay-mcp.yml
-  slug: terrapay-mcpyml
+  name: TerraPay MCP Server
+  slug: terrapay-mcp-server
 modified: '2026-07-21'
 name: TerraPay
 nav: Providers
 network: true
-overview: 'TerraPay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Cross-Border Payments, and Remittances.
+overview: 'TerraPay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Payments, Cross-Border Payments, and Remittances.
 
 
   The TerraPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -132,7 +132,7 @@ random_paper: 11
 score:
   band: thin
   composite: 29.1
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -142,7 +142,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 31.8
+  previous_composite: 29.1
   provenance:
     conformance: derived
     mcp: derived
@@ -152,8 +152,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -167,12 +167,12 @@ security:
 slug: terrapay
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Cross-Border Payments
 - Remittances
 - Mobile Money
-- Digital Wallets
+- Digital Wallet
 - Money Transfer
 - Fintech
 - GSMA Mobile Money API

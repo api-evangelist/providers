@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ modified: '2026-05-29'
 name: Datamuse
 nav: Providers
 network: true
-overview: 'Datamuse publishes 2 APIs on the [APIs.io](https://apis.io/) network: Suggestions API and Words API. Tagged areas include Word Finding, Lexical Search, Natural Language, Vocabulary, and Synonyms.
+overview: 'Datamuse publishes 2 APIs on the [APIs.io](https://apis.io/) network: Suggestions API and Words API. Tagged areas include Word Finding, Lexical Search, Natural-Language, Vocabulary, and Synonyms.
 
 
   The Datamuse catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -302,18 +302,18 @@ rules:
   slug: datamuse-rules
 score:
   band: developing
-  composite: 46.9
-  delta: -5.7
+  composite: 47.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.4
     developer_ergonomics: 38.1
     discoverability: 75.9
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 0.0
-  previous_composite: 52.6
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -321,9 +321,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/screenshots/datamuse-2026-08-17T083151.png
 security:
 - kind: domain-security
@@ -341,7 +341,7 @@ solutions:
 tags:
 - Word Finding
 - Lexical Search
-- Natural Language
+- Natural-Language
 - Vocabulary
 - Synonyms
 - Antonyms

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 15
@@ -329,14 +329,14 @@ description: H2O.ai is an open-source artificial-intelligence and machine-learni
 image: https://avatars.githubusercontent.com/u/1402695?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: h2o-ai-mcp.yml
-  slug: h2o-ai-mcpyml
+- description: H2OGPTe MCP Server is H2O.ai's first-party Model Context Protocol server for Enterprise h2oGPTe. It is a LOCAL stdio proxy — there is no hosted/remote MCP endpoint — and it builds its tool surface dir
+  name: H2O.ai MCP Server
+  slug: h2oai-mcp-server
 modified: '2026-08-04'
 name: H2O.ai
 nav: Providers
 network: true
-overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Admin Sessions API, Agents API, AI Assistants API, and 22 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Generative AI.
+overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Admin Sessions API, Agents API, AI Assistants API, and 22 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, MLOps, and Generative AI.
 
 
   H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
@@ -344,7 +344,7 @@ random_paper: 8
 score:
   band: developing
   composite: 53.0
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -354,7 +354,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 54.1
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,8 +365,8 @@ score:
       total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/screenshots/h2o-ai-2026-08-07T165917.png
 security:
@@ -390,7 +390,7 @@ slug: h2o-ai
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Generative AI
 - Large Language Models

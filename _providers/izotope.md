@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -216,8 +216,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/izotope.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: izotope-mcp.yml
-  slug: izotope-mcpyml
+  name: iZotope MCP Server
+  slug: izotope-mcp-server
 modified: '2026-08-12'
 name: iZotope
 nav: Providers
@@ -243,7 +243,7 @@ scopes:
 score:
   band: thin
   composite: 29.0
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -253,14 +253,14 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 30.8
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/screenshots/izotope-2026-08-07T170937.png
 security:
@@ -292,8 +292,8 @@ tags:
 - Vocal Processing
 - Agent Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
-- Ecommerce
+- MCP
+- E-Commerce
 - Boris FX
 website: https://www.izotope.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -809,18 +809,18 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.7
-  delta: -3.2
+  composite: 44.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 78.2
     developer_ergonomics: 21.4
     discoverability: 59.3
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 46.9
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -832,8 +832,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png
 security:

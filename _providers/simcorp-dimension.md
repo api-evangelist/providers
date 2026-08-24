@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: RESTful API for accessing portfolio data, positions, transactions, and market data from SimCorp Dimension.
@@ -195,7 +195,7 @@ rules:
 score:
   band: thin
   composite: 26.4
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -205,16 +205,16 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 33.5
+  previous_composite: 26.4
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/screenshots/simcorp-dimension-2026-06-20T193926.png
 security:
 - kind: domain-security
@@ -231,7 +231,7 @@ tags:
 - Financial Data
 - Financial Technology
 - Investment Management
-- Portfolio Management
+- Portfolio-Management
 - Risk Management
 - SimCorp One
 - Streaming

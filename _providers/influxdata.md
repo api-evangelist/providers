@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 0
@@ -465,8 +465,8 @@ image: https://github.com/influxdata.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: influxdata-mcp.yml
-  slug: influxdata-mcpyml
+  name: InfluxData MCP Server
+  slug: influxdata-mcp-server
 modified: '2026-07-19'
 name: InfluxData
 nav: Providers
@@ -479,7 +479,7 @@ random_paper: 1
 score:
   band: developing
   composite: 53.6
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -489,7 +489,7 @@ score:
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 52.1
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -500,8 +500,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/screenshots/influxdata-2026-07-25T222417.png
 security:

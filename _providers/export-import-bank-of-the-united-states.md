@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ modified: '2026-04-19'
 name: Export-Import Bank of the United States
 nav: Providers
 network: true
-overview: 'Export-Import Bank of the United States publishes 2 APIs on the [APIs.io](https://apis.io/) network: Resource API and Views API. Tagged areas include Export, Federal Government, Finance, Import, and Trade Finance.
+overview: 'Export-Import Bank of the United States publishes 2 APIs on the [APIs.io](https://apis.io/) network: Resource API and Views API. Tagged areas include Export, Federal-Government, Finance, Import, and Trade Finance.
 
 
   Export-Import Bank of the United States'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, YouTube channel, and 6 more developer resources.'
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.5
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -166,7 +166,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.1
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -180,8 +180,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/export-import-bank-of-the-united-states/refs/heads/main/screenshots/export-import-bank-of-the-united-states-2026-06-20T180939.png
 security:
@@ -196,7 +196,7 @@ security:
 slug: export-import-bank-of-the-united-states
 tags:
 - Export
-- Federal Government
+- Federal-Government
 - Finance
 - Import
 - Trade Finance

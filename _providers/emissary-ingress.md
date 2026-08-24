@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: '2026-05-19'
 name: Emissary-Ingress
 nav: Providers
 network: true
-overview: 'Emissary-Ingress publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AuthService API, Host API, Mapping API, and 2 more. Tagged areas include API Gateway, Cloud Native, Envoy, Incubating, and Ingress.
+overview: 'Emissary-Ingress publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AuthService API, Host API, Mapping API, and 2 more. Tagged areas include API Gateway, Cloud-Native, Envoy, Incubating, and Ingress.
 
 
   The Emissary-Ingress catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -204,7 +204,7 @@ rules:
 score:
   band: thin
   composite: 30.8
-  delta: -11.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -214,7 +214,7 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 42.4
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -222,9 +222,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/screenshots/emissary-ingress-2026-06-20T180636.png
 security:
 - kind: domain-security
@@ -234,7 +234,7 @@ security:
 slug: emissary-ingress
 tags:
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Envoy
 - Incubating
 - Ingress

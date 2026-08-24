@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Appdome Build2Secure (DEV-API) REST API automates Appdome's no-code mobile app defense pipeline — upload, build/fuse, add context, sign (standard, private, and Auto-DEV signing), download, publish
@@ -151,8 +151,8 @@ image: https://www.appdome.com/wp-content/uploads/2025/10/cropped-AppdomeShield-
 layout: provider
 mcp_servers:
 - description: ''
-  name: appdome-mcp.yml
-  slug: appdome-mcpyml
+  name: Appdome MCP Server
+  slug: appdome-mcp-server
 modified: '2026-07-17'
 name: Appdome
 nav: Providers
@@ -165,7 +165,7 @@ random_paper: 7
 score:
   band: thin
   composite: 26.9
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -175,13 +175,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 31.4
+  previous_composite: 26.9
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/screenshots/appdome-2026-07-25T200727.png
 security:

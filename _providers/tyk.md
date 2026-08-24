@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -2519,7 +2519,7 @@ modified: '2026-08-03'
 name: Tyk
 nav: Providers
 network: true
-overview: 'Tyk publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Additional Permissions API, Analytics API, APIs API, and 36 more. Tagged areas include API Gateway, API Management, GraphQL, and Open Source.
+overview: 'Tyk publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Additional Permissions API, Analytics API, APIs API, and 36 more. Tagged areas include API Gateway, API Management, GraphQL, and Open-Source.
 
 
   The Tyk catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -2559,18 +2559,18 @@ rules:
   slug: tyk-spectral-rules
 score:
   band: strong
-  composite: 57.6
-  delta: -8.2
+  composite: 58.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 63.0
     developer_ergonomics: 69.0
     discoverability: 66.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 65.8
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -2578,9 +2578,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png
 security:
 - kind: authentication
@@ -2600,7 +2600,7 @@ tags:
 - API Gateway
 - API Management
 - GraphQL
-- Open Source
+- Open-Source
 use_cases:
 - description: Enable API-as-a-product strategies with tiered plans, usage tracking, and developer self-service through the portal.
   name: API Monetization

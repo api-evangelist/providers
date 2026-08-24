@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-20'
 name: Mixt
 nav: Providers
 network: true
-overview: 'Mixt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Food & Beverage, Salad, and Catering.
+overview: 'Mixt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Food and Beverage, Salad, and Catering.
 
 
   Mixt''s developer surface includes signup flow and 5 more developer resources.'
@@ -83,8 +83,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixt/refs/heads/main/screenshots/mixt-2026-08-07T183831.png
 security:
@@ -96,7 +96,7 @@ slug: mixt
 tags:
 - Company
 - Restaurant
-- Food & Beverage
+- Food and Beverage
 - Salad
 - Catering
 - Sustainable Food

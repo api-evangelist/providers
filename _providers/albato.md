@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -305,7 +305,7 @@ modified: '2026-05-19'
 name: Albato
 nav: Providers
 network: true
-overview: 'Albato publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Connectors API, Executions API, and 3 more. Tagged areas include No-Code Automation, Workflow Automation, Embedded iPaaS, App Integration, and Integrations.
+overview: 'Albato publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Connectors API, Executions API, and 3 more. Tagged areas include No-Code Automation, Workflow-Automation, Embedded iPaaS, App Integration, and Integration.
 
 
   The Albato catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -345,18 +345,18 @@ rules:
   slug: albato-spectral-rules
 score:
   band: developing
-  composite: 47.6
-  delta: -4.8
+  composite: 48.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.6
     developer_ergonomics: 40.5
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 52.4
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -364,8 +364,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/screenshots/albato-2026-06-20T171504.png
 security:
@@ -384,12 +384,12 @@ security:
 slug: albato
 tags:
 - No-Code Automation
-- Workflow Automation
+- Workflow-Automation
 - Embedded iPaaS
 - App Integration
-- Integrations
-- Webhooks
-- White-Label
+- Integration
+- Webhook
+- White Label
 use_cases:
 - description: Sync leads between CRM and marketing tools, automate email campaigns, and route prospects based on behavioral conditions.
   name: CRM and Marketing Automation

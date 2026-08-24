@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 99
 apis:
 - description: The Add Credentials API from Cisco Crosswork — 1 operation(s) for add credentials.
@@ -495,8 +495,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cisco-crosswork-mcp.yml
-  slug: cisco-crosswork-mcpyml
+  name: Cisco Crosswork Workflow Manager MCP endpoint
+  slug: cisco-crosswork-workflow-manager-mcp-endpoint
 modified: '2026-08-19'
 name: Cisco Crosswork
 nav: Providers
@@ -519,16 +519,18 @@ rate_limits:
   slug: cisco-crosswork-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 53.3
+  delta: -0.3
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 12.1
     contract_quality: 57.3
     developer_ergonomics: 78.0
-    discoverability: 57.4
+    discoverability: 66.7
     governance: 12.1
-    operational_transparency: 39.5
+    operational_transparency: 36.8
+  previous_composite: 53.6
   provenance:
     conformance: derived
     contracts:
@@ -544,8 +546,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Cisco Crosswork Authentication
@@ -574,9 +577,9 @@ tags:
 - RESTCONF
 - YANG
 - Zero Touch Provisioning
-- Workflow Automation
+- Workflow-Automation
 - Traffic Engineering
-- Model Context Protocol
+- MCP
 - Telemetry
 - On-Premises
 website: https://developer.cisco.com/docs/crosswork/

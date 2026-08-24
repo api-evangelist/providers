@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ modified: '2026-05-19'
 name: The Cat API
 nav: Providers
 network: true
-overview: 'The Cat API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Breeds API, Categories API, Favourites API, and 2 more. Tagged areas include Animals, Cats, Images, and Media.
+overview: 'The Cat API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Breeds API, Categories API, Favourites API, and 2 more. Tagged areas include Animals, Cats, Image, and Media.
 
 
   The The Cat API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -193,18 +193,18 @@ rules:
   slug: the-cat-api-rules
 score:
   band: thin
-  composite: 31.7
-  delta: -10.8
+  composite: 32.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 61.6
     developer_ergonomics: 11.9
     discoverability: 55.6
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 42.5
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -212,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/screenshots/the-cat-api-2026-06-20T195216.png
 security:
 - kind: authentication
@@ -229,7 +229,7 @@ slug: the-cat-api
 tags:
 - Animals
 - Cats
-- Images
+- Image
 - Media
 website: https://thecatapi.com/
 ---

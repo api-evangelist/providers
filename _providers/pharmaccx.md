@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: PharmaCCX
 nav: Providers
 network: true
-overview: 'PharmaCCX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceutical, Market Access, and Pricing.
+overview: 'PharmaCCX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Market Access, and Pricing.
 
 
   PharmaCCX''s developer surface includes support and 4 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 8.5
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -78,15 +78,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.9
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -97,11 +97,11 @@ slug: pharmaccx
 tags:
 - Company
 - Healthcare
-- Pharmaceutical
+- Pharmaceuticals
 - Market Access
 - Pricing
 - Contract Management
 - Payers
-- Enterprise SaaS
+- Enterprise Saas
 website: https://www.ccx.tech/
 ---

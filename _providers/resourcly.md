@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -271,8 +271,8 @@ image: https://resourcly.com/icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: resourcly-mcp.yml
-  slug: resourcly-mcpyml
+  name: Resourcly MCP Server
+  slug: resourcly-mcp-server
 modified: '2026-07-20'
 name: Resourcly
 nav: Providers
@@ -285,7 +285,7 @@ random_paper: 13
 score:
   band: thin
   composite: 38.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -295,7 +295,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 38.0
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,8 +306,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

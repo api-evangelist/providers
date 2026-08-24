@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted remote Model Context Protocol server that connects an AI coding assistant to the Kotzilla Platform. Fifteen tools covering app registration, SDK onboarding, telemetry, issue detection and conte
@@ -169,8 +169,8 @@ image: https://storage.googleapis.com/strapi_cms_gcp/kotzilla_light_background_4
 layout: provider
 mcp_servers:
 - description: ''
-  name: kotzilla-mcp.yml
-  slug: kotzilla-mcpyml
+  name: Kotzilla MCP Server
+  slug: kotzilla-mcp-server
 modified: '2026-08-17'
 name: Kotzilla
 nav: Providers
@@ -196,6 +196,7 @@ scopes:
 score:
   band: thin
   composite: 33.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -205,11 +206,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Kotzilla Authentication

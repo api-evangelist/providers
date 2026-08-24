@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server operated by Acrisure at https://api.acrisure.com/v1/mcp. Production and live, protected by Microsoft Entra ID via an authorization-code + PKCE flow carrying the si
@@ -128,14 +128,14 @@ description: Acrisure is a global fintech and insurance brokerage headquartered 
 image: https://edge.sitecorecloud.io/acrisurellc1-acrisure-prod-0dbe/media/Project/Acrisure/Acrisure-Site/Master-Site/Acrisure-Logo/acrisure-logo-large.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: acrisure-mcp.yml
-  slug: acrisure-mcpyml
+- description: Acrisure operates a hosted, production Model Context Protocol server at https://api.acrisure.com/v1/mcp, protected by Microsoft Entra ID. It is not announced in any Acrisure documentation, press relea
+  name: Acrisure MCP Server
+  slug: acrisure-mcp-server
 modified: '2026-08-06'
 name: Acrisure
 nav: Providers
 network: true
-overview: 'Acrisure publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include insurance, insurance-brokerage, fintech, employee-benefits, and payroll-hr.
+overview: 'Acrisure publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurance Brokerage, Fintech, Employee Benefits, and payroll-hr.
 
 
   Acrisure''s developer surface includes engineering blog, product news, support, signup flow, authentication, and 14 more developer resources.'
@@ -148,7 +148,7 @@ scopes:
 score:
   band: thin
   composite: 26.4
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -158,7 +158,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 31.0
+  previous_composite: 26.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -168,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 72.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acrisure/refs/heads/main/screenshots/acrisure-2026-08-07T160845.png
 security:
@@ -187,17 +187,17 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: acrisure
 tags:
-- insurance
-- insurance-brokerage
-- fintech
-- employee-benefits
+- Insurance
+- Insurance Brokerage
+- Fintech
+- Employee Benefits
 - payroll-hr
-- reinsurance
-- risk-management
-- cybersecurity
-- mortgage
-- surety-bonds
-- mcp
-- oauth2
+- Reinsurance
+- Risk Management
+- Cybersecurity
+- Mortgage
+- Surety Bonds
+- MCP
+- Authentication
 website: https://www.acrisure.com/
 ---

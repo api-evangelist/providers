@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -110,9 +110,9 @@ description: Bentolabs AI builds Bento, a self-learning production infrastructur
 image: https://bentolabs.ai/og/default.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: bentolabs-ai-mcp.yml
-  slug: bentolabs-ai-mcpyml
+- description: Hosted MCP server for the Bento documentation surface, advertised in the Bento quickstart for per-tool MCP setup across AI coding tools (Claude, Cursor, and others). Serves the documentation/knowledge
+  name: Bentolabs AI MCP Server
+  slug: bentolabs-ai-mcp-server
 modified: '2026-07-18'
 name: Bentolabs AI
 nav: Providers
@@ -125,7 +125,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 24.9
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -135,12 +135,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 27.2
+  previous_composite: 24.9
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentolabs-ai/refs/heads/main/screenshots/bentolabs-ai-2026-07-25T202737.png
 security:

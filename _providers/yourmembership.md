@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ modified: '2026-07-05'
 name: YourMembership
 nav: Providers
 network: true
-overview: 'YourMembership publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Certifications API, Commerce and Sales API, and 3 more. Tagged areas include Membership Management, Association Management, AMS, Nonprofit, and Events.
+overview: 'YourMembership publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Certifications API, Commerce and Sales API, and 3 more. Tagged areas include Membership Management, Association Management, AMS, Non-Profit, and Event.
 
 
   YourMembership''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -159,7 +159,7 @@ scopes:
 score:
   band: thin
   composite: 36.7
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -169,7 +169,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.3
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -194,8 +194,8 @@ tags:
 - Membership Management
 - Association Management
 - AMS
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - Careers
 - Community Brands
 - Momentive Software

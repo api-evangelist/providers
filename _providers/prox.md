@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted MCP server that lets AI assistants query a manufacturer's Prox workspace (products, knowledge trees, wiki nodes) grounded in their manuals and make attributed, version-controlled edits. OAuth 2
@@ -110,14 +110,14 @@ description: Prox is the AI product specialist for manufacturers of complex phys
 image: https://useprox.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: prox-mcp.yml
-  slug: prox-mcpyml
+- description: Prox's hosted Model Context Protocol connector. Lets ChatGPT, Claude, Copilot, and Gemini query a manufacturer's Prox workspace — products, knowledge trees, and wiki nodes grounded in the company's ma
+  name: Prox MCP Server
+  slug: prox-mcp-server
 modified: '2026-07-20'
 name: Prox
 nav: Providers
 network: true
-overview: 'Prox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, MCP, Model Context Protocol, and Manufacturing.
+overview: 'Prox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, MCP, Manufacturing, and Product Support.
 
 
   Prox''s developer surface includes documentation, authentication, pricing, signup flow, support, and 12 more developer resources.'
@@ -130,7 +130,7 @@ scopes:
 score:
   band: thin
   composite: 26.4
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -140,11 +140,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 27.5
+  previous_composite: 26.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -164,7 +164,6 @@ tags:
 - Company
 - Artificial Intelligence
 - MCP
-- Model Context Protocol
 - Manufacturing
 - Product Support
 - Knowledge Base

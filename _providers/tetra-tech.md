@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Cosmos is Tetra Tech's mobile data collection platform designed for field data capture, project management, and reporting. The Cosmos API and webhook system enables integration with third-party enterp
@@ -177,7 +177,7 @@ rules:
 score:
   band: emerging
   composite: 19.8
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -187,10 +187,10 @@ score:
     discoverability: 75.9
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 25.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 19.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetra-tech/refs/heads/main/screenshots/tetra-tech-2026-06-20T195157.png
 security:
 - kind: domain-security

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Anonymous JSON-RPC 2.0 / Model Context Protocol endpoint implementing the Universal Commerce Protocol shopping service (version 2026-04-08). A tools/list call returns 13 tools with JSON Schema input c
@@ -135,9 +135,9 @@ description: 'Flying Embers is a Ventura, California beverage company founded in
 image: https://www.flyingembers.com/cdn/shop/files/fe-social-logo.png?v=1692298714
 layout: provider
 mcp_servers:
-- description: ''
-  name: flying-embers-mcp.yml
-  slug: flying-embers-mcpyml
+- description: Flying Embers serves a live, unauthenticated Model Context Protocol endpoint on its own domain as part of the Universal Commerce Protocol (UCP) shopping service. A tools/list call returns 13 real tool
+  name: Flying Embers Commerce MCP (UCP)
+  slug: flying-embers-commerce-mcp-ucp
 modified: '2026-08-16'
 name: Flying Embers
 nav: Providers
@@ -162,24 +162,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.1
-  delta: -2.8
+  composite: 25.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 26.9
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

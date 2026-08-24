@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: A category is a classification for product listings, with specific attributes and constraints that products within the category must adhere to.
@@ -197,13 +197,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wallapop.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: wallapop-mcp.yml
-  slug: wallapop-mcpyml
+  name: Wallapop MCP Server
+  slug: wallapop-mcp-server
 modified: '2026-07-21'
 name: Wallapop
 nav: Providers
 network: true
-overview: 'Wallapop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Delivery API, Disputes API, and 3 more. Tagged areas include Company, Consumer, Marketplace, Ecommerce, and Second-Hand.
+overview: 'Wallapop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Delivery API, Disputes API, and 3 more. Tagged areas include Company, Consumer, Marketplace, E-Commerce, and Secondhand.
 
 
   The Wallapop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -223,7 +223,7 @@ scopes:
 score:
   band: strong
   composite: 55.1
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -233,7 +233,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 55.4
+  previous_composite: 55.1
   provenance:
     conformance: derived
     contracts:
@@ -243,8 +243,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/screenshots/wallapop-2026-08-17T082833.png
 security:
@@ -261,10 +261,10 @@ tags:
 - Company
 - Consumer
 - Marketplace
-- Ecommerce
-- Second-Hand
+- E-Commerce
+- Secondhand
 - Classifieds
 - Shipping
-- Webhooks
+- Webhook
 website: https://www.wallapop.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The El Dorado onramp/offramp trading API for converting between Latin American fiat currencies and crypto (USDT on Arbitrum). Create buy/sell quotes and orders, manage KYC, and fetch supported currenc
@@ -135,13 +135,13 @@ image: https://api.eldorado.io/img/index/og_image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: eldorado-mcp.yml
-  slug: eldorado-mcpyml
+  name: Eldorado MCP Server
+  slug: eldorado-mcp-server
 modified: '2026-07-19'
 name: Eldorado
 nav: Providers
 network: true
-overview: 'Eldorado publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Stablecoins, Payments, and Onramp.
+overview: 'Eldorado publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Stablecoins, Payments, and On-Ramp.
 
 
   The Eldorado catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -152,7 +152,7 @@ random_paper: 2
 score:
   band: thin
   composite: 26.3
-  delta: -9.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -162,7 +162,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 35.5
+  previous_composite: 26.3
   provenance:
     conformance: derived
     mcp: derived
@@ -173,9 +173,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eldorado/refs/heads/main/screenshots/eldorado-2026-07-25T213057.png
 security:
 - kind: authentication
@@ -192,8 +192,8 @@ tags:
 - Crypto Web3
 - Stablecoins
 - Payments
-- Onramp
-- Offramp
+- On-Ramp
+- Off-Ramp
 - Cryptocurrency
 - Latin America
 - KYC

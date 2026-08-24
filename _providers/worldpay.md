@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -373,8 +373,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/worldpay.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Worldpay MCP Server
+  slug: worldpay-mcp-server
 modified: '2026-06-13'
 name: Worldpay
 nav: Providers
@@ -395,7 +395,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.8
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -405,7 +405,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 46.4
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -419,8 +419,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/screenshots/worldpay-2026-08-17T130436.png
 security:
@@ -442,7 +442,7 @@ tags:
 - Recurring Billing
 - Payouts
 - Foreign Exchange
-- Financial Services
+- Financial-Services
 - Fintech
 website: https://developer.worldpay.com/
 ---

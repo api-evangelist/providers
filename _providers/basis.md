@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ jsonld:
   slug: basis-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Candidate MCP tool surface for the Basis Platform API. All 31 published operations are GET, so a faithful MCP server for this API is entirely read-only: an agent can plan-and-report against Basis camp'
   name: Candidate tool surface derived from the Basis OpenAPI — Basis operates no MCP server
   slug: candidate-tool-surface-derived-from-the-basis-openapi-basis-operates-no-mcp-server
 modified: '2026-08-13'
@@ -281,7 +281,7 @@ scopes:
 score:
   band: developing
   composite: 52.8
-  delta: -9.8
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -291,7 +291,7 @@ score:
     discoverability: 87.0
     governance: 55.3
     operational_transparency: 31.6
-  previous_composite: 62.6
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,9 +302,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/screenshots/basis-2026-06-20T173036.png
 security:
 - kind: authentication

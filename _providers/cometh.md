@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: ERC-4337 bundler JSON-RPC endpoint. Accepts User Operations into the mempool, estimates UserOp gas, returns a UserOp and its receipt by hash, and lists supported EntryPoint addresses. One endpoint per
@@ -138,7 +138,7 @@ modified: '2026-08-17'
 name: Cometh
 nav: Providers
 network: true
-overview: 'Cometh publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, account-abstraction, erc-4337, and smart-wallet.
+overview: 'Cometh publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Account Abstraction, ERC-4337, and Smart Wallet.
 
 
   Cometh''s developer surface includes documentation, API reference, getting-started guide, signup flow, YouTube channel, authentication, sandbox, and 17 more developer resources.'
@@ -154,6 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -163,6 +164,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 2.6
+  previous_composite: 29.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -172,8 +174,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Cometh Authentication
@@ -191,21 +194,21 @@ slug: cometh
 tags:
 - Company
 - Blockchain
-- account-abstraction
-- erc-4337
-- smart-wallet
-- paymaster
-- bundler
-- passkeys
-- webauthn
-- gasless-transactions
-- defi
-- custody
-- staking
-- payments
-- json-rpc
-- mica
-- safe
-- web3
+- Account Abstraction
+- ERC-4337
+- Smart Wallet
+- Paymaster
+- Bundler
+- Passkeys
+- WebAuthn
+- Gasless Transactions
+- DeFi
+- Custody
+- Staking
+- Payments
+- JSON-RPC
+- MiCA
+- SAFe
+- Web3
 website: https://www.cometh.io/
 ---

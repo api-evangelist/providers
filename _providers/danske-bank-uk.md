@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -232,13 +232,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: danske-bank-uk-mcp.yml
-  slug: danske-bank-uk-mcpyml
+  name: Danske Bank (UK) MCP Server
+  slug: danske-bank-uk-mcp-server
 modified: '2026-07-23'
 name: Danske Bank (UK)
 nav: Providers
 network: true
-overview: 'Danske Bank (UK) publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction API, Payment Initiation API, and 8 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Danske Bank (UK) publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction API, Payment Initiation API, and 8 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   The Danske Bank (UK) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,7 +254,7 @@ scopes:
 score:
   band: developing
   composite: 47.8
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -264,7 +264,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 46.1
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,8 +276,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/screenshots/danske-bank-uk-2026-07-25T211205.png
 security:
@@ -291,7 +291,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: danske-bank-uk
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

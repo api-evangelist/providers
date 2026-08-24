@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -318,8 +318,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dow-jones.
 layout: provider
 mcp_servers:
 - description: ''
-  name: dow-jones-mcp.yml
-  slug: dow-jones-mcpyml
+  name: Dow Jones MCP Server
+  slug: dow-jones-mcp-server
 modified: '2026-08-13'
 name: Dow Jones
 nav: Providers
@@ -348,7 +348,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.1
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -358,7 +358,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 64.2
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -375,8 +375,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 80.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API to automate the Nevis Authentication Cloud — passwordless registration, authentication and transaction signing (FIDO2 / passkeys, Access App, OATH TOTP, SMS OTP, recovery codes), user and aut
@@ -135,8 +135,8 @@ image: https://www.nevis.net/hubfs/Nevis/images/logotype.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: nevis-mcp.yml
-  slug: nevis-mcpyml
+  name: Nevis MCP Server
+  slug: nevis-mcp-server
 modified: '2026-07-20'
 name: Nevis
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 3
 score:
   band: thin
   composite: 32.8
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -159,12 +159,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 31.7
+  previous_composite: 32.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/screenshots/nevis-2026-08-07T185048.png
 security:

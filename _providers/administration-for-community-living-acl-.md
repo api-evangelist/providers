@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The AGing, Independence, and Disability (AGID) Program Data Portal provides publicly accessible data from programs funded under the Older Americans Act and related disability programs. Datasets includ
@@ -92,7 +92,7 @@ modified: '2026-04-19'
 name: Administration for Community Living (ACL)
 nav: Providers
 network: true
-overview: 'Administration for Community Living (ACL) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aging, Federal Government, Healthcare, Disability, and Independent Living.
+overview: 'Administration for Community Living (ACL) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aging, Federal-Government, Healthcare, Disability, and Independent Living.
 
 
   Administration for Community Living (ACL)''s developer surface includes developer portal and 6 more developer resources.'
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -118,15 +118,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 11.7
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/administration-for-community-living-acl-/refs/heads/main/screenshots/administration-for-community-living-acl--2026-06-20T164721.png
 security:
@@ -137,7 +137,7 @@ security:
 slug: administration-for-community-living-acl-
 tags:
 - Aging
-- Federal Government
+- Federal-Government
 - Healthcare
 - Disability
 - Independent Living

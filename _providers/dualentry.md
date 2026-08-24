@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for programmatic access to an organization's accounting data across setup (accounts, items, classifications), master data (companies, customers, vendors), transactions (invoices, bills, journ
@@ -159,13 +159,13 @@ image: https://cdn.prod.website-files.com/66bf861737ab5a556a15c52b/671944f8d88d8
 layout: provider
 mcp_servers:
 - description: ''
-  name: dualentry-mcp.yml
-  slug: dualentry-mcpyml
+  name: DualEntry MCP Server
+  slug: dualentry-mcp-server
 modified: '2026-07-18'
 name: DualEntry
 nav: Providers
 network: true
-overview: 'DualEntry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Accounting, ERP, and Finance.
+overview: 'DualEntry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Accounting, ERP, and Finance.
 
 
   The DualEntry catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.2
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -190,13 +190,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 53.2
+  previous_composite: 43.2
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dualentry/refs/heads/main/screenshots/dualentry-2026-07-25T212448.png
 security:
 - kind: authentication
@@ -210,7 +210,7 @@ security:
 slug: dualentry
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Accounting
 - ERP
 - Finance

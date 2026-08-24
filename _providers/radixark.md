@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-20'
 name: RadixArk
 nav: Providers
 network: true
-overview: 'RadixArk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, AI Infrastructure, Machine Learning, and LLM.
+overview: 'RadixArk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Machine-Learning, and LLM.
 
 
   RadixArk''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 11.0
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -98,9 +98,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -110,12 +110,12 @@ security:
 slug: radixark
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Infrastructure
-- Machine Learning
+- Machine-Learning
 - LLM
 - Inference
 - Reinforcement Learning
-- Open Source
+- Open-Source
 website: https://www.radixark.ai/
 ---

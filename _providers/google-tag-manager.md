@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -799,8 +799,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: google-tag-manager-mcp.yml
-  slug: google-tag-manager-mcpyml
+  name: Google Tag Manager MCP Server
+  slug: google-tag-manager-mcp-server
 modified: '2026-08-13'
 name: Google Tag Manager
 nav: Providers
@@ -850,18 +850,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.9
-  delta: -4.1
+  composite: 68.3
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 40.2
+    contract_governance: 43.9
     contract_quality: 70.5
     developer_ergonomics: 73.2
     discoverability: 100.0
-    governance: 40.2
+    governance: 43.9
     operational_transparency: 34.2
-  previous_composite: 72.0
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -872,8 +872,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:

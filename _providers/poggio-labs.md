@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -213,16 +213,16 @@ image: https://poggio.io/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: poggio-labs-mcp.yml
-  slug: poggio-labs-mcpyml
+  name: Poggio Labs MCP Server
+  slug: poggio-labs-mcp-server
 - description: ''
-  name: poggio-labs-goalkeeper-mcp.yml
-  slug: poggio-labs-goalkeeper-mcpyml
+  name: Poggio Labs MCP Server
+  slug: poggio-labs-mcp-server-2
 modified: '2026-08-13'
 name: Poggio Labs
 nav: Providers
 network: true
-overview: 'Poggio Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Goalkeeper API. Tagged areas include Company, Ai, Revenue Intelligence, Sales, and Account Intelligence.
+overview: 'Poggio Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Goalkeeper API. Tagged areas include Company, Artificial Intelligence, Revenue Intelligence, Sales, and Account Intelligence.
 
 
   Poggio Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
@@ -243,7 +243,7 @@ scopes:
 score:
   band: strong
   composite: 57.8
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -253,7 +253,7 @@ score:
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 59.0
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -264,8 +264,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/screenshots/poggio-labs-2026-08-17T081318.png
 security:
@@ -284,7 +284,7 @@ security:
 slug: poggio-labs
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Revenue Intelligence
 - Sales
 - Account Intelligence
@@ -293,7 +293,7 @@ tags:
 - MCP
 - AI Agents
 - Enterprise
-- Open Source
+- Open-Source
 - Goals
 - Gong
 - Slack

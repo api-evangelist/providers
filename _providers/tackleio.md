@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 28
 apis:
 - description: Operations for API Authentication
@@ -333,8 +333,8 @@ image: https://files.readme.io/f0c77fe-tackle-logo-light_1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: tackleio-mcp.yml
-  slug: tackleio-mcpyml
+  name: Tackle API MCP Server
+  slug: tackle-api-mcp-server
 modified: '2026-07-21'
 name: Tackle.io
 nav: Providers
@@ -354,18 +354,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.7
-  delta: -2.7
+  composite: 52.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 16.7
     contract_quality: 73.3
     developer_ergonomics: 50.6
-    discoverability: 57.4
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 52.4
+  previous_composite: 52.7
   provenance:
     conformance: derived
     contracts:
@@ -375,8 +375,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/screenshots/tackleio-2026-08-17T082241.png
 security:
@@ -404,7 +404,7 @@ tags:
 - Private Offers
 - Metering
 - SCIM
-- Webhooks
+- Webhook
 - B2B SaaS
 website: https://tackle.io
 ---

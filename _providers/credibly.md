@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API (V2) enabling approved broker and referral partners to submit loan applications, upload supporting documentation, receive webhook-based status updates, identify outstanding stipulations, and '
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 11.3
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -123,16 +123,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.6
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credibly/refs/heads/main/screenshots/credibly-2026-06-20T175222.png
 security:
 - kind: domain-security

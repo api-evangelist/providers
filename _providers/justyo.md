@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Read account/subscriber information.
@@ -120,13 +120,13 @@ image: https://raw.githubusercontent.com/api-evangelist/justyo/refs/heads/main/o
 layout: provider
 mcp_servers:
 - description: ''
-  name: justyo-mcp.yml
-  slug: justyo-mcpyml
+  name: justyo MCP Server
+  slug: justyo-mcp-server
 modified: '2026-07-19'
 name: justyo
 nav: Providers
 network: true
-overview: 'justyo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Account API and Yo API. Tagged areas include Company, Notifications, Push Notifications, Messaging, and Mobile.
+overview: 'justyo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Account API and Yo API. Tagged areas include Company, Notification, Push Notifications, Messaging, and Mobile.
 
 
   justyo''s developer surface includes documentation, signup flow, authentication, and 13 more developer resources.'
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.3
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -148,7 +148,7 @@ score:
     discoverability: 75.9
     governance: 12.1
     operational_transparency: 23.7
-  previous_composite: 37.1
+  previous_composite: 33.3
   provenance:
     contracts:
       callable: 100.0
@@ -157,8 +157,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -172,11 +172,10 @@ security:
 slug: justyo
 tags:
 - Company
-- Notifications
+- Notification
 - Push Notifications
 - Messaging
 - Mobile
 - Developer Tools
-- API
 website: https://justyo.co
 ---

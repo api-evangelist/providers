@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -204,13 +204,13 @@ image: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/apis
 layout: provider
 mcp_servers:
 - description: ''
-  name: brl-mcp.yml
-  slug: brl-mcpyml
+  name: BRL MCP Server
+  slug: brl-mcp-server
 modified: '2026-07-18'
 name: BRL
 nav: Providers
 network: true
-overview: 'BRL publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Claims API, and 7 more. Tagged areas include Company, Crypto, Stablecoin, Payments, and Brazil.
+overview: 'BRL publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Claims API, and 7 more. Tagged areas include Company, Crypto, Stablecoins, Payments, and Brazil.
 
 
   The BRL catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -221,7 +221,7 @@ random_paper: 5
 score:
   band: developing
   composite: 41.4
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 40.1
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,8 +247,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/screenshots/brl-2026-07-25T203938.png
 security:
@@ -264,10 +264,10 @@ slug: brl
 tags:
 - Company
 - Crypto
-- Stablecoin
+- Stablecoins
 - Payments
 - Brazil
-- PIX
+- Pix
 - Fintech
 - Blockchain
 - Digital Assets

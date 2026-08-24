@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ modified: '2026-06-21'
 name: Lightly
 nav: Providers
 network: true
-overview: 'Lightly publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Datasources API, Embeddings API, and 4 more. Tagged areas include AI, Computer Vision, Data Curation, Active Learning, and Embeddings.
+overview: 'Lightly publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Datasources API, Embeddings API, and 4 more. Tagged areas include Artificial Intelligence, Computer-Vision, Data Curation, Active Learning, and Embeddings.
 
 
   Lightly''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -176,7 +176,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.3
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/screenshots/lightly-ai-2026-07-25T225121.png
 security:
@@ -199,8 +199,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: lightly-ai
 tags:
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Data Curation
 - Active Learning
 - Embeddings

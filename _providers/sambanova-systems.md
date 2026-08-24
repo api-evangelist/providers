@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -247,13 +247,13 @@ image: https://github.com/sambanova.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sambanova-systems-mcp.yml
-  slug: sambanova-systems-mcpyml
+  name: SambaNova Systems MCP Server
+  slug: sambanova-systems-mcp-server
 modified: '2026-07-21'
 name: SambaNova Systems
 nav: Providers
 network: true
-overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat completions API, Completions API, and 9 more. Tagged areas include Company, Ai, Artificial Intelligence, Machine Learning, and LLM.
+overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat completions API, Completions API, and 9 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
 
 
   SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
@@ -265,7 +265,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.2
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -275,7 +275,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 55.7
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,8 +286,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/screenshots/sambanova-systems-2026-08-17T081717.png
 security:
@@ -302,13 +302,11 @@ security:
 slug: sambanova-systems
 tags:
 - Company
-- Ai
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM
 - Inference
 - Generative AI
-- API
 - Agents
 - Embeddings
 website: https://sambanova.ai

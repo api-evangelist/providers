@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 214
   human_in_the_loop: 0
@@ -2477,13 +2477,13 @@ json_structures:
 layout: provider
 mcp_servers:
 - description: ''
-  name: xero-mcp-server
+  name: Xero MCP Server
   slug: xero-mcp-server
 modified: '2026-05-30'
 name: Xero
 nav: Providers
 network: true
-overview: 'Xero publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Asset API, BankFeeds API, and 7 more. Tagged areas include Accounting, Bank Feeds, Finance, Financial Services, and Invoicing.
+overview: 'Xero publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Asset API, BankFeeds API, and 7 more. Tagged areas include Accounting, Bank Feeds, Finance, Financial-Services, and Invoicing.
 
 
   The Xero catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -2529,7 +2529,7 @@ scopes:
 score:
   band: strong
   composite: 55.2
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -2539,7 +2539,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 47.4
-  previous_composite: 56.6
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     contracts:
@@ -2553,8 +2553,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/screenshots/xero-2026-06-20T201700.png
 security:
@@ -2571,7 +2571,7 @@ tags:
 - Accounting
 - Bank Feeds
 - Finance
-- Financial Services
+- Financial-Services
 - Invoicing
 - Payroll
 - Small Business

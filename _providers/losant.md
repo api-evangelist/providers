@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 1
@@ -395,7 +395,7 @@ layout: provider
 name: Losant
 nav: Providers
 network: true
-overview: 'Losant publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Application API, Device API, Experience API, and 6 more. Tagged areas include IoT, Internet Of Things, Devices, Edge Compute, and Embedded.
+overview: 'Losant publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Application API, Device API, Experience API, and 6 more. Tagged areas include IoT, Internet of Things, Devices, Edge Compute, and Embedded.
 
 
   The Losant catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -435,18 +435,18 @@ rules:
   slug: losant-rules
 score:
   band: strong
-  composite: 60.0
-  delta: -3.6
+  composite: 60.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 70.8
     developer_ergonomics: 78.6
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 47.4
-  previous_composite: 63.6
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     contracts:
@@ -454,8 +454,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/screenshots/losant-2026-06-20T184729.png
 security:
@@ -470,14 +470,14 @@ security:
 slug: losant
 tags:
 - IoT
-- Internet Of Things
+- Internet of Things
 - Devices
 - Edge Compute
 - Embedded
 - MQTT
 - Industrial IoT
 - Telemetry
-- Workflow Automation
+- Workflow-Automation
 - Visual Workflow Engine
 - Dashboards
 - Time Series

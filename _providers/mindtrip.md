@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Consumer-facing web application for conversational AI trip planning, itinerary building, collaboration, and booking of flights, hotels, restaurants, experiences, and events.
@@ -114,7 +114,7 @@ modified: '2026-06-02'
 name: Mindtrip
 nav: Providers
 network: true
-overview: 'Mindtrip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, AI, Agentic AI, Itinerary Planning, and Booking.
+overview: 'Mindtrip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Artificial Intelligence, Agentic AI, Itinerary Planning, and Booking.
 
 
   Mindtrip''s developer surface includes documentation, GitHub presence, pricing, and 8 more developer resources.'
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.7
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -140,9 +140,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 22.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -156,7 +156,7 @@ security:
 slug: mindtrip
 tags:
 - Travel
-- AI
+- Artificial Intelligence
 - Agentic AI
 - Itinerary Planning
 - Booking

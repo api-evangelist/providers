@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: SQL-over-HTTP query engine plus RESTful resources for projects, databases, knowledge bases, tables, views, files, jobs, and AI agents. Self-hosted by default (http://127.0.0.1:47334); MindsDB Cloud is
@@ -134,14 +134,14 @@ description: MindsDB is an open-source (MIT) AI data platform and semantic query
 image: https://github.com/mindsdb.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: mindsdb-mcp.yml
-  slug: mindsdb-mcpyml
+- description: MindsDB ships a first-party MCP (Model Context Protocol) server built into the MindsDB engine. It exposes the MindsDB query surface to MCP clients (Claude Desktop, OpenAI, Cursor) so agents can run SQ
+  name: MindsDB MCP Server
+  slug: mindsdb-mcp-server
 modified: '2026-07-20'
 name: MindsDB
 nav: Providers
 network: true
-overview: 'MindsDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, AI Agents, and Data.
+overview: 'MindsDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, AI Agents, and Data.
 
 
   MindsDB''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
@@ -149,7 +149,7 @@ random_paper: 2
 score:
   band: thin
   composite: 27.0
-  delta: -8.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -159,13 +159,13 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 35.8
+  previous_composite: 27.0
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindsdb/refs/heads/main/screenshots/mindsdb-2026-08-07T172935.png
 security:
 - kind: authentication
@@ -180,13 +180,13 @@ slug: mindsdb
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - AI Agents
 - Data
 - Database
 - SQL
 - Knowledge Base
 - MCP
-- Open Source
+- Open-Source
 website: https://mindshub.ai
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -431,14 +431,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unit-co.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: unit-co-mcp.yml
-  slug: unit-co-mcpyml
+- description: Candidate MCP tool surface derived one-to-one from the Unit OpenAPI operations. Unit does not publish a hosted/remote MCP server; this is a proposed mapping so the operations can be exposed as agent t
+  name: Unit MCP Server
+  slug: unit-mcp-server
 modified: '2026-08-08'
 name: Unit
 nav: Providers
 network: true
-overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include FinTech, BaaS, Banking, Payments, and Card Issuing.
+overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include Fintech, Backend-as-a-Service, Banking, Payments, and Card Issuing.
 
 
   The Unit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -462,7 +462,7 @@ scopes:
 score:
   band: exemplar
   composite: 73.7
-  delta: 5.4
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -472,7 +472,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 92.1
-  previous_composite: 68.3
+  previous_composite: 73.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -489,9 +489,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
 security:
 - kind: authentication
@@ -512,8 +512,8 @@ security:
   summary_line: SOC 2, PCI DSS
 slug: unit-co
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Lending-grade automated valuation model (ClearAVM) and Rental AVM delivered over a RESTful interface, returning a point value estimate, value certainty, and supporting analytics for a subject property
@@ -106,7 +106,7 @@ modified: '2026-06-21'
 name: Clear Capital
 nav: Providers
 network: true
-overview: 'Clear Capital publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ClearAVM / Valuation API, Property Data API, Comparables (Comps) API, and 1 more. Tagged areas include Real Estate, Property Data, Valuation, AVM, and Appraisal.
+overview: 'Clear Capital publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ClearAVM / Valuation API, Property Data API, Comparables (Comps) API, and 1 more. Tagged areas include Real-Estate, Property Data, Valuation, AVM, and Appraisal.
 
 
   Clear Capital''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -122,7 +122,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.6
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -132,9 +132,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 31.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/screenshots/clear-capital-2026-07-25T205535.png
 security:
@@ -152,7 +152,7 @@ security:
   summary_line: SOC 2
 slug: clear-capital
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Valuation
 - AVM

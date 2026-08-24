@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 6
@@ -593,13 +593,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vivenu.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: vivenu-mcp.yml
-  slug: vivenu-mcpyml
+  name: vivenu MCP Server
+  slug: vivenu-mcp-server
 modified: '2026-07-21'
 name: vivenu
 nav: Providers
 network: true
-overview: 'vivenu publishes 73 APIs on the [APIs.io](https://apis.io/) network, including access-lists API, accessusers API, api API, and 70 more. Tagged areas include Company, Event Ticketing, Ticketing, Events, and Payments.
+overview: 'vivenu publishes 73 APIs on the [APIs.io](https://apis.io/) network, including access-lists API, accessusers API, api API, and 70 more. Tagged areas include Company, Event Ticketing, Ticketing, Event, and Payments.
 
 
   The vivenu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -610,7 +610,7 @@ random_paper: 18
 score:
   band: developing
   composite: 46.6
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -620,7 +620,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 42.6
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -637,8 +637,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/screenshots/vivenu-2026-08-17T082808.png
 security:
@@ -659,10 +659,10 @@ tags:
 - Company
 - Event Ticketing
 - Ticketing
-- Events
+- Event
 - Payments
 - Live Entertainment
-- Webhooks
-- API-first
+- Webhook
+- API-First
 website: https://vivenu.com/
 ---

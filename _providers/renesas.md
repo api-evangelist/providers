@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -200,8 +200,8 @@ image: https://www.renesas.com/themes/kachow/images/renesas-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: renesas-mcp.yml
-  slug: renesas-mcpyml
+  name: Renesas Web Data API docs MCP
+  slug: renesas-web-data-api-docs-mcp
 modified: '2026-07-20'
 name: Renesas
 nav: Providers
@@ -214,7 +214,7 @@ random_paper: 18
 score:
   band: developing
   composite: 46.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -224,7 +224,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 47.4
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/screenshots/renesas-2026-08-17T081518.png
 security:

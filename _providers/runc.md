@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: runc is a CLI tool for spawning and running containers on Linux according to the OCI (Open Container Initiative) specification. It is the reference implementation of the OCI runtime specification, pro
@@ -98,7 +98,7 @@ modified: '2026-05-02'
 name: Runc
 nav: Providers
 network: true
-overview: 'Runc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Container Runtime, Containers, Linux, OCI, and Open Source.
+overview: 'Runc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Container Runtime, Containers, Linux, OCI, and Open-Source.
 
 
   The Runc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -128,7 +128,7 @@ rules:
 score:
   band: emerging
   composite: 20.3
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -138,10 +138,10 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 27.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 20.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runc/refs/heads/main/screenshots/runc-2026-06-20T193250.png
 security:
 - kind: domain-security
@@ -154,9 +154,9 @@ tags:
 - Containers
 - Linux
 - OCI
-- Open Source
+- Open-Source
 - CNCF
 - Open Container Initiative
-- Cloud Native
+- Cloud-Native
 website: https://opencontainers.org/
 ---

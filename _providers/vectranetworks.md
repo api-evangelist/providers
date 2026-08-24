@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: Dedicated endpoint to Accounts.
@@ -249,9 +249,9 @@ description: Vectra AI (founded as Vectra Networks, a Khosla Ventures portfolio 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vectranetworks.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: vectranetworks-mcp.yml
-  slug: vectranetworks-mcpyml
+- description: No official hosted or remote MCP server was found for Vectra AI — the vectranetworks GitHub organization (57 public repos) ships SIEM/SOAR integrations (Microsoft Sentinel, Splunk SOAR, Google SecOps,
+  name: Vectra AI MCP Server
+  slug: vectra-ai-mcp-server
 modified: '2026-07-21'
 name: Vectra AI
 nav: Providers
@@ -269,7 +269,7 @@ scopes:
 score:
   band: developing
   composite: 40.2
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -279,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 41.6
+  previous_composite: 40.2
   provenance:
     conformance: derived
     contracts:
@@ -289,8 +289,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

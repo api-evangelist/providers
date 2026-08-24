@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The primary Trestle interface — a RESO Web API 2.0 / OData 4.0 endpoint that republishes MLS data mapped to the RESO Data Dictionary. The anonymously readable OData service document advertises 18 enti
@@ -205,14 +205,14 @@ description: 'Trestle is the real estate data distribution platform operated by 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/corelogic.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: trestle-mcp.yml
-  slug: trestle-mcpyml
+- description: Trestle publishes no MCP server, no tool manifest, and no agent-facing surface of any kind. Its parent, Cotality, DOES operate a hosted MCP server — but it fronts a different product line (property in
+  name: Trestle MCP Server
+  slug: trestle-mcp-server
 modified: '2026-07-26'
 name: Trestle
 nav: Providers
 network: true
-overview: 'Trestle publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United States, MLS, RESO, and Property Listings.
+overview: 'Trestle publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United States, MLS, RESO, and Property Listings.
 
 
   Trestle''s developer surface includes documentation, FAQ, signup flow, support, getting-started guide, API reference, engineering blog, and 32 more developer resources.'
@@ -229,7 +229,7 @@ scopes:
 score:
   band: developing
   composite: 42.0
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -239,13 +239,13 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 40.9
+  previous_composite: 42.0
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -262,7 +262,7 @@ security:
   summary_line: Bugcrowd
 slug: trestle
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - MLS
 - RESO

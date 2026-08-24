@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -101,7 +101,7 @@ modified: '2026-08-19'
 name: Valtix
 nav: Providers
 network: true
-overview: 'Valtix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cloud Security, Network Security, and Multicloud.
+overview: 'Valtix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cloud Security, Network Security, and Multi-Cloud.
 
 
   The Valtix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -112,7 +112,7 @@ random_paper: 13
 score:
   band: thin
   composite: 28.4
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -128,9 +128,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 29.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 28.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -147,7 +147,7 @@ tags:
 - Security
 - Cloud Security
 - Network Security
-- Multicloud
+- Multi-Cloud
 - Firewall
 - Terraform
 website: https://www.valtix.com

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Baselane
 nav: Providers
 network: true
-overview: 'Baselane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Proptech, Landlord Banking, and Rent Collection.
+overview: 'Baselane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, PropTech, Landlord Banking, and Rent Collection.
 
 
   Baselane''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
@@ -84,7 +84,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 12.1
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -94,15 +94,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.6
+  previous_composite: 12.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baselane/refs/heads/main/screenshots/baselane-2026-07-25T202420.png
 security:
@@ -114,10 +114,10 @@ slug: baselane
 tags:
 - Company
 - Fintech
-- Proptech
+- PropTech
 - Landlord Banking
 - Rent Collection
-- Real Estate
+- Real-Estate
 - Banking
 - Bookkeeping
 website: https://baselane.com

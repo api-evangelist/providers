@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The US Arctic Research Commission (USARC) is an independent federal agency that advises the President and Congress on domestic and international Arctic research policy. The Commission establishes nati
@@ -74,7 +74,7 @@ modified: '2026-05-03'
 name: US Arctic Research Commission
 nav: Providers
 network: true
-overview: 'US Arctic Research Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Arctic Research, Federal Government, Climate Change, Research Policy, and Advisory Commission.
+overview: 'US Arctic Research Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Arctic Research, Federal-Government, Climate Change, Research Policy, and Advisory Commission.
 
 
   The US Arctic Research Commission catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -101,7 +101,7 @@ rules:
 score:
   band: emerging
   composite: 16.0
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -117,16 +117,16 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 22.4
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/screenshots/us-arctic-research-commission-2026-06-20T200552.png
 security:
 - kind: domain-security
@@ -136,7 +136,7 @@ security:
 slug: us-arctic-research-commission
 tags:
 - Arctic Research
-- Federal Government
+- Federal-Government
 - Climate Change
 - Research Policy
 - Advisory Commission

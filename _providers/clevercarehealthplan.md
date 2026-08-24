@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,8 +161,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clevercare
 layout: provider
 mcp_servers:
 - description: ''
-  name: clevercarehealthplan-mcp.yml
-  slug: clevercarehealthplan-mcpyml
+  name: Clever Care Health Plan MCP Server
+  slug: clever-care-health-plan-mcp-server
 modified: '2026-07-18'
 name: Clever Care Health Plan
 nav: Providers
@@ -180,7 +180,7 @@ scopes:
 score:
   band: developing
   composite: 42.8
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 46.1
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -207,8 +207,8 @@ score:
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/screenshots/clevercarehealthplan-2026-07-25T205602.png
 security:

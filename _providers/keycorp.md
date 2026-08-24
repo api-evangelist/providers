@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -221,13 +221,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keycorp.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: keycorp-mcp.yml
-  slug: keycorp-mcpyml
+  name: KeyCorp MCP Server
+  slug: keycorp-mcp-server
 modified: '2026-07-23'
 name: KeyCorp
 nav: Providers
 network: true
-overview: 'KeyCorp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including KeyBank Account Information API, KeyBank ACH Origination API, KeyBank Wire Transfer API, and 7 more. Tagged areas include Banking, Commercial Banking, Financial Services, Fortune 500, and Payments.
+overview: 'KeyCorp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including KeyBank Account Information API, KeyBank ACH Origination API, KeyBank Wire Transfer API, and 7 more. Tagged areas include Banking, Commercial Banking, Financial-Services, Fortune 500, and Payments.
 
 
   The KeyCorp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -262,7 +262,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.3
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -272,7 +272,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 43.2
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,8 +289,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png
 security:
@@ -306,7 +306,7 @@ slug: keycorp
 tags:
 - Banking
 - Commercial Banking
-- Financial Services
+- Financial-Services
 - Fortune 500
 - Payments
 - United States

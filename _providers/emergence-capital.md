@@ -28,10 +28,10 @@ tags:
 - Early Stage
 - Series A
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 - B2B
 - Cloud
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Fintech
 - North America

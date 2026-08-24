@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -232,14 +232,14 @@ description: Unified accommodation-data API returning live search, availability,
 image: https://stayingapi.com/icon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: stayingapi-mcp.yml
-  slug: stayingapi-mcpyml
+- description: StayingAPI operates a first-party hosted MCP server over Streamable HTTP, authenticated with OAuth 2.1 + PKCE (S256) and dynamic client registration, drawing on the same account and the same single cr
+  name: StayingAPI
+  slug: stayingapi
 modified: '2026-08-09'
 name: StayingAPI
 nav: Providers
 network: true
-overview: 'StayingAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Data API, and Jobs API. Tagged areas include travel, hospitality, accommodation-data, hotel-api, and vacation-rental.
+overview: 'StayingAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Data API, and Jobs API. Tagged areas include Travel, Hospitality, accommodation-data, hotel-api, and Vacation Rental.
 
 
   StayingAPI''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 33 more developer resources.'
@@ -260,7 +260,7 @@ scopes:
 score:
   band: strong
   composite: 66.0
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -270,7 +270,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 66.8
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,8 +281,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/screenshots/stayingapi-2026-08-17T080426.png
 security:
@@ -296,22 +296,22 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: stayingapi
 tags:
-- travel
-- hospitality
+- Travel
+- Hospitality
 - accommodation-data
 - hotel-api
-- vacation-rental
-- short-term-rental
-- airbnb
-- booking.com
-- vrbo
+- Vacation Rental
+- Short-Term Rental
+- Airbnb
+- Booking.com
+- Vrbo
 - google-hotels
 - cross-ota-price-comparison
-- availability
-- reviews
-- rest
-- mcp
+- Availability
+- Reviews
+- REST
+- MCP
 - agent-native
-- openapi
+- OpenAPI
 website: https://stayingapi.com/docs
 ---

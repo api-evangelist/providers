@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for RunReveal — manage sources, detections, pipelines, investigations, dashboards, notifications, agents, and agent skills across a workspace. OAuth2 (authorization_code + PKCE) or workspace '
@@ -151,8 +151,8 @@ image: https://runreveal.com/unfurl.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: runreveal-mcp.yml
-  slug: runreveal-mcpyml
+  name: RunReveal MCP Server
+  slug: runreveal-mcp-server
 modified: '2026-07-21'
 name: RunReveal
 nav: Providers
@@ -170,7 +170,7 @@ scopes:
 score:
   band: developing
   composite: 39.7
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -180,13 +180,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 40.0
+  previous_composite: 39.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -213,6 +213,6 @@ tags:
 - Observability
 - SQL
 - MCP
-- AI
+- Artificial Intelligence
 website: https://runreveal.com
 ---

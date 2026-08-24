@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ random_paper: 18
 score:
   band: thin
   composite: 29.9
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -151,7 +151,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 34.0
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/screenshots/personio-2026-06-20T191622.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Create, list, clone, export, and delete projects, and manage the environments (production, staging, etc.) within each project, via GraphQL queries and mutations.
@@ -112,7 +112,7 @@ modified: '2026-07-01'
 name: Zeabur
 nav: Providers
 network: true
-overview: 'Zeabur publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include PaaS, Deployment, Cloud, DevOps, and GraphQL.
+overview: 'Zeabur publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Platform-as-a-Service, Deployment, Cloud, DevOps, and GraphQL.
 
 
   Zeabur''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -138,9 +138,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 34.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 33.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -153,7 +153,7 @@ security:
   summary_line: SOC 2
 slug: zeabur
 tags:
-- PaaS
+- Platform-as-a-Service
 - Deployment
 - Cloud
 - DevOps

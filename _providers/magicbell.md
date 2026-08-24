@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -354,7 +354,7 @@ modified: '2026-06-12'
 name: MagicBell
 nav: Providers
 network: true
-overview: 'MagicBell publishes 28 APIs on the [APIs.io](https://apis.io/) network, including REST API v1, apns API, awssns API, and 25 more. Tagged areas include notifications, push notifications, in-app notifications, email, and SMS.
+overview: 'MagicBell publishes 28 APIs on the [APIs.io](https://apis.io/) network, including REST API v1, apns API, awssns API, and 25 more. Tagged areas include Notification, Push Notifications, In-App Notifications, Email, and SMS.
 
 
   The MagicBell catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -384,7 +384,7 @@ rules:
 score:
   band: developing
   composite: 43.6
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -394,7 +394,7 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 47.9
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -408,8 +408,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/screenshots/magicbell-2026-06-20T184842.png
 security:
@@ -423,17 +423,17 @@ security:
   summary_line: GDPR
 slug: magicbell
 tags:
-- notifications
-- push notifications
-- in-app notifications
-- email
+- Notification
+- Push Notifications
+- In-App Notifications
+- Email
 - SMS
 - Slack
 - Microsoft Teams
-- webhooks
+- Webhook
 - notification inbox
-- multichannel
-- mobile push
-- web push
+- Multi-Channel
+- Mobile Push
+- Web Push
 website: https://www.magicbell.com/
 ---

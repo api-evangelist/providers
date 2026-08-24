@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Cerebelly's Universal Commerce Protocol (UCP) MCP endpoint, served anonymously from the storefront host. A tools/list call returns 13 tools with full JSON Schema draft 2020-12 input schemas covering c
@@ -135,14 +135,14 @@ json_schemas:
   slug: cerebelly-ucp-tool-schemas
 layout: provider
 mcp_servers:
-- description: ''
-  name: cerebelly-mcp.yml
-  slug: cerebelly-mcpyml
+- description: A live, anonymously reachable Model Context Protocol endpoint on Cerebelly's own storefront host. An unauthenticated POST of {"jsonrpc":"2.0","id":1,"method":"tools/list"} returns HTTP 200 with 13 too
+  name: Cerebelly UCP Commerce MCP
+  slug: cerebelly-ucp-commerce-mcp
 modified: '2026-08-09'
 name: Cerebelly
 nav: Providers
 network: true
-overview: 'Cerebelly publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Baby Food, Consumer Packaged Goods, Food and Beverage, and eCommerce.
+overview: 'Cerebelly publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Baby Food, Consumer Packaged Goods, Food and Beverage, and E-Commerce.
 
 
   Cerebelly''s developer surface includes documentation, authentication, engineering blog, support, signup flow, and 19 more developer resources.'
@@ -155,7 +155,7 @@ scopes:
 score:
   band: thin
   composite: 33.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -165,13 +165,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 34.9
+  previous_composite: 33.9
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -188,7 +188,7 @@ tags:
 - Baby Food
 - Consumer Packaged Goods
 - Food and Beverage
-- eCommerce
+- E-Commerce
 - Retail
 - Direct to Consumer
 - Shopify

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: 'Narrowly scoped official API that returns public Substack profile data for a given LinkedIn handle. Access requires accepting the Developer API Terms of Use, applying via form, and generating a token '
@@ -209,13 +209,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/substack.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: substack-mcp.yml
-  slug: substack-mcpyml
+  name: Substack
+  slug: substack
 modified: '2026-08-13'
 name: Substack
 nav: Providers
 network: true
-overview: 'Substack publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Newsletters, Publishing, Creator Economy, Subscriptions, and Email.
+overview: 'Substack publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Newsletters, Publishing, Creator Economy, Subscription, and Email.
 
 
   Substack''s developer surface includes authentication, changelog, documentation, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
@@ -236,7 +236,7 @@ scopes:
 score:
   band: thin
   composite: 33.0
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -246,12 +246,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 35.9
+  previous_composite: 33.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/screenshots/substack-2026-06-20T194631.png
 security:
@@ -272,7 +272,7 @@ tags:
 - Newsletters
 - Publishing
 - Creator Economy
-- Subscriptions
+- Subscription
 - Email
 - Podcasting
 - Notes

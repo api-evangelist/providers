@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -167,13 +167,13 @@ image: https://adaptionlabs.ai/opengraph-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: adaption-labs-mcp.yml
-  slug: adaption-labs-mcpyml
+  name: Adaption Labs MCP Server
+  slug: adaption-labs-mcp-server
 modified: '2026-07-17'
 name: Adaption Labs
 nav: Providers
 network: true
-overview: 'Adaption Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Upload API. Tagged areas include Company, AI, Machine Learning, Training Data, and Datasets.
+overview: 'Adaption Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Upload API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Training Data, and Datasets.
 
 
   Adaption Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 19 more developer resources.'
@@ -181,7 +181,7 @@ random_paper: 9
 score:
   band: thin
   composite: 36.5
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -191,7 +191,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 35.0
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -202,8 +202,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/screenshots/adaption-labs-2026-07-25T181552.png
 security:
@@ -218,8 +218,8 @@ security:
 slug: adaption-labs
 tags:
 - Company
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Training Data
 - Datasets
 - LLM

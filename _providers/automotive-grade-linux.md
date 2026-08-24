@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The AGL Application Framework provides APIs for managing applications on the AGL platform including installation, lifecycle management, permission enforcement, and inter-application communication. App
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.4
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -145,9 +145,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 15.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/screenshots/automotive-grade-linux-2026-06-20T172702.png
 security:
@@ -163,7 +163,7 @@ tags:
 - In-Vehicle Infotainment
 - IoT
 - Linux Foundation
-- Open Source
+- Open-Source
 - Software Defined Vehicles
 use_cases:
 - description: Develop navigation, media, and connectivity applications for automotive head units using AGL application framework APIs and the Wayland display system.

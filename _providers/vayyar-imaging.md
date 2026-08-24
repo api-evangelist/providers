@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface of the Walabot DIY storefront (walabot.com, a Shopify store operated by Vayyar): unauthenticated read-only product JSON endpoints (/products/{handle}.json, /collections/{'
@@ -106,9 +106,9 @@ description: Vayyar Imaging is an Israeli sensor company whose 4D imaging radar-
 image: https://vayyar.com/wp-content/uploads/2022/08/vayyar-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: vayyar-imaging-mcp.yml
-  slug: vayyar-imaging-mcpyml
+- description: 'Vayyar''s Walabot DIY storefront (walabot.com, a Shopify store) operates a live agent-commerce MCP endpoint as part of its Universal Commerce Protocol (UCP) implementation. The UCP merchant profile at '
+  name: Vayyar Imaging MCP Server
+  slug: vayyar-imaging-mcp-server
 modified: '2026-07-21'
 name: Vayyar Imaging
 nav: Providers
@@ -146,8 +146,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

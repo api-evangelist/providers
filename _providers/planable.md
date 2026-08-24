@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -737,14 +737,14 @@ json_schemas:
   slug: post_workspaces-response-500
 layout: provider
 mcp_servers:
-- description: ''
-  name: planable-mcp.yml
-  slug: planable-mcpyml
+- description: Planable's official remote MCP server. It gives any MCP-capable AI client (Claude, ChatGPT, Gemini) read and write access to the signed-in user's Planable account — companies, workspaces, connected so
+  name: Planable MCP
+  slug: planable-mcp
 modified: '2026-08-13'
 name: Planable
 nav: Providers
 network: true
-overview: 'Planable publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Competitors API, Labels API, and 8 more. Tagged areas include Social Media, Content Collaboration, Approval Workflows, Social Media Management, and Content Publishing.
+overview: 'Planable publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Competitors API, Labels API, and 8 more. Tagged areas include Social-Media, Content Collaboration, Approval Workflows, Social Media Management, and Content Publishing.
 
 
   The Planable catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -779,7 +779,7 @@ scopes:
 score:
   band: strong
   composite: 63.4
-  delta: -8.6
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -789,7 +789,7 @@ score:
     discoverability: 92.6
     governance: 41.7
     operational_transparency: 55.3
-  previous_composite: 72.0
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -800,9 +800,9 @@ score:
       total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/screenshots/planable-2026-06-20T191751.png
 security:
 - kind: authentication
@@ -815,7 +815,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: planable
 tags:
-- Social Media
+- Social-Media
 - Content Collaboration
 - Approval Workflows
 - Social Media Management

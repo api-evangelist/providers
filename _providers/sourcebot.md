@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -196,9 +196,9 @@ description: Sourcebot is a self-hosted code understanding platform built by Taq
 image: https://github.com/sourcebot-dev.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sourcebot-mcp.yml
-  slug: sourcebot-mcpyml
+- description: Sourcebot's "agent code context layer" — an MCP server that gives coding agents (Cursor, Claude Code, VS Code, and any MCP-compatible client) grounded search and navigation context across every repo i
+  name: Sourcebot MCP Server
+  slug: sourcebot-mcp-server
 modified: '2026-07-21'
 name: Sourcebot
 nav: Providers
@@ -211,7 +211,7 @@ random_paper: 16
 score:
   band: developing
   composite: 48.2
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -221,7 +221,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 51.2
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +232,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/screenshots/sourcebot-2026-08-17T082010.png
 security:

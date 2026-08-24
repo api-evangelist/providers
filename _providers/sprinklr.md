@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful APIs for integrating with the Sprinklr Unified-CXM platform, covering social listening, publishing, reporting, user provisioning, digital asset management, and webhook subscriptions across 30+
@@ -214,9 +214,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sprinklr.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: sprinklr-mcp.yml
-  slug: sprinklr-mcpyml
+- description: 'Sprinklr announced Sprinklr MCP (Beta) in its own newsroom on 2026-07-15 as part of the Summer ''26 (26.7) release. The provider''s exact wording: "With Sprinklr MCP (Beta), organizations can access Spr'
+  name: Sprinklr MCP
+  slug: sprinklr-mcp
 modified: '2026-08-12'
 name: Sprinklr
 nav: Providers
@@ -240,7 +240,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.2
-  delta: -18.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -250,13 +250,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 67.9
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/screenshots/sprinklr-2026-06-20T194419.png
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -179,8 +179,8 @@ image: https://accessibe.com/wp-content/uploads/2026/01/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: accessibe-mcp.yml
-  slug: accessibe-mcpyml
+  name: accessiBe MCP Server
+  slug: accessibe-mcp-server
 modified: '2026-07-31'
 name: accessiBe
 nav: Providers
@@ -193,7 +193,7 @@ random_paper: 6
 score:
   band: developing
   composite: 46.7
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -203,7 +203,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 53.7
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,9 +214,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/screenshots/accessibe-2026-08-07T160757.png
 security:
 - kind: authentication

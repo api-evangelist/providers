@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Manages purchase orders and payment processing across multiple payment methods including credit card, debit 3DS, boleto, and PIX. Supports post-authorization capture, card tokenization, payment splitt
@@ -120,7 +120,7 @@ modified: '2026-06-13'
 name: PagBank
 nav: Providers
 network: true
-overview: 'PagBank publishes 1 API on the [APIs.io](https://apis.io/) network: Orders API. Tagged areas include Payments, Digital Banking, Brazil, PIX, and Fintech.
+overview: 'PagBank publishes 1 API on the [APIs.io](https://apis.io/) network: Orders API. Tagged areas include Payments, Digital Banking, Brazil, Pix, and Fintech.
 
 
   PagBank''s developer surface includes documentation, getting-started guide, API reference, engineering blog, pricing, and 9 more developer resources.'
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.9
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -146,15 +146,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 28.4
+  previous_composite: 26.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagbank/refs/heads/main/screenshots/pagbank-2026-06-20T191323.png
 security:
@@ -167,10 +167,10 @@ tags:
 - Payments
 - Digital Banking
 - Brazil
-- PIX
+- Pix
 - Fintech
 - E-Commerce
-- POS
+- Point-of-Sale
 - Recurring Payments
 - Boleto
 website: https://pagbank.com.br/

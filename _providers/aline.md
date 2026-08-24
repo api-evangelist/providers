@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-17'
 name: Aline
 nav: Providers
 network: true
-overview: 'Aline is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, LegalTech, Legal AI, and Contract Lifecycle Management.
+overview: 'Aline is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Legal AI, and Contract Lifecycle Management.
 
 
   Aline''s developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 10 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 17
 score:
   band: emerging
   composite: 19.6
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -122,9 +122,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aline/refs/heads/main/screenshots/aline-2026-07-25T195622.png
 security:
@@ -140,13 +140,13 @@ slug: aline
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Legal AI
 - Contract Lifecycle Management
 - CLM
 - Contract Management
 - Electronic Signature
 - Artificial Intelligence
-- Workflow Automation
+- Workflow-Automation
 website: https://aline.co/
 ---

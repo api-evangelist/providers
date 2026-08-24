@@ -35,6 +35,6 @@ tags:
 - Automation
 - Energy Transition
 - Engineered Biology
-- AI
+- Artificial Intelligence
 - North America
 ---

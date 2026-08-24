@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,33 +85,33 @@ modified: '2026-07-19'
 name: GraniteShares
 nav: Providers
 network: true
-overview: 'GraniteShares is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, ETF, Asset Management, and Investments.
+overview: 'GraniteShares is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, ETFs, Asset Management, and Investments.
 
 
   GraniteShares'' developer surface includes support, FAQ, authentication, and 8 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 12.3
-  delta: -3.1
+  composite: 13.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.4
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graniteshares/refs/heads/main/screenshots/graniteshares-2026-07-25T220226.png
 security:
@@ -127,10 +127,10 @@ slug: graniteshares
 tags:
 - Company
 - Fintech
-- ETF
+- ETFs
 - Asset Management
 - Investments
 - Leveraged ETFs
-- Financial Services
+- Financial-Services
 website: https://graniteshares.com/institutional/us/en-us/
 ---

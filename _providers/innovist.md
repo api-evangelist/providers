@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -87,13 +87,13 @@ image: https://innovist.com/cdn/shop/files/1200_628.png?v=1724222722
 layout: provider
 mcp_servers:
 - description: ''
-  name: innovist-mcp.yml
-  slug: innovist-mcpyml
+  name: Innovist MCP Server
+  slug: innovist-mcp-server
 modified: '2026-07-19'
 name: Innovist
 nav: Providers
 network: true
-overview: 'Innovist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Personal Care, Skincare, and Haircare.
+overview: 'Innovist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Personal Care, Skincare, and Hair Care.
 
 
   Innovist''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
@@ -105,22 +105,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 15.1
-  delta: -2.7
+  composite: 16.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.8
+  previous_composite: 16.2
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innovist/refs/heads/main/screenshots/innovist-2026-08-07T170712.png
 security:
@@ -138,10 +138,10 @@ tags:
 - Consumer
 - Personal Care
 - Skincare
-- Haircare
+- Hair Care
 - Suncare
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agentic Commerce
 website: https://innovist.com/

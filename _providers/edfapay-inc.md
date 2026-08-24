@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Branch Management APIs
@@ -218,8 +218,8 @@ image: https://files.readme.io/89700fae642aef272b5162ed82daf2f2ececcb418693c2307
 layout: provider
 mcp_servers:
 - description: ''
-  name: edfapay-inc-mcp.yml
-  slug: edfapay-inc-mcpyml
+  name: EdfaPay, Inc. MCP Server
+  slug: edfapay-inc-mcp-server
 modified: '2026-07-19'
 name: EdfaPay, Inc.
 nav: Providers
@@ -235,7 +235,7 @@ random_paper: 18
 score:
   band: strong
   composite: 55.9
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -245,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 10.5
-  previous_composite: 51.8
+  previous_composite: 55.9
   provenance:
     conformance: first-party
     contracts:
@@ -261,8 +261,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/screenshots/edfapay-inc-2026-07-25T212824.png
 security:

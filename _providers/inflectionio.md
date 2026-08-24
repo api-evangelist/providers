@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -253,13 +253,13 @@ image: https://www.inflection.io/img/asset/YXNzZXRzL29nLWltYWdlLmpwZw/og-image.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: inflectionio-mcp.yml
-  slug: inflectionio-mcpyml
+  name: Inflection MCP
+  slug: inflection-mcp
 modified: '2026-08-13'
 name: Inflection.io
 nav: Providers
 network: true
-overview: 'Inflection.io publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contact Activity API, Contacts API, Emails API, and 2 more. Tagged areas include Company, Saas, Marketing, Marketing Automation, and Email Marketing.
+overview: 'Inflection.io publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contact Activity API, Contacts API, Emails API, and 2 more. Tagged areas include Company, Software-as-a-Service, Marketing, Marketing Automation, and Email Marketing.
 
 
   The Inflection.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -283,7 +283,7 @@ scopes:
 score:
   band: strong
   composite: 63.4
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -293,7 +293,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 63.0
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -304,8 +304,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/screenshots/inflectionio-2026-07-25T222410.png
 security:
@@ -328,18 +328,17 @@ security:
 slug: inflectionio
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Marketing
 - Marketing Automation
 - Email Marketing
 - Customer Data
 - B2B
 - Contacts
-- API
 - MCP
 - Agents
 - Artificial Intelligence
 - Customer Journeys
-- Webhooks
+- Webhook
 website: https://www.inflection.io
 ---

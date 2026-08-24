@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 5
@@ -199,7 +199,7 @@ modified: '2026-07-02'
 name: Clerk
 nav: Providers
 network: true
-overview: 'Clerk publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Allowlist & Blocklist API, Clients API, Email & SMS API, and 12 more. Tagged areas include Authentication, User Management, Identity, Sessions, and Organizations.
+overview: 'Clerk publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Allowlist & Blocklist API, Clients API, Email & SMS API, and 12 more. Tagged areas include Authentication, User Management, Identity, Sessions, and Organization.
 
 
   Clerk''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -215,7 +215,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.1
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -225,7 +225,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.0
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -233,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-dev/refs/heads/main/screenshots/clerk-dev-2026-07-25T205602.png
 security:
@@ -256,7 +256,7 @@ tags:
 - User Management
 - Identity
 - Sessions
-- Organizations
+- Organization
 - SSO
 - JWT
 - MFA

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -128,7 +128,7 @@ modified: '2026-08-15'
 name: Brightside Health
 nav: Providers
 network: true
-overview: 'Brightside Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include telehealth, mental-health, behavioral-health, psychiatry, and therapy.
+overview: 'Brightside Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Telehealth, Mental Health, Behavioral Health, Psychiatry, and Therapy.
 
 
   Brightside Health''s developer surface includes support, engineering blog, pricing, signup flow, and 15 more developer resources.'
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.3
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -154,7 +154,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 21.3
+  previous_composite: 19.3
   provenance:
     conformance: first-party
   regulatory:
@@ -163,8 +163,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -173,17 +173,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: brightside-health
 tags:
-- telehealth
-- mental-health
-- behavioral-health
-- psychiatry
-- therapy
-- digital-health
-- healthcare
-- telemedicine
-- medication-management
-- substance-use-disorder
-- suicide-prevention
-- health-plans
+- Telehealth
+- Mental Health
+- Behavioral Health
+- Psychiatry
+- Therapy
+- Digital Health
+- Healthcare
+- Telemedicine
+- Medication Management
+- Substance Use Disorder
+- Suicide Prevention
+- Health Plans
 website: https://www.brightside.com/
 ---

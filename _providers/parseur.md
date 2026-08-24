@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -205,7 +205,7 @@ modified: '2026-05-25'
 name: Parseur
 nav: Providers
 network: true
-overview: 'Parseur publishes 6 APIs on the [APIs.io](https://apis.io/) network, including async API, Bootstrap API, Document API, and 3 more. Tagged areas include AI, Artificial Intelligence, Document Parsing, Document Processing, and Document Extraction.
+overview: 'Parseur publishes 6 APIs on the [APIs.io](https://apis.io/) network, including async API, Bootstrap API, Document API, and 3 more. Tagged areas include Artificial Intelligence, Document Parsing, Document Processing, Document Extraction, and Email Parsing.
 
 
   Parseur''s developer surface includes authentication, developer portal, signup flow, documentation, engineering blog, pricing, GitHub presence, and 21 more developer resources.'
@@ -213,7 +213,7 @@ random_paper: 14
 score:
   band: developing
   composite: 39.8
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -223,7 +223,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 40.2
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/screenshots/parseur-2026-06-20T191421.png
 security:
@@ -250,7 +250,6 @@ security:
   summary_line: security.txt · contact published
 slug: parseur
 tags:
-- AI
 - Artificial Intelligence
 - Document Parsing
 - Document Processing
@@ -260,8 +259,8 @@ tags:
 - Data Extraction
 - Vision AI
 - Automation
-- Webhooks
+- Webhook
 - Mailboxes
-- SaaS
+- Software-as-a-Service
 website: https://parseur.com
 ---

@@ -26,7 +26,7 @@ random_paper: 16
 slug: acceptance-criteria
 tags:
 - Agile
-- Behavior Driven Development
+- Behavior-Driven Development
 - Gherkin
 - Quality Assurance
 - Requirements

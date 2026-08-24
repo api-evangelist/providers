@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: An undocumented Model Context Protocol server operated by Copper at mcp.getcopper.com. The host publishes RFC 8414 OAuth 2.0 Authorization Server Metadata at /.well-known/oauth-authorization-server de
@@ -93,13 +93,13 @@ image: https://cdn.prod.website-files.com/61f9b891f832346a0a7b9f9a/673cf4a1dd4ac
 layout: provider
 mcp_servers:
 - description: ''
-  name: copper-banking-mcp.yml
-  slug: copper-banking-mcpyml
+  name: Copper Banking MCP Server
+  slug: copper-banking-mcp-server
 modified: '2026-08-04'
 name: Copper Banking
 nav: Providers
 network: true
-overview: 'Copper Banking publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Consumer Finance, and Financial Literacy.
+overview: 'Copper Banking publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Consumer Finance, and Financial Literacy.
 
 
   Copper Banking''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
@@ -112,7 +112,7 @@ scopes:
 score:
   band: emerging
   composite: 24.7
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -122,7 +122,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.9
+  previous_composite: 24.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -132,8 +132,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper-banking/refs/heads/main/screenshots/copper-banking-2026-08-07T163809.png
 security:
@@ -148,7 +148,7 @@ security:
 slug: copper-banking
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Consumer Finance
 - Financial Literacy
@@ -156,6 +156,6 @@ tags:
 - Neobank
 - Mobile Banking
 - Teen Banking
-- Model Context Protocol
+- MCP
 website: https://www.getcopper.com/
 ---

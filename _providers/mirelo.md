@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Self-serve REST API to generate and edit sound effects from video or text. Bearer-token (API key) auth; JSON request/response returning generated audio asset URLs; synchronous and asynchronous (job-po
@@ -130,9 +130,9 @@ description: Mirelo is a Berlin-based AI research lab building state-of-the-art 
 image: https://mirelo.ai/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: mirelo-mcp.yml
-  slug: mirelo-mcpyml
+- description: Community-published Model Context Protocol server wrapping the Mirelo v2 HTTP API. Not first-party, but functional against the same API key and endpoints. No official hosted/remote MCP server is publi
+  name: Mirelo MCP Server
+  slug: mirelo-mcp-server
 modified: '2026-07-20'
 name: Mirelo
 nav: Providers
@@ -145,7 +145,7 @@ random_paper: 18
 score:
   band: thin
   composite: 29.6
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -155,11 +155,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 30.9
+  previous_composite: 29.6
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/screenshots/mirelo-2026-08-07T183717.png
 security:
@@ -181,6 +181,6 @@ tags:
 - Video
 - Text to Audio
 - Audio to MIDI
-- Machine Learning
+- Machine-Learning
 website: https://mirelo.ai
 ---

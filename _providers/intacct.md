@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Modern REST API for Sage Intacct using standard HTTP verbs and predictable URLs to operate on Intacct objects and data. Authenticates with OAuth 2.0 and supports batch, bulk, and composite requests. S
@@ -161,9 +161,9 @@ description: 'Sage Intacct is a cloud-based financial management and accounting 
 image: https://logo.clearbit.com/sageintacct.com
 layout: provider
 mcp_servers:
-- description: ''
-  name: intacct-mcp.yml
-  slug: intacct-mcpyml
+- description: Sage's AI Gateway exposes a governed Model Context Protocol (MCP) server on top of the Sage Intacct REST and Web Services APIs, giving AI applications and agents auditable, permission-scoped access to
+  name: Sage Intacct AI Gateway (MCP)
+  slug: sage-intacct-ai-gateway-mcp
 modified: '2026-07-19'
 name: Sage Intacct
 nav: Providers
@@ -180,15 +180,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/tokenExchange
 score:
   band: developing
-  composite: 41.0
-  delta: -1.2
+  composite: 42.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 42.2
@@ -200,8 +200,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intacct/refs/heads/main/screenshots/intacct-2026-07-25T222634.png
 security:
@@ -230,8 +230,8 @@ tags:
 - Cloud Accounting
 - Invoicing
 - Payments
-- SaaS
+- Software-as-a-Service
 - REST API
-- OAuth
+- Authentication
 website: https://www.sageintacct.com/
 ---

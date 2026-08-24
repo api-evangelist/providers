@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Libcloud Compute API provides a unified Python interface for managing virtual machine instances, images, sizes, and networks across AWS EC2, Azure, GCP, DigitalOcean, Linode, and 25+ other provide
@@ -135,7 +135,7 @@ modified: '2026-04-19'
 name: Apache Libcloud
 nav: Providers
 network: true
-overview: 'Apache Libcloud publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Abstraction Layer, Cloud, Multi-Cloud, Open Source, and Python.
+overview: 'Apache Libcloud publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Abstraction Layer, Cloud, Multi-Cloud, Open-Source, and Python.
 
 
   Apache Libcloud''s developer surface includes documentation, getting-started guide, engineering blog, and 11 more developer resources.'
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.4
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -161,9 +161,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 21.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-libcloud/refs/heads/main/screenshots/apache-libcloud-2026-06-20T172117.png
 security:
@@ -176,7 +176,7 @@ tags:
 - Abstraction Layer
 - Cloud
 - Multi-Cloud
-- Open Source
+- Open-Source
 - Python
 use_cases:
 - description: Manage cloud infrastructure across multiple providers from a single Python codebase.

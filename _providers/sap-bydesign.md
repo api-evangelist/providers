@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -103,6 +103,10 @@ collections:
   name: SAP Business ByDesign OData Analytics Supply Chain API
   slug: open-sap-bydesign-supply-chain-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,17 +184,17 @@ jsonld:
   property_count: 0
   slug: sap-bydesign
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-21'
 name: SAP Business ByDesign
 nav: Providers
 network: true
-overview: 'SAP Business ByDesign publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, CRM API, Financials API, and 5 more. Tagged areas include ERP, Cloud, Midmarket, Financials, and CRM.
+overview: 'SAP Business ByDesign publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, CRM API, Financials API, and 5 more. Tagged areas include ERP, Cloud, Mid-Market, Financials, and CRM.
 
 
   The SAP Business ByDesign catalog on APIs.io includes 1 JSON-LD context.
 
 
-  SAP Business ByDesign''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  SAP Business ByDesign''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Sap Bydesign Plans Pricing
   plan_count: 4
@@ -207,18 +211,18 @@ scopes:
   summary_line: 1 scope · clientCredentials/saml2Bearer
 score:
   band: developing
-  composite: 42.4
-  delta: -1.7
+  composite: 44.3
+  delta: 1.9
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 61.1
-    developer_ergonomics: 14.3
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 44.1
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/screenshots/sap-bydesign-2026-06-20T193421.png
 security:
@@ -247,7 +251,7 @@ slug: sap-bydesign
 tags:
 - ERP
 - Cloud
-- Midmarket
+- Mid-Market
 - Financials
 - CRM
 - Procurement

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ modified: '2026-05-02'
 name: Scalable Services
 nav: Providers
 network: true
-overview: 'Scalable Services publishes 7 APIs on the [APIs.io](https://apis.io/) network, including ConfigMaps API, Namespaces API, Nodes API, and 4 more. Tagged areas include API Gateway, Cloud Native, Containers, Distributed Systems, and High Availability.
+overview: 'Scalable Services publishes 7 APIs on the [APIs.io](https://apis.io/) network, including ConfigMaps API, Namespaces API, Nodes API, and 4 more. Tagged areas include API Gateway, Cloud-Native, Containers, Distributed Systems, and High Availability.
 
 
   The Scalable Services catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -234,7 +234,7 @@ rules:
 score:
   band: thin
   composite: 32.4
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -244,7 +244,7 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 38.1
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -252,9 +252,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-services/refs/heads/main/screenshots/scalable-services-2026-06-20T193455.png
 security:
 - kind: authentication
@@ -272,7 +272,7 @@ security:
 slug: scalable-services
 tags:
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Containers
 - Distributed Systems
 - High Availability

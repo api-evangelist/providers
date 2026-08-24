@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -500,8 +500,8 @@ image: https://lukka.tech/wp-content/uploads/2023/06/lukka-tech.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lukka-mcp.yml
-  slug: lukka-mcpyml
+  name: Lukka MCP Server
+  slug: lukka-mcp-server
 modified: '2026-08-04'
 name: Lukka
 nav: Providers
@@ -525,18 +525,18 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 59.9
-  delta: -1.5
+  composite: 61.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
     contract_quality: 63.8
     developer_ergonomics: 53.6
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 61.4
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -553,8 +553,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/screenshots/lukka-2026-08-07T171825.png
 security:
@@ -584,7 +584,7 @@ tags:
 - Blockchain
 - AML
 - Compliance
-- Financial Services
+- Financial-Services
 - Analytics
 - Prediction Markets
 - MCP

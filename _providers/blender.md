@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Blender Python API (bpy) provides Python access to Blender's internal data, operators, and UI components. It enables developers to automate tasks, create addons, build custom tools, manipulate sce
@@ -172,7 +172,7 @@ modified: '2026-04-21'
 name: Blender
 nav: Providers
 network: true
-overview: 'Blender publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Animation, Game Development, Modeling, and Open Source.
+overview: 'Blender publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Animation, Game Development, Modeling, and Open-Source.
 
 
   The Blender catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -212,7 +212,7 @@ rules:
 score:
   band: thin
   composite: 27.6
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -222,10 +222,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 33.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 27.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/screenshots/blender-2026-06-20T173348.png
 security:
 - kind: domain-security
@@ -238,7 +238,7 @@ tags:
 - Animation
 - Game Development
 - Modeling
-- Open Source
+- Open-Source
 - Python
 - Rendering
 - VFX

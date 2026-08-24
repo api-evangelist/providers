@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'OpenAPI for Sensors Analytics — the product-analytics engine. 64 operations across eight services: analysis models (funnel, retention, LTV, attribution, path, interval, addiction, segmentation, custom'
@@ -267,8 +267,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sensors-da
 layout: provider
 mcp_servers:
 - description: ''
-  name: sensors-data-mcp.yml
-  slug: sensors-data-mcpyml
+  name: Sensors Data MCP Server
+  slug: sensors-data-mcp-server
 modified: '2026-08-13'
 name: Sensors Data
 nav: Providers
@@ -292,7 +292,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.4
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -302,7 +302,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 47.3
+  previous_composite: 43.4
   provenance:
     conformance: derived
     contracts:
@@ -312,8 +312,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/screenshots/sensors-data-2026-08-17T081809.png
 security:

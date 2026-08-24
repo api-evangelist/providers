@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for managing contacts, lists, campaigns, automations, custom fields, sender profiles, tags, and custom integration events for e-commerce email and SMS marketing.
@@ -207,9 +207,9 @@ jsonld:
   slug: sendlane-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: sendlane-mcp.yml
-  slug: sendlane-mcpyml
+- description: Sendlane ships no Model Context Protocol server. This is a CANDIDATE tool list derived from the 82 operations in the published OpenAPI, showing what an MCP server over the Sendlane v2 API would expose
+  name: Sendlane MCP Server (candidate)
+  slug: sendlane-mcp-server-candidate
 modified: '2026-08-13'
 name: Sendlane
 nav: Providers
@@ -233,7 +233,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.1
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -243,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 66.6
+  previous_composite: 65.1
   provenance:
     conformance: derived
     contracts:
@@ -253,8 +253,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/screenshots/sendlane-2026-06-20T193659.png
 security:

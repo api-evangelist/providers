@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Keybase public HTTP JSON API (v1.0). Read-oriented endpoints for user lookup and discovery by social proof, PGP public-key fetch, Merkle-tree root and block retrieval for verification, and the salt/lo
@@ -90,9 +90,9 @@ description: Keybase is an end-to-end encrypted messaging, file-sharing, and key
 image: https://keybase.io/images/icons/icon-keybase-logo-48.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: keybase-mcp.yml
-  slug: keybase-mcpyml
+- description: Candidate MCP tool surface derived from the documented Keybase API 1.0 read endpoints. Keybase publishes no official hosted/remote MCP server; this is a proposed mapping (one tool per public operation
+  name: Keybase MCP Server
+  slug: keybase-mcp-server
 modified: '2026-07-20'
 name: Keybase
 nav: Providers
@@ -105,7 +105,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 19.4
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -115,13 +115,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 18.7
+  previous_composite: 19.4
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keybase/refs/heads/main/screenshots/keybase-2026-07-25T223641.png
 security:

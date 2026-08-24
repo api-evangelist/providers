@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -211,9 +211,9 @@ description: Phonic is a San Francisco voice AI company (founded 2024, seed-back
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phonic.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: phonic-mcp.yml
-  slug: phonic-mcpyml
+- description: Phonic's inbound MCP server exposes the Phonic API as MCP tools so a client such as Claude Code, Codex, or Cursor can manage agents, conversations, voices, and projects. It stays up to date with the P
+  name: Phonic MCP Server
+  slug: phonic-mcp-server
 modified: '2026-07-20'
 name: Phonic
 nav: Providers
@@ -233,7 +233,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.4
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 48.0
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/screenshots/phonic-2026-08-17T081212.png
 security:
@@ -276,6 +276,6 @@ tags:
 - Speech
 - Voice Agents
 - Telephony
-- Speech To Speech
+- Speech to Speech
 website: https://phonic.ai/
 ---

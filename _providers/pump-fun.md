@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The deployed Solana program that implements Pump.fun's token factory and bonding-curve market. Integrators interact directly via Solana RPC and Anchor-style instructions to create tokens, buy and sell
@@ -80,7 +80,7 @@ modified: '2026-07-25'
 name: Pump.fun
 nav: Providers
 network: true
-overview: Pump.fun publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solana, Memecoin, Launchpad, AMM, and Livestreaming.
+overview: Pump.fun publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solana, Memecoin, Launchpad, AMM, and Live Streaming.
 plans:
 - name: Pump Fun Plans Pricing
   plan_count: 1
@@ -104,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 15.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pump-fun/refs/heads/main/screenshots/pump-fun-2026-06-20T192311.png
 security:
@@ -123,7 +123,7 @@ tags:
 - Memecoin
 - Launchpad
 - AMM
-- Livestreaming
+- Live Streaming
 - DeFi
 - Crypto
 website: https://pump.fun/

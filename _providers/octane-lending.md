@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ modified: '2026-08-04'
 name: Octane Lending
 nav: Providers
 network: true
-overview: 'Octane Lending is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Consumer Finance, and Powersports.
+overview: 'Octane Lending is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Lending, Consumer Finance, and Power-Sports.
 
 
   Octane Lending''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
@@ -107,7 +107,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 14.3
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -117,9 +117,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 14.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 18.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octane-lending/refs/heads/main/screenshots/octane-lending-2026-08-07T185931.png
 security:
@@ -130,10 +136,10 @@ security:
 slug: octane-lending
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Lending
 - Consumer Finance
-- Powersports
+- Power-Sports
 - Fintech
 - Loan Origination
 - Dealer Software

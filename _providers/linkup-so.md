@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-06-20'
 name: Linkup
 nav: Providers
 network: true
-overview: 'Linkup publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Credits API, Fetch API, Research API, and 1 more. Tagged areas include AI, LLM, Web Search, Grounding, and RAG.
+overview: 'Linkup publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Credits API, Fetch API, Research API, and 1 more. Tagged areas include Artificial Intelligence, LLM, Web Search, Grounding, and RAG.
 
 
   Linkup''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.9
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -159,7 +159,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 40.8
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/screenshots/linkup-so-2026-06-20T184547.png
 security:
@@ -186,7 +186,7 @@ security:
   summary_line: SOC 2
 slug: linkup-so
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Web Search
 - Grounding

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Hosted checkout flow that redirects shoppers to a Clip-hosted payment page to capture card data and complete the charge. Returns the authorized payment back to the merchant via redirect plus a postbac
@@ -204,7 +204,7 @@ modified: '2026-05-24'
 name: Clip
 nav: Providers
 network: true
-overview: 'Clip publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Acquiring, SMB Payments, Point of Sale, and mPOS.
+overview: 'Clip publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Acquiring, SMB Payments, Point-of-Sale, and mPOS.
 
 
   Clip''s developer surface includes developer portal, getting-started guide, documentation, FAQ, support, engineering blog, YouTube channel, and 29 more developer resources.'
@@ -212,7 +212,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 18.2
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -222,15 +222,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 6.6
-  previous_composite: 22.3
+  previous_composite: 18.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clip/refs/heads/main/screenshots/clip-2026-06-20T174527.png
 security:
@@ -243,7 +243,7 @@ tags:
 - Payments
 - Acquiring
 - SMB Payments
-- Point of Sale
+- Point-of-Sale
 - mPOS
 - Tap to Pay
 - Card Acceptance

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: API for publishing streams of records to Kafka topics.
@@ -105,7 +105,7 @@ modified: '2026-05-30'
 name: Apache Kafka
 nav: Providers
 network: true
-overview: 'Apache Kafka publishes 2 APIs on the [APIs.io](https://apis.io/) network: Kafka Producer API and Kafka Consumer API. Tagged areas include Distributed Systems, Event Driven, Messaging, Real-Time, and Streaming.
+overview: 'Apache Kafka publishes 2 APIs on the [APIs.io](https://apis.io/) network: Kafka Producer API and Kafka Consumer API. Tagged areas include Distributed Systems, Event-Driven, Messaging, Real-Time, and Streaming.
 
 
   The Apache Kafka catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -136,7 +136,7 @@ rules:
 score:
   band: thin
   composite: 30.1
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -146,10 +146,10 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 35.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 30.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kafka/refs/heads/main/screenshots/kafka-2026-06-20T183849.png
 security:
 - kind: domain-security
@@ -163,7 +163,7 @@ security:
 slug: kafka
 tags:
 - Distributed Systems
-- Event Driven
+- Event-Driven
 - Messaging
 - Real-Time
 - Streaming

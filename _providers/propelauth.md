@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -632,18 +632,18 @@ rules:
   slug: propelauth-rules
 score:
   band: strong
-  composite: 65.2
-  delta: -4.6
+  composite: 65.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 68.5
     developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 69.8
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     contracts:
@@ -651,8 +651,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/screenshots/propelauth-2026-06-20T192214.png
 security:
@@ -679,6 +679,6 @@ tags:
 - SSO
 - SCIM
 - MCP
-- API Keys
+- APIKeys
 website: https://www.propelauth.com
 ---

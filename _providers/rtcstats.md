@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -179,14 +179,14 @@ description: SaaS for developers to troubleshoot and monitor WebRTC applications
 image: https://rtcstats.com/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rtcstats-mcp.yml
-  slug: rtcstats-mcpyml
+- description: rtcStats operates a first-party hosted MCP server over Streamable HTTP at https://api.rtcstats.com/v1.0/mcp. It is stateless JSON-RPC 2.0 and is also declared in the OpenAPI as the mcpStreamablePost o
+  name: rtcStats MCP Server
+  slug: rtcstats-mcp-server
 modified: '2026-08-09'
 name: rtcStats
 nav: Providers
 network: true
-overview: 'rtcStats publishes 1 API on the [APIs.io](https://apis.io/) network: rtcStats API API. Tagged areas include webrtc, observability, monitoring, debugging, and real-time-communications.
+overview: 'rtcStats publishes 1 API on the [APIs.io](https://apis.io/) network: rtcStats API API. Tagged areas include WebRTC, Observability, Monitoring, Debugging, and Real-Time Communications.
 
 
   rtcStats'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 26 more developer resources.'
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.8
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -212,7 +212,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 59.5
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +223,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/screenshots/rtcstats-2026-08-17T081649.png
 security:
@@ -238,15 +238,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: rtcstats
 tags:
-- webrtc
-- observability
-- monitoring
-- debugging
-- real-time-communications
-- video
-- voice
-- ai
-- mcp
-- developer-tools
+- WebRTC
+- Observability
+- Monitoring
+- Debugging
+- Real-Time Communications
+- Video
+- Voice
+- Artificial Intelligence
+- MCP
+- Developer Tools
 website: https://rtcstats.com/api-docs
 ---

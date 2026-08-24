@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The EngFlow cluster gRPC / Protocol Buffers API surface — cluster info, IAM (roles/policies/users/groups), authentication, event store and result store build-event streaming, secret management, and no
@@ -163,8 +163,8 @@ image: https://avatars.githubusercontent.com/u/61729484?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: engflow-mcp.yml
-  slug: engflow-mcpyml
+  name: EngFlow MCP Server
+  slug: engflow-mcp-server
 modified: '2026-07-19'
 name: EngFlow
 nav: Providers
@@ -177,7 +177,7 @@ random_paper: 19
 score:
   band: developing
   composite: 44.4
-  delta: 8.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -187,14 +187,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 36.2
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/screenshots/engflow-2026-07-25T213344.png
 security:
 - kind: authentication

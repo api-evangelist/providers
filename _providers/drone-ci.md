@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -142,7 +142,7 @@ modified: '2026-05-08'
 name: Drone
 nav: Providers
 network: true
-overview: 'Drone publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Cron API, Secrets API, and 2 more. Tagged areas include DevOps, CI/CD, Container-Native, Open Source, and YAML.
+overview: 'Drone publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Cron API, Secrets API, and 2 more. Tagged areas include DevOps, CI/CD, Container-Native, Open-Source, and YAML.
 
 
   Drone''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 8 more developer resources.'
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.6
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -168,7 +168,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 29.0
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/screenshots/drone-ci-2026-06-20T180242.png
 security:
@@ -194,7 +194,7 @@ tags:
 - DevOps
 - CI/CD
 - Container-Native
-- Open Source
+- Open-Source
 - YAML
 - Harness
 website: https://www.drone.io/

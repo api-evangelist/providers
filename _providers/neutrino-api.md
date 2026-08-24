@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: APIs for processing, cleaning and validating data
@@ -260,8 +260,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: neutrino-api-mcp.yml
-  slug: neutrino-api-mcpyml
+  name: Neutrino API MCP Server
+  slug: neutrino-api-mcp-server
 modified: '2026-08-09'
 name: Neutrino API
 nav: Providers
@@ -274,7 +274,7 @@ random_paper: 4
 score:
   band: strong
   composite: 57.4
-  delta: 5.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -284,7 +284,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 52.1
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     contracts:
@@ -300,9 +300,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 48.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/screenshots/neutrino-api-2026-08-17T081114.png
 security:
 - kind: authentication
@@ -325,8 +325,8 @@ tags:
 - IP Intelligence
 - Security
 - Networking
-- Anti-fraud
-- E-commerce
+- Anti-Fraud
+- E-Commerce
 - Payments
 - Imaging
 - Rendering

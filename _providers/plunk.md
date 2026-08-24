@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ modified: '2026-08-13'
 name: Plunk
 nav: Providers
 network: true
-overview: 'Plunk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, and 3 more. Tagged areas include Email, Transactional Email, Marketing, Automation, and Open Source.
+overview: 'Plunk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, and 3 more. Tagged areas include Email, Transactional Email, Marketing, Automation, and Open-Source.
 
 
   The Plunk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -251,7 +251,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 71.1
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -261,7 +261,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 70.7
+  previous_composite: 71.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -272,8 +272,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/screenshots/plunk-2026-06-20T191814.png
 security:
@@ -291,12 +291,12 @@ tags:
 - Transactional Email
 - Marketing
 - Automation
-- Open Source
-- SaaS
+- Open-Source
+- Software-as-a-Service
 - Email API
-- Webhooks
+- Webhook
 - Segmentation
-- Workflow Automation
+- Workflow-Automation
 - Self-Hosted
 - Developer Tools
 website: https://www.useplunk.com

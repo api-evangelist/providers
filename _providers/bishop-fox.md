@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Authenticated REST API for the Bishop Fox Cosmos attack-surface management platform. Exposes the customer's discovered asset inventory through /v5/asset-view/* resources (domains, subdomains, dns-reco
@@ -124,7 +124,7 @@ modified: '2026-08-02'
 name: Bishop Fox
 nav: Providers
 network: true
-overview: 'Bishop Fox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, cybersecurity, offensive-security, penetration-testing, and attack-surface-management.
+overview: 'Bishop Fox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Offensive Security, Penetration Testing, and Attack Surface Management.
 
 
   Bishop Fox''s developer surface includes developer portal, engineering blog, support, authentication, and 18 more developer resources.'
@@ -137,7 +137,7 @@ scopes:
 score:
   band: emerging
   composite: 21.4
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -147,11 +147,11 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 21.1
+  previous_composite: 21.4
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/screenshots/bishop-fox-2026-08-07T162514.png
 security:
@@ -170,16 +170,16 @@ security:
 slug: bishop-fox
 tags:
 - Company
-- cybersecurity
-- offensive-security
-- penetration-testing
-- attack-surface-management
-- exposure-management
-- red-teaming
-- vulnerability-management
-- security-findings
-- asset-discovery
-- continuous-threat-exposure-management
-- oauth2
+- Cybersecurity
+- Offensive Security
+- Penetration Testing
+- Attack Surface Management
+- Exposure Management
+- Red Teaming
+- Vulnerability Management
+- Security Findings
+- Asset Discovery
+- Continuous Threat Exposure Management
+- Authentication
 website: https://bishopfox.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Comprehensive REST API for managing Oracle Cloud Infrastructure resources including compute, storage, networking, and databases.
@@ -74,7 +74,7 @@ modified: '2026-03-16'
 name: Oracle Platforms
 nav: Providers
 network: true
-overview: Oracle Platforms publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Oracle Cloud Infrastructure (OCI) REST API, Oracle Autonomous Database API, Oracle Integration Cloud API, and 2 more. Tagged areas include Analytics, Cloud Computing, Database, Enterprise Software, and Infrastructure as a Service.
+overview: Oracle Platforms publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Oracle Cloud Infrastructure (OCI) REST API, Oracle Autonomous Database API, Oracle Integration Cloud API, and 2 more. Tagged areas include Analytics, Cloud Computing, Database, Enterprise Software, and Infrastructure-as-a-Service.
 plans:
 - name: Oracle Platforms Plans Pricing
   plan_count: 3
@@ -87,7 +87,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.7
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -97,9 +97,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/screenshots/oracle-platforms-2026-06-20T191139.png
 security:
@@ -113,9 +113,9 @@ tags:
 - Cloud Computing
 - Database
 - Enterprise Software
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Integration
-- Machine Learning
-- Platform as a Service
-- SaaS
+- Machine-Learning
+- Platform-as-a-Service
+- Software-as-a-Service
 ---

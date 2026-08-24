@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ modified: '2026-08-08'
 name: Bota Biosciences
 nav: Providers
 network: true
-overview: 'Bota Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Synthetic Biology, Bio-Manufacturing, and Industrial Biotechnology.
+overview: 'Bota Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Synthetic Biology, Biomanufacturing, and Industrial Biotechnology.
 
 
   Bota Biosciences'' developer surface includes engineering blog and 12 more developer resources.'
@@ -119,8 +119,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -132,7 +132,7 @@ tags:
 - Company
 - Biotechnology
 - Synthetic Biology
-- Bio-Manufacturing
+- Biomanufacturing
 - Industrial Biotechnology
 - Enzyme Engineering
 - Ingredients

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: 'SOAP web service for serialized operations: commissioning, aggregation, decommissioning, shipment and receipt orders, serial number verification, lot status, market release, sampling, and destruction.'
@@ -301,8 +301,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: tracelink-mcp.yml
-  slug: tracelink-mcpyml
+  name: TraceLink MCP Server
+  slug: tracelink-mcp-server
 modified: '2026-08-02'
 name: TraceLink
 nav: Providers
@@ -318,7 +318,7 @@ random_paper: 12
 score:
   band: developing
   composite: 52.9
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -328,7 +328,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 51.3
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -339,8 +339,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/screenshots/tracelink-2026-08-17T082418.png
 security:

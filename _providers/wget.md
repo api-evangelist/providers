@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'GNU Wget is a free command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS. It supports recursive downloading, resume of aborted downloads, website '
@@ -115,7 +115,7 @@ modified: '2026-05-03'
 name: Wget
 nav: Providers
 network: true
-overview: 'Wget publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Clients, HTTP Client, File Download, and Open Source.
+overview: 'Wget publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Clients, HTTP Client, File Download, and Open-Source.
 
 
   The Wget catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -145,7 +145,7 @@ rules:
 score:
   band: emerging
   composite: 22.6
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -155,10 +155,10 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 29.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 22.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wget/refs/heads/main/screenshots/wget-2026-06-20T201415.png
 security:
 - kind: domain-security
@@ -171,7 +171,7 @@ tags:
 - Clients
 - HTTP Client
 - File Download
-- Open Source
+- Open-Source
 - GNU
 website: https://www.gnu.org/software/wget/
 ---

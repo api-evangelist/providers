@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Programmatic access to Stilla's capabilities. The REST API and the remote MCP server are protected by OAuth 2.0 / OIDC (WorkOS AuthKit). The OpenAPI document is served at api.stilla.ai/openapi.json bu
@@ -154,9 +154,9 @@ description: 'Stilla is an AI teammate for the whole company — an AI agent tha
 image: https://stilla.ai/favicon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: stilla-mcp.yml
-  slug: stilla-mcpyml
+- description: Official remote MCP server that gives MCP-compatible clients (Claude Code, Cursor, Claude Desktop, etc.) authenticated access to a Stilla workspace — meeting notes, decisions, canvases, transcripts, a
+  name: Stilla MCP Server
+  slug: stilla-mcp-server
 modified: '2026-07-21'
 name: Stilla
 nav: Providers
@@ -174,7 +174,7 @@ scopes:
 score:
   band: thin
   composite: 34.8
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -184,12 +184,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 37.9
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

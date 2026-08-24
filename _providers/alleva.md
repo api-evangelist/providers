@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 37
 apis:
 - description: The AdvancedForm API from Alleva — 8 operation(s) for advancedform.
@@ -357,13 +357,13 @@ image: https://helloalleva.com/wp-content/uploads/2026/02/int_4.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: alleva-mcp.yml
-  slug: alleva-mcpyml
+  name: Alleva MCP Server
+  slug: alleva-mcp-server
 modified: '2026-08-06'
 name: Alleva
 nav: Providers
 network: true
-overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Advanced Form API, Advanced Form Data Backup API, Advanced Form Element API, and 34 more. Tagged areas include behavioral-health, electronic-health-records, emr, ehr, and substance-use-disorder.
+overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Advanced Form API, Advanced Form Data Backup API, Advanced Form Element API, and 34 more. Tagged areas include Behavioral Health, Electronic Health Records, EMR, EHR, and Substance Use Disorder.
 
 
   Alleva''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 20 more developer resources.'
@@ -376,7 +376,7 @@ scopes:
 score:
   band: developing
   composite: 45.9
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -386,7 +386,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 42.1
+  previous_composite: 45.9
   provenance:
     conformance: derived
     contracts:
@@ -402,8 +402,8 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/screenshots/alleva-2026-08-07T161220.png
 security:
@@ -421,17 +421,17 @@ security:
   summary_line: SOC 2 Type II, HIPAA, ONC Certification (ONC Health IT Certification Program)
 slug: alleva
 tags:
-- behavioral-health
-- electronic-health-records
-- emr
-- ehr
-- substance-use-disorder
-- mental-health
-- healthcare
+- Behavioral Health
+- Electronic Health Records
+- EMR
+- EHR
+- Substance Use Disorder
+- Mental Health
+- Healthcare
 - treatment-centers
-- clinical-documentation
-- revenue-cycle-management
-- patient-intake
-- healthcare-compliance
+- Clinical Documentation
+- Revenue Cycle Management
+- Patient Intake
+- Healthcare Compliance
 website: https://helloalleva.com/
 ---

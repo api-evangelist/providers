@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ modified: '2026-07-11'
 name: Topaz
 nav: Providers
 network: true
-overview: 'Topaz publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authorizer API, Directory Checks API, Directory Objects API, and 2 more. Tagged areas include Access Control, Authorization, Fine-Grained Authorization, Open Source, and RBAC.
+overview: 'Topaz publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authorizer API, Directory Checks API, Directory Objects API, and 2 more. Tagged areas include Access Control, Authorization, Fine-Grained Authorization, Open-Source, and RBAC.
 
 
   Topaz''s developer surface includes documentation and 9 more developer resources.'
@@ -170,15 +170,15 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: topaz
 tags:
 - Access Control
 - Authorization
 - Fine-Grained Authorization
-- Open Source
+- Open-Source
 - RBAC
 - ReBAC
 - Zanzibar

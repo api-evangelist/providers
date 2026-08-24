@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -217,13 +217,13 @@ image: https://avatars.githubusercontent.com/u/13460182
 layout: provider
 mcp_servers:
 - description: ''
-  name: unito-mcp.yml
-  slug: unito-mcpyml
+  name: Unito MCP Server
+  slug: unito-mcp-server
 modified: '2026-07-21'
 name: Unito
 nav: Providers
 network: true
-overview: 'Unito publishes 3 APIs on the [APIs.io](https://apis.io/) network: Reports API, Server API, and Workspaces API. Tagged areas include Integration, Two-Way Sync, Workflow Automation, Project Management, and Collaboration.
+overview: 'Unito publishes 3 APIs on the [APIs.io](https://apis.io/) network: Reports API, Server API, and Workspaces API. Tagged areas include Integration, Two-Way Sync, Workflow-Automation, Project Management, and Collaboration.
 
 
   The Unito catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -234,7 +234,7 @@ random_paper: 13
 score:
   band: developing
   composite: 53.2
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 56.5
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,8 +255,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/screenshots/unito-2026-08-17T082614.png
 security:
@@ -276,10 +276,10 @@ slug: unito
 tags:
 - Integration
 - Two-Way Sync
-- Workflow Automation
+- Workflow-Automation
 - Project Management
 - Collaboration
 - Embedded Integrations
-- SaaS
+- Software-as-a-Service
 website: https://unito.io
 ---

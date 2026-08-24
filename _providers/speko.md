@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -172,13 +172,13 @@ image: https://speko.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: speko-mcp.yml
-  slug: speko-mcpyml
+  name: Speko MCP Server
+  slug: speko-mcp-server
 modified: '2026-07-21'
 name: Speko
 nav: Providers
 network: true
-overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Providers API, Telephony API, and 1 more. Tagged areas include Voice, Voice AI, Speech to Text, Text to Speech, and LLM.
+overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Providers API, Telephony API, and 1 more. Tagged areas include Voice, Voice AI, Speech-to-Text, Text-to-Speech, and LLM.
 
 
   The Speko catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -189,7 +189,7 @@ random_paper: 0
 score:
   band: developing
   composite: 52.6
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 55.2
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -210,8 +210,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/screenshots/speko-2026-08-17T082025.png
 security:
@@ -227,8 +227,8 @@ slug: speko
 tags:
 - Voice
 - Voice AI
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - LLM
 - Telephony
 - API Gateway

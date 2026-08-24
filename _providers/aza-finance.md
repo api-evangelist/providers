@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -263,13 +263,13 @@ image: https://www.azafinance.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: aza-finance-mcp.yml
-  slug: aza-finance-mcpyml
+  name: AZA Finance MCP Server
+  slug: aza-finance-mcp-server
 modified: '2026-07-18'
 name: AZA Finance
 nav: Providers
 network: true
-overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Debits API, Account Validation API, Accounts API, and 13 more. Tagged areas include Company, Financial Services, Payments, Foreign Exchange, and Cross-Border Payments.
+overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Debits API, Account Validation API, Accounts API, and 13 more. Tagged areas include Company, Financial-Services, Payments, Foreign Exchange, and Cross-Border Payments.
 
 
   The AZA Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -280,7 +280,7 @@ random_paper: 14
 score:
   band: thin
   composite: 34.6
-  delta: -12.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -290,7 +290,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 47.5
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,9 +307,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/screenshots/aza-finance-2026-07-25T202112.png
 security:
 - kind: authentication
@@ -323,12 +323,11 @@ security:
 slug: aza-finance
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Foreign Exchange
 - Cross-Border Payments
 - Africa
 - Fintech
-- API
 website: https://www.azafinance.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -293,7 +293,7 @@ modified: '2026-05-24'
 name: Robin AI
 nav: Providers
 network: true
-overview: 'Robin AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Groups API, Properties API, and 2 more. Tagged areas include Legal, LegalTech, Contract Review, Contract Analysis, and Contract Lifecycle Management.
+overview: 'Robin AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Groups API, Properties API, and 2 more. Tagged areas include Legal, Legal Tech, Contract Review, Contract Analysis, and Contract Lifecycle Management.
 
 
   The Robin AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -333,18 +333,18 @@ rules:
   slug: robin-ai-rules
 score:
   band: developing
-  composite: 46.4
-  delta: -11.4
+  composite: 46.8
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 65.7
     developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 2.6
-  previous_composite: 57.8
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -352,9 +352,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/screenshots/robin-ai-2026-06-20T193139.png
 security:
 - kind: authentication
@@ -372,7 +372,7 @@ security:
 slug: robin-ai
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Contract Review
 - Contract Analysis
 - Contract Lifecycle Management

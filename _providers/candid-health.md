@@ -28,10 +28,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 49.2
-  scored_at: '2026-08-19'
+  score: 52.6
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -651,9 +651,9 @@ jsonld:
   slug: candid-health-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: candid-health-mcp.yml
-  slug: candid-health-mcpyml
+- description: 'Candid Health advertises a remote MCP server in its llms.txt and on every documentation page footer. It is live, anonymous and answers tools/list. It is a DOCUMENTATION server, not an API server: the '
+  name: Candid Health Documentation MCP Server
+  slug: candid-health-documentation-mcp-server
 modified: 2026-08-15
 name: Candid Health
 nav: Providers
@@ -687,18 +687,18 @@ rules:
   slug: candid-health-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: -1.4
+  composite: 64.5
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
     contract_governance: 37.1
     contract_quality: 60.5
     developer_ergonomics: 73.2
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 37.1
     operational_transparency: 47.4
-  previous_composite: 64.7
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -715,8 +715,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/screenshots/candid-health-2026-07-25T204340.png
 security:

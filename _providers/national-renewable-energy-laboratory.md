@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-05-19'
 name: National Renewable Energy Laboratory
 nav: Providers
 network: true
-overview: 'National Renewable Energy Laboratory publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Alt Fuel Stations API, Pvwatts API, Solar API, and 1 more. Tagged areas include Energy, Renewable Energy, Federal Government, Climate, and Research.
+overview: 'National Renewable Energy Laboratory publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Alt Fuel Stations API, Pvwatts API, Solar API, and 1 more. Tagged areas include Energy, Renewable Energy, Federal-Government, Climate, and Research.
 
 
   National Renewable Energy Laboratory''s developer surface includes authentication, developer portal, signup flow, and 4 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 27.8
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -177,7 +177,7 @@ slug: national-renewable-energy-laboratory
 tags:
 - Energy
 - Renewable Energy
-- Federal Government
+- Federal-Government
 - Climate
 - Research
 website: https://www.nrel.gov/

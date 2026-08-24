@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 23
 apis:
 - description: The Billing Terms API from Tabs — 1 operation(s) for billing terms.
@@ -317,9 +317,9 @@ description: Tabs is an AI-native revenue automation platform for B2B companies 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tabs.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: tabs-mcp.yml
-  slug: tabs-mcpyml
+- description: Tabs operates an official remote MCP server (announced 2026-04-22) exposing its "Commercial Graph" — customers, contracts, invoices, payments, credit memos, revenue, commitments, renewals, and reports
+  name: Tabs MCP Server
+  slug: tabs-mcp-server
 modified: '2026-07-21'
 name: Tabs
 nav: Providers
@@ -336,7 +336,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.8
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -346,7 +346,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 54.0
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
@@ -356,8 +356,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/screenshots/tabs-2026-08-17T082234.png
 security:
@@ -381,8 +381,8 @@ tags:
 - Revenue Recognition
 - Usage-Based Billing
 - Invoicing
-- Collections
+- Collection
 - Fintech
-- SaaS
+- Software-as-a-Service
 website: https://www.tabs.com/
 ---

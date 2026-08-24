@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Retrieve credit decisions
@@ -154,8 +154,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/funding-ci
 layout: provider
 mcp_servers:
 - description: ''
-  name: funding-circle-mcp.yml
-  slug: funding-circle-mcpyml
+  name: Funding Circle MCP Server
+  slug: funding-circle-mcp-server
 modified: '2026-07-19'
 name: Funding Circle
 nav: Providers
@@ -171,7 +171,7 @@ random_paper: 11
 score:
   band: developing
   composite: 44.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 44.3
+  previous_composite: 44.6
   provenance:
     conformance: derived
     contracts:
@@ -197,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/screenshots/funding-circle-2026-08-17T123438.png
 security:
@@ -218,7 +218,7 @@ tags:
 - Small Business
 - Fintech
 - Loans
-- Financial Services
+- Financial-Services
 - Payments
 website: http://www.fundingcircle.com
 ---

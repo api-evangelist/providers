@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for AI-powered product discovery — autocomplete, search, browse, recommendations, quizzes, catalog management, searchandising, and behavioral tracking. A public API key identifies the index; '
@@ -146,14 +146,14 @@ description: Constructor is an AI-powered ecommerce product discovery and search
 image: https://constructor.com/hubfs/constructor-featured-image-2026.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: constructor-mcp.yml
-  slug: constructor-mcpyml
+- description: Official remote MCP server hosted by Constructor. Gives AI development tools (Cursor, Windsurf, Claude Desktop, Claude Code) direct access to Constructor documentation and API functionality — searchin
+  name: Constructor MCP Server
+  slug: constructor-mcp-server
 modified: '2026-07-18'
 name: Constructor
 nav: Providers
 network: true
-overview: 'Constructor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Search, Product Discovery, and Recommendations.
+overview: 'Constructor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Search, Product Discovery, and Recommendations.
 
 
   Constructor''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, release notes, and 19 more developer resources.'
@@ -161,7 +161,7 @@ random_paper: 4
 score:
   band: thin
   composite: 30.5
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -171,13 +171,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 35.8
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/screenshots/constructor-2026-07-25T210311.png
 security:
 - kind: authentication
@@ -195,12 +195,12 @@ security:
 slug: constructor
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Search
 - Product Discovery
 - Recommendations
 - Personalization
 - Retail
-- AI
+- Artificial Intelligence
 website: https://constructor.com/
 ---

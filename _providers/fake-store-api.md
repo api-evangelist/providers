@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ modified: '2026-05-19'
 name: Fake Store API
 nav: Providers
 network: true
-overview: 'Fake Store API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Carts API, Products API, and 1 more. Tagged areas include Customers, Fake Data, Orders, Products, and Synthetic Data.
+overview: 'Fake Store API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Carts API, Products API, and 1 more. Tagged areas include Customers, Fake Data, Order, Product, and Synthetic Data.
 
 
   Fake Store API''s developer surface includes documentation and 7 more developer resources.'
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.2
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -142,7 +142,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.9
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/screenshots/fake-store-api-2026-06-20T181017.png
 security:
@@ -163,8 +163,8 @@ slug: fake-store-api
 tags:
 - Customers
 - Fake Data
-- Orders
-- Products
+- Order
+- Product
 - Synthetic Data
 website: https://fakestoreapi.com/
 ---

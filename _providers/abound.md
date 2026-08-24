@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -231,13 +231,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abound.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: abound-mcp.yml
-  slug: abound-mcpyml
+  name: Abound MCP Server
+  slug: abound-mcp-server
 modified: '2026-07-19'
 name: Abound
 nav: Providers
 network: true
-overview: 'Abound publishes 13 APIs on the [APIs.io](https://apis.io/) network, including 1099-INT API, 1099-K API, 1099-MISC API, and 10 more. Tagged areas include Company, Taxes, Tax Compliance, Regulatory Compliance, and Financial Services.
+overview: 'Abound publishes 13 APIs on the [APIs.io](https://apis.io/) network, including 1099-INT API, 1099-K API, 1099-MISC API, and 10 more. Tagged areas include Company, Taxes, Tax Compliance, Regulatory Compliance, and Financial-Services.
 
 
   The Abound catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -248,7 +248,7 @@ random_paper: 3
 score:
   band: thin
   composite: 35.6
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -258,7 +258,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 33.6
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,8 +275,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -293,11 +293,11 @@ tags:
 - Taxes
 - Tax Compliance
 - Regulatory Compliance
-- Financial Services
+- Financial-Services
 - Identity Verification
 - Government
 - Documents
-- Webhooks
+- Webhook
 - Retired
 website: https://withabound.com
 ---

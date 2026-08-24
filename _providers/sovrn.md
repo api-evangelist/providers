@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Check whether a destination URL can be monetized by Sovrn Commerce, get its estimated earnings per click, and receive the optimized affiliate URL to use in its place. Supports a geo override for affil
@@ -226,16 +226,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sovrn.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sovrn-mcp.yml
-  slug: sovrn-mcpyml
+  name: Commerce MCP Server
+  slug: commerce-mcp-server
 - description: ''
-  name: commerce
-  slug: commerce
+  name: Sovrn MCP Server
+  slug: sovrn-mcp-server
 modified: '2026-08-12'
 name: Sovrn
 nav: Providers
 network: true
-overview: 'Sovrn publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Commerce Link Check API, Commerce Bid Check API, Commerce Campaigns API, and 6 more. Tagged areas include Company, Adtech, Advertising, Monetization, and Affiliate Marketing.
+overview: 'Sovrn publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Commerce Link Check API, Commerce Bid Check API, Commerce Campaigns API, and 6 more. Tagged areas include Company, AdTech, Advertising, Monetization, and Affiliate Marketing.
 
 
   Sovrn''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
@@ -251,7 +251,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.6
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -261,7 +261,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 53.3
+  previous_composite: 49.6
   provenance:
     conformance: derived
     contracts:
@@ -271,8 +271,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/screenshots/sovrn-2026-08-17T082014.png
 security:
@@ -291,7 +291,7 @@ security:
 slug: sovrn
 tags:
 - Company
-- Adtech
+- AdTech
 - Advertising
 - Monetization
 - Affiliate Marketing
@@ -301,6 +301,6 @@ tags:
 - Data
 - Reporting
 - Product Data
-- Agent Native
+- agent-native
 website: https://www.sovrn.com
 ---

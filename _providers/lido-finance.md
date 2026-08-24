@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -240,9 +240,9 @@ description: Lido is a liquid staking protocol for Ethereum, live since 2020, th
 image: https://lido.fi/favicon.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: lido-finance-mcp.yml
-  slug: lido-finance-mcpyml
+- description: Candidate MCP tool surface for the Lido public APIs. Every operation is an unauthenticated GET, which makes this an unusually clean read-only MCP surface — no credentials to broker, no write-path cons
+  name: Lido Finance MCP Server
+  slug: lido-finance-mcp-server
 modified: '2026-07-19'
 name: Lido Finance
 nav: Providers
@@ -255,7 +255,7 @@ random_paper: 17
 score:
   band: developing
   composite: 47.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -265,7 +265,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 46.4
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,8 +276,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/screenshots/lido-finance-2026-07-25T225027.png
 security:
@@ -303,7 +303,7 @@ tags:
 - Cryptocurrency
 - Staking
 - Web3
-- Financial Services
+- Financial-Services
 - GraphQL
 website: https://lido.fi/
 ---

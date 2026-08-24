@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ modified: '2026-06-13'
 name: Height
 nav: Providers
 network: true
-overview: 'Height publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Field Templates API, Groups API, and 6 more. Tagged areas include Project Management, Task Management, Collaboration, Productivity, and Workflow Automation.
+overview: 'Height publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Field Templates API, Groups API, and 6 more. Tagged areas include Project Management, Task Management, Collaboration, Productivity, and Workflow-Automation.
 
 
   The Height catalog on APIs.io includes 1 JSON-LD context.
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.9
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -202,7 +202,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 43.5
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/screenshots/height-2026-06-20T182618.png
 security:
@@ -229,7 +229,7 @@ tags:
 - Task Management
 - Collaboration
 - Productivity
-- Workflow Automation
-- AI
+- Workflow-Automation
+- Artificial Intelligence
 website: https://height.app
 ---

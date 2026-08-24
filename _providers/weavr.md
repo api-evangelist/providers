@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -464,8 +464,8 @@ image: https://www.weavr.io/wp-content/uploads/2025/12/Image-8-1.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: weavr-mcp.yml
-  slug: weavr-mcpyml
+  name: Weavr MCP Server
+  slug: weavr-mcp-server
 modified: '2026-07-21'
 name: Weavr
 nav: Providers
@@ -478,7 +478,7 @@ random_paper: 3
 score:
   band: strong
   composite: 63.1
-  delta: 5.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -488,7 +488,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 57.7
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -505,9 +505,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/screenshots/weavr-2026-08-17T082854.png
 security:
 - kind: authentication
@@ -529,7 +529,7 @@ tags:
 - Payments
 - Cards
 - Fintech
-- Accounts
+- Account
 - KYC
 - Company
 website: https://www.weavr.io/

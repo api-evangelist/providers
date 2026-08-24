@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The agent-facing commerce surface of the SAMBAZON online store. The merchant profile at /.well-known/ucp advertises the Universal Commerce Protocol (versions 2026-04-08 and 2026-01-23) over an MCP/JSO
@@ -112,13 +112,13 @@ image: https://www.sambazon.com/cdn/shop/files/EnjoyTheDelicousPowersOfAcai_Defa
 layout: provider
 mcp_servers:
 - description: ''
-  name: sambazon-mcp.yml
-  slug: sambazon-mcpyml
+  name: SAMBAZON Storefront UCP/MCP Server
+  slug: sambazon-storefront-ucpmcp-server
 modified: '2026-08-05'
 name: Sambazon
 nav: Providers
 network: true
-overview: 'Sambazon publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, Ecommerce, and Agentic Commerce.
+overview: 'Sambazon publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, E-Commerce, and Agentic Commerce.
 
 
   Sambazon''s developer surface includes documentation, authentication, engineering blog, support, signup flow, and 14 more developer resources.'
@@ -131,7 +131,7 @@ scopes:
 score:
   band: emerging
   composite: 24.9
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -141,13 +141,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 25.3
+  previous_composite: 24.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -163,10 +163,10 @@ tags:
 - Company
 - Food and Beverage
 - Consumer Packaged Goods
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - Retail
 - Sustainability

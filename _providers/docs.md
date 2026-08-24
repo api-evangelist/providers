@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: OpenAI-compatible model-inference API over Infini-AI's catalog of open- and closed-source models. Bearer (API Key) authentication; chat/completions, models, embeddings and image/video generation endpo
@@ -101,7 +101,7 @@ modified: '2026-07-18'
 name: Infini-AI (无问芯穹)
 nav: Providers
 network: true
-overview: 'Infini-AI (无问芯穹) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Large Language Models, and Model as a Service.
+overview: 'Infini-AI (无问芯穹) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Model as a Service.
 
 
   Infini-AI (无问芯穹)''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 8 more developer resources.'
@@ -109,7 +109,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 12.4
-  delta: -9.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -119,12 +119,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 12.4
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docs/refs/heads/main/screenshots/docs-2026-07-25T212217.png
 security:
 - kind: authentication
@@ -139,7 +139,7 @@ slug: docs
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Model as a Service
 - Inference

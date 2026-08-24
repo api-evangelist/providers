@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 12
@@ -635,7 +635,7 @@ modified: '2026-05-08'
 name: Marqeta
 nav: Providers
 network: true
-overview: 'Marqeta publishes 79 APIs on the [APIs.io](https://apis.io/) network, including accepted countries API, Account API, Account Bundle Transitions API, and 76 more. Tagged areas include FinTech, BaaS, Card Issuing, Payments, and Embedded Finance.
+overview: 'Marqeta publishes 79 APIs on the [APIs.io](https://apis.io/) network, including accepted countries API, Account API, Account Bundle Transitions API, and 76 more. Tagged areas include Fintech, Backend-as-a-Service, Card Issuing, Payments, and Embedded Finance.
 
 
   The Marqeta catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -675,18 +675,18 @@ rules:
   slug: marqeta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.3
-  delta: -2.2
+  composite: 46.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 74.3
     developer_ergonomics: 14.3
     discoverability: 50.0
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 50.0
-  previous_composite: 48.5
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -700,8 +700,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png
 security:
@@ -723,8 +723,8 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 slug: marqeta
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Card Issuing
 - Payments
 - Embedded Finance

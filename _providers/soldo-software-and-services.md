@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -576,8 +576,8 @@ image: https://www.soldo.com/wp-content/uploads/2023/11/home-page-soldo-hero-sma
 layout: provider
 mcp_servers:
 - description: ''
-  name: soldo-software-and-services-mcp.yml
-  slug: soldo-software-and-services-mcpyml
+  name: Soldo Software and Services MCP Server
+  slug: soldo-software-and-services-mcp-server
 modified: '2026-07-21'
 name: Soldo Software and Services
 nav: Providers
@@ -598,7 +598,7 @@ scopes:
 score:
   band: strong
   composite: 62.2
-  delta: 4.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -608,7 +608,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 57.5
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -625,8 +625,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 87.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/screenshots/soldo-software-and-services-2026-08-17T081955.png
 security:
@@ -651,7 +651,7 @@ tags:
 - Business Cards
 - Prepaid Cards
 - Fintech
-- Financial Services
-- Webhooks
+- Financial-Services
+- Webhook
 website: https://developer.soldo.com/
 ---

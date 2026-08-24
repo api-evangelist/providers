@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -204,9 +204,9 @@ description: Greenspark is an Impact-as-a-Service platform that lets businesses 
 image: https://cdn.prod.website-files.com/611391a1477389e3857d8014/64cb3773a1ba8a68d73a88ad_greenspark-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: greenspark-mcp.yml
-  slug: greenspark-mcpyml
+- description: 'Greenspark operates an official remote MCP server hosted by ReadMe at https://docs.getgreenspark.com/mcp. v1 is read-only: it exposes the Greenspark OpenAPI specs and guides for schema-aware answers, '
+  name: Greenspark MCP Server
+  slug: greenspark-mcp-server
 modified: '2026-07-19'
 name: Greenspark
 nav: Providers
@@ -219,7 +219,7 @@ random_paper: 3
 score:
   band: developing
   composite: 44.3
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -229,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 50.2
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,9 +240,9 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/screenshots/greenspark-2026-07-25T220317.png
 security:
 - kind: authentication

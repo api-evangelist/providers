@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -823,7 +823,7 @@ mcp_servers:
 - description: ''
   name: kFinance MCP server (stdio, SSE, streamable-http transports)
   slug: kfinance-mcp-server-stdio-sse-streamable-http-transports
-- description: ''
+- description: 'Hosted (remote) MCP server for the S&P Global LLM-Ready API (kFinance), operated by Kensho. Documented first-class integrations: Claude (Desktop/Cowork/Code), ChatGPT, Microsoft Copilot Studio, Amazon'
   name: Hosted kFinance MCP server manifest (https://kfinance.kensho.com/integrations/mcp)
   slug: hosted-kfinance-mcp-server-manifest-httpskfinancekenshocomintegrationsmcp
 modified: '2026-07-22'
@@ -886,18 +886,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode/refresh_token
 score:
   band: strong
-  composite: 64.2
-  delta: -4.2
+  composite: 64.5
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
-    contract_governance: 56.8
+    contract_governance: 59.1
     contract_quality: 70.0
     developer_ergonomics: 66.7
     discoverability: 83.3
-    governance: 56.8
+    governance: 59.1
     operational_transparency: 36.8
-  previous_composite: 68.4
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -908,8 +908,8 @@ score:
       total: 34
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:
@@ -935,7 +935,7 @@ tags:
 - Market Intelligence
 - Mobility
 - Named Entity Recognition
-- Speech to Text
+- Speech-to-Text
 use_cases:
 - description: Ground LLM-generated investment notes, tearsheets, and earnings previews in live S&P Capital IQ data via the LLM-ready API and the S&P Global Claude Cowork plugin.
   name: AI Equity Research

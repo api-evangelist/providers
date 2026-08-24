@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ modified: '2026-07-11'
 name: DecoNetwork
 nav: Providers
 network: true
-overview: 'DecoNetwork publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Orders API, Products API, and 1 more. Tagged areas include Custom Apparel, Web to Print, Print Shop Management, Orders, and Products.
+overview: 'DecoNetwork publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Orders API, Products API, and 1 more. Tagged areas include Custom Apparel, Web-to-Print, Print Shop Management, Order, and Product.
 
 
   DecoNetwork''s developer surface includes authentication, documentation, signup flow, and 7 more developer resources.'
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.4
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -148,7 +148,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 40.0
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/screenshots/deconetwork-2026-07-25T211529.png
 security:
@@ -172,12 +172,12 @@ security:
 slug: deconetwork
 tags:
 - Custom Apparel
-- Web to Print
+- Web-to-Print
 - Print Shop Management
-- Orders
-- Products
+- Order
+- Product
 - Inventory
 - Production Workflow
-- E-commerce
+- E-Commerce
 website: https://www.deconetwork.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -514,14 +514,14 @@ jsonld:
   slug: microsoft-teams-graph-api-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: microsoft-teams-mcp.yml
-  slug: microsoft-teams-mcpyml
+- description: Candidate MCP server surface derived one-tool-per-operation from the Microsoft Graph Teams OpenAPI. Microsoft does not publish an official first-party hosted MCP server dedicated to Teams; this is a g
+  name: Microsoft Teams MCP Server
+  slug: microsoft-teams-mcp-server
 modified: '2026-06-20'
 name: Microsoft Teams
 nav: Providers
 network: true
-overview: 'Microsoft Teams publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bot Framework API, Apps API, Calls API, and 6 more. Tagged areas include Chat, Collaboration, Communication, Microsoft 365, and Productivity.
+overview: 'Microsoft Teams publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bot Framework API, Apps API, Calls API, and 6 more. Tagged areas include Chat, Collaboration, Communications, Microsoft-365, and Productivity.
 
 
   The Microsoft Teams catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -578,7 +578,7 @@ scopes:
 score:
   band: developing
   composite: 53.1
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -588,7 +588,7 @@ score:
     discoverability: 92.6
     governance: 45.5
     operational_transparency: 31.6
-  previous_composite: 56.6
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -598,8 +598,8 @@ score:
       marker_coverage: 100.0
       total: 8
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:
@@ -623,8 +623,8 @@ slug: microsoft-teams
 tags:
 - Chat
 - Collaboration
-- Communication
-- Microsoft 365
+- Communications
+- Microsoft-365
 - Productivity
 - Video Conferencing
 use_cases:

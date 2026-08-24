@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,12 +69,12 @@ modified: '2026-07-19'
 name: INF Tech
 nav: Providers
 network: true
-overview: INF Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Large Language Models, and Generative AI.
+overview: INF Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Generative AI.
 random_paper: 0
 score:
   band: minimal
   composite: 7.2
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -84,9 +84,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 7.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infly/refs/heads/main/screenshots/infly-2026-07-25T222424.png
 security:
@@ -98,7 +98,7 @@ slug: infly
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Generative AI
 - AI Agents

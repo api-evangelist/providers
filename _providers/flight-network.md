@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,23 +150,23 @@ overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 12
 score:
   band: emerging
-  composite: 18.0
-  delta: 0.4
+  composite: 19.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 17.6
+  previous_composite: 19.1
   provenance:
     agentic_access: first-party
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flight-network/refs/heads/main/screenshots/flight-network-2026-08-07T165345.png
 security:

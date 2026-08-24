@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1166,13 +1166,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-rekognition-mcp.yml
-  slug: amazon-rekognition-mcpyml
+  name: Amazon Rekognition MCP Server
+  slug: amazon-rekognition-mcp-server
 modified: '2026-06-20'
 name: Amazon Rekognition
 nav: Providers
 network: true
-overview: 'Amazon Rekognition publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Celebrity Recognition API, Content Moderation API, Custom Labels API, and 7 more. Tagged areas include Celebrity Recognition, Computer Vision, Content Moderation, Custom Labels, and Deep Learning.
+overview: 'Amazon Rekognition publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Celebrity Recognition API, Content Moderation API, Custom Labels API, and 7 more. Tagged areas include Celebrity Recognition, Computer-Vision, Content Moderation, Custom Labels, and Deep Learning.
 
 
   The Amazon Rekognition catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1212,18 +1212,18 @@ rules:
   slug: amazon-rekognition-spectral-rules
 score:
   band: strong
-  composite: 55.3
-  delta: -6.1
+  composite: 55.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 32.3
     developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 52.6
-  previous_composite: 61.4
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1233,9 +1233,9 @@ score:
       marker_coverage: 100.0
       total: 10
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png
 security:
 - kind: authentication
@@ -1257,14 +1257,14 @@ security:
 slug: amazon-rekognition
 tags:
 - Celebrity Recognition
-- Computer Vision
+- Computer-Vision
 - Content Moderation
 - Custom Labels
 - Deep Learning
 - Face Liveness
 - Facial Recognition
 - Image Analysis
-- Machine Learning
+- Machine-Learning
 - Object Detection
 - Text Detection
 - Video Analysis

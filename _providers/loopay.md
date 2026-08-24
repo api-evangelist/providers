@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -237,8 +237,8 @@ image: https://loopay.com/wp-content/uploads/2023/09/Loopay-web-imgs-24-150x139.
 layout: provider
 mcp_servers:
 - description: ''
-  name: loopay-mcp.yml
-  slug: loopay-mcpyml
+  name: Loopay MCP Server
+  slug: loopay-mcp-server
 modified: '2026-07-20'
 name: Loopay
 nav: Providers
@@ -251,7 +251,7 @@ random_paper: 9
 score:
   band: thin
   composite: 36.5
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -261,7 +261,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 37.8
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -278,8 +278,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/screenshots/loopay-2026-07-25T225527.png
 security:

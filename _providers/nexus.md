@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ modified: '2026-04-28'
 name: Nexus Repository Manager
 nav: Providers
 network: true
-overview: 'Nexus Repository Manager publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Assets API, BlobStores API, Components API, and 5 more. Tagged areas include Artifact Management, DevOps, Docker, Maven, and Npm.
+overview: 'Nexus Repository Manager publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Assets API, BlobStores API, Components API, and 5 more. Tagged areas include Artifact Management, DevOps, Docker, Maven, and npm.
 
 
   Nexus Repository Manager''s developer surface includes authentication, documentation, support, getting-started guide, GitHub presence, engineering blog, and 4 more developer resources.'
@@ -168,7 +168,7 @@ rate_limits:
 score:
   band: thin
   composite: 27.5
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -178,7 +178,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 31.8
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
@@ -186,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/screenshots/nexus-2026-06-20T190305.png
 security:
@@ -205,7 +205,7 @@ tags:
 - DevOps
 - Docker
 - Maven
-- Npm
+- npm
 - Package Management
 - Repository Manager
 - Software Supply Chain

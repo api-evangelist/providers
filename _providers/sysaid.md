@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ modified: '2026-05-11'
 name: SysAid
 nav: Providers
 network: true
-overview: 'SysAid publishes 16 APIs on the [APIs.io](https://apis.io/) network, including ActionItems API, Activities API, Agents API, and 13 more. Tagged areas include ITSM, Help Desk, IT Service Management, Asset Management, and Ticketing.
+overview: 'SysAid publishes 16 APIs on the [APIs.io](https://apis.io/) network, including ActionItems API, Activities API, Agents API, and 13 more. Tagged areas include ITSM, Help Desk, Asset Management, Ticketing, and Service Desk.
 
 
   SysAid''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
@@ -215,7 +215,7 @@ random_paper: 2
 score:
   band: thin
   composite: 31.4
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 32.6
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -233,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/screenshots/sysaid-2026-06-20T194835.png
 security:
@@ -254,7 +254,6 @@ slug: sysaid
 tags:
 - ITSM
 - Help Desk
-- IT Service Management
 - Asset Management
 - Ticketing
 - Service Desk

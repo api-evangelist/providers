@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,12 +52,12 @@ modified: '2026-07-17'
 name: Amount
 nav: Providers
 network: true
-overview: Amount is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Banking, and Financial Services.
+overview: Amount is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Banking, and Financial-Services.
 random_paper: 9
 score:
   band: minimal
   composite: 1.8
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,15 +67,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 6.0
+  previous_composite: 1.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -88,7 +88,7 @@ tags:
 - Fintech
 - Lending
 - Banking
-- Financial Services
+- Financial-Services
 - Loan Origination
 - Account Opening
 - Fraud

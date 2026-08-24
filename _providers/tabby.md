@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -311,7 +311,7 @@ layout: provider
 name: Tabby
 nav: Providers
 network: true
-overview: 'Tabby publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Disputes API, Payments API, and 1 more. Tagged areas include BNPL, Buy Now Pay Later, Consumer Finance, E-commerce, and Fintech.
+overview: 'Tabby publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Disputes API, Payments API, and 1 more. Tagged areas include BNPL, Buy Now Pay Later, Consumer Finance, E-Commerce, and Fintech.
 
 
   The Tabby catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -351,18 +351,18 @@ rules:
   slug: tabby-rules
 score:
   band: developing
-  composite: 53.5
-  delta: -0.3
+  composite: 53.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.6
     developer_ergonomics: 61.9
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 53.8
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -376,8 +376,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/screenshots/tabby-2026-06-20T194846.png
 security:
@@ -394,7 +394,7 @@ tags:
 - BNPL
 - Buy Now Pay Later
 - Consumer Finance
-- E-commerce
+- E-Commerce
 - Fintech
 - Installments
 - MENA

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -209,13 +209,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: first-direct-mcp.yml
-  slug: first-direct-mcpyml
+  name: first direct MCP Server
+  slug: first-direct-mcp-server
 modified: '2026-07-23'
 name: first direct
 nav: Providers
 network: true
-overview: 'first direct publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction Information API (AIS), Payment Initiation API (PIS), and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'first direct publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction Information API (AIS), Payment Initiation API (PIS), and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   first direct''s developer surface includes authentication, changelog, sandbox, getting-started guide, signup flow, documentation, support, and 29 more developer resources.'
@@ -228,7 +228,7 @@ scopes:
 score:
   band: strong
   composite: 56.6
-  delta: 7.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -238,7 +238,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 49.5
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,9 +255,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 88.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png
 security:
 - kind: authentication
@@ -274,7 +274,7 @@ security:
   summary_line: Bugcrowd · security.txt · contact published
 slug: first-direct
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

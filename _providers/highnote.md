@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -274,14 +274,14 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/highnote.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: highnote-mcp.yml
-  slug: highnote-mcpyml
+- description: No official Highnote-hosted MCP server was found (searched docs, npm @modelcontextprotocol, and public MCP registries as of 2026-07-23). This is a DERIVED candidate tool list — one tool per marquee Gr
+  name: Highnote MCP Server
+  slug: highnote-mcp-server
 modified: '2026-07-23'
 name: Highnote
 nav: Providers
 network: true
-overview: 'Highnote publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Issuing API, Account Holders & Onboarding API, Acquiring API, and 4 more. Tagged areas include Card Issuing, Card Acquiring, Embedded Finance, Banking-as-a-Service, and Fintech.
+overview: 'Highnote publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Issuing API, Account Holders & Onboarding API, Acquiring API, and 4 more. Tagged areas include Card Issuing, Card Acquiring, Embedded Finance, Banking as a Service, and Fintech.
 
 
   The Highnote catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -300,7 +300,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 75.8
-  delta: 9.5
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -310,7 +310,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 71.1
-  previous_composite: 66.3
+  previous_composite: 75.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -327,9 +327,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:
 - kind: authentication
@@ -345,7 +345,7 @@ tags:
 - Card Issuing
 - Card Acquiring
 - Embedded Finance
-- Banking-as-a-Service
+- Banking as a Service
 - Fintech
 - Payments
 - GraphQL

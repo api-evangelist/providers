@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -2295,8 +2295,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amadeus-solutions-mcp.yml
-  slug: amadeus-solutions-mcpyml
+  name: Amadeus Solutions MCP Server
+  slug: amadeus-solutions-mcp-server
 modified: '2026-06-20'
 name: Amadeus Solutions
 nav: Providers
@@ -2333,18 +2333,18 @@ rules:
   slug: amadeus-solutions-spectral-rules
 score:
   band: thin
-  composite: 32.6
-  delta: -21.9
+  composite: 33.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 53.1
     developer_ergonomics: 26.2
     discoverability: 87.0
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 2.6
-  previous_composite: 54.5
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2354,9 +2354,9 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/screenshots/amadeus-solutions-2026-07-25T195907.png
 security:
 - kind: domain-security

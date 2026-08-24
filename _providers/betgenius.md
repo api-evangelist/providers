@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ scopes:
 score:
   band: developing
   composite: 46.6
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -268,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 47.2
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +279,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/screenshots/betgenius-2026-06-20T173202.png
 security:

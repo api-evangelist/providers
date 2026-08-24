@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Almanac API V1 (private beta) for programmatic workspace management: import files, move files and folders, view workspace users and groups, view and update document properties and access, and access a'
@@ -84,7 +84,7 @@ modified: '2026-07-18'
 name: Almanac Leie1
 nav: Providers
 network: true
-overview: 'Almanac Leie1 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Collaboration, Documents, Wiki, and Workflow.
+overview: 'Almanac Leie1 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Collaboration, Documents, Wiki, and Workflows.
 
 
   Almanac Leie1''s developer surface includes documentation, API reference, support, pricing, changelog, and 5 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 8
 score:
   band: emerging
   composite: 18.0
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -108,10 +108,10 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 23.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 18.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/almanac-leie1/refs/heads/main/screenshots/almanac-leie1-2026-07-25T195738.png
 slug: almanac-leie1
 tags:
@@ -119,8 +119,8 @@ tags:
 - Collaboration
 - Documents
 - Wiki
-- Workflow
+- Workflows
 - Productivity
-- Knowledge Management
+- Knowledge-Management
 website: https://almanac.io/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: JSON-over-REST API for managing Range Teams, Users, and Check-ins (Updates). API-key (HTTP Basic) or OAuth 2.0 bearer authentication; HTTPS/TLS 1.2+ required.
@@ -155,8 +155,8 @@ image: https://www.range.co/img/apple-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: range-mcp.yml
-  slug: range-mcpyml
+  name: Range MCP Server
+  slug: range-mcp-server
 modified: '2026-07-20'
 name: Range
 nav: Providers
@@ -169,7 +169,7 @@ random_paper: 0
 score:
   band: thin
   composite: 35.5
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -179,12 +179,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 36.4
+  previous_composite: 35.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

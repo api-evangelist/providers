@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Unified, multi-chain REST data API (formerly Ubiquity) providing fully indexed blockchain data across 50+ networks. Lookup blocks by number or hash, fetch transactions, account balances for one or man
@@ -418,7 +418,7 @@ rules:
 score:
   band: developing
   composite: 45.8
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -428,15 +428,15 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 52.6
-  previous_composite: 48.6
+  previous_composite: 45.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockdaemon/refs/heads/main/screenshots/blockdaemon-2026-06-20T173357.png
 security:

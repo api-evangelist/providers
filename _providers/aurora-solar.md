@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ modified: '2026-07-04'
 name: Aurora Solar
 nav: Providers
 network: true
-overview: 'Aurora Solar publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Consumption Profiles API, Designs API, and 5 more. Tagged areas include Solar, Solar Design, PV, Proposals, and CleanTech.
+overview: 'Aurora Solar publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Consumption Profiles API, Designs API, and 5 more. Tagged areas include Solar, Solar Design, PV, Proposals, and Cleantech.
 
 
   Aurora Solar''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -179,7 +179,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.2
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +193,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/screenshots/aurora-solar-2026-07-25T201754.png
 security:
@@ -212,7 +212,7 @@ tags:
 - Solar Design
 - PV
 - Proposals
-- CleanTech
+- Cleantech
 - Energy
 - Sales Software
 website: https://aurorasolar.com

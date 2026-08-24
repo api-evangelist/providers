@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Adverity Management API provides programmatic access to the Adverity platform for managing datastreams, authorizations, fetches, transformations, data mappings, destinations, workspaces, and users
@@ -187,8 +187,8 @@ image: https://www.adverity.com/hubfs/7.%20Webpages/adverity-banner.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: adverity-mcp.yml
-  slug: adverity-mcpyml
+  name: Adverity MCP
+  slug: adverity-mcp
 modified: '2026-08-13'
 name: Adverity
 nav: Providers
@@ -217,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 53.0
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -227,12 +227,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 55.9
+  previous_composite: 53.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/screenshots/adverity-2026-07-25T181708.png
 security:

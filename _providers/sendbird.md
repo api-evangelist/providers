@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -379,8 +379,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: sendbird-mcp.yml
-  slug: sendbird-mcpyml
+  name: Sendbird MCP Server
+  slug: sendbird-mcp-server
 modified: '2026-06-20'
 name: Sendbird
 nav: Providers
@@ -425,18 +425,18 @@ rules:
   slug: sendbird-rules
 score:
   band: developing
-  composite: 48.0
-  delta: -12.6
+  composite: 48.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 73.5
     developer_ergonomics: 21.4
     discoverability: 79.6
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 26.3
-  previous_composite: 60.6
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -450,9 +450,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png
 security:
 - kind: authentication

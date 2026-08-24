@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: Legacy marketplace/collections API — obtain a JWT with your API key and secret, then manage NFT collections and in-platform tokens for token checkout.
@@ -205,8 +205,8 @@ image: https://2034179314-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.c
 layout: provider
 mcp_servers:
 - description: ''
-  name: tweed-mcp.yml
-  slug: tweed-mcpyml
+  name: Tweed MCP Server
+  slug: tweed-mcp-server
 modified: '2026-07-21'
 name: Tweed
 nav: Providers
@@ -222,7 +222,7 @@ random_paper: 12
 score:
   band: developing
   composite: 40.8
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -232,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 38.9
+  previous_composite: 40.8
   provenance:
     conformance: derived
     contracts:
@@ -248,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

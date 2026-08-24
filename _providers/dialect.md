@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -234,9 +234,9 @@ description: Dialect is a Web3 UX infrastructure company on Solana that provides
 image: https://www.dialect.to/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: dialect-mcp.yml
-  slug: dialect-mcpyml
+- description: Official hosted MCP server for Dialect. Gives agents access to Blinks creation, the Standard Blinks Library (40+ protocol integrations), the Markets API (real-time rates, TVL, protocol metrics), the A
+  name: Dialect MCP Server
+  slug: dialect-mcp-server
 modified: '2026-07-18'
 name: Dialect
 nav: Providers
@@ -252,7 +252,7 @@ random_paper: 12
 score:
   band: developing
   composite: 50.5
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -262,7 +262,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 49.6
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +279,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/screenshots/dialect-2026-07-25T211909.png
 security:
@@ -299,7 +299,7 @@ tags:
 - Web3
 - Blockchain
 - Solana
-- Notifications
+- Notification
 - Messaging
 - Alerts
 - DeFi

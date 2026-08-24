@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Open Neural Network Exchange (ONNX) is an open format for representing deep learning models, enabling interoperability between AI frameworks.
@@ -131,7 +131,7 @@ modified: '2026-04-28'
 name: LF AI and Data
 nav: Providers
 network: true
-overview: 'LF AI and Data publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, Data, Linux Foundation, and Open Source.
+overview: 'LF AI and Data publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, Data, Linux Foundation, and Open-Source.
 
 
   LF AI and Data''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.2
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -157,9 +157,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 17.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-ai-and-data/refs/heads/main/screenshots/lf-ai-and-data-2026-06-20T184449.png
 security:
@@ -170,10 +170,10 @@ security:
 slug: lf-ai-and-data
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Data
 - Linux Foundation
-- Open Source
+- Open-Source
 - MLOps
 - Vector Database
 website: https://lfaidata.foundation/

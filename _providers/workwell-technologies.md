@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Raw punch records across a date range
@@ -96,9 +96,9 @@ description: Workwell Technologies, Inc. is a Carlsbad, California workforce man
 image: https://uattend.com/wp-content/uploads/2019/07/uAttendLogo-01.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: workwell-technologies-mcp.yml
-  slug: workwell-technologies-mcpyml
+- description: Workwell Technologies does not publish an official MCP server (none found in docs, npm, or MCP registries). This is a candidate tool list derived from the documented WorkWell Technologies API (uAttend
+  name: Workwell Technologies MCP Server
+  slug: workwell-technologies-mcp-server
 modified: '2026-07-21'
 name: Workwell Technologies
 nav: Providers
@@ -111,7 +111,7 @@ random_paper: 11
 score:
   band: thin
   composite: 31.7
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -121,7 +121,7 @@ score:
     discoverability: 92.6
     governance: 12.1
     operational_transparency: 0.0
-  previous_composite: 35.8
+  previous_composite: 31.7
   provenance:
     contracts:
       callable: 100.0
@@ -129,8 +129,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: workwell-technologies
 tags:

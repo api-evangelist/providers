@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A live, first-party remote Model Context Protocol server that makes the Bluefish AI platform callable by agents over Streamable HTTP. It is protected by OAuth 2.1 and requires the mcp:connect scope; a
@@ -105,8 +105,8 @@ image: https://framerusercontent.com/images/HAib9zYaCuHpzLWP2A6EcUxHGM.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: bluefish-ai-mcp.yml
-  slug: bluefish-ai-mcpyml
+  name: Bluefish AI MCP Server
+  slug: bluefish-ai-mcp-server
 modified: '2026-08-13'
 name: Bluefish AI
 nav: Providers
@@ -131,23 +131,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.1
-  delta: -2.1
+  composite: 20.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 20.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluefish-ai/refs/heads/main/screenshots/bluefish-ai-2026-07-25T203448.png
 security:

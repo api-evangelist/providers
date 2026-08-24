@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: Twice-daily export of all historical reservation and guest data for the locations in a Tock business group. Payloads follow the published Reservation data model (party, purchased experiences, options,
@@ -83,7 +83,7 @@ modified: '2026-07-05'
 name: Tock
 nav: Providers
 network: true
-overview: 'Tock publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Reservations, Restaurants, Hospitality, Events, and Ordering.
+overview: 'Tock publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Reservations, Restaurant, Hospitality, Event, and Ordering.
 
 
   Tock''s developer surface includes documentation and 6 more developer resources.'
@@ -95,7 +95,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 15.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -105,9 +105,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -117,12 +117,12 @@ security:
 slug: tock-reservations
 tags:
 - Reservations
-- Restaurants
+- Restaurant
 - Hospitality
-- Events
+- Event
 - Ordering
 - Guest Data
-- Webhooks
+- Webhook
 - Partner API
 - American Express
 website: https://www.exploretock.com

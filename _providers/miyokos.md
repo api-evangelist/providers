@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -71,31 +71,31 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miyokos.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: miyokos-mcp.yml
-  slug: miyokos-mcpyml
+  name: Miyoko's Creamery Shopping (UCP)
+  slug: miyokos-creamery-shopping-ucp
 modified: '2026-07-20'
 name: Miyokos
 nav: Providers
 network: true
-overview: 'Miyokos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Planetary Health, Plant-Based, Food and Beverage, and Ecommerce.
+overview: 'Miyokos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Planetary Health, Plant-Based, Food and Beverage, and E-Commerce.
 
 
   Miyokos'' developer surface includes authentication and 7 more developer resources.'
 random_paper: 2
 score:
   band: emerging
-  composite: 13.3
-  delta: -2.2
+  composite: 14.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.5
+  previous_composite: 14.4
   provenance:
     mcp: first-party
   regulatory:
@@ -104,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miyokos/refs/heads/main/screenshots/miyokos-2026-08-07T183958.png
 security:
@@ -123,7 +123,7 @@ tags:
 - Planetary Health
 - Plant-Based
 - Food and Beverage
-- Ecommerce
+- E-Commerce
 - Shopify
 - Agent Commerce
 - UCP

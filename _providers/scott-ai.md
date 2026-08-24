@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -348,13 +348,13 @@ image: https://tryscott.ai/scott-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: scott-ai-mcp.yml
-  slug: scott-ai-mcpyml
+  name: Scott Ai MCP Server
+  slug: scott-ai-mcp-server
 modified: '2026-07-21'
 name: Scott Ai
 nav: Providers
 network: true
-overview: 'Scott Ai publishes 30 APIs on the [APIs.io](https://apis.io/) network, including access API, agent-counsel API, agent-counsel-internal API, and 27 more. Tagged areas include Company, Coding Agents, AI, Developer Tools, and Collaboration.
+overview: 'Scott Ai publishes 30 APIs on the [APIs.io](https://apis.io/) network, including access API, agent-counsel API, agent-counsel-internal API, and 27 more. Tagged areas include Company, Coding Agents, Artificial Intelligence, Developer Tools, and Collaboration.
 
 
   Scott Ai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 23 more developer resources.'
@@ -362,7 +362,7 @@ random_paper: 6
 score:
   band: developing
   composite: 44.3
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -372,7 +372,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 5.3
-  previous_composite: 47.9
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,8 +383,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/screenshots/scott-ai-2026-08-17T081735.png
 security:
@@ -408,11 +408,11 @@ slug: scott-ai
 tags:
 - Company
 - Coding Agents
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Collaboration
 - Agentic Workflow
-- Model Context Protocol
+- MCP
 - Software Design
 website: https://tryscott.ai
 ---

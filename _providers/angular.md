@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: 'The Angular Core API provides the fundamental building blocks of the Angular framework including components, directives, pipes, dependency injection, Signals for reactive state management, standalone '
@@ -133,7 +133,7 @@ modified: '2026-05-19'
 name: Angular
 nav: Providers
 network: true
-overview: 'Angular publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Deferrable Views, Framework, Frontend, JavaScript, and Open Source.
+overview: 'Angular publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Deferrable Views, Framework, Frontend, JavaScript, and Open-Source.
 
 
   Angular''s developer surface includes documentation, GitHub presence, engineering blog, Stack Overflow tag, YouTube channel, and 10 more developer resources.'
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.2
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -165,9 +165,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular/refs/heads/main/screenshots/angular-2026-06-20T171952.png
 security:
@@ -187,7 +187,7 @@ tags:
 - Framework
 - Frontend
 - JavaScript
-- Open Source
+- Open-Source
 - Signals
 - Single Page Application
 - TypeScript

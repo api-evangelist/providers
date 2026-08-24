@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -372,7 +372,7 @@ modified: '2026-05-30'
 name: Vercel
 nav: Providers
 network: true
-overview: 'Vercel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Chat API, Chats API, and 2 more. Tagged areas include AI Gateways, Gateways, Observability, and Webhooks.
+overview: 'Vercel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Chat API, Chats API, and 2 more. Tagged areas include AI Gateways, Gateways, Observability, and Webhook.
 
 
   The Vercel catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -424,7 +424,7 @@ rules:
 score:
   band: strong
   composite: 56.3
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -434,7 +434,7 @@ score:
     discoverability: 55.6
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 62.4
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -442,9 +442,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:
 - kind: authentication
@@ -468,5 +468,5 @@ tags:
 - AI Gateways
 - Gateways
 - Observability
-- Webhooks
+- Webhook
 ---

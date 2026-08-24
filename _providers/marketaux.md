@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Live stock market news with tagged tickers, per-entity sentiment and match scores, entity statistics and trending endpoints, delivered as a GET-only JSON API authenticated with an api_token query para
@@ -152,8 +152,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketaux.
 layout: provider
 mcp_servers:
 - description: ''
-  name: marketaux-mcp.yml
-  slug: marketaux-mcpyml
+  name: MarketAux MCP Server
+  slug: marketaux-mcp-server
 modified: '2026-07-22'
 name: MarketAux
 nav: Providers
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.3
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -184,7 +184,7 @@ score:
     discoverability: 83.3
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 43.0
+  previous_composite: 45.3
   provenance:
     conformance: derived
     contracts:
@@ -200,8 +200,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/screenshots/marketaux-2026-06-20T184952.png
 security:

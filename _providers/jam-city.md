@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 11.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -105,9 +105,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jam-city/refs/heads/main/screenshots/jam-city-2026-08-07T170944.png
 security:
@@ -123,7 +123,7 @@ tags:
 - Gaming
 - Entertainment
 - Mobile Apps
-- Free To Play
+- Free-to-Play
 - Consumer
 website: https://www.jamcity.com/
 ---

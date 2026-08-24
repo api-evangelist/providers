@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Hosted/remote MCP server 'LOA Healthcare Pricing' v1.0.0 over Streamable HTTP with 12 tools for CPT search, procedure suggestions, provider/hospital search, pricing estimates, market pricing, entity p
@@ -59,18 +59,18 @@ description: Source-labeled U.S. healthcare price transparency API and MCP serve
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Loa Healthcare Pricing API MCP Server
+  slug: loa-healthcare-pricing-api-mcp-server
 modified: '2026-08-02'
 name: Loa Healthcare Pricing API
 nav: Providers
 network: true
-overview: Loa Healthcare Pricing API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Analytics API, Entity Updates API, and 1 more. Tagged areas include healthcare, price transparency, medical pricing, hospitals, and providers.
+overview: Loa Healthcare Pricing API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Analytics API, Entity Updates API, and 1 more. Tagged areas include Healthcare, Price Transparency, medical pricing, Hospitals, and Providers.
 random_paper: 13
 score:
   band: emerging
   composite: 17.1
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -80,7 +80,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.5
+  previous_composite: 17.1
   provenance:
     contracts:
       callable: 0.0
@@ -93,23 +93,23 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/screenshots/loa-healthcare-pricing-api-2026-08-07T171743.png
 slug: loa-healthcare-pricing-api
 tags:
-- healthcare
-- price transparency
+- Healthcare
+- Price Transparency
 - medical pricing
-- hospitals
-- providers
-- provider directory
+- Hospitals
+- Providers
+- Provider Directory
 - hospital prices
 - CPT
 - HCPCS
 - MCP
 - agent-native
 - OpenAPI
-- llms.txt
+- llms-txt
 ---

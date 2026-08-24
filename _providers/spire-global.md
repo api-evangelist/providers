@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Single GraphQL endpoint delivering Spire's satellite AIS maritime data - vessel positions, voyages, port calls, and predicted ETAs - with flexible querying for analytics and integration use cases. Now
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.3
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -140,9 +140,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 16.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spire-global/refs/heads/main/screenshots/spire-global-2026-06-20T194320.png
 security:

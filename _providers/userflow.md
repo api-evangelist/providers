@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Userflow REST API allows back-end applications to synchronize user data, track events, and manage groups or companies within the Userflow platform. It provides endpoints for creating, updating, an
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.5
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -131,9 +131,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 35.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 32.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userflow/refs/heads/main/screenshots/userflow-2026-06-20T200712.png
 security:
@@ -150,7 +150,7 @@ tags:
 - Announcements
 - NPS Surveys
 - User Flows
-- SaaS
+- Software-as-a-Service
 - Product-Led Growth
 website: https://www.userflow.com
 ---

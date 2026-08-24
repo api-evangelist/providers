@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for the Growatt ShineServer monitoring platform. Exposes plant lists and details, plant energy overview and history, device lists, and per-device energy, detail, history a
@@ -95,8 +95,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/growatt.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: growatt-mcp.yml
-  slug: growatt-mcpyml
+  name: Growatt MCP Server
+  slug: growatt-mcp-server
 modified: '2026-07-19'
 name: Growatt
 nav: Providers
@@ -109,7 +109,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 13.0
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -119,7 +119,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 16.5
+  previous_composite: 13.0
   provenance:
     conformance: derived
     mcp: derived
@@ -129,8 +129,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/growatt/refs/heads/main/screenshots/growatt-2026-07-25T220401.png
 security:

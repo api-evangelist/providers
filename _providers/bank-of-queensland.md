@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -177,8 +177,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-of-qu
 layout: provider
 mcp_servers:
 - description: ''
-  name: bank-of-queensland-mcp.yml
-  slug: bank-of-queensland-mcpyml
+  name: Bank of Queensland MCP Server
+  slug: bank-of-queensland-mcp-server
 modified: '2026-07-21T18:00:00Z'
 name: Bank of Queensland
 nav: Providers
@@ -196,7 +196,7 @@ scopes:
 score:
   band: developing
   composite: 44.7
-  delta: 4.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 40.2
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,8 +223,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/screenshots/bank-of-queensland-2026-07-21T114702.png
 security:

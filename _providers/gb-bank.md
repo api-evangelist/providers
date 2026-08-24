@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ modified: '2026-07-23'
 name: GB Bank
 nav: Providers
 network: true
-overview: 'GB Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account and Transaction Information API (AIS), Payment Initiation API (PIS), Confirmation of Funds API (CBPII), and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'GB Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account and Transaction Information API (AIS), Payment Initiation API (PIS), Confirmation of Funds API (CBPII), and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   GB Bank''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
@@ -149,7 +149,7 @@ scopes:
 score:
   band: thin
   composite: 36.1
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -159,7 +159,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 32.2
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -174,8 +174,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 81.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/screenshots/gb-bank-2026-07-25T215509.png
 security:
@@ -189,7 +189,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: gb-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

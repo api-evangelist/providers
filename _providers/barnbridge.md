@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ rules:
 score:
   band: thin
   composite: 30.6
-  delta: -6.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -213,7 +213,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 37.4
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -221,9 +221,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/screenshots/barnbridge-2026-06-20T173007.png
 slug: barnbridge
 tags:

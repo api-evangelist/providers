@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,12 +68,12 @@ modified: '2026-07-20'
 name: Responsiv
 nav: Providers
 network: true
-overview: Responsiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Regulatory Compliance, RegTech, and Governance Risk and Compliance.
+overview: Responsiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application, Regulatory Compliance, RegTech, and Governance Risk and Compliance.
 random_paper: 14
 score:
   band: minimal
   composite: 9.6
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -83,15 +83,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.2
+  previous_composite: 9.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -101,13 +101,13 @@ security:
 slug: responsiv
 tags:
 - Company
-- Applications
+- Application
 - Regulatory Compliance
 - RegTech
 - Governance Risk and Compliance
 - Legal Research
 - Artificial Intelligence
-- Financial Services
+- Financial-Services
 - Insurance
 website: https://responsiv.ai/
 ---

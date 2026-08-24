@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -290,14 +290,14 @@ jsonld:
   slug: serper-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: serper-mcp.yml
-  slug: serper-mcpyml
+- description: Serper ships NO MCP server of its own — no hosted endpoint, no published package, no mention of MCP anywhere on serper.dev. The tool list below is a CANDIDATE derived from the OpenAPI definitions in t
+  name: Serper MCP
+  slug: serper-mcp
 modified: '2026-08-13'
 name: Serper
 nav: Providers
 network: true
-overview: 'Serper publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Images API, Lens API, and 11 more. Tagged areas include Search, SERP, Google Search, AI, and LLM.
+overview: 'Serper publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Images API, Lens API, and 11 more. Tagged areas include Search, SERP, Google Search, Artificial Intelligence, and LLM.
 
 
   The Serper catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -327,7 +327,7 @@ rules:
 score:
   band: strong
   composite: 60.9
-  delta: -13.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -337,7 +337,7 @@ score:
     discoverability: 81.5
     governance: 26.5
     operational_transparency: 36.8
-  previous_composite: 74.0
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,9 +348,9 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png
 security:
 - kind: authentication
@@ -366,10 +366,10 @@ tags:
 - Search
 - SERP
 - Google Search
-- AI
+- Artificial Intelligence
 - LLM
 - SEO
-- Images
+- Image
 - News
 - Maps
 - Shopping

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-18'
 name: Disperse
 nav: Providers
 network: true
-overview: 'Disperse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Construction, Construction Technology, and Computer Vision.
+overview: 'Disperse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Construction, Construction Technology, and Computer-Vision.
 
 
   Disperse''s developer surface includes engineering blog, support, pricing, signup flow, and 10 more developer resources.'
@@ -104,7 +104,7 @@ random_paper: 2
 score:
   band: emerging
   composite: 20.6
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -114,9 +114,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 20.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disperse/refs/heads/main/screenshots/disperse-2026-07-25T212104.png
 security:
@@ -138,8 +138,8 @@ tags:
 - Enterprise
 - Construction
 - Construction Technology
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Reality Capture
 - Progress Tracking
 - BIM

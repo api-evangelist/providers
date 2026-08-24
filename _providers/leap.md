@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: The create meters API from Leap — 4 operation(s) for create meters.
@@ -252,8 +252,8 @@ image: https://www.leap.energy/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: leap-mcp.yml
-  slug: leap-mcpyml
+  name: Leap MCP Server
+  slug: leap-mcp-server
 modified: '2026-07-19'
 name: Leap
 nav: Providers
@@ -269,7 +269,7 @@ random_paper: 19
 score:
   band: developing
   composite: 47.3
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -279,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 50.3
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
@@ -295,8 +295,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/screenshots/leap-2026-07-25T224743.png
 security:
@@ -322,7 +322,7 @@ tags:
 - EV Charging
 - Smart Buildings
 - Metering
-- Webhooks
+- Webhook
 - Climate Tech
 website: https://www.leap.energy/
 ---

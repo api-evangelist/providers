@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful consumer API for building applications on top of the Linkable card-linked-offer platform. Per the provider developer page it exposes consumer registration, view and opt-out (consumerapi/consum
@@ -120,13 +120,13 @@ image: https://linkablenetworks.com/wp-content/themes/linkablenetworks/library/i
 layout: provider
 mcp_servers:
 - description: ''
-  name: linkable-networks-collinson-group-mcp.yml
-  slug: linkable-networks-collinson-group-mcpyml
+  name: Linkable Networks (Collinson Group) MCP Server
+  slug: linkable-networks-collinson-group-mcp-server
 modified: '2026-07-19'
 name: Linkable Networks (Collinson Group)
 nav: Providers
 network: true
-overview: 'Linkable Networks (Collinson Group) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Card Linked Offers, Loyalty, and Payments.
+overview: 'Linkable Networks (Collinson Group) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Card-Linked Offers, Loyalty, and Payments.
 
 
   Linkable Networks (Collinson Group)''s developer surface includes documentation, support, engineering blog, authentication, and 15 more developer resources.'
@@ -134,7 +134,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 21.2
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -144,7 +144,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 23.6
+  previous_composite: 21.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -154,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/screenshots/linkable-networks-collinson-group-2026-07-25T225253.png
 security:
@@ -171,7 +171,7 @@ slug: linkable-networks-collinson-group
 tags:
 - Company
 - Fintech
-- Card Linked Offers
+- Card-Linked Offers
 - Loyalty
 - Payments
 - Rewards

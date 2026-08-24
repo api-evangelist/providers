@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -476,7 +476,7 @@ modified: '2026-05-19'
 name: Cribl
 nav: Providers
 network: true
-overview: 'Cribl publishes 32 APIs on the [APIs.io](https://apis.io/) network, including API Credentials API, Authentication API, Collectors API, and 29 more. Tagged areas include Configuration, Data Lake, Data Pipelines, Data Routing, and Edge Computing.
+overview: 'Cribl publishes 32 APIs on the [APIs.io](https://apis.io/) network, including API Credentials API, Authentication API, Collectors API, and 29 more. Tagged areas include Configuration, Data Lake, Data Pipeline, Data Routing, and Edge Computing.
 
 
   The Cribl catalog on APIs.io includes 1 JSON-LD context and 7 Spectral governance rulesets.
@@ -576,18 +576,18 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.1
-  delta: 1.7
+  composite: 47.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 45.5
+    contract_governance: 54.5
     contract_quality: 64.9
     developer_ergonomics: 33.3
-    discoverability: 66.7
-    governance: 45.5
+    discoverability: 75.9
+    governance: 54.5
     operational_transparency: 10.5
-  previous_composite: 43.4
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -595,8 +595,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/screenshots/cribl-2026-06-20T175228.png
 security:
@@ -616,7 +616,7 @@ slug: cribl
 tags:
 - Configuration
 - Data Lake
-- Data Pipelines
+- Data Pipeline
 - Data Routing
 - Edge Computing
 - Infrastructure as Code

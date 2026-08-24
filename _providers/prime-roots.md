@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Prime Roots Shopify storefront''s agent-facing commerce surface: a UCP merchant profile, a hosted MCP endpoint for catalog/cart/checkout, and read-only storefront JSON endpoints.'
@@ -73,14 +73,14 @@ description: 'Prime Roots is a Berkeley, California foodtech company making koji
 image: https://www.primeroots.com/cdn/shop/files/logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: prime-roots-mcp.yml
-  slug: prime-roots-mcpyml
+- description: 'Prime Roots operates a hosted, remote MCP endpoint as part of its Shopify storefront implementation of the Universal Commerce Protocol (UCP, https://ucp.dev). Agents POST JSON-RPC to the endpoint and '
+  name: Prime Roots MCP Server
+  slug: prime-roots-mcp-server
 modified: '2026-07-20'
 name: Prime Roots
 nav: Providers
 network: true
-overview: 'Prime Roots publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Foodtech, Plant-Based, Deli Meat, and Food Service.
+overview: 'Prime Roots publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Plant-Based, Deli Meat, and Food Service.
 
 
   Prime Roots'' developer surface includes engineering blog and 7 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 13.4
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -98,11 +98,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.1
+  previous_composite: 13.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -112,7 +112,7 @@ security:
 slug: prime-roots
 tags:
 - Company
-- Foodtech
+- Food Tech
 - Plant-Based
 - Deli Meat
 - Food Service
@@ -120,6 +120,6 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Shopify
-- Ecommerce
+- E-Commerce
 website: https://primeroots.com
 ---

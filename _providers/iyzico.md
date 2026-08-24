@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for accepting card payments (NON-3DS and 3D Secure), hosted CheckoutForm and Pay with iyzico flows, iyzico Link, subscriptions, marketplace submerchant payments and payouts, card storage/toke
@@ -171,13 +171,13 @@ image: https://www.iyzico.com/en/
 layout: provider
 mcp_servers:
 - description: ''
-  name: iyzico-mcp.yml
-  slug: iyzico-mcpyml
+  name: Iyzico MCP Server
+  slug: iyzico-mcp-server
 modified: '2026-07-19'
 name: Iyzico
 nav: Providers
 network: true
-overview: 'Iyzico publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, FinTech, Payment Gateway, and Card Payments.
+overview: 'Iyzico publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Payment Gateway, and Card Payments.
 
 
   The Iyzico catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.2
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -202,7 +202,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 49.2
+  previous_composite: 51.2
   provenance:
     conformance: derived
     mcp: derived
@@ -212,8 +212,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/screenshots/iyzico-2026-07-25T223026.png
 security:
@@ -229,11 +229,11 @@ slug: iyzico
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Payment Gateway
 - Card Payments
 - Checkout
-- Subscriptions
+- Subscription
 - Marketplace
 - Turkey
 - 3D Secure

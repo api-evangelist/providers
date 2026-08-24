@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 15
 apis:
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
@@ -256,13 +256,13 @@ image: https://ik.imagekit.io/tvlk/image/imageResource/2024/08/09/1723192761223-
 layout: provider
 mcp_servers:
 - description: ''
-  name: traveloka-mcp.yml
-  slug: traveloka-mcpyml
+  name: Traveloka MCP Server
+  slug: traveloka-mcp-server
 modified: '2026-08-05'
 name: Traveloka
 nav: Providers
 network: true
-overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1.1 Content - Hotel & Room API, 2.1 Search - HotelList API, 2.2 Search - RoomList API, and 11 more. Tagged areas include travel, online-travel-agency, accommodation, hotel-booking, and flights.
+overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1.1 Content - Hotel & Room API, 2.1 Search - HotelList API, 2.2 Search - RoomList API, and 11 more. Tagged areas include Travel, Online Travel Agency, Accommodation, Hotel Booking, and Flights.
 
 
   The Traveloka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -277,7 +277,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.8
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -287,7 +287,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 50.3
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -297,8 +297,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/screenshots/traveloka-2026-08-17T125942.png
 security:
@@ -316,17 +316,17 @@ security:
   summary_line: Bugcrowd
 slug: traveloka
 tags:
-- travel
-- online-travel-agency
-- accommodation
-- hotel-booking
-- flights
-- activities
-- hospitality
-- distribution
-- channel-manager
-- opentravel
-- southeast-asia
-- indonesia
+- Travel
+- Online Travel Agency
+- Accommodation
+- Hotel Booking
+- Flights
+- Activities
+- Hospitality
+- Distribution
+- Channel Manager
+- OpenTravel
+- Southeast Asia
+- Indonesia
 website: https://www.traveloka.com/
 ---

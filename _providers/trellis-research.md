@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST Data API (V2, May 2024) for programmatic access to U.S. state and federal trial court data — Search (Boolean/query over Cases, Documents, Rulings with filtering and sorting), Rulings, Judges, Usa
@@ -126,9 +126,9 @@ description: Trellis (trellis.law) is an AI-powered state and federal court rese
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trellis-research.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: trellis-research-mcp.yml
-  slug: trellis-research-mcpyml
+- description: Official remote MCP server from Trellis (trellis.law) exposing litigation research tools over U.S. state, federal, appellate, supreme, and bankruptcy court data — case search, document retrieval, tent
+  name: Trellis Law MCP
+  slug: trellis-law-mcp
 modified: '2026-07-21'
 name: Trellis Research
 nav: Providers
@@ -144,7 +144,7 @@ random_paper: 19
 score:
   band: developing
   composite: 41.1
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -154,12 +154,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 45.1
+  previous_composite: 41.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellis-research/refs/heads/main/screenshots/trellis-research-2026-08-17T082432.png
 security:
@@ -180,7 +180,6 @@ tags:
 - Litigation Analytics
 - Judicial Analytics
 - Legal Data
-- API
 - MCP
 website: https://trellis.law/
 ---

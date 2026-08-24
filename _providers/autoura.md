@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Autoura Experience API provides access to tourism content including cuisine guides, destination information, tour itineraries, local activities, and points of interest. Developers can integrate Au
@@ -91,7 +91,7 @@ modified: '2026-04-19'
 name: Autoura
 nav: Providers
 network: true
-overview: 'Autoura publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tourism, Tours, Travel, Destinations, and Experiences.
+overview: 'Autoura publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tourism, Tours, Travel, Destinations, and Experience.
 
 
   Autoura''s developer surface includes documentation and 5 more developer resources.'
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.5
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -117,9 +117,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoura/refs/heads/main/screenshots/autoura-2026-06-20T172710.png
 security:
@@ -133,7 +133,7 @@ tags:
 - Tours
 - Travel
 - Destinations
-- Experiences
+- Experience
 - Digital Tourism
 use_cases:
 - description: Integrate Autoura destination content into travel booking apps and tourism portals to enhance destination discovery and trip planning.

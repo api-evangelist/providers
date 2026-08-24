@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Facilities API from Garner — 1 operation(s) for facilities.
@@ -136,13 +136,13 @@ image: https://cdn.prod.website-files.com/6994c8f92ae6b0d756f5e541/69b15a86b59f2
 layout: provider
 mcp_servers:
 - description: ''
-  name: garner-mcp.yml
-  slug: garner-mcpyml
+  name: Garner MCP Server
+  slug: garner-mcp-server
 modified: '2026-07-19'
 name: Garner
 nav: Providers
 network: true
-overview: 'Garner publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Facilities API, Professionals API, Provider Annotations API, and 1 more. Tagged areas include Company, Healthtech, Healthcare, Provider Data, and Care Navigation.
+overview: 'Garner publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Facilities API, Professionals API, Provider Annotations API, and 1 more. Tagged areas include Company, Health Tech, Healthcare, Provider Data, and Care Navigation.
 
 
   Garner''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 12 more developer resources.'
@@ -150,7 +150,7 @@ random_paper: 9
 score:
   band: developing
   composite: 43.8
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -160,7 +160,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 40.7
+  previous_composite: 43.8
   provenance:
     conformance: first-party
     contracts:
@@ -176,8 +176,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/screenshots/garner-2026-07-25T215448.png
 security:
@@ -192,7 +192,7 @@ security:
 slug: garner
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Healthcare
 - Provider Data
 - Care Navigation

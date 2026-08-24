@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-04-19'
 name: Bonneville Power Administration
 nav: Providers
 network: true
-overview: 'Bonneville Power Administration publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Hydrology API, Right of Way API, and 2 more. Tagged areas include Energy, Federal Government, GIS, Hydroelectric, and Pacific Northwest.
+overview: 'Bonneville Power Administration publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Hydrology API, Right of Way API, and 2 more. Tagged areas include Energy, Federal-Government, GIS, Hydroelectric, and Pacific Northwest.
 
 
   Bonneville Power Administration''s developer surface includes engineering blog and 9 more developer resources.'
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.0
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -181,7 +181,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.3
+  previous_composite: 18.0
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/screenshots/bonneville-power-administration-2026-06-20T173608.png
 security:
@@ -207,7 +207,7 @@ security:
 slug: bonneville-power-administration
 tags:
 - Energy
-- Federal Government
+- Federal-Government
 - GIS
 - Hydroelectric
 - Pacific Northwest

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -594,7 +594,7 @@ modified: '2026-05-24'
 name: Assembled
 nav: Providers
 network: true
-overview: 'Assembled publishes 27 APIs on the [APIs.io](https://apis.io/) network, including People API, Agent State API, Activities API, and 24 more. Tagged areas include Customer Support, Workforce Management, WFM, AI Agents, and AI Copilot.
+overview: 'Assembled publishes 27 APIs on the [APIs.io](https://apis.io/) network, including People API, Agent State API, Activities API, and 24 more. Tagged areas include Customer-Support, Workforce Management, WFM, AI Agents, and AI Copilot.
 
 
   The Assembled catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -634,18 +634,18 @@ rules:
   slug: assembled-rules
 score:
   band: strong
-  composite: 55.6
-  delta: -12.2
+  composite: 56.0
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 63.6
     developer_ergonomics: 61.9
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 67.8
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -653,9 +653,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/screenshots/assembled-2026-06-20T172502.png
 security:
 - kind: authentication
@@ -676,7 +676,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: assembled
 tags:
-- Customer Support
+- Customer-Support
 - Workforce Management
 - WFM
 - AI Agents

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST access to live, vetted India job openings. `GET /jobs` searches by keyword (`q`), Indian city or state (`location`), posting age in days (`days`, 1–365) and result count (`limit`, 1–20, default 1
@@ -47,13 +47,13 @@ description: 'Jobvetta is a jobs API for India — live openings gathered and ch
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Jobvetta MCP Server
+  slug: jobvetta-mcp-server
 modified: '2026-08-02'
 name: Jobvetta
 nav: Providers
 network: true
-overview: 'Jobvetta publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs, Recruitment, Job Search, India, and Employment.
+overview: 'Jobvetta publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Job, Recruitment, Job Search, India, and Employment.
 
 
   Jobvetta''s developer surface includes documentation, signup flow, and 1 more developer resources.'
@@ -61,7 +61,7 @@ random_paper: 2
 score:
   band: minimal
   composite: 10.5
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -71,20 +71,20 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobvetta/refs/heads/main/screenshots/jobvetta-2026-08-07T171010.png
 slug: jobvetta
 tags:
-- Jobs
+- Job
 - Recruitment
 - Job Search
 - India
 - Employment
 - MCP
-- Agent-native
+- agent-native
 - Developer Tools
 website: https://www.jobvetta.com
 ---

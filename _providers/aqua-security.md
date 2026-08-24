@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -487,7 +487,7 @@ modified: '2026-05-19'
 name: Aqua Security
 nav: Providers
 network: true
-overview: 'Aqua Security publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Containers API, Images API, and 3 more. Tagged areas include Cloud Native, Containers, Kubernetes, Runtime Protection, and Security.
+overview: 'Aqua Security publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Containers API, Images API, and 3 more. Tagged areas include Cloud-Native, Containers, Kubernetes, Runtime Protection, and Security.
 
 
   The Aqua Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -527,18 +527,18 @@ rules:
   slug: aqua-security-spectral-rules
 score:
   band: thin
-  composite: 36.3
-  delta: -13.6
+  composite: 36.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 27.0
     developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 49.9
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -546,9 +546,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/screenshots/aqua-security-2026-06-20T172346.png
 security:
 - kind: authentication
@@ -565,7 +565,7 @@ security:
   summary_line: Bugcrowd
 slug: aqua-security
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Kubernetes
 - Runtime Protection

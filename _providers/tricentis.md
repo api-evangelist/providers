@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 5
@@ -826,8 +826,8 @@ image: https://be.tricentis.com/media-assets/2022/08/Tricentis-Logo-1-1120x446-1
 layout: provider
 mcp_servers:
 - description: ''
-  name: tricentis-mcp.yml
-  slug: tricentis-mcpyml
+  name: Tricentis MCP Server
+  slug: tricentis-mcp-server
 modified: '2026-08-02'
 name: Tricentis
 nav: Providers
@@ -847,18 +847,18 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 62.4
-  delta: 0.5
+  composite: 61.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
     contract_quality: 62.7
     developer_ergonomics: 85.7
-    discoverability: 75.9
+    discoverability: 66.7
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 61.9
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -869,8 +869,8 @@ score:
       total: 103
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/screenshots/tricentis-2026-08-17T082438.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,12 +48,12 @@ modified: '2026-07-21'
 name: Trisk Bio
 nav: Providers
 network: true
-overview: Trisk Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Biotechnology, Gene Therapy, and AAV Manufacturing.
+overview: Trisk Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Biotechnology, Gene Therapy, and AAV Manufacturing.
 random_paper: 13
 score:
   band: minimal
   composite: 3.3
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -63,15 +63,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
+  previous_composite: 3.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -81,7 +81,7 @@ security:
 slug: trisk-bio
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Biotechnology
 - Gene Therapy
 - AAV Manufacturing

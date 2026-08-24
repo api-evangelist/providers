@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Search and retrieve regulatory and clinical documents.
@@ -146,13 +146,13 @@ image: https://rhizomeai.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: rhizome-ai-mcp.yml
-  slug: rhizome-ai-mcpyml
+  name: Rhizome Ai MCP Server
+  slug: rhizome-ai-mcp-server
 modified: '2026-07-21'
 name: Rhizome Ai
 nav: Providers
 network: true
-overview: 'Rhizome Ai publishes 1 API on the [APIs.io](https://apis.io/) network: Documents API. Tagged areas include Company, Regulatory, Pharmaceutical, Medical Devices, and Life Sciences.
+overview: 'Rhizome Ai publishes 1 API on the [APIs.io](https://apis.io/) network: Documents API. Tagged areas include Company, Regulatory, Pharmaceuticals, Medical Devices, and Life Sciences.
 
 
   Rhizome Ai''s developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 17 more developer resources.'
@@ -163,18 +163,18 @@ rate_limits:
   slug: rhizome-ai-rate-limits
 score:
   band: developing
-  composite: 49.1
-  delta: 3.7
+  composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
     contract_quality: 63.6
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 45.4
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -190,8 +190,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/screenshots/rhizome-ai-2026-08-17T081552.png
 security:
@@ -207,7 +207,7 @@ slug: rhizome-ai
 tags:
 - Company
 - Regulatory
-- Pharmaceutical
+- Pharmaceuticals
 - Medical Devices
 - Life Sciences
 - Document Search

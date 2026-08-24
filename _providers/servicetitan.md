@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -766,7 +766,7 @@ scopes:
 score:
   band: developing
   composite: 53.9
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -776,7 +776,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 42.1
-  previous_composite: 59.1
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -784,9 +784,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/screenshots/servicetitan-2026-06-20T193732.png
 security:
 - kind: authentication
@@ -811,6 +811,6 @@ tags:
 - Pricebook
 - Marketing
 - Memberships
-- Webhooks
+- Webhook
 website: https://developer.servicetitan.io/
 ---

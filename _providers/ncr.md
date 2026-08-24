@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -457,7 +457,7 @@ modified: '2026-06-02'
 name: NCR
 nav: Providers
 network: true
-overview: 'NCR publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Category API, Order API, and 4 more. Tagged areas include Restaurant, Retail, Banking, ATM, and Point of Sale.
+overview: 'NCR publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Category API, Order API, and 4 more. Tagged areas include Restaurant, Retail, Banking, ATM, and Point-of-Sale.
 
 
   The NCR catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -532,18 +532,18 @@ rules:
   slug: ncr-voyix-commerce-platform-spectral-rules
 score:
   band: thin
-  composite: 28.7
-  delta: -6.1
+  composite: 29.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 23.4
     developer_ergonomics: 21.4
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 34.8
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -557,9 +557,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png
 security:
 - kind: authentication
@@ -576,7 +576,7 @@ tags:
 - Retail
 - Banking
 - ATM
-- Point of Sale
+- Point-of-Sale
 - Commerce
 - Fortune 500
 website: https://www.ncr.com

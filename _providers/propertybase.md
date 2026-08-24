@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: JSON REST API for the Propertybase GO / Lone Wolf Front Office real estate CRM. Read and write CRM records - leads, agents, employees, teams, offices, properties, tasks, events, messages, saved search
@@ -105,7 +105,7 @@ modified: '2026-07-20'
 name: propertybase
 nav: Providers
 network: true
-overview: 'propertybase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, CRM, PropTech, and Salesforce.
+overview: 'propertybase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, CRM, PropTech, and Salesforce.
 
 
   propertybase''s developer surface includes documentation, API reference, authentication, changelog, support, signup flow, and 9 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 23.2
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -123,11 +123,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 22.9
+  previous_composite: 23.2
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -141,11 +141,10 @@ security:
 slug: propertybase
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - CRM
 - PropTech
 - Salesforce
 - Lead Management
-- API
 website: https://propertybase.lwolf.com
 ---

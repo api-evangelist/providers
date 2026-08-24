@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -164,8 +164,8 @@ image: https://avatars.githubusercontent.com/u/175623330?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: babylon-labs-mcp.yml
-  slug: babylon-labs-mcpyml
+  name: Babylon Labs MCP Server
+  slug: babylon-labs-mcp-server
 modified: '2026-07-18'
 name: Babylon Labs
 nav: Providers
@@ -178,7 +178,7 @@ random_paper: 9
 score:
   band: thin
   composite: 37.2
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 36.6
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,8 +199,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/screenshots/babylon-labs-2026-07-25T202203.png
 security:
@@ -219,6 +219,5 @@ tags:
 - Proof of Stake
 - DeFi
 - Staking
-- API
 website: https://babylonlabs.io
 ---

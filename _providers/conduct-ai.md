@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-08-08'
 name: Conduct AI
 nav: Providers
 network: true
-overview: 'Conduct AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Enterprise Software, SAP, and S/4HANA.
+overview: 'Conduct AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Enterprise Software, SAP, and S/4HANA.
 
 
   Conduct AI''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 12.7
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -90,9 +90,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 13.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conduct-ai/refs/heads/main/screenshots/conduct-ai-2026-07-25T210237.png
 security:
@@ -103,7 +103,7 @@ security:
 slug: conduct-ai
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Enterprise Software
 - SAP
 - S/4HANA

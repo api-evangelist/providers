@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ modified: '2026-08-06'
 name: Hey API
 nav: Providers
 network: true
-overview: 'Hey API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Get API, Hey API API, Internal API, and 3 more. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDKs, and TypeScript.
+overview: 'Hey API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Get API, Hey API API, Internal API, and 3 more. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDK, and TypeScript.
 
 
   The Hey API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -248,7 +248,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -258,7 +258,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 47.7
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +268,8 @@ score:
       marker_coverage: 0.0
       total: 6
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/screenshots/hey-api-2026-06-20T182713.png
 security:
@@ -286,12 +286,12 @@ tags:
 - Code Generation
 - Developer Tools
 - OpenAPI
-- SDKs
+- SDK
 - TypeScript
 - Python
 - API Design
 - Specifications
 - Registry
-- Open Source
+- Open-Source
 website: https://heyapi.dev/
 ---

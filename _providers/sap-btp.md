@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: REST APIs for managing SAP BTP global accounts, subaccounts, directories, and entitlements. Provides programmatic control over the platform hierarchy and service provisioning.
@@ -55,6 +55,10 @@ apis:
   slug: sap-alert-notification-service-api
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -120,17 +124,17 @@ jsonld:
   property_count: 0
   slug: sap-btp
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-21'
 name: SAP Business Technology Platform
 nav: Providers
 network: true
-overview: 'SAP Business Technology Platform publishes 1 API on the [APIs.io](https://apis.io/) network: SAP BTP Core Services API. Tagged areas include SAP, Cloud Platform, Integration, AI, and Data Management.
+overview: 'SAP Business Technology Platform publishes 1 API on the [APIs.io](https://apis.io/) network: SAP BTP Core Services API. Tagged areas include SAP, Cloud Platform, Integration, Artificial Intelligence, and Data Management.
 
 
   The SAP Business Technology Platform catalog on APIs.io includes 1 JSON-LD context.
 
 
-  SAP Business Technology Platform''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  SAP Business Technology Platform''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Sap Btp Plans Pricing
   plan_count: 5
@@ -143,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -153,9 +157,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 31.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-btp/refs/heads/main/screenshots/sap-btp-2026-06-20T193421.png
 security:
@@ -172,7 +176,7 @@ tags:
 - SAP
 - Cloud Platform
 - Integration
-- AI
+- Artificial Intelligence
 - Data Management
 - Analytics
 - Application Development

@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 2
@@ -324,13 +324,13 @@ image: https://www.sarj.ai/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: sarj-ai-developer-api-mcp.yml
-  slug: sarj-ai-developer-api-mcpyml
+  name: Sarj AI Developer API MCP Server
+  slug: sarj-ai-developer-api-mcp-server
 modified: '2026-08-09'
 name: Sarj AI Developer API
 nav: Providers
 network: true
-overview: 'Sarj AI Developer API publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent Profiles API, Analytics API, and 24 more. Tagged areas include voice AI, voice agents, conversational AI, Arabic AI, and outbound calls.
+overview: 'Sarj AI Developer API publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent Profiles API, Analytics API, and 24 more. Tagged areas include Voice AI, Voice Agents, Conversational AI, Arabic AI, and Outbound Calls.
 
 
   The Sarj AI Developer API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -345,18 +345,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 32.2
-  delta: -11.2
+  composite: 33.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 30.3
     contract_quality: 55.4
     developer_ergonomics: 31.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 43.4
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -367,9 +367,9 @@ score:
       total: 28
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/screenshots/sarj-ai-developer-api-2026-08-17T081723.png
 security:
 - kind: authentication
@@ -382,15 +382,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: sarj-ai-developer-api
 tags:
-- voice AI
-- voice agents
-- conversational AI
+- Voice AI
+- Voice Agents
+- Conversational AI
 - Arabic AI
-- outbound calls
-- telephony
-- speech to text
-- text to speech
-- voice cloning
+- Outbound Calls
+- Telephony
+- Speech-to-Text
+- Text-to-Speech
+- Voice Cloning
 - MCP
 - agent-native
 - Saudi Arabia

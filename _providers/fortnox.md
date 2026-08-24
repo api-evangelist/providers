@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ rules:
 score:
   band: developing
   composite: 39.7
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -215,7 +215,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 41.0
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/screenshots/fortnox-2026-07-25T215012.png
 security:
@@ -247,6 +247,6 @@ tags:
 - Finance
 - Vouchers
 - Customers
-- SaaS
+- Software-as-a-Service
 website: https://www.fortnox.se
 ---

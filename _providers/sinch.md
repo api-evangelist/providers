@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 4
@@ -601,7 +601,7 @@ scopes:
 score:
   band: strong
   composite: 57.0
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -611,7 +611,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 59.7
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
@@ -625,8 +625,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/screenshots/sinch-2026-06-20T193947.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -156,9 +156,9 @@ description: zkMe is a decentralized identity network delivering privacy-preserv
 image: https://zk.me/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: zkme-mcp.yml
-  slug: zkme-mcpyml
+- description: No official hosted/remote zkMe MCP server was found (docs, npm @modelcontextprotocol, MCP registries). This is a candidate tool surface derived one-tool-per-operation from the documented zkMe Open API
+  name: zkMe MCP Server
+  slug: zkme-mcp-server
 modified: '2026-07-21'
 name: zkMe
 nav: Providers
@@ -175,7 +175,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.2
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -185,7 +185,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 39.9
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,8 +196,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

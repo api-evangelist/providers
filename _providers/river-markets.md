@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -221,13 +221,13 @@ image: https://rivermarkets.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: river-markets-mcp.yml
-  slug: river-markets-mcpyml
+  name: River Markets MCP Server
+  slug: river-markets-mcp-server
 modified: '2026-07-21'
 name: River Markets
 nav: Providers
 network: true
-overview: 'River Markets publishes 13 APIs on the [APIs.io](https://apis.io/) network, including balance API, complex-orders API, fair-values API, and 10 more. Tagged areas include Company, Prediction Markets, Trading, Prime Brokerage, and Financial Services.
+overview: 'River Markets publishes 13 APIs on the [APIs.io](https://apis.io/) network, including balance API, complex-orders API, fair-values API, and 10 more. Tagged areas include Company, Prediction Markets, Trading, Prime Brokerage, and Financial-Services.
 
 
   The River Markets catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -238,7 +238,7 @@ random_paper: 12
 score:
   band: developing
   composite: 39.3
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -248,7 +248,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 39.9
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,8 +265,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -283,7 +283,7 @@ tags:
 - Prediction Markets
 - Trading
 - Prime Brokerage
-- Financial Services
+- Financial-Services
 - Order Management
 - Market Data
 - WebSocket

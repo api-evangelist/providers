@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -211,8 +211,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: volt-io-mcp.yml
-  slug: volt-io-mcpyml
+  name: Volt MCP Server
+  slug: volt-mcp-server
 modified: '2026-07-24'
 name: Volt
 nav: Providers
@@ -228,7 +228,7 @@ random_paper: 0
 score:
   band: developing
   composite: 42.2
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -238,7 +238,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 52.2
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,9 +255,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/screenshots/volt-io-2026-08-17T082816.png
 security:
 - kind: authentication

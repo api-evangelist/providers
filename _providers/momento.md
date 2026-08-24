@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Region-scoped HTTP API for reading, writing, and deleting cache items in a Momento cache without a gRPC client. Supports GET, PUT (set with TTL), and DELETE against a named cache, authenticated with a
@@ -155,13 +155,13 @@ image: https://github.com/momentohq.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: momento-mcp.yml
-  slug: momento-mcpyml
+  name: Momento MCP Server
+  slug: momento-mcp-server
 modified: '2026-07-20'
 name: Momento
 nav: Providers
 network: true
-overview: 'Momento publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Caching, Serverless, and Cache.
+overview: 'Momento publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Caching, Serverless, and Cache.
 
 
   The Momento catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -172,7 +172,7 @@ random_paper: 11
 score:
   band: developing
   composite: 40.8
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -182,13 +182,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 45.3
+  previous_composite: 40.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/screenshots/momento-2026-08-07T184119.png
 security:
@@ -203,15 +203,15 @@ security:
 slug: momento
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Caching
 - Serverless
 - Cache
-- Pub/Sub
+- Pub-Sub
 - Messaging
 - Event Bus
 - Leaderboards
-- Real Time
+- Real-Time
 - gRPC
 - Developer Tools
 website: https://www.gomomento.com/

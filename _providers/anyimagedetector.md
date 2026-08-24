@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API with a single endpoint (POST /v1/image/detect) that detects whether an image is AI-generated. Accepts a multipart file upload (JPG, PNG or WebP, up to 8 MB) or a JSON body with a public image
@@ -137,14 +137,14 @@ description: AnyImageDetector (imagedetector.online) is a single-purpose AI-imag
 image: https://imagedetector.online/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: anyimagedetector-mcp.yml
-  slug: anyimagedetector-mcpyml
+- description: 'AnyImageDetector operates NO MCP server — hosted, remote or local — and publishes no agent surface of any kind beyond an llms.txt that describes marketing pages. The tool below is a CANDIDATE derived '
+  name: AnyImageDetector MCP Server
+  slug: anyimagedetector-mcp-server
 modified: '2026-08-11'
 name: AnyImageDetector
 nav: Providers
 network: true
-overview: 'AnyImageDetector publishes 1 API on the [APIs.io](https://apis.io/) network: AI Image Detector API. Tagged areas include AI image detection, image analysis, computer vision, content moderation, and trust & safety.
+overview: 'AnyImageDetector publishes 1 API on the [APIs.io](https://apis.io/) network: AI Image Detector API. Tagged areas include AI image detection, Image Analysis, Computer-Vision, Content Moderation, and Trust and Safety.
 
 
   AnyImageDetector''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.4
-  delta: -14.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 53.9
+  previous_composite: 39.4
   provenance:
     conformance: derived
     contracts:
@@ -180,9 +180,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/screenshots/anyimagedetector-2026-08-17T080553.png
 security:
 - kind: authentication
@@ -196,14 +196,14 @@ security:
 slug: anyimagedetector
 tags:
 - AI image detection
-- image analysis
-- computer vision
-- content moderation
-- trust & safety
-- fact-checking
+- Image Analysis
+- Computer-Vision
+- Content Moderation
+- Trust and Safety
+- Fact Checking
 - media verification
-- developer tools
-- synthetic media
-- fraud prevention
+- Developer Tools
+- Synthetic Media
+- Fraud Prevention
 website: https://imagedetector.online/api
 ---

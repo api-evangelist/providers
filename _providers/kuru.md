@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Generate Token API from Kuru — 1 operation(s) for generate token.
@@ -168,8 +168,8 @@ image: https://www.kuru.io/favicon-96x96.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kuru-mcp.yml
-  slug: kuru-mcpyml
+  name: Kuru MCP Server
+  slug: kuru-mcp-server
 modified: '2026-07-19'
 name: Kuru
 nav: Providers
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.4
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -196,7 +196,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 48.3
+  previous_composite: 51.4
   provenance:
     conformance: first-party
     contracts:
@@ -212,8 +212,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 35.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/screenshots/kuru-2026-07-25T224337.png
 security:

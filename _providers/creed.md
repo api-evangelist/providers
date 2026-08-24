@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 123
   human_in_the_loop: 1
@@ -401,8 +401,8 @@ image: https://usecreed.com/images/creed_logo_lg.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: creed-mcp.yml
-  slug: creed-mcpyml
+  name: Creed MCP Server
+  slug: creed-mcp-server
 modified: '2026-07-18'
 name: Creed
 nav: Providers
@@ -414,7 +414,7 @@ overview: 'Creed publishes 49 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 11
 score:
   band: thin
-  composite: 28.6
+  composite: 30.4
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -422,10 +422,10 @@ score:
     contract_governance: 16.7
     contract_quality: 49.9
     developer_ergonomics: 20.8
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 28.6
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -436,8 +436,8 @@ score:
       total: 49
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/screenshots/creed-2026-07-25T210722.png
 security:
@@ -458,7 +458,7 @@ tags:
 - Bible
 - Prayer
 - Artificial Intelligence
-- Chatbot
+- Chatbots
 - Consumer
 - Community
 website: https://usecreed.com

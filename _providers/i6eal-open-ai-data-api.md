@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: Officially published AI-related investigations, orders, fines and remedies with separate procedural stages and exact technology evidence.
@@ -130,6 +130,10 @@ collections:
   name: i6eal Open AI Data Public AI System Evidence Pass API
   slug: open-i6eal-open-ai-data-api-public-ai-system-evidence-pass-api
 common:
+- group: other
+  title: ''
+  type: APIsJSON
+  url: https://i6eal.de/apis.json
 - group: agent
   title: ''
   type: MCPServer
@@ -244,24 +248,24 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: i6eal-open-ai-data-api-mcp.yml
-  slug: i6eal-open-ai-data-api-mcpyml
+  name: i6eal Open AI Data API MCP Server
+  slug: i6eal-open-ai-data-api-mcp-server
 modified: '2026-08-09'
 name: i6eal Open AI Data API
 nav: Providers
 network: true
-overview: 'i6eal Open AI Data API publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Enforcement Monitor Germany & EU API, AI Parliamentary Accountability Monitor API, Catalogue API, and 14 more. Tagged areas include Artificial Intelligence, Open Data, Public Policy, Regulation, and Compliance.
+overview: 'i6eal Open AI Data API publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Enforcement Monitor Germany & EU API, AI Parliamentary Accountability Monitor API, Catalogue API, and 14 more. Tagged areas include Artificial Intelligence, Open Data, Public Policy, Regulations, and Compliance.
 
 
   The i6eal Open AI Data API catalog on APIs.io includes 1 JSON-LD context.
 
 
-  i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 18 more developer resources.'
+  i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 19 more developer resources.'
 random_paper: 10
 score:
   band: developing
   composite: 49.2
-  delta: 9.6
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -271,7 +275,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 39.6
+  previous_composite: 49.2
   provenance:
     conformance: derived
     contracts:
@@ -287,9 +291,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: I6Eal Open Ai Data Api Authentication
@@ -304,7 +308,7 @@ tags:
 - Artificial Intelligence
 - Open Data
 - Public Policy
-- Regulation
+- Regulations
 - Compliance
 - EU AI Act
 - Government

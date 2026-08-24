@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ modified: '2026-08-01'
 name: Evidation Health
 nav: Providers
 network: true
-overview: 'Evidation Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Real World Data.
+overview: 'Evidation Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Real-World Data.
 
 
   Evidation Health''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 17.1
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -122,15 +122,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.2
+  previous_composite: 17.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evidation-health/refs/heads/main/screenshots/evidation-health-2026-08-07T165048.png
 security:
@@ -148,7 +148,7 @@ tags:
 - Health
 - Healthcare
 - Digital Health
-- Real World Data
+- Real-World Data
 - Clinical Research
 - Wearables
 - Patient Engagement

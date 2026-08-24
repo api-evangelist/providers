@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-18'
 name: Attuned Intelligence
 nav: Providers
 network: true
-overview: 'Attuned Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Healthcare, Voice AI, and Call Center Automation.
+overview: 'Attuned Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Healthcare, Voice AI, and Call Center Automation.
 
 
   Attuned Intelligence''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 11
 score:
   band: emerging
   composite: 16.8
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -106,7 +106,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.2
+  previous_composite: 16.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -116,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attuned-intelligence/refs/heads/main/screenshots/attuned-intelligence-2026-07-25T201641.png
 security:
@@ -128,7 +128,7 @@ security:
 slug: attuned-intelligence
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - Voice AI
 - Call Center Automation

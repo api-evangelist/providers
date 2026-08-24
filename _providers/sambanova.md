@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ modified: '2026-05-23'
 name: SambaNova
 nav: Providers
 network: true
-overview: 'SambaNova publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 1 more. Tagged areas include AI Inference, Large Language Models, Dataflow, Hardware, and Cloud.
+overview: 'SambaNova publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 1 more. Tagged areas include AI Inference, Large Language Models, Dataflows, Hardware, and Cloud.
 
 
   SambaNova''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.3
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -170,7 +170,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 40.4
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/screenshots/sambanova-2026-06-20T193358.png
 security:
@@ -199,13 +199,13 @@ slug: sambanova
 tags:
 - AI Inference
 - Large Language Models
-- Dataflow
+- Dataflows
 - Hardware
 - Cloud
-- OpenAI Compatible
+- OpenAI-Compatible
 - Sovereign AI
 - SDK
 - Accelerator
-- Open Source
+- Open-Source
 website: https://sambanova.ai
 ---

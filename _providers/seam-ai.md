@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Seam AI Enrichment API enriches customer data with generative AI and traditional third-party data providers. It exposes an OpenAI-compatible chat-completions surface — a single POST /v1/chat/compl
@@ -144,9 +144,9 @@ description: Seam AI (legal entity Talkmore Inc.) is an AI-native account-based 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seam-ai.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: seam-ai-mcp.yml
-  slug: seam-ai-mcpyml
+- description: 'Seam AI runs a remote, anonymous Model Context Protocol server on its documentation host. It is a documentation-search server (the Mintlify docs MCP surface), not a server over the Seam product API: t'
+  name: Seam AI
+  slug: seam-ai
 modified: '2026-08-13'
 name: Seam AI
 nav: Providers
@@ -167,7 +167,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.8
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -177,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 52.1
+  previous_composite: 52.8
   provenance:
     conformance: first-party
     contracts:
@@ -187,8 +187,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/screenshots/seam-ai-2026-08-17T081740.png
 security:

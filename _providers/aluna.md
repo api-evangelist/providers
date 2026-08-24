@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,33 +92,33 @@ modified: '2026-07-17'
 name: Aluna
 nav: Providers
 network: true
-overview: 'Aluna is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Respiratory, Spirometry, and Remote Patient Monitoring.
+overview: 'Aluna is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Respiratory, Spirometry, and Remote Patient Monitoring.
 
 
   Aluna''s developer surface includes support, getting-started guide, engineering blog, pricing, and 9 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 14.5
-  delta: -0.7
+  composite: 15.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
+  previous_composite: 15.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aluna/refs/heads/main/screenshots/aluna-2026-07-25T195851.png
 security:
@@ -129,7 +129,7 @@ security:
 slug: aluna
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Respiratory
 - Spirometry
 - Remote Patient Monitoring

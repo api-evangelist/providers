@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -197,14 +197,14 @@ description: Upsie is a direct-to-consumer warranty company offering affordable,
 image: https://res.cloudinary.com/upsie/image/upload/f_auto,fl_lossy,q_auto/v1635433345/Upsie_Badge.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: upsie-mcp.yml
-  slug: upsie-mcpyml
+- description: Upsie publishes no official MCP server (none found in docs, the npm registry, or MCP registries as of 2026-07-21). This is a candidate tool list derived from the operations of the Upsie Partner Networ
+  name: Upsie MCP Server
+  slug: upsie-mcp-server
 modified: '2026-07-21'
 name: Upsie
 nav: Providers
 network: true
-overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Repair Assignments (/repairassignments) API, Repair Categories API, and 5 more. Tagged areas include Company, Warranties, Protection Plans, Consumer Electronics, and Repairs.
+overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Repair Assignments (/repairassignments) API, Repair Categories API, and 5 more. Tagged areas include Company, Warranties, Protection-Plans, Consumer Electronics, and Repairs.
 
 
   The Upsie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -215,7 +215,7 @@ random_paper: 4
 score:
   band: developing
   composite: 45.3
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 42.9
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,8 +242,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/screenshots/upsie-2026-08-17T082639.png
 security:
@@ -259,7 +259,7 @@ slug: upsie
 tags:
 - Company
 - Warranties
-- Protection Plans
+- Protection-Plans
 - Consumer Electronics
 - Repairs
 - Insurance

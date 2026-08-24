@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'A REST/JSON API hosted on Azure API Management for pairing and driving takepayments card machines (Move5000, PAX A920 Pro) from an integrated app or POS. Documented operations include Authentication, '
@@ -142,8 +142,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: takepayments-mcp.yml
-  slug: takepayments-mcpyml
+  name: takepayments MCP Server
+  slug: takepayments-mcp-server
 modified: '2026-07-25'
 name: takepayments
 nav: Providers
@@ -156,7 +156,7 @@ random_paper: 0
 score:
   band: thin
   composite: 35.1
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -166,7 +166,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.6
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -176,8 +176,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -197,7 +197,7 @@ tags:
 - Card Payments
 - Card Machines
 - In-Person Payments
-- Ecommerce
+- E-Commerce
 - PSP
 - Acquiring
 website: https://www.takepayments.com/

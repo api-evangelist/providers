@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,27 +84,27 @@ modified: '2026-07-19'
 name: Hubble
 nav: Providers
 network: true
-overview: 'Hubble is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workspace, Real Estate, Marketplace, and Coworking.
+overview: 'Hubble is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workspace, Real-Estate, Marketplace, and Co-Working.
 
 
   Hubble''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 13.3
-  delta: -1.2
+  composite: 14.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 14.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubble/refs/heads/main/screenshots/hubble-2026-07-25T221608.png
 security:
@@ -120,9 +120,9 @@ slug: hubble
 tags:
 - Company
 - Workspace
-- Real Estate
+- Real-Estate
 - Marketplace
-- Coworking
+- Co-Working
 - Flexible Office
 - PropTech
 website: https://hubblehq.com

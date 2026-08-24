@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -219,18 +219,18 @@ rules:
   slug: spring-data-rules
 score:
   band: thin
-  composite: 26.8
-  delta: -9.3
+  composite: 27.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 58.9
     developer_ergonomics: 0.0
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 36.1
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     contracts:
@@ -238,9 +238,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/screenshots/spring-data-2026-06-20T194412.png
 security:
 - kind: domain-security

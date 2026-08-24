@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -118,13 +118,13 @@ image: https://dlthub.com/api/og?title=dltHub&kind=default
 layout: provider
 mcp_servers:
 - description: ''
-  name: dlthub-mcp.yml
-  slug: dlthub-mcpyml
+  name: dltHub MCP Server
+  slug: dlthub-mcp-server
 modified: '2026-07-18'
 name: dltHub
 nav: Providers
 network: true
-overview: 'dltHub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Data Engineering, ETL, and Data Pipelines.
+overview: 'dltHub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Data Engineering, ETL, and Data Pipeline.
 
 
   dltHub''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 13 more developer resources.'
@@ -132,7 +132,7 @@ random_paper: 13
 score:
   band: thin
   composite: 27.7
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -142,11 +142,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 30.0
+  previous_composite: 27.7
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/screenshots/dlthub-2026-07-25T212147.png
 security:
@@ -160,9 +160,9 @@ tags:
 - Data
 - Data Engineering
 - ETL
-- Data Pipelines
+- Data Pipeline
 - Python
-- Open Source
+- Open-Source
 - Data Integration
 - Agentic
 - MCP

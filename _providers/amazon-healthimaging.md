@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -1127,7 +1127,7 @@ modified: '2026-05-19'
 name: Amazon HealthImaging
 nav: Providers
 network: true
-overview: 'Amazon HealthImaging publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Datastore API, GetDICOMImportJob API, ListDICOMImportJobs API, and 2 more. Tagged areas include Healthcare, HIPAA, Machine Learning, Medical Imaging, and DICOM.
+overview: 'Amazon HealthImaging publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Datastore API, GetDICOMImportJob API, ListDICOMImportJobs API, and 2 more. Tagged areas include Healthcare, HIPAA, Machine-Learning, Medical Imaging, and DICOM.
 
 
   The Amazon HealthImaging catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1167,18 +1167,18 @@ rules:
   slug: amazon-healthimaging-spectral-rules
 score:
   band: strong
-  composite: 57.6
-  delta: -0.6
+  composite: 58.0
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.1
     developer_ergonomics: 54.8
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 58.2
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1192,8 +1192,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/screenshots/amazon-healthimaging-2026-07-25T200012.png
 security:
@@ -1217,7 +1217,7 @@ slug: amazon-healthimaging
 tags:
 - Healthcare
 - HIPAA
-- Machine Learning
+- Machine-Learning
 - Medical Imaging
 - DICOM
 use_cases:

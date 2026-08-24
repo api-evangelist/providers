@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-18'
 name: Aumet
 nav: Providers
 network: true
-overview: 'Aumet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy, Pharmaceutical, and Procurement.
+overview: 'Aumet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy, Pharmaceuticals, and Procurement.
 
 
   Aumet''s developer surface includes engineering blog, pricing, signup flow, support, and 6 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 15
 score:
   band: minimal
   composite: 4.6
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -98,16 +98,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.6
+  previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aumet/refs/heads/main/screenshots/aumet-2026-07-25T201732.png
 security:
 - kind: domain-security
@@ -119,11 +119,11 @@ tags:
 - Company
 - Healthcare
 - Pharmacy
-- Pharmaceutical
+- Pharmaceuticals
 - Procurement
 - Marketplace
 - Supply Chain
-- Healthtech
+- Health Tech
 - ERP
 - MENA
 website: https://aumet.com

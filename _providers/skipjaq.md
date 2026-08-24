@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ modified: '2026-07-21'
 name: Skipjaq
 nav: Providers
 network: true
-overview: Skipjaq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Machine Learning, Performance Optimization, and Performance Testing.
+overview: Skipjaq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Performance Optimization, and Performance Testing.
 random_paper: 20
 score:
   band: minimal
@@ -66,20 +66,20 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: skipjaq
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Performance Optimization
 - Performance Testing
 - Load Testing
 - Cloud
 - DevOps
-- SaaS
+- Software-as-a-Service
 - Defunct
 website: https://skipjaq.com
 ---

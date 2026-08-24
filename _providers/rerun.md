@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,14 +117,14 @@ description: Rerun is an open-source data platform — "the unified data layer f
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rerun.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: rerun-mcp.yml
-  slug: rerun-mcpyml
+- description: Rerun ships a first-party local (stdio) MCP server that lets LLM agents see and interact with a running Rerun Viewer. Introduced in Rerun 0.34.0 (2026-07-06) and exposed through the bundled CLI as `re
+  name: Rerun MCP Server
+  slug: rerun-mcp-server
 modified: '2026-07-20'
 name: Rerun
 nav: Providers
 network: true
-overview: 'Rerun is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dev Tools Ai, Robotics, Computer Vision, and Physical AI.
+overview: 'Rerun is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dev Tools Ai, Robotics, Computer-Vision, and Physical AI.
 
 
   Rerun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 13 more developer resources.'
@@ -132,7 +132,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 25.1
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -142,12 +142,12 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 25.6
+  previous_composite: 25.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -159,11 +159,11 @@ tags:
 - Company
 - Dev Tools Ai
 - Robotics
-- Computer Vision
+- Computer-Vision
 - Physical AI
 - Data Visualization
 - SDK
-- Open Source
+- Open-Source
 - MCP
 website: https://rerun.io
 ---

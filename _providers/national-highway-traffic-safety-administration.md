@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ modified: '2026-05-19'
 name: National Highway Traffic Safety Administration
 nav: Providers
 network: true
-overview: 'National Highway Traffic Safety Administration publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Equipment API, Makes and Models API, Manufacturers API, and 3 more. Tagged areas include Federal Government, Safety, Transportation, and Vehicles.
+overview: 'National Highway Traffic Safety Administration publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Equipment API, Makes and Models API, Manufacturers API, and 3 more. Tagged areas include Federal-Government, Safety, Transportation, and Vehicles.
 
 
   National Highway Traffic Safety Administration''s developer surface includes developer portal and 4 more developer resources.'
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.7
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -142,7 +142,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.9
+  previous_composite: 21.7
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/screenshots/national-highway-traffic-safety-administration-2026-06-20T190021.png
 security:
@@ -167,7 +167,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: national-highway-traffic-safety-administration
 tags:
-- Federal Government
+- Federal-Government
 - Safety
 - Transportation
 - Vehicles

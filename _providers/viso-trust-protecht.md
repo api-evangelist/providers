@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 12
 apis:
 - description: The client-api-assessment-rest-resource API from VISO Trust (Protecht) — 7 operation(s) for client-api-assessment-rest-resource.
@@ -208,8 +208,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/viso-trust
 layout: provider
 mcp_servers:
 - description: ''
-  name: viso-trust-protecht-mcp.yml
-  slug: viso-trust-protecht-mcpyml
+  name: VISO Trust (Protecht) MCP Server
+  slug: viso-trust-protecht-mcp-server
 modified: '2026-07-21'
 name: VISO Trust (Protecht)
 nav: Providers
@@ -225,7 +225,7 @@ random_paper: 16
 score:
   band: developing
   composite: 41.0
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 44.2
+  previous_composite: 41.0
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +245,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/screenshots/viso-trust-protecht-2026-08-17T082805.png
 security:

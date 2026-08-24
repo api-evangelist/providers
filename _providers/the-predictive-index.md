@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The Behavioral Assessments API from The Predictive Index — 1 operation(s) for behavioral assessments.
@@ -164,8 +164,8 @@ image: https://media.predictiveindex.com/wp-content/uploads/2025/02/25165442/The
 layout: provider
 mcp_servers:
 - description: ''
-  name: the-predictive-index-mcp.yml
-  slug: the-predictive-index-mcpyml
+  name: The Predictive Index MCP Server
+  slug: the-predictive-index-mcp-server
 modified: '2026-07-21'
 name: The Predictive Index
 nav: Providers
@@ -180,18 +180,18 @@ overview: 'The Predictive Index publishes 4 APIs on the [APIs.io](https://apis.i
 random_paper: 2
 score:
   band: developing
-  composite: 46.0
-  delta: -3.4
+  composite: 47.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 59.8
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 49.4
+  previous_composite: 47.1
   provenance:
     contracts:
       callable: 100.0
@@ -200,8 +200,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/screenshots/the-predictive-index-2026-08-17T082339.png
 security:

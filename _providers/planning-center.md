@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-07-03'
 name: Planning Center
 nav: Providers
 network: true
-overview: 'Planning Center publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Check-Ins API, Giving API, and 6 more. Tagged areas include Church Management, ChMS, Faith, Giving, and Events.
+overview: 'Planning Center publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Check-Ins API, Giving API, and 6 more. Tagged areas include Church Management, ChMS, Faith, Giving, and Event.
 
 
   Planning Center''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
@@ -192,7 +192,7 @@ scopes:
 score:
   band: thin
   composite: 37.9
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -202,7 +202,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 38.1
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -236,9 +236,9 @@ tags:
 - ChMS
 - Faith
 - Giving
-- Events
+- Event
 - Scheduling
 - People
-- Nonprofit
+- Non-Profit
 website: https://www.planningcenter.com
 ---

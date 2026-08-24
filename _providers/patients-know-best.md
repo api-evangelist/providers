@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: HL7 FHIR STU3 (3.0.2) "Facade" server exposing Patients Know Best personal health record data — Patient, Appointment, Communication, Consent, DiagnosticReport, DocumentReference, Encounter, Observatio
@@ -159,8 +159,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/patients-k
 layout: provider
 mcp_servers:
 - description: ''
-  name: patients-know-best-mcp.yml
-  slug: patients-know-best-mcpyml
+  name: Patients Know Best MCP Server
+  slug: patients-know-best-mcp-server
 modified: '2026-08-08'
 name: Patients Know Best
 nav: Providers
@@ -173,7 +173,7 @@ random_paper: 12
 score:
   band: developing
   composite: 45.4
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -183,7 +183,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 42.6
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -194,8 +194,8 @@ score:
     regime: Health
     regime_id: health
     score: 40.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/screenshots/patients-know-best-2026-08-07T191555.png
 security:

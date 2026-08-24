@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Terminal Logistics
 nav: Providers
 network: true
-overview: 'Terminal Logistics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Yard Management, and Computer Vision.
+overview: 'Terminal Logistics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Yard Management, and Computer-Vision.
 
 
   Terminal Logistics'' developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 13.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -98,9 +98,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 13.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 13.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -113,7 +113,7 @@ tags:
 - Logistics
 - Supply Chain
 - Yard Management
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Yard Operating System
 website: https://terminal-industries.com

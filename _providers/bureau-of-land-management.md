@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: The BLM Geospatial Business Platform is a public tool and publication platform for exploring and downloading GIS data. Built on ArcGIS Online, it provides REST endpoints for BLM geospatial data includ
@@ -86,7 +86,7 @@ modified: '2026-04-23'
 name: Bureau of Land Management
 nav: Providers
 network: true
-overview: 'Bureau of Land Management publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Environment, Federal Government, Land, Resources, and GIS.
+overview: 'Bureau of Land Management publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Environment, Federal-Government, Land, Resources, and GIS.
 
 
   Bureau of Land Management''s developer surface includes developer portal and 6 more developer resources.'
@@ -102,7 +102,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.6
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -112,15 +112,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 16.8
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/screenshots/bureau-of-land-management-2026-06-20T173814.png
 security:
@@ -135,7 +135,7 @@ security:
 slug: bureau-of-land-management
 tags:
 - Environment
-- Federal Government
+- Federal-Government
 - Land
 - Resources
 - GIS

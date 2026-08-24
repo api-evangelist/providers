@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-18'
 name: Beyond Math
 nav: Providers
 network: true
-overview: 'Beyond Math is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Physics Simulation, Machine Learning, and Engineering.
+overview: 'Beyond Math is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Physics Simulation, Machine-Learning, and Engineering.
 
 
   Beyond Math''s developer surface includes documentation, support, signup flow, and 9 more developer resources.'
@@ -96,7 +96,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 11.0
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -106,9 +106,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-math/refs/heads/main/screenshots/beyond-math-2026-07-25T202839.png
 security:
@@ -121,7 +121,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Physics Simulation
-- Machine Learning
+- Machine-Learning
 - Engineering
 - Simulation
 - CFD

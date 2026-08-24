@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Model Context Protocol server for tday, and the agent-facing entry point to the platform. It ships in two deployments that front the same nine tools: a hosted remote endpoint at https://tday.com/api/m'
@@ -151,9 +151,9 @@ description: 'tday (tday.com) is a Y Combinator-backed (Spring 2026) AI platform
 image: https://tday.com/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: tdaycom-mcp.yml
-  slug: tdaycom-mcpyml
+- description: 'Official hosted Model Context Protocol server for tday, the agent-facing surface of the tday design/launch-content platform. tday.com/mcp documents two ways in: a local stdio server installed from npm'
+  name: Tdaycom MCP Server
+  slug: tdaycom-mcp-server
 modified: '2026-08-13'
 name: Tdaycom
 nav: Providers
@@ -178,24 +178,24 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.2
-  delta: -0.3
+  composite: 36.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 35.5
+  previous_composite: 36.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -214,7 +214,7 @@ tags:
 - Content Generation
 - Design
 - Video
-- Social Media
+- Social-Media
 - Developer Tools
 - MCP
 - Agents

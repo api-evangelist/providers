@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Tintri REST API (version v310.91, mapping to TXOS 4.5 and Tintri Global Center 4.1+) runs on each VMstore appliance and TGC instance. It is session-authenticated (POST /api/v310/session/login with
@@ -134,9 +134,9 @@ description: 'Tintri, now part of DDN, builds intelligent enterprise data-manage
 image: https://tintri.github.io/tintri-rest-api/TintriLogo-300.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: tintri-mcp.yml
-  slug: tintri-mcpyml
+- description: Candidate Model Context Protocol server for the Tintri VMstore REST API. Tintri publishes no official hosted/remote MCP server; this is a derived candidate tool list mapped from the documented v310 RE
+  name: Tintri MCP Server
+  slug: tintri-mcp-server
 modified: '2026-07-21'
 name: Tintri
 nav: Providers
@@ -149,7 +149,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 24.9
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -159,13 +159,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 25.4
+  previous_composite: 24.9
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

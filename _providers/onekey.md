@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -144,7 +144,7 @@ modified: '2026-07-20'
 name: OneKey
 nav: Providers
 network: true
-overview: 'OneKey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Hardware Wallet, and Wallet.
+overview: 'OneKey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Hardware Wallet, and Wallets.
 
 
   OneKey''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 19 more developer resources.'
@@ -152,7 +152,7 @@ random_paper: 0
 score:
   band: thin
   composite: 28.0
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -162,7 +162,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 35.5
+  previous_composite: 28.0
   provenance:
     conformance: first-party
   regulatory:
@@ -171,9 +171,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onekey/refs/heads/main/screenshots/onekey-2026-08-07T190334.png
 security:
 - kind: domain-security
@@ -190,8 +190,8 @@ tags:
 - Crypto
 - Cryptocurrency
 - Hardware Wallet
-- Wallet
-- Self Custody
+- Wallets
+- Self-Custody
 - Web3
 - Blockchain
 - Bitcoin

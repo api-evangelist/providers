@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 3
@@ -253,13 +253,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telr.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: telr-mcp.yml
-  slug: telr-mcpyml
+  name: Telr MCP Server
+  slug: telr-mcp-server
 modified: '2026-07-18'
 name: Telr
 nav: Providers
 network: true
-overview: 'Telr publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Hosted Payment Page API, Payments API API, and 1 more. Tagged areas include Payments, Payment Gateway, FinTech, MENA, and UAE.
+overview: 'Telr publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Hosted Payment Page API, Payments API API, and 1 more. Tagged areas include Payments, Payment Gateway, Fintech, MENA, and UAE.
 
 
   The Telr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -278,7 +278,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 70.1
-  delta: 4.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -288,7 +288,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 65.2
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,8 +305,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/screenshots/telr-2026-08-17T082306.png
 security:
@@ -330,7 +330,7 @@ slug: telr
 tags:
 - Payments
 - Payment Gateway
-- FinTech
+- Fintech
 - MENA
 - UAE
 website: https://telr.com/

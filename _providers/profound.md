@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -227,13 +227,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/profound.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: profound-mcp.yml
-  slug: profound-mcpyml
+  name: Profound MCP Server
+  slug: profound-mcp-server
 modified: '2026-08-13'
 name: Profound
 nav: Providers
 network: true
-overview: 'Profound publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Company, AI, Answer Engine Optimization, AEO, and AI Search.
+overview: 'Profound publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Company, Artificial Intelligence, Answer Engine Optimization, AEO, and AI Search.
 
 
   Profound''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
@@ -254,7 +254,7 @@ scopes:
 score:
   band: strong
   composite: 62.1
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -264,14 +264,14 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 66.9
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/screenshots/profound-2026-08-17T080414.png
 security:
@@ -294,7 +294,7 @@ security:
 slug: profound
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Answer Engine Optimization
 - AEO
 - AI Search

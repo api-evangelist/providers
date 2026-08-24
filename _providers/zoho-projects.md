@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for Zoho Projects that enables developers to programmatically manage projects, tasks, milestones, bugs, time logs, documents, forums, and user collaboration. Supports OAuth 2.0 authentication
@@ -101,7 +101,7 @@ modified: '2026-06-13'
 name: Zoho Projects
 nav: Providers
 network: true
-overview: 'Zoho Projects publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Tasks, Milestones, Bug Tracking, and Time Tracking.
+overview: 'Zoho Projects publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Task, Milestones, Bug Tracking, and Time Tracking.
 
 
   Zoho Projects'' developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.1
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -127,9 +127,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 33.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 33.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-projects/refs/heads/main/screenshots/zoho-projects-2026-06-20T201947.png
 security:
@@ -144,7 +144,7 @@ security:
 slug: zoho-projects
 tags:
 - Project Management
-- Tasks
+- Task
 - Milestones
 - Bug Tracking
 - Time Tracking

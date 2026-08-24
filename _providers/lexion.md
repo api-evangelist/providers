@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: 'Centralized intelligent repository for agreements, surfacing contracts, parties, key dates, and metadata. Lexion offers an enterprise integration API to push contract terms and metadata into external '
@@ -101,7 +101,7 @@ modified: '2026-06-21'
 name: Lexion
 nav: Providers
 network: true
-overview: 'Lexion publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Contract Repository, Extraction & Insights, Workflows, and 1 more. Tagged areas include Contract Management, CLM, AI, Legal Tech, and Document Extraction.
+overview: 'Lexion publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Contract Repository, Extraction & Insights, Workflows, and 1 more. Tagged areas include Contract Management, CLM, Artificial Intelligence, Legal Tech, and Document Extraction.
 
 
   Lexion''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.6
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -127,9 +127,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 25.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/screenshots/lexion-2026-07-25T224955.png
 security:
@@ -145,9 +145,9 @@ slug: lexion
 tags:
 - Contract Management
 - CLM
-- AI
+- Artificial Intelligence
 - Legal Tech
 - Document Extraction
-- Workflow
+- Workflows
 website: https://www.lexion.ai
 ---

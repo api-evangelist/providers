@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/nvidia/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -44,7 +48,7 @@ created: '2026-07-17'
 description: DeepMap was a high-definition mapping and localization software company for autonomous vehicles, building HD maps, real-time localization, and map-update infrastructure that let self-driving cars know precisely where they were. Backed by a16z and Accel, DeepMap was acquired by NVIDIA in 2021 and folded into NVIDIA's autonomous-vehicle platform; the deepmap.ai domain now resolves to NVIDIA's self-driving solutions page. No independent DeepMap developer portal, documentation, or public API surface exists post-acquisition. This profile is retained as a network/portfolio record.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deepmap.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-21'
 name: DeepMap
 nav: Providers
 network: true
@@ -64,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepmap/refs/heads/main/screenshots/deepmap-2026-07-25T211557.png
 security:

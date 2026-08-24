@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -397,13 +397,13 @@ image: https://depict.ai/en/opengraph-image?7e17831b390c6d53
 layout: provider
 mcp_servers:
 - description: ''
-  name: depictai-mcp.yml
-  slug: depictai-mcpyml
+  name: Depict.AI MCP Server
+  slug: depictai-mcp-server
 modified: '2026-07-18'
 name: Depict.AI
 nav: Providers
 network: true
-overview: 'Depict.AI publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Ab Test API, Analytics API, Boost Bury API, and 32 more. Tagged areas include Company, E Commerce, Search, Recommendations, and Merchandising.
+overview: 'Depict.AI publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Ab Test API, Analytics API, Boost Bury API, and 32 more. Tagged areas include Company, E-Commerce, Search, Recommendations, and Merchandising.
 
 
   Depict.AI''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 27 more developer resources.'
@@ -416,7 +416,7 @@ scopes:
 score:
   band: developing
   composite: 46.2
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -426,7 +426,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 50.4
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -437,8 +437,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depictai/refs/heads/main/screenshots/depictai-2026-07-25T211734.png
 security:
@@ -457,7 +457,7 @@ security:
 slug: depictai
 tags:
 - Company
-- E Commerce
+- E-Commerce
 - Search
 - Recommendations
 - Merchandising

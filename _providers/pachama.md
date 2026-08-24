@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -129,7 +129,7 @@ modified: '2026-05-24'
 name: Pachama
 nav: Providers
 network: true
-overview: 'Pachama is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Carbon Credits, Carbon Removal, Carbon Markets, Nature Based Solutions, and Forest Carbon.
+overview: 'Pachama is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Carbon Credits, Carbon Removal, Carbon Markets, Nature-Based Solutions, and Forest Carbon.
 
 
   Pachama''s developer surface includes engineering blog, FAQ, GitHub presence, YouTube channel, and 18 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 1
 score:
   band: minimal
   composite: 5.7
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -147,9 +147,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 6.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pachama/refs/heads/main/screenshots/pachama-2026-06-20T191321.png
 security:
@@ -162,7 +162,7 @@ tags:
 - Carbon Credits
 - Carbon Removal
 - Carbon Markets
-- Nature Based Solutions
+- Nature-Based Solutions
 - Forest Carbon
 - Reforestation
 - Afforestation
@@ -171,7 +171,7 @@ tags:
 - Monitoring Reporting Verification
 - Satellite Imagery
 - Remote Sensing
-- Machine Learning
+- Machine-Learning
 - Biomass Estimation
 - Climate Tech
 - Sustainability

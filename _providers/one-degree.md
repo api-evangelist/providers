@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Housing properties.
@@ -179,13 +179,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-degree
 layout: provider
 mcp_servers:
 - description: ''
-  name: one-degree-mcp.yml
-  slug: one-degree-mcpyml
+  name: One Degree MCP Server
+  slug: one-degree-mcp-server
 modified: '2026-07-20'
 name: One Degree
 nav: Providers
 network: true
-overview: 'One Degree publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Housing API, Locations API, Opportunities API, and 3 more. Tagged areas include Company, Nonprofit, Social Services, Community Resources, and Human Services.
+overview: 'One Degree publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Housing API, Locations API, Opportunities API, and 3 more. Tagged areas include Company, Non-Profit, Social Services, Community Resources, and Human Services.
 
 
   One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
@@ -193,7 +193,7 @@ random_paper: 0
 score:
   band: developing
   composite: 43.1
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.7
+  previous_composite: 43.1
   provenance:
     conformance: derived
     contracts:
@@ -219,8 +219,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/screenshots/one-degree-2026-08-07T190242.png
 security:
@@ -235,7 +235,7 @@ security:
 slug: one-degree
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Social Services
 - Community Resources
 - Human Services
@@ -243,6 +243,5 @@ tags:
 - Housing
 - Open Data
 - Civic Tech
-- API
 website: https://www.1degree.org/
 ---

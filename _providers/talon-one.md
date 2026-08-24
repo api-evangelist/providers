@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 3
@@ -253,9 +253,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talon-one.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: talon-one-mcp.yml
-  slug: talon-one-mcpyml
+- description: Talon.One ships an official MCP server that gives agents secure, read-only access to the campaigns, customers, coupons and loyalty data in a Talon.One environment. Because Talon.One runs as a per-cust
+  name: Talon.One MCP server
+  slug: talonone-mcp-server
 modified: '2026-08-13'
 name: Talon.One
 nav: Providers
@@ -279,7 +279,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 73.1
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -289,7 +289,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 81.6
-  previous_composite: 74.6
+  previous_composite: 73.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,8 +300,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/screenshots/talon-one-2026-08-17T080429.png
 security:
@@ -329,7 +329,7 @@ tags:
 - Rules Engine
 - Referrals
 - Discounts
-- Ecommerce
+- E-Commerce
 - Retail
 website: https://www.talon.one
 ---

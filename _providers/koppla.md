@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: koppla advertises an "Offene Schnittstelle / API" (open interface / API) as an included capability of its Enterprise plan, alongside a Power BI integration that pushes koppla schedule data into custom
@@ -183,8 +183,8 @@ image: https://framerusercontent.com/images/8nYdPiJ2n9S523P0LvOTKwYtTI.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: koppla-mcp.yml
-  slug: koppla-mcpyml
+  name: Koppla MCP Server
+  slug: koppla-mcp-server
 modified: '2026-07-19'
 name: Koppla
 nav: Providers
@@ -197,7 +197,7 @@ random_paper: 17
 score:
   band: developing
   composite: 40.2
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -213,13 +213,13 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 40.7
+  previous_composite: 40.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/screenshots/koppla-2026-07-25T224214.png
 security:
@@ -249,6 +249,6 @@ tags:
 - Lean Construction
 - BIM
 - Germany
-- SaaS
+- Software-as-a-Service
 website: https://www.koppla.de/
 ---

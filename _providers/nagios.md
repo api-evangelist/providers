@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -306,7 +306,7 @@ modified: '2026-05-23'
 name: Nagios
 nav: Providers
 network: true
-overview: 'Nagios publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Config API, CPU API, Disk API, and 8 more. Tagged areas include Monitoring, Infrastructure Monitoring, Network Monitoring, Open Source, and IT Operations.
+overview: 'Nagios publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Config API, CPU API, Disk API, and 8 more. Tagged areas include Monitoring, Infrastructure Monitoring, Network Monitoring, Open-Source, and IT Operations.
 
 
   The Nagios catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -353,18 +353,18 @@ rules:
   slug: ncpa-rules
 score:
   band: developing
-  composite: 40.4
-  delta: -6.0
+  composite: 40.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 60.0
     developer_ergonomics: 31.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 46.4
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -372,9 +372,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/screenshots/nagios-2026-06-20T185930.png
 security:
 - kind: authentication
@@ -390,7 +390,7 @@ tags:
 - Monitoring
 - Infrastructure Monitoring
 - Network Monitoring
-- Open Source
+- Open-Source
 - IT Operations
 - Alerting
 - Observability

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.2
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -224,7 +224,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 42.4
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -232,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/screenshots/microsoft-net-2026-06-20T185509.png
 security:
@@ -257,7 +257,7 @@ tags:
 - Cross-Platform
 - Developer Tools
 - Microsoft
-- Open Source
+- Open-Source
 use_cases:
 - description: Build scalable enterprise web applications using ASP.NET Core with authentication, authorization, and data access.
   name: Enterprise Web Applications

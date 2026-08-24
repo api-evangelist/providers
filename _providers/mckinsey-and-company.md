@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 21
 common:
@@ -248,7 +248,7 @@ rate_limits:
 score:
   band: thin
   composite: 26.7
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -258,9 +258,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 29.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 26.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -275,13 +275,12 @@ tags:
 - Professional Services
 - MBB
 - Big Three
-- AI
+- Artificial Intelligence
 - Data Science
 - Digital Transformation
-- Operations
 - Research
 - Insights
-- Open Source
+- Open-Source
 - Agentic AI
 - Kubernetes
 - Data Visualization

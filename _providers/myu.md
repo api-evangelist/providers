@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 6.4
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -80,15 +80,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 10.6
+  previous_composite: 6.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 7.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myu/refs/heads/main/screenshots/myu-2026-08-07T184550.png
 slug: myu
@@ -100,6 +100,6 @@ tags:
 - Student Information System
 - K-12
 - Higher Education
-- SaaS
+- Software-as-a-Service
 website: https://myu.co
 ---

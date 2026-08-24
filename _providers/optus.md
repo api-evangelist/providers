@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -225,8 +225,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: optus-mcp.yml
-  slug: optus-mcpyml
+  name: Optus MCP Server
+  slug: optus-mcp-server
 modified: '2026-07-25'
 name: Optus
 nav: Providers
@@ -242,7 +242,7 @@ random_paper: 4
 score:
   band: strong
   composite: 55.1
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -252,7 +252,7 @@ score:
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 50.9
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -269,8 +269,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
 security:

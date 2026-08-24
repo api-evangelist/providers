@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,19 +82,19 @@ overview: 'Hidrate is profiled on the [APIs.io](https://apis.io/) network. Tagge
   Hidrate''s developer surface includes support and 7 more developer resources.'
 random_paper: 2
 score:
-  band: minimal
-  composite: 10.7
-  delta: -2.6
+  band: emerging
+  composite: 11.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.3
+  previous_composite: 11.9
   provenance:
     mcp: first-party
   regulatory:
@@ -103,8 +103,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hidrate/refs/heads/main/screenshots/hidrate-2026-08-07T170124.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The management REST API served by the Hammerspace Anvil metadata server at the base path /mgmt/v1.2/rest. It is the programmatic control plane behind the Hammerspace GUI and admin CLI, covering shares
@@ -152,14 +152,14 @@ description: Hammerspace, Inc. is a Redwood City, California software company be
 image: https://avatars.githubusercontent.com/u/47825731?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: hammerspace-mcp.yml
-  slug: hammerspace-mcpyml
+- description: Hammerspace ships Model Context Protocol services as a component of the Hammerspace AI Data Platform, announced at NVIDIA GTC in October 2025 and made generally available on an NVIDIA AI Data Platform
+  name: Hammerspace MCP Server
+  slug: hammerspace-mcp-server
 modified: '2026-08-04'
 name: Hammerspace
 nav: Providers
 network: true
-overview: 'Hammerspace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Management, File Systems, and Data Orchestration.
+overview: 'Hammerspace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Management, Filesystem, and Data Orchestration.
 
 
   Hammerspace''s developer surface includes documentation, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
@@ -172,7 +172,7 @@ scopes:
 score:
   band: emerging
   composite: 19.8
-  delta: -11.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -182,13 +182,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 30.9
+  previous_composite: 19.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/screenshots/hammerspace-2026-08-07T165941.png
 security:
 - kind: authentication
@@ -204,7 +204,7 @@ tags:
 - Company
 - Storage
 - Data Management
-- File Systems
+- Filesystem
 - Data Orchestration
 - Hybrid Cloud
 - Kubernetes

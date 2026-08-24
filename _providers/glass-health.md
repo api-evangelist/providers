@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 21
 common:
@@ -189,7 +189,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 11.9
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -199,16 +199,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.8
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glass-health/refs/heads/main/screenshots/glass-health-2026-06-20T181903.png
 security:
 - kind: domain-security
@@ -226,8 +226,8 @@ tags:
 - Medical AI
 - Generative AI
 - EHR Integration
-- SMART On FHIR
-- Evidence Based Medicine
+- SMART on FHIR
+- Evidence-Based Medicine
 - Physician Copilot
 use_cases:
 - description: Generating ranked differentials at the point of triage or initial workup to surface diagnoses worth considering.

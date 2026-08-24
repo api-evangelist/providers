@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ modified: '2026-05-19'
 name: BlaBlaCar Bus API
 nav: Providers
 network: true
-overview: 'BlaBlaCar Bus API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Routes API, Stations API, and 2 more. Tagged areas include Booking, Buses, Coach, Europe, and Mobility.
+overview: 'BlaBlaCar Bus API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Routes API, Stations API, and 2 more. Tagged areas include Booking, Bus, Coach, Europe, and Mobility.
 
 
   The BlaBlaCar Bus API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -247,18 +247,18 @@ rules:
   slug: blablacar-bus-api-spectral-rules
 score:
   band: thin
-  composite: 27.2
-  delta: -6.6
+  composite: 27.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 22.8
     developer_ergonomics: 16.7
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 33.8
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -266,9 +266,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/screenshots/blablacar-bus-api-2026-06-20T173332.png
 security:
 - kind: authentication
@@ -286,7 +286,7 @@ security:
 slug: blablacar-bus-api
 tags:
 - Booking
-- Buses
+- Bus
 - Coach
 - Europe
 - Mobility

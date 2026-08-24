@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 3
@@ -475,18 +475,18 @@ rules:
   slug: signoz-rules
 score:
   band: developing
-  composite: 45.6
-  delta: -6.7
+  composite: 46.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 63.9
     developer_ergonomics: 47.6
     discoverability: 81.5
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 52.3
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -494,9 +494,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/screenshots/signoz-2026-06-20T193914.png
 security:
 - kind: authentication
@@ -543,6 +543,6 @@ tags:
 - Metrics
 - Observability
 - OpenTelemetry
-- Open Source
+- Open-Source
 website: https://signoz.io
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: JSON-over-REST front end to the HIPAA X12 EDI transaction set — 270/271 eligibility, 276/277 claim status, 837P/837I claim submission and validation, 835/277 claims responses and reports, 278 prior au
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.8
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -133,7 +133,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 20.2
+  previous_composite: 18.8
   provenance:
     conformance: first-party
   regulatory:
@@ -142,8 +142,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/change-healthcare/refs/heads/main/screenshots/change-healthcare-2026-06-20T174215.png
 security:

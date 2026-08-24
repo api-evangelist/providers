@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: PadMapper provides a web-based rental listing search service covering apartments, houses, condos, and rooms for rent across major US and Canadian cities. The platform is powered by Zumper and aggregat
@@ -85,7 +85,7 @@ modified: '2026-06-13'
 name: PadMapper
 nav: Providers
 network: true
-overview: PadMapper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Rental Listings, Apartment Search, Map-Based Search, and Housing.
+overview: PadMapper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Rental Listings, Apartment Search, Map-Based Search, and Housing.
 plans:
 - name: Plans
   plan_count: 3
@@ -109,8 +109,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 19.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/padmapper/refs/heads/main/screenshots/padmapper-2026-06-20T191318.png
 security:
@@ -120,7 +120,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: padmapper
 tags:
-- Real Estate
+- Real-Estate
 - Rental Listings
 - Apartment Search
 - Map-Based Search

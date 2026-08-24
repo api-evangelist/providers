@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The CARTO Cloud-Native (v3) REST API surface — SQL API (query and async SQL jobs against a connected data warehouse), Maps API (vector/tile map instantiation), Import/Export API, Location Data Service
@@ -155,8 +155,8 @@ image: https://carto.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: cartodb-mcp.yml
-  slug: cartodb-mcpyml
+  name: CARTO MCP Server
+  slug: carto-mcp-server
 modified: '2026-07-18'
 name: CARTO
 nav: Providers
@@ -172,25 +172,25 @@ scopes:
   slug: cartodb-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 38.2
-  delta: -2.3
+  band: developing
+  composite: 39.3
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.8
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 40.5
+  previous_composite: 39.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartodb/refs/heads/main/screenshots/cartodb-2026-07-25T204652.png
 security:

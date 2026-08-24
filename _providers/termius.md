@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Create a new Group
@@ -188,8 +188,8 @@ image: https://framerusercontent.com/images/JcjJ8OLLESSIHYJ4Rdi4fZmDkQw.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: termius-mcp.yml
-  slug: termius-mcpyml
+  name: Termius MCP Server
+  slug: termius-mcp-server
 modified: '2026-07-21'
 name: Termius
 nav: Providers
@@ -201,18 +201,18 @@ overview: 'Termius publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 0
 score:
   band: developing
-  composite: 47.5
-  delta: -2.1
+  composite: 48.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 16.7
     contract_quality: 49.0
     developer_ergonomics: 56.5
-    discoverability: 66.7
+    discoverability: 77.8
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 49.6
+  previous_composite: 48.6
   provenance:
     conformance: derived
     contracts:
@@ -222,8 +222,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/screenshots/termius-2026-08-17T082319.png
 security:

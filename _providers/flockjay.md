@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Django REST Framework API behind the Flockjay platform. The API root at https://api.flockjay.com/api/ is anonymously readable and enumerates 20 collections across an unversioned v1 tree (events, quest
@@ -151,12 +151,12 @@ json_schemas:
   slug: flockjay-events-options-metadata
 layout: provider
 mcp_servers:
+- description: Flockjay operates a first-party, hosted Model Context Protocol server that gives AI assistants read access to a customer's enablement data — rep certification and learning progress, coaching scorecard
+  name: Flockjay MCP Server
+  slug: flockjay-mcp-server
 - description: ''
-  name: flockjay-mcp.yml
-  slug: flockjay-mcpyml
-- description: ''
-  name: mcp
-  slug: mcp
+  name: Flockjay MCP Server
+  slug: flockjay-mcp-server-2
 modified: '2026-08-14'
 name: Flockjay
 nav: Providers
@@ -182,7 +182,7 @@ scopes:
 score:
   band: thin
   composite: 33.2
-  delta: 6.0
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -192,7 +192,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 27.2
+  previous_composite: 33.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -202,9 +202,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/screenshots/flockjay-2026-07-25T214813.png
 security:
 - kind: authentication
@@ -232,9 +232,9 @@ tags:
 - Revenue Operations
 - AI Coaching
 - Content Management
-- SaaS
+- Software-as-a-Service
 - MCP
-- Agent Native
-- OAuth
+- agent-native
+- Authentication
 website: https://flockjay.com
 ---

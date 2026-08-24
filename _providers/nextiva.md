@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Login and token refresh for the Nextiva Contact Center platform. Basic authentication generates a JWT bearer token carrying the user's authorities; the token-refresh operation exchanges an existing be
@@ -181,8 +181,8 @@ image: https://files.readme.io/c57cfd17e3ed303431732141b3a42eaff618f7682e4cd2c42
 layout: provider
 mcp_servers:
 - description: ''
-  name: nextiva-mcp.yml
-  slug: nextiva-mcpyml
+  name: Nextiva MCP Server
+  slug: nextiva-mcp-server
 modified: '2026-07-31'
 name: Nextiva
 nav: Providers
@@ -198,7 +198,7 @@ random_paper: 11
 score:
   band: developing
   composite: 53.1
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 53.3
+  previous_composite: 53.1
   provenance:
     conformance: derived
     contracts:
@@ -224,8 +224,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/screenshots/nextiva-2026-08-07T185215.png
 security:

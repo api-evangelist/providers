@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ modified: '2026-05-25'
 name: MyCase
 nav: Providers
 network: true
-overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Case Stages API, Cases API, Companies API, and 4 more. Tagged areas include Billing, Calendaring, Case Management, Client Portal, and Document Management.
+overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Case Stages API, Cases API, Companies API, and 4 more. Tagged areas include Billing, Calendaring, Case Management, Client Portal, and Document-Management.
 
 
   The MyCase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -261,7 +261,7 @@ rules:
 score:
   band: developing
   composite: 43.0
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -271,7 +271,7 @@ score:
     discoverability: 64.8
     governance: 45.5
     operational_transparency: 5.3
-  previous_composite: 46.2
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -285,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/screenshots/mycase-2026-08-17T083502.png
 security:
@@ -304,17 +304,17 @@ tags:
 - Calendaring
 - Case Management
 - Client Portal
-- Document Management
+- Document-Management
 - Invoicing
 - Law Firms
 - Legal
 - Legal Practice Management
-- LegalTech
+- Legal Tech
 - Matter Management
-- OAuth 2.0
+- Authentication
 - Payments
 - Practice Management
 - Time Tracking
-- Webhooks
+- Webhook
 website: https://www.mycase.com/
 ---

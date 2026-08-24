@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -93,7 +93,7 @@ modified: '2026-07-19'
 name: Gimlet Labs
 nav: Providers
 network: true
-overview: 'Gimlet Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Machine Learning, and Inference.
+overview: 'Gimlet Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Machine-Learning, and Inference.
 
 
   Gimlet Labs'' developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
@@ -101,7 +101,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 15.6
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -111,9 +111,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 18.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gimlet-labs/refs/heads/main/screenshots/gimlet-labs-2026-07-25T215821.png
 security:
@@ -134,7 +134,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Infrastructure
-- Machine Learning
+- Machine-Learning
 - Inference
 - Agents
 - Compilers

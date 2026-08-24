@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -216,14 +216,14 @@ description: 'Beeper is a universal chat app that brings 12+ messaging networks 
 image: https://www.beeper.com/wp-content/themes/beeper-site/assets/img/opengraph-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: beeper-mcp.yml
-  slug: beeper-mcpyml
+- description: Beeper Desktop ships a built-in Model Context Protocol server that runs locally inside the Beeper Desktop app, exposing the user's unified chats, messages, contacts and accounts to MCP clients (Claude
+  name: Beeper MCP Server
+  slug: beeper-mcp-server
 modified: '2026-07-18'
 name: Beeper
 nav: Providers
 network: true
-overview: 'Beeper publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, App API, Chats API, and 4 more. Tagged areas include Company, Consumer, Messaging, Chat, and Communication.
+overview: 'Beeper publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, App API, Chats API, and 4 more. Tagged areas include Company, Consumer, Messaging, Chat, and Communications.
 
 
   The Beeper catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -239,7 +239,7 @@ scopes:
 score:
   band: developing
   composite: 48.5
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -249,7 +249,7 @@ score:
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 51.5
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,8 +260,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/screenshots/beeper-2026-07-25T202639.png
 security:
@@ -279,7 +279,7 @@ tags:
 - Consumer
 - Messaging
 - Chat
-- Communication
+- Communications
 - Matrix
 - MCP
 - Desktop

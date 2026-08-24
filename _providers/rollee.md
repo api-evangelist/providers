@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'Connect a worker''s accounts and retrieve normalized income, employment, transactions, activity, assets, banking info, documents, and vehicle data across 70+ gig-economy, tax, payroll, and wallet data '
@@ -170,8 +170,8 @@ image: https://www.getrollee.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: rollee-mcp.yml
-  slug: rollee-mcpyml
+  name: Rollee MCP Server
+  slug: rollee-mcp-server
 modified: '2026-07-21'
 name: Rollee
 nav: Providers
@@ -187,7 +187,7 @@ random_paper: 13
 score:
   band: developing
   composite: 47.4
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -197,7 +197,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 49.5
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -208,8 +208,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/screenshots/rollee-2026-08-17T081628.png
 security:

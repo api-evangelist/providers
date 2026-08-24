@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Celona Orchestrator REST API for network monitoring, event querying, device experience, system status, and audit logs. Authenticated with an X-API-Key generated in the Orchestrator.
@@ -150,9 +150,9 @@ description: Celona provides enterprise private 5G and LTE cellular networking t
 image: https://cdn.prod.website-files.com/5e3277d251fd9e4b90615367/6450b4ba92a91d1652d39d1a_Home.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: celona-mcp.yml
-  slug: celona-mcpyml
+- description: Candidate MCP server derived from the documented Celona Orchestrator REST operations. Celona does not publish an official hosted MCP server; these tools map one-to-one to real documented endpoints (X-
+  name: Celona MCP Server
+  slug: celona-mcp-server
 modified: '2026-07-18'
 name: Celona
 nav: Providers
@@ -168,7 +168,7 @@ random_paper: 17
 score:
   band: developing
   composite: 50.7
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -178,7 +178,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 49.8
+  previous_composite: 50.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -189,8 +189,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/screenshots/celona-2026-07-25T204906.png
 security:

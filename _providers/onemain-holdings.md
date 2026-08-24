@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,7 +64,7 @@ modified: '2026-04-28'
 name: OneMain Holdings
 nav: Providers
 network: true
-overview: OneMain Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Personal Loans, Consumer Finance, Lending, and Fortune 1000.
+overview: OneMain Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Personal Loans, Consumer Finance, Lending, and Fortune 1000.
 press:
 - date: '2026-05-25'
   title: Pagaya Announces New Lending Partnership with ...
@@ -96,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -110,7 +110,7 @@ security:
   summary_line: security.txt · contact published
 slug: onemain-holdings
 tags:
-- Financial Services
+- Financial-Services
 - Personal Loans
 - Consumer Finance
 - Lending

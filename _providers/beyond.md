@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -217,8 +217,8 @@ image: https://cdn.prod.website-files.com/697a206967c894c3741f622e/697a206967c89
 layout: provider
 mcp_servers:
 - description: ''
-  name: beyond-mcp.yml
-  slug: beyond-mcpyml
+  name: Beyond MCP Server
+  slug: beyond-mcp-server
 modified: '2026-07-18'
 name: Beyond
 nav: Providers
@@ -238,18 +238,18 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.1
-  delta: -2.8
+  composite: 50.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 30.3
     contract_quality: 60.4
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 51.9
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -260,8 +260,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/screenshots/beyond-2026-07-25T202828.png
 security:
@@ -284,8 +284,7 @@ tags:
 - Revenue Management
 - Dynamic Pricing
 - Pricing
-- Real Estate
+- Real-Estate
 - Market Intelligence
-- API
 website: https://beyondpricing.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: The Catalog API from Hydrosat — 2 operation(s) for catalog.
@@ -150,8 +150,8 @@ image: https://hydrosat.com/wp-content/uploads/2024/06/Field-Irrigation-Planning
 layout: provider
 mcp_servers:
 - description: ''
-  name: hydrosat-mcp.yml
-  slug: hydrosat-mcpyml
+  name: Hydrosat MCP Server
+  slug: hydrosat-mcp-server
 modified: '2026-07-19'
 name: Hydrosat
 nav: Providers
@@ -164,7 +164,7 @@ random_paper: 17
 score:
   band: developing
   composite: 40.5
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -174,7 +174,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 42.4
+  previous_composite: 40.5
   provenance:
     conformance: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/screenshots/hydrosat-2026-07-25T221835.png
 security:

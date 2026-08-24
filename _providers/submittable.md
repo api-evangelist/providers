@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-07-05'
 name: Submittable
 nav: Providers
 network: true
-overview: 'Submittable publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Entries API, Funds API, and 7 more. Tagged areas include Submission Management, Grants Management, Applications, Forms, and Nonprofit.
+overview: 'Submittable publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Entries API, Funds API, and 7 more. Tagged areas include Submission Management, Grants Management, Application, Forms, and Non-Profit.
 
 
   Submittable''s developer surface includes authentication, documentation, pricing, and 9 more developer resources.'
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.5
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -195,7 +195,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 41.0
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +203,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -223,10 +223,10 @@ slug: submittable
 tags:
 - Submission Management
 - Grants Management
-- Applications
+- Application
 - Forms
-- Nonprofit
+- Non-Profit
 - Corporate Social Responsibility
-- Workflow
+- Workflows
 website: https://www.submittable.com
 ---

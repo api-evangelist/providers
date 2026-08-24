@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -246,8 +246,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-cloud-wan-mcp.yml
-  slug: amazon-cloud-wan-mcpyml
+  name: Amazon Cloud WAN MCP Server
+  slug: amazon-cloud-wan-mcp-server
 modified: '2026-06-20'
 name: Amazon Cloud WAN
 nav: Providers
@@ -284,18 +284,18 @@ rules:
   slug: amazon-cloud-wan-spectral-rules
 score:
   band: developing
-  composite: 39.6
-  delta: -4.4
+  composite: 40.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 21.5
     developer_ergonomics: 45.2
     discoverability: 77.8
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 18.4
-  previous_composite: 44.0
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,8 +305,8 @@ score:
       marker_coverage: 100.0
       total: 1
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/screenshots/amazon-cloud-wan-2026-07-25T195941.png
 security:

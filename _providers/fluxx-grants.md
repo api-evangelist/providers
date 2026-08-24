@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 4
 apis:
 - description: RESTful create, list, get, update, and delete access to Fluxx model records such as GrantRequest, Organization, and RequestTransaction under /api/rest/v2/{model}. Supports column selection (cols), rec
@@ -81,7 +81,7 @@ modified: '2026-07-05'
 name: Fluxx
 nav: Providers
 network: true
-overview: 'Fluxx publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Grants Management, Grantmaking, Nonprofit, Philanthropy, and Foundations.
+overview: 'Fluxx publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Grants Management, Grantmaking, Non-Profit, Philanthropy, and Foundations.
 
 
   Fluxx''s developer surface includes documentation and 6 more developer resources.'
@@ -89,7 +89,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 11.2
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -99,9 +99,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 11.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluxx-grants/refs/heads/main/screenshots/fluxx-grants-2026-07-25T214848.png
 security:
@@ -121,7 +121,7 @@ slug: fluxx-grants
 tags:
 - Grants Management
 - Grantmaking
-- Nonprofit
+- Non-Profit
 - Philanthropy
 - Foundations
 - REST API

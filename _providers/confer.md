@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/carbon-black/
 - group: other
   title: ''
   type: Archive
@@ -45,7 +49,7 @@ description: Confer Technologies, Inc. was an enterprise endpoint security compa
   profile is retained as a historical record of an acquired company and has no live API surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confer.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-21'
 name: Confer Technologies
 nav: Providers
 network: true
@@ -73,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confer/refs/heads/main/screenshots/confer-2026-07-25T210247.png
 slug: confer

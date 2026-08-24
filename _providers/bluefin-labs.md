@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-20'
 name: Bluefin Labs
 nav: Providers
 network: true
-overview: Bluefin Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Analytics, and Social Media.
+overview: Bluefin Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Analytics, and Social-Media.
 random_paper: 7
 score:
   band: minimal
@@ -75,8 +75,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluefin-labs/refs/heads/main/screenshots/bluefin-labs-2026-07-25T203447.png
 slug: bluefin-labs
@@ -85,10 +85,10 @@ tags:
 - Defunct
 - Acquired
 - Analytics
-- Social Media
+- Social-Media
 - Television
 - Media Measurement
 - Advertising
-- Machine Learning
+- Machine-Learning
 website: http://bluefinlabs.com/
 ---

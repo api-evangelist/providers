@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-19'
 name: Finaccess
 nav: Providers
 network: true
-overview: 'Finaccess is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Asset Management, Investment Funds, and Mutual Funds.
+overview: 'Finaccess is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Asset Management, Investment Funds, and Mutual Funds.
 
 
   Finaccess'' developer surface includes support and 4 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 19
 score:
   band: minimal
   composite: 8.8
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -78,9 +78,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.8
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finaccess/refs/heads/main/screenshots/finaccess-2026-07-25T214602.png
 security:
@@ -91,7 +91,7 @@ security:
 slug: finaccess
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Asset Management
 - Investment Funds
 - Mutual Funds

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -240,8 +240,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/signzy.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: signzy-mcp.yml
-  slug: signzy-mcpyml
+  name: Signzy MCP Server
+  slug: signzy-mcp-server
 modified: '2026-07-17'
 name: Signzy
 nav: Providers
@@ -262,7 +262,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.7
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -272,7 +272,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 61.9
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,8 +283,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/screenshots/signzy-2026-08-17T081859.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ modified: '2026-05-19'
 name: Rook
 nav: Providers
 network: true
-overview: 'Rook publishes 3 APIs on the [APIs.io](https://apis.io/) network: Buckets API, Multipart Uploads API, and Objects API. Tagged areas include Block Storage, CNCF, Ceph, Cloud Native, and File Storage.
+overview: 'Rook publishes 3 APIs on the [APIs.io](https://apis.io/) network: Buckets API, Multipart Uploads API, and Objects API. Tagged areas include Block Storage, CNCF, Ceph, Cloud-Native, and File Storage.
 
 
   The Rook catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -269,18 +269,18 @@ rules:
   slug: rook-spectral-rules
 score:
   band: thin
-  composite: 37.9
-  delta: -8.5
+  composite: 38.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 62.9
     developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 46.4
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -288,9 +288,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/screenshots/rook-2026-06-20T193212.png
 security:
 - kind: authentication
@@ -306,7 +306,7 @@ tags:
 - Block Storage
 - CNCF
 - Ceph
-- Cloud Native
+- Cloud-Native
 - File Storage
 - Graduated
 - Kubernetes

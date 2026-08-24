@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -508,31 +508,31 @@ image: https://framerusercontent.com/assets/sM8ECTApfoCzQMGmPJrKL9qxMFo.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: aptible-mcp.yml
-  slug: aptible-mcpyml
+  name: Aptible MCP Server
+  slug: aptible-mcp-server
 modified: '2026-08-06'
 name: Aptible
 nav: Providers
 network: true
-overview: 'Aptible publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Activity Reports API, and 47 more. Tagged areas include Company, Platform as a Service, Cloud Infrastructure, Deployment, and Managed Databases.
+overview: 'Aptible publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Activity Reports API, and 47 more. Tagged areas include Company, Platform-as-a-Service, Cloud Infrastructure, Deployment, and Managed Databases.
 
 
   Aptible''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 52.4
-  delta: -2.1
+  composite: 54.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 16.7
     contract_quality: 52.3
     developer_ergonomics: 68.5
-    discoverability: 63.0
+    discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 54.5
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -543,8 +543,8 @@ score:
       total: 53
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/screenshots/aptible-2026-08-07T161518.png
 security:
@@ -567,7 +567,7 @@ security:
 slug: aptible
 tags:
 - Company
-- Platform as a Service
+- Platform-as-a-Service
 - Cloud Infrastructure
 - Deployment
 - Managed Databases

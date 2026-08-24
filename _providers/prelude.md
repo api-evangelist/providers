@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Hosted, OAuth 2.1-secured Model Context Protocol server that lets agents run read-only structured queries against a tenant's endpoint and agent observability data (schema discovery + analytics query),
@@ -119,8 +119,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prelude.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: prelude-mcp.yml
-  slug: prelude-mcpyml
+  name: Prelude MCP Server
+  slug: prelude-mcp-server
 modified: '2026-07-20'
 name: Prelude
 nav: Providers
@@ -133,7 +133,7 @@ random_paper: 18
 score:
   band: thin
   composite: 26.5
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -143,13 +143,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 31.5
+  previous_composite: 26.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Prelude Authentication
@@ -167,7 +167,6 @@ tags:
 - AI Observability
 - Endpoint Security
 - AI Agents
-- Model Context Protocol
 - MCP
 - Insight Partners
 website: https://www.originhq.com/

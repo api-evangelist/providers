@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Mi Triple-S is the online provider portal for Triple-S Salud, offering healthcare providers access to insured eligibility verification, claims and payments management, re-credentialing, and provider d
@@ -160,7 +160,7 @@ rules:
 score:
   band: emerging
   composite: 15.3
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -170,16 +170,16 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 21.6
+  previous_composite: 15.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-s-management/refs/heads/main/screenshots/triple-s-management-2026-06-20T195730.png
 security:
 - kind: domain-security

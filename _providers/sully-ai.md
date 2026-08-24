@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'REST API for ambient clinical documentation: upload audio or open a WebSocket stream, generate structured SOAP / custom-template clinical notes, extract medical codes (ICD-10, CPT, SNOMED), and receiv'
@@ -129,7 +129,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 11.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -139,15 +139,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.4
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sully-ai/refs/heads/main/screenshots/sully-ai-2026-06-20T194647.png
 security:
@@ -173,17 +173,17 @@ tags:
 - ICD-10
 - CPT
 - SNOMED
-- Speech to Text
+- Speech-to-Text
 - Audio Transcription
-- Real Time Streaming
+- Real-Time Streaming
 - WebSockets
-- Webhooks
+- Webhook
 - EHR Integration
 - Epic
 - Cerner
 - HIPAA
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Healthcare Automation
 website: https://www.sully.ai
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -149,8 +149,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: paystone-mcp.yml
-  slug: paystone-mcpyml
+  name: Paystone MCP Server
+  slug: paystone-mcp-server
 modified: '2026-07-24'
 name: Paystone
 nav: Providers
@@ -166,7 +166,7 @@ random_paper: 1
 score:
   band: developing
   composite: 46.7
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -176,7 +176,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 46.4
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/screenshots/paystone-2026-08-07T191657.png
 security:
@@ -214,7 +214,7 @@ tags:
 - Acquiring
 - Gift Cards
 - Loyalty
-- Subscriptions
+- Subscription
 - Billing
 - Merchant Services
 website: https://www.paystone.com/

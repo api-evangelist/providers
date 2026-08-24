@@ -29,8 +29,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -78,8 +78,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -127,8 +127,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -176,8 +176,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -236,8 +236,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -284,8 +284,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -333,8 +333,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -393,8 +393,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -442,8 +442,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -490,8 +490,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -538,8 +538,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -586,8 +586,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -634,8 +634,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -666,161 +666,15 @@
      "rank": 13
     },
     {
-     "name": "Onlia",
-     "slug": "onlia",
-     "description": "Onlia is a Canadian digital insurance brokerage, operating as the registered business name of Onlia Agency Inc. and backed by Southampton Financial Inc. (the Southampton group of companies). It sells personal lines direct to consumers online and by phone — auto (car, motorcycle, ATV, snowmobile, trailer, motorhome), property (home, condo, tenant, landlord, second home, mobile home) and lifestyle lines (boat, pet, life, travel, seasonal) — plus group and bundle programs. Onlia does not underwrite; it places business with a panel of Canadian carriers disclosed publicly on its broker-disclosure page, including Aviva, Gore Mutual, Economical/Definity, Pembridge, Pafco, Echelon, Wawanesa, Unica, Forward, Premier, Facility Association (Intact) and APOLLO. Its home market is Canada, concentrated in Ontario, where market conduct sits with FSRA while OSFI supervises the federally-regulated carriers behind the policies. API posture, recorded honestly: Onlia publishes NO public developer portal and NO self-serve API. developer., developers., docs. and api. under onlia.ca do not resolve, and /developers, /api, /developer and /integrations on the marketing site all return 404. The only quote/bind/issue/FNOL surface is app.onlia.ca, a consumer-facing Angular single-page app running on a white-labelled Ignite Insurance policy administration platform whose backend is private to the app. The one \"partner\" page is a B2B marketing page inviting affinity discount partnerships by email, with no technical onboarding. No ACORD, AL3, ACORD XML or NGDS reference appears anywhere on the public site. The app's own bundle shows the private backend runs on MuleSoft Anypoint CloudHub ESB services (auto and home policy, authentication, documents, VIN/MVR, claims) plus an Ignite Insurance authentication service — real REST plumbing behind the SPA, but undocumented, uncredentialed and not offered to third parties, so no API entry is claimed here.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onlia/refs/heads/main/screenshots/onlia-2026-08-07T190358.png",
-     "score": 12.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 14
-    },
-    {
-     "name": "Goose Insurance",
-     "slug": "goose-insurance",
-     "description": "Goose Insurance Services Inc. is a Vancouver, British Columbia based digital insurance distributor — an app-first licensed agency and MGA rather than a carrier — that sells travel medical, Visitors to Canada, term life, whole life, final expense, critical illness, accidental death and dismemberment, hospital cash, kids and renters coverage through the Goose mobile \"insurance super app\". Founded in 2017 and licensed in British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec (AMF firm registration 603913), New Brunswick and Nova Scotia, Goose underwrites nothing itself: every policy is placed with a partner carrier including AIG Canada, iA Financial Group, TuGo, IMG, MSH, American-Amicable, Teachers Life, Lloyd's of London and Sutton National. Its home market is Canada, with a US launch in 2020, and it sits in the thin digital-broker layer beneath the Big-Few Canadian oligopoly alongside Zensurance and APOLLO. Goose's API posture is closed: as of the 2026-07-25 review there is no public developer portal, no self-serve API documentation, no downloadable OpenAPI or Swagger, and no published ACORD, AL3 or agency-management-system integration. The only host that answers on the api. subdomain is a private Heroku-backed mobile-app backend that returns 404 at every probed path, and the only partner surfaces the company publishes are a marketing affiliate/referral program and a carrier-relationships page — quote, bind, issue and FNOL are all consumer-facing inside the app only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/screenshots/goose-insurance-2026-07-25T220107.png",
-     "score": 12.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 28.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 15
-    },
-    {
-     "name": "Intact Financial",
-     "slug": "intact-financial",
-     "description": "Intact Financial Corporation is the largest provider of property and casualty insurance in Canada, headquartered in Toronto and trading on the TSX as IFC. It underwrites personal auto, personal property, and commercial P&C lines through the Intact Insurance, belairdirect, BrokerLink, Intact Prestige, Intact Public Entities, and On Side Restoration brands in Canada, through Intact Insurance Specialty Solutions in the United States, and through Intact Insurance UK, EU, IE and 123.ie internationally following the 2021 acquisition of RSA. Distribution runs through a network of more than 6,000 independent broker offices plus direct-to-consumer channels. Its API posture is partner-gated and closed. There is no public, self-serve developer portal, no published API reference, and no downloadable OpenAPI, Swagger, GraphQL, or AsyncAPI artifact on any Intact domain probed. developer/developers/docs/api subdomains on intactfc.com and intact.ca do not resolve; /developers, /api, /developer and /partners return 404. The only integration surfaces are login walls — the Intact Portal for brokers at portal.intactinsurance.com (brokers.intact.ca redirects there) and the customer Client Centre behind IBM Security WebSEAL at apps.intactinsurance.com. Broker connectivity in Canada is mediated by CSIO, the industry standards body whose EDI, XML, eDocs and JSON API standards are the Canadian analogue of ACORD. Intact Insurance is listed in the CSIO member directory but appears on none of CSIO's certified-member lists (eDocs, CL Data, Compliance/Z-code, API Security Standards, JSON API Standards) and is recorded as \"Not Yet Rated\" on both the personal and commercial tracks of CSIO's 2026 Standards Certification Ratings. No ACORD reference was found anywhere on the company's public web properties.",
-     "score": 12.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 13.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 22.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 16
-    },
-    {
      "name": "Desjardins Group",
      "slug": "desjardins",
      "description": "Desjardins Group (Mouvement Desjardins) is the largest cooperative financial group in North America, founded in 1900 in Lévis, Quebec by Alphonse Desjardins. It is a federation of caisses populaires (member-owned credit unions) rather than a share-capital chartered bank, comprising the Fédération des caisses Desjardins du Québec and its subsidiaries, the caisses in Quebec and the Caisse Desjardins Ontario Credit Union, regulated in Quebec by the Autorité des marchés financiers (AMF). It holds roughly CAD $470 billion in assets and serves more than 7.8 million members and clients with personal, business, wealth-management and insurance products. On open finance, Desjardins publishes no first-party public developer portal or downloadable API specification; developer.desjardins.com and other API-portal subdomains do not resolve, and consumer financial-data access is delivered today through third-party aggregators (Flinks, Plaid, Finicity, Tink) via screen-scraping/aggregator connectivity rather than a documented Desjardins API. Canada's Consumer-Driven Banking (open-banking) framework is legislated (Budget 2024/2025, overseen by the FCAC) but not yet operational; as a cooperative outside the Big Six, Desjardins may opt in to Phase 1 rather than being mandated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/desjardins/refs/heads/main/screenshots/desjardins-2026-07-25T211754.png",
-     "score": 11.9,
+     "score": 13.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -829,8 +683,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -858,6 +712,152 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
+     "rank": 14
+    },
+    {
+     "name": "Onlia",
+     "slug": "onlia",
+     "description": "Onlia is a Canadian digital insurance brokerage, operating as the registered business name of Onlia Agency Inc. and backed by Southampton Financial Inc. (the Southampton group of companies). It sells personal lines direct to consumers online and by phone — auto (car, motorcycle, ATV, snowmobile, trailer, motorhome), property (home, condo, tenant, landlord, second home, mobile home) and lifestyle lines (boat, pet, life, travel, seasonal) — plus group and bundle programs. Onlia does not underwrite; it places business with a panel of Canadian carriers disclosed publicly on its broker-disclosure page, including Aviva, Gore Mutual, Economical/Definity, Pembridge, Pafco, Echelon, Wawanesa, Unica, Forward, Premier, Facility Association (Intact) and APOLLO. Its home market is Canada, concentrated in Ontario, where market conduct sits with FSRA while OSFI supervises the federally-regulated carriers behind the policies. API posture, recorded honestly: Onlia publishes NO public developer portal and NO self-serve API. developer., developers., docs. and api. under onlia.ca do not resolve, and /developers, /api, /developer and /integrations on the marketing site all return 404. The only quote/bind/issue/FNOL surface is app.onlia.ca, a consumer-facing Angular single-page app running on a white-labelled Ignite Insurance policy administration platform whose backend is private to the app. The one \"partner\" page is a B2B marketing page inviting affinity discount partnerships by email, with no technical onboarding. No ACORD, AL3, ACORD XML or NGDS reference appears anywhere on the public site. The app's own bundle shows the private backend runs on MuleSoft Anypoint CloudHub ESB services (auto and home policy, authentication, documents, VIN/MVR, claims) plus an Ignite Insurance authentication service — real REST plumbing behind the SPA, but undocumented, uncredentialed and not offered to third parties, so no API entry is claimed here.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onlia/refs/heads/main/screenshots/onlia-2026-08-07T190358.png",
+     "score": 12.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 15
+    },
+    {
+     "name": "Goose Insurance",
+     "slug": "goose-insurance",
+     "description": "Goose Insurance Services Inc. is a Vancouver, British Columbia based digital insurance distributor — an app-first licensed agency and MGA rather than a carrier — that sells travel medical, Visitors to Canada, term life, whole life, final expense, critical illness, accidental death and dismemberment, hospital cash, kids and renters coverage through the Goose mobile \"insurance super app\". Founded in 2017 and licensed in British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec (AMF firm registration 603913), New Brunswick and Nova Scotia, Goose underwrites nothing itself: every policy is placed with a partner carrier including AIG Canada, iA Financial Group, TuGo, IMG, MSH, American-Amicable, Teachers Life, Lloyd's of London and Sutton National. Its home market is Canada, with a US launch in 2020, and it sits in the thin digital-broker layer beneath the Big-Few Canadian oligopoly alongside Zensurance and APOLLO. Goose's API posture is closed: as of the 2026-07-25 review there is no public developer portal, no self-serve API documentation, no downloadable OpenAPI or Swagger, and no published ACORD, AL3 or agency-management-system integration. The only host that answers on the api. subdomain is a private Heroku-backed mobile-app backend that returns 404 at every probed path, and the only partner surfaces the company publishes are a marketing affiliate/referral program and a carrier-relationships page — quote, bind, issue and FNOL are all consumer-facing inside the app only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/screenshots/goose-insurance-2026-07-25T220107.png",
+     "score": 12.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 28.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 16
+    },
+    {
+     "name": "Intact Financial",
+     "slug": "intact-financial",
+     "description": "Intact Financial Corporation is the largest provider of property and casualty insurance in Canada, headquartered in Toronto and trading on the TSX as IFC. It underwrites personal auto, personal property, and commercial P&C lines through the Intact Insurance, belairdirect, BrokerLink, Intact Prestige, Intact Public Entities, and On Side Restoration brands in Canada, through Intact Insurance Specialty Solutions in the United States, and through Intact Insurance UK, EU, IE and 123.ie internationally following the 2021 acquisition of RSA. Distribution runs through a network of more than 6,000 independent broker offices plus direct-to-consumer channels. Its API posture is partner-gated and closed. There is no public, self-serve developer portal, no published API reference, and no downloadable OpenAPI, Swagger, GraphQL, or AsyncAPI artifact on any Intact domain probed. developer/developers/docs/api subdomains on intactfc.com and intact.ca do not resolve; /developers, /api, /developer and /partners return 404. The only integration surfaces are login walls — the Intact Portal for brokers at portal.intactinsurance.com (brokers.intact.ca redirects there) and the customer Client Centre behind IBM Security WebSEAL at apps.intactinsurance.com. Broker connectivity in Canada is mediated by CSIO, the industry standards body whose EDI, XML, eDocs and JSON API standards are the Canadian analogue of ACORD. Intact Insurance is listed in the CSIO member directory but appears on none of CSIO's certified-member lists (eDocs, CL Data, Compliance/Z-code, API Security Standards, JSON API Standards) and is recorded as \"Not Yet Rated\" on both the personal and commercial tracks of CSIO's 2026 Standards Certification Ratings. No ACORD reference was found anywhere on the company's public web properties.",
+     "score": 12.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 22.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "P&C / General Insurers",
      "rank": 17
     },
     {
@@ -877,8 +877,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -936,8 +936,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -985,8 +985,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-19",
-     "schema_version": "0.12.0",
+     "scored_at": "2026-08-24",
+     "schema_version": "0.12.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

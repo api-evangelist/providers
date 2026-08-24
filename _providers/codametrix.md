@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,13 +216,13 @@ image: https://cdn.prod.website-files.com/684cc6638b0f0abf60033894/6858a1d6db0f8
 layout: provider
 mcp_servers:
 - description: ''
-  name: codametrix-mcp.yml
-  slug: codametrix-mcpyml
+  name: CodaMetrix MCP Server
+  slug: codametrix-mcp-server
 modified: '2026-08-04'
 name: CodaMetrix
 nav: Providers
 network: true
-overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenances API, and 2 more. Tagged areas include Company, healthcare, health-systems, medical-coding, and autonomous-coding.
+overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenances API, and 2 more. Tagged areas include Company, Healthcare, Health Systems, Medical Coding, and Autonomous Coding.
 
 
   CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 25 more developer resources.'
@@ -230,7 +230,7 @@ random_paper: 1
 score:
   band: developing
   composite: 40.9
-  delta: 11.6
+  delta: 0.0
   facets:
     access_clarity: 71.4
     commercial_clarity: 71.4
@@ -240,7 +240,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 29.3
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -257,9 +257,9 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:
 - kind: authentication
@@ -277,16 +277,16 @@ security:
 slug: codametrix
 tags:
 - Company
-- healthcare
-- health-systems
-- medical-coding
-- autonomous-coding
-- revenue-cycle-management
-- clinical-documentation
-- healthcare-ai
-- machine-learning
-- natural-language-processing
-- ehr-integration
-- status
+- Healthcare
+- Health Systems
+- Medical Coding
+- Autonomous Coding
+- Revenue Cycle Management
+- Clinical Documentation
+- Healthcare AI
+- Machine-Learning
+- Natural Language Processing
+- EHR Integration
+- Status
 website: https://www.codametrix.com/
 ---

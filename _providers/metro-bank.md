@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,13 +141,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: metro-bank-mcp.yml
-  slug: metro-bank-mcpyml
+  name: Metro Bank MCP Server
+  slug: metro-bank-mcp-server
 modified: '2026-07-23'
 name: Metro Bank
 nav: Providers
 network: true
-overview: 'Metro Bank publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Metro Bank publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Metro Bank''s developer surface includes authentication, documentation, engineering blog, support, and 17 more developer resources.'
@@ -160,7 +160,7 @@ scopes:
 score:
   band: developing
   composite: 40.5
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -170,7 +170,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 33.0
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -187,9 +187,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 75.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/screenshots/metro-bank-2026-08-07T172746.png
 security:
 - kind: authentication
@@ -202,7 +202,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: metro-bank
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

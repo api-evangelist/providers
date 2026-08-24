@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Moku Scripting API is a RESTful HTTP interface served by the Moku device itself. A client first POSTs an empty JSON object to moku/claim_ownership to mint a Moku-Client-Key, then POSTs JSON parame
@@ -182,22 +182,22 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/deviceCode/implicit/password
 score:
   band: thin
-  composite: 34.1
-  delta: 1.4
+  composite: 35.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 1.4
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 32.7
+  previous_composite: 35.2
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/screenshots/liquid-instruments-2026-08-07T171731.png
 security:

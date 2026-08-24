@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 58
 apis:
 - description: The Addons API from Vanilla Forums — 2 operation(s) for addons.
@@ -516,14 +516,14 @@ description: Vanilla Forums is the cloud community-forum platform now sold as Hi
 image: https://github.com/vanilla.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: vanilla-forums-mcp.yml
-  slug: vanilla-forums-mcpyml
+- description: Higher Logic Vanilla operates an official MCP server ("Vanilla MCP"), announced May 26, 2026. It gives customers a native Model Context Protocol connection between their Vanilla community and AI tools
+  name: Vanilla Forums MCP Server
+  slug: vanilla-forums-mcp-server
 modified: '2026-07-21'
 name: Vanilla Forums
 nav: Providers
 network: true
-overview: 'Vanilla Forums publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Addons API, AI Processing Preferences API, AI Settings API, and 55 more. Tagged areas include Community, Forums, Community Management, Webhooks, and Customer Experience.
+overview: 'Vanilla Forums publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Addons API, AI Processing Preferences API, AI Settings API, and 55 more. Tagged areas include Community, Forums, Community Management, Webhook, and Customer Experience.
 
 
   The Vanilla Forums catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -538,7 +538,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.1
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -548,7 +548,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 55.4
+  previous_composite: 52.1
   provenance:
     conformance: derived
     contracts:
@@ -558,8 +558,8 @@ score:
       total: 58
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/screenshots/vanilla-forums-2026-08-17T082714.png
 security:
@@ -576,9 +576,9 @@ tags:
 - Community
 - Forums
 - Community Management
-- Webhooks
+- Webhook
 - Customer Experience
 - Knowledge Base
-- SaaS
+- Software-as-a-Service
 website: https://vanillaforums.com/
 ---

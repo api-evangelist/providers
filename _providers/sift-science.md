@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Sift's REST API for Digital Trust & Safety — send behavioral and transaction Events, request risk Scores, apply Decisions and Labels, run Workflows, and verify users. Data is sent as JSON over HTTPS a
@@ -153,7 +153,7 @@ modified: '2026-07-21'
 name: Sift Science
 nav: Providers
 network: true
-overview: 'Sift Science publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Fraud Detection, Fraud Prevention, and Machine Learning.
+overview: 'Sift Science publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Fraud Detection, Fraud Prevention, and Machine-Learning.
 
 
   The Sift Science catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -164,7 +164,7 @@ random_paper: 16
 score:
   band: developing
   composite: 50.3
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -174,7 +174,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 50.2
+  previous_composite: 50.3
   provenance:
     conformance: first-party
   regulatory:
@@ -183,8 +183,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sift-science/refs/heads/main/screenshots/sift-science-2026-08-17T081846.png
 security:
@@ -206,7 +206,7 @@ tags:
 - Enterprise Saas
 - Fraud Detection
 - Fraud Prevention
-- Machine Learning
+- Machine-Learning
 - Risk Scoring
 - Payments
 - Identity

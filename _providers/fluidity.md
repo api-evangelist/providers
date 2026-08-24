@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint exposing Fluidity's on-chain and webapp data — transactions, rewards, prize-pool and Fluid Asset metrics across Arbitrum, Solana, Sui, and the Superposition devnet.
@@ -124,7 +124,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 19.5
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -134,9 +134,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 21.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 19.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluidity/refs/heads/main/screenshots/fluidity-2026-07-25T214846.png
 security:

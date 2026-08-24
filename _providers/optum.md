@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 3
@@ -262,7 +262,7 @@ scopes:
 score:
   band: strong
   composite: 63.1
-  delta: 5.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -272,7 +272,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 57.8
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -289,9 +289,9 @@ score:
     regime: Health
     regime_id: health
     score: 83.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/screenshots/optum-2026-08-07T190817.png
 security:
 - kind: authentication

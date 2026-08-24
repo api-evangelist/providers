@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -126,7 +126,7 @@ modified: '2026-08-06'
 name: Arundo Analytics
 nav: Providers
 network: true
-overview: 'Arundo Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial AI, Industrial IoT, Analytics, and Machine Learning.
+overview: 'Arundo Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial AI, Industrial IoT, Analytics, and Machine-Learning.
 
 
   Arundo Analytics'' developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
@@ -139,7 +139,7 @@ scopes:
 score:
   band: emerging
   composite: 25.4
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -149,7 +149,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 26.7
+  previous_composite: 25.4
   provenance:
     conformance: first-party
   regulatory:
@@ -158,8 +158,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/screenshots/arundo-analytics-2026-08-07T161747.png
 security:
@@ -177,7 +177,7 @@ tags:
 - Industrial AI
 - Industrial IoT
 - Analytics
-- Machine Learning
+- Machine-Learning
 - Time Series
 - Asset Performance Management
 - Anomaly Detection

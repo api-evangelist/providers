@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -232,8 +232,8 @@ image: https://www.ezoic.com/wp-content/uploads/2021/03/ezoic-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: ezoic-mcp.yml
-  slug: ezoic-mcpyml
+  name: ezoic MCP Server
+  slug: ezoic-mcp-server
 modified: '2026-08-13'
 name: ezoic
 nav: Providers
@@ -259,7 +259,7 @@ scopes:
 score:
   band: strong
   composite: 60.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -269,7 +269,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 61.4
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +280,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/screenshots/ezoic-2026-07-25T214052.png
 security:
@@ -305,13 +305,13 @@ tags:
 - Publisher Monetization
 - Analytics
 - Reporting
-- Subscriptions
+- Subscription
 - Paywalls
 - Identity
 - CDN
 - Caching
 - MCP
-- OAuth
+- Authentication
 - Agents
 website: https://www.ezoic.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Skybox Exports API from Blockade Games — 2 operation(s) for skybox exports.
@@ -189,13 +189,13 @@ image: https://static.wixstatic.com/media/8d6639_b2ee76a88e224659804c1ef09c7bc5d
 layout: provider
 mcp_servers:
 - description: ''
-  name: blockade-games-mcp.yml
-  slug: blockade-games-mcpyml
+  name: Blockade Games MCP Server
+  slug: blockade-games-mcp-server
 modified: '2026-07-18'
 name: Blockade Games
 nav: Providers
 network: true
-overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) network: Skybox Exports API and Skyboxes API. Tagged areas include Company, Artificial Intelligence, Image Generation, 3D, and Gaming.
+overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) network: Skybox Exports API and Skyboxes API. Tagged areas include Company, Artificial Intelligence, Image-Generation, 3D, and Gaming.
 
 
   The Blockade Games catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -205,18 +205,18 @@ overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 5
 score:
   band: developing
-  composite: 49.6
-  delta: -3.1
+  composite: 50.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
     contract_quality: 58.7
     developer_ergonomics: 61.3
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 52.7
+  previous_composite: 50.7
   provenance:
     conformance: derived
     contracts:
@@ -226,8 +226,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/screenshots/blockade-games-2026-07-25T203333.png
 security:
@@ -243,7 +243,7 @@ slug: blockade-games
 tags:
 - Company
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - 3D
 - Gaming
 - Virtual Reality

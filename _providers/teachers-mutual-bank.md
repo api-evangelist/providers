@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -186,8 +186,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teachers-m
 layout: provider
 mcp_servers:
 - description: ''
-  name: teachers-mutual-bank-mcp.yml
-  slug: teachers-mutual-bank-mcpyml
+  name: Teachers Mutual Bank MCP Server
+  slug: teachers-mutual-bank-mcp-server
 modified: '2026-07-21'
 name: Teachers Mutual Bank
 nav: Providers
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 46.9
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -219,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 44.3
+  previous_composite: 46.9
   provenance:
     conformance: derived
     contracts:
@@ -235,8 +235,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/screenshots/teachers-mutual-bank-2026-07-21T114753.png
 security:

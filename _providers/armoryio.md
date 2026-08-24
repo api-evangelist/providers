@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Armory.io
 nav: Providers
 network: true
-overview: 'Armory.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, Continuous Delivery, Continuous Deployment, and Spinnaker.
+overview: 'Armory.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Continuous Delivery, Continuous Deployment, and Spinnaker.
 
 
   Armory.io''s developer surface includes documentation and 6 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 0
 score:
   band: minimal
   composite: 9.4
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -86,9 +86,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 9.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 9.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armoryio/refs/heads/main/screenshots/armoryio-2026-07-25T201231.png
 security:
@@ -99,7 +99,7 @@ security:
 slug: armoryio
 tags:
 - Company
-- Devops
+- DevOps
 - Continuous Delivery
 - Continuous Deployment
 - Spinnaker

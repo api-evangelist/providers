@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 17.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Staffbase employee experience platform — manage users, groups, news, pages, media, notifications, spaces, campaigns, analytics, and audit logs. Authenticated with HTTP Basic auth carr
@@ -167,8 +167,8 @@ image: https://logo.clearbit.com/staffbase.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: staffbase-mcp.yml
-  slug: staffbase-mcpyml
+  name: Staffbase MCP Server
+  slug: staffbase-mcp-server
 modified: '2026-07-21'
 name: Staffbase
 nav: Providers
@@ -181,7 +181,7 @@ random_paper: 19
 score:
   band: thin
   composite: 38.7
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -191,12 +191,12 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 39.5
+  previous_composite: 38.7
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

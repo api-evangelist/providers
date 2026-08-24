@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Azure Resource Manager REST API for managing StorSimple device managers, devices, volumes, backup policies, and jobs under the Microsoft.StorSimple resource provider. Retired (end-of-life December 202
@@ -85,7 +85,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 13.4
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -95,11 +95,11 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 13.7
+  previous_composite: 13.4
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 5
@@ -445,9 +445,9 @@ description: Kiteworks operates a Private Data Network (PDN) that unifies secure
 image: https://www.kiteworks.com/wp-content/uploads/2026/07/kiteworks-logo-1.svg
 layout: provider
 mcp_servers:
-- description: ''
-  name: kiteworks-mcp.yml
-  slug: kiteworks-mcpyml
+- description: Official Kiteworks MCP Server (Apache-2.0) letting LLM applications operate on Kiteworks files, folders, forms and user info.
+  name: Kiteworks MCP Server
+  slug: kiteworks-mcp-server
 modified: '2026-07-19'
 name: Kiteworks
 nav: Providers
@@ -471,18 +471,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.4
-  delta: 1.0
+  composite: 60.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
     contract_quality: 59.2
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 58.4
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -493,8 +493,8 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/screenshots/kiteworks-2026-07-25T223908.png
 security:

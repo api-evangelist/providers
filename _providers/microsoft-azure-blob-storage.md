@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -342,7 +342,7 @@ rules:
 score:
   band: strong
   composite: 54.7
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -352,7 +352,7 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 60.5
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -360,9 +360,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/screenshots/microsoft-azure-blob-storage-2026-06-20T185402.png
 security:
 - kind: authentication

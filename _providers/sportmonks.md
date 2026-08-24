@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -376,18 +376,18 @@ rules:
   slug: sportmonks-rules
 score:
   band: strong
-  composite: 56.0
-  delta: -7.9
+  composite: 56.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 58.5
     developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 63.9
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -395,9 +395,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/screenshots/sportmonks-2026-08-17T125430.png
 security:
 - kind: authentication
@@ -424,7 +424,7 @@ tags:
 - Developer-Friendly
 - Football
 - Formula 1
-- Livescores
+- Live Scores
 - Motorsport
 - Real-Time
 - Soccer

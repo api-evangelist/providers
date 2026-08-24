@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-06-21'
 name: Docsumo
 nav: Providers
 network: true
-overview: 'Docsumo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Document Types API, Documents API, Extraction API, and 1 more. Tagged areas include Document Processing, IDP, OCR, Data Extraction, and AI.
+overview: 'Docsumo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Document Types API, Documents API, Extraction API, and 1 more. Tagged areas include Document Processing, IDP, OCR, Data Extraction, and Artificial Intelligence.
 
 
   Docsumo''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.7
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.5
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/screenshots/docsumo-2026-07-25T212211.png
 security:
@@ -178,6 +178,6 @@ tags:
 - IDP
 - OCR
 - Data Extraction
-- AI
+- Artificial Intelligence
 website: https://www.docsumo.com
 ---

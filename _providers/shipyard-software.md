@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Request-for-Quote swap API for the Clipper DEX. Aggregators retrieve pool state (price feeds, k factor), request firm quotes, and sign quotes to obtain the EIP-2098 signature/calldata needed to execut
@@ -120,7 +120,7 @@ modified: '2026-07-21'
 name: Shipyard Software
 nav: Providers
 network: true
-overview: 'Shipyard Software publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, DEX, Decentralized Exchange, and Cryptocurrency.
+overview: 'Shipyard Software publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, DEX, Decentralized Exchange, and Cryptocurrency.
 
 
   Shipyard Software''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 12 more developer resources.'
@@ -128,7 +128,7 @@ random_paper: 3
 score:
   band: thin
   composite: 33.6
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -138,7 +138,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 34.7
+  previous_composite: 33.6
   provenance:
     conformance: first-party
   regulatory:
@@ -147,8 +147,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -162,7 +162,7 @@ security:
 slug: shipyard-software
 tags:
 - Company
-- Defi
+- DeFi
 - DEX
 - Decentralized Exchange
 - Cryptocurrency

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -129,7 +129,7 @@ modified: '2026-05-25'
 name: Pinokio
 nav: Providers
 network: true
-overview: 'Pinokio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Launcher, AI Browser, Local AI, Open Source, and Desktop Application.
+overview: 'Pinokio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Launcher, AI Browser, Local AI, Open-Source, and Desktop Application.
 
 
   Pinokio''s developer surface includes documentation, GitHub presence, release notes, privacy policy, and 18 more developer resources.'
@@ -137,7 +137,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 12.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -147,9 +147,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 13.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinokio-computer/refs/heads/main/screenshots/pinokio-computer-2026-06-20T191720.png
 security:
@@ -162,14 +162,14 @@ tags:
 - AI Launcher
 - AI Browser
 - Local AI
-- Open Source
+- Open-Source
 - Desktop Application
 - Script Runner
 - One-Click Install
-- Image Generation
+- Image-Generation
 - Video Generation
 - Large Language Models
-- Text To Speech
+- Text-to-Speech
 - Voice Cloning
 - Hugging Face
 - Llama

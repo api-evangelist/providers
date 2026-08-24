@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -327,13 +327,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: cash-app-mcp.yml
-  slug: cash-app-mcpyml
+  name: Cash App MCP Server
+  slug: cash-app-mcp-server
 modified: '2026-07-23'
 name: Cash App
 nav: Providers
 network: true
-overview: 'Cash App publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Pay Network API, Pay Customer Request API, Pay Management API, and 9 more. Tagged areas include Financial Services, Payments, United States, Fintech, and Neobank.
+overview: 'Cash App publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Pay Network API, Pay Customer Request API, Pay Management API, and 9 more. Tagged areas include Financial-Services, Payments, United States, Fintech, and Neobank.
 
 
   The Cash App catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -349,7 +349,7 @@ scopes:
 score:
   band: strong
   composite: 62.0
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -359,7 +359,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 58.9
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -371,8 +371,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 70.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png
 security:
@@ -390,7 +390,7 @@ security:
   summary_line: Bugcrowd · security.txt · contact published
 slug: cash-app
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - United States
 - Fintech

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 324
   human_in_the_loop: 4
@@ -2629,13 +2629,13 @@ rules:
     info: 1
     warn: 5
   slug: datadog-jsonschema-spectral-rules
-- effective_rule_count: 66
+- effective_rule_count: 65
   extends:
   - spectral:oas
   name: Datadog API Rules
-  rule_count: 25
+  rule_count: 24
   severity_counts:
-    error: 14
+    error: 13
     hint: 0
     info: 2
     warn: 9
@@ -2647,18 +2647,18 @@ scopes:
   summary_line: 68 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.3
-  delta: -7.3
+  composite: 57.6
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 75.3
     developer_ergonomics: 61.9
-    discoverability: 57.4
-    governance: 9.8
+    discoverability: 75.9
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 62.6
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -2666,9 +2666,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 211
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/screenshots/datadog-2026-06-20T175637.png
 security:
 - kind: authentication

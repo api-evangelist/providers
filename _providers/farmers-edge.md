@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: The canplug API from Farmers Edge — 1 operation(s) for canplug.
@@ -170,8 +170,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/farmers-ed
 layout: provider
 mcp_servers:
 - description: ''
-  name: farmers-edge-mcp.yml
-  slug: farmers-edge-mcpyml
+  name: Farmers Edge MCP Server
+  slug: farmers-edge-mcp-server
 modified: '2026-07-19'
 name: Farmers Edge
 nav: Providers
@@ -184,7 +184,7 @@ random_paper: 5
 score:
   band: thin
   composite: 27.6
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 29.4
+  previous_composite: 27.6
   provenance:
     conformance: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/screenshots/farmers-edge-2026-07-25T214231.png
 security:
@@ -229,6 +229,5 @@ tags:
 - IoT
 - Weather
 - Carbon
-- API
 website: https://www.farmcommand.com/
 ---

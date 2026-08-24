@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -241,8 +241,8 @@ image: https://kadence.co/wp-content/uploads/2025/05/kadence-social-share-image.
 layout: provider
 mcp_servers:
 - description: ''
-  name: kadence-mcp.yml
-  slug: kadence-mcpyml
+  name: Kadence MCP Server
+  slug: kadence-mcp-server
 modified: '2026-07-19'
 name: Kadence
 nav: Providers
@@ -260,7 +260,7 @@ scopes:
 score:
   band: developing
   composite: 42.0
-  delta: -10.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -270,7 +270,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 52.2
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -281,9 +281,9 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/screenshots/kadence-2026-07-25T223408.png
 security:
 - kind: authentication
@@ -309,6 +309,6 @@ tags:
 - Visitor Management
 - Workplace Analytics
 - Facilities
-- OAuth
+- Authentication
 website: https://kadence.co/
 ---

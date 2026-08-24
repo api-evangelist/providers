@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 20
 apis:
 - description: The Allowances API from Angle — 1 operation(s) for allowances.
@@ -268,8 +268,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/angle.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: angle-mcp.yml
-  slug: angle-mcpyml
+  name: Angle MCP Server
+  slug: angle-mcp-server
 modified: '2026-07-19'
 name: Angle
 nav: Providers
@@ -282,7 +282,7 @@ random_paper: 15
 score:
   band: thin
   composite: 29.7
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -292,7 +292,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 34.3
+  previous_composite: 29.7
   provenance:
     conformance: derived
     contracts:
@@ -302,8 +302,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/screenshots/angle-2026-07-25T200241.png
 security:

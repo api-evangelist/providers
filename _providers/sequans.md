@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: A Model Context Protocol server exposed by the WordPress MCP Adapter running on the sequans.com corporate site. Two MCP endpoints are registered and enumerable anonymously through the WordPress REST r
@@ -109,8 +109,8 @@ image: https://sequans.com/wp-content/uploads/2025/07/cropped-sequans-logo.png.p
 layout: provider
 mcp_servers:
 - description: ''
-  name: sequans-mcp.yml
-  slug: sequans-mcpyml
+  name: Sequans MCP Server
+  slug: sequans-mcp-server
 modified: '2026-08-17'
 name: Sequans
 nav: Providers
@@ -123,6 +123,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 21.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -132,14 +133,16 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 2.6
+  previous_composite: 21.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 52.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Sequans Domain Security

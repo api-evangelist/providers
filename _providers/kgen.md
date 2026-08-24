@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Developer APIs for the KGeN Esports and Loyalty protocols — sessions, tournaments, leaderboards, wallets (KCash), rewards, and rewardable events for game developers.
@@ -107,8 +107,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kgen.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: kgen-mcp.yml
-  slug: kgen-mcpyml
+  name: KGeN MCP Server
+  slug: kgen-mcp-server
 modified: '2026-07-19'
 name: KGeN
 nav: Providers
@@ -121,7 +121,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 20.5
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -131,11 +131,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.8
+  previous_composite: 20.5
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kgen/refs/heads/main/screenshots/kgen-2026-07-25T223702.png
 security:
@@ -156,7 +156,7 @@ tags:
 - Loyalty
 - Rewards
 - Web3
-- AI Data
+- Ai Data
 - Developer API
 website: https://www.kgen.io/
 ---

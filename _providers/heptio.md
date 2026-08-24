@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/vmware/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -48,16 +52,16 @@ created: '2026-07-17'
 description: Heptio was a Seattle-based cloud-native software company founded in 2016 by Craig McLuckie and Joe Beda, two of the original co-creators of Kubernetes, to help enterprises adopt and operate Kubernetes. It built a suite of widely used open-source Kubernetes tools including Ark (later renamed Velero) for backup and restore, Sonobuoy for conformance testing, Contour as an Envoy-based ingress controller, ksonnet, and Gimbal. Heptio was acquired by VMware in November 2018 and folded into the VMware Tanzu portfolio; the company brand was retired and most of its open-source projects were migrated from the github.com/heptio organization to github.com/vmware-tanzu. This profile is preserved as a historical/defunct-company record in the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heptio.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-21'
 name: Heptio
 nav: Providers
 network: true
-overview: Heptio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Kubernetes, Cloud Native, and Containers.
+overview: Heptio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open-Source, Kubernetes, Cloud-Native, and Containers.
 random_paper: 19
 score:
   band: minimal
   composite: 5.3
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -67,9 +71,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 5.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -79,9 +83,9 @@ security:
 slug: heptio
 tags:
 - Company
-- Open Source
+- Open-Source
 - Kubernetes
-- Cloud Native
+- Cloud-Native
 - Containers
 - DevOps
 - Infrastructure

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Server-side ad request API. A GET against the versioned endpoint with a placement key, user id, IP and user agent returns a JSON `ad` object (creative id, campaign id, window URL and dimensions, curre
@@ -182,9 +182,9 @@ description: TrueX (stylized true[X]) is an interactive, opt-in video advertisin
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truex-media.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: truex-media-mcp.yml
-  slug: truex-media-mcpyml
+- description: Infillion Agent Connector is marketed as an agent-native media execution layer built on the Model Context Protocol, letting AI systems plan, buy and optimize media directly rather than through human w
+  name: Infillion Agent Connector
+  slug: infillion-agent-connector
 modified: '2026-08-12'
 name: Truex Media
 nav: Providers
@@ -208,7 +208,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.2
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -218,12 +218,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 49.0
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/screenshots/truex-media-2026-08-17T082454.png
 security:

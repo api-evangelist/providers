@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 68
 apis:
 - description: The Agent Discovery API from ArthurAI — 2 operation(s) for agent discovery.
@@ -572,8 +572,8 @@ image: https://www.arthur.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: arthurai-mcp.yml
-  slug: arthurai-mcpyml
+  name: ArthurAI MCP Server
+  slug: arthurai-mcp-server
 modified: '2026-07-18'
 name: ArthurAI
 nav: Providers
@@ -594,7 +594,7 @@ scopes:
 score:
   band: developing
   composite: 48.8
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -604,7 +604,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 50.3
+  previous_composite: 48.8
   provenance:
     conformance: derived
     contracts:
@@ -614,8 +614,8 @@ score:
       total: 68
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/screenshots/arthurai-2026-07-25T201328.png
 security:

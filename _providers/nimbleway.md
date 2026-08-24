@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -253,9 +253,9 @@ description: Nimble (Nimbleway) is a real-time web data intelligence platform th
 image: https://logo.clearbit.com/nimbleway.com
 layout: provider
 mcp_servers:
-- description: ''
-  name: nimbleway-mcp.yml
-  slug: nimbleway-mcpyml
+- description: Official Nimble MCP Server. Exposes Nimble's full web data platform (search, extract, map, crawl, structured-data agents) as MCP tools to any compatible AI client. Listed on Azure MCP Center, Databric
+  name: Nimbleway MCP Server
+  slug: nimbleway-mcp-server
 modified: '2026-07-20'
 name: Nimbleway
 nav: Providers
@@ -272,7 +272,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.6
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -282,7 +282,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 59.5
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -293,8 +293,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/screenshots/nimbleway-2026-08-07T185313.png
 security:
@@ -319,6 +319,6 @@ tags:
 - Web Search
 - Proxies
 - AI Agents
-- Model Context Protocol
+- MCP
 website: https://nimbleway.com
 ---

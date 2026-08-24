@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -567,7 +567,7 @@ modified: '2026-05-19'
 name: Microsoft Copilot
 nav: Providers
 network: true
-overview: 'Microsoft Copilot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Change Notifications API, Chat API, Interaction Export API, and 2 more. Tagged areas include Agents, AI Assistant, Artificial Intelligence, Chatbot, and Copilot.
+overview: 'Microsoft Copilot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Change Notifications API, Chat API, Interaction Export API, and 2 more. Tagged areas include Agents, AI Assistant, Artificial Intelligence, Chatbots, and Copilot.
 
 
   The Microsoft Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -612,18 +612,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.1
-  delta: -8.1
+  composite: 50.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 73.7
     developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 58.2
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -631,9 +631,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/screenshots/microsoft-copilot-2026-06-20T185448.png
 security:
 - kind: authentication
@@ -653,11 +653,11 @@ tags:
 - Agents
 - AI Assistant
 - Artificial Intelligence
-- Chatbot
+- Chatbots
 - Copilot
 - Extensibility
 - Generative AI
-- Microsoft 365
+- Microsoft-365
 - Productivity
 use_cases:
 - description: Build applications that retrieve relevant enterprise content from Microsoft 365 while respecting permissions and compliance controls.

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -118,7 +118,7 @@ modified: '2026-05-08'
 name: Bland AI
 nav: Providers
 network: true
-overview: 'Bland AI publishes 1 API on the [APIs.io](https://apis.io/) network: Calls API. Tagged areas include AI, Voice, Agents, Phone, and Realtime.
+overview: 'Bland AI publishes 1 API on the [APIs.io](https://apis.io/) network: Calls API. Tagged areas include Artificial Intelligence, Voice, Agents, Phone, and Real-Time.
 
 
   Bland AI''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.3
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -144,7 +144,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 29.9
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/screenshots/bland-ai-2026-06-20T173346.png
 security:
@@ -171,10 +171,10 @@ security:
   summary_line: security.txt · contact published
 slug: bland-ai
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Agents
 - Phone
-- Realtime
+- Real-Time
 website: https://www.bland.ai/
 ---

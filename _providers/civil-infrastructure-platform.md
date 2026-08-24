@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'The CIP Kernel is a Super Long-Term Support (SLTS) Linux kernel branch maintained for ten or more years, providing a stable base for industrial systems that must remain in service across multi-decade '
@@ -141,7 +141,7 @@ rules:
 score:
   band: emerging
   composite: 20.1
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -151,9 +151,9 @@ score:
     discoverability: 64.8
     governance: 45.5
     operational_transparency: 13.2
-  previous_composite: 17.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/screenshots/civil-infrastructure-platform-2026-06-20T174430.png
 security:
@@ -169,6 +169,6 @@ tags:
 - Linux
 - Linux Foundation
 - Long-Term Support
-- Open Source
+- Open-Source
 website: https://www.cip-project.org/
 ---

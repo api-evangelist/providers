@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API provides spot, margin and futures trading operations
@@ -80,7 +80,7 @@ rules:
 score:
   band: emerging
   composite: 18.4
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,10 +90,10 @@ score:
     discoverability: 57.4
     governance: 11.4
     operational_transparency: 0.0
-  previous_composite: 23.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 18.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gateio/refs/heads/main/screenshots/gateio-2026-06-20T181701.png
 security:
 - kind: domain-security

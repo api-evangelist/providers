@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Govini
 nav: Providers
 network: true
-overview: 'Govini is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Defense, Government, and National Security.
+overview: 'Govini is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Defense, Government, and National Security.
 
 
   Govini''s developer surface includes engineering blog and 6 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 15.0
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -86,7 +86,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 15.0
   provenance:
     conformance: first-party
   regulatory:
@@ -95,8 +95,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govini/refs/heads/main/screenshots/govini-2026-07-25T220136.png
 security:
@@ -107,7 +107,7 @@ security:
 slug: govini
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Defense
 - Government
 - National Security

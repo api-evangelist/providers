@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for retrieving public company org charts, prospecting positions/people, and monitoring credit usage. Metered in credits; authenticated with an X-Api-Key header.
@@ -168,8 +168,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theorg.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: theorg-mcp.yml
-  slug: theorg-mcpyml
+  name: The Org MCP Server
+  slug: the-org-mcp-server
 modified: '2026-08-14'
 name: The Org
 nav: Providers
@@ -195,7 +195,7 @@ scopes:
 score:
   band: developing
   composite: 43.2
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -205,13 +205,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 42.1
+  previous_composite: 43.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/theorg/refs/heads/main/screenshots/theorg-2026-08-17T082341.png
 security:
@@ -239,7 +239,7 @@ tags:
 - MCP
 - Contact Data
 - Lead Generation
-- Jobs
+- Job
 - Agents
 website: https://theorg.com/
 ---

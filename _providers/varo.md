@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Consumer-facing checking-account capability of Varo Bank, N.A., covering fee-free checking, early direct deposit (up to two days early), debit card management, access to 55,000+ Allpoint ATMs, cash de
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.4
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -186,15 +186,15 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 43.1
+  previous_composite: 43.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/varo/refs/heads/main/screenshots/varo-2026-06-20T200822.png
 security:

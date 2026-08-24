@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -330,9 +330,9 @@ jsonld:
   slug: meditech-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: meditech-mcp.yml
-  slug: meditech-mcpyml
+- description: No official MEDITECH-hosted or MEDITECH-published MCP server was found (web search for "MEDITECH Greenfield MCP" / "Model Context Protocol" returns generic healthcare-MCP explainer content, nothing ME
+  name: MEDITECH MCP Server
+  slug: meditech-mcp-server
 modified: '2026-08-14'
 name: MEDITECH
 nav: Providers
@@ -372,7 +372,7 @@ scopes:
 score:
   band: developing
   composite: 50.9
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -382,7 +382,7 @@ score:
     discoverability: 81.5
     governance: 22.0
     operational_transparency: 15.8
-  previous_composite: 53.7
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -399,8 +399,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:

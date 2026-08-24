@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -170,7 +170,7 @@ modified: '2026-05-19'
 name: Node-RED
 nav: Providers
 network: true
-overview: 'Node-RED publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Diagnostics API, Flow API, and 3 more. Tagged areas include Self-Hosted, Workflow Automation, Flow-Based Programming, and IoT.
+overview: 'Node-RED publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Diagnostics API, Flow API, and 3 more. Tagged areas include Self-Hosted, Workflow-Automation, Flow-Based Programming, and IoT.
 
 
   The Node-RED catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -200,7 +200,7 @@ rules:
 score:
   band: thin
   composite: 35.9
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -210,7 +210,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 41.3
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -218,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/screenshots/node-red-2026-06-20T190350.png
 security:
 - kind: authentication
@@ -234,7 +234,7 @@ security:
 slug: node-red
 tags:
 - Self-Hosted
-- Workflow Automation
+- Workflow-Automation
 - Flow-Based Programming
 - IoT
 website: https://nodered.org

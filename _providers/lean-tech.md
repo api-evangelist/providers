@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -434,18 +434,18 @@ rules:
   slug: lean-tech-rules
 score:
   band: developing
-  composite: 52.1
-  delta: -2.1
+  composite: 52.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 58.2
     developer_ergonomics: 61.9
     discoverability: 59.3
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 47.4
-  previous_composite: 54.2
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -459,8 +459,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/screenshots/lean-tech-2026-06-20T184402.png
 security:
@@ -492,7 +492,7 @@ tags:
 - A2A
 - Account Information
 - Payment Initiation
-- Verifications
+- Verification
 - Identity
 - Fintech
 website: https://www.leantech.me

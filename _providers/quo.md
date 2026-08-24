@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 9
 apis:
 - description: Operations related to calls
@@ -181,14 +181,14 @@ description: Quo (formerly OpenPhone) is an AI-powered business communication pl
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: quo-mcp.yml
-  slug: quo-mcpyml
+- description: Candidate Model Context Protocol tool surface derived from the Quo Public API v1 OpenAPI operations. Quo markets a "Quo MCP" capability on quo.com, but no hosted/remote MCP server endpoint or manifest
+  name: Quo API MCP (candidate)
+  slug: quo-api-mcp-candidate
 modified: '2026-07-20'
 name: Quo
 nav: Providers
 network: true
-overview: 'Quo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Contact Custom Fields API, Contacts API, and 6 more. Tagged areas include Company, Communication, Messaging, SMS, and Voice.
+overview: 'Quo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Contact Custom Fields API, Contacts API, and 6 more. Tagged areas include Company, Communications, Messaging, SMS, and Voice.
 
 
   The Quo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -199,7 +199,7 @@ random_paper: 5
 score:
   band: developing
   composite: 51.4
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 47.6
+  previous_composite: 51.4
   provenance:
     conformance: derived
     contracts:
@@ -225,8 +225,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/screenshots/quo-2026-08-17T081432.png
 security:
@@ -245,12 +245,11 @@ security:
 slug: quo
 tags:
 - Company
-- Communication
+- Communications
 - Messaging
 - SMS
 - Voice
 - Contacts
-- Webhooks
-- API
+- Webhook
 website: https://quo.com
 ---

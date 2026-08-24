@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 223
   human_in_the_loop: 6
@@ -356,7 +356,7 @@ modified: '2026-05-19'
 name: Logto
 nav: Providers
 network: true
-overview: 'Logto publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Account center API, Applications API, Audit logs API, and 36 more. Tagged areas include Authentication, Authorization, Identity, OIDC, and OAuth.
+overview: 'Logto publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Account center API, Applications API, Audit logs API, and 36 more. Tagged areas include Authentication, Authorization, Identity, OIDC, and SAML.
 
 
   Logto''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
@@ -377,7 +377,7 @@ scopes:
 score:
   band: thin
   composite: 31.8
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -387,7 +387,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 32.1
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -395,8 +395,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logto/refs/heads/main/screenshots/logto-2026-06-20T184700.png
 security:
@@ -414,8 +414,7 @@ tags:
 - Authorization
 - Identity
 - OIDC
-- OAuth
 - SAML
-- Open Source
+- Open-Source
 website: https://logto.io
 ---

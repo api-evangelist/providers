@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The org audit shortcut.
@@ -194,8 +194,8 @@ image: https://salesgraph.com/opengraph-image
 layout: provider
 mcp_servers:
 - description: ''
-  name: salesgraph-mcp.yml
-  slug: salesgraph-mcpyml
+  name: Salesgraph MCP Server
+  slug: salesgraph-mcp-server
 modified: '2026-08-13'
 name: Salesgraph
 nav: Providers
@@ -216,7 +216,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.3
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 36.9
+  previous_composite: 36.3
   provenance:
     conformance: derived
     contracts:
@@ -236,8 +236,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -612,13 +612,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: common-room-mcp.yml
-  slug: common-room-mcpyml
+  name: Common Room MCP Server
+  slug: common-room-mcp-server
 modified: '2026-08-13'
 name: Common Room
 nav: Providers
 network: true
-overview: 'Common Room publishes 23 APIs on the [APIs.io](https://apis.io/) network, including SCIM API, Activities API, Contacts API, and 20 more. Tagged areas include Community Intelligence, Go-to-Market, Member Signals, GitHub, and Slack.
+overview: 'Common Room publishes 23 APIs on the [APIs.io](https://apis.io/) network, including SCIM API, Activities API, Contacts API, and 20 more. Tagged areas include Community Intelligence, Go-To-Market, Member Signals, GitHub, and Slack.
 
 
   The Common Room catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -653,7 +653,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.1
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -663,7 +663,7 @@ score:
     discoverability: 92.6
     governance: 40.2
     operational_transparency: 23.7
-  previous_composite: 75.2
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -674,9 +674,9 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/screenshots/common-room-2026-06-20T174819.png
 security:
 - kind: authentication
@@ -698,7 +698,7 @@ security:
 slug: common-room
 tags:
 - Community Intelligence
-- Go-to-Market
+- Go-To-Market
 - Member Signals
 - GitHub
 - Slack
@@ -706,7 +706,7 @@ tags:
 - LinkedIn
 - Sales Intelligence
 - Contact Management
-- Webhooks
+- Webhook
 - Buyer Intelligence
 - MCP
 - Agent Tooling

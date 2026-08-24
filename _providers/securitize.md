@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 64
@@ -198,13 +198,13 @@ image: https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c
 layout: provider
 mcp_servers:
 - description: ''
-  name: securitize-mcp.yml
-  slug: securitize-mcpyml
+  name: Securitize Connector
+  slug: securitize-connector
 modified: '2026-08-05'
 name: Securitize
 nav: Providers
 network: true
-overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APAC API, Domains API, Health Check API, and 2 more. Tagged areas include tokenization, digital-securities, real-world-assets, capital-markets, and fund-administration.
+overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APAC API, Domains API, Health Check API, and 2 more. Tagged areas include Tokenization, Digital Securities, Real World Assets, Capital Markets, and Fund Administration.
 
 
   The Securitize catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -220,7 +220,7 @@ scopes:
 score:
   band: developing
   composite: 45.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -230,7 +230,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 45.3
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,8 +247,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/screenshots/securitize-2026-08-17T081751.png
 security:
@@ -266,19 +266,19 @@ security:
   summary_line: contact published
 slug: securitize
 tags:
-- tokenization
-- digital-securities
-- real-world-assets
-- capital-markets
-- fund-administration
-- transfer-agent
-- kyc
-- aml
-- identity-verification
-- blockchain
-- broker-dealer
-- private-credit
-- mcp
-- webhooks
+- Tokenization
+- Digital Securities
+- Real World Assets
+- Capital Markets
+- Fund Administration
+- Transfer Agent
+- KYC
+- AML
+- Identity Verification
+- Blockchain
+- Broker-Dealer
+- Private Credit
+- MCP
+- Webhook
 website: https://securitize.io/
 ---

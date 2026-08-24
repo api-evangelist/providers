@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -205,13 +205,13 @@ image: https://www.curseforge.com/images/mods/logos/curseforge.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: curse-mcp.yml
-  slug: curse-mcpyml
+  name: Curse MCP Server
+  slug: curse-mcp-server
 modified: '2026-07-18'
 name: Curse
 nav: Providers
 network: true
-overview: 'Curse publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Files API, Fingerprints API, and 4 more. Tagged areas include Company, Gaming, Mods, Minecraft, and Game Content.
+overview: 'Curse publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Files API, Fingerprints API, and 4 more. Tagged areas include Company, Gaming, MODS, Minecraft, and Game Content.
 
 
   Curse''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
@@ -219,7 +219,7 @@ random_paper: 0
 score:
   band: developing
   composite: 44.7
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -229,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 43.8
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,8 +240,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/screenshots/curse-2026-07-25T210958.png
 security:
@@ -261,7 +261,7 @@ slug: curse
 tags:
 - Company
 - Gaming
-- Mods
+- MODS
 - Minecraft
 - Game Content
 - Developer Platform

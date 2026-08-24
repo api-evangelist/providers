@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST + GraphQL API for TokenBot copy-trading — manage exchange accounts, strategies, copiers, trades, notifications, rewards, withdrawals, API keys, and webhooks. API-key or secp256k1 signed-request a
@@ -166,9 +166,9 @@ description: Mammoth Media is a Greylock-backed consumer technology company whos
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mammoth-media.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: mammoth-media-mcp.yml
-  slug: mammoth-media-mcpyml
+- description: The TokenBot MCP server lets AI assistants interact with the TokenBot platform — exchanges, strategies, copiers, trades, and user context — as MCP tools, plus read-only resources and guided prompts.
+  name: Mammoth Media MCP Server
+  slug: mammoth-media-mcp-server
 modified: '2026-07-20'
 name: Mammoth Media
 nav: Providers
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.7
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -198,7 +198,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 48.9
+  previous_composite: 47.7
   provenance:
     conformance: derived
     mcp: first-party
@@ -209,8 +209,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/screenshots/mammoth-media-2026-07-25T230015.png
 security:
@@ -230,7 +230,7 @@ tags:
 - Trading
 - Copy Trading
 - Fintech
-- Webhooks
+- Webhook
 - MCP
 - Developer Tools
 - CLI

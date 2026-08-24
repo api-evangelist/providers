@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Lightcone API by Tzafon provides cloud browser and desktop computers operated by AI. It spans an agent Tasks API (start, stream, pause, resume, inject messages) driven by the Northstar computer-us
@@ -151,8 +151,8 @@ image: https://docs.lightcone.ai/og-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: tzafon-mcp.yml
-  slug: tzafon-mcpyml
+  name: Tzafon MCP Server
+  slug: tzafon-mcp-server
 modified: '2026-07-21'
 name: Tzafon
 nav: Providers
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.2
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -179,12 +179,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 36.1
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

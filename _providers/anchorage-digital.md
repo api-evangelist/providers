@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -302,9 +302,9 @@ description: Anchorage Digital is a regulated digital-asset platform for institu
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anchorage-digital.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: anchorage-digital-mcp.yml
-  slug: anchorage-digital-mcpyml
+- description: Anchorage Agentic Banking exposes a hosted MCP server that lets an AI agent, once linked via OAuth consent from the Agents page at agentic.anchorage.com, execute payments against pre-authorized budget
+  name: Anchorage Agentic Banking
+  slug: anchorage-agentic-banking
 modified: '2026-07-17'
 name: Anchorage Digital
 nav: Providers
@@ -324,7 +324,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.1
-  delta: -8.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -334,7 +334,7 @@ score:
     discoverability: 68.5
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 50.8
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,9 +351,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage-digital/refs/heads/main/screenshots/anchorage-digital-2026-07-25T200222.png
 security:
 - kind: authentication

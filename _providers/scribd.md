@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-21'
 name: Scribd
 nav: Providers
 network: true
-overview: 'Scribd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Documents, eBooks, Audiobooks, and Publishing.
+overview: 'Scribd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Documents, Ebooks, Audiobooks, and Publishing.
 
 
   Scribd''s developer surface includes documentation, support, engineering blog, pricing, and 9 more developer resources.'
@@ -100,7 +100,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 15.1
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -110,10 +110,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 15.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Scribd Domain Security
@@ -123,7 +123,7 @@ slug: scribd
 tags:
 - Company
 - Documents
-- eBooks
+- Ebooks
 - Audiobooks
 - Publishing
 - Content

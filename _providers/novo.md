@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ modified: '2026-07-23'
 name: Novo
 nav: Providers
 network: true
-overview: 'Novo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Neobank, and Small Business Banking.
+overview: 'Novo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Neobank, and Small Business Banking.
 
 
   Novo''s developer surface includes support, engineering blog, documentation, signup flow, getting-started guide, and 8 more developer resources.'
@@ -91,7 +91,7 @@ random_paper: 9
 score:
   band: emerging
   composite: 20.4
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -101,15 +101,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.4
+  previous_composite: 20.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novo/refs/heads/main/screenshots/novo-2026-08-07T185621.png
 security:
@@ -123,7 +123,7 @@ security:
   summary_line: SOC 2
 slug: novo
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Neobank

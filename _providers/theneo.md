@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ modified: '2026-05-22'
 name: Theneo
 nav: Providers
 network: true
-overview: 'Theneo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Import API, Projects API, Publishing API, and 2 more. Tagged areas include API Documentation, Developer Portal, Developer Tools, Documentation Platform, and AI.
+overview: 'Theneo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Import API, Projects API, Publishing API, and 2 more. Tagged areas include API Documentation, Developer Portal, Developer Tools, Documentation Platform, and Artificial Intelligence.
 
 
   The Theneo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -250,7 +250,7 @@ rules:
 score:
   band: developing
   composite: 45.7
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -260,7 +260,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 52.0
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -268,9 +268,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/screenshots/theneo-2026-06-20T195249.png
 security:
 - kind: authentication
@@ -291,8 +291,8 @@ tags:
 - Developer Portal
 - Developer Tools
 - Documentation Platform
-- AI
-- AI Co-Pilot
+- Artificial Intelligence
+- AI Copilot
 - MCP
 - Platform
 ---

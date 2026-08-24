@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Stable REST API over the Adsmom ad index. 78 operations across Explore (list, hydrate and detail Meta/TikTok/Google/LinkedIn ads, plus reach and impression timeseries and point-in-time snapshots), Ins
@@ -155,8 +155,8 @@ image: https://adsmom.com/og-default.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: adsmom-inc-mcp.yml
-  slug: adsmom-inc-mcpyml
+  name: Adsmom Inc. MCP Server
+  slug: adsmom-inc-mcp-server
 modified: '2026-08-13'
 name: Adsmom Inc.
 nav: Providers
@@ -182,7 +182,7 @@ scopes:
 score:
   band: developing
   composite: 44.1
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -192,14 +192,14 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 50.3
+  previous_composite: 44.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png
 security:
 - kind: authentication
@@ -217,13 +217,13 @@ tags:
 - Ad Intelligence
 - Competitive Intelligence
 - Marketing
-- AI
+- Artificial Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 - OpenAPI
 - REST
 - Analytics
-- Social Media
-- Agent Native
+- Social-Media
+- agent-native
 website: https://adsmom.com
 ---

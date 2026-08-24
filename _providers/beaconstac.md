@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API (v2.0) to programmatically create static and dynamic QR Codes across 20+ campaign types, apply design templates, generate codes in bulk from CSV/XLSX, manage Digital Business Cards, leads and
@@ -201,8 +201,8 @@ image: https://cdn.prod.website-files.com/6669ecc72092c5122374cf32/6731094d55afb
 layout: provider
 mcp_servers:
 - description: ''
-  name: beaconstac-mcp.yml
-  slug: beaconstac-mcpyml
+  name: Beaconstac MCP Server
+  slug: beaconstac-mcp-server
 modified: '2026-08-13'
 name: Beaconstac
 nav: Providers
@@ -231,7 +231,7 @@ scopes:
 score:
   band: strong
   composite: 59.8
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -241,7 +241,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 59.9
+  previous_composite: 59.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -252,8 +252,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/screenshots/beaconstac-2026-07-25T202531.png
 security:
@@ -277,9 +277,9 @@ tags:
 - Digital Business Cards
 - Marketing
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Proximity
-- Webhooks
+- Webhook
 - MCP
 website: https://www.uniqode.com
 ---

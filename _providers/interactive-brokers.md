@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ modified: '2026-05-29'
 name: Interactive Brokers
 nav: Providers
 network: true
-overview: 'Interactive Brokers publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contracts API, Market Data API, and 3 more. Tagged areas include Brokerage, Market Data, Orders, Portfolio, and Trading.
+overview: 'Interactive Brokers publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contracts API, Market Data API, and 3 more. Tagged areas include Brokerage, Market Data, Order, Portfolio, and Trading.
 
 
   The Interactive Brokers catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -180,7 +180,7 @@ scopes:
 score:
   band: thin
   composite: 36.2
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -190,7 +190,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 41.3
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -204,9 +204,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 46.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png
 security:
 - kind: authentication
@@ -221,7 +221,7 @@ slug: interactive-brokers
 tags:
 - Brokerage
 - Market Data
-- Orders
+- Order
 - Portfolio
 - Trading
 website: https://www.interactivebrokers.com/

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -242,8 +242,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digio.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: digio-mcp.yml
-  slug: digio-mcpyml
+  name: Digio MCP Server
+  slug: digio-mcp-server
 modified: '2026-06-20'
 name: Digio
 nav: Providers
@@ -267,7 +267,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.3
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -277,7 +277,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 62.0
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,9 +288,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png
 security:
 - kind: authentication

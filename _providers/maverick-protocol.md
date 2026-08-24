@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Latest API from Maverick Protocol — 1 operation(s) for latest.
@@ -100,9 +100,9 @@ description: Maverick Protocol is a decentralized exchange (DEX) and automated m
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maverick-protocol.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: maverick-protocol-mcp.yml
-  slug: maverick-protocol-mcpyml
+- description: Candidate MCP tool surface mapped 1:1 from the documented Maverick V2 Data API. Not an official Maverick MCP server; a derivation for evaluation.
+  name: Maverick V2 Data (candidate)
+  slug: maverick-v2-data-candidate
 modified: '2026-07-20'
 name: Maverick Protocol
 nav: Providers
@@ -115,7 +115,7 @@ random_paper: 13
 score:
   band: emerging
   composite: 25.9
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -125,7 +125,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 30.1
+  previous_composite: 25.9
   provenance:
     contracts:
       callable: 100.0
@@ -140,8 +140,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/screenshots/maverick-protocol-2026-08-07T172331.png
 security:

@@ -27,10 +27,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 46.3
-  scored_at: '2026-08-19'
+  score: 49.7
+  scored_at: '2026-08-24'
 api_count: 22
 apis:
 - description: The agents API from Paid — 3 operation(s) for agents.
@@ -297,13 +297,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paid.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: paid-mcp.yml
-  slug: paid-mcpyml
+  name: Paid MCP Server
+  slug: paid-mcp-server
 modified: '2026-07-20'
 name: Paid
 nav: Providers
 network: true
-overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, including agents API, analyticsExperimental API, checkouts API, and 19 more. Tagged areas include Company, AI, Billing, Monetization, and Payments.
+overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, including agents API, analyticsExperimental API, checkouts API, and 19 more. Tagged areas include Company, Artificial Intelligence, Billing, Monetization, and Payments.
 
 
   The Paid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -313,18 +313,18 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 15
 score:
   band: developing
-  composite: 52.7
-  delta: 1.9
+  composite: 53.9
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
     contract_quality: 65.6
     developer_ergonomics: 81.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 50.8
+  previous_composite: 53.9
   provenance:
     conformance: derived
     contracts:
@@ -340,8 +340,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/screenshots/paid-2026-08-07T191309.png
 security:
@@ -356,7 +356,7 @@ security:
 slug: paid
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Billing
 - Monetization
 - Payments

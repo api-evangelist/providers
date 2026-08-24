@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The ARC Data Report Tool provides state- and county-level data for the entire Appalachian Region across six topic areas comparing Appalachian data with national averages. Data covers economic, demogra
@@ -80,7 +80,7 @@ modified: '2026-04-19'
 name: Appalachian Regional Commission
 nav: Providers
 network: true
-overview: 'Appalachian Regional Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Appalachia, Economic Development, Federal Government, Government, and Infrastructure.
+overview: 'Appalachian Regional Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Appalachia, Economic Development, Federal-Government, Government, and Infrastructure.
 
 
   Appalachian Regional Commission''s developer surface includes engineering blog, documentation, developer portal, and 2 more developer resources.'
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 12.8
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -106,15 +106,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 13.6
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/screenshots/appalachian-regional-commission-2026-06-20T172312.png
 security:
@@ -126,7 +126,7 @@ slug: appalachian-regional-commission
 tags:
 - Appalachia
 - Economic Development
-- Federal Government
+- Federal-Government
 - Government
 - Infrastructure
 - Regional Development

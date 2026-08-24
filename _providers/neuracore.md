@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST backend for the Neuracore robot-learning platform, consumed by the official Neuracore Python SDK and CLI. Handles authentication, organizations, datasets, training runs and policy inference. Auth
@@ -109,7 +109,7 @@ modified: '2026-07-20'
 name: Neuracore
 nav: Providers
 network: true
-overview: 'Neuracore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Robot Learning, Machine Learning, and Imitation Learning.
+overview: 'Neuracore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Robot Learning, Machine-Learning, and Imitation Learning.
 
 
   Neuracore''s developer surface includes documentation, getting-started guide, pricing, signup flow, CLI, authentication, changelog, and 9 more developer resources.'
@@ -117,7 +117,7 @@ random_paper: 19
 score:
   band: emerging
   composite: 23.7
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -127,9 +127,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 25.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 23.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/screenshots/neuracore-2026-08-07T185013.png
 security:
@@ -146,7 +146,7 @@ tags:
 - Company
 - Robotics
 - Robot Learning
-- Machine Learning
+- Machine-Learning
 - Imitation Learning
 - Reinforcement Learning
 - Teleoperation

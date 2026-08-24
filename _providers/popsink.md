@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -285,8 +285,8 @@ image: https://cdn.prod.website-files.com/68c803b0497f18f5503b81d9/68c84fa4ed5fa
 layout: provider
 mcp_servers:
 - description: ''
-  name: popsink-mcp.yml
-  slug: popsink-mcpyml
+  name: Popsink MCP Server
+  slug: popsink-mcp-server
 modified: '2026-07-20'
 name: Popsink
 nav: Providers
@@ -299,7 +299,7 @@ random_paper: 16
 score:
   band: developing
   composite: 43.2
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -309,7 +309,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 47.1
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,8 +320,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/screenshots/popsink-2026-08-17T081318.png
 security:

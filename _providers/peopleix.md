@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The hosted, remote Model Context Protocol server through which peopleIX exposes a customer's People Intelligence knowledge layer to agents such as Claude, ChatGPT and Copilot. A JSON-RPC POST to https
@@ -127,8 +127,8 @@ image: https://www.peopleix.com/opengraph-image
 layout: provider
 mcp_servers:
 - description: ''
-  name: peopleix-mcp.yml
-  slug: peopleix-mcpyml
+  name: peopleIX MCP
+  slug: peopleix-mcp
 modified: '2026-08-14'
 name: Peopleix
 nav: Providers
@@ -154,7 +154,7 @@ scopes:
 score:
   band: emerging
   composite: 21.6
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -164,12 +164,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 24.0
+  previous_composite: 21.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -193,7 +193,7 @@ tags:
 - Conversation Intelligence
 - Human Resources
 - Workforce Analytics
-- AI
+- Artificial Intelligence
 - MCP
 - Germany
 website: https://www.peopleix.com

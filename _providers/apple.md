@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -593,7 +593,7 @@ modified: '2026-05-19'
 name: Apple
 nav: Providers
 network: true
-overview: 'Apple publishes 3 APIs on the [APIs.io](https://apis.io/) network: Apps API, Beta Testers API, and Builds API. Tagged areas include Developer, iOS, macOS, Mobile, and Technology.
+overview: 'Apple publishes 3 APIs on the [APIs.io](https://apis.io/) network: Apps API, Beta Testers API, and Builds API. Tagged areas include Developers, iOS, macOS, Mobile, and Technology.
 
 
   The Apple catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -649,18 +649,18 @@ rules:
   slug: apple-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: -7.1
+  composite: 52.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 77.7
     developer_ergonomics: 40.5
     discoverability: 63.0
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 59.3
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -668,9 +668,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png
 security:
 - kind: authentication
@@ -687,7 +687,7 @@ security:
   summary_line: security.txt · contact published
 slug: apple
 tags:
-- Developer
+- Developers
 - iOS
 - macOS
 - Mobile

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: REST API described on the public Rentsync Partners portal (branded "LIFT System API") as giving partners "access to the underlying data structures of the LIFT System" with "detailed Canadian rental in
@@ -94,7 +94,7 @@ modified: '2026-07-26'
 name: Rentals.ca
 nav: Providers
 network: true
-overview: 'Rentals.ca publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Canada, Rentals, Property Listings, and Rental Marketplace.
+overview: 'Rentals.ca publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Canada, Rentals, Property Listings, and Rental Marketplace.
 
 
   Rentals.ca''s developer surface includes developer portal, signup flow, engineering blog, documentation, and 9 more developer resources.'
@@ -102,7 +102,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 15.2
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -112,16 +112,16 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.5
+  previous_composite: 15.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Rentals Ca Domain Security
@@ -129,7 +129,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: rentals-ca
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Rentals
 - Property Listings

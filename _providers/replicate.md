@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -399,7 +399,7 @@ modified: '2026-05-29'
 name: Replicate
 nav: Providers
 network: true
-overview: 'Replicate publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Cancel API, Collections API, and 13 more. Tagged areas include Artificial Intelligence, Machine Learning, Image Generation, Language Models, and Model Deployment.
+overview: 'Replicate publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Cancel API, Collections API, and 13 more. Tagged areas include Artificial Intelligence, Machine-Learning, Image-Generation, Language Models, and Model Deployment.
 
 
   The Replicate catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -450,18 +450,18 @@ rules:
   slug: replicate-rules
 score:
   band: strong
-  composite: 54.4
-  delta: -7.0
+  composite: 54.7
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 73.6
     developer_ergonomics: 56.0
     discoverability: 72.2
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 61.4
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -469,9 +469,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/screenshots/replicate-2026-06-20T192926.png
 security:
 - kind: authentication
@@ -501,8 +501,8 @@ skills:
 slug: replicate
 tags:
 - Artificial Intelligence
-- Machine Learning
-- Image Generation
+- Machine-Learning
+- Image-Generation
 - Language Models
 - Model Deployment
 website: https://replicate.com

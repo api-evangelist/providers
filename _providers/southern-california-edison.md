@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: SCE's Customer Data Access (CDA) platform, through which a customer can authorize a registered third party to receive their electric usage and billing data. SCE states on its public third-party page t
@@ -147,7 +147,7 @@ random_paper: 1
 score:
   band: thin
   composite: 32.4
-  delta: 4.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -157,7 +157,7 @@ score:
     discoverability: 77.8
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 27.5
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
@@ -172,8 +172,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

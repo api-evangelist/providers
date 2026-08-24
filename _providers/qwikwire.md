@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'The Aqwire Connect (Access) API is a developer-facing payments API that lets merchants integrate their application with Aqwire to create cross-border payment transactions. The reference documentation '
@@ -84,7 +84,7 @@ modified: '2026-07-20'
 name: Qwikwire
 nav: Providers
 network: true
-overview: 'Qwikwire publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Cross-Border Payments, Real Estate, and FinTech.
+overview: 'Qwikwire publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Cross-Border Payments, Real-Estate, and Fintech.
 
 
   Qwikwire''s developer surface includes API reference, signup flow, support, and 7 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 1
 score:
   band: minimal
   composite: 10.4
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -102,16 +102,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.3
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Qwikwire Domain Security
@@ -122,8 +122,8 @@ tags:
 - Company
 - Payments
 - Cross-Border Payments
-- Real Estate
-- FinTech
+- Real-Estate
+- Fintech
 - Philippines
 - Multi-Currency
 - Remittance

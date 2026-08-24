@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Schemathesis is a property-based API testing tool that automatically generates test cases from OpenAPI and GraphQL schemas to find bugs and spec violations. It detects server crashes, schema violation
@@ -148,7 +148,7 @@ rules:
 score:
   band: emerging
   composite: 21.1
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -158,10 +158,10 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 26.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 21.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schemathesis/refs/heads/main/screenshots/schemathesis-2026-06-20T193520.png
 security:
 - kind: domain-security

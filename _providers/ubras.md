@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface of the ubras.com Shopify storefront: a live storefront MCP endpoint (catalog search, cart, product details, policy FAQs), a Universal Commerce Protocol shopping service w'
@@ -98,14 +98,14 @@ description: 'Ubras is a Chinese direct-to-consumer intimate apparel brand best 
 image: https://ubras.com/cdn/shop/files/20220928-174018.jpg?v=1664358034
 layout: provider
 mcp_servers:
-- description: ''
-  name: ubras-mcp.yml
-  slug: ubras-mcpyml
+- description: Ubras's international Shopify storefront (ubras.com) exposes two live, provider-published MCP surfaces. (1) The Shopify storefront MCP at https://ubras.com/api/mcp answers JSON-RPC tools/list unauthen
+  name: Ubras MCP Server
+  slug: ubras-mcp-server
 modified: '2026-07-21'
 name: Ubras
 nav: Providers
 network: true
-overview: 'Ubras publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, eCommerce, and Apparel.
+overview: 'Ubras publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-Commerce, and Apparel.
 
 
   Ubras'' developer surface includes documentation, support, engineering blog, authentication, and 10 more developer resources.'
@@ -113,7 +113,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 22.1
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -123,12 +123,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.0
+  previous_composite: 22.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -144,10 +144,10 @@ tags:
 - Company
 - Consumer
 - Retail
-- eCommerce
+- E-Commerce
 - Apparel
 - Intimate Apparel
-- Direct-to-Consumer
+- Direct to Consumer
 - Agentic Commerce
 website: https://ubras.com
 ---

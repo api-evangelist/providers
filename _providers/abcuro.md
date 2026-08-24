@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -217,13 +217,13 @@ image: https://abcuro.com/wp-content/uploads/Abcuro_logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: abcuro-mcp.yml
-  slug: abcuro-mcpyml
+  name: Abcuro MCP Server
+  slug: abcuro-mcp-server
 modified: '2026-08-02'
 name: Abcuro
 nav: Providers
 network: true
-overview: 'Abcuro publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Careers API, Comments API, Discovery API, and 9 more. Tagged areas include biotechnology, pharmaceuticals, immunology, autoimmune-disease, and oncology.
+overview: 'Abcuro publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Careers API, Comments API, Discovery API, and 9 more. Tagged areas include Biotechnology, Pharmaceuticals, Immunology, Autoimmune Disease, and Oncology.
 
 
   Abcuro''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 21 more developer resources.'
@@ -231,7 +231,7 @@ random_paper: 6
 score:
   band: thin
   composite: 27.4
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 25.9
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,8 +258,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/screenshots/abcuro-2026-08-07T160734.png
 security:
@@ -273,16 +273,16 @@ security:
   summary_line: TLSv1.2 · DMARC
 slug: abcuro
 tags:
-- biotechnology
-- pharmaceuticals
-- immunology
-- autoimmune-disease
-- oncology
-- clinical-trials
-- life-sciences
-- drug-development
-- healthcare
+- Biotechnology
+- Pharmaceuticals
+- Immunology
+- Autoimmune Disease
+- Oncology
+- Clinical Trials
+- Life Sciences
+- Drug Development
+- Healthcare
 - content-api
-- wordpress
+- WordPress
 website: https://abcuro.com/
 ---

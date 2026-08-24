@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: The CFF schema defines the structure of a CITATION.cff file in YAML, including required cff-version, message, and authors fields plus optional version, doi, license, repository-code, preferred-citatio
@@ -165,7 +165,7 @@ rules:
 score:
   band: emerging
   composite: 19.7
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -175,16 +175,16 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 13.2
-  previous_composite: 27.3
+  previous_composite: 19.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/screenshots/citation-cff-2026-06-20T174407.png
 security:
 - kind: domain-security

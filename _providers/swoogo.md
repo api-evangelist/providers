@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ modified: '2026-07-05'
 name: Swoogo
 nav: Providers
 network: true
-overview: 'Swoogo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contacts API, Events API, and 3 more. Tagged areas include Event Management, Event Registration, Events, Sessions, and Speakers.
+overview: 'Swoogo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contacts API, Events API, and 3 more. Tagged areas include Event Management, Event Registration, Event, Sessions, and Speakers.
 
 
   Swoogo''s developer surface includes authentication, documentation, signup flow, and 11 more developer resources.'
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.6
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -179,7 +179,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 44.7
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/screenshots/swoogo-2026-08-17T082218.png
 security:
@@ -212,10 +212,10 @@ slug: swoogo
 tags:
 - Event Management
 - Event Registration
-- Events
+- Event
 - Sessions
 - Speakers
 - Attendees
-- SaaS
+- Software-as-a-Service
 website: https://swoogo.events
 ---

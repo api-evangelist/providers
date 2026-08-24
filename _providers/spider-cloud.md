@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -204,13 +204,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spider-clo
 layout: provider
 mcp_servers:
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Spider MCP Server
+  slug: spider-mcp-server
 modified: '2026-05-25'
 name: Spider
 nav: Providers
 network: true
-overview: 'Spider publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Crawling API, Data API, Fetch API, and 6 more. Tagged areas include Crawling, Scraping, Data Extraction, URLs, and AI.
+overview: 'Spider publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Crawling API, Data API, Fetch API, and 6 more. Tagged areas include Crawling, Scraping, Data Extraction, URLs, and Artificial Intelligence.
 
 
   Spider''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 16 more developer resources.'
@@ -226,7 +226,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.7
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -236,7 +236,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 50.8
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -244,8 +244,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/screenshots/spider-cloud-2026-06-20T194311.png
 security:
@@ -263,7 +263,7 @@ tags:
 - Scraping
 - Data Extraction
 - URLs
-- AI
+- Artificial Intelligence
 - Markdown
 - MCP
 - Rust

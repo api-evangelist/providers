@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -185,8 +185,8 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: evari-mcp.yml
-  slug: evari-mcpyml
+  name: Evari MCP Server
+  slug: evari-mcp-server
 modified: '2026-07-25'
 name: Evari
 nav: Providers
@@ -203,7 +203,7 @@ random_paper: 10
 score:
   band: developing
   composite: 51.1
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -213,7 +213,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 49.5
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -230,8 +230,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png
 security:
@@ -261,7 +261,7 @@ tags:
 - Property and Casualty
 - Underwriting
 - Claims
-- Broker
+- Brokers
 - MGA
 - Artificial Intelligence
 - Quoting

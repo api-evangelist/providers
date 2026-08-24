@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Kleio platform API, served from api.kleio.ai behind a Google Cloud API Gateway and protected by OAuth 2.0 authorization-code + PKCE against an Auth0 tenant at auth.kleio.ai. Kleio publishes no pub
@@ -155,6 +155,7 @@ scopes:
 score:
   band: emerging
   composite: 20.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -164,11 +165,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
+  previous_composite: 20.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Kleio Authentication
@@ -187,11 +190,11 @@ tags:
 - Enterprise Sales
 - Conversational AI
 - Knowledge Engine
-- Model Context Protocol
-- Agent To Agent
+- MCP
+- Agent-to-Agent
 - Retail
 - Travel
-- Real Estate
+- Real-Estate
 - Automotive
 - France
 website: https://www.kleio.ai/

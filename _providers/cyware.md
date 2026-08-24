@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 35
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
@@ -379,13 +379,13 @@ image: https://www.cyware.com/assets/images/cyware.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: cyware-mcp.yml
-  slug: cyware-mcpyml
+  name: Cyware MCP Server
+  slug: cyware-mcp-server
 modified: '2026-08-04'
 name: Cyware
 nav: Providers
 network: true
-overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Allowed Indicators API, Analytics API, and 31 more. Tagged areas include threat-intelligence, cyber-threat-intelligence, cybersecurity, security-operations, and threat-intelligence-platform.
+overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Allowed Indicators API, Analytics API, and 31 more. Tagged areas include Threat Intelligence, cyber-threat-intelligence, Cybersecurity, Security Operations, and Threat Intelligence Platform.
 
 
   The Cyware catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -400,7 +400,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.0
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -410,7 +410,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 55.8
+  previous_composite: 57.0
   provenance:
     conformance: first-party
     contracts:
@@ -420,8 +420,8 @@ score:
       total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/screenshots/cyware-2026-08-07T164015.png
 security:
@@ -439,21 +439,21 @@ security:
   summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, VPAT / Section 508, Privacy Shield
 slug: cyware
 tags:
-- threat-intelligence
+- Threat Intelligence
 - cyber-threat-intelligence
-- cybersecurity
-- security-operations
-- threat-intelligence-platform
-- stix
-- taxii
+- Cybersecurity
+- Security Operations
+- Threat Intelligence Platform
+- STIX
+- TAXII
 - mitre-attack
-- soar
-- security-orchestration
-- incident-response
+- SOAR
+- Security Orchestration
+- Incident Response
 - threat-intelligence-sharing
 - isac
-- indicators-of-compromise
-- mcp
-- agentic-ai
+- Indicators of Compromise
+- MCP
+- Agentic AI
 website: https://www.cyware.com/
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -275,9 +275,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-office.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: microsoft-office-mcp.yml
-  slug: microsoft-office-mcpyml
+- description: Microsoft ships an official Model Context Protocol server for Microsoft Graph (the API surface behind this Office 365 collection). "Microsoft MCP Server for Enterprise" is a read-only, RAG-assisted se
+  name: Microsoft MCP Server for Enterprise
+  slug: microsoft-mcp-server-for-enterprise
 modified: '2026-06-20'
 name: Microsoft Office
 nav: Providers
@@ -303,7 +303,7 @@ scopes:
 score:
   band: developing
   composite: 48.1
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -313,7 +313,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 49.7
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,8 +323,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/screenshots/microsoft-office-2026-06-20T185511.png
 security:

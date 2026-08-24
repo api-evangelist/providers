@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Trend platform API — the NestJS backend behind app.trend.io and the Trend creator app. It exposes 124 operations across brand accounts and approvals, campaign creation/submission/relisting, creato
@@ -145,13 +145,13 @@ image: https://cdn.prod.website-files.com/62c13e3f6b73683c91c0df7c/649ae4e9626c0
 layout: provider
 mcp_servers:
 - description: ''
-  name: trend-mcp.yml
-  slug: trend-mcpyml
+  name: Trend MCP Server
+  slug: trend-mcp-server
 modified: '2026-08-13'
 name: Trend
 nav: Providers
 network: true
-overview: 'Trend publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, User-Generated Content, Creator Economy, Content Marketing, and Video Production.
+overview: 'Trend publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, User Generated Content, Creator Economy, Content Marketing, and Video Production.
 
 
   Trend''s developer surface includes pricing, signup flow, support, engineering blog, API reference, authentication, and 18 more developer resources.'
@@ -167,7 +167,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.3
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -177,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 43.7
+  previous_composite: 42.3
   provenance:
     conformance: derived
     contracts:
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trend/refs/heads/main/screenshots/trend-2026-08-17T082448.png
 security:
@@ -209,13 +209,13 @@ security:
 slug: trend
 tags:
 - Company
-- User-Generated Content
+- User Generated Content
 - Creator Economy
 - Content Marketing
 - Video Production
 - Photography
 - Marketing
-- eCommerce
+- E-Commerce
 - Creator Marketplace
 - Influencer Marketing
 - AI Image Generation

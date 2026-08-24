@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for speaker diarization, speaker identification with voiceprints, and speech-to-text orchestration over audio files, plus a streaming WebSocket gateway for real-time diarization. Jobs are asy
@@ -177,8 +177,8 @@ image: https://framerusercontent.com/images/myoVIwP9SQzshWrwvnPNrwVIn8.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: pyannoteai-mcp.yml
-  slug: pyannoteai-mcpyml
+  name: pyannoteAI
+  slug: pyannoteai
 modified: '2026-08-17'
 name: PyannoteAI
 nav: Providers
@@ -202,6 +202,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.8
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -211,6 +212,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 57.9
+  previous_composite: 61.8
   provenance:
     contracts:
       callable: 100.0
@@ -218,8 +220,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Pyannoteai Authentication
@@ -241,9 +244,9 @@ tags:
 - Speaker Diarization
 - Audio
 - Voice AI
-- Machine Learning
+- Machine-Learning
 - Transcription
 - Streaming
-- Webhooks
+- Webhook
 website: https://pyannote.ai/
 ---

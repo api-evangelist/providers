@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-04-28'
 name: High Performance Software Foundation
 nav: Providers
 network: true
-overview: 'High Performance Software Foundation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include HPC, Linux Foundation, Open Source, and Scientific Computing.
+overview: 'High Performance Software Foundation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include HPC, Linux Foundation, Open-Source, and Scientific Computing.
 
 
   High Performance Software Foundation''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
@@ -64,7 +64,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 7.1
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -82,15 +82,15 @@ score:
       reason: no_resolvable_host
     - owner: catalog
       reason: never_enriched
-  previous_composite: 6.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/screenshots/hpsf-2026-06-20T182854.png
 slug: hpsf
 tags:
 - HPC
 - Linux Foundation
-- Open Source
+- Open-Source
 - Scientific Computing
 ---

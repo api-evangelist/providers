@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 9
@@ -863,18 +863,18 @@ rules:
   slug: couchbase-sync-gateway-rules
 score:
   band: developing
-  composite: 50.9
-  delta: 1.7
+  composite: 51.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 60.6
+    contract_governance: 69.7
     contract_quality: 59.9
     developer_ergonomics: 28.6
-    discoverability: 66.7
-    governance: 60.6
+    discoverability: 57.4
+    governance: 69.7
     operational_transparency: 42.1
-  previous_composite: 49.2
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -882,8 +882,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 54
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/screenshots/couchbase-2026-06-20T175100.png
 security:
@@ -903,7 +903,7 @@ tags:
 - Capella
 - Cloud
 - Database
-- DBaaS
+- Database-as-a-Service
 - Eventing
 - Full-Text Search
 - Gateway

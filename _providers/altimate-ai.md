@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 4
@@ -921,8 +921,8 @@ image: https://altimate.ai/og/altimate-home.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: altimate-ai-mcp.yml
-  slug: altimate-ai-mcpyml
+  name: Altimate AI MCP Server
+  slug: altimate-ai-mcp-server
 modified: '2026-08-08'
 name: Altimate AI
 nav: Providers
@@ -935,7 +935,7 @@ random_paper: 4
 score:
   band: developing
   composite: 47.8
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -945,7 +945,7 @@ score:
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 51.9
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -956,8 +956,8 @@ score:
       total: 123
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/screenshots/altimate-ai-2026-07-25T195830.png
 security:

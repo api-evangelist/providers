@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for creating contracts, sending them to signers over WhatsApp/SMS/email, running biometric identity verification, generating documents from templates, sending and verifying OTPs, and register
@@ -138,9 +138,9 @@ description: Keynua is a Latin American digital identity and electronic signatur
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keynua.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: keynua-mcp.yml
-  slug: keynua-mcpyml
+- description: Candidate MCP server derived from the documented Keynua REST operations. Keynua does not publish an official hosted MCP server; this is a proposed tool surface (one tool per documented operation) as a
+  name: Keynua MCP Server
+  slug: keynua-mcp-server
 modified: '2026-07-19'
 name: Keynua
 nav: Providers
@@ -156,7 +156,7 @@ random_paper: 2
 score:
   band: developing
   composite: 43.0
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -166,12 +166,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 44.4
+  previous_composite: 43.0
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keynua/refs/heads/main/screenshots/keynua-2026-07-25T223656.png
 security:
@@ -193,7 +193,7 @@ tags:
 - KYC
 - Onboarding
 - OTP
-- Webhooks
+- Webhook
 - Latin America
 website: https://www.keynua.com/en
 ---

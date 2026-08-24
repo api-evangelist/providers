@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-18'
 name: Binaris
 nav: Providers
 network: true
-overview: 'Binaris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Serverless, Functions as a Service, FaaS, and Compute.
+overview: 'Binaris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Serverless, Functions as a Service, Function-as-a-Service, and Compute.
 
 
   Binaris'' developer surface includes CLI and 4 more developer resources.'
@@ -68,7 +68,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 8.9
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -84,9 +84,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 9.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binaris/refs/heads/main/screenshots/binaris-2026-07-25T203008.png
 slug: binaris
@@ -94,7 +94,7 @@ tags:
 - Company
 - Serverless
 - Functions as a Service
-- FaaS
+- Function-as-a-Service
 - Compute
 - Cloud
 - Node.js

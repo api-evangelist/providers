@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 37
 apis:
 - description: 1-Click applications are pre-built Droplet images or Kubernetes apps with software, features, and configuration details already set up for you. They can be found in the [DigitalOcean Marketplace](http
@@ -376,7 +376,7 @@ rate_limits:
 score:
   band: developing
   composite: 40.3
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -386,15 +386,15 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 41.0
+  previous_composite: 40.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-ocean/refs/heads/main/screenshots/digital-ocean-2026-06-20T180020.png
 security:

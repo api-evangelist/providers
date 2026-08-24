@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the Teabox Shopify store, implementing the Universal Commerce Protocol (UCP) over a hosted MCP endpoint. Supports catalog search/lookup, cart, checkout, fulfillment, '
@@ -79,13 +79,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teabox.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: teabox-mcp.yml
-  slug: teabox-mcpyml
+  name: Teabox MCP Server
+  slug: teabox-mcp-server
 modified: '2026-07-21'
 name: Teabox
 nav: Providers
 network: true
-overview: 'Teabox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Tea, Food and Beverage, and E-commerce.
+overview: 'Teabox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Tea, Food and Beverage, and E-Commerce.
 
 
   Teabox''s developer surface includes authentication and 8 more developer resources.'
@@ -97,22 +97,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 14.2
-  delta: -1.5
+  composite: 15.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.7
+  previous_composite: 15.3
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -129,7 +129,7 @@ tags:
 - Consumer
 - Tea
 - Food and Beverage
-- E-commerce
+- E-Commerce
 - Retail
 - Shopify
 - Agent Commerce

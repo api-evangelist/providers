@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -176,14 +176,14 @@ description: Agora (agora.finance) is a stablecoin infrastructure company buildi
 image: https://www.agora.finance/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: agora-mcp.yml
-  slug: agora-mcpyml
+- description: Agora publishes a hosted MCP server over its developer documentation for AI clients (Claude Code, Cursor, etc.), advertised in llms.txt. It exposes the docs corpus (AUSD contract, Public API, stable s
+  name: Agora MCP Server
+  slug: agora-mcp-server
 modified: '2026-07-17'
 name: Agora
 nav: Providers
 network: true
-overview: 'Agora publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Metrics API, and 2 more. Tagged areas include Company, Fintech, Stablecoin, Digital Dollar, and Payments.
+overview: 'Agora publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Metrics API, and 2 more. Tagged areas include Company, Fintech, Stablecoins, Digital Dollar, and Payments.
 
 
   Agora''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
@@ -191,7 +191,7 @@ random_paper: 18
 score:
   band: developing
   composite: 47.2
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -201,7 +201,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 45.9
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,8 +218,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/screenshots/agora-2026-07-25T195314.png
 security:
@@ -235,12 +235,11 @@ slug: agora
 tags:
 - Company
 - Fintech
-- Stablecoin
+- Stablecoins
 - Digital Dollar
 - Payments
 - Cryptocurrency
 - Blockchain
-- API
 - AUSD
 website: https://docs.agora.finance/
 ---

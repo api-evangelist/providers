@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,20 +104,20 @@ overview: 'Blackberry is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 7
 score:
   band: emerging
-  composite: 15.2
-  delta: -2.2
+  composite: 16.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 17.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 16.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackberry/refs/heads/main/screenshots/blackberry-2026-07-25T203242.png
 security:

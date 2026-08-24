@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ modified: '2026-05-30'
 name: Shippo
 nav: Providers
 network: true
-overview: 'Shippo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Carrier Accounts API, Parcels API, and 6 more. Tagged areas include Ecommerce, Labels, Logistics, Returns, and Shipping.
+overview: 'Shippo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Carrier Accounts API, Parcels API, and 6 more. Tagged areas include E-Commerce, Labels, Logistics, Returns, and Shipping.
 
 
   The Shippo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -343,18 +343,18 @@ rules:
   slug: shippo-rules
 score:
   band: developing
-  composite: 49.3
-  delta: -3.3
+  composite: 49.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 80.6
     developer_ergonomics: 64.3
     discoverability: 72.2
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 52.6
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -362,8 +362,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/screenshots/shippo-2026-06-20T193822.png
 security:
@@ -385,7 +385,7 @@ skills:
   slug: shippo-official
 slug: shippo
 tags:
-- Ecommerce
+- E-Commerce
 - Labels
 - Logistics
 - Returns

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -277,9 +277,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/worldnewsapi.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: worldnewsapi-mcp.yml
-  slug: worldnewsapi-mcpyml
+- description: World News API publishes a first-party MCP server that exposes eight news tools over stdio. It is a locally installed npm package - there is no hosted remote MCP endpoint - so a human installs and run
+  name: World News API MCP Server
+  slug: world-news-api-mcp-server
 modified: '2026-08-13'
 name: World News API
 nav: Providers
@@ -300,7 +300,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 66.6
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -310,7 +310,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 69.8
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,8 +321,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/screenshots/worldnewsapi-2026-08-17T080439.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -452,18 +452,18 @@ rules:
   slug: thingspeak-rules
 score:
   band: strong
-  composite: 62.9
-  delta: -3.8
+  composite: 63.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 11.4
+    contract_governance: 13.6
     contract_quality: 73.0
     developer_ergonomics: 71.4
     discoverability: 74.1
-    governance: 11.4
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 66.7
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -471,8 +471,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/screenshots/thingspeak-2026-06-20T195303.png
 security:

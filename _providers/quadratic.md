@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 14
 apis:
 - description: List and inspect team agent connections (third-party REST API bindings).
@@ -236,13 +236,13 @@ image: https://www.quadratichq.com/images/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: quadratic-mcp.yml
-  slug: quadratic-mcpyml
+  name: Quadratic MCP Server
+  slug: quadratic-mcp-server
 modified: '2026-07-20'
 name: Quadratic
 nav: Providers
 network: true
-overview: 'Quadratic publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agent Connections API, Auth API, Cells API, and 11 more. Tagged areas include Company, AI, Spreadsheet, Analytics, and Data.
+overview: 'Quadratic publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agent Connections API, Auth API, Cells API, and 11 more. Tagged areas include Company, Artificial Intelligence, Spreadsheet, Analytics, and Data.
 
 
   Quadratic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
@@ -250,7 +250,7 @@ random_paper: 13
 score:
   band: developing
   composite: 49.3
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -260,7 +260,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 50.2
+  previous_composite: 49.3
   provenance:
     conformance: derived
     contracts:
@@ -270,8 +270,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/screenshots/quadratic-2026-08-17T081429.png
 security:
@@ -290,7 +290,7 @@ security:
 slug: quadratic
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Spreadsheet
 - Analytics
 - Data

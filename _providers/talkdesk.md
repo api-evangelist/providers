@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: AsyncAPI 2.6 description of Talkdesk's publicly documented outbound webhook surface, covering the Events API (partner-app lifecycle), the Webhook Trigger API (Talkdesk Connections triggers for call/ag
@@ -84,7 +84,7 @@ modified: '2026-05-30'
 name: Talkdesk
 nav: Providers
 network: true
-overview: 'Talkdesk publishes 1 API on the [APIs.io](https://apis.io/) network: Webhook Surface. Tagged areas include Contact Center, CCaaS, Voice, Webhooks, and Events.
+overview: 'Talkdesk publishes 1 API on the [APIs.io](https://apis.io/) network: Webhook Surface. Tagged areas include Contact Center, CCaaS, Voice, Webhook, and Event.
 
 
   The Talkdesk catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -107,7 +107,7 @@ rules:
 score:
   band: thin
   composite: 27.3
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -123,10 +123,10 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 34.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 27.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkdesk/refs/heads/main/screenshots/talkdesk-2026-06-20T194911.png
 security:
 - kind: domain-security
@@ -142,8 +142,8 @@ tags:
 - Contact Center
 - CCaaS
 - Voice
-- Webhooks
-- Events
+- Webhook
+- Event
 - Telephony
 - Customer Experience
 - Digital Connect

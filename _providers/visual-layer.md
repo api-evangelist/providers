@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for dataset management, visual and semantic search, enrichment, export, saved views, snapshots, and task management. Cloud calls require a JWT bearer token; on-premises calls require no authe
@@ -147,13 +147,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visual-lay
 layout: provider
 mcp_servers:
 - description: ''
-  name: visual-layer-mcp.yml
-  slug: visual-layer-mcpyml
+  name: Visual Layer MCP Server
+  slug: visual-layer-mcp-server
 modified: '2026-07-21'
 name: Visual Layer
 nav: Providers
 network: true
-overview: 'Visual Layer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer Vision, Machine Learning, Data Management, and Dataset Curation.
+overview: 'Visual Layer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer-Vision, Machine-Learning, Data Management, and Dataset Curation.
 
 
   Visual Layer''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, signup flow, and 19 more developer resources.'
@@ -161,7 +161,7 @@ random_paper: 7
 score:
   band: thin
   composite: 26.8
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -171,12 +171,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 27.7
+  previous_composite: 26.8
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -190,14 +190,14 @@ security:
 slug: visual-layer
 tags:
 - Company
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Data Management
 - Dataset Curation
 - Unstructured Data
-- Images
+- Image
 - Video
 - Semantic Search
-- AI
+- Artificial Intelligence
 website: https://visual-layer.com/
 ---

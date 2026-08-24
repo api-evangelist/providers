@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Pliant''s Pro API enables customers to access Pliant credit card data and features programmatically — issue and manage cards, apply card controls and limits, retrieve transactions and accounting data, '
@@ -175,9 +175,9 @@ description: Pliant is a Berlin-based financial technology company offering a bu
 image: https://a.storyblok.com/f/169635/1200x630/92b10eaf7c/pliant-og-image.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: pliant-mcp.yml
-  slug: pliant-mcpyml
+- description: 'Pliant publishes an official hosted/remote MCP server for the Pro API (Customer). It exposes direct API access to Pliant Pro API functionality, documentation search, real-time data from the connected '
+  name: Pliant MCP Server
+  slug: pliant-mcp-server
 modified: '2026-07-20'
 name: Pliant
 nav: Providers
@@ -193,7 +193,7 @@ random_paper: 18
 score:
   band: developing
   composite: 48.8
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -203,7 +203,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 32.9
-  previous_composite: 52.4
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -214,8 +214,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/screenshots/pliant-2026-08-17T081307.png
 security:
@@ -240,7 +240,7 @@ tags:
 - Spend Management
 - Expense Management
 - Fintech
-- Cards as a Service
+- Cards-as-a-Service
 - Banking as a Service
 - Travel
 - Accounting

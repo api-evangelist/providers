@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 5
@@ -829,7 +829,7 @@ modified: '2026-06-02'
 name: Deliverect
 nav: Providers
 network: true
-overview: 'Deliverect publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Allergens API, Authentication API, and 27 more. Tagged areas include Restaurant, Delivery, Online Ordering, Point of Sale, and Order Management.
+overview: 'Deliverect publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Allergens API, Authentication API, and 27 more. Tagged areas include Restaurant, Delivery, Online Ordering, Point-of-Sale, and Order Management.
 
 
   The Deliverect catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -856,13 +856,13 @@ rules:
     info: 2
     warn: 3
   slug: deliverect-jsonschema-spectral-rules
-- effective_rule_count: 77
+- effective_rule_count: 76
   extends:
   - spectral:oas
   name: Deliverect API Rules
-  rule_count: 36
+  rule_count: 35
   severity_counts:
-    error: 9
+    error: 8
     hint: 0
     info: 8
     warn: 19
@@ -874,18 +874,18 @@ scopes:
   summary_line: 7 scopes · clientCredentials
 score:
   band: thin
-  composite: 32.6
-  delta: -8.9
+  composite: 34.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 22.1
     developer_ergonomics: 40.5
-    discoverability: 57.4
-    governance: 25.0
+    discoverability: 75.9
+    governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 41.5
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -893,9 +893,9 @@ score:
       derived: 30
       marker_coverage: 100.0
       total: 30
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/screenshots/deliverect-2026-06-20T175855.png
 security:
 - kind: authentication
@@ -915,7 +915,7 @@ tags:
 - Restaurant
 - Delivery
 - Online Ordering
-- Point of Sale
+- Point-of-Sale
 - Order Management
 - Integration
 website: https://www.deliverect.com

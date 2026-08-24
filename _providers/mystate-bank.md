@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 8
 apis:
 - description: Banking Account Balance endpoints
@@ -176,8 +176,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mystate-ba
 layout: provider
 mcp_servers:
 - description: ''
-  name: mystate-bank-mcp.yml
-  slug: mystate-bank-mcpyml
+  name: MyState Bank MCP Server
+  slug: mystate-bank-mcp-server
 modified: '2026-07-21'
 name: MyState Bank
 nav: Providers
@@ -190,7 +190,7 @@ random_paper: 14
 score:
   band: thin
   composite: 33.8
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 33.0
+  previous_composite: 33.8
   provenance:
     conformance: derived
     contracts:
@@ -216,8 +216,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png
 security:

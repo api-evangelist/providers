@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -234,14 +234,14 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/publer.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: publer-mcp.yml
-  slug: publer-mcpyml
+- description: Publer ships a FIRST-PARTY, HOSTED (remote) MCP server that connects an MCP-compatible client — Publer names Claude, ChatGPT and Cursor — to a Publer workspace. It is configured from the Publer app un
+  name: Publer MCP Server
+  slug: publer-mcp-server
 modified: '2026-08-13'
 name: Publer
 nav: Providers
 network: true
-overview: 'Publer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Competitors API, and 5 more. Tagged areas include Social Media, Scheduling, Publishing, Content Management, and Marketing.
+overview: 'Publer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Competitors API, and 5 more. Tagged areas include Social-Media, Scheduling, Publishing, Content Management, and Marketing.
 
 
   Publer''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 25 more developer resources.'
@@ -262,7 +262,7 @@ scopes:
 score:
   band: developing
   composite: 43.5
-  delta: -18.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -272,7 +272,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 61.5
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,9 +283,9 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/screenshots/publer-2026-08-17T081403.png
 security:
 - kind: authentication
@@ -298,7 +298,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: publer
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Publishing
 - Content Management

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -185,14 +185,14 @@ description: 'Higgsfield is a multi-model generative AI platform for video, imag
 image: https://higgsfield.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: higgsfield-mcp.yml
-  slug: higgsfield-mcpyml
+- description: Official hosted (remote) Higgsfield MCP server. Exposes the full Higgsfield generation platform (30+ video and image models — Veo 3.1, Sora 2, Kling 3.0, Seedance 2.0, and more) to MCP-capable agents.
+  name: Higgsfield MCP Server
+  slug: higgsfield-mcp-server
 modified: '2026-07-19'
 name: Higgsfield
 nav: Providers
 network: true
-overview: 'Higgsfield publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Generative AI, Video Generation, and Image Generation.
+overview: 'Higgsfield publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image-Generation.
 
 
   The Higgsfield catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -203,7 +203,7 @@ random_paper: 17
 score:
   band: developing
   composite: 48.3
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -213,14 +213,14 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 52.2
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/higgsfield/refs/heads/main/screenshots/higgsfield-2026-07-25T221304.png
 security:
@@ -239,11 +239,11 @@ security:
 slug: higgsfield
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Generative AI
 - Video Generation
-- Image Generation
-- Machine Learning
+- Image-Generation
+- Machine-Learning
 - Media
 - Content Creation
 - Developer API

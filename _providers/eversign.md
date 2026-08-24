@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: RESTful JSON API for creating and sending documents for electronic signature, managing templates, uploading files, tracking audit trails, bulk sending via CSV, and receiving webhook event notification
@@ -122,7 +122,7 @@ modified: '2026-06-13'
 name: Eversign
 nav: Providers
 network: true
-overview: 'Eversign publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Signature, Electronic Signatures, Document Management, PDF, and Audit Trail.
+overview: 'Eversign publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Signature, Electronic Signatures, Document-Management, PDF, and Audit Trail.
 
 
   The Eversign catalog on APIs.io includes 1 JSON-LD context.
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.2
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -151,9 +151,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 42.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 41.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversign/refs/heads/main/screenshots/eversign-2026-06-20T180911.png
 security:
@@ -165,10 +165,10 @@ slug: eversign
 tags:
 - E-Signature
 - Electronic Signatures
-- Document Management
+- Document-Management
 - PDF
 - Audit Trail
-- Webhooks
+- Webhook
 - Bulk Sending
 website: https://eversign.com
 ---

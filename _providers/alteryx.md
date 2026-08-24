@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -592,18 +592,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.8
-  delta: -8.5
+  composite: 44.3
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 59.8
     developer_ergonomics: 40.5
     discoverability: 64.8
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 15.8
-  previous_composite: 52.3
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -611,9 +611,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/screenshots/alteryx-2026-06-20T171552.png
 security:
 - kind: authentication
@@ -640,7 +640,7 @@ tags:
 - Data Preparation
 - Data Science
 - ETL
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 use_cases:
 - description: Schedule and automate data preparation workflows to generate recurring business reports.

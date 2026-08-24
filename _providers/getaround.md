@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Historical partner/owner REST API used by fleet-management integrators (CarSync, FleetWire, Kitts) to sync bookings onto external calendars, block vehicle availability, generate invoices for professio
@@ -128,7 +128,7 @@ modified: '2026-08-08'
 name: Getaround
 nav: Providers
 network: true
-overview: 'Getaround publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Car Sharing, Mobility, Connected Car, Fleet Management, and Peer to Peer.
+overview: 'Getaround publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Car Sharing, Mobility, Connected Car, Fleet Management, and Peer-to-Peer.
 
 
   Getaround''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
@@ -136,7 +136,7 @@ random_paper: 3
 score:
   band: minimal
   composite: 8.6
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -146,9 +146,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 9.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 8.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getaround/refs/heads/main/screenshots/getaround-2026-07-25T215717.png
 security:
@@ -166,7 +166,7 @@ tags:
 - Mobility
 - Connected Car
 - Fleet Management
-- Peer to Peer
+- Peer-to-Peer
 - Discontinued
 website: https://getaround.com
 ---

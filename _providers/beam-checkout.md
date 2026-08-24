@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Beam's v1 REST payments API — payment links, charges, refunds, transactions, card authorizations (auth/capture/cancel), network tokenization, and Beam Bolt in-person payments.
@@ -163,13 +163,13 @@ image: https://www.beamcheckout.com/assets/beam-thumbnail.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: beam-checkout-mcp.yml
-  slug: beam-checkout-mcpyml
+  name: Beam Checkout MCP Server
+  slug: beam-checkout-mcp-server
 modified: '2026-07-18'
 name: Beam Checkout
 nav: Providers
 network: true
-overview: 'Beam Checkout publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Checkout, and Card Payments.
+overview: 'Beam Checkout publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Payments, Checkout, and Card Payments.
 
 
   The Beam Checkout catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,7 +180,7 @@ random_paper: 2
 score:
   band: strong
   composite: 54.5
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -190,7 +190,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 50.6
+  previous_composite: 54.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -200,8 +200,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/screenshots/beam-checkout-2026-07-25T202537.png
 security:
@@ -216,11 +216,11 @@ security:
 slug: beam-checkout
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Checkout
 - Card Payments
-- Webhooks
+- Webhook
 - Thailand
 - Fintech
 website: https://www.beamcheckout.com/

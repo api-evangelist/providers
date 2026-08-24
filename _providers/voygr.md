@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Programmatic outbound phone calls executed by an AI voice agent. Submit a task either as a plain-language brief or as a structured intent plus slots (inquiry, info_gathering, issue_resolution, booking
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.1
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -165,7 +165,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 55.2
+  previous_composite: 56.1
   provenance:
     conformance: derived
     contracts:
@@ -175,8 +175,8 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/screenshots/voygr-2026-08-17T082827.png
 security:

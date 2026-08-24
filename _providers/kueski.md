@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The HTTP API behind the Kueski Pay merchant widgets. The widgets.js library authenticates with the merchant public key as an HTTP bearer token and reads merchant configuration and installment-messagin
@@ -165,8 +165,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kueski/refs/heads/main/screenshots/kueski-2026-08-07T171345.png
 security:
@@ -185,7 +185,7 @@ tags:
 - Buy Now Pay Later
 - Lending
 - Fintech
-- Financial Services
+- Financial-Services
 - Consumer Credit
 - E-Commerce
 - Checkout

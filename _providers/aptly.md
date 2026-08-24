@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -253,14 +253,14 @@ description: Aptly is the AI operations layer for property management, built by 
 image: https://www.getaptly.com/images/aptly-logo-light.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: aptly-mcp.yml
-  slug: aptly-mcpyml
+- description: Official hosted Aptly MCP server — the recommended way to connect LLMs and AI agents to Aptly boards, cards, contacts, inboxes, calendars, files and knowledge documents. The /mcp endpoint requires aut
+  name: Aptly MCP Server
+  slug: aptly-mcp-server
 modified: '2026-07-18'
 name: Aptly
 nav: Providers
 network: true
-overview: 'Aptly publishes 15 APIs on the [APIs.io](https://apis.io/) network, including App API, Board API, Boards API, and 12 more. Tagged areas include Company, Cloud Saas, Property Management, Real Estate, and PropTech.
+overview: 'Aptly publishes 15 APIs on the [APIs.io](https://apis.io/) network, including App API, Board API, Boards API, and 12 more. Tagged areas include Company, Cloud Saas, Property Management, Real-Estate, and PropTech.
 
 
   Aptly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
@@ -268,7 +268,7 @@ random_paper: 8
 score:
   band: developing
   composite: 47.4
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -278,7 +278,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.9
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,8 +289,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/screenshots/aptly-2026-07-25T200942.png
 security:
@@ -307,10 +307,10 @@ tags:
 - Company
 - Cloud Saas
 - Property Management
-- Real Estate
+- Real-Estate
 - PropTech
 - CRM
-- Workflow Automation
+- Workflow-Automation
 - AI Agents
 - Communications
 - MCP

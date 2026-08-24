@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -99,8 +99,8 @@ image: https://cooklist.com/images/favicon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: cooklist-mcp.yml
-  slug: cooklist-mcpyml
+  name: Cooklist MCP Server
+  slug: cooklist-mcp-server
 modified: '2026-07-18'
 name: Cooklist
 nav: Providers
@@ -116,7 +116,7 @@ random_paper: 11
 score:
   band: thin
   composite: 30.1
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -126,11 +126,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.0
+  previous_composite: 30.1
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cooklist/refs/heads/main/screenshots/cooklist-2026-07-25T210357.png
 security:
@@ -149,7 +149,7 @@ tags:
 - Grocery
 - Retail
 - AI Assistant
-- Model Context Protocol
+- MCP
 - Recipes
 - Meal Planning
 - E-Commerce

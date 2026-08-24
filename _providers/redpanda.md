@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: Redpanda implements the Apache Kafka wire protocol natively, allowing existing Kafka clients (producers, consumers, AdminClient, Streams, Connect) to work unchanged against Redpanda brokers on TCP por
@@ -243,7 +243,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.9
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -253,10 +253,10 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 32.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/screenshots/redpanda-2026-06-20T192835.png
 security:
 - kind: domain-security
@@ -278,7 +278,7 @@ tags:
 - Event Streaming
 - Real-Time
 - Data Platform
-- Open Source
+- Open-Source
 - C++
 - Stream Processing
 website: https://redpanda.com/

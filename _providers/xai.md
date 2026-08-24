@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ modified: '2026-05-29'
 name: xAI
 nav: Providers
 network: true
-overview: 'xAI publishes 1 API on the [APIs.io](https://apis.io/) network: v1 API. Tagged areas include AI, LLM, Foundation Models, Grok, and Generative AI.
+overview: 'xAI publishes 1 API on the [APIs.io](https://apis.io/) network: v1 API. Tagged areas include Artificial Intelligence, LLM, Foundation Models, Grok, and Generative AI.
 
 
   The xAI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -150,7 +150,7 @@ rules:
 score:
   band: thin
   composite: 33.4
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -160,7 +160,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 37.5
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +168,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/screenshots/xai-2026-06-20T201651.png
 security:
@@ -191,7 +191,7 @@ security:
   summary_line: HIPAA, GDPR
 slug: xai
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Foundation Models
 - Grok

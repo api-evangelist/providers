@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Public author profiles attached to published content.
@@ -199,7 +199,7 @@ random_paper: 6
 score:
   band: developing
   composite: 41.3
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -209,7 +209,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 33.4
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -224,9 +224,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/screenshots/jenavalve-technology-2026-08-07T170957.png
 security:
 - kind: authentication

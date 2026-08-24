@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-04-26'
 name: Cleo
 nav: Providers
 network: true
-overview: 'Cleo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Banking, Budgeting, Cash Advance, and Consumer Finance.
+overview: 'Cleo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Banking, Budgeting, Cash Advance, and Consumer Finance.
 
 
   Cleo''s developer surface includes engineering blog, GitHub presence, and 6 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 20
 score:
   band: minimal
   composite: 3.6
-  delta: -8.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,16 +90,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.2
+  previous_composite: 3.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/screenshots/cleo-2026-08-07T180001.png
 security:
 - kind: domain-security
@@ -108,7 +108,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cleo
 tags:
-- AI
+- Artificial Intelligence
 - Banking
 - Budgeting
 - Cash Advance

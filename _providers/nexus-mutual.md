@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ rules:
 score:
   band: developing
   composite: 42.2
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -230,7 +230,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 44.7
-  previous_composite: 45.5
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -244,8 +244,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/screenshots/nexus-mutual-2026-06-20T190302.png
 security:

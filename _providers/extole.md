@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 400
   human_in_the_loop: 151
@@ -494,8 +494,8 @@ image: https://github.com/extole.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: extole-mcp.yml
-  slug: extole-mcpyml
+  name: Extole MCP Server
+  slug: extole-mcp-server
 modified: '2026-08-13'
 name: Extole
 nav: Providers
@@ -557,8 +557,8 @@ score:
       total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/screenshots/extole-2026-07-25T213956.png
 security:
@@ -583,6 +583,6 @@ tags:
 - Rewards
 - Marketing
 - Customer Acquisition
-- SaaS
+- Software-as-a-Service
 website: https://extole.com
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-native commerce surface for the Italist Shopify storefront — a Universal Commerce Protocol (UCP) merchant profile and a Model Context Protocol (MCP) shopping endpoint for catalog search, cart, a
@@ -103,13 +103,13 @@ image: https://italist.com/cdn/shop/files/1200_x_400_-_1_fcc31d9b-a5bb-4f2a-a3a6
 layout: provider
 mcp_servers:
 - description: ''
-  name: italist-mcp.yml
-  slug: italist-mcpyml
+  name: Italist MCP Server
+  slug: italist-mcp-server
 modified: '2026-07-19'
 name: Italist
 nav: Providers
 network: true
-overview: 'Italist publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Retail, Fashion, and Luxury.
+overview: 'Italist publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Fashion, and Luxury.
 
 
   Italist''s developer surface includes support, engineering blog, signup flow, authentication, and 11 more developer resources.'
@@ -121,24 +121,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.9
-  delta: -0.6
+  composite: 23.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 22.5
+  previous_composite: 23.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/screenshots/italist-2026-08-07T170928.png
 security:
@@ -153,7 +153,7 @@ security:
 slug: italist
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Fashion
 - Luxury

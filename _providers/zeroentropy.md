@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Admin API from ZeroEntropy — 7 operation(s) for admin.
@@ -170,8 +170,8 @@ image: https://zeroentropy.dev/assets/images/ze-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: zeroentropy-mcp.yml
-  slug: zeroentropy-mcpyml
+  name: ZeroEntropy MCP Server
+  slug: zeroentropy-mcp-server
 modified: '2026-07-21'
 name: ZeroEntropy
 nav: Providers
@@ -184,7 +184,7 @@ random_paper: 15
 score:
   band: developing
   composite: 43.8
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 48.7
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/screenshots/zeroentropy-2026-08-17T083058.png
 security:

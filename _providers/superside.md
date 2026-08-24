@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -132,7 +132,7 @@ modified: '2026-08-13'
 name: Superside
 nav: Providers
 network: true
-overview: 'Superside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Creative Services, Design, and Marketing.
+overview: 'Superside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Creative Services, Design, and Marketing.
 
 
   Superside''s developer surface includes pricing, support, engineering blog, signup flow, changelog, and 18 more developer resources.'
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.3
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -158,11 +158,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 33.1
+  previous_composite: 32.3
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -180,11 +180,11 @@ security:
 slug: superside
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Creative Services
 - Design
 - Marketing
-- AI
+- Artificial Intelligence
 - Creative As A Service
 website: https://superside.com
 ---

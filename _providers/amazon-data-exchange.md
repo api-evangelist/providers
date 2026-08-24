@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -504,7 +504,7 @@ modified: '2026-05-19'
 name: Amazon Data Exchange
 nav: Providers
 network: true
-overview: 'Amazon Data Exchange publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Data Sets API, Event Actions API, and 3 more. Tagged areas include Data Exchange, Data Marketplace, Third-Party Data, Analytics, and Subscriptions.
+overview: 'Amazon Data Exchange publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Data Sets API, Event Actions API, and 3 more. Tagged areas include Data Exchange, Data Marketplace, Third-Party Data, Analytics, and Subscription.
 
 
   The Amazon Data Exchange catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -544,18 +544,18 @@ rules:
   slug: amazon-data-exchange-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: -6.0
+  composite: 54.0
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 77.9
     developer_ergonomics: 50.0
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 59.6
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     contracts:
@@ -563,9 +563,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/screenshots/amazon-data-exchange-2026-06-20T171621.png
 security:
 - kind: authentication
@@ -590,7 +590,7 @@ tags:
 - Data Marketplace
 - Third-Party Data
 - Analytics
-- Subscriptions
+- Subscription
 use_cases:
 - description: Subscribe to curated third-party datasets from financial data providers, healthcare data aggregators, weather services, and market research firms.
   name: Third-Party Data Acquisition

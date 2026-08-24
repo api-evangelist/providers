@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -383,8 +383,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pennylane.
 layout: provider
 mcp_servers:
 - description: ''
-  name: pennylane-mcp.yml
-  slug: pennylane-mcpyml
+  name: Pennylane MCP Server
+  slug: pennylane-mcp-server
 modified: '2026-07-17'
 name: Pennylane
 nav: Providers
@@ -408,19 +408,19 @@ scopes:
   slug: pennylane-scopes
   summary_line: 23 scopes
 score:
-  band: strong
-  composite: 65.7
-  delta: 0.3
+  band: exemplar
+  composite: 66.8
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 30.3
     contract_quality: 51.8
     developer_ergonomics: 53.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 30.3
     operational_transparency: 69.7
-  previous_composite: 65.4
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -437,8 +437,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/screenshots/pennylane-2026-08-17T081155.png
 security:

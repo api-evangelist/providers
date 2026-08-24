@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -197,9 +197,9 @@ description: EventX (EventXtra Limited) is an AI-powered, all-in-one event manag
 image: https://eventx.io/images/og/index-b41677e1.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: eventxtra-mcp.yml
-  slug: eventxtra-mcpyml
+- description: EventX ships an official hosted (remote) MCP server that exposes an organization's live EventX data to MCP-compatible AI assistants in natural language, without SQL or API knowledge. It is provisioned
+  name: EventX MCP Server
+  slug: eventx-mcp-server
 modified: '2026-08-13'
 name: EventX
 nav: Providers
@@ -223,7 +223,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.0
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -233,15 +233,15 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 61.7
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/screenshots/eventxtra-2026-07-25T213718.png
 security:
 - kind: authentication
@@ -265,10 +265,10 @@ tags:
 - Check-in
 - Event Marketing
 - Virtual Events
-- Webhooks
+- Webhook
 - OpenAPI
 - MCP
-- AI
+- Artificial Intelligence
 - Hong Kong
 - APAC
 website: https://eventx.io

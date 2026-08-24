@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 20
 common:
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.4
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -148,9 +148,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 10.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.4
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chips-alliance/refs/heads/main/screenshots/chips-alliance-2026-06-20T174320.png
 security:
@@ -166,11 +166,11 @@ tags:
 - Hardware
 - Linux Foundation
 - Open Hardware
-- Open Source
+- Open-Source
 - RISC-V
 - SiFive
 - Silicon
-- SoC
+- SOC
 - SystemVerilog
 use_cases:
 - name: Open Source CPU/SoC Design

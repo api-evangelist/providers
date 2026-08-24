@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -105,7 +105,7 @@ modified: '2026-07-18'
 name: Bright Funds
 nav: Providers
 network: true
-overview: 'Bright Funds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace Giving, Corporate Social Responsibility, Employee Engagement, and Nonprofits.
+overview: 'Bright Funds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace Giving, Corporate Social Responsibility, Employee Engagement, and Non-Profit.
 
 
   Bright Funds'' developer surface includes support, engineering blog, authentication, and 13 more developer resources.'
@@ -117,22 +117,22 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 20.5
-  delta: -0.2
+  composite: 21.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 20.7
+  previous_composite: 21.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/screenshots/bright-funds-2026-07-25T203821.png
 security:
@@ -154,11 +154,11 @@ tags:
 - Workplace Giving
 - Corporate Social Responsibility
 - Employee Engagement
-- Nonprofits
+- Non-Profit
 - Grants Management
 - Donations
 - Volunteering
-- OAuth
+- Authentication
 - OpenID Connect
 website: https://www.brightfunds.org/
 ---

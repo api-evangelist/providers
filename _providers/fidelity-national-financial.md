@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-04-28'
 name: Fidelity National Financial
 nav: Providers
 network: true
-overview: Fidelity National Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real Estate, Mortgage, and Annuities.
+overview: Fidelity National Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real-Estate, Mortgage, and Annuities.
 press:
 - date: '2026-05-25'
   title: FNF Reports Second Quarter 2024 Financial Results
@@ -85,7 +85,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 2.3
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -95,15 +95,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.6
+  previous_composite: 2.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidelity-national-financial/refs/heads/main/screenshots/fidelity-national-financial-2026-06-20T181150.png
 security:
@@ -115,7 +115,7 @@ slug: fidelity-national-financial
 tags:
 - Title Insurance
 - Escrow
-- Real Estate
+- Real-Estate
 - Mortgage
 - Annuities
 - Fortune 500

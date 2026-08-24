@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -1875,14 +1875,14 @@ mcp_servers:
 - description: Stripe's remote MCP server exposes the Stripe API and knowledge base to MCP clients over OAuth or restricted API keys; npx @stripe/mcp for local use.
   name: MCP Server
   slug: mcp-server
-- description: ''
+- description: 'Stripe operates an official remote MCP server at https://mcp.stripe.com, authenticated with OAuth (RFC 9728 protected resource; authorization server https://access.stripe.com/mcp) or a restricted API '
   name: Stripe MCP Server manifest
   slug: stripe-mcp-server-manifest
 modified: '2026-07-17'
 name: Stripe
 nav: Providers
 network: true
-overview: 'Stripe publishes 159 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balance API, Billing API, and 156 more. Tagged areas include Commerce, Financial Services, Fintech, Payments, and T1.
+overview: 'Stripe publishes 159 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balance API, Billing API, and 156 more. Tagged areas include Commerce, Financial-Services, Fintech, Payments, and T1.
 
 
   The Stripe catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -1938,18 +1938,18 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 82.8
-  delta: 7.2
+  composite: 83.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 43.2
+    contract_governance: 45.5
     contract_quality: 73.4
     developer_ergonomics: 94.6
     discoverability: 59.3
-    governance: 43.2
+    governance: 45.5
     operational_transparency: 76.3
-  previous_composite: 75.6
+  previous_composite: 83.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1966,9 +1966,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 93.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-08-17T125440.png
 security:
 - kind: authentication
@@ -1990,7 +1990,7 @@ security:
 slug: stripe
 tags:
 - Commerce
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - T1

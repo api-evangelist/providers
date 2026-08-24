@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 102
 apis:
 - description: The activity API from OpenGov — 1 operation(s) for activity.
@@ -794,8 +794,8 @@ image: https://opengov.com/wp-content/uploads/2025/02/opengov-2025.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: opengov-mcp.yml
-  slug: opengov-mcpyml
+  name: OpenGov MCP Server
+  slug: opengov-mcp-server
 modified: '2026-08-04'
 name: OpenGov
 nav: Providers
@@ -820,7 +820,7 @@ scopes:
 score:
   band: developing
   composite: 50.9
-  delta: -11.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -830,7 +830,7 @@ score:
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 62.0
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -846,9 +846,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 77.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/screenshots/opengov-2026-08-07T190607.png
 security:
 - kind: authentication

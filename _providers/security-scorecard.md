@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for security ratings, portfolios, scorecards, factor and issue data, historical scores, industry benchmarks, reporting, and webhook Rules.
@@ -158,9 +158,9 @@ description: 'SecurityScorecard is a cybersecurity ratings and third-party risk 
 image: https://securityscorecard.com/wp-content/uploads/2023/01/ssc-logo.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: security-scorecard-mcp.yml
-  slug: security-scorecard-mcpyml
+- description: A community-built MCP server that wraps the SecurityScorecard API. It is NOT affiliated with or published by SecurityScorecard, Inc. No first-party SecurityScorecard-hosted or -published MCP server wa
+  name: SecurityScorecard MCP Server
+  slug: securityscorecard-mcp-server
 modified: '2026-07-21'
 name: SecurityScorecard
 nav: Providers
@@ -176,7 +176,7 @@ random_paper: 14
 score:
   band: developing
   composite: 44.4
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -186,12 +186,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 30.3
-  previous_composite: 51.3
+  previous_composite: 44.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/screenshots/security-scorecard-2026-08-17T081750.png
 security:
 - kind: authentication

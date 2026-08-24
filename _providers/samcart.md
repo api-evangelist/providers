@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-07-05'
 name: SamCart
 nav: Providers
 network: true
-overview: 'SamCart publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Charges API, Customers API, Orders API, and 3 more. Tagged areas include E-commerce, Checkout, Payments, Subscriptions, and Digital Products.
+overview: 'SamCart publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Charges API, Customers API, Orders API, and 3 more. Tagged areas include E-Commerce, Checkout, Payments, Subscription, and Digital Products.
 
 
   SamCart''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.6
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.9
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -191,10 +191,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: samcart
 tags:
-- E-commerce
+- E-Commerce
 - Checkout
 - Payments
-- Subscriptions
+- Subscription
 - Digital Products
 - Courses
 website: https://www.samcart.com/

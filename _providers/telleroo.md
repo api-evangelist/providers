@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: 'RESTful API (v1) to automate outbound payments from your own Telleroo account: manage recipients, query accounts and transactions, and create bank transfers (to a saved recipient or adhoc). Token auth'
@@ -166,8 +166,8 @@ image: https://www.telleroo.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: telleroo-mcp.yml
-  slug: telleroo-mcpyml
+  name: Telleroo MCP Server
+  slug: telleroo-mcp-server
 modified: '2026-07-21'
 name: Telleroo
 nav: Providers
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 48.2
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -198,7 +198,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 48.1
+  previous_composite: 48.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -208,8 +208,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/screenshots/telleroo-2026-08-17T082305.png
 security:

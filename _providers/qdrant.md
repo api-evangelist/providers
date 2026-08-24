@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -1347,7 +1347,7 @@ modified: '2026-05-19'
 name: Qdrant
 nav: Providers
 network: true
-overview: 'Qdrant publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Beta API, Collections API, and 6 more. Tagged areas include AI, Artificial Intelligence, and Vector Databases.
+overview: 'Qdrant publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Beta API, Collections API, and 6 more. Tagged areas include Artificial Intelligence and Vector Databases.
 
 
   The Qdrant catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1377,7 +1377,7 @@ rules:
 score:
   band: thin
   composite: 36.9
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -1387,7 +1387,7 @@ score:
     discoverability: 63.0
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 42.8
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1395,9 +1395,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/screenshots/qdrant-2026-06-20T192338.png
 security:
 - kind: authentication
@@ -1410,7 +1410,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: qdrant
 tags:
-- AI
 - Artificial Intelligence
 - Vector Databases
 website: https://qdrant.tech

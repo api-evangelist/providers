@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-05-23'
 name: Granola
 nav: Providers
 network: true
-overview: 'Granola publishes 1 API on the [APIs.io](https://apis.io/) network: Notes API. Tagged areas include AI, Meeting Notes, Transcription, Productivity, and API.
+overview: 'Granola publishes 1 API on the [APIs.io](https://apis.io/) network: Notes API. Tagged areas include Artificial Intelligence, Meeting Notes, Transcription, Productivity, and MCP.
 
 
   Granola''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.2
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -154,7 +154,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.8
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/screenshots/granola-2026-06-20T182324.png
 security:
@@ -185,11 +185,10 @@ security:
   summary_line: SOC 2, GDPR
 slug: granola
 tags:
-- AI
+- Artificial Intelligence
 - Meeting Notes
 - Transcription
 - Productivity
-- API
 - MCP
 - Zapier
 - Business

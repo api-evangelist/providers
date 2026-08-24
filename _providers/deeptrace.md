@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: AI-powered conversational interface over your production systems.
@@ -156,8 +156,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deeptrace.
 layout: provider
 mcp_servers:
 - description: ''
-  name: deeptrace-mcp.yml
-  slug: deeptrace-mcpyml
+  name: Deeptrace MCP Server
+  slug: deeptrace-mcp-server
 modified: '2026-07-18'
 name: Deeptrace
 nav: Providers
@@ -170,7 +170,7 @@ random_paper: 17
 score:
   band: developing
   composite: 45.5
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -180,7 +180,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 46.9
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -190,8 +190,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/screenshots/deeptrace-2026-07-25T211610.png
 security:

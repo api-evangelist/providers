@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ modified: '2026-05-19'
 name: US Department of Commerce
 nav: Providers
 network: true
-overview: 'US Department of Commerce publishes 3 APIs on the [APIs.io](https://apis.io/) network: Blogs API, Images API, and News API. Tagged areas include Commerce, Federal Government, Open Data, Trade, and Economic Data.
+overview: 'US Department of Commerce publishes 3 APIs on the [APIs.io](https://apis.io/) network: Blogs API, Images API, and News API. Tagged areas include Commerce, Federal-Government, Open Data, Trade, and Economic Data.
 
 
   The US Department of Commerce catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -167,7 +167,7 @@ rules:
 score:
   band: thin
   composite: 28.7
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -177,7 +177,7 @@ score:
     discoverability: 64.8
     governance: 54.5
     operational_transparency: 10.5
-  previous_composite: 30.3
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +191,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/screenshots/us-department-of-commerce-2026-06-20T200620.png
 security:
@@ -203,7 +203,7 @@ security:
 slug: us-department-of-commerce
 tags:
 - Commerce
-- Federal Government
+- Federal-Government
 - Open Data
 - Trade
 - Economic Data

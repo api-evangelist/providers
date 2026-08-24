@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,7 +101,7 @@ modified: '2026-08-12'
 name: Profitero
 nav: Providers
 network: true
-overview: 'Profitero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, eCommerce, Digital Shelf, Retail Analytics, and Retail Media.
+overview: 'Profitero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Digital Shelf, Retail Analytics, and Retail Media.
 
 
   Profitero''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.9
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -127,9 +127,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 12.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -139,7 +139,7 @@ security:
 slug: profitero
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Digital Shelf
 - Retail Analytics
 - Retail Media

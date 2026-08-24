@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -184,13 +184,13 @@ image: https://files.readme.io/52eb008-favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: ondemand-mcp.yml
-  slug: ondemand-mcpyml
+  name: Ondemand MCP Server
+  slug: ondemand-mcp-server
 modified: '2026-07-20'
 name: Ondemand
 nav: Providers
 network: true
-overview: 'Ondemand publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Config API, Execute API, and 3 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, RAG, and Agents.
+overview: 'Ondemand publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Config API, Execute API, and 3 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, RAG, and Agents.
 
 
   The Ondemand catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -205,7 +205,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.3
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -215,7 +215,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 47.8
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,9 +226,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/screenshots/ondemand-2026-08-07T190238.png
 security:
 - kind: authentication
@@ -243,13 +243,13 @@ slug: ondemand
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - RAG
 - Agents
 - LLM
-- Platform as a Service
+- Platform-as-a-Service
 - Chat
-- Workflow Automation
+- Workflow-Automation
 - Vector Search
 website: https://docs.on-demand.io
 ---

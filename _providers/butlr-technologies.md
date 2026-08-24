@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: GraphQL API for efficient asset/resource management — query and mutate organizations, sites, buildings, floors, rooms, zones, hives, sensors, asset tags, and webhooks across the Butlr spatial data-mod
@@ -141,9 +141,9 @@ description: Butlr Technologies is a privacy-first people-sensing platform that 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/butlr-technologies.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: butlr-technologies-mcp.yml
-  slug: butlr-technologies-mcpyml
+- description: Official Butlr MCP Server. A thin, read-only wrapper around Butlr's GraphQL and Reporting APIs that connects AI assistants (Claude Desktop, Claude Code, Cursor, VS Code Copilot) to the Butlr occupancy
+  name: Butlr Technologies MCP Server
+  slug: butlr-technologies-mcp-server
 modified: '2026-07-18'
 name: Butlr Technologies
 nav: Providers
@@ -159,7 +159,7 @@ random_paper: 13
 score:
   band: thin
   composite: 39.2
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -169,14 +169,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 45.0
+  previous_composite: 39.2
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butlr-technologies/refs/heads/main/screenshots/butlr-technologies-2026-07-25T204122.png
 security:
 - kind: authentication
@@ -198,6 +198,6 @@ tags:
 - Thermal Sensors
 - Real-Time Data
 - GraphQL
-- Webhooks
+- Webhook
 website: https://butlr.com
 ---

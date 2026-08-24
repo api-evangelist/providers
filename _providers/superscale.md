@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The product Model Context Protocol server. Lets an external agent runtime (Claude and similar MCP clients) drive Superscale's creative engine — generating statics, UGC video and scripts from context t
@@ -179,13 +179,13 @@ image: https://superscale.ai/images/og-images/default-og-image.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: superscale-mcp.yml
-  slug: superscale-mcpyml
+  name: Superscale MCP Server
+  slug: superscale-mcp-server
 modified: '2026-08-12'
 name: Superscale
 nav: Providers
 network: true
-overview: 'Superscale publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Marketing, Advertising, and Generative AI.
+overview: 'Superscale publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Marketing, Advertising, and Generative AI.
 
 
   Superscale''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 26 more developer resources.'
@@ -206,7 +206,7 @@ scopes:
 score:
   band: thin
   composite: 38.3
-  delta: -8.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -216,14 +216,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 46.8
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/screenshots/superscale-2026-08-17T082204.png
 security:
 - kind: authentication
@@ -241,13 +241,13 @@ security:
 slug: superscale
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Marketing
 - Advertising
 - Generative AI
 - Creative
 - AdTech
-- SaaS
+- Software-as-a-Service
 - Agents
 - MCP
 - A2A

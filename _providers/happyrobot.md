@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -236,19 +236,19 @@ image: https://happyrobot.b-cdn.net/HappyRobot_HeroLoop_v01%20(00184)%201-1200x6
 layout: provider
 mcp_servers:
 - description: ''
-  name: happyrobot-mcp.yml
-  slug: happyrobot-mcpyml
+  name: Happyrobot MCP Server
+  slug: happyrobot-mcp-server
 - description: ''
-  name: mcp
-  slug: mcp
+  name: Happyrobot MCP Server
+  slug: happyrobot-mcp-server-2
 - description: ''
-  name: mcp
-  slug: mcp-2
+  name: Happyrobot MCP Server
+  slug: happyrobot-mcp-server-3
 modified: '2026-08-01'
 name: Happyrobot
 nav: Providers
 network: true
-overview: 'Happyrobot publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public API, Platform API v1, and Public API (EU cluster). Tagged areas include ai-agents, agent-orchestration, voice-ai, conversational-ai, and logistics.
+overview: 'Happyrobot publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public API, Platform API v1, and Public API (EU cluster). Tagged areas include AI Agents, Agent Orchestration, Voice AI, Conversational AI, and Logistics.
 
 
   The Happyrobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -264,7 +264,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: -13.6
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -274,15 +274,15 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 58.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/screenshots/happyrobot-2026-08-07T165946.png
 security:
 - kind: authentication
@@ -303,19 +303,19 @@ security:
   summary_line: SOC 2 Type II, GDPR, HIPAA, EU AI Act, NIST CSF, DORA
 slug: happyrobot
 tags:
-- ai-agents
-- agent-orchestration
-- voice-ai
-- conversational-ai
-- logistics
-- freight
-- supply-chain
-- workflow-automation
-- contact-center
-- telephony
-- mcp
+- AI Agents
+- Agent Orchestration
+- Voice AI
+- Conversational AI
+- Logistics
+- Freight
+- Supply Chain
+- Workflow-Automation
+- Contact Center
+- Telephony
+- MCP
 - agent-native
-- agent-governance
-- enterprise-automation
+- Agent Governance
+- Enterprise Automation
 website: https://www.happyrobot.ai/
 ---

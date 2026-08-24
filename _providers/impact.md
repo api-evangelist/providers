@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: 'REST API for brands and advertisers: partners, programs, contracts, actions and conversions, deals, promo codes, catalogs, ads, tracking links, invoices, exception lists, reports and bulk export jobs.'
@@ -252,14 +252,14 @@ jsonld:
   slug: impact-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: impact-mcp.yml
-  slug: impact-mcpyml
+- description: First-party remote Model Context Protocol server for the impact.com partnership management platform. Exposes account-scoped tools for performance analytics, invoices, partner and program discovery, pr
+  name: impact.com MCP Server
+  slug: impactcom-mcp-server
 modified: '2026-08-13'
 name: Impact
 nav: Providers
 network: true
-overview: 'Impact publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Brand API, Partner API, Agency API, and 1 more. Tagged areas include Affiliate, Partnerships, Performance Marketing, Commission, and Tracking.
+overview: 'Impact publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Brand API, Partner API, Agency API, and 1 more. Tagged areas include Affiliates, Partnerships, Performance Marketing, Commission, and Tracking.
 
 
   The Impact catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -283,7 +283,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.3
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -293,7 +293,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 94.7
-  previous_composite: 69.0
+  previous_composite: 68.3
   provenance:
     conformance: derived
     contracts:
@@ -303,8 +303,8 @@ score:
       total: 69
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/screenshots/impact-2026-06-20T183254.png
 security:
@@ -326,7 +326,7 @@ security:
   summary_line: SOC 1 Type II, ISO/IEC 27001:2022, PCI DSS Level 4
 slug: impact
 tags:
-- Affiliate
+- Affiliates
 - Partnerships
 - Performance Marketing
 - Commission

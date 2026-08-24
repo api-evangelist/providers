@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 17
 apis:
 - description: 'The Hummingbot API is a FastAPI backend service (default port 8000) that orchestrates multiple trading bots and exposes REST routers for accounts and exchange credentials, trading (orders, positions, '
@@ -242,9 +242,9 @@ description: 'Hummingbot is an open source Python framework, maintained by the H
 image: https://github.com/hummingbot.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: hummingbot-mcp.yml
-  slug: hummingbot-mcpyml
+- description: Hummingbot maintains an official Model Context Protocol (MCP) server that lets MCP clients (Claude, Gemini CLI, Claude Code) drive Hummingbot for automated crypto trading across exchanges. It is a std
+  name: Hummingbot MCP Server
+  slug: hummingbot-mcp-server
 modified: '2026-07-19'
 name: Hummingbot
 nav: Providers
@@ -287,8 +287,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/screenshots/hummingbot-2026-07-25T221727.png
 security:
@@ -308,7 +308,7 @@ tags:
 - Blockchain
 - DeFi
 - DEX
-- Open Source
+- Open-Source
 - Market Making
 - Algorithmic Trading
 - Bots

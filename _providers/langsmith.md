@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 343
   human_in_the_loop: 14
@@ -539,7 +539,7 @@ modified: '2026-05-19'
 name: LangSmith
 nav: Providers
 network: true
-overview: 'LangSmith publishes 73 APIs on the [APIs.io](https://apis.io/) network, including access_policies API, ace API, agents API, and 70 more. Tagged areas include AI, LLM, Observability, Evaluations, and LangChain.
+overview: 'LangSmith publishes 73 APIs on the [APIs.io](https://apis.io/) network, including access_policies API, ace API, agents API, and 70 more. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluations, and LangChain.
 
 
   LangSmith''s developer surface includes authentication, documentation, pricing, engineering blog, and 6 more developer resources.'
@@ -555,7 +555,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.3
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -565,7 +565,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 30.8
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -573,8 +573,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/screenshots/langsmith-2026-06-20T184315.png
 security:
@@ -588,7 +588,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: langsmith
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
 - Evaluations

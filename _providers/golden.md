@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,8 +174,8 @@ image: https://golden.com/static/images/38d57130206f78fb48c9.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: golden-mcp.yml
-  slug: golden-mcpyml
+  name: Golden MCP Server
+  slug: golden-mcp-server
 modified: '2026-08-14'
 name: Golden
 nav: Providers
@@ -196,7 +196,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.2
-  delta: -14.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -206,7 +206,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 51.9
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,9 +217,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/screenshots/golden-2026-07-25T220025.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -509,18 +509,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.0
-  delta: -4.7
+  composite: 46.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 66.7
     developer_ergonomics: 57.1
     discoverability: 55.6
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 50.7
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -528,8 +528,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/screenshots/red-hat-satellite-2026-06-20T192721.png
 security:

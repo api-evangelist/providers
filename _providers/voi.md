@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Deep-integration Mobility-as-a-Service API for partners to complete full user journeys inside their own apps - register users, discover vehicles by zone, get per-vehicle pricing, start and end rentals
@@ -187,7 +187,7 @@ modified: '2026-08-08'
 name: Voi
 nav: Providers
 network: true
-overview: 'Voi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Micromobility, E-Scooters, E-Bikes, Mobility-as-a-Service, and Transportation.
+overview: 'Voi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Micromobility, E-Scooters, E-Bikes, Mobility As A Service, and Transportation.
 
 
   Voi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
@@ -195,7 +195,7 @@ random_paper: 19
 score:
   band: thin
   composite: 29.9
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -205,11 +205,11 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 28.4
+  previous_composite: 29.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-2026-06-20T201128.png
 security:
@@ -226,7 +226,7 @@ tags:
 - Micromobility
 - E-Scooters
 - E-Bikes
-- Mobility-as-a-Service
+- Mobility As A Service
 - Transportation
 - GBFS
 - MDS

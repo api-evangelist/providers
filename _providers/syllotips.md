@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-21'
 name: SylloTips
 nav: Providers
 network: true
-overview: 'SylloTips is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Knowledge Management, Enterprise AI, and AI Agents.
+overview: 'SylloTips is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Knowledge-Management, Enterprise AI, and AI Agents.
 
 
   SylloTips'' developer surface includes engineering blog, signup flow, and 3 more developer resources.'
@@ -85,19 +85,19 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 12.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 slug: syllotips
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge Management
+- Knowledge-Management
 - Enterprise AI
 - AI Agents
 - RAG
 - Human-in-the-Loop
-- Microsoft 365
+- Microsoft-365
 - IT Support
 - Customer Experience
 website: https://syllotips.com/

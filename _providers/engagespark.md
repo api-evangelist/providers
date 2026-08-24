@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -173,8 +173,8 @@ image: https://www.engagespark.com/wp-content/uploads/2017/03/engagespark_logo_s
 layout: provider
 mcp_servers:
 - description: ''
-  name: engagespark-mcp.yml
-  slug: engagespark-mcpyml
+  name: engageSPARK MCP Server
+  slug: engagespark-mcp-server
 modified: '2026-07-19'
 name: engageSPARK
 nav: Providers
@@ -190,7 +190,7 @@ random_paper: 5
 score:
   band: thin
   composite: 31.8
-  delta: -10.1
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.9
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,9 +217,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/screenshots/engagespark-2026-07-25T213341.png
 security:
 - kind: authentication

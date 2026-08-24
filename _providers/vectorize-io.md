@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -153,7 +153,7 @@ modified: '2026-06-20'
 name: Vectorize
 nav: Providers
 network: true
-overview: 'Vectorize publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AI Platform Connectors API, Destination Connectors API, Extraction API, and 5 more. Tagged areas include AI, RAG, Vectorization, Embeddings, and Retrieval.
+overview: 'Vectorize publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AI Platform Connectors API, Destination Connectors API, Extraction API, and 5 more. Tagged areas include Artificial Intelligence, RAG, Vectorization, Embeddings, and Retrieval.
 
 
   Vectorize''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.7
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -179,7 +179,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.4
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/screenshots/vectorize-io-2026-06-20T200845.png
 security:
@@ -202,7 +202,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: vectorize-io
 tags:
-- AI
+- Artificial Intelligence
 - RAG
 - Vectorization
 - Embeddings

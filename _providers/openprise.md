@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API Factory turns any Openprise Job or Bot into a REST endpoint with a single "Enable API" action. The caller sends an HTTP POST carrying a JSON array of records and receives a JSON array of processed
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.4
-  delta: 6.1
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
@@ -184,13 +184,13 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 33.3
+  previous_composite: 39.4
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprise/refs/heads/main/screenshots/openprise-2026-06-20T191021.png
 security:
 - kind: authentication
@@ -214,8 +214,8 @@ tags:
 - Data Enrichment
 - Deduplication
 - Marketing Operations
-- RevOps
+- Revenue Operations
 - Sales Operations
-- Go To Market
+- Go-To-Market
 website: https://www.openprisetech.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 11
 apis:
 - description: Core indexing and search API for adding, updating, and deleting records and querying them with typo-tolerant, faceted, geo-aware, and rule-driven search served from globally distributed search nodes (
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.0
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -155,9 +155,9 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 20.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 20.0
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/screenshots/algolia-2026-06-20T171526.png
 security:
@@ -172,6 +172,6 @@ tags:
 - Recommendations
 - Personalization
 - Analytics
-- Ecommerce
+- E-Commerce
 website: https://www.algolia.com
 ---

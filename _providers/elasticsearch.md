@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -278,8 +278,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elasticsea
 layout: provider
 mcp_servers:
 - description: ''
-  name: elasticsearch-mcp.yml
-  slug: elasticsearch-mcpyml
+  name: Elasticsearch MCP Server
+  slug: elasticsearch-mcp-server
 modified: '2026-06-20'
 name: Elasticsearch
 nav: Providers
@@ -300,7 +300,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.6
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -310,7 +310,7 @@ score:
     discoverability: 79.6
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 49.2
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,8 +320,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/screenshots/elasticsearch-2026-06-20T180540.png
 security:

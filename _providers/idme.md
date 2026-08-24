@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: ID.me's OpenID Connect and OAuth 2.0 identity provider. Supports the authorization code flow (with PKCE), refresh tokens, encrypted ID tokens and userinfo, and returns verified identity attributes and
@@ -165,9 +165,9 @@ description: ID.me is a digital identity network that provides NIST 800-63-3 IAL
 image: https://avatars.githubusercontent.com/u/295660?v=4
 layout: provider
 mcp_servers:
-- description: ''
-  name: idme-mcp.yml
-  slug: idme-mcpyml
+- description: Official hosted MCP server for the ID.me developer documentation, advertised in docs.id.me/llms.txt for AI client integration (Claude Code, Cursor, etc.). Surfaces the ID.me integration docs — OIDC/OA
+  name: ID.me Developer Docs
+  slug: idme-developer-docs
 modified: '2026-07-19'
 name: ID.me
 nav: Providers
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 52.3
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -198,7 +198,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 50.3
+  previous_composite: 52.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -208,8 +208,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 70.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/screenshots/idme-2026-08-17T123853.png
 security:
@@ -232,7 +232,6 @@ tags:
 - Identity Verification
 - Authentication
 - OpenID Connect
-- OAuth 2.0
 - SAML
 - Single Sign-On
 - Digital Identity

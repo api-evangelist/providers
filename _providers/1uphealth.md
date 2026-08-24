@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 10
 apis:
 - description: 1upHealth's managed HL7 FHIR R4 (4.0.1) REST API cloud server, exposing 144 FHIR resource types with SMART-on-FHIR OAuth 2.0 security. Publishes a live CapabilityStatement at /fhir/r4/metadata.
@@ -269,8 +269,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: 1uphealth-mcp.yml
-  slug: 1uphealth-mcpyml
+  name: 1upHealth MCP Server
+  slug: 1uphealth-mcp-server
 modified: '2026-08-14'
 name: 1upHealth
 nav: Providers
@@ -299,7 +299,7 @@ scopes:
 score:
   band: exemplar
   composite: 76.5
-  delta: 7.8
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -309,7 +309,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 68.7
+  previous_composite: 76.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -320,9 +320,9 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/screenshots/1uphealth-2026-07-25T181115.png
 security:
 - kind: authentication

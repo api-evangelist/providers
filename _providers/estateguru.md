@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Estateguru
 nav: Providers
 network: true
-overview: 'Estateguru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Crowdfunding, P2P Lending, and Fintech.
+overview: 'Estateguru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Crowdfunding, P2P Lending, and Fintech.
 
 
   Estateguru''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 5
 score:
   band: minimal
   composite: 6.7
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -96,15 +96,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 13.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 6.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/estateguru/refs/heads/main/screenshots/estateguru-2026-07-25T213638.png
 slug: estateguru
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Crowdfunding
 - P2P Lending
 - Fintech

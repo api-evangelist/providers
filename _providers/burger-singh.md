@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,13 +176,13 @@ image: https://www.burgersinghonline.com/wp-content/uploads/2024/04/cropped-logo
 layout: provider
 mcp_servers:
 - description: ''
-  name: burger-singh-mcp.yml
-  slug: burger-singh-mcpyml
+  name: Burger Singh MCP Server
+  slug: burger-singh-mcp-server
 modified: '2026-08-08'
 name: Burger Singh
 nav: Providers
 network: true
-overview: 'Burger Singh publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Media API, Taxonomy API, and 3 more. Tagged areas include Company, Restaurants, Quick Service Restaurant, Food and Beverage, and Franchising.
+overview: 'Burger Singh publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Media API, Taxonomy API, and 3 more. Tagged areas include Company, Restaurant, Quick Service Restaurant, Food and Beverage, and Franchising.
 
 
   Burger Singh''s developer surface includes support, authentication, code examples, and 19 more developer resources.'
@@ -190,7 +190,7 @@ random_paper: 11
 score:
   band: thin
   composite: 33.1
-  delta: 3.4
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 29.7
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +211,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -226,7 +226,7 @@ security:
 slug: burger-singh
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Quick Service Restaurant
 - Food and Beverage
 - Franchising

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Modeled view of Whova's attendee integration surface. Whova exposes attendee data to organizers only through the Zapier CRM integration - a Get Attendees trigger that fires when the attendee list chan
@@ -81,7 +81,7 @@ modified: '2026-07-25'
 name: Whova
 nav: Providers
 network: true
-overview: 'Whova publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Events, Event Management, Event App, Registration, and Conferences.
+overview: 'Whova publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event Management, Event App, Registration, and Conferences.
 
 
   Whova''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -93,7 +93,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 12.5
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -103,9 +103,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 12.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -114,7 +114,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: whova
 tags:
-- Events
+- Event
 - Event Management
 - Event App
 - Registration

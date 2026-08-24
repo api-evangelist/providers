@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -204,13 +204,13 @@ image: https://cdn.prod.website-files.com/65c76d4633ca994639a589c7/65e2220541631
 layout: provider
 mcp_servers:
 - description: ''
-  name: even-financial-mcp.yml
-  slug: even-financial-mcpyml
+  name: Even Financial MCP Server
+  slug: even-financial-mcp-server
 modified: '2026-07-19'
 name: Even Financial
 nav: Providers
 network: true
-overview: 'Even Financial publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Approval Probability API, Lead API, and 3 more. Tagged areas include Company, Financial Services, Embedded Finance, Fintech, and Lending.
+overview: 'Even Financial publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Approval Probability API, Lead API, and 3 more. Tagged areas include Company, Financial-Services, Embedded Finance, Fintech, and Lending.
 
 
   The Even Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -221,7 +221,7 @@ random_paper: 1
 score:
   band: developing
   composite: 51.5
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 48.5
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/screenshots/even-financial-2026-07-25T213723.png
 security:
@@ -264,7 +264,7 @@ security:
 slug: even-financial
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - Fintech
 - Lending

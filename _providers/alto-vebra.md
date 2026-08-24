@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ modified: '2026-07-26'
 name: Alto (Vebra / Zoopla)
 nav: Providers
 network: true
-overview: 'Alto (Vebra / Zoopla) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Alto API, Zoopla Leads API, Zoopla Premium Listing Activations API, and 1 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Listings, and CRM.
+overview: 'Alto (Vebra / Zoopla) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Alto API, Zoopla Leads API, Zoopla Premium Listing Activations API, and 1 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Listings, and CRM.
 
 
   The Alto (Vebra / Zoopla) catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -264,7 +264,7 @@ scopes:
 score:
   band: developing
   composite: 50.5
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -274,7 +274,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 49.9
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +285,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/screenshots/alto-vebra-2026-08-07T161256.png
 security:
@@ -304,7 +304,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: alto-vebra
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Listings
@@ -314,8 +314,8 @@ tags:
 - Conveyancing
 - Estate Agency
 - Tenancy
-- Webhooks
-- Events
+- Webhook
+- Event
 - Lettings
 - Sales Progression
 - Property Data

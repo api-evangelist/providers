@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -331,7 +331,7 @@ modified: '2026-05-25'
 name: Continue
 nav: Providers
 network: true
-overview: 'Continue publishes 1 API on the [APIs.io](https://apis.io/) network: Ide API. Tagged areas include AI, Artificial Intelligence, Developer Tools, Code Assistant, and Open Source.
+overview: 'Continue publishes 1 API on the [APIs.io](https://apis.io/) network: Ide API. Tagged areas include Artificial Intelligence, Developer Tools, Code Assistant, Open-Source, and VS Code.
 
 
   The Continue catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -371,18 +371,18 @@ rules:
   slug: continue-dev-rules
 score:
   band: developing
-  composite: 48.6
-  delta: -8.6
+  composite: 49.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.0
     developer_ergonomics: 57.1
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 57.2
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     contracts:
@@ -390,9 +390,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/screenshots/continue-dev-2026-06-20T174940.png
 security:
 - kind: authentication
@@ -412,11 +412,10 @@ solutions:
 - description: Centralize team assistants on Continue Hub instead of per-engineer config sprawl.
   name: Hub-managed assistant distribution
 tags:
-- AI
 - Artificial Intelligence
 - Developer Tools
 - Code Assistant
-- Open Source
+- Open-Source
 - VS Code
 - JetBrains
 - CLI

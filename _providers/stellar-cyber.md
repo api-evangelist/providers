@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -274,19 +274,19 @@ rules:
     warn: 8
   slug: stellar-cyber-rules
 score:
-  band: thin
-  composite: 39.1
-  delta: -9.3
+  band: developing
+  composite: 39.5
+  delta: 0.0
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 63.7
     developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 48.4
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -294,9 +294,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/screenshots/stellar-cyber-2026-06-20T194541.png
 security:
 - kind: authentication
@@ -318,6 +318,6 @@ tags:
 - XDR
 - SIEM
 - SOAR
-- AI
+- Artificial Intelligence
 website: https://stellarcyber.ai/
 ---

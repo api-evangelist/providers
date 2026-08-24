@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -185,9 +185,9 @@ description: FreightWaves is a supply-chain, logistics, and transportation news 
 image: https://www.freightwaves.com/wp-content/uploads/2020/01/FreightWaves-1.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: freight-waves-mcp.yml
-  slug: freight-waves-mcpyml
+- description: FreightWaves hosts a remote MCP server exposing SONAR freight-market intelligence to agents. The endpoint is protected by OAuth 2.1 (bearer) with the mcp:read scope; unauthenticated requests return 40
+  name: Freight Waves MCP Server
+  slug: freight-waves-mcp-server
 modified: '2026-07-19'
 name: Freight Waves
 nav: Providers
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 53.1
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -219,7 +219,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 52.1
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +236,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/screenshots/freight-waves-2026-07-25T215152.png
 security:
@@ -260,6 +260,6 @@ tags:
 - Market Data
 - Analytics
 - Freight Rates
-- SONAR
+- Sonar
 website: https://freightwaves.com
 ---

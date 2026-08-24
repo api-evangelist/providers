@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: CoinGecko/CMC-style aggregator market-data feed.
@@ -146,13 +146,13 @@ image: https://avatars.githubusercontent.com/u/70023182?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: overlay-mcp.yml
-  slug: overlay-mcpyml
+  name: Overlay MCP Server
+  slug: overlay-mcp-server
 modified: '2026-07-20'
 name: Overlay
 nav: Providers
 network: true
-overview: 'Overlay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Aggregator API, Charts API, and Markets API. Tagged areas include Company, Defi, DeFi, Perpetual Futures, and Derivatives.
+overview: 'Overlay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Aggregator API, Charts API, and Markets API. Tagged areas include Company, DeFi, Perpetual Futures, Derivatives, and Trading.
 
 
   Overlay''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
@@ -160,7 +160,7 @@ random_paper: 14
 score:
   band: thin
   composite: 33.6
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -170,7 +170,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 33.7
+  previous_composite: 33.6
   provenance:
     conformance: derived
     contracts:
@@ -186,8 +186,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/screenshots/overlay-2026-08-07T191129.png
 security:
@@ -202,7 +202,6 @@ security:
 slug: overlay
 tags:
 - Company
-- Defi
 - DeFi
 - Perpetual Futures
 - Derivatives

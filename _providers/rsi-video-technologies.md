@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,6 +59,7 @@ random_paper: 17
 score:
   band: minimal
   composite: 4.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -68,8 +69,10 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 4.6
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Rsi Video Technologies Domain Security

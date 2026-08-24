@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-05-19'
 name: Volcano
 nav: Providers
 network: true
-overview: 'Volcano publishes 3 APIs on the [APIs.io](https://apis.io/) network: Jobs API, PodGroups API, and Queues API. Tagged areas include Batch Processing, Cloud Native, HPC, Incubating, and Kubernetes.
+overview: 'Volcano publishes 3 APIs on the [APIs.io](https://apis.io/) network: Jobs API, PodGroups API, and Queues API. Tagged areas include Batch Processing, Cloud-Native, HPC, Incubating, and Kubernetes.
 
 
   The Volcano catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -211,18 +211,18 @@ rules:
   slug: volcano-rules
 score:
   band: thin
-  composite: 35.0
-  delta: -5.2
+  composite: 35.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 63.6
     developer_ergonomics: 26.2
     discoverability: 72.2
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 40.2
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -230,9 +230,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/screenshots/volcano-2026-06-20T201130.png
 security:
 - kind: domain-security
@@ -242,11 +242,11 @@ security:
 slug: volcano
 tags:
 - Batch Processing
-- Cloud Native
+- Cloud-Native
 - HPC
 - Incubating
 - Kubernetes
 - Scheduling
-- Machine Learning
+- Machine-Learning
 website: https://volcano.sh/en/
 ---

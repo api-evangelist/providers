@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The Lafz direct-to-consumer storefront on Shopify, with an agent-commerce surface over the Universal Commerce Protocol (UCP) MCP server plus read-only product/collection JSON endpoints and Shopify cus
@@ -98,9 +98,9 @@ description: 'Lafz is a halal-certified cosmetics and personal-care brand, found
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-lafz.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: the-lafz-mcp.yml
-  slug: the-lafz-mcpyml
+- description: Hosted Model Context Protocol server exposing the Lafz storefront as agent-callable shopping tools via the Universal Commerce Protocol (ucp.dev). Buyer approval is required to complete any payment.
+  name: Lafz Shopping MCP (Shopify UCP)
+  slug: lafz-shopping-mcp-shopify-ucp
 modified: '2026-07-21'
 name: The Lafz
 nav: Providers
@@ -113,7 +113,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 16.0
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -123,13 +123,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 16.7
+  previous_composite: 16.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

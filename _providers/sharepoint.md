@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -429,13 +429,13 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: sharepoint-mcp.yml
-  slug: sharepoint-mcpyml
+  name: Work IQ SharePoint
+  slug: work-iq-sharepoint
 modified: '2026-06-20'
 name: Microsoft SharePoint
 nav: Providers
 network: true
-overview: 'Microsoft SharePoint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Files API, Items API, Lists API, and 3 more. Tagged areas include Collaboration, Document Management, Enterprise Content Management, Intranet, and Microsoft.
+overview: 'Microsoft SharePoint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Files API, Items API, Lists API, and 3 more. Tagged areas include Collaboration, Document-Management, Enterprise Content Management, Intranet, and Microsoft.
 
 
   The Microsoft SharePoint catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -462,13 +462,13 @@ rules:
     info: 2
     warn: 3
   slug: sharepoint-jsonschema-spectral-rules
-- effective_rule_count: 61
+- effective_rule_count: 60
   extends:
   - spectral:oas
   name: Microsoft SharePoint API Rules
-  rule_count: 20
+  rule_count: 19
   severity_counts:
-    error: 14
+    error: 13
     hint: 0
     info: 1
     warn: 5
@@ -480,18 +480,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.0
-  delta: -10.0
+  composite: 33.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 26.5
+    contract_governance: 30.3
     contract_quality: 20.4
     developer_ergonomics: 45.2
     discoverability: 64.8
-    governance: 26.5
+    governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 43.0
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -501,9 +501,9 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/screenshots/sharepoint-2026-06-20T193748.png
 security:
 - kind: authentication
@@ -532,7 +532,7 @@ solutions:
   name: SharePoint Framework (SPFx)
 tags:
 - Collaboration
-- Document Management
+- Document-Management
 - Enterprise Content Management
 - Intranet
 - Microsoft

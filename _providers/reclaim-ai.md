@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 348
   human_in_the_loop: 16
@@ -694,7 +694,7 @@ modified: '2026-06-13'
 name: Reclaim.ai
 nav: Providers
 network: true
-overview: 'Reclaim.ai publishes 83 APIs on the [APIs.io](https://apis.io/) network, including account-time-schemes API, accounts API, action-items API, and 80 more. Tagged areas include AI, Scheduling, Calendar, Productivity, and Tasks.
+overview: 'Reclaim.ai publishes 83 APIs on the [APIs.io](https://apis.io/) network, including account-time-schemes API, accounts API, action-items API, and 80 more. Tagged areas include Artificial Intelligence, Scheduling, Calendar, Productivity, and Task.
 
 
   The Reclaim.ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -729,7 +729,7 @@ scopes:
 score:
   band: developing
   composite: 39.3
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -739,7 +739,7 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 44.7
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -747,9 +747,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 83
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/screenshots/reclaim-ai-2026-06-20T192710.png
 security:
 - kind: authentication
@@ -770,11 +770,11 @@ security:
   summary_line: SOC 2, GDPR
 slug: reclaim-ai
 tags:
-- AI
+- Artificial Intelligence
 - Scheduling
 - Calendar
 - Productivity
-- Tasks
+- Task
 - Habits
 - Time Management
 - Meetings

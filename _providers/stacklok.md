@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 8
@@ -138,13 +138,13 @@ description: 'Stacklok is a company surfaced as a portfolio company of accel, ba
 layout: provider
 mcp_servers:
 - description: ''
-  name: stacklok-mcp.yml
-  slug: stacklok-mcpyml
+  name: Stacklok MCP Server
+  slug: stacklok-mcp-server
 modified: '2026-07-17'
 name: Stacklok
 nav: Providers
 network: true
-overview: Stacklok publishes 13 APIs on the [APIs.io](https://apis.io/) network, including clients API, discovery API, groups API, and 10 more. Tagged areas include Company and Open Source.
+overview: Stacklok publishes 13 APIs on the [APIs.io](https://apis.io/) network, including clients API, discovery API, groups API, and 10 more. Tagged areas include Company and Open-Source.
 random_paper: 20
 score:
   band: emerging
@@ -170,8 +170,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -185,6 +185,6 @@ security:
 slug: stacklok
 tags:
 - Company
-- Open Source
+- Open-Source
 website: https://www.stacklok.com/
 ---

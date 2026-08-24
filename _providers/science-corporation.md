@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'A flexible, powerful standard gRPC / Protocol Buffers API for neural interface devices. The SynapseDevice service exposes device discovery, info, configuration of on-device signal chains, start/stop, '
@@ -73,9 +73,9 @@ description: Science Corporation is a neurotechnology company founded in 2021 by
 image: https://science.xyz/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: science-corporation-mcp.yml
-  slug: science-corporation-mcpyml
+- description: Candidate MCP tool surface derived one-to-one from the SynapseDevice gRPC service. Science Corporation does not publish a hosted/remote MCP server; this is a proposed local (stdio) wrapper over synaps
+  name: Science Corporation MCP Server
+  slug: science-corporation-mcp-server
 modified: '2026-07-21'
 name: Science Corporation
 nav: Providers
@@ -88,7 +88,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 23.0
-  delta: 7.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -98,7 +98,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 15.8
+  previous_composite: 23.0
   provenance:
     conformance: derived
     mcp: derived
@@ -109,9 +109,9 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Science Corporation Domain Security

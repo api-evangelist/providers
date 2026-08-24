@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: REST API and tooling for Cucumber BDD framework supporting test-first development with Gherkin feature files, scenario definitions, and step implementations.
@@ -184,7 +184,7 @@ rules:
 score:
   band: thin
   composite: 27.1
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -194,10 +194,10 @@ score:
     discoverability: 81.5
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 33.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 27.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-first/refs/heads/main/screenshots/test-first-2026-06-20T195144.png
 security:
 - kind: domain-security

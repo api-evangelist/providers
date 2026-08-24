@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -148,7 +148,7 @@ modified: '2026-08-04'
 name: Glytec
 nav: Providers
 network: true
-overview: 'Glytec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, healthcare, health-it, clinical-decision-support, and diabetes.
+overview: 'Glytec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Clinical Decision Support, and Diabetes.
 
 
   Glytec''s developer surface includes support, FAQ, engineering blog, and 26 more developer resources.'
@@ -156,7 +156,7 @@ random_paper: 18
 score:
   band: emerging
   composite: 23.4
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -166,7 +166,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 21.1
+  previous_composite: 23.4
   provenance:
     conformance: first-party
   regulatory:
@@ -175,8 +175,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glytec/refs/heads/main/screenshots/glytec-2026-08-07T165752.png
 security:
@@ -191,16 +191,16 @@ security:
 slug: glytec
 tags:
 - Company
-- healthcare
-- health-it
-- clinical-decision-support
-- diabetes
-- insulin-management
+- Healthcare
+- Health IT
+- Clinical Decision Support
+- Diabetes
+- Insulin Management
 - glycemic-management
-- hospital
-- ehr-integration
-- hl7
-- medical-device
-- software-as-a-medical-device
+- Hospital
+- EHR Integration
+- HL7
+- Medical Device
+- Software as a Medical Device
 website: https://glytec.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -353,18 +353,18 @@ rules:
   slug: people-inc-rss-rules
 score:
   band: developing
-  composite: 45.2
-  delta: -2.1
+  composite: 45.7
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
-    contract_governance: 43.2
+    contract_governance: 47.0
     contract_quality: 19.7
     developer_ergonomics: 16.7
     discoverability: 92.6
-    governance: 43.2
+    governance: 47.0
     operational_transparency: 28.9
-  previous_composite: 47.3
+  previous_composite: 45.7
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -374,8 +374,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 52.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/screenshots/meredith-2026-08-17T124148.png
 security:
@@ -398,9 +398,9 @@ tags:
 - Lifestyle
 - News
 - RSS
-- Sitemaps
+- Sitemap
 - Robots
 - AI Policy
-- IAC
+- IaC
 website: https://www.people.inc/
 ---

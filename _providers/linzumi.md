@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The private product API behind the Linzumi web workspace and the local Commander runner, served from serve.linzumi.com under a /api/v2 URI-versioned path. It is not a published developer API — there i
@@ -104,8 +104,8 @@ image: https://storage.googleapis.com/ployai/d195dfe3-6a0f-4051-8d67-1a4376685f6
 layout: provider
 mcp_servers:
 - description: ''
-  name: linzumi-mcp.yml
-  slug: linzumi-mcpyml
+  name: Linzumi MCP Server
+  slug: linzumi-mcp-server
 modified: '2026-07-19'
 name: Linzumi
 nav: Providers
@@ -118,7 +118,7 @@ random_paper: 20
 score:
   band: emerging
   composite: 16.8
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -128,11 +128,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 19.5
+  previous_composite: 16.8
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linzumi/refs/heads/main/screenshots/linzumi-2026-07-25T225305.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for full programmatic access to TrueContext (ProntoForms) forms, submissions, users, and dispatch, available on the Elite tier. Supports HTTP GET/POST for bidirectional data, webhooks to push
@@ -145,29 +145,29 @@ modified: '2026-07-21'
 name: TrueContext
 nav: Providers
 network: true
-overview: 'TrueContext publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Field Service, Mobile Forms, Workflow Automation, and Data Collection.
+overview: 'TrueContext publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Field Service, Mobile Forms, Workflow-Automation, and Data Collection.
 
 
   TrueContext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 33.5
-  delta: -1.9
+  composite: 34.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 48.8
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 35.4
+  previous_composite: 34.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -187,7 +187,7 @@ tags:
 - Company
 - Field Service
 - Mobile Forms
-- Workflow Automation
+- Workflow-Automation
 - Data Collection
 - Field Intelligence
 - Low-Code

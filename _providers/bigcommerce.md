@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 341
   human_in_the_loop: 2
@@ -4031,7 +4031,7 @@ modified: '2026-05-30'
 name: BigCommerce
 nav: Providers
 network: true
-overview: 'BigCommerce publishes 153 APIs on the [APIs.io](https://apis.io/) network, including Abandoned Cart Emails API, Abandoned Cart Settings API, Abandoned Carts API, and 150 more. Tagged areas include E-Commerce, Retail, Catalog, Orders, and Checkout.
+overview: 'BigCommerce publishes 153 APIs on the [APIs.io](https://apis.io/) network, including Abandoned Cart Emails API, Abandoned Cart Settings API, Abandoned Carts API, and 150 more. Tagged areas include E-Commerce, Retail, Catalog, Order, and Checkout.
 
 
   The BigCommerce catalog on APIs.io includes 1 event-driven AsyncAPI specification and 3 Spectral governance rulesets.
@@ -4082,18 +4082,18 @@ rules:
   slug: bigcommerce-spectral-rules
 score:
   band: developing
-  composite: 44.1
-  delta: -0.5
+  composite: 44.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 26.5
+    contract_governance: 28.8
     contract_quality: 70.4
     developer_ergonomics: 45.2
     discoverability: 68.5
-    governance: 26.5
+    governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 44.6
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -4107,8 +4107,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/screenshots/bigcommerce-2026-06-20T173231.png
 security:
@@ -4129,10 +4129,10 @@ tags:
 - E-Commerce
 - Retail
 - Catalog
-- Orders
+- Order
 - Checkout
 - Payments
-- SaaS
+- Software-as-a-Service
 use_cases:
 - description: Build custom storefronts powered by BigCommerce APIs and GraphQL.
   name: Headless Commerce

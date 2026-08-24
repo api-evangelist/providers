@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -218,8 +218,8 @@ image: https://clusters.xyz/assets/images/apple/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: clusters-mcp.yml
-  slug: clusters-mcpyml
+  name: Clusters MCP Server
+  slug: clusters-mcp-server
 modified: '2026-07-18'
 name: Clusters
 nav: Providers
@@ -232,7 +232,7 @@ random_paper: 3
 score:
   band: thin
   composite: 38.4
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -242,7 +242,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 48.4
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,9 +259,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/screenshots/clusters-2026-07-25T205748.png
 security:
 - kind: authentication
@@ -284,8 +284,8 @@ tags:
 - Naming
 - Blockchain
 - Web3
-- Wallet
-- Multichain
+- Wallets
+- Multi-Chain
 - Resolver
 website: https://clusters.xyz/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -191,8 +191,8 @@ image: https://cdn.prod.website-files.com/6706a319ca966248529c44be/6a4dc6c17d68b
 layout: provider
 mcp_servers:
 - description: ''
-  name: axle-energy-mcp.yml
-  slug: axle-energy-mcpyml
+  name: Axle Energy MCP Server
+  slug: axle-energy-mcp-server
 modified: '2026-07-18'
 name: Axle Energy
 nav: Providers
@@ -208,7 +208,7 @@ random_paper: 8
 score:
   band: developing
   composite: 39.9
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 35.9
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/screenshots/axle-energy-2026-07-25T202055.png
 security:

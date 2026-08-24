@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-18'
 name: Alma
 nav: Providers
 network: true
-overview: 'Alma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Legal, LegalTech, and Visas.
+overview: 'Alma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Legal, Legal Tech, and Visas.
 
 
   Alma''s developer surface includes engineering blog, pricing, signup flow, support, and 12 more developer resources.'
@@ -112,7 +112,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 19.9
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -122,11 +122,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 19.1
+  previous_composite: 19.9
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alma/refs/heads/main/screenshots/alma-2026-07-25T195730.png
 security:
@@ -139,7 +139,7 @@ tags:
 - Company
 - Immigration
 - Legal
-- LegalTech
+- Legal Tech
 - Visas
 - Global Mobility
 - Compliance

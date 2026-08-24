@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-05-04'
 name: Rithm Capital
 nav: Providers
 network: true
-overview: 'Rithm Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Asset Management, Asset Management, Financial Services, Mortgage, and Real Estate.
+overview: 'Rithm Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Asset Management, Asset Management, Financial-Services, Mortgage, and Real-Estate.
 
 
   Rithm Capital''s developer surface includes engineering blog and 6 more developer resources.'
@@ -87,8 +87,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rithm-capital/refs/heads/main/screenshots/rithm-capital-2026-06-20T193131.png
 security:
@@ -100,9 +100,9 @@ slug: rithm-capital
 tags:
 - Alternative Asset Management
 - Asset Management
-- Financial Services
+- Financial-Services
 - Mortgage
-- Real Estate
+- Real-Estate
 - REIT
 website: https://www.rithmcap.com/
 ---

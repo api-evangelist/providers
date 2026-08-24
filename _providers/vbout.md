@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -292,14 +292,14 @@ description: VBOUT is an AI-enabled marketing automation platform used by agenci
 image: https://developers.vbout.com/images/front/icons/logo-square-114x114.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: vbout-mcp.yml
-  slug: vbout-mcpyml
+- description: Candidate MCP server tool surface for the VBOUT API, derived one tool per operation from the provider-published OpenAPI 3.1.0 document (71 operations across Application, Social Media, Email Marketing,
+  name: VBOUT MCP Server
+  slug: vbout-mcp-server
 modified: '2026-08-13'
 name: VBOUT
 nav: Providers
 network: true
-overview: 'VBOUT publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, AIchatbot API, Application API, and 12 more. Tagged areas include Marketing Automation, Email Marketing, Social Media, Lead Management, and Landing Pages.
+overview: 'VBOUT publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, AIchatbot API, Application API, and 12 more. Tagged areas include Marketing Automation, Email Marketing, Social-Media, Lead Management, and Landing Pages.
 
 
   The VBOUT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -318,7 +318,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.8
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -328,7 +328,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 59.9
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -339,8 +339,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/screenshots/vbout-2026-08-17T082712.png
 security:
@@ -356,12 +356,12 @@ slug: vbout
 tags:
 - Marketing Automation
 - Email Marketing
-- Social Media
+- Social-Media
 - Lead Management
 - Landing Pages
 - Chatbots
 - Contacts
 - Campaigns
-- SaaS
+- Software-as-a-Service
 website: https://vbout.com
 ---

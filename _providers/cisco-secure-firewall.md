@@ -20,7 +20,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -539,8 +539,8 @@ image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jp
 layout: provider
 mcp_servers:
 - description: ''
-  name: cisco-secure-firewall-mcp.yml
-  slug: cisco-secure-firewall-mcpyml
+  name: Cisco Secure Firewall MCP Server
+  slug: cisco-secure-firewall-mcp-server
 modified: '2026-08-19'
 name: Cisco Secure Firewall
 nav: Providers
@@ -560,16 +560,18 @@ rate_limits:
   slug: cisco-secure-firewall-rate-limits
 score:
   band: strong
-  composite: 61.9
+  composite: 58.9
+  delta: -3.0
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
+    access_clarity: 36.8
+    commercial_clarity: 36.8
     contract_governance: 30.3
     contract_quality: 55.1
     developer_ergonomics: 78.0
     discoverability: 75.9
     governance: 30.3
-    operational_transparency: 55.3
+    operational_transparency: 52.6
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -586,8 +588,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Cisco Secure Firewall Authentication

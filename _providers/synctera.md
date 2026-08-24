@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -1648,7 +1648,7 @@ modified: '2026-05-08'
 name: Synctera
 nav: Providers
 network: true
-overview: 'Synctera publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Applications API, and 25 more. Tagged areas include FinTech, BaaS, Banking, Payments, and Card Issuing.
+overview: 'Synctera publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Applications API, and 25 more. Tagged areas include Fintech, Backend-as-a-Service, Banking, Payments, and Card Issuing.
 
 
   The Synctera catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1678,7 +1678,7 @@ rules:
 score:
   band: thin
   composite: 27.6
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -1688,7 +1688,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 33.2
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1702,9 +1702,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/screenshots/synctera-2026-06-20T194825.png
 security:
 - kind: authentication
@@ -1717,8 +1717,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: synctera
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

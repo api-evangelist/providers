@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Agent-driven shopping surface for the Urban Revivo global store, declared in the store's UCP merchant profile and llms.txt. Exposes MCP tools for catalog search, cart creation, and checkout (create/up
@@ -110,14 +110,14 @@ description: 'Urban Revivo is a fast-fashion retailer founded in 2006 in Guangzh
 image: https://global.urbanrevivo.com/cdn/shop/files/990_1_441fc199-d6cf-46a2-8360-121151cad8d2_1200x1200.jpg?v=1627871035
 layout: provider
 mcp_servers:
-- description: ''
-  name: urban-revivo-mcp.yml
-  slug: urban-revivo-mcpyml
+- description: 'Urban Revivo''s global Shopify storefront publishes an agent-facing commerce surface via the Universal Commerce Protocol (UCP). The store''s /llms.txt (mirrored at /agents.md) documents an MCP shopping '
+  name: Urban Revivo MCP Server
+  slug: urban-revivo-mcp-server
 modified: '2026-07-21'
 name: Urban Revivo
 nav: Providers
 network: true
-overview: 'Urban Revivo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, Retail, and eCommerce.
+overview: 'Urban Revivo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, Retail, and E-Commerce.
 
 
   Urban Revivo''s developer surface includes support, FAQ, authentication, and 14 more developer resources.'
@@ -130,7 +130,7 @@ scopes:
 score:
   band: emerging
   composite: 19.7
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -140,12 +140,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 19.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -162,7 +162,7 @@ tags:
 - Consumer
 - Fashion
 - Retail
-- eCommerce
+- E-Commerce
 - Apparel
 - Agentic Commerce
 website: https://global.urbanrevivo.com/

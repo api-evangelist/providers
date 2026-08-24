@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -752,7 +752,7 @@ modified: '2026-05-22'
 name: Prismatic
 nav: Providers
 network: true
-overview: 'Prismatic publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prismatics GraphQL API and Authentication API. Tagged areas include Embedded iPaaS, Integrations, Workflows, Connectors, and AI Agents.
+overview: 'Prismatic publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prismatics GraphQL API and Authentication API. Tagged areas include Embedded iPaaS, Integration, Workflows, Connectors, and AI Agents.
 
 
   The Prismatic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -792,16 +792,16 @@ rules:
   slug: prismatic-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 3.0
+  composite: 62.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 45.5
+    contract_governance: 54.5
     contract_quality: 72.7
     developer_ergonomics: 71.4
     discoverability: 66.7
-    governance: 45.5
+    governance: 54.5
     operational_transparency: 55.3
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -809,7 +809,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 58.3
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
@@ -817,8 +817,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/screenshots/prismatic-2026-06-20T192113.png
 security:
@@ -855,7 +855,7 @@ skills:
 slug: prismatic
 tags:
 - Embedded iPaaS
-- Integrations
+- Integration
 - Workflows
 - Connectors
 - AI Agents

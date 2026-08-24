@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -142,29 +142,29 @@ rules:
     info: 2
     warn: 4
   slug: google-meet-jsonschema-spectral-rules
-- effective_rule_count: 59
+- effective_rule_count: 58
   extends:
   - spectral:oas
   name: Google Meet API Rules
-  rule_count: 18
+  rule_count: 17
   severity_counts:
-    error: 11
+    error: 10
     hint: 0
     info: 2
     warn: 5
   slug: google-meet-spectral-rules
 score:
   band: thin
-  composite: 31.7
-  delta: -8.4
+  composite: 32.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 64.2
     developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 7.9
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -172,7 +172,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 40.1
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -180,9 +180,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/screenshots/google-meet-2026-06-20T182215.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 26
 apis:
 - description: The Actions API from WorkSpan — 2 operation(s) for actions.
@@ -320,8 +320,8 @@ image: https://cdn.prod.website-files.com/6865a78843894cb2dbe5e6ad/69ce55e179374
 layout: provider
 mcp_servers:
 - description: ''
-  name: workspan-mcp.yml
-  slug: workspan-mcpyml
+  name: WorkSpan MCP Server
+  slug: workspan-mcp-server
 modified: '2026-07-21'
 name: WorkSpan
 nav: Providers
@@ -337,7 +337,7 @@ random_paper: 3
 score:
   band: developing
   composite: 51.1
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -347,7 +347,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 50.4
+  previous_composite: 51.1
   provenance:
     conformance: derived
     contracts:
@@ -357,8 +357,8 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/screenshots/workspan-2026-08-17T082946.png
 security:
@@ -382,6 +382,6 @@ tags:
 - Cloud Marketplaces
 - Sales
 - B2B
-- SaaS
+- Software-as-a-Service
 website: https://www.workspan.com/
 ---

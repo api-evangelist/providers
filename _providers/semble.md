@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: GraphQL queries and mutations over the Semble patient record — patients, demographics, phone numbers, relationships, labels, memberships, access groups, allergy records, free-text records, patient doc
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.9
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -184,7 +184,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 51.2
+  previous_composite: 53.9
   provenance:
     conformance: first-party
     skills: derived
@@ -194,8 +194,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/screenshots/semble-2026-08-17T081757.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Read-oriented JSON REST API exposing a Getro network's companies, jobs and contacts, plus shared reference collections (job functions, industry tags, locations). Bearer API-key auth, URI-path versioni
@@ -122,14 +122,14 @@ description: Getro provides talent and hiring software for venture-capital firms
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getro.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: getro-mcp.yml
-  slug: getro-mcpyml
+- description: Candidate MCP server for the Getro Network API v2. Getro does not publish an official hosted/remote MCP server. This is a DERIVED candidate tool list mapped one-to-one from the operations documented o
+  name: Getro MCP Server
+  slug: getro-mcp-server
 modified: '2026-07-19'
 name: Getro
 nav: Providers
 network: true
-overview: 'Getro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Jobs, Talent, Hiring, and Recruiting.
+overview: 'Getro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Talent, Hiring, and Recruiting.
 
 
   Getro''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.7
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -151,11 +151,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 28.6
+  previous_composite: 28.7
   provenance:
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getro/refs/heads/main/screenshots/getro-2026-07-25T215739.png
 security:
@@ -170,7 +170,7 @@ security:
 slug: getro
 tags:
 - Company
-- Jobs
+- Job
 - Talent
 - Hiring
 - Recruiting

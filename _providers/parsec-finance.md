@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Pro GraphQL API for on-chain DeFi and NFT market data — DEX trades, candles, lending markets, liquidity pools and positions, NFT collections and trades, token holders, transfers, transactions, contrac
@@ -111,8 +111,8 @@ image: https://parsec.fi/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: parsec-finance-mcp.yml
-  slug: parsec-finance-mcpyml
+  name: Parsec Finance MCP Server
+  slug: parsec-finance-mcp-server
 modified: '2026-07-20'
 name: Parsec Finance
 nav: Providers
@@ -125,7 +125,7 @@ random_paper: 0
 score:
   band: emerging
   composite: 21.0
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     commercial_clarity: 5.3
@@ -135,7 +135,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 28.9
+  previous_composite: 21.0
   provenance:
     conformance: derived
     mcp: derived
@@ -146,9 +146,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Parsec Finance Authentication

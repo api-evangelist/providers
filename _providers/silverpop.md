@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -249,8 +249,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: silverpop-mcp.yml
-  slug: silverpop-mcpyml
+  name: Silverpop MCP Server
+  slug: silverpop-mcp-server
 modified: '2026-08-13'
 name: Silverpop
 nav: Providers
@@ -295,18 +295,18 @@ rules:
   slug: silverpop-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 2.7
+  composite: 66.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 28.0
+    contract_governance: 31.8
     contract_quality: 61.5
     developer_ergonomics: 48.8
     discoverability: 92.6
-    governance: 28.0
+    governance: 31.8
     operational_transparency: 47.4
-  previous_composite: 62.9
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -322,8 +322,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 51.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/screenshots/silverpop-2026-06-20T193920.png
 security:

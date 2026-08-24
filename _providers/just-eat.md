@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 24
 apis:
 - description: The Attempted Delivery API API from Just Eat — 2 operation(s) for attempted delivery api.
@@ -268,13 +268,13 @@ image: https://logo.clearbit.com/just-eat.com
 layout: provider
 mcp_servers:
 - description: ''
-  name: just-eat-mcp.yml
-  slug: just-eat-mcpyml
+  name: Just Eat MCP Server
+  slug: just-eat-mcp-server
 modified: '2026-07-19'
 name: Just Eat
 nav: Providers
 network: true
-overview: 'Just Eat publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Attempted Delivery API API, Attempted Delivery Webhooks API, Checkout API, and 21 more. Tagged areas include Food Delivery, Restaurants, Marketplace, Logistics, and Orders.
+overview: 'Just Eat publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Attempted Delivery API API, Attempted Delivery Webhooks API, Checkout API, and 21 more. Tagged areas include Food Delivery, Restaurant, Marketplace, Logistics, and Order.
 
 
   The Just Eat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -285,7 +285,7 @@ random_paper: 15
 score:
   band: thin
   composite: 36.0
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -295,7 +295,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 37.9
+  previous_composite: 36.0
   provenance:
     conformance: derived
     contracts:
@@ -305,8 +305,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -320,12 +320,12 @@ security:
 slug: just-eat
 tags:
 - Food Delivery
-- Restaurants
+- Restaurant
 - Marketplace
 - Logistics
-- Orders
+- Order
 - Delivery
-- Point of Sale
-- E-commerce
+- Point-of-Sale
+- E-Commerce
 website: http://www.just-eat.com/
 ---

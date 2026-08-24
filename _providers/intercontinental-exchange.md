@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,8 +177,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/interconti
 layout: provider
 mcp_servers:
 - description: ''
-  name: intercontinental-exchange-mcp.yml
-  slug: intercontinental-exchange-mcpyml
+  name: Intercontinental Exchange MCP Server
+  slug: intercontinental-exchange-mcp-server
 modified: '2026-07-22'
 name: Intercontinental Exchange
 nav: Providers
@@ -215,7 +215,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.2
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 45.9
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,8 +242,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
 security:

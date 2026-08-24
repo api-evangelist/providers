@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -182,18 +182,18 @@ rules:
   slug: trpc-rules
 score:
   band: thin
-  composite: 35.8
-  delta: -6.8
+  composite: 36.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 67.1
     developer_ergonomics: 28.6
     discoverability: 75.9
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 42.6
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -201,9 +201,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/screenshots/trpc-2026-06-20T195747.png
 security:
 - kind: authentication

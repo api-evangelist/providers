@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ modified: '2026-05-29'
 name: Superhero API (akabab)
 nav: Providers
 network: true
-overview: 'Superhero API (akabab) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appearance API, Biography API, Characters API, and 4 more. Tagged areas include Games And Comics, Superheroes, Comic Books, Open Source, and Static API.
+overview: 'Superhero API (akabab) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appearance API, Biography API, Characters API, and 4 more. Tagged areas include Games And Comics, Superheroes, Comic Books, Open-Source, and Static API.
 
 
   The Superhero API (akabab) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -276,18 +276,18 @@ rules:
   slug: superheroes-rules
 score:
   band: thin
-  composite: 30.5
-  delta: -6.3
+  composite: 30.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 59.0
     developer_ergonomics: 0.0
     discoverability: 81.5
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 36.8
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -295,9 +295,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/screenshots/superheroes-2026-06-20T194712.png
 security:
 - kind: domain-security
@@ -309,7 +309,7 @@ tags:
 - Games And Comics
 - Superheroes
 - Comic Books
-- Open Source
+- Open-Source
 - Static API
 - GitHub Pages
 - Public APIs

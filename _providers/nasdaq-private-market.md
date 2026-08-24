@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Tape D is NPM's private-company pricing and valuation dataset — real-time private market pricing integrating primary round data, secondary market transactions, mutual fund marks and 409A valuations ac
@@ -143,7 +143,7 @@ modified: '2026-08-04'
 name: Nasdaq Private Market
 nav: Providers
 network: true
-overview: 'Nasdaq Private Market publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Markets, Secondary Markets, Market Data, and Financial Services.
+overview: 'Nasdaq Private Market publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Markets, Secondary Markets, Market Data, and Financial-Services.
 
 
   Nasdaq Private Market''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
@@ -156,7 +156,7 @@ scopes:
 score:
   band: thin
   composite: 32.9
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -172,7 +172,7 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  previous_composite: 33.9
+  previous_composite: 32.9
   provenance:
     conformance: first-party
   regulatory:
@@ -181,8 +181,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-private-market/refs/heads/main/screenshots/nasdaq-private-market-2026-08-07T184636.png
 security:
@@ -200,7 +200,7 @@ tags:
 - Private Markets
 - Secondary Markets
 - Market Data
-- Financial Services
+- Financial-Services
 - Valuations
 - Pre-IPO Equity
 - Capital Markets

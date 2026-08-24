@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -147,7 +147,7 @@ modified: '2026-07-12'
 name: Midtrans
 nav: Providers
 network: true
-overview: 'Midtrans publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Card Tokenization API, Core API API, GoPay Tokenization API, and 4 more. Tagged areas include Payments, Payment Gateway, Indonesia, Southeast Asia, and Snap.
+overview: 'Midtrans publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Card Tokenization API, Core API API, GoPay Tokenization API, and 4 more. Tagged areas include Payments, Payment Gateway, Indonesia, Southeast Asia, and SNAP.
 
 
   Midtrans'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -173,7 +173,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.5
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/screenshots/midtrans-2026-08-07T172858.png
 security:
@@ -206,7 +206,7 @@ tags:
 - Payment Gateway
 - Indonesia
 - Southeast Asia
-- Snap
+- SNAP
 - E-Wallet
 - Virtual Account
 - Cards

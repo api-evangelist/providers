@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 14
 common:
@@ -92,7 +92,7 @@ modified: '2026-04-19'
 name: Abercrombie and Fitch
 nav: Providers
 network: true
-overview: 'Abercrombie and Fitch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Fashion, E-commerce, Apparel, and Lifestyle.
+overview: 'Abercrombie and Fitch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Fashion, E-Commerce, Apparel, and Lifestyle.
 
 
   Abercrombie and Fitch''s developer surface includes developer portal, engineering blog, release notes, and 5 more developer resources.'
@@ -116,7 +116,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 11.9
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -126,9 +126,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 12.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 11.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abercrombie-and-fitch/refs/heads/main/screenshots/abercrombie-and-fitch-2026-06-20T163159.png
 security:
@@ -140,7 +140,7 @@ slug: abercrombie-and-fitch
 tags:
 - Retail
 - Fashion
-- E-commerce
+- E-Commerce
 - Apparel
 - Lifestyle
 use_cases:

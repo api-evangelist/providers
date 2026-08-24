@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The OpenID Connect / OAuth 2.0 authorization server that fronts sign-in for the Tegus platform. It is an Auth0 tenant operated by AlphaSense (DNS CNAMEs to tegus.alphasense.auth0app.com) and it publis
@@ -125,7 +125,7 @@ scopes:
 score:
   band: emerging
   composite: 19.4
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -135,11 +135,11 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 19.0
+  previous_composite: 19.4
   provenance:
     conformance: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

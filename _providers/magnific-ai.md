@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 10
 common:
@@ -122,7 +122,7 @@ modified: '2026-05-25'
 name: Magnific
 nav: Providers
 network: true
-overview: 'Magnific is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Artificial Intelligence, Image Upscaling, Image Enhancement, and Generative AI.
+overview: 'Magnific is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Image Upscaling, Image Enhancement, Generative AI, and Image-Generation.
 
 
   Magnific''s developer surface includes signup flow, pricing, support, engineering blog, and 14 more developer resources.'
@@ -130,7 +130,7 @@ random_paper: 6
 score:
   band: minimal
   composite: 9.2
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -140,10 +140,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 9.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/screenshots/magnific-ai-2026-06-20T184848.png
 security:
 - kind: domain-security
@@ -152,17 +152,16 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: magnific-ai
 tags:
-- AI
 - Artificial Intelligence
 - Image Upscaling
 - Image Enhancement
 - Generative AI
-- Image Generation
-- Computer Vision
+- Image-Generation
+- Computer-Vision
 - Creative Tools
 - Relight
 - Style Transfer
-- Text To Image
+- Text-to-Image
 - Freepik
 - Spain
 website: https://magnific.ai

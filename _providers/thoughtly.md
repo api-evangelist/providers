@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -336,18 +336,18 @@ rules:
   slug: thoughtly-rules
 score:
   band: strong
-  composite: 56.0
-  delta: -1.8
+  composite: 56.5
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 65.0
     developer_ergonomics: 52.4
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 57.8
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -361,8 +361,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/screenshots/thoughtly-2026-06-20T195315.png
 security:

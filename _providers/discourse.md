@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -228,7 +228,7 @@ modified: '2026-05-19'
 name: Discourse
 nav: Providers
 network: true
-overview: 'Discourse publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Backups API, Badges API, and 13 more. Tagged areas include Communities, Forums, and Open Source.
+overview: 'Discourse publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Backups API, Badges API, and 13 more. Tagged areas include Communities, Forums, and Open-Source.
 
 
   Discourse''s developer surface includes documentation, engineering blog, support, and 15 more developer resources.'
@@ -244,7 +244,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.3
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -254,7 +254,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 33.4
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -262,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/screenshots/discourse-2026-06-20T180038.png
 security:
@@ -283,6 +283,6 @@ slug: discourse
 tags:
 - Communities
 - Forums
-- Open Source
+- Open-Source
 website: https://www.discourse.org/
 ---

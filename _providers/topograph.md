@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -244,8 +244,8 @@ image: https://www.topograph.co/opengraph-image
 layout: provider
 mcp_servers:
 - description: ''
-  name: topograph-mcp.yml
-  slug: topograph-mcpyml
+  name: Topograph MCP Server
+  slug: topograph-mcp-server
 modified: '2026-07-21'
 name: Topograph
 nav: Providers
@@ -266,7 +266,7 @@ scopes:
 score:
   band: strong
   composite: 55.8
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -276,7 +276,7 @@ score:
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 57.5
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,8 +287,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/screenshots/topograph-2026-08-17T082408.png
 security:

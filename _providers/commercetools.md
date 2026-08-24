@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -548,7 +548,7 @@ rules:
 score:
   band: developing
   composite: 42.9
-  delta: -4.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -558,7 +558,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 47.5
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -566,8 +566,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/screenshots/commercetools-2026-06-20T174814.png
 security:

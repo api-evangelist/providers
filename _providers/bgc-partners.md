@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: FMX Futures Exchange launched September 23, 2024, initially listing SOFR futures (the largest notional futures contract in the world) and adding U.S. Treasury futures in Q1 2025. Equity partners inclu
@@ -160,7 +160,7 @@ modified: '2026-05-23'
 name: BGC Group
 nav: Providers
 network: true
-overview: 'BGC Group publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Brokerage, Inter-Dealer Broker, Financial Services, Capital Markets, and Market Data.
+overview: 'BGC Group publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Brokerage, Inter-Dealer Broker, Financial-Services, Capital Markets, and Market Data.
 
 
   The BGC Group catalog on APIs.io includes 1 JSON-LD context.
@@ -179,7 +179,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.1
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -189,16 +189,16 @@ score:
     discoverability: 81.5
     governance: 15.2
     operational_transparency: 0.0
-  previous_composite: 30.2
+  previous_composite: 23.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: domain-security
   name: Bgc Partners Domain Security
@@ -212,7 +212,7 @@ slug: bgc-partners
 tags:
 - Brokerage
 - Inter-Dealer Broker
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Market Data
 - Foreign Exchange

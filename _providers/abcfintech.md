@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-17T18:00:00Z'
 name: abcfintech
 nav: Providers
 network: true
-overview: abcfintech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, and Venture Backed.
+overview: abcfintech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial-Services, and Venture Backed.
 random_paper: 2
 score:
   band: minimal
@@ -64,8 +64,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 3.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -76,7 +76,7 @@ slug: abcfintech
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Venture Backed
 website: https://abcfintech.com
 ---

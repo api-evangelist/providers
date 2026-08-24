@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: BankUnited's first-party developer portal ("API Experience Hub"), a Salesforce Experience Cloud site backed by MuleSoft Anypoint Exchange. Provides self-service developer registration, OAuth applicati
@@ -104,7 +104,7 @@ modified: '2026-07-23'
 name: BankUnited
 nav: Providers
 network: true
-overview: 'BankUnited publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Regional Bank, and Commercial Banking.
+overview: 'BankUnited publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Regional Bank, and Commercial Banking.
 
 
   BankUnited''s developer surface includes authentication, signup flow, developer portal, engineering blog, and 13 more developer resources.'
@@ -115,19 +115,19 @@ scopes:
   slug: bankunited-scopes
   summary_line: 36 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.3
-  delta: -1.7
+  band: thin
+  composite: 26.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 27.0
+  previous_composite: 26.4
   provenance:
     conformance: first-party
   regulatory:
@@ -136,8 +136,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankunited/refs/heads/main/screenshots/bankunited-2026-07-25T202350.png
 security:
@@ -151,7 +151,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: bankunited
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Regional Bank

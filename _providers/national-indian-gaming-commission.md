@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,12 +60,12 @@ modified: '2026-04-28'
 name: National Indian Gaming Commission
 nav: Providers
 network: true
-overview: National Indian Gaming Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Gaming, Regulation, and Tribal.
+overview: National Indian Gaming Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Gaming, Regulations, and Tribal.
 random_paper: 14
 score:
   band: minimal
   composite: 4.1
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -75,15 +75,15 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.8
+  previous_composite: 4.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-indian-gaming-commission/refs/heads/main/screenshots/national-indian-gaming-commission-2026-06-20T190023.png
 security:
@@ -97,9 +97,9 @@ security:
   summary_line: Bugcrowd
 slug: national-indian-gaming-commission
 tags:
-- Federal Government
+- Federal-Government
 - Gaming
-- Regulation
+- Regulations
 - Tribal
 website: https://www.nigc.gov/
 ---

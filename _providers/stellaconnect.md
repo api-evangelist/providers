@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -207,8 +207,8 @@ image: https://docs-assets.medallia.com/icons/medallia.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: stellaconnect-mcp.yml
-  slug: stellaconnect-mcpyml
+  name: Stella Connect (Medallia Agent Connect) MCP Server
+  slug: stella-connect-medallia-agent-connect-mcp-server
 modified: '2026-07-21'
 name: Stella Connect (Medallia Agent Connect)
 nav: Providers
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.8
-  delta: -9.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 51.8
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,9 +246,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/screenshots/stellaconnect-2026-08-17T082119.png
 security:
 - kind: authentication
@@ -268,6 +268,6 @@ tags:
 - Contact Centers
 - Surveys
 - Customer Experience
-- SaaS
+- Software-as-a-Service
 website: https://stellaconnect.com
 ---

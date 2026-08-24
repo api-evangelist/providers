@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Carrier-grade SMS API for sending and receiving A2P and P2A SMS at scale on the Rakuten Mobile network, with delivery receipts pushed to caller-configured webhooks. UTF-8 encoded, JWT-authenticated RE
@@ -151,7 +151,7 @@ random_paper: 11
 score:
   band: minimal
   composite: 7.9
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -161,15 +161,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.7
+  previous_composite: 7.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rakuten-mobile/refs/heads/main/screenshots/rakuten-mobile-2026-06-20T192543.png
 security:
@@ -189,7 +189,7 @@ tags:
 - 5G
 - 4G LTE
 - Open RAN
-- Cloud Native
+- Cloud-Native
 - Symworld
 - Symphony
 - CPaaS

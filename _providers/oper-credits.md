@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 52
 apis:
 - description: The Agent Documents API from Oper Credits — 2 operation(s) for agent documents.
@@ -460,8 +460,8 @@ image: https://cdn.prod.website-files.com/64f9bcce0d3210a55e4458ee/6530e0daf5885
 layout: provider
 mcp_servers:
 - description: ''
-  name: oper-credits-mcp.yml
-  slug: oper-credits-mcpyml
+  name: Oper Credits MCP Server
+  slug: oper-credits-mcp-server
 modified: '2026-07-20'
 name: Oper Credits
 nav: Providers
@@ -477,7 +477,7 @@ random_paper: 15
 score:
   band: developing
   composite: 41.5
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -487,7 +487,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 43.5
+  previous_composite: 41.5
   provenance:
     conformance: first-party
     contracts:
@@ -503,8 +503,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/screenshots/oper-credits-2026-08-07T190702.png
 security:
@@ -533,7 +533,7 @@ tags:
 - Fintech
 - Banking
 - Loan Origination
-- Real Estate
-- Financial Services
+- Real-Estate
+- Financial-Services
 website: https://opercredits.com/
 ---

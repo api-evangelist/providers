@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -2474,7 +2474,7 @@ modified: '2026-05-19'
 name: Amazon Lookout for Metrics
 nav: Providers
 network: true
-overview: 'Amazon Lookout for Metrics publishes 28 APIs on the [APIs.io](https://apis.io/) network, including ActivateAnomalyDetector API, BackTestAnomalyDetector API, CreateAlert API, and 25 more. Tagged areas include Anomaly Detection, Business Intelligence, Machine Learning, Metrics, and Monitoring.
+overview: 'Amazon Lookout for Metrics publishes 28 APIs on the [APIs.io](https://apis.io/) network, including ActivateAnomalyDetector API, BackTestAnomalyDetector API, CreateAlert API, and 25 more. Tagged areas include Anomaly Detection, Business Intelligence, Machine-Learning, Metrics, and Monitoring.
 
 
   The Amazon Lookout for Metrics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2514,18 +2514,18 @@ rules:
   slug: amazon-lookout-for-metrics-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: -10.5
+  composite: 46.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 71.3
     developer_ergonomics: 31.0
     discoverability: 50.0
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 56.2
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -2533,9 +2533,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/screenshots/amazon-lookout-for-metrics-2026-06-20T171728.png
 security:
 - kind: authentication
@@ -2558,7 +2558,7 @@ slug: amazon-lookout-for-metrics
 tags:
 - Anomaly Detection
 - Business Intelligence
-- Machine Learning
+- Machine-Learning
 - Metrics
 - Monitoring
 use_cases:

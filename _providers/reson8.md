@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Exchange an API key for a short-lived access token.
@@ -174,8 +174,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reson8.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: reson8-mcp.yml
-  slug: reson8-mcpyml
+  name: Reson8 MCP Server
+  slug: reson8-mcp-server
 modified: '2026-07-20'
 name: Reson8
 nav: Providers
@@ -188,7 +188,7 @@ random_paper: 19
 score:
   band: developing
   composite: 45.8
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 50.3
+  previous_composite: 45.8
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +208,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reson8/refs/heads/main/screenshots/reson8-2026-08-17T081533.png
 security:
@@ -233,7 +233,7 @@ tags:
 - Voice AI
 - Transcription
 - Diarization
-- Machine Learning
+- Machine-Learning
 - Developers
 website: https://www.reson8.dev/
 ---

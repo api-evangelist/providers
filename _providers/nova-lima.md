@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API (v1.0) for Runrun.it work and project management: tasks, projects, boards, clients, teams, users, comments, documents, evaluations, and time-worked reporting. JSON, ISO 8601'
@@ -135,8 +135,8 @@ image: https://runrun.it/static/images/logo_1200X630.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: nova-lima-mcp.yml
-  slug: nova-lima-mcpyml
+  name: Nova Lima MCP Server
+  slug: nova-lima-mcp-server
 modified: '2026-07-20'
 name: Nova Lima
 nav: Providers
@@ -160,23 +160,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 34.9
-  delta: -3.6
+  composite: 36.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 45.1
     developer_ergonomics: 38.1
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 38.5
+  previous_composite: 36.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/screenshots/nova-lima-2026-08-07T185626.png
 security:
@@ -197,7 +197,7 @@ tags:
 - Productivity
 - Time Tracking
 - Team Collaboration
-- SaaS
+- Software-as-a-Service
 - Brazil
 website: https://runrun.it
 ---

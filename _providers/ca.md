@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 6
 apis:
 - description: Enterprise API management platform (formerly CA API Management / Layer 7) that provides API gateways, developer portals, policy enforcement, and identity integration for hybrid and multi-cloud deploym
@@ -52,6 +52,10 @@ apis:
   slug: broadcom-dx-apm
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/broadcom/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -128,6 +132,14 @@ common:
   title: ''
   type: Sitemap
   url: https://www.broadcom.com/company/sitemap
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/arcot-systems/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/flowdock/
 created: '2026-03-23'
 description: CA Technologies (originally Computer Associates) was a major enterprise software vendor focused on infrastructure management, DevOps, security, and mainframe software. It was acquired by Broadcom in November 2018 and its products are now part of Broadcom's Enterprise Software Division, including Layer 7 API Management, AppDynamics (later spun out to Cisco), DX Application Performance Management, Rally / Agile Central, Clarity PPM, BlazeMeter, AutoSys workload automation, and mainframe management suites. The primary developer portal is developer.broadcom.com.
 finops:
@@ -136,14 +148,14 @@ finops:
   slug: ca-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ca.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-08-21'
 name: CA Technologies (Broadcom)
 nav: Providers
 network: true
 overview: 'CA Technologies (Broadcom) publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Management, Application Performance, DevOps, Enterprise Software, and Infrastructure.
 
 
-  CA Technologies (Broadcom)''s developer surface includes developer portal, documentation, support, and 16 more developer resources.'
+  CA Technologies (Broadcom)''s developer surface includes developer portal, documentation, support, and 19 more developer resources.'
 plans:
 - name: Ca Plans Pricing
   plan_count: 3
@@ -183,8 +195,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ca/refs/heads/main/screenshots/ca-2026-06-20T173828.png
 security:

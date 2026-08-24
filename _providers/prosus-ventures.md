@@ -30,7 +30,7 @@ tags:
 - Series A
 - Series B
 - Growth
-- Ecommerce
+- E-Commerce
 - Fintech
 - Artificial Intelligence
 - Marketplaces

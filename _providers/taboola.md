@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -565,9 +565,13 @@ jsonld:
   slug: taboola-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: taboola-mcp.yml
-  slug: taboola-mcpyml
+- description: 'Taboola ships a first-party, hosted Model Context Protocol server for the Realize
+
+    advertising platform (the product surface the Backstage API also serves). It is a
+
+    multi-user, stateless Streamable HTT'
+  name: Realize MCP Server
+  slug: realize-mcp-server
 - description: ''
   name: Realize MCP endpoint
   slug: realize-mcp-endpoint
@@ -610,7 +614,7 @@ scopes:
 score:
   band: exemplar
   composite: 70.1
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -620,7 +624,7 @@ score:
     discoverability: 75.9
     governance: 40.2
     operational_transparency: 57.9
-  previous_composite: 78.3
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -631,9 +635,9 @@ score:
       total: 16
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/screenshots/taboola-2026-06-20T194849.png
 security:
 - kind: authentication
@@ -662,7 +666,7 @@ tags:
 - Realize
 - Backstage
 - Recommendation
-- Publisher
+- Publishers
 - Programmatic
 website: https://developers.taboola.com/
 ---

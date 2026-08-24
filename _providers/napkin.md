@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -177,13 +177,13 @@ image: https://www.napkin.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: napkin-mcp.yml
-  slug: napkin-mcpyml
+  name: Napkin MCP Server
+  slug: napkin-mcp-server
 modified: '2026-07-20'
 name: Napkin
 nav: Providers
 network: true
-overview: 'Napkin publishes 1 API on the [APIs.io](https://apis.io/) network: Visuals API. Tagged areas include Company, Ai, Visualization, Diagrams, and Infographics.
+overview: 'Napkin publishes 1 API on the [APIs.io](https://apis.io/) network: Visuals API. Tagged areas include Company, Artificial Intelligence, Visualization, Diagrams, and Infographics.
 
 
   Napkin''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 23 more developer resources.'
@@ -195,18 +195,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.6
-  delta: -3.3
+  composite: 46.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
     contract_quality: 59.4
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 48.9
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/screenshots/napkin-2026-08-07T184622.png
 security:
@@ -237,7 +237,7 @@ security:
 slug: napkin
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Visualization
 - Diagrams
 - Infographics

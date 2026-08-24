@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -171,8 +171,8 @@ image: https://rivet.dev/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: rivet-mcp.yml
-  slug: rivet-mcpyml
+  name: Rivet MCP Server
+  slug: rivet-mcp-server
 modified: '2026-07-21'
 name: Rivet
 nav: Providers
@@ -185,7 +185,7 @@ random_paper: 8
 score:
   band: thin
   composite: 38.0
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -195,7 +195,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 42.0
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +206,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/screenshots/rivet-2026-08-17T081626.png
 security:
@@ -226,7 +226,7 @@ tags:
 - Actors
 - Stateful Compute
 - AI Agents
-- Realtime
+- Real-Time
 - Serverless
 - Edge
 - WebSockets

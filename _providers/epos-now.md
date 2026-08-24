@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ modified: '2026-07-11'
 name: Epos Now
 nav: Providers
 network: true
-overview: 'Epos Now publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Devices API, and 3 more. Tagged areas include Point of Sale, POS, Retail, Hospitality, and Payments.
+overview: 'Epos Now publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Devices API, and 3 more. Tagged areas include Point-of-Sale, Retail, Hospitality, Payments, and Inventory.
 
 
   Epos Now''s developer surface includes authentication, documentation, and 6 more developer resources.'
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.7
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -155,7 +155,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.6
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -169,8 +169,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/screenshots/epos-now-2026-07-25T213541.png
 security:
@@ -180,13 +180,12 @@ security:
   summary_line: http · 1 scheme
 slug: epos-now
 tags:
-- Point of Sale
-- POS
+- Point-of-Sale
 - Retail
 - Hospitality
 - Payments
 - Inventory
 - Commerce
-- Ecommerce
+- E-Commerce
 website: https://www.eposnow.com/
 ---

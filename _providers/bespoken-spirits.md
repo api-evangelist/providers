@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -166,13 +166,13 @@ image: https://bespokenspirits.com/cdn/shop/files/HERO_IMAGE_0808cb9f-0b04-48f3-
 layout: provider
 mcp_servers:
 - description: ''
-  name: bespoken-spirits-mcp.yml
-  slug: bespoken-spirits-mcpyml
+  name: Bespoken Spirits MCP Server
+  slug: bespoken-spirits-mcp-server
 modified: '2026-08-07'
 name: Bespoken Spirits
 nav: Providers
 network: true
-overview: 'Bespoken Spirits publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spirits, Beverage Alcohol, Ecommerce, and Agentic Commerce.
+overview: 'Bespoken Spirits publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spirits, Beverage Alcohol, E-Commerce, and Agentic Commerce.
 
 
   Bespoken Spirits'' developer surface includes documentation, authentication, code examples, engineering blog, support, pricing, and 23 more developer resources.'
@@ -184,25 +184,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.1
-  delta: -0.1
+  composite: 25.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 1.4
     developer_ergonomics: 35.7
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.2
+  previous_composite: 25.3
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/screenshots/bespoken-spirits-2026-08-07T162314.png
 security:
@@ -219,10 +219,10 @@ tags:
 - Company
 - Spirits
 - Beverage Alcohol
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - Retail
 - Manufacturing

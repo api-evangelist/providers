@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: Configure and manage a Hydrolix cluster — orgs, projects, tables, transforms, functions, jobs, and service accounts.
@@ -117,8 +117,8 @@ image: https://avatars.githubusercontent.com/u/50281978?v=4
 layout: provider
 mcp_servers:
 - description: ''
-  name: hydrolix-mcp.yml
-  slug: hydrolix-mcpyml
+  name: Hydrolix MCP Server
+  slug: hydrolix-mcp-server
 modified: '2026-07-19'
 name: Hydrolix
 nav: Providers
@@ -131,7 +131,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 20.1
-  delta: -4.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -141,13 +141,13 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 24.8
+  previous_composite: 20.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/screenshots/hydrolix-2026-07-25T221832.png
 security:

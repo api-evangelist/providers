@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-06-13'
 name: Flow
 nav: Providers
 network: true
-overview: 'Flow publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Collections API, and 8 more. Tagged areas include Blockchain, NFTs, Games, DeFi, and Layer 1.
+overview: 'Flow publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Collections API, and 8 more. Tagged areas include Blockchain, NFT, Games, DeFi, and Layer 1.
 
 
   The Flow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -199,7 +199,7 @@ rules:
 score:
   band: thin
   composite: 31.0
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -209,7 +209,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 37.3
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -217,9 +217,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/screenshots/flow-blockchain-2026-06-20T181322.png
 security:
 - kind: domain-security
@@ -229,7 +229,7 @@ security:
 slug: flow-blockchain
 tags:
 - Blockchain
-- NFTs
+- NFT
 - Games
 - DeFi
 - Layer 1

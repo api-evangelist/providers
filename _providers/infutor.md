@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 5
 apis:
 - description: Real-time GET query to authenticate a LeadiD token against an account code, confirming lead capture provenance. Credentials are passed as query parameters (lac account code, id LeadiD token).
@@ -156,8 +156,8 @@ image: https://infutor.com/wp-content/uploads/2026/04/ID_primary_logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: infutor-mcp.yml
-  slug: infutor-mcpyml
+  name: Infutor MCP Server
+  slug: infutor-mcp-server
 modified: '2026-08-13'
 name: Infutor
 nav: Providers
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.5
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -188,12 +188,12 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 34.8
+  previous_composite: 33.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/screenshots/infutor-2026-07-25T222430.png
 security:

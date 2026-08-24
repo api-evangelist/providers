@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -1043,18 +1043,18 @@ rules:
   slug: unity-spectral-rules
 score:
   band: strong
-  composite: 58.1
-  delta: -4.7
+  composite: 58.6
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 69.8
     developer_ergonomics: 61.9
     discoverability: 66.7
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 62.8
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1062,8 +1062,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-08-17T130408.png
 security:

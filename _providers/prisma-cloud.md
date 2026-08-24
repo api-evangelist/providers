@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ modified: '2026-05-19'
 name: Prisma Cloud
 nav: Providers
 network: true
-overview: 'Prisma Cloud publishes 1 API on the [APIs.io](https://apis.io/) network: Authentication API. Tagged areas include Cloud Native, Cloud Security, Compliance, Containers, and CSPM.
+overview: 'Prisma Cloud publishes 1 API on the [APIs.io](https://apis.io/) network: Authentication API. Tagged areas include Cloud-Native, Cloud Security, Compliance, Containers, and CSPM.
 
 
   Prisma Cloud''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, and 7 more developer resources.'
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.4
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -148,7 +148,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 38.9
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prisma-cloud/refs/heads/main/screenshots/prisma-cloud-2026-06-20T192110.png
 security:
@@ -171,7 +171,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: prisma-cloud
 tags:
-- Cloud Native
+- Cloud-Native
 - Cloud Security
 - Compliance
 - Containers

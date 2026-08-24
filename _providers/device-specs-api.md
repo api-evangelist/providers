@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,14 +182,14 @@ description: A normalized mobile-device specifications REST API covering 12,000+
 image: https://ds.gtgroup.dev/favicon.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: device-specs-api-mcp.yml
-  slug: device-specs-api-mcpyml
+- description: Device Specs API publishes NO hosted or remote MCP server. This file is a DERIVED candidate tool list computed from the four published OpenAPI operations — a design proposal for the provider, not a se
+  name: Device Specs API MCP Server
+  slug: device-specs-api-mcp-server
 modified: '2026-08-09'
 name: Device Specs API
 nav: Providers
 network: true
-overview: 'Device Specs API publishes 1 API on the [APIs.io](https://apis.io/) network: Values API. Tagged areas include mobile, smartphones, phone-specs, chipsets, and hardware.
+overview: 'Device Specs API publishes 1 API on the [APIs.io](https://apis.io/) network: Values API. Tagged areas include Mobile, Smartphones, Phone Specs, Chipsets, and Hardware.
 
 
   The Device Specs API catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -220,7 +220,7 @@ rules:
 score:
   band: strong
   composite: 59.0
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -230,7 +230,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 34.2
-  previous_composite: 57.7
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +241,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/screenshots/device-specs-api-2026-08-17T080857.png
 security:
@@ -256,16 +256,16 @@ security:
   summary_line: TLSv1.3 · DNSSEC
 slug: device-specs-api
 tags:
-- mobile
-- smartphones
-- phone-specs
-- chipsets
-- hardware
+- Mobile
+- Smartphones
+- Phone Specs
+- Chipsets
+- Hardware
 - mobile-specs
-- devices
+- Devices
 - rapidapi
 - gsmarena
-- reference-data
-- developer-tools
+- Reference Data
+- Developer Tools
 website: https://ds.gtgroup.dev/
 ---

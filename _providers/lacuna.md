@@ -17,10 +17,10 @@ agent_readiness:
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 58.5
-  scored_at: '2026-08-19'
+  score: 62.0
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -231,9 +231,9 @@ description: 'Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creati
 image: https://www.lacuna.fm/favicon-192x192.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: lacuna-mcp.yml
-  slug: lacuna-mcpyml
+- description: Generate AI music from a style description and optional lyrics. Submit a task, poll it, collect the rendered audio.
+  name: Lacuna MCP Server
+  slug: lacuna-mcp-server
 modified: '2026-08-09'
 name: Lacuna
 nav: Providers
@@ -261,18 +261,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.6
-  delta: -0.9
+  composite: 65.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 30.3
     contract_quality: 54.5
     developer_ergonomics: 78.6
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 65.5
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -283,8 +283,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/screenshots/lacuna-2026-08-17T081024.png
 security:
@@ -311,7 +311,7 @@ tags:
 - Songwriting
 - Generative AI
 - MCP Server
-- Agent Skill
+- AgentSkill
 - A2A
 - Developer Tools
 website: https://www.lacuna.fm/docs

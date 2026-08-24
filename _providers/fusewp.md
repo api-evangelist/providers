@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The hosted OAuth authorization broker FuseWP operates at auth.fusewp.com. The self-hosted FuseWP plugin cannot safely hold OAuth client secrets for the partner platforms it connects to, so it delegate
@@ -138,8 +138,8 @@ image: https://fusewp.com/wp-content/uploads/2023/06/fusewp-wordpress-plugin.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fusewp-mcp.yml
-  slug: fusewp-mcpyml
+  name: FuseWP MCP Server
+  slug: fusewp-mcp-server
 modified: '2026-08-12'
 name: FuseWP
 nav: Providers
@@ -165,7 +165,7 @@ scopes:
 score:
   band: thin
   composite: 37.4
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -175,12 +175,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 38.0
+  previous_composite: 37.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -200,8 +200,8 @@ tags:
 - CRM
 - Integration
 - Data Synchronization
-- OAuth
+- Authentication
 - Plugins
-- No Code
+- No-Code
 website: https://fusewp.com/
 ---

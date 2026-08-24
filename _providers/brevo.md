@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 218
   human_in_the_loop: 4
@@ -748,9 +748,9 @@ jsonld:
   slug: brevo-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: brevo-mcp.yml
-  slug: brevo-mcpyml
+- description: Brevo ships a hosted, remote MCP server at https://mcp.brevo.com. An agent POSTs directly to the endpoint with a Bearer MCP token minted in the Brevo dashboard (Account > SMTP & API > API Keys, with t
+  name: Brevo MCP Server
+  slug: brevo-mcp-server
 modified: '2026-08-13'
 name: Brevo
 nav: Providers
@@ -801,7 +801,7 @@ scopes:
 score:
   band: exemplar
   composite: 87.6
-  delta: 7.4
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -811,7 +811,7 @@ score:
     discoverability: 92.6
     governance: 45.5
     operational_transparency: 92.1
-  previous_composite: 80.2
+  previous_composite: 87.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -828,9 +828,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png
 security:
 - kind: authentication
@@ -860,9 +860,9 @@ tags:
 - Campaigns
 - CRM
 - Sales
-- Ecommerce
+- E-Commerce
 - Loyalty
-- Events
+- Event
 - Live Chat
 - Email
 - SMS

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: The Admin API from Boltz — 7 operation(s) for admin.
@@ -201,14 +201,14 @@ description: Boltz (Boltz PBC) is a public-benefit AI research company building 
 image: https://boltz.bio/android-chrome-512x512.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: boltz-mcp.yml
-  slug: boltz-mcpyml
+- description: Official Boltz MCP server, distributed as an MCP Bundle (.mcpb) named "boltz". Wraps the Boltz Compute API so agents can estimate/run structure & binding predictions, small-molecule and protein design
+  name: Boltz MCP Server
+  slug: boltz-mcp-server
 modified: '2026-07-18'
 name: Boltz
 nav: Providers
 network: true
-overview: 'Boltz publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, CLI API, and 4 more. Tagged areas include Company, Digital Biology, Drug Discovery, Artificial Intelligence, and Machine Learning.
+overview: 'Boltz publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, CLI API, and 4 more. Tagged areas include Company, Digital Biology, Drug Discovery, Artificial Intelligence, and Machine-Learning.
 
 
   Boltz''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, sandbox, and 22 more developer resources.'
@@ -216,7 +216,7 @@ random_paper: 9
 score:
   band: developing
   composite: 51.0
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 50.8
+  previous_composite: 51.0
   provenance:
     conformance: derived
     contracts:
@@ -242,8 +242,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/screenshots/boltz-2026-07-25T203543.png
 security:
@@ -261,7 +261,7 @@ tags:
 - Digital Biology
 - Drug Discovery
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Protein Design
 - Structure Prediction
 - Life Sciences

@@ -26,10 +26,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 23.1
-  scored_at: '2026-08-19'
+  score: 26.5
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Kubernetes-style declarative control-plane API for managing Datum Cloud resources — projects, domains, DNS zones and record sets, gateways, HTTPProxies, HTTPRoutes, traffic protection policies (WAF), '
@@ -151,8 +151,8 @@ image: https://www.datum.net/brand/social/
 layout: provider
 mcp_servers:
 - description: ''
-  name: datum-mcp.yml
-  slug: datum-mcpyml
+  name: Datum MCP Server
+  slug: datum-mcp-server
 modified: '2026-07-18'
 name: Datum
 nav: Providers
@@ -169,24 +169,24 @@ scopes:
   summary_line: 6 scopes
 score:
   band: thin
-  composite: 31.9
-  delta: -0.1
+  composite: 33.0
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 32.0
+  previous_composite: 33.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datum/refs/heads/main/screenshots/datum-2026-07-25T211422.png
 security:
@@ -205,7 +205,7 @@ tags:
 - Cloud
 - Networking
 - Edge
-- AI
+- Artificial Intelligence
 - DNS
 - Infrastructure
 - CDN

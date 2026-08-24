@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The LifeStyles US store implements the Universal Commerce Protocol for agent-driven commerce. Agents discover the merchant profile at /.well-known/ucp and then call the JSON-RPC MCP endpoint to search
@@ -113,9 +113,9 @@ description: 'LifeStyles Healthcare Pte Ltd is a global sexual wellness company 
 image: https://cdn.shopify.com/s/files/1/0610/3810/0706/files/lifestyles-logo_726b0e33-aa28-4543-ac4a-34ce08153d2a.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: lifestyles-healthcare-mcp.yml
-  slug: lifestyles-healthcare-mcpyml
+- description: LifeStyles US operates a live Universal Commerce Protocol (UCP) shopping MCP endpoint for agent-driven commerce over its Shopify storefront. The endpoint was probed on 2026-07-19 and responded to JSON
+  name: LifeStyles Healthcare MCP Server
+  slug: lifestyles-healthcare-mcp-server
 modified: '2026-07-19'
 name: LifeStyles Healthcare
 nav: Providers
@@ -132,7 +132,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 26.2
+  composite: 27.3
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -140,10 +140,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.9
+    discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.2
+  previous_composite: 27.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -154,8 +154,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/screenshots/lifestyles-healthcare-2026-08-07T171647.png
 security:
@@ -175,7 +175,7 @@ tags:
 - Consumer Packaged Goods
 - E-Commerce
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Shopify
 - Retail
 website: https://lifestyles.com

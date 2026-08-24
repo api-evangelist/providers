@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -200,6 +200,7 @@ rate_limits:
 score:
   band: strong
   composite: 54.5
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -209,6 +210,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +227,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 security:
 - kind: authentication
   name: Clevergy Authentication
@@ -253,6 +256,6 @@ tags:
 - Spain
 - White Label
 - Embedded Components
-- Webhooks
+- Webhook
 website: https://clever.gy/en/
 ---

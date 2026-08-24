@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -1350,7 +1350,7 @@ modified: '2026-05-19'
 name: Cobalt
 nav: Providers
 network: true
-overview: 'Cobalt publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Cobalt Hosted API, Config API, and 7 more. Tagged areas include Automation, Embedded iPaaS, and Integrations.
+overview: 'Cobalt publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Cobalt Hosted API, Config API, and 7 more. Tagged areas include Automation, Embedded iPaaS, and Integration.
 
 
   The Cobalt catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1390,18 +1390,18 @@ rules:
   slug: cobalt-rules
 score:
   band: developing
-  composite: 52.7
-  delta: -6.2
+  composite: 53.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 9.8
+    contract_governance: 13.6
     contract_quality: 70.6
     developer_ergonomics: 47.6
     discoverability: 59.3
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 58.9
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1409,9 +1409,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/screenshots/cobalt-2026-06-20T174643.png
 security:
 - kind: authentication
@@ -1430,7 +1430,7 @@ slug: cobalt
 tags:
 - Automation
 - Embedded iPaaS
-- Integrations
+- Integration
 use_cases:
 - name: Enhancing User Experience and Adoption
 - name: Driving SaaS Growth

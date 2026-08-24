@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -197,13 +197,13 @@ image: https://aleo.org/social.webp
 layout: provider
 mcp_servers:
 - description: ''
-  name: aleo-mcp.yml
-  slug: aleo-mcpyml
+  name: Aleo MCP Server
+  slug: aleo-mcp-server
 modified: '2026-07-17'
 name: Aleo
 nav: Providers
 network: true
-overview: 'Aleo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Chain API, Network API, and 2 more. Tagged areas include Company, Blockchain, Zero-Knowledge, Cryptography, and Privacy.
+overview: 'Aleo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Chain API, Network API, and 2 more. Tagged areas include Company, Blockchain, Zero Knowledge, Cryptography, and Privacy.
 
 
   Aleo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, CLI, and 22 more developer resources.'
@@ -211,7 +211,7 @@ random_paper: 18
 score:
   band: developing
   composite: 45.0
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 45.3
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +232,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/screenshots/aleo-2026-07-25T195557.png
 security:
@@ -249,7 +249,7 @@ slug: aleo
 tags:
 - Company
 - Blockchain
-- Zero-Knowledge
+- Zero Knowledge
 - Cryptography
 - Privacy
 - Web3

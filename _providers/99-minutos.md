@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -238,13 +238,13 @@ image: https://www.99minutos.com/_next/static/media/logo_99minutos.230a642b.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: 99-minutos-mcp.yml
-  slug: 99-minutos-mcpyml
+  name: 99 Minutos MCP Server
+  slug: 99-minutos-mcp-server
 modified: '2026-08-08'
 name: 99 Minutos
 nav: Providers
 network: true
-overview: '99 Minutos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including coverage API, documents API, locations API, and 6 more. Tagged areas include Company, Logistics, Last Mile Delivery, Shipping, and Ecommerce.
+overview: '99 Minutos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including coverage API, documents API, locations API, and 6 more. Tagged areas include Company, Logistics, Last Mile Delivery, Shipping, and E-Commerce.
 
 
   The 99 Minutos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -259,7 +259,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.2
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -269,7 +269,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 53.8
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,9 +280,9 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181252.png
 security:
 - kind: authentication
@@ -303,11 +303,11 @@ tags:
 - Logistics
 - Last Mile Delivery
 - Shipping
-- Ecommerce
+- E-Commerce
 - Fulfillment
 - Freight
 - Tracking
-- Webhooks
+- Webhook
 - Latin America
 - Mexico
 website: https://99minutos.com

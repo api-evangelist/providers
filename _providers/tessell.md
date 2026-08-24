@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 82
 apis:
 - description: The activity-center API from Tessell — 2 operation(s) for activity-center.
@@ -680,13 +680,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tessell.pn
 layout: provider
 mcp_servers:
 - description: ''
-  name: tessell-mcp.yml
-  slug: tessell-mcpyml
+  name: Tessell MCP Server
+  slug: tessell-mcp-server
 modified: '2026-07-21'
 name: Tessell
 nav: Providers
 network: true
-overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network, including activity-center API, Ad Domain API, Ad Domain Governance API, and 79 more. Tagged areas include Databases, DBaaS, Multi-Cloud, Oracle, and PostgreSQL.
+overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network, including activity-center API, Ad Domain API, Ad Domain Governance API, and 79 more. Tagged areas include Databases, Database-as-a-Service, Multi-Cloud, Oracle, and PostgreSQL.
 
 
   The Tessell catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -697,7 +697,7 @@ random_paper: 8
 score:
   band: developing
   composite: 41.4
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -707,7 +707,7 @@ score:
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 45.0
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -717,8 +717,8 @@ score:
       total: 82
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/screenshots/tessell-2026-08-17T082320.png
 security:
@@ -737,7 +737,7 @@ security:
 slug: tessell
 tags:
 - Databases
-- DBaaS
+- Database-as-a-Service
 - Multi-Cloud
 - Oracle
 - PostgreSQL

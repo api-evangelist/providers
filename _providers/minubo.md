@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -184,8 +184,8 @@ image: https://www.minubo.com/hubfs/minubo_logo_rz_POS_20210924.svg
 layout: provider
 mcp_servers:
 - description: ''
-  name: minubo-mcp.yml
-  slug: minubo-mcpyml
+  name: Minubo MCP Server
+  slug: minubo-mcp-server
 modified: '2026-07-20'
 name: Minubo
 nav: Providers
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.4
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 48.8
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +223,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/screenshots/minubo-2026-08-07T173004.png
 security:

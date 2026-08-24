@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: Real-time verification of law enforcement requesters. Pass a requester email address to the lookup endpoint and receive the agent's standing, their agency's status, and the domain's risk level, checke
@@ -166,8 +166,8 @@ image: https://files.readme.io/e8089f1952ef71694a5e2b27b67dd3f885d17bd265d6c6232
 layout: provider
 mcp_servers:
 - description: ''
-  name: kodex-mcp.yml
-  slug: kodex-mcpyml
+  name: Kodex MCP Server
+  slug: kodex-mcp-server
 modified: '2026-07-19'
 name: Kodex
 nav: Providers
@@ -203,8 +203,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 66.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/screenshots/kodex-2026-07-25T224044.png
 security:

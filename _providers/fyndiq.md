@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -166,8 +166,8 @@ image: https://fyndiq.se/fyndiq/fyndiq_share.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: fyndiq-mcp.yml
-  slug: fyndiq-mcpyml
+  name: Fyndiq MCP Server
+  slug: fyndiq-mcp-server
 modified: '2026-07-19'
 name: Fyndiq
 nav: Providers
@@ -180,7 +180,7 @@ random_paper: 0
 score:
   band: thin
   composite: 32.6
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -190,7 +190,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 32.2
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,8 +201,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/screenshots/fyndiq-2026-07-25T215343.png
 security:
@@ -221,8 +221,8 @@ tags:
 - Marketplace
 - E-Commerce
 - Retail
-- Products
-- Orders
+- Product
+- Order
 - Sweden
 website: https://www.fyndiq.se
 ---

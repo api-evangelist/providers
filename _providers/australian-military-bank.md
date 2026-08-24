@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -173,9 +173,9 @@ description: Australian Military Bank Ltd (ABN 48 087 649 741, AFSL/Australian C
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/australian-military-bank.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: australian-military-bank-mcp.yml
-  slug: australian-military-bank-mcpyml
+- description: Candidate MCP tool surface derived from the public, unauthenticated CDR Product Reference Data endpoints. Australian Military Bank publishes no official hosted MCP server; these tools map 1:1 to the t
+  name: Australian Military Bank MCP Server
+  slug: australian-military-bank-mcp-server
 modified: '2026-07-21'
 name: Australian Military Bank
 nav: Providers
@@ -193,7 +193,7 @@ scopes:
 score:
   band: thin
   composite: 37.1
-  delta: 3.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 33.5
+  previous_composite: 37.1
   provenance:
     conformance: first-party
     contracts:
@@ -219,8 +219,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T120337.png
 security:

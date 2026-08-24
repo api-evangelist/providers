@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -182,13 +182,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/speccheck.
 layout: provider
 mcp_servers:
 - description: ''
-  name: speccheck-mcp.yml
-  slug: speccheck-mcpyml
+  name: SpecCheck MCP Server
+  slug: speccheck-mcp-server
 modified: '2026-07-21'
 name: SpecCheck
 nav: Providers
 network: true
-overview: 'SpecCheck publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Catalogs API, Labs API, and 1 more. Tagged areas include Company, Enterprise Saas, Optical, Eyewear, and Eyecare.
+overview: 'SpecCheck publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Catalogs API, Labs API, and 1 more. Tagged areas include Company, Enterprise Saas, Optical, Eyewear, and Eye Care.
 
 
   SpecCheck''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 20 more developer resources.'
@@ -196,7 +196,7 @@ random_paper: 13
 score:
   band: thin
   composite: 39.2
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 38.7
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +223,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication
@@ -241,7 +241,7 @@ tags:
 - Enterprise Saas
 - Optical
 - Eyewear
-- Eyecare
+- Eye Care
 - Optical Labs
 - Prescriptions
 - Ordering

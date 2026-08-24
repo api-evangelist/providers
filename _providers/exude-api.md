@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Used for the primary ways for filtering the stopping, stemming words from the text data
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: EXUDE-API
 nav: Providers
 network: true
-overview: EXUDE-API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
+overview: EXUDE-API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine-Learning and Public APIs.
 random_paper: 16
 score:
   band: minimal
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exude-api/refs/heads/main/screenshots/exude-api-2026-06-20T180952.png
 security:
@@ -83,7 +83,7 @@ security:
   summary_line: TLSv1.3
 slug: exude-api
 tags:
-- Machine Learning
+- Machine-Learning
 - Public APIs
 website: http://uttesh.com/exude-api/
 ---

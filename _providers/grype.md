@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Grype is an open source vulnerability scanner for container images and filesystems developed by Anchore. It scans container images, filesystems, and SBOMs for known vulnerabilities, supporting Docker,
@@ -89,7 +89,7 @@ modified: '2026-05-19'
 name: Grype
 nav: Providers
 network: true
-overview: 'Grype publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Container Images, Containers, Open Source, SBOM, and Security.
+overview: 'Grype publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Container Images, Containers, Open-Source, SBOM, and Security.
 
 
   Grype''s developer surface includes documentation, getting-started guide, engineering blog, pricing, and 5 more developer resources.'
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.3
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -115,9 +115,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 19.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.3
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grype/refs/heads/main/screenshots/grype-2026-06-20T182422.png
 security:
@@ -129,7 +129,7 @@ slug: grype
 tags:
 - Container Images
 - Containers
-- Open Source
+- Open-Source
 - SBOM
 - Security
 - Vulnerability Scanning

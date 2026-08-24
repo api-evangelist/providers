@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -549,9 +549,9 @@ jsonld:
   slug: athenahealth-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: athenahealth-mcp.yml
-  slug: athenahealth-mcpyml
+- description: 'athenahealth ships NO callable MCP server. It has publicly announced one — athenahealth says it is piloting a Model Context Protocol server over the athenaOne platform APIs, and publishes a blog post '
+  name: athenahealth MCP Server
+  slug: athenahealth-mcp-server
 modified: '2026-08-14'
 name: athenahealth
 nav: Providers
@@ -612,18 +612,18 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 77.2
-  delta: 2.0
+  composite: 79.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 59.1
     contract_quality: 77.8
     developer_ergonomics: 73.2
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 59.1
     operational_transparency: 42.1
-  previous_composite: 75.2
+  previous_composite: 79.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -640,8 +640,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png
 security:

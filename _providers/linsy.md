@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Universal Commerce Protocol (UCP) agent-commerce surface for the LINSY HOME storefront (www.linsyhome.com, Shopify shop linsy-home.myshopify.com). Agents discover the merchant profile at /.well-kn
@@ -125,9 +125,9 @@ description: 'Linsy (LINSY HOME) is a direct-to-consumer modular furniture brand
 image: https://www.linsyhome.com/cdn/shop/files/LINSY_HOME_LOGO.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: linsy-mcp.yml
-  slug: linsy-mcpyml
+- description: Linsy publishes a live Model Context Protocol endpoint on each of its storefronts as the transport for the Universal Commerce Protocol (UCP) shopping service. Agents discover the merchant profile at /
+  name: Linsy UCP Commerce MCP
+  slug: linsy-ucp-commerce-mcp
 modified: '2026-07-19'
 name: Linsy
 nav: Providers
@@ -145,7 +145,7 @@ scopes:
 score:
   band: emerging
   composite: 21.1
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -155,13 +155,13 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 22.1
+  previous_composite: 21.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/screenshots/linsy-2026-08-07T171724.png
 security:
@@ -181,7 +181,7 @@ tags:
 - E-Commerce
 - Furniture
 - Home Goods
-- Direct To Consumer
+- Direct to Consumer
 - Agentic Commerce
 - Shopify
 - MCP

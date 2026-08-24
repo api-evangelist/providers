@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -189,8 +189,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beyond-ban
 layout: provider
 mcp_servers:
 - description: ''
-  name: beyond-bank-mcp.yml
-  slug: beyond-bank-mcpyml
+  name: Beyond Bank Australia MCP Server
+  slug: beyond-bank-australia-mcp-server
 modified: '2026-07-21'
 name: Beyond Bank Australia
 nav: Providers
@@ -208,7 +208,7 @@ scopes:
 score:
   band: developing
   composite: 44.4
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 41.2
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/screenshots/beyond-bank-2026-07-21T114718.png
 security:

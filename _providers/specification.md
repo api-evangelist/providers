@@ -28,7 +28,7 @@ tags:
 - API Governance
 - AsyncAPI
 - Contract Testing
-- JSON Schema
+- JSON-Schema
 - OpenAPI
 - Specifications
 - Standards

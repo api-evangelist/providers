@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -145,13 +145,13 @@ image: https://www.acko.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: acko-mcp.yml
-  slug: acko-mcpyml
+  name: Acko MCP Server
+  slug: acko-mcp-server
 modified: '2026-07-18'
 name: Acko
 nav: Providers
 network: true
-overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include Company, Consumer, Insurance, InsurTech, and Financial Services.
+overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include Company, Consumer, Insurance, Insurtech, and Financial-Services.
 
 
   Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 17 more developer resources.'
@@ -159,7 +159,7 @@ random_paper: 15
 score:
   band: thin
   composite: 38.8
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 36.1
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -186,8 +186,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png
 security:
@@ -204,8 +204,8 @@ tags:
 - Company
 - Consumer
 - Insurance
-- InsurTech
-- Financial Services
+- Insurtech
+- Financial-Services
 - Digital Insurance
 - India
 - Embedded Insurance

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -282,8 +282,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peachpayme
 layout: provider
 mcp_servers:
 - description: ''
-  name: peachpayments-mcp.yml
-  slug: peachpayments-mcpyml
+  name: Peach Payments MCP Server
+  slug: peach-payments-mcp-server
 modified: '2026-07-17'
 name: Peach Payments
 nav: Providers
@@ -307,7 +307,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 72.7
-  delta: 5.1
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -317,7 +317,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 71.1
-  previous_composite: 67.6
+  previous_composite: 72.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,9 +334,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: rising
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/screenshots/peachpayments-2026-08-07T191724.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -124,7 +124,7 @@ modified: '2026-04-28'
 name: MySQL
 nav: Providers
 network: true
-overview: 'MySQL publishes 1 API on the [APIs.io](https://apis.io/) network: Authentication API. Tagged areas include Database, Open Source, RDBMS, Relational Database, and SQL.
+overview: 'MySQL publishes 1 API on the [APIs.io](https://apis.io/) network: Authentication API. Tagged areas include Database, Open-Source, RDBMS, Relational Database, and SQL.
 
 
   MySQL''s developer surface includes authentication, getting-started guide, documentation, engineering blog, Stack Overflow tag, and 7 more developer resources.'
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.9
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -150,7 +150,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 34.7
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +158,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/screenshots/mysql-2026-06-20T185918.png
 security:
@@ -174,7 +174,7 @@ security:
 slug: mysql
 tags:
 - Database
-- Open Source
+- Open-Source
 - RDBMS
 - Relational Database
 - SQL

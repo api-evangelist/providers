@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: developing
   composite: 41.4
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 41.8
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -187,8 +187,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png
 security:
@@ -212,11 +212,10 @@ tags:
 - Artificial Intelligence
 - CRM
 - Sales Automation
-- SaaS
+- Software-as-a-Service
 - Japan
 - Salesforce
 - HubSpot
 - Sales Enablement
-- API
 website: https://www.magicmoment.jp/
 ---

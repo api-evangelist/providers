@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -463,14 +463,14 @@ description: Chariot is the leading payments platform for charitable giving, bes
 image: https://givechariot.com/api/media/file/daf-giving-simplified-1200x630.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: chariot-mcp.yml
-  slug: chariot-mcpyml
+- description: 'Chariot publishes a hosted MCP server over its documentation surface (Fern/Mintlify-style docs MCP) for AI clients such as Claude Code and Cursor. It exposes the Chariot docs and API reference as MCP '
+  name: Chariot MCP Server
+  slug: chariot-mcp-server
 modified: '2026-07-18'
 name: Chariot
 nav: Providers
 network: true
-overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorization Tokens API, Connects API, and 26 more. Tagged areas include Payments, Donor Advised Funds, Charitable Giving, Nonprofit, and Fintech.
+overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorization Tokens API, Connects API, and 26 more. Tagged areas include Payments, Donor-Advised Funds, Charitable Giving, Non-Profit, and Fintech.
 
 
   The Chariot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -486,7 +486,7 @@ scopes:
 score:
   band: developing
   composite: 51.5
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -496,7 +496,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 58.4
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -513,9 +513,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/screenshots/chariot-2026-07-25T205102.png
 security:
 - kind: authentication
@@ -529,16 +529,16 @@ security:
 slug: chariot
 tags:
 - Payments
-- Donor Advised Funds
+- Donor-Advised Funds
 - Charitable Giving
-- Nonprofit
+- Non-Profit
 - Fintech
 - DAFpay
 - Grants
 - Disbursements
 - Open Banking
 - FDX
-- Webhooks
+- Webhook
 - Company
 website: https://docs.givechariot.com
 ---

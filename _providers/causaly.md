@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Computational access to Causaly's biomedical knowledge graph — 500 million relationships across biomedical concepts (targets, diseases, biomarkers, organ systems) with directional cause-and-effect rel
@@ -93,7 +93,7 @@ modified: '2026-07-18'
 name: Causaly
 nav: Providers
 network: true
-overview: 'Causaly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Life Sciences, Biomedical, and Drug Discovery.
+overview: 'Causaly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Life Sciences, Biomedical, and Drug Discovery.
 
 
   Causaly''s developer surface includes engineering blog, support, signup flow, authentication, and 8 more developer resources.'
@@ -118,8 +118,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/causaly/refs/heads/main/screenshots/causaly-2026-07-25T204815.png
 security:
@@ -138,12 +138,12 @@ security:
 slug: causaly
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Life Sciences
 - Biomedical
 - Drug Discovery
 - Knowledge Graph
-- Pharmaceutical
+- Pharmaceuticals
 - Research
 - Agentic AI
 website: https://www.causaly.com/

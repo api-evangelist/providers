@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -175,8 +175,8 @@ image: https://lingopal.ai/header_image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lingopal-mcp.yml
-  slug: lingopal-mcpyml
+  name: Lingopal MCP Server
+  slug: lingopal-mcp-server
 modified: '2026-07-19'
 name: Lingopal
 nav: Providers
@@ -189,7 +189,7 @@ random_paper: 14
 score:
   band: developing
   composite: 44.4
-  delta: -2.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -199,7 +199,7 @@ score:
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 46.9
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,8 +210,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/screenshots/lingopal-2026-07-25T225250.png
 security:

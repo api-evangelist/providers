@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'A live remote Model Context Protocol endpoint serving WINN.AI conversation data to agents. It is published nowhere on the company''s website — it was found by probing RFC 9728 OAuth protected-resource '
@@ -122,9 +122,9 @@ description: Winn.ai is an AI-powered revenue execution platform for B2B sales t
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/winnai.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: winnai-mcp.yml
-  slug: winnai-mcpyml
+- description: WINN.AI publishes a remote Model Context Protocol endpoint at https://app.winn.ai/mcp. Its existence is not documented on the marketing site or in any developer portal — it was discovered by probing R
+  name: WINN.AI MCP Server
+  slug: winnai-mcp-server
 modified: '2026-08-13'
 name: Winn.ai
 nav: Providers
@@ -150,7 +150,7 @@ scopes:
 score:
   band: thin
   composite: 32.0
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -160,12 +160,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 34.0
+  previous_composite: 32.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -232,6 +232,10 @@ collections:
   name: Oracle Essbase REST Application Configuration Variables API
   slug: open-oracle-essbase-variables-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -446,7 +450,7 @@ jsonld:
   property_count: 13
   slug: oracle-essbase-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-21'
 name: Oracle Essbase
 nav: Providers
 network: true
@@ -456,7 +460,7 @@ overview: 'Oracle Essbase publishes 19 APIs on the [APIs.io](https://apis.io/) n
   The Oracle Essbase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Essbase''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, signup flow, and 15 more developer resources.'
+  Oracle Essbase''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Oracle Essbase Plans Pricing
   plan_count: 2
@@ -480,7 +484,7 @@ rules:
 score:
   band: developing
   composite: 49.4
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -490,7 +494,7 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 56.0
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -498,9 +502,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-essbase/refs/heads/main/screenshots/oracle-essbase-2026-06-20T191127.png
 security:
 - kind: authentication

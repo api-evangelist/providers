@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Real-time world-model API. Embeds continuous, interactive video simulations into applications via interactive streams, viewable/broadcast streams, and asynchronous simulations, over WebRTC + WebSocket
@@ -137,7 +137,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 25.2
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -147,9 +147,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 28.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 25.2
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odyssey/refs/heads/main/screenshots/odyssey-2026-08-07T185956.png
 security:
@@ -168,7 +168,7 @@ tags:
 - World Models
 - Generative AI
 - Video Generation
-- Machine Learning
+- Machine-Learning
 - Real-Time Streaming
 - SDK
 - WebRTC

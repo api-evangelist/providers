@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API for managing cross-channel advertising campaigns including advertisers, insertion orders, line items, packages, creatives, and ads across programmatic channels. Authentication uses OAuth2 cli
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 39.8
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -186,11 +186,11 @@ score:
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 39.3
+  previous_composite: 39.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/screenshots/amobee-2026-06-20T171938.png
 security:
@@ -214,7 +214,7 @@ tags:
 - Campaign Management
 - Audience Targeting
 - Data Management Platform
-- Ad Tech
+- AdTech
 - Samsung Ads
 website: https://www.amobee.com/
 ---

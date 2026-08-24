@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -246,13 +246,13 @@ image: https://www.propertyme.com.au/wp-content/themes/PropertyMe/assets/dist/fa
 layout: provider
 mcp_servers:
 - description: ''
-  name: propertyme-mcp.yml
-  slug: propertyme-mcpyml
+  name: PropertyMe MCP Server
+  slug: propertyme-mcp-server
 modified: '2026-07-26'
 name: PropertyMe
 nav: Providers
 network: true
-overview: 'PropertyMe publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Properties API, Tenancies API, and 8 more. Tagged areas include Real Estate, Australia, Property Management, Rentals, and PropTech.
+overview: 'PropertyMe publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Properties API, Tenancies API, and 8 more. Tagged areas include Real-Estate, Australia, Property Management, Rentals, and PropTech.
 
 
   PropertyMe''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
@@ -265,7 +265,7 @@ scopes:
 score:
   band: developing
   composite: 41.8
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -275,7 +275,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 40.4
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +287,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/screenshots/propertyme-2026-07-27T125353.png
 security:
@@ -302,7 +302,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: propertyme
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Management
 - Rentals

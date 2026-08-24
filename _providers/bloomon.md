@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,21 +99,21 @@ overview: 'Bloomon is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 2
 score:
   band: minimal
-  composite: 7.0
-  delta: -7.5
+  composite: 8.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  previous_composite: 8.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomon/refs/heads/main/screenshots/bloomon-2026-07-25T203414.png
 security:
 - kind: domain-security

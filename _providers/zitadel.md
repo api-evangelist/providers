@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -402,7 +402,7 @@ modified: '2026-05-19'
 name: Zitadel
 nav: Providers
 network: true
-overview: 'Zitadel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Identity Providers API, Organizations API, and 4 more. Tagged areas include Authentication, Authorization, Identity Management, Open Source, and OAuth 2.0.
+overview: 'Zitadel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Identity Providers API, Organizations API, and 4 more. Tagged areas include Authentication, Authorization, Identity Management, Open-Source, and OIDC.
 
 
   The Zitadel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -442,18 +442,18 @@ rules:
   slug: zitadel-spectral
 score:
   band: developing
-  composite: 48.0
-  delta: -5.7
+  composite: 48.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 73.0
     developer_ergonomics: 35.7
     discoverability: 64.8
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 53.7
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -461,9 +461,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/screenshots/zitadel-2026-06-20T201924.png
 security:
 - kind: authentication
@@ -483,8 +483,7 @@ tags:
 - Authentication
 - Authorization
 - Identity Management
-- Open Source
-- OAuth 2.0
+- Open-Source
 - OIDC
 use_cases:
 - description: B2C identity for customer-facing applications and portals.

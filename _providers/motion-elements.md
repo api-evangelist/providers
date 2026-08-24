@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -170,9 +170,9 @@ description: 'MotionElements is a global creative-asset marketplace and AI produ
 image: https://static.moele.me/img/motionelements-og-en.220830.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: motion-elements-mcp.yml
-  slug: motion-elements-mcpyml
+- description: Candidate MCP server for the MotionElements Marketplace API v2. Tools derived one-per-operation from the harvested OpenAPI. No official hosted MCP server was found; this is a proposed tool surface.
+  name: Motion Elements MCP Server
+  slug: motion-elements-mcp-server
 modified: '2026-07-20'
 name: Motion Elements
 nav: Providers
@@ -185,7 +185,7 @@ random_paper: 14
 score:
   band: developing
   composite: 45.0
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -195,7 +195,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 46.7
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +206,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/screenshots/motion-elements-2026-08-07T184326.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Payrails' REST API for payment orchestration — executions and payment actions (authorize, confirm, capture, cancel, refund, payout), instruments and tokens, the PCI vault, providers and workflow confi
@@ -187,8 +187,8 @@ image: https://www.payrails.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: payrails-mcp.yml
-  slug: payrails-mcpyml
+  name: Payrails MCP Server
+  slug: payrails-mcp-server
 modified: '2026-07-20'
 name: Payrails
 nav: Providers
@@ -204,7 +204,7 @@ random_paper: 8
 score:
   band: developing
   composite: 53.6
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -214,7 +214,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 48.7
-  previous_composite: 52.1
+  previous_composite: 53.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -225,8 +225,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/screenshots/payrails-2026-08-07T191653.png
 security:

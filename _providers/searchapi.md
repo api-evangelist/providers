@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: REST API returning structured JSON search results across 100+ engines (Google, Bing, Maps, News, Scholar, Images, Shopping, Trends, Jobs, YouTube, Amazon, Walmart, eBay). Single /api/v1/search endpoin
@@ -193,7 +193,7 @@ modified: '2026-08-13'
 name: SearchApi
 nav: Providers
 network: true
-overview: 'SearchApi publishes 2 APIs on the [APIs.io](https://apis.io/) network: SERP API and Account & Analytics API. Tagged areas include search, serp-api, google-search, web-scraping, and search-data.
+overview: 'SearchApi publishes 2 APIs on the [APIs.io](https://apis.io/) network: SERP API and Account & Analytics API. Tagged areas include Search, SERP API, Google Search, Web Scraping, and Search data.
 
 
   SearchApi''s developer surface includes documentation, API reference, pricing, signup flow, support, changelog, authentication, and 29 more developer resources.'
@@ -214,7 +214,7 @@ scopes:
 score:
   band: developing
   composite: 51.7
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -224,7 +224,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 65.8
-  previous_composite: 53.0
+  previous_composite: 51.7
   provenance:
     conformance: first-party
     contracts:
@@ -234,8 +234,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/screenshots/searchapi-2026-08-17T081744.png
 security:
@@ -253,14 +253,14 @@ security:
   summary_line: ISO/IEC 27001:2022, GDPR, SOC 2, PCI DSS, HIPAA, FedRAMP
 slug: searchapi
 tags:
-- search
-- serp-api
-- google-search
-- web-scraping
-- search-data
-- market-intelligence
-- seo
-- mcp
+- Search
+- SERP API
+- Google Search
+- Web Scraping
+- Search data
+- Market Intelligence
+- SEO
+- MCP
 - agent-native
 website: https://www.searchapi.io/
 ---

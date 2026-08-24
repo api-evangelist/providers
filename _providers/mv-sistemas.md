@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -349,8 +349,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mv-sistema
 layout: provider
 mcp_servers:
 - description: ''
-  name: mv-sistemas-mcp.yml
-  slug: mv-sistemas-mcpyml
+  name: MV sistemas MCP Server
+  slug: mv-sistemas-mcp-server
 modified: '2026-07-20'
 name: MV sistemas
 nav: Providers
@@ -366,7 +366,7 @@ random_paper: 11
 score:
   band: developing
   composite: 43.0
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -376,7 +376,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 38.4
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -393,8 +393,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/screenshots/mv-sistemas-2026-08-07T184458.png
 security:

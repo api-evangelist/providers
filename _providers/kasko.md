@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the KASKO insurance platform. All platform functionality and data is accessible via the API, covering the Quote, Offer, Payment and Policy insurance transaction flow plus a Data API for d
@@ -130,14 +130,14 @@ description: KASKO is an InsurTech-as-a-Service provider offering a modular, no-
 image: https://static.wixstatic.com/media/660ad6_7730ccc446d245348dc0376d978ac52f~mv2.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'The KASKO marketing site (www.kasko.io) is built on Wix and exposes a live, unauthenticated Wix Site MCP endpoint advertised in its /llms.txt. The server provides Wix''s generic site tools for agentic '
   name: KASKO Site MCP (Wix) manifest
   slug: kasko-site-mcp-wix-manifest
 modified: '2026-07-19'
 name: Kasko
 nav: Providers
 network: true
-overview: 'Kasko publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Insurance API, and Policy Management.
+overview: 'Kasko publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Insurance API, and Policy Management.
 
 
   The Kasko catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -148,7 +148,7 @@ random_paper: 12
 score:
   band: developing
   composite: 43.5
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -158,7 +158,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 42.8
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -168,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/screenshots/kasko-2026-07-25T223521.png
 security:
@@ -185,11 +185,11 @@ slug: kasko
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Insurance API
 - Policy Management
 - Payments
-- Webhooks
+- Webhook
 - Embedded Insurance
 - No-Code
 website: https://www.kasko.io

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Edison Scientific
 nav: Providers
 network: true
-overview: 'Edison Scientific is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Drug Discovery, and Biopharma.
+overview: 'Edison Scientific is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Drug Discovery, Biopharma, and Life Sciences.
 
 
   Edison Scientific''s developer surface includes engineering blog and 6 more developer resources.'
@@ -76,7 +76,7 @@ random_paper: 1
 score:
   band: emerging
   composite: 13.6
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -86,15 +86,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.5
+  previous_composite: 13.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edison-scientific/refs/heads/main/screenshots/edison-scientific-2026-07-25T212857.png
 security:
@@ -109,13 +109,12 @@ security:
 slug: edison-scientific
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Drug Discovery
 - Biopharma
 - Life Sciences
 - Research
 - R&D
-- Machine Learning
+- Machine-Learning
 website: https://edisonscientific.com
 ---

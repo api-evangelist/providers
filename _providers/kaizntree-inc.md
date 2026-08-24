@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: Kaizntree Inc.
 nav: Providers
 network: true
-overview: 'Kaizntree Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Operations, ERP, Inventory Management, and CPG.
+overview: 'Kaizntree Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ERP, Inventory Management, CPG, and Consumer Packaged Goods.
 
 
   Kaizntree Inc.''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -88,7 +88,7 @@ random_paper: 9
 score:
   band: minimal
   composite: 7.5
-  delta: -3.1
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -98,9 +98,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.6
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 7.5
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaizntree-inc/refs/heads/main/screenshots/kaizntree-inc-2026-07-25T223435.png
 security:
@@ -111,7 +111,6 @@ security:
 slug: kaizntree-inc
 tags:
 - Company
-- Operations
 - ERP
 - Inventory Management
 - CPG

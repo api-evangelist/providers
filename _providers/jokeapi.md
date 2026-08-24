@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ modified: '2026-08-08'
 name: JokeAPI
 nav: Providers
 network: true
-overview: 'JokeAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Jokes API, Metadata API, and System API. Tagged areas include Jokes, Humor, Entertainment, Open Source, and REST API.
+overview: 'JokeAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Jokes API, Metadata API, and System API. Tagged areas include Jokes, Humor, Entertainment, Open-Source, and REST API.
 
 
   The JokeAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -332,18 +332,18 @@ rules:
   slug: jokeapi-spectral-rules
 score:
   band: thin
-  composite: 29.9
-  delta: -5.2
+  composite: 30.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 25.0
+    contract_governance: 28.8
     contract_quality: 21.4
     developer_ergonomics: 14.3
     discoverability: 74.1
-    governance: 25.0
+    governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 35.1
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -351,9 +351,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/screenshots/jokeapi-2026-06-20T183755.png
 security:
 - kind: domain-security
@@ -365,7 +365,7 @@ tags:
 - Jokes
 - Humor
 - Entertainment
-- Open Source
+- Open-Source
 - REST API
 - Games And Comics
 - Public APIs

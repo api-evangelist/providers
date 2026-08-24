@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: API Harmony was an intelligent API matchmaking service that used graph technology and machine learning to search public APIs, reveal relationships between them, make recommendations, and identify gaps
@@ -37,6 +37,10 @@ apis:
   slug: api-harmony-service
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -82,14 +86,14 @@ finops:
   slug: api-harmony-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/api-harmony.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-21'
 name: API Harmony
 nav: Providers
 network: true
 overview: 'API Harmony publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Aggregation, API Discovery, API Recommendation, Graph Technology, and IBM.
 
 
-  API Harmony''s developer surface includes documentation and 5 more developer resources.'
+  API Harmony''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Api Harmony Plans Pricing
   plan_count: 3
@@ -102,7 +106,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.1
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -112,9 +116,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 11.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 10.1
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-harmony/refs/heads/main/screenshots/api-harmony-2026-06-20T172217.png
 security:
@@ -133,7 +137,7 @@ tags:
 - API Recommendation
 - Graph Technology
 - IBM
-- Machine Learning
+- Machine-Learning
 use_cases:
 - description: Help developers find the right APIs for cloud-based application development on IBM Bluemix.
   name: Cloud API Discovery

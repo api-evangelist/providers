@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of Aptera Motors' branded merchandise storefront at shop.aptera.us. It is a Model Context Protocol server (protocol 2025-06-18) answering anonymously at /api/mcp with
@@ -129,8 +129,8 @@ image: https://i0.wp.com/aptera.us/wp-content/uploads/2026/04/website_pic_og.jpg
 layout: provider
 mcp_servers:
 - description: ''
-  name: aptera-motors-mcp.yml
-  slug: aptera-motors-mcpyml
+  name: Aptera Motors MCP Server
+  slug: aptera-motors-mcp-server
 modified: '2026-08-02'
 name: Aptera Motors
 nav: Providers
@@ -148,7 +148,7 @@ scopes:
 score:
   band: emerging
   composite: 26.0
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -158,7 +158,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.4
+  previous_composite: 26.0
   provenance:
     conformance: derived
     mcp: first-party
@@ -169,8 +169,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/screenshots/aptera-motors-2026-08-07T161526.png
 security:

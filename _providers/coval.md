@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -407,8 +407,8 @@ image: https://www.coval.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: coval-mcp.yml
-  slug: coval-mcpyml
+  name: Coval MCP Server
+  slug: coval-mcp-server
 modified: '2026-07-18'
 name: Coval
 nav: Providers
@@ -424,7 +424,7 @@ random_paper: 8
 score:
   band: strong
   composite: 55.8
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -434,7 +434,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 61.5
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -445,9 +445,9 @@ score:
       total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/screenshots/coval-2026-07-25T210531.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,13 +94,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lica.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: lica-mcp.yml
-  slug: lica-mcpyml
+  name: Lica MCP Server
+  slug: lica-mcp-server
 modified: '2026-07-19'
 name: Lica
 nav: Providers
 network: true
-overview: 'Lica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Artificial Intelligence, Machine Learning, and Graphic Design.
+overview: 'Lica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Artificial Intelligence, Machine-Learning, and Graphic Design.
 
 
   Lica''s developer surface includes engineering blog, signup flow, and 12 more developer resources.'
@@ -108,7 +108,7 @@ random_paper: 10
 score:
   band: emerging
   composite: 13.4
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -118,11 +118,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.4
+  previous_composite: 13.4
   provenance:
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 security:
 - kind: domain-security
@@ -134,12 +134,12 @@ tags:
 - Company
 - B2B
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Graphic Design
 - Generative AI
 - Benchmarks
 - Datasets
-- Model Context Protocol
+- MCP
 - Research
 website: https://www.lica.world/
 ---

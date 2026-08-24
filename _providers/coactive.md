@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -329,14 +329,14 @@ description: Coactive is a multimodal AI platform that delivers a contextual int
 image: https://www.coactive.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
-  name: coactive-mcp.yml
-  slug: coactive-mcpyml
+- description: Hosted MCP server over the Coactive documentation. Provides AI-powered search across docs.coactive.ai. Published by the Fern docs platform, not the Coactive data API itself.
+  name: Coactive MCP Server
+  slug: coactive-mcp-server
 modified: '2026-08-13'
 name: Coactive
 nav: Providers
 network: true
-overview: 'Coactive publishes 22 APIs on the [APIs.io](https://apis.io/) network, including agentic-search > agenticSearch API, celebrity-detection API, classification API, and 19 more. Tagged areas include Company, Ai, Multimodal AI, Computer Vision, and Video Intelligence.
+overview: 'Coactive publishes 22 APIs on the [APIs.io](https://apis.io/) network, including agentic-search > agenticSearch API, celebrity-detection API, classification API, and 19 more. Tagged areas include Company, Artificial Intelligence, Multimodal AI, Computer-Vision, and Video Intelligence.
 
 
   Coactive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 29 more developer resources.'
@@ -351,18 +351,18 @@ rate_limits:
   slug: coactive-rate-limits
 score:
   band: developing
-  composite: 39.7
-  delta: -14.5
+  composite: 40.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 16.7
     contract_quality: 56.7
     developer_ergonomics: 28.0
-    discoverability: 81.5
+    discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 54.2
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -373,9 +373,9 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/screenshots/coactive-2026-07-25T205821.png
 security:
 - kind: authentication
@@ -393,16 +393,16 @@ security:
 slug: coactive
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Multimodal AI
-- Computer Vision
+- Computer-Vision
 - Video Intelligence
 - Image Search
 - Content Intelligence
 - Semantic Search
 - Contextual Advertising
 - Metadata
-- Machine Learning
+- Machine-Learning
 - Media
 website: https://www.coactive.ai
 ---

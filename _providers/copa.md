@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The copa command line interface used to patch container images. The core subcommand `copa patch` accepts an image reference and an optional vulnerability report and produces a new tagged image with OS
@@ -111,7 +111,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.7
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -121,9 +121,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 18.3
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 17.7
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copa/refs/heads/main/screenshots/copa-2026-06-20T175009.png
 slug: copa
@@ -133,7 +133,7 @@ tags:
 - CNCF Sandbox
 - Container Patching
 - Containers
-- Open Source
+- Open-Source
 - Security
 - Trivy
 - Vulnerability Management

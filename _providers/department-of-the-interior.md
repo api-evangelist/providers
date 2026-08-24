@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-07-25'
 name: Department of the Interior
 nav: Providers
 network: true
-overview: 'Department of the Interior publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Articles API, Campgrounds API, and 7 more. Tagged areas include Federal Government, Public Lands, Natural Resources, and Geospatial.
+overview: 'Department of the Interior publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Articles API, Campgrounds API, and 7 more. Tagged areas include Federal-Government, Public Lands, Natural Resources, and Geospatial.
 
 
   The Department of the Interior catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -230,7 +230,7 @@ rules:
 score:
   band: thin
   composite: 33.4
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -240,7 +240,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +254,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/screenshots/department-of-the-interior-2026-06-20T175924.png
 security:
@@ -269,7 +269,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: department-of-the-interior
 tags:
-- Federal Government
+- Federal-Government
 - Public Lands
 - Natural Resources
 - Geospatial

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -91,13 +91,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mori.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: mori-mcp.yml
-  slug: mori-mcpyml
+  name: MORI Storefront MCP
+  slug: mori-storefront-mcp
 modified: '2026-07-20'
 name: MORI
 nav: Providers
 network: true
-overview: 'MORI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-commerce, Baby Products, and Consumer Goods.
+overview: 'MORI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Baby Products, and Consumer Goods.
 
 
   MORI''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
@@ -109,24 +109,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 16.3
-  delta: -0.7
+  composite: 17.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 57.4
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 17.0
+  previous_composite: 17.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mori/refs/heads/main/screenshots/mori-2026-08-07T184304.png
 security:
@@ -142,14 +142,14 @@ slug: mori
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Baby Products
 - Consumer Goods
 - Apparel
 - Direct to Consumer
 - Shopify
 - MCP
-- Agent Native
+- agent-native
 - Universal Commerce Protocol
 website: https://babymori.com
 ---

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -390,9 +390,9 @@ jsonld:
   slug: mailmodo-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: mailmodo-mcp.yml
-  slug: mailmodo-mcpyml
+- description: Mailmodo ships a first-party Model Context Protocol server for its public REST API. It is available BOTH as a hosted remote endpoint an MCP client can POST to today and as a local stdio package (npx /
+  name: Mailmodo MCP Server
+  slug: mailmodo-mcp-server
 modified: '2026-08-13'
 name: Mailmodo
 nav: Providers
@@ -437,18 +437,18 @@ rules:
   slug: mailmodo-rules
 score:
   band: exemplar
-  composite: 67.7
-  delta: -16.4
+  composite: 68.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 79.5
     developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 41.7
+    governance: 45.5
     operational_transparency: 26.3
-  previous_composite: 84.1
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -459,9 +459,9 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/screenshots/mailmodo-2026-06-20T184904.png
 security:
 - kind: authentication

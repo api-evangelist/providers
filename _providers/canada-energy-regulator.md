@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 3
 apis:
 - description: The Canada Energy Regulator operates its own ArcGIS Online organization (portal neb-gis.maps.arcgis.com, organization id vNzamREXvX2WcX6d) and hosts 23 public feature services on it. This is the one g
@@ -143,7 +143,7 @@ modified: '2026-07-27'
 name: Canada Energy Regulator
 nav: Providers
 network: true
-overview: 'Canada Energy Regulator publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Canada, Regulation, Government, and Pipelines.
+overview: 'Canada Energy Regulator publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Canada, Regulations, Government, and Pipelines.
 
 
   Canada Energy Regulator''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 19 more developer resources.'
@@ -151,7 +151,7 @@ random_paper: 11
 score:
   band: thin
   composite: 29.2
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -161,7 +161,7 @@ score:
     discoverability: 92.6
     governance: 33.3
     operational_transparency: 2.6
-  previous_composite: 27.1
+  previous_composite: 29.2
   provenance:
     conformance: first-party
   regulatory:
@@ -170,8 +170,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-energy-regulator/refs/heads/main/screenshots/canada-energy-regulator-2026-08-07T162922.png
 security:
@@ -187,7 +187,7 @@ slug: canada-energy-regulator
 tags:
 - Energy
 - Canada
-- Regulation
+- Regulations
 - Government
 - Pipelines
 - Electricity

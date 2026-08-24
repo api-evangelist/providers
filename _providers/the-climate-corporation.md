@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -187,8 +187,8 @@ image: https://s3-us-west-2.amazonaws.com/climate-com/favicons/android-chrome-19
 layout: provider
 mcp_servers:
 - description: ''
-  name: the-climate-corporation-mcp.yml
-  slug: the-climate-corporation-mcpyml
+  name: The Climate Corporation MCP Server
+  slug: the-climate-corporation-mcp-server
 modified: '2026-07-21'
 name: The Climate Corporation
 nav: Providers
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 42.3
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 42.2
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +227,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/screenshots/the-climate-corporation-2026-08-17T082334.png
 security:
@@ -249,6 +249,5 @@ tags:
 - Digital Agriculture
 - Farm Management
 - Geospatial
-- APIs
 website: https://dev.fieldview.com/
 ---

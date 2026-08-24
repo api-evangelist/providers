@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: 'Real-time consumer-insights and decisioning API. Accepts consumer identifiers (phone, email, device, name, address) and returns enriched, AI-ready insights used for onboarding/KYC-AML, fraud and risk '
@@ -81,7 +81,7 @@ modified: '2026-07-20'
 name: Monnai
 nav: Providers
 network: true
-overview: 'Monnai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Insights, Fintech, Financial Services, and Fraud Detection.
+overview: 'Monnai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Insights, Fintech, Financial-Services, and Fraud Detection.
 
 
   Monnai''s developer surface includes developer portal, signup flow, authentication, and 6 more developer resources.'
@@ -89,7 +89,7 @@ random_paper: 12
 score:
   band: emerging
   composite: 16.7
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -99,11 +99,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 15.7
+  previous_composite: 16.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monnai/refs/heads/main/screenshots/monnai-2026-08-07T184208.png
 security:
@@ -120,16 +120,16 @@ tags:
 - Company
 - Consumer Insights
 - Fintech
-- Financial Services
+- Financial-Services
 - Fraud Detection
 - Identity Verification
 - KYC
 - AML
 - Credit Decisioning
 - Risk Assessment
-- Collections
+- Collection
 - Emerging Markets
 - Decisioning
-- OAuth2
+- Authentication
 website: https://monnai.com
 ---

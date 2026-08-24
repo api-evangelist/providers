@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Inductive
 nav: Providers
 network: true
-overview: 'Inductive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Drug Discovery, and Biotechnology.
+overview: 'Inductive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Drug Discovery, and Biotechnology.
 
 
   Inductive''s developer surface includes engineering blog and 7 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 5
 score:
   band: emerging
   composite: 11.8
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -90,7 +90,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 13.7
+  previous_composite: 11.8
   provenance:
     conformance: first-party
   regulatory:
@@ -99,8 +99,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inductive/refs/heads/main/screenshots/inductive-2026-07-25T222338.png
 security:
@@ -112,7 +112,7 @@ slug: inductive
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Drug Discovery
 - Biotechnology
 - Pharmaceuticals

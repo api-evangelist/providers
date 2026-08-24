@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 6
@@ -181,8 +181,8 @@ image: https://assets.devialet.com//media/dvl_media/Visual_Devialet_Phantom_Ulti
 layout: provider
 mcp_servers:
 - description: ''
-  name: devialet-mcp.yml
-  slug: devialet-mcpyml
+  name: Devialet MCP Server
+  slug: devialet-mcp-server
 modified: '2026-08-04'
 name: Devialet
 nav: Providers
@@ -195,7 +195,7 @@ random_paper: 6
 score:
   band: thin
   composite: 28.6
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 28.3
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +216,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/screenshots/devialet-2026-08-07T164327.png
 security:

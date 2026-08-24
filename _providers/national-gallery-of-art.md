@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-04-28'
 name: National Gallery of Art
 nav: Providers
 network: true
-overview: 'National Gallery of Art is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Art, Federal Government, Museum, Open Data, and Cultural Heritage.
+overview: 'National Gallery of Art is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Art, Federal-Government, Museum, Open Data, and Cultural Heritage.
 
 
   National Gallery of Art''s developer surface includes developer portal and 7 more developer resources.'
@@ -80,7 +80,7 @@ random_paper: 13
 score:
   band: minimal
   composite: 5.3
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -90,15 +90,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.4
+  previous_composite: 5.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-gallery-of-art/refs/heads/main/screenshots/national-gallery-of-art-2026-06-20T190020.png
 security:
@@ -109,7 +109,7 @@ security:
 slug: national-gallery-of-art
 tags:
 - Art
-- Federal Government
+- Federal-Government
 - Museum
 - Open Data
 - Cultural Heritage

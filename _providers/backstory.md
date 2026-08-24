@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Backstory's hosted, remote Model Context Protocol server. It lets an AI client query a customer's own Backstory revenue-intelligence data — accounts, opportunities, recent activity, engaged people, sc
@@ -170,14 +170,14 @@ description: 'Backstory (formerly People.ai, rebranded April 2026) is an AI reve
 image: https://cdn.prod.website-files.com/69aab19e3344fee750b8721c/69bc218831a2d8ce7c69e9da_ab2eb85cd7fb357375e2a489f3bb519f_Backstory_OG.jpg
 layout: provider
 mcp_servers:
-- description: ''
-  name: backstory-mcp.yml
-  slug: backstory-mcpyml
+- description: Backstory MCP is the provider's hosted, remote Model Context Protocol server. It lets AI clients (Claude, ChatGPT, Microsoft Copilot, Google Gemini CLI, n8n AI Agent nodes, or any custom MCP client) q
+  name: Backstory MCP
+  slug: backstory-mcp
 modified: '2026-08-14'
 name: Backstory
 nav: Providers
 network: true
-overview: 'Backstory publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Revenue Intelligence, Sales, and CRM.
+overview: 'Backstory publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Revenue Intelligence, Sales, and CRM.
 
 
   Backstory''s developer surface includes engineering blog, pricing, support, documentation, getting-started guide, changelog, authentication, and 25 more developer resources.'
@@ -198,7 +198,7 @@ scopes:
 score:
   band: thin
   composite: 34.6
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -208,13 +208,13 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 37.5
+  previous_composite: 34.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/screenshots/backstory-2026-07-25T202235.png
 security:
@@ -233,7 +233,7 @@ security:
 slug: backstory
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Revenue Intelligence
 - Sales
 - CRM

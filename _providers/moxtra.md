@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: Moxtra's REST API for building embedded collaboration experiences, covering users, binders (workspaces), pages, messages, files, meetings, todos, signatures, and webhooks. Authentication uses OAuth 2.
@@ -84,7 +84,7 @@ modified: '2026-05-11'
 name: Moxtra
 nav: Providers
 network: true
-overview: 'Moxtra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Customer Engagement, Messaging, Video Conferencing, and Workflow.
+overview: 'Moxtra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Customer Engagement, Messaging, Video Conferencing, and Workflows.
 
 
   Moxtra''s developer surface includes documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
@@ -92,7 +92,7 @@ random_paper: 16
 score:
   band: emerging
   composite: 15.9
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -102,9 +102,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.0
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  previous_composite: 15.9
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxtra/refs/heads/main/screenshots/moxtra-2026-06-20T185836.png
 security:
@@ -122,8 +122,8 @@ tags:
 - Customer Engagement
 - Messaging
 - Video Conferencing
-- Workflow
+- Workflows
 - Embedded SDK
-- Communication
+- Communications
 website: https://www.moxo.com
 ---

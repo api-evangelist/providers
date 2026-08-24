@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: The NeuBird production-operations API — projects, connections, investigation sessions, and root-cause analysis. Documented and driven through the official MCP server; authenticated with an Auth0-issue
@@ -138,9 +138,9 @@ description: NeuBird AI is "The Production Operations Agent" — an autonomous A
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neubird.png
 layout: provider
 mcp_servers:
-- description: ''
-  name: neubird-mcp.yml
-  slug: neubird-mcpyml
+- description: Official Model Context Protocol server for NeuBird AI (The Production Operations Agent). Lets AI assistants like Claude Code, Cursor, and GitHub Copilot drive NeuBird's autonomous incident investigati
+  name: Neubird MCP Server
+  slug: neubird-mcp-server
 modified: '2026-07-20'
 name: Neubird
 nav: Providers
@@ -153,7 +153,7 @@ random_paper: 10
 score:
   band: thin
   composite: 35.3
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -163,13 +163,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 38.0
+  previous_composite: 35.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neubird/refs/heads/main/screenshots/neubird-2026-08-07T184959.png
 security:
@@ -195,7 +195,7 @@ tags:
 - DevOps
 - AIOps
 - Root Cause Analysis
-- Model Context Protocol
+- MCP
 - Agentic AI
 website: https://neubird.ai
 ---

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -138,7 +138,7 @@ scopes:
 score:
   band: emerging
   composite: 24.2
-  delta: -8.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -148,7 +148,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 32.2
+  previous_composite: 24.2
   provenance:
     conformance: first-party
   regulatory:
@@ -157,9 +157,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/screenshots/bupa-australia-2026-07-25T204113.png
 security:
 - kind: authentication

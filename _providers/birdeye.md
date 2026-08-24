@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 0
@@ -922,8 +922,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: birdeye-mcp.yml
-  slug: birdeye-mcpyml
+  name: Birdeye
+  slug: birdeye
 modified: 2026-08-13
 name: Birdeye
 nav: Providers
@@ -963,7 +963,7 @@ scopes:
 score:
   band: exemplar
   composite: 73.3
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -973,7 +973,7 @@ score:
     discoverability: 92.6
     governance: 40.2
     operational_transparency: 73.7
-  previous_composite: 81.5
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -984,9 +984,9 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
-  trend: falling
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/screenshots/birdeye-2026-06-20T173257.png
 security:
 - kind: authentication
@@ -1013,6 +1013,6 @@ tags:
 - Surveys
 - Messaging
 - Multi-Location
-- AI
+- Artificial Intelligence
 website: https://birdeye.com/
 ---

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -892,8 +892,8 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: amazon-api-gateway-mcp.yml
-  slug: amazon-api-gateway-mcpyml
+  name: Amazon API Gateway MCP Server
+  slug: amazon-api-gateway-mcp-server
 modified: '2026-06-20'
 name: Amazon API Gateway
 nav: Providers
@@ -942,7 +942,7 @@ rules:
 score:
   band: strong
   composite: 54.4
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -952,7 +952,7 @@ score:
     discoverability: 77.8
     governance: 45.5
     operational_transparency: 2.6
-  previous_composite: 57.6
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -962,8 +962,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: derived
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png
 security:

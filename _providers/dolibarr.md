@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: REST API for the Dolibarr ERP/CRM platform providing full CRUD operations on business objects including contacts, invoices, products, orders, projects, banking entries, and HR records. Available on an
@@ -110,7 +110,7 @@ modified: 2026-06-13
 name: Dolibarr
 nav: Providers
 network: true
-overview: 'Dolibarr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, CRM, Open Source, Invoices, and Contacts.
+overview: 'Dolibarr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, CRM, Open-Source, Invoices, and Contacts.
 
 
   The Dolibarr catalog on APIs.io includes 1 JSON-LD context.
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.1
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -139,15 +139,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.3
+  previous_composite: 21.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolibarr/refs/heads/main/screenshots/dolibarr-2026-06-20T180134.png
 security:
@@ -159,12 +159,12 @@ slug: dolibarr
 tags:
 - ERP
 - CRM
-- Open Source
+- Open-Source
 - Invoices
 - Contacts
-- Orders
-- Products
-- Projects
+- Order
+- Product
+- Project
 - Banking
 - HR
 - Business

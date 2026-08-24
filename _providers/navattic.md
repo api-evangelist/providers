@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.4
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: The Navattic REST API allows developers to programmatically create and manage interactive product demos, retrieve analytics and engagement data, and integrate demo activity into downstream systems. Na
@@ -226,9 +226,9 @@ jsonld:
   slug: navattic-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: navattic-mcp.yml
-  slug: navattic-mcpyml
+- description: Navattic ships a first-party, hosted remote MCP server. It is the company's primary machine-readable product surface — there is no public REST API reference — and it is reachable by any MCP client tha
+  name: Navattic MCP Server
+  slug: navattic-mcp-server
 modified: 2026-08-13
 name: Navattic
 nav: Providers
@@ -257,7 +257,7 @@ scopes:
 score:
   band: strong
   composite: 60.4
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -267,7 +267,7 @@ score:
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 60.2
+  previous_composite: 60.4
   provenance:
     conformance: first-party
     contracts:
@@ -277,8 +277,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png
 security:
@@ -305,7 +305,7 @@ tags:
 - Sales Enablement
 - Marketing
 - No-Code
-- Webhooks
+- Webhook
 - CRM Integration
 - Sales Automation
 - MCP

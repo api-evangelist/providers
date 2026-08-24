@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 2
 apis:
 - description: A live remote Model Context Protocol endpoint that exposes DoubleVerify's media quality, verification and performance data to an AI assistant as the DV Neura Insight Agent. DoubleVerify states that cl
@@ -191,8 +191,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/doubleveri
 layout: provider
 mcp_servers:
 - description: ''
-  name: doubleverify-mcp.yml
-  slug: doubleverify-mcpyml
+  name: DV Neura MCP Server
+  slug: dv-neura-mcp-server
 modified: '2026-08-13'
 name: DoubleVerify
 nav: Providers
@@ -218,7 +218,7 @@ scopes:
 score:
   band: thin
   composite: 26.4
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -228,12 +228,12 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 27.3
+  previous_composite: 26.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/screenshots/doubleverify-2026-06-20T180204.png
 security:

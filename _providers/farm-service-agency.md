@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.0
-  scored_at: '2026-08-19'
+  scored_at: '2026-08-24'
 api_count: 1
 apis:
 - description: As directed by the OPEN (Open, Public, Electronic, and Necessary) Government Data Act and through its commitment to United States agriculturalists and interested public, FSA provides numerous data res
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: Farm Service Agency
 nav: Providers
 network: true
-overview: Farm Service Agency publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture and Federal Government.
+overview: Farm Service Agency publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture and Federal-Government.
 plans:
 - name: Farm Service Agency Plans Pricing
   plan_count: 3
@@ -70,7 +70,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.6
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -86,15 +86,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 9.5
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.0
-  scored_at: '2026-08-19'
+  schema_version: 0.12.1
+  scored_at: '2026-08-24'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farm-service-agency/refs/heads/main/screenshots/farm-service-agency-2026-06-20T181041.png
 security:
@@ -105,5 +105,5 @@ security:
 slug: farm-service-agency
 tags:
 - Agriculture
-- Federal Government
+- Federal-Government
 ---
